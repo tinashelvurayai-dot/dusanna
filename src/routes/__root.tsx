@@ -95,6 +95,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
+      { rel: "preconnect", href: "https://i.postimg.cc", crossOrigin: "" },
+      { rel: "dns-prefetch", href: "https://i.postimg.cc" },
     ],
   }),
   shellComponent: RootShell,
