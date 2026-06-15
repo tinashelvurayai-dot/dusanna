@@ -14,29 +14,32 @@ export interface CertificateData {
  * Renders the certificate / diploma by overlaying real student data on top of
  * the official Edusanna skeleton artwork (with the gold frame).
  *
- * Each overlay sits on a solid parchment-coloured background so the underlying
- * `{{placeholder}}` text in the skeleton image is fully masked (we previously
- * had both texts visible). Positions are percentage based so the layout scales
- * with the container.
+ * Each overlay is a SOLID parchment-coloured block that fully covers the
+ * underlying `{{placeholder}}` text in the skeleton image. The block is sized
+ * to the placeholder area (NOT to the inserted text length) so the original
+ * template text is never visible alongside the user data. Positions and
+ * sizes are percentage based so the layout scales with the container.
  */
 export function CertificatePreview({ data }: { data: CertificateData }) {
   const isDiploma = data.level === "diploma";
   const bg = isDiploma ? diplomaSkeleton.url : certificateSkeleton.url;
-  const paper = isDiploma ? "#F7F3F5" : "#FCF7F6";
+  const paper = isDiploma ? "#F4EFF1" : "#FAF4F2";
   const studentName = data.studentName || "Student Name";
   const courseName = data.courseName || "Course Name";
   const certId = data.certificateId || "EDU-XXXX-XXXX";
   const skills = (data.skills ?? []).slice(0, 6).join(" • ");
 
-  // Reusable mask style — solid parchment swatch with a touch of horizontal
-  // padding so it fully covers the placeholder beneath.
-  const mask = (extra: React.CSSProperties = {}): React.CSSProperties => ({
+  // Solid mask rectangle that hides the placeholder beneath. Sized by the
+  // wrapper; the inner text is centred inside it.
+  const slot: React.CSSProperties = {
+    position: "absolute",
     background: paper,
-    padding: "0.4cqw 1.2cqw",
-    borderRadius: "0.3cqw",
-    display: "inline-block",
-    ...extra,
-  });
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    overflow: "hidden",
+    borderRadius: "0.2cqw",
+  };
 
   return (
     <div className="cert-print-area">
@@ -52,97 +55,99 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           decoding="async"
         />
 
-        {/* Student name — centred over {{student_name}} */}
+        {/* Student name — covers the wide {{student_name}} band */}
         <div
-          className="absolute left-1/2 -translate-x-1/2 text-center"
-          style={{ top: "40%", width: "70%" }}
+          style={{
+            ...slot,
+            left: "18%",
+            right: "18%",
+            top: "37.5%",
+            height: "8.5%",
+          }}
         >
           <span
-            style={mask({
-              maxWidth: "100%",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              whiteSpace: "nowrap",
-            })}
+            className="font-serif font-black text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "2.6cqw", padding: "0 1cqw" }}
           >
-            <span
-              className="font-serif font-black text-[#15103a] leading-tight"
-              style={{ fontSize: "2.8cqw" }}
-            >
-              {studentName}
-            </span>
+            {studentName}
           </span>
         </div>
 
-        {/* Course name — centred over {{course_name}} */}
+        {/* Course name */}
         <div
-          className="absolute left-1/2 -translate-x-1/2 text-center"
-          style={{ top: "53.5%", width: "72%" }}
+          style={{
+            ...slot,
+            left: "14%",
+            right: "14%",
+            top: "51.5%",
+            height: "7.5%",
+          }}
         >
           <span
-            style={mask({
-              maxWidth: "100%",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              whiteSpace: "nowrap",
-            })}
+            className="font-serif italic text-[#3a1f6b] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "2.2cqw", padding: "0 1cqw" }}
           >
-            <span
-              className="font-serif italic text-[#3a1f6b] leading-tight"
-              style={{ fontSize: "2.4cqw" }}
-            >
-              {courseName}
-            </span>
+            {courseName}
           </span>
         </div>
 
-        {/* Skills list (diploma only) — masks {{skills_list}} */}
+        {/* Skills list (diploma only) — covers {{skills_list}} */}
         {isDiploma && (
           <div
-            className="absolute left-1/2 -translate-x-1/2 text-center"
-            style={{ top: "66%", width: "70%" }}
+            style={{
+              ...slot,
+              left: "22%",
+              right: "22%",
+              top: "64%",
+              height: "5.5%",
+            }}
           >
-            <span style={mask({ maxWidth: "100%" })}>
-              <span
-                className="text-[#4a2f7a]"
-                style={{ fontSize: "1.4cqw" }}
-              >
-                {skills || "—"}
-              </span>
+            <span
+              className="text-[#4a2f7a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+              style={{ fontSize: "1.4cqw", padding: "0 1cqw" }}
+            >
+              {skills || "—"}
             </span>
           </div>
         )}
 
-        {/* Certificate ID — sits after the printed "Certificate ID:" label.
-            The placeholder {{certificate_id}} starts roughly at 55% from the
-            left edge for both layouts, so we anchor the mask there. */}
+        {/* Certificate ID value — sits to the right of the printed
+            "Certificate ID:" label and masks {{certificate_id}}. */}
         <div
-          className="absolute"
-          style={{ left: "55%", top: isDiploma ? "75.2%" : "66%" }}
+          style={{
+            ...slot,
+            justifyContent: "flex-start",
+            left: "53%",
+            right: "27%",
+            top: isDiploma ? "73.5%" : "64.2%",
+            height: "5%",
+          }}
         >
-          <span style={mask()}>
-            <span
-              className="font-serif text-[#15103a]"
-              style={{ fontSize: "1.5cqw" }}
-            >
-              {certId}
-            </span>
+          <span
+            className="font-serif text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "1.5cqw", padding: "0 0.6cqw" }}
+          >
+            {certId}
           </span>
         </div>
 
-        {/* Completion date — anchored exactly where {{completion_date}} starts
-            on the bottom-left "Issued" plinth. */}
+        {/* Completion date — left-aligned over {{completion_date}} above
+            the "Issued" plinth in the bottom-left of the certificate. */}
         <div
-          className="absolute"
-          style={{ left: "19%", top: isDiploma ? "90.5%" : "86.5%" }}
+          style={{
+            ...slot,
+            justifyContent: "flex-start",
+            left: "18%",
+            right: "62%",
+            top: isDiploma ? "88.5%" : "84.5%",
+            height: "5%",
+          }}
         >
-          <span style={mask()}>
-            <span
-              className="font-serif italic text-[#15103a]"
-              style={{ fontSize: "1.5cqw" }}
-            >
-              {data.date}
-            </span>
+          <span
+            className="font-serif italic text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "1.5cqw", padding: "0 0.6cqw" }}
+          >
+            {data.date}
           </span>
         </div>
       </div>
