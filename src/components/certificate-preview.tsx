@@ -1,5 +1,5 @@
-import { Award } from "lucide-react";
-import logo from "@/assets/edusanna-logo.png.asset.json";
+import certificateSkeleton from "@/assets/certificate-skeleton.png.asset.json";
+import diplomaSkeleton from "@/assets/diploma-skeleton.png.asset.json";
 
 export interface CertificateData {
   studentName: string;
@@ -7,46 +7,78 @@ export interface CertificateData {
   level: "certificate" | "diploma";
   date: string;
   certificateId: string;
+  skills?: string[];
 }
 
 export function CertificatePreview({ data }: { data: CertificateData }) {
-  const levelLabel = data.level === "diploma" ? "Diploma" : "Certificate";
+  const isDiploma = data.level === "diploma";
+  const bg = isDiploma ? diplomaSkeleton.url : certificateSkeleton.url;
+  const studentName = data.studentName || "Student Name";
+  const courseName = data.courseName || "Course Name";
+  const certId = data.certificateId || "EDU-XXXX-XXXX";
+  const skills = (data.skills ?? []).slice(0, 6).join(" • ");
+
   return (
-    <div className="cert-print-area bg-white">
-      <div className="relative mx-auto w-full max-w-3xl aspect-[1.414/1] border-[10px] border-blue-900 p-2">
-        <div className="h-full w-full border-2 border-amber-400 p-6 sm:p-10 flex flex-col items-center text-center bg-gradient-to-br from-white to-blue-50">
-          <img src={logo.url} alt="Edusanna" className="w-16 h-16 object-contain mb-2" />
-          <h2 className="text-2xl font-black tracking-wide text-blue-900">EDUSANNA</h2>
-          <p className="text-[11px] uppercase tracking-[0.3em] text-blue-500 mb-4">Elevate Your Mind</p>
-
-          <p className="text-sm uppercase tracking-[0.25em] text-amber-600 font-semibold">
-            {levelLabel} of Completion
-          </p>
-          <p className="text-xs text-blue-600 mt-3">This is proudly presented to</p>
-          <p className="text-3xl sm:text-4xl font-black text-blue-900 my-2 font-serif">
-            {data.studentName || "Student Name"}
-          </p>
-          <p className="text-xs text-blue-600">for successfully completing</p>
-          <p className="text-lg sm:text-xl font-bold text-purple-700 mt-1">
-            {data.courseName || "Course Name"}
-          </p>
-
-          <div className="flex-1" />
-
-          <div className="w-full flex items-end justify-between mt-6">
-            <div className="text-left">
-              <div className="w-32 border-t border-blue-300 pt-1 text-xs text-blue-600">Date</div>
-              <div className="text-sm font-semibold text-blue-900">{data.date}</div>
-            </div>
-            <Award className="w-12 h-12 text-amber-500" />
-            <div className="text-right">
-              <div className="w-32 border-t border-blue-300 pt-1 text-xs text-blue-600 ml-auto">Authorized</div>
-              <div className="text-sm font-semibold text-blue-900 italic">Edusanna Online Learning</div>
-            </div>
+    <div className="cert-print-area">
+      <div
+        className="relative mx-auto w-full max-w-4xl aspect-[1.5/1] bg-no-repeat bg-cover bg-center rounded-lg overflow-hidden shadow-2xl"
+        style={{ backgroundImage: `url(${bg})` }}
+      >
+        <img
+          src={bg}
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
+          loading="eager"
+          decoding="async"
+        />
+        {/* Overlay content positioned over the skeleton */}
+        <div className="absolute inset-0 flex flex-col items-center text-center px-[12%] pt-[20%]">
+          <div className="w-full">
+            <p className="font-serif italic text-[2.2%] sm:text-[1.6cqw] text-[#3a2a6b]" style={{ fontSize: "clamp(10px, 1.6cqw, 18px)" }}>
+              {/* spacer kept by absolute layout */}
+            </p>
           </div>
-          <p className="text-[10px] text-blue-400 mt-3">
-            Verification ID: <span className="font-mono">{data.certificateId || "EDU-XXXX-XXXX"}</span>
-          </p>
+
+          <div className="mt-[2%] w-full">
+            <p
+              className="font-serif font-black text-[#1a1230] leading-none"
+              style={{ fontSize: "clamp(18px, 3.6cqw, 44px)" }}
+            >
+              {studentName}
+            </p>
+          </div>
+
+          <div className="mt-[6%] w-full">
+            <p
+              className="font-serif italic text-[#3a1f6b]"
+              style={{ fontSize: "clamp(12px, 2.2cqw, 26px)" }}
+            >
+              {courseName}
+            </p>
+          </div>
+
+          {isDiploma && skills && (
+            <div className="mt-[3%] w-full">
+              <p className="text-[#5a3a8a]" style={{ fontSize: "clamp(8px, 1.1cqw, 14px)" }}>
+                {skills}
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Bottom-left date & bottom certificate id overlay */}
+        <div className="absolute left-[8%] bottom-[8%]" style={{ fontSize: "clamp(8px, 1.1cqw, 13px)" }}>
+          <span className="font-serif italic text-[#1a1230]">{data.date}</span>
+        </div>
+        <div
+          className="absolute left-1/2 -translate-x-1/2"
+          style={{
+            bottom: isDiploma ? "40%" : "32%",
+            fontSize: "clamp(8px, 1.1cqw, 13px)",
+          }}
+        >
+          <span className="font-serif text-[#1a1230]">ID: {certId}</span>
         </div>
       </div>
     </div>
