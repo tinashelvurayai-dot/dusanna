@@ -98,7 +98,7 @@ function CoursesPage() {
                     <Link key={course.id} to="/course/$id" params={{ id: course.id }} className="course-card p-6 block">
                       {image ? (
                         <div className="w-full h-32 rounded-2xl overflow-hidden mb-4 bg-blue-50">
-                          <img src={image} alt={course.certificateTitle} loading="lazy" className="w-full h-full object-cover" />
+                          <img src={image} alt={course.certificateTitle} loading="lazy" decoding="async" width={400} height={200} className="w-full h-full object-cover" />
                         </div>
                       ) : (
                         <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${course.color} flex items-center justify-center mb-4`}>

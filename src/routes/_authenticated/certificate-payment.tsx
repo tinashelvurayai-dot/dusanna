@@ -1,13 +1,16 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { Award, ArrowLeft, Loader2, ShieldCheck } from "lucide-react";
+import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { SiteNavbar } from "@/components/site-navbar";
 import { SiteFooter } from "@/components/site-footer";
 import { toast } from "sonner";
 import { getCatalogItem, getCourseTitle, PRICES, type CourseLevel } from "@/lib/courses";
 import { createPayPalOrder } from "@/lib/paypal.functions";
+import { getMyFullName, verifyFullName } from "@/lib/profile.functions";
 
 type Search = { courseId: string; level: CourseLevel; error?: string };
 
@@ -24,7 +27,13 @@ function CertificatePaymentPage() {
   const { courseId, level, error } = Route.useSearch();
   const navigate = useNavigate();
   const createOrder = useServerFn(createPayPalOrder);
+  const fetchName = useServerFn(getMyFullName);
+  const saveName = useServerFn(verifyFullName);
   const [loading, setLoading] = useState(false);
+  const [nameLoaded, setNameLoaded] = useState(false);
+  const [fullName, setFullName] = useState("");
+  const [verified, setVerified] = useState(false);
+  const [savingName, setSavingName] = useState(false);
 
   const item = getCatalogItem(courseId);
   const title = item ? getCourseTitle(item, level) : courseId;
@@ -34,9 +43,41 @@ function CertificatePaymentPage() {
     if (error === "cancelled") toast.info("Payment cancelled. You can try again any time.");
   }, [error]);
 
+  useEffect(() => {
+    let active = true;
+    fetchName({})
+      .then((r) => {
+        if (!active) return;
+        setFullName(r.fullName ?? "");
+        setNameLoaded(true);
+      })
+      .catch(() => setNameLoaded(true));
+    return () => {
+      active = false;
+    };
+  }, [fetchName]);
+
+  const handleVerify = async () => {
+    setSavingName(true);
+    try {
+      const r = await saveName({ data: { fullName } });
+      setFullName(r.fullName);
+      setVerified(true);
+      toast.success("Name verified. This is what will appear on your certificate.");
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Could not save name.");
+    } finally {
+      setSavingName(false);
+    }
+  };
+
   const handlePay = async () => {
     if (!item) {
       toast.error("Course not found.");
+      return;
+    }
+    if (!verified) {
+      toast.error("Please verify your full name first.");
       return;
     }
     setLoading(true);
@@ -67,6 +108,39 @@ function CertificatePaymentPage() {
             <h1 className="text-2xl font-bold text-blue-900 mb-1">Official {level === "diploma" ? "Diploma" : "Certificate"}</h1>
             <p className="text-blue-600 mb-6">{title}</p>
 
+            {/* Full name verification - required before checkout */}
+            <div className="rounded-xl bg-amber-50 border border-amber-200 p-5 mb-6 text-left">
+              <div className="flex items-center gap-2 mb-2">
+                <UserCheck className="w-4 h-4 text-amber-700" />
+                <span className="text-sm font-bold text-amber-900">Verify your Full Name</span>
+              </div>
+              <p className="text-xs text-amber-800 mb-3">
+                This is exactly how your name will appear on your certificate. Please double-check the spelling.
+              </p>
+              <Label htmlFor="full-name" className="text-xs text-blue-900">Full name</Label>
+              <Input
+                id="full-name"
+                value={fullName}
+                disabled={!nameLoaded || savingName}
+                onChange={(e) => {
+                  setFullName(e.target.value);
+                  setVerified(false);
+                }}
+                placeholder="Your full legal name"
+                className="mt-1 mb-3"
+              />
+              <Button
+                type="button"
+                onClick={handleVerify}
+                disabled={!nameLoaded || savingName || verified}
+                variant={verified ? "outline" : "default"}
+                className="w-full"
+              >
+                {savingName ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : null}
+                {verified ? "Name verified ✓" : "Verify name"}
+              </Button>
+            </div>
+
             <div className="rounded-xl bg-blue-50 border border-blue-100 p-5 mb-6 text-left">
               <div className="flex justify-between text-blue-800 mb-2">
                 <span>{level === "diploma" ? "Diploma" : "Certificate"} credential</span>
@@ -78,7 +152,7 @@ function CertificatePaymentPage() {
               </div>
             </div>
 
-            <Button onClick={handlePay} disabled={loading} className="premium-button w-full py-3 text-lg">
+            <Button onClick={handlePay} disabled={loading || !verified} className="premium-button w-full py-3 text-lg">
               {loading ? <Loader2 className="w-5 h-5 mr-2 animate-spin" /> : null}
               Pay with PayPal
             </Button>

@@ -1,5 +1,5 @@
-import { Award } from "lucide-react";
-import logo from "@/assets/edusanna-logo.png.asset.json";
+import certificateSkeleton from "@/assets/certificate-skeleton.png.asset.json";
+import diplomaSkeleton from "@/assets/diploma-skeleton.png.asset.json";
 
 export interface CertificateData {
   studentName: string;
@@ -7,45 +7,100 @@ export interface CertificateData {
   level: "certificate" | "diploma";
   date: string;
   certificateId: string;
+  skills?: string[];
 }
 
+/**
+ * Renders the certificate / diploma by overlaying real student data on top of
+ * the official Edusanna skeleton artwork (with the gold frame). All positions
+ * are percentage based so the layout scales with the container.
+ */
 export function CertificatePreview({ data }: { data: CertificateData }) {
-  const levelLabel = data.level === "diploma" ? "Diploma" : "Certificate";
+  const isDiploma = data.level === "diploma";
+  const bg = isDiploma ? diplomaSkeleton.url : certificateSkeleton.url;
+  const studentName = data.studentName || "Student Name";
+  const courseName = data.courseName || "Course Name";
+  const certId = data.certificateId || "EDU-XXXX-XXXX";
+  const skills = (data.skills ?? []).slice(0, 6).join(" • ");
+
   return (
-    <div className="cert-print-area bg-white">
-      <div className="relative mx-auto w-full max-w-3xl aspect-[1.414/1] border-[10px] border-blue-900 p-2">
-        <div className="h-full w-full border-2 border-amber-400 p-6 sm:p-10 flex flex-col items-center text-center bg-gradient-to-br from-white to-blue-50">
-          <img src={logo.url} alt="Edusanna" className="w-16 h-16 object-contain mb-2" />
-          <h2 className="text-2xl font-black tracking-wide text-blue-900">EDUSANNA</h2>
-          <p className="text-[11px] uppercase tracking-[0.3em] text-blue-500 mb-4">Elevate Your Mind</p>
+    <div className="cert-print-area">
+      <div
+        className="relative mx-auto w-full max-w-4xl rounded-lg overflow-hidden shadow-2xl"
+        style={{ aspectRatio: "1536 / 1024", containerType: "inline-size" }}
+      >
+        <img
+          src={bg}
+          alt={isDiploma ? "Edusanna Diploma" : "Edusanna Certificate"}
+          className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"
+          loading="eager"
+          decoding="async"
+        />
 
-          <p className="text-sm uppercase tracking-[0.25em] text-amber-600 font-semibold">
-            {levelLabel} of Completion
+        {/* Student name */}
+        <div
+          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
+          style={{ top: isDiploma ? "37%" : "39%" }}
+        >
+          <p
+            className="font-serif font-black text-[#15103a] leading-tight truncate"
+            style={{ fontSize: "4.2cqw" }}
+          >
+            {studentName}
           </p>
-          <p className="text-xs text-blue-600 mt-3">This is proudly presented to</p>
-          <p className="text-3xl sm:text-4xl font-black text-blue-900 my-2 font-serif">
-            {data.studentName || "Student Name"}
-          </p>
-          <p className="text-xs text-blue-600">for successfully completing</p>
-          <p className="text-lg sm:text-xl font-bold text-purple-700 mt-1">
-            {data.courseName || "Course Name"}
-          </p>
+        </div>
 
-          <div className="flex-1" />
+        {/* Course name */}
+        <div
+          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
+          style={{ top: isDiploma ? "55%" : "53%" }}
+        >
+          <p
+            className="font-serif italic text-[#3a1f6b] leading-tight truncate"
+            style={{ fontSize: "3cqw" }}
+          >
+            {courseName}
+          </p>
+        </div>
 
-          <div className="w-full flex items-end justify-between mt-6">
-            <div className="text-left">
-              <div className="w-32 border-t border-blue-300 pt-1 text-xs text-blue-600">Date</div>
-              <div className="text-sm font-semibold text-blue-900">{data.date}</div>
-            </div>
-            <Award className="w-12 h-12 text-amber-500" />
-            <div className="text-right">
-              <div className="w-32 border-t border-blue-300 pt-1 text-xs text-blue-600 ml-auto">Authorized</div>
-              <div className="text-sm font-semibold text-blue-900 italic">Edusanna Online Learning</div>
-            </div>
+        {/* Skills list (diploma only) */}
+        {isDiploma && skills && (
+          <div
+            className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
+            style={{ top: "70%" }}
+          >
+            <p
+              className="text-[#4a2f7a]"
+              style={{ fontSize: "1.4cqw" }}
+            >
+              {skills}
+            </p>
           </div>
-          <p className="text-[10px] text-blue-400 mt-3">
-            Verification ID: <span className="font-mono">{data.certificateId || "EDU-XXXX-XXXX"}</span>
+        )}
+
+        {/* Certificate ID */}
+        <div
+          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
+          style={{ top: isDiploma ? "78%" : "65%" }}
+        >
+          <p
+            className="font-serif text-[#15103a]"
+            style={{ fontSize: "1.5cqw" }}
+          >
+            ID: {certId}
+          </p>
+        </div>
+
+        {/* Completion date (bottom-left) */}
+        <div
+          className="absolute text-left"
+          style={{ left: "10%", top: "86%" }}
+        >
+          <p
+            className="font-serif italic text-[#15103a]"
+            style={{ fontSize: "1.6cqw" }}
+          >
+            {data.date}
           </p>
         </div>
       </div>

@@ -93,7 +93,8 @@ function Index() {
           >
             <span className="text-white">Learn Anything.</span>
             <br />
-            <span className="text-blue-900">Completely Free.</span>
+            <span className="text-blue-500">Completely Free.</span>
+
           </motion.h1>
 
           <p className="text-lg md:text-2xl text-blue-800 mb-10 max-w-3xl mx-auto leading-relaxed font-light">

@@ -89,7 +89,7 @@ function CoursePage() {
             <div className="flex items-start gap-5">
               {image ? (
                 <div className="w-24 h-24 rounded-2xl overflow-hidden flex-shrink-0 bg-blue-50">
-                  <img src={image} alt={item.certificateTitle} className="w-full h-full object-cover" />
+                  <img src={image} alt={item.certificateTitle} loading="eager" fetchPriority="high" decoding="async" width={200} height={200} className="w-full h-full object-cover" />
                 </div>
               ) : (
                 <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${item.color} flex items-center justify-center flex-shrink-0`}>
