@@ -117,10 +117,10 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           style={{
             ...slot,
             justifyContent: "flex-start",
-            left: "49%",
-            right: "23%",
-            top: isDiploma ? "73.2%" : "65.4%",
-            height: "5%",
+            left: "46%",
+            right: "22%",
+            top: isDiploma ? "73%" : "65.2%",
+            height: "5.4%",
           }}
         >
           <span
@@ -139,7 +139,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             justifyContent: "flex-start",
             left: "18%",
             right: "60%",
-            top: isDiploma ? "90.3%" : "86.5%",
+            top: isDiploma ? "89.5%" : "85.5%",
             height: "5%",
           }}
         >
