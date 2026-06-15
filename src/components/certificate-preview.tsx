@@ -12,16 +12,31 @@ export interface CertificateData {
 
 /**
  * Renders the certificate / diploma by overlaying real student data on top of
- * the official Edusanna skeleton artwork (with the gold frame). All positions
- * are percentage based so the layout scales with the container.
+ * the official Edusanna skeleton artwork (with the gold frame).
+ *
+ * Each overlay sits on a solid parchment-coloured background so the underlying
+ * `{{placeholder}}` text in the skeleton image is fully masked (we previously
+ * had both texts visible). Positions are percentage based so the layout scales
+ * with the container.
  */
 export function CertificatePreview({ data }: { data: CertificateData }) {
   const isDiploma = data.level === "diploma";
   const bg = isDiploma ? diplomaSkeleton.url : certificateSkeleton.url;
+  const paper = isDiploma ? "#F7F3F5" : "#FCF7F6";
   const studentName = data.studentName || "Student Name";
   const courseName = data.courseName || "Course Name";
   const certId = data.certificateId || "EDU-XXXX-XXXX";
   const skills = (data.skills ?? []).slice(0, 6).join(" • ");
+
+  // Reusable mask style — solid parchment swatch with a touch of horizontal
+  // padding so it fully covers the placeholder beneath.
+  const mask = (extra: React.CSSProperties = {}): React.CSSProperties => ({
+    background: paper,
+    padding: "0.4cqw 1.2cqw",
+    borderRadius: "0.3cqw",
+    display: "inline-block",
+    ...extra,
+  });
 
   return (
     <div className="cert-print-area">
@@ -37,71 +52,98 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           decoding="async"
         />
 
-        {/* Student name */}
+        {/* Student name — centred over {{student_name}} */}
         <div
-          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-          style={{ top: isDiploma ? "37%" : "39%" }}
+          className="absolute left-1/2 -translate-x-1/2 text-center"
+          style={{ top: "40%", width: "70%" }}
         >
-          <p
-            className="font-serif font-black text-[#15103a] leading-tight truncate"
-            style={{ fontSize: "4.2cqw" }}
+          <span
+            style={mask({
+              maxWidth: "100%",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              whiteSpace: "nowrap",
+            })}
           >
-            {studentName}
-          </p>
-        </div>
-
-        {/* Course name */}
-        <div
-          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-          style={{ top: isDiploma ? "55%" : "53%" }}
-        >
-          <p
-            className="font-serif italic text-[#3a1f6b] leading-tight truncate"
-            style={{ fontSize: "3cqw" }}
-          >
-            {courseName}
-          </p>
-        </div>
-
-        {/* Skills list (diploma only) */}
-        {isDiploma && skills && (
-          <div
-            className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-            style={{ top: "70%" }}
-          >
-            <p
-              className="text-[#4a2f7a]"
-              style={{ fontSize: "1.4cqw" }}
+            <span
+              className="font-serif font-black text-[#15103a] leading-tight"
+              style={{ fontSize: "2.8cqw" }}
             >
-              {skills}
-            </p>
+              {studentName}
+            </span>
+          </span>
+        </div>
+
+        {/* Course name — centred over {{course_name}} */}
+        <div
+          className="absolute left-1/2 -translate-x-1/2 text-center"
+          style={{ top: "53.5%", width: "72%" }}
+        >
+          <span
+            style={mask({
+              maxWidth: "100%",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              whiteSpace: "nowrap",
+            })}
+          >
+            <span
+              className="font-serif italic text-[#3a1f6b] leading-tight"
+              style={{ fontSize: "2.4cqw" }}
+            >
+              {courseName}
+            </span>
+          </span>
+        </div>
+
+        {/* Skills list (diploma only) — masks {{skills_list}} */}
+        {isDiploma && (
+          <div
+            className="absolute left-1/2 -translate-x-1/2 text-center"
+            style={{ top: "66%", width: "70%" }}
+          >
+            <span style={mask({ maxWidth: "100%" })}>
+              <span
+                className="text-[#4a2f7a]"
+                style={{ fontSize: "1.4cqw" }}
+              >
+                {skills || "—"}
+              </span>
+            </span>
           </div>
         )}
 
-        {/* Certificate ID */}
+        {/* Certificate ID — sits after the printed "Certificate ID:" label.
+            The placeholder {{certificate_id}} starts roughly at 55% from the
+            left edge for both layouts, so we anchor the mask there. */}
         <div
-          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-          style={{ top: isDiploma ? "78%" : "65%" }}
+          className="absolute"
+          style={{ left: "55%", top: isDiploma ? "75.2%" : "66%" }}
         >
-          <p
-            className="font-serif text-[#15103a]"
-            style={{ fontSize: "1.5cqw" }}
-          >
-            ID: {certId}
-          </p>
+          <span style={mask()}>
+            <span
+              className="font-serif text-[#15103a]"
+              style={{ fontSize: "1.5cqw" }}
+            >
+              {certId}
+            </span>
+          </span>
         </div>
 
-        {/* Completion date (bottom-left) */}
+        {/* Completion date — anchored exactly where {{completion_date}} starts
+            on the bottom-left "Issued" plinth. */}
         <div
-          className="absolute text-left"
-          style={{ left: "10%", top: "86%" }}
+          className="absolute"
+          style={{ left: "19%", top: isDiploma ? "90.5%" : "86.5%" }}
         >
-          <p
-            className="font-serif italic text-[#15103a]"
-            style={{ fontSize: "1.6cqw" }}
-          >
-            {data.date}
-          </p>
+          <span style={mask()}>
+            <span
+              className="font-serif italic text-[#15103a]"
+              style={{ fontSize: "1.5cqw" }}
+            >
+              {data.date}
+            </span>
+          </span>
         </div>
       </div>
     </div>
