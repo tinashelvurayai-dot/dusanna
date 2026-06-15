@@ -117,9 +117,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           style={{
             ...slot,
             justifyContent: "flex-start",
-            left: "53%",
-            right: "27%",
-            top: isDiploma ? "73.5%" : "64.2%",
+            left: "49%",
+            right: "23%",
+            top: isDiploma ? "73.2%" : "65.4%",
             height: "5%",
           }}
         >
@@ -131,15 +131,15 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           </span>
         </div>
 
-        {/* Completion date — left-aligned over {{completion_date}} above
-            the "Issued" plinth in the bottom-left of the certificate. */}
+        {/* Completion date — left-aligned exactly over {{completion_date}}
+            above the "Issued" plinth in the bottom-left of the certificate. */}
         <div
           style={{
             ...slot,
             justifyContent: "flex-start",
             left: "18%",
-            right: "62%",
-            top: isDiploma ? "88.5%" : "84.5%",
+            right: "60%",
+            top: isDiploma ? "90.3%" : "86.5%",
             height: "5%",
           }}
         >
