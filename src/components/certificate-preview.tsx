@@ -12,16 +12,34 @@ export interface CertificateData {
 
 /**
  * Renders the certificate / diploma by overlaying real student data on top of
- * the official Edusanna skeleton artwork (with the gold frame). All positions
- * are percentage based so the layout scales with the container.
+ * the official Edusanna skeleton artwork (with the gold frame).
+ *
+ * Each overlay is a SOLID parchment-coloured block that fully covers the
+ * underlying `{{placeholder}}` text in the skeleton image. The block is sized
+ * to the placeholder area (NOT to the inserted text length) so the original
+ * template text is never visible alongside the user data. Positions and
+ * sizes are percentage based so the layout scales with the container.
  */
 export function CertificatePreview({ data }: { data: CertificateData }) {
   const isDiploma = data.level === "diploma";
   const bg = isDiploma ? diplomaSkeleton.url : certificateSkeleton.url;
+  const paper = isDiploma ? "#F4EFF1" : "#FAF4F2";
   const studentName = data.studentName || "Student Name";
   const courseName = data.courseName || "Course Name";
   const certId = data.certificateId || "EDU-XXXX-XXXX";
   const skills = (data.skills ?? []).slice(0, 6).join(" • ");
+
+  // Solid mask rectangle that hides the placeholder beneath. Sized by the
+  // wrapper; the inner text is centred inside it.
+  const slot: React.CSSProperties = {
+    position: "absolute",
+    background: paper,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    overflow: "hidden",
+    borderRadius: "0.2cqw",
+  };
 
   return (
     <div className="cert-print-area">
@@ -37,71 +55,100 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           decoding="async"
         />
 
-        {/* Student name */}
+        {/* Student name — covers the wide {{student_name}} band */}
         <div
-          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-          style={{ top: isDiploma ? "37%" : "39%" }}
+          style={{
+            ...slot,
+            left: "18%",
+            right: "18%",
+            top: "37.5%",
+            height: "8.5%",
+          }}
         >
-          <p
-            className="font-serif font-black text-[#15103a] leading-tight truncate"
-            style={{ fontSize: "4.2cqw" }}
+          <span
+            className="font-serif font-black text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "2.6cqw", padding: "0 1cqw" }}
           >
             {studentName}
-          </p>
+          </span>
         </div>
 
         {/* Course name */}
         <div
-          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-          style={{ top: isDiploma ? "55%" : "53%" }}
+          style={{
+            ...slot,
+            left: "14%",
+            right: "14%",
+            top: "51.5%",
+            height: "7.5%",
+          }}
         >
-          <p
-            className="font-serif italic text-[#3a1f6b] leading-tight truncate"
-            style={{ fontSize: "3cqw" }}
+          <span
+            className="font-serif italic text-[#3a1f6b] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "2.2cqw", padding: "0 1cqw" }}
           >
             {courseName}
-          </p>
+          </span>
         </div>
 
-        {/* Skills list (diploma only) */}
-        {isDiploma && skills && (
+        {/* Skills list (diploma only) — covers {{skills_list}} */}
+        {isDiploma && (
           <div
-            className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-            style={{ top: "70%" }}
+            style={{
+              ...slot,
+              left: "22%",
+              right: "22%",
+              top: "64%",
+              height: "5.5%",
+            }}
           >
-            <p
-              className="text-[#4a2f7a]"
-              style={{ fontSize: "1.4cqw" }}
+            <span
+              className="text-[#4a2f7a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+              style={{ fontSize: "1.4cqw", padding: "0 1cqw" }}
             >
-              {skills}
-            </p>
+              {skills || "—"}
+            </span>
           </div>
         )}
 
-        {/* Certificate ID */}
+        {/* Certificate ID value — sits to the right of the printed
+            "Certificate ID:" label and masks {{certificate_id}}. */}
         <div
-          className="absolute left-1/2 -translate-x-1/2 text-center w-[70%]"
-          style={{ top: isDiploma ? "78%" : "65%" }}
+          style={{
+            ...slot,
+            justifyContent: "flex-start",
+            left: "46%",
+            right: "22%",
+            top: isDiploma ? "73%" : "65.2%",
+            height: "5.4%",
+          }}
         >
-          <p
-            className="font-serif text-[#15103a]"
-            style={{ fontSize: "1.5cqw" }}
+          <span
+            className="font-serif text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "1.5cqw", padding: "0 0.6cqw" }}
           >
-            ID: {certId}
-          </p>
+            {certId}
+          </span>
         </div>
 
-        {/* Completion date (bottom-left) */}
+        {/* Completion date — left-aligned exactly over {{completion_date}}
+            above the "Issued" plinth in the bottom-left of the certificate. */}
         <div
-          className="absolute text-left"
-          style={{ left: "10%", top: "86%" }}
+          style={{
+            ...slot,
+            justifyContent: "flex-start",
+            left: "18%",
+            right: "60%",
+            top: isDiploma ? "89.5%" : "85.5%",
+            height: "5%",
+          }}
         >
-          <p
-            className="font-serif italic text-[#15103a]"
-            style={{ fontSize: "1.6cqw" }}
+          <span
+            className="font-serif italic text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
+            style={{ fontSize: "1.5cqw", padding: "0 0.6cqw" }}
           >
             {data.date}
-          </p>
+          </span>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck } from "lucide-react";
+import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -10,7 +10,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { toast } from "sonner";
 import { getCatalogItem, getCourseTitle, PRICES, type CourseLevel } from "@/lib/courses";
 import { createPayPalOrder } from "@/lib/paypal.functions";
-import { getMyFullName, verifyFullName } from "@/lib/profile.functions";
+import { getMyFullName, verifyFullName, submitAcademiaCertificate } from "@/lib/profile.functions";
 
 type Search = { courseId: string; level: CourseLevel; error?: string };
 
@@ -29,15 +29,19 @@ function CertificatePaymentPage() {
   const createOrder = useServerFn(createPayPalOrder);
   const fetchName = useServerFn(getMyFullName);
   const saveName = useServerFn(verifyFullName);
+  const submitAcademia = useServerFn(submitAcademiaCertificate);
   const [loading, setLoading] = useState(false);
   const [nameLoaded, setNameLoaded] = useState(false);
   const [fullName, setFullName] = useState("");
+  const [signupType, setSignupType] = useState<"standard" | "academia">("standard");
+  const [schoolName, setSchoolName] = useState<string | null>(null);
   const [verified, setVerified] = useState(false);
   const [savingName, setSavingName] = useState(false);
 
   const item = getCatalogItem(courseId);
   const title = item ? getCourseTitle(item, level) : courseId;
   const price = PRICES[level as CourseLevel];
+  const isAcademia = signupType === "academia";
 
   useEffect(() => {
     if (error === "cancelled") toast.info("Payment cancelled. You can try again any time.");
@@ -49,6 +53,8 @@ function CertificatePaymentPage() {
       .then((r) => {
         if (!active) return;
         setFullName(r.fullName ?? "");
+        setSignupType(r.signupType === "academia" ? "academia" : "standard");
+        setSchoolName(r.schoolName ?? null);
         setNameLoaded(true);
       })
       .catch(() => setNameLoaded(true));
@@ -92,6 +98,26 @@ function CertificatePaymentPage() {
     }
   };
 
+  const handleAcademiaSubmit = async () => {
+    if (!verified) {
+      toast.error("Please verify your full name first.");
+      return;
+    }
+    setLoading(true);
+    try {
+      const r = await submitAcademia({ data: { courseId, courseName: title, level } });
+      if (r.alreadySubmitted) {
+        toast.info("You already submitted a request for this credential.");
+      } else {
+        toast.success("Submitted! Your school's admin will issue your credential.");
+      }
+      navigate({ to: "/dashboard" });
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Could not submit request.");
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen">
       <SiteNavbar />
@@ -103,12 +129,14 @@ function CertificatePaymentPage() {
 
           <div className="glass-card-light p-8 text-center">
             <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center mx-auto mb-5">
-              <Award className="w-8 h-8 text-white" />
+              {isAcademia ? <GraduationCap className="w-8 h-8 text-white" /> : <Award className="w-8 h-8 text-white" />}
             </div>
-            <h1 className="text-2xl font-bold text-blue-900 mb-1">Official {level === "diploma" ? "Diploma" : "Certificate"}</h1>
+            <h1 className="text-2xl font-bold text-blue-900 mb-1">
+              {isAcademia ? "Request your" : "Official"} {level === "diploma" ? "Diploma" : "Certificate"}
+            </h1>
             <p className="text-blue-600 mb-6">{title}</p>
 
-            {/* Full name verification - required before checkout */}
+            {/* Full name verification - required before checkout / submission */}
             <div className="rounded-xl bg-amber-50 border border-amber-200 p-5 mb-6 text-left">
               <div className="flex items-center gap-2 mb-2">
                 <UserCheck className="w-4 h-4 text-amber-700" />
@@ -141,24 +169,47 @@ function CertificatePaymentPage() {
               </Button>
             </div>
 
-            <div className="rounded-xl bg-blue-50 border border-blue-100 p-5 mb-6 text-left">
-              <div className="flex justify-between text-blue-800 mb-2">
-                <span>{level === "diploma" ? "Diploma" : "Certificate"} credential</span>
-                <span className="font-semibold">${price.toFixed(2)}</span>
-              </div>
-              <div className="flex justify-between text-blue-900 font-bold text-lg border-t border-blue-200 pt-2">
-                <span>Total</span>
-                <span>${price.toFixed(2)} USD</span>
-              </div>
-            </div>
+            {isAcademia ? (
+              <>
+                <div className="rounded-xl bg-purple-50 border border-purple-100 p-5 mb-6 text-left">
+                  <div className="flex items-center gap-2 mb-2">
+                    <GraduationCap className="w-4 h-4 text-purple-700" />
+                    <span className="text-sm font-bold text-purple-900">Academia learner</span>
+                  </div>
+                  <p className="text-sm text-purple-800">
+                    {schoolName ? <>Your school <strong>{schoolName}</strong> covers</> : "Your school covers"} your credential as a cash arrangement with Edusanna. No online payment is required. Submit your request and our team will issue your {level === "diploma" ? "Diploma" : "Certificate"}.
+                  </p>
+                </div>
+                <Button onClick={handleAcademiaSubmit} disabled={loading || !verified} className="premium-button w-full py-3 text-lg">
+                  {loading ? <Loader2 className="w-5 h-5 mr-2 animate-spin" /> : null}
+                  Submit request
+                </Button>
+                <p className="flex items-center justify-center gap-1.5 text-xs text-blue-500 mt-3">
+                  <ShieldCheck className="w-4 h-4" /> Your request will appear in the admin dashboard
+                </p>
+              </>
+            ) : (
+              <>
+                <div className="rounded-xl bg-blue-50 border border-blue-100 p-5 mb-6 text-left">
+                  <div className="flex justify-between text-blue-800 mb-2">
+                    <span>{level === "diploma" ? "Diploma" : "Certificate"} credential</span>
+                    <span className="font-semibold">${price.toFixed(2)}</span>
+                  </div>
+                  <div className="flex justify-between text-blue-900 font-bold text-lg border-t border-blue-200 pt-2">
+                    <span>Total</span>
+                    <span>${price.toFixed(2)} USD</span>
+                  </div>
+                </div>
 
-            <Button onClick={handlePay} disabled={loading || !verified} className="premium-button w-full py-3 text-lg">
-              {loading ? <Loader2 className="w-5 h-5 mr-2 animate-spin" /> : null}
-              Pay with PayPal
-            </Button>
-            <p className="flex items-center justify-center gap-1.5 text-xs text-blue-500 mt-3">
-              <ShieldCheck className="w-4 h-4" /> Secure checkout via PayPal
-            </p>
+                <Button onClick={handlePay} disabled={loading || !verified} className="premium-button w-full py-3 text-lg">
+                  {loading ? <Loader2 className="w-5 h-5 mr-2 animate-spin" /> : null}
+                  Pay with PayPal
+                </Button>
+                <p className="flex items-center justify-center gap-1.5 text-xs text-blue-500 mt-3">
+                  <ShieldCheck className="w-4 h-4" /> Secure checkout via PayPal
+                </p>
+              </>
+            )}
           </div>
 
           {!item && (
