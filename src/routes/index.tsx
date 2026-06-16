@@ -261,19 +261,8 @@ function Index() {
       </section>
 
       {/* Sample certificate */}
-      {sample?.value && (
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-blue-50">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-4xl font-bold gradient-text mb-3">Preview Your Future Credential</h2>
-              <p className="text-lg text-blue-700 max-w-2xl mx-auto">
-                Every learner who completes a course receives an official Edusanna certificate like this one.
-              </p>
-            </div>
-            <CertificatePreview data={sample.value} />
-          </div>
-        </section>
-      )}
+      {sample?.value && <SampleCertificateSection sample={sample.value} />}
+
 
       <SiteFooter />
     </div>
