@@ -62,9 +62,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
         <div
           style={{
             ...textBase,
-            left: "15%",
-            right: "15%",
-            top: "35.5%",
+            left: isDiploma ? "10%" : "15%",
+            right: isDiploma ? "10%" : "15%",
+            top: isDiploma ? "37.5%" : "35.5%",
             height: "6%",
             fontSize: "3.1cqw",
             fontWeight: 700,
@@ -79,8 +79,8 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
         <div
           style={{
             ...textBase,
-            left: "19%",
-            right: "14%",
+            left: isDiploma ? "10%" : "15%",
+            right: isDiploma ? "10%" : "15%",
             top: "47%",
             height: "5%",
             fontSize: "2.4cqw",
@@ -98,9 +98,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           <div
             style={{
               ...textBase,
-              left: "18%",
-              right: "27%",
-              top: "55%",
+              left: "10%",
+              right: "10%",
+              top: "56.5%",
               height: "3%",
               fontSize: "1.1cqw",
               color: "#4a2f7a",
@@ -117,8 +117,8 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           style={{
             ...textBase,
             justifyContent: "center",
-            left: "24%",
-            right: "26%",
+            left: isDiploma ? "10%" : "24%",
+            right: isDiploma ? "10%" : "26%",
             top: "61.5%",
             height: "5%",
             fontSize: "2cqw",
@@ -135,8 +135,8 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           style={{
             ...textBase,
             justifyContent: "center",
-            left: "10%",
-            right: "66%",
+            left: isDiploma ? "10%" : "10%",
+            right: isDiploma ? "10%" : "66%",
             top: "80%",
             height: "5%",
             fontSize: "2cqw",
@@ -149,6 +149,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             {data.date}
           </span>
         </div>
+
       </div>
     </div>
   );
