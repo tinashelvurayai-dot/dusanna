@@ -58,14 +58,15 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           decoding="async"
         />
 
+        {/* Student name — below "This Certifies That" */}
         <div
           style={{
             ...textBase,
-            left: "18%",
-            right: "18%",
-            top: "27.9%",
-            height: "4.2%",
-            fontSize: "1.48cqw",
+            left: "15%",
+            right: "15%",
+            top: "39.2%",
+            height: "5%",
+            fontSize: "2.4cqw",
             fontWeight: 600,
           }}
         >
@@ -74,14 +75,15 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           </span>
         </div>
 
+        {/* Course name — below "Has Successfully Completed" */}
         <div
           style={{
             ...textBase,
-            left: "18%",
-            right: isDiploma ? "26%" : "22%",
-            top: "43.1%",
-            height: "4.3%",
-            fontSize: "1.3cqw",
+            left: "15%",
+            right: isDiploma ? "22%" : "18%",
+            top: "52.6%",
+            height: "5%",
+            fontSize: "2.4cqw",
             fontWeight: 600,
             fontStyle: "italic",
             color: "#2a1d52",
@@ -98,9 +100,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
               ...textBase,
               left: "18%",
               right: "27%",
-              top: "58.9%",
-              height: "3.1%",
-              fontSize: "0.92cqw",
+              top: "61.5%",
+              height: "3.2%",
+              fontSize: "1.1cqw",
               color: "#4a2f7a",
             }}
           >
@@ -110,32 +112,34 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           </div>
         )}
 
+        {/* Certificate ID — below "In Recognition Of An Outstanding Achievement" */}
         <div
           style={{
             ...textBase,
             justifyContent: "center",
-            left: "38%",
-            right: "38%",
-            top: "69.7%",
-            height: "2.4%",
-            fontSize: "0.82cqw",
-            color: "#6c5a86",
+            left: "20%",
+            right: "30%",
+            top: "67%",
+            height: "4.5%",
+            fontSize: "2cqw",
+            fontWeight: 600,
+            color: "#2f2450",
             letterSpacing: "0.02em",
           }}
         >
           <span>ID: {certId}</span>
         </div>
 
+        {/* Completion date — on the golden line above the "Issued" label */}
         <div
           style={{
             ...textBase,
-            justifyContent: "flex-start",
-            textAlign: "left",
-            left: "20.6%",
-            right: "65.5%",
-            top: "76.9%",
-            height: "3.5%",
-            fontSize: "0.98cqw",
+            justifyContent: "center",
+            left: "10%",
+            right: "68%",
+            top: "80.4%",
+            height: "4%",
+            fontSize: "1.6cqw",
             fontWeight: 600,
             fontStyle: "italic",
             color: "#2f2450",
