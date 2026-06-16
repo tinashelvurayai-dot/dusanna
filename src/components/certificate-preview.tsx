@@ -58,13 +58,13 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           decoding="async"
         />
 
-        {/* Student name — below "This Certifies That" */}
+        {/* Student name — directly below "This Certifies That" */}
         <div
           style={{
             ...textBase,
             left: "15%",
             right: "15%",
-            top: "39.2%",
+            top: "36%",
             height: "5%",
             fontSize: "2.4cqw",
             fontWeight: 600,
@@ -75,13 +75,13 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           </span>
         </div>
 
-        {/* Course name — below "Has Successfully Completed" */}
+        {/* Course name — directly below "Has Successfully Completed" */}
         <div
           style={{
             ...textBase,
             left: "15%",
             right: isDiploma ? "22%" : "18%",
-            top: "52.6%",
+            top: "47%",
             height: "5%",
             fontSize: "2.4cqw",
             fontWeight: 600,
@@ -100,8 +100,8 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
               ...textBase,
               left: "18%",
               right: "27%",
-              top: "61.5%",
-              height: "3.2%",
+              top: "55%",
+              height: "3%",
               fontSize: "1.1cqw",
               color: "#4a2f7a",
             }}
@@ -112,15 +112,15 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           </div>
         )}
 
-        {/* Certificate ID — below "In Recognition Of An Outstanding Achievement" */}
+        {/* Certificate ID — directly below "In Recognition Of An Outstanding Achievement" */}
         <div
           style={{
             ...textBase,
             justifyContent: "center",
             left: "20%",
             right: "30%",
-            top: "67%",
-            height: "4.5%",
+            top: "61.5%",
+            height: "5%",
             fontSize: "2cqw",
             fontWeight: 600,
             color: "#2f2450",
@@ -137,7 +137,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             justifyContent: "center",
             left: "10%",
             right: "68%",
-            top: "80.4%",
+            top: "84%",
             height: "4%",
             fontSize: "1.6cqw",
             fontWeight: 600,
