@@ -64,10 +64,10 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             ...textBase,
             left: "15%",
             right: "15%",
-            top: "36%",
-            height: "5%",
-            fontSize: "2.4cqw",
-            fontWeight: 600,
+            top: "35.5%",
+            height: "6%",
+            fontSize: "3.1cqw",
+            fontWeight: 700,
           }}
         >
           <span style={{ maxWidth: "100%", overflow: "hidden", textOverflow: "ellipsis" }}>
@@ -79,8 +79,8 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
         <div
           style={{
             ...textBase,
-            left: "15%",
-            right: isDiploma ? "22%" : "18%",
+            left: "19%",
+            right: "14%",
             top: "47%",
             height: "5%",
             fontSize: "2.4cqw",
@@ -117,8 +117,8 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           style={{
             ...textBase,
             justifyContent: "center",
-            left: "20%",
-            right: "30%",
+            left: "24%",
+            right: "26%",
             top: "61.5%",
             height: "5%",
             fontSize: "2cqw",
@@ -136,10 +136,10 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             ...textBase,
             justifyContent: "center",
             left: "10%",
-            right: "68%",
-            top: "80.5%",
-            height: "4%",
-            fontSize: "1.6cqw",
+            right: "66%",
+            top: "80%",
+            height: "5%",
+            fontSize: "2cqw",
             fontWeight: 600,
             fontStyle: "italic",
             color: "#2f2450",
