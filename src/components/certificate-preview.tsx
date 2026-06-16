@@ -11,41 +11,43 @@ export interface CertificateData {
 }
 
 /**
- * Renders the certificate / diploma by overlaying real student data on top of
- * the official Edusanna skeleton artwork (with the gold frame).
+ * Renders the certificate / diploma by writing the student details directly
+ * into the open gaps of the official Edusanna skeleton artwork. The skeletons
+ * already provide all decorative text and dividers, so we only overlay the
+ * dynamic fields - no masking, no background blocks.
  *
- * Each overlay is a SOLID parchment-coloured block that fully covers the
- * underlying `{{placeholder}}` text in the skeleton image. The block is sized
- * to the placeholder area (NOT to the inserted text length) so the original
- * template text is never visible alongside the user data. Positions and
- * sizes are percentage based so the layout scales with the container.
+ * All text uses Cormorant Garamond. Positions are percentage based against
+ * the 1492x1054 skeleton so the layout scales with the container.
  */
 export function CertificatePreview({ data }: { data: CertificateData }) {
   const isDiploma = data.level === "diploma";
   const bg = isDiploma ? diplomaSkeleton.url : certificateSkeleton.url;
-  const paper = isDiploma ? "#F4EFF1" : "#FAF4F2";
   const studentName = data.studentName || "Student Name";
   const courseName = data.courseName || "Course Name";
   const certId = data.certificateId || "EDU-XXXX-XXXX";
   const skills = (data.skills ?? []).slice(0, 6).join(" • ");
 
-  // Solid mask rectangle that hides the placeholder beneath. Sized by the
-  // wrapper; the inner text is centred inside it.
+  const cormorant =
+    "'Cormorant Garamond', 'Cormorant', Garamond, 'Times New Roman', serif";
+
   const slot: React.CSSProperties = {
     position: "absolute",
-    background: paper,
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     overflow: "hidden",
-    borderRadius: "0.2cqw",
+    fontFamily: cormorant,
+    color: "#15103a",
+    lineHeight: 1,
+    whiteSpace: "nowrap",
+    textOverflow: "ellipsis",
   };
 
   return (
     <div className="cert-print-area">
       <div
         className="relative mx-auto w-full max-w-4xl rounded-lg overflow-hidden shadow-2xl"
-        style={{ aspectRatio: "1536 / 1024", containerType: "inline-size" }}
+        style={{ aspectRatio: "1492 / 1054", containerType: "inline-size" }}
       >
         <img
           src={bg}
@@ -55,100 +57,91 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           decoding="async"
         />
 
-        {/* Student name — covers the wide {{student_name}} band */}
+        {/* Student name - in the gap below "This Certifies That" */}
         <div
           style={{
             ...slot,
             left: "18%",
             right: "18%",
-            top: "37.5%",
-            height: "8.5%",
+            top: "41.5%",
+            height: "5.5%",
+            fontWeight: 600,
+            fontSize: "2.2cqw",
           }}
         >
-          <span
-            className="font-serif font-black text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
-            style={{ fontSize: "2.6cqw", padding: "0 1cqw" }}
-          >
+          <span style={{ padding: "0 1cqw", overflow: "hidden", textOverflow: "ellipsis" }}>
             {studentName}
           </span>
         </div>
 
-        {/* Course name */}
+        {/* Course name - in the gap below "Has Successfully Completed" */}
         <div
           style={{
             ...slot,
-            left: "14%",
-            right: "14%",
-            top: "51.5%",
-            height: "7.5%",
+            left: "16%",
+            right: "16%",
+            top: "55%",
+            height: "5.5%",
+            fontStyle: "italic",
+            fontWeight: 600,
+            color: "#3a1f6b",
+            fontSize: "2cqw",
           }}
         >
-          <span
-            className="font-serif italic text-[#3a1f6b] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
-            style={{ fontSize: "2.2cqw", padding: "0 1cqw" }}
-          >
+          <span style={{ padding: "0 1cqw", overflow: "hidden", textOverflow: "ellipsis" }}>
             {courseName}
           </span>
         </div>
 
-        {/* Skills list (diploma only) — covers {{skills_list}} */}
-        {isDiploma && (
+        {/* Skills (diploma only) - in the gap below "In Recognition..." */}
+        {isDiploma && skills && (
           <div
             style={{
               ...slot,
-              left: "22%",
-              right: "22%",
-              top: "64%",
-              height: "5.5%",
+              left: "18%",
+              right: "18%",
+              top: "68%",
+              height: "4%",
+              color: "#4a2f7a",
+              fontSize: "1.3cqw",
             }}
           >
-            <span
-              className="text-[#4a2f7a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
-              style={{ fontSize: "1.4cqw", padding: "0 1cqw" }}
-            >
-              {skills || "—"}
+            <span style={{ padding: "0 1cqw", overflow: "hidden", textOverflow: "ellipsis" }}>
+              {skills}
             </span>
           </div>
         )}
 
-        {/* Certificate ID value — sits to the right of the printed
-            "Certificate ID:" label and masks {{certificate_id}}. */}
+        {/* Completion date - next to the "Issued" plinth, bottom-left */}
         <div
           style={{
             ...slot,
             justifyContent: "flex-start",
-            left: "46%",
-            right: "22%",
-            top: isDiploma ? "73%" : "65.2%",
-            height: "5.4%",
+            left: "20%",
+            right: "55%",
+            top: "85.5%",
+            height: "4.5%",
+            fontStyle: "italic",
+            fontSize: "1.4cqw",
           }}
         >
-          <span
-            className="font-serif text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
-            style={{ fontSize: "1.5cqw", padding: "0 0.6cqw" }}
-          >
-            {certId}
-          </span>
+          <span style={{ padding: "0 0.6cqw" }}>{data.date}</span>
         </div>
 
-        {/* Completion date — left-aligned exactly over {{completion_date}}
-            above the "Issued" plinth in the bottom-left of the certificate. */}
+        {/* Certificate ID - small, centered under the footer text */}
         <div
           style={{
             ...slot,
-            justifyContent: "flex-start",
-            left: "18%",
-            right: "60%",
-            top: isDiploma ? "89.5%" : "85.5%",
-            height: "5%",
+            left: "20%",
+            right: "20%",
+            top: "78.5%",
+            height: "3.2%",
+            color: "#4a2f7a",
+            fontSize: "1.05cqw",
+            letterSpacing: "0.04em",
           }}
         >
-          <span
-            className="font-serif italic text-[#15103a] leading-none whitespace-nowrap overflow-hidden text-ellipsis"
-            style={{ fontSize: "1.5cqw", padding: "0 0.6cqw" }}
-          >
-            {data.date}
-          </span>
+          <span style={{ padding: "0 0.6cqw" }}>ID: {certId}</span>
         </div>
       </div>
     </div>
