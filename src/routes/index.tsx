@@ -268,3 +268,66 @@ function Index() {
     </div>
   );
 }
+
+const SAMPLE_DIPLOMA_SKILLS = [
+  "Research & Analysis",
+  "Strategic Thinking",
+  "Project Leadership",
+  "Communication",
+  "Problem Solving",
+];
+
+function SampleCertificateSection({
+  sample,
+}: {
+  sample: { studentName: string; courseName: string; level: "certificate" | "diploma"; date: string; certificateId: string };
+}) {
+  const [view, setView] = useState<"certificate" | "diploma">(sample.level);
+  const data =
+    view === "diploma"
+      ? {
+          ...sample,
+          level: "diploma" as const,
+          courseName: sample.level === "diploma" ? sample.courseName : `${sample.courseName} (Diploma)`,
+          certificateId: sample.certificateId.replace(/CERT|EDU-SAMPLE/i, "DIP-SAMPLE"),
+          skills: SAMPLE_DIPLOMA_SKILLS,
+        }
+      : { ...sample, level: "certificate" as const };
+
+  return (
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-blue-50">
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-10">
+          <h2 className="text-4xl font-bold gradient-text mb-3">Preview Your Future Credential</h2>
+          <p className="text-lg text-blue-700 max-w-2xl mx-auto">
+            Every learner who completes a course receives an official Edusanna {view} like this one.
+          </p>
+          <div className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-blue-700">
+            <span className={view === "certificate" ? "opacity-100" : "opacity-50"}>Certificate</span>
+            <span>/</span>
+            <span className={view === "diploma" ? "opacity-100" : "opacity-50"}>Diploma</span>
+          </div>
+        </div>
+        <div className="relative">
+          <CertificatePreview data={data} />
+          <button
+            type="button"
+            aria-label="Previous sample"
+            onClick={() => setView(view === "certificate" ? "diploma" : "certificate")}
+            className="absolute left-2 sm:-left-5 top-1/2 -translate-y-1/2 z-10 h-11 w-11 rounded-full bg-white/90 hover:bg-white shadow-lg border border-blue-200 flex items-center justify-center text-blue-700 transition"
+          >
+            <ChevronLeft className="h-6 w-6" />
+          </button>
+          <button
+            type="button"
+            aria-label="Next sample"
+            onClick={() => setView(view === "certificate" ? "diploma" : "certificate")}
+            className="absolute right-2 sm:-right-5 top-1/2 -translate-y-1/2 z-10 h-11 w-11 rounded-full bg-white/90 hover:bg-white shadow-lg border border-blue-200 flex items-center justify-center text-blue-700 transition"
+          >
+            <ChevronRight className="h-6 w-6" />
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
