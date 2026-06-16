@@ -63,9 +63,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             ...textBase,
             left: "18%",
             right: "18%",
-            top: "31.8%",
-            height: "5.1%",
-            fontSize: "1.72cqw",
+            top: "27.9%",
+            height: "4.2%",
+            fontSize: "1.48cqw",
             fontWeight: 600,
           }}
         >
@@ -79,9 +79,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             ...textBase,
             left: "18%",
             right: isDiploma ? "26%" : "22%",
-            top: "47.2%",
-            height: "5.2%",
-            fontSize: "1.54cqw",
+            top: "43.1%",
+            height: "4.3%",
+            fontSize: "1.3cqw",
             fontWeight: 600,
             fontStyle: "italic",
             color: "#2a1d52",
@@ -98,9 +98,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
               ...textBase,
               left: "18%",
               right: "27%",
-              top: "62.6%",
-              height: "3.4%",
-              fontSize: "0.98cqw",
+              top: "58.9%",
+              height: "3.1%",
+              fontSize: "0.92cqw",
               color: "#4a2f7a",
             }}
           >
