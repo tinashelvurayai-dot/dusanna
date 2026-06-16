@@ -137,7 +137,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             justifyContent: "center",
             left: "10%",
             right: "68%",
-            top: "84%",
+            top: "80.5%",
             height: "4%",
             fontSize: "1.6cqw",
             fontWeight: 600,
