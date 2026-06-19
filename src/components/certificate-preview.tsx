@@ -81,17 +81,19 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
   return (
     <div className="cert-print-area">
       <div
-        className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg shadow-2xl"
-        style={{ aspectRatio: "1492 / 1054", containerType: "inline-size" }}
+        className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg shadow-2xl bg-white"
+        style={{ containerType: "inline-size" }}
       >
         <img
           key={bg}
           src={bg}
           alt={isDiploma ? "Edusanna Diploma" : "Edusanna Certificate"}
-          className="absolute inset-0 h-full w-full object-cover select-none pointer-events-none"
+          className="block w-full h-auto select-none pointer-events-none"
           loading="eager"
           decoding="async"
+          style={{ aspectRatio: "1492 / 1054" }}
         />
+
 
         {ready && (<>
 
