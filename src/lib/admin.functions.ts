@@ -127,12 +127,18 @@ export const createManualPayment = createServerFn({ method: "POST" })
       courseId: string;
       courseName: string;
       level: "certificate" | "diploma";
+      comp?: boolean;
+      notes?: string;
     }) => {
       if (!input?.userId) throw new Error("Select a learner");
       if (!input?.courseName?.trim()) throw new Error("Course name is required");
       if (input.level !== "certificate" && input.level !== "diploma")
         throw new Error("Invalid level");
-      return input;
+      return {
+        ...input,
+        comp: Boolean(input.comp),
+        notes: (input.notes ?? "").trim().slice(0, 500) || null,
+      };
     },
   )
   .handler(async ({ data, context }) => {
@@ -145,7 +151,8 @@ export const createManualPayment = createServerFn({ method: "POST" })
       .eq("id", data.userId)
       .maybeSingle();
 
-    const certificateId = `EDU-CASH-${Date.now().toString(36).toUpperCase()}`;
+    const prefix = data.comp ? "EDU-COMP" : "EDU-CASH";
+    const certificateId = `${prefix}-${Date.now().toString(36).toUpperCase()}`;
     const { error } = await supabaseAdmin.from("certificate_payments").insert({
       user_id: data.userId,
       student_name: profile?.full_name ?? null,
@@ -153,13 +160,44 @@ export const createManualPayment = createServerFn({ method: "POST" })
       course_id: data.courseId || data.courseName.toLowerCase().replace(/\s+/g, "-"),
       course_name: data.courseName,
       certificate_type: data.level,
-      amount: PRICES[data.level],
-      payment_status: "noted",
+      amount: data.comp ? 0 : PRICES[data.level],
+      payment_status: data.comp ? "certificate_sent" : "noted",
       certificate_id: certificateId,
+      notes: data.notes,
     });
     if (error) throw error;
     return { success: true, certificateId };
   });
+
+/** Bulk add contracted schools from a CSV/newline-separated list of names. */
+export const bulkAddContractedSchools = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((input: { names: string[] }) => {
+    if (!Array.isArray(input?.names)) throw new Error("Invalid payload");
+    const names = Array.from(
+      new Set(
+        input.names
+          .map((n) => (typeof n === "string" ? n.trim() : ""))
+          .filter((n) => n.length >= 2 && n.length <= 200),
+      ),
+    );
+    if (names.length === 0) throw new Error("No valid school names found");
+    if (names.length > 500) throw new Error("Limit is 500 schools per upload");
+    return { names };
+  })
+  .handler(async ({ data, context }) => {
+    await assertAdmin(context);
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const rows = data.names.map((name) => ({ name, created_by: context.userId }));
+    const { data: inserted, error } = await supabaseAdmin
+      .from("contracted_schools")
+      .upsert(rows, { onConflict: "normalized_name", ignoreDuplicates: true })
+      .select("id");
+    if (error) throw error;
+    const added = inserted?.length ?? 0;
+    return { added, skipped: data.names.length - added };
+  });
+
 
 /**
  * Fetch all course_progress rows for a single learner and resolve them
