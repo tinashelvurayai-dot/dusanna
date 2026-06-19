@@ -520,7 +520,9 @@ function CertificatesTab() {
           <Label htmlFor="cid">Verification ID</Label>
           <Input id="cid" value={cert.certificateId} onChange={(e) => setCert((c) => ({ ...c, certificateId: e.target.value }))} />
         </div>
-        <Button onClick={() => window.print()} className="premium-button w-full">Print / Download PDF</Button>
+        <Button onClick={handleDownload} disabled={downloading} className="premium-button w-full">
+          {downloading ? "Generating PDF..." : "Download PDF"}
+        </Button>
         {selectedId && (
           <Button
             variant="outline"
@@ -531,10 +533,10 @@ function CertificatesTab() {
             Mark certificate as sent
           </Button>
         )}
-        <p className="text-xs text-blue-500">Use your browser's "Save as PDF" option to download, then email it to the student.</p>
+        <p className="text-xs text-blue-500">Downloads a single-page A4 PDF that matches the preview exactly.</p>
       </div>
 
-      <div>
+      <div ref={previewRef}>
         <CertificatePreview data={cert} />
       </div>
     </div>
