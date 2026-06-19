@@ -2,5 +2,11 @@
   "buildCommand": "vite build",
   "outputDirectory": ".vercel/output",
   "framework": null,
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "rewrites": [
+    {
+      "source": "/__l5e/:path*",
+      "destination": "https://project--8a4b7795-5478-4204-ab83-12200d11dfbd.lovable.app/__l5e/:path*"
+    }
+  ]
 }
