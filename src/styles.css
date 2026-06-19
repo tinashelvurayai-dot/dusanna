@@ -234,10 +234,5 @@
   .to-purple-100 { --tw-gradient-to: rgba(168,85,247,0.15) !important; }
 }
 
-/* Certificate print */
-@media print {
-  body * { visibility: hidden !important; }
-  .cert-print-area, .cert-print-area * { visibility: visible !important; }
-  .cert-print-area { position: fixed !important; inset: 0 !important; margin: 0 !important; width: 100% !important; box-shadow: none !important; }
-  .no-print { display: none !important; }
-}
+/* Certificate print — handled by jsPDF/html2canvas in src/lib/cert-pdf.ts; no @media print rules. */
+
