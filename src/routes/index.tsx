@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight } from "lucide-react";
+import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
@@ -82,7 +82,7 @@ function Index() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center px-6 py-3 rounded-full backdrop-blur-md bg-[rgba(99,102,241,0.12)] text-indigo-200 text-sm font-semibold shadow-sm mb-8 border border-[rgba(139,124,255,0.3)]"
+            className="inline-flex items-center px-6 py-3 rounded-full backdrop-blur-md bg-[rgba(3,169,244,0.12)] text-[#03A9F4] text-sm font-semibold shadow-sm mb-8 border border-[rgba(3,169,244,0.4)]"
           >
             Free Learning · Certificate &amp; Diploma Programs A-Z
           </motion.div>
@@ -94,7 +94,7 @@ function Index() {
           >
             <span className="text-white">Learn Anything.</span>
             <br />
-            <span className="text-blue-500">Completely Free.</span>
+            <span className="text-[#03A9F4]">Completely Free.</span>
 
           </motion.h1>
 
@@ -136,6 +136,12 @@ function Index() {
             </Link>
             <Link to="/auth" search={{ mode: "signup" }}>
               <Button className="premium-button-outline text-lg px-8 py-3.5">Get Started Free</Button>
+            </Link>
+            <Link to="/verify">
+              <Button variant="outline" className="text-lg px-8 py-3.5 bg-white/80 border-blue-300 text-purple-700 hover:bg-white hover:text-purple-800">
+                <ShieldCheck className="w-5 h-5 mr-2" />
+                Verify a Certificate
+              </Button>
             </Link>
           </div>
 
