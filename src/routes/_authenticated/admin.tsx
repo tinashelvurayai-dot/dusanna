@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { downloadCertificatePdf } from "@/lib/cert-pdf";
 import { useServerFn } from "@tanstack/react-start";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import {
@@ -432,6 +433,22 @@ function CertificatesTab() {
     certificateId: genCertId(),
   });
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [downloading, setDownloading] = useState(false);
+  const previewRef = useRef<HTMLDivElement>(null);
+
+  const handleDownload = async () => {
+    if (!previewRef.current || downloading) return;
+    const node = previewRef.current.querySelector<HTMLElement>(".cert-print-area") ?? previewRef.current;
+    setDownloading(true);
+    try {
+      const safe = (cert.studentName || "certificate").replace(/[^\w\-]+/g, "_");
+      await downloadCertificatePdf(node, `${safe}-${cert.level}.pdf`);
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Failed to generate PDF");
+    } finally {
+      setDownloading(false);
+    }
+  };
 
   const loadFromPayment = (id: string) => {
     setSelectedId(id);
@@ -503,7 +520,9 @@ function CertificatesTab() {
           <Label htmlFor="cid">Verification ID</Label>
           <Input id="cid" value={cert.certificateId} onChange={(e) => setCert((c) => ({ ...c, certificateId: e.target.value }))} />
         </div>
-        <Button onClick={() => window.print()} className="premium-button w-full">Print / Download PDF</Button>
+        <Button onClick={handleDownload} disabled={downloading} className="premium-button w-full">
+          {downloading ? "Generating PDF..." : "Download PDF"}
+        </Button>
         {selectedId && (
           <Button
             variant="outline"
@@ -514,10 +533,10 @@ function CertificatesTab() {
             Mark certificate as sent
           </Button>
         )}
-        <p className="text-xs text-blue-500">Use your browser's "Save as PDF" option to download, then email it to the student.</p>
+        <p className="text-xs text-blue-500">Downloads a single-page A4 PDF that matches the preview exactly.</p>
       </div>
 
-      <div>
+      <div ref={previewRef}>
         <CertificatePreview data={cert} />
       </div>
     </div>

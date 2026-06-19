@@ -163,7 +163,6 @@ export const createManualPayment = createServerFn({ method: "POST" })
       amount: data.comp ? 0 : PRICES[data.level],
       payment_status: data.comp ? "certificate_sent" : "noted",
       certificate_id: certificateId,
-      notes: data.notes,
     });
     if (error) throw error;
     return { success: true, certificateId };

@@ -68,6 +68,15 @@ function Index() {
   const { data: sample } = useQuery({
     queryKey: ["sample-cert"],
     queryFn: () => getSampleCertificate(),
+    initialData: {
+      value: {
+        studentName: "Tariro Moyo",
+        courseName: "Data Science Fundamentals",
+        level: "certificate" as const,
+        date: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }),
+        certificateId: "EDU-SAMPLE-001",
+      },
+    },
     staleTime: 60_000,
   });
 
