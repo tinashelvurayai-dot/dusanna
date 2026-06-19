@@ -1,5 +1,16 @@
+import { useEffect, useState } from "react";
 import certificateSkeleton from "@/assets/certificate-skeleton.png.asset.json";
 import diplomaSkeleton from "@/assets/diploma-skeleton.png.asset.json";
+
+// Preload both skeleton artworks so switching between certificate and diploma
+// previews doesn't flash the previously-cached background.
+const preloadedSrcs = new Set<string>();
+function preload(src: string) {
+  if (typeof window === "undefined" || preloadedSrcs.has(src)) return;
+  preloadedSrcs.add(src);
+  const img = new Image();
+  img.src = src;
+}
 
 export interface CertificateData {
   studentName: string;
@@ -26,6 +37,28 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
   const certId = data.certificateId || "EDU-XXXX-XXXX";
   const skills = (data.skills ?? []).slice(0, 6).join(" • ");
 
+  const [loadedSrc, setLoadedSrc] = useState<string | null>(null);
+
+  useEffect(() => {
+    preload(certificateSkeleton.url);
+    preload(diplomaSkeleton.url);
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    const img = new Image();
+    img.onload = () => {
+      if (!cancelled) setLoadedSrc(bg);
+    };
+    img.src = bg;
+    if (img.complete && img.naturalWidth > 0) setLoadedSrc(bg);
+    return () => {
+      cancelled = true;
+    };
+  }, [bg]);
+
+  const ready = loadedSrc === bg;
+
   const cormorant =
     "'Cormorant Garamond', 'Cormorant', Garamond, 'Times New Roman', serif";
 
@@ -44,6 +77,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
     pointerEvents: "none",
   };
 
+
   return (
     <div className="cert-print-area">
       <div
@@ -51,6 +85,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
         style={{ aspectRatio: "1492 / 1054", containerType: "inline-size" }}
       >
         <img
+          key={bg}
           src={bg}
           alt={isDiploma ? "Edusanna Diploma" : "Edusanna Certificate"}
           className="absolute inset-0 h-full w-full object-cover select-none pointer-events-none"
@@ -58,13 +93,16 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           decoding="async"
         />
 
-        {/* Student name — directly below "This Certifies That" */}
+        {ready && (<>
+
+
+        {/* Student name — directly below "This Certifies That" and above the golden line */}
         <div
           style={{
             ...textBase,
-            left: isDiploma ? "10%" : "15%",
-            right: isDiploma ? "10%" : "15%",
-            top: isDiploma ? "37.5%" : "35.5%",
+            left: "10%",
+            right: "10%",
+            top: isDiploma ? "37.5%" : "36.5%",
             height: "6%",
             fontSize: "3.1cqw",
             fontWeight: 700,
@@ -79,9 +117,9 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
         <div
           style={{
             ...textBase,
-            left: isDiploma ? "10%" : "15%",
-            right: isDiploma ? "10%" : "15%",
-            top: "47%",
+            left: "10%",
+            right: "10%",
+            top: "50%",
             height: "5%",
             fontSize: "2.4cqw",
             fontWeight: 600,
@@ -94,31 +132,13 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           </span>
         </div>
 
-        {isDiploma && skills && (
-          <div
-            style={{
-              ...textBase,
-              left: "10%",
-              right: "10%",
-              top: "56.5%",
-              height: "3%",
-              fontSize: "1.1cqw",
-              color: "#4a2f7a",
-            }}
-          >
-            <span style={{ maxWidth: "100%", overflow: "hidden", textOverflow: "ellipsis" }}>
-              {skills}
-            </span>
-          </div>
-        )}
-
         {/* Certificate ID — directly below "In Recognition Of An Outstanding Achievement" */}
         <div
           style={{
             ...textBase,
             justifyContent: "center",
-            left: isDiploma ? "10%" : "24%",
-            right: isDiploma ? "10%" : "26%",
+            left: "10%",
+            right: "10%",
             top: "61.5%",
             height: "5%",
             fontSize: "2cqw",
@@ -130,13 +150,33 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
           <span>ID: {certId}</span>
         </div>
 
+
+        {isDiploma && skills && (
+          <div
+            style={{
+              ...textBase,
+              left: "10%",
+              right: "10%",
+              top: "67%",
+              height: "3%",
+              fontSize: "1.25cqw",
+              color: "#000000",
+              fontWeight: 600,
+            }}
+          >
+            <span style={{ maxWidth: "100%", overflow: "hidden", textOverflow: "ellipsis" }}>
+              {skills}
+            </span>
+          </div>
+        )}
+
         {/* Completion date — on the golden line above the "Issued" label */}
         <div
           style={{
             ...textBase,
             justifyContent: "center",
-            left: isDiploma ? "10%" : "10%",
-            right: isDiploma ? "10%" : "66%",
+            left: "10%",
+            right: "66%",
             top: "80%",
             height: "5%",
             fontSize: "2cqw",
@@ -149,6 +189,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             {data.date}
           </span>
         </div>
+        </>)}
 
       </div>
     </div>
