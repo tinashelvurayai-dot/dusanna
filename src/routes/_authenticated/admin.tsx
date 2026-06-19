@@ -433,6 +433,22 @@ function CertificatesTab() {
     certificateId: genCertId(),
   });
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [downloading, setDownloading] = useState(false);
+  const previewRef = useRef<HTMLDivElement>(null);
+
+  const handleDownload = async () => {
+    if (!previewRef.current || downloading) return;
+    const node = previewRef.current.querySelector<HTMLElement>(".cert-print-area") ?? previewRef.current;
+    setDownloading(true);
+    try {
+      const safe = (cert.studentName || "certificate").replace(/[^\w\-]+/g, "_");
+      await downloadCertificatePdf(node, `${safe}-${cert.level}.pdf`);
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Failed to generate PDF");
+    } finally {
+      setDownloading(false);
+    }
+  };
 
   const loadFromPayment = (id: string) => {
     setSelectedId(id);
