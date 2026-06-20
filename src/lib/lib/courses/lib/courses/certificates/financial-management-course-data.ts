@@ -162,72 +162,72 @@ Technology-enhanced analysis:
           id: 1,
           question: "What does the current ratio measure?",
           options: [
-            "Long-term debt capacity",
             "Short-term liquidity and ability to pay current obligations",
+            "Asset utilization",
             "Profitability efficiency",
-            "Asset utilization"
+            "Long-term debt capacity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The current ratio measures a company's ability to pay short-term obligations by comparing current assets to current liabilities."
         },
         {
           id: 2,
           question: "What is the formula for Return on Equity (ROE)?",
           options: [
+            "Gross profit ÷ Revenue",
             "Net income ÷ Total assets",
             "Net income ÷ Shareholders' equity",
-            "Revenue ÷ Total assets",
-            "Gross profit ÷ Revenue"
+            "Revenue ÷ Total assets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ROE measures how effectively a company uses shareholders' equity to generate profits: Net income ÷ Shareholders' equity."
         },
         {
           id: 3,
           question: "What does the debt-to-equity ratio indicate?",
           options: [
-            "Short-term liquidity",
             "Financial leverage and reliance on debt financing",
+            "Short-term liquidity",
             "Inventory efficiency",
             "Profit margin"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Debt-to-equity ratio shows the proportion of debt used relative to shareholders' equity, indicating financial leverage."
         },
         {
           id: 4,
           question: "What is vertical analysis?",
           options: [
-            "Comparing to previous years",
             "Expressing each financial statement item as percentage of a base amount",
+            "Market analysis",
             "Industry comparison",
-            "Market analysis"
+            "Comparing to previous years"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Vertical analysis expresses each item on a financial statement as a percentage of a base amount (revenue for income statement, total assets for balance sheet)."
         },
         {
           id: 5,
           question: "What does free cash flow measure?",
           options: [
-            "Total cash generated",
             "Cash available after capital expenditures for expansion, dividends, or debt reduction",
+            "Investment cash only",
             "Operating cash only",
-            "Investment cash only"
+            "Total cash generated"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Free cash flow = Operating cash flow - Capital expenditures, showing cash available for expansion, dividends, or debt reduction."
         },
         {
           id: 6,
           question: "What is DuPont analysis?",
           options: [
+            "Market ratio analysis",
             "Single ratio analysis",
             "Breaking down ROE into components to understand performance drivers",
-            "Cash flow analysis",
-            "Market ratio analysis"
+            "Cash flow analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "DuPont analysis decomposes ROE into profit margin, asset turnover, and financial leverage components to identify performance drivers."
         },
         {
@@ -235,21 +235,21 @@ Technology-enhanced analysis:
           question: "What are the 5 Cs of credit analysis?",
           options: [
             "Cash, capital, collateral, credit, coverage",
-            "Character, capacity, capital, collateral, conditions",
             "Cost, credit, cash, collateral, coverage",
+            "Character, capacity, capital, collateral, conditions",
             "Capital, cash, character, cost, conditions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The 5 Cs framework assesses creditworthiness: Character (reputation), Capacity (ability to repay), Capital (investment), Collateral (security), Conditions (economic)."
         },
         {
           id: 8,
           question: "What does inventory turnover measure?",
           options: [
-            "Inventory value",
-            "How quickly inventory is sold and replaced during a period",
             "Inventory age",
-            "Storage efficiency"
+            "How quickly inventory is sold and replaced during a period",
+            "Storage efficiency",
+            "Inventory value"
           ],
           correctAnswer: 1,
           explanation: "Inventory turnover = Cost of goods sold ÷ Average inventory, measuring how efficiently inventory is managed and sold."
@@ -258,12 +258,12 @@ Technology-enhanced analysis:
           id: 9,
           question: "What is pro forma financial statement?",
           options: [
-            "Historical statement",
             "Projected financial statement based on assumptions and forecasts",
+            "Historical statement",
             "Audited statement",
             "Simplified statement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pro forma statements are financial projections based on assumptions about future performance and conditions."
         },
         {
@@ -271,57 +271,57 @@ Technology-enhanced analysis:
           question: "What does the quick ratio exclude from current assets?",
           options: [
             "Accounts receivable",
-            "Inventory (less liquid current asset)",
+            "Marketable securities",
             "Cash",
-            "Marketable securities"
+            "Inventory (less liquid current asset)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quick ratio excludes inventory from current assets because inventory is less liquid and may not be quickly convertible to cash."
         },
         {
           id: 11,
           question: "What is horizontal analysis?",
           options: [
-            "Industry comparison",
             "Comparing financial data across multiple time periods",
             "Vertical percentage analysis",
-            "Cross-sectional analysis"
+            "Cross-sectional analysis",
+            "Industry comparison"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Horizontal analysis compares financial statement items across multiple periods to identify trends and growth patterns."
         },
         {
           id: 12,
           question: "What does P/E ratio indicate?",
           options: [
-            "Profit efficiency",
             "How much investors pay per dollar of earnings",
+            "Profit efficiency",
             "Asset value",
             "Liquidity position"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "P/E ratio = Market price per share ÷ Earnings per share, indicating how much investors pay for each dollar of earnings."
         },
         {
           id: 13,
           question: "What is enterprise value?",
           options: [
-            "Market capitalization only",
             "Total company value including debt and excluding cash",
             "Book value only",
-            "Asset value only"
+            "Asset value only",
+            "Market capitalization only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Enterprise value = Market capitalization + Debt - Cash, representing total company value from all investors' perspective."
         },
         {
           id: 14,
           question: "What does asset turnover measure?",
           options: [
-            "Asset value",
-            "Revenue generated per dollar of assets",
             "Asset age",
-            "Asset profitability"
+            "Revenue generated per dollar of assets",
+            "Asset profitability",
+            "Asset value"
           ],
           correctAnswer: 1,
           explanation: "Asset turnover = Revenue ÷ Total assets, measuring how efficiently a company uses assets to generate sales."
@@ -331,23 +331,23 @@ Technology-enhanced analysis:
           question: "What is quality of earnings analysis?",
           options: [
             "Only profit level",
-            "Assessing reliability and sustainability of reported earnings",
             "Revenue amount only",
+            "Assessing reliability and sustainability of reported earnings",
             "Expense analysis only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality of earnings analysis evaluates how reliable, sustainable, and conservative reported earnings are, often comparing cash flows to accrual earnings."
         },
         {
           id: 16,
           question: "What does interest coverage ratio measure?",
           options: [
-            "Interest rates",
-            "Ability to pay interest expenses from operating earnings",
+            "Debt levels",
             "Loan amounts",
-            "Debt levels"
+            "Interest rates",
+            "Ability to pay interest expenses from operating earnings"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Interest coverage ratio = EBIT ÷ Interest expense, measuring how easily a company can pay interest on outstanding debt."
         },
         {
@@ -366,36 +366,36 @@ Technology-enhanced analysis:
           id: 18,
           question: "What does accounts receivable turnover measure?",
           options: [
-            "Customer credit",
             "How quickly credit sales are collected",
             "Sales volume",
+            "Customer credit",
             "Customer count"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Accounts receivable turnover = Revenue ÷ Average accounts receivable, measuring how efficiently credit sales are collected."
         },
         {
           id: 19,
           question: "What is Altman Z-score used for?",
           options: [
-            "Credit scoring",
-            "Predicting probability of bankruptcy",
             "Profit forecasting",
-            "Market analysis"
+            "Market analysis",
+            "Predicting probability of bankruptcy",
+            "Credit scoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Altman Z-score is a multivariate formula using financial ratios to predict the probability of corporate bankruptcy."
         },
         {
           id: 20,
           question: "What does operating cash flow to sales ratio indicate?",
           options: [
-            "Sales volume",
             "Cash generated from operations relative to sales revenue",
             "Operating profit",
-            "Cash balance"
+            "Cash balance",
+            "Sales volume"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Operating cash flow to sales = Cash from operations ÷ Revenue, indicating cash generation efficiency relative to sales."
         }
       ]
@@ -574,36 +574,36 @@ Technology applications:
           id: 1,
           question: "What is capital budgeting?",
           options: [
-            "Short-term spending planning",
-            "Process of evaluating and selecting long-term investment projects",
             "Daily expense management",
-            "Working capital management"
+            "Short-term spending planning",
+            "Working capital management",
+            "Process of evaluating and selecting long-term investment projects"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Capital budgeting involves analyzing and deciding on long-term investments in projects, equipment, or other assets."
         },
         {
           id: 2,
           question: "What does Net Present Value (NPV) measure?",
           options: [
-            "Total project cost",
-            "Present value of future cash flows minus initial investment",
+            "Payback period",
             "Average return",
-            "Payback period"
+            "Total project cost",
+            "Present value of future cash flows minus initial investment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "NPV calculates the present value of all future cash inflows minus the initial investment, measuring project value in today's dollars."
         },
         {
           id: 3,
           question: "What is the time value of money?",
           options: [
+            "Money supply",
             "Money timing",
-            "Concept that money available now is worth more than same amount in future",
             "Currency value",
-            "Money supply"
+            "Concept that money available now is worth more than same amount in future"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Time value of money recognizes that money available today can earn interest and thus is worth more than the same amount in the future."
         },
         {
@@ -622,9 +622,9 @@ Technology applications:
           id: 5,
           question: "What does payback period measure?",
           options: [
-            "Total profit",
-            "Time required to recover initial investment from cash flows",
             "Project life",
+            "Time required to recover initial investment from cash flows",
+            "Total profit",
             "Return rate"
           ],
           correctAnswer: 1,
@@ -634,24 +634,24 @@ Technology applications:
           id: 6,
           question: "What is WACC?",
           options: [
-            "Weighted Average Cost of Capital - average rate firm pays for financing",
+            "Wealth accumulation cost",
             "Working capital cost",
             "Wage cost",
-            "Wealth accumulation cost"
+            "Weighted Average Cost of Capital - average rate firm pays for financing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "WACC is the average rate a company expects to pay to finance its assets, weighted by proportion of each financing source."
         },
         {
           id: 7,
           question: "What is sensitivity analysis in capital budgeting?",
           options: [
-            "Employee sensitivity",
-            "Testing how NPV changes when one assumption is varied",
             "Market sensitivity",
-            "Price sensitivity"
+            "Price sensitivity",
+            "Employee sensitivity",
+            "Testing how NPV changes when one assumption is varied"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sensitivity analysis examines how changes in one input variable (like sales growth) affect the project's NPV."
         },
         {
@@ -659,21 +659,21 @@ Technology applications:
           question: "What are real options?",
           options: [
             "Stock options",
-            "Managerial flexibilities in investment decisions that create value",
             "Real estate options",
-            "Contract options"
+            "Contract options",
+            "Managerial flexibilities in investment decisions that create value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Real options are opportunities to adjust investment decisions (expand, delay, abandon) that add value beyond basic NPV analysis."
         },
         {
           id: 9,
           question: "What is capital rationing?",
           options: [
-            "Capital abundance",
+            "Capital allocation",
             "Situation where capital is limited and not all positive NPV projects can be funded",
-            "Capital distribution",
-            "Capital allocation"
+            "Capital abundance",
+            "Capital distribution"
           ],
           correctAnswer: 1,
           explanation: "Capital rationing occurs when a company has limited funds and must choose between competing positive NPV projects."
@@ -683,11 +683,11 @@ Technology applications:
           question: "What does profitability index measure?",
           options: [
             "Total profit",
-            "Present value of benefits per dollar of investment",
             "Profit margin",
+            "Present value of benefits per dollar of investment",
             "Return percentage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Profitability index = Present value of future cash flows ÷ Initial investment, showing value created per investment dollar."
         },
         {
@@ -706,22 +706,22 @@ Technology applications:
           id: 12,
           question: "What is Monte Carlo simulation?",
           options: [
-            "Gambling analysis",
             "Using random sampling to model probability distributions of outcomes",
-            "Simple calculation",
-            "Historical simulation"
+            "Historical simulation",
+            "Gambling analysis",
+            "Simple calculation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Monte Carlo simulation uses random sampling from probability distributions to model uncertainty in capital budgeting variables."
         },
         {
           id: 13,
           question: "What is the CAPM formula for cost of equity?",
           options: [
-            "Risk-free rate + Beta",
+            "Interest rate + Premium",
             "Risk-free rate + (Beta × Market risk premium)",
             "Dividend yield + Growth",
-            "Interest rate + Premium"
+            "Risk-free rate + Beta"
           ],
           correctAnswer: 1,
           explanation: "CAPM: Cost of equity = Risk-free rate + Beta × (Market return - Risk-free rate), where market risk premium = Market return - Risk-free rate."
@@ -730,10 +730,10 @@ Technology applications:
           id: 14,
           question: "What is the trade-off theory of capital structure?",
           options: [
-            "No optimal structure",
+            "Always use equity",
             "Balancing tax benefits of debt against costs of financial distress",
             "Always use debt",
-            "Always use equity"
+            "No optimal structure"
           ],
           correctAnswer: 1,
           explanation: "Trade-off theory suggests firms balance tax advantages of debt against bankruptcy costs to determine optimal capital structure."
@@ -743,21 +743,21 @@ Technology applications:
           question: "What are agency costs in capital budgeting?",
           options: [
             "Insurance costs",
-            "Costs arising from conflicts between managers and shareholders",
             "Management fees",
+            "Costs arising from conflicts between managers and shareholders",
             "Administrative costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Agency costs result from conflicts where managers may not act in shareholders' best interests in investment decisions."
         },
         {
           id: 16,
           question: "What is modified IRR (MIRR)?",
           options: [
-            "Simple IRR",
+            "Real IRR",
             "IRR that assumes reinvestment at cost of capital rather than IRR",
-            "Multiple IRR",
-            "Real IRR"
+            "Simple IRR",
+            "Multiple IRR"
           ],
           correctAnswer: 1,
           explanation: "MIRR addresses IRR's unrealistic reinvestment assumption by assuming cash flows are reinvested at the cost of capital."
@@ -766,9 +766,9 @@ Technology applications:
           id: 17,
           question: "What is economic value added (EVA)?",
           options: [
-            "Accounting profit",
-            "Net operating profit after taxes minus capital charge",
             "Market value",
+            "Net operating profit after taxes minus capital charge",
+            "Accounting profit",
             "Cash flow"
           ],
           correctAnswer: 1,
@@ -778,10 +778,10 @@ Technology applications:
           id: 18,
           question: "What is pecking order theory?",
           options: [
-            "Random financing",
+            "Equity only",
             "Firms prefer internal financing, then debt, then equity",
             "Debt only",
-            "Equity only"
+            "Random financing"
           ],
           correctAnswer: 1,
           explanation: "Pecking order theory suggests firms prefer internal funds first, then debt, and equity only as last resort due to information asymmetry."
@@ -790,24 +790,24 @@ Technology applications:
           id: 19,
           question: "What is adjusted present value (APV)?",
           options: [
-            "Simple NPV",
-            "NPV of project if all-equity financed plus present value of financing side effects",
+            "Payback calculation",
             "IRR calculation",
-            "Payback calculation"
+            "NPV of project if all-equity financed plus present value of financing side effects",
+            "Simple NPV"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "APV separates project value from financing effects: Value if all-equity financed + PV of tax shields - PV of financial distress costs."
         },
         {
           id: 20,
           question: "What is decision tree analysis?",
           options: [
-            "Tree planting analysis",
-            "Diagramming sequential decisions and uncertain outcomes",
             "Simple decision making",
-            "Historical decision analysis"
+            "Historical decision analysis",
+            "Diagramming sequential decisions and uncertain outcomes",
+            "Tree planting analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Decision trees diagram sequential decisions, uncertain outcomes, and probabilities to evaluate complex investment decisions."
         }
       ]
@@ -1045,10 +1045,10 @@ Supporting tools and systems:
           id: 1,
           question: "What is market risk?",
           options: [
-            "Marketing campaign risk",
+            "Product risk",
             "Risk of losses from changes in market prices or rates",
-            "Market entry risk",
-            "Product risk"
+            "Marketing campaign risk",
+            "Market entry risk"
           ],
           correctAnswer: 1,
           explanation: "Market risk is potential loss from adverse movements in market prices, including equity, interest rate, currency, and commodity risks."
@@ -1057,46 +1057,46 @@ Supporting tools and systems:
           id: 2,
           question: "What does Value at Risk (VaR) measure?",
           options: [
-            "Average loss",
-            "Maximum potential loss over specified period at given confidence level",
             "Minimum loss",
-            "Certain loss"
+            "Average loss",
+            "Certain loss",
+            "Maximum potential loss over specified period at given confidence level"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "VaR estimates the maximum loss (worst-case) over a specific time period at a given confidence level (e.g., 95% or 99%)."
         },
         {
           id: 3,
           question: "What is credit risk?",
           options: [
+            "Market risk",
             "Credit card risk",
             "Risk that counterparty fails to meet financial obligations",
-            "Interest rate risk",
-            "Market risk"
+            "Interest rate risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Credit risk is the possibility of loss from a borrower's or counterparty's failure to repay a loan or meet contractual obligations."
         },
         {
           id: 4,
           question: "What are forward contracts?",
           options: [
-            "Future plans",
-            "Customized agreements to buy/sell asset at future date at agreed price",
+            "Insurance contracts",
             "Stock options",
-            "Insurance contracts"
+            "Future plans",
+            "Customized agreements to buy/sell asset at future date at agreed price"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Forwards are private agreements between two parties to exchange an asset at a future date for a price agreed today."
         },
         {
           id: 5,
           question: "What is liquidity risk?",
           options: [
-            "Liquid asset risk",
+            "Market risk",
             "Risk of being unable to meet cash flow needs or trade without significant price impact",
             "Water risk",
-            "Market risk"
+            "Liquid asset risk"
           ],
           correctAnswer: 1,
           explanation: "Liquidity risk includes both funding risk (inability to meet obligations) and market liquidity risk (inability to trade without affecting prices)."
@@ -1106,35 +1106,35 @@ Supporting tools and systems:
           question: "What are futures contracts?",
           options: [
             "Future predictions",
-            "Standardized exchange-traded contracts to buy/sell asset at future date",
             "Forward contracts",
+            "Standardized exchange-traded contracts to buy/sell asset at future date",
             "Option contracts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Futures are standardized contracts traded on exchanges to buy/sell assets at future dates, with daily mark-to-market settlement."
         },
         {
           id: 7,
           question: "What is operational risk?",
           options: [
-            "Operating profit risk",
             "Risk of loss from inadequate or failed processes, people, systems, or external events",
+            "Sales risk",
             "Market operation risk",
-            "Sales risk"
+            "Operating profit risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Operational risk encompasses losses from failed internal processes, people, systems, or external events, excluding strategic and reputation risk."
         },
         {
           id: 8,
           question: "What are options contracts?",
           options: [
-            "Optional agreements",
-            "Contracts giving right but not obligation to buy/sell asset at strike price",
             "Required contracts",
-            "Future contracts"
+            "Optional agreements",
+            "Future contracts",
+            "Contracts giving right but not obligation to buy/sell asset at strike price"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Options provide the right (but not obligation) to buy (call) or sell (put) an asset at a specified price within a certain time period."
         },
         {
@@ -1153,12 +1153,12 @@ Supporting tools and systems:
           id: 10,
           question: "What are interest rate swaps?",
           options: [
+            "Rate changes",
             "Interest exchanges",
             "Agreements to exchange fixed interest payments for floating rate payments",
-            "Loan swaps",
-            "Rate changes"
+            "Loan swaps"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Interest rate swaps involve exchanging fixed interest rate payments for floating rate payments (or vice versa) on a notional principal amount."
         },
         {
@@ -1166,20 +1166,20 @@ Supporting tools and systems:
           question: "What is expected shortfall?",
           options: [
             "Expected loss",
+            "Certain loss",
             "Average loss that exceeds VaR at given confidence level",
-            "Minimum loss",
-            "Certain loss"
+            "Minimum loss"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Expected shortfall (conditional VaR) measures the average loss in the worst (1-confidence level)% of cases, addressing VaR's tail risk limitation."
         },
         {
           id: 12,
           question: "What are credit default swaps?",
           options: [
-            "Loan defaults",
-            "Contracts providing protection against credit events like defaults",
             "Credit cards",
+            "Contracts providing protection against credit events like defaults",
+            "Loan defaults",
             "Loan agreements"
           ],
           correctAnswer: 1,
@@ -1190,47 +1190,47 @@ Supporting tools and systems:
           question: "What is stress testing?",
           options: [
             "Employee stress tests",
-            "Analyzing impact of extreme but plausible adverse scenarios",
             "Market testing",
-            "Product testing"
+            "Product testing",
+            "Analyzing impact of extreme but plausible adverse scenarios"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Stress testing evaluates how portfolios, institutions, or systems would perform under severe but plausible adverse conditions."
         },
         {
           id: 14,
           question: "What is delta hedging?",
           options: [
-            "River delta",
             "Options hedging strategy using delta to create market-neutral position",
             "Complete hedging",
+            "River delta",
             "Simple hedging"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Delta hedging involves taking offsetting positions in the underlying asset to neutralize the price risk of an options position."
         },
         {
           id: 15,
           question: "What are key risk indicators?",
           options: [
-            "Risk measurements",
             "Metrics providing early warning of increasing risk exposure",
-            "Risk results",
-            "Risk causes"
+            "Risk causes",
+            "Risk measurements",
+            "Risk results"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "KRIs are measurable metrics that signal increasing risk exposure, allowing proactive risk management before losses occur."
         },
         {
           id: 16,
           question: "What is enterprise risk management?",
           options: [
+            "Market risk only",
             "Department risk management",
             "Integrated approach to managing all risks across organization",
-            "Insurance management",
-            "Market risk only"
+            "Insurance management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ERM is a comprehensive, integrated framework for identifying, assessing, and managing risks across the entire organization."
         },
         {
@@ -1238,47 +1238,47 @@ Supporting tools and systems:
           question: "What is basis risk?",
           options: [
             "Basic risk",
-            "Risk that hedge doesn't perfectly offset exposure due to price differences",
             "Foundation risk",
+            "Risk that hedge doesn't perfectly offset exposure due to price differences",
             "Simple risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Basis risk arises when the hedging instrument and the hedged item don't move perfectly together, leaving residual risk."
         },
         {
           id: 18,
           question: "What are the Greek letters in options?",
           options: [
-            "Alphabet letters",
-            "Risk measures: Delta, Gamma, Vega, Theta, Rho",
+            "Mathematical constants",
             "Currency letters",
-            "Mathematical constants"
+            "Alphabet letters",
+            "Risk measures: Delta, Gamma, Vega, Theta, Rho"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Options Greeks measure sensitivity: Delta (price), Gamma (delta change), Vega (volatility), Theta (time), Rho (interest rates)."
         },
         {
           id: 19,
           question: "What is duration in risk management?",
           options: [
-            "Time period",
-            "Measure of bond price sensitivity to interest rate changes",
             "Loan term",
-            "Contract length"
+            "Contract length",
+            "Time period",
+            "Measure of bond price sensitivity to interest rate changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Duration measures how much a bond's price changes for a given change in interest rates, used in interest rate risk management."
         },
         {
           id: 20,
           question: "What is counterparty risk?",
           options: [
-            "Party risk",
-            "Risk that other party in transaction defaults on obligations",
+            "Credit card risk",
             "Market risk",
-            "Credit card risk"
+            "Party risk",
+            "Risk that other party in transaction defaults on obligations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Counterparty risk is the possibility that the other party in a financial transaction will not fulfill their contractual obligations."
         }
       ]
@@ -1497,8 +1497,8 @@ Tools for investment management:
           options: [
             "Simple portfolio building",
             "Mathematical framework for constructing optimal portfolios considering risk-return tradeoff",
-            "Stock picking theory",
-            "Market timing theory"
+            "Market timing theory",
+            "Stock picking theory"
           ],
           correctAnswer: 1,
           explanation: "MPT, developed by Harry Markowitz, uses mathematical optimization to construct portfolios maximizing expected return for given risk level."
@@ -1507,12 +1507,12 @@ Tools for investment management:
           id: 2,
           question: "What does CAPM stand for and what does it estimate?",
           options: [
-            "Capital Allocation Pricing Model - asset allocation",
             "Capital Asset Pricing Model - expected return based on systematic risk",
-            "Capital Assessment Pricing Model - risk assessment",
-            "Capital Analysis Pricing Model - price analysis"
+            "Capital Analysis Pricing Model - price analysis",
+            "Capital Allocation Pricing Model - asset allocation",
+            "Capital Assessment Pricing Model - risk assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CAPM estimates expected return = Risk-free rate + Beta × (Market return - Risk-free rate), linking return to systematic risk."
         },
         {
@@ -1521,8 +1521,8 @@ Tools for investment management:
           options: [
             "Testing phase",
             "Measure of stock's sensitivity to market movements",
-            "Profit measure",
-            "Risk-free measure"
+            "Risk-free measure",
+            "Profit measure"
           ],
           correctAnswer: 1,
           explanation: "Beta measures how much a stock's returns move with the overall market. Beta = 1 means moves with market, >1 more volatile, <1 less volatile."
@@ -1531,34 +1531,34 @@ Tools for investment management:
           id: 4,
           question: "What is the efficient frontier?",
           options: [
-            "Efficient markets",
             "Set of optimal portfolios offering highest expected return for given risk level",
-            "Market efficiency",
-            "Trading efficiency"
+            "Efficient markets",
+            "Trading efficiency",
+            "Market efficiency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The efficient frontier graphs the set of portfolios that maximize expected return for each level of portfolio risk (standard deviation)."
         },
         {
           id: 5,
           question: "What is diversification?",
           options: [
+            "Single investment",
             "Concentration",
-            "Spreading investments across different assets to reduce overall risk",
             "Focus investing",
-            "Single investment"
+            "Spreading investments across different assets to reduce overall risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Diversification reduces portfolio risk by combining assets with less-than-perfect correlation, minimizing impact of any single asset's poor performance."
         },
         {
           id: 6,
           question: "What are the three forms of Efficient Market Hypothesis?",
           options: [
-            "Slow, medium, fast",
-            "Weak, semi-strong, strong - based on information reflected in prices",
             "Low, medium, high",
-            "Simple, complex, complete"
+            "Weak, semi-strong, strong - based on information reflected in prices",
+            "Simple, complex, complete",
+            "Slow, medium, fast"
           ],
           correctAnswer: 1,
           explanation: "Weak form: prices reflect all historical info. Semi-strong: all public info. Strong form: all public and private info."
@@ -1568,23 +1568,23 @@ Tools for investment management:
           question: "What is fundamental analysis?",
           options: [
             "Basic analysis",
-            "Evaluating securities by analyzing company financials, industry, economy",
+            "Simple analysis",
             "Technical chart analysis",
-            "Simple analysis"
+            "Evaluating securities by analyzing company financials, industry, economy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Fundamental analysis evaluates securities by examining financial statements, management, competitors, and economic factors to determine intrinsic value."
         },
         {
           id: 8,
           question: "What is technical analysis?",
           options: [
-            "Technical skill analysis",
             "Analyzing security price patterns and trends to predict future movements",
+            "Economic analysis",
             "Fundamental analysis",
-            "Economic analysis"
+            "Technical skill analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Technical analysis studies past market data, primarily price and volume, to identify patterns and trends that may predict future price movements."
         },
         {
@@ -1593,8 +1593,8 @@ Tools for investment management:
           options: [
             "Discount shopping",
             "Valuation model valuing stock as present value of expected future dividends",
-            "Stock discount",
-            "Price reduction model"
+            "Price reduction model",
+            "Stock discount"
           ],
           correctAnswer: 1,
           explanation: "DDM values a stock as the present value of all expected future dividend payments, using required rate of return and dividend growth rate."
@@ -1603,22 +1603,22 @@ Tools for investment management:
           id: 10,
           question: "What is the Sharpe ratio?",
           options: [
-            "Sharp measurement",
             "Risk-adjusted return measure: (Portfolio return - Risk-free rate) ÷ Portfolio standard deviation",
-            "Return measure",
-            "Risk measure"
+            "Risk measure",
+            "Sharp measurement",
+            "Return measure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Sharpe ratio measures excess return per unit of total risk (standard deviation), comparing portfolio performance to risk-free rate."
         },
         {
           id: 11,
           question: "What is behavioral finance?",
           options: [
-            "Behavior management",
-            "Study of psychological influences on investor behavior and market outcomes",
             "Employee behavior",
-            "Market behavior only"
+            "Study of psychological influences on investor behavior and market outcomes",
+            "Market behavior only",
+            "Behavior management"
           ],
           correctAnswer: 1,
           explanation: "Behavioral finance examines how psychological biases and emotions affect investor decisions and create market anomalies contradicting efficient markets."
@@ -1627,10 +1627,10 @@ Tools for investment management:
           id: 12,
           question: "What is portfolio rebalancing?",
           options: [
-            "Balance checking",
+            "Balance reduction",
             "Adjusting portfolio holdings to maintain target asset allocation",
-            "New portfolio",
-            "Balance reduction"
+            "Balance checking",
+            "New portfolio"
           ],
           correctAnswer: 1,
           explanation: "Rebalancing involves buying/selling assets to bring portfolio back to target allocation, controlling risk and maintaining strategy."
@@ -1639,48 +1639,48 @@ Tools for investment management:
           id: 13,
           question: "What is arbitrage pricing theory?",
           options: [
+            "Single factor model",
             "Pricing arbitration",
             "Multi-factor model where asset returns are influenced by several systematic risk factors",
-            "Single factor model",
             "Price setting theory"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "APT models expected returns as linear function of multiple macroeconomic factors, with sensitivity (factor loading) to each factor."
         },
         {
           id: 14,
           question: "What is yield to maturity?",
           options: [
-            "Current yield",
             "Total return if bond held to maturity, assuming all payments made and reinvested at YTM",
             "Simple yield",
-            "Coupon yield"
+            "Coupon yield",
+            "Current yield"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "YTM is the internal rate of return earned on a bond if held to maturity, considering coupon payments, face value, current price, and time to maturity."
         },
         {
           id: 15,
           question: "What is duration in bond investing?",
           options: [
-            "Bond maturity",
             "Measure of bond price sensitivity to interest rate changes, in years",
-            "Bond life",
-            "Payment duration"
+            "Bond maturity",
+            "Payment duration",
+            "Bond life"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Duration measures how much a bond's price changes for a 1% change in interest rates, representing weighted average time to receive cash flows."
         },
         {
           id: 16,
           question: "What is alpha in investment performance?",
           options: [
-            "First letter",
             "Excess return above benchmark or expected return given risk",
             "Average return",
-            "Risk measure"
+            "Risk measure",
+            "First letter"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Alpha measures investment performance relative to a benchmark or expected CAPM return, indicating value added by active management."
         },
         {
@@ -1689,8 +1689,8 @@ Tools for investment management:
           options: [
             "Tactical planning",
             "Short-term adjustments to strategic allocation based on market forecasts",
-            "Strategic allocation",
-            "Fixed allocation"
+            "Fixed allocation",
+            "Strategic allocation"
           ],
           correctAnswer: 1,
           explanation: "TAA involves actively shifting portfolio allocations to capitalize on market opportunities or avoid risks, deviating from long-term strategic targets."
@@ -1699,34 +1699,34 @@ Tools for investment management:
           id: 18,
           question: "What are alternative investments?",
           options: [
-            "Alternate choices",
-            "Non-traditional assets like real estate, private equity, hedge funds, commodities",
             "Stock alternatives",
-            "Bond alternatives"
+            "Alternate choices",
+            "Bond alternatives",
+            "Non-traditional assets like real estate, private equity, hedge funds, commodities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Alternative investments include assets beyond traditional stocks/bonds/cash, often with different risk-return characteristics and lower liquidity."
         },
         {
           id: 19,
           question: "What is ESG investing?",
           options: [
-            "Extra special gains",
-            "Considering environmental, social, governance factors in investment decisions",
             "Economic sector gains",
-            "Enhanced stock growth"
+            "Extra special gains",
+            "Enhanced stock growth",
+            "Considering environmental, social, governance factors in investment decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ESG investing integrates environmental, social, and governance factors alongside financial analysis in investment decision-making."
         },
         {
           id: 20,
           question: "What is a robo-advisor?",
           options: [
-            "Robot consultant",
+            "Trading robot",
             "Digital platform providing automated investment management using algorithms",
             "Human advisor",
-            "Trading robot"
+            "Robot consultant"
           ],
           correctAnswer: 1,
           explanation: "Robo-advisors use algorithms to automatically allocate, manage, and optimize clients' investments, typically with lower fees than human advisors."
@@ -1921,12 +1921,12 @@ Emerging developments:
           id: 1,
           question: "What is foreign exchange risk?",
           options: [
-            "Exchange building risk",
             "Risk of loss from adverse exchange rate movements",
+            "Market risk only",
             "Foreign investment risk",
-            "Market risk only"
+            "Exchange building risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Foreign exchange risk is the potential for financial loss due to changes in exchange rates affecting the value of foreign currency transactions or investments."
         },
         {
@@ -1935,8 +1935,8 @@ Emerging developments:
           options: [
             "Small, medium, large",
             "Transaction, translation, economic exposure",
-            "Short, medium, long term",
-            "Minor, major, critical"
+            "Minor, major, critical",
+            "Short, medium, long term"
           ],
           correctAnswer: 1,
           explanation: "Transaction: risk from future cash flows. Translation: risk from converting financial statements. Economic: risk from long-term competitive impact."
@@ -1947,8 +1947,8 @@ Emerging developments:
           options: [
             "Purchase power",
             "Theory that exchange rates adjust to equalize purchasing power across countries",
-            "Buying power",
-            "Price parity"
+            "Price parity",
+            "Buying power"
           ],
           correctAnswer: 1,
           explanation: "PPP suggests exchange rates should adjust so identical goods cost the same in different countries when expressed in common currency."
@@ -1958,35 +1958,35 @@ Emerging developments:
           question: "What is interest rate parity?",
           options: [
             "Interest equality",
+            "Interest similarity",
             "Relationship where interest rate differential equals expected exchange rate change",
-            "Rate similarity",
-            "Interest similarity"
+            "Rate similarity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "IRP states that difference in interest rates between two countries equals expected change in exchange rates between their currencies."
         },
         {
           id: 5,
           question: "What is transaction exposure?",
           options: [
-            "Transaction risk",
-            "Risk from exchange rate changes affecting future foreign currency cash flows",
             "Translation risk",
-            "Economic risk"
+            "Transaction risk",
+            "Economic risk",
+            "Risk from exchange rate changes affecting future foreign currency cash flows"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Transaction exposure is the risk that exchange rate changes will affect the value of future cash flows from existing foreign currency transactions."
         },
         {
           id: 6,
           question: "What is a forward contract in forex?",
           options: [
-            "Forward planning",
             "Agreement to exchange currencies at future date at predetermined rate",
+            "Forward planning",
             "Future contract",
             "Option contract"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A forward contract locks in an exchange rate today for a currency transaction that will occur at a specified future date."
         },
         {
@@ -1995,8 +1995,8 @@ Emerging developments:
           options: [
             "Language translation",
             "Risk from converting foreign subsidiary financial statements to parent currency",
-            "Transaction exposure",
-            "Economic exposure"
+            "Economic exposure",
+            "Transaction exposure"
           ],
           correctAnswer: 1,
           explanation: "Translation exposure arises when consolidating foreign subsidiary financial statements into parent company reporting currency."
@@ -2005,36 +2005,36 @@ Emerging developments:
           id: 8,
           question: "What is economic exposure?",
           options: [
-            "Economic risk",
-            "Long-term risk from exchange rates affecting competitive position and future cash flows",
+            "Translation risk",
             "Transaction risk",
-            "Translation risk"
+            "Economic risk",
+            "Long-term risk from exchange rates affecting competitive position and future cash flows"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Economic exposure is the risk that exchange rate changes will affect a company's long-term competitive position and present value of future cash flows."
         },
         {
           id: 9,
           question: "What is country risk?",
           options: [
+            "Market risk",
             "National risk",
             "Risk of doing business in a particular country due to political, economic, social factors",
-            "Currency risk",
-            "Market risk"
+            "Currency risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Country risk includes political, economic, financial, and social risks specific to operating in a particular foreign country."
         },
         {
           id: 10,
           question: "What are letters of credit?",
           options: [
-            "Credit letters",
-            "Bank guarantees ensuring payment in international trade if conditions met",
+            "Credit cards",
             "Loan letters",
-            "Credit cards"
+            "Bank guarantees ensuring payment in international trade if conditions met",
+            "Credit letters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Letters of credit are bank guarantees that payment will be made to exporter if specified documents are presented, reducing trade payment risk."
         },
         {
@@ -2042,33 +2042,33 @@ Emerging developments:
           question: "What is transfer pricing?",
           options: [
             "Price transfer",
-            "Pricing of transactions between related entities in different countries",
             "Price changing",
-            "Market pricing"
+            "Market pricing",
+            "Pricing of transactions between related entities in different countries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Transfer pricing refers to prices charged for goods, services, or intangibles between related companies in different tax jurisdictions."
         },
         {
           id: 12,
           question: "What is a currency swap?",
           options: [
+            "Rate swap",
             "Currency exchange",
             "Agreement to exchange principal and interest payments in different currencies",
-            "Simple swap",
-            "Rate swap"
+            "Simple swap"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Currency swaps involve exchanging principal and interest payments in one currency for principal and interest in another currency."
         },
         {
           id: 13,
           question: "What is political risk?",
           options: [
-            "Political campaign risk",
+            "Government risk",
             "Risk of loss from political events or government actions in foreign country",
-            "Policy risk",
-            "Government risk"
+            "Political campaign risk",
+            "Policy risk"
           ],
           correctAnswer: 1,
           explanation: "Political risk includes potential losses from political instability, policy changes, expropriation, or restrictions in a foreign country."
@@ -2077,22 +2077,22 @@ Emerging developments:
           id: 14,
           question: "What are Eurocurrency markets?",
           options: [
-            "European currency",
             "Markets for currency deposited outside its country of origin",
+            "European markets",
             "Euro markets",
-            "European markets"
+            "European currency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Eurocurrency markets are offshore markets where currencies are deposited and lent outside their country of origin (e.g., Eurodollars)."
         },
         {
           id: 15,
           question: "What is double taxation?",
           options: [
-            "Double tax",
+            "Duplicate tax",
             "Being taxed twice on same income by two different countries",
-            "High taxation",
-            "Duplicate tax"
+            "Double tax",
+            "High taxation"
           ],
           correctAnswer: 1,
           explanation: "Double taxation occurs when the same income is taxed by both the country where it's earned and the taxpayer's home country."
@@ -2101,10 +2101,10 @@ Emerging developments:
           id: 16,
           question: "What is foreign direct investment?",
           options: [
-            "Foreign investment",
+            "Stock investment",
             "Investment establishing substantial control in foreign business operations",
             "Portfolio investment",
-            "Stock investment"
+            "Foreign investment"
           ],
           correctAnswer: 1,
           explanation: "FDI involves establishing substantial, long-term interest and control in a business enterprise in a foreign country."
@@ -2113,33 +2113,33 @@ Emerging developments:
           id: 17,
           question: "What are American Depository Receipts?",
           options: [
+            "Foreign receipts",
             "American receipts",
             "U.S. traded securities representing shares in foreign companies",
-            "Foreign receipts",
             "Stock receipts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ADRs are U.S. dollar-denominated certificates traded on U.S. exchanges, representing shares in foreign corporations."
         },
         {
           id: 18,
           question: "What is the International Fisher Effect?",
           options: [
-            "Fisher theory",
-            "Nominal interest rate differentials reflect expected exchange rate changes",
             "Interest effect",
-            "Rate effect"
+            "Rate effect",
+            "Fisher theory",
+            "Nominal interest rate differentials reflect expected exchange rate changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "IFE suggests that differences in nominal interest rates between countries reflect expected changes in exchange rates."
         },
         {
           id: 19,
           question: "What is cash pooling in international finance?",
           options: [
-            "Cash collection",
-            "Centralizing cash management across multiple subsidiaries to optimize liquidity",
             "Cash saving",
+            "Centralizing cash management across multiple subsidiaries to optimize liquidity",
+            "Cash collection",
             "Cash distribution"
           ],
           correctAnswer: 1,
@@ -2149,9 +2149,9 @@ Emerging developments:
           id: 20,
           question: "What are Special Drawing Rights?",
           options: [
-            "Special rights",
-            "IMF international reserve asset based on basket of major currencies",
             "Drawing rights",
+            "IMF international reserve asset based on basket of major currencies",
+            "Special rights",
             "Currency rights"
           ],
           correctAnswer: 1,
@@ -2347,34 +2347,34 @@ Turning strategy into action:
           id: 1,
           question: "What is strategic financial management?",
           options: [
-            "Basic finance",
-            "Aligning financial decisions with corporate strategy to create competitive advantage",
             "Accounting management",
-            "Short-term finance"
+            "Short-term finance",
+            "Aligning financial decisions with corporate strategy to create competitive advantage",
+            "Basic finance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic financial management integrates financial planning and decision-making with overall business strategy to maximize long-term value."
         },
         {
           id: 2,
           question: "What is value-based management?",
           options: [
-            "Value management",
-            "Management approach focusing on creating shareholder value as primary objective",
             "Cost management",
-            "Profit management"
+            "Profit management",
+            "Management approach focusing on creating shareholder value as primary objective",
+            "Value management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "VBM aligns company operations, measurements, and incentives with shareholder value creation, using metrics like EVA and focusing on value drivers."
         },
         {
           id: 3,
           question: "What is Economic Value Added (EVA)?",
           options: [
-            "Economic value",
+            "Market value",
             "Measure of economic profit: NOPAT minus capital charge",
-            "Added value",
-            "Market value"
+            "Economic value",
+            "Added value"
           ],
           correctAnswer: 1,
           explanation: "EVA = Net operating profit after taxes - (Capital × Cost of capital), measuring true economic profit after accounting for cost of all capital."
@@ -2383,10 +2383,10 @@ Turning strategy into action:
           id: 4,
           question: "What is the balanced scorecard?",
           options: [
-            "Simple scorecard",
-            "Strategic management system linking financial and non-financial measures across four perspectives",
             "Financial scorecard",
-            "Performance card"
+            "Strategic management system linking financial and non-financial measures across four perspectives",
+            "Performance card",
+            "Simple scorecard"
           ],
           correctAnswer: 1,
           explanation: "Balanced scorecard translates strategy into objectives and measures across financial, customer, internal process, and learning/growth perspectives."
@@ -2396,11 +2396,11 @@ Turning strategy into action:
           question: "What are strategic risk management?",
           options: [
             "Basic risk management",
-            "Identifying and managing risks that could prevent achieving strategic objectives",
             "Operational risk",
+            "Identifying and managing risks that could prevent achieving strategic objectives",
             "Financial risk only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic risk management focuses on risks that could fundamentally affect a company's strategy, competitive position, or ability to execute plans."
         },
         {
@@ -2419,36 +2419,36 @@ Turning strategy into action:
           id: 7,
           question: "What is target costing?",
           options: [
-            "Target price",
-            "Designing costs out of products before production to achieve desired profit margin",
+            "Price setting",
             "Cost target",
-            "Price setting"
+            "Designing costs out of products before production to achieve desired profit margin",
+            "Target price"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Target costing determines maximum allowable cost for a product based on market price minus desired profit, then designs product to meet that cost."
         },
         {
           id: 8,
           question: "What is value chain analysis?",
           options: [
-            "Value analysis",
             "Analyzing sequence of activities from raw materials to final product to identify value-added steps",
+            "Value analysis",
             "Chain analysis",
             "Supply analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Value chain analysis examines each activity in creating and delivering a product/service to identify where value is added and costs incurred."
         },
         {
           id: 9,
           question: "What is the strategic role of CFO?",
           options: [
-            "Accounting role",
-            "Strategic partner to CEO in formulating and executing business strategy",
             "Bookkeeping role",
-            "Reporting role"
+            "Reporting role",
+            "Strategic partner to CEO in formulating and executing business strategy",
+            "Accounting role"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Modern CFOs serve as strategic partners to CEOs, providing financial insights for strategy, managing capital allocation, and driving value creation."
         },
         {
@@ -2456,56 +2456,56 @@ Turning strategy into action:
           question: "What are key performance indicators in strategic finance?",
           options: [
             "Simple metrics",
-            "Quantifiable measures tracking progress toward strategic objectives",
+            "Accounting measures",
             "Financial ratios",
-            "Accounting measures"
+            "Quantifiable measures tracking progress toward strategic objectives"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strategic KPIs are metrics specifically chosen to track progress on strategic priorities, often including both financial and non-financial measures."
         },
         {
           id: 11,
           question: "What is strategic cost analysis?",
           options: [
-            "Cost analysis",
-            "Understanding cost structure and behavior in context of competitive strategy",
+            "Expense analysis",
             "Simple cost review",
-            "Expense analysis"
+            "Cost analysis",
+            "Understanding cost structure and behavior in context of competitive strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strategic cost analysis examines costs in relation to competitive strategy, identifying cost drivers and opportunities for strategic cost advantage."
         },
         {
           id: 12,
           question: "What is sustainable finance?",
           options: [
-            "Long-term finance",
-            "Financial services integrating environmental, social, governance criteria",
             "Stable finance",
-            "Continuous finance"
+            "Continuous finance",
+            "Financial services integrating environmental, social, governance criteria",
+            "Long-term finance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sustainable finance considers ESG factors in financial decision-making to support sustainable economic growth and long-term value creation."
         },
         {
           id: 13,
           question: "What is digital transformation in finance?",
           options: [
+            "Electronic payments",
             "Digital accounting",
             "Using digital technologies to transform financial operations and capabilities",
-            "Online banking",
-            "Electronic payments"
+            "Online banking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital transformation in finance involves leveraging technologies like AI, automation, and analytics to improve financial processes, insights, and value."
         },
         {
           id: 14,
           question: "What is crisis management in finance?",
           options: [
-            "Crisis response",
-            "Preparing for and responding to financial crises to protect value and ensure continuity",
             "Risk management",
+            "Preparing for and responding to financial crises to protect value and ensure continuity",
+            "Crisis response",
             "Emergency management"
           ],
           correctAnswer: 1,
@@ -2516,71 +2516,71 @@ Turning strategy into action:
           question: "What is strategic investment portfolio management?",
           options: [
             "Portfolio management",
-            "Managing collection of investments to support overall business strategy",
             "Simple investing",
-            "Stock picking"
+            "Stock picking",
+            "Managing collection of investments to support overall business strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strategic investment portfolio management allocates capital across investments to achieve strategic objectives while managing risk-return tradeoffs."
         },
         {
           id: 16,
           question: "What is stakeholder capitalism?",
           options: [
-            "Shareholder focus",
             "Business approach considering interests of all stakeholders, not just shareholders",
             "Capitalism only",
-            "Owner focus"
+            "Owner focus",
+            "Shareholder focus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stakeholder capitalism emphasizes creating value for all stakeholders including employees, customers, suppliers, communities, and shareholders."
         },
         {
           id: 17,
           question: "What is financial innovation strategy?",
           options: [
-            "New products",
-            "Strategic approach to developing and implementing new financial products, services, or processes",
+            "Technology only",
             "Simple innovation",
-            "Technology only"
+            "New products",
+            "Strategic approach to developing and implementing new financial products, services, or processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Financial innovation strategy systematically develops new financial approaches to create competitive advantage, improve efficiency, or better serve customers."
         },
         {
           id: 18,
           question: "What is strategic financial communication?",
           options: [
+            "Investor relations",
             "Simple communication",
             "Communicating financial information in way that supports strategic objectives",
-            "Financial reporting",
-            "Investor relations"
+            "Financial reporting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic financial communication tailors financial messaging to different stakeholders to build trust, support strategy, and enhance reputation."
         },
         {
           id: 19,
           question: "What is global financial strategy?",
           options: [
-            "International finance",
-            "Integrated approach to managing finance across multiple countries to support global strategy",
+            "Currency strategy",
             "Foreign finance",
-            "Currency strategy"
+            "Integrated approach to managing finance across multiple countries to support global strategy",
+            "International finance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Global financial strategy coordinates financial management across countries to support worldwide business strategy while managing international risks."
         },
         {
           id: 20,
           question: "What is the implementation of financial strategy?",
           options: [
-            "Planning only",
             "Translating strategic financial plans into actionable initiatives with resources and accountability",
+            "Goal setting only",
             "Theoretical planning",
-            "Goal setting only"
+            "Planning only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategy implementation involves allocating resources, establishing processes, assigning responsibilities, and monitoring progress to execute financial strategy."
         }
       ]
@@ -2597,24 +2597,24 @@ Turning strategy into action:
         id: 1,
         question: "What does the current ratio measure?",
         options: [
+          "Asset utilization",
           "Long-term debt capacity",
           "Short-term liquidity and ability to pay current obligations",
-          "Profitability efficiency",
-          "Asset utilization"
+          "Profitability efficiency"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Current ratio = Current assets ÷ Current liabilities, measuring ability to pay short-term obligations with short-term assets."
       },
       {
         id: 2,
         question: "What is Net Present Value (NPV)?",
         options: [
-          "Total project cost",
-          "Present value of future cash flows minus initial investment",
           "Average return",
-          "Payback period"
+          "Total project cost",
+          "Payback period",
+          "Present value of future cash flows minus initial investment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "NPV calculates present value of all future cash inflows minus initial investment, measuring project value in today's dollars."
       },
       {
@@ -2623,8 +2623,8 @@ Turning strategy into action:
         options: [
           "Marketing campaign risk",
           "Risk of losses from changes in market prices or rates",
-          "Market entry risk",
-          "Product risk"
+          "Product risk",
+          "Market entry risk"
         ],
         correctAnswer: 1,
         explanation: "Market risk is potential loss from adverse movements in market prices including equity, interest rate, currency, and commodity risks."
@@ -2635,8 +2635,8 @@ Turning strategy into action:
         options: [
           "Simple portfolio building",
           "Mathematical framework for constructing optimal portfolios considering risk-return tradeoff",
-          "Stock picking theory",
-          "Market timing theory"
+          "Market timing theory",
+          "Stock picking theory"
         ],
         correctAnswer: 1,
         explanation: "MPT uses mathematical optimization to construct portfolios maximizing expected return for given risk level through diversification."
@@ -2647,8 +2647,8 @@ Turning strategy into action:
         options: [
           "Exchange building risk",
           "Risk of loss from adverse exchange rate movements",
-          "Foreign investment risk",
-          "Market risk only"
+          "Market risk only",
+          "Foreign investment risk"
         ],
         correctAnswer: 1,
         explanation: "Foreign exchange risk is potential financial loss due to changes in exchange rates affecting foreign currency transactions or investments."
@@ -2657,48 +2657,48 @@ Turning strategy into action:
         id: 6,
         question: "What is strategic financial management?",
         options: [
-          "Basic finance",
           "Aligning financial decisions with corporate strategy to create competitive advantage",
           "Accounting management",
-          "Short-term finance"
+          "Short-term finance",
+          "Basic finance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Strategic financial management integrates financial planning and decision-making with overall business strategy to maximize long-term value."
       },
       {
         id: 7,
         question: "What is the formula for Return on Equity (ROE)?",
         options: [
-          "Net income ÷ Total assets",
-          "Net income ÷ Shareholders' equity",
+          "Gross profit ÷ Revenue",
           "Revenue ÷ Total assets",
-          "Gross profit ÷ Revenue"
+          "Net income ÷ Shareholders' equity",
+          "Net income ÷ Total assets"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "ROE = Net income ÷ Shareholders' equity, measuring how effectively company uses equity to generate profits."
       },
       {
         id: 8,
         question: "What is the time value of money?",
         options: [
-          "Money timing",
           "Concept that money available now is worth more than same amount in future",
           "Currency value",
-          "Money supply"
+          "Money supply",
+          "Money timing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Time value of money recognizes money available today can earn interest, making it worth more than same amount received later."
       },
       {
         id: 9,
         question: "What does Value at Risk (VaR) measure?",
         options: [
-          "Average loss",
           "Maximum potential loss over specified period at given confidence level",
+          "Average loss",
           "Minimum loss",
           "Certain loss"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "VaR estimates maximum loss over specific time period at given confidence level (e.g., 95% or 99%)."
       },
       {
@@ -2706,35 +2706,35 @@ Turning strategy into action:
         question: "What does CAPM stand for and what does it estimate?",
         options: [
           "Capital Allocation Pricing Model - asset allocation",
+          "Capital Analysis Pricing Model - price analysis",
           "Capital Asset Pricing Model - expected return based on systematic risk",
-          "Capital Assessment Pricing Model - risk assessment",
-          "Capital Analysis Pricing Model - price analysis"
+          "Capital Assessment Pricing Model - risk assessment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "CAPM estimates expected return = Risk-free rate + Beta × Market risk premium, linking return to systematic risk."
       },
       {
         id: 11,
         question: "What are the three types of foreign exchange exposure?",
         options: [
+          "Short, medium, long term",
           "Small, medium, large",
           "Transaction, translation, economic exposure",
-          "Short, medium, long term",
           "Minor, major, critical"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Transaction: future cash flows. Translation: converting financial statements. Economic: long-term competitive impact."
       },
       {
         id: 12,
         question: "What is value-based management?",
         options: [
-          "Value management",
-          "Management approach focusing on creating shareholder value as primary objective",
           "Cost management",
-          "Profit management"
+          "Profit management",
+          "Value management",
+          "Management approach focusing on creating shareholder value as primary objective"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "VBM aligns operations, measurements, and incentives with shareholder value creation using metrics like EVA."
       },
       {
@@ -2742,21 +2742,21 @@ Turning strategy into action:
         question: "What does the debt-to-equity ratio indicate?",
         options: [
           "Short-term liquidity",
+          "Profit margin",
           "Financial leverage and reliance on debt financing",
-          "Inventory efficiency",
-          "Profit margin"
+          "Inventory efficiency"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Debt-to-equity = Total liabilities ÷ Shareholders' equity, showing proportion of debt used relative to equity."
       },
       {
         id: 14,
         question: "What is Internal Rate of Return (IRR)?",
         options: [
-          "Interest rate",
+          "Inflation rate",
           "Discount rate that makes NPV of project equal to zero",
           "Loan rate",
-          "Inflation rate"
+          "Interest rate"
         ],
         correctAnswer: 1,
         explanation: "IRR is discount rate at which present value of future cash flows equals initial investment (NPV = 0)."
@@ -2765,12 +2765,12 @@ Turning strategy into action:
         id: 15,
         question: "What is credit risk?",
         options: [
-          "Credit card risk",
           "Risk that counterparty fails to meet financial obligations",
+          "Market risk",
           "Interest rate risk",
-          "Market risk"
+          "Credit card risk"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Credit risk is possibility of loss from borrower's or counterparty's failure to repay loan or meet contractual obligations."
       },
       {
@@ -2790,23 +2790,23 @@ Turning strategy into action:
         question: "What is purchasing power parity?",
         options: [
           "Purchase power",
-          "Theory that exchange rates adjust to equalize purchasing power across countries",
+          "Price parity",
           "Buying power",
-          "Price parity"
+          "Theory that exchange rates adjust to equalize purchasing power across countries"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "PPP suggests exchange rates adjust so identical goods cost same in different countries when expressed in common currency."
       },
       {
         id: 18,
         question: "What is Economic Value Added (EVA)?",
         options: [
-          "Economic value",
           "Measure of economic profit: NOPAT minus capital charge",
+          "Economic value",
           "Added value",
           "Market value"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "EVA = NOPAT - (Capital × Cost of capital), measuring true economic profit after accounting for cost of all capital."
       },
       {
@@ -2814,11 +2814,11 @@ Turning strategy into action:
         question: "What is vertical analysis?",
         options: [
           "Comparing to previous years",
-          "Expressing each financial statement item as percentage of a base amount",
           "Industry comparison",
+          "Expressing each financial statement item as percentage of a base amount",
           "Market analysis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Vertical analysis expresses each item as percentage of base amount (revenue for income statement, total assets for balance sheet)."
       },
       {
@@ -2827,8 +2827,8 @@ Turning strategy into action:
         options: [
           "Total profit",
           "Time required to recover initial investment from cash flows",
-          "Project life",
-          "Return rate"
+          "Return rate",
+          "Project life"
         ],
         correctAnswer: 1,
         explanation: "Payback period calculates how long it takes for project's cash flows to repay initial investment."
@@ -2837,22 +2837,22 @@ Turning strategy into action:
         id: 21,
         question: "What are forward contracts?",
         options: [
-          "Future plans",
           "Customized agreements to buy/sell asset at future date at agreed price",
-          "Stock options",
-          "Insurance contracts"
+          "Future plans",
+          "Insurance contracts",
+          "Stock options"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Forwards are private agreements between two parties to exchange asset at future date for price agreed today."
       },
       {
         id: 22,
         question: "What is the efficient frontier?",
         options: [
-          "Efficient markets",
-          "Set of optimal portfolios offering highest expected return for given risk level",
           "Market efficiency",
-          "Trading efficiency"
+          "Set of optimal portfolios offering highest expected return for given risk level",
+          "Trading efficiency",
+          "Efficient markets"
         ],
         correctAnswer: 1,
         explanation: "Efficient frontier graphs portfolios maximizing expected return for each level of portfolio risk (standard deviation)."
@@ -2861,70 +2861,70 @@ Turning strategy into action:
         id: 23,
         question: "What is transaction exposure?",
         options: [
-          "Transaction risk",
           "Risk from exchange rate changes affecting future foreign currency cash flows",
+          "Transaction risk",
           "Translation risk",
           "Economic risk"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Transaction exposure is risk that exchange rate changes will affect value of future cash flows from existing foreign currency transactions."
       },
       {
         id: 24,
         question: "What is the balanced scorecard?",
         options: [
-          "Simple scorecard",
-          "Strategic management system linking financial and non-financial measures across four perspectives",
           "Financial scorecard",
-          "Performance card"
+          "Performance card",
+          "Simple scorecard",
+          "Strategic management system linking financial and non-financial measures across four perspectives"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Balanced scorecard translates strategy into objectives and measures across financial, customer, internal process, and learning/growth perspectives."
       },
       {
         id: 25,
         question: "What does free cash flow measure?",
         options: [
-          "Total cash generated",
-          "Cash available after capital expenditures for expansion, dividends, or debt reduction",
+          "Investment cash only",
           "Operating cash only",
-          "Investment cash only"
+          "Total cash generated",
+          "Cash available after capital expenditures for expansion, dividends, or debt reduction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Free cash flow = Operating cash flow - Capital expenditures, showing cash available for expansion, dividends, or debt reduction."
       },
       {
         id: 26,
         question: "What is WACC?",
         options: [
-          "Weighted Average Cost of Capital - average rate firm pays for financing",
-          "Working capital cost",
+          "Wealth accumulation cost",
           "Wage cost",
-          "Wealth accumulation cost"
+          "Weighted Average Cost of Capital - average rate firm pays for financing",
+          "Working capital cost"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "WACC = (E/V × Re) + (D/V × Rd × (1-Tc)), average rate company expects to pay to finance assets."
       },
       {
         id: 27,
         question: "What is liquidity risk?",
         options: [
-          "Liquid asset risk",
-          "Risk of being unable to meet cash flow needs or trade without significant price impact",
           "Water risk",
-          "Market risk"
+          "Liquid asset risk",
+          "Market risk",
+          "Risk of being unable to meet cash flow needs or trade without significant price impact"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Liquidity risk includes both funding risk (inability to meet obligations) and market liquidity risk (inability to trade without affecting prices)."
       },
       {
         id: 28,
         question: "What is diversification?",
         options: [
-          "Concentration",
+          "Single investment",
           "Spreading investments across different assets to reduce overall risk",
-          "Focus investing",
-          "Single investment"
+          "Concentration",
+          "Focus investing"
         ],
         correctAnswer: 1,
         explanation: "Diversification reduces portfolio risk by combining assets with less-than-perfect correlation."
@@ -2933,34 +2933,34 @@ Turning strategy into action:
         id: 29,
         question: "What is a forward contract in forex?",
         options: [
-          "Forward planning",
           "Agreement to exchange currencies at future date at predetermined rate",
           "Future contract",
+          "Forward planning",
           "Option contract"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Forward contract locks in exchange rate today for currency transaction at specified future date."
       },
       {
         id: 30,
         question: "What is strategic risk management?",
         options: [
-          "Basic risk management",
-          "Identifying and managing risks that could prevent achieving strategic objectives",
           "Operational risk",
-          "Financial risk only"
+          "Financial risk only",
+          "Identifying and managing risks that could prevent achieving strategic objectives",
+          "Basic risk management"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Strategic risk management focuses on risks that could fundamentally affect company's strategy or ability to execute plans."
       },
       {
         id: 31,
         question: "What is DuPont analysis?",
         options: [
-          "Single ratio analysis",
-          "Breaking down ROE into components to understand performance drivers",
           "Cash flow analysis",
-          "Market ratio analysis"
+          "Breaking down ROE into components to understand performance drivers",
+          "Market ratio analysis",
+          "Single ratio analysis"
         ],
         correctAnswer: 1,
         explanation: "DuPont analysis decomposes ROE into profit margin, asset turnover, and financial leverage components."
@@ -2981,24 +2981,24 @@ Turning strategy into action:
         id: 33,
         question: "What are futures contracts?",
         options: [
-          "Future predictions",
-          "Standardized exchange-traded contracts to buy/sell asset at future date",
           "Forward contracts",
-          "Option contracts"
+          "Option contracts",
+          "Standardized exchange-traded contracts to buy/sell asset at future date",
+          "Future predictions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Futures are standardized contracts traded on exchanges to buy/sell assets at future dates with daily mark-to-market."
       },
       {
         id: 34,
         question: "What are the three forms of Efficient Market Hypothesis?",
         options: [
+          "Low, medium, high",
           "Slow, medium, fast",
           "Weak, semi-strong, strong - based on information reflected in prices",
-          "Low, medium, high",
           "Simple, complex, complete"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Weak: historical info. Semi-strong: public info. Strong: all public and private info reflected in prices."
       },
       {
@@ -3006,71 +3006,71 @@ Turning strategy into action:
         question: "What is translation exposure?",
         options: [
           "Language translation",
-          "Risk from converting foreign subsidiary financial statements to parent currency",
           "Transaction exposure",
+          "Risk from converting foreign subsidiary financial statements to parent currency",
           "Economic exposure"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Translation exposure arises when consolidating foreign subsidiary financial statements into parent company reporting currency."
       },
       {
         id: 36,
         question: "What is activity-based costing?",
         options: [
-          "Activity cost",
           "Costing method assigning costs to products based on activities required to produce them",
-          "Simple costing",
-          "Traditional costing"
+          "Traditional costing",
+          "Activity cost",
+          "Simple costing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "ABC assigns overhead costs to products based on activities required, providing more accurate product costing."
       },
       {
         id: 37,
         question: "What are the 5 Cs of credit analysis?",
         options: [
-          "Cash, capital, collateral, credit, coverage",
           "Character, capacity, capital, collateral, conditions",
+          "Capital, cash, character, cost, conditions",
           "Cost, credit, cash, collateral, coverage",
-          "Capital, cash, character, cost, conditions"
+          "Cash, capital, collateral, credit, coverage"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "5 Cs: Character (reputation), Capacity (ability to repay), Capital (investment), Collateral (security), Conditions (economic)."
       },
       {
         id: 38,
         question: "What are real options?",
         options: [
-          "Stock options",
-          "Managerial flexibilities in investment decisions that create value",
           "Real estate options",
-          "Contract options"
+          "Contract options",
+          "Stock options",
+          "Managerial flexibilities in investment decisions that create value"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Real options are opportunities to adjust investment decisions (expand, delay, abandon) that add value beyond basic NPV."
       },
       {
         id: 39,
         question: "What are options contracts?",
         options: [
-          "Optional agreements",
           "Contracts giving right but not obligation to buy/sell asset at strike price",
           "Required contracts",
+          "Optional agreements",
           "Future contracts"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Options provide right (but not obligation) to buy (call) or sell (put) asset at specified price within certain time period."
       },
       {
         id: 40,
         question: "What is fundamental analysis?",
         options: [
-          "Basic analysis",
           "Evaluating securities by analyzing company financials, industry, economy",
+          "Basic analysis",
           "Technical chart analysis",
           "Simple analysis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Fundamental analysis evaluates securities by examining financial statements, management, competitors, and economic factors."
       }
     ]

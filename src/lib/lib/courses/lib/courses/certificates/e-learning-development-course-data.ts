@@ -89,9 +89,9 @@ Remember that technology should serve learning, not the other way around. The be
           question: "What is the main goal of e-learning development?",
           options: [
             "To create digital educational experiences",
-            "To replace all classroom teaching",
             "To sell learning management systems",
-            "To reduce teaching staff requirements"
+            "To reduce teaching staff requirements",
+            "To replace all classroom teaching"
           ],
           correctAnswer: 0,
           explanation: "E-learning development aims to create effective digital educational experiences that help people learn without physical co-location."
@@ -100,36 +100,36 @@ Remember that technology should serve learning, not the other way around. The be
           id: 2,
           question: "Which principle states that people learn better from words and pictures together?",
           options: [
-            "Multimedia Principle",
             "Adult Learning Principle",
+            "Multimedia Principle",
             "Cognitive Load Theory",
             "ADDIE Model"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Multimedia Principle demonstrates that combining words with relevant pictures improves learning compared to words alone."
         },
         {
           id: 3,
           question: "What does ADDIE stand for in instructional design?",
           options: [
-            "Analysis, Design, Development, Implementation, Evaluation",
             "Assess, Design, Develop, Implement, Evaluate",
-            "Analyze, Design, Deliver, Implement, Examine",
-            "Assessment, Development, Design, Integration, Evaluation"
+            "Assessment, Development, Design, Integration, Evaluation",
+            "Analysis, Design, Development, Implementation, Evaluation",
+            "Analyze, Design, Deliver, Implement, Examine"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ADDIE represents the five phases of instructional design: Analysis, Design, Development, Implementation, and Evaluation."
         },
         {
           id: 4,
           question: "What type of learning delivers content in small, focused chunks?",
           options: [
-            "Microlearning",
-            "Self-paced courses",
             "Blended learning",
-            "Live virtual classes"
+            "Self-paced courses",
+            "Live virtual classes",
+            "Microlearning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Microlearning breaks content into small, easily digestible units that focus on specific learning objectives."
         },
         {
@@ -137,8 +137,8 @@ Remember that technology should serve learning, not the other way around. The be
           question: "Which theory helps avoid overwhelming learners with too much information?",
           options: [
             "Cognitive Load Theory",
-            "Adult Learning Principles",
             "Multimedia Principle",
+            "Adult Learning Principles",
             "Gamification Theory"
           ],
           correctAnswer: 0,
@@ -148,24 +148,24 @@ Remember that technology should serve learning, not the other way around. The be
           id: 6,
           question: "What does SCORM stand for?",
           options: [
-            "Sharable Content Object Reference Model",
+            "Structured Course Object Repository Model",
             "Standard Course Object Running Model",
-            "Systematic Content Organization Reference Method",
-            "Structured Course Object Repository Model"
+            "Sharable Content Object Reference Model",
+            "Systematic Content Organization Reference Method"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SCORM is the technical standard that ensures e-learning content works across different learning management systems."
         },
         {
           id: 7,
           question: "In which ADDIE phase do you create learning objectives?",
           options: [
-            "Design Phase",
-            "Analysis Phase",
+            "Implementation Phase",
             "Development Phase",
-            "Implementation Phase"
+            "Design Phase",
+            "Analysis Phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Learning objectives are created during the Design Phase when planning the course structure."
         },
         {
@@ -173,9 +173,9 @@ Remember that technology should serve learning, not the other way around. The be
           question: "What does LMS stand for?",
           options: [
             "Learning Management System",
-            "Lesson Management Software",
+            "Lesson Management System",
             "Learning Module System",
-            "Lesson Management System"
+            "Lesson Management Software"
           ],
           correctAnswer: 0,
           explanation: "LMS refers to the software platform that delivers, tracks, and manages online learning."
@@ -185,9 +185,9 @@ Remember that technology should serve learning, not the other way around. The be
           question: "Which principle recognizes that adults learn differently than children?",
           options: [
             "Adult Learning Principles",
+            "ADDIE Model",
             "Cognitive Load Theory",
-            "Multimedia Principle",
-            "ADDIE Model"
+            "Multimedia Principle"
           ],
           correctAnswer: 0,
           explanation: "Adult Learning Principles address how adults' motivations, experiences, and learning preferences differ from children's."
@@ -196,60 +196,60 @@ Remember that technology should serve learning, not the other way around. The be
           id: 10,
           question: "What is the practice of creating effective educational experiences called?",
           options: [
-            "Instructional Design",
-            "Course Development",
             "Educational Programming",
+            "Course Development",
+            "Instructional Design",
             "Learning Architecture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Instructional Design combines learning theory with practical application to create effective educational experiences."
         },
         {
           id: 11,
           question: "Which phase involves understanding learners and their needs?",
           options: [
-            "Analysis Phase",
             "Design Phase",
-            "Development Phase",
-            "Evaluation Phase"
+            "Evaluation Phase",
+            "Analysis Phase",
+            "Development Phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Analysis Phase focuses on understanding learners, their existing knowledge, and their learning needs."
         },
         {
           id: 12,
           question: "What ensures people with disabilities can use e-learning content?",
           options: [
-            "Accessibility",
-            "Gamification",
             "SCORM compliance",
-            "Multimedia design"
+            "Gamification",
+            "Multimedia design",
+            "Accessibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Accessibility features ensure that e-learning content can be used by people with various disabilities."
         },
         {
           id: 13,
           question: "Which type of evaluation happens during course development?",
           options: [
-            "Formative evaluation",
-            "Summative evaluation",
+            "Design evaluation",
             "Implementation evaluation",
-            "Design evaluation"
+            "Formative evaluation",
+            "Summative evaluation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Formative evaluation occurs during development to identify improvements before final delivery."
         },
         {
           id: 14,
           question: "What mixes online and in-person learning elements?",
           options: [
-            "Blended learning",
-            "Microlearning",
             "Self-paced courses",
-            "Virtual classes"
+            "Blended learning",
+            "Virtual classes",
+            "Microlearning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Blended learning combines the benefits of online and face-to-face instruction."
         },
         {
@@ -257,9 +257,9 @@ Remember that technology should serve learning, not the other way around. The be
           question: "What involves adding game-like elements to learning?",
           options: [
             "Gamification",
+            "Instructional design",
             "Microlearning",
-            "SCORM compliance",
-            "Instructional design"
+            "SCORM compliance"
           ],
           correctAnswer: 0,
           explanation: "Gamification uses game design elements like points and badges to increase learner motivation."
@@ -268,24 +268,24 @@ Remember that technology should serve learning, not the other way around. The be
           id: 16,
           question: "In which phase do you actually build course materials?",
           options: [
-            "Development Phase",
-            "Design Phase",
             "Implementation Phase",
+            "Design Phase",
+            "Development Phase",
             "Analysis Phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Development Phase involves creating all course materials and assembling them into a working course."
         },
         {
           id: 17,
           question: "What type of courses allow learners to progress independently?",
           options: [
-            "Self-paced courses",
-            "Live virtual classes",
             "Blended learning",
-            "Microlearning"
+            "Microlearning",
+            "Live virtual classes",
+            "Self-paced courses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Self-paced courses let learners complete material at their own speed without scheduled sessions."
         },
         {
@@ -293,9 +293,9 @@ Remember that technology should serve learning, not the other way around. The be
           question: "Which evaluation measures if learning objectives were met?",
           options: [
             "Summative evaluation",
+            "Design evaluation",
             "Formative evaluation",
-            "Development evaluation",
-            "Design evaluation"
+            "Development evaluation"
           ],
           correctAnswer: 0,
           explanation: "Summative evaluation occurs after course completion to assess whether learning objectives were achieved."
@@ -304,24 +304,24 @@ Remember that technology should serve learning, not the other way around. The be
           id: 19,
           question: "What balances pedagogical soundness, technical feasibility, and engaging presentation?",
           options: [
-            "Effective e-learning development",
             "SCORM compliance",
+            "Effective e-learning development",
             "Learning Management Systems",
             "Instructional design models"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Successful e-learning balances educational effectiveness, technical reliability, and learner engagement."
         },
         {
           id: 20,
           question: "What should learning objectives be?",
           options: [
-            "Specific, measurable, achievable, relevant, and time-bound",
             "General, flexible, ambitious, relevant, and open-ended",
+            "Specific, challenging, achievable, reasonable, and timely",
             "Simple, memorable, achievable, relevant, and timeless",
-            "Specific, challenging, achievable, reasonable, and timely"
+            "Specific, measurable, achievable, relevant, and time-bound"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Well-written learning objectives follow the SMART criteria: Specific, Measurable, Achievable, Relevant, and Time-bound."
         }
       ]
@@ -423,8 +423,8 @@ Remember that your role is to facilitate learning, not just present information.
           question: "What three components should a well-written learning objective have?",
           options: [
             "Performance, Condition, Criterion",
-            "Action, Situation, Standard",
             "Verb, Context, Measurement",
+            "Action, Situation, Standard",
             "Task, Environment, Benchmark"
           ],
           correctAnswer: 0,
@@ -435,9 +435,9 @@ Remember that your role is to facilitate learning, not just present information.
           question: "What breaks information into manageable pieces for our working memory?",
           options: [
             "Chunking",
-            "Scaffolding",
+            "Storytelling",
             "Progressive Disclosure",
-            "Storytelling"
+            "Scaffolding"
           ],
           correctAnswer: 0,
           explanation: "Chunking organizes information into groups of 4-7 items, which matches our working memory capacity."
@@ -446,24 +446,24 @@ Remember that your role is to facilitate learning, not just present information.
           id: 3,
           question: "How many sentences maximum should online learning paragraphs contain?",
           options: [
-            "3-4 sentences",
-            "5-6 sentences",
             "7-8 sentences",
-            "9-10 sentences"
+            "3-4 sentences",
+            "9-10 sentences",
+            "5-6 sentences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Online readers scan content, so paragraphs should be short (3-4 sentences) for better readability."
         },
         {
           id: 4,
           question: "Which voice is more direct and engaging for digital learning?",
           options: [
+            "Academic voice",
             "Active voice",
-            "Passive voice",
             "Formal voice",
-            "Academic voice"
+            "Passive voice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Active voice (e.g., 'You will create') is more engaging and direct than passive voice ('It will be created by you')."
         },
         {
@@ -471,9 +471,9 @@ Remember that your role is to facilitate learning, not just present information.
           question: "What provides temporary support that is gradually removed as learners progress?",
           options: [
             "Scaffolding",
-            "Chunking",
+            "Storytelling",
             "Progressive Disclosure",
-            "Storytelling"
+            "Chunking"
           ],
           correctAnswer: 0,
           explanation: "Scaffolding offers support that decreases as learners develop competence, similar to training wheels on a bicycle."
@@ -483,8 +483,8 @@ Remember that your role is to facilitate learning, not just present information.
           question: "Which type of assessment happens during learning to check understanding?",
           options: [
             "Formative assessment",
-            "Summative assessment",
             "Authentic assessment",
+            "Summative assessment",
             "Final assessment"
           ],
           correctAnswer: 0,
@@ -495,8 +495,8 @@ Remember that your role is to facilitate learning, not just present information.
           question: "What reveals information gradually instead of all at once?",
           options: [
             "Progressive Disclosure",
-            "Chunking",
             "Scaffolding",
+            "Chunking",
             "Storytelling"
           ],
           correctAnswer: 0,
@@ -506,12 +506,12 @@ Remember that your role is to facilitate learning, not just present information.
           id: 8,
           question: "What type of font is generally best for screen reading?",
           options: [
-            "Sans-serif fonts",
-            "Serif fonts",
+            "Decorative fonts",
             "Script fonts",
-            "Decorative fonts"
+            "Sans-serif fonts",
+            "Serif fonts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sans-serif fonts (like Arial or Helvetica) are clearer on screens than serif fonts designed for print."
         },
         {
@@ -530,96 +530,96 @@ Remember that your role is to facilitate learning, not just present information.
           id: 10,
           question: "What wraps content in narratives to help with emotional connection?",
           options: [
-            "Storytelling",
-            "Chunking",
             "Scaffolding",
-            "Progressive Disclosure"
+            "Progressive Disclosure",
+            "Storytelling",
+            "Chunking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Storytelling uses narratives to make content more memorable and emotionally engaging."
         },
         {
           id: 11,
           question: "What should feedback be to effectively support learning?",
           options: [
+            "Brief, periodic, and encouraging",
             "Specific, timely, and actionable",
             "General, immediate, and positive",
-            "Detailed, delayed, and corrective",
-            "Brief, periodic, and encouraging"
+            "Detailed, delayed, and corrective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective feedback clearly explains what was correct/incorrect, is provided soon after performance, and suggests concrete improvements."
         },
         {
           id: 12,
           question: "What gives content room to breathe and reduces cognitive load?",
           options: [
-            "White Space",
-            "Typography",
             "Consistency",
-            "Hierarchy"
+            "White Space",
+            "Hierarchy",
+            "Typography"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adequate white space (empty areas) around content improves readability and focus."
         },
         {
           id: 13,
           question: "What type of assessment mirrors real-world tasks?",
           options: [
-            "Authentic assessment",
             "Formative assessment",
             "Summative assessment",
-            "Standardized assessment"
+            "Standardized assessment",
+            "Authentic assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Authentic assessments use tasks that resemble what learners will do in real work situations."
         },
         {
           id: 14,
           question: "What creates predictability through uniform formatting?",
           options: [
+            "Typography",
             "Consistency",
             "White Space",
-            "Typography",
             "Hierarchy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Consistent formatting helps learners understand course structure and navigate more easily."
         },
         {
           id: 15,
           question: "What describes images for screen reader users?",
           options: [
-            "Text Alternatives",
             "Keyboard Navigation",
             "Color Contrast",
-            "Clear Structure"
+            "Clear Structure",
+            "Text Alternatives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Text alternatives (alt text) provide descriptions of images for learners who use screen readers."
         },
         {
           id: 16,
           question: "How many items can working memory typically handle at once?",
           options: [
-            "4-7 items",
-            "2-3 items",
             "8-10 items",
-            "11-15 items"
+            "2-3 items",
+            "11-15 items",
+            "4-7 items"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Working memory has limited capacity, typically processing 4-7 items simultaneously."
         },
         {
           id: 17,
           question: "What shows importance through visual cues like size and placement?",
           options: [
-            "Hierarchy",
-            "Consistency",
+            "Typography",
             "White Space",
-            "Typography"
+            "Hierarchy",
+            "Consistency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Visual hierarchy uses size, placement, and style to show relationships between content elements."
         },
         {
@@ -627,9 +627,9 @@ Remember that your role is to facilitate learning, not just present information.
           question: "What ensures interactive elements work without a mouse?",
           options: [
             "Keyboard Navigation",
+            "Clear Structure",
             "Text Alternatives",
-            "Color Contrast",
-            "Clear Structure"
+            "Color Contrast"
           ],
           correctAnswer: 0,
           explanation: "Keyboard navigation allows users to access all features using only keyboard controls."
@@ -638,24 +638,24 @@ Remember that your role is to facilitate learning, not just present information.
           id: 19,
           question: "What type of verbs should learning objectives use?",
           options: [
+            "Complex verbs like 'conceptualize' or 'internalize'",
             "Action verbs like 'create' or 'analyze'",
             "Vague verbs like 'understand' or 'know'",
-            "Passive verbs like 'be learned' or 'be understood'",
-            "Complex verbs like 'conceptualize' or 'internalize'"
+            "Passive verbs like 'be learned' or 'be understood'"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Action verbs make learning objectives measurable and clear about expected performance."
         },
         {
           id: 20,
           question: "What should you frequently use to write conversationally?",
           options: [
-            "'You' and 'your'",
-            "Formal academic language",
             "Third-person perspective",
-            "Technical jargon"
+            "Technical jargon",
+            "'You' and 'your'",
+            "Formal academic language"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Using 'you' and 'your' creates a direct, conversational tone that engages learners personally."
         }
       ]
@@ -767,9 +767,9 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           question: "What type of authoring tools are designed for non-programmers with drag-and-drop interfaces?",
           options: [
             "Rapid Authoring Tools",
+            "Code-Based Approaches",
             "Learning Management System Editors",
-            "Specialized Tools",
-            "Code-Based Approaches"
+            "Specialized Tools"
           ],
           correctAnswer: 0,
           explanation: "Rapid authoring tools like Articulate Storyline use templates and visual interfaces suitable for non-technical developers."
@@ -779,9 +779,9 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           question: "Which SCORM version is now the industry standard for complex courses?",
           options: [
             "SCORM 2004",
-            "SCORM 1.2",
             "xAPI (Tin Can API)",
-            "CMI5"
+            "CMI5",
+            "SCORM 1.2"
           ],
           correctAnswer: 0,
           explanation: "SCORM 2004 provides more sophisticated tracking capabilities than SCORM 1.2 and is widely adopted for professional courses."
@@ -802,12 +802,12 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           id: 4,
           question: "Which open source LMS requires technical expertise to install and maintain?",
           options: [
-            "Moodle",
+            "Cornerstone",
             "Canvas",
-            "Blackboard",
-            "Cornerstone"
+            "Moodle",
+            "Blackboard"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Moodle is a popular open source LMS that offers flexibility but requires technical skills for setup and maintenance."
         },
         {
@@ -815,9 +815,9 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           question: "What goes beyond SCORM to track learning experiences anywhere?",
           options: [
             "xAPI (Tin Can API)",
-            "SCORM 1.2",
             "SCORM 2004",
-            "CMI5"
+            "CMI5",
+            "SCORM 1.2"
           ],
           correctAnswer: 0,
           explanation: "xAPI can record learning activities beyond traditional courses, including reading articles or participating in discussions."
@@ -826,96 +826,96 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           id: 6,
           question: "Which tool excels at video-based training?",
           options: [
+            "Articulate Storyline",
             "Camtasia",
             "Vyond",
-            "H5P",
-            "Articulate Storyline"
+            "H5P"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Camtasia is specialized software for creating and editing video tutorials and screen recordings."
         },
         {
           id: 7,
           question: "What combines xAPI's flexibility with SCORM's structure?",
           options: [
-            "CMI5",
-            "SCORM 2004",
+            "HTML5",
             "SCORM 1.2",
-            "HTML5"
+            "CMI5",
+            "SCORM 2004"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CMI5 is designed as the next-generation standard that incorporates the best aspects of both SCORM and xAPI."
         },
         {
           id: 8,
           question: "Which feature helps create inclusive content for all learners?",
           options: [
-            "Accessibility Support",
             "Interactivity Options",
             "Responsive Design",
-            "Publishing Options"
+            "Publishing Options",
+            "Accessibility Support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Accessibility features ensure content can be used by people with disabilities through keyboard navigation and screen reader compatibility."
         },
         {
           id: 9,
           question: "What type of LMS typically charges per user or annual fees?",
           options: [
-            "Commercial Cloud LMS",
-            "Open Source LMS",
             "Corporate LMS",
+            "Open Source LMS",
+            "Commercial Cloud LMS",
             "Specialized LMS"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Commercial cloud-based LMS platforms usually operate on subscription models with per-user or annual licensing fees."
         },
         {
           id: 10,
           question: "Which technology creates immersive simulations for safety training?",
           options: [
-            "Virtual Reality",
-            "Artificial Intelligence",
+            "Microlearning Platforms",
             "Augmented Reality",
-            "Microlearning Platforms"
+            "Virtual Reality",
+            "Artificial Intelligence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Virtual Reality provides immersive environments particularly effective for safety training and complex simulations."
         },
         {
           id: 11,
           question: "What supports team development with version control and review workflows?",
           options: [
-            "Collaboration Features",
-            "Publishing Options",
             "Responsive Design",
-            "Accessibility Support"
+            "Publishing Options",
+            "Accessibility Support",
+            "Collaboration Features"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Collaboration features enable multiple developers to work together efficiently on course projects."
         },
         {
           id: 12,
           question: "Which tool creates animated videos for e-learning?",
           options: [
-            "Vyond",
-            "Camtasia",
             "H5P",
-            "Adobe Captivate"
+            "Adobe Captivate",
+            "Vyond",
+            "Camtasia"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vyond (formerly GoAnimate) specializes in creating animated explainer videos and presentations."
         },
         {
           id: 13,
           question: "What can recommend content based on learner performance?",
           options: [
-            "Artificial Intelligence",
-            "Virtual Reality",
             "Augmented Reality",
+            "Virtual Reality",
+            "Artificial Intelligence",
             "Microlearning Platforms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "AI algorithms analyze learner data to provide personalized content recommendations and adaptive learning paths."
         },
         {
@@ -923,9 +923,9 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           question: "What determines where your course can run and be accessed?",
           options: [
             "Publishing Options",
-            "Interactivity Options",
             "Responsive Design",
-            "Accessibility Support"
+            "Accessibility Support",
+            "Interactivity Options"
           ],
           correctAnswer: 0,
           explanation: "Publishing options include formats like SCORM packages for LMS or HTML5 for web hosting."
@@ -934,24 +934,24 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           id: 15,
           question: "Which approach offers maximum flexibility but requires programming skills?",
           options: [
-            "Code-Based Approaches",
-            "Rapid Authoring Tools",
             "LMS Editors",
-            "Specialized Tools"
+            "Specialized Tools",
+            "Code-Based Approaches",
+            "Rapid Authoring Tools"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Developing with HTML5, CSS, and JavaScript provides complete customization but requires technical expertise."
         },
         {
           id: 16,
           question: "What overlays digital information on the real world for just-in-time support?",
           options: [
-            "Augmented Reality",
-            "Virtual Reality",
             "Artificial Intelligence",
+            "Virtual Reality",
+            "Augmented Reality",
             "Microlearning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Augmented Reality enhances real-world environments with digital information, useful for performance support."
         },
         {
@@ -959,8 +959,8 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           question: "Which SCORM version tracks basic completion and quiz scores with wide support?",
           options: [
             "SCORM 1.2",
-            "SCORM 2004",
             "xAPI",
+            "SCORM 2004",
             "CMI5"
           ],
           correctAnswer: 0,
@@ -971,9 +971,9 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           question: "What delivers content in small chunks with spaced repetition?",
           options: [
             "Microlearning Platforms",
+            "Augmented Reality",
             "Virtual Reality",
-            "Artificial Intelligence",
-            "Augmented Reality"
+            "Artificial Intelligence"
           ],
           correctAnswer: 0,
           explanation: "Microlearning platforms specialize in brief, focused learning experiences often delivered via mobile apps."
@@ -982,24 +982,24 @@ Remember that tools are means to an end-effective learning. The fanciest tool wo
           id: 19,
           question: "Which tool makes interactive content like quizzes and presentations?",
           options: [
-            "H5P",
-            "Camtasia",
             "Vyond",
-            "Articulate Storyline"
+            "Camtasia",
+            "Articulate Storyline",
+            "H5P"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "H5P is an open-source tool for creating interactive HTML5 content including quizzes, presentations, and games."
         },
         {
           id: 20,
           question: "What should you consider first when selecting authoring tools?",
           options: [
+            "What your competitors use",
             "Your audience's devices and internet speeds",
             "The tool with the most features",
-            "The most expensive option",
-            "What your competitors use"
+            "The most expensive option"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Always start tool selection by understanding learner needs, including their technical environment and constraints."
         }
       ]
@@ -1132,36 +1132,36 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           id: 1,
           question: "What type of learning produces better understanding and retention according to research?",
           options: [
-            "Active learning",
             "Passive learning",
             "Visual learning",
-            "Auditory learning"
+            "Auditory learning",
+            "Active learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Active learning, which requires doing, discussing, or creating, leads to deeper processing and better retention than passive consumption."
         },
         {
           id: 2,
           question: "How often should strategic interactions be placed to maintain attention?",
           options: [
-            "Every 3-5 minutes",
-            "Every 10-15 minutes",
             "Every 20-30 minutes",
-            "Once per module"
+            "Every 10-15 minutes",
+            "Once per module",
+            "Every 3-5 minutes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The engagement curve shows attention declines naturally; interactions every 3-5 minutes can re-engage learners effectively."
         },
         {
           id: 3,
           question: "Which interaction recreates real-world tasks for practice?",
           options: [
-            "Simulations",
-            "Knowledge Checks",
+            "Games",
             "Branching Scenarios",
-            "Games"
+            "Simulations",
+            "Knowledge Checks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Simulations provide safe environments to practice real-world tasks, from software procedures to interpersonal skills."
         },
         {
@@ -1169,8 +1169,8 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           question: "What presents decision points with consequences that affect outcomes?",
           options: [
             "Branching Scenarios",
-            "Knowledge Checks",
             "Simulations",
+            "Knowledge Checks",
             "Games"
           ],
           correctAnswer: 0,
@@ -1180,24 +1180,24 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           id: 5,
           question: "What should every interaction directly support?",
           options: [
-            "Learning objectives",
             "Entertainment value",
-            "Technical features",
-            "Time requirements"
+            "Learning objectives",
+            "Time requirements",
+            "Technical features"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Interactions should advance specific learning goals, not just add entertainment or showcase technical capabilities."
         },
         {
           id: 6,
           question: "Which type of scenario lets learners practice interpersonal skills?",
           options: [
-            "Role-Play Simulations",
             "Problem-Based Scenarios",
-            "Case Studies",
-            "Critical Incident Reviews"
+            "Role-Play Simulations",
+            "Critical Incident Reviews",
+            "Case Studies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Role-play simulations provide practice for conversations, negotiations, counseling, and other interpersonal interactions."
         },
         {
@@ -1206,8 +1206,8 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           options: [
             "Points",
             "Badges",
-            "Leaderboards",
-            "Progress Bars"
+            "Progress Bars",
+            "Leaderboards"
           ],
           correctAnswer: 0,
           explanation: "Points offer instant feedback on achievements and help learners track their cumulative progress."
@@ -1216,72 +1216,72 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           id: 8,
           question: "What develops critical thinking through evaluating others' work?",
           options: [
-            "Peer Review",
             "Discussion Forums",
+            "Peer Review",
             "Group Projects",
             "Knowledge Sharing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Peer review activities help learners apply evaluation criteria and see alternative approaches to problems."
         },
         {
           id: 9,
           question: "What provides narrative context to increase emotional engagement?",
           options: [
-            "Storylines",
-            "Points",
             "Badges",
-            "Leaderboards"
+            "Storylines",
+            "Leaderboards",
+            "Points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Storylines give purpose to learning activities by placing them within a compelling narrative framework."
         },
         {
           id: 10,
           question: "What should feedback do instead of just saying 'Correct' or 'Incorrect'?",
           options: [
-            "Explain why an answer is right or wrong",
             "Provide more questions",
             "Move immediately to next topic",
-            "Show comparison to others"
+            "Show comparison to others",
+            "Explain why an answer is right or wrong"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Meaningful feedback connects responses to learning content and explains the reasoning behind correct answers."
         },
         {
           id: 11,
           question: "Which pitfall involves too many interactions overwhelming learners?",
           options: [
-            "Over-Interaction",
-            "Click-and-Reveal Fatigue",
             "Gamification Mismatch",
-            "Technical Overcomplication"
+            "Over-Interaction",
+            "Technical Overcomplication",
+            "Click-and-Reveal Fatigue"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Excessive interactions can distract from learning objectives and increase cognitive load unnecessarily."
         },
         {
           id: 12,
           question: "What recognizes specific accomplishments with visual symbols?",
           options: [
-            "Badges",
-            "Points",
+            "Progress Bars",
             "Leaderboards",
-            "Progress Bars"
+            "Badges",
+            "Points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Badges provide visual recognition for completing modules, mastering skills, or achieving specific milestones."
         },
         {
           id: 13,
           question: "Which activity leverages collective group experience and wisdom?",
           options: [
-            "Knowledge Sharing",
-            "Discussion Forums",
+            "Group Projects",
             "Peer Review",
-            "Group Projects"
+            "Discussion Forums",
+            "Knowledge Sharing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Knowledge sharing activities like tip collections or best practice discussions capture and distribute group expertise."
         },
         {
@@ -1289,9 +1289,9 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           question: "What shows how far learners have come and how much remains?",
           options: [
             "Progress Bars",
-            "Points",
             "Badges",
-            "Leaderboards"
+            "Leaderboards",
+            "Points"
           ],
           correctAnswer: 0,
           explanation: "Progress bars provide visual feedback on advancement toward completion goals."
@@ -1300,12 +1300,12 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           id: 15,
           question: "What examines what went wrong or right in specific situations?",
           options: [
-            "Critical Incident Reviews",
             "Problem-Based Scenarios",
+            "Role-Play Simulations",
             "Case Studies",
-            "Role-Play Simulations"
+            "Critical Incident Reviews"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Critical incident reviews analyze specific events to develop analytical skills and learn from experience."
         },
         {
@@ -1314,8 +1314,8 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           options: [
             "Performance on mobile devices and slow connections",
             "Only on your development computer",
-            "With expert users only",
-            "After the course is live"
+            "After the course is live",
+            "With expert users only"
           ],
           correctAnswer: 0,
           explanation: "Interactions must work well on learners' actual devices and connection speeds, not just optimal conditions."
@@ -1325,9 +1325,9 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           question: "What fosters healthy competition but should be used cautiously?",
           options: [
             "Leaderboards",
+            "Progress Bars",
             "Points",
-            "Badges",
-            "Progress Bars"
+            "Badges"
           ],
           correctAnswer: 0,
           explanation: "Leaderboards motivate competitive learners but may discourage others; consider team-based or personal progress alternatives."
@@ -1336,36 +1336,36 @@ Remember: The best interactions feel natural and purposeful, not forced or decor
           id: 18,
           question: "Which design step involves storyboarding interaction flows?",
           options: [
+            "Create Clear Instructions",
             "Design the Experience",
-            "Identify Learning Need",
             "Select Interaction Type",
-            "Create Clear Instructions"
+            "Identify Learning Need"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Storyboarding maps out all decision points, feedback, and pathways before development begins."
         },
         {
           id: 19,
           question: "What simple interaction reinforces understanding during learning?",
           options: [
-            "Knowledge Checks",
             "Simulations",
+            "Knowledge Checks",
             "Branching Scenarios",
             "Games"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Knowledge checks like quick questions or matching exercises reinforce key concepts during learning."
         },
         {
           id: 20,
           question: "What is the first step in the interaction design process?",
           options: [
-            "Identify Learning Need",
+            "Create Clear Instructions",
             "Select Interaction Type",
             "Design the Experience",
-            "Create Clear Instructions"
+            "Identify Learning Need"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Always start by identifying what learners should be able to do and which parts are challenging."
         }
       ]
@@ -1510,12 +1510,12 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           id: 1,
           question: "What measures learner achievement of intended outcomes?",
           options: [
-            "Assessment",
-            "Evaluation",
             "Measurement",
-            "Analysis"
+            "Assessment",
+            "Analysis",
+            "Evaluation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Assessment focuses on measuring what learners have learned and can do relative to the course objectives."
         },
         {
@@ -1523,9 +1523,9 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           question: "Which Kirkpatrick level measures how learners feel about training?",
           options: [
             "Level 1: Reaction",
+            "Level 4: Results",
             "Level 2: Learning",
-            "Level 3: Behavior",
-            "Level 4: Results"
+            "Level 3: Behavior"
           ],
           correctAnswer: 0,
           explanation: "Level 1 evaluates learner satisfaction and perceptions immediately after training."
@@ -1535,9 +1535,9 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           question: "What type of assessment supports learning while it happens?",
           options: [
             "Formative assessment",
-            "Summative assessment",
             "Diagnostic assessment",
-            "Placement assessment"
+            "Placement assessment",
+            "Summative assessment"
           ],
           correctAnswer: 0,
           explanation: "Formative assessments provide feedback during learning to guide improvement before final evaluation."
@@ -1546,12 +1546,12 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           id: 4,
           question: "What should every assessment item map to directly?",
           options: [
-            "A specific learning objective",
-            "Course content",
+            "Time allocation",
             "Module title",
-            "Time allocation"
+            "Course content",
+            "A specific learning objective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Assessment blueprinting ensures each item measures achievement of specific, stated learning objectives."
         },
         {
@@ -1559,9 +1559,9 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           question: "What framework provides four levels for comprehensive evaluation?",
           options: [
             "Kirkpatrick's Four Levels",
+            "SMART Criteria",
             "ADDIE Model",
-            "Bloom's Taxonomy",
-            "SMART Criteria"
+            "Bloom's Taxonomy"
           ],
           correctAnswer: 0,
           explanation: "Kirkpatrick's model evaluates training at reaction, learning, behavior, and results levels."
@@ -1570,12 +1570,12 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           id: 6,
           question: "Which level measures how behavior changes on the job?",
           options: [
-            "Level 3: Behavior",
-            "Level 1: Reaction",
+            "Level 4: Results",
             "Level 2: Learning",
-            "Level 4: Results"
+            "Level 1: Reaction",
+            "Level 3: Behavior"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Level 3 evaluation assesses whether learners apply what they learned in their work environment."
         },
         {
@@ -1583,9 +1583,9 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           question: "What type of questions should have one clearly correct answer and plausible distractors?",
           options: [
             "Multiple-Choice Questions",
+            "Fill-in-the-Blank Questions",
             "True/False Questions",
-            "Matching Questions",
-            "Fill-in-the-Blank Questions"
+            "Matching Questions"
           ],
           correctAnswer: 0,
           explanation: "Well-written multiple-choice questions test understanding with one correct option and several reasonable incorrect options."
@@ -1594,24 +1594,24 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           id: 8,
           question: "What collects work samples over time to show growth?",
           options: [
-            "Portfolios",
             "Projects",
+            "Portfolios",
             "Presentations",
             "Observations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Portfolios demonstrate development and range of abilities through collected work with reflection."
         },
         {
           id: 9,
           question: "What shows how many learners finish the course?",
           options: [
-            "Completion Rates",
             "Assessment Scores",
-            "Time Data",
-            "Feedback Surveys"
+            "Completion Rates",
+            "Feedback Surveys",
+            "Time Data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Completion rates indicate engagement and course manageability by showing what percentage start and finish."
         },
         {
@@ -1620,8 +1620,8 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           options: [
             "Item Analysis",
             "Gap Analysis",
-            "A/B Testing",
-            "Longitudinal Tracking"
+            "Longitudinal Tracking",
+            "A/B Testing"
           ],
           correctAnswer: 0,
           explanation: "Item analysis evaluates whether questions function properly by analyzing response patterns."
@@ -1630,48 +1630,48 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           id: 11,
           question: "Which level measures what organizational results occurred from training?",
           options: [
-            "Level 4: Results",
-            "Level 1: Reaction",
+            "Level 3: Behavior",
             "Level 2: Learning",
-            "Level 3: Behavior"
+            "Level 4: Results",
+            "Level 1: Reaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Level 4 evaluation assesses the business impact of training, such as increased productivity or reduced errors."
         },
         {
           id: 12,
           question: "What measures final achievement at the end of learning?",
           options: [
+            "Placement assessment",
             "Summative assessment",
-            "Formative assessment",
             "Diagnostic assessment",
-            "Placement assessment"
+            "Formative assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Summative assessments evaluate learning outcomes after instruction is complete."
         },
         {
           id: 13,
           question: "What should assessments resemble to be most effective?",
           options: [
-            "Real-world applications",
             "Academic examinations",
             "Theoretical problems",
-            "Memory tests"
+            "Memory tests",
+            "Real-world applications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Authentic assessments that mirror workplace tasks better measure practical competence."
         },
         {
           id: 14,
           question: "What helps graders apply consistent standards and helps learners understand expectations?",
           options: [
-            "Clear Rubrics",
             "Multiple-Choice Questions",
+            "Clear Rubrics",
             "Completion Rates",
             "Feedback Surveys"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rubrics provide specific criteria and performance levels for consistent, transparent evaluation."
         },
         {
@@ -1679,8 +1679,8 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           question: "Which level measures what knowledge, skills, or attitudes changed?",
           options: [
             "Level 2: Learning",
-            "Level 1: Reaction",
             "Level 3: Behavior",
+            "Level 1: Reaction",
             "Level 4: Results"
           ],
           correctAnswer: 0,
@@ -1690,24 +1690,24 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           id: 16,
           question: "What tracks detailed learner interactions to identify struggling areas?",
           options: [
+            "Time Data",
             "Learning Analytics",
-            "Completion Rates",
             "Assessment Scores",
-            "Time Data"
+            "Completion Rates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Learning analytics provide detailed data on how learners interact with content, revealing patterns and challenges."
         },
         {
           id: 17,
           question: "What compares two versions to see which works better?",
           options: [
-            "A/B Testing",
             "Item Analysis",
+            "A/B Testing",
             "Gap Analysis",
             "Longitudinal Tracking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A/B testing experimentally compares different approaches to identify more effective designs."
         },
         {
@@ -1716,8 +1716,8 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           options: [
             "Evaluation",
             "Assessment",
-            "Measurement",
-            "Analysis"
+            "Analysis",
+            "Measurement"
           ],
           correctAnswer: 0,
           explanation: "Evaluation examines whether the course achieves its objectives and identifies areas for enhancement."
@@ -1728,8 +1728,8 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           options: [
             "Assessments",
             "Evaluation plans",
-            "Learning objectives",
-            "Content outlines"
+            "Content outlines",
+            "Learning objectives"
           ],
           correctAnswer: 0,
           explanation: "Designing assessments concurrently with content ensures alignment and appropriate emphasis."
@@ -1739,9 +1739,9 @@ Remember: The ultimate goal isn't to create perfect assessments, but to create a
           question: "What common pitfall involves assessing memorization of unimportant details?",
           options: [
             "Testing Trivia",
-            "Cultural Bias",
             "Accessibility Barriers",
-            "Missing Feedback Loop"
+            "Missing Feedback Loop",
+            "Cultural Bias"
           ],
           correctAnswer: 0,
           explanation: "Assessing trivial details rather than key concepts or applications misdirects learning focus."
@@ -1900,12 +1900,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           id: 1,
           question: "What specifies what browsers, plugins, and internet speed learners need?",
           options: [
-            "Technical Requirements",
-            "Launch Timeline",
             "Communication Plan",
+            "Launch Timeline",
+            "Technical Requirements",
             "Support Structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Technical requirements ensure learners have the necessary hardware, software, and connectivity to access the course."
         },
         {
@@ -1913,9 +1913,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           question: "What checks that all interactive elements function correctly?",
           options: [
             "Functional Testing",
-            "Compatibility Testing",
+            "Content Review",
             "Accessibility Testing",
-            "Content Review"
+            "Compatibility Testing"
           ],
           correctAnswer: 0,
           explanation: "Functional testing verifies that buttons, quizzes, navigation, and media work as intended."
@@ -1924,12 +1924,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           id: 3,
           question: "Which launch starts with a small group before full deployment?",
           options: [
-            "Soft Launch",
-            "Phased Rollout",
             "Full Launch",
-            "Continuous Enrollment"
+            "Continuous Enrollment",
+            "Phased Rollout",
+            "Soft Launch"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A soft launch tests the course with a limited group to identify and fix issues before reaching all learners."
         },
         {
@@ -1948,48 +1948,48 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           id: 5,
           question: "What tracks server loads, page times, and error rates?",
           options: [
-            "Performance Monitoring",
             "Engagement Tracking",
             "Content Updates",
-            "Feedback Collection"
+            "Feedback Collection",
+            "Performance Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Performance monitoring ensures the technical infrastructure supports smooth course delivery."
         },
         {
           id: 6,
           question: "Which testing ensures courses work across different browsers and devices?",
           options: [
+            "Accessibility Testing",
             "Compatibility Testing",
             "Functional Testing",
-            "Accessibility Testing",
             "Content Review"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Compatibility testing verifies consistent performance across various technical environments."
         },
         {
           id: 7,
           question: "What releases courses to groups gradually, limiting problem impact?",
           options: [
-            "Phased Rollout",
+            "Continuous Enrollment",
             "Soft Launch",
             "Full Launch",
-            "Continuous Enrollment"
+            "Phased Rollout"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Phased rollout introduces the course to segments of learners over time, containing any issues."
         },
         {
           id: 8,
           question: "What assists with learning challenges and content understanding?",
           options: [
-            "Academic Support",
-            "Technical Support",
+            "Peer Support",
             "Administrative Support",
-            "Peer Support"
+            "Academic Support",
+            "Technical Support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Academic support helps learners overcome difficulties with course content and concepts."
         },
         {
@@ -1997,9 +1997,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           question: "What identifies drop-off points and low completion sections?",
           options: [
             "Engagement Tracking",
+            "Feedback Collection",
             "Performance Monitoring",
-            "Content Updates",
-            "Feedback Collection"
+            "Content Updates"
           ],
           correctAnswer: 0,
           explanation: "Engagement tracking reveals where learners lose interest or encounter difficulties."
@@ -2008,72 +2008,72 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           id: 10,
           question: "What verifies inclusive design for all learners?",
           options: [
-            "Accessibility Testing",
+            "Content Review",
             "Functional Testing",
-            "Compatibility Testing",
-            "Content Review"
+            "Accessibility Testing",
+            "Compatibility Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Accessibility testing ensures courses can be used by people with disabilities through assistive technologies."
         },
         {
           id: 11,
           question: "Which launch works for mandatory training with fixed deadlines?",
           options: [
-            "Full Launch",
             "Soft Launch",
             "Phased Rollout",
-            "Continuous Enrollment"
+            "Continuous Enrollment",
+            "Full Launch"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Full launch delivers the course to all learners simultaneously, appropriate for time-sensitive requirements."
         },
         {
           id: 12,
           question: "What handles enrollment, records, and certificates?",
           options: [
-            "Administrative Support",
-            "Technical Support",
+            "Peer Support",
             "Academic Support",
-            "Peer Support"
+            "Administrative Support",
+            "Technical Support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Administrative support manages the logistical aspects of course participation and completion."
         },
         {
           id: 13,
           question: "What keeps time-sensitive material current through regular reviews?",
           options: [
-            "Content Updates",
-            "Performance Monitoring",
             "Engagement Tracking",
-            "Feedback Collection"
+            "Content Updates",
+            "Feedback Collection",
+            "Performance Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Content updates maintain course relevance by revising outdated information and examples."
         },
         {
           id: 14,
           question: "What involves sample learners to reveal issues designers might miss?",
           options: [
-            "User Acceptance Testing",
-            "Functional Testing",
             "Compatibility Testing",
+            "Functional Testing",
+            "User Acceptance Testing",
             "Accessibility Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "User acceptance testing observes real learners to identify usability problems and confusion points."
         },
         {
           id: 15,
           question: "Which launch allows learners to start anytime for self-paced courses?",
           options: [
-            "Continuous Enrollment",
-            "Soft Launch",
             "Phased Rollout",
-            "Full Launch"
+            "Full Launch",
+            "Continuous Enrollment",
+            "Soft Launch"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuous enrollment supports ongoing access for self-paced learning without cohort restrictions."
         },
         {
@@ -2082,8 +2082,8 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           options: [
             "Peer Support",
             "Technical Support",
-            "Academic Support",
-            "Administrative Support"
+            "Administrative Support",
+            "Academic Support"
           ],
           correctAnswer: 0,
           explanation: "Peer support enables learners to help each other, building community and sharing perspectives."
@@ -2092,12 +2092,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           id: 17,
           question: "What gathers ongoing input through surveys or feedback buttons?",
           options: [
-            "Feedback Collection",
             "Performance Monitoring",
-            "Engagement Tracking",
-            "Content Updates"
+            "Feedback Collection",
+            "Content Updates",
+            "Engagement Tracking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Feedback collection provides direct learner perspectives on course strengths and improvement opportunities."
         },
         {
@@ -2105,9 +2105,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           question: "What checks technical accuracy and pedagogical effectiveness?",
           options: [
             "Content Review",
-            "Functional Testing",
+            "Accessibility Testing",
             "Compatibility Testing",
-            "Accessibility Testing"
+            "Functional Testing"
           ],
           correctAnswer: 0,
           explanation: "Content review involves subject matter experts and instructional designers verifying quality."
@@ -2116,24 +2116,24 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
           id: 19,
           question: "What coordinates all activities with buffer time for delays?",
           options: [
-            "Launch Timeline",
-            "Technical Requirements",
             "Communication Plan",
-            "Support Structure"
+            "Technical Requirements",
+            "Support Structure",
+            "Launch Timeline"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A launch timeline schedules all implementation activities with realistic timeframes and contingencies."
         },
         {
           id: 20,
           question: "What defines who helps with different types of problems?",
           options: [
+            "Communication Plan",
             "Support Structure",
-            "Technical Requirements",
             "Launch Timeline",
-            "Communication Plan"
+            "Technical Requirements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Support structure clarifies responsibilities and escalation paths for various learner issues."
         }
       ]
@@ -2146,12 +2146,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 1,
       question: "What is the practice of creating educational experiences that make learning efficient, effective, and engaging?",
       options: [
+        "Learning Architecture",
         "Instructional Design",
         "Course Development",
-        "E-learning Programming",
-        "Learning Architecture"
+        "E-learning Programming"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 1",
       explanation: "Instructional Design combines learning theory with practical application to create effective educational experiences."
     },
@@ -2159,12 +2159,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 2,
       question: "Which principle states that people learn better from words and pictures together?",
       options: [
-        "Multimedia Principle",
-        "Adult Learning Principle",
+        "ADDIE Model",
         "Cognitive Load Theory",
-        "ADDIE Model"
+        "Adult Learning Principle",
+        "Multimedia Principle"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 1",
       explanation: "The Multimedia Principle demonstrates that combining words with relevant pictures improves learning compared to words alone."
     },
@@ -2173,9 +2173,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       question: "What three components should a well-written learning objective have?",
       options: [
         "Performance, Condition, Criterion",
-        "Action, Situation, Standard",
+        "Task, Environment, Benchmark",
         "Verb, Context, Measurement",
-        "Task, Environment, Benchmark"
+        "Action, Situation, Standard"
       ],
       correctAnswer: 0,
       module: "Module 2",
@@ -2185,12 +2185,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 4,
       question: "What breaks information into manageable pieces for our working memory?",
       options: [
-        "Chunking",
         "Scaffolding",
+        "Storytelling",
         "Progressive Disclosure",
-        "Storytelling"
+        "Chunking"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 2",
       explanation: "Chunking organizes information into groups of 4-7 items, which matches our working memory capacity."
     },
@@ -2213,8 +2213,8 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       options: [
         "SCORM 2004",
         "SCORM 1.2",
-        "xAPI (Tin Can API)",
-        "CMI5"
+        "CMI5",
+        "xAPI (Tin Can API)"
       ],
       correctAnswer: 0,
       module: "Module 3",
@@ -2224,12 +2224,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 7,
       question: "What type of learning produces better understanding and retention according to research?",
       options: [
-        "Active learning",
         "Passive learning",
         "Visual learning",
-        "Auditory learning"
+        "Auditory learning",
+        "Active learning"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 4",
       explanation: "Active learning, which requires doing, discussing, or creating, leads to deeper processing and better retention."
     },
@@ -2238,9 +2238,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       question: "What presents decision points with consequences that affect outcomes?",
       options: [
         "Branching Scenarios",
-        "Knowledge Checks",
+        "Games",
         "Simulations",
-        "Games"
+        "Knowledge Checks"
       ],
       correctAnswer: 0,
       module: "Module 4",
@@ -2251,9 +2251,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       question: "What measures learner achievement of intended outcomes?",
       options: [
         "Assessment",
+        "Analysis",
         "Evaluation",
-        "Measurement",
-        "Analysis"
+        "Measurement"
       ],
       correctAnswer: 0,
       module: "Module 5",
@@ -2263,12 +2263,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 10,
       question: "Which Kirkpatrick level measures how learners feel about training?",
       options: [
-        "Level 1: Reaction",
         "Level 2: Learning",
+        "Level 1: Reaction",
         "Level 3: Behavior",
         "Level 4: Results"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 5",
       explanation: "Level 1 evaluates learner satisfaction and perceptions immediately after training."
     },
@@ -2276,12 +2276,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 11,
       question: "What specifies what browsers, plugins, and internet speed learners need?",
       options: [
-        "Technical Requirements",
-        "Launch Timeline",
+        "Support Structure",
         "Communication Plan",
-        "Support Structure"
+        "Launch Timeline",
+        "Technical Requirements"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 6",
       explanation: "Technical requirements ensure learners have necessary hardware, software, and connectivity to access the course."
     },
@@ -2289,12 +2289,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 12,
       question: "What checks that all interactive elements function correctly?",
       options: [
-        "Functional Testing",
+        "Content Review",
         "Compatibility Testing",
-        "Accessibility Testing",
-        "Content Review"
+        "Functional Testing",
+        "Accessibility Testing"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 6",
       explanation: "Functional testing verifies that buttons, quizzes, navigation, and media work as intended."
     },
@@ -2304,8 +2304,8 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       options: [
         "Analysis, Design, Development, Implementation, Evaluation",
         "Assess, Design, Develop, Implement, Evaluate",
-        "Analyze, Design, Deliver, Implement, Examine",
-        "Assessment, Development, Design, Integration, Evaluation"
+        "Assessment, Development, Design, Integration, Evaluation",
+        "Analyze, Design, Deliver, Implement, Examine"
       ],
       correctAnswer: 0,
       module: "Module 1",
@@ -2316,9 +2316,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       question: "What ensures people with disabilities can use e-learning content?",
       options: [
         "Accessibility",
-        "Gamification",
+        "Multimedia design",
         "SCORM compliance",
-        "Multimedia design"
+        "Gamification"
       ],
       correctAnswer: 0,
       module: "Module 1",
@@ -2328,12 +2328,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 15,
       question: "How many sentences maximum should online learning paragraphs contain?",
       options: [
-        "3-4 sentences",
         "5-6 sentences",
+        "3-4 sentences",
         "7-8 sentences",
         "9-10 sentences"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 2",
       explanation: "Online readers scan content, so paragraphs should be short (3-4 sentences) for better readability."
     },
@@ -2341,12 +2341,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 16,
       question: "Which voice is more direct and engaging for digital learning?",
       options: [
-        "Active voice",
+        "Academic voice",
         "Passive voice",
-        "Formal voice",
-        "Academic voice"
+        "Active voice",
+        "Formal voice"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 2",
       explanation: "Active voice (e.g., 'You will create') is more engaging and direct than passive voice."
     },
@@ -2354,12 +2354,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 17,
       question: "What ensures content works on desktop, tablet, and smartphone screens?",
       options: [
-        "Responsive Design",
+        "Publishing Options",
         "Interactivity Options",
         "Accessibility Support",
-        "Publishing Options"
+        "Responsive Design"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 3",
       explanation: "Responsive design automatically adjusts content layout and functionality for different screen sizes."
     },
@@ -2369,8 +2369,8 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       options: [
         "Moodle",
         "Canvas",
-        "Blackboard",
-        "Cornerstone"
+        "Cornerstone",
+        "Blackboard"
       ],
       correctAnswer: 0,
       module: "Module 3",
@@ -2381,9 +2381,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       question: "How often should strategic interactions be placed to maintain attention?",
       options: [
         "Every 3-5 minutes",
-        "Every 10-15 minutes",
         "Every 20-30 minutes",
-        "Once per module"
+        "Once per module",
+        "Every 10-15 minutes"
       ],
       correctAnswer: 0,
       module: "Module 4",
@@ -2393,12 +2393,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 20,
       question: "Which interaction recreates real-world tasks for practice?",
       options: [
-        "Simulations",
-        "Knowledge Checks",
         "Branching Scenarios",
+        "Knowledge Checks",
+        "Simulations",
         "Games"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 4",
       explanation: "Simulations provide safe environments to practice real-world tasks and procedures."
     },
@@ -2406,12 +2406,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 21,
       question: "What type of assessment supports learning while it happens?",
       options: [
+        "Diagnostic assessment",
         "Formative assessment",
         "Summative assessment",
-        "Diagnostic assessment",
         "Placement assessment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 5",
       explanation: "Formative assessments provide feedback during learning to guide improvement before final evaluation."
     },
@@ -2419,12 +2419,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 22,
       question: "What should every assessment item map to directly?",
       options: [
-        "A specific learning objective",
         "Course content",
-        "Module title",
-        "Time allocation"
+        "A specific learning objective",
+        "Time allocation",
+        "Module title"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 5",
       explanation: "Assessment blueprinting ensures each item measures achievement of specific, stated learning objectives."
     },
@@ -2432,12 +2432,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 23,
       question: "Which launch starts with a small group before full deployment?",
       options: [
+        "Full Launch",
         "Soft Launch",
         "Phased Rollout",
-        "Full Launch",
         "Continuous Enrollment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 6",
       explanation: "A soft launch tests the course with a limited group to identify and fix issues before reaching all learners."
     },
@@ -2445,12 +2445,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 24,
       question: "What helps with access and functionality issues?",
       options: [
-        "Technical Support",
-        "Academic Support",
         "Administrative Support",
+        "Academic Support",
+        "Technical Support",
         "Peer Support"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 6",
       explanation: "Technical support assists learners with login problems, browser issues, or functionality errors."
     },
@@ -2459,9 +2459,9 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       question: "What type of learning delivers content in small, focused chunks?",
       options: [
         "Microlearning",
-        "Self-paced courses",
         "Blended learning",
-        "Live virtual classes"
+        "Live virtual classes",
+        "Self-paced courses"
       ],
       correctAnswer: 0,
       module: "Module 1",
@@ -2471,12 +2471,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 26,
       question: "What theory helps avoid overwhelming learners with too much information?",
       options: [
-        "Cognitive Load Theory",
-        "Adult Learning Principles",
         "Multimedia Principle",
-        "Gamification Theory"
+        "Gamification Theory",
+        "Cognitive Load Theory",
+        "Adult Learning Principles"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 1",
       explanation: "Cognitive Load Theory addresses how to present information without exceeding learners' mental processing capacity."
     },
@@ -2484,12 +2484,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 27,
       question: "What provides temporary support that is gradually removed as learners progress?",
       options: [
-        "Scaffolding",
         "Chunking",
-        "Progressive Disclosure",
-        "Storytelling"
+        "Scaffolding",
+        "Storytelling",
+        "Progressive Disclosure"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 2",
       explanation: "Scaffolding offers support that decreases as learners develop competence."
     },
@@ -2497,12 +2497,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 28,
       question: "Which type of assessment happens during learning to check understanding?",
       options: [
-        "Formative assessment",
-        "Summative assessment",
+        "Final assessment",
         "Authentic assessment",
-        "Final assessment"
+        "Summative assessment",
+        "Formative assessment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 2",
       explanation: "Formative assessments provide ongoing feedback during the learning process to guide improvement."
     },
@@ -2510,12 +2510,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 29,
       question: "What goes beyond SCORM to track learning experiences anywhere?",
       options: [
-        "xAPI (Tin Can API)",
-        "SCORM 1.2",
         "SCORM 2004",
+        "SCORM 1.2",
+        "xAPI (Tin Can API)",
         "CMI5"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 3",
       explanation: "xAPI can record learning activities beyond traditional courses, including reading articles or discussions."
     },
@@ -2523,12 +2523,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 30,
       question: "Which tool excels at video-based training?",
       options: [
-        "Camtasia",
-        "Vyond",
         "H5P",
-        "Articulate Storyline"
+        "Vyond",
+        "Articulate Storyline",
+        "Camtasia"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 3",
       explanation: "Camtasia is specialized software for creating and editing video tutorials and screen recordings."
     },
@@ -2536,12 +2536,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 31,
       question: "What should every interaction directly support?",
       options: [
-        "Learning objectives",
         "Entertainment value",
+        "Learning objectives",
         "Technical features",
         "Time requirements"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 4",
       explanation: "Interactions should advance specific learning goals, not just add entertainment or showcase features."
     },
@@ -2549,12 +2549,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 32,
       question: "Which type of scenario lets learners practice interpersonal skills?",
       options: [
-        "Role-Play Simulations",
-        "Problem-Based Scenarios",
         "Case Studies",
-        "Critical Incident Reviews"
+        "Critical Incident Reviews",
+        "Role-Play Simulations",
+        "Problem-Based Scenarios"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 4",
       explanation: "Role-play simulations provide practice for conversations, negotiations, and interpersonal interactions."
     },
@@ -2562,12 +2562,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 33,
       question: "What collects work samples over time to show growth?",
       options: [
-        "Portfolios",
-        "Projects",
         "Presentations",
-        "Observations"
+        "Observations",
+        "Projects",
+        "Portfolios"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 5",
       explanation: "Portfolios demonstrate development and range of abilities through collected work with reflection."
     },
@@ -2575,12 +2575,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 34,
       question: "What shows how many learners finish the course?",
       options: [
-        "Completion Rates",
-        "Assessment Scores",
         "Time Data",
+        "Assessment Scores",
+        "Completion Rates",
         "Feedback Surveys"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 5",
       explanation: "Completion rates indicate engagement and course manageability by showing what percentage start and finish."
     },
@@ -2588,12 +2588,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 35,
       question: "Which testing ensures courses work across different browsers and devices?",
       options: [
-        "Compatibility Testing",
         "Functional Testing",
-        "Accessibility Testing",
-        "Content Review"
+        "Content Review",
+        "Compatibility Testing",
+        "Accessibility Testing"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 6",
       explanation: "Compatibility testing verifies consistent performance across various technical environments."
     },
@@ -2601,12 +2601,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 36,
       question: "What releases courses to groups gradually, limiting problem impact?",
       options: [
-        "Phased Rollout",
         "Soft Launch",
+        "Phased Rollout",
         "Full Launch",
         "Continuous Enrollment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 6",
       explanation: "Phased rollout introduces the course to segments of learners over time, containing any issues."
     },
@@ -2614,12 +2614,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 37,
       question: "What does SCORM stand for?",
       options: [
-        "Sharable Content Object Reference Model",
+        "Structured Course Object Repository Model",
         "Standard Course Object Running Model",
-        "Systematic Content Organization Reference Method",
-        "Structured Course Object Repository Model"
+        "Sharable Content Object Reference Model",
+        "Systematic Content Organization Reference Method"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 1",
       explanation: "SCORM is the technical standard that ensures e-learning content works across different learning management systems."
     },
@@ -2627,12 +2627,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 38,
       question: "What type of font is generally best for screen reading?",
       options: [
-        "Sans-serif fonts",
+        "Decorative fonts",
         "Serif fonts",
-        "Script fonts",
-        "Decorative fonts"
+        "Sans-serif fonts",
+        "Script fonts"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 2",
       explanation: "Sans-serif fonts (like Arial or Helvetica) are clearer on screens than serif fonts designed for print."
     },
@@ -2640,12 +2640,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 39,
       question: "What tracks progress and provides immediate acknowledgment in gamification?",
       options: [
-        "Points",
         "Badges",
         "Leaderboards",
-        "Progress Bars"
+        "Progress Bars",
+        "Points"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 4",
       explanation: "Points offer instant feedback on achievements and help learners track cumulative progress."
     },
@@ -2653,12 +2653,12 @@ Remember: Implementation isn't the end-it's the beginning of the course lifecycl
       id: 40,
       question: "Which Kirkpatrick level measures what organizational results occurred from training?",
       options: [
-        "Level 4: Results",
+        "Level 3: Behavior",
         "Level 1: Reaction",
         "Level 2: Learning",
-        "Level 3: Behavior"
+        "Level 4: Results"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 5",
       explanation: "Level 4 evaluation assesses the business impact of training, such as increased productivity or reduced errors."
     }

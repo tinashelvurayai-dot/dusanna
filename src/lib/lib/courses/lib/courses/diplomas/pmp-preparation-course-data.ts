@@ -54,8 +54,8 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           options: [
             "People, Process, and Business Environment",
             "Planning, Execution, and Control",
-            "Technical, Leadership, and Strategic",
-            "Initiation, Planning, and Closing"
+            "Initiation, Planning, and Closing",
+            "Technical, Leadership, and Strategic"
           ],
           correctAnswer: 0,
           explanation: "The PMP exam covers three domains: People (42%), Process (50%), and Business Environment (8%)."
@@ -65,9 +65,9 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           question: "What does the People domain cover?",
           options: [
             "Leadership and team management",
-            "Technical project management",
+            "Budget calculations",
             "Organizational strategy",
-            "Budget calculations"
+            "Technical project management"
           ],
           correctAnswer: 0,
           explanation: "The People domain focuses on leadership, team management, and stakeholder engagement."
@@ -76,24 +76,24 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           id: 3,
           question: "What is the primary reference for the PMP exam?",
           options: [
-            "PMBOK Guide",
+            "Internet blogs",
             "Only personal experience",
-            "Company procedures",
-            "Internet blogs"
+            "PMBOK Guide",
+            "Company procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The PMBOK (Project Management Body of Knowledge) Guide is the primary reference for the PMP exam."
         },
         {
           id: 4,
           question: "What type of life cycle follows sequential phases?",
           options: [
+            "Hybrid life cycle",
             "Predictive life cycle",
             "Adaptive life cycle",
-            "Iterative life cycle",
-            "Hybrid life cycle"
+            "Iterative life cycle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Predictive life cycles follow sequential phases with detailed upfront planning."
         },
         {
@@ -102,8 +102,8 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           options: [
             "Projects",
             "Operations",
-            "Programs",
-            "Portfolios"
+            "Portfolios",
+            "Programs"
           ],
           correctAnswer: 0,
           explanation: "Projects are temporary endeavors that create unique products, services, or results."
@@ -112,48 +112,48 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           id: 6,
           question: "What focuses entirely on projects?",
           options: [
-            "Projectized organizations",
             "Functional organizations",
-            "Matrix organizations",
-            "Hybrid organizations"
+            "Projectized organizations",
+            "Hybrid organizations",
+            "Matrix organizations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Projectized organizations structure their work entirely around projects."
         },
         {
           id: 7,
           question: "What does the Process domain focus on?",
           options: [
-            "Technical project management",
-            "Team motivation",
             "Business strategy",
-            "Ethical decisions"
+            "Technical project management",
+            "Ethical decisions",
+            "Team motivation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Process domain covers technical project management processes and methodologies."
         },
         {
           id: 8,
           question: "What emphasizes tailoring processes to project needs?",
           options: [
+            "One-size-fits-all",
             "PMBOK Guide",
-            "Only predictive approaches",
             "Fixed methodologies",
-            "One-size-fits-all"
+            "Only predictive approaches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The PMBOK Guide emphasizes tailoring processes to fit specific project needs and contexts."
         },
         {
           id: 9,
           question: "What are groups of related projects managed together?",
           options: [
-            "Programs",
             "Portfolios",
-            "Operations",
-            "Departments"
+            "Programs",
+            "Departments",
+            "Operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Programs are groups of related projects managed together to achieve strategic benefits."
         },
         {
@@ -161,9 +161,9 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           question: "What blends functional and project structures?",
           options: [
             "Matrix organizations",
-            "Projectized organizations",
             "Functional organizations",
-            "Virtual organizations"
+            "Virtual organizations",
+            "Projectized organizations"
           ],
           correctAnswer: 0,
           explanation: "Matrix organizations blend functional departmental structure with project teams."
@@ -172,12 +172,12 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           id: 11,
           question: "What requires process knowledge?",
           options: [
+            "Communication only",
             "Technical project management",
             "Leadership alone",
-            "Strategic thinking",
-            "Communication only"
+            "Strategic thinking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technical project management competency requires knowledge of project management processes."
         },
         {
@@ -185,9 +185,9 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           question: "What tests application, not just memorization?",
           options: [
             "The PMP exam",
-            "Simple quizzes",
             "Vocabulary tests",
-            "Memory exercises"
+            "Memory exercises",
+            "Simple quizzes"
           ],
           correctAnswer: 0,
           explanation: "The PMP exam tests your ability to apply knowledge in realistic project scenarios."
@@ -197,9 +197,9 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           question: "What responds to changing requirements?",
           options: [
             "Adaptive life cycles",
-            "Predictive life cycles",
             "Waterfall approaches",
-            "Fixed plans"
+            "Fixed plans",
+            "Predictive life cycles"
           ],
           correctAnswer: 0,
           explanation: "Adaptive life cycles are designed to respond to changing requirements throughout the project."
@@ -208,84 +208,84 @@ Create a study plan covering all exam domains. Use multiple resources for compre
           id: 14,
           question: "What must project managers ensure in all actions?",
           options: [
-            "Integrity",
-            "Only speed",
             "Lowest cost",
-            "Personal gain"
+            "Personal gain",
+            "Only speed",
+            "Integrity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Project managers must ensure integrity and ethical behavior in all their actions."
         },
         {
           id: 15,
           question: "What addresses organizational strategy?",
           options: [
-            "Business Environment domain",
+            "Technical domain",
             "People domain",
-            "Process domain",
-            "Technical domain"
+            "Business Environment domain",
+            "Process domain"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Business Environment domain addresses how projects align with organizational strategy."
         },
         {
           id: 16,
           question: "What repeats phases to refine deliverables?",
           options: [
-            "Iterative life cycles",
+            "One-phase projects",
             "Predictive life cycles",
             "Linear approaches",
-            "One-phase projects"
+            "Iterative life cycles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Iterative life cycles repeat phases multiple times to progressively refine deliverables."
         },
         {
           id: 17,
           question: "What are ongoing activities that sustain the organization?",
           options: [
+            "Portfolios",
             "Operations",
             "Projects",
-            "Programs",
-            "Portfolios"
+            "Programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Operations are ongoing activities that sustain the organization's regular business."
         },
         {
           id: 18,
           question: "What involves guiding and motivating teams?",
           options: [
+            "Scheduling",
             "Leadership",
-            "Technical skills",
             "Budgeting",
-            "Scheduling"
+            "Technical skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Leadership involves guiding, motivating, and directing project team members."
         },
         {
           id: 19,
           question: "What adds functionality in iterations?",
           options: [
-            "Incremental life cycles",
-            "Predictive life cycles",
             "Single-phase projects",
-            "Waterfall methods"
+            "Incremental life cycles",
+            "Waterfall methods",
+            "Predictive life cycles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Incremental life cycles add functionality to deliverables in successive iterations."
         },
         {
           id: 20,
           question: "What enables effective global collaboration?",
           options: [
-            "Cultural sensitivity",
             "Technical expertise only",
             "Ignoring differences",
-            "Standard approaches"
+            "Standard approaches",
+            "Cultural sensitivity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural sensitivity enables effective collaboration in diverse and global teams."
         }
       ]
@@ -342,9 +342,9 @@ Stakeholder analysis updates refine understanding. Engagement assessment matrix 
           question: "What formally authorizes a new project?",
           options: [
             "Project initiation",
+            "Project closing",
             "Project execution",
-            "Project monitoring",
-            "Project closing"
+            "Project monitoring"
           ],
           correctAnswer: 0,
           explanation: "Project initiation is the process that formally authorizes the start of a new project."
@@ -353,12 +353,12 @@ Stakeholder analysis updates refine understanding. Engagement assessment matrix 
           id: 2,
           question: "What documents project authorization?",
           options: [
-            "Project charter",
+            "Stakeholder register",
             "Project plan",
-            "Business case",
-            "Stakeholder register"
+            "Project charter",
+            "Business case"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The project charter formally documents project authorization and gives the project manager authority."
         },
         {
@@ -377,60 +377,60 @@ Stakeholder analysis updates refine understanding. Engagement assessment matrix 
           id: 4,
           question: "What defines what is included in the project?",
           options: [
-            "Scope planning",
-            "Schedule development",
             "Cost estimating",
-            "Risk identification"
+            "Risk identification",
+            "Schedule development",
+            "Scope planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Scope planning defines what work is included in the project and what is excluded."
         },
         {
           id: 5,
           question: "What begins during project initiation?",
           options: [
-            "Stakeholder identification",
+            "Procurement execution",
             "Team development",
-            "Quality control",
-            "Procurement execution"
+            "Stakeholder identification",
+            "Quality control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Identifying stakeholders begins during project initiation and continues throughout."
         },
         {
           id: 6,
           question: "What gives the project manager authority to apply resources?",
           options: [
-            "Project charter",
             "Company policy",
+            "Personal initiative",
             "Team agreement",
-            "Personal initiative"
+            "Project charter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The project charter formally authorizes the project manager to apply organizational resources."
         },
         {
           id: 7,
           question: "What decomposes work into manageable pieces?",
           options: [
-            "Work breakdown structure",
-            "Gantt chart",
             "Network diagram",
-            "Responsibility matrix"
+            "Responsibility matrix",
+            "Gantt chart",
+            "Work breakdown structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The work breakdown structure (WBS) decomposes project work into manageable components."
         },
         {
           id: 8,
           question: "What creates the project timeline?",
           options: [
+            "Risk analysis",
             "Schedule development",
             "Cost budgeting",
-            "Resource leveling",
-            "Risk analysis"
+            "Resource leveling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Schedule development creates the project timeline showing when work will be performed."
         },
         {
@@ -449,24 +449,24 @@ Stakeholder analysis updates refine understanding. Engagement assessment matrix 
           id: 10,
           question: "What is the approved project schedule?",
           options: [
-            "Schedule baseline",
             "Preliminary schedule",
+            "Ideal plan",
             "Draft timeline",
-            "Ideal plan"
+            "Schedule baseline"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The schedule baseline is the approved version of the project schedule used for tracking."
         },
         {
           id: 11,
           question: "What documents business needs and project objectives?",
           options: [
-            "Project charter",
-            "Meeting minutes",
             "Email correspondence",
-            "Informal notes"
+            "Informal notes",
+            "Project charter",
+            "Meeting minutes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The project charter documents the business needs, objectives, and high-level requirements."
         },
         {
@@ -474,9 +474,9 @@ Stakeholder analysis updates refine understanding. Engagement assessment matrix 
           question: "What captures stakeholder needs?",
           options: [
             "Requirements documentation",
-            "Only verbal agreements",
             "Manager preferences",
-            "Team assumptions"
+            "Team assumptions",
+            "Only verbal agreements"
           ],
           correctAnswer: 0,
           explanation: "Requirements documentation formally captures what stakeholders need from the project."
@@ -485,96 +485,96 @@ Stakeholder analysis updates refine understanding. Engagement assessment matrix 
           id: 13,
           question: "What determines logical relationships between activities?",
           options: [
-            "Sequencing",
             "Estimating",
+            "Sequencing",
             "Budgeting",
             "Controlling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sequencing determines the logical relationships and dependencies between project activities."
         },
         {
           id: 14,
           question: "What approximates monetary resources needed?",
           options: [
-            "Cost estimating",
             "Schedule development",
             "Scope definition",
-            "Risk assessment"
+            "Risk assessment",
+            "Cost estimating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cost estimating approximates the monetary resources needed to complete project work."
         },
         {
           id: 15,
           question: "What should be realistic and achievable?",
           options: [
-            "The project management plan",
-            "Only optimistic goals",
             "Theoretical models",
-            "Perfect scenarios"
+            "Perfect scenarios",
+            "Only optimistic goals",
+            "The project management plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The project management plan should be realistic and achievable given project constraints."
         },
         {
           id: 16,
           question: "What describes project boundaries?",
           options: [
-            "Scope statement",
             "Risk register",
             "Communication plan",
+            "Scope statement",
             "Quality checklist"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The scope statement clearly describes what is included in and excluded from the project."
         },
         {
           id: 17,
           question: "What calculates time needed for each activity?",
           options: [
-            "Duration estimating",
             "Cost budgeting",
-            "Resource allocation",
-            "Risk quantification"
+            "Duration estimating",
+            "Risk quantification",
+            "Resource allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Duration estimating calculates the time needed to complete each project activity."
         },
         {
           id: 18,
           question: "What aggregates estimates into a total budget?",
           options: [
-            "Cost budgeting",
             "Schedule sequencing",
-            "Resource leveling",
-            "Risk mitigation"
+            "Cost budgeting",
+            "Risk mitigation",
+            "Resource leveling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cost budgeting aggregates individual cost estimates into a total project budget."
         },
         {
           id: 19,
           question: "What identifies relevant quality standards?",
           options: [
-            "Quality planning",
             "Risk planning",
+            "Procurement planning",
             "Communications planning",
-            "Procurement planning"
+            "Quality planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Quality planning identifies which quality standards are relevant to the project."
         },
         {
           id: 20,
           question: "What defines the risk approach?",
           options: [
-            "Risk management planning",
-            "Risk identification",
             "Risk analysis",
-            "Risk response"
+            "Risk response",
+            "Risk management planning",
+            "Risk identification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk management planning defines how risk activities will be conducted on the project."
         }
       ]
@@ -642,96 +642,96 @@ Risk response implementation executes planned actions. Contingency plans are act
           id: 1,
           question: "What involves performing the work defined in the project plan?",
           options: [
-            "Project execution",
             "Project planning",
             "Project initiation",
+            "Project execution",
             "Project closing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Project execution involves performing the work defined in the project management plan."
         },
         {
           id: 2,
           question: "What focuses on process improvement?",
           options: [
-            "Quality assurance",
             "Quality control",
-            "Inspection",
-            "Testing"
+            "Quality assurance",
+            "Testing",
+            "Inspection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Quality assurance focuses on improving processes to enhance quality outcomes."
         },
         {
           id: 3,
           question: "What consumes most project resources?",
           options: [
-            "Execution phase",
-            "Planning phase",
             "Initiation phase",
-            "Closing phase"
+            "Closing phase",
+            "Planning phase",
+            "Execution phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The execution phase typically consumes the majority of project resources and budget."
         },
         {
           id: 4,
           question: "What ensures learning is captured and shared?",
           options: [
-            "Knowledge management",
-            "Only documentation",
+            "Informal conversations",
             "Memory retention",
-            "Informal conversations"
+            "Only documentation",
+            "Knowledge management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Knowledge management systematically captures, shares, and applies project learning."
         },
         {
           id: 5,
           question: "What involves obtaining needed personnel?",
           options: [
-            "Acquiring the project team",
-            "Developing the team",
+            "Releasing the team",
             "Managing the team",
-            "Releasing the team"
+            "Developing the team",
+            "Acquiring the project team"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Acquiring the project team involves obtaining the human resources needed for the project."
         },
         {
           id: 6,
           question: "What monitors specific results?",
           options: [
-            "Quality control",
             "Quality assurance",
+            "Performance reporting",
             "Process improvement",
-            "Performance reporting"
+            "Quality control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Quality control monitors specific results to ensure they meet quality standards."
         },
         {
           id: 7,
           question: "What collects work performance data?",
           options: [
-            "Directing and managing project work",
             "Closing the project",
-            "Initiating the project",
-            "Planning the project"
+            "Planning the project",
+            "Directing and managing project work",
+            "Initiating the project"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Directing and managing project work collects performance data as work is performed."
         },
         {
           id: 8,
           question: "What enhances competencies and interaction?",
           options: [
+            "Team management",
             "Team development",
             "Team acquisition",
-            "Team management",
             "Team release"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Team development enhances team members' competencies and their ability to work together."
         },
         {
@@ -739,8 +739,8 @@ Risk response implementation executes planned actions. Contingency plans are act
           question: "What involves communicating and working with stakeholders?",
           options: [
             "Stakeholder engagement",
-            "Stakeholder identification",
             "Stakeholder analysis",
+            "Stakeholder identification",
             "Stakeholder monitoring"
           ],
           correctAnswer: 0,
@@ -762,72 +762,72 @@ Risk response implementation executes planned actions. Contingency plans are act
           id: 11,
           question: "What guides execution activities?",
           options: [
-            "Project management plan",
+            "Stakeholder requests",
             "Only experience",
-            "Team preferences",
-            "Stakeholder requests"
+            "Project management plan",
+            "Team preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The project management plan guides all project execution activities."
         },
         {
           id: 12,
           question: "What verifies compliance with processes?",
           options: [
-            "Quality audits",
+            "Status reports",
             "Performance reviews",
             "Team meetings",
-            "Status reports"
+            "Quality audits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Quality audits verify that project processes comply with organizational policies."
         },
         {
           id: 13,
           question: "What involves team members coming together?",
           options: [
+            "Performing stage",
             "Forming stage",
             "Storming stage",
-            "Norming stage",
-            "Performing stage"
+            "Norming stage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The forming stage occurs when team members first come together as a team."
         },
         {
           id: 14,
           question: "What ensures information exchange?",
           options: [
-            "Effective communication",
-            "Only documentation",
             "Formal meetings",
-            "Written reports"
+            "Effective communication",
+            "Written reports",
+            "Only documentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective communication ensures information is exchanged accurately and timely."
         },
         {
           id: 15,
           question: "What examines work products for defects?",
           options: [
-            "Inspection",
             "Auditing",
             "Reviewing",
-            "Monitoring"
+            "Monitoring",
+            "Inspection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Inspection involves examining work products to identify defects or non-conformities."
         },
         {
           id: 16,
           question: "What are documented throughout the project?",
           options: [
-            "Lessons learned",
-            "Only successes",
+            "Budget details",
             "Just failures",
-            "Budget details"
+            "Only successes",
+            "Lessons learned"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Lessons learned should be documented throughout the project, not just at the end."
         },
         {
@@ -836,8 +836,8 @@ Risk response implementation executes planned actions. Contingency plans are act
           options: [
             "Storming stage",
             "Forming stage",
-            "Norming stage",
-            "Performing stage"
+            "Performing stage",
+            "Norming stage"
           ],
           correctAnswer: 0,
           explanation: "The storming stage involves conflicts as team members establish roles and relationships."
@@ -847,8 +847,8 @@ Risk response implementation executes planned actions. Contingency plans are act
           question: "What demonstrates respect and understanding?",
           options: [
             "Active listening",
-            "Talking frequently",
             "Writing extensively",
+            "Talking frequently",
             "Presenting clearly"
           ],
           correctAnswer: 0,
@@ -870,12 +870,12 @@ Risk response implementation executes planned actions. Contingency plans are act
           id: 20,
           question: "What enhances how work is performed?",
           options: [
-            "Process improvement",
-            "Only working harder",
             "Adding more people",
-            "Extending timelines"
+            "Extending timelines",
+            "Only working harder",
+            "Process improvement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Process improvement enhances how work is performed to increase efficiency and effectiveness."
         }
       ]
@@ -952,24 +952,24 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           id: 1,
           question: "What tracks project performance against the plan?",
           options: [
-            "Monitoring",
             "Executing",
-            "Planning",
-            "Closing"
+            "Monitoring",
+            "Closing",
+            "Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Monitoring involves tracking, reviewing, and reporting project performance against the plan."
         },
         {
           id: 2,
           question: "What manages modifications to project baselines?",
           options: [
+            "Schedule development",
             "Change control",
             "Scope definition",
-            "Schedule development",
             "Cost estimating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change control manages modifications to project scope, schedule, and cost baselines."
         },
         {
@@ -988,12 +988,12 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           id: 4,
           question: "What manages changes to project scope?",
           options: [
-            "Scope control",
             "Schedule control",
-            "Cost control",
-            "Quality control"
+            "Scope control",
+            "Quality control",
+            "Cost control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Scope control manages changes to the project scope baseline."
         },
         {
@@ -1001,8 +1001,8 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           question: "What provides data for decisions?",
           options: [
             "Performance measurements",
-            "Personal opinions",
             "Team preferences",
+            "Personal opinions",
             "Stakeholder desires"
           ],
           correctAnswer: 0,
@@ -1012,24 +1012,24 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           id: 6,
           question: "What evaluates significant changes?",
           options: [
-            "Change control board",
-            "Project manager alone",
             "Any team member",
-            "Only the sponsor"
+            "Only the sponsor",
+            "Project manager alone",
+            "Change control board"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The change control board evaluates and decides on significant project changes."
         },
         {
           id: 7,
           question: "What identifies deviations from the plan?",
           options: [
-            "Variance analysis",
-            "Risk identification",
+            "Team assessment",
             "Quality inspection",
-            "Team assessment"
+            "Variance analysis",
+            "Risk identification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Variance analysis identifies differences between planned and actual performance."
         },
         {
@@ -1038,8 +1038,8 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           options: [
             "Scope creep",
             "Scope validation",
-            "Scope definition",
-            "Scope verification"
+            "Scope verification",
+            "Scope definition"
           ],
           correctAnswer: 0,
           explanation: "Scope creep refers to uncontrolled expansion of project scope without formal approval."
@@ -1048,12 +1048,12 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           id: 9,
           question: "What is the authorized budget for scheduled work?",
           options: [
-            "Planned value",
-            "Earned value",
             "Actual cost",
-            "Budget at completion"
+            "Planned value",
+            "Budget at completion",
+            "Earned value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Planned value (PV) is the authorized budget assigned to scheduled work."
         },
         {
@@ -1061,9 +1061,9 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           question: "What monitors project timeline performance?",
           options: [
             "Schedule control",
+            "Risk control",
             "Cost control",
-            "Quality control",
-            "Risk control"
+            "Quality control"
           ],
           correctAnswer: 0,
           explanation: "Schedule control monitors and manages the project timeline performance."
@@ -1072,84 +1072,84 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           id: 11,
           question: "What follows a formal process?",
           options: [
-            "All change requests",
-            "Only major changes",
+            "Team suggestions",
             "Minor adjustments",
-            "Team suggestions"
+            "Only major changes",
+            "All change requests"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "All change requests should follow the formal change control process."
         },
         {
           id: 12,
           question: "What assesses effects on project constraints?",
           options: [
+            "Schedule analysis",
             "Impact analysis",
             "Risk analysis",
-            "Cost analysis",
-            "Schedule analysis"
+            "Cost analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Impact analysis assesses how changes affect project scope, time, cost, quality, and risks."
         },
         {
           id: 13,
           question: "What compares planned versus actual progress?",
           options: [
+            "Quality variance",
             "Schedule variance",
             "Cost variance",
-            "Scope variance",
-            "Quality variance"
+            "Scope variance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Schedule variance (SV) compares the value of work planned versus work actually completed."
         },
         {
           id: 14,
           question: "What adds resources to critical path activities?",
           options: [
-            "Crashing",
-            "Fast tracking",
             "Resource leveling",
-            "Schedule smoothing"
+            "Fast tracking",
+            "Schedule smoothing",
+            "Crashing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Crashing adds resources to critical path activities to shorten the project schedule."
         },
         {
           id: 15,
           question: "What monitors project expenditures?",
           options: [
-            "Cost control",
-            "Schedule control",
             "Quality control",
-            "Risk control"
+            "Risk control",
+            "Schedule control",
+            "Cost control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cost control monitors project expenditures against the approved budget."
         },
         {
           id: 16,
           question: "What are incorporated into the project plan?",
           options: [
-            "Approved changes",
-            "All suggestions",
             "Informal requests",
+            "All suggestions",
+            "Approved changes",
             "Team preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Only approved changes are formally incorporated into the project management plan."
         },
         {
           id: 17,
           question: "What is the budget for work actually completed?",
           options: [
-            "Earned value",
+            "Budget estimate",
             "Planned value",
             "Actual cost",
-            "Budget estimate"
+            "Earned value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Earned value (EV) is the budget for work that has actually been completed."
         },
         {
@@ -1157,9 +1157,9 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           question: "What performs activities in parallel?",
           options: [
             "Fast tracking",
-            "Crashing",
             "Resource loading",
-            "Schedule stretching"
+            "Schedule stretching",
+            "Crashing"
           ],
           correctAnswer: 0,
           explanation: "Fast tracking involves performing activities in parallel that were originally sequential."
@@ -1170,8 +1170,8 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           options: [
             "Estimate at completion",
             "Estimate to complete",
-            "Budget at completion",
-            "Actual cost"
+            "Actual cost",
+            "Budget at completion"
           ],
           correctAnswer: 0,
           explanation: "Estimate at completion (EAC) predicts the total cost of the project at completion."
@@ -1181,8 +1181,8 @@ Stakeholder engagement levels are assessed. Communication effectiveness is evalu
           question: "What tracks deliverables and documentation?",
           options: [
             "Configuration management",
-            "Change management",
             "Risk management",
+            "Change management",
             "Quality management"
           ],
           correctAnswer: 0,
@@ -1261,8 +1261,8 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           options: [
             "Risk management",
             "Quality management",
-            "Schedule management",
-            "Cost management"
+            "Cost management",
+            "Schedule management"
           ],
           correctAnswer: 0,
           explanation: "Risk management includes planning, identification, analysis, response planning, and monitoring."
@@ -1273,8 +1273,8 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           options: [
             "Risk management planning",
             "Risk identification",
-            "Risk analysis",
-            "Risk response"
+            "Risk response",
+            "Risk analysis"
           ],
           correctAnswer: 0,
           explanation: "Risk management planning defines the approach and methodology for risk activities."
@@ -1283,48 +1283,48 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           id: 3,
           question: "What involves obtaining products from external sources?",
           options: [
-            "Procurement",
             "Production",
+            "Procurement",
             "Development",
             "Manufacturing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Procurement involves obtaining products, services, or results from external sources."
         },
         {
           id: 4,
           question: "What addresses both threats and opportunities?",
           options: [
-            "Risk management",
-            "Only problem management",
             "Just opportunity management",
-            "Issue tracking"
+            "Only problem management",
+            "Issue tracking",
+            "Risk management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk management addresses both negative risks (threats) and positive risks (opportunities)."
         },
         {
           id: 5,
           question: "What prioritizes risks for further action?",
           options: [
+            "Risk response planning",
             "Qualitative risk analysis",
             "Quantitative risk analysis",
-            "Risk identification",
-            "Risk response planning"
+            "Risk identification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Qualitative risk analysis prioritizes risks based on their probability and impact."
         },
         {
           id: 6,
           question: "What determines sourcing approach?",
           options: [
-            "Make-or-buy decisions",
             "Vendor selection",
             "Contract negotiation",
-            "Procurement planning"
+            "Procurement planning",
+            "Make-or-buy decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Make-or-buy decisions determine whether to produce internally or procure externally."
         },
         {
@@ -1332,9 +1332,9 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           question: "What documents identified risks?",
           options: [
             "Risk register",
+            "Risk log",
             "Risk matrix",
-            "Risk report",
-            "Risk log"
+            "Risk report"
           ],
           correctAnswer: 0,
           explanation: "The risk register documents all identified risks and their characteristics."
@@ -1343,48 +1343,48 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           id: 8,
           question: "What numerically analyzes risk effects?",
           options: [
-            "Quantitative risk analysis",
+            "Risk monitoring",
             "Qualitative risk analysis",
-            "Risk identification",
-            "Risk monitoring"
+            "Quantitative risk analysis",
+            "Risk identification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Quantitative risk analysis numerically analyzes the effect of risks on project objectives."
         },
         {
           id: 9,
           question: "What develops acquisition strategy?",
           options: [
-            "Procurement planning",
             "Source selection",
+            "Procurement closure",
             "Contract administration",
-            "Procurement closure"
+            "Procurement planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Procurement planning develops the approach for acquiring products and services."
         },
         {
           id: 10,
           question: "What uses anonymous expert input?",
           options: [
-            "Delphi technique",
-            "Brainstorming",
+            "Checklist analysis",
             "Interviewing",
-            "Checklist analysis"
+            "Brainstorming",
+            "Delphi technique"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Delphi technique uses anonymous expert input to reach consensus on risks."
         },
         {
           id: 11,
           question: "What assesses probability and impact using scales?",
           options: [
+            "Risk monitoring",
             "Qualitative risk analysis",
             "Quantitative risk analysis",
-            "Risk response planning",
-            "Risk monitoring"
+            "Risk response planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Qualitative risk analysis uses scales to assess probability and impact of risks."
         },
         {
@@ -1392,8 +1392,8 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           question: "What asks for proposed solutions?",
           options: [
             "Request for proposal",
-            "Request for quotation",
             "Invitation for bid",
+            "Request for quotation",
             "Information request"
           ],
           correctAnswer: 0,
@@ -1404,8 +1404,8 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           question: "What visualizes risk priorities?",
           options: [
             "Probability-impact matrix",
-            "Risk register",
             "Risk report",
+            "Risk register",
             "Decision tree"
           ],
           correctAnswer: 0,
@@ -1415,84 +1415,84 @@ Procurement must comply with applicable laws. Ethical behavior avoids conflicts 
           id: 14,
           question: "What evaluates potential vendors?",
           options: [
-            "Source selection criteria",
             "Procurement documents",
-            "Contract terms",
-            "Payment schedules"
+            "Payment schedules",
+            "Source selection criteria",
+            "Contract terms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Source selection criteria are used to evaluate and compare potential vendors."
         },
         {
           id: 15,
           question: "What calculates average outcomes?",
           options: [
+            "Decision tree analysis",
             "Expected monetary value",
             "Monte Carlo simulation",
-            "Sensitivity analysis",
-            "Decision tree analysis"
+            "Sensitivity analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Expected monetary value (EMV) calculates the average outcome when future events are uncertain."
         },
         {
           id: 16,
           question: "What establishes set prices?",
           options: [
+            "Incentive contracts",
             "Fixed-price contracts",
-            "Cost-reimbursable contracts",
             "Time-and-materials contracts",
-            "Incentive contracts"
+            "Cost-reimbursable contracts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fixed-price contracts establish set prices for defined products or services."
         },
         {
           id: 17,
           question: "What uses random sampling to model uncertainty?",
           options: [
-            "Monte Carlo simulation",
-            "Decision tree analysis",
             "Sensitivity analysis",
-            "Expected value analysis"
+            "Decision tree analysis",
+            "Expected value analysis",
+            "Monte Carlo simulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Monte Carlo simulation uses random sampling to model uncertainty in project estimates."
         },
         {
           id: 18,
           question: "What manages contract relationships?",
           options: [
-            "Contract administration",
-            "Procurement planning",
+            "Procurement closure",
             "Source selection",
-            "Procurement closure"
+            "Procurement planning",
+            "Contract administration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Contract administration manages the relationship between buyer and seller."
         },
         {
           id: 19,
           question: "What provides alternatives if primary responses fail?",
           options: [
-            "Fallback plans",
-            "Contingency plans",
+            "Mitigation plans",
             "Risk responses",
-            "Mitigation plans"
+            "Contingency plans",
+            "Fallback plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fallback plans provide alternative responses if primary risk responses fail."
         },
         {
           id: 20,
           question: "What completes each procurement?",
           options: [
+            "Procurement planning",
             "Procurement closure",
             "Contract administration",
-            "Source selection",
-            "Procurement planning"
+            "Source selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Procurement closure formally completes each procurement contract."
         }
       ]
@@ -1569,12 +1569,12 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
           id: 1,
           question: "What must project managers adhere to?",
           options: [
-            "High ethical standards",
+            "Team opinions",
             "Only company policies",
             "Personal preferences",
-            "Team opinions"
+            "High ethical standards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Project managers must adhere to high ethical standards in all their actions."
         },
         {
@@ -1583,8 +1583,8 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
           options: [
             "PMI Code of Ethics and Professional Conduct",
             "Company handbook only",
-            "Team agreements",
-            "Personal values"
+            "Personal values",
+            "Team agreements"
           ],
           correctAnswer: 0,
           explanation: "The PMI Code of Ethics and Professional Conduct establishes standards for all PMI credential holders."
@@ -1605,36 +1605,36 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
           id: 4,
           question: "What is the primary reference for PMP preparation?",
           options: [
-            "PMBOK Guide",
+            "Personal experience only",
             "Any project management book",
-            "Online articles",
-            "Personal experience only"
+            "PMBOK Guide",
+            "Online articles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The PMBOK Guide is the primary reference for PMP exam preparation."
         },
         {
           id: 5,
           question: "What should be protected?",
           options: [
-            "Confidential information",
+            "General information",
             "Only personal information",
             "Public knowledge",
-            "General information"
+            "Confidential information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Confidential and sensitive information must be protected from unauthorized disclosure."
         },
         {
           id: 6,
           question: "What includes responsibility, respect, fairness, and honesty?",
           options: [
-            "PMI Code of Ethics",
             "Project charter",
-            "Team contract",
-            "Company mission"
+            "PMI Code of Ethics",
+            "Company mission",
+            "Team contract"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The PMI Code of Ethics includes responsibility, respect, fairness, and honesty as core values."
         },
         {
@@ -1643,8 +1643,8 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
           options: [
             "Communication technology",
             "Only face-to-face meetings",
-            "Paper documents",
-            "Telephone calls only"
+            "Telephone calls only",
+            "Paper documents"
           ],
           correctAnswer: 0,
           explanation: "Communication technology enables virtual teams to collaborate across distances."
@@ -1653,12 +1653,12 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
           id: 8,
           question: "What simulates the actual test experience?",
           options: [
-            "Practice exams",
+            "Listening to lectures",
             "Reading only",
-            "Watching videos",
-            "Listening to lectures"
+            "Practice exams",
+            "Watching videos"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Practice exams simulate the actual PMP exam experience, including timing and question types."
         },
         {
@@ -1666,9 +1666,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
           question: "What should be avoided or disclosed?",
           options: [
             "Conflicts of interest",
-            "All disagreements",
             "Different opinions",
-            "Alternative approaches"
+            "Alternative approaches",
+            "All disagreements"
           ],
           correctAnswer: 0,
           explanation: "Conflicts of interest should be avoided, and when they occur, they must be disclosed."
@@ -1677,132 +1677,132 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
           id: 10,
           question: "What requires scheduling flexibility?",
           options: [
-            "Time zone differences",
             "Team preferences",
+            "Office hours",
             "Manager availability",
-            "Office hours"
+            "Time zone differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Time zone differences in global teams require scheduling flexibility for meetings."
         },
         {
           id: 11,
           question: "What should be created covering all exam domains?",
           options: [
-            "A study plan",
-            "Only notes",
+            "Last-minute cramming",
             "Quick review",
-            "Last-minute cramming"
+            "Only notes",
+            "A study plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A comprehensive study plan should cover all PMP exam domains and knowledge areas."
         },
         {
           id: 12,
           question: "What enhances professional competence?",
           options: [
-            "Continuous learning",
+            "Avoiding new methods",
             "Staying static",
-            "Relying only on experience",
-            "Avoiding new methods"
+            "Continuous learning",
+            "Relying only on experience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuous learning through professional development enhances professional competence."
         },
         {
           id: 13,
           question: "What affects project costs internationally?",
           options: [
-            "Currency exchange rates",
             "Only local prices",
-            "Team salaries",
-            "Office rent"
+            "Currency exchange rates",
+            "Office rent",
+            "Team salaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Currency exchange rates affect project costs in international projects."
         },
         {
           id: 14,
           question: "What helps memorize key terms?",
           options: [
-            "Flash cards",
-            "Only reading",
             "Listening passively",
-            "Watching others"
+            "Watching others",
+            "Only reading",
+            "Flash cards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Flash cards are effective tools for memorizing key project management terms and concepts."
         },
         {
           id: 15,
           question: "What must be provided to customers?",
           options: [
-            "Accurate and truthful representations",
-            "Only positive information",
+            "Simplified explanations",
             "What they want to hear",
-            "Simplified explanations"
+            "Accurate and truthful representations",
+            "Only positive information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Project managers must provide accurate and truthful representations to customers."
         },
         {
           id: 16,
           question: "What requires translation services?",
           options: [
-            "Language differences",
+            "Team slang",
             "Technical jargon",
             "Company terminology",
-            "Team slang"
+            "Language differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Language differences in global projects may require translation services."
         },
         {
           id: 17,
           question: "What should be taken under timed conditions?",
           options: [
-            "Full-length practice exams",
             "Only section quizzes",
-            "Untimed reviews",
-            "Quick glances"
+            "Quick glances",
+            "Full-length practice exams",
+            "Untimed reviews"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Taking full-length practice exams under timed conditions builds exam stamina."
         },
         {
           id: 18,
           question: "What should be made objectively and without bias?",
           options: [
-            "Decisions",
             "Only personal choices",
+            "Decisions",
             "Team assignments",
             "Meeting agendas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Professional decisions should be made objectively and without personal bias."
         },
         {
           id: 19,
           question: "What influences project risk internationally?",
           options: [
-            "Political stability",
             "Only weather",
-            "Local holidays",
-            "Team vacations"
+            "Team vacations",
+            "Political stability",
+            "Local holidays"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Political stability in different countries influences project risk in international projects."
         },
         {
           id: 20,
           question: "What requires ongoing professional development?",
           options: [
-            "PMP certification",
-            "Only initial certification",
             "Company employment",
-            "Team membership"
+            "Team membership",
+            "PMP certification",
+            "Only initial certification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PMP certification requires ongoing professional development through PDU earning."
         }
       ]
@@ -1819,108 +1819,108 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         id: 1,
         question: "What are the three domains tested on the PMP exam?",
         options: [
-          "People, Process, and Business Environment",
-          "Planning, Execution, and Control",
+          "Initiation, Planning, and Closing",
           "Technical, Leadership, and Strategic",
-          "Initiation, Planning, and Closing"
+          "Planning, Execution, and Control",
+          "People, Process, and Business Environment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The PMP exam covers three domains: People (42%), Process (50%), and Business Environment (8%)."
       },
       {
         id: 2,
         question: "What formally authorizes a new project?",
         options: [
+          "Project monitoring",
           "Project initiation",
           "Project execution",
-          "Project monitoring",
           "Project closing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Project initiation is the process that formally authorizes the start of a new project."
       },
       {
         id: 3,
         question: "What involves performing the work defined in the project plan?",
         options: [
-          "Project execution",
           "Project planning",
-          "Project initiation",
-          "Project closing"
+          "Project closing",
+          "Project execution",
+          "Project initiation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Project execution involves performing the work defined in the project management plan."
       },
       {
         id: 4,
         question: "What tracks project performance against the plan?",
         options: [
+          "Closing",
           "Monitoring",
           "Executing",
-          "Planning",
-          "Closing"
+          "Planning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Monitoring involves tracking, reviewing, and reporting project performance against the plan."
       },
       {
         id: 5,
         question: "What includes planning, identification, analysis, and response planning?",
         options: [
+          "Cost management",
           "Risk management",
-          "Quality management",
           "Schedule management",
-          "Cost management"
+          "Quality management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Risk management includes planning, identification, analysis, response planning, and monitoring."
       },
       {
         id: 6,
         question: "What must project managers adhere to?",
         options: [
+          "Personal preferences",
           "High ethical standards",
           "Only company policies",
-          "Personal preferences",
           "Team opinions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Project managers must adhere to high ethical standards in all their actions."
       },
       {
         id: 7,
         question: "What does the People domain cover?",
         options: [
-          "Leadership and team management",
           "Technical project management",
-          "Organizational strategy",
-          "Budget calculations"
+          "Budget calculations",
+          "Leadership and team management",
+          "Organizational strategy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The People domain focuses on leadership, team management, and stakeholder engagement."
       },
       {
         id: 8,
         question: "What documents project authorization?",
         options: [
-          "Project charter",
-          "Project plan",
           "Business case",
-          "Stakeholder register"
+          "Project charter",
+          "Stakeholder register",
+          "Project plan"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The project charter formally documents project authorization and gives the project manager authority."
       },
       {
         id: 9,
         question: "What focuses on process improvement?",
         options: [
-          "Quality assurance",
           "Quality control",
+          "Testing",
           "Inspection",
-          "Testing"
+          "Quality assurance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Quality assurance focuses on improving processes to enhance quality outcomes."
       },
       {
@@ -1928,9 +1928,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         question: "What manages modifications to project baselines?",
         options: [
           "Change control",
-          "Scope definition",
+          "Cost estimating",
           "Schedule development",
-          "Cost estimating"
+          "Scope definition"
         ],
         correctAnswer: 0,
         explanation: "Change control manages modifications to project scope, schedule, and cost baselines."
@@ -1941,8 +1941,8 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         options: [
           "Risk management planning",
           "Risk identification",
-          "Risk analysis",
-          "Risk response"
+          "Risk response",
+          "Risk analysis"
         ],
         correctAnswer: 0,
         explanation: "Risk management planning defines the approach and methodology for risk activities."
@@ -1952,9 +1952,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         question: "What establishes standards for professional behavior?",
         options: [
           "PMI Code of Ethics and Professional Conduct",
-          "Company handbook only",
+          "Personal values",
           "Team agreements",
-          "Personal values"
+          "Company handbook only"
         ],
         correctAnswer: 0,
         explanation: "The PMI Code of Ethics and Professional Conduct establishes standards for all PMI credential holders."
@@ -1964,9 +1964,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         question: "What is the primary reference for the PMP exam?",
         options: [
           "PMBOK Guide",
-          "Only personal experience",
           "Company procedures",
-          "Internet blogs"
+          "Internet blogs",
+          "Only personal experience"
         ],
         correctAnswer: 0,
         explanation: "The PMBOK (Project Management Body of Knowledge) Guide is the primary reference for the PMP exam."
@@ -1975,96 +1975,96 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         id: 14,
         question: "What develops the project management plan?",
         options: [
-          "Planning processes",
-          "Initiating processes",
           "Executing processes",
+          "Initiating processes",
+          "Planning processes",
           "Closing processes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Planning processes develop the comprehensive project management plan."
       },
       {
         id: 15,
         question: "What consumes most project resources?",
         options: [
-          "Execution phase",
           "Planning phase",
           "Initiation phase",
+          "Execution phase",
           "Closing phase"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The execution phase typically consumes the majority of project resources and budget."
       },
       {
         id: 16,
         question: "What involves taking corrective or preventive actions?",
         options: [
-          "Controlling",
-          "Monitoring only",
           "Planning",
-          "Initiating"
+          "Initiating",
+          "Monitoring only",
+          "Controlling"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Controlling involves taking corrective or preventive actions based on monitoring results."
       },
       {
         id: 17,
         question: "What involves obtaining products from external sources?",
         options: [
-          "Procurement",
-          "Production",
           "Development",
+          "Production",
+          "Procurement",
           "Manufacturing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Procurement involves obtaining products, services, or results from external sources."
       },
       {
         id: 18,
         question: "What improves team performance across cultures?",
         options: [
-          "Understanding cultural differences",
-          "Ignoring differences",
+          "Avoiding diverse teams",
           "Imposing one culture",
-          "Avoiding diverse teams"
+          "Understanding cultural differences",
+          "Ignoring differences"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Understanding cultural differences improves team performance in global projects."
       },
       {
         id: 19,
         question: "What type of life cycle follows sequential phases?",
         options: [
-          "Predictive life cycle",
-          "Adaptive life cycle",
+          "Hybrid life cycle",
           "Iterative life cycle",
-          "Hybrid life cycle"
+          "Adaptive life cycle",
+          "Predictive life cycle"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Predictive life cycles follow sequential phases with detailed upfront planning."
       },
       {
         id: 20,
         question: "What defines what is included in the project?",
         options: [
-          "Scope planning",
-          "Schedule development",
           "Cost estimating",
-          "Risk identification"
+          "Risk identification",
+          "Scope planning",
+          "Schedule development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Scope planning defines what work is included in the project and what is excluded."
       },
       {
         id: 21,
         question: "What ensures learning is captured and shared?",
         options: [
-          "Knowledge management",
+          "Informal conversations",
           "Only documentation",
           "Memory retention",
-          "Informal conversations"
+          "Knowledge management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Knowledge management systematically captures, shares, and applies project learning."
       },
       {
@@ -2072,9 +2072,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         question: "What manages changes to project scope?",
         options: [
           "Scope control",
+          "Quality control",
           "Schedule control",
-          "Cost control",
-          "Quality control"
+          "Cost control"
         ],
         correctAnswer: 0,
         explanation: "Scope control manages changes to the project scope baseline."
@@ -2084,9 +2084,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         question: "What prioritizes risks for further action?",
         options: [
           "Qualitative risk analysis",
+          "Risk response planning",
           "Quantitative risk analysis",
-          "Risk identification",
-          "Risk response planning"
+          "Risk identification"
         ],
         correctAnswer: 0,
         explanation: "Qualitative risk analysis prioritizes risks based on their probability and impact."
@@ -2107,48 +2107,48 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         id: 25,
         question: "What are temporary endeavors creating unique products?",
         options: [
-          "Projects",
           "Operations",
           "Programs",
-          "Portfolios"
+          "Portfolios",
+          "Projects"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Projects are temporary endeavors that create unique products, services, or results."
       },
       {
         id: 26,
         question: "What begins during project initiation?",
         options: [
-          "Stakeholder identification",
           "Team development",
+          "Stakeholder identification",
           "Quality control",
           "Procurement execution"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Identifying stakeholders begins during project initiation and continues throughout."
       },
       {
         id: 27,
         question: "What monitors specific results?",
         options: [
-          "Quality control",
-          "Quality assurance",
           "Process improvement",
-          "Performance reporting"
+          "Performance reporting",
+          "Quality assurance",
+          "Quality control"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Quality control monitors specific results to ensure they meet quality standards."
       },
       {
         id: 28,
         question: "What provides data for decisions?",
         options: [
+          "Team preferences",
           "Performance measurements",
           "Personal opinions",
-          "Team preferences",
           "Stakeholder desires"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Performance measurements provide objective data for informed decision-making."
       },
       {
@@ -2156,9 +2156,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         question: "What determines sourcing approach?",
         options: [
           "Make-or-buy decisions",
-          "Vendor selection",
           "Contract negotiation",
-          "Procurement planning"
+          "Procurement planning",
+          "Vendor selection"
         ],
         correctAnswer: 0,
         explanation: "Make-or-buy decisions determine whether to produce internally or procure externally."
@@ -2167,108 +2167,108 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         id: 30,
         question: "What should be protected?",
         options: [
-          "Confidential information",
           "Only personal information",
-          "Public knowledge",
-          "General information"
+          "General information",
+          "Confidential information",
+          "Public knowledge"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Confidential and sensitive information must be protected from unauthorized disclosure."
       },
       {
         id: 31,
         question: "What does the Process domain focus on?",
         options: [
+          "Ethical decisions",
           "Technical project management",
-          "Team motivation",
           "Business strategy",
-          "Ethical decisions"
+          "Team motivation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The Process domain covers technical project management processes and methodologies."
       },
       {
         id: 32,
         question: "What gives the project manager authority to apply resources?",
         options: [
-          "Project charter",
           "Company policy",
+          "Personal initiative",
           "Team agreement",
-          "Personal initiative"
+          "Project charter"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The project charter formally authorizes the project manager to apply organizational resources."
       },
       {
         id: 33,
         question: "What involves obtaining needed personnel?",
         options: [
-          "Acquiring the project team",
+          "Releasing the team",
           "Developing the team",
           "Managing the team",
-          "Releasing the team"
+          "Acquiring the project team"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Acquiring the project team involves obtaining the human resources needed for the project."
       },
       {
         id: 34,
         question: "What evaluates significant changes?",
         options: [
-          "Change control board",
           "Project manager alone",
+          "Change control board",
           "Any team member",
           "Only the sponsor"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The change control board evaluates and decides on significant project changes."
       },
       {
         id: 35,
         question: "What documents identified risks?",
         options: [
-          "Risk register",
           "Risk matrix",
           "Risk report",
+          "Risk register",
           "Risk log"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The risk register documents all identified risks and their characteristics."
       },
       {
         id: 36,
         question: "What includes responsibility, respect, fairness, and honesty?",
         options: [
-          "PMI Code of Ethics",
           "Project charter",
           "Team contract",
+          "PMI Code of Ethics",
           "Company mission"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The PMI Code of Ethics includes responsibility, respect, fairness, and honesty as core values."
       },
       {
         id: 37,
         question: "What emphasizes tailoring processes to project needs?",
         options: [
-          "PMBOK Guide",
-          "Only predictive approaches",
           "Fixed methodologies",
-          "One-size-fits-all"
+          "Only predictive approaches",
+          "One-size-fits-all",
+          "PMBOK Guide"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The PMBOK Guide emphasizes tailoring processes to fit specific project needs and contexts."
       },
       {
         id: 38,
         question: "What decomposes work into manageable pieces?",
         options: [
-          "Work breakdown structure",
-          "Gantt chart",
+          "Responsibility matrix",
           "Network diagram",
-          "Responsibility matrix"
+          "Gantt chart",
+          "Work breakdown structure"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The work breakdown structure (WBS) decomposes project work into manageable components."
       },
       {
@@ -2276,9 +2276,9 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         question: "What enhances competencies and interaction?",
         options: [
           "Team development",
-          "Team acquisition",
           "Team management",
-          "Team release"
+          "Team release",
+          "Team acquisition"
         ],
         correctAnswer: 0,
         explanation: "Team development enhances team members' competencies and their ability to work together."
@@ -2287,12 +2287,12 @@ Identify the ethical dilemma clearly. Consider all stakeholders affected by the 
         id: 40,
         question: "What identifies deviations from the plan?",
         options: [
-          "Variance analysis",
-          "Risk identification",
+          "Team assessment",
           "Quality inspection",
-          "Team assessment"
+          "Risk identification",
+          "Variance analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Variance analysis identifies differences between planned and actual performance."
       }
     ]

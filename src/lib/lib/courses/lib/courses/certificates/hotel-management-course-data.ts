@@ -140,12 +140,12 @@ Hotels operate as intricate systems where multiple departments must function har
           id: 1,
           question: "What encompasses the complete guest journey from reservation to departure?",
           options: [
-            "Guest Cycle Management",
-            "Revenue Management",
+            "Inventory Tracking",
             "Quality Control",
-            "Inventory Tracking"
+            "Guest Cycle Management",
+            "Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Guest Cycle Management encompasses the complete journey from pre-arrival through departure, requiring specific systems for each phase."
         },
         {
@@ -153,8 +153,8 @@ Hotels operate as intricate systems where multiple departments must function har
           question: "What should front office staff be trained to recognize during guest interactions?",
           options: [
             "Revenue opportunities",
-            "Only guest complaints",
             "Staff issues",
+            "Only guest complaints",
             "Building problems"
           ],
           correctAnswer: 0,
@@ -164,60 +164,60 @@ Hotels operate as intricate systems where multiple departments must function har
           id: 3,
           question: "What systems handle reservations, guest profiles, and billing?",
           options: [
-            "Property Management Systems",
-            "Accounting software only",
             "Spreadsheets",
-            "Paper systems"
+            "Paper systems",
+            "Property Management Systems",
+            "Accounting software only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Property Management Systems (PMS) handle reservations, guest profiles, room assignments, billing, and reporting functions."
         },
         {
           id: 4,
           question: "What involves standardized inspection procedures with detailed checklists?",
           options: [
-            "Quality Control Systems",
             "Random checking",
+            "Quality Control Systems",
             "Guest complaints",
             "Staff reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Quality Control Systems for housekeeping involve standardized inspections using detailed checklists at multiple levels."
         },
         {
           id: 5,
           question: "What typically allocates 20-30 minutes for check-out rooms?",
           options: [
-            "Industry productivity standards",
             "Employee preferences",
             "Union requirements",
+            "Industry productivity standards",
             "Guest expectations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Industry productivity standards typically allocate 20-30 minutes for check-out rooms, though this varies by hotel type."
         },
         {
           id: 6,
           question: "What requires systematic tracking of usage patterns and par levels?",
           options: [
-            "Inventory Management",
             "Random ordering",
+            "Inventory Management",
             "Guest counting",
             "Budget planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Inventory Management for linens and supplies requires systematic tracking of usage patterns and setting par levels for reordering."
         },
         {
           id: 7,
           question: "What encompasses restaurants, bars, room service, and banquet facilities?",
           options: [
-            "Outlet Management",
-            "Only kitchen operations",
+            "Housekeeping",
             "Front desk only",
-            "Housekeeping"
+            "Only kitchen operations",
+            "Outlet Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Outlet Management encompasses all food and beverage operations including restaurants, bars, room service, and banquets."
         },
         {
@@ -225,9 +225,9 @@ Hotels operate as intricate systems where multiple departments must function har
           question: "What are industry benchmark targets for food cost percentage?",
           options: [
             "28-35%",
-            "10-15%",
             "50-60%",
-            "75-80%"
+            "75-80%",
+            "10-15%"
           ],
           correctAnswer: 0,
           explanation: "Industry benchmarks suggest 28-35% for food costs as targets for full-service hotel operations."
@@ -237,9 +237,9 @@ Hotels operate as intricate systems where multiple departments must function har
           question: "What analyzes menu items by popularity and profitability?",
           options: [
             "Menu Engineering",
-            "Recipe costing",
+            "Staff scheduling",
             "Supplier selection",
-            "Staff scheduling"
+            "Recipe costing"
           ],
           correctAnswer: 0,
           explanation: "Menu Engineering analyzes each item's popularity and profitability to guide pricing and promotion decisions."
@@ -248,24 +248,24 @@ Hotels operate as intricate systems where multiple departments must function har
           id: 10,
           question: "What extends equipment life and reduces emergency repairs?",
           options: [
-            "Preventive Maintenance Programs",
-            "Emergency repairs only",
             "Replacement only",
-            "Ignoring issues"
+            "Ignoring issues",
+            "Preventive Maintenance Programs",
+            "Emergency repairs only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Preventive Maintenance Programs with scheduled inspections extend equipment life and reduce emergency repairs."
         },
         {
           id: 11,
           question: "What can reduce utility costs by 15-25% through monitoring?",
           options: [
-            "Energy Management Systems",
             "Manual controls",
-            "Guest controls",
-            "Fixed settings"
+            "Energy Management Systems",
+            "Fixed settings",
+            "Guest controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Energy Management Systems monitor and control usage based on occupancy, reducing utility costs by 15-25%."
         },
         {
@@ -274,8 +274,8 @@ Hotels operate as intricate systems where multiple departments must function har
           options: [
             "3-5%",
             "10-15%",
-            "20-25%",
-            "1% or less"
+            "1% or less",
+            "20-25%"
           ],
           correctAnswer: 0,
           explanation: "Most hotels allocate 3-5% of total revenue annually to capital improvements for major system replacements."
@@ -284,24 +284,24 @@ Hotels operate as intricate systems where multiple departments must function har
           id: 13,
           question: "What ensures revenue departments work toward common goals?",
           options: [
-            "Revenue Center Integration",
             "Department isolation",
+            "Revenue Center Integration",
             "Separate budgeting",
             "Independent operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Revenue Center Integration ensures all revenue-generating departments work toward common occupancy and revenue goals."
         },
         {
           id: 14,
           question: "What should automatically trigger inquiries about related services?",
           options: [
-            "Cross-selling opportunities",
-            "Guest complaints",
+            "Supplier deliveries",
             "Staff requests",
-            "Supplier deliveries"
+            "Cross-selling opportunities",
+            "Guest complaints"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cross-selling opportunities like wedding bookings should trigger inquiries about room blocks, dinners, and spa services."
         },
         {
@@ -309,8 +309,8 @@ Hotels operate as intricate systems where multiple departments must function har
           question: "What serves as the operational backbone integrating with other systems?",
           options: [
             "Property Management System",
-            "Accounting software",
             "Spreadsheets",
+            "Accounting software",
             "Email system"
           ],
           correctAnswer: 0,
@@ -320,36 +320,36 @@ Hotels operate as intricate systems where multiple departments must function har
           id: 16,
           question: "What transforms operational data into actionable insights?",
           options: [
-            "Data Analytics Utilization",
             "Data collection only",
-            "Data storage",
-            "Data ignoring"
+            "Data Analytics Utilization",
+            "Data ignoring",
+            "Data storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Data Analytics Utilization transforms operational data into insights for staffing, pricing, and service decisions."
         },
         {
           id: 17,
           question: "What must be comprehensive, updated, and drilled regularly?",
           options: [
+            "Staff schedules",
             "Emergency Preparedness Plans",
             "Marketing plans",
-            "Staff schedules",
             "Menu plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Emergency Preparedness Plans must be comprehensive, regularly updated, and thoroughly drilled for various scenarios."
         },
         {
           id: 18,
           question: "What balances guest safety with privacy expectations?",
           options: [
-            "Security Protocols",
-            "Only surveillance",
             "Only locks",
-            "Ignoring security"
+            "Only surveillance",
+            "Ignoring security",
+            "Security Protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Security Protocols balance guest safety with privacy through appropriate implementation of various security measures."
         },
         {
@@ -357,9 +357,9 @@ Hotels operate as intricate systems where multiple departments must function har
           question: "What can reduce water usage by 20-40% in hotels?",
           options: [
             "Water Conservation Measures",
-            "Ignoring leaks",
             "Constant running",
-            "Large showers"
+            "Large showers",
+            "Ignoring leaks"
           ],
           correctAnswer: 0,
           explanation: "Water Conservation Measures like low-flow fixtures and linen reuse programs can reduce usage by 20-40%."
@@ -369,8 +369,8 @@ Hotels operate as intricate systems where multiple departments must function har
           question: "What uses historical data and bookings to predict staffing needs?",
           options: [
             "Labor Forecasting",
-            "Random scheduling",
             "Employee requests",
+            "Random scheduling",
             "Fixed schedules"
           ],
           correctAnswer: 0,
@@ -513,9 +513,9 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           question: "What reveals how demand responds to price changes?",
           options: [
             "Price Elasticity Understanding",
+            "Expense Tracking",
             "Cost Analysis",
-            "Budget Planning",
-            "Expense Tracking"
+            "Budget Planning"
           ],
           correctAnswer: 0,
           explanation: "Price Elasticity Understanding reveals how different segments respond to price changes, guiding pricing strategies."
@@ -524,60 +524,60 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           id: 2,
           question: "What involves comparing rates and packages with direct competitors?",
           options: [
-            "Competitive Positioning Analysis",
             "Internal Review",
-            "Staff Assessment",
-            "Guest Surveying"
+            "Guest Surveying",
+            "Competitive Positioning Analysis",
+            "Staff Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Competitive Positioning Analysis involves regularly comparing rates, packages, and restrictions with direct competitors."
         },
         {
           id: 3,
           question: "What focuses on what guests are willing to pay based on perceived value?",
           options: [
-            "Value-Based Pricing",
-            "Cost-Plus Pricing",
             "Competitor-Based Pricing",
-            "Fixed Pricing"
+            "Fixed Pricing",
+            "Value-Based Pricing",
+            "Cost-Plus Pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Value-Based Pricing focuses on guests' willingness to pay based on perceived value rather than just costs."
         },
         {
           id: 4,
           question: "What examines booking patterns from previous years?",
           options: [
-            "Historical Pattern Analysis",
             "Future Guessing",
+            "Historical Pattern Analysis",
             "Current Counting",
             "Random Estimation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Historical Pattern Analysis examines previous years' booking patterns, adjusted for known differences."
         },
         {
           id: 5,
           question: "What tracks how far in advance different segments book?",
           options: [
-            "Forward Booking Analysis",
             "Backward Looking",
             "Current Status",
+            "Forward Booking Analysis",
             "Guest Counting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Forward Booking Analysis tracks booking pace by segment to predict future pickup and identify issues."
         },
         {
           id: 6,
           question: "What includes both business and leisure individual travelers?",
           options: [
-            "Transient Segment Management",
-            "Group Management",
+            "Wholesale Management",
             "Contract Management",
-            "Wholesale Management"
+            "Group Management",
+            "Transient Segment Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transient Segment Management includes both business and leisure individual travelers with different characteristics."
         },
         {
@@ -585,8 +585,8 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           question: "What evaluates group business on total revenue contribution?",
           options: [
             "Group Segment Optimization",
-            "Room-only evaluation",
             "Cost analysis only",
+            "Room-only evaluation",
             "Space utilization"
           ],
           correctAnswer: 0,
@@ -596,12 +596,12 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           id: 8,
           question: "What compares total cost of acquisition across channels?",
           options: [
+            "Staff costs",
             "Distribution Cost Analysis",
-            "Only commission rates",
             "Marketing costs only",
-            "Staff costs"
+            "Only commission rates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Distribution Cost Analysis compares total acquisition costs across all booking channels."
         },
         {
@@ -609,8 +609,8 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           question: "What ensures consistent rates across distribution channels?",
           options: [
             "Channel Rate Parity Maintenance",
-            "Variable pricing",
             "Channel-specific rates",
+            "Variable pricing",
             "Dynamic differences"
           ],
           correctAnswer: 0,
@@ -620,96 +620,96 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           id: 10,
           question: "What can increase direct bookings through exclusive benefits?",
           options: [
-            "Direct Booking Incentives",
             "Higher OTA commissions",
+            "Limited availability",
             "Reduced marketing",
-            "Limited availability"
+            "Direct Booking Incentives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Direct Booking Incentives like exclusive packages increase direct bookings with lower distribution costs."
         },
         {
           id: 11,
           question: "What can be applied during peak periods to maximize revenue?",
           options: [
-            "Minimum Length of Stay Restrictions",
+            "Flexible stays only",
             "Maximum stay limits",
             "No restrictions",
-            "Flexible stays only"
+            "Minimum Length of Stay Restrictions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Minimum Length of Stay Restrictions during peak periods maximize revenue from high-demand dates."
         },
         {
           id: 12,
           question: "What involves managing inventory by arrival date?",
           options: [
-            "Arrival Date Control",
-            "Departure control",
             "Random assignment",
-            "First-come basis"
+            "Arrival Date Control",
+            "First-come basis",
+            "Departure control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Arrival Date Control manages inventory by arrival date to protect availability for longer stays."
         },
         {
           id: 13,
           question: "What uses historical data to predict cancellation rates?",
           options: [
+            "Industry averages",
             "Cancellation and No-Show Analysis",
             "Guesswork",
-            "Fixed percentages",
-            "Industry averages"
+            "Fixed percentages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cancellation and No-Show Analysis uses historical data to predict rates by segment and time before arrival."
         },
         {
           id: 14,
           question: "What establishes procedures for handling overbooking situations?",
           options: [
-            "Walk Planning Protocols",
-            "Ignoring problems",
+            "No procedures",
             "Random selection",
-            "No procedures"
+            "Walk Planning Protocols",
+            "Ignoring problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Walk Planning Protocols establish procedures for handling guests when overbooking exceeds availability."
         },
         {
           id: 15,
           question: "What focuses on revenue beyond rooms like spa and F&B?",
           options: [
-            "Ancillary Revenue Optimization",
             "Room-only focus",
-            "Cost reduction",
-            "Staff reduction"
+            "Ancillary Revenue Optimization",
+            "Staff reduction",
+            "Cost reduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ancillary Revenue Optimization focuses on revenue streams beyond rooms, often with higher margins."
         },
         {
           id: 16,
           question: "What creates price differentiation based on booking advance?",
           options: [
-            "Advance Purchase Requirements",
             "Same rates always",
             "Last-minute discounts",
-            "Fixed pricing"
+            "Fixed pricing",
+            "Advance Purchase Requirements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Advance Purchase Requirements create price differentiation with lower rates for earlier bookings."
         },
         {
           id: 17,
           question: "What typically commands 10-25% premiums over flexible rates?",
           options: [
-            "Non-refundable rates",
             "Standard rates",
             "Discount rates",
-            "Package rates"
+            "Package rates",
+            "Non-refundable rates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Non-refundable rates typically command 10-25% premiums over flexible rates depending on market."
         },
         {
@@ -718,8 +718,8 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           options: [
             "Real-Time Rate Adjustment",
             "Monthly adjustments",
-            "Quarterly reviews",
-            "Annual pricing"
+            "Annual pricing",
+            "Quarterly reviews"
           ],
           correctAnswer: 0,
           explanation: "Real-Time Rate Adjustment responds to competitor changes, demand shifts, and other market conditions."
@@ -728,24 +728,24 @@ Revenue management has evolved from simple pricing to a sophisticated discipline
           id: 19,
           question: "What involves controlled experiments with different price points?",
           options: [
-            "Price Testing Methodology",
             "Fixed pricing",
-            "Following competitors",
-            "Cost-based only"
+            "Price Testing Methodology",
+            "Cost-based only",
+            "Following competitors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Price Testing Methodology involves controlled experiments to measure demand response to different prices."
         },
         {
           id: 20,
           question: "What compares actual bookings against forecast regularly?",
           options: [
-            "Pickup Forecast Analysis",
+            "Annual review",
             "Ignoring forecasts",
             "Only final results",
-            "Annual review"
+            "Pickup Forecast Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pickup Forecast Analysis compares actual bookings against forecast to improve future accuracy."
         }
       ]
@@ -892,12 +892,12 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           id: 1,
           question: "What examines local demographics and competing employers?",
           options: [
-            "Labor Market Analysis",
             "Guest Analysis",
             "Financial Analysis",
-            "Market Analysis"
+            "Market Analysis",
+            "Labor Market Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Labor Market Analysis examines local demographics, competing employers, and wage trends to inform HR strategies."
         },
         {
@@ -905,8 +905,8 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           question: "What identifies and develops internal candidates for key positions?",
           options: [
             "Succession Planning",
-            "External Hiring",
             "Temporary Staffing",
+            "External Hiring",
             "Contract Labor"
           ],
           correctAnswer: 0,
@@ -916,120 +916,120 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           id: 3,
           question: "What uses data to predict turnover risks and optimize staffing?",
           options: [
-            "Workforce Analytics",
-            "Guesswork",
+            "Employee opinions",
             "Traditional methods",
-            "Employee opinions"
+            "Guesswork",
+            "Workforce Analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Workforce Analytics uses data to predict turnover risks, identify high-potential employees, and optimize staffing."
         },
         {
           id: 4,
           question: "What creates a compelling value proposition for potential employees?",
           options: [
-            "Employer Brand Development",
             "High salaries only",
             "Job postings",
-            "Interview processes"
+            "Interview processes",
+            "Employer Brand Development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Employer Brand Development creates a compelling value proposition including culture and development opportunities."
         },
         {
           id: 5,
           question: "What utilizes various approaches like referrals and social media?",
           options: [
+            "Walk-ins only",
             "Multi-Channel Recruitment",
             "Single channel only",
-            "Walk-ins only",
             "Agency only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Multi-Channel Recruitment utilizes various approaches to attract different candidate types."
         },
         {
           id: 6,
           question: "What ensures fair, consistent evaluation of candidates?",
           options: [
-            "Structured Interview Processes",
-            "Informal conversations",
+            "First impressions",
             "Quick interviews",
-            "First impressions"
+            "Structured Interview Processes",
+            "Informal conversations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Structured Interview Processes ensure fair, consistent evaluation using behavioral interviewing techniques."
         },
         {
           id: 7,
           question: "What balances base pay, incentives, benefits, and non-monetary rewards?",
           options: [
-            "Total Rewards Philosophy",
             "Salary only focus",
             "Benefits only",
+            "Total Rewards Philosophy",
             "Incentives only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Total Rewards Philosophy balances all compensation elements to create attractive packages."
         },
         {
           id: 8,
           question: "What links compensation to performance through bonuses?",
           options: [
-            "Variable Pay Programs",
-            "Fixed salaries only",
+            "Tenure-based pay",
             "Automatic increases",
-            "Tenure-based pay"
+            "Variable Pay Programs",
+            "Fixed salaries only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Variable Pay Programs link compensation to performance through bonuses, commissions, or profit-sharing."
         },
         {
           id: 9,
           question: "What assesses how employees achieve results, not just what they achieve?",
           options: [
-            "Competency-Based Evaluations",
             "Output measures only",
             "Attendance tracking",
+            "Competency-Based Evaluations",
             "Manager opinions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Competency-Based Evaluations assess how employees achieve results through core hospitality competencies."
         },
         {
           id: 10,
           question: "What moves beyond annual reviews to regular coaching conversations?",
           options: [
-            "Continuous Feedback Culture",
-            "Annual reviews only",
             "No feedback",
-            "Crisis feedback only"
+            "Annual reviews only",
+            "Crisis feedback only",
+            "Continuous Feedback Culture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Continuous Feedback Culture involves regular coaching conversations rather than just annual reviews."
         },
         {
           id: 11,
           question: "What ensures new hires become productive quickly?",
           options: [
-            "Onboarding Excellence",
-            "Sink-or-swim approach",
             "Minimal training",
-            "Self-learning"
+            "Sink-or-swim approach",
+            "Self-learning",
+            "Onboarding Excellence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Onboarding Excellence ensures new hires understand culture and standards while becoming productive quickly."
         },
         {
           id: 12,
           question: "What builds operational flexibility while developing skills?",
           options: [
-            "Cross-Functional Training",
-            "Single skill focus",
+            "Specialization only",
             "Department isolation",
-            "Specialization only"
+            "Cross-Functional Training",
+            "Single skill focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cross-Functional Training builds operational flexibility while developing broader employee skills."
         },
         {
@@ -1048,12 +1048,12 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           id: 14,
           question: "What reinforces desired behaviors through timely recognition?",
           options: [
-            "Recognition Programs",
-            "Ignoring good work",
             "Only monetary rewards",
-            "Annual awards only"
+            "Annual awards only",
+            "Ignoring good work",
+            "Recognition Programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Recognition Programs that are timely and specific reinforce desired behaviors effectively."
         },
         {
@@ -1062,8 +1062,8 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           options: [
             "Career Path Visibility",
             "Hidden opportunities",
-            "Surprise promotions",
-            "External hiring only"
+            "External hiring only",
+            "Surprise promotions"
           ],
           correctAnswer: 0,
           explanation: "Career Path Visibility shows employees clear advancement opportunities with defined requirements."
@@ -1072,36 +1072,36 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           id: 16,
           question: "What focuses on collaborative problem-solving in unionized environments?",
           options: [
-            "Union Relationship Building",
-            "Adversarial positioning",
+            "Union busting",
             "Avoiding unions",
-            "Union busting"
+            "Union Relationship Building",
+            "Adversarial positioning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Union Relationship Building focuses on collaborative problem-solving rather than adversarial approaches."
         },
         {
           id: 17,
           question: "What expands talent pools by reducing unconscious bias?",
           options: [
-            "Inclusive Recruitment",
-            "Traditional hiring",
             "Network hiring only",
-            "Similarity hiring"
+            "Similarity hiring",
+            "Traditional hiring",
+            "Inclusive Recruitment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Inclusive Recruitment expands talent pools by reducing unconscious bias through structured processes."
         },
         {
           id: 18,
           question: "What helps staff work effectively with diverse colleagues and guests?",
           options: [
-            "Cultural Competency Training",
+            "English-only policies",
             "Assimilation pressure",
-            "Ignoring differences",
-            "English-only policies"
+            "Cultural Competency Training",
+            "Ignoring differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cultural Competency Training helps staff work effectively with diverse colleagues and guests."
         },
         {
@@ -1109,8 +1109,8 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           question: "What recognizes hospitality's demanding nature with support programs?",
           options: [
             "Stress Management Support",
-            "Ignoring stress",
             "Demanding more",
+            "Ignoring stress",
             "No support"
           ],
           correctAnswer: 0,
@@ -1120,12 +1120,12 @@ Hotel success depends fundamentally on the quality and engagement of its staff. 
           id: 20,
           question: "What identifies what keeps employees engaged through proactive conversations?",
           options: [
-            "Stay Interviews",
             "Exit interviews only",
-            "No conversations",
-            "Annual surveys only"
+            "Stay Interviews",
+            "Annual surveys only",
+            "No conversations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stay Interview conversations proactively identify engagement factors and potential retention risks."
         }
       ]
@@ -1272,120 +1272,120 @@ Financial management in hotels extends beyond basic accounting to strategic deci
           id: 1,
           question: "What provides standardized accounting classifications for lodging?",
           options: [
-            "Uniform System of Accounts",
-            "General accounting",
             "Tax accounting",
-            "Cash accounting"
+            "Uniform System of Accounts",
+            "Cash accounting",
+            "General accounting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Uniform System of Accounts provides standardized classifications for consistent hotel reporting and benchmarking."
         },
         {
           id: 2,
           question: "What separates operations into revenue and support centers?",
           options: [
-            "Departmental Accounting",
             "Combined accounting",
+            "Departmental Accounting",
             "Simple accounting",
             "Cash basis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Departmental Accounting separates operations into revenue centers and support centers for profitability analysis."
         },
         {
           id: 3,
           question: "What distributes indirect costs to revenue departments?",
           options: [
-            "Allocation Methodologies",
             "Ignoring indirect costs",
             "Direct charging only",
+            "Allocation Methodologies",
             "Random assignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Allocation Methodologies distribute indirect costs to revenue departments using logical bases."
         },
         {
           id: 4,
           question: "What involves department managers in budget creation?",
           options: [
+            "No budgeting",
             "Bottom-Up Budgeting",
             "Top-down only",
-            "Centralized budgeting",
-            "No budgeting"
+            "Centralized budgeting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bottom-Up Budgeting involves department managers in creating budgets based on operational plans."
         },
         {
           id: 5,
           question: "What provides overall financial targets based on ownership expectations?",
           options: [
+            "Previous year only",
             "Top-Down Guidance",
             "Department wishes",
-            "Previous year only",
             "Industry averages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Top-Down Guidance provides overall targets based on ownership expectations and market conditions."
         },
         {
           id: 6,
           question: "What requires justifying each cost annually rather than basing on previous years?",
           options: [
-            "Zero-Based Budgeting",
             "Historical budgeting",
             "Incremental budgeting",
+            "Zero-Based Budgeting",
             "Traditional budgeting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Zero-Based Budgeting requires justifying each discretionary cost annually rather than using historical baselines."
         },
         {
           id: 7,
           question: "What equals room revenue divided by available rooms?",
           options: [
-            "RevPAR Calculation",
             "Occupancy rate",
-            "Average rate",
-            "Total revenue"
+            "RevPAR Calculation",
+            "Total revenue",
+            "Average rate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RevPAR (Revenue per Available Room) equals room revenue divided by available rooms."
         },
         {
           id: 8,
           question: "What expands beyond rooms to include all revenue sources?",
           options: [
-            "Total RevPAR",
+            "Ancillary revenue",
             "Room RevPAR",
-            "F&B revenue",
-            "Ancillary revenue"
+            "Total RevPAR",
+            "F&B revenue"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Total RevPAR includes all revenue sources divided by available rooms for broader performance measurement."
         },
         {
           id: 9,
           question: "What compares performance against competitive set?",
           options: [
-            "Market Share Analysis",
-            "Internal analysis only",
+            "Previous year only",
             "Budget comparison",
-            "Previous year only"
+            "Market Share Analysis",
+            "Internal analysis only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Market Share Analysis compares hotel performance against its competitive set using key metrics."
         },
         {
           id: 10,
           question: "What focuses on payroll and cost of sales as largest controllable costs?",
           options: [
+            "Overhead focus",
             "Prime Cost Management",
-            "Fixed cost focus",
             "Capital cost focus",
-            "Overhead focus"
+            "Fixed cost focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Prime Cost Management focuses on payroll and cost of sales, typically 50-70% of operating costs."
         },
         {
@@ -1405,8 +1405,8 @@ Financial management in hotels extends beyond basic accounting to strategic deci
           question: "What sets aside funds for replacement of depreciating assets?",
           options: [
             "FF&E Reserve",
-            "Operating budget",
             "Marketing budget",
+            "Operating budget",
             "Contingency fund"
           ],
           correctAnswer: 0,
@@ -1416,24 +1416,24 @@ Financial management in hotels extends beyond basic accounting to strategic deci
           id: 13,
           question: "What evaluates proposed expenditures based on ROI and alignment?",
           options: [
-            "Capital Budget Approval Process",
-            "Automatic approval",
             "Owner decision only",
-            "Manager preference"
+            "Capital Budget Approval Process",
+            "Manager preference",
+            "Automatic approval"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Capital Budget Approval Process evaluates expenditures based on ROI, strategic alignment, and funding."
         },
         {
           id: 14,
           question: "What maintains adequate liquidity without excessive idle cash?",
           options: [
-            "Working Capital Requirements management",
             "Maximum cash holding",
             "Minimum cash only",
+            "Working Capital Requirements management",
             "No cash management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Working Capital Requirements management maintains adequate liquidity for hotel operations without excess cash."
         },
         {
@@ -1441,9 +1441,9 @@ Financial management in hotels extends beyond basic accounting to strategic deci
           question: "What requires clear credit policies and timely billing for groups?",
           options: [
             "Accounts Receivable Management",
-            "Ignoring receivables",
+            "No credit",
             "Cash only policy",
-            "No credit"
+            "Ignoring receivables"
           ],
           correctAnswer: 0,
           explanation: "Accounts Receivable Management for group business requires clear policies and proactive collection."
@@ -1452,60 +1452,60 @@ Financial management in hotels extends beyond basic accounting to strategic deci
           id: 16,
           question: "What provides timely performance data for daily decisions?",
           options: [
-            "Daily Revenue Reporting",
             "Monthly reports only",
-            "Annual reports",
-            "No daily data"
+            "No daily data",
+            "Daily Revenue Reporting",
+            "Annual reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Daily Revenue Reporting provides timely performance data including room statistics and revenue by outlet."
         },
         {
           id: 17,
           question: "What compares performance against similar properties?",
           options: [
-            "Competitive Set Analysis",
-            "Internal comparison only",
+            "Global benchmarks",
             "National averages",
-            "Global benchmarks"
+            "Competitive Set Analysis",
+            "Internal comparison only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Competitive Set Analysis compares financial performance against similar properties in the market."
         },
         {
           id: 18,
           question: "What uses historical data patterns to predict future performance?",
           options: [
-            "Statistical Forecasting",
-            "Guesswork",
             "Manager intuition",
-            "Fixed growth"
+            "Fixed growth",
+            "Statistical Forecasting",
+            "Guesswork"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Statistical Forecasting uses historical data patterns to predict future performance through time series analysis."
         },
         {
           id: 19,
           question: "What incorporates external factors like economic indicators?",
           options: [
-            "Causal Forecasting",
             "Internal focus only",
             "Historical only",
+            "Causal Forecasting",
             "Random prediction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Causal Forecasting incorporates external factors like economic indicators and competitive changes."
         },
         {
           id: 20,
           question: "What determines how long until an investment recovers its cost?",
           options: [
-            "Payback Period Analysis",
-            "ROI only",
             "NPV only",
-            "IRR only"
+            "IRR only",
+            "ROI only",
+            "Payback Period Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Payback Period Analysis determines how long until an investment recovers its initial cost."
         }
       ]
@@ -1653,9 +1653,9 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           question: "What defines how the hotel is perceived relative to competitors?",
           options: [
             "Brand Positioning Strategy",
-            "Pricing strategy",
+            "Advertising strategy",
             "Sales strategy",
-            "Advertising strategy"
+            "Pricing strategy"
           ],
           correctAnswer: 0,
           explanation: "Brand Positioning Strategy defines how the hotel is perceived relative to competitors based on distinctive attributes."
@@ -1664,60 +1664,60 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           id: 2,
           question: "What ensures marketing claims align with guest experiences?",
           options: [
-            "Brand Promise Delivery",
+            "No alignment needed",
             "Exaggerated claims",
             "Minimum delivery",
-            "No alignment needed"
+            "Brand Promise Delivery"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Brand Promise Delivery ensures marketing claims align with actual guest experiences across all touchpoints."
         },
         {
           id: 3,
           question: "What focuses on conversion rate improvement through user experience?",
           options: [
-            "Website Optimization",
-            "Only design",
+            "Only speed",
             "Only content",
-            "Only speed"
+            "Website Optimization",
+            "Only design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Website Optimization focuses on conversion rate improvement through UX design, speed, and clear calls-to-action."
         },
         {
           id: 4,
           question: "What includes both organic optimization and paid search?",
           options: [
-            "Search Engine Marketing",
-            "Only SEO",
             "Only PPC",
-            "Social media only"
+            "Social media only",
+            "Only SEO",
+            "Search Engine Marketing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Search Engine Marketing includes both organic optimization (SEO) and paid search (PPC) strategies."
         },
         {
           id: 5,
           question: "What builds community and drives direct bookings through platforms?",
           options: [
+            "Telemarketing",
             "Social Media Engagement",
-            "Traditional advertising",
             "Direct mail",
-            "Telemarketing"
+            "Traditional advertising"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Social Media Engagement builds community and drives bookings through platforms like Instagram and Facebook."
         },
         {
           id: 6,
           question: "What creates emotional connections with potential guests?",
           options: [
+            "Feature listing",
             "Storytelling Approach",
             "Fact listing",
-            "Price focus",
-            "Feature listing"
+            "Price focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Storytelling Approach creates emotional connections by highlighting unique features and experiences."
         },
         {
@@ -1725,9 +1725,9 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           question: "What leverages high-quality photography and video tours?",
           options: [
             "Visual Content Strategy",
+            "Print content",
             "Text-only content",
-            "Audio content",
-            "Print content"
+            "Audio content"
           ],
           correctAnswer: 0,
           explanation: "Visual Content Strategy leverages professional photography and video to increase engagement and conversions."
@@ -1736,12 +1736,12 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           id: 8,
           question: "What encourages guests to share their experiences?",
           options: [
-            "User-Generated Content amplification",
-            "Professional content only",
+            "No guest content",
             "Stock photos",
-            "No guest content"
+            "Professional content only",
+            "User-Generated Content amplification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "User-Generated Content amplification encourages guests to share experiences, building authenticity."
         },
         {
@@ -1760,12 +1760,12 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           id: 10,
           question: "What involves negotiating favorable terms while maintaining rate parity?",
           options: [
-            "OTA Relationship Management",
+            "Using OTAs only",
             "Ignoring OTAs",
-            "Fighting OTAs",
-            "Using OTAs only"
+            "OTA Relationship Management",
+            "Fighting OTAs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "OTA Relationship Management involves negotiating favorable terms while maintaining rate parity across channels."
         },
         {
@@ -1773,8 +1773,8 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           question: "What specializes in specific markets like corporate or group?",
           options: [
             "Segment-Focused Sales Teams",
-            "General sales teams",
             "Rotating teams",
+            "General sales teams",
             "Temporary teams"
           ],
           correctAnswer: 0,
@@ -1784,24 +1784,24 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           id: 12,
           question: "What tracks leading indicators like calls and proposals?",
           options: [
-            "Sales Activity Metrics",
             "Only revenue",
+            "Sales Activity Metrics",
             "Only bookings",
             "No tracking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sales Activity Metrics track leading indicators that predict future revenue more accurately than lagging figures."
         },
         {
           id: 13,
           question: "What evaluates group opportunities based on fit and revenue potential?",
           options: [
-            "Lead Qualification Process",
-            "Accepting all groups",
             "First-come basis",
-            "Rate only focus"
+            "Accepting all groups",
+            "Rate only focus",
+            "Lead Qualification Process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Lead Qualification Process evaluates group opportunities based on fit, timing, and total revenue potential."
         },
         {
@@ -1809,8 +1809,8 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           question: "What creates compelling, personalized proposals for groups?",
           options: [
             "Proposal Development Excellence",
-            "Standard proposals",
             "Quick proposals",
+            "Standard proposals",
             "Template-only"
           ],
           correctAnswer: 0,
@@ -1820,12 +1820,12 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           id: 15,
           question: "What focuses on developing deeper relationships with key accounts?",
           options: [
-            "Account Management Approach",
-            "Transactional approach",
             "One-time sales",
-            "Price focus only"
+            "Account Management Approach",
+            "Price focus only",
+            "Transactional approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Account Management Approach focuses on developing deeper relationships with key corporate accounts."
         },
         {
@@ -1833,9 +1833,9 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           question: "What requires understanding corporate buyer priorities beyond rate?",
           options: [
             "Request for Proposal Response",
+            "Quick response",
             "Rate-only response",
-            "Standard response",
-            "Quick response"
+            "Standard response"
           ],
           correctAnswer: 0,
           explanation: "RFP Response requires understanding corporate priorities like location, amenities, and cancellation terms."
@@ -1845,8 +1845,8 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           question: "What cultivates relationships with travel writers and influencers?",
           options: [
             "Media Relationship Building",
-            "Mass distribution",
             "Ignoring media",
+            "Mass distribution",
             "Paid coverage only"
           ],
           correctAnswer: 0,
@@ -1857,9 +1857,9 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           question: "What focuses on newsworthy announcements like renovations?",
           options: [
             "Press Release Strategy",
+            "Internal only",
             "Regular announcements",
-            "Minor updates",
-            "Internal only"
+            "Minor updates"
           ],
           correctAnswer: 0,
           explanation: "Press Release Strategy focuses on newsworthy announcements with high-quality visuals and quotable statements."
@@ -1868,24 +1868,24 @@ Effective marketing and sales leadership drives occupancy, rate, and market posi
           id: 19,
           question: "What includes earning structures and redemption options?",
           options: [
-            "Program Design Elements",
             "Simple points",
-            "No structure",
-            "Automatic benefits"
+            "Automatic benefits",
+            "Program Design Elements",
+            "No structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Program Design Elements include earning structures, redemption options, and elite benefits in loyalty programs."
         },
         {
           id: 20,
           question: "What looks for complementary businesses sharing target customers?",
           options: [
-            "Strategic Alliance Identification",
-            "Competitor partnerships",
+            "Internal focus",
             "Any partnership",
-            "Internal focus"
+            "Strategic Alliance Identification",
+            "Competitor partnerships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic Alliance Identification looks for complementary businesses that share target customers."
         }
       ]
@@ -2040,60 +2040,60 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
           id: 1,
           question: "What systematically examines external factors like economic trends?",
           options: [
-            "Environmental Scanning",
-            "Internal analysis",
             "Financial analysis",
-            "Staff analysis"
+            "Staff analysis",
+            "Internal analysis",
+            "Environmental Scanning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental Scanning systematically examines external factors including economic trends and competitive dynamics."
         },
         {
           id: 2,
           question: "What structures internal assessment of strengths and weaknesses?",
           options: [
-            "SWOT Analysis Application",
             "Financial analysis",
-            "Market analysis",
-            "Staff evaluation"
+            "SWOT Analysis Application",
+            "Staff evaluation",
+            "Market analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SWOT Analysis Application structures internal assessment of strengths, weaknesses, opportunities, and threats."
         },
         {
           id: 3,
           question: "What develops multiple plausible futures to test strategy?",
           options: [
-            "Scenario Planning",
+            "Industry average",
             "Single forecast",
-            "Historical projection",
-            "Industry average"
+            "Scenario Planning",
+            "Historical projection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scenario Planning develops multiple plausible futures to test strategy robustness against uncertainty."
         },
         {
           id: 4,
           question: "What involves engaging owners, management, and staff in vision development?",
           options: [
-            "Stakeholder Alignment",
+            "External only",
             "Top-down only",
             "Bottom-up only",
-            "External only"
+            "Stakeholder Alignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stakeholder Alignment involves engaging various groups in vision development to build commitment."
         },
         {
           id: 5,
           question: "What breaks vision into specific, measurable objectives?",
           options: [
-            "Strategic Goal Cascade",
             "Vague goals",
             "Separate goals",
-            "No breakdown"
+            "No breakdown",
+            "Strategic Goal Cascade"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic Goal Cascade breaks vision into specific, measurable objectives at departmental and individual levels."
         },
         {
@@ -2101,9 +2101,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
           question: "What evaluates organizational capacity for transformation?",
           options: [
             "Change Readiness Assessment",
+            "No assessment",
             "Financial assessment",
-            "Market assessment",
-            "No assessment"
+            "Market assessment"
           ],
           correctAnswer: 0,
           explanation: "Change Readiness Assessment evaluates cultural receptivity, resources, and leadership alignment for change."
@@ -2112,24 +2112,24 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
           id: 7,
           question: "What explains the 'why' behind changes, not just the 'what'?",
           options: [
-            "Change Communication Planning",
-            "Simple announcements",
             "No communication",
-            "Technical details only"
+            "Technical details only",
+            "Change Communication Planning",
+            "Simple announcements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Change Communication Planning explains the reasons behind changes to build understanding and support."
         },
         {
           id: 8,
           question: "What creates structured approaches for capturing innovative ideas?",
           options: [
-            "Idea Generation Systems",
-            "Random ideas",
+            "No system",
             "Management ideas only",
-            "No system"
+            "Random ideas",
+            "Idea Generation Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Idea Generation Systems create structured approaches for capturing and evaluating ideas from all levels."
         },
         {
@@ -2137,9 +2137,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
           question: "What distinguishes between intelligent failures and careless mistakes?",
           options: [
             "Risk Tolerance Establishment",
-            "No risk tolerance",
+            "Punishing all failures",
             "Maximum risk",
-            "Punishing all failures"
+            "No risk tolerance"
           ],
           correctAnswer: 0,
           explanation: "Risk Tolerance Establishment distinguishes between intelligent failures (learning) and careless mistakes."
@@ -2148,12 +2148,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
           id: 10,
           question: "What ensures digital investments support business strategy?",
           options: [
-            "Technology Vision Alignment",
+            "Competitor copying",
             "Technology for its sake",
             "Following trends",
-            "Competitor copying"
+            "Technology Vision Alignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Technology Vision Alignment ensures digital investments support guest experience, efficiency, or growth objectives."
         },
         {
@@ -2172,96 +2172,96 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
           id: 12,
           question: "What goes beyond operational efficiency to competitive advantage?",
           options: [
-            "Environmental Strategy Development",
-            "Basic compliance",
             "Cost savings only",
-            "Marketing claims only"
+            "Environmental Strategy Development",
+            "Marketing claims only",
+            "Basic compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental Strategy Development considers sustainability as competitive advantage beyond efficiency."
         },
         {
           id: 13,
           question: "What builds credibility for sustainability claims through openness?",
           options: [
-            "Stakeholder Engagement on sustainability",
-            "Secrecy",
             "Exaggeration",
+            "Secrecy",
+            "Stakeholder Engagement on sustainability",
             "No communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stakeholder Engagement on sustainability builds credibility through transparent communication."
         },
         {
           id: 14,
           question: "What identifies capabilities needed for future success?",
           options: [
+            "No anticipation",
             "Future Skills Anticipation",
             "Current skills only",
-            "Industry standards",
-            "No anticipation"
+            "Industry standards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Future Skills Anticipation identifies capabilities needed for future success to guide development."
         },
         {
           id: 15,
           question: "What ensures continuity in key roles through successor preparation?",
           options: [
-            "Leadership Pipeline Development",
+            "Emergency replacement",
             "External hiring only",
-            "No planning",
-            "Emergency replacement"
+            "Leadership Pipeline Development",
+            "No planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leadership Pipeline Development ensures continuity through systematic identification and preparation of successors."
         },
         {
           id: 16,
           question: "What views the hotel as part of a broader network?",
           options: [
-            "Ecosystem Thinking",
             "Isolated operation",
             "Internal focus only",
+            "Ecosystem Thinking",
             "Competitor focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ecosystem Thinking views the hotel as part of a network including suppliers and community partners."
         },
         {
           id: 17,
           question: "What evaluates partners based on strategic alignment and complementarity?",
           options: [
-            "Partnership Selection Criteria",
             "Any partnership",
+            "First offer",
             "Lowest cost",
-            "First offer"
+            "Partnership Selection Criteria"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Partnership Selection Criteria evaluate based on alignment, complementarity, fit, and mutual benefit."
         },
         {
           id: 18,
           question: "What identifies potential crises beyond obvious emergencies?",
           options: [
-            "Crisis Scenario Planning",
-            "Only fire drills",
             "No planning",
-            "Reactive only"
+            "Only fire drills",
+            "Reactive only",
+            "Crisis Scenario Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Crisis Scenario Planning identifies various potential crises including reputation threats and disruptions."
         },
         {
           id: 19,
           question: "What establishes clear roles and channels for crisis communication?",
           options: [
-            "Crisis Communication Protocols",
             "Improvised response",
+            "Delayed response",
             "No communication",
-            "Delayed response"
+            "Crisis Communication Protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Crisis Communication Protocols establish clear roles, approval processes, and communication channels."
         },
         {
@@ -2287,36 +2287,36 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 1,
       question: "What encompasses the complete guest journey from reservation to departure?",
       options: [
+        "Inventory Management",
         "Guest Cycle Management",
         "Revenue Management",
-        "Quality Control",
-        "Inventory Management"
+        "Quality Control"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Guest Cycle Management encompasses pre-arrival, arrival, occupancy, and departure phases requiring specific systems."
     },
     {
       id: 2,
       question: "What should front office staff recognize during guest interactions?",
       options: [
+        "Building problems",
         "Revenue opportunities",
-        "Only complaints",
         "Staff issues",
-        "Building problems"
+        "Only complaints"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Front office staff should recognize revenue opportunities like upgrades during guest interactions."
     },
     {
       id: 3,
       question: "What involves standardized inspection procedures with checklists?",
       options: [
-        "Quality Control Systems",
-        "Random checking",
+        "Manager inspection",
         "Guest feedback",
-        "Manager inspection"
+        "Random checking",
+        "Quality Control Systems"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Quality Control Systems involve standardized inspections using detailed checklists at multiple levels."
     },
     {
@@ -2324,9 +2324,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What typically allocates 20-30 minutes for check-out rooms?",
       options: [
         "Industry productivity standards",
-        "Employee preferences",
         "Union requirements",
-        "Guest expectations"
+        "Guest expectations",
+        "Employee preferences"
       ],
       correctAnswer: 0,
       explanation: "Industry productivity standards typically allocate 20-30 minutes for check-out room cleaning."
@@ -2335,12 +2335,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 5,
       question: "What analyzes menu items by popularity and profitability?",
       options: [
-        "Menu Engineering",
-        "Recipe costing",
         "Supplier selection",
+        "Recipe costing",
+        "Menu Engineering",
         "Staff scheduling"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Menu Engineering analyzes items by popularity and profitability to guide pricing and promotion."
     },
     {
@@ -2349,8 +2349,8 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       options: [
         "Preventive Maintenance Programs",
         "Emergency repairs only",
-        "Replacement only",
-        "Ignoring maintenance"
+        "Ignoring maintenance",
+        "Replacement only"
       ],
       correctAnswer: 0,
       explanation: "Preventive Maintenance Programs extend equipment life through scheduled inspections and maintenance."
@@ -2359,12 +2359,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 7,
       question: "What reduces utility costs by 15-25% through monitoring?",
       options: [
-        "Energy Management Systems",
+        "Fixed settings",
         "Manual controls",
         "Guest controls",
-        "Fixed settings"
+        "Energy Management Systems"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Energy Management Systems monitor and control usage, reducing utility costs by 15-25%."
     },
     
@@ -2373,24 +2373,24 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 8,
       question: "What reveals how demand responds to price changes?",
       options: [
-        "Price Elasticity Understanding",
         "Cost analysis",
-        "Budget planning",
-        "Expense tracking"
+        "Expense tracking",
+        "Price Elasticity Understanding",
+        "Budget planning"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Price Elasticity Understanding reveals how different segments respond to price changes."
     },
     {
       id: 9,
       question: "What examines booking patterns from previous years?",
       options: [
-        "Historical Pattern Analysis",
         "Future guessing",
         "Current counting",
-        "Random estimation"
+        "Random estimation",
+        "Historical Pattern Analysis"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Historical Pattern Analysis examines previous years' patterns adjusted for known differences."
     },
     {
@@ -2399,8 +2399,8 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       options: [
         "Group Segment Optimization",
         "Room-only evaluation",
-        "Cost analysis only",
-        "Space utilization"
+        "Space utilization",
+        "Cost analysis only"
       ],
       correctAnswer: 0,
       explanation: "Group Segment Optimization evaluates total revenue including meeting space, F&B, and ancillary services."
@@ -2409,24 +2409,24 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 11,
       question: "What compares total cost of acquisition across channels?",
       options: [
-        "Distribution Cost Analysis",
         "Only commission rates",
+        "Staff costs",
         "Marketing costs only",
-        "Staff costs"
+        "Distribution Cost Analysis"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Distribution Cost Analysis compares total acquisition costs across all booking channels."
     },
     {
       id: 12,
       question: "What can be applied during peak periods to maximize revenue?",
       options: [
-        "Minimum Length of Stay Restrictions",
         "Maximum stay limits",
         "No restrictions",
-        "Flexible stays only"
+        "Flexible stays only",
+        "Minimum Length of Stay Restrictions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Minimum Length of Stay Restrictions during peak periods maximize revenue from high-demand dates."
     },
     {
@@ -2445,12 +2445,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 14,
       question: "What focuses on revenue beyond rooms like spa and F&B?",
       options: [
-        "Ancillary Revenue Optimization",
-        "Room-only focus",
         "Cost reduction",
-        "Staff reduction"
+        "Staff reduction",
+        "Room-only focus",
+        "Ancillary Revenue Optimization"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Ancillary Revenue Optimization focuses on revenue streams beyond rooms with higher margins."
     },
     
@@ -2459,12 +2459,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 15,
       question: "What examines local demographics and competing employers?",
       options: [
-        "Labor Market Analysis",
-        "Guest analysis",
+        "Market analysis",
         "Financial analysis",
-        "Market analysis"
+        "Guest analysis",
+        "Labor Market Analysis"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Labor Market Analysis examines local demographics, competing employers, and wage trends."
     },
     {
@@ -2472,9 +2472,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What identifies and develops internal candidates for key positions?",
       options: [
         "Succession Planning",
+        "Contract labor",
         "External hiring",
-        "Temporary staffing",
-        "Contract labor"
+        "Temporary staffing"
       ],
       correctAnswer: 0,
       explanation: "Succession Planning identifies and develops internal candidates through assessments and development."
@@ -2483,48 +2483,48 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 17,
       question: "What creates a compelling value proposition for potential employees?",
       options: [
-        "Employer Brand Development",
         "High salaries only",
-        "Job postings",
-        "Interview processes"
+        "Employer Brand Development",
+        "Interview processes",
+        "Job postings"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Employer Brand Development creates a compelling value proposition including culture and opportunities."
     },
     {
       id: 18,
       question: "What ensures new hires become productive quickly?",
       options: [
-        "Onboarding Excellence",
         "Sink-or-swim approach",
+        "Onboarding Excellence",
         "Minimal training",
         "Self-learning"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Onboarding Excellence ensures new hires understand culture and become productive quickly."
     },
     {
       id: 19,
       question: "What identifies drivers of satisfaction through regular surveys?",
       options: [
-        "Engagement Measurement",
-        "Guesswork",
         "Manager opinions",
-        "Exit interviews only"
+        "Guesswork",
+        "Exit interviews only",
+        "Engagement Measurement"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Engagement Measurement through regular surveys identifies satisfaction drivers and improvement areas."
     },
     {
       id: 20,
       question: "What shows employees potential advancement opportunities?",
       options: [
+        "External hiring only",
         "Career Path Visibility",
         "Hidden opportunities",
-        "Surprise promotions",
-        "External hiring only"
+        "Surprise promotions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Career Path Visibility shows employees clear advancement opportunities with defined requirements."
     },
     
@@ -2533,24 +2533,24 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 21,
       question: "What provides standardized accounting classifications for lodging?",
       options: [
-        "Uniform System of Accounts",
         "General accounting",
-        "Tax accounting",
-        "Cash accounting"
+        "Uniform System of Accounts",
+        "Cash accounting",
+        "Tax accounting"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Uniform System of Accounts provides standardized classifications for consistent hotel reporting."
     },
     {
       id: 22,
       question: "What separates operations into revenue and support centers?",
       options: [
-        "Departmental Accounting",
         "Combined accounting",
-        "Simple accounting",
-        "Cash basis"
+        "Cash basis",
+        "Departmental Accounting",
+        "Simple accounting"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Departmental Accounting separates operations into revenue centers and support centers."
     },
     {
@@ -2559,8 +2559,8 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       options: [
         "Bottom-Up Budgeting",
         "Top-down only",
-        "Centralized budgeting",
-        "No budgeting"
+        "No budgeting",
+        "Centralized budgeting"
       ],
       correctAnswer: 0,
       explanation: "Bottom-Up Budgeting involves department managers in creating budgets based on operational plans."
@@ -2570,8 +2570,8 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What equals room revenue divided by available rooms?",
       options: [
         "RevPAR Calculation",
-        "Occupancy rate",
         "Average rate",
+        "Occupancy rate",
         "Total revenue"
       ],
       correctAnswer: 0,
@@ -2582,9 +2582,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What focuses on payroll and cost of sales as largest controllable costs?",
       options: [
         "Prime Cost Management",
-        "Fixed cost focus",
+        "Overhead focus",
         "Capital cost focus",
-        "Overhead focus"
+        "Fixed cost focus"
       ],
       correctAnswer: 0,
       explanation: "Prime Cost Management focuses on payroll and cost of sales, typically 50-70% of operating costs."
@@ -2594,9 +2594,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What sets aside funds for replacement of depreciating assets?",
       options: [
         "FF&E Reserve",
-        "Operating budget",
+        "Contingency fund",
         "Marketing budget",
-        "Contingency fund"
+        "Operating budget"
       ],
       correctAnswer: 0,
       explanation: "FF&E Reserve sets aside funds annually for replacement of furniture, fixtures, and equipment."
@@ -2605,12 +2605,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 27,
       question: "What provides timely performance data for daily decisions?",
       options: [
-        "Daily Revenue Reporting",
         "Monthly reports only",
+        "No daily data",
         "Annual reports",
-        "No daily data"
+        "Daily Revenue Reporting"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Daily Revenue Reporting provides timely performance data including room statistics and revenue."
     },
     
@@ -2619,48 +2619,48 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 28,
       question: "What defines how the hotel is perceived relative to competitors?",
       options: [
+        "Advertising strategy",
         "Brand Positioning Strategy",
-        "Pricing strategy",
         "Sales strategy",
-        "Advertising strategy"
+        "Pricing strategy"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Brand Positioning Strategy defines how the hotel is perceived relative to competitors."
     },
     {
       id: 29,
       question: "What focuses on conversion rate improvement through user experience?",
       options: [
-        "Website Optimization",
-        "Only design",
         "Only content",
+        "Only design",
+        "Website Optimization",
         "Only speed"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Website Optimization focuses on conversion rate improvement through UX design and clear calls-to-action."
     },
     {
       id: 30,
       question: "What balances volume, cost, and control across channels?",
       options: [
+        "Direct only",
         "Channel Mix Optimization",
         "Single channel focus",
-        "Maximum OTA use",
-        "Direct only"
+        "Maximum OTA use"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Channel Mix Optimization balances volume, cost, and control across direct and indirect channels."
     },
     {
       id: 31,
       question: "What specializes in specific markets like corporate or group?",
       options: [
-        "Segment-Focused Sales Teams",
-        "General sales teams",
         "Rotating teams",
+        "General sales teams",
+        "Segment-Focused Sales Teams",
         "Temporary teams"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Segment-Focused Sales Teams specialize in specific markets for deeper expertise and relationships."
     },
     {
@@ -2669,8 +2669,8 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       options: [
         "Lead Qualification Process",
         "Accepting all groups",
-        "First-come basis",
-        "Rate only focus"
+        "Rate only focus",
+        "First-come basis"
       ],
       correctAnswer: 0,
       explanation: "Lead Qualification Process evaluates group opportunities based on fit, timing, and revenue potential."
@@ -2679,12 +2679,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 33,
       question: "What cultivates relationships with travel writers and influencers?",
       options: [
-        "Media Relationship Building",
-        "Mass distribution",
         "Ignoring media",
-        "Paid coverage only"
+        "Mass distribution",
+        "Paid coverage only",
+        "Media Relationship Building"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Media Relationship Building cultivates relationships for third-party validation and coverage."
     },
     
@@ -2694,9 +2694,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What systematically examines external factors like economic trends?",
       options: [
         "Environmental Scanning",
-        "Internal analysis",
+        "Staff analysis",
         "Financial analysis",
-        "Staff analysis"
+        "Internal analysis"
       ],
       correctAnswer: 0,
       explanation: "Environmental Scanning systematically examines external factors including economic trends and competition."
@@ -2705,24 +2705,24 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 35,
       question: "What structures internal assessment of strengths and weaknesses?",
       options: [
-        "SWOT Analysis Application",
         "Financial analysis",
         "Market analysis",
-        "Staff evaluation"
+        "Staff evaluation",
+        "SWOT Analysis Application"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "SWOT Analysis Application structures internal assessment of strengths, weaknesses, opportunities, threats."
     },
     {
       id: 36,
       question: "What involves engaging various groups in vision development?",
       options: [
-        "Stakeholder Alignment",
         "Top-down only",
-        "Bottom-up only",
-        "External only"
+        "Stakeholder Alignment",
+        "External only",
+        "Bottom-up only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Stakeholder Alignment involves engaging owners, management, and staff in vision development."
     },
     {
@@ -2730,8 +2730,8 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What evaluates organizational capacity for transformation?",
       options: [
         "Change Readiness Assessment",
-        "Financial assessment",
         "Market assessment",
+        "Financial assessment",
         "No assessment"
       ],
       correctAnswer: 0,
@@ -2741,12 +2741,12 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       id: 38,
       question: "What creates structured approaches for capturing innovative ideas?",
       options: [
-        "Idea Generation Systems",
         "Random ideas",
-        "Management ideas only",
-        "No system"
+        "No system",
+        "Idea Generation Systems",
+        "Management ideas only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Idea Generation Systems create structured approaches for capturing and evaluating ideas."
     },
     {
@@ -2766,9 +2766,9 @@ Strategic leadership in hotels involves anticipating change, driving innovation,
       question: "What identifies capabilities needed for future success?",
       options: [
         "Future Skills Anticipation",
-        "Current skills only",
         "Industry standards",
-        "No anticipation"
+        "No anticipation",
+        "Current skills only"
       ],
       correctAnswer: 0,
       explanation: "Future Skills Anticipation identifies capabilities needed for future success to guide development."

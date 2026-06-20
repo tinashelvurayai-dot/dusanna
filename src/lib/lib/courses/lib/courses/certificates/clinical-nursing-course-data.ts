@@ -63,12 +63,12 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           id: 1,
           question: "What is the Glasgow Coma Scale range?",
           options: [
-            "1-10",
-            "3-15",
             "5-20",
-            "0-12"
+            "1-10",
+            "0-12",
+            "3-15"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Glasgow Coma Scale ranges from 3 (deep unconsciousness) to 15 (fully alert)."
         },
         {
@@ -76,21 +76,21 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           question: "What are normal pupil sizes?",
           options: [
             "1-3 mm",
-            "2-6 mm",
             "5-8 mm",
-            "7-10 mm"
+            "7-10 mm",
+            "2-6 mm"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Normal pupil diameter ranges from 2-6 mm and should be equal in both eyes."
         },
         {
           id: 3,
           question: "What heart sound represents closure of aortic and pulmonic valves?",
           options: [
-            "S1",
-            "S2",
             "S3",
-            "S4"
+            "S2",
+            "S4",
+            "S1"
           ],
           correctAnswer: 1,
           explanation: "S2 is the second heart sound caused by closure of the aortic and pulmonic valves."
@@ -99,84 +99,84 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           id: 4,
           question: "What is normal capillary refill time?",
           options: [
+            "<10 seconds",
             "<1 second",
-            "<3 seconds",
             "<5 seconds",
-            "<10 seconds"
+            "<3 seconds"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Capillary refill should occur in less than 3 seconds, indicating adequate peripheral perfusion."
         },
         {
           id: 5,
           question: "What breath sounds are normal over lung fields?",
           options: [
+            "Bronchovesicular",
             "Bronchial",
             "Vesicular",
-            "Bronchovesicular",
             "Tracheal"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vesicular breath sounds are soft, low-pitched sounds heard over most lung fields."
         },
         {
           id: 6,
           question: "What adventitious sound indicates fluid in airways?",
           options: [
-            "Wheezes",
             "Crackles",
             "Rhonchi",
-            "Stridor"
+            "Stridor",
+            "Wheezes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Crackles (rales) are discontinuous sounds indicating fluid in smaller airways."
         },
         {
           id: 7,
           question: "What is the normal range for bowel sounds per minute?",
           options: [
-            "0-5",
             "5-35",
-            "30-50",
-            "50-70"
+            "50-70",
+            "0-5",
+            "30-50"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Normal bowel sounds occur 5-35 times per minute and should be present in all quadrants."
         },
         {
           id: 8,
           question: "What does muscle strength grade 5 indicate?",
           options: [
-            "No movement",
             "Active movement with gravity eliminated",
-            "Active movement against gravity",
-            "Normal strength"
+            "Normal strength",
+            "No movement",
+            "Active movement against gravity"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Grade 5 indicates normal strength with full resistance throughout range of motion."
         },
         {
           id: 9,
           question: "What stage pressure ulcer shows non-blanchable erythema?",
           options: [
+            "Stage III",
             "Stage I",
             "Stage II",
-            "Stage III",
             "Stage IV"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stage I pressure ulcers show intact skin with non-blanchable redness."
         },
         {
           id: 10,
           question: "What does the 'Q' in PQRST pain assessment represent?",
           options: [
+            "Quickness",
             "Quantity",
             "Quality",
-            "Question",
-            "Quickness"
+            "Question"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Q stands for Quality - describing what the pain feels like (sharp, dull, burning, etc.)."
         },
         {
@@ -195,12 +195,12 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           id: 12,
           question: "Which assessment quadrant contains the liver?",
           options: [
-            "RLQ",
             "RUQ",
+            "RLQ",
             "LUQ",
             "LLQ"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The liver is located in the right upper quadrant (RUQ) of the abdomen."
         },
         {
@@ -209,8 +209,8 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           options: [
             "Normal skin turgor",
             "Dehydration",
-            "Edema",
-            "Good elasticity"
+            "Good elasticity",
+            "Edema"
           ],
           correctAnswer: 1,
           explanation: "Skin that tents (remains elevated) for more than 3 seconds suggests dehydration."
@@ -219,12 +219,12 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           id: 14,
           question: "What heart sound is caused by mitral and tricuspid valve closure?",
           options: [
-            "S1",
-            "S2",
             "S3",
-            "S4"
+            "S4",
+            "S1",
+            "S2"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "S1 is the first heart sound produced by closure of the mitral and tricuspid valves."
         },
         {
@@ -232,57 +232,57 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           question: "What is the correct order for abdominal assessment?",
           options: [
             "Palpation, percussion, auscultation",
-            "Auscultation, percussion, palpation",
             "Percussion, auscultation, palpation",
-            "Any order is acceptable"
+            "Any order is acceptable",
+            "Auscultation, percussion, palpation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Always auscultate first to avoid altering bowel sounds with palpation or percussion."
         },
         {
           id: 16,
           question: "What does the Wong-Baker scale assess?",
           options: [
-            "Blood pressure",
-            "Pain intensity",
+            "Respiratory rate",
             "Muscle strength",
-            "Respiratory rate"
+            "Pain intensity",
+            "Blood pressure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Wong-Baker FACES scale is used to assess pain intensity, especially in children."
         },
         {
           id: 17,
           question: "What sound suggests narrowed airways?",
           options: [
-            "Crackles",
-            "Wheezes",
+            "Friction rub",
             "Rhonchi",
-            "Friction rub"
+            "Wheezes",
+            "Crackles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Wheezes are high-pitched musical sounds indicating narrowed airways."
         },
         {
           id: 18,
           question: "What does SOAP documentation stand for?",
           options: [
-            "Symptoms, Observations, Assessment, Plan",
             "Subjective, Objective, Assessment, Plan",
             "System, Organization, Analysis, Procedure",
-            "Signs, Observations, Analysis, Protocol"
+            "Signs, Observations, Analysis, Protocol",
+            "Symptoms, Observations, Assessment, Plan"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SOAP stands for Subjective, Objective, Assessment, Plan - a common documentation format."
         },
         {
           id: 19,
           question: "Which pulse is assessed behind the medial malleolus?",
           options: [
-            "Radial",
             "Dorsalis pedis",
+            "Popliteal",
             "Posterior tibial",
-            "Popliteal"
+            "Radial"
           ],
           correctAnswer: 2,
           explanation: "The posterior tibial pulse is located behind the medial malleolus (inner ankle bone)."
@@ -292,11 +292,11 @@ Document assessment findings using standardized formats like SOAP (Subjective, O
           question: "What does Stage IV pressure ulcer involve?",
           options: [
             "Intact skin with redness",
-            "Partial thickness skin loss",
             "Full thickness skin loss",
-            "Exposed bone, tendon, or muscle"
+            "Exposed bone, tendon, or muscle",
+            "Partial thickness skin loss"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Stage IV pressure ulcers involve full thickness tissue loss with exposed bone, tendon, or muscle."
         }
       ]
@@ -366,9 +366,9 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           question: "How many rights of medication administration are recommended?",
           options: [
             "5",
-            "7",
+            "12",
             "10",
-            "12"
+            "7"
           ],
           correctAnswer: 2,
           explanation: "Current practice recommends 10 rights: patient, medication, dose, route, time, documentation, reason, response, education, refusal."
@@ -377,12 +377,12 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           id: 2,
           question: "What angle is used for subcutaneous injections?",
           options: [
-            "15-30 degrees",
             "45-90 degrees",
             "90 degrees only",
-            "10-20 degrees"
+            "10-20 degrees",
+            "15-30 degrees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Subcutaneous injections are typically given at a 45-90 degree angle depending on needle length and patient size."
         },
         {
@@ -390,19 +390,19 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           question: "What technique minimizes leakage for IM injections?",
           options: [
             "Rapid injection",
-            "Z-track method",
             "Aspiration only",
-            "No special technique"
+            "No special technique",
+            "Z-track method"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Z-track technique prevents medication leakage into subcutaneous tissue."
         },
         {
           id: 4,
           question: "What wound color indicates healthy granulation tissue?",
           options: [
-            "Black",
             "Yellow",
+            "Black",
             "Red",
             "Green"
           ],
@@ -413,12 +413,12 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           id: 5,
           question: "What dressing is best for moderate to heavy exudate?",
           options: [
-            "Transparent film",
             "Hydrocolloid",
             "Alginate",
+            "Transparent film",
             "Gauze"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Alginate dressings absorb moderate to heavy exudate and maintain moist wound environment."
         },
         {
@@ -426,9 +426,9 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           question: "What is normal SpO2 level?",
           options: [
             ">84%",
-            ">88%",
+            ">98%",
             ">94%",
-            ">98%"
+            ">88%"
           ],
           correctAnswer: 2,
           explanation: "Normal oxygen saturation (SpO2) is greater than 94% on room air."
@@ -437,22 +437,22 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           id: 7,
           question: "What oxygen delivery device provides specific FiO2?",
           options: [
-            "Nasal cannula",
-            "Simple mask",
+            "Face tent",
             "Venturi mask",
-            "Face tent"
+            "Simple mask",
+            "Nasal cannula"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Venturi masks deliver specific, precise oxygen concentrations (FiO2)."
         },
         {
           id: 8,
           question: "What is normal potassium range?",
           options: [
-            "2.5-3.5 mEq/L",
-            "3.5-5.0 mEq/L",
             "5.0-6.0 mEq/L",
-            "6.0-7.0 mEq/L"
+            "3.5-5.0 mEq/L",
+            "6.0-7.0 mEq/L",
+            "2.5-3.5 mEq/L"
           ],
           correctAnswer: 1,
           explanation: "Normal serum potassium level is 3.5-5.0 mEq/L."
@@ -461,12 +461,12 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           id: 9,
           question: "What is daily fluid maintenance for adults?",
           options: [
-            "10-20 mL/kg/day",
-            "20-25 mL/kg/day",
             "30-35 mL/kg/day",
-            "40-50 mL/kg/day"
+            "40-50 mL/kg/day",
+            "20-25 mL/kg/day",
+            "10-20 mL/kg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Adult fluid maintenance is approximately 30-35 mL/kg/day."
         },
         {
@@ -474,21 +474,21 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           question: "What teaching method evaluates understanding?",
           options: [
             "Lecture only",
+            "Video watching",
             "Written materials",
-            "Teach-back method",
-            "Video watching"
+            "Teach-back method"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The teach-back method asks patients to explain in their own words to evaluate understanding."
         },
         {
           id: 11,
           question: "When should discharge planning begin?",
           options: [
-            "Day before discharge",
+            "When doctor orders",
             "At admission",
-            "After surgery",
-            "When doctor orders"
+            "Day before discharge",
+            "After surgery"
           ],
           correctAnswer: 1,
           explanation: "Discharge planning should begin at admission for comprehensive care coordination."
@@ -499,8 +499,8 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           options: [
             "Serous drainage",
             "Purulent drainage",
-            "Clear fluid",
-            "Minimal exudate"
+            "Minimal exudate",
+            "Clear fluid"
           ],
           correctAnswer: 1,
           explanation: "Purulent (pus-like) drainage often indicates wound infection."
@@ -509,34 +509,34 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           id: 13,
           question: "What position aids breathing for patients with respiratory difficulty?",
           options: [
-            "Trendelenburg",
+            "Prone",
             "Supine",
-            "Semi-Fowler's",
-            "Prone"
+            "Trendelenburg",
+            "Semi-Fowler's"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Semi-Fowler's position (head elevated 30-45 degrees) facilitates breathing."
         },
         {
           id: 14,
           question: "What is normal serum sodium level?",
           options: [
+            "155-165 mEq/L",
             "120-130 mEq/L",
-            "135-145 mEq/L",
             "145-155 mEq/L",
-            "155-165 mEq/L"
+            "135-145 mEq/L"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Normal serum sodium level is 135-145 mEq/L."
         },
         {
           id: 15,
           question: "What is multimodal pain management?",
           options: [
-            "Using one strong medication",
+            "As-needed medication only",
             "Combining different approaches",
             "Only non-drug methods",
-            "As-needed medication only"
+            "Using one strong medication"
           ],
           correctAnswer: 1,
           explanation: "Multimodal pain management combines different medications and methods for better pain control with fewer side effects."
@@ -545,48 +545,48 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           id: 16,
           question: "What should be checked before medication administration?",
           options: [
-            "Patient's favorite color",
             "Allergy status",
             "Family history",
+            "Patient's favorite color",
             "Insurance information"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Always verify allergy status before administering any medication."
         },
         {
           id: 17,
           question: "What technique prevents infection during wound care?",
           options: [
-            "Clean technique",
-            "Aseptic technique",
+            "Any technique is fine",
             "Sterile technique only for surgery",
-            "Any technique is fine"
+            "Aseptic technique",
+            "Clean technique"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Aseptic technique minimizes introduction of microorganisms during wound care."
         },
         {
           id: 18,
           question: "What device measures oxygen saturation?",
           options: [
-            "Sphygmomanometer",
             "Pulse oximeter",
+            "Sphygmomanometer",
             "Stethoscope",
             "Thermometer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pulse oximeter noninvasively measures oxygen saturation (SpO2)."
         },
         {
           id: 19,
           question: "What is calculated to monitor fluid balance?",
           options: [
-            "Intake and output",
-            "Blood pressure only",
             "Weight monthly",
-            "Temperature daily"
+            "Temperature daily",
+            "Intake and output",
+            "Blood pressure only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Intake and output measurements help assess fluid balance status."
         },
         {
@@ -594,11 +594,11 @@ Clinical nursing interventions are actions taken to improve patient outcomes bas
           question: "What dressing provides cushioning?",
           options: [
             "Transparent film",
-            "Foam",
             "Hydrocolloid",
-            "Alginate"
+            "Alginate",
+            "Foam"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Foam dressings provide cushioning and protection for wounds."
         }
       ]
@@ -667,34 +667,34 @@ Clinical nursing requires adaptation to different patient populations and specia
           id: 1,
           question: "What is normal fasting blood glucose?",
           options: [
-            "50-70 mg/dL",
             "70-100 mg/dL",
+            "50-70 mg/dL",
             "100-125 mg/dL",
             "125-150 mg/dL"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Normal fasting blood glucose is 70-100 mg/dL."
         },
         {
           id: 2,
           question: "What blood pressure target is recommended for hypertension?",
           options: [
-            "<160/100",
-            "<140/90",
             "<130/80",
-            "<120/80"
+            "<160/100",
+            "<120/80",
+            "<140/90"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Blood pressure should be maintained below 140/90 mmHg in most hypertensive patients."
         },
         {
           id: 3,
           question: "What is normal fetal heart rate?",
           options: [
-            "80-110 bpm",
+            "200-240 bpm",
             "110-160 bpm",
-            "160-200 bpm",
-            "200-240 bpm"
+            "80-110 bpm",
+            "160-200 bpm"
           ],
           correctAnswer: 1,
           explanation: "Normal fetal heart rate ranges from 110-160 beats per minute."
@@ -703,36 +703,36 @@ Clinical nursing requires adaptation to different patient populations and specia
           id: 4,
           question: "What does the 'E' in ABCDE trauma assessment stand for?",
           options: [
-            "EKG",
             "Exposure",
             "Evaluation",
+            "EKG",
             "Emergency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "E stands for Exposure - fully exposing the patient to identify all injuries."
         },
         {
           id: 5,
           question: "What is normal central venous pressure (CVP)?",
           options: [
-            "0-2 mmHg",
             "2-6 mmHg",
             "6-10 mmHg",
-            "10-14 mmHg"
+            "10-14 mmHg",
+            "0-2 mmHg"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Normal CVP ranges from 2-6 mmHg, indicating adequate venous return."
         },
         {
           id: 6,
           question: "How often should oral care be performed on ventilated patients?",
           options: [
-            "Every shift",
             "Every 4 hours",
-            "Daily",
-            "Only when soiled"
+            "Every shift",
+            "Only when soiled",
+            "Daily"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Oral care every 4 hours reduces risk of ventilator-associated pneumonia."
         },
         {
@@ -740,9 +740,9 @@ Clinical nursing requires adaptation to different patient populations and specia
           question: "What is normal APGAR score at 1 and 5 minutes?",
           options: [
             "0-3",
-            "4-6",
+            "10-12",
             "7-10",
-            "10-12"
+            "4-6"
           ],
           correctAnswer: 2,
           explanation: "APGAR scores of 7-10 are considered normal for newborns."
@@ -751,58 +751,58 @@ Clinical nursing requires adaptation to different patient populations and specia
           id: 8,
           question: "What is the key feature of delirium?",
           options: [
-            "Gradual onset",
-            "Sudden onset with fluctuations",
+            "Only at night",
             "Stable over time",
-            "Only at night"
+            "Gradual onset",
+            "Sudden onset with fluctuations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Delirium features acute onset with fluctuating course, unlike dementia's gradual progression."
         },
         {
           id: 9,
           question: "What is ESI in emergency triage?",
           options: [
-            "Emergency Severity Index",
-            "Emergency System Integration",
             "Emergency Surgical Intervention",
-            "Emergency Safety Inspection"
+            "Emergency Safety Inspection",
+            "Emergency Severity Index",
+            "Emergency System Integration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ESI stands for Emergency Severity Index, a 5-level triage system."
         },
         {
           id: 10,
           question: "What is normal mean arterial pressure (MAP)?",
           options: [
-            ">45 mmHg",
-            ">55 mmHg",
             ">65 mmHg",
-            ">75 mmHg"
+            ">75 mmHg",
+            ">45 mmHg",
+            ">55 mmHg"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "MAP should be maintained above 65 mmHg for adequate organ perfusion."
         },
         {
           id: 11,
           question: "What postoperative complication does early ambulation prevent?",
           options: [
-            "Hypertension",
             "Deep vein thrombosis",
+            "Hearing loss",
             "Diabetes",
-            "Hearing loss"
+            "Hypertension"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Early ambulation promotes circulation and helps prevent deep vein thrombosis."
         },
         {
           id: 12,
           question: "What chemotherapy side effect requires infection precautions?",
           options: [
-            "Nausea",
+            "Fatigue",
             "Neutropenia",
-            "Hair loss",
-            "Fatigue"
+            "Nausea",
+            "Hair loss"
           ],
           correctAnswer: 1,
           explanation: "Neutropenia (low white blood cells) increases infection risk requiring protective precautions."
@@ -811,48 +811,48 @@ Clinical nursing requires adaptation to different patient populations and specia
           id: 13,
           question: "What lochia color occurs immediately postpartum?",
           options: [
+            "Purple",
             "Alba (white)",
             "Serosa (pink-brown)",
-            "Rubra (red)",
-            "Purple"
+            "Rubra (red)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Lochia rubra is bright red and occurs for the first 3-4 days postpartum."
         },
         {
           id: 14,
           question: "What is primary prevention for falls in elderly?",
           options: [
-            "Restraint use",
             "Environmental modifications",
-            "Bed alarms only",
-            "Medication increases"
+            "Restraint use",
+            "Medication increases",
+            "Bed alarms only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Environmental modifications like removing hazards are primary fall prevention strategies."
         },
         {
           id: 15,
           question: "What is key in therapeutic communication?",
           options: [
-            "Giving advice",
             "Active listening",
+            "Avoiding silence",
             "Talking most of the time",
-            "Avoiding silence"
+            "Giving advice"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Active listening demonstrates respect and helps understand the patient's perspective."
         },
         {
           id: 16,
           question: "What setting on ventilator prevents alveolar collapse?",
           options: [
-            "Tidal volume",
-            "Respiratory rate",
             "PEEP",
-            "FiO2"
+            "Tidal volume",
+            "FiO2",
+            "Respiratory rate"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "PEEP (Positive End-Expiratory Pressure) prevents alveolar collapse at end expiration."
         },
         {
@@ -860,21 +860,21 @@ Clinical nursing requires adaptation to different patient populations and specia
           question: "How are pediatric medications typically dosed?",
           options: [
             "By age only",
-            "By weight",
             "Same as adults",
-            "By height"
+            "By height",
+            "By weight"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pediatric medications are dosed by weight (mg/kg) for accuracy and safety."
         },
         {
           id: 18,
           question: "What characterizes dementia?",
           options: [
-            "Sudden confusion",
+            "Complete recovery",
             "Gradual cognitive decline",
             "Only memory loss",
-            "Complete recovery"
+            "Sudden confusion"
           ],
           correctAnswer: 1,
           explanation: "Dementia features gradual, progressive cognitive decline over months to years."
@@ -883,12 +883,12 @@ Clinical nursing requires adaptation to different patient populations and specia
           id: 19,
           question: "What is mass casualty triage system?",
           options: [
-            "First come, first served",
             "Simple triage and rapid treatment",
+            "Treat most serious last",
             "Only treat children first",
-            "Treat most serious last"
+            "First come, first served"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "START (Simple Triage and Rapid Treatment) is used in mass casualty incidents."
         },
         {
@@ -896,11 +896,11 @@ Clinical nursing requires adaptation to different patient populations and specia
           question: "What should be assessed in depression?",
           options: [
             "Only mood",
-            "Suicide risk",
+            "Family history only",
             "Physical health only",
-            "Family history only"
+            "Suicide risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Suicide risk assessment is critical in depression evaluation and management."
         }
       ]
@@ -967,10 +967,10 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           id: 1,
           question: "What is the formula for mL/hr infusion rate?",
           options: [
-            "Volume × hours",
+            "Volume + hours",
             "Volume ÷ hours",
-            "Hours ÷ volume",
-            "Volume + hours"
+            "Volume × hours",
+            "Hours ÷ volume"
           ],
           correctAnswer: 1,
           explanation: "mL/hr = total volume (mL) ÷ total hours for infusion."
@@ -992,23 +992,23 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           question: "What should be verified before blood transfusion?",
           options: [
             "Patient's age",
+            "Family consent",
             "Blood type and patient identification",
-            "Insurance coverage",
-            "Family consent"
+            "Insurance coverage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Blood type compatibility and correct patient identification are critical safety checks."
         },
         {
           id: 4,
           question: "What represents atrial depolarization on ECG?",
           options: [
-            "P wave",
-            "QRS complex",
             "T wave",
-            "U wave"
+            "QRS complex",
+            "U wave",
+            "P wave"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The P wave represents atrial depolarization (contraction)."
         },
         {
@@ -1016,23 +1016,23 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           question: "What is proper endotracheal tube cuff pressure?",
           options: [
             "10-15 cm H2O",
-            "20-30 cm H2O",
             "30-40 cm H2O",
-            "40-50 cm H2O"
+            "40-50 cm H2O",
+            "20-30 cm H2O"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Endotracheal tube cuff pressure should be 20-30 cm H2O to prevent aspiration without causing tracheal damage."
         },
         {
           id: 6,
           question: "What is normal sinus rhythm rate?",
           options: [
-            "40-60 bpm",
             "60-100 bpm",
-            "100-150 bpm",
-            "150-200 bpm"
+            "150-200 bpm",
+            "40-60 bpm",
+            "100-150 bpm"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Normal sinus rhythm has a rate of 60-100 beats per minute."
         },
         {
@@ -1040,21 +1040,21 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           question: "How long should suctioning be limited to?",
           options: [
             "<5 seconds",
-            "<15 seconds",
             "<30 seconds",
+            "<15 seconds",
             "<60 seconds"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Suctioning should be limited to <15 seconds to prevent hypoxia."
         },
         {
           id: 8,
           question: "What is used for pulseless ventricular tachycardia?",
           options: [
-            "Cardioversion",
+            "Medication only",
             "Defibrillation",
             "Pacing",
-            "Medication only"
+            "Cardioversion"
           ],
           correctAnswer: 1,
           explanation: "Defibrillation is used for pulseless ventricular tachycardia and ventricular fibrillation."
@@ -1063,10 +1063,10 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           id: 9,
           question: "What CPR compression depth is recommended?",
           options: [
-            "1-1.5 inches",
+            "3-4 inches",
             "2-2.4 inches",
-            "2.5-3 inches",
-            "3-4 inches"
+            "1-1.5 inches",
+            "2.5-3 inches"
           ],
           correctAnswer: 1,
           explanation: "Adult CPR compression depth should be 2-2.4 inches (5-6 cm)."
@@ -1076,11 +1076,11 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           question: "What indicates phlebitis?",
           options: [
             "Swelling only",
+            "Fever alone",
             "Redness and tenderness along vein",
-            "Bleeding at site",
-            "Fever alone"
+            "Bleeding at site"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Phlebitis presents as redness, warmth, and tenderness along the vein path."
         },
         {
@@ -1089,8 +1089,8 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           options: [
             "1500 ÷ small boxes between R waves",
             "300 ÷ large boxes between R waves",
-            "Count all beats in 10 seconds",
-            "60 ÷ PR interval"
+            "60 ÷ PR interval",
+            "Count all beats in 10 seconds"
           ],
           correctAnswer: 1,
           explanation: "Rate = 300 ÷ number of large boxes between R waves (quick estimation method)."
@@ -1100,33 +1100,33 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           question: "What transfusion reaction causes fever?",
           options: [
             "Allergic",
-            "Febrile",
             "Hemolytic",
+            "Febrile",
             "Bacterial"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Febrile non-hemolytic reactions cause fever during or after transfusion."
         },
         {
           id: 13,
           question: "What catheter size for tracheal suctioning?",
           options: [
-            "Same as tube diameter",
             "Half tube diameter",
+            "Same as tube diameter",
             "Twice tube diameter",
             "Any available size"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Suction catheter should be half the diameter of the tracheal tube to allow airflow during suctioning."
         },
         {
           id: 14,
           question: "What rhythm has no P waves and is irregular?",
           options: [
-            "Normal sinus",
-            "Atrial fibrillation",
             "Ventricular tachycardia",
-            "Sinus bradycardia"
+            "Atrial fibrillation",
+            "Sinus bradycardia",
+            "Normal sinus"
           ],
           correctAnswer: 1,
           explanation: "Atrial fibrillation has irregular rhythm with no discernible P waves."
@@ -1135,60 +1135,60 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           id: 15,
           question: "When is rapid response activated?",
           options: [
-            "After cardiac arrest",
             "For early signs of deterioration",
             "Only for bleeding",
-            "For routine vital signs"
+            "For routine vital signs",
+            "After cardiac arrest"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Rapid response teams are called for early signs of clinical deterioration to prevent crises."
         },
         {
           id: 16,
           question: "What indicates extravasation?",
           options: [
-            "Mild discomfort",
             "Tissue damage from vesicant",
-            "Slight redness",
-            "Bruising only"
+            "Mild discomfort",
+            "Bruising only",
+            "Slight redness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Extravasation involves tissue damage from vesicant medications leaking into surrounding tissue."
         },
         {
           id: 17,
           question: "What represents ventricular repolarization?",
           options: [
-            "P wave",
-            "QRS complex",
             "T wave",
-            "PR interval"
+            "P wave",
+            "PR interval",
+            "QRS complex"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The T wave represents ventricular repolarization (recovery)."
         },
         {
           id: 18,
           question: "What is proper CPR compression rate?",
           options: [
-            "60-80 per minute",
-            "80-100 per minute",
             "100-120 per minute",
+            "80-100 per minute",
+            "60-80 per minute",
             "120-140 per minute"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "CPR compression rate should be 100-120 compressions per minute."
         },
         {
           id: 19,
           question: "What monitor confirms endotracheal tube placement?",
           options: [
-            "Pulse oximetry",
             "Capnography",
+            "Pulse oximetry",
             "Blood pressure",
             "Temperature"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Capnography detects exhaled CO2, confirming endotracheal tube placement in trachea."
         },
         {
@@ -1196,11 +1196,11 @@ Advanced clinical skills require technical proficiency, critical thinking, and a
           question: "What is synchronized cardioversion for?",
           options: [
             "Pulseless rhythms",
-            "Unstable tachycardias with pulse",
             "Bradycardia",
-            "Asystole"
+            "Asystole",
+            "Unstable tachycardias with pulse"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Synchronized cardioversion is used for unstable tachycardias when the patient has a pulse."
         }
       ]
@@ -1274,9 +1274,9 @@ Clinical nursing requires adherence to professional standards, ethical principle
           question: "What ethical principle means 'do no harm'?",
           options: [
             "Autonomy",
-            "Beneficence",
+            "Justice",
             "Nonmaleficence",
-            "Justice"
+            "Beneficence"
           ],
           correctAnswer: 2,
           explanation: "Nonmaleficence is the ethical principle of avoiding harm to patients."
@@ -1285,24 +1285,24 @@ Clinical nursing requires adherence to professional standards, ethical principle
           id: 2,
           question: "What does SBAR stand for in communication?",
           options: [
-            "Situation, Background, Assessment, Recommendation",
             "Symptoms, Background, Analysis, Resolution",
-            "Status, Background, Actions, Results",
-            "Situation, Behavior, Assessment, Response"
+            "Situation, Background, Assessment, Recommendation",
+            "Situation, Behavior, Assessment, Response",
+            "Status, Background, Actions, Results"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SBAR is a structured communication format: Situation, Background, Assessment, Recommendation."
         },
         {
           id: 3,
           question: "What is required for informed consent?",
           options: [
+            "Doctor's approval only",
             "Patient signature only",
             "Understanding of procedure, risks, benefits, alternatives",
-            "Family agreement",
-            "Doctor's approval only"
+            "Family agreement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Informed consent requires patient understanding of the procedure, risks, benefits, and alternatives."
         },
         {
@@ -1310,23 +1310,23 @@ Clinical nursing requires adherence to professional standards, ethical principle
           question: "What precautions are used for all patients?",
           options: [
             "Contact precautions",
-            "Standard precautions",
             "Droplet precautions",
-            "Airborne precautions"
+            "Airborne precautions",
+            "Standard precautions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Standard precautions (hand hygiene, PPE) are used for all patient care."
         },
         {
           id: 5,
           question: "What is beneficence?",
           options: [
-            "Respecting autonomy",
             "Doing good for patients",
+            "Respecting autonomy",
             "Avoiding harm",
             "Being truthful"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Beneficence is the ethical principle of acting in the patient's best interest."
         },
         {
@@ -1334,9 +1334,9 @@ Clinical nursing requires adherence to professional standards, ethical principle
           question: "How should documentation errors be corrected?",
           options: [
             "Erase completely",
-            "Use correction fluid",
+            "Ignore and rewrite",
             "Draw single line, initial, date, write correction",
-            "Ignore and rewrite"
+            "Use correction fluid"
           ],
           correctAnswer: 2,
           explanation: "Draw a single line through error, initial and date, then write correction to maintain record integrity."
@@ -1345,60 +1345,60 @@ Clinical nursing requires adherence to professional standards, ethical principle
           id: 7,
           question: "What is just culture?",
           options: [
-            "Punishing all errors",
             "Focusing on system improvement rather than individual blame",
-            "Ignoring errors",
-            "Only reporting major errors"
+            "Punishing all errors",
+            "Only reporting major errors",
+            "Ignoring errors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Just culture focuses on system improvements while holding individuals accountable for reckless behavior."
         },
         {
           id: 8,
           question: "What transmission precaution for tuberculosis?",
           options: [
-            "Contact",
-            "Droplet",
             "Airborne",
+            "Droplet",
+            "Contact",
             "Standard only"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Airborne precautions with N95 respirator are required for tuberculosis."
         },
         {
           id: 9,
           question: "What ethical principle involves truth-telling?",
           options: [
-            "Autonomy",
             "Veracity",
+            "Justice",
             "Fidelity",
-            "Justice"
+            "Autonomy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Veracity is the ethical principle of truthfulness and honesty."
         },
         {
           id: 10,
           question: "When should incidents be reported?",
           options: [
-            "Only if serious",
-            "Promptly after occurrence",
             "At end of shift",
-            "Only if witnessed"
+            "Only if witnessed",
+            "Only if serious",
+            "Promptly after occurrence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Incidents should be reported promptly to ensure timely investigation and intervention."
         },
         {
           id: 11,
           question: "What is closed-loop communication?",
           options: [
-            "Speaking clearly",
             "Receiver repeats back message for verification",
-            "Using medical terminology",
-            "Writing everything down"
+            "Writing everything down",
+            "Speaking clearly",
+            "Using medical terminology"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Closed-loop communication involves the receiver repeating back instructions to verify understanding."
         },
         {
@@ -1406,8 +1406,8 @@ Clinical nursing requires adherence to professional standards, ethical principle
           question: "What is included in standard precautions?",
           options: [
             "Hand hygiene and appropriate PPE",
-            "Only gloves for all care",
             "Masks for all patients",
+            "Only gloves for all care",
             "Gowns for medication administration"
           ],
           correctAnswer: 0,
@@ -1418,45 +1418,45 @@ Clinical nursing requires adherence to professional standards, ethical principle
           question: "What is evidence-based practice?",
           options: [
             "Only using personal experience",
-            "Integrating research, clinical expertise, patient values",
             "Following doctor's orders exactly",
-            "Using traditional methods only"
+            "Using traditional methods only",
+            "Integrating research, clinical expertise, patient values"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Evidence-based practice combines research evidence with clinical expertise and patient preferences."
         },
         {
           id: 14,
           question: "What ethical principle involves keeping promises?",
           options: [
-            "Autonomy",
             "Fidelity",
+            "Autonomy",
             "Veracity",
             "Justice"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Fidelity is the ethical principle of keeping commitments and promises."
         },
         {
           id: 15,
           question: "What should be done with used needles?",
           options: [
-            "Recap carefully",
-            "Place in sharps container immediately",
+            "Throw in regular trash",
             "Leave at bedside",
-            "Throw in regular trash"
+            "Place in sharps container immediately",
+            "Recap carefully"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Used needles must be disposed of immediately in puncture-resistant sharps containers."
         },
         {
           id: 16,
           question: "What is patient autonomy?",
           options: [
-            "Making decisions for patients",
+            "Doing what's medically best",
             "Respecting patient's right to self-determination",
-            "Following family wishes",
-            "Doing what's medically best"
+            "Making decisions for patients",
+            "Following family wishes"
           ],
           correctAnswer: 1,
           explanation: "Autonomy respects the patient's right to make informed decisions about their care."
@@ -1465,48 +1465,48 @@ Clinical nursing requires adherence to professional standards, ethical principle
           id: 17,
           question: "When are contact precautions used?",
           options: [
-            "For airborne diseases",
             "For diseases spread by direct or indirect contact",
+            "For airborne diseases",
             "For all infections",
             "Only for wound infections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Contact precautions prevent spread of organisms through direct or indirect contact."
         },
         {
           id: 18,
           question: "What is constructive feedback?",
           options: [
-            "Only positive comments",
-            "Specific, behavior-focused, aimed at improvement",
             "Personal criticism",
-            "Public humiliation"
+            "Public humiliation",
+            "Specific, behavior-focused, aimed at improvement",
+            "Only positive comments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Constructive feedback is specific, focuses on behaviors, and aims to improve performance."
         },
         {
           id: 19,
           question: "What is HIPAA?",
           options: [
+            "Hospital Information Privacy and Access Act",
             "Health Insurance Portability and Accountability Act",
-            "Hospital Infection Prevention and Assessment Act",
             "Healthcare Improvement and Patient Protection Act",
-            "Hospital Information Privacy and Access Act"
+            "Hospital Infection Prevention and Assessment Act"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "HIPAA protects patient health information privacy and security."
         },
         {
           id: 20,
           question: "What is resilience in nursing?",
           options: [
-            "Never making mistakes",
             "Ability to adapt and recover from stress",
+            "Never making mistakes",
             "Working long hours",
             "Ignoring emotional responses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Resilience is the ability to adapt to stress and recover from difficult experiences."
         }
       ]
@@ -1587,9 +1587,9 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           id: 1,
           question: "What leadership style inspires and motivates teams?",
           options: [
-            "Autocratic",
-            "Transformational",
             "Laissez-faire",
+            "Transformational",
+            "Autocratic",
             "Transactional"
           ],
           correctAnswer: 1,
@@ -1599,48 +1599,48 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           id: 2,
           question: "What does PDSA stand for in quality improvement?",
           options: [
-            "Plan, Do, Study, Act",
-            "Prepare, Develop, Study, Apply",
             "Plan, Develop, Study, Achieve",
-            "Prepare, Do, Study, Apply"
+            "Prepare, Develop, Study, Apply",
+            "Prepare, Do, Study, Apply",
+            "Plan, Do, Study, Act"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PDSA cycles: Plan (change), Do (implement), Study (results), Act (adjust)."
         },
         {
           id: 3,
           question: "What is emotional intelligence?",
           options: [
-            "High IQ",
             "Ability to recognize and manage emotions",
+            "High IQ",
             "Medical knowledge",
             "Technical skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Emotional intelligence involves self-awareness, self-regulation, empathy, and social skills."
         },
         {
           id: 4,
           question: "What should be considered when delegating?",
           options: [
-            "Only task urgency",
-            "Staff competencies and task requirements",
+            "Time of day only",
             "Personal preferences",
-            "Time of day only"
+            "Staff competencies and task requirements",
+            "Only task urgency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Delegation should consider staff competencies, task complexity, and supervision needs."
         },
         {
           id: 5,
           question: "What leadership style adapts to situations?",
           options: [
-            "Situational",
-            "Autocratic",
             "Democratic",
-            "Bureaucratic"
+            "Autocratic",
+            "Bureaucratic",
+            "Situational"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Situational leadership adapts style based on team members' competence and commitment levels."
         },
         {
@@ -1648,11 +1648,11 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           question: "What is root cause analysis?",
           options: [
             "Blaming individuals",
-            "Identifying underlying system issues",
             "Ignoring problems",
+            "Identifying underlying system issues",
             "Punishing errors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Root cause analysis identifies underlying system issues rather than blaming individuals."
         },
         {
@@ -1660,11 +1660,11 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           question: "What is servant leadership?",
           options: [
             "Controlling team completely",
-            "Focusing on serving and empowering others",
             "Making all decisions alone",
+            "Focusing on serving and empowering others",
             "Prioritizing personal goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Servant leadership focuses on serving team members and empowering their development."
         },
         {
@@ -1673,8 +1673,8 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           options: [
             "One-time training",
             "Standardizing successful changes",
-            "Ignoring feedback",
-            "Frequent major changes"
+            "Frequent major changes",
+            "Ignoring feedback"
           ],
           correctAnswer: 1,
           explanation: "Standardizing successful changes integrates them into routine practice for sustainability."
@@ -1685,8 +1685,8 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           options: [
             "Physical safety only",
             "Feeling safe to speak up without fear",
-            "Avoiding all conflicts",
-            "Always agreeing with leaders"
+            "Always agreeing with leaders",
+            "Avoiding all conflicts"
           ],
           correctAnswer: 1,
           explanation: "Psychological safety allows team members to voice concerns and ideas without fear of negative consequences."
@@ -1697,8 +1697,8 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           options: [
             "Only number of patients",
             "Patient acuity and staff competencies",
-            "Staff preferences only",
-            "Budget constraints only"
+            "Budget constraints only",
+            "Staff preferences only"
           ],
           correctAnswer: 1,
           explanation: "Staffing should consider patient acuity, required skills, and staff competencies for safe care."
@@ -1720,11 +1720,11 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           question: "What is mentoring?",
           options: [
             "Criticizing constantly",
+            "Socializing only",
             "Guiding professional development",
-            "Doing work for others",
-            "Socializing only"
+            "Doing work for others"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Mentoring involves guiding and supporting professional growth of less experienced staff."
         },
         {
@@ -1732,11 +1732,11 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           question: "What helps overcome resistance to change?",
           options: [
             "Ignoring concerns",
+            "Threatening consequences",
             "Providing rationale and support",
-            "Forcing compliance",
-            "Threatening consequences"
+            "Forcing compliance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Addressing concerns, providing rationale, and offering support helps overcome resistance."
         },
         {
@@ -1755,72 +1755,72 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
           id: 15,
           question: "What does effective delegation include?",
           options: [
-            "Assigning without explanation",
-            "Clear instructions and authority",
             "No follow-up needed",
-            "Only unpleasant tasks"
+            "Only unpleasant tasks",
+            "Clear instructions and authority",
+            "Assigning without explanation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective delegation includes clear instructions, necessary authority, and appropriate follow-up."
         },
         {
           id: 16,
           question: "What is staff development?",
           options: [
-            "Only formal education",
             "Identifying and addressing learning needs",
+            "Only formal education",
             "Promoting based on seniority",
             "Annual evaluations only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Staff development involves identifying learning needs and providing growth opportunities."
         },
         {
           id: 17,
           question: "What is community engagement?",
           options: [
-            "Only hospital work",
-            "Participating in health promotion activities",
             "Social media use only",
-            "Ignoring community needs"
+            "Ignoring community needs",
+            "Participating in health promotion activities",
+            "Only hospital work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Community engagement involves participating in activities that promote community health."
         },
         {
           id: 18,
           question: "What is time management?",
           options: [
+            "Avoiding all breaks",
             "Working constantly",
             "Prioritizing and using time efficiently",
-            "Doing everything yourself",
-            "Avoiding all breaks"
+            "Doing everything yourself"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Time management involves prioritizing tasks and using time effectively to accomplish goals."
         },
         {
           id: 19,
           question: "What is professional advocacy?",
           options: [
+            "Avoiding professional organizations",
             "Only personal advancement",
-            "Representing nursing interests and values",
             "Criticizing other professions",
-            "Avoiding professional organizations"
+            "Representing nursing interests and values"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Professional advocacy involves representing and advancing nursing interests and values."
         },
         {
           id: 20,
           question: "What fosters positive workplace culture?",
           options: [
-            "Ignoring problems",
-            "Encouraging open communication and recognition",
+            "Avoiding social interactions",
             "Focusing only on productivity",
-            "Avoiding social interactions"
+            "Encouraging open communication and recognition",
+            "Ignoring problems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Positive culture is fostered through open communication, recognition, and supportive environment."
         }
       ]
@@ -1838,12 +1838,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 1,
         question: "What is the Glasgow Coma Scale range?",
         options: [
-          "1-10",
           "3-15",
-          "5-20",
-          "0-12"
+          "0-12",
+          "1-10",
+          "5-20"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Glasgow Coma Scale ranges from 3 (deep unconsciousness) to 15 (fully alert).",
         module: 1
       },
@@ -1851,12 +1851,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 2,
         question: "What is normal capillary refill time?",
         options: [
+          "<10 seconds",
           "<1 second",
-          "<3 seconds",
           "<5 seconds",
-          "<10 seconds"
+          "<3 seconds"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Normal capillary refill is less than 3 seconds.",
         module: 1
       },
@@ -1864,12 +1864,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 3,
         question: "What breath sounds are normal over lung fields?",
         options: [
+          "Tracheal",
           "Bronchial",
           "Vesicular",
-          "Bronchovesicular",
-          "Tracheal"
+          "Bronchovesicular"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Vesicular breath sounds are normal over lung fields.",
         module: 1
       },
@@ -1879,12 +1879,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 4,
         question: "How many rights of medication administration are recommended?",
         options: [
-          "5",
           "7",
           "10",
+          "5",
           "12"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Current practice recommends 10 rights for medication safety.",
         module: 2
       },
@@ -1892,12 +1892,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 5,
         question: "What is normal SpO2 level?",
         options: [
-          ">84%",
-          ">88%",
           ">94%",
-          ">98%"
+          ">98%",
+          ">84%",
+          ">88%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Normal oxygen saturation is greater than 94% on room air.",
         module: 2
       },
@@ -1905,12 +1905,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 6,
         question: "What is normal potassium range?",
         options: [
-          "2.5-3.5 mEq/L",
-          "3.5-5.0 mEq/L",
+          "6.0-7.0 mEq/L",
           "5.0-6.0 mEq/L",
-          "6.0-7.0 mEq/L"
+          "2.5-3.5 mEq/L",
+          "3.5-5.0 mEq/L"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Normal serum potassium is 3.5-5.0 mEq/L.",
         module: 2
       },
@@ -1920,10 +1920,10 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 7,
         question: "What is normal fasting blood glucose?",
         options: [
-          "50-70 mg/dL",
+          "125-150 mg/dL",
           "70-100 mg/dL",
           "100-125 mg/dL",
-          "125-150 mg/dL"
+          "50-70 mg/dL"
         ],
         correctAnswer: 1,
         explanation: "Normal fasting blood glucose is 70-100 mg/dL.",
@@ -1933,12 +1933,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 8,
         question: "What is normal fetal heart rate?",
         options: [
+          "200-240 bpm",
           "80-110 bpm",
-          "110-160 bpm",
           "160-200 bpm",
-          "200-240 bpm"
+          "110-160 bpm"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Normal fetal heart rate is 110-160 beats per minute.",
         module: 3
       },
@@ -1946,12 +1946,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 9,
         question: "What is normal CVP range?",
         options: [
-          "0-2 mmHg",
-          "2-6 mmHg",
+          "10-14 mmHg",
           "6-10 mmHg",
-          "10-14 mmHg"
+          "0-2 mmHg",
+          "2-6 mmHg"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Normal central venous pressure is 2-6 mmHg.",
         module: 3
       },
@@ -1961,12 +1961,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 10,
         question: "What formula calculates mL/hr infusion rate?",
         options: [
-          "Volume × hours",
-          "Volume ÷ hours",
+          "Volume + hours",
           "Hours ÷ volume",
-          "Volume + hours"
+          "Volume × hours",
+          "Volume ÷ hours"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "mL/hr = total volume (mL) ÷ total hours.",
         module: 4
       },
@@ -1974,12 +1974,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 11,
         question: "What indicates IV infiltration?",
         options: [
+          "Bleeding",
           "Fever",
-          "Swelling and coolness at site",
           "Red streak up arm",
-          "Bleeding"
+          "Swelling and coolness at site"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Infiltration presents as swelling and coolness at IV site.",
         module: 4
       },
@@ -1987,10 +1987,10 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 12,
         question: "What is proper CPR compression depth?",
         options: [
-          "1-1.5 inches",
+          "3-4 inches",
           "2-2.4 inches",
           "2.5-3 inches",
-          "3-4 inches"
+          "1-1.5 inches"
         ],
         correctAnswer: 1,
         explanation: "Adult CPR compression depth should be 2-2.4 inches.",
@@ -2002,12 +2002,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 13,
         question: "What ethical principle means 'do no harm'?",
         options: [
-          "Autonomy",
           "Beneficence",
-          "Nonmaleficence",
-          "Justice"
+          "Justice",
+          "Autonomy",
+          "Nonmaleficence"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Nonmaleficence is the principle of avoiding harm.",
         module: 5
       },
@@ -2015,12 +2015,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 14,
         question: "What does SBAR stand for?",
         options: [
-          "Situation, Background, Assessment, Recommendation",
+          "Situation, Behavior, Assessment, Response",
           "Symptoms, Background, Analysis, Resolution",
-          "Status, Background, Actions, Results",
-          "Situation, Behavior, Assessment, Response"
+          "Situation, Background, Assessment, Recommendation",
+          "Status, Background, Actions, Results"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "SBAR: Situation, Background, Assessment, Recommendation.",
         module: 5
       },
@@ -2028,12 +2028,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 15,
         question: "What precautions are used for all patients?",
         options: [
-          "Contact precautions",
           "Standard precautions",
           "Droplet precautions",
-          "Airborne precautions"
+          "Airborne precautions",
+          "Contact precautions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Standard precautions are used for all patient care.",
         module: 5
       },
@@ -2043,12 +2043,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 16,
         question: "What leadership style inspires and motivates?",
         options: [
-          "Autocratic",
           "Transformational",
+          "Transactional",
           "Laissez-faire",
-          "Transactional"
+          "Autocratic"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Transformational leadership inspires and motivates teams.",
         module: 6
       },
@@ -2057,9 +2057,9 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         question: "What does PDSA stand for?",
         options: [
           "Plan, Do, Study, Act",
-          "Prepare, Develop, Study, Apply",
+          "Prepare, Do, Study, Apply",
           "Plan, Develop, Study, Achieve",
-          "Prepare, Do, Study, Apply"
+          "Prepare, Develop, Study, Apply"
         ],
         correctAnswer: 0,
         explanation: "PDSA: Plan, Do, Study, Act for quality improvement.",
@@ -2069,12 +2069,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 18,
         question: "What is emotional intelligence?",
         options: [
-          "High IQ",
           "Ability to recognize and manage emotions",
-          "Medical knowledge",
-          "Technical skills"
+          "Technical skills",
+          "High IQ",
+          "Medical knowledge"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Emotional intelligence involves recognizing and managing emotions.",
         module: 6
       },
@@ -2084,12 +2084,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 19,
         question: "What represents atrial depolarization on ECG?",
         options: [
-          "P wave",
           "QRS complex",
-          "T wave",
-          "U wave"
+          "P wave",
+          "U wave",
+          "T wave"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "P wave represents atrial depolarization.",
         module: 4
       },
@@ -2097,9 +2097,9 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 20,
         question: "What is proper endotracheal tube cuff pressure?",
         options: [
-          "10-15 cm H2O",
-          "20-30 cm H2O",
           "30-40 cm H2O",
+          "20-30 cm H2O",
+          "10-15 cm H2O",
           "40-50 cm H2O"
         ],
         correctAnswer: 1,
@@ -2110,12 +2110,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 21,
         question: "What is normal sinus rhythm rate?",
         options: [
-          "40-60 bpm",
-          "60-100 bpm",
           "100-150 bpm",
-          "150-200 bpm"
+          "40-60 bpm",
+          "150-200 bpm",
+          "60-100 bpm"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Normal sinus rhythm rate is 60-100 bpm.",
         module: 4
       },
@@ -2123,12 +2123,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 22,
         question: "What is informed consent requirement?",
         options: [
-          "Patient signature only",
-          "Understanding of procedure, risks, benefits, alternatives",
           "Family agreement",
-          "Doctor's approval only"
+          "Patient signature only",
+          "Doctor's approval only",
+          "Understanding of procedure, risks, benefits, alternatives"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Informed consent requires understanding of procedure, risks, benefits, and alternatives.",
         module: 5
       },
@@ -2136,12 +2136,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 23,
         question: "What is beneficence?",
         options: [
+          "Being truthful",
           "Respecting autonomy",
-          "Doing good for patients",
           "Avoiding harm",
-          "Being truthful"
+          "Doing good for patients"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Beneficence is acting in patient's best interest.",
         module: 5
       },
@@ -2149,12 +2149,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 24,
         question: "What is evidence-based practice?",
         options: [
-          "Only using personal experience",
-          "Integrating research, clinical expertise, patient values",
           "Following doctor's orders exactly",
-          "Using traditional methods only"
+          "Using traditional methods only",
+          "Only using personal experience",
+          "Integrating research, clinical expertise, patient values"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Evidence-based practice combines research, expertise, and patient values.",
         module: 5
       },
@@ -2162,12 +2162,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 25,
         question: "What should be considered when delegating?",
         options: [
-          "Only task urgency",
-          "Staff competencies and task requirements",
+          "Time of day only",
           "Personal preferences",
-          "Time of day only"
+          "Staff competencies and task requirements",
+          "Only task urgency"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Delegation should consider staff competencies and task requirements.",
         module: 6
       },
@@ -2175,12 +2175,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 26,
         question: "What is root cause analysis?",
         options: [
-          "Blaming individuals",
-          "Identifying underlying system issues",
           "Ignoring problems",
-          "Punishing errors"
+          "Punishing errors",
+          "Identifying underlying system issues",
+          "Blaming individuals"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Root cause analysis identifies system issues, not individual blame.",
         module: 6
       },
@@ -2188,12 +2188,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 27,
         question: "What is servant leadership?",
         options: [
-          "Controlling team completely",
-          "Focusing on serving and empowering others",
+          "Prioritizing personal goals",
           "Making all decisions alone",
-          "Prioritizing personal goals"
+          "Focusing on serving and empowering others",
+          "Controlling team completely"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Servant leadership focuses on serving and empowering team members.",
         module: 6
       },
@@ -2201,12 +2201,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 28,
         question: "What stage pressure ulcer shows non-blanchable erythema?",
         options: [
-          "Stage I",
+          "Stage IV",
           "Stage II",
-          "Stage III",
-          "Stage IV"
+          "Stage I",
+          "Stage III"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Stage I shows non-blanchable erythema with intact skin.",
         module: 1
       },
@@ -2215,11 +2215,11 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         question: "What does the 'Q' in PQRST pain assessment represent?",
         options: [
           "Quantity",
-          "Quality",
           "Question",
+          "Quality",
           "Quickness"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Q stands for Quality - describing pain characteristics.",
         module: 1
       },
@@ -2227,12 +2227,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 30,
         question: "What BMI range is normal?",
         options: [
-          "<18.5",
-          "18.5-24.9",
+          "30-34.9",
           "25-29.9",
-          "30-34.9"
+          "18.5-24.9",
+          "<18.5"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Normal BMI is 18.5-24.9 for adults.",
         module: 1
       },
@@ -2240,12 +2240,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 31,
         question: "What angle for subcutaneous injections?",
         options: [
-          "15-30 degrees",
-          "45-90 degrees",
+          "10-20 degrees",
           "90 degrees only",
-          "10-20 degrees"
+          "45-90 degrees",
+          "15-30 degrees"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Subcutaneous injections are given at 45-90 degree angle.",
         module: 2
       },
@@ -2253,12 +2253,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 32,
         question: "What dressing is best for moderate-heavy exudate?",
         options: [
-          "Transparent film",
           "Hydrocolloid",
-          "Alginate",
-          "Gauze"
+          "Transparent film",
+          "Gauze",
+          "Alginate"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Alginate dressings absorb moderate-heavy exudate.",
         module: 2
       },
@@ -2268,10 +2268,10 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         options: [
           "Nasal cannula",
           "Simple mask",
-          "Venturi mask",
-          "Face tent"
+          "Face tent",
+          "Venturi mask"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Venturi masks deliver specific oxygen concentrations.",
         module: 2
       },
@@ -2279,12 +2279,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 34,
         question: "What does ABCDE 'E' stand for in trauma?",
         options: [
-          "EKG",
-          "Exposure",
+          "Emergency",
           "Evaluation",
-          "Emergency"
+          "EKG",
+          "Exposure"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "E stands for Exposure in trauma assessment.",
         module: 3
       },
@@ -2293,11 +2293,11 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         question: "What is normal MAP?",
         options: [
           ">45 mmHg",
+          ">75 mmHg",
           ">55 mmHg",
-          ">65 mmHg",
-          ">75 mmHg"
+          ">65 mmHg"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Normal mean arterial pressure is >65 mmHg.",
         module: 3
       },
@@ -2306,11 +2306,11 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         question: "What characterizes delirium?",
         options: [
           "Gradual onset",
-          "Sudden onset with fluctuations",
+          "Only at night",
           "Stable over time",
-          "Only at night"
+          "Sudden onset with fluctuations"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Delirium features acute onset with fluctuating course.",
         module: 3
       },
@@ -2318,12 +2318,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 37,
         question: "How long limit suctioning?",
         options: [
-          "<5 seconds",
-          "<15 seconds",
           "<30 seconds",
-          "<60 seconds"
+          "<5 seconds",
+          "<60 seconds",
+          "<15 seconds"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Suctioning should be limited to <15 seconds.",
         module: 4
       },
@@ -2331,12 +2331,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 38,
         question: "What rhythm has no P waves and is irregular?",
         options: [
-          "Normal sinus",
-          "Atrial fibrillation",
+          "Sinus bradycardia",
           "Ventricular tachycardia",
-          "Sinus bradycardia"
+          "Normal sinus",
+          "Atrial fibrillation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Atrial fibrillation has irregular rhythm with no P waves.",
         module: 4
       },
@@ -2344,12 +2344,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 39,
         question: "What is just culture?",
         options: [
-          "Punishing all errors",
           "Focusing on system improvement",
+          "Punishing all errors",
           "Ignoring errors",
           "Only reporting major errors"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Just culture focuses on system improvement rather than individual blame.",
         module: 5
       },
@@ -2357,12 +2357,12 @@ Clinical leadership involves guiding teams, managing resources, and driving qual
         id: 40,
         question: "What is patient advocacy?",
         options: [
-          "Making decisions for patients",
           "Ensuring patient rights and preferences",
-          "Following doctor's orders only",
-          "Ignoring family input"
+          "Ignoring family input",
+          "Making decisions for patients",
+          "Following doctor's orders only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Patient advocacy involves protecting patient rights and ensuring preferences.",
         module: 6
       }

@@ -350,21 +350,21 @@ Understanding these advanced principles provides the foundation for designing ef
           question: "What is the core philosophy of neurorehabilitation?",
           options: [
             "One-size-fits-all approach",
-            "Patient-centered, individualized treatment",
             "Focus only on physical recovery",
-            "Standardized protocols for all"
+            "Standardized protocols for all",
+            "Patient-centered, individualized treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Neurorehabilitation emphasizes patient-centered, individualized treatment considering physical, cognitive, emotional, and social factors holistically."
         },
         {
           id: 2,
           question: "What does 'learned non-use' refer to?",
           options: [
-            "Intentional avoidance of movement",
+            "Genetic inability to move",
             "Reduced attempts to use affected limb over time",
             "Complete paralysis of limb",
-            "Genetic inability to move"
+            "Intentional avoidance of movement"
           ],
           correctAnswer: 1,
           explanation: "Learned non-use refers to reduced attempts to use an affected limb over time due to early difficulty and success with compensation strategies."
@@ -373,36 +373,36 @@ Understanding these advanced principles provides the foundation for designing ef
           id: 3,
           question: "What is Hebbian learning principle?",
           options: [
-            "Cells that fire apart, wire apart",
-            "Cells that fire together, wire together",
             "All cells fire randomly",
-            "Only specific cells can connect"
+            "Only specific cells can connect",
+            "Cells that fire apart, wire apart",
+            "Cells that fire together, wire together"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hebbian principle states 'cells that fire together, wire together' - synaptic strengthening occurs with repeated co-activation of neurons."
         },
         {
           id: 4,
           question: "What does CIMT stand for?",
           options: [
-            "Comprehensive Integrated Movement Therapy",
             "Constraint-Induced Movement Therapy",
-            "Centralized Intervention Motor Training",
-            "Coordinated Intensive Mobility Treatment"
+            "Comprehensive Integrated Movement Therapy",
+            "Coordinated Intensive Mobility Treatment",
+            "Centralized Intervention Motor Training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CIMT stands for Constraint-Induced Movement Therapy, which involves forced use of affected limb through constraint of unaffected limb."
         },
         {
           id: 5,
           question: "What is a key mechanism of VR neurorehabilitation?",
           options: [
+            "Automatic recovery without effort",
             "Complete isolation from real world",
             "Enhanced engagement through game-like elements",
-            "Elimination of therapist involvement",
-            "Automatic recovery without effort"
+            "Elimination of therapist involvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "VR enhances engagement through game-like elements, provides real-time feedback, adaptive difficulty, and safe practice environments."
         },
         {
@@ -410,11 +410,11 @@ Understanding these advanced principles provides the foundation for designing ef
           question: "What neurotransmitter systems do amphetamines enhance?",
           options: [
             "Only serotonin",
+            "Only GABA",
             "Norepinephrine and dopamine",
-            "Only acetylcholine",
-            "Only GABA"
+            "Only acetylcholine"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Amphetamines enhance norepinephrine and dopamine systems, which can enhance neuroplasticity and motor learning when combined with therapy."
         },
         {
@@ -422,21 +422,21 @@ Understanding these advanced principles provides the foundation for designing ef
           question: "What does TMS use to stimulate the brain?",
           options: [
             "Electrical current through scalp",
-            "Magnetic pulses through scalp",
             "Sound waves through skull",
+            "Magnetic pulses through scalp",
             "Light pulses through skin"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "TMS uses brief magnetic pulses through the scalp to induce electrical currents in underlying brain tissue, modulating neuronal activity."
         },
         {
           id: 8,
           question: "What is anodal tDCS thought to do?",
           options: [
-            "Decrease neuronal excitability",
-            "Increase neuronal excitability",
             "Have no effect on excitability",
-            "Only affect glial cells"
+            "Increase neuronal excitability",
+            "Only affect glial cells",
+            "Decrease neuronal excitability"
           ],
           correctAnswer: 1,
           explanation: "Anodal tDCS is thought to increase neuronal excitability in the brain region under the electrode, potentially enhancing learning and plasticity."
@@ -447,8 +447,8 @@ Understanding these advanced principles provides the foundation for designing ef
           options: [
             "Immediate cell death at injury site",
             "Functional depression in distant connected areas",
-            "Formation of scar tissue",
-            "Swelling around injury site"
+            "Swelling around injury site",
+            "Formation of scar tissue"
           ],
           correctAnswer: 1,
           explanation: "Diaschisis refers to functional depression or disruption in brain areas distant from but connected to the primary injury site."
@@ -458,33 +458,33 @@ Understanding these advanced principles provides the foundation for designing ef
           question: "What is mCIMT?",
           options: [
             "Maximum Constraint-Induced Movement Therapy",
-            "Modified Constraint-Induced Movement Therapy",
             "Motor Control Integration Therapy",
-            "Multisensory Cognitive Integration Training"
+            "Multisensory Cognitive Integration Training",
+            "Modified Constraint-Induced Movement Therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "mCIMT is Modified Constraint-Induced Movement Therapy with reduced constraint time and duration compared to traditional CIMT."
         },
         {
           id: 11,
           question: "What is LTP in neuroplasticity?",
           options: [
-            "Long-term paralysis",
-            "Long-term potentiation",
             "Limited therapeutic potential",
-            "Local tissue perfusion"
+            "Local tissue perfusion",
+            "Long-term paralysis",
+            "Long-term potentiation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "LTP stands for long-term potentiation - persistent strengthening of synapses based on recent patterns of activity, fundamental to learning."
         },
         {
           id: 12,
           question: "What phase has greatest spontaneous recovery?",
           options: [
-            "Chronic phase (>6 months)",
-            "Acute phase (0-3 months)",
             "Maintenance phase",
-            "Pre-injury phase"
+            "Acute phase (0-3 months)",
+            "Pre-injury phase",
+            "Chronic phase (>6 months)"
           ],
           correctAnswer: 1,
           explanation: "The acute phase (0-3 months post-injury) typically shows greatest spontaneous recovery due to edema resolution, reperfusion, and neurochemical rebalancing."
@@ -493,10 +493,10 @@ Understanding these advanced principles provides the foundation for designing ef
           id: 13,
           question: "What does BDNF enhance?",
           options: [
-            "Only neuron survival",
+            "Only inflammation reduction",
             "Synaptic plasticity and neuron growth",
-            "Only blood flow",
-            "Only inflammation reduction"
+            "Only neuron survival",
+            "Only blood flow"
           ],
           correctAnswer: 1,
           explanation: "BDNF (brain-derived neurotrophic factor) enhances synaptic plasticity, promotes neuron survival and growth, and is important for learning and memory."
@@ -505,10 +505,10 @@ Understanding these advanced principles provides the foundation for designing ef
           id: 14,
           question: "What is augmented reality in rehabilitation?",
           options: [
-            "Complete virtual environments",
+            "Audio-only guidance",
             "Digital elements overlaid on real world",
             "Text-only instructions",
-            "Audio-only guidance"
+            "Complete virtual environments"
           ],
           correctAnswer: 1,
           explanation: "Augmented reality overlays digital elements (graphics, information) onto the real-world environment, enhancing rehabilitation tasks with additional feedback."
@@ -518,57 +518,57 @@ Understanding these advanced principles provides the foundation for designing ef
           question: "What is practice-contingent dosing?",
           options: [
             "Medication given at fixed times",
-            "Medication administered before therapy sessions",
+            "Only evening medication",
             "Random medication timing",
-            "Only evening medication"
+            "Medication administered before therapy sessions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Practice-contingent dosing involves administering medications that enhance plasticity specifically before therapy sessions to maximize learning during practice."
         },
         {
           id: 16,
           question: "What does rTMS stand for?",
           options: [
-            "Rapid Transcranial Magnetic Stimulation",
-            "Repetitive Transcranial Magnetic Stimulation",
             "Randomized Therapeutic Motor Stimulation",
-            "Regional Tissue Modulation System"
+            "Regional Tissue Modulation System",
+            "Repetitive Transcranial Magnetic Stimulation",
+            "Rapid Transcranial Magnetic Stimulation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "rTMS stands for repetitive Transcranial Magnetic Stimulation, involving multiple magnetic pulses delivered at specific frequencies for therapeutic effects."
         },
         {
           id: 17,
           question: "What is cathodal tDCS thought to do?",
           options: [
-            "Increase excitability",
-            "Decrease excitability",
+            "Only affect deeper structures",
             "Have bidirectional effects",
-            "Only affect deeper structures"
+            "Increase excitability",
+            "Decrease excitability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cathodal tDCS is thought to decrease neuronal excitability in the brain region under the electrode, potentially useful for inhibiting overactive areas."
         },
         {
           id: 18,
           question: "What is shaping in CIMT?",
           options: [
-            "Physical molding of limbs",
-            "Progressive approximation of target behaviors",
             "Only stretching exercises",
-            "Cognitive restructuring"
+            "Physical molding of limbs",
+            "Cognitive restructuring",
+            "Progressive approximation of target behaviors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Shaping involves progressively approximating target behaviors through small, successive steps toward the goal movement or task."
         },
         {
           id: 19,
           question: "What is a critical period?",
           options: [
-            "Optimal time for any learning",
+            "Any time with intensive training",
             "Time window when specific experiences are essential",
-            "Only early childhood",
-            "Any time with intensive training"
+            "Optimal time for any learning",
+            "Only early childhood"
           ],
           correctAnswer: 1,
           explanation: "Critical periods are specific time windows when particular experiences are essential for normal development of certain functions."
@@ -578,11 +578,11 @@ Understanding these advanced principles provides the foundation for designing ef
           question: "What does DTI measure in neurorehabilitation?",
           options: [
             "Only brain activation",
+            "Only brain volume",
             "White matter integrity and connectivity",
-            "Only blood flow",
-            "Only brain volume"
+            "Only blood flow"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "DTI (diffusion tensor imaging) measures white matter integrity and connectivity, showing structural changes in neural pathways during recovery."
         }
       ]
@@ -975,9 +975,9 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           question: "What does ICF stand for in stroke rehabilitation?",
           options: [
             "International Classification of Functioning",
-            "Integrated Care Framework",
+            "Interdisciplinary Care Formula",
             "Individualized Clinical Follow-up",
-            "Interdisciplinary Care Formula"
+            "Integrated Care Framework"
           ],
           correctAnswer: 0,
           explanation: "ICF stands for International Classification of Functioning, Disability and Health - a framework considering body functions, activities, participation, and environmental factors."
@@ -987,33 +987,33 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           question: "What is early mobilization in stroke rehabilitation?",
           options: [
             "Waiting 1 week before movement",
+            "Movement only in chronic phase",
             "Mobilization within 24-48 hours post-stroke",
-            "Only passive range of motion",
-            "Movement only in chronic phase"
+            "Only passive range of motion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Early mobilization involves getting patients out of bed and moving within 24-48 hours post-stroke, following safety guidelines and medical stability."
         },
         {
           id: 3,
           question: "What is the Bobath/NDT approach?",
           options: [
-            "Only strength training",
             "Inhibition of abnormal patterns, facilitation of normal movement",
             "Only electrical stimulation",
-            "Focus only on compensatory strategies"
+            "Focus only on compensatory strategies",
+            "Only strength training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Bobath/NDT focuses on inhibiting abnormal movement patterns and facilitating normal movement through handling, alignment, and task practice."
         },
         {
           id: 4,
           question: "What is the EXCITE trial protocol for CIMT?",
           options: [
-            "2 hours/day for 2 weeks",
+            "30 minutes/day for 4 weeks",
             "6 hours shaping/day for 10 weekdays",
             "1 hour/week for 6 months",
-            "30 minutes/day for 4 weeks"
+            "2 hours/day for 2 weeks"
           ],
           correctAnswer: 1,
           explanation: "The EXCITE trial protocol involved 6 hours of shaping practice per day for 10 consecutive weekdays with constraint of unaffected limb."
@@ -1022,12 +1022,12 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           id: 5,
           question: "What does BWSTT stand for?",
           options: [
+            "Basic Weight Support Therapy",
             "Body Weight Supported Treadmill Training",
             "Balanced Walking Strength Training",
-            "Basic Weight Support Therapy",
             "Bilateral Walking Stability Training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BWSTT stands for Body Weight Supported Treadmill Training - walking on a treadmill with partial body weight support through a harness system."
         },
         {
@@ -1035,11 +1035,11 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           question: "What is CIAT?",
           options: [
             "Cognitive Integration Assessment Tool",
-            "Constraint-Induced Aphasia Therapy",
             "Comprehensive Injury Analysis Test",
-            "Central Integration Activation Therapy"
+            "Central Integration Activation Therapy",
+            "Constraint-Induced Aphasia Therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CIAT stands for Constraint-Induced Aphasia Therapy - intensive language therapy forcing verbal communication with massed practice."
         },
         {
@@ -1048,8 +1048,8 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           options: [
             "Memory improvement only",
             "Non-fluent aphasia with good comprehension",
-            "All types of aphasia",
-            "Only cognitive deficits"
+            "Only cognitive deficits",
+            "All types of aphasia"
           ],
           correctAnswer: 1,
           explanation: "MIT (Melodic Intonation Therapy) is used for non-fluent aphasia in patients with good comprehension, using melodic patterns to facilitate speech."
@@ -1058,9 +1058,9 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           id: 8,
           question: "What does APT focus on?",
           options: [
-            "Only memory training",
-            "Hierarchical attention training",
             "Only language skills",
+            "Hierarchical attention training",
+            "Only memory training",
             "Only motor skills"
           ],
           correctAnswer: 1,
@@ -1070,10 +1070,10 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           id: 9,
           question: "What is the chronic phase of stroke recovery?",
           options: [
+            "1-2 weeks post-stroke",
             "0-72 hours post-stroke",
-            "3 days - 3 months post-stroke",
             ">6 months post-stroke",
-            "1-2 weeks post-stroke"
+            "3 days - 3 months post-stroke"
           ],
           correctAnswer: 2,
           explanation: "The chronic phase refers to >6 months post-stroke, focusing on community reintegration, maintenance, and compensation strategies."
@@ -1082,60 +1082,60 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           id: 10,
           question: "What is the Fugl-Meyer Assessment used for?",
           options: [
-            "Only cognitive assessment",
-            "Comprehensive motor recovery assessment",
+            "Only language evaluation",
             "Only balance testing",
-            "Only language evaluation"
+            "Only cognitive assessment",
+            "Comprehensive motor recovery assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Fugl-Meyer Assessment is a comprehensive measure of motor recovery after stroke, assessing multiple domains of motor function."
         },
         {
           id: 11,
           question: "What does SMART stand for in goal setting?",
           options: [
-            "Simple, Measurable, Achievable, Relevant, Time-bound",
             "Specific, Meaningful, Attainable, Realistic, Timely",
             "Specific, Measurable, Achievable, Relevant, Time-bound",
+            "Simple, Measurable, Achievable, Relevant, Time-bound",
             "Strategic, Measurable, Appropriate, Relevant, Timed"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound - a framework for effective rehabilitation goal setting."
         },
         {
           id: 12,
           question: "What is GAS in rehabilitation?",
           options: [
-            "General Assessment Scale",
-            "Goal Attainment Scaling",
             "Gait Analysis System",
-            "Global Activity Score"
+            "Global Activity Score",
+            "Goal Attainment Scaling",
+            "General Assessment Scale"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "GAS stands for Goal Attainment Scaling - an individualized outcome measure where goals are scaled from -2 to +2 achievement levels."
         },
         {
           id: 13,
           question: "What is the LEAPS trial protocol?",
           options: [
+            "Cognitive training daily",
             "Language training protocol",
-            "BWSTT 3 times/week for 12-16 weeks",
             "CIMT for 2 weeks",
-            "Cognitive training daily"
+            "BWSTT 3 times/week for 12-16 weeks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The LEAPS trial protocol for BWSTT involved training 3 times per week for 12-16 weeks with progression based on speed and support level."
         },
         {
           id: 14,
           question: "What is semantic feature analysis used for?",
           options: [
+            "Pain management",
             "Motor recovery",
             "Anomia and word retrieval deficits",
-            "Balance training",
-            "Pain management"
+            "Balance training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Semantic feature analysis is used for anomia and word retrieval deficits in aphasia, involving systematic analysis of word features."
         },
         {
@@ -1143,11 +1143,11 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           question: "What does NMES stand for?",
           options: [
             "Neural Modulation Electrical Stimulation",
-            "Neuromuscular Electrical Stimulation",
+            "Neurological Movement Exercise System",
             "Non-invasive Motor Enhancement System",
-            "Neurological Movement Exercise System"
+            "Neuromuscular Electrical Stimulation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "NMES stands for Neuromuscular Electrical Stimulation - using electrical currents to stimulate nerves to produce muscle contractions."
         },
         {
@@ -1155,11 +1155,11 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           question: "What is the Brunnstrom approach based on?",
           options: [
             "Only compensatory strategies",
-            "Synergy patterns and stages of recovery",
+            "Only balance exercises",
             "Only strength training",
-            "Only balance exercises"
+            "Synergy patterns and stages of recovery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Brunnstrom approach is based on synergy patterns (movement combinations) and defined stages of motor recovery after stroke."
         },
         {
@@ -1167,21 +1167,21 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           question: "What is BATRAC?",
           options: [
             "Balance and Treadmill Recovery Program",
-            "Bilateral Arm Training with Rhythmic Auditory Cueing",
+            "Bimanual Activity Training and Recovery",
             "Basic Arm Therapy Rehabilitation Approach",
-            "Bimanual Activity Training and Recovery"
+            "Bilateral Arm Training with Rhythmic Auditory Cueing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "BATRAC stands for Bilateral Arm Training with Rhythmic Auditory Cueing - symmetrical alternating bilateral arm movements."
         },
         {
           id: 18,
           question: "What is GMT used for?",
           options: [
-            "Only memory problems",
-            "Executive function and goal management",
             "Only attention deficits",
-            "Only motor planning"
+            "Executive function and goal management",
+            "Only motor planning",
+            "Only memory problems"
           ],
           correctAnswer: 1,
           explanation: "GMT (Goal Management Training) is used for executive function deficits, focusing on planning, problem-solving, and task management."
@@ -1190,12 +1190,12 @@ Stroke rehabilitation requires **flexible, evidence-based protocols** adapted to
           id: 19,
           question: "What is prism adaptation therapy for?",
           options: [
-            "Visual acuity improvement",
-            "Spatial neglect rehabilitation",
+            "Memory enhancement",
             "Balance training only",
-            "Memory enhancement"
+            "Spatial neglect rehabilitation",
+            "Visual acuity improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Prism adaptation therapy is used for spatial neglect rehabilitation, using prism glasses that shift visual field to retrain spatial attention."
         },
         {
@@ -1609,10 +1609,10 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           id: 1,
           question: "What GCS score indicates mild TBI?",
           options: [
-            "3-8",
+            "Only 15",
             "9-12",
             "13-15",
-            "Only 15"
+            "3-8"
           ],
           correctAnswer: 2,
           explanation: "Mild TBI is classified as GCS 13-15, with brief loss of consciousness (<30 min) and confusion lasting <24 hours."
@@ -1621,12 +1621,12 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           id: 2,
           question: "What is diffuse axonal injury (DAI)?",
           options: [
-            "Focal brain contusion",
             "Axonal stretching from rotational forces",
-            "Only bleeding in brain",
-            "Only surface injury"
+            "Focal brain contusion",
+            "Only surface injury",
+            "Only bleeding in brain"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "DAI results from rotational acceleration-deceleration forces causing axonal stretching, microtubule disruption, and transport impairment."
         },
         {
@@ -1634,45 +1634,45 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           question: "What is post-traumatic amnesia (PTA)?",
           options: [
             "Permanent memory loss",
-            "Period of confusion and memory loss after TBI",
+            "Memory loss from aging",
             "Only childhood amnesia",
-            "Memory loss from aging"
+            "Period of confusion and memory loss after TBI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "PTA is the period of confusion and memory loss following TBI, used to classify injury severity and guide rehabilitation approaches."
         },
         {
           id: 4,
           question: "What are Rancho Los Amigos Levels used for?",
           options: [
+            "Only language assessment",
             "Only coma assessment",
             "Describing cognitive and behavioral recovery stages",
-            "Only motor function measurement",
-            "Only language assessment"
+            "Only motor function measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Rancho Levels describe cognitive and behavioral recovery stages from coma through purposeful functioning, guiding treatment approaches."
         },
         {
           id: 5,
           question: "What does APT-III protocol focus on?",
           options: [
-            "Only memory training",
-            "Hierarchical attention training",
+            "Only visual perception",
             "Only executive function",
-            "Only visual perception"
+            "Only memory training",
+            "Hierarchical attention training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "APT-III focuses on hierarchical attention training from sustained to selective to alternating to divided attention with real-world application."
         },
         {
           id: 6,
           question: "What is errorless learning?",
           options: [
-            "Learning from mistakes",
+            "Only observational learning",
             "Preventing errors during learning",
-            "Only trial and error learning",
-            "Only observational learning"
+            "Learning from mistakes",
+            "Only trial and error learning"
           ],
           correctAnswer: 1,
           explanation: "Errorless learning involves preventing errors during learning through cuing before mistakes occur, with gradual fading of support."
@@ -1681,12 +1681,12 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           id: 7,
           question: "What does GMT stand for?",
           options: [
-            "General Memory Training",
             "Goal Management Training",
             "Gait Mobility Therapy",
+            "General Memory Training",
             "Group Mindfulness Training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "GMT stands for Goal Management Training - an executive function rehabilitation approach focusing on planning and problem-solving."
         },
         {
@@ -1694,23 +1694,23 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           question: "What is the Modified Ashworth Scale used for?",
           options: [
             "Cognitive assessment",
+            "Balance testing",
             "Spasticity assessment",
-            "Pain measurement",
-            "Balance testing"
+            "Pain measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Modified Ashworth Scale assesses muscle spasticity on a 0-4 scale, from no increase in tone to rigid affected parts."
         },
         {
           id: 9,
           question: "What is vestibular rehabilitation?",
           options: [
+            "Only eye movement training",
             "Only balance exercises",
             "Comprehensive approach for dizziness and balance disorders",
-            "Only eye movement training",
             "Only medication management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vestibular rehabilitation addresses dizziness and balance disorders through habituation, gaze stabilization, and balance training exercises."
         },
         {
@@ -1718,57 +1718,57 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           question: "What is supported employment?",
           options: [
             "Only job finding services",
-            "Work with on-site job coaching and accommodations",
+            "Only resume writing help",
             "Only vocational assessment",
-            "Only resume writing help"
+            "Work with on-site job coaching and accommodations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Supported employment involves job placement with on-site job coaching, workplace modifications, and ongoing support for TBI survivors."
         },
         {
           id: 11,
           question: "What is post-concussion syndrome?",
           options: [
-            "Immediate symptoms only",
-            "Persistent symptoms after mild TBI",
+            "Only psychological symptoms",
             "Only severe TBI symptoms",
-            "Only psychological symptoms"
+            "Persistent symptoms after mild TBI",
+            "Immediate symptoms only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Post-concussion syndrome involves persistent physical, cognitive, and emotional symptoms lasting weeks to months after mild TBI."
         },
         {
           id: 12,
           question: "What does GOSE measure?",
           options: [
-            "Only cognitive function",
             "Global disability and functional outcome",
-            "Only motor recovery",
-            "Only language function"
+            "Only cognitive function",
+            "Only language function",
+            "Only motor recovery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "GOSE (Glasgow Outcome Scale Extended) measures global disability and functional outcome on a 1-8 scale after brain injury."
         },
         {
           id: 13,
           question: "What is cognitive reserve?",
           options: [
+            "Only intelligence quotient",
             "Brain size only",
             "Brain's resilience to damage through pre-injury resources",
-            "Only memory capacity",
-            "Only intelligence quotient"
+            "Only memory capacity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cognitive reserve refers to the brain's resilience to damage through pre-injury education, intellectual activity, and social engagement."
         },
         {
           id: 14,
           question: "What is the Agitated Behavior Scale?",
           options: [
-            "Only aggression measurement",
-            "Standardized assessment of post-TBI agitation",
             "Only restlessness scale",
-            "Only mood assessment"
+            "Standardized assessment of post-TBI agitation",
+            "Only mood assessment",
+            "Only aggression measurement"
           ],
           correctAnswer: 1,
           explanation: "The Agitated Behavior Scale is a standardized tool to assess post-TBI agitation including disinhibition, aggression, and restlessness."
@@ -1777,48 +1777,48 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           id: 15,
           question: "What is intrathecal baclofen used for?",
           options: [
-            "Mild spasticity",
-            "Severe, generalized spasticity",
             "Only pain management",
-            "Only sleep disorders"
+            "Mild spasticity",
+            "Only sleep disorders",
+            "Severe, generalized spasticity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Intrathecal baclofen is used for severe, generalized spasticity not adequately controlled with oral medications, delivered via pump."
         },
         {
           id: 16,
           question: "What is theory of mind deficit?",
           options: [
-            "Memory problems",
             "Difficulty understanding others' perspectives",
-            "Only attention problems",
-            "Only language problems"
+            "Only language problems",
+            "Memory problems",
+            "Only attention problems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Theory of mind deficit involves difficulty understanding others' perspectives, thoughts, and intentions, common after frontal lobe injury."
         },
         {
           id: 17,
           question: "What is the CIQ used for?",
           options: [
-            "Only home integration",
             "Community integration measurement",
-            "Only work participation",
-            "Only social activities"
+            "Only social activities",
+            "Only home integration",
+            "Only work participation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CIQ (Community Integration Questionnaire) measures integration in home, social, and productive activities after brain injury."
         },
         {
           id: 18,
           question: "What is ecological momentary assessment?",
           options: [
-            "One-time testing",
-            "Real-time symptom reporting in natural environment",
             "Only laboratory testing",
-            "Only historical reporting"
+            "Only historical reporting",
+            "One-time testing",
+            "Real-time symptom reporting in natural environment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ecological momentary assessment involves real-time symptom reporting in natural environments using mobile technology for more valid data."
         },
         {
@@ -1826,23 +1826,23 @@ TBI rehabilitation requires **comprehensive, long-term approaches** that address
           question: "What is mindfulness-based intervention?",
           options: [
             "Only meditation practice",
-            "Present-moment focus with non-judgmental awareness",
             "Only relaxation training",
-            "Only cognitive restructuring"
+            "Only cognitive restructuring",
+            "Present-moment focus with non-judgmental awareness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mindfulness involves present-moment focus with non-judgmental awareness, useful for emotional regulation after TBI."
         },
         {
           id: 20,
           question: "What is a driving simulator used for?",
           options: [
-            "Entertainment only",
-            "Risk assessment in safe environment",
+            "Only reaction time measurement",
             "Only visual testing",
-            "Only reaction time measurement"
+            "Entertainment only",
+            "Risk assessment in safe environment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Driving simulators allow risk assessment in a safe virtual environment before on-road testing, evaluating cognitive and motor driving skills."
         }
       ]
@@ -2283,24 +2283,24 @@ SCI rehabilitation is a **lifelong process** requiring comprehensive, individual
           id: 1,
           question: "What does ISNCSCI stand for?",
           options: [
-            "International Standards for Neurological Classification of SCI",
             "Integrated Spinal Neurological Care System Inventory",
-            "International Spinal Cord Injury Network Classification",
-            "Interdisciplinary System for Neurological Care in SCI"
+            "International Standards for Neurological Classification of SCI",
+            "Interdisciplinary System for Neurological Care in SCI",
+            "International Spinal Cord Injury Network Classification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ISNCSCI stands for International Standards for Neurological Classification of Spinal Cord Injury - the standardized system for SCI assessment."
         },
         {
           id: 2,
           question: "What does ASIA A indicate?",
           options: [
-            "Sensory incomplete injury",
             "Complete injury with no motor/sensory function in S4-S5",
+            "Sensory incomplete injury",
             "Motor incomplete injury",
             "Normal function"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ASIA A indicates complete injury with no sensory or motor function preserved in the sacral segments S4-S5."
         },
         {
@@ -2308,44 +2308,44 @@ SCI rehabilitation is a **lifelong process** requiring comprehensive, individual
           question: "What is autonomic dysreflexia?",
           options: [
             "Low blood pressure after injury",
-            "Life-threatening hypertensive crisis in SCI above T6",
             "Normal autonomic function",
+            "Life-threatening hypertensive crisis in SCI above T6",
             "Only gastrointestinal issue"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Autonomic dysreflexia is a life-threatening hypertensive crisis in SCI above T6 triggered by noxious stimuli below injury level."
         },
         {
           id: 4,
           question: "What is clean intermittent catheterization (CIC)?",
           options: [
-            "Permanent indwelling catheter",
             "Intermittent sterile catheter insertion for bladder emptying",
             "Only surgical procedure",
+            "Permanent indwelling catheter",
             "Only for bowel management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CIC involves intermittent sterile catheter insertion to empty the bladder, considered gold standard for many neurogenic bladders."
         },
         {
           id: 5,
           question: "What is the Braden Scale used for?",
           options: [
+            "Pain measurement",
             "Cognitive assessment",
             "Pressure injury risk assessment",
-            "Pain measurement",
             "Spasticity assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Braden Scale assesses pressure injury risk through sensory perception, moisture, activity, mobility, nutrition, and friction factors."
         },
         {
           id: 6,
           question: "What does SCIM measure?",
           options: [
-            "Only motor function",
-            "Functional independence in SCI across multiple domains",
             "Only cognitive function",
+            "Functional independence in SCI across multiple domains",
+            "Only motor function",
             "Only pain levels"
           ],
           correctAnswer: 1,
@@ -2355,10 +2355,10 @@ SCI rehabilitation is a **lifelong process** requiring comprehensive, individual
           id: 7,
           question: "What is tendon transfer surgery?",
           options: [
-            "Only tendon repair",
+            "Only for pain relief",
             "Moving functional tendon to restore lost function",
-            "Only nerve surgery",
-            "Only for pain relief"
+            "Only tendon repair",
+            "Only nerve surgery"
           ],
           correctAnswer: 1,
           explanation: "Tendon transfer surgery moves a functional tendon to restore lost hand function in tetraplegia, requiring extensive rehabilitation."
@@ -2367,10 +2367,10 @@ SCI rehabilitation is a **lifelong process** requiring comprehensive, individual
           id: 8,
           question: "What is neurogenic bowel?",
           options: [
-            "Normal bowel function",
+            "Only diarrhea",
             "Bowel dysfunction from nervous system impairment",
             "Only constipation",
-            "Only diarrhea"
+            "Normal bowel function"
           ],
           correctAnswer: 1,
           explanation: "Neurogenic bowel refers to bowel dysfunction resulting from impaired nervous system control, requiring structured management programs."
@@ -2379,22 +2379,22 @@ SCI rehabilitation is a **lifelong process** requiring comprehensive, individual
           id: 9,
           question: "What is FES walking?",
           options: [
-            "Only exercise program",
             "Functional electrical stimulation for gait restoration",
+            "Only exercise program",
             "Only balance training",
             "Only medication approach"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "FES walking uses patterned electrical stimulation to activate paralyzed muscles for gait restoration in incomplete SCI."
         },
         {
           id: 10,
           question: "What is the minimum clear doorway width for wheelchair access?",
           options: [
-            "24 inches",
+            "36 inches",
             "28 inches",
             "32 inches",
-            "36 inches"
+            "24 inches"
           ],
           correctAnswer: 2,
           explanation: "Minimum 32 inches clear width is required for wheelchair access through doorways to allow safe passage."
@@ -2403,24 +2403,24 @@ SCI rehabilitation is a **lifelong process** requiring comprehensive, individual
           id: 11,
           question: "What does the International Classification for Hand Surgery classify?",
           options: [
-            "Only nerve injuries",
             "Available muscles for tendon transfer in tetraplegia",
             "Only bone fractures",
-            "Only pain patterns"
+            "Only pain patterns",
+            "Only nerve injuries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "This classification system categorizes available muscles for tendon transfer surgery to restore hand function in tetraplegia."
         },
         {
           id: 12,
           question: "What is upper motor neuron bowel?",
           options: [
-            "Areflexic bowel requiring manual evacuation",
-            "Reflexic bowel with predictable evacuation patterns",
             "Normal bowel function",
-            "Only diarrhea patterns"
+            "Only diarrhea patterns",
+            "Reflexic bowel with predictable evacuation patterns",
+            "Areflexic bowel requiring manual evacuation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Upper motor neuron bowel is reflexic with predictable evacuation patterns, typically managed with scheduled bowel programs."
         },
         {
@@ -2428,95 +2428,95 @@ SCI rehabilitation is a **lifelong process** requiring comprehensive, individual
           question: "What is intrathecal baclofen used for?",
           options: [
             "Mild spasticity",
-            "Severe, generalized spasticity not controlled orally",
             "Only pain management",
+            "Severe, generalized spasticity not controlled orally",
             "Only sleep disorders"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Intrathecal baclofen is delivered via pump for severe, generalized spasticity not adequately controlled with oral medications."
         },
         {
           id: 14,
           question: "What is the purpose of standing programs?",
           options: [
-            "Only for exercise",
             "Multiple benefits including bone density and circulation",
+            "Only for stretching",
             "Only for psychological benefits",
-            "Only for stretching"
+            "Only for exercise"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Standing programs provide multiple benefits including bone density maintenance, spasticity reduction, and improved circulation."
         },
         {
           id: 15,
           question: "What does CIC stand for?",
           options: [
-            "Continuous Indwelling Catheter",
-            "Clean Intermittent Catheterization",
+            "Central Infection Control",
             "Complete Intestinal Care",
-            "Central Infection Control"
+            "Clean Intermittent Catheterization",
+            "Continuous Indwelling Catheter"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CIC stands for Clean Intermittent Catheterization - the gold standard for many neurogenic bladder management programs."
         },
         {
           id: 16,
           question: "What is a bowel program?",
           options: [
+            "Only exercise routine",
             "Only diet plan",
             "Scheduled evacuation protocol for neurogenic bowel",
-            "Only medication schedule",
-            "Only exercise routine"
+            "Only medication schedule"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A bowel program is a scheduled evacuation protocol for neurogenic bowel management, including timing, methods, and dietary components."
         },
         {
           id: 17,
           question: "What is the purpose of wheelchair skills training?",
           options: [
-            "Only basic propulsion",
             "Comprehensive skill development for independence",
-            "Only for sports",
-            "Only for children"
+            "Only basic propulsion",
+            "Only for children",
+            "Only for sports"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Wheelchair skills training develops comprehensive skills for independence including propulsion, transfers, and obstacle negotiation."
         },
         {
           id: 18,
           question: "What does urodynamics assess?",
           options: [
-            "Only kidney function",
             "Bladder storage and emptying function",
+            "Only infection status",
             "Only urine composition",
-            "Only infection status"
+            "Only kidney function"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Urodynamics assesses bladder storage and emptying function through pressure and flow measurements during filling and voiding."
         },
         {
           id: 19,
           question: "What is supported employment?",
           options: [
-            "Only job finding",
             "Work with on-site job coaching and accommodations",
             "Only volunteer work",
+            "Only job finding",
             "Only sheltered workshop"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Supported employment involves work placement with on-site job coaching, workplace modifications, and ongoing support services."
         },
         {
           id: 20,
           question: "What is the Modified Ashworth Scale used for?",
           options: [
-            "Cognitive assessment",
-            "Spasticity assessment",
             "Pain measurement",
-            "Balance testing"
+            "Cognitive assessment",
+            "Balance testing",
+            "Spasticity assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Modified Ashworth Scale assesses muscle spasticity on a 0-4 scale through resistance to passive movement."
         }
       ]
@@ -2961,70 +2961,70 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           id: 1,
           question: "What does MDS-UPDRS assess in Parkinson's disease?",
           options: [
-            "Only motor symptoms",
-            "Comprehensive motor and non-motor symptoms",
             "Only cognitive function",
-            "Only medication side effects"
+            "Only medication side effects",
+            "Comprehensive motor and non-motor symptoms",
+            "Only motor symptoms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "MDS-UPDRS comprehensively assesses both motor and non-motor symptoms of Parkinson's disease across four parts."
         },
         {
           id: 2,
           question: "What is the LSVT BIG protocol?",
           options: [
-            "Only speech therapy",
-            "Amplitude training for movement in Parkinson's",
             "Only medication protocol",
-            "Only surgical intervention"
+            "Only surgical intervention",
+            "Amplitude training for movement in Parkinson's",
+            "Only speech therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "LSVT BIG is an intensive amplitude training protocol for Parkinson's disease focusing on increasing movement size and amplitude."
         },
         {
           id: 3,
           question: "What does EDSS measure in multiple sclerosis?",
           options: [
-            "Only cognitive function",
             "Disability level and functional status",
+            "Only fatigue severity",
             "Only pain levels",
-            "Only fatigue severity"
+            "Only cognitive function"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "EDSS (Expanded Disability Status Scale) measures disability level and functional status in multiple sclerosis from 0 (normal) to 10 (death)."
         },
         {
           id: 4,
           question: "What is energy conservation education?",
           options: [
-            "Only saving electricity",
-            "Pacing and efficiency techniques for fatigue management",
+            "Only medication management",
             "Only exercise restriction",
-            "Only medication management"
+            "Pacing and efficiency techniques for fatigue management",
+            "Only saving electricity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Energy conservation education teaches pacing techniques, priority setting, and work simplification to manage fatigue in chronic conditions."
         },
         {
           id: 5,
           question: "What does UHDRS assess in Huntington's disease?",
           options: [
+            "Only medication response",
             "Only motor symptoms",
             "Comprehensive motor, cognitive, behavioral, functional assessment",
-            "Only genetic markers",
-            "Only medication response"
+            "Only genetic markers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "UHDRS (Unified Huntington's Disease Rating Scale) comprehensively assesses motor, cognitive, behavioral, and functional domains."
         },
         {
           id: 6,
           question: "What does ALSFRS-R measure in ALS?",
           options: [
-            "Only respiratory function",
-            "Functional status across multiple domains",
             "Only muscle strength",
-            "Only pain levels"
+            "Functional status across multiple domains",
+            "Only pain levels",
+            "Only respiratory function"
           ],
           correctAnswer: 1,
           explanation: "ALSFRS-R (ALS Functional Rating Scale-Revised) measures functional status across bulbar, fine motor, gross motor, and respiratory domains."
@@ -3034,21 +3034,21 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           question: "What is augmentative and alternative communication (AAC)?",
           options: [
             "Only sign language",
+            "Only written communication",
             "Communication methods supplementing or replacing speech",
-            "Only speech therapy",
-            "Only written communication"
+            "Only speech therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "AAC includes all forms of communication that supplement or replace speech, from simple boards to high-tech electronic devices."
         },
         {
           id: 8,
           question: "What does CDR measure in dementia?",
           options: [
-            "Only memory function",
-            "Global dementia severity across multiple domains",
             "Only behavioral symptoms",
-            "Only caregiver burden"
+            "Global dementia severity across multiple domains",
+            "Only caregiver burden",
+            "Only memory function"
           ],
           correctAnswer: 1,
           explanation: "CDR (Clinical Dementia Rating) measures global dementia severity across memory, orientation, judgment, community affairs, home/hobbies, and personal care."
@@ -3057,10 +3057,10 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           id: 9,
           question: "What is reality orientation therapy?",
           options: [
-            "Only geographical orientation",
+            "Only behavioral management",
             "Structured approach to improve awareness of time, place, person",
             "Only memory training",
-            "Only behavioral management"
+            "Only geographical orientation"
           ],
           correctAnswer: 1,
           explanation: "Reality orientation therapy uses structured approaches like clocks, calendars, and orientation boards to improve awareness of time, place, and person."
@@ -3069,12 +3069,12 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           id: 10,
           question: "What is the FITT principle in exercise prescription?",
           options: [
-            "Only fitness testing",
             "Framework for Frequency, Intensity, Time, Type of exercise",
             "Only strength training",
+            "Only fitness testing",
             "Only aerobic exercise"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "FITT principle provides framework for exercise prescription: Frequency, Intensity, Time, and Type of exercise, adapted for individual needs."
         },
         {
@@ -3093,58 +3093,58 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           id: 12,
           question: "What is LSVT LOUD?",
           options: [
-            "Only volume control",
-            "Intensive voice treatment for Parkinson's disease",
             "Only articulation therapy",
-            "Only breathing exercises"
+            "Only volume control",
+            "Only breathing exercises",
+            "Intensive voice treatment for Parkinson's disease"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "LSVT LOUD is an intensive voice treatment for Parkinson's disease focusing on increasing vocal loudness and improving sensory calibration."
         },
         {
           id: 13,
           question: "What is the MSFC?",
           options: [
-            "Only walking test",
-            "Multiple Sclerosis Functional Composite assessment",
+            "Only fatigue measure",
             "Only cognitive test",
-            "Only fatigue measure"
+            "Only walking test",
+            "Multiple Sclerosis Functional Composite assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "MSFC (Multiple Sclerosis Functional Composite) assesses lower extremity function, upper extremity function, and cognitive function in MS."
         },
         {
           id: 14,
           question: "What is chorea management in Huntington's disease?",
           options: [
-            "Only medication treatment",
             "Comprehensive approach including environmental adaptations",
+            "Only surgical options",
             "Only exercise restriction",
-            "Only surgical options"
+            "Only medication treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Chorea management includes environmental adaptations, assistive devices, exercise approaches, and energy conservation strategies."
         },
         {
           id: 15,
           question: "What is FVC monitoring in ALS?",
           options: [
-            "Only lung capacity test",
-            "Regular assessment of forced vital capacity for respiratory management",
             "Only exercise capacity",
-            "Only oxygen saturation"
+            "Only oxygen saturation",
+            "Regular assessment of forced vital capacity for respiratory management",
+            "Only lung capacity test"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "FVC (Forced Vital Capacity) monitoring tracks respiratory function decline to guide timing of ventilatory support interventions in ALS."
         },
         {
           id: 16,
           question: "What is mechanical insufflation-exsufflation?",
           options: [
-            "Only breathing exercise",
+            "Only chest physiotherapy",
             "Cough assist technique using positive then negative pressure",
             "Only suctioning method",
-            "Only chest physiotherapy"
+            "Only breathing exercise"
           ],
           correctAnswer: 1,
           explanation: "Mechanical insufflation-exsufflation uses positive pressure to inflate lungs then negative pressure to simulate cough for airway clearance."
@@ -3153,22 +3153,22 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           id: 17,
           question: "What is the NPI used for in dementia?",
           options: [
-            "Only memory assessment",
-            "Neuropsychiatric symptom assessment and caregiver distress",
+            "Only functional assessment",
             "Only cognitive testing",
-            "Only functional assessment"
+            "Neuropsychiatric symptom assessment and caregiver distress",
+            "Only memory assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "NPI (Neuropsychiatric Inventory) assesses 12 neuropsychiatric symptoms in dementia and associated caregiver distress."
         },
         {
           id: 18,
           question: "What is errorless learning in dementia rehabilitation?",
           options: [
-            "Learning from mistakes",
+            "Only observational learning",
             "Preventing errors during learning through proper cueing",
             "Only trial and error learning",
-            "Only observational learning"
+            "Learning from mistakes"
           ],
           correctAnswer: 1,
           explanation: "Errorless learning prevents errors during learning through proper cueing and support, important for memory-impaired individuals."
@@ -3179,8 +3179,8 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           options: [
             "Only sleep disorder",
             "Increased confusion and agitation in late afternoon/evening",
-            "Only wandering behavior",
-            "Only memory worsening at night"
+            "Only memory worsening at night",
+            "Only wandering behavior"
           ],
           correctAnswer: 1,
           explanation: "Sundowning refers to increased confusion, agitation, and behavioral symptoms in late afternoon and evening in dementia."
@@ -3189,12 +3189,12 @@ Neurodegenerative disease rehabilitation requires **flexible, progressive approa
           id: 20,
           question: "What is a multidisciplinary team approach?",
           options: [
-            "Only one specialist",
-            "Collaboration of multiple healthcare professionals",
+            "Only patient self-management",
             "Only family involvement",
-            "Only patient self-management"
+            "Collaboration of multiple healthcare professionals",
+            "Only one specialist"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Multidisciplinary team approach involves collaboration of multiple healthcare professionals with different expertise for comprehensive care."
         }
       ]
@@ -3651,10 +3651,10 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           id: 1,
           question: "What are end-effector robotic devices?",
           options: [
-            "Full exoskeleton systems",
+            "Only for cognitive training",
             "Robots that interact with limb at single point (usually hand)",
             "Only stationary devices",
-            "Only for cognitive training"
+            "Full exoskeleton systems"
           ],
           correctAnswer: 1,
           explanation: "End-effector devices interact with the limb at a single point (usually the hand) and guide movements through planar or 3D workspace."
@@ -3675,12 +3675,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           id: 3,
           question: "What is assist-as-needed control in robotics?",
           options: [
-            "Full robotic control always",
-            "Adaptive assistance based on patient performance",
+            "Only manual therapist control",
             "No assistance provided",
-            "Only manual therapist control"
+            "Full robotic control always",
+            "Adaptive assistance based on patient performance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Assist-as-needed control provides adaptive assistance where the robot only helps as much as needed based on real-time performance."
         },
         {
@@ -3688,69 +3688,69 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           question: "What does HMD stand for in VR systems?",
           options: [
             "High Motion Device",
+            "Haptic Motion Device",
             "Head-Mounted Display",
-            "Hand Motion Detector",
-            "Haptic Motion Device"
+            "Hand Motion Detector"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "HMD stands for Head-Mounted Display - VR headsets that provide immersive visual experiences for rehabilitation applications."
         },
         {
           id: 5,
           question: "What is gamification in rehabilitation?",
           options: [
-            "Only playing commercial video games",
             "Applying game design elements to therapeutic activities",
             "Only competition-based activities",
-            "Only entertainment without therapeutic goals"
+            "Only entertainment without therapeutic goals",
+            "Only playing commercial video games"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Gamification applies game design elements (goals, feedback, rewards) to therapeutic activities to increase engagement and motivation."
         },
         {
           id: 6,
           question: "What is BCI?",
           options: [
-            "Brain Control Interface",
             "Brain-Computer Interface",
             "Body Control Integration",
+            "Brain Control Interface",
             "Basic Cognitive Intervention"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "BCI stands for Brain-Computer Interface - systems that translate brain signals into commands for external devices or feedback."
         },
         {
           id: 7,
           question: "What are IMUs in motion capture?",
           options: [
-            "Only camera systems",
             "Inertial Measurement Units with accelerometers and gyroscopes",
             "Only pressure sensors",
+            "Only camera systems",
             "Only electromagnetic trackers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "IMUs are Inertial Measurement Units containing accelerometers, gyroscopes, and often magnetometers for wearable motion tracking."
         },
         {
           id: 8,
           question: "What is tele-rehabilitation?",
           options: [
-            "Only telephone consultations",
             "Delivery of rehabilitation services via telecommunications technology",
             "Only home exercise sheets",
-            "Only in-clinic therapy"
+            "Only in-clinic therapy",
+            "Only telephone consultations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Tele-rehabilitation delivers rehabilitation assessment and intervention via telecommunications technology, including video, sensors, and remote monitoring."
         },
         {
           id: 9,
           question: "What does sEMG measure?",
           options: [
-            "Only bone movement",
+            "Only blood flow",
             "Muscle electrical activity through surface electrodes",
             "Only joint angles",
-            "Only blood flow"
+            "Only bone movement"
           ],
           correctAnswer: 1,
           explanation: "sEMG (surface electromyography) measures muscle electrical activity through electrodes on the skin surface, useful for biofeedback and control."
@@ -3759,22 +3759,22 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           id: 10,
           question: "What is adaptive control in rehabilitation robotics?",
           options: [
-            "Fixed pre-programmed movements",
             "Real-time adjustment based on patient performance",
+            "Only simple on/off control",
             "Only therapist manual control",
-            "Only simple on/off control"
+            "Fixed pre-programmed movements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Adaptive control involves real-time adjustment of robotic assistance based on patient performance, allowing for progressive challenge and support."
         },
         {
           id: 11,
           question: "What are exoskeleton robotic devices?",
           options: [
-            "Only hand-held devices",
+            "Only for cognitive training",
             "Wearable robots with joint-aligned actuators",
             "Only stationary devices",
-            "Only for cognitive training"
+            "Only hand-held devices"
           ],
           correctAnswer: 1,
           explanation: "Exoskeleton devices are wearable robots with actuators aligned with human joints, providing direct joint-level assistance and control."
@@ -3784,45 +3784,45 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           question: "What is CAREN in VR rehabilitation?",
           options: [
             "Only headset system",
-            "Computer Assisted Rehabilitation Environment with motion platform",
+            "Only visual display",
             "Only hand controller",
-            "Only visual display"
+            "Computer Assisted Rehabilitation Environment with motion platform"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CAREN is a Computer Assisted Rehabilitation Environment featuring motion platforms, projection systems, and motion capture for immersive rehabilitation."
         },
         {
           id: 13,
           question: "What is motor imagery in BCI?",
               options: [
-            "Only physical movement",
             "Imagined movement without physical execution",
-            "Only watching movements",
-            "Only reflexive movements"
+            "Only reflexive movements",
+            "Only physical movement",
+            "Only watching movements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Motor imagery involves mentally rehearsing movements without physical execution, used in BCI systems for control and neurofeedback."
         },
         {
           id: 14,
           question: "What are hybrid BCI systems?",
           options: [
+            "Only research prototypes",
             "Only EEG systems",
             "Combining multiple signal types (e.g., EEG + eye tracking)",
-            "Only invasive systems",
-            "Only research prototypes"
+            "Only invasive systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hybrid BCI systems combine multiple signal types (EEG + eye tracking, EEG + fNIRS) to improve accuracy and reduce calibration requirements."
         },
         {
           id: 15,
           question: "What is asynchronous tele-rehabilitation?",
           options: [
-            "Only live video sessions",
+            "Only group sessions",
             "Store-and-forward or scheduled activities without real-time interaction",
-            "Only in-person therapy",
-            "Only group sessions"
+            "Only live video sessions",
+            "Only in-person therapy"
           ],
           correctAnswer: 1,
           explanation: "Asynchronous tele-rehabilitation involves store-and-forward or scheduled activities without real-time therapist interaction, like home exercise programs."
@@ -3831,12 +3831,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           id: 16,
           question: "What does AI offer in rehabilitation?",
           options: [
+            "Only equipment maintenance",
             "Only automated therapy",
             "Predictive analytics, personalized treatment, adaptive systems",
-            "Only administrative tasks",
-            "Only equipment maintenance"
+            "Only administrative tasks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "AI offers predictive analytics for recovery, personalized treatment planning, adaptive control systems, and data analysis in rehabilitation."
         },
         {
@@ -3845,8 +3845,8 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           options: [
             "Only fashion accessories",
             "Continuous monitoring of movement, physiology, activity",
-            "Only one-time measurements",
-            "Only laboratory use"
+            "Only laboratory use",
+            "Only one-time measurements"
           ],
           correctAnswer: 1,
           explanation: "Wearable sensors enable continuous monitoring of movement, physiology, and activity in real-world environments for assessment and feedback."
@@ -3855,10 +3855,10 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           id: 18,
           question: "What is biofeedback in rehabilitation?",
           options: [
-            "Only verbal feedback",
+            "Only monthly assessments",
             "Real-time information about physiological or movement parameters",
             "Only written reports",
-            "Only monthly assessments"
+            "Only verbal feedback"
           ],
           correctAnswer: 1,
           explanation: "Biofeedback provides real-time information about physiological or movement parameters to enhance awareness and control during rehabilitation."
@@ -3868,21 +3868,21 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
           question: "What is predictive analytics in rehabilitation?",
           options: [
             "Only past data recording",
-            "Using data to predict recovery trajectories and outcomes",
+            "Only patient opinions",
             "Only guesswork",
-            "Only patient opinions"
+            "Using data to predict recovery trajectories and outcomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Predictive analytics uses data patterns to predict recovery trajectories, treatment responses, and outcomes to guide rehabilitation planning."
         },
         {
           id: 20,
           question: "What are implementation considerations for rehabilitation technology?",
           options: [
-            "Only cost factors",
+            "Only research evidence",
             "Clinical workflow, staff training, patient acceptability, evidence base",
-            "Only equipment purchase",
-            "Only research evidence"
+            "Only cost factors",
+            "Only equipment purchase"
           ],
           correctAnswer: 1,
           explanation: "Implementation considerations include clinical workflow integration, staff training, patient acceptability, evidence base, cost-effectiveness, and ethical issues."
@@ -3895,12 +3895,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 1,
       question: "What is neuroplasticity?",
       options: [
-        "Brain's fixed structure",
-        "Brain's ability to change and adapt throughout life",
+        "Only recovery from injury",
         "Only childhood brain development",
-        "Only recovery from injury"
+        "Brain's ability to change and adapt throughout life",
+        "Brain's fixed structure"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Neuroplasticity is the brain's ability to change and adapt by forming new neural connections throughout life in response to experience and learning.",
       module: 1
     },
@@ -3908,9 +3908,9 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 2,
       question: "What does CIMT stand for?",
       options: [
-        "Comprehensive Integrated Movement Therapy",
-        "Constraint-Induced Movement Therapy",
         "Centralized Intervention Motor Training",
+        "Constraint-Induced Movement Therapy",
+        "Comprehensive Integrated Movement Therapy",
         "Coordinated Intensive Mobility Treatment"
       ],
       correctAnswer: 1,
@@ -3922,9 +3922,9 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What does ICF stand for in stroke rehabilitation?",
       options: [
         "International Classification of Functioning",
+        "Interdisciplinary Care Formula",
         "Integrated Care Framework",
-        "Individualized Clinical Follow-up",
-        "Interdisciplinary Care Formula"
+        "Individualized Clinical Follow-up"
       ],
       correctAnswer: 0,
       explanation: "ICF stands for International Classification of Functioning, Disability and Health - a framework considering body functions, activities, participation, and environmental factors.",
@@ -3936,8 +3936,8 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       options: [
         "2 hours/day for 2 weeks",
         "6 hours shaping/day for 10 weekdays",
-        "1 hour/week for 6 months",
-        "30 minutes/day for 4 weeks"
+        "30 minutes/day for 4 weeks",
+        "1 hour/week for 6 months"
       ],
       correctAnswer: 1,
       explanation: "The EXCITE trial protocol involved 6 hours of shaping practice per day for 10 consecutive weekdays with constraint of unaffected limb.",
@@ -3960,12 +3960,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 6,
       question: "What is post-traumatic amnesia (PTA)?",
       options: [
-        "Permanent memory loss",
-        "Period of confusion and memory loss after TBI",
         "Only childhood amnesia",
-        "Memory loss from aging"
+        "Memory loss from aging",
+        "Permanent memory loss",
+        "Period of confusion and memory loss after TBI"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "PTA is the period of confusion and memory loss following TBI, used to classify injury severity and guide rehabilitation approaches.",
       module: 3
     },
@@ -3974,8 +3974,8 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What does ISNCSCI stand for?",
       options: [
         "International Standards for Neurological Classification of SCI",
-        "Integrated Spinal Neurological Care System Inventory",
         "International Spinal Cord Injury Network Classification",
+        "Integrated Spinal Neurological Care System Inventory",
         "Interdisciplinary System for Neurological Care in SCI"
       ],
       correctAnswer: 0,
@@ -3987,11 +3987,11 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What does ASIA A indicate?",
       options: [
         "Sensory incomplete injury",
-        "Complete injury with no motor/sensory function in S4-S5",
+        "Normal function",
         "Motor incomplete injury",
-        "Normal function"
+        "Complete injury with no motor/sensory function in S4-S5"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "ASIA A indicates complete injury with no sensory or motor function preserved in the sacral segments S4-S5.",
       module: 4
     },
@@ -3999,12 +3999,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 9,
       question: "What does MDS-UPDRS assess in Parkinson's disease?",
       options: [
-        "Only motor symptoms",
-        "Comprehensive motor and non-motor symptoms",
+        "Only medication side effects",
         "Only cognitive function",
-        "Only medication side effects"
+        "Only motor symptoms",
+        "Comprehensive motor and non-motor symptoms"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "MDS-UPDRS comprehensively assesses both motor and non-motor symptoms of Parkinson's disease across four parts.",
       module: 5
     },
@@ -4012,12 +4012,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 10,
       question: "What is the LSVT BIG protocol?",
       options: [
-        "Only speech therapy",
-        "Amplitude training for movement in Parkinson's",
         "Only medication protocol",
-        "Only surgical intervention"
+        "Only surgical intervention",
+        "Amplitude training for movement in Parkinson's",
+        "Only speech therapy"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "LSVT BIG is an intensive amplitude training protocol for Parkinson's disease focusing on increasing movement size and amplitude.",
       module: 5
     },
@@ -4025,12 +4025,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 11,
       question: "What are end-effector robotic devices?",
       options: [
+        "Only for cognitive training",
         "Full exoskeleton systems",
         "Robots that interact with limb at single point (usually hand)",
-        "Only stationary devices",
-        "Only for cognitive training"
+        "Only stationary devices"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "End-effector devices interact with the limb at a single point (usually the hand) and guide movements through planar or 3D workspace.",
       module: 6
     },
@@ -4039,11 +4039,11 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What is the Lokomat?",
       options: [
         "Upper extremity robot",
-        "Treadmill-based lower extremity robotic gait trainer",
         "Only balance training device",
+        "Treadmill-based lower extremity robotic gait trainer",
         "Only virtual reality system"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Lokomat is a treadmill-based robotic gait training system with motorized leg orthoses and body weight support for walking rehabilitation.",
       module: 6
     },
@@ -4051,12 +4051,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 13,
       question: "What is Hebbian learning principle?",
       options: [
-        "Cells that fire apart, wire apart",
-        "Cells that fire together, wire together",
+        "Only specific cells can connect",
         "All cells fire randomly",
-        "Only specific cells can connect"
+        "Cells that fire apart, wire apart",
+        "Cells that fire together, wire together"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Hebbian principle states 'cells that fire together, wire together' - synaptic strengthening occurs with repeated co-activation of neurons.",
       module: 1
     },
@@ -4064,12 +4064,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 14,
       question: "What is learned non-use?",
       options: [
-        "Intentional avoidance of movement",
-        "Reduced attempts to use affected limb over time",
         "Complete paralysis of limb",
-        "Genetic inability to move"
+        "Intentional avoidance of movement",
+        "Genetic inability to move",
+        "Reduced attempts to use affected limb over time"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Learned non-use refers to reduced attempts to use an affected limb over time due to early difficulty and success with compensation strategies.",
       module: 1
     },
@@ -4078,11 +4078,11 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What is early mobilization in stroke rehabilitation?",
       options: [
         "Waiting 1 week before movement",
-        "Mobilization within 24-48 hours post-stroke",
         "Only passive range of motion",
-        "Movement only in chronic phase"
+        "Movement only in chronic phase",
+        "Mobilization within 24-48 hours post-stroke"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Early mobilization involves getting patients out of bed and moving within 24-48 hours post-stroke, following safety guidelines and medical stability.",
       module: 2
     },
@@ -4090,12 +4090,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 16,
       question: "What does BWSTT stand for?",
       options: [
-        "Body Weight Supported Treadmill Training",
         "Balanced Walking Strength Training",
-        "Basic Weight Support Therapy",
-        "Bilateral Walking Stability Training"
+        "Bilateral Walking Stability Training",
+        "Body Weight Supported Treadmill Training",
+        "Basic Weight Support Therapy"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "BWSTT stands for Body Weight Supported Treadmill Training - walking on a treadmill with partial body weight support through a harness system.",
       module: 2
     },
@@ -4103,12 +4103,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 17,
       question: "What is diffuse axonal injury (DAI)?",
       options: [
+        "Only bleeding in brain",
         "Focal brain contusion",
         "Axonal stretching from rotational forces",
-        "Only bleeding in brain",
         "Only surface injury"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "DAI results from rotational acceleration-deceleration forces causing axonal stretching, microtubule disruption, and transport impairment.",
       module: 3
     },
@@ -4116,12 +4116,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 18,
       question: "What are Rancho Los Amigos Levels used for?",
       options: [
-        "Only coma assessment",
-        "Describing cognitive and behavioral recovery stages",
         "Only motor function measurement",
-        "Only language assessment"
+        "Only language assessment",
+        "Describing cognitive and behavioral recovery stages",
+        "Only coma assessment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Rancho Levels describe cognitive and behavioral recovery stages from coma through purposeful functioning, guiding treatment approaches.",
       module: 3
     },
@@ -4129,12 +4129,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 19,
       question: "What is autonomic dysreflexia?",
       options: [
+        "Only gastrointestinal issue",
         "Low blood pressure after injury",
         "Life-threatening hypertensive crisis in SCI above T6",
-        "Normal autonomic function",
-        "Only gastrointestinal issue"
+        "Normal autonomic function"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Autonomic dysreflexia is a life-threatening hypertensive crisis in SCI above T6 triggered by noxious stimuli below injury level.",
       module: 4
     },
@@ -4142,12 +4142,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 20,
       question: "What is clean intermittent catheterization (CIC)?",
       options: [
-        "Permanent indwelling catheter",
         "Intermittent sterile catheter insertion for bladder emptying",
+        "Permanent indwelling catheter",
         "Only surgical procedure",
         "Only for bowel management"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "CIC involves intermittent sterile catheter insertion to empty the bladder, considered gold standard for many neurogenic bladders.",
       module: 4
     },
@@ -4155,12 +4155,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 21,
       question: "What does EDSS measure in multiple sclerosis?",
       options: [
+        "Only fatigue severity",
         "Only cognitive function",
         "Disability level and functional status",
-        "Only pain levels",
-        "Only fatigue severity"
+        "Only pain levels"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "EDSS (Expanded Disability Status Scale) measures disability level and functional status in multiple sclerosis from 0 (normal) to 10 (death).",
       module: 5
     },
@@ -4168,12 +4168,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 22,
       question: "What is energy conservation education?",
       options: [
-        "Only saving electricity",
         "Pacing and efficiency techniques for fatigue management",
         "Only exercise restriction",
-        "Only medication management"
+        "Only medication management",
+        "Only saving electricity"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Energy conservation education teaches pacing techniques, priority setting, and work simplification to manage fatigue in chronic conditions.",
       module: 5
     },
@@ -4181,12 +4181,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 23,
       question: "What is assist-as-needed control in robotics?",
       options: [
+        "Only manual therapist control",
         "Full robotic control always",
         "Adaptive assistance based on patient performance",
-        "No assistance provided",
-        "Only manual therapist control"
+        "No assistance provided"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Assist-as-needed control provides adaptive assistance where the robot only helps as much as needed based on real-time performance.",
       module: 6
     },
@@ -4194,9 +4194,9 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 24,
       question: "What does HMD stand for in VR systems?",
       options: [
-        "High Motion Device",
-        "Head-Mounted Display",
         "Hand Motion Detector",
+        "Head-Mounted Display",
+        "High Motion Device",
         "Haptic Motion Device"
       ],
       correctAnswer: 1,
@@ -4207,12 +4207,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 25,
       question: "What is LTP in neuroplasticity?",
       options: [
-        "Long-term paralysis",
         "Long-term potentiation",
         "Limited therapeutic potential",
-        "Local tissue perfusion"
+        "Local tissue perfusion",
+        "Long-term paralysis"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "LTP stands for long-term potentiation - persistent strengthening of synapses based on recent patterns of activity, fundamental to learning.",
       module: 1
     },
@@ -4220,12 +4220,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 26,
       question: "What is shaping in CIMT?",
       options: [
+        "Cognitive restructuring",
         "Physical molding of limbs",
         "Progressive approximation of target behaviors",
-        "Only stretching exercises",
-        "Cognitive restructuring"
+        "Only stretching exercises"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Shaping involves progressively approximating target behaviors through small, successive steps toward the goal movement or task.",
       module: 1
     },
@@ -4233,12 +4233,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 27,
       question: "What is the Bobath/NDT approach?",
       options: [
-        "Only strength training",
         "Inhibition of abnormal patterns, facilitation of normal movement",
-        "Only electrical stimulation",
-        "Focus only on compensatory strategies"
+        "Focus only on compensatory strategies",
+        "Only strength training",
+        "Only electrical stimulation"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Bobath/NDT focuses on inhibiting abnormal movement patterns and facilitating normal movement through handling, alignment, and task practice.",
       module: 2
     },
@@ -4247,11 +4247,11 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What does CIAT stand for?",
       options: [
         "Cognitive Integration Assessment Tool",
-        "Constraint-Induced Aphasia Therapy",
+        "Central Integration Activation Therapy",
         "Comprehensive Injury Analysis Test",
-        "Central Integration Activation Therapy"
+        "Constraint-Induced Aphasia Therapy"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "CIAT stands for Constraint-Induced Aphasia Therapy - intensive language therapy forcing verbal communication with massed practice.",
       module: 2
     },
@@ -4259,12 +4259,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 29,
       question: "What does APT-III protocol focus on?",
       options: [
-        "Only memory training",
         "Hierarchical attention training",
-        "Only executive function",
-        "Only visual perception"
+        "Only memory training",
+        "Only visual perception",
+        "Only executive function"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "APT-III focuses on hierarchical attention training from sustained to selective to alternating to divided attention with real-world application.",
       module: 3
     },
@@ -4285,12 +4285,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 31,
       question: "What is the Braden Scale used for?",
       options: [
-        "Cognitive assessment",
-        "Pressure injury risk assessment",
         "Pain measurement",
-        "Spasticity assessment"
+        "Spasticity assessment",
+        "Pressure injury risk assessment",
+        "Cognitive assessment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "The Braden Scale assesses pressure injury risk through sensory perception, moisture, activity, mobility, nutrition, and friction factors.",
       module: 4
     },
@@ -4298,12 +4298,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 32,
       question: "What does SCIM measure?",
       options: [
-        "Only motor function",
         "Functional independence in SCI across multiple domains",
         "Only cognitive function",
+        "Only motor function",
         "Only pain levels"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "SCIM (Spinal Cord Independence Measure) assesses functional independence in self-care, respiration/sphincters, and mobility domains.",
       module: 4
     },
@@ -4311,10 +4311,10 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 33,
       question: "What does UHDRS assess in Huntington's disease?",
       options: [
-        "Only motor symptoms",
-        "Comprehensive motor, cognitive, behavioral, functional assessment",
         "Only genetic markers",
-        "Only medication response"
+        "Comprehensive motor, cognitive, behavioral, functional assessment",
+        "Only medication response",
+        "Only motor symptoms"
       ],
       correctAnswer: 1,
       explanation: "UHDRS (Unified Huntington's Disease Rating Scale) comprehensively assesses motor, cognitive, behavioral, and functional domains.",
@@ -4326,8 +4326,8 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       options: [
         "Only respiratory function",
         "Functional status across multiple domains",
-        "Only muscle strength",
-        "Only pain levels"
+        "Only pain levels",
+        "Only muscle strength"
       ],
       correctAnswer: 1,
       explanation: "ALSFRS-R (ALS Functional Rating Scale-Revised) measures functional status across bulbar, fine motor, gross motor, and respiratory domains.",
@@ -4337,12 +4337,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 35,
       question: "What is BCI?",
       options: [
+        "Basic Cognitive Intervention",
         "Brain Control Interface",
         "Brain-Computer Interface",
-        "Body Control Integration",
-        "Basic Cognitive Intervention"
+        "Body Control Integration"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "BCI stands for Brain-Computer Interface - systems that translate brain signals into commands for external devices or feedback.",
       module: 6
     },
@@ -4350,12 +4350,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 36,
       question: "What are IMUs in motion capture?",
       options: [
+        "Only pressure sensors",
         "Only camera systems",
         "Inertial Measurement Units with accelerometers and gyroscopes",
-        "Only pressure sensors",
         "Only electromagnetic trackers"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "IMUs are Inertial Measurement Units containing accelerometers, gyroscopes, and often magnetometers for wearable motion tracking.",
       module: 6
     },
@@ -4364,11 +4364,11 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What is a critical period in neuroplasticity?",
       options: [
         "Optimal time for any learning",
-        "Time window when specific experiences are essential",
+        "Any time with intensive training",
         "Only early childhood",
-        "Any time with intensive training"
+        "Time window when specific experiences are essential"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Critical periods are specific time windows when particular experiences are essential for normal development of certain functions.",
       module: 1
     },
@@ -4377,11 +4377,11 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       question: "What is mCIMT?",
       options: [
         "Maximum Constraint-Induced Movement Therapy",
-        "Modified Constraint-Induced Movement Therapy",
         "Motor Control Integration Therapy",
+        "Modified Constraint-Induced Movement Therapy",
         "Multisensory Cognitive Integration Training"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "mCIMT is Modified Constraint-Induced Movement Therapy with reduced constraint time and duration compared to traditional CIMT.",
       module: 1
     },
@@ -4389,12 +4389,12 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 39,
       question: "What is adaptive control in rehabilitation robotics?",
       options: [
-        "Fixed pre-programmed movements",
-        "Real-time adjustment based on patient performance",
         "Only therapist manual control",
-        "Only simple on/off control"
+        "Only simple on/off control",
+        "Fixed pre-programmed movements",
+        "Real-time adjustment based on patient performance"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Adaptive control involves real-time adjustment of robotic assistance based on patient performance, allowing for progressive challenge and support.",
       module: 6
     },
@@ -4402,9 +4402,9 @@ Advanced neurorehabilitation technologies offer **transformative potential** but
       id: 40,
       question: "What is tele-rehabilitation?",
       options: [
-        "Only telephone consultations",
-        "Delivery of rehabilitation services via telecommunications technology",
         "Only home exercise sheets",
+        "Delivery of rehabilitation services via telecommunications technology",
+        "Only telephone consultations",
         "Only in-clinic therapy"
       ],
       correctAnswer: 1,

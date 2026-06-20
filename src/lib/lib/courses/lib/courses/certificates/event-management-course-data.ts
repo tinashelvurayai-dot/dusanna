@@ -62,24 +62,24 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           id: 1,
           question: "What are the three core phases of event management?",
           options: [
+            "Budgeting, marketing, and cleanup",
             "Planning, execution, and evaluation",
             "Concept, design, and delivery",
-            "Budgeting, marketing, and cleanup",
             "Booking, organizing, and celebrating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The three core phases are pre-event planning, event execution, and post-event activities, which include evaluation."
         },
         {
           id: 2,
           question: "What is the most important first step in event planning?",
           options: [
-            "Defining clear objectives",
-            "Setting the budget",
+            "Creating the guest list",
             "Choosing the venue",
-            "Creating the guest list"
+            "Defining clear objectives",
+            "Setting the budget"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Defining clear objectives is crucial because it determines all other planning decisions and how success will be measured."
         },
         {
@@ -98,24 +98,24 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           id: 4,
           question: "When should venue booking typically happen for large events?",
           options: [
-            "6-9 months in advance",
+            "12-18 months in advance",
             "1-2 months in advance",
-            "3-4 months in advance",
-            "12-18 months in advance"
+            "6-9 months in advance",
+            "3-4 months in advance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Large event venues often need to be booked 6-9 months ahead due to limited availability."
         },
         {
           id: 5,
           question: "What should a risk management plan include?",
           options: [
+            "Just vendor contact information",
             "Identification, assessment, prevention, and contingency plans",
             "Only weather-related backup plans",
-            "Just vendor contact information",
             "Only budget adjustments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A complete risk management plan identifies risks, assesses them, develops prevention strategies, and creates contingency plans."
         },
         {
@@ -123,8 +123,8 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           question: "Which element is NOT part of basic event structure?",
           options: [
             "Social media hashtags",
-            "Purpose and goals",
             "Target audience",
+            "Purpose and goals",
             "Budget framework"
           ],
           correctAnswer: 0,
@@ -134,60 +134,60 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           id: 7,
           question: "What should you work backward from when creating a timeline?",
           options: [
-            "The event date",
             "The budget approval date",
-            "The marketing launch date",
-            "The first planning meeting"
+            "The event date",
+            "The first planning meeting",
+            "The marketing launch date"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Always start timeline planning from the event date and work backward to determine when each task must be completed."
         },
         {
           id: 8,
           question: "What is the purpose of a contingency fund?",
           options: [
-            "To cover unexpected costs",
-            "To increase speaker fees",
             "To add extra decorations",
-            "To extend the event duration"
+            "To extend the event duration",
+            "To cover unexpected costs",
+            "To increase speaker fees"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Contingency funds cover unexpected expenses that arise during event planning and execution."
         },
         {
           id: 9,
           question: "Which phase includes final guest confirmations?",
           options: [
-            "1-2 weeks before the event",
+            "The day before the event",
             "3-4 months before the event",
-            "6-9 months before the event",
-            "The day before the event"
+            "1-2 weeks before the event",
+            "6-9 months before the event"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Final guest confirmations typically happen 1-2 weeks before the event for accurate catering and seating."
         },
         {
           id: 10,
           question: "What do clear objectives help you determine?",
           options: [
+            "Only the venue type",
             "All other planning decisions",
             "Only the event theme",
-            "Just the food menu",
-            "Only the venue type"
+            "Just the food menu"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clear objectives guide every aspect of event planning, from budget to venue to programming."
         },
         {
           id: 11,
           question: "What are common budget categories?",
           options: [
-            "Venue, catering, decorations, entertainment, marketing",
-            "Only food and drinks",
+            "Travel expenses only",
             "Just venue and speaker fees",
-            "Travel expenses only"
+            "Only food and drinks",
+            "Venue, catering, decorations, entertainment, marketing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Complete budgets include venue costs, catering, decorations, entertainment, marketing, and contingency funds."
         },
         {
@@ -195,9 +195,9 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           question: "What should you have backup plans for?",
           options: [
             "Critical elements like venue, speakers, and equipment",
-            "Only the weather",
             "Just the catering service",
-            "Only the entertainment"
+            "Only the entertainment",
+            "Only the weather"
           ],
           correctAnswer: 0,
           explanation: "Professional planners create backups for all critical elements that could disrupt the event if they fail."
@@ -207,8 +207,8 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           question: "What does the execution phase include?",
           options: [
             "The week of the event",
-            "Months of planning",
             "Post-event evaluation",
+            "Months of planning",
             "Initial concept development"
           ],
           correctAnswer: 0,
@@ -218,12 +218,12 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           id: 14,
           question: "What question helps define your target audience?",
           options: [
-            "Who needs to attend and why?",
             "What is the budget limit?",
-            "When should we send invitations?",
-            "Where is the nearest venue?"
+            "Where is the nearest venue?",
+            "Who needs to attend and why?",
+            "When should we send invitations?"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Understanding who needs to attend and why helps define and reach your target audience effectively."
         },
         {
@@ -232,8 +232,8 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           options: [
             "Evaluation and follow-up",
             "Only cleaning up",
-            "Just sending thank you notes",
-            "Planning the next event"
+            "Planning the next event",
+            "Just sending thank you notes"
           ],
           correctAnswer: 0,
           explanation: "Post-event activities include evaluation, follow-up with attendees, vendor payments, and reporting."
@@ -243,9 +243,9 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           question: "What is a master timeline?",
           options: [
             "A breakdown of tasks into manageable pieces with deadlines",
+            "The budget spreadsheet",
             "A list of all invited guests",
-            "The final event program",
-            "The budget spreadsheet"
+            "The final event program"
           ],
           correctAnswer: 0,
           explanation: "A master timeline organizes all tasks with deadlines leading up to and following the event."
@@ -254,48 +254,48 @@ Always have backup plans for critical elements like venue, speakers, and equipme
           id: 17,
           question: "What are common event risks?",
           options: [
-            "Bad weather, vendor cancellations, technical failures",
-            "Only budget overruns",
             "Just low attendance",
-            "Only transportation issues"
+            "Only budget overruns",
+            "Only transportation issues",
+            "Bad weather, vendor cancellations, technical failures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Common risks include weather problems, vendor issues, technical failures, and attendance challenges."
         },
         {
           id: 18,
           question: "What should you document in your event binder?",
           options: [
+            "Just the guest list",
             "All risks and responses",
             "Only vendor contracts",
-            "Just the guest list",
             "Only the final budget"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Professional event binders include all planning documents, including risk assessments and contingency plans."
         },
         {
           id: 19,
           question: "What happens during concept development?",
           options: [
-            "Months 6-12 before the event",
             "The week before the event",
+            "Months 6-12 before the event",
             "During the event itself",
             "After the event ends"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Concept development typically happens 6-12 months before large events to establish the foundation."
         },
         {
           id: 20,
           question: "Why assess likelihood and impact of risks?",
           options: [
+            "To increase the budget",
             "To prioritize which risks need most attention",
             "To eliminate all risks completely",
-            "To increase the budget",
             "To change the event date"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Assessing likelihood and impact helps prioritize which risks need prevention strategies and contingency plans."
         }
       ]
@@ -374,9 +374,9 @@ The financial report should include income statement, expense breakdown, attenda
           question: "What is the golden rule of event budgeting?",
           options: [
             "Expenses should never exceed income",
+            "Budget for maximum attendance",
             "Always spend the entire budget",
-            "Income should double expenses",
-            "Budget for maximum attendance"
+            "Income should double expenses"
           ],
           correctAnswer: 0,
           explanation: "The fundamental rule is that expenses must not exceed income to avoid financial loss."
@@ -385,36 +385,36 @@ The financial report should include income statement, expense breakdown, attenda
           id: 2,
           question: "What are fixed costs?",
           options: [
-            "Expenses that don't change with attendance",
             "Costs that vary with each attendee",
+            "Unexpected emergency costs",
             "One-time setup expenses",
-            "Unexpected emergency costs"
+            "Expenses that don't change with attendance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fixed costs like venue rental remain the same regardless of how many people attend."
         },
         {
           id: 3,
           question: "What pricing strategy offers lower prices for early registration?",
           options: [
-            "Early bird pricing",
             "Group discounts",
             "VIP packages",
+            "Early bird pricing",
             "Last-minute pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Early bird pricing encourages early registration by offering discounted rates."
         },
         {
           id: 4,
           question: "What should sponsorship packages offer?",
           options: [
-            "Clear value to the sponsor",
             "Only logo placement",
-            "Free attendance for sponsors",
-            "Unlimited speaking time"
+            "Unlimited speaking time",
+            "Clear value to the sponsor",
+            "Free attendance for sponsors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective sponsorship packages must demonstrate clear benefits and value to attract sponsors."
         },
         {
@@ -433,9 +433,9 @@ The financial report should include income statement, expense breakdown, attenda
           id: 6,
           question: "What should you use conservative estimates for?",
           options: [
-            "Income projections",
-            "Expense calculations",
             "Attendance numbers",
+            "Expense calculations",
+            "Income projections",
             "All of the above"
           ],
           correctAnswer: 3,
@@ -445,48 +445,48 @@ The financial report should include income statement, expense breakdown, attenda
           id: 7,
           question: "What is a common sponsorship level?",
           options: [
-            "Title sponsor",
             "Primary sponsor",
-            "Main sponsor",
-            "Lead sponsor"
+            "Lead sponsor",
+            "Title sponsor",
+            "Main sponsor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Title sponsor is a common top-level sponsorship category."
         },
         {
           id: 8,
           question: "What should budget tracking include?",
           options: [
-            "Item description, estimated cost, actual cost, variance",
-            "Only total amounts",
             "Just vendor names",
+            "Only total amounts",
+            "Item description, estimated cost, actual cost, variance",
             "Only payment dates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Complete tracking includes description, estimates, actual costs, and variances for each item."
         },
         {
           id: 9,
           question: "What is key to managing expenses?",
           options: [
+            "Last-minute purchases",
             "Negotiation",
             "Avoiding deposits",
-            "Last-minute purchases",
             "Using only one vendor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective negotiation with vendors helps control expenses and get better value."
         },
         {
           id: 10,
           question: "What are financial controls?",
           options: [
-            "Processes to prevent overspending",
             "Only budget spreadsheets",
-            "Just bank accounts",
-            "Only cash payments"
+            "Only cash payments",
+            "Processes to prevent overspending",
+            "Just bank accounts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Financial controls include approval processes and spending limits to manage the budget."
         },
         {
@@ -494,9 +494,9 @@ The financial report should include income statement, expense breakdown, attenda
           question: "What is budget variance?",
           options: [
             "Difference between estimated and actual costs",
+            "Different payment methods",
             "Change in attendance numbers",
-            "Variation in ticket prices",
-            "Different payment methods"
+            "Variation in ticket prices"
           ],
           correctAnswer: 0,
           explanation: "Budget variance measures how much actual costs differ from original estimates."
@@ -505,12 +505,12 @@ The financial report should include income statement, expense breakdown, attenda
           id: 12,
           question: "What should a payment schedule align with?",
           options: [
-            "Cash flow timing",
-            "Vendor preferences",
             "Bank holidays",
+            "Vendor preferences",
+            "Cash flow timing",
             "Other events"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Payment schedules should match when you receive income versus when payments are due."
         },
         {
@@ -529,36 +529,36 @@ The financial report should include income statement, expense breakdown, attenda
           id: 14,
           question: "What should post-event financial analysis include?",
           options: [
+            "Only filing receipts",
             "Comparing actual vs budget, calculating profit/loss",
             "Only counting remaining money",
-            "Just thanking sponsors",
-            "Only filing receipts"
+            "Just thanking sponsors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Complete analysis compares performance against budget and calculates financial outcomes."
         },
         {
           id: 15,
           question: "What are one-time costs?",
           options: [
-            "Initial setup expenses",
             "Monthly subscriptions",
             "Annual fees",
-            "Daily operations"
+            "Daily operations",
+            "Initial setup expenses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "One-time costs are incurred once during setup, like website development or design work."
         },
         {
           id: 16,
           question: "What income source requires attractive packages?",
           options: [
+            "Merchandise",
             "Sponsorships",
             "Ticket sales",
-            "Merchandise",
             "Grants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sponsorships need well-designed packages that demonstrate value to potential sponsors."
         },
         {
@@ -578,9 +578,9 @@ The financial report should include income statement, expense breakdown, attenda
           question: "Who should have authority to approve expenses?",
           options: [
             "Budget manager",
-            "Any team member",
+            "All vendors",
             "Only the accountant",
-            "All vendors"
+            "Any team member"
           ],
           correctAnswer: 0,
           explanation: "Designating a budget manager with approval authority helps maintain financial control."
@@ -589,24 +589,24 @@ The financial report should include income statement, expense breakdown, attenda
           id: 19,
           question: "What should financial reports include?",
           options: [
+            "Only attendee names",
             "Income statement, expense breakdown, lessons learned",
-            "Only total profit",
             "Just vendor lists",
-            "Only attendee names"
+            "Only total profit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Comprehensive reports help stakeholders understand financial performance and improve future events."
         },
         {
           id: 20,
           question: "When should you pay final payments?",
           options: [
-            "After services are confirmed",
-            "Before any work begins",
             "During the event",
-            "One year later"
+            "One year later",
+            "Before any work begins",
+            "After services are confirmed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Final payments should be made after confirming services were delivered as agreed."
         }
       ]
@@ -729,8 +729,8 @@ Document all contingency plans and ensure team members know their roles if plans
           question: "What should you never choose a venue based on alone?",
           options: [
             "Price",
-            "Location",
             "Capacity",
+            "Location",
             "Appearance"
           ],
           correctAnswer: 0,
@@ -740,36 +740,36 @@ Document all contingency plans and ensure team members know their roles if plans
           id: 2,
           question: "When should you schedule venue visits?",
           options: [
-            "Same time as your event will occur",
             "Early morning only",
             "Late at night",
-            "During construction"
+            "During construction",
+            "Same time as your event will occur"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Visiting at the same time helps you see lighting, noise, and atmosphere relevant to your event."
         },
         {
           id: 3,
           question: "What is a key venue selection criterion?",
           options: [
-            "Capacity",
             "Parking only",
             "Color scheme",
-            "Owner's name"
+            "Owner's name",
+            "Capacity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Capacity determines if the venue can comfortably hold your expected attendance."
         },
         {
           id: 4,
           question: "What should you bring to venue visits?",
           options: [
-            "Checklist and notebook",
-            "Only a camera",
+            "Sample decorations",
             "Just business cards",
-            "Sample decorations"
+            "Checklist and notebook",
+            "Only a camera"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A checklist ensures you evaluate all important aspects, and notes help remember details."
         },
         {
@@ -788,12 +788,12 @@ Document all contingency plans and ensure team members know their roles if plans
           id: 6,
           question: "What clause covers unavoidable circumstances?",
           options: [
-            "Force majeure",
+            "Payment terms",
             "Cancellation policy",
             "Exclusivity clause",
-            "Payment terms"
+            "Force majeure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Force majeure covers events beyond control like natural disasters or government actions."
         },
         {
@@ -801,9 +801,9 @@ Document all contingency plans and ensure team members know their roles if plans
           question: "What should you take during site inspections?",
           options: [
             "Photographs",
-            "Only measurements",
             "Just mental notes",
-            "Food samples"
+            "Food samples",
+            "Only measurements"
           ],
           correctAnswer: 0,
           explanation: "Photographs document conditions and help remember details when planning later."
@@ -812,60 +812,60 @@ Document all contingency plans and ensure team members know their roles if plans
           id: 8,
           question: "What is included in access and flow inspection?",
           options: [
-            "Emergency exits and signage",
+            "Parking costs only",
             "Only main entrance",
             "Just restroom count",
-            "Parking costs only"
+            "Emergency exits and signage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Access and flow includes entrance, traffic patterns, restrooms, and emergency routes."
         },
         {
           id: 9,
           question: "What should you negotiate in venue contracts?",
           options: [
-            "Favorable terms before signing",
+            "Through email only",
             "Only after the event",
             "During the event setup",
-            "Through email only"
+            "Favorable terms before signing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Negotiate all terms before signing to get the best possible agreement."
         },
         {
           id: 10,
           question: "What does a logistics plan cover?",
           options: [
+            "Decorations colors",
             "Delivery timelines and staff coordination",
-            "Only speaker schedules",
             "Just food menus",
-            "Decorations colors"
+            "Only speaker schedules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Complete logistics plans include delivery schedules, staff coordination, and attendee flow."
         },
         {
           id: 11,
           question: "What is a common negotiation point?",
           options: [
-            "Reducing minimum food spends",
-            "Changing venue name",
+            "Adding windows",
             "Painting the walls",
-            "Adding windows"
+            "Changing venue name",
+            "Reducing minimum food spends"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Reducing minimum food and beverage requirements is a common and valuable negotiation."
         },
         {
           id: 12,
           question: "What should a master schedule integrate?",
           options: [
-            "All logistics elements",
             "Only vendor payments",
+            "Speaker biographies",
             "Just attendee names",
-            "Speaker biographies"
+            "All logistics elements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The master schedule combines all timing elements for coordination."
         },
         {
@@ -873,8 +873,8 @@ Document all contingency plans and ensure team members know their roles if plans
           question: "What is contingency planning for?",
           options: [
             "Common venue issues",
-            "Only perfect scenarios",
             "Next year's event",
+            "Only perfect scenarios",
             "Competitor events"
           ],
           correctAnswer: 0,
@@ -885,9 +885,9 @@ Document all contingency plans and ensure team members know their roles if plans
           question: "Who should review large event contracts?",
           options: [
             "A lawyer",
-            "Only the planner",
             "The venue staff",
-            "Attendees"
+            "Attendees",
+            "Only the planner"
           ],
           correctAnswer: 0,
           explanation: "Legal review protects your interests for significant financial commitments."
@@ -896,12 +896,12 @@ Document all contingency plans and ensure team members know their roles if plans
           id: 15,
           question: "What technical requirement should you check?",
           options: [
-            "Internet speed and reliability",
             "Only wall colors",
             "Just ceiling height",
-            "Floor material"
+            "Floor material",
+            "Internet speed and reliability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Reliable internet is crucial for many modern events with digital components."
         },
         {
@@ -909,9 +909,9 @@ Document all contingency plans and ensure team members know their roles if plans
           question: "What does attendee flow management include?",
           options: [
             "Registration setup and directional signage",
+            "Speaker transportation",
             "Only ticket sales",
-            "Just food service",
-            "Speaker transportation"
+            "Just food service"
           ],
           correctAnswer: 0,
           explanation: "Flow management ensures smooth movement throughout the event space."
@@ -920,12 +920,12 @@ Document all contingency plans and ensure team members know their roles if plans
           id: 17,
           question: "What weather contingency might you need?",
           options: [
-            "Indoor alternatives for outdoor events",
-            "Only sunblock distribution",
             "Just umbrellas for staff",
-            "Hot chocolate service"
+            "Only sunblock distribution",
+            "Hot chocolate service",
+            "Indoor alternatives for outdoor events"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Having indoor backup space protects outdoor events from weather problems."
         },
         {
@@ -934,8 +934,8 @@ Document all contingency plans and ensure team members know their roles if plans
           options: [
             "Critical spaces",
             "Only door widths",
-            "Just window heights",
-            "Light fixture sizes"
+            "Light fixture sizes",
+            "Just window heights"
           ],
           correctAnswer: 0,
           explanation: "Measuring key areas helps with layout planning and equipment placement."
@@ -944,12 +944,12 @@ Document all contingency plans and ensure team members know their roles if plans
           id: 19,
           question: "What is included in staff coordination?",
           options: [
-            "Arrival times and briefing schedules",
+            "Break times only",
             "Only payment amounts",
             "Just uniform colors",
-            "Break times only"
+            "Arrival times and briefing schedules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Proper coordination ensures staff know when to arrive and what to do."
         },
         {
@@ -958,8 +958,8 @@ Document all contingency plans and ensure team members know their roles if plans
           options: [
             "All plans and team member roles",
             "Only weather forecasts",
-            "Just vendor contacts",
-            "Past event photos"
+            "Past event photos",
+            "Just vendor contacts"
           ],
           correctAnswer: 0,
           explanation: "Documented plans ensure everyone knows what to do if contingencies are needed."
@@ -1061,8 +1061,8 @@ Adjust your marketing based on what the data tells you. If registration is slow,
           question: "What should event marketing begin with?",
           options: [
             "Understanding your audience",
-            "Creating a budget",
             "Designing a logo",
+            "Creating a budget",
             "Booking speakers"
           ],
           correctAnswer: 0,
@@ -1072,120 +1072,120 @@ Adjust your marketing based on what the data tells you. If registration is slow,
           id: 2,
           question: "What does a complete marketing plan include?",
           options: [
+            "Just email lists",
             "Target analysis, key messages, channels, timeline, budget",
             "Only social media posts",
-            "Just email lists",
             "Website design only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A comprehensive plan covers audience, messaging, channels, timing, and budget."
         },
         {
           id: 3,
           question: "What should you base attendance goals on?",
           options: [
-            "Venue capacity, budget, past similar events",
-            "Only wishful thinking",
+            "Random numbers",
             "Competitor events",
-            "Random numbers"
+            "Venue capacity, budget, past similar events",
+            "Only wishful thinking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Realistic goals consider practical constraints and historical data."
         },
         {
           id: 4,
           question: "What is integrated marketing?",
           options: [
-            "Multiple channels reinforcing each other",
-            "Only online advertising",
             "Just print materials",
-            "Single channel focus"
+            "Only online advertising",
+            "Single channel focus",
+            "Multiple channels reinforcing each other"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Integrated approaches use coordinated channels for greater impact."
         },
         {
           id: 5,
           question: "What is a common digital marketing channel?",
           options: [
-            "Email marketing",
-            "Newspaper ads",
             "Billboards",
-            "Radio spots"
+            "Email marketing",
+            "Radio spots",
+            "Newspaper ads"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Email allows direct, targeted communication with interested people."
         },
         {
           id: 6,
           question: "What should you focus on in messaging?",
           options: [
-            "Benefits rather than just features",
-            "Only the price",
+            "Venue address",
             "Just the date",
-            "Venue address"
+            "Only the price",
+            "Benefits rather than just features"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Benefits explain what attendees gain, which is more compelling than listing features."
         },
         {
           id: 7,
           question: "What encourages quick registration decisions?",
           options: [
-            "Early bird pricing",
             "Complex forms",
+            "Early bird pricing",
             "Hidden costs",
             "Vague information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Early bird discounts create urgency and reward prompt action."
         },
         {
           id: 8,
           question: "What should a content calendar include?",
           options: [
-            "All marketing communications schedule",
             "Only social media posts",
-            "Just speaker announcements",
-            "Venue photos"
+            "All marketing communications schedule",
+            "Venue photos",
+            "Just speaker announcements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A complete calendar organizes all communications throughout the campaign."
         },
         {
           id: 9,
           question: "What is a key messaging component?",
           options: [
-            "Value proposition",
             "Only contact information",
+            "Sponsor lists",
             "Just legal disclaimers",
-            "Sponsor lists"
+            "Value proposition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The value proposition explains what attendees will gain from the event."
         },
         {
           id: 10,
           question: "What should you track from the beginning?",
           options: [
-            "All marketing metrics",
             "Only final attendance",
+            "All marketing metrics",
             "Just budget spent",
             "Speaker travel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Tracking from start helps understand effectiveness and make adjustments."
         },
         {
           id: 11,
           question: "What creates urgency in promotions?",
           options: [
-            "Limited-time offers",
             "Vague deadlines",
+            "Flexible pricing",
             "Open-ended registration",
-            "Flexible pricing"
+            "Limited-time offers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Time limits encourage faster decision-making and registration."
         },
         {
@@ -1204,96 +1204,96 @@ Adjust your marketing based on what the data tells you. If registration is slow,
           id: 13,
           question: "What is social proof in marketing?",
           options: [
-            "Testimonials or past success stories",
+            "Fancy venues",
             "Only celebrity endorsements",
-            "Just high prices",
-            "Fancy venues"
+            "Testimonials or past success stories",
+            "Just high prices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Social proof uses others' positive experiences to build credibility."
         },
         {
           id: 14,
           question: "What should you reallocate if a channel isn't performing?",
           options: [
-            "Resources to better channels",
-            "Blame to team members",
+            "Budget to unrelated items",
             "Goals downward",
-            "Budget to unrelated items"
+            "Resources to better channels",
+            "Blame to team members"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Move resources to channels delivering better results for your investment."
         },
         {
           id: 15,
           question: "What does group rates encourage?",
           options: [
-            "Teams or organizations attending together",
             "Only individual registration",
             "Last-minute decisions",
+            "Teams or organizations attending together",
             "Price complaints"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Group discounts make it attractive for organizations to send multiple people."
         },
         {
           id: 16,
           question: "What is a traditional marketing channel?",
           options: [
-            "Print materials",
             "Social media ads",
             "Email campaigns",
+            "Print materials",
             "Website banners"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Print materials like brochures and flyers are traditional but still effective."
         },
         {
           id: 17,
           question: "What should you test to see what resonates?",
           options: [
-            "Different messages and offers",
             "Only one approach",
+            "Different messages and offers",
             "Competitor strategies",
             "Random ideas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Testing helps identify the most effective approaches for your audience."
         },
         {
           id: 18,
           question: "What metric tracks registration sources?",
           options: [
-            "How people found your event",
             "Only total numbers",
             "Just payment methods",
-            "Attendee names"
+            "Attendee names",
+            "How people found your event"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Understanding sources helps optimize marketing channel investments."
         },
         {
           id: 19,
           question: "What should you highlight if certain sessions are popular?",
           options: [
-            "Feature them in marketing",
+            "Increase their price",
             "Hide them from view",
             "Cancel them",
-            "Increase their price"
+            "Feature them in marketing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Promoting popular sessions can attract more attendees interested in those topics."
         },
         {
           id: 20,
           question: "What does a call to action provide?",
           options: [
+            "Just speaker bios",
             "Clear instruction for what to do next",
             "Only event history",
-            "Just speaker bios",
             "Venue directions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A strong call to action guides potential attendees toward registration."
         }
       ]
@@ -1463,84 +1463,84 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           id: 1,
           question: "When should setup schedule begin before the event?",
           options: [
-            "2-3 days before",
             "The morning of",
+            "One month before",
             "One week before",
-            "One month before"
+            "2-3 days before"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Starting 2-3 days before allows adequate time for thorough preparation."
         },
         {
           id: 2,
           question: "What should final confirmations include?",
           options: [
-            "Vendor arrivals, speaker schedules, registration numbers",
             "Only food menus",
-            "Just decoration colors",
-            "Weather for next month"
+            "Vendor arrivals, speaker schedules, registration numbers",
+            "Weather for next month",
+            "Just decoration colors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Confirming these key elements ensures everything is ready for event day."
         },
         {
           id: 3,
           question: "What sets a positive tone for the event?",
           options: [
-            "Smooth registration experience",
             "Expensive decorations",
+            "Complex check-in forms",
             "Loud music",
-            "Complex check-in forms"
+            "Smooth registration experience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A welcoming, efficient registration creates a good first impression."
         },
         {
           id: 4,
           question: "How should registration areas be designed?",
           options: [
-            "For efficiency and welcome",
-            "Only for staff convenience",
             "To hide from attendees",
-            "As small as possible"
+            "For efficiency and welcome",
+            "As small as possible",
+            "Only for staff convenience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Well-designed registration balances speed with a welcoming atmosphere."
         },
         {
           id: 5,
           question: "What should staff know for registration?",
           options: [
-            "Event details and problem-solving",
+            "Speaker personal information",
             "Only how to take payments",
             "Just attendee names",
-            "Speaker personal information"
+            "Event details and problem-solving"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Knowledgeable staff can answer questions and solve problems effectively."
         },
         {
           id: 6,
           question: "What is essential for real-time problem solving?",
           options: [
-            "Being prepared to solve quickly and calmly",
-            "Ignoring small problems",
+            "Waiting until after event",
             "Blaming others",
-            "Waiting until after event"
+            "Being prepared to solve quickly and calmly",
+            "Ignoring small problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Quick, calm problem-solving prevents small issues from becoming major problems."
         },
         {
           id: 7,
           question: "What should you have for technical problems?",
           options: [
-            "Backup equipment",
+            "More food",
             "Only hope",
             "Extra speakers",
-            "More food"
+            "Backup equipment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Backup equipment allows quick recovery from technical failures."
         },
         {
@@ -1548,8 +1548,8 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           question: "How should the event manager circulate?",
           options: [
             "Constantly observing operations",
-            "Only at registration",
             "Just with VIPs",
+            "Only at registration",
             "Staying in one place"
           ],
           correctAnswer: 0,
@@ -1560,9 +1560,9 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           question: "What keeps everyone coordinated?",
           options: [
             "Clear communication systems",
+            "Individual decisions",
             "Only written notes",
-            "Guesswork",
-            "Individual decisions"
+            "Guesswork"
           ],
           correctAnswer: 0,
           explanation: "Effective communication ensures all team members work together smoothly."
@@ -1571,48 +1571,48 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           id: 10,
           question: "What are team communication tools?",
           options: [
-            "Two-way radios and messaging apps",
+            "Smoke signals",
             "Only shouting",
             "Just hand signals",
-            "Smoke signals"
+            "Two-way radios and messaging apps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Modern tools provide immediate, reliable team communication."
         },
         {
           id: 11,
           question: "What should emergency communication include?",
           options: [
-            "Pre-planned signals and evacuation instructions",
             "Only panic buttons",
-            "Just security phone numbers",
-            "Attendee emails"
+            "Attendee emails",
+            "Pre-planned signals and evacuation instructions",
+            "Just security phone numbers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clear emergency procedures protect everyone's safety."
         },
         {
           id: 12,
           question: "Why monitor throughout the event?",
           options: [
-            "To catch small issues before they become big",
+            "To look busy",
             "Only to take photos",
-            "Just to count attendees",
-            "To look busy"
+            "To catch small issues before they become big",
+            "Just to count attendees"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuous monitoring allows proactive problem management."
         },
         {
           id: 13,
           question: "What should you monitor in attendance flow?",
           options: [
-            "Line lengths and wait times",
             "Only total numbers",
+            "Line lengths and wait times",
             "Just VIP locations",
             "Parking spaces"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Monitoring flow helps identify bottlenecks and improve attendee experience."
         },
         {
@@ -1620,9 +1620,9 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           question: "What technical operations should be monitored?",
           options: [
             "Audio levels, lighting, temperature",
+            "Decoration placement",
             "Only speaker volume",
-            "Just room colors",
-            "Decoration placement"
+            "Just room colors"
           ],
           correctAnswer: 0,
           explanation: "Technical aspects directly affect attendee comfort and experience."
@@ -1631,24 +1631,24 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           id: 15,
           question: "What should you do if a session is overcrowded?",
           options: [
+            "Cancel the session",
             "Open overflow seating",
             "Close the doors",
-            "Increase ticket prices",
-            "Cancel the session"
+            "Increase ticket prices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Overflow seating accommodates unexpected popularity while maintaining safety."
         },
         {
           id: 16,
           question: "What is in an event binder?",
           options: [
-            "Schedules, contacts, floor plans, contracts",
-            "Only personal notes",
             "Just vendor menus",
-            "Attendee gifts"
+            "Schedules, contacts, floor plans, contracts",
+            "Attendee gifts",
+            "Only personal notes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A comprehensive binder contains all essential operational documents."
         },
         {
@@ -1657,8 +1657,8 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           options: [
             "QR code scanning",
             "Longer forms",
-            "More questions",
-            "Payment collection"
+            "Payment collection",
+            "More questions"
           ],
           correctAnswer: 0,
           explanation: "Technology solutions like QR codes make check-in faster for pre-registered attendees."
@@ -1667,12 +1667,12 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           id: 18,
           question: "How should schedule changes be communicated?",
           options: [
-            "Immediately to all affected parties",
             "Only at the end of day",
+            "Never change schedules",
             "Just to speakers",
-            "Never change schedules"
+            "Immediately to all affected parties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Prompt communication prevents confusion and disruption."
         },
         {
@@ -1680,9 +1680,9 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           question: "What should you carry for immediate communication?",
           options: [
             "Radio or mobile phone",
-            "Only a notebook",
+            "Walkie-talkie toy",
             "Just business cards",
-            "Walkie-talkie toy"
+            "Only a notebook"
           ],
           correctAnswer: 0,
           explanation: "Reliable communication devices enable quick coordination."
@@ -1691,12 +1691,12 @@ Make adjustments as needed based on your observations. If a session is overcrowd
           id: 20,
           question: "What is the goal of continuous adjustment?",
           options: [
-            "Continuous improvement throughout event",
-            "Only finishing on time",
             "Just staying on budget",
-            "Avoiding all changes"
+            "Avoiding all changes",
+            "Continuous improvement throughout event",
+            "Only finishing on time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ongoing adjustments improve the experience for everyone involved."
         }
       ]
@@ -1885,12 +1885,12 @@ Create a living document that accumulates knowledge from each event. This become
           id: 1,
           question: "When should immediate post-event activities begin?",
           options: [
-            "Within 24 hours",
-            "One week later",
+            "Only when asked",
             "One month later",
-            "Only when asked"
+            "One week later",
+            "Within 24 hours"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Starting immediately ensures details are fresh and tasks aren't forgotten."
         },
         {
@@ -1898,9 +1898,9 @@ Create a living document that accumulates knowledge from each event. This become
           question: "What is included in venue closure?",
           options: [
             "Supervising vendor load-out and final walkthrough",
-            "Only locking doors",
+            "Taking decorations home",
             "Just turning off lights",
-            "Taking decorations home"
+            "Only locking doors"
           ],
           correctAnswer: 0,
           explanation: "Proper closure protects relationships with venues and vendors."
@@ -1909,84 +1909,84 @@ Create a living document that accumulates knowledge from each event. This become
           id: 3,
           question: "What should team debrief include?",
           options: [
+            "Just discussing pay",
             "Collecting initial observations while fresh",
             "Only assigning blame",
-            "Just discussing pay",
             "Planning next year's event"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Immediate debrief captures valuable insights before they're forgotten."
         },
         {
           id: 4,
           question: "What should attendee follow-up include?",
           options: [
-            "Thank you email and feedback invitation",
             "Only invoice for extra costs",
             "Just promotional materials",
+            "Thank you email and feedback invitation",
             "Requests for donations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Proper follow-up maintains relationships and gathers valuable feedback."
         },
         {
           id: 5,
           question: "What are quantitative evaluation methods?",
           options: [
-            "Attendance numbers and financial metrics",
-            "Only personal opinions",
+            "Guesses about success",
             "Just stories",
-            "Guesses about success"
+            "Only personal opinions",
+            "Attendance numbers and financial metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Quantitative methods provide measurable data about performance."
         },
         {
           id: 6,
           question: "What are qualitative evaluation methods?",
           options: [
+            "Registration statistics",
             "Attendee comments and team observations",
-            "Only attendance counts",
             "Just budget numbers",
-            "Registration statistics"
+            "Only attendance counts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Qualitative methods provide insights into experiences and perceptions."
         },
         {
           id: 7,
           question: "How long should surveys take maximum?",
           options: [
+            "1-2 hours",
             "5-10 minutes",
             "30-45 minutes",
-            "1-2 hours",
             "As long as needed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Short surveys get better completion rates while still gathering useful feedback."
         },
         {
           id: 8,
           question: "What should an executive summary include?",
           options: [
-            "Overall success statement and key achievements",
             "Only budget details",
             "Just attendee names",
-            "Vendor contracts"
+            "Vendor contracts",
+            "Overall success statement and key achievements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The executive summary provides high-level overview for busy stakeholders."
         },
         {
           id: 9,
           question: "What is performance metrics analysis?",
           options: [
-            "Comparing actual versus projected results",
             "Only counting money",
+            "Comparing actual versus projected results",
             "Just listing attendees",
             "Describing decorations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Metric analysis shows how well the event met its objectives."
         },
         {
@@ -1994,9 +1994,9 @@ Create a living document that accumulates knowledge from each event. This become
           question: "What is comparative analysis?",
           options: [
             "Performance versus previous events and benchmarks",
-            "Only internal numbers",
+            "Future predictions",
             "Just current data",
-            "Future predictions"
+            "Only internal numbers"
           ],
           correctAnswer: 0,
           explanation: "Comparison provides context for understanding performance."
@@ -2005,36 +2005,36 @@ Create a living document that accumulates knowledge from each event. This become
           id: 11,
           question: "How should stakeholder communication be tailored?",
           options: [
-            "To each group's interests and needs",
             "Identical for everyone",
             "Only to sponsors",
+            "To each group's interests and needs",
             "Just to attendees"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Different stakeholders care about different aspects of event success."
         },
         {
           id: 12,
           question: "What should sponsors receive?",
           options: [
+            "Just leftover merchandise",
             "Report on benefits delivered and engagement metrics",
             "Only thank you note",
-            "Just leftover merchandise",
             "Attendee contact information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sponsors need evidence their investment provided value."
         },
         {
           id: 13,
           question: "What is the ultimate goal of evaluation?",
           options: [
-            "Improvement for future events",
-            "Only proving success",
             "Just filling reports",
-            "Getting promotions"
+            "Getting promotions",
+            "Only proving success",
+            "Improvement for future events"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Evaluation should lead to actionable improvements."
         },
         {
@@ -2053,24 +2053,24 @@ Create a living document that accumulates knowledge from each event. This become
           id: 15,
           question: "What should lessons learned document include?",
           options: [
-            "Specific examples and data from event",
             "Only general ideas",
-            "Just positive feedback",
-            "Future wishes"
+            "Specific examples and data from event",
+            "Future wishes",
+            "Just positive feedback"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Specific details make lessons learned more useful for future planning."
         },
         {
           id: 16,
           question: "What templates should be updated?",
           options: [
+            "Speaker biographies",
             "Checklists, budgets, timelines based on experience",
-            "Only email templates",
             "Just venue contracts",
-            "Speaker biographies"
+            "Only email templates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Updating templates incorporates learning into future planning processes."
         },
         {
@@ -2078,9 +2078,9 @@ Create a living document that accumulates knowledge from each event. This become
           question: "What becomes increasingly valuable over time?",
           options: [
             "Living document accumulating knowledge",
+            "Decoration inventory",
             "Only current event files",
-            "Just financial records",
-            "Decoration inventory"
+            "Just financial records"
           ],
           correctAnswer: 0,
           explanation: "Accumulated knowledge helps avoid past mistakes and replicate successes."
@@ -2089,36 +2089,36 @@ Create a living document that accumulates knowledge from each event. This become
           id: 18,
           question: "What should financial closure include?",
           options: [
-            "Processing payments and reconciling budget",
+            "Ignoring small expenses",
             "Only counting cash",
-            "Just paying favorite vendors",
-            "Ignoring small expenses"
+            "Processing payments and reconciling budget",
+            "Just paying favorite vendors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Complete financial closure ensures all obligations are met and records are accurate."
         },
         {
           id: 19,
           question: "When should different survey versions be used?",
           options: [
+            "Identical for everyone",
             "For attendees, speakers, sponsors, and team",
             "Only for attendees",
-            "Just for VIPs",
-            "Identical for everyone"
+            "Just for VIPs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Different groups have different perspectives and should be asked relevant questions."
         },
         {
           id: 20,
           question: "What should be presented visually for easier understanding?",
           options: [
-            "Data with charts and graphs",
-            "Only text reports",
             "Just raw numbers",
-            "Personal opinions"
+            "Personal opinions",
+            "Data with charts and graphs",
+            "Only text reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Visual presentation makes complex data more accessible and understandable."
         }
       ]
@@ -2134,12 +2134,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 1,
         question: "What are the three core phases of event management?",
         options: [
-          "Pre-event planning, event execution, post-event activities",
-          "Budgeting, marketing, evaluation",
           "Venue selection, registration, cleanup",
-          "Concept, design, delivery"
+          "Pre-event planning, event execution, post-event activities",
+          "Concept, design, delivery",
+          "Budgeting, marketing, evaluation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "These three phases form the complete event management lifecycle from start to finish.",
         module: 1
       },
@@ -2148,8 +2148,8 @@ Create a living document that accumulates knowledge from each event. This become
         question: "What percentage should be allocated for contingency funds?",
         options: [
           "At least 10%",
-          "Exactly 5%",
           "No more than 3%",
+          "Exactly 5%",
           "15-20%"
         ],
         correctAnswer: 0,
@@ -2160,12 +2160,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 3,
         question: "What is the golden rule of event budgeting?",
         options: [
-          "Expenses should never exceed income",
           "Always spend the entire budget",
+          "Expenses should never exceed income",
           "Income should double expenses",
           "Budget for maximum attendance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "This fundamental rule prevents financial loss from events.",
         module: 2
       },
@@ -2173,12 +2173,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 4,
         question: "What are fixed costs in event budgeting?",
         options: [
-          "Expenses that don't change with attendance",
-          "Costs that vary with each attendee",
           "One-time setup expenses",
-          "Unexpected emergency costs"
+          "Expenses that don't change with attendance",
+          "Unexpected emergency costs",
+          "Costs that vary with each attendee"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Fixed costs like venue rental remain constant regardless of attendance numbers.",
         module: 2
       },
@@ -2187,8 +2187,8 @@ Create a living document that accumulates knowledge from each event. This become
         question: "What should you never choose a venue based on alone?",
         options: [
           "Price",
-          "Location",
           "Capacity",
+          "Location",
           "Appearance"
         ],
         correctAnswer: 0,
@@ -2212,12 +2212,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 7,
         question: "What should event marketing begin with?",
         options: [
+          "Booking speakers",
           "Understanding your audience",
-          "Creating a budget",
           "Designing a logo",
-          "Booking speakers"
+          "Creating a budget"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Audience understanding shapes all marketing decisions and strategies.",
         module: 4
       },
@@ -2225,12 +2225,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 8,
         question: "What encourages quick registration decisions?",
         options: [
-          "Early bird pricing",
-          "Complex forms",
           "Hidden costs",
-          "Vague information"
+          "Complex forms",
+          "Vague information",
+          "Early bird pricing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Early bird discounts create urgency and reward prompt action.",
         module: 4
       },
@@ -2239,8 +2239,8 @@ Create a living document that accumulates knowledge from each event. This become
         question: "When should setup schedule begin before the event?",
         options: [
           "2-3 days before",
-          "The morning of",
           "One week before",
+          "The morning of",
           "One month before"
         ],
         correctAnswer: 0,
@@ -2252,9 +2252,9 @@ Create a living document that accumulates knowledge from each event. This become
         question: "What sets a positive tone for the event?",
         options: [
           "Smooth registration experience",
-          "Expensive decorations",
+          "Complex check-in forms",
           "Loud music",
-          "Complex check-in forms"
+          "Expensive decorations"
         ],
         correctAnswer: 0,
         explanation: "Efficient, welcoming registration creates good first impressions.",
@@ -2265,9 +2265,9 @@ Create a living document that accumulates knowledge from each event. This become
         question: "When should immediate post-event activities begin?",
         options: [
           "Within 24 hours",
-          "One week later",
+          "Only when asked",
           "One month later",
-          "Only when asked"
+          "One week later"
         ],
         correctAnswer: 0,
         explanation: "Starting immediately ensures details are fresh and tasks aren't forgotten.",
@@ -2278,9 +2278,9 @@ Create a living document that accumulates knowledge from each event. This become
         question: "What are quantitative evaluation methods?",
         options: [
           "Attendance numbers and financial metrics",
-          "Only personal opinions",
           "Just stories",
-          "Guesses about success"
+          "Guesses about success",
+          "Only personal opinions"
         ],
         correctAnswer: 0,
         explanation: "Quantitative methods provide measurable data about performance.",
@@ -2290,12 +2290,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 13,
         question: "What is the most important first step in event planning?",
         options: [
-          "Defining clear objectives",
           "Setting the budget",
-          "Choosing the venue",
-          "Creating the guest list"
+          "Creating the guest list",
+          "Defining clear objectives",
+          "Choosing the venue"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Clear objectives guide all other planning decisions and success measurement.",
         module: 1
       },
@@ -2303,12 +2303,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 14,
         question: "What pricing strategy offers lower prices for early registration?",
         options: [
+          "VIP packages",
           "Early bird pricing",
           "Group discounts",
-          "VIP packages",
           "Last-minute pricing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Early bird pricing encourages early registration with discounted rates.",
         module: 2
       },
@@ -2316,12 +2316,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 15,
         question: "What does logistics ensure during event execution?",
         options: [
+          "Just speakers appear",
           "Everything arrives where and when needed",
           "Only food is delivered",
-          "Just speakers appear",
           "Decorations look nice"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Logistics coordinates all elements to arrive at right place and time.",
         module: 3
       },
@@ -2329,12 +2329,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 16,
         question: "What should a complete marketing plan include?",
         options: [
+          "Website design only",
           "Target analysis, key messages, channels, timeline, budget",
-          "Only social media posts",
           "Just email lists",
-          "Website design only"
+          "Only social media posts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Comprehensive plans cover all aspects of marketing strategy.",
         module: 4
       },
@@ -2342,12 +2342,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 17,
         question: "What is essential for real-time problem solving?",
         options: [
+          "Blaming others",
           "Being prepared to solve quickly and calmly",
           "Ignoring small problems",
-          "Blaming others",
           "Waiting until after event"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Quick, calm problem-solving prevents small issues from becoming major.",
         module: 5
       },
@@ -2355,12 +2355,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 18,
         question: "What should team debrief include immediately after event?",
         options: [
-          "Collecting initial observations while fresh",
-          "Only assigning blame",
           "Just discussing pay",
-          "Planning next year's event"
+          "Planning next year's event",
+          "Only assigning blame",
+          "Collecting initial observations while fresh"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Immediate debrief captures valuable insights before they're forgotten.",
         module: 6
       },
@@ -2368,12 +2368,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 19,
         question: "When should venue booking typically happen for large events?",
         options: [
+          "12-18 months in advance",
           "6-9 months in advance",
           "1-2 months in advance",
-          "3-4 months in advance",
-          "12-18 months in advance"
+          "3-4 months in advance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Large venues often need booking 6-9 months ahead due to limited availability.",
         module: 1
       },
@@ -2381,12 +2381,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 20,
         question: "What should sponsorship packages offer to attract sponsors?",
         options: [
-          "Clear value to the sponsor",
-          "Only logo placement",
           "Free attendance for sponsors",
-          "Unlimited speaking time"
+          "Unlimited speaking time",
+          "Only logo placement",
+          "Clear value to the sponsor"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Effective packages must demonstrate clear benefits and value.",
         module: 2
       },
@@ -2394,12 +2394,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 21,
         question: "What clause in venue contracts covers unavoidable circumstances?",
         options: [
-          "Force majeure",
           "Cancellation policy",
+          "Payment terms",
           "Exclusivity clause",
-          "Payment terms"
+          "Force majeure"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Force majeure covers events beyond control like natural disasters.",
         module: 3
       },
@@ -2407,12 +2407,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 22,
         question: "What should you focus on in event messaging?",
         options: [
-          "Benefits rather than just features",
-          "Only the price",
           "Just the date",
-          "Venue address"
+          "Venue address",
+          "Only the price",
+          "Benefits rather than just features"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Benefits explain what attendees gain, which is more compelling.",
         module: 4
       },
@@ -2420,12 +2420,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 23,
         question: "How should the event manager circulate during the event?",
         options: [
-          "Constantly observing operations",
           "Only at registration",
           "Just with VIPs",
+          "Constantly observing operations",
           "Staying in one place"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Constant circulation helps identify and address issues early.",
         module: 5
       },
@@ -2433,12 +2433,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 24,
         question: "What should attendee follow-up include?",
         options: [
-          "Thank you email and feedback invitation",
-          "Only invoice for extra costs",
+          "Requests for donations",
           "Just promotional materials",
-          "Requests for donations"
+          "Thank you email and feedback invitation",
+          "Only invoice for extra costs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Proper follow-up maintains relationships and gathers feedback.",
         module: 6
       },
@@ -2446,12 +2446,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 25,
         question: "What should a risk management plan include?",
         options: [
-          "Identification, assessment, prevention, and contingency plans",
+          "Only budget adjustments",
           "Only weather-related backup plans",
-          "Just vendor contact information",
-          "Only budget adjustments"
+          "Identification, assessment, prevention, and contingency plans",
+          "Just vendor contact information"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Complete risk management covers all aspects of potential problems.",
         module: 1
       },
@@ -2459,12 +2459,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 26,
         question: "What are variable costs in event budgeting?",
         options: [
-          "Expenses that change with attendance",
-          "Fixed rental fees",
+          "Contingency reserves",
           "One-time design costs",
-          "Contingency reserves"
+          "Expenses that change with attendance",
+          "Fixed rental fees"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Variable costs like food increase or decrease based on attendance.",
         module: 2
       },
@@ -2472,12 +2472,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 27,
         question: "What should you take during site inspections?",
         options: [
-          "Photographs",
           "Only measurements",
+          "Food samples",
           "Just mental notes",
-          "Food samples"
+          "Photographs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Photographs document conditions and help remember details.",
         module: 3
       },
@@ -2485,12 +2485,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 28,
         question: "What should a content calendar include?",
         options: [
+          "Venue photos",
           "All marketing communications schedule",
           "Only social media posts",
-          "Just speaker announcements",
-          "Venue photos"
+          "Just speaker announcements"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Complete calendar organizes all communications throughout campaign.",
         module: 4
       },
@@ -2498,12 +2498,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 29,
         question: "What keeps everyone coordinated during event execution?",
         options: [
+          "Individual decisions",
           "Clear communication systems",
           "Only written notes",
-          "Guesswork",
-          "Individual decisions"
+          "Guesswork"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Effective communication ensures team members work together smoothly.",
         module: 5
       },
@@ -2512,8 +2512,8 @@ Create a living document that accumulates knowledge from each event. This become
         question: "What are qualitative evaluation methods?",
         options: [
           "Attendee comments and team observations",
-          "Only attendance counts",
           "Just budget numbers",
+          "Only attendance counts",
           "Registration statistics"
         ],
         correctAnswer: 0,
@@ -2524,12 +2524,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 31,
         question: "What should you work backward from when creating a timeline?",
         options: [
-          "The event date",
-          "The budget approval date",
+          "The first planning meeting",
           "The marketing launch date",
-          "The first planning meeting"
+          "The budget approval date",
+          "The event date"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Always start from event date and work backward for task deadlines.",
         module: 1
       },
@@ -2537,12 +2537,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 32,
         question: "What should you use conservative estimates for in budgeting?",
         options: [
-          "Income projections",
+          "All of the above",
           "Expense calculations",
-          "Attendance numbers",
-          "All of the above"
+          "Income projections",
+          "Attendance numbers"
         ],
-        correctAnswer: 3,
+        correctAnswer: 0,
         explanation: "Conservative estimates prevent budget shortfalls in all areas.",
         module: 2
       },
@@ -2550,12 +2550,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 33,
         question: "What is included in access and flow inspection?",
         options: [
-          "Emergency exits and signage",
+          "Parking costs only",
           "Only main entrance",
           "Just restroom count",
-          "Parking costs only"
+          "Emergency exits and signage"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Access and flow includes entrance, traffic patterns, and emergency routes.",
         module: 3
       },
@@ -2563,12 +2563,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 34,
         question: "What creates urgency in promotions?",
         options: [
-          "Limited-time offers",
+          "Flexible pricing",
           "Vague deadlines",
-          "Open-ended registration",
-          "Flexible pricing"
+          "Limited-time offers",
+          "Open-ended registration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Time limits encourage faster decision-making and registration.",
         module: 4
       },
@@ -2576,12 +2576,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 35,
         question: "Why monitor throughout the event?",
         options: [
-          "To catch small issues before they become big",
-          "Only to take photos",
+          "To look busy",
           "Just to count attendees",
-          "To look busy"
+          "To catch small issues before they become big",
+          "Only to take photos"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Continuous monitoring allows proactive problem management.",
         module: 5
       },
@@ -2589,12 +2589,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 36,
         question: "How long should surveys take maximum?",
         options: [
-          "5-10 minutes",
-          "30-45 minutes",
           "1-2 hours",
-          "As long as needed"
+          "As long as needed",
+          "5-10 minutes",
+          "30-45 minutes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Short surveys get better completion rates while gathering useful feedback.",
         module: 6
       },
@@ -2602,12 +2602,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 37,
         question: "What should you have backup plans for?",
         options: [
-          "Critical elements like venue, speakers, and equipment",
           "Only the weather",
-          "Just the catering service",
-          "Only the entertainment"
+          "Only the entertainment",
+          "Critical elements like venue, speakers, and equipment",
+          "Just the catering service"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Professional planners create backups for all critical elements.",
         module: 1
       },
@@ -2628,12 +2628,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 39,
         question: "What should you negotiate in venue contracts?",
         options: [
-          "Favorable terms before signing",
           "Only after the event",
-          "During the event setup",
-          "Through email only"
+          "Through email only",
+          "Favorable terms before signing",
+          "During the event setup"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Negotiate all terms before signing for best possible agreement.",
         module: 3
       },
@@ -2641,12 +2641,12 @@ Create a living document that accumulates knowledge from each event. This become
         id: 40,
         question: "What is the ultimate goal of event evaluation?",
         options: [
+          "Getting promotions",
           "Improvement for future events",
           "Only proving success",
-          "Just filling reports",
-          "Getting promotions"
+          "Just filling reports"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Evaluation should lead to actionable improvements for future planning.",
         module: 6
       }

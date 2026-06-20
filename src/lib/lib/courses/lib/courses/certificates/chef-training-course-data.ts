@@ -102,10 +102,10 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           id: 1,
           question: "What is the target range for food cost percentage in a professional restaurant?",
           options: [
-            "20-25%",
+            "40-45%",
             "28-35%",
-            "35-40%",
-            "40-45%"
+            "20-25%",
+            "35-40%"
           ],
           correctAnswer: 1,
           explanation: "Professional restaurants target 28-35% food cost depending on concept. Fine dining may be higher, fast casual lower."
@@ -114,58 +114,58 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           id: 2,
           question: "What does HACCP stand for in food safety management?",
           options: [
-            "Hazard Analysis and Critical Control Points",
             "Health and Cooking Control Procedures",
-            "Hygiene Assessment and Cooking Check Points",
-            "Hot and Cold Control Protocol"
+            "Hazard Analysis and Critical Control Points",
+            "Hot and Cold Control Protocol",
+            "Hygiene Assessment and Cooking Check Points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "HACCP = Hazard Analysis and Critical Control Points, a systematic preventive approach to food safety."
         },
         {
           id: 3,
           question: "What is the standard acknowledgment in a professional kitchen?",
           options: [
-            "Yes, Chef!",
             "Heard!",
+            "Got it!",
             "Copy that!",
-            "Got it!"
+            "Yes, Chef!"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "'Yes, Chef!' is the standard acknowledgment showing respect for the chain of command in professional kitchens."
         },
         {
           id: 4,
           question: "How many hours of labor should be scheduled per $10,000 in sales?",
           options: [
-            "50-70 hours",
+            "130-150 hours",
             "80-100 hours",
-            "100-120 hours",
-            "130-150 hours"
+            "50-70 hours",
+            "100-120 hours"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Professional kitchens typically schedule 100-120 labor hours per $10,000 in sales to maintain 25-30% labor cost."
         },
         {
           id: 5,
           question: "What is the yield adjustment factor for salmon with 75% yield?",
           options: [
-            "Cost × 1.25",
-            "Cost × 1.33",
+            "Cost × 1.75",
             "Cost × 1.50",
-            "Cost × 1.75"
+            "Cost × 1.25",
+            "Cost × 1.33"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "75% yield means 25% is lost. Adjustment factor = 1/0.75 = 1.33. If salmon costs $10/lb, edible portion cost = $13.33/lb."
         },
         {
           id: 6,
           question: "What is the target prime cost (food + labor) percentage?",
           options: [
-            "45-55%",
-            "55-65%",
             "65-75%",
-            "75-85%"
+            "55-65%",
+            "75-85%",
+            "45-55%"
           ],
           correctAnswer: 1,
           explanation: "Prime cost (food + labor) should be 55-65% of total revenue. The remaining 35-45% covers overhead and profit."
@@ -174,12 +174,12 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           id: 7,
           question: "How often should hot holding temperatures be checked?",
           options: [
-            "Every 30 minutes",
             "Every hour",
-            "Every 2 hours",
-            "Every 4 hours"
+            "Every 30 minutes",
+            "Every 4 hours",
+            "Every 2 hours"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Hot holding temperatures must be checked every 2 hours and logged to ensure food stays above 135°F (57°C)."
         },
         {
@@ -187,8 +187,8 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           question: "What percentage of kitchen waste can composting typically divert from landfills?",
           options: [
             "30-40%",
-            "40-50%",
             "50-60%",
+            "40-50%",
             "60-70%"
           ],
           correctAnswer: 3,
@@ -198,24 +198,24 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           id: 9,
           question: "What is the acceptable variance between theoretical and actual food cost?",
           options: [
-            "Less than 1%",
             "Less than 2%",
             "Less than 5%",
-            "Less than 10%"
+            "Less than 10%",
+            "Less than 1%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Less than 2% variance between theoretical and actual food cost indicates excellent inventory and portion control."
         },
         {
           id: 10,
           question: "Which station is typically responsible for charcuterie and cold plates?",
           options: [
+            "Grill station",
             "Sauté station",
             "Garde Manger",
-            "Grill station",
             "Pastry station"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Garde Manger (cold kitchen) handles charcuterie, salads, cold appetizers, and artistic plating of cold items."
         },
         {
@@ -234,12 +234,12 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           id: 12,
           question: "What cooling procedure is required by food safety regulations?",
           options: [
-            "135°F to 70°F within 2 hours, then to 41°F within 4 more hours",
-            "135°F to 70°F within 4 hours, then to 41°F within 2 more hours",
             "135°F to 41°F within 6 hours total",
+            "135°F to 70°F within 4 hours, then to 41°F within 2 more hours",
+            "135°F to 70°F within 2 hours, then to 41°F within 4 more hours",
             "135°F to 41°F within 4 hours total"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Proper cooling: 135°F to 70°F within 2 hours, then to 41°F within 4 more hours (6 hours total maximum)."
         },
         {
@@ -259,11 +259,11 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           question: "How many critical control points are in the HACCP system?",
           options: [
             "5 points",
+            "11 points",
             "7 points",
-            "9 points",
-            "11 points"
+            "9 points"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "HACCP has 7 principles: hazard analysis, CCP identification, critical limits, monitoring, corrective actions, verification, and records."
         },
         {
@@ -271,8 +271,8 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           question: "What does FIFO stand for in inventory management?",
           options: [
             "First In, First Out",
-            "Fast Inventory, Fast Out",
             "Fresh Items First Out",
+            "Fast Inventory, Fast Out",
             "First Inspection, First Out"
           ],
           correctAnswer: 0,
@@ -283,11 +283,11 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           question: "Which position is second in command in the kitchen brigade?",
           options: [
             "Executive Chef",
+            "Expediter",
             "Sous Chef",
-            "Chef de Partie",
-            "Expediter"
+            "Chef de Partie"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sous Chef (under-chef) is second in command and manages daily kitchen operations in the Executive Chef's absence."
         },
         {
@@ -296,20 +296,20 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           options: [
             "15-20%",
             "20-25%",
-            "25-30%",
-            "30-35%"
+            "30-35%",
+            "25-30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Ideal labor cost including benefits is 25-30% of total revenue. Higher indicates inefficiency, lower may indicate understaffing."
         },
         {
           id: 18,
           question: "How long must HACCP records be maintained?",
           options: [
-            "30 days minimum",
             "60 days minimum",
+            "1 year minimum",
             "90 days minimum",
-            "1 year minimum"
+            "30 days minimum"
           ],
           correctAnswer: 2,
           explanation: "HACCP records must be maintained for at least 90 days, though many restaurants keep them for 1 year for insurance and audit purposes."
@@ -318,24 +318,24 @@ The **modern brigade system** has evolved but maintains core principles. **Execu
           id: 19,
           question: "What should you say when carrying knives through the kitchen?",
           options: [
-            "Behind!",
-            "Sharp!",
+            "Corner!",
             "Hot!",
-            "Corner!"
+            "Behind!",
+            "Sharp!"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "'Sharp!' alerts others when carrying knives. Other calls: 'Behind!' (passing behind), 'Hot!' (hot items), 'Corner!' (blind corners)."
         },
         {
           id: 20,
           question: "What is the primary responsibility of the expediter during service?",
           options: [
-            "Cooking the most complex dishes",
-            "Coordinating all stations and timing",
             "Managing food costs",
-            "Training new staff"
+            "Training new staff",
+            "Cooking the most complex dishes",
+            "Coordinating all stations and timing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The expediter (at 'the pass') coordinates all stations, ensures timing is synchronized, and plates every dish before service."
         }
       ]
@@ -454,24 +454,24 @@ This module explores advanced techniques used in professional kitchens, includin
           id: 1,
           question: "What is the primary advantage of sous vide cooking?",
           options: [
-            "Faster cooking time",
-            "Lower equipment cost",
             "Perfect doneness throughout with ±1°F accuracy",
-            "No need for searing afterwards"
+            "No need for searing afterwards",
+            "Faster cooking time",
+            "Lower equipment cost"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Sous vide provides ±1°F accuracy throughout the protein, ensuring perfect doneness from edge to center."
         },
         {
           id: 2,
           question: "What temperature is ideal for cooking chicken breast sous vide?",
           options: [
-            "135°F (57°C)",
             "146°F (63°C)",
             "155°F (68°C)",
+            "135°F (57°C)",
             "165°F (74°C)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "146°F (63°C) for 1-4 hours produces perfectly juicy, safe chicken breast without the dryness of traditional cooking."
         },
         {
@@ -479,35 +479,35 @@ This module explores advanced techniques used in professional kitchens, includin
           question: "How many times stronger is agar-agar compared to gelatin?",
           options: [
             "2-3 times stronger",
+            "8-10 times stronger",
             "4-5 times stronger",
-            "6-7 times stronger",
-            "8-10 times stronger"
+            "6-7 times stronger"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Agar-agar is 8-10 times stronger than gelatin, sets at higher temperatures (95-104°F), and is heat-stable once set."
         },
         {
           id: 4,
           question: "What is the typical yield percentage for beef from whole animal to cuts?",
           options: [
-            "40-45%",
-            "50-55%",
             "60-65%",
-            "70-75%"
+            "40-45%",
+            "70-75%",
+            "50-55%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Beef typically yields 60-65% usable meat after fabrication. Pork yields 70-75%, lamb 50-55%."
         },
         {
           id: 5,
           question: "What is a 'supreme' cut in fish butchery?",
           options: [
-            "Cross-section steak",
-            "Boneless, skinless fillet from round fish",
+            "Rolled fillet with stuffing",
             "Small strips for frying",
-            "Rolled fillet with stuffing"
+            "Boneless, skinless fillet from round fish",
+            "Cross-section steak"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A supreme cut is a boneless, skinless fillet taken from a round fish, typically the most premium portion."
         },
         {
@@ -515,47 +515,47 @@ This module explores advanced techniques used in professional kitchens, includin
           question: "What concentration of sodium alginate is used for spherification baths?",
           options: [
             "0.1%",
+            "2.0%",
             "0.5%",
-            "1.0%",
-            "2.0%"
+            "1.0%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Spherification typically uses 0.5% sodium alginate in the liquid to be spherified, and 1% calcium lactate in the setting bath."
         },
         {
           id: 7,
           question: "What is the main benefit of combination ovens?",
           options: [
-            "Lower energy consumption",
             "30-40% faster cooking with better yield",
-            "No steam cleanup needed",
-            "Smaller footprint than conventional ovens"
+            "Lower energy consumption",
+            "Smaller footprint than conventional ovens",
+            "No steam cleanup needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Combination ovens cook 30-40% faster with better yield due to precise steam and convection control."
         },
         {
           id: 8,
           question: "What temperature does agar-agar melt at?",
           options: [
-            "140°F (60°C)",
-            "160°F (71°C)",
+            "212°F (100°C)",
             "185°F (85°C)",
-            "212°F (100°C)"
+            "160°F (71°C)",
+            "140°F (60°C)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Agar-agar melts at 185°F (85°C) and sets at 95-104°F (35-40°C), making it heat-stable for hot applications."
         },
         {
           id: 9,
           question: "What is 'seam butchery'?",
           options: [
-            "Cutting along bone seams",
-            "Following natural muscle separations",
             "Sewing meat back together",
-            "Butchering while meat is frozen"
+            "Cutting along bone seams",
+            "Butchering while meat is frozen",
+            "Following natural muscle separations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Seam butchery follows the natural separations between muscles, resulting in cleaner cuts and better yield."
         },
         {
@@ -563,59 +563,59 @@ This module explores advanced techniques used in professional kitchens, includin
           question: "What percentage reduction creates a 'glace de viande'?",
           options: [
             "50% reduction",
-            "75% reduction",
             "90% reduction",
-            "95% reduction"
+            "95% reduction",
+            "75% reduction"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Glace de viande is a 90% reduction of stock to syrup consistency - intensely flavorful for finishing sauces."
         },
         {
           id: 11,
           question: "Why must food be patted dry after sous vide before searing?",
           options: [
-            "To reduce cooking time",
-            "To prevent splattering",
             "To ensure proper Maillard reaction",
-            "To improve seasoning adherence"
+            "To improve seasoning adherence",
+            "To reduce cooking time",
+            "To prevent splattering"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Moisture prevents proper Maillard reaction (browning). Patting dry ensures a good sear in 30-60 seconds."
         },
         {
           id: 12,
           question: "What is the primary use of xanthan gum?",
           options: [
+            "Coloring",
             "Creating gels",
             "Stabilizing emulsions",
-            "Sweetening",
-            "Coloring"
+            "Sweetening"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Xanthan gum excels at stabilizing emulsions and creating shear-thinning textures (thin when agitated, thick when still)."
         },
         {
           id: 13,
           question: "What is an 'airline breast' in poultry fabrication?",
           options: [
+            "Butterflied breast",
             "Boneless, skinless breast",
-            "Breast with drumette attached",
             "Stuffed and rolled breast",
-            "Butterflied breast"
+            "Breast with drumette attached"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "An airline breast includes the first wing bone (drumette) attached for presentation and easier handling by guests."
         },
         {
           id: 14,
           question: "What is the ideal aging time for dry-aged beef?",
           options: [
-            "7-14 days",
             "21-28 days",
-            "35-42 days",
-            "49-56 days"
+            "49-56 days",
+            "7-14 days",
+            "35-42 days"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "21-28 days is optimal for dry aging - develops flavor without excessive weight loss or spoilage risk."
         },
         {
@@ -623,11 +623,11 @@ This module explores advanced techniques used in professional kitchens, includin
           question: "What is 'reverse spherification' used for?",
           options: [
             "Liquids with calcium content",
-            "Acidic or alcoholic liquids",
             "Only water-based liquids",
+            "Acidic or alcoholic liquids",
             "Only dairy-based liquids"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reverse spherification (calcium in the liquid, alginate in the bath) works for acidic or alcoholic liquids that would prevent setting."
         },
         {
@@ -647,47 +647,47 @@ This module explores advanced techniques used in professional kitchens, includin
           question: "What is a 'gastrique'?",
           options: [
             "Meat juice reduction",
-            "Caramel + vinegar reduction",
             "Butter emulsion",
+            "Caramel + vinegar reduction",
             "Vegetable stock reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A gastrique is caramelized sugar deglazed with vinegar, typically in 1:1 ratio, used as a sweet-sour sauce base."
         },
         {
           id: 18,
           question: "What does 'shear-thinning' mean in relation to xanthan gum?",
           options: [
-            "Thins when heated",
             "Thins when agitated, thickens when still",
+            "Breaks down under pressure",
             "Thickens over time",
-            "Breaks down under pressure"
+            "Thins when heated"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Shear-thinning means the mixture thins when agitated (poured, stirred) and thickens when stationary."
         },
         {
           id: 19,
           question: "What is the French term for a boneless, stuffed, poached poultry dish served cold?",
           options: [
-            "Ballotine",
             "Galantine",
+            "Ballotine",
             "Supreme",
             "Paupiette"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Galantine is boneless poultry stuffed, poached, and served cold, often in aspic. Ballotine is similar but served hot."
         },
         {
           id: 20,
           question: "What accuracy do professional thermal circulators typically achieve?",
           options: [
-            "±1°F (±0.5°C)",
-            "±0.5°F (±0.3°C)",
             "±0.2°F (±0.1°C)",
-            "±0.1°F (±0.05°C)"
+            "±0.1°F (±0.05°C)",
+            "±1°F (±0.5°C)",
+            "±0.5°F (±0.3°C)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Professional thermal circulators achieve ±0.2°F (±0.1°C) accuracy, essential for precise sous vide cooking."
         }
       ]
@@ -803,24 +803,24 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           id: 1,
           question: "How many mother sauces are there in classical French cuisine?",
           options: [
-            "3 mother sauces",
             "4 mother sauces",
-            "5 mother sauces",
-            "6 mother sauces"
+            "6 mother sauces",
+            "3 mother sauces",
+            "5 mother sauces"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "There are 5 mother sauces: Béchamel, Velouté, Espagnole, Tomato, and Hollandaise, from which hundreds of derivatives are made."
         },
         {
           id: 2,
           question: "Which French region is known for cream, butter, apples, and Calvados?",
           options: [
-            "Provence",
             "Normandy",
+            "Provence",
             "Alsace",
             "Burgundy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Normandy is famous for dairy (cream, butter), apples (cider, Calvados brandy), and seafood."
         },
         {
@@ -829,10 +829,10 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           options: [
             "10 regions",
             "15 regions",
-            "20 regions",
-            "25 regions"
+            "25 regions",
+            "20 regions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Italy has 20 official regions, each with distinct culinary traditions, ingredients, and specialties."
         },
         {
@@ -841,10 +841,10 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           options: [
             "Piedmont",
             "Lombardy",
-            "Emilia-Romagna",
-            "Tuscany"
+            "Tuscany",
+            "Emilia-Romagna"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Emilia-Romagna produces Parmigiano-Reggiano cheese, prosciutto di Parma, and balsamic vinegar of Modena."
         },
         {
@@ -852,33 +852,33 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           question: "What are the four pillars of Thai flavor balance?",
           options: [
             "Sweet, salty, bitter, umami",
-            "Spicy, sour, sweet, salty",
+            "Fresh, dried, whole, ground",
             "Hot, cold, crunchy, soft",
-            "Fresh, dried, whole, ground"
+            "Spicy, sour, sweet, salty"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Thai cuisine balances four pillars: spicy (chiles), sour (lime/tamarind), sweet (palm sugar), and salty (fish sauce)."
         },
         {
           id: 6,
           question: "What is 'socarrat' in Spanish paella?",
           options: [
-            "The saffron infusion",
             "The crispy bottom layer of rice",
+            "The saffron infusion",
             "The seafood garnish",
             "The seasoning blend"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Socarrat is the prized crispy, caramelized bottom layer of rice in paella - considered the best part by connoisseurs."
         },
         {
           id: 7,
           question: "How many regional cuisines are recognized in Chinese culinary tradition?",
           options: [
-            "Four great traditions",
+            "Ten culinary schools",
             "Six regional styles",
             "Eight regional cuisines",
-            "Ten culinary schools"
+            "Four great traditions"
           ],
           correctAnswer: 2,
           explanation: "China recognizes eight great regional cuisines: Sichuan, Cantonese, Jiangsu, Zhejiang, Fujian, Hunan, Anhui, and Shandong."
@@ -887,12 +887,12 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           id: 8,
           question: "What temperature is ideal for extracting dashi from kombu and katsuobushi?",
           options: [
-            "140°F (60°C)",
             "160°F (71°C)",
-            "180°F (82°C)",
-            "Boiling (212°F/100°C)"
+            "140°F (60°C)",
+            "Boiling (212°F/100°C)",
+            "180°F (82°C)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "160°F (71°C) extracts optimal umami without bitterness. Boiling makes dashi cloudy and bitter."
         },
         {
@@ -900,56 +900,56 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           question: "Which Mexican state is famous for its seven types of mole?",
           options: [
             "Yucatán",
-            "Oaxaca",
+            "Jalisco",
             "Puebla",
-            "Jalisco"
+            "Oaxaca"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Oaxaca is known as 'the land of seven moles': negro, colorado, coloradito, verde, amarillo, chichilo, and manchamanteles."
         },
         {
           id: 10,
           question: "What is the Japanese principle of 'washoku'?",
           options: [
-            "Five colors, five tastes, five preparations",
-            "Three textures, three temperatures, three colors",
             "Seven lucky ingredients",
-            "Balance of yin and yang"
+            "Balance of yin and yang",
+            "Three textures, three temperatures, three colors",
+            "Five colors, five tastes, five preparations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Washoku emphasizes five principles: five colors, five tastes, five preparations, seasonal awareness, and natural presentation."
         },
         {
           id: 11,
           question: "What is the French service style where all dishes are served at once?",
           options: [
-            "À la française",
-            "À la russe",
             "Service à l'anglaise",
-            "Service américain"
+            "Service américain",
+            "À la française",
+            "À la russe"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "À la française service presents all dishes simultaneously. À la russe serves courses sequentially (modern standard)."
         },
         {
           id: 12,
           question: "Which Italian region is tiramisu from?",
           options: [
-            "Veneto",
             "Tuscany",
-            "Sicily",
-            "Piedmont"
+            "Piedmont",
+            "Veneto",
+            "Sicily"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Tiramisu originates from Veneto, specifically Treviso, though its exact origins are debated."
         },
         {
           id: 13,
           question: "What process makes corn nutritionally available in Mexican cuisine?",
           options: [
-            "Fermentation",
-            "Nixtamalization",
             "Toasting",
+            "Nixtamalization",
+            "Fermentation",
             "Grinding"
           ],
           correctAnswer: 1,
@@ -959,36 +959,36 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           id: 14,
           question: "What does 'Nikkei cuisine' refer to?",
           options: [
-            "Chinese-Peruvian fusion",
             "Japanese-Peruvian fusion",
             "Korean-Brazilian fusion",
-            "Italian-Argentinian fusion"
+            "Italian-Argentinian fusion",
+            "Chinese-Peruvian fusion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Nikkei cuisine is Japanese-Peruvian fusion, combining Japanese techniques with Peruvian ingredients."
         },
         {
           id: 15,
           question: "What is the primary herb blend in Middle Eastern za'atar?",
           options: [
-            "Thyme, sumac, sesame seeds",
             "Cumin, coriander, cardamom",
+            "Thyme, sumac, sesame seeds",
             "Parsley, mint, dill",
             "Oregano, basil, marjoram"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Za'atar typically contains dried thyme, sumac, toasted sesame seeds, and sometimes salt or other herbs."
         },
         {
           id: 16,
           question: "Which French culinary movement emphasized lighter sauces and shorter cooking times?",
           options: [
-            "Haute Cuisine",
             "Nouvelle Cuisine",
             "Cuisine du marché",
+            "Haute Cuisine",
             "Bistronomy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Nouvelle Cuisine (1970s) rejected heavy sauces and long cooking in favor of lighter, fresher preparations."
         },
         {
@@ -996,21 +996,21 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           question: "What is the national dish of Brazil?",
           options: [
             "Ceviche",
+            "Asado",
             "Feijoada",
-            "Empanadas",
-            "Asado"
+            "Empanadas"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Feijoada (black bean stew with various meats) is considered Brazil's national dish, traditionally served on Saturdays."
         },
         {
           id: 18,
           question: "How many native potato varieties does Peru have?",
           options: [
-            "Approximately 500",
             "Over 1,000",
+            "Over 5,000",
             "Over 3,000",
-            "Over 5,000"
+            "Approximately 500"
           ],
           correctAnswer: 2,
           explanation: "Peru has over 3,000 native potato varieties, in colors from white and yellow to purple, blue, and red."
@@ -1019,24 +1019,24 @@ Understanding world cuisines is essential for modern chefs. This module covers t
           id: 19,
           question: "What are the 'five textures' in Chinese culinary tradition?",
           options: [
-            "Crisp, tender, soft, smooth, firm",
-            "Hot, cold, warm, room temperature, chilled",
+            "Chewy, crunchy, melt-in-mouth, slippery, fluffy",
             "Dry, moist, oily, watery, creamy",
-            "Chewy, crunchy, melt-in-mouth, slippery, fluffy"
+            "Crisp, tender, soft, smooth, firm",
+            "Hot, cold, warm, room temperature, chilled"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Chinese cuisine emphasizes five textures: crisp, tender, soft, smooth, and firm - often combining several in one dish."
         },
         {
           id: 20,
           question: "Which Greek cheese is known for being grillable without melting?",
           options: [
-            "Feta",
-            "Halloumi",
+            "Graviera",
             "Kasseri",
-            "Graviera"
+            "Feta",
+            "Halloumi"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Halloumi (from Cyprus) is known for its high melting point, making it perfect for grilling or frying without losing shape."
         }
       ]
@@ -1160,9 +1160,9 @@ Professional baking requires precise measurements and understanding of chemical 
           id: 1,
           question: "What is the protein content range for bread flour?",
           options: [
-            "6-8%",
-            "8-10%",
             "10-12%",
+            "8-10%",
+            "6-8%",
             "12-14%"
           ],
           correctAnswer: 3,
@@ -1172,12 +1172,12 @@ Professional baking requires precise measurements and understanding of chemical 
           id: 2,
           question: "In baker's percentages, what ingredient is always calculated as 100%?",
           options: [
+            "Salt",
             "Water",
-            "Flour",
             "Yeast",
-            "Salt"
+            "Flour"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "In baker's math, flour is always 100%, and all other ingredients are expressed as percentages of the flour weight."
         },
         {
@@ -1185,45 +1185,45 @@ Professional baking requires precise measurements and understanding of chemical 
           question: "How many turns does classic puff pastry typically require?",
           options: [
             "4 turns total",
-            "6 turns total",
             "8 turns total",
-            "10 turns total"
+            "10 turns total",
+            "6 turns total"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Classic puff pastry requires 6 turns total (either 3 single turns or 4 double turns) creating 729 layers theoretically."
         },
         {
           id: 4,
           question: "What temperature should crème anglaise be cooked to?",
           options: [
-            "160-165°F (71-74°C)",
-            "170-175°F (77-79°C)",
             "180-185°F (82-85°C)",
-            "190-195°F (88-91°C)"
+            "170-175°F (77-79°C)",
+            "190-195°F (88-91°C)",
+            "160-165°F (71-74°C)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Crème anglaise should reach 180-185°F (82-85°C) - enough to thicken yolks but not curdle them."
         },
         {
           id: 5,
           question: "What is the butter to flour ratio in classic puff pastry?",
           options: [
-            "50% butter to flour weight",
-            "75% butter to flour weight",
             "100% butter to flour weight",
-            "125% butter to flour weight"
+            "125% butter to flour weight",
+            "75% butter to flour weight",
+            "50% butter to flour weight"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Classic puff pastry uses equal weights of butter and flour (100% ratio), with butterfat content of at least 83%."
         },
         {
           id: 6,
           question: "What chocolate to cream ratio is used for truffle ganache?",
           options: [
-            "1:1 (equal parts)",
+            "3:1 chocolate to cream",
             "2:1 chocolate to cream",
             "1:2 chocolate to cream",
-            "3:1 chocolate to cream"
+            "1:1 (equal parts)"
           ],
           correctAnswer: 1,
           explanation: "Truffle ganache uses 2:1 chocolate to cream for a firm consistency that can be rolled and coated."
@@ -1232,32 +1232,32 @@ Professional baking requires precise measurements and understanding of chemical 
           id: 7,
           question: "What temperature range is 'hard crack' stage for sugar?",
           options: [
+            "320-350°F (160-177°C)",
             "250-265°F (121-129°C)",
             "270-290°F (132-143°C)",
-            "300-310°F (149-154°C)",
-            "320-350°F (160-177°C)"
+            "300-310°F (149-154°C)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Hard crack stage is 300-310°F (149-154°C) - sugar becomes brittle and breaks cleanly when cooled."
         },
         {
           id: 8,
           question: "How much salt is typically used in bread dough by baker's percentage?",
           options: [
-            "0.5-1%",
-            "1.8-2.2%",
             "2.5-3%",
-            "3-4%"
+            "0.5-1%",
+            "3-4%",
+            "1.8-2.2%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Salt is typically 1.8-2.2% of flour weight in bread dough - controls yeast, strengthens gluten, and enhances flavor."
         },
         {
           id: 9,
           question: "What is the final temperature for tempering dark chocolate?",
           options: [
-            "82-84°F (28-29°C)",
             "85-87°F (29-31°C)",
+            "82-84°F (28-29°C)",
             "88-90°F (31-32°C)",
             "91-93°F (33-34°C)"
           ],
@@ -1268,24 +1268,24 @@ Professional baking requires precise measurements and understanding of chemical 
           id: 10,
           question: "What test determines proper gluten development in bread dough?",
           options: [
+            "Float test",
             "Windowpane test",
             "Finger dent test",
-            "Float test",
             "Ribbon test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The windowpane test stretches a small piece of dough thin enough to see light through without tearing."
         },
         {
           id: 11,
           question: "How long should pastry dough rest between turns during lamination?",
           options: [
-            "10-15 minutes",
             "30 minutes refrigerated",
+            "10-15 minutes",
             "1 hour at room temperature",
             "2 hours minimum"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pastry dough should rest 30 minutes refrigerated between turns to relax gluten and keep butter firm."
         },
         {
@@ -1293,23 +1293,23 @@ Professional baking requires precise measurements and understanding of chemical 
           question: "What percentage of cornstarch is used to thicken pastry cream?",
           options: [
             "1-2% of liquid weight",
+            "7-8% of liquid weight",
             "3-4% of liquid weight",
-            "5-6% of liquid weight",
-            "7-8% of liquid weight"
+            "5-6% of liquid weight"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Pastry cream uses 3-4% cornstarch by weight of the liquid for proper thickening without gumminess."
         },
         {
           id: 13,
           question: "What cocoa butter crystals create properly tempered chocolate?",
           options: [
-            "Type III crystals",
             "Type IV crystals",
-            "Type V crystals",
-            "Type VI crystals"
+            "Type VI crystals",
+            "Type III crystals",
+            "Type V crystals"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Type V beta crystals create chocolate with shine, snap, and proper melting characteristics."
         },
         {
@@ -1317,35 +1317,35 @@ Professional baking requires precise measurements and understanding of chemical 
           question: "What is the purpose of autolyse in bread making?",
           options: [
             "To develop flavor",
-            "To hydrate flour before mixing",
+            "To activate yeast",
             "To kill unwanted bacteria",
-            "To activate yeast"
+            "To hydrate flour before mixing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Autolyse (resting flour and water) allows flour to fully hydrate before mixing, reducing mixing time and improving dough handling."
         },
         {
           id: 15,
           question: "What temperature is 'soft ball' stage for sugar?",
           options: [
-            "215-220°F (102-104°C)",
             "225-230°F (107-110°C)",
-            "235-240°F (113-116°C)",
-            "245-250°F (118-121°C)"
+            "245-250°F (118-121°C)",
+            "215-220°F (102-104°C)",
+            "235-240°F (113-116°C)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Soft ball stage is 235-240°F (113-116°C) - sugar forms a soft ball when dropped in cold water."
         },
         {
           id: 16,
           question: "How many layers does 6 turns create in puff pastry theoretically?",
           options: [
+            "6561 layers",
             "243 layers",
             "729 layers",
-            "2187 layers",
-            "6561 layers"
+            "2187 layers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Each turn triples the layers. 6 turns creates 3^6 = 729 layers theoretically (though some merge during baking)."
         },
         {
@@ -1353,9 +1353,9 @@ Professional baking requires precise measurements and understanding of chemical 
           question: "What is the main difference between croissant and puff pastry dough?",
           options: [
             "Croissant has yeast",
-            "Puff pastry has more butter",
             "Croissant uses milk instead of water",
-            "Puff pastry has sugar added"
+            "Puff pastry has sugar added",
+            "Puff pastry has more butter"
           ],
           correctAnswer: 0,
           explanation: "Croissant dough contains yeast for additional rise during proofing and baking, while puff pastry relies solely on steam."
@@ -1364,10 +1364,10 @@ Professional baking requires precise measurements and understanding of chemical 
           id: 18,
           question: "What minimum number of components should a modern plated dessert have?",
           options: [
-            "1-2 components",
-            "3-5 components",
             "6-8 components",
-            "9-10 components"
+            "3-5 components",
+            "9-10 components",
+            "1-2 components"
           ],
           correctAnswer: 1,
           explanation: "Modern plated desserts typically have 3-5 components to provide flavor, texture, and temperature contrasts."
@@ -1376,24 +1376,24 @@ Professional baking requires precise measurements and understanding of chemical 
           id: 19,
           question: "At what temperature does sugar caramelize?",
           options: [
-            "280-300°F (138-149°C)",
             "300-320°F (149-160°C)",
-            "320-350°F (160-177°C)",
-            "350-375°F (177-191°C)"
+            "280-300°F (138-149°C)",
+            "350-375°F (177-191°C)",
+            "320-350°F (160-177°C)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Sugar begins to caramelize around 320°F (160°C) and develops complex flavors up to 350°F (177°C)."
         },
         {
           id: 20,
           question: "What butterfat content is required for quality puff pastry butter?",
           options: [
-            "75% minimum",
             "80% minimum",
-            "83% minimum",
-            "85% minimum"
+            "85% minimum",
+            "75% minimum",
+            "83% minimum"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Puff pastry requires butter with at least 83% butterfat for proper layering and flakiness. European-style butters often have 82-86%."
         }
       ]
@@ -1512,45 +1512,45 @@ The **Boston Consulting Group matrix** adapted for menus classifies items by:
           question: "In menu engineering, what are items with high popularity but low profit called?",
           options: [
             "Stars",
-            "Plowhorses",
             "Puzzles",
-            "Dogs"
+            "Dogs",
+            "Plowhorses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Plowhorses have high sales volume but low profitability - they need price increases or cost reductions."
         },
         {
           id: 2,
           question: "What is the typical popularity threshold in menu engineering analysis?",
           options: [
-            "50% of average item sales",
-            "70% of average item sales",
             "90% of average item sales",
-            "100% of average item sales"
+            "100% of average item sales",
+            "70% of average item sales",
+            "50% of average item sales"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The popularity threshold is typically 70% of average item sales. If average item sells 10% of total, threshold = 7%."
         },
         {
           id: 3,
           question: "What pricing method uses: Price = Food cost ÷ Target food cost %?",
           options: [
-            "Competitive pricing",
             "Food cost percentage pricing",
-            "Prime cost pricing",
-            "Value-based pricing"
+            "Competitive pricing",
+            "Value-based pricing",
+            "Prime cost pricing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Food cost percentage pricing: Price = Food cost ÷ Target food cost %. Example: $4 cost at 30% target = $13.33 price."
         },
         {
           id: 4,
           question: "How much do items with descriptions typically outsell items without descriptions?",
           options: [
-            "12% more",
+            "50% more",
             "27% more",
-            "35% more",
-            "50% more"
+            "12% more",
+            "35% more"
           ],
           correctAnswer: 1,
           explanation: "Menu items with descriptions sell approximately 27% more than those without descriptions, according to industry studies."
@@ -1571,10 +1571,10 @@ The **Boston Consulting Group matrix** adapted for menus classifies items by:
           id: 6,
           question: "How many typefaces should a well-designed menu typically use?",
           options: [
-            "1 typeface maximum",
+            "4 typefaces maximum",
             "2 typefaces maximum",
             "3 typefaces maximum",
-            "4 typefaces maximum"
+            "1 typeface maximum"
           ],
           correctAnswer: 1,
           explanation: "Maximum 2 typefaces (with 3-4 font sizes) maintains visual cohesion while allowing necessary hierarchy."
@@ -1583,48 +1583,48 @@ The **Boston Consulting Group matrix** adapted for menus classifies items by:
           id: 7,
           question: "What is an acceptable variance between theoretical and actual food cost?",
           options: [
-            "Less than 1%",
-            "Less than 2%",
+            "Less than 10%",
             "Less than 5%",
-            "Less than 10%"
+            "Less than 2%",
+            "Less than 1%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Less than 2% variance indicates excellent control. More than 5% suggests waste, theft, or serious portion control issues."
         },
         {
           id: 8,
           question: "What does PAR stand for in inventory management?",
           options: [
-            "Periodic Automatic Replacement",
             "Partial Average Replenishment",
             "Product Allocation Ratio",
-            "Purchase And Receive"
+            "Purchase And Receive",
+            "Periodic Automatic Replacement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PAR = Periodic Automatic Replacement - minimum stock levels that trigger reordering to maintain consistent inventory."
         },
         {
           id: 9,
           question: "What is 'charm pricing'?",
           options: [
-            "Prices ending in .95 or .99",
             "Round numbers for luxury items",
             "Prices slightly below competitors",
-            "Seasonal discount pricing"
+            "Seasonal discount pricing",
+            "Prices ending in .95 or .99"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Charm pricing ends in .95 or .99 ($19.95 instead of $20) - psychologically appears significantly cheaper."
         },
         {
           id: 10,
           question: "What percentage of menu items should be rotated seasonally?",
           options: [
-            "5-10%",
             "20-30%",
-            "40-50%",
-            "60-70%"
+            "5-10%",
+            "60-70%",
+            "40-50%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "20-30% of menu items should rotate seasonally to keep offerings fresh and take advantage of peak ingredients."
         },
         {
@@ -1644,21 +1644,21 @@ The **Boston Consulting Group matrix** adapted for menus classifies items by:
           question: "What is the ideal distribution of 'Stars' on a menu?",
           options: [
             "10-20% of items",
-            "20-30% of items",
+            "40-50% of items",
             "30-40% of items",
-            "40-50% of items"
+            "20-30% of items"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "20-30% of menu items should be Stars (high popularity, high profit) - these are your menu champions."
         },
         {
           id: 13,
           question: "What is 'price anchoring'?",
           options: [
-            "Setting prices based on food cost",
-            "Using a high-priced item to make others seem reasonable",
             "Matching competitor prices",
-            "Raising prices gradually over time"
+            "Using a high-priced item to make others seem reasonable",
+            "Raising prices gradually over time",
+            "Setting prices based on food cost"
           ],
           correctAnswer: 1,
           explanation: "Price anchoring places a high-priced item near target items, making them seem more reasonably priced by comparison."
@@ -1668,47 +1668,47 @@ The **Boston Consulting Group matrix** adapted for menus classifies items by:
           question: "How many courses are typical in a tasting menu?",
           options: [
             "3-4 courses",
-            "5-12 courses",
             "13-15 courses",
-            "16-20 courses"
+            "16-20 courses",
+            "5-12 courses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Tasting menus typically have 5-12 courses, allowing chefs to showcase creativity without overwhelming guests."
         },
         {
           id: 15,
           question: "What is the 'golden triangle' on a menu?",
           options: [
+            "Lower left corner",
             "Center of the menu",
             "Upper right corner",
-            "Lower left corner",
             "First item in each section"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The upper right corner gets the most visual attention - ideal for high-profit items you want to feature."
         },
         {
           id: 16,
           question: "What is ideal inventory turnover for perishable items?",
           options: [
-            "Daily turnover",
             "Weekly turnover",
-            "1-2 times per month",
-            "Quarterly turnover"
+            "Quarterly turnover",
+            "Daily turnover",
+            "1-2 times per month"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "1-2 times per month turnover is ideal for perishables - ensures freshness while minimizing waste from spoilage."
         },
         {
           id: 17,
           question: "What percentage increase in sales can boxing menu items create?",
           options: [
-            "10% increase",
-            "25% increase",
             "40% increase",
-            "50% increase"
+            "50% increase",
+            "10% increase",
+            "25% increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Boxing or highlighting menu items can increase sales by approximately 25% by drawing visual attention."
         },
         {
@@ -1727,21 +1727,21 @@ The **Boston Consulting Group matrix** adapted for menus classifies items by:
           id: 19,
           question: "What font type is typically best for menu descriptions?",
           options: [
+            "Script fonts",
             "Serif fonts",
             "Sans-serif fonts",
-            "Script fonts",
             "Decorative fonts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Serif fonts (with small strokes at ends) are easier to read in body text, while sans-serif works well for headers."
         },
         {
           id: 20,
           question: "How much should a wine pairing typically add to a tasting menu price?",
           options: [
-            "$20-30 additional",
-            "$50-150 additional",
             "$200-300 additional",
+            "$50-150 additional",
+            "$20-30 additional",
             "$400-500 additional"
           ],
           correctAnswer: 1,
@@ -1870,36 +1870,36 @@ A chef's understanding of beverages elevates the dining experience. This module 
           id: 1,
           question: "What is the ideal serving temperature for white wines?",
           options: [
+            "55-60°F (13-16°C)",
             "35-40°F (2-4°C)",
             "45-50°F (7-10°C)",
-            "55-60°F (13-16°C)",
             "65-70°F (18-21°C)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "White wines should be served at 45-50°F (7-10°C). Too cold masks flavors, too warm makes them flabby."
         },
         {
           id: 2,
           question: "What is the standard wine pour in ounces?",
           options: [
-            "3-4 ounces",
-            "5-6 ounces",
+            "9-10 ounces",
             "7-8 ounces",
-            "9-10 ounces"
+            "5-6 ounces",
+            "3-4 ounces"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Standard wine pour is 5-6 ounces, which allows approximately 5 glasses per 750ml bottle."
         },
         {
           id: 3,
           question: "Which wine is classically paired with oysters?",
           options: [
+            "Zinfandel",
             "Cabernet Sauvignon",
-            "Chardonnay (Chablis)",
             "Pinot Noir",
-            "Zinfandel"
+            "Chardonnay (Chablis)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Chablis (unoaked Chardonnay from Burgundy) is the classic oyster pairing due to its crisp acidity and minerality."
         },
         {
@@ -1908,8 +1908,8 @@ A chef's understanding of beverages elevates the dining experience. This module 
           options: [
             "Wine should be drier than the food",
             "Wine should be sweeter than the food",
-            "Wine should have high tannins",
-            "Wine should be served very cold"
+            "Wine should be served very cold",
+            "Wine should have high tannins"
           ],
           correctAnswer: 1,
           explanation: "Wine must be sweeter than the food, or it will taste sour and flat by comparison."
@@ -1918,10 +1918,10 @@ A chef's understanding of beverages elevates the dining experience. This module 
           id: 5,
           question: "What beer style pairs well with spicy foods?",
           options: [
-            "Stout",
+            "Porter",
             "Pilsner",
             "IPA",
-            "Porter"
+            "Stout"
           ],
           correctAnswer: 2,
           explanation: "IPA's bitterness and hop flavors cut through spice and complement spicy dishes effectively."
@@ -1930,36 +1930,36 @@ A chef's understanding of beverages elevates the dining experience. This module 
           id: 6,
           question: "What is the ideal water temperature for brewing coffee?",
           options: [
-            "175-185°F (79-85°C)",
-            "185-195°F (85-91°C)",
             "195-205°F (91-96°C)",
+            "185-195°F (85-91°C)",
+            "175-185°F (79-85°C)",
             "205-212°F (96-100°C)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "195-205°F (91-96°C) extracts optimal flavor from coffee without extracting bitter compounds."
         },
         {
           id: 7,
           question: "What type of glass is traditionally used for Pinot Noir?",
           options: [
+            "White wine glass",
             "Bordeaux glass",
-            "Burgundy glass",
             "Standard red wine glass",
-            "White wine glass"
+            "Burgundy glass"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Burgundy glasses have wider bowls that deliver Pinot Noir's delicate aromas to the tip of the tongue."
         },
         {
           id: 8,
           question: "What is a typical wine markup in restaurants?",
           options: [
-            "1.5-2x cost",
             "2.5-3x cost",
+            "1.5-2x cost",
             "3.5-4x cost",
             "4.5-5x cost"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "2.5-3x cost is common for wine markup in restaurants, though rare bottles may have lower markup percentages."
         },
         {
@@ -1967,11 +1967,11 @@ A chef's understanding of beverages elevates the dining experience. This module 
           question: "What temperature should green tea be brewed at?",
           options: [
             "140-150°F (60-66°C)",
-            "160-180°F (71-82°C)",
             "190-200°F (88-93°C)",
+            "160-180°F (71-82°C)",
             "Boiling (212°F/100°C)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Green tea should be brewed at 160-180°F (71-82°C) to avoid extracting bitter compounds."
         },
         {
@@ -1990,10 +1990,10 @@ A chef's understanding of beverages elevates the dining experience. This module 
           id: 11,
           question: "Which red grape is known for being light-bodied with red fruit flavors?",
           options: [
-            "Cabernet Sauvignon",
             "Merlot",
+            "Syrah",
             "Pinot Noir",
-            "Syrah"
+            "Cabernet Sauvignon"
           ],
           correctAnswer: 2,
           explanation: "Pinot Noir is light-bodied with red fruit flavors (cherry, raspberry) and earthy notes, famously from Burgundy."
@@ -2003,9 +2003,9 @@ A chef's understanding of beverages elevates the dining experience. This module 
           question: "What cocktail family includes the Daiquiri and Whiskey Sour?",
           options: [
             "Sours",
-            "Spirit-forward",
             "Highballs",
-            "Tiki drinks"
+            "Tiki drinks",
+            "Spirit-forward"
           ],
           correctAnswer: 0,
           explanation: "Sours are spirit + citrus + sweetener. Daiquiri: rum + lime + sugar. Whiskey Sour: whiskey + lemon + sugar."
@@ -2014,48 +2014,48 @@ A chef's understanding of beverages elevates the dining experience. This module 
           id: 13,
           question: "What is the coffee to water ratio for drip brewing?",
           options: [
-            "1:8 coffee to water",
-            "1:12 coffee to water",
             "1:16 coffee to water",
+            "1:12 coffee to water",
+            "1:8 coffee to water",
             "1:20 coffee to water"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "1:16 ratio (60g coffee per liter of water) is standard for drip brewing, producing balanced extraction."
         },
         {
           id: 14,
           question: "What should be done with a young, tannic red wine before serving?",
           options: [
-            "Serve very cold",
-            "Decant for aeration",
             "Add ice cubes",
-            "Mix with soda water"
+            "Serve very cold",
+            "Mix with soda water",
+            "Decant for aeration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Young, tannic reds benefit from decanting to soften tannins through aeration."
         },
         {
           id: 15,
           question: "What is the main difference between Tequila and Mezcal?",
           options: [
-            "Tequila uses blue agave only, Mezcal various agaves",
-            "Tequila is smoky, Mezcal is not",
             "Tequila is always clear, Mezcal is always aged",
-            "Tequila is Mexican, Mezcal is Spanish"
+            "Tequila is Mexican, Mezcal is Spanish",
+            "Tequila is smoky, Mezcal is not",
+            "Tequila uses blue agave only, Mezcal various agaves"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Tequila uses only blue agave from specific regions. Mezcal uses various agave types and has smoky character from pit-roasting."
         },
         {
           id: 16,
           question: "How many by-the-glass wine options should a restaurant typically offer?",
           options: [
+            "18-20 options",
             "4-6 options",
-            "8-12 options",
             "14-16 options",
-            "18-20 options"
+            "8-12 options"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "8-12 by-the-glass options provide variety without overwhelming guests or creating excessive waste from open bottles."
         },
         {
@@ -2063,47 +2063,47 @@ A chef's understanding of beverages elevates the dining experience. This module 
           question: "What is the ideal serving temperature for red wines?",
           options: [
             "45-50°F (7-10°C)",
+            "Room temperature (70°F+/21°C+)",
             "55-65°F (13-18°C)",
-            "65-70°F (18-21°C)",
-            "Room temperature (70°F+/21°C+)"
+            "65-70°F (18-21°C)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Red wines should be served at 55-65°F (13-18°C), slightly cooler than typical room temperature."
         },
         {
           id: 18,
           question: "What beer style pairs well with chocolate desserts?",
           options: [
-            "Pilsner",
-            "IPA",
             "Stout",
-            "Sour beer"
+            "Pilsner",
+            "Sour beer",
+            "IPA"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Stout's roasted, chocolate notes complement chocolate desserts perfectly."
         },
         {
           id: 19,
           question: "How long should black tea typically steep?",
           options: [
-            "1-2 minutes",
             "3-5 minutes",
+            "1-2 minutes",
             "6-8 minutes",
             "10-12 minutes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Black tea should steep 3-5 minutes. Less time = weak tea, more time = bitter tea."
         },
         {
           id: 20,
           question: "What inventory turnover is ideal for wine?",
           options: [
-            "Daily turnover",
             "Weekly turnover",
-            "1-2 times monthly",
-            "Quarterly turnover"
+            "Daily turnover",
+            "Quarterly turnover",
+            "1-2 times monthly"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Wine should turn over 1-2 times monthly to ensure freshness and manage inventory investment."
         }
       ]
@@ -2226,24 +2226,24 @@ This module covers the business aspects of restaurant management, from daily ope
           id: 1,
           question: "What is the typical server to guest ratio in fine dining?",
           options: [
-            "1 server per 4-6 guests",
             "1 server per 8-12 guests",
             "1 server per 15-20 guests",
+            "1 server per 4-6 guests",
             "1 server per 25-30 guests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Fine dining typically has 1 server per 8-12 guests to provide attentive, personalized service."
         },
         {
           id: 2,
           question: "What is the typical no-show rate for restaurant reservations?",
           options: [
-            "5-10%",
             "10-20%",
+            "30-40%",
             "20-30%",
-            "30-40%"
+            "5-10%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "10-20% no-show rate is typical, which is why many restaurants overbook reservations slightly."
         },
         {
@@ -2251,9 +2251,9 @@ This module covers the business aspects of restaurant management, from daily ope
           question: "What is 'prime cost' in restaurant financials?",
           options: [
             "Food cost only",
-            "Labor cost only",
+            "Food + Labor + Rent",
             "Food + Labor costs",
-            "Food + Labor + Rent"
+            "Labor cost only"
           ],
           correctAnswer: 2,
           explanation: "Prime cost = Food cost + Labor cost. Target is 55-65% of total sales for full-service restaurants."
@@ -2262,21 +2262,21 @@ This module covers the business aspects of restaurant management, from daily ope
           id: 4,
           question: "What is the typical net profit percentage for full-service restaurants?",
           options: [
-            "1-3%",
             "3-10%",
-            "10-15%",
-            "15-20%"
+            "15-20%",
+            "1-3%",
+            "10-15%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Full-service restaurants typically achieve 3-10% net profit after all expenses. Higher for successful operations."
         },
         {
           id: 5,
           question: "How soon should a server greet guests after they are seated?",
           options: [
-            "Within 30 seconds",
-            "Within 1 minute",
             "Within 3 minutes",
+            "Within 1 minute",
+            "Within 30 seconds",
             "Within 5 minutes"
           ],
           correctAnswer: 1,
@@ -2286,94 +2286,94 @@ This module covers the business aspects of restaurant management, from daily ope
           id: 6,
           question: "What percentage of complaining guests will return if their complaint is handled well?",
           options: [
-            "50%",
-            "70%",
+            "95%",
             "85%",
-            "95%"
+            "50%",
+            "70%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "95% of complaining guests will return if their complaint is handled well, compared to only 50% if handled poorly."
         },
         {
           id: 7,
           question: "What is the target labor cost percentage including benefits?",
           options: [
-            "15-20%",
-            "25-35%",
+            "45-55%",
             "35-45%",
-            "45-55%"
+            "15-20%",
+            "25-35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Labor cost including benefits should be 25-35% of sales in full-service restaurants."
         },
         {
           id: 8,
           question: "What does IPM stand for in pest control?",
           options: [
-            "Integrated Pest Management",
+            "Immediate Pest Mitigation",
             "Insect Prevention Methods",
-            "Internal Pest Monitoring",
-            "Immediate Pest Mitigation"
+            "Integrated Pest Management",
+            "Internal Pest Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IPM = Integrated Pest Management - prevention first approach using sanitation, exclusion, then control methods."
         },
         {
           id: 9,
           question: "What is considered good sales per square foot for full-service restaurants?",
           options: [
-            "$100-150/sq ft",
             "$250-400/sq ft",
-            "$500-600/sq ft",
-            "$700-800/sq ft"
+            "$700-800/sq ft",
+            "$100-150/sq ft",
+            "$500-600/sq ft"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "$250-400 per square foot annually is good for full-service restaurants. Fast food can exceed $800/sq ft."
         },
         {
           id: 10,
           question: "How long should training records be maintained for health department compliance?",
           options: [
+            "3 years",
             "6 months",
             "1 year",
-            "2 years",
-            "3 years"
+            "2 years"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Food safety training records should be maintained for at least 2 years for health department verification."
         },
         {
           id: 11,
           question: "What is the typical turn time for a fine dining table?",
           options: [
-            "1-1.5 hours",
-            "2-2.5 hours",
             "3-3.5 hours",
-            "4-4.5 hours"
+            "4-4.5 hours",
+            "2-2.5 hours",
+            "1-1.5 hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Fine dining tables typically turn every 2-2.5 hours due to multiple courses and leisurely pacing."
         },
         {
           id: 12,
           question: "What is the 'LISTEN' method for handling complaints?",
           options: [
-            "Look, Inquire, Solve, Thank, Evaluate, Notify",
-            "Listen, Isolate, Sympathize, Take action, Explain, Notify",
+            "Locate, Identify, Settle, Testify, Engage, Navigate",
             "Learn, Investigate, Satisfy, Terminate, Educate, Negotiate",
-            "Locate, Identify, Settle, Testify, Engage, Navigate"
+            "Look, Inquire, Solve, Thank, Evaluate, Notify",
+            "Listen, Isolate, Sympathize, Take action, Explain, Notify"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "LISTEN: Listen fully, Isolate if needed, Sympathize, Take action, Explain what you'll do, Notify management."
         },
         {
           id: 13,
           question: "What is break-even analysis formula?",
           options: [
-            "Fixed costs ÷ Variable costs",
+            "Variable costs ÷ Fixed costs",
             "Fixed costs ÷ (1 - Variable cost percentage)",
             "Sales ÷ Fixed costs",
-            "Variable costs ÷ Fixed costs"
+            "Fixed costs ÷ Variable costs"
           ],
           correctAnswer: 1,
           explanation: "Break-even point = Fixed costs ÷ (1 - Variable cost percentage). Example: $10,000 fixed costs ÷ (1 - 0.60) = $25,000 sales needed."
@@ -2382,12 +2382,12 @@ This module covers the business aspects of restaurant management, from daily ope
           id: 14,
           question: "What is the ideal server to busser ratio?",
           options: [
-            "1 busser per 1-2 servers",
             "1 busser per 3-4 servers",
-            "1 busser per 5-6 servers",
-            "1 busser per 7-8 servers"
+            "1 busser per 7-8 servers",
+            "1 busser per 1-2 servers",
+            "1 busser per 5-6 servers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "1 busser typically supports 3-4 servers, helping with water, clearing, and table resetting."
         },
         {
@@ -2395,21 +2395,21 @@ This module covers the business aspects of restaurant management, from daily ope
           question: "What is a 'critical violation' in health inspections?",
           options: [
             "Dirty floors",
+            "Peeling paint",
             "Improper food storage labels",
-            "Temperature control issues",
-            "Peeling paint"
+            "Temperature control issues"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Critical violations directly affect food safety: temperature control, cross-contamination, hand washing, etc."
         },
         {
           id: 16,
           question: "What social media platform is best for food photography?",
           options: [
+            "LinkedIn",
             "Facebook",
-            "Twitter",
             "Instagram",
-            "LinkedIn"
+            "Twitter"
           ],
           correctAnswer: 2,
           explanation: "Instagram is ideal for food photography and visual storytelling about menu items and restaurant ambiance."
@@ -2430,24 +2430,24 @@ This module covers the business aspects of restaurant management, from daily ope
           id: 18,
           question: "What does COGS stand for in restaurant accounting?",
           options: [
-            "Cost of Goods Sold",
             "Cost of General Supplies",
+            "Cost of Goods Sold",
             "Cost of Guest Services",
             "Cost of Goods Served"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "COGS = Cost of Goods Sold, specifically food and beverage costs in restaurant accounting."
         },
         {
           id: 19,
           question: "How many courses are typical in a wine dinner event?",
           options: [
-            "3-4 courses",
+            "9-10 courses",
             "5-6 courses",
-            "6-8 courses",
-            "9-10 courses"
+            "3-4 courses",
+            "6-8 courses"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Wine dinners typically feature 6-8 courses with paired wines, allowing chefs to showcase creativity."
         },
         {
@@ -2578,9 +2578,9 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           question: "How many miles does the average American meal travel from farm to plate?",
           options: [
             "500 miles",
-            "1,000 miles",
+            "2,000 miles",
             "1,500 miles",
-            "2,000 miles"
+            "1,000 miles"
           ],
           correctAnswer: 2,
           explanation: "The average American meal travels approximately 1,500 miles from farm to plate, contributing to significant carbon emissions."
@@ -2589,24 +2589,24 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           id: 2,
           question: "What is the first priority in the food waste hierarchy?",
           options: [
-            "Composting",
-            "Source reduction",
             "Donation to food banks",
-            "Animal feed"
+            "Animal feed",
+            "Source reduction",
+            "Composting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Source reduction (not creating waste in the first place) is the most effective approach in the food waste hierarchy."
         },
         {
           id: 3,
           question: "What energy efficiency percentage does induction cooking typically achieve?",
           options: [
+            "90% efficiency",
             "40% efficiency",
-            "60% efficiency",
             "75% efficiency",
-            "90% efficiency"
+            "60% efficiency"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Induction cooking achieves approximately 90% energy efficiency by directly heating the cookware, compared to 40% for gas."
         },
         {
@@ -2614,33 +2614,33 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           question: "What does MSC certification indicate for seafood?",
           options: [
             "Organic farming practices",
-            "Marine Stewardship Council sustainable wild-caught",
+            "Antibiotic-free production",
             "Aquaculture Stewardship Council farmed",
-            "Antibiotic-free production"
+            "Marine Stewardship Council sustainable wild-caught"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "MSC = Marine Stewardship Council certification indicates sustainably caught wild seafood from well-managed fisheries."
         },
         {
           id: 5,
           question: "What percentage cost reduction can seasonal purchasing achieve at peak season?",
           options: [
+            "70-90%",
             "10-20%",
-            "30-50%",
             "50-70%",
-            "70-90%"
+            "30-50%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Purchasing at peak season can reduce costs by 30-50% due to abundance and reduced transportation needs."
         },
         {
           id: 6,
           question: "How much water does a dripping faucet typically waste per year?",
           options: [
-            "500 gallons",
             "1,000 gallons",
+            "5,000+ gallons",
             "3,000+ gallons",
-            "5,000+ gallons"
+            "500 gallons"
           ],
           correctAnswer: 2,
           explanation: "A single dripping faucet can waste over 3,000 gallons of water per year - a significant and preventable loss."
@@ -2649,12 +2649,12 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           id: 7,
           question: "What is a realistic food waste reduction goal for a kitchen audit?",
           options: [
-            "5% reduction",
             "10-25% reduction",
-            "30-40% reduction",
-            "50-60% reduction"
+            "5% reduction",
+            "50-60% reduction",
+            "30-40% reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "10-25% reduction is realistic and achievable through better ordering, prep, and portion control."
         },
         {
@@ -2673,12 +2673,12 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           id: 9,
           question: "What percentage more efficient are Energy Star rated appliances?",
           options: [
-            "5-10% more efficient",
-            "10-50% more efficient",
+            "75-90% more efficient",
             "50-75% more efficient",
-            "75-90% more efficient"
+            "5-10% more efficient",
+            "10-50% more efficient"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Energy Star rated appliances are typically 10-50% more energy efficient than standard models."
         },
         {
@@ -2686,45 +2686,45 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           question: "What federal act protects restaurants that donate food?",
           options: [
             "Food Safety Modernization Act",
-            "Bill Emerson Good Samaritan Act",
             "Sustainable Food Donation Act",
-            "Food Recovery and Donation Act"
+            "Food Recovery and Donation Act",
+            "Bill Emerson Good Samaritan Act"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Bill Emerson Good Samaritan Food Donation Act protects donors from liability when donating food in good faith."
         },
         {
           id: 11,
           question: "What composting method can handle all food waste including meat?",
           options: [
-            "Traditional composting",
             "Vermicomposting",
-            "Bokashi fermentation",
-            "All of the above"
+            "Traditional composting",
+            "All of the above",
+            "Bokashi fermentation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Bokashi fermentation can handle all food waste including meat and dairy, which traditional composting cannot."
         },
         {
           id: 12,
           question: "How much faster do combi-ovens typically cook compared to conventional ovens?",
           options: [
+            "70-80% faster",
             "10-20% faster",
             "30-40% faster",
-            "50-60% faster",
-            "70-80% faster"
+            "50-60% faster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Combi-ovens cook 30-40% faster due to precise steam and temperature control, saving energy and time."
         },
         {
           id: 13,
           question: "What is bagasse packaging made from?",
           options: [
-            "Corn starch",
-            "Sugarcane fiber",
             "Bamboo",
-            "Recycled paper"
+            "Sugarcane fiber",
+            "Recycled paper",
+            "Corn starch"
           ],
           correctAnswer: 1,
           explanation: "Bagasse is made from sugarcane fiber left after juice extraction - a sustainable byproduct used for containers."
@@ -2733,12 +2733,12 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           id: 14,
           question: "What percentage increase in energy use do dirty HVAC filters cause?",
           options: [
-            "5-10% increase",
-            "15-20% increase",
+            "35-40% increase",
             "25-30% increase",
-            "35-40% increase"
+            "5-10% increase",
+            "15-20% increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dirty HVAC filters can increase energy use by 15-20% due to reduced airflow and system strain."
         },
         {
@@ -2746,9 +2746,9 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           question: "What does PLA stand for in compostable packaging?",
           options: [
             "Poly Lactic Acid",
-            "Plant-Based Linear Array",
+            "Processed Leaf Aggregate",
             "Post-Consumer Landfill Alternative",
-            "Processed Leaf Aggregate"
+            "Plant-Based Linear Array"
           ],
           correctAnswer: 0,
           explanation: "PLA = Poly Lactic Acid, a compostable plastic made from corn starch or sugarcane."
@@ -2758,23 +2758,23 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           question: "What is the main advantage of low-flow pre-rinse sprays?",
           options: [
             "Better cleaning power",
-            "Reduced water use (1.28 gpm vs. 2.5+ gpm)",
             "Higher pressure",
-            "Longer lifespan"
+            "Longer lifespan",
+            "Reduced water use (1.28 gpm vs. 2.5+ gpm)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Low-flow pre-rinse sprays use 1.28 gallons per minute vs. standard 2.5+ gpm, saving significant water."
         },
         {
           id: 17,
           question: "What does direct trade mean in ethical sourcing?",
           options: [
-            "Trading directly with producers",
-            "Using fair trade certified products",
             "Buying only local products",
-            "Trading without middlemen for better prices"
+            "Trading directly with producers",
+            "Trading without middlemen for better prices",
+            "Using fair trade certified products"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Direct trade involves building relationships directly with producers, often resulting in better prices and transparency."
         },
         {
@@ -2782,35 +2782,35 @@ Modern chefs must balance culinary excellence with environmental stewardship. Th
           question: "How much energy do LED lights save compared to incandescent?",
           options: [
             "25% less energy",
-            "50% less energy",
             "75% less energy",
-            "90% less energy"
+            "90% less energy",
+            "50% less energy"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "LED lights use approximately 75% less energy than incandescent bulbs and last 25 times longer."
         },
         {
           id: 19,
           question: "What is the Seafood Watch 'Green' rating?",
           options: [
-            "Avoid",
             "Good Alternative",
             "Best Choice",
-            "Farmed Only"
+            "Farmed Only",
+            "Avoid"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Green = Best Choice, Yellow = Good Alternative, Red = Avoid, according to Monterey Bay Aquarium Seafood Watch."
         },
         {
           id: 20,
           question: "What measurement tracks percentage of waste kept from landfill?",
           options: [
-            "Carbon footprint",
             "Waste diversion rate",
-            "Water usage per cover",
-            "Energy intensity"
+            "Energy intensity",
+            "Carbon footprint",
+            "Water usage per cover"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Waste diversion rate = (Waste diverted from landfill ÷ Total waste) × 100%. Target is often 75%+ for sustainable operations."
         }
       ]
@@ -2925,22 +2925,22 @@ This module explores emerging trends, innovative techniques, and future directio
           id: 1,
           question: "What does 'plant-forward' dining emphasize?",
           options: [
-            "Eliminating all animal products",
-            "Plant-based foods as centerpiece with occasional meat",
+            "Meat with vegetable garnishes",
             "Raw foods only",
-            "Meat with vegetable garnishes"
+            "Plant-based foods as centerpiece with occasional meat",
+            "Eliminating all animal products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Plant-forward places plants at the center of the plate, with animal proteins as accents or occasional additions."
         },
         {
           id: 2,
           question: "What are ghost kitchens?",
           options: [
-            "Haunted restaurant buildings",
-            "Delivery-only kitchens without dining room",
             "Kitchens that only serve at night",
-            "Abandoned restaurant spaces"
+            "Delivery-only kitchens without dining room",
+            "Abandoned restaurant spaces",
+            "Haunted restaurant buildings"
           ],
           correctAnswer: 1,
           explanation: "Ghost kitchens are delivery-only operations without dining rooms, focusing on online orders for lower overhead."
@@ -2949,36 +2949,36 @@ This module explores emerging trends, innovative techniques, and future directio
           id: 3,
           question: "What margin advantage can ghost kitchens have over traditional restaurants?",
           options: [
-            "5-10% higher margins",
-            "15-30% higher margins",
             "30-40% higher margins",
-            "40-50% higher margins"
+            "5-10% higher margins",
+            "40-50% higher margins",
+            "15-30% higher margins"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ghost kitchens can achieve 15-30% higher margins due to lower rent, fewer staff, and focused operations."
         },
         {
           id: 4,
           question: "What is cultured meat?",
           options: [
-            "Meat from specially raised animals",
-            "Lab-grown meat from animal cells",
             "Plant-based meat alternatives",
-            "Fermented meat products"
+            "Fermented meat products",
+            "Meat from specially raised animals",
+            "Lab-grown meat from animal cells"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cultured meat is grown from animal cells in labs, potentially offering meat without animal slaughter."
         },
         {
           id: 5,
           question: "What does CSA stand for in local food systems?",
           options: [
+            "Certified Seasonal Agriculture",
             "Community Supported Agriculture",
-            "Culinary Specialists Association",
             "Commercial Sustainable Agriculture",
-            "Certified Seasonal Agriculture"
+            "Culinary Specialists Association"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CSA = Community Supported Agriculture - consumers buy shares of a farm's harvest in advance, supporting local farmers."
         },
         {
@@ -2986,35 +2986,35 @@ This module explores emerging trends, innovative techniques, and future directio
           question: "What percentage of a menu should typically be stable versus innovative?",
           options: [
             "50% stable, 50% innovative",
+            "90% stable, 10% innovative",
             "60% stable, 40% innovative",
-            "70-80% stable, 20-30% innovative",
-            "90% stable, 10% innovative"
+            "70-80% stable, 20-30% innovative"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "70-80% stable items maintain regulars' favorites, while 20-30% innovative items keep the menu fresh and exciting."
         },
         {
           id: 7,
           question: "What is the main advantage of vertical farming?",
           options: [
+            "Faster growth than traditional farming",
             "Higher yields in less space",
-            "Lower startup costs",
             "Less technical knowledge required",
-            "Faster growth than traditional farming"
+            "Lower startup costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vertical farming produces higher yields in less space using stacked layers, ideal for urban environments."
         },
         {
           id: 8,
           question: "What does 'upcycled ingredients' refer to?",
           options: [
-            "Ingredients grown upward instead of outward",
             "Using food byproducts creatively",
             "Recycling packaging materials",
-            "Ingredients that have been frozen and thawed"
+            "Ingredients that have been frozen and thawed",
+            "Ingredients grown upward instead of outward"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Upcycled ingredients creatively use food byproducts that would otherwise be waste, like carrot tops or whey."
         },
         {
@@ -3033,12 +3033,12 @@ This module explores emerging trends, innovative techniques, and future directio
           id: 10,
           question: "What does 'circular economy' mean in food systems?",
           options: [
-            "Serving food on round plates",
             "Waste from one process becomes input for another",
             "Rotating menu items seasonally",
-            "Circular dining room layouts"
+            "Circular dining room layouts",
+            "Serving food on round plates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Circular economy designs systems where waste from one process becomes valuable input for another, eliminating waste."
         },
         {
@@ -3046,23 +3046,23 @@ This module explores emerging trends, innovative techniques, and future directio
           question: "What is a 'virtual restaurant'?",
           options: [
             "Restaurant in virtual reality",
-            "Multiple brands operating from one physical kitchen",
+            "Online restaurant review site",
             "Restaurant with no physical location",
-            "Online restaurant review site"
+            "Multiple brands operating from one physical kitchen"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Virtual restaurants are multiple delivery-only brands operating from a single physical kitchen space."
         },
         {
           id: 12,
           question: "What is the 'flexitarian' movement?",
           options: [
-            "Flexible workout routines",
             "Mostly plant-based with occasional meat",
+            "Flexible dining reservations",
             "Eating only during flexible hours",
-            "Flexible dining reservations"
+            "Flexible workout routines"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Flexitarians eat mostly plant-based diets with occasional meat or fish, focusing on reducing rather than eliminating animal products."
         },
         {
@@ -3081,10 +3081,10 @@ This module explores emerging trends, innovative techniques, and future directio
           id: 14,
           question: "What is 'clean labeling'?",
           options: [
-            "Labels without dirt",
+            "Handwritten labels only",
             "Simple, recognizable ingredients",
             "Labels with no nutritional information",
-            "Handwritten labels only"
+            "Labels without dirt"
           ],
           correctAnswer: 1,
           explanation: "Clean labeling uses simple, recognizable ingredients that consumers understand, avoiding artificial additives."
@@ -3094,71 +3094,71 @@ This module explores emerging trends, innovative techniques, and future directio
           question: "What growing method uses no soil and mists roots with nutrients?",
           options: [
             "Hydroponics",
-            "Aeroponics",
             "Aquaponics",
-            "Traditional agriculture"
+            "Traditional agriculture",
+            "Aeroponics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Aeroponics grows plants with roots suspended in air, misted with nutrient solution - highly water efficient."
         },
         {
           id: 16,
           question: "What is the primary benefit of kitchen display systems?",
           options: [
-            "Paperless tickets and order tracking",
-            "Entertainment for cooks",
             "Lower equipment costs",
-            "Better lighting for food photos"
+            "Paperless tickets and order tracking",
+            "Better lighting for food photos",
+            "Entertainment for cooks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Kitchen display systems create paperless tickets, track order times, and improve kitchen communication and efficiency."
         },
         {
           id: 17,
           question: "What does FODMAP refer to in dietary menus?",
           options: [
-            "A type of cooking method",
-            "Fermentable carbohydrates that some people cannot digest",
+            "A type of food packaging",
             "A certification for organic foods",
-            "A type of food packaging"
+            "Fermentable carbohydrates that some people cannot digest",
+            "A type of cooking method"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "FODMAPs are fermentable carbohydrates that can cause digestive issues for some people, requiring specialized menus."
         },
         {
           id: 18,
           question: "What is the main advantage of robotic kitchen assistants?",
           options: [
-            "They never take breaks",
-            "Consistency and labor cost reduction",
             "Better creativity than humans",
-            "Lower energy consumption"
+            "They never take breaks",
+            "Lower energy consumption",
+            "Consistency and labor cost reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Robotic assistants provide perfect consistency for repetitive tasks and can reduce labor costs in high-volume operations."
         },
         {
           id: 19,
           question: "What does 'immersive dining' involve?",
           options: [
-            "Food served underwater",
             "Multi-sensory experiences beyond just eating",
             "Dining while swimming",
+            "Food served underwater",
             "Food that melts in your mouth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Immersive dining engages multiple senses with thematic environments, storytelling, and interactive elements."
         },
         {
           id: 20,
           question: "What is a primary benefit of meal kit subscription models for restaurants?",
           options: [
-            "Higher food costs",
             "Predictable revenue and customer retention",
+            "No need for a kitchen",
             "Less cooking required",
-            "No need for a kitchen"
+            "Higher food costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Subscription models provide predictable recurring revenue and build strong customer relationships through regular engagement."
         }
       ]
@@ -3287,10 +3287,10 @@ This final module synthesizes all learning into developing a complete restaurant
           id: 1,
           question: "What is a Unique Selling Proposition (USP) in restaurant concept development?",
           options: [
-            "The restaurant's location",
+            "The chef's background",
             "What sets the restaurant apart from competitors",
             "The menu pricing strategy",
-            "The chef's background"
+            "The restaurant's location"
           ],
           correctAnswer: 1,
           explanation: "USP is the distinctive factor that makes your restaurant different and better than competitors - the reason customers will choose you."
@@ -3300,95 +3300,95 @@ This final module synthesizes all learning into developing a complete restaurant
           question: "What percentage of total startup costs should be allocated to contingency funds?",
           options: [
             "5-10%",
-            "10-15%",
             "15-20%",
+            "10-15%",
             "20-25%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "10-15% contingency fund is recommended for unexpected expenses during startup and opening."
         },
         {
           id: 3,
           question: "How many months of operating expenses should working capital cover?",
           options: [
-            "1-2 months",
-            "3-6 months",
+            "9-12 months",
             "6-9 months",
-            "9-12 months"
+            "3-6 months",
+            "1-2 months"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Working capital should cover 3-6 months of operating expenses to sustain the business until it becomes profitable."
         },
         {
           id: 4,
           question: "What does SWOT analysis stand for?",
           options: [
-            "Strengths, Weaknesses, Opportunities, Threats",
+            "Standards, Workflow, Organization, Technology",
             "Service, Workforce, Operations, Training",
-            "Sales, Waste, Output, Timing",
-            "Standards, Workflow, Organization, Technology"
+            "Strengths, Weaknesses, Opportunities, Threats",
+            "Sales, Waste, Output, Timing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SWOT = Strengths, Weaknesses (internal), Opportunities, Threats (external) - foundational strategic analysis."
         },
         {
           id: 5,
           question: "What is the break-even formula?",
           options: [
-            "Fixed costs ÷ Variable costs",
-            "Fixed costs ÷ Contribution margin ratio",
             "Sales ÷ Fixed costs",
-            "Variable costs ÷ Fixed costs"
+            "Fixed costs ÷ Variable costs",
+            "Variable costs ÷ Fixed costs",
+            "Fixed costs ÷ Contribution margin ratio"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Break-even point = Fixed costs ÷ Contribution margin ratio (1 - Variable cost percentage)."
         },
         {
           id: 6,
           question: "When should key management staff typically be hired before opening?",
           options: [
-            "2 weeks before opening",
-            "4 weeks before opening",
             "6-8 weeks before opening",
-            "12 weeks before opening"
+            "12 weeks before opening",
+            "4 weeks before opening",
+            "2 weeks before opening"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Key management (Chef, GM) should be hired 6-8 weeks before opening to participate in planning and hiring."
         },
         {
           id: 7,
           question: "What is typically included in a business plan's executive summary?",
           options: [
-            "Detailed financial projections",
-            "Daily operating procedures",
+            "Employee handbook contents",
             "Brief overview of concept and financial highlights",
-            "Employee handbook contents"
+            "Daily operating procedures",
+            "Detailed financial projections"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Executive summary provides a concise overview of the concept, market opportunity, financial highlights, and team."
         },
         {
           id: 8,
           question: "What should a soft opening primarily focus on?",
           options: [
-            "Maximizing revenue",
-            "Testing systems and training staff",
+            "Competing with established restaurants",
             "Attracting media attention",
-            "Competing with established restaurants"
+            "Maximizing revenue",
+            "Testing systems and training staff"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Soft opening focuses on testing systems, training staff, and working out kinks with limited guest groups before full opening."
         },
         {
           id: 9,
           question: "What is 'psychographic profiling' of target market?",
           options: [
-            "Analyzing age and income",
-            "Studying lifestyles, values, and interests",
+            "Counting population density",
             "Mapping geographic locations",
-            "Counting population density"
+            "Studying lifestyles, values, and interests",
+            "Analyzing age and income"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Psychographics analyze lifestyles, values, interests, and personality traits - more revealing than demographics alone."
         },
         {
@@ -3396,11 +3396,11 @@ This final module synthesizes all learning into developing a complete restaurant
           question: "How many main courses should a typical dinner menu offer?",
           options: [
             "5-7 items",
+            "13-15 items",
             "8-10 items",
-            "10-12 items",
-            "13-15 items"
+            "10-12 items"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "10-12 main courses provides variety without overwhelming guests or creating excessive prep complexity."
         },
         {
@@ -3408,33 +3408,33 @@ This final module synthesizes all learning into developing a complete restaurant
           question: "What does 'contribution margin' mean?",
           options: [
             "Total sales revenue",
+            "Food cost percentage",
             "Sales - Variable costs",
-            "Net profit after all expenses",
-            "Food cost percentage"
+            "Net profit after all expenses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Contribution margin = Sales - Variable costs. This amount contributes to covering fixed costs and profit."
         },
         {
           id: 12,
           question: "What is gap analysis in market research?",
           options: [
-            "Analyzing age gaps in population",
             "Identifying unmet needs in the market",
             "Measuring time gaps in service",
+            "Analyzing age gaps in population",
             "Finding geographic gaps in restaurant distribution"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Gap analysis identifies unmet customer needs or underserved market segments that your concept can fill."
         },
         {
           id: 13,
           question: "When should front-of-house staff typically be hired before opening?",
           options: [
+            "6 weeks before opening",
             "1 week before opening",
-            "2 weeks before opening",
             "4 weeks before opening",
-            "6 weeks before opening"
+            "2 weeks before opening"
           ],
           correctAnswer: 2,
           explanation: "Front-of-house staff should be hired 4 weeks before opening for thorough training on systems, menu, and service."
@@ -3443,58 +3443,58 @@ This final module synthesizes all learning into developing a complete restaurant
           id: 14,
           question: "What is 'seat turnover' in sales forecasting?",
           options: [
-            "How often chairs need replacement",
-            "How many times tables turn per meal period",
             "Employee turnover rate",
-            "Customer return rate"
+            "How often chairs need replacement",
+            "Customer return rate",
+            "How many times tables turn per meal period"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Seat turnover = Number of times each seat is occupied during a meal period. Fine dining: 1-1.5x, casual: 2-3x."
         },
         {
           id: 15,
           question: "What should be included in recipe standardization?",
           options: [
+            "Only chef's personal notes",
             "Only ingredient lists",
-            "Exact specifications, procedures, portions, and plating",
             "Just cooking temperatures",
-            "Only chef's personal notes"
+            "Exact specifications, procedures, portions, and plating"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Standardized recipes include exact ingredients, preparation steps, portion sizes, and plating instructions for consistency."
         },
         {
           id: 16,
           question: "What is typically the largest startup cost for a restaurant?",
           options: [
-            "Initial food inventory",
-            "Renovation and equipment",
             "Marketing expenses",
-            "License fees"
+            "License fees",
+            "Renovation and equipment",
+            "Initial food inventory"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Renovation and equipment typically represent 40-60% of total startup costs for a restaurant."
         },
         {
           id: 17,
           question: "What does 'target market demographic profiling' include?",
           options: [
-            "Age, income, education, occupation",
-            "Lifestyles and values",
             "Geographic location only",
-            "Food preferences only"
+            "Lifestyles and values",
+            "Food preferences only",
+            "Age, income, education, occupation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demographics include measurable characteristics: age, income, education, occupation, family status, etc."
         },
         {
           id: 18,
           question: "What is the purpose of a pre-opening marketing campaign?",
           options: [
-            "To generate immediate sales",
+            "To hire staff",
             "To create buzz and build anticipation",
-            "To test menu prices",
-            "To hire staff"
+            "To generate immediate sales",
+            "To test menu prices"
           ],
           correctAnswer: 1,
           explanation: "Pre-opening marketing builds anticipation, creates buzz, and develops an initial customer base before opening."
@@ -3503,12 +3503,12 @@ This final module synthesizes all learning into developing a complete restaurant
           id: 19,
           question: "What should be established 3-6 months before opening?",
           options: [
-            "Final staff hiring",
             "Menu tasting events",
-            "Lease signing and renovations",
-            "Grand opening party planning"
+            "Grand opening party planning",
+            "Final staff hiring",
+            "Lease signing and renovations"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "3-6 months before opening: secure location, begin renovations, order equipment, and establish key supplier relationships."
         },
         {
@@ -3516,11 +3516,11 @@ This final module synthesizes all learning into developing a complete restaurant
           question: "What is a critical success metric for customer satisfaction?",
           options: [
             "Food cost percentage",
-            "Repeat customer rate",
+            "Square footage",
             "Employee turnover",
-            "Square footage"
+            "Repeat customer rate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Repeat customer rate indicates satisfaction - loyal customers returning regularly is a key success indicator."
         }
       ]
@@ -3537,22 +3537,22 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 1,
         question: "What is the target range for food cost percentage in professional restaurants?",
         options: [
-          "20-25%",
           "28-35%",
           "35-40%",
-          "40-45%"
+          "40-45%",
+          "20-25%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Professional restaurants target 28-35% food cost. Fine dining may be higher, fast casual lower."
       },
       {
         id: 2,
         question: "What temperature is ideal for cooking chicken breast sous vide?",
         options: [
-          "135°F (57°C)",
-          "146°F (63°C)",
           "155°F (68°C)",
-          "165°F (74°C)"
+          "146°F (63°C)",
+          "165°F (74°C)",
+          "135°F (57°C)"
         ],
         correctAnswer: 1,
         explanation: "146°F (63°C) for 1-4 hours produces perfectly juicy, safe chicken breast without dryness."
@@ -3561,21 +3561,21 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 3,
         question: "How many mother sauces are there in classical French cuisine?",
         options: [
-          "3 mother sauces",
-          "4 mother sauces",
+          "6 mother sauces",
           "5 mother sauces",
-          "6 mother sauces"
+          "3 mother sauces",
+          "4 mother sauces"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "5 mother sauces: Béchamel, Velouté, Espagnole, Tomato, Hollandaise - foundation of French cuisine."
       },
       {
         id: 4,
         question: "What is the protein content range for bread flour?",
         options: [
-          "6-8%",
           "8-10%",
           "10-12%",
+          "6-8%",
           "12-14%"
         ],
         correctAnswer: 3,
@@ -3585,10 +3585,10 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 5,
         question: "What are items with high popularity but low profit called in menu engineering?",
         options: [
-          "Stars",
+          "Dogs",
           "Plowhorses",
           "Puzzles",
-          "Dogs"
+          "Stars"
         ],
         correctAnswer: 1,
         explanation: "Plowhorses have high sales but low profitability - need price increases or cost reductions."
@@ -3597,10 +3597,10 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 6,
         question: "What is the ideal serving temperature for white wines?",
         options: [
-          "35-40°F (2-4°C)",
+          "65-70°F (18-21°C)",
           "45-50°F (7-10°C)",
           "55-60°F (13-16°C)",
-          "65-70°F (18-21°C)"
+          "35-40°F (2-4°C)"
         ],
         correctAnswer: 1,
         explanation: "White wines should be served at 45-50°F (7-10°C) - too cold masks flavors, too warm makes flabby."
@@ -3609,20 +3609,20 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 7,
         question: "What is the typical server to guest ratio in fine dining?",
         options: [
-          "1 server per 4-6 guests",
-          "1 server per 8-12 guests",
           "1 server per 15-20 guests",
-          "1 server per 25-30 guests"
+          "1 server per 25-30 guests",
+          "1 server per 4-6 guests",
+          "1 server per 8-12 guests"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Fine dining typically has 1 server per 8-12 guests for attentive, personalized service."
       },
       {
         id: 8,
         question: "How many miles does the average American meal travel from farm to plate?",
         options: [
-          "500 miles",
           "1,000 miles",
+          "500 miles",
           "1,500 miles",
           "2,000 miles"
         ],
@@ -3633,9 +3633,9 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 9,
         question: "What are ghost kitchens?",
         options: [
-          "Haunted restaurant buildings",
-          "Delivery-only kitchens without dining room",
           "Kitchens that only serve at night",
+          "Delivery-only kitchens without dining room",
+          "Haunted restaurant buildings",
           "Abandoned restaurant spaces"
         ],
         correctAnswer: 1,
@@ -3645,60 +3645,60 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 10,
         question: "What is a Unique Selling Proposition (USP) in restaurant concept development?",
         options: [
-          "The restaurant's location",
-          "What sets the restaurant apart from competitors",
           "The menu pricing strategy",
-          "The chef's background"
+          "The restaurant's location",
+          "The chef's background",
+          "What sets the restaurant apart from competitors"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "USP is the distinctive factor that makes your restaurant different and better than competitors."
       },
       {
         id: 11,
         question: "What does HACCP stand for in food safety management?",
         options: [
-          "Hazard Analysis and Critical Control Points",
-          "Health and Cooking Control Procedures",
+          "Hot and Cold Control Protocol",
           "Hygiene Assessment and Cooking Check Points",
-          "Hot and Cold Control Protocol"
+          "Health and Cooking Control Procedures",
+          "Hazard Analysis and Critical Control Points"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "HACCP = Hazard Analysis and Critical Control Points - systematic preventive approach to food safety."
       },
       {
         id: 12,
         question: "How many times stronger is agar-agar compared to gelatin?",
         options: [
-          "2-3 times stronger",
           "4-5 times stronger",
           "6-7 times stronger",
-          "8-10 times stronger"
+          "8-10 times stronger",
+          "2-3 times stronger"
         ],
-        correctAnswer: 3,
+        correctAnswer: 2,
         explanation: "Agar-agar is 8-10 times stronger than gelatin, sets at higher temperatures, and is heat-stable."
       },
       {
         id: 13,
         question: "What are the four pillars of Thai flavor balance?",
         options: [
-          "Sweet, salty, bitter, umami",
           "Spicy, sour, sweet, salty",
+          "Fresh, dried, whole, ground",
           "Hot, cold, crunchy, soft",
-          "Fresh, dried, whole, ground"
+          "Sweet, salty, bitter, umami"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Thai cuisine balances four pillars: spicy, sour, sweet, and salty."
       },
       {
         id: 14,
         question: "What temperature should crème anglaise be cooked to?",
         options: [
-          "160-165°F (71-74°C)",
-          "170-175°F (77-79°C)",
           "180-185°F (82-85°C)",
-          "190-195°F (88-91°C)"
+          "170-175°F (77-79°C)",
+          "190-195°F (88-91°C)",
+          "160-165°F (71-74°C)"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Crème anglaise should reach 180-185°F (82-85°C) to thicken yolks properly without curdling."
       },
       {
@@ -3706,47 +3706,47 @@ This final module synthesizes all learning into developing a complete restaurant
         question: "What is the typical popularity threshold in menu engineering analysis?",
         options: [
           "50% of average item sales",
+          "100% of average item sales",
           "70% of average item sales",
-          "90% of average item sales",
-          "100% of average item sales"
+          "90% of average item sales"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Popularity threshold is typically 70% of average item sales for menu engineering classification."
       },
       {
         id: 16,
         question: "Which wine is classically paired with oysters?",
         options: [
+          "Pinot Noir",
           "Cabernet Sauvignon",
           "Chardonnay (Chablis)",
-          "Pinot Noir",
           "Zinfandel"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Chablis (unoaked Chardonnay) is the classic oyster pairing due to crisp acidity and minerality."
       },
       {
         id: 17,
         question: "What is 'prime cost' in restaurant financials?",
         options: [
-          "Food cost only",
+          "Food + Labor + Rent",
           "Labor cost only",
-          "Food + Labor costs",
-          "Food + Labor + Rent"
+          "Food cost only",
+          "Food + Labor costs"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Prime cost = Food cost + Labor cost. Target is 55-65% of total sales."
       },
       {
         id: 18,
         question: "What energy efficiency percentage does induction cooking typically achieve?",
         options: [
-          "40% efficiency",
-          "60% efficiency",
           "75% efficiency",
-          "90% efficiency"
+          "90% efficiency",
+          "40% efficiency",
+          "60% efficiency"
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         explanation: "Induction cooking achieves approximately 90% energy efficiency by directly heating cookware."
       },
       {
@@ -3754,11 +3754,11 @@ This final module synthesizes all learning into developing a complete restaurant
         question: "What is cultured meat?",
         options: [
           "Meat from specially raised animals",
-          "Lab-grown meat from animal cells",
           "Plant-based meat alternatives",
-          "Fermented meat products"
+          "Fermented meat products",
+          "Lab-grown meat from animal cells"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Cultured meat is grown from animal cells in labs, potentially offering meat without animal slaughter."
       },
       {
@@ -3766,23 +3766,23 @@ This final module synthesizes all learning into developing a complete restaurant
         question: "What percentage of total startup costs should be allocated to contingency funds?",
         options: [
           "5-10%",
-          "10-15%",
           "15-20%",
+          "10-15%",
           "20-25%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "10-15% contingency fund is recommended for unexpected expenses during startup."
       },
       {
         id: 21,
         question: "What is the standard acknowledgment in a professional kitchen?",
         options: [
-          "Yes, Chef!",
           "Heard!",
           "Copy that!",
-          "Got it!"
+          "Got it!",
+          "Yes, Chef!"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "'Yes, Chef!' shows respect for the chain of command in professional kitchens."
       },
       {
@@ -3790,9 +3790,9 @@ This final module synthesizes all learning into developing a complete restaurant
         question: "What is the typical yield percentage for beef from whole animal to cuts?",
         options: [
           "40-45%",
-          "50-55%",
+          "70-75%",
           "60-65%",
-          "70-75%"
+          "50-55%"
         ],
         correctAnswer: 2,
         explanation: "Beef typically yields 60-65% usable meat after fabrication."
@@ -3801,12 +3801,12 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 23,
         question: "Which Italian region produces Parmigiano-Reggiano and prosciutto di Parma?",
         options: [
-          "Piedmont",
-          "Lombardy",
+          "Tuscany",
           "Emilia-Romagna",
-          "Tuscany"
+          "Lombardy",
+          "Piedmont"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Emilia-Romagna produces Parmigiano-Reggiano, prosciutto di Parma, and balsamic vinegar."
       },
       {
@@ -3814,23 +3814,23 @@ This final module synthesizes all learning into developing a complete restaurant
         question: "What is the butter to flour ratio in classic puff pastry?",
         options: [
           "50% butter to flour weight",
+          "125% butter to flour weight",
           "75% butter to flour weight",
-          "100% butter to flour weight",
-          "125% butter to flour weight"
+          "100% butter to flour weight"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Classic puff pastry uses equal weights of butter and flour (100% ratio)."
       },
       {
         id: 25,
         question: "How much do items with descriptions typically outsell items without descriptions?",
         options: [
-          "12% more",
           "27% more",
+          "50% more",
           "35% more",
-          "50% more"
+          "12% more"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Menu items with descriptions sell approximately 27% more than those without."
       },
       {
@@ -3838,35 +3838,35 @@ This final module synthesizes all learning into developing a complete restaurant
         question: "What is the standard wine pour in ounces?",
         options: [
           "3-4 ounces",
-          "5-6 ounces",
+          "9-10 ounces",
           "7-8 ounces",
-          "9-10 ounces"
+          "5-6 ounces"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Standard wine pour is 5-6 ounces, allowing approximately 5 glasses per 750ml bottle."
       },
       {
         id: 27,
         question: "What is the typical net profit percentage for full-service restaurants?",
         options: [
-          "1-3%",
           "3-10%",
-          "10-15%",
-          "15-20%"
+          "1-3%",
+          "15-20%",
+          "10-15%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Full-service restaurants typically achieve 3-10% net profit after all expenses."
       },
       {
         id: 28,
         question: "What does MSC certification indicate for seafood?",
         options: [
+          "Aquaculture Stewardship Council farmed",
           "Organic farming practices",
           "Marine Stewardship Council sustainable wild-caught",
-          "Aquaculture Stewardship Council farmed",
           "Antibiotic-free production"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "MSC = Marine Stewardship Council certification indicates sustainably caught wild seafood."
       },
       {
@@ -3874,9 +3874,9 @@ This final module synthesizes all learning into developing a complete restaurant
         question: "What does CSA stand for in local food systems?",
         options: [
           "Community Supported Agriculture",
-          "Culinary Specialists Association",
           "Commercial Sustainable Agriculture",
-          "Certified Seasonal Agriculture"
+          "Certified Seasonal Agriculture",
+          "Culinary Specialists Association"
         ],
         correctAnswer: 0,
         explanation: "CSA = Community Supported Agriculture - consumers buy shares of a farm's harvest in advance."
@@ -3885,10 +3885,10 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 30,
         question: "How many months of operating expenses should working capital cover?",
         options: [
-          "1-2 months",
-          "3-6 months",
           "6-9 months",
-          "9-12 months"
+          "3-6 months",
+          "9-12 months",
+          "1-2 months"
         ],
         correctAnswer: 1,
         explanation: "Working capital should cover 3-6 months of operating expenses until business becomes profitable."
@@ -3897,8 +3897,8 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 31,
         question: "How many hours of labor should be scheduled per $10,000 in sales?",
         options: [
-          "50-70 hours",
           "80-100 hours",
+          "50-70 hours",
           "100-120 hours",
           "130-150 hours"
         ],
@@ -3909,44 +3909,44 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 32,
         question: "What is 'socarrat' in Spanish paella?",
         options: [
-          "The saffron infusion",
-          "The crispy bottom layer of rice",
+          "The seasoning blend",
           "The seafood garnish",
-          "The seasoning blend"
+          "The crispy bottom layer of rice",
+          "The saffron infusion"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Socarrat is the prized crispy, caramelized bottom layer of rice in paella."
       },
       {
         id: 33,
         question: "What temperature range is 'hard crack' stage for sugar?",
         options: [
-          "250-265°F (121-129°C)",
-          "270-290°F (132-143°C)",
           "300-310°F (149-154°C)",
-          "320-350°F (160-177°C)"
+          "250-265°F (121-129°C)",
+          "320-350°F (160-177°C)",
+          "270-290°F (132-143°C)"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Hard crack stage is 300-310°F (149-154°C) - sugar becomes brittle when cooled."
       },
       {
         id: 34,
         question: "What is an acceptable variance between theoretical and actual food cost?",
         options: [
-          "Less than 1%",
           "Less than 2%",
-          "Less than 5%",
-          "Less than 10%"
+          "Less than 1%",
+          "Less than 10%",
+          "Less than 5%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Less than 2% variance indicates excellent control. More than 5% suggests serious issues."
       },
       {
         id: 35,
         question: "What is the ideal water temperature for brewing coffee?",
         options: [
-          "175-185°F (79-85°C)",
           "185-195°F (85-91°C)",
+          "175-185°F (79-85°C)",
           "195-205°F (91-96°C)",
           "205-212°F (96-100°C)"
         ],
@@ -3957,22 +3957,22 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 36,
         question: "How soon should a server greet guests after they are seated?",
         options: [
-          "Within 30 seconds",
           "Within 1 minute",
-          "Within 3 minutes",
-          "Within 5 minutes"
+          "Within 5 minutes",
+          "Within 30 seconds",
+          "Within 3 minutes"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Guests should be greeted within 1 minute of seating to make them feel welcome."
       },
       {
         id: 37,
         question: "What percentage cost reduction can seasonal purchasing achieve at peak season?",
         options: [
-          "10-20%",
+          "70-90%",
           "30-50%",
           "50-70%",
-          "70-90%"
+          "10-20%"
         ],
         correctAnswer: 1,
         explanation: "Purchasing at peak season can reduce costs by 30-50% due to abundance."
@@ -3981,36 +3981,36 @@ This final module synthesizes all learning into developing a complete restaurant
         id: 38,
         question: "What percentage of a menu should typically be stable versus innovative?",
         options: [
-          "50% stable, 50% innovative",
+          "90% stable, 10% innovative",
           "60% stable, 40% innovative",
-          "70-80% stable, 20-30% innovative",
-          "90% stable, 10% innovative"
+          "50% stable, 50% innovative",
+          "70-80% stable, 20-30% innovative"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "70-80% stable items maintain regulars' favorites, 20-30% innovative keeps menu fresh."
       },
       {
         id: 39,
         question: "What does SWOT analysis stand for?",
         options: [
-          "Strengths, Weaknesses, Opportunities, Threats",
-          "Service, Workforce, Operations, Training",
           "Sales, Waste, Output, Timing",
-          "Standards, Workflow, Organization, Technology"
+          "Service, Workforce, Operations, Training",
+          "Standards, Workflow, Organization, Technology",
+          "Strengths, Weaknesses, Opportunities, Threats"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "SWOT = Strengths, Weaknesses (internal), Opportunities, Threats (external)."
       },
       {
         id: 40,
         question: "What is the break-even formula?",
         options: [
-          "Fixed costs ÷ Variable costs",
           "Fixed costs ÷ Contribution margin ratio",
-          "Sales ÷ Fixed costs",
-          "Variable costs ÷ Fixed costs"
+          "Fixed costs ÷ Variable costs",
+          "Variable costs ÷ Fixed costs",
+          "Sales ÷ Fixed costs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Break-even point = Fixed costs ÷ Contribution margin ratio (1 - Variable cost percentage)."
       }
     ]

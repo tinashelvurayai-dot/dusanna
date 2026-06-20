@@ -82,8 +82,8 @@ Underground designs prioritize safety and operational efficiency.
           options: [
             "Mining Method Selection",
             "Geological Understanding",
-            "Access Design",
-            "Production Scheduling"
+            "Production Scheduling",
+            "Access Design"
           ],
           correctAnswer: 1,
           explanation: "Geological understanding involves analyzing the shape, size, and characteristics of mineral deposits."
@@ -92,24 +92,24 @@ Underground designs prioritize safety and operational efficiency.
           id: 2,
           question: "What involves choosing appropriate extraction methods?",
           options: [
-            "Geological Understanding",
-            "Mining Method Selection",
             "Infrastructure Planning",
-            "Access Design"
+            "Access Design",
+            "Geological Understanding",
+            "Mining Method Selection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mining method selection matches extraction techniques to ore body characteristics and conditions."
         },
         {
           id: 3,
           question: "What involves systematic collection of geological data?",
           options: [
-            "Grade Estimation",
-            "Sampling Techniques",
             "Volume Calculations",
-            "Classification Systems"
+            "Classification Systems",
+            "Sampling Techniques",
+            "Grade Estimation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sampling techniques systematically collect representative geological data for analysis."
         },
         {
@@ -117,45 +117,45 @@ Underground designs prioritize safety and operational efficiency.
           question: "What determines mineral content variations?",
           options: [
             "Sampling Techniques",
-            "Grade Estimation",
             "Cut-off Grades",
+            "Grade Estimation",
             "Volume Calculations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Grade estimation quantifies how mineral content varies throughout the ore body."
         },
         {
           id: 5,
           question: "What designs slope angles and bench configurations?",
           options: [
-            "Haul Road Design",
-            "Pit Geometry",
             "Drainage Systems",
-            "Waste Dump Planning"
+            "Waste Dump Planning",
+            "Haul Road Design",
+            "Pit Geometry"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pit geometry designs the overall shape and internal structure of open pit mines."
         },
         {
           id: 6,
           question: "What plans efficient transport routes?",
           options: [
+            "Progressive Rehabilitation",
             "Pit Geometry",
             "Haul Road Design",
-            "Progressive Rehabilitation",
             "Drainage Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Haul road design creates safe and efficient routes for material transport within pits."
         },
         {
           id: 7,
           question: "What are shafts, declines, and adits for entry?",
           options: [
-            "Level Development",
+            "Ventilation Circuit",
             "Access Design",
             "Stope Design",
-            "Ventilation Circuit"
+            "Level Development"
           ],
           correctAnswer: 1,
           explanation: "Access design creates entry points to underground mining areas."
@@ -176,60 +176,60 @@ Underground designs prioritize safety and operational efficiency.
           id: 9,
           question: "What computes ore body volumes from geological data?",
           options: [
+            "Cut-off Grades",
             "Grade Estimation",
-            "Volume Calculations",
             "Classification Systems",
-            "Cut-off Grades"
+            "Volume Calculations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Volume calculations determine how much mineralized material exists in the deposit."
         },
         {
           id: 10,
           question: "What categorizes resources by confidence levels?",
           options: [
-            "Volume Calculations",
             "Classification Systems",
+            "Sampling Techniques",
             "Cut-off Grades",
-            "Sampling Techniques"
+            "Volume Calculations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Classification systems categorize resources based on geological confidence and economic viability."
         },
         {
           id: 11,
           question: "What manages surface and groundwater?",
           options: [
+            "Waste Dump Planning",
             "Haul Road Design",
             "Drainage Systems",
-            "Waste Dump Planning",
             "Pit Geometry"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Drainage systems control water flow to maintain pit stability and safety."
         },
         {
           id: 12,
           question: "What designs storage for non-ore materials?",
           options: [
-            "Drainage Systems",
-            "Waste Dump Planning",
+            "Haul Road Design",
             "Progressive Rehabilitation",
-            "Haul Road Design"
+            "Drainage Systems",
+            "Waste Dump Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Waste dump planning designs areas for safe storage of non-valuable materials."
         },
         {
           id: 13,
           question: "What designs extraction cavity design and sequencing?",
           options: [
-            "Level Development",
             "Stope Design",
+            "Level Development",
             "Ventilation Circuit",
             "Material Handling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stope design plans the extraction cavities and their development sequence."
         },
         {
@@ -237,44 +237,44 @@ Underground designs prioritize safety and operational efficiency.
           question: "What plans air flow planning and control?",
           options: [
             "Stope Design",
-            "Ventilation Circuit",
             "Material Handling",
-            "Access Design"
+            "Access Design",
+            "Ventilation Circuit"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ventilation circuits design air flow paths to maintain air quality underground."
         },
         {
           id: 15,
           question: "What determines economic limits for extraction?",
           options: [
-            "Classification Systems",
             "Cut-off Grades",
-            "Grade Estimation",
-            "Volume Calculations"
+            "Classification Systems",
+            "Volume Calculations",
+            "Grade Estimation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cut-off grades determine the minimum mineral content that makes extraction economical."
         },
         {
           id: 16,
           question: "What designs support facilities and services?",
           options: [
-            "Production Scheduling",
             "Infrastructure Planning",
-            "Access Design",
-            "Mining Method Selection"
+            "Production Scheduling",
+            "Mining Method Selection",
+            "Access Design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Infrastructure planning designs all supporting facilities needed for mining operations."
         },
         {
           id: 17,
           question: "What plans extraction sequences and rates?",
           options: [
-            "Infrastructure Planning",
-            "Production Scheduling",
             "Geological Understanding",
+            "Production Scheduling",
+            "Infrastructure Planning",
             "Mining Method Selection"
           ],
           correctAnswer: 1,
@@ -284,34 +284,34 @@ Underground designs prioritize safety and operational efficiency.
           id: 18,
           question: "What plans concurrent reclamation?",
           options: [
-            "Waste Dump Planning",
             "Progressive Rehabilitation",
+            "Waste Dump Planning",
             "Drainage Systems",
             "Pit Geometry"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Progressive rehabilitation plans reclamation activities alongside mining operations."
         },
         {
           id: 19,
           question: "What designs ore transport systems?",
           options: [
-            "Ventilation Circuit",
-            "Material Handling",
             "Stope Design",
-            "Level Development"
+            "Level Development",
+            "Material Handling",
+            "Ventilation Circuit"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Material handling designs systems to transport ore from extraction points to surface."
         },
         {
           id: 20,
           question: "How many mine design principles were specifically listed?",
           options: [
-            "Three",
-            "Five",
             "Seven",
-            "Nine"
+            "Five",
+            "Nine",
+            "Three"
           ],
           correctAnswer: 1,
           explanation: "Five principles: geological understanding, mining method selection, access design, production scheduling, infrastructure planning."
@@ -399,36 +399,36 @@ Numerical modeling predicts ground behavior under various conditions.
           id: 2,
           question: "What is a comprehensive classification system?",
           options: [
-            "Rock Quality Designation",
             "Rock Mass Rating",
-            "Deformation Properties",
-            "Joint Characteristics"
+            "Joint Characteristics",
+            "Rock Quality Designation",
+            "Deformation Properties"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Rock Mass Rating (RMR) provides a comprehensive assessment of rock mass quality."
         },
         {
           id: 3,
           question: "What analyzes rock discontinuities?",
           options: [
+            "Deformation Properties",
             "Rock Mass Rating",
-            "Joint Characteristics",
             "Strength Testing",
-            "Deformation Properties"
+            "Joint Characteristics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Joint characteristics analysis examines the orientation, spacing, and condition of rock fractures."
         },
         {
           id: 4,
           question: "What are natural stresses in undisturbed rock?",
           options: [
-            "Induced Stresses",
-            "In-situ Stresses",
+            "Stress Concentration",
             "Stress Redistribution",
-            "Stress Concentration"
+            "Induced Stresses",
+            "In-situ Stresses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "In-situ stresses exist naturally in rock before any mining disturbance occurs."
         },
         {
@@ -436,23 +436,23 @@ Numerical modeling predicts ground behavior under various conditions.
           question: "What are stresses caused by mining excavations?",
           options: [
             "In-situ Stresses",
+            "Stress Redistribution",
             "Induced Stresses",
-            "Stress Measurement",
-            "Stress Redistribution"
+            "Stress Measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Induced stresses result from the creation of excavations that alter the natural stress field."
         },
         {
           id: 6,
           question: "What installs reinforcement in rock masses?",
           options: [
-            "Shotcrete",
-            "Rock Bolting",
             "Steel Sets",
-            "Cable Bolting"
+            "Shotcrete",
+            "Cable Bolting",
+            "Rock Bolting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Rock bolting installs steel rods to reinforce rock masses around excavations."
         },
         {
@@ -460,20 +460,20 @@ Numerical modeling predicts ground behavior under various conditions.
           question: "What uses sprayed concrete for surface support?",
           options: [
             "Rock Bolting",
-            "Shotcrete",
             "Mesh and Lagging",
+            "Shotcrete",
             "Steel Sets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Shotcrete provides immediate surface support and prevents weathering of exposed rock."
         },
         {
           id: 8,
           question: "What are different ways slopes can fail?",
           options: [
-            "Factor of Safety",
-            "Failure Modes",
             "Monitoring Systems",
+            "Failure Modes",
+            "Factor of Safety",
             "Stabilization Methods"
           ],
           correctAnswer: 1,
@@ -483,36 +483,36 @@ Numerical modeling predicts ground behavior under various conditions.
           id: 9,
           question: "What is a quantitative stability measure?",
           options: [
+            "Monitoring Systems",
             "Failure Modes",
-            "Factor of Safety",
             "Design Optimization",
-            "Monitoring Systems"
+            "Factor of Safety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Factor of Safety quantifies how much stronger a slope is compared to the forces trying to make it fail."
         },
         {
           id: 10,
           question: "What involves stress and deformation modeling?",
           options: [
-            "Discrete Element Modeling",
-            "Finite Element Analysis",
             "Boundary Element Methods",
-            "Model Calibration"
+            "Model Calibration",
+            "Finite Element Analysis",
+            "Discrete Element Modeling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Finite Element Analysis divides rock masses into small elements to model stress and deformation."
         },
         {
           id: 11,
           question: "What determines rock compressive strength?",
           options: [
-            "Joint Characteristics",
             "Strength Testing",
+            "Rock Quality Designation",
             "Deformation Properties",
-            "Rock Quality Designation"
+            "Joint Characteristics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strength testing measures how much stress rock can withstand before failing."
         },
         {
@@ -520,11 +520,11 @@ Numerical modeling predicts ground behavior under various conditions.
           question: "What understands how rock deforms under stress?",
           options: [
             "Strength Testing",
-            "Deformation Properties",
+            "Rock Mass Rating",
             "Joint Characteristics",
-            "Rock Mass Rating"
+            "Deformation Properties"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Deformation properties describe how rock strains when subjected to stress."
         },
         {
@@ -533,8 +533,8 @@ Numerical modeling predicts ground behavior under various conditions.
           options: [
             "Induced Stresses",
             "Stress Redistribution",
-            "Stress Concentration",
-            "Stress Measurement"
+            "Stress Measurement",
+            "Stress Concentration"
           ],
           correctAnswer: 1,
           explanation: "Stress redistribution analyzes how creating openings alters the original stress field."
@@ -543,10 +543,10 @@ Numerical modeling predicts ground behavior under various conditions.
           id: 14,
           question: "What examines areas where stresses are amplified?",
           options: [
-            "Stress Redistribution",
-            "Stress Concentration",
             "Stress Measurement",
-            "In-situ Stresses"
+            "Stress Concentration",
+            "In-situ Stresses",
+            "Stress Redistribution"
           ],
           correctAnswer: 1,
           explanation: "Stress concentration identifies locations where stresses are significantly higher than average."
@@ -555,36 +555,36 @@ Numerical modeling predicts ground behavior under various conditions.
           id: 15,
           question: "What uses structural steel for large openings?",
           options: [
-            "Shotcrete",
             "Steel Sets",
-            "Cable Bolting",
-            "Mesh and Lagging"
+            "Shotcrete",
+            "Mesh and Lagging",
+            "Cable Bolting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Steel sets provide strong structural support for large underground openings."
         },
         {
           id: 16,
           question: "What uses long tendons for major structures?",
           options: [
-            "Steel Sets",
             "Cable Bolting",
+            "Steel Sets",
             "Mesh and Lagging",
             "Rock Bolting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cable bolting provides deep reinforcement for large underground structures."
         },
         {
           id: 17,
           question: "What instruments detect slope movement?",
           options: [
+            "Design Optimization",
             "Factor of Safety",
-            "Monitoring Systems",
             "Stabilization Methods",
-            "Design Optimization"
+            "Monitoring Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Monitoring systems use instruments to detect early signs of slope movement."
         },
         {
@@ -593,8 +593,8 @@ Numerical modeling predicts ground behavior under various conditions.
           options: [
             "Monitoring Systems",
             "Stabilization Methods",
-            "Design Optimization",
-            "Failure Modes"
+            "Failure Modes",
+            "Design Optimization"
           ],
           correctAnswer: 1,
           explanation: "Stabilization methods include drainage, reinforcement, or geometry changes to improve stability."
@@ -603,9 +603,9 @@ Numerical modeling predicts ground behavior under various conditions.
           id: 19,
           question: "What examines behavior of jointed rock masses?",
           options: [
-            "Finite Element Analysis",
-            "Discrete Element Modeling",
             "Boundary Element Methods",
+            "Discrete Element Modeling",
+            "Finite Element Analysis",
             "Sensitivity Analysis"
           ],
           correctAnswer: 1,
@@ -615,10 +615,10 @@ Numerical modeling predicts ground behavior under various conditions.
           id: 20,
           question: "How many ground support systems were specifically listed?",
           options: [
-            "Three",
+            "Nine",
             "Five",
-            "Seven",
-            "Nine"
+            "Three",
+            "Seven"
           ],
           correctAnswer: 1,
           explanation: "Five systems: rock bolting, shotcrete, steel sets, cable bolting, mesh and lagging."
@@ -694,9 +694,9 @@ Proper tailings management prevents environmental contamination.
           id: 1,
           question: "What involves initial size reduction of run-of-mine ore?",
           options: [
-            "Secondary Crushing",
-            "Primary Crushing",
             "Grinding Mills",
+            "Primary Crushing",
+            "Secondary Crushing",
             "Classification Systems"
           ],
           correctAnswer: 1,
@@ -707,57 +707,57 @@ Proper tailings management prevents environmental contamination.
           question: "What involves further reduction before grinding?",
           options: [
             "Primary Crushing",
-            "Secondary Crushing",
+            "Grinding Mills",
             "Circuit Optimization",
-            "Grinding Mills"
+            "Secondary Crushing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Secondary crushing further reduces ore size to prepare it for fine grinding."
         },
         {
           id: 3,
           question: "What uses density differences for separation?",
           options: [
-            "Magnetic Separation",
             "Gravity Separation",
-            "Flotation",
-            "Electrostatic Separation"
+            "Magnetic Separation",
+            "Electrostatic Separation",
+            "Flotation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Gravity separation exploits density differences between minerals using water or air."
         },
         {
           id: 4,
           question: "What uses magnetic properties differences?",
           options: [
-            "Gravity Separation",
-            "Magnetic Separation",
             "Sensor-based Sorting",
-            "Electrostatic Separation"
+            "Electrostatic Separation",
+            "Gravity Separation",
+            "Magnetic Separation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Magnetic separation separates minerals based on their magnetic susceptibility."
         },
         {
           id: 5,
           question: "What dissolves valuable minerals into solution?",
           options: [
+            "Precipitation",
             "Solvent Extraction",
-            "Leaching",
             "Ion Exchange",
-            "Precipitation"
+            "Leaching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Leaching uses chemical solutions to dissolve valuable minerals from ore."
         },
         {
           id: 6,
           question: "What concentrates metals from leach solutions?",
           options: [
-            "Leaching",
+            "Ion Exchange",
             "Solvent Extraction",
-            "Electrowinning",
-            "Ion Exchange"
+            "Leaching",
+            "Electrowinning"
           ],
           correctAnswer: 1,
           explanation: "Solvent extraction selectively transfers metals from aqueous solutions to organic solvents."
@@ -766,10 +766,10 @@ Proper tailings management prevents environmental contamination.
           id: 7,
           question: "What involves thermal treatment in specific atmospheres?",
           options: [
-            "Smelting",
+            "Calcining",
             "Roasting",
             "Refining",
-            "Calcining"
+            "Smelting"
           ],
           correctAnswer: 1,
           explanation: "Roasting thermally treats minerals to alter their chemical composition for easier processing."
@@ -791,57 +791,57 @@ Proper tailings management prevents environmental contamination.
           question: "What are engineered structures for waste storage?",
           options: [
             "Water Recovery",
+            "Tailings Reprocessing",
             "Tailings Storage Facilities",
-            "Paste Thickening",
-            "Tailings Reprocessing"
+            "Paste Thickening"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Tailings storage facilities are carefully engineered to safely contain processing waste."
         },
         {
           id: 10,
           question: "What involves recycling water from tailings?",
           options: [
-            "Tailings Storage Facilities",
             "Water Recovery",
-            "Closure Planning",
-            "Paste Thickening"
+            "Paste Thickening",
+            "Tailings Storage Facilities",
+            "Closure Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Water recovery recycles process water from tailings, reducing fresh water consumption."
         },
         {
           id: 11,
           question: "What involves fine size reduction for mineral liberation?",
           options: [
+            "Primary Crushing",
             "Secondary Crushing",
-            "Grinding Mills",
             "Classification Systems",
-            "Primary Crushing"
+            "Grinding Mills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Grinding mills reduce ore to very fine sizes to liberate individual mineral grains."
         },
         {
           id: 12,
           question: "What separates particles by size?",
           options: [
-            "Grinding Mills",
             "Classification Systems",
+            "Grinding Mills",
             "Circuit Optimization",
             "Secondary Crushing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Classification systems separate fine and coarse particles to optimize grinding efficiency."
         },
         {
           id: 13,
           question: "What uses surface chemistry differences?",
           options: [
-            "Electrostatic Separation",
-            "Flotation",
             "Sensor-based Sorting",
-            "Magnetic Separation"
+            "Flotation",
+            "Magnetic Separation",
+            "Electrostatic Separation"
           ],
           correctAnswer: 1,
           explanation: "Flotation uses differences in surface properties to separate minerals in slurry."
@@ -850,36 +850,36 @@ Proper tailings management prevents environmental contamination.
           id: 14,
           question: "What uses optical sensors for separation?",
           options: [
-            "Flotation",
             "Sensor-based Sorting",
+            "Flotation",
             "Gravity Separation",
             "Electrostatic Separation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Sensor-based sorting uses cameras or other sensors to identify and separate particles."
         },
         {
           id: 15,
           question: "What uses resins to recover specific ions?",
           options: [
-            "Solvent Extraction",
-            "Ion Exchange",
             "Precipitation",
-            "Electrowinning"
+            "Electrowinning",
+            "Solvent Extraction",
+            "Ion Exchange"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ion exchange uses special resins to selectively capture specific metal ions from solution."
         },
         {
           id: 16,
           question: "What recovers metals from solution as solids?",
           options: [
-            "Ion Exchange",
             "Precipitation",
+            "Leaching",
             "Electrowinning",
-            "Leaching"
+            "Ion Exchange"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Precipitation causes dissolved metals to form solid compounds that can be recovered."
         },
         {
@@ -887,33 +887,33 @@ Proper tailings management prevents environmental contamination.
           question: "What involves purification of crude metals?",
           options: [
             "Smelting",
-            "Refining",
             "Calcining",
+            "Refining",
             "Sintering"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Refining further purifies metals obtained from smelting to achieve required purity."
         },
         {
           id: 18,
           question: "What creates thickened tailings for disposal?",
           options: [
+            "Closure Planning",
             "Water Recovery",
             "Paste Thickening",
-            "Tailings Reprocessing",
-            "Closure Planning"
+            "Tailings Reprocessing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Paste thickening creates higher density tailings that are safer to store."
         },
         {
           id: 19,
           question: "What recovers additional values from waste?",
           options: [
-            "Paste Thickening",
+            "Water Recovery",
             "Tailings Reprocessing",
-            "Closure Planning",
-            "Water Recovery"
+            "Paste Thickening",
+            "Closure Planning"
           ],
           correctAnswer: 1,
           explanation: "Tailings reprocessing extracts remaining valuable minerals from previously discarded material."
@@ -922,12 +922,12 @@ Proper tailings management prevents environmental contamination.
           id: 20,
           question: "How many separation techniques were specifically listed?",
           options: [
-            "Three",
             "Five",
             "Seven",
+            "Three",
             "Nine"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Five techniques: gravity, magnetic, electrostatic, flotation, and sensor-based separation."
         }
       ]
@@ -1001,24 +1001,24 @@ Monitoring ensures operations meet environmental standards.
           id: 1,
           question: "What are primary fans that move air through the mine?",
           options: [
+            "Auxiliary Ventilation",
             "Ventilation Circuits",
             "Main Fans",
-            "Airway Resistance",
-            "Auxiliary Ventilation"
+            "Airway Resistance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Main fans provide the primary pressure to move air through the entire ventilation system."
         },
         {
           id: 2,
           question: "What are air flow pathways through mine workings?",
           options: [
+            "Control Devices",
             "Main Fans",
             "Ventilation Circuits",
-            "Control Devices",
             "Airway Resistance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ventilation circuits design how air flows from intake to exhaust through all mine areas."
         },
         {
@@ -1026,33 +1026,33 @@ Monitoring ensures operations meet environmental standards.
           question: "What involves calculating resistance to air flow?",
           options: [
             "Ventilation Circuits",
-            "Airway Resistance",
             "Auxiliary Ventilation",
+            "Airway Resistance",
             "Control Devices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Airway resistance calculations determine how much pressure is needed to move air."
         },
         {
           id: 4,
           question: "What involves methods to reduce airborne particulate matter?",
           options: [
-            "Gas Monitoring",
             "Dust Control",
+            "Fume Extraction",
             "Radiation Control",
-            "Fume Extraction"
+            "Gas Monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Dust control minimizes airborne particles that can cause respiratory diseases."
         },
         {
           id: 5,
           question: "What involves detection of harmful gases?",
           options: [
-            "Dust Control",
+            "Radiation Control",
             "Gas Monitoring",
-            "Contaminant Dilution",
-            "Radiation Control"
+            "Dust Control",
+            "Contaminant Dilution"
           ],
           correctAnswer: 1,
           explanation: "Gas monitoring detects and measures concentrations of harmful gases like methane or CO."
@@ -1061,46 +1061,46 @@ Monitoring ensures operations meet environmental standards.
           id: 6,
           question: "What identifies where heat enters the mine?",
           options: [
+            "Climate Prediction",
             "Cooling Systems",
-            "Heat Sources",
             "Heat Exchangers",
-            "Climate Prediction"
+            "Heat Sources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Identifying heat sources helps design effective cooling strategies."
         },
         {
           id: 7,
           question: "What involves mechanical cooling of mine air?",
           options: [
-            "Heat Sources",
-            "Cooling Systems",
+            "Heat Exchangers",
             "Personal Cooling",
-            "Heat Exchangers"
+            "Heat Sources",
+            "Cooling Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cooling systems use refrigeration or other methods to lower air temperature."
         },
         {
           id: 8,
           question: "What involves removing water from mining areas?",
           options: [
-            "Water Treatment",
-            "Dewatering",
             "Water Recycling",
-            "Drainage Design"
+            "Water Treatment",
+            "Drainage Design",
+            "Dewatering"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dewatering keeps mining areas dry for safe and efficient operations."
         },
         {
           id: 9,
           question: "What involves treating contaminated mine water?",
           options: [
-            "Dewatering",
+            "Water Recycling",
             "Water Treatment",
-            "Seepage Control",
-            "Water Recycling"
+            "Dewatering",
+            "Seepage Control"
           ],
           correctAnswer: 1,
           explanation: "Water treatment removes contaminants before water is discharged or reused."
@@ -1109,34 +1109,34 @@ Monitoring ensures operations meet environmental standards.
           id: 10,
           question: "What involves measuring atmospheric contaminants?",
           options: [
-            "Water Quality Testing",
             "Air Quality Monitoring",
-            "Noise Monitoring",
-            "Biodiversity Assessment"
+            "Biodiversity Assessment",
+            "Water Quality Testing",
+            "Noise Monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Air quality monitoring measures pollutants in the air around mining operations."
         },
         {
           id: 11,
           question: "What provides local air supply to working faces?",
           options: [
+            "Main Fans",
             "Airway Resistance",
-            "Auxiliary Ventilation",
             "Control Devices",
-            "Main Fans"
+            "Auxiliary Ventilation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Auxiliary ventilation supplies fresh air directly to development faces and dead-end areas."
         },
         {
           id: 12,
           question: "What includes regulators and doors for air control?",
           options: [
-            "Auxiliary Ventilation",
-            "Control Devices",
             "Airway Resistance",
-            "Ventilation Circuits"
+            "Control Devices",
+            "Ventilation Circuits",
+            "Auxiliary Ventilation"
           ],
           correctAnswer: 1,
           explanation: "Control devices direct and regulate air flow through different parts of the mine."
@@ -1145,34 +1145,34 @@ Monitoring ensures operations meet environmental standards.
           id: 13,
           question: "What manages radioactive elements in some mines?",
           options: [
-            "Gas Monitoring",
-            "Radiation Control",
+            "Contaminant Dilution",
             "Fume Extraction",
-            "Contaminant Dilution"
+            "Gas Monitoring",
+            "Radiation Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Radiation control protects workers from harmful radiation in some mineral deposits."
         },
         {
           id: 14,
           question: "What removes harmful fumes from work areas?",
           options: [
-            "Radiation Control",
-            "Fume Extraction",
+            "Dust Control",
             "Contaminant Dilution",
-            "Dust Control"
+            "Fume Extraction",
+            "Radiation Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Fume extraction removes diesel fumes or chemical vapors from confined work areas."
         },
         {
           id: 15,
           question: "What transfers heat from mine air?",
           options: [
-            "Cooling Systems",
-            "Heat Exchangers",
             "Personal Cooling",
-            "Climate Prediction"
+            "Heat Exchangers",
+            "Climate Prediction",
+            "Cooling Systems"
           ],
           correctAnswer: 1,
           explanation: "Heat exchangers transfer heat from mine air to cooling water or other mediums."
@@ -1193,48 +1193,48 @@ Monitoring ensures operations meet environmental standards.
           id: 17,
           question: "What involves reusing water in processing operations?",
           options: [
-            "Water Treatment",
             "Water Recycling",
             "Drainage Design",
+            "Water Treatment",
             "Seepage Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Water recycling reduces fresh water consumption and minimizes discharge."
         },
         {
           id: 18,
           question: "What designs systems to control water flow?",
           options: [
-            "Water Recycling",
-            "Drainage Design",
+            "Dewatering",
             "Seepage Control",
-            "Dewatering"
+            "Drainage Design",
+            "Water Recycling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Drainage design controls surface and groundwater flow around mining operations."
         },
         {
           id: 19,
           question: "What involves regular testing of groundwater?",
           options: [
-            "Air Quality Monitoring",
-            "Water Quality Testing",
+            "Noise Monitoring",
             "Compliance Reporting",
-            "Noise Monitoring"
+            "Water Quality Testing",
+            "Air Quality Monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Water quality testing monitors contaminants in surface and groundwater near mining areas."
         },
         {
           id: 20,
           question: "How many ventilation system components were specifically listed?",
           options: [
+            "Nine",
             "Three",
             "Five",
-            "Seven",
-            "Nine"
+            "Seven"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Five components: main fans, ventilation circuits, airway resistance, auxiliary ventilation, control devices."
         }
       ]
@@ -1309,11 +1309,11 @@ Proper valuation is essential for transactions and financial reporting.
           question: "What involves purchasing mining and processing equipment?",
           options: [
             "Infrastructure Costs",
+            "Contingency Allowances",
             "Equipment Costs",
-            "Pre-production Development",
-            "Contingency Allowances"
+            "Pre-production Development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Equipment costs include all machinery needed for mining and processing operations."
         },
         {
@@ -1321,35 +1321,35 @@ Proper valuation is essential for transactions and financial reporting.
           question: "What involves building access and facilities?",
           options: [
             "Equipment Costs",
+            "Pre-production Development",
             "Infrastructure Costs",
-            "Working Capital",
-            "Pre-production Development"
+            "Working Capital"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Infrastructure costs cover all permanent facilities needed to support mining operations."
         },
         {
           id: 3,
           question: "What involves wages, benefits, and training expenses?",
           options: [
-            "Energy Costs",
             "Labor Costs",
             "Maintenance Costs",
+            "Energy Costs",
             "Consumable Costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Labor costs include all personnel-related expenses for mining operations."
         },
         {
           id: 4,
           question: "What involves electricity and fuel requirements?",
           options: [
-            "Labor Costs",
-            "Energy Costs",
             "Overhead Costs",
-            "Maintenance Costs"
+            "Labor Costs",
+            "Maintenance Costs",
+            "Energy Costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Energy costs are often a major operating expense in mining operations."
         },
         {
@@ -1357,33 +1357,33 @@ Proper valuation is essential for transactions and financial reporting.
           question: "What involves planning ore extraction rates?",
           options: [
             "Grade Reconciliation",
-            "Production Scheduling",
             "Metal Prices",
+            "Production Scheduling",
             "Product Specifications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Production scheduling determines how much ore will be mined and processed over time."
         },
         {
           id: 6,
           question: "What involves comparing planned versus actual grades?",
           options: [
-            "Production Scheduling",
-            "Grade Reconciliation",
+            "Metal Prices",
             "Sales Contracts",
-            "Metal Prices"
+            "Grade Reconciliation",
+            "Production Scheduling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Grade reconciliation compares estimated grades with actual production grades."
         },
         {
           id: 7,
           question: "What involves discounted cash flow analysis?",
           options: [
-            "Internal Rate of Return",
+            "Sensitivity Analysis",
             "Net Present Value",
-            "Payback Period",
-            "Sensitivity Analysis"
+            "Internal Rate of Return",
+            "Payback Period"
           ],
           correctAnswer: 1,
           explanation: "Net Present Value calculates the present value of future cash flows minus initial investment."
@@ -1392,21 +1392,21 @@ Proper valuation is essential for transactions and financial reporting.
           id: 8,
           question: "What involves percentage return on investment?",
           options: [
-            "Net Present Value",
             "Internal Rate of Return",
             "Risk Assessment",
-            "Payback Period"
+            "Payback Period",
+            "Net Present Value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Internal Rate of Return calculates the discount rate that makes NPV equal to zero."
         },
         {
           id: 9,
           question: "What is the standard valuation method for mining projects?",
           options: [
-            "Comparable Transactions",
-            "Discounted Cash Flow",
             "Market Multiples",
+            "Discounted Cash Flow",
+            "Comparable Transactions",
             "Option Pricing Models"
           ],
           correctAnswer: 1,
@@ -1416,10 +1416,10 @@ Proper valuation is essential for transactions and financial reporting.
           id: 10,
           question: "What involves analysis of similar asset sales?",
           options: [
-            "Discounted Cash Flow",
+            "Market Multiples",
             "Comparable Transactions",
             "Royalty Valuations",
-            "Market Multiples"
+            "Discounted Cash Flow"
           ],
           correctAnswer: 1,
           explanation: "Comparable transactions analysis looks at prices paid for similar mining assets."
@@ -1429,23 +1429,23 @@ Proper valuation is essential for transactions and financial reporting.
           question: "What involves development work before production starts?",
           options: [
             "Infrastructure Costs",
-            "Pre-production Development",
+            "Working Capital",
             "Contingency Allowances",
-            "Working Capital"
+            "Pre-production Development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pre-production development includes all work needed to prepare for mining operations."
         },
         {
           id: 12,
           question: "What provides for unexpected costs?",
           options: [
-            "Pre-production Development",
             "Contingency Allowances",
             "Working Capital",
-            "Equipment Costs"
+            "Equipment Costs",
+            "Pre-production Development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Contingency allowances provide buffers for cost overruns and unforeseen expenses."
         },
         {
@@ -1464,84 +1464,84 @@ Proper valuation is essential for transactions and financial reporting.
           id: 14,
           question: "What involves explosives and chemical supplies?",
           options: [
-            "Maintenance Costs",
-            "Consumable Costs",
             "Overhead Costs",
-            "Energy Costs"
+            "Maintenance Costs",
+            "Energy Costs",
+            "Consumable Costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Consumable costs include materials that are used up during mining operations."
         },
         {
           id: 15,
           question: "What involves forecasting commodity price trends?",
           options: [
-            "Production Scheduling",
-            "Metal Prices",
             "Product Specifications",
-            "Sales Contracts"
+            "Sales Contracts",
+            "Production Scheduling",
+            "Metal Prices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Metal price forecasting predicts future prices for the minerals being produced."
         },
         {
           id: 16,
           question: "What involves meeting market quality requirements?",
           options: [
+            "Grade Reconciliation",
             "Metal Prices",
             "Product Specifications",
-            "Sales Contracts",
-            "Grade Reconciliation"
+            "Sales Contracts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Product specifications define the quality standards required by buyers."
         },
         {
           id: 17,
           question: "What involves time to recover initial investment?",
           options: [
+            "Risk Assessment",
             "Internal Rate of Return",
-            "Payback Period",
             "Sensitivity Analysis",
-            "Risk Assessment"
+            "Payback Period"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Payback period calculates how long it takes to recover the initial investment."
         },
         {
           id: 18,
           question: "What involves testing impact of changing assumptions?",
           options: [
-            "Payback Period",
             "Sensitivity Analysis",
-            "Risk Assessment",
-            "Net Present Value"
+            "Payback Period",
+            "Net Present Value",
+            "Risk Assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Sensitivity analysis tests how changes in key assumptions affect project economics."
         },
         {
           id: 19,
           question: "What involves valuation based on market metrics?",
           options: [
-            "Comparable Transactions",
-            "Market Multiples",
+            "Royalty Valuations",
             "Option Pricing Models",
-            "Royalty Valuations"
+            "Comparable Transactions",
+            "Market Multiples"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Market multiples valuation uses ratios like price-to-earnings from similar companies."
         },
         {
           id: 20,
           question: "How many capital cost components were specifically listed?",
           options: [
-            "Three",
-            "Five",
             "Seven",
-            "Nine"
+            "Three",
+            "Nine",
+            "Five"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Five components: equipment, infrastructure, pre-production development, contingency, working capital."
         }
       ]
@@ -1615,58 +1615,58 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           id: 1,
           question: "What involves step-by-step analysis of work tasks?",
           options: [
+            "Bow-tie Analysis",
             "Risk Assessment Matrices",
             "Job Safety Analysis",
-            "Bow-tie Analysis",
             "What-If Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Job Safety Analysis breaks down tasks into steps to identify hazards at each stage."
         },
         {
           id: 2,
           question: "What involves quantitative hazard evaluation?",
           options: [
-            "Job Safety Analysis",
-            "Risk Assessment Matrices",
+            "What-If Analysis",
             "Checklist Reviews",
-            "What-If Analysis"
+            "Job Safety Analysis",
+            "Risk Assessment Matrices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Risk assessment matrices quantify hazards based on likelihood and severity."
         },
         {
           id: 3,
           question: "What are formal statements of safety commitments?",
           options: [
-            "Safety Procedures",
             "Safety Policies",
-            "Training Programs",
-            "Safety Audits"
+            "Safety Audits",
+            "Safety Procedures",
+            "Training Programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Safety policies formally state the organization's commitment to safety."
         },
         {
           id: 4,
           question: "What are detailed safe work instructions?",
           options: [
-            "Safety Policies",
-            "Safety Procedures",
             "Performance Monitoring",
-            "Training Programs"
+            "Training Programs",
+            "Safety Policies",
+            "Safety Procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Safety procedures provide specific instructions for safely performing tasks."
         },
         {
           id: 5,
           question: "What involves specific actions for different emergencies?",
           options: [
-            "Communication Systems",
+            "Training Drills",
             "Emergency Procedures",
-            "Rescue Equipment",
-            "Training Drills"
+            "Communication Systems",
+            "Rescue Equipment"
           ],
           correctAnswer: 1,
           explanation: "Emergency procedures detail exactly what to do in specific emergency situations."
@@ -1675,22 +1675,22 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           id: 6,
           question: "What involves emergency notification and coordination?",
           options: [
-            "Emergency Procedures",
             "Communication Systems",
-            "Medical Response",
-            "Training Drills"
+            "Emergency Procedures",
+            "Training Drills",
+            "Medical Response"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Communication systems ensure rapid notification and coordination during emergencies."
         },
         {
           id: 7,
           question: "What involves physical changes to eliminate hazards?",
           options: [
-            "Administrative Controls",
+            "Personal Protective Equipment",
             "Engineering Controls",
             "Safety-in-Design",
-            "Personal Protective Equipment"
+            "Administrative Controls"
           ],
           correctAnswer: 1,
           explanation: "Engineering controls physically remove hazards or create barriers against them."
@@ -1699,36 +1699,36 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           id: 8,
           question: "What involves procedures to reduce exposure?",
           options: [
+            "Personal Protective Equipment",
             "Engineering Controls",
             "Administrative Controls",
-            "Hierarchy of Controls",
-            "Personal Protective Equipment"
+            "Hierarchy of Controls"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Administrative controls use procedures and policies to minimize hazard exposure."
         },
         {
           id: 9,
           question: "What involves visible safety leadership from management?",
           options: [
-            "Worker Involvement",
             "Leadership Commitment",
             "Safety Communication",
+            "Worker Involvement",
             "Behavior-based Safety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Leadership commitment demonstrates that safety is truly important to management."
         },
         {
           id: 10,
           question: "What involves engaging workers in safety decisions?",
           options: [
-            "Leadership Commitment",
             "Worker Involvement",
-            "Continuous Improvement",
-            "Safety Communication"
+            "Safety Communication",
+            "Leadership Commitment",
+            "Continuous Improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Worker involvement taps into frontline knowledge and builds ownership of safety."
         },
         {
@@ -1737,8 +1737,8 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           options: [
             "Risk Assessment Matrices",
             "Bow-tie Analysis",
-            "What-If Analysis",
-            "Checklist Reviews"
+            "Checklist Reviews",
+            "What-If Analysis"
           ],
           correctAnswer: 1,
           explanation: "Bow-tie analysis visually maps how hazards can lead to incidents and their consequences."
@@ -1759,10 +1759,10 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           id: 13,
           question: "What involves systematic safety training for all workers?",
           options: [
-            "Safety Procedures",
+            "Performance Monitoring",
             "Training Programs",
-            "Safety Audits",
-            "Performance Monitoring"
+            "Safety Procedures",
+            "Safety Audits"
           ],
           correctAnswer: 1,
           explanation: "Training programs ensure all workers have the knowledge and skills to work safely."
@@ -1771,12 +1771,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           id: 14,
           question: "What involves regular systematic safety reviews?",
           options: [
-            "Training Programs",
             "Safety Audits",
             "Performance Monitoring",
+            "Training Programs",
             "Safety Policies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Safety audits systematically review safety systems and compliance."
         },
         {
@@ -1784,47 +1784,47 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           question: "What involves specialized equipment for mine rescue?",
           options: [
             "Communication Systems",
-            "Rescue Equipment",
             "Training Drills",
+            "Rescue Equipment",
             "Medical Response"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Rescue equipment includes specialized tools and breathing apparatus for mine rescue."
         },
         {
           id: 16,
           question: "What involves regular practice of emergency responses?",
           options: [
-            "Rescue Equipment",
             "Training Drills",
             "Medical Response",
+            "Rescue Equipment",
             "Emergency Procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Training drills ensure workers know how to respond effectively in real emergencies."
         },
         {
           id: 17,
           question: "What is the last line of defense for workers?",
           options: [
+            "Administrative Controls",
             "Engineering Controls",
             "Personal Protective Equipment",
-            "Administrative Controls",
             "Safety-in-Design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "PPE protects workers when hazards cannot be eliminated or sufficiently controlled."
         },
         {
           id: 18,
           question: "What involves incorporating safety into mine design?",
           options: [
-            "Hierarchy of Controls",
             "Safety-in-Design",
             "Engineering Controls",
+            "Hierarchy of Controls",
             "Administrative Controls"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Safety-in-Design builds safety features directly into mine plans and equipment."
         },
         {
@@ -1832,11 +1832,11 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           question: "What involves focusing on safe behaviors?",
           options: [
             "Safety Communication",
-            "Behavior-based Safety",
             "Continuous Improvement",
+            "Behavior-based Safety",
             "Worker Involvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Behavior-based safety focuses on observing and reinforcing safe work behaviors."
         },
         {
@@ -1845,8 +1845,8 @@ A strong safety culture ensures safety becomes a core value, not just a priority
           options: [
             "Three",
             "Five",
-            "Seven",
-            "Nine"
+            "Nine",
+            "Seven"
           ],
           correctAnswer: 1,
           explanation: "Five components: safety policies, procedures, training programs, safety audits, performance monitoring."
@@ -1867,12 +1867,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 1,
         question: "What involves interpretation of ore body geometry?",
         options: [
-          "Mining Method Selection",
           "Geological Understanding",
-          "Access Design",
-          "Production Scheduling"
+          "Production Scheduling",
+          "Mining Method Selection",
+          "Access Design"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Geological understanding involves analyzing the shape, size, and characteristics of mineral deposits.",
         module: 1
       },
@@ -1881,11 +1881,11 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         question: "What is a quantitative measure of rock quality?",
         options: [
           "Rock Mass Rating",
-          "Rock Quality Designation",
+          "Strength Testing",
           "Joint Characteristics",
-          "Strength Testing"
+          "Rock Quality Designation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Rock Quality Designation (RQD) quantifies rock quality based on drill core recovery.",
         module: 2
       },
@@ -1893,12 +1893,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 3,
         question: "What involves initial size reduction of run-of-mine ore?",
         options: [
+          "Classification Systems",
           "Secondary Crushing",
           "Primary Crushing",
-          "Grinding Mills",
-          "Classification Systems"
+          "Grinding Mills"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Primary crushing reduces large mine-run ore to manageable sizes for further processing.",
         module: 3
       },
@@ -1906,12 +1906,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 4,
         question: "What are primary fans that move air through the mine?",
         options: [
-          "Ventilation Circuits",
-          "Main Fans",
           "Airway Resistance",
-          "Auxiliary Ventilation"
+          "Auxiliary Ventilation",
+          "Ventilation Circuits",
+          "Main Fans"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Main fans provide the primary pressure to move air through the entire ventilation system.",
         module: 4
       },
@@ -1919,12 +1919,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 5,
         question: "What involves purchasing mining and processing equipment?",
         options: [
-          "Infrastructure Costs",
           "Equipment Costs",
           "Pre-production Development",
+          "Infrastructure Costs",
           "Contingency Allowances"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Equipment costs include all machinery needed for mining and processing operations.",
         module: 5
       },
@@ -1932,12 +1932,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 6,
         question: "What involves step-by-step analysis of work tasks?",
         options: [
+          "What-If Analysis",
           "Risk Assessment Matrices",
-          "Job Safety Analysis",
           "Bow-tie Analysis",
-          "What-If Analysis"
+          "Job Safety Analysis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Job Safety Analysis breaks down tasks into steps to identify hazards at each stage.",
         module: 6
       },
@@ -1946,11 +1946,11 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         question: "What involves choosing appropriate extraction methods?",
         options: [
           "Geological Understanding",
+          "Access Design",
           "Mining Method Selection",
-          "Infrastructure Planning",
-          "Access Design"
+          "Infrastructure Planning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Mining method selection matches extraction techniques to ore body characteristics.",
         module: 1
       },
@@ -1958,12 +1958,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 8,
         question: "What is a comprehensive classification system?",
         options: [
-          "Rock Quality Designation",
           "Rock Mass Rating",
+          "Rock Quality Designation",
           "Deformation Properties",
           "Joint Characteristics"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Rock Mass Rating (RMR) provides a comprehensive assessment of rock mass quality.",
         module: 2
       },
@@ -1971,12 +1971,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 9,
         question: "What involves further reduction before grinding?",
         options: [
-          "Primary Crushing",
           "Secondary Crushing",
-          "Circuit Optimization",
-          "Grinding Mills"
+          "Grinding Mills",
+          "Primary Crushing",
+          "Circuit Optimization"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Secondary crushing further reduces ore size to prepare it for fine grinding.",
         module: 3
       },
@@ -1984,9 +1984,9 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 10,
         question: "What are air flow pathways through mine workings?",
         options: [
-          "Main Fans",
-          "Ventilation Circuits",
           "Control Devices",
+          "Ventilation Circuits",
+          "Main Fans",
           "Airway Resistance"
         ],
         correctAnswer: 1,
@@ -1997,12 +1997,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 11,
         question: "What involves building access and facilities?",
         options: [
-          "Equipment Costs",
           "Infrastructure Costs",
           "Working Capital",
-          "Pre-production Development"
+          "Pre-production Development",
+          "Equipment Costs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Infrastructure costs cover all permanent facilities needed to support mining operations.",
         module: 5
       },
@@ -2010,12 +2010,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 12,
         question: "What involves quantitative hazard evaluation?",
         options: [
-          "Job Safety Analysis",
           "Risk Assessment Matrices",
           "Checklist Reviews",
+          "Job Safety Analysis",
           "What-If Analysis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Risk assessment matrices quantify hazards based on likelihood and severity.",
         module: 6
       },
@@ -2023,12 +2023,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 13,
         question: "What involves systematic collection of geological data?",
         options: [
-          "Grade Estimation",
-          "Sampling Techniques",
+          "Classification Systems",
           "Volume Calculations",
-          "Classification Systems"
+          "Grade Estimation",
+          "Sampling Techniques"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Sampling techniques systematically collect representative geological data for analysis.",
         module: 1
       },
@@ -2036,12 +2036,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 14,
         question: "What analyzes rock discontinuities?",
         options: [
-          "Rock Mass Rating",
-          "Joint Characteristics",
           "Strength Testing",
-          "Deformation Properties"
+          "Deformation Properties",
+          "Rock Mass Rating",
+          "Joint Characteristics"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Joint characteristics analysis examines orientation, spacing, and condition of rock fractures.",
         module: 2
       },
@@ -2049,12 +2049,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 15,
         question: "What uses density differences for separation?",
         options: [
-          "Magnetic Separation",
           "Gravity Separation",
+          "Magnetic Separation",
           "Flotation",
           "Electrostatic Separation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Gravity separation exploits density differences between minerals using water or air.",
         module: 3
       },
@@ -2062,12 +2062,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 16,
         question: "What involves calculating resistance to air flow?",
         options: [
-          "Ventilation Circuits",
-          "Airway Resistance",
           "Auxiliary Ventilation",
-          "Control Devices"
+          "Ventilation Circuits",
+          "Control Devices",
+          "Airway Resistance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Airway resistance calculations determine how much pressure is needed to move air.",
         module: 4
       },
@@ -2075,12 +2075,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 17,
         question: "What involves wages, benefits, and training expenses?",
         options: [
-          "Energy Costs",
           "Labor Costs",
+          "Consumable Costs",
           "Maintenance Costs",
-          "Consumable Costs"
+          "Energy Costs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Labor costs include all personnel-related expenses for mining operations.",
         module: 5
       },
@@ -2088,12 +2088,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 18,
         question: "What are formal statements of safety commitments?",
         options: [
-          "Safety Procedures",
-          "Safety Policies",
           "Training Programs",
-          "Safety Audits"
+          "Safety Audits",
+          "Safety Procedures",
+          "Safety Policies"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Safety policies formally state the organization's commitment to safety.",
         module: 6
       },
@@ -2101,12 +2101,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 19,
         question: "What determines mineral content variations?",
         options: [
-          "Sampling Techniques",
           "Grade Estimation",
-          "Cut-off Grades",
-          "Volume Calculations"
+          "Volume Calculations",
+          "Sampling Techniques",
+          "Cut-off Grades"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Grade estimation quantifies how mineral content varies throughout the ore body.",
         module: 1
       },
@@ -2114,12 +2114,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 20,
         question: "What are natural stresses in undisturbed rock?",
         options: [
-          "Induced Stresses",
           "In-situ Stresses",
-          "Stress Redistribution",
-          "Stress Concentration"
+          "Stress Concentration",
+          "Induced Stresses",
+          "Stress Redistribution"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "In-situ stresses exist naturally in rock before any mining disturbance occurs.",
         module: 2
       },
@@ -2127,9 +2127,9 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 21,
         question: "What uses magnetic properties differences?",
         options: [
-          "Gravity Separation",
-          "Magnetic Separation",
           "Sensor-based Sorting",
+          "Magnetic Separation",
+          "Gravity Separation",
           "Electrostatic Separation"
         ],
         correctAnswer: 1,
@@ -2140,10 +2140,10 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 22,
         question: "What involves methods to reduce airborne particulate matter?",
         options: [
-          "Gas Monitoring",
-          "Dust Control",
           "Radiation Control",
-          "Fume Extraction"
+          "Dust Control",
+          "Fume Extraction",
+          "Gas Monitoring"
         ],
         correctAnswer: 1,
         explanation: "Dust control minimizes airborne particles that can cause respiratory diseases.",
@@ -2153,12 +2153,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 23,
         question: "What involves electricity and fuel requirements?",
         options: [
+          "Maintenance Costs",
           "Labor Costs",
-          "Energy Costs",
           "Overhead Costs",
-          "Maintenance Costs"
+          "Energy Costs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Energy costs are often a major operating expense in mining operations.",
         module: 5
       },
@@ -2166,12 +2166,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 24,
         question: "What are detailed safe work instructions?",
         options: [
-          "Safety Policies",
           "Safety Procedures",
+          "Safety Policies",
           "Performance Monitoring",
           "Training Programs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Safety procedures provide specific instructions for safely performing tasks.",
         module: 6
       },
@@ -2179,12 +2179,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 25,
         question: "What designs slope angles and bench configurations?",
         options: [
-          "Haul Road Design",
           "Pit Geometry",
+          "Waste Dump Planning",
           "Drainage Systems",
-          "Waste Dump Planning"
+          "Haul Road Design"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Pit geometry designs the overall shape and internal structure of open pit mines.",
         module: 1
       },
@@ -2192,12 +2192,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 26,
         question: "What installs reinforcement in rock masses?",
         options: [
-          "Shotcrete",
-          "Rock Bolting",
           "Steel Sets",
-          "Cable Bolting"
+          "Cable Bolting",
+          "Rock Bolting",
+          "Shotcrete"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Rock bolting installs steel rods to reinforce rock masses around excavations.",
         module: 2
       },
@@ -2206,11 +2206,11 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         question: "What dissolves valuable minerals into solution?",
         options: [
           "Solvent Extraction",
-          "Leaching",
+          "Precipitation",
           "Ion Exchange",
-          "Precipitation"
+          "Leaching"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Leaching uses chemical solutions to dissolve valuable minerals from ore.",
         module: 3
       },
@@ -2231,12 +2231,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 29,
         question: "What involves planning ore extraction rates?",
         options: [
-          "Grade Reconciliation",
-          "Production Scheduling",
           "Metal Prices",
-          "Product Specifications"
+          "Grade Reconciliation",
+          "Product Specifications",
+          "Production Scheduling"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Production scheduling determines how much ore will be mined and processed over time.",
         module: 5
       },
@@ -2244,12 +2244,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 30,
         question: "What involves specific actions for different emergencies?",
         options: [
-          "Communication Systems",
           "Emergency Procedures",
           "Rescue Equipment",
-          "Training Drills"
+          "Training Drills",
+          "Communication Systems"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Emergency procedures detail exactly what to do in specific emergency situations.",
         module: 6
       },
@@ -2257,10 +2257,10 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 31,
         question: "What plans efficient transport routes?",
         options: [
-          "Pit Geometry",
-          "Haul Road Design",
           "Progressive Rehabilitation",
-          "Drainage Systems"
+          "Haul Road Design",
+          "Drainage Systems",
+          "Pit Geometry"
         ],
         correctAnswer: 1,
         explanation: "Haul road design creates safe and efficient routes for material transport within pits.",
@@ -2271,11 +2271,11 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         question: "What uses sprayed concrete for surface support?",
         options: [
           "Rock Bolting",
-          "Shotcrete",
+          "Steel Sets",
           "Mesh and Lagging",
-          "Steel Sets"
+          "Shotcrete"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Shotcrete provides immediate surface support and prevents weathering of exposed rock.",
         module: 2
       },
@@ -2283,12 +2283,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 33,
         question: "What concentrates metals from leach solutions?",
         options: [
-          "Leaching",
-          "Solvent Extraction",
           "Electrowinning",
-          "Ion Exchange"
+          "Ion Exchange",
+          "Solvent Extraction",
+          "Leaching"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Solvent extraction selectively transfers metals from aqueous solutions to organic solvents.",
         module: 3
       },
@@ -2296,12 +2296,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 34,
         question: "What involves mechanical cooling of mine air?",
         options: [
-          "Heat Sources",
-          "Cooling Systems",
+          "Heat Exchangers",
           "Personal Cooling",
-          "Heat Exchangers"
+          "Heat Sources",
+          "Cooling Systems"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Cooling systems use refrigeration or other methods to lower air temperature.",
         module: 4
       },
@@ -2309,12 +2309,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 35,
         question: "What involves comparing planned versus actual grades?",
         options: [
-          "Production Scheduling",
-          "Grade Reconciliation",
+          "Metal Prices",
           "Sales Contracts",
-          "Metal Prices"
+          "Production Scheduling",
+          "Grade Reconciliation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Grade reconciliation compares estimated grades with actual production grades.",
         module: 5
       },
@@ -2322,10 +2322,10 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 36,
         question: "What involves emergency notification and coordination?",
         options: [
-          "Emergency Procedures",
+          "Training Drills",
           "Communication Systems",
           "Medical Response",
-          "Training Drills"
+          "Emergency Procedures"
         ],
         correctAnswer: 1,
         explanation: "Communication systems ensure rapid notification and coordination during emergencies.",
@@ -2348,12 +2348,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 38,
         question: "What are different ways slopes can fail?",
         options: [
-          "Factor of Safety",
-          "Failure Modes",
           "Monitoring Systems",
-          "Stabilization Methods"
+          "Stabilization Methods",
+          "Factor of Safety",
+          "Failure Modes"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Failure modes describe different mechanisms of slope failure.",
         module: 2
       },
@@ -2361,12 +2361,12 @@ A strong safety culture ensures safety becomes a core value, not just a priority
         id: 39,
         question: "What involves thermal treatment in specific atmospheres?",
         options: [
-          "Smelting",
           "Roasting",
-          "Refining",
-          "Calcining"
+          "Smelting",
+          "Calcining",
+          "Refining"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Roasting thermally treats minerals to alter their chemical composition.",
         module: 3
       },

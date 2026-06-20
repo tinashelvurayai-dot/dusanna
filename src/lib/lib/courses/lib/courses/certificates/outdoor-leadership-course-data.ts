@@ -101,9 +101,9 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           question: "What are the four dimensions of the Leadership Diamond Framework?",
           options: [
             "Technical, Group, Environmental, Personal",
+            "Beginning, Developing, Mastering, Teaching",
             "Planning, Executing, Evaluating, Teaching",
-            "Safety, Fun, Learning, Conservation",
-            "Beginning, Developing, Mastering, Teaching"
+            "Safety, Fun, Learning, Conservation"
           ],
           correctAnswer: 0,
           explanation: "The Leadership Diamond includes Technical Competence, Group Management, Environmental Awareness, and Personal Character dimensions."
@@ -112,48 +112,48 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           id: 2,
           question: "When is directive leadership most appropriate?",
           options: [
+            "When developing participant skills",
             "When safety is critical or time is limited",
             "When building group ownership is the priority",
-            "When developing participant skills",
             "When group morale needs boosting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Directive leadership is used when safety concerns, time constraints, or participant inexperience require clear, authoritative decisions."
         },
         {
           id: 3,
           question: "What does 'servant leadership' mean in outdoor contexts?",
           options: [
-            "Seeing yourself as serving the group's needs",
             "Doing all the work for participants",
-            "Always putting others first to your detriment",
-            "Following rather than leading"
+            "Seeing yourself as serving the group's needs",
+            "Following rather than leading",
+            "Always putting others first to your detriment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Servant leadership means prioritizing the group's needs and success over personal recognition or control."
         },
         {
           id: 4,
           question: "What is a key distinction of outdoor leadership compared to other leadership types?",
           options: [
-            "Operating in environments with inherent risks",
-            "Having formal authority over participants",
             "Working with paid employees",
-            "Following corporate policies"
+            "Following corporate policies",
+            "Operating in environments with inherent risks",
+            "Having formal authority over participants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Outdoor leadership uniquely involves managing groups in environments with inherent, uncontrollable risks like weather and terrain."
         },
         {
           id: 5,
           question: "What does 'duty of care' refer to?",
           options: [
-            "Legal and moral responsibility for participant safety",
             "Taking care of equipment properly",
-            "Ensuring everyone has fun",
-            "Cleaning up after the group"
+            "Legal and moral responsibility for participant safety",
+            "Cleaning up after the group",
+            "Ensuring everyone has fun"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Duty of care is the leader's legal and ethical responsibility to make reasonable efforts to keep participants safe."
         },
         {
@@ -161,9 +161,9 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           question: "Which leadership style involves group decision-making?",
           options: [
             "Participative leadership",
+            "Supportive leadership",
             "Directive leadership",
-            "Delegative leadership",
-            "Supportive leadership"
+            "Delegative leadership"
           ],
           correctAnswer: 0,
           explanation: "Participative leadership involves including the group in decision-making processes to build ownership."
@@ -172,36 +172,36 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           id: 7,
           question: "What mindset balances optimism with honest challenge assessment?",
           options: [
-            "Positive realism",
-            "Blind optimism",
+            "Neutral observation",
             "Cautious pessimism",
-            "Neutral observation"
+            "Blind optimism",
+            "Positive realism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Positive realism acknowledges challenges honestly while maintaining confidence in the group's capabilities."
         },
         {
           id: 8,
           question: "What should be included in a personal leadership statement?",
           options: [
-            "Core beliefs about leadership",
             "List of certifications held",
-            "Previous trip locations",
-            "Equipment preferences"
+            "Equipment preferences",
+            "Core beliefs about leadership",
+            "Previous trip locations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A leadership statement articulates your fundamental beliefs and principles about what makes good leadership."
         },
         {
           id: 9,
           question: "Which ethical responsibility involves minimizing environmental impact?",
           options: [
+            "Fair access",
             "Environmental ethics",
-            "Duty of care",
             "Cultural sensitivity",
-            "Fair access"
+            "Duty of care"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental ethics includes practicing and teaching Leave No Trace principles and minimizing ecological impact."
         },
         {
@@ -209,9 +209,9 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           question: "What does situational awareness mean for leaders?",
           options: [
             "Maintaining constant awareness of group and environment",
-            "Knowing where you are on the map",
             "Remembering participants' names",
-            "Checking weather forecasts regularly"
+            "Checking weather forecasts regularly",
+            "Knowing where you are on the map"
           ],
           correctAnswer: 0,
           explanation: "Situational awareness means continuously monitoring the group, environment, weather, time, and potential hazards."
@@ -221,9 +221,9 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           question: "Which leadership style focuses on morale and emotional support?",
           options: [
             "Supportive leadership",
-            "Directive leadership",
             "Technical leadership",
-            "Administrative leadership"
+            "Administrative leadership",
+            "Directive leadership"
           ],
           correctAnswer: 0,
           explanation: "Supportive leadership prioritizes group morale, individual needs, and emotional well-being."
@@ -232,24 +232,24 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           id: 12,
           question: "What is a growth mindset in leadership?",
           options: [
-            "Believing skills can be developed through effort",
+            "Avoiding challenging situations",
             "Thinking you must know everything already",
             "Focusing only on natural talents",
-            "Avoiding challenging situations"
+            "Believing skills can be developed through effort"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A growth mindset believes abilities can be developed through dedication and hard work, modeling continuous learning."
         },
         {
           id: 13,
           question: "What does delegative leadership develop in group members?",
           options: [
-            "Skills and shared leadership",
-            "Dependence on the leader",
+            "Passive following",
             "Competition among participants",
-            "Passive following"
+            "Skills and shared leadership",
+            "Dependence on the leader"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Delegative leadership builds participant skills and distributes leadership responsibility through appropriate assignments."
         },
         {
@@ -258,8 +258,8 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           options: [
             "Cultural sensitivity",
             "Environmental ethics",
-            "Honesty in marketing",
-            "Fair access"
+            "Fair access",
+            "Honesty in marketing"
           ],
           correctAnswer: 0,
           explanation: "Cultural sensitivity includes respecting indigenous territories, understanding local customs, and acknowledging historical contexts."
@@ -268,12 +268,12 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           id: 15,
           question: "What should a strengths inventory include?",
           options: [
-            "Technical skills, interpersonal abilities, character traits",
             "Only formal certifications",
+            "Technical skills, interpersonal abilities, character traits",
             "Previous leadership positions held",
             "Favorite outdoor activities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A strengths inventory assesses technical skills, interpersonal capabilities, and personal character traits relevant to leadership."
         },
         {
@@ -281,9 +281,9 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           question: "What is the leader's primary measure of success in servant leadership?",
           options: [
             "The group's success",
-            "Personal recognition received",
             "Trip distance covered",
-            "Number of skills taught"
+            "Number of skills taught",
+            "Personal recognition received"
           ],
           correctAnswer: 0,
           explanation: "In servant leadership, success is measured by how well the group's needs are met and their goals achieved."
@@ -292,48 +292,48 @@ Remember: Leadership is not about being perfect. It's about being aware, adaptab
           id: 17,
           question: "Which dimension includes Leave No Trace practice?",
           options: [
-            "Environmental awareness",
             "Technical competence",
             "Group management",
-            "Personal character"
+            "Personal character",
+            "Environmental awareness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental awareness dimension includes practicing and teaching Leave No Trace principles."
         },
         {
           id: 18,
           question: "What does honest marketing involve?",
           options: [
-            "Accurately representing trip difficulty and risks",
-            "Making trips sound exciting at all costs",
             "Hiding potential challenges from participants",
-            "Promoting only the positive aspects"
+            "Accurately representing trip difficulty and risks",
+            "Promoting only the positive aspects",
+            "Making trips sound exciting at all costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Honest marketing means providing accurate information about trip challenges, risks, and required abilities."
         },
         {
           id: 19,
           question: "What should growth areas in self-assessment be?",
           options: [
-            "Specific and actionable",
-            "Vague and general",
+            "Limited to technical skills only",
             "Focused on others' weaknesses",
-            "Limited to technical skills only"
+            "Vague and general",
+            "Specific and actionable"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Growth areas should be specific and actionable, like 'improve weather forecasting' rather than vague intentions."
         },
         {
           id: 20,
           question: "What does calm under pressure enable leaders to do?",
           options: [
-            "Think clearly in difficult situations",
             "Avoid all emergency situations",
-            "Suppress emotional reactions completely",
-            "Work without any stress"
+            "Work without any stress",
+            "Think clearly in difficult situations",
+            "Suppress emotional reactions completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Calm under pressure allows leaders to maintain clear thinking and sound decision-making during emergencies or challenging conditions."
         }
       ]
@@ -478,9 +478,9 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           question: "What characterizes the forming stage of group development?",
           options: [
             "Politeness, caution, seeking structure",
-            "Conflict emergence and role negotiation",
+            "High trust and shared responsibility",
             "Establishing norms and building cohesion",
-            "High trust and shared responsibility"
+            "Conflict emergence and role negotiation"
           ],
           correctAnswer: 0,
           explanation: "Forming stage features polite, cautious behavior as participants learn about each other and seek structure from leaders."
@@ -490,9 +490,9 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           question: "What is the leader's primary role during storming stage?",
           options: [
             "Conflict mediation and maintaining safety",
-            "Providing clear direction and structure",
             "Supporting emerging group leaders",
-            "Delegating and empowering the group"
+            "Delegating and empowering the group",
+            "Providing clear direction and structure"
           ],
           correctAnswer: 0,
           explanation: "During storming, leaders mediate conflicts, maintain safety boundaries, and help the group work through differences productively."
@@ -501,24 +501,24 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           id: 3,
           question: "What does active listening involve?",
           options: [
-            "Fully concentrating, understanding, responding, remembering",
             "Hearing words while planning your response",
             "Agreeing with everything said",
-            "Taking detailed notes on all conversations"
+            "Taking detailed notes on all conversations",
+            "Fully concentrating, understanding, responding, remembering"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Active listening means fully engaging with the speaker - concentrating, understanding their meaning, responding appropriately, and remembering what was said."
         },
         {
           id: 4,
           question: "What questioning strategy opens discussion broadly?",
           options: [
-            "Open questions",
+            "Closed questions",
             "Probing questions",
             "Clarifying questions",
-            "Closed questions"
+            "Open questions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Open questions like 'What are our options?' invite broad discussion and multiple perspectives."
         },
         {
@@ -526,9 +526,9 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           question: "What helps build group identity?",
           options: [
             "Team names, traditions, inclusive language",
+            "Focusing only on task completion",
             "Individual achievement recognition",
-            "Keeping groups small and homogeneous",
-            "Focusing only on task completion"
+            "Keeping groups small and homogeneous"
           ],
           correctAnswer: 0,
           explanation: "Group identity develops through shared symbols like team names, traditions, and language that emphasizes 'we' rather than 'I'."
@@ -537,48 +537,48 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           id: 6,
           question: "How should leaders work with cautious planners?",
           options: [
-            "Value their perspective while encouraging reasonable risk",
             "Ignore their concerns as overly conservative",
-            "Always defer to their risk assessment",
-            "Pair them only with other cautious people"
+            "Pair them only with other cautious people",
+            "Value their perspective while encouraging reasonable risk",
+            "Always defer to their risk assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cautious planners provide valuable risk awareness; leaders should honor this while encouraging appropriate challenge acceptance."
         },
         {
           id: 7,
           question: "What does 'challenge by choice' mean?",
           options: [
-            "Allowing appropriate levels of participation choice",
-            "Letting participants choose all activities",
             "Making everything optional",
-            "Only challenging the most skilled"
+            "Allowing appropriate levels of participation choice",
+            "Only challenging the most skilled",
+            "Letting participants choose all activities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Challenge by choice allows participants to choose their level of engagement within activities while maintaining group integrity."
         },
         {
           id: 8,
           question: "What helps with decision paralysis?",
           options: [
-            "Providing limited options and decision frameworks",
-            "Making all decisions yourself",
             "Waiting indefinitely for consensus",
-            "Avoiding decisions whenever possible"
+            "Avoiding decisions whenever possible",
+            "Making all decisions yourself",
+            "Providing limited options and decision frameworks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "When groups struggle with decisions, leaders can help by providing structured options and decision-making frameworks."
         },
         {
           id: 9,
           question: "What facilitation tool helps with environmental connection?",
           options: [
-            "Solo time and sensory activities",
-            "Competitive games",
+            "Written tests",
             "Lecture-style instruction",
-            "Written tests"
+            "Competitive games",
+            "Solo time and sensory activities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Solo time, sensory activities, journaling, and guided observations help participants connect with the natural environment."
         },
         {
@@ -586,8 +586,8 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           question: "What stage involves establishing group norms?",
           options: [
             "Norming stage",
-            "Forming stage",
             "Storming stage",
+            "Forming stage",
             "Performing stage"
           ],
           correctAnswer: 0,
@@ -597,12 +597,12 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           id: 11,
           question: "What nonverbal cues should leaders observe?",
           options: [
-            "Body language, positioning, energy levels",
+            "How quickly people move",
             "Only what people say verbally",
             "Participants' clothing choices",
-            "How quickly people move"
+            "Body language, positioning, energy levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leaders should observe body language, spatial positioning, eye contact, and energy levels to understand group dynamics."
         },
         {
@@ -610,9 +610,9 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           question: "What is a positive use of silence in facilitation?",
           options: [
             "Allowing processing time and inviting reflection",
-            "Filling time when unprepared",
+            "Waiting for someone to rescue the conversation",
             "Punishing unresponsive groups",
-            "Waiting for someone to rescue the conversation"
+            "Filling time when unprepared"
           ],
           correctAnswer: 0,
           explanation: "Strategic silence gives people time to process thoughts and invites contributions from reflective participants."
@@ -621,96 +621,96 @@ Remember: Your goal isn't to eliminate all conflict or difference. Healthy group
           id: 13,
           question: "How address over-dependence on the leader?",
           options: [
-            "Gradually transfer responsibility to group",
+            "Criticize the group for not helping",
             "Make all decisions yourself faster",
-            "Ignore questions from dependent members",
-            "Criticize the group for not helping"
+            "Gradually transfer responsibility to group",
+            "Ignore questions from dependent members"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Gradually transferring appropriate responsibilities and asking 'what do you think?' helps reduce over-dependence."
         },
         {
           id: 14,
           question: "What helps create inclusive environments?",
           options: [
-            "Considering different ability levels and learning styles",
             "Making everything the same for everyone",
+            "Considering different ability levels and learning styles",
             "Focusing only on majority preferences",
             "Ignoring individual differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Inclusion involves accommodating different abilities, learning styles, cultural backgrounds, and experience levels."
         },
         {
           id: 15,
           question: "What characterizes the performing stage?",
           options: [
-            "High trust, good communication, shared responsibility",
-            "Initial politeness and caution",
+            "Establishing patterns and norms",
             "Conflict emergence and negotiation",
-            "Establishing patterns and norms"
+            "Initial politeness and caution",
+            "High trust, good communication, shared responsibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Performing stage features effective teamwork with high trust, strong communication, and distributed leadership."
         },
         {
           id: 16,
           question: "What helps with cultural misunderstandings?",
           options: [
-            "Facilitating cultural sharing and establishing group norms",
-            "Ignoring cultural differences",
             "Enforcing one cultural standard",
-            "Separating cultural groups"
+            "Facilitating cultural sharing and establishing group norms",
+            "Separating cultural groups",
+            "Ignoring cultural differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Address cultural misunderstandings by creating space for sharing different norms and establishing clear group expectations."
         },
         {
           id: 17,
           question: "What questioning approach helps clarify meaning?",
           options: [
-            "Clarifying questions",
-            "Rhetorical questions",
             "Leading questions",
-            "Multiple choice questions"
+            "Multiple choice questions",
+            "Clarifying questions",
+            "Rhetorical questions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clarifying questions like 'Help me understand what you mean by...' ensure mutual understanding."
         },
         {
           id: 18,
           question: "How work with enthusiastic participants?",
           options: [
-            "Engage their energy while helping consider practicalities",
-            "Discourage their enthusiasm as unrealistic",
             "Let them make all decisions",
+            "Discourage their enthusiasm as unrealistic",
+            "Engage their energy while helping consider practicalities",
             "Pair them only with other enthusiasts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Enthusiasts bring valuable energy; channel it productively while helping them consider practical details."
         },
         {
           id: 19,
           question: "What helps with motivation drops?",
           options: [
-            "Humor, breaks, positive reframing",
-            "Ignoring the low energy",
             "Increasing pace and pressure",
-            "Criticizing lack of motivation"
+            "Criticizing lack of motivation",
+            "Ignoring the low energy",
+            "Humor, breaks, positive reframing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "When motivation flags, use humor, take breaks, and help the group reframe challenges positively."
         },
         {
           id: 20,
           question: "What is the goal with group conflict?",
           options: [
-            "Manage it for growth rather than eliminate it",
+            "Take sides in disagreements",
             "Eliminate all disagreement",
             "Let conflicts resolve themselves",
-            "Take sides in disagreements"
+            "Manage it for growth rather than eliminate it"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Healthy conflict can lead to growth; leaders should manage it productively rather than trying to eliminate all disagreement."
         }
       ]
@@ -880,12 +880,12 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           id: 1,
           question: "What are objective hazards?",
           options: [
-            "Physical dangers existing regardless of human presence",
             "Dangers created by human factors",
             "Only risks that feel dangerous",
-            "Hazards that can be completely eliminated"
+            "Hazards that can be completely eliminated",
+            "Physical dangers existing regardless of human presence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Objective hazards are physical dangers like weather, terrain, or environmental conditions that exist independent of human factors."
         },
         {
@@ -893,8 +893,8 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           question: "What is risk homeostasis?",
           options: [
             "Tendency to maintain constant perceived risk level",
-            "Eliminating all risk from activities",
             "Always choosing the safest option",
+            "Eliminating all risk from activities",
             "Ignoring risk completely"
           ],
           correctAnswer: 0,
@@ -904,36 +904,36 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           id: 3,
           question: "What are the OODA loop steps?",
           options: [
-            "Observe, Orient, Decide, Act",
             "Organize, Operate, Delegate, Assess",
             "Open, Operate, Decide, Achieve",
-            "Observe, Operate, Determine, Act"
+            "Observe, Operate, Determine, Act",
+            "Observe, Orient, Decide, Act"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "OODA Loop: Observe information, Orient it in context, Decide on action, Act, then loop back to Observe results."
         },
         {
           id: 4,
           question: "What does the 3-second rule help prevent?",
           options: [
+            "Involving too many people",
             "Panic reactions in emergencies",
             "Taking too long to decide",
-            "Involving too many people",
             "Overthinking simple situations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The 3-second rule (Stop, Breathe, Think, Act) prevents impulsive panic reactions in emergency situations."
         },
         {
           id: 5,
           question: "What does TERA stand for in risk assessment?",
           options: [
-            "Terrain, Environment, Route, Ability",
-            "Time, Equipment, Risk, Assessment",
             "Travel, Experience, Route, Analysis",
-            "Terrain, Experience, Risk, Ability"
+            "Terrain, Environment, Route, Ability",
+            "Terrain, Experience, Risk, Ability",
+            "Time, Equipment, Risk, Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "TERA Model assesses Terrain difficulty, Environmental conditions, Route commitment, and group Ability."
         },
         {
@@ -941,9 +941,9 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           question: "What is a red flag system?",
           options: [
             "Pre-established go/no-go criteria",
-            "Warning signs during activities",
             "Emergency communication method",
-            "Risk assessment paperwork"
+            "Risk assessment paperwork",
+            "Warning signs during activities"
           ],
           correctAnswer: 0,
           explanation: "Red flag systems establish clear, pre-determined criteria that automatically trigger specific safety responses."
@@ -952,48 +952,48 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           id: 7,
           question: "What decision trap involves following others without independent thought?",
           options: [
-            "Social proof",
+            "Optimism bias",
             "Familiarity bias",
             "Sunk cost fallacy",
-            "Optimism bias"
+            "Social proof"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social proof is following what others are doing without making independent risk assessments."
         },
         {
           id: 8,
           question: "What does STOP stand for in emergencies?",
           options: [
+            "Safety, Think, Observe, Protect",
             "Stop, Think, Observe, Plan",
             "Stop, Talk, Organize, Proceed",
-            "Safety, Think, Observe, Protect",
             "Stop, Threaten, Organize, Plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "STOP Principle: Stop movement, Think clearly, Observe situation, Plan next actions in emergencies."
         },
         {
           id: 9,
           question: "What is the sunk cost fallacy?",
           options: [
-            "Continuing because of investment made",
             "Underestimating familiar risks",
             "Believing bad outcomes won't happen",
-            "Following the most experienced person"
+            "Following the most experienced person",
+            "Continuing because of investment made"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sunk cost fallacy is continuing with a plan because of time, effort, or resources already invested, even when turning back would be safer."
         },
         {
           id: 10,
           question: "When should leaders make decisions alone?",
           options: [
-            "During emergencies requiring immediate action",
             "Always, as the designated leader",
+            "Only for minor logistical decisions",
             "Never, always involve the group",
-            "Only for minor logistical decisions"
+            "During emergencies requiring immediate action"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leaders should decide alone during emergencies requiring immediate response, or when group lacks necessary information for informed decision."
         },
         {
@@ -1001,9 +1001,9 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           question: "What are subjective hazards?",
           options: [
             "Dangers created or amplified by human factors",
-            "Physical environmental dangers",
+            "Only hazards that cause immediate harm",
             "Risks that can be measured precisely",
-            "Only hazards that cause immediate harm"
+            "Physical environmental dangers"
           ],
           correctAnswer: 0,
           explanation: "Subjective hazards arise from human factors like fatigue, poor judgment, inadequate skills, or group dynamics."
@@ -1012,36 +1012,36 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           id: 12,
           question: "What does margin of safety provide?",
           options: [
+            "Permission to take more risks",
             "Extra capacity beyond minimum requirements",
-            "Absolute guarantee of safety",
             "Legal protection from liability",
-            "Permission to take more risks"
+            "Absolute guarantee of safety"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Margin of safety means building in extra resources like time, food, or equipment beyond what's minimally required."
         },
         {
           id: 13,
           question: "What helps develop judgment?",
           options: [
-            "After-action reviews and scenario training",
-            "Only experiencing real emergencies",
+            "Avoiding all risky situations",
             "Reading about others' accidents",
-            "Avoiding all risky situations"
+            "Only experiencing real emergencies",
+            "After-action reviews and scenario training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Judgment develops through structured reflection (after-action reviews) and practicing decision-making with realistic scenarios."
         },
         {
           id: 14,
           question: "What is normalization of deviance?",
           options: [
+            "Documenting every minor decision",
             "Gradually accepting higher risk as normal",
             "Making all risk decisions by committee",
-            "Following standard procedures exactly",
-            "Documenting every minor decision"
+            "Following standard procedures exactly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Normalization of deviance occurs when groups gradually accept increasingly risky behavior because 'we've gotten away with it before.'"
         },
         {
@@ -1049,8 +1049,8 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           question: "What should crisis prioritization address first?",
           options: [
             "Life threats (ABCs)",
-            "Equipment damage",
             "Schedule delays",
+            "Equipment damage",
             "Communication with base"
           ],
           correctAnswer: 0,
@@ -1060,60 +1060,60 @@ Remember: The goal isn't risk elimination but risk management. Some risk is nece
           id: 16,
           question: "What decision format involves everyone agreeing to support?",
           options: [
-            "Consensus",
-            "Majority",
             "Consultative",
-            "Command"
+            "Majority",
+            "Command",
+            "Consensus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Consensus means everyone agrees to support the decision, even if it wasn't their first preference."
         },
         {
           id: 17,
           question: "What is familiarity bias?",
           options: [
-            "Underestimating risks in familiar settings",
-            "Overestimating unknown risks",
             "Preferring familiar people's opinions",
+            "Overestimating unknown risks",
+            "Underestimating risks in familiar settings",
             "Choosing familiar routes always"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Familiarity bias causes underestimation of risks in settings we know well because 'we've done it before without problems.'"
         },
         {
           id: 18,
           question: "What does the 10-10-10 rule provide?",
           options: [
-            "Perspective on decision importance over time",
             "A strict timeline for all decisions",
             "Exactly ten minutes for every decision",
-            "Ten people to consult on major decisions"
+            "Ten people to consult on major decisions",
+            "Perspective on decision importance over time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "10-10-10 Rule: Consider how the decision will matter in 10 minutes, 10 days, and 10 years for perspective."
         },
         {
           id: 19,
           question: "What is a conservative principle for uncertain situations?",
           options: [
+            "'Push through all challenges'",
             "'When in doubt, sit it out'",
-            "'Better to ask forgiveness than permission'",
             "'No risk, no reward'",
-            "'Push through all challenges'"
+            "'Better to ask forgiveness than permission'"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Conservative principles like 'when in doubt, sit it out' provide default positions for uncertain risk situations."
         },
         {
           id: 20,
           question: "What is the goal of risk management?",
           options: [
-            "Manage risk to appropriate levels, not eliminate it",
             "Eliminate all possible risk",
             "Ignore risk to avoid worrying participants",
-            "Take as much risk as participants will tolerate"
+            "Take as much risk as participants will tolerate",
+            "Manage risk to appropriate levels, not eliminate it"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk management aims to reduce risk to appropriate levels for the activity and group, recognizing that some risk is inherent and necessary for growth."
         }
       ]
@@ -1349,12 +1349,12 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           id: 1,
           question: "What is the philosophical level of planning?",
           options: [
-            "Why we're doing the trip and core values",
-            "Specific daily schedules and routes",
             "Equipment lists and meal plans",
-            "Emergency procedures and contingencies"
+            "Emergency procedures and contingencies",
+            "Specific daily schedules and routes",
+            "Why we're doing the trip and core values"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Philosophical planning defines the trip's purpose, core values, and the type of experience to create."
         },
         {
@@ -1362,9 +1362,9 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           question: "What should route selection consider?",
           options: [
             "Group ability, bail-out options, seasonal conditions",
-            "Only the most scenic views",
+            "What other groups are doing",
             "Shortest distance regardless of difficulty",
-            "What other groups are doing"
+            "Only the most scenic views"
           ],
           correctAnswer: 0,
           explanation: "Routes should match group ability, offer appropriate challenge, have escape options, and account for seasonal conditions."
@@ -1373,12 +1373,12 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           id: 3,
           question: "What are typical daily caloric needs for active adults?",
           options: [
-            "2,500-4,500+ calories depending on activity",
-            "1,500-2,000 calories standard",
             "As much as they want to eat",
-            "Exactly 3,000 calories for everyone"
+            "Exactly 3,000 calories for everyone",
+            "1,500-2,000 calories standard",
+            "2,500-4,500+ calories depending on activity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Active adults need 2,500-4,500+ calories daily depending on activity level, temperature, and body size."
         },
         {
@@ -1386,9 +1386,9 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           question: "What should participant documentation include?",
           options: [
             "Medical forms, emergency contacts, liability waivers",
+            "Previous trip experience only",
             "Only their name and payment information",
-            "Social media profiles",
-            "Previous trip experience only"
+            "Social media profiles"
           ],
           correctAnswer: 0,
           explanation: "Essential documentation includes medical information, emergency contacts, liability forms, and skill assessments."
@@ -1397,84 +1397,84 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           id: 5,
           question: "What is a route card?",
           options: [
-            "Concise route summary with key information",
             "Credit card for trip expenses",
-            "Participant identification card",
-            "Equipment checklist card"
+            "Equipment checklist card",
+            "Concise route summary with key information",
+            "Participant identification card"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Route cards summarize daily distances, landmarks, water sources, campsites, and emergency information."
         },
         {
           id: 6,
           question: "What should communication plans include?",
           options: [
-            "Check-in schedules and emergency protocols",
             "Only satellite phone numbers",
+            "Check-in schedules and emergency protocols",
             "Social media posting schedule",
             "Daily journal writing time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Communication plans detail check-in schedules, emergency procedures, and family notification protocols."
         },
         {
           id: 7,
           question: "What does staffing role clarification define?",
           options: [
-            "Specific responsibilities for each leader",
             "Only who gets paid the most",
             "Who is friends with whom",
-            "Which tent each leader sleeps in"
+            "Which tent each leader sleeps in",
+            "Specific responsibilities for each leader"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Role clarification defines who handles navigation, first aid, facilitation, and other specific leadership responsibilities."
         },
         {
           id: 8,
           question: "What should budgeting include?",
           options: [
+            "What participants are willing to pay",
             "All costs plus contingency funds",
             "Only major equipment purchases",
-            "What participants are willing to pay",
             "Previous trip costs only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Budgets should estimate all costs including food, equipment, permits, staff, transportation, and contingency reserves."
         },
         {
           id: 9,
           question: "What is contingency planning?",
           options: [
+            "Ignoring potential problems",
             "Planning for when things don't go as planned",
             "Only planning for perfect conditions",
-            "Making last-minute decisions",
-            "Ignoring potential problems"
+            "Making last-minute decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingency planning prepares alternate plans for weather, injuries, equipment failure, and other unexpected situations."
         },
         {
           id: 10,
           question: "What does Leave No Trace integration involve?",
           options: [
-            "Teaching and practicing all seven principles",
+            "Leaving minimal trace but not teaching it",
             "Only packing out obvious trash",
-            "Following some principles when convenient",
-            "Leaving minimal trace but not teaching it"
+            "Teaching and practicing all seven principles",
+            "Following some principles when convenient"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Full LNT integration means teaching, modeling, and practicing all seven principles throughout the trip."
         },
         {
           id: 11,
           question: "What is the tactical planning level?",
           options: [
-            "Specific routes, daily schedules, activity plans",
-            "Overall goals and participant outcomes",
             "Meal plans and equipment lists",
+            "Overall goals and participant outcomes",
+            "Specific routes, daily schedules, activity plans",
             "Why the trip exists at all"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Tactical planning involves specific routes, daily schedules, activity plans, and contingency options."
         },
         {
@@ -1482,9 +1482,9 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           question: "What should equipment inspection include?",
           options: [
             "Checking all items and testing critical systems",
-            "Only counting items received",
+            "Letting participants inspect their own gear",
             "Assuming new equipment works perfectly",
-            "Letting participants inspect their own gear"
+            "Only counting items received"
           ],
           correctAnswer: 0,
           explanation: "Equipment inspection involves checking all items for function and testing critical systems like stoves and water filters."
@@ -1493,12 +1493,12 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           id: 13,
           question: "What does nutritional balance include?",
           options: [
-            "Carbs, proteins, fats, and micronutrients",
             "Only calories that taste good",
             "Whatever is lightest to carry",
+            "Carbs, proteins, fats, and micronutrients",
             "Only foods that don't require cooking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Nutritional balance includes carbohydrates for energy, proteins for repair, fats for sustained energy, and essential vitamins/minerals."
         },
         {
@@ -1506,9 +1506,9 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           question: "What is succession planning for staff?",
           options: [
             "What happens if lead leader becomes incapacitated",
-            "Planning staff promotions after the trip",
+            "Staff vacation schedules",
             "Training new leaders for future trips",
-            "Staff vacation schedules"
+            "Planning staff promotions after the trip"
           ],
           correctAnswer: 0,
           explanation: "Succession planning determines who takes over leadership if the primary leader cannot continue."
@@ -1519,8 +1519,8 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           options: [
             "Alternate activities for different weather conditions",
             "Only canceling the trip for bad weather",
-            "Ignoring weather forecasts",
-            "Praying for good weather"
+            "Praying for good weather",
+            "Ignoring weather forecasts"
           ],
           correctAnswer: 0,
           explanation: "Weather contingencies are pre-planned alternate activities or routes for different weather scenarios."
@@ -1529,24 +1529,24 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           id: 16,
           question: "What should technology management include?",
           options: [
-            "Battery management and appropriate use policies",
             "Using technology for everything possible",
             "Banning all technology from trips",
-            "Only leaders using technology"
+            "Only leaders using technology",
+            "Battery management and appropriate use policies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Technology management includes battery planning, device protection, and clear policies about appropriate use."
         },
         {
           id: 17,
           question: "What does operational planning involve?",
           options: [
-            "Meal plans, equipment lists, transportation",
             "Overall trip philosophy and values",
-            "Broad goals and risk management",
-            "Specific route details only"
+            "Specific route details only",
+            "Meal plans, equipment lists, transportation",
+            "Broad goals and risk management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Operational planning covers meal plans, equipment lists, transportation, permits, and other logistical details."
         },
         {
@@ -1565,12 +1565,12 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           id: 19,
           question: "What should financial documentation do?",
           options: [
-            "Track all expenditures and reconcile after trip",
             "Only record large purchases",
+            "Track all expenditures and reconcile after trip",
             "Be completed weeks after the trip",
             "Only the leader sees financial records"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Financial documentation should track all expenditures during planning and execution, with reconciliation after the trip."
         },
         {
@@ -1578,9 +1578,9 @@ Remember: The most elegant plan is worthless if it's too rigid to adapt to chang
           question: "What is the value of flexibility in planning?",
           options: [
             "Allows adaptation to changing conditions",
+            "Shows lack of preparation",
             "Makes planning unnecessary",
-            "Creates confusion for participants",
-            "Shows lack of preparation"
+            "Creates confusion for participants"
           ],
           correctAnswer: 0,
           explanation: "Flexibility allows adaptation to changing conditions while maintaining safety, recognizing that rigid plans often fail in dynamic environments."
@@ -1817,12 +1817,12 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           id: 1,
           question: "What is the empowerment facilitator role?",
           options: [
+            "Teaching only basic skills",
             "Gradually transferring responsibility to participants",
-            "Making all decisions for the group",
             "Ensuring participants never make mistakes",
-            "Teaching only basic skills"
+            "Making all decisions for the group"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Empowerment facilitation means gradually transferring appropriate responsibility and decision-making to participants as they develop competence."
         },
         {
@@ -1831,8 +1831,8 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           options: [
             "By doing and solving real problems",
             "Through lectures and reading alone",
-            "Only by watching experts",
-            "Through competitive testing"
+            "Through competitive testing",
+            "Only by watching experts"
           ],
           correctAnswer: 0,
           explanation: "Adults learn best through hands-on experience and solving problems relevant to their immediate needs."
@@ -1841,36 +1841,36 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           id: 3,
           question: "What are the stages of the experiential learning cycle?",
           options: [
-            "Experience, Reflection, Conceptualization, Experimentation",
-            "Instruction, Practice, Testing, Mastery",
             "Watch, Try, Fail, Succeed",
-            "Plan, Do, Check, Act"
+            "Plan, Do, Check, Act",
+            "Experience, Reflection, Conceptualization, Experimentation",
+            "Instruction, Practice, Testing, Mastery"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Experiential learning cycle: Concrete Experience, Reflective Observation, Abstract Conceptualization, Active Experimentation."
         },
         {
           id: 4,
           question: "What is the 'I do, we do, you do' model?",
           options: [
-            "Direct instruction progression",
             "Peer teaching method",
+            "Assessment framework",
             "Self-directed learning",
-            "Assessment framework"
+            "Direct instruction progression"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "'I do, we do, you do' is direct instruction: instructor demonstrates, then guides practice, then observes independent practice."
         },
         {
           id: 5,
           question: "What is task analysis in skill teaching?",
           options: [
-            "Breaking skills into component parts",
-            "Analyzing participant performance",
             "Testing skill difficulty level",
-            "Evaluating teaching effectiveness"
+            "Analyzing participant performance",
+            "Evaluating teaching effectiveness",
+            "Breaking skills into component parts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Task analysis involves breaking complex skills into smaller, teachable components for step-by-step learning."
         },
         {
@@ -1879,8 +1879,8 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           options: [
             "Supports gradually removed as skill develops",
             "Building physical structures for practice",
-            "Testing skills under pressure",
-            "Competing against other learners"
+            "Competing against other learners",
+            "Testing skills under pressure"
           ],
           correctAnswer: 0,
           explanation: "Scaffolding provides learning supports (like guidance or simplified versions) that are removed as competence increases."
@@ -1902,9 +1902,9 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           question: "What makes feedback effective?",
           options: [
             "Specific, timely, actionable, and balanced",
+            "Given only at the end of trips",
             "Always positive regardless of performance",
-            "General and non-confrontational",
-            "Given only at the end of trips"
+            "General and non-confrontational"
           ],
           correctAnswer: 0,
           explanation: "Effective feedback is specific, given soon after performance, suggests improvements, and balances strengths with growth areas."
@@ -1913,84 +1913,84 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           id: 9,
           question: "What creates psychological safety for learning?",
           options: [
-            "Environment where mistakes are learning opportunities",
             "Perfect performance expectations",
             "High-pressure testing situations",
-            "Competition with other learners"
+            "Competition with other learners",
+            "Environment where mistakes are learning opportunities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Psychological safety means participants feel safe to try, fail, and learn without shame or excessive criticism."
         },
         {
           id: 10,
           question: "What is principle-based environmental teaching?",
           options: [
-            "Explaining why principles work, not just rules",
-            "Memorizing Leave No Trace points",
             "Only teaching minimum impact skills",
-            "Punishing rule violations severely"
+            "Memorizing Leave No Trace points",
+            "Punishing rule violations severely",
+            "Explaining why principles work, not just rules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Principle-based teaching helps participants understand the reasoning behind practices so they can apply them in new situations."
         },
         {
           id: 11,
           question: "What is the cultural translator role?",
           options: [
-            "Helping understand outdoor cultures and norms",
-            "Translating between different languages",
+            "Explaining technical terminology",
             "Teaching about indigenous cultures only",
-            "Explaining technical terminology"
+            "Translating between different languages",
+            "Helping understand outdoor cultures and norms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural translation involves helping participants understand and respect the norms, values, and practices of outdoor communities."
         },
         {
           id: 12,
           question: "What is relevance-focused learning?",
           options: [
-            "Skills connected to immediate needs",
             "Learning everything about a topic",
-            "Theoretical knowledge development",
-            "Skills for future possible use"
+            "Skills connected to immediate needs",
+            "Skills for future possible use",
+            "Theoretical knowledge development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adults learn best when skills are immediately useful and connected to current problems or goals."
         },
         {
           id: 13,
           question: "What is guided discovery teaching?",
           options: [
-            "Setting up situations for participants to figure things out",
-            "Telling participants exactly what to do",
+            "Testing before teaching anything",
             "Letting participants teach themselves completely",
-            "Testing before teaching anything"
+            "Setting up situations for participants to figure things out",
+            "Telling participants exactly what to do"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Guided discovery creates situations where participants solve problems with instructor guidance rather than direct instruction."
         },
         {
           id: 14,
           question: "What are prerequisite skills?",
           options: [
-            "Skills that must be mastered before next skills",
             "Optional background knowledge",
+            "Skills that must be mastered before next skills",
             "Skills learned after main skills",
             "Only for advanced participants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Prerequisite skills are foundations that must be solid before more complex skills can be learned effectively."
         },
         {
           id: 15,
           question: "How teach risk management effectively?",
           options: [
+            "Making all risk decisions yourself",
             "Transparent decision-making and scenario discussion",
             "Hiding risk decisions from participants",
-            "Making all risk decisions yourself",
             "Avoiding discussion of risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Teaching risk management involves explaining your decision process and discussing 'what if' scenarios to develop judgment."
         },
         {
@@ -1998,9 +1998,9 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           question: "What is growth-oriented feedback language?",
           options: [
             "'You're developing this skill' not 'You're bad at this'",
-            "Only pointing out what's wrong",
             "Comparing to other participants",
-            "Setting fixed ability labels"
+            "Setting fixed ability labels",
+            "Only pointing out what's wrong"
           ],
           correctAnswer: 0,
           explanation: "Growth-oriented language focuses on development and improvement rather than fixed ability judgments."
@@ -2009,12 +2009,12 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           id: 17,
           question: "What are teachable moments?",
           options: [
-            "Unexpected events used as learning opportunities",
-            "Only scheduled teaching times",
+            "Testing situations",
             "Formal classroom sessions",
-            "Testing situations"
+            "Unexpected events used as learning opportunities",
+            "Only scheduled teaching times"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Teachable moments are unplanned events that provide powerful, relevant learning opportunities if seized appropriately."
         },
         {
@@ -2033,24 +2033,24 @@ Remember: Your goal isn't to create dependency but to develop independent, compe
           id: 19,
           question: "What is just-in-time teaching?",
           options: [
-            "Teaching skills right before they're needed",
-            "Teaching everything at trip start",
             "Random skill instruction",
-            "Only teaching after failures"
+            "Teaching everything at trip start",
+            "Only teaching after failures",
+            "Teaching skills right before they're needed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Just-in-time teaching provides skills immediately before application, when motivation and relevance are highest."
         },
         {
           id: 20,
           question: "What is the ultimate teaching goal?",
           options: [
-            "Developing independent, competent participants",
+            "Completing a curriculum checklist",
             "Creating dependency on the instructor",
             "Filling time during trips",
-            "Completing a curriculum checklist"
+            "Developing independent, competent participants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The best outdoor instructors develop participants who can venture out safely and responsibly on their own, reducing dependency."
         }
       ]
@@ -2265,12 +2265,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           id: 1,
           question: "What does service orientation mean for outdoor leaders?",
           options: [
-            "Seeing leadership as service rather than personal adventure",
             "Working for free whenever possible",
             "Always putting others' needs before your own",
+            "Seeing leadership as service rather than personal adventure",
             "Following participants' wishes completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Service orientation means viewing leadership as serving participants, communities, and environments rather than personal achievement or adventure."
         },
         {
@@ -2278,9 +2278,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           question: "What is a key aspect of professional identity?",
           options: [
             "Clear standards, ethics, and responsibilities",
+            "Years of experience",
             "Only technical skill level",
-            "Number of certifications held",
-            "Years of experience"
+            "Number of certifications held"
           ],
           correctAnswer: 0,
           explanation: "Professional identity involves understanding yourself as having specific standards, ethical responsibilities, and professional obligations."
@@ -2289,12 +2289,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           id: 3,
           question: "What does lifelong learning commitment recognize?",
           options: [
-            "Mastery is a journey, not a destination",
             "Learning stops after certification",
             "Only experience matters, not training",
-            "You can learn everything eventually"
+            "You can learn everything eventually",
+            "Mastery is a journey, not a destination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Lifelong learning acknowledges that the field evolves and true professionals continually update and expand their knowledge and skills."
         },
         {
@@ -2302,9 +2302,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           question: "What is a dual relationship dilemma?",
           options: [
             "When participants become friends or romantic interests",
-            "Leading two trips simultaneously",
             "Working for multiple organizations",
-            "Teaching skills you're also learning"
+            "Teaching skills you're also learning",
+            "Leading two trips simultaneously"
           ],
           correctAnswer: 0,
           explanation: "Dual relationships occur when professional relationships overlap with personal ones, creating potential conflicts of interest or boundary issues."
@@ -2313,12 +2313,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           id: 5,
           question: "What is duty of care?",
           options: [
-            "Legal responsibility to act as reasonable leader would",
             "Caring for equipment properly",
             "Liking all participants equally",
-            "Always being nice to everyone"
+            "Always being nice to everyone",
+            "Legal responsibility to act as reasonable leader would"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Duty of care is the legal obligation to provide the level of care a reasonable, prudent outdoor leader would in similar circumstances."
         },
         {
@@ -2327,8 +2327,8 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           options: [
             "Work-life balance and peer support",
             "Working harder and longer",
-            "Ignoring stress and emotions",
-            "Taking on more challenging trips"
+            "Taking on more challenging trips",
+            "Ignoring stress and emotions"
           ],
           correctAnswer: 0,
           explanation: "Burnout prevention requires boundaries between work and personal life, peer support systems, and attention to physical and mental health."
@@ -2337,12 +2337,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           id: 7,
           question: "What is succession planning?",
           options: [
-            "Developing next generation of leaders",
-            "Planning your next career move",
             "Choosing who leads each day",
-            "Deciding trip order of march"
+            "Deciding trip order of march",
+            "Planning your next career move",
+            "Developing next generation of leaders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Succession planning involves mentoring and preparing others to take over leadership roles, ensuring organizational continuity."
         },
         {
@@ -2350,9 +2350,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           question: "What does environmental advocacy involve?",
           options: [
             "Supporting conservation and sustainable practices",
+            "Focusing only on participant experience",
             "Only practicing Leave No Trace personally",
-            "Avoiding political involvement completely",
-            "Focusing only on participant experience"
+            "Avoiding political involvement completely"
           ],
           correctAnswer: 0,
           explanation: "Environmental advocacy means actively supporting conservation efforts, sustainable practices, and protection of natural areas."
@@ -2361,72 +2361,72 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           id: 9,
           question: "What business skill is important for program management?",
           options: [
-            "Budget creation and monitoring",
-            "Only technical outdoor skills",
+            "Equipment repair expertise",
             "Social media popularity",
-            "Equipment repair expertise"
+            "Budget creation and monitoring",
+            "Only technical outdoor skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Program management requires business skills like budget development, monitoring, and adjustment to ensure financial sustainability."
         },
         {
           id: 10,
           question: "What does cultural competence involve in global contexts?",
           options: [
-            "Leading effectively in different cultural settings",
-            "Speaking multiple languages fluently",
             "Knowing everything about all cultures",
-            "Avoiding cultural differences entirely"
+            "Leading effectively in different cultural settings",
+            "Avoiding cultural differences entirely",
+            "Speaking multiple languages fluently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cultural competence means having the awareness, knowledge, and skills to lead effectively and respectfully in diverse cultural contexts."
         },
         {
           id: 11,
           question: "What is work-life integration challenge?",
           options: [
-            "Blending passion with profession appropriately",
+            "Having a traditional 9-5 schedule",
             "Keeping work and life completely separate",
             "Only working during daylight hours",
-            "Having a traditional 9-5 schedule"
+            "Blending passion with profession appropriately"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Outdoor leaders often struggle with appropriate boundaries because their work involves their passion in immersive environments."
         },
         {
           id: 12,
           question: "What does negligence mean legally?",
           options: [
-            "Failure to meet duty of care causing harm",
-            "Any accident that occurs on a trip",
+            "Making difficult decisions that don't work out",
             "Not having perfect outcomes",
-            "Making difficult decisions that don't work out"
+            "Failure to meet duty of care causing harm",
+            "Any accident that occurs on a trip"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Negligence is the failure to exercise the care that a reasonably prudent person would exercise in similar circumstances, resulting in harm."
         },
         {
           id: 13,
           question: "What is emotional resilience?",
           options: [
-            "Capacity to handle emergencies and stress",
-            "Never showing emotion during incidents",
             "Avoiding all emotional situations",
+            "Never showing emotion during incidents",
+            "Capacity to handle emergencies and stress",
             "Being tough at all times"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Emotional resilience is the ability to cope with stress, emergencies, and difficult situations while maintaining effectiveness and well-being."
         },
         {
           id: 14,
           question: "What does access advocacy work toward?",
           options: [
-            "Making outdoor experiences available to all",
+            "Keeping areas secret to prevent overcrowding",
             "Limiting access to protect environments",
             "Only serving already experienced populations",
-            "Keeping areas secret to prevent overcrowding"
+            "Making outdoor experiences available to all"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Access advocacy works to remove barriers so people of all backgrounds, abilities, and economic levels can enjoy outdoor experiences."
         },
         {
@@ -2434,8 +2434,8 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           question: "What should professional development plans include?",
           options: [
             "Specific goals, resources, timelines, accountability",
-            "Only vague aspirations for the future",
             "What others think you should do",
+            "Only vague aspirations for the future",
             "Only technical skill improvement"
           ],
           correctAnswer: 0,
@@ -2445,24 +2445,24 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           id: 16,
           question: "What is boundary management?",
           options: [
-            "Maintaining appropriate professional boundaries",
-            "Setting geographic trip boundaries",
+            "Managing property boundaries on trips",
             "Limiting how far participants can wander",
-            "Managing property boundaries on trips"
+            "Setting geographic trip boundaries",
+            "Maintaining appropriate professional boundaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Boundary management involves maintaining appropriate professional relationships in close expedition environments where personal and professional can blur."
         },
         {
           id: 17,
           question: "What does standard of care refer to?",
           options: [
-            "What is considered acceptable professional practice",
+            "Only what insurance companies require",
             "Minimum care required by law",
             "Perfect outcomes in all situations",
-            "Only what insurance companies require"
+            "What is considered acceptable professional practice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Standard of care is what a reasonably prudent outdoor professional would do in similar circumstances, evolving as practices improve."
         },
         {
@@ -2471,8 +2471,8 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           options: [
             "Impact you want to leave on field and participants",
             "Only financial inheritance for family",
-            "Fame within the outdoor community",
-            "Number of trips led"
+            "Number of trips led",
+            "Fame within the outdoor community"
           ],
           correctAnswer: 0,
           explanation: "Legacy building considers the lasting impact you want to have on participants, organizations, environments, and the profession."
@@ -2481,12 +2481,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           id: 19,
           question: "What does ethical travel involve internationally?",
           options: [
-            "Minimizing negative impacts and maximizing positives",
             "Following your usual practices everywhere",
             "Ignoring local customs and regulations",
+            "Minimizing negative impacts and maximizing positives",
             "Only going where standards match yours"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ethical international travel minimizes negative impacts on local communities and environments while maximizing positive contributions."
         },
         {
@@ -2495,8 +2495,8 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
           options: [
             "Contributing to making the entire field better",
             "Only leading technically difficult trips",
-            "Having many certifications",
-            "Working for prestigious organizations"
+            "Working for prestigious organizations",
+            "Having many certifications"
           ],
           correctAnswer: 0,
           explanation: "The most respected leaders not only lead excellent trips but also contribute to improving safety, ethics, and accessibility in the entire field."
@@ -2517,12 +2517,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 1,
         question: "What are the four dimensions of the Leadership Diamond Framework?",
         options: [
-          "Technical, Group, Environmental, Personal",
           "Planning, Executing, Evaluating, Teaching",
           "Safety, Fun, Learning, Conservation",
-          "Beginning, Developing, Mastering, Teaching"
+          "Beginning, Developing, Mastering, Teaching",
+          "Technical, Group, Environmental, Personal"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The Leadership Diamond includes Technical Competence, Group Management, Environmental Awareness, and Personal Character."
       },
       {
@@ -2531,9 +2531,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         question: "When is directive leadership most appropriate?",
         options: [
           "When safety is critical or time is limited",
-          "When building group ownership is priority",
           "When developing participant skills",
-          "When group morale needs boosting"
+          "When group morale needs boosting",
+          "When building group ownership is priority"
         ],
         correctAnswer: 0,
         explanation: "Directive leadership is used when safety concerns, time constraints, or participant inexperience require clear decisions."
@@ -2544,9 +2544,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         question: "What does 'servant leadership' mean in outdoor contexts?",
         options: [
           "Seeing yourself as serving the group's needs",
-          "Doing all the work for participants",
           "Always putting others first to your detriment",
-          "Following rather than leading"
+          "Following rather than leading",
+          "Doing all the work for participants"
         ],
         correctAnswer: 0,
         explanation: "Servant leadership means prioritizing the group's needs and success over personal recognition."
@@ -2569,12 +2569,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 1,
         question: "What does 'duty of care' refer to?",
         options: [
-          "Legal and moral responsibility for participant safety",
-          "Taking care of equipment properly",
           "Ensuring everyone has fun",
-          "Cleaning up after the group"
+          "Cleaning up after the group",
+          "Legal and moral responsibility for participant safety",
+          "Taking care of equipment properly"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Duty of care is the leader's legal and ethical responsibility to keep participants reasonably safe."
       },
       {
@@ -2582,12 +2582,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 1,
         question: "What mindset balances optimism with honest challenge assessment?",
         options: [
+          "Neutral observation",
           "Positive realism",
-          "Blind optimism",
           "Cautious pessimism",
-          "Neutral observation"
+          "Blind optimism"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Positive realism acknowledges challenges honestly while maintaining confidence in capabilities."
       },
       {
@@ -2595,12 +2595,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 1,
         question: "What should a leadership statement articulate?",
         options: [
-          "Core beliefs about leadership",
           "List of certifications held",
+          "Core beliefs about leadership",
           "Previous trip locations",
           "Equipment preferences"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "A leadership statement articulates your fundamental beliefs and principles about good leadership."
       },
 
@@ -2610,12 +2610,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 2,
         question: "What characterizes the forming stage of group development?",
         options: [
-          "Politeness, caution, seeking structure",
           "Conflict emergence and role negotiation",
           "Establishing norms and building cohesion",
+          "Politeness, caution, seeking structure",
           "High trust and shared responsibility"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Forming stage features polite, cautious behavior as participants learn about each other."
       },
       {
@@ -2624,9 +2624,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         question: "What is active listening?",
         options: [
           "Fully concentrating, understanding, responding, remembering",
-          "Hearing words while planning your response",
           "Agreeing with everything said",
-          "Taking detailed notes on conversations"
+          "Taking detailed notes on conversations",
+          "Hearing words while planning your response"
         ],
         correctAnswer: 0,
         explanation: "Active listening means fully engaging with the speaker's message and meaning."
@@ -2636,12 +2636,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 2,
         question: "What helps build group identity?",
         options: [
-          "Team names, traditions, inclusive language",
-          "Individual achievement recognition",
           "Keeping groups small and homogeneous",
+          "Individual achievement recognition",
+          "Team names, traditions, inclusive language",
           "Focusing only on task completion"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Group identity develops through shared symbols and language emphasizing 'we' rather than 'I'."
       },
       {
@@ -2649,12 +2649,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 2,
         question: "What does 'challenge by choice' mean?",
         options: [
-          "Allowing appropriate levels of participation choice",
-          "Letting participants choose all activities",
           "Making everything optional",
-          "Only challenging the most skilled"
+          "Only challenging the most skilled",
+          "Allowing appropriate levels of participation choice",
+          "Letting participants choose all activities"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Challenge by choice allows participation level choice within activities while maintaining group integrity."
       },
       {
@@ -2662,12 +2662,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 2,
         question: "What helps with decision paralysis?",
         options: [
-          "Providing limited options and decision frameworks",
           "Making all decisions yourself",
+          "Avoiding decisions whenever possible",
           "Waiting indefinitely for consensus",
-          "Avoiding decisions whenever possible"
+          "Providing limited options and decision frameworks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "When groups struggle with decisions, provide structured options and decision-making frameworks."
       },
       {
@@ -2675,12 +2675,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 2,
         question: "What nonverbal cues should leaders observe?",
         options: [
-          "Body language, positioning, energy levels",
           "Only what people say verbally",
-          "Participants' clothing choices",
-          "How quickly people move"
+          "How quickly people move",
+          "Body language, positioning, energy levels",
+          "Participants' clothing choices"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Leaders should observe body language, spatial positioning, and energy levels to understand dynamics."
       },
       {
@@ -2703,12 +2703,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 3,
         question: "What are objective hazards?",
         options: [
-          "Physical dangers existing regardless of human presence",
-          "Dangers created by human factors",
+          "Hazards that can be completely eliminated",
           "Only risks that feel dangerous",
-          "Hazards that can be completely eliminated"
+          "Dangers created by human factors",
+          "Physical dangers existing regardless of human presence"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Objective hazards are physical dangers like weather or terrain that exist independent of human factors."
       },
       {
@@ -2729,12 +2729,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 3,
         question: "What does TERA stand for in risk assessment?",
         options: [
-          "Terrain, Environment, Route, Ability",
-          "Time, Equipment, Risk, Assessment",
           "Travel, Experience, Route, Analysis",
-          "Terrain, Experience, Risk, Ability"
+          "Terrain, Environment, Route, Ability",
+          "Terrain, Experience, Risk, Ability",
+          "Time, Equipment, Risk, Assessment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "TERA Model assesses Terrain, Environment, Route, and group Ability."
       },
       {
@@ -2744,8 +2744,8 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         options: [
           "Pre-established go/no-go criteria",
           "Warning signs during activities",
-          "Emergency communication method",
-          "Risk assessment paperwork"
+          "Risk assessment paperwork",
+          "Emergency communication method"
         ],
         correctAnswer: 0,
         explanation: "Red flag systems establish clear criteria that automatically trigger safety responses."
@@ -2768,12 +2768,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 3,
         question: "What does STOP stand for in emergencies?",
         options: [
-          "Stop, Think, Observe, Plan",
+          "Stop, Threaten, Organize, Plan",
           "Stop, Talk, Organize, Proceed",
           "Safety, Think, Observe, Protect",
-          "Stop, Threaten, Organize, Plan"
+          "Stop, Think, Observe, Plan"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "STOP Principle: Stop movement, Think clearly, Observe situation, Plan next actions."
       },
       {
@@ -2781,12 +2781,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 3,
         question: "When should leaders make decisions alone?",
         options: [
-          "During emergencies requiring immediate action",
+          "Only for minor logistical decisions",
           "Always, as the designated leader",
-          "Never, always involve the group",
-          "Only for minor logistical decisions"
+          "During emergencies requiring immediate action",
+          "Never, always involve the group"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Leaders should decide alone during emergencies or when group lacks necessary information."
       },
 
@@ -2796,12 +2796,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 4,
         question: "What is the philosophical level of planning?",
         options: [
-          "Why we're doing the trip and core values",
-          "Specific daily schedules and routes",
+          "Emergency procedures and contingencies",
           "Equipment lists and meal plans",
-          "Emergency procedures and contingencies"
+          "Specific daily schedules and routes",
+          "Why we're doing the trip and core values"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Philosophical planning defines the trip's purpose, values, and type of experience."
       },
       {
@@ -2809,12 +2809,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 4,
         question: "What should route selection consider?",
         options: [
-          "Group ability, bail-out options, seasonal conditions",
           "Only the most scenic views",
           "Shortest distance regardless of difficulty",
+          "Group ability, bail-out options, seasonal conditions",
           "What other groups are doing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Routes should match group ability, have escape options, and account for conditions."
       },
       {
@@ -2822,12 +2822,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 4,
         question: "What should participant documentation include?",
         options: [
-          "Medical forms, emergency contacts, liability waivers",
-          "Only their name and payment information",
+          "Previous trip experience only",
           "Social media profiles",
-          "Previous trip experience only"
+          "Medical forms, emergency contacts, liability waivers",
+          "Only their name and payment information"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Essential documentation includes medical info, emergency contacts, and liability forms."
       },
       {
@@ -2835,12 +2835,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 4,
         question: "What should communication plans include?",
         options: [
-          "Check-in schedules and emergency protocols",
           "Only satellite phone numbers",
           "Social media posting schedule",
+          "Check-in schedules and emergency protocols",
           "Daily journal writing time"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Communication plans detail check-in schedules and emergency procedures."
       },
       {
@@ -2848,12 +2848,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 4,
         question: "What does staffing role clarification define?",
         options: [
+          "Which tent each leader sleeps in",
           "Specific responsibilities for each leader",
-          "Only who gets paid the most",
           "Who is friends with whom",
-          "Which tent each leader sleeps in"
+          "Only who gets paid the most"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Role clarification defines who handles navigation, first aid, facilitation, etc."
       },
       {
@@ -2861,12 +2861,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 4,
         question: "What is contingency planning?",
         options: [
+          "Ignoring potential problems",
           "Planning for when things don't go as planned",
-          "Only planning for perfect conditions",
           "Making last-minute decisions",
-          "Ignoring potential problems"
+          "Only planning for perfect conditions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Contingency planning prepares alternate plans for unexpected situations."
       },
 
@@ -2876,12 +2876,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 5,
         question: "What is the empowerment facilitator role?",
         options: [
-          "Gradually transferring responsibility to participants",
-          "Making all decisions for the group",
           "Ensuring participants never make mistakes",
-          "Teaching only basic skills"
+          "Gradually transferring responsibility to participants",
+          "Teaching only basic skills",
+          "Making all decisions for the group"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Empowerment facilitation means gradually transferring appropriate responsibility to participants."
       },
       {
@@ -2889,12 +2889,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 5,
         question: "What are the stages of experiential learning?",
         options: [
-          "Experience, Reflection, Conceptualization, Experimentation",
-          "Instruction, Practice, Testing, Mastery",
+          "Plan, Do, Check, Act",
           "Watch, Try, Fail, Succeed",
-          "Plan, Do, Check, Act"
+          "Experience, Reflection, Conceptualization, Experimentation",
+          "Instruction, Practice, Testing, Mastery"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Experiential learning: Experience, Reflection, Conceptualization, Experimentation."
       },
       {
@@ -2902,12 +2902,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 5,
         question: "What is the 'I do, we do, you do' model?",
         options: [
-          "Direct instruction progression",
           "Peer teaching method",
-          "Self-directed learning",
-          "Assessment framework"
+          "Assessment framework",
+          "Direct instruction progression",
+          "Self-directed learning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "'I do, we do, you do' is direct instruction: demonstrate, guide practice, observe independent practice."
       },
       {
@@ -2915,12 +2915,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 5,
         question: "What is task analysis in skill teaching?",
         options: [
-          "Breaking skills into component parts",
           "Analyzing participant performance",
           "Testing skill difficulty level",
-          "Evaluating teaching effectiveness"
+          "Evaluating teaching effectiveness",
+          "Breaking skills into component parts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Task analysis involves breaking complex skills into smaller, teachable components."
       },
       {
@@ -2928,12 +2928,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 5,
         question: "What makes feedback effective?",
         options: [
-          "Specific, timely, actionable, and balanced",
-          "Always positive regardless of performance",
+          "Given only at the end of trips",
           "General and non-confrontational",
-          "Given only at the end of trips"
+          "Specific, timely, actionable, and balanced",
+          "Always positive regardless of performance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Effective feedback is specific, timely, suggests improvements, and balances strengths with growth areas."
       },
       {
@@ -2941,12 +2941,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 5,
         question: "What is the ultimate teaching goal?",
         options: [
-          "Developing independent, competent participants",
           "Creating dependency on the instructor",
+          "Completing a curriculum checklist",
           "Filling time during trips",
-          "Completing a curriculum checklist"
+          "Developing independent, competent participants"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The best instructors develop participants who can venture out safely on their own."
       },
 
@@ -2956,12 +2956,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 6,
         question: "What does service orientation mean?",
         options: [
+          "Always putting others' needs before your own",
           "Seeing leadership as service rather than personal adventure",
           "Working for free whenever possible",
-          "Always putting others' needs before your own",
           "Following participants' wishes completely"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Service orientation means viewing leadership as serving participants, communities, and environments."
       },
       {
@@ -2969,12 +2969,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 6,
         question: "What does lifelong learning commitment recognize?",
         options: [
-          "Mastery is a journey, not a destination",
-          "Learning stops after certification",
+          "You can learn everything eventually",
           "Only experience matters, not training",
-          "You can learn everything eventually"
+          "Mastery is a journey, not a destination",
+          "Learning stops after certification"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Lifelong learning acknowledges that true professionals continually update knowledge and skills."
       },
       {
@@ -2983,9 +2983,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         question: "What is duty of care?",
         options: [
           "Legal responsibility to act as reasonable leader would",
+          "Always being nice to everyone",
           "Caring for equipment properly",
-          "Liking all participants equally",
-          "Always being nice to everyone"
+          "Liking all participants equally"
         ],
         correctAnswer: 0,
         explanation: "Duty of care is the legal obligation to provide care a reasonable leader would in similar circumstances."
@@ -2996,8 +2996,8 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         question: "What helps prevent burnout?",
         options: [
           "Work-life balance and peer support",
-          "Working harder and longer",
           "Ignoring stress and emotions",
+          "Working harder and longer",
           "Taking on more challenging trips"
         ],
         correctAnswer: 0,
@@ -3009,9 +3009,9 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         question: "What does environmental advocacy involve?",
         options: [
           "Supporting conservation and sustainable practices",
-          "Only practicing Leave No Trace personally",
           "Avoiding political involvement completely",
-          "Focusing only on participant experience"
+          "Focusing only on participant experience",
+          "Only practicing Leave No Trace personally"
         ],
         correctAnswer: 0,
         explanation: "Environmental advocacy means actively supporting conservation and protection efforts."
@@ -3021,12 +3021,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 6,
         question: "What does cultural competence involve globally?",
         options: [
-          "Leading effectively in different cultural settings",
-          "Speaking multiple languages fluently",
           "Knowing everything about all cultures",
-          "Avoiding cultural differences entirely"
+          "Avoiding cultural differences entirely",
+          "Speaking multiple languages fluently",
+          "Leading effectively in different cultural settings"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Cultural competence means leading effectively and respectfully in diverse cultural contexts."
       },
       {
@@ -3034,12 +3034,12 @@ Remember: Professional outdoor leadership is not just a job but a calling that r
         module: 6,
         question: "What is the mark of respected outdoor leaders?",
         options: [
-          "Contributing to making the entire field better",
-          "Only leading technically difficult trips",
           "Having many certifications",
-          "Working for prestigious organizations"
+          "Contributing to making the entire field better",
+          "Working for prestigious organizations",
+          "Only leading technically difficult trips"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Respected leaders contribute to improving safety, ethics, and accessibility in the entire field."
       }
     ]

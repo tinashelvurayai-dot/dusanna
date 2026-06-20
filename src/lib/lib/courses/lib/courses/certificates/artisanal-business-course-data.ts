@@ -135,36 +135,36 @@ Remember that building a successful artisanal business is a journey. Start with 
           id: 1,
           question: "What distinguishes an artisanal business from mass production?",
           options: [
+            "Faster production times",
             "Lower prices",
             "Focus on uniqueness, quality, and maker's story",
-            "Faster production times",
             "Using only automated equipment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Artisanal businesses focus on uniqueness, quality, and the maker's story rather than mass production's efficiency and uniformity."
         },
         {
           id: 2,
           question: "Which business model involves selling directly to customers through your own website?",
           options: [
-            "Wholesale",
-            "Direct-to-Consumer",
+            "Teaching",
             "Commission-based",
-            "Teaching"
+            "Wholesale",
+            "Direct-to-Consumer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Direct-to-Consumer (DTC) involves selling directly to customers through your own channels like websites, craft fairs, or studio sales."
         },
         {
           id: 3,
           question: "What is the first mindset shift needed when transitioning from hobby to business?",
           options: [
+            "Making fewer items",
             "Thinking of craft as a business, not just a hobby",
             "Lowering your prices",
-            "Making fewer items",
             "Only working when inspired"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The first mindset shift is thinking of your craft as a professional business rather than just a hobby or personal pastime."
         },
         {
@@ -183,9 +183,9 @@ Remember that building a successful artisanal business is a journey. Start with 
           id: 5,
           question: "What should you calculate to establish proper pricing?",
           options: [
-            "Only material costs",
-            "Material costs + labor + overhead + profit",
             "What competitors charge",
+            "Material costs + labor + overhead + profit",
+            "Only material costs",
             "What customers say they'll pay"
           ],
           correctAnswer: 1,
@@ -195,10 +195,10 @@ Remember that building a successful artisanal business is a journey. Start with 
           id: 6,
           question: "What does SMART stand for in goal setting?",
           options: [
-            "Simple, Measurable, Artistic, Relevant, Timely",
-            "Specific, Measurable, Achievable, Relevant, Time-bound",
             "Smart, Meaningful, Artistic, Responsible, Targeted",
-            "Specific, Manageable, Artistic, Realistic, Timely"
+            "Specific, Measurable, Achievable, Relevant, Time-bound",
+            "Specific, Manageable, Artistic, Realistic, Timely",
+            "Simple, Measurable, Artistic, Relevant, Timely"
           ],
           correctAnswer: 1,
           explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound for effective business planning."
@@ -207,60 +207,60 @@ Remember that building a successful artisanal business is a journey. Start with 
           id: 7,
           question: "What is a Unique Value Proposition?",
           options: [
-            "Your business address",
             "What makes your work different from others",
             "Your pricing strategy",
-            "Your supplier list"
+            "Your supplier list",
+            "Your business address"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A Unique Value Proposition defines what makes your work different from competitors - your style, techniques, materials, or story."
         },
         {
           id: 8,
           question: "Why should you open a separate business bank account?",
           options: [
-            "To get free gifts from banks",
             "To keep personal and business finances separate",
             "Because all businesses must have one",
+            "To get free gifts from banks",
             "To impress customers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Separate business banking keeps finances organized, simplifies accounting, and maintains legal separation between personal and business funds."
         },
         {
           id: 9,
           question: "What type of insurance might artisans need for selling physical goods?",
           options: [
+            "Health insurance only",
             "Car insurance",
             "Product liability insurance",
-            "Life insurance",
-            "Health insurance only"
+            "Life insurance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Product liability insurance protects against claims if a product causes injury or damage, important for artisans selling physical goods."
         },
         {
           id: 10,
           question: "What is a hybrid business model?",
           options: [
-            "Using only one approach",
             "Combining multiple approaches for diverse income",
-            "Selling online only",
-            "Working with one supplier"
+            "Working with one supplier",
+            "Using only one approach",
+            "Selling online only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A hybrid model combines multiple approaches (like DTC, wholesale, and teaching) for diverse, sustainable income streams."
         },
         {
           id: 11,
           question: "What should your workspace include for business efficiency?",
           options: [
-            "Only a crafting area",
-            "Production, shipping, photography, and office areas",
             "Just a comfortable chair",
-            "Maximum decoration"
+            "Maximum decoration",
+            "Production, shipping, photography, and office areas",
+            "Only a crafting area"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "An efficient workspace includes areas for production, shipping preparation, product photography, and administrative tasks."
         },
         {
@@ -268,11 +268,11 @@ Remember that building a successful artisanal business is a journey. Start with 
           question: "What is intellectual property in artisanal business?",
           options: [
             "Your physical tools",
-            "Copyright for designs, trademarks for logos",
             "Your customer list",
+            "Copyright for designs, trademarks for logos",
             "Your workspace"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Intellectual property includes copyright (protecting original designs), trademarks (protecting brand names/logos), and patents for inventions."
         },
         {
@@ -280,33 +280,33 @@ Remember that building a successful artisanal business is a journey. Start with 
           question: "What is an emergency fund for?",
           options: [
             "Vacations",
+            "Paying friends",
             "Unexpected expenses or slow business periods",
-            "Buying luxury materials",
-            "Paying friends"
+            "Buying luxury materials"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "An emergency fund covers unexpected expenses, slow sales periods, or opportunities requiring quick investment."
         },
         {
           id: 14,
           question: "Who makes up a good business support system?",
           options: [
-            "Only family members",
             "Mentors, peers, professional advisors",
-            "Only other artisans",
-            "Only online followers"
+            "Only online followers",
+            "Only family members",
+            "Only other artisans"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A strong support system includes mentors, peer networks, professional advisors, and business community connections."
         },
         {
           id: 15,
           question: "What does 'Your Why' refer to in business identity?",
           options: [
-            "Your pricing",
-            "What drives you to create",
             "Your location",
-            "Your age"
+            "What drives you to create",
+            "Your age",
+            "Your pricing"
           ],
           correctAnswer: 1,
           explanation: "Your 'Why' is your core motivation and purpose - what drives you to create and share your work with others."
@@ -315,22 +315,22 @@ Remember that building a successful artisanal business is a journey. Start with 
           id: 16,
           question: "What is a wholesale business model?",
           options: [
-            "Selling directly to customers",
             "Selling to retailers who sell to customers",
-            "Only teaching skills",
-            "Making free samples"
+            "Selling directly to customers",
+            "Making free samples",
+            "Only teaching skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Wholesale involves selling products to retailers at a discounted price, who then sell them to customers at retail price."
         },
         {
           id: 17,
           question: "What should you consider when defining your target market?",
           options: [
-            "Only their income",
+            "Their favorite colors",
             "Their values, lifestyle, and buying habits",
             "Only where they live",
-            "Their favorite colors"
+            "Only their income"
           ],
           correctAnswer: 1,
           explanation: "Consider your ideal customers' values, lifestyle, buying habits, preferences, and what they appreciate in handmade goods."
@@ -339,36 +339,36 @@ Remember that building a successful artisanal business is a journey. Start with 
           id: 18,
           question: "What is bookkeeping in business?",
           options: [
+            "Keeping craft books",
             "Writing books",
             "Tracking income, expenses, and taxes",
-            "Keeping craft books",
             "Reading business books"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bookkeeping involves systematically tracking all business income, expenses, and tax obligations for financial management."
         },
         {
           id: 19,
           question: "What does resilience mean in business?",
           options: [
+            "Making quick money",
             "Never changing",
             "Persisting through ups and downs",
-            "Always being popular",
-            "Making quick money"
+            "Always being popular"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Resilience means persisting through challenges, learning from setbacks, and maintaining commitment during business ups and downs."
         },
         {
           id: 20,
           question: "What should medium-term business goals cover?",
           options: [
-            "Only daily tasks",
-            "1-2 year objectives like consistent income",
+            "What to do next week",
             "Retirement planning",
-            "What to do next week"
+            "Only daily tasks",
+            "1-2 year objectives like consistent income"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Medium-term goals typically cover 1-2 year objectives like establishing consistent income, wholesale accounts, or hiring assistance."
         }
       ],
@@ -561,35 +561,35 @@ Remember that your products are the heart of your business. Developing them thou
           question: "What should you focus on when starting your product line?",
           options: [
             "Whatever is trending",
-            "What you do best and enjoy most",
             "The most expensive materials",
-            "Copying successful competitors"
+            "Copying successful competitors",
+            "What you do best and enjoy most"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Focus on what you do best and enjoy most - your passion and skill will show in the quality of your finished products."
         },
         {
           id: 2,
           question: "What is batch processing in production?",
           options: [
-            "Making one item at a time",
-            "Grouping similar tasks together",
+            "Only working in batches of ten",
             "Working randomly",
-            "Only working in batches of ten"
+            "Making one item at a time",
+            "Grouping similar tasks together"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Batch processing means grouping similar tasks together (like cutting all pieces first) for greater efficiency and consistency."
         },
         {
           id: 3,
           question: "What should be included in cost calculation?",
           options: [
-            "Only material costs",
             "Materials + labor + overhead + profit",
             "What you wish you could charge",
+            "Only material costs",
             "Only what competitors charge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Complete cost calculation includes materials, labor, overhead allocation, and profit margin for sustainable pricing."
         },
         {
@@ -598,8 +598,8 @@ Remember that your products are the heart of your business. Developing them thou
           options: [
             "Cost of electricity",
             "Your time spent creating the product",
-            "Cost of marketing",
-            "Rent for your studio"
+            "Rent for your studio",
+            "Cost of marketing"
           ],
           correctAnswer: 1,
           explanation: "Direct labor cost is the value of your time spent actually creating the product, for which you should pay yourself a fair wage."
@@ -620,12 +620,12 @@ Remember that your products are the heart of your business. Developing them thou
           id: 6,
           question: "What common pricing mistake involves personal feelings?",
           options: [
-            "Emotional pricing",
             "Accurate pricing",
-            "Market research pricing",
-            "Cost-based pricing"
+            "Cost-based pricing",
+            "Emotional pricing",
+            "Market research pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Emotional pricing means setting prices based on personal attachment rather than objective business considerations."
         },
         {
@@ -633,35 +633,35 @@ Remember that your products are the heart of your business. Developing them thou
           question: "What should product photography include?",
           options: [
             "Only one angle",
-            "Clear, well-lit photos from multiple angles",
             "Blurry artistic shots",
+            "Clear, well-lit photos from multiple angles",
             "Only close-up details"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Professional product photography includes clear, well-lit photos from multiple angles to show the item completely."
         },
         {
           id: 8,
           question: "Why include branded elements in packaging?",
           options: [
-            "To increase costs",
-            "To create memorable unboxing and brand recognition",
             "To hide the product",
-            "Because everyone does it"
+            "Because everyone does it",
+            "To increase costs",
+            "To create memorable unboxing and brand recognition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Branded packaging creates memorable unboxing experiences and reinforces brand recognition with each customer."
         },
         {
           id: 9,
           question: "What is a reorder point in inventory management?",
           options: [
-            "When to order lunch",
             "Minimum stock level triggering reordering",
-            "Maximum inventory capacity",
-            "When to have a sale"
+            "When to order lunch",
+            "When to have a sale",
+            "Maximum inventory capacity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A reorder point is the minimum stock level that triggers ordering more materials to avoid running out."
         },
         {
@@ -669,35 +669,35 @@ Remember that your products are the heart of your business. Developing them thou
           question: "What should product descriptions include?",
           options: [
             "Only the price",
-            "Materials, dimensions, care instructions",
+            "Only creative names",
             "Your life story",
-            "Only creative names"
+            "Materials, dimensions, care instructions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Detailed product descriptions should include materials, dimensions, care instructions, and the story behind the item."
         },
         {
           id: 11,
           question: "What is overhead cost allocation?",
           options: [
-            "Ignoring fixed costs",
-            "Dividing monthly expenses across products made",
             "Only counting material costs",
-            "What you charge extra"
+            "What you charge extra",
+            "Ignoring fixed costs",
+            "Dividing monthly expenses across products made"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Overhead allocation divides indirect monthly expenses across products to accurately include them in pricing calculations."
         },
         {
           id: 12,
           question: "What is psychological pricing?",
           options: [
-            "Charging random amounts",
-            "Using prices like $19.99 instead of $20",
+            "Free pricing",
             "Pricing based on emotions",
-            "Free pricing"
+            "Charging random amounts",
+            "Using prices like $19.99 instead of $20"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Psychological pricing uses specific price points (like $19.99) that seem more appealing to customers than rounded numbers."
         },
         {
@@ -716,12 +716,12 @@ Remember that your products are the heart of your business. Developing them thou
           id: 14,
           question: "What should you do before full production of a new product?",
           options: [
-            "Make hundreds immediately",
-            "Create and test a perfect sample",
+            "Tell all your friends",
             "Start selling immediately",
-            "Tell all your friends"
+            "Make hundreds immediately",
+            "Create and test a perfect sample"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Always create and test a perfect sample first for photography, quality standards, and refinement before full production."
         },
         {
@@ -729,21 +729,21 @@ Remember that your products are the heart of your business. Developing them thou
           question: "What is tiered pricing?",
           options: [
             "One price for everything",
-            "Different prices for different quality or customization levels",
             "Seasonal pricing only",
-            "Random pricing structure"
+            "Random pricing structure",
+            "Different prices for different quality or customization levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Tiered pricing offers different price levels for variations in quality, size, materials, or customization options."
         },
         {
           id: 16,
           question: "What does product lifecycle management include?",
           options: [
-            "Only making products",
+            "Keeping everything forever",
             "Introduction, rotation, improvement, discontinuation",
-            "Throwing away unsold items",
-            "Keeping everything forever"
+            "Only making products",
+            "Throwing away unsold items"
           ],
           correctAnswer: 1,
           explanation: "Product lifecycle management includes planning for introduction, seasonal rotation, improvements, and eventual discontinuation when needed."
@@ -752,48 +752,48 @@ Remember that your products are the heart of your business. Developing them thou
           id: 17,
           question: "What should packaging accomplish?",
           options: [
-            "Just look pretty",
-            "Protect items and enhance brand experience",
             "Be as cheap as possible",
-            "Be disposable immediately"
+            "Just look pretty",
+            "Be disposable immediately",
+            "Protect items and enhance brand experience"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective packaging protects items during shipping while creating a positive brand experience through presentation."
         },
         {
           id: 18,
           question: "Why track production time accurately?",
           options: [
-            "To work slower",
-            "For accurate pricing and efficiency improvements",
+            "To fill out time sheets",
             "To impress customers",
-            "To fill out time sheets"
+            "For accurate pricing and efficiency improvements",
+            "To work slower"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Accurate time tracking informs proper pricing and helps identify opportunities for production efficiency improvements."
         },
         {
           id: 19,
           question: "What is a cohesive product collection?",
           options: [
+            "Cheap items only",
             "Random items",
-            "Items grouped by theme, color, or technique",
             "One-of-a-kind pieces only",
-            "Cheap items only"
+            "Items grouped by theme, color, or technique"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cohesive collections group products by theme, color palette, materials, or techniques for professional presentation and marketing."
         },
         {
           id: 20,
           question: "How should you handle customer feedback on products?",
           options: [
-            "Ignore all feedback",
             "Adapt products based on constructive feedback",
-            "Only listen to positive comments",
-            "Argue with negative reviews"
+            "Ignore all feedback",
+            "Argue with negative reviews",
+            "Only listen to positive comments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Constructive customer feedback should inform product improvements and refinements to better meet market needs."
         }
       ],
@@ -1030,11 +1030,11 @@ Marketing for artisanal businesses is about building genuine connections rather 
           question: "What is a brand in artisanal business?",
           options: [
             "Only a logo",
+            "Only your packaging",
             "Complete customer experience with your business",
-            "Just your business name",
-            "Only your packaging"
+            "Just your business name"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A brand is the complete experience customers have with your business, including visual identity, communication style, values, and customer experience."
         },
         {
@@ -1043,8 +1043,8 @@ Marketing for artisanal businesses is about building genuine connections rather 
           options: [
             "Only your prices",
             "Your journey, inspiration, process, and values",
-            "Only customer reviews",
-            "Just product descriptions"
+            "Just product descriptions",
+            "Only customer reviews"
           ],
           correctAnswer: 1,
           explanation: "A complete brand story includes your journey, inspiration, creative process, material choices, and business values."
@@ -1053,12 +1053,12 @@ Marketing for artisanal businesses is about building genuine connections rather 
           id: 3,
           question: "Which social platform is best for visual storytelling?",
           options: [
-            "LinkedIn",
             "Instagram",
             "Twitter",
-            "Reddit"
+            "Reddit",
+            "LinkedIn"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Instagram excels at visual storytelling and product showcasing through images and short videos."
         },
         {
@@ -1066,71 +1066,71 @@ Marketing for artisanal businesses is about building genuine connections rather 
           question: "What is the recommended content mix for social media?",
           options: [
             "100% product promotions",
-            "50% products, 30% behind-scenes, 20% engagement",
             "Only personal content",
+            "50% products, 30% behind-scenes, 20% engagement",
             "Only reposted content"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A balanced mix includes 50% product highlights, 30% behind-the-scenes/educational, and 20% community engagement."
         },
         {
           id: 5,
           question: "Why build an email list?",
           options: [
-            "To send spam",
             "For direct communication with interested customers",
-            "To sell email addresses",
-            "Because everyone has one"
+            "Because everyone has one",
+            "To send spam",
+            "To sell email addresses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "An email list allows direct communication with customers who have expressed interest, bypassing algorithm changes on social media."
         },
         {
           id: 6,
           question: "What type of photography shows products in real-life settings?",
           options: [
-            "Product photography",
-            "Lifestyle photography",
             "Abstract photography",
-            "Black and white only"
+            "Black and white only",
+            "Lifestyle photography",
+            "Product photography"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Lifestyle photography shows products in use or styled with other items in real-life settings to help customers visualize ownership."
         },
         {
           id: 7,
           question: "What does 'show, don't just tell' mean in storytelling?",
           options: [
-            "Only use words",
-            "Use visuals to demonstrate your process",
             "Never explain anything",
-            "Make customers guess"
+            "Make customers guess",
+            "Only use words",
+            "Use visuals to demonstrate your process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "'Show, don't just tell' means using visuals like photos and videos to demonstrate your process and quality rather than only describing it."
         },
         {
           id: 8,
           question: "What is a benefit of artisan collaborations?",
           options: [
-            "Increased competition",
-            "Shared audiences and creative synergy",
+            "Lower quality standards",
             "Less work for everyone",
-            "Lower quality standards"
+            "Shared audiences and creative synergy",
+            "Increased competition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collaborations allow sharing audiences, combining creative strengths, and reaching new potential customers through partnership."
         },
         {
           id: 9,
           question: "What should a press kit include?",
           options: [
-            "Only your address",
             "Professional photos, bio, business information",
             "Your personal diary",
-            "Customer complaints"
+            "Customer complaints",
+            "Only your address"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A professional press kit includes high-quality photos, your biography, business information, and any relevant media coverage for easy journalist access."
         },
         {
@@ -1139,8 +1139,8 @@ Marketing for artisanal businesses is about building genuine connections rather 
           options: [
             "Only low prices",
             "Personal touch and excellent service",
-            "Ignoring customers",
-            "Complex return policies"
+            "Complex return policies",
+            "Ignoring customers"
           ],
           correctAnswer: 1,
           explanation: "Personal touches like handwritten notes and excellent customer service build emotional connections that create loyal repeat customers."
@@ -1149,12 +1149,12 @@ Marketing for artisanal businesses is about building genuine connections rather 
           id: 11,
           question: "What key metric tracks visitors who become buyers?",
           options: [
-            "Website traffic",
             "Conversion rate",
             "Social media likes",
+            "Website traffic",
             "Email opens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Conversion rate measures the percentage of website visitors who complete a desired action, like making a purchase."
         },
         {
@@ -1162,21 +1162,21 @@ Marketing for artisanal businesses is about building genuine connections rather 
           question: "What is a budget-friendly marketing idea?",
           options: [
             "TV commercials",
+            "National magazine ads",
             "Collaborative giveaways with other artisans",
-            "Billboard advertising",
-            "National magazine ads"
+            "Billboard advertising"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collaborative giveaways with other artisans share audience exposure without significant financial investment."
         },
         {
           id: 13,
           question: "What does ethical marketing include?",
           options: [
-            "False scarcity tactics",
+            "Hidden costs",
             "Authenticity and transparency",
             "Manipulative messaging",
-            "Hidden costs"
+            "False scarcity tactics"
           ],
           correctAnswer: 1,
           explanation: "Ethical marketing practices include authenticity, transparency about products and processes, and respect for customers."
@@ -1186,33 +1186,33 @@ Marketing for artisanal businesses is about building genuine connections rather 
           question: "Why document brand guidelines?",
           options: [
             "To make things complicated",
-            "For consistent use of brand elements",
             "To keep secrets",
-            "No reason needed"
+            "No reason needed",
+            "For consistent use of brand elements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Brand guidelines ensure consistent application of visual and communication elements across all platforms and materials."
         },
         {
           id: 15,
           question: "What is the purpose of a welcome email series?",
           options: [
-            "To overwhelm new subscribers",
             "To introduce your brand story and values",
+            "To overwhelm new subscribers",
             "To ask for money immediately",
             "To share your life story"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A welcome series gradually introduces new subscribers to your brand story, values, and products, building relationship before asking for sales."
         },
         {
           id: 16,
           question: "What type of content educates potential customers?",
           options: [
-            "Only price lists",
-            "Tutorial snippets and material explanations",
             "Competitor bashing",
-            "Personal complaints"
+            "Tutorial snippets and material explanations",
+            "Personal complaints",
+            "Only price lists"
           ],
           correctAnswer: 1,
           explanation: "Educational content like tutorial snippets and material explanations builds authority and helps customers appreciate your craft's value."
@@ -1221,12 +1221,12 @@ Marketing for artisanal businesses is about building genuine connections rather 
           id: 17,
           question: "What should website navigation prioritize?",
           options: [
-            "Complex menus",
             "Easy finding of products and information",
             "Hidden pages",
+            "Complex menus",
             "Requiring registration first"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Clear, intuitive website navigation helps visitors easily find products, your story, and contact information, improving user experience."
         },
         {
@@ -1234,35 +1234,35 @@ Marketing for artisanal businesses is about building genuine connections rather 
           question: "What is user-generated content?",
           options: [
             "Content you create",
-            "Customer photos and testimonials",
             "Stock photos",
-            "Competitor content"
+            "Competitor content",
+            "Customer photos and testimonials"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "User-generated content includes customer photos, reviews, and testimonials that provide social proof and authentic perspectives."
         },
         {
           id: 19,
           question: "Why track marketing metrics regularly?",
           options: [
-            "Because it's fun",
-            "To understand what's working and optimize efforts",
+            "To impress others",
             "To fill time",
-            "To impress others"
+            "Because it's fun",
+            "To understand what's working and optimize efforts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regular metric tracking helps you understand which marketing efforts are effective and where to focus resources for best results."
         },
         {
           id: 20,
           question: "What makes artisanal marketing different from corporate marketing?",
           options: [
-            "Bigger budgets",
             "Focus on authentic connections and storytelling",
+            "Bigger budgets",
             "Only digital approaches",
             "No customer interaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Artisanal marketing emphasizes authentic connections, personal storytelling, and relationship building rather than purely transactional approaches."
         }
       ],
@@ -1535,10 +1535,10 @@ The right sales channel mix evolves with your business. Start with channels that
           id: 1,
           question: "What should you consider when evaluating sales channels?",
           options: [
-            "Only what's popular",
+            "What your friends use",
             "Your products, customers, strengths, and capacity",
             "Only the cheapest options",
-            "What your friends use"
+            "Only what's popular"
           ],
           correctAnswer: 1,
           explanation: "Evaluate channels based on your specific products, target customers, personal strengths, and production capacity for good fit."
@@ -1547,22 +1547,22 @@ The right sales channel mix evolves with your business. Start with channels that
           id: 2,
           question: "What is Etsy's main advantage for artisans?",
           options: [
-            "No fees",
             "Built-in audience searching for handmade",
-            "Automatic marketing",
-            "Free shipping"
+            "Free shipping",
+            "No fees",
+            "Automatic marketing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Etsy's main advantage is its large built-in audience specifically searching for handmade and unique items."
         },
         {
           id: 3,
           question: "What should your own website include?",
           options: [
-            "Only photos",
-            "Secure payments, mobile design, clear info",
             "Complex navigation",
-            "Hidden contact information"
+            "Secure payments, mobile design, clear info",
+            "Hidden contact information",
+            "Only photos"
           ],
           correctAnswer: 1,
           explanation: "Essential website features include secure payment processing, mobile-responsive design, and clear product and contact information."
@@ -1571,48 +1571,48 @@ The right sales channel mix evolves with your business. Start with channels that
           id: 4,
           question: "What is important for craft fair booth design?",
           options: [
-            "Being invisible",
-            "Eye-catching visibility and clear branding",
             "Only a tablecloth",
-            "Maximum clutter"
+            "Maximum clutter",
+            "Eye-catching visibility and clear branding",
+            "Being invisible"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective booth design catches attention from a distance while clearly communicating your brand identity to attract customers."
         },
         {
           id: 5,
           question: "What is the typical wholesale price percentage?",
           options: [
-            "100% of retail",
             "50% of retail price",
-            "25% of retail",
-            "75% of retail"
+            "75% of retail",
+            "100% of retail",
+            "25% of retail"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Wholesale typically involves selling to retailers at 50% of the retail price, allowing them markup for their retail operations."
         },
         {
           id: 6,
           question: "What is consignment selling?",
           options: [
-            "Buying materials",
             "Retailer pays only when item sells",
             "Immediate payment",
-            "Barter system"
+            "Barter system",
+            "Buying materials"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Consignment means the retailer only pays you when the item sells, taking less risk but giving you higher percentage of sale."
         },
         {
           id: 7,
           question: "What is typical for commission deposits?",
           options: [
+            "100% payment upfront",
             "No deposit needed",
             "50% deposit before starting work",
-            "100% payment upfront",
             "Payment after completion only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A 50% deposit before starting commission work covers material costs and secures client commitment to the project."
         },
         {
@@ -1631,24 +1631,24 @@ The right sales channel mix evolves with your business. Start with channels that
           id: 9,
           question: "What advantage do subscriptions offer?",
           options: [
-            "Unpredictable income",
             "Predictable recurring revenue",
+            "Unpredictable income",
             "More work for less money",
             "Customer confusion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Subscription models provide predictable recurring revenue and help with production planning and customer retention."
         },
         {
           id: 10,
           question: "What is multi-channel inventory synchronization?",
           options: [
-            "Ignoring inventory",
-            "Tracking stock across all sales channels",
             "Only counting weekly",
-            "Guessing stock levels"
+            "Ignoring inventory",
+            "Guessing stock levels",
+            "Tracking stock across all sales channels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Inventory synchronization tracks stock levels across all sales channels to prevent overselling and manage production needs."
         },
         {
@@ -1656,47 +1656,47 @@ The right sales channel mix evolves with your business. Start with channels that
           question: "How should you start with sales channels?",
           options: [
             "Use every channel immediately",
-            "Start with 1-2 channels and master them",
             "Only use the most expensive",
-            "Avoid all channels"
+            "Avoid all channels",
+            "Start with 1-2 channels and master them"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Start with 1-2 sales channels, master their operations, then strategically add more channels as your capacity grows."
         },
         {
           id: 12,
           question: "What varies by location for online sales?",
           options: [
-            "Only website colors",
             "Sales tax collection requirements",
-            "Product quality",
-            "Your creativity"
+            "Your creativity",
+            "Only website colors",
+            "Product quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Sales tax collection requirements vary by location, state, and country, requiring understanding of local regulations."
         },
         {
           id: 13,
           question: "Why maintain consistent quality across channels?",
           options: [
-            "To save money",
             "For unified customer experience and brand reputation",
+            "No reason needed",
             "To confuse customers",
-            "No reason needed"
+            "To save money"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Consistent quality across all sales channels maintains brand reputation and ensures positive customer experiences regardless of purchase method."
         },
         {
           id: 14,
           question: "What should you assess regularly about sales channels?",
           options: [
-            "Only colors used",
-            "Performance and alignment with business goals",
+            "Your horoscope",
             "What competitors think",
-            "Your horoscope"
+            "Performance and alignment with business goals",
+            "Only colors used"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regularly assess channel performance and how well each aligns with your evolving business goals and capabilities."
         },
         {
@@ -1705,8 +1705,8 @@ The right sales channel mix evolves with your business. Start with channels that
           options: [
             "Waiting list",
             "Product images, descriptions, and prices for retailers",
-            "Drawing of lines",
-            "Supplier list"
+            "Supplier list",
+            "Drawing of lines"
           ],
           correctAnswer: 1,
           explanation: "A line sheet is a professional document showing product images, descriptions, prices, and ordering information for wholesale buyers."
@@ -1715,21 +1715,21 @@ The right sales channel mix evolves with your business. Start with channels that
           id: 16,
           question: "What does PCI compliance refer to?",
           options: [
-            "Product quality",
             "Payment card industry security standards",
+            "Product quality",
             "Packaging standards",
             "Production capacity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PCI compliance refers to Payment Card Industry security standards for safely processing credit card information."
         },
         {
           id: 17,
           question: "Why diversify across multiple sales channels?",
           options: [
-            "To work more hours",
-            "To reduce risk and create multiple income streams",
             "To confuse yourself",
+            "To reduce risk and create multiple income streams",
+            "To work more hours",
             "Because it's trendy"
           ],
           correctAnswer: 1,
@@ -1741,8 +1741,8 @@ The right sales channel mix evolves with your business. Start with channels that
           options: [
             "Only the price",
             "Scope, timeline, revision limits, payment schedule",
-            "Personal stories",
-            "Future promises"
+            "Future promises",
+            "Personal stories"
           ],
           correctAnswer: 1,
           explanation: "Commission contracts should clearly outline project scope, timeline, revision limits, payment schedule, and cancellation terms."
@@ -1751,10 +1751,10 @@ The right sales channel mix evolves with your business. Start with channels that
           id: 19,
           question: "What is channel-specific marketing?",
           options: [
-            "Same message everywhere",
-            "Tailored approaches for each platform's features",
             "Ignoring platform differences",
-            "Only offline marketing"
+            "Tailored approaches for each platform's features",
+            "Only offline marketing",
+            "Same message everywhere"
           ],
           correctAnswer: 1,
           explanation: "Channel-specific marketing tailors your approach to each platform's unique features, algorithms, and audience behaviors."
@@ -1763,12 +1763,12 @@ The right sales channel mix evolves with your business. Start with channels that
           id: 20,
           question: "What helps when scaling to multiple channels?",
           options: [
+            "Reducing quality",
             "Working harder alone",
             "Efficient systems and possibly team building",
-            "Reducing quality",
             "Increasing prices randomly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Scaling successfully requires efficient systems for inventory, fulfillment, and customer service, and potentially building a team as needed."
         }
       ],
@@ -2021,46 +2021,46 @@ Effective operations and financial management provide the stability that allows 
           id: 1,
           question: "What is time blocking for productivity?",
           options: [
-            "Working randomly",
-            "Dedicating specific blocks for different work types",
             "Only working when inspired",
-            "Multitasking constantly"
+            "Multitasking constantly",
+            "Dedicating specific blocks for different work types",
+            "Working randomly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Time blocking means scheduling specific time periods for different types of work (creative, administrative, marketing) for better focus and efficiency."
         },
         {
           id: 2,
           question: "Why separate business and personal finances?",
           options: [
+            "To hide money",
             "To impress the bank",
-            "For clear tracking and legal protection",
             "Because it's trendy",
-            "To hide money"
+            "For clear tracking and legal protection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Separate finances provide clear business tracking, simplify taxes, and maintain legal separation between personal and business liabilities."
         },
         {
           id: 3,
           question: "What should a business budget include?",
           options: [
+            "Only material costs",
             "Only income",
             "Income, fixed/variable expenses, savings, reinvestment",
-            "Only wishful thinking",
-            "Only material costs"
+            "Only wishful thinking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A complete budget projects income, lists all expenses (fixed and variable), includes savings for taxes/emergencies, and plans for reinvestment."
         },
         {
           id: 4,
           question: "How often should you review prices?",
           options: [
-            "Never",
+            "Only when forced",
             "Quarterly or biannually",
             "Daily",
-            "Only when forced"
+            "Never"
           ],
           correctAnswer: 1,
           explanation: "Regular price reviews (quarterly or biannually) ensure prices cover current costs and reflect your growing expertise and market position."
@@ -2069,24 +2069,24 @@ Effective operations and financial management provide the stability that allows 
           id: 5,
           question: "What are quarterly estimated taxes?",
           options: [
-            "Optional payments",
             "Tax payments made four times yearly by self-employed",
             "Yearly tax filing",
-            "Only for corporations"
+            "Only for corporations",
+            "Optional payments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Quarterly estimated taxes are required payments made four times yearly by self-employed individuals to prepay their tax liability."
         },
         {
           id: 6,
           question: "What is cash flow management?",
           options: [
-            "Only counting money",
-            "Managing timing of money in and out of business",
+            "Spending freely",
             "Ignoring expenses",
-            "Spending freely"
+            "Only counting money",
+            "Managing timing of money in and out of business"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cash flow management involves timing income and expenses to ensure sufficient funds are available to meet obligations as they arise."
         },
         {
@@ -2094,71 +2094,71 @@ Effective operations and financial management provide the stability that allows 
           question: "What does inventory turnover rate measure?",
           options: [
             "Storage temperature",
+            "Cost of shelves",
             "How quickly inventory sells",
-            "Number of suppliers",
-            "Cost of shelves"
+            "Number of suppliers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Inventory turnover rate measures how quickly products sell and are replaced, indicating sales velocity and inventory efficiency."
         },
         {
           id: 8,
           question: "What is production forecasting based on?",
           options: [
-            "Guesses",
             "Historical sales, seasonality, marketing plans",
-            "Astrology",
-            "Competitor actions only"
+            "Guesses",
+            "Competitor actions only",
+            "Astrology"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Production forecasting should be based on historical sales data, seasonal patterns, and planned marketing activities for accuracy."
         },
         {
           id: 9,
           question: "What should shipping cost management include?",
           options: [
-            "Ignoring costs",
-            "Comparing carriers, optimizing packaging, negotiating rates",
+            "Making customers pay everything",
             "Only using fastest option",
-            "Making customers pay everything"
+            "Ignoring costs",
+            "Comparing carriers, optimizing packaging, negotiating rates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Shipping cost management involves comparing carrier options, optimizing packaging efficiency, and negotiating rates when possible."
         },
         {
           id: 10,
           question: "What is a CRM system for?",
           options: [
-            "Crafting recipes",
             "Tracking customer interactions and relationships",
+            "Color mixing",
             "Room measurement",
-            "Color mixing"
+            "Crafting recipes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CRM (Customer Relationship Management) systems help track customer interactions, purchase history, and communication for better service."
         },
         {
           id: 11,
           question: "What indicates readiness to scale operations?",
           options: [
-            "Being bored",
             "Consistently selling out and turning down opportunities",
+            "Being bored",
             "Having less work",
             "Wanting to work less"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Scaling readiness indicators include consistently selling out, turning down opportunities due to capacity, and working unsustainable hours."
         },
         {
           id: 12,
           question: "What is business continuity planning?",
           options: [
-            "Only daily tasks",
-            "Planning for temporary or permanent inability to work",
             "Vacation planning",
-            "Ignoring risks"
+            "Ignoring risks",
+            "Only daily tasks",
+            "Planning for temporary or permanent inability to work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Business continuity planning prepares for scenarios where you temporarily or permanently can't work, ensuring business survival or proper closure."
         },
         {
@@ -2166,21 +2166,21 @@ Effective operations and financial management provide the stability that allows 
           question: "What does KPI stand for?",
           options: [
             "Key Personal Interest",
-            "Key Performance Indicator",
             "Kraft Paper Inventory",
+            "Key Performance Indicator",
             "Known Product Issue"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "KPI stands for Key Performance Indicator - measurable values that show how effectively a business is achieving objectives."
         },
         {
           id: 14,
           question: "Why establish work-life boundaries?",
           options: [
-            "To work more",
+            "Because others do",
             "To prevent burnout and maintain creativity",
-            "To avoid customers",
-            "Because others do"
+            "To work more",
+            "To avoid customers"
           ],
           correctAnswer: 1,
           explanation: "Clear boundaries prevent burnout, protect personal time, and maintain the creative energy needed for sustainable artisanal business."
@@ -2189,10 +2189,10 @@ Effective operations and financial management provide the stability that allows 
           id: 15,
           question: "What is the cash basis accounting method?",
           options: [
-            "Recording when transactions occur",
-            "Recording when money actually changes hands",
             "Ignoring some transactions",
-            "Only for large businesses"
+            "Recording when money actually changes hands",
+            "Only for large businesses",
+            "Recording when transactions occur"
           ],
           correctAnswer: 1,
           explanation: "Cash basis accounting records income when received and expenses when paid, simpler and common for small artisanal businesses."
@@ -2201,24 +2201,24 @@ Effective operations and financial management provide the stability that allows 
           id: 16,
           question: "What should seasonal budgeting account for?",
           options: [
-            "Only summer",
-            "Variations in income and expenses throughout year",
             "Holiday decorations",
-            "Vacation costs only"
+            "Only summer",
+            "Vacation costs only",
+            "Variations in income and expenses throughout year"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Seasonal budgeting plans for predictable variations in sales and expenses throughout the year common in many artisanal businesses."
         },
         {
           id: 17,
           question: "What is FIFO inventory valuation?",
           options: [
+            "Fast Inventory Forming Order",
             "First In, First Out method",
             "Finding Inventory For Others",
-            "Fast Inventory Forming Order",
             "Final Inventory Financial Option"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "FIFO (First In, First Out) assumes oldest inventory is sold first, matching current costs with current revenues appropriately."
         },
         {
@@ -2226,35 +2226,35 @@ Effective operations and financial management provide the stability that allows 
           question: "When might you hire a virtual assistant?",
           options: [
             "Never",
-            "For remote administrative support tasks",
+            "Only for large corporations",
             "To do your crafting",
-            "Only for large corporations"
+            "For remote administrative support tasks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Virtual assistants provide remote administrative support, ideal for tasks like email management, scheduling, or data entry."
         },
         {
           id: 19,
           question: "What is risk mitigation in business?",
           options: [
-            "Ignoring risks",
             "Strategies to reduce potential negative impacts",
             "Taking more risks",
-            "Only worrying"
+            "Only worrying",
+            "Ignoring risks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Risk mitigation involves developing strategies to reduce potential negative impacts from identified business risks."
         },
         {
           id: 20,
           question: "How do systems create freedom for artisans?",
           options: [
-            "By creating more work",
             "By handling routine tasks efficiently",
+            "By requiring more money",
             "By eliminating creativity",
-            "By requiring more money"
+            "By creating more work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Efficient systems handle routine tasks automatically, freeing time and mental energy for the creative work that defines artisanal business."
         }
       ],
@@ -2502,34 +2502,34 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           id: 1,
           question: "What is the difference between growth and scaling?",
           options: [
-            "They are the same",
             "Growth is getting bigger, scaling is becoming more efficient",
-            "Scaling is shrinking",
-            "Growth only refers to money"
+            "Growth only refers to money",
+            "They are the same",
+            "Scaling is shrinking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Growth means increasing size/revenue, while scaling means increasing efficiency and capacity without proportional resource increases."
         },
         {
           id: 2,
           question: "What does SWOT analysis assess?",
           options: [
-            "Only strengths",
             "Strengths, Weaknesses, Opportunities, Threats",
             "Sales, Wealth, Operations, Teams",
-            "Suppliers, Workers, Output, Time"
+            "Suppliers, Workers, Output, Time",
+            "Only strengths"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SWOT analysis evaluates business Strengths, Weaknesses, Opportunities, and Threats for strategic planning."
         },
         {
           id: 3,
           question: "What is product line expansion?",
           options: [
-            "Making less products",
+            "Copying competitors",
             "Adding complementary products or collections",
             "Only making one product",
-            "Copying competitors"
+            "Making less products"
           ],
           correctAnswer: 1,
           explanation: "Product line expansion involves adding new complementary products, collections, or variations to reach more customers."
@@ -2538,10 +2538,10 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           id: 4,
           question: "What does environmental sustainability include for artisans?",
           options: [
-            "Only using new materials",
+            "Only thinking about profit",
             "Eco-friendly materials, minimal waste, sustainable packaging",
-            "Ignoring environmental impact",
-            "Only thinking about profit"
+            "Only using new materials",
+            "Ignoring environmental impact"
           ],
           correctAnswer: 1,
           explanation: "Environmental sustainability includes material choices, production waste reduction, eco-friendly packaging, and shipping considerations."
@@ -2551,20 +2551,20 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           question: "When should you consider building a team?",
           options: [
             "Never work with others",
-            "When consistently working unsustainable hours",
+            "Only when you're bored",
             "On your first day in business",
-            "Only when you're bored"
+            "When consistently working unsustainable hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Consider building a team when consistently overworked, turning away business, or needing skills you don't possess."
         },
         {
           id: 6,
           question: "What is process documentation for?",
           options: [
-            "Making work complicated",
-            "Clear instructions for repetitive tasks",
             "Keeping secrets",
+            "Clear instructions for repetitive tasks",
+            "Making work complicated",
             "Filling empty notebooks"
           ],
           correctAnswer: 1,
@@ -2574,21 +2574,21 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           id: 7,
           question: "What is bootstrapping in business growth?",
           options: [
-            "Using shoe laces",
-            "Reinvesting business profits for growth",
+            "Getting venture capital",
             "Borrowing from family",
-            "Getting venture capital"
+            "Reinvesting business profits for growth",
+            "Using shoe laces"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bootstrapping means funding growth through reinvested business profits rather than external financing."
         },
         {
           id: 8,
           question: "When might rebranding be necessary?",
           options: [
-            "Every month",
-            "When brand no longer reflects current work or values",
             "When you're bored",
+            "When brand no longer reflects current work or values",
+            "Every month",
             "Only for large corporations"
           ],
           correctAnswer: 1,
@@ -2598,9 +2598,9 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           id: 9,
           question: "How can you build community around your brand?",
           options: [
-            "Ignore customers",
-            "Exclusive content, events, social media groups",
             "Only sell to them",
+            "Exclusive content, events, social media groups",
+            "Ignore customers",
             "Charge membership fees only"
           ],
           correctAnswer: 1,
@@ -2610,12 +2610,12 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           id: 10,
           question: "What is an experimentation mindset?",
           options: [
-            "Never trying new things",
             "Regularly trying new techniques on small scale",
-            "Only following trends",
-            "Copying others exactly"
+            "Copying others exactly",
+            "Never trying new things",
+            "Only following trends"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "An experimentation mindset involves regularly testing new techniques, materials, or products on small scale to foster innovation."
         },
         {
@@ -2623,35 +2623,35 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           question: "What is succession planning?",
           options: [
             "Only for retirement",
+            "Daily task planning",
             "Planning for business transition or closure",
-            "Planning vacations",
-            "Daily task planning"
+            "Planning vacations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Succession planning prepares for eventual business transition, sale, or closure to ensure orderly process."
         },
         {
           id: 12,
           question: "Why document business knowledge?",
           options: [
-            "To keep it secret",
             "To share techniques and business lessons",
-            "Only for yourself",
-            "To impress others"
+            "To impress others",
+            "To keep it secret",
+            "Only for yourself"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Documenting knowledge preserves techniques, business lessons, and institutional memory for training, continuity, or sharing."
         },
         {
           id: 13,
           question: "What does values-aligned growth ensure?",
           options: [
-            "Maximum profit only",
             "Expansion aligns with core values and goals",
             "Rapid growth at any cost",
-            "Following competitors exactly"
+            "Following competitors exactly",
+            "Maximum profit only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Values-aligned growth ensures business expansion supports rather than compromises your core values and personal goals."
         },
         {
@@ -2659,57 +2659,57 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           question: "What is social sustainability in business?",
           options: [
             "Only social media",
-            "Fair compensation, ethical sourcing, community engagement",
             "Having many friends",
+            "Fair compensation, ethical sourcing, community engagement",
             "Only online presence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Social sustainability includes fair wages, ethical supply chains, community support, and inclusive business practices."
         },
         {
           id: 15,
           question: "What role might a virtual assistant play?",
           options: [
-            "Crafting products",
-            "Administrative and marketing support",
+            "Only social media",
             "Only accounting",
-            "Only social media"
+            "Crafting products",
+            "Administrative and marketing support"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Virtual assistants typically handle administrative tasks, email management, scheduling, and sometimes basic marketing support."
         },
         {
           id: 16,
           question: "What should financial projections for growth include?",
           options: [
-            "Only optimistic guesses",
             "Realistic forecasts for initiatives and timing",
-            "Only current numbers",
-            "What you wish would happen"
+            "What you wish would happen",
+            "Only optimistic guesses",
+            "Only current numbers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Growth financial projections should realistically forecast initiative costs, revenue timing, and cash flow impacts."
         },
         {
           id: 17,
           question: "Why maintain brand consistency at scale?",
           options: [
+            "Because it's easy",
             "To become boring",
             "To maintain authentic voice and values",
-            "To confuse customers",
-            "Because it's easy"
+            "To confuse customers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Brand consistency maintains authentic voice and values as business grows, preserving what customers originally valued."
         },
         {
           id: 18,
           question: "What is a collaborative opportunity for growth?",
           options: [
-            "Working alone always",
+            "Undercutting competitors",
             "Joint product development with other artisans",
-            "Stealing ideas",
-            "Undercutting competitors"
+            "Working alone always",
+            "Stealing ideas"
           ],
           correctAnswer: 1,
           explanation: "Collaborative opportunities include joint products, shared retail spaces, or co-marketing with complementary businesses."
@@ -2720,8 +2720,8 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           options: [
             "Only business success",
             "Work-life balance, creative renewal, health",
-            "Working constantly",
-            "Ignoring personal needs"
+            "Ignoring personal needs",
+            "Working constantly"
           ],
           correctAnswer: 1,
           explanation: "Personal sustainability includes work-life balance, creative renewal, health maintenance, and continual learning for longevity."
@@ -2731,11 +2731,11 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
           question: "What is the soul of successful artisanal business?",
           options: [
             "Only profit margin",
+            "Maximum growth speed",
             "Maintaining authenticity while developing structure",
-            "Becoming like factories",
-            "Maximum growth speed"
+            "Becoming like factories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Successful artisanal businesses maintain their authentic soul while developing necessary structure to sustainably share their work."
         }
       ],
@@ -2750,32 +2750,32 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       question: "What distinguishes an artisanal business from mass production?",
       options: [
         "Lower prices",
+        "Automated processes",
         "Focus on uniqueness, quality, and maker's story",
-        "Faster production",
-        "Automated processes"
+        "Faster production"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Artisanal businesses emphasize uniqueness, quality craftsmanship, and the maker's personal story over efficiency and uniformity."
     },
     {
       id: 2,
       question: "What should pricing include for sustainability?",
       options: [
-        "Only material costs",
-        "Materials + labor + overhead + profit",
+        "What customers suggest",
         "Only competitor prices",
-        "What customers suggest"
+        "Only material costs",
+        "Materials + labor + overhead + profit"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Sustainable pricing includes material costs, fair labor compensation, overhead allocation, and reasonable profit margin."
     },
     {
       id: 3,
       question: "What is a brand in artisanal business?",
       options: [
-        "Only a logo",
-        "Complete customer experience with business",
         "Business name only",
+        "Complete customer experience with business",
+        "Only a logo",
         "Product packaging only"
       ],
       correctAnswer: 1,
@@ -2797,12 +2797,12 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 5,
       question: "Why separate business and personal finances?",
       options: [
-        "To impress friends",
-        "For clear tracking and legal protection",
         "Because banks require it",
-        "To hide income"
+        "To hide income",
+        "To impress friends",
+        "For clear tracking and legal protection"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Separate finances provide clear business tracking, simplify tax preparation, and maintain legal liability separation."
     },
     {
@@ -2811,8 +2811,8 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       options: [
         "Maximum speed expansion",
         "Pace maintaining quality and business health",
-        "Only financial growth",
-        "Copying large corporations"
+        "Copying large corporations",
+        "Only financial growth"
       ],
       correctAnswer: 1,
       explanation: "Sustainable growth proceeds at a pace that maintains product quality, business health, and aligns with personal values and capacity."
@@ -2821,10 +2821,10 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 7,
       question: "What is a Unique Value Proposition?",
       options: [
-        "Your business address",
+        "Your supplier list",
         "What makes your work different from others",
-        "Your pricing strategy",
-        "Your supplier list"
+        "Your business address",
+        "Your pricing strategy"
       ],
       correctAnswer: 1,
       explanation: "A Unique Value Proposition clearly articulates what distinguishes your work from competitors in ways customers value."
@@ -2833,46 +2833,46 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 8,
       question: "What should product development start with?",
       options: [
-        "Copying trends",
         "What you do best and enjoy most",
-        "Most expensive materials",
-        "Competitor analysis only"
+        "Copying trends",
+        "Competitor analysis only",
+        "Most expensive materials"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Product development should start with your strengths and passions, as this authentic enthusiasm shows in final product quality."
     },
     {
       id: 9,
       question: "Which social platform excels at visual storytelling?",
       options: [
+        "Reddit",
         "LinkedIn",
-        "Instagram",
         "Twitter",
-        "Reddit"
+        "Instagram"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Instagram's visual-focused platform excels for showcasing products and telling brand stories through images and short videos."
     },
     {
       id: 10,
       question: "What is wholesale pricing typically?",
       options: [
+        "75% of retail",
         "Same as retail",
-        "50% of retail price",
         "25% of retail",
-        "75% of retail"
+        "50% of retail price"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Wholesale typically involves selling to retailers at 50% of retail price, allowing them standard retail markup."
     },
     {
       id: 11,
       question: "What does time blocking improve?",
       options: [
-        "Multitasking",
+        "Constant interruption",
         "Focus and task efficiency",
-        "Working randomly",
-        "Constant interruption"
+        "Multitasking",
+        "Working randomly"
       ],
       correctAnswer: 1,
       explanation: "Time blocking improves focus and efficiency by dedicating specific periods to particular task types without constant switching."
@@ -2881,12 +2881,12 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 12,
       question: "What does SWOT analysis evaluate?",
       options: [
-        "Only strengths",
-        "Strengths, Weaknesses, Opportunities, Threats",
+        "Customer complaints only",
         "Sales numbers only",
-        "Customer complaints only"
+        "Strengths, Weaknesses, Opportunities, Threats",
+        "Only strengths"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "SWOT analysis evaluates internal Strengths and Weaknesses alongside external Opportunities and Threats for strategic planning."
     },
     {
@@ -2894,33 +2894,33 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       question: "What business structure protects personal assets?",
       options: [
         "Sole proprietorship",
-        "Limited Liability Company (LLC)",
         "Informal business",
-        "All structures protect equally"
+        "All structures protect equally",
+        "Limited Liability Company (LLC)"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "LLC structure provides liability protection separating personal assets from business debts and legal claims."
     },
     {
       id: 14,
       question: "What is batch processing in production?",
       options: [
-        "Making one item at a time",
         "Grouping similar tasks together",
-        "Working randomly",
-        "Only large quantities"
+        "Making one item at a time",
+        "Only large quantities",
+        "Working randomly"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Batch processing groups similar production tasks together for greater efficiency and consistency in workflow."
     },
     {
       id: 15,
       question: "What should email marketing provide?",
       options: [
-        "Only sales pitches",
+        "Forwarded jokes",
         "Value mix: products, stories, tips, offers",
         "Only personal news",
-        "Forwarded jokes"
+        "Only sales pitches"
       ],
       correctAnswer: 1,
       explanation: "Effective email marketing mixes product highlights, brand stories, useful tips, and exclusive offers to maintain engagement."
@@ -2929,34 +2929,34 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 16,
       question: "What is consignment selling?",
       options: [
-        "Immediate payment",
-        "Retailer pays only when item sells",
+        "Donation system",
         "Barter system",
-        "Donation system"
+        "Immediate payment",
+        "Retailer pays only when item sells"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Consignment means retailers only pay when items sell, taking less risk but typically offering higher percentage to artisan."
     },
     {
       id: 17,
       question: "Why track inventory turnover rate?",
       options: [
-        "For storage temperature",
         "To understand sales velocity and efficiency",
-        "For counting practice",
-        "To impress suppliers"
+        "To impress suppliers",
+        "For storage temperature",
+        "For counting practice"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Inventory turnover rate indicates how quickly products sell, helping manage production and identify popular items."
     },
     {
       id: 18,
       question: "What does environmental sustainability include?",
       options: [
-        "Only recycled packaging",
+        "Only using new materials",
         "Material choices, waste reduction, eco-packaging",
-        "Ignoring environmental impact",
-        "Only using new materials"
+        "Only recycled packaging",
+        "Ignoring environmental impact"
       ],
       correctAnswer: 1,
       explanation: "Environmental sustainability encompasses material selection, production waste minimization, and eco-friendly packaging choices."
@@ -2965,106 +2965,106 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 19,
       question: "What is bootstrapping in business growth?",
       options: [
-        "Using external investors",
         "Reinvesting business profits",
         "Borrowing from family",
-        "Crowdfunding only"
+        "Crowdfunding only",
+        "Using external investors"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Bootstrapping means funding growth through reinvested business earnings rather than external financing sources."
     },
     {
       id: 20,
       question: "What indicates readiness to build a team?",
       options: [
+        "Wanting to work less immediately",
         "Having free time",
         "Consistently working unsustainable hours",
-        "Wanting to work less immediately",
         "Being bored"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Team building readiness indicators include consistently excessive work hours and turning away business due to capacity limits."
     },
     {
       id: 21,
       question: "What is a hybrid business model?",
       options: [
-        "One approach only",
         "Combining multiple revenue approaches",
-        "Online only",
-        "Physical only"
+        "One approach only",
+        "Physical only",
+        "Online only"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Hybrid models combine multiple approaches like direct sales, wholesale, teaching, and commissions for diversified income."
     },
     {
       id: 22,
       question: "What is value-based pricing?",
       options: [
-        "Cost-plus only",
-        "Based on perceived customer value",
+        "Copying competitors",
         "Always lowest price",
-        "Copying competitors"
+        "Cost-plus only",
+        "Based on perceived customer value"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Value-based pricing sets prices according to perceived customer value rather than just production costs."
     },
     {
       id: 23,
       question: "What creates customer loyalty?",
       options: [
+        "Complex policies",
         "Only low prices",
         "Personal touch and excellent service",
-        "Ignoring complaints",
-        "Complex policies"
+        "Ignoring complaints"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Loyalty develops through personal connections, exceptional service, and consistent quality rather than transactional relationships."
     },
     {
       id: 24,
       question: "What should craft fair booth design achieve?",
       options: [
-        "Blend in",
-        "Eye-catching visibility and clear branding",
         "Maximum clutter",
-        "Minimal display"
+        "Blend in",
+        "Minimal display",
+        "Eye-catching visibility and clear branding"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Effective booth design attracts attention from distance while clearly communicating brand identity to draw customers in."
     },
     {
       id: 25,
       question: "What are quarterly estimated taxes?",
       options: [
-        "Optional payments",
-        "Required tax prepayments for self-employed",
         "Yearly filings only",
-        "Only for employees"
+        "Only for employees",
+        "Required tax prepayments for self-employed",
+        "Optional payments"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Quarterly estimated taxes are required prepayments for self-employed individuals to meet tax obligations throughout year."
     },
     {
       id: 26,
       question: "What is product line expansion?",
       options: [
-        "Reducing offerings",
         "Adding complementary products or collections",
-        "Only making one item",
-        "Copying exactly"
+        "Reducing offerings",
+        "Copying exactly",
+        "Only making one item"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Product line expansion involves adding new complementary products or collections to reach broader customer base."
     },
     {
       id: 27,
       question: "What does SMART stand for in goals?",
       options: [
-        "Simple Marketing Art Retail",
+        "Strategic Marketing Artisan Resources",
         "Specific, Measurable, Achievable, Relevant, Time-bound",
-        "Sales Management And Revenue Tracking",
-        "Strategic Marketing Artisan Resources"
+        "Simple Marketing Art Retail",
+        "Sales Management And Revenue Tracking"
       ],
       correctAnswer: 1,
       explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound for effective business planning."
@@ -3073,9 +3073,9 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 28,
       question: "What is lifestyle photography for products?",
       options: [
-        "Only white background",
-        "Products in use in real settings",
         "Blurry artistic shots",
+        "Products in use in real settings",
+        "Only white background",
         "Only close-ups"
       ],
       correctAnswer: 1,
@@ -3086,95 +3086,95 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       question: "What is typical commission deposit?",
       options: [
         "No deposit",
-        "50% before starting work",
+        "Payment after only",
         "100% upfront",
-        "Payment after only"
+        "50% before starting work"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "50% deposit before starting commission work covers material costs and secures client commitment to project."
     },
     {
       id: 30,
       question: "What improves cash flow management?",
       options: [
-        "Ignoring bills",
-        "Diversifying income streams",
+        "Only cash sales",
         "Spending freely",
-        "Only cash sales"
+        "Diversifying income streams",
+        "Ignoring bills"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Diversified income streams create more consistent cash flow reducing vulnerability to single channel fluctuations."
     },
     {
       id: 31,
       question: "When might rebranding be needed?",
       options: [
-        "Monthly",
         "Brand no longer reflects current work",
         "When bored",
+        "Monthly",
         "Following every trend"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Rebranding may be necessary when current brand identity no longer represents evolved business focus or values."
     },
     {
       id: 32,
       question: "What is a line sheet for wholesale?",
       options: [
+        "Supplier contact list",
         "Waiting list",
-        "Product information document for retailers",
         "Drawing practice",
-        "Supplier contact list"
+        "Product information document for retailers"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "A line sheet professionally presents product images, descriptions, prices, and ordering information for wholesale buyers."
     },
     {
       id: 33,
       question: "What does KPI stand for?",
       options: [
-        "Key Personal Interest",
         "Key Performance Indicator",
-        "Kraft Paper Inventory",
-        "Known Product Information"
+        "Known Product Information",
+        "Key Personal Interest",
+        "Kraft Paper Inventory"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "KPI stands for Key Performance Indicator - measurable values demonstrating how effectively objectives are being achieved."
     },
     {
       id: 34,
       question: "What is social sustainability?",
       options: [
-        "Only social media",
         "Fair compensation, ethical sourcing, community engagement",
-        "Many followers",
-        "Viral content only"
+        "Only social media",
+        "Viral content only",
+        "Many followers"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Social sustainability includes fair wages, ethical supply chains, community support, and inclusive business practices."
     },
     {
       id: 35,
       question: "What does process documentation enable?",
       options: [
-        "More confusion",
         "Consistency, training, and delegation",
         "Keeping secrets",
+        "More confusion",
         "Extra work only"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Process documentation enables task consistency, effective training, and potential delegation by recording procedures clearly."
     },
     {
       id: 36,
       question: "Why diversify sales channels?",
       options: [
-        "More confusion",
-        "Reduce risk and create multiple income streams",
         "Because everyone does",
-        "To work more hours"
+        "More confusion",
+        "To work more hours",
+        "Reduce risk and create multiple income streams"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Multiple sales channels reduce dependence on any single platform and create more stable, diversified income sources."
     },
     {
@@ -3193,10 +3193,10 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 38,
       question: "What is an experimentation mindset?",
       options: [
-        "Never changing",
-        "Regular small-scale testing of new ideas",
         "Only following others",
-        "Large risky leaps only"
+        "Regular small-scale testing of new ideas",
+        "Large risky leaps only",
+        "Never changing"
       ],
       correctAnswer: 1,
       explanation: "Experimentation mindset involves regularly testing new approaches on small scale to foster innovation while managing risk."
@@ -3205,10 +3205,10 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       id: 39,
       question: "What should commission contracts include?",
       options: [
-        "Only price",
+        "Future promises",
         "Scope, timeline, revisions, payment schedule",
-        "Personal stories",
-        "Future promises"
+        "Only price",
+        "Personal stories"
       ],
       correctAnswer: 1,
       explanation: "Commission contracts should clearly define project scope, timeline, revision limits, and payment terms to prevent misunderstandings."
@@ -3218,11 +3218,11 @@ Sustainable growth in artisanal business isn't about becoming the biggest - it's
       question: "What maintains artisanal business soul during growth?",
       options: [
         "Becoming corporate",
+        "Maximum efficiency only",
         "Balancing authenticity with necessary structure",
-        "Ignoring systems",
-        "Maximum efficiency only"
+        "Ignoring systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Successful growth maintains authentic soul by balancing creative values with necessary business structure for sustainability."
     }
   ]

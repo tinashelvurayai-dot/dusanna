@@ -62,24 +62,24 @@ Welcome to advanced optometry training. This module establishes the foundation f
           id: 1,
           question: "What does 20/20 visual acuity mean?",
           options: [
+            "Only 20% of normal vision",
             "Seeing at 20 feet what should normally be seen at 20 feet",
-            "Perfect vision at all distances",
             "Requiring glasses for distance vision",
-            "Only 20% of normal vision"
+            "Perfect vision at all distances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "20/20 means you see clearly at 20 feet what should normally be seen at that distance. It's a standard measurement, not 'perfect' vision."
         },
         {
           id: 2,
           question: "Which tonometry method is considered the gold standard?",
           options: [
-            "Goldmann applanation tonometry",
-            "Non-contact tonometry",
             "Digital tonometry",
-            "Schiotz tonometry"
+            "Schiotz tonometry",
+            "Goldmann applanation tonometry",
+            "Non-contact tonometry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Goldmann applanation tonometry is considered the gold standard for measuring intraocular pressure due to its accuracy and reliability."
         },
         {
@@ -87,9 +87,9 @@ Welcome to advanced optometry training. This module establishes the foundation f
           question: "What age is crucial for detecting and treating amblyopia?",
           options: [
             "Before age 7-8 years",
+            "At any age equally",
             "Before age 12 years",
-            "After age 15 years",
-            "At any age equally"
+            "After age 15 years"
           ],
           correctAnswer: 0,
           explanation: "Amblyopia (lazy eye) must be detected and treated before age 7-8 when the visual system is still developing and more responsive to treatment."
@@ -100,8 +100,8 @@ Welcome to advanced optometry training. This module establishes the foundation f
           options: [
             "Subjective",
             "Symptomatic",
-            "Structural",
-            "Surgical"
+            "Surgical",
+            "Structural"
           ],
           correctAnswer: 0,
           explanation: "In SOAP notes, 'S' stands for Subjective, which includes the patient's complaints and symptoms in their own words."
@@ -110,108 +110,108 @@ Welcome to advanced optometry training. This module establishes the foundation f
           id: 5,
           question: "Which test is most commonly used for color vision screening?",
           options: [
-            "Ishihara plates",
-            "Farnsworth test",
             "Color naming test",
-            "Anomaloscope"
+            "Anomaloscope",
+            "Ishihara plates",
+            "Farnsworth test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ishihara plates are the most commonly used test for color vision screening, particularly for red-green color deficiencies."
         },
         {
           id: 6,
           question: "What is the normal range for intraocular pressure?",
           options: [
-            "10-21 mmHg",
-            "5-15 mmHg",
             "20-30 mmHg",
-            "30-40 mmHg"
+            "30-40 mmHg",
+            "10-21 mmHg",
+            "5-15 mmHg"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Normal intraocular pressure typically ranges from 10-21 mmHg, though this can vary throughout the day and between individuals."
         },
         {
           id: 7,
           question: "What does binocular vision assessment evaluate?",
           options: [
-            "How both eyes work together",
-            "Color perception only",
             "Single eye visual acuity",
-            "Night vision capability"
+            "How both eyes work together",
+            "Night vision capability",
+            "Color perception only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Binocular vision assessment evaluates how both eyes work together, including stereopsis, fusional vergence, and accommodation."
         },
         {
           id: 8,
           question: "Which population requires adapted examination techniques like picture charts?",
           options: [
-            "Pediatric patients",
-            "Geriatric patients",
+            "All patients equally",
             "Athletes",
-            "All patients equally"
+            "Geriatric patients",
+            "Pediatric patients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pediatric patients require adapted techniques like picture charts, preferential looking tests, and cycloplegic retinoscopy for accurate assessment."
         },
         {
           id: 9,
           question: "What does contrast sensitivity affect most significantly?",
           options: [
-            "Night driving and low-light activities",
-            "Color perception",
             "Reading small print only",
-            "Distance vision clarity"
+            "Distance vision clarity",
+            "Night driving and low-light activities",
+            "Color perception"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reduced contrast sensitivity most significantly affects night driving and activities in low-light conditions, even with normal visual acuity."
         },
         {
           id: 10,
           question: "What is presbyopia?",
           options: [
+            "Color blindness",
             "Age-related loss of near focusing ability",
             "Inflammation of the eye",
-            "Increased nearsightedness",
-            "Color blindness"
+            "Increased nearsightedness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Presbyopia is the age-related loss of near focusing ability that typically begins around age 40 and requires reading glasses or bifocals."
         },
         {
           id: 11,
           question: "What instrument is used for detailed visual field testing?",
           options: [
-            "Automated perimeter",
             "Slit lamp",
+            "Automated perimeter",
             "Retinoscope",
             "Phoropter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "An automated perimeter is used for detailed visual field testing to map peripheral vision and detect defects."
         },
         {
           id: 12,
           question: "What does anisocoria indicate?",
           options: [
-            "Unequal pupil sizes",
-            "Equal pupil sizes",
             "Pupil reaction to light",
-            "Normal pupil function"
+            "Normal pupil function",
+            "Equal pupil sizes",
+            "Unequal pupil sizes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Anisocoria refers to unequal pupil sizes and may indicate neurological issues or other underlying conditions requiring investigation."
         },
         {
           id: 13,
           question: "Which part of the eye does slit lamp biomicroscopy primarily examine?",
           options: [
+            "Optic nerve head",
             "Anterior eye structures",
             "Retina only",
-            "Optic nerve head",
             "Visual cortex"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Slit lamp biomicroscopy primarily examines anterior eye structures including eyelids, cornea, iris, lens, and anterior chamber."
         },
         {
@@ -219,9 +219,9 @@ Welcome to advanced optometry training. This module establishes the foundation f
           question: "What is the purpose of low vision assessment?",
           options: [
             "Maximize remaining visual function",
+            "Test color vision only",
             "Cure complete blindness",
-            "Replace all eyeglasses",
-            "Test color vision only"
+            "Replace all eyeglasses"
           ],
           correctAnswer: 0,
           explanation: "Low vision assessment aims to maximize remaining visual function through aids, magnifiers, and rehabilitation strategies."
@@ -230,72 +230,72 @@ Welcome to advanced optometry training. This module establishes the foundation f
           id: 15,
           question: "What does subjective refraction determine?",
           options: [
-            "Corrective lens prescription",
             "Eye disease diagnosis",
+            "Medication dosage",
             "Surgical requirements",
-            "Medication dosage"
+            "Corrective lens prescription"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Subjective refraction, performed with a phoropter, determines the precise corrective lens prescription for optimal visual acuity."
         },
         {
           id: 16,
           question: "When should immediate referral to a specialist occur?",
           options: [
-            "Suspected retinal detachment",
             "Mild dry eyes",
+            "Suspected retinal detachment",
             "Simple nearsightedness",
             "Normal age-related changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Immediate referral is needed for serious conditions like suspected retinal detachment, acute glaucoma, or neurological signs."
         },
         {
           id: 17,
           question: "What does fusional vergence assess?",
           options: [
-            "Eye alignment ability",
-            "Color perception",
             "Light sensitivity",
-            "Tear production"
+            "Tear production",
+            "Color perception",
+            "Eye alignment ability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fusional vergence assesses the eyes' ability to align and maintain single binocular vision when focusing on objects."
         },
         {
           id: 18,
           question: "Which chart measures contrast sensitivity?",
           options: [
-            "Pelli-Robson chart",
             "Snellen chart",
+            "Amsler grid",
             "Ishihara plates",
-            "Amsler grid"
+            "Pelli-Robson chart"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Pelli-Robson chart is specifically designed to measure contrast sensitivity at different contrast levels."
         },
         {
           id: 19,
           question: "What does retinoscopy estimate?",
           options: [
+            "Color deficiency",
             "Refractive error",
             "Eye pressure",
-            "Color deficiency",
             "Visual field defects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Retinoscopy is an objective technique that estimates refractive error by observing light reflexes in the pupil."
         },
         {
           id: 20,
           question: "Why is patient education important in optometry?",
           options: [
-            "Improves treatment compliance",
+            "Replaces clinical testing",
             "Reduces appointment time",
-            "Eliminates need for follow-up",
-            "Replaces clinical testing"
+            "Improves treatment compliance",
+            "Eliminates need for follow-up"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Patient education improves treatment compliance, helps patients understand their condition, and builds trust in the practitioner."
         }
       ]
@@ -362,24 +362,24 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           id: 1,
           question: "What is the only effective treatment for cataracts?",
           options: [
-            "Surgical removal with lens implantation",
-            "Eye drops to dissolve cataracts",
             "Laser treatment without surgery",
-            "Special glasses only"
+            "Eye drops to dissolve cataracts",
+            "Special glasses only",
+            "Surgical removal with lens implantation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Surgical removal of the cloudy lens with intraocular lens implantation is the only effective treatment for cataracts; no eye drops can reverse them."
         },
         {
           id: 2,
           question: "Which type of conjunctivitis shows preauricular lymph nodes?",
           options: [
-            "Viral conjunctivitis",
             "Bacterial conjunctivitis",
+            "All types equally",
             "Allergic conjunctivitis",
-            "All types equally"
+            "Viral conjunctivitis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Viral conjunctivitis often presents with preauricular lymph nodes (in front of ears), along with watery discharge and redness."
         },
         {
@@ -387,9 +387,9 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           question: "What characterizes primary open-angle glaucoma?",
           options: [
             "Chronic and asymptomatic until late",
-            "Acute pain and redness",
+            "Only affects children",
             "Sudden complete vision loss",
-            "Only affects children"
+            "Acute pain and redness"
           ],
           correctAnswer: 0,
           explanation: "Primary open-angle glaucoma is chronic and often asymptomatic until significant optic nerve damage and visual field loss have occurred."
@@ -398,36 +398,36 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           id: 4,
           question: "What is an ocular emergency requiring immediate treatment?",
           options: [
-            "Angle-closure glaucoma",
-            "Mild dry eye",
             "Simple myopia",
+            "Mild dry eye",
+            "Angle-closure glaucoma",
             "Age-related presbyopia"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Angle-closure glaucoma is an ocular emergency characterized by severe pain, blurred vision, halos, nausea, and requires immediate pressure-lowering treatment."
         },
         {
           id: 5,
           question: "What does wet AMD feature that dry AMD does not?",
           options: [
-            "Choroidal neovascularization",
             "Drusen accumulation",
+            "Slow progression",
             "Pigment changes",
-            "Slow progression"
+            "Choroidal neovascularization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Wet (neovascular) AMD features choroidal neovascularization (abnormal blood vessels) that can leak and hemorrhage, unlike dry AMD which has drusen and geographic atrophy."
         },
         {
           id: 6,
           question: "What are symptoms of retinal detachment?",
           options: [
-            "Floaters, flashes, curtain-like vision loss",
             "Gradual blurry vision only",
             "Eye pain and redness",
-            "Color vision changes only"
+            "Color vision changes only",
+            "Floaters, flashes, curtain-like vision loss"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Retinal detachment typically presents with sudden onset of floaters, flashes of light, and a curtain-like shadow or vision loss in the peripheral field."
         },
         {
@@ -435,9 +435,9 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           question: "What is optic neuritis often associated with?",
           options: [
             "Multiple sclerosis",
-            "Diabetes only",
             "Hypertension",
-            "Thyroid disease"
+            "Thyroid disease",
+            "Diabetes only"
           ],
           correctAnswer: 0,
           explanation: "Optic neuritis (optic nerve inflammation) is strongly associated with multiple sclerosis and may be the first presenting symptom."
@@ -446,84 +446,84 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           id: 8,
           question: "What does bitemporal hemianopia suggest?",
           options: [
-            "Chiasmal compression",
+            "Corneal scarring",
             "Retinal detachment",
             "Cataract formation",
-            "Corneal scarring"
+            "Chiasmal compression"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bitemporal hemianopia (loss of both temporal visual fields) suggests compression at the optic chiasm, often from pituitary tumors."
         },
         {
           id: 9,
           question: "What does anterior uveitis primarily affect?",
           options: [
-            "Iris and anterior chamber",
             "Retina only",
+            "Cornea surface",
             "Optic nerve",
-            "Cornea surface"
+            "Iris and anterior chamber"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Anterior uveitis (iritis) primarily affects the iris and anterior chamber, showing cells and flare when examined with slit lamp."
         },
         {
           id: 10,
           question: "What is a key feature of thyroid eye disease?",
           options: [
+            "Corneal ulcers",
             "Lid retraction and proptosis",
             "Cataract formation",
-            "Retinal detachment",
-            "Corneal ulcers"
+            "Retinal detachment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Thyroid eye disease typically presents with lid retraction (staring appearance), proptosis (bulging eyes), and restrictive strabismus."
         },
         {
           id: 11,
           question: "Which chemical burns penetrate more deeply?",
           options: [
+            "Both equally",
             "Alkali burns",
             "Acid burns",
-            "Both equally",
             "Neither penetrate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Alkali burns (from substances like lye, lime, cement) penetrate more deeply into ocular tissues and cause more severe damage than acid burns."
         },
         {
           id: 12,
           question: "What should you never do with a penetrating eye injury?",
           options: [
-            "Remove embedded objects",
-            "Apply a shield",
             "Refer to specialist",
-            "Check vision"
+            "Check vision",
+            "Apply a shield",
+            "Remove embedded objects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Never remove embedded objects from a penetrating eye injury as this may cause further damage; shield the eye and refer immediately."
         },
         {
           id: 13,
           question: "What shows arteriolar narrowing and AV nicking?",
           options: [
+            "Glaucoma",
             "Hypertensive retinopathy",
-            "Diabetic retinopathy",
             "Macular degeneration",
-            "Glaucoma"
+            "Diabetic retinopathy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Arteriolar narrowing and AV (arteriovenous) nicking are characteristic signs of hypertensive retinopathy indicating chronic high blood pressure."
         },
         {
           id: 14,
           question: "What medication can cause corneal verticillata?",
           options: [
-            "Amiodarone",
+            "Antihistamines",
             "Aspirin",
-            "Antibiotics",
-            "Antihistamines"
+            "Amiodarone",
+            "Antibiotics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Amiodarone, a cardiac medication, can cause corneal verticillata (whorl-like epithelial deposits) that are usually visually insignificant."
         },
         {
@@ -531,9 +531,9 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           question: "What does the proliferative stage of diabetic retinopathy feature?",
           options: [
             "New blood vessel formation",
+            "Optic nerve cupping",
             "Only microaneurysms",
-            "Macular edema",
-            "Optic nerve cupping"
+            "Macular edema"
           ],
           correctAnswer: 0,
           explanation: "Proliferative diabetic retinopathy features neovascularization (new abnormal blood vessels) that can bleed and cause vitreous hemorrhage."
@@ -542,48 +542,48 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           id: 16,
           question: "What test helps monitor macular degeneration?",
           options: [
-            "Amsler grid",
-            "Color vision test",
             "Tonometry",
-            "Retinoscopy"
+            "Amsler grid",
+            "Retinoscopy",
+            "Color vision test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Amsler grid helps patients monitor for metamorphopsia (distorted lines) which may indicate progression of macular degeneration."
         },
         {
           id: 17,
           question: "What does third nerve palsy cause?",
           options: [
-            "Ptosis, dilated pupil, eye deviation",
             "Only horizontal diplopia",
             "Vertical diplopia with head tilt",
-            "Painless vision loss"
+            "Painless vision loss",
+            "Ptosis, dilated pupil, eye deviation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Third cranial nerve palsy causes ptosis (droopy lid), dilated pupil, and eye turned down and out due to affected extraocular muscles."
         },
         {
           id: 18,
           question: "What is the first-line treatment for uveitis?",
           options: [
-            "Corticosteroids",
             "Antibiotics",
-            "Antivirals",
-            "Surgery"
+            "Corticosteroids",
+            "Surgery",
+            "Antivirals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Corticosteroids are first-line treatment for uveitis to reduce inflammation, administered as drops, injections, or systemically depending on severity."
         },
         {
           id: 19,
           question: "What orbital fracture often causes infraorbital numbness?",
           options: [
-            "Orbital floor fracture",
-            "Medial wall fracture",
             "Roof fracture",
-            "Lateral wall fracture"
+            "Orbital floor fracture",
+            "Lateral wall fracture",
+            "Medial wall fracture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Orbital floor fractures often cause infraorbital numbness due to damage to the infraorbital nerve that runs along the orbital floor."
         },
         {
@@ -591,9 +591,9 @@ This module covers common eye diseases, their clinical presentation, diagnostic 
           question: "What medication requires regular retinal screening for toxicity?",
           options: [
             "Hydroxychloroquine",
-            "Blood pressure medications",
             "Cholesterol drugs",
-            "Pain relievers"
+            "Pain relievers",
+            "Blood pressure medications"
           ],
           correctAnswer: 0,
           explanation: "Hydroxychloroquine (Plaquenil) requires regular retinal screening as it can cause irreversible macular toxicity with prolonged use."
@@ -676,36 +676,36 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           id: 1,
           question: "Which contact lens material provides higher oxygen permeability?",
           options: [
-            "Silicone hydrogel",
-            "Regular hydrogel",
+            "Glass lenses",
             "PMMA hard lenses",
-            "Glass lenses"
+            "Regular hydrogel",
+            "Silicone hydrogel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Silicone hydrogel contact lenses provide significantly higher oxygen permeability (Dk/t) than regular hydrogel lenses, reducing hypoxia risks."
         },
         {
           id: 2,
           question: "What are RGP lenses particularly good for correcting?",
           options: [
-            "Irregular corneas and high astigmatism",
             "Only simple nearsightedness",
-            "Color blindness",
-            "Cataracts"
+            "Irregular corneas and high astigmatism",
+            "Cataracts",
+            "Color blindness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rigid Gas Permeable (RGP) lenses provide crisp vision and are excellent for irregular corneas (keratoconus) and high astigmatism due to their stable shape."
         },
         {
           id: 3,
           question: "What does corneal topography measure?",
           options: [
+            "Retinal thickness",
             "Corneal curvature and shape",
-            "Eye pressure only",
             "Tear production",
-            "Retinal thickness"
+            "Eye pressure only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Corneal topography maps the curvature and shape of the cornea, showing flat and steep meridians and detecting irregularities like keratoconus."
         },
         {
@@ -713,9 +713,9 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           question: "What is normal tear breakup time (TBUT)?",
           options: [
             "Greater than 10 seconds",
-            "Less than 5 seconds",
             "Exactly 30 seconds",
-            "Not important to measure"
+            "Not important to measure",
+            "Less than 5 seconds"
           ],
           correctAnswer: 0,
           explanation: "Normal tear breakup time (TBUT) is greater than 10 seconds; shorter times indicate unstable tear film and potential dry eye issues."
@@ -726,8 +726,8 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           options: [
             "1-2 millimeters",
             "No movement at all",
-            "5-10 millimeters",
-            "Complete dislocation"
+            "Complete dislocation",
+            "5-10 millimeters"
           ],
           correctAnswer: 0,
           explanation: "A properly fitted soft contact lens should have 1-2 millimeters of movement with each blink to allow tear exchange and comfort."
@@ -736,36 +736,36 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           id: 6,
           question: "What does fluorescein pattern assessment evaluate in RGP fitting?",
           options: [
-            "Lens-cornea relationship and fit",
-            "Only lens power accuracy",
             "Patient comfort level",
-            "Color vision"
+            "Color vision",
+            "Only lens power accuracy",
+            "Lens-cornea relationship and fit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fluorescein pattern assessment with blue light shows the relationship between RGP lens and cornea, indicating bearing areas and clearance zones."
         },
         {
           id: 7,
           question: "What is the recommended initial wearing schedule for new RGP lens wearers?",
           options: [
-            "4 hours first day, increasing gradually",
-            "24 hours continuously",
             "Only 30 minutes daily",
-            "No adaptation needed"
+            "No adaptation needed",
+            "24 hours continuously",
+            "4 hours first day, increasing gradually"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "New RGP wearers should start with 4 hours on the first day, increasing by 2 hours daily to allow gradual adaptation to lens awareness."
         },
         {
           id: 8,
           question: "Which lens type creates a fluid reservoir over the cornea?",
           options: [
-            "Scleral lenses",
-            "Daily disposable soft lenses",
+            "Cosmetic tinted lenses",
             "Standard RGP lenses",
-            "Cosmetic tinted lenses"
+            "Scleral lenses",
+            "Daily disposable soft lenses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scleral lenses vault over the entire cornea and rest on the sclera, creating a fluid reservoir that bathes the cornea, ideal for severe dry eye."
         },
         {
@@ -773,9 +773,9 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           question: "What is a sign of corneal hypoxia from contact lens wear?",
           options: [
             "Corneal neovascularization",
+            "Reduced blink rate",
             "Improved vision",
-            "Increased comfort",
-            "Reduced blink rate"
+            "Increased comfort"
           ],
           correctAnswer: 0,
           explanation: "Corneal neovascularization (growth of blood vessels into clear cornea) is a sign of chronic hypoxia from insufficient oxygen to the cornea."
@@ -784,12 +784,12 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           id: 10,
           question: "What is the safest contact lens replacement schedule?",
           options: [
-            "Daily disposable",
-            "Monthly replacement",
             "Yearly replacement",
+            "Monthly replacement",
+            "Daily disposable",
             "When lenses feel uncomfortable"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Daily disposable lenses are considered safest as they eliminate lens care errors, reduce deposit buildup, and minimize infection risk."
         },
         {
@@ -797,9 +797,9 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           question: "What should patients do if they experience pain or redness with contact lenses?",
           options: [
             "Remove lenses immediately and consult professional",
+            "Switch to different solution without removing",
             "Use more lubricating drops only",
-            "Continue wearing through discomfort",
-            "Switch to different solution without removing"
+            "Continue wearing through discomfort"
           ],
           correctAnswer: 0,
           explanation: "Pain or redness are warning signs; patients should remove lenses immediately and consult an eye care professional if symptoms persist."
@@ -808,48 +808,48 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           id: 12,
           question: "What do multifocal contact lenses address?",
           options: [
-            "Presbyopia (age-related near vision loss)",
-            "Only distance vision",
             "Color deficiencies",
-            "Eye coordination problems"
+            "Presbyopia (age-related near vision loss)",
+            "Eye coordination problems",
+            "Only distance vision"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Multifocal contact lenses address presbyopia (age-related loss of near focusing ability) by providing multiple powers for different distances."
         },
         {
           id: 13,
           question: "What does Dk/t measure in contact lenses?",
           options: [
+            "Ultraviolet protection",
             "Oxygen transmissibility",
             "Lens thickness only",
-            "Water content",
-            "Ultraviolet protection"
+            "Water content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Dk/t measures oxygen transmissibility - how well oxygen passes through the contact lens material to reach the cornea."
         },
         {
           id: 14,
           question: "What is keratoconus?",
           options: [
-            "Corneal thinning and steepening",
             "Eye pressure elevation",
+            "Lens clouding",
             "Retinal detachment",
-            "Lens clouding"
+            "Corneal thinning and steepening"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Keratoconus is a condition where the cornea thins and steepens into a cone shape, causing irregular astigmatism that requires specialty contact lenses."
         },
         {
           id: 15,
           question: "How often should contact lens cases be replaced?",
           options: [
-            "Monthly",
-            "Yearly",
             "Never if cleaned properly",
-            "Every 5 years"
+            "Monthly",
+            "Every 5 years",
+            "Yearly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contact lens cases should be replaced monthly to prevent bacterial contamination, even with proper cleaning and disinfection."
         },
         {
@@ -858,8 +858,8 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           options: [
             "Protecting corneal surface after injury/surgery",
             "Cosmetic appearance only",
-            "Replacing glasses permanently",
-            "Testing vision only"
+            "Testing vision only",
+            "Replacing glasses permanently"
           ],
           correctAnswer: 0,
           explanation: "Bandage contact lenses protect the corneal surface after surgery, injury, or with persistent epithelial defects, acting like a bandage for the eye."
@@ -868,48 +868,48 @@ This module covers comprehensive contact lens fitting, from basic soft lenses to
           id: 17,
           question: "What does toric contact lens correct?",
           options: [
+            "Eye muscle imbalance",
             "Astigmatism",
             "Presbyopia only",
-            "Color blindness",
-            "Eye muscle imbalance"
+            "Color blindness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Toric contact lenses are specially designed to correct astigmatism, with different powers in different meridians to match corneal curvature."
         },
         {
           id: 18,
           question: "What is the main advantage of daily disposable lenses?",
           options: [
-            "Reduced infection and complication risk",
+            "No prescription required",
             "Lower cost per year",
             "Less need for eye exams",
-            "No prescription required"
+            "Reduced infection and complication risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Daily disposable lenses reduce infection and complication risks because patients use a fresh, sterile lens each day with no cleaning required."
         },
         {
           id: 19,
           question: "What should contact lens wearers do weekly for optimal eye health?",
           options: [
-            "Have lens-free days",
+            "Avoid all eye drops",
             "Wear lenses longer each day",
-            "Use stronger cleaning solutions",
-            "Avoid all eye drops"
+            "Have lens-free days",
+            "Use stronger cleaning solutions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Contact lens wearers should have regular lens-free days (at least one day per week) to allow the cornea to recover and maintain ocular health."
         },
         {
           id: 20,
           question: "What is the first step before handling contact lenses?",
           options: [
-            "Wash hands with soap and water",
-            "Check lens expiration date",
             "Apply lubricating drops",
-            "Clean the lens case"
+            "Check lens expiration date",
+            "Clean the lens case",
+            "Wash hands with soap and water"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The first and most important step before handling contact lenses is washing hands thoroughly with soap and water to prevent contamination."
         }
       ]
@@ -997,24 +997,24 @@ This module explores how both eyes work together to create single, three-dimensi
           id: 1,
           question: "What is stereopsis?",
           options: [
+            "Peripheral vision range",
             "Depth perception from binocular vision",
-            "Color perception ability",
             "Single eye visual acuity",
-            "Peripheral vision range"
+            "Color perception ability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stereopsis is three-dimensional depth perception that results from the brain combining slightly different images from each eye."
         },
         {
           id: 2,
           question: "What is normal stereopsis measurement in seconds of arc?",
           options: [
+            "No standard measurement",
             "40-60 seconds of arc",
             "100-120 seconds of arc",
-            "200-300 seconds of arc",
-            "No standard measurement"
+            "200-300 seconds of arc"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Normal stereopsis is typically 40-60 seconds of arc, with lower numbers indicating better depth perception (finer discrimination)."
         },
         {
@@ -1022,9 +1022,9 @@ This module explores how both eyes work together to create single, three-dimensi
           question: "What does accommodation amplitude measure?",
           options: [
             "Eye's focusing ability range",
-            "Pupil size changes",
+            "Color discrimination",
             "Eye movement speed",
-            "Color discrimination"
+            "Pupil size changes"
           ],
           correctAnswer: 0,
           explanation: "Accommodation amplitude measures the eye's total focusing ability range, typically decreasing predictably with age."
@@ -1035,8 +1035,8 @@ This module explores how both eyes work together to create single, three-dimensi
           options: [
             "Exophoria at near and reduced convergence",
             "Esophoria at distance only",
-            "Perfect alignment at all distances",
-            "Only affecting distance vision"
+            "Only affecting distance vision",
+            "Perfect alignment at all distances"
           ],
           correctAnswer: 0,
           explanation: "Convergence insufficiency typically shows exophoria (eyes tending outward) at near, reduced convergence ability, and near point of convergence greater than 6cm."
@@ -1045,108 +1045,108 @@ This module explores how both eyes work together to create single, three-dimensi
           id: 5,
           question: "What is the difference between tropia and phoria?",
           options: [
-            "Tropia is manifest, phoria is latent",
-            "Tropia affects near only, phoria distance only",
+            "Tropia is temporary, phoria permanent",
             "No difference - same condition",
-            "Tropia is temporary, phoria permanent"
+            "Tropia affects near only, phoria distance only",
+            "Tropia is manifest, phoria is latent"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Tropia is a manifest eye misalignment (visible without testing), while phoria is a latent misalignment that only appears with dissociation (cover test)."
         },
         {
           id: 6,
           question: "What does vision therapy aim to improve?",
           options: [
-            "Visual function and processing",
-            "Only eye appearance",
             "Medication effectiveness",
+            "Only eye appearance",
+            "Visual function and processing",
             "Surgical outcomes only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vision therapy aims to improve visual function, processing, and efficiency through structured training exercises, often for binocular vision disorders."
         },
         {
           id: 7,
           question: "What does the Brock string train?",
           options: [
-            "Fixation and convergence awareness",
-            "Color vision only",
+            "Pupil responses",
             "Distance visual acuity",
-            "Pupil responses"
+            "Fixation and convergence awareness",
+            "Color vision only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Brock string trains fixation stability and convergence awareness as patients focus on beads at different distances while maintaining single vision."
         },
         {
           id: 8,
           question: "What is the critical period for amblyopia treatment?",
           options: [
-            "Before age 7-8 years",
+            "At any age equally effective",
             "After age 15 years",
-            "Only in infancy",
-            "At any age equally effective"
+            "Before age 7-8 years",
+            "Only in infancy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Amblyopia treatment is most effective before age 7-8 when the visual system is still developing and more plastic (responsive to treatment)."
         },
         {
           id: 9,
           question: "What does dynamic visual acuity refer to?",
           options: [
+            "Peripheral vision only",
             "Seeing moving objects clearly",
             "Static eye chart reading",
-            "Color discrimination",
-            "Peripheral vision only"
+            "Color discrimination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Dynamic visual acuity refers to the ability to see moving objects clearly, crucial for sports and daily activities like driving."
         },
         {
           id: 10,
           question: "What is eccentric viewing?",
           options: [
-            "Using peripheral retina for central tasks",
-            "Looking directly at objects",
             "Closing one eye to see better",
-            "Using magnifiers only"
+            "Using magnifiers only",
+            "Using peripheral retina for central tasks",
+            "Looking directly at objects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Eccentric viewing teaches patients with central vision loss (like macular degeneration) to use functioning peripheral retina by looking slightly away from targets."
         },
         {
           id: 11,
           question: "What does the Worth 4-dot test assess?",
           options: [
-            "Fusion and suppression",
             "Only color vision",
             "Visual acuity",
+            "Fusion and suppression",
             "Eye pressure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Worth 4-dot test with red-green glasses assesses fusion (how eyes work together) and detects suppression (one eye ignoring input)."
         },
         {
           id: 12,
           question: "What is normal accommodative facility?",
           options: [
-            "8-12 cycles per minute",
-            "20-30 cycles per minute",
             "1-2 cycles per minute",
-            "Not measurable"
+            "Not measurable",
+            "20-30 cycles per minute",
+            "8-12 cycles per minute"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Normal accommodative facility (focusing flexibility) is 8-12 cycles per minute when alternating between +2.00 and -2.00 lenses."
         },
         {
           id: 13,
           question: "What is intermittent strabismus?",
           options: [
-            "Alternating between aligned and misaligned",
             "Constant misalignment",
+            "Alternating between aligned and misaligned",
             "Only occurs during sleep",
             "Not a real condition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Intermittent strabismus alternates between periods of good alignment and visible misalignment, often triggered by fatigue or illness."
         },
         {
@@ -1154,9 +1154,9 @@ This module explores how both eyes work together to create single, three-dimensi
           question: "What does the Hart chart train?",
           options: [
             "Accommodation and saccades",
+            "Depth perception only",
             "Color vision only",
-            "Peripheral awareness",
-            "Depth perception only"
+            "Peripheral awareness"
           ],
           correctAnswer: 0,
           explanation: "The Hart chart trains accommodation (focusing) and saccades (jumping eye movements) as patients rapidly switch between distance and near tasks."
@@ -1166,9 +1166,9 @@ This module explores how both eyes work together to create single, three-dimensi
           question: "What visual milestone typically develops by 6 months?",
           options: [
             "Binocularity begins",
-            "20/20 visual acuity",
             "Complete color vision",
-            "Reading ability"
+            "Reading ability",
+            "20/20 visual acuity"
           ],
           correctAnswer: 0,
           explanation: "Binocularity (the ability to use both eyes together) typically begins developing around 6 months of age."
@@ -1177,60 +1177,60 @@ This module explores how both eyes work together to create single, three-dimensi
           id: 16,
           question: "What is post-trauma vision syndrome?",
           options: [
+            "Genetic eye conditions",
             "Visual symptoms after head injury",
             "Normal aging vision changes",
-            "Genetic eye conditions",
             "Only surgical complications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Post-trauma vision syndrome includes various visual symptoms (headaches, dizziness, light sensitivity) that can occur after head injury or concussion."
         },
         {
           id: 17,
           question: "What is convergence?",
           options: [
-            "Eyes turning inward for near vision",
             "Eyes turning outward for distance",
+            "Eyes turning inward for near vision",
             "Upward eye movements",
             "Circular eye movements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Convergence is the coordinated turning inward of both eyes to focus on near objects, essential for single, comfortable near vision."
         },
         {
           id: 18,
           question: "What does yoked prism therapy help with?",
           options: [
+            "Color blindness",
             "Visual midline shift after stroke",
             "Only cataracts",
-            "Glaucoma treatment",
-            "Color blindness"
+            "Glaucoma treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Yoked prisms (same direction in both eyes) can help recalibrate visual perception in patients with midline shift after stroke or head trauma."
         },
         {
           id: 19,
           question: "What is the push-up test measuring?",
           options: [
-            "Accommodation amplitude",
-            "Convergence ability",
             "Pupil size",
-            "Eye pressure"
+            "Eye pressure",
+            "Convergence ability",
+            "Accommodation amplitude"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The push-up test measures accommodation amplitude by bringing a target closer until it blurs, indicating the near focusing limit."
         },
         {
           id: 20,
           question: "What are vectograms used for in vision therapy?",
           options: [
-            "Fusion and stereopsis training",
+            "Testing visual acuity",
             "Only color vision testing",
-            "Measuring eye pressure",
-            "Testing visual acuity"
+            "Fusion and stereopsis training",
+            "Measuring eye pressure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vectograms provide dissociated images for fusion training, helping patients develop and expand their ability to fuse images from both eyes."
         }
       ]
@@ -1334,12 +1334,12 @@ This module covers pharmacological principles specific to eye care, from topical
           id: 1,
           question: "What does punctal occlusion after eye drop installation achieve?",
           options: [
+            "Makes drops work instantly",
             "Increases medication absorption 2-3 times",
             "Decreases all side effects",
-            "Makes drops work instantly",
             "Changes drop color"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Punctal occlusion (pressing the inner corner of the eye) increases medication absorption 2-3 times by reducing drainage through the tear duct system."
         },
         {
@@ -1359,9 +1359,9 @@ This module covers pharmacological principles specific to eye care, from topical
           question: "What is a serious side effect of long-term corticosteroid eye drops?",
           options: [
             "Elevated intraocular pressure",
-            "Improved color vision",
+            "Smaller pupil size",
             "Reduced tear production",
-            "Smaller pupil size"
+            "Improved color vision"
           ],
           correctAnswer: 0,
           explanation: "Long-term corticosteroid eye drops can significantly elevate intraocular pressure (steroid-induced glaucoma) in susceptible individuals."
@@ -1370,24 +1370,24 @@ This module covers pharmacological principles specific to eye care, from topical
           id: 4,
           question: "Which glaucoma medication class is first-line treatment?",
           options: [
-            "Prostaglandin analogs",
             "Oral medications only",
-            "Surgery always first",
-            "Herbal supplements"
+            "Prostaglandin analogs",
+            "Herbal supplements",
+            "Surgery always first"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Prostaglandin analogs (latanoprost, bimatoprost) are first-line glaucoma treatment due to effectiveness and once-daily dosing with few systemic side effects."
         },
         {
           id: 5,
           question: "What should be used for artificial tears if needed more than 4 times daily?",
           options: [
-            "Preservative-free formulations",
-            "Extra-strength only",
             "Any available brand",
-            "Only ointment forms"
+            "Only ointment forms",
+            "Preservative-free formulations",
+            "Extra-strength only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Preservative-free artificial tears should be used if needed more than 4 times daily to avoid preservative toxicity that can damage ocular surface."
         },
         {
@@ -1395,8 +1395,8 @@ This module covers pharmacological principles specific to eye care, from topical
           question: "What does fluorescein stain under cobalt blue light?",
           options: [
             "Corneal defects and abrasions",
-            "Only the conjunctiva",
             "Eye pressure points",
+            "Only the conjunctiva",
             "Tear production amount"
           ],
           correctAnswer: 0,
@@ -1406,108 +1406,108 @@ This module covers pharmacological principles specific to eye care, from topical
           id: 7,
           question: "What is the advantage of dual-action allergy eye drops?",
           options: [
+            "They change eye color permanently",
             "Both treat symptoms and prevent future attacks",
             "They work 10 times faster",
-            "No prescription needed",
-            "They change eye color permanently"
+            "No prescription needed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Dual-action allergy drops (like olopatadine) both treat current symptoms (antihistamine) and help prevent future attacks (mast cell stabilizer)."
         },
         {
           id: 8,
           question: "Which medication requires regular retinal screening for toxicity?",
           options: [
-            "Hydroxychloroquine",
+            "Cholesterol drugs",
             "Aspirin",
             "Blood pressure medication",
-            "Cholesterol drugs"
+            "Hydroxychloroquine"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hydroxychloroquine (Plaquenil) requires regular retinal screening as it can cause irreversible bull's eye maculopathy with long-term use."
         },
         {
           id: 9,
           question: "How long should patients wait between different eye drop medications?",
           options: [
-            "At least 5 minutes",
-            "30 seconds only",
             "One hour minimum",
-            "No waiting needed"
+            "No waiting needed",
+            "30 seconds only",
+            "At least 5 minutes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Patients should wait at least 5 minutes between different eye drop medications to prevent wash-out and ensure proper absorption of each medication."
         },
         {
           id: 10,
           question: "Which glaucoma medication should be avoided in asthma patients?",
           options: [
-            "Beta-blockers (timolol)",
+            "Carbonic anhydrase inhibitors",
             "Prostaglandin analogs",
             "Alpha-agonists",
-            "Carbonic anhydrase inhibitors"
+            "Beta-blockers (timolol)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Beta-blockers like timolol should be avoided in asthma patients as they can cause bronchoconstriction and breathing difficulties."
         },
         {
           id: 11,
           question: "What is cyclosporine used for in eye care?",
           options: [
-            "Chronic dry eye inflammation",
-            "Acute infections only",
             "Cataract prevention",
-            "Glaucoma treatment only"
+            "Acute infections only",
+            "Glaucoma treatment only",
+            "Chronic dry eye inflammation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cyclosporine eye drops are used for chronic dry eye to reduce T-cell mediated inflammation of the ocular surface."
         },
         {
           id: 12,
           question: "What does atropine do when used in eye drops?",
           options: [
-            "Paralyzes accommodation and dilates pupil",
             "Reduces eye pressure only",
-            "Treats infections",
-            "Increases tear production"
+            "Paralyzes accommodation and dilates pupil",
+            "Increases tear production",
+            "Treats infections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Atropine paralyzes accommodation (cycloplegia) and dilates the pupil (mydriasis), used for uveitis treatment and pediatric refractions."
         },
         {
           id: 13,
           question: "What is a common preservative in eye drops that can cause toxicity?",
           options: [
+            "Vitamin C",
             "Benzalkonium chloride (BAK)",
             "Salt water",
-            "Vitamin C",
             "Natural oils"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Benzalkonium chloride (BAK) is a common preservative that can cause ocular surface toxicity with chronic use, especially in dry eye patients."
         },
         {
           id: 14,
           question: "What do punctal plugs achieve?",
           options: [
-            "Reduce tear drainage from eyes",
-            "Increase medication absorption only",
+            "Treat cataracts",
             "Change eye color",
-            "Treat cataracts"
+            "Increase medication absorption only",
+            "Reduce tear drainage from eyes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Punctal plugs are inserted into tear drainage ducts to reduce tear drainage, keeping natural and artificial tears on the eye longer for dry eye treatment."
         },
         {
           id: 15,
           question: "Which medication can cause corneal verticillata?",
           options: [
-            "Amiodarone",
-            "Antibiotics only",
+            "Antihistamines",
             "Pain relievers",
-            "Antihistamines"
+            "Antibiotics only",
+            "Amiodarone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Amiodarone, a cardiac medication, can cause corneal verticillata - whorl-like epithelial deposits that are usually visually insignificant."
         },
         {
@@ -1515,9 +1515,9 @@ This module covers pharmacological principles specific to eye care, from topical
           question: "What is rose bengal used to stain?",
           options: [
             "Devitalized epithelial cells in dry eye",
-            "Only corneal infections",
             "Tear production amount",
-            "Eye pressure points"
+            "Eye pressure points",
+            "Only corneal infections"
           ],
           correctAnswer: 0,
           explanation: "Rose bengal stains devitalized (dead or dying) epithelial cells and mucus in dry eye syndrome, appearing bright red."
@@ -1526,12 +1526,12 @@ This module covers pharmacological principles specific to eye care, from topical
           id: 17,
           question: "What is the main action of carbonic anhydrase inhibitors?",
           options: [
-            "Reduce aqueous humor production",
-            "Increase tear production",
             "Dilate pupils",
-            "Fight infection"
+            "Fight infection",
+            "Reduce aqueous humor production",
+            "Increase tear production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Carbonic anhydrase inhibitors (dorzolamide, brinzolamide) reduce aqueous humor production in the eye to lower intraocular pressure in glaucoma."
         },
         {
@@ -1539,9 +1539,9 @@ This module covers pharmacological principles specific to eye care, from topical
           question: "Which is NOT a common post-operative eye drop regimen?",
           options: [
             "Antihistamine only",
+            "Lubricating drops",
             "Antibiotic-steroid combination",
-            "NSAIDs for inflammation",
-            "Lubricating drops"
+            "NSAIDs for inflammation"
           ],
           correctAnswer: 0,
           explanation: "Antihistamine-only is not a typical post-operative regimen; usually antibiotic-steroid combinations are used initially, then tapered."
@@ -1551,9 +1551,9 @@ This module covers pharmacological principles specific to eye care, from topical
           question: "What does ethambutol toxicity affect?",
           options: [
             "Optic nerve function",
-            "Corneal clarity only",
+            "Eyelid function",
             "Lens transparency",
-            "Eyelid function"
+            "Corneal clarity only"
           ],
           correctAnswer: 0,
           explanation: "Ethambutol, a tuberculosis medication, can cause optic neuropathy affecting color vision and visual acuity if not monitored closely."
@@ -1563,9 +1563,9 @@ This module covers pharmacological principles specific to eye care, from topical
           question: "What is the advantage of gel or ointment eye medications?",
           options: [
             "Longer contact time with eye",
-            "Work 10 times faster",
+            "Change eye color",
             "No prescription needed",
-            "Change eye color"
+            "Work 10 times faster"
           ],
           correctAnswer: 0,
           explanation: "Gels and ointments have longer contact time with the ocular surface, providing sustained medication release compared to solutions."
@@ -1667,36 +1667,36 @@ This module covers the business, ethical, and professional aspects of optometry 
           id: 1,
           question: "What is a key advantage of private optometry practice?",
           options: [
-            "Autonomy and building equity",
             "No business management needed",
             "Guaranteed high income",
+            "Autonomy and building equity",
             "No patient care responsibilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Private practice offers autonomy (control over decisions) and the opportunity to build equity in a business, though it requires business management skills."
         },
         {
           id: 2,
           question: "What should fee setting consider?",
           options: [
-            "Costs, market rates, and value provided",
             "Only what competitors charge",
             "Highest possible price",
+            "Costs, market rates, and value provided",
             "Arbitrary numbers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Fee setting should consider practice costs, local market rates, and the value of services provided to establish fair, sustainable pricing."
         },
         {
           id: 3,
           question: "What is the difference between medical and vision insurance?",
           options: [
-            "Medical covers disease, vision covers refractive",
-            "No difference - same coverage",
+            "Medical is only for hospitals",
             "Vision covers surgery only",
-            "Medical is only for hospitals"
+            "Medical covers disease, vision covers refractive",
+            "No difference - same coverage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Medical insurance covers diagnosis and treatment of eye diseases, while vision insurance typically covers refractive services (glasses, contact lenses)."
         },
         {
@@ -1705,8 +1705,8 @@ This module covers the business, ethical, and professional aspects of optometry 
           options: [
             "Excellent service and follow-up",
             "Lowest prices only",
-            "Fastest appointments",
-            "Fancy equipment only"
+            "Fancy equipment only",
+            "Fastest appointments"
           ],
           correctAnswer: 0,
           explanation: "Patient retention is built primarily on excellent service, thorough follow-up, and addressing patient concerns, which leads to loyalty and referrals."
@@ -1715,72 +1715,72 @@ This module covers the business, ethical, and professional aspects of optometry 
           id: 5,
           question: "What does the standard of care refer to?",
           options: [
-            "Minimum acceptable practice level",
             "Highest possible technology",
             "Only specialist-level care",
-            "What insurance will pay for"
+            "What insurance will pay for",
+            "Minimum acceptable practice level"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Standard of care refers to the minimum level of acceptable practice that a reasonably prudent optometrist would provide in similar circumstances."
         },
         {
           id: 6,
           question: "What is required for informed consent?",
           options: [
+            "No explanation needed for routine care",
             "Explaining procedures, risks, benefits, alternatives",
             "Just getting a signature",
-            "Only verbal agreement",
-            "No explanation needed for routine care"
+            "Only verbal agreement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Informed consent requires explaining the procedure, risks, benefits, and alternatives to the patient, then documenting their understanding and agreement."
         },
         {
           id: 7,
           question: "What should never be delegated to staff?",
           options: [
-            "Diagnosis and treatment decisions",
-            "Pretesting and measurements",
+            "Contact lens training",
             "Frame adjustments",
-            "Contact lens training"
+            "Diagnosis and treatment decisions",
+            "Pretesting and measurements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Diagnosis and treatment decisions should never be delegated to staff; these require the optometrist's training, judgment, and licensure."
         },
         {
           id: 8,
           question: "What does the 'S' in SOAP notes stand for?",
           options: [
-            "Subjective",
             "Surgical",
             "Systemic",
+            "Subjective",
             "Standard"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "In SOAP notes, 'S' stands for Subjective - the patient's complaints and symptoms in their own words."
         },
         {
           id: 9,
           question: "What is a benefit of peer review?",
           options: [
-            "Improves practice through colleague feedback",
-            "Reduces patient load",
             "Eliminates need for continuing education",
+            "Reduces patient load",
+            "Improves practice through colleague feedback",
             "Guarantees perfect outcomes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Peer review improves practice by providing feedback from colleagues, discussing challenging cases, and learning from others' experiences."
         },
         {
           id: 10,
           question: "Why is continuing education important?",
           options: [
-            "Maintains competence and meets requirements",
+            "Just for academic interest",
             "Only for new graduates",
-            "Optional for experienced practitioners",
-            "Just for academic interest"
+            "Maintains competence and meets requirements",
+            "Optional for experienced practitioners"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuing education maintains clinical competence, meets licensure requirements, and ensures patients receive care based on current knowledge."
         },
         {
@@ -1788,9 +1788,9 @@ This module covers the business, ethical, and professional aspects of optometry 
           question: "What does EHR stand for?",
           options: [
             "Electronic Health Records",
-            "Eye Health Registry",
+            "Equipment Handling Rules",
             "Emergency Health Response",
-            "Equipment Handling Rules"
+            "Eye Health Registry"
           ],
           correctAnswer: 0,
           explanation: "EHR stands for Electronic Health Records - digital systems that store patient information, improving efficiency, accuracy, and accessibility."
@@ -1799,60 +1799,60 @@ This module covers the business, ethical, and professional aspects of optometry 
           id: 12,
           question: "What can telehealth be used for in optometry?",
           options: [
-            "Triage and follow-up visits",
             "Complete eye examinations",
-            "Surgical procedures",
-            "Replacing all in-person visits"
+            "Replacing all in-person visits",
+            "Triage and follow-up visits",
+            "Surgical procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Telehealth in optometry can be used for triage (determining urgency), follow-up visits, and remote consultations, but has limitations for comprehensive exams."
         },
         {
           id: 13,
           question: "What helps prevent burnout in practice?",
           options: [
-            "Good time management and boundaries",
-            "Working longer hours only",
+            "Avoiding all administrative tasks",
             "Taking all patient requests",
-            "Avoiding all administrative tasks"
+            "Working longer hours only",
+            "Good time management and boundaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Good time management, setting professional boundaries, and maintaining work-life balance help prevent burnout in optometry practice."
         },
         {
           id: 14,
           question: "What should a referral letter include?",
           options: [
-            "Reason, findings, and specific questions",
-            "Only patient name and date",
             "Bill for services",
+            "Only patient name and date",
+            "Reason, findings, and specific questions",
             "Personal opinions about patient"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A referral letter should include the reason for referral, relevant examination findings, and specific questions or concerns for the consulting provider."
         },
         {
           id: 15,
           question: "What does HIPAA protect?",
           options: [
-            "Patient confidentiality and privacy",
             "Only insurance information",
-            "Practice income",
-            "Equipment purchases"
+            "Equipment purchases",
+            "Patient confidentiality and privacy",
+            "Practice income"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "HIPAA (Health Insurance Portability and Accountability Act) protects patient confidentiality, privacy, and security of health information."
         },
         {
           id: 16,
           question: "What is scope of practice?",
           options: [
-            "Legal limits of what optometrist can do",
-            "Office opening hours",
             "Patient waiting area size",
+            "Office opening hours",
+            "Legal limits of what optometrist can do",
             "Types of frames carried"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scope of practice refers to the legal limits of what procedures, treatments, and services an optometrist can provide, which varies by state."
         },
         {
@@ -1861,8 +1861,8 @@ This module covers the business, ethical, and professional aspects of optometry 
           options: [
             "Identify areas for practice improvement",
             "Only for marketing materials",
-            "To fire unhappy patients",
-            "Not necessary if busy"
+            "Not necessary if busy",
+            "To fire unhappy patients"
           ],
           correctAnswer: 0,
           explanation: "Measuring patient satisfaction helps identify areas for practice improvement, address concerns, and enhance patient care and experience."
@@ -1871,24 +1871,24 @@ This module covers the business, ethical, and professional aspects of optometry 
           id: 18,
           question: "What is a benefit of multidisciplinary practice?",
           options: [
-            "Comprehensive patient care coordination",
-            "Less paperwork",
             "No need for referrals",
-            "Lower malpractice insurance"
+            "Comprehensive patient care coordination",
+            "Lower malpractice insurance",
+            "Less paperwork"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Multidisciplinary practice allows comprehensive patient care coordination with other healthcare providers, benefiting patients with complex needs."
         },
         {
           id: 19,
           question: "What should be documented when deviating from standard care?",
           options: [
+            "Patient's insurance information",
             "Rationale for the deviation",
             "Only that deviation occurred",
-            "Patient's insurance information",
             "Staff who disagreed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "When deviating from standard care, document the rationale for the decision to show clinical reasoning and justification for the approach taken."
         },
         {
@@ -1896,9 +1896,9 @@ This module covers the business, ethical, and professional aspects of optometry 
           question: "What is professional mentorship?",
           options: [
             "Guidance from experienced colleague",
-            "Only for students",
+            "Guaranteed job offer",
             "Financial sponsorship",
-            "Guaranteed job offer"
+            "Only for students"
           ],
           correctAnswer: 0,
           explanation: "Professional mentorship involves guidance from an experienced colleague, providing advice, support, and perspective on career development."
@@ -1913,72 +1913,72 @@ This module covers the business, ethical, and professional aspects of optometry 
       id: 1,
       question: "What does 20/20 visual acuity mean?",
       options: [
-        "Seeing at 20 feet what should be seen at 20 feet",
         "Perfect vision at all distances",
         "Requiring glasses at 20 feet",
+        "Seeing at 20 feet what should be seen at 20 feet",
         "Only 20% of normal vision"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "20/20 means you see clearly at 20 feet what should normally be seen at that distance, not 'perfect' vision."
     },
     {
       id: 2,
       question: "Which tonometry method is gold standard?",
       options: [
-        "Goldmann applanation",
-        "Non-contact tonometry",
+        "Schiotz tonometry",
         "Digital palpation",
-        "Schiotz tonometry"
+        "Non-contact tonometry",
+        "Goldmann applanation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Goldmann applanation tonometry is the gold standard for accurate intraocular pressure measurement."
     },
     {
       id: 3,
       question: "What is the critical age for amblyopia treatment?",
       options: [
+        "At any age equally",
         "Before age 7-8 years",
         "After age 15 years",
-        "Only in infancy",
-        "At any age equally"
+        "Only in infancy"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Amblyopia treatment is most effective before age 7-8 when the visual system is still developing."
     },
     {
       id: 4,
       question: "What characterizes primary open-angle glaucoma?",
       options: [
-        "Chronic and asymptomatic until late",
-        "Acute pain and redness",
         "Sudden vision loss",
+        "Acute pain and redness",
+        "Chronic and asymptomatic until late",
         "Only in children"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Primary open-angle glaucoma is chronic and often asymptomatic until significant damage has occurred."
     },
     {
       id: 5,
       question: "What is angle-closure glaucoma?",
       options: [
-        "Ocular emergency requiring immediate treatment",
-        "Mild condition monitored only",
         "Type of cataract",
-        "Retinal disorder"
+        "Ocular emergency requiring immediate treatment",
+        "Retinal disorder",
+        "Mild condition monitored only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Angle-closure glaucoma is an ocular emergency with severe symptoms requiring immediate pressure-lowering treatment."
     },
     {
       id: 6,
       question: "What does wet AMD feature?",
       options: [
-        "Choroidal neovascularization",
+        "Lens opacities",
         "Only drusen accumulation",
         "Corneal scarring",
-        "Lens opacities"
+        "Choroidal neovascularization"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Wet AMD features choroidal neovascularization (abnormal blood vessels) that can leak and hemorrhage."
     },
     {
@@ -1986,9 +1986,9 @@ This module covers the business, ethical, and professional aspects of optometry 
       question: "What are retinal detachment symptoms?",
       options: [
         "Floaters, flashes, curtain-like vision loss",
+        "Color changes only",
         "Gradual blur only",
-        "Eye pain and discharge",
-        "Color changes only"
+        "Eye pain and discharge"
       ],
       correctAnswer: 0,
       explanation: "Retinal detachment typically presents with floaters, flashes, and curtain-like peripheral vision loss."
@@ -1997,48 +1997,48 @@ This module covers the business, ethical, and professional aspects of optometry 
       id: 8,
       question: "Which contact lens material provides highest oxygen?",
       options: [
-        "Silicone hydrogel",
-        "Regular hydrogel",
+        "Glass lenses",
         "PMMA hard lenses",
-        "Glass lenses"
+        "Silicone hydrogel",
+        "Regular hydrogel"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Silicone hydrogel contact lenses provide the highest oxygen permeability, reducing hypoxia risks."
     },
     {
       id: 9,
       question: "What are RGP lenses best for?",
       options: [
-        "Irregular corneas and high astigmatism",
         "Only simple nearsightedness",
+        "Children only",
         "Color blindness",
-        "Children only"
+        "Irregular corneas and high astigmatism"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "RGP lenses provide crisp vision and are excellent for irregular corneas and high astigmatism."
     },
     {
       id: 10,
       question: "What is normal tear breakup time?",
       options: [
-        "Greater than 10 seconds",
-        "Less than 5 seconds",
         "Exactly 30 seconds",
-        "Not important"
+        "Not important",
+        "Less than 5 seconds",
+        "Greater than 10 seconds"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Normal tear breakup time is greater than 10 seconds; shorter times indicate unstable tear film."
     },
     {
       id: 11,
       question: "What is stereopsis?",
       options: [
-        "Depth perception from binocular vision",
+        "Peripheral vision",
         "Color perception",
         "Single eye acuity",
-        "Peripheral vision"
+        "Depth perception from binocular vision"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Stereopsis is three-dimensional depth perception resulting from binocular vision."
     },
     {
@@ -2046,9 +2046,9 @@ This module covers the business, ethical, and professional aspects of optometry 
       question: "What is convergence insufficiency?",
       options: [
         "Reduced ability to turn eyes inward for near",
-        "Excessive eye turning inward",
         "Inability to focus",
-        "Color vision defect"
+        "Color vision defect",
+        "Excessive eye turning inward"
       ],
       correctAnswer: 0,
       explanation: "Convergence insufficiency involves reduced ability to turn eyes inward for near tasks, causing symptoms with reading."
@@ -2057,36 +2057,36 @@ This module covers the business, ethical, and professional aspects of optometry 
       id: 13,
       question: "What does vision therapy improve?",
       options: [
-        "Visual function and processing",
         "Only eye appearance",
+        "Visual function and processing",
         "Medication effectiveness",
         "Surgical outcomes"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Vision therapy improves visual function, processing efficiency, and binocular coordination."
     },
     {
       id: 14,
       question: "What is accommodation?",
       options: [
-        "Eye's focusing ability",
         "Eye alignment",
         "Tear production",
+        "Eye's focusing ability",
         "Pupil size change"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Accommodation is the eye's ability to change focus from distance to near by altering lens shape."
     },
     {
       id: 15,
       question: "What does punctal occlusion achieve?",
       options: [
-        "Increases medication absorption",
+        "Changes drop color",
         "Decreases all side effects",
-        "Makes drops work instantly",
-        "Changes drop color"
+        "Increases medication absorption",
+        "Makes drops work instantly"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Punctal occlusion increases medication absorption 2-3 times by reducing drainage through tear ducts."
     },
     {
@@ -2095,8 +2095,8 @@ This module covers the business, ethical, and professional aspects of optometry 
       options: [
         "Prostaglandin analogs",
         "Oral medications only",
-        "Surgery first",
-        "Herbal supplements"
+        "Herbal supplements",
+        "Surgery first"
       ],
       correctAnswer: 0,
       explanation: "Prostaglandin analogs are first-line glaucoma treatment due to effectiveness and once-daily dosing."
@@ -2106,9 +2106,9 @@ This module covers the business, ethical, and professional aspects of optometry 
       question: "What steroid side effect is serious?",
       options: [
         "Elevated intraocular pressure",
-        "Improved color vision",
         "Reduced tear production",
-        "Smaller pupils"
+        "Smaller pupils",
+        "Improved color vision"
       ],
       correctAnswer: 0,
       explanation: "Steroid eye drops can significantly elevate intraocular pressure (steroid-induced glaucoma)."
@@ -2117,36 +2117,36 @@ This module covers the business, ethical, and professional aspects of optometry 
       id: 18,
       question: "What medication requires retinal screening?",
       options: [
-        "Hydroxychloroquine",
         "Aspirin",
-        "Blood pressure meds",
-        "Antibiotics"
+        "Hydroxychloroquine",
+        "Antibiotics",
+        "Blood pressure meds"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Hydroxychloroquine requires regular retinal screening for potential macular toxicity."
     },
     {
       id: 19,
       question: "What is standard of care?",
       options: [
-        "Minimum acceptable practice level",
         "Highest technology available",
         "Only specialist care",
-        "Insurance payment level"
+        "Insurance payment level",
+        "Minimum acceptable practice level"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Standard of care is the minimum acceptable practice level expected of a reasonable practitioner."
     },
     {
       id: 20,
       question: "What does informed consent require?",
       options: [
-        "Explaining procedures, risks, benefits",
         "Just a signature",
-        "Only verbal agreement",
-        "No explanation needed"
+        "Explaining procedures, risks, benefits",
+        "No explanation needed",
+        "Only verbal agreement"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Informed consent requires explaining procedures, risks, benefits, and alternatives to the patient."
     },
     {
@@ -2154,9 +2154,9 @@ This module covers the business, ethical, and professional aspects of optometry 
       question: "What is SOAP documentation?",
       options: [
         "Subjective, Objective, Assessment, Plan",
+        "Subjective, Observation, Action, Plan",
         "Surgical, Optical, Assessment, Plan",
-        "Simple, Objective, Analysis, Procedure",
-        "Subjective, Observation, Action, Plan"
+        "Simple, Objective, Analysis, Procedure"
       ],
       correctAnswer: 0,
       explanation: "SOAP stands for Subjective, Objective, Assessment, Plan - a structured documentation format."
@@ -2177,216 +2177,216 @@ This module covers the business, ethical, and professional aspects of optometry 
       id: 23,
       question: "What does HIPAA protect?",
       options: [
-        "Patient confidentiality and privacy",
-        "Only insurance info",
         "Practice income",
-        "Equipment"
+        "Equipment",
+        "Patient confidentiality and privacy",
+        "Only insurance info"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "HIPAA protects patient confidentiality, privacy, and security of health information."
     },
     {
       id: 24,
       question: "Why continue education?",
       options: [
-        "Maintain competence and meet requirements",
         "Only for new graduates",
         "Optional for experienced",
+        "Maintain competence and meet requirements",
         "Academic interest only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Continuing education maintains clinical competence and meets licensure requirements."
     },
     {
       id: 25,
       question: "What is telehealth used for?",
       options: [
-        "Triage and follow-up visits",
+        "Replacing all visits",
         "Complete eye exams",
-        "Surgery",
-        "Replacing all visits"
+        "Triage and follow-up visits",
+        "Surgery"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Telehealth can be used for triage and follow-up but has limitations for comprehensive exams."
     },
     {
       id: 26,
       question: "What prevents burnout?",
       options: [
-        "Time management and boundaries",
-        "Working longer hours",
+        "Avoiding admin tasks",
         "Taking all requests",
-        "Avoiding admin tasks"
+        "Working longer hours",
+        "Time management and boundaries"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Good time management and professional boundaries help prevent burnout."
     },
     {
       id: 27,
       question: "What is keratoconus?",
       options: [
+        "Lens clouding",
         "Corneal thinning and steepening",
-        "Eye pressure elevation",
         "Retinal detachment",
-        "Lens clouding"
+        "Eye pressure elevation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Keratoconus involves corneal thinning and steepening into cone shape, causing irregular astigmatism."
     },
     {
       id: 28,
       question: "What is presbyopia?",
       options: [
-        "Age-related near vision loss",
-        "Eye inflammation",
         "Increased nearsightedness",
-        "Color blindness"
+        "Eye inflammation",
+        "Color blindness",
+        "Age-related near vision loss"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Presbyopia is age-related loss of near focusing ability, typically beginning around age 40."
     },
     {
       id: 29,
       question: "What is myopia?",
       options: [
-        "Nearsightedness",
         "Farsightedness",
+        "Nearsightedness",
         "Astigmatism",
         "Presbyopia"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Myopia is nearsightedness - difficulty seeing distant objects clearly."
     },
     {
       id: 30,
       question: "What is hyperopia?",
       options: [
-        "Farsightedness",
-        "Nearsightedness",
         "Astigmatism",
-        "Presbyopia"
+        "Presbyopia",
+        "Nearsightedness",
+        "Farsightedness"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Hyperopia is farsightedness - difficulty seeing near objects clearly."
     },
     {
       id: 31,
       question: "What is astigmatism?",
       options: [
-        "Irregular corneal curvature",
         "Eye pressure problem",
         "Retinal disorder",
-        "Lens opacity"
+        "Lens opacity",
+        "Irregular corneal curvature"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Astigmatism is irregular corneal curvature causing blurred vision at all distances."
     },
     {
       id: 32,
       question: "What is the retina?",
       options: [
-        "Light-sensitive tissue lining back of eye",
-        "Front transparent part of eye",
         "Colored part of eye",
-        "White part of eye"
+        "White part of eye",
+        "Front transparent part of eye",
+        "Light-sensitive tissue lining back of eye"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The retina is light-sensitive tissue lining the back of the eye, converting light to neural signals."
     },
     {
       id: 33,
       question: "What is the cornea?",
       options: [
-        "Clear front surface of eye",
-        "Colored part of eye",
         "White part of eye",
-        "Inner lining of eye"
+        "Inner lining of eye",
+        "Clear front surface of eye",
+        "Colored part of eye"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The cornea is the clear, dome-shaped front surface of the eye that provides most focusing power."
     },
     {
       id: 34,
       question: "What is the lens?",
       options: [
-        "Transparent structure behind iris that focuses",
-        "Colored part of eye",
         "White part of eye",
-        "Light-sensitive tissue"
+        "Transparent structure behind iris that focuses",
+        "Light-sensitive tissue",
+        "Colored part of eye"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The lens is a transparent structure behind the iris that changes shape to focus light on the retina."
     },
     {
       id: 35,
       question: "What is the optic nerve?",
       options: [
-        "Carries visual signals from eye to brain",
-        "Controls eye movements",
         "Produces tears",
-        "Changes lens shape"
+        "Carries visual signals from eye to brain",
+        "Changes lens shape",
+        "Controls eye movements"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The optic nerve carries visual signals from the retina to the brain for processing."
     },
     {
       id: 36,
       question: "What is a cataract?",
       options: [
-        "Clouding of the eye's lens",
+        "Corneal scar",
         "Eye pressure increase",
-        "Retinal detachment",
-        "Corneal scar"
+        "Clouding of the eye's lens",
+        "Retinal detachment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "A cataract is clouding of the eye's natural lens, causing blurred vision."
     },
     {
       id: 37,
       question: "What is macular degeneration?",
       options: [
-        "Breakdown of central retina",
-        "Peripheral vision loss",
         "Complete blindness",
-        "Corneal disease"
+        "Corneal disease",
+        "Breakdown of central retina",
+        "Peripheral vision loss"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Macular degeneration involves breakdown of the macula (central retina), affecting central vision."
     },
     {
       id: 38,
       question: "What is diabetic retinopathy?",
       options: [
-        "Diabetes-related retinal damage",
-        "Only cataract formation",
         "Corneal complications",
-        "Optic nerve disorder"
+        "Optic nerve disorder",
+        "Only cataract formation",
+        "Diabetes-related retinal damage"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Diabetic retinopathy is diabetes-related damage to retinal blood vessels."
     },
     {
       id: 39,
       question: "What is dry eye syndrome?",
       options: [
-        "Inadequate tear quantity or quality",
-        "Excessive tearing",
+        "Not a real condition",
         "Only allergy-related",
-        "Not a real condition"
+        "Excessive tearing",
+        "Inadequate tear quantity or quality"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Dry eye syndrome involves inadequate tear quantity or quality, causing discomfort and visual disturbance."
     },
     {
       id: 40,
       question: "What is the role of an optometrist?",
       options: [
-        "Primary eye care provider examining and treating",
-        "Only sells glasses",
+        "Only treats children",
         "Only performs surgery",
-        "Only treats children"
+        "Only sells glasses",
+        "Primary eye care provider examining and treating"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Optometrists are primary eye care providers who examine, diagnose, treat, and manage eye conditions and vision problems."
     }
   ]

@@ -220,12 +220,12 @@ Comprehensive assessment:
           id: 1,
           question: "Which distribution is used for modeling time between events?",
           options: [
+            "Binomial Distribution",
             "Exponential Distribution",
             "Normal Distribution",
-            "Binomial Distribution",
             "Poisson Distribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The exponential distribution models the time between events in a Poisson process with rate parameter λ."
         },
         {
@@ -233,9 +233,9 @@ Comprehensive assessment:
           question: "What is the typical significance level (α) used in hypothesis testing?",
           options: [
             "0.05",
-            "0.01",
             "0.10",
-            "0.005"
+            "0.005",
+            "0.01"
           ],
           correctAnswer: 0,
           explanation: "The conventional significance level is α = 0.05, representing a 5% risk of Type I error (false positive)."
@@ -244,120 +244,120 @@ Comprehensive assessment:
           id: 3,
           question: "What does MCMC stand for in Bayesian statistics?",
           options: [
-            "Markov Chain Monte Carlo",
-            "Markov Chain Model Comparison",
             "Monte Carlo Markov Chain",
-            "Markov Covariance Monte Carlo"
+            "Markov Chain Model Comparison",
+            "Markov Covariance Monte Carlo",
+            "Markov Chain Monte Carlo"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MCMC stands for Markov Chain Monte Carlo, a class of algorithms for sampling from probability distributions."
         },
         {
           id: 4,
           question: "Which assumption of linear regression requires constant variance of residuals?",
           options: [
+            "Normality",
             "Homoscedasticity",
-            "Linearity",
             "Independence",
-            "Normality"
+            "Linearity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Homoscedasticity means the variance of the residuals is constant across all values of the predictors."
         },
         {
           id: 5,
           question: "What does ARIMA stand for in time series analysis?",
           options: [
-            "AutoRegressive Integrated Moving Average",
-            "AutoRegression Independent Moving Average",
             "Average Regression Integrated Moving Average",
+            "AutoRegression Independent Moving Average",
+            "AutoRegressive Integrated Moving Average",
             "AutoRegressive Independent Mean Adjustment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ARIMA stands for AutoRegressive Integrated Moving Average, combining differencing with AR and MA components."
         },
         {
           id: 6,
           question: "Which dimensionality reduction method is linear?",
           options: [
+            "Multidimensional Scaling",
             "Principal Component Analysis (PCA)",
             "t-SNE",
-            "UMAP",
-            "Multidimensional Scaling"
+            "UMAP"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PCA is a linear dimensionality reduction technique that finds orthogonal directions of maximum variance."
         },
         {
           id: 7,
           question: "What is the formula for total error in bias-variance decomposition?",
           options: [
-            "Bias² + Variance + Irreducible Error",
+            "Bias² × Variance + Error",
             "Bias + Variance + Error",
             "Bias × Variance + Error",
-            "Bias² × Variance + Error"
+            "Bias² + Variance + Irreducible Error"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Total expected error = Bias² + Variance + Irreducible Error, showing the tradeoff between bias and variance."
         },
         {
           id: 8,
           question: "Which regularization method uses L1 penalty?",
           options: [
-            "Lasso Regression",
             "Ridge Regression",
-            "Elastic Net",
-            "Early Stopping"
+            "Lasso Regression",
+            "Early Stopping",
+            "Elastic Net"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lasso regression uses L1 penalty (sum of absolute coefficients) which can shrink coefficients to exactly zero."
         },
         {
           id: 9,
           question: "What principle of experimental design involves random assignment to treatments?",
           options: [
+            "Blocking",
             "Randomization",
             "Replication",
-            "Blocking",
             "Factorial Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Randomization ensures each experimental unit has equal chance of receiving any treatment, reducing selection bias."
         },
         {
           id: 10,
           question: "Which Python library specializes in Bayesian modeling?",
           options: [
-            "pymc3",
+            "sklearn",
             "statsmodels",
             "scipy.stats",
-            "sklearn"
+            "pymc3"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PyMC3 is a Python library for probabilistic programming and Bayesian statistical modeling."
         },
         {
           id: 11,
           question: "How many main components of time series were discussed?",
           options: [
+            "Six",
             "Four",
-            "Three",
             "Five",
-            "Six"
+            "Three"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The four components are: Trend, Seasonality, Cyclical, and Irregular (random) components."
         },
         {
           id: 12,
           question: "What does OLS stand for in regression analysis?",
           options: [
-            "Ordinary Least Squares",
+            "Optimal Linear Solution",
             "Optimal Least Squares",
-            "Ordinary Linear Squares",
-            "Optimal Linear Solution"
+            "Ordinary Least Squares",
+            "Ordinary Linear Squares"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "OLS stands for Ordinary Least Squares, the most common method for estimating linear regression parameters."
         },
         {
@@ -365,8 +365,8 @@ Comprehensive assessment:
           question: "Which metric is the harmonic mean of precision and recall?",
           options: [
             "F1 Score",
-            "Accuracy",
             "ROC-AUC",
+            "Accuracy",
             "MSE"
           ],
           correctAnswer: 0,
@@ -376,84 +376,84 @@ Comprehensive assessment:
           id: 14,
           question: "What type of graph structure do Bayesian networks use?",
           options: [
-            "Directed Acyclic Graph (DAG)",
+            "Tree Structure",
             "Undirected Graph",
             "Complete Graph",
-            "Tree Structure"
+            "Directed Acyclic Graph (DAG)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bayesian networks use Directed Acyclic Graphs (DAGs) where edges represent conditional dependencies with no cycles."
         },
         {
           id: 15,
           question: "Which test compares means of three or more groups?",
           options: [
-            "ANOVA",
             "t-test",
-            "Chi-square test",
-            "Z-test"
+            "Z-test",
+            "ANOVA",
+            "Chi-square test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ANOVA (Analysis of Variance) tests whether means of three or more groups are statistically different."
         },
         {
           id: 16,
           question: "What is the Bayesian equivalent of frequentist p-value?",
           options: [
-            "Posterior Probability",
             "Likelihood",
-            "Prior Probability",
-            "Bayes Factor"
+            "Posterior Probability",
+            "Bayes Factor",
+            "Prior Probability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "In Bayesian statistics, posterior probabilities quantify belief in hypotheses given observed data."
         },
         {
           id: 17,
           question: "Which clustering algorithm is density-based?",
           options: [
-            "DBSCAN",
-            "K-means",
+            "Gaussian Mixture Models",
             "Hierarchical Clustering",
-            "Gaussian Mixture Models"
+            "K-means",
+            "DBSCAN"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "DBSCAN (Density-Based Spatial Clustering of Applications with Noise) finds clusters based on density."
         },
         {
           id: 18,
           question: "What does AIC stand for in model selection?",
           options: [
+            "Algorithmic Information Criterion",
             "Akaike Information Criterion",
-            "Akaike Inference Criterion",
             "Average Information Criterion",
-            "Algorithmic Information Criterion"
+            "Akaike Inference Criterion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "AIC stands for Akaike Information Criterion, which balances model fit with complexity (lower is better)."
         },
         {
           id: 19,
           question: "Which R package is for Bayesian regression models?",
           options: [
-            "brms",
-            "MASS",
+            "bayesplot",
             "forecast",
-            "bayesplot"
+            "MASS",
+            "brms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The brms package provides an interface to fit Bayesian regression models using Stan backend."
         },
         {
           id: 20,
           question: "What is the formula for R² in regression?",
           options: [
-            "1 - (SSE/SST)",
             "SSE/SST",
+            "SSR/SST",
             "SST/SSE",
-            "SSR/SST"
+            "1 - (SSE/SST)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "R² = 1 - (SSE/SST) where SSE = sum of squared errors and SST = total sum of squares."
         }
       ]
@@ -725,84 +725,84 @@ Real-world ML implementations:
           id: 1,
           question: "What is the expected CAGR of the global machine learning market?",
           options: [
-            "38.8%",
             "25.5%",
-            "42.3%",
-            "30.1%"
+            "38.8%",
+            "30.1%",
+            "42.3%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The global machine learning market is expected to grow at a CAGR of 38.8% from 2022 to 2029."
         },
         {
           id: 2,
           question: "Which type of learning predicts continuous values?",
           options: [
-            "Regression",
             "Classification",
             "Clustering",
-            "Association"
+            "Association",
+            "Regression"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regression is a supervised learning task that predicts continuous numerical values."
         },
         {
           id: 3,
           question: "What is the typical train/test split ratio?",
           options: [
-            "70/30 or 80/20",
+            "65/35 or 85/15",
             "60/40 or 75/25",
             "50/50 or 90/10",
-            "65/35 or 85/15"
+            "70/30 or 80/20"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Typical train/test splits are 70/30 or 80/20, with more data allocated to training."
         },
         {
           id: 4,
           question: "Which feature engineering method creates binary columns for each category?",
           options: [
+            "Frequency Encoding",
             "One-Hot Encoding",
-            "Label Encoding",
             "Target Encoding",
-            "Frequency Encoding"
+            "Label Encoding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "One-hot encoding creates binary (0/1) columns for each category value."
         },
         {
           id: 5,
           question: "What does TF-IDF stand for in text processing?",
           options: [
-            "Term Frequency-Inverse Document Frequency",
-            "Text Frequency-Inverse Document Frequency",
+            "Text Frequency-Integrated Document Frequency",
             "Term Frequency-Integrated Document Frequency",
-            "Text Frequency-Integrated Document Frequency"
+            "Term Frequency-Inverse Document Frequency",
+            "Text Frequency-Inverse Document Frequency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TF-IDF stands for Term Frequency-Inverse Document Frequency, weighting terms by importance."
         },
         {
           id: 6,
           question: "Which metric is not suitable for imbalanced classification?",
           options: [
-            "Accuracy",
-            "F1 Score",
+            "Recall",
             "Precision",
-            "Recall"
+            "F1 Score",
+            "Accuracy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Accuracy can be misleading for imbalanced data (e.g., 99% accuracy if 99% negative class)."
         },
         {
           id: 7,
           question: "What does AUC-ROC value of 0.5 indicate?",
           options: [
+            "Good classifier",
             "Random classifier",
             "Perfect classifier",
-            "Good classifier",
             "Poor classifier"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "AUC-ROC = 0.5 means the classifier performs no better than random guessing."
         },
         {
@@ -811,8 +811,8 @@ Real-world ML implementations:
           options: [
             "Bagging",
             "Boosting",
-            "Stacking",
-            "Voting"
+            "Voting",
+            "Stacking"
           ],
           correctAnswer: 0,
           explanation: "Bagging (Bootstrap Aggregating) reduces variance by averaging predictions from multiple models."
@@ -821,12 +821,12 @@ Real-world ML implementations:
           id: 9,
           question: "What does XGBoost stand for?",
           options: [
+            "eXtended Gradient Boosting",
             "eXtreme Gradient Boosting",
-            "eXpanded Gradient Boosting",
             "eXperimental Gradient Boosting",
-            "eXtended Gradient Boosting"
+            "eXpanded Gradient Boosting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "XGBoost stands for eXtreme Gradient Boosting, an optimized gradient boosting implementation."
         },
         {
@@ -834,8 +834,8 @@ Real-world ML implementations:
           question: "Which method provides local model interpretability?",
           options: [
             "LIME",
-            "Feature Importance",
             "Partial Dependence Plots",
+            "Feature Importance",
             "Global Surrogate Models"
           ],
           correctAnswer: 0,
@@ -845,120 +845,120 @@ Real-world ML implementations:
           id: 11,
           question: "How many primary types of machine learning were discussed?",
           options: [
-            "Three",
             "Four",
-            "Two",
-            "Five"
+            "Three",
+            "Five",
+            "Two"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The three primary types are: Supervised Learning, Unsupervised Learning, and Reinforcement Learning."
         },
         {
           id: 12,
           question: "Which cross-validation method uses k folds?",
           options: [
+            "Time-based Split",
             "K-fold Cross-Validation",
-            "Leave-One-Out",
             "Stratified Sampling",
-            "Time-based Split"
+            "Leave-One-Out"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "K-fold cross-validation splits data into k folds, using k-1 for training and 1 for validation, rotating k times."
         },
         {
           id: 13,
           question: "What scaling method is robust to outliers?",
           options: [
-            "RobustScaler",
-            "MinMaxScaler",
             "StandardScaler",
-            "Normalizer"
+            "MinMaxScaler",
+            "Normalizer",
+            "RobustScaler"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RobustScaler uses median and interquartile range, making it robust to outliers."
         },
         {
           id: 14,
           question: "Which formula calculates F1 score?",
           options: [
-            "2 × (Precision × Recall) / (Precision + Recall)",
             "(Precision + Recall) / 2",
             "Precision × Recall",
-            "Precision / Recall"
+            "Precision / Recall",
+            "2 × (Precision × Recall) / (Precision + Recall)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "F1 Score = 2 × (Precision × Recall) / (Precision + Recall), harmonic mean of precision and recall."
         },
         {
           id: 15,
           question: "What is the main symptom of overfitting?",
           options: [
-            "Training accuracy >> Test accuracy",
             "Training accuracy ≈ Test accuracy (both low)",
+            "Training accuracy >> Test accuracy",
             "Training accuracy ≈ Test accuracy (both high)",
             "Test accuracy >> Training accuracy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Overfitting shows high training accuracy but significantly lower test accuracy."
         },
         {
           id: 16,
           question: "Which hyperparameter tuning method uses random sampling?",
           options: [
+            "Evolutionary Algorithms",
             "Random Search",
-            "Grid Search",
             "Bayesian Optimization",
-            "Evolutionary Algorithms"
+            "Grid Search"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Random Search randomly samples parameters from distributions, more efficient than exhaustive grid search."
         },
         {
           id: 17,
           question: "Which boosting algorithm handles categorical features well?",
           options: [
-            "CatBoost",
+            "LightGBM",
             "AdaBoost",
             "XGBoost",
-            "LightGBM"
+            "CatBoost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CatBoost (Categorical Boosting) is designed to handle categorical features effectively without extensive preprocessing."
         },
         {
           id: 18,
           question: "What does SHAP stand for in interpretability?",
           options: [
+            "SHared Additive Explanations",
             "SHapley Additive exPlanations",
             "SHapley Attribute Explanations",
-            "SHared Additive Explanations",
             "SHapley Algorithmic Explanations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SHAP stands for SHapley Additive exPlanations, based on cooperative game theory's Shapley values."
         },
         {
           id: 19,
           question: "Which AutoML tool is open source?",
           options: [
+            "AWS SageMaker Autopilot",
             "H2O AutoML",
-            "Google AutoML",
             "Azure AutoML",
-            "AWS SageMaker Autopilot"
+            "Google AutoML"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "H2O AutoML is an open-source automated machine learning platform."
         },
         {
           id: 20,
           question: "Which privacy technique provides formal guarantees?",
           options: [
-            "Differential Privacy",
             "Federated Learning",
-            "Homomorphic Encryption",
-            "Synthetic Data"
+            "Synthetic Data",
+            "Differential Privacy",
+            "Homomorphic Encryption"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Differential privacy provides mathematically rigorous privacy guarantees for data analysis."
         }
       ]
@@ -1272,96 +1272,96 @@ Latest developments in deep learning:
           id: 1,
           question: "What is the projected CAGR for the deep learning market?",
           options: [
-            "46.2%",
+            "42.8%",
             "38.5%",
             "52.1%",
-            "42.8%"
+            "46.2%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The deep learning market is projected to grow at a CAGR of 46.2% from 2022 to 2028."
         },
         {
           id: 2,
           question: "Which activation function is most commonly used in modern neural networks?",
           options: [
-            "ReLU",
             "Sigmoid",
-            "Tanh",
-            "Leaky ReLU"
+            "ReLU",
+            "Leaky ReLU",
+            "Tanh"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ReLU (Rectified Linear Unit) is the most popular activation function due to its simplicity and effectiveness."
         },
         {
           id: 3,
           question: "What is the typical batch size for mini-batch gradient descent?",
           options: [
-            "32, 64, or 128",
-            "16, 32, or 64",
             "64, 128, or 256",
-            "8, 16, or 32"
+            "8, 16, or 32",
+            "32, 64, or 128",
+            "16, 32, or 64"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Typical batch sizes are powers of 2: 32, 64, or 128, balancing memory efficiency and gradient estimate quality."
         },
         {
           id: 4,
           question: "Which optimization algorithm combines Momentum and RMSProp?",
           options: [
-            "Adam",
-            "SGD",
+            "RMSProp",
             "AdamW",
-            "RMSProp"
+            "Adam",
+            "SGD"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adam (Adaptive Moment Estimation) combines ideas from Momentum (first moment) and RMSProp (second moment)."
         },
         {
           id: 5,
           question: "What does CNN stand for?",
           options: [
-            "Convolutional Neural Network",
             "Convergent Neural Network",
+            "Convolutional Neural Network",
             "Cascaded Neural Network",
             "Complex Neural Network"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CNN stands for Convolutional Neural Network, specialized for processing grid-like data such as images."
         },
         {
           id: 6,
           question: "Which CNN architecture introduced residual connections?",
           options: [
-            "ResNet",
-            "AlexNet",
             "VGG",
-            "GoogLeNet"
+            "ResNet",
+            "GoogLeNet",
+            "AlexNet"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ResNet (Residual Network) introduced residual connections that enable training of very deep networks."
         },
         {
           id: 7,
           question: "What problem do LSTMs solve that basic RNNs struggle with?",
           options: [
-            "Vanishing gradient problem in long sequences",
             "Exploding gradient problem",
             "Overfitting",
+            "Vanishing gradient problem in long sequences",
             "Underfitting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "LSTMs (Long Short-Term Memory) solve the vanishing gradient problem, allowing them to learn long-term dependencies."
         },
         {
           id: 8,
           question: "Which mechanism allows focusing on relevant parts of input regardless of position?",
           options: [
-            "Attention",
             "Convolution",
+            "Normalization",
             "Pooling",
-            "Normalization"
+            "Attention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The attention mechanism allows models to focus on relevant parts of the input sequence regardless of their position."
         },
         {
@@ -1369,9 +1369,9 @@ Latest developments in deep learning:
           question: "What does BERT stand for?",
           options: [
             "Bidirectional Encoder Representations from Transformers",
-            "Bidirectional Embedding Representations from Transformers",
             "Bidirectional Encoding Representations from Transformers",
-            "Bidirectional Extraction Representations from Transformers"
+            "Bidirectional Extraction Representations from Transformers",
+            "Bidirectional Embedding Representations from Transformers"
           ],
           correctAnswer: 0,
           explanation: "BERT stands for Bidirectional Encoder Representations from Transformers, a transformer-based language model."
@@ -1380,12 +1380,12 @@ Latest developments in deep learning:
           id: 10,
           question: "Which generative model uses a generator and discriminator in adversarial training?",
           options: [
+            "Autoencoder",
             "GAN (Generative Adversarial Network)",
             "VAE (Variational Autoencoder)",
-            "Diffusion Model",
-            "Autoencoder"
+            "Diffusion Model"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "GANs use a generator to create samples and a discriminator to distinguish real from fake, trained adversarially."
         },
         {
@@ -1393,9 +1393,9 @@ Latest developments in deep learning:
           question: "Which framework uses dynamic computation graphs?",
           options: [
             "PyTorch",
+            "MXNet",
             "TensorFlow",
-            "JAX",
-            "MXNet"
+            "JAX"
           ],
           correctAnswer: 0,
           explanation: "PyTorch uses dynamic computation graphs (define-by-run) while TensorFlow traditionally used static graphs."
@@ -1405,107 +1405,107 @@ Latest developments in deep learning:
           question: "What does TPU stand for?",
           options: [
             "Tensor Processing Unit",
-            "Tensor Processing Unit",
             "Training Processing Unit",
+            "Tensor Processing Unit",
             "Tensor Performance Unit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TPU stands for Tensor Processing Unit, Google's custom ASIC designed specifically for neural network computations."
         },
         {
           id: 13,
           question: "Which technique reduces precision of weights for efficient inference?",
           options: [
+            "Knowledge Distillation",
             "Quantization",
             "Pruning",
-            "Knowledge Distillation",
             "Architecture Search"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Quantization reduces the precision of weights and activations (e.g., from 32-bit to 8-bit) for efficient inference."
         },
         {
           id: 14,
           question: "What is the common dropout probability during training?",
           options: [
-            "0.5",
+            "0.1",
             "0.3",
             "0.7",
-            "0.1"
+            "0.5"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A dropout probability of 0.5 is commonly used, meaning each neuron has 50% chance of being dropped during training."
         },
         {
           id: 15,
           question: "Which loss function is used for binary classification?",
           options: [
-            "Binary Cross-Entropy",
             "Mean Squared Error",
             "Categorical Cross-Entropy",
+            "Binary Cross-Entropy",
             "Huber Loss"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Binary cross-entropy loss is used for binary classification problems with two classes."
         },
         {
           id: 16,
           question: "What does GRU stand for?",
           options: [
-            "Gated Recurrent Unit",
-            "Gated Recurrent Unit",
+            "Gated Recurrent Update",
             "Gradient Recurrent Unit",
-            "Gated Recurrent Update"
+            "Gated Recurrent Unit",
+            "Gated Recurrent Unit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GRU stands for Gated Recurrent Unit, a simplified version of LSTM with fewer parameters."
         },
         {
           id: 17,
           question: "Which normalization is preferred for RNNs?",
           options: [
-            "Layer Normalization",
-            "Batch Normalization",
+            "Instance Normalization",
             "Weight Normalization",
-            "Instance Normalization"
+            "Batch Normalization",
+            "Layer Normalization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Layer Normalization is preferred for RNNs because it works across the feature dimension rather than batch dimension."
         },
         {
           id: 18,
           question: "What does NAS stand for in deep learning?",
           options: [
+            "Network Automated Search",
             "Neural Architecture Search",
             "Network Architecture Search",
-            "Neural Automated Search",
-            "Network Automated Search"
+            "Neural Automated Search"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "NAS stands for Neural Architecture Search, automatically finding optimal neural network architectures."
         },
         {
           id: 19,
           question: "Which model compression technique trains a small student to mimic a large teacher?",
           options: [
-            "Knowledge Distillation",
             "Quantization",
             "Pruning",
+            "Knowledge Distillation",
             "Low-rank Factorization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Knowledge distillation trains a smaller student model to mimic the predictions of a larger teacher model."
         },
         {
           id: 20,
           question: "What are models like GPT-3 and PaLM classified as?",
           options: [
-            "Large Language Models (LLMs)",
+            "Generative Adversarial Networks",
             "Convolutional Neural Networks",
-            "Variational Autoencoders",
-            "Generative Adversarial Networks"
+            "Large Language Models (LLMs)",
+            "Variational Autoencoders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GPT-3, PaLM, and similar models with billions of parameters are classified as Large Language Models (LLMs)."
         }
       ]
@@ -1825,36 +1825,36 @@ Future directions in big data:
           id: 1,
           question: "What is the expected CAGR for the global big data market?",
           options: [
-            "13.4%",
             "18.2%",
+            "9.8%",
             "22.5%",
-            "9.8%"
+            "13.4%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The global big data market is expected to grow at a CAGR of 13.4% from 2022 to 2029."
         },
         {
           id: 2,
           question: "Which of the 5 Vs refers to the scale of data?",
           options: [
-            "Volume",
             "Velocity",
             "Variety",
-            "Veracity"
+            "Veracity",
+            "Volume"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Volume refers to the scale of data, ranging from terabytes to exabytes in big data systems."
         },
         {
           id: 3,
           question: "What percentage of enterprise data is unstructured?",
           options: [
-            "50%",
             "30%",
             "20%",
-            "40%"
+            "40%",
+            "50%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Approximately 50% of enterprise data is unstructured (text, images, videos, etc.)."
         },
         {
@@ -1862,9 +1862,9 @@ Future directions in big data:
           question: "What is the default block size in HDFS?",
           options: [
             "128MB or 256MB",
-            "64MB or 128MB",
+            "32MB or 64MB",
             "256MB or 512MB",
-            "32MB or 64MB"
+            "64MB or 128MB"
           ],
           correctAnswer: 0,
           explanation: "HDFS default block size is 128MB or 256MB, much larger than traditional file system blocks."
@@ -1873,36 +1873,36 @@ Future directions in big data:
           id: 5,
           question: "How many times faster is Spark than Hadoop MapReduce for iterative algorithms?",
           options: [
-            "100x faster",
             "10x faster",
             "50x faster",
+            "100x faster",
             "200x faster"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Spark's in-memory processing can be up to 100x faster than Hadoop MapReduce for iterative algorithms."
         },
         {
           id: 6,
           question: "What does RDD stand for in Spark?",
           options: [
-            "Resilient Distributed Dataset",
-            "Resilient Data Distribution",
             "Recursive Distributed Data",
-            "Resilient Distributed Data"
+            "Resilient Data Distribution",
+            "Resilient Distributed Data",
+            "Resilient Distributed Dataset"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RDD stands for Resilient Distributed Dataset, Spark's fundamental data structure."
         },
         {
           id: 7,
           question: "Which component manages metadata in HDFS?",
           options: [
-            "NameNode",
             "DataNode",
             "ResourceManager",
+            "NameNode",
             "NodeManager"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The NameNode manages metadata (file names, permissions, block locations) in HDFS."
         },
         {
@@ -1910,9 +1910,9 @@ Future directions in big data:
           question: "What is the default replication factor in HDFS?",
           options: [
             "3 copies",
-            "2 copies",
+            "5 copies",
             "4 copies",
-            "5 copies"
+            "2 copies"
           ],
           correctAnswer: 0,
           explanation: "HDFS default replication factor is 3, storing three copies of each block for fault tolerance."
@@ -1921,24 +1921,24 @@ Future directions in big data:
           id: 9,
           question: "Which NoSQL database type stores JSON documents?",
           options: [
-            "Document Stores",
+            "Graph Databases",
             "Key-Value Stores",
-            "Column-Family Stores",
-            "Graph Databases"
+            "Document Stores",
+            "Column-Family Stores"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Document stores like MongoDB store JSON/BSON documents with flexible schema."
         },
         {
           id: 10,
           question: "According to CAP theorem, how many properties can be guaranteed simultaneously?",
           options: [
-            "2 out of 3",
             "1 out of 3",
-            "3 out of 3",
-            "All 3 in different scenarios"
+            "All 3 in different scenarios",
+            "2 out of 3",
+            "3 out of 3"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CAP theorem states that a distributed system can only guarantee 2 out of 3: Consistency, Availability, Partition Tolerance."
         },
         {
@@ -1946,9 +1946,9 @@ Future directions in big data:
           question: "What does YARN stand for in Hadoop?",
           options: [
             "Yet Another Resource Negotiator",
+            "Yahoo Application Resource Negotiator",
             "Yahoo Adaptive Resource Navigator",
-            "Yet Another Resource Network",
-            "Yahoo Application Resource Negotiator"
+            "Yet Another Resource Network"
           ],
           correctAnswer: 0,
           explanation: "YARN stands for Yet Another Resource Negotiator, Hadoop's resource management layer."
@@ -1958,9 +1958,9 @@ Future directions in big data:
           question: "Which architecture has separate batch and speed layers?",
           options: [
             "Lambda Architecture",
-            "Kappa Architecture",
+            "Data Mesh Architecture",
             "Data Lake Architecture",
-            "Data Mesh Architecture"
+            "Kappa Architecture"
           ],
           correctAnswer: 0,
           explanation: "Lambda Architecture has separate batch layer (complete accuracy) and speed layer (real-time processing)."
@@ -1970,9 +1970,9 @@ Future directions in big data:
           question: "What percentage of all data is ever analyzed according to MIT research?",
           options: [
             "0.5%",
-            "5%",
+            "1%",
             "10%",
-            "1%"
+            "5%"
           ],
           correctAnswer: 0,
           explanation: "MIT research suggests only 0.5% of all data is ever analyzed, highlighting big data's potential."
@@ -1981,60 +1981,60 @@ Future directions in big data:
           id: 14,
           question: "Which Spark API is for structured data processing?",
           options: [
-            "Spark SQL",
+            "GraphX",
             "Spark Streaming",
             "MLlib",
-            "GraphX"
+            "Spark SQL"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Spark SQL provides DataFrame/Dataset API for structured data processing with SQL queries."
         },
         {
           id: 15,
           question: "Which streaming framework uses true streaming (not micro-batching)?",
           options: [
-            "Apache Flink",
-            "Spark Streaming",
             "Storm",
-            "ksqlDB"
+            "ksqlDB",
+            "Spark Streaming",
+            "Apache Flink"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Apache Flink uses true streaming model while Spark Streaming uses micro-batching approach."
         },
         {
           id: 16,
           question: "What does dbt stand for?",
           options: [
-            "Data Build Tool",
-            "Database Build Tool",
             "Data Business Tool",
-            "Database Business Tool"
+            "Database Business Tool",
+            "Database Build Tool",
+            "Data Build Tool"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "dbt stands for Data Build Tool, used for transformations in the data warehouse."
         },
         {
           id: 17,
           question: "Which cloud data warehouse separates storage and compute?",
           options: [
-            "Snowflake",
-            "Redshift",
+            "Synapse",
             "BigQuery",
-            "Synapse"
+            "Redshift",
+            "Snowflake"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Snowflake pioneered separation of storage and compute in cloud data warehousing."
         },
         {
           id: 18,
           question: "Which columnar format is optimized for analytics?",
           options: [
-            "Parquet",
             "CSV",
-            "JSON",
-            "Avro"
+            "Avro",
+            "Parquet",
+            "JSON"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Parquet is a columnar storage format optimized for analytical queries with efficient compression."
         },
         {
@@ -2042,9 +2042,9 @@ Future directions in big data:
           question: "What is the coordination service used by Kafka?",
           options: [
             "ZooKeeper",
-            "YARN",
+            "Kubernetes",
             "Mesos",
-            "Kubernetes"
+            "YARN"
           ],
           correctAnswer: 0,
           explanation: "Kafka uses ZooKeeper for coordination (though newer versions are removing this dependency)."
@@ -2053,12 +2053,12 @@ Future directions in big data:
           id: 20,
           question: "Which architecture treats all data as a stream?",
           options: [
-            "Kappa Architecture",
+            "Data Warehouse Architecture",
             "Lambda Architecture",
             "Data Lake Architecture",
-            "Data Warehouse Architecture"
+            "Kappa Architecture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Kappa Architecture treats all data as a stream, simplifying the architecture compared to Lambda."
         }
       ]
@@ -2391,8 +2391,8 @@ Real-world NLP implementations:
           options: [
             "29.4%",
             "25.1%",
-            "33.8%",
-            "36.2%"
+            "36.2%",
+            "33.8%"
           ],
           correctAnswer: 0,
           explanation: "The global NLP market is projected to grow at a CAGR of 29.4% from 2021 to 2029."
@@ -2401,24 +2401,24 @@ Real-world NLP implementations:
           id: 2,
           question: "Which preprocessing step converts 'running' to 'run'?",
           options: [
-            "Stemming",
             "Lemmatization",
+            "Stemming",
             "Tokenization",
             "Stop Word Removal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stemming reduces words to their root form (e.g., 'running' → 'run'), while lemmatization considers context."
         },
         {
           id: 3,
           question: "Which Word2Vec architecture predicts context words given a target word?",
           options: [
-            "Skip-gram",
-            "CBOW",
             "GloVe",
-            "FastText"
+            "CBOW",
+            "FastText",
+            "Skip-gram"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Skip-gram predicts context words given a target word, while CBOW predicts target word given context."
         },
         {
@@ -2426,9 +2426,9 @@ Real-world NLP implementations:
           question: "What percentage of tokens are masked in BERT's masked language modeling?",
           options: [
             "15%",
-            "10%",
+            "25%",
             "20%",
-            "25%"
+            "10%"
           ],
           correctAnswer: 0,
           explanation: "BERT masks 15% of tokens during pre-training for masked language modeling objective."
@@ -2437,36 +2437,36 @@ Real-world NLP implementations:
           id: 5,
           question: "What does NER stand for?",
           options: [
-            "Named Entity Recognition",
-            "Natural Entity Recognition",
             "Named Extraction Recognition",
-            "Natural Extraction Recognition"
+            "Natural Extraction Recognition",
+            "Natural Entity Recognition",
+            "Named Entity Recognition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NER stands for Named Entity Recognition, identifying entities like persons, organizations, locations."
         },
         {
           id: 6,
           question: "Which tagging scheme uses B-begin, I-inside, O-outside?",
           options: [
-            "IOB tagging",
             "BIOES tagging",
             "IO tagging",
+            "IOB tagging",
             "BILOU tagging"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IOB tagging uses B (begin), I (inside), O (outside) to label entity spans in text."
         },
         {
           id: 7,
           question: "What is the most common evaluation metric for machine translation?",
           options: [
-            "BLEU",
-            "ROUGE",
             "METEOR",
-            "TER"
+            "TER",
+            "BLEU",
+            "ROUGE"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BLEU (Bilingual Evaluation Understudy) is the most common metric for evaluating machine translation quality."
         },
         {
@@ -2474,8 +2474,8 @@ Real-world NLP implementations:
           question: "Which sampling method uses the smallest set with cumulative probability p?",
           options: [
             "Top-p (nucleus) sampling",
-            "Top-k sampling",
             "Temperature sampling",
+            "Top-k sampling",
             "Greedy sampling"
           ],
           correctAnswer: 0,
@@ -2485,36 +2485,36 @@ Real-world NLP implementations:
           id: 9,
           question: "What type of summarization generates new summary text?",
           options: [
-            "Abstractive summarization",
+            "Compressive summarization",
             "Extractive summarization",
             "Selective summarization",
-            "Compressive summarization"
+            "Abstractive summarization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Abstractive summarization generates new text for the summary, while extractive selects existing sentences."
         },
         {
           id: 10,
           question: "Which model architecture is state-of-the-art for neural machine translation?",
           options: [
+            "RNN",
             "Transformer",
             "LSTM",
-            "CNN",
-            "RNN"
+            "CNN"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Transformer architecture with attention mechanism is state-of-the-art for neural machine translation."
         },
         {
           id: 11,
           question: "How many basic emotions are in Ekman's model?",
           options: [
+            "8",
             "6",
-            "5",
             "7",
-            "8"
+            "5"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ekman's basic emotions are: happiness, sadness, anger, fear, surprise, and disgust (6 emotions)."
         },
         {
@@ -2522,8 +2522,8 @@ Real-world NLP implementations:
           question: "What does BERT stand for?",
           options: [
             "Bidirectional Encoder Representations from Transformers",
-            "Bidirectional Embedding Representations from Transformers",
             "Bidirectional Encoding Representations from Transformers",
+            "Bidirectional Embedding Representations from Transformers",
             "Bidirectional Extraction Representations from Transformers"
           ],
           correctAnswer: 0,
@@ -2533,12 +2533,12 @@ Real-world NLP implementations:
           id: 13,
           question: "Which FastText feature handles out-of-vocabulary words better?",
           options: [
-            "Character n-grams",
             "Word embeddings",
+            "Byte-pair encoding",
             "Subword units",
-            "Byte-pair encoding"
+            "Character n-grams"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FastText represents words as bags of character n-grams, allowing it to handle out-of-vocabulary words."
         },
         {
@@ -2547,8 +2547,8 @@ Real-world NLP implementations:
           options: [
             "100-300 dimensions",
             "50-100 dimensions",
-            "300-500 dimensions",
-            "500-1000 dimensions"
+            "500-1000 dimensions",
+            "300-500 dimensions"
           ],
           correctAnswer: 0,
           explanation: "Word embeddings typically have 100-300 dimensions, balancing expressiveness and computational efficiency."
@@ -2557,72 +2557,72 @@ Real-world NLP implementations:
           id: 15,
           question: "Which benchmark focuses on cross-lingual evaluation?",
           options: [
-            "XTREME",
-            "GLUE",
             "SuperGLUE",
+            "GLUE",
+            "XTREME",
             "SQuAD"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "XTREME is a benchmark for evaluating cross-lingual generalization across 40 languages and 9 tasks."
         },
         {
           id: 16,
           question: "What temperature value gives deterministic sampling?",
           options: [
-            "0",
-            "1",
+            "2",
             "0.5",
-            "2"
+            "0",
+            "1"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Temperature = 0 gives deterministic sampling (always choose most likely token), while higher values increase randomness."
         },
         {
           id: 17,
           question: "Which metric is based on n-gram precision?",
           options: [
-            "BLEU",
             "ROUGE",
-            "METEOR",
-            "TER"
+            "TER",
+            "BLEU",
+            "METEOR"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BLEU calculates n-gram precision between generated text and reference translations."
         },
         {
           id: 18,
           question: "How many languages does mBERT cover?",
           options: [
-            "104 languages",
-            "50 languages",
             "200 languages",
-            "75 languages"
+            "104 languages",
+            "75 languages",
+            "50 languages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Multilingual BERT (mBERT) covers 104 languages in a single model."
         },
         {
           id: 19,
           question: "Which type of QA extracts answer spans from context?",
           options: [
-            "Extractive QA",
+            "Selective QA",
             "Generative QA",
             "Abstractive QA",
-            "Selective QA"
+            "Extractive QA"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Extractive QA extracts answer spans directly from the context document, while generative QA creates new answers."
         },
         {
           id: 20,
           question: "What does SQuAD stand for?",
           options: [
-            "Stanford Question Answering Dataset",
-            "Standard Question Answering Dataset",
             "Stanford Query Answering Dataset",
-            "Standard Query Answering Dataset"
+            "Standard Query Answering Dataset",
+            "Stanford Question Answering Dataset",
+            "Standard Question Answering Dataset"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SQuAD stands for Stanford Question Answering Dataset, a popular benchmark for question answering systems."
         }
       ]
@@ -2981,48 +2981,48 @@ Real-world computer vision implementations:
           id: 1,
           question: "What is the projected CAGR for the computer vision market?",
           options: [
-            "14.3%",
-            "18.5%",
             "22.1%",
-            "10.8%"
+            "14.3%",
+            "10.8%",
+            "18.5%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The computer vision market is projected to grow at a CAGR of 14.3% from 2022 to 2030."
         },
         {
           id: 2,
           question: "Which color space is most common for digital images?",
           options: [
-            "RGB",
             "HSV",
+            "YUV",
             "CMYK",
-            "YUV"
+            "RGB"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RGB (Red, Green, Blue) is the most common color space for digital images and displays."
         },
         {
           id: 3,
           question: "Which CNN architecture introduced residual connections?",
           options: [
-            "ResNet",
-            "VGG",
             "AlexNet",
-            "GoogLeNet"
+            "GoogLeNet",
+            "VGG",
+            "ResNet"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ResNet introduced residual connections that enable training of very deep neural networks."
         },
         {
           id: 4,
           question: "What does YOLO stand for in object detection?",
           options: [
-            "You Only Look Once",
             "You Observe Latent Objects",
             "Your Object Locator Optimized",
+            "You Only Look Once",
             "Yield Optimal Localized Objects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "YOLO stands for You Only Look Once, a real-time object detection system."
         },
         {
@@ -3041,12 +3041,12 @@ Real-world computer vision implementations:
           id: 6,
           question: "Which segmentation type classifies each pixel into semantic categories?",
           options: [
-            "Semantic Segmentation",
             "Instance Segmentation",
-            "Panoptic Segmentation",
-            "Object Segmentation"
+            "Semantic Segmentation",
+            "Object Segmentation",
+            "Panoptic Segmentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Semantic segmentation assigns a semantic category to each pixel without distinguishing instances."
         },
         {
@@ -3055,8 +3055,8 @@ Real-world computer vision implementations:
           options: [
             "Neural Radiance Fields",
             "Neural Rendering Fields",
-            "Neural Reconstruction Fields",
-            "Neural Representation Fields"
+            "Neural Representation Fields",
+            "Neural Reconstruction Fields"
           ],
           correctAnswer: 0,
           explanation: "NeRF stands for Neural Radiance Fields, a method for novel view synthesis from 2D images."
@@ -3065,48 +3065,48 @@ Real-world computer vision implementations:
           id: 8,
           question: "Which face detection method uses multi-task cascaded CNN?",
           options: [
-            "MTCNN",
-            "Haar Cascades",
             "RetinaFace",
-            "FaceNet"
+            "FaceNet",
+            "MTCNN",
+            "Haar Cascades"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "MTCNN (Multi-task Cascaded CNN) is a state-of-the-art face detection and alignment method."
         },
         {
           id: 9,
           question: "What does I3D stand for in video analysis?",
           options: [
-            "Inflated 3D ConvNet",
             "Integrated 3D Network",
             "Inception 3D Network",
+            "Inflated 3D ConvNet",
             "Inflated 3D Network"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "I3D stands for Inflated 3D ConvNet, extending 2D CNN filters to 3D for video processing."
         },
         {
           id: 10,
           question: "Which generative model is known for text-to-image generation?",
           options: [
-            "Stable Diffusion",
-            "CycleGAN",
             "Pix2Pix",
-            "StyleGAN"
+            "StyleGAN",
+            "CycleGAN",
+            "Stable Diffusion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stable Diffusion is a latent diffusion model known for high-quality text-to-image generation."
         },
         {
           id: 11,
           question: "How many layers does ResNet-152 have?",
           options: [
-            "152 layers",
             "101 layers",
-            "50 layers",
-            "34 layers"
+            "34 layers",
+            "152 layers",
+            "50 layers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ResNet-152 has 152 layers, one of the deepest variants of the ResNet architecture."
         },
         {
@@ -3115,8 +3115,8 @@ Real-world computer vision implementations:
           options: [
             "Ultrasound",
             "X-ray",
-            "CT",
-            "MRI"
+            "MRI",
+            "CT"
           ],
           correctAnswer: 0,
           explanation: "Ultrasound imaging uses high-frequency sound waves to create images of internal structures."
@@ -3125,84 +3125,84 @@ Real-world computer vision implementations:
           id: 13,
           question: "What does LiDAR stand for?",
           options: [
-            "Light Detection and Ranging",
             "Laser Imaging Detection and Ranging",
+            "Light Detection and Ranging",
             "Light Imaging Detection and Ranging",
             "Laser Detection and Ranging"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "LiDAR stands for Light Detection and Ranging, a remote sensing method using laser pulses."
         },
         {
           id: 14,
           question: "Which dataset is specifically for autonomous driving?",
           options: [
+            "COCO",
             "KITTI",
             "ImageNet",
-            "COCO",
             "CIFAR-10"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "KITTI is a pioneer dataset for autonomous driving research with multiple sensor modalities."
         },
         {
           id: 15,
           question: "What patch size does ViT typically use?",
           options: [
-            "16×16 pixels",
-            "32×32 pixels",
             "8×8 pixels",
-            "64×64 pixels"
+            "32×32 pixels",
+            "64×64 pixels",
+            "16×16 pixels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Vision Transformer typically uses 16×16 pixel patches, which are flattened and embedded."
         },
         {
           id: 16,
           question: "Which compression technique reduces precision of weights?",
           options: [
-            "Quantization",
-            "Pruning",
             "Knowledge Distillation",
+            "Pruning",
+            "Quantization",
             "Architecture Search"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Quantization reduces the numerical precision of weights (e.g., from 32-bit to 8-bit)."
         },
         {
           id: 17,
           question: "What does HDR stand for in computational photography?",
           options: [
-            "High Dynamic Range",
-            "High Definition Rendering",
             "High Density Resolution",
-            "High Detail Reconstruction"
+            "High Definition Rendering",
+            "High Detail Reconstruction",
+            "High Dynamic Range"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "HDR stands for High Dynamic Range, combining multiple exposures to capture wider brightness range."
         },
         {
           id: 18,
           question: "Which object detector uses Region Proposal Network?",
           options: [
-            "Faster R-CNN",
             "YOLO",
+            "RetinaNet",
             "SSD",
-            "RetinaNet"
+            "Faster R-CNN"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Faster R-CNN uses a Region Proposal Network (RPN) to generate object proposals."
         },
         {
           id: 19,
           question: "What does FPS measure in object detection?",
           options: [
-            "Frames Per Second",
-            "Features Per Second",
+            "Filters Per Second",
             "False Positives per Second",
-            "Filters Per Second"
+            "Frames Per Second",
+            "Features Per Second"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FPS measures Frames Per Second, indicating how many images a detector can process per second."
         },
         {
@@ -3210,9 +3210,9 @@ Real-world computer vision implementations:
           question: "Which segmentation combines semantic and instance segmentation?",
           options: [
             "Panoptic Segmentation",
-            "Semantic Segmentation",
+            "Object Segmentation",
             "Instance Segmentation",
-            "Object Segmentation"
+            "Semantic Segmentation"
           ],
           correctAnswer: 0,
           explanation: "Panoptic segmentation combines semantic segmentation (categories) and instance segmentation (individual objects)."
@@ -3577,12 +3577,12 @@ Responsible time series analysis:
           id: 1,
           question: "What is the expected CAGR for the time series analytics market?",
           options: [
-            "12.8%",
             "15.2%",
             "18.5%",
+            "12.8%",
             "10.3%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The time series analytics market is expected to grow at a CAGR of 12.8% from 2021 to 2028."
         },
         {
@@ -3590,9 +3590,9 @@ Responsible time series analysis:
           question: "How many main components are in time series decomposition?",
           options: [
             "Four",
-            "Three",
             "Two",
-            "Five"
+            "Five",
+            "Three"
           ],
           correctAnswer: 0,
           explanation: "The four components are: Trend, Seasonality, Cyclical, and Irregular/Random components."
@@ -3602,9 +3602,9 @@ Responsible time series analysis:
           question: "Which test has null hypothesis of unit root (non-stationary)?",
           options: [
             "Augmented Dickey-Fuller (ADF) test",
-            "KPSS test",
             "Ljung-Box test",
-            "Jarque-Bera test"
+            "Jarque-Bera test",
+            "KPSS test"
           ],
           correctAnswer: 0,
           explanation: "ADF test null hypothesis is that series has unit root (non-stationary). Rejecting means stationary."
@@ -3613,12 +3613,12 @@ Responsible time series analysis:
           id: 4,
           question: "What does ARIMA stand for?",
           options: [
-            "AutoRegressive Integrated Moving Average",
-            "AutoRegression Independent Moving Average",
             "Average Regression Integrated Moving Average",
-            "AutoRegressive Independent Mean Adjustment"
+            "AutoRegressive Independent Mean Adjustment",
+            "AutoRegressive Integrated Moving Average",
+            "AutoRegression Independent Moving Average"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ARIMA stands for AutoRegressive Integrated Moving Average, combining differencing with AR and MA components."
         },
         {
@@ -3626,9 +3626,9 @@ Responsible time series analysis:
           question: "Which function cuts off after lag p for AR(p) process?",
           options: [
             "Partial Autocorrelation Function (PACF)",
+            "Neither ACF nor PACF",
             "Autocorrelation Function (ACF)",
-            "Both ACF and PACF",
-            "Neither ACF nor PACF"
+            "Both ACF and PACF"
           ],
           correctAnswer: 0,
           explanation: "PACF cuts off after lag p for AR(p) process, while ACF decays gradually."
@@ -3637,48 +3637,48 @@ Responsible time series analysis:
           id: 6,
           question: "What smoothing parameter range is used in exponential smoothing?",
           options: [
-            "0 to 1",
-            "-1 to 1",
+            "1 to 10",
             "0 to infinity",
-            "1 to 10"
+            "0 to 1",
+            "-1 to 1"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Smoothing parameters (α, β, γ) in exponential smoothing are typically between 0 and 1."
         },
         {
           id: 7,
           question: "Which model is specifically for volatility clustering in financial data?",
           options: [
-            "GARCH",
-            "ARIMA",
+            "Prophet",
             "Holt-Winters",
-            "Prophet"
+            "ARIMA",
+            "GARCH"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GARCH (Generalized AutoRegressive Conditional Heteroskedasticity) models volatility clustering."
         },
         {
           id: 8,
           question: "What does VAR stand for in multivariate time series?",
           options: [
+            "Variance AutoRegression",
             "Vector Autoregression",
-            "Variable AutoRegression",
             "Vector AutoRegression",
-            "Variance AutoRegression"
+            "Variable AutoRegression"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "VAR stands for Vector Autoregression, a multivariate extension of autoregressive models."
         },
         {
           id: 9,
           question: "Which error metric is scale-independent?",
           options: [
-            "MASE (Mean Absolute Scaled Error)",
             "MAE (Mean Absolute Error)",
+            "RMSE (Root Mean Squared Error)",
             "MSE (Mean Squared Error)",
-            "RMSE (Root Mean Squared Error)"
+            "MASE (Mean Absolute Scaled Error)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MASE is scale-independent because it's scaled by in-sample MAE of naive forecast."
         },
         {
@@ -3686,9 +3686,9 @@ Responsible time series analysis:
           question: "Which time series database is built as a PostgreSQL extension?",
           options: [
             "TimescaleDB",
-            "InfluxDB",
             "Prometheus",
-            "OpenTSDB"
+            "OpenTSDB",
+            "InfluxDB"
           ],
           correctAnswer: 0,
           explanation: "TimescaleDB is built as a PostgreSQL extension, providing time series capabilities on PostgreSQL."
@@ -3697,48 +3697,48 @@ Responsible time series analysis:
           id: 11,
           question: "What are the three smoothing parameters in Holt-Winters method?",
           options: [
+            "α, λ, γ",
             "α, β*, γ",
             "α, β, γ",
-            "α, β, δ",
-            "α, λ, γ"
+            "α, β, δ"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Holt-Winters uses α for level, β* for trend, and γ for seasonality smoothing."
         },
         {
           id: 12,
           question: "What does ETS stand for in time series models?",
           options: [
+            "Error, Time, Seasonal",
             "Error, Trend, Seasonality",
             "Exponential, Trend, Seasonal",
-            "Error, Time, Seasonal",
             "Exponential, Time, Seasonality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ETS stands for Error, Trend, Seasonality, the three components in exponential smoothing models."
         },
         {
           id: 13,
           question: "Which neural network architecture is popular for time series?",
           options: [
+            "Transformer",
             "LSTM",
             "CNN",
-            "Transformer",
             "All of the above"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "LSTM is particularly popular for time series due to its ability to capture long-term dependencies."
         },
         {
           id: 14,
           question: "What is the typical range for business cycles?",
           options: [
-            "2-10 years",
-            "1-5 years",
             "5-15 years",
-            "10-20 years"
+            "10-20 years",
+            "1-5 years",
+            "2-10 years"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Business cycles typically range from 2 to 10 years, longer than seasonal patterns."
         },
         {
@@ -3757,24 +3757,24 @@ Responsible time series analysis:
           id: 16,
           question: "What does VaR stand for in financial risk management?",
           options: [
-            "Value at Risk",
-            "Variance at Risk",
+            "Value and Risk",
             "Volatility at Risk",
-            "Value and Risk"
+            "Variance at Risk",
+            "Value at Risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "VaR stands for Value at Risk, estimating maximum loss over a period at given confidence level."
         },
         {
           id: 17,
           question: "Which streaming platform uses true streaming (not micro-batching)?",
           options: [
-            "Apache Flink",
-            "Spark Streaming",
             "Storm",
-            "ksqlDB"
+            "ksqlDB",
+            "Spark Streaming",
+            "Apache Flink"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Apache Flink uses true streaming model while Spark Streaming uses micro-batching."
         },
         {
@@ -3782,9 +3782,9 @@ Responsible time series analysis:
           question: "What type of anomaly is normal in some contexts but abnormal in others?",
           options: [
             "Contextual anomaly",
-            "Point anomaly",
             "Collective anomaly",
-            "Global anomaly"
+            "Global anomaly",
+            "Point anomaly"
           ],
           correctAnswer: 0,
           explanation: "Contextual anomalies are normal in some contexts (e.g., time periods) but abnormal in others."
@@ -3793,24 +3793,24 @@ Responsible time series analysis:
           id: 19,
           question: "Which company developed the Prophet forecasting procedure?",
           options: [
-            "Facebook",
-            "Google",
+            "Microsoft",
             "Amazon",
-            "Microsoft"
+            "Facebook",
+            "Google"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Prophet was developed by Facebook's Core Data Science team for business forecasting."
         },
         {
           id: 20,
           question: "What does ACF measure in time series?",
           options: [
-            "Correlation between observations at different lags",
             "Partial correlation controlling for intermediate lags",
             "Cross-correlation between different series",
+            "Correlation between observations at different lags",
             "Correlation with external variables"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ACF (Autocorrelation Function) measures correlation between observations at different time lags."
         }
       ]
@@ -4184,36 +4184,36 @@ Building data engineering skills:
           id: 1,
           question: "What percentage of time do data scientists spend on data preparation?",
           options: [
-            "60-80%",
             "40-60%",
+            "80-90%",
             "20-40%",
-            "80-90%"
+            "60-80%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Data scientists spend approximately 60-80% of their time on data preparation and engineering tasks."
         },
         {
           id: 2,
           question: "What does OLTP stand for?",
           options: [
-            "Online Transaction Processing",
-            "Online Transaction Protocol",
             "Online Transformation Processing",
-            "Online Transfer Processing"
+            "Online Transaction Processing",
+            "Online Transfer Processing",
+            "Online Transaction Protocol"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "OLTP stands for Online Transaction Processing, handling operational transactions in databases."
         },
         {
           id: 3,
           question: "Which approach transforms data after loading to warehouse?",
           options: [
-            "ELT (Extract, Load, Transform)",
             "ETL (Extract, Transform, Load)",
-            "E-LT (Extract-Load-Transform)",
-            "TEL (Transform, Extract, Load)"
+            "TEL (Transform, Extract, Load)",
+            "ELT (Extract, Load, Transform)",
+            "E-LT (Extract-Load-Transform)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ELT loads raw data first, then transforms within the data warehouse using its compute power."
         },
         {
@@ -4221,11 +4221,11 @@ Building data engineering skills:
           question: "What does DAG stand for in Airflow?",
           options: [
             "Directed Acyclic Graph",
-            "Directed Acyclic Graph",
+            "Directed Activity Graph",
             "Data Activity Graph",
-            "Directed Activity Graph"
+            "Directed Acyclic Graph"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "DAG stands for Directed Acyclic Graph, representing workflow dependencies in Airflow."
         },
         {
@@ -4234,8 +4234,8 @@ Building data engineering skills:
           options: [
             "Six",
             "Five",
-            "Four",
-            "Seven"
+            "Seven",
+            "Four"
           ],
           correctAnswer: 0,
           explanation: "The six common dimensions are: Accuracy, Completeness, Consistency, Timeliness, Validity, and Uniqueness."
@@ -4245,9 +4245,9 @@ Building data engineering skills:
           question: "Which SCD type adds a new row for each change?",
           options: [
             "Type 2",
-            "Type 1",
             "Type 3",
-            "Type 4"
+            "Type 4",
+            "Type 1"
           ],
           correctAnswer: 0,
           explanation: "Type 2 Slowly Changing Dimensions add a new row for each change, preserving full history."
@@ -4256,12 +4256,12 @@ Building data engineering skills:
           id: 7,
           question: "What architecture has Bronze, Silver, and Gold layers?",
           options: [
-            "Medallion architecture",
             "Data mesh architecture",
-            "Lambda architecture",
-            "Kappa architecture"
+            "Medallion architecture",
+            "Kappa architecture",
+            "Lambda architecture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Medallion architecture has Bronze (raw), Silver (cleaned), and Gold (business-ready) layers."
         },
         {
@@ -4269,9 +4269,9 @@ Building data engineering skills:
           question: "Which Python library is for data testing and validation?",
           options: [
             "Great Expectations",
-            "Pandas",
+            "NumPy",
             "PySpark",
-            "NumPy"
+            "Pandas"
           ],
           correctAnswer: 0,
           explanation: "Great Expectations is a Python library for data testing, documentation, and profiling."
@@ -4280,36 +4280,36 @@ Building data engineering skills:
           id: 9,
           question: "What does RBAC stand for in data security?",
           options: [
-            "Role-Based Access Control",
             "Rule-Based Access Control",
-            "Resource-Based Access Control",
-            "Risk-Based Access Control"
+            "Risk-Based Access Control",
+            "Role-Based Access Control",
+            "Resource-Based Access Control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "RBAC stands for Role-Based Access Control, granting permissions based on user roles."
         },
         {
           id: 10,
           question: "Which AWS service is serverless query service for S3?",
           options: [
-            "Athena",
-            "Redshift",
             "EMR",
-            "Glue"
+            "Redshift",
+            "Glue",
+            "Athena"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Amazon Athena is a serverless query service that allows SQL queries directly on S3 data."
         },
         {
           id: 11,
           question: "What does IaC stand for?",
           options: [
-            "Infrastructure as Code",
-            "Infrastructure as Configuration",
+            "Infrastructure as Cloud",
             "Infrastructure as Compute",
-            "Infrastructure as Cloud"
+            "Infrastructure as Code",
+            "Infrastructure as Configuration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IaC stands for Infrastructure as Code, managing infrastructure through machine-readable definition files."
         },
         {
@@ -4328,36 +4328,36 @@ Building data engineering skills:
           id: 13,
           question: "What format is columnar and optimized for analytics?",
           options: [
-            "Parquet",
-            "CSV",
+            "XML",
             "JSON",
-            "XML"
+            "Parquet",
+            "CSV"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Parquet is a columnar storage format optimized for analytical queries with efficient compression."
         },
         {
           id: 14,
           question: "Which data modeling methodology optimizes for analysis?",
           options: [
-            "Dimensional modeling",
             "Normalized modeling",
+            "One Big Table",
             "Data Vault",
-            "One Big Table"
+            "Dimensional modeling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Dimensional modeling (Kimball methodology) optimizes schemas for analytical queries."
         },
         {
           id: 15,
           question: "What does DVC stand for?",
           options: [
-            "Data Version Control",
-            "Data Validation Control",
             "Data Virtualization Control",
+            "Data Validation Control",
+            "Data Version Control",
             "Data Verification Control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DVC stands for Data Version Control, versioning data and ML models alongside code."
         },
         {
@@ -4365,9 +4365,9 @@ Building data engineering skills:
           question: "Which architecture treats data as a product?",
           options: [
             "Data mesh",
+            "Lakehouse",
             "Data warehouse",
-            "Data lake",
-            "Lakehouse"
+            "Data lake"
           ],
           correctAnswer: 0,
           explanation: "Data mesh architecture treats data as a product with domain-oriented ownership."
@@ -4376,48 +4376,48 @@ Building data engineering skills:
           id: 17,
           question: "What is horizontal scaling?",
           options: [
+            "Adding more CPU cores",
             "Adding more machines",
             "Using more powerful machines",
-            "Increasing storage capacity",
-            "Adding more CPU cores"
+            "Increasing storage capacity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Horizontal scaling (scale out) adds more machines to distribute load."
         },
         {
           id: 18,
           question: "Which Google Cloud service is a serverless data warehouse?",
           options: [
+            "Bigtable",
             "BigQuery",
             "Dataflow",
-            "Dataproc",
-            "Bigtable"
+            "Dataproc"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BigQuery is Google Cloud's serverless, highly scalable data warehouse."
         },
         {
           id: 19,
           question: "What does CI/CD stand for?",
           options: [
-            "Continuous Integration/Continuous Deployment",
-            "Continuous Integration/Continuous Delivery",
             "Continuous Integration/Continuous Development",
-            "All of the above"
+            "Continuous Integration/Continuous Delivery",
+            "All of the above",
+            "Continuous Integration/Continuous Deployment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CI/CD stands for Continuous Integration and Continuous Deployment/Delivery."
         },
         {
           id: 20,
           question: "Which fact table type shows status at regular intervals?",
           options: [
-            "Periodic snapshot",
-            "Transaction fact",
             "Accumulating snapshot",
-            "Snapshot fact"
+            "Snapshot fact",
+            "Transaction fact",
+            "Periodic snapshot"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Periodic snapshot fact tables capture status at regular intervals (e.g., end of day balances)."
         }
       ]
@@ -4817,36 +4817,36 @@ Emerging developments:
           id: 1,
           question: "How much faster model deployment do organizations implementing MLOps typically see?",
           options: [
-            "2-5x faster",
-            "1.5-2x faster",
             "3-6x faster",
+            "1.5-2x faster",
+            "2-5x faster",
             "5-10x faster"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Organizations implementing MLOps see 2-5x faster model deployment compared to manual processes."
         },
         {
           id: 2,
           question: "What is the main difference between MLOps and DevOps?",
           options: [
-            "MLOps handles data and model dependencies",
-            "MLOps is only for machine learning teams",
             "DevOps doesn't use containers",
+            "MLOps is only for machine learning teams",
+            "MLOps handles data and model dependencies",
             "There is no difference"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "MLOps specifically addresses ML challenges like data dependencies, model decay, and experimentation management."
         },
         {
           id: 3,
           question: "Which MLOps maturity level includes automated retraining?",
           options: [
-            "Level 3",
+            "Level 4",
             "Level 1",
-            "Level 2",
-            "Level 4"
+            "Level 3",
+            "Level 2"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Level 3 MLOps includes automated retraining triggered based on performance or data drift."
         },
         {
@@ -4865,12 +4865,12 @@ Emerging developments:
           id: 5,
           question: "Which tool is specifically for experiment tracking?",
           options: [
+            "Kubeflow",
             "MLflow Tracking",
             "Apache Airflow",
-            "Kubeflow",
             "TensorFlow Serving"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MLflow Tracking is specifically designed for tracking ML experiments, parameters, and metrics."
         },
         {
@@ -4878,9 +4878,9 @@ Emerging developments:
           question: "What is semantic versioning format for models?",
           options: [
             "MAJOR.MINOR.PATCH",
-            "YEAR.MONTH.DAY",
+            "VERSION.RELEASE.BUILD",
             "EXPERIMENT.RUN.ITERATION",
-            "VERSION.RELEASE.BUILD"
+            "YEAR.MONTH.DAY"
           ],
           correctAnswer: 0,
           explanation: "Semantic versioning uses MAJOR.MINOR.PATCH for breaking changes, new features, and bug fixes respectively."
@@ -4890,8 +4890,8 @@ Emerging developments:
           question: "Which deployment pattern is for sporadic inference needs?",
           options: [
             "Serverless Inference",
-            "Batch Inference",
             "Real-time Inference",
+            "Batch Inference",
             "Edge Deployment"
           ],
           correctAnswer: 0,
@@ -4901,36 +4901,36 @@ Emerging developments:
           id: 8,
           question: "What latency is typically expected for real-time inference?",
           options: [
-            "<100ms",
+            "<5 seconds",
             "<500ms",
             "<1 second",
-            "<5 seconds"
+            "<100ms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Real-time inference typically requires <100ms latency for interactive applications."
         },
         {
           id: 9,
           question: "Which drift type refers to input feature distribution changes?",
           options: [
+            "Prior probability shift",
             "Covariate shift",
-            "Concept drift",
             "Label drift",
-            "Prior probability shift"
+            "Concept drift"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Covariate shift occurs when the distribution of input features changes over time."
         },
         {
           id: 10,
           question: "What does PSI stand for in drift detection?",
           options: [
-            "Population Stability Index",
             "Probability Stability Index",
-            "Performance Stability Index",
-            "Population Shift Indicator"
+            "Population Shift Indicator",
+            "Population Stability Index",
+            "Performance Stability Index"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PSI stands for Population Stability Index, a metric to detect distribution shifts in data."
         },
         {
@@ -4938,8 +4938,8 @@ Emerging developments:
           question: "How many main retraining triggers were discussed?",
           options: [
             "Four",
-            "Three",
             "Five",
+            "Three",
             "Two"
           ],
           correctAnswer: 0,
@@ -4949,12 +4949,12 @@ Emerging developments:
           id: 12,
           question: "What is the practice of deploying new model to small traffic percentage called?",
           options: [
-            "Canary deployment",
             "Blue-green deployment",
-            "A/B testing",
-            "Shadow deployment"
+            "Shadow deployment",
+            "Canary deployment",
+            "A/B testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Canary deployment releases new version to a small subset of users before full rollout."
         },
         {
@@ -4963,8 +4963,8 @@ Emerging developments:
           options: [
             "Model cards",
             "Datasheets",
-            "FactSheets",
-            "All of the above"
+            "All of the above",
+            "FactSheets"
           ],
           correctAnswer: 0,
           explanation: "Model cards, datasheets for datasets, and FactSheets are all frameworks for model documentation."
@@ -4973,36 +4973,36 @@ Emerging developments:
           id: 14,
           question: "Which fairness metric ensures equal prediction rates across groups?",
           options: [
-            "Demographic parity",
             "Equal opportunity",
             "Equalized odds",
-            "Predictive parity"
+            "Predictive parity",
+            "Demographic parity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demographic parity requires prediction rates to be equal across demographic groups."
         },
         {
           id: 15,
           question: "What type of instance offers discounted compute for fault-tolerant workloads?",
           options: [
+            "Dedicated instances",
             "Spot/Preemptible instances",
             "Reserved instances",
-            "On-demand instances",
-            "Dedicated instances"
+            "On-demand instances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Spot (AWS) or Preemptible (GCP) instances offer significant discounts but can be interrupted."
         },
         {
           id: 16,
           question: "Which security threat involves malicious training data?",
           options: [
-            "Data poisoning",
-            "Model stealing",
             "Model inversion",
-            "Adversarial attacks"
+            "Data poisoning",
+            "Adversarial attacks",
+            "Model stealing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Data poisoning involves injecting malicious data during training to compromise the model."
         },
         {
@@ -5010,9 +5010,9 @@ Emerging developments:
           question: "What privacy technique trains models without sharing raw data?",
           options: [
             "Federated learning",
-            "Differential privacy",
+            "Synthetic data",
             "Homomorphic encryption",
-            "Synthetic data"
+            "Differential privacy"
           ],
           correctAnswer: 0,
           explanation: "Federated learning trains models across decentralized devices without sharing raw data."
@@ -5022,8 +5022,8 @@ Emerging developments:
           question: "Which AWS service is an end-to-end ML platform?",
           options: [
             "Sagemaker",
-            "Lambda",
             "EC2",
+            "Lambda",
             "Glue"
           ],
           correctAnswer: 0,
@@ -5033,24 +5033,24 @@ Emerging developments:
           id: 19,
           question: "What does AutoML stand for?",
           options: [
-            "Automated Machine Learning",
-            "Automatic Machine Learning",
             "Automated Model Learning",
+            "Automatic Machine Learning",
+            "Automated Machine Learning",
             "Automatic Model Learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "AutoML stands for Automated Machine Learning, automating the end-to-end process of applying ML."
         },
         {
           id: 20,
           question: "What is machine learning on microcontrollers called?",
           options: [
-            "TinyML",
-            "EdgeML",
             "MicroML",
-            "EmbeddedML"
+            "EmbeddedML",
+            "TinyML",
+            "EdgeML"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TinyML refers to machine learning on resource-constrained devices like microcontrollers."
         }
       ]
@@ -5408,36 +5408,36 @@ Continuing your learning journey:
           id: 1,
           question: "What is the business goal for the predictive maintenance capstone project?",
           options: [
-            "Reduce unplanned downtime by 30% and maintenance costs by 25%",
             "Increase equipment efficiency by 20%",
             "Reduce energy consumption by 15%",
-            "Improve product quality by 10%"
+            "Improve product quality by 10%",
+            "Reduce unplanned downtime by 30% and maintenance costs by 25%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The business goal is to reduce unplanned downtime by 30% and maintenance costs by 25% through predictive maintenance."
         },
         {
           id: 2,
           question: "How much sensor data is available for the capstone project?",
           options: [
-            "1TB+ from 500+ machines over 2 years",
-            "500GB from 200 machines over 1 year",
             "2TB from 1000 machines over 3 years",
+            "500GB from 200 machines over 1 year",
+            "1TB+ from 500+ machines over 2 years",
             "100GB from 50 machines over 6 months"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The project involves 1TB+ of sensor data from 500+ machines collected over 2 years."
         },
         {
           id: 3,
           question: "What is the recommended team size for the capstone project?",
           options: [
-            "4-5 members",
+            "1-2 members",
             "2-3 members",
-            "6-8 members",
-            "1-2 members"
+            "4-5 members",
+            "6-8 members"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A team of 4-5 members is recommended to cover all required roles and responsibilities."
         },
         {
@@ -5446,8 +5446,8 @@ Continuing your learning journey:
           options: [
             "35%",
             "30%",
-            "25%",
-            "40%"
+            "40%",
+            "25%"
           ],
           correctAnswer: 0,
           explanation: "Technical excellence accounts for 35% of the capstone project assessment."
@@ -5456,12 +5456,12 @@ Continuing your learning journey:
           id: 5,
           question: "Which streaming platform is recommended for data ingestion?",
           options: [
-            "Apache Kafka",
-            "Apache Flink",
             "Spark Streaming",
+            "Apache Flink",
+            "Apache Kafka",
             "Amazon Kinesis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Apache Kafka is recommended for streaming data ingestion from IoT sensors."
         },
         {
@@ -5469,8 +5469,8 @@ Continuing your learning journey:
           question: "What is the recommended workflow orchestration tool?",
           options: [
             "Apache Airflow",
-            "Prefect",
             "Dagster",
+            "Prefect",
             "Luigi"
           ],
           correctAnswer: 0,
@@ -5480,48 +5480,48 @@ Continuing your learning journey:
           id: 7,
           question: "Which experiment tracking tool should be used?",
           options: [
-            "MLflow",
-            "Weights & Biases",
+            "Neptune.ai",
             "TensorBoard",
-            "Neptune.ai"
+            "Weights & Biases",
+            "MLflow"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MLflow is recommended for experiment tracking in the capstone project."
         },
         {
           id: 8,
           question: "What validation approach is recommended for time series data?",
           options: [
-            "Time-based validation (train on past, validate on recent)",
             "Random cross-validation",
             "Stratified cross-validation",
-            "Leave-one-out cross-validation"
+            "Leave-one-out cross-validation",
+            "Time-based validation (train on past, validate on recent)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Time-based validation is essential for time series data to avoid data leakage."
         },
         {
           id: 9,
           question: "What percentage of the grade is for business impact?",
           options: [
-            "30%",
             "25%",
             "35%",
-            "20%"
+            "20%",
+            "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Business impact accounts for 30% of the capstone project assessment."
         },
         {
           id: 10,
           question: "Which deployment approach is recommended for high availability?",
           options: [
-            "Kubernetes",
-            "Docker Compose",
             "Virtual Machines",
+            "Docker Compose",
+            "Kubernetes",
             "Serverless Functions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Kubernetes is recommended for container orchestration and high availability deployment."
         },
         {
@@ -5529,9 +5529,9 @@ Continuing your learning journey:
           question: "How many main deliverables are required for the capstone?",
           options: [
             "Five",
-            "Four",
+            "Three",
             "Six",
-            "Three"
+            "Four"
           ],
           correctAnswer: 0,
           explanation: "The five deliverables are: Technical Documentation, Code Repository, Model Artifacts, Business Documentation, and Demonstration Assets."
@@ -5540,72 +5540,72 @@ Continuing your learning journey:
           id: 12,
           question: "What is the project timeline duration?",
           options: [
-            "12 weeks",
             "8 weeks",
-            "16 weeks",
-            "10 weeks"
+            "12 weeks",
+            "10 weeks",
+            "16 weeks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The capstone project has a 12-week timeline for completion."
         },
         {
           id: 13,
           question: "Which cloud platform is NOT listed as an option?",
           options: [
-            "Oracle Cloud",
+            "Azure",
             "AWS",
             "GCP",
-            "Azure"
+            "Oracle Cloud"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The options are AWS, GCP, or Azure. Oracle Cloud is not listed as a recommended option."
         },
         {
           id: 14,
           question: "What percentage of the grade is for completeness?",
           options: [
-            "20%",
-            "15%",
             "25%",
+            "15%",
+            "20%",
             "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Completeness accounts for 20% of the capstone project assessment."
         },
         {
           id: 15,
           question: "Which model serving framework is recommended?",
           options: [
-            "KServe or Seldon Core",
-            "TensorFlow Serving only",
+            "Custom REST API",
             "TorchServe only",
-            "Custom REST API"
+            "TensorFlow Serving only",
+            "KServe or Seldon Core"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "KServe or Seldon Core are recommended for model serving in Kubernetes environments."
         },
         {
           id: 16,
           question: "What monitoring stack is recommended?",
           options: [
-            "Prometheus and Grafana",
             "Datadog",
+            "Prometheus and Grafana",
             "New Relic",
             "AppDynamics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Prometheus for metrics collection and Grafana for visualization are recommended."
         },
         {
           id: 17,
           question: "What is the maximum duration for the video walkthrough?",
           options: [
+            "20 minutes",
             "10 minutes",
-            "5 minutes",
             "15 minutes",
-            "20 minutes"
+            "5 minutes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The video walkthrough should be a maximum of 10 minutes."
         },
         {
@@ -5613,9 +5613,9 @@ Continuing your learning journey:
           question: "Which hyperparameter optimization library is recommended?",
           options: [
             "Optuna or Hyperopt",
-            "GridSearchCV only",
+            "BayesianOptimization only",
             "RandomSearchCV only",
-            "BayesianOptimization only"
+            "GridSearchCV only"
           ],
           correctAnswer: 0,
           explanation: "Optuna or Hyperopt are recommended for advanced hyperparameter optimization."
@@ -5625,9 +5625,9 @@ Continuing your learning journey:
           question: "What percentage of the grade is for innovation & creativity?",
           options: [
             "15%",
-            "10%",
+            "25%",
             "20%",
-            "25%"
+            "10%"
           ],
           correctAnswer: 0,
           explanation: "Innovation and creativity account for 15% of the capstone project assessment."
@@ -5636,12 +5636,12 @@ Continuing your learning journey:
           id: 20,
           question: "Which data format is recommended for the feature store?",
           options: [
+            "JSON files",
             "Delta Lake",
             "CSV files",
-            "JSON files",
             "Parquet only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Delta Lake is recommended for the feature store due to ACID transactions and time travel capabilities."
         }
       ]
@@ -5656,12 +5656,12 @@ Continuing your learning journey:
       moduleId: 1,
       question: "Which distribution is used for modeling time between events?",
       options: [
-        "Exponential Distribution",
-        "Normal Distribution",
         "Binomial Distribution",
+        "Normal Distribution",
+        "Exponential Distribution",
         "Poisson Distribution"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The exponential distribution models the time between events in a Poisson process."
     },
     {
@@ -5669,12 +5669,12 @@ Continuing your learning journey:
       moduleId: 1,
       question: "What is the typical significance level (α) used in hypothesis testing?",
       options: [
-        "0.05",
-        "0.01",
         "0.10",
-        "0.005"
+        "0.01",
+        "0.005",
+        "0.05"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The conventional significance level is α = 0.05, representing a 5% risk of Type I error."
     },
     {
@@ -5682,12 +5682,12 @@ Continuing your learning journey:
       moduleId: 1,
       question: "What does ARIMA stand for in time series analysis?",
       options: [
-        "AutoRegressive Integrated Moving Average",
-        "AutoRegression Independent Moving Average",
         "Average Regression Integrated Moving Average",
-        "AutoRegressive Independent Mean Adjustment"
+        "AutoRegressive Independent Mean Adjustment",
+        "AutoRegressive Integrated Moving Average",
+        "AutoRegression Independent Moving Average"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "ARIMA stands for AutoRegressive Integrated Moving Average."
     },
     {
@@ -5695,12 +5695,12 @@ Continuing your learning journey:
       moduleId: 1,
       question: "Which regularization method uses L1 penalty?",
       options: [
-        "Lasso Regression",
         "Ridge Regression",
+        "Early Stopping",
         "Elastic Net",
-        "Early Stopping"
+        "Lasso Regression"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Lasso regression uses L1 penalty (sum of absolute coefficients)."
     },
 
@@ -5710,12 +5710,12 @@ Continuing your learning journey:
       moduleId: 2,
       question: "What is the expected CAGR of the global machine learning market?",
       options: [
-        "38.8%",
         "25.5%",
+        "38.8%",
         "42.3%",
         "30.1%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The global machine learning market is expected to grow at a CAGR of 38.8% from 2022 to 2029."
     },
     {
@@ -5723,12 +5723,12 @@ Continuing your learning journey:
       moduleId: 2,
       question: "Which type of learning predicts continuous values?",
       options: [
-        "Regression",
-        "Classification",
         "Clustering",
+        "Classification",
+        "Regression",
         "Association"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Regression is a supervised learning task that predicts continuous numerical values."
     },
     {
@@ -5736,12 +5736,12 @@ Continuing your learning journey:
       moduleId: 2,
       question: "What does XGBoost stand for?",
       options: [
-        "eXtreme Gradient Boosting",
+        "eXtended Gradient Boosting",
         "eXpanded Gradient Boosting",
-        "eXperimental Gradient Boosting",
-        "eXtended Gradient Boosting"
+        "eXtreme Gradient Boosting",
+        "eXperimental Gradient Boosting"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "XGBoost stands for eXtreme Gradient Boosting."
     },
     {
@@ -5749,12 +5749,12 @@ Continuing your learning journey:
       moduleId: 2,
       question: "Which privacy technique provides formal guarantees?",
       options: [
-        "Differential Privacy",
-        "Federated Learning",
+        "Synthetic Data",
         "Homomorphic Encryption",
-        "Synthetic Data"
+        "Federated Learning",
+        "Differential Privacy"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Differential privacy provides mathematically rigorous privacy guarantees."
     },
 
@@ -5764,12 +5764,12 @@ Continuing your learning journey:
       moduleId: 3,
       question: "What is the projected CAGR for the deep learning market?",
       options: [
-        "46.2%",
-        "38.5%",
         "52.1%",
-        "42.8%"
+        "46.2%",
+        "42.8%",
+        "38.5%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The deep learning market is projected to grow at a CAGR of 46.2% from 2022 to 2028."
     },
     {
@@ -5791,8 +5791,8 @@ Continuing your learning journey:
       question: "What does BERT stand for?",
       options: [
         "Bidirectional Encoder Representations from Transformers",
-        "Bidirectional Embedding Representations from Transformers",
         "Bidirectional Encoding Representations from Transformers",
+        "Bidirectional Embedding Representations from Transformers",
         "Bidirectional Extraction Representations from Transformers"
       ],
       correctAnswer: 0,
@@ -5803,12 +5803,12 @@ Continuing your learning journey:
       moduleId: 3,
       question: "Which generative model uses a generator and discriminator in adversarial training?",
       options: [
-        "GAN (Generative Adversarial Network)",
-        "VAE (Variational Autoencoder)",
         "Diffusion Model",
+        "VAE (Variational Autoencoder)",
+        "GAN (Generative Adversarial Network)",
         "Autoencoder"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "GANs use a generator and discriminator trained adversarially."
     },
 
@@ -5818,12 +5818,12 @@ Continuing your learning journey:
       moduleId: 4,
       question: "What is the expected CAGR for the global big data market?",
       options: [
+        "9.8%",
         "13.4%",
         "18.2%",
-        "22.5%",
-        "9.8%"
+        "22.5%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The global big data market is expected to grow at a CAGR of 13.4% from 2022 to 2029."
     },
     {
@@ -5832,9 +5832,9 @@ Continuing your learning journey:
       question: "Which of the 5 Vs refers to the scale of data?",
       options: [
         "Volume",
-        "Velocity",
         "Variety",
-        "Veracity"
+        "Veracity",
+        "Velocity"
       ],
       correctAnswer: 0,
       explanation: "Volume refers to the scale of data in big data systems."
@@ -5844,12 +5844,12 @@ Continuing your learning journey:
       moduleId: 4,
       question: "How many times faster is Spark than Hadoop MapReduce for iterative algorithms?",
       options: [
-        "100x faster",
-        "10x faster",
         "50x faster",
+        "10x faster",
+        "100x faster",
         "200x faster"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Spark's in-memory processing can be up to 100x faster than Hadoop MapReduce."
     },
     {
@@ -5857,12 +5857,12 @@ Continuing your learning journey:
       moduleId: 4,
       question: "What does RDD stand for in Spark?",
       options: [
-        "Resilient Distributed Dataset",
+        "Resilient Distributed Data",
         "Resilient Data Distribution",
-        "Recursive Distributed Data",
-        "Resilient Distributed Data"
+        "Resilient Distributed Dataset",
+        "Recursive Distributed Data"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "RDD stands for Resilient Distributed Dataset, Spark's fundamental data structure."
     },
 
@@ -5872,12 +5872,12 @@ Continuing your learning journey:
       moduleId: 5,
       question: "What is the projected CAGR for the global NLP market?",
       options: [
+        "36.2%",
         "29.4%",
-        "25.1%",
         "33.8%",
-        "36.2%"
+        "25.1%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The global NLP market is projected to grow at a CAGR of 29.4% from 2021 to 2029."
     },
     {
@@ -5885,12 +5885,12 @@ Continuing your learning journey:
       moduleId: 5,
       question: "Which Word2Vec architecture predicts context words given a target word?",
       options: [
-        "Skip-gram",
         "CBOW",
-        "GloVe",
-        "FastText"
+        "FastText",
+        "Skip-gram",
+        "GloVe"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Skip-gram predicts context words given a target word."
     },
     {
@@ -5899,8 +5899,8 @@ Continuing your learning journey:
       question: "What does NER stand for?",
       options: [
         "Named Entity Recognition",
-        "Natural Entity Recognition",
         "Named Extraction Recognition",
+        "Natural Entity Recognition",
         "Natural Extraction Recognition"
       ],
       correctAnswer: 0,
@@ -5911,12 +5911,12 @@ Continuing your learning journey:
       moduleId: 5,
       question: "What is the most common evaluation metric for machine translation?",
       options: [
-        "BLEU",
         "ROUGE",
         "METEOR",
+        "BLEU",
         "TER"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "BLEU is the most common metric for evaluating machine translation."
     },
 
@@ -5926,12 +5926,12 @@ Continuing your learning journey:
       moduleId: 6,
       question: "What is the projected CAGR for the computer vision market?",
       options: [
-        "14.3%",
         "18.5%",
-        "22.1%",
-        "10.8%"
+        "10.8%",
+        "14.3%",
+        "22.1%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The computer vision market is projected to grow at a CAGR of 14.3% from 2022 to 2030."
     },
     {
@@ -5939,12 +5939,12 @@ Continuing your learning journey:
       moduleId: 6,
       question: "Which CNN architecture introduced residual connections?",
       options: [
-        "ResNet",
-        "VGG",
         "AlexNet",
-        "GoogLeNet"
+        "GoogLeNet",
+        "VGG",
+        "ResNet"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "ResNet introduced residual connections."
     },
     {
@@ -5952,12 +5952,12 @@ Continuing your learning journey:
       moduleId: 6,
       question: "What does YOLO stand for in object detection?",
       options: [
-        "You Only Look Once",
         "You Observe Latent Objects",
+        "Yield Optimal Localized Objects",
         "Your Object Locator Optimized",
-        "Yield Optimal Localized Objects"
+        "You Only Look Once"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "YOLO stands for You Only Look Once."
     },
     {
@@ -5981,9 +5981,9 @@ Continuing your learning journey:
       question: "What is the expected CAGR for the time series analytics market?",
       options: [
         "12.8%",
-        "15.2%",
+        "10.3%",
         "18.5%",
-        "10.3%"
+        "15.2%"
       ],
       correctAnswer: 0,
       explanation: "The time series analytics market is expected to grow at a CAGR of 12.8% from 2021 to 2028."
@@ -5993,12 +5993,12 @@ Continuing your learning journey:
       moduleId: 7,
       question: "How many main components are in time series decomposition?",
       options: [
-        "Four",
-        "Three",
         "Two",
-        "Five"
+        "Three",
+        "Five",
+        "Four"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Time series decomposition has four components: Trend, Seasonality, Cyclical, and Irregular."
     },
     {
@@ -6006,12 +6006,12 @@ Continuing your learning journey:
       moduleId: 7,
       question: "Which test has null hypothesis of unit root (non-stationary)?",
       options: [
-        "Augmented Dickey-Fuller (ADF) test",
+        "Jarque-Bera test",
         "KPSS test",
         "Ljung-Box test",
-        "Jarque-Bera test"
+        "Augmented Dickey-Fuller (ADF) test"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "ADF test null hypothesis is that series has unit root (non-stationary)."
     },
     {
@@ -6020,9 +6020,9 @@ Continuing your learning journey:
       question: "Which model is specifically for volatility clustering in financial data?",
       options: [
         "GARCH",
+        "Prophet",
         "ARIMA",
-        "Holt-Winters",
-        "Prophet"
+        "Holt-Winters"
       ],
       correctAnswer: 0,
       explanation: "GARCH models volatility clustering in financial time series."
@@ -6034,12 +6034,12 @@ Continuing your learning journey:
       moduleId: 8,
       question: "What percentage of time do data scientists spend on data preparation?",
       options: [
-        "60-80%",
+        "80-90%",
         "40-60%",
-        "20-40%",
-        "80-90%"
+        "60-80%",
+        "20-40%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Data scientists spend approximately 60-80% of their time on data preparation."
     },
     {
@@ -6047,12 +6047,12 @@ Continuing your learning journey:
       moduleId: 8,
       question: "What does OLTP stand for?",
       options: [
-        "Online Transaction Processing",
-        "Online Transaction Protocol",
         "Online Transformation Processing",
-        "Online Transfer Processing"
+        "Online Transfer Processing",
+        "Online Transaction Processing",
+        "Online Transaction Protocol"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "OLTP stands for Online Transaction Processing."
     },
     {
@@ -6060,12 +6060,12 @@ Continuing your learning journey:
       moduleId: 8,
       question: "Which architecture has Bronze, Silver, and Gold layers?",
       options: [
-        "Medallion architecture",
         "Data mesh architecture",
         "Lambda architecture",
+        "Medallion architecture",
         "Kappa architecture"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Medallion architecture has Bronze (raw), Silver (cleaned), and Gold (business-ready) layers."
     },
     {
@@ -6073,12 +6073,12 @@ Continuing your learning journey:
       moduleId: 8,
       question: "Which Python library is for data testing and validation?",
       options: [
-        "Great Expectations",
+        "NumPy",
         "Pandas",
         "PySpark",
-        "NumPy"
+        "Great Expectations"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Great Expectations is a Python library for data testing and validation."
     },
 
@@ -6088,12 +6088,12 @@ Continuing your learning journey:
       moduleId: 9,
       question: "How much faster model deployment do organizations implementing MLOps typically see?",
       options: [
-        "2-5x faster",
-        "1.5-2x faster",
         "3-6x faster",
-        "5-10x faster"
+        "1.5-2x faster",
+        "5-10x faster",
+        "2-5x faster"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Organizations implementing MLOps see 2-5x faster model deployment."
     },
     {
@@ -6101,12 +6101,12 @@ Continuing your learning journey:
       moduleId: 9,
       question: "What does TFX stand for?",
       options: [
-        "TensorFlow Extended",
         "TensorFlow Execution",
-        "TensorFlow Experience",
-        "TensorFlow Expansion"
+        "TensorFlow Expansion",
+        "TensorFlow Extended",
+        "TensorFlow Experience"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "TFX stands for TensorFlow Extended."
     },
     {
@@ -6115,9 +6115,9 @@ Continuing your learning journey:
       question: "Which deployment pattern is for sporadic inference needs?",
       options: [
         "Serverless Inference",
+        "Edge Deployment",
         "Batch Inference",
-        "Real-time Inference",
-        "Edge Deployment"
+        "Real-time Inference"
       ],
       correctAnswer: 0,
       explanation: "Serverless inference is ideal for sporadic inference needs."
@@ -6127,12 +6127,12 @@ Continuing your learning journey:
       moduleId: 9,
       question: "Which drift type refers to input feature distribution changes?",
       options: [
+        "Prior probability shift",
         "Covariate shift",
-        "Concept drift",
         "Label drift",
-        "Prior probability shift"
+        "Concept drift"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Covariate shift occurs when input feature distribution changes."
     },
 
@@ -6142,12 +6142,12 @@ Continuing your learning journey:
       moduleId: 10,
       question: "What is the business goal for the predictive maintenance capstone project?",
       options: [
-        "Reduce unplanned downtime by 30% and maintenance costs by 25%",
         "Increase equipment efficiency by 20%",
-        "Reduce energy consumption by 15%",
-        "Improve product quality by 10%"
+        "Reduce unplanned downtime by 30% and maintenance costs by 25%",
+        "Improve product quality by 10%",
+        "Reduce energy consumption by 15%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The goal is to reduce unplanned downtime by 30% and maintenance costs by 25%."
     },
     {
@@ -6155,12 +6155,12 @@ Continuing your learning journey:
       moduleId: 10,
       question: "How much sensor data is available for the capstone project?",
       options: [
-        "1TB+ from 500+ machines over 2 years",
+        "100GB from 50 machines over 6 months",
         "500GB from 200 machines over 1 year",
         "2TB from 1000 machines over 3 years",
-        "100GB from 50 machines over 6 months"
+        "1TB+ from 500+ machines over 2 years"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The project involves 1TB+ of sensor data from 500+ machines over 2 years."
     },
     {
@@ -6181,12 +6181,12 @@ Continuing your learning journey:
       moduleId: 10,
       question: "Which streaming platform is recommended for data ingestion?",
       options: [
-        "Apache Kafka",
         "Apache Flink",
+        "Apache Kafka",
         "Spark Streaming",
         "Amazon Kinesis"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Apache Kafka is recommended for streaming data ingestion."
     }
   ]

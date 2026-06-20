@@ -157,96 +157,96 @@ Remember: The most effective persuasion doesn't feel like persuasion at all-it f
           id: 1,
           question: "What are the three modes of persuasion identified by Aristotle?",
           options: [
-            "Ethos, Pathos, Logos",
-            "Reason, Emotion, Authority",
             "Logic, Emotion, Credibility",
-            "Evidence, Story, Character"
+            "Reason, Emotion, Authority",
+            "Evidence, Story, Character",
+            "Ethos, Pathos, Logos"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Aristotle's classic framework includes credibility (ethos), emotion (pathos), and logic (logos) as the three pillars of persuasion."
         },
         {
           id: 2,
           question: "What is the first step in Monroe's Motivated Sequence?",
           options: [
-            "Attention",
             "Need",
-            "Satisfaction",
-            "Visualization"
+            "Attention",
+            "Visualization",
+            "Satisfaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The sequence begins with capturing audience attention before establishing the need for action."
         },
         {
           id: 3,
           question: "What component of credibility demonstrates knowledge and expertise?",
           options: [
-            "Competence",
-            "Trustworthiness",
             "Goodwill",
-            "Dynamism"
+            "Competence",
+            "Dynamism",
+            "Trustworthiness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competence establishes that you know what you're talking about through qualifications, experience, or knowledge."
         },
         {
           id: 4,
           question: "What type of reasoning moves from specific observations to general conclusions?",
           options: [
-            "Inductive reasoning",
+            "Analogical reasoning",
             "Deductive reasoning",
             "Causal reasoning",
-            "Analogical reasoning"
+            "Inductive reasoning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Inductive reasoning builds general principles from specific examples or observations."
         },
         {
           id: 5,
           question: "What persuasive technique demonstrates that others are already convinced?",
           options: [
-            "Social proof",
+            "Authority",
             "Reciprocity",
             "Scarcity",
-            "Authority"
+            "Social proof"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social proof uses evidence that others have accepted an idea to reduce uncertainty and build credibility."
         },
         {
           id: 6,
           question: "What emotion inspires action toward positive goals?",
           options: [
-            "Hope",
-            "Fear",
+            "Pride",
             "Anger",
-            "Pride"
+            "Hope",
+            "Fear"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Hope motivates by creating a compelling vision of a better future that seems attainable."
         },
         {
           id: 7,
           question: "What should you do with legitimate concerns from opposing views?",
           options: [
-            "Acknowledge them fairly",
-            "Ignore them completely",
+            "Dismiss them as irrelevant",
             "Attack them aggressively",
-            "Dismiss them as irrelevant"
+            "Acknowledge them fairly",
+            "Ignore them completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Acknowledging valid opposing points builds credibility and shows thorough consideration of the issue."
         },
         {
           id: 8,
           question: "What makes calls to action more effective?",
           options: [
-            "Specificity and clarity",
             "Vagueness and flexibility",
             "Complexity and sophistication",
+            "Specificity and clarity",
             "Generality and openness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Specific, clear calls to action leave no ambiguity about what you want the audience to do."
         },
         {
@@ -254,9 +254,9 @@ Remember: The most effective persuasion doesn't feel like persuasion at all-it f
           question: "What is the visualization step in Monroe's sequence?",
           options: [
             "Helping audiences see benefits or consequences",
+            "Showing pictures or diagrams",
             "Creating visual aids",
-            "Imagining your own success",
-            "Showing pictures or diagrams"
+            "Imagining your own success"
           ],
           correctAnswer: 0,
           explanation: "Visualization helps audiences emotionally experience the benefits of your solution or consequences of inaction."
@@ -267,8 +267,8 @@ Remember: The most effective persuasion doesn't feel like persuasion at all-it f
           options: [
             "Goodwill",
             "Competence",
-            "Trustworthiness",
-            "Dynamism"
+            "Dynamism",
+            "Trustworthiness"
           ],
           correctAnswer: 0,
           explanation: "Goodwill demonstrates that you have the audience's best interests at heart, not just your own agenda."
@@ -277,72 +277,72 @@ Remember: The most effective persuasion doesn't feel like persuasion at all-it f
           id: 11,
           question: "What type of reasoning moves from general principles to specific conclusions?",
           options: [
-            "Deductive reasoning",
-            "Inductive reasoning",
+            "Sign reasoning",
             "Causal reasoning",
-            "Sign reasoning"
+            "Inductive reasoning",
+            "Deductive reasoning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Deductive reasoning applies broad principles to specific cases to reach logical conclusions."
         },
         {
           id: 12,
           question: "What persuasive principle suggests people feel obligated to return favors?",
           options: [
-            "Reciprocity",
             "Social proof",
-            "Consistency",
-            "Liking"
+            "Reciprocity",
+            "Liking",
+            "Consistency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Reciprocity creates a sense of obligation that can make audiences more receptive to requests."
         },
         {
           id: 13,
           question: "What should ethical persuasion always prioritize?",
           options: [
-            "Truthfulness and respect",
+            "Entertaining the audience",
             "Effectiveness at any cost",
-            "Winning the argument",
-            "Entertaining the audience"
+            "Truthfulness and respect",
+            "Winning the argument"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ethical persuasion respects audience autonomy and presents information honestly rather than manipulatively."
         },
         {
           id: 14,
           question: "What step in Monroe's sequence presents your solution?",
           options: [
+            "Attention",
             "Satisfaction",
             "Need",
-            "Attention",
             "Action"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Satisfaction presents how your proposal addresses the need established in the previous step."
         },
         {
           id: 15,
           question: "What component of credibility involves presenting with confidence?",
           options: [
-            "Dynamism",
-            "Competence",
             "Trustworthiness",
-            "Goodwill"
+            "Competence",
+            "Goodwill",
+            "Dynamism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Dynamism reflects your energy and confidence, which can make your message more compelling."
         },
         {
           id: 16,
           question: "What type of argument establishes cause-and-effect relationships?",
           options: [
-            "Causal arguments",
-            "Deductive arguments",
             "Inductive arguments",
-            "Analogical arguments"
+            "Deductive arguments",
+            "Analogical arguments",
+            "Causal arguments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Causal arguments explain how one thing leads to another, establishing logical connections."
         },
         {
@@ -350,9 +350,9 @@ Remember: The most effective persuasion doesn't feel like persuasion at all-it f
           question: "What emotion at injustice can motivate positive change?",
           options: [
             "Anger",
+            "Pride",
             "Fear",
-            "Hope",
-            "Pride"
+            "Hope"
           ],
           correctAnswer: 0,
           explanation: "Righteous anger at unfairness or injustice can motivate people to work toward change."
@@ -361,36 +361,36 @@ Remember: The most effective persuasion doesn't feel like persuasion at all-it f
           id: 18,
           question: "What should effective calls to action include?",
           options: [
-            "Urgency and achievability",
+            "Generality and flexibility",
             "Complexity and challenge",
-            "Vagueness and openness",
-            "Generality and flexibility"
+            "Urgency and achievability",
+            "Vagueness and openness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Calls to action should create urgency while remaining within the audience's capability to accomplish."
         },
         {
           id: 19,
           question: "What is the final step in Monroe's Motivated Sequence?",
           options: [
-            "Action",
-            "Visualization",
             "Satisfaction",
-            "Need"
+            "Action",
+            "Need",
+            "Visualization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The sequence culminates in a clear call to action specifying what the audience should do."
         },
         {
           id: 20,
           question: "What should persuasion aim to feel like rather than manipulation?",
           options: [
-            "Discovery of truth",
-            "Being convinced",
             "Entertainment",
-            "Education"
+            "Education",
+            "Discovery of truth",
+            "Being convinced"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The most effective persuasion helps audiences feel they're discovering truth themselves rather than being manipulated."
         }
       ]
@@ -561,24 +561,24 @@ Remember: The best stories don't tell people what to think or feel-they create e
           id: 1,
           question: "What occurs when audiences become immersed in a story?",
           options: [
-            "Narrative transportation",
             "Cognitive dissonance",
+            "Narrative transportation",
             "Selective attention",
             "Information overload"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Narrative transportation describes the experience of being mentally and emotionally absorbed in a story world."
         },
         {
           id: 2,
           question: "What drives a story forward and creates interest?",
           options: [
+            "Theme",
             "Conflict",
             "Characters",
-            "Setting",
-            "Theme"
+            "Setting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Conflict creates the tension and challenge that makes audiences want to know what happens next."
         },
         {
@@ -586,9 +586,9 @@ Remember: The best stories don't tell people what to think or feel-they create e
           question: "What classic structure involves a character leaving, transforming, and returning?",
           options: [
             "The Hero's Journey",
-            "Three-Act Structure",
+            "Before-After-Bridge",
             "Problem-Solution",
-            "Before-After-Bridge"
+            "Three-Act Structure"
           ],
           correctAnswer: 0,
           explanation: "The Hero's Journey follows a character's departure from normality, transformative experiences, and return with new wisdom."
@@ -597,132 +597,132 @@ Remember: The best stories don't tell people what to think or feel-they create e
           id: 4,
           question: "How much better is information remembered in stories versus facts alone?",
           options: [
+            "Slightly worse",
             "Up to 22 times better",
-            "About twice as well",
             "Exactly the same",
-            "Slightly worse"
+            "About twice as well"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Research shows stories dramatically improve information retention compared to presenting facts in isolation."
         },
         {
           id: 5,
           question: "What should you do first when developing a story?",
           options: [
-            "Select the core message",
+            "Plan the exact wording",
             "Choose all the details",
             "Decide on character names",
-            "Plan the exact wording"
+            "Select the core message"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Beginning with your intended message ensures all story elements serve your communication purpose."
         },
         {
           id: 6,
           question: "What brain cells activate to create empathy during storytelling?",
           options: [
-            "Mirror neurons",
-            "Sensory neurons",
             "Motor neurons",
-            "Glial cells"
+            "Glial cells",
+            "Sensory neurons",
+            "Mirror neurons"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mirror neurons fire both when we perform actions and when we observe others performing them, creating shared experience."
         },
         {
           id: 7,
           question: "What story structure contrasts what is with what could be?",
           options: [
-            "Sparklines",
-            "Hero's Journey",
             "Three-Act Structure",
-            "Problem-Solution"
+            "Problem-Solution",
+            "Hero's Journey",
+            "Sparklines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sparklines create emotional tension by juxtaposing current reality with potential improvement."
         },
         {
           id: 8,
           question: "What should you adjust based on audience knowledge level?",
           options: [
-            "Technical details",
-            "Core message",
             "Emotional content",
-            "Story truthfulness"
+            "Story truthfulness",
+            "Core message",
+            "Technical details"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Adapting technical complexity ensures stories remain accessible without oversimplifying for expert audiences."
         },
         {
           id: 9,
           question: "What common pitake involves too many specifics?",
           options: [
-            "Overloading with details",
             "Lack of conflict",
             "Moralizing",
-            "Inauthenticity"
+            "Inauthenticity",
+            "Overloading with details"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Excessive details distract from the core message and slow narrative momentum."
         },
         {
           id: 10,
           question: "What type of stories make abstract concepts concrete in technical presentations?",
           options: [
-            "Case studies",
-            "Personal anecdotes",
             "Hypothetical scenarios",
-            "Historical narratives"
+            "Case studies",
+            "Historical narratives",
+            "Personal anecdotes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Case studies provide concrete examples of how principles work in real-world situations."
         },
         {
           id: 11,
           question: "What element establishes mood and context for a story?",
           options: [
-            "Setting",
+            "Plot",
             "Conflict",
-            "Characters",
-            "Plot"
+            "Setting",
+            "Characters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Setting provides the time, place, and circumstances that shape character actions and story possibilities."
         },
         {
           id: 12,
           question: "What structure includes setup, confrontation, and resolution?",
           options: [
-            "Three-Act Structure",
+            "Problem-Solution",
             "Hero's Journey",
-            "Before-After-Bridge",
-            "Problem-Solution"
+            "Three-Act Structure",
+            "Before-After-Bridge"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The classic three-act structure provides clear beginning, middle, and end organization."
         },
         {
           id: 13,
           question: "What should stories in persuasive speeches create?",
           options: [
-            "Emotional connection",
-            "Technical understanding",
+            "Entertainment value",
             "Historical context",
-            "Entertainment value"
+            "Emotional connection",
+            "Technical understanding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Emotional connection through stories supports and amplifies logical arguments in persuasion."
         },
         {
           id: 14,
           question: "What should you include to enhance story immersion?",
           options: [
+            "Complex vocabulary",
             "Relevant sensory details",
-            "Every possible fact",
             "Multiple subplots",
-            "Complex vocabulary"
+            "Every possible fact"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Carefully chosen sensory details help audiences visualize and emotionally engage with the story."
         },
         {
@@ -730,9 +730,9 @@ Remember: The best stories don't tell people what to think or feel-they create e
           question: "What pitake involves explicitly stating the story's message?",
           options: [
             "Moralizing",
-            "Over-detailing",
             "Inauthenticity",
-            "Poor timing"
+            "Poor timing",
+            "Over-detailing"
           ],
           correctAnswer: 0,
           explanation: "Trusting audiences to discover meaning creates more powerful impact than explicitly stating 'the moral is...'"
@@ -741,12 +741,12 @@ Remember: The best stories don't tell people what to think or feel-they create e
           id: 16,
           question: "What type of stories create intimacy in ceremonial speeches?",
           options: [
-            "Personal stories",
             "Case studies",
             "Historical narratives",
+            "Personal stories",
             "Hypothetical scenarios"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Personal stories build connection and significance in celebratory or commemorative contexts."
         },
         {
@@ -755,8 +755,8 @@ Remember: The best stories don't tell people what to think or feel-they create e
           options: [
             "Audience response and recall",
             "Only your own satisfaction",
-            "Story length alone",
-            "Vocabulary complexity"
+            "Vocabulary complexity",
+            "Story length alone"
           ],
           correctAnswer: 0,
           explanation: "Observing audience engagement and testing what they remember reveals story effectiveness."
@@ -765,24 +765,24 @@ Remember: The best stories don't tell people what to think or feel-they create e
           id: 18,
           question: "What element answers 'What's this story really about?'",
           options: [
+            "Plot",
             "Theme",
             "Conflict",
-            "Plot",
             "Setting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Theme represents the deeper meaning or insight the story conveys beyond surface events."
         },
         {
           id: 19,
           question: "What should you have for time-constrained situations?",
           options: [
-            "Abbreviated story versions",
-            "No stories at all",
             "Only written stories",
-            "Very complex stories"
+            "No stories at all",
+            "Very complex stories",
+            "Abbreviated story versions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Having both full and condensed versions allows flexibility while maintaining story impact."
         },
         {
@@ -957,8 +957,8 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           options: [
             "Chest voice",
             "Head voice",
-            "Mixed voice",
-            "Nasal voice"
+            "Nasal voice",
+            "Mixed voice"
           ],
           correctAnswer: 0,
           explanation: "Chest voice resonates in the chest cavity, creating a richer, more authoritative sound."
@@ -967,72 +967,72 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           id: 2,
           question: "What are brief, involuntary facial expressions called?",
           options: [
-            "Micro-expressions",
+            "Intentional expressions",
             "Macro-expressions",
             "Controlled expressions",
-            "Intentional expressions"
+            "Micro-expressions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Micro-expressions flash across the face in fractions of seconds, revealing genuine emotions."
         },
         {
           id: 3,
           question: "What pacing technique gradually speeds up delivery?",
           options: [
-            "Accelerando",
-            "Ritardando",
+            "Staccato",
             "Rubato",
-            "Staccato"
+            "Ritardando",
+            "Accelerando"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Accelerando creates building excitement or urgency through gradual acceleration."
         },
         {
           id: 4,
           question: "What distance is appropriate for personal stories (about 1.5 feet)?",
           options: [
-            "Intimate distance",
-            "Personal distance",
             "Social distance",
+            "Personal distance",
+            "Intimate distance",
             "Public distance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Intimate distance creates closeness appropriate for sharing personal or emotional content."
         },
         {
           id: 5,
           question: "What does energy mapping involve?",
           options: [
-            "Planning energy levels throughout speech",
             "Measuring audience energy exactly",
-            "Creating energy from nothing",
-            "Eliminating all energy variations"
+            "Planning energy levels throughout speech",
+            "Eliminating all energy variations",
+            "Creating energy from nothing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Energy mapping strategically plans where to deploy different energy levels for maximum impact."
         },
         {
           id: 6,
           question: "What alignment builds credibility between words, voice, and body?",
           options: [
+            "Authenticity",
             "Congruence",
             "Vulnerability",
-            "Authenticity",
             "Personality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Congruence ensures all communication channels send consistent messages, building trust."
         },
         {
           id: 7,
           question: "What is the 10-20-30 rule for slides?",
           options: [
-            "10 slides max, 20 minutes, 30-point font",
-            "10 words per slide, 20 slides max, 30 minutes",
+            "10 slides minimum, 20 words, 30-point maximum",
             "10 images minimum, 20 minutes, 30% text",
-            "10 slides minimum, 20 words, 30-point maximum"
+            "10 words per slide, 20 slides max, 30 minutes",
+            "10 slides max, 20 minutes, 30-point font"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "This guideline keeps slides supportive rather than dominant in presentations."
         },
         {
@@ -1040,9 +1040,9 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           question: "What should you match initially before leading audiences?",
           options: [
             "Their energy level",
-            "Their vocabulary",
+            "Their opinions",
             "Their clothing style",
-            "Their opinions"
+            "Their vocabulary"
           ],
           correctAnswer: 0,
           explanation: "Matching energy creates rapport before gradually guiding audiences to desired engagement levels."
@@ -1051,24 +1051,24 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           id: 9,
           question: "What type of pause builds dramatic tension (about 5 seconds)?",
           options: [
-            "Dramatic pause",
-            "Emphatic pause",
+            "Transitional pause",
             "Reflective pause",
-            "Transitional pause"
+            "Dramatic pause",
+            "Emphatic pause"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Extended silence creates anticipation and focuses attention on what comes next."
         },
         {
           id: 10,
           question: "What involves staying responsive to actual audience feedback?",
           options: [
+            "Vulnerability calibration",
             "Present moment awareness",
             "Ego management",
-            "Vulnerability calibration",
             "Personality integration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Present awareness allows real-time adjustment rather than delivering canned performances."
         },
         {
@@ -1076,9 +1076,9 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           question: "What vocal technique enriches sound through amplification?",
           options: [
             "Resonance",
-            "Articulation",
             "Placement",
-            "Fry"
+            "Fry",
+            "Articulation"
           ],
           correctAnswer: 0,
           explanation: "Resonance amplifies vocal tones through vibration in chest, mouth, or nasal cavities."
@@ -1087,12 +1087,12 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           id: 12,
           question: "What gesture suggests openness and receptivity?",
           options: [
-            "Palms up",
-            "Palms down",
             "Steepled fingers",
-            "Clenched fists"
+            "Palms up",
+            "Clenched fists",
+            "Palms down"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Open palm gestures communicate transparency, invitation, and non-threatening posture."
         },
         {
@@ -1100,9 +1100,9 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           question: "What pacing technique gradually slows delivery?",
           options: [
             "Ritardando",
+            "Legato",
             "Accelerando",
-            "Rubato",
-            "Legato"
+            "Rubato"
           ],
           correctAnswer: 0,
           explanation: "Ritardando creates gravity and importance through deliberate slowing."
@@ -1111,84 +1111,84 @@ Remember: Advanced delivery isn't about adding more techniques-it's about master
           id: 14,
           question: "What stage position emphasizes logic and facts?",
           options: [
-            "Right side (from audience view)",
-            "Left side (from audience view)",
             "Center stage",
-            "Downstage front"
+            "Left side (from audience view)",
+            "Downstage front",
+            "Right side (from audience view)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stage right traditionally associates with logical, factual content in Western presentation contexts."
         },
         {
           id: 15,
           question: "What creates interest through shifts between high and low energy?",
           options: [
-            "Contrast creation",
             "Energy matching",
-            "Sustainable energy",
-            "Energy mapping"
+            "Contrast creation",
+            "Energy mapping",
+            "Sustainable energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic contrast prevents monotony and emphasizes important moments through variation."
         },
         {
           id: 16,
           question: "What involves appropriate sharing of genuine emotion?",
           options: [
-            "Vulnerability calibration",
-            "Congruence",
             "Personality integration",
+            "Congruence",
+            "Vulnerability calibration",
             "Ego management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Calibrated vulnerability shows humanity without overwhelming the message with emotion."
         },
         {
           id: 17,
           question: "What microphone type allows full movement?",
           options: [
-            "Lavalier microphone",
             "Handheld microphone",
+            "Lavalier microphone",
             "Podium microphone",
             "Shotgun microphone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lavalier microphones clip to clothing, freeing hands and allowing full stage movement."
         },
         {
           id: 18,
           question: "What should you do when something isn't working during delivery?",
           options: [
-            "Make mid-course corrections",
-            "Continue exactly as planned",
             "Apologize repeatedly",
-            "End the speech early"
+            "Continue exactly as planned",
+            "End the speech early",
+            "Make mid-course corrections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Adapting gracefully to what's actually working shows expertise and audience focus."
         },
         {
           id: 19,
           question: "What communication channels should be aligned for congruence?",
           options: [
-            "Words, voice, body, and emotions",
-            "Only words and voice",
+            "Only slides and handouts",
             "Only body and appearance",
-            "Only slides and handouts"
+            "Words, voice, body, and emotions",
+            "Only words and voice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Full congruence across all communication channels creates powerful, believable delivery."
         },
         {
           id: 20,
           question: "What allows focus on audience connection rather than technique?",
           options: [
-            "Mastering fundamentals completely",
             "Adding many new techniques",
-            "Memorizing every gesture",
-            "Following scripts exactly"
+            "Mastering fundamentals completely",
+            "Following scripts exactly",
+            "Memorizing every gesture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Complete mastery of basics frees mental space for authentic audience engagement."
         }
       ]
@@ -1390,24 +1390,24 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           id: 1,
           question: "What should you do with resistance before it disrupts?",
           options: [
-            "Address it preemptively",
-            "Ignore it completely",
             "Confront it aggressively",
-            "Apologize for it"
+            "Apologize for it",
+            "Ignore it completely",
+            "Address it preemptively"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Preemptive acknowledgment of potential disagreement disarms resistance and shows awareness."
         },
         {
           id: 2,
           question: "How long should you wait for technology to resolve itself?",
           options: [
+            "At least a minute",
             "About 10 seconds",
             "Immediately fix it",
-            "At least a minute",
             "Until audience complains"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Brief waiting allows spontaneous resolution while avoiding drawn-out technical struggles."
         },
         {
@@ -1415,9 +1415,9 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           question: "What should you do first during a memory lapse?",
           options: [
             "Pause briefly",
-            "Apologize profusely",
+            "Make something up",
             "Start over",
-            "Make something up"
+            "Apologize profusely"
           ],
           correctAnswer: 0,
           explanation: "Brief silence appears deliberate and gives you time to recover without drawing attention to the lapse."
@@ -1426,12 +1426,12 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           id: 4,
           question: "What approach acknowledges validity before adding perspective?",
           options: [
-            "'Yes, and...' approach",
-            "'No, but...' approach",
             "Direct contradiction",
+            "'No, but...' approach",
+            "'Yes, and...' approach",
             "Complete agreement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Building on rather than dismissing questions creates more productive dialogue."
         },
         {
@@ -1439,9 +1439,9 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           question: "What technique involves feeling your feet and noticing breathing?",
           options: [
             "Physical grounding",
-            "Mental reframing",
             "Focus narrowing",
-            "Routine establishment"
+            "Routine establishment",
+            "Mental reframing"
           ],
           correctAnswer: 0,
           explanation: "Grounding techniques bring awareness to the present moment and reduce anxiety."
@@ -1450,24 +1450,24 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           id: 6,
           question: "What mindset views changes as opportunities?",
           options: [
-            "Adaptation mindset",
             "Perfection mindset",
-            "Control mindset",
-            "Avoidance mindset"
+            "Avoidance mindset",
+            "Adaptation mindset",
+            "Control mindset"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Viewing changes as opportunities to demonstrate flexibility reduces stress and improves performance."
         },
         {
           id: 7,
           question: "What principle guides crisis communication?",
           options: [
+            "STOP principle",
             "CARE principle",
             "FAST principle",
-            "STOP principle",
             "GO principle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CARE stands for Concern, Action, Reassurance, Explanation in crisis communication."
         },
         {
@@ -1475,9 +1475,9 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           question: "What should you distinguish between during emotionally charged speaking?",
           options: [
             "Your role and personal feelings",
+            "Logic and emotion",
             "Facts and opinions",
-            "Past and present",
-            "Logic and emotion"
+            "Past and present"
           ],
           correctAnswer: 0,
           explanation: "Separating professional role from personal emotion allows effective delivery while acknowledging genuine feeling."
@@ -1486,24 +1486,24 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           id: 9,
           question: "What involves gradually exposing yourself to challenges?",
           options: [
-            "Stress inoculation",
-            "Avoidance training",
             "Perfection practice",
+            "Avoidance training",
+            "Stress inoculation",
             "Isolation technique"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Gradual exposure builds resilience by increasing tolerance for challenging situations."
         },
         {
           id: 10,
           question: "What should you do with hostile questioners who dominate?",
           options: [
-            "Invite others to participate",
-            "Engage only with them",
             "Ask them to leave",
-            "Ignore them completely"
+            "Ignore them completely",
+            "Engage only with them",
+            "Invite others to participate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Redirecting to other questioners maintains control while respecting all participants."
         },
         {
@@ -1512,8 +1512,8 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           options: [
             "Continue talking about related topics",
             "Stand in silence",
-            "Complain about technology",
-            "End the presentation"
+            "End the presentation",
+            "Complain about technology"
           ],
           correctAnswer: 0,
           explanation: "Maintaining verbal flow during technical issues demonstrates professionalism and keeps engagement."
@@ -1522,96 +1522,96 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           id: 12,
           question: "What should you review mentally during memory lapses?",
           options: [
-            "Your speech structure",
+            "Time remaining",
             "Your exact wording",
             "Audience reactions",
-            "Time remaining"
+            "Your speech structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Returning to outline structure helps recover flow more effectively than trying to recall exact phrases."
         },
         {
           id: 13,
           question: "What should you ensure before responding to difficult questions?",
           options: [
-            "You understand the question",
-            "You have perfect answers",
             "The questioner is qualified",
+            "You have perfect answers",
+            "You understand the question",
             "Others agree with the question"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clarifying questions ensures you address actual concerns rather than assumptions."
         },
         {
           id: 14,
           question: "What focuses attention on next sentence rather than entire speech?",
           options: [
-            "Focus narrowing",
             "Mental reframing",
-            "Physical grounding",
-            "Routine establishment"
+            "Focus narrowing",
+            "Routine establishment",
+            "Physical grounding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Concentrating on immediate next steps reduces overwhelm in high-pressure situations."
         },
         {
           id: 15,
           question: "What requires pace, vocabulary, and idiom adjustment?",
           options: [
-            "Language considerations for diverse audiences",
-            "Technical content preparation",
             "Emotional delivery techniques",
-            "Memory strategy development"
+            "Memory strategy development",
+            "Language considerations for diverse audiences",
+            "Technical content preparation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adapting language ensures comprehension and respect across linguistic differences."
         },
         {
           id: 16,
           question: "What should you avoid in crisis communication?",
           options: [
-            "Speculation",
-            "Transparency",
+            "Action orientation",
             "Repetition",
-            "Action orientation"
+            "Speculation",
+            "Transparency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sticking to confirmed information prevents spreading misinformation during crises."
         },
         {
           id: 17,
           question: "What technique uses strong feelings to energize delivery?",
           options: [
-            "Channeling emotion",
-            "Suppressing emotion",
             "Ignoring emotion",
-            "Amplifying emotion"
+            "Amplifying emotion",
+            "Suppressing emotion",
+            "Channeling emotion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Productive channeling uses emotional energy to enhance rather than disrupt communication."
         },
         {
           id: 18,
           question: "What involves imagining challenging situations beforehand?",
           options: [
-            "Scenario planning",
-            "Wishful thinking",
             "Avoidance strategy",
-            "Perfection seeking"
+            "Perfection seeking",
+            "Scenario planning",
+            "Wishful thinking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Mental preparation for various scenarios builds confidence and adaptability."
         },
         {
           id: 19,
           question: "What should you do with irrelevant questions?",
           options: [
-            "Politely deflect to more relevant topics",
-            "Answer in great detail",
             "Criticize the question",
-            "Ignore the questioner"
+            "Answer in great detail",
+            "Ignore the questioner",
+            "Politely deflect to more relevant topics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Gracious deflection maintains focus while respecting questioners' participation."
         },
         {
@@ -1619,9 +1619,9 @@ Remember: The measure of a speaker isn't whether challenges occur-they always do
           question: "What measures a speaker's skill according to this module?",
           options: [
             "How challenges are navigated",
-            "Whether challenges occur",
+            "How challenges are avoided",
             "How many challenges occur",
-            "How challenges are avoided"
+            "Whether challenges occur"
           ],
           correctAnswer: 0,
           explanation: "Skillful navigation of inevitable challenges distinguishes advanced speakers."
@@ -1798,12 +1798,12 @@ Remember: Leadership through speaking is not about having all the answers, but a
           id: 1,
           question: "What involves articulating compelling future states?",
           options: [
-            "Vision casting",
-            "Culture shaping",
+            "Change mobilization",
             "Decision framing",
-            "Change mobilization"
+            "Vision casting",
+            "Culture shaping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vision casting creates inspiring pictures of possible futures that guide present action."
         },
         {
@@ -1811,8 +1811,8 @@ Remember: Leadership through speaking is not about having all the answers, but a
           question: "What should leadership voice reflect?",
           options: [
             "Unique perspective and values",
-            "Imitation of successful leaders",
             "Current popular styles",
+            "Imitation of successful leaders",
             "Academic perfection"
           ],
           correctAnswer: 0,
@@ -1822,48 +1822,48 @@ Remember: Leadership through speaking is not about having all the answers, but a
           id: 3,
           question: "What involves primary messages with supporting messages?",
           options: [
-            "Message hierarchy",
-            "Audience segmentation",
             "Channel alignment",
-            "Timing sequencing"
+            "Audience segmentation",
+            "Timing sequencing",
+            "Message hierarchy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hierarchical organization ensures all communication supports core leadership themes."
         },
         {
           id: 4,
           question: "What builds credibility through knowledge demonstration?",
           options: [
+            "Consistency",
             "Competence",
             "Character",
-            "Connection",
-            "Consistency"
+            "Connection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Demonstrating understanding of complex issues establishes leadership competence."
         },
         {
           id: 5,
           question: "What is essential when influencing without formal authority?",
           options: [
-            "Relationship building",
             "Command giving",
+            "Position using",
             "Authority claiming",
-            "Position using"
+            "Relationship building"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strong relationships provide influence foundation when formal authority is absent."
         },
         {
           id: 6,
           question: "What stimulates thinking in group facilitation?",
           options: [
+            "Technical terminology",
             "Powerful questions",
             "Lengthy speeches",
-            "Complex instructions",
-            "Technical terminology"
+            "Complex instructions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Well-crafted questions generate insight and engagement more effectively than statements."
         },
         {
@@ -1871,9 +1871,9 @@ Remember: Leadership through speaking is not about having all the answers, but a
           question: "What tells why change is necessary and how to succeed?",
           options: [
             "The change narrative",
-            "Resistance management",
             "Progress communication",
-            "Role modeling"
+            "Role modeling",
+            "Resistance management"
           ],
           correctAnswer: 0,
           explanation: "Compelling change stories create understanding and motivation for transformation."
@@ -1882,36 +1882,36 @@ Remember: Leadership through speaking is not about having all the answers, but a
           id: 8,
           question: "What sets the tone in crisis leadership?",
           options: [
-            "First response",
             "Final resolution",
-            "Middle management",
-            "External consultants"
+            "First response",
+            "External consultants",
+            "Middle management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Initial communication during crisis establishes credibility and approach for everything that follows."
         },
         {
           id: 9,
           question: "What helps others find their voice rather than imposing style?",
           options: [
-            "Coaching",
-            "Correcting",
             "Criticizing",
-            "Controlling"
+            "Controlling",
+            "Correcting",
+            "Coaching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Coaching develops others' authentic communication capabilities rather than creating clones."
         },
         {
           id: 10,
           question: "What is commitment to accuracy even when inconvenient?",
           options: [
-            "Truthfulness",
-            "Transparency",
+            "Accountability",
             "Respect",
-            "Accountability"
+            "Truthfulness",
+            "Transparency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Truthful communication builds long-term trust even when short-term messages are difficult."
         },
         {
@@ -1919,9 +1919,9 @@ Remember: Leadership through speaking is not about having all the answers, but a
           question: "What creates organizational reality through language?",
           options: [
             "Culture shaping",
-            "Vision casting",
             "Decision framing",
-            "Crisis navigation"
+            "Crisis navigation",
+            "Vision casting"
           ],
           correctAnswer: 0,
           explanation: "The stories, questions, and values leaders emphasize shape what becomes important in organizations."
@@ -1930,96 +1930,96 @@ Remember: Leadership through speaking is not about having all the answers, but a
           id: 12,
           question: "What involves sharing personal challenges appropriately?",
           options: [
-            "Vulnerability with boundaries",
             "Complete openness",
+            "Professional distance",
             "Emotional detachment",
-            "Professional distance"
+            "Vulnerability with boundaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Calibrated vulnerability builds connection without compromising necessary authority."
         },
         {
           id: 13,
           question: "What needs repetition through different stories and examples?",
           options: [
+            "Technical specifications",
             "Key ideas",
             "Minor details",
-            "Technical specifications",
             "Personal opinions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic repetition through varied contexts embeds important messages in audience understanding."
         },
         {
           id: 14,
           question: "What reveals character through communication?",
           options: [
-            "Honesty about challenges",
             "Perfect presentation",
+            "Honesty about challenges",
             "Complex vocabulary",
             "Entertaining delivery"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "How leaders handle difficult communication situations reveals their character more than easy successes."
         },
         {
           id: 15,
           question: "What involves identifying and mobilizing supporters?",
           options: [
-            "Coalition creation",
             "Expertise establishment",
             "Relationship building",
-            "Framing mastery"
+            "Framing mastery",
+            "Coalition creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Building networks of influence multiplies leadership impact beyond individual persuasion."
         },
         {
           id: 16,
           question: "What draws together diverse perspectives?",
           options: [
-            "Synthesizing ability",
             "Question crafting",
             "Listening leadership",
-            "Conflict navigation"
+            "Conflict navigation",
+            "Synthesizing ability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Synthesis creates shared understanding from varied contributions during group discussions."
         },
         {
           id: 17,
           question: "What anticipates and addresses concerns about change?",
           options: [
-            "Resistance management",
+            "Reinforcement systems",
             "Progress communication",
             "Role modeling",
-            "Reinforcement systems"
+            "Resistance management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Proactive engagement with resistance prevents small concerns from becoming major obstacles."
         },
         {
           id: 18,
           question: "What provides regular updates during crisis?",
           options: [
-            "Information rhythm",
             "Emotional calibration",
+            "Future focus",
             "Action orientation",
-            "Future focus"
+            "Information rhythm"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Consistent communication prevents information vacuums that breed speculation and anxiety."
         },
         {
           id: 19,
           question: "What normalizes development by sharing challenges?",
           options: [
-            "Modeling vulnerability",
             "Providing platforms",
-            "Giving feedback",
-            "Celebrating progress"
+            "Celebrating progress",
+            "Modeling vulnerability",
+            "Giving feedback"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leaders sharing their own growth challenges makes development feel achievable for others."
         },
         {
@@ -2027,9 +2027,9 @@ Remember: Leadership through speaking is not about having all the answers, but a
           question: "What is not about having all answers according to this module?",
           options: [
             "Leadership through speaking",
-            "Technical expertise",
+            "Entertainment skill",
             "Memory capability",
-            "Entertainment skill"
+            "Technical expertise"
           ],
           correctAnswer: 0,
           explanation: "Leadership speaking focuses on creating shared understanding and inspiration rather than demonstrating omniscience."
@@ -2221,9 +2221,9 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           question: "What involves identifying specific knowledge you offer?",
           options: [
             "Core expertise identification",
+            "Brand consistency",
             "Unique value proposition",
-            "Target audience definition",
-            "Brand consistency"
+            "Target audience definition"
           ],
           correctAnswer: 0,
           explanation: "Clear expertise definition helps potential clients understand what specific value you provide."
@@ -2233,9 +2233,9 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           question: "What are well-developed presentations showcasing your style?",
           options: [
             "Signature speeches",
-            "Improvised talks",
+            "Technical demonstrations",
             "Theoretical lectures",
-            "Technical demonstrations"
+            "Improvised talks"
           ],
           correctAnswer: 0,
           explanation: "Signature speeches represent your best work and demonstrate consistent quality to potential clients."
@@ -2244,48 +2244,48 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           id: 3,
           question: "What establishes expertise through consistent content sharing?",
           options: [
+            "Pitching effectiveness",
             "Social media strategy",
-            "Website development",
             "Networking approach",
-            "Pitching effectiveness"
+            "Website development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Regular valuable content sharing builds visibility and credibility over time."
         },
         {
           id: 4,
           question: "What do speaking bureaus typically provide?",
           options: [
+            "Content development",
             "Connections and logistics",
-            "Speech writing",
             "Delivery coaching",
-            "Content development"
+            "Speech writing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bureaus specialize in connecting speakers with opportunities and managing administrative details."
         },
         {
           id: 5,
           question: "What involves understanding where your fees fit in the market?",
           options: [
-            "Market positioning",
+            "Negotiation principles",
             "Fee structuring",
-            "Value communication",
-            "Negotiation principles"
+            "Market positioning",
+            "Value communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Understanding typical fees for similar speakers in your niche informs realistic pricing."
         },
         {
           id: 6,
           question: "What is the first step in speech customization?",
           options: [
-            "Client discovery",
-            "Content adaptation",
+            "Pre-event preparation",
             "Integration coordination",
-            "Pre-event preparation"
+            "Content adaptation",
+            "Client discovery"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Understanding client needs and audience characteristics enables effective customization."
         },
         {
@@ -2294,8 +2294,8 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           options: [
             "Booking systems",
             "Travel management",
-            "Materials preparation",
-            "Invoicing systems"
+            "Invoicing systems",
+            "Materials preparation"
           ],
           correctAnswer: 0,
           explanation: "Organized booking systems prevent missed opportunities and administrative errors."
@@ -2304,12 +2304,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           id: 8,
           question: "What involves staying current with industry developments?",
           options: [
-            "Trend awareness",
             "Skill enhancement",
-            "Peer learning",
-            "Mentorship relationships"
+            "Trend awareness",
+            "Mentorship relationships",
+            "Peer learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Industry awareness helps speakers remain relevant and competitive."
         },
         {
@@ -2318,8 +2318,8 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           options: [
             "Travel management strategies",
             "Energy preservation techniques",
-            "Boundary setting",
-            "Diversification"
+            "Diversification",
+            "Boundary setting"
           ],
           correctAnswer: 0,
           explanation: "Intentional travel management prevents burnout and maintains personal wellbeing."
@@ -2328,12 +2328,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           id: 10,
           question: "What indicates success through audience influence?",
           options: [
-            "Impact assessment",
             "Client satisfaction",
             "Professional recognition",
+            "Impact assessment",
             "Personal fulfillment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Measuring how presentations change thinking or behavior demonstrates meaningful impact."
         },
         {
@@ -2341,9 +2341,9 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           question: "What distinguishes you from other speakers?",
           options: [
             "Unique value proposition",
-            "Core expertise",
             "Target audience",
-            "Brand consistency"
+            "Brand consistency",
+            "Core expertise"
           ],
           correctAnswer: 0,
           explanation: "Your unique combination of content, style, and experience creates distinctive value."
@@ -2352,108 +2352,108 @@ Remember: A successful speaking career is built not just on speaking skill, but 
           id: 12,
           question: "What adapts speeches into articles or videos?",
           options: [
-            "Content repurposing",
-            "Testimonial collection",
             "Recording library",
-            "Case study creation"
+            "Case study creation",
+            "Testimonial collection",
+            "Content repurposing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Repurposing extends content reach and demonstrates expertise across platforms."
         },
         {
           id: 13,
           question: "What builds relationships with event organizers?",
           options: [
+            "Social media strategy",
             "Networking approach",
             "Website development",
-            "Social media strategy",
             "Pitching effectiveness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Professional relationships often lead to repeat bookings and referrals."
         },
         {
           id: 14,
           question: "What do speakers provide in bureau relationships?",
           options: [
+            "Marketing and sales",
             "Content and delivery",
             "Connections and logistics",
-            "Marketing and sales",
             "Legal and financial"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Speakers deliver the actual presentation content and performance that bureaus market."
         },
         {
           id: 15,
           question: "What articulates return on investment for organizers?",
           options: [
-            "Value communication",
-            "Fee structuring",
             "Market positioning",
-            "Negotiation principles"
+            "Fee structuring",
+            "Negotiation principles",
+            "Value communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Helping organizers understand speaking benefits justifies fees and creates win-win outcomes."
         },
         {
           id: 16,
           question: "What modifies examples for specific audiences?",
           options: [
-            "Content adaptation",
             "Client discovery",
-            "Integration coordination",
-            "Pre-event preparation"
+            "Pre-event preparation",
+            "Content adaptation",
+            "Integration coordination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Audience-specific examples increase relevance and engagement."
         },
         {
           id: 17,
           question: "What requires professional handling for timely compensation?",
           options: [
+            "Materials preparation",
             "Invoicing and payment",
             "Booking systems",
-            "Travel management",
-            "Materials preparation"
+            "Travel management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Efficient financial systems ensure business sustainability."
         },
         {
           id: 18,
           question: "What involves engagement with other speakers for mutual growth?",
           options: [
-            "Peer learning",
             "Skill enhancement",
-            "Trend awareness",
-            "Mentorship relationships"
+            "Peer learning",
+            "Mentorship relationships",
+            "Trend awareness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Learning from and with colleagues accelerates professional development."
         },
         {
           id: 19,
           question: "What defines reasonable availability and protects preparation time?",
           options: [
-            "Boundary setting",
             "Travel management",
             "Energy preservation",
-            "Diversification"
+            "Diversification",
+            "Boundary setting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Clear boundaries prevent overcommitment and ensure quality preparation."
         },
         {
           id: 20,
           question: "What requires accurate descriptions of capabilities?",
           options: [
-            "Truthful representation",
             "Content originality",
             "Confidentiality respect",
-            "Contract fulfillment"
+            "Contract fulfillment",
+            "Truthful representation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Honest representation builds long-term trust and professional reputation."
         }
       ]
@@ -2479,12 +2479,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 2,
       question: "What is the first step in Monroe's Motivated Sequence?",
       options: [
-        "Attention",
         "Need",
-        "Satisfaction",
-        "Visualization"
+        "Visualization",
+        "Attention",
+        "Satisfaction"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 1",
       explanation: "The sequence begins with capturing audience attention before establishing the need for action."
     },
@@ -2492,12 +2492,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 3,
       question: "What occurs when audiences become immersed in a story?",
       options: [
+        "Information overload",
         "Narrative transportation",
-        "Cognitive dissonance",
         "Selective attention",
-        "Information overload"
+        "Cognitive dissonance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 2",
       explanation: "Narrative transportation describes the experience of being mentally and emotionally absorbed in a story world."
     },
@@ -2505,12 +2505,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 4,
       question: "What drives a story forward and creates interest?",
       options: [
-        "Conflict",
         "Characters",
         "Setting",
-        "Theme"
+        "Theme",
+        "Conflict"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 2",
       explanation: "Conflict creates the tension and challenge that makes audiences want to know what happens next."
     },
@@ -2518,12 +2518,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 5,
       question: "What vocal quality conveys authority through lower vibration?",
       options: [
-        "Chest voice",
-        "Head voice",
+        "Nasal voice",
         "Mixed voice",
-        "Nasal voice"
+        "Head voice",
+        "Chest voice"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 3",
       explanation: "Chest voice resonates in the chest cavity, creating a richer, more authoritative sound."
     },
@@ -2531,12 +2531,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 6,
       question: "What are brief, involuntary facial expressions called?",
       options: [
-        "Micro-expressions",
-        "Macro-expressions",
+        "Intentional expressions",
         "Controlled expressions",
-        "Intentional expressions"
+        "Macro-expressions",
+        "Micro-expressions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 3",
       explanation: "Micro-expressions flash across the face in fractions of seconds, revealing genuine emotions."
     },
@@ -2544,12 +2544,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 7,
       question: "What should you do with resistance before it disrupts?",
       options: [
-        "Address it preemptively",
+        "Apologize for it",
         "Ignore it completely",
         "Confront it aggressively",
-        "Apologize for it"
+        "Address it preemptively"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 4",
       explanation: "Preemptive acknowledgment of potential disagreement disarms resistance and shows awareness."
     },
@@ -2557,12 +2557,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 8,
       question: "How long should you wait for technology to resolve itself?",
       options: [
+        "Until audience complains",
         "About 10 seconds",
-        "Immediately fix it",
         "At least a minute",
-        "Until audience complains"
+        "Immediately fix it"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 4",
       explanation: "Brief waiting allows spontaneous resolution while avoiding drawn-out technical struggles."
     },
@@ -2570,12 +2570,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 9,
       question: "What involves articulating compelling future states?",
       options: [
-        "Vision casting",
-        "Culture shaping",
         "Decision framing",
-        "Change mobilization"
+        "Culture shaping",
+        "Change mobilization",
+        "Vision casting"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 5",
       explanation: "Vision casting creates inspiring pictures of possible futures that guide present action."
     },
@@ -2584,9 +2584,9 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       question: "What should leadership voice reflect?",
       options: [
         "Unique perspective and values",
-        "Imitation of successful leaders",
         "Current popular styles",
-        "Academic perfection"
+        "Academic perfection",
+        "Imitation of successful leaders"
       ],
       correctAnswer: 0,
       module: "Module 5",
@@ -2596,12 +2596,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 11,
       question: "What involves identifying specific knowledge you offer?",
       options: [
-        "Core expertise identification",
         "Unique value proposition",
+        "Brand consistency",
         "Target audience definition",
-        "Brand consistency"
+        "Core expertise identification"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 6",
       explanation: "Clear expertise definition helps potential clients understand what specific value you provide."
     },
@@ -2622,12 +2622,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 13,
       question: "What component of credibility demonstrates knowledge and expertise?",
       options: [
-        "Competence",
-        "Trustworthiness",
         "Goodwill",
-        "Dynamism"
+        "Dynamism",
+        "Competence",
+        "Trustworthiness"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 1",
       explanation: "Competence establishes that you know what you're talking about through qualifications, experience, or knowledge."
     },
@@ -2635,12 +2635,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 14,
       question: "What type of reasoning moves from specific observations to general conclusions?",
       options: [
-        "Inductive reasoning",
-        "Deductive reasoning",
+        "Analogical reasoning",
         "Causal reasoning",
-        "Analogical reasoning"
+        "Deductive reasoning",
+        "Inductive reasoning"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 1",
       explanation: "Inductive reasoning builds general principles from specific examples or observations."
     },
@@ -2648,12 +2648,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 15,
       question: "What classic structure involves a character leaving, transforming, and returning?",
       options: [
-        "The Hero's Journey",
         "Three-Act Structure",
+        "The Hero's Journey",
         "Problem-Solution",
         "Before-After-Bridge"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 2",
       explanation: "The Hero's Journey follows a character's departure from normality, transformative experiences, and return with new wisdom."
     },
@@ -2661,12 +2661,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 16,
       question: "How much better is information remembered in stories versus facts alone?",
       options: [
-        "Up to 22 times better",
+        "Slightly worse",
         "About twice as well",
-        "Exactly the same",
-        "Slightly worse"
+        "Up to 22 times better",
+        "Exactly the same"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 2",
       explanation: "Research shows stories dramatically improve information retention compared to presenting facts in isolation."
     },
@@ -2674,12 +2674,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 17,
       question: "What pacing technique gradually speeds up delivery?",
       options: [
-        "Accelerando",
         "Ritardando",
+        "Accelerando",
         "Rubato",
         "Staccato"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 3",
       explanation: "Accelerando creates building excitement or urgency through gradual acceleration."
     },
@@ -2687,12 +2687,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 18,
       question: "What distance is appropriate for personal stories (about 1.5 feet)?",
       options: [
-        "Intimate distance",
-        "Personal distance",
+        "Public distance",
         "Social distance",
-        "Public distance"
+        "Personal distance",
+        "Intimate distance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 3",
       explanation: "Intimate distance creates closeness appropriate for sharing personal or emotional content."
     },
@@ -2700,12 +2700,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 19,
       question: "What should you do first during a memory lapse?",
       options: [
-        "Pause briefly",
-        "Apologize profusely",
         "Start over",
-        "Make something up"
+        "Make something up",
+        "Apologize profusely",
+        "Pause briefly"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 4",
       explanation: "Brief silence appears deliberate and gives you time to recover without drawing attention to the lapse."
     },
@@ -2713,12 +2713,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 20,
       question: "What approach acknowledges validity before adding perspective?",
       options: [
-        "'Yes, and...' approach",
         "'No, but...' approach",
+        "'Yes, and...' approach",
         "Direct contradiction",
         "Complete agreement"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 4",
       explanation: "Building on rather than dismissing questions creates more productive dialogue."
     },
@@ -2726,12 +2726,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 21,
       question: "What involves primary messages with supporting messages?",
       options: [
+        "Channel alignment",
         "Message hierarchy",
         "Audience segmentation",
-        "Channel alignment",
         "Timing sequencing"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 5",
       explanation: "Hierarchical organization ensures all communication supports core leadership themes."
     },
@@ -2739,12 +2739,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 22,
       question: "What builds credibility through knowledge demonstration?",
       options: [
+        "Connection",
         "Competence",
         "Character",
-        "Connection",
         "Consistency"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 5",
       explanation: "Demonstrating understanding of complex issues establishes leadership competence."
     },
@@ -2752,12 +2752,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 23,
       question: "What establishes expertise through consistent content sharing?",
       options: [
-        "Social media strategy",
         "Website development",
-        "Networking approach",
-        "Pitching effectiveness"
+        "Social media strategy",
+        "Pitching effectiveness",
+        "Networking approach"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 6",
       explanation: "Regular valuable content sharing builds visibility and credibility over time."
     },
@@ -2765,12 +2765,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 24,
       question: "What do speaking bureaus typically provide?",
       options: [
-        "Connections and logistics",
         "Speech writing",
-        "Delivery coaching",
-        "Content development"
+        "Connections and logistics",
+        "Content development",
+        "Delivery coaching"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 6",
       explanation: "Bureaus specialize in connecting speakers with opportunities and managing administrative details."
     },
@@ -2791,12 +2791,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 26,
       question: "What emotion inspires action toward positive goals?",
       options: [
-        "Hope",
         "Fear",
         "Anger",
-        "Pride"
+        "Pride",
+        "Hope"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 1",
       explanation: "Hope motivates by creating a compelling vision of a better future that seems attainable."
     },
@@ -2804,12 +2804,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 27,
       question: "What should you do first when developing a story?",
       options: [
-        "Select the core message",
-        "Choose all the details",
         "Decide on character names",
-        "Plan the exact wording"
+        "Plan the exact wording",
+        "Select the core message",
+        "Choose all the details"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: "Module 2",
       explanation: "Beginning with your intended message ensures all story elements serve your communication purpose."
     },
@@ -2818,9 +2818,9 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       question: "What brain cells activate to create empathy during storytelling?",
       options: [
         "Mirror neurons",
-        "Sensory neurons",
         "Motor neurons",
-        "Glial cells"
+        "Glial cells",
+        "Sensory neurons"
       ],
       correctAnswer: 0,
       module: "Module 2",
@@ -2831,9 +2831,9 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       question: "What does energy mapping involve?",
       options: [
         "Planning energy levels throughout speech",
-        "Measuring audience energy exactly",
         "Creating energy from nothing",
-        "Eliminating all energy variations"
+        "Eliminating all energy variations",
+        "Measuring audience energy exactly"
       ],
       correctAnswer: 0,
       module: "Module 3",
@@ -2843,12 +2843,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 30,
       question: "What alignment builds credibility between words, voice, and body?",
       options: [
-        "Congruence",
         "Vulnerability",
         "Authenticity",
-        "Personality"
+        "Personality",
+        "Congruence"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 3",
       explanation: "Congruence ensures all communication channels send consistent messages, building trust."
     },
@@ -2856,12 +2856,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 31,
       question: "What technique involves feeling your feet and noticing breathing?",
       options: [
-        "Physical grounding",
         "Mental reframing",
+        "Physical grounding",
         "Focus narrowing",
         "Routine establishment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 4",
       explanation: "Grounding techniques bring awareness to the present moment and reduce anxiety."
     },
@@ -2869,12 +2869,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 32,
       question: "What mindset views changes as opportunities?",
       options: [
-        "Adaptation mindset",
+        "Avoidance mindset",
         "Perfection mindset",
         "Control mindset",
-        "Avoidance mindset"
+        "Adaptation mindset"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 4",
       explanation: "Viewing changes as opportunities to demonstrate flexibility reduces stress and improves performance."
     },
@@ -2895,12 +2895,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 34,
       question: "What stimulates thinking in group facilitation?",
       options: [
-        "Powerful questions",
-        "Lengthy speeches",
         "Complex instructions",
-        "Technical terminology"
+        "Powerful questions",
+        "Technical terminology",
+        "Lengthy speeches"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 5",
       explanation: "Well-crafted questions generate insight and engagement more effectively than statements."
     },
@@ -2908,12 +2908,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 35,
       question: "What involves understanding where your fees fit in the market?",
       options: [
-        "Market positioning",
-        "Fee structuring",
         "Value communication",
-        "Negotiation principles"
+        "Market positioning",
+        "Negotiation principles",
+        "Fee structuring"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 6",
       explanation: "Understanding typical fees for similar speakers in your niche informs realistic pricing."
     },
@@ -2922,9 +2922,9 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       question: "What is the first step in speech customization?",
       options: [
         "Client discovery",
+        "Pre-event preparation",
         "Content adaptation",
-        "Integration coordination",
-        "Pre-event preparation"
+        "Integration coordination"
       ],
       correctAnswer: 0,
       module: "Module 6",
@@ -2934,12 +2934,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 37,
       question: "What should you do with legitimate concerns from opposing views?",
       options: [
-        "Acknowledge them fairly",
+        "Dismiss them as irrelevant",
         "Ignore them completely",
         "Attack them aggressively",
-        "Dismiss them as irrelevant"
+        "Acknowledge them fairly"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 1",
       explanation: "Acknowledging valid opposing points builds credibility and shows thorough consideration of the issue."
     },
@@ -2947,12 +2947,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 38,
       question: "What element establishes mood and context for a story?",
       options: [
-        "Setting",
         "Conflict",
-        "Characters",
-        "Plot"
+        "Setting",
+        "Plot",
+        "Characters"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 2",
       explanation: "Setting provides the time, place, and circumstances that shape character actions and story possibilities."
     },
@@ -2960,12 +2960,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 39,
       question: "What is the 10-20-30 rule for slides?",
       options: [
-        "10 slides max, 20 minutes, 30-point font",
+        "10 slides minimum, 20 words, 30-point maximum",
         "10 words per slide, 20 slides max, 30 minutes",
         "10 images minimum, 20 minutes, 30% text",
-        "10 slides minimum, 20 words, 30-point maximum"
+        "10 slides max, 20 minutes, 30-point font"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: "Module 3",
       explanation: "This guideline keeps slides supportive rather than dominant in presentations."
     },
@@ -2973,12 +2973,12 @@ Remember: A successful speaking career is built not just on speaking skill, but 
       id: 40,
       question: "What principle guides crisis communication?",
       options: [
-        "CARE principle",
         "FAST principle",
+        "CARE principle",
         "STOP principle",
         "GO principle"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: "Module 4",
       explanation: "CARE stands for Concern, Action, Reassurance, Explanation in crisis communication."
     }

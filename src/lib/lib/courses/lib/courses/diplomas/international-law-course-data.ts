@@ -106,72 +106,72 @@ Understanding these foundations prepares you for the complex interplay of legal 
           id: 1,
           question: "What is a key characteristic of international law compared to domestic law?",
           options: [
-            "No central enforcement authority",
-            "Strict penalties for violations",
+            "Single legislative body",
             "Complete compliance by all states",
-            "Single legislative body"
+            "No central enforcement authority",
+            "Strict penalties for violations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "International law lacks a central authority to enforce rules, relying instead on state cooperation and international pressure."
         },
         {
           id: 2,
           question: "Which is NOT a primary source of international law according to the ICJ Statute?",
           options: [
-            "National constitutions",
             "International treaties",
-            "International custom",
-            "General principles of law"
+            "National constitutions",
+            "General principles of law",
+            "International custom"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "National constitutions are domestic laws, not primary sources of international law, though they may influence general principles."
         },
         {
           id: 3,
           question: "What two elements are required for international custom?",
           options: [
-            "Consistent state practice and legal belief",
-            "Treaty ratification and implementation",
             "Judicial decisions and scholarly approval",
-            "Government declarations and public support"
+            "Treaty ratification and implementation",
+            "Government declarations and public support",
+            "Consistent state practice and legal belief"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Customary international law requires both objective state practice and subjective belief that the practice is legally required (opinio juris)."
         },
         {
           id: 4,
           question: "What are the primary subjects of international law?",
           options: [
-            "Sovereign states",
-            "Individual citizens",
+            "Local governments",
             "Business corporations",
-            "Local governments"
+            "Individual citizens",
+            "Sovereign states"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sovereign states are the primary subjects with full international legal personality, though other entities have limited status."
         },
         {
           id: 5,
           question: "What does sovereign equality mean in international law?",
           options: [
-            "All states are equal before the law",
             "All states have equal power",
             "All states have equal wealth",
+            "All states are equal before the law",
             "All states have equal territory"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sovereign equality means all states have equal legal status regardless of size, power, or wealth."
         },
         {
           id: 6,
           question: "Which principle prohibits interfering in other states' internal affairs?",
           options: [
-            "Non-intervention",
             "Sovereign equality",
+            "Non-intervention",
             "Good faith",
             "Peaceful settlement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The principle of non-intervention protects states' domestic jurisdiction from external interference."
         },
         {
@@ -180,8 +180,8 @@ Understanding these foundations prepares you for the complex interplay of legal 
           options: [
             "Bilateral treaty",
             "Multilateral treaty",
-            "Universal treaty",
-            "Regional treaty"
+            "Regional treaty",
+            "Universal treaty"
           ],
           correctAnswer: 0,
           explanation: "Bilateral treaties are agreements between two states, while multilateral treaties involve three or more."
@@ -190,84 +190,84 @@ Understanding these foundations prepares you for the complex interplay of legal 
           id: 8,
           question: "What is required for an entity to be considered a state?",
           options: [
-            "Defined territory, population, government, and external capacity",
             "UN membership and international recognition",
             "Large military and economic power",
-            "Democratic government and human rights record"
+            "Democratic government and human rights record",
+            "Defined territory, population, government, and external capacity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Montevideo Convention criteria include defined territory, permanent population, effective government, and capacity to enter international relations."
         },
         {
           id: 9,
           question: "What principle requires states to act honestly in international relations?",
           options: [
-            "Good faith",
-            "Sovereign equality",
             "Non-intervention",
-            "Reciprocity"
+            "Reciprocity",
+            "Good faith",
+            "Sovereign equality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The principle of good faith (pacta sunt servanda) requires honest performance of international obligations."
         },
         {
           id: 10,
           question: "Which is a subsidiary means for determining international law rules?",
           options: [
+            "Customary behavior",
             "Judicial decisions",
-            "Treaty negotiations",
             "State practice",
-            "Customary behavior"
+            "Treaty negotiations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Judicial decisions are subsidiary sources that help identify and interpret international law rules."
         },
         {
           id: 11,
           question: "What type of legal personality do international organizations have?",
           options: [
+            "No legal personality",
             "Limited personality granted by member states",
             "Full personality equal to states",
-            "No legal personality",
             "Personality only for commercial activities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "International organizations have limited legal personality as granted by their member states through founding treaties."
         },
         {
           id: 12,
           question: "What is the subjective element required for customary international law?",
           options: [
+            "Judicial recognition",
             "Belief that practice is legally required",
             "Written government policy",
-            "Public approval",
-            "Judicial recognition"
+            "Public approval"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Opinio juris is the belief that state practice is legally obligatory, not just habitual or convenient."
         },
         {
           id: 13,
           question: "Which principle requires states to resolve conflicts without force?",
           options: [
+            "Sovereign immunity",
             "Peaceful settlement of disputes",
             "Good faith implementation",
-            "Sovereign immunity",
             "Territorial integrity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "States must seek peaceful resolution of disputes through negotiation, mediation, arbitration, or judicial means."
         },
         {
           id: 14,
           question: "What are general principles of law derived from?",
           options: [
-            "Comparison of domestic legal systems",
+            "Academic theories only",
             "UN Security Council resolutions",
             "International treaty provisions",
-            "Academic theories only"
+            "Comparison of domestic legal systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "General principles are identified by comparing legal systems of different states to find common fundamental principles."
         },
         {
@@ -275,8 +275,8 @@ Understanding these foundations prepares you for the complex interplay of legal 
           question: "What characteristic makes international law 'horizontal'?",
           options: [
             "States are both creators and subjects of rules",
-            "All rules apply equally to everyone",
             "No hierarchy among legal sources",
+            "All rules apply equally to everyone",
             "Decisions require unanimous agreement"
           ],
           correctAnswer: 0,
@@ -297,48 +297,48 @@ Understanding these foundations prepares you for the complex interplay of legal 
           id: 17,
           question: "What does the consensual nature of international law mean?",
           options: [
+            "No rules apply without explicit consent",
             "States generally follow rules they've agreed to",
-            "All states must consent to all rules",
             "Rules require unanimous approval",
-            "No rules apply without explicit consent"
+            "All states must consent to all rules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "While some rules like customary law bind all states, treaty obligations generally only bind consenting states."
         },
         {
           id: 18,
           question: "Which is an example of a multilateral treaty?",
           options: [
-            "UN Charter",
             "Extradition agreement between two states",
+            "Diplomatic notes exchange",
             "Bilateral investment treaty",
-            "Diplomatic notes exchange"
+            "UN Charter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The UN Charter is a multilateral treaty involving nearly all states, creating universal obligations."
         },
         {
           id: 19,
           question: "What principle prevents states from abusing their rights?",
           options: [
-            "Good faith",
-            "Sovereign equality",
             "Non-intervention",
-            "Territorial integrity"
+            "Territorial integrity",
+            "Good faith",
+            "Sovereign equality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Good faith includes the principle that states should not exercise their rights in ways that abuse or harm others."
         },
         {
           id: 20,
           question: "What is soft enforcement in international law?",
           options: [
-            "Reliance on reciprocity and reputation",
-            "Military intervention for violations",
+            "Criminal prosecution of state leaders",
             "Automatic sanctions by central authority",
-            "Criminal prosecution of state leaders"
+            "Military intervention for violations",
+            "Reliance on reciprocity and reputation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Soft enforcement mechanisms include diplomatic pressure, reputational costs, and reciprocal non-compliance."
         }
       ]
@@ -487,48 +487,48 @@ Understanding treaty law is essential since treaties create the most specific an
           id: 1,
           question: "What is the primary legal framework governing treaties?",
           options: [
-            "Vienna Convention on the Law of Treaties",
-            "UN Charter provisions",
             "Customary international law",
-            "International Court of Justice Statute"
+            "Vienna Convention on the Law of Treaties",
+            "International Court of Justice Statute",
+            "UN Charter provisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Vienna Convention on the Law of Treaties (1969) provides the comprehensive framework for treaty law."
         },
         {
           id: 2,
           question: "What is the pacta tertiis rule?",
           options: [
-            "Treaties only bind consenting parties",
-            "All treaties must have three parties",
+            "Treaties automatically bind all states",
             "Third states can enforce treaty provisions",
-            "Treaties automatically bind all states"
+            "All treaties must have three parties",
+            "Treaties only bind consenting parties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pacta tertiis nec nocent nec prosunt means treaties cannot create obligations or rights for third states without their consent."
         },
         {
           id: 3,
           question: "What is the difference between ratification and accession?",
           options: [
-            "Ratification follows negotiation; accession by non-participating states",
-            "Ratification is informal; accession is formal",
+            "Ratification requires legislative approval; accession does not",
             "Only democratic states ratify; others accede",
-            "Ratification requires legislative approval; accession does not"
+            "Ratification is informal; accession is formal",
+            "Ratification follows negotiation; accession by non-participating states"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ratification confirms consent after negotiation participation, while accession allows non-participating states to join."
         },
         {
           id: 4,
           question: "What is the primary rule for treaty interpretation?",
           options: [
-            "Good faith according to ordinary meaning in context",
-            "Strict literal interpretation",
             "Intent of the drafters only",
-            "Most restrictive interpretation"
+            "Most restrictive interpretation",
+            "Good faith according to ordinary meaning in context",
+            "Strict literal interpretation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "VCLT Article 31 requires good faith interpretation according to ordinary meaning in context of object and purpose."
         },
         {
@@ -547,12 +547,12 @@ Understanding treaty law is essential since treaties create the most specific an
           id: 6,
           question: "What makes a reservation invalid?",
           options: [
-            "Incompatible with treaty's object and purpose",
-            "Not accepted by all other parties",
+            "Relating to minor provisions only",
             "Made after treaty ratification",
-            "Relating to minor provisions only"
+            "Incompatible with treaty's object and purpose",
+            "Not accepted by all other parties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reservations incompatible with a treaty's essential purpose are impermissible regardless of other states' reactions."
         },
         {
@@ -560,9 +560,9 @@ Understanding treaty law is essential since treaties create the most specific an
           question: "What is an absolute ground for treaty invalidity?",
           options: [
             "Coercion by threat of force",
+            "Political disagreement",
             "Change in government",
-            "Economic difficulties",
-            "Political disagreement"
+            "Economic difficulties"
           ],
           correctAnswer: 0,
           explanation: "Coercion of a state by threat or use of force voids a treaty ab initio under VCLT Article 52."
@@ -571,12 +571,12 @@ Understanding treaty law is essential since treaties create the most specific an
           id: 8,
           question: "When can fundamental change of circumstances terminate a treaty?",
           options: [
+            "Economic conditions worsen slightly",
             "Change radically transforms obligations and was unforeseen",
             "Any political change occurs",
-            "Economic conditions worsen slightly",
             "New government dislikes treaty"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fundamental change (rebus sic stantibus) requires radical transformation of obligations that was not foreseen."
         },
         {
@@ -584,8 +584,8 @@ Understanding treaty law is essential since treaties create the most specific an
           question: "What is provisional application of a treaty?",
           options: [
             "Applying treaty before formal entry into force",
-            "Temporary treaty for emergencies",
             "Experimental treaty application",
+            "Temporary treaty for emergencies",
             "Partial implementation only"
           ],
           correctAnswer: 0,
@@ -595,12 +595,12 @@ Understanding treaty law is essential since treaties create the most specific an
           id: 10,
           question: "What happens when a new jus cogens norm conflicts with a treaty?",
           options: [
+            "States can choose which to follow",
             "Treaty becomes void and terminates",
-            "Treaty continues unchanged",
             "Only conflicting provisions void",
-            "States can choose which to follow"
+            "Treaty continues unchanged"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Under VCLT Article 64, emergence of a new peremptory norm voids conflicting treaties entirely."
         },
         {
@@ -608,9 +608,9 @@ Understanding treaty law is essential since treaties create the most specific an
           question: "What is authentication of a treaty?",
           options: [
             "Establishing text as definitive and authentic",
-            "Verifying signatures are genuine",
             "Confirming parties' legal capacity",
-            "Registering treaty with UN"
+            "Registering treaty with UN",
+            "Verifying signatures are genuine"
           ],
           correctAnswer: 0,
           explanation: "Authentication establishes the treaty text as definitive, usually through signature, initialing, or incorporation in final act."
@@ -619,24 +619,24 @@ Understanding treaty law is essential since treaties create the most specific an
           id: 12,
           question: "What does 'object and purpose' refer to in treaty law?",
           options: [
-            "Essential goals and aims of the treaty",
             "Physical objects covered by treaty",
+            "Implementation methods only",
             "Parties' subjective intentions",
-            "Implementation methods only"
+            "Essential goals and aims of the treaty"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Object and purpose refers to the treaty's fundamental aims, crucial for interpretation and reservation permissibility."
         },
         {
           id: 13,
           question: "What is a unilateral statement that modifies legal effect?",
           options: [
-            "Reservation",
             "Declaration",
+            "Reservation",
             "Interpretive statement",
             "Protest"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A reservation is a unilateral statement that seeks to exclude or modify the legal effect of specific provisions."
         },
         {
@@ -645,8 +645,8 @@ Understanding treaty law is essential since treaties create the most specific an
           options: [
             "For substantial violation by one party",
             "For any minor violation",
-            "Only for human rights treaties",
-            "Never for multilateral treaties"
+            "Never for multilateral treaties",
+            "Only for human rights treaties"
           ],
           correctAnswer: 0,
           explanation: "Material breach (substantial violation) allows other parties to terminate or suspend treaty relations."
@@ -667,36 +667,36 @@ Understanding treaty law is essential since treaties create the most specific an
           id: 16,
           question: "What is the effect of an invalid reservation?",
           options: [
-            "State remains bound by treaty without reservation",
+            "Other states must accept invalid reservation",
             "Treaty becomes entirely void for that state",
             "State cannot become party at all",
-            "Other states must accept invalid reservation"
+            "State remains bound by treaty without reservation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "An invalid reservation is severed, and the state remains bound by the treaty without the benefit of the reservation."
         },
         {
           id: 17,
           question: "What are travaux préparatoires?",
           options: [
+            "Official interpretations",
             "Preparatory work of treaty negotiations",
             "Final treaty text",
-            "Official interpretations",
             "Implementation reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Travaux préparatoires are documents from treaty negotiations, used as supplementary interpretation means."
         },
         {
           id: 18,
           question: "What is denunciation of a treaty?",
           options: [
-            "Unilateral withdrawal by a party",
             "Declaration treaty is invalid",
-            "Suspension of performance",
-            "Amendment process"
+            "Unilateral withdrawal by a party",
+            "Amendment process",
+            "Suspension of performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Denunciation is a party's unilateral withdrawal from a treaty according to its terms or by consent."
         },
         {
@@ -704,9 +704,9 @@ Understanding treaty law is essential since treaties create the most specific an
           question: "What happens if a treaty is silent on withdrawal?",
           options: [
             "Withdrawal possible if parties intended or nature implies",
+            "Withdrawal allowed anytime",
             "Withdrawal never permitted",
-            "Withdrawal requires UN approval",
-            "Withdrawal allowed anytime"
+            "Withdrawal requires UN approval"
           ],
           correctAnswer: 0,
           explanation: "If silent, withdrawal is permitted if parties intended or the treaty's nature implies a right of withdrawal."
@@ -715,12 +715,12 @@ Understanding treaty law is essential since treaties create the most specific an
           id: 20,
           question: "What is the principle of good faith in treaty performance?",
           options: [
-            "Pacta sunt servanda - treaties must be performed",
-            "Treaties can be ignored if inconvenient",
+            "Performance required only if others comply",
             "Only profitable treaties need performance",
-            "Performance required only if others comply"
+            "Treaties can be ignored if inconvenient",
+            "Pacta sunt servanda - treaties must be performed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pacta sunt servanda means treaties in force must be performed by parties in good faith."
         }
       ]
@@ -869,12 +869,12 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 1,
           question: "What are the two basic elements of state responsibility?",
           options: [
-            "Attributable conduct and breach of obligation",
             "Fault and damage",
+            "Treaty violation and injury",
             "Intent and causation",
-            "Treaty violation and injury"
+            "Attributable conduct and breach of obligation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "State responsibility requires conduct attributable to the state under international law that breaches an international obligation."
         },
         {
@@ -894,9 +894,9 @@ Understanding state responsibility is crucial for maintaining the international 
           question: "When are ultra vires acts of state organs attributable?",
           options: [
             "When acting in official capacity",
+            "Only if causing major damage",
             "Never, if beyond authority",
-            "Only if authorized later",
-            "Only if causing major damage"
+            "Only if authorized later"
           ],
           correctAnswer: 0,
           explanation: "Even acts exceeding authority are attributable if the organ was acting in its official capacity."
@@ -905,12 +905,12 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 4,
           question: "What circumstance precludes wrongfulness for saving lives?",
           options: [
-            "Distress",
-            "Necessity",
+            "Self-defense",
             "Force majeure",
-            "Self-defense"
+            "Distress",
+            "Necessity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Distress applies when the only way to save lives is to breach an obligation, without contributing to the situation."
         },
         {
@@ -918,9 +918,9 @@ Understanding state responsibility is crucial for maintaining the international 
           question: "What is the preferred form of reparation?",
           options: [
             "Restitution",
-            "Compensation",
             "Satisfaction",
-            "Apology"
+            "Apology",
+            "Compensation"
           ],
           correctAnswer: 0,
           explanation: "Restitution (re-establishing the pre-breach situation) is the primary form of reparation when possible."
@@ -929,12 +929,12 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 6,
           question: "What must states do regarding serious breaches of peremptory norms?",
           options: [
-            "Not recognize situation as lawful",
+            "Ignore the breach",
             "Remain neutral",
-            "Support the breaching state",
-            "Ignore the breach"
+            "Not recognize situation as lawful",
+            "Support the breaching state"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "All states have an obligation not to recognize as lawful situations created by serious jus cogens breaches."
         },
         {
@@ -942,9 +942,9 @@ Understanding state responsibility is crucial for maintaining the international 
           question: "What is diplomatic protection?",
           options: [
             "State espousing claim of its national",
+            "Defense in international courts",
             "Protection of diplomatic personnel",
-            "Immunity for state officials",
-            "Defense in international courts"
+            "Immunity for state officials"
           ],
           correctAnswer: 0,
           explanation: "Diplomatic protection occurs when a state pursues a claim on behalf of its national against another state."
@@ -953,12 +953,12 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 8,
           question: "What must be exhausted before diplomatic protection?",
           options: [
-            "Local remedies in responsible state",
-            "UN complaint procedures",
             "Regional court appeals",
-            "Diplomatic negotiations"
+            "Local remedies in responsible state",
+            "Diplomatic negotiations",
+            "UN complaint procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The local remedies rule requires exhausting domestic legal options before international claim."
         },
         {
@@ -977,12 +977,12 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 10,
           question: "What are countermeasures?",
           options: [
-            "Lawful responses to prior wrongful acts",
             "Automatic sanctions for breaches",
+            "Lawful responses to prior wrongful acts",
             "Military responses to violations",
             "Punitive measures by international organizations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Countermeasures are otherwise unlawful acts taken in response to prior wrongful acts, subject to proportionality limits."
         },
         {
@@ -990,9 +990,9 @@ Understanding state responsibility is crucial for maintaining the international 
           question: "What is objective responsibility in international law?",
           options: [
             "Liability based on breach, not fault",
-            "Responsibility only with proven intent",
             "Liability for intended consequences only",
-            "Responsibility requiring negligence"
+            "Responsibility requiring negligence",
+            "Responsibility only with proven intent"
           ],
           correctAnswer: 0,
           explanation: "Objective responsibility means states are liable for breaches regardless of fault or intent."
@@ -1001,24 +1001,24 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 12,
           question: "When is conduct of private persons attributable?",
           options: [
-            "When acting under state direction/control",
-            "Always when in state territory",
             "Never, only state organs matter",
-            "When state fails to prevent conduct"
+            "When state fails to prevent conduct",
+            "Always when in state territory",
+            "When acting under state direction/control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Private conduct is attributable only if the state exercises effective control over specific operations."
         },
         {
           id: 13,
           question: "What does cessation require?",
           options: [
+            "Changing domestic laws",
             "Stopping continuing wrongful acts",
             "Paying compensation",
-            "Punishing responsible officials",
-            "Changing domestic laws"
+            "Punishing responsible officials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cessation requires the responsible state to stop any ongoing wrongful conduct."
         },
         {
@@ -1027,8 +1027,8 @@ Understanding state responsibility is crucial for maintaining the international 
           options: [
             "Symbolic remedies like apology or investigation",
             "Full monetary compensation",
-            "Restoration of original situation",
-            "Punishment of individuals"
+            "Punishment of individuals",
+            "Restoration of original situation"
           ],
           correctAnswer: 0,
           explanation: "Satisfaction provides symbolic remedies for non-material injury, such as apologies or acknowledgment."
@@ -1037,48 +1037,48 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 15,
           question: "What is force majeure?",
           options: [
+            "Technical challenges",
             "Irresistible force making performance impossible",
-            "Economic difficulties",
             "Political opposition",
-            "Technical challenges"
+            "Economic difficulties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Force majeure involves irresistible force or unforeseen events beyond state control making performance impossible."
         },
         {
           id: 16,
           question: "What happens if a state contributes to situation of distress?",
           options: [
-            "Distress cannot be invoked",
             "Distress still applies fully",
-            "Only partial responsibility",
-            "Other states must help"
+            "Distress cannot be invoked",
+            "Other states must help",
+            "Only partial responsibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Distress cannot be invoked if the state contributed to creating the situation of distress."
         },
         {
           id: 17,
           question: "What is the effective control test?",
           options: [
-            "For attributing conduct of non-state actors",
-            "For determining state jurisdiction",
             "For treaty interpretation",
+            "For determining state jurisdiction",
+            "For attributing conduct of non-state actors",
             "For diplomatic protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective control determines when non-state actor conduct is attributable to a controlling state."
         },
         {
           id: 18,
           question: "What obligations cannot be subject to countermeasures?",
           options: [
-            "Humanitarian and peremptory norms",
-            "Economic treaty obligations",
             "Environmental standards",
-            "Cultural cooperation agreements"
+            "Cultural cooperation agreements",
+            "Economic treaty obligations",
+            "Humanitarian and peremptory norms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Countermeasures cannot affect obligations under humanitarian law or peremptory norms."
         },
         {
@@ -1087,8 +1087,8 @@ Understanding state responsibility is crucial for maintaining the international 
           options: [
             "For breaches of obligations owed to international community",
             "Only for direct injuries",
-            "Never, only injured states can",
-            "Only with UN authorization"
+            "Only with UN authorization",
+            "Never, only injured states can"
           ],
           correctAnswer: 0,
           explanation: "All states can invoke responsibility for breaches of obligations owed to the international community as a whole."
@@ -1097,12 +1097,12 @@ Understanding state responsibility is crucial for maintaining the international 
           id: 20,
           question: "What is the continued duty of performance?",
           options: [
-            "Obligation continues despite breach",
             "Duty to pay compensation",
             "Requirement to apologize",
-            "Need to change domestic laws"
+            "Need to change domestic laws",
+            "Obligation continues despite breach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Even after breaching an obligation, the state remains bound to perform it (unless terminated)."
         }
       ]
@@ -1277,9 +1277,9 @@ International human rights law continues evolving to address new challenges whil
           question: "What are the three generations of human rights?",
           options: [
             "Civil/political; economic/social/cultural; solidarity",
-            "Individual; collective; global",
+            "Basic; intermediate; advanced",
             "Legal; political; economic",
-            "Basic; intermediate; advanced"
+            "Individual; collective; global"
           ],
           correctAnswer: 0,
           explanation: "First generation: civil/political; second: economic/social/cultural; third: solidarity/collective rights."
@@ -1288,48 +1288,48 @@ International human rights law continues evolving to address new challenges whil
           id: 2,
           question: "What is the status of the Universal Declaration of Human Rights?",
           options: [
-            "Authoritative but not legally binding treaty",
-            "Legally binding treaty on all states",
             "Regional agreement only",
-            "Optional protocol to UN Charter"
+            "Legally binding treaty on all states",
+            "Optional protocol to UN Charter",
+            "Authoritative but not legally binding treaty"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The UDHR is not a treaty but has customary law status for many provisions and authoritatively interprets UN Charter human rights obligations."
         },
         {
           id: 3,
           question: "What are the three types of state obligations for human rights?",
           options: [
-            "Respect, protect, fulfill",
             "Legislate, enforce, adjudicate",
             "Report, implement, monitor",
+            "Respect, protect, fulfill",
             "Prevent, punish, compensate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "States must respect (not interfere), protect (prevent third-party violations), and fulfill (take positive measures) human rights."
         },
         {
           id: 4,
           question: "What is progressive realization?",
           options: [
-            "Gradual implementation based on available resources",
             "Slow implementation by choice",
-            "Partial implementation of selected rights",
-            "Future implementation when convenient"
+            "Gradual implementation based on available resources",
+            "Future implementation when convenient",
+            "Partial implementation of selected rights"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Progressive realization applies mainly to economic/social rights, requiring steady improvement toward full realization based on maximum available resources."
         },
         {
           id: 5,
           question: "When can states derogate from human rights obligations?",
           options: [
-            "During public emergency threatening life of nation",
             "During economic crisis",
+            "During public emergency threatening life of nation",
             "During political transition",
             "During natural disasters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Derogations permitted only during officially proclaimed public emergency threatening the nation's life, with measures strictly required by exigencies."
         },
         {
@@ -1337,8 +1337,8 @@ International human rights law continues evolving to address new challenges whil
           question: "Which right is generally non-derogable?",
           options: [
             "Freedom from torture",
-            "Freedom of assembly",
             "Right to privacy",
+            "Freedom of assembly",
             "Right to education"
           ],
           correctAnswer: 0,
@@ -1348,12 +1348,12 @@ International human rights law continues evolving to address new challenges whil
           id: 7,
           question: "What is the Universal Periodic Review?",
           options: [
+            "Academic assessment of rights implementation",
             "Peer review of all UN members' human rights records",
             "Review of treaty compliance only",
-            "Court proceedings for violations",
-            "Academic assessment of rights implementation"
+            "Court proceedings for violations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "UPR is a peer review process where all UN member states' human rights records are examined by the Human Rights Council."
         },
         {
@@ -1361,9 +1361,9 @@ International human rights law continues evolving to address new challenges whil
           question: "What are special procedures?",
           options: [
             "Independent experts with thematic/country mandates",
-            "Secret UN enforcement mechanisms",
+            "Military interventions for rights protection",
             "Diplomatic negotiations for violations",
-            "Military interventions for rights protection"
+            "Secret UN enforcement mechanisms"
           ],
           correctAnswer: 0,
           explanation: "Special procedures are independent experts appointed by Human Rights Council to address specific country situations or thematic issues."
@@ -1374,8 +1374,8 @@ International human rights law continues evolving to address new challenges whil
           options: [
             "State discretion in implementing human rights",
             "Flexibility in treaty ratification",
-            "Variation in reporting requirements",
-            "Difference in regional standards"
+            "Difference in regional standards",
+            "Variation in reporting requirements"
           ],
           correctAnswer: 0,
           explanation: "Margin of appreciation allows states some discretion in implementing rights, considering national circumstances and European consensus."
@@ -1384,84 +1384,84 @@ International human rights law continues evolving to address new challenges whil
           id: 10,
           question: "What are treaty bodies?",
           options: [
-            "Committees monitoring implementation of specific treaties",
+            "National human rights institutions",
             "UN Security Council human rights committees",
             "Regional human rights courts",
-            "National human rights institutions"
+            "Committees monitoring implementation of specific treaties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Treaty bodies are committees of independent experts that monitor implementation of the core international human rights treaties."
         },
         {
           id: 11,
           question: "What does indivisibility of human rights mean?",
           options: [
-            "All rights interconnected and equally important",
-            "Rights cannot be divided among people",
             "Each person gets all rights or none",
-            "Rights apply only to whole populations"
+            "Rights cannot be divided among people",
+            "Rights apply only to whole populations",
+            "All rights interconnected and equally important"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Indivisibility means civil, political, economic, social and cultural rights are interconnected and cannot be prioritized or separated."
         },
         {
           id: 12,
           question: "What is the main difference between ICCPR and ICESCR obligations?",
           options: [
-            "ICCPR generally immediate; ICESCR progressive realization",
             "ICCPR for individuals; ICESCR for groups",
+            "ICCPR generally immediate; ICESCR progressive realization",
             "ICCPR legally binding; ICESCR not",
             "ICCPR global; ICESCR regional"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ICCPR civil/political rights generally require immediate implementation, while ICESCR economic/social rights allow progressive realization."
         },
         {
           id: 13,
           question: "What are permissible limitations on human rights?",
           options: [
-            "Prescribed by law, necessary, legitimate aim, proportional",
-            "Any limitations government considers necessary",
             "Limitations during economic difficulties",
-            "Limitations for national security without restrictions"
+            "Prescribed by law, necessary, legitimate aim, proportional",
+            "Limitations for national security without restrictions",
+            "Any limitations government considers necessary"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Limitations must be lawful, necessary in democratic society, for legitimate aims, and proportional to those aims."
         },
         {
           id: 14,
           question: "What is the business responsibility to respect human rights?",
           options: [
-            "Avoid causing/advertising adverse impacts",
-            "Only comply with domestic laws",
+            "Follow industry standards only",
             "Implement rights if profitable",
-            "Follow industry standards only"
+            "Only comply with domestic laws",
+            "Avoid causing/advertising adverse impacts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Under UN Guiding Principles, businesses must avoid causing or contributing to adverse human rights impacts and address those they are involved with."
         },
         {
           id: 15,
           question: "What are minimum core obligations?",
           options: [
-            "Essential levels of each right requiring immediate realization",
-            "Basic rights only for poor countries",
+            "Core group of most important rights",
             "Minimum treaty ratification requirements",
-            "Core group of most important rights"
+            "Basic rights only for poor countries",
+            "Essential levels of each right requiring immediate realization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Minimum core obligations require immediate realization of essential levels of economic/social rights, regardless of resources."
         },
         {
           id: 16,
           question: "What is the local remedies rule in human rights complaints?",
           options: [
+            "International bodies defer to local decisions",
             "Exhaust domestic remedies before international complaint",
-            "Use only local courts for rights violations",
             "Remedies must be available locally",
-            "International bodies defer to local decisions"
+            "Use only local courts for rights violations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Generally, individuals must exhaust available and effective domestic remedies before bringing international human rights complaints."
         },
         {
@@ -1469,9 +1469,9 @@ International human rights law continues evolving to address new challenges whil
           question: "What does universality of human rights mean?",
           options: [
             "Rights apply to all people everywhere",
-            "All states have ratified all treaties",
             "Same implementation methods everywhere",
-            "Global enforcement mechanisms"
+            "Global enforcement mechanisms",
+            "All states have ratified all treaties"
           ],
           correctAnswer: 0,
           explanation: "Universality means human rights apply to every person by virtue of being human, regardless of location or nationality."
@@ -1481,8 +1481,8 @@ International human rights law continues evolving to address new challenges whil
           question: "What are temporary special measures?",
           options: [
             "Measures to achieve substantive equality for disadvantaged groups",
-            "Emergency measures during crises",
             "Temporary suspension of rights",
+            "Emergency measures during crises",
             "Short-term development programs"
           ],
           correctAnswer: 0,
@@ -1492,24 +1492,24 @@ International human rights law continues evolving to address new challenges whil
           id: 19,
           question: "What is the Human Rights Council?",
           options: [
-            "UN intergovernmental body responsible for human rights",
-            "Treaty monitoring committee",
             "Regional human rights court",
-            "NGO coalition for rights advocacy"
+            "NGO coalition for rights advocacy",
+            "Treaty monitoring committee",
+            "UN intergovernmental body responsible for human rights"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Human Rights Council is the main UN intergovernmental body responsible for promoting and protecting human rights worldwide."
         },
         {
           id: 20,
           question: "What are general comments by treaty bodies?",
           options: [
-            "Authoritative interpretations of treaty provisions",
             "General criticisms of state reports",
-            "Comments on all human rights issues",
-            "Suggestions for new treaties"
+            "Authoritative interpretations of treaty provisions",
+            "Suggestions for new treaties",
+            "Comments on all human rights issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "General comments provide detailed interpretations of treaty provisions to guide states in implementation and reporting."
         }
       ]
@@ -1702,8 +1702,8 @@ International organizations remain essential for addressing global challenges th
           question: "What gives international organizations legal personality?",
           options: [
             "Their founding treaties and functional necessity",
-            "Recognition by all states",
             "UN General Assembly resolution",
+            "Recognition by all states",
             "Domestic legislation in member states"
           ],
           correctAnswer: 0,
@@ -1725,156 +1725,156 @@ International organizations remain essential for addressing global challenges th
           id: 3,
           question: "Which UN organ has binding decision-making power?",
           options: [
-            "Security Council under Chapter VII",
             "General Assembly on all matters",
             "Economic and Social Council",
-            "Secretariat"
+            "Secretariat",
+            "Security Council under Chapter VII"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Security Council decisions under Chapter VII regarding threats to peace are binding on all UN members."
         },
         {
           id: 4,
           question: "What voting system does the IMF use?",
           options: [
+            "Simple majority of members",
             "Weighted voting based on financial contribution",
             "One state, one vote",
-            "Consensus only",
-            "Simple majority of members"
+            "Consensus only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IMF uses weighted voting where votes correspond to financial contributions (quotas), giving larger economies more influence."
         },
         {
           id: 5,
           question: "Why do international organizations need immunities?",
           options: [
-            "To function independently of member state interference",
             "To avoid all legal accountability",
+            "To save money on taxes",
             "To gain diplomatic status",
-            "To save money on taxes"
+            "To function independently of member state interference"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Immunities protect organizations from political pressure and legal interference by member states, ensuring independent operation."
         },
         {
           id: 6,
           question: "What does UN Charter Article 103 establish?",
           options: [
-            "UN obligations prevail over conflicting treaty obligations",
             "Security Council veto power",
             "General Assembly budgetary authority",
-            "ICJ compulsory jurisdiction"
+            "ICJ compulsory jurisdiction",
+            "UN obligations prevail over conflicting treaty obligations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Article 103 establishes supremacy of UN Charter obligations over obligations under any other international agreement."
         },
         {
           id: 7,
           question: "What characterizes supranational organizations?",
           options: [
-            "Powers above member states in certain areas",
             "Complete independence from states",
             "Global membership requirements",
-            "Military enforcement capabilities"
+            "Military enforcement capabilities",
+            "Powers above member states in certain areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Supranational organizations like the EU can make binding decisions that override member state laws in specific policy areas."
         },
         {
           id: 8,
           question: "How are UN specialized agencies related to the UN?",
           options: [
-            "Autonomous but linked through agreements",
             "Directly controlled by General Assembly",
+            "Autonomous but linked through agreements",
             "Independent with no formal relationship",
             "Subsidiary organs of Security Council"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Specialized agencies are autonomous organizations with their own governance, linked to UN through relationship agreements."
         },
         {
           id: 9,
           question: "What is the 'ASEAN Way'?",
           options: [
-            "Informal, consensus-based, non-confrontational approach",
-            "Formal legalistic decision-making",
+            "Military cooperation focus",
             "Majority voting system",
-            "Military cooperation focus"
+            "Informal, consensus-based, non-confrontational approach",
+            "Formal legalistic decision-making"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The ASEAN Way emphasizes informal processes, consensus decision-making, and non-interference in internal affairs."
         },
         {
           id: 10,
           question: "What is a current challenge for Security Council reform?",
           options: [
-            "Outdated permanent membership not reflecting current power",
-            "Lack of veto power for all members",
             "Too many rotating members",
-            "Insufficient meeting frequency"
+            "Lack of veto power for all members",
+            "Insufficient meeting frequency",
+            "Outdated permanent membership not reflecting current power"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Current permanent membership reflects 1945 power distribution, not contemporary geopolitical realities."
         },
         {
           id: 11,
           question: "What distinguishes regional from universal organizations?",
           options: [
-            "Geographic limitation of membership",
-            "Binding vs non-binding decisions",
+            "Level of integration",
             "Presence of judicial organs",
-            "Level of integration"
+            "Binding vs non-binding decisions",
+            "Geographic limitation of membership"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regional organizations limit membership to states in a particular geographic area, while universal organizations are open to all states."
         },
         {
           id: 12,
           question: "What is soft law in international organizations?",
           options: [
-            "Non-binding standards and guidelines",
-            "Weakly enforced binding decisions",
             "Informal agreements between officials",
-            "Domestic laws implementing treaties"
+            "Domestic laws implementing treaties",
+            "Non-binding standards and guidelines",
+            "Weakly enforced binding decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Soft law includes resolutions, declarations, and guidelines that are not legally binding but influence state behavior."
         },
         {
           id: 13,
           question: "What is the role of the UN Secretary-General?",
           options: [
-            "Chief administrative officer and diplomatic actor",
+            "Prosecutor for international crimes",
             "Head of Security Council",
-            "Commander of peacekeeping forces",
-            "Prosecutor for international crimes"
+            "Chief administrative officer and diplomatic actor",
+            "Commander of peacekeeping forces"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Secretary-General heads the Secretariat, manages UN operations, and can play important diplomatic roles."
         },
         {
           id: 14,
           question: "What is consensus decision-making?",
           options: [
-            "Adoption without formal vote if no objection",
             "Unanimous agreement of all members",
             "Majority agreement after discussion",
+            "Adoption without formal vote if no objection",
             "Decision by executive board only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Consensus means adopting decisions without formal voting when no member formally objects, though they may have reservations."
         },
         {
           id: 15,
           question: "What are functional organizations?",
           options: [
-            "Focus on specific issue areas like health or labor",
+            "Organizations based on economic function",
             "Organizations with limited membership",
             "Temporary organizations for specific tasks",
-            "Organizations based on economic function"
+            "Focus on specific issue areas like health or labor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Functional organizations specialize in particular areas like health (WHO), labor (ILO), or education (UNESCO)."
         },
         {
@@ -1882,8 +1882,8 @@ International organizations remain essential for addressing global challenges th
           question: "What is the democratic deficit in international organizations?",
           options: [
             "Lack of direct accountability to citizens",
-            "Absence of democratic member states",
             "Failure to hold regular elections",
+            "Absence of democratic member states",
             "Exclusion of democratic principles"
           ],
           correctAnswer: 0,
@@ -1894,9 +1894,9 @@ International organizations remain essential for addressing global challenges th
           question: "What distinguishes intergovernmental from supranational?",
           options: [
             "Intergovernmental requires state consent; supranational can bind states",
-            "Intergovernmental is global; supranational is regional",
             "Intergovernmental has binding decisions; supranational has recommendations",
-            "Intergovernmental is political; supranational is economic"
+            "Intergovernmental is political; supranational is economic",
+            "Intergovernmental is global; supranational is regional"
           ],
           correctAnswer: 0,
           explanation: "Intergovernmental decisions require state consent, while supranational organizations can make binding decisions overriding state laws."
@@ -1905,24 +1905,24 @@ International organizations remain essential for addressing global challenges th
           id: 18,
           question: "What is the purpose of headquarters agreements?",
           options: [
-            "Define privileges and immunities in host state",
-            "Establish main office locations",
             "Determine funding contributions",
-            "Set employment conditions for staff"
+            "Set employment conditions for staff",
+            "Establish main office locations",
+            "Define privileges and immunities in host state"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Headquarters agreements between organizations and host states define legal status, privileges, and immunities in the host country."
         },
         {
           id: 19,
           question: "What is weighted voting?",
           options: [
+            "Extra votes for founding members",
             "Votes allocated based on criteria like population or contribution",
             "Multiple votes for democratic states",
-            "Extra votes for founding members",
             "Temporary voting adjustments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Weighted voting gives states votes proportional to factors like financial contribution (IMF) or population (EU Council)."
         },
         {
@@ -1930,9 +1930,9 @@ International organizations remain essential for addressing global challenges th
           question: "What is a specialized agency of the UN?",
           options: [
             "Autonomous organization with UN relationship agreement",
-            "Department within UN Secretariat",
             "Temporary UN program",
-            "Regional UN office"
+            "Regional UN office",
+            "Department within UN Secretariat"
           ],
           correctAnswer: 0,
           explanation: "Specialized agencies are independent international organizations linked to UN through cooperation agreements."
@@ -2183,48 +2183,48 @@ Peaceful dispute settlement remains essential for maintaining international orde
           id: 2,
           question: "What is the key difference between mediation and good offices?",
           options: [
-            "Mediation involves proposing solutions; good offices only facilitates communication",
             "Good offices is binding; mediation is not",
-            "Mediation requires legal expertise; good offices requires diplomatic skills",
-            "Good offices involves investigation; mediation does not"
+            "Mediation involves proposing solutions; good offices only facilitates communication",
+            "Good offices involves investigation; mediation does not",
+            "Mediation requires legal expertise; good offices requires diplomatic skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mediators actively propose settlement terms, while good offices providers merely facilitate communication without proposing solutions."
         },
         {
           id: 3,
           question: "What is conciliation?",
           options: [
-            "Commission examines dispute and proposes non-binding settlement",
             "Binding arbitration by neutral party",
             "Informal negotiations between parties",
+            "Commission examines dispute and proposes non-binding settlement",
             "Judicial decision by international court"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Conciliation involves a commission investigating facts and proposing settlement terms, but recommendations are not binding."
         },
         {
           id: 4,
           question: "How does arbitration differ from judicial settlement?",
           options: [
-            "Parties control arbitrator selection and procedure",
             "Arbitration is always faster and cheaper",
+            "Judicial settlement allows more flexibility",
             "Arbitration decisions are not binding",
-            "Judicial settlement allows more flexibility"
+            "Parties control arbitrator selection and procedure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "In arbitration, parties choose arbitrators and often design procedures, while courts have fixed rules and permanent judges."
         },
         {
           id: 5,
           question: "What are the four bases of ICJ jurisdiction?",
           options: [
-            "Special agreement, treaty provision, optional clause, forum prorogatum",
-            "UN membership, Security Council referral, state consent, customary law",
             "General Assembly resolution, regional organization request, state application, treaty",
-            "Arbitration failure, mediation breakdown, fact-finding need, urgency"
+            "Arbitration failure, mediation breakdown, fact-finding need, urgency",
+            "Special agreement, treaty provision, optional clause, forum prorogatum",
+            "UN membership, Security Council referral, state consent, customary law"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ICJ can hear cases through special agreements, treaty clauses, optional clause declarations, or subsequent consent (forum prorogatum)."
         },
         {
@@ -2233,8 +2233,8 @@ Peaceful dispute settlement remains essential for maintaining international orde
           options: [
             "Declaration accepting compulsory jurisdiction for certain disputes",
             "Optional procedures for advisory opinions",
-            "Choice of law provisions in treaties",
-            "Optional arbitration instead of court proceedings"
+            "Optional arbitration instead of court proceedings",
+            "Choice of law provisions in treaties"
           ],
           correctAnswer: 0,
           explanation: "States can file declarations under ICJ Statute Article 36(2) accepting compulsory jurisdiction for legal disputes with other accepting states."
@@ -2245,8 +2245,8 @@ Peaceful dispute settlement remains essential for maintaining international orde
           options: [
             "Compulsory for certain UNCLOS disputes",
             "Optional for all maritime disputes",
-            "Limited to environmental cases only",
-            "Binding only if both parties agree"
+            "Binding only if both parties agree",
+            "Limited to environmental cases only"
           ],
           correctAnswer: 0,
           explanation: "ITLOS has compulsory jurisdiction for certain UNCLOS disputes, particularly those involving prompt release of vessels and provisional measures."
@@ -2256,8 +2256,8 @@ Peaceful dispute settlement remains essential for maintaining international orde
           question: "What is track II diplomacy?",
           options: [
             "Unofficial, informal dialogues involving non-state actors",
-            "Secondary negotiations after failed official talks",
             "Diplomatic relations through second-tier officials",
+            "Secondary negotiations after failed official talks",
             "Alternative dispute resolution methods"
           ],
           correctAnswer: 0,
@@ -2267,36 +2267,36 @@ Peaceful dispute settlement remains essential for maintaining international orde
           id: 9,
           question: "What is preventive deployment?",
           options: [
-            "Peacekeeping before conflict escalates",
-            "Military forces to prevent aggression",
+            "Early warning system deployment",
             "Diplomatic missions to potential conflict zones",
-            "Early warning system deployment"
+            "Military forces to prevent aggression",
+            "Peacekeeping before conflict escalates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Preventive deployment involves peacekeeping forces deployed to prevent conflict escalation, as in Macedonia (UNPREDEP)."
         },
         {
           id: 10,
           question: "What is a contemporary challenge for dispute settlement?",
           options: [
-            "Cyber conflicts and digital issues",
             "Lack of available mechanisms",
-            "Too many binding decisions",
-            "Excessive enforcement power"
+            "Excessive enforcement power",
+            "Cyber conflicts and digital issues",
+            "Too many binding decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "New types of disputes like cyber conflicts present challenges for traditional dispute settlement mechanisms designed for physical conflicts."
         },
         {
           id: 11,
           question: "What principle allows states to choose dispute settlement methods?",
           options: [
-            "Free choice of means",
-            "Procedural autonomy",
             "State sovereignty",
-            "Consensual jurisdiction"
+            "Consensual jurisdiction",
+            "Procedural autonomy",
+            "Free choice of means"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "States have free choice of peaceful means to settle disputes, selecting methods they consider most appropriate."
         },
         {
@@ -2304,9 +2304,9 @@ Peaceful dispute settlement remains essential for maintaining international orde
           question: "What is inquiry/fact-finding used for?",
           options: [
             "Clarifying disputed facts underlying conflict",
-            "Determining legal responsibility",
             "Imposing sanctions for violations",
-            "Mediating between conflicting parties"
+            "Mediating between conflicting parties",
+            "Determining legal responsibility"
           ],
           correctAnswer: 0,
           explanation: "Inquiry establishes factual basis of disputes, helping parties understand what actually happened before discussing solutions."
@@ -2315,96 +2315,96 @@ Peaceful dispute settlement remains essential for maintaining international orde
           id: 13,
           question: "What is forum prorogatum at the ICJ?",
           options: [
-            "Subsequent consent to jurisdiction after case filed",
-            "Choice of applicable law in dispute",
+            "Agreement on procedural rules",
             "Selection of judges for specific case",
-            "Agreement on procedural rules"
+            "Choice of applicable law in dispute",
+            "Subsequent consent to jurisdiction after case filed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Forum prorogatum allows a state to accept ICJ jurisdiction after a case has been filed against it by another state."
         },
         {
           id: 14,
           question: "What characterizes WTO dispute settlement?",
           options: [
-            "Two-tier system with panels and Appellate Body",
             "Non-binding recommendations only",
+            "Direct enforcement by UN Security Council",
             "Compulsory arbitration for all members",
-            "Direct enforcement by UN Security Council"
+            "Two-tier system with panels and Appellate Body"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "WTO has panels for initial rulings and an Appellate Body for appeals, with authorization for trade sanctions if decisions not implemented."
         },
         {
           id: 15,
           question: "What is peacebuilding?",
           options: [
-            "Post-conflict stabilization and institution-building",
             "Military intervention to stop conflicts",
-            "Preventive diplomacy before conflicts",
-            "Peacekeeping during active conflicts"
+            "Post-conflict stabilization and institution-building",
+            "Peacekeeping during active conflicts",
+            "Preventive diplomacy before conflicts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Peacebuilding addresses root causes of conflict and builds sustainable peace through development, reconciliation, and institution-building."
         },
         {
           id: 16,
           question: "What is the main enforcement challenge for international courts?",
           options: [
-            "Reliance on state willingness to comply",
             "Lack of clear judgments",
-            "Insufficient number of cases",
-            "Too many enforcement mechanisms"
+            "Reliance on state willingness to comply",
+            "Too many enforcement mechanisms",
+            "Insufficient number of cases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "International courts lack direct enforcement powers and depend on state compliance, political pressure, and reputational costs."
         },
         {
           id: 17,
           question: "What are truth and reconciliation commissions?",
           options: [
-            "Bodies focusing on healing and historical record",
+            "Mediation teams for peace negotiations",
             "Criminal tribunals for war crimes",
-            "Fact-finding missions for current disputes",
-            "Mediation teams for peace negotiations"
+            "Bodies focusing on healing and historical record",
+            "Fact-finding missions for current disputes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Truth commissions document past abuses, promote reconciliation, and often recommend reparations and reforms rather than criminal prosecution."
         },
         {
           id: 18,
           question: "What is preventive diplomacy?",
           options: [
-            "Actions to prevent disputes from escalating into conflicts",
-            "Diplomatic immunity for preventive actions",
             "Early negotiations in dispute settlement",
-            "Preventive military deployments"
+            "Diplomatic immunity for preventive actions",
+            "Preventive military deployments",
+            "Actions to prevent disputes from escalating into conflicts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Preventive diplomacy uses diplomatic tools to prevent disputes from arising or escalating into violent conflict."
         },
         {
           id: 19,
           question: "What is the role of the Permanent Court of Arbitration?",
           options: [
-            "Provides framework and services for arbitration cases",
             "Hears appeals from national courts",
-            "Decides cases between states and individuals",
-            "Enforces international court decisions"
+            "Enforces international court decisions",
+            "Provides framework and services for arbitration cases",
+            "Decides cases between states and individuals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PCA provides administrative support, rules, and facilities for arbitration, conciliation, and fact-finding involving various parties."
         },
         {
           id: 20,
           question: "What is a compliance mechanism in dispute settlement?",
           options: [
+            "Automatic enforcement of rulings",
             "Monitoring implementation of decisions",
             "Punishment for non-compliance",
-            "Automatic enforcement of rulings",
             "Rewards for compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Compliance mechanisms include monitoring, reporting, and verification to ensure parties implement settlement terms or court decisions."
         }
       ]
@@ -2419,72 +2419,72 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 1,
         question: "What characterizes the horizontal structure of international law?",
         options: [
+          "Hierarchy of legal sources exists",
           "States are both creators and subjects of rules",
           "International organizations dominate law-making",
-          "Hierarchy of legal sources exists",
           "Central authority enforces all rules"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Horizontal structure means states create the rules that bind themselves, unlike domestic vertical systems."
       },
       {
         id: 2,
         question: "What are the two elements required for customary international law?",
         options: [
-          "Consistent state practice and legal belief (opinio juris)",
-          "Treaty ratification and implementation",
+          "State declarations and public support",
           "Judicial decisions and scholarly writings",
-          "State declarations and public support"
+          "Treaty ratification and implementation",
+          "Consistent state practice and legal belief (opinio juris)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Custom requires objective state practice and subjective belief that practice is legally required."
       },
       {
         id: 3,
         question: "What principle prohibits interfering in states' internal affairs?",
         options: [
-          "Non-intervention",
+          "Peaceful settlement",
           "Sovereign equality",
-          "Good faith",
-          "Peaceful settlement"
+          "Non-intervention",
+          "Good faith"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Non-intervention protects domestic jurisdiction from external interference in internal matters."
       },
       {
         id: 4,
         question: "What is the pacta tertiis rule in treaty law?",
         options: [
-          "Treaties only bind consenting parties",
-          "All treaties require three parties",
           "Third states can enforce treaties",
-          "Treaties automatically bind all states"
+          "Treaties only bind consenting parties",
+          "Treaties automatically bind all states",
+          "All treaties require three parties"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Treaties cannot create obligations for third states without their consent."
       },
       {
         id: 5,
         question: "What is the primary rule for treaty interpretation?",
         options: [
+          "Intent of drafters only",
           "Good faith according to ordinary meaning in context",
           "Strict literal interpretation",
-          "Intent of drafters only",
           "Most restrictive interpretation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "VCLT Article 31 requires interpretation in good faith according to ordinary meaning in context of object and purpose."
       },
       {
         id: 6,
         question: "When can reservations be invalid?",
         options: [
-          "If incompatible with treaty's object and purpose",
-          "If not accepted by all parties",
           "If made after ratification",
-          "If relating to procedural provisions"
+          "If not accepted by all parties",
+          "If relating to procedural provisions",
+          "If incompatible with treaty's object and purpose"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Reservations that undermine a treaty's essential purposes are impermissible regardless of other states' reactions."
       },
       {
@@ -2492,9 +2492,9 @@ Peaceful dispute settlement remains essential for maintaining international orde
         question: "What are the two elements of state responsibility?",
         options: [
           "Attributable conduct and breach of obligation",
+          "Treaty violation and injury",
           "Fault and damage",
-          "Intent and causation",
-          "Treaty violation and injury"
+          "Intent and causation"
         ],
         correctAnswer: 0,
         explanation: "State responsibility requires conduct attributable to state that breaches international obligation."
@@ -2503,24 +2503,24 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 8,
         question: "When are ultra vires acts of state organs attributable?",
         options: [
-          "When acting in official capacity",
           "Never if beyond authority",
+          "Only if causing major damage",
           "Only if authorized later",
-          "Only if causing major damage"
+          "When acting in official capacity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Even acts exceeding authority are attributable if the organ was acting in official capacity."
       },
       {
         id: 9,
         question: "What circumstance precludes wrongfulness for saving lives?",
         options: [
-          "Distress",
+          "Self-defense",
           "Necessity",
-          "Force majeure",
-          "Self-defense"
+          "Distress",
+          "Force majeure"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Distress applies when breach is only way to save lives, without contributing to situation."
       },
       {
@@ -2539,12 +2539,12 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 11,
         question: "What are the three types of state human rights obligations?",
         options: [
-          "Respect, protect, fulfill",
-          "Legislate, enforce, adjudicate",
           "Report, implement, monitor",
-          "Prevent, punish, compensate"
+          "Prevent, punish, compensate",
+          "Respect, protect, fulfill",
+          "Legislate, enforce, adjudicate"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "States must respect (not interfere), protect (prevent third-party violations), and fulfill (take positive measures)."
       },
       {
@@ -2553,8 +2553,8 @@ Peaceful dispute settlement remains essential for maintaining international orde
         options: [
           "Gradual implementation based on available resources",
           "Slow implementation by choice",
-          "Partial implementation of selected rights",
-          "Future implementation when convenient"
+          "Future implementation when convenient",
+          "Partial implementation of selected rights"
         ],
         correctAnswer: 0,
         explanation: "Economic/social rights require progressive realization using maximum available resources."
@@ -2563,156 +2563,156 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 13,
         question: "When can states derogate from human rights?",
         options: [
+          "During natural disasters",
           "During public emergency threatening nation's life",
           "During economic crisis",
-          "During political transition",
-          "During natural disasters"
+          "During political transition"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Derogations require officially proclaimed emergency threatening nation, with measures strictly required."
       },
       {
         id: 14,
         question: "What is the Universal Periodic Review?",
         options: [
-          "Peer review of all UN members' human rights records",
           "Review of treaty compliance only",
           "Court proceedings for violations",
+          "Peer review of all UN members' human rights records",
           "Academic assessment of implementation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "UPR examines all UN members' human rights records through peer review process."
       },
       {
         id: 15,
         question: "What gives international organizations legal personality?",
         options: [
-          "Founding treaties and functional necessity",
-          "Recognition by all states",
           "UN General Assembly resolution",
+          "Recognition by all states",
+          "Founding treaties and functional necessity",
           "Domestic legislation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Legal personality derives from founding treaties and functional necessity to achieve objectives."
       },
       {
         id: 16,
         question: "What is the implied powers doctrine?",
         options: [
-          "Organizations have powers necessary to achieve objectives",
           "Powers must be explicitly stated",
           "Only expressly granted powers valid",
+          "Organizations have powers necessary to achieve objectives",
           "Powers implied from domestic law"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Implied powers allow exercise of powers reasonably necessary to fulfill purposes."
       },
       {
         id: 17,
         question: "Which UN organ has binding decision power?",
         options: [
+          "Secretariat",
           "Security Council under Chapter VII",
-          "General Assembly on all matters",
           "Economic and Social Council",
-          "Secretariat"
+          "General Assembly on all matters"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Security Council Chapter VII decisions on threats to peace are binding."
       },
       {
         id: 18,
         question: "What does UN Charter Article 103 establish?",
         options: [
+          "ICJ compulsory jurisdiction",
           "UN obligations prevail over conflicting treaties",
           "Security Council veto power",
-          "General Assembly budgetary authority",
-          "ICJ compulsory jurisdiction"
+          "General Assembly budgetary authority"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Article 103 establishes supremacy of UN Charter obligations over other international agreements."
       },
       {
         id: 19,
         question: "What does UN Charter Article 2(3) require?",
         options: [
+          "Compulsory ICJ jurisdiction",
           "Peaceful settlement of disputes",
           "Military intervention for rights",
-          "Compulsory ICJ jurisdiction",
           "Arbitration for all conflicts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Article 2(3) establishes obligation to settle disputes by peaceful means."
       },
       {
         id: 20,
         question: "What is the key difference between mediation and good offices?",
         options: [
+          "Good offices involves investigation",
           "Mediation proposes solutions; good offices only facilitates communication",
-          "Good offices is binding; mediation is not",
           "Mediation requires legal expertise",
-          "Good offices involves investigation"
+          "Good offices is binding; mediation is not"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Mediators actively propose terms; good offices providers only facilitate communication."
       },
       {
         id: 21,
         question: "What is conciliation?",
         options: [
-          "Commission examines and proposes non-binding settlement",
           "Binding arbitration by neutral party",
+          "Commission examines and proposes non-binding settlement",
           "Informal negotiations",
           "Judicial decision"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Conciliation involves investigation and proposed settlement, but recommendations not binding."
       },
       {
         id: 22,
         question: "What are the ICJ jurisdiction bases?",
         options: [
-          "Special agreement, treaty, optional clause, forum prorogatum",
           "UN membership, Security Council referral, consent, custom",
           "General Assembly resolution, regional request, application, treaty",
-          "Arbitration failure, mediation breakdown, fact-finding, urgency"
+          "Arbitration failure, mediation breakdown, fact-finding, urgency",
+          "Special agreement, treaty, optional clause, forum prorogatum"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "ICJ hears cases through special agreements, treaty clauses, optional clause, or subsequent consent."
       },
       {
         id: 23,
         question: "What is the Optional Clause?",
         options: [
-          "Declaration accepting ICJ compulsory jurisdiction",
           "Optional procedures for advisory opinions",
+          "Optional arbitration alternative",
           "Choice of law in treaties",
-          "Optional arbitration alternative"
+          "Declaration accepting ICJ compulsory jurisdiction"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Optional Clause allows states to accept ICJ compulsory jurisdiction for legal disputes."
       },
       {
         id: 24,
         question: "What characterizes ITLOS jurisdiction?",
         options: [
-          "Compulsory for certain UNCLOS disputes",
-          "Optional for all maritime disputes",
           "Limited to environmental cases",
-          "Binding only with agreement"
+          "Optional for all maritime disputes",
+          "Binding only with agreement",
+          "Compulsory for certain UNCLOS disputes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "ITLOS has compulsory jurisdiction for certain UNCLOS disputes, especially prompt release and provisional measures."
       },
       {
         id: 25,
         question: "What is track II diplomacy?",
         options: [
-          "Unofficial, informal dialogues with non-state actors",
           "Secondary negotiations after failed talks",
-          "Diplomacy through lower-level officials",
-          "Alternative dispute resolution"
+          "Unofficial, informal dialogues with non-state actors",
+          "Alternative dispute resolution",
+          "Diplomacy through lower-level officials"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Track II involves informal discussions among academics, former officials, civil society."
       },
       {
@@ -2721,8 +2721,8 @@ Peaceful dispute settlement remains essential for maintaining international orde
         options: [
           "Peacekeeping before conflict escalates",
           "Military forces to prevent aggression",
-          "Diplomatic missions to conflict zones",
-          "Early warning systems"
+          "Early warning systems",
+          "Diplomatic missions to conflict zones"
         ],
         correctAnswer: 0,
         explanation: "Preventive deployment places peacekeepers to prevent conflict escalation."
@@ -2731,36 +2731,36 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 27,
         question: "What is a contemporary dispute challenge?",
         options: [
-          "Cyber conflicts and digital issues",
           "Lack of available mechanisms",
+          "Cyber conflicts and digital issues",
           "Too many binding decisions",
           "Excessive enforcement"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cyber conflicts present new challenges for traditional dispute mechanisms."
       },
       {
         id: 28,
         question: "What principle allows state choice of dispute methods?",
         options: [
-          "Free choice of means",
           "Procedural autonomy",
-          "State sovereignty",
-          "Consensual jurisdiction"
+          "Free choice of means",
+          "Consensual jurisdiction",
+          "State sovereignty"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "States freely choose peaceful means to settle disputes."
       },
       {
         id: 29,
         question: "What is inquiry/fact-finding for?",
         options: [
-          "Clarifying disputed facts",
-          "Determining legal responsibility",
           "Imposing sanctions",
-          "Mediating between parties"
+          "Mediating between parties",
+          "Determining legal responsibility",
+          "Clarifying disputed facts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Inquiry establishes factual basis of disputes before discussing solutions."
       },
       {
@@ -2768,8 +2768,8 @@ Peaceful dispute settlement remains essential for maintaining international orde
         question: "What is forum prorogatum at ICJ?",
         options: [
           "Subsequent consent after case filed",
-          "Choice of applicable law",
           "Selection of judges",
+          "Choice of applicable law",
           "Agreement on procedures"
         ],
         correctAnswer: 0,
@@ -2779,24 +2779,24 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 31,
         question: "What characterizes WTO dispute settlement?",
         options: [
-          "Two-tier system with panels and Appellate Body",
-          "Non-binding recommendations",
           "Compulsory arbitration",
-          "Direct UN enforcement"
+          "Direct UN enforcement",
+          "Non-binding recommendations",
+          "Two-tier system with panels and Appellate Body"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "WTO has panels and Appellate Body with trade sanction authorization."
       },
       {
         id: 32,
         question: "What is peacebuilding?",
         options: [
-          "Post-conflict stabilization and institution-building",
           "Military intervention to stop conflicts",
           "Preventive diplomacy",
+          "Post-conflict stabilization and institution-building",
           "Peacekeeping during conflicts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Peacebuilding addresses root causes and builds sustainable peace."
       },
       {
@@ -2805,8 +2805,8 @@ Peaceful dispute settlement remains essential for maintaining international orde
         options: [
           "Reliance on state willingness to comply",
           "Lack of clear judgments",
-          "Insufficient cases",
-          "Too many enforcement mechanisms"
+          "Too many enforcement mechanisms",
+          "Insufficient cases"
         ],
         correctAnswer: 0,
         explanation: "Courts lack direct enforcement, depending on state compliance and political pressure."
@@ -2816,9 +2816,9 @@ Peaceful dispute settlement remains essential for maintaining international orde
         question: "What are truth and reconciliation commissions?",
         options: [
           "Bodies focusing on healing and historical record",
-          "Criminal tribunals for war crimes",
+          "Mediation teams for negotiations",
           "Fact-finding for current disputes",
-          "Mediation teams for negotiations"
+          "Criminal tribunals for war crimes"
         ],
         correctAnswer: 0,
         explanation: "Truth commissions document abuses and promote reconciliation rather than prosecution."
@@ -2827,12 +2827,12 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 35,
         question: "What is preventive diplomacy?",
         options: [
-          "Actions to prevent disputes escalating",
+          "Preventive military deployments",
           "Diplomatic immunity for prevention",
           "Early negotiations",
-          "Preventive military deployments"
+          "Actions to prevent disputes escalating"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Preventive diplomacy uses diplomatic tools to prevent violent conflict."
       },
       {
@@ -2851,36 +2851,36 @@ Peaceful dispute settlement remains essential for maintaining international orde
         id: 37,
         question: "What is a compliance mechanism?",
         options: [
-          "Monitoring implementation of decisions",
-          "Punishment for non-compliance",
           "Automatic enforcement",
-          "Rewards for compliance"
+          "Rewards for compliance",
+          "Punishment for non-compliance",
+          "Monitoring implementation of decisions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Compliance mechanisms include monitoring, reporting, verification of implementation."
       },
       {
         id: 38,
         question: "What are general principles of law?",
         options: [
-          "Common principles from domestic legal systems",
-          "UN Security Council resolutions",
           "Treaty provisions only",
-          "Academic theories"
+          "UN Security Council resolutions",
+          "Academic theories",
+          "Common principles from domestic legal systems"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "General principles are identified by comparing domestic legal systems for common fundamental principles."
       },
       {
         id: 39,
         question: "What is objective responsibility?",
         options: [
-          "Liability based on breach, not fault",
           "Responsibility only with intent",
           "Liability for intended consequences",
+          "Liability based on breach, not fault",
           "Responsibility requiring negligence"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Objective responsibility means liability for breaches regardless of fault or intent."
       },
       {
@@ -2888,9 +2888,9 @@ Peaceful dispute settlement remains essential for maintaining international orde
         question: "What are minimum core obligations?",
         options: [
           "Essential levels of rights requiring immediate realization",
+          "Core group of important rights",
           "Basic rights for poor countries",
-          "Minimum treaty ratification",
-          "Core group of important rights"
+          "Minimum treaty ratification"
         ],
         correctAnswer: 0,
         explanation: "Minimum core obligations require immediate realization of essential economic/social rights levels."

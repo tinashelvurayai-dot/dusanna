@@ -198,72 +198,72 @@ Advanced corporate security strategy requires balancing protection needs with bu
           id: 1,
           question: "What is strategic security alignment?",
           options: [
-            "Integrating security with business goals and governance",
-            "Only technical security measures",
             "Only physical security planning",
-            "Only compliance requirements"
+            "Integrating security with business goals and governance",
+            "Only compliance requirements",
+            "Only technical security measures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic alignment ensures security initiatives support business objectives and integrate with corporate governance."
         },
         {
           id: 2,
           question: "What does the CSO role involve?",
           options: [
+            "Only employee screening",
             "Enterprise-wide security strategy and leadership",
             "Only physical security management",
-            "Only technical security implementation",
-            "Only employee screening"
+            "Only technical security implementation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Chief Security Officer leads enterprise security strategy, cross-functional teams, and executive stakeholder management."
         },
         {
           id: 3,
           question: "What are security maturity model levels?",
           options: [
-            "Progressive stages from ad-hoc to optimized security",
-            "Only budget levels",
             "Only staff size categories",
+            "Only budget levels",
+            "Progressive stages from ad-hoc to optimized security",
             "Only technology sophistication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Maturity models describe progressive stages of security program development from initial to optimizing levels."
         },
         {
           id: 4,
           question: "What is security program lifecycle?",
           options: [
-            "Assessment, planning, design, implementation, operation, evaluation",
             "Only implementation phase",
-            "Only daily operations",
-            "Only emergency response"
+            "Only emergency response",
+            "Assessment, planning, design, implementation, operation, evaluation",
+            "Only daily operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The lifecycle includes assessment, planning, design, implementation, operation, and evaluation phases."
         },
         {
           id: 5,
           question: "What is ROSI?",
           options: [
-            "Return on Security Investment calculation",
-            "Only security budget",
+            "Only compliance cost",
             "Only risk assessment",
-            "Only compliance cost"
+            "Only security budget",
+            "Return on Security Investment calculation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ROSI helps quantify the financial return from security investments by comparing costs to risk reduction benefits."
         },
         {
           id: 6,
           question: "What is third-party risk management?",
           options: [
+            "Only technical risks",
             "Managing security risks from vendors and partners",
-            "Only employee risks",
             "Only physical risks",
-            "Only technical risks"
+            "Only employee risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Third-party risk management addresses security risks introduced by vendors, suppliers, and business partners."
         },
         {
@@ -282,12 +282,12 @@ Advanced corporate security strategy requires balancing protection needs with bu
           id: 8,
           question: "What is enterprise security architecture?",
           options: [
-            "Layered framework from governance to physical controls",
-            "Only building design",
             "Only network design",
-            "Only policy documents"
+            "Only building design",
+            "Only policy documents",
+            "Layered framework from governance to physical controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Enterprise architecture includes governance, management, operational, technical, and physical security layers."
         },
         {
@@ -295,9 +295,9 @@ Advanced corporate security strategy requires balancing protection needs with bu
           question: "What are security KPIs?",
           options: [
             "Key Performance Indicators measuring security effectiveness",
-            "Only financial metrics",
+            "Only incident counts",
             "Only staff numbers",
-            "Only incident counts"
+            "Only financial metrics"
           ],
           correctAnswer: 0,
           explanation: "KPIs measure security program performance, effectiveness, and alignment with business objectives."
@@ -307,8 +307,8 @@ Advanced corporate security strategy requires balancing protection needs with bu
           question: "What is security culture development?",
           options: [
             "Building security awareness and behaviors across organization",
-            "Only security training",
             "Only policy enforcement",
+            "Only security training",
             "Only technical controls"
           ],
           correctAnswer: 0,
@@ -318,12 +318,12 @@ Advanced corporate security strategy requires balancing protection needs with bu
           id: 11,
           question: "What is board-level security oversight?",
           options: [
-            "Board committee responsibility for security governance",
             "Only management responsibility",
+            "Board committee responsibility for security governance",
             "Only security department",
             "Only compliance team"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Board oversight includes risk appetite definition, budget approval, and strategic direction for security."
         },
         {
@@ -343,8 +343,8 @@ Advanced corporate security strategy requires balancing protection needs with bu
           question: "What is cost-benefit analysis in security?",
           options: [
             "Comparing security investment costs to risk reduction benefits",
-            "Only cost minimization",
             "Only benefit maximization",
+            "Only cost minimization",
             "Only budget compliance"
           ],
           correctAnswer: 0,
@@ -354,36 +354,36 @@ Advanced corporate security strategy requires balancing protection needs with bu
           id: 14,
           question: "What is supply chain security?",
           options: [
-            "End-to-end protection of goods and services flow",
-            "Only warehouse security",
             "Only transportation security",
-            "Only supplier selection"
+            "Only warehouse security",
+            "Only supplier selection",
+            "End-to-end protection of goods and services flow"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Supply chain security protects the entire flow of goods, information, and services from origin to destination."
         },
         {
           id: 15,
           question: "What measures security culture?",
           options: [
-            "Surveys, incident analysis, compliance monitoring",
             "Only training attendance",
-            "Only policy counts",
-            "Only budget size"
+            "Only budget size",
+            "Surveys, incident analysis, compliance monitoring",
+            "Only policy counts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Culture measurement uses surveys, behavioral observations, incident patterns, and compliance data."
         },
         {
           id: 16,
           question: "What is security governance?",
           options: [
-            "Framework for security decision-making and accountability",
-            "Only security operations",
             "Only technical controls",
-            "Only emergency response"
+            "Only emergency response",
+            "Framework for security decision-making and accountability",
+            "Only security operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Governance establishes decision-making structures, policies, standards, and accountability frameworks."
         },
         {
@@ -391,9 +391,9 @@ Advanced corporate security strategy requires balancing protection needs with bu
           question: "What are security program components?",
           options: [
             "Physical, information, personnel, operational, crisis programs",
-            "Only technical programs",
             "Only physical programs",
-            "Only compliance programs"
+            "Only compliance programs",
+            "Only technical programs"
           ],
           correctAnswer: 0,
           explanation: "Comprehensive programs address physical assets, information, people, operations, and crisis management."
@@ -402,36 +402,36 @@ Advanced corporate security strategy requires balancing protection needs with bu
           id: 18,
           question: "What is vendor risk assessment?",
           options: [
+            "Only service quality",
             "Evaluating security risks from third-party relationships",
             "Only price evaluation",
-            "Only service quality",
             "Only delivery timing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vendor risk assessment evaluates potential security risks introduced by external service providers."
         },
         {
           id: 19,
           question: "What are security dashboard requirements?",
           options: [
-            "Executive-level visualization of key security metrics",
-            "Only technical details",
+            "Only staff schedules",
             "Only incident logs",
-            "Only staff schedules"
+            "Executive-level visualization of key security metrics",
+            "Only technical details"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dashboards provide executive-friendly visualizations of security status, trends, and performance indicators."
         },
         {
           id: 20,
           question: "What sustains security culture?",
           options: [
-            "Integration with performance management and continuous improvement",
-            "Only initial training",
             "Only policy distribution",
+            "Only initial training",
+            "Integration with performance management and continuous improvement",
             "Only technical controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sustainable culture requires integration with business processes, recognition systems, and ongoing reinforcement."
         }
       ]
@@ -713,36 +713,36 @@ Executive protection requires balancing security needs with executive lifestyle 
           id: 1,
           question: "What is executive protection philosophy?",
           options: [
-            "Low-profile, layered protection with continuous assessment",
-            "Only visible armed guards",
             "Only technical surveillance",
+            "Only visible armed guards",
+            "Low-profile, layered protection with continuous assessment",
             "Only residential security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EP philosophy emphasizes minimal visibility, multiple security layers, and ongoing threat assessment."
         },
         {
           id: 2,
           question: "What does advance team do?",
           options: [
-            "Prepares locations before protectee arrival",
             "Only drives vehicles",
-            "Only provides close protection",
-            "Only handles intelligence"
+            "Only handles intelligence",
+            "Prepares locations before protectee arrival",
+            "Only provides close protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Advance teams conduct security surveys, coordinate with local resources, and prepare locations in advance."
         },
         {
           id: 3,
           question: "What is protective formation?",
           options: [
-            "Strategic positioning of protection team members",
-            "Only vehicle positioning",
             "Only building layout",
-            "Only crowd control"
+            "Strategic positioning of protection team members",
+            "Only crowd control",
+            "Only vehicle positioning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Protective formations are strategic positioning arrangements that provide optimal protection coverage."
         },
         {
@@ -751,8 +751,8 @@ Executive protection requires balancing security needs with executive lifestyle 
           options: [
             "Spear phishing, social engineering, digital tracking",
             "Only virus attacks",
-            "Only network breaches",
-            "Only data theft"
+            "Only data theft",
+            "Only network breaches"
           ],
           correctAnswer: 0,
           explanation: "Executives face targeted digital threats including spear phishing, social engineering, and location tracking."
@@ -763,8 +763,8 @@ Executive protection requires balancing security needs with executive lifestyle 
           options: [
             "Crime Prevention Through Environmental Design",
             "Only alarm systems",
-            "Only guard patrols",
-            "Only camera systems"
+            "Only camera systems",
+            "Only guard patrols"
           ],
           correctAnswer: 0,
           explanation: "CPTED uses design principles to reduce crime opportunities through environmental manipulation."
@@ -773,12 +773,12 @@ Executive protection requires balancing security needs with executive lifestyle 
           id: 6,
           question: "What are protection levels?",
           options: [
-            "Basic, enhanced, high-risk, maximum protection",
-            "Only armed vs unarmed",
             "Only day vs night",
-            "Only domestic vs international"
+            "Basic, enhanced, high-risk, maximum protection",
+            "Only domestic vs international",
+            "Only armed vs unarmed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Protection levels range from basic low-threat to maximum extreme-threat environments."
         },
         {
@@ -786,9 +786,9 @@ Executive protection requires balancing security needs with executive lifestyle 
           question: "What does advance security survey include?",
           options: [
             "Location vulnerability and emergency egress planning",
+            "Only equipment ordering",
             "Only guard scheduling",
-            "Only budget planning",
-            "Only equipment ordering"
+            "Only budget planning"
           ],
           correctAnswer: 0,
           explanation: "Advance surveys assess vulnerabilities, identify safe rooms, plan emergency exits, and verify local resources."
@@ -799,8 +799,8 @@ Executive protection requires balancing security needs with executive lifestyle 
           options: [
             "360-degree protection during movement",
             "Only stationary protection",
-            "Only vehicle protection",
-            "Only crowd control"
+            "Only crowd control",
+            "Only vehicle protection"
           ],
           correctAnswer: 0,
           explanation: "Diamond formation provides all-around protection with team members positioned at cardinal points."
@@ -809,36 +809,36 @@ Executive protection requires balancing security needs with executive lifestyle 
           id: 9,
           question: "What is digital footprint management?",
           options: [
-            "Controlling online presence and personal information",
-            "Only social media use",
+            "Only device encryption",
             "Only email security",
-            "Only device encryption"
+            "Only social media use",
+            "Controlling online presence and personal information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital footprint management controls personal information exposure and online presence visibility."
         },
         {
           id: 10,
           question: "What is family member security planning?",
           options: [
-            "Individual assessments and routine security measures",
-            "Only executive protection",
             "Only residential security",
-            "Only travel security"
+            "Only travel security",
+            "Individual assessments and routine security measures",
+            "Only executive protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Family security includes individual threat assessments, daily routine protection, and emergency planning."
         },
         {
           id: 11,
           question: "What are executive threat profiles?",
           options: [
+            "Only international threats",
             "Public figure, corporate, high-net-worth, political, celebrity",
             "Only physical threats",
-            "Only cyber threats",
-            "Only international threats"
+            "Only cyber threats"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Different executive types face distinct threat profiles based on visibility, wealth, and position."
         },
         {
@@ -846,8 +846,8 @@ Executive protection requires balancing security needs with executive lifestyle 
           question: "What is protective intelligence?",
           options: [
             "Threat monitoring and suspicious activity recognition",
-            "Only background checks",
             "Only equipment management",
+            "Only background checks",
             "Only travel planning"
           ],
           correctAnswer: 0,
@@ -869,12 +869,12 @@ Executive protection requires balancing security needs with executive lifestyle 
           id: 14,
           question: "What is event security planning?",
           options: [
-            "Venue assessment, crowd analysis, access control design",
-            "Only ticket sales",
             "Only catering arrangements",
+            "Only ticket sales",
+            "Venue assessment, crowd analysis, access control design",
             "Only guest lists"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Event security involves comprehensive planning for venue security, crowd management, and emergency response."
         },
         {
@@ -882,9 +882,9 @@ Executive protection requires balancing security needs with executive lifestyle 
           question: "What are team management considerations?",
           options: [
             "Selection, training, stress management, professional development",
+            "Only budgeting",
             "Only scheduling",
-            "Only equipment",
-            "Only budgeting"
+            "Only equipment"
           ],
           correctAnswer: 0,
           explanation: "Team management includes selection, continuous training, stress management, and career development."
@@ -893,24 +893,24 @@ Executive protection requires balancing security needs with executive lifestyle 
           id: 16,
           question: "What is low-profile protection approach?",
           options: [
-            "Minimizing visible security while maintaining effectiveness",
+            "Only reactive response",
             "Only armed guards",
-            "Only obvious measures",
-            "Only reactive response"
+            "Minimizing visible security while maintaining effectiveness",
+            "Only obvious measures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Low-profile approaches maintain protection effectiveness while minimizing disruption to executive activities."
         },
         {
           id: 17,
           question: "What is transportation security planning?",
           options: [
+            "Only flight bookings",
             "Armored vehicles, route planning, driver training",
             "Only car rentals",
-            "Only flight bookings",
             "Only hotel transfers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Transportation security includes vehicle specifications, route analysis, and driver qualification standards."
         },
         {
@@ -918,9 +918,9 @@ Executive protection requires balancing security needs with executive lifestyle 
           question: "What are communication security measures?",
           options: [
             "Secure devices, encrypted messaging, pattern analysis",
-            "Only phone calls",
+            "Only meetings",
             "Only emails",
-            "Only meetings"
+            "Only phone calls"
           ],
           correctAnswer: 0,
           explanation: "Communication security involves encrypted devices, secure protocols, and monitoring communication patterns."
@@ -930,8 +930,8 @@ Executive protection requires balancing security needs with executive lifestyle 
           question: "What is domestic staff security?",
           options: [
             "Background screening, training, access management",
-            "Only hiring",
             "Only scheduling",
+            "Only hiring",
             "Only payment"
           ],
           correctAnswer: 0,
@@ -941,12 +941,12 @@ Executive protection requires balancing security needs with executive lifestyle 
           id: 20,
           question: "What are special event protective operations?",
           options: [
-            "Threat monitoring, crowd management, media control",
             "Only ticket checking",
+            "Only food service",
             "Only seating arrangements",
-            "Only food service"
+            "Threat monitoring, crowd management, media control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Event operations include threat monitoring, crowd behavior analysis, and media interaction management."
         }
       ]
@@ -1242,60 +1242,60 @@ Corporate investigations and intelligence functions provide critical insights fo
           id: 1,
           question: "What are corporate investigation principles?",
           options: [
-            "Objectivity, thoroughness, confidentiality, legality, timeliness",
-            "Only speed",
             "Only cost savings",
-            "Only management approval"
+            "Only speed",
+            "Only management approval",
+            "Objectivity, thoroughness, confidentiality, legality, timeliness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Investigation principles ensure impartial, comprehensive, confidential, legal, and timely fact-finding."
         },
         {
           id: 2,
           question: "What is chain of custody?",
           options: [
-            "Documented evidence handling from collection to court",
+            "Only evidence analysis",
             "Only evidence storage",
-            "Only evidence collection",
-            "Only evidence analysis"
+            "Documented evidence handling from collection to court",
+            "Only evidence collection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Chain of custody documents evidence handling to maintain integrity and legal admissibility."
         },
         {
           id: 3,
           question: "What are financial investigation areas?",
           options: [
-            "Asset misappropriation, corruption, financial statement fraud",
+            "Only background checks",
             "Only theft investigation",
-            "Only employee screening",
-            "Only background checks"
+            "Asset misappropriation, corruption, financial statement fraud",
+            "Only employee screening"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Financial investigations cover asset theft, corruption schemes, and financial record manipulation."
         },
         {
           id: 4,
           question: "What is due diligence investigation?",
           options: [
-            "Pre-transaction risk assessment and verification",
+            "Only security assessment",
             "Only employee investigation",
-            "Only criminal investigation",
-            "Only security assessment"
+            "Pre-transaction risk assessment and verification",
+            "Only criminal investigation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Due diligence investigates risks before business transactions like mergers or partnerships."
         },
         {
           id: 5,
           question: "What is the intelligence cycle?",
           options: [
-            "Planning, collection, processing, analysis, dissemination",
             "Only data collection",
+            "Planning, collection, processing, analysis, dissemination",
             "Only report writing",
             "Only surveillance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The intelligence cycle systematically plans, collects, processes, analyzes, and distributes information."
         },
         {
@@ -1316,8 +1316,8 @@ Corporate investigations and intelligence functions provide critical insights fo
           options: [
             "Executive summary, background, findings, conclusions, recommendations",
             "Only findings section",
-            "Only evidence list",
-            "Only witness statements"
+            "Only witness statements",
+            "Only evidence list"
           ],
           correctAnswer: 0,
           explanation: "Reports include executive summary, background, findings, conclusions, and recommendations sections."
@@ -1327,9 +1327,9 @@ Corporate investigations and intelligence functions provide critical insights fo
           question: "What is OSINT?",
           options: [
             "Open Source Intelligence from public information",
-            "Only classified information",
             "Only human sources",
-            "Only technical data"
+            "Only technical data",
+            "Only classified information"
           ],
           correctAnswer: 0,
           explanation: "OSINT gathers intelligence from publicly available sources like media, internet, and public records."
@@ -1338,24 +1338,24 @@ Corporate investigations and intelligence functions provide critical insights fo
           id: 9,
           question: "What are forensic accounting tools?",
           options: [
-            "Data mining, statistical analysis, visualization software",
-            "Only calculators",
             "Only spreadsheets",
-            "Only accounting software"
+            "Only accounting software",
+            "Data mining, statistical analysis, visualization software",
+            "Only calculators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Forensic accounting uses specialized software for data analysis, pattern recognition, and visualization."
         },
         {
           id: 10,
           question: "What are ethical investigation principles?",
           options: [
-            "Truthfulness, respect for rights, confidentiality, competence",
-            "Only getting results",
+            "Only cost efficiency",
             "Only speed",
-            "Only cost efficiency"
+            "Truthfulness, respect for rights, confidentiality, competence",
+            "Only getting results"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ethical principles require honesty, respect for rights, confidentiality, and professional competence."
         },
         {
@@ -1374,48 +1374,48 @@ Corporate investigations and intelligence functions provide critical insights fo
           id: 12,
           question: "What is fraud examination methodology?",
           options: [
-            "Assessment, planning, collection, analysis, reporting, testimony",
             "Only evidence collection",
-            "Only interview conduction",
-            "Only report writing"
+            "Assessment, planning, collection, analysis, reporting, testimony",
+            "Only report writing",
+            "Only interview conduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fraud examination follows structured methodology from allegation assessment through testimony."
         },
         {
           id: 13,
           question: "What is competitive intelligence?",
           options: [
+            "Only sales tracking",
             "Competitor analysis and market intelligence gathering",
             "Only financial analysis",
-            "Only product testing",
-            "Only sales tracking"
+            "Only product testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competitive intelligence analyzes competitors, markets, and industry trends for strategic advantage."
         },
         {
           id: 14,
           question: "What are digital evidence considerations?",
           options: [
+            "Only email reading",
             "Forensic imaging, metadata preservation, hash verification",
             "Only printing documents",
-            "Only email reading",
             "Only file copying"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digital evidence requires forensic procedures to preserve integrity, metadata, and verification data."
         },
         {
           id: 15,
           question: "What is threat intelligence?",
           options: [
-            "Cyber, physical, supply chain, geopolitical threat monitoring",
+            "Only competitor monitoring",
             "Only weather monitoring",
             "Only market monitoring",
-            "Only competitor monitoring"
+            "Cyber, physical, supply chain, geopolitical threat monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Threat intelligence monitors various risk domains including cyber, physical, and geopolitical threats."
         },
         {
@@ -1434,36 +1434,36 @@ Corporate investigations and intelligence functions provide critical insights fo
           id: 17,
           question: "What are investigation technology tools?",
           options: [
-            "Digital forensic software, data analysis platforms, case management systems",
-            "Only word processors",
             "Only spreadsheets",
+            "Only word processors",
+            "Digital forensic software, data analysis platforms, case management systems",
             "Only email programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Investigation tools include forensic software, data analysis platforms, and case management systems."
         },
         {
           id: 18,
           question: "What is the Reid Technique?",
           options: [
-            "Structured interrogation methodology",
             "Only interview scheduling",
             "Only note-taking method",
+            "Structured interrogation methodology",
             "Only report format"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Reid Technique is a structured approach to interrogation and interviewing."
         },
         {
           id: 19,
           question: "What are cross-border investigation issues?",
           options: [
-            "Data privacy regulations, evidence transfer, local restrictions",
             "Only language differences",
             "Only time zone differences",
+            "Data privacy regulations, evidence transfer, local restrictions",
             "Only currency differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cross-border investigations face legal, regulatory, and practical challenges across jurisdictions."
         },
         {
@@ -1471,9 +1471,9 @@ Corporate investigations and intelligence functions provide critical insights fo
           question: "What is investigation lifecycle?",
           options: [
             "Case intake, planning, collection, analysis, reporting, closure",
-            "Only evidence collection",
             "Only report writing",
-            "Only witness interviews"
+            "Only witness interviews",
+            "Only evidence collection"
           ],
           correctAnswer: 0,
           explanation: "The investigation lifecycle includes all phases from case initiation through closure and documentation."
@@ -1770,9 +1770,9 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           question: "What are SOC design principles?",
           options: [
             "Centralized monitoring, integrated systems, scalable architecture",
+            "Only video surveillance",
             "Only physical security",
-            "Only cyber security",
-            "Only video surveillance"
+            "Only cyber security"
           ],
           correctAnswer: 0,
           explanation: "SOC design principles include centralized monitoring, system integration, scalability, and resilient operations."
@@ -1782,8 +1782,8 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           question: "What is SIEM?",
           options: [
             "Security Information and Event Management system",
-            "Only video management",
             "Only access control",
+            "Only video management",
             "Only physical security"
           ],
           correctAnswer: 0,
@@ -1794,9 +1794,9 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           question: "What are SOC tier models?",
           options: [
             "Monitoring, analysis, advanced analysis, management tiers",
-            "Only technical levels",
+            "Only experience levels",
             "Only management levels",
-            "Only experience levels"
+            "Only technical levels"
           ],
           correctAnswer: 0,
           explanation: "SOC tiers define different responsibility levels from monitoring through advanced analysis and management."
@@ -1806,8 +1806,8 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           question: "What is alert management process?",
           options: [
             "Detection, triage, investigation, response, resolution, documentation",
-            "Only alert generation",
             "Only response actions",
+            "Only alert generation",
             "Only report writing"
           ],
           correctAnswer: 0,
@@ -1817,12 +1817,12 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           id: 5,
           question: "What is threat hunting?",
           options: [
-            "Proactive search for undetected threats",
-            "Only alert response",
             "Only incident investigation",
-            "Only compliance checking"
+            "Only compliance checking",
+            "Proactive search for undetected threats",
+            "Only alert response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Threat hunting proactively searches for threats that may have evaded automated detection systems."
         },
         {
@@ -1830,9 +1830,9 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           question: "What is incident response lifecycle?",
           options: [
             "Preparation, identification, containment, eradication, recovery, lessons learned",
-            "Only emergency response",
+            "Only report submission",
             "Only technical fixes",
-            "Only report submission"
+            "Only emergency response"
           ],
           correctAnswer: 0,
           explanation: "The incident response lifecycle includes all phases from preparation through lessons learned."
@@ -1842,8 +1842,8 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           question: "What are SOC KPIs?",
           options: [
             "MTTD, MTTR, alert rates, false positive rates",
-            "Only staff numbers",
             "Only budget size",
+            "Only staff numbers",
             "Only equipment counts"
           ],
           correctAnswer: 0,
@@ -1853,72 +1853,72 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           id: 8,
           question: "What are SOC staff roles?",
           options: [
-            "Manager, supervisor, analyst, threat hunter, incident responder",
-            "Only security guards",
             "Only IT staff",
+            "Only security guards",
+            "Manager, supervisor, analyst, threat hunter, incident responder",
             "Only managers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SOC roles include management, supervision, analysis, threat hunting, and incident response specialists."
         },
         {
           id: 9,
           question: "What is SOAR?",
           options: [
+            "Only reporting system",
             "Security Orchestration, Automation and Response platform",
-            "Only alert system",
             "Only monitoring tool",
-            "Only reporting system"
+            "Only alert system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SOAR platforms automate and orchestrate security response workflows and processes."
         },
         {
           id: 10,
           question: "What is threat intelligence integration?",
           options: [
-            "External threat data correlation with internal monitoring",
-            "Only internal data",
             "Only public information",
-            "Only government data"
+            "Only government data",
+            "Only internal data",
+            "External threat data correlation with internal monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Threat intelligence integration correlates external threat data with internal security monitoring."
         },
         {
           id: 11,
           question: "What are shift operations considerations?",
           options: [
-            "Handover procedures, staffing levels, escalation protocols",
-            "Only work hours",
             "Only break times",
+            "Only work hours",
+            "Handover procedures, staffing levels, escalation protocols",
             "Only shift rotation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Shift operations require proper handovers, adequate staffing, and clear escalation procedures."
         },
         {
           id: 12,
           question: "What is EDR?",
           options: [
-            "Endpoint Detection and Response technology",
+            "Only video surveillance",
             "Only network monitoring",
             "Only access control",
-            "Only video surveillance"
+            "Endpoint Detection and Response technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EDR provides host-based threat detection, investigation, and response capabilities."
         },
         {
           id: 13,
           question: "What are quality assurance measures?",
           options: [
-            "Procedure reviews, performance metrics, training assessments",
-            "Only budget reviews",
             "Only staff evaluations",
-            "Only technology checks"
+            "Procedure reviews, performance metrics, training assessments",
+            "Only technology checks",
+            "Only budget reviews"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Quality assurance includes regular reviews, performance measurement, and competency assessments."
         },
         {
@@ -1939,8 +1939,8 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           options: [
             "Stakeholder notification, agency coordination, media plans",
             "Only internal emails",
-            "Only phone calls",
-            "Only meetings"
+            "Only meetings",
+            "Only phone calls"
           ],
           correctAnswer: 0,
           explanation: "Communication protocols define notification, coordination, and public communication procedures."
@@ -1949,24 +1949,24 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           id: 16,
           question: "What is physical SOC design?",
           options: [
-            "Control room layout, video walls, environmental controls",
-            "Only computer placement",
+            "Only lighting design",
             "Only desk arrangement",
-            "Only lighting design"
+            "Control room layout, video walls, environmental controls",
+            "Only computer placement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Physical design includes workspace layout, display systems, and environmental controls."
         },
         {
           id: 17,
           question: "What is threat detection methods?",
           options: [
-            "Signature, anomaly, behavioral, heuristic, machine learning",
             "Only manual review",
-            "Only automated alerts",
-            "Only user reports"
+            "Signature, anomaly, behavioral, heuristic, machine learning",
+            "Only user reports",
+            "Only automated alerts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Detection methods include signature matching, anomaly detection, behavioral analysis, and AI approaches."
         },
         {
@@ -1975,8 +1975,8 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           options: [
             "Shift work impact, stress reduction, burnout prevention",
             "Only salary levels",
-            "Only benefits packages",
-            "Only vacation time"
+            "Only vacation time",
+            "Only benefits packages"
           ],
           correctAnswer: 0,
           explanation: "Wellness considerations address shift work challenges, stress management, and burnout prevention."
@@ -1986,9 +1986,9 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           question: "What is technology lifecycle management?",
           options: [
             "Refresh planning, upgrade procedures, end-of-life planning",
-            "Only purchasing",
+            "Only usage",
             "Only installation",
-            "Only usage"
+            "Only purchasing"
           ],
           correctAnswer: 0,
           explanation: "Lifecycle management includes planning, upgrades, maintenance, and replacement of technology assets."
@@ -1997,12 +1997,12 @@ Integrated Security Operations Centers provide centralized visibility, coordinat
           id: 20,
           question: "What are future SOC trends?",
           options: [
-            "AI integration, cloud SOC, automation, remote operations",
-            "Only current operations",
             "Only traditional methods",
-            "Only manual processes"
+            "AI integration, cloud SOC, automation, remote operations",
+            "Only manual processes",
+            "Only current operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Future trends include artificial intelligence, cloud capabilities, automation, and distributed operations."
         }
       ]
@@ -2331,36 +2331,36 @@ Corporate crisis management requires balancing immediate response needs with lon
           id: 1,
           question: "What are crisis management principles?",
           options: [
-            "Proactive preparation, rapid response, effective communication",
+            "Only public relations",
             "Only emergency response",
             "Only financial management",
-            "Only public relations"
+            "Proactive preparation, rapid response, effective communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Crisis management principles include proactive planning, rapid response, and effective communication."
         },
         {
           id: 2,
           question: "What are crisis types?",
           options: [
-            "Operational, financial, reputational, physical, humanitarian",
-            "Only natural disasters",
+            "Only technical failures",
             "Only financial problems",
-            "Only technical failures"
+            "Operational, financial, reputational, physical, humanitarian",
+            "Only natural disasters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Crisis types include operational, financial, reputational, physical, and humanitarian events."
         },
         {
           id: 3,
           question: "What is crisis management lifecycle?",
           options: [
-            "Prevention, preparation, response, recovery, learning",
+            "Only planning phase",
             "Only emergency response",
             "Only recovery phase",
-            "Only planning phase"
+            "Prevention, preparation, response, recovery, learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The lifecycle includes prevention, preparation, response, recovery, and learning phases."
         },
         {
@@ -2368,8 +2368,8 @@ Corporate crisis management requires balancing immediate response needs with lon
           question: "What are crisis team roles?",
           options: [
             "Crisis manager, communications lead, operations lead, legal advisor",
-            "Only security staff",
             "Only executives",
+            "Only security staff",
             "Only IT staff"
           ],
           correctAnswer: 0,
@@ -2379,24 +2379,24 @@ Corporate crisis management requires balancing immediate response needs with lon
           id: 5,
           question: "What are crisis communication principles?",
           options: [
-            "Transparency, accuracy, timeliness, consistency, empathy",
-            "Only secrecy",
+            "Only technical details",
             "Only delay",
-            "Only technical details"
+            "Only secrecy",
+            "Transparency, accuracy, timeliness, consistency, empathy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Communication should be transparent, accurate, timely, consistent, and empathetic."
         },
         {
           id: 6,
           question: "What is business impact analysis?",
           options: [
+            "Only staff analysis",
             "Assessment of crisis effects on operations and finances",
-            "Only financial analysis",
             "Only technical analysis",
-            "Only staff analysis"
+            "Only financial analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Business impact analysis evaluates operational, financial, and reputational consequences of crises."
         },
         {
@@ -2415,12 +2415,12 @@ Corporate crisis management requires balancing immediate response needs with lon
           id: 8,
           question: "What are recovery time objectives?",
           options: [
-            "Maximum acceptable downtime for critical functions",
-            "Only repair times",
             "Only response times",
-            "Only planning times"
+            "Only planning times",
+            "Only repair times",
+            "Maximum acceptable downtime for critical functions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RTO defines how quickly business functions must be restored after disruption."
         },
         {
@@ -2439,36 +2439,36 @@ Corporate crisis management requires balancing immediate response needs with lon
           id: 10,
           question: "What are legal considerations during crises?",
           options: [
-            "Duty of care, contractual obligations, regulatory reporting",
             "Only emergency laws",
             "Only criminal laws",
-            "Only international laws"
+            "Only international laws",
+            "Duty of care, contractual obligations, regulatory reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Legal considerations include duty of care, contracts, insurance, and regulatory compliance."
         },
         {
           id: 11,
           question: "What are psychological factors in crises?",
           options: [
-            "Stress responses, decision impacts, communication challenges",
-            "Only physical health",
             "Only financial concerns",
-            "Only technical issues"
+            "Stress responses, decision impacts, communication challenges",
+            "Only technical issues",
+            "Only physical health"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Psychological factors include stress, decision-making impacts, and communication difficulties."
         },
         {
           id: 12,
           question: "What are crisis management platforms?",
           options: [
+            "Only email systems",
             "Technology systems for notification, coordination, monitoring",
             "Only phone systems",
-            "Only email systems",
             "Only meeting rooms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Platforms include notification systems, dashboards, resource management, and communication tools."
         },
         {
@@ -2477,8 +2477,8 @@ Corporate crisis management requires balancing immediate response needs with lon
           options: [
             "Restoration of operations and return to normal activities",
             "Only emergency response",
-            "Only immediate actions",
-            "Only evacuation planning"
+            "Only evacuation planning",
+            "Only immediate actions"
           ],
           correctAnswer: 0,
           explanation: "Recovery planning focuses on restoring operations and transitioning back to normal business."
@@ -2488,9 +2488,9 @@ Corporate crisis management requires balancing immediate response needs with lon
           question: "What is after-action review?",
           options: [
             "Comprehensive evaluation of crisis response effectiveness",
+            "Only blame assignment",
             "Only success celebration",
-            "Only failure analysis",
-            "Only blame assignment"
+            "Only failure analysis"
           ],
           correctAnswer: 0,
           explanation: "After-action reviews comprehensively evaluate response effectiveness and identify improvements."
@@ -2499,72 +2499,72 @@ Corporate crisis management requires balancing immediate response needs with lon
           id: 15,
           question: "What are stakeholder communication plans?",
           options: [
-            "Targeted messaging for employees, customers, media, investors",
             "Only internal messages",
-            "Only external messages",
-            "Only technical messages"
+            "Targeted messaging for employees, customers, media, investors",
+            "Only technical messages",
+            "Only external messages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stakeholder plans address different communication needs for various affected groups."
         },
         {
           id: 16,
           question: "What is critical function identification?",
           options: [
-            "Determining essential business activities requiring priority restoration",
-            "Only revenue functions",
             "Only staff functions",
-            "Only technical functions"
+            "Only revenue functions",
+            "Only technical functions",
+            "Determining essential business activities requiring priority restoration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Critical functions are essential activities that must be restored quickly to maintain operations."
         },
         {
           id: 17,
           question: "What are team activation protocols?",
           options: [
-            "Criteria, notification, assembly, authority delegation procedures",
-            "Only emergency calls",
             "Only meeting schedules",
-            "Only training schedules"
+            "Only training schedules",
+            "Only emergency calls",
+            "Criteria, notification, assembly, authority delegation procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Activation protocols define when and how crisis teams are mobilized and deployed."
         },
         {
           id: 18,
           question: "What is media management during crises?",
           options: [
+            "Only technical responses",
             "Monitoring, spokesperson coordination, press conference management",
             "Only ignoring media",
-            "Only avoiding media",
-            "Only technical responses"
+            "Only avoiding media"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Media management includes monitoring, spokesperson coordination, and press event management."
         },
         {
           id: 19,
           question: "What are support services planning?",
           options: [
+            "Only technical support",
             "Employee assistance, counseling, family support programs",
             "Only medical services",
-            "Only technical support",
             "Only financial support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Support services address psychological, emotional, and practical needs during and after crises."
         },
         {
           id: 20,
           question: "What is organizational learning integration?",
           options: [
-            "Applying crisis lessons to improve policies, training, and preparedness",
             "Only documenting events",
-            "Only blaming individuals",
-            "Only celebrating success"
+            "Applying crisis lessons to improve policies, training, and preparedness",
+            "Only celebrating success",
+            "Only blaming individuals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Learning integration applies crisis experience to enhance policies, training, and future preparedness."
         }
       ]
@@ -2893,144 +2893,144 @@ Global security operations require balancing centralized strategy with local ada
           id: 1,
           question: "What is global security framework?",
           options: [
-            "Centralized strategy with regional adaptation and local implementation",
             "Only local approaches",
+            "Only technology solutions",
             "Only centralized control",
-            "Only technology solutions"
+            "Centralized strategy with regional adaptation and local implementation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Global framework combines centralized strategy with regional adaptation and local implementation."
         },
         {
           id: 2,
           question: "What is travel risk management?",
           options: [
-            "Comprehensive program for international traveler protection",
-            "Only flight booking",
             "Only hotel reservations",
-            "Only passport processing"
+            "Only passport processing",
+            "Only flight booking",
+            "Comprehensive program for international traveler protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Travel risk management includes assessment, tracking, emergency response, and medical arrangements."
         },
         {
           id: 3,
           question: "What are expatriate security considerations?",
           options: [
-            "Housing security, local orientation, family protection, medical access",
+            "Only travel security",
             "Only work security",
-            "Only office security",
-            "Only travel security"
+            "Housing security, local orientation, family protection, medical access",
+            "Only office security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Expatriate security addresses housing, local adaptation, family safety, and medical care access."
         },
         {
           id: 4,
           question: "What is supply chain security framework?",
           options: [
+            "Only inventory security",
             "Cargo, information, personnel, facility, process security integration",
             "Only transportation security",
-            "Only warehouse security",
-            "Only inventory security"
+            "Only warehouse security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Supply chain security integrates protection of goods, information, people, facilities, and processes."
         },
         {
           id: 5,
           question: "What are international legal compliance areas?",
           options: [
-            "Data privacy, export controls, anti-corruption, labor laws",
             "Only local laws",
-            "Only corporate policies",
-            "Only security regulations"
+            "Data privacy, export controls, anti-corruption, labor laws",
+            "Only security regulations",
+            "Only corporate policies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Compliance includes data protection, export controls, anti-corruption, and employment regulations."
         },
         {
           id: 6,
           question: "What is cross-border incident response?",
           options: [
-            "Coordinated response across international jurisdictions",
+            "Only technical response",
             "Only local response",
             "Only corporate response",
-            "Only technical response"
+            "Coordinated response across international jurisdictions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cross-border response coordinates across jurisdictions with legal and cultural considerations."
         },
         {
           id: 7,
           question: "What is global security technology integration?",
           options: [
-            "Unified systems across international operations",
             "Only local systems",
-            "Only separate systems",
-            "Only manual systems"
+            "Only manual systems",
+            "Unified systems across international operations",
+            "Only separate systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Technology integration creates unified security systems across global operations."
         },
         {
           id: 8,
           question: "What are international partnerships?",
           options: [
-            "Government, industry, local provider, community relationships",
-            "Only vendor contracts",
             "Only employee relationships",
-            "Only customer relationships"
+            "Only vendor contracts",
+            "Only customer relationships",
+            "Government, industry, local provider, community relationships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "International partnerships include government, industry, local providers, and community relationships."
         },
         {
           id: 9,
           question: "What are global security metrics?",
           options: [
-            "Standardized measurements across international operations",
             "Only local metrics",
+            "Only staff metrics",
             "Only financial metrics",
-            "Only staff metrics"
+            "Standardized measurements across international operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Global metrics provide standardized performance measurement across different regions and operations."
         },
         {
           id: 10,
           question: "What are emerging global security challenges?",
           options: [
-            "Geopolitical risks, climate impacts, technological evolution, pandemics",
             "Only current threats",
+            "Only historical threats",
             "Only local threats",
-            "Only historical threats"
+            "Geopolitical risks, climate impacts, technological evolution, pandemics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Emerging challenges include geopolitical changes, climate impacts, technology risks, and health crises."
         },
         {
           id: 11,
           question: "What is regional risk assessment?",
           options: [
-            "Country-specific evaluation of political, crime, terrorism, environmental risks",
             "Only financial risk",
-            "Only operational risk",
-            "Only technical risk"
+            "Only technical risk",
+            "Country-specific evaluation of political, crime, terrorism, environmental risks",
+            "Only operational risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regional assessment evaluates political, crime, terrorism, environmental, and legal risks by country."
         },
         {
           id: 12,
           question: "What is C-TPAT?",
           options: [
-            "Customs-Trade Partnership Against Terrorism program",
-            "Only shipping program",
             "Only customs program",
-            "Only trade program"
+            "Only shipping program",
+            "Only trade program",
+            "Customs-Trade Partnership Against Terrorism program"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "C-TPAT is a voluntary supply chain security program with U.S. Customs and Border Protection."
         },
         {
@@ -3038,9 +3038,9 @@ Global security operations require balancing centralized strategy with local ada
           question: "What is GDPR?",
           options: [
             "General Data Protection Regulation for data privacy",
+            "Only employment regulation",
             "Only security regulation",
-            "Only trade regulation",
-            "Only employment regulation"
+            "Only trade regulation"
           ],
           correctAnswer: 0,
           explanation: "GDPR is the European Union's comprehensive data protection and privacy regulation."
@@ -3049,24 +3049,24 @@ Global security operations require balancing centralized strategy with local ada
           id: 14,
           question: "What are cultural considerations in global security?",
           options: [
-            "Local practices, communication styles, relationship building approaches",
-            "Only language differences",
             "Only time zone differences",
+            "Only language differences",
+            "Local practices, communication styles, relationship building approaches",
             "Only currency differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cultural considerations include business practices, communication styles, and relationship approaches."
         },
         {
           id: 15,
           question: "What is international standard adoption?",
           options: [
-            "Implementing ISO and ASIS standards across global operations",
-            "Only local standards",
             "Only company standards",
-            "Only industry standards"
+            "Only local standards",
+            "Only industry standards",
+            "Implementing ISO and ASIS standards across global operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Standard adoption implements internationally recognized security standards across operations."
         },
         {
@@ -3085,36 +3085,36 @@ Global security operations require balancing centralized strategy with local ada
           id: 17,
           question: "What are residential security standards?",
           options: [
-            "Minimum requirements for expatriate housing security",
             "Only building codes",
+            "Minimum requirements for expatriate housing security",
             "Only fire codes",
             "Only electrical codes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Residential standards define minimum security requirements for employee housing internationally."
         },
         {
           id: 18,
           question: "What are export control regulations?",
           options: [
-            "Restrictions on international technology and goods transfers",
-            "Only shipping regulations",
             "Only customs regulations",
-            "Only trade regulations"
+            "Only trade regulations",
+            "Only shipping regulations",
+            "Restrictions on international technology and goods transfers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Export controls regulate international transfer of sensitive technologies, goods, and information."
         },
         {
           id: 19,
           question: "What is global incident reporting?",
           options: [
-            "Centralized reporting of security incidents across international operations",
-            "Only local reporting",
             "Only regional reporting",
+            "Only local reporting",
+            "Centralized reporting of security incidents across international operations",
             "Only headquarters reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Global incident reporting provides centralized visibility of security events across all operations."
         },
         {
@@ -3123,8 +3123,8 @@ Global security operations require balancing centralized strategy with local ada
           options: [
             "Political instability, trade tensions, regional conflicts, terrorism evolution",
             "Only economic trends",
-            "Only market trends",
-            "Only technology trends"
+            "Only technology trends",
+            "Only market trends"
           ],
           correctAnswer: 0,
           explanation: "Geopolitical risks include political changes, international tensions, conflicts, and terrorism patterns."
@@ -3138,12 +3138,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 1,
       question: "What is strategic security alignment?",
       options: [
-        "Integrating security with business goals and governance",
         "Only technical security measures",
         "Only physical security planning",
-        "Only compliance requirements"
+        "Only compliance requirements",
+        "Integrating security with business goals and governance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Strategic alignment ensures security initiatives support business objectives and integrate with corporate governance.",
       module: 1
     },
@@ -3151,12 +3151,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 2,
       question: "What is executive protection philosophy?",
       options: [
-        "Low-profile, layered protection with continuous assessment",
-        "Only visible armed guards",
         "Only technical surveillance",
-        "Only residential security"
+        "Low-profile, layered protection with continuous assessment",
+        "Only residential security",
+        "Only visible armed guards"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "EP philosophy emphasizes minimal visibility, multiple security layers, and ongoing threat assessment.",
       module: 2
     },
@@ -3166,8 +3166,8 @@ Global security operations require balancing centralized strategy with local ada
       options: [
         "Objectivity, thoroughness, confidentiality, legality, timeliness",
         "Only speed",
-        "Only cost savings",
-        "Only management approval"
+        "Only management approval",
+        "Only cost savings"
       ],
       correctAnswer: 0,
       explanation: "Investigation principles ensure impartial, comprehensive, confidential, legal, and timely fact-finding.",
@@ -3179,8 +3179,8 @@ Global security operations require balancing centralized strategy with local ada
       options: [
         "Centralized monitoring, integrated systems, scalable architecture",
         "Only physical security",
-        "Only cyber security",
-        "Only video surveillance"
+        "Only video surveillance",
+        "Only cyber security"
       ],
       correctAnswer: 0,
       explanation: "SOC design principles include centralized monitoring, system integration, scalability, and resilient operations.",
@@ -3190,12 +3190,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 5,
       question: "What are crisis management principles?",
       options: [
-        "Proactive preparation, rapid response, effective communication",
         "Only emergency response",
-        "Only financial management",
-        "Only public relations"
+        "Only public relations",
+        "Proactive preparation, rapid response, effective communication",
+        "Only financial management"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Crisis management principles include proactive planning, rapid response, and effective communication.",
       module: 5
     },
@@ -3203,12 +3203,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 6,
       question: "What is global security framework?",
       options: [
-        "Centralized strategy with regional adaptation and local implementation",
-        "Only local approaches",
+        "Only technology solutions",
         "Only centralized control",
-        "Only technology solutions"
+        "Only local approaches",
+        "Centralized strategy with regional adaptation and local implementation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Global framework combines centralized strategy with regional adaptation and local implementation.",
       module: 6
     },
@@ -3216,12 +3216,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 7,
       question: "What does the CSO role involve?",
       options: [
-        "Enterprise-wide security strategy and leadership",
+        "Only employee screening",
         "Only physical security management",
         "Only technical security implementation",
-        "Only employee screening"
+        "Enterprise-wide security strategy and leadership"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The Chief Security Officer leads enterprise security strategy, cross-functional teams, and executive stakeholder management.",
       module: 1
     },
@@ -3230,8 +3230,8 @@ Global security operations require balancing centralized strategy with local ada
       question: "What does advance team do in executive protection?",
       options: [
         "Prepares locations before protectee arrival",
-        "Only drives vehicles",
         "Only provides close protection",
+        "Only drives vehicles",
         "Only handles intelligence"
       ],
       correctAnswer: 0,
@@ -3242,12 +3242,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 9,
       question: "What is chain of custody in investigations?",
       options: [
-        "Documented evidence handling from collection to court",
-        "Only evidence storage",
         "Only evidence collection",
-        "Only evidence analysis"
+        "Documented evidence handling from collection to court",
+        "Only evidence analysis",
+        "Only evidence storage"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Chain of custody documents evidence handling to maintain integrity and legal admissibility.",
       module: 3
     },
@@ -3255,12 +3255,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 10,
       question: "What is SIEM in SOC operations?",
       options: [
-        "Security Information and Event Management system",
         "Only video management",
+        "Only physical security",
         "Only access control",
-        "Only physical security"
+        "Security Information and Event Management system"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "SIEM systems collect, correlate, and analyze security event logs from multiple sources.",
       module: 4
     },
@@ -3268,12 +3268,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 11,
       question: "What are crisis types?",
       options: [
+        "Only technical failures",
         "Operational, financial, reputational, physical, humanitarian",
-        "Only natural disasters",
         "Only financial problems",
-        "Only technical failures"
+        "Only natural disasters"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Crisis types include operational, financial, reputational, physical, and humanitarian events.",
       module: 5
     },
@@ -3281,12 +3281,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 12,
       question: "What is travel risk management?",
       options: [
-        "Comprehensive program for international traveler protection",
         "Only flight booking",
         "Only hotel reservations",
+        "Comprehensive program for international traveler protection",
         "Only passport processing"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Travel risk management includes assessment, tracking, emergency response, and medical arrangements.",
       module: 6
     },
@@ -3294,12 +3294,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 13,
       question: "What are security maturity model levels?",
       options: [
-        "Progressive stages from ad-hoc to optimized security",
+        "Only technology sophistication",
         "Only budget levels",
-        "Only staff size categories",
-        "Only technology sophistication"
+        "Progressive stages from ad-hoc to optimized security",
+        "Only staff size categories"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Maturity models describe progressive stages of security program development from initial to optimizing levels.",
       module: 1
     },
@@ -3307,12 +3307,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 14,
       question: "What are executive cyber threats?",
       options: [
-        "Spear phishing, social engineering, digital tracking",
-        "Only virus attacks",
         "Only network breaches",
-        "Only data theft"
+        "Only data theft",
+        "Only virus attacks",
+        "Spear phishing, social engineering, digital tracking"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Executives face targeted digital threats including spear phishing, social engineering, and location tracking.",
       module: 2
     },
@@ -3320,12 +3320,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 15,
       question: "What are financial investigation areas?",
       options: [
-        "Asset misappropriation, corruption, financial statement fraud",
-        "Only theft investigation",
         "Only employee screening",
-        "Only background checks"
+        "Only background checks",
+        "Only theft investigation",
+        "Asset misappropriation, corruption, financial statement fraud"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Financial investigations cover asset theft, corruption schemes, and financial record manipulation.",
       module: 3
     },
@@ -3333,12 +3333,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 16,
       question: "What are SOC tier models?",
       options: [
-        "Monitoring, analysis, advanced analysis, management tiers",
-        "Only technical levels",
+        "Only experience levels",
         "Only management levels",
-        "Only experience levels"
+        "Monitoring, analysis, advanced analysis, management tiers",
+        "Only technical levels"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "SOC tiers define different responsibility levels from monitoring through advanced analysis and management.",
       module: 4
     },
@@ -3359,12 +3359,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 18,
       question: "What are expatriate security considerations?",
       options: [
-        "Housing security, local orientation, family protection, medical access",
-        "Only work security",
         "Only office security",
-        "Only travel security"
+        "Only travel security",
+        "Housing security, local orientation, family protection, medical access",
+        "Only work security"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Expatriate security addresses housing, local adaptation, family safety, and medical care access.",
       module: 6
     },
@@ -3372,12 +3372,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 19,
       question: "What is security program lifecycle?",
       options: [
-        "Assessment, planning, design, implementation, operation, evaluation",
-        "Only implementation phase",
         "Only daily operations",
-        "Only emergency response"
+        "Only implementation phase",
+        "Only emergency response",
+        "Assessment, planning, design, implementation, operation, evaluation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The lifecycle includes assessment, planning, design, implementation, operation, and evaluation phases.",
       module: 1
     },
@@ -3386,9 +3386,9 @@ Global security operations require balancing centralized strategy with local ada
       question: "What is protective formation in executive protection?",
       options: [
         "Strategic positioning of protection team members",
-        "Only vehicle positioning",
+        "Only crowd control",
         "Only building layout",
-        "Only crowd control"
+        "Only vehicle positioning"
       ],
       correctAnswer: 0,
       explanation: "Protective formations are strategic positioning arrangements that provide optimal protection coverage.",
@@ -3398,12 +3398,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 21,
       question: "What is due diligence investigation?",
       options: [
-        "Pre-transaction risk assessment and verification",
         "Only employee investigation",
         "Only criminal investigation",
-        "Only security assessment"
+        "Only security assessment",
+        "Pre-transaction risk assessment and verification"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Due diligence investigates risks before business transactions like mergers or partnerships.",
       module: 3
     },
@@ -3412,9 +3412,9 @@ Global security operations require balancing centralized strategy with local ada
       question: "What is alert management process in SOC?",
       options: [
         "Detection, triage, investigation, response, resolution, documentation",
-        "Only alert generation",
+        "Only report writing",
         "Only response actions",
-        "Only report writing"
+        "Only alert generation"
       ],
       correctAnswer: 0,
       explanation: "Alert management includes detection, assessment, investigation, response, resolution, and documentation.",
@@ -3424,12 +3424,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 23,
       question: "What are crisis team roles?",
       options: [
-        "Crisis manager, communications lead, operations lead, legal advisor",
-        "Only security staff",
         "Only executives",
-        "Only IT staff"
+        "Only security staff",
+        "Only IT staff",
+        "Crisis manager, communications lead, operations lead, legal advisor"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Crisis teams include leadership, communications, operations, legal, and HR roles.",
       module: 5
     },
@@ -3437,12 +3437,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 24,
       question: "What is supply chain security framework?",
       options: [
-        "Cargo, information, personnel, facility, process security integration",
-        "Only transportation security",
+        "Only inventory security",
         "Only warehouse security",
-        "Only inventory security"
+        "Cargo, information, personnel, facility, process security integration",
+        "Only transportation security"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Supply chain security integrates protection of goods, information, people, facilities, and processes.",
       module: 6
     },
@@ -3450,12 +3450,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 25,
       question: "What is ROSI in security budgeting?",
       options: [
-        "Return on Security Investment calculation",
-        "Only security budget",
         "Only risk assessment",
-        "Only compliance cost"
+        "Return on Security Investment calculation",
+        "Only compliance cost",
+        "Only security budget"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "ROSI helps quantify the financial return from security investments by comparing costs to risk reduction benefits.",
       module: 1
     },
@@ -3464,9 +3464,9 @@ Global security operations require balancing centralized strategy with local ada
       question: "What is CPTED in residential security?",
       options: [
         "Crime Prevention Through Environmental Design",
-        "Only alarm systems",
+        "Only camera systems",
         "Only guard patrols",
-        "Only camera systems"
+        "Only alarm systems"
       ],
       correctAnswer: 0,
       explanation: "CPTED uses design principles to reduce crime opportunities through environmental manipulation.",
@@ -3476,12 +3476,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 27,
       question: "What is the intelligence cycle?",
       options: [
-        "Planning, collection, processing, analysis, dissemination",
         "Only data collection",
         "Only report writing",
-        "Only surveillance"
+        "Only surveillance",
+        "Planning, collection, processing, analysis, dissemination"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The intelligence cycle systematically plans, collects, processes, analyzes, and distributes information.",
       module: 3
     },
@@ -3489,12 +3489,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 28,
       question: "What is threat hunting in SOC?",
       options: [
-        "Proactive search for undetected threats",
         "Only alert response",
         "Only incident investigation",
+        "Proactive search for undetected threats",
         "Only compliance checking"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Threat hunting proactively searches for threats that may have evaded automated detection systems.",
       module: 4
     },
@@ -3504,8 +3504,8 @@ Global security operations require balancing centralized strategy with local ada
       options: [
         "Transparency, accuracy, timeliness, consistency, empathy",
         "Only secrecy",
-        "Only delay",
-        "Only technical details"
+        "Only technical details",
+        "Only delay"
       ],
       correctAnswer: 0,
       explanation: "Communication should be transparent, accurate, timely, consistent, and empathetic.",
@@ -3515,12 +3515,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 30,
       question: "What are international legal compliance areas?",
       options: [
-        "Data privacy, export controls, anti-corruption, labor laws",
+        "Only security regulations",
         "Only local laws",
         "Only corporate policies",
-        "Only security regulations"
+        "Data privacy, export controls, anti-corruption, labor laws"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Compliance includes data protection, export controls, anti-corruption, and employment regulations.",
       module: 6
     },
@@ -3528,12 +3528,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 31,
       question: "What is third-party risk management?",
       options: [
-        "Managing security risks from vendors and partners",
-        "Only employee risks",
+        "Only technical risks",
         "Only physical risks",
-        "Only technical risks"
+        "Only employee risks",
+        "Managing security risks from vendors and partners"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Third-party risk management addresses security risks introduced by vendors, suppliers, and business partners.",
       module: 1
     },
@@ -3554,12 +3554,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 33,
       question: "What are interview techniques in investigations?",
       options: [
-        "Rapport building, question formulation, active listening",
         "Only interrogation",
         "Only note-taking",
-        "Only recording"
+        "Only recording",
+        "Rapport building, question formulation, active listening"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Effective interviewing uses rapport building, strategic questioning, and active listening skills.",
       module: 3
     },
@@ -3567,12 +3567,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 34,
       question: "What is incident response lifecycle in SOC?",
       options: [
+        "Only technical fixes",
         "Preparation, identification, containment, eradication, recovery, lessons learned",
         "Only emergency response",
-        "Only technical fixes",
         "Only report submission"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The incident response lifecycle includes all phases from preparation through lessons learned.",
       module: 4
     },
@@ -3580,12 +3580,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 35,
       question: "What is business impact analysis?",
       options: [
+        "Only staff analysis",
         "Assessment of crisis effects on operations and finances",
-        "Only financial analysis",
         "Only technical analysis",
-        "Only staff analysis"
+        "Only financial analysis"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Business impact analysis evaluates operational, financial, and reputational consequences of crises.",
       module: 5
     },
@@ -3593,12 +3593,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 36,
       question: "What is cross-border incident response?",
       options: [
-        "Coordinated response across international jurisdictions",
-        "Only local response",
         "Only corporate response",
+        "Only local response",
+        "Coordinated response across international jurisdictions",
         "Only technical response"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Cross-border response coordinates across jurisdictions with legal and cultural considerations.",
       module: 6
     },
@@ -3606,12 +3606,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 37,
       question: "What are security steering committees?",
       options: [
-        "Cross-departmental groups overseeing security initiatives",
-        "Only security department meetings",
         "Only executive meetings",
-        "Only technical teams"
+        "Cross-departmental groups overseeing security initiatives",
+        "Only technical teams",
+        "Only security department meetings"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Steering committees provide cross-functional oversight, resource allocation, and strategic direction for security.",
       module: 1
     },
@@ -3620,8 +3620,8 @@ Global security operations require balancing centralized strategy with local ada
       question: "What is advance security survey in executive protection?",
       options: [
         "Location vulnerability and emergency egress planning",
-        "Only guard scheduling",
         "Only budget planning",
+        "Only guard scheduling",
         "Only equipment ordering"
       ],
       correctAnswer: 0,
@@ -3632,12 +3632,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 39,
       question: "What is investigation report structure?",
       options: [
-        "Executive summary, background, findings, conclusions, recommendations",
         "Only findings section",
-        "Only evidence list",
-        "Only witness statements"
+        "Executive summary, background, findings, conclusions, recommendations",
+        "Only witness statements",
+        "Only evidence list"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Reports include executive summary, background, findings, conclusions, and recommendations sections.",
       module: 3
     },
@@ -3645,12 +3645,12 @@ Global security operations require balancing centralized strategy with local ada
       id: 40,
       question: "What are SOC KPIs?",
       options: [
-        "MTTD, MTTR, alert rates, false positive rates",
-        "Only staff numbers",
         "Only budget size",
-        "Only equipment counts"
+        "Only equipment counts",
+        "MTTD, MTTR, alert rates, false positive rates",
+        "Only staff numbers"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "KPIs measure detection time, response time, alert volumes, and accuracy rates.",
       module: 4
     }

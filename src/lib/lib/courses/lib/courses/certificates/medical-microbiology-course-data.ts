@@ -143,81 +143,81 @@ Understanding how microorganisms cause disease is fundamental to medical microbi
           id: 1,
           question: "What is the first stage of infection?",
           options: [
-            "Adhesion",
             "Exposure",
             "Invasion",
+            "Adhesion",
             "Multiplication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Exposure refers to the initial contact between the pathogen and the host."
         },
         {
           id: 2,
           question: "What are secreted bacterial proteins with specific toxic effects?",
           options: [
+            "Capsules",
             "Endotoxins",
             "Exotoxins",
-            "Capsules",
             "Adhesins"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Exotoxins are proteins secreted by bacteria that have specific damaging effects on host cells."
         },
         {
           id: 3,
           question: "Which immune cells are professional phagocytes?",
           options: [
-            "B cells",
-            "T cells",
             "Neutrophils and macrophages",
-            "Natural killer cells"
+            "Natural killer cells",
+            "T cells",
+            "B cells"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Neutrophils and macrophages are specialized phagocytic cells that engulf and destroy pathogens."
         },
         {
           id: 4,
           question: "What enhances phagocytosis by coating pathogens?",
           options: [
-            "Neutralization",
-            "Opsonization",
             "Complement activation",
-            "ADCC"
+            "Neutralization",
+            "ADCC",
+            "Opsonization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Opsonization involves coating pathogens with antibodies or complement proteins to enhance phagocytosis."
         },
         {
           id: 5,
           question: "What is the lipid component of Gram-negative bacterial walls?",
           options: [
-            "Exotoxin",
             "Endotoxin",
-            "Enterotoxin",
-            "Neurotoxin"
+            "Exotoxin",
+            "Neurotoxin",
+            "Enterotoxin"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Endotoxin refers to lipopolysaccharide (LPS) in the outer membrane of Gram-negative bacteria."
         },
         {
           id: 6,
           question: "What immune cells kill virus-infected cells?",
           options: [
-            "Helper T cells",
             "Cytotoxic T cells",
+            "Neutrophils",
             "B cells",
-            "Neutrophils"
+            "Helper T cells"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cytotoxic T cells recognize and kill cells infected with intracellular pathogens like viruses."
         },
         {
           id: 7,
           question: "What prevents phagocytosis by immune cells?",
           options: [
-            "Adhesins",
-            "Capsules",
             "Invasins",
+            "Capsules",
+            "Adhesins",
             "Toxins"
           ],
           correctAnswer: 1,
@@ -227,21 +227,21 @@ Understanding how microorganisms cause disease is fundamental to medical microbi
           id: 8,
           question: "What is changing surface antigens to evade immunity called?",
           options: [
-            "Molecular mimicry",
-            "Antigenic variation",
+            "Biofilm formation",
             "Immune suppression",
-            "Biofilm formation"
+            "Molecular mimicry",
+            "Antigenic variation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Antigenic variation allows pathogens to change their surface antigens, escaping recognition by antibodies."
         },
         {
           id: 9,
           question: "What are proteins that provide antiviral defense?",
           options: [
-            "Complement proteins",
-            "Interferons",
             "Acute phase proteins",
+            "Interferons",
+            "Complement proteins",
             "Antibodies"
           ],
           correctAnswer: 1,
@@ -251,10 +251,10 @@ Understanding how microorganisms cause disease is fundamental to medical microbi
           id: 10,
           question: "What vaccine type uses weakened live pathogens?",
           options: [
-            "Inactivated vaccine",
+            "Toxoid vaccine",
             "Live attenuated vaccine",
-            "Subunit vaccine",
-            "Toxoid vaccine"
+            "Inactivated vaccine",
+            "Subunit vaccine"
           ],
           correctAnswer: 1,
           explanation: "Live attenuated vaccines contain weakened forms of pathogens that can replicate but cause minimal disease."
@@ -263,69 +263,69 @@ Understanding how microorganisms cause disease is fundamental to medical microbi
           id: 11,
           question: "What are surface molecules for attachment to host cells?",
           options: [
-            "Toxins",
-            "Adhesins",
             "Enzymes",
-            "Capsules"
+            "Capsules",
+            "Adhesins",
+            "Toxins"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Adhesins are microbial surface molecules that bind to specific receptors on host cells."
         },
         {
           id: 12,
           question: "What is population-level protection from vaccination?",
           options: [
-            "Individual immunity",
-            "Herd immunity",
             "Passive immunity",
-            "Active immunity"
+            "Individual immunity",
+            "Active immunity",
+            "Herd immunity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Herd immunity occurs when enough people are immune to prevent sustained transmission in a population."
         },
         {
           id: 13,
           question: "What causes toxic shock syndrome?",
           options: [
-            "Endotoxin",
             "Superantigen exotoxin",
             "Neurotoxin",
-            "Enterotoxin"
+            "Enterotoxin",
+            "Endotoxin"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Toxic shock syndrome toxin is a superantigen that overstimulates T cells, causing massive cytokine release."
         },
         {
           id: 14,
           question: "Which T cells coordinate immune responses?",
           options: [
-            "Cytotoxic T cells",
             "Helper T cells",
+            "Cytotoxic T cells",
             "Memory T cells",
             "Regulatory T cells"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Helper T cells recognize antigens and secrete cytokines that coordinate different aspects of immune responses."
         },
         {
           id: 15,
           question: "What are infections by normal flora in compromised hosts?",
           options: [
-            "Primary infections",
             "Opportunistic infections",
+            "Primary infections",
             "Latent infections",
             "Chronic infections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Opportunistic infections occur when normally harmless microbes cause disease in immunocompromised hosts."
         },
         {
           id: 16,
           question: "What protein cascade enhances pathogen destruction?",
           options: [
-            "Interferon system",
-            "Complement system",
             "Antibody system",
+            "Complement system",
+            "Interferon system",
             "Cytokine network"
           ],
           correctAnswer: 1,
@@ -336,21 +336,21 @@ Understanding how microorganisms cause disease is fundamental to medical microbi
           question: "What mimics host molecules to evade detection?",
           options: [
             "Antigenic variation",
-            "Molecular mimicry",
             "Immune suppression",
+            "Molecular mimicry",
             "Intracellular hiding"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Molecular mimicry involves pathogens producing molecules similar to host components to avoid immune recognition."
         },
         {
           id: 18,
           question: "What are A-B toxins?",
           options: [
-            "Membrane-disrupting toxins",
+            "Endotoxins",
             "Two-component exotoxins",
-            "Superantigens",
-            "Endotoxins"
+            "Membrane-disrupting toxins",
+            "Superantigens"
           ],
           correctAnswer: 1,
           explanation: "A-B toxins consist of an A (active) subunit with toxic activity and a B (binding) subunit for target cell attachment."
@@ -360,23 +360,23 @@ Understanding how microorganisms cause disease is fundamental to medical microbi
           question: "What is measured to assess specific immunity?",
           options: [
             "White blood cell count",
-            "Antibody titers",
+            "Skin test reactions",
             "Complement levels",
-            "Skin test reactions"
+            "Antibody titers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Antibody titers measure the concentration of specific antibodies in serum, indicating immune response to particular antigens."
         },
         {
           id: 20,
           question: "What are dormant infections that can reactivate?",
           options: [
+            "Opportunistic infections",
             "Acute infections",
             "Latent infections",
-            "Chronic infections",
-            "Opportunistic infections"
+            "Chronic infections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Latent infections remain dormant for long periods but can reactivate under certain conditions (e.g., tuberculosis, herpes viruses)."
         }
       ]
@@ -562,22 +562,22 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           id: 1,
           question: "What is the most common bacterial stain?",
           options: [
+            "Wright stain",
             "Acid-fast stain",
-            "Gram stain",
             "Fluorescent stain",
-            "Wright stain"
+            "Gram stain"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Gram stain is the most commonly used stain in clinical microbiology for bacterial classification."
         },
         {
           id: 2,
           question: "What media inhibit unwanted organisms?",
           options: [
-            "General purpose media",
-            "Selective media",
             "Differential media",
-            "Enriched media"
+            "Selective media",
+            "Enriched media",
+            "General purpose media"
           ],
           correctAnswer: 1,
           explanation: "Selective media contain substances that inhibit the growth of certain microorganisms while allowing others to grow."
@@ -586,9 +586,9 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           id: 3,
           question: "What is the lowest antibiotic concentration inhibiting growth?",
           options: [
-            "MBC",
-            "MIC",
             "MLC",
+            "MIC",
+            "MBC",
             "MTC"
           ],
           correctAnswer: 1,
@@ -598,57 +598,57 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           id: 4,
           question: "What molecular method amplifies specific DNA sequences?",
           options: [
-            "ELISA",
             "PCR",
             "Western blot",
-            "MALDI-TOF"
+            "MALDI-TOF",
+            "ELISA"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Polymerase Chain Reaction (PCR) amplifies specific DNA sequences for detection and analysis."
         },
         {
           id: 5,
           question: "What detects antibodies using enzyme-linked detection?",
           options: [
-            "PCR",
-            "ELISA",
             "Culture",
-            "Gram stain"
+            "PCR",
+            "Gram stain",
+            "ELISA"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Enzyme-Linked Immunosorbent Assay (ELISA) uses enzyme-linked antibodies to detect antigens or antibodies."
         },
         {
           id: 6,
           question: "What rapidly identifies bacteria from colonies using mass spectrometry?",
           options: [
-            "PCR",
-            "MALDI-TOF",
             "ELISA",
-            "Disk diffusion"
+            "Disk diffusion",
+            "PCR",
+            "MALDI-TOF"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "MALDI-TOF mass spectrometry provides rapid bacterial identification by analyzing protein profiles."
         },
         {
           id: 7,
           question: "What measures antibiotic susceptibility by zone size?",
           options: [
+            "Automated systems",
             "Broth dilution",
             "Disk diffusion",
-            "E-test",
-            "Automated systems"
+            "E-test"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Disk diffusion (Kirby-Bauer) measures zones of inhibition around antibiotic disks to determine susceptibility."
         },
         {
           id: 8,
           question: "What biosafety level is for dangerous exotic pathogens?",
           options: [
+            "BSL-3",
             "BSL-1",
             "BSL-2",
-            "BSL-3",
             "BSL-4"
           ],
           correctAnswer: 3,
@@ -658,48 +658,48 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           id: 9,
           question: "What provides rapid testing at patient care sites?",
           options: [
+            "Reference laboratory testing",
             "Centralized laboratory testing",
             "Point-of-care testing",
-            "Reference laboratory testing",
             "Molecular diagnostic testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Point-of-care testing provides rapid diagnostic results at or near the site of patient care."
         },
         {
           id: 10,
           question: "What stains are used for mycobacteria?",
           options: [
-            "Gram stain",
             "Acid-fast stain",
-            "Giemsa stain",
-            "Wright stain"
+            "Wright stain",
+            "Gram stain",
+            "Giemsa stain"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Acid-fast stains (Ziehl-Neelsen, Kinyoun) are used to detect mycobacteria which have waxy cell walls."
         },
         {
           id: 11,
           question: "What is the standard incubation temperature for pathogens?",
           options: [
+            "35-37°C",
             "25°C",
             "30°C",
-            "35-37°C",
             "42°C"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Most human pathogens are incubated at 35-37°C, which approximates human body temperature."
         },
         {
           id: 12,
           question: "What detects mecA gene for MRSA?",
           options: [
-            "Culture methods",
-            "Molecular methods",
+            "Microscopic methods",
             "Serological methods",
-            "Microscopic methods"
+            "Molecular methods",
+            "Culture methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "PCR and other molecular methods can detect the mecA gene which confers methicillin resistance in Staphylococcus aureus."
         },
         {
@@ -719,11 +719,11 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           question: "What test confirms HIV antibody specificity?",
           options: [
             "Rapid test",
-            "ELISA",
             "Western blot",
-            "PCR"
+            "PCR",
+            "ELISA"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Western blot is used as a confirmatory test for HIV to detect specific antibodies to viral proteins."
         },
         {
@@ -731,11 +731,11 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           question: "What is required for external quality assessment?",
           options: [
             "Internal QC",
-            "Proficiency testing",
+            "Staff training",
             "Equipment calibration",
-            "Staff training"
+            "Proficiency testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Proficiency testing involves analyzing unknown samples provided by external agencies to assess laboratory performance."
         },
         {
@@ -743,23 +743,23 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           question: "What detects antigens using latex particle agglutination?",
           options: [
             "PCR",
+            "Gram stain",
             "Latex agglutination",
-            "Culture",
-            "Gram stain"
+            "Culture"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Latex agglutination tests use antibody-coated latex particles to detect specific antigens in clinical specimens."
         },
         {
           id: 17,
           question: "What is used for spirochete visualization?",
           options: [
-            "Brightfield microscopy",
             "Darkfield microscopy",
             "Phase contrast",
+            "Brightfield microscopy",
             "Fluorescence microscopy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Darkfield microscopy illuminates specimens against a dark background, useful for visualizing thin spirochetes."
         },
         {
@@ -768,34 +768,34 @@ Accurate diagnosis of infectious diseases is crucial for appropriate treatment a
           options: [
             "Blood agar",
             "MacConkey agar",
-            "Mannitol salt agar",
-            "Chocolate agar"
+            "Chocolate agar",
+            "Mannitol salt agar"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Mannitol salt agar is selective for staphylococci due to its high salt concentration."
         },
         {
           id: 19,
           question: "What provides absolute nucleic acid quantification?",
           options: [
-            "Conventional PCR",
             "Real-time PCR",
-            "Digital PCR",
-            "Multiplex PCR"
+            "Multiplex PCR",
+            "Conventional PCR",
+            "Digital PCR"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Digital PCR provides absolute quantification of nucleic acids by partitioning samples into many individual reactions."
         },
         {
           id: 20,
           question: "What regulates clinical laboratory testing in the US?",
           options: [
-            "FDA",
             "CLIA",
             "CDC",
+            "FDA",
             "WHO"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Clinical Laboratory Improvement Amendments (CLIA) regulate laboratory testing in the United States."
         }
       ]
@@ -1015,22 +1015,22 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           id: 1,
           question: "What inhibits bacterial cell wall synthesis?",
           options: [
-            "Aminoglycosides",
             "Beta-lactams",
-            "Tetracyclines",
-            "Fluoroquinolones"
+            "Fluoroquinolones",
+            "Aminoglycosides",
+            "Tetracyclines"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Beta-lactam antibiotics inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins."
         },
         {
           id: 2,
           question: "What is the antifungal target of azoles?",
           options: [
-            "Cell wall",
+            "DNA synthesis",
             "Cell membrane ergosterol synthesis",
-            "Protein synthesis",
-            "DNA synthesis"
+            "Cell wall",
+            "Protein synthesis"
           ],
           correctAnswer: 1,
           explanation: "Azole antifungals inhibit ergosterol synthesis, disrupting fungal cell membrane integrity."
@@ -1039,12 +1039,12 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           id: 3,
           question: "What is the lowest antibiotic concentration killing bacteria?",
           options: [
-            "MIC",
             "MBC",
-            "MLC",
-            "T>C"
+            "T>C",
+            "MIC",
+            "MLC"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Minimum Bactericidal Concentration (MBC) is the lowest concentration that kills 99.9% of bacteria."
         },
         {
@@ -1052,20 +1052,20 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           question: "What mechanism involves antibiotic-modifying enzymes?",
           options: [
             "Altered target sites",
-            "Enzyme production",
+            "Efflux pumps",
             "Reduced permeability",
-            "Efflux pumps"
+            "Enzyme production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Bacteria produce enzymes like beta-lactamases that modify or destroy antibiotics before they can act."
         },
         {
           id: 5,
           question: "What does MRSA stand for?",
           options: [
-            "Multiple-resistant Staphylococcus aureus",
-            "Methicillin-resistant Staphylococcus aureus",
             "Macrolide-resistant Staphylococcus aureus",
+            "Methicillin-resistant Staphylococcus aureus",
+            "Multiple-resistant Staphylococcus aureus",
             "Multi-sensitive Staphylococcus aureus"
           ],
           correctAnswer: 1,
@@ -1075,9 +1075,9 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           id: 6,
           question: "What optimizes antibiotic use to reduce resistance?",
           options: [
-            "Antibiotic cycling",
-            "Antimicrobial stewardship",
             "Empiric therapy",
+            "Antimicrobial stewardship",
+            "Antibiotic cycling",
             "Combination therapy"
           ],
           correctAnswer: 1,
@@ -1087,48 +1087,48 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           id: 7,
           question: "What is time above MIC important for?",
           options: [
-            "Aminoglycosides",
-            "Beta-lactams",
             "Fluoroquinolones",
-            "Tetracyclines"
+            "Aminoglycosides",
+            "Tetracyclines",
+            "Beta-lactams"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Time above MIC is the key PK/PD parameter for time-dependent killers like beta-lactams."
         },
         {
           id: 8,
           question: "What are echinocandins used for?",
           options: [
-            "Bacterial infections",
             "Fungal infections",
             "Viral infections",
-            "Parasitic infections"
+            "Parasitic infections",
+            "Bacterial infections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Echinocandins are antifungal drugs that inhibit fungal cell wall synthesis."
         },
         {
           id: 9,
           question: "What treats HIV by inhibiting reverse transcriptase?",
           options: [
-            "Protease inhibitors",
-            "NRTIs",
             "Integrase inhibitors",
-            "Fusion inhibitors"
+            "Fusion inhibitors",
+            "NRTIs",
+            "Protease inhibitors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Nucleoside Reverse Transcriptase Inhibitors (NRTIs) inhibit HIV replication by blocking reverse transcriptase."
         },
         {
           id: 10,
           question: "What is reduced antibiotic entry into cells called?",
           options: [
+            "Efflux pumps",
             "Enzyme production",
             "Reduced permeability",
-            "Altered target sites",
-            "Efflux pumps"
+            "Altered target sites"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reduced permeability involves changes in porin channels that decrease antibiotic entry into bacterial cells."
         },
         {
@@ -1136,69 +1136,69 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           question: "What requires peak/MIC ratio optimization?",
           options: [
             "Beta-lactams",
+            "Sulfonamides",
             "Aminoglycosides",
-            "Macrolides",
-            "Sulfonamides"
+            "Macrolides"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Aminoglycosides exhibit concentration-dependent killing, requiring high peak/MIC ratios for optimal efficacy."
         },
         {
           id: 12,
           question: "What is ESBL?",
           options: [
-            "Extended-spectrum beta-lactamase",
             "Enhanced sensitivity beta-lactam",
             "Extended-spectrum beta-lactam",
+            "Extended-spectrum beta-lactamase",
             "Enzyme-sensitive beta-lactam"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ESBL stands for Extended-Spectrum Beta-Lactamase, enzymes that hydrolyze most beta-lactam antibiotics."
         },
         {
           id: 13,
           question: "What monitors vancomycin therapy?",
           options: [
-            "Peak levels",
-            "Trough levels",
             "Random levels",
-            "No monitoring needed"
+            "Peak levels",
+            "No monitoring needed",
+            "Trough levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Vancomycin trough levels are monitored to ensure adequate dosing and avoid nephrotoxicity."
         },
         {
           id: 14,
           question: "What is CRE?",
           options: [
-            "Cephalosporin-resistant Enterococci",
-            "Carbapenem-resistant Enterobacteriaceae",
             "Ciprofloxacin-resistant Escherichia",
-            "Clarithromycin-resistant Enterobacteriaceae"
+            "Cephalosporin-resistant Enterococci",
+            "Clarithromycin-resistant Enterobacteriaceae",
+            "Carbapenem-resistant Enterobacteriaceae"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CRE stands for Carbapenem-resistant Enterobacteriaceae, resistant to most beta-lactam antibiotics."
         },
         {
           id: 15,
           question: "What uses bacteriophages for treatment?",
           options: [
+            "Immunotherapy",
             "Antibiotic therapy",
-            "Phage therapy",
             "Vaccination",
-            "Immunotherapy"
+            "Phage therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Phage therapy uses bacteriophages (viruses that infect bacteria) to treat bacterial infections."
         },
         {
           id: 16,
           question: "What inhibits protein synthesis by binding 50S subunit?",
           options: [
-            "Aminoglycosides",
-            "Macrolides",
             "Tetracyclines",
-            "Fluoroquinolones"
+            "Macrolides",
+            "Fluoroquinolones",
+            "Aminoglycosides"
           ],
           correctAnswer: 1,
           explanation: "Macrolides inhibit bacterial protein synthesis by binding to the 50S ribosomal subunit."
@@ -1207,12 +1207,12 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           id: 17,
           question: "What is HAART for HIV?",
           options: [
-            "Single drug therapy",
             "Combination antiretroviral therapy",
             "Intermittent therapy",
+            "Single drug therapy",
             "Prophylactic therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Highly Active Antiretroviral Therapy (HAART) combines multiple antiretroviral drugs to suppress HIV replication."
         },
         {
@@ -1221,8 +1221,8 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           options: [
             "Porins",
             "Efflux pumps",
-            "Penicillin-binding proteins",
-            "Beta-lactamases"
+            "Beta-lactamases",
+            "Penicillin-binding proteins"
           ],
           correctAnswer: 1,
           explanation: "Efflux pumps actively transport antibiotics out of bacterial cells, reducing intracellular concentrations."
@@ -1231,12 +1231,12 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           id: 19,
           question: "What is therapeutic drug monitoring?",
           options: [
-            "Measuring drug concentrations in blood",
+            "Measuring organ function",
             "Measuring bacterial growth",
-            "Measuring immune response",
-            "Measuring organ function"
+            "Measuring drug concentrations in blood",
+            "Measuring immune response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Therapeutic drug monitoring measures drug concentrations in blood to optimize dosing and minimize toxicity."
         },
         {
@@ -1244,11 +1244,11 @@ Effective antimicrobial therapy requires understanding drug mechanisms, pharmaco
           question: "What is the One Health approach to resistance?",
           options: [
             "Human medicine only",
-            "Integrating human, animal, and environmental health",
             "Veterinary medicine only",
-            "Environmental monitoring only"
+            "Environmental monitoring only",
+            "Integrating human, animal, and environmental health"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "One Health recognizes that human, animal, and environmental health are interconnected in addressing antimicrobial resistance."
         }
       ]
@@ -1490,10 +1490,10 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           id: 1,
           question: "What are infections acquired during healthcare delivery?",
           options: [
-            "Community-acquired infections",
+            "Zoonotic infections",
             "Healthcare-associated infections",
-            "Occupational infections",
-            "Zoonotic infections"
+            "Community-acquired infections",
+            "Occupational infections"
           ],
           correctAnswer: 1,
           explanation: "Healthcare-associated infections (HAIs) are infections patients acquire during the course of receiving healthcare."
@@ -1503,23 +1503,23 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           question: "What is the most common type of HAI?",
           options: [
             "CLABSI",
-            "CAUTI",
             "VAP",
-            "SSI"
+            "SSI",
+            "CAUTI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Catheter-associated urinary tract infections (CAUTI) are the most common healthcare-associated infections."
         },
         {
           id: 3,
           question: "What infections are related to central venous catheters?",
           options: [
-            "CAUTI",
-            "CLABSI",
+            "SSI",
             "VAP",
-            "SSI"
+            "CLABSI",
+            "CAUTI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Central line-associated bloodstream infections (CLABSI) are bloodstream infections related to central venous catheters."
         },
         {
@@ -1527,47 +1527,47 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           question: "What applies to all patient care?",
           options: [
             "Contact precautions",
-            "Standard precautions",
             "Droplet precautions",
-            "Airborne precautions"
+            "Airborne precautions",
+            "Standard precautions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Standard precautions apply to all patient care, regardless of infection status."
         },
         {
           id: 5,
           question: "What is key to preventing most HAIs?",
           options: [
-            "Antibiotic prophylaxis",
-            "Hand hygiene",
             "Isolation rooms",
-            "Environmental cleaning"
+            "Antibiotic prophylaxis",
+            "Environmental cleaning",
+            "Hand hygiene"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hand hygiene is the single most important measure for preventing healthcare-associated infections."
         },
         {
           id: 6,
           question: "What infections occur at surgical sites?",
           options: [
-            "CLABSI",
-            "CAUTI",
             "VAP",
-            "SSI"
+            "CLABSI",
+            "SSI",
+            "CAUTI"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Surgical site infections (SSI) occur at the site of surgery within 30 days (or 90 days with implants)."
         },
         {
           id: 7,
           question: "What precautions are for tuberculosis?",
           options: [
-            "Contact precautions",
             "Droplet precautions",
             "Airborne precautions",
-            "Standard precautions"
+            "Standard precautions",
+            "Contact precautions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Airborne precautions are required for diseases transmitted by airborne droplet nuclei, like tuberculosis."
         },
         {
@@ -1575,11 +1575,11 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           question: "What is pneumonia in ventilated patients?",
           options: [
             "CLABSI",
-            "CAUTI",
             "VAP",
+            "CAUTI",
             "SSI"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Ventilator-associated pneumonia (VAP) is pneumonia that develops in patients on mechanical ventilation."
         },
         {
@@ -1587,35 +1587,35 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           question: "What system tracks HAIs in the US?",
           options: [
             "WHO",
-            "CDC NHSN",
             "FDA",
+            "CDC NHSN",
             "CMS"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The CDC's National Healthcare Safety Network (NHSN) tracks healthcare-associated infections nationally."
         },
         {
           id: 10,
           question: "What infections require contact precautions?",
           options: [
-            "Influenza",
-            "MRSA",
             "Tuberculosis",
-            "Measles"
+            "Influenza",
+            "Measles",
+            "MRSA"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Contact precautions are used for infections spread by direct or indirect contact, like MRSA."
         },
         {
           id: 11,
           question: "What reduces C. difficile infections?",
           options: [
-            "Increased antibiotic use",
             "Antimicrobial stewardship",
+            "Increased antibiotic use",
             "Reduced hand hygiene",
             "More invasive devices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Antimicrobial stewardship reduces inappropriate antibiotic use, decreasing C. difficile infections."
         },
         {
@@ -1634,10 +1634,10 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           id: 13,
           question: "What is needed for airborne infection isolation?",
           options: [
-            "Positive pressure rooms",
+            "Open wards",
             "Negative pressure rooms",
-            "Standard rooms",
-            "Open wards"
+            "Positive pressure rooms",
+            "Standard rooms"
           ],
           correctAnswer: 1,
           explanation: "Negative pressure rooms are required for airborne infection isolation to prevent contaminated air from escaping."
@@ -1646,24 +1646,24 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           id: 14,
           question: "What prevention uses bundles?",
           options: [
+            "Only surgical infections",
             "Only hand hygiene",
             "Device-associated infections",
-            "Only surgical infections",
             "Only environmental cleaning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bundles of evidence-based practices are used to prevent device-associated infections like CLABSI, CAUTI, and VAP."
         },
         {
           id: 15,
           question: "What is HEPA filtration used for?",
           options: [
-            "Contact precautions",
             "Protective isolation",
-            "Droplet precautions",
-            "Standard precautions"
+            "Contact precautions",
+            "Standard precautions",
+            "Droplet precautions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "HEPA filtration is used in protective isolation rooms for immunocompromised patients to remove airborne particles."
         },
         {
@@ -1671,11 +1671,11 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           question: "What is post-exposure prophylaxis for?",
           options: [
             "Preventing all infections",
-            "Preventing infections after occupational exposure",
             "Treating active infections",
+            "Preventing infections after occupational exposure",
             "Vaccinating healthcare workers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Post-exposure prophylaxis is given to healthcare workers after exposure to certain pathogens like HIV or HBV."
         },
         {
@@ -1694,36 +1694,36 @@ Healthcare-associated infections (HAIs) are infections acquired during healthcar
           id: 18,
           question: "What are MDROs?",
           options: [
-            "Minimally drug-resistant organisms",
-            "Multidrug-resistant organisms",
             "Moderately drug-resistant organisms",
-            "Mostly drug-resistant organisms"
+            "Mostly drug-resistant organisms",
+            "Minimally drug-resistant organisms",
+            "Multidrug-resistant organisms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "MDROs are multidrug-resistant organisms resistant to multiple antimicrobial agents."
         },
         {
           id: 19,
           question: "What is ATP testing used for?",
           options: [
-            "Microbial identification",
             "Cleaning effectiveness monitoring",
-            "Antibiotic susceptibility",
-            "Infection diagnosis"
+            "Microbial identification",
+            "Infection diagnosis",
+            "Antibiotic susceptibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ATP testing measures adenosine triphosphate to assess cleaning effectiveness on environmental surfaces."
         },
         {
           id: 20,
           question: "What are conditions of participation requirements from?",
           options: [
-            "CDC",
-            "CMS",
             "FDA",
-            "WHO"
+            "CDC",
+            "WHO",
+            "CMS"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Centers for Medicare & Medicaid Services (CMS) sets conditions of participation that healthcare facilities must meet."
         }
       ]
@@ -1932,21 +1932,21 @@ Different organ systems have unique susceptibilities to specific pathogens based
           id: 1,
           question: "What is the most common cause of bacterial meningitis in adults?",
           options: [
-            "Neisseria meningitidis",
             "Streptococcus pneumoniae",
+            "Listeria monocytogenes",
             "Haemophilus influenzae",
-            "Listeria monocytogenes"
+            "Neisseria meningitidis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Streptococcus pneumoniae is the most common cause of bacterial meningitis in adults."
         },
         {
           id: 2,
           question: "What causes most community-acquired pneumonia?",
           options: [
-            "Viruses",
-            "Streptococcus pneumoniae",
             "Mycoplasma pneumoniae",
+            "Streptococcus pneumoniae",
+            "Viruses",
             "Legionella pneumophila"
           ],
           correctAnswer: 1,
@@ -1956,36 +1956,36 @@ Different organ systems have unique susceptibilities to specific pathogens based
           id: 3,
           question: "What is infective endocarditis on prosthetic valves often caused by?",
           options: [
+            "Coagulase-negative staphylococci",
             "Viridans streptococci",
             "Staphylococcus aureus",
-            "Coagulase-negative staphylococci",
             "Enterococci"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Coagulase-negative staphylococci are common causes of prosthetic valve endocarditis."
         },
         {
           id: 4,
           question: "What is the most common cause of urinary tract infections?",
           options: [
-            "Staphylococcus saprophyticus",
             "Escherichia coli",
             "Klebsiella pneumoniae",
+            "Staphylococcus saprophyticus",
             "Proteus mirabilis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Escherichia coli is the most common cause of both community and hospital-acquired UTIs."
         },
         {
           id: 5,
           question: "What causes necrotizing fasciitis?",
           options: [
-            "Staphylococcus aureus alone",
             "Streptococcus pyogenes alone",
-            "Mixed aerobic and anaerobic bacteria",
-            "Only Clostridium species"
+            "Staphylococcus aureus alone",
+            "Only Clostridium species",
+            "Mixed aerobic and anaerobic bacteria"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Necrotizing fasciitis is often caused by mixed aerobic and anaerobic bacteria, though S. pyogenes can cause monomicrobial cases."
         },
         {
@@ -1994,8 +1994,8 @@ Different organ systems have unique susceptibilities to specific pathogens based
           options: [
             "Staphylococcus aureus",
             "Neisseria gonorrhoeae",
-            "Streptococcus pneumoniae",
-            "Haemophilus influenzae"
+            "Haemophilus influenzae",
+            "Streptococcus pneumoniae"
           ],
           correctAnswer: 1,
           explanation: "Neisseria gonorrhoeae is a common cause of septic arthritis in sexually active young adults."
@@ -2004,57 +2004,57 @@ Different organ systems have unique susceptibilities to specific pathogens based
           id: 7,
           question: "What causes early-onset neonatal sepsis?",
           options: [
+            "All of the above",
             "Group B Streptococcus",
-            "Escherichia coli",
             "Listeria monocytogenes",
-            "All of the above"
+            "Escherichia coli"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Group B Streptococcus, E. coli, and Listeria are all important causes of early-onset neonatal sepsis."
         },
         {
           id: 8,
           question: "What tick-borne disease causes erythema migrans rash?",
           options: [
-            "Rocky Mountain spotted fever",
             "Lyme disease",
             "Ehrlichiosis",
-            "Babesiosis"
+            "Babesiosis",
+            "Rocky Mountain spotted fever"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Lyme disease, caused by Borrelia burgdorferi, typically presents with an erythema migrans rash."
         },
         {
           id: 9,
           question: "What is the most common cause of viral gastroenteritis?",
           options: [
-            "Rotavirus",
             "Norovirus",
             "Adenovirus",
-            "Astrovirus"
+            "Astrovirus",
+            "Rotavirus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Norovirus is the most common cause of viral gastroenteritis in all age groups."
         },
         {
           id: 10,
           question: "What causes pelvic inflammatory disease?",
           options: [
-            "Only Neisseria gonorrhoeae",
-            "Only Chlamydia trachomatis",
+            "Only anaerobic bacteria",
             "Both N. gonorrhoeae and C. trachomatis",
-            "Only anaerobic bacteria"
+            "Only Chlamydia trachomatis",
+            "Only Neisseria gonorrhoeae"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "PID is often caused by N. gonorrhoeae, C. trachomatis, or both, sometimes with mixed anaerobic bacteria."
         },
         {
           id: 11,
           question: "What is the most common cause of osteomyelitis?",
           options: [
-            "Streptococcus pyogenes",
-            "Staphylococcus aureus",
             "Pseudomonas aeruginosa",
+            "Staphylococcus aureus",
+            "Streptococcus pyogenes",
             "Mycobacterium tuberculosis"
           ],
           correctAnswer: 1,
@@ -2064,12 +2064,12 @@ Different organ systems have unique susceptibilities to specific pathogens based
           id: 12,
           question: "What causes gas gangrene?",
           options: [
-            "Streptococcus pyogenes",
-            "Clostridium perfringens",
             "Mixed aerobic bacteria",
-            "Staphylococcus aureus"
+            "Streptococcus pyogenes",
+            "Staphylococcus aureus",
+            "Clostridium perfringens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Gas gangrene is typically caused by Clostridium perfringens and other clostridial species."
         },
         {
@@ -2077,69 +2077,69 @@ Different organ systems have unique susceptibilities to specific pathogens based
           question: "What virus causes congenital infections in the TORCH complex?",
           options: [
             "Rubella",
+            "All of the above",
             "Cytomegalovirus",
-            "Herpes simplex",
-            "All of the above"
+            "Herpes simplex"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "TORCH includes Toxoplasma, Rubella, CMV, and Herpes simplex, all causing congenital infections."
         },
         {
           id: 14,
           question: "What is the most common cause of cellulitis?",
           options: [
-            "Staphylococcus aureus",
-            "Streptococcus pyogenes",
             "Mixed infection",
-            "Pseudomonas aeruginosa"
+            "Pseudomonas aeruginosa",
+            "Staphylococcus aureus",
+            "Streptococcus pyogenes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Streptococcus pyogenes (Group A Streptococcus) is the most common cause of cellulitis."
         },
         {
           id: 15,
           question: "What causes most cases of infectious diarrhea in children?",
           options: [
-            "Bacteria",
-            "Viruses",
             "Parasites",
-            "Fungi"
+            "Bacteria",
+            "Fungi",
+            "Viruses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Viruses, particularly rotavirus and norovirus, cause most cases of infectious diarrhea in children."
         },
         {
           id: 16,
           question: "What is the most common cause of bacterial endocarditis in native valves?",
           options: [
-            "Staphylococcus aureus",
             "Viridans streptococci",
             "Enterococci",
-            "Coagulase-negative staphylococci"
+            "Coagulase-negative staphylococci",
+            "Staphylococcus aureus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Viridans streptococci are the most common cause of subacute bacterial endocarditis on native valves."
         },
         {
           id: 17,
           question: "What causes herpes simplex encephalitis?",
           options: [
-            "HSV-1",
-            "HSV-2",
             "Both HSV-1 and HSV-2",
-            "Varicella-zoster virus"
+            "Varicella-zoster virus",
+            "HSV-2",
+            "HSV-1"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Herpes simplex encephalitis is most commonly caused by HSV-1, though HSV-2 can also cause it."
         },
         {
           id: 18,
           question: "What is the most common sexually transmitted bacterial infection?",
           options: [
-            "Gonorrhea",
+            "Trichomoniasis",
             "Chlamydia",
-            "Syphilis",
-            "Trichomoniasis"
+            "Gonorrhea",
+            "Syphilis"
           ],
           correctAnswer: 1,
           explanation: "Chlamydia trachomatis infection is the most commonly reported bacterial sexually transmitted infection."
@@ -2149,23 +2149,23 @@ Different organ systems have unique susceptibilities to specific pathogens based
           question: "What causes Q fever?",
           options: [
             "Rickettsia rickettsii",
-            "Coxiella burnetii",
             "Bartonella henselae",
+            "Coxiella burnetii",
             "Ehrlichia chaffeensis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Q fever is caused by Coxiella burnetii, typically acquired from farm animals."
         },
         {
           id: 20,
           question: "What is the most common cause of candidemia?",
           options: [
-            "Candida albicans",
             "Candida glabrata",
+            "Candida albicans",
             "Candida tropicalis",
             "Candida parapsilosis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Candida albicans is still the most common cause of candidemia, though non-albicans species are increasing."
         }
       ]
@@ -2389,33 +2389,33 @@ Public health microbiology focuses on preventing and controlling infectious dise
           id: 1,
           question: "What measures new cases in population over time?",
           options: [
-            "Prevalence",
             "Incidence",
             "Attack rate",
+            "Prevalence",
             "Mortality rate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Incidence measures the number of new cases of a disease in a population during a specific time period."
         },
         {
           id: 2,
           question: "What is the average number of secondary cases from one infected person?",
           options: [
+            "Case fatality rate",
             "Attack rate",
-            "Reproductive number (R0)",
             "Prevalence rate",
-            "Case fatality rate"
+            "Reproductive number (R0)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The basic reproductive number (R0) represents the average number of secondary infections generated by one primary case in a susceptible population."
         },
         {
           id: 3,
           question: "What type of surveillance involves routine reporting by providers?",
           options: [
-            "Active surveillance",
-            "Passive surveillance",
             "Sentinel surveillance",
+            "Passive surveillance",
+            "Active surveillance",
             "Syndromic surveillance"
           ],
           correctAnswer: 1,
@@ -2425,10 +2425,10 @@ Public health microbiology focuses on preventing and controlling infectious dise
           id: 4,
           question: "What is the first step in outbreak investigation?",
           options: [
-            "Define cases",
+            "Search for cases",
             "Confirm outbreak existence",
             "Prepare for field work",
-            "Search for cases"
+            "Define cases"
           ],
           correctAnswer: 2,
           explanation: "Preparing for field work is the first step, involving gathering team, supplies, and preliminary information."
@@ -2437,10 +2437,10 @@ Public health microbiology focuses on preventing and controlling infectious dise
           id: 5,
           question: "What organization leads global public health efforts?",
           options: [
-            "CDC",
+            "UNICEF",
             "WHO",
             "FDA",
-            "UNICEF"
+            "CDC"
           ],
           correctAnswer: 1,
           explanation: "The World Health Organization (WHO) is the directing and coordinating authority for international health within the United Nations system."
@@ -2449,82 +2449,82 @@ Public health microbiology focuses on preventing and controlling infectious dise
           id: 6,
           question: "What displays cases over time in an outbreak?",
           options: [
-            "Spot map",
-            "Line listing",
             "Epidemic curve",
-            "Statistical table"
+            "Spot map",
+            "Statistical table",
+            "Line listing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "An epidemic curve is a histogram that displays the distribution of cases over time during an outbreak."
         },
         {
           id: 7,
           question: "What is the concept integrating human, animal, and environmental health?",
           options: [
+            "Ecohealth",
             "Global health",
-            "One Health",
             "Planetary health",
-            "Ecohealth"
+            "One Health"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "One Health recognizes that the health of people is connected to the health of animals and the environment."
         },
         {
           id: 8,
           question: "What is ring vaccination used for?",
           options: [
-            "Routine childhood immunization",
             "Outbreak containment",
             "Travel vaccination",
-            "Adult booster shots"
+            "Adult booster shots",
+            "Routine childhood immunization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ring vaccination involves vaccinating contacts of cases and their contacts to contain outbreaks."
         },
         {
           id: 9,
           question: "What network subtypes foodborne bacteria for outbreak detection?",
           options: [
-            "FoodNet",
             "PulseNet",
-            "LabNet",
-            "EpiNet"
+            "FoodNet",
+            "EpiNet",
+            "LabNet"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PulseNet is a national network of public health laboratories that performs DNA fingerprinting of foodborne bacteria."
         },
         {
           id: 10,
           question: "What regulates dangerous pathogens in the US?",
           options: [
-            "FDA",
             "Select Agents Program",
             "CDC",
+            "FDA",
             "NIH"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Federal Select Agent Program regulates the possession, use, and transfer of biological select agents and toxins."
         },
         {
           id: 11,
           question: "What is the WHO's antimicrobial resistance surveillance system?",
           options: [
-            "NARMS",
             "GLASS",
+            "EARS-Net",
             "CAESAR",
-            "EARS-Net"
+            "NARMS"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "GLASS is WHO's Global Antimicrobial Resistance Surveillance System for standardized global AMR data."
         },
         {
           id: 12,
           question: "What principle of risk communication means being accurate?",
           options: [
-            "Be first",
+            "Express empathy",
             "Be right",
-            "Be credible",
-            "Express empathy"
+            "Be first",
+            "Be credible"
           ],
           correctAnswer: 1,
           explanation: "'Be right' means accuracy is more important than speed in risk communication."
@@ -2533,12 +2533,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
           id: 13,
           question: "What public health measure restricts movement of exposed persons?",
           options: [
+            "Treatment",
             "Isolation",
             "Quarantine",
-            "Treatment",
             "Vaccination"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quarantine restricts the movement of people who have been exposed to a contagious disease but are not yet ill."
         },
         {
@@ -2547,8 +2547,8 @@ Public health microbiology focuses on preventing and controlling infectious dise
           options: [
             "Beneficence",
             "Non-maleficence",
-            "Autonomy",
-            "Justice"
+            "Justice",
+            "Autonomy"
           ],
           correctAnswer: 1,
           explanation: "Non-maleficence is the ethical principle of not causing harm to patients or the public."
@@ -2557,12 +2557,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
           id: 15,
           question: "What is the proportion immune needed to stop transmission?",
           options: [
-            "Attack rate",
             "Herd immunity threshold",
+            "Case fatality rate",
             "Prevalence rate",
-            "Case fatality rate"
+            "Attack rate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The herd immunity threshold is the proportion of a population that needs to be immune to prevent sustained transmission."
         },
         {
@@ -2581,48 +2581,48 @@ Public health microbiology focuses on preventing and controlling infectious dise
           id: 17,
           question: "What is surveillance based on symptoms called?",
           options: [
-            "Passive surveillance",
             "Active surveillance",
-            "Sentinel surveillance",
-            "Syndromic surveillance"
+            "Syndromic surveillance",
+            "Passive surveillance",
+            "Sentinel surveillance"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Syndromic surveillance monitors health-related data based on symptoms or clinical features rather than confirmed diagnoses."
         },
         {
           id: 18,
           question: "What global program aims to eradicate polio?",
           options: [
-            "Stop TB Partnership",
             "Global Polio Eradication Initiative",
+            "UNAIDS",
             "Global Malaria Programme",
-            "UNAIDS"
+            "Stop TB Partnership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Global Polio Eradication Initiative is a public-private partnership led by national governments with WHO, Rotary, CDC, and UNICEF."
         },
         {
           id: 19,
           question: "What ethical principle means promoting public good?",
           options: [
-            "Beneficence",
             "Non-maleficence",
             "Autonomy",
-            "Justice"
+            "Justice",
+            "Beneficence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Beneficence is the ethical principle of acting for the benefit of others, promoting public good in public health."
         },
         {
           id: 20,
           question: "What is the US monitoring system for antimicrobial resistance?",
           options: [
-            "GLASS",
             "NARMS",
             "CAESAR",
-            "EARS-Net"
+            "EARS-Net",
+            "GLASS"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "NARMS is the National Antimicrobial Resistance Monitoring System in the United States."
         }
       ]
@@ -2642,12 +2642,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 1,
         question: "What are secreted bacterial proteins with toxic effects?",
         options: [
-          "Endotoxins",
-          "Exotoxins",
           "Capsules",
-          "Adhesins"
+          "Adhesins",
+          "Endotoxins",
+          "Exotoxins"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Exotoxins are proteins secreted by bacteria that have specific damaging effects on host cells."
       },
       {
@@ -2655,8 +2655,8 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 1,
         question: "What immune cells are professional phagocytes?",
         options: [
-          "B cells",
           "T cells",
+          "B cells",
           "Neutrophils and macrophages",
           "Natural killer cells"
         ],
@@ -2669,12 +2669,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 2,
         question: "What is the most common bacterial stain?",
         options: [
-          "Acid-fast stain",
           "Gram stain",
           "Fluorescent stain",
-          "Wright stain"
+          "Wright stain",
+          "Acid-fast stain"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The Gram stain is the most commonly used stain in clinical microbiology for bacterial classification."
       },
       {
@@ -2683,11 +2683,11 @@ Public health microbiology focuses on preventing and controlling infectious dise
         question: "What is the lowest antibiotic concentration inhibiting growth?",
         options: [
           "MBC",
+          "MTC",
           "MIC",
-          "MLC",
-          "MTC"
+          "MLC"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Minimum Inhibitory Concentration (MIC) is the lowest concentration that inhibits visible bacterial growth."
       },
       // Module 3 Questions
@@ -2696,10 +2696,10 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 3,
         question: "What inhibits bacterial cell wall synthesis?",
         options: [
-          "Aminoglycosides",
+          "Fluoroquinolones",
           "Beta-lactams",
           "Tetracyclines",
-          "Fluoroquinolones"
+          "Aminoglycosides"
         ],
         correctAnswer: 1,
         explanation: "Beta-lactam antibiotics inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins."
@@ -2709,12 +2709,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 3,
         question: "What does MRSA stand for?",
         options: [
-          "Multiple-resistant Staphylococcus aureus",
-          "Methicillin-resistant Staphylococcus aureus",
+          "Multi-sensitive Staphylococcus aureus",
           "Macrolide-resistant Staphylococcus aureus",
-          "Multi-sensitive Staphylococcus aureus"
+          "Multiple-resistant Staphylococcus aureus",
+          "Methicillin-resistant Staphylococcus aureus"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "MRSA stands for Methicillin-resistant Staphylococcus aureus, resistant to beta-lactam antibiotics."
       },
       // Module 4 Questions
@@ -2723,12 +2723,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 4,
         question: "What are infections acquired during healthcare?",
         options: [
+          "Occupational infections",
           "Community-acquired infections",
           "Healthcare-associated infections",
-          "Occupational infections",
           "Zoonotic infections"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Healthcare-associated infections (HAIs) are infections patients acquire during healthcare delivery."
       },
       {
@@ -2736,12 +2736,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 4,
         question: "What is the most common HAI?",
         options: [
-          "CLABSI",
-          "CAUTI",
+          "SSI",
           "VAP",
-          "SSI"
+          "CAUTI",
+          "CLABSI"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Catheter-associated urinary tract infections (CAUTI) are the most common healthcare-associated infections."
       },
       // Module 5 Questions
@@ -2763,12 +2763,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 5,
         question: "What causes most UTIs?",
         options: [
-          "Staphylococcus saprophyticus",
           "Escherichia coli",
+          "Proteus mirabilis",
           "Klebsiella pneumoniae",
-          "Proteus mirabilis"
+          "Staphylococcus saprophyticus"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Escherichia coli is the most common cause of both community and hospital-acquired UTIs."
       },
       // Module 6 Questions
@@ -2777,10 +2777,10 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 6,
         question: "What measures new cases over time?",
         options: [
-          "Prevalence",
-          "Incidence",
           "Attack rate",
-          "Mortality rate"
+          "Incidence",
+          "Mortality rate",
+          "Prevalence"
         ],
         correctAnswer: 1,
         explanation: "Incidence measures the number of new cases of a disease in a population during a specific time."
@@ -2790,12 +2790,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 6,
         question: "What is the average number of secondary cases?",
         options: [
-          "Attack rate",
           "Reproductive number (R0)",
           "Prevalence rate",
-          "Case fatality rate"
+          "Case fatality rate",
+          "Attack rate"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The basic reproductive number (R0) represents average secondary infections from one primary case."
       },
       // Additional mixed questions
@@ -2805,11 +2805,11 @@ Public health microbiology focuses on preventing and controlling infectious dise
         question: "What enhances phagocytosis by coating pathogens?",
         options: [
           "Neutralization",
-          "Opsonization",
+          "ADCC",
           "Complement activation",
-          "ADCC"
+          "Opsonization"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Opsonization involves coating pathogens with antibodies or complement to enhance phagocytosis."
       },
       {
@@ -2817,12 +2817,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 2,
         question: "What molecular method amplifies DNA?",
         options: [
-          "ELISA",
-          "PCR",
           "Western blot",
-          "MALDI-TOF"
+          "ELISA",
+          "MALDI-TOF",
+          "PCR"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Polymerase Chain Reaction (PCR) amplifies specific DNA sequences for detection."
       },
       {
@@ -2832,8 +2832,8 @@ Public health microbiology focuses on preventing and controlling infectious dise
         options: [
           "Antibiotic cycling",
           "Antimicrobial stewardship",
-          "Empiric therapy",
-          "Combination therapy"
+          "Combination therapy",
+          "Empiric therapy"
         ],
         correctAnswer: 1,
         explanation: "Antimicrobial stewardship programs optimize antibiotic use to improve outcomes and reduce resistance."
@@ -2843,9 +2843,9 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 4,
         question: "What applies to all patient care?",
         options: [
-          "Contact precautions",
-          "Standard precautions",
           "Droplet precautions",
+          "Standard precautions",
+          "Contact precautions",
           "Airborne precautions"
         ],
         correctAnswer: 1,
@@ -2871,8 +2871,8 @@ Public health microbiology focuses on preventing and controlling infectious dise
         options: [
           "CDC",
           "WHO",
-          "FDA",
-          "UNICEF"
+          "UNICEF",
+          "FDA"
         ],
         correctAnswer: 1,
         explanation: "WHO is the directing and coordinating authority for international health."
@@ -2882,9 +2882,9 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 1,
         question: "What vaccine uses weakened live pathogens?",
         options: [
-          "Inactivated vaccine",
-          "Live attenuated vaccine",
           "Subunit vaccine",
+          "Live attenuated vaccine",
+          "Inactivated vaccine",
           "Toxoid vaccine"
         ],
         correctAnswer: 1,
@@ -2896,11 +2896,11 @@ Public health microbiology focuses on preventing and controlling infectious dise
         question: "What media inhibit unwanted organisms?",
         options: [
           "General purpose media",
-          "Selective media",
           "Differential media",
+          "Selective media",
           "Enriched media"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Selective media contain substances that inhibit unwanted organisms while allowing desired ones."
       },
       {
@@ -2908,12 +2908,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 3,
         question: "What is ESBL?",
         options: [
-          "Extended-spectrum beta-lactamase",
           "Enhanced sensitivity beta-lactam",
-          "Extended-spectrum beta-lactam",
-          "Enzyme-sensitive beta-lactam"
+          "Enzyme-sensitive beta-lactam",
+          "Extended-spectrum beta-lactamase",
+          "Extended-spectrum beta-lactam"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "ESBL stands for Extended-Spectrum Beta-Lactamase."
       },
       {
@@ -2921,9 +2921,9 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 4,
         question: "What infections are related to central catheters?",
         options: [
-          "CAUTI",
-          "CLABSI",
           "VAP",
+          "CLABSI",
+          "CAUTI",
           "SSI"
         ],
         correctAnswer: 1,
@@ -2934,10 +2934,10 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 5,
         question: "What causes most community-acquired pneumonia?",
         options: [
-          "Viruses",
+          "Legionella pneumophila",
           "Streptococcus pneumoniae",
           "Mycoplasma pneumoniae",
-          "Legionella pneumophila"
+          "Viruses"
         ],
         correctAnswer: 1,
         explanation: "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia."
@@ -2948,11 +2948,11 @@ Public health microbiology focuses on preventing and controlling infectious dise
         question: "What type of surveillance involves routine reporting?",
         options: [
           "Active surveillance",
-          "Passive surveillance",
           "Sentinel surveillance",
+          "Passive surveillance",
           "Syndromic surveillance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Passive surveillance relies on routine reporting by healthcare providers."
       },
       {
@@ -2960,9 +2960,9 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 1,
         question: "What is changing surface antigens to evade immunity?",
         options: [
-          "Molecular mimicry",
-          "Antigenic variation",
           "Immune suppression",
+          "Antigenic variation",
+          "Molecular mimicry",
           "Biofilm formation"
         ],
         correctAnswer: 1,
@@ -2975,8 +2975,8 @@ Public health microbiology focuses on preventing and controlling infectious dise
         options: [
           "Brightfield microscopy",
           "Darkfield microscopy",
-          "Phase contrast",
-          "Fluorescence microscopy"
+          "Fluorescence microscopy",
+          "Phase contrast"
         ],
         correctAnswer: 1,
         explanation: "Darkfield microscopy illuminates specimens against dark background for spirochetes."
@@ -2986,12 +2986,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 3,
         question: "What monitors vancomycin therapy?",
         options: [
+          "No monitoring",
           "Peak levels",
           "Trough levels",
-          "Random levels",
-          "No monitoring"
+          "Random levels"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Vancomycin trough levels are monitored for adequate dosing and nephrotoxicity avoidance."
       },
       {
@@ -2999,12 +2999,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 4,
         question: "What is key to preventing most HAIs?",
         options: [
+          "Isolation rooms",
           "Antibiotic prophylaxis",
           "Hand hygiene",
-          "Isolation rooms",
           "Environmental cleaning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Hand hygiene is the single most important measure for preventing healthcare-associated infections."
       },
       {
@@ -3012,12 +3012,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 5,
         question: "What causes gas gangrene?",
         options: [
+          "Staphylococcus aureus",
           "Streptococcus pyogenes",
           "Clostridium perfringens",
-          "Mixed aerobic bacteria",
-          "Staphylococcus aureus"
+          "Mixed aerobic bacteria"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Gas gangrene is typically caused by Clostridium perfringens."
       },
       {
@@ -3025,12 +3025,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 6,
         question: "What is the One Health concept?",
         options: [
-          "Global health",
-          "Integrating human, animal, environmental health",
           "Planetary health",
-          "Ecohealth"
+          "Ecohealth",
+          "Global health",
+          "Integrating human, animal, environmental health"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "One Health recognizes interconnectedness of human, animal, and environmental health."
       },
       {
@@ -3038,12 +3038,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 1,
         question: "What are A-B toxins?",
         options: [
-          "Membrane-disrupting toxins",
           "Two-component exotoxins",
-          "Superantigens",
-          "Endotoxins"
+          "Membrane-disrupting toxins",
+          "Endotoxins",
+          "Superantigens"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "A-B toxins consist of A (active) and B (binding) subunits."
       },
       {
@@ -3051,9 +3051,9 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 2,
         question: "What detects antibodies using enzyme-linked detection?",
         options: [
-          "PCR",
-          "ELISA",
           "Culture",
+          "ELISA",
+          "PCR",
           "Gram stain"
         ],
         correctAnswer: 1,
@@ -3064,9 +3064,9 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 3,
         question: "What pumps antibiotics out of bacterial cells?",
         options: [
-          "Porins",
-          "Efflux pumps",
           "Penicillin-binding proteins",
+          "Efflux pumps",
+          "Porins",
           "Beta-lactamases"
         ],
         correctAnswer: 1,
@@ -3077,12 +3077,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 4,
         question: "What precautions are for tuberculosis?",
         options: [
-          "Contact precautions",
-          "Droplet precautions",
           "Airborne precautions",
-          "Standard precautions"
+          "Standard precautions",
+          "Contact precautions",
+          "Droplet precautions"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Airborne precautions are required for diseases like tuberculosis."
       },
       {
@@ -3090,12 +3090,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 5,
         question: "What is the most common cause of osteomyelitis?",
         options: [
-          "Streptococcus pyogenes",
           "Staphylococcus aureus",
-          "Pseudomonas aeruginosa",
-          "Mycobacterium tuberculosis"
+          "Streptococcus pyogenes",
+          "Mycobacterium tuberculosis",
+          "Pseudomonas aeruginosa"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Staphylococcus aureus is the most common cause of osteomyelitis."
       },
       {
@@ -3104,11 +3104,11 @@ Public health microbiology focuses on preventing and controlling infectious dise
         question: "What displays cases over time in outbreaks?",
         options: [
           "Spot map",
+          "Statistical table",
           "Line listing",
-          "Epidemic curve",
-          "Statistical table"
+          "Epidemic curve"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Epidemic curve displays distribution of cases over time during outbreaks."
       },
       {
@@ -3116,12 +3116,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 1,
         question: "What are opportunistic infections?",
         options: [
-          "Primary infections",
-          "Infections in compromised hosts",
+          "Chronic infections",
           "Latent infections",
-          "Chronic infections"
+          "Primary infections",
+          "Infections in compromised hosts"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Opportunistic infections occur when normally harmless microbes cause disease in immunocompromised hosts."
       },
       {
@@ -3129,12 +3129,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 2,
         question: "What is MALDI-TOF used for?",
         options: [
-          "PCR",
           "Rapid microbial identification",
-          "ELISA",
-          "Disk diffusion"
+          "Disk diffusion",
+          "PCR",
+          "ELISA"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "MALDI-TOF mass spectrometry provides rapid bacterial identification from colonies."
       },
       {
@@ -3142,9 +3142,9 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 3,
         question: "What is CRE?",
         options: [
-          "Cephalosporin-resistant Enterococci",
-          "Carbapenem-resistant Enterobacteriaceae",
           "Ciprofloxacin-resistant Escherichia",
+          "Carbapenem-resistant Enterobacteriaceae",
+          "Cephalosporin-resistant Enterococci",
           "Clarithromycin-resistant Enterobacteriaceae"
         ],
         correctAnswer: 1,
@@ -3155,12 +3155,12 @@ Public health microbiology focuses on preventing and controlling infectious dise
         module: 4,
         question: "What reduces C. difficile infections?",
         options: [
-          "Increased antibiotic use",
           "Antimicrobial stewardship",
-          "Reduced hand hygiene",
-          "More invasive devices"
+          "More invasive devices",
+          "Increased antibiotic use",
+          "Reduced hand hygiene"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Antimicrobial stewardship reduces inappropriate antibiotic use, decreasing C. difficile infections."
       }
     ]

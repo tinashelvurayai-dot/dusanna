@@ -235,12 +235,12 @@ Urban planning addresses three fundamental questions:
           id: 1,
           question: "What are the three fundamental questions urban planning addresses?",
           options: [
-            "Where should development occur, how should communities function, and who benefits from decisions",
-            "How to maximize tax revenue, reduce government spending, and increase property values",
+            "What colors to paint buildings, what trees to plant, and what street names to use",
             "Which buildings are tallest, which roads are widest, and which parks are largest",
-            "What colors to paint buildings, what trees to plant, and what street names to use"
+            "How to maximize tax revenue, reduce government spending, and increase property values",
+            "Where should development occur, how should communities function, and who benefits from decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Urban planning addresses where development should occur (land use), how communities should function (transportation, housing, services), and who benefits from planning decisions (equity considerations)."
         },
         {
@@ -248,9 +248,9 @@ Urban planning addresses three fundamental questions:
           question: "Which movement focused on aesthetics and monumental city centers in the early 1900s?",
           options: [
             "City Beautiful Movement",
+            "Industrial Revolution",
             "Garden City Movement",
-            "Modernist Movement",
-            "Industrial Revolution"
+            "Modernist Movement"
           ],
           correctAnswer: 0,
           explanation: "The City Beautiful Movement (1890-1920) focused on aesthetics, civic virtue, and creating monumental city centers with grand boulevards and public buildings."
@@ -259,24 +259,24 @@ Urban planning addresses three fundamental questions:
           id: 3,
           question: "Who developed the Garden City Theory?",
           options: [
-            "Ebenezer Howard",
             "Le Corbusier",
+            "Peter Calthorpe",
             "Clarence Perry",
-            "Peter Calthorpe"
+            "Ebenezer Howard"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ebenezer Howard developed the Garden City Theory in 1898, proposing self-contained communities surrounded by greenbelts with a balance of urban and rural advantages."
         },
         {
           id: 4,
           question: "What does the Neighborhood Unit concept emphasize?",
           options: [
-            "Self-contained neighborhoods with schools at the center, bounded by arterial roads",
-            "High-rise towers in park-like settings with extensive road networks",
+            "Traditional architecture with human-scale streets and mixed uses",
             "Mixed-use development centered around transit stations",
-            "Traditional architecture with human-scale streets and mixed uses"
+            "Self-contained neighborhoods with schools at the center, bounded by arterial roads",
+            "High-rise towers in park-like settings with extensive road networks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clarence Perry's Neighborhood Unit concept emphasizes self-contained neighborhoods with elementary schools at the center, bounded by arterial roads, with internal street hierarchies and walkable access to daily needs."
         },
         {
@@ -284,9 +284,9 @@ Urban planning addresses three fundamental questions:
           question: "Which planning approach is a reaction to suburban sprawl and emphasizes traditional neighborhood design?",
           options: [
             "New Urbanism",
-            "Modernism",
+            "Radiant City planning",
             "Industrial Planning",
-            "Radiant City planning"
+            "Modernism"
           ],
           correctAnswer: 0,
           explanation: "New Urbanism emerged in the 1980s as a reaction to suburban sprawl, emphasizing traditional neighborhood design, mixed-use walkable communities, human-scale streets, and strong sense of place."
@@ -295,36 +295,36 @@ Urban planning addresses three fundamental questions:
           id: 6,
           question: "What is the first step in the comprehensive planning cycle?",
           options: [
-            "Visioning community goals and aspirations",
-            "Analyzing existing conditions and trends",
             "Developing specific policies and strategies",
-            "Implementing action steps and tools"
+            "Visioning community goals and aspirations",
+            "Implementing action steps and tools",
+            "Analyzing existing conditions and trends"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Visioning is the first step in the comprehensive planning cycle, where communities articulate their goals, aspirations, and desired future conditions."
         },
         {
           id: 7,
           question: "Which tool is essential for spatial analysis and mapping in planning?",
           options: [
-            "GIS (Geographic Information Systems)",
-            "SWOT Analysis",
             "Demographic Analysis",
-            "Economic Analysis"
+            "SWOT Analysis",
+            "Economic Analysis",
+            "GIS (Geographic Information Systems)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GIS (Geographic Information Systems) is essential for spatial analysis, mapping, and visualizing geographic data in urban planning."
         },
         {
           id: 8,
           question: "What is a major contemporary challenge in urban planning?",
           options: [
-            "Climate change impacts like sea level rise and urban heat islands",
-            "Having too many parks and open spaces",
             "Buildings that are too aesthetically pleasing",
+            "Having too many parks and open spaces",
+            "Climate change impacts like sea level rise and urban heat islands",
             "Too much public participation in decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Climate change impacts including sea level rise, extreme weather events, and urban heat islands are major contemporary challenges requiring planning responses."
         },
         {
@@ -332,9 +332,9 @@ Urban planning addresses three fundamental questions:
           question: "Which ethical principle requires planners to promote fair distribution of benefits and burdens?",
           options: [
             "Social justice",
-            "Transparency",
             "Honest professional work",
-            "Protecting natural resources"
+            "Protecting natural resources",
+            "Transparency"
           ],
           correctAnswer: 0,
           explanation: "Social justice requires planners to promote fair distribution of benefits and burdens, ensuring that planning decisions don't disproportionately impact vulnerable communities."
@@ -343,96 +343,96 @@ Urban planning addresses three fundamental questions:
           id: 10,
           question: "What does Transit-Oriented Development emphasize?",
           options: [
-            "Mixed-use development around transit stations to reduce automobile dependency",
-            "Building highways to connect distant suburbs",
             "Separating all land uses into distinct zones",
+            "Building highways to connect distant suburbs",
+            "Mixed-use development around transit stations to reduce automobile dependency",
             "Creating isolated residential enclaves"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transit-Oriented Development emphasizes mixed-use, compact development around transit stations to create walkable neighborhoods and reduce automobile dependency."
         },
         {
           id: 11,
           question: "Which historical period saw the emergence of zoning regulations?",
           options: [
-            "Modern Planning (1900-2000)",
+            "Contemporary Planning (2000-Present)",
             "Ancient Planning (3000 BCE - 500 CE)",
             "Industrial Revolution Era (1800-1900)",
-            "Contemporary Planning (2000-Present)"
+            "Modern Planning (1900-2000)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Zoning regulations emerged during the Modern Planning period (1900-2000) as a tool to separate incompatible land uses and regulate development."
         },
         {
           id: 12,
           question: "What does the Radiant City concept propose?",
           options: [
-            "High-density towers in parks with separation of functions",
-            "Self-contained communities surrounded by greenbelts",
             "Neighborhoods with schools at their centers",
-            "Traditional human-scale street networks"
+            "High-density towers in parks with separation of functions",
+            "Traditional human-scale street networks",
+            "Self-contained communities surrounded by greenbelts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Le Corbusier's Radiant City concept proposed high-density towers set in parks, with strict separation of functions and extensive road networks."
         },
         {
           id: 13,
           question: "What is a key feature of European urban planning models?",
           options: [
-            "Mixed-use, compact cities with strong public transportation",
-            "Extensive suburban sprawl and automobile dependency",
             "Complete separation of all land uses",
+            "Extensive suburban sprawl and automobile dependency",
+            "Mixed-use, compact cities with strong public transportation",
             "Elimination of all public spaces"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "European planning models typically feature mixed-use, compact cities with strong public transportation systems, historic preservation, and emphasis on public spaces."
         },
         {
           id: 14,
           question: "What does SWOT Analysis examine?",
           options: [
-            "Strengths, Weaknesses, Opportunities, and Threats",
             "Social, Wealth, Organizational, and Technical factors",
-            "Spatial, Water, Oxygen, and Transportation elements",
-            "Structural, Window, Opening, and Tower designs"
+            "Strengths, Weaknesses, Opportunities, and Threats",
+            "Structural, Window, Opening, and Tower designs",
+            "Spatial, Water, Oxygen, and Transportation elements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SWOT Analysis examines Strengths, Weaknesses, Opportunities, and Threats as part of the planning analysis phase."
         },
         {
           id: 15,
           question: "Which emerging issue relates to changes in commuting patterns and office space needs?",
           options: [
-            "Remote work impacts",
-            "Autonomous vehicles",
             "Digital equity",
-            "E-commerce growth"
+            "E-commerce growth",
+            "Autonomous vehicles",
+            "Remote work impacts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Remote work is an emerging issue affecting commuting patterns, office space needs, and urban form as more people work from home."
         },
         {
           id: 16,
           question: "What does the planning implementation tool of 'density bonuses' provide?",
           options: [
-            "Allowances for greater development density in exchange for public benefits",
-            "Reductions in property taxes for all new developments",
             "Automatic approval for any development proposal",
-            "Funding for demolishing old buildings"
+            "Funding for demolishing old buildings",
+            "Allowances for greater development density in exchange for public benefits",
+            "Reductions in property taxes for all new developments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Density bonuses allow developers to build at greater densities than normally permitted in exchange for providing public benefits like affordable housing or open space."
         },
         {
           id: 17,
           question: "Which global south city is known for innovative bus rapid transit systems?",
           options: [
-            "Curitiba, Brazil",
             "Paris, France",
             "Tokyo, Japan",
+            "Curitiba, Brazil",
             "New York, USA"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Curitiba, Brazil is internationally recognized for its innovative and efficient bus rapid transit system, which has inspired similar systems worldwide."
         },
         {
@@ -440,8 +440,8 @@ Urban planning addresses three fundamental questions:
           question: "What does 'resilience' mean in planning contexts?",
           options: [
             "Ability to recover from shocks and stresses like natural disasters",
-            "Resistance to any change or development",
             "Having very rigid and unchanging plans",
+            "Resistance to any change or development",
             "Focusing only on short-term solutions"
           ],
           correctAnswer: 0,
@@ -451,24 +451,24 @@ Urban planning addresses three fundamental questions:
           id: 19,
           question: "What type of analysis examines population trends and characteristics?",
           options: [
-            "Demographic Analysis",
             "Economic Analysis",
             "Environmental Assessment",
-            "SWOT Analysis"
+            "SWOT Analysis",
+            "Demographic Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demographic Analysis examines population trends, characteristics, and projections to inform planning decisions."
         },
         {
           id: 20,
           question: "Where do most entry-level planners typically work?",
           options: [
-            "Local government planning departments",
-            "Federal research institutions",
             "Private development companies as CEOs",
-            "International consulting firms as partners"
+            "International consulting firms as partners",
+            "Local government planning departments",
+            "Federal research institutions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Most entry-level planners typically work in local government planning departments, often starting as planning assistants or analysts."
         }
       ]
@@ -717,60 +717,60 @@ Smart growth is an approach to development that conserves land, protects the env
           id: 1,
           question: "What is the primary purpose of a comprehensive plan?",
           options: [
+            "To design individual buildings and architectural details",
             "To provide a long-range guide for community development balancing competing interests",
-            "To maximize tax revenue from all new developments",
             "To prevent any change or growth in the community",
-            "To design individual buildings and architectural details"
+            "To maximize tax revenue from all new developments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A comprehensive plan provides a long-range guide for community development that balances competing interests and coordinates public and private actions toward shared goals."
         },
         {
           id: 2,
           question: "Which element of a comprehensive plan addresses housing needs and affordability?",
           options: [
-            "Housing Element",
-            "Land Use Element",
+            "Conservation Element",
             "Circulation Element",
-            "Conservation Element"
+            "Land Use Element",
+            "Housing Element"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Housing Element specifically addresses housing needs, affordability, and strategies to provide housing for all income levels and household types."
         },
         {
           id: 3,
           question: "What distinguishes form-based zoning from traditional zoning?",
           options: [
-            "It regulates physical form rather than land use",
             "It only applies to industrial areas",
-            "It eliminates all development regulations",
-            "It focuses only on building colors and materials"
+            "It regulates physical form rather than land use",
+            "It focuses only on building colors and materials",
+            "It eliminates all development regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Form-based zoning regulates the physical form of development (building placement, design, public space) rather than specific land uses."
         },
         {
           id: 4,
           question: "What do density bonuses provide to developers?",
           options: [
-            "Allowances for greater development density in exchange for public benefits",
             "Reductions in all building code requirements",
             "Automatic approval without any review process",
-            "Free land for future development projects"
+            "Free land for future development projects",
+            "Allowances for greater development density in exchange for public benefits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Density bonuses allow developers to build at greater densities than normally permitted in exchange for providing public benefits like affordable housing, open space, or other amenities."
         },
         {
           id: 5,
           question: "Which smart growth principle encourages combining residential, commercial, and civic uses?",
           options: [
+            "Walkable neighborhoods",
             "Mix land uses",
             "Compact building design",
-            "Walkable neighborhoods",
             "Preserve open space"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mixing land uses combines residential, commercial, and civic uses in close proximity to support walking, reduce trips, and create vibrant neighborhoods."
         },
         {
@@ -801,24 +801,24 @@ Smart growth is an approach to development that conserves land, protects the env
           id: 8,
           question: "What is inclusionary zoning?",
           options: [
-            "Requiring affordable housing units in new residential developments",
-            "Including all possible land uses in every zone",
+            "Regulations that include environmental protections",
             "Zoning that automatically includes public review",
-            "Regulations that include environmental protections"
+            "Including all possible land uses in every zone",
+            "Requiring affordable housing units in new residential developments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Inclusionary zoning requires developers to include affordable housing units in new residential developments, often in exchange for density bonuses or other incentives."
         },
         {
           id: 9,
           question: "What does 'brownfield redevelopment' involve?",
           options: [
-            "Cleaning and reusing contaminated or previously developed sites",
-            "Developing agricultural land for housing",
             "Building on pristine natural areas",
+            "Developing agricultural land for housing",
+            "Cleaning and reusing contaminated or previously developed sites",
             "Creating parks in wealthy neighborhoods only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Brownfield redevelopment involves cleaning up and redeveloping contaminated, abandoned, or underutilized industrial and commercial sites."
         },
         {
@@ -827,8 +827,8 @@ Smart growth is an approach to development that conserves land, protects the env
           options: [
             "Legally enforceable commitments from developers to provide public benefits",
             "A promise from communities to always approve development",
-            "An agreement between neighbors about property boundaries",
-            "A contract for community members to maintain public spaces"
+            "A contract for community members to maintain public spaces",
+            "An agreement between neighbors about property boundaries"
           ],
           correctAnswer: 0,
           explanation: "A community benefits agreement is a legally enforceable contract where developers commit to providing specific public benefits in exchange for community support or regulatory approvals."
@@ -837,48 +837,48 @@ Smart growth is an approach to development that conserves land, protects the env
           id: 11,
           question: "What does performance zoning focus on regulating?",
           options: [
-            "Measurable impacts rather than specific uses",
+            "The personal characteristics of developers",
             "Only the aesthetic appearance of buildings",
-            "The speed of construction processes",
-            "The personal characteristics of developers"
+            "Measurable impacts rather than specific uses",
+            "The speed of construction processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Performance zoning focuses on regulating measurable impacts (noise, traffic, environmental effects) rather than prohibiting specific land uses."
         },
         {
           id: 12,
           question: "Which tool involves moving development rights from sensitive areas to designated growth areas?",
           options: [
-            "Transfer of development rights",
-            "Density bonuses",
             "Inclusionary zoning",
-            "Conditional use permits"
+            "Conditional use permits",
+            "Density bonuses",
+            "Transfer of development rights"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transfer of development rights allows moving development potential from areas targeted for preservation (sending areas) to areas designated for growth (receiving areas)."
         },
         {
           id: 13,
           question: "What is 'missing middle' housing?",
           options: [
+            "Only luxury high-rise apartments",
             "Medium-density housing types like duplexes and townhouses",
             "Housing that has completely disappeared from cities",
-            "Only luxury high-rise apartments",
             "Suburban single-family homes on large lots"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Missing middle housing refers to medium-density housing types like duplexes, triplexes, townhouses, and small apartment buildings that provide options between single-family homes and large apartment buildings."
         },
         {
           id: 14,
           question: "What does green infrastructure use to manage stormwater?",
           options: [
-            "Natural systems like vegetation and soils",
+            "Exporting all stormwater to other communities",
             "Only large underground pipes and tanks",
-            "Chemical treatments for all rainwater",
-            "Exporting all stormwater to other communities"
+            "Natural systems like vegetation and soils",
+            "Chemical treatments for all rainwater"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Green infrastructure uses natural systems like vegetation, soils, and permeable surfaces to manage stormwater, filter pollutants, and reduce runoff."
         },
         {
@@ -886,9 +886,9 @@ Smart growth is an approach to development that conserves land, protects the env
           question: "What city is known for its urban growth boundary?",
           options: [
             "Portland, Oregon",
+            "Chicago, Illinois",
             "Los Angeles, California",
-            "Miami, Florida",
-            "Chicago, Illinois"
+            "Miami, Florida"
           ],
           correctAnswer: 0,
           explanation: "Portland, Oregon established one of the first and most well-known urban growth boundaries in 1979 to contain development and preserve surrounding farmland and natural areas."
@@ -897,24 +897,24 @@ Smart growth is an approach to development that conserves land, protects the env
           id: 16,
           question: "What does 'social urbanism' integrate?",
           options: [
-            "Physical interventions with social programs",
             "Only private development without public input",
+            "Transportation systems without land use planning",
             "Architectural styles from different periods",
-            "Transportation systems without land use planning"
+            "Physical interventions with social programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social urbanism, as practiced in Medellín, Colombia, integrates physical interventions (like cable cars and library parks) with social programs to address inequality and improve quality of life in marginalized areas."
         },
         {
           id: 17,
           question: "What is the purpose of monitoring indicators in planning?",
           options: [
-            "To track progress toward plan goals and identify needed adjustments",
-            "To increase paperwork for planning departments",
+            "To make planning reports longer and more complex",
             "To eliminate the need for public participation",
-            "To make planning reports longer and more complex"
+            "To increase paperwork for planning departments",
+            "To track progress toward plan goals and identify needed adjustments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Monitoring indicators track progress toward plan goals, measure impacts of decisions, and provide data for evaluating effectiveness and identifying needed adjustments."
         },
         {
@@ -922,8 +922,8 @@ Smart growth is an approach to development that conserves land, protects the env
           question: "What does 'adaptive reuse' involve?",
           options: [
             "Repurposing existing buildings for new uses",
-            "Demolishing all old buildings",
             "Building only temporary structures",
+            "Demolishing all old buildings",
             "Using adaptable furniture in new buildings"
           ],
           correctAnswer: 0,
@@ -933,24 +933,24 @@ Smart growth is an approach to development that conserves land, protects the env
           id: 19,
           question: "What does equity mapping visualize?",
           options: [
-            "Spatial patterns of advantage and disadvantage",
             "Only property values and tax revenues",
             "The locations of all public buildings",
+            "Spatial patterns of advantage and disadvantage",
             "Traffic patterns during rush hour"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Equity mapping visualizes spatial patterns of advantage and disadvantage, showing where different populations have varying access to opportunities, services, and environmental quality."
         },
         {
           id: 20,
           question: "How often should comprehensive plans typically be reviewed and updated?",
           options: [
-            "Every 5-10 years",
-            "Every 50-100 years",
             "Only when completely new leadership is elected",
-            "Whenever a single resident requests changes"
+            "Every 50-100 years",
+            "Whenever a single resident requests changes",
+            "Every 5-10 years"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Comprehensive plans should typically be reviewed and updated every 5-10 years to remain relevant, address changing conditions, and incorporate new information and community priorities."
         }
       ]
@@ -1250,12 +1250,12 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           id: 1,
           question: "What do complete streets aim to accommodate?",
           options: [
-            "All users including pedestrians, bicyclists, transit riders, and motorists",
-            "Only private automobiles for maximum traffic flow",
             "Just commercial vehicles and delivery trucks",
+            "Only private automobiles for maximum traffic flow",
+            "All users including pedestrians, bicyclists, transit riders, and motorists",
             "Only pedestrians in designated areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Complete streets are designed and operated to enable safe access for all users, including pedestrians, bicyclists, motorists, and transit riders of all ages and abilities."
         },
         {
@@ -1286,24 +1286,24 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           id: 4,
           question: "What does Transportation Demand Management (TDM) aim to reduce?",
           options: [
-            "Single-occupant vehicle travel",
             "All forms of transportation equally",
+            "Public transit usage",
             "Only walking and biking trips",
-            "Public transit usage"
+            "Single-occupant vehicle travel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "TDM aims to reduce single-occupant vehicle travel through incentives, disincentives, and alternatives like transit, walking, biking, and ridesharing."
         },
         {
           id: 5,
           question: "What is Mobility as a Service (MaaS)?",
           options: [
-            "Integrated platforms for planning and paying for multimodal trips",
+            "Private car ownership models",
             "A government service that provides free cars to residents",
-            "Only traditional public transit systems",
-            "Private car ownership models"
+            "Integrated platforms for planning and paying for multimodal trips",
+            "Only traditional public transit systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "MaaS integrates various mobility services (transit, bike share, ride-hailing, etc.) into a single platform for trip planning and payment, offering subscription-based mobility packages."
         },
         {
@@ -1312,8 +1312,8 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           options: [
             "Highway construction through urban neighborhoods",
             "Building too many sidewalks in wealthy areas",
-            "Creating extensive bicycle networks",
-            "Investing heavily in public transit systems"
+            "Investing heavily in public transit systems",
+            "Creating extensive bicycle networks"
           ],
           correctAnswer: 0,
           explanation: "Highway construction in the mid-20th century often divided and destroyed urban neighborhoods, particularly communities of color, creating lasting physical and social barriers."
@@ -1322,48 +1322,48 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           id: 7,
           question: "What does 'unbundled parking' separate?",
           options: [
-            "Parking costs from housing or office costs",
             "Different types of vehicles in parking garages",
             "Public and private parking facilities",
-            "Short-term and long-term parking spaces"
+            "Short-term and long-term parking spaces",
+            "Parking costs from housing or office costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Unbundled parking separates the cost of parking from the cost of housing or office space, allowing people to choose whether to pay for parking based on their needs."
         },
         {
           id: 8,
           question: "What is Bus Rapid Transit (BRT)?",
           options: [
+            "School buses for student transportation",
             "Bus service with dedicated lanes, frequent service, and station amenities",
-            "Regular bus service with no special features",
             "Only tourist buses for sightseeing",
-            "School buses for student transportation"
+            "Regular bus service with no special features"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BRT is high-quality bus service with dedicated lanes, frequent service, station amenities, and other features that provide rail-like service at lower cost."
         },
         {
           id: 9,
           question: "What does 'value capture' refer to in transportation finance?",
           options: [
-            "Capturing land value increases from transportation investments",
-            "Taking money from drivers through excessive tolls",
             "Reducing the value of properties near transit",
-            "Increasing taxes on all transportation modes equally"
+            "Increasing taxes on all transportation modes equally",
+            "Capturing land value increases from transportation investments",
+            "Taking money from drivers through excessive tolls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Value capture involves capturing some of the increased land values and economic benefits that result from transportation investments to help fund those investments."
         },
         {
           id: 10,
           question: "What is a primary environmental benefit of active transportation?",
           options: [
-            "Reduced emissions from vehicle trips",
             "Increased road construction for more lanes",
             "Higher energy consumption for transportation",
+            "Reduced emissions from vehicle trips",
             "More parking lots in urban areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Active transportation (walking and biking) reduces emissions from vehicle trips, improving air quality and contributing to climate change mitigation."
         },
         {
@@ -1371,8 +1371,8 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           question: "What does 'congestion pricing' involve?",
           options: [
             "Charging for driving in congested areas or during peak times",
-            "Making all transportation completely free",
             "Increasing taxes on public transit",
+            "Making all transportation completely free",
             "Eliminating all road maintenance"
           ],
           correctAnswer: 0,
@@ -1384,8 +1384,8 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           options: [
             "The final segment of delivery from distribution center to destination",
             "Only delivering goods exactly one mile",
-            "The first step in the supply chain",
-            "International shipping across oceans"
+            "International shipping across oceans",
+            "The first step in the supply chain"
           ],
           correctAnswer: 0,
           explanation: "Last-mile delivery refers to the final segment of the delivery process from a distribution center to the end destination, often the most challenging and costly part of freight movement in urban areas."
@@ -1395,9 +1395,9 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           question: "What does 'procedural equity' in transportation involve?",
           options: [
             "Inclusive planning processes with meaningful community engagement",
+            "Planning without any public input",
             "Only technical analysis by transportation experts",
-            "Decisions made solely by elected officials",
-            "Planning without any public input"
+            "Decisions made solely by elected officials"
           ],
           correctAnswer: 0,
           explanation: "Procedural equity involves inclusive planning processes with meaningful community engagement, ensuring affected populations have voice and influence in transportation decisions."
@@ -1406,36 +1406,36 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           id: 14,
           question: "What are cargo bikes increasingly used for in urban areas?",
           options: [
-            "Efficient small deliveries in dense areas",
             "Only recreational riding in parks",
+            "Replacing all truck deliveries completely",
             "Long-distance freight between cities",
-            "Replacing all truck deliveries completely"
+            "Efficient small deliveries in dense areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cargo bikes are increasingly used for efficient small deliveries in dense urban areas, reducing congestion, emissions, and parking conflicts compared to traditional delivery trucks."
         },
         {
           id: 15,
           question: "What does ITS stand for in transportation technology?",
           options: [
-            "Intelligent Transportation Systems",
+            "Intercity Transit Services",
             "International Transport Standards",
             "Internal Traffic Solutions",
-            "Intercity Transit Services"
+            "Intelligent Transportation Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ITS stands for Intelligent Transportation Systems, which use technology for traffic management, traveler information, electronic payment, and other transportation applications."
         },
         {
           id: 16,
           question: "What is a primary strategy for reducing transportation emissions?",
           options: [
-            "Shifting from driving to walking, biking, and transit",
             "Building more highways and expanding road capacity",
+            "Shifting from driving to walking, biking, and transit",
             "Increasing parking availability everywhere",
             "Reducing public transit service frequency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mode shift from driving to walking, biking, and transit is a primary strategy for reducing transportation emissions, along with vehicle electrification and improved fuel efficiency."
         },
         {
@@ -1443,9 +1443,9 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           question: "What does 'parking cash-out' provide employees?",
           options: [
             "Cash equivalent if they don't use employer-provided parking",
-            "Free parking regardless of transportation choices",
             "Only additional parking spaces at work",
-            "Discounts on personal vehicle purchases"
+            "Discounts on personal vehicle purchases",
+            "Free parking regardless of transportation choices"
           ],
           correctAnswer: 0,
           explanation: "Parking cash-out gives employees the cash equivalent of their parking subsidy if they choose not to use employer-provided parking, encouraging alternative transportation use."
@@ -1454,24 +1454,24 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           id: 18,
           question: "What is a 'bike boulevard'?",
           options: [
-            "A low-volume street optimized for bicycle travel",
             "A major arterial highway for bicycles only",
+            "A low-volume street optimized for bicycle travel",
             "A mountain bike trail in natural areas",
             "A bicycle parking facility only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A bike boulevard is a low-volume, low-speed street optimized for bicycle travel through traffic calming, wayfinding, and priority treatments at intersections."
         },
         {
           id: 19,
           question: "What does 'transit dependency' measure in equity analysis?",
           options: [
-            "Populations that rely on transit due to limited alternatives",
-            "How much governments depend on transit revenue",
+            "Ridership levels during peak hours only",
             "The financial stability of transit agencies",
-            "Ridership levels during peak hours only"
+            "How much governments depend on transit revenue",
+            "Populations that rely on transit due to limited alternatives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transit dependency measures populations that rely on transit due to limited alternatives (no car access, cannot drive, etc.), helping identify equity priorities for service investments."
         },
         {
@@ -1479,8 +1479,8 @@ Transportation is a major contributor to greenhouse gas emissions and air pollut
           question: "What principle prioritizes maintenance of existing transportation assets?",
           options: [
             "Maintenance first in budget allocation",
-            "Always building new projects first",
             "Deferring all maintenance indefinitely",
+            "Always building new projects first",
             "Only maintaining assets in wealthy areas"
           ],
           correctAnswer: 0,
@@ -1850,24 +1850,24 @@ Requirements or incentives for including affordable units in market-rate develop
           id: 1,
           question: "What percentage of household income is generally considered the threshold for housing affordability?",
           options: [
-            "30%",
-            "50%",
             "70%",
+            "50%",
+            "30%",
             "10%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Housing is generally considered affordable when it costs no more than 30% of household income, with costs above this threshold creating financial strain."
         },
         {
           id: 2,
           question: "What does 'missing middle' housing refer to?",
           options: [
-            "Building types between single-family homes and large apartment buildings",
             "Housing that has completely disappeared from the market",
             "Only luxury housing in city centers",
-            "Suburban housing on very large lots"
+            "Suburban housing on very large lots",
+            "Building types between single-family homes and large apartment buildings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Missing middle housing refers to diverse building types like duplexes, triplexes, townhouses, and small apartment buildings that provide options between single-family homes and large apartment buildings."
         },
         {
@@ -1875,9 +1875,9 @@ Requirements or incentives for including affordable units in market-rate develop
           question: "What is a Community Land Trust (CLT)?",
           options: [
             "A nonprofit that owns land to preserve long-term affordability",
+            "A bank that provides mortgages to wealthy buyers",
             "A government agency that builds public housing",
-            "A private developer specializing in luxury housing",
-            "A bank that provides mortgages to wealthy buyers"
+            "A private developer specializing in luxury housing"
           ],
           correctAnswer: 0,
           explanation: "A Community Land Trust is a nonprofit organization that acquires and holds land for community benefit, separating land ownership from building ownership to preserve permanent affordability."
@@ -1886,12 +1886,12 @@ Requirements or incentives for including affordable units in market-rate develop
           id: 4,
           question: "What is inclusionary zoning?",
           options: [
-            "Requiring affordable units in market-rate developments",
             "Zoning that includes all possible land uses everywhere",
             "Only allowing affordable housing in certain areas",
+            "Requiring affordable units in market-rate developments",
             "Eliminating all zoning regulations for housing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Inclusionary zoning requires developers to include affordable housing units in market-rate residential developments, often in exchange for density bonuses or other incentives."
         },
         {
@@ -1899,8 +1899,8 @@ Requirements or incentives for including affordable units in market-rate develop
           question: "What does 'gentrification' often lead to for existing lower-income residents?",
           options: [
             "Displacement from their neighborhoods",
-            "Automatic homeownership opportunities",
             "Guaranteed rent reductions",
+            "Automatic homeownership opportunities",
             "Free home renovations"
           ],
           correctAnswer: 0,
@@ -1910,180 +1910,180 @@ Requirements or incentives for including affordable units in market-rate develop
           id: 6,
           question: "What is the primary federal program for affordable housing production?",
           options: [
-            "Low-Income Housing Tax Credit (LIHTC)",
+            "National Park Service housing initiatives",
             "Federal Housing Administration (FHA) loans",
             "Department of Defense housing programs",
-            "National Park Service housing initiatives"
+            "Low-Income Housing Tax Credit (LIHTC)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Low-Income Housing Tax Credit (LIHTC) is the primary federal program for affordable housing production, providing tax credits to developers of qualified affordable housing."
         },
         {
           id: 7,
           question: "What does 'aging in place' refer to?",
           options: [
-            "Designing housing and neighborhoods so residents can remain as they age",
-            "Requiring elderly residents to leave their homes",
             "Building only retirement communities far from services",
-            "Preventing any housing adaptations for older adults"
+            "Preventing any housing adaptations for older adults",
+            "Designing housing and neighborhoods so residents can remain as they age",
+            "Requiring elderly residents to leave their homes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Aging in place refers to designing housing and neighborhoods with features that allow residents to remain safely and comfortably in their homes and communities as they age."
         },
         {
           id: 8,
           question: "What is an Accessory Dwelling Unit (ADU)?",
           options: [
-            "A secondary housing unit on a single-family lot",
-            "The main house on a large estate",
             "A commercial office in a residential area",
+            "The main house on a large estate",
+            "A secondary housing unit on a single-family lot",
             "A public park within a housing development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "An Accessory Dwelling Unit (ADU) is a secondary housing unit on a single-family lot, such as a converted garage, basement apartment, or detached cottage."
         },
         {
           id: 9,
           question: "What does 'housing first' mean in supportive housing?",
           options: [
-            "Providing housing without preconditions like sobriety or treatment",
-            "Requiring people to solve all problems before getting housing",
             "Only providing housing after years on a waiting list",
-            "Giving housing to the wealthiest people first"
+            "Giving housing to the wealthiest people first",
+            "Requiring people to solve all problems before getting housing",
+            "Providing housing without preconditions like sobriety or treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Housing first provides immediate access to permanent housing without preconditions like sobriety or participation in treatment programs, recognizing housing as a foundation for addressing other challenges."
         },
         {
           id: 10,
           question: "What is a common barrier to missing middle housing in single-family zones?",
           options: [
-            "Zoning that prohibits multi-unit buildings",
+            "Lack of interest in diverse housing types",
             "Too much available land for development",
-            "Excessive demand for large apartment buildings",
-            "Lack of interest in diverse housing types"
+            "Zoning that prohibits multi-unit buildings",
+            "Excessive demand for large apartment buildings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Single-family zoning that prohibits multi-unit buildings is a common barrier to missing middle housing, along with minimum lot sizes, parking requirements, and other regulations."
         },
         {
           id: 11,
           question: "What does a 'community benefits agreement' provide?",
           options: [
-            "Legally enforceable commitments from developers to the community",
-            "Automatic approval for any development project",
             "Free housing for all community residents",
-            "Elimination of all building regulations"
+            "Elimination of all building regulations",
+            "Automatic approval for any development project",
+            "Legally enforceable commitments from developers to the community"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A community benefits agreement is a legally enforceable contract where developers commit to providing specific benefits to the community in exchange for community support or regulatory approvals."
         },
         {
           id: 12,
           question: "What does LEED stand for in green building?",
           options: [
-            "Leadership in Energy and Environmental Design",
             "Low Energy Efficient Dwellings",
+            "Local Economic Enhancement District",
             "Legal Environmental Enforcement Division",
-            "Local Economic Enhancement District"
+            "Leadership in Energy and Environmental Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "LEED stands for Leadership in Energy and Environmental Design, a comprehensive green building rating system developed by the U.S. Green Building Council."
         },
         {
           id: 13,
           question: "What is 'co-housing'?",
           options: [
-            "Intentional communities with private homes and shared facilities",
-            "Government-owned housing for all residents",
             "Temporary shelter during emergencies",
-            "Luxury condominiums with no common spaces"
+            "Intentional communities with private homes and shared facilities",
+            "Luxury condominiums with no common spaces",
+            "Government-owned housing for all residents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Co-housing are intentional communities with private homes and extensive shared facilities like common houses, designed and managed by residents through participatory processes."
         },
         {
           id: 14,
           question: "What does 'just cause eviction' require?",
           options: [
-            "Valid reasons specified in law for evicting tenants",
             "No reasons needed for any eviction",
             "Only tenant misbehavior as cause for eviction",
-            "Automatic eviction after one year of tenancy"
+            "Automatic eviction after one year of tenancy",
+            "Valid reasons specified in law for evicting tenants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Just cause eviction laws require landlords to have valid reasons specified in law (like nonpayment of rent or lease violations) to evict tenants, preventing arbitrary or retaliatory evictions."
         },
         {
           id: 15,
           question: "What is a 'density bonus' in housing development?",
           options: [
-            "Additional units allowed in exchange for providing affordable housing",
             "Reduction in all building quality standards",
+            "Free land given to developers",
             "Automatic approval without any review process",
-            "Free land given to developers"
+            "Additional units allowed in exchange for providing affordable housing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A density bonus allows developers to build more units than normally permitted in exchange for providing affordable housing or other public benefits."
         },
         {
           id: 16,
           question: "What does 'universal design' aim to achieve?",
           options: [
-            "Accessibility for people of all ages and abilities",
+            "Designing without considering human needs",
             "Only designing for young, able-bodied people",
             "Creating buildings that are difficult to use",
-            "Designing without considering human needs"
+            "Accessibility for people of all ages and abilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Universal design aims to create products and environments accessible to and usable by people of all ages and abilities to the greatest extent possible without adaptation."
         },
         {
           id: 17,
           question: "What is 'micro-housing'?",
           options: [
-            "Very small units with shared amenities for affordability",
             "Only luxury penthouse apartments",
-            "Government housing for large families",
-            "Temporary construction worker housing"
+            "Temporary construction worker housing",
+            "Very small units with shared amenities for affordability",
+            "Government housing for large families"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Micro-housing consists of very small, efficiently designed units (typically 150-400 square feet) with shared amenities, providing affordable options in high-cost urban areas."
         },
         {
           id: 18,
           question: "What does a Housing Element require in planning?",
           options: [
-            "Planning for fair share of regional housing needs",
-            "Only planning for luxury housing development",
             "Eliminating all housing from certain areas",
-            "Building housing without any regulations"
+            "Planning for fair share of regional housing needs",
+            "Building housing without any regulations",
+            "Only planning for luxury housing development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "In states with housing element laws, local governments must develop Housing Elements that plan for their fair share of regional housing needs across income levels."
         },
         {
           id: 19,
           question: "What is 'passive survivability' in housing design?",
           options: [
-            "Maintaining livable conditions during power outages or emergencies",
             "Making buildings completely dependent on active systems",
+            "Maintaining livable conditions during power outages or emergencies",
             "Designing houses that cannot survive any disruptions",
             "Only considering normal operating conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Passive survivability designs housing to maintain livable conditions (temperature, ventilation, etc.) during power outages or other emergencies through passive design strategies."
         },
         {
           id: 20,
           question: "What does 'right of first refusal' provide in housing preservation?",
           options: [
-            "Tenant or nonprofit opportunity to purchase before others",
             "Landlord right to refuse any tenant applications",
             "Government right to take any property without compensation",
+            "Tenant or nonprofit opportunity to purchase before others",
             "Developer right to build anywhere without approval"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Right of first refusal gives tenants or qualified nonprofits the opportunity to purchase a building before it is sold to others, helping preserve affordable housing and prevent displacement."
         }
       ]
@@ -2421,12 +2421,12 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           id: 1,
           question: "What does the precautionary principle in environmental planning advocate?",
           options: [
-            "Taking preventive action in the face of uncertainty",
+            "Ignoring potential environmental impacts",
             "Waiting for complete certainty before taking action",
             "Only addressing problems after they occur",
-            "Ignoring potential environmental impacts"
+            "Taking preventive action in the face of uncertainty"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The precautionary principle advocates taking preventive action when there is reason to believe harm may occur, even if scientific certainty is lacking."
         },
         {
@@ -2445,120 +2445,120 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           id: 3,
           question: "What are ecosystem services?",
           options: [
-            "Benefits provided by natural systems to human communities",
-            "Only services that ecosystems provide to themselves",
             "Commercial services offered in natural areas",
-            "Government services for environmental protection"
+            "Government services for environmental protection",
+            "Benefits provided by natural systems to human communities",
+            "Only services that ecosystems provide to themselves"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ecosystem services are benefits that natural systems provide to human communities, including provisioning (food, water), regulating (climate, water purification), cultural (recreation, aesthetic), and supporting (nutrient cycling) services."
         },
         {
           id: 4,
           question: "What does Low Impact Development (LID) aim to mimic?",
           options: [
-            "Natural hydrology through decentralized stormwater controls",
-            "Traditional pipe-and-convey stormwater systems",
+            "Only large-scale centralized treatment facilities",
             "Complete elimination of all stormwater runoff",
-            "Only large-scale centralized treatment facilities"
+            "Traditional pipe-and-convey stormwater systems",
+            "Natural hydrology through decentralized stormwater controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Low Impact Development mimics natural hydrology through decentralized, small-scale controls close to the source of runoff, using techniques like rain gardens, permeable pavement, and green roofs."
         },
         {
           id: 5,
           question: "What is environmental justice concerned with?",
           options: [
-            "Fair treatment and meaningful involvement of all people in environmental decisions",
             "Only protecting wealthy neighborhoods from pollution",
-            "Environmental regulations that benefit corporations only",
-            "Eliminating all environmental regulations"
+            "Fair treatment and meaningful involvement of all people in environmental decisions",
+            "Eliminating all environmental regulations",
+            "Environmental regulations that benefit corporations only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental justice is the fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income with respect to environmental laws, regulations, and policies."
         },
         {
           id: 6,
           question: "What does the waste management hierarchy prioritize?",
           options: [
-            "Prevention and reduction over disposal",
             "Disposal as the first option always",
-            "Only recycling for all materials",
-            "Burning all waste regardless of type"
+            "Burning all waste regardless of type",
+            "Prevention and reduction over disposal",
+            "Only recycling for all materials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The waste management hierarchy prioritizes prevention first, then reduction, reuse, recycling, recovery, with disposal as the last option."
         },
         {
           id: 7,
           question: "What is urban forestry?",
           options: [
-            "Planning and management of trees and vegetation in urban areas",
-            "Only maintaining forests outside cities",
             "Cutting down all trees in urban areas",
-            "Planting trees only in wealthy neighborhoods"
+            "Only maintaining forests outside cities",
+            "Planting trees only in wealthy neighborhoods",
+            "Planning and management of trees and vegetation in urban areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Urban forestry is the planning and management of trees and associated vegetation in urban areas for environmental, social, and economic benefits."
         },
         {
           id: 8,
           question: "What does an Environmental Impact Assessment (EIA) evaluate?",
           options: [
-            "Environmental effects of proposed projects before decisions",
             "Only economic costs of environmental regulations",
-            "Historical environmental conditions only",
-            "Political impacts of environmental decisions"
+            "Environmental effects of proposed projects before decisions",
+            "Political impacts of environmental decisions",
+            "Historical environmental conditions only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "An Environmental Impact Assessment systematically identifies, predicts, evaluates, and mitigates environmental effects of proposed projects before decisions are made."
         },
         {
           id: 9,
           question: "What is a circular economy?",
           options: [
-            "Economic system that eliminates waste and continually uses resources",
-            "Economy that only produces circular products",
+            "Economy based solely on natural resource extraction",
             "Traditional linear take-make-dispose system",
-            "Economy based solely on natural resource extraction"
+            "Economic system that eliminates waste and continually uses resources",
+            "Economy that only produces circular products"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A circular economy aims to eliminate waste and continually use resources through closed-loop systems, contrasting with traditional linear economies."
         },
         {
           id: 10,
           question: "What does cumulative impact analysis consider?",
           options: [
+            "Historical impacts from 100 years ago only",
             "Multiple environmental stressors affecting communities",
-            "Only the largest single impact of a project",
             "Economic impacts without environmental considerations",
-            "Historical impacts from 100 years ago only"
+            "Only the largest single impact of a project"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cumulative impact analysis considers the combined effects of multiple environmental stressors on communities, which is important for environmental justice assessment."
         },
         {
           id: 11,
           question: "What is green infrastructure?",
           options: [
-            "Network of natural areas that delivers ecosystem services",
             "Only traditional concrete and pipe systems",
+            "Military infrastructure in natural areas",
             "Infrastructure painted green for appearance",
-            "Military infrastructure in natural areas"
+            "Network of natural areas that delivers ecosystem services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Green infrastructure is a network of natural and semi-natural areas that delivers ecosystem services, often integrated with built infrastructure."
         },
         {
           id: 12,
           question: "What does NEPA stand for?",
           options: [
-            "National Environmental Policy Act",
-            "National Economic Planning Act",
             "Natural Environment Protection Agency",
-            "New Environmental Program Administration"
+            "National Environmental Policy Act",
+            "New Environmental Program Administration",
+            "National Economic Planning Act"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "NEPA stands for the National Environmental Policy Act, which requires federal agencies to assess environmental effects of their proposed actions."
         },
         {
@@ -2567,8 +2567,8 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           options: [
             "Wildlife movement and genetic diversity",
             "Only human transportation needs",
-            "Creating barriers between different areas",
-            "Isolating species in protected areas"
+            "Isolating species in protected areas",
+            "Creating barriers between different areas"
           ],
           correctAnswer: 0,
           explanation: "Habitat connectivity through green corridors allows wildlife movement between fragmented habitats, supporting genetic diversity and species survival."
@@ -2577,12 +2577,12 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           id: 14,
           question: "What does Strategic Environmental Assessment (SEA) apply to?",
           options: [
-            "Policies, plans, and programs rather than individual projects",
-            "Only small residential projects",
+            "Corporate marketing plans only",
             "Military strategies and operations",
-            "Corporate marketing plans only"
+            "Only small residential projects",
+            "Policies, plans, and programs rather than individual projects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic Environmental Assessment applies environmental assessment principles to policies, plans, and programs at a higher level than individual project assessments."
         },
         {
@@ -2601,12 +2601,12 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           id: 16,
           question: "What is industrial symbiosis?",
           options: [
-            "By-product exchange between businesses to reduce waste",
-            "Only competition between industrial companies",
             "Symbiotic relationships in natural ecosystems only",
-            "Industrial espionage between companies"
+            "Industrial espionage between companies",
+            "Only competition between industrial companies",
+            "By-product exchange between businesses to reduce waste"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Industrial symbiosis involves businesses exchanging by-products so one company's waste becomes another's raw material, reducing overall waste and resource use."
         },
         {
@@ -2614,9 +2614,9 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           question: "What does the polluter pays principle mean?",
           options: [
             "Those causing pollution bear costs of mitigation",
-            "Taxpayers always pay for pollution cleanup",
+            "Only future generations pay for pollution",
             "Pollution costs are ignored completely",
-            "Only future generations pay for pollution"
+            "Taxpayers always pay for pollution cleanup"
           ],
           correctAnswer: 0,
           explanation: "The polluter pays principle means those responsible for pollution should bear the costs of preventing, controlling, and cleaning up that pollution."
@@ -2625,12 +2625,12 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           id: 18,
           question: "What is reclaimed water?",
           options: [
-            "Treated wastewater used for non-potable purposes",
-            "Water reclaimed from natural streams only",
             "Bottled water sold at premium prices",
+            "Water reclaimed from natural streams only",
+            "Treated wastewater used for non-potable purposes",
             "Rainwater collected in barrels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reclaimed water is treated wastewater that meets quality standards for specific non-potable uses like irrigation, industrial processes, or groundwater recharge."
         },
         {
@@ -2638,9 +2638,9 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           question: "What does biophilic design incorporate?",
           options: [
             "Nature and natural elements into built environments",
-            "Only biological laboratory features",
             "Completely artificial environments",
-            "Elements that harm natural systems"
+            "Elements that harm natural systems",
+            "Only biological laboratory features"
           ],
           correctAnswer: 0,
           explanation: "Biophilic design incorporates nature and natural elements into built environments to support human health, wellbeing, and connection to nature."
@@ -2649,12 +2649,12 @@ Ongoing collection and analysis of data to track environmental conditions, asses
           id: 20,
           question: "What is carrying capacity in environmental planning?",
           options: [
-            "Ecological limits on development that an area can support",
+            "How many people can fit in a park",
             "How many cars a road can carry",
-            "Only the weight buildings can support",
-            "How many people can fit in a park"
+            "Ecological limits on development that an area can support",
+            "Only the weight buildings can support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Carrying capacity refers to the ecological limits on development that an area can support without degrading natural systems or quality of life."
         }
       ]
@@ -3016,9 +3016,9 @@ The American Institute of Certified Planners credential demonstrates professiona
           question: "What is the 'implementation gap' in planning?",
           options: [
             "Disconnect between planning goals and actual results",
+            "Time gap between plan adoption and implementation start",
             "Gap in funding for all planning projects",
-            "Space between buildings in developments",
-            "Time gap between plan adoption and implementation start"
+            "Space between buildings in developments"
           ],
           correctAnswer: 0,
           explanation: "The implementation gap refers to the common disconnect between ambitious planning goals and actual on-the-ground results due to resource constraints, political challenges, and other barriers."
@@ -3028,8 +3028,8 @@ The American Institute of Certified Planners credential demonstrates professiona
           question: "What does a Capital Improvement Program (CIP) plan?",
           options: [
             "Multi-year infrastructure investment plans",
-            "Only private development projects",
             "Annual operating budgets for cities",
+            "Only private development projects",
             "Personal investment portfolios for planners"
           ],
           correctAnswer: 0,
@@ -3039,12 +3039,12 @@ The American Institute of Certified Planners credential demonstrates professiona
           id: 3,
           question: "What is the first principle in the APA Ethical Principles?",
           options: [
-            "Serve the public interest",
-            "Support democratic decision-making",
             "Promote social justice",
-            "Protect natural and cultural resources"
+            "Protect natural and cultural resources",
+            "Support democratic decision-making",
+            "Serve the public interest"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The first APA Ethical Principle is 'Serve the public interest,' establishing that planners' primary obligation is to the public."
         },
         {
@@ -3052,9 +3052,9 @@ The American Institute of Certified Planners credential demonstrates professiona
           question: "What does AICP stand for?",
           options: [
             "American Institute of Certified Planners",
-            "Association of International City Planners",
             "American Institution of City Planning",
-            "Accredited Institute of Certified Planners"
+            "Accredited Institute of Certified Planners",
+            "Association of International City Planners"
           ],
           correctAnswer: 0,
           explanation: "AICP stands for the American Institute of Certified Planners, the professional certification program of the American Planning Association."
@@ -3063,12 +3063,12 @@ The American Institute of Certified Planners credential demonstrates professiona
           id: 5,
           question: "What constitutional authority allows states to regulate land use?",
           options: [
-            "Police power to protect public health, safety, and welfare",
-            "Commerce power to regulate interstate trade",
             "Taxing power to raise revenue",
+            "Commerce power to regulate interstate trade",
+            "Police power to protect public health, safety, and welfare",
             "War power for national defense"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Police power allows states (and delegated local governments) to regulate land use to protect public health, safety, and general welfare."
         },
         {
@@ -3087,48 +3087,48 @@ The American Institute of Certified Planners credential demonstrates professiona
           id: 7,
           question: "What does TIF stand for in planning finance?",
           options: [
+            "Transportation Improvement Fee",
             "Tax Increment Financing",
-            "Total Infrastructure Funding",
             "Temporary Investment Fund",
-            "Transportation Improvement Fee"
+            "Total Infrastructure Funding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "TIF stands for Tax Increment Financing, a tool that uses future property tax revenue increases from development to finance current infrastructure improvements."
         },
         {
           id: 8,
           question: "What is stakeholder analysis?",
           options: [
-            "Identifying and analyzing individuals and groups affected by planning projects",
-            "Only counting how many people attend public meetings",
             "Analyzing stock market impacts of planning decisions",
-            "Studying how planners hold meetings"
+            "Only counting how many people attend public meetings",
+            "Studying how planners hold meetings",
+            "Identifying and analyzing individuals and groups affected by planning projects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stakeholder analysis involves identifying, analyzing, and planning engagement with individuals and groups affected by or able to influence planning projects."
         },
         {
           id: 9,
           question: "What is 'spot zoning' generally considered?",
           options: [
-            "Illegal singling out of individual parcels for special treatment",
             "Legal way to zone small spots of land",
             "Marking spots for future development",
-            "Zoning that creates spots on zoning maps"
+            "Zoning that creates spots on zoning maps",
+            "Illegal singling out of individual parcels for special treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Spot zoning is generally illegal when it singles out individual parcels for special treatment inconsistent with the comprehensive plan and surrounding zoning."
         },
         {
           id: 10,
           question: "What is a 'digital twin' in planning technology?",
           options: [
-            "Virtual replica of a physical system for simulation and analysis",
             "Twin planners working on digital projects",
-            "Duplicate paper plans stored digitally",
-            "Two identical digital maps"
+            "Virtual replica of a physical system for simulation and analysis",
+            "Two identical digital maps",
+            "Duplicate paper plans stored digitally"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A digital twin is a virtual replica of a physical system (city, neighborhood, building) used for simulation, analysis, and monitoring."
         },
         {
@@ -3136,9 +3136,9 @@ The American Institute of Certified Planners credential demonstrates professiona
           question: "What does 'lifecycle costing' consider in infrastructure?",
           options: [
             "Long-term operation, maintenance, and replacement costs",
-            "Only initial construction costs",
+            "Political costs of infrastructure decisions",
             "Costs over one budget cycle only",
-            "Political costs of infrastructure decisions"
+            "Only initial construction costs"
           ],
           correctAnswer: 0,
           explanation: "Lifecycle costing considers not just initial construction costs but also long-term operation, maintenance, and eventual replacement costs in infrastructure decisions."
@@ -3147,48 +3147,48 @@ The American Institute of Certified Planners credential demonstrates professiona
           id: 12,
           question: "What is a 'community benefits agreement'?",
           options: [
+            "Contract for community service by volunteers",
             "Legally enforceable commitments from developers to the community",
             "Agreement between community members only",
-            "Promise from government to always approve development",
-            "Contract for community service by volunteers"
+            "Promise from government to always approve development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A community benefits agreement is a legally enforceable contract where developers commit to providing specific benefits to the community in exchange for community support or regulatory approvals."
         },
         {
           id: 13,
           question: "What does 'comprehensive plan consistency' require?",
           options: [
-            "Regulations should implement adopted comprehensive plans",
             "Plans should be consistent with developer wishes",
-            "All plans must be exactly the same",
-            "Planners must consistently attend meetings"
+            "Planners must consistently attend meetings",
+            "Regulations should implement adopted comprehensive plans",
+            "All plans must be exactly the same"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Comprehensive plan consistency requires that zoning and other regulations should implement and be consistent with adopted comprehensive plans."
         },
         {
           id: 14,
           question: "What is 'adaptive management' in planning implementation?",
           options: [
-            "Learning from experience and adjusting approaches based on results",
             "Sticking rigidly to original plans regardless of outcomes",
             "Only adapting to political pressures",
+            "Learning from experience and adjusting approaches based on results",
             "Managing adaptive reuse projects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adaptive management involves learning from experience, monitoring results, and adjusting approaches based on what works and changing conditions."
         },
         {
           id: 15,
           question: "What country is known for its integrated land use and transport planning?",
           options: [
-            "Singapore",
-            "United States",
+            "Canada",
             "Australia",
-            "Canada"
+            "Singapore",
+            "United States"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Singapore is internationally recognized for its highly integrated land use and transport planning, with comprehensive coordination between different agencies and sectors."
         },
         {
@@ -3196,9 +3196,9 @@ The American Institute of Certified Planners credential demonstrates professiona
           question: "What is 'participatory budgeting'?",
           options: [
             "Community allocation of portion of public budget",
-            "Only government officials deciding budgets",
             "Private companies setting public budgets",
-            "Budgeting without any public input"
+            "Budgeting without any public input",
+            "Only government officials deciding budgets"
           ],
           correctAnswer: 0,
           explanation: "Participatory budgeting involves community members directly deciding how to allocate a portion of a public budget through democratic processes."
@@ -3207,24 +3207,24 @@ The American Institute of Certified Planners credential demonstrates professiona
           id: 17,
           question: "What does 'substantial evidence' requirement mean?",
           options: [
-            "Decisions should be supported by factual record",
             "Only a little evidence is needed",
+            "No evidence is required for planning decisions",
             "Evidence must be physically substantial",
-            "No evidence is required for planning decisions"
+            "Decisions should be supported by factual record"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The substantial evidence requirement means planning decisions should be supported by adequate factual evidence in the record, not just arbitrary preferences."
         },
         {
           id: 18,
           question: "What is 'co-production' in planning?",
           options: [
-            "Collaborative creation of plans with community members",
+            "Copying plans from other communities",
             "Only professional planners producing plans",
-            "Mass production of planning documents",
-            "Copying plans from other communities"
+            "Collaborative creation of plans with community members",
+            "Mass production of planning documents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Co-production involves collaborative creation of plans, policies, or services with community members as equal partners rather than just recipients or consultants."
         },
         {
@@ -3232,9 +3232,9 @@ The American Institute of Certified Planners credential demonstrates professiona
           question: "What is a 'public-private partnership' (P3)?",
           options: [
             "Collaborative arrangement between public and private sectors for projects",
-            "Only private sector doing public projects",
+            "Partnership between two private companies",
             "Government taking over private businesses",
-            "Partnership between two private companies"
+            "Only private sector doing public projects"
           ],
           correctAnswer: 0,
           explanation: "A public-private partnership is a collaborative arrangement between public and private sectors to deliver projects or services, often sharing risks and rewards."
@@ -3243,12 +3243,12 @@ The American Institute of Certified Planners credential demonstrates professiona
           id: 20,
           question: "What does 'equity-centered planning' explicitly focus on?",
           options: [
-            "Addressing systemic disparities and promoting justice",
-            "Only economic efficiency in planning",
             "Equity as financial investment returns",
+            "Only economic efficiency in planning",
+            "Addressing systemic disparities and promoting justice",
             "Making all decisions equal without analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Equity-centered planning explicitly focuses on addressing systemic disparities, promoting justice, and ensuring fair distribution of benefits and burdens."
         }
       ]
@@ -3268,12 +3268,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 1,
         question: "What are the three fundamental questions urban planning addresses?",
         options: [
-          "Where should development occur, how should communities function, and who benefits from decisions",
           "How to maximize tax revenue, reduce government spending, and increase property values",
+          "What colors to paint buildings, what trees to plant, and what street names to use",
           "Which buildings are tallest, which roads are widest, and which parks are largest",
-          "What colors to paint buildings, what trees to plant, and what street names to use"
+          "Where should development occur, how should communities function, and who benefits from decisions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Urban planning addresses where development should occur (land use), how communities should function (transportation, housing, services), and who benefits from planning decisions (equity considerations)."
       },
       {
@@ -3281,12 +3281,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 1,
         question: "Who developed the Garden City Theory?",
         options: [
-          "Ebenezer Howard",
+          "Peter Calthorpe",
           "Le Corbusier",
-          "Clarence Perry",
-          "Peter Calthorpe"
+          "Ebenezer Howard",
+          "Clarence Perry"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Ebenezer Howard developed the Garden City Theory in 1898, proposing self-contained communities surrounded by greenbelts with a balance of urban and rural advantages."
       },
       {
@@ -3307,12 +3307,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 1,
         question: "Which ethical principle requires planners to promote fair distribution of benefits and burdens?",
         options: [
+          "Honest professional work",
           "Social justice",
           "Transparency",
-          "Honest professional work",
           "Protecting natural resources"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Social justice requires planners to promote fair distribution of benefits and burdens, ensuring that planning decisions don't disproportionately impact vulnerable communities."
       },
 
@@ -3335,12 +3335,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 2,
         question: "What distinguishes form-based zoning from traditional zoning?",
         options: [
-          "It regulates physical form rather than land use",
-          "It only applies to industrial areas",
           "It eliminates all development regulations",
-          "It focuses only on building colors and materials"
+          "It focuses only on building colors and materials",
+          "It regulates physical form rather than land use",
+          "It only applies to industrial areas"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Form-based zoning regulates the physical form of development (building placement, design, public space) rather than specific land uses."
       },
       {
@@ -3349,9 +3349,9 @@ The American Institute of Certified Planners credential demonstrates professiona
         question: "What do density bonuses provide to developers?",
         options: [
           "Allowances for greater development density in exchange for public benefits",
-          "Reductions in all building code requirements",
+          "Free land for future development projects",
           "Automatic approval without any review process",
-          "Free land for future development projects"
+          "Reductions in all building code requirements"
         ],
         correctAnswer: 0,
         explanation: "Density bonuses allow developers to build at greater densities than normally permitted in exchange for providing public benefits like affordable housing, open space, or other amenities."
@@ -3363,8 +3363,8 @@ The American Institute of Certified Planners credential demonstrates professiona
         options: [
           "Systematic denial of services to certain neighborhoods based on racial composition",
           "Drawing red lines on maps to indicate historic districts",
-          "Marking areas where red brick buildings are required",
-          "Highlighting main transportation routes in red ink"
+          "Highlighting main transportation routes in red ink",
+          "Marking areas where red brick buildings are required"
         ],
         correctAnswer: 0,
         explanation: "Redlining was the systematic denial of services (loans, insurance, etc.) to certain neighborhoods based on racial composition, creating lasting patterns of disinvestment and segregation."
@@ -3376,12 +3376,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 3,
         question: "What do complete streets aim to accommodate?",
         options: [
+          "Only pedestrians in designated areas",
           "All users including pedestrians, bicyclists, transit riders, and motorists",
           "Only private automobiles for maximum traffic flow",
-          "Just commercial vehicles and delivery trucks",
-          "Only pedestrians in designated areas"
+          "Just commercial vehicles and delivery trucks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Complete streets are designed and operated to enable safe access for all users, including pedestrians, bicyclists, motorists, and transit riders of all ages and abilities."
       },
       {
@@ -3389,12 +3389,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 3,
         question: "What does Transit-Oriented Development (TOD) create around transit stations?",
         options: [
-          "Compact, mixed-use, pedestrian-friendly development",
-          "Large parking lots and single-use office buildings",
           "Isolated residential towers with no ground-floor activity",
-          "Industrial warehouses and distribution centers"
+          "Industrial warehouses and distribution centers",
+          "Large parking lots and single-use office buildings",
+          "Compact, mixed-use, pedestrian-friendly development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "TOD creates compact, mixed-use, pedestrian-friendly development around transit stations to maximize transit use and create vibrant, walkable communities."
       },
       {
@@ -3402,12 +3402,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 3,
         question: "What does Transportation Demand Management (TDM) aim to reduce?",
         options: [
-          "Single-occupant vehicle travel",
+          "Public transit usage",
           "All forms of transportation equally",
           "Only walking and biking trips",
-          "Public transit usage"
+          "Single-occupant vehicle travel"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "TDM aims to reduce single-occupant vehicle travel through incentives, disincentives, and alternatives like transit, walking, biking, and ridesharing."
       },
       {
@@ -3415,12 +3415,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 3,
         question: "What historical transportation practice involved dividing and destroying communities?",
         options: [
-          "Highway construction through urban neighborhoods",
           "Building too many sidewalks in wealthy areas",
-          "Creating extensive bicycle networks",
-          "Investing heavily in public transit systems"
+          "Highway construction through urban neighborhoods",
+          "Investing heavily in public transit systems",
+          "Creating extensive bicycle networks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Highway construction in the mid-20th century often divided and destroyed urban neighborhoods, particularly communities of color, creating lasting physical and social barriers."
       },
 
@@ -3430,12 +3430,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 4,
         question: "What percentage of household income is generally considered the threshold for housing affordability?",
         options: [
-          "30%",
+          "10%",
           "50%",
           "70%",
-          "10%"
+          "30%"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Housing is generally considered affordable when it costs no more than 30% of household income, with costs above this threshold creating financial strain."
       },
       {
@@ -3443,12 +3443,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 4,
         question: "What does 'missing middle' housing refer to?",
         options: [
-          "Building types between single-family homes and large apartment buildings",
-          "Housing that has completely disappeared from the market",
           "Only luxury housing in city centers",
-          "Suburban housing on very large lots"
+          "Housing that has completely disappeared from the market",
+          "Suburban housing on very large lots",
+          "Building types between single-family homes and large apartment buildings"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Missing middle housing refers to diverse building types like duplexes, triplexes, townhouses, and small apartment buildings that provide options between single-family homes and large apartment buildings."
       },
       {
@@ -3457,9 +3457,9 @@ The American Institute of Certified Planners credential demonstrates professiona
         question: "What is a Community Land Trust (CLT)?",
         options: [
           "A nonprofit that owns land to preserve long-term affordability",
+          "A bank that provides mortgages to wealthy buyers",
           "A government agency that builds public housing",
-          "A private developer specializing in luxury housing",
-          "A bank that provides mortgages to wealthy buyers"
+          "A private developer specializing in luxury housing"
         ],
         correctAnswer: 0,
         explanation: "A Community Land Trust is a nonprofit organization that acquires and holds land for community benefit, separating land ownership from building ownership to preserve permanent affordability."
@@ -3469,12 +3469,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 4,
         question: "What does 'gentrification' often lead to for existing lower-income residents?",
         options: [
-          "Displacement from their neighborhoods",
           "Automatic homeownership opportunities",
+          "Displacement from their neighborhoods",
           "Guaranteed rent reductions",
           "Free home renovations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Gentrification often leads to displacement of existing lower-income residents through rising housing costs, evictions, and neighborhood changes that make areas unaffordable for longtime residents."
       },
 
@@ -3484,12 +3484,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 5,
         question: "What is the difference between climate mitigation and adaptation?",
         options: [
-          "Mitigation reduces emissions while adaptation adjusts to impacts",
-          "Mitigation adapts to changes while adaptation reduces causes",
+          "Mitigation is for cities only, adaptation for rural areas",
           "Both terms mean exactly the same thing",
-          "Mitigation is for cities only, adaptation for rural areas"
+          "Mitigation adapts to changes while adaptation reduces causes",
+          "Mitigation reduces emissions while adaptation adjusts to impacts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Mitigation involves reducing greenhouse gas emissions to limit climate change, while adaptation involves adjusting to actual or expected climate impacts to reduce vulnerability."
       },
       {
@@ -3497,12 +3497,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 5,
         question: "What are ecosystem services?",
         options: [
-          "Benefits provided by natural systems to human communities",
           "Only services that ecosystems provide to themselves",
           "Commercial services offered in natural areas",
-          "Government services for environmental protection"
+          "Government services for environmental protection",
+          "Benefits provided by natural systems to human communities"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Ecosystem services are benefits that natural systems provide to human communities, including provisioning (food, water), regulating (climate, water purification), cultural (recreation, aesthetic), and supporting (nutrient cycling) services."
       },
       {
@@ -3510,12 +3510,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 5,
         question: "What does Low Impact Development (LID) aim to mimic?",
         options: [
-          "Natural hydrology through decentralized stormwater controls",
           "Traditional pipe-and-convey stormwater systems",
-          "Complete elimination of all stormwater runoff",
-          "Only large-scale centralized treatment facilities"
+          "Only large-scale centralized treatment facilities",
+          "Natural hydrology through decentralized stormwater controls",
+          "Complete elimination of all stormwater runoff"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Low Impact Development mimics natural hydrology through decentralized, small-scale controls close to the source of runoff, using techniques like rain gardens, permeable pavement, and green roofs."
       },
       {
@@ -3524,9 +3524,9 @@ The American Institute of Certified Planners credential demonstrates professiona
         question: "What is environmental justice concerned with?",
         options: [
           "Fair treatment and meaningful involvement of all people in environmental decisions",
-          "Only protecting wealthy neighborhoods from pollution",
+          "Eliminating all environmental regulations",
           "Environmental regulations that benefit corporations only",
-          "Eliminating all environmental regulations"
+          "Only protecting wealthy neighborhoods from pollution"
         ],
         correctAnswer: 0,
         explanation: "Environmental justice is the fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income with respect to environmental laws, regulations, and policies."
@@ -3540,8 +3540,8 @@ The American Institute of Certified Planners credential demonstrates professiona
         options: [
           "Disconnect between planning goals and actual results",
           "Gap in funding for all planning projects",
-          "Space between buildings in developments",
-          "Time gap between plan adoption and implementation start"
+          "Time gap between plan adoption and implementation start",
+          "Space between buildings in developments"
         ],
         correctAnswer: 0,
         explanation: "The implementation gap refers to the common disconnect between ambitious planning goals and actual on-the-ground results due to resource constraints, political challenges, and other barriers."
@@ -3552,9 +3552,9 @@ The American Institute of Certified Planners credential demonstrates professiona
         question: "What does a Capital Improvement Program (CIP) plan?",
         options: [
           "Multi-year infrastructure investment plans",
-          "Only private development projects",
+          "Personal investment portfolios for planners",
           "Annual operating budgets for cities",
-          "Personal investment portfolios for planners"
+          "Only private development projects"
         ],
         correctAnswer: 0,
         explanation: "A Capital Improvement Program plans, budgets, and schedules major physical investments in public infrastructure over multiple years."
@@ -3566,8 +3566,8 @@ The American Institute of Certified Planners credential demonstrates professiona
         options: [
           "Serve the public interest",
           "Support democratic decision-making",
-          "Promote social justice",
-          "Protect natural and cultural resources"
+          "Protect natural and cultural resources",
+          "Promote social justice"
         ],
         correctAnswer: 0,
         explanation: "The first APA Ethical Principle is 'Serve the public interest,' establishing that planners' primary obligation is to the public."
@@ -3577,12 +3577,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 6,
         question: "What does AICP stand for?",
         options: [
-          "American Institute of Certified Planners",
-          "Association of International City Planners",
           "American Institution of City Planning",
-          "Accredited Institute of Certified Planners"
+          "American Institute of Certified Planners",
+          "Accredited Institute of Certified Planners",
+          "Association of International City Planners"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "AICP stands for the American Institute of Certified Planners, the professional certification program of the American Planning Association."
       },
 
@@ -3592,12 +3592,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 1,
         question: "What planning approach is a reaction to suburban sprawl?",
         options: [
-          "New Urbanism",
-          "Modernism",
           "Industrial Planning",
-          "Radiant City planning"
+          "Radiant City planning",
+          "Modernism",
+          "New Urbanism"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "New Urbanism emerged in the 1980s as a reaction to suburban sprawl, emphasizing traditional neighborhood design, mixed-use walkable communities, human-scale streets, and strong sense of place."
       },
       {
@@ -3607,8 +3607,8 @@ The American Institute of Certified Planners credential demonstrates professiona
         options: [
           "Contain development within a defined area to preserve surrounding lands",
           "Prevent any development within city limits",
-          "Separate rich and poor neighborhoods",
-          "Mark where different architectural styles must be used"
+          "Mark where different architectural styles must be used",
+          "Separate rich and poor neighborhoods"
         ],
         correctAnswer: 0,
         explanation: "An urban growth boundary contains urban development within a defined area to preserve surrounding farmland, natural areas, and open space while encouraging compact development inside the boundary."
@@ -3619,9 +3619,9 @@ The American Institute of Certified Planners credential demonstrates professiona
         question: "What is Mobility as a Service (MaaS)?",
         options: [
           "Integrated platforms for planning and paying for multimodal trips",
-          "A government service that provides free cars to residents",
+          "Private car ownership models",
           "Only traditional public transit systems",
-          "Private car ownership models"
+          "A government service that provides free cars to residents"
         ],
         correctAnswer: 0,
         explanation: "MaaS integrates various mobility services (transit, bike share, ride-hailing, etc.) into a single platform for trip planning and payment, offering subscription-based mobility packages."
@@ -3632,9 +3632,9 @@ The American Institute of Certified Planners credential demonstrates professiona
         question: "What is the primary federal program for affordable housing production?",
         options: [
           "Low-Income Housing Tax Credit (LIHTC)",
-          "Federal Housing Administration (FHA) loans",
           "Department of Defense housing programs",
-          "National Park Service housing initiatives"
+          "National Park Service housing initiatives",
+          "Federal Housing Administration (FHA) loans"
         ],
         correctAnswer: 0,
         explanation: "The Low-Income Housing Tax Credit (LIHTC) is the primary federal program for affordable housing production, providing tax credits to developers of qualified affordable housing."
@@ -3644,12 +3644,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 5,
         question: "What does the waste management hierarchy prioritize?",
         options: [
-          "Prevention and reduction over disposal",
           "Disposal as the first option always",
+          "Prevention and reduction over disposal",
           "Only recycling for all materials",
           "Burning all waste regardless of type"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The waste management hierarchy prioritizes prevention first, then reduction, reuse, recycling, recovery, with disposal as the last option."
       },
       {
@@ -3657,12 +3657,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 6,
         question: "What constitutional authority allows states to regulate land use?",
         options: [
-          "Police power to protect public health, safety, and welfare",
-          "Commerce power to regulate interstate trade",
           "Taxing power to raise revenue",
-          "War power for national defense"
+          "Police power to protect public health, safety, and welfare",
+          "War power for national defense",
+          "Commerce power to regulate interstate trade"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Police power allows states (and delegated local governments) to regulate land use to protect public health, safety, and general welfare."
       },
       {
@@ -3683,12 +3683,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 3,
         question: "What does 'congestion pricing' involve?",
         options: [
-          "Charging for driving in congested areas or during peak times",
-          "Making all transportation completely free",
           "Increasing taxes on public transit",
-          "Eliminating all road maintenance"
+          "Eliminating all road maintenance",
+          "Charging for driving in congested areas or during peak times",
+          "Making all transportation completely free"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Congestion pricing charges drivers for using roads in congested areas or during peak times to reduce traffic, manage demand, and generate revenue for transportation alternatives."
       },
       {
@@ -3696,12 +3696,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 4,
         question: "What does 'housing first' mean in supportive housing?",
         options: [
+          "Giving housing to the wealthiest people first",
           "Providing housing without preconditions like sobriety or treatment",
-          "Requiring people to solve all problems before getting housing",
           "Only providing housing after years on a waiting list",
-          "Giving housing to the wealthiest people first"
+          "Requiring people to solve all problems before getting housing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Housing first provides immediate access to permanent housing without preconditions like sobriety or participation in treatment programs, recognizing housing as a foundation for addressing other challenges."
       },
       {
@@ -3709,12 +3709,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 5,
         question: "What is a circular economy?",
         options: [
-          "Economic system that eliminates waste and continually uses resources",
-          "Economy that only produces circular products",
           "Traditional linear take-make-dispose system",
-          "Economy based solely on natural resource extraction"
+          "Economy based solely on natural resource extraction",
+          "Economy that only produces circular products",
+          "Economic system that eliminates waste and continually uses resources"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "A circular economy aims to eliminate waste and continually use resources through closed-loop systems, contrasting with traditional linear economies."
       },
       {
@@ -3722,12 +3722,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 6,
         question: "What is a 'regulatory taking' claim?",
         options: [
-          "Claim that a regulation goes too far and constitutes a taking requiring compensation",
           "Claim that government took property without any regulation",
           "Claim that regulations are always takings",
+          "Claim that a regulation goes too far and constitutes a taking requiring compensation",
           "Claim that only physical occupation constitutes a taking"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "A regulatory taking claim argues that a land use regulation goes so far in limiting property use that it effectively takes property requiring just compensation under the Fifth Amendment."
       },
       {
@@ -3735,12 +3735,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 1,
         question: "What does Transit-Oriented Development emphasize?",
         options: [
-          "Mixed-use development around transit stations to reduce automobile dependency",
-          "Building highways to connect distant suburbs",
           "Separating all land uses into distinct zones",
+          "Building highways to connect distant suburbs",
+          "Mixed-use development around transit stations to reduce automobile dependency",
           "Creating isolated residential enclaves"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Transit-Oriented Development emphasizes mixed-use, compact development around transit stations to create walkable neighborhoods and reduce automobile dependency."
       },
       {
@@ -3748,12 +3748,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 2,
         question: "What does 'social urbanism' integrate?",
         options: [
+          "Transportation systems without land use planning",
           "Physical interventions with social programs",
           "Only private development without public input",
-          "Architectural styles from different periods",
-          "Transportation systems without land use planning"
+          "Architectural styles from different periods"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Social urbanism, as practiced in Medellín, Colombia, integrates physical interventions (like cable cars and library parks) with social programs to address inequality and improve quality of life in marginalized areas."
       },
       {
@@ -3761,12 +3761,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 3,
         question: "What is a primary environmental benefit of active transportation?",
         options: [
-          "Reduced emissions from vehicle trips",
-          "Increased road construction for more lanes",
           "Higher energy consumption for transportation",
-          "More parking lots in urban areas"
+          "Increased road construction for more lanes",
+          "More parking lots in urban areas",
+          "Reduced emissions from vehicle trips"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Active transportation (walking and biking) reduces emissions from vehicle trips, improving air quality and contributing to climate change mitigation."
       },
       {
@@ -3774,12 +3774,12 @@ The American Institute of Certified Planners credential demonstrates professiona
         module: 4,
         question: "What does 'universal design' aim to achieve?",
         options: [
+          "Creating buildings that are difficult to use",
           "Accessibility for people of all ages and abilities",
           "Only designing for young, able-bodied people",
-          "Creating buildings that are difficult to use",
           "Designing without considering human needs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Universal design aims to create products and environments accessible to and usable by people of all ages and abilities to the greatest extent possible without adaptation."
       },
       {
@@ -3789,8 +3789,8 @@ The American Institute of Certified Planners credential demonstrates professiona
         options: [
           "Those causing pollution bear costs of mitigation",
           "Taxpayers always pay for pollution cleanup",
-          "Pollution costs are ignored completely",
-          "Only future generations pay for pollution"
+          "Only future generations pay for pollution",
+          "Pollution costs are ignored completely"
         ],
         correctAnswer: 0,
         explanation: "The polluter pays principle means those responsible for pollution should bear the costs of preventing, controlling, and cleaning up that pollution."

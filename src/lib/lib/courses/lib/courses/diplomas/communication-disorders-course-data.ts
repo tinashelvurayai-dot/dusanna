@@ -102,12 +102,12 @@ Understanding these foundations prepares you for specialized study of specific c
           id: 1,
           question: "What are the five primary categories of communication disorders?",
           options: [
-            "Speech sound, language, fluency, voice, and social communication disorders",
             "Only speech and language disorders",
-            "Developmental, acquired, progressive, functional disorders",
-            "Mild, moderate, severe, profound disorders"
+            "Speech sound, language, fluency, voice, and social communication disorders",
+            "Mild, moderate, severe, profound disorders",
+            "Developmental, acquired, progressive, functional disorders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The five primary categories are speech sound, language, fluency, voice, and social communication disorders."
         },
         {
@@ -115,9 +115,9 @@ Understanding these foundations prepares you for specialized study of specific c
           question: "What percentage of children have significant communication disorders?",
           options: [
             "5-10%",
-            "1-2%",
             "15-20%",
-            "Over 25%"
+            "Over 25%",
+            "1-2%"
           ],
           correctAnswer: 0,
           explanation: "Approximately 5-10% of children have significant communication disorders requiring intervention."
@@ -127,9 +127,9 @@ Understanding these foundations prepares you for specialized study of specific c
           question: "What is an acquired communication disorder?",
           options: [
             "Resulting from injury or illness after normal development",
-            "Present from early childhood",
             "Worsening over time",
-            "With no identifiable physical cause"
+            "With no identifiable physical cause",
+            "Present from early childhood"
           ],
           correctAnswer: 0,
           explanation: "Acquired disorders result from injury or illness after normal language development has occurred."
@@ -138,36 +138,36 @@ Understanding these foundations prepares you for specialized study of specific c
           id: 4,
           question: "What does 'beneficence' mean in ethical practice?",
           options: [
-            "Acting in the client's best interest",
             "Doing no harm",
+            "Acting in the client's best interest",
             "Respecting client choices",
             "Providing fair services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Beneficence means acting in ways that benefit the client and promote their well-being."
         },
         {
           id: 5,
           question: "What are the three components of evidence-based practice?",
           options: [
-            "Research evidence, clinical expertise, client values",
+            "Theory, research, practice",
             "Assessment, intervention, evaluation",
-            "Diagnosis, treatment, prevention",
-            "Theory, research, practice"
+            "Research evidence, clinical expertise, client values",
+            "Diagnosis, treatment, prevention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EBP integrates best research evidence, clinical expertise, and client values/preferences."
         },
         {
           id: 6,
           question: "What is a developmental disorder?",
           options: [
-            "Present from early childhood",
             "Resulting from brain injury",
             "Worsening with age",
+            "Present from early childhood",
             "Appearing suddenly in adulthood"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Developmental disorders are present from early childhood and affect development from the beginning."
         },
         {
@@ -176,8 +176,8 @@ Understanding these foundations prepares you for specialized study of specific c
           options: [
             "8-9%",
             "1-2%",
-            "15-20%",
-            "25-30%"
+            "25-30%",
+            "15-20%"
           ],
           correctAnswer: 0,
           explanation: "Speech sound disorders affect approximately 8-9% of young children."
@@ -186,48 +186,48 @@ Understanding these foundations prepares you for specialized study of specific c
           id: 8,
           question: "What does 'non-maleficence' mean?",
           options: [
-            "Do no harm",
-            "Act for good",
+            "Be truthful",
             "Respect autonomy",
-            "Be truthful"
+            "Do no harm",
+            "Act for good"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Non-maleficence is the ethical principle of avoiding harm to clients."
         },
         {
           id: 9,
           question: "What is the strongest level of evidence?",
           options: [
-            "Systematic reviews and meta-analyses",
+            "Personal experience",
             "Expert opinion",
             "Case studies",
-            "Personal experience"
+            "Systematic reviews and meta-analyses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Systematic reviews and meta-analyses provide the strongest level of research evidence."
         },
         {
           id: 10,
           question: "What are risk factors for communication disorders?",
           options: [
-            "Genetic factors, environmental factors, medical factors",
-            "Only genetic factors",
+            "Only medical factors",
             "Only environmental factors",
-            "Only medical factors"
+            "Genetic factors, environmental factors, medical factors",
+            "Only genetic factors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk factors include genetic, environmental, and medical factors that increase likelihood of disorders."
         },
         {
           id: 11,
           question: "What is a progressive disorder?",
           options: [
-            "Worsens over time",
+            "Appears suddenly",
             "Improves with age",
             "Stays the same",
-            "Appears suddenly"
+            "Worsens over time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Progressive disorders gradually worsen over time, such as in dementia or Parkinson's disease."
         },
         {
@@ -235,9 +235,9 @@ Understanding these foundations prepares you for specialized study of specific c
           question: "What does autonomy mean in ethics?",
           options: [
             "Respecting client choices and rights",
+            "Being fair to all",
             "Acting for client benefit",
-            "Avoiding harm",
-            "Being fair to all"
+            "Avoiding harm"
           ],
           correctAnswer: 0,
           explanation: "Autonomy means respecting clients' right to make their own decisions about their care."
@@ -246,96 +246,96 @@ Understanding these foundations prepares you for specialized study of specific c
           id: 13,
           question: "What is included in scope of practice?",
           options: [
-            "Assessment, diagnosis, treatment planning",
             "Only assessment",
             "Only treatment",
+            "Assessment, diagnosis, treatment planning",
             "Only counseling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scope includes assessment, diagnosis, treatment planning, implementation, and counseling."
         },
         {
           id: 14,
           question: "What are co-occurring conditions with communication disorders?",
           options: [
-            "ADHD, learning disabilities, autism",
             "Only autism",
+            "ADHD, learning disabilities, autism",
             "Only learning disabilities",
             "No other conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Communication disorders often co-occur with ADHD, learning disabilities, and autism spectrum disorder."
         },
         {
           id: 15,
           question: "What does 'veracity' mean?",
           options: [
-            "Being truthful and honest",
+            "Respecting choices",
             "Acting for good",
-            "Avoiding harm",
-            "Respecting choices"
+            "Being truthful and honest",
+            "Avoiding harm"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Veracity means being truthful and honest in all professional interactions."
         },
         {
           id: 16,
           question: "What is interprofessional collaboration?",
           options: [
-            "Working with other professionals as a team",
-            "Working alone",
+            "Without client involvement",
             "Only with speech therapists",
-            "Without client involvement"
+            "Working with other professionals as a team",
+            "Working alone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Interprofessional collaboration involves team-based approaches with various professionals."
         },
         {
           id: 17,
           question: "What percentage of population stutters?",
           options: [
-            "About 1%",
             "About 5%",
+            "About 15%",
             "About 10%",
-            "About 15%"
+            "About 1%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stuttering affects approximately 1% of the population worldwide."
         },
         {
           id: 18,
           question: "What is a functional disorder?",
           options: [
-            "No identifiable physical cause",
-            "Caused by brain injury",
+            "Progressive in nature",
             "Genetic in origin",
-            "Progressive in nature"
+            "Caused by brain injury",
+            "No identifiable physical cause"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Functional disorders have no identifiable physical or neurological cause."
         },
         {
           id: 19,
           question: "What does 'justice' mean in ethics?",
           options: [
+            "Being truthful",
             "Providing fair and equitable services",
-            "Acting for benefit",
             "Avoiding harm",
-            "Being truthful"
+            "Acting for benefit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Justice means providing services fairly and equitably to all clients."
         },
         {
           id: 20,
           question: "What is the first step in implementing EBP?",
           options: [
+            "Evaluating outcomes",
             "Asking relevant clinical questions",
-            "Searching databases",
             "Applying findings",
-            "Evaluating outcomes"
+            "Searching databases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The first step is asking specific, answerable clinical questions based on client needs."
         }
       ]
@@ -465,12 +465,12 @@ Understanding language disorders across the lifespan requires consideration of d
           id: 1,
           question: "What is Developmental Language Disorder (DLD)?",
           options: [
-            "Persistent language difficulty not explained by other conditions",
-            "Temporary language delay",
             "Only articulation problems",
+            "Temporary language delay",
+            "Persistent language difficulty not explained by other conditions",
             "Caused by hearing loss only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DLD is a persistent difficulty with language that cannot be explained by other conditions."
         },
         {
@@ -478,9 +478,9 @@ Understanding language disorders across the lifespan requires consideration of d
           question: "What characterizes Broca's aphasia?",
           options: [
             "Non-fluent, effortful speech with preserved comprehension",
-            "Fluent but meaningless speech",
+            "Only word-finding difficulty",
             "Severe impairments in both areas",
-            "Only word-finding difficulty"
+            "Fluent but meaningless speech"
           ],
           correctAnswer: 0,
           explanation: "Broca's aphasia features non-fluent, effortful speech with relatively preserved comprehension."
@@ -489,144 +489,144 @@ Understanding language disorders across the lifespan requires consideration of d
           id: 3,
           question: "What is dyslexia?",
           options: [
-            "Difficulty with reading and spelling",
-            "Difficulty with math only",
             "General learning disability",
-            "Speech sound disorder"
+            "Difficulty with math only",
+            "Speech sound disorder",
+            "Difficulty with reading and spelling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Dyslexia is a specific learning disability affecting reading and spelling skills."
         },
         {
           id: 4,
           question: "What is Primary Progressive Aphasia?",
           options: [
-            "Gradual loss of language skills over time",
-            "Sudden language loss from stroke",
             "Childhood language disorder",
-            "Temporary language difficulty"
+            "Gradual loss of language skills over time",
+            "Temporary language difficulty",
+            "Sudden language loss from stroke"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PPA involves gradual deterioration of language abilities while other cognitive functions may be preserved."
         },
         {
           id: 5,
           question: "What should be assessed in multilingual clients?",
           options: [
-            "All languages the client uses",
             "Only the dominant language",
-            "Only English",
-            "No language assessment needed"
+            "All languages the client uses",
+            "No language assessment needed",
+            "Only English"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "All languages a client uses should be assessed to understand their complete language profile."
         },
         {
           id: 6,
           question: "What characterizes Wernicke's aphasia?",
           options: [
-            "Fluent but meaningless speech with comprehension deficits",
             "Non-fluent speech with good comprehension",
             "Global language impairment",
-            "Only repetition difficulties"
+            "Only repetition difficulties",
+            "Fluent but meaningless speech with comprehension deficits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Wernicke's aphasia features fluent but often meaningless speech with significant comprehension problems."
         },
         {
           id: 7,
           question: "What is a common accommodation for dyslexia?",
           options: [
-            "Audiobooks and text-to-speech software",
-            "No accommodations needed",
             "Only speech therapy",
-            "Medication only"
+            "Medication only",
+            "Audiobooks and text-to-speech software",
+            "No accommodations needed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Audiobooks and text-to-speech software help bypass reading difficulties for students with dyslexia."
         },
         {
           id: 8,
           question: "What happens in right hemisphere language disorders?",
           options: [
-            "Pragmatic language deficits",
-            "Only articulation problems",
+            "No language effects",
             "Only vocabulary deficits",
-            "No language effects"
+            "Only articulation problems",
+            "Pragmatic language deficits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right hemisphere disorders typically affect pragmatic language, inference, and discourse skills."
         },
         {
           id: 9,
           question: "What is global aphasia?",
           options: [
-            "Severe impairments in both expression and comprehension",
             "Only mild word-finding difficulty",
             "Only fluency problems",
-            "Only reading difficulties"
+            "Only reading difficulties",
+            "Severe impairments in both expression and comprehension"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Global aphasia involves severe deficits in both language expression and comprehension."
         },
         {
           id: 10,
           question: "What should be ruled out for DLD diagnosis?",
           options: [
+            "No conditions need ruling out",
             "Hearing loss, intellectual disability, autism",
             "Only hearing loss",
-            "Only autism",
-            "No conditions need ruling out"
+            "Only autism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "DLD diagnosis requires ruling out hearing loss, intellectual disability, autism, and other conditions."
         },
         {
           id: 11,
           question: "What is dysgraphia?",
           options: [
-            "Problems with written expression",
-            "Reading difficulties only",
+            "Speech difficulties only",
             "Math difficulties only",
-            "Speech difficulties only"
+            "Problems with written expression",
+            "Reading difficulties only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dysgraphia is a specific learning disability affecting written expression skills."
         },
         {
           id: 12,
           question: "What characterizes anomic aphasia?",
           options: [
-            "Primary difficulty with word finding",
+            "Complete language loss",
             "Severe comprehension problems",
             "Fluency without content",
-            "Complete language loss"
+            "Primary difficulty with word finding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Anomic aphasia primarily involves word-finding difficulties with relatively preserved other language skills."
         },
         {
           id: 13,
           question: "What is included in language-based learning disabilities?",
           options: [
-            "Phonological processing deficits",
+            "Only fluency issues",
             "Only articulation errors",
             "Only voice problems",
-            "Only fluency issues"
+            "Phonological processing deficits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Language-based learning disabilities include phonological processing, rapid naming, and working memory deficits."
         },
         {
           id: 14,
           question: "What happens in dementia-related language changes?",
           options: [
+            "No language changes",
             "Word-finding difficulties early in disease",
             "Improved language skills",
-            "No language changes",
             "Only articulation problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Early dementia often shows word-finding difficulties before more comprehensive language deterioration."
         },
         {
@@ -634,9 +634,9 @@ Understanding language disorders across the lifespan requires consideration of d
           question: "Why consider cultural communication styles?",
           options: [
             "To respect and work within client's cultural framework",
-            "To change client's style",
             "To ignore cultural differences",
-            "To standardize all approaches"
+            "To standardize all approaches",
+            "To change client's style"
           ],
           correctAnswer: 0,
           explanation: "Considering cultural communication styles ensures interventions are respectful and effective for each client."
@@ -645,48 +645,48 @@ Understanding language disorders across the lifespan requires consideration of d
           id: 16,
           question: "What characterizes conduction aphasia?",
           options: [
+            "Only fluency problems",
             "Difficulty with repetition despite good comprehension",
-            "No repetition problems",
             "Only comprehension deficits",
-            "Only fluency problems"
+            "No repetition problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Conduction aphasia primarily affects repetition abilities while comprehension remains relatively intact."
         },
         {
           id: 17,
           question: "What intervention focuses on progressive disorders?",
           options: [
-            "Maintaining functional communication",
-            "Curing the disorder",
+            "Avoiding all communication",
             "Only speech exercises",
-            "Avoiding all communication"
+            "Curing the disorder",
+            "Maintaining functional communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "For progressive disorders, intervention focuses on maintaining functional communication as long as possible."
         },
         {
           id: 18,
           question: "What is a common TBI effect on communication?",
           options: [
+            "Only fluency improvements",
             "Executive function impairments affecting communication",
-            "No communication effects",
             "Only voice changes",
-            "Only fluency improvements"
+            "No communication effects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "TBI often affects executive functions which in turn impact communication initiation, organization, and monitoring."
         },
         {
           id: 19,
           question: "What should intervention respect in multilingual clients?",
           options: [
+            "School language only",
             "Family language preferences",
-            "Only English preference",
             "Therapist's language preference",
-            "School language only"
+            "Only English preference"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Intervention should respect and work within the family's language preferences and patterns."
         },
         {
@@ -694,9 +694,9 @@ Understanding language disorders across the lifespan requires consideration of d
           question: "What is included in DLD core characteristics?",
           options: [
             "Limited vocabulary and grammar difficulties",
+            "Only hearing issues",
             "Only articulation errors",
-            "Only voice problems",
-            "Only hearing issues"
+            "Only voice problems"
           ],
           correctAnswer: 0,
           explanation: "DLD core characteristics include limited vocabulary, grammar difficulties, word retrieval problems, and narrative challenges."
@@ -851,12 +851,12 @@ Understanding the neurological bases and specific characteristics of motor speec
           id: 1,
           question: "What is Childhood Apraxia of Speech (CAS)?",
           options: [
-            "Difficulty planning speech movements",
-            "Muscle weakness affecting speech",
             "Rapid disorganized speech",
-            "Fluency disruptions"
+            "Difficulty planning speech movements",
+            "Fluency disruptions",
+            "Muscle weakness affecting speech"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CAS is a neurological disorder affecting the brain's ability to plan and program speech movements."
         },
         {
@@ -864,9 +864,9 @@ Understanding the neurological bases and specific characteristics of motor speec
           question: "What characterizes flaccid dysarthria?",
           options: [
             "Muscle weakness causing breathy voice",
-            "Muscle stiffness causing strained voice",
+            "Reduced movement causing soft voice",
             "Coordination problems causing irregular speech",
-            "Reduced movement causing soft voice"
+            "Muscle stiffness causing strained voice"
           ],
           correctAnswer: 0,
           explanation: "Flaccid dysarthria results from muscle weakness, causing breathiness, nasal emission, and imprecise consonants."
@@ -875,60 +875,60 @@ Understanding the neurological bases and specific characteristics of motor speec
           id: 3,
           question: "What are core features of stuttering?",
           options: [
-            "Sound repetitions, prolongations, blocks",
-            "Only fast speech rate",
             "Only voice problems",
-            "Only language formulation issues"
+            "Only fast speech rate",
+            "Only language formulation issues",
+            "Sound repetitions, prolongations, blocks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Core stuttering features include repetitions, prolongations, blocks, and associated physical behaviors."
         },
         {
           id: 4,
           question: "What characterizes cluttering?",
           options: [
-            "Rapid, disorganized speech affecting clarity",
-            "Only slow speech",
             "Only articulation errors",
-            "Only voice disorders"
+            "Only voice disorders",
+            "Only slow speech",
+            "Rapid, disorganized speech affecting clarity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cluttering involves excessively fast or irregular speech rate with poor language organization."
         },
         {
           id: 5,
           question: "What is spastic dysarthria?",
           options: [
+            "Excess movements",
             "Muscle stiffness causing strained voice and slow rate",
-            "Muscle weakness causing breathiness",
             "Coordination problems",
-            "Excess movements"
+            "Muscle weakness causing breathiness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Spastic dysarthria results from muscle stiffness, causing strained voice, slow rate, and imprecise articulation."
         },
         {
           id: 6,
           question: "What is included in CAS characteristics?",
           options: [
-            "Inconsistent errors and speech coordination difficulties",
-            "Only voice problems",
             "Only language issues",
-            "Only fluency problems"
+            "Only fluency problems",
+            "Only voice problems",
+            "Inconsistent errors and speech coordination difficulties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CAS features inconsistent errors, coordination difficulties, groping movements, and prosodic abnormalities."
         },
         {
           id: 7,
           question: "What is ataxic dysarthria?",
           options: [
-            "Coordination problems causing irregular speech",
-            "Muscle weakness",
             "Muscle stiffness",
+            "Muscle weakness",
+            "Coordination problems causing irregular speech",
             "Reduced movement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ataxic dysarthria results from cerebellar damage, causing irregular speech breakdowns and loudness variations."
         },
         {
@@ -937,8 +937,8 @@ Understanding the neurological bases and specific characteristics of motor speec
           options: [
             "Begins in childhood, most common type",
             "Begins in adulthood from injury",
-            "Caused by psychological factors",
-            "Temporary fluency issue"
+            "Temporary fluency issue",
+            "Caused by psychological factors"
           ],
           correctAnswer: 0,
           explanation: "Developmental stuttering begins in childhood and is the most common form of stuttering."
@@ -949,8 +949,8 @@ Understanding the neurological bases and specific characteristics of motor speec
           options: [
             "Less tension and better structured speech",
             "More tension and struggle",
-            "Same characteristics",
-            "No differences exist"
+            "No differences exist",
+            "Same characteristics"
           ],
           correctAnswer: 0,
           explanation: "Cluttering typically shows less tension/struggle and better fluency in structured situations than stuttering."
@@ -959,96 +959,96 @@ Understanding the neurological bases and specific characteristics of motor speec
           id: 10,
           question: "What is hypokinetic dysarthria?",
           options: [
-            "Reduced movement causing soft, rapid speech",
             "Excess movement causing variable speech",
+            "Coordination problems",
             "Muscle weakness",
-            "Coordination problems"
+            "Reduced movement causing soft, rapid speech"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hypokinetic dysarthria, seen in Parkinson's, features reduced movement causing soft voice, rapid rate, and blurred articulation."
         },
         {
           id: 11,
           question: "What assessment is important for CAS?",
           options: [
+            "Only language test",
             "Speech motor planning evaluation",
             "Only hearing test",
-            "Only language test",
             "Only voice assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CAS assessment requires specific evaluation of speech motor planning and programming abilities."
         },
         {
           id: 12,
           question: "What is hyperkinetic dysarthria?",
           options: [
-            "Excess movement causing variable speech",
-            "Reduced movement",
             "Muscle weakness",
-            "Coordination problems"
+            "Excess movement causing variable speech",
+            "Coordination problems",
+            "Reduced movement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hyperkinetic dysarthria involves excess involuntary movements causing variable rate, loudness, and articulation."
         },
         {
           id: 13,
           question: "What are treatment approaches for stuttering?",
           options: [
+            "Only ignoring it",
             "Fluency shaping and stuttering modification",
             "Only medication",
-            "Only surgery",
-            "Only ignoring it"
+            "Only surgery"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stuttering treatment includes fluency shaping techniques and stuttering modification strategies."
         },
         {
           id: 14,
           question: "What is a compensatory strategy for dysarthria?",
           options: [
-            "Rate control techniques",
             "Speaking faster",
+            "Rate control techniques",
             "Ignoring the problem",
             "Only using medication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rate control is a common compensatory strategy to improve speech intelligibility in dysarthria."
         },
         {
           id: 15,
           question: "What characterizes acquired stuttering?",
           options: [
+            "Only in elderly",
             "Begins in adulthood from neurological event",
             "Begins in childhood",
-            "Temporary condition",
-            "Only in elderly"
+            "Temporary condition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Acquired stuttering begins in adulthood, often following neurological events like stroke or brain injury."
         },
         {
           id: 16,
           question: "What is included in AAC options?",
           options: [
-            "Communication boards and speech-generating devices",
+            "Only writing",
             "Only verbal speech",
             "Only sign language",
-            "Only writing"
+            "Communication boards and speech-generating devices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "AAC includes various options from no-tech gestures to high-tech speech-generating devices."
         },
         {
           id: 17,
           question: "What is neurogenic stuttering?",
           options: [
-            "Related to neurological conditions",
-            "Psychological in origin",
             "Developmental only",
-            "Temporary only"
+            "Psychological in origin",
+            "Temporary only",
+            "Related to neurological conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Neurogenic stuttering results from neurological conditions or damage affecting fluency mechanisms."
         },
         {
@@ -1056,8 +1056,8 @@ Understanding the neurological bases and specific characteristics of motor speec
           question: "What helps with cluttering intervention?",
           options: [
             "Rate control and language organization training",
-            "Only fluency techniques",
             "Only voice therapy",
+            "Only fluency techniques",
             "Only articulation practice"
           ],
           correctAnswer: 0,
@@ -1067,24 +1067,24 @@ Understanding the neurological bases and specific characteristics of motor speec
           id: 19,
           question: "What is mixed dysarthria?",
           options: [
-            "Combination of different dysarthria types",
+            "Mild form only",
             "Only one type present",
-            "Temporary condition",
-            "Mild form only"
+            "Combination of different dysarthria types",
+            "Temporary condition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Mixed dysarthria involves characteristics of more than one type of dysarthria occurring together."
         },
         {
           id: 20,
           question: "What is important for communication partner training?",
           options: [
-            "Active listening and appropriate wait time",
             "Correcting all errors",
+            "Active listening and appropriate wait time",
             "Speaking for the person",
             "Ignoring difficulties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Communication partners should learn active listening, appropriate wait time, and confirmation strategies."
         }
       ]
@@ -1258,12 +1258,12 @@ Understanding the complex interplay between structure, function, and behavior in
           id: 1,
           question: "What are the three subsystems of voice production?",
           options: [
-            "Respiratory, phonatory, resonatory systems",
-            "Only respiratory system",
+            "Brain, lungs, mouth only",
             "Only phonatory system",
-            "Brain, lungs, mouth only"
+            "Respiratory, phonatory, resonatory systems",
+            "Only respiratory system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Voice production involves respiratory (power), phonatory (sound), and resonatory (filter) systems working together."
         },
         {
@@ -1271,9 +1271,9 @@ Understanding the complex interplay between structure, function, and behavior in
           question: "What is Muscle Tension Dysphonia (MTD)?",
           options: [
             "Excessive muscle tension during phonation",
-            "Vocal fold paralysis",
             "Nasal resonance problems",
-            "Only psychological disorder"
+            "Only psychological disorder",
+            "Vocal fold paralysis"
           ],
           correctAnswer: 0,
           explanation: "MTD involves excessive muscle tension during voice production, often without structural abnormalities."
@@ -1284,8 +1284,8 @@ Understanding the complex interplay between structure, function, and behavior in
           options: [
             "Callous-like growths from phonotrauma",
             "Fluid-filled lesions from acute trauma",
-            "Inflammatory masses from reflux",
-            "Diffuse swelling from irritation"
+            "Diffuse swelling from irritation",
+            "Inflammatory masses from reflux"
           ],
           correctAnswer: 0,
           explanation: "Nodules are callous-like bilateral growths typically resulting from chronic vocal misuse/abuse."
@@ -1294,12 +1294,12 @@ Understanding the complex interplay between structure, function, and behavior in
           id: 4,
           question: "What is hypernasality?",
           options: [
-            "Excessive nasal resonance on oral sounds",
+            "Only voice loudness issue",
             "Reduced nasal resonance",
-            "Normal resonance",
-            "Only voice loudness issue"
+            "Excessive nasal resonance on oral sounds",
+            "Normal resonance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Hypernasality involves inappropriate nasal resonance on sounds that should be oral only."
         },
         {
@@ -1318,12 +1318,12 @@ Understanding the complex interplay between structure, function, and behavior in
           id: 6,
           question: "What is vocal fold paralysis?",
           options: [
-            "Impaired nerve function affecting movement",
             "Muscle tension only",
-            "Temporary voice loss",
-            "Only pitch problems"
+            "Impaired nerve function affecting movement",
+            "Only pitch problems",
+            "Temporary voice loss"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vocal fold paralysis results from impaired nerve function preventing normal vocal fold movement."
         },
         {
@@ -1331,9 +1331,9 @@ Understanding the complex interplay between structure, function, and behavior in
           question: "What is hyponasality?",
           options: [
             "Reduced nasal resonance on nasal sounds",
+            "Only voice quality issue",
             "Excessive nasal resonance",
-            "Normal nasal resonance",
-            "Only voice quality issue"
+            "Normal nasal resonance"
           ],
           correctAnswer: 0,
           explanation: "Hyponasality involves reduced nasal resonance on sounds that should have nasal resonance."
@@ -1342,24 +1342,24 @@ Understanding the complex interplay between structure, function, and behavior in
           id: 8,
           question: "What is included in GRBAS scale?",
           options: [
-            "Grade, Roughness, Breathiness, Asthenia, Strain",
-            "Only Grade and Roughness",
             "Only loudness measures",
+            "Only Grade and Roughness",
+            "Grade, Roughness, Breathiness, Asthenia, Strain",
             "Only pitch measures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GRBAS scale assesses Grade, Roughness, Breathiness, Asthenia, and Strain in perceptual voice evaluation."
         },
         {
           id: 9,
           question: "What are vocal fold polyps?",
           options: [
-            "Fluid-filled lesions often from acute trauma",
+            "Diffuse swelling",
             "Callous-like growths",
             "Inflammatory masses",
-            "Diffuse swelling"
+            "Fluid-filled lesions often from acute trauma"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Polyps are typically unilateral, fluid-filled lesions often resulting from acute vocal trauma."
         },
         {
@@ -1367,9 +1367,9 @@ Understanding the complex interplay between structure, function, and behavior in
           question: "What is spasmodic dysphonia?",
           options: [
             "Task-specific dystonia affecting voice",
+            "Only in children",
             "Muscle tension only",
-            "Temporary disorder",
-            "Only in children"
+            "Temporary disorder"
           ],
           correctAnswer: 0,
           explanation: "Spasmodic dysphonia is a neurological disorder causing task-specific voice disruptions."
@@ -1378,48 +1378,48 @@ Understanding the complex interplay between structure, function, and behavior in
           id: 11,
           question: "What is resonant voice therapy?",
           options: [
-            "Focus on forward, easy vocal resonance",
+            "Only breathing exercises",
             "Only loud voice training",
             "Only pitch exercises",
-            "Only breathing exercises"
+            "Focus on forward, easy vocal resonance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resonant voice therapy focuses on achieving forward, easy vocal production with minimal effort."
         },
         {
           id: 12,
           question: "What causes hypernasality?",
           options: [
-            "Velopharyngeal insufficiency/incompetence",
             "Nasal obstruction only",
+            "Only breathing issues",
             "Vocal fold problems",
-            "Only breathing issues"
+            "Velopharyngeal insufficiency/incompetence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hypernasality typically results from velopharyngeal insufficiency allowing inappropriate nasal air escape."
         },
         {
           id: 13,
           question: "What is psychogenic voice disorder?",
           options: [
+            "Temporary hoarseness",
             "Conversion disorder affecting voice",
             "Only physical problem",
-            "Temporary hoarseness",
             "Only in singers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Psychogenic voice disorders involve voice symptoms related to psychological factors without physical pathology."
         },
         {
           id: 14,
           question: "What is LSVT?",
           options: [
-            "Lee Silverman Voice Treatment for Parkinson's",
+            "Temporary treatment",
             "Only for children",
-            "Only for singers",
-            "Temporary treatment"
+            "Lee Silverman Voice Treatment for Parkinson's",
+            "Only for singers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "LSVT is an intensive voice treatment specifically developed for Parkinson's disease."
         },
         {
@@ -1427,9 +1427,9 @@ Understanding the complex interplay between structure, function, and behavior in
           question: "What is cul-de-sac resonance?",
           options: [
             "Sound trapped in pharyngeal or oral cavities",
+            "Only loud voice",
             "Normal resonance",
-            "Only nasal resonance",
-            "Only loud voice"
+            "Only nasal resonance"
           ],
           correctAnswer: 0,
           explanation: "Cul-de-sac resonance occurs when sound is trapped, creating a muffled vocal quality."
@@ -1438,60 +1438,60 @@ Understanding the complex interplay between structure, function, and behavior in
           id: 16,
           question: "What is vocal hygiene education?",
           options: [
-            "Teaching healthy voice use habits",
-            "Only medical treatment",
             "Only surgery information",
-            "Only voice exercises"
+            "Only voice exercises",
+            "Teaching healthy voice use habits",
+            "Only medical treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vocal hygiene education involves teaching behaviors that promote vocal health and prevent injury."
         },
         {
           id: 17,
           question: "What is included in case history for voice?",
           options: [
-            "Onset, vocal use patterns, medical history",
+            "Only school history",
             "Only current symptoms",
             "Only family history",
-            "Only school history"
+            "Onset, vocal use patterns, medical history"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Comprehensive case history includes onset, vocal demands, medical factors, and impact on life."
         },
         {
           id: 18,
           question: "What is presbyphonia?",
           options: [
-            "Aging-related voice changes",
             "Only childhood disorder",
             "Temporary condition",
-            "Only in males"
+            "Only in males",
+            "Aging-related voice changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Presbyphonia refers to voice changes associated with normal aging processes."
         },
         {
           id: 19,
           question: "What is semi-occluded vocal tract exercise?",
           options: [
-            "Using straws or lip trills for voice training",
             "Only loud speaking",
-            "Only whispering",
-            "Only singing"
+            "Using straws or lip trills for voice training",
+            "Only singing",
+            "Only whispering"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Semi-occluded exercises use partial blockage (straws, trills) to improve vocal efficiency."
         },
         {
           id: 20,
           question: "What is mixed resonance disorder?",
           options: [
-            "Combination of hypernasality and hyponasality",
-            "Only hypernasality",
+            "Normal resonance",
             "Only hyponasality",
-            "Normal resonance"
+            "Only hypernasality",
+            "Combination of hypernasality and hyponasality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mixed resonance involves characteristics of both hypernasality and hyponasality."
         }
       ]
@@ -1660,72 +1660,72 @@ Effective intervention for social communication disorders requires comprehensive
           id: 1,
           question: "What is Social Communication Disorder (SCD)?",
           options: [
-            "Difficulties with social use of communication",
             "Only articulation problems",
+            "Difficulties with social use of communication",
             "Only language structure issues",
             "Temporary condition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SCD involves persistent difficulties with the social use of verbal and nonverbal communication."
         },
         {
           id: 2,
           question: "How does SCD differ from ASD?",
           options: [
-            "SCD does not include restricted/repetitive behaviors",
-            "No differences exist",
+            "SCD includes motor problems",
             "SCD is more severe",
-            "SCD includes motor problems"
+            "SCD does not include restricted/repetitive behaviors",
+            "No differences exist"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SCD is differentiated from ASD by the absence of restricted, repetitive behaviors."
         },
         {
           id: 3,
           question: "What are social communication characteristics in ASD?",
           options: [
-            "Difficulties with social-emotional reciprocity",
-            "Perfect social skills",
             "Only language delay",
-            "Only articulation problems"
+            "Only articulation problems",
+            "Perfect social skills",
+            "Difficulties with social-emotional reciprocity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ASD social communication challenges include difficulties with social-emotional reciprocity."
         },
         {
           id: 4,
           question: "What is echolalia?",
           options: [
-            "Repetition of others' speech",
-            "Original language only",
             "No speech production",
-            "Only whispered speech"
+            "Only whispered speech",
+            "Original language only",
+            "Repetition of others' speech"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Echolalia involves immediate or delayed repetition of words or phrases heard from others."
         },
         {
           id: 5,
           question: "What is included in SCD core deficits?",
           options: [
-            "Using communication appropriately for social purposes",
             "Only articulation skills",
             "Only vocabulary knowledge",
+            "Using communication appropriately for social purposes",
             "Only grammar skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SCD affects using communication for social purposes and adapting to different contexts."
         },
         {
           id: 6,
           question: "What are NDBI approaches?",
           options: [
-            "Naturalistic Developmental Behavioral Interventions",
-            "Only clinical therapy",
             "Only medication",
-            "Only school-based"
+            "Only school-based",
+            "Naturalistic Developmental Behavioral Interventions",
+            "Only clinical therapy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NDBI embeds intervention in natural environments following child's interests."
         },
         {
@@ -1734,8 +1734,8 @@ Effective intervention for social communication disorders requires comprehensive
           options: [
             "Advanced vocabulary with pragmatic difficulties",
             "No language skills",
-            "Perfect language only",
-            "Only articulation errors"
+            "Only articulation errors",
+            "Perfect language only"
           ],
           correctAnswer: 0,
           explanation: "Verbal individuals with ASD may have advanced vocabulary but pragmatic language difficulties."
@@ -1746,8 +1746,8 @@ Effective intervention for social communication disorders requires comprehensive
           options: [
             "Customized stories explaining social situations",
             "Regular story books",
-            "Only fiction stories",
-            "Only academic stories"
+            "Only academic stories",
+            "Only fiction stories"
           ],
           correctAnswer: 0,
           explanation: "Social Stories are personalized narratives that explain social situations and expectations."
@@ -1757,8 +1757,8 @@ Effective intervention for social communication disorders requires comprehensive
           question: "What is included in comprehensive evaluation?",
           options: [
             "Observation, standardized tests, parent interviews",
-            "Only observation",
             "Only tests",
+            "Only observation",
             "Only interviews"
           ],
           correctAnswer: 0,
@@ -1768,12 +1768,12 @@ Effective intervention for social communication disorders requires comprehensive
           id: 10,
           question: "What is peer-mediated intervention?",
           options: [
-            "Training peers to support social interaction",
             "Only adult-led therapy",
             "Only individual therapy",
+            "Training peers to support social interaction",
             "Only group therapy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Peer-mediated interventions involve training typically developing peers to support social interaction."
         },
         {
@@ -1781,8 +1781,8 @@ Effective intervention for social communication disorders requires comprehensive
           question: "What are restricted/repetitive behaviors in ASD?",
           options: [
             "Insistence on sameness, fixated interests",
-            "Only social problems",
             "Only communication issues",
+            "Only social problems",
             "No specific behaviors"
           ],
           correctAnswer: 0,
@@ -1793,8 +1793,8 @@ Effective intervention for social communication disorders requires comprehensive
           question: "What is video modeling?",
           options: [
             "Watching and imitating social behaviors",
-            "Only watching videos",
             "Only making videos",
+            "Only watching videos",
             "Only entertainment"
           ],
           correctAnswer: 0,
@@ -1804,36 +1804,36 @@ Effective intervention for social communication disorders requires comprehensive
           id: 13,
           question: "What is included in AAC options for ASD?",
           options: [
-            "Picture exchange, communication devices, sign language",
-            "Only verbal speech",
             "Only writing",
-            "Only listening"
+            "Picture exchange, communication devices, sign language",
+            "Only listening",
+            "Only verbal speech"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "AAC options range from unaided methods like sign language to high-tech speech-generating devices."
         },
         {
           id: 14,
           question: "What is parent-mediated intervention?",
           options: [
-            "Coaching parents in interaction strategies",
             "Only child therapy",
+            "Coaching parents in interaction strategies",
             "Only parent therapy",
             "Only school therapy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Parent-mediated interventions involve coaching parents to use strategies during daily interactions."
         },
         {
           id: 15,
           question: "What is included in transition planning?",
           options: [
-            "Developing self-advocacy and independent living skills",
             "Only academic skills",
-            "Only therapy skills",
-            "Only childhood skills"
+            "Only childhood skills",
+            "Developing self-advocacy and independent living skills",
+            "Only therapy skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transition planning addresses self-advocacy, independent living, employment, and community participation."
         },
         {
@@ -1841,9 +1841,9 @@ Effective intervention for social communication disorders requires comprehensive
           question: "What is the Social Thinking Curriculum?",
           options: [
             "Teaching social cognitive concepts",
+            "Only therapy exercises",
             "Only behavior management",
-            "Only academic curriculum",
-            "Only therapy exercises"
+            "Only academic curriculum"
           ],
           correctAnswer: 0,
           explanation: "Social Thinking Curriculum teaches understanding of social situations and perspective-taking."
@@ -1854,8 +1854,8 @@ Effective intervention for social communication disorders requires comprehensive
           options: [
             "Evaluation of communication needs and system trials",
             "Only hearing test",
-            "Only speech test",
-            "Only language test"
+            "Only language test",
+            "Only speech test"
           ],
           correctAnswer: 0,
           explanation: "AAC assessment evaluates needs, trials systems, and considers abilities and preferences."
@@ -1864,12 +1864,12 @@ Effective intervention for social communication disorders requires comprehensive
           id: 18,
           question: "What are visual supports?",
           options: [
-            "Schedules, choice boards, activity sequences",
-            "Only pictures",
+            "Only numbers",
             "Only words",
-            "Only numbers"
+            "Schedules, choice boards, activity sequences",
+            "Only pictures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Visual supports include various tools that use visual information to support understanding."
         },
         {
@@ -1889,9 +1889,9 @@ Effective intervention for social communication disorders requires comprehensive
           question: "What is included in adult services for ASD?",
           options: [
             "Employment supports and community integration",
-            "Only childhood therapy",
+            "Only medical care",
             "Only school services",
-            "Only medical care"
+            "Only childhood therapy"
           ],
           correctAnswer: 0,
           explanation: "Adult services focus on employment, independent living, community participation, and quality of life."
@@ -2091,204 +2091,204 @@ Effective clinical management combines technical expertise with professional ski
           id: 1,
           question: "What are SMART goals?",
           options: [
-            "Specific, Measurable, Achievable, Relevant, Time-bound",
-            "Simple, Moderate, Average, Regular, Temporary",
             "Standard, Medical, Academic, Research, Therapy",
-            "Speech, Motor, Articulation, Resonance, Timing"
+            "Speech, Motor, Articulation, Resonance, Timing",
+            "Specific, Measurable, Achievable, Relevant, Time-bound",
+            "Simple, Moderate, Average, Regular, Temporary"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound objectives."
         },
         {
           id: 2,
           question: "What is dynamic assessment?",
           options: [
-            "Test-teach-retest methodology assessing learning potential",
+            "Only parent report",
             "Only standardized testing",
-            "Only observation",
-            "Only parent report"
+            "Test-teach-retest methodology assessing learning potential",
+            "Only observation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dynamic assessment evaluates learning potential through test-teach-retest approaches."
         },
         {
           id: 3,
           question: "What are components of treatment plans?",
           options: [
-            "Goals, objectives, approaches, measurement criteria",
             "Only diagnosis",
+            "Goals, objectives, approaches, measurement criteria",
             "Only test scores",
             "Only session times"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Treatment plans include goals, objectives, intervention approaches, and measurement criteria."
         },
         {
           id: 4,
           question: "What is telepractice?",
           options: [
-            "Remote service delivery via technology",
             "Only in-person therapy",
-            "Only group therapy",
-            "Only school-based"
+            "Only school-based",
+            "Remote service delivery via technology",
+            "Only group therapy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Telepractice involves delivering services remotely using telecommunications technology."
         },
         {
           id: 5,
           question: "What does SOAP stand for in documentation?",
           options: [
-            "Subjective, Objective, Assessment, Plan",
             "Speech, Observation, Analysis, Plan",
+            "Subjective, Observation, Analysis, Progress",
             "Summary, Objective, Assessment, Progress",
-            "Subjective, Observation, Analysis, Progress"
+            "Subjective, Objective, Assessment, Plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SOAP notes include Subjective, Objective, Assessment, and Plan sections."
         },
         {
           id: 6,
           question: "What is functional communication assessment?",
           options: [
-            "Analysis of real-world communication needs",
             "Only test administration",
-            "Only standardized scores",
-            "Only clinic-based assessment"
+            "Only clinic-based assessment",
+            "Analysis of real-world communication needs",
+            "Only standardized scores"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Functional assessment evaluates communication needs in real-life contexts and environments."
         },
         {
           id: 7,
           question: "What are client-centered goals?",
           options: [
+            "Only academic goals",
             "Based on client priorities and values",
-            "Only therapist preferences",
             "Only standard goals",
-            "Only academic goals"
+            "Only therapist preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Client-centered goals reflect the individual's priorities, values, and communication needs."
         },
         {
           id: 8,
           question: "What is interprofessional collaboration?",
           options: [
+            "Only with families",
             "Working with various professionals as a team",
-            "Working alone",
             "Only with speech therapists",
-            "Only with families"
+            "Working alone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Interprofessional collaboration involves team-based approaches with different professionals."
         },
         {
           id: 9,
           question: "What is included in evidence-based intervention selection?",
           options: [
-            "Research evidence, clinical expertise, client values",
-            "Only research",
             "Only experience",
-            "Only preferences"
+            "Research evidence, clinical expertise, client values",
+            "Only preferences",
+            "Only research"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Evidence-based selection considers research, clinical expertise, and client values."
         },
         {
           id: 10,
           question: "What are EHR considerations?",
           options: [
-            "Security, privacy, efficiency, interoperability",
             "Only paper records",
-            "Only manual entry",
-            "Only personal notes"
+            "Security, privacy, efficiency, interoperability",
+            "Only personal notes",
+            "Only manual entry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Electronic Health Records require attention to security, privacy, efficiency, and system compatibility."
         },
         {
           id: 11,
           question: "What is family-centered collaboration?",
           options: [
-            "Building partnerships with families in decision-making",
             "Only telling families what to do",
+            "Only professional-driven",
             "Only child-focused",
-            "Only professional-driven"
+            "Building partnerships with families in decision-making"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Family-centered approaches involve partnerships, respect, and shared decision-making with families."
         },
         {
           id: 12,
           question: "What is consultation service delivery?",
           options: [
-            "Supporting other professionals or caregivers",
+            "Only research",
             "Only direct therapy",
-            "Only assessment",
-            "Only research"
+            "Supporting other professionals or caregivers",
+            "Only assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Consultation involves supporting others to implement strategies rather than direct service provision."
         },
         {
           id: 13,
           question: "What are professionally relevant goals?",
           options: [
-            "Addressing real communication needs in daily life",
-            "Only test performance",
             "Only clinic skills",
-            "Only academic skills"
+            "Only test performance",
+            "Only academic skills",
+            "Addressing real communication needs in daily life"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Functionally relevant goals target communication skills needed in daily life situations."
         },
         {
           id: 14,
           question: "What is co-teaching?",
           options: [
+            "Only after school",
             "Integrated services within classroom settings",
             "Only separate therapy",
-            "Only after school",
             "Only individual therapy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Co-teaching involves providing services within classroom settings alongside teachers."
         },
         {
           id: 15,
           question: "What is included in professional writing?",
           options: [
-            "Clear, concise, organized, confidential writing",
-            "Only technical terms",
+            "Only informal language",
             "Only personal opinions",
-            "Only informal language"
+            "Clear, concise, organized, confidential writing",
+            "Only technical terms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Professional writing should be clear, organized, objective, and maintain confidentiality."
         },
         {
           id: 16,
           question: "What is collaborative goal setting?",
           options: [
-            "Involving client and family input in goal development",
-            "Only therapist decides",
+            "Only school decides",
             "Only standardized goals",
-            "Only school decides"
+            "Involving client and family input in goal development",
+            "Only therapist decides"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Collaborative goal setting involves clients and families in developing meaningful objectives."
         },
         {
           id: 17,
           question: "What are service settings for communication disorders?",
           options: [
-            "Schools, hospitals, clinics, community programs",
-            "Only schools",
             "Only hospitals",
-            "Only clinics"
+            "Schools, hospitals, clinics, community programs",
+            "Only clinics",
+            "Only schools"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Services are provided in educational, medical, private practice, and community settings."
         },
         {
@@ -2297,8 +2297,8 @@ Effective clinical management combines technical expertise with professional ski
           options: [
             "Guidance and oversight for professional development",
             "Only administrative task",
-            "Only paperwork review",
-            "Only occasional meeting"
+            "Only occasional meeting",
+            "Only paperwork review"
           ],
           correctAnswer: 0,
           explanation: "Clinical supervision provides professional guidance, feedback, and development support."
@@ -2307,24 +2307,24 @@ Effective clinical management combines technical expertise with professional ski
           id: 19,
           question: "What is included in quality improvement?",
           options: [
-            "Monitoring outcomes and client satisfaction",
-            "Only seeing more clients",
             "Only increasing revenue",
-            "Only reducing costs"
+            "Only reducing costs",
+            "Only seeing more clients",
+            "Monitoring outcomes and client satisfaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Quality improvement involves monitoring outcomes, satisfaction, and evidence-based practice."
         },
         {
           id: 20,
           question: "What is self-care in professional practice?",
           options: [
+            "Only professional development",
             "Maintaining work-life balance and preventing burnout",
             "Only working more",
-            "Only focusing on clients",
-            "Only professional development"
+            "Only focusing on clients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Self-care involves strategies to maintain well-being, prevent burnout, and sustain professional practice."
         }
       ]
@@ -2337,8 +2337,8 @@ Effective clinical management combines technical expertise with professional ski
       question: "What are the five primary categories of communication disorders?",
       options: [
         "Speech sound, language, fluency, voice, social communication",
-        "Only speech and language disorders",
         "Mild, moderate, severe disorders",
+        "Only speech and language disorders",
         "Childhood, adult, elderly disorders"
       ],
       correctAnswer: 0,
@@ -2349,12 +2349,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 2,
       question: "What percentage of children have significant communication disorders?",
       options: [
-        "5-10%",
-        "1-2%",
         "15-20%",
-        "25-30%"
+        "1-2%",
+        "25-30%",
+        "5-10%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Approximately 5-10% of children have significant communication disorders requiring intervention.",
       module: 1
     },
@@ -2362,12 +2362,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 3,
       question: "What is Developmental Language Disorder (DLD)?",
       options: [
-        "Persistent language difficulty not explained by other conditions",
-        "Temporary language delay",
         "Only articulation problems",
-        "Caused by hearing loss"
+        "Temporary language delay",
+        "Caused by hearing loss",
+        "Persistent language difficulty not explained by other conditions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "DLD is a persistent difficulty with language that cannot be explained by other conditions.",
       module: 2
     },
@@ -2375,12 +2375,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 4,
       question: "What characterizes Broca's aphasia?",
       options: [
-        "Non-fluent, effortful speech with preserved comprehension",
         "Fluent but meaningless speech",
-        "Severe impairments in both areas",
-        "Only word-finding difficulty"
+        "Only word-finding difficulty",
+        "Non-fluent, effortful speech with preserved comprehension",
+        "Severe impairments in both areas"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Broca's aphasia features non-fluent, effortful speech with relatively preserved comprehension.",
       module: 2
     },
@@ -2388,12 +2388,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 5,
       question: "What is Childhood Apraxia of Speech (CAS)?",
       options: [
-        "Difficulty planning speech movements",
         "Muscle weakness affecting speech",
         "Rapid disorganized speech",
+        "Difficulty planning speech movements",
         "Fluency disruptions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "CAS is a neurological disorder affecting the brain's ability to plan and program speech movements.",
       module: 3
     },
@@ -2402,9 +2402,9 @@ Effective clinical management combines technical expertise with professional ski
       question: "What are core features of stuttering?",
       options: [
         "Sound repetitions, prolongations, blocks",
-        "Only fast speech rate",
         "Only voice problems",
-        "Only language formulation"
+        "Only language formulation",
+        "Only fast speech rate"
       ],
       correctAnswer: 0,
       explanation: "Core stuttering features include repetitions, prolongations, blocks, and associated physical behaviors.",
@@ -2414,12 +2414,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 7,
       question: "What are the three subsystems of voice production?",
       options: [
+        "Brain, lungs, mouth",
         "Respiratory, phonatory, resonatory systems",
         "Only respiratory system",
-        "Brain, lungs, mouth",
         "Only vocal folds"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Voice production involves respiratory (power), phonatory (sound), and resonatory (filter) systems.",
       module: 4
     },
@@ -2427,12 +2427,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 8,
       question: "What is hypernasality?",
       options: [
-        "Excessive nasal resonance on oral sounds",
+        "Only voice loudness",
         "Reduced nasal resonance",
-        "Normal resonance",
-        "Only voice loudness"
+        "Excessive nasal resonance on oral sounds",
+        "Normal resonance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Hypernasality involves inappropriate nasal resonance on sounds that should be oral only.",
       module: 4
     },
@@ -2440,12 +2440,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 9,
       question: "What is Social Communication Disorder (SCD)?",
       options: [
-        "Difficulties with social use of communication",
+        "Temporary condition",
         "Only articulation problems",
-        "Only language structure",
-        "Temporary condition"
+        "Difficulties with social use of communication",
+        "Only language structure"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "SCD involves persistent difficulties with the social use of verbal and nonverbal communication.",
       module: 5
     },
@@ -2479,12 +2479,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 12,
       question: "What is telepractice?",
       options: [
-        "Remote service delivery via technology",
-        "Only in-person therapy",
         "Only group therapy",
-        "Only school-based"
+        "Only school-based",
+        "Remote service delivery via technology",
+        "Only in-person therapy"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Telepractice involves delivering services remotely using telecommunications technology.",
       module: 6
     },
@@ -2492,12 +2492,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 13,
       question: "What are the three components of evidence-based practice?",
       options: [
-        "Research evidence, clinical expertise, client values",
+        "Theory, research, practice",
         "Assessment, intervention, evaluation",
-        "Diagnosis, treatment, prevention",
-        "Theory, research, practice"
+        "Research evidence, clinical expertise, client values",
+        "Diagnosis, treatment, prevention"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "EBP integrates best research evidence, clinical expertise, and client values/preferences.",
       module: 1
     },
@@ -2505,12 +2505,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 14,
       question: "What is dyslexia?",
       options: [
-        "Difficulty with reading and spelling",
-        "Difficulty with math only",
+        "Speech sound disorder",
         "General learning disability",
-        "Speech sound disorder"
+        "Difficulty with math only",
+        "Difficulty with reading and spelling"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Dyslexia is a specific learning disability affecting reading and spelling skills.",
       module: 2
     },
@@ -2519,9 +2519,9 @@ Effective clinical management combines technical expertise with professional ski
       question: "What characterizes flaccid dysarthria?",
       options: [
         "Muscle weakness causing breathy voice",
+        "Reduced movement",
         "Muscle stiffness causing strained voice",
-        "Coordination problems",
-        "Reduced movement"
+        "Coordination problems"
       ],
       correctAnswer: 0,
       explanation: "Flaccid dysarthria results from muscle weakness, causing breathiness and imprecise consonants.",
@@ -2531,12 +2531,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 16,
       question: "What is Muscle Tension Dysphonia (MTD)?",
       options: [
-        "Excessive muscle tension during phonation",
         "Vocal fold paralysis",
         "Nasal resonance problems",
-        "Only psychological"
+        "Only psychological",
+        "Excessive muscle tension during phonation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "MTD involves excessive muscle tension during voice production without structural abnormalities.",
       module: 4
     },
@@ -2544,12 +2544,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 17,
       question: "What are social communication characteristics in ASD?",
       options: [
+        "Only language delay",
         "Difficulties with social-emotional reciprocity",
         "Perfect social skills",
-        "Only language delay",
         "Only articulation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "ASD social communication challenges include difficulties with social-emotional reciprocity.",
       module: 5
     },
@@ -2558,9 +2558,9 @@ Effective clinical management combines technical expertise with professional ski
       question: "What is dynamic assessment?",
       options: [
         "Test-teach-retest methodology",
-        "Only standardized testing",
         "Only observation",
-        "Only parent report"
+        "Only parent report",
+        "Only standardized testing"
       ],
       correctAnswer: 0,
       explanation: "Dynamic assessment evaluates learning potential through test-teach-retest approaches.",
@@ -2570,12 +2570,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 19,
       question: "What does 'beneficence' mean in ethics?",
       options: [
-        "Acting in the client's best interest",
         "Doing no harm",
+        "Acting in the client's best interest",
         "Respecting client choices",
         "Providing fair services"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Beneficence means acting in ways that benefit the client and promote their well-being.",
       module: 1
     },
@@ -2583,12 +2583,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 20,
       question: "What is Primary Progressive Aphasia?",
       options: [
-        "Gradual loss of language skills over time",
-        "Sudden language loss from stroke",
         "Childhood language disorder",
-        "Temporary difficulty"
+        "Gradual loss of language skills over time",
+        "Temporary difficulty",
+        "Sudden language loss from stroke"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "PPA involves gradual deterioration of language abilities while other functions may be preserved.",
       module: 2
     },
@@ -2596,12 +2596,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 21,
       question: "What characterizes cluttering?",
       options: [
-        "Rapid, disorganized speech affecting clarity",
-        "Only slow speech",
         "Only articulation errors",
+        "Only slow speech",
+        "Rapid, disorganized speech affecting clarity",
         "Only voice disorders"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Cluttering involves excessively fast or irregular speech rate with poor language organization.",
       module: 3
     },
@@ -2609,12 +2609,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 22,
       question: "What are vocal fold nodules?",
       options: [
-        "Callous-like growths from phonotrauma",
-        "Fluid-filled lesions",
         "Inflammatory masses",
-        "Diffuse swelling"
+        "Diffuse swelling",
+        "Callous-like growths from phonotrauma",
+        "Fluid-filled lesions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Nodules are callous-like bilateral growths typically resulting from chronic vocal misuse.",
       module: 4
     },
@@ -2622,12 +2622,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 23,
       question: "What is echolalia?",
       options: [
+        "No speech production",
         "Repetition of others' speech",
         "Original language only",
-        "No speech production",
         "Only whispered speech"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Echolalia involves immediate or delayed repetition of words or phrases heard from others.",
       module: 5
     },
@@ -2635,12 +2635,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 24,
       question: "What does SOAP stand for in documentation?",
       options: [
-        "Subjective, Objective, Assessment, Plan",
-        "Speech, Observation, Analysis, Plan",
         "Summary, Objective, Assessment, Progress",
+        "Speech, Observation, Analysis, Plan",
+        "Subjective, Objective, Assessment, Plan",
         "Subjective, Observation, Analysis, Progress"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "SOAP notes include Subjective, Objective, Assessment, and Plan sections.",
       module: 6
     },
@@ -2648,12 +2648,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 25,
       question: "What is an acquired communication disorder?",
       options: [
-        "Resulting from injury or illness after normal development",
         "Present from early childhood",
+        "No physical cause",
         "Worsening over time",
-        "No physical cause"
+        "Resulting from injury or illness after normal development"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Acquired disorders result from injury or illness after normal language development has occurred.",
       module: 1
     },
@@ -2661,12 +2661,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 26,
       question: "What is included in right hemisphere language disorders?",
       options: [
-        "Pragmatic language deficits",
-        "Only articulation problems",
         "Only vocabulary deficits",
-        "No language effects"
+        "Pragmatic language deficits",
+        "No language effects",
+        "Only articulation problems"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Right hemisphere disorders typically affect pragmatic language, inference, and discourse skills.",
       module: 2
     },
@@ -2674,12 +2674,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 27,
       question: "What is developmental stuttering?",
       options: [
-        "Begins in childhood, most common type",
+        "Temporary fluency issue",
         "Begins in adulthood from injury",
-        "Caused by psychological factors",
-        "Temporary fluency issue"
+        "Begins in childhood, most common type",
+        "Caused by psychological factors"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Developmental stuttering begins in childhood and is the most common form of stuttering.",
       module: 3
     },
@@ -2688,8 +2688,8 @@ Effective clinical management combines technical expertise with professional ski
       question: "What is spasmodic dysphonia?",
       options: [
         "Task-specific dystonia affecting voice",
-        "Muscle tension only",
         "Temporary disorder",
+        "Muscle tension only",
         "Only in children"
       ],
       correctAnswer: 0,
@@ -2714,9 +2714,9 @@ Effective clinical management combines technical expertise with professional ski
       question: "What is functional communication assessment?",
       options: [
         "Analysis of real-world communication needs",
-        "Only test administration",
+        "Only clinic-based",
         "Only standardized scores",
-        "Only clinic-based"
+        "Only test administration"
       ],
       correctAnswer: 0,
       explanation: "Functional assessment evaluates communication needs in real-life contexts and environments.",
@@ -2727,9 +2727,9 @@ Effective clinical management combines technical expertise with professional ski
       question: "What is the strongest level of evidence?",
       options: [
         "Systematic reviews and meta-analyses",
-        "Expert opinion",
+        "Personal experience",
         "Case studies",
-        "Personal experience"
+        "Expert opinion"
       ],
       correctAnswer: 0,
       explanation: "Systematic reviews and meta-analyses provide the strongest level of research evidence.",
@@ -2739,12 +2739,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 32,
       question: "What should be assessed in multilingual clients?",
       options: [
-        "All languages the client uses",
-        "Only the dominant language",
+        "No assessment needed",
         "Only English",
-        "No assessment needed"
+        "Only the dominant language",
+        "All languages the client uses"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "All languages a client uses should be assessed to understand their complete language profile.",
       module: 2
     },
@@ -2752,12 +2752,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 33,
       question: "What is ataxic dysarthria?",
       options: [
-        "Coordination problems causing irregular speech",
+        "Reduced movement",
         "Muscle weakness",
-        "Muscle stiffness",
-        "Reduced movement"
+        "Coordination problems causing irregular speech",
+        "Muscle stiffness"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Ataxic dysarthria results from cerebellar damage causing irregular speech breakdowns.",
       module: 3
     },
@@ -2765,12 +2765,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 34,
       question: "What is included in GRBAS scale?",
       options: [
-        "Grade, Roughness, Breathiness, Asthenia, Strain",
         "Only Grade and Roughness",
-        "Only loudness measures",
-        "Only pitch measures"
+        "Only pitch measures",
+        "Grade, Roughness, Breathiness, Asthenia, Strain",
+        "Only loudness measures"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "GRBAS scale assesses Grade, Roughness, Breathiness, Asthenia, and Strain in voice evaluation.",
       module: 4
     },
@@ -2791,12 +2791,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 36,
       question: "What are client-centered goals?",
       options: [
-        "Based on client priorities and values",
+        "Only academic goals",
         "Only therapist preferences",
-        "Only standard goals",
-        "Only academic goals"
+        "Based on client priorities and values",
+        "Only standard goals"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Client-centered goals reflect the individual's priorities, values, and communication needs.",
       module: 6
     },
@@ -2804,12 +2804,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 37,
       question: "What are risk factors for communication disorders?",
       options: [
-        "Genetic, environmental, medical factors",
         "Only genetic factors",
-        "Only environmental",
-        "Only medical"
+        "Only medical",
+        "Genetic, environmental, medical factors",
+        "Only environmental"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Risk factors include genetic, environmental, and medical factors increasing disorder likelihood.",
       module: 1
     },
@@ -2817,12 +2817,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 38,
       question: "What is global aphasia?",
       options: [
-        "Severe impairments in both expression and comprehension",
+        "Only reading difficulties",
         "Only mild word-finding difficulty",
         "Only fluency problems",
-        "Only reading difficulties"
+        "Severe impairments in both expression and comprehension"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Global aphasia involves severe deficits in both language expression and comprehension.",
       module: 2
     },
@@ -2830,12 +2830,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 39,
       question: "What are treatment approaches for stuttering?",
       options: [
+        "Only ignoring it",
         "Fluency shaping and stuttering modification",
         "Only medication",
-        "Only surgery",
-        "Only ignoring it"
+        "Only surgery"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Stuttering treatment includes fluency shaping techniques and stuttering modification strategies.",
       module: 3
     },
@@ -2843,12 +2843,12 @@ Effective clinical management combines technical expertise with professional ski
       id: 40,
       question: "What is resonant voice therapy?",
       options: [
+        "Only breathing exercises",
         "Focus on forward, easy vocal resonance",
-        "Only loud voice training",
         "Only pitch exercises",
-        "Only breathing exercises"
+        "Only loud voice training"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Resonant voice therapy focuses on achieving forward, easy vocal production with minimal effort.",
       module: 4
     }

@@ -194,8 +194,8 @@ Systems thinking transforms how we approach energy challenges – from solving i
           options: [
             "Interconnections and whole system behavior",
             "Only technical efficiency of components",
-            "Short-term economic costs alone",
-            "Individual technology performance in isolation"
+            "Individual technology performance in isolation",
+            "Short-term economic costs alone"
           ],
           correctAnswer: 0,
           explanation: "Systems thinking focuses on how components interact and how whole systems behave differently than their parts."
@@ -204,72 +204,72 @@ Systems thinking transforms how we approach energy challenges – from solving i
           id: 2,
           question: "What three systems are interconnected in the Energy-Water-Food Nexus?",
           options: [
-            "Energy, Water, Food",
-            "Energy, Transportation, Buildings",
             "Water, Air, Soil",
-            "Food, Health, Education"
+            "Food, Health, Education",
+            "Energy, Transportation, Buildings",
+            "Energy, Water, Food"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The nexus recognizes that energy, water, and food systems are deeply interconnected and must be managed together."
         },
         {
           id: 3,
           question: "What does Life Cycle Assessment (LCA) evaluate?",
           options: [
-            "Environmental impacts from cradle to grave",
+            "Technical performance metrics",
             "Only operational energy use",
-            "Financial costs over 5 years",
-            "Technical performance metrics"
+            "Environmental impacts from cradle to grave",
+            "Financial costs over 5 years"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "LCA assesses all environmental impacts from raw material extraction through disposal or recycling."
         },
         {
           id: 4,
           question: "What EROI ratio did historical societies typically need to function?",
           options: [
-            "Greater than 5:1",
             "Greater than 100:1",
+            "Less than 1:1",
             "Exactly 1:1",
-            "Less than 1:1"
+            "Greater than 5:1"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Societies needed energy returns significantly greater than 1:1 to have surplus energy for activities beyond basic survival."
         },
         {
           id: 5,
           question: "What are the three levels in the Multi-Scale Perspective framework?",
           options: [
+            "Supply, Distribution, Demand",
             "Niches, Regimes, Landscape",
             "Local, National, Global",
-            "Technical, Economic, Social",
-            "Supply, Distribution, Demand"
+            "Technical, Economic, Social"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The framework analyzes transitions across niche innovations, dominant regimes, and broader landscape factors."
         },
         {
           id: 6,
           question: "What is resilience in energy systems?",
           options: [
-            "Ability to withstand and recover from disturbances",
             "Always having the lowest cost energy",
+            "Ability to withstand and recover from disturbances",
             "Using only renewable sources",
             "Complete independence from all external systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Resilience involves maintaining essential functions during stress and adapting to changing conditions."
         },
         {
           id: 7,
           question: "What design principle involves multiple energy sources and pathways?",
           options: [
-            "Diversity",
             "Efficiency",
+            "Standardization",
             "Centralization",
-            "Standardization"
+            "Diversity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Diversity reduces vulnerability by providing multiple options if one source or pathway fails."
         },
         {
@@ -288,120 +288,120 @@ Systems thinking transforms how we approach energy challenges – from solving i
           id: 9,
           question: "What is a key insight from comparing energy systems via LCA?",
           options: [
-            "There are no perfect solutions, only better choices",
-            "Solar is always the best option",
             "Nuclear has no environmental impacts",
-            "All renewables have identical life cycle impacts"
+            "Solar is always the best option",
+            "All renewables have identical life cycle impacts",
+            "There are no perfect solutions, only better choices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Every energy choice involves trade-offs; sustainability means selecting better options within specific contexts."
         },
         {
           id: 10,
           question: "What does EROI stand for?",
           options: [
-            "Energy Return on Investment",
             "Energy Ratio of Input",
+            "Environmental Return on Investment",
             "Efficiency Rating of Infrastructure",
-            "Environmental Return on Investment"
+            "Energy Return on Investment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EROI measures how much energy is obtained compared to the energy required to obtain it."
         },
         {
           id: 11,
           question: "What is modularity in resilient system design?",
           options: [
-            "Components can fail without system collapse",
-            "All components are identical",
             "Systems are built from single suppliers",
-            "Only one technology is used throughout"
+            "All components are identical",
+            "Only one technology is used throughout",
+            "Components can fail without system collapse"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Modularity contains failures within subsystems, preventing cascading failures throughout the entire system."
         },
         {
           id: 12,
           question: "What does the 'regime' level represent in transitions?",
           options: [
-            "Dominant existing systems and practices",
-            "Experimental new technologies",
             "Broad social and environmental trends",
-            "Individual consumer choices"
+            "Individual consumer choices",
+            "Experimental new technologies",
+            "Dominant existing systems and practices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regimes are the established systems with locked-in technologies, regulations, and practices."
         },
         {
           id: 13,
           question: "What is circular design in the energy-water-food nexus?",
           options: [
-            "Outputs become inputs elsewhere in the system",
-            "All processes occur in circular buildings",
             "Energy flows in circular patterns only",
-            "Water cycles ignore human intervention"
+            "Water cycles ignore human intervention",
+            "Outputs become inputs elsewhere in the system",
+            "All processes occur in circular buildings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Circular design minimizes waste by ensuring outputs from one process become inputs for another."
         },
         {
           id: 14,
           question: "What modern EROI do complex societies typically need?",
           options: [
-            "10-15:1 or higher",
-            "Exactly 1:1",
             "2-3:1",
-            "100:1 or higher"
+            "100:1 or higher",
+            "10-15:1 or higher",
+            "Exactly 1:1"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Modern societies with complex infrastructure and services require higher EROI to function."
         },
         {
           id: 15,
           question: "What does scenario planning help with?",
           options: [
-            "Exploring multiple plausible futures",
-            "Predicting exact future outcomes",
+            "Focusing only on best-case scenarios",
             "Eliminating all uncertainty",
-            "Focusing only on best-case scenarios"
+            "Predicting exact future outcomes",
+            "Exploring multiple plausible futures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Scenario planning explores different possible futures to test strategies under various conditions."
         },
         {
           id: 16,
           question: "What is a reinforcing feedback loop?",
           options: [
-            "Changes amplify themselves in a cycle",
-            "System returns to original state",
+            "Changes cancel each other out",
             "No relationship between changes",
-            "Changes cancel each other out"
+            "Changes amplify themselves in a cycle",
+            "System returns to original state"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reinforcing loops create exponential growth or decline as changes feed back to amplify themselves."
         },
         {
           id: 17,
           question: "What does stock and flow modeling track?",
           options: [
+            "Individual component failures",
             "Accumulations and changes over time",
             "Only financial investments",
-            "Static system snapshots",
-            "Individual component failures"
+            "Static system snapshots"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stock and flow models track how quantities accumulate and change through inflows and outflows."
         },
         {
           id: 18,
           question: "What is emergent property in systems?",
           options: [
-            "Whole system behavior different from parts",
-            "Properties that emerge randomly",
             "Components that appear suddenly",
-            "Systems with no predictable behavior"
+            "Properties that emerge randomly",
+            "Systems with no predictable behavior",
+            "Whole system behavior different from parts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Emergent properties arise from interactions between components, not from individual components alone."
         },
         {
@@ -409,8 +409,8 @@ Systems thinking transforms how we approach energy challenges – from solving i
           question: "What is multi-criteria decision analysis used for?",
           options: [
             "Considering economic, environmental, social factors",
-            "Maximizing only financial returns",
             "Simplifying decisions to single metrics",
+            "Maximizing only financial returns",
             "Ignoring stakeholder preferences"
           ],
           correctAnswer: 0,
@@ -420,12 +420,12 @@ Systems thinking transforms how we approach energy challenges – from solving i
           id: 20,
           question: "What principle suggests reducing demand before expanding supply?",
           options: [
-            "Efficiency First",
-            "Supply Security",
             "Growth Maximization",
-            "Technology Neutrality"
+            "Technology Neutrality",
+            "Supply Security",
+            "Efficiency First"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Efficiency First recognizes that reducing energy demand is often cheaper and cleaner than increasing supply."
         }
       ]
@@ -638,9 +638,9 @@ Sustainable energy economics isn't just about lowest price – it's about creati
           question: "What are externalities in energy economics?",
           options: [
             "Costs or benefits affecting third parties, not reflected in prices",
-            "Extra charges on electricity bills",
             "Government taxes on energy companies",
-            "Hidden profits for energy producers"
+            "Hidden profits for energy producers",
+            "Extra charges on electricity bills"
           ],
           correctAnswer: 0,
           explanation: "Externalities are costs or benefits experienced by people not directly involved in production or consumption decisions."
@@ -649,84 +649,84 @@ Sustainable energy economics isn't just about lowest price – it's about creati
           id: 2,
           question: "What does LCOE stand for and measure?",
           options: [
-            "Levelized Cost of Energy - average cost per unit over lifetime",
             "Lowest Cost of Electricity - minimum possible price",
-            "Local Cost of Energy - location-specific pricing",
-            "Long-term Cost Estimate - future price projections"
+            "Levelized Cost of Energy - average cost per unit over lifetime",
+            "Long-term Cost Estimate - future price projections",
+            "Local Cost of Energy - location-specific pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "LCOE calculates the lifetime average cost per unit of energy generated, allowing technology comparisons."
         },
         {
           id: 3,
           question: "What is a major limitation of traditional LCOE analysis?",
           options: [
+            "Assumes energy has zero value",
             "Doesn't account for grid integration costs",
             "Includes too many external costs",
-            "Assumes energy has zero value",
             "Only applies to fossil fuels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Traditional LCOE ignores the costs of integrating variable resources into the grid and providing reliability services."
         },
         {
           id: 4,
           question: "What value factor refers to contribution to meeting peak demand?",
           options: [
-            "Capacity Value",
-            "Energy Value",
             "Flexibility Value",
-            "Locational Value"
+            "Locational Value",
+            "Energy Value",
+            "Capacity Value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Capacity value measures how much a resource contributes to meeting system peak demand when it's most needed."
         },
         {
           id: 5,
           question: "What financing model involves publicly traded companies owning operating assets?",
           options: [
+            "Community Funding",
             "YieldCos",
             "Green Bonds",
-            "Project Finance",
-            "Community Funding"
+            "Project Finance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "YieldCos are corporate structures that own operating renewable assets and distribute most cash flows to shareholders."
         },
         {
           id: 6,
           question: "What is the estimated range of external costs for coal electricity?",
           options: [
-            "5-15 cents/kWh",
-            "0.1-0.5 cents/kWh",
             "1-2 cents/kWh",
-            "20-30 cents/kWh"
+            "20-30 cents/kWh",
+            "0.1-0.5 cents/kWh",
+            "5-15 cents/kWh"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Coal generation imposes significant external costs through air pollution, health impacts, and climate change."
         },
         {
           id: 7,
           question: "What does 'circular economy' aim to do in energy systems?",
           options: [
-            "Keep materials in use and design out waste",
+            "Eliminate all economic costs",
             "Make all energy flows circular",
-            "Only use renewable resources",
-            "Eliminate all economic costs"
+            "Keep materials in use and design out waste",
+            "Only use renewable resources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Circular economy principles focus on minimizing waste and maximizing resource efficiency through reuse and recycling."
         },
         {
           id: 8,
           question: "What is net metering?",
           options: [
-            "1:1 retail rate compensation for excess generation",
-            "Payment based on time-of-use rates",
+            "Free electricity for solar owners",
             "Compensation only for environmental benefits",
-            "Free electricity for solar owners"
+            "Payment based on time-of-use rates",
+            "1:1 retail rate compensation for excess generation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Net metering credits solar owners at the retail electricity rate for power sent to the grid."
         },
         {
@@ -746,9 +746,9 @@ Sustainable energy economics isn't just about lowest price – it's about creati
           question: "What are global annual fossil fuel subsidies estimated at?",
           options: [
             "$400-600 billion",
-            "$50-100 billion",
             "$1-2 trillion",
-            "$10-20 billion"
+            "$10-20 billion",
+            "$50-100 billion"
           ],
           correctAnswer: 0,
           explanation: "Fossil fuels receive substantial subsidies worldwide, though estimates vary based on definition and measurement."
@@ -757,12 +757,12 @@ Sustainable energy economics isn't just about lowest price – it's about creati
           id: 11,
           question: "What financing instrument is debt specifically for environmental projects?",
           options: [
-            "Green Bonds",
             "YieldCos",
+            "Green Bonds",
             "Project Finance",
             "ESG Funds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Green bonds raise capital specifically for climate and environmental projects, with proceeds dedicated to eligible activities."
         },
         {
@@ -770,8 +770,8 @@ Sustainable energy economics isn't just about lowest price – it's about creati
           question: "What is industrial symbiosis?",
           options: [
             "Waste from one process becomes input for another",
-            "All industries using the same energy source",
             "Companies merging to become larger",
+            "All industries using the same energy source",
             "Identical factories in different locations"
           ],
           correctAnswer: 0,
@@ -781,12 +781,12 @@ Sustainable energy economics isn't just about lowest price – it's about creati
           id: 13,
           question: "What does capacity factor measure in LCOE?",
           options: [
-            "Actual output vs. maximum possible output",
-            "Efficiency of energy conversion",
+            "Cost per unit of capacity",
             "Size of the generating unit",
-            "Cost per unit of capacity"
+            "Efficiency of energy conversion",
+            "Actual output vs. maximum possible output"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Capacity factor = (actual output) ÷ (maximum possible output if running at full capacity 24/7)."
         },
         {
@@ -805,72 +805,72 @@ Sustainable energy economics isn't just about lowest price – it's about creati
           id: 15,
           question: "What valuation approach estimates cost to prevent damage?",
           options: [
-            "Control Cost Approach",
+            "Stated Preference",
             "Damage Cost Approach",
             "Revealed Preference",
-            "Stated Preference"
+            "Control Cost Approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Control cost approach values externalities based on what it would cost to prevent or reduce the damage."
         },
         {
           id: 16,
           question: "What does ESG stand for in investing?",
           options: [
+            "Efficiency, Security, Generation",
             "Environmental, Social, Governance",
-            "Energy, Sustainability, Growth",
             "Economic, Strategic, Global",
-            "Efficiency, Security, Generation"
+            "Energy, Sustainability, Growth"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ESG criteria evaluate investments based on environmental impact, social responsibility, and corporate governance."
         },
         {
           id: 17,
           question: "What is time-of-use pricing?",
           options: [
+            "Only charging for peak usage",
             "Different rates based on time of day and grid conditions",
             "Same rate regardless of consumption patterns",
-            "Only charging for peak usage",
             "Free electricity during certain hours"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Time-of-use rates reflect the changing cost of providing electricity throughout the day and seasons."
         },
         {
           id: 18,
           question: "What is blended finance?",
           options: [
-            "Public funds attracting private investment",
-            "Mixing different energy sources",
             "Combining debt and equity equally",
-            "International and domestic funding"
+            "Public funds attracting private investment",
+            "International and domestic funding",
+            "Mixing different energy sources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Blended finance uses public or philanthropic funds to reduce risk and attract private investment to sustainable projects."
         },
         {
           id: 19,
           question: "What is demand charge based on?",
           options: [
-            "Peak usage rather than total consumption",
             "Total monthly energy consumption",
+            "Environmental impact of usage",
             "Time of day of usage",
-            "Environmental impact of usage"
+            "Peak usage rather than total consumption"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demand charges reflect the cost of maintaining capacity to meet customers' highest usage levels."
         },
         {
           id: 20,
           question: "What principle focuses on reducing demand before expanding supply?",
           options: [
-            "Efficiency First",
             "Supply Security",
             "Growth Maximization",
-            "Technology Neutrality"
+            "Technology Neutrality",
+            "Efficiency First"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Efficiency First recognizes that reducing energy demand is often more cost-effective than increasing supply."
         }
       ]
@@ -1101,12 +1101,12 @@ Effective policy creates the enabling environment for sustainable energy transit
           id: 1,
           question: "Why are policy mixes needed rather than single instruments?",
           options: [
-            "Different barriers require different solutions",
-            "Single policies are too expensive",
+            "International agreements require multiple policies",
             "Governments prefer complexity",
-            "International agreements require multiple policies"
+            "Different barriers require different solutions",
+            "Single policies are too expensive"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Energy transitions face multiple barriers (technical, economic, social) requiring coordinated policy responses."
         },
         {
@@ -1114,8 +1114,8 @@ Effective policy creates the enabling environment for sustainable energy transit
           question: "What are the two main carbon pricing approaches?",
           options: [
             "Carbon taxes and emissions trading",
-            "Renewable mandates and efficiency standards",
             "Research funding and deployment subsidies",
+            "Renewable mandates and efficiency standards",
             "Building codes and appliance standards"
           ],
           correctAnswer: 0,
@@ -1126,8 +1126,8 @@ Effective policy creates the enabling environment for sustainable energy transit
           question: "What does RPS stand for in renewable energy policy?",
           options: [
             "Renewable Portfolio Standard",
-            "Renewable Power System",
             "Regional Planning Strategy",
+            "Renewable Power System",
             "Resource Performance Standard"
           ],
           correctAnswer: 0,
@@ -1137,60 +1137,60 @@ Effective policy creates the enabling environment for sustainable energy transit
           id: 4,
           question: "What policy guarantees fixed prices for renewable generation?",
           options: [
-            "Feed-in Tariffs",
-            "Carbon Taxes",
             "Renewable Auctions",
-            "Efficiency Standards"
+            "Efficiency Standards",
+            "Carbon Taxes",
+            "Feed-in Tariffs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Feed-in tariffs provide long-term, guaranteed prices to renewable energy producers."
         },
         {
           id: 5,
           question: "What percentage of global emissions are covered by carbon pricing?",
           options: [
-            "About 22%",
-            "About 5%",
             "About 50%",
-            "About 80%"
+            "About 22%",
+            "About 80%",
+            "About 5%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "As of recent assessments, carbon pricing initiatives cover approximately 22% of global greenhouse gas emissions."
         },
         {
           id: 6,
           question: "What is performance-based regulation for utilities?",
           options: [
-            "Linking profits to performance metrics rather than sales",
-            "Regulating based on political performance",
             "Only allowing profitable utilities to operate",
-            "Setting prices based on competitor performance"
+            "Setting prices based on competitor performance",
+            "Regulating based on political performance",
+            "Linking profits to performance metrics rather than sales"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Performance-based regulation decouples utility profits from energy sales, aligning incentives with efficiency and service goals."
         },
         {
           id: 7,
           question: "What are zero-emission vehicle mandates?",
           options: [
-            "Requirements for increasing percentage of electric vehicles",
-            "Bans on all vehicle emissions",
+            "Requirements for zero-emission manufacturing",
             "Mandatory electric vehicle purchases",
-            "Requirements for zero-emission manufacturing"
+            "Requirements for increasing percentage of electric vehicles",
+            "Bans on all vehicle emissions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ZEV mandates require automakers to sell an increasing percentage of electric or other zero-emission vehicles."
         },
         {
           id: 8,
           question: "What is integrated resource planning?",
           options: [
-            "Considering all resource options in utility planning",
             "Planning only for renewable resources",
+            "Considering all resource options in utility planning",
             "International resource allocation",
             "Corporate resource management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IRP evaluates all available options (supply, demand-side, storage) to meet energy needs reliably at lowest cost."
         },
         {
@@ -1198,9 +1198,9 @@ Effective policy creates the enabling environment for sustainable energy transit
           question: "What is the Paris Agreement's approach to national commitments?",
           options: [
             "Nationally Determined Contributions",
-            "Uniform global targets",
+            "Technology-specific mandates",
             "Voluntary corporate pledges",
-            "Technology-specific mandates"
+            "Uniform global targets"
           ],
           correctAnswer: 0,
           explanation: "The Paris Agreement uses NDCs - national climate action plans that countries develop and update regularly."
@@ -1209,36 +1209,36 @@ Effective policy creates the enabling environment for sustainable energy transit
           id: 10,
           question: "What are non-wires alternatives?",
           options: [
-            "Demand-side and distributed alternatives to grid upgrades",
+            "Underground instead of overhead lines",
             "Wireless electricity transmission",
             "Alternatives to copper wiring",
-            "Underground instead of overhead lines"
+            "Demand-side and distributed alternatives to grid upgrades"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NWAs include energy efficiency, demand response, and distributed generation that can defer or avoid traditional grid investments."
         },
         {
           id: 11,
           question: "What do building energy codes typically regulate?",
           options: [
-            "Minimum efficiency requirements for new buildings",
-            "Maximum size of buildings",
+            "Construction material sources",
             "Architectural styles",
-            "Construction material sources"
+            "Minimum efficiency requirements for new buildings",
+            "Maximum size of buildings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Building codes set minimum energy performance standards for new construction and major renovations."
         },
         {
           id: 12,
           question: "What is carbon leakage?",
           options: [
-            "Emissions moving to regions without carbon pricing",
             "Carbon dioxide escaping from storage",
             "Leaking methane from pipelines",
-            "Carbon pricing revenue disappearing"
+            "Carbon pricing revenue disappearing",
+            "Emissions moving to regions without carbon pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Carbon leakage occurs when emissions-intensive activities relocate to avoid carbon costs, undermining climate policy effectiveness."
         },
         {
@@ -1246,8 +1246,8 @@ Effective policy creates the enabling environment for sustainable energy transit
           question: "What are Energy Performance Certificates?",
           options: [
             "Ratings of building energy efficiency",
-            "Certificates for energy producers",
             "Licenses for energy auditors",
+            "Certificates for energy producers",
             "Tradable renewable energy credits"
           ],
           correctAnswer: 0,
@@ -1257,60 +1257,60 @@ Effective policy creates the enabling environment for sustainable energy transit
           id: 14,
           question: "What policy design consideration addresses impacts on vulnerable groups?",
           options: [
-            "Social Equity",
-            "Technical Feasibility",
+            "Political Popularity",
             "Economic Efficiency",
-            "Political Popularity"
+            "Technical Feasibility",
+            "Social Equity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social equity considerations ensure policies don't disproportionately burden low-income or marginalized communities."
         },
         {
           id: 15,
           question: "What is adaptive management in policy implementation?",
           options: [
+            "Policy adaptation to local conditions",
             "Learning and adjusting based on experience",
             "Managing policies adaptively for different groups",
-            "Using adaptive control systems",
-            "Policy adaptation to local conditions"
+            "Using adaptive control systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adaptive management involves monitoring outcomes, learning what works, and adjusting policies accordingly."
         },
         {
           id: 16,
           question: "What do appliance efficiency standards regulate?",
           options: [
-            "Minimum efficiency levels for products",
             "Maximum prices for appliances",
             "Required features in all appliances",
+            "Minimum efficiency levels for products",
             "Appliance color and design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Appliance standards set minimum energy performance levels that manufacturers must meet."
         },
         {
           id: 17,
           question: "What is the purpose of climate finance in international agreements?",
           options: [
-            "Supporting climate action in developing countries",
-            "Funding all climate research worldwide",
             "Paying for developed country emissions",
-            "Subsidizing fossil fuel phase-out"
+            "Subsidizing fossil fuel phase-out",
+            "Supporting climate action in developing countries",
+            "Funding all climate research worldwide"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Climate finance helps developing countries mitigate and adapt to climate change, as recognized in international agreements."
         },
         {
           id: 18,
           question: "What are renewable energy auctions?",
           options: [
+            "Auctions of renewable development rights",
             "Competitive bidding for renewable capacity",
-            "Auctions of used renewable equipment",
             "Bidding for renewable energy credits",
-            "Auctions of renewable development rights"
+            "Auctions of used renewable equipment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Auctions invite developers to bid for contracts to build renewable projects, typically awarding to lowest bidders."
         },
         {
@@ -1319,8 +1319,8 @@ Effective policy creates the enabling environment for sustainable energy transit
           options: [
             "Not In My Backyard",
             "New Infrastructure Must Benefit You",
-            "National Infrastructure Management Bureau",
-            "Neighborhood Improvement Management Board"
+            "Neighborhood Improvement Management Board",
+            "National Infrastructure Management Bureau"
           ],
           correctAnswer: 0,
           explanation: "NIMBY refers to opposition to locally unwanted land uses, even if they provide broader societal benefits."
@@ -1329,12 +1329,12 @@ Effective policy creates the enabling environment for sustainable energy transit
           id: 20,
           question: "What is technology transfer in international cooperation?",
           options: [
-            "Sharing knowledge and technology between countries",
-            "Transferring technology ownership between companies",
+            "Technology research changing locations",
             "Moving manufacturing between countries",
-            "Technology research changing locations"
+            "Transferring technology ownership between companies",
+            "Sharing knowledge and technology between countries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Technology transfer helps developing countries access and deploy clean energy technologies developed elsewhere."
         }
       ]
@@ -1610,8 +1610,8 @@ Cities present both the greatest challenges and greatest opportunities for susta
           question: "What percentage of global energy do cities typically consume?",
           options: [
             "About 75%",
-            "About 25%",
             "About 50%",
+            "About 25%",
             "About 90%"
           ],
           correctAnswer: 0,
@@ -1621,60 +1621,60 @@ Cities present both the greatest challenges and greatest opportunities for susta
           id: 2,
           question: "What is the largest energy use category in most cities?",
           options: [
-            "Buildings",
             "Transportation",
+            "Buildings",
             "Industry",
             "Public lighting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Buildings typically account for 50-70% of urban energy use through heating, cooling, lighting, and appliances."
         },
         {
           id: 3,
           question: "What does TOD stand for in urban planning?",
           options: [
-            "Transit-Oriented Development",
+            "Transport Optimization District",
             "Total Outdoor Design",
-            "Technical Operations Division",
-            "Transport Optimization District"
+            "Transit-Oriented Development",
+            "Technical Operations Division"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TOD focuses development around transit stations to maximize accessibility and reduce car dependence."
         },
         {
           id: 4,
           question: "What is a net zero energy building?",
           options: [
-            "Produces as much energy as it consumes annually",
-            "Uses no energy at all",
             "Only uses energy from the grid",
-            "Has zero carbon footprint in construction"
+            "Produces as much energy as it consumes annually",
+            "Has zero carbon footprint in construction",
+            "Uses no energy at all"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Net zero energy buildings generate enough renewable energy on-site to offset their annual energy consumption."
         },
         {
           id: 5,
           question: "What are district energy systems?",
           options: [
-            "Centralized heating/cooling serving multiple buildings",
             "Energy systems for school districts",
-            "District-level energy planning offices",
-            "Energy markets at district scale"
+            "Centralized heating/cooling serving multiple buildings",
+            "Energy markets at district scale",
+            "District-level energy planning offices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "District energy systems produce thermal energy centrally and distribute it through pipes to multiple buildings."
         },
         {
           id: 6,
           question: "What is 4th generation district heating?",
           options: [
+            "Heating for four generations of families",
             "Low temperature systems integrated with renewables",
             "The fourth company to provide district heating",
-            "Heating for four generations of families",
             "Four different heat sources combined"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "4GDH uses lower temperatures compatible with renewable heat sources and enables waste heat recovery."
         },
         {
@@ -1682,9 +1682,9 @@ Cities present both the greatest challenges and greatest opportunities for susta
           question: "What is a key principle of 15-minute cities?",
           options: [
             "All daily needs within 15-minute walk/bike",
+            "15% of land for green space",
             "15 minutes to drive anywhere in city",
-            "Public transit every 15 minutes",
-            "15% of land for green space"
+            "Public transit every 15 minutes"
           ],
           correctAnswer: 0,
           explanation: "The 15-minute city concept aims to provide access to work, shopping, education, and recreation within short active travel distances."
@@ -1693,24 +1693,24 @@ Cities present both the greatest challenges and greatest opportunities for susta
           id: 8,
           question: "What does PACE financing stand for?",
           options: [
-            "Property Assessed Clean Energy",
-            "Public Access to Clean Energy",
             "Progressive Affordable Clean Energy",
-            "Planning for Alternative Clean Energy"
+            "Planning for Alternative Clean Energy",
+            "Property Assessed Clean Energy",
+            "Public Access to Clean Energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PACE financing allows property owners to pay for efficiency and renewable upgrades through property tax assessments."
         },
         {
           id: 9,
           question: "What is urban metabolism?",
           options: [
-            "Tracking material and energy flows through cities",
             "The pace of life in urban areas",
-            "Biological processes in urban ecosystems",
-            "Energy consumption patterns of urban residents"
+            "Energy consumption patterns of urban residents",
+            "Tracking material and energy flows through cities",
+            "Biological processes in urban ecosystems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Urban metabolism analyzes cities as organisms that consume resources and produce wastes, aiming to make these flows more circular."
         },
         {
@@ -1718,8 +1718,8 @@ Cities present both the greatest challenges and greatest opportunities for susta
           question: "What is a positive energy district?",
           options: [
             "Produces more energy than it consumes",
-            "Has only positive attitudes toward energy",
             "District with maximum energy consumption",
+            "Has only positive attitudes toward energy",
             "Area focused on positive environmental messaging"
           ],
           correctAnswer: 0,
@@ -1729,120 +1729,120 @@ Cities present both the greatest challenges and greatest opportunities for susta
           id: 11,
           question: "What is a digital twin in urban energy planning?",
           options: [
-            "Virtual replica of physical systems for simulation",
+            "Digital copy of energy bills",
             "Duplicate control systems for redundancy",
-            "Two identical cities for comparison",
-            "Digital copy of energy bills"
+            "Virtual replica of physical systems for simulation",
+            "Two identical cities for comparison"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital twins create virtual models that mimic real-world systems, enabling testing and optimization before implementation."
         },
         {
           id: 12,
           question: "What does ESCO stand for?",
           options: [
-            "Energy Service Company",
             "Energy Supply and Control Office",
             "Efficient Systems Coordination Organization",
+            "Energy Service Company",
             "Environmental Sustainability Consulting Office"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ESCOs provide energy efficiency services and are often paid based on actual energy savings achieved."
         },
         {
           id: 13,
           question: "What is deep energy retrofit?",
           options: [
-            "Major efficiency improvements in existing buildings",
             "Excavating below buildings for geothermal",
+            "Extensive historical building preservation",
             "Retrofitting deep foundation buildings only",
-            "Extensive historical building preservation"
+            "Major efficiency improvements in existing buildings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Deep retrofits achieve 50% or greater energy savings through comprehensive building envelope and system upgrades."
         },
         {
           id: 14,
           question: "What is ambient temperature district energy?",
           options: [
-            "5th generation systems using heat pumps at buildings",
-            "Systems that maintain room temperature",
             "District heating that feels comfortable",
-            "Energy systems for temperature-sensitive areas"
+            "Systems that maintain room temperature",
+            "Energy systems for temperature-sensitive areas",
+            "5th generation systems using heat pumps at buildings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "5GDH uses ambient temperature networks with decentralized heat pumps to provide heating and cooling."
         },
         {
           id: 15,
           question: "What is circular metabolism in cities?",
           options: [
-            "Closing resource loops within urban systems",
-            "Circular patterns of urban growth",
             "Metabolism that occurs in circular buildings",
-            "Energy flows in circular patterns only"
+            "Circular patterns of urban growth",
+            "Energy flows in circular patterns only",
+            "Closing resource loops within urban systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Circular metabolism aims to transform linear resource flows (extract-use-dispose) into circular loops that minimize waste."
         },
         {
           id: 16,
           question: "What is building energy benchmarking?",
           options: [
-            "Comparing energy performance against peers",
-            "Marking buildings with energy labels",
             "Setting minimum energy standards",
-            "Measuring building height and volume"
+            "Measuring building height and volume",
+            "Comparing energy performance against peers",
+            "Marking buildings with energy labels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Benchmarking compares building energy use against similar buildings to identify improvement opportunities."
         },
         {
           id: 17,
           question: "What is aquifer thermal energy storage?",
           options: [
+            "Storing energy in artificial aquifers",
             "Storing heat or cold in underground aquifers",
-            "Heating aquifers for geothermal power",
             "Using aquifers for water heating",
-            "Storing energy in artificial aquifers"
+            "Heating aquifers for geothermal power"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ATES stores thermal energy in groundwater aquifers for seasonal use, typically for heating and cooling buildings."
         },
         {
           id: 18,
           question: "What is a sponge city?",
           options: [
-            "Urban design managing water naturally",
-            "City with many swimming pools",
+            "City focused on marine energy",
             "Urban area below sea level",
-            "City focused on marine energy"
+            "City with many swimming pools",
+            "Urban design managing water naturally"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sponge cities use natural systems to absorb, store, and clean rainwater, reducing flooding and pumping energy needs."
         },
         {
           id: 19,
           question: "What is adaptive reuse of buildings?",
           options: [
-            "Repurposing existing buildings for new uses",
             "Buildings that adapt to occupant needs",
+            "Repurposing existing buildings for new uses",
             "Reusing building materials only",
             "Buildings designed for multiple future uses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adaptive reuse gives old buildings new purposes, preserving embodied energy and reducing construction waste."
         },
         {
           id: 20,
           question: "What is integrated mobility?",
           options: [
-            "Seamless combination of different transport modes",
-            "Mobility for integrated communities",
             "Transport integrated with buildings",
+            "Mobility for integrated communities",
+            "Seamless combination of different transport modes",
             "International transportation networks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Integrated mobility provides seamless connections between walking, cycling, public transit, and shared vehicles."
         }
       ]
@@ -2128,8 +2128,8 @@ Industrial decarbonization requires technological innovation, supportive policie
           options: [
             "About 37%",
             "About 15%",
-            "About 50%",
-            "About 75%"
+            "About 75%",
+            "About 50%"
           ],
           correctAnswer: 0,
           explanation: "Industry accounts for approximately 37% of global final energy consumption."
@@ -2138,24 +2138,24 @@ Industrial decarbonization requires technological innovation, supportive policie
           id: 2,
           question: "What is the largest category of industrial energy use?",
           options: [
-            "Process heat",
-            "Machine drive",
+            "Feedstocks",
             "Lighting",
-            "Feedstocks"
+            "Machine drive",
+            "Process heat"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Process heat typically represents 50-70% of industrial energy consumption across various temperature ranges."
         },
         {
           id: 3,
           question: "What industrial process uses about 50% of global hydrogen?",
           options: [
-            "Ammonia production",
             "Steel making",
             "Refining",
-            "Methanol production"
+            "Methanol production",
+            "Ammonia production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ammonia production for fertilizers consumes approximately half of the world's hydrogen supply."
         },
         {
@@ -2163,9 +2163,9 @@ Industrial decarbonization requires technological innovation, supportive policie
           question: "What is industrial symbiosis?",
           options: [
             "By-product exchange between companies",
+            "Industrial mergers and acquisitions",
             "Similar industries working together",
-            "Industries mimicking natural systems",
-            "Industrial mergers and acquisitions"
+            "Industries mimicking natural systems"
           ],
           correctAnswer: 0,
           explanation: "Industrial symbiosis involves companies in proximity exchanging materials, energy, water, and by-products."
@@ -2174,48 +2174,48 @@ Industrial decarbonization requires technological innovation, supportive policie
           id: 5,
           question: "What temperature range can current heat pumps typically reach?",
           options: [
+            "Over 500°C",
             "Up to 150°C with advanced designs",
             "Only up to 50°C",
-            "Over 500°C",
             "Exactly 100°C"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "While most heat pumps operate below 100°C, advanced designs can reach 150°C for industrial applications."
         },
         {
           id: 6,
           question: "What is green hydrogen?",
           options: [
-            "Hydrogen produced using renewable energy",
             "Hydrogen with green coloring added",
+            "Hydrogen used in green industries",
             "Hydrogen from natural gas with carbon capture",
-            "Hydrogen used in green industries"
+            "Hydrogen produced using renewable energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Green hydrogen is produced through water electrolysis powered by renewable electricity."
         },
         {
           id: 7,
           question: "What is the CO2 source in cement production that's hard to eliminate?",
           options: [
-            "Process emissions from limestone calcination",
-            "Combustion emissions from kiln heating",
             "Transportation emissions",
+            "Combustion emissions from kiln heating",
+            "Process emissions from limestone calcination",
             "Electricity generation emissions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "About 60% of cement emissions come from chemical process of converting limestone to lime, not from fuel combustion."
         },
         {
           id: 8,
           question: "What does CCUS stand for?",
           options: [
-            "Carbon Capture, Utilization and Storage",
             "Carbon Control and Use Systems",
             "Climate Change Under Study",
-            "Carbon Credit Utilization Scheme"
+            "Carbon Credit Utilization Scheme",
+            "Carbon Capture, Utilization and Storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CCUS encompasses technologies to capture CO2 emissions and either use them or store them permanently."
         },
         {
@@ -2223,9 +2223,9 @@ Industrial decarbonization requires technological innovation, supportive policie
           question: "What is an eco-industrial park?",
           options: [
             "Planned industrial area designed for symbiosis",
+            "Factory with green roofs and walls",
             "Park with ecological restoration",
-            "Industrial museum in natural setting",
-            "Factory with green roofs and walls"
+            "Industrial museum in natural setting"
           ],
           correctAnswer: 0,
           explanation: "Eco-industrial parks are designed from the outset to facilitate resource exchange and environmental performance."
@@ -2234,12 +2234,12 @@ Industrial decarbonization requires technological innovation, supportive policie
           id: 10,
           question: "What is ISO 50001?",
           options: [
-            "International standard for energy management systems",
-            "Standard for 50001 efficient products",
+            "International energy efficiency rating",
             "ISO standard for carbon accounting",
-            "International energy efficiency rating"
+            "Standard for 50001 efficient products",
+            "International standard for energy management systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ISO 50001 provides a framework for establishing, implementing, maintaining and improving energy management systems."
         },
         {
@@ -2248,8 +2248,8 @@ Industrial decarbonization requires technological innovation, supportive policie
           options: [
             "Melting scrap steel using electricity",
             "Heating iron ore with electric arcs",
-            "Electrolytic refining of steel",
-            "Induction heating of steel billets"
+            "Induction heating of steel billets",
+            "Electrolytic refining of steel"
           ],
           correctAnswer: 0,
           explanation: "Electric arc furnaces melt recycled scrap steel, requiring much less energy than primary steel production."
@@ -2258,60 +2258,60 @@ Industrial decarbonization requires technological innovation, supportive policie
           id: 12,
           question: "What is direct air capture?",
           options: [
-            "Removing CO2 directly from ambient air",
-            "Capturing emissions at industrial sources",
             "Natural carbon sequestration by plants",
+            "Capturing emissions at industrial sources",
+            "Removing CO2 directly from ambient air",
             "Ocean-based carbon removal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DAC technologies chemically capture CO2 from the atmosphere rather than from concentrated point sources."
         },
         {
           id: 13,
           question: "What is waste heat cascading?",
           options: [
-            "Using heat at progressively lower temperatures",
             "Heat flowing down from high areas",
-            "Multiple heat recovery systems in series",
-            "Industrial heating in cascade mountains"
+            "Using heat at progressively lower temperatures",
+            "Industrial heating in cascade mountains",
+            "Multiple heat recovery systems in series"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cascading uses high-temperature waste heat for high-temperature needs first, then lower temperatures for other uses."
         },
         {
           id: 14,
           question: "What does Industry 4.0 refer to?",
           options: [
-            "Fourth industrial revolution with digitalization",
             "Four times industrial productivity",
+            "Industry in four global regions",
             "Four key industrial sectors",
-            "Industry in four global regions"
+            "Fourth industrial revolution with digitalization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Industry 4.0 involves cyber-physical systems, IoT, cloud computing, and AI in manufacturing."
         },
         {
           id: 15,
           question: "What is light-weighting in material efficiency?",
           options: [
-            "Using less material for same function",
             "Making materials weigh less naturally",
-            "Reducing product weight by any means",
-            "Using lightweight materials only"
+            "Using lightweight materials only",
+            "Using less material for same function",
+            "Reducing product weight by any means"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Light-weighting redesigns products to use less material while maintaining or improving performance."
         },
         {
           id: 16,
           question: "What is carbon leakage?",
           options: [
-            "Industries relocating to avoid carbon costs",
-            "CO2 escaping from storage sites",
             "Carbon pricing revenue disappearing",
+            "CO2 escaping from storage sites",
+            "Industries relocating to avoid carbon costs",
             "Leaking carbon in industrial processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Carbon leakage occurs when emissions-intensive production moves to regions with weaker climate policies."
         },
         {
@@ -2320,8 +2320,8 @@ Industrial decarbonization requires technological innovation, supportive policie
           options: [
             "Burning fuel in oxygen instead of air",
             "Oxygen-enhanced natural gas combustion",
-            "Fuel mixed with oxygen carriers",
-            "Combustion optimized for oxygen content"
+            "Combustion optimized for oxygen content",
+            "Fuel mixed with oxygen carriers"
           ],
           correctAnswer: 0,
           explanation: "Oxy-fuel combustion produces a concentrated CO2 stream that's easier to capture from flue gases."
@@ -2330,24 +2330,24 @@ Industrial decarbonization requires technological innovation, supportive policie
           id: 18,
           question: "What are science-based targets?",
           options: [
-            "Emission reductions aligned with climate science",
-            "Targets based on scientific publications",
+            "Targets set by scientific committees",
             "Laboratory-proven technical targets",
-            "Targets set by scientific committees"
+            "Emission reductions aligned with climate science",
+            "Targets based on scientific publications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Science-based targets align corporate emissions reductions with what climate science says is necessary."
         },
         {
           id: 19,
           question: "What is inert anode technology for aluminum?",
           options: [
-            "Eliminates process emissions from smelting",
-            "Anodes that never need replacement",
             "Non-reactive electrode materials",
-            "Anodes for high-temperature processes"
+            "Anodes for high-temperature processes",
+            "Eliminates process emissions from smelting",
+            "Anodes that never need replacement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Inert anodes don't consume carbon during aluminum production, eliminating direct process CO2 emissions."
         },
         {
@@ -2356,8 +2356,8 @@ Industrial decarbonization requires technological innovation, supportive policie
           options: [
             "Adjusting operations based on grid conditions",
             "Responding to customer demand changes",
-            "Demanding better grid response",
-            "Industrial response to policy demands"
+            "Industrial response to policy demands",
+            "Demanding better grid response"
           ],
           correctAnswer: 0,
           explanation: "Industrial demand response involves temporarily reducing or shifting electricity use to help balance the grid."
@@ -2630,24 +2630,24 @@ Energy justice transforms energy from a technical-economic problem to a socio-po
           id: 1,
           question: "What are the three core tenets of energy justice?",
           options: [
-            "Distributive, Procedural, Recognition Justice",
-            "Economic, Environmental, Social Justice",
             "Access, Affordability, Reliability Justice",
-            "Historical, Current, Future Justice"
+            "Historical, Current, Future Justice",
+            "Economic, Environmental, Social Justice",
+            "Distributive, Procedural, Recognition Justice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The three core tenets address distribution of benefits/burdens, decision-making processes, and recognition of different groups."
         },
         {
           id: 2,
           question: "How many people lack electricity access worldwide?",
           options: [
-            "760 million",
-            "100 million",
+            "5 billion",
             "2 billion",
-            "5 billion"
+            "760 million",
+            "100 million"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Approximately 760 million people, mostly in sub-Saharan Africa and South Asia, lack access to electricity."
         },
         {
@@ -2666,60 +2666,60 @@ Energy justice transforms energy from a technical-economic problem to a socio-po
           id: 4,
           question: "What does FPIC stand for regarding indigenous rights?",
           options: [
-            "Free, Prior and Informed Consent",
             "Full Participation in Community",
-            "Fair Pricing and Inclusive Contracts",
-            "Future Planning for Indigenous Communities"
+            "Future Planning for Indigenous Communities",
+            "Free, Prior and Informed Consent",
+            "Fair Pricing and Inclusive Contracts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FPIC is a principle that indigenous communities must give consent before projects proceed on their lands."
         },
         {
           id: 5,
           question: "What is a progressive impact of a policy?",
           options: [
-            "Benefits lower-income groups relatively more",
-            "Progresses quickly through legislative process",
             "Has progressive environmental benefits",
-            "Uses progressive technology"
+            "Benefits lower-income groups relatively more",
+            "Uses progressive technology",
+            "Progresses quickly through legislative process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Progressive policies reduce inequality by providing greater relative benefits to those with lower incomes."
         },
         {
           id: 6,
           question: "What is community energy?",
           options: [
+            "Energy donated to communities",
             "Locally owned and controlled energy projects",
             "Energy for community buildings only",
-            "Community discussions about energy",
-            "Energy donated to communities"
+            "Community discussions about energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Community energy involves local ownership, control, and benefit from energy generation and efficiency projects."
         },
         {
           id: 7,
           question: "What is a just transition for workers?",
           options: [
-            "Support for workers affected by energy transition",
             "Transition that happens at just the right time",
+            "Workers transitioning to justice jobs",
             "Only justifiable transitions allowed",
-            "Workers transitioning to justice jobs"
+            "Support for workers affected by energy transition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Just transition supports workers in declining industries through retraining, placement, and income support."
         },
         {
           id: 8,
           question: "How does energy access disproportionately affect women?",
           options: [
-            "Women bear burden of fuel collection and cooking",
-            "Women use more energy than men",
+            "Women are excluded from all energy decisions",
             "Only women care about energy issues",
-            "Women are excluded from all energy decisions"
+            "Women use more energy than men",
+            "Women bear burden of fuel collection and cooking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Women typically spend more time collecting fuel and cooking, and suffer more health impacts from indoor air pollution."
         },
         {
@@ -2727,8 +2727,8 @@ Energy justice transforms energy from a technical-economic problem to a socio-po
           question: "What is the $100 billion climate finance commitment?",
           options: [
             "Annual climate finance from developed to developing countries",
-            "Total global climate finance needed",
             "Climate finance for renewable energy only",
+            "Total global climate finance needed",
             "Private sector climate finance goal"
           ],
           correctAnswer: 0,
@@ -2739,9 +2739,9 @@ Energy justice transforms energy from a technical-economic problem to a socio-po
           question: "What is energy sovereignty?",
           options: [
             "Right to choose energy development pathways",
+            "National ownership of all energy resources",
             "Complete energy self-sufficiency",
-            "Sovereign wealth funds for energy",
-            "National ownership of all energy resources"
+            "Sovereign wealth funds for energy"
           ],
           correctAnswer: 0,
           explanation: "Energy sovereignty emphasizes communities' and nations' right to control their energy resources and choose their energy futures."
@@ -2750,12 +2750,12 @@ Energy justice transforms energy from a technical-economic problem to a socio-po
           id: 11,
           question: "What is hidden energy poverty?",
           options: [
-            "Underconsumption due to unaffordability",
             "Poverty hidden by energy subsidies",
+            "Underconsumption due to unaffordability",
             "Energy poverty in remote areas",
             "Poverty caused by hidden energy costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hidden energy poverty occurs when people cannot afford adequate energy services but this isn't captured in standard measures."
         },
         {
@@ -2764,8 +2764,8 @@ Energy justice transforms energy from a technical-economic problem to a socio-po
           options: [
             "Communities deciding on spending priorities",
             "Budget participation by all departments",
-            "Public review of government budgets",
-            "Budgeting for participatory programs"
+            "Budgeting for participatory programs",
+            "Public review of government budgets"
           ],
           correctAnswer: 0,
           explanation: "Participatory budgeting involves community members directly deciding how to allocate public funds."
@@ -2774,96 +2774,96 @@ Energy justice transforms energy from a technical-economic problem to a socio-po
           id: 13,
           question: "What is revenue recycling in carbon pricing?",
           options: [
-            "Using carbon revenue for public purposes",
-            "Recycling carbon emissions",
+            "Reusing carbon tax legislation",
             "Carbon market revenue distribution",
-            "Reusing carbon tax legislation"
+            "Recycling carbon emissions",
+            "Using carbon revenue for public purposes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Revenue recycling refers to how governments use income from carbon taxes or allowance auctions."
         },
         {
           id: 14,
           question: "What are community benefit agreements?",
           options: [
+            "Government benefits for communities",
             "Legal commitments from developers to communities",
-            "Agreements between community members",
             "Benefits available to all community members",
-            "Government benefits for communities"
+            "Agreements between community members"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CBAs are legally enforceable agreements where developers commit to provide specific benefits to host communities."
         },
         {
           id: 15,
           question: "What is loss and damage in climate negotiations?",
           options: [
-            "Addressing irreversible climate impacts",
-            "Loss of climate negotiation documents",
+                    "Loss of climate funding",
                     "Damage to climate monitoring equipment",
-                    "Loss of climate funding"
+            "Loss of climate negotiation documents",
+            "Addressing irreversible climate impacts"
                 ],
-                correctAnswer: 0,
+                correctAnswer: 3,
                 explanation: "Loss and damage refers to climate impacts beyond adaptation, requiring compensation or support."
             },
             {
                 id: 16,
                 question: "What is intergenerational justice?",
                 options: [
-                    "Fairness across generations",
                     "Justice within one generation",
                     "Generational conflict resolution",
+                    "Fairness across generations",
                     "Justice for generation-specific issues"
                 ],
-                correctAnswer: 0,
+                correctAnswer: 2,
                 explanation: "Intergenerational justice considers our responsibilities to future generations in energy and climate decisions."
             },
             {
                 id: 17,
                 question: "What is intersectional justice?",
                 options: [
-                    "Recognizing overlapping identities and oppressions",
                     "Justice at intersections of different issues",
-                    "Justice where different systems intersect",
-                    "International justice with intersection points"
+                    "International justice with intersection points",
+                    "Recognizing overlapping identities and oppressions",
+                    "Justice where different systems intersect"
                 ],
-                correctAnswer: 0,
+                correctAnswer: 2,
                 explanation: "Intersectionality recognizes how different forms of discrimination (race, gender, class) combine and interact."
             },
             {
                 id: 18,
                 question: "What is South-South cooperation?",
                 options: [
+                    "Cooperation led by southern countries",
                     "Knowledge sharing between developing countries",
-                    "Cooperation between southern hemisphere countries",
                     "Collaboration on southern issues",
-                    "Cooperation led by southern countries"
+                    "Cooperation between southern hemisphere countries"
                 ],
-                correctAnswer: 0,
+                correctAnswer: 1,
                 explanation: "South-South cooperation involves developing countries sharing knowledge, resources, and technologies."
             },
             {
                 id: 19,
                 question: "What is reflective practice in energy justice?",
                 options: [
-                    "Examining own position and biases",
-                    "Practicing justice principles repeatedly",
                     "Reflecting on successful projects",
-                    "Practice that reflects community values"
+                    "Examining own position and biases",
+                    "Practice that reflects community values",
+                    "Practicing justice principles repeatedly"
                 ],
-                correctAnswer: 0,
+                correctAnswer: 1,
                 explanation: "Reflective practice involves professionals critically examining their own assumptions, privileges, and impacts."
             },
             {
                 id: 20,
                 question: "What is energy democracy?",
                 options: [
-                    "Participatory governance of energy systems",
-                    "Democratic countries' energy policies",
                     "Voting on energy issues",
+                    "Democratic countries' energy policies",
+                    "Participatory governance of energy systems",
                     "Energy for democratic institutions"
                 ],
-                correctAnswer: 0,
+                correctAnswer: 2,
                 explanation: "Energy democracy emphasizes community control, participatory decision-making, and equitable benefits from energy systems."
             }
         ]
@@ -2883,9 +2883,9 @@ finalExam: {
             question: "What does systems thinking emphasize in energy analysis?",
             options: [
                 "Interconnections and whole system behavior",
-                "Only technical efficiency of components",
                 "Short-term economic costs alone",
-                "Individual technology performance in isolation"
+                "Individual technology performance in isolation",
+                "Only technical efficiency of components"
             ],
             correctAnswer: 0,
             explanation: "Systems thinking focuses on relationships and emergent properties, not just individual components."
@@ -2895,12 +2895,12 @@ finalExam: {
             module: 1,
             question: "What three systems are interconnected in the Energy-Water-Food Nexus?",
             options: [
-                "Energy, Water, Food",
-                "Energy, Transportation, Buildings",
+                "Food, Health, Education",
                 "Water, Air, Soil",
-                "Food, Health, Education"
+                "Energy, Transportation, Buildings",
+                "Energy, Water, Food"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "The nexus recognizes deep interconnections between these three critical resource systems."
         },
         {
@@ -2908,12 +2908,12 @@ finalExam: {
             module: 1,
             question: "What EROI ratio do modern complex societies typically need?",
             options: [
-                "10-15:1 or higher",
-                "Exactly 1:1",
                 "2-3:1",
-                "100:1 or higher"
+                "100:1 or higher",
+                "Exactly 1:1",
+                "10-15:1 or higher"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "Complex societies with extensive infrastructure require higher energy returns to function."
         },
         {
@@ -2922,8 +2922,8 @@ finalExam: {
             question: "What is resilience in energy systems?",
             options: [
                 "Ability to withstand and recover from disturbances",
-                "Always having the lowest cost energy",
                 "Using only renewable sources",
+                "Always having the lowest cost energy",
                 "Complete independence from all external systems"
             ],
             correctAnswer: 0,
@@ -2937,9 +2937,9 @@ finalExam: {
             question: "What are externalities in energy economics?",
             options: [
                 "Costs or benefits affecting third parties, not reflected in prices",
-                "Extra charges on electricity bills",
                 "Government taxes on energy companies",
-                "Hidden profits for energy producers"
+                "Hidden profits for energy producers",
+                "Extra charges on electricity bills"
             ],
             correctAnswer: 0,
             explanation: "Externalities create market failures by not being incorporated into market prices."
@@ -2949,12 +2949,12 @@ finalExam: {
             module: 2,
             question: "What does LCOE stand for?",
             options: [
-                "Levelized Cost of Energy",
                 "Lowest Cost of Electricity",
                 "Local Cost of Energy",
+                "Levelized Cost of Energy",
                 "Long-term Cost Estimate"
             ],
-            correctAnswer: 0,
+            correctAnswer: 2,
             explanation: "LCOE calculates lifetime average cost per unit of energy generated."
         },
         {
@@ -2962,12 +2962,12 @@ finalExam: {
             module: 2,
             question: "What is a progressive impact of an energy policy?",
             options: [
-                "Benefits lower-income groups relatively more",
                 "Progresses quickly through legislative process",
                 "Has progressive environmental benefits",
-                "Uses progressive technology"
+                "Uses progressive technology",
+                "Benefits lower-income groups relatively more"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "Progressive policies reduce inequality by benefiting lower-income groups more."
         },
         {
@@ -2975,12 +2975,12 @@ finalExam: {
             module: 2,
             question: "What is circular economy in energy systems?",
             options: [
-                "Keeping materials in use and designing out waste",
                 "Making all energy flows circular",
+                "Keeping materials in use and designing out waste",
                 "Only using renewable resources",
                 "Eliminating all economic costs"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "Circular economy minimizes waste and maximizes resource efficiency through reuse and recycling."
 
         },
@@ -2991,12 +2991,12 @@ finalExam: {
             module: 3,
             question: "What are the two main carbon pricing approaches?",
             options: [
-                "Carbon taxes and emissions trading",
                 "Renewable mandates and efficiency standards",
+                "Building codes and appliance standards",
                 "Research funding and deployment subsidies",
-                "Building codes and appliance standards"
+                "Carbon taxes and emissions trading"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "Carbon pricing can be implemented through direct taxes or cap-and-trade systems."
         },
         {
@@ -3006,8 +3006,8 @@ finalExam: {
             options: [
                 "Renewable Portfolio Standard",
                 "Renewable Power System",
-                "Regional Planning Strategy",
-                "Resource Performance Standard"
+                "Resource Performance Standard",
+                "Regional Planning Strategy"
             ],
             correctAnswer: 0,
             explanation: "RPS mandates minimum renewable percentages for electricity suppliers."
@@ -3018,9 +3018,9 @@ finalExam: {
             question: "What is performance-based regulation for utilities?",
             options: [
                 "Linking profits to performance metrics rather than sales",
-                "Regulating based on political performance",
+                "Setting prices based on competitor performance",
                 "Only allowing profitable utilities to operate",
-                "Setting prices based on competitor performance"
+                "Regulating based on political performance"
             ],
             correctAnswer: 0,
             explanation: "Performance-based regulation aligns utility incentives with societal goals."
@@ -3030,12 +3030,12 @@ finalExam: {
             module: 3,
             question: "What are non-wires alternatives?",
             options: [
-                "Demand-side and distributed alternatives to grid upgrades",
                 "Wireless electricity transmission",
-                "Alternatives to copper wiring",
-                "Underground instead of overhead lines"
+                "Demand-side and distributed alternatives to grid upgrades",
+                "Underground instead of overhead lines",
+                "Alternatives to copper wiring"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "NWAs can defer or avoid traditional grid infrastructure investments."
 
         },
@@ -3046,12 +3046,12 @@ finalExam: {
             module: 4,
             question: "What percentage of global energy do cities typically consume?",
             options: [
+                "About 50%",
                 "About 75%",
                 "About 25%",
-                "About 50%",
                 "About 90%"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "Cities account for approximately three-quarters of global energy consumption."
         },
         {
@@ -3059,12 +3059,12 @@ finalExam: {
             module: 4,
             question: "What is TOD in urban planning?",
             options: [
-                "Transit-Oriented Development",
-                "Total Outdoor Design",
                 "Technical Operations Division",
-                "Transport Optimization District"
+                "Transit-Oriented Development",
+                "Transport Optimization District",
+                "Total Outdoor Design"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "TOD focuses development around public transit to reduce car dependence."
         },
         {
@@ -3072,12 +3072,12 @@ finalExam: {
             module: 4,
             question: "What is a net zero energy building?",
             options: [
-                "Produces as much energy as it consumes annually",
-                "Uses no energy at all",
                 "Only uses energy from the grid",
-                "Has zero carbon footprint in construction"
+                "Produces as much energy as it consumes annually",
+                "Has zero carbon footprint in construction",
+                "Uses no energy at all"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "Net zero buildings generate enough renewable energy to offset annual consumption."
         },
         {
@@ -3086,9 +3086,9 @@ finalExam: {
             question: "What is a positive energy district?",
             options: [
                 "Produces more energy than it consumes",
-                "Has only positive attitudes toward energy",
                 "District with maximum energy consumption",
-                "Area focused on positive environmental messaging"
+                "Area focused on positive environmental messaging",
+                "Has only positive attitudes toward energy"
             ],
             correctAnswer: 0,
             explanation: "Positive energy districts generate renewable surplus for surrounding areas."
@@ -3101,12 +3101,12 @@ finalExam: {
             module: 5,
             question: "What percentage of global energy use comes from industry?",
             options: [
-                "About 37%",
                 "About 15%",
+                "About 37%",
                 "About 50%",
                 "About 75%"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "Industry accounts for approximately 37% of global final energy consumption."
         },
         {
@@ -3114,12 +3114,12 @@ finalExam: {
             module: 5,
             question: "What is industrial symbiosis?",
             options: [
-                "By-product exchange between companies",
                 "Similar industries working together",
                 "Industries mimicking natural systems",
-                "Industrial mergers and acquisitions"
+                "Industrial mergers and acquisitions",
+                "By-product exchange between companies"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "Industrial symbiosis involves companies exchanging materials, energy, and by-products."
         },
         {
@@ -3127,12 +3127,12 @@ finalExam: {
             module: 5,
             question: "What is green hydrogen?",
             options: [
-                "Hydrogen produced using renewable energy",
-                "Hydrogen with green coloring added",
                 "Hydrogen from natural gas with carbon capture",
-                "Hydrogen used in green industries"
+                "Hydrogen used in green industries",
+                "Hydrogen produced using renewable energy",
+                "Hydrogen with green coloring added"
             ],
-            correctAnswer: 0,
+            correctAnswer: 2,
             explanation: "Green hydrogen is produced through water electrolysis powered by renewables."
         },
         {
@@ -3140,12 +3140,12 @@ finalExam: {
             module: 5,
             question: "What does CCUS stand for?",
             options: [
-                "Carbon Capture, Utilization and Storage",
+                "Carbon Credit Utilization Scheme",
                 "Carbon Control and Use Systems",
-                "Climate Change Under Study",
-                "Carbon Credit Utilization Scheme"
+                "Carbon Capture, Utilization and Storage",
+                "Climate Change Under Study"
             ],
-            correctAnswer: 0,
+            correctAnswer: 2,
             explanation: "CCUS technologies capture CO2 emissions for use or permanent storage."
 
         },
@@ -3157,8 +3157,8 @@ finalExam: {
             question: "What are the three core tenets of energy justice?",
             options: [
                 "Distributive, Procedural, Recognition Justice",
-                "Economic, Environmental, Social Justice",
                 "Access, Affordability, Reliability Justice",
+                "Economic, Environmental, Social Justice",
                 "Historical, Current, Future Justice"
             ],
             correctAnswer: 0,
@@ -3169,12 +3169,12 @@ finalExam: {
             module: 6,
             question: "How many people lack electricity access worldwide?",
             options: [
+                "5 billion",
                 "760 million",
                 "100 million",
-                "2 billion",
-                "5 billion"
+                "2 billion"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "Approximately 760 million people lack access to electricity, primarily in sub-Saharan Africa and South Asia."
         },
         {
@@ -3183,9 +3183,9 @@ finalExam: {
             question: "What is energy sovereignty?",
             options: [
                 "Right to choose energy development pathways",
-                "Complete energy self-sufficiency",
                 "Sovereign wealth funds for energy",
-                "National ownership of all energy resources"
+                "National ownership of all energy resources",
+                "Complete energy self-sufficiency"
             ],
             correctAnswer: 0,
             explanation: "Energy sovereignty emphasizes communities' control over their energy futures."
@@ -3212,9 +3212,9 @@ finalExam: {
             question: "What is Life Cycle Assessment?",
             options: [
                 "Environmental impacts from cradle to grave",
-                "Only operational energy use assessment",
+                "Technical performance over time",
                 "Financial life cycle costing",
-                "Technical performance over time"
+                "Only operational energy use assessment"
             ],
             correctAnswer: 0,
             explanation: "LCA evaluates all environmental impacts from raw material extraction through disposal."
@@ -3224,12 +3224,12 @@ finalExam: {
             module: 2,
             question: "What is feed-in tariff?",
             options: [
-                "Guaranteed prices for renewable generation",
                 "Tariff on imported energy equipment",
+                "Guaranteed prices for renewable generation",
                 "Fee for connecting to the grid",
                 "Tax on energy feedstocks"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "Feed-in tariffs provide long-term, guaranteed prices to renewable energy producers."
         },
         {
@@ -3263,12 +3263,12 @@ finalExam: {
             module: 5,
             question: "What is industrial heat pump?",
             options: [
-                "Upgrades waste heat to useful temperatures",
-                "Pump for industrial heating systems",
                 "Heat pump for industrial buildings",
+                "Pump for industrial heating systems",
+                "Upgrades waste heat to useful temperatures",
                 "Pumping heat from industrial processes"
             ],
-            correctAnswer: 0,
+            correctAnswer: 2,
             explanation: "Industrial heat pumps recover waste heat and upgrade it for useful applications."
         },
         {
@@ -3276,12 +3276,12 @@ finalExam: {
             module: 6,
             question: "What is energy burden?",
             options: [
-                "Percentage of income spent on energy",
                 "Weight of energy equipment",
+                "Percentage of income spent on energy",
                 "Environmental burden of energy production",
                 "Social burden of energy decisions"
             ],
-            correctAnswer: 0,
+            correctAnswer: 1,
             explanation: "Energy burden measures affordability challenges through income percentage spent on energy."
         },
         {
@@ -3290,9 +3290,9 @@ finalExam: {
             question: "What are the three levels in Multi-Scale Perspective?",
             options: [
                 "Niches, Regimes, Landscape",
-                "Local, National, Global",
                 "Technical, Economic, Social",
-                "Supply, Distribution, Demand"
+                "Supply, Distribution, Demand",
+                "Local, National, Global"
             ],
             correctAnswer: 0,
             explanation: "This framework analyzes transitions across innovation niches, dominant regimes, and broader landscape factors."
@@ -3302,12 +3302,12 @@ finalExam: {
             module: 2,
             question: "What is net metering?",
             options: [
-                "1:1 retail rate compensation for excess generation",
-                "Payment based on time-of-use rates",
+                "Free electricity for solar owners",
                 "Compensation only for environmental benefits",
-                "Free electricity for solar owners"
+                "Payment based on time-of-use rates",
+                "1:1 retail rate compensation for excess generation"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "Net metering credits solar owners at retail rates for power sent to the grid."
         },
         {
@@ -3315,12 +3315,12 @@ finalExam: {
             module: 3,
             question: "What are zero-emission vehicle mandates?",
             options: [
-                "Requirements for increasing percentage of electric vehicles",
+                "Requirements for zero-emission manufacturing",
                 "Bans on all vehicle emissions",
-                "Mandatory electric vehicle purchases",
-                "Requirements for zero-emission manufacturing"
+                "Requirements for increasing percentage of electric vehicles",
+                "Mandatory electric vehicle purchases"
             ],
-            correctAnswer: 0,
+            correctAnswer: 2,
             explanation: "ZEV mandates require automakers to sell increasing percentages of electric vehicles."
         },
         {
@@ -3330,8 +3330,8 @@ finalExam: {
             options: [
                 "Tracking material and energy flows through cities",
                 "The pace of life in urban areas",
-                "Biological processes in urban ecosystems",
-                "Energy consumption patterns of urban residents"
+                "Energy consumption patterns of urban residents",
+                "Biological processes in urban ecosystems"
             ],
             correctAnswer: 0,
             explanation: "Urban metabolism analyzes cities' resource consumption and waste production."
@@ -3341,12 +3341,12 @@ finalExam: {
             module: 5,
             question: "What is ISO 50001?",
             options: [
-                "International standard for energy management systems",
-                "Standard for 50001 efficient products",
+                "International energy efficiency rating",
                 "ISO standard for carbon accounting",
-                "International energy efficiency rating"
+                "Standard for 50001 efficient products",
+                "International standard for energy management systems"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "ISO 50001 provides a framework for organizational energy management systems."
         },
         {
@@ -3355,9 +3355,9 @@ finalExam: {
             question: "What does FPIC stand for regarding indigenous rights?",
             options: [
                 "Free, Prior and Informed Consent",
+                "Future Planning for Indigenous Communities",
                 "Full Participation in Community",
-                "Fair Pricing and Inclusive Contracts",
-                "Future Planning for Indigenous Communities"
+                "Fair Pricing and Inclusive Contracts"
             ],
             correctAnswer: 0,
             explanation: "FPIC requires indigenous consent before projects proceed on their lands."
@@ -3368,9 +3368,9 @@ finalExam: {
             question: "What is circular design in energy-water-food nexus?",
             options: [
                 "Outputs become inputs elsewhere in the system",
+                "Water cycles ignore human intervention",
                 "All processes occur in circular buildings",
-                "Energy flows in circular patterns only",
-                "Water cycles ignore human intervention"
+                "Energy flows in circular patterns only"
             ],
             correctAnswer: 0,
             explanation: "Circular design minimizes waste by ensuring outputs become inputs for other processes."
@@ -3381,9 +3381,9 @@ finalExam: {
             question: "What is community solar?",
             options: [
                 "Shared solar installations serving multiple subscribers",
-                "Solar panels only on community buildings",
                 "Free solar for low-income communities",
-                "Solar energy education programs"
+                "Solar energy education programs",
+                "Solar panels only on community buildings"
             ],
             correctAnswer: 0,
             explanation: "Community solar allows multiple participants to benefit from shared solar arrays."
@@ -3393,12 +3393,12 @@ finalExam: {
             module: 3,
             question: "What is adaptive management in policy implementation?",
             options: [
-                "Learning and adjusting based on experience",
-                "Managing policies adaptively for different groups",
                 "Using adaptive control systems",
-                "Policy adaptation to local conditions"
+                "Managing policies adaptively for different groups",
+                "Policy adaptation to local conditions",
+                "Learning and adjusting based on experience"
             ],
-            correctAnswer: 0,
+            correctAnswer: 3,
             explanation: "Adaptive management involves monitoring outcomes and adjusting policies accordingly."
         },
         {
@@ -3407,8 +3407,8 @@ finalExam: {
             question: "What is a digital twin in urban planning?",
             options: [
                 "Virtual replica of physical systems for simulation",
-                "Duplicate control systems for redundancy",
                 "Two identical cities for comparison",
+                "Duplicate control systems for redundancy",
                 "Digital copy of energy bills"
             ],
             correctAnswer: 0,

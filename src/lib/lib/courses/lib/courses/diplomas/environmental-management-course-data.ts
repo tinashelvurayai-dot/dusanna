@@ -237,8 +237,8 @@ This foundation in environmental management systems sets the stage for implement
           options: [
             "Continuous improvement framework",
             "One-time implementation process",
-            "Only planning phase",
-            "Only checking phase"
+            "Only checking phase",
+            "Only planning phase"
           ],
           correctAnswer: 0,
           explanation: "The PDCA cycle provides a systematic approach for continual improvement in environmental management systems."
@@ -247,12 +247,12 @@ This foundation in environmental management systems sets the stage for implement
           id: 3,
           question: "What is an environmental aspect?",
           options: [
+            "Only regulatory requirement",
             "Element of activities that interacts with environment",
             "Only natural environmental feature",
-            "Only regulatory requirement",
             "Only stakeholder concern"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental aspects are elements of an organization's activities, products, or services that can interact with the environment."
         },
         {
@@ -260,9 +260,9 @@ This foundation in environmental management systems sets the stage for implement
           question: "What is environmental policy?",
           options: [
             "Formal statement of environmental intentions",
+            "Only stakeholder agreement",
             "Only government regulation",
-            "Only internal procedure",
-            "Only stakeholder agreement"
+            "Only internal procedure"
           ],
           correctAnswer: 0,
           explanation: "An environmental policy is a formal statement by an organization of its environmental intentions and principles."
@@ -272,9 +272,9 @@ This foundation in environmental management systems sets the stage for implement
           question: "What is SWOT analysis in environmental planning?",
           options: [
             "Assessing strengths, weaknesses, opportunities, threats",
+            "Only compliance checking",
             "Only environmental impact assessment",
-            "Only stakeholder analysis",
-            "Only compliance checking"
+            "Only stakeholder analysis"
           ],
           correctAnswer: 0,
           explanation: "SWOT analysis evaluates internal strengths and weaknesses and external opportunities and threats for strategic planning."
@@ -283,48 +283,48 @@ This foundation in environmental management systems sets the stage for implement
           id: 6,
           question: "What is the Clean Air Act?",
           options: [
-            "Law regulating air emissions",
-            "Only water quality law",
+            "Only species protection law",
             "Only waste management law",
-            "Only species protection law"
+            "Only water quality law",
+            "Law regulating air emissions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Clean Air Act is U.S. legislation that regulates air emissions from stationary and mobile sources."
         },
         {
           id: 7,
           question: "What is compliance management?",
           options: [
+            "Only employee compliance",
             "Structured approach to regulatory requirements",
-            "Only voluntary environmental initiatives",
             "Only financial compliance",
-            "Only employee compliance"
+            "Only voluntary environmental initiatives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Compliance management involves systematic processes to meet legal and regulatory environmental requirements."
         },
         {
           id: 8,
           question: "What are primary stakeholders?",
           options: [
+            "Only environmental organizations",
             "Directly affected by environmental aspects",
-            "Only indirectly interested parties",
             "Only government regulators",
-            "Only environmental organizations"
+            "Only indirectly interested parties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Primary stakeholders are those directly affected by an organization's environmental aspects and impacts."
         },
         {
           id: 9,
           question: "What is environmental risk assessment?",
           options: [
-            "Systematic evaluation of potential environmental harm",
-            "Only financial risk evaluation",
             "Only natural disaster assessment",
-            "Only regulatory risk analysis"
+            "Only financial risk evaluation",
+            "Only regulatory risk analysis",
+            "Systematic evaluation of potential environmental harm"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental risk assessment systematically evaluates potential adverse effects on the environment from hazards."
         },
         {
@@ -343,24 +343,24 @@ This foundation in environmental management systems sets the stage for implement
           id: 11,
           question: "What are environmental performance indicators?",
           options: [
-            "Metrics tracking environmental management effectiveness",
             "Only financial performance measures",
+            "Only production output measures",
             "Only employee performance metrics",
-            "Only production output measures"
+            "Metrics tracking environmental management effectiveness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental performance indicators measure the effectiveness of environmental management efforts and outcomes."
         },
         {
           id: 12,
           question: "What is environmental monitoring?",
           options: [
-            "Systematic data collection on environmental conditions",
             "Only visual inspections",
-            "Only regulatory inspections",
-            "Only financial monitoring"
+            "Only financial monitoring",
+            "Systematic data collection on environmental conditions",
+            "Only regulatory inspections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Environmental monitoring involves systematic collection and analysis of data on environmental conditions and performance."
         },
         {
@@ -380,8 +380,8 @@ This foundation in environmental management systems sets the stage for implement
           question: "What are environmental externalities?",
           options: [
             "Costs or benefits not reflected in market prices",
-            "Only internal organizational costs",
             "Only government subsidies",
+            "Only internal organizational costs",
             "Only employee benefits"
           ],
           correctAnswer: 0,
@@ -403,36 +403,36 @@ This foundation in environmental management systems sets the stage for implement
           id: 16,
           question: "What is EMS implementation phase?",
           options: [
-            "Putting environmental management system into operation",
             "Only planning the system",
-            "Only evaluating the system",
-            "Only documenting the system"
+            "Only documenting the system",
+            "Putting environmental management system into operation",
+            "Only evaluating the system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Implementation involves putting the environmental management system into practice within the organization."
         },
         {
           id: 17,
           question: "What is stakeholder mapping?",
           options: [
-            "Analyzing influence and interest levels of stakeholders",
-            "Only listing stakeholders",
+            "Only ignoring stakeholders",
             "Only contacting stakeholders",
-            "Only ignoring stakeholders"
+            "Analyzing influence and interest levels of stakeholders",
+            "Only listing stakeholders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stakeholder mapping analyzes stakeholders based on their level of interest and influence regarding environmental issues."
         },
         {
           id: 18,
           question: "What is emergency preparedness planning?",
           options: [
-            "Planning for potential environmental incidents",
+            "Only marketing planning",
             "Only routine operations planning",
-            "Only financial planning",
-            "Only marketing planning"
+            "Planning for potential environmental incidents",
+            "Only financial planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Emergency preparedness involves developing plans and procedures to respond to potential environmental incidents."
         },
         {
@@ -440,9 +440,9 @@ This foundation in environmental management systems sets the stage for implement
           question: "What is environmental cost accounting?",
           options: [
             "Tracking environmental expenditures and impacts",
-            "Only tracking production costs",
             "Only tracking sales revenue",
-            "Only tracking employee costs"
+            "Only tracking employee costs",
+            "Only tracking production costs"
           ],
           correctAnswer: 0,
           explanation: "Environmental cost accounting identifies, tracks, and analyzes costs related to environmental aspects and impacts."
@@ -452,9 +452,9 @@ This foundation in environmental management systems sets the stage for implement
           question: "What is natural capital accounting?",
           options: [
             "Including natural resources in economic accounts",
-            "Only financial capital tracking",
+            "Only manufactured capital accounting",
             "Only human capital measurement",
-            "Only manufactured capital accounting"
+            "Only financial capital tracking"
           ],
           correctAnswer: 0,
           explanation: "Natural capital accounting incorporates the value of natural resources and ecosystem services into economic decision-making."
@@ -731,8 +731,8 @@ With pollution prevention and control strategies established, the next module wi
           question: "What is the pollution prevention hierarchy?",
           options: [
             "Prioritized approach starting with source reduction",
-            "Only treatment and disposal focus",
             "Only recycling as first priority",
+            "Only treatment and disposal focus",
             "Random pollution management"
           ],
           correctAnswer: 0,
@@ -743,8 +743,8 @@ With pollution prevention and control strategies established, the next module wi
           question: "What is source reduction in pollution prevention?",
           options: [
             "Eliminating or reducing pollution at source",
-            "Only treating pollution after generation",
             "Only disposing of pollution safely",
+            "Only treating pollution after generation",
             "Only monitoring pollution levels"
           ],
           correctAnswer: 0,
@@ -754,36 +754,36 @@ With pollution prevention and control strategies established, the next module wi
           id: 3,
           question: "What are electrostatic precipitators used for?",
           options: [
-            "Particulate air pollution control",
             "Water treatment only",
-            "Noise reduction only",
-            "Soil remediation only"
+            "Particulate air pollution control",
+            "Soil remediation only",
+            "Noise reduction only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Electrostatic precipitators use electrical charges to remove particulate matter from industrial gas streams."
         },
         {
           id: 4,
           question: "What is Best Available Control Technology?",
           options: [
-            "Stringent emission control requirements",
-            "Only voluntary pollution control",
             "Only basic treatment methods",
-            "Only natural treatment approaches"
+            "Only natural treatment approaches",
+            "Stringent emission control requirements",
+            "Only voluntary pollution control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BACT represents the most effective emission reduction technology that has been adequately demonstrated for specific applications."
         },
         {
           id: 5,
           question: "What is secondary wastewater treatment?",
           options: [
-            "Biological removal of organic matter",
-            "Only physical solids removal",
+            "Only disinfection process",
             "Only chemical treatment",
-            "Only disinfection process"
+            "Biological removal of organic matter",
+            "Only physical solids removal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Secondary treatment uses biological processes to break down organic matter in wastewater."
         },
         {
@@ -791,8 +791,8 @@ With pollution prevention and control strategies established, the next module wi
           question: "What is zero liquid discharge?",
           options: [
             "Eliminating wastewater releases",
-            "Only reducing water use slightly",
             "Only treating wastewater partially",
+            "Only reducing water use slightly",
             "Only monitoring water discharge"
           ],
           correctAnswer: 0,
@@ -802,36 +802,36 @@ With pollution prevention and control strategies established, the next module wi
           id: 7,
           question: "What is the waste minimization hierarchy?",
           options: [
-            "Source reduction, reuse, recycling, recovery, treatment, disposal",
-            "Only disposal as first option",
             "Only treatment without reduction",
-            "Random waste handling"
+            "Random waste handling",
+            "Only disposal as first option",
+            "Source reduction, reuse, recycling, recovery, treatment, disposal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The waste minimization hierarchy prioritizes preventing waste generation first, then reuse, recycling, recovery, treatment, and finally disposal."
         },
         {
           id: 8,
           question: "What is bioremediation?",
           options: [
-            "Using microorganisms to degrade contaminants",
             "Only physical excavation of contaminants",
+            "Only containing contamination",
             "Only chemical treatment of soil",
-            "Only containing contamination"
+            "Using microorganisms to degrade contaminants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bioremediation uses naturally occurring or introduced microorganisms to break down environmental contaminants."
         },
         {
           id: 9,
           question: "What is sound level measurement?",
           options: [
-            "Quantifying noise levels",
-            "Only measuring light levels",
             "Only measuring vibration",
-            "Only measuring temperature"
+            "Quantifying noise levels",
+            "Only measuring temperature",
+            "Only measuring light levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sound level measurement uses specialized equipment to quantify noise levels in decibels."
         },
         {
@@ -839,9 +839,9 @@ With pollution prevention and control strategies established, the next module wi
           question: "What are full cutoff lighting fixtures?",
           options: [
             "Direct light downward only",
-            "Spread light in all directions",
             "Only provide upward lighting",
-            "Only provide horizontal lighting"
+            "Only provide horizontal lighting",
+            "Spread light in all directions"
           ],
           correctAnswer: 0,
           explanation: "Full cutoff fixtures direct light downward to minimize light pollution and glare."
@@ -850,84 +850,84 @@ With pollution prevention and control strategies established, the next module wi
           id: 11,
           question: "What is life cycle costing in pollution prevention?",
           options: [
-            "Considering all costs over technology life",
-            "Only initial purchase cost",
             "Only operational costs",
-            "Only disposal costs"
+            "Only disposal costs",
+            "Considering all costs over technology life",
+            "Only initial purchase cost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Life cycle costing evaluates all costs associated with a technology or project over its entire life span."
         },
         {
           id: 12,
           question: "What are microplastics?",
           options: [
-            "Tiny plastic particles in environment",
+            "Only natural fibers",
             "Only large plastic items",
-            "Only biodegradable plastics",
-            "Only natural fibers"
+            "Tiny plastic particles in environment",
+            "Only biodegradable plastics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Microplastics are plastic particles smaller than 5mm that accumulate in the environment."
         },
         {
           id: 13,
           question: "What is Best Available Techniques concept?",
           options: [
-            "Evaluating available control options holistically",
-            "Only using cheapest techniques",
             "Only using traditional methods",
-            "Only considering one media"
+            "Evaluating available control options holistically",
+            "Only considering one media",
+            "Only using cheapest techniques"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BAT considers technical characteristics, costs, and environmental benefits of available pollution control techniques."
         },
         {
           id: 14,
           question: "What is cross-media pollution management?",
           options: [
-            "Considering all environmental media together",
             "Only focusing on air pollution",
+            "Only focusing on soil pollution",
             "Only focusing on water pollution",
-            "Only focusing on soil pollution"
+            "Considering all environmental media together"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cross-media management addresses pollution comprehensively to avoid transferring problems between air, water, and soil."
         },
         {
           id: 15,
           question: "What is green chemistry?",
           options: [
+            "Only using traditional chemistry",
             "Designing chemical processes to reduce hazards",
             "Only using natural chemicals",
-            "Only avoiding all chemicals",
-            "Only using traditional chemistry"
+            "Only avoiding all chemicals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Green chemistry designs chemical products and processes to reduce or eliminate hazardous substances."
         },
         {
           id: 16,
           question: "What is process modification in pollution prevention?",
           options: [
-            "Changing production methods to prevent pollution",
             "Only treating pollution after generation",
+            "Changing production methods to prevent pollution",
             "Only monitoring processes",
             "Only documenting processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Process modification involves changing manufacturing or operational methods to prevent pollution generation."
         },
         {
           id: 17,
           question: "What are constructed wetlands?",
           options: [
-            "Natural treatment systems for wastewater",
-            "Only decorative water features",
+            "Only recreational areas",
             "Only wildlife habitats",
-            "Only recreational areas"
+            "Natural treatment systems for wastewater",
+            "Only decorative water features"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Constructed wetlands are engineered systems that use natural processes to treat wastewater or stormwater."
         },
         {
@@ -935,9 +935,9 @@ With pollution prevention and control strategies established, the next module wi
           question: "What is phytoremediation?",
           options: [
             "Using plants to extract or degrade contaminants",
-            "Only using chemicals for cleanup",
+            "Only using containment methods",
             "Only using excavation for cleanup",
-            "Only using containment methods"
+            "Only using chemicals for cleanup"
           ],
           correctAnswer: 0,
           explanation: "Phytoremediation uses plants to remove, degrade, or contain environmental contaminants in soil and water."
@@ -946,24 +946,24 @@ With pollution prevention and control strategies established, the next module wi
           id: 19,
           question: "What is the urban heat island effect?",
           options: [
+            "Only rural temperature patterns",
             "Increased temperatures in cities",
-            "Only cooling in cities",
             "Only temperature stability",
-            "Only rural temperature patterns"
+            "Only cooling in cities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Urban heat islands occur when cities experience higher temperatures than surrounding rural areas due to human activities and built environments."
         },
         {
           id: 20,
           question: "What is industrial ecology?",
           options: [
-            "Creating industrial systems that mimic ecosystems",
-            "Only traditional industrial development",
             "Only isolated industrial operations",
-            "Only natural ecosystem preservation"
+            "Only traditional industrial development",
+            "Only natural ecosystem preservation",
+            "Creating industrial systems that mimic ecosystems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Industrial ecology designs industrial systems to function like natural ecosystems, with materials and energy flowing in circular patterns."
         }
       ]
@@ -1249,84 +1249,84 @@ With natural resource management principles established, the next module will co
           id: 1,
           question: "What is carrying capacity in resource management?",
           options: [
-            "Maximum population an environment can sustain",
             "Only current population level",
+            "Only economic growth rate",
             "Only resource extraction rate",
-            "Only economic growth rate"
+            "Maximum population an environment can sustain"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Carrying capacity represents the maximum level of use that an environment can support without degradation."
         },
         {
           id: 2,
           question: "What is adaptive management?",
           options: [
-            "Learning-based approach to management",
-            "Only fixed management plans",
             "Only reactive management",
-            "Only theoretical management"
+            "Learning-based approach to management",
+            "Only theoretical management",
+            "Only fixed management plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adaptive management involves implementing policies as experiments, learning from outcomes, and adjusting approaches accordingly."
         },
         {
           id: 3,
           question: "What is Integrated Water Resources Management?",
           options: [
-            "Holistic approach considering all water uses",
-            "Only drinking water management",
             "Only agricultural water management",
+            "Only drinking water management",
+            "Holistic approach considering all water uses",
             "Only industrial water management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IWRM promotes coordinated development and management of water, land, and related resources to maximize economic and social welfare equitably."
         },
         {
           id: 4,
           question: "What are riparian water rights?",
           options: [
-            "Water rights based on land adjacency to water",
-            "Only first-come-first-served rights",
             "Only government-owned rights",
+            "Only first-come-first-served rights",
+            "Water rights based on land adjacency to water",
             "Only market-traded rights"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Riparian rights allocate water to landowners whose property adjoins a water body, based on reasonable use."
         },
         {
           id: 5,
           question: "What is sustainable forest management?",
           options: [
-            "Balancing different forest values over time",
+            "Only short-term exploitation",
             "Only timber production focus",
-            "Only complete forest preservation",
-            "Only short-term exploitation"
+            "Balancing different forest values over time",
+            "Only complete forest preservation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sustainable forest management maintains forest health and productivity while balancing ecological, social, and economic values."
         },
         {
           id: 6,
           question: "What is forest certification?",
           options: [
-            "Independent verification of sustainable practices",
             "Only government approval",
             "Only industry self-declaration",
-            "Only academic assessment"
+            "Only academic assessment",
+            "Independent verification of sustainable practices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Forest certification involves third-party verification that forests are managed according to agreed sustainable standards."
         },
         {
           id: 7,
           question: "What is Maximum Sustainable Yield in fisheries?",
           options: [
-            "Maximum catch that can be sustained",
             "Only current catch levels",
             "Only maximum possible catch",
-            "Only minimum survival catch"
+            "Only minimum survival catch",
+            "Maximum catch that can be sustained"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MSY is the largest average catch that can be taken from a fish stock over an indefinite period without causing population decline."
         },
         {
@@ -1334,8 +1334,8 @@ With natural resource management principles established, the next module will co
           question: "What is co-management in fisheries?",
           options: [
             "Shared management between government and stakeholders",
-            "Only government control",
             "Only industry control",
+            "Only government control",
             "Only community control"
           ],
           correctAnswer: 0,
@@ -1345,12 +1345,12 @@ With natural resource management principles established, the next module will co
           id: 9,
           question: "What is Population Viability Analysis?",
           options: [
-            "Assessing extinction risk of populations",
             "Only counting current population",
             "Only measuring habitat size",
-            "Only tracking individual animals"
+            "Only tracking individual animals",
+            "Assessing extinction risk of populations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PVA uses demographic and environmental data to estimate the probability of population persistence over time."
         },
         {
@@ -1359,8 +1359,8 @@ With natural resource management principles established, the next module will co
           options: [
             "Creating connections between habitat patches",
             "Only protecting single habitats",
-            "Only isolating habitats",
-            "Only destroying habitat connections"
+            "Only destroying habitat connections",
+            "Only isolating habitats"
           ],
           correctAnswer: 0,
           explanation: "Habitat corridors are strips of habitat that connect isolated patches, allowing species movement and genetic exchange."
@@ -1370,9 +1370,9 @@ With natural resource management principles established, the next module will co
           question: "What is mine closure planning?",
           options: [
             "Planning for post-mining land use",
-            "Only planning for mine opening",
             "Only planning extraction methods",
-            "Only planning worker safety"
+            "Only planning worker safety",
+            "Only planning for mine opening"
           ],
           correctAnswer: 0,
           explanation: "Mine closure planning involves designing and implementing plans for site rehabilitation and after-use following mining operations."
@@ -1381,108 +1381,108 @@ With natural resource management principles established, the next module will co
           id: 12,
           question: "What is carbon capture and storage?",
           options: [
-            "Capturing and storing carbon emissions",
             "Only reducing energy use",
+            "Only using renewable energy",
             "Only planting trees",
-            "Only using renewable energy"
+            "Capturing and storing carbon emissions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CCS involves capturing carbon dioxide emissions from industrial processes and storing them underground to prevent atmospheric release."
         },
         {
           id: 13,
           question: "What is land capability assessment?",
           options: [
-            "Evaluating land for different uses",
-            "Only measuring land size",
             "Only determining land ownership",
-            "Only assessing land value"
+            "Evaluating land for different uses",
+            "Only assessing land value",
+            "Only measuring land size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Land capability assessment evaluates the suitability of land for different uses based on physical characteristics and limitations."
         },
         {
           id: 14,
           question: "What is agroecology?",
           options: [
-            "Integrating ecological principles into farming",
-            "Only industrial agriculture",
+            "Only traditional farming",
             "Only organic certification",
-            "Only traditional farming"
+            "Only industrial agriculture",
+            "Integrating ecological principles into farming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Agroecology applies ecological concepts and principles to agricultural systems to make them more sustainable."
         },
         {
           id: 15,
           question: "What is Integrated Coastal Zone Management?",
           options: [
-            "Comprehensive planning for coastal areas",
             "Only beach management",
-            "Only marine protection",
-            "Only coastal development"
+            "Only coastal development",
+            "Comprehensive planning for coastal areas",
+            "Only marine protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ICZM is a process for managing coastal areas that balances environmental, economic, social, cultural and recreational objectives."
         },
         {
           id: 16,
           question: "What are marine protected areas?",
           options: [
-            "Designated ocean areas with protection measures",
             "Only fishing zones",
-            "Only shipping lanes",
-            "Only military areas"
+            "Only military areas",
+            "Designated ocean areas with protection measures",
+            "Only shipping lanes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "MPAs are clearly defined geographical spaces recognized and managed to achieve long-term conservation of nature and ecosystem services."
         },
         {
           id: 17,
           question: "What are tradable permits in resource management?",
           options: [
-            "Market systems for resource use rights",
             "Only government permits",
+            "Market systems for resource use rights",
             "Only fixed allocations",
             "Only voluntary agreements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Tradable permit systems create markets for pollution or resource use rights, allowing efficient allocation through trading."
         },
         {
           id: 18,
           question: "What is payment for ecosystem services?",
           options: [
-            "Compensating for environmental benefits provided",
-            "Only charging for resource use",
+            "Only voluntary conservation",
             "Only government funding",
-            "Only voluntary conservation"
+            "Compensating for environmental benefits provided",
+            "Only charging for resource use"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PES involves voluntary transactions where ecosystem service beneficiaries pay providers for maintaining or enhancing those services."
         },
         {
           id: 19,
           question: "What is Traditional Ecological Knowledge?",
           options: [
-            "Long-term environmental understanding of indigenous peoples",
-            "Only scientific knowledge",
+            "Only academic research",
             "Only modern technology",
-            "Only academic research"
+            "Only scientific knowledge",
+            "Long-term environmental understanding of indigenous peoples"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "TEK represents cumulative knowledge, practices, and beliefs about relationships between living beings and their environment developed by indigenous peoples."
         },
         {
           id: 20,
           question: "What is ecosystem-based adaptation?",
           options: [
-            "Using ecosystems to reduce climate vulnerability",
             "Only building sea walls",
             "Only relocating communities",
-            "Only technological solutions"
+            "Only technological solutions",
+            "Using ecosystems to reduce climate vulnerability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EbA uses biodiversity and ecosystem services to help people adapt to the adverse effects of climate change."
         }
       ]
@@ -1761,9 +1761,9 @@ With impact assessment and strategic planning established, the next module will 
           question: "What is Environmental Impact Assessment?",
           options: [
             "Systematic process identifying environmental effects",
-            "Only environmental monitoring",
             "Only pollution control",
-            "Only resource management"
+            "Only resource management",
+            "Only environmental monitoring"
           ],
           correctAnswer: 0,
           explanation: "EIA is a systematic process that identifies, predicts, evaluates, and mitigates environmental effects of proposed actions before decisions are made."
@@ -1773,9 +1773,9 @@ With impact assessment and strategic planning established, the next module will 
           question: "What is the purpose of EIA screening?",
           options: [
             "Deciding if EIA is required",
-            "Only identifying all impacts",
+            "Only monitoring impacts",
             "Only designing mitigation measures",
-            "Only monitoring impacts"
+            "Only identifying all impacts"
           ],
           correctAnswer: 0,
           explanation: "Screening determines whether a proposed project requires a full EIA based on its potential environmental impacts."
@@ -1784,84 +1784,84 @@ With impact assessment and strategic planning established, the next module will 
           id: 3,
           question: "What is the mitigation hierarchy in EIA?",
           options: [
-            "Avoid, minimize, restore, compensate",
-            "Only compensate for all impacts",
             "Only monitor impacts",
-            "Only document impacts"
+            "Only compensate for all impacts",
+            "Only document impacts",
+            "Avoid, minimize, restore, compensate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The mitigation hierarchy prioritizes avoiding impacts first, then minimizing, restoring, and finally compensating for residual impacts."
         },
         {
           id: 4,
           question: "What is an Environmental Impact Statement?",
           options: [
-            "Comprehensive assessment document",
             "Only project proposal",
             "Only monitoring report",
+            "Comprehensive assessment document",
             "Only public notice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "An EIS is the detailed document that presents the findings of an environmental impact assessment."
         },
         {
           id: 5,
           question: "What is Strategic Environmental Assessment?",
           options: [
-            "Environmental assessment of policies and plans",
             "Only project-level assessment",
-            "Only site-specific assessment",
-            "Only technical assessment"
+            "Environmental assessment of policies and plans",
+            "Only technical assessment",
+            "Only site-specific assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SEA addresses environmental considerations at the policy, plan, and program level, before project-level decisions are made."
         },
         {
           id: 6,
           question: "What are cumulative effects?",
           options: [
-            "Combined impacts of multiple actions",
-            "Only individual project impacts",
+            "Only local impacts",
             "Only immediate impacts",
-            "Only local impacts"
+            "Only individual project impacts",
+            "Combined impacts of multiple actions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cumulative effects result from the incremental impact of an action when added to other past, present, and reasonably foreseeable future actions."
         },
         {
           id: 7,
           question: "What is an Environmental Management Plan?",
           options: [
-            "Detailed plan for implementing mitigation measures",
             "Only project design document",
-            "Only financial plan",
-            "Only construction schedule"
+            "Detailed plan for implementing mitigation measures",
+            "Only construction schedule",
+            "Only financial plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "An EMP outlines how environmental impacts will be managed during project implementation, operation, and decommissioning."
         },
         {
           id: 8,
           question: "What is multi-criteria analysis in decision-making?",
           options: [
+            "Only considering benefits",
             "Evaluating options against multiple criteria",
             "Only considering costs",
-            "Only considering benefits",
             "Only random selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MCA provides a structured approach for evaluating options against multiple, often conflicting, environmental, social, and economic criteria."
         },
         {
           id: 9,
           question: "What is free, prior, and informed consent?",
           options: [
-            "Indigenous rights in decision-making",
-            "Only government approval",
             "Only technical approval",
-            "Only financial approval"
+            "Only financial approval",
+            "Indigenous rights in decision-making",
+            "Only government approval"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FPIC is a principle that indigenous communities must give consent before projects affecting their lands or resources proceed."
         },
         {
@@ -1869,9 +1869,9 @@ With impact assessment and strategic planning established, the next module will 
           question: "What is climate vulnerability assessment?",
           options: [
             "Evaluating project vulnerability to climate impacts",
-            "Only assessing current climate",
+            "Only weather forecasting",
             "Only historical climate analysis",
-            "Only weather forecasting"
+            "Only assessing current climate"
           ],
           correctAnswer: 0,
           explanation: "Climate vulnerability assessment evaluates how climate change might affect a project and how the project might cope with those changes."
@@ -1892,24 +1892,24 @@ With impact assessment and strategic planning established, the next module will 
           id: 12,
           question: "What are ecosystem services?",
           options: [
-            "Benefits people obtain from ecosystems",
-            "Only natural processes",
             "Only economic services",
-            "Only cultural services"
+            "Only cultural services",
+            "Benefits people obtain from ecosystems",
+            "Only natural processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ecosystem services are the direct and indirect contributions of ecosystems to human well-being."
         },
         {
           id: 13,
           question: "What is transboundary EIA?",
           options: [
-            "Addressing cross-border environmental impacts",
-            "Only national assessments",
+            "Only regional assessments",
             "Only local assessments",
-            "Only regional assessments"
+            "Addressing cross-border environmental impacts",
+            "Only national assessments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transboundary EIA addresses environmental impacts that cross national borders, requiring cooperation between countries."
         },
         {
@@ -1917,9 +1917,9 @@ With impact assessment and strategic planning established, the next module will 
           question: "What are the Equator Principles?",
           options: [
             "Financial industry standards for project finance",
-            "Only government regulations",
+            "Only academic standards",
             "Only voluntary guidelines",
-            "Only academic standards"
+            "Only government regulations"
           ],
           correctAnswer: 0,
           explanation: "The Equator Principles are a risk management framework adopted by financial institutions for determining, assessing, and managing environmental and social risk in projects."
@@ -1940,60 +1940,60 @@ With impact assessment and strategic planning established, the next module will 
           id: 16,
           question: "What is baseline studies in EIA?",
           options: [
-            "Establishing existing environmental conditions",
-            "Only future predictions",
+            "Only monitoring data",
             "Only impact assessment",
-            "Only monitoring data"
+            "Establishing existing environmental conditions",
+            "Only future predictions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Baseline studies document the existing environmental conditions before a project begins, providing a reference for impact assessment."
         },
         {
           id: 17,
           question: "What is significance determination in EIA?",
           options: [
-            "Evaluating importance of predicted impacts",
-            "Only identifying impacts",
             "Only counting impacts",
-            "Only listing impacts"
+            "Only identifying impacts",
+            "Only listing impacts",
+            "Evaluating importance of predicted impacts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Significance determination evaluates how important predicted impacts are, considering factors like magnitude, duration, and reversibility."
         },
         {
           id: 18,
           question: "What is Social Impact Assessment?",
           options: [
-            "Assessing social consequences of proposed actions",
-            "Only economic assessment",
             "Only environmental assessment",
-            "Only technical assessment"
+            "Assessing social consequences of proposed actions",
+            "Only technical assessment",
+            "Only economic assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SIA analyzes the social consequences of proposed actions, including impacts on communities, livelihoods, and cultural heritage."
         },
         {
           id: 19,
           question: "What is Health Impact Assessment?",
           options: [
-            "Evaluating health consequences of policies and projects",
             "Only medical treatment",
             "Only disease monitoring",
+            "Evaluating health consequences of policies and projects",
             "Only health promotion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "HIA evaluates the potential health effects of a policy, program, or project on a population and distributes those effects within the population."
         },
         {
           id: 20,
           question: "What is adaptive management in environmental planning?",
           options: [
-            "Flexible, learning-based management approach",
             "Only fixed management plans",
-            "Only reactive management",
-            "Only theoretical management"
+            "Flexible, learning-based management approach",
+            "Only theoretical management",
+            "Only reactive management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adaptive management involves implementing actions as experiments, monitoring outcomes, and adjusting approaches based on what is learned."
         }
       ]
@@ -2279,12 +2279,12 @@ With compliance, auditing, and performance evaluation established, the final mod
           id: 1,
           question: "What is environmental compliance management?",
           options: [
-            "Systematic approach to meeting legal requirements",
             "Only voluntary environmental initiatives",
             "Only pollution control",
+            "Systematic approach to meeting legal requirements",
             "Only resource management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Compliance management involves structured processes to ensure adherence to environmental laws and regulations."
         },
         {
@@ -2292,8 +2292,8 @@ With compliance, auditing, and performance evaluation established, the final mod
           question: "What is a compliance audit?",
           options: [
             "Verifying adherence to legal requirements",
-            "Only financial audit",
             "Only safety audit",
+            "Only financial audit",
             "Only quality audit"
           ],
           correctAnswer: 0,
@@ -2303,12 +2303,12 @@ With compliance, auditing, and performance evaluation established, the final mod
           id: 3,
           question: "What are environmental performance indicators?",
           options: [
-            "Metrics tracking environmental management effectiveness",
-            "Only financial performance measures",
             "Only production output measures",
-            "Only employee performance metrics"
+            "Only employee performance metrics",
+            "Only financial performance measures",
+            "Metrics tracking environmental management effectiveness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental performance indicators are specific metrics used to measure and track environmental performance."
         },
         {
@@ -2316,9 +2316,9 @@ With compliance, auditing, and performance evaluation established, the final mod
           question: "What is the Global Reporting Initiative?",
           options: [
             "Comprehensive sustainability reporting framework",
-            "Only financial reporting standard",
             "Only environmental law database",
-            "Only climate change treaty"
+            "Only climate change treaty",
+            "Only financial reporting standard"
           ],
           correctAnswer: 0,
           explanation: "GRI provides globally recognized standards for sustainability reporting that organizations can use to disclose their environmental impacts."
@@ -2327,168 +2327,168 @@ With compliance, auditing, and performance evaluation established, the final mod
           id: 5,
           question: "What is EMS certification?",
           options: [
-            "Third-party verification of environmental management system",
-            "Only internal approval",
             "Only government registration",
+            "Only internal approval",
+            "Third-party verification of environmental management system",
             "Only self-declaration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EMS certification involves independent third-party verification that an organization's environmental management system meets specific standards like ISO 14001."
         },
         {
           id: 6,
           question: "What is environmental due diligence?",
           options: [
+            "Only regulatory compliance checking",
             "Assessing environmental risks in business transactions",
             "Only routine environmental monitoring",
-            "Only regulatory compliance checking",
             "Only environmental impact assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental due diligence evaluates potential environmental liabilities and risks associated with property transactions or corporate acquisitions."
         },
         {
           id: 7,
           question: "What are Phase I and Phase II environmental assessments?",
           options: [
-            "Staged approaches to environmental site investigation",
-            "Only building inspections",
             "Only financial assessments",
+            "Only building inspections",
+            "Staged approaches to environmental site investigation",
             "Only employee assessments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Phase I involves records review and site inspection; Phase II involves sampling and testing if Phase I identifies potential contamination."
         },
         {
           id: 8,
           question: "What factors influence environmental penalty amounts?",
           options: [
-            "Violation seriousness and economic benefit",
-            "Only company size",
+            "Only location",
             "Only industry type",
-            "Only location"
+            "Violation seriousness and economic benefit",
+            "Only company size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Penalties consider violation seriousness, economic benefit from non-compliance, compliance history, cooperation, and ability to pay."
         },
         {
           id: 9,
           question: "What is the Plan-Do-Check-Act cycle?",
           options: [
-            "Continuous improvement framework in ISO 14001",
             "Only planning process",
-            "Only implementation process",
-            "Only checking process"
+            "Continuous improvement framework in ISO 14001",
+            "Only checking process",
+            "Only implementation process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The PDCA cycle provides a systematic approach for continual improvement in environmental management systems."
         },
         {
           id: 10,
           question: "What is stakeholder engagement in environmental performance?",
           options: [
-            "Involving interested parties in environmental management",
             "Only informing stakeholders",
+            "Involving interested parties in environmental management",
             "Only ignoring stakeholders",
             "Only regulating stakeholders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stakeholder engagement involves dialogue and collaboration with interested parties to address environmental concerns and improve performance."
         },
         {
           id: 11,
           question: "What is social license to operate?",
           options: [
-            "Community acceptance of operations",
             "Only government permit",
             "Only technical approval",
+            "Community acceptance of operations",
             "Only financial approval"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Social license refers to ongoing acceptance of a company's operations by local communities and other stakeholders."
         },
         {
           id: 12,
           question: "What are supplier environmental requirements?",
           options: [
-            "Environmental expectations for supply chain partners",
-            "Only internal requirements",
             "Only customer requirements",
+            "Only internal requirements",
+            "Environmental expectations for supply chain partners",
             "Only competitor requirements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Supplier environmental requirements extend environmental management expectations to organizations in the supply chain."
         },
         {
           id: 13,
           question: "What is environmental cost accounting?",
           options: [
-            "Tracking environmental costs and benefits",
             "Only production cost tracking",
-            "Only sales revenue tracking",
-            "Only employee cost tracking"
+            "Tracking environmental costs and benefits",
+            "Only employee cost tracking",
+            "Only sales revenue tracking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental cost accounting identifies, tracks, and analyzes costs related to environmental aspects, impacts, and management activities."
         },
         {
           id: 14,
           question: "What are ESG criteria?",
           options: [
+            "Only market share measures",
             "Environmental, Social, and Governance investor evaluation factors",
-            "Only financial performance measures",
             "Only production metrics",
-            "Only market share measures"
+            "Only financial performance measures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ESG criteria are standards used by investors to evaluate corporate behavior and determine future financial performance based on environmental, social, and governance factors."
         },
         {
           id: 15,
           question: "What is compliance gap analysis?",
           options: [
-            "Assessing current compliance status against requirements",
-            "Only listing regulations",
+            "Only training employees",
             "Only documenting procedures",
-            "Only training employees"
+            "Only listing regulations",
+            "Assessing current compliance status against requirements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Compliance gap analysis compares current practices with regulatory requirements to identify deficiencies that need to be addressed."
         },
         {
           id: 16,
           question: "What is a management system audit?",
           options: [
-            "Assessing EMS implementation and effectiveness",
-            "Only compliance checking",
+            "Only safety checking",
             "Only financial auditing",
-            "Only safety checking"
+            "Assessing EMS implementation and effectiveness",
+            "Only compliance checking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A management system audit evaluates whether an environmental management system is properly implemented and achieving its objectives."
         },
         {
           id: 17,
           question: "What is benchmarking in environmental performance?",
           options: [
+            "Only theoretical analysis",
             "Comparing performance with others",
-            "Only internal measurement",
             "Only regulatory compliance",
-            "Only theoretical analysis"
+            "Only internal measurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Benchmarking involves comparing an organization's environmental performance with others to identify improvement opportunities."
         },
         {
           id: 18,
           question: "What is external assurance in environmental reporting?",
           options: [
+            "Only peer review",
             "Independent verification of report content",
-            "Only internal review",
             "Only management approval",
-            "Only peer review"
+            "Only internal review"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "External assurance involves independent third-party verification of the quality and reliability of environmental or sustainability reports."
         },
         {
@@ -2496,9 +2496,9 @@ With compliance, auditing, and performance evaluation established, the final mod
           question: "What is a surveillance audit?",
           options: [
             "Periodic audit to maintain certification",
+            "Only customer requested audit",
             "Only initial certification audit",
-            "Only special investigation audit",
-            "Only customer requested audit"
+            "Only special investigation audit"
           ],
           correctAnswer: 0,
           explanation: "Surveillance audits are periodic audits conducted after initial certification to ensure continued compliance with certification requirements."
@@ -2507,12 +2507,12 @@ With compliance, auditing, and performance evaluation established, the final mod
           id: 20,
           question: "What is continuous improvement in environmental management?",
           options: [
-            "Systematic enhancement of environmental performance",
-            "Only maintaining current performance",
             "Only reacting to problems",
-            "Only meeting minimum requirements"
+            "Only maintaining current performance",
+            "Only meeting minimum requirements",
+            "Systematic enhancement of environmental performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Continuous improvement involves ongoing efforts to enhance environmental performance beyond compliance through systematic processes."
         }
       ]
@@ -2821,132 +2821,132 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
           id: 1,
           question: "What is transformational environmental leadership?",
           options: [
-            "Leadership that inspires environmental change",
             "Only maintaining current operations",
+            "Leadership that inspires environmental change",
             "Only following regulations",
             "Only managing technical aspects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Transformational leadership inspires and motivates others to achieve significant environmental improvements and changes."
         },
         {
           id: 2,
           question: "What is Kotter's 8-step change process?",
           options: [
-            "Comprehensive change management methodology",
             "Only technical implementation plan",
             "Only communication strategy",
+            "Comprehensive change management methodology",
             "Only financial planning process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Kotter's model provides a structured approach for leading organizational change through eight sequential steps."
         },
         {
           id: 3,
           question: "What is organizational culture in environmental context?",
           options: [
-            "Shared values and behaviors regarding environment",
-            "Only written policies and procedures",
+            "Only organizational structure",
             "Only physical facilities",
-            "Only organizational structure"
+            "Only written policies and procedures",
+            "Shared values and behaviors regarding environment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental culture encompasses shared values, beliefs, and behaviors related to environmental responsibility within an organization."
         },
         {
           id: 4,
           question: "What is strategic environmental integration?",
           options: [
-            "Embedding environment into core business strategy",
             "Only separate environmental programs",
+            "Embedding environment into core business strategy",
             "Only regulatory compliance",
             "Only community relations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic integration involves incorporating environmental considerations into fundamental business strategy and decision-making."
         },
         {
           id: 5,
           question: "What is green chemistry?",
           options: [
-            "Designing chemical processes to reduce hazards",
-            "Only using natural chemicals",
             "Only avoiding all chemicals",
-            "Only traditional chemistry"
+            "Only traditional chemistry",
+            "Designing chemical processes to reduce hazards",
+            "Only using natural chemicals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Green chemistry designs chemical products and processes to reduce or eliminate the use and generation of hazardous substances."
         },
         {
           id: 6,
           question: "What is biomimicry?",
           options: [
-            "Learning from nature to solve human challenges",
-            "Only studying biology",
+            "Only following regulations",
             "Only imitating competitors",
-            "Only following regulations"
+            "Only studying biology",
+            "Learning from nature to solve human challenges"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Biomimicry seeks sustainable solutions by emulating nature's time-tested patterns and strategies."
         },
         {
           id: 7,
           question: "What are multi-stakeholder initiatives?",
           options: [
-            "Collaborative efforts involving multiple parties",
             "Only individual organization efforts",
             "Only government programs",
-            "Only academic research"
+            "Only academic research",
+            "Collaborative efforts involving multiple parties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Multi-stakeholder initiatives bring together diverse groups to address environmental challenges collaboratively."
         },
         {
           id: 8,
           question: "What is strategic communication planning?",
           options: [
-            "Systematic approach to environmental messaging",
             "Only occasional announcements",
             "Only technical reporting",
+            "Systematic approach to environmental messaging",
             "Only crisis communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic communication involves planned, purposeful communication to achieve specific environmental objectives."
         },
         {
           id: 9,
           question: "What is ecocentric ethics?",
           options: [
-            "Ecosystem-centered environmental values",
-            "Only human-centered values",
             "Only economic values",
+            "Only human-centered values",
+            "Ecosystem-centered environmental values",
             "Only technical values"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ecocentric ethics places intrinsic value on ecosystems as a whole, not just individual species or human interests."
         },
         {
           id: 10,
           question: "What is corporate social responsibility?",
           options: [
-            "Company responsibility to society and environment",
             "Only profit maximization",
-            "Only shareholder returns",
-            "Only legal compliance"
+            "Only legal compliance",
+            "Company responsibility to society and environment",
+            "Only shareholder returns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CSR involves companies taking responsibility for their impacts on society and the environment through their operations."
         },
         {
           id: 11,
           question: "What is environmental valuation?",
           options: [
+            "Only measuring pollution levels",
             "Assigning economic value to environmental goods",
             "Only counting environmental resources",
-            "Only measuring pollution levels",
             "Only documenting biodiversity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental valuation quantifies the economic value of environmental goods and services that may not have market prices."
         },
         {
@@ -2954,9 +2954,9 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
           question: "What is triple bottom line accounting?",
           options: [
             "Measuring environmental, social, economic performance",
-            "Only financial performance",
+            "Only social performance",
             "Only environmental performance",
-            "Only social performance"
+            "Only financial performance"
           ],
           correctAnswer: 0,
           explanation: "The triple bottom line framework evaluates performance based on environmental, social, and economic dimensions."
@@ -2965,12 +2965,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
           id: 13,
           question: "What is climate resilience planning?",
           options: [
+            "Only studying climate science",
             "Preparing for and adapting to climate impacts",
             "Only reducing emissions",
-            "Only monitoring climate",
-            "Only studying climate science"
+            "Only monitoring climate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Climate resilience planning involves developing strategies to prepare for, withstand, and recover from climate change impacts."
         },
         {
@@ -2978,8 +2978,8 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
           question: "What is the Internet of Things in environmental management?",
           options: [
             "Connected sensors for environmental monitoring",
-            "Only computer networks",
             "Only social media",
+            "Only computer networks",
             "Only traditional monitoring"
           ],
           correctAnswer: 0,
@@ -2989,72 +2989,72 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
           id: 15,
           question: "What is circular economy?",
           options: [
-            "System where materials are continually reused",
-            "Only linear production system",
             "Only waste disposal",
+            "Only linear production system",
+            "System where materials are continually reused",
             "Only resource extraction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Circular economy aims to eliminate waste and continually use resources through reuse, repair, refurbishment, and recycling."
         },
         {
           id: 16,
           question: "What is regenerative design?",
           options: [
-            "Design that restores ecological function",
             "Only minimizing harm",
+            "Only economic design",
             "Only maintaining current conditions",
-            "Only economic design"
+            "Design that restores ecological function"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regenerative design goes beyond sustainability to create systems that restore, renew, and revitalize their own sources of energy and materials."
         },
         {
           id: 17,
           question: "What is systems thinking in environmental leadership?",
           options: [
-            "Understanding environmental interconnections",
-            "Only focusing on individual parts",
             "Only linear thinking",
-            "Only reductionist approach"
+            "Only reductionist approach",
+            "Understanding environmental interconnections",
+            "Only focusing on individual parts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Systems thinking involves understanding how different environmental elements interact within larger systems and over time."
         },
         {
           id: 18,
           question: "What is appreciative inquiry in change management?",
           options: [
-            "Strengths-based change approach",
-            "Only problem-focused approach",
+            "Only technical approach",
             "Only top-down approach",
-            "Only technical approach"
+            "Strengths-based change approach",
+            "Only problem-focused approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Appreciative inquiry focuses on identifying and building on an organization's strengths and successes to create positive change."
         },
         {
           id: 19,
           question: "What is design thinking in environmental innovation?",
           options: [
-            "Human-centered approach to problem-solving",
             "Only technical design",
-            "Only aesthetic design",
-            "Only engineering design"
+            "Only engineering design",
+            "Human-centered approach to problem-solving",
+            "Only aesthetic design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Design thinking applies human-centered design principles to develop innovative solutions to environmental challenges."
         },
         {
           id: 20,
           question: "What is biophilic design?",
           options: [
-            "Incorporating nature into built environments",
             "Only biological research",
             "Only architectural style",
+            "Incorporating nature into built environments",
             "Only interior decoration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Biophilic design incorporates natural elements, materials, and patterns into buildings and spaces to connect people with nature."
         }
       ]
@@ -3072,12 +3072,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 1,
         question: "What distinguishes environmental management from environmental science?",
         options: [
-          "Management applies knowledge to solve problems",
+          "Science deals with stakeholder engagement",
           "Management only studies natural systems",
-          "Science focuses on organizational objectives",
-          "Science deals with stakeholder engagement"
+          "Management applies knowledge to solve problems",
+          "Science focuses on organizational objectives"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Environmental management applies scientific knowledge to address environmental problems and achieve organizational goals.",
         module: 1
       },
@@ -3085,12 +3085,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 2,
         question: "What is the Plan-Do-Check-Act cycle in ISO 14001?",
         options: [
-          "Continuous improvement framework",
+          "Only checking phase",
           "One-time implementation process",
-          "Only planning phase",
-          "Only checking phase"
+          "Continuous improvement framework",
+          "Only planning phase"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The PDCA cycle provides a systematic approach for continual improvement in environmental management systems.",
         module: 1
       },
@@ -3098,12 +3098,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 3,
         question: "What is source reduction in pollution prevention?",
         options: [
-          "Eliminating pollution at source",
-          "Only treating pollution after generation",
           "Only disposing of pollution safely",
-          "Only monitoring pollution levels"
+          "Only monitoring pollution levels",
+          "Eliminating pollution at source",
+          "Only treating pollution after generation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Source reduction involves preventing pollution from being created in the first place through process changes or material substitutions.",
         module: 2
       },
@@ -3111,12 +3111,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 4,
         question: "What is bioremediation?",
         options: [
-          "Using microorganisms to degrade contaminants",
-          "Only physical excavation of contaminants",
           "Only chemical treatment of soil",
-          "Only containing contamination"
+          "Using microorganisms to degrade contaminants",
+          "Only containing contamination",
+          "Only physical excavation of contaminants"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Bioremediation uses naturally occurring or introduced microorganisms to break down environmental contaminants.",
         module: 2
       },
@@ -3125,8 +3125,8 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is carrying capacity in resource management?",
         options: [
           "Maximum population an environment can sustain",
-          "Only current population level",
           "Only resource extraction rate",
+          "Only current population level",
           "Only economic growth rate"
         ],
         correctAnswer: 0,
@@ -3137,12 +3137,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 6,
         question: "What is adaptive management?",
         options: [
-          "Learning-based approach to management",
           "Only fixed management plans",
+          "Learning-based approach to management",
           "Only reactive management",
           "Only theoretical management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Adaptive management involves implementing policies as experiments, learning from outcomes, and adjusting approaches accordingly.",
         module: 3
       },
@@ -3150,12 +3150,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 7,
         question: "What is Environmental Impact Assessment?",
         options: [
-          "Systematic process identifying environmental effects",
-          "Only environmental monitoring",
           "Only pollution control",
-          "Only resource management"
+          "Only environmental monitoring",
+          "Only resource management",
+          "Systematic process identifying environmental effects"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "EIA is a systematic process that identifies, predicts, evaluates, and mitigates environmental effects of proposed actions.",
         module: 4
       },
@@ -3163,12 +3163,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 8,
         question: "What is Strategic Environmental Assessment?",
         options: [
-          "Environmental assessment of policies and plans",
-          "Only project-level assessment",
           "Only site-specific assessment",
+          "Only project-level assessment",
+          "Environmental assessment of policies and plans",
           "Only technical assessment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "SEA addresses environmental considerations at the policy, plan, and program level, before project-level decisions are made.",
         module: 4
       },
@@ -3176,12 +3176,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 9,
         question: "What is environmental compliance management?",
         options: [
-          "Systematic approach to meeting legal requirements",
-          "Only voluntary environmental initiatives",
+          "Only resource management",
           "Only pollution control",
-          "Only resource management"
+          "Systematic approach to meeting legal requirements",
+          "Only voluntary environmental initiatives"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Compliance management involves structured processes to ensure adherence to environmental laws and regulations.",
         module: 5
       },
@@ -3202,12 +3202,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 11,
         question: "What is transformational environmental leadership?",
         options: [
-          "Leadership that inspires environmental change",
+          "Only managing technical aspects",
           "Only maintaining current operations",
           "Only following regulations",
-          "Only managing technical aspects"
+          "Leadership that inspires environmental change"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Transformational leadership inspires and motivates others to achieve significant environmental improvements and changes.",
         module: 6
       },
@@ -3216,9 +3216,9 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is strategic environmental integration?",
         options: [
           "Embedding environment into core business strategy",
+          "Only community relations",
           "Only separate environmental programs",
-          "Only regulatory compliance",
-          "Only community relations"
+          "Only regulatory compliance"
         ],
         correctAnswer: 0,
         explanation: "Strategic integration involves incorporating environmental considerations into fundamental business strategy and decision-making.",
@@ -3228,12 +3228,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 13,
         question: "What is an environmental aspect?",
         options: [
-          "Element of activities that interacts with environment",
-          "Only natural environmental feature",
           "Only regulatory requirement",
-          "Only stakeholder concern"
+          "Only stakeholder concern",
+          "Element of activities that interacts with environment",
+          "Only natural environmental feature"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Environmental aspects are elements of an organization's activities, products, or services that can interact with the environment.",
         module: 1
       },
@@ -3243,8 +3243,8 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         options: [
           "Stringent emission control requirements",
           "Only voluntary pollution control",
-          "Only basic treatment methods",
-          "Only natural treatment approaches"
+          "Only natural treatment approaches",
+          "Only basic treatment methods"
         ],
         correctAnswer: 0,
         explanation: "BACT represents the most effective emission reduction technology that has been adequately demonstrated for specific applications.",
@@ -3254,12 +3254,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 15,
         question: "What is Maximum Sustainable Yield in fisheries?",
         options: [
-          "Maximum catch that can be sustained",
           "Only current catch levels",
-          "Only maximum possible catch",
-          "Only minimum survival catch"
+          "Only minimum survival catch",
+          "Maximum catch that can be sustained",
+          "Only maximum possible catch"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "MSY is the largest average catch that can be taken from a fish stock over an indefinite period without causing population decline.",
         module: 3
       },
@@ -3267,12 +3267,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 16,
         question: "What are cumulative effects in EIA?",
         options: [
+          "Only local impacts",
           "Combined impacts of multiple actions",
-          "Only individual project impacts",
           "Only immediate impacts",
-          "Only local impacts"
+          "Only individual project impacts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cumulative effects result from the incremental impact of an action when added to other past, present, and reasonably foreseeable future actions.",
         module: 4
       },
@@ -3293,12 +3293,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 18,
         question: "What is environmental culture development?",
         options: [
-          "Creating organizational cultures supporting sustainability",
           "Only written policies",
-          "Only physical facilities",
-          "Only organizational structure"
+          "Creating organizational cultures supporting sustainability",
+          "Only organizational structure",
+          "Only physical facilities"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Environmental culture development involves shaping shared values, beliefs, and behaviors related to environmental responsibility.",
         module: 6
       },
@@ -3307,9 +3307,9 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is environmental risk assessment?",
         options: [
           "Systematic evaluation of potential environmental harm",
-          "Only financial risk evaluation",
           "Only natural disaster assessment",
-          "Only regulatory risk analysis"
+          "Only regulatory risk analysis",
+          "Only financial risk evaluation"
         ],
         correctAnswer: 0,
         explanation: "Environmental risk assessment systematically evaluates potential adverse effects on the environment from hazards.",
@@ -3320,8 +3320,8 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is zero liquid discharge?",
         options: [
           "Eliminating wastewater releases",
-          "Only reducing water use slightly",
           "Only treating wastewater partially",
+          "Only reducing water use slightly",
           "Only monitoring water discharge"
         ],
         correctAnswer: 0,
@@ -3332,12 +3332,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 21,
         question: "What is co-management in fisheries?",
         options: [
-          "Shared management between government and stakeholders",
-          "Only government control",
           "Only industry control",
-          "Only community control"
+          "Only community control",
+          "Shared management between government and stakeholders",
+          "Only government control"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Co-management involves power-sharing and collaborative decision-making between government agencies and resource users.",
         module: 3
       },
@@ -3346,9 +3346,9 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is the mitigation hierarchy in EIA?",
         options: [
           "Avoid, minimize, restore, compensate",
+          "Only document impacts",
           "Only compensate for all impacts",
-          "Only monitor impacts",
-          "Only document impacts"
+          "Only monitor impacts"
         ],
         correctAnswer: 0,
         explanation: "The mitigation hierarchy prioritizes avoiding impacts first, then minimizing, restoring, and finally compensating for residual impacts.",
@@ -3358,12 +3358,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 23,
         question: "What are environmental performance indicators?",
         options: [
-          "Metrics tracking environmental management effectiveness",
-          "Only financial performance measures",
+          "Only employee performance metrics",
           "Only production output measures",
-          "Only employee performance metrics"
+          "Metrics tracking environmental management effectiveness",
+          "Only financial performance measures"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Environmental performance indicators are specific metrics used to measure and track environmental performance.",
         module: 5
       },
@@ -3371,12 +3371,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 24,
         question: "What is green chemistry?",
         options: [
-          "Designing chemical processes to reduce hazards",
           "Only using natural chemicals",
-          "Only avoiding all chemicals",
-          "Only traditional chemistry"
+          "Only traditional chemistry",
+          "Designing chemical processes to reduce hazards",
+          "Only avoiding all chemicals"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Green chemistry designs chemical products and processes to reduce or eliminate the use and generation of hazardous substances.",
         module: 6
       },
@@ -3384,12 +3384,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 25,
         question: "What is stakeholder mapping?",
         options: [
-          "Analyzing influence and interest levels of stakeholders",
+          "Only ignoring stakeholders",
           "Only listing stakeholders",
-          "Only contacting stakeholders",
-          "Only ignoring stakeholders"
+          "Analyzing influence and interest levels of stakeholders",
+          "Only contacting stakeholders"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Stakeholder mapping analyzes stakeholders based on their level of interest and influence regarding environmental issues.",
         module: 1
       },
@@ -3397,12 +3397,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 26,
         question: "What is life cycle costing in pollution prevention?",
         options: [
+          "Only disposal costs",
           "Considering all costs over technology life",
           "Only initial purchase cost",
-          "Only operational costs",
-          "Only disposal costs"
+          "Only operational costs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Life cycle costing evaluates all costs associated with a technology or project over its entire life span.",
         module: 2
       },
@@ -3411,9 +3411,9 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is Integrated Water Resources Management?",
         options: [
           "Holistic approach considering all water uses",
+          "Only industrial water management",
           "Only drinking water management",
-          "Only agricultural water management",
-          "Only industrial water management"
+          "Only agricultural water management"
         ],
         correctAnswer: 0,
         explanation: "IWRM promotes coordinated development and management of water, land, and related resources to maximize economic and social welfare equitably.",
@@ -3423,12 +3423,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 28,
         question: "What is an Environmental Management Plan?",
         options: [
-          "Detailed plan for implementing mitigation measures",
+          "Only construction schedule",
           "Only project design document",
           "Only financial plan",
-          "Only construction schedule"
+          "Detailed plan for implementing mitigation measures"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "An EMP outlines how environmental impacts will be managed during project implementation, operation, and decommissioning.",
         module: 4
       },
@@ -3436,12 +3436,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 29,
         question: "What is EMS certification?",
         options: [
-          "Third-party verification of environmental management system",
           "Only internal approval",
-          "Only government registration",
-          "Only self-declaration"
+          "Only self-declaration",
+          "Third-party verification of environmental management system",
+          "Only government registration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "EMS certification involves independent third-party verification that an organization's environmental management system meets specific standards.",
         module: 5
       },
@@ -3449,12 +3449,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 30,
         question: "What is systems thinking in environmental leadership?",
         options: [
-          "Understanding environmental interconnections",
-          "Only focusing on individual parts",
           "Only linear thinking",
-          "Only reductionist approach"
+          "Only focusing on individual parts",
+          "Only reductionist approach",
+          "Understanding environmental interconnections"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Systems thinking involves understanding how different environmental elements interact within larger systems and over time.",
         module: 6
       },
@@ -3462,12 +3462,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 31,
         question: "What is environmental policy?",
         options: [
-          "Formal statement of environmental intentions",
           "Only government regulation",
           "Only internal procedure",
+          "Formal statement of environmental intentions",
           "Only stakeholder agreement"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "An environmental policy is a formal statement by an organization of its environmental intentions and principles.",
         module: 1
       },
@@ -3475,12 +3475,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 32,
         question: "What are constructed wetlands?",
         options: [
-          "Natural treatment systems for wastewater",
-          "Only decorative water features",
           "Only wildlife habitats",
+          "Only decorative water features",
+          "Natural treatment systems for wastewater",
           "Only recreational areas"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Constructed wetlands are engineered systems that use natural processes to treat wastewater or stormwater.",
         module: 2
       },
@@ -3488,12 +3488,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 33,
         question: "What is forest certification?",
         options: [
+          "Only industry self-declaration",
           "Independent verification of sustainable practices",
           "Only government approval",
-          "Only industry self-declaration",
           "Only academic assessment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Forest certification involves third-party verification that forests are managed according to agreed sustainable standards.",
         module: 3
       },
@@ -3502,9 +3502,9 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is free, prior, and informed consent?",
         options: [
           "Indigenous rights in decision-making",
-          "Only government approval",
+          "Only financial approval",
           "Only technical approval",
-          "Only financial approval"
+          "Only government approval"
         ],
         correctAnswer: 0,
         explanation: "FPIC is a principle that indigenous communities must give consent before projects affecting their lands or resources proceed.",
@@ -3514,12 +3514,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 35,
         question: "What is the Global Reporting Initiative?",
         options: [
-          "Comprehensive sustainability reporting framework",
           "Only financial reporting standard",
+          "Only climate change treaty",
           "Only environmental law database",
-          "Only climate change treaty"
+          "Comprehensive sustainability reporting framework"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "GRI provides globally recognized standards for sustainability reporting that organizations can use to disclose their environmental impacts.",
         module: 5
       },
@@ -3527,12 +3527,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 36,
         question: "What is circular economy?",
         options: [
-          "System where materials are continually reused",
           "Only linear production system",
+          "Only resource extraction",
           "Only waste disposal",
-          "Only resource extraction"
+          "System where materials are continually reused"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Circular economy aims to eliminate waste and continually use resources through reuse, repair, refurbishment, and recycling.",
         module: 6
       },
@@ -3541,9 +3541,9 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What are environmental externalities?",
         options: [
           "Costs or benefits not reflected in market prices",
-          "Only internal organizational costs",
+          "Only employee benefits",
           "Only government subsidies",
-          "Only employee benefits"
+          "Only internal organizational costs"
         ],
         correctAnswer: 0,
         explanation: "Externalities are environmental costs or benefits that affect third parties but are not included in market prices.",
@@ -3554,8 +3554,8 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         question: "What is environmental due diligence?",
         options: [
           "Assessing environmental risks in business transactions",
-          "Only routine environmental monitoring",
           "Only regulatory compliance checking",
+          "Only routine environmental monitoring",
           "Only environmental impact assessment"
         ],
         correctAnswer: 0,
@@ -3566,12 +3566,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 39,
         question: "What is adaptive management in environmental planning?",
         options: [
-          "Flexible, learning-based management approach",
           "Only fixed management plans",
+          "Flexible, learning-based management approach",
           "Only reactive management",
           "Only theoretical management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Adaptive management involves implementing actions as experiments, monitoring outcomes, and adjusting approaches based on what is learned.",
         module: 4
       },
@@ -3579,12 +3579,12 @@ Thank you for completing this comprehensive Environmental Management Diploma pro
         id: 40,
         question: "What is corporate social responsibility?",
         options: [
-          "Company responsibility to society and environment",
           "Only profit maximization",
           "Only shareholder returns",
-          "Only legal compliance"
+          "Only legal compliance",
+          "Company responsibility to society and environment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "CSR involves companies taking responsibility for their impacts on society and the environment through their operations.",
         module: 6
       }

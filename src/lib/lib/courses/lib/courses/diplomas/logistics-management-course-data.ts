@@ -64,12 +64,12 @@ For international operations, additional factors include:
           id: 1,
           question: "What is the first pillar of logistics strategy framework?",
           options: [
-            "Network Design Strategy",
-            "Customer Service Strategy",
             "Inventory Strategy",
-            "Transportation Strategy"
+            "Transportation Strategy",
+            "Network Design Strategy",
+            "Customer Service Strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Customer Service Strategy is the first pillar, defining service levels and delivery promises."
         },
         {
@@ -83,72 +83,72 @@ For international operations, additional factors include:
           id: 3,
           question: "Which competitive advantage focuses on being the lowest-cost provider?",
           options: [
-            "Service Excellence",
-            "Cost Leadership",
             "Innovation Leadership",
-            "Sustainability Leadership"
+            "Service Excellence",
+            "Sustainability Leadership",
+            "Cost Leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cost Leadership means becoming the lowest-cost provider through operational efficiency."
         },
         {
           id: 4,
           question: "What is the trade-off between cost and service?",
           options: [
-            "Higher service always costs less",
-            "Higher service levels typically cost more",
             "Cost and service are unrelated",
-            "Lower cost always means better service"
+            "Lower cost always means better service",
+            "Higher service levels typically cost more",
+            "Higher service always costs less"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Higher service levels generally require more resources and therefore cost more to deliver."
         },
         {
           id: 5,
           question: "What does centralization in warehousing typically affect?",
           options: [
+            "Only affects transportation costs",
             "Increases inventory but reduces delivery times",
-            "Reduces inventory but increases delivery times",
             "Has no effect on delivery times",
-            "Only affects transportation costs"
+            "Reduces inventory but increases delivery times"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Centralized warehouses reduce total inventory but can increase delivery times to distant locations."
         },
         {
           id: 6,
           question: "What is required for successful strategy implementation?",
           options: [
-            "Only budget allocation",
             "Clear objectives and resource allocation",
             "Only performance metrics",
-            "Just organizational alignment"
+            "Just organizational alignment",
+            "Only budget allocation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Successful implementation requires clear objectives, proper resources, metrics, alignment, and continuous review."
         },
         {
           id: 7,
           question: "What does outsourcing logistics provide?",
           options: [
-            "More control over operations",
-            "Flexibility and specialized expertise",
             "Lower internal knowledge",
-            "Only cost savings"
+            "Only cost savings",
+            "Flexibility and specialized expertise",
+            "More control over operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Outsourcing provides flexibility and access to specialized expertise, though with less direct control."
         },
         {
           id: 8,
           question: "Which strategic element defines delivery promises?",
           options: [
-            "Network Design Strategy",
             "Customer Service Strategy",
             "Inventory Strategy",
+            "Network Design Strategy",
             "Transportation Strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Customer Service Strategy specifically defines delivery promises and service level commitments."
         },
         {
@@ -156,23 +156,23 @@ For international operations, additional factors include:
           question: "What advantage focuses on environmental responsibility?",
           options: [
             "Cost Leadership",
+            "Sustainability Leadership",
             "Service Excellence",
-            "Innovation Leadership",
-            "Sustainability Leadership"
+            "Innovation Leadership"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Sustainability Leadership builds environmental responsibility into logistics operations as a competitive feature."
         },
         {
           id: 10,
           question: "What do performance metrics track?",
           options: [
-            "Only financial results",
             "Strategic progress and implementation effectiveness",
-            "Only employee performance",
-            "Just customer complaints"
+            "Only financial results",
+            "Just customer complaints",
+            "Only employee performance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Performance metrics track how well the logistics strategy is being implemented and its effectiveness."
         },
         {
@@ -181,8 +181,8 @@ For international operations, additional factors include:
           options: [
             "Currency Management",
             "Customs and Regulations",
-            "Political Stability",
-            "Cultural Factors"
+            "Cultural Factors",
+            "Political Stability"
           ],
           correctAnswer: 1,
           explanation: "Customs and Regulations involve navigating international trade requirements and compliance."
@@ -191,12 +191,12 @@ For international operations, additional factors include:
           id: 12,
           question: "What is the trade-off between inventory and transportation?",
           options: [
-            "More inventory reduces transportation urgency",
+            "Less inventory always reduces transportation",
             "More inventory increases transportation costs",
-            "Inventory and transportation are unrelated",
-            "Less inventory always reduces transportation"
+            "More inventory reduces transportation urgency",
+            "Inventory and transportation are unrelated"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "More inventory at various locations can reduce the urgency of transportation but increases holding costs."
         },
         {
@@ -204,11 +204,11 @@ For international operations, additional factors include:
           question: "What does network design strategy determine?",
           options: [
             "Only warehouse locations",
+            "Only carrier selection",
             "Facility locations and transportation routes",
-            "Just inventory levels",
-            "Only carrier selection"
+            "Just inventory levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Network Design Strategy determines where facilities should be located and how transportation should flow between them."
         },
         {
@@ -217,22 +217,22 @@ For international operations, additional factors include:
           options: [
             "Cost Leadership",
             "Service Excellence",
-            "Innovation Leadership",
-            "Sustainability Leadership"
+            "Sustainability Leadership",
+            "Innovation Leadership"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Innovation Leadership uses logistics capabilities to create or support new ways of doing business."
         },
         {
           id: 15,
           question: "What does continuous review involve?",
           options: [
-            "Only annual assessments",
-            "Regular assessment and strategy refinement",
+            "Only when problems occur",
             "Never changing the strategy",
-            "Only when problems occur"
+            "Regular assessment and strategy refinement",
+            "Only annual assessments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Continuous review means regularly assessing performance and refining the strategy as needed."
         },
         {
@@ -240,11 +240,11 @@ For international operations, additional factors include:
           question: "What international factor involves exchange risks?",
           options: [
             "Customs and Regulations",
-            "Currency Management",
+            "Cultural Factors",
             "Political Stability",
-            "Cultural Factors"
+            "Currency Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Currency Management involves handling multiple currencies and the risks of exchange rate fluctuations."
         },
         {
@@ -252,31 +252,31 @@ For international operations, additional factors include:
           question: "What does organizational alignment ensure?",
           options: [
             "Only logistics department compliance",
-            "All departments support logistics goals",
+            "Separate departmental objectives",
             "Independent department operations",
-            "Separate departmental objectives"
+            "All departments support logistics goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Organizational alignment ensures that all departments understand and support the logistics strategy goals."
         },
         {
           id: 18,
           question: "What determines stocking policies and service levels?",
           options: [
-            "Customer Service Strategy",
-            "Network Design Strategy",
             "Inventory Strategy",
-            "Transportation Strategy"
+            "Transportation Strategy",
+            "Network Design Strategy",
+            "Customer Service Strategy"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Inventory Strategy sets policies for how much to stock and at what service levels."
         },
         {
           id: 19,
           question: "What international consideration assesses country risks?",
           options: [
-            "Currency Management",
             "Customs and Regulations",
+            "Currency Management",
             "Political Stability",
             "Cultural Factors"
           ],
@@ -287,12 +287,12 @@ For international operations, additional factors include:
           id: 20,
           question: "What selects modes and carrier relationships?",
           options: [
-            "Customer Service Strategy",
-            "Network Design Strategy",
             "Inventory Strategy",
-            "Transportation Strategy"
+            "Transportation Strategy",
+            "Network Design Strategy",
+            "Customer Service Strategy"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Transportation Strategy specifically deals with selecting transportation modes and managing carrier relationships."
         }
       ]
@@ -361,12 +361,12 @@ Global networks require proactive risk management:
           id: 1,
           question: "What is the first principle of network design?",
           options: [
-            "Cost Optimization",
-            "Market-Oriented Design",
             "Service Requirements",
-            "Risk Management"
+            "Risk Management",
+            "Cost Optimization",
+            "Market-Oriented Design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Market-Oriented Design comes first, structuring networks based on customer locations and needs."
         },
         {
@@ -381,11 +381,11 @@ Global networks require proactive risk management:
           question: "What type of network uses a single center serving multiple countries?",
           options: [
             "Regional Network",
+            "Hybrid Network",
             "Centralized Network",
-            "Local-for-Local",
-            "Hybrid Network"
+            "Local-for-Local"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Centralized Networks use one main facility to serve multiple countries or regions."
         },
         {
@@ -393,35 +393,35 @@ Global networks require proactive risk management:
           question: "What does market access consider in facility location?",
           options: [
             "Only transportation costs",
-            "Proximity to customers and growth markets",
             "Just labor costs",
-            "Only tax rates"
+            "Only tax rates",
+            "Proximity to customers and growth markets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Market Access considers how close facilities are to current customers and future growth markets."
         },
         {
           id: 5,
           question: "What is primary transportation?",
           options: [
-            "Last-mile delivery",
             "Long-haul movement between countries",
             "Regional distribution",
+            "Last-mile delivery",
             "Local delivery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Primary Transportation involves long-distance movement between countries or continents."
         },
         {
           id: 6,
           question: "What technology models different network scenarios?",
           options: [
-            "Real-Time Tracking",
-            "Network Optimization Software",
             "Trade Compliance Systems",
-            "Collaboration Platforms"
+            "Collaboration Platforms",
+            "Real-Time Tracking",
+            "Network Optimization Software"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Network Optimization Software creates models to compare different network design scenarios."
         },
         {
@@ -429,57 +429,57 @@ Global networks require proactive risk management:
           question: "What risk strategy uses multiple suppliers?",
           options: [
             "Buffer Inventory",
+            "Scenario Planning",
             "Diversification",
-            "Alternative Sourcing",
-            "Scenario Planning"
+            "Alternative Sourcing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Diversification spreads risk by using multiple suppliers and transportation routes."
         },
         {
           id: 8,
           question: "What type of network has production within each country?",
           options: [
-            "Centralized Network",
-            "Regional Network",
             "Local-for-Local",
-            "Hybrid Network"
+            "Hybrid Network",
+            "Regional Network",
+            "Centralized Network"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Local-for-Local networks produce and distribute within each country or region independently."
         },
         {
           id: 9,
           question: "What cost factors affect facility location?",
           options: [
-            "Only real estate costs",
             "Labor, real estate, utilities, and taxes",
             "Just transportation costs",
+            "Only real estate costs",
             "Only inventory costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multiple cost factors including labor, real estate, utilities, and taxes influence location decisions."
         },
         {
           id: 10,
           question: "What is secondary transportation?",
           options: [
-            "International shipping",
             "Regional distribution within countries",
-            "Final customer delivery",
-            "Air freight only"
+            "Air freight only",
+            "International shipping",
+            "Final customer delivery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Secondary Transportation handles regional distribution within countries after primary transportation."
         },
         {
           id: 11,
           question: "What technology manages customs requirements?",
           options: [
-            "Network Optimization Software",
+            "Collaboration Platforms",
             "Real-Time Tracking",
             "Trade Compliance Systems",
-            "Collaboration Platforms"
+            "Network Optimization Software"
           ],
           correctAnswer: 2,
           explanation: "Trade Compliance Systems help manage customs documentation and regulatory requirements."
@@ -488,24 +488,24 @@ Global networks require proactive risk management:
           id: 12,
           question: "What risk strategy involves safety stock at locations?",
           options: [
-            "Diversification",
             "Buffer Inventory",
             "Alternative Sourcing",
+            "Diversification",
             "Scenario Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Buffer Inventory places safety stock at strategic locations to protect against disruptions."
         },
         {
           id: 13,
           question: "What does hybrid network approach balance?",
           options: [
-            "Only costs",
-            "Global efficiency with local responsiveness",
             "Just speed and cost",
-            "Inventory and transportation"
+            "Inventory and transportation",
+            "Only costs",
+            "Global efficiency with local responsiveness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hybrid Networks balance the efficiency of global operations with the responsiveness of local presence."
         },
         {
@@ -513,31 +513,31 @@ Global networks require proactive risk management:
           question: "What infrastructure factors affect location decisions?",
           options: [
             "Only building size",
+            "Only parking availability",
             "Transportation networks, ports, and utilities",
-            "Just office space",
-            "Only parking availability"
+            "Just office space"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Infrastructure includes transportation access, port proximity, and utility reliability."
         },
         {
           id: 15,
           question: "What is last-mile delivery?",
           options: [
-            "International shipping",
             "Final delivery to customers",
+            "International shipping",
             "Regional distribution",
             "Port-to-port shipping"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Last-Mile Delivery is the final step of getting products to individual customer addresses."
         },
         {
           id: 16,
           question: "What technology connects partners across networks?",
           options: [
-            "Network Optimization Software",
             "Real-Time Tracking",
+            "Network Optimization Software",
             "Trade Compliance Systems",
             "Collaboration Platforms"
           ],
@@ -548,9 +548,9 @@ Global networks require proactive risk management:
           id: 17,
           question: "What risk strategy prepares for disruption scenarios?",
           options: [
+            "Alternative Sourcing",
             "Diversification",
             "Buffer Inventory",
-            "Alternative Sourcing",
             "Scenario Planning"
           ],
           correctAnswer: 3,
@@ -560,10 +560,10 @@ Global networks require proactive risk management:
           id: 18,
           question: "What does scalability in network design allow?",
           options: [
-            "Only contraction",
+            "Fixed capacity always",
             "Growth and contraction as markets change",
-            "Only expansion",
-            "Fixed capacity always"
+            "Only contraction",
+            "Only expansion"
           ],
           correctAnswer: 1,
           explanation: "Scalability allows networks to expand or contract as market conditions and business needs change."
@@ -572,12 +572,12 @@ Global networks require proactive risk management:
           id: 19,
           question: "What regulatory factors affect facility location?",
           options: [
-            "Only building codes",
             "Trade agreements, customs procedures, and business regulations",
+            "Only environmental rules",
             "Just safety regulations",
-            "Only environmental rules"
+            "Only building codes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Regulatory Environment includes trade agreements, customs efficiency, and general business regulations."
         },
         {
@@ -585,11 +585,11 @@ Global networks require proactive risk management:
           question: "What combines different transportation modes?",
           options: [
             "Primary Transportation",
-            "Secondary Transportation",
             "Last-Mile Delivery",
-            "Intermodal Solutions"
+            "Intermodal Solutions",
+            "Secondary Transportation"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Intermodal Solutions combine different transportation modes like ship, rail, and truck in one shipment."
         }
       ]
@@ -660,12 +660,12 @@ Environmental considerations are increasingly important:
           id: 1,
           question: "What is the first element of transportation strategy?",
           options: [
+            "Route Optimization Strategy",
             "Carrier Management Strategy",
             "Mode Selection Strategy",
-            "Route Optimization Strategy",
             "Technology Integration Strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Mode Selection Strategy comes first, determining optimal transportation modes for different needs."
         },
         {
@@ -679,46 +679,46 @@ Environmental considerations are increasingly important:
           id: 3,
           question: "What are primary partners with dedicated capacity called?",
           options: [
-            "Spot Market Carriers",
             "Core Carriers",
             "Specialized Carriers",
-            "Integrated Carriers"
+            "Integrated Carriers",
+            "Spot Market Carriers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Core Carriers are primary partners providing dedicated capacity and preferential treatment."
         },
         {
           id: 4,
           question: "What technique combines shipments for better rates?",
           options: [
-            "Freight Rate Negotiation",
             "Consolidation Programs",
+            "Freight Rate Negotiation",
             "Mode Conversion Analysis",
             "Empty Mile Reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Consolidation Programs combine multiple shipments to achieve volume discounts."
         },
         {
           id: 5,
           question: "What does TMS stand for?",
           options: [
+            "Transportation Measurement System",
             "Transportation Monitoring System",
-            "Transportation Management System",
             "Total Management Solution",
-            "Transportation Measurement System"
+            "Transportation Management System"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "TMS stands for Transportation Management System - comprehensive software for transportation."
         },
         {
           id: 6,
           question: "What metrics measure cost, service, and efficiency?",
           options: [
-            "Carrier Scorecards",
+            "Cost-to-Serve Analysis",
             "Key Performance Indicators",
-            "Network Analytics",
-            "Cost-to-Serve Analysis"
+            "Carrier Scorecards",
+            "Network Analytics"
           ],
           correctAnswer: 1,
           explanation: "Key Performance Indicators (KPIs) are metrics that track multiple aspects of performance."
@@ -727,48 +727,48 @@ Environmental considerations are increasingly important:
           id: 7,
           question: "What sustainability strategy reduces environmental impact?",
           options: [
-            "Load Optimization",
             "Carbon Footprint Reduction",
-            "Efficient Routing",
-            "Green Carrier Programs"
+            "Green Carrier Programs",
+            "Load Optimization",
+            "Efficient Routing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Carbon Footprint Reduction focuses specifically on minimizing environmental impact."
         },
         {
           id: 8,
           question: "What type of carriers handle overflow needs?",
           options: [
-            "Core Carriers",
             "Spot Market Carriers",
-            "Specialized Carriers",
-            "Integrated Carriers"
+            "Core Carriers",
+            "Integrated Carriers",
+            "Specialized Carriers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Spot Market Carriers are used for temporary or overflow transportation needs."
         },
         {
           id: 9,
           question: "What analyzes when to switch transportation modes?",
           options: [
-            "Freight Rate Negotiation",
-            "Consolidation Programs",
             "Mode Conversion Analysis",
+            "Consolidation Programs",
+            "Freight Rate Negotiation",
             "Empty Mile Reduction"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Mode Conversion Analysis evaluates the cost-benefit of switching between different transportation modes."
         },
         {
           id: 10,
           question: "What software finds the most efficient routes?",
           options: [
-            "Transportation Management Systems",
-            "Route Optimization Software",
             "Real-Time Visibility Platforms",
-            "Electronic Load Boards"
+            "Electronic Load Boards",
+            "Transportation Management Systems",
+            "Route Optimization Software"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Route Optimization Software uses algorithms to calculate the most efficient transportation routes."
         },
         {
@@ -776,47 +776,47 @@ Environmental considerations are increasingly important:
           question: "What regularly evaluates carrier performance?",
           options: [
             "Key Performance Indicators",
+            "Cost-to-Serve Analysis",
             "Carrier Scorecards",
-            "Network Analytics",
-            "Cost-to-Serve Analysis"
+            "Network Analytics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Carrier Scorecards provide regular, structured evaluation of each carrier's performance."
         },
         {
           id: 12,
           question: "What adopts cleaner transportation options?",
           options: [
-            "Carbon Footprint Reduction",
             "Alternative Fuel Vehicles",
-            "Efficient Routing",
-            "Load Optimization"
+            "Load Optimization",
+            "Carbon Footprint Reduction",
+            "Efficient Routing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Alternative Fuel Vehicles involve using vehicles powered by cleaner energy sources."
         },
         {
           id: 13,
           question: "What are experts in specific commodities called?",
           options: [
-            "Core Carriers",
-            "Spot Market Carriers",
+            "Integrated Carriers",
             "Specialized Carriers",
-            "Integrated Carriers"
+            "Core Carriers",
+            "Spot Market Carriers"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Specialized Carriers have expertise in handling specific types of commodities or requirements."
         },
         {
           id: 14,
           question: "What minimizes unloaded transportation movements?",
           options: [
-            "Freight Rate Negotiation",
-            "Consolidation Programs",
+            "Empty Mile Reduction",
             "Mode Conversion Analysis",
-            "Empty Mile Reduction"
+            "Freight Rate Negotiation",
+            "Consolidation Programs"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Empty Mile Reduction focuses on minimizing trips where vehicles travel without cargo."
         },
         {
@@ -824,9 +824,9 @@ Environmental considerations are increasingly important:
           question: "What tracks shipments in real-time?",
           options: [
             "Transportation Management Systems",
-            "Route Optimization Software",
+            "Electronic Load Boards",
             "Real-Time Visibility Platforms",
-            "Electronic Load Boards"
+            "Route Optimization Software"
           ],
           correctAnswer: 2,
           explanation: "Real-Time Visibility Platforms provide current location and status information for shipments."
@@ -835,22 +835,22 @@ Environmental considerations are increasingly important:
           id: 16,
           question: "What analyzes transportation patterns and opportunities?",
           options: [
-            "Key Performance Indicators",
             "Carrier Scorecards",
             "Network Analytics",
+            "Key Performance Indicators",
             "Cost-to-Serve Analysis"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Network Analytics examines patterns in transportation data to identify improvement opportunities."
         },
         {
           id: 17,
           question: "What reduces miles traveled and fuel consumption?",
           options: [
+            "Load Optimization",
             "Carbon Footprint Reduction",
-            "Alternative Fuel Vehicles",
             "Efficient Routing",
-            "Load Optimization"
+            "Alternative Fuel Vehicles"
           ],
           correctAnswer: 2,
           explanation: "Efficient Routing focuses on finding the shortest or most fuel-efficient routes."
@@ -860,19 +860,19 @@ Environmental considerations are increasingly important:
           question: "What offers multiple services and modes?",
           options: [
             "Core Carriers",
-            "Spot Market Carriers",
             "Specialized Carriers",
-            "Integrated Carriers"
+            "Integrated Carriers",
+            "Spot Market Carriers"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Integrated Carriers provide multiple transportation services and mode options."
         },
         {
           id: 19,
           question: "What controls fuel costs and consumption?",
           options: [
-            "Freight Rate Negotiation",
             "Consolidation Programs",
+            "Freight Rate Negotiation",
             "Mode Conversion Analysis",
             "Fuel Management Programs"
           ],
@@ -883,12 +883,12 @@ Environmental considerations are increasingly important:
           id: 20,
           question: "What maximizes vehicle utilization to reduce trips?",
           options: [
+            "Load Optimization",
             "Carbon Footprint Reduction",
             "Alternative Fuel Vehicles",
-            "Efficient Routing",
-            "Load Optimization"
+            "Efficient Routing"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Load Optimization focuses on filling vehicles to capacity to minimize the number of trips required."
         }
       ]
@@ -962,22 +962,22 @@ Environmental considerations in modern warehousing:
           id: 1,
           question: "What does WMS stand for?",
           options: [
-            "Warehouse Monitoring System",
             "Warehouse Management System",
             "Work Management Solution",
-            "Warehouse Measurement System"
+            "Warehouse Measurement System",
+            "Warehouse Monitoring System"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "WMS stands for Warehouse Management System - specialized software for warehouse operations."
         },
         {
           id: 2,
           question: "What is the first function of a WMS?",
           options: [
-            "Order Management",
-            "Inventory Management",
             "Labor Management",
-            "Space Management"
+            "Inventory Management",
+            "Space Management",
+            "Order Management"
           ],
           correctAnswer: 1,
           explanation: "Inventory Management is fundamental, providing real-time tracking of stock and locations."
@@ -986,9 +986,9 @@ Environmental considerations in modern warehousing:
           id: 3,
           question: "What layout involves direct transfer from receiving to shipping?",
           options: [
-            "Flow-Through Warehousing",
-            "Cross-Docking",
             "Multi-Level Storage",
+            "Cross-Docking",
+            "Flow-Through Warehousing",
             "Zone Picking"
           ],
           correctAnswer: 1,
@@ -999,23 +999,23 @@ Environmental considerations in modern warehousing:
           question: "What technology provides hands-free picking instructions?",
           options: [
             "Barcode Systems",
-            "Voice-Directed Systems",
             "Pick-to-Light Systems",
+            "Voice-Directed Systems",
             "RFID Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Voice-Directed Systems give verbal instructions, leaving workers' hands free for handling goods."
         },
         {
           id: 5,
           question: "What involves scientific measurement of task times?",
           options: [
-            "Incentive Programs",
-            "Engineered Labor Standards",
             "Cross-Training",
-            "Ergonomic Design"
+            "Ergonomic Design",
+            "Engineered Labor Standards",
+            "Incentive Programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Engineered Labor Standards use scientific methods to establish standard times for warehouse tasks."
         },
         {
@@ -1023,35 +1023,35 @@ Environmental considerations in modern warehousing:
           question: "What program involves regular counts of inventory subsets?",
           options: [
             "Location Auditing",
+            "Lot and Batch Control",
             "Cycle Counting",
-            "Serial Number Tracking",
-            "Lot and Batch Control"
+            "Serial Number Tracking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cycle Counting involves regularly counting portions of inventory rather than full physical counts."
         },
         {
           id: 7,
           question: "What sustainability practice uses motion sensors?",
           options: [
-            "Solar Power Integration",
             "Energy-Efficient Lighting",
-            "Waste Reduction Programs",
-            "Water Management"
+            "Water Management",
+            "Solar Power Integration",
+            "Waste Reduction Programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Energy-Efficient Lighting often includes motion sensors to reduce electricity use when areas are unoccupied."
         },
         {
           id: 8,
           question: "What WMS function processes customer orders?",
           options: [
-            "Inventory Management",
             "Order Management",
+            "Inventory Management",
             "Labor Management",
             "Equipment Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Order Management handles the processing, prioritization, and fulfillment of customer orders."
         },
         {
@@ -1059,45 +1059,45 @@ Environmental considerations in modern warehousing:
           question: "What layout minimizes storage time for fast items?",
           options: [
             "Cross-Docking",
-            "Flow-Through Warehousing",
+            "Zone Picking",
             "Multi-Level Storage",
-            "Zone Picking"
+            "Flow-Through Warehousing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Flow-Through Warehousing arranges fast-moving items for quick in-and-out processing."
         },
         {
           id: 10,
           question: "What technology uses visual guidance for picking?",
           options: [
-            "Barcode Systems",
-            "Voice-Directed Systems",
             "Pick-to-Light Systems",
-            "RFID Systems"
+            "Barcode Systems",
+            "RFID Systems",
+            "Voice-Directed Systems"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Pick-to-Light Systems use lights to visually guide workers to correct picking locations."
         },
         {
           id: 11,
           question: "What involves performance-based compensation?",
           options: [
-            "Engineered Labor Standards",
-            "Incentive Programs",
             "Cross-Training",
-            "Ergonomic Design"
+            "Ergonomic Design",
+            "Incentive Programs",
+            "Engineered Labor Standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Incentive Programs reward workers based on productivity or quality performance."
         },
         {
           id: 12,
           question: "What verifies item locations match system records?",
           options: [
-            "Cycle Counting",
+            "Lot and Batch Control",
             "Location Auditing",
-            "Serial Number Tracking",
-            "Lot and Batch Control"
+            "Cycle Counting",
+            "Serial Number Tracking"
           ],
           correctAnswer: 1,
           explanation: "Location Auditing checks that physical item locations match what the WMS records show."
@@ -1108,8 +1108,8 @@ Environmental considerations in modern warehousing:
           options: [
             "Energy-Efficient Lighting",
             "Solar Power Integration",
-            "Waste Reduction Programs",
-            "Water Management"
+            "Water Management",
+            "Waste Reduction Programs"
           ],
           correctAnswer: 1,
           explanation: "Solar Power Integration involves installing solar panels to generate renewable electricity."
@@ -1118,10 +1118,10 @@ Environmental considerations in modern warehousing:
           id: 14,
           question: "What WMS function optimizes workforce allocation?",
           options: [
+            "Space Management",
             "Inventory Management",
-            "Order Management",
             "Labor Management",
-            "Space Management"
+            "Order Management"
           ],
           correctAnswer: 2,
           explanation: "Labor Management helps allocate and optimize workforce resources for maximum productivity."
@@ -1130,12 +1130,12 @@ Environmental considerations in modern warehousing:
           id: 15,
           question: "What layout utilizes vertical space?",
           options: [
-            "Cross-Docking",
-            "Flow-Through Warehousing",
             "Multi-Level Storage",
-            "Zone Picking"
+            "Zone Picking",
+            "Cross-Docking",
+            "Flow-Through Warehousing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Multi-Level Storage uses mezzanines and high racking to maximize vertical space utilization."
         },
         {
@@ -1143,23 +1143,23 @@ Environmental considerations in modern warehousing:
           question: "What are self-navigating transport vehicles called?",
           options: [
             "Warehouse Robotics",
+            "Pick-to-Light Systems",
             "Automated Guided Vehicles",
-            "IoT Sensors",
-            "Pick-to-Light Systems"
+            "IoT Sensors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Automated Guided Vehicles (AGVs) are self-navigating vehicles that transport goods within warehouses."
         },
         {
           id: 17,
           question: "What develops flexible, multi-skilled workers?",
           options: [
-            "Engineered Labor Standards",
-            "Incentive Programs",
             "Cross-Training",
-            "Ergonomic Design"
+            "Ergonomic Design",
+            "Engineered Labor Standards",
+            "Incentive Programs"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Cross-Training teaches workers multiple skills so they can perform different tasks as needed."
         },
         {
@@ -1168,10 +1168,10 @@ Environmental considerations in modern warehousing:
           options: [
             "Cycle Counting",
             "Location Auditing",
-            "Serial Number Tracking",
-            "Lot and Batch Control"
+            "Lot and Batch Control",
+            "Serial Number Tracking"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Serial Number Tracking follows individual items using unique serial numbers throughout their lifecycle."
         },
         {
@@ -1179,21 +1179,21 @@ Environmental considerations in modern warehousing:
           question: "What sustainability practice minimizes packaging waste?",
           options: [
             "Energy-Efficient Lighting",
+            "Water Management",
             "Solar Power Integration",
-            "Waste Reduction Programs",
-            "Water Management"
+            "Waste Reduction Programs"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Waste Reduction Programs focus on minimizing packaging materials and operational waste."
         },
         {
           id: 20,
           question: "What WMS function maximizes storage capacity?",
           options: [
-            "Order Management",
+            "Equipment Management",
             "Labor Management",
             "Space Management",
-            "Equipment Management"
+            "Order Management"
           ],
           correctAnswer: 2,
           explanation: "Space Management optimizes how storage capacity is utilized throughout the warehouse."
@@ -1268,12 +1268,12 @@ Systematic approach to performance improvement:
           id: 1,
           question: "What is the first type of analytics in the framework?",
           options: [
-            "Diagnostic Analytics",
-            "Descriptive Analytics",
             "Predictive Analytics",
-            "Prescriptive Analytics"
+            "Prescriptive Analytics",
+            "Diagnostic Analytics",
+            "Descriptive Analytics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Descriptive Analytics comes first, understanding what has happened through historical data."
         },
         {
@@ -1287,36 +1287,36 @@ Systematic approach to performance improvement:
           id: 3,
           question: "What KPI measures total logistics cost?",
           options: [
-            "Service KPI",
-            "Cost KPI",
             "Efficiency KPI",
-            "Quality KPI"
+            "Service KPI",
+            "Quality KPI",
+            "Cost KPI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Total logistics cost is a Cost KPI that tracks overall logistics expenditure."
         },
         {
           id: 4,
           question: "What does diagnostic analytics analyze?",
           options: [
-            "What might happen",
             "Why things happened",
             "What has happened",
-            "What actions to take"
+            "What actions to take",
+            "What might happen"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Diagnostic Analytics examines causes and reasons behind historical events and patterns."
         },
         {
           id: 5,
           question: "What involves combining data from multiple systems?",
           options: [
-            "Real-Time Data Capture",
             "Data Sources Integration",
             "Data Quality Management",
+            "Real-Time Data Capture",
             "Master Data Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Data Sources Integration combines information from different systems and partners for comprehensive analysis."
         },
         {
@@ -1324,23 +1324,23 @@ Systematic approach to performance improvement:
           question: "What KPI measures on-time delivery?",
           options: [
             "Cost KPI",
-            "Service KPI",
             "Efficiency KPI",
-            "Quality KPI"
+            "Quality KPI",
+            "Service KPI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "On-time delivery is a Service KPI measuring reliability of delivery promises."
         },
         {
           id: 7,
           question: "What analytical technique uses mathematical network models?",
           options: [
-            "Route Optimization Algorithms",
-            "Network Optimization Modeling",
+            "Demand Forecasting Models",
             "Inventory Optimization Models",
-            "Demand Forecasting Models"
+            "Route Optimization Algorithms",
+            "Network Optimization Modeling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Network Optimization Modeling uses mathematical models to determine optimal network designs."
         },
         {
@@ -1348,23 +1348,23 @@ Systematic approach to performance improvement:
           question: "What forecasts what might happen in the future?",
           options: [
             "Descriptive Analytics",
+            "Prescriptive Analytics",
             "Diagnostic Analytics",
-            "Predictive Analytics",
-            "Prescriptive Analytics"
+            "Predictive Analytics"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Predictive Analytics uses historical data and statistical models to forecast future outcomes."
         },
         {
           id: 9,
           question: "What KPI measures inventory turnover?",
           options: [
-            "Cost KPI",
-            "Service KPI",
             "Efficiency KPI",
+            "Service KPI",
+            "Cost KPI",
             "Quality KPI"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Inventory turnover is an Efficiency KPI measuring how quickly inventory moves through the system."
         },
         {
@@ -1372,11 +1372,11 @@ Systematic approach to performance improvement:
           question: "What ensures data accuracy and completeness?",
           options: [
             "Data Sources Integration",
-            "Real-Time Data Capture",
             "Data Quality Management",
-            "Master Data Management"
+            "Master Data Management",
+            "Real-Time Data Capture"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Data Quality Management focuses on ensuring data is accurate, complete, and consistent."
         },
         {
@@ -1384,11 +1384,11 @@ Systematic approach to performance improvement:
           question: "What KPI measures damage rate?",
           options: [
             "Cost KPI",
-            "Service KPI",
+            "Quality KPI",
             "Efficiency KPI",
-            "Quality KPI"
+            "Service KPI"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Damage rate is a Quality KPI measuring how frequently goods are damaged during handling."
         },
         {
@@ -1396,47 +1396,47 @@ Systematic approach to performance improvement:
           question: "What analytical technique tests scenarios virtually?",
           options: [
             "Network Optimization Modeling",
+            "Simulation Modeling",
             "Route Optimization Algorithms",
-            "Inventory Optimization Models",
-            "Simulation Modeling"
+            "Inventory Optimization Models"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Simulation Modeling creates virtual environments to test different scenarios and their outcomes."
         },
         {
           id: 13,
           question: "What recommends actions to achieve outcomes?",
           options: [
-            "Descriptive Analytics",
             "Diagnostic Analytics",
+            "Prescriptive Analytics",
             "Predictive Analytics",
-            "Prescriptive Analytics"
+            "Descriptive Analytics"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Prescriptive Analytics goes beyond prediction to recommend specific actions for desired outcomes."
         },
         {
           id: 14,
           question: "What KPI measures carbon emissions?",
           options: [
-            "Service KPI",
-            "Efficiency KPI",
             "Quality KPI",
-            "Sustainability KPI"
+            "Service KPI",
+            "Sustainability KPI",
+            "Efficiency KPI"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Carbon emissions measurement is a Sustainability KPI tracking environmental impact."
         },
         {
           id: 15,
           question: "What maintains consistent reference data?",
           options: [
-            "Data Sources Integration",
-            "Real-Time Data Capture",
             "Data Quality Management",
-            "Master Data Management"
+            "Real-Time Data Capture",
+            "Master Data Management",
+            "Data Sources Integration"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Master Data Management ensures consistent reference data like product codes across all systems."
         },
         {
@@ -1445,20 +1445,20 @@ Systematic approach to performance improvement:
           options: [
             "Network Optimization Modeling",
             "Route Optimization Algorithms",
-            "Inventory Optimization Models",
-            "Demand Forecasting Models"
+            "Demand Forecasting Models",
+            "Inventory Optimization Models"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Inventory Optimization Models use statistical methods to determine optimal inventory levels."
         },
         {
           id: 17,
           question: "What is the first step in performance management?",
           options: [
-            "Performance Analysis",
+            "Action Planning",
             "Performance Measurement",
             "Goal Setting",
-            "Action Planning"
+            "Performance Analysis"
           ],
           correctAnswer: 1,
           explanation: "Performance Measurement is the first step, collecting and calculating relevant KPIs."
@@ -1467,12 +1467,12 @@ Systematic approach to performance improvement:
           id: 18,
           question: "What technology provides data visualization?",
           options: [
-            "Advanced Analytics Software",
-            "Business Intelligence Platforms",
+            "Cloud Analytics Services",
             "Big Data Platforms",
-            "Cloud Analytics Services"
+            "Business Intelligence Platforms",
+            "Advanced Analytics Software"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Business Intelligence Platforms specialize in data visualization and reporting capabilities."
         },
         {
@@ -1481,18 +1481,18 @@ Systematic approach to performance improvement:
           options: [
             "Network Optimization Modeling",
             "Route Optimization Algorithms",
-            "Inventory Optimization Models",
-            "Demand Forecasting Models"
+            "Demand Forecasting Models",
+            "Inventory Optimization Models"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Demand Forecasting Models predict future customer demand patterns based on historical data."
         },
         {
           id: 20,
           question: "What step involves developing improvement initiatives?",
           options: [
-            "Performance Measurement",
             "Performance Analysis",
+            "Performance Measurement",
             "Goal Setting",
             "Action Planning"
           ],
@@ -1580,12 +1580,12 @@ Preparing for future challenges requires forward-looking leadership:
           id: 1,
           question: "What competency connects logistics to business strategy?",
           options: [
-            "Financial Acumen",
             "Strategic Thinking",
             "Change Leadership",
+            "Financial Acumen",
             "Talent Development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategic Thinking involves understanding how logistics operations support overall business objectives."
         },
         {
@@ -1600,23 +1600,23 @@ Preparing for future challenges requires forward-looking leadership:
           question: "What structure balances control with responsiveness?",
           options: [
             "Matrix Organizations",
-            "Centralized vs. Decentralized Structures",
             "Center of Excellence Models",
+            "Centralized vs. Decentralized Structures",
             "Cross-Functional Teams"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Choosing between centralized and decentralized structures balances control benefits with local responsiveness."
         },
         {
           id: 4,
           question: "What defines required skills and knowledge?",
           options: [
-            "Career Path Development",
             "Competency Frameworks",
+            "Career Path Development",
             "Training Programs",
             "Succession Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Competency Frameworks define the specific skills and knowledge required for logistics roles."
         },
         {
@@ -1624,47 +1624,47 @@ Preparing for future challenges requires forward-looking leadership:
           question: "What involves structured approach from idea to implementation?",
           options: [
             "Technology Adoption Strategies",
-            "Innovation Process Management",
             "Partnership Innovation",
-            "Pilot Testing Approaches"
+            "Pilot Testing Approaches",
+            "Innovation Process Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Innovation Process Management provides a structured framework for moving from ideas to implemented solutions."
         },
         {
           id: 6,
           question: "What is the first step in change management?",
           options: [
+            "Training and Support",
             "Stakeholder Analysis",
             "Change Readiness Assessment",
-            "Communication Planning",
-            "Training and Support"
+            "Communication Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Change Readiness Assessment evaluates how prepared the organization is for proposed changes."
         },
         {
           id: 7,
           question: "What involves applying ethical frameworks to decisions?",
           options: [
+            "Environmental Stewardship",
             "Supply Chain Responsibility",
             "Ethical Decision Making",
-            "Environmental Stewardship",
             "Community Engagement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ethical Decision Making applies ethical principles and frameworks to logistics choices and actions."
         },
         {
           id: 8,
           question: "What competency understands cost structures?",
           options: [
-            "Strategic Thinking",
-            "Financial Acumen",
             "Change Leadership",
-            "Stakeholder Management"
+            "Strategic Thinking",
+            "Stakeholder Management",
+            "Financial Acumen"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Financial Acumen involves understanding cost structures, budgets, and financial implications of decisions."
         },
         {
@@ -1672,11 +1672,11 @@ Preparing for future challenges requires forward-looking leadership:
           question: "What combines functional and business unit reporting?",
           options: [
             "Centralized vs. Decentralized Structures",
+            "Outsourced Operations",
             "Matrix Organizations",
-            "Center of Excellence Models",
-            "Outsourced Operations"
+            "Center of Excellence Models"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Matrix Organizations combine reporting to both functional managers and business unit leaders."
         },
         {
@@ -1695,24 +1695,24 @@ Preparing for future challenges requires forward-looking leadership:
           id: 11,
           question: "What evaluates and implements new technologies?",
           options: [
-            "Innovation Process Management",
-            "Technology Adoption Strategies",
             "Partnership Innovation",
-            "Pilot Testing Approaches"
+            "Innovation Process Management",
+            "Pilot Testing Approaches",
+            "Technology Adoption Strategies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Technology Adoption Strategies provide systematic approaches to evaluating and implementing new technologies."
         },
         {
           id: 12,
           question: "What identifies and involves key stakeholders?",
           options: [
-            "Change Readiness Assessment",
-            "Stakeholder Analysis and Engagement",
             "Communication Planning",
-            "Resistance Management"
+            "Resistance Management",
+            "Stakeholder Analysis and Engagement",
+            "Change Readiness Assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Stakeholder Analysis identifies who will be affected by change and how to involve them effectively."
         },
         {
@@ -1721,8 +1721,8 @@ Preparing for future challenges requires forward-looking leadership:
           options: [
             "Ethical Decision Making",
             "Supply Chain Responsibility",
-            "Environmental Stewardship",
-            "Transparency and Reporting"
+            "Transparency and Reporting",
+            "Environmental Stewardship"
           ],
           correctAnswer: 1,
           explanation: "Supply Chain Responsibility involves ensuring ethical practices extend throughout the entire supply chain."
@@ -1731,48 +1731,48 @@ Preparing for future challenges requires forward-looking leadership:
           id: 14,
           question: "What competency guides organizational transformation?",
           options: [
-            "Strategic Thinking",
-            "Financial Acumen",
             "Change Leadership",
-            "Innovation Management"
+            "Innovation Management",
+            "Strategic Thinking",
+            "Financial Acumen"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Change Leadership involves guiding organizations through significant transformations and improvements."
         },
         {
           id: 15,
           question: "What creates specialized expertise hubs?",
           options: [
-            "Matrix Organizations",
-            "Center of Excellence Models",
             "Outsourced vs. Insourced Operations",
-            "Cross-Functional Teams"
+            "Matrix Organizations",
+            "Cross-Functional Teams",
+            "Center of Excellence Models"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Center of Excellence Models create centralized hubs of specialized expertise that support the organization."
         },
         {
           id: 16,
           question: "What builds skills through structured learning?",
           options: [
-            "Competency Frameworks",
             "Career Path Development",
             "Training and Development Programs",
-            "Succession Planning"
+            "Succession Planning",
+            "Competency Frameworks"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Training and Development Programs provide structured learning opportunities to build required skills."
         },
         {
           id: 17,
           question: "What collaborates with external partners for innovation?",
           options: [
-            "Innovation Process Management",
-            "Technology Adoption Strategies",
             "Partnership Innovation",
-            "Innovation Culture Development"
+            "Technology Adoption Strategies",
+            "Innovation Culture Development",
+            "Innovation Process Management"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Partnership Innovation involves collaborating with suppliers, customers, or technology partners on new ideas."
         },
         {
@@ -1780,35 +1780,35 @@ Preparing for future challenges requires forward-looking leadership:
           question: "What develops clear messages and channels?",
           options: [
             "Change Readiness Assessment",
-            "Stakeholder Analysis",
             "Communication Planning",
+            "Stakeholder Analysis",
             "Training and Support"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Communication Planning develops clear messages about the change and determines the best channels for delivery."
         },
         {
           id: 19,
           question: "What leads sustainability initiatives?",
           options: [
-            "Ethical Decision Making",
-            "Supply Chain Responsibility",
             "Environmental Stewardship",
-            "Community Engagement"
+            "Ethical Decision Making",
+            "Community Engagement",
+            "Supply Chain Responsibility"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Environmental Stewardship involves leading initiatives to reduce environmental impact and promote sustainability."
         },
         {
           id: 20,
           question: "What competency builds high-performing teams?",
           options: [
+            "Innovation Management",
             "Change Leadership",
             "Talent Development",
-            "Stakeholder Management",
-            "Innovation Management"
+            "Stakeholder Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Talent Development focuses on building, nurturing, and developing high-performing logistics teams."
         }
       ]
@@ -1824,70 +1824,70 @@ Preparing for future challenges requires forward-looking leadership:
         id: 1,
         question: "What are the four pillars of logistics strategy framework?",
         options: [
+          "Sourcing, Production, Distribution, Returns",
           "Cost, Service, Quality, Speed",
-          "Customer Service, Network Design, Inventory, Transportation",
           "Planning, Execution, Control, Improvement",
-          "Sourcing, Production, Distribution, Returns"
+          "Customer Service, Network Design, Inventory, Transportation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "The four pillars are Customer Service Strategy, Network Design Strategy, Inventory Strategy, and Transportation Strategy."
       },
       {
         id: 2,
         question: "What principle structures networks based on customer locations?",
         options: [
+          "Risk Management",
           "Cost Optimization",
           "Market-Oriented Design",
-          "Service Requirements",
-          "Risk Management"
+          "Service Requirements"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Market-Oriented Design structures networks based on where customers are located and their specific requirements."
       },
       {
         id: 3,
         question: "What are primary transportation partners with dedicated capacity called?",
         options: [
+          "Specialized Carriers",
           "Spot Market Carriers",
           "Core Carriers",
-          "Specialized Carriers",
           "Integrated Carriers"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Core Carriers are primary partners providing dedicated capacity and preferential treatment."
       },
       {
         id: 4,
         question: "What does WMS primarily manage?",
         options: [
-          "Transportation routes only",
-          "Warehouse operations including inventory and orders",
+          "Just employee schedules",
           "Only financial transactions",
-          "Just employee schedules"
+          "Warehouse operations including inventory and orders",
+          "Transportation routes only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Warehouse Management Systems control comprehensive warehouse operations including inventory, orders, labor, and space."
       },
       {
         id: 5,
         question: "What type of analytics forecasts future outcomes?",
         options: [
-          "Descriptive Analytics",
-          "Diagnostic Analytics",
+          "Prescriptive Analytics",
           "Predictive Analytics",
-          "Prescriptive Analytics"
+          "Diagnostic Analytics",
+          "Descriptive Analytics"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Predictive Analytics uses statistical models and historical data to forecast what might happen in the future."
       },
       {
         id: 6,
         question: "What competency connects logistics to business strategy?",
         options: [
-          "Financial Acumen",
+          "Talent Development",
           "Strategic Thinking",
           "Change Leadership",
-          "Talent Development"
+          "Financial Acumen"
         ],
         correctAnswer: 1,
         explanation: "Strategic Thinking involves understanding how logistics operations support and enable overall business strategy."
@@ -1896,9 +1896,9 @@ Preparing for future challenges requires forward-looking leadership:
         id: 7,
         question: "What competitive advantage focuses on environmental responsibility?",
         options: [
-          "Cost Leadership",
           "Service Excellence",
           "Innovation Leadership",
+          "Cost Leadership",
           "Sustainability Leadership"
         ],
         correctAnswer: 3,
@@ -1908,10 +1908,10 @@ Preparing for future challenges requires forward-looking leadership:
         id: 8,
         question: "What network type produces within each country independently?",
         options: [
-          "Centralized Network",
           "Regional Network",
+          "Hybrid Network",
           "Local-for-Local",
-          "Hybrid Network"
+          "Centralized Network"
         ],
         correctAnswer: 2,
         explanation: "Local-for-Local networks maintain independent production and distribution within each country or region."
@@ -1920,22 +1920,22 @@ Preparing for future challenges requires forward-looking leadership:
         id: 9,
         question: "What does TMS optimize?",
         options: [
-          "Only warehouse storage",
           "Transportation planning and execution",
           "Just inventory levels",
+          "Only warehouse storage",
           "Only labor scheduling"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Transportation Management Systems optimize transportation planning, execution, and cost management."
       },
       {
         id: 10,
         question: "What layout involves direct transfer from receiving to shipping?",
         options: [
-          "Flow-Through Warehousing",
+          "Zone Picking",
           "Cross-Docking",
-          "Multi-Level Storage",
-          "Zone Picking"
+          "Flow-Through Warehousing",
+          "Multi-Level Storage"
         ],
         correctAnswer: 1,
         explanation: "Cross-Docking minimizes storage by transferring goods directly from receiving docks to shipping docks."
@@ -1946,8 +1946,8 @@ Preparing for future challenges requires forward-looking leadership:
         options: [
           "Cost KPI",
           "Service KPI",
-          "Efficiency KPI",
-          "Quality KPI"
+          "Quality KPI",
+          "Efficiency KPI"
         ],
         correctAnswer: 1,
         explanation: "On-time delivery is a Service KPI measuring reliability in meeting promised delivery times."
@@ -1956,12 +1956,12 @@ Preparing for future challenges requires forward-looking leadership:
         id: 12,
         question: "What defines required skills for logistics roles?",
         options: [
-          "Career Path Development",
           "Competency Frameworks",
           "Training Programs",
+          "Career Path Development",
           "Succession Planning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Competency Frameworks define the specific skills, knowledge, and behaviors required for logistics positions."
       },
       {
@@ -1969,45 +1969,45 @@ Preparing for future challenges requires forward-looking leadership:
         question: "What trade-off exists between cost and service?",
         options: [
           "Higher service always costs less",
-          "Higher service levels typically cost more",
+          "Lower cost always means better service",
           "Cost and service are unrelated",
-          "Lower cost always means better service"
+          "Higher service levels typically cost more"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Generally, achieving higher service levels requires more resources and therefore higher costs."
       },
       {
         id: 14,
         question: "What risk strategy uses multiple suppliers?",
         options: [
-          "Buffer Inventory",
-          "Diversification",
           "Alternative Sourcing",
-          "Scenario Planning"
+          "Scenario Planning",
+          "Diversification",
+          "Buffer Inventory"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Diversification spreads risk by using multiple suppliers rather than relying on a single source."
       },
       {
         id: 15,
         question: "What technique combines shipments for better rates?",
         options: [
-          "Freight Rate Negotiation",
           "Consolidation Programs",
+          "Empty Mile Reduction",
           "Mode Conversion Analysis",
-          "Empty Mile Reduction"
+          "Freight Rate Negotiation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Consolidation Programs combine multiple smaller shipments to achieve volume-based transportation discounts."
       },
       {
         id: 16,
         question: "What technology provides hands-free picking instructions?",
         options: [
-          "Barcode Systems",
+          "RFID Systems",
           "Voice-Directed Systems",
-          "Pick-to-Light Systems",
-          "RFID Systems"
+          "Barcode Systems",
+          "Pick-to-Light Systems"
         ],
         correctAnswer: 1,
         explanation: "Voice-Directed Systems provide verbal instructions to warehouse workers, leaving their hands free for handling goods."
@@ -2016,60 +2016,60 @@ Preparing for future challenges requires forward-looking leadership:
         id: 17,
         question: "What involves scientific measurement of task times?",
         options: [
+          "Ergonomic Design",
           "Incentive Programs",
           "Engineered Labor Standards",
-          "Cross-Training",
-          "Ergonomic Design"
+          "Cross-Training"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Engineered Labor Standards use time and motion studies to establish scientific standards for task completion times."
       },
       {
         id: 18,
         question: "What analytics examines why things happened?",
         options: [
-          "Descriptive Analytics",
-          "Diagnostic Analytics",
           "Predictive Analytics",
-          "Prescriptive Analytics"
+          "Prescriptive Analytics",
+          "Descriptive Analytics",
+          "Diagnostic Analytics"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Diagnostic Analytics investigates causes and reasons behind historical events and performance patterns."
       },
       {
         id: 19,
         question: "What innovation approach collaborates with external partners?",
         options: [
-          "Innovation Process Management",
           "Technology Adoption Strategies",
           "Partnership Innovation",
-          "Pilot Testing Approaches"
+          "Pilot Testing Approaches",
+          "Innovation Process Management"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Partnership Innovation involves collaborating with suppliers, customers, or technology partners to develop new solutions."
       },
       {
         id: 20,
         question: "What is the first step in change management?",
         options: [
-          "Stakeholder Analysis",
           "Change Readiness Assessment",
+          "Stakeholder Analysis",
           "Communication Planning",
           "Training and Support"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Change Readiness Assessment evaluates organizational preparedness before implementing changes."
       },
       {
         id: 21,
         question: "What advantage focuses on being lowest-cost provider?",
         options: [
+          "Sustainability Leadership",
           "Service Excellence",
-          "Cost Leadership",
           "Innovation Leadership",
-          "Sustainability Leadership"
+          "Cost Leadership"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Cost Leadership aims to become the lowest-cost provider through operational efficiency and scale."
       },
       {
@@ -2088,9 +2088,9 @@ Preparing for future challenges requires forward-looking leadership:
         id: 23,
         question: "What are carriers used for overflow needs called?",
         options: [
-          "Core Carriers",
-          "Spot Market Carriers",
           "Specialized Carriers",
+          "Spot Market Carriers",
+          "Core Carriers",
           "Integrated Carriers"
         ],
         correctAnswer: 1,
@@ -2100,12 +2100,12 @@ Preparing for future challenges requires forward-looking leadership:
         id: 24,
         question: "What WMS function optimizes workforce allocation?",
         options: [
-          "Inventory Management",
             "Order Management",
-            "Labor Management",
-            "Space Management"
+          "Inventory Management",
+            "Space Management",
+            "Labor Management"
           ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Labor Management functions optimize how workforce resources are allocated and utilized in the warehouse."
       },
       {
@@ -2114,8 +2114,8 @@ Preparing for future challenges requires forward-looking leadership:
         options: [
           "Location Auditing",
           "Cycle Counting",
-          "Serial Number Tracking",
-          "Lot and Batch Control"
+          "Lot and Batch Control",
+          "Serial Number Tracking"
         ],
         correctAnswer: 1,
         explanation: "Cycle Counting involves regularly counting portions of inventory rather than conducting full physical counts."
@@ -2125,8 +2125,8 @@ Preparing for future challenges requires forward-looking leadership:
         question: "What analytics recommends specific actions?",
         options: [
           "Descriptive Analytics",
-          "Diagnostic Analytics",
           "Predictive Analytics",
+          "Diagnostic Analytics",
           "Prescriptive Analytics"
         ],
         correctAnswer: 3,
@@ -2136,12 +2136,12 @@ Preparing for future challenges requires forward-looking leadership:
         id: 27,
         question: "What competency guides organizational transformation?",
         options: [
+          "Innovation Management",
           "Strategic Thinking",
           "Financial Acumen",
-          "Change Leadership",
-          "Innovation Management"
+          "Change Leadership"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Change Leadership involves guiding organizations through significant transformations and improvement initiatives."
       },
       {
@@ -2149,23 +2149,23 @@ Preparing for future challenges requires forward-looking leadership:
         question: "What involves balancing control with responsiveness?",
         options: [
           "Matrix Organizations",
+          "Cross-Functional Teams",
           "Centralized vs. Decentralized Structures",
-          "Center of Excellence Models",
-          "Cross-Functional Teams"
+          "Center of Excellence Models"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Choosing between centralized and decentralized organizational structures balances control with local responsiveness."
       },
       {
         id: 29,
         question: "What sustainability practice uses renewable energy?",
         options: [
-          "Energy-Efficient Lighting",
           "Solar Power Integration",
           "Waste Reduction Programs",
+          "Energy-Efficient Lighting",
           "Water Management"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Solar Power Integration involves installing solar panels to generate renewable electricity for operations."
       },
       {
@@ -2186,8 +2186,8 @@ Preparing for future challenges requires forward-looking leadership:
         options: [
           "Cross-Docking",
           "Flow-Through Warehousing",
-          "Multi-Level Storage",
-          "Zone Picking"
+          "Zone Picking",
+          "Multi-Level Storage"
         ],
         correctAnswer: 1,
         explanation: "Flow-Through Warehousing arranges fast-moving items for quick processing with minimal storage time."
@@ -2208,12 +2208,12 @@ Preparing for future challenges requires forward-looking leadership:
         id: 33,
         question: "What creates progression opportunities in careers?",
         options: [
+          "Training and Development Programs",
           "Competency Frameworks",
           "Career Path Development",
-          "Training and Development Programs",
           "Performance Management Systems"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Career Path Development creates clear progression opportunities and career advancement paths."
       },
       {
@@ -2221,9 +2221,9 @@ Preparing for future challenges requires forward-looking leadership:
         question: "What analyzes when to switch transportation modes?",
         options: [
           "Freight Rate Negotiation",
-          "Consolidation Programs",
+          "Empty Mile Reduction",
           "Mode Conversion Analysis",
-          "Empty Mile Reduction"
+          "Consolidation Programs"
         ],
         correctAnswer: 2,
         explanation: "Mode Conversion Analysis evaluates cost-benefit trade-offs of switching between different transportation modes."
@@ -2232,36 +2232,36 @@ Preparing for future challenges requires forward-looking leadership:
         id: 35,
         question: "What involves structured approach to innovation?",
         options: [
-          "Technology Adoption Strategies",
           "Innovation Process Management",
-          "Partnership Innovation",
-          "Pilot Testing Approaches"
+          "Technology Adoption Strategies",
+          "Pilot Testing Approaches",
+          "Partnership Innovation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Innovation Process Management provides a structured framework from idea generation through implementation."
       },
       {
         id: 36,
         question: "What identifies and involves key stakeholders?",
         options: [
-          "Change Readiness Assessment",
           "Stakeholder Analysis and Engagement",
           "Communication Planning",
-          "Resistance Management"
+          "Resistance Management",
+          "Change Readiness Assessment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Stakeholder Analysis identifies who is affected by change and develops strategies to engage them effectively."
       },
       {
         id: 37,
         question: "What ensures ethical practices in supply chain?",
         options: [
-          "Ethical Decision Making",
-          "Supply Chain Responsibility",
           "Environmental Stewardship",
-          "Community Engagement"
+          "Community Engagement",
+          "Supply Chain Responsibility",
+          "Ethical Decision Making"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Supply Chain Responsibility extends ethical considerations to all partners throughout the supply chain."
       },
       {
@@ -2269,35 +2269,35 @@ Preparing for future challenges requires forward-looking leadership:
         question: "What are self-navigating warehouse vehicles called?",
         options: [
           "Warehouse Robotics",
-          "Automated Guided Vehicles",
           "IoT Sensors",
+          "Automated Guided Vehicles",
           "Pick-to-Light Systems"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Automated Guided Vehicles (AGVs) are self-navigating vehicles that transport goods within warehouses."
       },
       {
         id: 39,
         question: "What analytical technique tests scenarios virtually?",
         options: [
-          "Network Optimization Modeling",
-          "Route Optimization Algorithms",
           "Inventory Optimization Models",
-          "Simulation Modeling"
+          "Simulation Modeling",
+          "Route Optimization Algorithms",
+          "Network Optimization Modeling"
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         explanation: "Simulation Modeling creates virtual environments to test different scenarios and their potential outcomes."
       },
       {
         id: 40,
         question: "What builds skills through structured learning?",
         options: [
-          "Competency Frameworks",
-          "Career Path Development",
+          "Succession Planning",
           "Training and Development Programs",
-          "Succession Planning"
+          "Competency Frameworks",
+          "Career Path Development"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Training and Development Programs provide structured learning opportunities to build required competencies."
       }
     ]

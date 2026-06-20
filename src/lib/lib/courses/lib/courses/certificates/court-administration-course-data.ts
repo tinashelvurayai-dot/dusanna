@@ -179,12 +179,12 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           id: 1,
           question: "How has the role of court administrators evolved in modern times?",
           options: [
-            "From judicial decision-making to clerical work",
             "From clerical management to strategic leadership as chief executive officers",
+            "From judicial decision-making to clerical work",
             "From legal practice to judicial roles",
             "From public relations to security management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Modern court administrators have evolved from clerical managers to strategic leaders who function as chief executive officers of the judicial branch."
         },
         {
@@ -193,8 +193,8 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           options: [
             "Managing daily operations only",
             "Seeing the big picture and planning for long-term court improvement",
-            "Following traditional procedures exactly",
-            "Avoiding any changes to court operations"
+            "Avoiding any changes to court operations",
+            "Following traditional procedures exactly"
           ],
           correctAnswer: 1,
           explanation: "Strategic vision involves seeing the big picture and planning for long-term improvements in court operations and services."
@@ -203,46 +203,46 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           id: 3,
           question: "Which leadership style focuses on supporting judges, staff, and court users?",
           options: [
+            "Autocratic leadership",
             "Transformational leadership",
             "Servant leadership",
-            "Autocratic leadership",
             "Laissez-faire leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Servant leadership focuses on supporting and serving others, which is particularly important in public service settings like courts."
         },
         {
           id: 4,
           question: "Who are key members of effective court leadership teams?",
           options: [
-            "Only judges and administrators",
             "Administrative judges, department heads, specialized coordinators, and advisory groups",
-            "Only external consultants",
-            "Only elected officials"
+            "Only elected officials",
+            "Only judges and administrators",
+            "Only external consultants"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective court leadership teams include administrative judges, department heads, specialized coordinators, and advisory groups representing diverse perspectives."
         },
         {
           id: 5,
           question: "What is essential when managing relationships with judicial officers?",
           options: [
+            "Making legal decisions for judges",
             "Telling judges what to decide",
-            "Respecting judicial authority while maintaining administrative efficiency",
             "Avoiding all communication with judges",
-            "Making legal decisions for judges"
+            "Respecting judicial authority while maintaining administrative efficiency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Court administrators must respect judicial authority (judges make legal decisions) while efficiently managing court operations and resources."
         },
         {
           id: 6,
           question: "What is the first step in strategic planning for courts?",
           options: [
-            "Setting specific goals",
+            "Asking for more budget",
             "Environmental scanning to understand internal and external factors",
             "Implementing changes immediately",
-            "Asking for more budget"
+            "Setting specific goals"
           ],
           correctAnswer: 1,
           explanation: "Environmental scanning, understanding both internal court operations and external factors affecting courts, is the foundation of effective strategic planning."
@@ -252,83 +252,83 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           question: "What makes change management particularly challenging in court settings?",
           options: [
             "Courts change too easily",
+            "Judges always resist any changes",
             "Strong traditions, multiple independent decision-makers, and public scrutiny",
-            "Courts have unlimited resources for change",
-            "Judges always resist any changes"
+            "Courts have unlimited resources for change"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Courts face unique change challenges including strong traditions, multiple independent judges making decisions, and intense public scrutiny of any changes."
         },
         {
           id: 8,
           question: "What are Key Performance Indicators (KPIs) used for in court administration?",
           options: [
-            "Increasing judicial salaries only",
-            "Measuring case processing times, clearance rates, user satisfaction, and resource utilization",
             "Eliminating all court staff",
-            "Making courts more secretive"
+            "Increasing judicial salaries only",
+            "Making courts more secretive",
+            "Measuring case processing times, clearance rates, user satisfaction, and resource utilization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "KPIs measure critical aspects of court performance including processing times, clearance rates, user satisfaction, and how effectively resources are used."
         },
         {
           id: 9,
           question: "What does succession planning involve in court administration?",
           options: [
-            "Planning court success only",
-            "Identifying and developing future court leaders",
+            "Reducing court services",
             "Eliminating current leaders",
-            "Reducing court services"
+            "Identifying and developing future court leaders",
+            "Planning court success only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Succession planning involves identifying potential future leaders and providing development opportunities to ensure continued strong court leadership."
         },
         {
           id: 10,
           question: "What ethical dilemma involves balancing transparency with confidentiality?",
           options: [
-            "Resource allocation decisions",
-            "Information management in court administration",
+            "Budget preparation only",
             "Personnel hiring practices",
-            "Budget preparation only"
+            "Resource allocation decisions",
+            "Information management in court administration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Information management requires balancing the public's right to transparency with the need to protect confidential case information and privacy rights."
         },
         {
           id: 11,
           question: "What is transformational leadership in court settings?",
           options: [
+            "Eliminating all staff input",
             "Inspiring innovation and improvement throughout the court organization",
-            "Maintaining all traditions without change",
             "Focusing only on cost reduction",
-            "Eliminating all staff input"
+            "Maintaining all traditions without change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Transformational leadership inspires innovation and improvement, helping courts adapt to changing needs while maintaining core values."
         },
         {
           id: 12,
           question: "What does collaborative leadership emphasize in court administration?",
           options: [
-            "One person making all decisions",
-            "Building consensus among diverse court stakeholders",
             "Ignoring stakeholder opinions",
-            "Following only judicial directives"
+            "One person making all decisions",
+            "Following only judicial directives",
+            "Building consensus among diverse court stakeholders"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Collaborative leadership emphasizes building consensus among diverse stakeholders including judges, staff, lawyers, and the public."
         },
         {
           id: 13,
           question: "Why is regular communication important between administrators and judges?",
           options: [
-            "To socialize more often",
             "To keep everyone informed and address operational challenges jointly",
             "To reduce paperwork",
+            "To socialize more often",
             "To eliminate meetings"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Regular communication ensures all court leaders are informed and can work together to solve operational challenges effectively."
         },
         {
@@ -337,8 +337,8 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           options: [
             "Creating a compelling future picture of court excellence",
             "Copying other courts exactly",
-            "Following only past practices",
-            "Avoiding any future planning"
+            "Avoiding any future planning",
+            "Following only past practices"
           ],
           correctAnswer: 0,
           explanation: "Vision development creates a compelling picture of what excellence looks like for the court in the future, guiding strategic planning efforts."
@@ -347,24 +347,24 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           id: 15,
           question: "What is a key strategy for successful change management in courts?",
           options: [
-            "Implementing changes secretly",
-            "Involving judges early and often in the change process",
+            "Ignoring staff concerns",
             "Making changes without warning",
-            "Ignoring staff concerns"
+            "Implementing changes secretly",
+            "Involving judges early and often in the change process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Involving judges early and often builds support for changes and incorporates their valuable perspectives on court operations."
         },
         {
           id: 16,
           question: "What should court performance data collection systems be?",
           options: [
-            "Complicated and inaccessible",
-            "Reliable, consistent, timely, and useful for decision-making",
             "Only for internal use by administrators",
-            "Collected but never reviewed"
+            "Collected but never reviewed",
+            "Reliable, consistent, timely, and useful for decision-making",
+            "Complicated and inaccessible"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective data collection systems are reliable, consistent, timely, and designed to provide useful information for decision-making."
         },
         {
@@ -372,8 +372,8 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           question: "What do mentoring programs in court leadership development involve?",
           options: [
             "Connecting experienced and emerging court leaders",
-            "Only training new employees",
             "Replacing experienced staff",
+            "Only training new employees",
             "Eliminating leadership positions"
           ],
           correctAnswer: 0,
@@ -383,24 +383,24 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           id: 18,
           question: "What ethical challenge involves fair distribution of limited resources?",
           options: [
-            "Information management",
-            "Resource allocation among competing needs",
+            "Personnel hiring",
             "External relationships only",
-            "Personnel hiring"
+            "Resource allocation among competing needs",
+            "Information management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Resource allocation requires making fair decisions about distributing limited resources among competing court needs and priorities."
         },
         {
           id: 19,
           question: "What is distributed leadership in court organizations?",
           options: [
+            "Hiring external leaders only",
             "One leader making all decisions",
             "Empowering leaders throughout the court organization at different levels",
-            "Eliminating all leadership roles",
-            "Hiring external leaders only"
+            "Eliminating all leadership roles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Distributed leadership empowers people at various levels throughout the court organization to take leadership in their areas of responsibility."
         },
         {
@@ -408,11 +408,11 @@ Strong ethical frameworks and decision-making processes are essential for mainta
           question: "Why are professional networks important for court administrators?",
           options: [
             "To socialize outside work",
-            "To build connections with other court leaders for sharing best practices and solutions",
             "To find new jobs only",
+            "To build connections with other court leaders for sharing best practices and solutions",
             "To avoid local challenges"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Professional networks connect court administrators with peers to share best practices, solutions to common challenges, and innovative ideas."
         }
       ]
@@ -658,12 +658,12 @@ Developing these skills is essential for effective court financial management.`,
           id: 1,
           question: "What are typical sources of court funding?",
           options: [
-            "Only government taxes",
-            "Government appropriations, court fees and fines, grants, trust funds, and donations",
             "Only from wealthy donors",
-            "Only from international organizations"
+            "Only from international organizations",
+            "Government appropriations, court fees and fines, grants, trust funds, and donations",
+            "Only government taxes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Courts typically receive funding from multiple sources including government appropriations, user fees, fines, grants, trust funds, and limited donations."
         },
         {
@@ -671,11 +671,11 @@ Developing these skills is essential for effective court financial management.`,
           question: "What is the first step in court budget development?",
           options: [
             "Asking for maximum funding",
-            "Needs assessment to identify required resources",
             "Copying last year's budget",
-            "Setting arbitrary spending limits"
+            "Setting arbitrary spending limits",
+            "Needs assessment to identify required resources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Needs assessment identifies what resources are actually required for court operations, forming the foundation for realistic budget development."
         },
         {
@@ -683,11 +683,11 @@ Developing these skills is essential for effective court financial management.`,
           question: "What do operating budgets typically cover?",
           options: [
             "Only building construction",
-            "Day-to-day expenses like salaries, supplies, and utilities",
+            "Only judicial salaries",
             "Only technology purchases",
-            "Only judicial salaries"
+            "Day-to-day expenses like salaries, supplies, and utilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Operating budgets cover regular day-to-day expenses including personnel costs, office supplies, utilities, and routine maintenance."
         },
         {
@@ -695,47 +695,47 @@ Developing these skills is essential for effective court financial management.`,
           question: "What is zero-based budgeting?",
           options: [
             "Budgeting with no money",
-            "Justifying every expense annually rather than basing on previous budgets",
             "Eliminating all expenses",
+            "Justifying every expense annually rather than basing on previous budgets",
             "Only budgeting for new items"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Zero-based budgeting requires justifying all expenses each budget cycle rather than simply adjusting previous year's budgets."
         },
         {
           id: 5,
           question: "What is an effective cost control strategy for courts?",
           options: [
-            "Eliminating all services",
             "Process improvement to streamline procedures and reduce resources needed",
+            "Closing courtrooms randomly",
             "Reducing judge salaries only",
-            "Closing courtrooms randomly"
+            "Eliminating all services"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Process improvement streamlines court procedures to reduce the time and resources needed while maintaining or improving service quality."
         },
         {
           id: 6,
           question: "How can courts responsibly enhance revenue?",
           options: [
-            "Increasing all fees dramatically",
             "Reviewing fee structures, seeking grants, and developing partnerships",
-            "Charging for justice outcomes",
-            "Selling court decisions"
+            "Increasing all fees dramatically",
+            "Selling court decisions",
+            "Charging for justice outcomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Responsible revenue enhancement includes reviewing fee structures, securing grants for special projects, and developing partnerships with other organizations."
         },
         {
           id: 7,
           question: "Why are regular financial statements important?",
           options: [
+            "To hide financial information",
             "To create paperwork",
             "To show income, expenses, and balances for transparency and accountability",
-            "To hide financial information",
             "To impress auditors only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regular financial statements provide transparency about court finances, showing income, expenses, and balances to stakeholders and the public."
         },
         {
@@ -743,47 +743,47 @@ Developing these skills is essential for effective court financial management.`,
           question: "What is essential for effective grant management?",
           options: [
             "Spending money quickly",
-            "Compliance monitoring to ensure all grant requirements are met",
             "Ignoring grant rules",
+            "Compliance monitoring to ensure all grant requirements are met",
             "Using grants for unrelated purposes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Compliance monitoring ensures courts meet all grant requirements, maintaining eligibility for current and future funding."
         },
         {
           id: 9,
           question: "What financial risk involves potential reductions in government funding?",
           options: [
-            "Revenue volatility",
             "Funding uncertainty in court finances",
+            "Revenue volatility",
             "Cost overruns only",
             "Investment risk"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Funding uncertainty refers to the risk of reductions in government appropriations, which are often the primary source of court funding."
         },
         {
           id: 10,
           question: "What should be considered in technology investment evaluation?",
           options: [
-            "Only purchase price",
-            "Total cost of ownership over technology lifespan",
             "Only vendor promises",
-            "Latest trends only"
+            "Only purchase price",
+            "Latest trends only",
+            "Total cost of ownership over technology lifespan"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Total cost of ownership considers all expenses over technology lifespan including purchase, implementation, training, maintenance, and upgrades."
         },
         {
           id: 11,
           question: "What ethical challenge involves balancing cost recovery with access to justice?",
           options: [
+            "Contract management",
             "Resource allocation",
             "Fee setting in court administration",
-            "Contract management",
             "Financial reporting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Fee setting requires balancing the need to recover costs with ensuring that fees don't create barriers to accessing justice."
         },
         {
@@ -791,21 +791,21 @@ Developing these skills is essential for effective court financial management.`,
           question: "What is involved in long-term capital planning for courts?",
           options: [
             "Only daily expenses",
+            "Avoiding all future planning",
             "Major investments in facilities and technology for future needs",
-            "Spending all money immediately",
-            "Avoiding all future planning"
+            "Spending all money immediately"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Capital planning involves strategic investments in major assets like buildings, renovations, and technology systems to meet future court needs."
         },
         {
           id: 13,
           question: "What is outcome-based funding?",
           options: [
-            "Funding based on spending rates",
+            "Funding based only on political connections",
             "Resources tied to achieving specific court results and outcomes",
             "Unlimited funding without accountability",
-            "Funding based only on political connections"
+            "Funding based on spending rates"
           ],
           correctAnswer: 1,
           explanation: "Outcome-based funding links resources to achieving specific, measurable court results rather than just funding activities or positions."
@@ -814,10 +814,10 @@ Developing these skills is essential for effective court financial management.`,
           id: 14,
           question: "What analytical skills do court financial leaders need?",
           options: [
-            "Only basic math",
-            "Interpreting financial data, trends, and performance metrics",
             "Ignoring financial data",
-            "Only calculating payroll"
+            "Interpreting financial data, trends, and performance metrics",
+            "Only calculating payroll",
+            "Only basic math"
           ],
           correctAnswer: 1,
           explanation: "Court financial leaders need sophisticated analytical skills to interpret financial data, identify trends, and connect finances to court performance."
@@ -826,72 +826,72 @@ Developing these skills is essential for effective court financial management.`,
           id: 15,
           question: "What does budget justification preparation involve?",
           options: [
+            "Asking for whatever was received last year",
             "Creating arbitrary numbers",
             "Developing compelling arguments for budget requests based on needs",
-            "Copying other courts' justifications",
-            "Asking for whatever was received last year"
+            "Copying other courts' justifications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Budget justification involves creating compelling, evidence-based arguments that explain why specific budget requests are necessary for effective court operations."
         },
         {
           id: 16,
           question: "What is performance-based budgeting?",
           options: [
+            "Budgeting only for high-profile cases",
             "Budgeting without performance measures",
-            "Linking funding to specific outcomes and performance results",
             "Budgeting based on popularity",
-            "Budgeting only for high-profile cases"
+            "Linking funding to specific outcomes and performance results"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Performance-based budgeting connects funding decisions to achieving specific court outcomes and performance measures."
         },
         {
           id: 17,
           question: "What cost management strategy involves optimizing purchasing?",
           options: [
+            "Eliminating all purchases",
             "Energy management",
             "Supply chain management for court administration",
-            "Staff reduction only",
-            "Eliminating all purchases"
+            "Staff reduction only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Supply chain management optimizes how courts purchase supplies and services to get the best value while meeting needs."
         },
         {
           id: 18,
           question: "Why is budget vs. actual reporting important?",
           options: [
-            "To create more paperwork",
-            "To compare planned spending with actual spending and identify variances",
+            "To avoid budget planning",
             "To hide financial mistakes",
-            "To avoid budget planning"
+            "To compare planned spending with actual spending and identify variances",
+            "To create more paperwork"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Budget vs. actual reports compare what was planned with what actually happened, helping identify variances and improve future budgeting."
         },
         {
           id: 19,
           question: "What financial risk involves expenses exceeding budgeted amounts?",
           options: [
-            "Revenue volatility",
             "Cost overruns in court financial management",
-            "Funding uncertainty",
-            "Investment risk only"
+            "Revenue volatility",
+            "Investment risk only",
+            "Funding uncertainty"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cost overruns occur when actual expenses exceed budgeted amounts, potentially creating financial shortfalls."
         },
         {
           id: 20,
           question: "What is essential for maintaining public trust in court financial management?",
           options: [
-            "Secrecy about finances",
             "Strong ethical frameworks and transparent financial practices",
             "Maximizing fees regardless of impact",
-            "Avoiding all financial reporting"
+            "Avoiding all financial reporting",
+            "Secrecy about finances"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strong ethical frameworks and transparent financial practices are essential for maintaining public trust in how courts manage public funds."
         }
       ]
@@ -1186,10 +1186,10 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 1,
           question: "What makes court HR management different from other sectors?",
           options: [
-            "Exactly the same as corporate HR",
+            "Only dealing with judges",
             "Mixed workforce, dual authority structure, public service mission, and high public scrutiny",
-            "No differences at all",
-            "Only dealing with judges"
+            "Exactly the same as corporate HR",
+            "No differences at all"
           ],
           correctAnswer: 1,
           explanation: "Court HR is unique due to mixed workforce types, dual authority (judicial/administrative), public service focus, and intense public scrutiny of court employees."
@@ -1198,22 +1198,22 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 2,
           question: "What is the first step in strategic workforce planning for courts?",
           options: [
-            "Hiring immediately",
             "Current workforce analysis assessing existing staff and capabilities",
             "Reducing staff automatically",
-            "Ignoring current staff"
+            "Ignoring current staff",
+            "Hiring immediately"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Current workforce analysis examines existing staff skills, demographics, and capabilities as the foundation for strategic workforce planning."
         },
         {
           id: 3,
           question: "What recruitment challenge do courts often face?",
           options: [
-            "Too many applicants",
+            "Only internal applicants",
             "Competition with private sector offering higher salaries",
-            "No one wants to work in courts",
-            "Only internal applicants"
+            "Too many applicants",
+            "No one wants to work in courts"
           ],
           correctAnswer: 1,
           explanation: "Courts often compete with private sector employers who may offer higher salaries, making recruitment challenging despite public service benefits."
@@ -1222,12 +1222,12 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 4,
           question: "Who are typically considered judicial officers in court classification?",
           options: [
-            "All court employees",
-            "Judges, magistrates, and commissioners with specific qualifications",
+            "Only administrative staff",
             "Only security personnel",
-            "Only administrative staff"
+            "Judges, magistrates, and commissioners with specific qualifications",
+            "All court employees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Judicial officers include judges, magistrates, and commissioners who have specific legal qualifications and unique selection processes."
         },
         {
@@ -1235,33 +1235,33 @@ Court HR leaders must anticipate and prepare for these trends.`,
           question: "What must court performance management systems balance?",
           options: [
             "Only speed of work",
-            "Merit principles, due process, judicial independence, and public accountability",
             "Only cost reduction",
-            "Only employee happiness"
+            "Only employee happiness",
+            "Merit principles, due process, judicial independence, and public accountability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Court performance management must balance rewarding excellence, fair procedures, respect for judicial authority, and public service accountability."
         },
         {
           id: 6,
           question: "What is a challenge in court compensation strategies?",
           options: [
+            "Employees don't care about pay",
             "Unlimited funds available",
-            "Budget constraints with limited public funds for salaries",
             "No market competition",
-            "Employees don't care about pay"
+            "Budget constraints with limited public funds for salaries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Courts face budget constraints with limited public funds, making competitive compensation challenging compared to private sector employers."
         },
         {
           id: 7,
           question: "What type of training do court employees typically need?",
           options: [
-            "Only legal training for judges",
-            "Legal updates, technical skills, customer service, ethics, and specialized court functions",
             "Only computer skills",
-            "Only management training"
+            "Legal updates, technical skills, customer service, ethics, and specialized court functions",
+            "Only management training",
+            "Only legal training for judges"
           ],
           correctAnswer: 1,
           explanation: "Court employees need diverse training including legal updates, technical skills, customer service, ethics, and specialized court function training."
@@ -1270,22 +1270,22 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 8,
           question: "What is involved in court labor relations?",
           options: [
-            "Ignoring employee concerns",
-            "Collective bargaining, grievance procedures, and addressing working conditions",
+            "Only management directives",
             "Only judicial decisions",
-            "Only management directives"
+            "Ignoring employee concerns",
+            "Collective bargaining, grievance procedures, and addressing working conditions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Court labor relations involves collective bargaining with unions, fair grievance procedures, and addressing workplace conditions and concerns."
         },
         {
           id: 9,
           question: "What helps build positive court workplace culture?",
           options: [
-            "Only high salaries",
-            "Mission connection, respect, teamwork, innovation support, and recognition",
             "Only strict rules",
-            "Only social events"
+            "Mission connection, respect, teamwork, innovation support, and recognition",
+            "Only social events",
+            "Only high salaries"
           ],
           correctAnswer: 1,
           explanation: "Positive court culture is built by connecting work to mission, showing respect, encouraging teamwork, supporting innovation, and recognizing contributions."
@@ -1294,21 +1294,21 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 10,
           question: "What is a common workplace challenge in courts?",
           options: [
-            "Too little work",
             "Stress and burnout from high-pressure environment with emotional cases",
+            "Only technical problems",
             "No challenges exist",
-            "Only technical problems"
+            "Too little work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Courts are high-pressure environments dealing with emotional cases, leading to stress and burnout risks for employees."
         },
         {
           id: 11,
           question: "What ethical consideration involves preventing improper hiring of relatives?",
           options: [
-            "Confidentiality protection",
-            "Nepotism avoidance in court HR",
             "Political neutrality",
+            "Nepotism avoidance in court HR",
+            "Confidentiality protection",
             "Whistleblower protection"
           ],
           correctAnswer: 1,
@@ -1320,8 +1320,8 @@ Court HR leaders must anticipate and prepare for these trends.`,
           options: [
             "No impact at all",
             "Enables remote work, online training, digital performance tracking, and virtual recruitment",
-            "Only creates problems",
-            "Only for payroll processing"
+            "Only for payroll processing",
+            "Only creates problems"
           ],
           correctAnswer: 1,
           explanation: "Technology enables remote work arrangements, online training delivery, digital performance management, virtual recruitment, and data-driven HR decisions."
@@ -1330,34 +1330,34 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 13,
           question: "What metric measures how long it takes to fill positions?",
           options: [
-            "Retention rate",
             "Time to fill positions in recruitment metrics",
+            "Employee satisfaction",
             "Training participation",
-            "Employee satisfaction"
+            "Retention rate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Time to fill positions measures how long the recruitment process takes from job posting to hiring, indicating recruitment efficiency."
         },
         {
           id: 14,
           question: "What emerging trend involves managing different generations?",
           options: [
-            "Technology automation only",
             "Multigenerational workforce with different expectations and work styles",
+            "Only AI implementation",
             "Only remote work",
-            "Only AI implementation"
+            "Technology automation only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multigenerational workforce management involves addressing different expectations, work styles, and communication preferences across generations."
         },
         {
           id: 15,
           question: "What does succession planning involve?",
           options: [
-            "Planning court success only",
+            "Only hiring external candidates",
             "Preparing for leadership and key position transitions in court workforce",
-            "Eliminating current leaders",
-            "Only hiring external candidates"
+            "Planning court success only",
+            "Eliminating current leaders"
           ],
           correctAnswer: 1,
           explanation: "Succession planning involves identifying and developing internal talent to prepare for future leadership and key position transitions."
@@ -1366,10 +1366,10 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 16,
           question: "What is the total rewards approach in compensation?",
           options: [
-            "Only monetary pay",
+            "Only recognition programs",
             "Considering both monetary and non-monetary rewards and benefits",
-            "Only benefits packages",
-            "Only recognition programs"
+            "Only monetary pay",
+            "Only benefits packages"
           ],
           correctAnswer: 1,
           explanation: "Total rewards approach considers the complete package including salary, benefits, development opportunities, recognition, and work environment."
@@ -1378,48 +1378,48 @@ Court HR leaders must anticipate and prepare for these trends.`,
           id: 17,
           question: "What should effective court training programs include?",
           options: [
-            "Only classroom lectures",
             "Blend of classroom and on-the-job learning with experienced trainers",
             "Only online modules",
+            "Only classroom lectures",
             "Only judicial lectures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective training blends different learning methods and involves experienced court personnel as trainers for practical relevance."
         },
         {
           id: 18,
           question: "What helps address workplace stress in courts?",
           options: [
-            "Ignoring stress",
             "Employee assistance programs and wellness initiatives",
             "Increasing workload",
+            "Ignoring stress",
             "Reducing break times"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Employee assistance programs and workplace wellness initiatives help address stress and support employee mental health in high-pressure court environments."
         },
         {
           id: 19,
           question: "What ethical issue involves protecting employees who report misconduct?",
           options: [
-            "Nepotism avoidance",
-            "Whistleblower protection in court HR ethics",
+            "Confidentiality only",
             "Political neutrality",
-            "Confidentiality only"
+            "Whistleblower protection in court HR ethics",
+            "Nepotism avoidance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Whistleblower protection ensures employees can report misconduct without fear of retaliation, crucial for maintaining court integrity."
         },
         {
           id: 20,
           question: "What future trend involves using analytics for workforce decisions?",
           options: [
-            "Only intuitive decisions",
             "Data-driven HR using analytics for workforce planning and decisions",
-            "Only traditional methods",
-            "Only supervisor opinions"
+            "Only intuitive decisions",
+            "Only supervisor opinions",
+            "Only traditional methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Data-driven HR uses workforce analytics to inform decisions about recruitment, development, retention, and other human resources matters."
         }
       ]
@@ -1738,11 +1738,11 @@ Courts must balance technological advancement with these ethical imperatives.`,
           question: "How has technology's role evolved in courts?",
           options: [
             "Remained exactly the same",
-            "From basic support function to strategic enabler transforming court operations",
             "Only for entertainment",
+            "From basic support function to strategic enabler transforming court operations",
             "Only for simple tasks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Technology has evolved from basic support functions to a strategic enabler that can transform how courts operate and deliver services."
         },
         {
@@ -1750,47 +1750,47 @@ Courts must balance technological advancement with these ethical imperatives.`,
           question: "What is the first step in technology strategic planning?",
           options: [
             "Buying the latest technology",
-            "Vision development for how technology should transform court services",
             "Copying other courts exactly",
+            "Vision development for how technology should transform court services",
             "Asking vendors what to buy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vision development creates a clear picture of how technology should transform court services, guiding all subsequent planning."
         },
         {
           id: 3,
           question: "What is typically included in court technology architecture?",
           options: [
-            "Only computers",
             "Case management, e-filing, document management, video conferencing, and security systems",
             "Only telephones",
+            "Only computers",
             "Only filing cabinets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Modern court technology architecture includes integrated systems for case management, e-filing, document management, remote proceedings, and security."
         },
         {
           id: 4,
           question: "What makes innovation management challenging in courts?",
           options: [
-            "Courts innovate too easily",
             "Risk aversion, resource constraints, legal requirements, and traditional environments",
-            "Courts have unlimited innovation funds",
-            "Everyone always welcomes change"
+            "Courts innovate too easily",
+            "Everyone always welcomes change",
+            "Courts have unlimited innovation funds"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Courts face innovation challenges including natural risk aversion, limited resources, legal compliance requirements, and traditional operational environments."
         },
         {
           id: 5,
           question: "What are key components of electronic court implementation?",
           options: [
-            "Only paper systems",
-            "e-Filing, e-Service, e-Payment, e-Access systems and comprehensive digital operations",
+            "Only physical courthouses",
             "Only manual processes",
-            "Only physical courthouses"
+            "Only paper systems",
+            "e-Filing, e-Service, e-Payment, e-Access systems and comprehensive digital operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Electronic court implementation includes digital systems for filing, service, payment, public access, and transforming court operations digitally."
         },
         {
@@ -1798,11 +1798,11 @@ Courts must balance technological advancement with these ethical imperatives.`,
           question: "How can courts use data analytics?",
           options: [
             "Only for counting cases",
-            "Case flow analysis, resource utilization, predictive forecasting, and performance measurement",
             "Only for budgeting",
-            "Only for staff evaluation"
+            "Only for staff evaluation",
+            "Case flow analysis, resource utilization, predictive forecasting, and performance measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Courts can use data analytics to understand case patterns, optimize resources, predict future needs, and measure performance comprehensively."
         },
         {
@@ -1810,47 +1810,47 @@ Courts must balance technological advancement with these ethical imperatives.`,
           question: "What are potential AI applications in courts?",
           options: [
             "Replacing judges entirely",
+            "Only for security",
             "Document analysis, predictive modeling, chatbots, transcription, and research assistance",
-            "Only for entertainment",
-            "Only for security"
+            "Only for entertainment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "AI can assist with document analysis, predictive forecasting, public service chatbots, transcription services, and legal research support."
         },
         {
           id: 8,
           question: "Why is cybersecurity particularly important for courts?",
           options: [
-            "Courts have no sensitive data",
             "Courts hold sensitive personal, financial, and case information requiring protection",
             "Courts are immune to cyber attacks",
+            "Courts have no sensitive data",
             "Only financial institutions need cybersecurity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Courts hold highly sensitive information including personal data, financial records, and confidential case details requiring robust cybersecurity protection."
         },
         {
           id: 9,
           question: "What is the first step in effective technology procurement?",
           options: [
-            "Buying from any vendor",
             "Clear requirements definition based on court needs",
             "Choosing the cheapest option",
-            "Following trends only"
+            "Following trends only",
+            "Buying from any vendor"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Clear requirements definition based on actual court needs is essential before evaluating or purchasing any technology solutions."
         },
         {
           id: 10,
           question: "What does technology change management require?",
           options: [
+            "No communication needed",
             "Forcing technology on users",
             "Stakeholder analysis, communication planning, training programs, and support systems",
-            "No communication needed",
             "Only technical implementation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective change management requires understanding stakeholders, communicating clearly, providing training, and offering support during transitions."
         },
         {
@@ -1859,8 +1859,8 @@ Courts must balance technological advancement with these ethical imperatives.`,
           options: [
             "Only purchase price",
             "Total cost analysis, benefit measurement, ROI calculation, and intangible benefits",
-            "Only vendor claims",
-            "Only immediate costs"
+            "Only immediate costs",
+            "Only vendor claims"
           ],
           correctAnswer: 1,
           explanation: "Comprehensive ROI evaluation includes all costs, measured benefits, financial returns, and intangible improvements in service or access."
@@ -1869,12 +1869,12 @@ Courts must balance technological advancement with these ethical imperatives.`,
           id: 12,
           question: "What emerging technology might transform court record keeping?",
           options: [
-            "Typewriters",
             "Blockchain for secure, transparent record keeping",
-            "Paper files only",
-            "Only email systems"
+            "Typewriters",
+            "Only email systems",
+            "Paper files only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Blockchain technology offers potential for secure, transparent, and tamper-resistant record keeping systems for court documents."
         },
         {
@@ -1883,8 +1883,8 @@ Courts must balance technological advancement with these ethical imperatives.`,
           options: [
             "Only IT department decisions",
             "Oversight committees, policies, budget processes, risk management, and strategic alignment",
-            "No governance needed",
-            "Only vendor recommendations"
+            "Only vendor recommendations",
+            "No governance needed"
           ],
           correctAnswer: 1,
           explanation: "Effective technology governance includes multi-stakeholder oversight, clear policies, budget review, risk management, and alignment with court strategy."
@@ -1893,22 +1893,22 @@ Courts must balance technological advancement with these ethical imperatives.`,
           id: 14,
           question: "How can courts build technology capacity?",
           options: [
-            "Only hiring external consultants",
             "Staff training, technology leadership development, partnerships, and innovation culture",
             "Avoiding all technology",
-            "Only buying equipment"
+            "Only buying equipment",
+            "Only hiring external consultants"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Building capacity involves developing internal skills, leadership, external partnerships, and a culture supportive of technology innovation."
         },
         {
           id: 15,
           question: "What ethical consideration involves preventing technology access barriers?",
           options: [
-            "Algorithmic fairness",
-            "Digital divide ensuring technology doesn't create justice access barriers",
             "Privacy protection only",
-            "Transparency only"
+            "Digital divide ensuring technology doesn't create justice access barriers",
+            "Transparency only",
+            "Algorithmic fairness"
           ],
           correctAnswer: 1,
           explanation: "The digital divide concern involves ensuring technology implementation doesn't create or worsen barriers to accessing court services and justice."
@@ -1917,10 +1917,10 @@ Courts must balance technological advancement with these ethical imperatives.`,
           id: 16,
           question: "What is predictive analytics in court technology?",
           options: [
-            "Only guessing outcomes",
+            "Only basic counting",
             "Forecasting future caseloads, resource needs, and potential outcomes using data",
             "Only historical reporting",
-            "Only basic counting"
+            "Only guessing outcomes"
           ],
           correctAnswer: 1,
           explanation: "Predictive analytics uses historical data and statistical models to forecast future court needs, caseloads, and potential outcomes."
@@ -1929,12 +1929,12 @@ Courts must balance technological advancement with these ethical imperatives.`,
           id: 17,
           question: "What cybersecurity measure involves regular checks?",
           options: [
+            "Only password protection",
             "Ignoring security",
             "Regular security assessments and vulnerability testing",
-            "Only physical locks",
-            "Only password protection"
+            "Only physical locks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regular security assessments systematically check for vulnerabilities and ensure security measures remain effective over time."
         },
         {
@@ -1953,10 +1953,10 @@ Courts must balance technological advancement with these ethical imperatives.`,
           id: 19,
           question: "What intangible benefits might technology provide?",
           options: [
-            "Only cost savings",
+            "Only reduced staff",
             "Improved service quality, increased access, and enhanced public trust",
             "Only faster processing",
-            "Only reduced staff"
+            "Only cost savings"
           ],
           correctAnswer: 1,
           explanation: "Intangible technology benefits can include better service quality, improved access to justice, and increased public trust in courts."
@@ -1965,12 +1965,12 @@ Courts must balance technological advancement with these ethical imperatives.`,
           id: 20,
           question: "What ethical issue involves preventing bias in automated systems?",
           options: [
-            "Digital divide",
             "Algorithmic fairness in court technology ethics",
-            "Transparency only",
-            "Privacy protection"
+            "Digital divide",
+            "Privacy protection",
+            "Transparency only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Algorithmic fairness addresses concerns about bias in automated systems that could unfairly affect certain groups in court processes."
         }
       ]
@@ -2321,11 +2321,11 @@ These metrics help demonstrate facility management effectiveness and guide impro
           question: "What symbolic function do court facilities serve?",
           options: [
             "Only office space",
+            "Only meeting rooms",
             "Physical representation of justice and the rule of law",
-            "Only storage areas",
-            "Only meeting rooms"
+            "Only storage areas"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Court facilities symbolically represent justice and the rule of law, communicating dignity, authority, and public trust in the justice system."
         },
         {
@@ -2333,35 +2333,35 @@ These metrics help demonstrate facility management effectiveness and guide impro
           question: "What should effective court facility design consider?",
           options: [
             "Only appearance",
-            "Functional requirements, workflow efficiency, security integration, and technology infrastructure",
             "Only lowest cost",
-            "Only traditional designs"
+            "Only traditional designs",
+            "Functional requirements, workflow efficiency, security integration, and technology infrastructure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective design balances functional needs, efficient workflows, integrated security, technology support, flexibility, accessibility, and aesthetics."
         },
         {
           id: 3,
           question: "What is important in modern courtroom design?",
           options: [
-            "Only size",
             "Spatial relationships, technology integration, acoustics, security, and flexibility",
-            "Only color schemes",
-            "Only judge preferences"
+            "Only judge preferences",
+            "Only size",
+            "Only color schemes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Modern courtroom design addresses spatial relationships, technology integration, acoustics, lighting, security, flexibility, and symbolic elements."
         },
         {
           id: 4,
           question: "What is the first step in comprehensive courthouse planning?",
           options: [
-            "Building immediately",
-            "Needs assessment of current and future space requirements",
             "Choosing architect based on friendship",
-            "Copying other courthouses exactly"
+            "Building immediately",
+            "Copying other courthouses exactly",
+            "Needs assessment of current and future space requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Needs assessment identifies current deficiencies and future requirements based on caseload projections and operational needs."
         },
         {
@@ -2370,8 +2370,8 @@ These metrics help demonstrate facility management effectiveness and guide impro
           options: [
             "Ignoring risks",
             "Threat analysis, vulnerability assessment, asset identification, and risk prioritization",
-            "Only counting entrances",
-            "Only after incidents occur"
+            "Only after incidents occur",
+            "Only counting entrances"
           ],
           correctAnswer: 1,
           explanation: "Systematic risk assessment identifies threats, vulnerabilities, critical assets, potential consequences, and prioritizes risks for mitigation."
@@ -2381,20 +2381,20 @@ These metrics help demonstrate facility management effectiveness and guide impro
           question: "What is a layered security approach?",
           options: [
             "Only one security measure",
-            "Multiple security layers (perimeter, entry, internal, courtroom, cyber, personnel, procedural)",
             "Only physical barriers",
+            "Multiple security layers (perimeter, entry, internal, courtroom, cyber, personnel, procedural)",
             "Only technology systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Layered security uses multiple complementary measures so failure of one layer doesn't compromise overall security."
         },
         {
           id: 7,
           question: "What specialized training do court security personnel need?",
           options: [
-            "Only physical fitness",
-            "Threat recognition, de-escalation, emergency procedures, and legal authority training",
             "Only weapons training",
+            "Threat recognition, de-escalation, emergency procedures, and legal authority training",
+            "Only physical fitness",
             "Only customer service"
           ],
           correctAnswer: 1,
@@ -2404,12 +2404,12 @@ These metrics help demonstrate facility management effectiveness and guide impro
           id: 8,
           question: "What technology systems support court security?",
           options: [
-            "Only locks",
             "Access control, surveillance, detection, communication, alert, and monitoring systems",
+            "Only video recording",
             "Only alarm systems",
-            "Only video recording"
+            "Only locks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive security technology includes access control, surveillance, detection, communication, alert, and integrated monitoring systems."
         },
         {
@@ -2417,68 +2417,68 @@ These metrics help demonstrate facility management effectiveness and guide impro
           question: "What does comprehensive emergency planning include?",
           options: [
             "Only fire extinguishers",
-            "Risk assessment, plan development, communication systems, training, and recovery planning",
             "Only evacuation signs",
-            "Only first aid kits"
+            "Only first aid kits",
+            "Risk assessment, plan development, communication systems, training, and recovery planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Comprehensive emergency planning addresses risk assessment, response procedures, communications, training, equipment, recovery, and continuous improvement."
         },
         {
           id: 10,
           question: "What does effective facility maintenance ensure?",
           options: [
-            "Only cleanliness",
             "Operational reliability, safety compliance, cost efficiency, and appearance standards",
-            "Only low costs",
-            "Only when things break"
+            "Only cleanliness",
+            "Only when things break",
+            "Only low costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective maintenance ensures facilities function reliably, meet safety standards, operate cost-efficiently, and maintain professional appearance."
         },
         {
           id: 11,
           question: "What does space utilization analysis involve?",
           options: [
-            "Only counting rooms",
-            "Documenting all spaces, analyzing actual use, and planning for future needs",
             "Only measuring square footage",
-            "Only considering judge offices"
+            "Only considering judge offices",
+            "Only counting rooms",
+            "Documenting all spaces, analyzing actual use, and planning for future needs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Space utilization analysis involves inventorying spaces, analyzing how they're actually used, and planning for optimal future use."
         },
         {
           id: 12,
           question: "What does ensuring court accessibility involve?",
           options: [
-            "Only wheelchair ramps",
             "Physical accessibility, language access, technological accommodations, and procedural modifications",
             "Only elevator installation",
+            "Only wheelchair ramps",
             "Only sign language interpreters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive accessibility addresses physical barriers, language differences, technology access, procedural accommodations, and cost barriers."
         },
         {
           id: 13,
           question: "What does sustainable court facility management include?",
           options: [
-            "Only recycling",
-            "Energy efficiency, water conservation, waste reduction, and green operations",
             "Only using solar panels",
-            "Only natural lighting"
+            "Only natural lighting",
+            "Only recycling",
+            "Energy efficiency, water conservation, waste reduction, and green operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sustainability includes energy and water efficiency, waste reduction, sustainable materials, indoor environmental quality, and green operations."
         },
         {
           id: 14,
           question: "What should renovation planning consider?",
           options: [
-            "Only cosmetic updates",
-            "Condition assessment, needs analysis, phasing strategies, and minimizing disruption",
             "Only cost reduction",
+            "Condition assessment, needs analysis, phasing strategies, and minimizing disruption",
+            "Only cosmetic updates",
             "Only aesthetic improvements"
           ],
           correctAnswer: 1,
@@ -2489,11 +2489,11 @@ These metrics help demonstrate facility management effectiveness and guide impro
           question: "What funding strategy considers total costs over facility lifespan?",
           options: [
             "Only initial cost",
-            "Lifecycle costing for comprehensive facility investment analysis",
+            "Only construction cost",
             "Only annual budget",
-            "Only construction cost"
+            "Lifecycle costing for comprehensive facility investment analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Lifecycle costing considers all costs over facility lifespan including construction, maintenance, operations, and eventual replacement."
         },
         {
@@ -2502,8 +2502,8 @@ These metrics help demonstrate facility management effectiveness and guide impro
           options: [
             "Only number of courtrooms",
             "Courtroom utilization rates showing actual use versus availability",
-            "Only size of courtrooms",
-            "Only age of courtrooms"
+            "Only age of courtrooms",
+            "Only size of courtrooms"
           ],
           correctAnswer: 1,
           explanation: "Courtroom utilization rates measure how frequently and effectively courtrooms are used compared to their availability."
@@ -2512,10 +2512,10 @@ These metrics help demonstrate facility management effectiveness and guide impro
           id: 17,
           question: "What security layer controls access to court property?",
           options: [
-            "Internal security only",
-            "Perimeter security controlling access to court grounds and buildings",
             "Only courtroom security",
-            "Only cybersecurity"
+            "Perimeter security controlling access to court grounds and buildings",
+            "Only cybersecurity",
+            "Internal security only"
           ],
           correctAnswer: 1,
           explanation: "Perimeter security is the first layer, controlling access to court property and building exteriors before people reach entrances."
@@ -2524,33 +2524,33 @@ These metrics help demonstrate facility management effectiveness and guide impro
           id: 18,
           question: "What emergency planning element involves practicing procedures?",
           options: [
-            "Only writing plans",
-            "Training and drills for regular practice of emergency procedures",
+            "Only risk assessment",
             "Only purchasing equipment",
-            "Only risk assessment"
+            "Only writing plans",
+            "Training and drills for regular practice of emergency procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Training and drills ensure court personnel are prepared to implement emergency procedures effectively when needed."
         },
         {
           id: 19,
           question: "What space management strategy uses rooms for multiple purposes?",
           options: [
-            "Dedicated single-use rooms only",
             "Flexible space design for multi-purpose use",
             "Only traditional courtroom design",
+            "Dedicated single-use rooms only",
             "Only large spaces"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Flexible space design allows rooms to serve multiple functions, increasing utilization and adaptability to changing needs."
         },
         {
           id: 20,
           question: "What performance indicator measures user feedback on facilities?",
           options: [
-            "Only cost data",
-            "User satisfaction surveys from judges, staff, lawyers, and public",
             "Only maintenance costs",
+            "User satisfaction surveys from judges, staff, lawyers, and public",
+            "Only cost data",
             "Only square footage"
           ],
           correctAnswer: 1,
@@ -2917,34 +2917,34 @@ Strategic court administration requires both managing current operations effecti
           id: 1,
           question: "What is the first step in the strategic planning cycle?",
           options: [
-            "Implementing changes",
             "Environmental scanning analyzing internal and external factors",
             "Setting arbitrary goals",
-            "Asking for more budget"
+            "Asking for more budget",
+            "Implementing changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Environmental scanning analyzes internal court operations and external factors affecting courts, providing foundation for strategic planning."
         },
         {
           id: 2,
           question: "What does SWOT analysis examine?",
           options: [
-            "Only strengths",
-            "Strengths, weaknesses, opportunities, and threats for comprehensive analysis",
+            "Only current operations",
             "Only opportunities",
-            "Only current operations"
+            "Strengths, weaknesses, opportunities, and threats for comprehensive analysis",
+            "Only strengths"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SWOT analysis systematically examines internal strengths and weaknesses plus external opportunities and threats facing courts."
         },
         {
           id: 3,
           question: "What is a vision statement?",
           options: [
-            "Current operations description",
+            "Staffing plan",
             "Inspiring picture of desired future court excellence",
-            "Budget document",
-            "Staffing plan"
+            "Current operations description",
+            "Budget document"
           ],
           correctAnswer: 1,
           explanation: "A vision statement creates an inspiring picture of what excellence looks like for the court in the future."
@@ -2954,56 +2954,56 @@ Strategic court administration requires both managing current operations effecti
           question: "What does SMART stand for in goal setting?",
           options: [
             "Simple, Manageable, Achievable, Realistic, Timely",
-            "Specific, Measurable, Achievable, Relevant, Time-bound",
             "Strategic, Meaningful, Appropriate, Reasonable, Targeted",
+            "Specific, Measurable, Achievable, Relevant, Time-bound",
             "Systematic, Manageable, Attainable, Relevant, Timely"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound for effective strategic planning."
         },
         {
           id: 5,
           question: "What perspectives does the balanced scorecard include?",
           options: [
-            "Only financial",
             "Financial, customer, internal process, and learning/growth perspectives",
             "Only operational",
-            "Only stakeholder"
+            "Only stakeholder",
+            "Only financial"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The balanced scorecard includes financial, customer, internal process, and learning/growth perspectives for comprehensive performance management."
         },
         {
           id: 6,
           question: "What are Key Performance Indicators (KPIs)?",
           options: [
-            "Only staff counts",
             "Quantitative measures of critical success factors for courts",
+            "Only facility sizes",
             "Only budget numbers",
-            "Only facility sizes"
+            "Only staff counts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "KPIs are quantitative measures of the most important factors for court success and strategic goal achievement."
         },
         {
           id: 7,
           question: "What does data-driven decision making require?",
           options: [
-            "Only intuition",
-            "Data governance, analytical tools, data literacy, and evidence-based practices",
             "Only technology",
-            "Only historical data"
+            "Only historical data",
+            "Data governance, analytical tools, data literacy, and evidence-based practices",
+            "Only intuition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Data-driven decision making requires systems for data quality, analysis tools, staff capabilities, and commitment to evidence-based approaches."
         },
         {
           id: 8,
           question: "What is the first step in change management for strategic initiatives?",
           options: [
-            "Forcing changes immediately",
-            "Change readiness assessment evaluating court capacity for change",
             "Ignoring resistance",
+            "Change readiness assessment evaluating court capacity for change",
+            "Forcing changes immediately",
             "Only announcing changes"
           ],
           correctAnswer: 1,
@@ -3013,36 +3013,36 @@ Strategic court administration requires both managing current operations effecti
           id: 9,
           question: "What does systematic innovation management involve?",
           options: [
-            "Only copying others",
             "Innovation identification, evaluation, prioritization, implementation, and measurement",
             "Only random experimentation",
-            "Only technology adoption"
+            "Only technology adoption",
+            "Only copying others"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systematic innovation management involves identifying, evaluating, prioritizing, implementing, and measuring innovations for court improvement."
         },
         {
           id: 10,
           question: "What do quality management systems ensure?",
           options: [
+            "Only low costs",
             "Only speed",
             "Defined standards, consistent quality, and continuous improvement",
-            "Only low costs",
             "Only customer complaints reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality management systems define standards, ensure consistent quality, and support continuous improvement in court services."
         },
         {
           id: 11,
           question: "How should risk management be integrated with strategic planning?",
           options: [
-            "Ignoring risks",
-            "Identifying strategic risks, assessing impacts, planning responses, and monitoring outcomes",
             "Only after problems occur",
-            "Only financial risks"
+            "Only financial risks",
+            "Identifying strategic risks, assessing impacts, planning responses, and monitoring outcomes",
+            "Ignoring risks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Risk management should be integrated by identifying strategic risks, assessing them, planning responses, and monitoring throughout implementation."
         },
         {
@@ -3050,69 +3050,69 @@ Strategic court administration requires both managing current operations effecti
           question: "What does stakeholder engagement involve?",
           options: [
             "Ignoring stakeholders",
+            "Only public hearings",
             "Stakeholder mapping, analysis, engagement planning, and relationship building",
-            "Only judicial input",
-            "Only public hearings"
+            "Only judicial input"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective stakeholder engagement involves systematically identifying stakeholders, understanding their perspectives, planning engagement, and building relationships."
         },
         {
           id: 13,
           question: "What should strategic communication planning include?",
           options: [
-            "Only one message",
             "Audience analysis, message development, channel selection, and feedback collection",
             "Only annual reports",
+            "Only one message",
             "Only internal memos"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategic communication planning analyzes audiences, develops clear messages, selects appropriate channels, and collects feedback for adjustment."
         },
         {
           id: 14,
           question: "What does resource alignment with strategy ensure?",
           options: [
-            "Resources used randomly",
             "Budget, personnel, technology, and facilities support strategic priorities",
-            "Only budget alignment",
-            "Resources independent of strategy"
+            "Resources independent of strategy",
+            "Resources used randomly",
+            "Only budget alignment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Resource alignment ensures financial, human, technological, and physical resources are directed to support strategic goals and priorities."
         },
         {
           id: 15,
           question: "How is strategic success measured?",
           options: [
+            "Only by staff satisfaction",
             "Only by budget spent",
             "Goal achievement, initiative completion, impact assessment, and stakeholder feedback",
-            "Only by activity levels",
-            "Only by staff satisfaction"
+            "Only by activity levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic success is measured through goal achievement, initiative implementation, impact assessment, and stakeholder feedback on results."
         },
         {
           id: 16,
           question: "What strategic leadership skill involves seeing long-term implications?",
           options: [
+            "Only technical skills",
             "Only daily management",
             "Strategic thinking ability to see big picture and future implications",
-            "Only technical skills",
             "Only financial skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic thinking involves seeing the big picture, understanding long-term implications, and connecting current decisions to future outcomes."
         },
         {
           id: 17,
           question: "What helps future-proof court strategy?",
           options: [
-            "Only current focus",
+            "Only maintaining status quo",
             "Scenario planning, trend analysis, innovation scanning, and flexibility building",
-            "Only historical data",
-            "Only maintaining status quo"
+            "Only current focus",
+            "Only historical data"
           ],
           correctAnswer: 1,
           explanation: "Future-proofing involves scenario planning, monitoring trends, scanning for innovations, and building organizational flexibility and resilience."
@@ -3121,12 +3121,12 @@ Strategic court administration requires both managing current operations effecti
           id: 18,
           question: "What does benchmarking involve in performance measurement?",
           options: [
-            "Only internal comparison",
             "Comparing court performance with similar courts or established standards",
             "Only guessing standards",
-            "Only financial comparison"
+            "Only financial comparison",
+            "Only internal comparison"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Benchmarking involves comparing court performance metrics with similar courts or established standards to identify improvement opportunities."
         },
         {
@@ -3134,23 +3134,23 @@ Strategic court administration requires both managing current operations effecti
           question: "What should change management include for sustainability?",
           options: [
             "Only initial implementation",
+            "Only training",
             "Sustainability planning ensuring changes continue after initial implementation",
-            "Only pilot testing",
-            "Only training"
+            "Only pilot testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sustainability planning ensures strategic changes become embedded in court operations and continue beyond initial implementation efforts."
         },
         {
           id: 20,
           question: "What does continuous improvement culture focus on?",
           options: [
-            "Maintaining status quo",
-            "Ongoing focus on getting better through systematic improvement approaches",
             "Only major changes",
-            "Only technology upgrades"
+            "Maintaining status quo",
+            "Only technology upgrades",
+            "Ongoing focus on getting better through systematic improvement approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Continuous improvement culture focuses on ongoing, systematic efforts to enhance court operations, services, and outcomes over time."
         }
       ]
@@ -3163,36 +3163,36 @@ Strategic court administration requires both managing current operations effecti
       id: 1,
       question: "How has the role of court administrators evolved?",
       options: [
-        "From judicial decision-making to clerical work",
         "From clerical management to strategic leadership as chief executive officers",
+        "From public relations to security management",
         "From legal practice to judicial roles",
-        "From public relations to security management"
+        "From judicial decision-making to clerical work"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Modern court administrators have evolved to strategic leaders functioning as chief executive officers of the judicial branch."
     },
     {
       id: 2,
       question: "What leadership style focuses on supporting judges, staff, and court users?",
       options: [
-        "Transformational leadership",
-        "Servant leadership",
         "Autocratic leadership",
-        "Laissez-faire leadership"
+        "Transformational leadership",
+        "Laissez-faire leadership",
+        "Servant leadership"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Servant leadership focuses on supporting and serving others in public service settings like courts."
     },
     {
       id: 3,
       question: "What are typical sources of court funding?",
       options: [
+        "Only from international organizations",
         "Only government taxes",
         "Government appropriations, court fees and fines, grants, trust funds, and donations",
-        "Only from wealthy donors",
-        "Only from international organizations"
+        "Only from wealthy donors"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Courts receive funding from multiple sources including government, user fees, fines, grants, and limited donations."
     },
     {
@@ -3201,8 +3201,8 @@ Strategic court administration requires both managing current operations effecti
       options: [
         "Budgeting with no money",
         "Justifying every expense annually rather than basing on previous budgets",
-        "Eliminating all expenses",
-        "Only budgeting for new items"
+        "Only budgeting for new items",
+        "Eliminating all expenses"
       ],
       correctAnswer: 1,
       explanation: "Zero-based budgeting requires justifying all expenses each budget cycle rather than adjusting previous budgets."
@@ -3211,9 +3211,9 @@ Strategic court administration requires both managing current operations effecti
       id: 5,
       question: "What makes court HR management different from other sectors?",
       options: [
-        "Exactly the same as corporate HR",
-        "Mixed workforce, dual authority structure, public service mission, and high public scrutiny",
         "No differences at all",
+        "Mixed workforce, dual authority structure, public service mission, and high public scrutiny",
+        "Exactly the same as corporate HR",
         "Only dealing with judges"
       ],
       correctAnswer: 1,
@@ -3223,10 +3223,10 @@ Strategic court administration requires both managing current operations effecti
       id: 6,
       question: "What is the first step in strategic workforce planning?",
       options: [
-        "Hiring immediately",
+        "Ignoring current staff",
         "Current workforce analysis assessing existing staff and capabilities",
-        "Reducing staff automatically",
-        "Ignoring current staff"
+        "Hiring immediately",
+        "Reducing staff automatically"
       ],
       correctAnswer: 1,
       explanation: "Current workforce analysis examines existing staff as the foundation for strategic planning."
@@ -3237,8 +3237,8 @@ Strategic court administration requires both managing current operations effecti
       options: [
         "Remained exactly the same",
         "From basic support function to strategic enabler transforming court operations",
-        "Only for entertainment",
-        "Only for simple tasks"
+        "Only for simple tasks",
+        "Only for entertainment"
       ],
       correctAnswer: 1,
       explanation: "Technology has evolved to a strategic enabler that can transform court operations and services."
@@ -3247,12 +3247,12 @@ Strategic court administration requires both managing current operations effecti
       id: 8,
       question: "What is the first step in technology strategic planning?",
       options: [
-        "Buying the latest technology",
-        "Vision development for how technology should transform court services",
         "Copying other courts exactly",
-        "Asking vendors what to buy"
+        "Buying the latest technology",
+        "Asking vendors what to buy",
+        "Vision development for how technology should transform court services"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Vision development creates a clear picture of how technology should transform court services."
     },
     {
@@ -3260,23 +3260,23 @@ Strategic court administration requires both managing current operations effecti
       question: "What symbolic function do court facilities serve?",
       options: [
         "Only office space",
-        "Physical representation of justice and the rule of law",
+        "Only meeting rooms",
         "Only storage areas",
-        "Only meeting rooms"
+        "Physical representation of justice and the rule of law"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Court facilities symbolically represent justice and the rule of law."
     },
     {
       id: 10,
       question: "What should effective court facility design consider?",
       options: [
-        "Only appearance",
         "Functional requirements, workflow efficiency, security integration, and technology infrastructure",
         "Only lowest cost",
-        "Only traditional designs"
+        "Only traditional designs",
+        "Only appearance"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Effective design balances functional needs, workflows, security, technology, flexibility, and accessibility."
     },
     {
@@ -3284,23 +3284,23 @@ Strategic court administration requires both managing current operations effecti
       question: "What is the first step in strategic planning?",
       options: [
         "Implementing changes",
-        "Environmental scanning analyzing internal and external factors",
+        "Asking for more budget",
         "Setting arbitrary goals",
-        "Asking for more budget"
+        "Environmental scanning analyzing internal and external factors"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Environmental scanning analyzes factors affecting courts as the foundation for planning."
     },
     {
       id: 12,
       question: "What does SWOT analysis examine?",
       options: [
+        "Only opportunities",
         "Only strengths",
         "Strengths, weaknesses, opportunities, and threats",
-        "Only opportunities",
         "Only current operations"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "SWOT examines internal strengths/weaknesses and external opportunities/threats."
     },
     {
@@ -3308,95 +3308,95 @@ Strategic court administration requires both managing current operations effecti
       question: "What is a core competency of strategic vision?",
       options: [
         "Managing daily operations only",
-        "Seeing the big picture and planning for long-term court improvement",
         "Following traditional procedures exactly",
-        "Avoiding any changes"
+        "Avoiding any changes",
+        "Seeing the big picture and planning for long-term court improvement"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Strategic vision involves seeing the big picture and planning for long-term improvements."
     },
     {
       id: 14,
       question: "What is an effective cost control strategy?",
       options: [
+        "Closing courtrooms randomly",
         "Eliminating all services",
         "Process improvement to streamline procedures",
-        "Reducing judge salaries only",
-        "Closing courtrooms randomly"
+        "Reducing judge salaries only"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Process improvement streamlines procedures to reduce resources while maintaining quality."
     },
     {
       id: 15,
       question: "What recruitment challenge do courts often face?",
       options: [
-        "Too many applicants",
         "Competition with private sector offering higher salaries",
         "No one wants to work in courts",
+        "Too many applicants",
         "Only internal applicants"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Courts compete with private sector employers who may offer higher salaries."
     },
     {
       id: 16,
       question: "What must court performance management balance?",
       options: [
-        "Only speed of work",
         "Merit principles, due process, judicial independence, and public accountability",
         "Only cost reduction",
-        "Only employee happiness"
+        "Only employee happiness",
+        "Only speed of work"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Performance management balances excellence, fairness, judicial authority, and public accountability."
     },
     {
       id: 17,
       question: "What makes innovation management challenging in courts?",
       options: [
-        "Courts innovate too easily",
         "Risk aversion, resource constraints, legal requirements, and traditional environments",
-        "Courts have unlimited innovation funds",
-        "Everyone always welcomes change"
+        "Courts innovate too easily",
+        "Everyone always welcomes change",
+        "Courts have unlimited innovation funds"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Courts face innovation challenges including risk aversion, limited resources, and legal requirements."
     },
     {
       id: 18,
       question: "What are key components of electronic court implementation?",
       options: [
-        "Only paper systems",
-        "e-Filing, e-Service, e-Payment, e-Access systems",
         "Only manual processes",
-        "Only physical courthouses"
+        "Only physical courthouses",
+        "Only paper systems",
+        "e-Filing, e-Service, e-Payment, e-Access systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Electronic court implementation includes digital systems for filing, service, payment, and access."
     },
     {
       id: 19,
       question: "What does security risk assessment involve?",
       options: [
-        "Ignoring risks",
-        "Threat analysis, vulnerability assessment, asset identification, and risk prioritization",
         "Only counting entrances",
-        "Only after incidents occur"
+        "Only after incidents occur",
+        "Threat analysis, vulnerability assessment, asset identification, and risk prioritization",
+        "Ignoring risks"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Risk assessment identifies threats, vulnerabilities, assets, and prioritizes risks."
     },
     {
       id: 20,
       question: "What is a layered security approach?",
       options: [
-        "Only one security measure",
         "Multiple security layers (perimeter, entry, internal, courtroom, cyber, personnel, procedural)",
+        "Only one security measure",
         "Only physical barriers",
         "Only technology systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Layered security uses multiple complementary measures for comprehensive protection."
     },
     {
@@ -3404,11 +3404,11 @@ Strategic court administration requires both managing current operations effecti
       question: "What is a vision statement?",
       options: [
         "Current operations description",
+        "Staffing plan",
         "Inspiring picture of desired future court excellence",
-        "Budget document",
-        "Staffing plan"
+        "Budget document"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "A vision statement creates an inspiring picture of future court excellence."
     },
     {
@@ -3427,24 +3427,24 @@ Strategic court administration requires both managing current operations effecti
       id: 23,
       question: "Who are key members of effective court leadership teams?",
       options: [
-        "Only judges and administrators",
         "Administrative judges, department heads, specialized coordinators, and advisory groups",
-        "Only external consultants",
-        "Only elected officials"
+        "Only judges and administrators",
+        "Only elected officials",
+        "Only external consultants"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Leadership teams include diverse members for comprehensive perspectives."
     },
     {
       id: 24,
       question: "How can courts responsibly enhance revenue?",
       options: [
-        "Increasing all fees dramatically",
-        "Reviewing fee structures, seeking grants, and developing partnerships",
         "Charging for justice outcomes",
-        "Selling court decisions"
+        "Selling court decisions",
+        "Reviewing fee structures, seeking grants, and developing partnerships",
+        "Increasing all fees dramatically"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Responsible revenue enhancement includes fee review, grants, and partnerships."
     },
     {
@@ -3453,8 +3453,8 @@ Strategic court administration requires both managing current operations effecti
       options: [
         "Only legal training for judges",
         "Legal updates, technical skills, customer service, ethics, and specialized functions",
-        "Only computer skills",
-        "Only management training"
+        "Only management training",
+        "Only computer skills"
       ],
       correctAnswer: 1,
       explanation: "Court employees need diverse training for their various roles and responsibilities."
@@ -3463,48 +3463,48 @@ Strategic court administration requires both managing current operations effecti
       id: 26,
       question: "How can courts use data analytics?",
       options: [
-        "Only for counting cases",
         "Case flow analysis, resource utilization, predictive forecasting, and performance measurement",
-        "Only for budgeting",
-        "Only for staff evaluation"
+        "Only for counting cases",
+        "Only for staff evaluation",
+        "Only for budgeting"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Courts can use analytics for case patterns, resource optimization, and performance measurement."
     },
     {
       id: 27,
       question: "Why is cybersecurity particularly important for courts?",
       options: [
-        "Courts have no sensitive data",
-        "Courts hold sensitive personal, financial, and case information",
+        "Only financial institutions need cybersecurity",
         "Courts are immune to cyber attacks",
-        "Only financial institutions need cybersecurity"
+        "Courts hold sensitive personal, financial, and case information",
+        "Courts have no sensitive data"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Courts hold highly sensitive information requiring robust cybersecurity protection."
     },
     {
       id: 28,
       question: "What does comprehensive emergency planning include?",
       options: [
-        "Only fire extinguishers",
         "Risk assessment, plan development, communication systems, training, and recovery",
+        "Only fire extinguishers",
         "Only evacuation signs",
         "Only first aid kits"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Comprehensive emergency planning addresses multiple aspects of preparedness and response."
     },
     {
       id: 29,
       question: "What does ensuring court accessibility involve?",
       options: [
-        "Only wheelchair ramps",
-        "Physical accessibility, language access, technological accommodations, and procedural modifications",
         "Only elevator installation",
-        "Only sign language interpreters"
+        "Only wheelchair ramps",
+        "Only sign language interpreters",
+        "Physical accessibility, language access, technological accommodations, and procedural modifications"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Accessibility addresses multiple potential barriers to court access and participation."
     },
     {
@@ -3523,21 +3523,21 @@ Strategic court administration requires both managing current operations effecti
       id: 31,
       question: "What are Key Performance Indicators (KPIs)?",
       options: [
-        "Only staff counts",
         "Quantitative measures of critical success factors",
-        "Only budget numbers",
-        "Only facility sizes"
+        "Only facility sizes",
+        "Only staff counts",
+        "Only budget numbers"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "KPIs measure the most important factors for court success and strategic goals."
     },
     {
       id: 32,
       question: "What does systematic innovation management involve?",
       options: [
-        "Only copying others",
-        "Innovation identification, evaluation, prioritization, implementation, and measurement",
         "Only random experimentation",
+        "Innovation identification, evaluation, prioritization, implementation, and measurement",
+        "Only copying others",
         "Only technology adoption"
       ],
       correctAnswer: 1,
@@ -3547,58 +3547,58 @@ Strategic court administration requires both managing current operations effecti
       id: 33,
       question: "What does quality management ensure?",
       options: [
-        "Only speed",
-        "Defined standards, consistent quality, and continuous improvement",
         "Only low costs",
-        "Only customer complaints reduction"
+        "Only customer complaints reduction",
+        "Defined standards, consistent quality, and continuous improvement",
+        "Only speed"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Quality management defines standards and ensures consistent quality with continuous improvement."
     },
     {
       id: 34,
       question: "What should stakeholder engagement involve?",
       options: [
+        "Only public hearings",
         "Ignoring stakeholders",
-        "Stakeholder mapping, analysis, engagement planning, and relationship building",
         "Only judicial input",
-        "Only public hearings"
+        "Stakeholder mapping, analysis, engagement planning, and relationship building"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Effective stakeholder engagement involves systematic approaches to understanding and engaging stakeholders."
     },
     {
       id: 35,
       question: "What does resource alignment with strategy ensure?",
       options: [
-        "Resources used randomly",
-        "Budget, personnel, technology, and facilities support strategic priorities",
+        "Resources independent of strategy",
         "Only budget alignment",
-        "Resources independent of strategy"
+        "Resources used randomly",
+        "Budget, personnel, technology, and facilities support strategic priorities"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Resource alignment ensures all resources support strategic goals and priorities."
     },
     {
       id: 36,
       question: "How is strategic success measured?",
       options: [
-        "Only by budget spent",
         "Goal achievement, initiative completion, impact assessment, and stakeholder feedback",
         "Only by activity levels",
-        "Only by staff satisfaction"
+        "Only by staff satisfaction",
+        "Only by budget spent"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Strategic success is measured through multiple approaches assessing results and impact."
     },
     {
       id: 37,
       question: "What helps future-proof court strategy?",
       options: [
-        "Only current focus",
-        "Scenario planning, trend analysis, innovation scanning, and flexibility building",
         "Only historical data",
-        "Only maintaining status quo"
+        "Scenario planning, trend analysis, innovation scanning, and flexibility building",
+        "Only maintaining status quo",
+        "Only current focus"
       ],
       correctAnswer: 1,
       explanation: "Future-proofing involves multiple approaches to prepare for changing circumstances."
@@ -3607,36 +3607,36 @@ Strategic court administration requires both managing current operations effecti
       id: 38,
       question: "What is essential for maintaining public trust in court financial management?",
       options: [
+        "Maximizing fees regardless of impact",
         "Secrecy about finances",
         "Strong ethical frameworks and transparent financial practices",
-        "Maximizing fees regardless of impact",
         "Avoiding all financial reporting"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Ethical frameworks and transparency are essential for public trust in court finances."
     },
     {
       id: 39,
       question: "What ethical consideration involves preventing bias in automated systems?",
       options: [
-        "Digital divide",
         "Algorithmic fairness in court technology",
         "Transparency only",
+        "Digital divide",
         "Privacy protection"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Algorithmic fairness addresses concerns about bias in automated court systems."
     },
     {
       id: 40,
       question: "What does continuous improvement culture focus on?",
       options: [
+        "Only technology upgrades",
         "Maintaining status quo",
-        "Ongoing focus on getting better through systematic improvement",
         "Only major changes",
-        "Only technology upgrades"
+        "Ongoing focus on getting better through systematic improvement"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Continuous improvement focuses on ongoing, systematic efforts to enhance court operations."
     }
   ]

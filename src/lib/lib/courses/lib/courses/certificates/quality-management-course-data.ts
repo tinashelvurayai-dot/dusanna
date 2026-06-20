@@ -118,58 +118,58 @@ Emerging directions in quality management:
           id: 1,
           question: "What are the four pillars of advanced quality management?",
           options: [
+            "Cost, time, scope, quality",
             "Inspection, testing, reporting, correction",
             "Leadership, strategy, customer focus, continuous improvement",
-            "Planning, doing, checking, acting",
-            "Cost, time, scope, quality"
+            "Planning, doing, checking, acting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The four interconnected pillars are leadership commitment, strategic planning, customer focus, and continuous improvement."
         },
         {
           id: 2,
           question: "How does quality serve as competitive strategy?",
           options: [
-            "By reducing product features to cut costs",
-            "Through market differentiation and customer loyalty",
             "By focusing only on internal processes",
-            "Through frequent price changes"
+            "By reducing product features to cut costs",
+            "Through frequent price changes",
+            "Through market differentiation and customer loyalty"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality provides competitive advantage through market differentiation, customer loyalty, cost reduction, and brand enhancement."
         },
         {
           id: 3,
           question: "What characterizes a quality-focused organizational culture?",
           options: [
+            "Focusing only on final product inspection",
             "Blaming individuals for failures",
-            "Shared values and open communication about quality",
             "Keeping quality issues confidential",
-            "Focusing only on final product inspection"
+            "Shared values and open communication about quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality culture involves shared responsibility, transparent communication, learning from failures, and leadership modeling quality commitment."
         },
         {
           id: 4,
           question: "What is the first step in strategic quality planning?",
           options: [
-            "Setting quality goals",
             "Environmental analysis of quality factors",
             "Implementing quality systems",
+            "Setting quality goals",
             "Training employees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategic quality planning begins with analyzing internal and external environmental factors affecting quality."
         },
         {
           id: 5,
           question: "What should a quality policy align with?",
           options: [
-            "Only customer complaints",
-            "Organizational business strategy",
             "Competitor quality policies",
-            "Government regulations only"
+            "Organizational business strategy",
+            "Government regulations only",
+            "Only customer complaints"
           ],
           correctAnswer: 1,
           explanation: "A quality policy must align with and support the overall business strategy and objectives of the organization."
@@ -180,8 +180,8 @@ Emerging directions in quality management:
           options: [
             "To reduce stakeholder involvement",
             "Because different stakeholders have different quality expectations",
-            "To avoid communicating with stakeholders",
-            "To standardize all stakeholder requirements"
+            "To standardize all stakeholder requirements",
+            "To avoid communicating with stakeholders"
           ],
           correctAnswer: 1,
           explanation: "Different stakeholders (customers, employees, suppliers, regulators) have varying quality expectations that must be understood and managed."
@@ -190,10 +190,10 @@ Emerging directions in quality management:
           id: 7,
           question: "How should quality integrate with business functions?",
           options: [
-            "As a separate department only",
-            "By connecting with all business areas like operations, marketing, and finance",
             "Only through quality managers",
-            "Through annual audits only"
+            "By connecting with all business areas like operations, marketing, and finance",
+            "Through annual audits only",
+            "As a separate department only"
           ],
           correctAnswer: 1,
           explanation: "Quality must be integrated across all business functions, influencing operations, marketing, finance, HR, R&D, and sales."
@@ -214,12 +214,12 @@ Emerging directions in quality management:
           id: 9,
           question: "What skills are needed for quality management competence?",
           options: [
+            "Only statistical analysis skills",
             "Only technical testing skills",
             "Technical, leadership, cultural, strategic, and change management skills",
-            "Only managerial skills",
-            "Only statistical analysis skills"
+            "Only managerial skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality management requires a blend of technical, leadership, cultural, strategic, and change management competencies."
         },
         {
@@ -227,35 +227,35 @@ Emerging directions in quality management:
           question: "What does quality governance involve?",
           options: [
             "Only quality department decisions",
-            "Quality councils, performance reviews, resource allocation, and risk management",
+            "Only supplier audits",
             "Only customer feedback collection",
-            "Only supplier audits"
+            "Quality councils, performance reviews, resource allocation, and risk management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality governance includes oversight structures, performance monitoring, resource decisions, and risk management frameworks."
         },
         {
           id: 11,
           question: "What is an emerging trend in quality management?",
           options: [
-            "Reducing quality documentation",
             "Digital quality systems using AI and analytics",
-            "Eliminating quality departments",
-            "Focusing only on cost reduction"
+            "Reducing quality documentation",
+            "Focusing only on cost reduction",
+            "Eliminating quality departments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Digital transformation including AI and data analytics represents a significant emerging trend in quality management."
         },
         {
           id: 12,
           question: "How does quality contribute to cost reduction?",
           options: [
-            "By using cheaper materials",
-            "Through fewer defects meaning less waste and rework",
+            "Through shorter product lifecycles",
             "By reducing employee training",
-            "Through shorter product lifecycles"
+            "Through fewer defects meaning less waste and rework",
+            "By using cheaper materials"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective quality management reduces costs by preventing defects, minimizing waste, and avoiding rework expenses."
         },
         {
@@ -263,11 +263,11 @@ Emerging directions in quality management:
           question: "What should leadership demonstrate in quality culture?",
           options: [
             "Delegating all quality responsibility",
-            "Modeling quality commitment through actions",
             "Focusing only on financial results",
+            "Modeling quality commitment through actions",
             "Minimizing quality investments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Leaders must demonstrate quality commitment through their actions, decisions, and resource allocation."
         },
         {
@@ -275,21 +275,21 @@ Emerging directions in quality management:
           question: "What is environmental analysis in quality planning?",
           options: [
             "Studying natural environment only",
-            "Examining internal and external factors affecting quality",
+            "Reviewing competitor locations",
             "Checking factory environmental conditions",
-            "Reviewing competitor locations"
+            "Examining internal and external factors affecting quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Environmental analysis examines both internal (organizational) and external (market, regulatory) factors influencing quality."
         },
         {
           id: 15,
           question: "Why review quality policies regularly?",
           options: [
-            "To create more paperwork",
+            "To standardize with competitors",
             "To update them as business needs and environments change",
             "To reduce policy length",
-            "To standardize with competitors"
+            "To create more paperwork"
           ],
           correctAnswer: 1,
           explanation: "Regular reviews ensure quality policies remain relevant as business strategies, markets, and regulations evolve."
@@ -299,47 +299,47 @@ Emerging directions in quality management:
           question: "How does quality impact brand reputation?",
           options: [
             "Quality has no impact on brand",
+            "Brand reputation depends only on price",
             "Quality excellence enhances brand value and reputation",
-            "Only advertising affects brand reputation",
-            "Brand reputation depends only on price"
+            "Only advertising affects brand reputation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Consistent delivery of high-quality products/services significantly enhances brand reputation and customer trust."
         },
         {
           id: 17,
           question: "What is predictive quality?",
           options: [
-            "Guessing about quality issues",
-            "Anticipating quality issues before they occur using data",
             "Predicting customer complaints",
-            "Forecasting quality department size"
+            "Guessing about quality issues",
+            "Forecasting quality department size",
+            "Anticipating quality issues before they occur using data"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Predictive quality uses data analytics and pattern recognition to anticipate and prevent quality issues before they happen."
         },
         {
           id: 18,
           question: "What does 'quality by design' mean in R&D?",
           options: [
+            "Designing quality department offices",
             "Adding quality checks at the end",
             "Building quality into products during design phase",
-            "Designing quality department offices",
             "Creating quality posters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality by design means incorporating quality considerations and requirements during the initial design and development phases."
         },
         {
           id: 19,
           question: "How does quality integrate with sustainability?",
           options: [
-            "They are completely separate areas",
-            "Quality and environmental management are converging",
             "Sustainability reduces quality",
-            "Quality ignores environmental concerns"
+            "They are completely separate areas",
+            "Quality ignores environmental concerns",
+            "Quality and environmental management are converging"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Modern quality management increasingly integrates with sustainability through environmental management and social responsibility."
         },
         {
@@ -348,8 +348,8 @@ Emerging directions in quality management:
           options: [
             "Reducing quality standards",
             "Adapting quality practices for rapid development cycles",
-            "Eliminating quality documentation",
-            "Making quality inspections faster"
+            "Making quality inspections faster",
+            "Eliminating quality documentation"
           ],
           correctAnswer: 1,
           explanation: "Agile quality approaches adapt traditional quality practices to fit rapid, iterative development cycles common in modern organizations."
@@ -488,10 +488,10 @@ Tools supporting process management:
           id: 1,
           question: "What are the three categories of organizational processes?",
           options: [
-            "Simple, complex, and very complex",
+            "Manual, automated, and semi-automated processes",
             "Core, support, and management processes",
-            "Internal, external, and hybrid processes",
-            "Manual, automated, and semi-automated processes"
+            "Simple, complex, and very complex",
+            "Internal, external, and hybrid processes"
           ],
           correctAnswer: 1,
           explanation: "Processes are categorized as core (customer value creation), support (enabling functions), and management (planning and improvement)."
@@ -500,34 +500,34 @@ Tools supporting process management:
           id: 2,
           question: "What is the first principle of effective process design?",
           options: [
-            "Using the latest technology",
             "Customer focus on delivering value",
+            "Using the latest technology",
             "Minimizing employee involvement",
             "Maximizing process steps"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Process design should start with understanding and focusing on delivering what customers truly value."
         },
         {
           id: 3,
           question: "What do swimlane diagrams specifically show?",
           options: [
+            "Only automated steps",
             "Only process timing",
-            "Responsibilities across different departments",
             "Only decision points",
-            "Only automated steps"
+            "Responsibilities across different departments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Swimlane diagrams visually separate process steps by department or role, showing handoffs and responsibilities clearly."
         },
         {
           id: 4,
           question: "What do efficiency metrics measure in processes?",
           options: [
-            "Customer satisfaction levels",
-            "Time, cost, and resource utilization",
             "Employee happiness",
-            "Market share growth"
+            "Time, cost, and resource utilization",
+            "Market share growth",
+            "Customer satisfaction levels"
           ],
           correctAnswer: 1,
           explanation: "Efficiency metrics focus on how well resources are used - time taken, costs incurred, and resource utilization rates."
@@ -536,84 +536,84 @@ Tools supporting process management:
           id: 5,
           question: "What is statistical process control used for?",
           options: [
-            "Controlling employee behavior",
             "Monitoring process stability using control charts",
-            "Managing financial budgets",
-            "Controlling inventory levels"
+            "Controlling employee behavior",
+            "Controlling inventory levels",
+            "Managing financial budgets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Statistical process control uses control charts with statistical limits to monitor whether processes remain stable over time."
         },
         {
           id: 6,
           question: "What does Lean methodology primarily focus on eliminating?",
           options: [
-            "All process documentation",
-            "The eight types of waste in processes",
             "Employee suggestions",
-            "Customer feedback collection"
+            "Customer feedback collection",
+            "All process documentation",
+            "The eight types of waste in processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Lean methodology targets elimination of eight wastes: defects, overproduction, waiting, non-utilized talent, transportation, inventory, motion, and extra-processing."
         },
         {
           id: 7,
           question: "What does DMAIC stand for in Six Sigma?",
           options: [
-            "Design, Measure, Analyze, Implement, Control",
             "Define, Measure, Analyze, Improve, Control",
             "Develop, Monitor, Assess, Improve, Check",
+            "Design, Measure, Analyze, Implement, Control",
             "Document, Measure, Analyze, Implement, Check"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "DMAIC is the Six Sigma improvement framework: Define, Measure, Analyze, Improve, Control."
         },
         {
           id: 8,
           question: "What characterizes business process reengineering?",
           options: [
-            "Making small incremental changes",
             "Radical redesign with fundamental rethinking",
-            "Only automating existing processes",
-            "Reducing process documentation"
+            "Reducing process documentation",
+            "Making small incremental changes",
+            "Only automating existing processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Business process reengineering involves fundamentally rethinking and radically redesigning processes for dramatic improvements."
         },
         {
           id: 9,
           question: "What should be assessed before process automation?",
           options: [
-            "Only technology costs",
             "Automation opportunities and ROI justification",
             "Only employee preferences",
+            "Only technology costs",
             "Only competitor automation levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Automation decisions should be based on identifying opportunities and calculating return on investment justification."
         },
         {
           id: 10,
           question: "What is a key challenge in process integration?",
           options: [
-            "Having too many processes",
-            "Managing handoffs and interfaces between processes",
             "Creating process names",
-            "Choosing process colors in diagrams"
+            "Having too many processes",
+            "Choosing process colors in diagrams",
+            "Managing handoffs and interfaces between processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Process integration challenges include managing interfaces, data consistency, timing coordination, and end-to-end visibility."
         },
         {
           id: 11,
           question: "What is process risk management?",
           options: [
-            "Eliminating all risks from processes",
-            "Identifying and mitigating what could go wrong in processes",
+            "Avoiding process changes",
             "Insuring processes against failure",
-            "Avoiding process changes"
+            "Identifying and mitigating what could go wrong in processes",
+            "Eliminating all risks from processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Process risk management involves systematically identifying potential failures, assessing impacts, and implementing controls."
         },
         {
@@ -622,8 +622,8 @@ Tools supporting process management:
           options: [
             "Increasing process speed only",
             "Workplace organization and standardization",
-            "Reducing employee count",
-            "Automating all processes"
+            "Automating all processes",
+            "Reducing employee count"
           ],
           correctAnswer: 1,
           explanation: "5S (Sort, Set in order, Shine, Standardize, Sustain) creates organized, efficient, and standardized work environments."
@@ -632,22 +632,22 @@ Tools supporting process management:
           id: 13,
           question: "What is process capability analysis?",
           options: [
-            "Analyzing employee capabilities",
-            "Measuring how well processes meet specifications",
             "Checking computer processing speed",
-            "Analyzing management capabilities"
+            "Analyzing management capabilities",
+            "Analyzing employee capabilities",
+            "Measuring how well processes meet specifications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Process capability analysis (Cp, Cpk) statistically measures whether processes can consistently produce within specification limits."
         },
         {
           id: 14,
           question: "What are preventive controls in processes?",
           options: [
-            "Controls that detect errors after they occur",
+            "Controls that report errors to managers",
             "Controls that stop errors before they occur",
-            "Controls that punish employees for errors",
-            "Controls that report errors to managers"
+            "Controls that detect errors after they occur",
+            "Controls that punish employees for errors"
           ],
           correctAnswer: 1,
           explanation: "Preventive controls are designed to prevent errors or problems from occurring in the first place."
@@ -656,48 +656,48 @@ Tools supporting process management:
           id: 15,
           question: "What is process mining?",
           options: [
+            "Mining employee suggestions",
             "Extracting minerals for processes",
             "Discovering actual process flows from system data",
-            "Creating process diagrams from scratch",
-            "Mining employee suggestions"
+            "Creating process diagrams from scratch"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Process mining uses data from information systems to discover, monitor, and improve actual process flows."
         },
         {
           id: 16,
           question: "What does value stream mapping identify?",
           options: [
-            "Only process costs",
-            "Value-added vs non-value-added process steps",
+            "Customer demographic values",
             "Employee value to organization",
-            "Customer demographic values"
+            "Only process costs",
+            "Value-added vs non-value-added process steps"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Value stream maps visually distinguish between steps that add value for customers and those that don't (waste)."
         },
         {
           id: 17,
           question: "What is process ownership?",
           options: [
-            "Owning process documentation",
-            "Taking accountability for process outcomes",
+            "Owning process software",
             "Controlling all process decisions",
-            "Owning process software"
+            "Owning process documentation",
+            "Taking accountability for process outcomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Process ownership means being accountable for the design, performance, and improvement of a specific process."
         },
         {
           id: 18,
           question: "What is contingency planning in process risk?",
           options: [
+            "Contingency hiring for process work",
             "Planning to eliminate all risks",
             "Creating backup plans for process disruptions",
-            "Contingency hiring for process work",
             "Planning process celebrations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Contingency planning develops backup plans and alternative approaches for when process disruptions occur."
         },
         {
@@ -705,23 +705,23 @@ Tools supporting process management:
           question: "What does BPMN stand for?",
           options: [
             "Business Process Management Network",
-            "Business Process Model and Notation",
             "Basic Process Modeling Notation",
+            "Business Process Model and Notation",
             "Business Process Measurement Network"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "BPMN is the standardized Business Process Model and Notation for creating business process diagrams."
         },
         {
           id: 20,
           question: "What is a process culture characteristic?",
           options: [
-            "Focusing only on individual tasks",
-            "Viewing work as interconnected processes",
+            "Avoiding process measurements",
             "Keeping process knowledge secret",
-            "Avoiding process measurements"
+            "Viewing work as interconnected processes",
+            "Focusing only on individual tasks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Process culture involves thinking in terms of interconnected processes rather than isolated tasks or departments."
         }
       ]
@@ -942,12 +942,12 @@ Leading quality in international contexts:
           id: 1,
           question: "What is transformational leadership in quality?",
           options: [
-            "Maintaining current quality practices",
             "Creating compelling quality vision and inspiring change",
+            "Maintaining current quality practices",
             "Focusing only on quality procedures",
             "Managing quality through strict controls"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transformational leadership involves creating inspiring quality visions and motivating teams toward quality transformation."
         },
         {
@@ -955,47 +955,47 @@ Leading quality in international contexts:
           question: "What characterizes servant leadership in quality?",
           options: [
             "Controlling all quality decisions",
-            "Putting team success first and empowering others",
+            "Serving quality reports to management",
             "Servicing quality equipment",
-            "Serving quality reports to management"
+            "Putting team success first and empowering others"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Servant leadership focuses on supporting team success, empowering members, and stewarding organizational quality."
         },
         {
           id: 3,
           question: "What is the first step in vision development for quality?",
           options: [
+            "Planning quality vision communication",
             "Creating future quality predictions",
             "Assessing current quality state and reality",
-            "Writing quality vision statements",
-            "Planning quality vision communication"
+            "Writing quality vision statements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vision development starts with honestly assessing the current quality reality before envisioning future possibilities."
         },
         {
           id: 4,
           question: "What does ADKAR stand for in change management?",
           options: [
-            "Assess, Design, Know, Act, Review",
             "Awareness, Desire, Knowledge, Ability, Reinforcement",
+            "Align, Drive, Knowledge, Achieve, Recognize",
             "Analyze, Develop, Keep, Apply, Reward",
-            "Align, Drive, Knowledge, Achieve, Recognize"
+            "Assess, Design, Know, Act, Review"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ADKAR represents the change management stages: Awareness, Desire, Knowledge, Ability, Reinforcement."
         },
         {
           id: 5,
           question: "What is the first step in Kotter's change model for quality?",
           options: [
-            "Building quality guiding coalition",
-            "Creating urgency for quality improvement",
+            "Instituting quality changes in culture",
             "Generating short-term quality wins",
-            "Instituting quality changes in culture"
+            "Creating urgency for quality improvement",
+            "Building quality guiding coalition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Kotter's model begins with creating a sense of urgency about the need for quality improvement."
         },
         {
@@ -1003,11 +1003,11 @@ Leading quality in international contexts:
           question: "What should communication planning for quality include?",
           options: [
             "Only management messages",
+            "Only digital communication methods",
             "Audience analysis, message development, and channel selection",
-            "Only formal written communications",
-            "Only digital communication methods"
+            "Only formal written communications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective quality communication planning involves understanding audiences, crafting messages, and selecting appropriate channels."
         },
         {
@@ -1015,11 +1015,11 @@ Leading quality in international contexts:
           question: "What is the 'storming' stage in team development?",
           options: [
             "Initial team introduction",
-            "Working through conflicts and disagreements",
             "Achieving high performance",
+            "Working through conflicts and disagreements",
             "Team dissolution phase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Storming is when team members work through conflicts, disagreements, and power struggles as they establish working relationships."
         },
         {
@@ -1027,11 +1027,11 @@ Leading quality in international contexts:
           question: "What distinguishes coaching from mentoring in quality?",
           options: [
             "Coaching is only for managers",
-            "Coaching focuses on skill development, mentoring on career guidance",
+            "They are exactly the same",
             "Mentoring is only for technical skills",
-            "They are exactly the same"
+            "Coaching focuses on skill development, mentoring on career guidance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Coaching typically focuses on specific skill development and performance improvement, while mentoring provides broader career guidance and wisdom sharing."
         },
         {
@@ -1039,23 +1039,23 @@ Leading quality in international contexts:
           question: "How should quality be integrated into performance management?",
           options: [
             "Only as separate quality metrics",
-            "Through balanced scorecards, KPIs, goals, and recognition systems",
+            "Only for quality department staff",
             "Only in annual performance reviews",
-            "Only for quality department staff"
+            "Through balanced scorecards, KPIs, goals, and recognition systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality should be integrated throughout performance management systems via balanced metrics, goals, reviews, and recognition."
         },
         {
           id: 10,
           question: "What is quality culture assessment?",
           options: [
-            "Counting quality documents",
             "Analyzing existing quality norms and defining desired culture",
             "Measuring employee quality test scores",
+            "Counting quality documents",
             "Auditing quality procedures only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Quality culture assessment involves understanding current quality norms and defining the desired quality culture state."
         },
         {
@@ -1074,9 +1074,9 @@ Leading quality in international contexts:
           id: 12,
           question: "What ethical principle involves openness about quality issues?",
           options: [
-            "Fairness only",
-            "Transparency in quality disclosure",
             "Responsibility alone",
+            "Transparency in quality disclosure",
+            "Fairness only",
             "Respect without disclosure"
           ],
           correctAnswer: 1,
@@ -1086,10 +1086,10 @@ Leading quality in international contexts:
           id: 13,
           question: "What is situational leadership in quality?",
           options: [
-            "Using the same approach always",
+            "Managing situational quality only",
             "Adapting leadership style to different quality situations",
             "Leading from specific locations",
-            "Managing situational quality only"
+            "Using the same approach always"
           ],
           correctAnswer: 1,
           explanation: "Situational leadership involves adapting leadership approaches based on the specific quality context, team capability, and challenges."
@@ -1098,84 +1098,84 @@ Leading quality in international contexts:
           id: 14,
           question: "What does 'goal cascade' mean in quality strategy?",
           options: [
-            "Reducing quality goals",
-            "Translating strategic goals to operational quality objectives",
+            "Creating waterfall charts of goals",
             "Cancelling quality goals",
-            "Creating waterfall charts of goals"
+            "Translating strategic goals to operational quality objectives",
+            "Reducing quality goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Goal cascade means systematically translating high-level strategic quality goals into specific operational objectives at different organizational levels."
         },
         {
           id: 15,
           question: "What is change resistance often caused by?",
           options: [
-            "Too much communication",
-            "Fear, misunderstanding, or different assessments",
+            "Excessive employee involvement",
             "Perfect change plans",
-            "Excessive employee involvement"
+            "Fear, misunderstanding, or different assessments",
+            "Too much communication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Resistance to quality change often stems from fear of the unknown, misunderstandings about changes, or different assessments of the situation."
         },
         {
           id: 16,
           question: "What role do 'quality champions' play?",
           options: [
+            "Championing against quality",
             "Winning quality awards",
             "Being passionate advocates for quality improvement",
-            "Championing against quality",
             "Competing in quality competitions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality champions are passionate advocates who promote quality improvement and help drive cultural change."
         },
         {
           id: 17,
           question: "What is experiential learning in quality leadership?",
           options: [
-            "Only classroom training",
             "Learning by leading quality projects and initiatives",
-            "Reading quality books only",
-            "Watching quality videos"
+            "Watching quality videos",
+            "Only classroom training",
+            "Reading quality books only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Experiential learning involves developing quality leadership skills through hands-on experience leading quality projects and initiatives."
         },
         {
           id: 18,
           question: "What ethical dilemma involves quality vs cost?",
           options: [
-            "Choosing only quality always",
-            "Balancing quality requirements with financial pressures",
+            "Reducing quality to save money always",
             "Ignoring costs for quality",
-            "Reducing quality to save money always"
+            "Balancing quality requirements with financial pressures",
+            "Choosing only quality always"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality leaders often face dilemmas balancing quality requirements against cost pressures and financial constraints."
         },
         {
           id: 19,
           question: "What is global quality strategy consideration?",
           options: [
-            "Ignoring local differences",
             "Balancing local adaptation with global consistency",
             "Applying same approach everywhere",
-            "Letting each location decide completely"
+            "Letting each location decide completely",
+            "Ignoring local differences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Global quality strategy must balance adapting to local contexts while maintaining consistent core quality standards worldwide."
         },
         {
           id: 20,
           question: "What does emotional intelligence help with in quality leadership?",
           options: [
-            "Only personal emotions",
             "Understanding and managing quality-related emotions in others",
             "Eliminating all emotions",
-            "Increasing emotional reactions"
+            "Increasing emotional reactions",
+            "Only personal emotions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Emotional intelligence helps quality leaders understand, empathize with, and constructively manage emotions related to quality changes and challenges."
         }
       ]
@@ -1400,24 +1400,24 @@ Managing analytics capabilities:
           id: 1,
           question: "What is the purpose of quality analytics?",
           options: [
-            "Creating more reports",
-            "Transforming data into actionable quality insights",
+            "Automating all quality checks",
             "Replacing human quality decisions",
-            "Automating all quality checks"
+            "Creating more reports",
+            "Transforming data into actionable quality insights"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality analytics transforms raw data into insights that inform quality improvement decisions and strategic direction."
         },
         {
           id: 2,
           question: "What should a data collection strategy include?",
           options: [
-            "Only data storage decisions",
             "Sources, methods, frequency, storage, and access protocols",
             "Only data collection tools",
-            "Only data frequency determination"
+            "Only data frequency determination",
+            "Only data storage decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A comprehensive strategy covers where data comes from, how it's collected, how often, where stored, and who can access it."
         },
         {
@@ -1425,47 +1425,47 @@ Managing analytics capabilities:
           question: "What are multivariate control charts used for?",
           options: [
             "Single variable monitoring",
-            "Tracking multiple correlated quality characteristics",
             "Monitoring only mean values",
-            "Controlling employee performance"
+            "Controlling employee performance",
+            "Tracking multiple correlated quality characteristics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Multivariate control charts monitor several correlated quality variables simultaneously, important when characteristics interact."
         },
         {
           id: 4,
           question: "What is short run SPC designed for?",
           options: [
-            "Long production runs only",
             "Situations with limited data from small production runs",
+            "Long production runs only",
             "Statistical process control training",
             "Controlling very fast processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Short run SPC techniques are specifically designed for situations with limited data, such as small batch or custom production."
         },
         {
           id: 5,
           question: "What is the advantage of fractional factorial designs?",
           options: [
-            "Testing all possible combinations",
-            "Reducing experimental runs while screening important factors",
             "Eliminating all interactions",
-            "Making experiments more complex"
+            "Making experiments more complex",
+            "Testing all possible combinations",
+            "Reducing experimental runs while screening important factors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Fractional factorial designs test a subset of combinations, efficiently identifying important factors with fewer experimental runs."
         },
         {
           id: 6,
           question: "What does response surface methodology optimize?",
           options: [
-            "Only experimental costs",
-            "Finding optimal process settings for quality outcomes",
+            "Simplifying experimental designs",
             "Reducing experimental time only",
-            "Simplifying experimental designs"
+            "Only experimental costs",
+            "Finding optimal process settings for quality outcomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Response surface methodology finds the optimal combination of process settings to achieve desired quality outcomes."
         },
         {
@@ -1473,35 +1473,35 @@ Managing analytics capabilities:
           question: "What is Weibull analysis used for in reliability?",
           options: [
             "Analyzing employee reliability",
-            "Modeling failure time distributions for products",
             "Measuring process reliability only",
-            "Analyzing supply chain reliability"
+            "Analyzing supply chain reliability",
+            "Modeling failure time distributions for products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Weibull analysis statistically models how product failures are distributed over time, helping predict reliability."
         },
         {
           id: 8,
           question: "What are prevention costs in quality cost analysis?",
           options: [
+            "Costs of internal failures",
             "Costs of inspecting for defects",
             "Activities and investments to prevent defects from occurring",
-            "Costs of internal failures",
             "Costs of customer returns"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Prevention costs include activities like quality planning, training, and process improvement aimed at preventing defects."
         },
         {
           id: 9,
           question: "What is predictive quality analytics?",
           options: [
-            "Guessing about quality issues",
-            "Using data and models to anticipate quality issues before they occur",
             "Predicting future quality staff needs",
-            "Forecasting quality department budgets"
+            "Forecasting quality department budgets",
+            "Using data and models to anticipate quality issues before they occur",
+            "Guessing about quality issues"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Predictive quality analytics uses historical data and modeling to anticipate and prevent quality issues before they happen."
         },
         {
@@ -1509,47 +1509,47 @@ Managing analytics capabilities:
           question: "What is competitive benchmarking?",
           options: [
             "Comparing internal departments",
+            "Comparing to theoretical ideals",
             "Comparing quality performance to direct competitors",
-            "Benchmarking against any company",
-            "Comparing to theoretical ideals"
+            "Benchmarking against any company"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Competitive benchmarking specifically compares an organization's quality performance against its direct market competitors."
         },
         {
           id: 11,
           question: "What does FMEA stand for in risk analytics?",
           options: [
-            "Failure Management and Evaluation Analysis",
-            "Failure Mode and Effects Analysis",
             "Fault Measurement and Evaluation Assessment",
-            "Failure Monitoring and Effects Assessment"
+            "Failure Monitoring and Effects Assessment",
+            "Failure Management and Evaluation Analysis",
+            "Failure Mode and Effects Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "FMEA is Failure Mode and Effects Analysis, a systematic method for identifying potential failures and their impacts."
         },
         {
           id: 12,
           question: "What is a data lake in quality analytics?",
           options: [
-            "A small data storage system",
-            "A repository storing raw quality data in native format",
             "Only for processed quality data",
-            "A visualization tool for quality data"
+            "A visualization tool for quality data",
+            "A repository storing raw quality data in native format",
+            "A small data storage system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A data lake stores raw, unprocessed quality data in its original format until needed for analysis."
         },
         {
           id: 13,
           question: "What does adaptive control charts adjust?",
           options: [
+            "Employee sampling schedules",
             "Only control limits",
-            "Sampling intervals and sample sizes based on process state",
             "Only process means",
-            "Employee sampling schedules"
+            "Sampling intervals and sample sizes based on process state"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Adaptive control charts dynamically adjust sampling frequency and sample size based on current process stability and performance."
         },
         {
@@ -1557,35 +1557,35 @@ Managing analytics capabilities:
           question: "What is accelerated life testing?",
           options: [
             "Testing products slowly over time",
-            "Simulating long-term use quickly through stress conditions",
             "Testing only new products",
-            "Eliminating reliability testing"
+            "Eliminating reliability testing",
+            "Simulating long-term use quickly through stress conditions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Accelerated life testing applies stress conditions to simulate years of product use in much shorter time periods."
         },
         {
           id: 15,
           question: "What is the optimal quality level in cost modeling?",
           options: [
-            "Perfect quality with no defects",
-            "Economic balance point where prevention and failure costs are optimized",
+            "Maximum quality spending level",
             "Minimum possible quality cost",
-            "Maximum quality spending level"
+            "Economic balance point where prevention and failure costs are optimized",
+            "Perfect quality with no defects"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The optimal quality level balances prevention costs against failure costs to find the most economical total quality cost point."
         },
         {
           id: 16,
           question: "What do classification algorithms predict in quality?",
           options: [
-            "Only numerical values",
             "Defect categories or quality classifications",
-            "Only future sales",
-            "Employee performance ratings"
+            "Only numerical values",
+            "Employee performance ratings",
+            "Only future sales"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Classification algorithms predict categorical outcomes like defect types, quality grades, or pass/fail determinations."
         },
         {
@@ -1593,47 +1593,47 @@ Managing analytics capabilities:
           question: "What is functional benchmarking?",
           options: [
             "Benchmarking only finance functions",
-            "Comparing similar functions across different industries",
             "Benchmarking functional specifications",
+            "Comparing similar functions across different industries",
             "Comparing to functional requirements only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Functional benchmarking compares specific functions (like customer service quality) across different industries to find best practices."
         },
         {
           id: 18,
           question: "What is Monte Carlo simulation used for in risk?",
           options: [
-            "Simple risk calculation",
             "Probabilistic analysis of risk outcomes through random sampling",
             "Only financial risk analysis",
+            "Simple risk calculation",
             "Predicting exact risk outcomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Monte Carlo simulation uses random sampling to model probability distributions of different risk outcomes and their likelihoods."
         },
         {
           id: 19,
           question: "What does ETL stand for in data processing?",
           options: [
-            "Extract, Transfer, Load",
             "Extract, Transform, Load",
+            "Extract, Transfer, Load",
             "Evaluate, Transform, Load",
             "Extract, Translate, Load"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ETL stands for Extract (get data from sources), Transform (clean and prepare data), Load (put data into destination system)."
         },
         {
           id: 20,
           question: "What is analytics governance concerned with?",
           options: [
-            "Only technology selection",
-            "Strategy, data management, and capability development",
             "Only employee training",
-            "Only software licensing"
+            "Only software licensing",
+            "Strategy, data management, and capability development",
+            "Only technology selection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Analytics governance encompasses strategic alignment, data management policies, and developing organizational analytics capabilities."
         }
       ]
@@ -1898,9 +1898,9 @@ Common integration challenges and how to address them:
           id: 1,
           question: "What is an Integrated Management System (IMS)?",
           options: [
-            "Separate systems for each standard",
-            "Unified framework combining multiple management standards",
             "Only quality management system",
+            "Unified framework combining multiple management standards",
+            "Separate systems for each standard",
             "Computer system for management"
           ],
           correctAnswer: 1,
@@ -1910,10 +1910,10 @@ Common integration challenges and how to address them:
           id: 2,
           question: "What is a key operational benefit of system integration?",
           options: [
-            "Increasing system complexity",
-            "Reducing duplication and improving efficiency",
             "Creating more documentation",
-            "Requiring more specialized staff"
+            "Reducing duplication and improving efficiency",
+            "Requiring more specialized staff",
+            "Increasing system complexity"
           ],
           correctAnswer: 1,
           explanation: "Integration reduces duplication of processes and documentation, improving operational efficiency across the organization."
@@ -1922,10 +1922,10 @@ Common integration challenges and how to address them:
           id: 3,
           question: "What is the Annex SL framework?",
           options: [
-            "A safety standard only",
+            "A lean manufacturing approach",
             "ISO's common high-level structure for management standards",
-            "A software development framework",
-            "A lean manufacturing approach"
+            "A safety standard only",
+            "A software development framework"
           ],
           correctAnswer: 1,
           explanation: "Annex SL provides a common framework and structure that ISO management system standards follow, making integration easier."
@@ -1934,10 +1934,10 @@ Common integration challenges and how to address them:
           id: 4,
           question: "What does process-based integration involve?",
           options: [
-            "Creating separate processes for each standard",
+            "Only integrating computer processes",
             "Identifying overlaps and creating unified processes",
-            "Eliminating all processes",
-            "Only integrating computer processes"
+            "Creating separate processes for each standard",
+            "Eliminating all processes"
           ],
           correctAnswer: 1,
           explanation: "Process-based integration maps where standards overlap and creates single, unified processes that meet multiple requirements."
@@ -1946,46 +1946,46 @@ Common integration challenges and how to address them:
           id: 5,
           question: "What can be integrated between quality and environmental systems?",
           options: [
+            "Only internal audits",
             "Only documentation",
             "Leadership commitment, planning, audits, reviews, and improvement processes",
-            "Only internal audits",
             "Only management reviews"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Multiple elements can be integrated including leadership, planning, resources, operations, monitoring, and improvement processes."
         },
         {
           id: 6,
           question: "What is a shared approach in quality and safety integration?",
           options: [
-            "Only risk management",
-            "Process orientation, risk-based thinking, and continual improvement",
             "Only documentation requirements",
-            "Only audit processes"
+            "Only audit processes",
+            "Only risk management",
+            "Process orientation, risk-based thinking, and continual improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality and safety standards share fundamental approaches including process orientation, risk management, and continuous improvement."
         },
         {
           id: 7,
           question: "What is unique about information security integration?",
           options: [
-            "Only document control requirements",
             "Confidentiality requirements and access controls",
+            "Only document control requirements",
             "Only audit processes",
             "Only management review requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Information security brings unique requirements like confidentiality protection and specific access control mechanisms."
         },
         {
           id: 8,
           question: "What is involved in integrated audit planning?",
           options: [
-            "Planning each standard separately",
+            "Only using the same auditors",
             "Combined scope, criteria, schedule, and resource allocation",
             "Only scheduling audits together",
-            "Only using the same auditors"
+            "Planning each standard separately"
           ],
           correctAnswer: 1,
           explanation: "Integrated audit planning combines scope definition, criteria compilation, scheduling, and resource allocation across standards."
@@ -1994,12 +1994,12 @@ Common integration challenges and how to address them:
           id: 9,
           question: "What competence do integrated auditors need?",
           options: [
-            "Only quality standard knowledge",
             "Multiple standard knowledge and cross-system thinking",
-            "Only auditing skills",
-            "Only industry knowledge"
+            "Only quality standard knowledge",
+            "Only industry knowledge",
+            "Only auditing skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Integrated auditors need knowledge of all relevant standards and ability to think across system boundaries."
         },
         {
@@ -2007,23 +2007,23 @@ Common integration challenges and how to address them:
           question: "What is a documentation design principle for integration?",
           options: [
             "Creating maximum documentation",
-            "User-focused, efficient, consistent, accessible, and maintainable",
             "Using complex technical language",
+            "User-focused, efficient, consistent, accessible, and maintainable",
             "Creating separate documents for each standard"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Integrated documentation should focus on user needs, efficiency, consistency, accessibility, and maintainability."
         },
         {
           id: 11,
           question: "What should integrated performance metrics include?",
           options: [
+            "Only financial metrics",
             "Only quality metrics",
             "Balanced metrics covering all integrated system aspects",
-            "Only financial metrics",
             "Only customer satisfaction metrics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Integrated metrics should provide balanced coverage of all system aspects including leading and lagging indicators."
         },
         {
@@ -2032,8 +2032,8 @@ Common integration challenges and how to address them:
           options: [
             "Managing only quality risks",
             "Unified risk identification and cross-system evaluation",
-            "Only safety risks",
-            "Only financial risks"
+            "Only financial risks",
+            "Only safety risks"
           ],
           correctAnswer: 1,
           explanation: "Integrated risk management uses unified processes to identify and evaluate risks across all management system boundaries."
@@ -2042,48 +2042,48 @@ Common integration challenges and how to address them:
           id: 13,
           question: "How can improvement processes be integrated?",
           options: [
-            "By having separate improvement teams",
-            "Through coordinated project integration and resource sharing",
+            "Only at annual planning sessions",
             "Only through management directives",
-            "Only at annual planning sessions"
+            "By having separate improvement teams",
+            "Through coordinated project integration and resource sharing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Improvement integration involves coordinating projects, sharing resources, and using unified measurement approaches."
         },
         {
           id: 14,
           question: "What technology can enable integration?",
           options: [
-            "Only spreadsheets",
             "IMS software, enterprise systems, and cloud platforms",
             "Only email systems",
+            "Only spreadsheets",
             "Only document scanners"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Technology enablement includes dedicated IMS software, comprehensive enterprise systems, and scalable cloud platforms."
         },
         {
           id: 15,
           question: "What is Stage 1 of integrated certification audit?",
           options: [
-            "Implementation verification",
-            "Documentation review for all standards",
+            "Employee interviews only",
             "Only quality manual review",
-            "Employee interviews only"
+            "Documentation review for all standards",
+            "Implementation verification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Stage 1 focuses on reviewing the integrated documentation to ensure it addresses all standard requirements."
         },
         {
           id: 16,
           question: "What is a surveillance audit in integration?",
           options: [
+            "Only when problems occur",
             "Initial certification audit",
             "Regular check of the integrated system between certifications",
-            "Only safety audit",
-            "Only when problems occur"
+            "Only safety audit"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Surveillance audits are periodic checks conducted between certification cycles to ensure ongoing compliance."
         },
         {
@@ -2091,23 +2091,23 @@ Common integration challenges and how to address them:
           question: "How to address resistance to integration change?",
           options: [
             "Force implementation",
-            "Through communication, involvement, and demonstrating benefits",
+            "Threaten job losses",
             "Ignore resistance",
-            "Threaten job losses"
+            "Through communication, involvement, and demonstrating benefits"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Resistance is best addressed through clear communication, involving people in the process, and demonstrating integration benefits."
         },
         {
           id: 18,
           question: "What is a silo mentality challenge?",
           options: [
+            "Round storage facilities",
             "Too much integration",
             "Departments working independently without cross-functional cooperation",
-            "Round storage facilities",
             "Agricultural management approach"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Silo mentality refers to departments operating independently without cooperating across organizational boundaries."
         },
         {
@@ -2116,8 +2116,8 @@ Common integration challenges and how to address them:
           options: [
             "Only collecting more data",
             "Establishing data standards and interfaces between systems",
-            "Only using one database",
-            "Eliminating all data"
+            "Eliminating all data",
+            "Only using one database"
           ],
           correctAnswer: 1,
           explanation: "Data integration requires establishing common standards and creating interfaces so different systems can share data effectively."
@@ -2127,11 +2127,11 @@ Common integration challenges and how to address them:
           question: "How to manage integration change fatigue?",
           options: [
             "Implementing all changes at once",
-            "Managing change pace appropriately and celebrating successes",
             "Ignoring employee concerns",
-            "Stopping all changes"
+            "Stopping all changes",
+            "Managing change pace appropriately and celebrating successes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Change fatigue is managed by pacing changes appropriately, providing support, and celebrating integration successes."
         }
       ]
@@ -2433,10 +2433,10 @@ Emerging theoretical perspectives:
           id: 1,
           question: "What was Taylor's Scientific Management contribution to quality?",
           options: [
-            "Employee empowerment in quality",
+            "Customer-focused quality",
             "Inspection as separate function and management responsibility",
             "Statistical quality control",
-            "Customer-focused quality"
+            "Employee empowerment in quality"
           ],
           correctAnswer: 1,
           explanation: "Taylor introduced systematic work analysis and established inspection as a separate management-controlled function."
@@ -2445,9 +2445,9 @@ Emerging theoretical perspectives:
           id: 2,
           question: "What did Shewhart contribute to quality theory?",
           options: [
-            "Zero defects concept",
-            "Distinguishing common vs special cause variation",
             "Quality circles",
+            "Distinguishing common vs special cause variation",
+            "Zero defects concept",
             "Total quality management"
           ],
           correctAnswer: 1,
@@ -2457,24 +2457,24 @@ Emerging theoretical perspectives:
           id: 3,
           question: "What is Deming's System of Profound Knowledge?",
           options: [
+            "Only quality tools",
             "Only statistical knowledge",
-            "Four interrelated areas: systems, variation, knowledge, psychology",
             "Only management principles",
-            "Only quality tools"
+            "Four interrelated areas: systems, variation, knowledge, psychology"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Deming's System includes appreciation for systems, knowledge of variation, theory of knowledge, and understanding of psychology."
         },
         {
           id: 4,
           question: "What is Juran's Quality Trilogy?",
           options: [
-            "Three quality tools",
             "Quality planning, quality control, quality improvement",
+            "Three quality tools",
             "Three quality gurus",
             "Three types of quality costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Juran's Trilogy divides quality management into three processes: planning, control, and improvement."
         },
         {
@@ -2482,20 +2482,20 @@ Emerging theoretical perspectives:
           question: "What is Crosby's 'quality is free' concept?",
           options: [
             "Quality doesn't cost anything",
-            "Prevention costs less than failure costs",
+            "Free quality training",
             "Quality should be free to customers",
-            "Free quality training"
+            "Prevention costs less than failure costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Crosby argued that investing in prevention costs less than paying for failures, making quality effectively 'free'."
         },
         {
           id: 6,
           question: "What did Ishikawa contribute to quality theory?",
           options: [
-            "Only statistical methods",
-            "Company-wide quality control and quality circles",
             "Only management principles",
+            "Company-wide quality control and quality circles",
+            "Only statistical methods",
             "Only quality costs analysis"
           ],
           correctAnswer: 1,
@@ -2506,57 +2506,57 @@ Emerging theoretical perspectives:
           question: "What is Taguchi's quality loss function?",
           options: [
             "Measuring quality department losses",
-            "Quantifying loss from deviation from target value",
             "Calculating quality training costs",
+            "Quantifying loss from deviation from target value",
             "Measuring customer loss rates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Taguchi's loss function quantifies the economic loss that occurs as product characteristics deviate from target values."
         },
         {
           id: 8,
           question: "What are emergent properties in systems thinking?",
           options: [
+            "Properties that emerge during emergencies",
             "Properties of individual components",
             "System behaviors not present in individual parts",
-            "Emergency quality procedures",
-            "Properties that emerge during emergencies"
+            "Emergency quality procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Emergent properties are characteristics of the whole system that don't exist in the individual components alone."
         },
         {
           id: 9,
           question: "What distinguishes complex from complicated systems?",
           options: [
-            "Number of parts only",
             "Emergent behaviors and unpredictability in complex systems",
-            "Only the industry they're in",
-            "Only their size"
+            "Only their size",
+            "Number of parts only",
+            "Only the industry they're in"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Complex systems exhibit emergent behaviors and unpredictability that complicated systems (with many but predictable parts) don't."
         },
         {
           id: 10,
           question: "What is double-loop learning?",
           options: [
+            "Learning two skills at once",
             "Repeating training twice",
             "Questioning and changing underlying assumptions and frameworks",
-            "Learning two skills at once",
             "Two training methods combined"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Double-loop learning involves examining and potentially changing the underlying assumptions and mental models guiding actions."
         },
         {
           id: 11,
           question: "What does contingency theory suggest about quality approaches?",
           options: [
-            "One best approach fits all",
-            "Quality approaches should match situational factors",
             "Quality approaches are irrelevant",
-            "Only statistical approaches work"
+            "Quality approaches should match situational factors",
+            "Only statistical approaches work",
+            "One best approach fits all"
           ],
           correctAnswer: 1,
           explanation: "Contingency theory suggests that effective quality approaches depend on and should match specific situational factors."
@@ -2565,45 +2565,45 @@ Emerging theoretical perspectives:
           id: 12,
           question: "What is mimetic isomorphism in institutional theory?",
           options: [
-            "Forced adoption of practices",
-            "Copying successful organizations' practices",
             "Professional norm pressure",
-            "Government regulation compliance"
+            "Forced adoption of practices",
+            "Government regulation compliance",
+            "Copying successful organizations' practices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mimetic isomorphism occurs when organizations copy practices from other organizations perceived as successful."
         },
         {
           id: 13,
           question: "What does VRIO framework analyze?",
           options: [
-            "Only quality costs",
             "Whether resources provide competitive advantage",
-            "Only employee skills",
-            "Only technology resources"
+            "Only technology resources",
+            "Only quality costs",
+            "Only employee skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "VRIO analyzes if resources are Valuable, Rare, Inimitable, and Organization-supported for competitive advantage."
         },
         {
           id: 14,
           question: "What are transaction costs in quality?",
           options: [
-            "Only product costs",
-            "Costs of searching, negotiating, monitoring, and enforcing quality",
             "Only inspection costs",
-            "Only training costs"
+            "Only training costs",
+            "Costs of searching, negotiating, monitoring, and enforcing quality",
+            "Only product costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Transaction costs include all costs associated with arranging and managing quality-related transactions and relationships."
         },
         {
           id: 15,
           question: "What is information asymmetry in agency theory?",
           options: [
-            "Equal information access",
-            "Different information access between principal and agent",
             "Too much information",
+            "Different information access between principal and agent",
+            "Equal information access",
             "No information available"
           ],
           correctAnswer: 1,
@@ -2613,36 +2613,36 @@ Emerging theoretical perspectives:
           id: 16,
           question: "What does Quality 4.0 involve?",
           options: [
-            "Only manual quality methods",
-            "Digital integration and cyber-physical systems in quality",
+            "Only traditional inspection",
             "Only basic quality tools",
-            "Only traditional inspection"
+            "Digital integration and cyber-physical systems in quality",
+            "Only manual quality methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality 4.0 involves integrating digital technologies, cyber-physical systems, and data analytics into quality management."
         },
         {
           id: 17,
           question: "What is the triple bottom line in sustainability?",
           options: [
-            "Only financial performance",
             "People, planet, and profit considerations",
+            "Only financial performance",
             "Only product quality",
             "Only customer satisfaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The triple bottom line considers social (people), environmental (planet), and financial (profit) performance together."
         },
         {
           id: 18,
           question: "What is value co-creation in service ecosystems?",
           options: [
-            "Value created by company alone",
             "Value created collaboratively with customers",
+            "Value created by company alone",
             "Value from cost reduction only",
             "Value from price increases"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Value co-creation recognizes that value is created through collaborative interactions between service providers and customers."
         },
         {
@@ -2650,21 +2650,21 @@ Emerging theoretical perspectives:
           question: "What are ambidextrous organizations in innovation?",
           options: [
             "Organizations with left-handed leaders",
+            "Organizations with dual quality systems",
             "Balancing exploration of new opportunities with exploitation of existing capabilities",
-            "Organizations with two headquarters",
-            "Organizations with dual quality systems"
+            "Organizations with two headquarters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ambidextrous organizations simultaneously explore new innovations while efficiently exploiting existing capabilities."
         },
         {
           id: 20,
           question: "What is the decoupling concept in institutional theory?",
           options: [
-            "Combining all systems",
+            "Connecting quality to strategy",
             "Symbolic adoption of practices without real implementation",
-            "Eliminating all coupling in systems",
-            "Connecting quality to strategy"
+            "Combining all systems",
+            "Eliminating all coupling in systems"
           ],
           correctAnswer: 1,
           explanation: "Decoupling refers to situations where organizations adopt practices symbolically for legitimacy without actually implementing them."
@@ -2932,24 +2932,24 @@ Quality principles apply universally, but implementation varies significantly ac
           id: 1,
           question: "What is IATF 16949?",
           options: [
-            "Aerospace quality standard",
             "Automotive quality management standard",
+            "Aerospace quality standard",
             "Pharmaceutical quality standard",
             "Food safety standard"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "IATF 16949 is the international automotive quality management system standard for the automotive industry."
         },
         {
           id: 2,
           question: "What does APQP stand for in automotive quality?",
           options: [
-            "Advanced Product Quality Planning",
-            "Automated Product Quality Process",
             "Annual Product Quality Plan",
-            "Automotive Product Quality Program"
+            "Advanced Product Quality Planning",
+            "Automotive Product Quality Program",
+            "Automated Product Quality Process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "APQP is Advanced Product Quality Planning, a structured approach to product development in the automotive industry."
         },
         {
@@ -2968,24 +2968,24 @@ Quality principles apply universally, but implementation varies significantly ac
           id: 4,
           question: "What does GMP stand for in pharmaceuticals?",
           options: [
-            "General Management Principles",
             "Good Manufacturing Practice",
-            "Good Medical Practice",
-            "General Medical Protocol"
+            "General Medical Protocol",
+            "General Management Principles",
+            "Good Medical Practice"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "GMP stands for Good Manufacturing Practice, the regulatory requirements for pharmaceutical manufacturing quality."
         },
         {
           id: 5,
           question: "What is HACCP in food industry quality?",
           options: [
-            "Hazard Analysis and Critical Control Points",
             "Health and Compliance Control Program",
             "Hygiene and Cleanliness Control Process",
-            "Harm Assessment and Critical Check Points"
+            "Harm Assessment and Critical Check Points",
+            "Hazard Analysis and Critical Control Points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "HACCP is Hazard Analysis Critical Control Points, a systematic preventive approach to food safety."
         },
         {
@@ -3004,22 +3004,22 @@ Quality principles apply universally, but implementation varies significantly ac
           id: 7,
           question: "What does ITIL framework provide for IT services?",
           options: [
-            "Only technical standards",
             "Best practices for IT service management",
+            "Only hardware specifications",
             "Only software development methods",
-            "Only hardware specifications"
+            "Only technical standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ITIL provides a comprehensive set of best practices for IT service management, including service design, transition, and operation."
         },
         {
           id: 8,
           question: "What are inspection and test plans in construction?",
           options: [
-            "Only final inspection plans",
-            "Structured verification approach throughout construction",
             "Only material testing plans",
-            "Only safety inspection plans"
+            "Structured verification approach throughout construction",
+            "Only safety inspection plans",
+            "Only final inspection plans"
           ],
           correctAnswer: 1,
           explanation: "Inspection and test plans provide a structured approach to verification activities throughout the construction process."
@@ -3028,36 +3028,36 @@ Quality principles apply universally, but implementation varies significantly ac
           id: 9,
           question: "What is test-driven development in software?",
           options: [
-            "Testing after all development",
             "Writing tests before writing code",
             "Only manual testing",
+            "Testing after all development",
             "Testing by users only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Test-driven development involves writing automated tests before writing the actual code that will be tested."
         },
         {
           id: 10,
           question: "What is supplier qualification in supply chain quality?",
           options: [
-            "Only checking supplier prices",
             "Initial assessment of supplier capability and systems",
-            "Only visiting supplier offices",
-            "Only reviewing supplier catalogs"
+            "Only reviewing supplier catalogs",
+            "Only checking supplier prices",
+            "Only visiting supplier offices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Supplier qualification involves systematically evaluating potential suppliers' capabilities, systems, and capacity before selection."
         },
         {
           id: 11,
           question: "What are citizen-centric services in public sector?",
           options: [
-            "Services designed for government convenience",
             "Services designed around citizen needs and preferences",
-            "Services available only to citizens",
-            "Services requiring citizenship proof"
+            "Services requiring citizenship proof",
+            "Services designed for government convenience",
+            "Services available only to citizens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Citizen-centric services are designed from the citizen's perspective, focusing on their needs, preferences, and convenience."
         },
         {
@@ -3065,21 +3065,21 @@ Quality principles apply universally, but implementation varies significantly ac
           question: "What are learning outcomes in education quality?",
           options: [
             "Only student test scores",
-            "What students should know and be able to do after learning",
             "Only course completion rates",
+            "What students should know and be able to do after learning",
             "Only teacher qualifications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Learning outcomes clearly define the knowledge, skills, and abilities students should possess after completing educational programs."
         },
         {
           id: 13,
           question: "What is data integrity in research quality?",
           options: [
-            "Only data security",
+            "Only data storage methods",
             "Accuracy, completeness, and reliability of research data",
             "Only data quantity",
-            "Only data storage methods"
+            "Only data security"
           ],
           correctAnswer: 1,
           explanation: "Data integrity ensures research data is accurate, complete, consistent, and reliable throughout the research lifecycle."
@@ -3088,9 +3088,9 @@ Quality principles apply universally, but implementation varies significantly ac
           id: 14,
           question: "What are stage-gate processes in innovation?",
           options: [
-            "Continuous development without reviews",
-            "Phased project review and decision points",
             "Only final product review",
+            "Phased project review and decision points",
+            "Continuous development without reviews",
             "Only idea generation phases"
           ],
           correctAnswer: 1,
@@ -3112,46 +3112,46 @@ Quality principles apply universally, but implementation varies significantly ac
           id: 16,
           question: "What does circular economy involve?",
           options: [
-            "Only using circular products",
-            "Designing for reuse, repair, and recycling",
             "Only circular supply chains",
-            "Only circular organizational structures"
+            "Only circular organizational structures",
+            "Only using circular products",
+            "Designing for reuse, repair, and recycling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Circular economy principles focus on designing products and systems for reuse, repair, refurbishment, and recycling to minimize waste."
         },
         {
           id: 17,
           question: "What is cultural adaptation in global quality?",
           options: [
-            "Imposing one culture everywhere",
-            "Adjusting quality approaches for different cultural contexts",
+            "Only translating documents",
             "Ignoring cultural differences",
-            "Only translating documents"
+            "Adjusting quality approaches for different cultural contexts",
+            "Imposing one culture everywhere"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cultural adaptation involves modifying quality approaches to fit different cultural contexts while maintaining core quality principles."
         },
         {
           id: 18,
           question: "What is continuous integration in software development?",
           options: [
-            "Integrating all code at project end",
             "Frequent code integration and automated testing",
+            "Integrating all code at project end",
             "Only integrating similar code",
             "Manual code integration monthly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Continuous integration involves frequently merging code changes into a shared repository with automated build and test processes."
         },
         {
           id: 19,
           question: "What is regulatory impact assessment?",
           options: [
-            "Only checking regulation costs",
+            "Only assessing regulator performance",
             "Evaluating potential effects of regulations before implementation",
-            "Only measuring compliance rates",
-            "Only assessing regulator performance"
+            "Only checking regulation costs",
+            "Only measuring compliance rates"
           ],
           correctAnswer: 1,
           explanation: "Regulatory impact assessment systematically examines potential costs, benefits, and effects of proposed regulations before implementation."
@@ -3160,12 +3160,12 @@ Quality principles apply universally, but implementation varies significantly ac
           id: 20,
           question: "What is prototype testing in innovation?",
           options: [
-            "Only final product testing",
-            "Early concept validation with physical or digital models",
+            "Only testing with focus groups",
             "Only testing production processes",
-            "Only testing with focus groups"
+            "Only final product testing",
+            "Early concept validation with physical or digital models"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Prototype testing involves creating and testing early versions of products or concepts to validate ideas and gather feedback before full development."
         }
       ]
@@ -3601,48 +3601,48 @@ Siemens transformed quality management through digital technologies.
           id: 1,
           question: "What is Jidoka in Toyota Production System?",
           options: [
-            "Just-in-time production",
             "Automation with human touch - machines stop when problems occur",
             "Continuous improvement",
+            "Just-in-time production",
             "Visual management system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Jidoka means automation with a human touch - equipment stops automatically when problems occur, preventing defects."
         },
         {
           id: 2,
           question: "What quality challenge did Tesla address with over-the-air updates?",
           options: [
-            "Only manufacturing defects",
-            "Post-sale quality improvement through remote software updates",
+            "Only design flaws",
             "Only supplier quality issues",
-            "Only design flaws"
+            "Only manufacturing defects",
+            "Post-sale quality improvement through remote software updates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Tesla uses over-the-air updates to remotely improve vehicle software and address quality issues after vehicles are sold."
         },
         {
           id: 3,
           question: "What is First Article Inspection in aerospace quality?",
           options: [
-            "Final product inspection",
-            "Comprehensive verification of initial production parts",
+            "Only material testing",
             "Only visual inspection",
-            "Only material testing"
+            "Final product inspection",
+            "Comprehensive verification of initial production parts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "First Article Inspection involves detailed verification of the first items produced to ensure they meet all specifications before full production."
         },
         {
           id: 4,
           question: "What quality approach did Airbus use for multi-site operations?",
           options: [
+            "Only headquarters quality control",
             "Different systems at each site",
             "Common quality standards and cross-site collaboration",
-            "Only local quality systems",
-            "Only headquarters quality control"
+            "Only local quality systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Airbus implemented common quality standards across all sites while fostering cross-site collaboration for consistent quality."
         },
         {
@@ -3650,23 +3650,23 @@ Siemens transformed quality management through digital technologies.
           question: "What did Mayo Clinic implement for patient safety?",
           options: [
             "Only doctor training",
-            "Comprehensive error reporting and root cause analysis",
+            "Only new medical equipment",
             "Only patient satisfaction surveys",
-            "Only new medical equipment"
+            "Comprehensive error reporting and root cause analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mayo Clinic implemented transparent error reporting and systematic root cause analysis to learn from and prevent safety incidents."
         },
         {
           id: 6,
           question: "What is Cleveland Clinic's approach to quality?",
           options: [
-            "Only clinical outcomes",
             "Integrating clinical quality with patient experience",
-            "Only medical research quality",
-            "Only facility quality"
+            "Only facility quality",
+            "Only clinical outcomes",
+            "Only medical research quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cleveland Clinic focuses on both clinical quality outcomes and patient experience quality for comprehensive healthcare quality."
         },
         {
@@ -3674,23 +3674,23 @@ Siemens transformed quality management through digital technologies.
           question: "What is error budget in Google's SRE approach?",
           options: [
             "Budget for fixing errors",
-            "Balancing innovation and reliability through acceptable error rates",
             "Only error tracking budget",
+            "Balancing innovation and reliability through acceptable error rates",
             "Budget for error prevention tools"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Error budget defines acceptable unreliability levels, balancing the need for innovation with maintaining service reliability."
         },
         {
           id: 8,
           question: "What did Microsoft integrate into their development lifecycle for security quality?",
           options: [
+            "Only security documentation",
             "Only final security testing",
             "Security training, threat modeling, and automated analysis throughout development",
-            "Only penetration testing",
-            "Only security documentation"
+            "Only penetration testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Microsoft integrated comprehensive security practices including training, threat modeling, and automated tools throughout development."
         },
         {
@@ -3709,22 +3709,22 @@ Siemens transformed quality management through digital technologies.
           id: 10,
           question: "What food safety system does Nestlé implement?",
           options: [
-            "Only final product testing",
-            "HACCP systematic hazard control and traceability",
+            "Only manufacturing inspections",
             "Only supplier audits",
-            "Only manufacturing inspections"
+            "Only final product testing",
+            "HACCP systematic hazard control and traceability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Nestlé implements HACCP for systematic hazard control and comprehensive traceability systems throughout their supply chain."
         },
         {
           id: 11,
           question: "What is Ritz-Carlton's approach to service quality?",
           options: [
-            "Only manager control",
+            "Only luxury facilities",
             "Employee empowerment and systematic service standards",
             "Only customer complaints handling",
-            "Only luxury facilities"
+            "Only manager control"
           ],
           correctAnswer: 1,
           explanation: "Ritz-Carlton combines clear service standards with employee empowerment to resolve issues and deliver consistent service quality."
@@ -3733,34 +3733,34 @@ Siemens transformed quality management through digital technologies.
           id: 12,
           question: "How does Amazon ensure customer experience quality?",
           options: [
-            "Only low prices",
             "Order accuracy, delivery reliability, and easy returns",
-            "Only website design",
-            "Only product variety"
+            "Only product variety",
+            "Only low prices",
+            "Only website design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Amazon focuses on order accuracy, reliable delivery, and hassle-free returns to build customer trust and experience quality."
         },
         {
           id: 13,
           question: "What was a key success factor in GE's Six Sigma implementation?",
           options: [
-            "Only statistical tools",
             "Executive leadership commitment and integration with business",
-            "Only training programs",
-            "Only project completion"
+            "Only statistical tools",
+            "Only project completion",
+            "Only training programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "GE's Six Sigma success relied heavily on strong executive commitment and integrating quality with business strategy."
         },
         {
           id: 14,
           question: "What digital quality initiative did Siemens implement?",
           options: [
-            "Only manual inspection digitization",
-            "Digital twins and predictive quality analytics",
             "Only quality reporting software",
-            "Only supplier portal"
+            "Digital twins and predictive quality analytics",
+            "Only supplier portal",
+            "Only manual inspection digitization"
           ],
           correctAnswer: 1,
           explanation: "Siemens implemented digital twins for virtual testing and predictive analytics to anticipate quality issues before they occur."
@@ -3769,10 +3769,10 @@ Siemens transformed quality management through digital technologies.
           id: 15,
           question: "What is a common quality implementation pitfall?",
           options: [
-            "Too much employee involvement",
-            "Lack of sustained commitment and treating quality as initiative only",
             "Too much measurement",
-            "Too much customer focus"
+            "Lack of sustained commitment and treating quality as initiative only",
+            "Too much customer focus",
+            "Too much employee involvement"
           ],
           correctAnswer: 1,
           explanation: "A common pitfall is treating quality as a temporary initiative rather than building sustainable systems with ongoing commitment."
@@ -3782,33 +3782,33 @@ Siemens transformed quality management through digital technologies.
           question: "What is Kaizen in Toyota's approach?",
           options: [
             "Only management improvement",
+            "Only cost reduction",
             "Continuous improvement involving everyone",
-            "Only large improvement projects",
-            "Only cost reduction"
+            "Only large improvement projects"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Kaizen means continuous improvement involving all employees in constantly seeking better ways of working."
         },
         {
           id: 17,
           question: "What did Boeing emphasize in supplier quality management?",
           options: [
-            "Only price negotiation",
-            "Intensive oversight and systematic quality requirements",
             "Only delivery timing",
-            "Only contract terms"
+            "Only contract terms",
+            "Intensive oversight and systematic quality requirements",
+            "Only price negotiation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Boeing implements rigorous supplier oversight with systematic quality requirements and regular audits for aerospace components."
         },
         {
           id: 18,
           question: "What is blameless postmortem in Google's SRE?",
           options: [
-            "Finding who to blame for incidents",
+            "Only management review",
             "Learning from incidents without assigning individual blame",
-            "Only technical analysis",
-            "Only management review"
+            "Finding who to blame for incidents",
+            "Only technical analysis"
           ],
           correctAnswer: 1,
           explanation: "Blameless postmortems focus on understanding what happened and how to prevent recurrence rather than assigning individual blame."
@@ -3817,12 +3817,12 @@ Siemens transformed quality management through digital technologies.
           id: 19,
           question: "What is Procter & Gamble's 'quality by design' approach?",
           options: [
-            "Adding quality checks at the end",
             "Building quality into products from the design phase",
+            "Adding quality checks at the end",
             "Only designing quality departments",
             "Only product aesthetic design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Quality by design means considering and building quality requirements into products from the initial design phase."
         },
         {
@@ -3830,11 +3830,11 @@ Siemens transformed quality management through digital technologies.
           question: "What future quality direction involves Industry 4.0 technologies?",
           options: [
             "Only manual quality methods",
-            "Digital quality integration with IoT and AI",
             "Only traditional inspection",
-            "Only paper-based systems"
+            "Only paper-based systems",
+            "Digital quality integration with IoT and AI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Future quality involves integrating Industry 4.0 technologies like IoT, AI, and digital twins into quality management systems."
         }
       ]
@@ -4223,10 +4223,10 @@ Making sense of research findings:
           id: 1,
           question: "What is the first step in research problem formulation?",
           options: [
-            "Writing research questions",
+            "Reviewing literature",
             "Identifying gaps in quality knowledge or practice",
             "Selecting research methods",
-            "Reviewing literature"
+            "Writing research questions"
           ],
           correctAnswer: 1,
           explanation: "Research begins with identifying meaningful gaps or problems in current quality knowledge or practice that need investigation."
@@ -4235,10 +4235,10 @@ Making sense of research findings:
           id: 2,
           question: "What does a theoretical framework provide in research?",
           options: [
-            "Only research methods",
+            "Only statistical analysis methods",
             "Conceptual foundation showing relationships between concepts",
-            "Only data collection tools",
-            "Only statistical analysis methods"
+            "Only research methods",
+            "Only data collection tools"
           ],
           correctAnswer: 1,
           explanation: "A theoretical framework provides the conceptual foundation by defining key concepts and showing their relationships based on existing theories."
@@ -4247,24 +4247,24 @@ Making sense of research findings:
           id: 3,
           question: "What is survey research in quality studies?",
           options: [
-            "Only interviewing experts",
             "Systematic questionnaire administration to collect numerical data",
-            "Only observing quality processes",
-            "Only analyzing existing documents"
+            "Only analyzing existing documents",
+            "Only interviewing experts",
+            "Only observing quality processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Survey research involves designing and administering questionnaires to collect numerical data from a sample of participants."
         },
         {
           id: 4,
           question: "What is case study research good for?",
           options: [
-            "Only statistical generalization",
             "In-depth understanding of specific quality situations or organizations",
             "Only large sample studies",
-            "Only laboratory experiments"
+            "Only laboratory experiments",
+            "Only statistical generalization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Case study research provides deep, detailed understanding of specific cases, making it valuable for exploring complex quality phenomena in context."
         },
         {
@@ -4272,21 +4272,21 @@ Making sense of research findings:
           question: "What are mixed methods in research?",
           options: [
             "Using only one method",
-            "Combining quantitative and qualitative approaches",
             "Only using multiple quantitative methods",
-            "Only using multiple qualitative methods"
+            "Only using multiple qualitative methods",
+            "Combining quantitative and qualitative approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mixed methods research intentionally combines quantitative and qualitative approaches to provide more comprehensive understanding."
         },
         {
           id: 6,
           question: "What is construct validity in quality research?",
           options: [
-            "Only research construction",
-            "Accurate measurement of theoretical quality concepts",
             "Only building research instruments",
-            "Only structural validity"
+            "Accurate measurement of theoretical quality concepts",
+            "Only structural validity",
+            "Only research construction"
           ],
           correctAnswer: 1,
           explanation: "Construct validity ensures that research measures accurately capture the theoretical concepts or constructs they intend to measure."
@@ -4295,10 +4295,10 @@ Making sense of research findings:
           id: 7,
           question: "What is informed consent in research ethics?",
           options: [
-            "Only researcher consent",
+            "Only government approval",
             "Participants understanding and voluntarily agreeing to research participation",
-            "Only organizational consent",
-            "Only government approval"
+            "Only researcher consent",
+            "Only organizational consent"
           ],
           correctAnswer: 1,
           explanation: "Informed consent means research participants fully understand what participation involves and voluntarily agree to participate."
@@ -4308,20 +4308,20 @@ Making sense of research findings:
           question: "What does a research proposal typically include?",
           options: [
             "Only research title",
-            "Problem statement, literature review, methodology, timeline, and budget",
             "Only data collection plans",
-            "Only expected results"
+            "Only expected results",
+            "Problem statement, literature review, methodology, timeline, and budget"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A comprehensive research proposal includes problem statement, literature review, methodology, timeline, budget, and expected outcomes."
         },
         {
           id: 9,
           question: "What is data anonymization in research?",
           options: [
-            "Making data famous",
-            "Removing identifying information to protect participant privacy",
             "Only encrypting data",
+            "Removing identifying information to protect participant privacy",
+            "Making data famous",
             "Only backing up data"
           ],
           correctAnswer: 1,
@@ -4331,36 +4331,36 @@ Making sense of research findings:
           id: 10,
           question: "What is the discussion section in a research report?",
           options: [
-            "Only repeating results",
-            "Interpreting results and discussing implications",
+            "Only describing methods",
             "Only listing references",
-            "Only describing methods"
+            "Only repeating results",
+            "Interpreting results and discussing implications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The discussion section interprets research findings, relates them to existing literature, and discusses theoretical and practical implications."
         },
         {
           id: 11,
           question: "What is action research in quality?",
           options: [
-            "Only observing quality",
             "Research that drives quality improvement through cycles of action and reflection",
-            "Only theoretical research",
-            "Only statistical analysis"
+            "Only observing quality",
+            "Only statistical analysis",
+            "Only theoretical research"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Action research involves cycles of planning, acting, observing, and reflecting to both study and improve quality practices simultaneously."
         },
         {
           id: 12,
           question: "What is evaluation research?",
           options: [
-            "Only program creation",
             "Systematic assessment of quality programs or interventions",
             "Only employee evaluation",
-            "Only financial evaluation"
+            "Only financial evaluation",
+            "Only program creation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Evaluation research systematically assesses the effectiveness, efficiency, and impact of quality programs or interventions."
         },
         {
@@ -4369,8 +4369,8 @@ Making sense of research findings:
           options: [
             "Only predicting future outcomes",
             "Summarizing and describing research data characteristics",
-            "Only testing hypotheses",
-            "Only creating theories"
+            "Only creating theories",
+            "Only testing hypotheses"
           ],
           correctAnswer: 1,
           explanation: "Descriptive statistics summarize and describe the main features of research data through measures like means, frequencies, and distributions."
@@ -4379,12 +4379,12 @@ Making sense of research findings:
           id: 14,
           question: "What is thematic analysis in qualitative research?",
           options: [
-            "Only counting words",
             "Identifying, analyzing, and reporting patterns or themes in qualitative data",
             "Only statistical analysis",
-            "Only data collection"
+            "Only data collection",
+            "Only counting words"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Thematic analysis involves systematically identifying, analyzing, and reporting patterns or themes that emerge from qualitative data."
         },
         {
@@ -4392,59 +4392,59 @@ Making sense of research findings:
           question: "What is peer review in publication?",
           options: [
             "Only friend review",
+            "Only self-review",
             "Evaluation of research by experts in the field before publication",
-            "Only editor review",
-            "Only self-review"
+            "Only editor review"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Peer review involves evaluation of research manuscripts by independent experts in the field to ensure quality and validity before publication."
         },
         {
           id: 16,
           question: "What is intercoder reliability in qualitative research?",
           options: [
-            "Only one coder's consistency",
-            "Agreement between different coders analyzing the same data",
             "Only computer coding reliability",
-            "Only coding speed"
+            "Only coding speed",
+            "Agreement between different coders analyzing the same data",
+            "Only one coder's consistency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Intercoder reliability measures the agreement between different researchers when coding the same qualitative data, ensuring consistency."
         },
         {
           id: 17,
           question: "What is a research hypothesis?",
           options: [
-            "Only research question",
             "Testable prediction about relationships between variables",
-            "Only research assumption",
-            "Only research goal"
+            "Only research question",
+            "Only research goal",
+            "Only research assumption"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A research hypothesis is a specific, testable prediction about the relationship between variables that the research will investigate."
         },
         {
           id: 18,
           question: "What is external validity in research?",
           options: [
-            "Only internal accuracy",
-            "Generalizability of research findings to other settings or populations",
             "Only measurement accuracy",
-            "Only research design validity"
+            "Only research design validity",
+            "Generalizability of research findings to other settings or populations",
+            "Only internal accuracy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "External validity refers to the extent to which research findings can be generalized to other settings, populations, or times."
         },
         {
           id: 19,
           question: "What is ethnographic research?",
           options: [
-            "Only survey research",
-            "In-depth study of quality phenomena in natural settings through extended observation",
             "Only laboratory research",
-            "Only document analysis"
+            "Only document analysis",
+            "Only survey research",
+            "In-depth study of quality phenomena in natural settings through extended observation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ethnographic research involves extended immersion and observation in natural settings to understand quality phenomena in cultural context."
         },
         {
@@ -4452,11 +4452,11 @@ Making sense of research findings:
           question: "What should guide research topic selection?",
           options: [
             "Only personal interest",
-            "Relevance, feasibility, originality, interest, and available resources",
             "Only available data",
-            "Only current trends"
+            "Only current trends",
+            "Relevance, feasibility, originality, interest, and available resources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Research topics should be selected based on multiple criteria including relevance, feasibility, originality, personal interest, and resource availability."
         }
       ]
@@ -4877,36 +4877,36 @@ Leveraging diploma for career growth:
           id: 1,
           question: "What is the primary purpose of the capstone project?",
           options: [
-            "Only testing theoretical knowledge",
-            "Integrating and applying all quality management learning to real-world challenges",
+            "Only presenting to classmates",
             "Only writing a long report",
-            "Only presenting to classmates"
+            "Only testing theoretical knowledge",
+            "Integrating and applying all quality management learning to real-world challenges"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The capstone project integrates all learning from the diploma program by applying quality management knowledge to practical, real-world situations."
         },
         {
           id: 2,
           question: "What should situation analysis include?",
           options: [
-            "Only problem description",
             "Organizational context, current state assessment, and problem identification",
+            "Only problem description",
             "Only solution ideas",
             "Only theoretical frameworks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive situation analysis includes understanding organizational context, assessing current state, and systematically identifying quality problems."
         },
         {
           id: 3,
           question: "How should theoretical frameworks be used in the capstone?",
           options: [
-            "Only listing theories",
             "Applying appropriate theories to analyze situations and develop solutions",
-            "Only discussing historical theories",
-            "Only mentioning guru names"
+            "Only mentioning guru names",
+            "Only listing theories",
+            "Only discussing historical theories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Theoretical frameworks should be actively applied to understand quality situations, analyze problems, and develop evidence-based solutions."
         },
         {
@@ -4914,59 +4914,59 @@ Leveraging diploma for career growth:
           question: "What is methodology selection in quality improvement?",
           options: [
             "Only choosing tools",
-            "Selecting appropriate quality improvement approaches like Lean or Six Sigma",
+            "Only using statistical methods",
             "Only following prescribed methods",
-            "Only using statistical methods"
+            "Selecting appropriate quality improvement approaches like Lean or Six Sigma"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Methodology selection involves choosing systematic approaches like Lean, Six Sigma, or TQM that are appropriate for the specific quality challenge."
         },
         {
           id: 5,
           question: "What should solution development include?",
           options: [
-            "Only one perfect solution",
-            "Generating options, designing solutions, and assessing risks",
+            "Only theoretical solutions",
             "Only implementing solutions",
-            "Only theoretical solutions"
+            "Generating options, designing solutions, and assessing risks",
+            "Only one perfect solution"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Solution development involves creating multiple options, designing detailed solutions, and conducting risk assessments before implementation."
         },
         {
           id: 6,
           question: "Why is implementation planning important?",
           options: [
-            "Only for scheduling",
-            "To ensure quality solutions can be practically implemented with appropriate resources and timing",
+            "Only for budgeting",
             "Only for assigning tasks",
-            "Only for budgeting"
+            "To ensure quality solutions can be practically implemented with appropriate resources and timing",
+            "Only for scheduling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Implementation planning ensures quality solutions are practical, with clear tasks, resources, timelines, and change management approaches."
         },
         {
           id: 7,
           question: "What does an evaluation framework provide?",
           options: [
-            "Only final grades",
             "Systems to measure success and effectiveness of quality improvements",
             "Only employee evaluations",
+            "Only final grades",
             "Only financial evaluation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "An evaluation framework establishes how the success and effectiveness of quality improvements will be measured and assessed."
         },
         {
           id: 8,
           question: "What is professional communication in the capstone?",
           options: [
-            "Only informal discussion",
             "Clear, persuasive communication of findings and recommendations to stakeholders",
+            "Only informal discussion",
             "Only technical jargon",
             "Only written reports"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Professional communication involves clear, persuasive presentation of quality findings and recommendations tailored to different stakeholder audiences."
         },
         {
@@ -4974,11 +4974,11 @@ Leveraging diploma for career growth:
           question: "What does cross-module integration demonstrate?",
           options: [
             "Only module completion",
-            "Ability to connect concepts from different course modules into comprehensive understanding",
             "Only remembering module titles",
+            "Ability to connect concepts from different course modules into comprehensive understanding",
             "Only listing module content"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cross-module integration shows the ability to connect and apply concepts from different parts of the course to address complex quality challenges."
         },
         {
@@ -4986,11 +4986,11 @@ Leveraging diploma for career growth:
           question: "What is holistic quality perspective?",
           options: [
             "Only one aspect of quality",
-            "Comprehensive view considering strategic, operational, cultural, and systemic aspects",
             "Only customer perspective",
-            "Only management perspective"
+            "Only management perspective",
+            "Comprehensive view considering strategic, operational, cultural, and systemic aspects"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Holistic quality perspective considers multiple dimensions including strategic, operational, cultural, and systemic aspects of quality management."
         },
         {
@@ -5009,84 +5009,84 @@ Leveraging diploma for career growth:
           id: 12,
           question: "What should a capstone executive summary include?",
           options: [
-            "Only detailed data",
-            "Brief problem summary, solution overview, benefits, and call to action",
             "Only personal opinions",
-            "Only theoretical discussions"
+            "Only theoretical discussions",
+            "Only detailed data",
+            "Brief problem summary, solution overview, benefits, and call to action"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "An executive summary should concisely present the problem, proposed solutions, expected benefits, and recommended actions for decision-makers."
         },
         {
           id: 13,
           question: "Why include change management in implementation planning?",
           options: [
-            "Only to announce changes",
             "To address resistance and ensure successful adoption of quality improvements",
+            "Only to communicate changes",
             "Only to train employees",
-            "Only to communicate changes"
+            "Only to announce changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Change management addresses human aspects of implementation, helping overcome resistance and ensuring successful adoption of quality improvements."
         },
         {
           id: 14,
           question: "What is pilot implementation approach?",
           options: [
-            "Implementing everywhere at once",
             "Testing quality solutions on small scale before full rollout",
             "Only theoretical testing",
-            "Only computer simulation"
+            "Only computer simulation",
+            "Implementing everywhere at once"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pilot implementation tests quality solutions on a small scale first to identify issues and make improvements before organization-wide rollout."
         },
         {
           id: 15,
           question: "What does professional judgment involve in quality?",
           options: [
-            "Only following rules",
-            "Making sound decisions in complex, ambiguous quality situations",
+            "Only following procedures",
             "Only statistical analysis",
-            "Only following procedures"
+            "Making sound decisions in complex, ambiguous quality situations",
+            "Only following rules"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Professional judgment involves applying expertise to make sound quality decisions in complex situations with incomplete information."
         },
         {
           id: 16,
           question: "What should solution generation include?",
           options: [
-            "Only one obvious solution",
             "Creative thinking, benchmark adoption, and stakeholder input",
+            "Only one obvious solution",
             "Only management ideas",
             "Only consultant recommendations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Solution generation should involve creative thinking, learning from others' successes, and incorporating diverse stakeholder perspectives."
         },
         {
           id: 17,
           question: "What is risk assessment in solution development?",
           options: [
-            "Only avoiding all risks",
             "Identifying what could go wrong and planning mitigation strategies",
+            "Only avoiding all risks",
             "Only calculating probabilities",
             "Only insurance planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Risk assessment systematically identifies potential problems with quality solutions and develops plans to prevent or address them."
         },
         {
           id: 18,
           question: "What does stakeholder communication strategy involve?",
           options: [
+            "Only management communication",
             "Only sending emails",
-            "Tailoring messages, selecting channels, and planning communication frequency for different groups",
             "Only formal announcements",
-            "Only management communication"
+            "Tailoring messages, selecting channels, and planning communication frequency for different groups"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective stakeholder communication tailors messages and methods to different groups and plans appropriate communication frequency and feedback collection."
         },
         {
@@ -5094,11 +5094,11 @@ Leveraging diploma for career growth:
           question: "What is learning integration reflection?",
           options: [
             "Only listing courses taken",
-            "Assessing knowledge gained, skills developed, and application capability from the program",
             "Only remembering exam questions",
+            "Assessing knowledge gained, skills developed, and application capability from the program",
             "Only tracking study hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Learning integration reflection involves assessing what was learned, how skills developed, and how knowledge can be applied in practice."
         },
         {
@@ -5106,11 +5106,11 @@ Leveraging diploma for career growth:
           question: "How can the capstone support career advancement?",
           options: [
             "Only as a certificate",
-            "By demonstrating quality management capability and building professional portfolio",
             "Only through networking",
+            "By demonstrating quality management capability and building professional portfolio",
             "Only by getting a job"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The capstone project demonstrates practical quality management capability and creates work samples for professional portfolios to support career advancement."
         }
       ]
@@ -5127,9 +5127,9 @@ Leveraging diploma for career growth:
         id: 1,
         question: "What are the four pillars of advanced quality management?",
         options: [
-          "Planning, execution, monitoring, control",
-          "Leadership commitment, strategic planning, customer focus, continuous improvement",
           "Quality planning, quality control, quality assurance, quality improvement",
+          "Leadership commitment, strategic planning, customer focus, continuous improvement",
+          "Planning, execution, monitoring, control",
           "Cost, time, scope, quality"
         ],
         correctAnswer: 1,
@@ -5140,20 +5140,20 @@ Leveraging diploma for career growth:
         question: "What does process-based integration in management systems involve?",
         options: [
           "Separate processes for each standard",
-          "Identifying overlaps and creating unified processes meeting multiple requirements",
           "Eliminating all processes",
+          "Identifying overlaps and creating unified processes meeting multiple requirements",
           "Only integrating computer processes"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Process-based integration maps where standards overlap and creates single, unified processes that efficiently meet multiple standard requirements."
       },
       {
         id: 3,
         question: "What characterizes transformational leadership in quality?",
         options: [
-          "Maintaining current practices",
-          "Creating compelling quality vision and inspiring organizational change",
           "Focusing only on procedures",
+          "Creating compelling quality vision and inspiring organizational change",
+          "Maintaining current practices",
           "Managing through strict controls"
         ],
         correctAnswer: 1,
@@ -5163,24 +5163,24 @@ Leveraging diploma for career growth:
         id: 4,
         question: "What is multivariate control charts used for?",
         options: [
-          "Single variable monitoring",
           "Tracking multiple correlated quality characteristics simultaneously",
           "Monitoring only mean values",
+          "Single variable monitoring",
           "Controlling employee performance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Multivariate control charts monitor several correlated quality variables together, important when characteristics interact or influence each other."
       },
       {
         id: 5,
         question: "What is the Annex SL framework?",
         options: [
-          "A safety standard only",
-          "ISO's common high-level structure for management system standards",
           "A software development framework",
-          "A lean manufacturing approach"
+          "A lean manufacturing approach",
+          "ISO's common high-level structure for management system standards",
+          "A safety standard only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Annex SL provides a common framework and structure that ISO management system standards follow, making integration of multiple standards easier."
       },
       {
@@ -5189,8 +5189,8 @@ Leveraging diploma for career growth:
         options: [
           "Only statistical knowledge",
           "Systems, variation, knowledge theory, and psychology",
-          "Only management principles",
-          "Only quality tools"
+          "Only quality tools",
+          "Only management principles"
         ],
         correctAnswer: 1,
         explanation: "Deming's System includes appreciation for systems, knowledge of variation, theory of knowledge, and understanding of psychology as interconnected areas."
@@ -5199,12 +5199,12 @@ Leveraging diploma for career growth:
         id: 7,
         question: "What is IATF 16949?",
         options: [
-          "Aerospace quality standard",
-          "Automotive quality management system standard",
+          "Food safety standard",
           "Pharmaceutical quality standard",
-          "Food safety standard"
+          "Automotive quality management system standard",
+          "Aerospace quality standard"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "IATF 16949 is the international automotive quality management system standard specific to the automotive industry supply chain."
       },
       {
@@ -5223,22 +5223,22 @@ Leveraging diploma for career growth:
         id: 9,
         question: "What is the first step in research problem formulation?",
         options: [
-          "Writing research questions",
           "Identifying gaps in quality knowledge or practice",
           "Selecting research methods",
-          "Reviewing literature"
+          "Reviewing literature",
+          "Writing research questions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Quality research begins with identifying meaningful gaps or problems in current knowledge or practice that warrant systematic investigation."
       },
       {
         id: 10,
         question: "What is the primary purpose of the capstone project?",
         options: [
-          "Only testing theoretical knowledge",
-          "Integrating and applying all quality management learning to real-world challenges",
           "Only writing a long report",
-          "Only presenting to classmates"
+          "Integrating and applying all quality management learning to real-world challenges",
+          "Only presenting to classmates",
+          "Only testing theoretical knowledge"
         ],
         correctAnswer: 1,
         explanation: "The capstone integrates all diploma learning by applying comprehensive quality management knowledge to practical, complex real-world situations."
@@ -5247,10 +5247,10 @@ Leveraging diploma for career growth:
         id: 11,
         question: "How does quality serve as competitive strategy?",
         options: [
-          "By reducing product features",
+          "Through frequent price changes",
           "Through market differentiation and customer loyalty building",
           "By focusing only on internal processes",
-          "Through frequent price changes"
+          "By reducing product features"
         ],
         correctAnswer: 1,
         explanation: "Quality provides competitive advantage through market differentiation, enhanced customer loyalty, cost reduction, and improved brand reputation."
@@ -5259,118 +5259,118 @@ Leveraging diploma for career growth:
         id: 12,
         question: "What is short run SPC designed for?",
         options: [
-          "Long production runs only",
-          "Situations with limited data from small production runs",
           "Statistical process control training",
-          "Controlling very fast processes"
+          "Long production runs only",
+          "Controlling very fast processes",
+          "Situations with limited data from small production runs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Short run SPC techniques are specifically designed for limited data situations like small batch, custom, or prototype production."
       },
       {
         id: 13,
         question: "What does ADKAR stand for in change management?",
         options: [
+          "Align, Drive, Knowledge, Achieve, Recognize",
           "Assess, Design, Know, Act, Review",
           "Awareness, Desire, Knowledge, Ability, Reinforcement",
-          "Analyze, Develop, Keep, Apply, Reward",
-          "Align, Drive, Knowledge, Achieve, Recognize"
+          "Analyze, Develop, Keep, Apply, Reward"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "ADKAR represents the change management stages: Awareness of need, Desire to participate, Knowledge of how to change, Ability to implement, and Reinforcement to sustain."
       },
       {
         id: 14,
         question: "What is response surface methodology?",
         options: [
-          "Only experimental design",
           "Finding optimal process settings for quality outcomes",
+          "Only experimental design",
           "Reducing experimental time only",
           "Simplifying experimental designs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Response surface methodology systematically finds optimal combinations of process settings to achieve desired quality outcomes through efficient experimentation."
       },
       {
         id: 15,
         question: "What is integrated audit planning?",
         options: [
+          "Only using the same auditors",
           "Planning each standard separately",
           "Combined scope, criteria, schedule, and resource allocation across standards",
-          "Only scheduling audits together",
-          "Only using the same auditors"
+          "Only scheduling audits together"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Integrated audit planning combines all elements across multiple standards into a single, coordinated audit approach for efficiency and consistency."
       },
       {
         id: 16,
         question: "What is Taguchi's quality loss function?",
         options: [
-          "Measuring quality department losses",
           "Quantifying economic loss from deviation from target value",
+          "Measuring quality department losses",
           "Calculating quality training costs",
           "Measuring customer loss rates"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Taguchi's loss function quantifies the economic loss that occurs as product characteristics deviate from ideal target values, even within specification limits."
       },
       {
         id: 17,
         question: "What is APQP in automotive quality?",
         options: [
-          "Advanced Product Quality Planning",
           "Automated Product Quality Process",
-          "Annual Product Quality Plan",
-          "Automotive Product Quality Program"
+          "Advanced Product Quality Planning",
+          "Automotive Product Quality Program",
+          "Annual Product Quality Plan"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "APQP is Advanced Product Quality Planning, a structured approach to product development and quality planning in the automotive industry."
       },
       {
         id: 18,
         question: "What did Google develop with Site Reliability Engineering?",
         options: [
-          "Only server maintenance",
           "Systematic approach to managing quality at internet scale with error budgets",
-          "Only website design",
-          "Only search algorithms"
+          "Only search algorithms",
+          "Only server maintenance",
+          "Only website design"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Google's SRE approach systematically manages service reliability at scale using concepts like error budgets to balance innovation and stability."
       },
       {
         id: 19,
         question: "What is construct validity in quality research?",
         options: [
+          "Only structural validity",
           "Only research construction",
-          "Accurate measurement of theoretical quality concepts",
           "Only building research instruments",
-          "Only structural validity"
+          "Accurate measurement of theoretical quality concepts"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Construct validity ensures research measures accurately capture the theoretical constructs or concepts they are intended to measure."
       },
       {
         id: 20,
         question: "What should situation analysis include in a capstone project?",
         options: [
-          "Only problem description",
-          "Organizational context, current state assessment, and problem identification",
+          "Only theoretical frameworks",
           "Only solution ideas",
-          "Only theoretical frameworks"
+          "Organizational context, current state assessment, and problem identification",
+          "Only problem description"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Comprehensive situation analysis examines organizational context, assesses current quality state, and systematically identifies core quality problems."
       },
       {
         id: 21,
         question: "What is quality culture assessment?",
         options: [
-          "Counting quality documents",
-          "Analyzing existing quality norms and defining desired culture",
           "Measuring employee quality test scores",
-          "Auditing quality procedures only"
+          "Analyzing existing quality norms and defining desired culture",
+          "Auditing quality procedures only",
+          "Counting quality documents"
         ],
         correctAnswer: 1,
         explanation: "Quality culture assessment involves understanding current quality-related norms, values, and behaviors, and defining desired cultural characteristics."
@@ -5379,36 +5379,36 @@ Leveraging diploma for career growth:
         id: 22,
         question: "What is fractional factorial design advantage?",
         options: [
-          "Testing all combinations",
           "Reducing experimental runs while screening important factors",
+          "Making experiments more complex",
           "Eliminating all interactions",
-          "Making experiments more complex"
+          "Testing all combinations"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Fractional factorial designs test a strategic subset of combinations, efficiently identifying important factors with significantly fewer experimental runs."
       },
       {
         id: 23,
         question: "What is servant leadership in quality?",
         options: [
-          "Controlling all decisions",
-          "Putting team success first and empowering others in quality work",
           "Servicing quality equipment",
-          "Serving quality reports to management"
+          "Serving quality reports to management",
+          "Putting team success first and empowering others in quality work",
+          "Controlling all decisions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Servant leadership focuses on supporting team success, empowering members in quality work, and stewarding organizational quality improvement."
       },
       {
         id: 24,
         question: "What is predictive quality analytics?",
         options: [
-          "Guessing about quality issues",
-          "Using data and models to anticipate quality issues before they occur",
           "Predicting future quality staff needs",
-          "Forecasting quality department budgets"
+          "Forecasting quality department budgets",
+          "Using data and models to anticipate quality issues before they occur",
+          "Guessing about quality issues"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Predictive quality analytics uses historical data and advanced modeling to anticipate and prevent quality issues before they actually occur."
       },
       {
@@ -5416,21 +5416,21 @@ Leveraging diploma for career growth:
         question: "What are surveillance audits in integrated systems?",
         options: [
           "Initial certification audits",
-          "Regular checks to maintain integrated system certification",
           "Internal quality checks",
-          "Customer satisfaction surveys"
+          "Customer satisfaction surveys",
+          "Regular checks to maintain integrated system certification"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Surveillance audits are periodic audits conducted by certification bodies between recertification cycles to ensure continued compliance."
       },
       {
         id: 26,
         question: "What is Juran's Quality Trilogy?",
         options: [
-          "Three quality tools",
-          "Quality planning, quality control, quality improvement",
           "Three quality gurus",
-          "Three types of quality costs"
+          "Quality planning, quality control, quality improvement",
+          "Three types of quality costs",
+          "Three quality tools"
         ],
         correctAnswer: 1,
         explanation: "Juran's Trilogy divides quality management into three fundamental processes: planning to achieve quality, controlling to maintain it, and improving to enhance it."
@@ -5440,9 +5440,9 @@ Leveraging diploma for career growth:
         question: "What is HACCP in food industry quality?",
         options: [
           "Hazard Analysis and Critical Control Points",
+          "Harm Assessment and Critical Check Points",
           "Health and Compliance Control Program",
-          "Hygiene and Cleanliness Control Process",
-          "Harm Assessment and Critical Check Points"
+          "Hygiene and Cleanliness Control Process"
         ],
         correctAnswer: 0,
         explanation: "HACCP is Hazard Analysis Critical Control Points, a systematic preventive approach to food safety identifying and controlling biological, chemical, and physical hazards."
@@ -5451,10 +5451,10 @@ Leveraging diploma for career growth:
         id: 28,
         question: "What quality transformation did Siemens achieve through digitalization?",
         options: [
-          "Only manual inspection digitization",
-          "Digital twins and predictive quality analytics implementation",
           "Only quality reporting software",
-          "Only supplier portal"
+          "Digital twins and predictive quality analytics implementation",
+          "Only supplier portal",
+          "Only manual inspection digitization"
         ],
         correctAnswer: 1,
         explanation: "Siemens transformed quality through digital twins for virtual testing and predictive analytics anticipating quality issues before occurrence."
@@ -5463,10 +5463,10 @@ Leveraging diploma for career growth:
         id: 29,
         question: "What is mixed methods research?",
         options: [
-          "Using only one method",
-          "Combining quantitative and qualitative approaches for comprehensive understanding",
           "Only using multiple quantitative methods",
-          "Only using multiple qualitative methods"
+          "Combining quantitative and qualitative approaches for comprehensive understanding",
+          "Only using multiple qualitative methods",
+          "Using only one method"
         ],
         correctAnswer: 1,
         explanation: "Mixed methods research intentionally combines quantitative and qualitative approaches to provide more complete understanding of quality phenomena."
@@ -5476,23 +5476,23 @@ Leveraging diploma for career growth:
         question: "What does professional judgment involve in capstone projects?",
         options: [
           "Only following rules",
-          "Making sound quality decisions in complex, ambiguous situations",
           "Only statistical analysis",
+          "Making sound quality decisions in complex, ambiguous situations",
           "Only following procedures"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Professional judgment involves applying expertise to make sound quality decisions in complex situations with incomplete or ambiguous information."
       },
       {
         id: 31,
         question: "What is a key success factor in GE's Six Sigma implementation?",
         options: [
-          "Only statistical tools",
           "Executive leadership commitment and business strategy integration",
+          "Only statistical tools",
             "Only training programs",
             "Only project completion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "GE's Six Sigma success relied on strong executive commitment and integrating quality improvement with business strategy and objectives."
         },
         {
@@ -5501,8 +5501,8 @@ Leveraging diploma for career growth:
           options: [
             "Testing products slowly over time",
             "Simulating long-term use quickly through stress conditions",
-            "Testing only new products",
-            "Eliminating reliability testing"
+            "Eliminating reliability testing",
+            "Testing only new products"
           ],
           correctAnswer: 1,
           explanation: "Accelerated life testing applies stress conditions like temperature, humidity, or voltage to simulate years of product use in much shorter time periods."
@@ -5512,11 +5512,11 @@ Leveraging diploma for career growth:
           question: "What is Kotter's first step in change management?",
           options: [
             "Building guiding coalition",
-            "Creating urgency for quality improvement",
             "Generating short-term wins",
+            "Creating urgency for quality improvement",
             "Instituting changes in culture"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Kotter's model begins with creating a compelling sense of urgency about the need for quality improvement to overcome complacency."
         },
         {
@@ -5536,45 +5536,45 @@ Leveraging diploma for career growth:
           question: "What does integrated documentation design emphasize?",
           options: [
             "Creating maximum documentation",
-            "User-focused, efficient, consistent, accessible, and maintainable documents",
             "Using complex technical language",
+            "User-focused, efficient, consistent, accessible, and maintainable documents",
             "Creating separate documents for each standard"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Integrated documentation should prioritize user needs, efficiency, consistency, accessibility, and maintainability across all management systems."
         },
         {
           id: 36,
           question: "What is Crosby's 'zero defects' concept?",
           options: [
+            "Only for simple products",
             "Impossible perfection standard",
-            "Performance standard emphasizing prevention and right first time",
             "Eliminating all inspection",
-            "Only for simple products"
+            "Performance standard emphasizing prevention and right first time"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Zero defects is a performance standard emphasizing prevention and doing work right the first time, rather than accepting certain defect levels."
         },
         {
           id: 37,
           question: "What is patient safety focus in healthcare quality?",
           options: [
-            "Only patient satisfaction",
-            "Preventing harm to patients during care delivery",
+            "Only hospital cleanliness",
             "Only treatment effectiveness",
-            "Only hospital cleanliness"
+            "Preventing harm to patients during care delivery",
+            "Only patient satisfaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Patient safety specifically focuses on preventing errors, injuries, accidents, and harm to patients during healthcare service delivery."
         },
         {
           id: 38,
           question: "What is Ritz-Carlton's approach to service quality?",
           options: [
-            "Only manager control",
+            "Only luxury facilities",
             "Employee empowerment and systematic service standards",
-            "Only customer complaints handling",
-            "Only luxury facilities"
+            "Only manager control",
+            "Only customer complaints handling"
           ],
           correctAnswer: 1,
           explanation: "Ritz-Carlton combines clear service standards with employee empowerment to resolve issues and deliver consistent, personalized service quality."
@@ -5584,23 +5584,23 @@ Leveraging diploma for career growth:
           question: "What is external validity in quality research?",
           options: [
             "Only internal accuracy",
+            "Only research design validity",
             "Generalizability of research findings to other settings or populations",
-            "Only measurement accuracy",
-            "Only research design validity"
+            "Only measurement accuracy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "External validity refers to the extent to which quality research findings can be generalized to other settings, populations, or time periods."
         },
         {
           id: 40,
           question: "What should solution development include in capstone projects?",
           options: [
-            "Only one perfect solution",
             "Generating options, designing solutions, and assessing implementation risks",
-            "Only implementing solutions",
-            "Only theoretical solutions"
+            "Only one perfect solution",
+            "Only theoretical solutions",
+            "Only implementing solutions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Solution development should involve creating multiple options, designing detailed solutions, and conducting comprehensive risk assessments before implementation planning."
         }
       ]

@@ -89,24 +89,24 @@ Understanding these physiological principles enables precise training program de
           id: 1,
           question: "Which energy system provides immediate energy for explosive movements?",
           options: [
-            "Phosphagen System",
-            "Glycolytic System",
+            "Lipolytic System",
             "Oxidative System",
-            "Lipolytic System"
+            "Glycolytic System",
+            "Phosphagen System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Phosphagen (ATP-CP) system provides immediate energy for high-intensity, short-duration activities."
         },
         {
           id: 2,
           question: "How long does the Phosphagen System provide maximum energy?",
           options: [
+            "10-30 minutes",
             "0-10 seconds",
-            "30-60 seconds",
             "2-5 minutes",
-            "10-30 minutes"
+            "30-60 seconds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "This system is extremely powerful but depletes quickly, lasting only up to 10 seconds at maximum effort."
         },
         {
@@ -114,9 +114,9 @@ Understanding these physiological principles enables precise training program de
           question: "What is the primary fuel for the Glycolytic System?",
           options: [
             "Glucose",
-            "Fatty acids",
             "Amino acids",
-            "Creatine phosphate"
+            "Creatine phosphate",
+            "Fatty acids"
           ],
           correctAnswer: 0,
           explanation: "The glycolytic system breaks down glucose without oxygen to produce energy rapidly."
@@ -125,12 +125,12 @@ Understanding these physiological principles enables precise training program de
           id: 4,
           question: "What byproduct does the Glycolytic System produce?",
           options: [
-            "Lactic acid",
-            "Carbon dioxide",
             "Water",
-            "Ammonia"
+            "Lactic acid",
+            "Ammonia",
+            "Carbon dioxide"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lactic acid accumulation contributes to muscle fatigue during high-intensity anaerobic exercise."
         },
         {
@@ -138,9 +138,9 @@ Understanding these physiological principles enables precise training program de
           question: "Which system uses oxygen to break down fuels?",
           options: [
             "Oxidative System",
-            "Phosphagen System",
+            "All of the above",
             "Glycolytic System",
-            "All of the above"
+            "Phosphagen System"
           ],
           correctAnswer: 0,
           explanation: "The oxidative (aerobic) system requires oxygen and is the most efficient energy-producing pathway."
@@ -149,12 +149,12 @@ Understanding these physiological principles enables precise training program de
           id: 6,
           question: "What heart adaptation improves stroke volume?",
           options: [
-            "Increased left ventricle volume",
+            "Smaller chamber size",
             "Thicker heart walls",
-            "Faster heart rate",
-            "Smaller chamber size"
+            "Increased left ventricle volume",
+            "Faster heart rate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Increased left ventricle volume allows more blood filling and thus greater stroke volume per beat."
         },
         {
@@ -173,12 +173,12 @@ Understanding these physiological principles enables precise training program de
           id: 8,
           question: "What improves with lung adaptations?",
           options: [
-            "Oxygen diffusion",
-            "Blood clotting",
+            "Bone density",
             "Digestive efficiency",
-            "Bone density"
+            "Blood clotting",
+            "Oxygen diffusion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Enhanced oxygen diffusion allows more efficient gas exchange between lungs and bloodstream."
         },
         {
@@ -186,8 +186,8 @@ Understanding these physiological principles enables precise training program de
           question: "What blood adaptation enhances performance?",
           options: [
             "Increased red blood cell production",
-            "Decreased plasma volume",
             "Reduced hemoglobin",
+            "Decreased plasma volume",
             "Thicker blood consistency"
           ],
           correctAnswer: 0,
@@ -197,12 +197,12 @@ Understanding these physiological principles enables precise training program de
           id: 10,
           question: "What neural adaptation improves strength?",
           options: [
-            "Improved motor unit recruitment",
             "Reduced nerve sensitivity",
+            "Fewer nerve endings",
             "Slower nerve conduction",
-            "Fewer nerve endings"
+            "Improved motor unit recruitment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Better motor unit recruitment allows more muscle fibers to be activated simultaneously."
         },
         {
@@ -210,9 +210,9 @@ Understanding these physiological principles enables precise training program de
           question: "What is enhanced motor unit synchronization?",
           options: [
             "Motor units firing together",
-            "Muscle fiber enlargement",
+            "Reflex speed increase",
             "Nerve cell division",
-            "Reflex speed increase"
+            "Muscle fiber enlargement"
           ],
           correctAnswer: 0,
           explanation: "Synchronized firing allows more coordinated and powerful muscle contractions."
@@ -221,36 +221,36 @@ Understanding these physiological principles enables precise training program de
           id: 12,
           question: "Which are Type I muscle fibers?",
           options: [
-            "Slow-twitch fibers",
-            "Fast-twitch fibers",
             "Intermediate fibers",
-            "Elastic fibers"
+            "Fast-twitch fibers",
+            "Elastic fibers",
+            "Slow-twitch fibers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Type I fibers are slow-twitch, fatigue-resistant fibers ideal for endurance activities."
         },
         {
           id: 13,
           question: "What do Type II fibers specialize in?",
           options: [
-            "Power and speed",
+            "Coordination",
             "Endurance only",
-            "Flexibility",
-            "Coordination"
+            "Power and speed",
+            "Flexibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Type II fast-twitch fibers generate rapid, powerful contractions for explosive movements."
         },
         {
           id: 14,
           question: "Which hormone mobilizes energy during stress?",
           options: [
-            "Cortisol",
             "Testosterone",
             "Insulin",
+            "Cortisol",
             "Estrogen"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cortisol helps mobilize glucose and fatty acids for energy during exercise and stress."
         },
         {
@@ -258,9 +258,9 @@ Understanding these physiological principles enables precise training program de
           question: "What does testosterone promote?",
           options: [
             "Muscle protein synthesis",
+            "Water retention",
             "Fat storage",
-            "Bone breakdown",
-            "Water retention"
+            "Bone breakdown"
           ],
           correctAnswer: 0,
           explanation: "Testosterone stimulates muscle growth and repair through increased protein synthesis."
@@ -269,24 +269,24 @@ Understanding these physiological principles enables precise training program de
           id: 16,
           question: "What stimulates tissue repair?",
           options: [
-            "Growth hormone",
             "Cortisol",
+            "Thyroxine",
             "Adrenaline",
-            "Thyroxine"
+            "Growth hormone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Growth hormone promotes tissue repair, muscle growth, and fat metabolism during recovery."
         },
         {
           id: 17,
           question: "What regulates glucose uptake?",
           options: [
-            "Insulin",
             "Cortisol",
+            "Insulin",
             "Testosterone",
             "Epinephrine"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Insulin facilitates glucose uptake into cells for energy production and storage."
         },
         {
@@ -294,8 +294,8 @@ Understanding these physiological principles enables precise training program de
           question: "What increases heart rate during exercise?",
           options: [
             "Epinephrine",
-            "Insulin",
             "Growth hormone",
+            "Insulin",
             "Testosterone"
           ],
           correctAnswer: 0,
@@ -305,12 +305,12 @@ Understanding these physiological principles enables precise training program de
           id: 19,
           question: "What is cardiac output?",
           options: [
-            "Heart rate × stroke volume",
             "Blood pressure × resistance",
+            "Volume × pressure",
             "Oxygen uptake × efficiency",
-            "Volume × pressure"
+            "Heart rate × stroke volume"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cardiac output measures total blood volume pumped by the heart per minute."
         },
         {
@@ -318,9 +318,9 @@ Understanding these physiological principles enables precise training program de
           question: "What enhances intermuscular coordination?",
           options: [
             "Neural adaptations",
+            "Cardiovascular fitness",
             "Muscle growth only",
-            "Flexibility training",
-            "Cardiovascular fitness"
+            "Flexibility training"
           ],
           correctAnswer: 0,
           explanation: "Neural adaptations improve how different muscles work together for efficient movement."
@@ -418,12 +418,12 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           id: 2,
           question: "What are ground reaction forces?",
           options: [
-            "Forces exerted by ground on body",
+            "Air resistance forces",
             "Muscle contraction forces",
             "Gravity's effect only",
-            "Air resistance forces"
+            "Forces exerted by ground on body"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ground reaction forces are equal and opposite to forces the body applies to the ground during movement."
         },
         {
@@ -431,8 +431,8 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           question: "What affects stability?",
           options: [
             "Center of mass position",
-            "Muscle size only",
             "Joint flexibility",
+            "Muscle size only",
             "Breathing pattern"
           ],
           correctAnswer: 0,
@@ -442,36 +442,36 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           id: 4,
           question: "What type of lever is most common in the body?",
           options: [
-            "Third-class levers",
             "First-class levers",
+            "Fourth-class levers",
             "Second-class levers",
-            "Fourth-class levers"
+            "Third-class levers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Most body levers are third-class, providing speed advantage at the expense of force."
         },
         {
           id: 5,
           question: "What characterizes third-class levers?",
           options: [
-            "Force between fulcrum and load",
-            "Fulcrum between force and load",
             "Load between fulcrum and force",
+            "Fulcrum between force and load",
+            "Force between fulcrum and load",
             "Equal force and load"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Third-class levers have the effort (muscle force) applied between the fulcrum (joint) and load."
         },
         {
           id: 6,
           question: "What is the first phase of walking gait?",
           options: [
-            "Heel strike",
             "Foot flat",
+            "Heel strike",
             "Toe off",
             "Swing phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Heel strike initiates the gait cycle as the heel makes initial contact with the ground."
         },
         {
@@ -480,8 +480,8 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           options: [
             "Single leg support",
             "Both feet on ground",
-            "Flight phase",
-            "Push-off preparation"
+            "Push-off preparation",
+            "Flight phase"
           ],
           correctAnswer: 0,
           explanation: "Midstance is when body weight is directly over the supporting foot during single-leg support."
@@ -491,9 +491,9 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           question: "What distinguishes running gait?",
           options: [
             "Flight phase present",
-            "Double support phase",
+            "Less muscle activation",
             "Slower movements",
-            "Less muscle activation"
+            "Double support phase"
           ],
           correctAnswer: 0,
           explanation: "Running includes a flight phase where neither foot contacts the ground, unlike walking."
@@ -502,36 +502,36 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           id: 9,
           question: "What are compressive forces?",
           options: [
-            "Joint surfaces pushed together",
-            "Parallel sliding forces",
             "Rotational stresses",
-            "Bending movements"
+            "Bending movements",
+            "Parallel sliding forces",
+            "Joint surfaces pushed together"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Compressive forces push joint surfaces together, common in weight-bearing activities."
         },
         {
           id: 10,
           question: "What are shear forces?",
           options: [
-            "Parallel to joint surfaces",
-            "Perpendicular compression",
             "Rotational stress",
-            "Bending stress"
+            "Bending stress",
+            "Perpendicular compression",
+            "Parallel to joint surfaces"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Shear forces act parallel to joint surfaces and can damage ligaments and cartilage."
         },
         {
           id: 11,
           question: "What is torsional force?",
           options: [
-            "Rotational stress",
             "Compression stress",
+            "Rotational stress",
             "Shear stress",
             "Bending stress"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Torsional forces involve twisting that can cause spiral fractures and ligament tears."
         },
         {
@@ -550,36 +550,36 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           id: 13,
           question: "What is economy of movement?",
           options: [
-            "Minimizing energy expenditure",
-            "Maximizing speed only",
             "Increasing muscle size",
-            "Reducing rest time"
+            "Minimizing energy expenditure",
+            "Reducing rest time",
+            "Maximizing speed only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Movement economy refers to the energy cost of maintaining a given speed or workload."
         },
         {
           id: 14,
           question: "What optimizes stride efficiency?",
           options: [
-            "Optimal length and frequency",
-            "Maximum length only",
+            "Random variation",
             "Maximum frequency only",
-            "Random variation"
+            "Maximum length only",
+            "Optimal length and frequency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Each individual has an optimal combination of stride length and frequency for minimal energy cost."
         },
         {
           id: 15,
           question: "What are energy leaks?",
           options: [
-            "Unnecessary movements wasting energy",
-            "Nutritional deficiencies",
             "Poor hydration",
-            "Inadequate warm-up"
+            "Unnecessary movements wasting energy",
+            "Inadequate warm-up",
+            "Nutritional deficiencies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Energy leaks occur when movement inefficiencies waste energy that should propel the body forward."
         },
         {
@@ -599,8 +599,8 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           question: "What measures muscle activity?",
           options: [
             "Electromyography",
-            "Motion capture",
             "Force platforms",
+            "Motion capture",
             "Pressure mapping"
           ],
           correctAnswer: 0,
@@ -610,12 +610,12 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           id: 18,
           question: "What analyzes ground forces?",
           options: [
-            "Force platforms",
             "Motion capture",
             "EMG systems",
+            "Force platforms",
             "Video analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Force platforms measure ground reaction forces in three dimensions during movement."
         },
         {
@@ -623,9 +623,9 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           question: "What maps pressure distribution?",
           options: [
             "Pressure measurement systems",
-            "Motion capture",
+            "Heart rate monitors",
             "EMG electrodes",
-            "Heart rate monitors"
+            "Motion capture"
           ],
           correctAnswer: 0,
           explanation: "Pressure mapping systems show how force is distributed across foot or hand surfaces."
@@ -635,9 +635,9 @@ Understanding biomechanics allows coaches to refine technique, improve efficienc
           question: "What prevents injuries biomechanically?",
           options: [
             "Proper force distribution",
-            "Maximum flexibility",
+            "Rapid movements",
             "Minimum strength",
-            "Rapid movements"
+            "Maximum flexibility"
           ],
           correctAnswer: 0,
           explanation: "Proper biomechanics distribute forces optimally across tissues, reducing injury risk."
@@ -737,48 +737,48 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           id: 1,
           question: "What is the primary fuel for high-intensity exercise?",
           options: [
+            "Vitamins",
             "Carbohydrates",
-            "Proteins",
             "Fats",
-            "Vitamins"
+            "Proteins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Carbohydrates are the preferred fuel for moderate to high-intensity exercise due to faster energy production."
         },
         {
           id: 2,
           question: "What are daily carb requirements for athletes?",
           options: [
+            "0.5-1 g/kg body weight",
             "3-12 g/kg body weight",
             "1-2 g/kg body weight",
-            "0.5-1 g/kg body weight",
             "15-20 g/kg body weight"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Carbohydrate needs vary from 3-12 g/kg depending on training intensity, duration, and goals."
         },
         {
           id: 3,
           question: "Where is glycogen stored?",
           options: [
-            "Liver and muscles",
-            "Blood only",
+            "Bones",
             "Fat cells",
-            "Bones"
+            "Liver and muscles",
+            "Blood only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Glycogen is stored in liver (regulates blood glucose) and muscles (local energy source)."
         },
         {
           id: 4,
           question: "What are protein building blocks?",
           options: [
-            "Amino acids",
-            "Fatty acids",
             "Glucose units",
-            "Nucleotides"
+            "Nucleotides",
+            "Fatty acids",
+            "Amino acids"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Proteins are composed of amino acids, which repair and build muscle tissue."
         },
         {
@@ -786,9 +786,9 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           question: "What are daily protein requirements for athletes?",
           options: [
             "1.2-2.0 g/kg body weight",
-            "0.5-0.8 g/kg body weight",
+            "10-12 g/kg body weight",
             "3-4 g/kg body weight",
-            "10-12 g/kg body weight"
+            "0.5-0.8 g/kg body weight"
           ],
           correctAnswer: 0,
           explanation: "Athletes need 1.2-2.0 g/kg protein daily to support repair, growth, and adaptation."
@@ -797,12 +797,12 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           id: 6,
           question: "What optimizes post-exercise protein synthesis?",
           options: [
-            "20-40g protein doses",
-            "5-10g protein doses",
             "50-100g protein doses",
+            "5-10g protein doses",
+            "20-40g protein doses",
             "No protein needed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "20-40g of high-quality protein maximizes muscle protein synthesis after exercise."
         },
         {
@@ -810,9 +810,9 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           question: "What percentage of calories from fats?",
           options: [
             "20-35%",
-            "10-15%",
             "40-50%",
-            "60-70%"
+            "60-70%",
+            "10-15%"
           ],
           correctAnswer: 0,
           explanation: "20-35% of total calories from fats supports health and performance for most athletes."
@@ -822,8 +822,8 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           question: "What are essential fatty acids?",
           options: [
             "Omega-3 and omega-6",
-            "Saturated fats",
             "Trans fats",
+            "Saturated fats",
             "Cholesterol"
           ],
           correctAnswer: 0,
@@ -833,36 +833,36 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           id: 9,
           question: "What transports oxygen in blood?",
           options: [
+            "Sodium",
             "Iron",
-            "Calcium",
             "Vitamin D",
-            "Sodium"
+            "Calcium"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Iron is essential for hemoglobin production, which carries oxygen in red blood cells."
         },
         {
           id: 10,
           question: "What supports bone health?",
           options: [
-            "Calcium and Vitamin D",
-            "Iron and B12",
             "Sodium and potassium",
+            "Iron and B12",
+            "Calcium and Vitamin D",
             "Vitamin C only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Calcium builds bone structure while Vitamin D enhances calcium absorption."
         },
         {
           id: 11,
           question: "What reduces oxidative stress?",
           options: [
-            "Antioxidants",
             "Proteins",
+            "Antioxidants",
             "Carbohydrates",
             "Saturated fats"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Antioxidants neutralize free radicals produced during intense exercise."
         },
         {
@@ -870,8 +870,8 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           question: "How much pre-exercise hydration?",
           options: [
             "500ml 2-3 hours before",
-            "100ml right before",
             "1 liter immediately before",
+            "100ml right before",
             "No hydration needed"
           ],
           correctAnswer: 0,
@@ -881,24 +881,24 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           id: 13,
           question: "How often to drink during exercise?",
           options: [
-            "Every 15-20 minutes",
             "Every 60 minutes",
             "Only when thirsty",
-            "Never during exercise"
+            "Never during exercise",
+            "Every 15-20 minutes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regular sips every 15-20 minutes maintain hydration without overloading the stomach."
         },
         {
           id: 14,
           question: "What electrolytes need replacement?",
           options: [
-            "Sodium, potassium, magnesium",
             "Iron and calcium",
-            "Zinc and copper",
-            "Vitamin C and E"
+            "Vitamin C and E",
+            "Sodium, potassium, magnesium",
+            "Zinc and copper"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "These electrolytes are lost in sweat and crucial for nerve function and fluid balance."
         },
         {
@@ -906,9 +906,9 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           question: "What characterizes pre-exercise meals?",
           options: [
             "High carb, low fat/fiber",
-            "High protein, low carb",
+            "High fiber, low fluid",
             "High fat, low protein",
-            "High fiber, low fluid"
+            "High protein, low carb"
           ],
           correctAnswer: 0,
           explanation: "High carbs fuel exercise while low fat/fiber prevents gastrointestinal issues."
@@ -918,9 +918,9 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           question: "How many carbs per hour during exercise?",
           options: [
             "30-60g per hour",
+            "No carbs needed",
             "5-10g per hour",
-            "100-150g per hour",
-            "No carbs needed"
+            "100-150g per hour"
           ],
           correctAnswer: 0,
           explanation: "30-60g carbohydrates per hour maintains blood glucose during prolonged exercise."
@@ -929,48 +929,48 @@ Proper nutrition implementation can improve performance by 5-10% while supportin
           id: 17,
           question: "What is the recovery window?",
           options: [
-            "First 30-60 minutes post-exercise",
-            "2-4 hours post-exercise",
             "Next day only",
-            "During exercise only"
+            "First 30-60 minutes post-exercise",
+            "During exercise only",
+            "2-4 hours post-exercise"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The first 30-60 minutes post-exercise is when nutrients are most effectively utilized for recovery."
         },
         {
           id: 18,
           question: "What is safe weight loss rate?",
           options: [
-            "0.5-1.0 kg/week",
             "2-3 kg/week",
+            "0.5-1.0 kg/week",
             "5-10 kg/week",
             "No weight loss"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "0.5-1.0 kg/week preserves muscle mass and maintains performance during weight loss."
         },
         {
           id: 19,
           question: "What is carb loading?",
           options: [
-            "Increasing carb intake before competition",
-            "Decreasing all food intake",
             "High protein only",
-            "Fasting before events"
+            "Fasting before events",
+            "Increasing carb intake before competition",
+            "Decreasing all food intake"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Carbohydrate loading maximizes glycogen stores before endurance competitions."
         },
         {
           id: 20,
           question: "What supplements should be used?",
           options: [
+            "Only protein powders",
             "Evidence-based only",
-            "All available supplements",
             "Most expensive ones",
-            "Only protein powders"
+            "All available supplements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Only supplements with strong scientific evidence should be considered for athletes."
         }
       ]
@@ -1075,24 +1075,24 @@ Mental training programs can improve performance by 10-20% when systematically a
           id: 1,
           question: "What is motivation in sports?",
           options: [
-            "Direction and intensity of effort",
-            "Winning at all costs",
             "Natural talent only",
-            "Physical ability only"
+            "Winning at all costs",
+            "Physical ability only",
+            "Direction and intensity of effort"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Motivation encompasses both the direction (what one tries to do) and intensity (how hard one tries)."
         },
         {
           id: 2,
           question: "What is sport confidence?",
           options: [
-            "Belief in one's abilities",
             "Guaranteed success",
-            "Lack of nervousness",
-            "Physical strength only"
+            "Belief in one's abilities",
+            "Physical strength only",
+            "Lack of nervousness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Confidence is the belief in one's ability to successfully perform a specific task."
         },
         {
@@ -1100,9 +1100,9 @@ Mental training programs can improve performance by 10-20% when systematically a
           question: "What is focus in sports?",
           options: [
             "Attention control and concentration",
-            "Staring at one point",
+            "Physical positioning",
             "Ignoring everything",
-            "Physical positioning"
+            "Staring at one point"
           ],
           correctAnswer: 0,
           explanation: "Focus involves selectively attending to relevant cues while ignoring distractions."
@@ -1111,48 +1111,48 @@ Mental training programs can improve performance by 10-20% when systematically a
           id: 4,
           question: "What is emotion regulation?",
           options: [
-            "Managing competitive anxiety",
-            "Eliminating all emotions",
             "Only positive emotions",
-            "Ignoring feelings"
+            "Managing competitive anxiety",
+            "Ignoring feelings",
+            "Eliminating all emotions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Emotion regulation involves monitoring and modifying emotional responses for optimal performance."
         },
         {
           id: 5,
           question: "What is resilience?",
           options: [
-            "Bouncing back from setbacks",
             "Never experiencing failure",
             "Physical toughness only",
+            "Bouncing back from setbacks",
             "Genetic predisposition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Resilience is the ability to recover quickly from difficulties and adapt to adversity."
         },
         {
           id: 6,
           question: "What are process goals?",
           options: [
+            "Comparing to others",
             "Focus on execution",
             "Winning outcomes",
-            "Comparing to others",
             "Final results only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Process goals focus on the actions and behaviors within the athlete's control."
         },
         {
           id: 7,
           question: "What are performance goals?",
           options: [
-            "Self-referenced standards",
+            "Team requirements",
             "Beating opponents only",
             "Coach's expectations",
-            "Team requirements"
+            "Self-referenced standards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Performance goals involve achieving personal standards rather than comparing to others."
         },
         {
@@ -1160,8 +1160,8 @@ Mental training programs can improve performance by 10-20% when systematically a
           question: "What are outcome goals?",
           options: [
             "Result-focused",
-            "Technique improvement",
             "Effort levels",
+            "Technique improvement",
             "Learning process"
           ],
           correctAnswer: 0,
@@ -1171,84 +1171,84 @@ Mental training programs can improve performance by 10-20% when systematically a
           id: 9,
           question: "What is balanced goal setting?",
           options: [
-            "70% process, 20% performance, 10% outcome",
             "100% outcome goals",
+            "Only performance goals",
             "Equal all types",
-            "Only performance goals"
+            "70% process, 20% performance, 10% outcome"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "This balanced approach emphasizes controllable factors while acknowledging outcomes."
         },
         {
           id: 10,
           question: "What is broad external attention?",
           options: [
-            "Assessing environment",
-            "Mental rehearsal",
             "Technical focus",
-            "Breathing control"
+            "Mental rehearsal",
+            "Breathing control",
+            "Assessing environment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Broad external attention scans the environment for relevant cues and information."
         },
         {
           id: 11,
           question: "What is narrow internal attention?",
           options: [
+            "Crowd observation",
             "Mental rehearsal",
-            "Game situation awareness",
             "Opponent watching",
-            "Crowd observation"
+            "Game situation awareness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Narrow internal focus involves mental processes like visualization or technical analysis."
         },
         {
           id: 12,
           question: "What are pre-performance routines?",
           options: [
-            "Consistent preparation sequences",
-            "Random warm-ups",
             "Last-minute changes",
-            "Coach's instructions only"
+            "Random warm-ups",
+            "Coach's instructions only",
+            "Consistent preparation sequences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Consistent routines create psychological readiness and reduce pre-competition anxiety."
         },
         {
           id: 13,
           question: "What is cognitive anxiety?",
           options: [
-            "Worry and negative thoughts",
-            "Physical symptoms",
             "Lack of preparation",
+            "Physical symptoms",
+            "Worry and negative thoughts",
             "Overconfidence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cognitive anxiety involves mental components like worry, doubt, and negative self-talk."
         },
         {
           id: 14,
           question: "What is somatic anxiety?",
           options: [
-            "Physical symptoms",
-            "Mental worry only",
             "Strategic planning",
-            "Confidence issues"
+            "Mental worry only",
+            "Confidence issues",
+            "Physical symptoms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Somatic anxiety manifests as physical symptoms like sweating, trembling, or increased heart rate."
         },
         {
           id: 15,
           question: "What is optimal arousal theory?",
           options: [
-            "Inverted-U hypothesis",
-            "More arousal always better",
+            "Linear relationship",
             "No arousal best",
-            "Linear relationship"
+            "Inverted-U hypothesis",
+            "More arousal always better"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Inverted-U hypothesis suggests performance increases with arousal up to an optimal point, then decreases."
         },
         {
@@ -1256,9 +1256,9 @@ Mental training programs can improve performance by 10-20% when systematically a
           question: "What is cognitive restructuring?",
           options: [
             "Changing thought patterns",
-            "Physical relaxation only",
             "Ignoring thoughts",
-            "Medication use"
+            "Medication use",
+            "Physical relaxation only"
           ],
           correctAnswer: 0,
           explanation: "Cognitive restructuring identifies and modifies irrational or unhelpful thought patterns."
@@ -1267,24 +1267,24 @@ Mental training programs can improve performance by 10-20% when systematically a
           id: 17,
           question: "What is task cohesion?",
           options: [
-            "Working toward shared goals",
-            "Social friendships",
             "Personal achievements",
-            "Coach-player relationship"
+            "Coach-player relationship",
+            "Social friendships",
+            "Working toward shared goals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Task cohesion involves commitment to team objectives and coordinated effort toward goals."
         },
         {
           id: 18,
           question: "What is social cohesion?",
           options: [
+            "Skill development",
             "Interpersonal relationships",
-            "Winning games only",
             "Training attendance",
-            "Skill development"
+            "Winning games only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Social cohesion refers to the quality of interpersonal relationships and social interactions within the team."
         },
         {
@@ -1292,9 +1292,9 @@ Mental training programs can improve performance by 10-20% when systematically a
           question: "What is autocratic leadership?",
           options: [
             "Coach-centered decision making",
-            "Player involvement",
+            "Equal decision making",
             "No leadership",
-            "Equal decision making"
+            "Player involvement"
           ],
           correctAnswer: 0,
           explanation: "Autocratic leaders make decisions independently with minimal input from athletes."
@@ -1304,9 +1304,9 @@ Mental training programs can improve performance by 10-20% when systematically a
           question: "What is situational leadership?",
           options: [
             "Adapting style to situation",
+            "Player-led only",
             "One style always",
-            "No leadership structure",
-            "Player-led only"
+            "No leadership structure"
           ],
           correctAnswer: 0,
           explanation: "Situational leadership adjusts approach based on athlete needs, task demands, and context."
@@ -1417,8 +1417,8 @@ Advanced programming requires balancing stress and recovery while progressing to
           options: [
             "Sequential phases of training",
             "Random training variation",
-            "Same training always",
-            "No structure"
+            "No structure",
+            "Same training always"
           ],
           correctAnswer: 0,
           explanation: "Linear periodization progresses through distinct training phases with specific focuses."
@@ -1428,9 +1428,9 @@ Advanced programming requires balancing stress and recovery while progressing to
           question: "What changes in linear periodization?",
           options: [
             "Volume decreases, intensity increases",
+            "Random changes",
             "Volume increases, intensity decreases",
-            "Both stay same",
-            "Random changes"
+            "Both stay same"
           ],
           correctAnswer: 0,
           explanation: "As competition approaches, volume typically decreases while intensity increases."
@@ -1440,9 +1440,9 @@ Advanced programming requires balancing stress and recovery while progressing to
           question: "What is undulating periodization?",
           options: [
             "Frequent variation in volume/intensity",
+            "Only intensity changes",
             "No variation",
-            "Only volume changes",
-            "Only intensity changes"
+            "Only volume changes"
           ],
           correctAnswer: 0,
           explanation: "Undulating periodization varies training stress frequently to maintain multiple qualities."
@@ -1451,60 +1451,60 @@ Advanced programming requires balancing stress and recovery while progressing to
           id: 4,
           question: "What characterizes block periodization?",
           options: [
-            "Concentrated loading blocks",
-            "Equal focus on all qualities",
             "No specific focus",
-            "Random training"
+            "Random training",
+            "Concentrated loading blocks",
+            "Equal focus on all qualities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Block periodization focuses intensely on specific fitness qualities in concentrated blocks."
         },
         {
           id: 5,
           question: "What is concurrent training?",
           options: [
-            "Simultaneous multiple qualities",
-            "One quality at a time",
+            "Only endurance",
             "No strength training",
-            "Only endurance"
+            "One quality at a time",
+            "Simultaneous multiple qualities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Concurrent training develops multiple fitness qualities simultaneously."
         },
         {
           id: 6,
           question: "What loads for maximal strength?",
           options: [
-            "85-100% 1RM",
-            "40-60% 1RM",
             "60-75% 1RM",
-            "30-50% 1RM"
+            "30-50% 1RM",
+            "40-60% 1RM",
+            "85-100% 1RM"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Heavy loads near maximum develop neurological adaptations for maximal strength."
         },
         {
           id: 7,
           question: "What reps for maximal strength?",
           options: [
-            "1-6 reps",
-            "8-12 reps",
             "15-20 reps",
-            "25-30 reps"
+            "8-12 reps",
+            "25-30 reps",
+            "1-6 reps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Low repetitions with heavy loads optimize neural drive and maximal force production."
         },
         {
           id: 8,
           question: "What is power training focus?",
           options: [
-            "Velocity of movement",
             "Maximum weight only",
             "Endurance only",
+            "Velocity of movement",
             "Flexibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Power training emphasizes moving submaximal loads as quickly as possible."
         },
         {
@@ -1512,9 +1512,9 @@ Advanced programming requires balancing stress and recovery while progressing to
           question: "What are Olympic lifts?",
           options: [
             "Clean and snatch variations",
+            "Leg extensions",
             "Bench press only",
-            "Bicep curls",
-            "Leg extensions"
+            "Bicep curls"
           ],
           correctAnswer: 0,
           explanation: "Olympic lifts develop explosive power through triple extension movements."
@@ -1524,9 +1524,9 @@ Advanced programming requires balancing stress and recovery while progressing to
           question: "What is hypertrophy training load?",
           options: [
             "67-85% 1RM",
-            "85-100% 1RM",
             "40-60% 1RM",
-            "30-50% 1RM"
+            "30-50% 1RM",
+            "85-100% 1RM"
           ],
           correctAnswer: 0,
           explanation: "Moderate loads with higher volume create metabolic stress for muscle growth."
@@ -1535,12 +1535,12 @@ Advanced programming requires balancing stress and recovery while progressing to
           id: 11,
           question: "What reps for hypertrophy?",
           options: [
-            "6-12 reps",
-            "1-5 reps",
             "15-20 reps",
-            "25+ reps"
+            "25+ reps",
+            "6-12 reps",
+            "1-5 reps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "6-12 repetitions optimize mechanical tension and metabolic stress for hypertrophy."
         },
         {
@@ -1549,8 +1549,8 @@ Advanced programming requires balancing stress and recovery while progressing to
           options: [
             "0-20m focused work",
             "Maximum speed only",
-            "Endurance running",
-            "Long distance"
+            "Long distance",
+            "Endurance running"
           ],
           correctAnswer: 0,
           explanation: "Acceleration training focuses on the initial phase of sprinting from a stationary start."
@@ -1559,24 +1559,24 @@ Advanced programming requires balancing stress and recovery while progressing to
           id: 13,
           question: "What is maximum velocity training?",
           options: [
-            "20-60m technique refinement",
             "Starting technique only",
-            "Marathon pace",
-            "Jogging speed"
+            "20-60m technique refinement",
+            "Jogging speed",
+            "Marathon pace"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Maximum velocity work refines sprint mechanics at top speed."
         },
         {
           id: 14,
           question: "What is change of direction?",
           options: [
-            "Planned direction changes",
-            "Random movements only",
             "Straight line only",
-            "No direction changes"
+            "No direction changes",
+            "Random movements only",
+            "Planned direction changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Change of direction involves pre-planned alterations in movement direction."
         },
         {
@@ -1584,9 +1584,9 @@ Advanced programming requires balancing stress and recovery while progressing to
           question: "What is agility?",
           options: [
             "Reactive movement to stimuli",
+            "Endurance training",
             "Planned patterns only",
-            "Strength training",
-            "Endurance training"
+            "Strength training"
           ],
           correctAnswer: 0,
           explanation: "Agility involves reacting to unpredictable stimuli with appropriate movement responses."
@@ -1595,36 +1595,36 @@ Advanced programming requires balancing stress and recovery while progressing to
           id: 16,
           question: "What is acute:chronic workload ratio?",
           options: [
-            "Monitoring training load balance",
             "Nutrition ratio",
-            "Sleep timing",
-            "Hydration schedule"
+            "Hydration schedule",
+            "Monitoring training load balance",
+            "Sleep timing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "This ratio compares recent training load to longer-term average to manage injury risk."
         },
         {
           id: 17,
           question: "What are deloading periods?",
           options: [
-            "Strategic recovery phases",
             "Increased training",
+            "Testing weeks",
             "Competition periods",
-            "Testing weeks"
+            "Strategic recovery phases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Deloading reduces training stress to facilitate recovery and supercompensation."
         },
         {
           id: 18,
           question: "What is subjective monitoring?",
           options: [
-            "Questionnaires and perceived exertion",
-            "Heart rate only",
             "Blood tests",
-            "Performance tests"
+            "Questionnaires and perceived exertion",
+            "Performance tests",
+            "Heart rate only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Subjective measures assess how athletes feel, providing valuable context to objective data."
         },
         {
@@ -1632,9 +1632,9 @@ Advanced programming requires balancing stress and recovery while progressing to
           question: "What is heart rate variability?",
           options: [
             "Autonomic nervous system indicator",
+            "Exercise heart rate",
             "Maximum heart rate",
-            "Resting heart rate only",
-            "Exercise heart rate"
+            "Resting heart rate only"
           ],
           correctAnswer: 0,
           explanation: "HRV reflects autonomic nervous system balance and recovery status."
@@ -1643,12 +1643,12 @@ Advanced programming requires balancing stress and recovery while progressing to
           id: 20,
           question: "What are peaking strategies?",
           options: [
-            "Competition performance optimization",
-            "Year-round same training",
+            "No special preparation",
             "Random training before events",
-            "No special preparation"
+            "Competition performance optimization",
+            "Year-round same training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Peaking strategies manipulate training variables to optimize performance at specific competitions."
         }
       ]
@@ -1758,12 +1758,12 @@ Effective injury management balances optimal recovery with safe return to full p
           id: 1,
           question: "What is a major intrinsic risk factor?",
           options: [
-            "Previous injury history",
-            "Weather conditions",
             "Equipment quality",
-            "Opponent strength"
+            "Previous injury history",
+            "Opponent strength",
+            "Weather conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Previous injury significantly increases risk of re-injury to the same area."
         },
         {
@@ -1782,12 +1782,12 @@ Effective injury management balances optimal recovery with safe return to full p
           id: 3,
           question: "What is an extrinsic risk factor?",
           options: [
-            "Training load errors",
-            "Previous injuries",
+            "Age and sex",
             "Genetic factors",
-            "Age and sex"
+            "Previous injuries",
+            "Training load errors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Extrinsic factors are external influences like training errors, equipment, or environment."
         },
         {
@@ -1818,36 +1818,36 @@ Effective injury management balances optimal recovery with safe return to full p
           id: 6,
           question: "What are stress fractures?",
           options: [
-            "Bone cracks from repetitive loading",
             "Complete bone breaks",
             "Muscle strains",
+            "Bone cracks from repetitive loading",
             "Joint dislocations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stress fractures are small cracks in bones from repetitive force accumulation."
         },
         {
           id: 7,
           question: "What are acute injuries?",
           options: [
-            "Traumatic sudden injuries",
             "Gradual onset injuries",
             "Chronic conditions",
-            "Genetic conditions"
+            "Genetic conditions",
+            "Traumatic sudden injuries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Acute injuries result from sudden trauma like falls, collisions, or awkward landings."
         },
         {
           id: 8,
           question: "What is the FIFA 11+ program?",
           options: [
+            "Mental training",
             "Comprehensive warm-up program",
             "Nutrition plan",
-            "Mental training",
             "Cool-down routine"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "FIFA 11+ is an evidence-based warm-up program that reduces football injuries."
         },
         {
@@ -1855,9 +1855,9 @@ Effective injury management balances optimal recovery with safe return to full p
           question: "What does ACL prevention focus on?",
           options: [
             "Landing and cutting mechanics",
-            "Only strength training",
+            "Cardiovascular fitness",
             "Only flexibility",
-            "Cardiovascular fitness"
+            "Only strength training"
           ],
           correctAnswer: 0,
           explanation: "ACL prevention emphasizes proper movement patterns during high-risk activities."
@@ -1867,9 +1867,9 @@ Effective injury management balances optimal recovery with safe return to full p
           question: "What is optimal acute:chronic workload ratio?",
           options: [
             "0.8-1.3 range",
+            "1.5-2.5 range",
             "2.0-3.0 range",
-            "0.1-0.5 range",
-            "1.5-2.5 range"
+            "0.1-0.5 range"
           ],
           correctAnswer: 0,
           explanation: "0.8-1.3 represents balanced training load with minimal injury risk."
@@ -1878,60 +1878,60 @@ Effective injury management balances optimal recovery with safe return to full p
           id: 11,
           question: "What is the acute rehabilitation phase?",
           options: [
-            "Pain and swelling control",
-            "Strength restoration",
             "Sport-specific training",
-            "Return to competition"
+            "Pain and swelling control",
+            "Return to competition",
+            "Strength restoration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Acute phase focuses on initial healing and symptom management."
         },
         {
           id: 12,
           question: "What is subacute rehabilitation phase?",
           options: [
-            "Strength and proprioception restoration",
-            "Initial injury management",
             "Full competition",
-            "Career planning"
+            "Career planning",
+            "Strength and proprioception restoration",
+            "Initial injury management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Subacute phase rebuilds strength, balance, and basic movement patterns."
         },
         {
           id: 13,
           question: "What is functional rehabilitation phase?",
           options: [
+            "Pain management only",
             "Sport-specific movements",
             "Basic range of motion",
-            "Pain management only",
             "Psychological counseling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Functional phase prepares athletes for the specific demands of their sport."
         },
         {
           id: 14,
           question: "What are rehabilitation progressions?",
           options: [
+            "No progression",
             "Simple to complex movements",
-            "Complex to simple",
             "Random progression",
-            "No progression"
+            "Complex to simple"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rehabilitation systematically progresses from basic to advanced activities."
         },
         {
           id: 15,
           question: "What is strength symmetry criteria?",
           options: [
+            "200% of uninjured side",
             ">90% of uninjured side",
-            "50% of uninjured side",
             "Equal to injured side",
-            "200% of uninjured side"
+            "50% of uninjured side"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: ">90% strength symmetry indicates sufficient recovery for progression."
         },
         {
@@ -1950,48 +1950,48 @@ Effective injury management balances optimal recovery with safe return to full p
           id: 17,
           question: "What is sport-specific phase?",
           options: [
+            "Psychological assessment",
             "Position-specific demands",
             "General fitness only",
-            "Medical treatment",
-            "Psychological assessment"
+            "Medical treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sport-specific phase addresses the unique demands of the athlete's position and sport."
         },
         {
           id: 18,
           question: "What is exposure phase?",
           options: [
-            "Controlled practice situations",
             "Full competition immediately",
             "No practice at all",
+            "Controlled practice situations",
             "Only watching games"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Exposure phase gradually reintroduces athletes to training and competitive environments."
         },
         {
           id: 19,
           question: "What is risk-benefit analysis?",
           options: [
+            "Focusing only on benefits",
             "Weighing return benefits against re-injury risks",
             "Ignoring risks",
-            "Focusing only on benefits",
             "No analysis needed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk-benefit analysis considers both potential performance gains and injury risks."
         },
         {
           id: 20,
           question: "What is re-injury prevention?",
           options: [
+            "Ignoring the injury",
             "Continued strength maintenance",
-            "Stopping all training",
             "Changing sports",
-            "Ignoring the injury"
+            "Stopping all training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Re-injury prevention involves ongoing strategies to maintain recovery gains."
         }
       ]
@@ -2008,8 +2008,8 @@ Effective injury management balances optimal recovery with safe return to full p
         options: [
           "Phosphagen System",
           "Glycolytic System",
-          "Oxidative System",
-          "Lipolytic System"
+          "Lipolytic System",
+          "Oxidative System"
         ],
         correctAnswer: 0,
         explanation: "The Phosphagen system provides rapid ATP for short, intense bursts of activity.",
@@ -2019,12 +2019,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 2,
         question: "What byproduct does the Glycolytic System produce?",
         options: [
+          "Ammonia",
           "Lactic acid",
-          "Carbon dioxide",
           "Water",
-          "Ammonia"
+          "Carbon dioxide"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Lactic acid accumulation contributes to muscular fatigue during high-intensity exercise.",
         module: 1
       },
@@ -2032,12 +2032,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 3,
         question: "What is a common cardiorespiratory adaptation?",
         options: [
+          "Decreased blood volume",
           "Lower resting heart rate",
           "Higher resting blood pressure",
-          "Reduced lung capacity",
-          "Decreased blood volume"
+          "Reduced lung capacity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Training increases heart efficiency, allowing lower heart rates at rest.",
         module: 1
       },
@@ -2045,12 +2045,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 4,
         question: "What physics principles apply to human movement?",
         options: [
-          "Newton's Laws",
-          "Einstein's Theory",
+          "Thermodynamics only",
           "Quantum Mechanics",
-          "Thermodynamics only"
+          "Newton's Laws",
+          "Einstein's Theory"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Newton's Laws of Motion provide the foundation for biomechanical analysis.",
         module: 2
       },
@@ -2058,12 +2058,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 5,
         question: "What characterizes third-class levers?",
         options: [
-          "Force between fulcrum and load",
           "Fulcrum between force and load",
           "Load between fulcrum and force",
-          "Equal force and load"
+          "Equal force and load",
+          "Force between fulcrum and load"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Most body levers are third-class, providing speed advantage over force.",
         module: 2
       },
@@ -2071,12 +2071,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 6,
         question: "What distinguishes running gait?",
         options: [
-          "Flight phase present",
           "Double support phase",
           "Slower movements",
+          "Flight phase present",
           "Less muscle activation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Running includes a flight phase where neither foot contacts the ground.",
         module: 2
       },
@@ -2084,12 +2084,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 7,
         question: "What is the primary fuel for high-intensity exercise?",
         options: [
+          "Vitamins",
           "Carbohydrates",
           "Proteins",
-          "Fats",
-          "Vitamins"
+          "Fats"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Carbohydrates provide rapid energy production for intense exercise.",
         module: 3
       },
@@ -2097,12 +2097,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 8,
         question: "What optimizes post-exercise protein synthesis?",
         options: [
+          "50-100g protein doses",
           "20-40g protein doses",
           "5-10g protein doses",
-          "50-100g protein doses",
           "No protein needed"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "20-40g of protein maximizes muscle repair and growth after exercise.",
         module: 3
       },
@@ -2110,12 +2110,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 9,
         question: "What is the recovery window?",
         options: [
-          "First 30-60 minutes post-exercise",
-          "2-4 hours post-exercise",
           "Next day only",
-          "During exercise only"
+          "2-4 hours post-exercise",
+          "During exercise only",
+          "First 30-60 minutes post-exercise"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Nutrients are most effectively utilized for recovery immediately after exercise.",
         module: 3
       },
@@ -2123,12 +2123,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 10,
         question: "What is sport confidence?",
         options: [
+          "Physical strength only",
           "Belief in one's abilities",
-          "Guaranteed success",
           "Lack of nervousness",
-          "Physical strength only"
+          "Guaranteed success"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Confidence is the belief in one's capability to perform successfully.",
         module: 4
       },
@@ -2136,12 +2136,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 11,
         question: "What are process goals?",
         options: [
-          "Focus on execution",
-          "Winning outcomes",
           "Comparing to others",
-          "Final results only"
+          "Final results only",
+          "Winning outcomes",
+          "Focus on execution"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Process goals focus on controllable actions and behaviors.",
         module: 4
       },
@@ -2149,12 +2149,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 12,
         question: "What is optimal arousal theory?",
         options: [
-          "Inverted-U hypothesis",
           "More arousal always better",
           "No arousal best",
+          "Inverted-U hypothesis",
           "Linear relationship"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Optimal performance occurs at moderate arousal levels per the Inverted-U hypothesis.",
         module: 4
       },
@@ -2162,12 +2162,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 13,
         question: "What is linear periodization?",
         options: [
-          "Sequential phases of training",
+          "No structure",
           "Random training variation",
           "Same training always",
-          "No structure"
+          "Sequential phases of training"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Linear periodization progresses through distinct training phases.",
         module: 5
       },
@@ -2175,12 +2175,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 14,
         question: "What loads for maximal strength?",
         options: [
-          "85-100% 1RM",
+          "30-50% 1RM",
           "40-60% 1RM",
           "60-75% 1RM",
-          "30-50% 1RM"
+          "85-100% 1RM"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Heavy loads near maximum develop neurological adaptations for strength.",
         module: 5
       },
@@ -2188,12 +2188,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 15,
         question: "What is power training focus?",
         options: [
-          "Velocity of movement",
-          "Maximum weight only",
           "Endurance only",
-          "Flexibility"
+          "Velocity of movement",
+          "Flexibility",
+          "Maximum weight only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Power training emphasizes moving submaximal loads as quickly as possible.",
         module: 5
       },
@@ -2201,12 +2201,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 16,
         question: "What is a major intrinsic risk factor?",
         options: [
-          "Previous injury history",
-          "Weather conditions",
           "Equipment quality",
-          "Opponent strength"
+          "Previous injury history",
+          "Opponent strength",
+          "Weather conditions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Previous injury significantly increases re-injury risk.",
         module: 6
       },
@@ -2215,9 +2215,9 @@ Effective injury management balances optimal recovery with safe return to full p
         question: "What causes overuse injuries?",
         options: [
           "Repetitive loading beyond tissue adaptation",
-          "Single traumatic event",
           "Genetic predisposition only",
-          "Poor nutrition only"
+          "Poor nutrition only",
+          "Single traumatic event"
         ],
         correctAnswer: 0,
         explanation: "Overuse injuries result from cumulative microtrauma exceeding repair capacity.",
@@ -2229,8 +2229,8 @@ Effective injury management balances optimal recovery with safe return to full p
         options: [
           "Pain and swelling control",
           "Strength restoration",
-          "Sport-specific training",
-          "Return to competition"
+          "Return to competition",
+          "Sport-specific training"
         ],
         correctAnswer: 0,
         explanation: "Acute phase focuses on initial healing and symptom management.",
@@ -2253,12 +2253,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 20,
         question: "What are ground reaction forces?",
         options: [
-          "Forces exerted by ground on body",
-          "Muscle contraction forces",
           "Gravity's effect only",
-          "Air resistance forces"
+          "Forces exerted by ground on body",
+          "Air resistance forces",
+          "Muscle contraction forces"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Ground reaction forces are equal and opposite to body forces applied to ground.",
         module: 2
       },
@@ -2266,12 +2266,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 21,
         question: "What are daily carb requirements for athletes?",
         options: [
-          "3-12 g/kg body weight",
-          "1-2 g/kg body weight",
           "0.5-1 g/kg body weight",
-          "15-20 g/kg body weight"
+          "15-20 g/kg body weight",
+          "3-12 g/kg body weight",
+          "1-2 g/kg body weight"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Carbohydrate needs vary based on training intensity and goals.",
         module: 3
       },
@@ -2279,12 +2279,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 22,
         question: "What is balanced goal setting?",
         options: [
+          "Only performance goals",
           "70% process, 20% performance, 10% outcome",
           "100% outcome goals",
-          "Equal all types",
-          "Only performance goals"
+          "Equal all types"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Balanced approach emphasizes controllable factors while acknowledging outcomes.",
         module: 4
       },
@@ -2293,9 +2293,9 @@ Effective injury management balances optimal recovery with safe return to full p
         question: "What changes in linear periodization?",
         options: [
           "Volume decreases, intensity increases",
+          "Random changes",
           "Volume increases, intensity decreases",
-          "Both stay same",
-          "Random changes"
+          "Both stay same"
         ],
         correctAnswer: 0,
         explanation: "Volume typically decreases while intensity increases toward competition.",
@@ -2305,12 +2305,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 24,
         question: "What is optimal acute:chronic workload ratio?",
         options: [
-          "0.8-1.3 range",
+          "1.5-2.5 range",
           "2.0-3.0 range",
           "0.1-0.5 range",
-          "1.5-2.5 range"
+          "0.8-1.3 range"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "0.8-1.3 represents balanced training load with minimal injury risk.",
         module: 6
       },
@@ -2318,12 +2318,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 25,
         question: "What stimulates tissue repair?",
         options: [
-          "Growth hormone",
+          "Thyroxine",
           "Cortisol",
           "Adrenaline",
-          "Thyroxine"
+          "Growth hormone"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Growth hormone promotes tissue repair and muscle growth during recovery.",
         module: 1
       },
@@ -2331,12 +2331,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 26,
         question: "What is economy of movement?",
         options: [
-          "Minimizing energy expenditure",
-          "Maximizing speed only",
           "Increasing muscle size",
-          "Reducing rest time"
+          "Maximizing speed only",
+          "Reducing rest time",
+          "Minimizing energy expenditure"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Movement economy refers to energy cost of maintaining given speed.",
         module: 2
       },
@@ -2344,12 +2344,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 27,
         question: "What electrolytes need replacement?",
         options: [
-          "Sodium, potassium, magnesium",
-          "Iron and calcium",
+          "Vitamin C and E",
           "Zinc and copper",
-          "Vitamin C and E"
+          "Iron and calcium",
+          "Sodium, potassium, magnesium"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "These electrolytes are lost in sweat and crucial for nerve function.",
         module: 3
       },
@@ -2357,12 +2357,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 28,
         question: "What is cognitive anxiety?",
         options: [
-          "Worry and negative thoughts",
-          "Physical symptoms",
           "Lack of preparation",
-          "Overconfidence"
+          "Physical symptoms",
+          "Overconfidence",
+          "Worry and negative thoughts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Cognitive anxiety involves mental worry, doubt, and negative self-talk.",
         module: 4
       },
@@ -2370,12 +2370,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 29,
         question: "What is undulating periodization?",
         options: [
-          "Frequent variation in volume/intensity",
           "No variation",
           "Only volume changes",
+          "Frequent variation in volume/intensity",
           "Only intensity changes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Undulating periodization varies training stress frequently.",
         module: 5
       },
@@ -2383,12 +2383,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 30,
         question: "What are tendinopathies?",
         options: [
+          "Ligament sprains",
           "Tendon overuse injuries",
-          "Bone fractures",
           "Muscle tears",
-          "Ligament sprains"
+          "Bone fractures"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Tendinopathies involve tendon degeneration from overuse.",
         module: 6
       },
@@ -2410,9 +2410,9 @@ Effective injury management balances optimal recovery with safe return to full p
         question: "What is the first phase of walking gait?",
         options: [
           "Heel strike",
-          "Foot flat",
           "Toe off",
-          "Swing phase"
+          "Swing phase",
+          "Foot flat"
         ],
         correctAnswer: 0,
         explanation: "Heel strike initiates the gait cycle as heel makes ground contact.",
@@ -2422,12 +2422,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 33,
         question: "How many carbs per hour during exercise?",
         options: [
-          "30-60g per hour",
           "5-10g per hour",
           "100-150g per hour",
-          "No carbs needed"
+          "No carbs needed",
+          "30-60g per hour"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "30-60g carbohydrates per hour maintains blood glucose during exercise.",
         module: 3
       },
@@ -2435,12 +2435,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 34,
         question: "What is somatic anxiety?",
         options: [
-          "Physical symptoms",
           "Mental worry only",
+          "Physical symptoms",
           "Strategic planning",
           "Confidence issues"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Somatic anxiety manifests as physical symptoms like sweating or trembling.",
         module: 4
       },
@@ -2448,12 +2448,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 35,
         question: "What reps for maximal strength?",
         options: [
-          "1-6 reps",
-          "8-12 reps",
           "15-20 reps",
-          "25-30 reps"
+          "1-6 reps",
+          "25-30 reps",
+          "8-12 reps"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Low repetitions with heavy loads optimize neural adaptations.",
         module: 5
       },
@@ -2461,12 +2461,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 36,
         question: "What is subacute rehabilitation phase?",
         options: [
-          "Strength and proprioception restoration",
-          "Initial injury management",
           "Full competition",
+          "Initial injury management",
+          "Strength and proprioception restoration",
           "Career planning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Subacute phase rebuilds strength, balance, and basic movements.",
         module: 6
       },
@@ -2474,12 +2474,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 37,
         question: "What increases with left ventricle volume?",
         options: [
-          "Stroke volume",
-          "Resting heart rate",
           "Blood pressure",
+          "Resting heart rate",
+          "Stroke volume",
           "Resistance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Increased left ventricle volume allows greater blood filling per beat.",
         module: 1
       },
@@ -2488,9 +2488,9 @@ Effective injury management balances optimal recovery with safe return to full p
         question: "What type of lever is most common?",
         options: [
           "Third-class levers",
-          "First-class levers",
           "Second-class levers",
-          "Fourth-class levers"
+          "Fourth-class levers",
+          "First-class levers"
         ],
         correctAnswer: 0,
         explanation: "Most body levers are third-class, providing speed over force.",
@@ -2500,12 +2500,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 39,
         question: "What is carb loading?",
         options: [
-          "Increasing carb intake before competition",
           "Decreasing all food intake",
-          "High protein only",
-          "Fasting before events"
+          "Increasing carb intake before competition",
+          "Fasting before events",
+          "High protein only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Carbohydrate loading maximizes glycogen stores before endurance events.",
         module: 3
       },
@@ -2513,12 +2513,12 @@ Effective injury management balances optimal recovery with safe return to full p
         id: 40,
         question: "What is strength symmetry criteria?",
         options: [
+          "Equal to injured side",
           ">90% of uninjured side",
           "50% of uninjured side",
-          "Equal to injured side",
           "200% of uninjured side"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: ">90% strength symmetry indicates sufficient recovery for progression.",
         module: 6
       }

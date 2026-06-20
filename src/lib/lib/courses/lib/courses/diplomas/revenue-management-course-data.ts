@@ -147,9 +147,9 @@ Advanced revenue strategy development creates sustainable competitive advantage 
           question: "What are the four pillars of advanced revenue management?",
           options: [
             "Strategic Pricing, Total Revenue Optimization, Customer Value Management, Competitive Positioning",
+            "Planning, Execution, Monitoring, Optimization",
             "Price, Product, Promotion, Place",
-            "Cost, Revenue, Profit, Market Share",
-            "Planning, Execution, Monitoring, Optimization"
+            "Cost, Revenue, Profit, Market Share"
           ],
           correctAnswer: 0,
           explanation: "The four pillars are Strategic Pricing Architecture, Total Revenue Optimization, Customer Value Management, and Competitive Market Positioning."
@@ -160,8 +160,8 @@ Advanced revenue strategy development creates sustainable competitive advantage 
           options: [
             "Strategic Revenue Management",
             "Tactical Yield Management",
-            "Operational Revenue Management",
-            "Predictive Revenue Management"
+            "Predictive Revenue Management",
+            "Operational Revenue Management"
           ],
           correctAnswer: 0,
           explanation: "Level 3 is Strategic Revenue Management with enterprise-wide integration."
@@ -172,8 +172,8 @@ Advanced revenue strategy development creates sustainable competitive advantage 
           options: [
             "Business Objectives Integration",
             "Market Positioning Strategy",
-            "Value Proposition Alignment",
-            "Customer Segment Strategy"
+            "Customer Segment Strategy",
+            "Value Proposition Alignment"
           ],
           correctAnswer: 0,
           explanation: "Business Objectives Integration ensures pricing supports overall business goals."
@@ -182,108 +182,108 @@ Advanced revenue strategy development creates sustainable competitive advantage 
           id: 4,
           question: "What encourages additional purchases?",
           options: [
-            "Cross-Sell Optimization",
+            "Product Portfolio Management",
             "Up-Sell Strategy",
             "Bundle Pricing",
-            "Product Portfolio Management"
+            "Cross-Sell Optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cross-Sell Optimization uses pricing to encourage additional complementary purchases."
         },
         {
           id: 5,
           question: "What is long-term customer worth?",
           options: [
-            "Customer Lifetime Value",
             "Customer Acquisition Cost",
             "Customer Retention Value",
+            "Customer Lifetime Value",
             "Customer Migration Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Customer Lifetime Value calculates the long-term worth of customer relationships."
         },
         {
           id: 6,
           question: "What is Level 4 in the maturity model?",
           options: [
+            "Operational Revenue Management",
             "Predictive Revenue Management",
             "Tactical Yield Management",
-            "Operational Revenue Management",
             "Strategic Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Level 4 is Predictive Revenue Management using AI and real-time optimization."
         },
         {
           id: 7,
           question: "What are strategic barriers between price points?",
           options: [
+            "Discount Architecture",
             "Price Fences",
-            "Price Metrics",
             "Price Structures",
-            "Discount Architecture"
+            "Price Metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Price Fences are strategic barriers that separate different price points."
         },
         {
           id: 8,
           question: "What connects capacity with pricing?",
           options: [
-            "Operations Integration",
             "Marketing Coordination",
             "Sales Alignment",
-            "Finance Collaboration"
+            "Finance Collaboration",
+            "Operations Integration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Operations Integration connects capacity management with pricing decisions."
         },
         {
           id: 9,
           question: "What influences customer choices?",
           options: [
-            "Decision Architecture",
-            "Pricing Psychology",
+            "Price Fairness",
             "Value Perception",
-            "Price Fairness"
+            "Decision Architecture",
+            "Pricing Psychology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Decision Architecture Design influences how customers make choices."
         },
         {
           id: 10,
           question: "Who sets market prices?",
           options: [
-            "Price Leadership Assessment",
-            "Competitive Landscape Mapping",
             "Market Segment Dynamics",
-            "Strategic Group Analysis"
+            "Strategic Group Analysis",
+            "Competitive Landscape Mapping",
+            "Price Leadership Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Price Leadership Assessment identifies which competitors set market prices."
         },
         {
           id: 11,
           question: "What is basic dynamic pricing level?",
           options: [
-            "Level 1: Tactical Yield Management",
-            "Level 2: Operational Revenue Management",
             "Level 3: Strategic Revenue Management",
+            "Level 2: Operational Revenue Management",
+            "Level 1: Tactical Yield Management",
             "Level 4: Predictive Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Level 1 is Tactical Yield Management with basic dynamic pricing."
         },
         {
           id: 12,
           question: "What prices across product families?",
           options: [
-            "Product Portfolio Management",
             "Cross-Sell Optimization",
-            "Up-Sell Strategy",
-            "Bundle Pricing"
+            "Product Portfolio Management",
+            "Bundle Pricing",
+            "Up-Sell Strategy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Product Portfolio Management involves pricing across entire product families."
         },
         {
@@ -291,8 +291,8 @@ Advanced revenue strategy development creates sustainable competitive advantage 
           question: "What are additional revenue opportunities?",
           options: [
             "Ancillary Revenue Development",
-            "Cross-Department Revenue",
             "Partnership Revenue",
+            "Cross-Department Revenue",
             "New Revenue Innovation"
           ],
           correctAnswer: 0,
@@ -302,48 +302,48 @@ Advanced revenue strategy development creates sustainable competitive advantage 
           id: 14,
           question: "What is cost to acquire customers?",
           options: [
-            "Customer Acquisition Cost",
-            "Customer Lifetime Value",
+            "Customer Migration Analysis",
             "Customer Retention Value",
-            "Customer Migration Analysis"
+            "Customer Acquisition Cost",
+            "Customer Lifetime Value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Customer Acquisition Cost Analysis measures the cost to acquire new customers."
         },
         {
           id: 15,
           question: "What creates value beyond price?",
           options: [
-            "Differentiation Strategies",
             "Price Response Framework",
             "Strategic Pricing Moves",
+            "Differentiation Strategies",
             "Competitive Signaling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Differentiation Strategies create competitive advantage beyond just price."
         },
         {
           id: 16,
           question: "What is multi-channel pricing optimization?",
           options: [
-            "Level 2: Operational Revenue Management",
-            "Level 1: Tactical Yield Management",
             "Level 3: Strategic Revenue Management",
-            "Level 4: Predictive Revenue Management"
+            "Level 1: Tactical Yield Management",
+            "Level 4: Predictive Revenue Management",
+            "Level 2: Operational Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Level 2 includes multi-channel pricing optimization and advanced forecasting."
         },
         {
           id: 17,
           question: "What are pricing pathways to higher-value products?",
           options: [
-            "Up-Sell Strategy",
+            "Product Portfolio Management",
             "Cross-Sell Optimization",
             "Bundle Pricing",
-            "Product Portfolio Management"
+            "Up-Sell Strategy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Up-Sell Strategy Development creates pathways for customers to move to higher-value products."
         },
         {
@@ -362,24 +362,24 @@ Advanced revenue strategy development creates sustainable competitive advantage 
           id: 19,
           question: "What manages perceived value?",
           options: [
-            "Value Perception Management",
-            "Pricing Psychology",
+            "Price Fairness",
             "Decision Architecture",
-            "Price Fairness"
+            "Pricing Psychology",
+            "Value Perception Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Value Perception Management influences how customers perceive product value."
         },
         {
           id: 20,
           question: "What are planned pricing initiatives?",
           options: [
-            "Strategic Pricing Moves",
-            "Price Response Framework",
+            "Competitive Signaling",
             "Differentiation Strategies",
-            "Competitive Signaling"
+            "Strategic Pricing Moves",
+            "Price Response Framework"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic Pricing Moves are planned pricing initiatives rather than reactions."
         }
       ]
@@ -532,24 +532,24 @@ Advanced pricing analytics enables evidence-based pricing decisions that maximiz
           id: 1,
           question: "What are the four analytical capability levels?",
           options: [
-            "Descriptive, Diagnostic, Predictive, Prescriptive",
-            "Basic, Intermediate, Advanced, Expert",
             "Data, Analysis, Insight, Action",
-            "Collection, Processing, Analysis, Reporting"
+            "Collection, Processing, Analysis, Reporting",
+            "Basic, Intermediate, Advanced, Expert",
+            "Descriptive, Diagnostic, Predictive, Prescriptive"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The four levels are Descriptive (what happened), Diagnostic (why it happened), Predictive (what will happen), and Prescriptive (what should happen)."
         },
         {
           id: 2,
           question: "What measures customer response to price changes?",
           options: [
-            "Price Elasticity Modeling",
-            "Conjoint Analysis",
+            "Competitive Intelligence",
             "Willingness-to-Pay Analysis",
-            "Competitive Intelligence"
+            "Conjoint Analysis",
+            "Price Elasticity Modeling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Price Elasticity Modeling measures how demand changes in response to price changes."
         },
         {
@@ -568,132 +568,132 @@ Advanced pricing analytics enables evidence-based pricing decisions that maximiz
           id: 4,
           question: "What is maximum price customers will pay?",
           options: [
-            "Reservation Price",
             "Optimal Price",
             "Market Price",
+            "Reservation Price",
             "Competitive Price"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reservation Price is the maximum price customers are willing to pay for a product."
         },
         {
           id: 5,
           question: "What is optimization under uncertainty?",
           options: [
-            "Stochastic Optimization",
-            "Linear Programming",
+            "Multi-objective Optimization",
             "Non-linear Optimization",
-            "Multi-objective Optimization"
+            "Linear Programming",
+            "Stochastic Optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stochastic Optimization handles optimization problems with uncertainty or randomness."
         },
         {
           id: 6,
           question: "What is what happened analysis?",
           options: [
-            "Descriptive Analytics",
-            "Diagnostic Analytics",
             "Predictive Analytics",
+            "Diagnostic Analytics",
+            "Descriptive Analytics",
             "Prescriptive Analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Descriptive Analytics focuses on understanding what has already happened."
         },
         {
           id: 7,
           question: "What analyzes past price changes?",
           options: [
-            "Historical Analysis",
-            "Controlled Experiments",
             "Conjoint Analysis",
-            "Market Response Models"
+            "Controlled Experiments",
+            "Market Response Models",
+            "Historical Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Historical Analysis examines past price changes and resulting sales responses."
         },
         {
           id: 8,
           question: "What chooses product features to test?",
           options: [
+            "Sample Strategy",
             "Attribute Selection",
             "Price Point Inclusion",
-            "Experimental Design",
-            "Sample Strategy"
+            "Experimental Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Attribute Selection involves choosing which product features to include in conjoint studies."
         },
         {
           id: 9,
           question: "What is demand probability distributions?",
           options: [
-            "Probabilistic Forecasting",
             "Price-Demand Relationships",
-            "Competitive Response Modeling",
-            "External Factor Inclusion"
+            "External Factor Inclusion",
+            "Probabilistic Forecasting",
+            "Competitive Response Modeling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Probabilistic Forecasting produces probability distributions rather than single-point forecasts."
         },
         {
           id: 10,
           question: "What tracks competitor prices continuously?",
           options: [
-            "Automated Price Monitoring",
             "Price Change Detection",
+            "Strategic Price Benchmarking",
             "Price Pattern Analysis",
-            "Strategic Price Benchmarking"
+            "Automated Price Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Automated Price Monitoring continuously tracks competitor prices automatically."
         },
         {
           id: 11,
           question: "What is why it happened analysis?",
           options: [
-            "Diagnostic Analytics",
             "Descriptive Analytics",
             "Predictive Analytics",
-            "Prescriptive Analytics"
+            "Prescriptive Analytics",
+            "Diagnostic Analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Diagnostic Analytics focuses on understanding why things happened."
         },
         {
           id: 12,
           question: "What is structured price testing?",
           options: [
-            "Controlled Experiments",
             "Historical Analysis",
+            "Controlled Experiments",
             "Conjoint Analysis",
             "Market Response Models"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Controlled Experiments involve structured testing of different price points."
         },
         {
           id: 13,
           question: "What is monetary value of product features?",
           options: [
+            "Price Sensitivity Measurement",
             "Feature Value Quantification",
             "Reservation Price Estimation",
-            "Price Sensitivity Measurement",
             "Trade-off Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Feature Value Quantification assigns monetary value to individual product features."
         },
         {
           id: 14,
           question: "What balances multiple goals?",
           options: [
-            "Multi-objective Optimization",
             "Linear Programming",
             "Non-linear Optimization",
-            "Stochastic Optimization"
+            "Stochastic Optimization",
+            "Multi-objective Optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Multi-objective Optimization balances multiple competing objectives simultaneously."
         },
         {
@@ -701,9 +701,9 @@ Advanced pricing analytics enables evidence-based pricing decisions that maximiz
           question: "What identifies competitor price changes?",
           options: [
             "Price Change Detection",
-            "Automated Price Monitoring",
             "Price Pattern Analysis",
-            "Strategic Price Benchmarking"
+            "Strategic Price Benchmarking",
+            "Automated Price Monitoring"
           ],
           correctAnswer: 0,
           explanation: "Price Change Detection automatically identifies when competitors change their prices."
@@ -712,12 +712,12 @@ Advanced pricing analytics enables evidence-based pricing decisions that maximiz
           id: 16,
           question: "What is what will happen analysis?",
           options: [
+            "Prescriptive Analytics",
             "Predictive Analytics",
-            "Descriptive Analytics",
             "Diagnostic Analytics",
-            "Prescriptive Analytics"
+            "Descriptive Analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Predictive Analytics focuses on forecasting what will happen in the future."
         },
         {
@@ -725,8 +725,8 @@ Advanced pricing analytics enables evidence-based pricing decisions that maximiz
           question: "What measures relative preferences?",
           options: [
             "Conjoint Analysis",
-            "Historical Analysis",
             "Controlled Experiments",
+            "Historical Analysis",
             "Market Response Models"
           ],
           correctAnswer: 0,
@@ -749,9 +749,9 @@ Advanced pricing analytics enables evidence-based pricing decisions that maximiz
           question: "What is mathematical demand functions?",
           options: [
             "Price-Demand Relationships",
-            "Probabilistic Forecasting",
             "Competitive Response Modeling",
-            "External Factor Inclusion"
+            "External Factor Inclusion",
+            "Probabilistic Forecasting"
           ],
           correctAnswer: 0,
           explanation: "Price-Demand Relationships are mathematical functions describing how demand changes with price."
@@ -760,12 +760,12 @@ Advanced pricing analytics enables evidence-based pricing decisions that maximiz
           id: 20,
           question: "What understands competitor pricing patterns?",
           options: [
-            "Price Pattern Analysis",
-            "Automated Price Monitoring",
             "Price Change Detection",
-            "Strategic Price Benchmarking"
+            "Automated Price Monitoring",
+            "Strategic Price Benchmarking",
+            "Price Pattern Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Price Pattern Analysis identifies and understands recurring patterns in competitor pricing."
         }
       ]
@@ -939,60 +939,60 @@ Effective channel and distribution management maximizes total revenue by optimiz
           id: 1,
           question: "What are the four channel management principles?",
           options: [
+            "Acquisition, Conversion, Retention, Optimization",
             "Strategy Alignment, Performance Optimization, Conflict Management, Cost Control",
             "Direct, Indirect, Online, Offline",
-            "Price, Product, Promotion, Placement",
-            "Acquisition, Conversion, Retention, Optimization"
+            "Price, Product, Promotion, Placement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The four principles are Channel Strategy Alignment, Channel Performance Optimization, Channel Conflict Management, and Channel Cost Control."
         },
         {
           id: 2,
           question: "What maximizes revenue from owned channels?",
           options: [
+            "Channel Evolution Planning",
             "Direct Channel Optimization",
             "Indirect Channel Strategy",
-            "Channel Mix Determination",
-            "Channel Evolution Planning"
+            "Channel Mix Determination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Direct Channel Optimization focuses on maximizing revenue from company-owned channels."
         },
         {
           id: 3,
           question: "What maintains price consistency?",
           options: [
-            "Price Parity Management",
             "Channel Partner Relations",
+            "Price Parity Management",
             "Brand.com Protection",
             "Marketplace Rules Compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Price Parity Management maintains consistent prices across different channels."
         },
         {
           id: 4,
           question: "What are third-party travel platforms?",
           options: [
-            "Online Travel Agencies (OTAs)",
             "Global Distribution Systems",
             "Meta-Search Sites",
+            "Online Travel Agencies (OTAs)",
             "Direct Websites"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Online Travel Agencies (OTAs) are third-party platforms like Booking.com or Expedia."
         },
         {
           id: 5,
           question: "What encourages direct bookings?",
           options: [
+            "Direct Channel Marketing",
             "Direct Channel Incentives",
             "Brand.com Optimization",
-            "Loyalty Program Integration",
-            "Direct Channel Marketing"
+            "Loyalty Program Integration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Direct Channel Incentives encourage customers to book through direct channels."
         },
         {
@@ -1000,9 +1000,9 @@ Effective channel and distribution management maximizes total revenue by optimiz
           question: "What is consistent with business strategy?",
           options: [
             "Channel Strategy Alignment",
-            "Channel Performance Optimization",
             "Channel Conflict Management",
-            "Channel Cost Control"
+            "Channel Cost Control",
+            "Channel Performance Optimization"
           ],
           correctAnswer: 0,
           explanation: "Channel Strategy Alignment ensures channel decisions support overall business strategy."
@@ -1011,36 +1011,36 @@ Effective channel and distribution management maximizes total revenue by optimiz
           id: 7,
           question: "What is unique value by each channel?",
           options: [
-            "Channel Differentiation",
-            "Customer Experience Management",
             "Channel Brand Alignment",
-            "Channel Service Levels"
+            "Channel Service Levels",
+            "Channel Differentiation",
+            "Customer Experience Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Channel Differentiation creates unique value propositions for different channels."
         },
         {
           id: 8,
           question: "What manages third-party relationships?",
           options: [
-            "Channel Partner Relations",
-            "Price Parity Management",
             "Brand.com Protection",
-            "Marketplace Rules Compliance"
+            "Channel Partner Relations",
+            "Marketplace Rules Compliance",
+            "Price Parity Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Channel Partner Relations manages relationships with third-party channel partners."
         },
         {
           id: 9,
           question: "What negotiates favorable OTA terms?",
           options: [
-            "Contract Negotiation",
-            "OTA Selection",
+            "Performance Management",
             "Relationship Management",
-            "Performance Management"
+            "Contract Negotiation",
+            "OTA Selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Contract Negotiation involves negotiating favorable terms with OTA partners."
         },
         {
@@ -1048,8 +1048,8 @@ Effective channel and distribution management maximizes total revenue by optimiz
           question: "What improves direct website performance?",
           options: [
             "Brand.com Optimization",
-            "Direct Channel Incentives",
             "Loyalty Program Integration",
+            "Direct Channel Incentives",
             "Direct Channel Marketing"
           ],
           correctAnswer: 0,
@@ -1059,12 +1059,12 @@ Effective channel and distribution management maximizes total revenue by optimiz
           id: 11,
           question: "What maximizes each channel's contribution?",
           options: [
+            "Channel Cost Control",
             "Channel Performance Optimization",
-            "Channel Strategy Alignment",
             "Channel Conflict Management",
-            "Channel Cost Control"
+            "Channel Strategy Alignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Channel Performance Optimization focuses on maximizing revenue from each channel."
         },
         {
@@ -1072,9 +1072,9 @@ Effective channel and distribution management maximizes total revenue by optimiz
           question: "What is optimal balance between channels?",
           options: [
             "Channel Mix Determination",
-            "Direct Channel Optimization",
             "Indirect Channel Strategy",
-            "Channel Evolution Planning"
+            "Channel Evolution Planning",
+            "Direct Channel Optimization"
           ],
           correctAnswer: 0,
           explanation: "Channel Mix Determination finds the optimal balance between different channels."
@@ -1083,24 +1083,24 @@ Effective channel and distribution management maximizes total revenue by optimiz
           id: 13,
           question: "What is custom pricing for specific channels?",
           options: [
-            "Channel-Specific Pricing",
             "Channel Price Consistency",
-            "Channel Price Differentiation",
-            "Channel Promotion Strategy"
+            "Channel Promotion Strategy",
+            "Channel-Specific Pricing",
+            "Channel Price Differentiation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Channel-Specific Pricing involves custom pricing strategies for different channels."
         },
         {
           id: 14,
           question: "What protects direct channel business?",
           options: [
+            "Marketplace Rules Compliance",
             "Brand.com Protection",
             "Price Parity Management",
-            "Channel Partner Relations",
-            "Marketplace Rules Compliance"
+            "Channel Partner Relations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Brand.com Protection strategies protect revenue from direct booking channels."
         },
         {
@@ -1108,9 +1108,9 @@ Effective channel and distribution management maximizes total revenue by optimiz
           question: "What chooses which OTAs to work with?",
           options: [
             "OTA Selection Criteria",
-            "Contract Negotiation",
+            "Performance Management",
             "Relationship Management",
-            "Performance Management"
+            "Contract Negotiation"
           ],
           correctAnswer: 0,
           explanation: "OTA Selection Criteria determine which OTA partners to work with."
@@ -1119,60 +1119,60 @@ Effective channel and distribution management maximizes total revenue by optimiz
           id: 16,
           question: "What balances channel relationships?",
           options: [
-            "Channel Conflict Management",
             "Channel Strategy Alignment",
             "Channel Performance Optimization",
+            "Channel Conflict Management",
             "Channel Cost Control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Channel Conflict Management balances relationships between different channels."
         },
         {
           id: 17,
           question: "What adapts to channel changes?",
           options: [
-            "Channel Evolution Planning",
-            "Direct Channel Optimization",
             "Indirect Channel Strategy",
-            "Channel Mix Determination"
+            "Channel Evolution Planning",
+            "Channel Mix Determination",
+            "Direct Channel Optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Channel Evolution Planning prepares for and adapts to changes in channel landscape."
         },
         {
           id: 18,
           question: "What is when to allow price differences?",
           options: [
+            "Channel Promotion Strategy",
             "Channel Price Differentiation",
-            "Channel Price Consistency",
             "Channel-Specific Pricing",
-            "Channel Promotion Strategy"
+            "Channel Price Consistency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Channel Price Differentiation allows for different prices in different channels."
         },
         {
           id: 19,
           question: "What follows platform requirements?",
           options: [
-            "Marketplace Rules Compliance",
-            "Price Parity Management",
             "Channel Partner Relations",
-            "Brand.com Protection"
+            "Price Parity Management",
+            "Brand.com Protection",
+            "Marketplace Rules Compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Marketplace Rules Compliance involves following rules set by platform operators."
         },
         {
           id: 20,
           question: "What manages OTA performance?",
           options: [
+            "Contract Negotiation",
             "Performance Management",
             "OTA Selection",
-            "Contract Negotiation",
             "Relationship Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Performance Management involves monitoring and managing OTA partner performance."
         }
       ]
@@ -1371,8 +1371,8 @@ Effective ancillary revenue management can significantly increase total revenue 
           question: "What adds value, not just charges more?",
           options: [
             "Customer Value Enhancement",
-            "Strategic Integration",
             "Pricing Psychology",
+            "Strategic Integration",
             "Continuous Innovation"
           ],
           correctAnswer: 0,
@@ -1382,24 +1382,24 @@ Effective ancillary revenue management can significantly increase total revenue 
           id: 3,
           question: "What identifies touchpoints for ancillary sales?",
           options: [
-            "Customer Journey Analysis",
-            "Competitive Benchmarking",
             "Customer Need Assessment",
-            "Operational Capability Analysis"
+            "Customer Journey Analysis",
+            "Operational Capability Analysis",
+            "Competitive Benchmarking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Customer Journey Analysis identifies opportunities throughout the customer journey."
         },
         {
           id: 4,
           question: "What are required additional purchases?",
           options: [
-            "Mandatory Ancillaries",
             "Optional Enhancements",
-            "Convenience Services",
-            "Experience Add-ons"
+            "Mandatory Ancillaries",
+            "Experience Add-ons",
+            "Convenience Services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mandatory Ancillaries are additional purchases required by the customer."
         },
         {
@@ -1407,9 +1407,9 @@ Effective ancillary revenue management can significantly increase total revenue 
           question: "What packages ancillaries with core products?",
           options: [
             "Bundling Strategies",
-            "Unbundling Strategies",
+            "Personalized Pricing",
             "Dynamic Pricing",
-            "Personalized Pricing"
+            "Unbundling Strategies"
           ],
           correctAnswer: 0,
           explanation: "Bundling Strategies package ancillary products with core offerings."
@@ -1419,9 +1419,9 @@ Effective ancillary revenue management can significantly increase total revenue 
           question: "What aligns ancillaries with core offerings?",
           options: [
             "Strategic Integration",
-            "Customer Value Enhancement",
+            "Continuous Innovation",
             "Pricing Psychology",
-            "Continuous Innovation"
+            "Customer Value Enhancement"
           ],
           correctAnswer: 0,
           explanation: "Strategic Integration ensures ancillary offerings complement core products."
@@ -1430,60 +1430,60 @@ Effective ancillary revenue management can significantly increase total revenue 
           id: 7,
           question: "What learns from competitor ancillary offerings?",
           options: [
-            "Competitive Benchmarking",
             "Customer Journey Analysis",
+            "Competitive Benchmarking",
             "Customer Need Assessment",
             "Operational Capability Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competitive Benchmarking learns from competitors' ancillary revenue strategies."
         },
         {
           id: 8,
           question: "What are voluntary upgrades and additions?",
           options: [
-            "Optional Enhancements",
             "Mandatory Ancillaries",
-            "Convenience Services",
-            "Experience Add-ons"
+            "Experience Add-ons",
+            "Optional Enhancements",
+            "Convenience Services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Optional Enhancements are voluntary ancillary purchases that enhance the experience."
         },
         {
           id: 9,
           question: "What separates previously included services?",
           options: [
-            "Unbundling Strategies",
             "Bundling Strategies",
             "Dynamic Pricing",
-            "Personalized Pricing"
+            "Personalized Pricing",
+            "Unbundling Strategies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Unbundling Strategies separate previously included services into chargeable items."
         },
         {
           id: 10,
           question: "What are premium room category sales?",
           options: [
-            "Room Upgrades",
             "Early Check-in/Late Check-out",
             "View Upgrades",
-            "Room Location Preferences"
+            "Room Location Preferences",
+            "Room Upgrades"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Room Upgrades involve selling premium room categories as ancillaries."
         },
         {
           id: 11,
           question: "What optimizes ancillary pricing strategies?",
           options: [
-            "Pricing Psychology",
-            "Customer Value Enhancement",
             "Strategic Integration",
-            "Continuous Innovation"
+            "Continuous Innovation",
+            "Pricing Psychology",
+            "Customer Value Enhancement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Pricing Psychology applies psychological principles to optimize ancillary pricing."
         },
         {
@@ -1491,8 +1491,8 @@ Effective ancillary revenue management can significantly increase total revenue 
           question: "What understands unmet customer needs?",
           options: [
             "Customer Need Assessment",
-            "Customer Journey Analysis",
             "Competitive Benchmarking",
+            "Customer Journey Analysis",
             "Operational Capability Analysis"
           ],
           correctAnswer: 0,
@@ -1502,12 +1502,12 @@ Effective ancillary revenue management can significantly increase total revenue 
           id: 13,
           question: "What are time-saving services?",
           options: [
-            "Convenience Services",
             "Mandatory Ancillaries",
             "Optional Enhancements",
-            "Experience Add-ons"
+            "Experience Add-ons",
+            "Convenience Services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Convenience Services save customers time or reduce effort."
         },
         {
@@ -1515,9 +1515,9 @@ Effective ancillary revenue management can significantly increase total revenue 
           question: "What is variable pricing based on demand?",
           options: [
             "Dynamic Pricing",
+            "Personalized Pricing",
             "Bundling Strategies",
-            "Unbundling Strategies",
-            "Personalized Pricing"
+            "Unbundling Strategies"
           ],
           correctAnswer: 0,
           explanation: "Dynamic Pricing varies ancillary prices based on demand and other factors."
@@ -1526,72 +1526,72 @@ Effective ancillary revenue management can significantly increase total revenue 
           id: 15,
           question: "What are time flexibility services?",
           options: [
-            "Early Check-in/Late Check-out",
-            "Room Upgrades",
             "View Upgrades",
-            "Room Location Preferences"
+            "Early Check-in/Late Check-out",
+            "Room Location Preferences",
+            "Room Upgrades"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Early Check-in/Late Check-out services provide time flexibility as ancillaries."
         },
         {
           id: 16,
           question: "What develops new revenue opportunities?",
           options: [
-            "Continuous Innovation",
             "Customer Value Enhancement",
+            "Continuous Innovation",
             "Strategic Integration",
             "Pricing Psychology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Continuous Innovation involves developing new ancillary revenue opportunities."
         },
         {
           id: 17,
           question: "What analyzes operational delivery capabilities?",
           options: [
-            "Operational Capability Analysis",
-            "Customer Journey Analysis",
             "Competitive Benchmarking",
-            "Customer Need Assessment"
+            "Customer Need Assessment",
+            "Operational Capability Analysis",
+            "Customer Journey Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Operational Capability Analysis determines what ancillary services can be delivered."
         },
         {
           id: 18,
           question: "What enhance customer experience?",
           options: [
-            "Experience Add-ons",
             "Mandatory Ancillaries",
+            "Convenience Services",
             "Optional Enhancements",
-            "Convenience Services"
+            "Experience Add-ons"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Experience Add-ons enhance the overall customer experience."
         },
         {
           id: 19,
           question: "What is custom pricing for individual customers?",
           options: [
-            "Personalized Pricing",
             "Bundling Strategies",
-            "Unbundling Strategies",
-            "Dynamic Pricing"
+            "Personalized Pricing",
+            "Dynamic Pricing",
+            "Unbundling Strategies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Personalized Pricing offers custom ancillary pricing for individual customers."
         },
         {
           id: 20,
           question: "What are better view room assignments?",
           options: [
-            "View Upgrades",
             "Room Upgrades",
             "Early Check-in/Late Check-out",
+            "View Upgrades",
             "Room Location Preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "View Upgrades involve selling rooms with better views as ancillary options."
         }
       ]
@@ -1778,9 +1778,9 @@ Advanced revenue management technology enables sophisticated optimization, real-
           question: "What is predictive demand modeling?",
           options: [
             "Demand Forecasting Engine",
-            "Price Optimization Module",
+            "Distribution Channel Manager",
             "Inventory Management System",
-            "Distribution Channel Manager"
+            "Price Optimization Module"
           ],
           correctAnswer: 0,
           explanation: "Demand Forecasting Engine provides predictive demand modeling capabilities."
@@ -1789,84 +1789,84 @@ Advanced revenue management technology enables sophisticated optimization, real-
           id: 3,
           question: "What identifies complex demand patterns?",
           options: [
-            "Demand Pattern Recognition",
+            "Customer Behavior Prediction",
             "Price Elasticity Learning",
             "Competitive Response Prediction",
-            "Customer Behavior Prediction"
+            "Demand Pattern Recognition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demand Pattern Recognition uses machine learning to identify complex demand patterns."
         },
         {
           id: 4,
           question: "What analyzes market news and social media?",
           options: [
-            "Market Sentiment Analysis",
-            "Competitor Announcement Monitoring",
+            "Regulatory Change Monitoring",
             "Customer Review Analysis",
-            "Regulatory Change Monitoring"
+            "Competitor Announcement Monitoring",
+            "Market Sentiment Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Market Sentiment Analysis uses NLP to analyze market news and social media sentiment."
         },
         {
           id: 5,
           question: "What processes continuous data flows?",
           options: [
-            "Streaming Data Integration",
             "Real-Time Demand Signals",
+            "Live Market Condition Analysis",
             "Instant Competitive Updates",
-            "Live Market Condition Analysis"
+            "Streaming Data Integration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Streaming Data Integration processes continuous data flows in real-time systems."
         },
         {
           id: 6,
           question: "What automates manual processes?",
           options: [
+            "Predictive Intelligence",
             "Basic Automation",
             "Advanced Analytics",
-            "Predictive Intelligence",
             "Autonomous Optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Basic Automation focuses on automating previously manual processes."
         },
         {
           id: 7,
           question: "What is automated price calculation?",
           options: [
-            "Price Optimization Module",
-            "Demand Forecasting Engine",
             "Inventory Management System",
-            "Distribution Channel Manager"
+            "Distribution Channel Manager",
+            "Demand Forecasting Engine",
+            "Price Optimization Module"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Price Optimization Module provides automated price calculation and optimization."
         },
         {
           id: 8,
           question: "What continuously learns price sensitivity?",
           options: [
-            "Price Elasticity Learning",
-            "Demand Pattern Recognition",
             "Competitive Response Prediction",
-            "Customer Behavior Prediction"
+            "Demand Pattern Recognition",
+            "Customer Behavior Prediction",
+            "Price Elasticity Learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Price Elasticity Learning uses machine learning to continuously update price sensitivity models."
         },
         {
           id: 9,
           question: "What tracks competitor communications?",
           options: [
+            "Regulatory Change Monitoring",
             "Competitor Announcement Monitoring",
             "Market Sentiment Analysis",
-            "Customer Review Analysis",
-            "Regulatory Change Monitoring"
+            "Customer Review Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competitor Announcement Monitoring tracks and analyzes competitor communications."
         },
         {
@@ -1885,24 +1885,24 @@ Advanced revenue management technology enables sophisticated optimization, real-
           id: 11,
           question: "What provides sophisticated insights?",
           options: [
-            "Advanced Analytics",
-            "Basic Automation",
+            "Autonomous Optimization",
             "Predictive Intelligence",
-            "Autonomous Optimization"
+            "Advanced Analytics",
+            "Basic Automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Advanced Analytics provides sophisticated data analysis and insights."
         },
         {
           id: 12,
           question: "What controls perishable inventory?",
           options: [
-            "Inventory Management System",
             "Demand Forecasting Engine",
             "Price Optimization Module",
-            "Distribution Channel Manager"
+            "Distribution Channel Manager",
+            "Inventory Management System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Inventory Management System controls allocation and availability of perishable inventory."
         },
         {
@@ -1910,8 +1910,8 @@ Advanced revenue management technology enables sophisticated optimization, real-
           question: "What forecasts competitor reactions?",
           options: [
             "Competitive Response Prediction",
-            "Demand Pattern Recognition",
             "Price Elasticity Learning",
+            "Demand Pattern Recognition",
             "Customer Behavior Prediction"
           ],
           correctAnswer: 0,
@@ -1921,12 +1921,12 @@ Advanced revenue management technology enables sophisticated optimization, real-
           id: 14,
           question: "What extracts insights from customer feedback?",
           options: [
-            "Customer Review Analysis",
             "Market Sentiment Analysis",
+            "Customer Review Analysis",
             "Competitor Announcement Monitoring",
             "Regulatory Change Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Customer Review Analysis extracts insights from customer feedback and reviews."
         },
         {
@@ -1934,9 +1934,9 @@ Advanced revenue management technology enables sophisticated optimization, real-
           question: "What provides real-time competitor price monitoring?",
           options: [
             "Instant Competitive Updates",
-            "Streaming Data Integration",
             "Real-Time Demand Signals",
-            "Live Market Condition Analysis"
+            "Live Market Condition Analysis",
+            "Streaming Data Integration"
           ],
           correctAnswer: 0,
           explanation: "Instant Competitive Updates provide real-time monitoring of competitor price changes."
@@ -1945,60 +1945,60 @@ Advanced revenue management technology enables sophisticated optimization, real-
           id: 16,
           question: "What provides forecasting and recommendations?",
           options: [
-            "Predictive Intelligence",
-            "Basic Automation",
+            "Autonomous Optimization",
             "Advanced Analytics",
-            "Autonomous Optimization"
+            "Predictive Intelligence",
+            "Basic Automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Predictive Intelligence provides advanced forecasting and recommendation capabilities."
         },
         {
           id: 17,
           question: "What manages multi-channel distribution?",
           options: [
+            "Price Optimization Module",
             "Distribution Channel Manager",
             "Demand Forecasting Engine",
-            "Price Optimization Module",
             "Inventory Management System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Distribution Channel Manager controls distribution across multiple channels."
         },
         {
           id: 18,
           question: "What predicts individual customer actions?",
           options: [
-            "Customer Behavior Prediction",
-            "Demand Pattern Recognition",
+            "Competitive Response Prediction",
             "Price Elasticity Learning",
-            "Competitive Response Prediction"
+            "Demand Pattern Recognition",
+            "Customer Behavior Prediction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Customer Behavior Prediction forecasts individual customer purchasing behavior."
         },
         {
           id: 19,
           question: "What tracks regulatory developments?",
           options: [
-            "Regulatory Change Monitoring",
             "Market Sentiment Analysis",
             "Competitor Announcement Monitoring",
-            "Customer Review Analysis"
+            "Customer Review Analysis",
+            "Regulatory Change Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regulatory Change Monitoring tracks developments in regulations affecting pricing."
         },
         {
           id: 20,
           question: "What assesses current market conditions?",
           options: [
-            "Live Market Condition Analysis",
-            "Streaming Data Integration",
             "Real-Time Demand Signals",
-            "Instant Competitive Updates"
+            "Instant Competitive Updates",
+            "Streaming Data Integration",
+            "Live Market Condition Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Live Market Condition Analysis assesses current market conditions in real-time."
         }
       ]
@@ -2199,48 +2199,48 @@ Strategic revenue leadership creates the organizational conditions for sustained
           id: 1,
           question: "What are the four leadership dimensions?",
           options: [
-            "Strategic Vision, Organizational Design, Performance Culture, Governance Framework",
-            "Planning, Execution, Monitoring, Optimization",
+            "Strategy, Operations, Finance, Marketing",
             "People, Process, Technology, Data",
-            "Strategy, Operations, Finance, Marketing"
+            "Strategic Vision, Organizational Design, Performance Culture, Governance Framework",
+            "Planning, Execution, Monitoring, Optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The four dimensions are Strategic Vision, Organizational Design, Performance Culture, and Governance Framework."
         },
         {
           id: 2,
           question: "What sets revenue direction and priorities?",
           options: [
+            "Governance Framework",
             "Strategic Vision",
-            "Organizational Design",
             "Performance Culture",
-            "Governance Framework"
+            "Organizational Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic Vision involves setting the overall direction and priorities for revenue management."
         },
         {
           id: 3,
           question: "What is deep understanding of market dynamics?",
           options: [
-            "Market Insight Development",
-            "Competitive Strategy Formulation",
             "Innovation Leadership",
+            "Competitive Strategy Formulation",
+            "Market Insight Development",
             "Change Leadership"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Market Insight Development involves developing deep understanding of market dynamics."
         },
         {
           id: 4,
           question: "What is central team making all decisions?",
           options: [
-            "Centralized Revenue Management",
+            "Center of Excellence Model",
             "Decentralized Revenue Management",
             "Hybrid Revenue Management",
-            "Center of Excellence Model"
+            "Centralized Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Centralized Revenue Management has a central team making all revenue decisions."
         },
         {
@@ -2248,9 +2248,9 @@ Strategic revenue leadership creates the organizational conditions for sustained
           question: "What is senior leadership revenue oversight?",
           options: [
             "Revenue Committee",
-            "Pricing Authority Matrix",
             "Policy Framework",
-            "Approval Processes"
+            "Approval Processes",
+            "Pricing Authority Matrix"
           ],
           correctAnswer: 0,
           explanation: "Revenue Committee provides senior leadership oversight of revenue management."
@@ -2259,36 +2259,36 @@ Strategic revenue leadership creates the organizational conditions for sustained
           id: 6,
           question: "What structures for revenue success?",
           options: [
-            "Organizational Design",
-            "Strategic Vision",
             "Performance Culture",
-            "Governance Framework"
+            "Governance Framework",
+            "Strategic Vision",
+            "Organizational Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Organizational Design involves structuring the organization for revenue success."
         },
         {
           id: 7,
           question: "What develops competitive approaches?",
           options: [
-            "Competitive Strategy Formulation",
             "Market Insight Development",
             "Innovation Leadership",
-            "Change Leadership"
+            "Change Leadership",
+            "Competitive Strategy Formulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Competitive Strategy Formulation involves developing competitive approaches to revenue."
         },
         {
           id: 8,
           question: "What are local teams making decisions?",
           options: [
-            "Decentralized Revenue Management",
-            "Centralized Revenue Management",
             "Hybrid Revenue Management",
-            "Center of Excellence Model"
+            "Center of Excellence Model",
+            "Decentralized Revenue Management",
+            "Centralized Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Decentralized Revenue Management has local teams making revenue decisions."
         },
         {
@@ -2297,8 +2297,8 @@ Strategic revenue leadership creates the organizational conditions for sustained
           options: [
             "Pricing Authority Matrix",
             "Revenue Committee",
-            "Policy Framework",
-            "Approval Processes"
+            "Approval Processes",
+            "Policy Framework"
           ],
           correctAnswer: 0,
           explanation: "Pricing Authority Matrix clearly defines who has authority for pricing decisions."
@@ -2307,48 +2307,48 @@ Strategic revenue leadership creates the organizational conditions for sustained
           id: 10,
           question: "What is cultural emphasis on data and analytics?",
           options: [
-            "Data-Driven Mindset",
             "Commercial Awareness",
-            "Customer Focus",
-            "Innovation Orientation"
+            "Data-Driven Mindset",
+            "Innovation Orientation",
+            "Customer Focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Data-Driven Mindset is a cultural emphasis on using data and analytics for decisions."
         },
         {
           id: 11,
           question: "What creates revenue-focused culture?",
           options: [
+            "Governance Framework",
             "Performance Culture",
             "Strategic Vision",
-            "Organizational Design",
-            "Governance Framework"
+            "Organizational Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Performance Culture involves creating a culture focused on revenue performance."
         },
         {
           id: 12,
           question: "What drives revenue innovation?",
           options: [
-            "Innovation Leadership",
+            "Change Leadership",
             "Market Insight Development",
-            "Competitive Strategy Formulation",
-            "Change Leadership"
+            "Innovation Leadership",
+            "Competitive Strategy Formulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Innovation Leadership involves driving innovation in revenue management approaches."
         },
         {
           id: 13,
           question: "What combines central and local control?",
           options: [
+            "Center of Excellence Model",
             "Hybrid Revenue Management",
             "Centralized Revenue Management",
-            "Decentralized Revenue Management",
-            "Center of Excellence Model"
+            "Decentralized Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hybrid Revenue Management combines elements of central and local control."
         },
         {
@@ -2357,8 +2357,8 @@ Strategic revenue leadership creates the organizational conditions for sustained
           options: [
             "Policy Framework",
             "Revenue Committee",
-            "Pricing Authority Matrix",
-            "Approval Processes"
+            "Approval Processes",
+            "Pricing Authority Matrix"
           ],
           correctAnswer: 0,
           explanation: "Policy Framework establishes policies and guidelines for revenue management."
@@ -2367,12 +2367,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
           id: 15,
           question: "What is understanding commercial implications?",
           options: [
+            "Innovation Orientation",
             "Commercial Awareness",
-            "Data-Driven Mindset",
             "Customer Focus",
-            "Innovation Orientation"
+            "Data-Driven Mindset"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Commercial Awareness involves understanding the commercial implications of decisions."
         },
         {
@@ -2381,8 +2381,8 @@ Strategic revenue leadership creates the organizational conditions for sustained
           options: [
             "Governance Framework",
             "Strategic Vision",
-            "Organizational Design",
-            "Performance Culture"
+            "Performance Culture",
+            "Organizational Design"
           ],
           correctAnswer: 0,
           explanation: "Governance Framework ensures effective oversight and control of revenue management."
@@ -2392,9 +2392,9 @@ Strategic revenue leadership creates the organizational conditions for sustained
           question: "What leads organizational change for revenue?",
           options: [
             "Change Leadership",
+            "Innovation Leadership",
             "Market Insight Development",
-            "Competitive Strategy Formulation",
-            "Innovation Leadership"
+            "Competitive Strategy Formulation"
           ],
           correctAnswer: 0,
           explanation: "Change Leadership involves leading organizational change to improve revenue management."
@@ -2403,12 +2403,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
           id: 18,
           question: "What is central expertise supporting local teams?",
           options: [
-            "Center of Excellence Model",
             "Centralized Revenue Management",
-            "Decentralized Revenue Management",
-            "Hybrid Revenue Management"
+            "Hybrid Revenue Management",
+            "Center of Excellence Model",
+            "Decentralized Revenue Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Center of Excellence Model has central expertise that supports local decision-making."
         },
         {
@@ -2416,9 +2416,9 @@ Strategic revenue leadership creates the organizational conditions for sustained
           question: "What are structured decision approval processes?",
           options: [
             "Approval Processes",
-            "Revenue Committee",
+            "Policy Framework",
             "Pricing Authority Matrix",
-            "Policy Framework"
+            "Revenue Committee"
           ],
           correctAnswer: 0,
           explanation: "Approval Processes provide structured processes for approving revenue decisions."
@@ -2427,12 +2427,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
           id: 20,
           question: "What maintains customer-centric approach?",
           options: [
-            "Customer Focus",
             "Data-Driven Mindset",
+            "Customer Focus",
             "Commercial Awareness",
             "Innovation Orientation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Customer Focus maintains a customer-centric approach in revenue management."
         }
       ]
@@ -2451,12 +2451,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 1,
         question: "What are the four pillars of advanced revenue management?",
         options: [
+          "Planning, Execution, Monitoring, Optimization",
           "Strategic Pricing, Total Revenue Optimization, Customer Value Management, Competitive Positioning",
-          "Price, Product, Promotion, Place",
           "Cost, Revenue, Profit, Market Share",
-          "Planning, Execution, Monitoring, Optimization"
+          "Price, Product, Promotion, Place"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: The four pillars are Strategic Pricing Architecture, Total Revenue Optimization, Customer Value Management, and Competitive Market Positioning."
       },
       {
@@ -2464,12 +2464,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 1,
         question: "What is Level 3 in the maturity model?",
         options: [
+          "Predictive Revenue Management",
           "Strategic Revenue Management",
           "Tactical Yield Management",
-          "Operational Revenue Management",
-          "Predictive Revenue Management"
+          "Operational Revenue Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Level 3 is Strategic Revenue Management with enterprise-wide integration."
       },
       {
@@ -2477,12 +2477,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 1,
         question: "What integrates pricing with business goals?",
         options: [
-          "Business Objectives Integration",
           "Market Positioning Strategy",
           "Value Proposition Alignment",
+          "Business Objectives Integration",
           "Customer Segment Strategy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 1: Business Objectives Integration ensures pricing supports overall business goals."
       },
       {
@@ -2490,12 +2490,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 1,
         question: "What encourages additional purchases?",
         options: [
+          "Product Portfolio Management",
           "Cross-Sell Optimization",
           "Up-Sell Strategy",
-          "Bundle Pricing",
-          "Product Portfolio Management"
+          "Bundle Pricing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Cross-Sell Optimization uses pricing to encourage additional purchases."
       },
       {
@@ -2503,12 +2503,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 1,
         question: "What is long-term customer worth?",
         options: [
-          "Customer Lifetime Value",
-          "Customer Acquisition Cost",
           "Customer Retention Value",
+          "Customer Acquisition Cost",
+          "Customer Lifetime Value",
           "Customer Migration Analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 1: Customer Lifetime Value calculates long-term customer relationship worth."
       },
       {
@@ -2516,12 +2516,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 1,
         question: "What is Level 4 in the maturity model?",
         options: [
+          "Operational Revenue Management",
           "Predictive Revenue Management",
           "Tactical Yield Management",
-          "Operational Revenue Management",
           "Strategic Revenue Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Level 4 is Predictive Revenue Management using AI and real-time optimization."
       },
       {
@@ -2529,12 +2529,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 1,
         question: "What are strategic barriers between price points?",
         options: [
-          "Price Fences",
+          "Discount Architecture",
           "Price Metrics",
-          "Price Structures",
-          "Discount Architecture"
+          "Price Fences",
+          "Price Structures"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 1: Price Fences are strategic barriers separating different price points."
       },
       
@@ -2544,12 +2544,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 2,
         question: "What are the four analytical capability levels?",
         options: [
-          "Descriptive, Diagnostic, Predictive, Prescriptive",
-          "Basic, Intermediate, Advanced, Expert",
           "Data, Analysis, Insight, Action",
-          "Collection, Processing, Analysis, Reporting"
+          "Descriptive, Diagnostic, Predictive, Prescriptive",
+          "Collection, Processing, Analysis, Reporting",
+          "Basic, Intermediate, Advanced, Expert"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: The four levels are Descriptive, Diagnostic, Predictive, and Prescriptive analytics."
       },
       {
@@ -2558,9 +2558,9 @@ Strategic revenue leadership creates the organizational conditions for sustained
         question: "What measures customer response to price changes?",
         options: [
           "Price Elasticity Modeling",
+          "Competitive Intelligence",
           "Conjoint Analysis",
-          "Willingness-to-Pay Analysis",
-          "Competitive Intelligence"
+          "Willingness-to-Pay Analysis"
         ],
         correctAnswer: 0,
         explanation: "From Module 2: Price Elasticity Modeling measures demand response to price changes."
@@ -2583,12 +2583,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 2,
         question: "What is maximum price customers will pay?",
         options: [
-          "Reservation Price",
-          "Optimal Price",
           "Market Price",
-          "Competitive Price"
+          "Reservation Price",
+          "Competitive Price",
+          "Optimal Price"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: Reservation Price is maximum price customers will pay."
       },
       {
@@ -2596,12 +2596,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 2,
         question: "What is optimization under uncertainty?",
         options: [
+          "Multi-objective Optimization",
           "Stochastic Optimization",
           "Linear Programming",
-          "Non-linear Optimization",
-          "Multi-objective Optimization"
+          "Non-linear Optimization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: Stochastic Optimization handles optimization under uncertainty."
       },
       {
@@ -2609,12 +2609,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 2,
         question: "What is what happened analysis?",
         options: [
-          "Descriptive Analytics",
           "Diagnostic Analytics",
-          "Predictive Analytics",
-          "Prescriptive Analytics"
+          "Prescriptive Analytics",
+          "Descriptive Analytics",
+          "Predictive Analytics"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 2: Descriptive Analytics focuses on what has already happened."
       },
       {
@@ -2622,12 +2622,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 2,
         question: "What analyzes past price changes?",
         options: [
-          "Historical Analysis",
           "Controlled Experiments",
-          "Conjoint Analysis",
-          "Market Response Models"
+          "Market Response Models",
+          "Historical Analysis",
+          "Conjoint Analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 2: Historical Analysis examines past price changes and responses."
       },
       
@@ -2637,12 +2637,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 3,
         question: "What are the four channel management principles?",
         options: [
+          "Acquisition, Conversion, Retention, Optimization",
           "Strategy Alignment, Performance Optimization, Conflict Management, Cost Control",
           "Direct, Indirect, Online, Offline",
-          "Price, Product, Promotion, Placement",
-          "Acquisition, Conversion, Retention, Optimization"
+          "Price, Product, Promotion, Placement"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: The four principles are Channel Strategy Alignment, Performance Optimization, Conflict Management, and Cost Control."
       },
       {
@@ -2651,9 +2651,9 @@ Strategic revenue leadership creates the organizational conditions for sustained
         question: "What maximizes revenue from owned channels?",
         options: [
           "Direct Channel Optimization",
-          "Indirect Channel Strategy",
+          "Channel Evolution Planning",
           "Channel Mix Determination",
-          "Channel Evolution Planning"
+          "Indirect Channel Strategy"
         ],
         correctAnswer: 0,
         explanation: "From Module 3: Direct Channel Optimization maximizes revenue from company-owned channels."
@@ -2664,9 +2664,9 @@ Strategic revenue leadership creates the organizational conditions for sustained
         question: "What maintains price consistency?",
         options: [
           "Price Parity Management",
-          "Channel Partner Relations",
           "Brand.com Protection",
-          "Marketplace Rules Compliance"
+          "Marketplace Rules Compliance",
+          "Channel Partner Relations"
         ],
         correctAnswer: 0,
         explanation: "From Module 3: Price Parity Management maintains consistent prices across channels."
@@ -2676,12 +2676,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 3,
         question: "What are third-party travel platforms?",
         options: [
+          "Meta-Search Sites",
           "Online Travel Agencies (OTAs)",
           "Global Distribution Systems",
-          "Meta-Search Sites",
           "Direct Websites"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: Online Travel Agencies (OTAs) are third-party booking platforms."
       },
       {
@@ -2691,8 +2691,8 @@ Strategic revenue leadership creates the organizational conditions for sustained
         options: [
           "Direct Channel Incentives",
           "Brand.com Optimization",
-          "Loyalty Program Integration",
-          "Direct Channel Marketing"
+          "Direct Channel Marketing",
+          "Loyalty Program Integration"
         ],
         correctAnswer: 0,
         explanation: "From Module 3: Direct Channel Incentives encourage bookings through direct channels."
@@ -2702,12 +2702,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 3,
         question: "What is consistent with business strategy?",
         options: [
-          "Channel Strategy Alignment",
-          "Channel Performance Optimization",
+          "Channel Cost Control",
           "Channel Conflict Management",
-          "Channel Cost Control"
+          "Channel Performance Optimization",
+          "Channel Strategy Alignment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 3: Channel Strategy Alignment ensures channel decisions support business strategy."
       },
       
@@ -2717,12 +2717,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 4,
         question: "What are the four ancillary revenue principles?",
         options: [
-          "Customer Value Enhancement, Strategic Integration, Pricing Psychology, Continuous Innovation",
           "Price, Product, Promotion, Placement",
-          "Acquisition, Conversion, Retention, Optimization",
-          "Core, Optional, Premium, Luxury"
+          "Customer Value Enhancement, Strategic Integration, Pricing Psychology, Continuous Innovation",
+          "Core, Optional, Premium, Luxury",
+          "Acquisition, Conversion, Retention, Optimization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 4: The four principles are Customer Value Enhancement, Strategic Integration, Pricing Psychology, and Continuous Innovation."
       },
       {
@@ -2732,8 +2732,8 @@ Strategic revenue leadership creates the organizational conditions for sustained
         options: [
           "Customer Value Enhancement",
           "Strategic Integration",
-          "Pricing Psychology",
-          "Continuous Innovation"
+          "Continuous Innovation",
+          "Pricing Psychology"
         ],
         correctAnswer: 0,
         explanation: "From Module 4: Customer Value Enhancement focuses on adding genuine value."
@@ -2743,12 +2743,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 4,
         question: "What identifies touchpoints for ancillary sales?",
         options: [
-          "Customer Journey Analysis",
+          "Operational Capability Analysis",
           "Competitive Benchmarking",
           "Customer Need Assessment",
-          "Operational Capability Analysis"
+          "Customer Journey Analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 4: Customer Journey Analysis identifies ancillary sales opportunities."
       },
       {
@@ -2756,12 +2756,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 4,
         question: "What are required additional purchases?",
         options: [
-          "Mandatory Ancillaries",
           "Optional Enhancements",
           "Convenience Services",
-          "Experience Add-ons"
+          "Experience Add-ons",
+          "Mandatory Ancillaries"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 4: Mandatory Ancillaries are required additional purchases."
       },
       {
@@ -2771,8 +2771,8 @@ Strategic revenue leadership creates the organizational conditions for sustained
         options: [
           "Bundling Strategies",
           "Unbundling Strategies",
-          "Dynamic Pricing",
-          "Personalized Pricing"
+          "Personalized Pricing",
+          "Dynamic Pricing"
         ],
         correctAnswer: 0,
         explanation: "From Module 4: Bundling Strategies package ancillaries with core products."
@@ -2783,9 +2783,9 @@ Strategic revenue leadership creates the organizational conditions for sustained
         question: "What aligns ancillaries with core offerings?",
         options: [
           "Strategic Integration",
+          "Continuous Innovation",
           "Customer Value Enhancement",
-          "Pricing Psychology",
-          "Continuous Innovation"
+          "Pricing Psychology"
         ],
         correctAnswer: 0,
         explanation: "From Module 4: Strategic Integration aligns ancillary offerings with core products."
@@ -2797,12 +2797,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 5,
         question: "What are the four technology capability levels?",
         options: [
-          "Basic Automation, Advanced Analytics, Predictive Intelligence, Autonomous Optimization",
           "Manual, Semi-Automated, Automated, Intelligent",
           "Entry, Intermediate, Advanced, Expert",
-          "Data, Analysis, Insight, Action"
+          "Data, Analysis, Insight, Action",
+          "Basic Automation, Advanced Analytics, Predictive Intelligence, Autonomous Optimization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 5: The four levels are Basic Automation, Advanced Analytics, Predictive Intelligence, and Autonomous Optimization."
       },
       {
@@ -2823,12 +2823,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 5,
         question: "What identifies complex demand patterns?",
         options: [
+          "Competitive Response Prediction",
           "Demand Pattern Recognition",
           "Price Elasticity Learning",
-          "Competitive Response Prediction",
           "Customer Behavior Prediction"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 5: Demand Pattern Recognition identifies complex demand patterns using AI."
       },
       {
@@ -2836,12 +2836,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 5,
         question: "What analyzes market news and social media?",
         options: [
-          "Market Sentiment Analysis",
           "Competitor Announcement Monitoring",
           "Customer Review Analysis",
+          "Market Sentiment Analysis",
           "Regulatory Change Monitoring"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 5: Market Sentiment Analysis analyzes market news and social media."
       },
       {
@@ -2849,12 +2849,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 5,
         question: "What processes continuous data flows?",
         options: [
-          "Streaming Data Integration",
           "Real-Time Demand Signals",
-          "Instant Competitive Updates",
-          "Live Market Condition Analysis"
+          "Live Market Condition Analysis",
+          "Streaming Data Integration",
+          "Instant Competitive Updates"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 5: Streaming Data Integration processes continuous data flows."
       },
       {
@@ -2862,12 +2862,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 5,
         question: "What automates manual processes?",
         options: [
-          "Basic Automation",
-          "Advanced Analytics",
+          "Autonomous Optimization",
           "Predictive Intelligence",
-          "Autonomous Optimization"
+          "Basic Automation",
+          "Advanced Analytics"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 5: Basic Automation focuses on automating manual processes."
       },
       {
@@ -2875,12 +2875,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 5,
         question: "What is automated price calculation?",
         options: [
-          "Price Optimization Module",
+          "Distribution Channel Manager",
           "Demand Forecasting Engine",
           "Inventory Management System",
-          "Distribution Channel Manager"
+          "Price Optimization Module"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 5: Price Optimization Module provides automated price calculation."
       },
       
@@ -2890,12 +2890,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 6,
         question: "What are the four leadership dimensions?",
         options: [
-          "Strategic Vision, Organizational Design, Performance Culture, Governance Framework",
+          "Strategy, Operations, Finance, Marketing",
           "Planning, Execution, Monitoring, Optimization",
           "People, Process, Technology, Data",
-          "Strategy, Operations, Finance, Marketing"
+          "Strategic Vision, Organizational Design, Performance Culture, Governance Framework"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: The four dimensions are Strategic Vision, Organizational Design, Performance Culture, and Governance Framework."
       },
       {
@@ -2905,8 +2905,8 @@ Strategic revenue leadership creates the organizational conditions for sustained
         options: [
           "Strategic Vision",
           "Organizational Design",
-          "Performance Culture",
-          "Governance Framework"
+          "Governance Framework",
+          "Performance Culture"
         ],
         correctAnswer: 0,
         explanation: "From Module 6: Strategic Vision sets revenue direction and priorities."
@@ -2916,12 +2916,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 6,
         question: "What is deep understanding of market dynamics?",
         options: [
-          "Market Insight Development",
-          "Competitive Strategy Formulation",
           "Innovation Leadership",
+          "Competitive Strategy Formulation",
+          "Market Insight Development",
           "Change Leadership"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 6: Market Insight Development involves deep market understanding."
       },
       {
@@ -2929,12 +2929,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 6,
         question: "What is central team making all decisions?",
         options: [
+          "Hybrid Revenue Management",
           "Centralized Revenue Management",
           "Decentralized Revenue Management",
-          "Hybrid Revenue Management",
           "Center of Excellence Model"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 6: Centralized Revenue Management has central team making all decisions."
       },
       {
@@ -2942,12 +2942,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 6,
         question: "What is senior leadership revenue oversight?",
         options: [
-          "Revenue Committee",
-          "Pricing Authority Matrix",
           "Policy Framework",
-          "Approval Processes"
+          "Approval Processes",
+          "Pricing Authority Matrix",
+          "Revenue Committee"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: Revenue Committee provides senior leadership oversight."
       },
       {
@@ -2968,12 +2968,12 @@ Strategic revenue leadership creates the organizational conditions for sustained
         module: 6,
         question: "What develops competitive approaches?",
         options: [
-          "Competitive Strategy Formulation",
+          "Change Leadership",
           "Market Insight Development",
           "Innovation Leadership",
-          "Change Leadership"
+          "Competitive Strategy Formulation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: Competitive Strategy Formulation develops competitive approaches."
       }
     ]

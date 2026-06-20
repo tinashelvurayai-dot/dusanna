@@ -277,24 +277,24 @@ Production systems and layouts form the foundation of manufacturing efficiency. 
           id: 1,
           question: "Which production system is best for custom machinery?",
           options: [
-            "Mass production",
-            "Job production",
+            "Batch production",
             "Continuous production",
-            "Batch production"
+            "Job production",
+            "Mass production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Job production is ideal for custom machinery as it handles single items or small batches to customer specifications."
         },
         {
           id: 2,
           question: "What characterizes batch production?",
           options: [
-            "24/7 non-stop operation",
             "Equipment changeovers between batches",
-            "Dedicated equipment for one product",
-            "No inventory between stages"
+            "No inventory between stages",
+            "24/7 non-stop operation",
+            "Dedicated equipment for one product"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Batch production involves producing limited quantities in groups with equipment changeovers between batches."
         },
         {
@@ -313,36 +313,36 @@ Production systems and layouts form the foundation of manufacturing efficiency. 
           id: 4,
           question: "Which layout groups similar processes together?",
           options: [
+            "Cellular layout",
             "Product layout",
-            "Process layout",
             "Fixed position layout",
-            "Cellular layout"
+            "Process layout"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Process layout groups similar processes together in departments, like all drilling machines in one area."
         },
         {
           id: 5,
           question: "What layout keeps the product stationary?",
           options: [
-            "Line layout",
-            "Fixed position layout",
+            "Process layout",
             "Cellular layout",
-            "Process layout"
+            "Fixed position layout",
+            "Line layout"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Fixed position layout keeps large, heavy products stationary while resources move to them."
         },
         {
           id: 6,
           question: "What does 'A' represent in a REL chart?",
           options: [
-            "Absolutely necessary closeness",
-            "Average distance",
+            "Additional space needed",
             "Avoid proximity",
-            "Additional space needed"
+            "Average distance",
+            "Absolutely necessary closeness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "'A' in REL charts means absolutely necessary - departments must be adjacent."
         },
         {
@@ -350,11 +350,11 @@ Production systems and layouts form the foundation of manufacturing efficiency. 
           question: "What is the target space utilization for manufacturing?",
           options: [
             "30-40%",
-            "60-80%",
+            "40-50%",
             "90-100%",
-            "40-50%"
+            "60-80%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "60-80% space utilization is optimal for manufacturing areas, with remainder for aisles and utilities."
         },
         {
@@ -362,21 +362,21 @@ Production systems and layouts form the foundation of manufacturing efficiency. 
           question: "Which flow pattern has start and end points near each other?",
           options: [
             "Straight line flow",
+            "Serpentine flow",
             "U-shaped flow",
-            "Circular flow",
-            "Serpentine flow"
+            "Circular flow"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "U-shaped flow places start and end points close together, reducing material handling."
         },
         {
           id: 9,
           question: "What is the first step in layout planning?",
           options: [
-            "Implement the layout",
+            "Train employees",
             "Gather data on products and processes",
             "Purchase equipment",
-            "Train employees"
+            "Implement the layout"
           ],
           correctAnswer: 1,
           explanation: "The first step is gathering data on products, volumes, processes, and requirements."
@@ -385,34 +385,34 @@ Production systems and layouts form the foundation of manufacturing efficiency. 
           id: 10,
           question: "What does cellular layout group together?",
           options: [
+            "Management offices",
             "All similar equipment",
-            "Product families with similar processes",
             "All raw materials",
-            "Management offices"
+            "Product families with similar processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cellular layout groups equipment needed for product families with similar processing requirements."
         },
         {
           id: 11,
           question: "Which production system operates 24/7?",
           options: [
-            "Job production",
-            "Batch production",
             "Continuous production",
-            "Mass production"
+            "Mass production",
+            "Job production",
+            "Batch production"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Continuous production operates non-stop 24/7 for very high volume standardized products."
         },
         {
           id: 12,
           question: "What is a disadvantage of product layout?",
           options: [
-            "High flexibility",
-            "Vulnerability to breakdowns",
             "Complex scheduling",
-            "High material handling"
+            "Vulnerability to breakdowns",
+            "High material handling",
+            "High flexibility"
           ],
           correctAnswer: 1,
           explanation: "Product layouts are vulnerable to breakdowns - one stopped machine can stop the entire line."
@@ -421,60 +421,60 @@ Production systems and layouts form the foundation of manufacturing efficiency. 
           id: 13,
           question: "What should aisle width be for main aisles?",
           options: [
+            "0.5-1 meter",
             "1-1.5 meters",
             "3-4 meters",
-            "5-6 meters",
-            "0.5-1 meter"
+            "5-6 meters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Main aisles typically need 3-4 meters width for material handling equipment movement."
         },
         {
           id: 14,
           question: "What does space utilization ratio measure?",
           options: [
-            "Employee satisfaction",
-            "Production area vs total area",
             "Equipment cost",
-            "Production speed"
+            "Production speed",
+            "Production area vs total area",
+            "Employee satisfaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Space utilization ratio = (Production Area ÷ Total Area) × 100, measuring effective space use."
         },
         {
           id: 15,
           question: "Which layout is best for medium variety/volume?",
           options: [
-            "Process layout",
             "Cellular layout",
             "Fixed position layout",
-            "Mass production layout"
+            "Mass production layout",
+            "Process layout"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cellular layout works well for medium variety and volume production environments."
         },
         {
           id: 16,
           question: "What principle suggests using gravity in material handling?",
           options: [
-            "Maximize handling",
-            "Use manual handling only",
             "Use gravity where possible",
-            "Avoid all movement"
+            "Maximize handling",
+            "Avoid all movement",
+            "Use manual handling only"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Using gravity for material movement where possible reduces energy costs and complexity."
         },
         {
           id: 17,
           question: "What does 'X' mean in a REL chart?",
           options: [
-            "Excellent location",
             "Not desirable - keep apart",
             "Extra space needed",
-            "Cross-functional area"
+            "Cross-functional area",
+            "Excellent location"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "'X' in REL charts means not desirable - departments should be kept apart if possible."
         },
         {
@@ -482,32 +482,32 @@ Production systems and layouts form the foundation of manufacturing efficiency. 
           question: "What is evaluated in qualitative layout assessment?",
           options: [
             "Only material costs",
-            "Safety and employee satisfaction",
             "Only equipment costs",
-            "Only space measurements"
+            "Only space measurements",
+            "Safety and employee satisfaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Qualitative assessment evaluates safety, flexibility, employee satisfaction, and supervision ease."
         },
         {
           id: 19,
           question: "What modern consideration addresses future changes?",
           options: [
-            "Fixed permanent design",
             "Flexibility requirements",
+            "Minimum aisle space",
             "Maximum equipment density",
-            "Minimum aisle space"
+            "Fixed permanent design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Designing for flexibility allows adaptation to future production changes and expansions."
         },
         {
           id: 20,
           question: "What reduced by 60% in the case study cellular layout?",
           options: [
-            "Employee count",
-            "Travel distance",
             "Product quality",
+            "Travel distance",
+            "Employee count",
             "Equipment cost"
           ],
           correctAnswer: 1,
@@ -740,12 +740,12 @@ Selecting the right manufacturing processes involves balancing technical require
           id: 1,
           question: "Which process involves pouring molten material into molds?",
           options: [
-            "Forging",
-            "Casting",
             "Extrusion",
-            "Machining"
+            "Forging",
+            "Machining",
+            "Casting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Casting involves pouring molten material into molds where it solidifies into the desired shape."
         },
         {
@@ -754,8 +754,8 @@ Selecting the right manufacturing processes involves balancing technical require
           options: [
             "Computer Network Control",
             "Computer Numerical Control",
-            "Central Numerical Computing",
-            "Controlled Network Computing"
+            "Controlled Network Computing",
+            "Central Numerical Computing"
           ],
           correctAnswer: 1,
           explanation: "CNC stands for Computer Numerical Control - automated control of machining tools using computer programs."
@@ -764,12 +764,12 @@ Selecting the right manufacturing processes involves balancing technical require
           id: 3,
           question: "Which robot type is most common in manufacturing?",
           options: [
-            "Delta robots",
             "Articulated robots",
+            "SCARA robots",
             "Cartesian robots",
-            "SCARA robots"
+            "Delta robots"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Articulated robots with jointed arms are the most common type in manufacturing applications."
         },
         {
@@ -778,8 +778,8 @@ Selecting the right manufacturing processes involves balancing technical require
           options: [
             "Fixed Manufacturing System",
             "Flexible Manufacturing System",
-            "Fast Material System",
-            "Fully Manual System"
+            "Fully Manual System",
+            "Fast Material System"
           ],
           correctAnswer: 1,
           explanation: "FMS stands for Flexible Manufacturing System - automated systems that can produce various products."
@@ -788,12 +788,12 @@ Selecting the right manufacturing processes involves balancing technical require
           id: 5,
           question: "What is built layer by layer in additive manufacturing?",
           options: [
-            "Only plastic products",
             "Objects from digital models",
+            "Assembly lines",
             "Only metal parts",
-            "Assembly lines"
+            "Only plastic products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Additive manufacturing (3D printing) builds objects layer by layer from digital 3D models."
         },
         {
@@ -801,11 +801,11 @@ Selecting the right manufacturing processes involves balancing technical require
           question: "What does CAM software generate?",
           options: [
             "Product designs",
-            "Machine code (G-code)",
             "Sales forecasts",
+            "Machine code (G-code)",
             "Employee schedules"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CAM software generates machine code (G-code) to control CNC machines from digital designs."
         },
         {
@@ -814,8 +814,8 @@ Selecting the right manufacturing processes involves balancing technical require
           options: [
             "Repair",
             "Reduce",
-            "Return",
-            "Repeat"
+            "Repeat",
+            "Return"
           ],
           correctAnswer: 1,
           explanation: "Reduce is the first principle - minimizing material and energy use from the beginning."
@@ -824,9 +824,9 @@ Selecting the right manufacturing processes involves balancing technical require
           id: 8,
           question: "What does Cp measure in process capability?",
           options: [
-            "Production cost",
-            "How well process fits within tolerances",
             "Production speed",
+            "How well process fits within tolerances",
+            "Production cost",
             "Equipment age"
           ],
           correctAnswer: 1,
@@ -837,129 +837,129 @@ Selecting the right manufacturing processes involves balancing technical require
           question: "What technology creates virtual replicas of physical systems?",
           options: [
             "Virtual Reality",
+            "Blockchain",
             "Digital Twin",
-            "Cloud Storage",
-            "Blockchain"
+            "Cloud Storage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital Twin technology creates virtual replicas of physical systems for simulation and optimization."
         },
         {
           id: 10,
           question: "What is the main advantage of cobots?",
           options: [
-            "Highest speed",
             "Lowest cost",
             "Safe human-robot interaction",
-            "Largest reach"
+            "Largest reach",
+            "Highest speed"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Collaborative robots (cobots) are designed for safe interaction with human workers."
         },
         {
           id: 11,
           question: "Which process removes material to achieve shape?",
           options: [
-            "Forming",
             "Machining",
             "Joining",
+            "Forming",
             "Casting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Machining processes remove material through cutting to achieve desired shapes and dimensions."
         },
         {
           id: 12,
           question: "What does DFM stand for?",
           options: [
-            "Digital Factory Management",
             "Design for Manufacturing",
             "Direct Factory Manufacturing",
+            "Digital Factory Management",
             "Detailed Factory Monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "DFM stands for Design for Manufacturing - designing products for efficient production."
         },
         {
           id: 13,
           question: "What is desired minimum Cp value?",
           options: [
-            "0.5",
-            "1.0",
             "1.33",
+            "1.0",
+            "0.5",
             "2.0"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Cp ≥ 1.33 is generally desired, indicating the process fits well within specification limits."
         },
         {
           id: 14,
           question: "Which joining process uses filler metal?",
           options: [
-            "Welding",
             "Brazing",
-            "Adhesive bonding",
-            "Mechanical fastening"
+            "Welding",
+            "Mechanical fastening",
+            "Adhesive bonding"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Brazing uses filler metal with a lower melting point than the base materials being joined."
         },
         {
           id: 15,
           question: "What Industry 4.0 component involves connected sensors?",
           options: [
+            "Artificial Intelligence",
             "Big Data",
             "Internet of Things (IoT)",
-            "Artificial Intelligence",
             "Cloud Computing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Internet of Things (IoT) involves networks of connected sensors and devices in manufacturing."
         },
         {
           id: 16,
           question: "What process was combined with CNC in the case study?",
           options: [
-            "Sand casting",
-            "Injection molding",
+            "Forging",
             "Investment casting",
-            "Forging"
+            "Injection molding",
+            "Sand casting"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The case study used investment casting for near-net shape followed by CNC machining."
         },
         {
           id: 17,
           question: "What does Cpk measure that Cp doesn't?",
           options: [
-            "Production volume",
-            "Process centering within limits",
             "Material cost",
-            "Equipment age"
+            "Equipment age",
+            "Production volume",
+            "Process centering within limits"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cpk measures how centered the process is within specification limits, while Cp only measures spread."
         },
         {
           id: 18,
           question: "Which is NOT a green manufacturing principle?",
           options: [
-            "Reduce",
-            "Reuse",
             "Return",
-            "Recycle"
+            "Recycle",
+            "Reuse",
+            "Reduce"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The principles are Reduce, Reuse, Recycle, Recover, Redesign - Return is not one of them."
         },
         {
           id: 19,
           question: "What type of manufacturing builds up material?",
           options: [
-            "Subtractive",
+            "Joining",
             "Additive",
             "Formative",
-            "Joining"
+            "Subtractive"
           ],
           correctAnswer: 1,
           explanation: "Additive manufacturing builds up material layer by layer, unlike subtractive processes that remove material."
@@ -968,12 +968,12 @@ Selecting the right manufacturing processes involves balancing technical require
           id: 20,
           question: "What is key for high-volume production process selection?",
           options: [
-            "Low tooling cost",
             "High flexibility",
-            "Low per-part cost",
-            "Manual operation"
+            "Low tooling cost",
+            "Manual operation",
+            "Low per-part cost"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "For high-volume production, low per-part cost is critical, even with higher initial tooling investment."
         }
       ]
@@ -1255,24 +1255,24 @@ Effective production planning and control balances competing objectives of custo
           id: 1,
           question: "What are the three main functions of PPC?",
           options: [
-            "Design, Build, Test",
-            "Planning, Scheduling, Control",
+            "Quality, Cost, Delivery",
             "Purchasing, Production, Sales",
-            "Quality, Cost, Delivery"
+            "Design, Build, Test",
+            "Planning, Scheduling, Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "PPC's three main functions are Planning (what to make), Scheduling (when to make), and Control (monitoring execution)."
         },
         {
           id: 2,
           question: "What strategy has constant production rate?",
           options: [
-            "Chase strategy",
             "Level strategy",
-            "Mixed strategy",
-            "Demand strategy"
+            "Chase strategy",
+            "Demand strategy",
+            "Mixed strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Level strategy maintains constant production rate, using inventory to absorb demand fluctuations."
         },
         {
@@ -1280,47 +1280,47 @@ Effective production planning and control balances competing objectives of custo
           question: "What is the MPS?",
           options: [
             "Material Production System",
-            "Master Production Schedule",
             "Manufacturing Process Standard",
+            "Master Production Schedule",
             "Main Production Strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "MPS is the Master Production Schedule - detailed plan of what end items to produce and when."
         },
         {
           id: 4,
           question: "What does MRP stand for?",
           options: [
-            "Manufacturing Resource Planning",
-            "Material Requirements Planning",
             "Machine Replacement Program",
-            "Maintenance Repair Planning"
+            "Maintenance Repair Planning",
+            "Material Requirements Planning",
+            "Manufacturing Resource Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "MRP stands for Material Requirements Planning - determining what materials are needed and when."
         },
         {
           id: 5,
           question: "What is a hierarchical list of product components?",
           options: [
+            "Inventory record",
             "Production schedule",
             "Bill of Materials (BOM)",
-            "Inventory record",
             "Capacity plan"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bill of Materials (BOM) is a hierarchical list of all components needed to make a product."
         },
         {
           id: 6,
           question: "What does utilization measure?",
           options: [
-            "Quality level",
-            "Actual output vs design capacity",
             "Employee satisfaction",
-            "Cost efficiency"
+            "Cost efficiency",
+            "Actual output vs design capacity",
+            "Quality level"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Utilization = (Actual output ÷ Design capacity) × 100, measuring use of maximum capacity."
         },
         {
@@ -1339,56 +1339,56 @@ Effective production planning and control balances competing objectives of custo
           id: 8,
           question: "What is the first step in Theory of Constraints?",
           options: [
+            "Exploit the constraint",
             "Subordinate other processes",
-            "Identify the system constraint",
             "Elevate the constraint",
-            "Exploit the constraint"
+            "Identify the system constraint"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The first of five focusing steps is to identify the system constraint (bottleneck)."
         },
         {
           id: 9,
           question: "What triggers production in JIT?",
           options: [
-            "Forecasted demand",
-            "Management decision",
             "Customer demand (pull system)",
-            "Material availability"
+            "Material availability",
+            "Forecasted demand",
+            "Management decision"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "JIT uses a pull system where production is triggered by actual customer demand, not forecasts."
         },
         {
           id: 10,
           question: "What does OEE measure?",
           options: [
-            "Only equipment availability",
-            "Availability × Performance × Quality",
+            "Only quality rate",
             "Only production speed",
-            "Only quality rate"
+            "Only equipment availability",
+            "Availability × Performance × Quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Overall Equipment Effectiveness (OEE) = Availability × Performance × Quality, measuring total productive efficiency."
         },
         {
           id: 11,
           question: "What planning horizon is 1-5 years?",
           options: [
-            "Operational planning",
-            "Tactical planning",
+            "Daily planning",
             "Strategic planning",
-            "Daily planning"
+            "Tactical planning",
+            "Operational planning"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Strategic planning has a 1-5 year horizon, covering capacity, facilities, and major investments."
         },
         {
           id: 12,
           question: "Which cost is NOT in aggregate planning?",
           options: [
-            "Regular production costs",
             "Inventory holding costs",
+            "Regular production costs",
             "Employee lunch costs",
             "Hiring/firing costs"
           ],
@@ -1399,60 +1399,60 @@ Effective production planning and control balances competing objectives of custo
           id: 13,
           question: "What zone allows no MPS changes?",
           options: [
-            "Liquid zone",
-            "Slushy zone",
             "Frozen zone",
-            "Flexible zone"
+            "Liquid zone",
+            "Flexible zone",
+            "Slushy zone"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The frozen zone (typically 0-4 weeks) allows no changes to the Master Production Schedule."
         },
         {
           id: 14,
           question: "What is a key MRP input?",
           options: [
-            "Sales forecasts",
-            "Bill of Materials",
+            "Supplier prices",
             "Customer complaints",
-            "Supplier prices"
+            "Bill of Materials",
+            "Sales forecasts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bill of Materials is a key MRP input, defining what components are needed for each product."
         },
         {
           id: 15,
           question: "What does CRP stand for?",
           options: [
-            "Critical Resource Planning",
             "Capacity Requirements Planning",
+            "Critical Resource Planning",
             "Cost Reduction Program",
             "Customer Response Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CRP stands for Capacity Requirements Planning - converting material plans into resource needs."
         },
         {
           id: 16,
           question: "What visual tool shows task timing?",
           options: [
-            "Pareto chart",
             "Gantt chart",
-            "Fishbone diagram",
-            "Control chart"
+            "Pareto chart",
+            "Control chart",
+            "Fishbone diagram"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Gantt charts visually show when tasks are scheduled to start and finish on a timeline."
         },
         {
           id: 17,
           question: "What does kanban mean?",
           options: [
-            "Just-in-time",
-            "Signal card",
+            "Quality circle",
             "Continuous flow",
-            "Quality circle"
+            "Just-in-time",
+            "Signal card"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Kanban means 'signal card' in Japanese - used in pull systems to signal when to produce or move materials."
         },
         {
@@ -1460,23 +1460,23 @@ Effective production planning and control balances competing objectives of custo
           question: "What does MES provide?",
           options: [
             "Strategic planning",
-            "Real-time production monitoring",
+            "Marketing analysis",
             "Financial accounting",
-            "Marketing analysis"
+            "Real-time production monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Manufacturing Execution System (MES) provides real-time monitoring and control of production operations."
         },
         {
           id: 19,
           question: "What improved from 65% to 95% in the case study?",
           options: [
-            "Capacity utilization",
-            "On-time delivery",
             "Employee count",
-            "Product variety"
+            "Capacity utilization",
+            "Product variety",
+            "On-time delivery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The case study improved on-time delivery from 65% to 95% through better planning and control."
         },
         {
@@ -1484,11 +1484,11 @@ Effective production planning and control balances competing objectives of custo
           question: "What is takt time formula?",
           options: [
             "Production time ÷ Units produced",
-            "Available time ÷ Customer demand",
+            "Work time ÷ Break time",
             "Setup time ÷ Run time",
-            "Work time ÷ Break time"
+            "Available time ÷ Customer demand"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Takt time = Available production time ÷ Customer demand, setting the production pace to match demand."
         }
       ]
@@ -1761,12 +1761,12 @@ Quality engineering moves quality from an inspection function to an integral par
           id: 1,
           question: "What is the philosophy of Quality by Design?",
           options: [
-            "Inspect quality into finished products",
-            "Build quality into products from beginning",
             "Fix quality problems as they occur",
-            "Accept some defects as normal"
+            "Accept some defects as normal",
+            "Build quality into products from beginning",
+            "Inspect quality into finished products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality by Design builds quality into products from the beginning through robust design and engineering."
         },
         {
@@ -1774,35 +1774,35 @@ Quality engineering moves quality from an inspection function to an integral par
           question: "What does SPC stand for?",
           options: [
             "Standard Production Control",
+            "Structured Process Charting",
             "Statistical Process Control",
-            "Systematic Product Checking",
-            "Structured Process Charting"
+            "Systematic Product Checking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SPC stands for Statistical Process Control - using statistics to monitor and control processes."
         },
         {
           id: 3,
           question: "Which control chart is for proportion defective?",
           options: [
-            "X-bar chart",
             "p-chart",
+            "R chart",
             "c-chart",
-            "R chart"
+            "X-bar chart"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "p-charts are used for proportion defective (percentage of defective items in samples)."
         },
         {
           id: 4,
           question: "What indicates a process shift in control charts?",
           options: [
+            "Two points near limits",
             "Single point near center",
             "Run of 7+ points on same side",
-            "Two points near limits",
             "Alternating high-low points"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A run of 7+ consecutive points on the same side of the center line indicates a process shift."
         },
         {
@@ -1810,33 +1810,33 @@ Quality engineering moves quality from an inspection function to an integral par
           question: "What does DOE stand for?",
           options: [
             "Design of Equipment",
-            "Design of Experiments",
+            "Development of Efficiency",
             "Documentation of Errors",
-            "Development of Efficiency"
+            "Design of Experiments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "DOE stands for Design of Experiments - systematically varying inputs to understand effects on outputs."
         },
         {
           id: 6,
           question: "What is a 'factor' in DOE?",
           options: [
-            "Output being measured",
             "Input variable being studied",
             "Experimental error",
-            "Statistical calculation"
+            "Statistical calculation",
+            "Output being measured"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A factor is an input variable being studied in a Design of Experiments."
         },
         {
           id: 7,
           question: "What does FMEA analyze?",
           options: [
-            "Only product costs",
+            "Employee performance",
             "Potential failures and their effects",
             "Only successful processes",
-            "Employee performance"
+            "Only product costs"
           ],
           correctAnswer: 1,
           explanation: "FMEA (Failure Mode and Effects Analysis) systematically identifies potential failures and their effects."
@@ -1846,21 +1846,21 @@ Quality engineering moves quality from an inspection function to an integral par
           question: "How is RPN calculated?",
           options: [
             "S + O + D",
-            "S × O × D",
+            "S × (O + D)",
             "(S + O) × D",
-            "S × (O + D)"
+            "S × O × D"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Risk Priority Number (RPN) = Severity × Occurrence × Detection."
         },
         {
           id: 9,
           question: "What does MSA evaluate?",
           options: [
-            "Management skills",
+            "Material storage adequacy",
             "Measurement system reliability",
             "Market share analysis",
-            "Material storage adequacy"
+            "Management skills"
           ],
           correctAnswer: 1,
           explanation: "MSA (Measurement System Analysis) evaluates the reliability and accuracy of measurement systems."
@@ -1869,10 +1869,10 @@ Quality engineering moves quality from an inspection function to an integral par
           id: 10,
           question: "What is Gage R&R?",
           options: [
-            "Gauge repair and replacement",
+            "Gauge reading and recording",
             "Gauge repeatability and reproducibility",
-            "General repair and renovation",
-            "Gauge reading and recording"
+            "Gauge repair and replacement",
+            "General repair and renovation"
           ],
           correctAnswer: 1,
           explanation: "Gage R&R measures repeatability (same operator) and reproducibility (different operators) of measurements."
@@ -1894,33 +1894,33 @@ Quality engineering moves quality from an inspection function to an integral par
           question: "What does TPM aim to maximize?",
           options: [
             "Production speed only",
+            "Raw material use",
             "Equipment effectiveness",
-            "Employee numbers",
-            "Raw material use"
+            "Employee numbers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "TPM (Total Productive Maintenance) aims to maximize equipment effectiveness through comprehensive maintenance."
         },
         {
           id: 13,
           question: "What are the OEE components?",
           options: [
-            "Speed, Quality, Cost",
-            "Availability, Performance, Quality",
             "Time, Quantity, Defects",
-            "Uptime, Output, Accuracy"
+            "Speed, Quality, Cost",
+            "Uptime, Output, Accuracy",
+            "Availability, Performance, Quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "OEE = Availability × Performance × Quality, measuring overall equipment effectiveness."
         },
         {
           id: 14,
           question: "What does QFD translate?",
           options: [
-            "Technical specs to machine settings",
+            "Production data to reports",
             "Customer requirements to technical specs",
-            "Cost data to prices",
-            "Production data to reports"
+            "Technical specs to machine settings",
+            "Cost data to prices"
           ],
           correctAnswer: 1,
           explanation: "QFD (Quality Function Deployment) translates customer requirements into technical specifications."
@@ -1929,60 +1929,60 @@ Quality engineering moves quality from an inspection function to an integral par
           id: 15,
           question: "What is tolerance stack-up analysis?",
           options: [
-            "Measuring single tolerances",
-            "Cumulative effect of component tolerances",
             "Stacking parts for measurement",
-            "Tolerance reduction methods"
+            "Tolerance reduction methods",
+            "Cumulative effect of component tolerances",
+            "Measuring single tolerances"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Tolerance stack-up analysis calculates how component tolerances combine in assemblies."
         },
         {
           id: 16,
           question: "What is DFSS?",
           options: [
-            "Design for Six Sigma",
             "Development for System Safety",
             "Documentation for Standard Setup",
+            "Design for Six Sigma",
             "Design for Standard Size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DFSS stands for Design for Six Sigma - designing products to meet Six Sigma quality from the start."
         },
         {
           id: 17,
           question: "What is world-class OEE target?",
           options: [
-            "≥ 65%",
-            "≥ 75%",
+            "≥ 95%",
             "≥ 85%",
-            "≥ 95%"
+            "≥ 65%",
+            "≥ 75%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "World-class OEE is typically ≥ 85%, indicating excellent equipment effectiveness."
         },
         {
           id: 18,
           question: "Which is NOT a TPM pillar?",
           options: [
-            "Autonomous maintenance",
             "Planned maintenance",
-            "Quality maintenance",
-            "Financial maintenance"
+            "Autonomous maintenance",
+            "Financial maintenance",
+            "Quality maintenance"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Financial maintenance is not one of the eight TPM pillars; it focuses on equipment and processes."
         },
         {
           id: 19,
           question: "What reduced corrosion failures by 85% in case study?",
           options: [
-            "Better inspection",
-            "DOE optimization of coating",
+            "Supplier change",
             "Increased testing",
-            "Supplier change"
+            "DOE optimization of coating",
+            "Better inspection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "DOE optimization of coating parameters reduced corrosion failures by 85% in the case study."
         },
         {
@@ -1990,9 +1990,9 @@ Quality engineering moves quality from an inspection function to an integral par
           question: "What is acceptable Gage R&R percentage?",
           options: [
             "≤ 10% excellent, ≤ 30% acceptable",
-            "≤ 5% excellent, ≤ 15% acceptable",
+            "≤ 30% excellent, ≤ 60% acceptable",
             "≤ 20% excellent, ≤ 50% acceptable",
-            "≤ 30% excellent, ≤ 60% acceptable"
+            "≤ 5% excellent, ≤ 15% acceptable"
           ],
           correctAnswer: 0,
           explanation: "Gage R&R ≤ 10% is excellent, ≤ 30% is generally acceptable for measurement systems."
@@ -2299,8 +2299,8 @@ Effective supply chain management balances cost efficiency with service level re
           question: "What are the four flows in supply chain?",
           options: [
             "Material, Information, Financial, Return",
-            "Raw, Work-in-progress, Finished, Spare",
             "Input, Process, Output, Feedback",
+            "Raw, Work-in-progress, Finished, Spare",
             "Purchase, Production, Sales, Service"
           ],
           correctAnswer: 0,
@@ -2310,20 +2310,20 @@ Effective supply chain management balances cost efficiency with service level re
           id: 2,
           question: "Which supply chain focuses on cost minimization?",
           options: [
-            "Responsive supply chain",
-            "Efficient supply chain",
             "Risk-hedging supply chain",
-            "Agile supply chain"
+            "Agile supply chain",
+            "Efficient supply chain",
+            "Responsive supply chain"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Efficient supply chains focus on cost minimization for standardized products with predictable demand."
         },
         {
           id: 3,
           question: "What is NOT a supplier selection criterion?",
           options: [
-            "Quality capability",
             "Delivery reliability",
+            "Quality capability",
             "Supplier's office location beauty",
             "Cost competitiveness"
           ],
@@ -2334,24 +2334,24 @@ Effective supply chain management balances cost efficiency with service level re
           id: 4,
           question: "What does EOQ minimize?",
           options: [
-            "Only ordering costs",
             "Only holding costs",
-            "Total inventory costs",
-            "Only purchase costs"
+            "Only ordering costs",
+            "Only purchase costs",
+            "Total inventory costs"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Economic Order Quantity (EOQ) minimizes total inventory costs (holding + ordering costs)."
         },
         {
           id: 5,
           question: "What system orders fixed quantity at reorder point?",
           options: [
-            "Periodic review system",
-            "Continuous review system",
             "ABC analysis system",
-            "JIT system"
+            "JIT system",
+            "Periodic review system",
+            "Continuous review system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Continuous review system (Q-system) orders fixed quantity when inventory reaches reorder point."
         },
         {
@@ -2359,11 +2359,11 @@ Effective supply chain management balances cost efficiency with service level re
           question: "Which transport is best for international bulk shipments?",
           options: [
             "Air transport",
+            "Rail transport",
             "Sea transport",
-            "Road transport",
-            "Rail transport"
+            "Road transport"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sea transport is best for international bulk shipments due to very low cost and high capacity."
         },
         {
@@ -2371,35 +2371,35 @@ Effective supply chain management balances cost efficiency with service level re
           question: "What does ABC analysis classify items by?",
           options: [
             "Color and size",
+            "Supplier and origin",
             "Value and control effort",
-            "Weight and volume",
-            "Supplier and origin"
+            "Weight and volume"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ABC analysis classifies inventory based on value (A=high value) and appropriate control effort."
         },
         {
           id: 8,
           question: "What does MAPE measure?",
           options: [
-            "Material availability",
-            "Forecast accuracy",
             "Production efficiency",
-            "Quality level"
+            "Quality level",
+            "Material availability",
+            "Forecast accuracy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "MAPE (Mean Absolute Percentage Error) measures forecast accuracy as percentage error."
         },
         {
           id: 9,
           question: "What does 'pull system' mean in lean supply chain?",
           options: [
-            "Push materials through system",
-            "Produce based on actual demand",
+            "Pull customers to buy",
             "Force suppliers to deliver",
-            "Pull customers to buy"
+            "Push materials through system",
+            "Produce based on actual demand"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pull system means producing based on actual customer demand, not forecasts or schedules."
         },
         {
@@ -2407,23 +2407,23 @@ Effective supply chain management balances cost efficiency with service level re
           question: "What does WMS manage?",
           options: [
             "Workforce management",
-            "Warehouse operations",
+            "Waste management",
             "Website management",
-            "Waste management"
+            "Warehouse operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "WMS (Warehouse Management System) manages warehouse operations like receiving, storage, picking, shipping."
         },
         {
           id: 11,
           question: "Which is a supply chain risk?",
           options: [
-            "Supplier failures",
             "Employee birthdays",
-            "Office decorations",
-            "Lunch menu variety"
+            "Lunch menu variety",
+            "Supplier failures",
+            "Office decorations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Supplier failures are a supply risk; other options are not typical supply chain risks."
         },
         {
@@ -2432,8 +2432,8 @@ Effective supply chain management balances cost efficiency with service level re
           options: [
             "Economic, Environmental, Social",
             "Cost, Quality, Delivery",
-            "Price, Value, Service",
-            "Input, Process, Output"
+            "Input, Process, Output",
+            "Price, Value, Service"
           ],
           correctAnswer: 0,
           explanation: "Triple bottom line: Economic (profit), Environmental (planet), Social (people) sustainability."
@@ -2442,12 +2442,12 @@ Effective supply chain management balances cost efficiency with service level re
           id: 13,
           question: "What is reverse logistics?",
           options: [
-            "Forward material flow",
-            "Returns, recycling, remanufacturing",
             "Backward financial flow",
-            "Reverse engineering"
+            "Reverse engineering",
+            "Returns, recycling, remanufacturing",
+            "Forward material flow"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reverse logistics handles returns, recycling, remanufacturing, and product end-of-life."
         },
         {
@@ -2455,35 +2455,35 @@ Effective supply chain management balances cost efficiency with service level re
           question: "What reduced from 45 to 28 days in case study?",
           options: [
             "Supplier lead times",
-            "Inventory levels",
             "Production time",
-            "Employee count"
+            "Employee count",
+            "Inventory levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Inventory levels reduced from 45 to 28 days in the case study through better management."
         },
         {
           id: 15,
           question: "Which is NOT a warehouse function?",
           options: [
-            "Receiving",
             "Put-away",
             "Order picking",
-            "Product design"
+            "Product design",
+            "Receiving"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Product design is not a warehouse function; warehouses handle storage and distribution activities."
         },
         {
           id: 16,
           question: "What does EOQ formula include?",
           options: [
+            "Quality level, defect rate, rework cost",
             "Annual demand, ordering cost, holding cost",
-            "Monthly sales, labor cost, rent",
             "Product price, profit margin, taxes",
-            "Quality level, defect rate, rework cost"
+            "Monthly sales, labor cost, rent"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EOQ = √[(2 × Annual demand × Ordering cost) ÷ Holding cost per unit per year]."
         },
         {
@@ -2492,46 +2492,46 @@ Effective supply chain management balances cost efficiency with service level re
           options: [
             "Road transport",
             "Rail transport",
-            "Sea transport",
-            "Air transport"
+            "Air transport",
+            "Sea transport"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Air transport is fastest but most expensive, suitable for high-value, time-sensitive goods."
         },
         {
           id: 18,
           question: "What does 'I' in TIMWOOD waste stand for?",
           options: [
-            "Inventory",
             "Inefficiency",
-            "Idleness",
-            "Inaccuracy"
+            "Inaccuracy",
+            "Inventory",
+            "Idleness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "In TIMWOOD, I stands for Inventory waste (excess stock)."
         },
         {
           id: 19,
           question: "What improved from 82% to 96% in case study?",
           options: [
-            "Employee satisfaction",
             "On-time delivery",
-            "Profit margin",
-            "Product quality"
+            "Product quality",
+            "Employee satisfaction",
+            "Profit margin"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "On-time delivery improved from 82% to 96% through supply chain improvements."
         },
         {
           id: 20,
           question: "What is a qualitative forecasting method?",
           options: [
-            "Exponential smoothing",
-            "Market research surveys",
             "Moving averages",
-            "Regression analysis"
+            "Exponential smoothing",
+            "Regression analysis",
+            "Market research surveys"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Market research surveys are qualitative methods based on customer opinions, not historical data."
         }
       ]
@@ -2881,22 +2881,22 @@ Advanced production management requires integrating technical knowledge with str
           id: 1,
           question: "Which competitive priority focuses on lowest production cost?",
           options: [
-            "Quality excellence",
             "Cost leadership",
+            "Quality excellence",
             "Delivery speed",
             "Flexibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cost leadership focuses on achieving the lowest production cost to compete on price."
         },
         {
           id: 2,
           question: "What are minimum requirements to be considered by customers?",
           options: [
-            "Order winners",
+            "Order enhancers",
             "Order qualifiers",
-            "Order differentiators",
-            "Order enhancers"
+            "Order winners",
+            "Order differentiators"
           ],
           correctAnswer: 1,
           explanation: "Order qualifiers are minimum requirements; order winners are what make customers choose you."
@@ -2905,21 +2905,21 @@ Advanced production management requires integrating technical knowledge with str
           id: 3,
           question: "Which is NOT a Balanced Scorecard perspective?",
           options: [
-            "Financial perspective",
-            "Customer perspective",
             "Supplier perspective",
-            "Internal process perspective"
+            "Internal process perspective",
+            "Financial perspective",
+            "Customer perspective"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Supplier perspective is not one of the four Balanced Scorecard perspectives."
         },
         {
           id: 4,
           question: "What is capacity cushion formula?",
           options: [
-            "Utilization rate - 100%",
-            "100% - Utilization rate",
             "Actual output ÷ Design capacity",
+            "100% - Utilization rate",
+            "Utilization rate - 100%",
             "Effective capacity ÷ Design capacity"
           ],
           correctAnswer: 1,
@@ -2929,24 +2929,24 @@ Advanced production management requires integrating technical knowledge with str
           id: 5,
           question: "What sets the pace in Drum-Buffer-Rope scheduling?",
           options: [
-            "The fastest machine",
-            "The constraint (drum)",
             "Customer demand",
-            "Material availability"
+            "Material availability",
+            "The fastest machine",
+            "The constraint (drum)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The constraint (bottleneck) sets the pace as the drum in DBR scheduling."
         },
         {
           id: 6,
           question: "Which is an Industry 4.0 technology?",
           options: [
-            "Internet of Things",
-            "Traditional assembly lines",
             "Manual record keeping",
-            "Paper-based scheduling"
+            "Paper-based scheduling",
+            "Traditional assembly lines",
+            "Internet of Things"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Internet of Things (IoT) is a key Industry 4.0 technology connecting devices and sensors."
         },
         {
@@ -2954,11 +2954,11 @@ Advanced production management requires integrating technical knowledge with str
           question: "What does circular economy aim to design out?",
           options: [
             "Profit",
+            "Customers",
             "Waste",
-            "Employees",
-            "Customers"
+            "Employees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Circular economy aims to design out waste and keep products and materials in use."
         },
         {
@@ -2966,23 +2966,23 @@ Advanced production management requires integrating technical knowledge with str
           question: "What does HPWS stand for?",
           options: [
             "High-Production Work System",
-            "High-Performance Work Systems",
             "Human Productivity Work Structure",
-            "Highly Paid Worker System"
+            "Highly Paid Worker System",
+            "High-Performance Work Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "HPWS stands for High-Performance Work Systems emphasizing employee involvement and development."
         },
         {
           id: 9,
           question: "What is the first step in Kotter's change model?",
           options: [
-            "Build guiding coalition",
-            "Create urgency",
             "Form strategic vision",
-            "Generate short-term wins"
+            "Build guiding coalition",
+            "Generate short-term wins",
+            "Create urgency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Kotter's first step is creating urgency - why change is necessary and important."
         },
         {
@@ -2990,21 +2990,21 @@ Advanced production management requires integrating technical knowledge with str
           question: "What does APS stand for?",
           options: [
             "Advanced Production System",
-            "Advanced Planning and Scheduling",
+            "All-Purpose Software",
             "Automated Production Scheduling",
-            "All-Purpose Software"
+            "Advanced Planning and Scheduling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "APS stands for Advanced Planning and Scheduling - sophisticated software for optimal planning."
         },
         {
           id: 11,
           question: "Which strategy has centralized global production?",
           options: [
-            "Multi-domestic strategy",
+            "Local strategy",
             "Global strategy",
-            "Transnational strategy",
-            "Local strategy"
+            "Multi-domestic strategy",
+            "Transnational strategy"
           ],
           correctAnswer: 1,
           explanation: "Global strategy centralizes production for global markets to achieve scale economies."
@@ -3013,8 +3013,8 @@ Advanced production management requires integrating technical knowledge with str
           id: 12,
           question: "What is NOT a knowledge management practice?",
           options: [
-            "Best practice sharing",
             "Lessons learned databases",
+            "Best practice sharing",
             "Hiding information for security",
             "Community of practice"
           ],
@@ -3025,34 +3025,34 @@ Advanced production management requires integrating technical knowledge with str
           id: 13,
           question: "What is a digital twin?",
           options: [
-            "A physical backup machine",
-            "Virtual replica for simulation",
             "Duplicate computer system",
-            "Backup employee"
+            "A physical backup machine",
+            "Backup employee",
+            "Virtual replica for simulation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Digital twin is a virtual replica of a physical system used for simulation and optimization."
         },
         {
           id: 14,
           question: "What improved from 62% to 86% in case study?",
           options: [
-            "On-time delivery",
             "OEE (Overall Equipment Effectiveness)",
             "Defect rate",
+            "On-time delivery",
             "Employee turnover"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "OEE improved from 62% to 86% in the transformational case study."
         },
         {
           id: 15,
           question: "What does LCA evaluate?",
           options: [
-            "Labor cost analysis",
-            "Environmental impacts through product life",
             "Learning curve analysis",
-            "Logistics cost assessment"
+            "Environmental impacts through product life",
+            "Logistics cost assessment",
+            "Labor cost analysis"
           ],
           correctAnswer: 1,
           explanation: "LCA (Life Cycle Assessment) evaluates environmental impacts from raw materials to disposal."
@@ -3061,12 +3061,12 @@ Advanced production management requires integrating technical knowledge with str
           id: 16,
           question: "Which is a short-term capacity adjustment?",
           options: [
-            "Building new factory",
             "Overtime/undertime",
+            "Building new factory",
             "Purchasing new equipment",
             "Strategic partnership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Overtime/undertime are short-term capacity adjustments (days to weeks)."
         },
         {
@@ -3074,47 +3074,47 @@ Advanced production management requires integrating technical knowledge with str
           question: "What is typical capacity cushion for volatile demand?",
           options: [
             "0-5%",
+            "20-30%",
             "5-10%",
-            "10-20%",
-            "20-30%"
+            "10-20%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "20-30% capacity cushion is typical for volatile demand environments."
         },
         {
           id: 18,
           question: "Which is a learning organization characteristic?",
           options: [
-            "Avoiding experiments",
-            "Systematic problem-solving",
+            "Resisting change",
             "Keeping knowledge secret",
-            "Resisting change"
+            "Systematic problem-solving",
+            "Avoiding experiments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Systematic problem-solving is a key characteristic of learning organizations."
         },
         {
           id: 19,
           question: "What reduced from 18% to 6% in case study?",
           options: [
-            "Defect rate",
-            "Employee turnover",
+            "Material cost",
             "Energy consumption",
-            "Material cost"
+            "Defect rate",
+            "Employee turnover"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Employee turnover reduced from 18% to 6% through improved workforce practices."
         },
         {
           id: 20,
           question: "What balances global integration with local responsiveness?",
           options: [
-            "Global strategy",
-            "Multi-domestic strategy",
+            "Export strategy",
             "Transnational strategy",
-            "Export strategy"
+            "Multi-domestic strategy",
+            "Global strategy"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Transnational strategy balances global integration benefits with local responsiveness needs."
         }
       ]
@@ -3127,10 +3127,10 @@ Advanced production management requires integrating technical knowledge with str
       id: 1,
       question: "Which production system is best for custom machinery?",
       options: [
-        "Mass production",
+        "Batch production",
         "Job production",
         "Continuous production",
-        "Batch production"
+        "Mass production"
       ],
       correctAnswer: 1,
       explanation: "From Module 1: Job production handles single items or small batches to customer specifications."
@@ -3139,22 +3139,22 @@ Advanced production management requires integrating technical knowledge with str
       id: 2,
       question: "What does CNC stand for?",
       options: [
-        "Computer Network Control",
-        "Computer Numerical Control",
+        "Controlled Network Computing",
         "Central Numerical Computing",
-        "Controlled Network Computing"
+        "Computer Numerical Control",
+        "Computer Network Control"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: CNC is Computer Numerical Control - automated control of machining tools."
     },
     {
       id: 3,
       question: "What are the three main functions of PPC?",
       options: [
-        "Design, Build, Test",
+        "Quality, Cost, Delivery",
         "Planning, Scheduling, Control",
-        "Purchasing, Production, Sales",
-        "Quality, Cost, Delivery"
+        "Design, Build, Test",
+        "Purchasing, Production, Sales"
       ],
       correctAnswer: 1,
       explanation: "From Module 3: PPC functions are Planning, Scheduling, and Control."
@@ -3165,8 +3165,8 @@ Advanced production management requires integrating technical knowledge with str
       options: [
         "Inspect quality into finished products",
         "Build quality into products from beginning",
-        "Fix quality problems as they occur",
-        "Accept some defects as normal"
+        "Accept some defects as normal",
+        "Fix quality problems as they occur"
       ],
       correctAnswer: 1,
       explanation: "From Module 4: Quality by Design builds quality in from the beginning."
@@ -3175,10 +3175,10 @@ Advanced production management requires integrating technical knowledge with str
       id: 5,
       question: "What does EOQ minimize?",
       options: [
+        "Only purchase costs",
         "Only ordering costs",
-        "Only holding costs",
         "Total inventory costs",
-        "Only purchase costs"
+        "Only holding costs"
       ],
       correctAnswer: 2,
       explanation: "From Module 5: EOQ minimizes total inventory costs (holding + ordering)."
@@ -3187,48 +3187,48 @@ Advanced production management requires integrating technical knowledge with str
       id: 6,
       question: "Which competitive priority focuses on lowest production cost?",
       options: [
-        "Quality excellence",
         "Cost leadership",
+        "Flexibility",
         "Delivery speed",
-        "Flexibility"
+        "Quality excellence"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: Cost leadership focuses on achieving lowest production cost."
     },
     {
       id: 7,
       question: "Which layout groups similar processes together?",
       options: [
-        "Product layout",
         "Process layout",
-        "Fixed position layout",
-        "Cellular layout"
+        "Cellular layout",
+        "Product layout",
+        "Fixed position layout"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 1: Process layout groups similar processes in departments."
     },
     {
       id: 8,
       question: "What does FMS stand for?",
       options: [
-        "Fixed Manufacturing System",
-        "Flexible Manufacturing System",
         "Fast Material System",
-        "Fully Manual System"
+        "Fixed Manufacturing System",
+        "Fully Manual System",
+        "Flexible Manufacturing System"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 2: FMS is Flexible Manufacturing System."
     },
     {
       id: 9,
       question: "What does MRP stand for?",
       options: [
+        "Machine Replacement Program",
         "Manufacturing Resource Planning",
         "Material Requirements Planning",
-        "Machine Replacement Program",
         "Maintenance Repair Planning"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 3: MRP is Material Requirements Planning."
     },
     {
@@ -3236,23 +3236,23 @@ Advanced production management requires integrating technical knowledge with str
       question: "What does SPC stand for?",
       options: [
         "Standard Production Control",
-        "Statistical Process Control",
         "Systematic Product Checking",
-        "Structured Process Charting"
+        "Structured Process Charting",
+        "Statistical Process Control"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: SPC is Statistical Process Control."
     },
     {
       id: 11,
       question: "Which supply chain focuses on cost minimization?",
       options: [
-        "Responsive supply chain",
         "Efficient supply chain",
+        "Agile supply chain",
         "Risk-hedging supply chain",
-        "Agile supply chain"
+        "Responsive supply chain"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Efficient supply chains focus on cost minimization."
     },
     {
@@ -3260,33 +3260,33 @@ Advanced production management requires integrating technical knowledge with str
       question: "What are minimum requirements to be considered by customers?",
       options: [
         "Order winners",
+        "Order enhancers",
         "Order qualifiers",
-        "Order differentiators",
-        "Order enhancers"
+        "Order differentiators"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Order qualifiers are minimum requirements."
     },
     {
       id: 13,
       question: "What is the target space utilization for manufacturing?",
       options: [
-        "30-40%",
-        "60-80%",
+        "40-50%",
         "90-100%",
-        "40-50%"
+        "60-80%",
+        "30-40%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 1: 60-80% space utilization is optimal."
     },
     {
       id: 14,
       question: "What does DFM stand for?",
       options: [
-        "Digital Factory Management",
-        "Design for Manufacturing",
         "Direct Factory Manufacturing",
-        "Detailed Factory Monitoring"
+        "Design for Manufacturing",
+        "Detailed Factory Monitoring",
+        "Digital Factory Management"
       ],
       correctAnswer: 1,
       explanation: "From Module 2: DFM is Design for Manufacturing."
@@ -3297,8 +3297,8 @@ Advanced production management requires integrating technical knowledge with str
       options: [
         "Chase strategy",
         "Level strategy",
-        "Mixed strategy",
-        "Demand strategy"
+        "Demand strategy",
+        "Mixed strategy"
       ],
       correctAnswer: 1,
       explanation: "From Module 3: Level strategy has constant production rate."
@@ -3307,22 +3307,22 @@ Advanced production management requires integrating technical knowledge with str
       id: 16,
       question: "How is RPN calculated?",
       options: [
+        "S × (O + D)",
         "S + O + D",
-        "S × O × D",
         "(S + O) × D",
-        "S × (O + D)"
+        "S × O × D"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: RPN = Severity × Occurrence × Detection."
     },
     {
       id: 17,
       question: "What system orders fixed quantity at reorder point?",
       options: [
-        "Periodic review system",
-        "Continuous review system",
         "ABC analysis system",
-        "JIT system"
+        "Continuous review system",
+        "JIT system",
+        "Periodic review system"
       ],
       correctAnswer: 1,
       explanation: "From Module 5: Continuous review system orders at reorder point."
@@ -3331,58 +3331,58 @@ Advanced production management requires integrating technical knowledge with str
       id: 18,
       question: "What is capacity cushion formula?",
       options: [
-        "Utilization rate - 100%",
         "100% - Utilization rate",
-        "Actual output ÷ Design capacity",
-        "Effective capacity ÷ Design capacity"
+        "Utilization rate - 100%",
+        "Effective capacity ÷ Design capacity",
+        "Actual output ÷ Design capacity"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: Capacity cushion = 100% - Utilization rate."
     },
     {
       id: 19,
       question: "Which is an Industry 4.0 technology?",
       options: [
-        "Internet of Things",
         "Traditional assembly lines",
-        "Manual record keeping",
-        "Paper-based scheduling"
+        "Paper-based scheduling",
+        "Internet of Things",
+        "Manual record keeping"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "From Module 6: Internet of Things is Industry 4.0 technology."
     },
     {
       id: 20,
       question: "What does 'A' represent in a REL chart?",
       options: [
-        "Absolutely necessary closeness",
         "Average distance",
         "Avoid proximity",
-        "Additional space needed"
+        "Additional space needed",
+        "Absolutely necessary closeness"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "From Module 1: 'A' means absolutely necessary closeness."
     },
     {
       id: 21,
       question: "What is a 'factor' in DOE?",
       options: [
-        "Output being measured",
         "Input variable being studied",
         "Experimental error",
-        "Statistical calculation"
+        "Statistical calculation",
+        "Output being measured"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 4: Factor is input variable in Design of Experiments."
     },
     {
       id: 22,
       question: "What does MPS stand for?",
       options: [
-        "Material Production System",
-        "Master Production Schedule",
         "Manufacturing Process Standard",
-        "Main Production Strategy"
+        "Master Production Schedule",
+        "Main Production Strategy",
+        "Material Production System"
       ],
       correctAnswer: 1,
       explanation: "From Module 3: MPS is Master Production Schedule."
@@ -3391,60 +3391,60 @@ Advanced production management requires integrating technical knowledge with str
       id: 23,
       question: "What does WMS manage?",
       options: [
-        "Workforce management",
-        "Warehouse operations",
         "Website management",
-        "Waste management"
+        "Waste management",
+        "Workforce management",
+        "Warehouse operations"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 5: WMS manages warehouse operations."
     },
     {
       id: 24,
       question: "What is the first step in Theory of Constraints?",
       options: [
-        "Subordinate other processes",
-        "Identify the system constraint",
+        "Exploit the constraint",
         "Elevate the constraint",
-        "Exploit the constraint"
+        "Subordinate other processes",
+        "Identify the system constraint"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: First step is identify the constraint."
     },
     {
       id: 25,
       question: "What does OEE measure?",
       options: [
-        "Only equipment availability",
-        "Availability × Performance × Quality",
+        "Only quality rate",
         "Only production speed",
-        "Only quality rate"
+        "Availability × Performance × Quality",
+        "Only equipment availability"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: OEE = Availability × Performance × Quality."
     },
     {
       id: 26,
       question: "Which transport is best for international bulk shipments?",
       options: [
-        "Air transport",
         "Sea transport",
         "Road transport",
+        "Air transport",
         "Rail transport"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Sea transport for international bulk."
     },
     {
       id: 27,
       question: "What sets the pace in Drum-Buffer-Rope scheduling?",
       options: [
-        "The fastest machine",
-        "The constraint (drum)",
         "Customer demand",
-        "Material availability"
+        "The fastest machine",
+        "Material availability",
+        "The constraint (drum)"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 6: Constraint sets pace as drum."
     },
     {
@@ -3452,33 +3452,33 @@ Advanced production management requires integrating technical knowledge with str
       question: "What is desired minimum Cp value?",
       options: [
         "0.5",
-        "1.0",
         "1.33",
+        "1.0",
         "2.0"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "From Module 2: Cp ≥ 1.33 is desired."
     },
     {
       id: 29,
       question: "What is a hierarchical list of product components?",
       options: [
-        "Production schedule",
         "Bill of Materials (BOM)",
-        "Inventory record",
-        "Capacity plan"
+        "Production schedule",
+        "Capacity plan",
+        "Inventory record"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 3: BOM is hierarchical component list."
     },
     {
       id: 30,
       question: "What does Gage R&R measure?",
       options: [
-        "Gauge repair and replacement",
+        "Gauge reading and recording",
         "Gauge repeatability and reproducibility",
-        "General repair and renovation",
-        "Gauge reading and recording"
+        "Gauge repair and replacement",
+        "General repair and renovation"
       ],
       correctAnswer: 1,
       explanation: "From Module 4: Gage R&R measures repeatability and reproducibility."
@@ -3487,10 +3487,10 @@ Advanced production management requires integrating technical knowledge with str
       id: 31,
       question: "What does ABC analysis classify items by?",
       options: [
-        "Color and size",
+        "Supplier and origin",
         "Value and control effort",
-        "Weight and volume",
-        "Supplier and origin"
+        "Color and size",
+        "Weight and volume"
       ],
       correctAnswer: 1,
       explanation: "From Module 5: ABC classifies by value and control effort."
@@ -3500,35 +3500,35 @@ Advanced production management requires integrating technical knowledge with str
       question: "What does HPWS stand for?",
       options: [
         "High-Production Work System",
-        "High-Performance Work Systems",
         "Human Productivity Work Structure",
+        "High-Performance Work Systems",
         "Highly Paid Worker System"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: HPWS is High-Performance Work Systems."
     },
     {
       id: 33,
       question: "Which robot type is most common in manufacturing?",
       options: [
-        "Delta robots",
-        "Articulated robots",
         "Cartesian robots",
-        "SCARA robots"
+        "SCARA robots",
+        "Articulated robots",
+        "Delta robots"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Articulated robots are most common."
     },
     {
       id: 34,
       question: "What triggers production in JIT?",
       options: [
-        "Forecasted demand",
-        "Management decision",
         "Customer demand (pull system)",
+        "Management decision",
+        "Forecasted demand",
         "Material availability"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "From Module 3: JIT uses pull system triggered by demand."
     },
     {
@@ -3536,11 +3536,11 @@ Advanced production management requires integrating technical knowledge with str
       question: "What does DMAIC stand for?",
       options: [
         "Design, Measure, Analyze, Improve, Control",
-        "Define, Measure, Analyze, Improve, Control",
+        "Document, Measure, Assess, Improve, Confirm",
         "Develop, Monitor, Assess, Implement, Check",
-        "Document, Measure, Assess, Improve, Confirm"
+        "Define, Measure, Analyze, Improve, Control"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: DMAIC is Define, Measure, Analyze, Improve, Control."
     },
     {
@@ -3548,9 +3548,9 @@ Advanced production management requires integrating technical knowledge with str
       question: "What does triple bottom line include?",
       options: [
         "Economic, Environmental, Social",
-        "Cost, Quality, Delivery",
         "Price, Value, Service",
-        "Input, Process, Output"
+        "Input, Process, Output",
+        "Cost, Quality, Delivery"
       ],
       correctAnswer: 0,
       explanation: "From Module 5: Triple bottom line: Economic, Environmental, Social."
@@ -3560,47 +3560,47 @@ Advanced production management requires integrating technical knowledge with str
       question: "What is a digital twin?",
       options: [
         "A physical backup machine",
-        "Virtual replica for simulation",
         "Duplicate computer system",
+        "Virtual replica for simulation",
         "Backup employee"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Digital twin is virtual replica."
     },
     {
       id: 38,
       question: "What is world-class OEE target?",
       options: [
-        "≥ 65%",
         "≥ 75%",
-        "≥ 85%",
-        "≥ 95%"
+        "≥ 65%",
+        "≥ 95%",
+        "≥ 85%"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "From Module 4: World-class OEE ≥ 85%."
     },
     {
       id: 39,
       question: "What is typical capacity cushion for volatile demand?",
       options: [
-        "0-5%",
-        "5-10%",
         "10-20%",
-        "20-30%"
+        "20-30%",
+        "0-5%",
+        "5-10%"
       ],
-      correctAnswer: 3,
+      correctAnswer: 1,
       explanation: "From Module 6: 20-30% cushion for volatile demand."
     },
     {
       id: 40,
       question: "What improved from 62% to 86% in case study?",
       options: [
-        "On-time delivery",
         "OEE (Overall Equipment Effectiveness)",
-        "Defect rate",
-        "Employee turnover"
+        "Employee turnover",
+        "On-time delivery",
+        "Defect rate"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: OEE improved from 62% to 86%."
     }
   ]

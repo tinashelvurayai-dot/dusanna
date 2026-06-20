@@ -184,8 +184,8 @@ Digital transformation is a journey, not a destination. Success requires continu
           options: [
             "Website, Social Media, Email",
             "Customer Experience, Operations, Business Model",
-            "Marketing, Sales, Service",
-            "Technology, People, Processes"
+            "Technology, People, Processes",
+            "Marketing, Sales, Service"
           ],
           correctAnswer: 1,
           explanation: "The three pillars are Customer Experience Transformation, Operational Process Transformation, and Business Model Transformation."
@@ -194,46 +194,46 @@ Digital transformation is a journey, not a destination. Success requires continu
           id: 2,
           question: "What is the first step in strategy development?",
           options: [
-            "Environmental scanning",
             "Writing implementation plan",
-            "Buying technology",
-            "Hiring consultants"
+            "Hiring consultants",
+            "Environmental scanning",
+            "Buying technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Environmental scanning analyzes market, competition, and technology trends before strategy development."
         },
         {
           id: 3,
           question: "What level describes organizations leading digital disruption?",
           options: [
-            "Digital beginners",
+            "Digital intermediates",
             "Digital conservatives",
-            "Digital innovators",
-            "Digital intermediates"
+            "Digital beginners",
+            "Digital innovators"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Digital innovators lead digital transformation and disrupt markets with innovative approaches."
         },
         {
           id: 4,
           question: "What principle starts with customer needs?",
           options: [
-            "Customer-centricity",
             "Agility",
+            "Ecosystem thinking",
             "Experimentation",
-            "Ecosystem thinking"
+            "Customer-centricity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Customer-centricity means starting with customer needs and working backward to solutions."
         },
         {
           id: 5,
           question: "What business model offers free basic service with paid premium?",
           options: [
+            "Marketplace",
             "E-commerce",
-            "Subscription",
             "Freemium",
-            "Marketplace"
+            "Subscription"
           ],
           correctAnswer: 2,
           explanation: "Freemium model offers free basic services with premium features available for payment."
@@ -242,24 +242,24 @@ Digital transformation is a journey, not a destination. Success requires continu
           id: 6,
           question: "What is a common barrier to digital transformation?",
           options: [
-            "Legacy systems",
-            "Too much innovation",
             "Excess budget",
-            "Overqualified staff"
+            "Legacy systems",
+            "Overqualified staff",
+            "Too much innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Legacy systems are outdated technologies that can be difficult and costly to replace or integrate."
         },
         {
           id: 7,
           question: "What does digital governance provide?",
           options: [
-            "Clear decision-making and accountability",
+            "Competitor secrets",
             "Free software",
             "Automatic success",
-            "Competitor secrets"
+            "Clear decision-making and accountability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital governance establishes clear decision-making processes and accountability for digital initiatives."
         },
         {
@@ -267,9 +267,9 @@ Digital transformation is a journey, not a destination. Success requires continu
           question: "Who needs high-level overview and risk assessment?",
           options: [
             "Board of directors",
+            "Suppliers only",
             "Entry-level employees",
-            "Social media followers",
-            "Suppliers only"
+            "Social media followers"
           ],
           correctAnswer: 0,
           explanation: "Board of directors needs high-level overviews and understands risks associated with digital strategy."
@@ -278,12 +278,12 @@ Digital transformation is a journey, not a destination. Success requires continu
           id: 9,
           question: "What is future-back planning?",
           options: [
-            "Starting with end goal in mind",
-            "Planning only for past successes",
             "Ignoring future trends",
-            "Copying competitors exactly"
+            "Planning only for past successes",
+            "Copying competitors exactly",
+            "Starting with end goal in mind"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Future-back planning starts with defining the desired future state and works backward to current actions needed."
         },
         {
@@ -291,9 +291,9 @@ Digital transformation is a journey, not a destination. Success requires continu
           question: "What creates ecosystems where others create value?",
           options: [
             "Platform business model",
-            "Subscription model",
+            "Freemium model",
             "E-commerce model",
-            "Freemium model"
+            "Subscription model"
           ],
           correctAnswer: 0,
           explanation: "Platform business models create ecosystems where third parties can create and exchange value."
@@ -309,48 +309,48 @@ Digital transformation is a journey, not a destination. Success requires continu
           id: 12,
           question: "What assesses skills and technology available?",
           options: [
-            "Capabilities assessment",
-            "Leadership assessment",
             "Customer assessment",
-            "Budget assessment"
+            "Budget assessment",
+            "Capabilities assessment",
+            "Leadership assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Capabilities assessment evaluates the skills, technology, and resources available for digital initiatives."
         },
         {
           id: 13,
           question: "What principle means adapting quickly to change?",
           options: [
-            "Agility",
-            "Customer-centricity",
             "Experimentation",
-            "Data-driven"
+            "Customer-centricity",
+            "Data-driven",
+            "Agility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Agility is the ability to adapt quickly to changing market conditions and customer needs."
         },
         {
           id: 14,
           question: "What model connects buyers and sellers?",
           options: [
-            "Marketplace model",
+            "Freemium model",
             "Subscription model",
             "E-commerce model",
-            "Freemium model"
+            "Marketplace model"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Marketplace models create platforms that connect buyers and sellers of products or services."
         },
         {
           id: 15,
           question: "What is NOT part of building digital capabilities?",
           options: [
-            "Digital leadership",
             "Digital talent",
-            "Digital guessing",
-            "Digital culture"
+            "Digital culture",
+            "Digital leadership",
+            "Digital guessing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Building capabilities requires leadership, talent, culture, governance, partnerships, and infrastructure - not guessing."
         },
         {
@@ -359,8 +359,8 @@ Digital transformation is a journey, not a destination. Success requires continu
           options: [
             "The 'why' - Why digital transformation matters",
             "Technical specifications",
-            "Budget details",
-            "Employee names"
+            "Employee names",
+            "Budget details"
           ],
           correctAnswer: 0,
           explanation: "Start with the 'why' to create context and build understanding of why digital transformation is important."
@@ -369,48 +369,48 @@ Digital transformation is a journey, not a destination. Success requires continu
           id: 17,
           question: "What does gap analysis identify?",
           options: [
-            "What's needed to reach future state",
             "Employee vacation time",
-            "Competitor pricing",
-            "Website colors"
+            "Website colors",
+            "What's needed to reach future state",
+            "Competitor pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Gap analysis identifies the differences between current state and desired future state."
         },
         {
           id: 18,
           question: "What culture encourages experimentation?",
           options: [
+            "Siloed culture",
             "Digital-first culture",
             "Traditional culture",
-            "Risk-averse culture",
-            "Siloed culture"
+            "Risk-averse culture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digital-first culture encourages experimentation, learning from failures, and continuous innovation."
         },
         {
           id: 19,
           question: "What business model has recurring revenue?",
           options: [
-            "Subscription model",
-            "One-time sale model",
             "Free model",
-            "Barter model"
+            "Subscription model",
+            "Barter model",
+            "One-time sale model"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Subscription models generate recurring revenue through regular payments for continued access or services."
         },
         {
           id: 20,
           question: "What should strategy communication do?",
           options: [
-            "Simplify complex concepts",
             "Use technical jargon only",
-            "Exclude certain departments",
-            "Hide challenges"
+            "Simplify complex concepts",
+            "Hide challenges",
+            "Exclude certain departments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective communication simplifies complex digital concepts to make them accessible to all stakeholders."
         }
       ]
@@ -660,36 +660,36 @@ Exceptional digital customer experiences drive loyalty, advocacy, and business g
           id: 1,
           question: "What is digital customer experience?",
           options: [
+            "Email marketing",
             "Sum of all interactions across digital channels",
-            "Only website experience",
             "Social media presence",
-            "Email marketing"
+            "Only website experience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "DCX is the total of all interactions a customer has with your brand across all digital channels."
         },
         {
           id: 2,
           question: "What is the first step in journey mapping?",
           options: [
-            "Define customer personas",
             "Buy mapping software",
             "Interview competitors",
-            "Design new website"
+            "Design new website",
+            "Define customer personas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "First define who you're mapping for by creating detailed customer personas."
         },
         {
           id: 3,
           question: "What personalization uses individual behavior?",
           options: [
-            "Segmented personalization",
             "Individualized personalization",
-            "Predictive personalization",
-            "Contextual personalization"
+            "Contextual personalization",
+            "Segmented personalization",
+            "Predictive personalization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Individualized personalization tailors experiences based on individual user behavior and history."
         },
         {
@@ -698,8 +698,8 @@ Exceptional digital customer experiences drive loyalty, advocacy, and business g
           options: [
             "Multichannel is presence, omnichannel is seamless integration",
             "No difference",
-            "Omnichannel has fewer channels",
-            "Multichannel is digital only"
+            "Multichannel is digital only",
+            "Omnichannel has fewer channels"
           ],
           correctAnswer: 0,
           explanation: "Multichannel means being present on multiple channels; omnichannel provides integrated, seamless experiences across them."
@@ -708,72 +708,72 @@ Exceptional digital customer experiences drive loyalty, advocacy, and business g
           id: 5,
           question: "What does CDP stand for?",
           options: [
-            "Customer Data Platform",
-            "Content Delivery Platform",
+            "Customer Development Program",
             "Corporate Development Plan",
-            "Customer Development Program"
+            "Customer Data Platform",
+            "Content Delivery Platform"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CDP stands for Customer Data Platform - systems that create unified customer profiles from multiple data sources."
         },
         {
           id: 6,
           question: "What is service blueprinting?",
           options: [
-            "Mapping customer and internal processes",
             "Building architecture plans",
-            "Competitor analysis",
-            "Budget planning"
+            "Mapping customer and internal processes",
+            "Budget planning",
+            "Competitor analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Service blueprinting maps customer actions, frontstage/backstage processes, and supporting systems."
         },
         {
           id: 7,
           question: "What type of data is 'what customers do'?",
           options: [
-            "Behavioral data",
             "Identity data",
             "Descriptive data",
-            "Qualitative data"
+            "Qualitative data",
+            "Behavioral data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Behavioral data tracks customer actions, interactions, and patterns of behavior."
         },
         {
           id: 8,
           question: "What does VoC stand for?",
           options: [
-            "Voice of Customer",
+            "Volume of Commerce",
             "Value of Content",
-            "Vision of Company",
-            "Volume of Commerce"
+            "Voice of Customer",
+            "Vision of Company"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "VoC stands for Voice of Customer - systematic collection and analysis of customer feedback."
         },
         {
           id: 9,
           question: "What measures likelihood to recommend?",
           options: [
-            "Net Promoter Score (NPS)",
-            "Customer Satisfaction (CSAT)",
             "Customer Effort Score (CES)",
-            "Retention rate"
+            "Retention rate",
+            "Customer Satisfaction (CSAT)",
+            "Net Promoter Score (NPS)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Net Promoter Score measures how likely customers are to recommend your business to others."
         },
         {
           id: 10,
           question: "What is the first step in continuous improvement?",
           options: [
-            "Measure current experience",
-            "Implement changes immediately",
             "Copy competitors",
+            "Implement changes immediately",
+            "Measure current experience",
             "Hire consultants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "First measure current experience to establish a baseline before making improvements."
         },
         {
@@ -792,12 +792,12 @@ Exceptional digital customer experiences drive loyalty, advocacy, and business g
           id: 12,
           question: "What identifies customer pain points in journey maps?",
           options: [
-            "Pain point analysis",
-            "Opportunity identification",
             "Persona creation",
-            "Touchpoint listing"
+            "Opportunity identification",
+            "Touchpoint listing",
+            "Pain point analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pain point analysis identifies where customers experience frustration or difficulties in their journey."
         },
         {
@@ -805,9 +805,9 @@ Exceptional digital customer experiences drive loyalty, advocacy, and business g
           question: "What personalization anticipates future needs?",
           options: [
             "Predictive personalization",
-            "Segmented personalization",
             "Individualized personalization",
-            "Contextual personalization"
+            "Contextual personalization",
+            "Segmented personalization"
           ],
           correctAnswer: 0,
           explanation: "Predictive personalization uses data and algorithms to anticipate customer needs before they're expressed."
@@ -816,60 +816,60 @@ Exceptional digital customer experiences drive loyalty, advocacy, and business g
           id: 14,
           question: "What enables seamless omnichannel experiences?",
           options: [
-            "Unified customer data",
-            "Separate systems per channel",
+            "No data sharing",
             "Different branding per channel",
-            "No data sharing"
+            "Separate systems per channel",
+            "Unified customer data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Unified customer data (single customer view) is essential for seamless omnichannel experiences."
         },
         {
           id: 15,
           question: "What are knowledge bases?",
           options: [
-            "Searchable information repositories",
-            "Employee training manuals",
             "Competitor research",
-            "Financial records"
+            "Financial records",
+            "Searchable information repositories",
+            "Employee training manuals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Knowledge bases are self-service repositories of information that customers can search for answers."
         },
         {
           id: 16,
           question: "What type of data is demographic information?",
           options: [
-            "Descriptive data",
-            "Behavioral data",
             "Identity data",
+            "Behavioral data",
+            "Descriptive data",
             "Interaction data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Descriptive data includes demographic information like age, location, gender, and income."
         },
         {
           id: 17,
           question: "What VoC method observes customer interactions?",
           options: [
-            "User testing",
+            "Interviews",
             "Surveys",
             "Social listening",
-            "Interviews"
+            "User testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "User testing involves observing customers as they interact with your digital products or services."
         },
         {
           id: 18,
           question: "What measures ease of getting things done?",
           options: [
-            "Customer Effort Score (CES)",
-            "Net Promoter Score (NPS)",
             "Customer Satisfaction (CSAT)",
-            "Retention rate"
+            "Customer Effort Score (CES)",
+            "Retention rate",
+            "Net Promoter Score (NPS)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Customer Effort Score measures how easy it is for customers to accomplish their goals."
         },
         {
@@ -885,8 +885,8 @@ Exceptional digital customer experiences drive loyalty, advocacy, and business g
           options: [
             "Co-creative service design",
             "Secret design process",
-            "Executive-only design",
-            "Competitor copying"
+            "Competitor copying",
+            "Executive-only design"
           ],
           correctAnswer: 0,
           explanation: "Co-creative service design involves customers in the design process to ensure solutions meet their needs."
@@ -1139,8 +1139,8 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           options: [
             "Strategy alignment and channel integration",
             "Only social media",
-            "Separate teams working independently",
-            "Different messages per channel"
+            "Different messages per channel",
+            "Separate teams working independently"
           ],
           correctAnswer: 0,
           explanation: "Integrated marketing includes strategy alignment, channel integration, message consistency, data integration, and unified measurement."
@@ -1161,60 +1161,60 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           id: 3,
           question: "What is the first step in technology implementation?",
           options: [
+            "Copying competitors",
             "Current state assessment",
             "Buying expensive tools",
-            "Firing current team",
-            "Copying competitors"
+            "Firing current team"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "First assess current tools, processes, and gaps before selecting new technology solutions."
         },
         {
           id: 4,
           question: "What is content repurposing?",
           options: [
-            "Using content in different ways or formats",
             "Deleting old content",
-            "Copying competitor content",
-            "Only using content once"
+            "Only using content once",
+            "Using content in different ways or formats",
+            "Copying competitor content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Content repurposing involves adapting existing content for different formats, channels, or audiences."
         },
         {
           id: 5,
           question: "What channels typically drive awareness?",
           options: [
+            "Customer service",
             "Social media and display ads",
             "Only email",
-            "Customer service",
             "Accounting software"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Awareness channels like social media and display ads help reach new audiences and build brand recognition."
         },
         {
           id: 6,
           question: "What attribution gives credit to last touchpoint?",
           options: [
-            "Last-click attribution",
             "First-click attribution",
             "Linear attribution",
-            "Time-decay attribution"
+            "Time-decay attribution",
+            "Last-click attribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Last-click attribution gives all credit for a conversion to the final touchpoint before the conversion."
         },
         {
           id: 7,
           question: "What is channel orchestration?",
           options: [
-            "Coordinating efforts across channels",
             "Playing musical instruments",
-            "Only using one channel",
-            "Ignoring some channels"
+            "Ignoring some channels",
+            "Coordinating efforts across channels",
+            "Only using one channel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Channel orchestration involves coordinating messaging, timing, and efforts across different marketing channels."
         },
         {
@@ -1222,9 +1222,9 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           question: "What should campaigns start with?",
           options: [
             "Campaign strategy and objectives",
-            "Buying ads immediately",
+            "Hiring celebrities",
             "Designing logos",
-            "Hiring celebrities"
+            "Buying ads immediately"
           ],
           correctAnswer: 0,
           explanation: "Campaigns should start with clear strategy, objectives, target audience, and positioning."
@@ -1233,84 +1233,84 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           id: 9,
           question: "What team model has central experts supporting units?",
           options: [
-            "Center of Excellence model",
             "Siloed model",
-            "No team model",
-            "Competitor model"
+            "Competitor model",
+            "Center of Excellence model",
+            "No team model"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Center of Excellence model features central experts who support various business units or teams."
         },
         {
           id: 10,
           question: "What helps overcome organizational barriers?",
           options: [
-            "Shared goals and incentives",
+            "Ignoring problems",
             "More meetings",
-            "Secret plans",
-            "Ignoring problems"
+            "Shared goals and incentives",
+            "Secret plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Shared goals and incentives align teams toward common objectives, reducing conflicts and silos."
         },
         {
           id: 11,
           question: "What is a benefit of marketing integration?",
           options: [
-            "Improved customer experience",
             "More confusing messages",
+            "Slower execution",
             "Higher costs",
-            "Slower execution"
+            "Improved customer experience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Integrated marketing provides more consistent customer experiences across all touchpoints."
         },
         {
           id: 12,
           question: "What approach selects best individual tools?",
           options: [
-            "Best-of-breed approach",
             "Suite approach",
-            "No tools approach",
-            "Random selection"
+            "Best-of-breed approach",
+            "Random selection",
+            "No tools approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Best-of-breed approach selects the best individual tools for each function and integrates them."
         },
         {
           id: 13,
           question: "What involves inventory of existing content?",
           options: [
-            "Content audit",
             "Content deletion",
             "Content guessing",
-            "Content ignoring"
+            "Content ignoring",
+            "Content audit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Content audit systematically inventories and evaluates all existing content assets."
         },
         {
           id: 14,
           question: "What channels drive actions like purchases?",
           options: [
-            "Conversion channels",
+            "Ignored channels",
             "Awareness channels",
             "Retention channels",
-            "Ignored channels"
+            "Conversion channels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Conversion channels like search ads and optimized websites are designed to drive specific actions."
         },
         {
           id: 15,
           question: "What attribution gives equal credit to all touchpoints?",
           options: [
-            "Linear attribution",
             "Last-click attribution",
+            "Linear attribution",
             "First-click attribution",
             "Position-based attribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Linear attribution gives equal credit to every touchpoint in the customer journey."
         },
         {
@@ -1319,8 +1319,8 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           options: [
             "Launch sequence across channels",
             "Only social media",
-            "Employee vacations",
-            "Competitor activities"
+            "Competitor activities",
+            "Employee vacations"
           ],
           correctAnswer: 0,
           explanation: "Campaign launch sequence coordinates when different channels activate for maximum impact."
@@ -1330,9 +1330,9 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           question: "What team has dual reporting?",
           options: [
             "Matrix organization",
+            "Family organization",
             "Siloed organization",
-            "No organization",
-            "Family organization"
+            "No organization"
           ],
           correctAnswer: 0,
           explanation: "Matrix organizations feature team members reporting to both channel leads and business unit leaders."
@@ -1341,12 +1341,12 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           id: 18,
           question: "What skill involves big-picture planning?",
           options: [
-            "Strategic thinking",
-            "Only tactical execution",
+            "Channel specialization only",
             "Data ignoring",
-            "Channel specialization only"
+            "Strategic thinking",
+            "Only tactical execution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic thinking involves seeing the big picture and planning for long-term success."
         },
         {
@@ -1354,9 +1354,9 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           question: "What is content governance?",
           options: [
             "Standards and processes for content",
+            "Employee management",
             "Government regulations",
-            "Competitor monitoring",
-            "Employee management"
+            "Competitor monitoring"
           ],
           correctAnswer: 0,
           explanation: "Content governance establishes standards, processes, and guidelines for content creation and management."
@@ -1365,12 +1365,12 @@ Integrated digital marketing creates more effective, efficient marketing efforts
           id: 20,
           question: "What is a collaboration tool example?",
           options: [
-            "Shared dashboards",
-            "Secret notes",
+            "No communication",
             "Private emails only",
-            "No communication"
+            "Shared dashboards",
+            "Secret notes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Shared dashboards provide visibility into performance data across teams for better collaboration."
         }
       ]
@@ -1615,12 +1615,12 @@ Successful digital innovation requires balancing exploration of new possibilitie
           id: 1,
           question: "What type of innovation transforms markets?",
           options: [
+            "Radical innovation",
             "Disruptive innovation",
-            "Incremental innovation",
             "Architectural innovation",
-            "Radical innovation"
+            "Incremental innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Disruptive innovation introduces new approaches that fundamentally transform markets and value networks."
         },
         {
@@ -1641,36 +1641,36 @@ Successful digital innovation requires balancing exploration of new possibilitie
           id: 4,
           question: "What evaluates technology maturity and adoption?",
           options: [
-            "Market readiness assessment",
-            "Strategic fit assessment",
             "Competitive advantage assessment",
-            "Implementation feasibility"
+            "Strategic fit assessment",
+            "Implementation feasibility",
+            "Market readiness assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Market readiness evaluates how mature a technology is and how widely it has been adopted."
         },
         {
           id: 5,
           question: "What are visionaries who see potential?",
           options: [
-            "Early adopters",
-            "Innovators",
+            "Late majority",
             "Early majority",
-            "Late majority"
+            "Innovators",
+            "Early adopters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Early adopters are visionaries who recognize potential and adopt technologies before the mainstream."
         },
         {
           id: 6,
           question: "What AI application finds patterns and predictions?",
           options: [
-            "Cognitive insight",
-            "Process automation",
             "Cognitive engagement",
-            "Autonomous systems"
+            "Autonomous systems",
+            "Process automation",
+            "Cognitive insight"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cognitive insight AI analyzes data to find patterns, make predictions, and generate insights."
         },
         {
@@ -1686,8 +1686,8 @@ Successful digital innovation requires balancing exploration of new possibilitie
           options: [
             "Predictive analytics",
             "Descriptive analytics",
-            "Diagnostic analytics",
-            "Prescriptive analytics"
+            "Prescriptive analytics",
+            "Diagnostic analytics"
           ],
           correctAnswer: 0,
           explanation: "Predictive analytics uses statistical models and machine learning to forecast future events."
@@ -1696,12 +1696,12 @@ Successful digital innovation requires balancing exploration of new possibilitie
           id: 9,
           question: "What does IoT stand for?",
           options: [
-            "Internet of Things",
             "Internet of Technology",
+            "Innovation of Technology",
             "Integration of Things",
-            "Innovation of Technology"
+            "Internet of Things"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IoT stands for Internet of Things - connecting physical objects to the internet and each other."
         },
         {
@@ -1709,9 +1709,9 @@ Successful digital innovation requires balancing exploration of new possibilitie
           question: "What are self-executing agreements on blockchain?",
           options: [
             "Smart contracts",
-            "Digital identity",
+            "Supply chain tracking",
             "Tokenization",
-            "Supply chain tracking"
+            "Digital identity"
           ],
           correctAnswer: 0,
           explanation: "Smart contracts are self-executing agreements with terms written into code on blockchain."
@@ -1721,9 +1721,9 @@ Successful digital innovation requires balancing exploration of new possibilitie
           question: "What innovation makes small improvements?",
           options: [
             "Incremental innovation",
-            "Disruptive innovation",
             "Radical innovation",
-            "Architectural innovation"
+            "Architectural innovation",
+            "Disruptive innovation"
           ],
           correctAnswer: 0,
           explanation: "Incremental innovation involves making small, continuous improvements to existing products or processes."
@@ -1733,9 +1733,9 @@ Successful digital innovation requires balancing exploration of new possibilitie
           question: "What creates safe environment for ideas?",
           options: [
             "Psychological safety",
-            "Resource allocation",
+            "Learning orientation",
             "Incentive structures",
-            "Learning orientation"
+            "Resource allocation"
           ],
           correctAnswer: 0,
           explanation: "Psychological safety means employees feel safe to propose ideas without fear of negative consequences."
@@ -1744,48 +1744,48 @@ Successful digital innovation requires balancing exploration of new possibilitie
           id: 13,
           question: "What technologies should be implemented now?",
           options: [
-            "Adopt category in technology radar",
             "Trial category",
             "Assess category",
+            "Adopt category in technology radar",
             "Hold category"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adopt category includes technologies that are mature and ready for implementation now."
         },
         {
           id: 14,
           question: "What AI automates routine tasks?",
           options: [
-            "Process automation",
             "Cognitive insight",
             "Cognitive engagement",
+            "Process automation",
             "Autonomous systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Process automation AI handles routine, repetitive tasks that follow clear rules and patterns."
         },
         {
           id: 15,
           question: "What analytics recommends optimal actions?",
           options: [
-            "Prescriptive analytics",
+            "Predictive analytics",
             "Descriptive analytics",
             "Diagnostic analytics",
-            "Predictive analytics"
+            "Prescriptive analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Prescriptive analytics recommends specific actions to achieve desired outcomes or optimize results."
         },
         {
           id: 16,
           question: "What IoT application creates intelligent environments?",
           options: [
-            "Smart spaces",
+            "Asset tracking",
             "Smart operations",
             "Connected products",
-            "Asset tracking"
+            "Smart spaces"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Smart spaces use IoT to create intelligent environments like smart homes, offices, or cities."
         },
         {
@@ -1793,9 +1793,9 @@ Successful digital innovation requires balancing exploration of new possibilitie
           question: "What blockchain tracks provenance?",
           options: [
             "Supply chain transparency",
+            "Tokenization",
             "Smart contracts",
-            "Digital identity",
-            "Tokenization"
+            "Digital identity"
           ],
           correctAnswer: 0,
           explanation: "Blockchain for supply chain transparency tracks product origin, journey, and authenticity."
@@ -1804,36 +1804,36 @@ Successful digital innovation requires balancing exploration of new possibilitie
           id: 18,
           question: "What AR/VR application enables immersive learning?",
           options: [
+            "Remote assistance",
             "Training and education",
             "Product visualization",
-            "Remote assistance",
             "Marketing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "AR/VR for training and education creates immersive learning experiences that improve retention and engagement."
         },
         {
           id: 19,
           question: "What balances different innovation investments?",
           options: [
-            "Innovation portfolio management",
             "Random selection",
-            "Only one innovation type",
-            "Copying competitors"
+            "Copying competitors",
+            "Innovation portfolio management",
+            "Only one innovation type"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Innovation portfolio management balances different types, risk levels, and time horizons of innovation investments."
         },
         {
           id: 20,
           question: "What are formal innovation review points?",
           options: [
-            "Stage-gate process",
-            "Continuous approval",
             "No review needed",
-            "Annual review only"
+            "Stage-gate process",
+            "Annual review only",
+            "Continuous approval"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stage-gate process has formal review points where innovation projects are evaluated before proceeding."
         }
       ]
@@ -2108,36 +2108,36 @@ Effective digital operations create competitive advantage through efficiency, qu
           id: 1,
           question: "What converts manual processes to digital?",
           options: [
-            "Process digitization",
-            "Process ignoring",
             "Process deletion",
-            "Process hiding"
+            "Process hiding",
+            "Process digitization",
+            "Process ignoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Process digitization involves converting manual, paper-based processes to digital formats and workflows."
         },
         {
           id: 2,
           question: "What maturity level has self-optimizing systems?",
           options: [
-            "Autonomous operations",
-            "Manual operations",
             "Basic digitization",
-            "Integrated digitization"
+            "Autonomous operations",
+            "Integrated digitization",
+            "Manual operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Autonomous operations maturity level features self-optimizing systems that improve themselves automatically."
         },
         {
           id: 3,
           question: "What processes are good for automation?",
           options: [
-            "High volume and rule-based",
             "Unique one-time processes",
+            "High volume and rule-based",
             "Creative brainstorming",
             "Strategic planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "High-volume, repetitive, rule-based processes are ideal candidates for automation."
         },
         {
@@ -2145,9 +2145,9 @@ Effective digital operations create competitive advantage through efficiency, qu
           question: "What automates with software robots?",
           options: [
             "Robotic Process Automation (RPA)",
+            "Cognitive automation",
             "Business Process Management (BPM)",
-            "Workflow automation",
-            "Cognitive automation"
+            "Workflow automation"
           ],
           correctAnswer: 0,
           explanation: "RPA uses software robots to automate repetitive, rule-based tasks typically done by humans."
@@ -2156,12 +2156,12 @@ Effective digital operations create competitive advantage through efficiency, qu
           id: 5,
           question: "What analytics anticipates equipment failures?",
           options: [
+            "Root cause analysis",
             "Predictive maintenance",
             "Performance monitoring",
-            "Root cause analysis",
             "Quality control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Predictive maintenance uses data and analytics to anticipate equipment failures before they occur."
         },
         {
@@ -2175,12 +2175,12 @@ Effective digital operations create competitive advantage through efficiency, qu
           id: 7,
           question: "What are platforms for team communication?",
           options: [
+            "Knowledge management",
             "Collaboration tools",
             "Productivity software",
-            "Knowledge management",
             "Learning platforms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Collaboration tools enable team communication, file sharing, and coordinated work."
         },
         {
@@ -2199,72 +2199,72 @@ Effective digital operations create competitive advantage through efficiency, qu
           id: 9,
           question: "What provides real-time supply chain tracking?",
           options: [
-            "Supply chain visibility",
-            "Supply chain guessing",
             "Supply chain ignoring",
-            "Supply chain hoping"
+            "Supply chain visibility",
+            "Supply chain hoping",
+            "Supply chain guessing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Supply chain visibility provides real-time tracking and monitoring of goods throughout the supply chain."
         },
         {
           id: 10,
           question: "What are automated customer service agents?",
           options: [
-            "Chatbots and virtual assistants",
+            "Email auto-replies only",
             "Human only agents",
             "Phone trees only",
-            "Email auto-replies only"
+            "Chatbots and virtual assistants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Chatbots and virtual assistants provide automated customer service through conversational interfaces."
         },
         {
           id: 11,
           question: "What is the first step in process digitization?",
           options: [
+            "Firing employees",
             "Process identification",
             "Buying software immediately",
-            "Firing employees",
             "Closing business"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "First identify which processes to digitize based on impact, feasibility, and business value."
         },
         {
           id: 12,
           question: "What maturity has some processes digitized?",
           options: [
-            "Basic digitization",
             "Manual operations",
             "Integrated digitization",
-            "Intelligent automation"
+            "Intelligent automation",
+            "Basic digitization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Basic digitization level has some processes converted to digital but they may not be well integrated."
         },
         {
           id: 13,
           question: "What automates end-to-end processes?",
           options: [
-            "Business Process Management (BPM)",
             "Robotic Process Automation (RPA)",
+            "Cognitive automation",
             "Workflow automation",
-            "Cognitive automation"
+            "Business Process Management (BPM)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "BPM focuses on automating and optimizing end-to-end business processes across the organization."
         },
         {
           id: 14,
           question: "What tracks real-time operational metrics?",
           options: [
-            "Performance monitoring",
-            "Predictive maintenance",
             "Resource optimization",
-            "Quality control"
+            "Quality control",
+            "Performance monitoring",
+            "Predictive maintenance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Performance monitoring involves real-time tracking of key operational metrics and indicators."
         },
         {
@@ -2279,9 +2279,9 @@ Effective digital operations create competitive advantage through efficiency, qu
           question: "What captures and shares knowledge?",
           options: [
             "Knowledge management systems",
-            "Collaboration tools",
+            "Learning platforms",
             "Productivity software",
-            "Learning platforms"
+            "Collaboration tools"
           ],
           correctAnswer: 0,
           explanation: "Knowledge management systems capture, organize, and share organizational knowledge and expertise."
@@ -2290,24 +2290,24 @@ Effective digital operations create competitive advantage through efficiency, qu
           id: 17,
           question: "What enables remote teamwork skills?",
           options: [
+            "Automation skills",
             "Digital collaboration skills",
             "Data literacy",
-            "Automation skills",
             "Digital literacy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digital collaboration skills enable effective teamwork and communication in remote or hybrid environments."
         },
         {
           id: 18,
           question: "What anticipates customer needs before they ask?",
           options: [
-            "Predictive service",
             "Reactive service",
-            "Ignoring service",
-            "Delayed service"
+            "Delayed service",
+            "Predictive service",
+            "Ignoring service"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Predictive service uses data and analytics to anticipate customer needs and address them proactively."
         },
         {
@@ -2315,9 +2315,9 @@ Effective digital operations create competitive advantage through efficiency, qu
           question: "What measures ease of getting service?",
           options: [
             "Customer Effort Score",
+            "Customer Satisfaction",
             "First Contact Resolution",
-            "Response time",
-            "Customer Satisfaction"
+            "Response time"
           ],
           correctAnswer: 0,
           explanation: "Customer Effort Score measures how easy or difficult it is for customers to get service or solve problems."
@@ -2328,8 +2328,8 @@ Effective digital operations create competitive advantage through efficiency, qu
           options: [
             "Measure performance",
             "Implement changes",
-            "Design improvements",
-            "Standardize improvements"
+            "Standardize improvements",
+            "Design improvements"
           ],
           correctAnswer: 0,
           explanation: "First measure current performance to establish a baseline before making improvements."
@@ -2615,8 +2615,8 @@ Effective digital strategy implementation requires careful planning, strong gove
           options: [
             "Strategy implementation",
             "Strategy ignoring",
-            "Strategy writing only",
-            "Strategy dreaming"
+            "Strategy dreaming",
+            "Strategy writing only"
           ],
           correctAnswer: 0,
           explanation: "Strategy implementation involves the detailed planning and execution needed to turn strategic plans into reality."
@@ -2625,24 +2625,24 @@ Effective digital strategy implementation requires careful planning, strong gove
           id: 2,
           question: "What is sequential, phase-gated implementation?",
           options: [
+            "Hybrid approach",
             "Waterfall approach",
             "Agile implementation",
-            "Hybrid approach",
             "Pilot approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Waterfall approach involves sequential, phase-gated implementation with distinct stages and approvals."
         },
         {
           id: 3,
           question: "What defines who makes digital decisions?",
           options: [
-            "Decision rights in governance",
-            "Accountability structures",
             "Policy framework",
-            "Performance monitoring"
+            "Accountability structures",
+            "Performance monitoring",
+            "Decision rights in governance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Decision rights define who has authority to make what types of decisions about digital initiatives."
         },
         {
@@ -2650,9 +2650,9 @@ Effective digital strategy implementation requires careful planning, strong gove
           question: "What governance balances central and local control?",
           options: [
             "Federated governance",
-            "Centralized governance",
+            "No governance",
             "Decentralized governance",
-            "No governance"
+            "Centralized governance"
           ],
           correctAnswer: 0,
           explanation: "Federated governance balances centralized oversight with local autonomy and decision-making."
@@ -2662,9 +2662,9 @@ Effective digital strategy implementation requires careful planning, strong gove
           question: "What is the first change management principle?",
           options: [
             "Start with why",
-            "Implement immediately",
+            "Communicate rarely",
             "Ignore resistance",
-            "Communicate rarely"
+            "Implement immediately"
           ],
           correctAnswer: 0,
           explanation: "Starting with 'why' helps people understand the reasons for change and builds support."
@@ -2673,48 +2673,48 @@ Effective digital strategy implementation requires careful planning, strong gove
           id: 6,
           question: "What involves identifying who is affected?",
           options: [
-            "Stakeholder analysis",
-            "Budget planning",
             "Technology selection",
-            "Office decoration"
+            "Office decoration",
+            "Budget planning",
+            "Stakeholder analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stakeholder analysis identifies all parties affected by digital changes and understands their perspectives."
         },
         {
           id: 7,
           question: "What are data breaches and hacking?",
           options: [
-            "Cybersecurity risks",
-            "Strategic risks",
+            "Compliance risks",
             "Operational risks",
-            "Compliance risks"
+            "Strategic risks",
+            "Cybersecurity risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cybersecurity risks include data breaches, hacking, malware, and other digital security threats."
         },
         {
           id: 8,
           question: "What is building privacy into products?",
           options: [
-            "Privacy by design",
-            "Privacy afterthought",
             "Privacy ignoring",
-            "Privacy hoping"
+            "Privacy hoping",
+            "Privacy by design",
+            "Privacy afterthought"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Privacy by design means incorporating privacy considerations into digital product design from the beginning."
         },
         {
           id: 9,
           question: "What measures digital strategy success?",
           options: [
-            "Strategic metrics",
-            "Only financial metrics",
             "Only customer metrics",
-            "No metrics needed"
+            "Only financial metrics",
+            "No metrics needed",
+            "Strategic metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic metrics measure the overall success of digital strategy in achieving its objectives."
         },
         {
@@ -2722,8 +2722,8 @@ Effective digital strategy implementation requires careful planning, strong gove
           question: "What perspective asks how digital creates value?",
           options: [
             "Financial perspective",
-            "Customer perspective",
             "Internal process perspective",
+            "Customer perspective",
             "Learning perspective"
           ],
           correctAnswer: 0,
@@ -2733,36 +2733,36 @@ Effective digital strategy implementation requires careful planning, strong gove
           id: 11,
           question: "What is uncontrolled expansion of scope?",
           options: [
-            "Scope creep",
-            "Scope reduction",
             "Scope perfection",
-            "Scope ignoring"
+            "Scope ignoring",
+            "Scope creep",
+            "Scope reduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scope creep refers to uncontrolled expansion of project scope during implementation."
         },
         {
           id: 12,
           question: "What has central experts advising local decisions?",
           options: [
-            "Center of Excellence model",
-            "Centralized governance",
             "Decentralized governance",
+            "Centralized governance",
+            "Center of Excellence model",
             "Federated governance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Center of Excellence model features central experts who advise and support local decision-making."
         },
         {
           id: 13,
           question: "What is the first step in change management?",
           options: [
-            "Prepare for change",
+            "Sustain changes",
             "Implement changes",
-            "Embed changes",
-            "Sustain changes"
+            "Prepare for change",
+            "Embed changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "First prepare for change by assessing readiness and building foundation for successful change."
         },
         {
@@ -2770,9 +2770,9 @@ Effective digital strategy implementation requires careful planning, strong gove
           question: "What involves evaluating likelihood and impact?",
           options: [
             "Risk assessment",
-            "Risk identification",
             "Risk prioritization",
-            "Risk treatment"
+            "Risk treatment",
+            "Risk identification"
           ],
           correctAnswer: 0,
           explanation: "Risk assessment evaluates the likelihood and potential impact of identified risks."
@@ -2781,72 +2781,72 @@ Effective digital strategy implementation requires careful planning, strong gove
           id: 15,
           question: "What ensures adherence to regulations?",
           options: [
-            "Compliance monitoring",
+            "Team building",
             "Risk assessment",
-            "Budget planning",
-            "Team building"
+            "Compliance monitoring",
+            "Budget planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Compliance monitoring ensures digital activities adhere to relevant laws, regulations, and standards."
         },
         {
           id: 16,
           question: "What measures digital customer experience?",
           options: [
-            "Customer metrics",
             "Strategic metrics",
+            "Customer metrics",
             "Operational metrics",
             "Financial metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Customer metrics measure how digital initiatives affect customer experience and satisfaction."
         },
         {
           id: 17,
           question: "What builds budget from scratch each period?",
           options: [
-            "Zero-based budgeting",
-            "Incremental budgeting",
+            "Activity-based budgeting",
             "Value-based budgeting",
-            "Activity-based budgeting"
+            "Incremental budgeting",
+            "Zero-based budgeting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Zero-based budgeting builds the budget from zero each period, justifying all expenses anew."
         },
         {
           id: 18,
           question: "What are technical and business digital competencies?",
           options: [
-            "Digital skills",
             "Digital leadership",
             "Digital culture",
-            "Digital processes"
+            "Digital processes",
+            "Digital skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital skills include both technical competencies and business understanding needed for digital work."
         },
         {
           id: 19,
           question: "What is the first step in strategy review?",
           options: [
-            "Performance assessment",
-            "Environmental scanning",
             "Stakeholder feedback",
-            "Strategy adjustment"
+            "Strategy adjustment",
+            "Performance assessment",
+            "Environmental scanning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "First assess current performance to understand how well the existing strategy is working."
         },
         {
           id: 20,
           question: "What involves testing assumptions and learning?",
           options: [
+            "Copying competitors",
             "Experimentation mindset",
             "Rigid planning",
-            "Copying competitors",
             "Ignoring data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Experimentation mindset involves testing assumptions, learning from results, and adapting based on evidence."
         }
       ]
@@ -2862,24 +2862,24 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 1,
         question: "What are the three pillars of digital transformation?",
         options: [
-          "Customer Experience, Operations, Business Model",
-          "Technology, People, Processes",
           "Website, Social Media, Email",
+          "Technology, People, Processes",
+          "Customer Experience, Operations, Business Model",
           "Marketing, Sales, Service"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The three pillars are Customer Experience Transformation, Operational Process Transformation, and Business Model Transformation."
       },
       {
         id: 2,
         question: "What is digital customer experience?",
         options: [
-          "Sum of all interactions across digital channels",
-          "Only website experience",
           "Social media presence",
-          "Email marketing"
+          "Only website experience",
+          "Email marketing",
+          "Sum of all interactions across digital channels"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "DCX is the total of all interactions a customer has with your brand across all digital channels."
       },
       {
@@ -2888,8 +2888,8 @@ Effective digital strategy implementation requires careful planning, strong gove
         options: [
           "Strategy alignment and channel integration",
           "Only social media",
-          "Separate teams working independently",
-          "Different messages per channel"
+          "Different messages per channel",
+          "Separate teams working independently"
         ],
         correctAnswer: 0,
         explanation: "Integrated marketing includes strategy alignment, channel integration, message consistency, data integration, and unified measurement."
@@ -2898,24 +2898,24 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 4,
         question: "What type of innovation transforms markets?",
         options: [
-          "Disruptive innovation",
           "Incremental innovation",
-          "Architectural innovation",
-          "Radical innovation"
+          "Disruptive innovation",
+          "Radical innovation",
+          "Architectural innovation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Disruptive innovation introduces new approaches that fundamentally transform markets and value networks."
       },
       {
         id: 5,
         question: "What converts manual processes to digital?",
         options: [
-          "Process digitization",
           "Process ignoring",
           "Process deletion",
-          "Process hiding"
+          "Process hiding",
+          "Process digitization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Process digitization involves converting manual, paper-based processes to digital formats and workflows."
       },
       {
@@ -2924,8 +2924,8 @@ Effective digital strategy implementation requires careful planning, strong gove
         options: [
           "Strategy implementation",
           "Strategy ignoring",
-          "Strategy writing only",
-          "Strategy dreaming"
+          "Strategy dreaming",
+          "Strategy writing only"
         ],
         correctAnswer: 0,
         explanation: "Strategy implementation involves detailed planning and execution to turn strategic plans into reality."
@@ -2934,12 +2934,12 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 7,
         question: "What is the first step in strategy development?",
         options: [
-          "Environmental scanning",
-          "Writing implementation plan",
           "Buying technology",
-          "Hiring consultants"
+          "Hiring consultants",
+          "Environmental scanning",
+          "Writing implementation plan"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Environmental scanning analyzes market, competition, and technology trends before strategy development."
       },
       {
@@ -2947,9 +2947,9 @@ Effective digital strategy implementation requires careful planning, strong gove
         question: "What is journey mapping first step?",
         options: [
           "Define customer personas",
-          "Buy mapping software",
           "Interview competitors",
-          "Design new website"
+          "Design new website",
+          "Buy mapping software"
         ],
         correctAnswer: 0,
         explanation: "First define who you're mapping for by creating detailed customer personas."
@@ -2958,12 +2958,12 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 9,
         question: "What is a marketing technology stack?",
         options: [
-          "Collection of marketing tools and systems",
           "Physical stack of papers",
           "Employee hierarchy",
-          "Competitor analysis"
+          "Competitor analysis",
+          "Collection of marketing tools and systems"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "A martech stack is the collection of technology tools used to execute and measure marketing activities."
       },
       {
@@ -2977,60 +2977,60 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 11,
         question: "What maturity has self-optimizing systems?",
         options: [
-          "Autonomous operations",
-          "Manual operations",
           "Basic digitization",
+          "Manual operations",
+          "Autonomous operations",
           "Integrated digitization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Autonomous operations maturity level features self-optimizing systems that improve themselves automatically."
       },
       {
         id: 12,
         question: "What is sequential implementation?",
         options: [
-          "Waterfall approach",
-          "Agile implementation",
           "Hybrid approach",
+          "Agile implementation",
+          "Waterfall approach",
           "Pilot approach"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Waterfall approach involves sequential, phase-gated implementation with distinct stages."
       },
       {
         id: 13,
         question: "What level leads digital disruption?",
         options: [
-          "Digital innovators",
-          "Digital beginners",
           "Digital conservatives",
-          "Digital intermediates"
+          "Digital intermediates",
+          "Digital beginners",
+          "Digital innovators"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Digital innovators lead digital transformation and disrupt markets with innovative approaches."
       },
       {
         id: 14,
         question: "What personalization uses individual behavior?",
         options: [
-          "Individualized personalization",
-          "Segmented personalization",
           "Predictive personalization",
-          "Contextual personalization"
+          "Segmented personalization",
+          "Contextual personalization",
+          "Individualized personalization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Individualized personalization tailors experiences based on individual user behavior and history."
       },
       {
         id: 15,
         question: "What is content repurposing?",
         options: [
+          "Only using content once",
           "Using content in different ways or formats",
           "Deleting old content",
-          "Copying competitor content",
-          "Only using content once"
+          "Copying competitor content"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Content repurposing involves adapting existing content for different formats, channels, or audiences."
       },
       {
@@ -3046,8 +3046,8 @@ Effective digital strategy implementation requires careful planning, strong gove
         options: [
           "High volume and rule-based",
           "Unique one-time processes",
-          "Creative brainstorming",
-          "Strategic planning"
+          "Strategic planning",
+          "Creative brainstorming"
         ],
         correctAnswer: 0,
         explanation: "High-volume, repetitive, rule-based processes are ideal candidates for automation."
@@ -3058,8 +3058,8 @@ Effective digital strategy implementation requires careful planning, strong gove
         options: [
           "Decision rights in governance",
           "Accountability structures",
-          "Policy framework",
-          "Performance monitoring"
+          "Performance monitoring",
+          "Policy framework"
         ],
         correctAnswer: 0,
         explanation: "Decision rights define who has authority to make what types of decisions about digital initiatives."
@@ -3068,72 +3068,72 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 19,
         question: "What principle starts with customer needs?",
         options: [
-          "Customer-centricity",
-          "Agility",
           "Experimentation",
-          "Ecosystem thinking"
+          "Ecosystem thinking",
+          "Agility",
+          "Customer-centricity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Customer-centricity means starting with customer needs and working backward to solutions."
       },
       {
         id: 20,
         question: "What does CDP stand for?",
         options: [
-          "Customer Data Platform",
-          "Content Delivery Platform",
           "Corporate Development Plan",
-          "Customer Development Program"
+          "Content Delivery Platform",
+          "Customer Development Program",
+          "Customer Data Platform"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "CDP stands for Customer Data Platform - systems that create unified customer profiles from multiple data sources."
       },
       {
         id: 21,
         question: "What attribution gives credit to last touchpoint?",
         options: [
-          "Last-click attribution",
           "First-click attribution",
           "Linear attribution",
-          "Time-decay attribution"
+          "Time-decay attribution",
+          "Last-click attribution"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Last-click attribution gives all credit for a conversion to the final touchpoint before the conversion."
       },
       {
         id: 22,
         question: "What evaluates technology maturity?",
         options: [
-          "Market readiness assessment",
-          "Strategic fit assessment",
           "Competitive advantage assessment",
-          "Implementation feasibility"
+          "Implementation feasibility",
+          "Strategic fit assessment",
+          "Market readiness assessment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Market readiness evaluates how mature a technology is and how widely it has been adopted."
       },
       {
         id: 23,
         question: "What automates with software robots?",
         options: [
+          "Cognitive automation",
           "Robotic Process Automation (RPA)",
           "Business Process Management (BPM)",
-          "Workflow automation",
-          "Cognitive automation"
+          "Workflow automation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "RPA uses software robots to automate repetitive, rule-based tasks typically done by humans."
       },
       {
         id: 24,
         question: "What is the first change principle?",
         options: [
-          "Start with why",
+          "Communicate rarely",
           "Implement immediately",
           "Ignore resistance",
-          "Communicate rarely"
+          "Start with why"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Starting with 'why' helps people understand the reasons for change and builds support."
       },
       {
@@ -3141,8 +3141,8 @@ Effective digital strategy implementation requires careful planning, strong gove
         question: "What business model has recurring revenue?",
         options: [
           "Subscription model",
-          "One-time sale model",
           "Free model",
+          "One-time sale model",
           "Barter model"
         ],
         correctAnswer: 0,
@@ -3152,36 +3152,36 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 26,
         question: "What measures likelihood to recommend?",
         options: [
-          "Net Promoter Score (NPS)",
-          "Customer Satisfaction (CSAT)",
           "Customer Effort Score (CES)",
-          "Retention rate"
+          "Customer Satisfaction (CSAT)",
+          "Retention rate",
+          "Net Promoter Score (NPS)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Net Promoter Score measures how likely customers are to recommend your business to others."
       },
       {
         id: 27,
         question: "What channels drive awareness?",
         options: [
-          "Social media and display ads",
+          "Accounting software",
           "Only email",
           "Customer service",
-          "Accounting software"
+          "Social media and display ads"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Awareness channels like social media and display ads help reach new audiences and build brand recognition."
       },
       {
         id: 28,
         question: "What AI finds patterns and predictions?",
         options: [
+          "Autonomous systems",
           "Cognitive insight",
           "Process automation",
-          "Cognitive engagement",
-          "Autonomous systems"
+          "Cognitive engagement"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cognitive insight AI analyzes data to find patterns, make predictions, and generate insights."
       },
       {
@@ -3189,8 +3189,8 @@ Effective digital strategy implementation requires careful planning, strong gove
         question: "What analytics anticipates equipment failures?",
         options: [
           "Predictive maintenance",
-          "Performance monitoring",
           "Root cause analysis",
+          "Performance monitoring",
           "Quality control"
         ],
         correctAnswer: 0,
@@ -3201,8 +3201,8 @@ Effective digital strategy implementation requires careful planning, strong gove
         question: "What involves identifying who is affected?",
         options: [
           "Stakeholder analysis",
-          "Budget planning",
           "Technology selection",
+          "Budget planning",
           "Office decoration"
         ],
         correctAnswer: 0,
@@ -3212,24 +3212,24 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 31,
         question: "What is future-back planning?",
         options: [
-          "Starting with end goal in mind",
           "Planning only for past successes",
           "Ignoring future trends",
-          "Copying competitors exactly"
+          "Copying competitors exactly",
+          "Starting with end goal in mind"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Future-back planning starts with defining the desired future state and works backward to current actions needed."
       },
       {
         id: 32,
         question: "What is omnichannel vs. multichannel?",
         options: [
-          "Multichannel is presence, omnichannel is seamless integration",
+          "Multichannel is digital only",
           "No difference",
           "Omnichannel has fewer channels",
-          "Multichannel is digital only"
+          "Multichannel is presence, omnichannel is seamless integration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Multichannel means being present on multiple channels; omnichannel provides integrated, seamless experiences across them."
       },
       {
@@ -3274,36 +3274,36 @@ Effective digital strategy implementation requires careful planning, strong gove
         id: 37,
         question: "What business model connects buyers and sellers?",
         options: [
-          "Marketplace model",
           "Subscription model",
+          "Marketplace model",
           "E-commerce model",
           "Freemium model"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Marketplace models create platforms that connect buyers and sellers of products or services."
       },
       {
         id: 38,
         question: "What does VoC stand for?",
         options: [
-          "Voice of Customer",
           "Value of Content",
-          "Vision of Company",
-          "Volume of Commerce"
+          "Voice of Customer",
+          "Volume of Commerce",
+          "Vision of Company"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "VoC stands for Voice of Customer - systematic collection and analysis of customer feedback."
       },
       {
         id: 39,
         question: "What governance balances central and local control?",
         options: [
-          "Federated governance",
           "Centralized governance",
           "Decentralized governance",
-          "No governance"
+          "No governance",
+          "Federated governance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Federated governance balances centralized oversight with local autonomy and decision-making."
       },
       {
@@ -3311,9 +3311,9 @@ Effective digital strategy implementation requires careful planning, strong gove
         question: "What measures digital strategy success?",
         options: [
           "Strategic metrics",
+          "No metrics needed",
           "Only financial metrics",
-          "Only customer metrics",
-          "No metrics needed"
+          "Only customer metrics"
         ],
         correctAnswer: 0,
         explanation: "Strategic metrics measure the overall success of digital strategy in achieving its objectives."

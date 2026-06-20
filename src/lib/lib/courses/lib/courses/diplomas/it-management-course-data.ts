@@ -94,9 +94,9 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           question: "What is the primary focus of IT management?",
           options: [
             "Ensuring technology supports business objectives",
+            "Managing individual computers",
             "Fixing technical problems quickly",
-            "Buying the latest technology",
-            "Managing individual computers"
+            "Buying the latest technology"
           ],
           correctAnswer: 0,
           explanation: "IT management focuses on aligning technology with business goals to create value."
@@ -107,8 +107,8 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           options: [
             "Management focuses on planning and strategy",
             "Technical roles pay more money",
-            "Management requires no technical knowledge",
-            "Technical roles involve more meetings"
+            "Technical roles involve more meetings",
+            "Management requires no technical knowledge"
           ],
           correctAnswer: 0,
           explanation: "Management emphasizes strategic planning while technical roles focus on specific problem-solving."
@@ -117,48 +117,48 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           id: 3,
           question: "Which management function involves developing technology strategies?",
           options: [
+            "Leading",
             "Planning",
             "Organizing",
-            "Leading",
             "Controlling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Planning involves developing strategies and roadmaps for technology implementation."
         },
         {
           id: 4,
           question: "What does strategic alignment in IT management mean?",
           options: [
-            "Technology supporting business goals",
+            "Using only the latest technology",
             "All computers being the same brand",
             "Staff working the same hours",
-            "Using only the latest technology"
+            "Technology supporting business goals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic alignment ensures technology investments directly support business objectives."
         },
         {
           id: 5,
           question: "What does IT governance establish?",
           options: [
-            "Who makes technology decisions and how",
             "Which software to install on computers",
+            "Office furniture arrangements",
             "Employee vacation schedules",
-            "Office furniture arrangements"
+            "Who makes technology decisions and how"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Governance defines decision-making processes and accountability for technology."
         },
         {
           id: 6,
           question: "Which skill helps explain technical concepts to non-technical leaders?",
           options: [
-            "Communication",
-            "Programming",
             "Network design",
-            "Hardware repair"
+            "Communication",
+            "Hardware repair",
+            "Programming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clear communication bridges the gap between technical details and business understanding."
         },
         {
@@ -166,9 +166,9 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           question: "What should technology investments create for an organization?",
           options: [
             "Business value",
+            "Higher electricity bills",
             "Technical complexity",
-            "More work for IT staff",
-            "Higher electricity bills"
+            "More work for IT staff"
           ],
           correctAnswer: 0,
           explanation: "Technology should create value by solving problems or creating opportunities."
@@ -177,72 +177,72 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           id: 8,
           question: "What does the organizing function involve?",
           options: [
-            "Structuring teams and resources efficiently",
+            "Writing software code",
             "Creating business strategies",
             "Fixing broken computers",
-            "Writing software code"
+            "Structuring teams and resources efficiently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Organizing involves designing team structures and allocating resources effectively."
         },
         {
           id: 9,
           question: "What question helps assess technology alignment?",
           options: [
-            "How does this technology help achieve business objectives?",
             "Is this the newest technology available?",
-            "Does this technology look impressive?",
-            "Will this technology be fun to use?"
+            "How does this technology help achieve business objectives?",
+            "Will this technology be fun to use?",
+            "Does this technology look impressive?"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Alignment questions focus on business value rather than technical features."
         },
         {
           id: 10,
           question: "What does the controlling function involve?",
           options: [
-            "Monitoring performance and making adjustments",
             "Telling employees what to do",
-            "Locking computer rooms",
-            "Setting strict rules for everything"
+            "Setting strict rules for everything",
+            "Monitoring performance and making adjustments",
+            "Locking computer rooms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Controlling involves tracking progress and making necessary corrections."
         },
         {
           id: 11,
           question: "What is business acumen in IT management?",
           options: [
+            "Speaking multiple languages",
             "Understanding how the organization makes money",
-            "Knowing all technical specifications",
             "Remembering employee birthdays",
-            "Speaking multiple languages"
+            "Knowing all technical specifications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Business acumen means understanding organizational goals and financial drivers."
         },
         {
           id: 12,
           question: "What does governance address regarding accountability?",
           options: [
-            "Who is responsible for technology outcomes",
+            "Who works the longest hours",
             "Who has the best office",
-            "Who makes the most money",
-            "Who works the longest hours"
+            "Who is responsible for technology outcomes",
+            "Who makes the most money"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Accountability ensures someone is responsible for technology results and decisions."
         },
         {
           id: 13,
           question: "Which skill involves seeing the big picture and future trends?",
           options: [
-            "Strategic thinking",
-            "Technical troubleshooting",
             "Software installation",
-            "Hardware repair"
+            "Hardware repair",
+            "Technical troubleshooting",
+            "Strategic thinking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic thinking looks beyond immediate issues to long-term goals and trends."
         },
         {
@@ -261,48 +261,48 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           id: 15,
           question: "What is the scope of management roles compared to technical roles?",
           options: [
-            "Entire departments or organizations",
+            "Single computer problems",
             "Individual systems or users",
             "Specific software applications",
-            "Single computer problems"
+            "Entire departments or organizations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Management has broader organizational scope while technical roles focus on specific areas."
         },
         {
           id: 16,
           question: "What does leading involve in management?",
           options: [
-            "Guiding and motivating staff",
             "Doing all the work yourself",
-            "Making all decisions alone",
-            "Following strict rules always"
+            "Guiding and motivating staff",
+            "Following strict rules always",
+            "Making all decisions alone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Leading involves inspiring, guiding, and developing team members."
         },
         {
           id: 17,
           question: "What is a key question for technology investments?",
           options: [
+            "Do other companies have this?",
             "What business problems does this technology solve?",
             "Is this technology on sale?",
-            "Do other companies have this?",
             "Will this make our IT look advanced?"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Focus should be on solving business problems rather than just having technology."
         },
         {
           id: 18,
           question: "What do performance measurements in governance track?",
           options: [
-            "Technology success and value",
-            "Employee arrival times",
             "Coffee consumption",
-            "Meeting duration"
+            "Technology success and value",
+            "Meeting duration",
+            "Employee arrival times"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Performance measurements assess whether technology delivers expected benefits."
         },
         {
@@ -310,9 +310,9 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           question: "What skill involves budgeting and cost control?",
           options: [
             "Financial management",
+            "Technical support",
             "Network configuration",
-            "Software development",
-            "Technical support"
+            "Software development"
           ],
           correctAnswer: 0,
           explanation: "Financial management ensures technology spending is controlled and delivers value."
@@ -321,12 +321,12 @@ Remember: Great IT managers don't just manage technology-they manage how technol
           id: 20,
           question: "What do great IT managers manage beyond technology?",
           options: [
-            "How technology creates business value",
+            "Only software licenses",
             "Only technical staff",
-            "Only computer hardware",
-            "Only software licenses"
+            "How technology creates business value",
+            "Only computer hardware"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective managers focus on the value technology brings to the organization."
         }
       ]
@@ -415,9 +415,9 @@ Remember: Good project management is about delivering results, not just followin
           question: "What is a project?",
           options: [
             "Temporary effort to create something unique",
+            "Permanent organizational function",
             "Ongoing daily operations",
-            "Routine maintenance work",
-            "Permanent organizational function"
+            "Routine maintenance work"
           ],
           correctAnswer: 0,
           explanation: "Projects are temporary with definite start and end dates, creating unique results."
@@ -426,120 +426,120 @@ Remember: Good project management is about delivering results, not just followin
           id: 2,
           question: "What is the first phase in the project lifecycle?",
           options: [
-            "Initiation",
-            "Planning",
             "Execution",
-            "Closure"
+            "Closure",
+            "Initiation",
+            "Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Initiation defines the project at a high level and gets approval to proceed."
         },
         {
           id: 3,
           question: "What document formally authorizes a project to start?",
           options: [
-            "Project charter",
-            "Scope statement",
             "Budget spreadsheet",
-            "Meeting minutes"
+            "Scope statement",
+            "Meeting minutes",
+            "Project charter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The project charter gives formal authorization and outlines project objectives."
         },
         {
           id: 4,
           question: "What is scope creep?",
           options: [
+            "Budget increasing as planned",
             "Uncontrolled changes to project requirements",
-            "Project scope becoming clearer",
             "Team members changing roles",
-            "Budget increasing as planned"
+            "Project scope becoming clearer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Scope creep occurs when requirements expand without adjusting time or budget."
         },
         {
           id: 5,
           question: "What breaks project work into manageable pieces?",
           options: [
-            "Work Breakdown Structure (WBS)",
             "Project charter",
+            "Work Breakdown Structure (WBS)",
             "Budget document",
             "Meeting schedule"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "WBS decomposes project deliverables into smaller, manageable work packages."
         },
         {
           id: 6,
           question: "Which approach uses sequential phases?",
           options: [
-            "Traditional (Waterfall)",
             "Agile",
+            "Improvisational",
             "Hybrid",
-            "Improvisational"
+            "Traditional (Waterfall)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Traditional methods use sequential phases where one completes before the next begins."
         },
         {
           id: 7,
           question: "What happens during the execution phase?",
           options: [
+            "High-level objectives are defined",
             "Teams complete work and produce deliverables",
             "Project plans are created",
-            "Project is formally closed",
-            "High-level objectives are defined"
+            "Project is formally closed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Execution involves carrying out the project work to create deliverables."
         },
         {
           id: 8,
           question: "What is a key project characteristic?",
           options: [
-            "Has a defined start and end date",
             "Continues forever",
+            "Has a defined start and end date",
             "Never changes scope",
             "Requires no resources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Projects are temporary efforts with specific beginning and ending points."
         },
         {
           id: 9,
           question: "What does progressive elaboration mean?",
           options: [
+            "Scope expands uncontrollably",
             "Details become clearer as project progresses",
-            "Project gets more expensive over time",
             "Team grows larger each month",
-            "Scope expands uncontrollably"
+            "Project gets more expensive over time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Progressive elaboration means understanding improves as more information becomes available."
         },
         {
           id: 10,
           question: "What is stakeholder management?",
           options: [
+            "Ignoring non-technical opinions",
             "Balancing different expectations and needs",
             "Managing only technical team members",
-            "Controlling project sponsors",
-            "Ignoring non-technical opinions"
+            "Controlling project sponsors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stakeholder management addresses the needs and expectations of all interested parties."
         },
         {
           id: 11,
           question: "Which phase involves tracking progress and making adjustments?",
           options: [
-            "Monitoring & Controlling",
-            "Initiation",
             "Planning",
-            "Closure"
+            "Initiation",
+            "Closure",
+            "Monitoring & Controlling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Monitoring & Controlling happens throughout to keep the project on track."
         },
         {
@@ -558,12 +558,12 @@ Remember: Good project management is about delivering results, not just followin
           id: 13,
           question: "What defines what is included in a project?",
           options: [
-            "Scope statement",
             "Budget document",
-            "Team roster",
-            "Office location"
+            "Office location",
+            "Scope statement",
+            "Team roster"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The scope statement defines project boundaries and deliverables."
         },
         {
@@ -572,8 +572,8 @@ Remember: Good project management is about delivering results, not just followin
           options: [
             "Limitations of time, cost, and scope",
             "Team member preferences",
-            "Office decoration choices",
-            "Software color schemes"
+            "Software color schemes",
+            "Office decoration choices"
           ],
           correctAnswer: 0,
           explanation: "Constraints are limitations that affect project execution, primarily time, cost, and scope."
@@ -583,9 +583,9 @@ Remember: Good project management is about delivering results, not just followin
           question: "What happens during project closure?",
           options: [
             "Formalizing completion and handing over results",
-            "Creating initial project plans",
+            "Expanding project scope",
             "Doing the main project work",
-            "Expanding project scope"
+            "Creating initial project plans"
           ],
           correctAnswer: 0,
           explanation: "Closure finalizes all work, documents lessons, and releases project resources."
@@ -594,36 +594,36 @@ Remember: Good project management is about delivering results, not just followin
           id: 16,
           question: "What is risk management in projects?",
           options: [
+            "Blaming others when things go wrong",
             "Identifying and addressing potential problems",
             "Ignoring possible issues",
-            "Assuming everything will work perfectly",
-            "Blaming others when things go wrong"
+            "Assuming everything will work perfectly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk management proactively identifies and addresses potential project problems."
         },
         {
           id: 17,
           question: "What shows when work will be done?",
           options: [
-            "Project schedule",
             "Budget document",
-            "Scope statement",
-            "Risk register"
+            "Risk register",
+            "Project schedule",
+            "Scope statement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The project schedule shows task sequences, durations, and timelines."
         },
         {
           id: 18,
           question: "What is technical complexity in IT projects?",
           options: [
-            "Integration difficulties with existing systems",
+            "Basic hardware setup",
             "Simple software installations",
-            "Easy user training",
-            "Basic hardware setup"
+            "Integration difficulties with existing systems",
+            "Easy user training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Technical complexity involves making new systems work with existing infrastructure."
         },
         {
@@ -631,9 +631,9 @@ Remember: Good project management is about delivering results, not just followin
           question: "What do many IT projects use?",
           options: [
             "Hybrid approaches combining methods",
+            "No structured methods",
             "Only traditional methods",
-            "Only agile methods",
-            "No structured methods"
+            "Only agile methods"
           ],
           correctAnswer: 0,
           explanation: "Hybrid approaches combine structure from traditional methods with flexibility from agile."
@@ -643,8 +643,8 @@ Remember: Good project management is about delivering results, not just followin
           question: "When do projects succeed?",
           options: [
             "When they deliver measurable business value",
-            "When they use the latest technology",
             "When they have the largest budget",
+            "When they use the latest technology",
             "When they take the longest time"
           ],
           correctAnswer: 0,
@@ -762,24 +762,24 @@ Remember: Leadership is about helping others succeed, not just exercising author
           id: 1,
           question: "What is the difference between leadership and management?",
           options: [
-            "Leadership inspires people, management plans work",
+            "Leadership doesn't require technical knowledge",
             "Leadership pays more than management",
             "Management is only for technical work",
-            "Leadership doesn't require technical knowledge"
+            "Leadership inspires people, management plans work"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leadership focuses on inspiring and guiding people, while management focuses on planning and organizing work."
         },
         {
           id: 2,
           question: "Which leadership style involves telling team members exactly what to do?",
           options: [
+            "Supportive",
             "Directive",
             "Coaching",
-            "Supportive",
             "Delegating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Directive style provides specific instructions, useful in crises or with inexperienced teams."
         },
         {
@@ -787,9 +787,9 @@ Remember: Leadership is about helping others succeed, not just exercising author
           question: "What is the first stage of team development?",
           options: [
             "Forming",
-            "Storming",
+            "Performing",
             "Norming",
-            "Performing"
+            "Storming"
           ],
           correctAnswer: 0,
           explanation: "Forming is when team members first come together and get acquainted."
@@ -798,180 +798,180 @@ Remember: Leadership is about helping others succeed, not just exercising author
           id: 4,
           question: "What does active listening involve?",
           options: [
-            "Fully focusing on understanding the speaker",
+            "Correcting their statements immediately",
             "Thinking about your response while they talk",
             "Waiting for them to stop talking",
-            "Correcting their statements immediately"
+            "Fully focusing on understanding the speaker"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Active listening means concentrating completely on understanding the speaker's message."
         },
         {
           id: 5,
           question: "What is succession planning?",
           options: [
+            "Ordering office supplies",
             "Preparing future leaders",
-            "Planning team vacations",
             "Scheduling meetings",
-            "Ordering office supplies"
+            "Planning team vacations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Succession planning ensures critical knowledge and skills are preserved and future leaders are ready."
         },
         {
           id: 6,
           question: "What does SMART stand for in goal setting?",
           options: [
+            "Structured, Monitorable, Assignable, Realistic, Trackable",
             "Specific, Measurable, Achievable, Relevant, Time-bound",
-            "Simple, Manageable, Appropriate, Reasonable, Timely",
             "Strategic, Meaningful, Actionable, Reliable, Targeted",
-            "Structured, Monitorable, Assignable, Realistic, Trackable"
+            "Simple, Manageable, Appropriate, Reasonable, Timely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound for clarity and effectiveness."
         },
         {
           id: 7,
           question: "What stage involves conflicts emerging in teams?",
           options: [
-            "Storming",
+            "Performing",
             "Forming",
             "Norming",
-            "Performing"
+            "Storming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Storming is when team members express differences and conflicts surface."
         },
         {
           id: 8,
           question: "What motivates many IT professionals?",
           options: [
+            "Avoiding new technology",
             "Challenging technical problems to solve",
             "Having many meetings",
-            "Following strict routines",
-            "Avoiding new technology"
+            "Following strict routines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technical professionals often enjoy solving complex problems and learning new skills."
         },
         {
           id: 9,
           question: "Which leadership style works with highly capable, self-directed professionals?",
           options: [
+            "Supportive",
             "Delegating",
             "Directive",
-            "Coaching",
-            "Supportive"
+            "Coaching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Delegating gives autonomy to capable team members who work well independently."
         },
         {
           id: 10,
           question: "What should feedback focus on?",
           options: [
-            "Behavior, not personality",
-            "Personal characteristics",
             "Family background",
+            "Personal characteristics",
+            "Behavior, not personality",
             "Physical appearance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective feedback addresses observable behaviors that can be changed, not personal traits."
         },
         {
           id: 11,
           question: "What is career pathing?",
           options: [
-            "Showing advancement opportunities within IT",
-            "Planning office moves",
             "Mapping commute routes",
-            "Designing organizational charts"
+            "Planning office moves",
+            "Designing organizational charts",
+            "Showing advancement opportunities within IT"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Career pathing clarifies potential progression paths for professional growth."
         },
         {
           id: 12,
           question: "What stage has high productivity and collaboration?",
           options: [
-            "Performing",
             "Forming",
             "Storming",
-            "Norming"
+            "Norming",
+            "Performing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Performing teams work efficiently and effectively toward their goals."
         },
         {
           id: 13,
           question: "What should performance assessment be?",
           options: [
-            "Objective using multiple data points",
-            "Based only on personal impressions",
             "Determined by office politics",
-            "Influenced by personal friendships"
+            "Influenced by personal friendships",
+            "Based only on personal impressions",
+            "Objective using multiple data points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fair assessment uses objective data and multiple perspectives for accuracy."
         },
         {
           id: 14,
           question: "What do effective leaders adapt based on?",
           options: [
+            "Stock market performance",
             "Situation, task, and team members",
             "Their mood that day",
-            "Weather conditions",
-            "Stock market performance"
+            "Weather conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective leaders adjust their style based on contextual factors and team needs."
         },
         {
           id: 15,
           question: "What is knowledge sharing?",
           options: [
+            "Reading books alone",
             "Encouraging team members to teach each other",
             "Keeping information secret",
-            "Reading books alone",
             "Attending conferences only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Knowledge sharing builds collective team capability and prevents knowledge silos."
         },
         {
           id: 16,
           question: "What helps accelerate team development?",
           options: [
-            "Clarifying goals and facilitating communication",
-            "Ignoring conflicts",
             "Withholding information",
+            "Ignoring conflicts",
+            "Clarifying goals and facilitating communication",
             "Changing goals frequently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clear goals and good communication help teams progress through development stages."
         },
         {
           id: 17,
           question: "What should recognition do?",
           options: [
-            "Acknowledge achievements and contributions",
             "Only happen at annual reviews",
+            "Acknowledge achievements and contributions",
             "Focus only on senior staff",
             "Be given equally regardless of effort"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Recognition validates effort and achievement, motivating continued excellence."
         },
         {
           id: 18,
           question: "What is development planning?",
           options: [
-            "Creating personalized growth paths",
-            "Planning office parties",
             "Scheduling equipment maintenance",
+            "Planning office parties",
+            "Creating personalized growth paths",
             "Budgeting for new furniture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Development plans outline how individuals can grow their skills and capabilities."
         },
         {
@@ -990,12 +990,12 @@ Remember: Leadership is about helping others succeed, not just exercising author
           id: 20,
           question: "What is leadership ultimately about?",
           options: [
-            "Helping others succeed",
-            "Exercising authority",
             "Being the smartest person",
-            "Making all decisions"
+            "Making all decisions",
+            "Helping others succeed",
+            "Exercising authority"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "True leadership focuses on enabling team success rather than personal power."
         }
       ]
@@ -1117,8 +1117,8 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           options: [
             "Why technology investments are worthwhile",
             "Only technical specifications",
-            "Employee work schedules",
-            "Office layout plans"
+            "Office layout plans",
+            "Employee work schedules"
           ],
           correctAnswer: 0,
           explanation: "A business case justifies investments by explaining problems, solutions, costs, and benefits."
@@ -1127,36 +1127,36 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           id: 2,
           question: "What is the first step in the budgeting process?",
           options: [
-            "Planning and estimating costs",
             "Spending the money",
             "Reporting on results",
-            "Asking for more money"
+            "Asking for more money",
+            "Planning and estimating costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Planning involves estimating costs for the upcoming budget period."
         },
         {
           id: 3,
           question: "What are capital expenditures (CapEx)?",
           options: [
-            "Large purchases that become organizational assets",
             "Day-to-day running costs",
+            "Large purchases that become organizational assets",
             "Employee salary payments",
             "Monthly utility bills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CapEx includes major purchases like equipment that are depreciated over time."
         },
         {
           id: 4,
           question: "What does TCO stand for?",
           options: [
-            "Total Cost of Ownership",
-            "Total Capital Outlay",
+            "Time-Cost Optimization",
             "Technical Cost Overview",
-            "Time-Cost Optimization"
+            "Total Cost of Ownership",
+            "Total Capital Outlay"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TCO considers all costs over an asset's life, not just purchase price."
         },
         {
@@ -1164,8 +1164,8 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           question: "What does ROI measure?",
           options: [
             "Financial return from an investment",
-            "Employee satisfaction",
             "Technical complexity",
+            "Employee satisfaction",
             "System reliability"
           ],
           correctAnswer: 0,
@@ -1175,24 +1175,24 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           id: 6,
           question: "What are operational expenditures (OpEx)?",
           options: [
-            "Day-to-day running costs",
-            "Major equipment purchases",
             "Building construction",
-            "Company acquisitions"
+            "Day-to-day running costs",
+            "Company acquisitions",
+            "Major equipment purchases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "OpEx includes recurring expenses like salaries, maintenance, and cloud services."
         },
         {
           id: 7,
           question: "What is variance analysis?",
           options: [
+            "Examining color differences",
             "Comparing actual to budgeted amounts",
             "Analyzing different opinions",
-            "Studying statistical variations",
-            "Examining color differences"
+            "Studying statistical variations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Variance analysis identifies differences between planned and actual financial performance."
         },
         {
@@ -1200,9 +1200,9 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           question: "What does a business case include about alternatives?",
           options: [
             "Other options considered and why this one was chosen",
-            "Only the recommended solution",
+            "Competitor pricing information",
             "Every possible technology available",
-            "Competitor pricing information"
+            "Only the recommended solution"
           ],
           correctAnswer: 0,
           explanation: "Considering alternatives shows due diligence in selecting the best option."
@@ -1211,24 +1211,24 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           id: 9,
           question: "What is contingency planning in budgeting?",
           options: [
-            "Setting aside reserves for unexpected expenses",
             "Planning team vacations",
-            "Scheduling equipment maintenance",
-            "Ordering office supplies"
+            "Setting aside reserves for unexpected expenses",
+            "Ordering office supplies",
+            "Scheduling equipment maintenance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingency reserves handle unforeseen expenses without breaking the budget."
         },
         {
           id: 10,
           question: "What should IT managers use when communicating financial information?",
           options: [
-            "Simple language and visuals",
             "Complex accounting terms",
-            "Technical specifications only",
-            "Legal contract language"
+            "Legal contract language",
+            "Simple language and visuals",
+            "Technical specifications only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Simple language and visuals make financial information accessible to non-financial stakeholders."
         },
         {
@@ -1236,9 +1236,9 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           question: "What are direct costs?",
           options: [
             "Expenses directly tied to specific projects or services",
+            "Costs that don't matter",
             "Costs that cannot be tracked",
-            "Expenses shared by everyone",
-            "Costs that don't matter"
+            "Expenses shared by everyone"
           ],
           correctAnswer: 0,
           explanation: "Direct costs can be specifically attributed to particular activities or departments."
@@ -1247,12 +1247,12 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           id: 12,
           question: "What does TCO include beyond purchase price?",
           options: [
-            "All costs over an asset's life",
-            "Only the sales tax",
+            "Initial setup only",
             "Just delivery charges",
-            "Initial setup only"
+            "Only the sales tax",
+            "All costs over an asset's life"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "TCO includes acquisition, operating, and end-of-life costs for complete comparison."
         },
         {
@@ -1260,9 +1260,9 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           question: "What is technology chargeback?",
           options: [
             "Allocating IT costs to user departments",
-            "Returning defective equipment",
+            "Charging customers for support",
             "Getting refunds for software",
-            "Charging customers for support"
+            "Returning defective equipment"
           ],
           correctAnswer: 0,
           explanation: "Chargeback models make IT costs visible to departments that use the services."
@@ -1272,9 +1272,9 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           question: "What is showback in IT finance?",
           options: [
             "Showing costs without actually charging them",
-            "Displaying financial reports",
+            "Revealing budget secrets",
             "Demonstrating new technology",
-            "Revealing budget secrets"
+            "Displaying financial reports"
           ],
           correctAnswer: 0,
           explanation: "Showback creates cost awareness without the complexity of actual financial transfers."
@@ -1283,72 +1283,72 @@ Remember: Financial management isn't about minimizing costs-it's about maximizin
           id: 15,
           question: "What should financial management maximize?",
           options: [
-            "Value from every dollar spent",
-            "The size of the IT budget",
             "Number of employees",
+            "The size of the IT budget",
+            "Value from every dollar spent",
             "Quantity of equipment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective financial management focuses on value, not just cost minimization."
         },
         {
           id: 16,
           question: "What does budget execution involve?",
           options: [
-            "Spending according to the approved budget",
-            "Creating the initial budget",
+            "Reporting on last year's spending",
             "Asking for budget approval",
-            "Reporting on last year's spending"
+            "Spending according to the approved budget",
+            "Creating the initial budget"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Execution means actually spending money in line with the approved budget plan."
         },
         {
           id: 17,
           question: "What are indirect costs?",
           options: [
-            "Shared expenses supporting multiple areas",
-            "Costs that don't need tracking",
             "Expenses for secret projects",
-            "Personal employee expenses"
+            "Personal employee expenses",
+            "Costs that don't need tracking",
+            "Shared expenses supporting multiple areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Indirect costs benefit multiple areas and require allocation methods."
         },
         {
           id: 18,
           question: "What is value management in budgeting?",
           options: [
+            "Avoiding all expenses",
             "Ensuring spending delivers maximum value",
-            "Finding the cheapest options",
             "Spending the entire budget",
-            "Avoiding all expenses"
+            "Finding the cheapest options"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Value management focuses on getting the best outcomes from available resources."
         },
         {
           id: 19,
           question: "What percentage might contingency reserves typically be?",
           options: [
+            "100% of unexpected costs",
             "5-15% of total budget",
-            "50-60% of total budget",
             "0-1% of total budget",
-            "100% of unexpected costs"
+            "50-60% of total budget"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingency reserves typically range from 5-15% to handle reasonable unforeseen expenses."
         },
         {
           id: 20,
           question: "What should ROI calculations for IT include?",
           options: [
-            "Cost savings, revenue growth, and productivity gains",
             "Only hardware purchase prices",
             "Employee vacation days",
-            "Office square footage"
+            "Office square footage",
+            "Cost savings, revenue growth, and productivity gains"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ROI should consider all financial benefits including savings, revenue, and productivity improvements."
         }
       ]
@@ -1484,8 +1484,8 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           options: [
             "Planning what you need from vendors",
             "Signing contracts immediately",
-            "Paying vendor invoices",
-            "Terminating underperforming vendors"
+            "Terminating underperforming vendors",
+            "Paying vendor invoices"
           ],
           correctAnswer: 0,
           explanation: "Planning involves clearly defining requirements before engaging with vendors."
@@ -1494,12 +1494,12 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           id: 2,
           question: "What should you evaluate when selecting vendors?",
           options: [
-            "Technical capability, financial stability, and reputation",
             "Only the lowest price",
+            "Employee dress code",
             "Vendor office location",
-            "Employee dress code"
+            "Technical capability, financial stability, and reputation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Comprehensive evaluation considers multiple factors beyond just price."
         },
         {
@@ -1518,108 +1518,108 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           id: 4,
           question: "What do SLAs define?",
           options: [
-            "Service performance standards expected",
-            "Employee work hours",
             "Office holiday schedule",
-            "Company vacation policy"
+            "Company vacation policy",
+            "Employee work hours",
+            "Service performance standards expected"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SLAs specify measurable service levels like availability, response times, and performance."
         },
         {
           id: 5,
           question: "What should negotiations focus on?",
           options: [
-            "Interests, not just positions",
             "Winning at all costs",
+            "Getting everything you want",
             "Making the other side lose",
-            "Getting everything you want"
+            "Interests, not just positions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective negotiations understand underlying needs rather than just stated demands."
         },
         {
           id: 6,
           question: "What is dependency risk with vendors?",
           options: [
-            "Becoming too reliant on a single vendor",
             "Vendors asking too many questions",
-            "Having too many vendor options",
-            "Vendors being too helpful"
+            "Vendors being too helpful",
+            "Becoming too reliant on a single vendor",
+            "Having too many vendor options"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dependency risk occurs when over-reliance on one vendor creates vulnerability."
         },
         {
           id: 7,
           question: "What should be in payment terms?",
           options: [
-            "Amounts, schedule, and payment method",
-            "Only the total amount",
             "Vendor bank account details only",
-            "Payment when you feel like it"
+            "Amounts, schedule, and payment method",
+            "Payment when you feel like it",
+            "Only the total amount"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clear payment terms prevent misunderstandings about when and how payments occur."
         },
         {
           id: 8,
           question: "What does 99.9% availability mean in SLAs?",
           options: [
-            "Services available all but 8.76 hours per year",
+            "Unavailable most of the time",
             "Perfect availability always",
-            "Available only during business hours",
-            "Unavailable most of the time"
+            "Services available all but 8.76 hours per year",
+            "Available only during business hours"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "99.9% availability allows approximately 8.76 hours of downtime per year."
         },
         {
           id: 9,
           question: "What is cultural fit in vendor selection?",
           options: [
+            "Similar company names",
             "Alignment of values and working styles",
             "Same office building location",
-            "Identical employee uniforms",
-            "Similar company names"
+            "Identical employee uniforms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cultural fit affects how well organizations work together over time."
         },
         {
           id: 10,
           question: "What should ongoing vendor management include?",
           options: [
-            "Regular communication and performance monitoring",
-            "Ignoring vendors after contract signing",
             "Only contacting vendors when angry",
+            "Ignoring vendors after contract signing",
+            "Regular communication and performance monitoring",
             "Letting vendors do whatever they want"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Active management maintains relationships and ensures contract compliance."
         },
         {
           id: 11,
           question: "What is intellectual property in contracts?",
           options: [
-            "Who owns created work and deliverables",
-            "Employee intelligence levels",
             "Office property inventory",
-            "Company secret recipes"
+            "Company secret recipes",
+            "Who owns created work and deliverables",
+            "Employee intelligence levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IP clauses define ownership of software, customizations, and other created assets."
         },
         {
           id: 12,
           question: "What should preparation for negotiations include?",
           options: [
-            "Researching vendors, market prices, and alternatives",
             "Making arbitrary demands",
+            "Researching vendors, market prices, and alternatives",
             "Hiding your budget",
             "Pretending you have no alternatives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Thorough preparation creates stronger negotiation positions."
         },
         {
@@ -1627,9 +1627,9 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           question: "What does confidentiality in contracts address?",
           options: [
             "Protection of sensitive information",
-            "Keeping contract existence secret",
             "Hiding vendor names",
-            "Secret handshake methods"
+            "Secret handshake methods",
+            "Keeping contract existence secret"
           ],
           correctAnswer: 0,
           explanation: "Confidentiality clauses protect business information shared during the relationship."
@@ -1639,9 +1639,9 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           question: "What is performance risk with vendors?",
           options: [
             "Vendors not delivering as promised",
-            "Vendors performing too well",
             "Too many vendor options",
-            "Vendors being too expensive"
+            "Vendors being too expensive",
+            "Vendors performing too well"
           ],
           correctAnswer: 0,
           explanation: "Performance risk addresses potential failure to meet agreed standards."
@@ -1650,12 +1650,12 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           id: 15,
           question: "What should contract termination clauses include?",
           options: [
-            "Notice periods and exit procedures",
             "Only final payment amounts",
+            "Notice periods and exit procedures",
             "Employee transfer plans",
             "Office key returns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clear termination processes ensure smooth endings to vendor relationships."
         },
         {
@@ -1663,8 +1663,8 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           question: "What are remedies in SLAs?",
           options: [
             "What happens if service levels aren't met",
-            "Medicine for sick employees",
             "Solutions to technical problems",
+            "Medicine for sick employees",
             "Ways to fix broken equipment"
           ],
           correctAnswer: 0,
@@ -1674,12 +1674,12 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           id: 17,
           question: "What is financial stability in vendor evaluation?",
           options: [
+            "Price of vendor stock",
             "Vendor's ability to stay in business long-term",
             "How much money they have today",
-            "Vendor employee salaries",
-            "Price of vendor stock"
+            "Vendor employee salaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Financial stability ensures vendors will be available to support their products/services."
         },
         {
@@ -1688,8 +1688,8 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           options: [
             "Developing personal connections with key contacts",
             "Becoming best friends",
-            "Sharing family secrets",
-            "Ignoring professional boundaries"
+            "Ignoring professional boundaries",
+            "Sharing family secrets"
           ],
           correctAnswer: 0,
           explanation: "Professional relationships facilitate communication and problem resolution."
@@ -1698,24 +1698,24 @@ Remember: Vendor management is about creating partnerships that deliver value, n
           id: 19,
           question: "What is exit risk with vendors?",
           options: [
-            "Difficulty changing vendors if needed",
-            "Vendors leaving meetings early",
+            "Software exit commands",
             "Employees exiting the building",
-            "Software exit commands"
+            "Difficulty changing vendors if needed",
+            "Vendors leaving meetings early"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Exit risk addresses challenges in transitioning away from a vendor."
         },
         {
           id: 20,
           question: "What is vendor management ultimately about?",
           options: [
-            "Creating partnerships that deliver value",
-            "Paying as little as possible",
             "Having many vendor options",
-            "Making vendors work hard"
+            "Making vendors work hard",
+            "Creating partnerships that deliver value",
+            "Paying as little as possible"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Successful vendor management focuses on mutual value creation through partnerships."
         }
       ]
@@ -1857,12 +1857,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           id: 1,
           question: "What is strategic planning in IT?",
           options: [
-            "Aligning technology with long-term business goals",
             "Planning daily technical tasks",
+            "Ordering office supplies",
             "Scheduling employee shifts",
-            "Ordering office supplies"
+            "Aligning technology with long-term business goals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic planning looks ahead 3-5 years to ensure technology supports business direction."
         },
         {
@@ -1870,8 +1870,8 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           question: "What does SWOT analysis evaluate?",
           options: [
             "Strengths, weaknesses, opportunities, threats",
-            "Software, websites, operations, training",
             "Staff, work, objectives, time",
+            "Software, websites, operations, training",
             "Systems, wiring, outputs, troubleshooting"
           ],
           correctAnswer: 0,
@@ -1881,60 +1881,60 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           id: 3,
           question: "What do technology roadmaps show?",
           options: [
+            "Employee commute routes",
             "How technology will evolve over time",
-            "Directions to vendor offices",
             "Network cable layouts",
-            "Employee commute routes"
+            "Directions to vendor offices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Roadmaps illustrate the planned evolution of technology capabilities and systems."
         },
         {
           id: 4,
           question: "What is the difference between exploitation and exploration?",
           options: [
+            "Exploitation is technical, exploration is business",
             "Exploitation optimizes existing systems, exploration develops new capabilities",
-            "Exploitation uses employees, exploration uses contractors",
             "Exploitation saves money, exploration spends money",
-            "Exploitation is technical, exploration is business"
+            "Exploitation uses employees, exploration uses contractors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Exploitation improves current capabilities while exploration creates new ones."
         },
         {
           id: 5,
           question: "What does business-IT alignment ensure?",
           options: [
-            "Technology supports business strategy",
+            "IT makes all business decisions",
             "IT has the biggest budget",
-            "Business people learn programming",
-            "IT makes all business decisions"
+            "Technology supports business strategy",
+            "Business people learn programming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Alignment connects technology investments with business goals and priorities."
         },
         {
           id: 6,
           question: "What is change management in strategic planning?",
           options: [
-            "Managing organizational impact of changes",
-            "Changing managers frequently",
             "Managing budget changes only",
-            "Changing technology constantly"
+            "Changing technology constantly",
+            "Changing managers frequently",
+            "Managing organizational impact of changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Change management addresses people aspects of implementing strategic changes."
         },
         {
           id: 7,
           question: "What are leading indicators?",
           options: [
-            "Metrics that predict future performance",
             "Metrics that show past results",
             "The most important metrics",
-            "Metrics that are easy to collect"
+            "Metrics that are easy to collect",
+            "Metrics that predict future performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leading indicators help forecast future outcomes based on current activities."
         },
         {
@@ -1942,9 +1942,9 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           question: "What is environmental scanning?",
           options: [
             "Understanding external and internal factors",
-            "Cleaning computer equipment",
             "Monitoring office temperatures",
-            "Checking network cables"
+            "Checking network cables",
+            "Cleaning computer equipment"
           ],
           correctAnswer: 0,
           explanation: "Environmental scanning assesses trends, market conditions, and organizational capabilities."
@@ -1953,24 +1953,24 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           id: 9,
           question: "What should strategic goals be?",
           options: [
+            "Impossible to reach",
             "Ambitious yet achievable",
             "Easy to accomplish quickly",
-            "Impossible to reach",
             "The same every year"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic goals should challenge the organization while being realistic."
         },
         {
           id: 10,
           question: "What is a balanced scorecard?",
           options: [
+            "Fair employee evaluation",
             "Multiple perspectives on performance",
             "Financial balance sheet",
-            "Equal budget allocation",
-            "Fair employee evaluation"
+            "Equal budget allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Balanced scorecards include financial, customer, process, and learning measures."
         },
         {
@@ -1979,8 +1979,8 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           options: [
             "Determining how to achieve goals",
             "Writing detailed project plans",
-            "Creating employee schedules",
-            "Ordering new equipment"
+            "Ordering new equipment",
+            "Creating employee schedules"
           ],
           correctAnswer: 0,
           explanation: "Strategy formulation develops approaches for achieving strategic objectives."
@@ -1991,8 +1991,8 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           options: [
             "Internal advantages",
             "External possibilities",
-            "Internal limitations",
-            "External challenges"
+            "External challenges",
+            "Internal limitations"
           ],
           correctAnswer: 0,
           explanation: "Strengths are positive internal factors like skilled staff or modern systems."
@@ -2001,48 +2001,48 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           id: 13,
           question: "What do roadmaps include about transition?",
           options: [
-            "How to get from current to future state",
+            "Office relocation details",
             "Only the final destination",
-            "Employee transfer plans",
-            "Office relocation details"
+            "How to get from current to future state",
+            "Employee transfer plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transition paths show phased initiatives and dependencies for reaching target states."
         },
         {
           id: 14,
           question: "What is adoption risk in strategy?",
           options: [
-            "People might not use new systems",
-            "Technology might not work",
             "Projects might be delayed",
+            "Technology might not work",
+            "People might not use new systems",
             "Costs might increase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adoption risk addresses potential resistance to using new systems or processes."
         },
         {
           id: 15,
           question: "How should strategy be communicated?",
           options: [
+            "Only in written documents",
             "Tailored to different audiences",
             "Only to senior executives",
-            "As one big announcement",
-            "Only in written documents"
+            "As one big announcement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective communication adapts the message for different stakeholder groups."
         },
         {
           id: 16,
           question: "What is vision development?",
           options: [
+            "Creating visual presentations",
             "Defining where IT should be in the future",
             "Planning eye exams for staff",
-            "Designing office views",
-            "Creating visual presentations"
+            "Designing office views"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vision creates an inspiring picture of what technology will enable in the future."
         },
         {
@@ -2061,22 +2061,22 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           id: 18,
           question: "What should be allocated specifically for innovation?",
           options: [
-            "Resources and budget",
+            "Whatever is left over",
             "Only unused equipment",
             "Only junior staff time",
-            "Whatever is left over"
+            "Resources and budget"
           ],
           explanation: "Dedicated innovation resources ensure exploration happens alongside daily operations.",
-          correctAnswer: 0
+          correctAnswer: 3
         },
         {
           id: 19,
           question: "What does monitoring and adjustment involve?",
           options: [
             "Tracking progress and adapting as needed",
-            "Only checking once per year",
             "Never changing the plan",
-            "Blaming others for deviations"
+            "Blaming others for deviations",
+            "Only checking once per year"
           ],
           correctAnswer: 0,
           explanation: "Regular monitoring allows strategic plans to adapt to changing conditions."
@@ -2087,8 +2087,8 @@ Remember: Strategy without execution is just a document. Focus on making strateg
           options: [
             "Just a document",
             "A perfect plan",
-            "A completed task",
-            "A successful outcome"
+            "A successful outcome",
+            "A completed task"
           ],
           correctAnswer: 0,
           explanation: "Strategy only creates value when implemented through concrete actions and initiatives."
@@ -2108,12 +2108,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 1,
         question: "What is the primary focus of IT management?",
         options: [
-          "Ensuring technology supports business objectives",
-          "Fixing technical problems quickly",
           "Buying the latest technology",
-          "Managing individual computers"
+          "Managing individual computers",
+          "Fixing technical problems quickly",
+          "Ensuring technology supports business objectives"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "IT management aligns technology with business goals to create organizational value.",
         module: 1
       },
@@ -2121,12 +2121,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 2,
         question: "Which management function involves developing technology strategies?",
         options: [
+          "Controlling",
           "Planning",
           "Organizing",
-          "Leading",
-          "Controlling"
+          "Leading"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Planning involves strategic development of technology roadmaps and approaches.",
         module: 1
       },
@@ -2135,9 +2135,9 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         question: "What does strategic alignment in IT management mean?",
         options: [
           "Technology supporting business goals",
-          "All computers being the same brand",
+          "Using only the latest technology",
           "Staff working the same hours",
-          "Using only the latest technology"
+          "All computers being the same brand"
         ],
         correctAnswer: 0,
         explanation: "Alignment ensures technology investments directly support business objectives.",
@@ -2161,8 +2161,8 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         question: "What skill helps explain technical concepts to non-technical leaders?",
         options: [
           "Communication",
-          "Programming",
           "Network design",
+          "Programming",
           "Hardware repair"
         ],
         correctAnswer: 0,
@@ -2173,12 +2173,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 6,
         question: "What should technology investments create for an organization?",
         options: [
-          "Business value",
-          "Technical complexity",
           "More work for IT staff",
-          "Higher electricity bills"
+          "Higher electricity bills",
+          "Business value",
+          "Technical complexity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Technology should create value by solving business problems or creating opportunities.",
         module: 1
       },
@@ -2186,12 +2186,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 7,
         question: "What does business acumen in IT management involve?",
         options: [
+          "Remembering employee birthdays",
           "Understanding how the organization makes money",
           "Knowing all technical specifications",
-          "Remembering employee birthdays",
           "Speaking multiple languages"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Business acumen means understanding organizational goals and financial drivers.",
         module: 1
       },
@@ -2202,9 +2202,9 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         question: "What is a project?",
         options: [
           "Temporary effort to create something unique",
+          "Permanent organizational function",
           "Ongoing daily operations",
-          "Routine maintenance work",
-          "Permanent organizational function"
+          "Routine maintenance work"
         ],
         correctAnswer: 0,
         explanation: "Projects are temporary with definite start and end dates, creating unique results.",
@@ -2214,12 +2214,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 9,
         question: "What is the first phase in the project lifecycle?",
         options: [
-          "Initiation",
-          "Planning",
           "Execution",
-          "Closure"
+          "Closure",
+          "Planning",
+          "Initiation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Initiation defines the project at a high level and gets approval to proceed.",
         module: 2
       },
@@ -2228,9 +2228,9 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         question: "What document formally authorizes a project to start?",
         options: [
           "Project charter",
-          "Scope statement",
+          "Meeting minutes",
           "Budget spreadsheet",
-          "Meeting minutes"
+          "Scope statement"
         ],
         correctAnswer: 0,
         explanation: "The project charter gives formal authorization and outlines project objectives.",
@@ -2241,9 +2241,9 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         question: "What is scope creep?",
         options: [
           "Uncontrolled changes to project requirements",
-          "Project scope becoming clearer",
+          "Budget increasing as planned",
           "Team members changing roles",
-          "Budget increasing as planned"
+          "Project scope becoming clearer"
         ],
         correctAnswer: 0,
         explanation: "Scope creep occurs when requirements expand without adjusting time or budget.",
@@ -2253,12 +2253,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 12,
         question: "What breaks project work into manageable pieces?",
         options: [
+          "Meeting schedule",
           "Work Breakdown Structure (WBS)",
           "Project charter",
-          "Budget document",
-          "Meeting schedule"
+          "Budget document"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "WBS decomposes project deliverables into smaller, manageable work packages.",
         module: 2
       },
@@ -2266,12 +2266,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 13,
         question: "Which approach uses sequential phases?",
         options: [
-          "Traditional (Waterfall)",
-          "Agile",
           "Hybrid",
-          "Improvisational"
+          "Agile",
+          "Improvisational",
+          "Traditional (Waterfall)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Traditional methods use sequential phases where one completes before the next begins.",
         module: 2
       },
@@ -2294,12 +2294,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 15,
         question: "What is the difference between leadership and management?",
         options: [
-          "Leadership inspires people, management plans work",
           "Leadership pays more than management",
-          "Management is only for technical work",
-          "Leadership doesn't require technical knowledge"
+          "Leadership doesn't require technical knowledge",
+          "Leadership inspires people, management plans work",
+          "Management is only for technical work"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Leadership focuses on inspiring people, while management focuses on planning work.",
         module: 3
       },
@@ -2307,12 +2307,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 16,
         question: "Which leadership style involves telling team members exactly what to do?",
         options: [
+          "Delegating",
           "Directive",
           "Coaching",
-          "Supportive",
-          "Delegating"
+          "Supportive"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Directive style provides specific instructions, useful in certain situations.",
         module: 3
       },
@@ -2320,12 +2320,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 17,
         question: "What is the first stage of team development?",
         options: [
-          "Forming",
-          "Storming",
           "Norming",
-          "Performing"
+          "Performing",
+          "Forming",
+          "Storming"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Forming is when team members first come together and get acquainted.",
         module: 3
       },
@@ -2333,12 +2333,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 18,
         question: "What does active listening involve?",
         options: [
-          "Fully focusing on understanding the speaker",
+          "Correcting their statements immediately",
           "Thinking about your response while they talk",
           "Waiting for them to stop talking",
-          "Correcting their statements immediately"
+          "Fully focusing on understanding the speaker"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Active listening means concentrating completely on understanding the speaker's message.",
         module: 3
       },
@@ -2346,12 +2346,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 19,
         question: "What is succession planning?",
         options: [
-          "Preparing future leaders",
           "Planning team vacations",
-          "Scheduling meetings",
-          "Ordering office supplies"
+          "Preparing future leaders",
+          "Ordering office supplies",
+          "Scheduling meetings"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Succession planning ensures critical knowledge and future leaders are ready.",
         module: 3
       },
@@ -2359,12 +2359,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 20,
         question: "What motivates many IT professionals?",
         options: [
-          "Challenging technical problems to solve",
           "Having many meetings",
-          "Following strict routines",
-          "Avoiding new technology"
+          "Challenging technical problems to solve",
+          "Avoiding new technology",
+          "Following strict routines"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Technical professionals often enjoy solving complex problems and learning.",
         module: 3
       },
@@ -2374,12 +2374,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 21,
         question: "What does a business case explain?",
         options: [
-          "Why technology investments are worthwhile",
           "Only technical specifications",
-          "Employee work schedules",
-          "Office layout plans"
+          "Office layout plans",
+          "Why technology investments are worthwhile",
+          "Employee work schedules"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "A business case justifies investments by explaining value and benefits.",
         module: 4
       },
@@ -2387,12 +2387,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 22,
         question: "What are capital expenditures (CapEx)?",
         options: [
-          "Large purchases that become organizational assets",
-          "Day-to-day running costs",
+          "Monthly utility bills",
           "Employee salary payments",
-          "Monthly utility bills"
+          "Day-to-day running costs",
+          "Large purchases that become organizational assets"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "CapEx includes major purchases like equipment that are depreciated over time.",
         module: 4
       },
@@ -2400,12 +2400,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 23,
         question: "What does TCO stand for?",
         options: [
-          "Total Cost of Ownership",
-          "Total Capital Outlay",
+          "Time-Cost Optimization",
           "Technical Cost Overview",
-          "Time-Cost Optimization"
+          "Total Capital Outlay",
+          "Total Cost of Ownership"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "TCO considers all costs over an asset's life, not just purchase price.",
         module: 4
       },
@@ -2413,12 +2413,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 24,
         question: "What does ROI measure?",
         options: [
-          "Financial return from an investment",
+          "System reliability",
           "Employee satisfaction",
-          "Technical complexity",
-          "System reliability"
+          "Financial return from an investment",
+          "Technical complexity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "ROI calculates the financial gain relative to the investment cost.",
         module: 4
       },
@@ -2426,12 +2426,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 25,
         question: "What is variance analysis?",
         options: [
-          "Comparing actual to budgeted amounts",
-          "Analyzing different opinions",
+          "Examining color differences",
           "Studying statistical variations",
-          "Examining color differences"
+          "Analyzing different opinions",
+          "Comparing actual to budgeted amounts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Variance analysis identifies differences between planned and actual performance.",
         module: 4
       },
@@ -2439,12 +2439,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 26,
         question: "What is contingency planning in budgeting?",
         options: [
-          "Setting aside reserves for unexpected expenses",
+          "Ordering office supplies",
           "Planning team vacations",
-          "Scheduling equipment maintenance",
-          "Ordering office supplies"
+          "Setting aside reserves for unexpected expenses",
+          "Scheduling equipment maintenance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Contingency reserves handle unforeseen expenses without breaking the budget.",
         module: 4
       },
@@ -2454,12 +2454,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 27,
         question: "What is the first step in vendor management?",
         options: [
-          "Planning what you need from vendors",
-          "Signing contracts immediately",
           "Paying vendor invoices",
-          "Terminating underperforming vendors"
+          "Terminating underperforming vendors",
+          "Planning what you need from vendors",
+          "Signing contracts immediately"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Planning involves clearly defining requirements before engaging with vendors.",
         module: 5
       },
@@ -2467,12 +2467,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 28,
         question: "What should you evaluate when selecting vendors?",
         options: [
-          "Technical capability, financial stability, and reputation",
           "Only the lowest price",
-          "Vendor office location",
-          "Employee dress code"
+          "Employee dress code",
+          "Technical capability, financial stability, and reputation",
+          "Vendor office location"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Comprehensive evaluation considers multiple factors beyond just price.",
         module: 5
       },
@@ -2480,12 +2480,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 29,
         question: "What should IT contracts clearly define?",
         options: [
+          "Office decor preferences",
           "Scope of work, payment terms, and SLAs",
-          "Only the total price",
           "Vendor employee names",
-          "Office decor preferences"
+          "Only the total price"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Contracts need clear definitions of deliverables, payments, and performance.",
         module: 5
       },
@@ -2493,12 +2493,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 30,
         question: "What do SLAs define?",
         options: [
-          "Service performance standards expected",
-          "Employee work hours",
           "Office holiday schedule",
-          "Company vacation policy"
+          "Company vacation policy",
+          "Service performance standards expected",
+          "Employee work hours"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "SLAs specify measurable service levels like availability and response times.",
         module: 5
       },
@@ -2506,12 +2506,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 31,
         question: "What should negotiations focus on?",
         options: [
-          "Interests, not just positions",
+          "Getting everything you want",
           "Winning at all costs",
-          "Making the other side lose",
-          "Getting everything you want"
+          "Interests, not just positions",
+          "Making the other side lose"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Effective negotiations understand underlying needs rather than just demands.",
         module: 5
       },
@@ -2519,12 +2519,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 32,
         question: "What is dependency risk with vendors?",
         options: [
-          "Becoming too reliant on a single vendor",
           "Vendors asking too many questions",
           "Having too many vendor options",
-          "Vendors being too helpful"
+          "Vendors being too helpful",
+          "Becoming too reliant on a single vendor"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Dependency risk occurs when over-reliance creates vulnerability.",
         module: 5
       },
@@ -2532,12 +2532,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 33,
         question: "What should be in payment terms?",
         options: [
-          "Amounts, schedule, and payment method",
-          "Only the total amount",
           "Vendor bank account details only",
-          "Payment when you feel like it"
+          "Only the total amount",
+          "Payment when you feel like it",
+          "Amounts, schedule, and payment method"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Clear payment terms prevent misunderstandings about when and how to pay.",
         module: 5
       },
@@ -2547,12 +2547,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 34,
         question: "What is strategic planning in IT?",
         options: [
-          "Aligning technology with long-term business goals",
-          "Planning daily technical tasks",
+          "Ordering office supplies",
           "Scheduling employee shifts",
-          "Ordering office supplies"
+          "Planning daily technical tasks",
+          "Aligning technology with long-term business goals"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Strategic planning looks ahead 3-5 years to align technology with business direction.",
         module: 6
       },
@@ -2573,12 +2573,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 36,
         question: "What do technology roadmaps show?",
         options: [
-          "How technology will evolve over time",
-          "Directions to vendor offices",
+          "Employee commute routes",
           "Network cable layouts",
-          "Employee commute routes"
+          "How technology will evolve over time",
+          "Directions to vendor offices"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Roadmaps illustrate planned evolution of technology capabilities and systems.",
         module: 6
       },
@@ -2599,12 +2599,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 38,
         question: "What does business-IT alignment ensure?",
         options: [
+          "IT makes all business decisions",
           "Technology supports business strategy",
           "IT has the biggest budget",
-          "Business people learn programming",
-          "IT makes all business decisions"
+          "Business people learn programming"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Alignment connects technology investments with business goals and priorities.",
         module: 6
       },
@@ -2625,12 +2625,12 @@ Remember: Strategy without execution is just a document. Focus on making strateg
         id: 40,
         question: "What are leading indicators?",
         options: [
-          "Metrics that predict future performance",
           "Metrics that show past results",
-          "The most important metrics",
-          "Metrics that are easy to collect"
+          "Metrics that are easy to collect",
+          "Metrics that predict future performance",
+          "The most important metrics"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Leading indicators help forecast future outcomes based on current activities.",
         module: 6
       }

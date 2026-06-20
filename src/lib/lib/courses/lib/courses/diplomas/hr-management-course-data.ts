@@ -103,33 +103,33 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           question: "What percentage of their time do today's HR leaders spend on strategic activities?",
           options: [
             "Fifteen percent",
+            "Sixty percent",
             "Twenty-five percent",
-            "Forty percent",
-            "Sixty percent"
+            "Forty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Modern HR leaders spend approximately forty percent of their time on strategic activities, a significant increase from fifteen percent two decades ago."
         },
         {
           id: 2,
           question: "What do organizations with data-driven HR functions report compared to traditional approaches?",
           options: [
-            "Ten percent lower costs",
-            "Twenty-two percent higher profitability",
             "Fifteen percent higher employee satisfaction",
-            "Thirty percent faster hiring"
+            "Thirty percent faster hiring",
+            "Twenty-two percent higher profitability",
+            "Ten percent lower costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Organizations with data-driven HR functions report twenty-two percent higher profitability than those relying on traditional intuition-based approaches."
         },
         {
           id: 3,
           question: "How much do companies with strong cultures typically outperform competitors in shareholder returns?",
           options: [
+            "Forty percent",
             "Ten percent",
-            "Twenty percent",
             "Thirty percent",
-            "Forty percent"
+            "Twenty percent"
           ],
           correctAnswer: 2,
           explanation: "Companies with strong organizational cultures outperform competitors by up to thirty percent in shareholder returns, demonstrating culture's financial impact."
@@ -150,24 +150,24 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           id: 5,
           question: "How much do predictive analytics improve decision accuracy over traditional HR methods?",
           options: [
+            "Forty percent",
             "Ten percent",
             "Twenty-five percent",
-            "Forty percent",
             "Fifty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Predictive analytics improve HR decision accuracy by approximately twenty-five percent over traditional methods by forecasting outcomes based on data patterns."
         },
         {
           id: 6,
           question: "What percentage reduction in leadership gaps does effective succession planning achieve?",
           options: [
+            "Eighty percent",
             "Twenty percent",
-            "Forty percent",
             "Sixty percent",
-            "Eighty percent"
+            "Forty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective succession planning reduces leadership gaps by approximately forty percent when key positions become vacant by preparing internal candidates in advance."
         },
         {
@@ -175,33 +175,33 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           question: "How many more qualified applicants do strong employer brands typically receive per position?",
           options: [
             "Twenty-five percent more",
-            "Fifty percent more",
             "Seventy-five percent more",
-            "One hundred percent more"
+            "One hundred percent more",
+            "Fifty percent more"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strong employer brands receive approximately fifty percent more qualified applicants per position by differentiating the organization and attracting desired talent."
         },
         {
           id: 8,
           question: "What percentage of employee time do innovative companies typically allocate to exploration?",
           options: [
+            "Thirty-five to forty percent",
             "Five to ten percent",
-            "Fifteen to twenty percent",
             "Twenty-five to thirty percent",
-            "Thirty-five to forty percent"
+            "Fifteen to twenty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Innovative companies typically allocate fifteen to twenty percent of employee time to exploration and experimentation, encouraging new ideas beyond routine work."
         },
         {
           id: 9,
           question: "How much can effective knowledge management improve productivity?",
           options: [
-            "Five to ten percent",
+            "Thirty to forty percent",
             "Ten to twenty percent",
             "Twenty to thirty percent",
-            "Thirty to forty percent"
+            "Five to ten percent"
           ],
           correctAnswer: 2,
           explanation: "Effective knowledge management can improve organizational productivity by twenty to thirty percent by capturing and sharing valuable information and expertise."
@@ -210,34 +210,34 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           id: 10,
           question: "How much faster do agile organizations grow revenue compared to traditional competitors?",
           options: [
-            "Twenty percent faster",
             "Thirty-seven percent faster",
-            "Fifty percent faster",
-            "Sixty-five percent faster"
+            "Twenty percent faster",
+            "Sixty-five percent faster",
+            "Fifty percent faster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Agile organizations grow revenue thirty-seven percent faster than traditional competitors by adapting quickly to changing market conditions and opportunities."
         },
         {
           id: 11,
           question: "What do organizations with strong ethical cultures experience regarding misconduct?",
           options: [
-            "Twenty-five percent less misconduct",
-            "Fifty percent less misconduct",
+            "Ninety percent less misconduct",
             "Seventy-five percent less misconduct",
-            "Ninety percent less misconduct"
+            "Fifty percent less misconduct",
+            "Twenty-five percent less misconduct"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Organizations with strong ethical cultures experience fifty percent less misconduct and recover more quickly from crises when they do occur."
         },
         {
           id: 12,
           question: "What profitability advantage do global companies with integrated HR strategies achieve?",
           options: [
-            "Five percent higher",
-            "Fifteen percent higher",
             "Twenty-five percent higher",
-            "Thirty-five percent higher"
+            "Fifteen percent higher",
+            "Thirty-five percent higher",
+            "Five percent higher"
           ],
           correctAnswer: 1,
           explanation: "Global companies with integrated HR strategies achieve fifteen percent higher profitability by effectively coordinating talent across borders."
@@ -246,36 +246,36 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           id: 13,
           question: "How much more effective are culturally intelligent leaders in international assignments?",
           options: [
-            "Twenty percent more effective",
-            "Forty percent more effective",
             "Sixty percent more effective",
-            "Eighty percent more effective"
+            "Twenty percent more effective",
+            "Eighty percent more effective",
+            "Forty percent more effective"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Culturally intelligent leaders are forty percent more effective in international assignments by understanding and adapting to different cultural contexts."
         },
         {
           id: 14,
           question: "What percentage of administrative work does digital HR typically reduce?",
           options: [
-            "Fifteen percent",
             "Thirty percent",
             "Forty-five percent",
-            "Sixty percent"
+            "Sixty percent",
+            "Fifteen percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Digital HR transformation reduces administrative work by approximately thirty percent while improving service quality through automation and self-service."
         },
         {
           id: 15,
           question: "What percentage of their time should HR leaders dedicate to professional development?",
           options: [
-            "Five percent",
             "Ten percent",
-            "Fifteen percent",
-            "Twenty percent"
+            "Twenty percent",
+            "Five percent",
+            "Fifteen percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Successful HR leaders dedicate at least ten percent of their time to professional development and trend monitoring to stay relevant in the evolving field."
         },
         {
@@ -283,19 +283,19 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           question: "What is the primary focus of strategic HR management versus traditional HR?",
           options: [
             "Processing paperwork efficiently",
+            "Minimizing legal compliance issues",
             "Aligning people initiatives with business goals",
-            "Reducing HR department costs",
-            "Minimizing legal compliance issues"
+            "Reducing HR department costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic HR management focuses on aligning people initiatives with organizational goals and driving business success, unlike traditional administrative HR."
         },
         {
           id: 17,
           question: "What do competency models primarily guide in organizations?",
           options: [
-            "Office layout decisions",
             "Budget allocation processes",
+            "Office layout decisions",
             "Hiring, development, and promotion decisions",
             "IT system selections"
           ],
@@ -306,12 +306,12 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           id: 18,
           question: "What is the key benefit of talent pipeline development?",
           options: [
-            "Reducing recruitment advertising costs",
             "Filling positions thirty percent faster",
-            "Eliminating external hiring needs",
-            "Standardizing job descriptions"
+            "Standardizing job descriptions",
+            "Reducing recruitment advertising costs",
+            "Eliminating external hiring needs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Talent pipeline development helps fill positions thirty percent faster by proactively building relationships with potential hires rather than reacting to vacancies."
         },
         {
@@ -320,8 +320,8 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           options: [
             "Two times more likely to be high-performing",
             "Five times more likely to be high-performing",
-            "Eight times more likely to be high-performing",
-            "Ten times more likely to be high-performing"
+            "Ten times more likely to be high-performing",
+            "Eight times more likely to be high-performing"
           ],
           correctAnswer: 1,
           explanation: "Companies with strong collaboration are five times more likely to be high-performing by breaking down silos and promoting effective teamwork."
@@ -330,12 +330,12 @@ Welcome to advanced HR management. This module explores how HR leaders contribut
           id: 20,
           question: "What is the primary focus of HR's role in corporate governance?",
           options: [
-            "Setting executive salaries",
             "Providing board information about human capital",
-            "Approving departmental budgets",
-            "Designing office spaces"
+            "Setting executive salaries",
+            "Designing office spaces",
+            "Approving departmental budgets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "HR's role in corporate governance involves providing boards with information about leadership capability, succession readiness, and culture health for proper oversight."
         }
       ]
@@ -454,24 +454,24 @@ This module explores how HR leaders drive organizational improvement, manage cha
           id: 1,
           question: "What percentage higher change success rates do organizations report when using action research methodology?",
           options: [
-            "Twenty percent",
-            "Thirty-five percent",
             "Fifty percent",
-            "Sixty-five percent"
+            "Sixty-five percent",
+            "Twenty percent",
+            "Thirty-five percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Organizations using action research methodology report thirty-five percent higher change success rates by combining investigation with intervention and involving affected employees."
         },
         {
           id: 2,
           question: "What percentage of planned changes achieve intended outcomes when properly implemented?",
           options: [
-            "Forty percent",
-            "Fifty-five percent",
             "Seventy percent",
+            "Fifty-five percent",
+            "Forty percent",
             "Eighty-five percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately seventy percent of planned organizational changes achieve intended outcomes when properly implemented with consideration of readiness, capability, and cultural fit."
         },
         {
@@ -479,33 +479,33 @@ This module explores how HR leaders drive organizational improvement, manage cha
           question: "How much higher are change adoption rates when applying all three phases of Lewin's Change Model?",
           options: [
             "Twenty-five percent higher",
-            "Forty percent higher",
             "Fifty-five percent higher",
+            "Forty percent higher",
             "Seventy percent higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Organizations applying all three phases of Lewin's Change Model (unfreezing, moving, refreezing) experience forty percent higher change adoption rates."
         },
         {
           id: 4,
           question: "How much more likely are companies to achieve change objectives when following all eight of Kotter's steps?",
           options: [
-            "Three times more likely",
-            "Five times more likely",
             "Ten times more likely",
-            "Fifteen times more likely"
+            "Five times more likely",
+            "Fifteen times more likely",
+            "Three times more likely"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Companies following all eight steps of Kotter's change model are ten times more likely to achieve their change objectives by addressing common failure points systematically."
         },
         {
           id: 5,
           question: "What percentage improvement in individual change success does ADKAR implementation achieve?",
           options: [
-            "Fifteen percent",
-            "Thirty percent",
             "Forty-five percent",
-            "Sixty percent"
+            "Thirty percent",
+            "Sixty percent",
+            "Fifteen percent"
           ],
           correctAnswer: 1,
           explanation: "ADKAR implementation improves individual change success by approximately thirty percent by addressing awareness, desire, knowledge, ability, and reinforcement needs."
@@ -514,12 +514,12 @@ This module explores how HR leaders drive organizational improvement, manage cha
           id: 6,
           question: "How much does addressing transition reduce productivity loss during organizational change?",
           options: [
-            "Fifteen percent reduction",
-            "Twenty-five percent reduction",
+            "Forty-five percent reduction",
             "Thirty-five percent reduction",
-            "Forty-five percent reduction"
+            "Fifteen percent reduction",
+            "Twenty-five percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Addressing the psychological transition process (per Bridge's model) reduces productivity loss during change by twenty-five percent by supporting employees through emotional aspects."
         },
         {
@@ -528,8 +528,8 @@ This module explores how HR leaders drive organizational improvement, manage cha
           options: [
             "Thirty percent higher",
             "Fifty percent higher",
-            "Seventy percent higher",
-            "Ninety percent higher"
+            "Ninety percent higher",
+            "Seventy percent higher"
           ],
           correctAnswer: 1,
           explanation: "Organizations with trained change leaders report fifty percent higher employee engagement during transformations due to better guidance and support."
@@ -538,21 +538,21 @@ This module explores how HR leaders drive organizational improvement, manage cha
           id: 8,
           question: "How much faster do change agent networks typically accelerate change adoption?",
           options: [
-            "Twenty percent faster",
-            "Thirty percent faster",
             "Forty percent faster",
-            "Fifty percent faster"
+            "Fifty percent faster",
+            "Thirty percent faster",
+            "Twenty percent faster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective change agent networks accelerate change adoption by approximately thirty percent by increasing local support and information flow throughout the organization."
         },
         {
           id: 9,
           question: "What percentage less resistance do organizations with comprehensive communication plans experience?",
           options: [
-            "Twenty-five percent less resistance",
-            "Forty percent less resistance",
             "Fifty-five percent less resistance",
+            "Forty percent less resistance",
+            "Twenty-five percent less resistance",
             "Seventy percent less resistance"
           ],
           correctAnswer: 1,
@@ -562,12 +562,12 @@ This module explores how HR leaders drive organizational improvement, manage cha
           id: 10,
           question: "How much do continuous feedback mechanisms improve change outcomes?",
           options: [
-            "Fifteen percent improvement",
             "Twenty-five percent improvement",
-            "Thirty-five percent improvement",
-            "Forty-five percent improvement"
+            "Fifteen percent improvement",
+            "Forty-five percent improvement",
+            "Thirty-five percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Continuous feedback mechanisms improve change outcomes by twenty-five percent by providing data to adjust implementation approaches and address issues early."
         },
         {
@@ -575,56 +575,56 @@ This module explores how HR leaders drive organizational improvement, manage cha
           question: "What percentage lower turnover do values-aligned organizations typically experience?",
           options: [
             "Fifteen percent lower",
-            "Thirty percent lower",
             "Forty-five percent lower",
-            "Sixty percent lower"
+            "Sixty percent lower",
+            "Thirty percent lower"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Values-aligned organizations experience thirty percent lower turnover as employees feel greater connection and commitment to organizations whose values match their own."
         },
         {
           id: 12,
           question: "How much faster do behavior-focused approaches achieve cultural change compared to awareness-only approaches?",
           options: [
-            "Fifty percent faster",
             "Two times faster",
             "Three times faster",
+            "Fifty percent faster",
             "Four times faster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Behavior-focused approaches achieve cultural change two times faster than awareness-only approaches by translating cultural aspirations into concrete, observable actions."
         },
         {
           id: 13,
           question: "What percentage increase in cultural understanding does symbolic management achieve among employees?",
           options: [
-            "Twenty-five percent increase",
-            "Forty percent increase",
             "Fifty-five percent increase",
-            "Seventy percent increase"
+            "Seventy percent increase",
+            "Forty percent increase",
+            "Twenty-five percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Symbolic management through stories and artifacts increases cultural understanding by forty percent among employees by making abstract cultural concepts more tangible."
         },
         {
           id: 14,
           question: "How much does alignment between strategy and structure improve organizational performance?",
           options: [
-            "Fifteen percent improvement",
-            "Twenty-five percent improvement",
+            "Forty-five percent improvement",
             "Thirty-five percent improvement",
-            "Forty-five percent improvement"
+            "Twenty-five percent improvement",
+            "Fifteen percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Alignment between organizational strategy and structure improves performance by twenty-five percent by ensuring the design supports rather than hinders business objectives."
         },
         {
           id: 15,
           question: "How much faster do organizations with clarified decision rights typically resolve issues?",
           options: [
-            "Twenty percent faster",
-            "Thirty percent faster",
             "Forty percent faster",
+            "Thirty percent faster",
+            "Twenty percent faster",
             "Fifty percent faster"
           ],
           correctAnswer: 1,
@@ -634,10 +634,10 @@ This module explores how HR leaders drive organizational improvement, manage cha
           id: 16,
           question: "What percentage faster do high-performing teams achieve objectives compared to average teams?",
           options: [
-            "Fifteen percent faster",
+            "Forty-five percent faster",
             "Twenty-five percent faster",
-            "Thirty-five percent faster",
-            "Forty-five percent faster"
+            "Fifteen percent faster",
+            "Thirty-five percent faster"
           ],
           correctAnswer: 1,
           explanation: "High-performing teams achieve objectives twenty-five percent faster than average teams due to clear goals, appropriate skills, and effective collaboration."
@@ -647,23 +647,23 @@ This module explores how HR leaders drive organizational improvement, manage cha
           question: "How much does targeted team building typically improve team performance?",
           options: [
             "Twenty percent improvement",
-            "Thirty percent improvement",
             "Forty percent improvement",
+            "Thirty percent improvement",
             "Fifty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Targeted team building improves performance by thirty percent by addressing specific team needs rather than using generic one-size-fits-all activities."
         },
         {
           id: 18,
           question: "How much does systems thinking improve problem-solving effectiveness?",
           options: [
-            "Twenty percent improvement",
             "Thirty percent improvement",
-            "Forty percent improvement",
-            "Fifty percent improvement"
+            "Fifty percent improvement",
+            "Twenty percent improvement",
+            "Forty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systems thinking improves problem-solving effectiveness by thirty percent by helping identify root causes and interconnections rather than just symptoms."
         },
         {
@@ -671,23 +671,23 @@ This module explores how HR leaders drive organizational improvement, manage cha
           question: "What percentage higher employee engagement do organizations supporting personal mastery experience?",
           options: [
             "Ten percent higher",
+            "Forty percent higher",
             "Twenty percent higher",
-            "Thirty percent higher",
-            "Forty percent higher"
+            "Thirty percent higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Organizations supporting personal mastery development experience twenty percent higher employee engagement by building individual growth capabilities and self-awareness."
         },
         {
           id: 20,
           question: "How much faster do organizations with shared vision achieve strategic goals?",
           options: [
-            "Twenty percent faster",
             "Thirty percent faster",
+            "Fifty percent faster",
             "Forty percent faster",
-            "Fifty percent faster"
+            "Twenty percent faster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Organizations with shared vision achieve strategic goals thirty percent faster by aligning individuals around common aspirations and increasing commitment to organizational direction."
         }
       ]
@@ -817,32 +817,32 @@ This module covers advanced strategies for identifying, developing, and retainin
           question: "What percentage higher revenue per employee do companies with integrated talent systems achieve?",
           options: [
             "Fifteen percent higher",
-            "Twenty-five percent higher",
             "Thirty-five percent higher",
+            "Twenty-five percent higher",
             "Forty-five percent higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Companies with integrated talent management systems achieve twenty-five percent higher revenue per employee by aligning individual capabilities with organizational needs."
         },
         {
           id: 2,
           question: "How much does competency-based talent management improve promotion success rates?",
           options: [
-            "Twenty percent improvement",
             "Thirty percent improvement",
+            "Fifty percent improvement",
             "Forty percent improvement",
-            "Fifty percent improvement"
+            "Twenty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Competency-based talent management improves promotion success rates by thirty percent by ensuring candidates have required capabilities before advancement."
         },
         {
           id: 3,
           question: "How much greater accuracy do organizations achieve in identifying high-potentials using multiple assessment methods?",
           options: [
-            "Thirty percent greater accuracy",
-            "Forty percent greater accuracy",
             "Fifty percent greater accuracy",
+            "Forty percent greater accuracy",
+            "Thirty percent greater accuracy",
             "Sixty percent greater accuracy"
           ],
           correctAnswer: 1,
@@ -853,11 +853,11 @@ This module covers advanced strategies for identifying, developing, and retainin
           question: "What accuracy rate do assessment centers achieve in predicting leadership success?",
           options: [
             "Fifty-five percent accuracy",
-            "Seventy percent accuracy",
+            "Ninety-five percent accuracy",
             "Eighty-five percent accuracy",
-            "Ninety-five percent accuracy"
+            "Seventy percent accuracy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Assessment centers predict leadership success with seventy percent accuracy through realistic simulations, compared to forty-five percent for interviews alone."
         },
         {
@@ -866,8 +866,8 @@ This module covers advanced strategies for identifying, developing, and retainin
           options: [
             "Twenty-five percent improvement",
             "Thirty-five percent improvement",
-            "Forty-five percent improvement",
-            "Fifty-five percent improvement"
+            "Fifty-five percent improvement",
+            "Forty-five percent improvement"
           ],
           correctAnswer: 1,
           explanation: "Comprehensive 360-degree feedback improves development planning effectiveness by thirty-five percent by providing multiple perspectives on performance and development needs."
@@ -876,9 +876,9 @@ This module covers advanced strategies for identifying, developing, and retainin
           id: 6,
           question: "What reduction in promotion failure rates do clear pipeline stages achieve?",
           options: [
-            "Thirty percent reduction",
-            "Forty percent reduction",
             "Fifty percent reduction",
+            "Forty percent reduction",
+            "Thirty percent reduction",
             "Sixty percent reduction"
           ],
           correctAnswer: 1,
@@ -888,60 +888,60 @@ This module covers advanced strategies for identifying, developing, and retainin
           id: 7,
           question: "What percentage higher success rates do organizations experience with newly promoted leaders who receive transition support?",
           options: [
+            "Forty percent higher",
             "Twenty percent higher",
             "Thirty percent higher",
-            "Forty percent higher",
             "Fifty percent higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Organizations with transition support for newly promoted leaders experience thirty percent higher success rates during the critical first year in new roles."
         },
         {
           id: 8,
           question: "How much does targeted development increase leadership effectiveness?",
           options: [
-            "Fifteen percent increase",
             "Twenty-five percent increase",
+            "Fifteen percent increase",
             "Thirty-five percent increase",
             "Forty-five percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Targeted development specific to pipeline stages increases leadership effectiveness by twenty-five percent by addressing level-appropriate skill needs."
         },
         {
           id: 9,
           question: "How much does acceleration pools reduce time to readiness for key roles?",
           options: [
-            "Twenty percent reduction",
             "Thirty percent reduction",
             "Forty percent reduction",
+            "Twenty percent reduction",
             "Fifty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Acceleration pools reduce time to readiness for key roles by thirty percent through structured development programs including rotations and special projects."
         },
         {
           id: 10,
           question: "What percentage of positions typically warrant formal succession planning?",
           options: [
+            "Twenty-five to thirty percent",
             "Five to ten percent",
             "Fifteen to twenty percent",
-            "Twenty-five to thirty percent",
             "Thirty-five to forty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Typically, fifteen to twenty percent of positions warrant formal succession planning based on strategic impact and difficulty of replacement."
         },
         {
           id: 11,
           question: "How much does targeted gap closure increase promotion success rates?",
           options: [
-            "Thirty percent increase",
-            "Forty percent increase",
+            "Sixty percent increase",
             "Fifty percent increase",
-            "Sixty percent increase"
+            "Thirty percent increase",
+            "Forty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Targeted closure of development gaps increases promotion success by forty percent by ensuring candidates have necessary capabilities before advancement."
         },
         {
@@ -949,45 +949,45 @@ This module covers advanced strategies for identifying, developing, and retainin
           question: "What performance improvement do enterprise leaders typically achieve?",
           options: [
             "Ten percent improvement",
-            "Twenty percent improvement",
             "Thirty percent improvement",
+            "Twenty percent improvement",
             "Forty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Enterprise leaders improve organizational performance by twenty percent by focusing on whole-system optimization rather than functional silos."
         },
         {
           id: 13,
           question: "How much does diverse external perspective increase innovation?",
           options: [
-            "Twenty percent increase",
             "Thirty percent increase",
             "Forty percent increase",
+            "Twenty percent increase",
             "Fifty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Diverse external perspectives from different industries and geographies increase innovation by thirty percent by introducing new ideas and approaches."
         },
         {
           id: 14,
           question: "What reduction in voluntary turnover do stay interviews achieve?",
           options: [
-            "Fifteen percent reduction",
             "Twenty-five percent reduction",
             "Thirty-five percent reduction",
-            "Forty-five percent reduction"
+            "Forty-five percent reduction",
+            "Fifteen percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stay interviews reduce voluntary turnover by twenty-five percent by proactively addressing engagement factors before employees consider leaving."
         },
         {
           id: 15,
           question: "How much does career path customization increase retention of high-potentials?",
           options: [
-            "Twenty percent increase",
-            "Thirty percent increase",
             "Forty percent increase",
-            "Fifty percent increase"
+            "Thirty percent increase",
+            "Fifty percent increase",
+            "Twenty percent increase"
           ],
           correctAnswer: 1,
           explanation: "Customized career paths increase retention of high-potentials by thirty percent by creating individualized advancement routes that match personal aspirations."
@@ -996,12 +996,12 @@ This module covers advanced strategies for identifying, developing, and retainin
           id: 16,
           question: "How much longer do companies with strong internal mobility retain employees?",
           options: [
-            "Thirty percent longer",
             "Fifty percent longer",
             "Seventy percent longer",
-            "Ninety percent longer"
+            "Ninety percent longer",
+            "Thirty percent longer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Companies with strong internal mobility programs retain employees fifty percent longer by providing growth opportunities within the organization."
         },
         {
@@ -1020,21 +1020,21 @@ This module covers advanced strategies for identifying, developing, and retainin
           id: 18,
           question: "How much does global mobility experience increase executive effectiveness?",
           options: [
-            "Thirty percent increase",
             "Forty percent increase",
+            "Thirty percent increase",
             "Fifty percent increase",
             "Sixty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Global mobility experience increases executive effectiveness by forty percent by building cultural intelligence, adaptability, and international perspective."
         },
         {
           id: 19,
           question: "How much do comprehensive talent metrics improve talent decisions?",
           options: [
-            "Twenty percent improvement",
-            "Thirty percent improvement",
             "Forty percent improvement",
+            "Thirty percent improvement",
+            "Twenty percent improvement",
             "Fifty percent improvement"
           ],
           correctAnswer: 1,
@@ -1044,12 +1044,12 @@ This module covers advanced strategies for identifying, developing, and retainin
           id: 20,
           question: "How much does effective dashboard reporting increase leadership attention to talent issues?",
           options: [
+            "Sixty percent increase",
             "Thirty percent increase",
             "Forty percent increase",
-            "Fifty percent increase",
-            "Sixty percent increase"
+            "Fifty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective dashboard reporting increases leadership attention to talent issues by forty percent by visually communicating pipeline strength and succession readiness."
         }
       ]
@@ -1188,12 +1188,12 @@ This module explores advanced compensation design, executive reward systems, and
           id: 1,
           question: "What percentage higher employee satisfaction do organizations with comprehensive total rewards strategies achieve?",
           options: [
-            "Fifteen percent higher",
-            "Twenty-five percent higher",
             "Thirty-five percent higher",
-            "Forty-five percent higher"
+            "Forty-five percent higher",
+            "Fifteen percent higher",
+            "Twenty-five percent higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Organizations with comprehensive total rewards strategies achieve twenty-five percent higher employee satisfaction by addressing diverse reward preferences through integrated approaches."
         },
         {
@@ -1212,10 +1212,10 @@ This module explores advanced compensation design, executive reward systems, and
           id: 3,
           question: "How much does appropriate pay transparency reduce pay equity concerns?",
           options: [
-            "Twenty percent reduction",
+            "Fifty percent reduction",
             "Thirty percent reduction",
-            "Forty percent reduction",
-            "Fifty percent reduction"
+            "Twenty percent reduction",
+            "Forty percent reduction"
           ],
           correctAnswer: 1,
           explanation: "Appropriate pay transparency increases trust and reduces pay equity concerns by thirty percent by providing clarity about compensation principles and ranges."
@@ -1225,35 +1225,35 @@ This module explores advanced compensation design, executive reward systems, and
           question: "What percentage of total executive compensation is typically aligned with performance in well-designed packages?",
           options: [
             "Fifty percent",
-            "Sixty percent",
             "Seventy percent",
-            "Eighty percent"
+            "Eighty percent",
+            "Sixty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Well-designed executive compensation packages align approximately seventy percent of total compensation with performance through incentives and equity awards."
         },
         {
           id: 5,
           question: "How much does metric alignment in incentive plans improve goal achievement?",
           options: [
-            "Thirty percent improvement",
             "Forty percent improvement",
             "Fifty percent improvement",
-            "Sixty percent improvement"
+            "Sixty percent improvement",
+            "Thirty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Aligning incentive metrics with desired behaviors improves goal achievement by forty percent by focusing effort on organizational priorities."
         },
         {
           id: 6,
           question: "What increase in investor confidence do companies with strong shareholder support for executive pay experience?",
           options: [
-            "Ten percent higher",
             "Twenty percent higher",
             "Thirty percent higher",
+            "Ten percent higher",
             "Forty percent higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Companies with strong shareholder support for executive compensation experience twenty percent higher investor confidence due to perceived alignment of interests."
         },
         {
@@ -1261,23 +1261,23 @@ This module explores advanced compensation design, executive reward systems, and
           question: "What percentage of total executive pay in public companies typically comes from equity compensation?",
           options: [
             "Forty percent",
-            "Fifty percent",
             "Sixty percent",
-            "Seventy percent"
+            "Seventy percent",
+            "Fifty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Equity compensation constitutes approximately sixty percent of total executive pay in public companies, aligning interests with long-term shareholder value creation."
         },
         {
           id: 8,
           question: "How much do performance conditions improve long-term incentive plan effectiveness?",
           options: [
-            "Twenty-five percent improvement",
             "Thirty-five percent improvement",
             "Forty-five percent improvement",
-            "Fifty-five percent improvement"
+            "Fifty-five percent improvement",
+            "Twenty-five percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Performance conditions linking vesting to specific goals improve long-term incentive plan effectiveness by thirty-five percent by ensuring awards reflect achievement."
         },
         {
@@ -1285,23 +1285,23 @@ This module explores advanced compensation design, executive reward systems, and
           question: "What reduction in excessive executive pay do independent compensation committees typically achieve?",
           options: [
             "Fifteen percent reduction",
-            "Twenty percent reduction",
             "Twenty-five percent reduction",
-            "Thirty percent reduction"
+            "Thirty percent reduction",
+            "Twenty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Independent compensation committees reduce excessive executive pay by twenty percent through more objective decision-making compared to management-dominated committees."
         },
         {
           id: 10,
           question: "How much does advisor engagement improve executive compensation plan design quality?",
           options: [
-            "Twenty percent improvement",
-            "Thirty percent improvement",
+            "Fifty percent improvement",
             "Forty percent improvement",
-            "Fifty percent improvement"
+            "Thirty percent improvement",
+            "Twenty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Engaging external compensation advisors improves plan design quality by thirty percent by providing market data, best practices, and regulatory insights."
         },
         {
@@ -1310,8 +1310,8 @@ This module explores advanced compensation design, executive reward systems, and
           options: [
             "Thirty percent reduction",
             "Forty percent reduction",
-            "Fifty percent reduction",
-            "Sixty percent reduction"
+            "Sixty percent reduction",
+            "Fifty percent reduction"
           ],
           correctAnswer: 1,
           explanation: "Clear communication about compensation rationale and outcomes reduces say-on-pay opposition by forty percent by helping shareholders understand the reasoning behind pay decisions."
@@ -1320,22 +1320,22 @@ This module explores advanced compensation design, executive reward systems, and
           id: 12,
           question: "What reduction in expatriate assignment failure do appropriate compensation packages achieve?",
           options: [
+            "Fifty percent reduction",
             "Twenty percent reduction",
-            "Thirty percent reduction",
             "Forty percent reduction",
-            "Fifty percent reduction"
+            "Thirty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Appropriate expatriate compensation packages reduce assignment failure by thirty percent by addressing financial, family, and career concerns during international assignments."
         },
         {
           id: 13,
           question: "How much do global grade structures improve talent mobility?",
           options: [
-            "Fifteen percent improvement",
+            "Forty-five percent improvement",
             "Twenty-five percent improvement",
             "Thirty-five percent improvement",
-            "Forty-five percent improvement"
+            "Fifteen percent improvement"
           ],
           correctAnswer: 1,
           explanation: "Global grade structures improve talent mobility by twenty-five percent by creating consistent job levels that facilitate transfers and career development across countries."
@@ -1345,23 +1345,23 @@ This module explores advanced compensation design, executive reward systems, and
           question: "What is the typical target range for competitive positioning relative to market median?",
           options: [
             "Within three percent of median",
+            "Within ten percent of median",
             "Within five percent of median",
-            "Within seven percent of median",
-            "Within ten percent of median"
+            "Within seven percent of median"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective competitive benchmarking typically aims for compensation positioning within five percent of market median to ensure competitiveness while controlling costs."
         },
         {
           id: 15,
           question: "What percentage of key talent do successful compensation integrations retain during mergers?",
           options: [
-            "Seventy-five percent retention",
-            "Eighty-five percent retention",
             "Ninety-five percent retention",
-            "One hundred percent retention"
+            "One hundred percent retention",
+            "Seventy-five percent retention",
+            "Eighty-five percent retention"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Successful compensation integration during mergers retains eighty-five percent of key talent versus only sixty-five percent with poor integration approaches."
         },
         {
@@ -1369,32 +1369,32 @@ This module explores advanced compensation design, executive reward systems, and
           question: "How much does turnaround-appropriate compensation improve recovery success?",
           options: [
             "Twenty percent improvement",
+            "Fifty percent improvement",
             "Thirty percent improvement",
-            "Forty percent improvement",
-            "Fifty percent improvement"
+            "Forty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Turnaround-appropriate compensation improves recovery success by thirty percent by aligning pay with restructuring needs and retaining critical talent during challenging periods."
         },
         {
           id: 17,
           question: "What market competitiveness do appropriate nonprofit compensation packages typically achieve?",
           options: [
-            "Sixty percent of market",
-            "Seventy percent of market",
+            "Ninety percent of market",
             "Eighty percent of market",
-            "Ninety percent of market"
+            "Sixty percent of market",
+            "Seventy percent of market"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Appropriate nonprofit compensation packages achieve approximately eighty percent of market competitiveness while emphasizing mission alignment and non-monetary rewards."
         },
         {
           id: 18,
           question: "What reduction in activism risk do companies with high shareholder approval for executive pay experience?",
           options: [
-            "Ten percent lower risk",
-            "Fifteen percent lower risk",
             "Twenty percent lower risk",
+            "Fifteen percent lower risk",
+            "Ten percent lower risk",
             "Twenty-five percent lower risk"
           ],
           correctAnswer: 1,
@@ -1404,24 +1404,24 @@ This module explores advanced compensation design, executive reward systems, and
           id: 19,
           question: "How much does proactive communication about pay ratios reduce negative publicity?",
           options: [
-            "Thirty percent reduction",
-            "Forty percent reduction",
+            "Sixty percent reduction",
             "Fifty percent reduction",
-            "Sixty percent reduction"
+            "Forty percent reduction",
+            "Thirty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Proactive communication about CEO-to-median-employee pay ratios reduces negative publicity by forty percent by providing context before critics can frame the narrative."
         },
         {
           id: 20,
           question: "How much does wellbeing-focused compensation increase productivity?",
           options: [
+            "Thirty percent increase",
             "Ten percent increase",
             "Twenty percent increase",
-            "Thirty percent increase",
             "Forty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Wellbeing-focused compensation increases productivity by twenty percent while reducing healthcare costs, by supporting employee health and work-life balance."
         }
       ]
@@ -1550,57 +1550,57 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           id: 1,
           question: "What percentage of workforce dynamics do descriptive analytics typically explain?",
           options: [
-            "Ten percent",
-            "Twenty percent",
             "Thirty percent",
-            "Forty percent"
+            "Forty percent",
+            "Ten percent",
+            "Twenty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Descriptive analytics alone explains only approximately twenty percent of workforce dynamics, highlighting the need for more advanced analytical approaches."
         },
         {
           id: 2,
           question: "How much does diagnostic analytics increase understanding of workforce issues?",
           options: [
-            "Thirty percent increase",
             "Forty percent increase",
             "Fifty percent increase",
+            "Thirty percent increase",
             "Sixty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Diagnostic analytics increases understanding of workforce issues by forty percent by explaining why things happened rather than just what happened."
         },
         {
           id: 3,
           question: "How much do predictive analytics improve decision accuracy over intuition alone?",
           options: [
-            "Twenty-five percent improvement",
-            "Thirty-five percent improvement",
             "Forty-five percent improvement",
-            "Fifty-five percent improvement"
+            "Fifty-five percent improvement",
+            "Twenty-five percent improvement",
+            "Thirty-five percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Predictive analytics improve decision accuracy by thirty-five percent over intuition alone by forecasting outcomes based on data patterns."
         },
         {
           id: 4,
           question: "How much do prescriptive analytics increase intervention effectiveness?",
           options: [
-            "Forty percent increase",
-            "Fifty percent increase",
+            "Seventy percent increase",
             "Sixty percent increase",
-            "Seventy percent increase"
+            "Forty percent increase",
+            "Fifty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Prescriptive analytics increase intervention effectiveness by fifty percent by recommending optimal actions based on predicted outcomes and constraints."
         },
         {
           id: 5,
           question: "How much higher analytics ROI do organizations with strong data quality achieve?",
           options: [
-            "Two times higher",
-            "Three times higher",
             "Four times higher",
+            "Three times higher",
+            "Two times higher",
             "Five times higher"
           ],
           correctAnswer: 1,
@@ -1610,24 +1610,24 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           id: 6,
           question: "What reduction in data errors does effective governance typically achieve?",
           options: [
-            "Twenty percent reduction",
             "Thirty percent reduction",
             "Forty percent reduction",
+            "Twenty percent reduction",
             "Fifty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective data governance reduces data errors by thirty percent and improves decision confidence through clear roles and responsibilities."
         },
         {
           id: 7,
           question: "How much richer insights do integrated data sources provide compared to HR data alone?",
           options: [
-            "Thirty percent richer",
             "Forty percent richer",
             "Fifty percent richer",
+            "Thirty percent richer",
             "Sixty percent richer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Integrated data connecting HR with financial, operational, and customer systems provides forty percent richer insights than HR data alone."
         },
         {
@@ -1635,47 +1635,47 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           question: "How much does accurate turnover prediction reduce actual turnover?",
           options: [
             "Fifteen percent reduction",
+            "Forty-five percent reduction",
             "Twenty-five percent reduction",
-            "Thirty-five percent reduction",
-            "Forty-five percent reduction"
+            "Thirty-five percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Accurate turnover prediction enables proactive retention efforts, reducing actual turnover by twenty-five percent through targeted interventions."
         },
         {
           id: 9,
           question: "How much does performance prediction improve hiring quality?",
           options: [
-            "Twenty percent improvement",
-            "Thirty percent improvement",
+            "Fifty percent improvement",
             "Forty percent improvement",
-            "Fifty percent improvement"
+            "Thirty percent improvement",
+            "Twenty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Performance prediction improves hiring quality by thirty percent by forecasting candidate success based on historical patterns and characteristics."
         },
         {
           id: 10,
           question: "How much does learning effectiveness prediction improve training ROI?",
           options: [
-            "Twenty-five percent improvement",
             "Thirty-five percent improvement",
             "Forty-five percent improvement",
-            "Fifty-five percent improvement"
+            "Fifty-five percent improvement",
+            "Twenty-five percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Learning effectiveness prediction improves training ROI by thirty-five percent by anticipating which training approaches will be most effective for different participants."
         },
         {
           id: 11,
           question: "How much does succession readiness prediction improve planning accuracy?",
           options: [
-            "Thirty percent improvement",
             "Forty percent improvement",
+            "Sixty percent improvement",
             "Fifty percent improvement",
-            "Sixty percent improvement"
+            "Thirty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Succession readiness prediction improves planning accuracy by forty percent by estimating preparedness for advancement based on multiple factors."
         },
         {
@@ -1694,9 +1694,9 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           id: 13,
           question: "How much do well-designed dashboards increase data utilization?",
           options: [
-            "Forty percent increase",
-            "Fifty percent increase",
             "Sixty percent increase",
+            "Fifty percent increase",
+            "Forty percent increase",
             "Seventy percent increase"
           ],
           correctAnswer: 1,
@@ -1708,8 +1708,8 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           options: [
             "Thirty percent increase",
             "Forty percent increase",
-            "Fifty percent increase",
-            "Sixty percent increase"
+            "Sixty percent increase",
+            "Fifty percent increase"
           ],
           correctAnswer: 1,
           explanation: "Effective data storytelling increases leadership adoption of insights by forty percent by framing analysis around business questions and recommending actions."
@@ -1718,45 +1718,45 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           id: 15,
           question: "How much do interactive visualization tools increase engagement with analytics?",
           options: [
-            "Twenty-five percent increase",
-            "Thirty-five percent increase",
+            "Fifty-five percent increase",
             "Forty-five percent increase",
-            "Fifty-five percent increase"
+            "Thirty-five percent increase",
+            "Twenty-five percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Interactive visualization tools increase engagement with analytics by thirty-five percent by allowing users to explore data and answer their own questions."
         },
         {
           id: 16,
           question: "How much does counterfactual analysis increase credibility of impact claims?",
           options: [
+            "Fifty percent increase",
             "Thirty percent increase",
             "Forty percent increase",
-            "Fifty percent increase",
             "Sixty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Counterfactual analysis increases credibility of impact claims by forty percent by estimating what would have happened without HR interventions."
         },
         {
           id: 17,
           question: "How much faster do organizations achieve analytics adoption with proper skills development?",
           options: [
-            "Forty percent faster",
-            "Fifty percent faster",
+            "Seventy percent faster",
             "Sixty percent faster",
-            "Seventy percent faster"
+            "Fifty percent faster",
+            "Forty percent faster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Organizations investing in analytics skills development achieve fifty percent faster adoption of data-driven approaches by building competence across HR."
         },
         {
           id: 18,
           question: "How much does business partnership approach increase analytics utilization?",
           options: [
-            "Fifty percent increase",
-            "Sixty percent increase",
             "Seventy percent increase",
+            "Sixty percent increase",
+            "Fifty percent increase",
             "Eighty percent increase"
           ],
           correctAnswer: 1,
@@ -1766,9 +1766,9 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           id: 19,
           question: "How much faster can AI-assisted analytics process data compared to manual approaches?",
           options: [
-            "Five times faster",
-            "Ten times faster",
             "Fifteen times faster",
+            "Ten times faster",
+            "Five times faster",
             "Twenty times faster"
           ],
           correctAnswer: 1,
@@ -1779,11 +1779,11 @@ This module explores how HR leaders use data, analytics, and evidence-based appr
           question: "How much earlier do real-time analytics identify issues compared to periodic reporting?",
           options: [
             "Thirty percent earlier",
-            "Forty percent earlier",
+            "Sixty percent earlier",
             "Fifty percent earlier",
-            "Sixty percent earlier"
+            "Forty percent earlier"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Real-time analytics identify issues forty percent earlier than periodic reporting by providing continuous monitoring and immediate insights from streaming data."
         }
       ]
@@ -1914,10 +1914,10 @@ This final module focuses on developing HR leadership capabilities, building str
           id: 1,
           question: "What percentage higher business unit performance do organizations with effective HR business partners achieve?",
           options: [
-            "Fifteen percent higher",
+            "Forty-five percent higher",
             "Twenty-five percent higher",
             "Thirty-five percent higher",
-            "Forty-five percent higher"
+            "Fifteen percent higher"
           ],
           correctAnswer: 1,
           explanation: "Organizations with effective HR business partners achieve twenty-five percent higher business unit performance by aligning HR initiatives with business objectives."
@@ -1926,22 +1926,22 @@ This final module focuses on developing HR leadership capabilities, building str
           id: 2,
           question: "How much more time do HR leaders with strong business acumen spend on strategic activities?",
           options: [
-            "Thirty percent more time",
-            "Forty percent more time",
             "Fifty percent more time",
-            "Sixty percent more time"
+            "Sixty percent more time",
+            "Forty percent more time",
+            "Thirty percent more time"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "HR leaders with strong business acumen spend forty percent more time on strategic activities by understanding business context and contributing meaningfully to discussions."
         },
         {
           id: 3,
           question: "How much higher adoption of HR initiatives do effective influencers achieve?",
           options: [
+            "Eighty percent higher",
             "Fifty percent higher",
-            "Sixty percent higher",
             "Seventy percent higher",
-            "Eighty percent higher"
+            "Sixty percent higher"
           ],
           correctAnswer: 2,
           explanation: "Effective influencers achieve seventy percent higher adoption of HR initiatives by building credibility and creating compelling cases for change beyond formal authority."
@@ -1950,12 +1950,12 @@ This final module focuses on developing HR leadership capabilities, building str
           id: 4,
           question: "What reduction in talent shortages does integrated workforce planning achieve during strategic implementation?",
           options: [
-            "Twenty percent reduction",
             "Thirty percent reduction",
-            "Forty percent reduction",
-            "Fifty percent reduction"
+            "Twenty percent reduction",
+            "Fifty percent reduction",
+            "Forty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Integrated workforce planning reduces talent shortages by thirty percent during strategic implementation by anticipating skill requirements and developing plans to address them."
         },
         {
@@ -1963,80 +1963,80 @@ This final module focuses on developing HR leadership capabilities, building str
           question: "How much higher success rates do HR-led change initiatives achieve?",
           options: [
             "Thirty percent higher",
-            "Forty percent higher",
+            "Sixty percent higher",
             "Fifty percent higher",
-            "Sixty percent higher"
+            "Forty percent higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "HR-led change initiatives achieve forty percent higher success rates through designed change management approaches and leadership capability building."
         },
         {
           id: 6,
           question: "How much does culture stewardship improve employee engagement?",
           options: [
-            "Fifteen percent improvement",
-            "Twenty-five percent improvement",
+            "Forty-five percent improvement",
             "Thirty-five percent improvement",
-            "Forty-five percent improvement"
+            "Fifteen percent improvement",
+            "Twenty-five percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Culture stewardship improves employee engagement by twenty-five percent by shaping organizational environment and aligning systems with desired cultural behaviors."
         },
         {
           id: 7,
           question: "How much does effective C-suite partnership increase HR's strategic influence?",
           options: [
-            "Forty percent increase",
             "Fifty percent increase",
             "Sixty percent increase",
-            "Seventy percent increase"
+            "Seventy percent increase",
+            "Forty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective C-suite partnerships increase HR's strategic influence by fifty percent by establishing credibility with top leadership and understanding executive priorities."
         },
         {
           id: 8,
           question: "How many more resources do board-engaged HR functions typically receive for strategic initiatives?",
           options: [
-            "Twenty percent more resources",
-            "Thirty percent more resources",
             "Forty percent more resources",
-            "Fifty percent more resources"
+            "Twenty percent more resources",
+            "Fifty percent more resources",
+            "Thirty percent more resources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Board-engaged HR functions receive thirty percent more resources for strategic initiatives by providing governance perspective on people matters."
         },
         {
           id: 9,
           question: "How much does cross-functional collaboration improve implementation success?",
           options: [
-            "Thirty percent improvement",
             "Forty percent improvement",
+            "Thirty percent improvement",
             "Fifty percent improvement",
             "Sixty percent improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cross-functional collaboration improves implementation success by forty percent by building alliances across the organization and creating integrated solutions."
         },
         {
           id: 10,
           question: "What reduction in resistance does effective stakeholder management achieve?",
           options: [
+            "Forty-five percent reduction",
             "Twenty-five percent reduction",
             "Thirty-five percent reduction",
-            "Forty-five percent reduction",
             "Fifty-five percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective stakeholder management reduces resistance by thirty-five percent by understanding needs, communicating effectively, and building support for initiatives."
         },
         {
           id: 11,
           question: "How much does competency-based development improve HR leadership effectiveness?",
           options: [
-            "Twenty percent improvement",
-            "Thirty percent improvement",
             "Forty percent improvement",
+            "Thirty percent improvement",
+            "Twenty percent improvement",
             "Fifty percent improvement"
           ],
           correctAnswer: 1,
@@ -2046,10 +2046,10 @@ This final module focuses on developing HR leadership capabilities, building str
           id: 12,
           question: "How much does strong executive presence increase HR's influence in leadership discussions?",
           options: [
-            "Thirty percent increase",
-            "Forty percent increase",
             "Fifty percent increase",
-            "Sixty percent increase"
+            "Forty percent increase",
+            "Sixty percent increase",
+            "Thirty percent increase"
           ],
           correctAnswer: 1,
           explanation: "Strong executive presence increases HR's influence in leadership discussions by forty percent through effective communication, confidence, and professional demeanor."
@@ -2058,57 +2058,57 @@ This final module focuses on developing HR leadership capabilities, building str
           id: 13,
           question: "How much does thought leadership increase internal credibility for HR?",
           options: [
-            "Fifteen percent increase",
             "Twenty-five percent increase",
             "Thirty-five percent increase",
-            "Forty-five percent increase"
+            "Forty-five percent increase",
+            "Fifteen percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Thought leadership increases internal credibility for HR by twenty-five percent by positioning HR as expert resource through trend awareness and innovative approaches."
         },
         {
           id: 14,
           question: "What reduction in leadership gaps does HR succession planning achieve?",
           options: [
-            "Forty percent reduction",
             "Fifty percent reduction",
-            "Sixty percent reduction",
-            "Seventy percent reduction"
+            "Seventy percent reduction",
+            "Forty percent reduction",
+            "Sixty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "HR succession planning reduces leadership gaps by fifty percent by identifying high-potential HR professionals and preparing them for leadership transitions."
         },
         {
           id: 15,
           question: "How much do business impact stories increase perceived HR value?",
           options: [
-            "Twenty percent increase",
-            "Thirty percent increase",
+            "Fifty percent increase",
             "Forty percent increase",
-            "Fifty percent increase"
+            "Twenty percent increase",
+            "Thirty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Business impact stories increase perceived HR value by thirty percent by connecting HR work to organizational outcomes like increased sales or reduced costs."
         },
         {
           id: 16,
           question: "How much does regular dashboard reporting increase leadership attention to people matters?",
           options: [
-            "Thirty percent increase",
-            "Forty percent increase",
             "Fifty percent increase",
-            "Sixty percent increase"
+            "Sixty percent increase",
+            "Forty percent increase",
+            "Thirty percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regular dashboard reporting increases leadership attention to people matters by forty percent by visually highlighting HR's contribution and connections to business outcomes."
         },
         {
           id: 17,
           question: "How much does structure alignment improve organizational effectiveness?",
           options: [
-            "Fifteen percent improvement",
-            "Twenty-five percent improvement",
             "Thirty-five percent improvement",
+            "Twenty-five percent improvement",
+            "Fifteen percent improvement",
             "Forty-five percent improvement"
           ],
           correctAnswer: 1,
@@ -2118,12 +2118,12 @@ This final module focuses on developing HR leadership capabilities, building str
           id: 18,
           question: "How much does optimized work design increase productivity?",
           options: [
-            "Ten percent increase",
             "Twenty percent increase",
             "Thirty percent increase",
-            "Forty percent increase"
+            "Forty percent increase",
+            "Ten percent increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Optimized work design increases productivity by twenty percent by creating roles that engage employees through appropriate autonomy, variety, and feedback."
         },
         {
@@ -2131,23 +2131,23 @@ This final module focuses on developing HR leadership capabilities, building str
           question: "What reduction in HR administrative costs does digital transformation achieve?",
           options: [
             "Twenty percent reduction",
+            "Fifty percent reduction",
             "Thirty percent reduction",
-            "Forty percent reduction",
-            "Fifty percent reduction"
+            "Forty percent reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital transformation reduces HR administrative costs by thirty percent through automation while improving service quality through technology-enabled approaches."
         },
         {
           id: 20,
           question: "How much faster do innovation-focused HR functions develop new approaches?",
           options: [
-            "Forty percent faster",
             "Fifty percent faster",
-            "Sixty percent faster",
-            "Seventy percent faster"
+            "Seventy percent faster",
+            "Forty percent faster",
+            "Sixty percent faster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Innovation-focused HR functions develop new approaches fifty percent faster by creating safe spaces for experimentation and rewarding calculated risk-taking."
         }
       ]
@@ -2166,12 +2166,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 1,
         question: "What percentage of their time do today's HR leaders spend on strategic activities?",
         options: [
-          "Fifteen percent",
           "Twenty-five percent",
-          "Forty percent",
-          "Sixty percent"
+          "Sixty percent",
+          "Fifteen percent",
+          "Forty percent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "From Module 1: Modern HR leaders spend approximately forty percent of their time on strategic activities versus only fifteen percent two decades ago.",
         module: 1
       },
@@ -2179,12 +2179,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 2,
         question: "What do organizations with data-driven HR functions report compared to traditional approaches?",
         options: [
-          "Ten percent lower costs",
           "Twenty-two percent higher profitability",
-          "Fifteen percent higher employee satisfaction",
-          "Thirty percent faster hiring"
+          "Ten percent lower costs",
+          "Thirty percent faster hiring",
+          "Fifteen percent higher employee satisfaction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 1: Organizations with data-driven HR functions report twenty-two percent higher profitability than those relying on traditional intuition-based approaches.",
         module: 1
       },
@@ -2192,12 +2192,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 3,
         question: "What percentage higher change success rates do organizations report when using action research methodology?",
         options: [
-          "Twenty percent",
-          "Thirty-five percent",
+          "Sixty-five percent",
           "Fifty percent",
-          "Sixty-five percent"
+          "Thirty-five percent",
+          "Twenty percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 2: Organizations using action research methodology report thirty-five percent higher change success rates.",
         module: 2
       },
@@ -2205,12 +2205,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 4,
         question: "How much higher are change adoption rates when applying all three phases of Lewin's Change Model?",
         options: [
+          "Seventy percent higher",
           "Twenty-five percent higher",
-          "Forty percent higher",
           "Fifty-five percent higher",
-          "Seventy percent higher"
+          "Forty percent higher"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 2: Organizations applying all three phases of Lewin's Change Model experience forty percent higher change adoption rates.",
         module: 2
       },
@@ -2218,12 +2218,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 5,
         question: "What percentage higher revenue per employee do companies with integrated talent systems achieve?",
         options: [
-          "Fifteen percent higher",
           "Twenty-five percent higher",
-          "Thirty-five percent higher",
-          "Forty-five percent higher"
+          "Fifteen percent higher",
+          "Forty-five percent higher",
+          "Thirty-five percent higher"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 3: Companies with integrated talent management systems achieve twenty-five percent higher revenue per employee.",
         module: 3
       },
@@ -2231,12 +2231,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 6,
         question: "How much does competency-based talent management improve promotion success rates?",
         options: [
-          "Twenty percent improvement",
           "Thirty percent improvement",
+          "Twenty percent improvement",
           "Forty percent improvement",
           "Fifty percent improvement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 3: Competency-based talent management improves promotion success rates by thirty percent.",
         module: 3
       },
@@ -2244,12 +2244,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 7,
         question: "What percentage higher employee satisfaction do organizations with comprehensive total rewards strategies achieve?",
         options: [
+          "Thirty-five percent higher",
           "Fifteen percent higher",
           "Twenty-five percent higher",
-          "Thirty-five percent higher",
           "Forty-five percent higher"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 4: Organizations with comprehensive total rewards strategies achieve twenty-five percent higher employee satisfaction.",
         module: 4
       },
@@ -2258,11 +2258,11 @@ This final module focuses on developing HR leadership capabilities, building str
         question: "What reduction in turnover do organizations achieve by balancing internal equity and external competitiveness?",
         options: [
           "Ten percent lower turnover",
-          "Fifteen percent lower turnover",
           "Twenty percent lower turnover",
+          "Fifteen percent lower turnover",
           "Twenty-five percent lower turnover"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 4: Organizations balancing internal equity and external competitiveness achieve fifteen percent lower turnover.",
         module: 4
       },
@@ -2270,10 +2270,10 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 9,
         question: "What percentage of workforce dynamics do descriptive analytics typically explain?",
         options: [
-          "Ten percent",
+          "Forty percent",
           "Twenty percent",
-          "Thirty percent",
-          "Forty percent"
+          "Ten percent",
+          "Thirty percent"
         ],
         correctAnswer: 1,
         explanation: "From Module 5: Descriptive analytics alone explains only approximately twenty percent of workforce dynamics.",
@@ -2283,12 +2283,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 10,
         question: "How much does diagnostic analytics increase understanding of workforce issues?",
         options: [
-          "Thirty percent increase",
           "Forty percent increase",
-          "Fifty percent increase",
-          "Sixty percent increase"
+          "Sixty percent increase",
+          "Thirty percent increase",
+          "Fifty percent increase"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 5: Diagnostic analytics increases understanding of workforce issues by forty percent.",
         module: 5
       },
@@ -2296,12 +2296,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 11,
         question: "What percentage higher business unit performance do organizations with effective HR business partners achieve?",
         options: [
-          "Fifteen percent higher",
           "Twenty-five percent higher",
+          "Forty-five percent higher",
           "Thirty-five percent higher",
-          "Forty-five percent higher"
+          "Fifteen percent higher"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 6: Organizations with effective HR business partners achieve twenty-five percent higher business unit performance.",
         module: 6
       },
@@ -2309,10 +2309,10 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 12,
         question: "How much more time do HR leaders with strong business acumen spend on strategic activities?",
         options: [
-          "Thirty percent more time",
-          "Forty percent more time",
           "Fifty percent more time",
-          "Sixty percent more time"
+          "Forty percent more time",
+          "Sixty percent more time",
+          "Thirty percent more time"
         ],
         correctAnswer: 1,
         explanation: "From Module 6: HR leaders with strong business acumen spend forty percent more time on strategic activities.",
@@ -2322,12 +2322,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 13,
         question: "How much do companies with strong cultures typically outperform competitors in shareholder returns?",
         options: [
-          "Ten percent",
           "Twenty percent",
           "Thirty percent",
+          "Ten percent",
           "Forty percent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "From Module 1: Companies with strong organizational cultures outperform competitors by up to thirty percent in shareholder returns.",
         module: 1
       },
@@ -2335,12 +2335,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 14,
         question: "What percentage of planned changes achieve intended outcomes when properly implemented?",
         options: [
+          "Seventy percent",
           "Forty percent",
           "Fifty-five percent",
-          "Seventy percent",
           "Eighty-five percent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "From Module 2: Approximately seventy percent of planned organizational changes achieve intended outcomes when properly implemented.",
         module: 2
       },
@@ -2348,12 +2348,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 15,
         question: "How much greater accuracy do organizations achieve in identifying high-potentials using multiple assessment methods?",
         options: [
-          "Thirty percent greater accuracy",
-          "Forty percent greater accuracy",
           "Fifty percent greater accuracy",
-          "Sixty percent greater accuracy"
+          "Sixty percent greater accuracy",
+          "Thirty percent greater accuracy",
+          "Forty percent greater accuracy"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 3: Organizations using multiple assessment methods identify high-potentials with forty percent greater accuracy.",
         module: 3
       },
@@ -2362,11 +2362,11 @@ This final module focuses on developing HR leadership capabilities, building str
         question: "How much does appropriate pay transparency reduce pay equity concerns?",
         options: [
           "Twenty percent reduction",
-          "Thirty percent reduction",
           "Forty percent reduction",
-          "Fifty percent reduction"
+          "Fifty percent reduction",
+          "Thirty percent reduction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 4: Appropriate pay transparency reduces pay equity concerns by thirty percent.",
         module: 4
       },
@@ -2375,11 +2375,11 @@ This final module focuses on developing HR leadership capabilities, building str
         question: "How much do predictive analytics improve decision accuracy over intuition alone?",
         options: [
           "Twenty-five percent improvement",
-          "Thirty-five percent improvement",
           "Forty-five percent improvement",
+          "Thirty-five percent improvement",
           "Fifty-five percent improvement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 5: Predictive analytics improve decision accuracy by thirty-five percent over intuition alone.",
         module: 5
       },
@@ -2387,12 +2387,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 18,
         question: "How much higher adoption of HR initiatives do effective influencers achieve?",
         options: [
-          "Fifty percent higher",
           "Sixty percent higher",
           "Seventy percent higher",
+          "Fifty percent higher",
           "Eighty percent higher"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "From Module 6: Effective influencers achieve seventy percent higher adoption of HR initiatives.",
         module: 6
       },
@@ -2400,12 +2400,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 19,
         question: "What does strategic workforce planning primarily aim to reduce?",
         options: [
-          "Employee benefits costs",
-          "Talent shortages that could impede growth",
+          "Recruitment advertising",
           "Training expenses",
-          "Recruitment advertising"
+          "Employee benefits costs",
+          "Talent shortages that could impede growth"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 1: Strategic workforce planning aims to reduce talent shortages that could impede organizational growth.",
         module: 1
       },
@@ -2414,11 +2414,11 @@ This final module focuses on developing HR leadership capabilities, building str
         question: "How much more likely are companies to achieve change objectives when following all eight of Kotter's steps?",
         options: [
           "Three times more likely",
-          "Five times more likely",
           "Ten times more likely",
+          "Five times more likely",
           "Fifteen times more likely"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "From Module 2: Companies following all eight steps of Kotter's change model are ten times more likely to achieve their change objectives.",
         module: 2
       },
@@ -2426,12 +2426,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 21,
         question: "What accuracy rate do assessment centers achieve in predicting leadership success?",
         options: [
-          "Fifty-five percent accuracy",
-          "Seventy percent accuracy",
           "Eighty-five percent accuracy",
-          "Ninety-five percent accuracy"
+          "Fifty-five percent accuracy",
+          "Ninety-five percent accuracy",
+          "Seventy percent accuracy"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 3: Assessment centers predict leadership success with seventy percent accuracy.",
         module: 3
       },
@@ -2439,12 +2439,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 22,
         question: "What percentage of total executive compensation is typically aligned with performance in well-designed packages?",
         options: [
-          "Fifty percent",
           "Sixty percent",
           "Seventy percent",
+          "Fifty percent",
           "Eighty percent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "From Module 4: Well-designed executive compensation packages align approximately seventy percent of total compensation with performance.",
         module: 4
       },
@@ -2452,12 +2452,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 23,
         question: "How much do prescriptive analytics increase intervention effectiveness?",
         options: [
-          "Forty percent increase",
-          "Fifty percent increase",
+          "Seventy percent increase",
           "Sixty percent increase",
-          "Seventy percent increase"
+          "Fifty percent increase",
+          "Forty percent increase"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 5: Prescriptive analytics increase intervention effectiveness by fifty percent.",
         module: 5
       },
@@ -2465,12 +2465,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 24,
         question: "What reduction in talent shortages does integrated workforce planning achieve during strategic implementation?",
         options: [
+          "Fifty percent reduction",
           "Twenty percent reduction",
           "Thirty percent reduction",
-          "Forty percent reduction",
-          "Fifty percent reduction"
+          "Forty percent reduction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 6: Integrated workforce planning reduces talent shortages by thirty percent during strategic implementation.",
         module: 6
       },
@@ -2478,12 +2478,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 25,
         question: "How much do predictive analytics improve decision accuracy over traditional methods?",
         options: [
+          "Fifty percent",
           "Ten percent",
-          "Twenty-five percent",
           "Forty percent",
-          "Fifty percent"
+          "Twenty-five percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 1: Predictive analytics improve HR decision accuracy by approximately twenty-five percent over traditional methods.",
         module: 1
       },
@@ -2491,12 +2491,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 26,
         question: "What percentage improvement in individual change success does ADKAR implementation achieve?",
         options: [
-          "Fifteen percent",
-          "Thirty percent",
+          "Sixty percent",
           "Forty-five percent",
-          "Sixty percent"
+          "Thirty percent",
+          "Fifteen percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 2: ADKAR implementation improves individual change success by approximately thirty percent.",
         module: 2
       },
@@ -2504,10 +2504,10 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 27,
         question: "How much does comprehensive 360-degree feedback improve development planning effectiveness?",
         options: [
-          "Twenty-five percent improvement",
-          "Thirty-five percent improvement",
           "Forty-five percent improvement",
-          "Fifty-five percent improvement"
+          "Thirty-five percent improvement",
+          "Fifty-five percent improvement",
+          "Twenty-five percent improvement"
         ],
         correctAnswer: 1,
         explanation: "From Module 3: Comprehensive 360-degree feedback improves development planning effectiveness by thirty-five percent.",
@@ -2517,12 +2517,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 28,
         question: "How much does metric alignment in incentive plans improve goal achievement?",
         options: [
+          "Sixty percent improvement",
           "Thirty percent improvement",
           "Forty percent improvement",
-          "Fifty percent improvement",
-          "Sixty percent improvement"
+          "Fifty percent improvement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 4: Aligning incentive metrics improves goal achievement by forty percent.",
         module: 4
       },
@@ -2530,9 +2530,9 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 29,
         question: "How much higher analytics ROI do organizations with strong data quality achieve?",
         options: [
-          "Two times higher",
-          "Three times higher",
           "Four times higher",
+          "Three times higher",
+          "Two times higher",
           "Five times higher"
         ],
         correctAnswer: 1,
@@ -2543,12 +2543,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 30,
         question: "How much higher success rates do HR-led change initiatives achieve?",
         options: [
-          "Thirty percent higher",
-          "Forty percent higher",
+          "Sixty percent higher",
           "Fifty percent higher",
-          "Sixty percent higher"
+          "Thirty percent higher",
+          "Forty percent higher"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 6: HR-led change initiatives achieve forty percent higher success rates.",
         module: 6
       },
@@ -2556,12 +2556,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 31,
         question: "What percentage reduction in leadership gaps does effective succession planning achieve?",
         options: [
-          "Twenty percent",
-          "Forty percent",
           "Sixty percent",
-          "Eighty percent"
+          "Twenty percent",
+          "Eighty percent",
+          "Forty percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 1: Effective succession planning reduces leadership gaps by approximately forty percent.",
         module: 1
       },
@@ -2569,12 +2569,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 32,
         question: "How much does addressing transition reduce productivity loss during organizational change?",
         options: [
-          "Fifteen percent reduction",
           "Twenty-five percent reduction",
-          "Thirty-five percent reduction",
-          "Forty-five percent reduction"
+          "Forty-five percent reduction",
+          "Fifteen percent reduction",
+          "Thirty-five percent reduction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 2: Addressing transition reduces productivity loss during change by twenty-five percent.",
         module: 2
       },
@@ -2582,12 +2582,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 33,
         question: "What reduction in promotion failure rates do clear pipeline stages achieve?",
         options: [
-          "Thirty percent reduction",
           "Forty percent reduction",
-          "Fifty percent reduction",
-          "Sixty percent reduction"
+          "Thirty percent reduction",
+          "Sixty percent reduction",
+          "Fifty percent reduction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 3: Clear leadership pipeline stages reduce promotion failure rates by forty percent.",
         module: 3
       },
@@ -2595,12 +2595,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 34,
         question: "What increase in investor confidence do companies with strong shareholder support for executive pay experience?",
         options: [
-          "Ten percent higher",
-          "Twenty percent higher",
           "Thirty percent higher",
-          "Forty percent higher"
+          "Forty percent higher",
+          "Ten percent higher",
+          "Twenty percent higher"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 4: Companies with strong shareholder support experience twenty percent higher investor confidence.",
         module: 4
       },
@@ -2608,12 +2608,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 35,
         question: "How much richer insights do integrated data sources provide compared to HR data alone?",
         options: [
-          "Thirty percent richer",
           "Forty percent richer",
+          "Thirty percent richer",
           "Fifty percent richer",
           "Sixty percent richer"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 5: Integrated data provides forty percent richer insights than HR data alone.",
         module: 5
       },
@@ -2622,11 +2622,11 @@ This final module focuses on developing HR leadership capabilities, building str
         question: "How much does culture stewardship improve employee engagement?",
         options: [
           "Fifteen percent improvement",
-          "Twenty-five percent improvement",
+          "Forty-five percent improvement",
           "Thirty-five percent improvement",
-          "Forty-five percent improvement"
+          "Twenty-five percent improvement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 6: Culture stewardship improves employee engagement by twenty-five percent.",
         module: 6
       },
@@ -2634,10 +2634,10 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 37,
         question: "How many more qualified applicants do strong employer brands typically receive per position?",
         options: [
-          "Twenty-five percent more",
-          "Fifty percent more",
           "Seventy-five percent more",
-          "One hundred percent more"
+          "Fifty percent more",
+          "One hundred percent more",
+          "Twenty-five percent more"
         ],
         correctAnswer: 1,
         explanation: "From Module 1: Strong employer brands receive approximately fifty percent more qualified applicants per position.",
@@ -2647,12 +2647,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 38,
         question: "What percentage of expatriate assignment failure do appropriate compensation packages reduce?",
         options: [
+          "Fifty percent reduction",
           "Twenty percent reduction",
           "Thirty percent reduction",
-          "Forty percent reduction",
-          "Fifty percent reduction"
+          "Forty percent reduction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 4: Appropriate expatriate compensation packages reduce assignment failure by thirty percent.",
         module: 4
       },
@@ -2661,11 +2661,11 @@ This final module focuses on developing HR leadership capabilities, building str
         question: "How much does accurate turnover prediction reduce actual turnover?",
         options: [
           "Fifteen percent reduction",
-          "Twenty-five percent reduction",
           "Thirty-five percent reduction",
-          "Forty-five percent reduction"
+          "Forty-five percent reduction",
+          "Twenty-five percent reduction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 5: Accurate turnover prediction reduces actual turnover by twenty-five percent.",
         module: 5
       },
@@ -2673,12 +2673,12 @@ This final module focuses on developing HR leadership capabilities, building str
         id: 40,
         question: "How much does effective C-suite partnership increase HR's strategic influence?",
         options: [
-          "Forty percent increase",
           "Fifty percent increase",
+          "Seventy percent increase",
           "Sixty percent increase",
-          "Seventy percent increase"
+          "Forty percent increase"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 6: Effective C-suite partnerships increase HR's strategic influence by fifty percent.",
         module: 6
       }

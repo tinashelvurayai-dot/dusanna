@@ -66,24 +66,24 @@ Strategic management evolves beyond basic planning to become the central organiz
           id: 1,
           question: "What does Porter's Five Forces analyze?",
           options: [
-            "Industry attractiveness and competitive forces",
-            "Internal organizational capabilities",
             "Financial performance metrics",
-            "Employee satisfaction levels"
+            "Internal organizational capabilities",
+            "Employee satisfaction levels",
+            "Industry attractiveness and competitive forces"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Porter's Five Forces analyzes five competitive forces that shape industry attractiveness and profitability potential."
         },
         {
           id: 2,
           question: "What percentage of organizations effectively execute their strategies?",
           options: [
-            "10%",
             "30%",
+            "10%",
             "50%",
             "70%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Only about 10% of organizations effectively execute their strategies, with most failures occurring during implementation."
         },
       {
@@ -91,9 +91,9 @@ Strategic management evolves beyond basic planning to become the central organiz
         question: "Which strategy involves entering new markets with existing products?",
         options: [
           "Market Development",
-          "Market Penetration",
           "Product Development",
-          "Diversification"
+          "Diversification",
+          "Market Penetration"
         ],
         correctAnswer: 0,
         explanation: "Market Development strategy focuses on entering new markets or segments with existing products or services."
@@ -102,24 +102,24 @@ Strategic management evolves beyond basic planning to become the central organiz
           id: 4,
           question: "How many perspectives does the Balanced Scorecard measure?",
           options: [
+            "6 perspectives",
             "4 perspectives",
-            "3 perspectives",
             "5 perspectives",
-            "6 perspectives"
+            "3 perspectives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Balanced Scorecard measures performance across four perspectives: Financial, Customer, Internal Processes, and Learning & Growth."
         },
         {
           id: 5,
           question: "What are Primary Activities in Value Chain Analysis?",
           options: [
-            "Inbound logistics, operations, outbound logistics, marketing, service",
+            "Finance, marketing, operations, HR",
             "Infrastructure, HR, technology, procurement",
-            "Planning, organizing, leading, controlling",
-            "Finance, marketing, operations, HR"
+            "Inbound logistics, operations, outbound logistics, marketing, service",
+            "Planning, organizing, leading, controlling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Primary activities are directly involved in creating and delivering value to customers in the value chain."
         },
         {
@@ -138,60 +138,60 @@ Strategic management evolves beyond basic planning to become the central organiz
           id: 7,
           question: "What percentage of strategy failures occur due to poor implementation?",
           options: [
-            "70%",
-            "30%",
+            "90%",
             "50%",
-            "90%"
+            "30%",
+            "70%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Approximately 70% of strategy failures result from poor implementation rather than poor strategy formulation."
         },
         {
           id: 8,
           question: "Which strategy increases market share in existing markets?",
           options: [
-            "Market Penetration",
             "Market Development",
             "Product Development",
+            "Market Penetration",
             "Diversification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Market Penetration strategy focuses on increasing market share within existing markets with current products."
         },
         {
           id: 9,
           question: "What does Strategic Drift refer to?",
           options: [
-            "Strategy failing to keep pace with environmental changes",
-            "Rapid strategic adaptation to market changes",
             "Consistent strategic execution over time",
-            "Strategic planning without implementation"
+            "Strategy failing to keep pace with environmental changes",
+            "Strategic planning without implementation",
+            "Rapid strategic adaptation to market changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic Drift occurs when an organization's strategy gradually becomes less relevant to its environment."
         },
         {
           id: 10,
           question: "Which Balanced Scorecard perspective asks 'How do customers see us?'",
           options: [
-            "Customer Perspective",
-            "Financial Perspective",
+            "Learning & Growth Perspective",
             "Internal Processes Perspective",
-            "Learning & Growth Perspective"
+            "Financial Perspective",
+            "Customer Perspective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Customer Perspective focuses on customer satisfaction, retention, and market share from the customer's viewpoint."
         },
         {
           id: 11,
           question: "What are Support Activities in Value Chain Analysis?",
           options: [
-            "Infrastructure, HR, technology, procurement",
             "Inbound logistics, operations, outbound logistics",
-            "Marketing, sales, service",
-            "Planning, execution, control"
+            "Planning, execution, control",
+            "Infrastructure, HR, technology, procurement",
+            "Marketing, sales, service"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Support activities enable Primary Activities to function effectively in creating customer value."
         },
         {
@@ -211,9 +211,9 @@ Strategic management evolves beyond basic planning to become the central organiz
           question: "What do SBUs allow in diversified companies?",
           options: [
             "Managing different businesses with different strategic needs",
+            "Eliminating market specialization",
             "Standardizing all business operations",
-            "Centralizing all decision-making",
-            "Eliminating market specialization"
+            "Centralizing all decision-making"
           ],
           correctAnswer: 0,
           explanation: "Strategic Business Units allow diversified companies to tailor strategies to different business segments."
@@ -222,24 +222,24 @@ Strategic management evolves beyond basic planning to become the central organiz
           id: 14,
           question: "Which perspective asks 'Can we continue to improve?'",
           options: [
-            "Learning & Growth Perspective",
+            "Internal Processes Perspective",
             "Financial Perspective",
             "Customer Perspective",
-            "Internal Processes Perspective"
+            "Learning & Growth Perspective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Learning & Growth Perspective focuses on innovation, improvement, and developing capabilities for future success."
         },
         {
           id: 15,
           question: "Which force examines customer influence on pricing?",
           options: [
+            "Threat of New Entrants",
             "Bargaining Power of Buyers",
             "Bargaining Power of Suppliers",
-            "Threat of New Entrants",
             "Intensity of Rivalry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bargaining Power of Buyers assesses how much influence customers have on prices and terms."
         },
         {
@@ -247,9 +247,9 @@ Strategic management evolves beyond basic planning to become the central organiz
           question: "What strategy introduces new products to existing markets?",
           options: [
             "Product Development",
+            "Diversification",
             "Market Penetration",
-            "Market Development",
-            "Diversification"
+            "Market Development"
           ],
           correctAnswer: 0,
           explanation: "Product Development strategy focuses on creating new products or services for existing markets."
@@ -258,36 +258,36 @@ Strategic management evolves beyond basic planning to become the central organiz
           id: 17,
           question: "Which perspective asks 'How do we look to shareholders?'",
           options: [
-            "Financial Perspective",
-            "Customer Perspective",
             "Internal Processes Perspective",
-            "Learning & Growth Perspective"
+            "Customer Perspective",
+            "Learning & Growth Perspective",
+            "Financial Perspective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Financial Perspective focuses on profitability, growth, and shareholder value creation."
         },
         {
           id: 18,
           question: "What does Management Control Systems include?",
           options: [
-            "Strategic planning, budgeting, performance measurement, incentive systems",
-            "Only financial reporting systems",
             "Only strategic planning systems",
-            "Only employee performance systems"
+            "Only employee performance systems",
+            "Only financial reporting systems",
+            "Strategic planning, budgeting, performance measurement, incentive systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Management Control Systems integrate planning, budgeting, measurement, and incentives to align with strategy."
         },
         {
           id: 19,
           question: "Which force assesses competition among existing firms?",
           options: [
-            "Intensity of Rivalry",
-            "Threat of New Entrants",
             "Bargaining Power of Buyers",
-            "Threat of Substitute Products"
+            "Threat of Substitute Products",
+            "Threat of New Entrants",
+            "Intensity of Rivalry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Intensity of Rivalry examines how fiercely existing competitors compete in the industry."
         },
         {
@@ -295,9 +295,9 @@ Strategic management evolves beyond basic planning to become the central organiz
           question: "What strategy enters new markets with new products?",
           options: [
             "Diversification",
-            "Market Penetration",
             "Market Development",
-            "Product Development"
+            "Product Development",
+            "Market Penetration"
           ],
           correctAnswer: 0,
           explanation: "Diversification strategy involves entering completely new markets with new products or services."
@@ -394,48 +394,48 @@ Operating in international markets requires understanding complex interdependenc
           id: 2,
           question: "How many cultural dimensions does Hofstede's framework have?",
           options: [
-            "6 dimensions",
             "4 dimensions",
-            "5 dimensions",
-            "7 dimensions"
+            "6 dimensions",
+            "7 dimensions",
+            "5 dimensions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hofstede's cultural dimensions framework includes six dimensions that affect business practices across cultures."
         },
         {
           id: 3,
           question: "Which market entry involves granting production rights?",
           options: [
-            "Licensing",
             "Exporting",
+            "Licensing",
             "Franchising",
             "Joint Venture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Licensing involves granting foreign firms rights to produce or sell products in exchange for royalties."
         },
         {
           id: 4,
           question: "What does the Power Distance dimension measure?",
           options: [
-            "Acceptance of unequal power distribution",
+            "Future planning focus",
             "Individual vs group orientation",
-            "Tolerance for ambiguity",
-            "Future planning focus"
+            "Acceptance of unequal power distribution",
+            "Tolerance for ambiguity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Power Distance measures the extent to which less powerful members accept unequal power distribution in society."
         },
         {
           id: 5,
           question: "Which strategy offers maximum control in foreign markets?",
           options: [
-            "Wholly Owned Subsidiaries",
             "Joint Ventures",
-            "Licensing",
-            "Exporting"
+            "Wholly Owned Subsidiaries",
+            "Exporting",
+            "Licensing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Wholly Owned Subsidiaries provide complete ownership and maximum control but require highest investment."
         },
         {
@@ -444,8 +444,8 @@ Operating in international markets requires understanding complex interdependenc
           options: [
             "Transaction Risk",
             "Translation Risk",
-            "Economic Risk",
-            "Political Risk"
+            "Political Risk",
+            "Economic Risk"
           ],
           correctAnswer: 0,
           explanation: "Transaction Risk refers to exchange rate changes affecting the value of specific international transactions."
@@ -454,60 +454,60 @@ Operating in international markets requires understanding complex interdependenc
           id: 7,
           question: "Which strategy standardizes products worldwide?",
           options: [
-            "Global Strategy",
             "Multidomestic Strategy",
-            "Transnational Strategy",
-            "Regional Strategy"
+            "Global Strategy",
+            "Regional Strategy",
+            "Transnational Strategy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Global Strategy emphasizes standardized products and operations worldwide for efficiency."
         },
         {
           id: 8,
           question: "What does Individualism vs Collectivism measure?",
           options: [
-            "Individual vs group orientation",
+            "Tolerance for ambiguity",
             "Power distribution acceptance",
             "Competitive vs cooperative values",
-            "Tolerance for ambiguity"
+            "Individual vs group orientation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Individualism vs Collectivism measures whether people prioritize individual achievement or group harmony."
         },
         {
           id: 9,
           question: "Which entry method involves business model licensing?",
           options: [
-            "Franchising",
             "Exporting",
-            "Licensing",
-            "Joint Venture"
+            "Franchising",
+            "Joint Venture",
+            "Licensing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Franchising involves licensing an entire business model, brand, and operational system to foreign partners."
         },
         {
           id: 10,
           question: "What does Uncertainty Avoidance measure?",
           options: [
-            "Tolerance for ambiguity and risk",
-            "Future planning focus",
+            "Power distribution acceptance",
             "Gratification of desires",
-            "Power distribution acceptance"
+            "Tolerance for ambiguity and risk",
+            "Future planning focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Uncertainty Avoidance measures a society's tolerance for ambiguous situations and willingness to take risks."
         },
         {
           id: 11,
           question: "What type of risk involves converting financial statements?",
           options: [
-            "Translation Risk",
-            "Transaction Risk",
+            "Currency Risk",
             "Economic Risk",
-            "Currency Risk"
+            "Translation Risk",
+            "Transaction Risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Translation Risk occurs when converting foreign subsidiary financial statements to the parent company's currency."
         },
         {
@@ -516,8 +516,8 @@ Operating in international markets requires understanding complex interdependenc
           options: [
             "Multidomestic Strategy",
             "Global Strategy",
-            "Transnational Strategy",
-            "Standardized Strategy"
+            "Standardized Strategy",
+            "Transnational Strategy"
           ],
           correctAnswer: 0,
           explanation: "Multidomestic Strategy emphasizes adapting products and operations to local market conditions."
@@ -526,48 +526,48 @@ Operating in international markets requires understanding complex interdependenc
           id: 13,
           question: "What does Long-term Orientation measure?",
           options: [
-            "Future planning focus",
-            "Individual vs group orientation",
+            "Competitive values",
             "Tolerance for ambiguity",
-            "Competitive values"
+            "Future planning focus",
+            "Individual vs group orientation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Long-term vs Short-term Orientation measures a society's focus on future rewards versus immediate results."
         },
         {
           id: 14,
           question: "Which entry method shares risk with foreign partners?",
           options: [
-            "Joint Ventures",
-            "Wholly Owned Subsidiaries",
             "Exporting",
-            "Licensing"
+            "Licensing",
+            "Joint Ventures",
+            "Wholly Owned Subsidiaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Joint Ventures involve partnerships with foreign firms, sharing risks, resources, and control."
         },
         {
           id: 15,
           question: "What does Masculinity vs Femininity measure?",
           options: [
-            "Competitive vs cooperative values",
-            "Power distribution acceptance",
             "Individual vs group orientation",
-            "Tolerance for ambiguity"
+            "Power distribution acceptance",
+            "Tolerance for ambiguity",
+            "Competitive vs cooperative values"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Masculinity vs Femininity measures whether society values competition, achievement, and material success versus cooperation and quality of life."
         },
         {
           id: 16,
           question: "What type of risk affects long-term competitiveness?",
           options: [
-            "Economic Risk",
-            "Transaction Risk",
             "Translation Risk",
-            "Conversion Risk"
+            "Economic Risk",
+            "Conversion Risk",
+            "Transaction Risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Economic Risk refers to long-term effects of exchange rate changes on a company's competitive position."
         },
         {
@@ -575,8 +575,8 @@ Operating in international markets requires understanding complex interdependenc
           question: "Which strategy balances global and local needs?",
           options: [
             "Transnational Strategy",
-            "Global Strategy",
             "Multidomestic Strategy",
+            "Global Strategy",
             "Export Strategy"
           ],
           correctAnswer: 0,
@@ -586,24 +586,24 @@ Operating in international markets requires understanding complex interdependenc
           id: 18,
           question: "What does Indulgence vs Restraint measure?",
           options: [
+            "Individual vs group orientation",
             "Gratification of human desires",
             "Future planning focus",
-            "Individual vs group orientation",
             "Tolerance for ambiguity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Indulgence vs Restraint measures whether society allows relatively free gratification of basic human desires."
         },
         {
           id: 19,
           question: "What is the simplest international market entry method?",
           options: [
-            "Exporting",
             "Joint Ventures",
-            "Wholly Owned Subsidiaries",
-            "Franchising"
+            "Franchising",
+            "Exporting",
+            "Wholly Owned Subsidiaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Exporting is the simplest entry method, involving selling domestic products in foreign markets with minimal investment."
         },
         {
@@ -612,8 +612,8 @@ Operating in international markets requires understanding complex interdependenc
           options: [
             "WTO",
             "IMF",
-            "World Bank",
-            "UN"
+            "UN",
+            "World Bank"
           ],
           correctAnswer: 0,
           explanation: "The World Trade Organization (WTO) establishes global trade rules and handles trade disputes between countries."
@@ -708,36 +708,36 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           id: 1,
           question: "What percentage of innovation projects succeed commercially?",
           options: [
-            "14%",
-            "30%",
             "50%",
-            "70%"
+            "14%",
+            "70%",
+            "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Only about 14% of innovation projects achieve commercial success, highlighting the challenges of innovation management."
         },
         {
           id: 2,
           question: "How many steps are in Kotter's Change Model?",
           options: [
-            "8 steps",
             "5 steps",
+            "8 steps",
             "3 steps",
             "7 steps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Kotter's 8-Step Change Model provides a comprehensive framework for leading organizational change effectively."
         },
         {
           id: 3,
           question: "Which innovation creates new markets?",
           options: [
+            "Sustaining Innovation",
             "Disruptive Innovation",
             "Incremental Innovation",
-            "Sustaining Innovation",
             "Process Innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Disruptive Innovation creates entirely new markets by addressing underserved or non-existent customer needs."
         },
         {
@@ -746,8 +746,8 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           options: [
             "Discovery",
             "Scoping",
-            "Business Case",
-            "Development"
+            "Development",
+            "Business Case"
           ],
           correctAnswer: 0,
           explanation: "The Discovery stage focuses on idea generation and preliminary assessment of innovation opportunities."
@@ -757,8 +757,8 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           question: "What is the first step in Lewin's Change Model?",
           options: [
             "Unfreeze",
-            "Change",
             "Refreeze",
+            "Change",
             "Implement"
           ],
           correctAnswer: 0,
@@ -768,36 +768,36 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           id: 6,
           question: "What does ADKAR stand for in change management?",
           options: [
-            "Awareness, Desire, Knowledge, Ability, Reinforcement",
+            "Awareness, Design, Knowledge, Action, Reinforcement",
             "Analysis, Design, Knowledge, Action, Review",
             "Assessment, Development, Knowledge, Application, Results",
-            "Awareness, Design, Knowledge, Action, Reinforcement"
+            "Awareness, Desire, Knowledge, Ability, Reinforcement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ADKAR focuses on individual change: Awareness, Desire, Knowledge, Ability, and Reinforcement."
         },
         {
           id: 7,
           question: "Which innovation improves existing products?",
           options: [
-            "Sustaining Innovation",
+            "Business Model Innovation",
             "Disruptive Innovation",
             "Radical Innovation",
-            "Business Model Innovation"
+            "Sustaining Innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sustaining Innovation focuses on making existing products better for mainstream customers."
         },
         {
           id: 8,
           question: "How many stages are in the Stage-Gate Process?",
           options: [
-            "6 stages",
             "5 stages",
+            "7 stages",
             "4 stages",
-            "7 stages"
+            "6 stages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Stage-Gate Process typically includes six stages from Discovery to Launch for managing innovation projects."
         },
         {
@@ -805,9 +805,9 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           question: "What is the second step in Lewin's model?",
           options: [
             "Change",
-            "Unfreeze",
+            "Stabilize",
             "Refreeze",
-            "Stabilize"
+            "Unfreeze"
           ],
           correctAnswer: 0,
           explanation: "The Change stage involves implementing the actual change through new processes, structures, or behaviors."
@@ -816,60 +816,60 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           id: 10,
           question: "What type of innovation improves production methods?",
           options: [
+            "Business Model Innovation",
             "Process Innovation",
             "Product Innovation",
-            "Business Model Innovation",
             "Disruptive Innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Process Innovation focuses on improving production, delivery, or support methods to increase efficiency."
         },
         {
           id: 11,
           question: "Which Open Innovation approach uses external ideas?",
           options: [
-            "Outside-in",
-            "Inside-out",
             "Coupled",
-            "Integrated"
+            "Integrated",
+            "Inside-out",
+            "Outside-in"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Outside-in Open Innovation involves incorporating external ideas, technologies, or expertise into internal innovation."
         },
         {
           id: 12,
           question: "What is the final step in Lewin's model?",
           options: [
+            "Change",
             "Refreeze",
             "Unfreeze",
-            "Change",
             "Stabilize"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Refreezing involves stabilizing the new state and institutionalizing the changes to prevent regression."
         },
         {
           id: 13,
           question: "Which innovation involves new value creation methods?",
           options: [
-            "Business Model Innovation",
             "Product Innovation",
+            "Incremental Innovation",
             "Process Innovation",
-            "Incremental Innovation"
+            "Business Model Innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Business Model Innovation creates new ways of generating, delivering, or capturing value in the market."
         },
         {
           id: 14,
           question: "Which Open Innovation approach shares internal ideas externally?",
           options: [
+            "Distributed",
             "Inside-out",
-            "Outside-in",
             "Coupled",
-            "Distributed"
+            "Outside-in"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Inside-out Open Innovation involves taking internal ideas, technologies, or capabilities to external markets."
         },
         {
@@ -877,9 +877,9 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           question: "What is the first step in Kotter's model?",
           options: [
             "Create urgency",
+            "Enlist volunteer army",
             "Build guiding coalition",
-            "Form strategic vision",
-            "Enlist volunteer army"
+            "Form strategic vision"
           ],
           correctAnswer: 0,
           explanation: "Creating urgency involves making the case for change and demonstrating why it's necessary and urgent."
@@ -888,24 +888,24 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           id: 16,
           question: "What are small improvements to existing products called?",
           options: [
-            "Incremental Innovation",
             "Radical Innovation",
+            "Sustaining Innovation",
             "Disruptive Innovation",
-            "Sustaining Innovation"
+            "Incremental Innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Incremental Innovation involves small, continuous improvements to existing products or processes."
         },
         {
           id: 17,
           question: "What does the 'A' in ADKAR stand for?",
           options: [
-            "Ability",
+            "Action",
             "Awareness",
-            "Assessment",
-            "Action"
+            "Ability",
+            "Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ability refers to having the skills and capabilities to implement the required changes successfully."
         },
         {
@@ -913,9 +913,9 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           question: "Which resistance source involves fear of personal loss?",
           options: [
             "Self-interest",
-            "Misunderstanding",
             "Different Assessments",
-            "Low Tolerance for Change"
+            "Low Tolerance for Change",
+            "Misunderstanding"
           ],
           correctAnswer: 0,
           explanation: "Self-interest resistance occurs when individuals fear losing something valuable to them personally."
@@ -924,24 +924,24 @@ Innovation is no longer optional; it's essential for survival in today's rapidly
           id: 19,
           question: "What combines inside-out and outside-in approaches?",
           options: [
-            "Coupled Open Innovation",
             "Integrated Innovation",
-            "Hybrid Innovation",
-            "Balanced Innovation"
+            "Coupled Open Innovation",
+            "Balanced Innovation",
+            "Hybrid Innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Coupled Open Innovation combines both inside-out and outside-in approaches for maximum innovation potential."
         },
         {
           id: 20,
           question: "What is crucial for innovation culture?",
           options: [
-            "Psychological Safety",
             "Strict Control",
+            "Psychological Safety",
             "Avoiding Failure",
             "Individual Competition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Psychological Safety allows employees to take risks, share ideas, and learn from failures without fear."
         }
       ]
@@ -1040,48 +1040,48 @@ Corporate governance provides the framework for achieving organizational objecti
           id: 1,
           question: "What percentage higher market valuation do strong governance companies have?",
           options: [
-            "10-15%",
             "5-10%",
+            "30-35%",
             "20-25%",
-            "30-35%"
+            "10-15%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Companies with strong governance practices typically enjoy 10-15% higher market valuation than peers with weak governance."
         },
         {
           id: 2,
           question: "How many SDGs (Sustainable Development Goals) are there?",
           options: [
-            "17 goals",
-            "10 goals",
+            "15 goals",
             "12 goals",
-            "15 goals"
+            "10 goals",
+            "17 goals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "There are 17 Sustainable Development Goals adopted by UN member states to address global challenges by 2030."
         },
         {
           id: 3,
           question: "Which committee oversees financial reporting?",
           options: [
+            "Risk Committee",
             "Audit Committee",
             "Compensation Committee",
-            "Nominating Committee",
-            "Risk Committee"
+            "Nominating Committee"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Audit Committee oversees financial reporting, internal controls, and external audit processes."
         },
         {
           id: 4,
           question: "What approach maximizes overall happiness?",
           options: [
-            "Utilitarian Approach",
             "Rights-based Approach",
             "Justice-based Approach",
-            "Virtue Ethics"
+            "Virtue Ethics",
+            "Utilitarian Approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Utilitarian Approach focuses on maximizing overall happiness or minimizing harm for the greatest number."
         },
         {
@@ -1100,48 +1100,48 @@ Corporate governance provides the framework for achieving organizational objecti
           id: 6,
           question: "Which committee sets executive pay?",
           options: [
-            "Compensation Committee",
+            "Risk Committee",
             "Audit Committee",
             "Nominating Committee",
-            "Risk Committee"
+            "Compensation Committee"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Compensation Committee determines executive compensation, incentives, and benefit packages."
         },
         {
           id: 7,
           question: "What does ESG stand for?",
           options: [
+            "Environmental, Sustainability, Governance",
             "Environmental, Social, Governance",
             "Economic, Social, Governance",
-            "Environmental, Sustainability, Governance",
             "Ethical, Social, Governance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ESG factors measure a company's environmental impact, social responsibility, and governance quality."
         },
         {
           id: 8,
           question: "Which approach respects individual rights?",
           options: [
-            "Rights-based Approach",
-            "Utilitarian Approach",
             "Justice-based Approach",
-            "Virtue Ethics"
+            "Utilitarian Approach",
+            "Virtue Ethics",
+            "Rights-based Approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Rights-based Approach emphasizes respecting and protecting individual rights and autonomy."
         },
         {
           id: 9,
           question: "What act requires CEO certification of financial reports?",
           options: [
-            "Sarbanes-Oxley Act",
-            "Dodd-Frank Act",
             "Foreign Corrupt Practices Act",
+            "Dodd-Frank Act",
+            "Sarbanes-Oxley Act",
             "Gramm-Leach-Bliley Act"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sarbanes-Oxley Act requires CEOs and CFOs to personally certify the accuracy of financial statements."
         },
         {
@@ -1149,8 +1149,8 @@ Corporate governance provides the framework for achieving organizational objecti
           question: "Which committee oversees board composition?",
           options: [
             "Nominating & Governance Committee",
-            "Audit Committee",
             "Compensation Committee",
+            "Audit Committee",
             "Risk Committee"
           ],
           correctAnswer: 0,
@@ -1161,9 +1161,9 @@ Corporate governance provides the framework for achieving organizational objecti
           question: "What approach focuses on moral character?",
           options: [
             "Virtue Ethics",
-            "Utilitarian Approach",
             "Rights-based Approach",
-            "Justice-based Approach"
+            "Justice-based Approach",
+            "Utilitarian Approach"
           ],
           correctAnswer: 0,
           explanation: "Virtue Ethics emphasizes developing moral character and ethical leadership rather than following rules."
@@ -1172,36 +1172,36 @@ Corporate governance provides the framework for achieving organizational objecti
           id: 12,
           question: "What does FCPA stand for?",
           options: [
-            "Foreign Corrupt Practices Act",
-            "Federal Corporate Protection Act",
             "Financial Compliance and Privacy Act",
-            "Foreign Currency Protection Act"
+            "Federal Corporate Protection Act",
+            "Foreign Currency Protection Act",
+            "Foreign Corrupt Practices Act"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Foreign Corrupt Practices Act prohibits bribery of foreign officials by U.S. companies and individuals."
         },
         {
           id: 13,
           question: "Which committee oversees enterprise risk?",
           options: [
-            "Risk Committee",
-            "Audit Committee",
             "Compensation Committee",
+            "Audit Committee",
+            "Risk Committee",
             "Nominating Committee"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Risk Committee oversees the company's enterprise risk management framework and major risk exposures."
         },
         {
           id: 14,
           question: "What approach focuses on fair distribution?",
           options: [
-            "Justice-based Approach",
-            "Utilitarian Approach",
             "Rights-based Approach",
-            "Virtue Ethics"
+            "Utilitarian Approach",
+            "Virtue Ethics",
+            "Justice-based Approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Justice-based Approach emphasizes fair distribution of benefits and burdens among stakeholders."
         },
         {
@@ -1209,8 +1209,8 @@ Corporate governance provides the framework for achieving organizational objecti
           question: "What are the four CSR dimensions?",
           options: [
             "Economic, Legal, Ethical, Philanthropic",
-            "Financial, Operational, Social, Environmental",
             "Strategic, Compliance, Ethical, Community",
+            "Financial, Operational, Social, Environmental",
             "Profit, People, Planet, Principles"
           ],
           correctAnswer: 0,
@@ -1220,12 +1220,12 @@ Corporate governance provides the framework for achieving organizational objecti
           id: 16,
           question: "What does SOX require regarding internal controls?",
           options: [
-            "Management assessment of internal controls",
-            "Elimination of all internal controls",
             "Only external assessment of controls",
-            "No specific requirements for controls"
+            "Elimination of all internal controls",
+            "No specific requirements for controls",
+            "Management assessment of internal controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SOX requires management to assess and report on the effectiveness of internal controls over financial reporting."
         },
         {
@@ -1233,8 +1233,8 @@ Corporate governance provides the framework for achieving organizational objecti
           question: "What is board independence?",
           options: [
             "Majority of independent directors",
-            "All directors from same industry",
             "Directors with no business experience",
+            "All directors from same industry",
             "Only internal company executives"
           ],
           correctAnswer: 0,
@@ -1244,36 +1244,36 @@ Corporate governance provides the framework for achieving organizational objecti
           id: 18,
           question: "What protects corporate whistleblowers?",
           options: [
-            "SOX whistleblower provisions",
             "No specific protections",
             "Only internal company policies",
-            "State laws only"
+            "State laws only",
+            "SOX whistleblower provisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sarbanes-Oxley Act provides specific protections for employees who report corporate fraud or misconduct."
         },
         {
           id: 19,
           question: "What is ethical responsibility in CSR?",
           options: [
-            "Doing what's right beyond legal requirements",
             "Only following the law",
             "Maximizing profits at all costs",
-            "Avoiding all community involvement"
+            "Avoiding all community involvement",
+            "Doing what's right beyond legal requirements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ethical responsibility involves doing what's right and fair, even when not specifically required by law."
         },
         {
           id: 20,
           question: "What does the 'S' in ESG measure?",
           options: [
+            "Shareholder returns",
             "Social factors like labor practices",
             "Strategic planning",
-            "Shareholder returns",
             "Supply chain efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The 'S' in ESG measures social factors including labor practices, human rights, and community relations."
         }
       ]
@@ -1372,96 +1372,96 @@ Financial strategy aligns financial decisions with corporate strategy to maximiz
           id: 1,
           question: "What percentage of M&A transactions fail to achieve expected synergies?",
           options: [
-            "70-90%",
             "30-50%",
-            "50-70%",
-            "90-100%"
+            "70-90%",
+            "90-100%",
+            "50-70%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "70-90% of M&A transactions fail to achieve expected synergies, often due to poor integration execution."
         },
         {
           id: 2,
           question: "What does EVA measure?",
           options: [
-            "Economic profit after cost of capital",
-            "Market value of equity",
             "Return on invested capital",
-            "Weighted average cost of capital"
+            "Economic profit after cost of capital",
+            "Weighted average cost of capital",
+            "Market value of equity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EVA (Economic Value Added) measures true economic profit after accounting for the cost of capital invested."
         },
         {
           id: 3,
           question: "What is the typical optimal debt-to-equity ratio range?",
           options: [
-            "0.3 to 0.6",
             "0.1 to 0.3",
             "0.6 to 0.9",
-            "1.0 to 1.5"
+            "1.0 to 1.5",
+            "0.3 to 0.6"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Optimal debt-to-equity ratios typically range from 0.3 to 0.6, balancing tax benefits against financial risk."
         },
         {
           id: 4,
           question: "What does MVA measure?",
           options: [
-            "Market value minus book value of equity",
-            "Economic profit after taxes",
+            "Weighted average cost of capital",
             "Return on invested capital",
-            "Weighted average cost of capital"
+            "Economic profit after taxes",
+            "Market value minus book value of equity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MVA (Market Value Added) measures the difference between market valuation and capital invested by shareholders."
         },
         {
           id: 5,
           question: "Which M&A rationale creates 1+1>2 effects?",
           options: [
-            "Synergy Creation",
-            "Market Power",
             "Diversification",
+            "Market Power",
+            "Synergy Creation",
             "Strategic Realignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Synergy Creation aims to achieve combined performance greater than the sum of individual parts."
         },
         {
           id: 6,
           question: "What does ROIC measure?",
           options: [
-            "Efficiency of capital utilization",
-            "Market value creation",
+            "Cost of capital calculation",
             "Economic profit generation",
-            "Cost of capital calculation"
+            "Efficiency of capital utilization",
+            "Market value creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ROIC (Return on Invested Capital) measures how efficiently a company uses its capital to generate profits."
         },
         {
           id: 7,
           question: "What is the Modigliani-Miller Proposition I with taxes?",
           options: [
-            "Value increases with debt due to tax shield",
             "Value decreases with debt due to risk",
             "Capital structure doesn't matter",
+            "Value increases with debt due to tax shield",
             "Optimal debt level is always zero"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "With taxes, Proposition I states that firm value increases with debt due to the tax deductibility of interest."
         },
         {
           id: 8,
           question: "Which real option allows waiting for better information?",
           options: [
-            "Option to Delay",
+            "Option to Switch",
             "Option to Expand",
-            "Option to Abandon",
-            "Option to Switch"
+            "Option to Delay",
+            "Option to Abandon"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Option to Delay allows postponing investment decisions until more information becomes available."
         },
         {
@@ -1469,9 +1469,9 @@ Financial strategy aligns financial decisions with corporate strategy to maximiz
           question: "What does WACC stand for?",
           options: [
             "Weighted Average Cost of Capital",
-            "Weighted Average Capital Cost",
+            "Weighted Average Corporate Capital",
             "Weighted Asset Cost of Capital",
-            "Weighted Average Corporate Capital"
+            "Weighted Average Capital Cost"
           ],
           correctAnswer: 0,
           explanation: "WACC represents the average rate of return required by all of a company's security holders."
@@ -1480,84 +1480,84 @@ Financial strategy aligns financial decisions with corporate strategy to maximiz
           id: 10,
           question: "Which M&A valuation uses market multiples?",
           options: [
+            "Real Options Analysis",
             "Comparable Company Analysis",
             "Discounted Cash Flow",
-            "Precedent Transaction Analysis",
-            "Real Options Analysis"
+            "Precedent Transaction Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Comparable Company Analysis values companies based on market multiples of similar publicly traded companies."
         },
         {
           id: 11,
           question: "What is positive EVA?",
           options: [
-            "Creating shareholder value",
-            "Destroying shareholder value",
+            "Negative economic profit",
             "Breaking even on capital",
-            "Negative economic profit"
+            "Destroying shareholder value",
+            "Creating shareholder value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Positive EVA indicates the company is generating returns above its cost of capital, creating shareholder value."
         },
         {
           id: 12,
           question: "What does the Trade-off Theory balance?",
           options: [
-            "Tax benefits against bankruptcy costs",
             "Equity returns against debt returns",
-            "Short-term vs long-term financing",
-            "Domestic vs international capital"
+            "Tax benefits against bankruptcy costs",
+            "Domestic vs international capital",
+            "Short-term vs long-term financing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Trade-off Theory balances the tax benefits of debt against the potential costs of financial distress."
         },
         {
           id: 13,
           question: "Which real option allows scaling up if successful?",
           options: [
+            "Option to Abandon",
             "Option to Expand",
             "Option to Delay",
-            "Option to Abandon",
             "Option to Switch"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Option to Expand allows increasing investment if initial results are favorable."
         },
         {
           id: 14,
           question: "What is the first step in ERM?",
           options: [
+            "Risk Response",
             "Risk Identification",
             "Risk Assessment",
-            "Risk Response",
             "Risk Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Enterprise Risk Management begins with identifying potential risks that could affect the organization."
         },
         {
           id: 15,
           question: "Which M&A valuation uses present value of cash flows?",
           options: [
-            "Discounted Cash Flow",
-            "Comparable Company Analysis",
+            "Market Multiples Analysis",
             "Precedent Transaction Analysis",
-            "Market Multiples Analysis"
+            "Comparable Company Analysis",
+            "Discounted Cash Flow"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "DCF valuation calculates the present value of expected future cash flows to determine company value."
         },
         {
           id: 16,
           question: "What is the formula for ROIC?",
           options: [
-            "NOPAT / Invested Capital",
+            "Operating Profit / Equity",
             "Net Income / Total Assets",
-            "EBIT / Total Capital",
-            "Operating Profit / Equity"
+            "NOPAT / Invested Capital",
+            "EBIT / Total Capital"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ROIC = Net Operating Profit After Tax divided by Invested Capital (equity + debt)."
         },
         {
@@ -1565,9 +1565,9 @@ Financial strategy aligns financial decisions with corporate strategy to maximiz
           question: "Which hedging matches revenues and expenses in same currency?",
           options: [
             "Natural Hedging",
-            "Financial Hedging",
+            "Currency Hedging",
             "Operational Hedging",
-            "Currency Hedging"
+            "Financial Hedging"
           ],
           correctAnswer: 0,
           explanation: "Natural Hedging involves structuring operations so revenues and expenses occur in the same currency."
@@ -1576,36 +1576,36 @@ Financial strategy aligns financial decisions with corporate strategy to maximiz
           id: 18,
           question: "What does Profitability Index measure?",
           options: [
-            "NPV per dollar invested",
             "Total project NPV",
-            "Internal rate of return",
-            "Payback period efficiency"
+            "Payback period efficiency",
+            "NPV per dollar invested",
+            "Internal rate of return"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Profitability Index = NPV / Initial Investment, useful for capital rationing decisions."
         },
         {
           id: 19,
           question: "Which risk involves counterparty default?",
           options: [
-            "Credit Risk",
-            "Market Risk",
             "Liquidity Risk",
-            "Operational Risk"
+            "Operational Risk",
+            "Market Risk",
+            "Credit Risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Credit Risk refers to the possibility that a borrower or counterparty will fail to meet their obligations."
         },
         {
           id: 20,
           question: "What is the primary cause of M&A failure?",
           options: [
-            "Poor integration",
             "Incorrect valuation",
             "Market conditions",
+            "Poor integration",
             "Regulatory issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Poor post-merger integration is the primary reason most M&A transactions fail to achieve expected benefits."
         }
       ]
@@ -1718,36 +1718,36 @@ Executive leadership extends beyond traditional management to shaping organizati
           id: 1,
           question: "What percentage better business results do high-EI CEOs achieve?",
           options: [
-            "15-20%",
-            "5-10%",
             "25-30%",
-            "30-40%"
+            "5-10%",
+            "30-40%",
+            "15-20%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CEOs with high emotional intelligence typically achieve 15-20% better business results than those with average EI."
         },
         {
           id: 2,
           question: "How many EI components are there?",
           options: [
-            "5 components",
             "3 components",
+            "6 components",
             "4 components",
-            "6 components"
+            "5 components"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Emotional Intelligence includes five components: Self-awareness, Self-regulation, Motivation, Empathy, and Social Skills."
         },
         {
           id: 3,
           question: "What percentage higher profitability do engaged companies have?",
           options: [
-            "21%",
+            "25%",
             "15%",
-            "30%",
-            "25%"
+            "21%",
+            "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Companies with high employee engagement experience 21% higher profitability than those with low engagement."
         },
         {
@@ -1756,8 +1756,8 @@ Executive leadership extends beyond traditional management to shaping organizati
           options: [
             "Self-awareness",
             "Self-regulation",
-            "Empathy",
-            "Social Skills"
+            "Social Skills",
+            "Empathy"
           ],
           correctAnswer: 0,
           explanation: "Self-awareness involves recognizing and understanding one's own emotions and their impact on others."
@@ -1766,12 +1766,12 @@ Executive leadership extends beyond traditional management to shaping organizati
           id: 5,
           question: "What is the first step in succession planning?",
           options: [
-            "Identify Key Positions",
+            "Review & Update",
             "Assess Talent",
-            "Develop Talent Pools",
-            "Review & Update"
+            "Identify Key Positions",
+            "Develop Talent Pools"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Succession planning begins by identifying critical roles that require formal succession plans."
         },
         {
@@ -1791,9 +1791,9 @@ Executive leadership extends beyond traditional management to shaping organizati
           question: "Which EI component involves managing disruptive emotions?",
           options: [
             "Self-regulation",
-            "Self-awareness",
+            "Empathy",
             "Motivation",
-            "Empathy"
+            "Self-awareness"
           ],
           correctAnswer: 0,
           explanation: "Self-regulation involves controlling or redirecting disruptive emotions and adapting to changing circumstances."
@@ -1802,12 +1802,12 @@ Executive leadership extends beyond traditional management to shaping organizati
           id: 8,
           question: "Which change approach focuses on strengths?",
           options: [
+            "Large Group Interventions",
             "Appreciative Inquiry",
             "Organization Development",
-            "Action Research",
-            "Large Group Interventions"
+            "Action Research"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Appreciative Inquiry focuses on identifying and building on organizational strengths rather than fixing weaknesses."
         },
         {
@@ -1815,8 +1815,8 @@ Executive leadership extends beyond traditional management to shaping organizati
           question: "Which EI component involves understanding others' emotions?",
           options: [
             "Empathy",
-            "Self-awareness",
             "Self-regulation",
+            "Self-awareness",
             "Motivation"
           ],
           correctAnswer: 0,
@@ -1826,108 +1826,108 @@ Executive leadership extends beyond traditional management to shaping organizati
           id: 10,
           question: "What is the first step in culture change?",
           options: [
-            "Define Desired Culture",
+            "Communication",
             "Align Systems",
             "Role Modeling",
-            "Communication"
+            "Define Desired Culture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Culture change begins with clearly defining the desired target culture and behavioral expectations."
         },
         {
           id: 11,
           question: "Which EI component involves building relationships?",
           options: [
-            "Social Skills",
-            "Self-awareness",
+            "Empathy",
             "Self-regulation",
-            "Empathy"
+            "Social Skills",
+            "Self-awareness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Social Skills involve managing relationships, building networks, and finding common ground with others."
         },
         {
           id: 12,
           question: "What identifies high-potential employees?",
           options: [
-            "Performance, Potential, Aspiration, Engagement",
             "Education, Experience, Skills, Knowledge",
+            "Salary, Position, Authority, Responsibility",
             "Seniority, Network, Influence, Visibility",
-            "Salary, Position, Authority, Responsibility"
+            "Performance, Potential, Aspiration, Engagement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "High-potentials are identified by Performance (results), Potential (capacity), Aspiration (desire), and Engagement (commitment)."
         },
         {
           id: 13,
           question: "Which EI component harnesses emotions to achieve goals?",
           options: [
+            "Self-regulation",
             "Motivation",
             "Self-awareness",
-            "Self-regulation",
             "Empathy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Motivation involves harnessing emotions to pursue goals with energy and persistence."
         },
         {
           id: 14,
           question: "What is a key employee engagement driver?",
           options: [
+            "Short Working Hours",
             "Meaningful Work",
             "High Salary Only",
-            "Minimal Supervision",
-            "Short Working Hours"
+            "Minimal Supervision"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Meaningful Work that connects to organizational purpose is a primary driver of employee engagement."
         },
         {
           id: 15,
           question: "Which change approach uses data-driven problem solving?",
           options: [
-            "Action Research",
+            "Large Group Interventions",
             "Appreciative Inquiry",
             "Organization Development",
-            "Large Group Interventions"
+            "Action Research"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Action Research uses systematic data collection and analysis to solve problems and implement changes."
         },
         {
           id: 16,
           question: "What is strategic agility?",
           options: [
-            "Adapting to changing environments",
+            "Avoiding all risks",
             "Making quick decisions only",
             "Following traditional approaches",
-            "Avoiding all risks"
+            "Adapting to changing environments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic Agility involves adapting and responding effectively to rapidly changing business environments."
         },
         {
           id: 17,
           question: "What is the second step in succession planning?",
           options: [
-            "Assess Talent",
             "Identify Key Positions",
+            "Assess Talent",
             "Develop Talent Pools",
             "Review & Update"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "After identifying key positions, the next step is assessing current talent capabilities and potential."
         },
         {
           id: 18,
           question: "Which crisis competency involves timely decisions?",
           options: [
-            "Rapid Decision-making",
             "Crisis Communication",
+            "Resilience Building",
             "Team Mobilization",
-            "Resilience Building"
+            "Rapid Decision-making"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Rapid Decision-making involves making timely, effective decisions with incomplete information during crises."
         },
         {
@@ -1935,9 +1935,9 @@ Executive leadership extends beyond traditional management to shaping organizati
           question: "What does talent acquisition involve?",
           options: [
             "Strategic recruitment and selection",
+            "Recruiting based on seniority only",
             "Only hiring from internal candidates",
-            "Automated hiring processes only",
-            "Recruiting based on seniority only"
+            "Automated hiring processes only"
           ],
           correctAnswer: 0,
           explanation: "Talent Acquisition involves strategically identifying, attracting, and selecting the best candidates for organizational needs."
@@ -1946,12 +1946,12 @@ Executive leadership extends beyond traditional management to shaping organizati
           id: 20,
           question: "What is organizational awareness?",
           options: [
+            "Tracking daily operations only",
             "Understanding organizational dynamics",
-            "Knowing all employee names",
             "Memorizing organizational charts",
-            "Tracking daily operations only"
+            "Knowing all employee names"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Organizational Awareness involves understanding organizational politics, culture, and decision-making processes."
         }
       ]
@@ -2059,132 +2059,132 @@ Corporate entrepreneurship (intrapreneurship) enables established organizations 
           id: 1,
           question: "What percentage of R&D budget do top innovators allocate to radical innovations?",
           options: [
+            "40-50%",
             "15-25%",
-            "5-10%",
             "30-40%",
-            "40-50%"
+            "5-10%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Top innovators typically allocate 15-25% of their R&D budget to radical or breakthrough innovations."
         },
         {
           id: 2,
           question: "How many horizons are in innovation portfolio management?",
           options: [
+            "5 horizons",
             "3 horizons",
             "2 horizons",
-            "4 horizons",
-            "5 horizons"
+            "4 horizons"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Innovation portfolio management typically uses three horizons: Core improvements, Emerging opportunities, and Transformative possibilities."
         },
         {
           id: 3,
           question: "What are Skunk Works teams characterized by?",
           options: [
-            "Small size, autonomy, secrecy, rapid prototyping",
-            "Large teams, strict procedures, transparency, slow development",
+            "Variable size, complete integration, full transparency, planned development",
             "Medium teams, partial autonomy, mixed secrecy, average speed",
-            "Variable size, complete integration, full transparency, planned development"
+            "Large teams, strict procedures, transparency, slow development",
+            "Small size, autonomy, secrecy, rapid prototyping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Skunk Works teams are small, autonomous, often secret groups that work rapidly outside normal procedures."
         },
         {
           id: 4,
           question: "What percentage of resources typically go to Horizon 1 innovations?",
           options: [
-            "70%",
             "50%",
-            "30%",
-            "20%"
+            "70%",
+            "20%",
+            "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Horizon 1 (core business improvements) typically receives about 70% of innovation resources."
         },
         {
           id: 5,
           question: "What does CVC stand for?",
           options: [
-            "Corporate Venture Capital",
             "Corporate Venture Corporation",
             "Corporate Value Creation",
-            "Corporate Venture Center"
+            "Corporate Venture Center",
+            "Corporate Venture Capital"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CVC = Corporate Venture Capital, where corporations invest in external startups for strategic or financial returns."
         },
         {
           id: 6,
           question: "What is an ambidextrous organization?",
           options: [
-            "Balancing exploration and exploitation",
+            "Eliminating all entrepreneurial activity",
             "Focusing only on innovation",
-            "Focusing only on efficiency",
-            "Eliminating all entrepreneurial activity"
+            "Balancing exploration and exploitation",
+            "Focusing only on efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ambidextrous organizations balance exploration (innovation, experimentation) with exploitation (efficiency, optimization)."
         },
         {
           id: 7,
           question: "What percentage of resources typically go to Horizon 2 innovations?",
           options: [
-            "20%",
             "50%",
+            "20%",
             "10%",
             "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Horizon 2 (emerging business opportunities) typically receives about 20% of innovation resources."
         },
         {
           id: 8,
           question: "Which CVC strategy seeks pure financial returns?",
           options: [
-            "Financial Investing",
             "Strategic Investing",
             "Hybrid Approach",
+            "Financial Investing",
             "Exploratory Investing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Financial Investing in CVC focuses primarily on achieving financial returns rather than strategic alignment."
         },
         {
           id: 9,
           question: "What is the first stage in the Stage-Gate system?",
           options: [
-            "Idea Generation",
             "Preliminary Assessment",
+            "Business Case Development",
             "Concept Development",
-            "Business Case Development"
+            "Idea Generation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Stage-Gate process begins with systematic Idea Generation and collection from various sources."
         },
         {
           id: 10,
           question: "What percentage of resources typically go to Horizon 3 innovations?",
           options: [
-            "10%",
             "30%",
+            "5%",
             "20%",
-            "5%"
+            "10%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Horizon 3 (transformative possibilities) typically receives about 10% of innovation resources."
         },
         {
           id: 11,
           question: "Which CVC strategy aligns with corporate objectives?",
           options: [
-            "Strategic Investing",
-            "Financial Investing",
             "Hybrid Approach",
+            "Financial Investing",
+            "Strategic Investing",
             "Opportunistic Investing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic Investing focuses on startups that align with and support corporate strategic objectives."
         },
         {
@@ -2203,24 +2203,24 @@ Corporate entrepreneurship (intrapreneurship) enables established organizations 
           id: 13,
           question: "What creates separate legal entities with partial ownership?",
           options: [
-            "Spin-out",
-            "Spin-off",
+            "Joint Venture",
             "Internal Scaling",
-            "Joint Venture"
+            "Spin-out",
+            "Spin-off"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Spin-outs create separate legal entities in which the parent corporation retains partial ownership."
         },
         {
           id: 14,
           question: "Which metrics measure new products launched?",
           options: [
-            "Output Metrics",
             "Input Metrics",
             "Process Metrics",
+            "Output Metrics",
             "Impact Metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Output Metrics measure the direct results of innovation efforts, such as new products launched or patents filed."
         },
         {
@@ -2239,24 +2239,24 @@ Corporate entrepreneurship (intrapreneurship) enables established organizations 
           id: 16,
           question: "Which metrics measure cycle time?",
           options: [
-            "Process Metrics",
-            "Input Metrics",
             "Output Metrics",
-            "Impact Metrics"
+            "Process Metrics",
+            "Impact Metrics",
+            "Input Metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Process Metrics measure the efficiency and effectiveness of innovation processes, such as cycle time and conversion rates."
         },
         {
           id: 17,
           question: "What involves growing within existing structure?",
           options: [
-            "Internal Scaling",
-            "Spin-out",
             "Spin-off",
-            "Joint Venture"
+            "Spin-out",
+            "Joint Venture",
+            "Internal Scaling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Internal Scaling involves growing the venture within the existing organizational structure and processes."
         },
         {
@@ -2264,8 +2264,8 @@ Corporate entrepreneurship (intrapreneurship) enables established organizations 
           question: "Which metrics measure market share gain?",
           options: [
             "Impact Metrics",
-            "Input Metrics",
             "Process Metrics",
+            "Input Metrics",
             "Output Metrics"
           ],
           correctAnswer: 0,
@@ -2275,24 +2275,24 @@ Corporate entrepreneurship (intrapreneurship) enables established organizations 
           id: 19,
           question: "What partners with external companies for growth?",
           options: [
-            "Joint Venture",
-            "Internal Scaling",
             "Spin-out",
-            "Spin-off"
+            "Spin-off",
+            "Internal Scaling",
+            "Joint Venture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Joint Ventures involve partnering with external companies to combine resources and capabilities for growth."
         },
         {
           id: 20,
           question: "Who provides senior executive sponsorship for ventures?",
           options: [
-            "Champion",
+            "Advisory Board",
             "Project Leader",
-            "Core Team",
-            "Advisory Board"
+            "Champion",
+            "Core Team"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Champion is a senior executive who provides resources, protection, and sponsorship for the venture."
         }
       ]
@@ -2410,9 +2410,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
           question: "What percentage of digital transformation initiatives succeed?",
           options: [
             "30%",
+            "90%",
             "50%",
-            "70%",
-            "90%"
+            "70%"
           ],
           correctAnswer: 0,
           explanation: "Only about 30% of digital transformation initiatives achieve their intended outcomes, highlighting implementation challenges."
@@ -2422,9 +2422,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
           question: "How many dimensions of digital transformation are there?",
           options: [
             "4 dimensions",
+            "6 dimensions",
             "3 dimensions",
-            "5 dimensions",
-            "6 dimensions"
+            "5 dimensions"
           ],
           correctAnswer: 0,
           explanation: "Digital transformation typically involves four dimensions: Business Model, Operational Process, Customer Experience, and Organizational Culture."
@@ -2433,24 +2433,24 @@ Digital transformation goes beyond technology implementation to fundamentally re
           id: 3,
           question: "How many stages are in the Digital Maturity Model?",
           options: [
-            "5 stages",
-            "3 stages",
             "4 stages",
-            "6 stages"
+            "6 stages",
+            "5 stages",
+            "3 stages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Digital Maturity Model typically includes five stages from Digital Beginners to Digital Disruptors."
         },
         {
           id: 4,
           question: "Which digital technology enables predictive maintenance?",
           options: [
-            "Internet of Things",
-            "Artificial Intelligence",
+            "Cloud Computing",
             "Blockchain",
-            "Cloud Computing"
+            "Artificial Intelligence",
+            "Internet of Things"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IoT enables predictive maintenance through connected sensors that monitor equipment condition and predict failures."
         },
         {
@@ -2459,8 +2459,8 @@ Digital transformation goes beyond technology implementation to fundamentally re
           options: [
             "Descriptive Analytics",
             "Diagnostic Analytics",
-            "Predictive Analytics",
-            "Prescriptive Analytics"
+            "Prescriptive Analytics",
+            "Predictive Analytics"
           ],
           correctAnswer: 0,
           explanation: "Descriptive Analytics focuses on understanding what happened through reporting and visualization of historical data."
@@ -2469,24 +2469,24 @@ Digital transformation goes beyond technology implementation to fundamentally re
           id: 6,
           question: "Which stage are Digital Disruptors in?",
           options: [
-            "Stage 5",
-            "Stage 1",
+            "Stage 4",
             "Stage 3",
-            "Stage 4"
+            "Stage 1",
+            "Stage 5"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital Disruptors represent Stage 5, creating new digital markets and ecosystems that transform industries."
         },
         {
           id: 7,
           question: "Which digital technology uses smart contracts?",
           options: [
-            "Blockchain",
-            "Artificial Intelligence",
             "Internet of Things",
-            "Cloud Computing"
+            "Artificial Intelligence",
+            "Cloud Computing",
+            "Blockchain"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Blockchain enables smart contracts - self-executing contracts with terms directly written into code."
         },
         {
@@ -2494,9 +2494,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
           question: "Which analytics asks 'Why did it happen?'",
           options: [
             "Diagnostic Analytics",
-            "Descriptive Analytics",
+            "Prescriptive Analytics",
             "Predictive Analytics",
-            "Prescriptive Analytics"
+            "Descriptive Analytics"
           ],
           correctAnswer: 0,
           explanation: "Diagnostic Analytics focuses on understanding why something happened through root cause analysis and investigation."
@@ -2506,9 +2506,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
           question: "What cloud model provides virtualized computing resources?",
           options: [
             "IaaS",
-            "PaaS",
             "SaaS",
-            "XaaS"
+            "XaaS",
+            "PaaS"
           ],
           correctAnswer: 0,
           explanation: "IaaS (Infrastructure as a Service) provides virtualized computing resources over the internet."
@@ -2518,9 +2518,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
           question: "Which analytics asks 'What will happen?'",
           options: [
             "Predictive Analytics",
-            "Descriptive Analytics",
+            "Prescriptive Analytics",
             "Diagnostic Analytics",
-            "Prescriptive Analytics"
+            "Descriptive Analytics"
           ],
           correctAnswer: 0,
           explanation: "Predictive Analytics uses statistical models and forecasting techniques to predict what will happen in the future."
@@ -2529,36 +2529,36 @@ Digital transformation goes beyond technology implementation to fundamentally re
           id: 11,
           question: "What cloud model provides development platforms?",
           options: [
-            "PaaS",
+            "XaaS",
             "IaaS",
             "SaaS",
-            "XaaS"
+            "PaaS"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PaaS (Platform as a Service) provides development and deployment platforms for building applications."
         },
         {
           id: 12,
           question: "Which analytics asks 'What should we do?'",
           options: [
-            "Prescriptive Analytics",
-            "Descriptive Analytics",
+            "Predictive Analytics",
             "Diagnostic Analytics",
-            "Predictive Analytics"
+            "Prescriptive Analytics",
+            "Descriptive Analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Prescriptive Analytics recommends actions based on predictions and optimization algorithms."
         },
         {
           id: 13,
           question: "What cloud model provides cloud-based applications?",
           options: [
-            "SaaS",
             "IaaS",
-            "PaaS",
-            "XaaS"
+            "XaaS",
+            "SaaS",
+            "PaaS"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SaaS (Software as a Service) delivers software applications over the internet on a subscription basis."
         },
         {
@@ -2567,8 +2567,8 @@ Digital transformation goes beyond technology implementation to fundamentally re
           options: [
             "Transaction Platforms",
             "Innovation Platforms",
-            "Integrated Platforms",
-            "Platform Ecosystems"
+            "Platform Ecosystems",
+            "Integrated Platforms"
           ],
           correctAnswer: 0,
           explanation: "Transaction Platforms facilitate exchanges between different groups, like buyers and sellers in marketplaces."
@@ -2577,72 +2577,72 @@ Digital transformation goes beyond technology implementation to fundamentally re
           id: 15,
           question: "What does XaaS stand for?",
           options: [
-            "Everything as a Service",
             "Expertise as a Service",
-            "Experience as a Service",
-            "Exchange as a Service"
+            "Exchange as a Service",
+            "Everything as a Service",
+            "Experience as a Service"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "XaaS (Everything as a Service) refers to the comprehensive delivery of services over the internet."
         },
         {
           id: 16,
           question: "Which platform enables third-party development?",
           options: [
-            "Innovation Platforms",
-            "Transaction Platforms",
             "Integrated Platforms",
-            "Platform Ecosystems"
+            "Innovation Platforms",
+            "Platform Ecosystems",
+            "Transaction Platforms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Innovation Platforms provide tools and interfaces that enable third-party developers to create complementary products."
         },
         {
           id: 17,
           question: "What is the first step in transformation roadmap?",
           options: [
-            "Vision and Strategy",
             "Capability Building",
             "Pilot Projects",
-            "Scale and Integration"
+            "Scale and Integration",
+            "Vision and Strategy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital transformation begins with establishing a clear vision and strategy aligned with business objectives."
         },
         {
           id: 18,
           question: "Which network effects involve both sides of platform?",
           options: [
-            "Two-sided Network Effects",
-            "Direct Network Effects",
+            "Local Network Effects",
             "Indirect Network Effects",
-            "Local Network Effects"
+            "Two-sided Network Effects",
+            "Direct Network Effects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Two-sided Network Effects occur when value increases for both groups using a platform (e.g., buyers and sellers)."
         },
         {
           id: 19,
           question: "What is the second step in transformation roadmap?",
           options: [
-            "Capability Building",
             "Vision and Strategy",
-            "Pilot Projects",
-            "Scale and Integration"
+            "Capability Building",
+            "Scale and Integration",
+            "Pilot Projects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "After establishing vision, organizations must build the necessary digital capabilities across technology, skills, and processes."
         },
         {
           id: 20,
           question: "Which AI application forecasts trends?",
           options: [
+            "Computer Vision",
             "Predictive Analytics",
             "Natural Language Processing",
-            "Computer Vision",
             "Robotic Process Automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Predictive Analytics uses AI and machine learning to forecast future trends, behaviors, and outcomes."
         }
       ]
@@ -2656,12 +2656,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 1,
       question: "What percentage of organizations effectively execute their strategies?",
       options: [
+        "70%",
         "10%",
         "30%",
-        "50%",
-        "70%"
+        "50%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 1,
       explanation: "Only about 10% of organizations effectively execute their strategies, with most failures occurring during implementation."
     },
@@ -2670,9 +2670,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
       question: "How many forces are in Porter's Five Forces framework?",
       options: [
         "5 forces",
-        "4 forces",
         "6 forces",
-        "3 forces"
+        "3 forces",
+        "4 forces"
       ],
       correctAnswer: 0,
       module: 1,
@@ -2682,12 +2682,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 3,
       question: "Which strategy increases market share in existing markets?",
       options: [
-        "Market Penetration",
-        "Market Development",
         "Product Development",
-        "Diversification"
+        "Market Penetration",
+        "Diversification",
+        "Market Development"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 1,
       explanation: "Market Penetration strategy focuses on increasing market share within existing markets with current products."
     },
@@ -2695,12 +2695,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 4,
       question: "How many perspectives does the Balanced Scorecard measure?",
       options: [
-        "4 perspectives",
-        "3 perspectives",
         "5 perspectives",
-        "6 perspectives"
+        "4 perspectives",
+        "6 perspectives",
+        "3 perspectives"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 1,
       explanation: "The Balanced Scorecard measures performance across four perspectives: Financial, Customer, Internal Processes, and Learning & Growth."
     },
@@ -2708,12 +2708,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 5,
       question: "What does Strategic Drift refer to?",
       options: [
-        "Strategy failing to keep pace with environmental changes",
         "Rapid strategic adaptation",
-        "Consistent strategic execution",
-        "Strategic planning without implementation"
+        "Strategy failing to keep pace with environmental changes",
+        "Strategic planning without implementation",
+        "Consistent strategic execution"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 1,
       explanation: "Strategic Drift occurs when an organization's strategy gradually becomes less relevant to its changing environment."
     },
@@ -2722,9 +2722,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
       question: "Which force examines barriers to entry in an industry?",
       options: [
         "Threat of New Entrants",
-        "Bargaining Power of Buyers",
         "Threat of Substitute Products",
-        "Intensity of Rivalry"
+        "Intensity of Rivalry",
+        "Bargaining Power of Buyers"
       ],
       correctAnswer: 0,
       module: 1,
@@ -2736,12 +2736,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 7,
       question: "What percentage of international joint ventures fail within 5 years?",
       options: [
-        "65%",
         "30%",
+        "80%",
         "50%",
-        "80%"
+        "65%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: 2,
       explanation: "Approximately 65% of international joint ventures fail within 5 years, often due to cultural misunderstandings."
     },
@@ -2749,12 +2749,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 8,
       question: "How many cultural dimensions does Hofstede's framework have?",
       options: [
-        "6 dimensions",
         "4 dimensions",
-        "5 dimensions",
-        "7 dimensions"
+        "6 dimensions",
+        "7 dimensions",
+        "5 dimensions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 2,
       explanation: "Hofstede's cultural dimensions framework includes six dimensions that affect business practices across cultures."
     },
@@ -2762,12 +2762,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 9,
       question: "Which market entry method involves business model licensing?",
       options: [
-        "Franchising",
         "Exporting",
-        "Licensing",
-        "Joint Venture"
+        "Franchising",
+        "Joint Venture",
+        "Licensing"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 2,
       explanation: "Franchising involves licensing an entire business model, brand, and operational system to foreign partners."
     },
@@ -2775,12 +2775,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 10,
       question: "What does Uncertainty Avoidance measure?",
       options: [
+        "Power distribution acceptance",
         "Tolerance for ambiguity and risk",
         "Future planning focus",
-        "Gratification of desires",
-        "Power distribution acceptance"
+        "Gratification of desires"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 2,
       explanation: "Uncertainty Avoidance measures a society's tolerance for ambiguous situations and willingness to take risks."
     },
@@ -2788,12 +2788,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 11,
       question: "Which strategy adapts to local markets?",
       options: [
-        "Multidomestic Strategy",
-        "Global Strategy",
+        "Standardized Strategy",
         "Transnational Strategy",
-        "Standardized Strategy"
+        "Multidomestic Strategy",
+        "Global Strategy"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 2,
       explanation: "Multidomestic Strategy emphasizes adapting products and operations to local market conditions and preferences."
 
@@ -2803,12 +2803,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 12,
       question: "What percentage of innovation projects succeed commercially?",
       options: [
-        "14%",
-        "30%",
         "50%",
+        "30%",
+        "14%",
         "70%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 3,
       explanation: "Only about 14% of innovation projects achieve commercial success, highlighting the challenges of innovation management."
     },
@@ -2816,12 +2816,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 13,
       question: "How many steps are in Kotter's Change Model?",
       options: [
-        "8 steps",
-        "5 steps",
         "3 steps",
-        "7 steps"
+        "5 steps",
+        "7 steps",
+        "8 steps"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: 3,
       explanation: "Kotter's 8-Step Change Model provides a comprehensive framework for leading organizational change effectively."
     },
@@ -2829,12 +2829,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 14,
       question: "Which innovation creates new markets?",
       options: [
-        "Disruptive Innovation",
-        "Incremental Innovation",
+        "Process Innovation",
         "Sustaining Innovation",
-        "Process Innovation"
+        "Disruptive Innovation",
+        "Incremental Innovation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 3,
       explanation: "Disruptive Innovation creates entirely new markets by addressing underserved or non-existent customer needs."
     },
@@ -2842,12 +2842,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 15,
       question: "What is the first step in Lewin's Change Model?",
       options: [
-        "Unfreeze",
-        "Change",
+        "Implement",
         "Refreeze",
-        "Implement"
+        "Change",
+        "Unfreeze"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: 3,
       explanation: "Unfreezing involves creating awareness of the need for change and reducing resistance before implementation."
     },
@@ -2855,12 +2855,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 16,
       question: "What does ADKAR stand for in change management?",
       options: [
+        "Awareness, Design, Knowledge, Action, Reinforcement",
         "Awareness, Desire, Knowledge, Ability, Reinforcement",
-        "Analysis, Design, Knowledge, Action, Review",
         "Assessment, Development, Knowledge, Application, Results",
-        "Awareness, Design, Knowledge, Action, Reinforcement"
+        "Analysis, Design, Knowledge, Action, Review"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 3,
       explanation: "ADKAR focuses on individual change: Awareness, Desire, Knowledge, Ability, and Reinforcement."
 
@@ -2870,12 +2870,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 17,
       question: "What percentage higher market valuation do strong governance companies have?",
       options: [
-        "10-15%",
-        "5-10%",
         "20-25%",
+        "5-10%",
+        "10-15%",
         "30-35%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 4,
       explanation: "Companies with strong governance practices typically enjoy 10-15% higher market valuation than peers with weak governance."
     },
@@ -2883,12 +2883,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 18,
       question: "How many SDGs (Sustainable Development Goals) are there?",
       options: [
-        "17 goals",
         "10 goals",
         "12 goals",
+        "17 goals",
         "15 goals"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 4,
       explanation: "There are 17 Sustainable Development Goals adopted by UN member states to address global challenges by 2030."
     },
@@ -2909,12 +2909,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 20,
       question: "What does ESG stand for?",
       options: [
-        "Environmental, Social, Governance",
+        "Ethical, Social, Governance",
         "Economic, Social, Governance",
         "Environmental, Sustainability, Governance",
-        "Ethical, Social, Governance"
+        "Environmental, Social, Governance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: 4,
       explanation: "ESG factors measure a company's environmental impact, social responsibility, and governance quality."
     },
@@ -2922,12 +2922,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 21,
       question: "What act requires CEO certification of financial reports?",
       options: [
-        "Sarbanes-Oxley Act",
-        "Dodd-Frank Act",
         "Foreign Corrupt Practices Act",
-        "Gramm-Leach-Bliley Act"
+        "Sarbanes-Oxley Act",
+        "Gramm-Leach-Bliley Act",
+        "Dodd-Frank Act"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 4,
       explanation: "Sarbanes-Oxley Act requires CEOs and CFOs to personally certify the accuracy of financial statements."
 
@@ -2937,12 +2937,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 22,
       question: "What percentage of M&A transactions fail to achieve expected synergies?",
       options: [
-        "70-90%",
-        "30-50%",
+        "90-100%",
         "50-70%",
-        "90-100%"
+        "70-90%",
+        "30-50%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 5,
       explanation: "70-90% of M&A transactions fail to achieve expected synergies, often due to poor integration execution."
     },
@@ -2950,12 +2950,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 23,
       question: "What does EVA measure?",
       options: [
-        "Economic profit after cost of capital",
-        "Market value of equity",
         "Return on invested capital",
-        "Weighted average cost of capital"
+        "Market value of equity",
+        "Weighted average cost of capital",
+        "Economic profit after cost of capital"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       module: 5,
       explanation: "EVA (Economic Value Added) measures true economic profit after accounting for the cost of capital invested."
     },
@@ -2963,12 +2963,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 24,
       question: "What is the typical optimal debt-to-equity ratio range?",
       options: [
-        "0.3 to 0.6",
-        "0.1 to 0.3",
         "0.6 to 0.9",
-        "1.0 to 1.5"
+        "1.0 to 1.5",
+        "0.3 to 0.6",
+        "0.1 to 0.3"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 5,
       explanation: "Optimal debt-to-equity ratios typically range from 0.3 to 0.6, balancing tax benefits against financial risk."
     },
@@ -2976,12 +2976,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 25,
       question: "What does WACC stand for?",
       options: [
+        "Weighted Asset Cost of Capital",
         "Weighted Average Cost of Capital",
         "Weighted Average Capital Cost",
-        "Weighted Asset Cost of Capital",
         "Weighted Average Corporate Capital"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 5,
       explanation: "WACC represents the average rate of return required by all of a company's security holders."
     },
@@ -3004,12 +3004,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 27,
       question: "What percentage better business results do high-EI CEOs achieve?",
       options: [
-        "15-20%",
         "5-10%",
-        "25-30%",
-        "30-40%"
+        "30-40%",
+        "15-20%",
+        "25-30%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 6,
       explanation: "CEOs with high emotional intelligence typically achieve 15-20% better business results than those with average EI."
     },
@@ -3018,8 +3018,8 @@ Digital transformation goes beyond technology implementation to fundamentally re
       question: "How many EI components are there?",
       options: [
         "5 components",
-        "3 components",
         "4 components",
+        "3 components",
         "6 components"
       ],
       correctAnswer: 0,
@@ -3030,12 +3030,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 29,
       question: "What percentage higher profitability do engaged companies have?",
       options: [
+        "25%",
         "21%",
-        "15%",
         "30%",
-        "25%"
+        "15%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 6,
       explanation: "Companies with high employee engagement experience 21% higher profitability than those with low engagement."
     },
@@ -3043,12 +3043,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 30,
       question: "What is the first step in succession planning?",
       options: [
-        "Identify Key Positions",
         "Assess Talent",
-        "Develop Talent Pools",
-        "Review & Update"
+        "Review & Update",
+        "Identify Key Positions",
+        "Develop Talent Pools"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 6,
       explanation: "Succession planning begins by identifying critical roles that require formal succession plans."
 
@@ -3058,12 +3058,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 31,
       question: "What percentage of R&D budget do top innovators allocate to radical innovations?",
       options: [
+        "40-50%",
         "15-25%",
         "5-10%",
-        "30-40%",
-        "40-50%"
+        "30-40%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 7,
       explanation: "Top innovators typically allocate 15-25% of their R&D budget to radical or breakthrough innovations."
     },
@@ -3071,12 +3071,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 32,
       question: "How many horizons are in innovation portfolio management?",
       options: [
+        "5 horizons",
         "3 horizons",
-        "2 horizons",
         "4 horizons",
-        "5 horizons"
+        "2 horizons"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 7,
       explanation: "Innovation portfolio management typically uses three horizons: Core improvements, Emerging opportunities, and Transformative possibilities."
     },
@@ -3084,12 +3084,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 33,
       question: "What are Skunk Works teams characterized by?",
       options: [
-        "Small size, autonomy, secrecy, rapid prototyping",
         "Large teams, strict procedures, transparency, slow development",
+        "Small size, autonomy, secrecy, rapid prototyping",
         "Medium teams, partial autonomy, mixed secrecy, average speed",
         "Variable size, complete integration, full transparency, planned development"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 7,
       explanation: "Skunk Works teams are small, autonomous, often secret groups that work rapidly outside normal procedures."
     },
@@ -3097,12 +3097,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 34,
       question: "What does CVC stand for?",
       options: [
-        "Corporate Venture Capital",
         "Corporate Venture Corporation",
-        "Corporate Value Creation",
-        "Corporate Venture Center"
+        "Corporate Venture Capital",
+        "Corporate Venture Center",
+        "Corporate Value Creation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 7,
       explanation: "CVC = Corporate Venture Capital, where corporations invest in external startups for strategic or financial returns."
     },
@@ -3110,12 +3110,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 35,
       question: "What is an ambidextrous organization?",
       options: [
-        "Balancing exploration and exploitation",
-        "Focusing only on innovation",
         "Focusing only on efficiency",
-        "Eliminating all entrepreneurial activity"
+        "Balancing exploration and exploitation",
+        "Eliminating all entrepreneurial activity",
+        "Focusing only on innovation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 7,
       explanation: "Ambidextrous organizations balance exploration (innovation, experimentation) with exploitation (efficiency, optimization)."
 
@@ -3138,12 +3138,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 37,
       question: "How many dimensions of digital transformation are there?",
       options: [
-        "4 dimensions",
-        "3 dimensions",
         "5 dimensions",
-        "6 dimensions"
+        "6 dimensions",
+        "4 dimensions",
+        "3 dimensions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 8,
       explanation: "Digital transformation typically involves four dimensions: Business Model, Operational Process, Customer Experience, and Organizational Culture."
     },
@@ -3152,9 +3152,9 @@ Digital transformation goes beyond technology implementation to fundamentally re
       question: "How many stages are in the Digital Maturity Model?",
       options: [
         "5 stages",
-        "3 stages",
         "4 stages",
-        "6 stages"
+        "6 stages",
+        "3 stages"
       ],
       correctAnswer: 0,
       module: 8,
@@ -3164,12 +3164,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 39,
       question: "Which digital technology enables predictive maintenance?",
       options: [
-        "Internet of Things",
-        "Artificial Intelligence",
+        "Cloud Computing",
         "Blockchain",
-        "Cloud Computing"
+        "Internet of Things",
+        "Artificial Intelligence"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       module: 8,
       explanation: "IoT enables predictive maintenance through connected sensors that monitor equipment condition and predict failures."
     },
@@ -3177,12 +3177,12 @@ Digital transformation goes beyond technology implementation to fundamentally re
       id: 40,
       question: "Which analytics asks 'What happened?'",
       options: [
-        "Descriptive Analytics",
         "Diagnostic Analytics",
+        "Descriptive Analytics",
         "Predictive Analytics",
         "Prescriptive Analytics"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       module: 8,
       explanation: "Descriptive Analytics focuses on understanding what happened through reporting and visualization of historical data."
     }

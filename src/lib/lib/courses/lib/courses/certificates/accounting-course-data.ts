@@ -41,60 +41,60 @@ export const accountingProfessionalDiplomaData = {
           id: 1,
           question: "How many countries require or permit IFRS for domestic listed companies?",
           options: [
-            "75 countries",
             "100 countries",
-            "125 countries",
-            "150+ countries"
+            "75 countries",
+            "150+ countries",
+            "125 countries"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Over 150 jurisdictions require or permit IFRS for domestic listed companies, representing approximately 95% of global GDP."
         },
         {
           id: 2,
           question: "What is the core principle of IFRS 15 Revenue Recognition?",
           options: [
-            "Recognize revenue when earned",
-            "Recognize revenue when cash received",
+            "Recognize revenue when goods delivered",
             "Recognize revenue when contract signed",
-            "Recognize revenue when goods delivered"
+            "Recognize revenue when cash received",
+            "Recognize revenue when earned"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Core principle: Recognize revenue to depict transfer of promised goods/services to customers at amount expected in exchange."
         },
         {
           id: 3,
           question: "Under IFRS 9, what percentage of credit losses must be recognized for Stage 1 financial assets?",
           options: [
-            "12-month expected losses",
-            "Lifetime expected losses",
             "50% of lifetime losses",
-            "No loss recognition required"
+            "12-month expected losses",
+            "No loss recognition required",
+            "Lifetime expected losses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stage 1: Recognize 12-month expected credit losses. Stage 2/3: Recognize lifetime expected credit losses."
         },
         {
           id: 4,
           question: "What is the goodwill calculation formula in business combinations?",
           options: [
-            "Purchase price - Fair value of net assets",
             "Purchase price - Book value of net assets",
-            "Market value - Purchase price",
-            "Fair value - Historical cost"
+            "Fair value - Historical cost",
+            "Purchase price - Fair value of net assets",
+            "Market value - Purchase price"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Goodwill = Consideration transferred + NCI at acquisition-date fair value - Net identifiable assets acquired at fair value."
         },
         {
           id: 5,
           question: "What percentage of multinational corporations report using IFRS?",
           options: [
-            "45%",
             "65%",
             "85%",
+            "45%",
             "95%+"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Approximately 85% of Fortune Global 500 companies report using IFRS or have reconciled to IFRS from local GAAP."
         }
       ]
@@ -134,9 +134,9 @@ export const accountingProfessionalDiplomaData = {
           question: "What percentage of financial statement fraud involves revenue recognition?",
           options: [
             "25%",
-            "45%",
+            "85%",
             "65%",
-            "85%"
+            "45%"
           ],
           correctAnswer: 2,
           explanation: "Approximately 65% of financial statement fraud cases involve improper revenue recognition practices."
@@ -145,20 +145,20 @@ export const accountingProfessionalDiplomaData = {
           id: 2,
           question: "What is the minimum segment reporting threshold for revenue?",
           options: [
-            "5% of total revenue",
             "10% of total revenue",
             "15% of total revenue",
+            "5% of total revenue",
             "20% of total revenue"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Reportable segment thresholds: ≥10% of total revenue, ≥10% of total profit/loss, or ≥10% of total assets."
         },
         {
           id: 3,
           question: "What percentage of analysts' valuation relies on DCF analysis?",
           options: [
-            "25%",
             "45%",
+            "25%",
             "65%",
             "85%"
           ],
@@ -169,24 +169,24 @@ export const accountingProfessionalDiplomaData = {
           id: 4,
           question: "What ROE would result from 10% net margin, 2.0 asset turnover, and 1.5 equity multiplier?",
           options: [
-            "15%",
             "20%",
             "25%",
-            "30%"
+            "30%",
+            "15%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "DuPont: ROE = Net Margin × Asset Turnover × Equity Multiplier = 10% × 2.0 × 1.5 = 30%."
         },
         {
           id: 5,
           question: "How many variables are in the Beneish M-Score model?",
           options: [
+            "12 variables",
             "5 variables",
-            "8 variables",
             "10 variables",
-            "12 variables"
+            "8 variables"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Beneish M-Score uses 8 financial ratios to detect earnings manipulation with approximately 76% accuracy."
         }
       ]
@@ -225,60 +225,60 @@ export const accountingProfessionalDiplomaData = {
           id: 1,
           question: "What percentage of manufacturing companies use Activity-Based Costing?",
           options: [
+            "55%",
             "15%",
             "35%",
-            "55%",
             "75%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately 35% of manufacturing companies use ABC, with higher adoption in complex, multi-product environments."
         },
         {
           id: 2,
           question: "What is the typical cost reduction target in target costing?",
           options: [
+            "30-50%",
             "5-10%",
             "10-20%",
-            "20-30%",
-            "30-50%"
+            "20-30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Target costing typically aims for 20-30% cost reduction through design changes, process improvements, and supplier negotiations."
         },
         {
           id: 3,
           question: "What percentage of companies link budgets to strategy through balanced scorecard?",
           options: [
-            "15%",
-            "35%",
             "55%",
-            "75%"
+            "15%",
+            "75%",
+            "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately 35% of companies successfully integrate balanced scorecard with budgeting for strategic alignment."
         },
         {
           id: 4,
           question: "In make vs. buy decisions, what costs are always relevant?",
           options: [
+            "Sunk costs",
             "Allocated fixed costs",
             "Incremental costs",
-            "Sunk costs",
             "Historical costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Only incremental (differential) costs that change with the decision are relevant. Sunk costs are never relevant."
         },
         {
           id: 5,
           question: "What is the most widely used capital budgeting technique?",
           options: [
-            "Payback period",
             "Accounting rate of return",
-            "Net present value",
-            "Internal rate of return"
+            "Payback period",
+            "Internal rate of return",
+            "Net present value"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "NPV is used by approximately 75% of large corporations as primary technique, though IRR is also popular."
         }
       ]
@@ -329,45 +329,45 @@ export const accountingProfessionalDiplomaData = {
           id: 2,
           question: "What is the materiality threshold for most financial statement audits?",
           options: [
-            "0.5-1% of revenue",
             "1-2% of total assets",
             "5-10% of net income",
-            "All of the above"
+            "All of the above",
+            "0.5-1% of revenue"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Materiality is typically 0.5-1% revenue, 1-2% total assets, or 5-10% net income, using the most sensitive benchmark."
         },
         {
           id: 3,
           question: "What percentage of audits use data analytics tools?",
           options: [
-            "15%",
-            "35%",
+            "75%",
             "55%",
-            "75%"
+            "15%",
+            "35%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Approximately 75% of audit firms now use data analytics for risk assessment, testing, and visualization."
         },
         {
           id: 4,
           question: "How many ISA standards are currently in effect?",
           options: [
-            "24 standards",
-            "36 standards",
             "48 standards",
-            "60+ standards"
+            "60+ standards",
+            "24 standards",
+            "36 standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "There are 36 International Standards on Auditing (ISAs) covering all aspects of audit engagements."
         },
         {
           id: 5,
           question: "What percentage of audit adjustments are proposed during fieldwork?",
           options: [
-            "25%",
             "45%",
             "65%",
+            "25%",
             "85%"
           ],
           correctAnswer: 3,
@@ -409,33 +409,33 @@ export const accountingProfessionalDiplomaData = {
           id: 1,
           question: "What is the average effective corporate tax rate globally?",
           options: [
-            "15-20%",
             "20-25%",
             "25-30%",
-            "30-35%"
+            "30-35%",
+            "15-20%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Average effective corporate tax rate globally is approximately 20-25%, though statutory rates vary widely."
         },
         {
           id: 2,
           question: "How many countries have implemented VAT/GST systems?",
           options: [
-            "75 countries",
             "100 countries",
             "125 countries",
-            "150+ countries"
+            "150+ countries",
+            "75 countries"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Over 160 countries have implemented VAT or GST systems, generating approximately 20% of global tax revenue."
         },
         {
           id: 3,
           question: "What percentage of multinational corporations face transfer pricing audits?",
           options: [
-            "15%",
-            "35%",
             "55%",
+            "35%",
+            "15%",
             "75%"
           ],
           correctAnswer: 1,
@@ -445,24 +445,24 @@ export const accountingProfessionalDiplomaData = {
           id: 4,
           question: "What is the typical statute of limitations for tax assessments?",
           options: [
-            "3 years",
-            "5 years",
             "7 years",
-            "10 years"
+            "10 years",
+            "5 years",
+            "3 years"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Most jurisdictions have 3-4 year statute of limitations, extended to 6+ years for fraud or significant omissions."
         },
         {
           id: 5,
           question: "What percentage of tax disputes are settled without litigation?",
           options: [
+            "95%+",
             "45%",
             "65%",
-            "85%",
-            "95%+"
+            "85%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 85-90% of tax disputes are settled through administrative processes without court litigation."
         }
       ]
@@ -502,57 +502,57 @@ export const accountingProfessionalDiplomaData = {
           question: "What percentage of occupational fraud is detected by tips?",
           options: [
             "25%",
-            "40%",
             "55%",
+            "40%",
             "70%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately 40% of fraud is detected by tips, making whistleblower programs the most effective detection method."
         },
         {
           id: 2,
           question: "What is the median loss from financial statement fraud?",
           options: [
-            "$100,000",
             "$500,000",
             "$1 million",
-            "$5 million+"
+            "$5 million+",
+            "$100,000"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Median loss from financial statement fraud is approximately $1 million, significantly higher than asset misappropriation."
         },
         {
           id: 3,
           question: "What percentage of fraudsters are first-time offenders?",
           options: [
-            "45%",
             "65%",
-            "85%",
-            "95%"
+            "45%",
+            "95%",
+            "85%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 85% of fraudsters have no prior criminal convictions, making background checks less effective."
         },
         {
           id: 4,
           question: "How long does the average fraud scheme last before detection?",
           options: [
-            "6 months",
-            "12 months",
+            "24 months",
             "18 months",
-            "24 months"
+            "6 months",
+            "12 months"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The median duration of fraud schemes is 14-18 months before detection, allowing significant losses to accumulate."
         },
         {
           id: 5,
           question: "What percentage of organizations are victims of fraud annually?",
           options: [
-            "15%",
-            "35%",
             "55%",
-            "75%"
+            "35%",
+            "75%",
+            "15%"
           ],
           correctAnswer: 1,
           explanation: "Approximately 35% of organizations experience fraud annually, though many minor cases go unreported."
@@ -593,45 +593,45 @@ export const accountingProfessionalDiplomaData = {
           id: 1,
           question: "What percentage of M&A deals fail to achieve expected synergies?",
           options: [
+            "85%",
             "25%",
             "45%",
-            "65%",
-            "85%"
+            "65%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Approximately 70-90% of M&A deals fail to achieve expected synergies, often due to poor integration planning."
         },
         {
           id: 2,
           question: "What is the average cost of capital for large corporations?",
           options: [
-            "5-7%",
-            "7-9%",
             "9-11%",
-            "11-13%"
+            "5-7%",
+            "11-13%",
+            "7-9%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Average WACC for large corporations is typically 7-9%, varying by industry, risk profile, and economic conditions."
         },
         {
           id: 3,
           question: "What percentage of Fortune 500 companies issue sustainability reports?",
           options: [
-            "45%",
+            "95%",
             "65%",
             "85%",
-            "95%"
+            "45%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Approximately 90% of S&P 500 and 95% of Fortune 500 companies now publish sustainability or ESG reports."
         },
         {
           id: 4,
           question: "What is the typical cash conversion cycle for manufacturing companies?",
           options: [
-            "30-60 days",
-            "60-90 days",
             "90-120 days",
+            "60-90 days",
+            "30-60 days",
             "120-150 days"
           ],
           correctAnswer: 1,
@@ -641,9 +641,9 @@ export const accountingProfessionalDiplomaData = {
           id: 5,
           question: "What percentage of CFOs use derivatives for risk management?",
           options: [
+            "65%",
             "25%",
             "45%",
-            "65%",
             "85%"
           ],
           correctAnswer: 3,
@@ -685,34 +685,34 @@ export const accountingProfessionalDiplomaData = {
           id: 1,
           question: "What percentage of audit committee members must be independent under NYSE rules?",
           options: [
-            "75%",
             "100%",
             "Majority",
-            "No requirement"
+            "No requirement",
+            "75%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "NYSE requires 100% independence for audit committee members, with additional financial expertise requirements."
         },
         {
           id: 2,
           question: "How many fundamental principles are in the IESBA Code of Ethics?",
           options: [
+            "7 principles",
             "3 principles",
             "5 principles",
-            "7 principles",
             "10 principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Five fundamental principles: Integrity, Objectivity, Professional Competence, Confidentiality, Professional Behavior."
         },
         {
           id: 3,
           question: "What is the average cost of SOX 404 compliance for large companies?",
           options: [
-            "$500,000",
+            "$5 million+",
             "$1 million",
             "$2 million",
-            "$5 million+"
+            "$500,000"
           ],
           correctAnswer: 2,
           explanation: "Average SOX 404 compliance costs are approximately $2 million annually for large accelerated filers."
@@ -721,12 +721,12 @@ export const accountingProfessionalDiplomaData = {
           id: 4,
           question: "What percentage of companies have ethics hotlines?",
           options: [
-            "35%",
-            "55%",
             "75%",
-            "95%"
+            "55%",
+            "95%",
+            "35%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately 75% of large corporations have ethics hotlines or similar whistleblower reporting mechanisms."
         },
         {
@@ -735,8 +735,8 @@ export const accountingProfessionalDiplomaData = {
           options: [
             "2% of global revenue",
             "4% of global revenue",
-            "€10 million",
-            "€20 million"
+            "€20 million",
+            "€10 million"
           ],
           correctAnswer: 1,
           explanation: "GDPR allows fines up to €20 million or 4% of global annual turnover, whichever is higher, for serious violations."
@@ -777,36 +777,36 @@ export const accountingProfessionalDiplomaData = {
           id: 1,
           question: "What percentage of large companies use ERP systems?",
           options: [
+            "95%+",
             "45%",
-            "65%",
             "85%",
-            "95%+"
+            "65%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Over 95% of Fortune 500 companies use ERP systems, with SAP and Oracle dominating the market."
         },
         {
           id: 2,
           question: "What is the average ERP implementation timeline for large organizations?",
           options: [
-            "6-12 months",
-            "12-24 months",
             "24-36 months",
-            "36-48 months"
+            "6-12 months",
+            "36-48 months",
+            "12-24 months"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Large ERP implementations typically take 12-24 months, though complex global rollouts can take longer."
         },
         {
           id: 3,
           question: "What percentage of accounting tasks are automatable with current technology?",
           options: [
-            "25%",
-            "45%",
             "65%",
-            "85%"
+            "45%",
+            "85%",
+            "25%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately 65-70% of routine accounting tasks are technically automatable with RPA and AI technologies."
         },
         {
@@ -814,11 +814,11 @@ export const accountingProfessionalDiplomaData = {
           question: "What is the average cost of a data breach for large companies?",
           options: [
             "$500,000",
+            "$10 million+",
             "$2 million",
-            "$5 million",
-            "$10 million+"
+            "$5 million"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Average data breach cost is approximately $4-5 million, including detection, response, notification, and lost business."
         },
         {
@@ -826,11 +826,11 @@ export const accountingProfessionalDiplomaData = {
           question: "What percentage of companies plan to implement blockchain in accounting?",
           options: [
             "5%",
+            "35%",
             "15%",
-            "25%",
-            "35%"
+            "25%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 25% of large companies have blockchain initiatives, with accounting applications in smart contracts and audit trails."
         }
       ]
@@ -871,10 +871,10 @@ export const accountingProfessionalDiplomaData = {
           options: [
             "25%",
             "45%",
-            "65%",
-            "85%"
+            "85%",
+            "65%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Approximately 85% of institutional investors now consider ESG factors in investment analysis and decision-making."
         },
         {
@@ -894,35 +894,35 @@ export const accountingProfessionalDiplomaData = {
           question: "What percentage of analysts' reports include sensitivity analysis?",
           options: [
             "25%",
+            "85%",
             "45%",
-            "65%",
-            "85%"
+            "65%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately 45% of professional analyst reports include sensitivity or scenario analysis for key assumptions."
         },
         {
           id: 4,
           question: "How many key performance indicators should a balanced scorecard include?",
           options: [
-            "10-15 KPIs",
-            "15-25 KPIs",
             "25-40 KPIs",
-            "40-60 KPIs"
+            "40-60 KPIs",
+            "10-15 KPIs",
+            "15-25 KPIs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective balanced scorecards typically include 15-25 KPIs across 4 perspectives for manageable focus."
         },
         {
           id: 5,
           question: "What percentage of strategic plans fail due to poor implementation?",
           options: [
-            "45%",
-            "65%",
             "85%",
-            "95%"
+            "95%",
+            "65%",
+            "45%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately 60-70% of strategic plans fail due to poor implementation rather than flawed strategy."
         }
       ]
@@ -933,36 +933,36 @@ export const accountingProfessionalDiplomaData = {
       id: 1,
       question: "Countries requiring/permitting IFRS?",
       options: [
-        "75 countries",
+        "150+ countries",
         "100 countries",
-        "125 countries",
-        "150+ countries"
+        "75 countries",
+        "125 countries"
       ],
-      correctAnswer: 3,
+      correctAnswer: 0,
       explanation: "150+ countries use IFRS."
     },
     {
       id: 2,
       question: "Multinationals reporting with IFRS?",
       options: [
-        "45%",
-        "65%",
         "85%",
+        "65%",
+        "45%",
         "95%+"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "85% of Fortune 500 use IFRS."
     },
     {
       id: 3,
       question: "Revenue recognition fraud percentage?",
       options: [
+        "85%",
         "25%",
         "45%",
-        "65%",
-        "85%"
+        "65%"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "65% involve revenue fraud."
     },
     {
@@ -982,23 +982,23 @@ export const accountingProfessionalDiplomaData = {
       question: "Segment reporting threshold?",
       options: [
         "5%",
-        "10%",
         "15%",
-        "20%"
+        "20%",
+        "10%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "10% is the threshold."
     },
     {
       id: 6,
       question: "Manufacturers using ABC?",
       options: [
-        "15%",
         "35%",
+        "15%",
         "55%",
         "75%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "35% use Activity-Based Costing."
     },
     {
@@ -1007,10 +1007,10 @@ export const accountingProfessionalDiplomaData = {
       options: [
         "5-10%",
         "10-20%",
-        "20-30%",
-        "30-50%"
+        "30-50%",
+        "20-30%"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "20-30% typical reduction."
     },
     {
@@ -1019,8 +1019,8 @@ export const accountingProfessionalDiplomaData = {
       options: [
         "15%",
         "35%",
-        "55%",
-        "75%"
+        "75%",
+        "55%"
       ],
       correctAnswer: 1,
       explanation: "35% integrate with strategy."
@@ -1029,12 +1029,12 @@ export const accountingProfessionalDiplomaData = {
       id: 9,
       question: "Audit time spent on planning?",
       options: [
+        "30-40%",
         "10-15%",
         "20-25%",
-        "30-40%",
         "45-50%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "20-25% on planning."
     },
     {
@@ -1043,10 +1043,10 @@ export const accountingProfessionalDiplomaData = {
       options: [
         "15%",
         "35%",
-        "55%",
-        "75%"
+        "75%",
+        "55%"
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
       explanation: "75% use data analytics."
     },
     {
@@ -1066,19 +1066,19 @@ export const accountingProfessionalDiplomaData = {
       question: "Average corporate tax rate?",
       options: [
         "15-20%",
+        "30-35%",
         "20-25%",
-        "25-30%",
-        "30-35%"
+        "25-30%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "20-25% average globally."
     },
     {
       id: 13,
       question: "Countries with VAT/GST?",
       options: [
-        "75",
         "100",
+        "75",
         "125",
         "150+"
       ],
@@ -1089,44 +1089,44 @@ export const accountingProfessionalDiplomaData = {
       id: 14,
       question: "Fraud detected by tips?",
       options: [
-        "25%",
-        "40%",
         "55%",
-        "70%"
+        "70%",
+        "25%",
+        "40%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "40% detected by tips."
     },
     {
       id: 15,
       question: "Median financial statement fraud loss?",
       options: [
-        "$100,000",
-        "$500,000",
+        "$5 million+",
         "$1 million",
-        "$5 million+"
+        "$100,000",
+        "$500,000"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "$1 million median loss."
     },
     {
       id: 16,
       question: "First-time fraud offenders?",
       options: [
+        "95%",
         "45%",
         "65%",
-        "85%",
-        "95%"
+        "85%"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "85% first-time offenders."
     },
     {
       id: 17,
       question: "M&A failing on synergies?",
       options: [
-        "25%",
         "45%",
+        "25%",
         "65%",
         "85%"
       ],
@@ -1137,34 +1137,34 @@ export const accountingProfessionalDiplomaData = {
       id: 18,
       question: "Average corporate WACC?",
       options: [
-        "5-7%",
         "7-9%",
-        "9-11%",
-        "11-13%"
+        "5-7%",
+        "11-13%",
+        "9-11%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "7-9% average WACC."
     },
     {
       id: 19,
       question: "Fortune 500 sustainability reporting?",
       options: [
-        "45%",
         "65%",
+        "95%",
         "85%",
-        "95%"
+        "45%"
       ],
-      correctAnswer: 3,
+      correctAnswer: 1,
       explanation: "95% publish reports."
     },
     {
       id: 20,
       question: "Audit committee independence?",
       options: [
-        "75%",
+        "No requirement",
         "100%",
-        "Majority",
-        "No requirement"
+        "75%",
+        "Majority"
       ],
       correctAnswer: 1,
       explanation: "100% independence required."
@@ -1173,12 +1173,12 @@ export const accountingProfessionalDiplomaData = {
       id: 21,
       question: "IESBA ethical principles?",
       options: [
-        "3",
-        "5",
+        "10",
         "7",
-        "10"
+        "5",
+        "3"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "5 fundamental principles."
     },
     {
@@ -1186,11 +1186,11 @@ export const accountingProfessionalDiplomaData = {
       question: "Average SOX 404 cost?",
       options: [
         "$500K",
-        "$1M",
         "$2M",
+        "$1M",
         "$5M+"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "$2 million average cost."
     },
     {
@@ -1198,9 +1198,9 @@ export const accountingProfessionalDiplomaData = {
       question: "Companies with ethics hotlines?",
       options: [
         "35%",
-        "55%",
+        "95%",
         "75%",
-        "95%"
+        "55%"
       ],
       correctAnswer: 2,
       explanation: "75% have ethics hotlines."
@@ -1221,12 +1221,12 @@ export const accountingProfessionalDiplomaData = {
       id: 25,
       question: "ERP implementation timeline?",
       options: [
+        "36-48 months",
         "6-12 months",
-        "12-24 months",
         "24-36 months",
-        "36-48 months"
+        "12-24 months"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "12-24 months typical."
     },
     {
@@ -1234,47 +1234,47 @@ export const accountingProfessionalDiplomaData = {
       question: "Accounting tasks automatable?",
       options: [
         "25%",
-        "45%",
         "65%",
-        "85%"
+        "85%",
+        "45%"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "65-70% automatable."
     },
     {
       id: 27,
       question: "Average data breach cost?",
       options: [
-        "$500K",
-        "$2M",
         "$5M",
-        "$10M+"
+        "$10M+",
+        "$500K",
+        "$2M"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "$4-5 million average."
     },
     {
       id: 28,
       question: "Companies planning blockchain?",
       options: [
-        "5%",
-        "15%",
         "25%",
+        "15%",
+        "5%",
         "35%"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "25% have blockchain plans."
     },
     {
       id: 29,
       question: "Investors considering ESG?",
       options: [
-        "25%",
         "45%",
+        "85%",
         "65%",
-        "85%"
+        "25%"
       ],
-      correctAnswer: 3,
+      correctAnswer: 1,
       explanation: "85% consider ESG factors."
     },
     {
@@ -1282,23 +1282,23 @@ export const accountingProfessionalDiplomaData = {
       question: "Reports with sensitivity analysis?",
       options: [
         "25%",
-        "45%",
         "65%",
+        "45%",
         "85%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "45% include sensitivity."
     },
     {
       id: 31,
       question: "IFRS 15 core principle?",
       options: [
-        "Revenue when earned",
-        "Cash basis",
         "Contract signing",
-        "Delivery"
+        "Cash basis",
+        "Delivery",
+        "Revenue when earned"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Revenue when earned."
     },
     {
@@ -1306,9 +1306,9 @@ export const accountingProfessionalDiplomaData = {
       question: "IFRS 9 Stage 1 losses?",
       options: [
         "12-month",
-        "Lifetime",
+        "None",
         "50% lifetime",
-        "None"
+        "Lifetime"
       ],
       correctAnswer: 0,
       explanation: "12-month expected losses."
@@ -1317,60 +1317,60 @@ export const accountingProfessionalDiplomaData = {
       id: 33,
       question: "Goodwill calculation?",
       options: [
-        "Price - FV net assets",
+        "FV - historical",
         "Price - BV net assets",
-        "Market - price",
-        "FV - historical"
+        "Price - FV net assets",
+        "Market - price"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Price minus fair value."
     },
     {
       id: 34,
       question: "Beneish M-Score variables?",
       options: [
-        "5",
         "8",
+        "12",
         "10",
-        "12"
+        "5"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "8 variable model."
     },
     {
       id: 35,
       question: "DuPont ROE calculation?",
       options: [
+        "Turnover × Multiplier",
         "Margin × Turnover × Multiplier",
         "Margin + Turnover",
-        "Margin ÷ Turnover",
-        "Turnover × Multiplier"
+        "Margin ÷ Turnover"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Product of three components."
     },
     {
       id: 36,
       question: "Relevant costs in decisions?",
       options: [
-        "Incremental",
-        "Allocated",
         "Sunk",
-        "Historical"
+        "Allocated",
+        "Historical",
+        "Incremental"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Incremental costs relevant."
     },
     {
       id: 37,
       question: "Primary capital budgeting method?",
       options: [
+        "NPV",
         "Payback",
         "ARR",
-        "NPV",
         "IRR"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "NPV used by 75%."
     },
     {
@@ -1378,9 +1378,9 @@ export const accountingProfessionalDiplomaData = {
       question: "Materiality threshold revenue?",
       options: [
         "0.5-1%",
-        "1-2%",
         "5-10%",
-        "10-15%"
+        "10-15%",
+        "1-2%"
       ],
       correctAnswer: 0,
       explanation: "0.5-1% of revenue."
@@ -1402,11 +1402,11 @@ export const accountingProfessionalDiplomaData = {
       question: "GDPR maximum fine?",
       options: [
         "2% revenue",
-        "4% revenue",
+        "€20M",
         "€10M",
-        "€20M"
+        "4% revenue"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "4% of global revenue."
     }
   ]

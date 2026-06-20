@@ -211,11 +211,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "Which BMI category is classified as Obesity Class I?",
           options: [
             "25-29.9 kg/m²",
-            "30-34.9 kg/m²",
             "35-39.9 kg/m²",
-            "≥40 kg/m²"
+            "≥40 kg/m²",
+            "30-34.9 kg/m²"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Obesity Class I is defined as BMI 30-34.9 kg/m² according to standard classifications."
         },
         {
@@ -223,23 +223,23 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What waist circumference indicates increased risk in women?",
           options: [
             ">80 cm",
-            ">88 cm",
             ">95 cm",
-            ">102 cm"
+            ">102 cm",
+            ">88 cm"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "For women, waist circumference >88 cm (35 inches) indicates increased risk for metabolic syndrome."
         },
         {
           id: 3,
           question: "What is the normal range for albumin in blood chemistry?",
           options: [
-            "2.0-3.0 g/dL",
-            "3.5-5.0 g/dL",
+            "6.5-8.0 g/dL",
             "5.0-6.5 g/dL",
-            "6.5-8.0 g/dL"
+            "2.0-3.0 g/dL",
+            "3.5-5.0 g/dL"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Normal albumin range is 3.5-5.0 g/dL, with levels below indicating potential protein malnutrition."
         },
         {
@@ -248,43 +248,43 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           options: [
             "Albumin (20 days)",
             "Transferrin (8-10 days)",
-            "Prealbumin (2-3 days)",
-            "Hemoglobin (120 days)"
+            "Hemoglobin (120 days)",
+            "Prealbumin (2-3 days)"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Prealbumin has a half-life of 2-3 days, making it the most responsive to recent nutritional changes."
         },
         {
           id: 5,
           question: "How many main components does comprehensive nutritional assessment include?",
           options: [
-            "2 components",
-            "3 components",
             "4 components",
-            "5 components"
+            "2 components",
+            "5 components",
+            "3 components"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Comprehensive nutritional assessment includes four components: anthropometric, biochemical, clinical, and dietary."
         },
         {
           id: 6,
           question: "What is the Subjective Global Assessment (SGA) category for someone with 8% weight loss and reduced intake?",
           options: [
+            "Not applicable",
             "Well Nourished (A)",
-            "Moderately Malnourished (B)",
             "Severely Malnourished (C)",
-            "Not applicable"
+            "Moderately Malnourished (B)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Weight loss of 5-10% with reduced intake classifies as Moderately Malnourished (B) in SGA."
         },
         {
           id: 7,
           question: "According to GLIM criteria, what percentage of unintentional weight loss in 6 months qualifies as phenotypic criteria?",
           options: [
-            ">2%",
-            ">5%",
             ">8%",
+            ">5%",
+            ">2%",
             ">10%"
           ],
           correctAnswer: 1,
@@ -294,48 +294,48 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 8,
           question: "Which equation is considered most accurate for estimating Resting Metabolic Rate?",
           options: [
-            "Harris-Benedict Equation",
             "Mifflin-St Jeor Equation",
             "Schofield Equation",
+            "Harris-Benedict Equation",
             "WHO Equation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Mifflin-St Jeor Equation is considered the most accurate for estimating RMR in most populations."
         },
         {
           id: 9,
           question: "What is the protein requirement for a patient with severe stress or burns?",
           options: [
+            "1.5-2.0 g/kg/day",
             "0.8-1.0 g/kg/day",
-            "1.0-1.2 g/kg/day",
             "1.2-1.5 g/kg/day",
-            "1.5-2.0 g/kg/day"
+            "1.0-1.2 g/kg/day"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Severe stress conditions like burns require 1.5-2.0 g/kg/day of protein for optimal recovery."
         },
         {
           id: 10,
           question: "Using the Holiday-Segar method, what is the daily fluid requirement for a 70 kg person?",
           options: [
-            "1500 mL",
-            "2000 mL",
+            "3000 mL",
             "2500 mL",
-            "3000 mL"
+            "2000 mL",
+            "1500 mL"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "70 kg = (10×100) + (10×50) + (50×20) = 1000 + 500 + 1000 = 2500 mL/day."
         },
         {
           id: 11,
           question: "Which activity factor would you multiply RMR by for a sedentary individual?",
           options: [
-            "×1.0",
-            "×1.2",
             "×1.375",
-            "×1.55"
+            "×1.0",
+            "×1.55",
+            "×1.2"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sedentary individuals (little to no exercise) use an activity factor of ×1.2."
         },
         {
@@ -344,8 +344,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           options: [
             "50-75 g/day",
             "100-150 g/day",
-            "150-200 g/day",
-            "200-250 g/day"
+            "200-250 g/day",
+            "150-200 g/day"
           ],
           correctAnswer: 1,
           explanation: "Minimum carbohydrate requirement to prevent ketosis is 100-150 g/day."
@@ -354,10 +354,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 13,
           question: "Which component examines muscle wasting at specific sites like temporalis and clavicle?",
           options: [
+            "Anthropometric measurements",
             "Biochemical analysis",
-            "Dietary evaluation",
             "Nutrition-Focused Physical Exam",
-            "Anthropometric measurements"
+            "Dietary evaluation"
           ],
           correctAnswer: 2,
           explanation: "The Nutrition-Focused Physical Exam specifically assesses muscle wasting at sites like temporalis and clavicle."
@@ -378,22 +378,22 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 15,
           question: "How much additional fluid should be added for each °C of fever above 37°C?",
           options: [
+            "500 mL per °C",
             "100 mL per °C",
             "250 mL per °C",
-            "500 mL per °C",
             "1000 mL per °C"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Add 500 mL of fluid per day for each °C of fever above 37°C to account for insensible losses."
         },
         {
           id: 16,
           question: "Which step in the Nutrition Care Process involves problem identification using standardized language?",
           options: [
-            "Nutrition Assessment",
-            "Nutrition Diagnosis",
             "Nutrition Intervention",
-            "Nutrition Monitoring & Evaluation"
+            "Nutrition Diagnosis",
+            "Nutrition Monitoring & Evaluation",
+            "Nutrition Assessment"
           ],
           correctAnswer: 1,
           explanation: "Nutrition Diagnosis is the step where problems are identified using standardized PES statement format."
@@ -402,24 +402,24 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 17,
           question: "What protein requirement is recommended for a patient on hemodialysis?",
           options: [
-            "0.6-0.8 g/kg/day",
             "0.8-1.0 g/kg/day",
             "1.0-1.2 g/kg/day",
-            "1.2 g/kg/day"
+            "1.2 g/kg/day",
+            "0.6-0.8 g/kg/day"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Hemodialysis patients require 1.2 g/kg/day of protein to compensate for dialysis losses."
         },
         {
           id: 18,
           question: "What is the target blood glucose range for critically ill patients?",
           options: [
-            "80-120 mg/dL",
-            "100-140 mg/dL",
             "140-180 mg/dL",
+            "100-140 mg/dL",
+            "80-120 mg/dL",
             "180-220 mg/dL"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Critical illness guidelines recommend maintaining blood glucose between 140-180 mg/dL."
         },
         {
@@ -428,22 +428,22 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           options: [
             "ASPEN",
             "ESPEN",
-            "Academy of Nutrition and Dietetics",
-            "NICE"
+            "NICE",
+            "Academy of Nutrition and Dietetics"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The Academy of Nutrition and Dietetics maintains the Evidence Analysis Library for nutrition practice guidelines."
         },
         {
           id: 20,
           question: "What is the P in PES statement format?",
           options: [
+            "Procedure",
             "Patient",
             "Problem",
-            "Procedure",
             "Progress"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "In PES statements, P stands for Problem, which identifies the nutrition diagnosis."
         }
       ]
@@ -698,36 +698,36 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 1,
           question: "According to ACC/AHA guidelines, what BP range defines Stage 1 Hypertension?",
           options: [
-            "<120/80 mmHg",
             "120-129/<80 mmHg",
-            "130-139/80-89 mmHg",
-            "≥140/90 mmHg"
+            "≥140/90 mmHg",
+            "<120/80 mmHg",
+            "130-139/80-89 mmHg"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Stage 1 Hypertension is defined as 130-139/80-89 mmHg according to ACC/AHA guidelines."
         },
         {
           id: 2,
           question: "What is the sodium restriction target in the DASH diet?",
           options: [
+            "<3000 mg/day",
             "<1000 mg/day",
             "<1500 mg/day",
-            "<2300 mg/day",
-            "<3000 mg/day"
+            "<2300 mg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The DASH diet recommends <2300 mg sodium/day, with an ideal target of <1500 mg/day for greater benefits."
         },
         {
           id: 3,
           question: "What is the daily potassium target in the DASH diet?",
           options: [
+            "4700 mg/day",
             "2000 mg/day",
             "3500 mg/day",
-            "4700 mg/day",
             "6000 mg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The DASH diet targets 4700 mg of potassium daily to help lower blood pressure."
         },
         {
@@ -747,44 +747,44 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the optimal LDL cholesterol target for high-risk patients?",
           options: [
             "<100 mg/dL",
+            "<160 mg/dL",
             "<70 mg/dL",
-            "<130 mg/dL",
-            "<160 mg/dL"
+            "<130 mg/dL"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "For high-risk patients, the optimal LDL cholesterol target is <70 mg/dL."
         },
         {
           id: 6,
           question: "What percentage of total calories should come from saturated fat in dyslipidemia management?",
           options: [
+            "<15%",
             "<3%",
             "<7%",
-            "<10%",
-            "<15%"
+            "<10%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Saturated fat should be limited to <7% of total calories for optimal LDL cholesterol management."
         },
         {
           id: 7,
           question: "How much soluble fiber should be consumed daily for cholesterol reduction?",
           options: [
+            "15-20 g/day",
             "2-3 g/day",
             "5-10 g/day",
-            "10-15 g/day",
-            "15-20 g/day"
+            "10-15 g/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "5-10 g of soluble fiber daily is effective for reducing LDL cholesterol levels."
         },
         {
           id: 8,
           question: "What dose of plant sterols/stanols is effective in the Portfolio Diet?",
           options: [
-            "1 g/day",
-            "2 g/day",
             "3 g/day",
+            "2 g/day",
+            "1 g/day",
             "4 g/day"
           ],
           correctAnswer: 1,
@@ -794,24 +794,24 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 9,
           question: "What is the sodium restriction for Stage C heart failure patients?",
           options: [
-            "1500 mg/day",
             "2000 mg/day",
-            "2300 mg/day",
-            "3000 mg/day"
+            "1500 mg/day",
+            "3000 mg/day",
+            "2300 mg/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stage C heart failure patients typically require sodium restriction to 2000 mg/day."
         },
         {
           id: 10,
           question: "How many criteria must be met for metabolic syndrome diagnosis?",
           options: [
-            "2 of 5",
-            "3 of 5",
             "4 of 5",
-            "5 of 5"
+            "2 of 5",
+            "5 of 5",
+            "3 of 5"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Metabolic syndrome diagnosis requires meeting 3 out of 5 specified criteria."
         },
         {
@@ -820,32 +820,32 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           options: [
             ">88 cm",
             ">94 cm",
-            ">102 cm",
-            ">110 cm"
+            ">110 cm",
+            ">102 cm"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Waist circumference >102 cm (40 inches) indicates increased risk for metabolic syndrome in men."
         },
         {
           id: 12,
           question: "Which trial demonstrated 30% reduction in cardiovascular events with Mediterranean diet?",
           options: [
-            "DASH trial",
             "PREDIMED",
             "Lyon Diet Heart Study",
+            "DASH trial",
             "Portfolio Diet Study"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The PREDIMED trial showed 30% reduction in cardiovascular events with Mediterranean diet."
         },
         {
           id: 13,
           question: "What percentage of body weight loss significantly improves metabolic syndrome parameters?",
           options: [
-            "1-3%",
+            "10-15%",
             "3-5%",
             "5-10%",
-            "10-15%"
+            "1-3%"
           ],
           correctAnswer: 2,
           explanation: "5-10% body weight loss significantly improves all metabolic syndrome parameters."
@@ -855,11 +855,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "Which nutrient interaction requires consistent daily intake with warfarin therapy?",
           options: [
             "Vitamin A",
-            "Vitamin C",
+            "Vitamin K",
             "Vitamin D",
-            "Vitamin K"
+            "Vitamin C"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Warfarin therapy requires consistent vitamin K intake to maintain stable anticoagulation."
         },
         {
@@ -867,69 +867,69 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the daily EPA+DHA recommendation for cardioprotection?",
           options: [
             "250 mg/day",
-            "500 mg/day",
             "1 g/day",
-            "2 g/day"
+            "2 g/day",
+            "500 mg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "1 g/day of EPA+DHA provides cardioprotective benefits according to current guidelines."
         },
         {
           id: 16,
           question: "What is the recommended fluid restriction when serum sodium is <135 mEq/L in heart failure?",
           options: [
-            "1000-1500 mL/day",
             "1500-2000 mL/day",
-            "2000-2500 mL/day",
-            "2500-3000 mL/day"
+            "2500-3000 mL/day",
+            "1000-1500 mL/day",
+            "2000-2500 mL/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Fluid restriction of 1500-2000 mL/day is typically initiated when serum sodium is <135 mEq/L."
         },
         {
           id: 17,
           question: "How much soy protein is recommended in the Portfolio Diet?",
           options: [
-            "15 g/day",
-            "25 g/day",
+            "45 g/day",
             "35 g/day",
-            "45 g/day"
+            "15 g/day",
+            "25 g/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Portfolio Diet includes 25 g/day of soy protein to help reduce cholesterol."
         },
         {
           id: 18,
           question: "What is the target triglyceride level?",
           options: [
-            "<100 mg/dL",
             "<150 mg/dL",
-            "<200 mg/dL",
-            "<250 mg/dL"
+            "<100 mg/dL",
+            "<250 mg/dL",
+            "<200 mg/dL"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Optimal triglyceride level is <150 mg/dL according to lipid management guidelines."
         },
         {
           id: 19,
           question: "Which fruit juice should be avoided with statin medications due to CYP3A4 inhibition?",
           options: [
-            "Apple juice",
-            "Orange juice",
+            "Cranberry juice",
             "Grapefruit juice",
-            "Cranberry juice"
+            "Apple juice",
+            "Orange juice"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Grapefruit juice inhibits CYP3A4 metabolism, increasing statin concentrations and risk of side effects."
         },
         {
           id: 20,
           question: "What is the daily almond recommendation in the Portfolio Diet?",
           options: [
-            "15 g (about 12 almonds)",
+            "60 g (about 46 almonds)",
             "30 g (about 23 almonds)",
-            "45 g (about 35 almonds)",
-            "60 g (about 46 almonds)"
+            "15 g (about 12 almonds)",
+            "45 g (about 35 almonds)"
           ],
           correctAnswer: 1,
           explanation: "The Portfolio Diet includes 30 g of almonds daily (about 23 almonds) for cholesterol benefits."
@@ -1219,8 +1219,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 1,
           question: "What HbA1c level defines diabetes diagnosis according to ADA standards?",
           options: [
-            "≥5.7%",
             "≥6.0%",
+            "≥5.7%",
             "≥6.5%",
             "≥7.0%"
           ],
@@ -1231,10 +1231,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 2,
           question: "What is the prediabetes range for fasting plasma glucose?",
           options: [
-            "90-99 mg/dL",
+            "126-139 mg/dL",
             "100-125 mg/dL",
             "110-125 mg/dL",
-            "126-139 mg/dL"
+            "90-99 mg/dL"
           ],
           correctAnswer: 1,
           explanation: "Prediabetes is defined as fasting plasma glucose of 100-125 mg/dL."
@@ -1245,58 +1245,58 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           options: [
             "5 g",
             "10 g",
-            "15 g",
-            "20 g"
+            "20 g",
+            "15 g"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "One carbohydrate choice equals 15 grams of carbohydrates in carbohydrate counting."
         },
         {
           id: 4,
           question: "What glycemic index value defines low GI foods?",
           options: [
-            "≤40",
             "≤55",
-            "≤70",
-            "≤85"
+            "≤40",
+            "≤85",
+            "≤70"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Low glycemic index foods have a GI value of ≤55."
         },
         {
           id: 5,
           question: "What percentage of total calories should come from carbohydrates in diabetes management?",
           options: [
-            "30-40%",
             "35-50%",
             "45-65%",
+            "30-40%",
             "55-75%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Carbohydrates should provide 45-65% of total calories in diabetes medical nutrition therapy."
         },
         {
           id: 6,
           question: "What is the 'Rule of 15' used for in diabetes management?",
           options: [
-            "Weight loss calculation",
-            "Carbohydrate counting",
             "Hypoglycemia treatment",
-            "Insulin dosing"
+            "Insulin dosing",
+            "Carbohydrate counting",
+            "Weight loss calculation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The Rule of 15 refers to treating hypoglycemia: 15g fast-acting carbohydrate, wait 15 minutes, recheck."
         },
         {
           id: 7,
           question: "What is the initial weight loss goal for type 2 diabetes management?",
           options: [
+            "10-15%",
             "2-3%",
-            "5-7%",
             "8-10%",
-            "10-15%"
+            "5-7%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Initial weight loss goal for type 2 diabetes is 5-7% of body weight, which significantly improves glycemic control."
         },
         {
@@ -1316,47 +1316,47 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "How much carbohydrate is typically recommended for a bedtime snack in gestational diabetes?",
           options: [
             "0-15 g",
-            "15-30 g",
             "30-45 g",
-            "45-60 g"
+            "45-60 g",
+            "15-30 g"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A bedtime snack of 15-30 g carbohydrate helps prevent overnight ketosis in gestational diabetes."
         },
         {
           id: 10,
           question: "What protein intake is recommended for diabetic kidney disease?",
           options: [
-            "0.6 g/kg/day minimum",
-            "0.8 g/kg/day",
             "1.0 g/kg/day",
-            "1.2 g/kg/day"
+            "1.2 g/kg/day",
+            "0.8 g/kg/day",
+            "0.6 g/kg/day minimum"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Diabetic kidney disease management typically includes protein restriction to 0.8 g/kg/day."
         },
         {
           id: 11,
           question: "What is the target time in range for continuous glucose monitoring?",
           options: [
+            ">80%",
             ">50%",
             ">60%",
-            ">70%",
-            ">80%"
+            ">70%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Time in range target is >70% (glucose between 70-180 mg/dL) for optimal diabetes control."
         },
         {
           id: 12,
           question: "Which vitamin deficiency is associated with long-term metformin use?",
           options: [
-            "Vitamin C",
-            "Vitamin B12",
             "Vitamin D",
-            "Vitamin K"
+            "Vitamin C",
+            "Vitamin K",
+            "Vitamin B12"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Long-term metformin use is associated with vitamin B12 deficiency and should be monitored."
         },
         {
@@ -1364,45 +1364,45 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the recommended weight gain for normal weight women during pregnancy?",
           options: [
             "15-25 lb",
-            "25-35 lb",
             "28-40 lb",
-            "11-20 lb"
+            "11-20 lb",
+            "25-35 lb"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Normal weight women (BMI 18.5-24.9) should gain 25-35 lb during pregnancy according to IOM guidelines."
         },
         {
           id: 14,
           question: "What percentage of diabetes cases are type 2?",
           options: [
-            "50-60%",
-            "60-70%",
             "70-80%",
-            "90-95%"
+            "90-95%",
+            "60-70%",
+            "50-60%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Type 2 diabetes accounts for 90-95% of all diabetes cases."
         },
         {
           id: 15,
           question: "What is the coefficient of variation target for glucose variability?",
           options: [
-            "<20%",
             "<36%",
+            "<20%",
             "<50%",
             "<65%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Glucose variability should have a coefficient of variation <36% for optimal control."
         },
         {
           id: 16,
           question: "How many abnormal values are needed on 3-hour OGTT for gestational diabetes diagnosis?",
           options: [
-            "1 or more",
+            "All 4",
             "2 or more",
             "3 or more",
-            "All 4"
+            "1 or more"
           ],
           correctAnswer: 1,
           explanation: "Gestational diabetes is diagnosed with 2 or more abnormal values on 3-hour OGTT."
@@ -1412,11 +1412,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the typical insulin-to-carbohydrate ratio range?",
           options: [
             "1 unit per 5-10 g",
+            "1 unit per 20-25 g",
             "1 unit per 10-15 g",
-            "1 unit per 15-20 g",
-            "1 unit per 20-25 g"
+            "1 unit per 15-20 g"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Typical insulin-to-carbohydrate ratios range from 1 unit per 10-15 g of carbohydrate."
         },
         {
@@ -1424,11 +1424,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What dose of alpha-lipoic acid may improve diabetic neuropathy symptoms?",
           options: [
             "300 mg/day",
+            "1200 mg/day",
             "600 mg/day",
-            "900 mg/day",
-            "1200 mg/day"
+            "900 mg/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "600 mg/day of alpha-lipoic acid has shown benefits for diabetic neuropathy symptoms."
         },
         {
@@ -1436,23 +1436,23 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the recommended aerobic exercise duration per week for diabetes management?",
           options: [
             "75 minutes",
+            "200 minutes",
             "100 minutes",
-            "150 minutes",
-            "200 minutes"
+            "150 minutes"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Minimum of 150 minutes of aerobic exercise per week is recommended for diabetes management."
         },
         {
           id: 20,
           question: "What glycemic load value defines low glycemic load?",
           options: [
-            "≤5",
-            "≤10",
             "≤15",
-            "≤20"
+            "≤5",
+            "≤20",
+            "≤10"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Low glycemic load is defined as ≤10, calculated as (GI × carbohydrate grams) ÷ 100."
         }
       ]
@@ -1745,21 +1745,21 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 1,
           question: "How long before bedtime should GERD patients avoid eating?",
           options: [
-            "1 hour",
+            "4 hours",
             "2 hours",
-            "3 hours",
-            "4 hours"
+            "1 hour",
+            "3 hours"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "GERD patients should avoid eating within 3 hours of bedtime to reduce nighttime symptoms."
         },
         {
           id: 2,
           question: "Which compound in broccoli sprouts may have antibacterial effects against H. pylori?",
           options: [
-            "Quercetin",
-            "Sulforaphane",
             "Curcumin",
+            "Sulforaphane",
+            "Quercetin",
             "Resveratrol"
           ],
           correctAnswer: 1,
@@ -1769,22 +1769,22 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 3,
           question: "What is the prevalence range of malnutrition in inflammatory bowel disease?",
           options: [
-            "5-15%",
             "20-85%",
-            "90-95%",
-            "95-100%"
+            "95-100%",
+            "5-15%",
+            "90-95%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Malnutrition affects 20-85% of IBD patients depending on disease activity and location."
         },
         {
           id: 4,
           question: "Which vitamin deficiency is most common in celiac disease at diagnosis?",
           options: [
-            "Vitamin C",
             "Vitamin D",
+            "Vitamin B12",
             "Iron (causing anemia)",
-            "Vitamin B12"
+            "Vitamin C"
           ],
           correctAnswer: 2,
           explanation: "Iron deficiency anemia is the most common nutritional deficiency in newly diagnosed celiac disease."
@@ -1793,10 +1793,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 5,
           question: "What is the gluten-free threshold defined as in ppm?",
           options: [
-            "<5 ppm",
             "<10 ppm",
+            "<50 ppm",
             "<20 ppm",
-            "<50 ppm"
+            "<5 ppm"
           ],
           correctAnswer: 2,
           explanation: "Gluten-free is defined as containing less than 20 parts per million of gluten."
@@ -1805,24 +1805,24 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 6,
           question: "How long is the elimination phase of the low FODMAP diet typically?",
           options: [
+            "8-12 weeks",
             "1-2 weeks",
             "2-6 weeks",
-            "6-8 weeks",
-            "8-12 weeks"
+            "6-8 weeks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The elimination phase of the low FODMAP diet typically lasts 2-6 weeks."
         },
         {
           id: 7,
           question: "Which IBS subtype would benefit most from psyllium supplementation?",
           options: [
-            "IBS-C",
             "IBS-D",
             "IBS-M",
-            "IBS-U"
+            "IBS-U",
+            "IBS-C"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Psyllium supplementation is most beneficial for IBS-C (constipation-predominant)."
         },
         {
@@ -1830,35 +1830,35 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the first-line therapy for pediatric Crohn's disease?",
           options: [
             "Corticosteroids",
-            "Exclusive enteral nutrition",
+            "Biologics",
             "Immunomodulators",
-            "Biologics"
+            "Exclusive enteral nutrition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Exclusive enteral nutrition is first-line therapy for pediatric Crohn's disease."
         },
         {
           id: 9,
           question: "What protein intake is recommended for cirrhosis patients to prevent muscle wasting?",
           options: [
-            "0.8-1.0 g/kg/day",
             "1.0-1.2 g/kg/day",
             "1.2-1.5 g/kg/day",
+            "0.8-1.0 g/kg/day",
             "1.5-2.0 g/kg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Cirrhosis patients require 1.2-1.5 g/kg/day of protein to prevent muscle wasting."
         },
         {
           id: 10,
           question: "What sodium restriction is typically recommended for ascites management?",
           options: [
-            "1000 mg/day",
-            "2000 mg/day",
             "3000 mg/day",
-            "No restriction needed"
+            "No restriction needed",
+            "1000 mg/day",
+            "2000 mg/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Initial sodium restriction for ascites management is typically 2000 mg/day."
         },
         {
@@ -1867,8 +1867,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           options: [
             "100-500 lipase units/kg/meal",
             "500-2500 lipase units/kg/meal",
-            "2500-5000 lipase units/kg/meal",
-            "5000-7500 lipase units/kg/meal"
+            "5000-7500 lipase units/kg/meal",
+            "2500-5000 lipase units/kg/meal"
           ],
           correctAnswer: 1,
           explanation: "Typical pancreatic enzyme dosing is 500-2500 lipase units/kg/meal."
@@ -1877,20 +1877,20 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 12,
           question: "How many foods are eliminated in the six-food elimination diet for eosinophilic esophagitis?",
           options: [
-            "4 foods",
             "6 foods",
-            "8 foods",
-            "10 foods"
+            "4 foods",
+            "10 foods",
+            "8 foods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The six-food elimination diet removes dairy, wheat, egg, soy, nuts, and seafood."
         },
         {
           id: 13,
           question: "What percentage of celiac disease patients are HLA-DQ2 or DQ8 positive?",
           options: [
-            "75%",
             "85%",
+            "75%",
             "95%",
             "99%"
           ],
@@ -1901,20 +1901,20 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 14,
           question: "Which dietary component should gastroparesis patients limit?",
           options: [
-            "Protein",
             "Fat and fiber",
+            "Fluids",
             "Carbohydrates",
-            "Fluids"
+            "Protein"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Gastroparesis patients should limit fat and fiber as both slow gastric emptying."
         },
         {
           id: 15,
           question: "What is the recommended daily fiber intake for chronic constipation?",
           options: [
-            "15-20 g/day",
             "20-25 g/day",
+            "15-20 g/day",
             "25-30 g/day",
             "30-35 g/day"
           ],
@@ -1925,21 +1925,21 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 16,
           question: "Which vitamin requires intact pancreatic enzymes for absorption?",
           options: [
+            "Vitamin D",
             "Vitamin A",
-            "Vitamin B12",
             "Vitamin C",
-            "Vitamin D"
+            "Vitamin B12"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Vitamin B12 requires intact pancreatic enzymes for absorption from food."
         },
         {
           id: 17,
           question: "What type of protein may be better tolerated in hepatic encephalopathy?",
           options: [
-            "Animal protein",
-            "Vegetable protein",
             "Whey protein",
+            "Vegetable protein",
+            "Animal protein",
             "Casein protein"
           ],
           correctAnswer: 1,
@@ -1950,33 +1950,33 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "Which probiotic strain has evidence for IBS benefit?",
           options: [
             "Lactobacillus acidophilus",
-            "Bifidobacterium infantis 35624",
+            "Lactobacillus rhamnosus GG",
             "Saccharomyces boulardii",
-            "Lactobacillus rhamnosus GG"
+            "Bifidobacterium infantis 35624"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Bifidobacterium infantis 35624 has specific evidence for IBS symptom improvement."
         },
         {
           id: 19,
           question: "What is the minimum symptom duration for IBS diagnosis according to Rome IV criteria?",
           options: [
-            "3 months",
             "6 months",
             "9 months",
+            "3 months",
             "12 months"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Rome IV criteria require symptoms for at least 6 months for IBS diagnosis."
         },
         {
           id: 20,
           question: "Which dietary pattern has shown anti-inflammatory benefits for IBD?",
           options: [
-            "Ketogenic diet",
+            "Atkins diet",
             "Mediterranean diet",
             "Paleo diet",
-            "Atkins diet"
+            "Ketogenic diet"
           ],
           correctAnswer: 1,
           explanation: "The Mediterranean diet has shown anti-inflammatory benefits that may help in IBD management."
@@ -2303,8 +2303,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 1,
           question: "What GFR defines Stage 5 CKD (kidney failure)?",
           options: [
-            "<30 mL/min",
             "<25 mL/min",
+            "<30 mL/min",
             "<20 mL/min",
             "<15 mL/min"
           ],
@@ -2315,22 +2315,22 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 2,
           question: "What protein intake is recommended for pre-dialysis CKD (Stages 3-4)?",
           options: [
-            "0.4-0.6 g/kg/day",
             "0.6-0.8 g/kg/day",
             "0.8-1.0 g/kg/day",
-            "1.0-1.2 g/kg/day"
+            "1.0-1.2 g/kg/day",
+            "0.4-0.6 g/kg/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pre-dialysis CKD patients should consume 0.6-0.8 g/kg/day of protein."
         },
         {
           id: 3,
           question: "What protein intake is recommended for hemodialysis patients?",
           options: [
-            "0.8-1.0 g/kg/day",
             "1.0-1.2 g/kg/day",
+            "1.3-1.5 g/kg/day",
             "1.2 g/kg/day",
-            "1.3-1.5 g/kg/day"
+            "0.8-1.0 g/kg/day"
           ],
           correctAnswer: 2,
           explanation: "Hemodialysis patients require 1.2 g/kg/day of protein to compensate for dialysis losses."
@@ -2340,23 +2340,23 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the typical potassium restriction for dialysis patients?",
           options: [
             "1000-2000 mg/day",
+            "No restriction needed",
             "2000-3000 mg/day",
-            "3000-4000 mg/day",
-            "No restriction needed"
+            "3000-4000 mg/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Dialysis patients typically restrict potassium to 2000-3000 mg/day."
         },
         {
           id: 5,
           question: "By what percentage can boiling reduce potassium in vegetables?",
           options: [
+            "75-90%",
             "25-50%",
             "50-75%",
-            "75-90%",
             "No reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Boiling vegetables can reduce potassium content by 50-75% through leaching into cooking water."
         },
         {
@@ -2364,81 +2364,81 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What phosphorus restriction is recommended for CKD Stage 5 patients?",
           options: [
             "400-600 mg/day",
-            "600-800 mg/day",
             "800-1000 mg/day",
-            "1000-1200 mg/day"
+            "1000-1200 mg/day",
+            "600-800 mg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "CKD Stage 5 patients should restrict phosphorus to 800-1000 mg/day."
         },
         {
           id: 7,
           question: "What is the bioavailability of phosphorus from plant-based foods?",
           options: [
-            "10-30%",
-            "20-50%",
+            "70-90%",
             "50-70%",
-            "70-90%"
+            "20-50%",
+            "10-30%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Plant-based phosphorus has lower bioavailability (20-50%) compared to animal sources."
         },
         {
           id: 8,
           question: "What is the target interdialytic weight gain for hemodialysis patients?",
           options: [
-            "0.5-1.0 kg/day",
             "1.0-1.5 kg/day",
+            "0.5-1.0 kg/day",
             "1.5-2.0 kg/day",
             "2.0-2.5 kg/day"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Target interdialytic weight gain is 1.0-1.5 kg/day (3-4.5% of body weight)."
         },
         {
           id: 9,
           question: "What serum bicarbonate level should be maintained in CKD?",
           options: [
+            "≥22 mEq/L",
             "≥18 mEq/L",
             "≥20 mEq/L",
-            "≥22 mEq/L",
             "≥24 mEq/L"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Serum bicarbonate should be maintained at ≥22 mEq/L to prevent metabolic acidosis."
         },
         {
           id: 10,
           question: "What is the target hemoglobin range for ESA therapy in CKD?",
           options: [
+            "12-13 g/dL",
             "9-10 g/dL",
-            "10-11 g/dL",
             "11-12 g/dL",
-            "12-13 g/dL"
+            "10-11 g/dL"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ESA therapy should target hemoglobin 10-11 g/dL, avoiding levels above 11.5 g/dL."
         },
         {
           id: 11,
           question: "What ferritin level indicates absolute iron deficiency in hemodialysis patients?",
           options: [
-            "<50 ng/mL",
-            "<100 ng/mL",
+            "<300 ng/mL",
             "<200 ng/mL",
-            "<300 ng/mL"
+            "<50 ng/mL",
+            "<100 ng/mL"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "In hemodialysis patients, ferritin <100 ng/mL indicates absolute iron deficiency."
         },
         {
           id: 12,
           question: "How much protein do peritoneal dialysis patients typically lose per day?",
           options: [
-            "1-3 g/day",
+            "25-35 g/day",
             "5-15 g/day",
             "15-25 g/day",
-            "25-35 g/day"
+            "1-3 g/day"
           ],
           correctAnswer: 1,
           explanation: "Peritoneal dialysis patients lose 5-15 g of protein per day through dialysate."
@@ -2448,9 +2448,9 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What protein intake is recommended immediately post-kidney transplant?",
           options: [
             "1.0-1.2 g/kg/day",
-            "1.2-1.3 g/kg/day",
+            "1.5-2.0 g/kg/day",
             "1.3-1.5 g/kg/day",
-            "1.5-2.0 g/kg/day"
+            "1.2-1.3 g/kg/day"
           ],
           correctAnswer: 2,
           explanation: "Immediately post-transplant, patients need 1.3-1.5 g/kg/day for wound healing."
@@ -2459,48 +2459,48 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 14,
           question: "Which immunosuppressant has a grapefruit juice interaction?",
           options: [
+            "Azathioprine",
             "Prednisone",
-            "Cyclosporine/tacrolimus",
             "Mycophenolate",
-            "Azathioprine"
+            "Cyclosporine/tacrolimus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cyclosporine and tacrolimus levels are increased by grapefruit juice through CYP3A4 inhibition."
         },
         {
           id: 15,
           question: "What is the energy requirement for CKD patients under age 60?",
           options: [
-            "25-30 kcal/kg/day",
-            "30-35 kcal/kg/day",
+            "40 kcal/kg/day",
             "35 kcal/kg/day",
-            "40 kcal/kg/day"
+            "30-35 kcal/kg/day",
+            "25-30 kcal/kg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "CKD patients under age 60 require 35 kcal/kg/day for energy needs."
         },
         {
           id: 16,
           question: "What percentage of interdialytic weight gain is recommended?",
           options: [
-            "1-2% of body weight",
-            "3-4.5% of body weight",
             "5-6% of body weight",
-            "7-8% of body weight"
+            "1-2% of body weight",
+            "7-8% of body weight",
+            "3-4.5% of body weight"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Interdialytic weight gain should be limited to 3-4.5% of body weight."
         },
         {
           id: 17,
           question: "Which phosphorus binder is calcium-based?",
           options: [
-            "Sevelamer",
-            "Calcium acetate",
+            "Ferric citrate",
             "Lanthanum",
-            "Ferric citrate"
+            "Calcium acetate",
+            "Sevelamer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Calcium acetate is a calcium-based phosphorus binder taken with meals."
         },
         {
@@ -2508,35 +2508,35 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the target range for serum phosphorus in CKD-MBD?",
           options: [
             "2.5-4.0 mg/dL",
-            "3.5-5.5 mg/dL",
             "4.5-6.0 mg/dL",
+            "3.5-5.5 mg/dL",
             "5.5-7.0 mg/dL"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Target serum phosphorus range in CKD-MBD is 3.5-5.5 mg/dL."
         },
         {
           id: 19,
           question: "How many calories do peritoneal dialysis patients typically absorb from dialysate daily?",
           options: [
+            "400-500 kcal",
             "50-100 kcal",
             "150-300 kcal",
-            "400-500 kcal",
             "600-800 kcal"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Peritoneal dialysis patients absorb 150-300 kcal daily from glucose in dialysate."
         },
         {
           id: 20,
           question: "What HbA1c range is generally targeted in diabetes with CKD?",
           options: [
+            "8-9%",
             "6-7%",
             "7-8%",
-            "8-9%",
             "9-10%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "HbA1c target in diabetes with CKD is generally 7-8%, individualized to avoid hypoglycemia."
         }
       ]
@@ -2881,60 +2881,60 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 2,
           question: "Which stage of cachexia is characterized as catabolic and not responsive to treatment?",
           options: [
-            "Pre-cachexia",
             "Cachexia",
-            "Refractory cachexia",
-            "End-stage cachexia"
+            "Pre-cachexia",
+            "End-stage cachexia",
+            "Refractory cachexia"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Refractory cachexia is characterized as catabolic, not responsive to treatment, with survival typically <3 months."
         },
         {
           id: 3,
           question: "What is the recommended protein intake for post-surgical cancer patients?",
           options: [
-            "1.0-1.2 g/kg/day",
-            "1.2-1.5 g/kg/day",
+            "2.0-2.5 g/kg/day",
             "1.5-2.0 g/kg/day",
-            "2.0-2.5 g/kg/day"
+            "1.2-1.5 g/kg/day",
+            "1.0-1.2 g/kg/day"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Post-surgical cancer patients require 1.5-2.0 g/kg/day of protein for optimal wound healing."
         },
         {
           id: 4,
           question: "How many days of immunonutrition are recommended pre-operatively?",
           options: [
+            "5-7 days",
             "1-2 days",
             "3-4 days",
-            "5-7 days",
             "10-14 days"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Immunonutrition with arginine, omega-3 fatty acids, and nucleotides is recommended for 5-7 days pre-operatively."
         },
         {
           id: 5,
           question: "What dietary strategy helps manage chemotherapy-induced nausea?",
           options: [
+            "Drinking liquids with meals",
             "Hot, spicy foods",
-            "Cold, bland, dry foods",
             "Large, infrequent meals",
-            "Drinking liquids with meals"
+            "Cold, bland, dry foods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cold, bland, dry foods are often better tolerated during chemotherapy-induced nausea."
         },
         {
           id: 6,
           question: "Which supplement at 1-2 g/day may help with chemotherapy-induced nausea?",
           options: [
-            "Turmeric",
             "Ginger",
+            "Turmeric",
             "Garlic",
             "Cinnamon"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ginger at 1-2 g/day may help reduce chemotherapy-induced nausea."
         },
         {
@@ -2943,8 +2943,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           options: [
             "Insoluble fiber",
             "Soluble fiber",
-            "Resistant starch",
-            "All types of fiber"
+            "All types of fiber",
+            "Resistant starch"
           ],
           correctAnswer: 1,
           explanation: "Soluble fiber (oats, bananas, applesauce) can help manage treatment-related diarrhea."
@@ -2954,23 +2954,23 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What can reduce metallic taste when eating meats during cancer treatment?",
           options: [
             "Eating cold meats",
+            "Eating quickly",
             "Marinating meats",
-            "Adding extra salt",
-            "Eating quickly"
+            "Adding extra salt"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Marinating meats can help reduce metallic taste perception during cancer treatment."
         },
         {
           id: 9,
           question: "What percentage of head and neck cancer patients are malnourished at diagnosis?",
           options: [
-            "10-20%",
-            "20-30%",
             "30-50%",
-            "50-70%"
+            "50-70%",
+            "20-30%",
+            "10-20%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "30-50% of head and neck cancer patients are malnourished at diagnosis due to location effects."
         },
         {
@@ -2989,69 +2989,69 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 11,
           question: "What is the primary outcome measure in palliative care nutrition?",
           options: [
-            "Weight gain",
-            "Laboratory values",
+            "Survival time",
             "Quality of life",
-            "Survival time"
+            "Laboratory values",
+            "Weight gain"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "In palliative care, quality of life is the primary outcome measure for nutrition interventions."
         },
         {
           id: 12,
           question: "Which medication is commonly used as an appetite stimulant in palliative care?",
           options: [
+            "Loperamide",
             "Metoclopramide",
             "Megestrol acetate",
-            "Ondansetron",
-            "Loperamide"
+            "Ondansetron"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Megestrol acetate is commonly used as an appetite stimulant in palliative care settings."
         },
         {
           id: 13,
           question: "What is the risk of refeeding syndrome primarily related to?",
           options: [
-            "Rapid advancement of nutrition support in malnourished patients",
-            "Overhydration",
             "Excessive protein intake",
-            "Vitamin deficiencies"
+            "Overhydration",
+            "Vitamin deficiencies",
+            "Rapid advancement of nutrition support in malnourished patients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Refeeding syndrome risk comes from rapid advancement of nutrition support in severely malnourished patients, causing electrolyte shifts."
         },
         {
           id: 14,
           question: "Which electrolyte is most critically monitored during refeeding?",
           options: [
-            "Sodium",
-            "Potassium",
             "Phosphorus",
-            "Calcium"
+            "Potassium",
+            "Calcium",
+            "Sodium"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Phosphorus is the most critically monitored electrolyte during refeeding due to rapid intracellular shifts."
         },
         {
           id: 15,
           question: "What assessment tool is specifically designed for oncology patients?",
           options: [
-            "MUST",
             "PG-SGA",
             "NRS-2002",
+            "MUST",
             "MNA"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Patient-Generated Subjective Global Assessment (PG-SGA) is specifically designed for oncology patients."
         },
         {
           id: 16,
           question: "Which cytokine is NOT typically elevated in cancer cachexia?",
           options: [
-            "TNF-α",
-            "IL-1",
             "IL-6",
+            "IL-1",
+            "TNF-α",
             "IL-10"
           ],
           correctAnswer: 3,
@@ -3062,23 +3062,23 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is the recommended meal frequency for cancer patients with early satiety?",
           options: [
             "3 large meals",
-            "6-8 small meals",
+            "1 main meal with snacks",
             "2 meals with supplements",
-            "1 main meal with snacks"
+            "6-8 small meals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "6-8 small meals per day help manage early satiety in cancer patients."
         },
         {
           id: 18,
           question: "Which vitamin often requires supplementation after gastric cancer surgery?",
           options: [
-            "Vitamin A",
-            "Vitamin B12",
             "Vitamin C",
-            "Vitamin D"
+            "Vitamin A",
+            "Vitamin D",
+            "Vitamin B12"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Vitamin B12 requires intrinsic factor from the stomach for absorption, so supplementation is often needed after gastric surgery."
         },
         {
@@ -3086,9 +3086,9 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           question: "What is a common long-term effect of cancer treatments requiring nutritional management?",
           options: [
             "Metabolic syndrome",
-            "Hypervitaminosis",
             "Increased appetite",
-            "Weight gain only"
+            "Weight gain only",
+            "Hypervitaminosis"
           ],
           correctAnswer: 0,
           explanation: "Metabolic syndrome is a common long-term effect of many cancer treatments, requiring ongoing nutritional management."
@@ -3097,10 +3097,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
           id: 20,
           question: "Which eating pattern is emphasized in cancer survivorship?",
           options: [
-            "High-protein, low-carb",
+            "Intermittent fasting",
             "Plant-based diets",
             "Ketogenic diet",
-            "Intermittent fasting"
+            "High-protein, low-carb"
           ],
           correctAnswer: 1,
           explanation: "Plant-based diets with emphasis on fruits, vegetables, and whole grains are recommended for cancer survivorship."
@@ -3123,11 +3123,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "Which nutritional assessment component includes BMI and waist circumference measurements?",
         options: [
           "Biochemical assessment",
-          "Anthropometric assessment",
           "Clinical examination",
-          "Dietary evaluation"
+          "Dietary evaluation",
+          "Anthropometric assessment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Anthropometric assessment includes measurements like BMI, waist circumference, and body composition analysis.",
         module: 1
       },
@@ -3136,11 +3136,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "What prealbumin level indicates normal nutritional status?",
         options: [
           "5-10 mg/dL",
+          "65-85 mg/dL",
           "15-35 mg/dL",
-          "40-60 mg/dL",
-          "65-85 mg/dL"
+          "40-60 mg/dL"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Normal prealbumin range is 15-35 mg/dL, with lower levels indicating protein-energy malnutrition.",
         module: 1
       },
@@ -3148,12 +3148,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 3,
         question: "Which equation is considered most accurate for estimating resting metabolic rate?",
         options: [
-          "Harris-Benedict Equation",
-          "Mifflin-St Jeor Equation",
           "Schofield Equation",
-          "WHO Equation"
+          "Harris-Benedict Equation",
+          "WHO Equation",
+          "Mifflin-St Jeor Equation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "The Mifflin-St Jeor Equation is considered the most accurate for estimating RMR in most populations.",
         module: 1
       },
@@ -3161,9 +3161,9 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 4,
         question: "What percentage of unintentional weight loss in 6 months qualifies as GLIM phenotypic criteria?",
         options: [
-          ">2%",
-          ">5%",
           ">8%",
+          ">5%",
+          ">2%",
           ">10%"
         ],
         correctAnswer: 1,
@@ -3176,10 +3176,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         options: [
           "0.8-1.0 g/kg/day",
           "1.0-1.2 g/kg/day",
-          "1.2-1.5 g/kg/day",
-          "1.5-2.0 g/kg/day"
+          "1.5-2.0 g/kg/day",
+          "1.2-1.5 g/kg/day"
         ],
-        correctAnswer: 3,
+        correctAnswer: 2,
         explanation: "Severe stress conditions like burns require 1.5-2.0 g/kg/day of protein for optimal recovery.",
         module: 1
       },
@@ -3188,11 +3188,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "Using Holiday-Segar method, what's the fluid requirement for the first 10 kg of body weight?",
         options: [
           "50 mL/kg",
-          "100 mL/kg",
           "150 mL/kg",
-          "200 mL/kg"
+          "200 mL/kg",
+          "100 mL/kg"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Holiday-Segar method: First 10 kg = 100 mL/kg, next 10 kg = 50 mL/kg, remaining kg = 20 mL/kg.",
         module: 1
       },
@@ -3215,12 +3215,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 8,
         question: "What is the sodium restriction target in the DASH diet?",
         options: [
+          "<3000 mg/day",
           "<1000 mg/day",
           "<1500 mg/day",
-          "<2300 mg/day",
-          "<3000 mg/day"
+          "<2300 mg/day"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "DASH diet recommends <2300 mg sodium/day, with ideal target <1500 mg/day for greater benefits.",
         module: 2
       },
@@ -3228,9 +3228,9 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 9,
         question: "What is the optimal LDL cholesterol target for high-risk patients?",
         options: [
-          "<100 mg/dL",
-          "<70 mg/dL",
           "<130 mg/dL",
+          "<70 mg/dL",
+          "<100 mg/dL",
           "<160 mg/dL"
         ],
         correctAnswer: 1,
@@ -3241,12 +3241,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 10,
         question: "How many servings of vegetables are recommended daily in the DASH diet (2000 calorie plan)?",
         options: [
-          "2-3 servings",
-          "3-4 servings",
           "4-5 servings",
-          "5-6 servings"
+          "5-6 servings",
+          "3-4 servings",
+          "2-3 servings"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "DASH diet recommends 4-5 servings of vegetables daily on a 2000 calorie plan.",
         module: 2
       },
@@ -3254,12 +3254,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 11,
         question: "What dose of plant sterols/stanols is effective in the Portfolio Diet?",
         options: [
-          "1 g/day",
           "2 g/day",
-          "3 g/day",
-          "4 g/day"
+          "4 g/day",
+          "1 g/day",
+          "3 g/day"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Portfolio Diet includes 2 g/day of plant sterols/stanols to help reduce LDL cholesterol.",
         module: 2
       },
@@ -3267,9 +3267,9 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 12,
         question: "Which trial demonstrated 30% reduction in cardiovascular events with Mediterranean diet?",
         options: [
-          "DASH trial",
-          "PREDIMED",
           "Lyon Diet Heart Study",
+          "PREDIMED",
+          "DASH trial",
           "Portfolio Diet Study"
         ],
         correctAnswer: 1,
@@ -3280,12 +3280,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 13,
         question: "What waist circumference indicates increased risk for metabolic syndrome in women?",
         options: [
-          ">80 cm",
-          ">88 cm",
           ">94 cm",
-          ">102 cm"
+          ">102 cm",
+          ">80 cm",
+          ">88 cm"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Waist circumference >88 cm indicates increased risk for metabolic syndrome in women.",
         module: 2
       },
@@ -3293,12 +3293,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 14,
         question: "What percentage of body weight loss significantly improves metabolic syndrome parameters?",
         options: [
-          "1-3%",
-          "3-5%",
           "5-10%",
-          "10-15%"
+          "10-15%",
+          "3-5%",
+          "1-3%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "5-10% body weight loss significantly improves all metabolic syndrome parameters.",
         module: 2
       },
@@ -3308,12 +3308,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 15,
         question: "What HbA1c level defines diabetes diagnosis?",
         options: [
+          "≥7.0%",
           "≥5.7%",
           "≥6.0%",
-          "≥6.5%",
-          "≥7.0%"
+          "≥6.5%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Diabetes is diagnosed at HbA1c ≥6.5% according to ADA criteria.",
         module: 3
       },
@@ -3321,8 +3321,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 16,
         question: "How many grams of carbohydrates equal one carbohydrate choice?",
         options: [
-          "5 g",
           "10 g",
+          "5 g",
           "15 g",
           "20 g"
         ],
@@ -3334,8 +3334,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 17,
         question: "What is the 'Rule of 15' used for in diabetes management?",
         options: [
-          "Weight loss calculation",
           "Carbohydrate counting",
+          "Weight loss calculation",
           "Hypoglycemia treatment",
           "Insulin dosing"
         ],
@@ -3348,11 +3348,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "What is the initial weight loss goal for type 2 diabetes management?",
         options: [
           "2-3%",
-          "5-7%",
           "8-10%",
-          "10-15%"
+          "10-15%",
+          "5-7%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Initial weight loss goal for type 2 diabetes is 5-7% of body weight.",
         module: 3
       },
@@ -3361,11 +3361,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "What protein intake is recommended for diabetic kidney disease?",
         options: [
           "0.6 g/kg/day minimum",
-          "0.8 g/kg/day",
+          "1.2 g/kg/day",
           "1.0 g/kg/day",
-          "1.2 g/kg/day"
+          "0.8 g/kg/day"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Diabetic kidney disease management typically includes protein restriction to 0.8 g/kg/day.",
         module: 3
       },
@@ -3373,12 +3373,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 20,
         question: "Which vitamin deficiency is associated with long-term metformin use?",
         options: [
-          "Vitamin C",
           "Vitamin B12",
-          "Vitamin D",
-          "Vitamin K"
+          "Vitamin K",
+          "Vitamin C",
+          "Vitamin D"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Long-term metformin use is associated with vitamin B12 deficiency requiring monitoring.",
         module: 3
       },
@@ -3386,12 +3386,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 21,
         question: "What is the target time in range for continuous glucose monitoring?",
         options: [
-          ">50%",
-          ">60%",
+          ">80%",
           ">70%",
-          ">80%"
+          ">60%",
+          ">50%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Time in range target is >70% (glucose 70-180 mg/dL) for optimal diabetes control.",
         module: 3
       },
@@ -3402,9 +3402,9 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "How long before bedtime should GERD patients avoid eating?",
         options: [
           "1 hour",
-          "2 hours",
+          "4 hours",
           "3 hours",
-          "4 hours"
+          "2 hours"
         ],
         correctAnswer: 2,
         explanation: "GERD patients should avoid eating within 3 hours of bedtime to reduce nighttime symptoms.",
@@ -3414,12 +3414,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 23,
         question: "What is the gluten-free threshold defined as in ppm?",
         options: [
-          "<5 ppm",
+          "<50 ppm",
           "<10 ppm",
-          "<20 ppm",
-          "<50 ppm"
+          "<5 ppm",
+          "<20 ppm"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Gluten-free is defined as containing less than 20 parts per million of gluten.",
         module: 4
       },
@@ -3427,12 +3427,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 24,
         question: "How long is the elimination phase of the low FODMAP diet?",
         options: [
-          "1-2 weeks",
-          "2-6 weeks",
+          "8-12 weeks",
           "6-8 weeks",
-          "8-12 weeks"
+          "2-6 weeks",
+          "1-2 weeks"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Elimination phase of low FODMAP diet typically lasts 2-6 weeks.",
         module: 4
       },
@@ -3440,12 +3440,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 25,
         question: "What protein intake is recommended for cirrhosis patients?",
         options: [
-          "0.8-1.0 g/kg/day",
-          "1.0-1.2 g/kg/day",
+          "1.5-2.0 g/kg/day",
           "1.2-1.5 g/kg/day",
-          "1.5-2.0 g/kg/day"
+          "1.0-1.2 g/kg/day",
+          "0.8-1.0 g/kg/day"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Cirrhosis patients require 1.2-1.5 g/kg/day of protein to prevent muscle wasting.",
         module: 4
       },
@@ -3453,10 +3453,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 26,
         question: "Which pancreatic enzyme dose range is typical for meals?",
         options: [
-          "100-500 lipase units/kg/meal",
+          "5000-7500 lipase units/kg/meal",
           "500-2500 lipase units/kg/meal",
           "2500-5000 lipase units/kg/meal",
-          "5000-7500 lipase units/kg/meal"
+          "100-500 lipase units/kg/meal"
         ],
         correctAnswer: 1,
         explanation: "Typical pancreatic enzyme dosing is 500-2500 lipase units/kg/meal.",
@@ -3466,10 +3466,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 27,
         question: "What is the minimum symptom duration for IBS diagnosis?",
         options: [
-          "3 months",
-          "6 months",
           "9 months",
-          "12 months"
+          "6 months",
+          "12 months",
+          "3 months"
         ],
         correctAnswer: 1,
         explanation: "Rome IV criteria require symptoms for at least 6 months for IBS diagnosis.",
@@ -3481,12 +3481,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 28,
         question: "What protein intake is recommended for pre-dialysis CKD?",
         options: [
-          "0.4-0.6 g/kg/day",
           "0.6-0.8 g/kg/day",
+          "1.0-1.2 g/kg/day",
           "0.8-1.0 g/kg/day",
-          "1.0-1.2 g/kg/day"
+          "0.4-0.6 g/kg/day"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Pre-dialysis CKD patients should consume 0.6-0.8 g/kg/day of protein.",
         module: 5
       },
@@ -3494,12 +3494,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 29,
         question: "What is the typical potassium restriction for dialysis patients?",
         options: [
+          "No restriction",
           "1000-2000 mg/day",
           "2000-3000 mg/day",
-          "3000-4000 mg/day",
-          "No restriction"
+          "3000-4000 mg/day"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Dialysis patients typically restrict potassium to 2000-3000 mg/day.",
         module: 5
       },
@@ -3507,8 +3507,8 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 30,
         question: "What phosphorus restriction is recommended for CKD Stage 5?",
         options: [
-          "400-600 mg/day",
           "600-800 mg/day",
+          "400-600 mg/day",
           "800-1000 mg/day",
           "1000-1200 mg/day"
         ],
@@ -3533,10 +3533,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 32,
         question: "What is the target hemoglobin range for ESA therapy?",
         options: [
-          "9-10 g/dL",
+          "12-13 g/dL",
           "10-11 g/dL",
-          "11-12 g/dL",
-          "12-13 g/dL"
+          "9-10 g/dL",
+          "11-12 g/dL"
         ],
         correctAnswer: 1,
         explanation: "ESA therapy should target hemoglobin 10-11 g/dL in CKD patients.",
@@ -3548,10 +3548,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         options: [
           "1.0-1.2 g/kg/day",
           "1.2-1.3 g/kg/day",
-          "1.3-1.5 g/kg/day",
-          "1.5-2.0 g/kg/day"
+          "1.5-2.0 g/kg/day",
+          "1.3-1.5 g/kg/day"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Immediately post-transplant, patients need 1.3-1.5 g/kg/day for wound healing.",
         module: 5
       },
@@ -3559,12 +3559,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 34,
         question: "What HbA1c range is targeted in diabetes with CKD?",
         options: [
-          "6-7%",
-          "7-8%",
           "8-9%",
-          "9-10%"
+          "9-10%",
+          "7-8%",
+          "6-7%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "HbA1c target in diabetes with CKD is generally 7-8%, individualized.",
         module: 5
       },
@@ -3576,10 +3576,10 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         options: [
           ">2%",
           ">3%",
-          ">5%",
-          ">7%"
+          ">7%",
+          ">5%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Cancer cachexia is defined as involuntary weight loss >5% over 6 months.",
         module: 6
       },
@@ -3587,12 +3587,12 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         id: 36,
         question: "What protein intake is recommended post-cancer surgery?",
         options: [
-          "1.0-1.2 g/kg/day",
-          "1.2-1.5 g/kg/day",
           "1.5-2.0 g/kg/day",
-          "2.0-2.5 g/kg/day"
+          "1.0-1.2 g/kg/day",
+          "2.0-2.5 g/kg/day",
+          "1.2-1.5 g/kg/day"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Post-surgical cancer patients require 1.5-2.0 g/kg/day for wound healing.",
         module: 6
       },
@@ -3601,11 +3601,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "Which supplement may help chemotherapy-induced nausea?",
         options: [
           "Turmeric",
-          "Ginger",
           "Garlic",
-          "Cinnamon"
+          "Cinnamon",
+          "Ginger"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Ginger at 1-2 g/day may help reduce chemotherapy-induced nausea.",
         module: 6
       },
@@ -3627,11 +3627,11 @@ Example: "Inadequate oral intake (P) related to chemotherapy-induced nausea (E) 
         question: "What is the primary outcome in palliative care nutrition?",
         options: [
           "Weight gain",
+          "Survival time",
           "Laboratory values",
-          "Quality of life",
-          "Survival time"
+          "Quality of life"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "In palliative care, quality of life is the primary outcome measure.",
         module: 6
       },

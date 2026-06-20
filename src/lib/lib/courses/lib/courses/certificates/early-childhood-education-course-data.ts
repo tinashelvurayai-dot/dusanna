@@ -320,10 +320,10 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           id: 1,
           question: "How many major curriculum models are covered in early childhood education?",
           options: [
-            "3 models",
+            "6 models",
             "4 models",
             "5 models",
-            "6 models"
+            "3 models"
           ],
           correctAnswer: 2,
           explanation: "Five major curriculum models are discussed: Montessori, Reggio Emilia, HighScope, Bank Street, and Creative Curriculum."
@@ -332,9 +332,9 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           id: 2,
           question: "How many Montessori schools exist worldwide?",
           options: [
-            "5,000+",
-            "10,000+",
             "15,000+",
+            "10,000+",
+            "5,000+",
             "20,000+"
           ],
           correctAnswer: 3,
@@ -344,24 +344,24 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           id: 3,
           question: "What percentage higher were high school graduation rates for HighScope participants?",
           options: [
+            "28%",
             "15%",
             "20%",
-            "23%",
-            "28%"
+            "23%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "HighScope participants showed 23% higher high school graduation rates according to the Perry Preschool Study."
         },
         {
           id: 4,
           question: "What percentage of U.S. Head Start programs use Creative Curriculum?",
           options: [
-            "30%",
-            "40%",
+            "60%",
             "50%",
-            "60%"
+            "30%",
+            "40%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Creative Curriculum is used in approximately 50% of U.S. Head Start programs."
         },
         {
@@ -369,9 +369,9 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           question: "By what percentage does DAP reduce achievement gaps when consistently implemented?",
           options: [
             "15-25%",
-            "20-30%",
+            "30-35%",
             "25-30%",
-            "30-35%"
+            "20-30%"
           ],
           correctAnswer: 2,
           explanation: "Developmentally Appropriate Practice reduces achievement gaps by 25-30% when consistently implemented."
@@ -380,8 +380,8 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           id: 6,
           question: "How many states have early learning guidelines?",
           options: [
-            "45 states",
             "48 states",
+            "45 states",
             "50 states",
             "50 states plus D.C."
           ],
@@ -404,24 +404,24 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           id: 8,
           question: "By what percentage do learning centers increase time on task?",
           options: [
-            "30%",
-            "35%",
+            "45%",
             "40%",
-            "45%"
+            "35%",
+            "30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Learning centers increase children's time on task by approximately 40%."
         },
         {
           id: 9,
           question: "What percentage of classroom books should feature diverse characters?",
           options: [
+            "45%",
             "30%",
             "35%",
-            "40%",
-            "45%"
+            "40%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "At least 40% of classroom books should feature diverse characters to promote inclusion."
         },
         {
@@ -440,24 +440,24 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           id: 11,
           question: "How many levels of differentiation are identified for diverse learners?",
           options: [
+            "4 levels",
             "2 levels",
             "3 levels",
-            "4 levels",
             "5 levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Three levels of differentiation are identified: content, process, and product."
         },
         {
           id: 12,
           question: "How many components are in Epstein's family involvement framework?",
           options: [
-            "4 components",
             "5 components",
             "6 components",
+            "4 components",
             "7 components"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Epstein's framework includes six types of family involvement: parenting, communicating, volunteering, learning at home, decision-making, and community collaboration."
         },
         {
@@ -465,11 +465,11 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           question: "By what percentage does strong family engagement increase school readiness?",
           options: [
             "25%",
-            "30%",
+            "40%",
             "35%",
-            "40%"
+            "30%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strong family engagement increases school readiness scores by approximately 30%."
         },
         {
@@ -488,48 +488,48 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           id: 15,
           question: "How many principles guide culturally responsive teaching?",
           options: [
-            "4 principles",
-            "5 principles",
+            "7 principles",
             "6 principles",
-            "7 principles"
+            "5 principles",
+            "4 principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Five principles guide culturally responsive teaching, including positive perspectives and learning within cultural context."
         },
         {
           id: 16,
           question: "How many means are identified in Universal Design for Learning?",
           options: [
-            "2 means",
-            "3 means",
+            "5 means",
             "4 means",
-            "5 means"
+            "3 means",
+            "2 means"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "UDL includes three means: engagement, representation, and action/expression."
         },
         {
           id: 17,
           question: "What is the maximum recommended daily screen time for ages 2-5?",
           options: [
-            "20 minutes",
             "30 minutes",
+            "60 minutes",
             "45 minutes",
-            "60 minutes"
+            "20 minutes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Maximum recommended screen time for children ages 2-5 is 30 minutes per day in educational settings."
         },
         {
           id: 18,
           question: "By what percentage does digital documentation increase family engagement?",
           options: [
-            "50%",
-            "55%",
+            "65%",
             "60%",
-            "65%"
+            "55%",
+            "50%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Digital documentation increases family engagement by approximately 60%."
         },
         {
@@ -538,22 +538,22 @@ Advanced curriculum design requires balancing theoretical foundations with pract
           options: [
             "15 maximum",
             "18 maximum",
-            "20 maximum",
-            "22 maximum"
+            "22 maximum",
+            "20 maximum"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "NAEYC recommends maximum group size of 20 for four- and five-year-olds with 1:10 ratio."
         },
         {
           id: 20,
           question: "How many studies support Creative Curriculum effectiveness?",
           options: [
+            "38 studies",
             "25 studies",
             "30 studies",
-            "35 studies",
-            "38 studies"
+            "35 studies"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Creative Curriculum is supported by 38 research studies demonstrating its effectiveness."
         }
       ]
@@ -921,21 +921,21 @@ Effective assessment in early childhood requires a comprehensive, ethical approa
           question: "How many primary purposes of assessment are identified in early childhood education?",
           options: [
             "4 purposes",
-            "5 purposes",
             "6 purposes",
-            "7 purposes"
+            "7 purposes",
+            "5 purposes"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Six primary purposes are identified: instructional planning, individualization, program evaluation, screening, diagnosis, and progress monitoring."
         },
         {
           id: 2,
           question: "What percentage of U.S. preschool programs use Teaching Strategies GOLD?",
           options: [
-            "30%",
+            "45%",
             "35%",
             "40%",
-            "45%"
+            "30%"
           ],
           correctAnswer: 2,
           explanation: "Approximately 40% of U.S. preschool programs use Teaching Strategies GOLD assessment system."
@@ -956,34 +956,34 @@ Effective assessment in early childhood requires a comprehensive, ethical approa
           id: 4,
           question: "How many times should all children be screened before kindergarten?",
           options: [
-            "2 times",
             "3 times",
+            "2 times",
             "4 times",
             "5 times"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "All children should be screened at least 3 times before kindergarten entry."
         },
         {
           id: 5,
           question: "What inter-rater reliability is required for assessment checklists?",
           options: [
-            "0.70+",
-            "0.75+",
+            "0.85+",
             "0.80+",
-            "0.85+"
+            "0.75+",
+            "0.70+"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Inter-rater reliability of 0.80 or higher is typically required for reliable assessment checklists."
         },
         {
           id: 6,
           question: "How many types of portfolios are identified for assessment?",
           options: [
-            "2 types",
-            "3 types",
             "4 types",
-            "5 types"
+            "3 types",
+            "5 types",
+            "2 types"
           ],
           correctAnswer: 1,
           explanation: "Three types of portfolios are identified: working, showcase, and assessment portfolios."
@@ -992,12 +992,12 @@ Effective assessment in early childhood requires a comprehensive, ethical approa
           id: 7,
           question: "What is the annual increase in digital portfolio usage in early childhood programs?",
           options: [
-            "15%",
-            "20%",
             "25%",
+            "20%",
+            "15%",
             "30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Digital portfolio usage is increasing by approximately 25% annually in early childhood programs."
         },
         {
@@ -1005,9 +1005,9 @@ Effective assessment in early childhood requires a comprehensive, ethical approa
           question: "How many steps are in the data-driven instruction cycle?",
           options: [
             "4 steps",
-            "5 steps",
+            "7 steps",
             "6 steps",
-            "7 steps"
+            "5 steps"
           ],
           correctAnswer: 2,
           explanation: "The data-driven instruction cycle includes six steps: assess, analyze, plan, implement, evaluate, and adjust."
@@ -1016,20 +1016,20 @@ Effective assessment in early childhood requires a comprehensive, ethical approa
           id: 9,
           question: "How many principles guide collaborative assessment with families?",
           options: [
-            "3 principles",
             "4 principles",
+            "6 principles",
             "5 principles",
-            "6 principles"
+            "3 principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Four principles guide collaborative assessment: respect, reciprocity, responsiveness, and communication."
         },
         {
           id: 10,
           question: "How many items are in the ECERS-3 rating scale?",
           options: [
-            "30 items",
             "33 items",
+            "30 items",
             "35 items",
             "38 items"
           ],
@@ -1053,83 +1053,83 @@ Effective assessment in early childhood requires a comprehensive, ethical approa
           question: "How many standards does NAEYC accreditation include?",
           options: [
             "8 standards",
-            "9 standards",
             "10 standards",
+            "9 standards",
             "11 standards"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "NAEYC accreditation includes 10 standards with over 400 specific criteria."
         },
         {
           id: 13,
           question: "How many observation cycles are recommended for CLASS assessment?",
           options: [
-            "3 cycles of 15 minutes",
-            "4 cycles of 20 minutes",
             "5 cycles of 15 minutes",
-            "6 cycles of 10 minutes"
+            "3 cycles of 15 minutes",
+            "6 cycles of 10 minutes",
+            "4 cycles of 20 minutes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CLASS assessment typically involves 4 observation cycles of 20 minutes each."
         },
         {
           id: 14,
           question: "What is the scoring range for ECERS rating scales?",
           options: [
-            "1-5 scale",
+            "1-10 scale",
             "1-6 scale",
-            "1-7 scale",
-            "1-10 scale"
+            "1-5 scale",
+            "1-7 scale"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "ECERS uses a 1-7 scoring scale from inadequate to excellent quality."
         },
         {
           id: 15,
           question: "How many anecdotal records should be collected per child weekly?",
           options: [
-            "2-3 records",
-            "3-5 records",
             "5-7 records",
-            "7-10 records"
+            "7-10 records",
+            "2-3 records",
+            "3-5 records"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Teachers should aim for 3-5 anecdotal records per child weekly for comprehensive assessment."
         },
         {
           id: 16,
           question: "What percentage of classification accuracy do Brigance screens achieve?",
           options: [
-            "80-85%",
-            "85-90%",
             "90-95%",
-            "95-98%"
+            "95-98%",
+            "80-85%",
+            "85-90%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Brigance Early Childhood Screens achieve 85-90% classification accuracy."
         },
         {
           id: 17,
           question: "How many domains does the ASQ assess?",
           options: [
-            "4 domains",
             "5 domains",
+            "4 domains",
             "6 domains",
             "7 domains"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Ages and Stages Questionnaire assesses 5 domains of development."
         },
         {
           id: 18,
           question: "What correlation does Work Sampling show with standardized tests?",
           options: [
-            "0.60",
-            "0.65",
+            "0.75",
             "0.70",
-            "0.75"
+            "0.60",
+            "0.65"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Work Sampling System shows a 0.70 correlation with standardized achievement tests."
         },
         {
@@ -1137,23 +1137,23 @@ Effective assessment in early childhood requires a comprehensive, ethical approa
           question: "How many items are in the HighScope Child Observation Record?",
           options: [
             "30 items",
-            "32 items",
             "34 items",
-            "36 items"
+            "36 items",
+            "32 items"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The HighScope COR includes 34 items across 6 categories of development."
         },
         {
           id: 20,
           question: "How many hours of initial training are recommended for digital assessment systems?",
           options: [
+            "15-20 hours",
             "5-10 hours",
             "10-15 hours",
-            "15-20 hours",
             "20-25 hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "10-15 hours of initial training are recommended for effective implementation of digital assessment systems."
         }
       ]
@@ -1519,82 +1519,82 @@ Inclusive practices require a comprehensive approach that combines knowledge of 
           id: 1,
           question: "How many disability categories are eligible for services under IDEA?",
           options: [
-            "10 categories",
-            "11 categories",
             "12 categories",
-            "13 categories"
+            "13 categories",
+            "10 categories",
+            "11 categories"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "IDEA recognizes 13 disability categories eligible for special education services."
         },
         {
           id: 2,
           question: "What percentage of children with disabilities are served in regular classrooms?",
           options: [
-            "85%",
-            "90%",
             "95%",
-            "98%"
+            "90%",
+            "98%",
+            "85%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately 95% of children with disabilities are educated in regular classrooms for at least part of the day."
         },
         {
           id: 3,
           question: "By what percentage do academic outcomes improve for children in inclusive settings?",
           options: [
+            "25-30%",
             "15-25%",
             "20-30%",
-            "25-30%",
             "30-35%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Children with disabilities show 25-30% better academic outcomes in inclusive settings compared to segregated settings."
         },
         {
           id: 4,
           question: "What is the most common disability among young children?",
           options: [
-            "Autism spectrum disorder",
             "Developmental delay",
-            "Speech/language impairments",
-            "Intellectual disability"
+            "Autism spectrum disorder",
+            "Intellectual disability",
+            "Speech/language impairments"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Speech and language impairments affect 4.5% of young children, making them the most common disability."
         },
         {
           id: 5,
           question: "What percentage of families prefer inclusive settings for their children?",
           options: [
-            "65%",
-            "70%",
             "75%",
-            "80%"
+            "65%",
+            "80%",
+            "70%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately 75% of families prefer inclusive educational settings for their children with disabilities."
         },
         {
           id: 6,
           question: "How many principles guide Universal Design for Learning?",
           options: [
-            "2 principles",
             "3 principles",
             "4 principles",
-            "5 principles"
+            "5 principles",
+            "2 principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "UDL is based on three principles: multiple means of engagement, representation, and action/expression."
         },
         {
           id: 7,
           question: "When should transition planning begin for children moving from early intervention to preschool?",
           options: [
-            "6 months before third birthday",
-            "90 days before third birthday",
             "At second birthday",
-            "At 30 months"
+            "90 days before third birthday",
+            "At 30 months",
+            "6 months before third birthday"
           ],
           correctAnswer: 1,
           explanation: "Transition planning must begin at least 90 days before a child's third birthday when moving from early intervention to preschool."
@@ -1603,60 +1603,60 @@ Inclusive practices require a comprehensive approach that combines knowledge of 
           id: 8,
           question: "How many required members are on an IEP team?",
           options: [
+            "7 members",
             "5 members",
             "6 members",
-            "7 members",
             "8 members"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "IDEA requires at least 6 members on an IEP team: parents, regular education teacher, special education teacher, district representative, evaluation interpreter, and the child when appropriate."
         },
         {
           id: 9,
           question: "What percentage more peer interactions do children experience in inclusive settings?",
           options: [
+            "45%",
             "30%",
             "35%",
-            "40%",
-            "45%"
+            "40%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Children with disabilities experience 40% more peer interactions in inclusive settings compared to segregated settings."
         },
         {
           id: 10,
           question: "How many principles guide family-centered practices?",
           options: [
-            "5 principles",
             "6 principles",
-            "7 principles",
-            "8 principles"
+            "8 principles",
+            "5 principles",
+            "7 principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Six principles guide family-centered practices: respect, choice, flexibility, information, support, and collaboration."
         },
         {
           id: 11,
           question: "What percentage of typically developing children show reduced prejudice from inclusive experiences?",
           options: [
+            "50%",
             "35%",
             "40%",
-            "45%",
-            "50%"
+            "45%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Typically developing children show 45% more positive attitudes toward differences after inclusive educational experiences."
         },
         {
           id: 12,
           question: "How many children are served under IDEA nationwide?",
           options: [
-            "5.5 million",
-            "6.2 million",
+            "7.1 million",
             "6.7 million",
-            "7.1 million"
+            "6.2 million",
+            "5.5 million"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Approximately 6.7 million children receive special education services under IDEA."
         },
         {
@@ -1676,20 +1676,20 @@ Inclusive practices require a comprehensive approach that combines knowledge of 
           question: "How many collaboration approaches are identified for team support?",
           options: [
             "3 approaches",
-            "4 approaches",
             "5 approaches",
-            "6 approaches"
+            "6 approaches",
+            "4 approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Four collaboration approaches are identified: consultation, co-teaching, teaming, and integrated therapy."
         },
         {
           id: 15,
           question: "What percentage greater language gains do children achieve in inclusive settings?",
           options: [
-            "30%",
-            "35%",
             "40%",
+            "35%",
+            "30%",
             "45%"
           ],
           correctAnswer: 1,
@@ -1699,12 +1699,12 @@ Inclusive practices require a comprehensive approach that combines knowledge of 
           id: 16,
           question: "How many U.S. laws specifically support inclusion in education?",
           options: [
-            "2 laws",
             "3 laws",
             "4 laws",
-            "5 laws"
+            "5 laws",
+            "2 laws"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Four key laws support inclusion: Education for All Handicapped Children Act, IDEA, ADA, and Section 504."
         },
         {
@@ -1713,20 +1713,20 @@ Inclusive practices require a comprehensive approach that combines knowledge of 
           options: [
             "2.0%",
             "2.5%",
-            "2.8%",
-            "3.2%"
+            "3.2%",
+            "2.8%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Developmental delay affects approximately 2.8% of young children."
         },
         {
           id: 18,
           question: "How many means of engagement are identified in the UDL framework?",
           options: [
-            "2 means",
+            "5 means",
             "3 means",
             "4 means",
-            "5 means"
+            "2 means"
           ],
           correctAnswer: 1,
           explanation: "UDL identifies three means of engagement: recruiting interest, sustaining effort, and self-regulation."
@@ -1737,8 +1737,8 @@ Inclusive practices require a comprehensive approach that combines knowledge of 
           options: [
             "25%",
             "30%",
-            "35%",
-            "40%"
+            "40%",
+            "35%"
           ],
           correctAnswer: 1,
           explanation: "Typically developing children show 30% higher perspective-taking skills from inclusive experiences."
@@ -1748,11 +1748,11 @@ Inclusive practices require a comprehensive approach that combines knowledge of 
           question: "Under which part of IDEA are children birth-2 served?",
           options: [
             "Part A",
-            "Part B",
             "Part C",
+            "Part B",
             "Part D"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Children birth-2 with disabilities are served under IDEA Part C (early intervention services)."
         }
       ]
@@ -2133,8 +2133,8 @@ Effective leadership in early childhood education requires balancing administrat
           options: [
             "4 styles",
             "5 styles",
-            "6 styles",
-            "7 styles"
+            "7 styles",
+            "6 styles"
           ],
           correctAnswer: 1,
           explanation: "Five leadership styles are discussed: transformational, servant, distributed, instructional, and transactional."
@@ -2143,24 +2143,24 @@ Effective leadership in early childhood education requires balancing administrat
           id: 2,
           question: "By what percentage does transformational leadership improve staff retention?",
           options: [
-            "20%",
             "25%",
+            "20%",
             "30%",
             "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transformational leadership improves staff retention by approximately 25%."
         },
         {
           id: 3,
           question: "What percentage of program quality variance is accounted for by leadership?",
           options: [
-            "20%",
             "25%",
             "30%",
+            "20%",
             "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Leadership accounts for approximately 25% of program quality variance."
         },
         {
@@ -2168,59 +2168,59 @@ Effective leadership in early childhood education requires balancing administrat
           question: "What percentage of early childhood program expenses typically go to personnel?",
           options: [
             "55-65%",
+            "70-80%",
             "60-70%",
-            "65-75%",
-            "70-80%"
+            "65-75%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Personnel expenses typically account for 65-75% of early childhood program budgets."
         },
         {
           id: 5,
           question: "What is the national average annual turnover rate in early childhood?",
           options: [
-            "25%",
             "30%",
+            "25%",
             "35%",
             "40%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The national average annual turnover rate in early childhood education is approximately 30%."
         },
         {
           id: 6,
           question: "How many program standards does NAEYC accreditation include?",
           options: [
-            "8 standards",
             "9 standards",
             "10 standards",
+            "8 standards",
             "11 standards"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "NAEYC accreditation includes 10 program standards covering all aspects of quality."
         },
         {
           id: 7,
           question: "By what percentage are child outcomes better in NAEYC-accredited programs?",
           options: [
+            "30%",
             "20%",
             "25%",
-            "30%",
             "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Children in NAEYC-accredited programs show 25% better developmental outcomes."
         },
         {
           id: 8,
           question: "How many states have Quality Rating Improvement Systems?",
           options: [
-            "47 states",
             "48 states",
             "49 states",
-            "All 50 states"
+            "All 50 states",
+            "47 states"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "49 states and the District of Columbia have implemented Quality Rating Improvement Systems."
         },
         {
@@ -2239,58 +2239,58 @@ Effective leadership in early childhood education requires balancing administrat
           id: 10,
           question: "What percentage of programs utilize classroom volunteers regularly?",
           options: [
-            "60%",
-            "65%",
             "70%",
+            "65%",
+            "60%",
             "75%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately 70% of early childhood programs utilize classroom volunteers regularly."
         },
         {
           id: 11,
           question: "What percentage of the operating budget should be allocated to professional development?",
           options: [
-            "0.5-1%",
             "1-3%",
+            "0.5-1%",
             "3-5%",
             "5-7%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "NAEYC recommends allocating 1-3% of operating budget to professional development."
         },
         {
           id: 12,
           question: "How many levels are typically in early childhood career lattices?",
           options: [
+            "7 levels",
             "4 levels",
             "5 levels",
-            "6 levels",
-            "7 levels"
+            "6 levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Early childhood career lattices typically include 5 levels from entry level to expert."
         },
         {
           id: 13,
           question: "What is the economic return on investment in early childhood education?",
           options: [
-            "$2-4 per $1 invested",
-            "$3-6 per $1 invested",
             "$4-9 per $1 invested",
-            "$5-12 per $1 invested"
+            "$2-4 per $1 invested",
+            "$5-12 per $1 invested",
+            "$3-6 per $1 invested"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Research shows $4-9 return for every $1 invested in high-quality early childhood education."
         },
         {
           id: 14,
           question: "How many principles guide the NAEYC Code of Ethical Conduct?",
           options: [
-            "3 principles",
+            "6 principles",
             "4 principles",
-            "5 principles",
-            "6 principles"
+            "3 principles",
+            "5 principles"
           ],
           correctAnswer: 1,
           explanation: "The NAEYC Code includes four ethical principles: responsibilities to children, families, colleagues, and community/society."
@@ -2299,34 +2299,34 @@ Effective leadership in early childhood education requires balancing administrat
           id: 15,
           question: "What percentage of leaders have bachelor's degrees or higher?",
           options: [
-            "75%",
-            "80%",
+            "90%",
             "85%",
-            "90%"
+            "75%",
+            "80%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Approximately 85% of early childhood program leaders have bachelor's degrees or higher."
         },
         {
           id: 16,
           question: "What is the average cost to replace a teacher?",
           options: [
-            "$2,000-$4,000",
             "$3,000-$6,000",
-            "$4,000-$8,000",
-            "$5,000-$10,000"
+            "$5,000-$10,000",
+            "$2,000-$4,000",
+            "$4,000-$8,000"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The average cost to replace an early childhood teacher ranges from $4,000 to $8,000."
         },
         {
           id: 17,
           question: "How many steps are in the ethical dilemma resolution process?",
           options: [
-            "5 steps",
+            "8 steps",
             "6 steps",
             "7 steps",
-            "8 steps"
+            "5 steps"
           ],
           correctAnswer: 1,
           explanation: "The ethical dilemma resolution process includes six steps from problem identification to implementation."
@@ -2335,22 +2335,22 @@ Effective leadership in early childhood education requires balancing administrat
           id: 18,
           question: "What percentage of programs offer sliding scale tuition?",
           options: [
-            "25%",
-            "30%",
             "35%",
-            "40%"
+            "40%",
+            "25%",
+            "30%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately 30% of early childhood programs offer sliding scale tuition based on family income."
         },
         {
           id: 19,
           question: "How many leadership competencies does NAEYC identify?",
           options: [
-            "4 competencies",
+            "7 competencies",
             "5 competencies",
             "6 competencies",
-            "7 competencies"
+            "4 competencies"
           ],
           correctAnswer: 1,
           explanation: "NAEYC identifies five leadership competencies: visionary, managerial, relational, advocacy, and instructional."
@@ -2360,11 +2360,11 @@ Effective leadership in early childhood education requires balancing administrat
           question: "What percentage of quality improvement initiatives move programs up QRIS tiers annually?",
           options: [
             "15-30%",
-            "20-35%",
             "25-40%",
-            "30-45%"
+            "30-45%",
+            "20-35%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Approximately 25-40% of quality improvement initiatives successfully move programs up QRIS tiers annually."
         }
       ]
@@ -2786,35 +2786,35 @@ Family and community partnerships are essential for comprehensive early childhoo
           question: "How many types of family involvement does Epstein's framework include?",
           options: [
             "5 types",
+            "8 types",
             "6 types",
-            "7 types",
-            "8 types"
+            "7 types"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Epstein's framework includes six types of family involvement: parenting, communicating, volunteering, learning at home, decision-making, and community collaboration."
         },
         {
           id: 2,
           question: "By what percentage does parenting support improve parenting practices?",
           options: [
+            "30%",
             "20%",
             "25%",
-            "30%",
             "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Parenting support and education improve parenting practices by approximately 25%."
         },
         {
           id: 3,
           question: "What percentage of families typically reach the leadership level of involvement?",
           options: [
-            "5-10%",
             "10-15%",
-            "15-20%",
-            "20-25%"
+            "20-25%",
+            "5-10%",
+            "15-20%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Approximately 10-15% of families reach the leadership level of involvement in programs."
         },
         {
@@ -2822,9 +2822,9 @@ Family and community partnerships are essential for comprehensive early childhoo
           question: "What percentage of programs now use digital communication platforms?",
           options: [
             "60%",
-            "65%",
+            "75%",
             "70%",
-            "75%"
+            "65%"
           ],
           correctAnswer: 2,
           explanation: "Approximately 70% of early childhood programs now use digital communication platforms."
@@ -2833,24 +2833,24 @@ Family and community partnerships are essential for comprehensive early childhoo
           id: 5,
           question: "By what percentage does Triple P reduce behavior problems?",
           options: [
+            "70-80%",
             "40-50%",
-            "50-60%",
             "60-70%",
-            "70-80%"
+            "50-60%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Triple P reduces child behavior problems by 50-60%."
         },
         {
           id: 6,
           question: "How many countries have implemented the Incredible Years program?",
           options: [
-            "15+ countries",
             "20+ countries",
+            "30+ countries",
             "25+ countries",
-            "30+ countries"
+            "15+ countries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Incredible Years program has been implemented in 20+ countries worldwide."
         },
         {
@@ -2869,10 +2869,10 @@ Family and community partnerships are essential for comprehensive early childhoo
           id: 8,
           question: "How many levels of service integration are identified?",
           options: [
-            "3 levels",
+            "6 levels",
             "4 levels",
             "5 levels",
-            "6 levels"
+            "3 levels"
           ],
           correctAnswer: 1,
           explanation: "Four levels of service integration are identified: co-location, coordination, collaboration, and integration."
@@ -2881,58 +2881,58 @@ Family and community partnerships are essential for comprehensive early childhoo
           id: 9,
           question: "What percentage of U.S. households with children are single-parent families?",
           options: [
+            "35%",
             "20%",
-            "25%",
             "30%",
-            "35%"
+            "25%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately 25% of U.S. households with children are single-parent families."
         },
         {
           id: 10,
           question: "How many languages are spoken in U.S. homes?",
           options: [
+            "350+",
             "250+",
             "300+",
-            "350+",
             "400+"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Over 350 different languages are spoken in homes across the United States."
         },
         {
           id: 11,
           question: "By what percentage are transitions smoother with proper preparation?",
           options: [
-            "25%",
             "30%",
             "35%",
-            "40%"
+            "40%",
+            "25%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transitions are 30% smoother and more successful with proper preparation and support."
         },
         {
           id: 12,
           question: "What percentage better is school adjustment with successful transitions?",
           options: [
+            "35%",
             "20%",
             "25%",
-            "30%",
-            "35%"
+            "30%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Children show 25% better school adjustment when they experience successful transitions."
         },
         {
           id: 13,
           question: "How many environmental systems does Bronfenbrenner's theory include?",
           options: [
-            "4 systems",
+            "7 systems",
             "5 systems",
             "6 systems",
-            "7 systems"
+            "4 systems"
           ],
           correctAnswer: 1,
           explanation: "Bronfenbrenner's ecological systems theory includes five environmental systems."
@@ -2941,12 +2941,12 @@ Family and community partnerships are essential for comprehensive early childhoo
           id: 14,
           question: "What percentage of child achievement improvement comes from learning at home activities?",
           options: [
-            "15%",
-            "20%",
             "25%",
-            "30%"
+            "30%",
+            "20%",
+            "15%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Learning at home activities contribute to 20% higher child achievement."
         },
         {
@@ -2954,11 +2954,11 @@ Family and community partnerships are essential for comprehensive early childhoo
           question: "By what percentage does decision-making involvement increase family commitment?",
           options: [
             "30%",
-            "35%",
             "40%",
-            "45%"
+            "45%",
+            "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Decision-making involvement increases family commitment by approximately 35%."
         },
         {
@@ -2989,12 +2989,12 @@ Family and community partnerships are essential for comprehensive early childhoo
           id: 18,
           question: "What percentage of children have immigrant parents?",
           options: [
-            "20%",
-            "25%",
+            "35%",
             "30%",
-            "35%"
+            "20%",
+            "25%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately 25% of children in the U.S. have at least one immigrant parent."
         },
         {
@@ -3013,12 +3013,12 @@ Family and community partnerships are essential for comprehensive early childhoo
           id: 20,
           question: "How many dimensions of family diversity are identified?",
           options: [
-            "2 dimensions",
             "3 dimensions",
             "4 dimensions",
+            "2 dimensions",
             "5 dimensions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Three dimensions of family diversity are discussed: family structure, cultural background, and socioeconomic status."
         }
       ]
@@ -3462,22 +3462,22 @@ Professional practice in early childhood education requires ongoing commitment t
           id: 1,
           question: "How many professional standards does NAEYC identify?",
           options: [
-            "5 standards",
-            "6 standards",
             "7 standards",
-            "8 standards"
+            "8 standards",
+            "6 standards",
+            "5 standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "NAEYC identifies six professional standards covering all aspects of early childhood practice."
         },
         {
           id: 2,
           question: "How many states have early childhood teacher certification?",
           options: [
-            "40 states",
+            "48 states",
             "42 states",
             "45 states",
-            "48 states"
+            "40 states"
           ],
           correctAnswer: 2,
           explanation: "45 states have established early childhood teacher certification systems."
@@ -3486,46 +3486,46 @@ Professional practice in early childhood education requires ongoing commitment t
           id: 3,
           question: "How many sections are in the NAEYC Code of Ethical Conduct?",
           options: [
-            "3 sections",
             "4 sections",
             "5 sections",
+            "3 sections",
             "6 sections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The NAEYC Code includes four sections: responsibilities to children, families, colleagues, and community/society."
         },
         {
           id: 4,
           question: "How many steps are in the ethical dilemma resolution process?",
           options: [
-            "6 steps",
             "7 steps",
-            "8 steps",
-            "9 steps"
+            "6 steps",
+            "9 steps",
+            "8 steps"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The ethical dilemma resolution process includes eight steps from identification to reflection."
         },
         {
           id: 5,
           question: "How many reflective practice approaches are identified?",
           options: [
+            "5 approaches",
             "3 approaches",
             "4 approaches",
-            "5 approaches",
             "6 approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Four reflective practice approaches are identified: technical, practical, critical, and transformative."
         },
         {
           id: 6,
           question: "By what percentage do PLCs improve instructional quality?",
           options: [
-            "25%",
+            "40%",
             "30%",
             "35%",
-            "40%"
+            "25%"
           ],
           correctAnswer: 1,
           explanation: "Professional Learning Communities improve instructional quality by approximately 30%."
@@ -3534,10 +3534,10 @@ Professional practice in early childhood education requires ongoing commitment t
           id: 7,
           question: "How many mentoring models are discussed?",
           options: [
-            "2 models",
-            "3 models",
             "4 models",
-            "5 models"
+            "3 models",
+            "5 models",
+            "2 models"
           ],
           correctAnswer: 1,
           explanation: "Three mentoring models are discussed: traditional, peer coaching, and cognitive coaching."
@@ -3546,34 +3546,34 @@ Professional practice in early childhood education requires ongoing commitment t
           id: 8,
           question: "How many levels of advocacy involvement are identified?",
           options: [
+            "5 levels",
             "2 levels",
             "3 levels",
-            "4 levels",
-            "5 levels"
+            "4 levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Three levels of advocacy involvement are identified: individual, organizational, and public policy."
         },
         {
           id: 9,
           question: "How many NAEYC members are there?",
           options: [
-            "50,000+",
             "55,000+",
-            "60,000+",
-            "65,000+"
+            "65,000+",
+            "50,000+",
+            "60,000+"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "NAEYC has over 60,000 members, making it the largest early childhood professional organization."
         },
         {
           id: 10,
           question: "What percentage below poverty line are many early childhood teachers?",
           options: [
-            "10%",
-            "15%",
             "20%",
-            "25%"
+            "15%",
+            "25%",
+            "10%"
           ],
           correctAnswer: 1,
           explanation: "Many early childhood teachers earn 15% below the poverty line for their family size."
@@ -3582,24 +3582,24 @@ Professional practice in early childhood education requires ongoing commitment t
           id: 11,
           question: "How many technology integration competencies are identified?",
           options: [
+            "6 competencies",
             "3 competencies",
             "4 competencies",
-            "5 competencies",
-            "6 competencies"
+            "5 competencies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Four technology integration competencies are identified: basic digital literacy, educational technology, professional technology, and digital citizenship."
         },
         {
           id: 12,
           question: "How many steps are in the action research process?",
           options: [
-            "6 steps",
-            "7 steps",
+            "9 steps",
             "8 steps",
-            "9 steps"
+            "6 steps",
+            "7 steps"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The action research process includes seven steps from identifying questions to sharing results."
         },
         {
@@ -3618,24 +3618,24 @@ Professional practice in early childhood education requires ongoing commitment t
           id: 14,
           question: "How many annual professional development hours do most states require?",
           options: [
+            "25-55 hours",
             "10-30 hours",
-            "15-45 hours",
             "20-50 hours",
-            "25-55 hours"
+            "15-45 hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Most states require 15-45 hours of annual professional development for early childhood professionals."
         },
         {
           id: 15,
           question: "By what percentage do PLCs improve child achievement?",
           options: [
-            "20%",
             "25%",
             "30%",
+            "20%",
             "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Professional Learning Communities contribute to 25% better child achievement gains."
         },
         {
@@ -3643,23 +3643,23 @@ Professional practice in early childhood education requires ongoing commitment t
           question: "How many leadership pathways are identified in early childhood?",
           options: [
             "3 pathways",
-            "4 pathways",
+            "6 pathways",
             "5 pathways",
-            "6 pathways"
+            "4 pathways"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Four leadership pathways are identified: classroom, program, system, and field leadership."
         },
         {
           id: 17,
           question: "What percentage higher is teacher satisfaction in schools with strong PLCs?",
           options: [
-            "35%",
             "40%",
             "45%",
-            "50%"
+            "50%",
+            "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Teacher satisfaction is 40% higher in schools with strong Professional Learning Communities."
         },
         {
@@ -3667,35 +3667,35 @@ Professional practice in early childhood education requires ongoing commitment t
           question: "How many portfolio components are identified for professional development?",
           options: [
             "6 components",
-            "7 components",
+            "9 components",
             "8 components",
-            "9 components"
+            "7 components"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Seven portfolio components are identified: philosophy, credentials, artifacts, reflections, development records, evaluations, and goals."
         },
         {
           id: 19,
           question: "What percentage lower is teacher turnover in schools with strong PLCs?",
           options: [
-            "15%",
-            "20%",
             "25%",
-            "30%"
+            "30%",
+            "15%",
+            "20%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Teacher turnover is 20% lower in schools with strong Professional Learning Communities."
         },
         {
           id: 20,
           question: "How many international early childhood approaches are compared?",
           options: [
-            "2 approaches",
             "3 approaches",
+            "5 approaches",
             "4 approaches",
-            "5 approaches"
+            "2 approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Three international approaches are compared: Nordic countries, Reggio Emilia, and East Asian countries."
         }
       ]
@@ -3717,10 +3717,10 @@ Professional practice in early childhood education requires ongoing commitment t
         options: [
           "3 models",
           "4 models",
-          "5 models",
-          "6 models"
+          "6 models",
+          "5 models"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Five major curriculum models are discussed: Montessori, Reggio Emilia, HighScope, Bank Street, and Creative Curriculum."
       },
       {
@@ -3728,8 +3728,8 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 1,
         question: "What percentage higher were high school graduation rates for HighScope participants?",
         options: [
-          "15%",
           "20%",
+          "15%",
           "23%",
           "28%"
         ],
@@ -3741,12 +3741,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 1,
         question: "By what percentage does DAP reduce achievement gaps when consistently implemented?",
         options: [
-          "15-25%",
+          "30-35%",
           "20-30%",
-          "25-30%",
-          "30-35%"
+          "15-25%",
+          "25-30%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Developmentally Appropriate Practice reduces achievement gaps by 25-30% when consistently implemented."
       },
       {
@@ -3754,12 +3754,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 1,
         question: "What is the recommended ratio for toddler classrooms?",
         options: [
+          "1:6",
           "1:3",
           "1:4",
-          "1:5",
-          "1:6"
+          "1:5"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "NAEYC recommends a 1:4 ratio for toddlers (12-28 months) with maximum group size of 12."
       },
       {
@@ -3768,11 +3768,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "What percentage of classroom books should feature diverse characters?",
         options: [
           "30%",
-          "35%",
           "40%",
+          "35%",
           "45%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "At least 40% of classroom books should feature diverse characters to promote inclusion."
       },
       {
@@ -3780,10 +3780,10 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 1,
         question: "By what percentage does strong family engagement increase school readiness?",
         options: [
-          "25%",
+          "40%",
           "30%",
-          "35%",
-          "40%"
+          "25%",
+          "35%"
         ],
         correctAnswer: 1,
         explanation: "Strong family engagement increases school readiness scores by approximately 30%."
@@ -3795,12 +3795,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 2,
         question: "How many primary purposes of assessment are identified in early childhood education?",
         options: [
-          "4 purposes",
-          "5 purposes",
           "6 purposes",
-          "7 purposes"
+          "5 purposes",
+          "7 purposes",
+          "4 purposes"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Six primary purposes are identified: instructional planning, individualization, program evaluation, screening, diagnosis, and progress monitoring."
       },
       {
@@ -3808,12 +3808,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 2,
         question: "What percentage of U.S. preschool programs use Teaching Strategies GOLD?",
         options: [
-          "30%",
-          "35%",
           "40%",
-          "45%"
+          "30%",
+          "45%",
+          "35%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Approximately 40% of U.S. preschool programs use Teaching Strategies GOLD assessment system."
       },
       {
@@ -3821,12 +3821,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 2,
         question: "How many times should all children be screened before kindergarten?",
         options: [
-          "2 times",
           "3 times",
           "4 times",
+          "2 times",
           "5 times"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "All children should be screened at least 3 times before kindergarten entry."
       },
       {
@@ -3834,12 +3834,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 2,
         question: "How many items are in the ECERS-3 rating scale?",
         options: [
-          "30 items",
-          "33 items",
           "35 items",
+          "33 items",
+          "30 items",
           "38 items"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "The Early Childhood Environment Rating Scale (ECERS-3) includes 35 items across 6 subscales."
       },
       {
@@ -3847,12 +3847,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 2,
         question: "How many standards does NAEYC accreditation include?",
         options: [
-          "8 standards",
           "9 standards",
-          "10 standards",
-          "11 standards"
+          "11 standards",
+          "8 standards",
+          "10 standards"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "NAEYC accreditation includes 10 standards with over 400 specific criteria."
       },
       {
@@ -3862,8 +3862,8 @@ Professional practice in early childhood education requires ongoing commitment t
         options: [
           "3 cycles of 15 minutes",
           "4 cycles of 20 minutes",
-          "5 cycles of 15 minutes",
-          "6 cycles of 10 minutes"
+          "6 cycles of 10 minutes",
+          "5 cycles of 15 minutes"
         ],
         correctAnswer: 1,
         explanation: "CLASS assessment typically involves 4 observation cycles of 20 minutes each."
@@ -3875,9 +3875,9 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 3,
         question: "How many disability categories are eligible for services under IDEA?",
         options: [
-          "10 categories",
           "11 categories",
           "12 categories",
+          "10 categories",
           "13 categories"
         ],
         correctAnswer: 3,
@@ -3888,8 +3888,8 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 3,
         question: "What percentage of children with disabilities are served in regular classrooms?",
         options: [
-          "85%",
           "90%",
+          "85%",
           "95%",
           "98%"
         ],
@@ -3901,12 +3901,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 3,
         question: "By what percentage do academic outcomes improve for children in inclusive settings?",
         options: [
-          "15-25%",
-          "20-30%",
+          "30-35%",
           "25-30%",
-          "30-35%"
+          "20-30%",
+          "15-25%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Children with disabilities show 25-30% better academic outcomes in inclusive settings compared to segregated settings."
       },
       {
@@ -3914,12 +3914,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 3,
         question: "What percentage of families prefer inclusive settings for their children?",
         options: [
-          "65%",
-          "70%",
           "75%",
-          "80%"
+          "80%",
+          "65%",
+          "70%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Approximately 75% of families prefer inclusive educational settings for their children with disabilities."
       },
       {
@@ -3941,11 +3941,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "How many required members are on an IEP team?",
         options: [
           "5 members",
-          "6 members",
           "7 members",
+          "6 members",
           "8 members"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "IDEA requires at least 6 members on an IEP team: parents, regular education teacher, special education teacher, district representative, evaluation interpreter, and the child when appropriate."
       },
 
@@ -3956,11 +3956,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "How many leadership styles are identified in early childhood education?",
         options: [
           "4 styles",
-          "5 styles",
           "6 styles",
+          "5 styles",
           "7 styles"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Five leadership styles are discussed: transformational, servant, distributed, instructional, and transactional."
       },
       {
@@ -3969,11 +3969,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "What percentage of program quality variance is accounted for by leadership?",
         options: [
           "20%",
+          "35%",
           "25%",
-          "30%",
-          "35%"
+          "30%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Leadership accounts for approximately 25% of program quality variance."
       },
       {
@@ -3981,12 +3981,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 4,
         question: "What is the national average annual turnover rate in early childhood?",
         options: [
-          "25%",
           "30%",
-          "35%",
-          "40%"
+          "25%",
+          "40%",
+          "35%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The national average annual turnover rate in early childhood education is approximately 30%."
       },
       {
@@ -3995,11 +3995,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "By what percentage are child outcomes better in NAEYC-accredited programs?",
         options: [
           "20%",
-          "25%",
+          "35%",
           "30%",
-          "35%"
+          "25%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Children in NAEYC-accredited programs show 25% better developmental outcomes."
       },
       {
@@ -4007,8 +4007,8 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 4,
         question: "How many states have Quality Rating Improvement Systems?",
         options: [
-          "47 states",
           "48 states",
+          "47 states",
           "49 states",
           "All 50 states"
         ],
@@ -4020,12 +4020,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 4,
         question: "What percentage of the operating budget should be allocated to professional development?",
         options: [
-          "0.5-1%",
           "1-3%",
+          "0.5-1%",
           "3-5%",
           "5-7%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "NAEYC recommends allocating 1-3% of operating budget to professional development."
       },
 
@@ -4035,12 +4035,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 5,
         question: "How many types of family involvement does Epstein's framework include?",
         options: [
-          "5 types",
           "6 types",
-          "7 types",
-          "8 types"
+          "8 types",
+          "5 types",
+          "7 types"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Epstein's framework includes six types of family involvement: parenting, communicating, volunteering, learning at home, decision-making, and community collaboration."
       },
       {
@@ -4049,11 +4049,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "What percentage of programs now use digital communication platforms?",
         options: [
           "60%",
-          "65%",
           "70%",
+          "65%",
           "75%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Approximately 70% of early childhood programs now use digital communication platforms."
       },
       {
@@ -4061,12 +4061,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 5,
         question: "By what percentage does Triple P reduce behavior problems?",
         options: [
-          "40-50%",
           "50-60%",
+          "40-50%",
           "60-70%",
           "70-80%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Triple P reduces child behavior problems by 50-60%."
       },
       {
@@ -4074,10 +4074,10 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 5,
         question: "How many levels of service integration are identified?",
         options: [
-          "3 levels",
-          "4 levels",
           "5 levels",
-          "6 levels"
+          "4 levels",
+          "6 levels",
+          "3 levels"
         ],
         correctAnswer: 1,
         explanation: "Four levels of service integration are identified: co-location, coordination, collaboration, and integration."
@@ -4087,12 +4087,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 5,
         question: "What percentage of U.S. households with children are single-parent families?",
         options: [
-          "20%",
           "25%",
-          "30%",
-          "35%"
+          "35%",
+          "20%",
+          "30%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Approximately 25% of U.S. households with children are single-parent families."
       },
       {
@@ -4102,8 +4102,8 @@ Professional practice in early childhood education requires ongoing commitment t
         options: [
           "30%",
           "35%",
-          "40%",
-          "45%"
+          "45%",
+          "40%"
         ],
         correctAnswer: 1,
         explanation: "Decision-making involvement increases family commitment by approximately 35%."
@@ -4115,12 +4115,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 6,
         question: "How many professional standards does NAEYC identify?",
         options: [
-          "5 standards",
           "6 standards",
-          "7 standards",
-          "8 standards"
+          "5 standards",
+          "8 standards",
+          "7 standards"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "NAEYC identifies six professional standards covering all aspects of early childhood practice."
       },
       {
@@ -4128,12 +4128,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 6,
         question: "How many states have early childhood teacher certification?",
         options: [
-          "40 states",
+          "48 states",
           "42 states",
-          "45 states",
-          "48 states"
+          "40 states",
+          "45 states"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "45 states have established early childhood teacher certification systems."
       },
       {
@@ -4142,11 +4142,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "How many sections are in the NAEYC Code of Ethical Conduct?",
         options: [
           "3 sections",
-          "4 sections",
           "5 sections",
+          "4 sections",
           "6 sections"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "The NAEYC Code includes four sections: responsibilities to children, families, colleagues, and community/society."
       },
       {
@@ -4154,12 +4154,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 6,
         question: "How many reflective practice approaches are identified?",
         options: [
-          "3 approaches",
           "4 approaches",
+          "3 approaches",
           "5 approaches",
           "6 approaches"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Four reflective practice approaches are identified: technical, practical, critical, and transformative."
       },
       {
@@ -4167,12 +4167,12 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 6,
         question: "By what percentage do PLCs improve instructional quality?",
         options: [
-          "25%",
           "30%",
+          "25%",
           "35%",
           "40%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Professional Learning Communities improve instructional quality by approximately 30%."
       },
       {
@@ -4181,11 +4181,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "How many mentoring models are discussed?",
         options: [
           "2 models",
-          "3 models",
+          "5 models",
           "4 models",
-          "5 models"
+          "3 models"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Three mentoring models are discussed: traditional, peer coaching, and cognitive coaching."
       },
       {
@@ -4193,10 +4193,10 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 6,
         question: "How many NAEYC members are there?",
         options: [
+          "65,000+",
           "50,000+",
-          "55,000+",
           "60,000+",
-          "65,000+"
+          "55,000+"
         ],
         correctAnswer: 2,
         explanation: "NAEYC has over 60,000 members, making it the largest early childhood professional organization."
@@ -4206,10 +4206,10 @@ Professional practice in early childhood education requires ongoing commitment t
         module: 6,
         question: "What percentage below poverty line are many early childhood teachers?",
         options: [
-          "10%",
+          "25%",
           "15%",
           "20%",
-          "25%"
+          "10%"
         ],
         correctAnswer: 1,
         explanation: "Many early childhood teachers earn 15% below the poverty line for their family size."
@@ -4220,11 +4220,11 @@ Professional practice in early childhood education requires ongoing commitment t
         question: "How many technology integration competencies are identified?",
         options: [
           "3 competencies",
+          "6 competencies",
           "4 competencies",
-          "5 competencies",
-          "6 competencies"
+          "5 competencies"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Four technology integration competencies are identified: basic digital literacy, educational technology, professional technology, and digital citizenship."
       },
       {

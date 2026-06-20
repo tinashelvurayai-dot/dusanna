@@ -345,8 +345,8 @@ Effective food service operations management requires balancing efficiency with 
           options: [
             "20-25%",
             "28-35%",
-            "40-45%",
-            "50-55%"
+            "50-55%",
+            "40-45%"
           ],
           correctAnswer: 1,
           explanation: "Typical food cost percentage target is 28-35% of sales, depending on restaurant type."
@@ -355,24 +355,24 @@ Effective food service operations management requires balancing efficiency with 
           id: 2,
           question: "What does FIFO stand for in inventory management?",
           options: [
-            "Fast In, Fast Out",
-            "First In, First Out",
             "Fresh Items First Out",
-            "Frequent Inventory, Frequent Orders"
+            "Frequent Inventory, Frequent Orders",
+            "Fast In, Fast Out",
+            "First In, First Out"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "FIFO: First In, First Out - using oldest inventory first to prevent spoilage."
         },
         {
           id: 3,
           question: "What is prime cost in restaurant management?",
           options: [
-            "Only food cost",
             "Food cost + labor cost",
-            "Only labor cost",
-            "Food cost + rent cost"
+            "Food cost + rent cost",
+            "Only food cost",
+            "Only labor cost"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Prime cost = Food cost + Labor cost, typically targeted at 55-65% of sales."
         },
         {
@@ -380,59 +380,59 @@ Effective food service operations management requires balancing efficiency with 
           question: "What is table turnover?",
           options: [
             "Physically turning tables over",
-            "Number of times a table is used per meal period",
             "Turning tables to clean under them",
+            "Number of times a table is used per meal period",
             "Changing table locations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Table turnover: number of times a table is seated and served during a meal period."
         },
         {
           id: 5,
           question: "What does HACCP stand for?",
           options: [
-            "Hazard Analysis Critical Control Points",
             "Health And Cleanliness Compliance Procedures",
+            "Hazard Analysis Critical Control Points",
             "Handling All Critical Cooking Processes",
             "Hygiene And Customer Care Protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "HACCP: Hazard Analysis Critical Control Points - systematic food safety approach."
         },
         {
           id: 6,
           question: "What is the typical server-to-customer ratio in casual dining?",
           options: [
-            "1 server per 50 customers",
             "1 server per 20-25 customers",
+            "1 server per 100 customers",
             "1 server per 5 customers",
-            "1 server per 100 customers"
+            "1 server per 50 customers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Casual dining typically has 1 server per 4-5 tables (20-25 customers)."
         },
         {
           id: 7,
           question: "What is mise en place?",
           options: [
-            "Cleaning the kitchen",
             "Everything in its place - preparation before service",
             "Menu planning",
+            "Cleaning the kitchen",
             "Inventory counting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Mise en place: French for 'everything in its place' - preparing all items before service."
         },
         {
           id: 8,
           question: "What is a KDS system?",
           options: [
-            "Kitchen Display System",
             "Kitchen Delivery System",
             "Kitchen Design System",
+            "Kitchen Display System",
             "Kitchen Documentation System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "KDS: Kitchen Display System - shows orders to kitchen staff electronically."
         },
         {
@@ -451,22 +451,22 @@ Effective food service operations management requires balancing efficiency with 
           id: 10,
           question: "What is menu engineering?",
           options: [
-            "Building restaurant menus",
             "Analyzing profitability and popularity of menu items",
+            "Engineering kitchen equipment",
             "Designing menu graphics",
-            "Engineering kitchen equipment"
+            "Building restaurant menus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Menu engineering: analyzing which menu items are most profitable and popular."
         },
         {
           id: 11,
           question: "What is typical labor cost percentage target?",
           options: [
-            "15-20%",
+            "50-55%",
             "25-33%",
-            "40-45%",
-            "50-55%"
+            "15-20%",
+            "40-45%"
           ],
           correctAnswer: 1,
           explanation: "Typical labor cost target is 25-33% of sales, depending on service type."
@@ -475,24 +475,24 @@ Effective food service operations management requires balancing efficiency with 
           id: 12,
           question: "What does SOP stand for?",
           options: [
-            "Standard Operating Procedure",
-            "Service Operation Protocol",
             "Staff Orientation Program",
-            "Systematic Operation Plan"
+            "Standard Operating Procedure",
+            "Systematic Operation Plan",
+            "Service Operation Protocol"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SOP: Standard Operating Procedure - documented method for performing tasks."
         },
         {
           id: 13,
           question: "What is a par level?",
           options: [
-            "Minimum inventory amount to maintain",
             "Maximum inventory allowed",
+            "Employee performance standard",
             "Average sales level",
-            "Employee performance standard"
+            "Minimum inventory amount to maintain"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Par level: minimum quantity of an item that should be kept in inventory."
         },
         {
@@ -500,11 +500,11 @@ Effective food service operations management requires balancing efficiency with 
           question: "What improved from 38% to 31% in case study?",
           options: [
             "Labor cost",
+            "Employee turnover",
             "Food cost percentage",
-            "Customer satisfaction",
-            "Employee turnover"
+            "Customer satisfaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Food cost percentage improved from 38% to 31% in the turnaround case study."
         },
         {
@@ -512,23 +512,23 @@ Effective food service operations management requires balancing efficiency with 
           question: "What is a mystery shopper program?",
           options: [
             "Employees shopping for supplies",
-            "Anonymous evaluators assessing service quality",
+            "Secret inventory counting",
             "Customers who can't decide what to order",
-            "Secret inventory counting"
+            "Anonymous evaluators assessing service quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mystery shoppers: anonymous evaluators who assess service and report on experience."
         },
         {
           id: 16,
           question: "What is average check calculation?",
           options: [
-            "Total sales ÷ number of customers",
-            "Total customers ÷ number of tables",
+            "Total labor cost ÷ number of employees",
             "Total food cost ÷ number of items",
-            "Total labor cost ÷ number of employees"
+            "Total customers ÷ number of tables",
+            "Total sales ÷ number of customers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Average check = Total sales ÷ Number of customers served."
         },
         {
@@ -536,35 +536,35 @@ Effective food service operations management requires balancing efficiency with 
           question: "What is a catering operation characteristic?",
           options: [
             "Only table service",
-            "Off-premise service and event-based",
             "Only quick service",
+            "Off-premise service and event-based",
             "No menu customization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Catering: off-premise service, event-based, with customized menus for clients."
         },
         {
           id: 18,
           question: "What is the purpose of pre-service briefing?",
           options: [
-            "Only to assign tasks",
-            "Review specials, goals, and prepare team",
             "Count money only",
-            "Clean restaurant only"
+            "Only to assign tasks",
+            "Clean restaurant only",
+            "Review specials, goals, and prepare team"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pre-service briefing: review specials, daily goals, assignments, and prepare team."
         },
         {
           id: 19,
           question: "What does KPI stand for?",
           options: [
-            "Kitchen Performance Indicator",
-            "Key Performance Indicator",
             "Key Profitability Index",
-            "Kitchen Productivity Index"
+            "Kitchen Productivity Index",
+            "Kitchen Performance Indicator",
+            "Key Performance Indicator"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "KPI: Key Performance Indicator - measurable value showing effectiveness."
         },
         {
@@ -572,11 +572,11 @@ Effective food service operations management requires balancing efficiency with 
           question: "What reduced from 65% to 22% in case study?",
           options: [
             "Food cost",
-            "Employee turnover",
+            "Waste percentage",
             "Customer complaints",
-            "Waste percentage"
+            "Employee turnover"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Employee turnover reduced from 65% to 22% through improved management practices."
         }
       ]
@@ -1037,46 +1037,46 @@ Effective financial management in food service requires understanding and contro
           id: 1,
           question: "What is the formula for food cost percentage?",
           options: [
-            "(Food Sales ÷ Food Cost) × 100",
             "(Food Cost ÷ Food Sales) × 100",
             "(Total Sales ÷ Food Cost) × 100",
+            "(Food Sales ÷ Food Cost) × 100",
             "(Food Cost ÷ Total Expenses) × 100"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Food cost % = (Cost of Food Sold ÷ Food Sales) × 100"
         },
         {
           id: 2,
           question: "What does COGS stand for?",
           options: [
-            "Cost of General Supplies",
             "Cost of Goods Sold",
             "Cost of Good Service",
-            "Control of General Sales"
+            "Control of General Sales",
+            "Cost of General Supplies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "COGS: Cost of Goods Sold - direct cost of food and beverage sold."
         },
         {
           id: 3,
           question: "What is prime cost?",
           options: [
-            "Only food cost",
             "Food cost + labor cost",
-            "Only labor cost",
-            "Rent + utilities cost"
+            "Only food cost",
+            "Rent + utilities cost",
+            "Only labor cost"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Prime cost = Food cost + Labor cost, a key metric in restaurant management."
         },
         {
           id: 4,
           question: "What is typical target food cost percentage?",
           options: [
-            "20-25%",
+            "50-55%",
             "28-35%",
-            "40-45%",
-            "50-55%"
+            "20-25%",
+            "40-45%"
           ],
           correctAnswer: 1,
           explanation: "Typical food cost target is 28-35% depending on restaurant type and pricing."
@@ -1086,11 +1086,11 @@ Effective financial management in food service requires understanding and contro
           question: "What is cost-plus pricing formula?",
           options: [
             "Item Cost × 2",
-            "Item Cost ÷ Target Food Cost Percentage",
             "Competitor's Price + 10%",
+            "Item Cost ÷ Target Food Cost Percentage",
             "Item Cost + Fixed Amount"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cost-plus pricing: Menu Price = Item Cost ÷ Target Food Cost Percentage."
         },
         {
@@ -1098,11 +1098,11 @@ Effective financial management in food service requires understanding and contro
           question: "What are 'Stars' in menu engineering?",
           options: [
             "High popularity, low profitability",
+            "Low popularity, low profitability",
             "High popularity, high profitability",
-            "Low popularity, high profitability",
-            "Low popularity, low profitability"
+            "Low popularity, high profitability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Stars: high popularity and high profitability - promote these items."
         },
         {
@@ -1110,11 +1110,11 @@ Effective financial management in food service requires understanding and contro
           question: "What is break-even analysis formula?",
           options: [
             "Fixed Costs ÷ Variable Costs",
+            "Variable Costs ÷ Fixed Costs",
             "Fixed Costs ÷ (1 - Variable Cost Percentage)",
-            "Sales ÷ Fixed Costs",
-            "Variable Costs ÷ Fixed Costs"
+            "Sales ÷ Fixed Costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Break-even sales = Fixed Costs ÷ (1 - Variable Cost Percentage)."
         },
         {
@@ -1122,11 +1122,11 @@ Effective financial management in food service requires understanding and contro
           question: "What is inventory turnover ratio?",
           options: [
             "Sales ÷ Inventory",
+            "Average Inventory ÷ Cost of Goods Sold",
             "Cost of Goods Sold ÷ Average Inventory",
-            "Inventory ÷ Sales",
-            "Average Inventory ÷ Cost of Goods Sold"
+            "Inventory ÷ Sales"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Inventory turnover = Cost of Goods Sold ÷ Average Inventory."
         },
         {
@@ -1134,35 +1134,35 @@ Effective financial management in food service requires understanding and contro
           question: "What is typical beverage cost for wine?",
           options: [
             "10-15%",
-            "20-25%",
             "30-40%",
-            "50-60%"
+            "50-60%",
+            "20-25%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Typical wine cost is 30-40% due to higher pricing and perceived value."
         },
         {
           id: 10,
           question: "What is psychological pricing example?",
           options: [
-            "$10.00 exact",
-            "$9.99 instead of $10.00",
             "$15.50 always",
-            "No price displayed"
+            "$10.00 exact",
+            "No price displayed",
+            "$9.99 instead of $10.00"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Psychological pricing: $9.99 seems significantly less than $10.00 to customers."
         },
         {
           id: 11,
           question: "What is labor cost percentage formula?",
           options: [
-            "(Total Labor Cost ÷ Total Sales) × 100",
             "(Total Sales ÷ Total Labor Cost) × 100",
+            "(Labor Cost ÷ Prime Cost) × 100",
             "(Labor Cost ÷ Food Cost) × 100",
-            "(Labor Cost ÷ Prime Cost) × 100"
+            "(Total Labor Cost ÷ Total Sales) × 100"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Labor cost % = (Total Labor Cost ÷ Total Sales) × 100."
         },
         {
@@ -1170,81 +1170,81 @@ Effective financial management in food service requires understanding and contro
           question: "What is FIFO in inventory?",
           options: [
             "Fast In, Fast Out",
-            "First In, First Out",
             "Fresh Items First Out",
-            "Frequent Inventory, Frequent Orders"
+            "Frequent Inventory, Frequent Orders",
+            "First In, First Out"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "FIFO: First In, First Out - using oldest inventory first to prevent spoilage."
         },
         {
           id: 13,
           question: "What is a 'Dog' in menu engineering?",
           options: [
-            "High popularity, low profitability",
-            "High popularity, high profitability",
             "Low popularity, high profitability",
-            "Low popularity, low profitability"
+            "Low popularity, low profitability",
+            "High popularity, low profitability",
+            "High popularity, high profitability"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Dogs: low popularity and low profitability - consider eliminating these items."
         },
         {
           id: 14,
           question: "What improved from 36% to 30% in case study?",
           options: [
-            "Labor cost",
-            "Food cost percentage",
+            "Sales growth",
             "Net profit margin",
-            "Sales growth"
+            "Labor cost",
+            "Food cost percentage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Food cost percentage improved from 36% to 30% through better cost control."
         },
         {
           id: 15,
           question: "What is covers per labor hour?",
           options: [
-            "Customers served per hour worked",
             "Labor cost per customer",
+            "Customers per table",
             "Hours worked per day",
-            "Customers per table"
+            "Customers served per hour worked"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Covers per labor hour: number of customers served per hour of labor worked."
         },
         {
           id: 16,
           question: "What is an operating budget?",
           options: [
-            "Equipment purchase plan",
             "Projected income statement for a period",
-            "Cash only budget",
-            "Marketing expense plan only"
+            "Marketing expense plan only",
+            "Equipment purchase plan",
+            "Cash only budget"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Operating budget: projected income statement showing revenue and expenses for a period."
         },
         {
           id: 17,
           question: "What is sales forecasting?",
           options: [
-            "Counting current sales only",
-            "Predicting future sales based on data",
             "Recording past sales",
-            "Guessing next month's sales"
+            "Guessing next month's sales",
+            "Counting current sales only",
+            "Predicting future sales based on data"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sales forecasting: predicting future sales using historical data, trends, and market analysis."
         },
         {
           id: 18,
           question: "What is typical net profit margin target?",
           options: [
-            "1-3%",
-            "5-10%",
             "15-20%",
-            "25-30%"
+            "5-10%",
+            "25-30%",
+            "1-3%"
           ],
           correctAnswer: 1,
           explanation: "Typical restaurant net profit margin target is 5-10%, though many operate at 3-5%."
@@ -1253,12 +1253,12 @@ Effective financial management in food service requires understanding and contro
           id: 19,
           question: "What is cash flow management?",
           options: [
-            "Only counting daily cash",
             "Managing timing of cash inflows and outflows",
+            "Only counting daily cash",
             "Investing excess cash only",
             "Bank reconciliation only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cash flow management: ensuring enough cash is available when needed by timing inflows/outflows."
         },
         {
@@ -1266,9 +1266,9 @@ Effective financial management in food service requires understanding and contro
           question: "How long should tax records be kept?",
           options: [
             "1 year minimum",
-            "3 years minimum",
+            "10 years minimum",
             "7 years minimum",
-            "10 years minimum"
+            "3 years minimum"
           ],
           correctAnswer: 2,
           explanation: "Tax records should be kept for 7 years minimum in case of audit."
@@ -1727,36 +1727,36 @@ Effective human resource management in food service requires balancing operation
           id: 1,
           question: "What is typical annual turnover rate in food service industry?",
           options: [
-            "20-30%",
             "40-50%",
             "70-75%",
-            "90-95%"
+            "90-95%",
+            "20-30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Industry average turnover is 70-75% annually in food service."
         },
         {
           id: 2,
           question: "What does FLSA stand for?",
           options: [
+            "Food Service Labor Administration",
             "Food Labor Standards Act",
-            "Fair Labor Standards Act",
             "Federal Labor Standards Association",
-            "Food Service Labor Administration"
+            "Fair Labor Standards Act"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "FLSA: Fair Labor Standards Act - governs minimum wage, overtime, and child labor."
         },
         {
           id: 3,
           question: "What is the estimated cost to replace an employee?",
           options: [
-            "50% of annual salary",
             "100% of annual salary",
-            "150% of annual salary",
-            "200% of annual salary"
+            "200% of annual salary",
+            "50% of annual salary",
+            "150% of annual salary"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Estimated cost to replace employee is about 150% of annual salary including recruitment and training."
         },
         {
@@ -1764,23 +1764,23 @@ Effective human resource management in food service requires balancing operation
           question: "What is a common reason employees leave food service jobs?",
           options: [
             "Too many promotions",
+            "Too much free time",
             "Low wages and poor management",
-            "Excessive benefits",
-            "Too much free time"
+            "Excessive benefits"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Common reasons: low wages, poor management, lack of advancement, unpredictable schedules."
         },
         {
           id: 5,
           question: "What is progressive discipline?",
           options: [
+            "Only written warnings",
             "Immediate termination for any issue",
             "Verbal warning, written warning, suspension, termination",
-            "No discipline ever",
-            "Only written warnings"
+            "No discipline ever"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Progressive discipline: escalating steps from verbal warning to termination for repeated issues."
         },
         {
@@ -1788,23 +1788,23 @@ Effective human resource management in food service requires balancing operation
           question: "What is tip credit?",
           options: [
             "Credit cards for tipping",
-            "Employer paying less than minimum wage if tips make up difference",
+            "Bonus for good tips",
             "Tax credit for tips",
-            "Bonus for good tips"
+            "Employer paying less than minimum wage if tips make up difference"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Tip credit: employer can pay less than minimum wage if employee's tips bring them to minimum wage."
         },
         {
           id: 7,
           question: "What is ADA?",
           options: [
+            "Advanced Dining Administration",
             "American Dining Association",
-            "Americans with Disabilities Act",
             "Average Daily Attendance",
-            "Advanced Dining Administration"
+            "Americans with Disabilities Act"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ADA: Americans with Disabilities Act - requires reasonable accommodations for disabilities."
         },
         {
@@ -1823,12 +1823,12 @@ Effective human resource management in food service requires balancing operation
           id: 9,
           question: "What is cross-training?",
           options: [
-            "Only training for one position",
-            "Training employees for multiple positions",
             "Training customers",
-            "Training outside the restaurant"
+            "Training outside the restaurant",
+            "Only training for one position",
+            "Training employees for multiple positions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cross-training: training employees to work multiple positions for flexibility and development."
         },
         {
@@ -1836,21 +1836,21 @@ Effective human resource management in food service requires balancing operation
           question: "What is 360-degree feedback?",
           options: [
             "Feedback only from manager",
+            "No feedback system",
             "Feedback from peers, subordinates, supervisors, and self",
-            "Feedback only from customers",
-            "No feedback system"
+            "Feedback only from customers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "360-degree feedback: input from multiple sources including peers, subordinates, and supervisors."
         },
         {
           id: 11,
           question: "How long should tax records be kept?",
           options: [
+            "10 years",
             "1 year",
-            "3 years",
             "7 years",
-            "10 years"
+            "3 years"
           ],
           correctAnswer: 2,
           explanation: "Tax records should be kept for 7 years minimum for potential audits."
@@ -1859,10 +1859,10 @@ Effective human resource management in food service requires balancing operation
           id: 12,
           question: "What is employer branding?",
           options: [
-            "Only company logo",
+            "Customer branding",
             "Restaurant's reputation as employer to attract talent",
             "Product branding only",
-            "Customer branding"
+            "Only company logo"
           ],
           correctAnswer: 1,
           explanation: "Employer branding: restaurant's reputation and value proposition as an employer to attract candidates."
@@ -1871,12 +1871,12 @@ Effective human resource management in food service requires balancing operation
           id: 13,
           question: "What reduced from 85% to 32% in case study?",
           options: [
+            "Customer satisfaction",
             "Food cost",
             "Turnover rate",
-            "Customer satisfaction",
             "Sales growth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Turnover rate reduced from 85% to 32% through improved HR practices."
         },
         {
@@ -1885,8 +1885,8 @@ Effective human resource management in food service requires balancing operation
           options: [
             "Physical work only",
             "Managing emotions during customer interactions",
-            "Accounting work",
-            "Inventory management"
+            "Inventory management",
+            "Accounting work"
           ],
           correctAnswer: 1,
           explanation: "Emotional labor: managing emotions and maintaining positive demeanor during customer interactions."
@@ -1895,36 +1895,36 @@ Effective human resource management in food service requires balancing operation
           id: 15,
           question: "What is a structured interview?",
           options: [
-            "Random questions",
-            "Same questions for all candidates for consistency",
             "No questions prepared",
-            "Only yes/no questions"
+            "Only yes/no questions",
+            "Same questions for all candidates for consistency",
+            "Random questions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Structured interview: asking same questions to all candidates for fair comparison."
         },
         {
           id: 16,
           question: "What is OSHA?",
           options: [
-            "Occupational Safety and Health Administration",
             "Organization of Service and Hospitality Administration",
-            "Official Safety and Health Association",
-            "Occupational Service and Hospitality Administration"
+            "Occupational Safety and Health Administration",
+            "Occupational Service and Hospitality Administration",
+            "Official Safety and Health Association"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "OSHA: Occupational Safety and Health Administration - sets and enforces workplace safety standards."
         },
         {
           id: 17,
           question: "What is a trial shift?",
           options: [
-            "Working a short paid shift to assess fit",
-            "Trying new menu items",
             "Testing equipment",
-            "Customer trial of restaurant"
+            "Customer trial of restaurant",
+            "Trying new menu items",
+            "Working a short paid shift to assess fit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Trial shift: candidate works short paid shift to assess skills and fit with team."
         },
         {
@@ -1932,9 +1932,9 @@ Effective human resource management in food service requires balancing operation
           question: "What is mentorship program?",
           options: [
             "Pairing new employees with experienced ones",
-            "Only manager training",
+            "Supplier relationships",
             "Customer mentoring",
-            "Supplier relationships"
+            "Only manager training"
           ],
           correctAnswer: 0,
           explanation: "Mentorship: pairing new employees with experienced ones for guidance and support."
@@ -1943,12 +1943,12 @@ Effective human resource management in food service requires balancing operation
           id: 19,
           question: "What is Title VII?",
           options: [
-            "Title of restaurant manual",
             "Prohibits employment discrimination",
+            "Safety regulation",
             "Tax code section",
-            "Safety regulation"
+            "Title of restaurant manual"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Title VII of Civil Rights Act prohibits employment discrimination based on race, color, religion, sex, national origin."
         },
         {
@@ -2375,8 +2375,8 @@ Effective marketing and sales management in food service requires understanding 
           options: [
             "Dividing restaurant into sections",
             "Grouping customers by shared characteristics",
-            "Segmenting food on plate",
-            "Dividing work shifts"
+            "Dividing work shifts",
+            "Segmenting food on plate"
           ],
           correctAnswer: 1,
           explanation: "Customer segmentation: grouping customers by shared characteristics for targeted marketing."
@@ -2387,8 +2387,8 @@ Effective marketing and sales management in food service requires understanding 
           options: [
             "Physical location of restaurant",
             "How brand is perceived relative to competitors",
-            "Position of logo on signage",
-            "Employee positions in restaurant"
+            "Employee positions in restaurant",
+            "Position of logo on signage"
           ],
           correctAnswer: 1,
           explanation: "Brand positioning: how brand is perceived in customers' minds relative to competitors."
@@ -2397,34 +2397,34 @@ Effective marketing and sales management in food service requires understanding 
           id: 3,
           question: "What is local SEO?",
           options: [
-            "Search engine optimization for local search results",
-            "Social media optimization",
+            "Employee scheduling optimization",
             "Local newspaper advertising",
-            "Employee scheduling optimization"
+            "Social media optimization",
+            "Search engine optimization for local search results"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Local SEO: optimizing online presence to appear in local search results for relevant terms."
         },
         {
           id: 4,
           question: "What is typical restaurant marketing budget percentage?",
           options: [
-            "1-2% of sales",
             "3-5% of sales",
             "10-15% of sales",
+            "1-2% of sales",
             "20-25% of sales"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Typical restaurant marketing budget is 3-5% of projected sales."
         },
         {
           id: 5,
           question: "What is customer lifetime value?",
           options: [
-            "Price of most expensive menu item",
-            "Total value of customer over their relationship with restaurant",
             "Value of customer's first purchase",
-            "Cost to acquire new customer"
+            "Total value of customer over their relationship with restaurant",
+            "Cost to acquire new customer",
+            "Price of most expensive menu item"
           ],
           correctAnswer: 1,
           explanation: "Customer lifetime value: total revenue generated from customer over entire relationship."
@@ -2433,10 +2433,10 @@ Effective marketing and sales management in food service requires understanding 
           id: 6,
           question: "What is upselling?",
           options: [
-            "Selling expired items",
+            "Selling to upstairs customers",
             "Suggesting additional items to increase check",
             "Reducing prices",
-            "Selling to upstairs customers"
+            "Selling expired items"
           ],
           correctAnswer: 1,
           explanation: "Upselling: suggesting additional or upgraded items to increase average check amount."
@@ -2446,35 +2446,35 @@ Effective marketing and sales management in food service requires understanding 
           question: "What is a loyalty program?",
           options: [
             "Program for loyal employees only",
+            "Bank loan program",
             "System to reward repeat customers",
-            "Supplier loyalty system",
-            "Bank loan program"
+            "Supplier loyalty system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Loyalty program: system to reward repeat customers and encourage return visits."
         },
         {
           id: 8,
           question: "What is ROI in marketing?",
           options: [
+            "Rate of Inflation",
             "Return on Ingredients",
             "Return on Investment",
-            "Rate of Inflation",
             "Restaurant Operating Income"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ROI: Return on Investment - revenue generated compared to marketing cost."
         },
         {
           id: 9,
           question: "What is psychographic segmentation?",
           options: [
-            "Segmenting by age and income",
             "Segmenting by lifestyle and values",
-            "Segmenting by geographic location",
-            "Segmenting by purchase frequency"
+            "Segmenting by purchase frequency",
+            "Segmenting by age and income",
+            "Segmenting by geographic location"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Psychographic segmentation: grouping customers by lifestyle, values, interests, and attitudes."
         },
         {
@@ -2482,9 +2482,9 @@ Effective marketing and sales management in food service requires understanding 
           question: "What is a soft launch?",
           options: [
             "Opening with limited publicity to test operations",
-            "Loud opening celebration",
+            "Launch without any customers",
             "Soft food menu only",
-            "Launch without any customers"
+            "Loud opening celebration"
           ],
           correctAnswer: 0,
           explanation: "Soft launch: limited opening to test operations, train staff, and generate word-of-mouth before full opening."
@@ -2493,22 +2493,22 @@ Effective marketing and sales management in food service requires understanding 
           id: 11,
           question: "What is Google Business Profile?",
           options: [
-            "Google's employee business cards",
             "Free business listing on Google for local search",
+            "Google's employee business cards",
             "Google's restaurant management software",
             "Google's marketing agency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Google Business Profile: free business listing that appears in Google search and maps results."
         },
         {
           id: 12,
           question: "What is content calendar?",
           options: [
-            "Calendar for employee scheduling",
+            "Event calendar for customers",
             "Planned schedule for marketing content creation and posting",
-            "Menu calendar only",
-            "Event calendar for customers"
+            "Calendar for employee scheduling",
+            "Menu calendar only"
           ],
           correctAnswer: 1,
           explanation: "Content calendar: planned schedule for creating and posting marketing content across channels."
@@ -2517,33 +2517,33 @@ Effective marketing and sales management in food service requires understanding 
           id: 13,
           question: "What is dynamic pricing?",
           options: [
-            "Fixed prices always",
             "Adjusting prices based on demand and time",
+            "Pricing based on weather only",
             "Random pricing",
-            "Pricing based on weather only"
+            "Fixed prices always"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Dynamic pricing: adjusting prices based on demand, time of day, day of week, or other factors."
         },
         {
           id: 14,
           question: "What was key to successful launch in case study?",
           options: [
-            "Only traditional advertising",
             "Integrated strategy with pre-opening buzz and digital focus",
+            "Only traditional advertising",
             "No marketing at all",
             "Only print advertising"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Successful launch used integrated strategy: pre-opening events, digital focus, influencer partnerships."
         },
         {
           id: 15,
           question: "What is customer acquisition cost?",
           options: [
-            "Cost of customer's meal",
-            "Marketing cost to gain new customer",
             "Cost to train employee",
+            "Marketing cost to gain new customer",
+            "Cost of customer's meal",
             "Cost of restaurant equipment"
           ],
           correctAnswer: 1,
@@ -2553,24 +2553,24 @@ Effective marketing and sales management in food service requires understanding 
           id: 16,
           question: "What is table turnover optimization?",
           options: [
-            "Physically turning tables",
             "Balancing speed of service with customer experience",
+            "Turning off table lights",
             "Selling tables to customers",
-            "Turning off table lights"
+            "Physically turning tables"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Table turnover optimization: maximizing table usage while maintaining quality customer experience."
         },
         {
           id: 17,
           question: "What is public relations?",
           options: [
-            "Only advertising",
-            "Managing communications to build positive reputation",
+            "Employee relations only",
             "Private dining rooms",
-            "Employee relations only"
+            "Managing communications to build positive reputation",
+            "Only advertising"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Public relations: managing communications to build positive relationships and reputation with public."
         },
         {
@@ -2579,8 +2579,8 @@ Effective marketing and sales management in food service requires understanding 
           options: [
             "Sending same email to everyone",
             "Dividing email list into groups for targeted messaging",
-            "Segmenting email servers",
-            "Breaking email into parts"
+            "Breaking email into parts",
+            "Segmenting email servers"
           ],
           correctAnswer: 1,
           explanation: "Email segmentation: dividing email list into groups based on characteristics for targeted messaging."
@@ -2589,10 +2589,10 @@ Effective marketing and sales management in food service requires understanding 
           id: 19,
           question: "What is brand voice?",
           options: [
-            "Volume of restaurant music",
+            "Customer voice volume",
             "Tone and personality in brand communications",
             "Voice of brand spokesperson",
-            "Customer voice volume"
+            "Volume of restaurant music"
           ],
           correctAnswer: 1,
           explanation: "Brand voice: consistent tone, style, and personality in all brand communications."
@@ -2601,12 +2601,12 @@ Effective marketing and sales management in food service requires understanding 
           id: 20,
           question: "What is conversion rate?",
           options: [
-            "Currency exchange rate",
             "Percentage who take desired action (like making reservation)",
-            "Employee conversion to managers",
-            "Food conversion to waste"
+            "Food conversion to waste",
+            "Currency exchange rate",
+            "Employee conversion to managers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Conversion rate: percentage of people who take desired action (like making reservation after seeing ad)."
         }
       ]
@@ -3028,22 +3028,22 @@ Strategic planning and business development in food service requires careful ana
           id: 1,
           question: "What does SWOT analysis stand for?",
           options: [
-            "Strengths, Weaknesses, Opportunities, Threats",
-            "Sales, Workforce, Operations, Technology",
+            "Strategy, Workflow, Optimization, Tactics",
             "Service, Quality, Organization, Training",
-            "Strategy, Workflow, Optimization, Tactics"
+            "Strengths, Weaknesses, Opportunities, Threats",
+            "Sales, Workforce, Operations, Technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SWOT: Strengths, Weaknesses (internal), Opportunities, Threats (external)."
         },
         {
           id: 2,
           question: "What are SMART goals?",
           options: [
-            "Simple, Manageable, Achievable, Realistic, Timely",
+            "Sales, Marketing, Analysis, Research, Tracking",
             "Specific, Measurable, Achievable, Relevant, Time-bound",
             "Strategic, Meaningful, Actionable, Reasonable, Targeted",
-            "Sales, Marketing, Analysis, Research, Tracking"
+            "Simple, Manageable, Achievable, Realistic, Timely"
           ],
           correctAnswer: 1,
           explanation: "SMART: Specific, Measurable, Achievable, Relevant, Time-bound goals."
@@ -3052,34 +3052,34 @@ Strategic planning and business development in food service requires careful ana
           id: 3,
           question: "What is market penetration strategy?",
           options: [
+            "Developing new products",
             "Entering completely new markets",
             "Increasing share in existing markets",
-            "Developing new products",
             "Acquiring competitors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Market penetration: increasing market share in existing markets with current products."
         },
         {
           id: 4,
           question: "What is PESTLE analysis?",
           options: [
-            "Political, Economic, Social, Technological, Legal, Environmental",
-            "People, Equipment, Systems, Technology, Logistics, Execution",
             "Planning, Execution, Strategy, Tactics, Leadership, Evaluation",
+            "People, Equipment, Systems, Technology, Logistics, Execution",
+            "Political, Economic, Social, Technological, Legal, Environmental",
             "Product, Environment, Service, Technology, Location, Economics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PESTLE: Political, Economic, Social, Technological, Legal, Environmental factors."
         },
         {
           id: 5,
           question: "What is equity financing?",
           options: [
-            "Borrowing money from bank",
+            "Government grants only",
             "Selling ownership shares for capital",
-            "Using credit cards",
-            "Government grants only"
+            "Borrowing money from bank",
+            "Using credit cards"
           ],
           correctAnswer: 1,
           explanation: "Equity financing: raising capital by selling ownership shares in the business."
@@ -3088,58 +3088,58 @@ Strategic planning and business development in food service requires careful ana
           id: 6,
           question: "What is primary trade area?",
           options: [
-            "5+ mile radius from restaurant",
             "1-3 mile radius where most customers come from",
+            "5+ mile radius from restaurant",
             "Entire city",
             "Only immediate neighborhood"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Primary trade area: 1-3 mile radius where majority of customers originate."
         },
         {
           id: 7,
           question: "What is succession planning?",
           options: [
+            "Planning supplier succession",
             "Planning for restaurant succession of customers",
-            "Planning for leadership transition and continuity",
             "Planning menu succession",
-            "Planning supplier succession"
+            "Planning for leadership transition and continuity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Succession planning: preparing for transition of leadership to ensure business continuity."
         },
         {
           id: 8,
           question: "What is triple bottom line?",
           options: [
-            "Only financial profit",
-            "People, Planet, Profit - social, environmental, economic",
+            "Cost, Quality, Speed",
             "Food, Service, Atmosphere",
-            "Cost, Quality, Speed"
+            "Only financial profit",
+            "People, Planet, Profit - social, environmental, economic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Triple bottom line: measuring success by social, environmental, and financial performance."
         },
         {
           id: 9,
           question: "What is market development strategy?",
           options: [
-            "Same products in existing markets",
-            "New products in existing markets",
             "Existing products in new markets",
-            "New products in new markets"
+            "New products in new markets",
+            "Same products in existing markets",
+            "New products in existing markets"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Market development: taking existing products/services into new geographic markets."
         },
         {
           id: 10,
           question: "What is pro forma financial statement?",
           options: [
-            "Historical financial statement",
+            "Tax filing statement",
             "Projected future financial statement",
-            "Current month statement",
-            "Tax filing statement"
+            "Historical financial statement",
+            "Current month statement"
           ],
           correctAnswer: 1,
           explanation: "Pro forma: projected financial statements based on assumptions about future performance."
@@ -3148,70 +3148,70 @@ Strategic planning and business development in food service requires careful ana
           id: 11,
           question: "What is a franchise model?",
           options: [
-            "Company-owned and operated locations",
             "Licensing brand to independent operators",
+            "Pop-up restaurant model",
             "Food truck operations",
-            "Pop-up restaurant model"
+            "Company-owned and operated locations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Franchise: licensing brand and systems to independent operators who pay fees and royalties."
         },
         {
           id: 12,
           question: "What is diversification strategy?",
           options: [
-            "Same products in existing markets",
             "New products in new markets (highest risk)",
-            "Only expanding current location",
-            "Reducing product variety"
+            "Same products in existing markets",
+            "Reducing product variety",
+            "Only expanding current location"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Diversification: introducing new products/services into new markets - highest growth risk."
         },
         {
           id: 13,
           question: "What is debt financing?",
           options: [
-            "Selling ownership shares",
-            "Borrowing money to be repaid with interest",
+            "Crowdfunding donations",
             "Using personal savings only",
-            "Crowdfunding donations"
+            "Borrowing money to be repaid with interest",
+            "Selling ownership shares"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Debt financing: borrowing money that must be repaid with interest over time."
         },
         {
           id: 14,
           question: "What strategy did case study use?",
           options: [
-            "Only opening identical second location",
-            "Revenue diversification and new concept development",
             "No growth strategy",
-            "Only franchising"
+            "Only franchising",
+            "Only opening identical second location",
+            "Revenue diversification and new concept development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Case study used revenue diversification and new complementary concept development."
         },
         {
           id: 15,
           question: "What is same-store sales growth?",
           options: [
-            "Sales from new locations only",
             "Sales growth from existing locations (excluding new ones)",
             "Total company sales growth",
-            "Catering sales only"
+            "Catering sales only",
+            "Sales from new locations only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Same-store sales: growth from existing locations, important measure of organic growth."
         },
         {
           id: 16,
           question: "What is vision statement?",
           options: [
-            "Daily operational plan",
+            "Employee schedule",
             "Aspirational description of future success",
             "Financial budget",
-            "Employee schedule"
+            "Daily operational plan"
           ],
           correctAnswer: 1,
           explanation: "Vision statement: aspirational description of what organization wants to achieve in future."
@@ -3222,8 +3222,8 @@ Strategic planning and business development in food service requires careful ana
           options: [
             "Financial targets",
             "Purpose of organization and what it does",
-            "Marketing slogan",
-            "Employee job descriptions"
+            "Employee job descriptions",
+            "Marketing slogan"
           ],
           correctAnswer: 1,
           explanation: "Mission statement: defines organization's purpose, what it does, and for whom."
@@ -3232,22 +3232,22 @@ Strategic planning and business development in food service requires careful ana
           id: 18,
           question: "What is strategic partnership?",
           options: [
-            "Only supplier relationships",
-            "Collaborative relationship with complementary business",
             "Competitor relationship",
-            "Government partnership only"
+            "Government partnership only",
+            "Only supplier relationships",
+            "Collaborative relationship with complementary business"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strategic partnership: collaborative relationship with complementary business for mutual benefit."
         },
         {
           id: 19,
           question: "What is product development strategy?",
           options: [
-            "Same products in new markets",
+            "Reducing product variety",
             "New products in existing markets",
-            "Only improving existing products",
-            "Reducing product variety"
+            "Same products in new markets",
+            "Only improving existing products"
           ],
           correctAnswer: 1,
           explanation: "Product development: introducing new products/services to existing customer markets."
@@ -3256,9 +3256,9 @@ Strategic planning and business development in food service requires careful ana
           id: 20,
           question: "What is organic growth?",
           options: [
-            "Only using organic ingredients",
-            "Growth from internal operations (not acquisitions)",
             "Natural plant growth in restaurant",
+            "Growth from internal operations (not acquisitions)",
+            "Only using organic ingredients",
             "Environmental growth only"
           ],
           correctAnswer: 1,
@@ -3726,12 +3726,12 @@ Advanced leadership in food service requires adapting style to situation, buildi
           id: 1,
           question: "What is transformational leadership?",
           options: [
-            "Focus on transactions and rewards",
             "Inspiring and motivating to achieve extraordinary outcomes",
             "Only maintaining status quo",
+            "Focus on transactions and rewards",
             "Focus on rules and procedures only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transformational leadership: inspiring and motivating followers to achieve exceptional results."
         },
         {
@@ -3750,21 +3750,21 @@ Advanced leadership in food service requires adapting style to situation, buildi
           id: 3,
           question: "What is Kotter's first step in change management?",
           options: [
+            "Build guiding coalition",
             "Institute change",
             "Create urgency",
-            "Generate short-term wins",
-            "Build guiding coalition"
+            "Generate short-term wins"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Kotter's first step: create urgency - why change is needed now."
         },
         {
           id: 4,
           question: "What is psychological safety?",
           options: [
-            "Physical workplace safety",
-            "Feeling safe to take risks and express ideas without fear",
             "Food safety only",
+            "Feeling safe to take risks and express ideas without fear",
+            "Physical workplace safety",
             "Financial safety"
           ],
           correctAnswer: 1,
@@ -3774,34 +3774,34 @@ Advanced leadership in food service requires adapting style to situation, buildi
           id: 5,
           question: "What is ADKAR model?",
           options: [
-            "Awareness, Desire, Knowledge, Ability, Reinforcement",
             "Action, Direction, Knowledge, Achievement, Results",
             "Assessment, Development, Knowledge, Application, Review",
+            "Awareness, Desire, Knowledge, Ability, Reinforcement",
             "Analysis, Decision, Knowledge, Action, Results"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ADKAR: Awareness, Desire, Knowledge, Ability, Reinforcement - change management model."
         },
         {
           id: 6,
           question: "What is situational leadership?",
           options: [
+            "Only delegating style always",
             "One style for all situations",
-            "Adapting leadership style to situation and follower needs",
             "Only directive style always",
-            "Only delegating style always"
+            "Adapting leadership style to situation and follower needs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Situational leadership: adapting style based on situation and follower development level."
         },
         {
           id: 7,
           question: "What is crisis management?",
           options: [
-            "Only avoiding crises",
-            "Preparing for, responding to, and recovering from crises",
             "Ignoring crises",
-            "Only responding after crisis happens"
+            "Preparing for, responding to, and recovering from crises",
+            "Only responding after crisis happens",
+            "Only avoiding crises"
           ],
           correctAnswer: 1,
           explanation: "Crisis management: preparing for, responding to, and recovering from unexpected disruptive events."
@@ -3810,10 +3810,10 @@ Advanced leadership in food service requires adapting style to situation, buildi
           id: 8,
           question: "What is innovation culture?",
           options: [
-            "Resisting all new ideas",
+            "Only management creates ideas",
             "Environment that encourages and rewards new ideas",
-            "Only technological innovation",
-            "Only management creates ideas"
+            "Resisting all new ideas",
+            "Only technological innovation"
           ],
           correctAnswer: 1,
           explanation: "Innovation culture: environment that encourages, supports, and rewards creative thinking and new ideas."
@@ -3823,23 +3823,23 @@ Advanced leadership in food service requires adapting style to situation, buildi
           question: "What is ethical leadership?",
           options: [
             "Only following laws",
-            "Making decisions based on moral principles and values",
             "Maximizing profit at any cost",
+            "Making decisions based on moral principles and values",
             "Following only personal interests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ethical leadership: making decisions and taking actions based on moral principles and values."
         },
         {
           id: 10,
           question: "What is 360-degree feedback?",
           options: [
+            "Feedback from 360 customers",
             "Feedback only from supervisor",
             "Feedback from peers, subordinates, supervisors, and self",
-            "Feedback from 360 customers",
             "Feedback only from self"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "360-degree feedback: input from multiple sources including peers, subordinates, supervisors, and self."
         },
         {
@@ -3858,34 +3858,34 @@ Advanced leadership in food service requires adapting style to situation, buildi
           id: 12,
           question: "What is CSR?",
           options: [
-            "Customer Service Relations",
-            "Corporate Social Responsibility",
+            "Customer Satisfaction Ratings",
             "Corporate Sales Reporting",
-            "Customer Satisfaction Ratings"
+            "Customer Service Relations",
+            "Corporate Social Responsibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CSR: Corporate Social Responsibility - business practices that benefit society and environment."
         },
         {
           id: 13,
           question: "What reduced from 65% to 22% in case study?",
           options: [
-            "Food cost",
             "Employee turnover",
+            "Sales decline",
             "Customer complaints",
-            "Sales decline"
+            "Food cost"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Employee turnover reduced from 65% to 22% through transformational leadership."
         },
         {
           id: 14,
           question: "What is learning organization?",
           options: [
-            "Organization that never learns",
+            "School restaurant partnership",
             "Organization that continuously transforms through learning",
             "Only training new employees",
-            "School restaurant partnership"
+            "Organization that never learns"
           ],
           correctAnswer: 1,
           explanation: "Learning organization: continuously transforms through collective learning and adaptation."
@@ -3894,60 +3894,60 @@ Advanced leadership in food service requires adapting style to situation, buildi
           id: 15,
           question: "What is authentic leadership?",
           options: [
+            "Only following procedures",
             "Being genuine, self-aware, transparent, and ethical",
             "Pretending to be someone else",
-            "Only following procedures",
             "Transactional leadership only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Authentic leadership: being genuine, self-aware, transparent, and acting with integrity."
         },
         {
           id: 16,
           question: "What is Lewin's change model?",
           options: [
-            "Unfreeze, Change, Refreeze",
             "Plan, Do, Check, Act",
+            "Create urgency, Build coalition, Form vision",
             "Awareness, Desire, Knowledge, Ability, Reinforcement",
-            "Create urgency, Build coalition, Form vision"
+            "Unfreeze, Change, Refreeze"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Lewin's model: Unfreeze (prepare), Change (implement), Refreeze (stabilize)."
         },
         {
           id: 17,
           question: "What is talent review?",
           options: [
-            "Reviewing menu items only",
             "Regular evaluation of employee potential and development",
+            "Reviewing menu items only",
             "Reviewing supplier talent",
             "Customer talent assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Talent review: regular assessment of employee potential, performance, and development needs."
         },
         {
           id: 18,
           question: "What is stakeholder analysis?",
           options: [
-            "Only analyzing customers",
             "Identifying who will be affected by change and how",
-            "Analyzing steak holders only",
-            "Supplier analysis only"
+            "Only analyzing customers",
+            "Supplier analysis only",
+            "Analyzing steak holders only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stakeholder analysis: identifying individuals/groups affected by change and understanding their interests."
         },
         {
           id: 19,
           question: "What is mentoring program?",
           options: [
+            "Supplier mentoring",
             "Only manager development",
             "Pairing experienced leaders with developing ones",
-            "Customer mentoring",
-            "Supplier mentoring"
+            "Customer mentoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Mentoring: pairing experienced leaders with developing ones for guidance and support."
         },
         {
@@ -3955,11 +3955,11 @@ Advanced leadership in food service requires adapting style to situation, buildi
           question: "What improved from 68% to 92% in case study?",
           options: [
             "Food cost percentage",
-            "Customer satisfaction",
             "Employee count",
+            "Customer satisfaction",
             "Menu items"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Customer satisfaction improved from 68% to 92% through leadership and cultural transformation."
         }
       ]
@@ -3972,10 +3972,10 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 1,
       question: "What is typical food cost percentage target for restaurants?",
       options: [
-        "20-25%",
+        "50-55%",
         "28-35%",
-        "40-45%",
-        "50-55%"
+        "20-25%",
+        "40-45%"
       ],
       correctAnswer: 1,
       explanation: "From Module 1: Typical food cost target is 28-35% depending on restaurant type."
@@ -3984,33 +3984,33 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 2,
       question: "What is the formula for food cost percentage?",
       options: [
+        "(Food Cost ÷ Total Expenses) × 100",
         "(Food Sales ÷ Food Cost) × 100",
         "(Food Cost ÷ Food Sales) × 100",
-        "(Total Sales ÷ Food Cost) × 100",
-        "(Food Cost ÷ Total Expenses) × 100"
+        "(Total Sales ÷ Food Cost) × 100"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Food cost % = (Cost of Food Sold ÷ Food Sales) × 100"
     },
     {
       id: 3,
       question: "What is typical annual turnover rate in food service?",
       options: [
-        "20-30%",
-        "40-50%",
         "70-75%",
-        "90-95%"
+        "90-95%",
+        "40-50%",
+        "20-30%"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "From Module 3: Industry average turnover is 70-75% annually."
     },
     {
       id: 4,
       question: "What is typical restaurant marketing budget percentage?",
       options: [
-        "1-2% of sales",
-        "3-5% of sales",
         "10-15% of sales",
+        "3-5% of sales",
+        "1-2% of sales",
         "20-25% of sales"
       ],
       correctAnswer: 1,
@@ -4020,22 +4020,22 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 5,
       question: "What does SWOT analysis stand for?",
       options: [
+        "Strategy, Workflow, Optimization, Tactics",
         "Strengths, Weaknesses, Opportunities, Threats",
         "Sales, Workforce, Operations, Technology",
-        "Service, Quality, Organization, Training",
-        "Strategy, Workflow, Optimization, Tactics"
+        "Service, Quality, Organization, Training"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "From Module 5: SWOT: Strengths, Weaknesses, Opportunities, Threats."
     },
     {
       id: 6,
       question: "What is transformational leadership?",
       options: [
-        "Focus on transactions and rewards",
-        "Inspiring and motivating to achieve extraordinary outcomes",
         "Only maintaining status quo",
-        "Focus on rules and procedures only"
+        "Inspiring and motivating to achieve extraordinary outcomes",
+        "Focus on rules and procedures only",
+        "Focus on transactions and rewards"
       ],
       correctAnswer: 1,
       explanation: "From Module 6: Transformational leadership inspires and motivates for exceptional results."
@@ -4044,9 +4044,9 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 7,
       question: "What does FIFO stand for in inventory management?",
       options: [
-        "Fast In, Fast Out",
-        "First In, First Out",
         "Fresh Items First Out",
+        "First In, First Out",
+        "Fast In, Fast Out",
         "Frequent Inventory, Frequent Orders"
       ],
       correctAnswer: 1,
@@ -4056,96 +4056,96 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 8,
       question: "What is prime cost?",
       options: [
-        "Only food cost",
-        "Food cost + labor cost",
         "Only labor cost",
-        "Food cost + rent cost"
+        "Food cost + rent cost",
+        "Only food cost",
+        "Food cost + labor cost"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 2: Prime cost = Food cost + Labor cost, key metric."
     },
     {
       id: 9,
       question: "What does FLSA stand for?",
       options: [
-        "Food Labor Standards Act",
         "Fair Labor Standards Act",
+        "Food Labor Standards Act",
         "Federal Labor Standards Association",
         "Food Service Labor Administration"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 3: FLSA: Fair Labor Standards Act - wage and hour laws."
     },
     {
       id: 10,
       question: "What is brand positioning?",
       options: [
+        "Employee positions in restaurant",
         "Physical location of restaurant",
         "How brand is perceived relative to competitors",
-        "Position of logo on signage",
-        "Employee positions in restaurant"
+        "Position of logo on signage"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: Brand positioning: how brand is perceived relative to competitors."
     },
     {
       id: 11,
       question: "What are SMART goals?",
       options: [
+        "Sales, Marketing, Analysis, Research, Tracking",
         "Simple, Manageable, Achievable, Realistic, Timely",
         "Specific, Measurable, Achievable, Relevant, Time-bound",
-        "Strategic, Meaningful, Actionable, Reasonable, Targeted",
-        "Sales, Marketing, Analysis, Research, Tracking"
+        "Strategic, Meaningful, Actionable, Reasonable, Targeted"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 5: SMART: Specific, Measurable, Achievable, Relevant, Time-bound."
     },
     {
       id: 12,
       question: "What is Kotter's first step in change management?",
       options: [
-        "Institute change",
         "Create urgency",
         "Generate short-term wins",
-        "Build guiding coalition"
+        "Build guiding coalition",
+        "Institute change"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: Kotter's first step: create urgency for change."
     },
     {
       id: 13,
       question: "What is table turnover?",
       options: [
-        "Physically turning tables over",
-        "Number of times a table is used per meal period",
         "Turning tables to clean under them",
-        "Changing table locations"
+        "Physically turning tables over",
+        "Changing table locations",
+        "Number of times a table is used per meal period"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 1: Table turnover: number of times table is seated during meal period."
     },
     {
       id: 14,
       question: "What is menu engineering?",
       options: [
-        "Building restaurant menus",
         "Analyzing profitability and popularity of menu items",
-        "Designing menu graphics",
-        "Engineering kitchen equipment"
+        "Engineering kitchen equipment",
+        "Building restaurant menus",
+        "Designing menu graphics"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 2: Menu engineering analyzes item profitability and popularity."
     },
     {
       id: 15,
       question: "What is progressive discipline?",
       options: [
-        "Immediate termination for any issue",
-        "Verbal warning, written warning, suspension, termination",
         "No discipline ever",
-        "Only written warnings"
+        "Immediate termination for any issue",
+        "Only written warnings",
+        "Verbal warning, written warning, suspension, termination"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: Progressive discipline: escalating steps for performance issues."
     },
     {
@@ -4153,47 +4153,47 @@ Advanced leadership in food service requires adapting style to situation, buildi
       question: "What is customer lifetime value?",
       options: [
         "Price of most expensive menu item",
-        "Total value of customer over their relationship with restaurant",
         "Value of customer's first purchase",
-        "Cost to acquire new customer"
+        "Cost to acquire new customer",
+        "Total value of customer over their relationship with restaurant"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: Customer lifetime value: total revenue from customer over relationship."
     },
     {
       id: 17,
       question: "What is market penetration strategy?",
       options: [
-        "Entering completely new markets",
         "Increasing share in existing markets",
+        "Entering completely new markets",
         "Developing new products",
         "Acquiring competitors"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Market penetration: increasing share in existing markets."
     },
     {
       id: 18,
       question: "What is servant leadership?",
       options: [
-        "Leading through fear and authority",
-        "Serving others first and prioritizing team needs",
         "Only serving customers",
-        "Transactional reward system"
+        "Leading through fear and authority",
+        "Transactional reward system",
+        "Serving others first and prioritizing team needs"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 6: Servant leadership prioritizes team needs and serves others first."
     },
     {
       id: 19,
       question: "What does HACCP stand for?",
       options: [
-        "Hazard Analysis Critical Control Points",
         "Health And Cleanliness Compliance Procedures",
         "Handling All Critical Cooking Processes",
-        "Hygiene And Customer Care Protocols"
+        "Hygiene And Customer Care Protocols",
+        "Hazard Analysis Critical Control Points"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "From Module 1: HACCP: Hazard Analysis Critical Control Points - food safety system."
     },
     {
@@ -4201,59 +4201,59 @@ Advanced leadership in food service requires adapting style to situation, buildi
       question: "What is break-even analysis formula?",
       options: [
         "Fixed Costs ÷ Variable Costs",
-        "Fixed Costs ÷ (1 - Variable Cost Percentage)",
         "Sales ÷ Fixed Costs",
-        "Variable Costs ÷ Fixed Costs"
+        "Variable Costs ÷ Fixed Costs",
+        "Fixed Costs ÷ (1 - Variable Cost Percentage)"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 2: Break-even sales = Fixed Costs ÷ (1 - Variable Cost Percentage)."
     },
     {
       id: 21,
       question: "What is cross-training?",
       options: [
-        "Only training for one position",
-        "Training employees for multiple positions",
         "Training customers",
-        "Training outside the restaurant"
+        "Training outside the restaurant",
+        "Training employees for multiple positions",
+        "Only training for one position"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 3: Cross-training: training for multiple positions for flexibility."
     },
     {
       id: 22,
       question: "What is ROI in marketing?",
       options: [
-        "Return on Ingredients",
-        "Return on Investment",
+        "Restaurant Operating Income",
         "Rate of Inflation",
-        "Restaurant Operating Income"
+        "Return on Ingredients",
+        "Return on Investment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: ROI: Return on Investment - revenue vs. marketing cost."
     },
     {
       id: 23,
       question: "What is PESTLE analysis?",
       options: [
-        "Political, Economic, Social, Technological, Legal, Environmental",
+        "Product, Environment, Service, Technology, Location, Economics",
         "People, Equipment, Systems, Technology, Logistics, Execution",
-        "Planning, Execution, Strategy, Tactics, Leadership, Evaluation",
-        "Product, Environment, Service, Technology, Location, Economics"
+        "Political, Economic, Social, Technological, Legal, Environmental",
+        "Planning, Execution, Strategy, Tactics, Leadership, Evaluation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "From Module 5: PESTLE: Political, Economic, Social, Technological, Legal, Environmental."
     },
     {
       id: 24,
       question: "What is ADKAR model?",
       options: [
-        "Awareness, Desire, Knowledge, Ability, Reinforcement",
         "Action, Direction, Knowledge, Achievement, Results",
         "Assessment, Development, Knowledge, Application, Review",
+        "Awareness, Desire, Knowledge, Ability, Reinforcement",
         "Analysis, Decision, Knowledge, Action, Results"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "From Module 6: ADKAR: Awareness, Desire, Knowledge, Ability, Reinforcement."
     },
     {
@@ -4272,34 +4272,34 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 26,
       question: "What are 'Stars' in menu engineering?",
       options: [
+        "Low popularity, high profitability",
         "High popularity, low profitability",
         "High popularity, high profitability",
-        "Low popularity, high profitability",
         "Low popularity, low profitability"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Stars: high popularity and profitability - promote these."
     },
     {
       id: 27,
       question: "What is exit interview?",
       options: [
-        "Interview before hiring",
         "Interview with exiting employee to learn why leaving",
+        "Performance review interview",
         "Interview during break",
-        "Performance review interview"
+        "Interview before hiring"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 3: Exit interview: meeting with departing employee for feedback."
     },
     {
       id: 28,
       question: "What is upselling?",
       options: [
-        "Selling expired items",
+        "Selling to upstairs customers",
         "Suggesting additional items to increase check",
         "Reducing prices",
-        "Selling to upstairs customers"
+        "Selling expired items"
       ],
       correctAnswer: 1,
       explanation: "From Module 4: Upselling: suggesting additional items to increase check amount."
@@ -4308,10 +4308,10 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 29,
       question: "What is equity financing?",
       options: [
-        "Borrowing money from bank",
-        "Selling ownership shares for capital",
         "Using credit cards",
-        "Government grants only"
+        "Selling ownership shares for capital",
+        "Government grants only",
+        "Borrowing money from bank"
       ],
       correctAnswer: 1,
       explanation: "From Module 5: Equity financing: selling ownership shares for capital."
@@ -4322,8 +4322,8 @@ Advanced leadership in food service requires adapting style to situation, buildi
       options: [
         "Physical workplace safety",
         "Feeling safe to take risks and express ideas without fear",
-        "Food safety only",
-        "Financial safety"
+        "Financial safety",
+        "Food safety only"
       ],
       correctAnswer: 1,
       explanation: "From Module 6: Psychological safety: safe environment for risk-taking and expression."
@@ -4332,12 +4332,12 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 31,
       question: "What is a KDS system?",
       options: [
-        "Kitchen Display System",
-        "Kitchen Delivery System",
+        "Kitchen Documentation System",
         "Kitchen Design System",
-        "Kitchen Documentation System"
+        "Kitchen Delivery System",
+        "Kitchen Display System"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "From Module 1: KDS: Kitchen Display System shows orders to kitchen staff."
     },
     {
@@ -4345,20 +4345,20 @@ Advanced leadership in food service requires adapting style to situation, buildi
       question: "What is cost-plus pricing formula?",
       options: [
         "Item Cost × 2",
-        "Item Cost ÷ Target Food Cost Percentage",
         "Competitor's Price + 10%",
+        "Item Cost ÷ Target Food Cost Percentage",
         "Item Cost + Fixed Amount"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Cost-plus: Menu Price = Item Cost ÷ Target Food Cost %."
     },
     {
       id: 33,
       question: "What is ADA?",
       options: [
-        "American Dining Association",
-        "Americans with Disabilities Act",
         "Average Daily Attendance",
+        "Americans with Disabilities Act",
+        "American Dining Association",
         "Advanced Dining Administration"
       ],
       correctAnswer: 1,
@@ -4368,36 +4368,36 @@ Advanced leadership in food service requires adapting style to situation, buildi
       id: 34,
       question: "What is local SEO?",
       options: [
-        "Search engine optimization for local search results",
+        "Employee scheduling optimization",
         "Social media optimization",
-        "Local newspaper advertising",
-        "Employee scheduling optimization"
+        "Search engine optimization for local search results",
+        "Local newspaper advertising"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "From Module 4: Local SEO: optimizing for local search results."
     },
     {
       id: 35,
       question: "What is triple bottom line?",
       options: [
-        "Only financial profit",
         "People, Planet, Profit - social, environmental, economic",
+        "Cost, Quality, Speed",
         "Food, Service, Atmosphere",
-        "Cost, Quality, Speed"
+        "Only financial profit"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Triple bottom line: social, environmental, and financial performance."
     },
     {
       id: 36,
       question: "What is succession planning?",
       options: [
+        "Planning supplier succession",
         "Planning for customer succession",
         "Identifying and developing future leaders for key positions",
-        "Planning menu succession",
-        "Planning supplier succession"
+        "Planning menu succession"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Succession planning: developing internal candidates for leadership."
     },
     {
@@ -4405,47 +4405,47 @@ Advanced leadership in food service requires adapting style to situation, buildi
       question: "What is the PDCA cycle?",
       options: [
         "Prepare, Do, Check, Act",
-        "Plan, Develop, Check, Apply",
         "Plan, Do, Check, Act",
-        "Prepare, Develop, Check, Apply"
+        "Prepare, Develop, Check, Apply",
+        "Plan, Develop, Check, Apply"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "From Module 1: PDCA: Plan, Do, Check, Act - continuous improvement cycle."
     },
     {
       id: 38,
       question: "What is inventory turnover ratio?",
       options: [
+        "Average Inventory ÷ Cost of Goods Sold",
         "Sales ÷ Inventory",
-        "Cost of Goods Sold ÷ Average Inventory",
         "Inventory ÷ Sales",
-        "Average Inventory ÷ Cost of Goods Sold"
+        "Cost of Goods Sold ÷ Average Inventory"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 2: Inventory turnover = COGS ÷ Average Inventory."
     },
     {
       id: 39,
       question: "What is talent review?",
       options: [
+        "Customer talent assessment",
         "Reviewing menu items only",
-        "Regular evaluation of employee potential and development",
         "Reviewing supplier talent",
-        "Customer talent assessment"
+        "Regular evaluation of employee potential and development"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 6: Talent review: regular assessment of employee potential."
     },
     {
       id: 40,
       question: "What improved customer satisfaction in leadership case study?",
       options: [
-        "Only price reductions",
         "Transformational leadership and cultural change",
         "Only menu changes",
-        "Only location change"
+        "Only location change",
+        "Only price reductions"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: Customer satisfaction improved through transformational leadership."
     }
   ]

@@ -139,132 +139,132 @@ Remember, good irrigation engineering matches the system to specific farm condit
           id: 1,
           question: "What does ET stand for in irrigation engineering?",
           options: [
-            "Evapotranspiration",
-            "Estimated Time",
             "Energy Transfer",
-            "Equipment Test"
+            "Equipment Test",
+            "Estimated Time",
+            "Evapotranspiration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ET stands for Evapotranspiration, which combines evaporation from soil and transpiration from plants to calculate water needs."
         },
         {
           id: 2,
           question: "What is the crop coefficient (Kc) used for?",
           options: [
+            "Calculating fertilizer amounts",
             "Adjusting ET values for specific crops",
             "Measuring soil compaction",
-            "Calculating fertilizer amounts",
             "Determining pipe sizes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The crop coefficient adjusts evapotranspiration values to match the specific water needs of different crops at various growth stages."
         },
         {
           id: 3,
           question: "Which irrigation system uses rotating arms for circular fields?",
           options: [
+            "Furrow irrigation",
             "Center pivot",
             "Drip irrigation",
-            "Furrow irrigation",
             "Border irrigation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Center pivot systems use rotating arms to irrigate large circular fields efficiently."
         },
         {
           id: 4,
           question: "What component maintains consistent pressure in drip systems?",
           options: [
-            "Pressure regulators",
+            "Control valves",
             "Flow meters",
             "Filters",
-            "Control valves"
+            "Pressure regulators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pressure regulators maintain consistent water pressure throughout the irrigation system for uniform water distribution."
         },
         {
           id: 5,
           question: "What do laterals do in drip irrigation systems?",
           options: [
-            "Deliver water to emitters",
-            "Filter the water supply",
+            "Control system timing",
             "Measure water flow",
-            "Control system timing"
+            "Filter the water supply",
+            "Deliver water to emitters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Laterals are the smaller tubes that branch from mainlines to deliver water directly to emitters or drippers."
         },
         {
           id: 6,
           question: "What is TDH in pump selection?",
           options: [
+            "Turbine Design Help",
             "Total Dynamic Head",
-            "Time Delay Hydraulics",
             "Temperature Density Height",
-            "Turbine Design Help"
+            "Time Delay Hydraulics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "TDH stands for Total Dynamic Head, which is the sum of elevation lift, friction loss, and pressure requirements for pump sizing."
         },
         {
           id: 7,
           question: "What type of filter uses rotating discs?",
           options: [
-            "Disc filters",
             "Screen filters",
             "Sand filters",
+            "Disc filters",
             "Cartridge filters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Disc filters use stacked discs with grooves that trap particles, and they can be backwashed for cleaning."
         },
         {
           id: 8,
           question: "What triggers irrigation in sensor-based systems?",
           options: [
-            "Soil moisture levels",
             "Time of day only",
+            "Cloud cover",
             "Farmer's decision",
-            "Cloud cover"
+            "Soil moisture levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Soil moisture sensors trigger irrigation when soil moisture drops below predetermined levels, ensuring water is applied only when needed."
         },
         {
           id: 9,
           question: "What is distribution uniformity in irrigation?",
           options: [
-            "How evenly water is applied across field",
-            "Pipe diameter consistency",
             "Pressure stability",
-            "Filter efficiency"
+            "How evenly water is applied across field",
+            "Filter efficiency",
+            "Pipe diameter consistency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Distribution uniformity measures how evenly water is applied across the entire irrigated area, with higher percentages indicating better efficiency."
         },
         {
           id: 10,
           question: "What should be checked weekly in irrigation maintenance?",
           options: [
-            "Pressure readings and filter condition",
             "Pipe material degradation",
-            "Pump motor bearings",
-            "Controller programming"
+            "Pressure readings and filter condition",
+            "Controller programming",
+            "Pump motor bearings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Weekly checks should include pressure readings, filter condition, and emitter flow to ensure proper system operation."
         },
         {
           id: 11,
           question: "What irrigation method is best for sloped fields?",
           options: [
-            "Drip irrigation",
+            "Flood irrigation",
             "Furrow irrigation",
             "Basin irrigation",
-            "Flood irrigation"
+            "Drip irrigation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Drip irrigation works well on slopes because it delivers water slowly directly to plant roots, minimizing runoff."
         },
         {
@@ -272,9 +272,9 @@ Remember, good irrigation engineering matches the system to specific farm condit
           question: "What does backwashing do in filtration systems?",
           options: [
             "Cleans filters by reversing water flow",
+            "Tests system capacity",
             "Increases water pressure",
-            "Adds chemicals to water",
-            "Tests system capacity"
+            "Adds chemicals to water"
           ],
           correctAnswer: 0,
           explanation: "Backwashing cleans filters by reversing water flow to flush out trapped particles, restoring filter efficiency."
@@ -284,9 +284,9 @@ Remember, good irrigation engineering matches the system to specific farm condit
           question: "What type of pump is used for deep wells?",
           options: [
             "Submersible pumps",
-            "Centrifugal pumps",
+            "Piston pumps",
             "Diaphragm pumps",
-            "Piston pumps"
+            "Centrifugal pumps"
           ],
           correctAnswer: 0,
           explanation: "Submersible pumps are designed to operate while submerged, making them ideal for deep well applications."
@@ -295,24 +295,24 @@ Remember, good irrigation engineering matches the system to specific farm condit
           id: 14,
           question: "What is the purpose of zoning in irrigation design?",
           options: [
-            "Divide system into manageable sections",
+            "Mark property boundaries",
             "Separate different water sources",
-            "Create crop-specific areas",
-            "Mark property boundaries"
+            "Divide system into manageable sections",
+            "Create crop-specific areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Zoning divides the irrigation system into sections that can be operated independently, allowing different watering schedules for different areas."
         },
         {
           id: 15,
           question: "What measures water usage and detects leaks?",
           options: [
-            "Flow meters",
-            "Pressure gauges",
+            "Rain gauges",
             "Moisture sensors",
-            "Rain gauges"
+            "Flow meters",
+            "Pressure gauges"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Flow meters measure water volume passing through the system and can help detect leaks by showing unexpected water usage."
         },
         {
@@ -320,9 +320,9 @@ Remember, good irrigation engineering matches the system to specific farm condit
           question: "What is a common emitter problem in drip systems?",
           options: [
             "Clogging",
-            "Overheating",
+            "Freezing",
             "Corrosion",
-            "Freezing"
+            "Overheating"
           ],
           correctAnswer: 0,
           explanation: "Clogging is a common problem with emitters, caused by sediment, algae, or mineral deposits in the water."
@@ -331,36 +331,36 @@ Remember, good irrigation engineering matches the system to specific farm condit
           id: 17,
           question: "What irrigation controller uses weather data?",
           options: [
-            "Weather-based controllers",
-            "Simple timers",
             "Manual valves",
-            "Pressure switches"
+            "Weather-based controllers",
+            "Pressure switches",
+            "Simple timers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Weather-based controllers adjust irrigation schedules using local weather data to avoid watering before or after rainfall."
         },
         {
           id: 18,
           question: "What is rainwater harvesting?",
           options: [
-            "Collecting and storing rainwater",
-            "Measuring rain intensity",
             "Diverting river water",
-            "Treating wastewater"
+            "Treating wastewater",
+            "Measuring rain intensity",
+            "Collecting and storing rainwater"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Rainwater harvesting involves collecting rainwater from roofs or other surfaces and storing it for later irrigation use."
         },
         {
           id: 19,
           question: "What should irrigation efficiency aim for?",
           options: [
-            "85% or higher",
+            "100% always",
             "50-60%",
-            "70-75%",
-            "100% always"
+            "85% or higher",
+            "70-75%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Well-designed irrigation systems should achieve 85% or higher distribution uniformity for efficient water use."
         },
         {
@@ -368,9 +368,9 @@ Remember, good irrigation engineering matches the system to specific farm condit
           question: "What balances performance and cost in irrigation design?",
           options: [
             "Economic considerations",
+            "Labor availability",
             "Maximum water use",
-            "Latest technology only",
-            "Labor availability"
+            "Latest technology only"
           ],
           correctAnswer: 0,
           explanation: "Economic considerations help balance system performance with costs, ensuring the design is both effective and affordable."
@@ -603,72 +603,72 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           id: 1,
           question: "What is the standard mounting system for tractor implements?",
           options: [
+            "Bolted connection",
             "Three-point hitch",
             "Quick-attach system",
-            "Bolted connection",
             "Hydraulic clamp"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The three-point hitch is the standard system for attaching implements to tractors, providing stability and control."
         },
         {
           id: 2,
           question: "What does PTO stand for on tractors?",
           options: [
-            "Power Take-Off",
             "Primary Tractor Operation",
             "Power Transfer Output",
+            "Power Take-Off",
             "Performance Testing Option"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PTO stands for Power Take-Off, which transfers engine power to operate implements like mowers, balers, and pumps."
         },
         {
           id: 3,
           question: "What type of plow completely turns soil over?",
           options: [
-            "Moldboard plow",
-            "Disc plow",
             "Chisel plow",
+            "Disc plow",
+            "Moldboard plow",
             "Subsoiler"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Moldboard plows completely invert the soil, burying crop residue and exposing fresh soil for planting."
         },
         {
           id: 4,
           question: "What planting method disturbs only planting strips?",
           options: [
-            "Strip-till",
-            "No-till",
             "Conventional tillage",
-            "Deep tillage"
+            "Strip-till",
+            "Deep tillage",
+            "No-till"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strip-till equipment prepares only narrow strips where seeds will be planted, leaving most soil undisturbed for erosion control."
         },
         {
           id: 5,
           question: "What seed metering system uses air pressure?",
           options: [
-            "Vacuum meters",
-            "Plate meters",
             "Finger pickup",
-            "Belt meters"
+            "Belt meters",
+            "Vacuum meters",
+            "Plate meters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vacuum meters use air pressure differences to hold and release individual seeds for precise planting."
         },
         {
           id: 6,
           question: "What separates grain from stalks in a combine?",
           options: [
-            "Threshing cylinder",
-            "Cutting platform",
             "Cleaning system",
+            "Cutting platform",
+            "Threshing cylinder",
             "Grain tank"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The threshing cylinder uses rotating bars to separate grain from the stalks and heads through impact and friction."
         },
         {
@@ -676,8 +676,8 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           question: "What sprayer type is best for orchards?",
           options: [
             "Airblast sprayers",
-            "Boom sprayers",
             "Backpack sprayers",
+            "Boom sprayers",
             "Aerial sprayers"
           ],
           correctAnswer: 0,
@@ -687,36 +687,36 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           id: 8,
           question: "What nozzle type reduces drift with air bubbles?",
           options: [
-            "Air induction nozzles",
             "Flat fan nozzles",
-            "Hollow cone nozzles",
-            "Full cone nozzles"
+            "Air induction nozzles",
+            "Full cone nozzles",
+            "Hollow cone nozzles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Air induction nozzles mix air with the spray liquid to create larger droplets containing air bubbles, reducing drift potential."
         },
         {
           id: 9,
           question: "What moves grain vertically in handling systems?",
           options: [
+            "Pneumatic systems",
             "Augers",
             "Belt conveyors",
-            "Pneumatic systems",
             "Bucket elevators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Augers use rotating helical flights inside a tube to move grain both horizontally and vertically in handling systems."
         },
         {
           id: 10,
           question: "What saves lives in tractor overturns?",
           options: [
-            "ROPS with seat belt",
-            "Wide tires",
             "Low center of gravity",
-            "Four-wheel drive"
+            "Four-wheel drive",
+            "ROPS with seat belt",
+            "Wide tires"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Roll-Over Protection Structures (ROPS) with seat belts prevent crushing injuries in tractor overturns when properly used."
         },
         {
@@ -725,8 +725,8 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           options: [
             "540 or 1000 RPM",
             "750 or 1500 RPM",
-            "360 or 720 RPM",
-            "1000 or 2000 RPM"
+            "1000 or 2000 RPM",
+            "360 or 720 RPM"
           ],
           correctAnswer: 0,
           explanation: "Standard PTO speeds are 540 RPM for smaller implements and 1000 RPM for larger, higher-power implements."
@@ -735,12 +735,12 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           id: 12,
           question: "What is section control in spraying?",
           options: [
-            "Turning off unused boom sections",
             "Controlling spray pressure",
-            "Adjusting nozzle patterns",
-            "Regulating tank mixing"
+            "Regulating tank mixing",
+            "Turning off unused boom sections",
+            "Adjusting nozzle patterns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Section control automatically turns off spray boom sections that are over already-treated areas or obstacles, reducing chemical waste."
         },
         {
@@ -748,9 +748,9 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           question: "What type of harvester chops forage crops?",
           options: [
             "Forage harvester",
-            "Combine harvester",
             "Cotton picker",
-            "Potato digger"
+            "Potato digger",
+            "Combine harvester"
           ],
           correctAnswer: 0,
           explanation: "Forage harvesters cut and chop forage crops like corn silage or haylage into consistent lengths for storage and feeding."
@@ -759,48 +759,48 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           id: 14,
           question: "What is telematics in farm machinery?",
           options: [
-            "Remote monitoring and data collection",
-            "Hydraulic system design",
             "Engine tuning software",
+            "Hydraulic system design",
+            "Remote monitoring and data collection",
             "GPS signal processing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Telematics systems collect and transmit equipment data remotely for monitoring performance, location, and maintenance needs."
         },
         {
           id: 15,
           question: "What emission standard applies to modern diesel engines?",
           options: [
-            "Tier 4",
+            "Clean Air Act",
             "Euro 5",
             "EPA Phase 3",
-            "Clean Air Act"
+            "Tier 4"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Tier 4 emission standards apply to modern diesel engines, requiring significant reduction of particulate matter and nitrogen oxides."
         },
         {
           id: 16,
           question: "What should be checked daily on machinery?",
           options: [
-            "Lubrication and fluid levels",
-            "Engine compression",
+            "Electrical wiring",
             "Tire tread depth",
-            "Electrical wiring"
+            "Lubrication and fluid levels",
+            "Engine compression"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Daily checks should include lubrication points, fluid levels (oil, coolant, hydraulic), and general cleaning to prevent problems."
         },
         {
           id: 17,
           question: "What is variable rate technology?",
           options: [
-            "Adjusting inputs based on field conditions",
             "Changing engine RPM",
-            "Modifying transmission speeds",
-            "Adjusting tire pressure"
+            "Adjusting inputs based on field conditions",
+            "Adjusting tire pressure",
+            "Modifying transmission speeds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Variable rate technology adjusts the application rate of seeds, fertilizer, or chemicals based on GPS-guided field maps."
         },
         {
@@ -808,9 +808,9 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           question: "What is a skid steer loader known for?",
           options: [
             "Compact maneuverability",
-            "High lifting capacity",
+            "Low fuel consumption",
             "Fast road speed",
-            "Low fuel consumption"
+            "High lifting capacity"
           ],
           correctAnswer: 0,
           explanation: "Skid steer loaders are compact and highly maneuverable, able to turn within their own length by skidding their wheels."
@@ -819,24 +819,24 @@ Remember, agricultural machinery engineering balances performance, efficiency, s
           id: 19,
           question: "What is lockout/tagout for?",
           options: [
-            "Safety during maintenance",
-            "Preventing theft",
             "Weather protection",
-            "Transport security"
+            "Preventing theft",
+            "Transport security",
+            "Safety during maintenance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Lockout/tagout procedures ensure machinery is de-energized and cannot be started during maintenance to protect workers."
         },
         {
           id: 20,
           question: "What is yield monitoring?",
           options: [
-            "Measuring crop harvest in real-time",
             "Checking seed placement",
+            "Tracking operator hours",
             "Monitoring fuel consumption",
-            "Tracking operator hours"
+            "Measuring crop harvest in real-time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Yield monitoring systems measure crop yield in real-time during harvest, creating maps that show field productivity variations."
         }
       ]
@@ -1078,72 +1078,72 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           id: 1,
           question: "What type of load is the weight of the structure itself?",
           options: [
-            "Dead load",
-            "Live load",
             "Environmental load",
+            "Live load",
+            "Dead load",
             "Impact load"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dead load refers to the permanent weight of the structure itself, including walls, roof, and permanent fixtures."
         },
         {
           id: 2,
           question: "What dairy barn design has individual resting areas?",
           options: [
-            "Free stall barns",
-            "Tie stall barns",
+            "Pasture systems",
             "Open barns",
-            "Pasture systems"
+            "Free stall barns",
+            "Tie stall barns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Free stall barns provide individual resting areas (stalls) where cows can choose to lie down, with common alleys for movement."
         },
         {
           id: 3,
           question: "What is the most common on-farm grain storage?",
           options: [
-            "Round steel bins",
             "Flat storage buildings",
             "Silos",
-            "Bag storage"
+            "Bag storage",
+            "Round steel bins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Round steel bins are the most common on-farm grain storage due to their efficiency, durability, and relatively low cost."
         },
         {
           id: 4,
           question: "What system controls temperature in grain storage?",
           options: [
-            "Aeration systems",
+            "Humidity control",
             "Heating systems",
             "Cooling systems",
-            "Humidity control"
+            "Aeration systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Aeration systems use fans to move air through stored grain, controlling temperature and preventing moisture buildup."
         },
         {
           id: 5,
           question: "What ventilation uses ridge and sidewall openings?",
           options: [
+            "Forced ventilation",
             "Natural ventilation",
             "Mechanical ventilation",
-            "Forced ventilation",
             "Positive pressure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Natural ventilation relies on thermal buoyancy and wind pressure through strategically placed openings in ridge and sidewalls."
         },
         {
           id: 6,
           question: "What cooling system uses water evaporation?",
           options: [
+            "Heat exchangers",
             "Evaporative cooling",
             "Fogging systems",
-            "Refrigeration",
-            "Heat exchangers"
+            "Refrigeration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Evaporative cooling uses water evaporation to reduce air temperature, typically with wet pads and exhaust fans."
         },
         {
@@ -1151,9 +1151,9 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           question: "What feed delivery mixes all diet components?",
           options: [
             "Total Mixed Ration (TMR)",
-            "Component feeding",
+            "Timed feeding",
             "Free-choice feeding",
-            "Timed feeding"
+            "Component feeding"
           ],
           correctAnswer: 0,
           explanation: "Total Mixed Ration (TMR) mixes all feed components into a complete diet delivered to animals in measured amounts."
@@ -1162,24 +1162,24 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           id: 8,
           question: "What manure storage uses earthen basins?",
           options: [
-            "Lagoons",
-            "Tanks",
             "Ponds",
+            "Tanks",
+            "Lagoons",
             "Pits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Lagoons are large earthen basins designed for manure storage and treatment through natural biological processes."
         },
         {
           id: 9,
           question: "What greenhouse design has multiple connected bays?",
           options: [
-            "Gutter-connected",
-            "Quonset houses",
             "Sawtooth design",
+            "Quonset houses",
+            "Gutter-connected",
             "High tunnels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Gutter-connected greenhouses have multiple bays joined together at the gutters, creating large, efficient growing areas."
         },
         {
@@ -1187,9 +1187,9 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           question: "What workshop safety device protects against electrical shock?",
           options: [
             "GFCI protection",
+            "Ear protection",
             "Fire extinguishers",
-            "Safety glasses",
-            "Ear protection"
+            "Safety glasses"
           ],
           correctAnswer: 0,
           explanation: "Ground Fault Circuit Interrupter (GFCI) protection automatically shuts off power if electrical current leakage is detected, preventing shocks."
@@ -1199,8 +1199,8 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           question: "What is the angle of repose important for?",
           options: [
             "Grain bin capacity calculations",
-            "Roof slope design",
             "Foundation stability",
+            "Roof slope design",
             "Ventilation efficiency"
           ],
           correctAnswer: 0,
@@ -1210,48 +1210,48 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           id: 12,
           question: "What milking parlor design has cows at an angle?",
           options: [
-            "Herringbone",
             "Rotary",
+            "Herringbone",
             "Parallel",
             "Tandem"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Herringbone parlors position cows at an angle (typically 30-45 degrees) to the operator pit for efficient milking."
         },
         {
           id: 13,
           question: "What insulation prevents ground heat loss?",
           options: [
-            "Foundation insulation",
-            "Wall insulation",
             "Roof insulation",
-            "Door seals"
+            "Foundation insulation",
+            "Door seals",
+            "Wall insulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Foundation insulation installed around the perimeter of a building's foundation prevents heat loss to the ground."
         },
         {
           id: 14,
           question: "What is daylight harvesting?",
           options: [
+            "Growing crops in sunlight",
             "Using natural light to reduce artificial lighting",
-            "Collecting rainwater",
             "Solar panel installation",
-            "Growing crops in sunlight"
+            "Collecting rainwater"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Daylight harvesting uses sensors to dim or turn off artificial lights when sufficient natural light is available."
         },
         {
           id: 15,
           question: "What is a key consideration in site planning?",
           options: [
-            "Traffic flow efficiency",
             "Building color",
             "Roof material",
-            "Window style"
+            "Window style",
+            "Traffic flow efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Efficient traffic flow for equipment, animals, and materials is crucial for operational efficiency and safety in farm layout."
         },
         {
@@ -1259,9 +1259,9 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           question: "What type of load includes wind and snow?",
           options: [
             "Environmental loads",
-            "Dead loads",
             "Live loads",
-            "Impact loads"
+            "Impact loads",
+            "Dead loads"
           ],
           correctAnswer: 0,
           explanation: "Environmental loads include forces from weather conditions like wind pressure, snow accumulation, and seismic activity."
@@ -1270,12 +1270,12 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           id: 17,
           question: "What poultry system houses meat birds?",
           options: [
-            "Broiler houses",
+            "Pullet houses",
             "Layer houses",
             "Breeder houses",
-            "Pullet houses"
+            "Broiler houses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Broiler houses are specifically designed for raising meat birds (broilers) from chicks to market weight."
         },
         {
@@ -1283,8 +1283,8 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           question: "What feed processing equipment blends ingredients?",
           options: [
             "Grinders/Mixers",
-            "Conveyors",
             "Weighing systems",
+            "Conveyors",
             "Automated feeders"
           ],
           correctAnswer: 0,
@@ -1296,8 +1296,8 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           options: [
             "Hydroponics",
             "Soil beds",
-            "Benches",
-            "Vertical farming"
+            "Vertical farming",
+            "Benches"
           ],
           correctAnswer: 0,
           explanation: "Hydroponic systems grow plants in nutrient-rich water solutions without soil, allowing precise control of plant nutrition."
@@ -1306,12 +1306,12 @@ Remember, well-engineered farm structures improve efficiency, enhance safety, pr
           id: 20,
           question: "What renewable energy uses agricultural waste?",
           options: [
-            "Biomass heating",
-            "Solar systems",
             "Wind energy",
+            "Solar systems",
+            "Biomass heating",
             "Geothermal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Biomass heating systems burn agricultural waste products like crop residues or manure to generate heat for farm buildings."
         }
       ]
@@ -1560,48 +1560,48 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           id: 1,
           question: "What erosion type removes uniform thin soil layers?",
           options: [
-            "Sheet erosion",
+            "Stream bank erosion",
             "Rill erosion",
-            "Gully erosion",
-            "Stream bank erosion"
+            "Sheet erosion",
+            "Gully erosion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sheet erosion removes soil in thin, uniform layers across large areas, often unnoticed until significant topsoil is lost."
         },
         {
           id: 2,
           question: "What does USLE stand for in erosion prediction?",
           options: [
-            "Universal Soil Loss Equation",
             "United States Land Evaluation",
+            "Universal Soil Loss Equation",
             "Universal Soil Life Estimate",
             "Urban Soil Loss Equation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "USLE stands for Universal Soil Loss Equation, a mathematical model used to predict average annual soil loss from field erosion."
         },
         {
           id: 3,
           question: "What farming practice follows land contours?",
           options: [
-            "Contour farming",
-            "Terrace farming",
             "Strip cropping",
-            "Windbreak planting"
+            "Windbreak planting",
+            "Contour farming",
+            "Terrace farming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Contour farming involves performing farming operations along the contour lines of sloping land to reduce runoff and erosion."
         },
         {
           id: 4,
           question: "What are constructed platforms on slopes called?",
           options: [
-            "Terraces",
-            "Waterways",
             "Windbreaks",
+            "Waterways",
+            "Terraces",
             "Filter strips"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Terraces are constructed platforms on sloping land that break long slopes into shorter segments to reduce runoff velocity."
         },
         {
@@ -1610,8 +1610,8 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           options: [
             "Grassed waterways",
             "Lined waterways",
-            "Diversion channels",
-            "Outlet structures"
+            "Outlet structures",
+            "Diversion channels"
           ],
           correctAnswer: 0,
           explanation: "Grassed waterways are vegetated channels that convey concentrated runoff while preventing erosion through plant root protection."
@@ -1620,24 +1620,24 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           id: 6,
           question: "What tillage system leaves most residue on surface?",
           options: [
-            "No-till",
             "Conventional tillage",
             "Reduced tillage",
-            "Deep tillage"
+            "Deep tillage",
+            "No-till"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "No-till systems leave most crop residue on the soil surface, protecting against erosion and improving water infiltration."
         },
         {
           id: 7,
           question: "What irrigation controller uses weather data?",
           options: [
+            "Pressure controllers",
             "Evapotranspiration controllers",
-            "Timer controllers",
             "Manual controllers",
-            "Pressure controllers"
+            "Timer controllers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Evapotranspiration controllers use local weather data to adjust irrigation schedules based on actual crop water needs."
         },
         {
@@ -1656,36 +1656,36 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           id: 9,
           question: "What protects fields from wind erosion?",
           options: [
+            "Waterways",
             "Windbreaks",
             "Terraces",
-            "Waterways",
             "Drainage tiles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Windbreaks are rows of trees or shrubs planted to reduce wind speed and protect fields from wind erosion."
         },
         {
           id: 10,
           question: "What structure captures eroded soil?",
           options: [
-            "Sediment basins",
             "Check dams",
             "Filter strips",
-            "All of the above"
+            "All of the above",
+            "Sediment basins"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "All these structures help capture eroded soil: sediment basins (large scale), check dams (small channels), and filter strips (vegetated areas)."
         },
         {
           id: 11,
           question: "What improves soil biological activity?",
           options: [
-            "Cover crops",
+            "Monocropping",
             "Deep tillage",
             "Chemical fertilizers only",
-            "Monocropping"
+            "Cover crops"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cover crops improve soil biological activity by providing organic matter and diverse root systems that support soil organisms."
         },
         {
@@ -1704,24 +1704,24 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           id: 13,
           question: "What terrace type has gentle slopes for machinery?",
           options: [
+            "Channel terraces",
             "Broadbase terraces",
             "Bench terraces",
-            "Grassed backslope terraces",
-            "Channel terraces"
+            "Grassed backslope terraces"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Broadbase terraces have gentle side slopes that allow farm machinery to cross them easily during field operations."
         },
         {
           id: 14,
           question: "What measurement determines waterway capacity?",
           options: [
-            "Watershed area",
-            "Soil type only",
+            "Field shape",
             "Crop type",
-            "Field shape"
+            "Watershed area",
+            "Soil type only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Watershed area (the land area draining to the waterway) is the primary factor in determining waterway capacity requirements."
         },
         {
@@ -1729,8 +1729,8 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           question: "What is variable rate irrigation?",
           options: [
             "Precision water application based on field needs",
-            "Changing irrigation times daily",
             "Using different water sources",
+            "Changing irrigation times daily",
             "Alternating between sprinkler types"
           ],
           correctAnswer: 0,
@@ -1740,12 +1740,12 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           id: 16,
           question: "What is controlled drainage?",
           options: [
-            "Adjustable outlet structures for water table management",
-            "Complete drainage system shutdown",
             "Using drainage for irrigation only",
+            "Complete drainage system shutdown",
+            "Adjustable outlet structures for water table management",
             "Automatic pump systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Controlled drainage uses adjustable outlet structures to manage water table levels, retaining water when needed and draining when excessive."
         },
         {
@@ -1753,9 +1753,9 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           question: "How far does a windbreak typically protect?",
           options: [
             "10-20 times its height",
-            "Equal to its width",
+            "The entire farm",
             "Only immediately behind it",
-            "The entire farm"
+            "Equal to its width"
           ],
           correctAnswer: 0,
           explanation: "A windbreak typically protects an area 10-20 times its height downwind, with maximum protection within 5 times the height."
@@ -1764,36 +1764,36 @@ Remember, soil and water conservation engineering creates sustainable agricultur
           id: 18,
           question: "What is a filter strip?",
           options: [
-            "Vegetated area that filters runoff",
             "Water treatment facility",
             "Sediment removal machine",
+            "Vegetated area that filters runoff",
             "Underground filtration system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A filter strip is a vegetated area designed to remove sediment, nutrients, and other pollutants from runoff before it reaches waterways."
         },
         {
           id: 19,
           question: "What soil amendment adjusts pH?",
           options: [
-            "Lime",
+            "Biochar",
             "Gypsum",
-            "Compost",
-            "Biochar"
+            "Lime",
+            "Compost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Lime is applied to acidic soils to raise pH levels, making nutrients more available to plants and improving soil structure."
         },
         {
           id: 20,
           question: "What is a farm conservation plan?",
           options: [
-            "Comprehensive soil and water management document",
+            "Financial budget",
             "Crop planting schedule",
             "Equipment maintenance log",
-            "Financial budget"
+            "Comprehensive soil and water management document"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A farm conservation plan is a comprehensive document outlining practices to manage soil, water, and related natural resources on a farm."
         }
       ]
@@ -2044,12 +2044,12 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           id: 1,
           question: "What are the two main types of solar energy systems?",
           options: [
-            "Photovoltaic and solar thermal",
-            "Passive and active",
             "Direct and indirect",
-            "Concentrated and dispersed"
+            "Photovoltaic and solar thermal",
+            "Concentrated and dispersed",
+            "Passive and active"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The two main types are photovoltaic (converting sunlight to electricity) and solar thermal (using sunlight for heat)."
         },
         {
@@ -2068,12 +2068,12 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           id: 3,
           question: "What wind turbine type has vertical blades?",
           options: [
+            "Three-blade design",
             "Vertical axis",
             "Horizontal axis",
-            "Propeller style",
-            "Three-blade design"
+            "Propeller style"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vertical axis wind turbines have blades that rotate around a vertical shaft, catching wind from any direction."
         },
         {
@@ -2081,9 +2081,9 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           question: "What is net metering for renewable energy?",
           options: [
             "Selling excess power to the utility grid",
-            "Measuring energy use only",
+            "Tracking carbon emissions",
             "Storing energy in batteries",
-            "Tracking carbon emissions"
+            "Measuring energy use only"
           ],
           correctAnswer: 0,
           explanation: "Net metering allows farms to sell excess renewable electricity back to the utility grid, offsetting energy costs."
@@ -2092,24 +2092,24 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           id: 5,
           question: "What biomass energy source comes from animal waste?",
           options: [
-            "Manure for anaerobic digestion",
-            "Crop residues only",
             "Food processing waste",
-            "Wood chips"
+            "Crop residues only",
+            "Wood chips",
+            "Manure for anaerobic digestion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Animal manure is a valuable biomass source for anaerobic digestion, producing methane-rich biogas for energy production."
         },
         {
           id: 6,
           question: "What does anaerobic digestion produce?",
           options: [
-            "Biogas (methane)",
-            "Ethanol only",
+            "Direct heat",
             "Solid fuel pellets",
-            "Direct heat"
+            "Ethanol only",
+            "Biogas (methane)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Anaerobic digestion produces biogas, primarily methane, which can be used for heating or electricity generation."
         },
         {
@@ -2117,9 +2117,9 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           question: "What geothermal system uses ground loops?",
           options: [
             "Ground source heat pumps",
+            "Deep well injection",
             "Direct steam systems",
-            "Hot spring utilization",
-            "Deep well injection"
+            "Hot spring utilization"
           ],
           correctAnswer: 0,
           explanation: "Ground source heat pumps use buried loops to exchange heat with the earth for efficient building heating and cooling."
@@ -2140,12 +2140,12 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           id: 9,
           question: "What micro-hydro component carries water to turbine?",
           options: [
-            "Penstock",
-            "Intake screen",
+            "Transformer",
             "Generator",
-            "Transformer"
+            "Intake screen",
+            "Penstock"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The penstock is the pipe that carries water from the intake to the turbine in a micro-hydro system."
         },
         {
@@ -2166,8 +2166,8 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           options: [
             "LED lighting",
             "Fluorescent lighting",
-            "Incandescent bulbs",
-            "Halogen lamps"
+            "Halogen lamps",
+            "Incandescent bulbs"
           ],
           correctAnswer: 0,
           explanation: "LED (Light Emitting Diode) lighting is currently the most energy-efficient lighting technology available."
@@ -2177,9 +2177,9 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           question: "What battery type has highest efficiency?",
           options: [
             "Lithium-ion",
-            "Lead-acid",
             "Nickel-cadmium",
-            "Alkaline"
+            "Alkaline",
+            "Lead-acid"
           ],
           correctAnswer: 0,
           explanation: "Lithium-ion batteries currently offer the highest efficiency (energy out vs. energy in) for energy storage applications."
@@ -2188,48 +2188,48 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           id: 13,
           question: "What thermal storage uses water?",
           options: [
+            "Insulated containers",
             "Water storage tanks",
             "Rock beds",
-            "Phase change materials",
-            "Insulated containers"
+            "Phase change materials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Water storage tanks are a common and effective method for thermal energy storage in agricultural applications."
         },
         {
           id: 14,
           question: "What hybrid system balances daily patterns?",
           options: [
-            "Solar-wind hybrid",
+            "Micro-hydro with storage",
             "Biogas-solar",
-            "Geothermal-PV",
-            "Micro-hydro with storage"
+            "Solar-wind hybrid",
+            "Geothermal-PV"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Solar-wind hybrid systems balance daily patterns: solar produces during daylight, wind often produces at night or during storms."
         },
         {
           id: 15,
           question: "What financial incentive reduces tax liability?",
           options: [
-            "Tax credits",
             "Grants",
-            "Rebates",
-            "Production incentives"
+            "Production incentives",
+            "Tax credits",
+            "Rebates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Tax credits directly reduce the amount of taxes owed, making them valuable incentives for renewable energy investments."
         },
         {
           id: 16,
           question: "What measures time to recover investment?",
           options: [
-            "Payback period",
             "Return on investment",
-            "Net present value",
-            "Internal rate of return"
+            "Payback period",
+            "Internal rate of return",
+            "Net present value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Payback period measures how long it takes for energy savings to recover the initial investment cost."
         },
         {
@@ -2237,9 +2237,9 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           question: "What reduces carbon footprint directly?",
           options: [
             "On-farm fossil fuel displacement",
-            "Only carbon credits",
             "Tree planting only",
-            "Soil testing"
+            "Soil testing",
+            "Only carbon credits"
           ],
           correctAnswer: 0,
           explanation: "Direct reduction comes from displacing fossil fuels used on the farm with renewable energy sources."
@@ -2248,12 +2248,12 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           id: 18,
           question: "What electrical code governs installations?",
           options: [
-            "National Electrical Code (NEC)",
             "International Building Code",
             "OSHA regulations",
+            "National Electrical Code (NEC)",
             "EPA guidelines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The National Electrical Code (NEC) governs electrical installations, including renewable energy systems, in the United States."
         },
         {
@@ -2262,8 +2262,8 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           options: [
             "Worker safety during maintenance",
             "Lightning protection",
-            "Surge protection",
-            "Fire prevention"
+            "Fire prevention",
+            "Surge protection"
           ],
           correctAnswer: 0,
           explanation: "Arc flash protection includes safety equipment and procedures to protect workers from electrical arc explosions during maintenance."
@@ -2272,12 +2272,12 @@ Remember, renewable energy engineering in agriculture requires balancing technic
           id: 20,
           question: "What considers wildlife impacts for wind systems?",
           options: [
-            "Bird and bat protection measures",
             "Only noise regulations",
             "Visual impact assessments",
+            "Bird and bat protection measures",
             "Setback requirements only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Wind energy projects must consider and mitigate impacts on birds and bats through proper siting and operational strategies."
         }
       ]
@@ -2528,24 +2528,24 @@ Remember, precision agriculture engineering creates interconnected systems that 
           id: 1,
           question: "What provides highest GPS accuracy for agriculture?",
           options: [
-            "RTK (Real-Time Kinematic)",
             "Autonomous GPS",
-            "DGPS (Differential)",
-            "Standard GPS"
+            "RTK (Real-Time Kinematic)",
+            "Standard GPS",
+            "DGPS (Differential)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RTK provides 1-3 centimeter accuracy, making it suitable for precision agriculture applications like automated steering."
         },
         {
           id: 2,
           question: "What does auto-steer reduce in field operations?",
           options: [
-            "Overlap and skips",
             "Only fuel consumption",
+            "Overlap and skips",
             "Equipment wear only",
             "Operator comfort"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Auto-steer systems reduce both overlap (wasted inputs) and skips (missed areas), improving field operation efficiency."
         },
         {
@@ -2553,9 +2553,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
           question: "What yield monitor component measures grain volume?",
           options: [
             "Mass flow sensor",
-            "Moisture sensor",
+            "Display controller",
             "GPS receiver",
-            "Display controller"
+            "Moisture sensor"
           ],
           correctAnswer: 0,
           explanation: "Mass flow sensors measure the volume of grain passing through the combine, which is used to calculate yield."
@@ -2564,72 +2564,72 @@ Remember, precision agriculture engineering creates interconnected systems that 
           id: 4,
           question: "What does VRT stand for?",
           options: [
-            "Variable Rate Technology",
+            "Velocity Regulation Technology",
             "Vertical Rotation Technique",
-            "Variable Resistance Testing",
-            "Velocity Regulation Technology"
+            "Variable Rate Technology",
+            "Variable Resistance Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "VRT stands for Variable Rate Technology, which allows application rates of inputs to vary across a field based on needs."
         },
         {
           id: 5,
           question: "What VRT method uses pre-made maps?",
           options: [
-            "Map-based VRT",
-            "Sensor-based VRT",
+            "Automatic VRT",
             "Manual VRT",
-            "Automatic VRT"
+            "Sensor-based VRT",
+            "Map-based VRT"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Map-based VRT uses prescription maps created before the operation to control application rates across the field."
         },
         {
           id: 6,
           question: "What sensor measures soil texture indirectly?",
           options: [
-            "Electrical conductivity sensor",
             "pH sensor",
             "Moisture sensor",
-            "Temperature sensor"
+            "Temperature sensor",
+            "Electrical conductivity sensor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Electrical conductivity sensors measure how well soil conducts electricity, which correlates with soil texture and salinity."
         },
         {
           id: 7,
           question: "What plant health indicator uses light reflectance?",
           options: [
-            "NDVI (Normalized Difference Vegetation Index)",
+            "Stem diameter",
             "Chlorophyll meter",
-            "Leaf area index",
-            "Stem diameter"
+            "NDVI (Normalized Difference Vegetation Index)",
+            "Leaf area index"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NDVI uses the difference between near-infrared and red light reflectance to indicate plant health and biomass."
         },
         {
           id: 8,
           question: "What is required for autonomous equipment operation?",
           options: [
-            "Perception, control, and actuation systems",
-            "Only GPS guidance",
             "Manual override capability",
-            "Camera systems only"
+            "Camera systems only",
+            "Only GPS guidance",
+            "Perception, control, and actuation systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Autonomous equipment requires perception (sensing environment), control (decision making), and actuation (physical action) systems."
         },
         {
           id: 9,
           question: "What does FMIS stand for?",
           options: [
-            "Farm Management Information System",
+            "Farm Machinery Information System",
             "Field Mapping Integration Software",
             "Fertilizer Management and Irrigation System",
-            "Farm Machinery Information System"
+            "Farm Management Information System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FMIS stands for Farm Management Information System, software platforms that manage comprehensive farm data."
         },
         {
@@ -2637,9 +2637,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
           question: "What irrigation automation saves water?",
           options: [
             "Soil moisture sensor integration",
-            "Only timer-based systems",
+            "Basic sprinkler systems",
             "Manual valve control",
-            "Basic sprinkler systems"
+            "Only timer-based systems"
           ],
           correctAnswer: 0,
           explanation: "Integrating soil moisture sensors ensures irrigation only occurs when needed, conserving water compared to scheduled systems."
@@ -2648,12 +2648,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
           id: 11,
           question: "What tracks individual animals automatically?",
           options: [
+            "Brand marks only",
             "RFID systems",
             "Visual identification",
-            "Brand marks only",
             "Ear notches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RFID (Radio Frequency Identification) systems use electronic tags to automatically identify and track individual animals."
         },
         {
@@ -2661,9 +2661,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
           question: "What detects early illness in livestock?",
           options: [
             "Temperature and activity sensors",
+            "Feed consumption tracking",
             "Only visual observation",
-            "Weight measurements only",
-            "Feed consumption tracking"
+            "Weight measurements only"
           ],
           correctAnswer: 0,
           explanation: "Temperature sensors can detect fever, and activity monitors can show reduced movement, both early indicators of illness."
@@ -2672,24 +2672,24 @@ Remember, precision agriculture engineering creates interconnected systems that 
           id: 13,
           question: "What uses weather data for disease prediction?",
           options: [
-            "Disease prediction models",
-            "Only field scouting",
+            "Historical patterns only",
             "Visual inspection",
-            "Historical patterns only"
+            "Disease prediction models",
+            "Only field scouting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Disease prediction models use weather data (temperature, humidity, rainfall) to assess risk and recommend management actions."
         },
         {
           id: 14,
           question: "What finds patterns in complex agricultural data?",
           options: [
-            "Machine learning algorithms",
-            "Basic spreadsheets",
             "Manual calculation",
-            "Simple averages"
+            "Simple averages",
+            "Basic spreadsheets",
+            "Machine learning algorithms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Machine learning algorithms can identify complex patterns in agricultural data that might not be apparent through traditional analysis."
         },
         {
@@ -2697,9 +2697,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
           question: "What is a major integration challenge?",
           options: [
             "Equipment compatibility",
-            "Only cost concerns",
+            "Field size",
             "Farmer age",
-            "Field size"
+            "Only cost concerns"
           ],
           correctAnswer: 0,
           explanation: "Equipment compatibility between different brands and generations of technology is a major challenge in precision agriculture integration."
@@ -2709,9 +2709,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
           question: "What GPS correction improves basic accuracy?",
           options: [
             "DGPS (Differential GPS)",
-            "Only satellite signals",
+            "Equipment adjustment",
             "Manual calibration",
-            "Equipment adjustment"
+            "Only satellite signals"
           ],
           correctAnswer: 0,
           explanation: "DGPS uses ground-based correction signals to improve basic GPS accuracy from 3-5 meters to 1-3 meters."
@@ -2720,48 +2720,48 @@ Remember, precision agriculture engineering creates interconnected systems that 
           id: 17,
           question: "What is automatic section control?",
           options: [
-            "Turning off unused application sections",
             "Speed control only",
             "Manual valve operation",
+            "Turning off unused application sections",
             "Pressure regulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Automatic section control turns off boom sections or individual nozzles over already-treated areas or obstacles."
         },
         {
           id: 18,
           question: "What does NDVI measure?",
           options: [
-            "Plant health and biomass",
-            "Soil moisture only",
+            "Wind speed",
             "Air temperature",
-            "Wind speed"
+            "Soil moisture only",
+            "Plant health and biomass"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NDVI measures the difference between near-infrared and red light reflectance, indicating plant health, vigor, and biomass."
         },
         {
           id: 19,
           question: "What is essential for autonomous equipment safety?",
           options: [
-            "Obstacle detection systems",
+            "Manual controls",
             "Only GPS accuracy",
             "Operator presence",
-            "Manual controls"
+            "Obstacle detection systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Obstacle detection systems (using cameras, LiDAR, radar) are essential for autonomous equipment to detect and avoid obstacles."
         },
         {
           id: 20,
           question: "What helps farmers make data-driven decisions?",
           options: [
-            "Decision support systems",
-            "Only experience",
             "Neighbor advice",
-            "Tradition only"
+            "Only experience",
+            "Tradition only",
+            "Decision support systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Decision support systems analyze precision agriculture data to provide management recommendations based on evidence and models."
         }
       ]
@@ -2780,12 +2780,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 1,
         question: "What does ET stand for in irrigation engineering?",
         options: [
+          "Equipment Test",
           "Evapotranspiration",
-          "Estimated Time",
           "Energy Transfer",
-          "Equipment Test"
+          "Estimated Time"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "ET combines evaporation from soil and transpiration from plants to calculate crop water needs."
       },
       {
@@ -2804,12 +2804,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 3,
         question: "What component maintains drip system pressure?",
         options: [
-          "Pressure regulators",
-          "Flow meters",
           "Filters",
-          "Control valves"
+          "Flow meters",
+          "Control valves",
+          "Pressure regulators"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Pressure regulators maintain consistent water pressure throughout drip irrigation systems."
       },
       {
@@ -2829,9 +2829,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
         question: "What filter type uses stacked discs?",
         options: [
           "Disc filters",
-          "Screen filters",
           "Sand filters",
-          "Cartridge filters"
+          "Cartridge filters",
+          "Screen filters"
         ],
         correctAnswer: 0,
         explanation: "Disc filters use stacked discs with grooves that trap particles and can be backwashed for cleaning."
@@ -2840,24 +2840,24 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 6,
         question: "What irrigation controller uses weather data?",
         options: [
-          "Weather-based controllers",
-          "Simple timers",
           "Manual valves",
-          "Pressure switches"
+          "Pressure switches",
+          "Simple timers",
+          "Weather-based controllers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Weather-based controllers adjust irrigation schedules using local weather data to optimize water use."
       },
       {
         id: 7,
         question: "What should irrigation efficiency aim for?",
         options: [
-          "85% or higher",
-          "50-60%",
           "70-75%",
-          "100% always"
+          "100% always",
+          "85% or higher",
+          "50-60%"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Well-designed irrigation systems should achieve 85% or higher distribution uniformity."
       },
       
@@ -2866,12 +2866,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 8,
         question: "What is the standard implement mounting system?",
         options: [
+          "Hydraulic clamp",
           "Three-point hitch",
-          "Quick-attach system",
           "Bolted connection",
-          "Hydraulic clamp"
+          "Quick-attach system"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The three-point hitch is the standard system for attaching implements to tractors."
       },
       {
@@ -2890,60 +2890,60 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 10,
         question: "What seed metering uses air pressure?",
         options: [
-          "Vacuum meters",
           "Plate meters",
           "Finger pickup",
-          "Belt meters"
+          "Belt meters",
+          "Vacuum meters"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Vacuum meters use air pressure differences to hold and release individual seeds precisely."
       },
       {
         id: 11,
         question: "What separates grain in a combine?",
         options: [
-          "Threshing cylinder",
+          "Grain tank",
           "Cutting platform",
           "Cleaning system",
-          "Grain tank"
+          "Threshing cylinder"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The threshing cylinder separates grain from stalks through impact and friction."
       },
       {
         id: 12,
         question: "What nozzle reduces spray drift?",
         options: [
+          "Full cone nozzles",
           "Air induction nozzles",
           "Flat fan nozzles",
-          "Hollow cone nozzles",
-          "Full cone nozzles"
+          "Hollow cone nozzles"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Air induction nozzles create larger droplets containing air bubbles, reducing drift."
       },
       {
         id: 13,
         question: "What saves lives in tractor overturns?",
         options: [
-          "ROPS with seat belt",
-          "Wide tires",
           "Low center of gravity",
-          "Four-wheel drive"
+          "Four-wheel drive",
+          "ROPS with seat belt",
+          "Wide tires"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Roll-Over Protection Structures with seat belts prevent crushing in overturns."
       },
       {
         id: 14,
         question: "What is variable rate technology?",
         options: [
-          "Adjusting inputs based on field conditions",
+          "Adjusting tire pressure",
           "Changing engine RPM",
-          "Modifying transmission speeds",
-          "Adjusting tire pressure"
+          "Adjusting inputs based on field conditions",
+          "Modifying transmission speeds"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "VRT adjusts application rates based on GPS-guided field maps."
       },
       
@@ -2952,24 +2952,24 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 15,
         question: "What is dead load in structures?",
         options: [
-          "Weight of structure itself",
+          "Animal movement",
           "Equipment weight",
-          "Wind force",
-          "Animal movement"
+          "Weight of structure itself",
+          "Wind force"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Dead load refers to the permanent weight of the structure and fixed components."
       },
       {
         id: 16,
         question: "What dairy design has individual resting areas?",
         options: [
-          "Free stall barns",
-          "Tie stall barns",
           "Open barns",
-          "Pasture systems"
+          "Pasture systems",
+          "Tie stall barns",
+          "Free stall barns"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Free stall barns provide individual resting stalls with common alleys."
       },
       {
@@ -2988,36 +2988,36 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 18,
         question: "What is TMR feeding?",
         options: [
-          "Total Mixed Ration",
-          "Timed Meal Rations",
           "Total Mineral Requirements",
-          "Traditional Manual Ratios"
+          "Timed Meal Rations",
+          "Traditional Manual Ratios",
+          "Total Mixed Ration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "TMR mixes all feed components into a complete diet delivered to animals."
       },
       {
         id: 19,
         question: "What manure storage uses earthen basins?",
         options: [
-          "Lagoons",
           "Tanks",
-          "Ponds",
-          "Pits"
+          "Lagoons",
+          "Pits",
+          "Ponds"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Lagoons are large earthen basins for manure storage and treatment."
       },
       {
         id: 20,
         question: "What greenhouse system grows without soil?",
         options: [
-          "Hydroponics",
           "Soil beds",
           "Benches",
+          "Hydroponics",
           "Vertical farming"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Hydroponic systems grow plants in nutrient solutions without soil."
       },
       
@@ -3026,12 +3026,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 21,
         question: "What erosion removes thin soil layers?",
         options: [
-          "Sheet erosion",
           "Rill erosion",
-          "Gully erosion",
-          "Stream bank erosion"
+          "Stream bank erosion",
+          "Sheet erosion",
+          "Gully erosion"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Sheet erosion removes soil uniformly in thin layers across large areas."
       },
       {
@@ -3039,9 +3039,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
         question: "What farming follows land contours?",
         options: [
           "Contour farming",
-          "Terrace farming",
           "Strip cropping",
-          "Windbreak planting"
+          "Windbreak planting",
+          "Terrace farming"
         ],
         correctAnswer: 0,
         explanation: "Contour farming performs operations along contour lines to reduce runoff."
@@ -3050,12 +3050,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 23,
         question: "What are slope platforms called?",
         options: [
-          "Terraces",
+          "Filter strips",
           "Waterways",
-          "Windbreaks",
-          "Filter strips"
+          "Terraces",
+          "Windbreaks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Terraces are constructed platforms that break long slopes into segments."
       },
       {
@@ -3063,9 +3063,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
         question: "What drainage uses perforated pipes?",
         options: [
           "Tile drain systems",
-          "Surface drains",
+          "French drains",
           "Open ditches",
-          "French drains"
+          "Surface drains"
         ],
         correctAnswer: 0,
         explanation: "Tile drain systems use perforated pipes to remove excess subsurface water."
@@ -3074,36 +3074,36 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 25,
         question: "What protects from wind erosion?",
         options: [
+          "Drainage tiles",
           "Windbreaks",
-          "Terraces",
           "Waterways",
-          "Drainage tiles"
+          "Terraces"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Windbreaks are rows of trees or shrubs that reduce wind speed."
       },
       {
         id: 26,
         question: "What captures eroded soil?",
         options: [
-          "Sediment basins",
           "Check dams",
           "Filter strips",
-          "All of the above"
+          "All of the above",
+          "Sediment basins"
         ],
-        correctAnswer: 3,
+        correctAnswer: 2,
         explanation: "All these structures help capture eroded soil before it leaves the farm."
       },
       {
         id: 27,
         question: "What soil amendment adjusts pH?",
         options: [
+          "Biochar",
           "Lime",
           "Gypsum",
-          "Compost",
-          "Biochar"
+          "Compost"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Lime raises soil pH in acidic soils, improving nutrient availability."
       },
       
@@ -3113,8 +3113,8 @@ Remember, precision agriculture engineering creates interconnected systems that 
         question: "What solar type converts sunlight to electricity?",
         options: [
           "Photovoltaic",
-          "Solar thermal",
           "Passive solar",
+          "Solar thermal",
           "Concentrated solar"
         ],
         correctAnswer: 0,
@@ -3124,36 +3124,36 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 29,
         question: "What wind turbine has vertical axis?",
         options: [
-          "Vertical axis turbines",
-          "Horizontal axis turbines",
+          "Three-blade turbines",
           "Propeller turbines",
-          "Three-blade turbines"
+          "Vertical axis turbines",
+          "Horizontal axis turbines"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Vertical axis turbines have blades that rotate around a vertical shaft."
       },
       {
         id: 30,
         question: "What biomass source produces methane?",
         options: [
-          "Anaerobic digestion of manure",
           "Direct combustion",
           "Gasification",
+          "Anaerobic digestion of manure",
           "Pyrolysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Anaerobic digestion of manure produces methane-rich biogas."
       },
       {
         id: 31,
         question: "What geothermal system uses ground loops?",
         options: [
-          "Ground source heat pumps",
-          "Direct steam systems",
           "Hot spring utilization",
-          "Deep well injection"
+          "Ground source heat pumps",
+          "Deep well injection",
+          "Direct steam systems"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Ground source heat pumps exchange heat with the earth through buried loops."
       },
       {
@@ -3161,8 +3161,8 @@ Remember, precision agriculture engineering creates interconnected systems that 
         question: "What micro-hydro component carries water?",
         options: [
           "Penstock",
-          "Intake screen",
           "Generator",
+          "Intake screen",
           "Transformer"
         ],
         correctAnswer: 0,
@@ -3172,12 +3172,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 33,
         question: "What is most energy-efficient lighting?",
         options: [
-          "LED lighting",
           "Fluorescent lighting",
           "Incandescent bulbs",
+          "LED lighting",
           "Halogen lamps"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "LED lighting is currently the most energy-efficient lighting technology."
       },
       {
@@ -3185,9 +3185,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
         question: "What financial incentive reduces taxes?",
         options: [
           "Tax credits",
-          "Grants",
           "Rebates",
-          "Production incentives"
+          "Production incentives",
+          "Grants"
         ],
         correctAnswer: 0,
         explanation: "Tax credits directly reduce tax liability for renewable energy investments."
@@ -3198,12 +3198,12 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 35,
         question: "What provides highest GPS accuracy?",
         options: [
-          "RTK (Real-Time Kinematic)",
           "Autonomous GPS",
           "DGPS (Differential)",
-          "Standard GPS"
+          "Standard GPS",
+          "RTK (Real-Time Kinematic)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "RTK provides 1-3 centimeter accuracy for precision agriculture."
       },
       {
@@ -3222,36 +3222,36 @@ Remember, precision agriculture engineering creates interconnected systems that 
         id: 37,
         question: "What does VRT stand for?",
         options: [
+          "Velocity Regulation Technology",
           "Variable Rate Technology",
           "Vertical Rotation Technique",
-          "Variable Resistance Testing",
-          "Velocity Regulation Technology"
+          "Variable Resistance Testing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "VRT allows variable application rates across fields based on needs."
       },
       {
         id: 38,
         question: "What measures plant health with light?",
         options: [
-          "NDVI (Normalized Difference Vegetation Index)",
-          "Chlorophyll meter",
           "Leaf area index",
+          "Chlorophyll meter",
+          "NDVI (Normalized Difference Vegetation Index)",
           "Stem diameter"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "NDVI uses light reflectance to indicate plant health and biomass."
       },
       {
         id: 39,
         question: "What tracks animals automatically?",
         options: [
-          "RFID systems",
-          "Visual identification",
           "Brand marks only",
-          "Ear notches"
+          "Ear notches",
+          "Visual identification",
+          "RFID systems"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "RFID systems use electronic tags for automatic animal identification."
       },
       {
@@ -3259,9 +3259,9 @@ Remember, precision agriculture engineering creates interconnected systems that 
         question: "What helps data-driven decisions?",
         options: [
           "Decision support systems",
-          "Only experience",
+          "Tradition only",
           "Neighbor advice",
-          "Tradition only"
+          "Only experience"
         ],
         correctAnswer: 0,
         explanation: "Decision support systems analyze data to provide management recommendations."

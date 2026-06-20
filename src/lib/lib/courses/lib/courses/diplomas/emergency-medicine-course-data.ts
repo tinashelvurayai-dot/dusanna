@@ -194,12 +194,12 @@ Advanced assessment and effective triage are foundational to providing appropria
           id: 1,
           question: "What does the ABCDE approach prioritize?",
           options: [
-            "Comfort care first",
             "Life-threatening conditions systematically",
-            "Documentation before treatment",
-            "Patient history first"
+            "Comfort care first",
+            "Patient history first",
+            "Documentation before treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ABCDE approach systematically addresses Airway, Breathing, Circulation, Disability, Exposure for life-threatening conditions."
         },
         {
@@ -207,21 +207,21 @@ Advanced assessment and effective triage are foundational to providing appropria
           question: "What does AVPU assess?",
           options: [
             "Airway status",
-            "Level of consciousness",
             "Circulatory status",
+            "Level of consciousness",
             "Respiratory effort"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "AVPU (Alert, Verbal, Pain, Unresponsive) assesses neurological status and level of consciousness."
         },
         {
           id: 3,
           question: "What is the first step in START triage?",
           options: [
-            "Check breathing",
-            "Identify walking wounded",
             "Check capillary refill",
-            "Assess mental status"
+            "Identify walking wounded",
+            "Assess mental status",
+            "Check breathing"
           ],
           correctAnswer: 1,
           explanation: "START triage begins by identifying walking wounded who can be tagged Minor (Green) and directed to treatment area."
@@ -230,60 +230,60 @@ Advanced assessment and effective triage are foundational to providing appropria
           id: 4,
           question: "What respiratory rate gets Red tag in START?",
           options: [
-            "Less than 10/min",
-            "Greater than 30/min",
+            "Any rate with difficulty",
             "12-20/min",
-            "Any rate with difficulty"
+            "Less than 10/min",
+            "Greater than 30/min"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "In START triage, respiratory rate greater than 30/minute indicates Immediate (Red) category."
         },
         {
           id: 5,
           question: "What does SAMPLE history include?",
           options: [
-            "Only current symptoms",
-            "Signs/symptoms, Allergies, Medications, Past history, Last intake, Events",
+            "Only allergy information",
             "Only medication list",
-            "Only allergy information"
+            "Only current symptoms",
+            "Signs/symptoms, Allergies, Medications, Past history, Last intake, Events"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "SAMPLE includes Signs/symptoms, Allergies, Medications, Past medical history, Last oral intake, Events leading to emergency."
         },
         {
           id: 6,
           question: "What is normal capillary refill time?",
           options: [
-            "<2 seconds",
             "2-4 seconds",
+            "6-8 seconds",
             "4-6 seconds",
-            "6-8 seconds"
+            "<2 seconds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Normal capillary refill time is less than 2 seconds; longer indicates possible circulatory compromise."
         },
         {
           id: 7,
           question: "What does JumpSTART modify?",
           options: [
-            "Adult triage for children",
-            "Triage for elderly only",
             "Hospital triage systems",
-            "Only trauma assessment"
+            "Adult triage for children",
+            "Only trauma assessment",
+            "Triage for elderly only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "JumpSTART modifies START triage for pediatric patients with different criteria and interventions."
         },
         {
           id: 8,
           question: "What is primary survey purpose?",
           options: [
-            "Complete head-to-toe exam",
-            "Identify and treat life-threatening conditions",
             "Gather detailed history",
-            "Document all findings"
+            "Document all findings",
+            "Complete head-to-toe exam",
+            "Identify and treat life-threatening conditions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Primary survey (ABCDE) rapidly identifies and treats immediately life-threatening conditions."
         },
         {
@@ -291,69 +291,69 @@ Advanced assessment and effective triage are foundational to providing appropria
           question: "What does 'E' in ABCDE include?",
           options: [
             "Only environmental temperature",
-            "Exposure and environmental control",
             "Eye examination only",
+            "Exposure and environmental control",
             "Emergency interventions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "'E' stands for Exposure and Environmental control - expose to find injuries while preventing hypothermia."
         },
         {
           id: 10,
           question: "What are Red tag patients?",
           options: [
-            "Deceased patients",
-            "Life-threatening but treatable conditions",
+            "Minor injuries",
             "Walking wounded",
-            "Minor injuries"
+            "Deceased patients",
+            "Life-threatening but treatable conditions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Red tag indicates Immediate priority - patients with life-threatening but treatable conditions."
         },
         {
           id: 11,
           question: "What is secondary survey?",
           options: [
-            "Rapid ABCDE assessment",
-            "Head-to-toe exam after primary survey",
             "Only vital signs check",
-            "Family history gathering"
+            "Family history gathering",
+            "Head-to-toe exam after primary survey",
+            "Rapid ABCDE assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Secondary survey is thorough head-to-toe assessment performed after addressing life threats in primary survey."
         },
         {
           id: 12,
           question: "What is normal adult respiratory rate?",
           options: [
+            "30-40 breaths/minute",
             "8-12 breaths/minute",
-            "12-20 breaths/minute",
             "20-30 breaths/minute",
-            "30-40 breaths/minute"
+            "12-20 breaths/minute"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Normal adult respiratory rate is 12-20 breaths per minute at rest."
         },
         {
           id: 13,
           question: "What does SBAR stand for?",
           options: [
-            "Situation, Background, Assessment, Recommendation",
-            "Signs, Background, Assessment, Response",
             "Symptoms, Background, Action, Response",
-            "Situation, Briefing, Assessment, Recommendation"
+            "Situation, Briefing, Assessment, Recommendation",
+            "Situation, Background, Assessment, Recommendation",
+            "Signs, Background, Assessment, Response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SBAR (Situation, Background, Assessment, Recommendation) provides structured communication for handoffs."
         },
         {
           id: 14,
           question: "When to maintain cervical spine immobilization?",
           options: [
-            "Always for all patients",
             "Only for unconscious patients",
+            "Only for elderly patients",
             "When trauma mechanism suggests possible spinal injury",
-            "Only for elderly patients"
+            "Always for all patients"
           ],
           correctAnswer: 2,
           explanation: "Maintain cervical spine immobilization when trauma mechanism suggests possible spinal injury."
@@ -362,8 +362,8 @@ Advanced assessment and effective triage are foundational to providing appropria
           id: 15,
           question: "What is tachycardic heart rate for adults?",
           options: [
-            "<60 beats/minute",
             "60-100 beats/minute",
+            "<60 beats/minute",
             ">100 beats/minute",
             ">150 beats/minute"
           ],
@@ -374,12 +374,12 @@ Advanced assessment and effective triage are foundational to providing appropria
           id: 16,
           question: "What does pediatric assessment triangle evaluate?",
           options: [
+            "Only neurological status",
             "Only respiratory status",
             "Appearance, Work of breathing, Circulation",
-            "Only neurological status",
             "Only cardiac function"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Pediatric assessment triangle evaluates Appearance, Work of breathing, and Circulation to skin."
         },
         {
@@ -387,9 +387,9 @@ Advanced assessment and effective triage are foundational to providing appropria
           question: "What is normal oxygen saturation (SpO2)?",
           options: [
             ">85%",
-            ">90%",
+            "100% only",
             ">94%",
-            "100% only"
+            ">90%"
           ],
           correctAnswer: 2,
           explanation: "Normal oxygen saturation is greater than 94% on room air; below 90% indicates hypoxemia."
@@ -398,36 +398,36 @@ Advanced assessment and effective triage are foundational to providing appropria
           id: 18,
           question: "What are Black tag patients?",
           options: [
+            "Walking wounded",
             "Critical but salvageable",
             "Deceased or unsalvageable given resources",
-            "Walking wounded",
             "Delayed treatment needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Black tag indicates Expectant - deceased or injuries unsalvageable given available resources."
         },
         {
           id: 19,
           question: "What is bradypneic respiratory rate?",
           options: [
-            "<12 breaths/minute",
             "12-20 breaths/minute",
             "20-30 breaths/minute",
+            "<12 breaths/minute",
             ">30 breaths/minute"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bradypnea is respiratory rate less than 12 breaths per minute in adults."
         },
         {
           id: 20,
           question: "Why advanced assessment important?",
           options: [
-            "Only for documentation",
             "Systematically identifies conditions needing intervention",
+            "Only for documentation",
             "Only for hospital settings",
             "Only for trauma patients"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Advanced systematic assessment identifies conditions requiring intervention and guides treatment priorities."
         }
       ]
@@ -644,12 +644,12 @@ Advanced trauma management requires systematic assessment, rapid intervention, a
           id: 1,
           question: "What is the Golden Hour in trauma?",
           options: [
-            "Time to definitive surgery",
             "First 60 minutes after injury critical for survival",
             "Time on scene limit",
+            "Time to definitive surgery",
             "Hospital response time"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Golden Hour refers to first 60 minutes after injury when timely care can prevent death from trauma."
         },
         {
@@ -680,72 +680,72 @@ Advanced trauma management requires systematic assessment, rapid intervention, a
           id: 4,
           question: "What is permissive hypotension?",
           options: [
+            "Allowing any BP level",
             "Keeping BP normal at all costs",
             "Maintaining SBP 80-90 mmHg in bleeding trauma",
-            "Allowing any BP level",
             "Only for head injuries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Permissive hypotension maintains SBP 80-90 mmHg in bleeding trauma to avoid disrupting clots with aggressive fluids."
         },
         {
           id: 5,
           question: "What are 6 Ps for extremity assessment?",
           options: [
-            "Pain, Pallor, Paresthesia, Paralysis, Pulselessness, Poikilothermia",
-            "Pain, Pulse, Pressure, Position, Paralysis, Pallor",
             "Pain, Pulse, Pallor, Position, Pressure, Paresthesia",
-            "Pain, Position, Pulse, Pressure, Paralysis, Paresthesia"
+            "Pain, Position, Pulse, Pressure, Paralysis, Paresthesia",
+            "Pain, Pulse, Pressure, Position, Paralysis, Pallor",
+            "Pain, Pallor, Paresthesia, Paralysis, Pulselessness, Poikilothermia"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "6 Ps: Pain, Pallor, Paresthesia, Paralysis, Pulselessness, Poikilothermia (cold) assess neurovascular status."
         },
         {
           id: 6,
           question: "What is flail chest?",
           options: [
-            "Single rib fracture",
-            "Multiple rib fractures creating paradoxical movement",
             "Sternal fracture only",
-            "Clavicle fracture"
+            "Clavicle fracture",
+            "Single rib fracture",
+            "Multiple rib fractures creating paradoxical movement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Flail chest involves multiple rib fractures creating segment that moves paradoxically with breathing."
         },
         {
           id: 7,
           question: "What is cardiac tamponade triad?",
           options: [
-            "Hypotension, tachycardia, muffled heart sounds",
-            "Hypotension, distended neck veins, muffled heart sounds",
+            "Hypotension, flat neck veins, loud heart sounds",
             "Hypertension, distended neck veins, clear heart sounds",
-            "Hypotension, flat neck veins, loud heart sounds"
+            "Hypotension, tachycardia, muffled heart sounds",
+            "Hypotension, distended neck veins, muffled heart sounds"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Beck's triad for cardiac tamponade: hypotension, distended neck veins, muffled heart sounds."
         },
         {
           id: 8,
           question: "When to apply pelvic binder?",
           options: [
-            "For all pelvic pain",
             "When pelvic instability suspected",
             "Only for open fractures",
+            "For all pelvic pain",
             "Never in pre-hospital setting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Apply pelvic binder when pelvic instability is suspected to control hemorrhage and provide stability."
         },
         {
           id: 9,
           question: "What is primary vs secondary brain injury?",
           options: [
-            "Primary: initial damage; Secondary: evolving damage",
             "Primary: surgical; Secondary: medical",
-            "Primary: treatable; Secondary: permanent",
-            "Primary: mild; Secondary: severe"
+            "Primary: initial damage; Secondary: evolving damage",
+            "Primary: mild; Secondary: severe",
+            "Primary: treatable; Secondary: permanent"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Primary brain injury is initial mechanical damage; secondary injury evolves from ischemia, edema, etc."
         },
         {
@@ -765,33 +765,33 @@ Advanced trauma management requires systematic assessment, rapid intervention, a
           question: "What is 'Platinum 10 minutes'?",
           options: [
             "Time to hospital arrival",
-            "On-scene time should be <10 minutes for critical trauma",
+            "Time for assessment completion",
             "Time to surgical intervention",
-            "Time for assessment completion"
+            "On-scene time should be <10 minutes for critical trauma"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Platinum 10 minutes emphasizes on-scene time less than 10 minutes for critical trauma patients."
         },
         {
           id: 12,
           question: "What is neurogenic shock presentation?",
           options: [
-            "Cool, clammy, tachycardic",
-            "Warm, dry, bradycardic",
             "Fever, tachycardia, hypotension",
-            "Normal temperature, tachycardia"
+            "Normal temperature, tachycardia",
+            "Warm, dry, bradycardic",
+            "Cool, clammy, tachycardic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Neurogenic shock from spinal injury presents warm, dry skin with bradycardia due to sympathetic disruption."
         },
         {
           id: 13,
           question: "How to dress open pneumothorax?",
           options: [
-            "Fully occlusive dressing",
+            "Pressure dressing",
             "Occlusive dressing taped on 3 sides",
-            "Loose gauze only",
-            "Pressure dressing"
+            "Fully occlusive dressing",
+            "Loose gauze only"
           ],
           correctAnswer: 1,
           explanation: "Open pneumothorax needs occlusive dressing taped on 3 sides to allow air escape (flutter valve)."
@@ -800,48 +800,48 @@ Advanced trauma management requires systematic assessment, rapid intervention, a
           id: 14,
           question: "What is compartment syndrome?",
           options: [
+            "Bone infection",
             "Muscle bruising",
-            "Increased pressure in fascial compartment",
             "Joint dislocation",
-            "Bone infection"
+            "Increased pressure in fascial compartment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Compartment syndrome involves increased pressure within fascial compartment compromising circulation."
         },
         {
           id: 15,
           question: "What is high-energy mechanism?",
           options: [
-            "Fall from standing",
-            "MVC >40 mph, fall >20 feet",
+            "Simple fracture",
             "Low-speed collision",
-            "Simple fracture"
+            "Fall from standing",
+            "MVC >40 mph, fall >20 feet"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "High-energy mechanisms include MVC >40 mph, falls >20 feet, pedestrian struck, motorcycle crashes."
         },
         {
           id: 16,
           question: "What to do with protruding organs?",
           options: [
+            "Apply pressure",
             "Replace immediately",
-            "Cover with moist sterile dressing",
             "Leave exposed",
-            "Apply pressure"
+            "Cover with moist sterile dressing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cover protruding organs with moist sterile dressing; do not replace them in the field."
         },
         {
           id: 17,
           question: "What is blast injury classification?",
           options: [
-            "Only primary injuries",
-            "Primary (blast wave), secondary (projectiles), tertiary (displacement), quaternary (other)",
+            "External, internal only",
             "Mild, moderate, severe",
-            "External, internal only"
+            "Only primary injuries",
+            "Primary (blast wave), secondary (projectiles), tertiary (displacement), quaternary (other)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Blast injuries: Primary (blast wave), Secondary (projectiles), Tertiary (displacement), Quaternary (other)."
         },
         {
@@ -860,12 +860,12 @@ Advanced trauma management requires systematic assessment, rapid intervention, a
           id: 19,
           question: "What is traumatic asphyxia?",
           options: [
-            "Choking injury",
             "Chest compression causing facial/upper body cyanosis",
-            "Smoke inhalation",
-            "Strangulation"
+            "Strangulation",
+            "Choking injury",
+            "Smoke inhalation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Traumatic asphyxia from severe chest compression causes facial/upper body cyanosis and petechiae."
         },
         {
@@ -873,11 +873,11 @@ Advanced trauma management requires systematic assessment, rapid intervention, a
           question: "Why rapid trauma transport important?",
           options: [
             "For patient comfort",
-            "Definitive care often requires surgical intervention",
             "To reduce paperwork",
-            "Only for billing purposes"
+            "Only for billing purposes",
+            "Definitive care often requires surgical intervention"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Rapid transport crucial as definitive trauma care often requires surgical intervention available at trauma centers."
         }
       ]
@@ -1101,23 +1101,23 @@ Advanced medical emergency management requires integration of assessment finding
           question: "What is ACS spectrum?",
           options: [
             "Only heart attack",
-            "Unstable angina, NSTEMI, STEMI",
+            "Only cardiac arrest",
             "Only stable angina",
-            "Only cardiac arrest"
+            "Unstable angina, NSTEMI, STEMI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ACS includes Unstable Angina, NSTEMI (Non-ST Elevation MI), and STEMI (ST Elevation MI)."
         },
         {
           id: 2,
           question: "What is status epilepticus?",
           options: [
-            "Any seizure",
             "Seizure >5 minutes or multiple without recovery",
             "Only tonic-clonic seizures",
+            "Any seizure",
             "Only in epilepsy patients"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Status epilepticus is seizure lasting >5 minutes or multiple seizures without recovery between them."
         },
         {
@@ -1137,20 +1137,20 @@ Advanced medical emergency management requires integration of assessment finding
           question: "What is DKA vs HHS?",
           options: [
             "Both have severe acidosis",
+            "Only difference is age",
             "DKA has acidosis; HHS has extreme hyperglycemia without severe acidosis",
-            "Both have mild hyperglycemia",
-            "Only difference is age"
+            "Both have mild hyperglycemia"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "DKA has acidosis and ketones; HHS has extreme hyperglycemia without significant acidosis."
         },
         {
           id: 5,
           question: "What is first-line for status epilepticus?",
           options: [
-            "Phenytoin",
-            "Benzodiazepines",
             "Levetiracetam",
+            "Benzodiazepines",
+            "Phenytoin",
             "Propofol"
           ],
           correctAnswer: 1,
@@ -1160,24 +1160,24 @@ Advanced medical emergency management requires integration of assessment finding
           id: 6,
           question: "What is opioid overdose antidote?",
           options: [
-            "Flumazenil",
             "Naloxone",
+            "Flumazenil",
             "N-acetylcysteine",
             "Sodium bicarbonate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Naloxone is the specific antidote for opioid overdose, reversing respiratory depression."
         },
         {
           id: 7,
           question: "What is CPAP for?",
           options: [
-            "Cardiac arrest only",
-            "Respiratory failure from pulmonary edema/COPD",
             "Only for asthma",
-            "Only in hospital"
+            "Only in hospital",
+            "Respiratory failure from pulmonary edema/COPD",
+            "Cardiac arrest only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CPAP provides positive airway pressure for respiratory failure from pulmonary edema or COPD exacerbation."
         },
         {
@@ -1185,71 +1185,71 @@ Advanced medical emergency management requires integration of assessment finding
           question: "What are Hs and Ts in ACLS?",
           options: [
             "Hospital transfer codes",
+            "Trauma triage levels",
             "Reversible causes of cardiac arrest",
-            "Heart transplant criteria",
-            "Trauma triage levels"
+            "Heart transplant criteria"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hs (Hypovolemia, Hypoxia, Hydrogen ion, Hyper/hypokalemia, Hypothermia) and Ts (Toxins, Tamponade, Tension pneumothorax, Thrombosis, Trauma) are reversible cardiac arrest causes."
         },
         {
           id: 9,
           question: "What is LVO stroke?",
           options: [
-            "Small vessel stroke",
-            "Large Vessel Occlusion needing thrombectomy",
+            "Vertebral artery stroke",
             "Lacunar stroke",
-            "Vertebral artery stroke"
+            "Large Vessel Occlusion needing thrombectomy",
+            "Small vessel stroke"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "LVO (Large Vessel Occlusion) strokes may benefit from thrombectomy and need rapid transport to comprehensive stroke center."
         },
         {
           id: 10,
           question: "What is AEIOU-TIPS for?",
           options: [
+            "Trauma triage",
             "Stroke assessment",
             "Altered mental status differential",
-            "Trauma triage",
             "Cardiac arrest causes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "AEIOU-TIPS mnemonic helps remember differential diagnoses for altered mental status."
         },
         {
           id: 11,
           question: "What is cardiogenic pulmonary edema management?",
           options: [
-            "Fluids only",
-            "Upright position, oxygen, nitrates, diuretics",
             "Antibiotics only",
-            "Bronchodilators only"
+            "Bronchodilators only",
+            "Fluids only",
+            "Upright position, oxygen, nitrates, diuretics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cardiogenic pulmonary edema managed with upright positioning, oxygen, nitrates, diuretics, and sometimes morphine."
         },
         {
           id: 12,
           question: "What is thyroid storm presentation?",
           options: [
-            "Hypothermia, bradycardia",
             "Hyperthermia, tachycardia, agitation",
             "Hypoglycemia, confusion",
+            "Hypothermia, bradycardia",
             "Hypertension only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Thyroid storm presents with hyperthermia, tachycardia, agitation, and possible heart failure."
         },
         {
           id: 13,
           question: "What is myxedema coma?",
           options: [
-            "Thyroid storm",
             "Severe hypothyroidism with coma",
+            "Thyroid storm",
             "Diabetic coma",
             "Hepatic encephalopathy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Myxedema coma is severe hypothyroidism leading to altered mental status, hypothermia, and bradycardia."
         },
         {
@@ -1257,45 +1257,45 @@ Advanced medical emergency management requires integration of assessment finding
           question: "What is tricyclic antidepressant overdose treatment?",
           options: [
             "Naloxone",
-            "Sodium bicarbonate for wide QRS",
             "Flumazenil",
-            "N-acetylcysteine"
+            "N-acetylcysteine",
+            "Sodium bicarbonate for wide QRS"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Tricyclic antidepressant overdose causing wide QRS is treated with sodium bicarbonate."
         },
         {
           id: 15,
           question: "What is magnesium sulfate used for?",
           options: [
-            "Only for electrolyte replacement",
             "Severe asthma exacerbations",
-            "Hypertension only",
-            "Cardiac arrest"
+            "Cardiac arrest",
+            "Only for electrolyte replacement",
+            "Hypertension only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Magnesium sulfate is used for severe asthma exacerbations not responding to initial bronchodilators."
         },
         {
           id: 16,
           question: "What is flumazenil for?",
           options: [
+            "Acetaminophen overdose",
             "Opioid reversal",
             "Benzodiazepine reversal in specific situations",
-            "Alcohol withdrawal",
-            "Acetaminophen overdose"
+            "Alcohol withdrawal"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Flumazenil reverses benzodiazepines but used cautiously due to seizure risk in certain patients."
         },
         {
           id: 17,
           question: "What is N-acetylcysteine for?",
           options: [
-            "Opioid overdose",
+            "Alcohol intoxication",
             "Acetaminophen overdose",
             "Aspirin overdose",
-            "Alcohol intoxication"
+            "Opioid overdose"
           ],
           correctAnswer: 1,
           explanation: "N-acetylcysteine is the antidote for acetaminophen overdose, preventing liver damage."
@@ -1304,12 +1304,12 @@ Advanced medical emergency management requires integration of assessment finding
           id: 18,
           question: "What is IO access?",
           options: [
-            "Intraocular medication",
             "Intraosseous access for difficult IV access",
             "Internal organ access",
+            "Intraocular medication",
             "Only for children"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Intraosseous (IO) access provides emergency vascular access when IV access is difficult or impossible."
         },
         {
@@ -1328,10 +1328,10 @@ Advanced medical emergency management requires integration of assessment finding
           id: 20,
           question: "Why early antibiotics for sepsis?",
           options: [
-            "Only for fever reduction",
-            "Each hour delay increases mortality",
             "For pain control",
-            "Only for ICU patients"
+            "Each hour delay increases mortality",
+            "Only for ICU patients",
+            "Only for fever reduction"
           ],
           correctAnswer: 1,
           explanation: "Early appropriate antibiotics for sepsis improve survival; each hour delay increases mortality."
@@ -1541,10 +1541,10 @@ Specialized care for pediatric and obstetric patients requires understanding the
           id: 1,
           question: "What is Pediatric Assessment Triangle?",
           options: [
-            "ABC assessment",
+            "Neurological exam",
             "Appearance, Work of Breathing, Circulation to Skin",
-            "Only vital signs",
-            "Neurological exam"
+            "ABC assessment",
+            "Only vital signs"
           ],
           correctAnswer: 1,
           explanation: "PAT assesses Appearance, Work of Breathing, and Circulation to Skin for rapid pediatric assessment."
@@ -1554,21 +1554,21 @@ Specialized care for pediatric and obstetric patients requires understanding the
           question: "What is croup management?",
           options: [
             "Antibiotics always",
-            "Cool mist, racemic epinephrine if severe, steroids",
             "Only observation",
-            "Immediate intubation"
+            "Immediate intubation",
+            "Cool mist, racemic epinephrine if severe, steroids"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Croup managed with cool mist, racemic epinephrine for severe cases, and steroids to reduce inflammation."
         },
         {
           id: 3,
           question: "What is epiglottitis precaution?",
           options: [
-            "Examine throat thoroughly",
-            "Do not examine throat, maintain position of comfort",
             "Have child lie flat",
-            "Give oral medications"
+            "Do not examine throat, maintain position of comfort",
+            "Give oral medications",
+            "Examine throat thoroughly"
           ],
           correctAnswer: 1,
           explanation: "Do not examine throat in suspected epiglottitis as it may cause complete obstruction; maintain position of comfort."
@@ -1577,12 +1577,12 @@ Specialized care for pediatric and obstetric patients requires understanding the
           id: 4,
           question: "What is pediatric shock early sign?",
           options: [
-            "Hypotension",
             "Tachycardia with delayed capillary refill",
             "Bradycardia",
-            "Hypertension"
+            "Hypertension",
+            "Hypotension"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Early pediatric shock shows tachycardia and delayed capillary refill; hypotension is late sign."
         },
         {
@@ -1591,8 +1591,8 @@ Specialized care for pediatric and obstetric patients requires understanding the
           options: [
             "Measuring height only",
             "Emergency medication dosing by length",
-            "Blood pressure measurement",
-            "Temperature conversion"
+            "Temperature conversion",
+            "Blood pressure measurement"
           ],
           correctAnswer: 1,
           explanation: "Broselow tape uses length to estimate weight and provide emergency medication doses for children."
@@ -1601,48 +1601,48 @@ Specialized care for pediatric and obstetric patients requires understanding the
           id: 6,
           question: "What is preeclampsia?",
           options: [
-            "Normal pregnancy symptom",
             "BP ≥140/90 after 20 weeks with proteinuria/end-organ dysfunction",
+            "Only postpartum condition",
             "Only high blood pressure",
-            "Only postpartum condition"
+            "Normal pregnancy symptom"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Preeclampsia is BP ≥140/90 after 20 weeks with proteinuria or end-organ dysfunction (headache, visual changes, etc.)."
         },
         {
           id: 7,
           question: "What is magnesium sulfate for in obstetrics?",
           options: [
-            "Blood pressure reduction only",
-            "Seizure prophylaxis in preeclampsia/eclampsia",
             "Labor induction",
-            "Pain control"
+            "Pain control",
+            "Blood pressure reduction only",
+            "Seizure prophylaxis in preeclampsia/eclampsia"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Magnesium sulfate prevents and treats seizures in preeclampsia/eclampsia."
         },
         {
           id: 8,
           question: "When to start PPV in newborn?",
           options: [
+            "Only if cyanotic",
             "Always at birth",
             "If apneic or HR <100 after initial steps",
-            "Only if cyanotic",
             "After 5 minutes of life"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Start PPV in newborn if apneic, gasping, or HR <100 after initial steps of drying and stimulation."
         },
         {
           id: 9,
           question: "What is HELLP syndrome?",
           options: [
-            "Normal pregnancy variant",
             "Hemolysis, Elevated Liver enzymes, Low Platelets",
-            "Heart failure in pregnancy",
-            "Hormone imbalance"
+            "Hormone imbalance",
+            "Normal pregnancy variant",
+            "Heart failure in pregnancy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "HELLP syndrome: Hemolysis, Elevated Liver enzymes, Low Platelets - severe variant of preeclampsia."
         },
         {
@@ -1650,11 +1650,11 @@ Specialized care for pediatric and obstetric patients requires understanding the
           question: "What is pediatric fluid bolus dose?",
           options: [
             "10ml/kg",
-            "20ml/kg",
             "30ml/kg",
-            "Based on age only"
+            "Based on age only",
+            "20ml/kg"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pediatric fluid bolus is 20ml/kg of isotonic crystalloid for shock or dehydration."
         },
         {
@@ -1662,45 +1662,45 @@ Specialized care for pediatric and obstetric patients requires understanding the
           question: "What is simple febrile seizure?",
           options: [
             "Any seizure with fever",
-            "Generalized, <15 minutes, once in 24 hours",
+            "Status epilepticus",
             "Focal seizure with fever",
-            "Status epilepticus"
+            "Generalized, <15 minutes, once in 24 hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Simple febrile seizure: generalized, <15 minutes, once in 24 hours in child 6 months-5 years with fever."
         },
         {
           id: 12,
           question: "Why left lateral tilt in pregnancy?",
           options: [
-            "For comfort only",
-            "Prevent supine hypotension syndrome",
+            "Only during delivery",
             "Better fetal monitoring",
-            "Only during delivery"
+            "Prevent supine hypotension syndrome",
+            "For comfort only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Left lateral tilt after 20 weeks prevents supine hypotension from uterine compression of inferior vena cava."
         },
         {
           id: 13,
           question: "What is ductal-dependent lesion?",
           options: [
-            "Normal heart development",
             "Congenital heart disease requiring PDA for systemic/pulmonary blood flow",
             "Heart murmur only",
+            "Normal heart development",
             "Adult heart condition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ductal-dependent lesions require patent ductus arteriosus for adequate systemic or pulmonary blood flow."
         },
         {
           id: 14,
           question: "What is postpartum hemorrhage management?",
           options: [
-            "Wait and see",
+            "Surgery only",
             "Uterine massage, oxytocics, transport",
             "Only fluid replacement",
-            "Surgery only"
+            "Wait and see"
           ],
           correctAnswer: 1,
           explanation: "Postpartum hemorrhage managed with uterine massage, oxytocic medications, and rapid transport if ongoing."
@@ -1709,12 +1709,12 @@ Specialized care for pediatric and obstetric patients requires understanding the
           id: 15,
           question: "What is bronchiolitis?",
           options: [
-            "Adult COPD",
             "Viral lower respiratory infection in infants",
             "Bacterial pneumonia",
+            "Adult COPD",
             "Asthma variant"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Bronchiolitis is viral lower respiratory infection in infants, often RSV, causing wheezing and respiratory distress."
         },
         {
@@ -1722,11 +1722,11 @@ Specialized care for pediatric and obstetric patients requires understanding the
           question: "What is eclampsia?",
           options: [
             "Preeclampsia only",
-            "Preeclampsia with seizures",
             "Postpartum hypertension",
+            "Preeclampsia with seizures",
             "Gestational diabetes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Eclampsia is preeclampsia progressing to seizures, requiring immediate magnesium sulfate and delivery."
         },
         {
@@ -1745,12 +1745,12 @@ Specialized care for pediatric and obstetric patients requires understanding the
           id: 18,
           question: "What is non-accidental trauma red flag?",
           options: [
-            "Any childhood injury",
-            "Inconsistent history, patterned injuries, multiple fractures different stages",
             "Only broken bones",
-            "Only bruises"
+            "Only bruises",
+            "Inconsistent history, patterned injuries, multiple fractures different stages",
+            "Any childhood injury"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Red flags for child abuse: inconsistent history, patterned injuries, multiple fractures in different healing stages."
         },
         {
@@ -1759,8 +1759,8 @@ Specialized care for pediatric and obstetric patients requires understanding the
           options: [
             "Suction all infants",
             "Suction only if non-vigorous infant",
-            "No suction needed",
-            "Only if thick meconium"
+            "Only if thick meconium",
+            "No suction needed"
           ],
           correctAnswer: 1,
           explanation: "For meconium-stained amniotic fluid, suction only if newborn is non-vigorous (depressed respirations, poor tone, HR<100)."
@@ -1770,11 +1770,11 @@ Specialized care for pediatric and obstetric patients requires understanding the
           question: "Why pediatric/obstetric care specialized?",
           options: [
             "Same as adults",
-            "Unique anatomy, physiology, psychological needs",
+            "Only for hospital care",
             "Only different medication doses",
-            "Only for hospital care"
+            "Unique anatomy, physiology, psychological needs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pediatric and obstetric patients have unique anatomical, physiological, developmental, and psychological needs requiring specialized approaches."
         }
       ]
@@ -2014,35 +2014,35 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           question: "What defines a disaster?",
           options: [
             "Any emergency",
-            "Needs exceed resources",
+            "Only natural events",
             "Multiple patients only",
-            "Only natural events"
+            "Needs exceed resources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Disaster: needs exceed available resources, requiring different approach from routine emergencies."
         },
         {
           id: 2,
           question: "What is ICS?",
           options: [
-            "Hospital system",
-            "Incident Command System for incident management",
             "Insurance system",
-            "International classification"
+            "Hospital system",
+            "International classification",
+            "Incident Command System for incident management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Incident Command System provides standardized approach to incident management across agencies."
         },
         {
           id: 3,
           question: "What is START triage first step?",
           options: [
-            "Check breathing",
             "Identify walking wounded",
+            "Assess mental status",
             "Check capillary refill",
-            "Assess mental status"
+            "Check breathing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "START begins with identifying walking wounded who get Green tag and directed to treatment area."
         },
         {
@@ -2051,8 +2051,8 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           options: [
             "Perfect care for all",
             "Greatest good for greatest number",
-            "Treat worst first always",
-            "Only treat salvageable patients"
+            "Only treat salvageable patients",
+            "Treat worst first always"
           ],
           correctAnswer: 1,
           explanation: "MCI goal: greatest good for greatest number, prioritizing resources to save most lives possible."
@@ -2063,8 +2063,8 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           options: [
             "Only red and green",
             "Red, Yellow, Green, Black",
-            "Based on injury type",
-            "Random assignment"
+            "Random assignment",
+            "Based on injury type"
           ],
           correctAnswer: 1,
           explanation: "Triage colors: Red (Immediate), Yellow (Delayed), Green (Minor), Black (Expectant/Deceased)."
@@ -2073,48 +2073,48 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           id: 6,
           question: "What is JumpSTART?",
           options: [
-            "Adult trauma system",
-            "Pediatric MCI triage system",
             "Hospital triage",
-            "Only for burns"
+            "Only for burns",
+            "Adult trauma system",
+            "Pediatric MCI triage system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "JumpSTART is pediatric MCI triage system modifying START for children <8 years or child-sized."
         },
         {
           id: 7,
           question: "What is CCP?",
           options: [
+            "Communication checkpoint",
             "Command center only",
-            "Casualty Collection Point for triage/treatment",
             "Chemical containment point",
-            "Communication checkpoint"
+            "Casualty Collection Point for triage/treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CCP (Casualty Collection Point) is safe area near incident for triage, treatment, and transport loading."
         },
         {
           id: 8,
           question: "What is RTF concept?",
           options: [
-            "Routine transport only",
             "Rescue Task Force for active shooter with law enforcement escort",
+            "Resource tracking form",
             "Radio transmission frequency",
-            "Resource tracking form"
+            "Routine transport only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Rescue Task Force pairs medical providers with law enforcement for warm zone care in active shooter events."
         },
         {
           id: 9,
           question: "What is crush syndrome?",
           options: [
-            "Simple fracture",
             "Systemic effects from prolonged compression causing hyperkalemia, renal failure",
+            "Psychological condition",
             "Only muscle bruising",
-            "Psychological condition"
+            "Simple fracture"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Crush syndrome: systemic effects from muscle breakdown causing hyperkalemia, renal failure, shock."
         },
         {
@@ -2122,11 +2122,11 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           question: "What is CBRN incident?",
           options: [
             "Only chemical spill",
-            "Chemical, Biological, Radiological, Nuclear incidents",
             "Only biological event",
+            "Chemical, Biological, Radiological, Nuclear incidents",
             "Conventional disaster"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CBRN: Chemical, Biological, Radiological, Nuclear incidents requiring specialized PPE and procedures."
         },
         {
@@ -2134,23 +2134,23 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           question: "What is psychological first aid?",
           options: [
             "Psychiatric medication",
+            "Counseling session",
             "Listen, Protect, Connect, Model calm, Educate",
-            "Only for professionals",
-            "Counseling session"
+            "Only for professionals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Psychological first aid: Listen, Protect, Connect, Model calm behavior, Educate about normal reactions."
         },
         {
           id: 12,
           question: "What is CISM?",
           options: [
-            "Only debriefing",
             "Critical Incident Stress Management system",
             "Chemical incident management",
-            "Communication system"
+            "Communication system",
+            "Only debriefing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CISM provides support for responders experiencing stress from critical incidents."
         },
         {
@@ -2158,9 +2158,9 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           question: "What is AAR?",
           options: [
             "After-Action Review for improvement",
+            "Assessment and referral",
             "Always Avoid Responsibility",
-            "Automatic ambulance response",
-            "Assessment and referral"
+            "Automatic ambulance response"
           ],
           correctAnswer: 0,
           explanation: "After-Action Review analyzes response to identify strengths and areas for improvement."
@@ -2169,10 +2169,10 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           id: 14,
           question: "What is demobilization?",
           options: [
-            "Only leaving scene",
-            "Orderly release of resources after incident",
             "Patient discharge",
-            "Equipment destruction"
+            "Orderly release of resources after incident",
+            "Equipment destruction",
+            "Only leaving scene"
           ],
           correctAnswer: 1,
           explanation: "Demobilization is orderly release of resources with documentation and equipment recovery."
@@ -2183,8 +2183,8 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           options: [
             "National Incident Management System",
             "Nursing information system",
-            "New injury management",
-            "Network information"
+            "Network information",
+            "New injury management"
           ],
           correctAnswer: 0,
           explanation: "NIMS provides standardized approach to incident management for all hazards nationwide."
@@ -2193,58 +2193,58 @@ Disaster and MCI response requires coordination, flexibility, and a different mi
           id: 16,
           question: "What are disaster phases?",
           options: [
-            "Only response",
             "Preparedness, Response, Recovery, Mitigation",
             "Initial, middle, final",
+            "Only response",
             "Planning, action, completion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Disaster phases: Preparedness (before), Response (during), Recovery (after), Mitigation (reduce future risk)."
         },
         {
           id: 17,
           question: "What is staging area?",
           options: [
-            "Treatment area",
-            "Location for resources awaiting assignment",
             "Patient waiting area",
-            "Media area"
+            "Treatment area",
+            "Media area",
+            "Location for resources awaiting assignment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Staging area is where resources check in and await assignment during incident management."
         },
         {
           id: 18,
           question: "What is expectant category?",
           options: [
-            "Minor injuries",
-            "Deceased or unsalvageable given resources",
             "Immediate treatment needed",
-            "Delayed treatment"
+            "Delayed treatment",
+            "Minor injuries",
+            "Deceased or unsalvageable given resources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Expectant (Black): deceased or injuries so severe survival unlikely given available resources."
         },
         {
           id: 19,
           question: "What is ICS span of control?",
           options: [
-            "Unlimited subordinates",
             "3-7 subordinates per supervisor",
             "Only 2 subordinates",
+            "Unlimited subordinates",
             "Based on incident size"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ICS span of control: 3-7 subordinates per supervisor for effective management (optimal 5)."
         },
         {
           id: 20,
           question: "Why disaster response different?",
           options: [
-            "Same as daily emergencies",
-            "Resource limitations require different priorities",
             "Only more paperwork",
-            "Only larger scale"
+            "Resource limitations require different priorities",
+            "Only larger scale",
+            "Same as daily emergencies"
           ],
           correctAnswer: 1,
           explanation: "Disaster response differs due to resource limitations requiring triage and doing greatest good for greatest number."
@@ -2487,11 +2487,11 @@ Advanced procedures require technical skill, while quality assurance ensures the
           question: "What is LEMON law for?",
           options: [
             "Legal requirements",
+            "Trauma assessment",
             "Predicting difficult intubation",
-            "Medication dosing",
-            "Trauma assessment"
+            "Medication dosing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "LEMON law helps predict difficult intubation: Look, Evaluate 3-3-2, Mallampati, Obstruction, Neck mobility."
         },
         {
@@ -2499,21 +2499,21 @@ Advanced procedures require technical skill, while quality assurance ensures the
           question: "What is RSI?",
           options: [
             "Routine sedation only",
-            "Rapid Sequence Intubation with sedative and paralytic",
+            "Radial site insertion",
             "Respiratory support intervention",
-            "Radial site insertion"
+            "Rapid Sequence Intubation with sedative and paralytic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "RSI uses sedative and paralytic medications to facilitate endotracheal intubation in emergency situations."
         },
         {
           id: 3,
           question: "What is gold standard for tube confirmation?",
           options: [
-            "Only auscultation",
+            "Pulse oximetry",
             "Waveform capnography",
             "Chest rise only",
-            "Pulse oximetry"
+            "Only auscultation"
           ],
           correctAnswer: 1,
           explanation: "Waveform capnography is gold standard for confirming and continuously monitoring endotracheal tube placement."
@@ -2524,8 +2524,8 @@ Advanced procedures require technical skill, while quality assurance ensures the
           options: [
             "Intraocular",
             "Intraosseous for emergency vascular access",
-            "Internal organ",
-            "Only for children"
+            "Only for children",
+            "Internal organ"
           ],
           correctAnswer: 1,
           explanation: "Intraosseous access provides emergency vascular access through bone marrow when IV access difficult."
@@ -2535,35 +2535,35 @@ Advanced procedures require technical skill, while quality assurance ensures the
           question: "What is needle decompression for?",
           options: [
             "Any chest pain",
-            "Tension pneumothorax",
             "Cardiac tamponade",
-            "Pulmonary edema"
+            "Pulmonary edema",
+            "Tension pneumothorax"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Needle decompression relieves tension pneumothorax by releasing trapped air in pleural space."
         },
         {
           id: 6,
           question: "What is pericardiocentesis for?",
           options: [
-            "Pneumothorax",
             "Cardiac tamponade",
             "Pleural effusion",
-            "Ascites"
+            "Ascites",
+            "Pneumothorax"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pericardiocentesis drains fluid from pericardial sac in cardiac tamponade to relieve pressure on heart."
         },
         {
           id: 7,
           question: "What is QA vs QI?",
           options: [
-            "Same thing",
             "QA ensures standards met; QI improves processes",
+            "No difference",
             "QA for hospitals only; QI for field",
-            "No difference"
+            "Same thing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Quality Assurance ensures care meets standards; Quality Improvement systematically improves processes."
         },
         {
@@ -2571,45 +2571,45 @@ Advanced procedures require technical skill, while quality assurance ensures the
           question: "What is PDSA cycle?",
           options: [
             "Patient discharge system",
+            "Physician decision support",
             "Plan-Do-Study-Act for quality improvement",
-            "Protocol development system",
-            "Physician decision support"
+            "Protocol development system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "PDSA (Plan-Do-Study-Act) cycle is iterative quality improvement methodology."
         },
         {
           id: 9,
           question: "What are common IO sites?",
           options: [
-            "Only forearm",
-            "Proximal tibia, distal tibia, humeral head, sternum",
             "Only sternum",
-            "Only humerus"
+            "Only humerus",
+            "Proximal tibia, distal tibia, humeral head, sternum",
+            "Only forearm"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Common IO sites: proximal tibia (most common), distal tibia, humeral head, sternum (adults)."
         },
         {
           id: 10,
           question: "What is capnography?",
           options: [
+            "Oxygen saturation",
             "Blood pressure monitoring",
             "End-tidal CO2 measurement",
-            "Cardiac output measurement",
-            "Oxygen saturation"
+            "Cardiac output measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Capnography measures end-tidal CO2, useful for confirming airway placement and monitoring ventilation."
         },
         {
           id: 11,
           question: "What is surgical cricothyrotomy?",
           options: [
-            "Tracheostomy",
+            "Chest tube insertion",
             "Emergency surgical airway through cricothyroid membrane",
-            "Needle decompression",
-            "Chest tube insertion"
+            "Tracheostomy",
+            "Needle decompression"
           ],
           correctAnswer: 1,
           explanation: "Surgical cricothyrotomy creates emergency airway through cricothyroid membrane when intubation impossible."
@@ -2618,22 +2618,22 @@ Advanced procedures require technical skill, while quality assurance ensures the
           id: 12,
           question: "What is evidence-based practice?",
           options: [
-            "Only using tradition",
             "Integrating research evidence with clinical expertise",
             "Only following protocols",
-            "Guessing best approach"
+            "Guessing best approach",
+            "Only using tradition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Evidence-based practice integrates best research evidence with clinical expertise and patient values."
         },
         {
           id: 13,
           question: "What are clinical performance indicators?",
           options: [
-            "Only response times",
+            "Cost measures only",
             "Measurable aspects of care quality",
             "Patient satisfaction only",
-            "Cost measures only"
+            "Only response times"
           ],
           correctAnswer: 1,
           explanation: "Clinical performance indicators measure aspects of care quality like response times, interventions, outcomes."
@@ -2643,35 +2643,35 @@ Advanced procedures require technical skill, while quality assurance ensures the
           question: "What is root cause analysis?",
           options: [
             "Blaming individuals",
-            "Systematic process to identify underlying causes of problems",
             "Only for major errors",
-            "Patient assessment tool"
+            "Patient assessment tool",
+            "Systematic process to identify underlying causes of problems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Root cause analysis systematically identifies underlying system issues contributing to problems or errors."
         },
         {
           id: 15,
           question: "What is BVM two-person technique?",
           options: [
-            "One person only",
             "One seals mask, one squeezes bag for better ventilation",
-            "Two bags used",
-            "Only for children"
+            "One person only",
+            "Only for children",
+            "Two bags used"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Two-person BVM: one hand seals mask with two-handed technique, other squeezes bag for better ventilation."
         },
         {
           id: 16,
           question: "What is NPA vs OPA?",
           options: [
-            "Same device",
             "NPA for conscious/semi-conscious; OPA for unconscious without gag reflex",
-            "Only size difference",
-            "Only for trauma"
+            "Only for trauma",
+            "Same device",
+            "Only size difference"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "NPA can be used in conscious patients; OPA only in unconscious patients without gag reflex."
         },
         {
@@ -2679,21 +2679,21 @@ Advanced procedures require technical skill, while quality assurance ensures the
           question: "What is case review for?",
           options: [
             "Punishment only",
-            "Learning and quality improvement",
             "Legal protection only",
+            "Learning and quality improvement",
             "Documentation only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Case reviews identify learning opportunities and system improvements, not individual punishment."
         },
         {
           id: 18,
           question: "What is simulation training?",
           options: [
-            "Real patient care",
+            "Observing only",
             "Practice in controlled environment with manikins/scenarios",
             "Only computer-based",
-            "Observing only"
+            "Real patient care"
           ],
           correctAnswer: 1,
           explanation: "Simulation training uses manikins and scenarios to practice skills in safe, controlled environment."
@@ -2702,24 +2702,24 @@ Advanced procedures require technical skill, while quality assurance ensures the
           id: 19,
           question: "What is competency assessment?",
           options: [
+            "Only supervisor opinion",
             "Only written test",
             "Multiple methods to verify knowledge and skills",
-            "Only supervisor opinion",
             "Patient feedback only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Competency assessment uses multiple methods (testing, observation, simulation) to verify knowledge and skills."
         },
         {
           id: 20,
           question: "Why advanced procedures need quality systems?",
           options: [
+            "Only for certification",
             "Only for legal protection",
             "Ensure proper application and continuous improvement",
-            "Only for research",
-            "Only for certification"
+            "Only for research"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quality systems ensure advanced procedures applied appropriately and provide framework for continuous improvement."
         }
       ]
@@ -2737,36 +2737,36 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 1,
         question: "What does ABCDE approach prioritize?",
         options: [
-          "Comfort care first",
-          "Life-threatening conditions systematically",
+          "Patient history first",
           "Documentation before treatment",
-          "Patient history first"
+          "Comfort care first",
+          "Life-threatening conditions systematically"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "ABCDE approach systematically addresses Airway, Breathing, Circulation, Disability, Exposure for life-threatening conditions."
       },
       {
         id: 2,
         question: "What is Golden Hour in trauma?",
         options: [
-          "Time to definitive surgery",
           "First 60 minutes after injury critical for survival",
           "Time on scene limit",
+          "Time to definitive surgery",
           "Hospital response time"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Golden Hour refers to first 60 minutes after injury when timely care can prevent death from trauma."
       },
       {
         id: 3,
         question: "What is ACS spectrum?",
         options: [
-          "Only heart attack",
-          "Unstable angina, NSTEMI, STEMI",
           "Only stable angina",
-          "Only cardiac arrest"
+          "Only cardiac arrest",
+          "Only heart attack",
+          "Unstable angina, NSTEMI, STEMI"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "ACS includes Unstable Angina, NSTEMI (Non-ST Elevation MI), and STEMI (ST Elevation MI)."
       },
       {
@@ -2774,11 +2774,11 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is Pediatric Assessment Triangle?",
         options: [
           "ABC assessment",
-          "Appearance, Work of Breathing, Circulation to Skin",
+          "Neurological exam",
           "Only vital signs",
-          "Neurological exam"
+          "Appearance, Work of Breathing, Circulation to Skin"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "PAT assesses Appearance, Work of Breathing, and Circulation to Skin for rapid pediatric assessment."
       },
       {
@@ -2797,12 +2797,12 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 6,
         question: "What is LEMON law for?",
         options: [
-          "Legal requirements",
-          "Predicting difficult intubation",
+          "Trauma assessment",
           "Medication dosing",
-          "Trauma assessment"
+          "Legal requirements",
+          "Predicting difficult intubation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "LEMON law helps predict difficult intubation: Look, Evaluate 3-3-2, Mallampati, Obstruction, Neck mobility."
       },
       {
@@ -2811,8 +2811,8 @@ Advanced procedures require technical skill, while quality assurance ensures the
         options: [
           "Airway assessment",
           "Level of consciousness assessment",
-          "Circulatory assessment",
-          "Pain scale"
+          "Pain scale",
+          "Circulatory assessment"
         ],
         correctAnswer: 1,
         explanation: "AVPU (Alert, Verbal, Pain, Unresponsive) assesses neurological status and consciousness level."
@@ -2821,24 +2821,24 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 8,
         question: "What is tension pneumothorax treatment?",
         options: [
+          "Observation and transport",
           "Chest tube only in hospital",
           "Needle decompression in field",
-          "Occlusive dressing only",
-          "Observation and transport"
+          "Occlusive dressing only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Tension pneumothorax requires immediate needle decompression followed by chest tube in hospital."
       },
       {
         id: 9,
         question: "What is status epilepticus?",
         options: [
+          "Only in epilepsy patients",
           "Any seizure",
           "Seizure >5 minutes or multiple without recovery",
-          "Only tonic-clonic seizures",
-          "Only in epilepsy patients"
+          "Only tonic-clonic seizures"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Status epilepticus is seizure lasting >5 minutes or multiple seizures without recovery between them."
       },
       {
@@ -2846,11 +2846,11 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is preeclampsia?",
         options: [
           "Normal pregnancy symptom",
-          "BP ≥140/90 after 20 weeks with proteinuria/end-organ dysfunction",
           "Only high blood pressure",
+          "BP ≥140/90 after 20 weeks with proteinuria/end-organ dysfunction",
           "Only postpartum condition"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Preeclampsia is BP ≥140/90 after 20 weeks with proteinuria or end-organ dysfunction (headache, visual changes, etc.)."
       },
       {
@@ -2858,11 +2858,11 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is START triage first step?",
         options: [
           "Check breathing",
-          "Identify walking wounded",
+          "Assess mental status",
           "Check capillary refill",
-          "Assess mental status"
+          "Identify walking wounded"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "START begins with identifying walking wounded who get Green tag and directed to treatment area."
       },
       {
@@ -2870,56 +2870,56 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is RSI?",
         options: [
           "Routine sedation only",
-          "Rapid Sequence Intubation with sedative and paralytic",
+          "Radial site insertion",
           "Respiratory support intervention",
-          "Radial site insertion"
+          "Rapid Sequence Intubation with sedative and paralytic"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "RSI uses sedative and paralytic medications to facilitate endotracheal intubation in emergency situations."
       },
       {
         id: 13,
         question: "What are 6 Ps for extremity assessment?",
         options: [
-          "Pain, Pallor, Paresthesia, Paralysis, Pulselessness, Poikilothermia",
-          "Pain, Pulse, Pressure, Position, Paralysis, Pallor",
           "Pain, Pulse, Pallor, Position, Pressure, Paresthesia",
-          "Pain, Position, Pulse, Pressure, Paralysis, Paresthesia"
+          "Pain, Pulse, Pressure, Position, Paralysis, Pallor",
+          "Pain, Position, Pulse, Pressure, Paralysis, Paresthesia",
+          "Pain, Pallor, Paresthesia, Paralysis, Pulselessness, Poikilothermia"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "6 Ps: Pain, Pallor, Paresthesia, Paralysis, Pulselessness, Poikilothermia (cold) assess neurovascular status."
       },
       {
         id: 14,
         question: "What is qSOFA for?",
         options: [
-          "Stroke severity",
           "Sepsis likelihood",
+          "Cardiac risk",
           "Trauma severity",
-          "Cardiac risk"
+          "Stroke severity"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "qSOFA (Altered mental status, RR≥22, SBP≤100) helps identify patients with suspected sepsis."
       },
       {
         id: 15,
         question: "What is croup management?",
         options: [
-          "Antibiotics always",
           "Cool mist, racemic epinephrine if severe, steroids",
           "Only observation",
-          "Immediate intubation"
+          "Immediate intubation",
+          "Antibiotics always"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Croup managed with cool mist, racemic epinephrine for severe cases, and steroids to reduce inflammation."
       },
       {
         id: 16,
         question: "What is MCI response goal?",
         options: [
-          "Perfect care for all",
-          "Greatest good for greatest number",
           "Treat worst first always",
+          "Greatest good for greatest number",
+          "Perfect care for all",
           "Only treat salvageable patients"
         ],
         correctAnswer: 1,
@@ -2929,9 +2929,9 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 17,
         question: "What is gold standard for tube confirmation?",
         options: [
-          "Only auscultation",
-          "Waveform capnography",
           "Chest rise only",
+          "Waveform capnography",
+          "Only auscultation",
           "Pulse oximetry"
         ],
         correctAnswer: 1,
@@ -2953,24 +2953,24 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 19,
         question: "What is DKA vs HHS?",
         options: [
+          "Only difference is age",
           "Both have severe acidosis",
-          "DKA has acidosis; HHS has extreme hyperglycemia without severe acidosis",
           "Both have mild hyperglycemia",
-          "Only difference is age"
+          "DKA has acidosis; HHS has extreme hyperglycemia without severe acidosis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "DKA has acidosis and ketones; HHS has extreme hyperglycemia without significant acidosis."
       },
       {
         id: 20,
         question: "What is magnesium sulfate for in obstetrics?",
         options: [
+          "Pain control",
           "Blood pressure reduction only",
-          "Seizure prophylaxis in preeclampsia/eclampsia",
           "Labor induction",
-          "Pain control"
+          "Seizure prophylaxis in preeclampsia/eclampsia"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Magnesium sulfate prevents and treats seizures in preeclampsia/eclampsia."
       },
       {
@@ -2978,11 +2978,11 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What are triage colors?",
         options: [
           "Only red and green",
-          "Red, Yellow, Green, Black",
           "Based on injury type",
-          "Random assignment"
+          "Random assignment",
+          "Red, Yellow, Green, Black"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Triage colors: Red (Immediate), Yellow (Delayed), Green (Minor), Black (Expectant/Deceased)."
       },
       {
@@ -3001,22 +3001,22 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 23,
         question: "What is flail chest?",
         options: [
-          "Single rib fracture",
-          "Multiple rib fractures creating paradoxical movement",
           "Sternal fracture only",
-          "Clavicle fracture"
+          "Clavicle fracture",
+          "Single rib fracture",
+          "Multiple rib fractures creating paradoxical movement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Flail chest involves multiple rib fractures creating segment that moves paradoxically with breathing."
       },
       {
         id: 24,
         question: "What is first-line for status epilepticus?",
         options: [
-          "Phenytoin",
-          "Benzodiazepines",
           "Levetiracetam",
-          "Propofol"
+          "Benzodiazepines",
+          "Propofol",
+          "Phenytoin"
         ],
         correctAnswer: 1,
         explanation: "Benzodiazepines (midazolam, lorazepam, diazepam) are first-line for status epilepticus."
@@ -3026,45 +3026,45 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is pediatric shock early sign?",
         options: [
           "Hypotension",
+          "Hypertension",
           "Tachycardia with delayed capillary refill",
-          "Bradycardia",
-          "Hypertension"
+          "Bradycardia"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Early pediatric shock shows tachycardia and delayed capillary refill; hypotension is late sign."
       },
       {
         id: 26,
         question: "What is JumpSTART?",
         options: [
+          "Only for burns",
           "Adult trauma system",
-          "Pediatric MCI triage system",
           "Hospital triage",
-          "Only for burns"
+          "Pediatric MCI triage system"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "JumpSTART is pediatric MCI triage system modifying START for children <8 years or child-sized."
       },
       {
         id: 27,
         question: "What is needle decompression for?",
         options: [
-          "Any chest pain",
           "Tension pneumothorax",
+          "Any chest pain",
           "Cardiac tamponade",
           "Pulmonary edema"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Needle decompression relieves tension pneumothorax by releasing trapped air in pleural space."
       },
       {
         id: 28,
         question: "What is cardiac tamponade triad?",
         options: [
-          "Hypotension, tachycardia, muffled heart sounds",
+          "Hypotension, flat neck veins, loud heart sounds",
           "Hypotension, distended neck veins, muffled heart sounds",
-          "Hypertension, distended neck veins, clear heart sounds",
-          "Hypotension, flat neck veins, loud heart sounds"
+          "Hypotension, tachycardia, muffled heart sounds",
+          "Hypertension, distended neck veins, clear heart sounds"
         ],
         correctAnswer: 1,
         explanation: "Beck's triad for cardiac tamponade: hypotension, distended neck veins, muffled heart sounds."
@@ -3073,10 +3073,10 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 29,
         question: "What is opioid overdose antidote?",
         options: [
-          "Flumazenil",
+          "Sodium bicarbonate",
           "Naloxone",
           "N-acetylcysteine",
-          "Sodium bicarbonate"
+          "Flumazenil"
         ],
         correctAnswer: 1,
         explanation: "Naloxone is the specific antidote for opioid overdose, reversing respiratory depression."
@@ -3086,45 +3086,45 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is HELLP syndrome?",
         options: [
           "Normal pregnancy variant",
-          "Hemolysis, Elevated Liver enzymes, Low Platelets",
           "Heart failure in pregnancy",
-          "Hormone imbalance"
+          "Hormone imbalance",
+          "Hemolysis, Elevated Liver enzymes, Low Platelets"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "HELLP syndrome: Hemolysis, Elevated Liver enzymes, Low Platelets - severe variant of preeclampsia."
       },
       {
         id: 31,
         question: "What is CCP?",
         options: [
-          "Command center only",
-          "Casualty Collection Point for triage/treatment",
           "Chemical containment point",
-          "Communication checkpoint"
+          "Communication checkpoint",
+          "Casualty Collection Point for triage/treatment",
+          "Command center only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "CCP (Casualty Collection Point) is safe area near incident for triage, treatment, and transport loading."
       },
       {
         id: 32,
         question: "What is pericardiocentesis for?",
         options: [
-          "Pneumothorax",
           "Cardiac tamponade",
           "Pleural effusion",
-          "Ascites"
+          "Ascites",
+          "Pneumothorax"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Pericardiocentesis drains fluid from pericardial sac in cardiac tamponade to relieve pressure on heart."
       },
       {
         id: 33,
         question: "What is GCS assessment?",
         options: [
-          "Only motor function",
-          "Level of consciousness comprehensively",
           "Only eye opening",
-          "Only verbal response"
+          "Level of consciousness comprehensively",
+          "Only verbal response",
+          "Only motor function"
         ],
         correctAnswer: 1,
         explanation: "Glasgow Coma Scale assesses eye opening, verbal response, and motor response to evaluate consciousness level."
@@ -3133,22 +3133,22 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 34,
         question: "What is CPAP for?",
         options: [
+          "Only for asthma",
           "Cardiac arrest only",
           "Respiratory failure from pulmonary edema/COPD",
-          "Only for asthma",
           "Only in hospital"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "CPAP provides positive airway pressure for respiratory failure from pulmonary edema or COPD exacerbation."
       },
       {
         id: 35,
         question: "What is epiglottitis precaution?",
         options: [
-          "Examine throat thoroughly",
-          "Do not examine throat, maintain position of comfort",
           "Have child lie flat",
-          "Give oral medications"
+          "Do not examine throat, maintain position of comfort",
+          "Give oral medications",
+          "Examine throat thoroughly"
         ],
         correctAnswer: 1,
         explanation: "Do not examine throat in suspected epiglottitis as it may cause complete obstruction; maintain position of comfort."
@@ -3157,12 +3157,12 @@ Advanced procedures require technical skill, while quality assurance ensures the
         id: 36,
         question: "What is RTF concept?",
         options: [
-          "Routine transport only",
-          "Rescue Task Force for active shooter with law enforcement escort",
           "Radio transmission frequency",
-          "Resource tracking form"
+          "Resource tracking form",
+          "Rescue Task Force for active shooter with law enforcement escort",
+          "Routine transport only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Rescue Task Force pairs medical providers with law enforcement for warm zone care in active shooter events."
       },
       {
@@ -3170,11 +3170,11 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is QA vs QI?",
         options: [
           "Same thing",
-          "QA ensures standards met; QI improves processes",
           "QA for hospitals only; QI for field",
-          "No difference"
+          "No difference",
+          "QA ensures standards met; QI improves processes"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Quality Assurance ensures care meets standards; Quality Improvement systematically improves processes."
       },
       {
@@ -3182,11 +3182,11 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is pediatric fluid bolus dose?",
         options: [
           "10ml/kg",
+          "Based on age only",
           "20ml/kg",
-          "30ml/kg",
-          "Based on age only"
+          "30ml/kg"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Pediatric fluid bolus is 20ml/kg of isotonic crystalloid for shock or dehydration."
       },
       {
@@ -3194,21 +3194,21 @@ Advanced procedures require technical skill, while quality assurance ensures the
         question: "What is capnography?",
         options: [
           "Blood pressure monitoring",
+          "Oxygen saturation",
           "End-tidal CO2 measurement",
-          "Cardiac output measurement",
-          "Oxygen saturation"
+          "Cardiac output measurement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Capnography measures end-tidal CO2, useful for confirming airway placement and monitoring ventilation."
       },
       {
         id: 40,
         question: "Why advanced emergency medicine important?",
         options: [
-          "Only for hospital doctors",
+          "Only for certification",
           "Systematic approach improves outcomes in critical situations",
-          "Only for major trauma",
-          "Only for certification"
+          "Only for hospital doctors",
+          "Only for major trauma"
         ],
         correctAnswer: 1,
         explanation: "Advanced systematic approaches in emergency medicine improve patient outcomes through timely, appropriate interventions."

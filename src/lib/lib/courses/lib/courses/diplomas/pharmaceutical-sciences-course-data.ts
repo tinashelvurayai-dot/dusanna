@@ -60,9 +60,9 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           question: "What does SAR stand for in drug development?",
           options: [
             "Structure-activity relationship",
-            "Systematic analysis review",
             "Safety assessment report",
-            "Standard administration route"
+            "Standard administration route",
+            "Systematic analysis review"
           ],
           correctAnswer: 0,
           explanation: "SAR stands for Structure-Activity Relationship, which studies how chemical structure affects biological activity."
@@ -71,10 +71,10 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           id: 2,
           question: "Which phase of metabolism involves adding polar groups to drugs?",
           options: [
-            "Phase I metabolism",
+            "Phase IV metabolism",
             "Phase II metabolism",
             "Phase III metabolism",
-            "Phase IV metabolism"
+            "Phase I metabolism"
           ],
           correctAnswer: 1,
           explanation: "Phase II metabolism involves conjugation reactions that add polar groups to make drugs more water-soluble for excretion."
@@ -84,9 +84,9 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           question: "What does CADD stand for in pharmaceutical sciences?",
           options: [
             "Computer-aided drug design",
-            "Chemical analysis and drug development",
             "Clinical assessment and dosage determination",
-            "Comprehensive analytical drug design"
+            "Comprehensive analytical drug design",
+            "Chemical analysis and drug development"
           ],
           correctAnswer: 0,
           explanation: "CADD stands for Computer-Aided Drug Design, which uses computational methods to design and optimize drug molecules."
@@ -95,12 +95,12 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           id: 4,
           question: "What is a pharmacophore model?",
           options: [
-            "A 3D arrangement of features necessary for biological activity",
             "A device that measures drug absorption",
             "A type of pharmaceutical packaging",
+            "A 3D arrangement of features necessary for biological activity",
             "A method for drug stability testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A pharmacophore model represents the essential structural features a molecule must have to interact with a biological target."
         },
         {
@@ -108,8 +108,8 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           question: "Which functional group is commonly involved in hydrogen bonding?",
           options: [
             "Hydroxyl group (-OH)",
-            "Methyl group (-CH3)",
             "Phenyl group (benzene ring)",
+            "Methyl group (-CH3)",
             "Alkyl chain (-(CH2)n-)"
           ],
           correctAnswer: 0,
@@ -119,36 +119,36 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           id: 6,
           question: "What does CQA stand for in quality by design?",
           options: [
-            "Critical quality attribute",
             "Clinical quality assessment",
+            "Critical quality attribute",
             "Chemical quantification analysis",
             "Compliance quality assurance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CQA stands for Critical Quality Attribute - a physical, chemical, biological, or microbiological property that must be controlled."
         },
         {
           id: 7,
           question: "What is rational drug design based on?",
           options: [
+            "Patient feedback on existing drugs",
             "Known biological targets and their structure",
             "Random screening of chemical compounds",
-            "Traditional herbal medicine knowledge",
-            "Patient feedback on existing drugs"
+            "Traditional herbal medicine knowledge"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rational drug design uses knowledge of biological targets and their structure to design molecules that will interact with them."
         },
         {
           id: 8,
           question: "Which process involves oxidation, reduction, or hydrolysis of drugs?",
           options: [
-            "Phase I metabolism",
-            "Phase II metabolism",
             "Drug formulation",
-            "Quality control testing"
+            "Phase I metabolism",
+            "Quality control testing",
+            "Phase II metabolism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Phase I metabolism involves functionalization reactions like oxidation, reduction, and hydrolysis that modify drug molecules."
         },
         {
@@ -156,9 +156,9 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           question: "What is the purpose of prodrug design?",
           options: [
             "To create inactive forms that become active in the body",
-            "To make drugs more expensive",
+            "To simplify chemical synthesis",
             "To increase drug patent life",
-            "To simplify chemical synthesis"
+            "To make drugs more expensive"
           ],
           correctAnswer: 0,
           explanation: "Prodrugs are designed as inactive forms that convert to active drugs in the body, often to improve absorption or reduce side effects."
@@ -167,108 +167,108 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           id: 10,
           question: "What does CPP stand for in pharmaceutical manufacturing?",
           options: [
-            "Critical process parameter",
             "Clinical patient profile",
-            "Chemical purity percentage",
-            "Compliance procedure protocol"
+            "Critical process parameter",
+            "Compliance procedure protocol",
+            "Chemical purity percentage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CPP stands for Critical Process Parameter - a process variable that must be controlled to ensure product quality."
         },
         {
           id: 11,
           question: "Which molecular feature affects drug-receptor interactions?",
           options: [
-            "Molecular geometry",
-            "Molecular weight only",
+            "Melting point",
             "Color of the compound",
-            "Melting point"
+            "Molecular weight only",
+            "Molecular geometry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Molecular geometry (3D shape) determines how well a drug fits into its biological target, affecting binding and activity."
         },
         {
           id: 12,
           question: "What is a lead compound?",
           options: [
+            "A drug delivery device",
             "A starting point for drug optimization",
-            "The final approved drug product",
             "A toxic compound to avoid",
-            "A drug delivery device"
+            "The final approved drug product"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A lead compound shows promising biological activity and serves as a starting point for further optimization and development."
         },
         {
           id: 13,
           question: "Which feature is NOT typically part of a pharmacophore model?",
           options: [
-            "Molecular weight",
-            "Hydrogen bond donor",
+            "Charged group",
             "Hydrophobic region",
-            "Charged group"
+            "Hydrogen bond donor",
+            "Molecular weight"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Molecular weight is not typically a pharmacophoric feature; pharmacophores focus on functional groups and spatial arrangements."
         },
         {
           id: 14,
           question: "What does 'design space' refer to in quality by design?",
           options: [
-            "Acceptable ranges of process parameters that ensure quality",
-            "The physical layout of a manufacturing facility",
             "Computer screen design for quality control",
-            "Storage space for raw materials"
+            "Acceptable ranges of process parameters that ensure quality",
+            "Storage space for raw materials",
+            "The physical layout of a manufacturing facility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Design space defines the multidimensional combination of input variables that have been demonstrated to provide quality assurance."
         },
         {
           id: 15,
           question: "What enhances a drug's ability to cross cell membranes?",
           options: [
-            "Hydrophobic character",
             "High water solubility",
             "Large molecular size",
+            "Hydrophobic character",
             "Multiple charged groups"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Hydrophobic (lipid-soluble) drugs can more easily cross cell membranes, which are composed of lipid bilayers."
         },
         {
           id: 16,
           question: "Which analytical technique identifies functional groups in drugs?",
           options: [
-            "Infrared spectroscopy",
-            "pH measurement",
             "Weighing balance",
-            "Microscopy"
+            "Infrared spectroscopy",
+            "Microscopy",
+            "pH measurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Infrared spectroscopy identifies functional groups based on their characteristic absorption of infrared light."
         },
         {
           id: 17,
           question: "What is molecular docking used for?",
           options: [
-            "Predicting how drugs bind to targets",
-            "Shipping drug containers",
+            "Packaging finished products",
             "Mixing drug ingredients",
-            "Packaging finished products"
+            "Shipping drug containers",
+            "Predicting how drugs bind to targets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Molecular docking predicts the preferred orientation of a drug when bound to its target, helping in drug design."
         },
         {
           id: 18,
           question: "Which is a common hydrogen bond acceptor?",
           options: [
+            "Alkane chain",
             "Carbonyl oxygen",
             "Methyl group",
-            "Aromatic ring",
-            "Alkane chain"
+            "Aromatic ring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Carbonyl oxygen atoms (C=O) are common hydrogen bond acceptors in drug molecules and biological targets."
         },
         {
@@ -276,9 +276,9 @@ A pharmacophore represents the essential features a molecule needs to have biolo
           question: "What improves during lead optimization?",
           options: [
             "Drug potency and selectivity",
+            "Only the manufacturing cost",
             "Only the chemical name",
-            "Only the color of the powder",
-            "Only the manufacturing cost"
+            "Only the color of the powder"
           ],
           correctAnswer: 0,
           explanation: "Lead optimization improves drug properties including potency, selectivity, safety, and pharmacokinetic profile."
@@ -344,9 +344,9 @@ The BCS categorizes drugs based on:
           question: "What does BCS stand for in pharmaceutical sciences?",
           options: [
             "Biopharmaceutical Classification System",
-            "Basic Compounding Standards",
+            "Bioavailability Comparison Study",
             "Bulk Chemical Storage",
-            "Bioavailability Comparison Study"
+            "Basic Compounding Standards"
           ],
           correctAnswer: 0,
           explanation: "BCS stands for Biopharmaceutical Classification System, which categorizes drugs based on solubility and permeability."
@@ -355,36 +355,36 @@ The BCS categorizes drugs based on:
           id: 2,
           question: "Which tablet manufacturing method is simplest for compatible powders?",
           options: [
-            "Direct compression",
             "Wet granulation",
+            "Hot melt extrusion",
             "Dry granulation",
-            "Hot melt extrusion"
+            "Direct compression"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Direct compression is the simplest method where powders are mixed and compressed without prior granulation."
         },
         {
           id: 3,
           question: "What are liposomes?",
           options: [
-            "Lipid vesicles that encapsulate drugs",
+            "Quality control instruments",
             "Sugar-based tablet coatings",
             "Types of mixing equipment",
-            "Quality control instruments"
+            "Lipid vesicles that encapsulate drugs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Liposomes are spherical vesicles made of lipid bilayers that can encapsulate drugs for improved delivery."
         },
         {
           id: 4,
           question: "Which is NOT a solid dosage form?",
           options: [
-            "Syrup",
-            "Tablet",
             "Capsule",
-            "Powder"
+            "Powder",
+            "Tablet",
+            "Syrup"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Syrup is a liquid dosage form, while tablets, capsules, and powders are solid dosage forms."
         },
         {
@@ -392,9 +392,9 @@ The BCS categorizes drugs based on:
           question: "What is wet granulation used for?",
           options: [
             "Improving powder flow and compression",
+            "Reducing manufacturing time only",
             "Making tablets dissolve faster",
-            "Changing tablet color",
-            "Reducing manufacturing time only"
+            "Changing tablet color"
           ],
           correctAnswer: 0,
           explanation: "Wet granulation improves powder flow properties, enhances compression characteristics, and reduces dust."
@@ -404,9 +404,9 @@ The BCS categorizes drugs based on:
           question: "Which BCS class has high solubility but low permeability?",
           options: [
             "Class III",
-            "Class I",
+            "Class IV",
             "Class II",
-            "Class IV"
+            "Class I"
           ],
           correctAnswer: 0,
           explanation: "BCS Class III drugs have high solubility but low permeability, meaning they dissolve well but are poorly absorbed."
@@ -415,24 +415,24 @@ The BCS categorizes drugs based on:
           id: 7,
           question: "What do extended release formulations achieve?",
           options: [
-            "Maintain therapeutic effect over longer periods",
-            "Make drugs work instantly",
             "Increase drug absorption only",
-            "Change drug mechanism of action"
+            "Change drug mechanism of action",
+            "Make drugs work instantly",
+            "Maintain therapeutic effect over longer periods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Extended release formulations maintain therapeutic drug levels over extended periods, reducing dosing frequency."
         },
         {
           id: 8,
           question: "What are nanoparticles used for in drug delivery?",
           options: [
-            "Ultra-small carriers for improved delivery",
+            "Reducing manufacturing costs only",
             "Making drugs taste better",
-            "Increasing tablet size",
-            "Reducing manufacturing costs only"
+            "Ultra-small carriers for improved delivery",
+            "Increasing tablet size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Nanoparticles are submicron-sized carriers that can improve drug solubility, stability, and targeted delivery."
         },
         {
@@ -451,36 +451,36 @@ The BCS categorizes drugs based on:
           id: 10,
           question: "What is delayed release designed to do?",
           options: [
-            "Release drug at specific times or locations",
             "Prevent drug from ever being released",
-            "Make drugs work faster always",
-            "Only change drug color"
+            "Only change drug color",
+            "Release drug at specific times or locations",
+            "Make drugs work faster always"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Delayed release systems protect drugs from stomach acid or release them at specific sites in the gastrointestinal tract."
         },
         {
           id: 11,
           question: "What are microneedles used for?",
           options: [
-            "Painless transdermal delivery",
-            "Mixing drug ingredients",
+            "Packaging medications",
             "Testing drug purity",
-            "Packaging medications"
+            "Painless transdermal delivery",
+            "Mixing drug ingredients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Microneedles create microscopic pathways through the skin for painless delivery of drugs without reaching nerves."
         },
         {
           id: 12,
           question: "Which BCS class has both low solubility and low permeability?",
           options: [
-            "Class IV",
             "Class I",
-            "Class II",
-            "Class III"
+            "Class IV",
+            "Class III",
+            "Class II"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BCS Class IV drugs have both low solubility and low permeability, presenting significant formulation challenges."
         },
         {
@@ -499,24 +499,24 @@ The BCS categorizes drugs based on:
           id: 14,
           question: "What do tablet coatings provide?",
           options: [
-            "Protection, taste masking, or controlled release",
-            "Only color for identification",
             "Increased weight for pricing",
-            "No functional benefits"
+            "Only color for identification",
+            "No functional benefits",
+            "Protection, taste masking, or controlled release"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Coatings can protect drugs from moisture/light, mask unpleasant tastes, control release, or aid swallowing."
         },
         {
           id: 15,
           question: "What is targeted drug delivery?",
           options: [
-            "Directing drug to specific tissues or cells",
-            "Giving drugs to any patient",
             "Making drugs work everywhere equally",
-            "Only changing drug administration route"
+            "Only changing drug administration route",
+            "Giving drugs to any patient",
+            "Directing drug to specific tissues or cells"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Targeted delivery directs drugs to specific sites to increase efficacy and reduce side effects elsewhere."
         },
         {
@@ -535,12 +535,12 @@ The BCS categorizes drugs based on:
           id: 17,
           question: "What does pulsatile release provide?",
           options: [
-            "Bursts of drug at predetermined intervals",
-            "Continuous steady release only",
             "Random unpredictable release",
-            "No drug release at all"
+            "Continuous steady release only",
+            "No drug release at all",
+            "Bursts of drug at predetermined intervals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pulsatile systems release drugs in bursts at specific times, mimicking natural biological rhythms."
         },
         {
@@ -548,8 +548,8 @@ The BCS categorizes drugs based on:
           question: "What are implants used for?",
           options: [
             "Long-term sustained release",
-            "Immediate drug action only",
             "One-time dosing forever",
+            "Immediate drug action only",
             "Testing drug stability"
           ],
           correctAnswer: 0,
@@ -559,24 +559,24 @@ The BCS categorizes drugs based on:
           id: 19,
           question: "Which BCS class has both high solubility and high permeability?",
           options: [
-            "Class I",
             "Class II",
-            "Class III",
-            "Class IV"
+            "Class I",
+            "Class IV",
+            "Class III"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BCS Class I drugs have both high solubility and high permeability, making them generally well-absorbed."
         },
         {
           id: 20,
           question: "What is dissolution rate?",
           options: [
-            "How quickly a drug dissolves",
+            "How much drug is in a tablet",
             "How fast a drug is absorbed",
-            "How long a drug lasts in body",
-            "How much drug is in a tablet"
+            "How quickly a drug dissolves",
+            "How long a drug lasts in body"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dissolution rate measures how quickly a solid drug dissolves in solution, affecting absorption and onset of action."
         }
       ]
@@ -626,48 +626,48 @@ This module explores how drugs produce their effects in the body. You'll learn a
           id: 1,
           question: "What do agonist drugs do?",
           options: [
-            "Activate receptors to produce responses",
-            "Block receptors to prevent responses",
             "Destroy receptor proteins",
+            "Block receptors to prevent responses",
+            "Activate receptors to produce responses",
             "Have no effect on receptors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Agonists bind to and activate receptors, producing a biological response similar to the natural ligand."
         },
         {
           id: 2,
           question: "What does ADME stand for in pharmacology?",
           options: [
-            "Absorption, Distribution, Metabolism, Excretion",
-            "Analysis, Dosage, Monitoring, Evaluation",
             "Administration, Delivery, Measurement, Effect",
+            "Analysis, Dosage, Monitoring, Evaluation",
+            "Absorption, Distribution, Metabolism, Excretion",
             "Agonist, Antagonist, Modulator, Enhancer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ADME stands for Absorption, Distribution, Metabolism, Excretion - the four key pharmacokinetic processes."
         },
         {
           id: 3,
           question: "What are trough drug levels?",
           options: [
-            "Lowest concentration before next dose",
-            "Highest concentration after administration",
             "Average concentration over time",
-            "Total amount in the body"
+            "Highest concentration after administration",
+            "Total amount in the body",
+            "Lowest concentration before next dose"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Trough levels represent the lowest drug concentration in the bloodstream, usually measured just before the next dose."
         },
         {
           id: 4,
           question: "What do antagonist drugs do?",
           options: [
+            "Destroy drug molecules",
             "Block receptors to prevent responses",
             "Activate receptors strongly",
-            "Destroy drug molecules",
             "Increase receptor numbers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Antagonists bind to receptors but don't activate them, blocking natural agonists from producing effects."
         },
         {
@@ -675,9 +675,9 @@ This module explores how drugs produce their effects in the body. You'll learn a
           question: "What is the therapeutic range?",
           options: [
             "Drug concentrations that are effective but safe",
-            "Maximum tolerable dose",
             "Minimum effective dose only",
-            "Average dose for all patients"
+            "Average dose for all patients",
+            "Maximum tolerable dose"
           ],
           correctAnswer: 0,
           explanation: "The therapeutic range is the concentration window where a drug is effective without causing toxicity."
@@ -686,24 +686,24 @@ This module explores how drugs produce their effects in the body. You'll learn a
           id: 6,
           question: "What are Type A adverse drug reactions?",
           options: [
-            "Predictable, dose-dependent effects",
-            "Unpredictable idiosyncratic reactions",
+            "Placebo effects",
             "Allergic reactions only",
-            "Placebo effects"
+            "Unpredictable idiosyncratic reactions",
+            "Predictable, dose-dependent effects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Type A reactions are predictable from the drug's known pharmacology and are usually dose-dependent."
         },
         {
           id: 7,
           question: "What is drug distribution?",
           options: [
-            "How drugs spread through the body",
             "How drugs are manufactured",
             "How drugs are prescribed",
+            "How drugs spread through the body",
             "How drugs are packaged"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Distribution describes how drugs move from bloodstream to tissues and organs throughout the body."
         },
         {
@@ -711,9 +711,9 @@ This module explores how drugs produce their effects in the body. You'll learn a
           question: "What do partial agonists produce?",
           options: [
             "Submaximal responses even at full receptor occupancy",
-            "Stronger responses than full agonists",
+            "Opposite responses to agonists",
             "No response at all",
-            "Opposite responses to agonists"
+            "Stronger responses than full agonists"
           ],
           correctAnswer: 0,
           explanation: "Partial agonists activate receptors but produce less than maximal response even when all receptors are occupied."
@@ -722,60 +722,60 @@ This module explores how drugs produce their effects in the body. You'll learn a
           id: 9,
           question: "What are peak drug levels?",
           options: [
+            "Average concentration over 24 hours",
             "Highest concentration after administration",
             "Lowest concentration before next dose",
-            "Average concentration over 24 hours",
             "Concentration in tissues only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Peak levels represent the maximum drug concentration reached after administration, indicating potential for efficacy and toxicity."
         },
         {
           id: 10,
           question: "What are Type B adverse drug reactions?",
           options: [
-            "Unpredictable, idiosyncratic reactions",
-            "Predictable dose-dependent effects",
             "Common side effects for all patients",
-            "Expected therapeutic effects"
+            "Expected therapeutic effects",
+            "Predictable dose-dependent effects",
+            "Unpredictable, idiosyncratic reactions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Type B reactions are unpredictable, not related to dose, and often involve immune responses or genetic factors."
         },
         {
           id: 11,
           question: "What is drug metabolism?",
           options: [
-            "Chemical modification of drugs in the body",
             "How drugs are absorbed",
             "How drugs are excreted",
+            "Chemical modification of drugs in the body",
             "How drugs are distributed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Metabolism involves chemical transformation of drugs, usually making them more water-soluble for excretion."
         },
         {
           id: 12,
           question: "What do inverse agonists produce?",
           options: [
-            "Opposite effects of agonists",
             "Same effects as partial agonists",
             "No effects on their own",
+            "Opposite effects of agonists",
             "Enhanced agonist effects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Inverse agonists reduce baseline receptor activity, producing effects opposite to those of agonists."
         },
         {
           id: 13,
           question: "What is individualized dosing?",
           options: [
-            "Adjusting doses based on patient factors",
-            "Giving same dose to all patients",
             "Using only maximum doses",
+            "Giving same dose to all patients",
+            "Adjusting doses based on patient factors",
             "Random dose selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Individualized dosing adjusts medication amounts based on age, weight, kidney/liver function, genetics, and other factors."
         },
         {
@@ -784,8 +784,8 @@ This module explores how drugs produce their effects in the body. You'll learn a
           options: [
             "When drugs affect each other's actions",
             "How doctors prescribe drugs",
-            "How patients take drugs",
-            "How drugs are manufactured together"
+            "How drugs are manufactured together",
+            "How patients take drugs"
           ],
           correctAnswer: 0,
           explanation: "Drug interactions occur when one drug affects the activity, effectiveness, or toxicity of another drug."
@@ -794,12 +794,12 @@ This module explores how drugs produce their effects in the body. You'll learn a
           id: 15,
           question: "What is drug excretion?",
           options: [
+            "Metabolism of drugs in liver",
             "Removal of drugs from the body",
             "Absorption of drugs into body",
-            "Distribution of drugs in body",
-            "Metabolism of drugs in liver"
+            "Distribution of drugs in body"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Excretion is the process by which drugs and their metabolites are eliminated from the body, mainly through kidneys or liver."
         },
         {
@@ -807,9 +807,9 @@ This module explores how drugs produce their effects in the body. You'll learn a
           question: "Which are cardiovascular drugs?",
           options: [
             "Treat heart and blood vessel conditions",
+            "Only reduce pain",
             "Only treat infections",
-            "Only affect the brain",
-            "Only reduce pain"
+            "Only affect the brain"
           ],
           correctAnswer: 0,
           explanation: "Cardiovascular drugs include medications for hypertension, heart failure, arrhythmias, and other heart/blood vessel disorders."
@@ -818,12 +818,12 @@ This module explores how drugs produce their effects in the body. You'll learn a
           id: 17,
           question: "What are CNS agents?",
           options: [
-            "Drugs affecting brain and nervous system",
             "Drugs for skin conditions only",
-            "Digestive system medications",
-            "Muscle-building drugs"
+            "Drugs affecting brain and nervous system",
+            "Muscle-building drugs",
+            "Digestive system medications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CNS (Central Nervous System) agents include antidepressants, antipsychotics, sedatives, and other drugs affecting brain function."
         },
         {
@@ -831,9 +831,9 @@ This module explores how drugs produce their effects in the body. You'll learn a
           question: "What are antimicrobials?",
           options: [
             "Drugs fighting infections",
-            "Drugs for pain only",
+            "Drugs for mental health",
             "Drugs for heart conditions",
-            "Drugs for mental health"
+            "Drugs for pain only"
           ],
           correctAnswer: 0,
           explanation: "Antimicrobials include antibiotics, antivirals, antifungals, and antiparasitics that fight various infections."
@@ -842,24 +842,24 @@ This module explores how drugs produce their effects in the body. You'll learn a
           id: 19,
           question: "What are risk mitigation strategies?",
           options: [
+            "Not monitoring patients",
             "Monitoring and prevention approaches",
-            "Ignoring potential problems",
             "Using maximum doses always",
-            "Not monitoring patients"
+            "Ignoring potential problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk mitigation includes regular monitoring, dose adjustments, patient education, and avoiding dangerous combinations."
         },
         {
           id: 20,
           question: "What are anti-inflammatory drugs?",
           options: [
+            "Drugs for heart rate only",
             "Drugs reducing inflammation and pain",
-            "Drugs increasing inflammation",
             "Drugs for infections only",
-            "Drugs for heart rate only"
+            "Drugs increasing inflammation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Anti-inflammatory drugs reduce inflammation, swelling, and pain, including NSAIDs and corticosteroids."
         }
       ]
@@ -911,9 +911,9 @@ GMP ensures products are consistently produced and controlled:
           question: "What does HPLC stand for?",
           options: [
             "High Performance Liquid Chromatography",
-            "High Pressure Liquid Container",
+            "Heavy Particle Light Chromatography",
             "Human Pharmaceutical License Code",
-            "Heavy Particle Light Chromatography"
+            "High Pressure Liquid Container"
           ],
           correctAnswer: 0,
           explanation: "HPLC stands for High Performance Liquid Chromatography, a separation technique used to analyze drug compounds."
@@ -922,108 +922,108 @@ GMP ensures products are consistently produced and controlled:
           id: 2,
           question: "What does GMP ensure?",
           options: [
-            "Consistent production and control of products",
-            "Only low production costs",
             "Fastest manufacturing speed",
+            "Only low production costs",
+            "Consistent production and control of products",
             "Attractive packaging only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Good Manufacturing Practice ensures pharmaceutical products are consistently produced and controlled to quality standards."
         },
         {
           id: 3,
           question: "What are identity tests for?",
           options: [
-            "Confirming the correct substance is present",
             "Measuring exact quantity only",
-            "Checking package appearance",
-            "Testing drug effects in humans"
+            "Confirming the correct substance is present",
+            "Testing drug effects in humans",
+            "Checking package appearance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Identity tests verify that the material is what it claims to be, using specific characteristics like spectra or chromatography."
         },
         {
           id: 4,
           question: "What does GC stand for?",
           options: [
-            "Gas Chromatography",
             "General Chemistry",
-            "Good Compliance",
-            "Gradient Centrifugation"
+            "Gradient Centrifugation",
+            "Gas Chromatography",
+            "Good Compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GC stands for Gas Chromatography, used to separate and analyze volatile compounds in pharmaceuticals."
         },
         {
           id: 5,
           question: "What are accelerated stability studies?",
           options: [
-            "Elevated conditions to predict shelf life",
             "Real-time normal storage testing",
             "Testing in actual market conditions",
+            "Elevated conditions to predict shelf life",
             "Only testing chemical purity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Accelerated studies use higher temperature/humidity to rapidly predict long-term stability and shelf life."
         },
         {
           id: 6,
           question: "What is process validation?",
           options: [
-            "Proof that processes work consistently",
             "Checking equipment appearance",
             "Testing raw material quality only",
-            "Employee performance reviews"
+            "Employee performance reviews",
+            "Proof that processes work consistently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Process validation provides documented evidence that a process consistently produces products meeting specifications."
         },
         {
           id: 7,
           question: "What does UV-Vis spectroscopy measure?",
           options: [
-            "Light absorption by molecules",
             "Molecular weight directly",
-            "Particle size distribution",
-            "Melting point of compounds"
+            "Melting point of compounds",
+            "Light absorption by molecules",
+            "Particle size distribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "UV-Vis spectroscopy measures how much ultraviolet or visible light a compound absorbs, used for quantification and identification."
         },
         {
           id: 8,
           question: "What are assay tests?",
           options: [
-            "Measure active ingredient quantity",
+            "Test patient responses",
             "Test package durability",
-            "Check drug color only",
-            "Test patient responses"
+            "Measure active ingredient quantity",
+            "Check drug color only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Assay tests quantitatively determine the amount of active pharmaceutical ingredient in a dosage form."
         },
         {
           id: 9,
           question: "What is sterility testing for?",
           options: [
-            "Injectable and ophthalmic products",
-            "All oral medications",
             "Only topical creams",
+            "All oral medications",
+            "Injectable and ophthalmic products",
             "Packaging materials only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sterility testing confirms absence of viable microorganisms in sterile products like injections and eye preparations."
         },
         {
           id: 10,
           question: "What does NMR stand for?",
           options: [
-            "Nuclear Magnetic Resonance",
-            "National Medication Registry",
+            "Neutralization Measurement Resource",
             "Normalized Mass Ratio",
-            "Neutralization Measurement Resource"
+            "Nuclear Magnetic Resonance",
+            "National Medication Registry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NMR stands for Nuclear Magnetic Resonance, a technique for determining molecular structure and purity."
         },
         {
@@ -1031,9 +1031,9 @@ GMP ensures products are consistently produced and controlled:
           question: "What are impurity tests?",
           options: [
             "Detect and quantify related substances",
-            "Test active ingredient only",
+            "Test manufacturing equipment",
             "Check package impurities",
-            "Test manufacturing equipment"
+            "Test active ingredient only"
           ],
           correctAnswer: 0,
           explanation: "Impurity tests identify and measure unwanted substances like starting materials, byproducts, or degradation products."
@@ -1042,12 +1042,12 @@ GMP ensures products are consistently produced and controlled:
           id: 12,
           question: "What is photostability testing?",
           options: [
-            "Effects of light exposure on drugs",
-            "Testing in dark conditions only",
+            "Testing packaging transparency",
             "Measuring light production",
-            "Testing packaging transparency"
+            "Effects of light exposure on drugs",
+            "Testing in dark conditions only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Photostability testing evaluates how drug substances and products degrade when exposed to light."
         },
         {
@@ -1066,84 +1066,84 @@ GMP ensures products are consistently produced and controlled:
           id: 14,
           question: "What are physical tests for solids?",
           options: [
-            "Hardness, friability, dissolution",
             "Only chemical composition",
-            "Only biological activity",
-            "Only color measurement"
+            "Only color measurement",
+            "Hardness, friability, dissolution",
+            "Only biological activity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Physical tests include hardness (crushing strength), friability (tendency to break), and dissolution (release rate)."
         },
         {
           id: 15,
           question: "What are microbial limits?",
           options: [
-            "Acceptable microbe levels for non-sterile products",
-            "Complete sterility requirements",
+            "No microbial testing needed",
             "Only for injectable products",
-            "No microbial testing needed"
+            "Complete sterility requirements",
+            "Acceptable microbe levels for non-sterile products"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Microbial limits define maximum acceptable levels of microorganisms in non-sterile pharmaceutical products."
         },
         {
           id: 16,
           question: "What is mass spectrometry used for?",
           options: [
-            "Molecular weight and structure determination",
-            "Only weighing samples",
             "Measuring volume only",
-            "Testing package strength"
+            "Only weighing samples",
+            "Testing package strength",
+            "Molecular weight and structure determination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mass spectrometry identifies compounds by measuring mass-to-charge ratios and fragmentation patterns."
         },
         {
           id: 17,
           question: "What is documentation control?",
           options: [
-            "Complete records of all processes",
             "Only final product records",
+            "Complete records of all processes",
             "Informal notes only",
             "No documentation needed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Documentation control maintains complete, accurate records of manufacturing, testing, and distribution for traceability."
         },
         {
           id: 18,
           question: "What are endotoxin tests for?",
           options: [
+            "Physical contaminants",
             "Pyrogenic substances from bacteria",
             "Chemical impurities only",
-            "Physical contaminants",
             "Microbial growth promotion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Endotoxin tests detect fever-causing substances from Gram-negative bacteria, critical for injectable products."
         },
         {
           id: 19,
           question: "What does TGA measure?",
           options: [
-            "Weight changes with temperature",
-            "Light transmission only",
             "Electrical resistance",
+            "Light transmission only",
+            "Weight changes with temperature",
             "Magnetic susceptibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TGA (Thermogravimetric Analysis) measures how a sample's weight changes as temperature increases."
         },
         {
           id: 20,
           question: "What is preservative effectiveness testing?",
           options: [
-            "Ensuring antimicrobial activity in products",
-            "Testing preservative taste",
             "Measuring preservative color",
-            "Checking preservative cost"
+            "Testing preservative taste",
+            "Checking preservative cost",
+            "Ensuring antimicrobial activity in products"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "This testing verifies that preservatives in multi-dose products prevent microbial growth throughout shelf life."
         }
       ]
@@ -1193,84 +1193,84 @@ This module covers the regulatory framework governing drug development, approval
           id: 1,
           question: "What does FDA stand for?",
           options: [
-            "Food and Drug Administration",
+            "Pharmaceutical Development Association",
             "Federal Drug Agency",
             "Food Distribution Authority",
-            "Pharmaceutical Development Association"
+            "Food and Drug Administration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FDA stands for Food and Drug Administration, the U.S. agency regulating pharmaceuticals, food, and medical devices."
         },
         {
           id: 2,
           question: "What are preclinical tests?",
           options: [
-            "Laboratory and animal studies",
             "First human tests",
-            "Market research studies",
-            "Packaging design tests"
+            "Packaging design tests",
+            "Laboratory and animal studies",
+            "Market research studies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Preclinical testing involves laboratory and animal studies to assess safety before human trials."
         },
         {
           id: 3,
           question: "What does IND stand for?",
           options: [
-            "Investigational New Drug",
-            "International New Drug",
             "Initial New Dosage",
-            "Investigative New Device"
+            "Investigative New Device",
+            "Investigational New Drug",
+            "International New Drug"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IND stands for Investigational New Drug, an application to begin human clinical trials."
         },
         {
           id: 4,
           question: "What does EMA stand for?",
           options: [
-            "European Medicines Agency",
             "European Medical Association",
-            "Emergency Medicine Administration",
-            "European Manufacturing Authority"
+            "European Manufacturing Authority",
+            "European Medicines Agency",
+            "Emergency Medicine Administration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EMA stands for European Medicines Agency, responsible for scientific evaluation of medicines in the EU."
         },
         {
           id: 5,
           question: "What are clinical trials?",
           options: [
-            "Phase I-III human studies",
+            "Market surveys only",
             "Only animal studies",
-            "Laboratory chemical tests",
-            "Market surveys only"
+            "Phase I-III human studies",
+            "Laboratory chemical tests"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clinical trials are systematic studies in human volunteers to evaluate safety and efficacy of investigational drugs."
         },
         {
           id: 6,
           question: "What does cGMP stand for?",
           options: [
-            "Current Good Manufacturing Practice",
-            "Clinical Good Medical Practice",
+            "Canadian Good Medicine Practice",
             "Comprehensive Good Manufacturing",
-            "Canadian Good Medicine Practice"
+            "Clinical Good Medical Practice",
+            "Current Good Manufacturing Practice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "cGMP stands for Current Good Manufacturing Practice, regulations ensuring proper design and control of manufacturing."
         },
         {
           id: 7,
           question: "What does NDA stand for?",
           options: [
-            "New Drug Application",
-            "National Drug Agency",
             "New Dosage Administration",
-            "Nonprescription Drug Approval"
+            "National Drug Agency",
+            "Nonprescription Drug Approval",
+            "New Drug Application"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NDA stands for New Drug Application, submitted to FDA for approval to market a new pharmaceutical."
         },
         {
@@ -1278,9 +1278,9 @@ This module covers the regulatory framework governing drug development, approval
           question: "What is post-marketing surveillance?",
           options: [
             "Phase IV monitoring after approval",
-            "Preclinical testing",
             "Clinical trial phase I",
-            "Manufacturing process development"
+            "Manufacturing process development",
+            "Preclinical testing"
           ],
           correctAnswer: 0,
           explanation: "Post-marketing surveillance monitors drug safety in larger populations after approval (Phase IV)."
@@ -1289,60 +1289,60 @@ This module covers the regulatory framework governing drug development, approval
           id: 9,
           question: "What does GLP stand for?",
           options: [
-            "Good Laboratory Practice",
-            "Good Legal Practice",
+            "Government Licensing Procedure",
             "General Laboratory Protocol",
-            "Government Licensing Procedure"
+            "Good Legal Practice",
+            "Good Laboratory Practice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GLP stands for Good Laboratory Practice, regulations for nonclinical laboratory studies supporting regulatory submissions."
         },
         {
           id: 10,
           question: "What does ANDA stand for?",
           options: [
-            "Abbreviated New Drug Application",
             "Advanced New Drug Approval",
+            "Abbreviated New Drug Application",
             "American New Drug Application",
             "Additional New Drug Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ANDA stands for Abbreviated New Drug Application, for generic drugs demonstrating equivalence to approved products."
         },
         {
           id: 11,
           question: "What is Health Canada?",
           options: [
-            "Canada's health products regulator",
-            "A Canadian hospital network",
             "U.S. health insurance program",
+            "A Canadian hospital network",
+            "Canada's health products regulator",
             "European health organization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Health Canada is the federal department responsible for national public health and regulating health products."
         },
         {
           id: 12,
           question: "What does GCP stand for?",
           options: [
+            "General Clinical Protocol",
             "Good Clinical Practice",
             "Good Compliance Practice",
-            "General Clinical Protocol",
             "Government Clinical Program"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "GCP stands for Good Clinical Practice, international ethical and scientific standards for clinical trials."
         },
         {
           id: 13,
           question: "What does CTD stand for?",
           options: [
-            "Common Technical Document",
             "Clinical Trial Documentation",
-            "Comprehensive Test Data",
-            "Chemical Technical Dossier"
+            "Common Technical Document",
+            "Chemical Technical Dossier",
+            "Comprehensive Test Data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CTD stands for Common Technical Document, a standardized format for regulatory submissions internationally."
         },
         {
@@ -1361,72 +1361,72 @@ This module covers the regulatory framework governing drug development, approval
           id: 15,
           question: "What does PMDA stand for?",
           options: [
-            "Pharmaceuticals and Medical Devices Agency",
+            "Primary Medical Device Administration",
             "Pacific Medical Development Authority",
-            "Pharmaceutical Manufacturing and Distribution Association",
-            "Primary Medical Device Administration"
+            "Pharmaceuticals and Medical Devices Agency",
+            "Pharmaceutical Manufacturing and Distribution Association"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PMDA stands for Pharmaceuticals and Medical Devices Agency, Japan's regulatory agency for medical products."
         },
         {
           id: 16,
           question: "What does GDP stand for in pharmaceuticals?",
           options: [
-            "Good Distribution Practice",
-            "Gross Domestic Product",
             "General Drug Protocol",
-            "Good Documentation Practice"
+            "Good Documentation Practice",
+            "Good Distribution Practice",
+            "Gross Domestic Product"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GDP stands for Good Distribution Practice, guidelines for proper distribution of pharmaceutical products."
         },
         {
           id: 17,
           question: "What are labeling regulations for?",
           options: [
-            "Accurate and complete product information",
             "Attractive package design only",
             "Minimal information required",
+            "Accurate and complete product information",
             "No specific requirements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Labeling regulations ensure patients and healthcare providers receive complete, accurate information about drugs."
         },
         {
           id: 18,
           question: "What does BLA stand for?",
           options: [
-            "Biologics License Application",
+            "Business License Application",
             "Basic License Agreement",
-            "Biological Laboratory Assessment",
-            "Business License Application"
+            "Biologics License Application",
+            "Biological Laboratory Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BLA stands for Biologics License Application, for approval of biological products like vaccines or blood products."
         },
         {
           id: 19,
           question: "What are advertising controls?",
           options: [
+            "Only price advertising rules",
             "Truthful promotion of approved uses",
             "No restrictions on advertising",
-            "Only price advertising rules",
             "Packaging appearance rules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Advertising controls ensure drug promotion is truthful, balanced, and limited to approved indications."
         },
         {
           id: 20,
           question: "What are regulatory inspections?",
           options: [
-            "Audits of facilities and records",
-            "Only financial audits",
+            "Marketing effectiveness studies",
             "Employee performance reviews",
-            "Marketing effectiveness studies"
+            "Audits of facilities and records",
+            "Only financial audits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regulatory inspections verify compliance with regulations through examination of facilities, processes, and records."
         }
       ]
@@ -1476,12 +1476,12 @@ This module covers large-scale production of pharmaceutical products, including 
           id: 1,
           question: "What are cleanroom classifications?",
           options: [
-            "Grade A-D for different operations",
+            "Product quality grades",
             "Color codes for rooms",
             "Employee skill levels",
-            "Product quality grades"
+            "Grade A-D for different operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cleanrooms are classified Grade A (highest) to D based on permitted particle counts for different manufacturing steps."
         },
         {
@@ -1489,8 +1489,8 @@ This module covers large-scale production of pharmaceutical products, including 
           question: "What does HVAC stand for?",
           options: [
             "Heating, Ventilation, Air Conditioning",
-            "High Volume Air Control",
             "Human Verification and Compliance",
+            "High Volume Air Control",
             "Hazardous Vapor Containment"
           ],
           correctAnswer: 0,
@@ -1500,48 +1500,48 @@ This module covers large-scale production of pharmaceutical products, including 
           id: 3,
           question: "What is batch manufacturing?",
           options: [
+            "Manual small-scale production only",
             "Discrete production lots with testing",
             "Continuous non-stop production",
-            "Manual small-scale production only",
             "Experimental trial production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Batch manufacturing produces discrete quantities with defined start/end points, each batch tested before release."
         },
         {
           id: 4,
           question: "What does WFI stand for?",
           options: [
-            "Water for Injection",
             "Water Filtering Installation",
+            "Weekly Facility Inspection",
             "Waste Fluid Incineration",
-            "Weekly Facility Inspection"
+            "Water for Injection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "WFI stands for Water for Injection, highly purified water used in parenteral (injectable) products."
         },
         {
           id: 5,
           question: "What is continuous manufacturing?",
           options: [
+            "Manual production methods",
             "Ongoing production with real-time monitoring",
             "Batch production only",
-            "Manual production methods",
             "Experimental laboratory scale"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Continuous manufacturing operates without interruption, with materials constantly fed in and product continuously removed."
         },
         {
           id: 6,
           question: "What does PAT stand for?",
           options: [
-            "Process Analytical Technology",
-            "Product Assessment Testing",
+            "Package Analysis Technology",
             "Pharmaceutical Approval Testing",
-            "Package Analysis Technology"
+            "Process Analytical Technology",
+            "Product Assessment Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PAT stands for Process Analytical Technology, using real-time monitoring to ensure quality during manufacturing."
         },
         {
@@ -1560,48 +1560,48 @@ This module covers large-scale production of pharmaceutical products, including 
           id: 8,
           question: "What is material flow in facilities?",
           options: [
-            "Unidirectional flow to prevent contamination",
-            "Random movement of materials",
             "Only employee movement",
-            "Air flow patterns only"
+            "Air flow patterns only",
+            "Unidirectional flow to prevent contamination",
+            "Random movement of materials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Material flow designs ensure one-direction movement from raw materials to finished goods, preventing cross-contamination."
         },
         {
           id: 9,
           question: "What is serialization?",
           options: [
+            "Batch size numbering",
             "Unique identifiers for tracking",
-            "Production line numbering",
             "Employee serial numbers",
-            "Batch size numbering"
+            "Production line numbering"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Serialization assigns unique codes to individual drug packages for tracking through the supply chain."
         },
         {
           id: 10,
           question: "What are scale-up considerations?",
           options: [
-            "Laboratory to commercial production adjustments",
             "Only increasing batch size",
+            "No changes needed",
             "Only equipment size changes",
-            "No changes needed"
+            "Laboratory to commercial production adjustments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Scale-up involves adjusting processes from small laboratory scale to full commercial production while maintaining quality."
         },
         {
           id: 11,
           question: "What is process intensification?",
           options: [
-            "More efficient manufacturing methods",
+            "More manual operations",
             "Longer production times",
             "Larger equipment only",
-            "More manual operations"
+            "More efficient manufacturing methods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Process intensification develops more efficient, smaller, faster, and safer manufacturing processes."
         },
         {
@@ -1609,9 +1609,9 @@ This module covers large-scale production of pharmaceutical products, including 
           question: "What is tamper evidence?",
           options: [
             "Features showing if package was opened",
+            "Package appearance only",
             "Package strength testing",
-            "Child resistance only",
-            "Package appearance only"
+            "Child resistance only"
           ],
           correctAnswer: 0,
           explanation: "Tamper-evident features show visible signs if a package has been opened, protecting against malicious tampering."
@@ -1620,24 +1620,24 @@ This module covers large-scale production of pharmaceutical products, including 
           id: 13,
           question: "What are digital twins?",
           options: [
-            "Virtual models of manufacturing processes",
-            "Identical manufacturing lines",
+            "Duplicate product samples",
             "Copy machines in facilities",
-            "Duplicate product samples"
+            "Virtual models of manufacturing processes",
+            "Identical manufacturing lines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital twins are virtual replicas of physical systems used for simulation, analysis, and optimization."
         },
         {
           id: 14,
           question: "What does IQ/OQ/PQ stand for?",
           options: [
-            "Installation/Operational/Performance Qualification",
             "Internal Quality/Output Quantity/Product Quality",
+            "Inspection Quality/Operation Quality/Production Quality",
             "Initial Query/Operational Question/Performance Query",
-            "Inspection Quality/Operation Quality/Production Quality"
+            "Installation/Operational/Performance Qualification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IQ (Installation), OQ (Operational), PQ (Performance) Qualification ensures equipment is properly installed and works correctly."
         },
         {
@@ -1656,60 +1656,60 @@ This module covers large-scale production of pharmaceutical products, including 
           id: 16,
           question: "What is secondary packaging?",
           options: [
-            "Outer boxes, labels, leaflets",
+            "Shipping pallets only",
             "Direct product containers",
             "Raw material packaging",
-            "Shipping pallets only"
+            "Outer boxes, labels, leaflets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Secondary packaging contains the primary packaged product and includes cartons, labels, and patient information leaflets."
         },
         {
           id: 17,
           question: "What is process validation typically?",
           options: [
-            "Three-batch validation",
             "One-batch validation only",
+            "Ten-batch minimum",
             "No batch validation needed",
-            "Ten-batch minimum"
+            "Three-batch validation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Process validation typically involves three consecutive successful production batches to demonstrate consistency."
         },
         {
           id: 18,
           question: "What is automation in manufacturing?",
           options: [
-            "Reduced human intervention",
-            "Increased manual work",
+            "Only using computers for design",
             "Eliminating all equipment",
-            "Only using computers for design"
+            "Reduced human intervention",
+            "Increased manual work"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Automation uses control systems and equipment to operate processes with minimal human intervention."
         },
         {
           id: 19,
           question: "What is cleaning validation?",
           options: [
-            "Proof of effective cleaning procedures",
             "Only visual cleanliness",
-            "Employee cleaning schedules",
-            "Cleaning supply inventory"
+            "Cleaning supply inventory",
+            "Proof of effective cleaning procedures",
+            "Employee cleaning schedules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cleaning validation proves that cleaning procedures effectively remove product residues to prevent cross-contamination."
         },
         {
           id: 20,
           question: "What is computer system validation?",
           options: [
+            "Software appearance only",
             "For automated and controlled systems",
             "Only computer hardware checks",
-            "Software appearance only",
             "Employee computer skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Computer system validation ensures computerized systems consistently perform as intended in regulated environments."
         }
       ]
@@ -1728,12 +1728,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 1,
         question: "What does SAR stand for in drug development?",
         options: [
+          "Standard administration route",
           "Structure-activity relationship",
-          "Systematic analysis review",
           "Safety assessment report",
-          "Standard administration route"
+          "Systematic analysis review"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: SAR stands for Structure-Activity Relationship, which studies how chemical structure affects biological activity.",
         module: 1
       },
@@ -1741,12 +1741,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 2,
         question: "Which phase of metabolism involves adding polar groups to drugs?",
         options: [
-          "Phase I metabolism",
-          "Phase II metabolism",
           "Phase III metabolism",
-          "Phase IV metabolism"
+          "Phase IV metabolism",
+          "Phase II metabolism",
+          "Phase I metabolism"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 1: Phase II metabolism involves conjugation reactions that add polar groups to make drugs more water-soluble for excretion.",
         module: 1
       },
@@ -1754,12 +1754,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 3,
         question: "What does BCS stand for in pharmaceutical sciences?",
         options: [
+          "Bioavailability Comparison Study",
           "Biopharmaceutical Classification System",
           "Basic Compounding Standards",
-          "Bulk Chemical Storage",
-          "Bioavailability Comparison Study"
+          "Bulk Chemical Storage"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: BCS stands for Biopharmaceutical Classification System, which categorizes drugs based on solubility and permeability.",
         module: 2
       },
@@ -1767,12 +1767,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 4,
         question: "Which tablet manufacturing method is simplest for compatible powders?",
         options: [
-          "Direct compression",
-          "Wet granulation",
           "Dry granulation",
-          "Hot melt extrusion"
+          "Wet granulation",
+          "Hot melt extrusion",
+          "Direct compression"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 2: Direct compression is the simplest method where powders are mixed and compressed without prior granulation.",
         module: 2
       },
@@ -1780,12 +1780,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 5,
         question: "What do agonist drugs do?",
         options: [
-          "Activate receptors to produce responses",
-          "Block receptors to prevent responses",
+          "Have no effect on receptors",
           "Destroy receptor proteins",
-          "Have no effect on receptors"
+          "Activate receptors to produce responses",
+          "Block receptors to prevent responses"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 3: Agonists bind to and activate receptors, producing a biological response similar to the natural ligand.",
         module: 3
       },
@@ -1793,12 +1793,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 6,
         question: "What does ADME stand for in pharmacology?",
         options: [
+          "Administration, Delivery, Measurement, Effect",
           "Absorption, Distribution, Metabolism, Excretion",
           "Analysis, Dosage, Monitoring, Evaluation",
-          "Administration, Delivery, Measurement, Effect",
           "Agonist, Antagonist, Modulator, Enhancer"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: ADME stands for Absorption, Distribution, Metabolism, Excretion - the four key pharmacokinetic processes.",
         module: 3
       },
@@ -1806,12 +1806,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 7,
         question: "What does HPLC stand for?",
         options: [
-          "High Performance Liquid Chromatography",
-          "High Pressure Liquid Container",
           "Human Pharmaceutical License Code",
-          "Heavy Particle Light Chromatography"
+          "High Performance Liquid Chromatography",
+          "Heavy Particle Light Chromatography",
+          "High Pressure Liquid Container"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 4: HPLC stands for High Performance Liquid Chromatography, a separation technique used to analyze drug compounds.",
         module: 4
       },
@@ -1819,12 +1819,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 8,
         question: "What does GMP ensure?",
         options: [
-          "Consistent production and control of products",
           "Only low production costs",
           "Fastest manufacturing speed",
-          "Attractive packaging only"
+          "Attractive packaging only",
+          "Consistent production and control of products"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 4: Good Manufacturing Practice ensures pharmaceutical products are consistently produced and controlled to quality standards.",
         module: 4
       },
@@ -1859,9 +1859,9 @@ This module covers large-scale production of pharmaceutical products, including 
         question: "What are cleanroom classifications?",
         options: [
           "Grade A-D for different operations",
-          "Color codes for rooms",
+          "Product quality grades",
           "Employee skill levels",
-          "Product quality grades"
+          "Color codes for rooms"
         ],
         correctAnswer: 0,
         explanation: "From Module 6: Cleanrooms are classified Grade A (highest) to D based on permitted particle counts for different manufacturing steps.",
@@ -1872,9 +1872,9 @@ This module covers large-scale production of pharmaceutical products, including 
         question: "What does HVAC stand for?",
         options: [
           "Heating, Ventilation, Air Conditioning",
-          "High Volume Air Control",
           "Human Verification and Compliance",
-          "Hazardous Vapor Containment"
+          "Hazardous Vapor Containment",
+          "High Volume Air Control"
         ],
         correctAnswer: 0,
         explanation: "From Module 6: HVAC stands for Heating, Ventilation, and Air Conditioning, critical for controlling cleanroom environments.",
@@ -1884,12 +1884,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 13,
         question: "What is a pharmacophore model?",
         options: [
-          "A 3D arrangement of features necessary for biological activity",
           "A device that measures drug absorption",
+          "A 3D arrangement of features necessary for biological activity",
           "A type of pharmaceutical packaging",
           "A method for drug stability testing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: A pharmacophore model represents the essential structural features a molecule must have to interact with a biological target.",
         module: 1
       },
@@ -1897,12 +1897,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 14,
         question: "What are liposomes?",
         options: [
-          "Lipid vesicles that encapsulate drugs",
           "Sugar-based tablet coatings",
           "Types of mixing equipment",
-          "Quality control instruments"
+          "Quality control instruments",
+          "Lipid vesicles that encapsulate drugs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 2: Liposomes are spherical vesicles made of lipid bilayers that can encapsulate drugs for improved delivery.",
         module: 2
       },
@@ -1910,12 +1910,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 15,
         question: "What are trough drug levels?",
         options: [
-          "Lowest concentration before next dose",
-          "Highest concentration after administration",
           "Average concentration over time",
-          "Total amount in the body"
+          "Lowest concentration before next dose",
+          "Total amount in the body",
+          "Highest concentration after administration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: Trough levels represent the lowest drug concentration in the bloodstream, usually measured just before the next dose.",
         module: 3
       },
@@ -1923,12 +1923,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 16,
         question: "What are identity tests for?",
         options: [
-          "Confirming the correct substance is present",
-          "Measuring exact quantity only",
           "Checking package appearance",
+          "Measuring exact quantity only",
+          "Confirming the correct substance is present",
           "Testing drug effects in humans"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 4: Identity tests verify that the material is what it claims to be, using specific characteristics like spectra or chromatography.",
         module: 4
       },
@@ -1936,12 +1936,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 17,
         question: "What does IND stand for?",
         options: [
+          "Investigative New Device",
           "Investigational New Drug",
           "International New Drug",
-          "Initial New Dosage",
-          "Investigative New Device"
+          "Initial New Dosage"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 5: IND stands for Investigational New Drug, an application to begin human clinical trials.",
         module: 5
       },
@@ -1949,12 +1949,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 18,
         question: "What is batch manufacturing?",
         options: [
-          "Discrete production lots with testing",
           "Continuous non-stop production",
+          "Discrete production lots with testing",
           "Manual small-scale production only",
           "Experimental trial production"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 6: Batch manufacturing produces discrete quantities with defined start/end points, each batch tested before release.",
         module: 6
       },
@@ -1962,12 +1962,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 19,
         question: "What does CADD stand for in pharmaceutical sciences?",
         options: [
-          "Computer-aided drug design",
-          "Chemical analysis and drug development",
+          "Comprehensive analytical drug design",
           "Clinical assessment and dosage determination",
-          "Comprehensive analytical drug design"
+          "Chemical analysis and drug development",
+          "Computer-aided drug design"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 1: CADD stands for Computer-Aided Drug Design, which uses computational methods to design and optimize drug molecules.",
         module: 1
       },
@@ -1975,12 +1975,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 20,
         question: "Which BCS class has high solubility but low permeability?",
         options: [
-          "Class III",
           "Class I",
-          "Class II",
-          "Class IV"
+          "Class IV",
+          "Class III",
+          "Class II"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 2: BCS Class III drugs have high solubility but low permeability, meaning they dissolve well but are poorly absorbed.",
         module: 2
       },
@@ -1988,12 +1988,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 21,
         question: "What do antagonist drugs do?",
         options: [
+          "Destroy drug molecules",
           "Block receptors to prevent responses",
           "Activate receptors strongly",
-          "Destroy drug molecules",
           "Increase receptor numbers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: Antagonists bind to receptors but don't activate them, blocking natural agonists from producing effects.",
         module: 3
       },
@@ -2001,12 +2001,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 22,
         question: "What does GC stand for?",
         options: [
-          "Gas Chromatography",
           "General Chemistry",
-          "Good Compliance",
-          "Gradient Centrifugation"
+          "Gas Chromatography",
+          "Gradient Centrifugation",
+          "Good Compliance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 4: GC stands for Gas Chromatography, used to separate and analyze volatile compounds in pharmaceuticals.",
         module: 4
       },
@@ -2014,12 +2014,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 23,
         question: "What does NDA stand for?",
         options: [
-          "New Drug Application",
-          "National Drug Agency",
+          "Nonprescription Drug Approval",
           "New Dosage Administration",
-          "Nonprescription Drug Approval"
+          "New Drug Application",
+          "National Drug Agency"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 5: NDA stands for New Drug Application, submitted to FDA for approval to market a new pharmaceutical.",
         module: 5
       },
@@ -2028,9 +2028,9 @@ This module covers large-scale production of pharmaceutical products, including 
         question: "What does WFI stand for?",
         options: [
           "Water for Injection",
-          "Water Filtering Installation",
+          "Weekly Facility Inspection",
           "Waste Fluid Incineration",
-          "Weekly Facility Inspection"
+          "Water Filtering Installation"
         ],
         correctAnswer: 0,
         explanation: "From Module 6: WFI stands for Water for Injection, highly purified water used in parenteral (injectable) products.",
@@ -2040,12 +2040,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 25,
         question: "What is rational drug design based on?",
         options: [
-          "Known biological targets and their structure",
           "Random screening of chemical compounds",
+          "Known biological targets and their structure",
           "Traditional herbal medicine knowledge",
           "Patient feedback on existing drugs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Rational drug design uses knowledge of biological targets and their structure to design molecules that will interact with them.",
         module: 1
       },
@@ -2053,12 +2053,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 26,
         question: "What do extended release formulations achieve?",
         options: [
-          "Maintain therapeutic effect over longer periods",
           "Make drugs work instantly",
           "Increase drug absorption only",
-          "Change drug mechanism of action"
+          "Change drug mechanism of action",
+          "Maintain therapeutic effect over longer periods"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 2: Extended release formulations maintain therapeutic drug levels over extended periods, reducing dosing frequency.",
         module: 2
       },
@@ -2066,12 +2066,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 27,
         question: "What is the therapeutic range?",
         options: [
+          "Average dose for all patients",
           "Drug concentrations that are effective but safe",
-          "Maximum tolerable dose",
           "Minimum effective dose only",
-          "Average dose for all patients"
+          "Maximum tolerable dose"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: The therapeutic range is the concentration window where a drug is effective without causing toxicity.",
         module: 3
       },
@@ -2105,12 +2105,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 30,
         question: "What is continuous manufacturing?",
         options: [
-          "Ongoing production with real-time monitoring",
           "Batch production only",
           "Manual production methods",
+          "Ongoing production with real-time monitoring",
           "Experimental laboratory scale"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 6: Continuous manufacturing operates without interruption, with materials constantly fed in and product continuously removed.",
         module: 6
       },
@@ -2118,12 +2118,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 31,
         question: "What is quality by design?",
         options: [
-          "Building quality into products from the beginning",
-          "Testing quality at the end only",
           "Quality control department responsibility only",
-          "Random quality checking"
+          "Random quality checking",
+          "Building quality into products from the beginning",
+          "Testing quality at the end only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 1: Quality by design builds quality into pharmaceutical products through understanding and controlling formulation and manufacturing variables.",
         module: 1
       },
@@ -2131,12 +2131,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 32,
         question: "What are nanoparticles used for in drug delivery?",
         options: [
+          "Reducing manufacturing costs only",
           "Ultra-small carriers for improved delivery",
           "Making drugs taste better",
-          "Increasing tablet size",
-          "Reducing manufacturing costs only"
+          "Increasing tablet size"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: Nanoparticles are submicron-sized carriers that can improve drug solubility, stability, and targeted delivery.",
         module: 2
       },
@@ -2144,12 +2144,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 33,
         question: "What are Type A adverse drug reactions?",
         options: [
+          "Allergic reactions only",
           "Predictable, dose-dependent effects",
           "Unpredictable idiosyncratic reactions",
-          "Allergic reactions only",
           "Placebo effects"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: Type A reactions are predictable from the drug's known pharmacology and are usually dose-dependent.",
         module: 3
       },
@@ -2157,12 +2157,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 34,
         question: "What is process validation?",
         options: [
-          "Proof that processes work consistently",
-          "Checking equipment appearance",
           "Testing raw material quality only",
-          "Employee performance reviews"
+          "Proof that processes work consistently",
+          "Employee performance reviews",
+          "Checking equipment appearance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 4: Process validation provides documented evidence that a process consistently produces products meeting specifications.",
         module: 4
       },
@@ -2170,12 +2170,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 35,
         question: "What are clinical trials?",
         options: [
+          "Laboratory chemical tests",
           "Phase I-III human studies",
           "Only animal studies",
-          "Laboratory chemical tests",
           "Market surveys only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 5: Clinical trials are systematic studies in human volunteers to evaluate safety and efficacy of investigational drugs.",
         module: 5
       },
@@ -2183,12 +2183,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 36,
         question: "What does PAT stand for?",
         options: [
-          "Process Analytical Technology",
           "Product Assessment Testing",
+          "Package Analysis Technology",
           "Pharmaceutical Approval Testing",
-          "Package Analysis Technology"
+          "Process Analytical Technology"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: PAT stands for Process Analytical Technology, using real-time monitoring to ensure quality during manufacturing.",
         module: 6
       },
@@ -2197,9 +2197,9 @@ This module covers large-scale production of pharmaceutical products, including 
         question: "What is prodrug design?",
         options: [
           "Creating inactive forms that become active in the body",
-          "Making drugs more expensive",
           "Increasing drug patent life",
-          "Simplifying chemical synthesis"
+          "Simplifying chemical synthesis",
+          "Making drugs more expensive"
         ],
         correctAnswer: 0,
         explanation: "From Module 1: Prodrugs are designed as inactive forms that convert to active drugs in the body, often to improve absorption or reduce side effects.",
@@ -2209,12 +2209,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 38,
         question: "What is targeted drug delivery?",
         options: [
-          "Directing drug to specific tissues or cells",
           "Giving drugs to any patient",
-          "Making drugs work everywhere equally",
-          "Only changing drug administration route"
+          "Only changing drug administration route",
+          "Directing drug to specific tissues or cells",
+          "Making drugs work everywhere equally"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 2: Targeted delivery directs drugs to specific sites to increase efficacy and reduce side effects elsewhere.",
         module: 2
       },
@@ -2222,12 +2222,12 @@ This module covers large-scale production of pharmaceutical products, including 
         id: 39,
         question: "What is drug metabolism?",
         options: [
-          "Chemical modification of drugs in the body",
-          "How drugs are absorbed",
           "How drugs are excreted",
-          "How drugs are distributed"
+          "How drugs are distributed",
+          "How drugs are absorbed",
+          "Chemical modification of drugs in the body"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 3: Metabolism involves chemical transformation of drugs, usually making them more water-soluble for excretion.",
         module: 3
       },
@@ -2236,8 +2236,8 @@ This module covers large-scale production of pharmaceutical products, including 
         question: "What is primary packaging?",
         options: [
           "Direct contact with product",
-          "Outer boxes only",
           "Shipping containers",
+          "Outer boxes only",
           "Pallet wrapping"
         ],
         correctAnswer: 0,

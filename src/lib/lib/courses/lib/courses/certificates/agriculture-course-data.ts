@@ -42,35 +42,35 @@ export const agribusinessLeadershipDiplomaData = {
           question: "What percentage of agribusinesses have formal strategic plans?",
           options: [
             "25%",
-            "45%",
             "65%",
-            "85%"
+            "85%",
+            "45%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Only about 45% of agribusinesses have formal strategic plans, though planning correlates strongly with profitability."
         },
         {
           id: 2,
           question: "What is the average success rate of family business succession?",
           options: [
-            "15% survive to 2nd generation",
             "30% survive to 2nd generation",
+            "60% survive to 2nd generation",
             "45% survive to 2nd generation",
-            "60% survive to 2nd generation"
+            "15% survive to 2nd generation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Only 30% of family businesses survive to the 2nd generation, and just 12% to the 3rd generation."
         },
         {
           id: 3,
           question: "How much revenue increase do strategic alliances typically generate?",
           options: [
-            "5-10% increase",
             "15-25% increase",
             "30-50% increase",
+            "5-10% increase",
             "60-100% increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Successful strategic alliances typically generate 15-25% revenue growth through market access and synergies."
         },
         {
@@ -89,12 +89,12 @@ export const agribusinessLeadershipDiplomaData = {
           id: 5,
           question: "How much do resilient agribusinesses outperform during crises?",
           options: [
-            "10-20% better performance",
             "30-50% better performance",
-            "60-80% better performance",
-            "90-100% better performance"
+            "90-100% better performance",
+            "10-20% better performance",
+            "60-80% better performance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Resilient agribusinesses typically outperform peers by 30-50% during market downturns or supply chain disruptions."
         }
       ]
@@ -133,60 +133,60 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What percentage of food is lost in the supply chain globally?",
           options: [
-            "15%",
             "30%",
             "45%",
+            "15%",
             "60%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Approximately 30% of food produced is lost or wasted in the supply chain, with highest losses in developing countries."
         },
         {
           id: 2,
           question: "How much can optimized logistics reduce agricultural supply chain costs?",
           options: [
-            "5-10% reduction",
             "15-25% reduction",
             "30-40% reduction",
-            "45-60% reduction"
+            "45-60% reduction",
+            "5-10% reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Optimized logistics can reduce supply chain costs by 15-25% through better routing, loading, and inventory management."
         },
         {
           id: 3,
           question: "What percentage of consumers consider traceability important?",
           options: [
-            "25%",
-            "45%",
             "65%",
-            "85%"
+            "85%",
+            "45%",
+            "25%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "85% of consumers consider food traceability important, with 60% willing to pay premium for traceable products."
         },
         {
           id: 4,
           question: "How much does cold chain failure increase food waste?",
           options: [
+            "65-80% increase",
             "10-20% increase",
             "25-40% increase",
-            "45-60% increase",
-            "65-80% increase"
+            "45-60% increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Poor cold chain management increases food waste by 25-40%, particularly for perishable fruits, vegetables, and dairy."
         },
         {
           id: 5,
           question: "What ROI do blockchain implementations typically achieve in agri-food?",
           options: [
-            "10-20% ROI",
             "25-40% ROI",
             "50-100% ROI",
+            "10-20% ROI",
             "200%+ ROI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Blockchain implementations typically achieve 25-40% ROI through reduced fraud, improved traceability, and streamlined payments."
         }
       ]
@@ -225,12 +225,12 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What is the annual financing gap for smallholder agriculture?",
           options: [
-            "$100 billion",
-            "$240 billion",
             "$500 billion",
-            "$1 trillion"
+            "$1 trillion",
+            "$240 billion",
+            "$100 billion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Smallholder farmers face a $240 billion annual financing gap, limiting productivity and growth potential."
         },
         {
@@ -238,35 +238,35 @@ export const agribusinessLeadershipDiplomaData = {
           question: "What average return do agricultural private equity funds target?",
           options: [
             "8-12% IRR",
-            "15-20% IRR",
+            "35-40% IRR",
             "25-30% IRR",
-            "35-40% IRR"
+            "15-20% IRR"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Agricultural private equity funds typically target 15-20% Internal Rate of Return, though returns vary by region and strategy."
         },
         {
           id: 3,
           question: "What percentage of agricultural loans are non-performing in emerging markets?",
           options: [
-            "5-10%",
-            "15-25%",
             "30-40%",
-            "45-60%"
+            "45-60%",
+            "5-10%",
+            "15-25%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Agricultural loan delinquency rates average 15-25% in emerging markets due to weather risks and price volatility."
         },
         {
           id: 4,
           question: "How much has sustainable agriculture investment grown annually?",
           options: [
-            "5-10% growth",
-            "15-25% growth",
+            "60-80% growth",
             "30-50% growth",
-            "60-80% growth"
+            "5-10% growth",
+            "15-25% growth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sustainable agriculture investment has grown 15-25% annually, reaching $30+ billion in 2023."
         },
         {
@@ -317,10 +317,10 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What percentage of farms use precision agriculture technologies?",
           options: [
-            "15%",
+            "75%",
             "35%",
             "55%",
-            "75%"
+            "15%"
           ],
           correctAnswer: 1,
           explanation: "Approximately 35% of large farms use precision agriculture technologies, though adoption varies by region and crop."
@@ -330,11 +330,11 @@ export const agribusinessLeadershipDiplomaData = {
           question: "How much yield increase can precision agriculture technologies provide?",
           options: [
             "5-10% increase",
-            "15-25% increase",
             "30-50% increase",
-            "60-100% increase"
+            "60-100% increase",
+            "15-25% increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Precision agriculture typically increases yields by 15-25% while reducing input use by 10-20%."
         },
         {
@@ -342,35 +342,35 @@ export const agribusinessLeadershipDiplomaData = {
           question: "What is the annual AgTech investment globally?",
           options: [
             "$5 billion",
+            "$50 billion",
             "$15 billion",
-            "$30 billion",
-            "$50 billion"
+            "$30 billion"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Global AgTech investment reached $30+ billion in 2023, growing at 25% annually since 2020."
         },
         {
           id: 4,
           question: "What percentage of farmers use digital farm management tools?",
           options: [
-            "15%",
             "35%",
-            "55%",
-            "75%"
+            "75%",
+            "15%",
+            "55%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Approximately 35% of farmers use digital farm management software, with higher adoption among younger farmers."
         },
         {
           id: 5,
           question: "How much can digital extension services reduce knowledge adoption time?",
           options: [
-            "25% reduction",
             "50% reduction",
-            "75% reduction",
-            "90% reduction"
+            "90% reduction",
+            "25% reduction",
+            "75% reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Digital extension services can reduce knowledge adoption time by 50% compared to traditional extension methods."
         }
       ]
@@ -409,60 +409,60 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What percentage of agricultural production is traded internationally?",
           options: [
+            "60%",
             "15%",
-            "25%",
             "40%",
-            "60%"
+            "25%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately 25% of global agricultural production is traded across borders, though this varies by commodity."
         },
         {
           id: 2,
           question: "How much do agricultural prices typically fluctuate annually?",
           options: [
-            "10-20% fluctuation",
-            "25-40% fluctuation",
             "45-60% fluctuation",
-            "65-80% fluctuation"
+            "65-80% fluctuation",
+            "10-20% fluctuation",
+            "25-40% fluctuation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Agricultural commodity prices typically fluctuate 25-40% annually due to weather, policy, and demand shocks."
         },
         {
           id: 3,
           question: "What is the annual growth rate of organic food markets?",
           options: [
+            "30-40% growth",
             "5-8% growth",
-            "10-15% growth",
             "18-25% growth",
-            "30-40% growth"
+            "10-15% growth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Organic food markets grow 10-15% annually, reaching $200+ billion globally in 2023."
         },
         {
           id: 4,
           question: "How much do developing country agricultural exports face non-tariff barriers?",
           options: [
-            "25% face barriers",
             "45% face barriers",
             "65% face barriers",
+            "25% face barriers",
             "85% face barriers"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Approximately 65% of developing country agricultural exports face significant non-tariff barriers in developed markets."
         },
         {
           id: 5,
           question: "What premium do origin-branded products typically achieve?",
           options: [
+            "60-100% premium",
             "10-20% premium",
             "25-50% premium",
-            "60-100% premium",
             "150%+ premium"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Origin-branded products (PDO/PGI) typically achieve 25-50% price premiums compared to generic equivalents."
         }
       ]
@@ -501,12 +501,12 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What percentage of consumers prefer sustainable products?",
           options: [
-            "25%",
-            "45%",
             "65%",
-            "85%"
+            "85%",
+            "25%",
+            "45%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "85% of global consumers report shifting purchases toward more sustainable options over past 5 years."
         },
         {
@@ -514,47 +514,47 @@ export const agribusinessLeadershipDiplomaData = {
           question: "How much can circular economy practices reduce agricultural waste?",
           options: [
             "25-40% reduction",
-            "45-60% reduction",
+            "85-95% reduction",
             "65-80% reduction",
-            "85-95% reduction"
+            "45-60% reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Circular economy practices can reduce agricultural waste by 45-60% through better utilization and recycling."
         },
         {
           id: 3,
           question: "What carbon price would make regenerative agriculture profitable?",
           options: [
-            "$10-20/ton CO2",
-            "$30-50/ton CO2",
+            "$150+/ton CO2",
             "$60-100/ton CO2",
-            "$150+/ton CO2"
+            "$10-20/ton CO2",
+            "$30-50/ton CO2"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Carbon prices of $30-50/ton would make many regenerative agriculture practices economically viable."
         },
         {
           id: 4,
           question: "How much do sustainability-certified products grow vs conventional?",
           options: [
-            "2-3x faster",
             "4-5x faster",
             "6-8x faster",
-            "10x+ faster"
+            "10x+ faster",
+            "2-3x faster"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sustainability-certified products grow 2-3x faster than conventional products in most categories."
         },
         {
           id: 5,
           question: "What percentage of food companies have sustainability commitments?",
           options: [
-            "25%",
             "45%",
             "65%",
-            "85%"
+            "85%",
+            "25%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "85% of major food companies now have public sustainability commitments, up from 35% in 2015."
         }
       ]
@@ -595,58 +595,58 @@ export const agribusinessLeadershipDiplomaData = {
           options: [
             "25%",
             "45%",
-            "65%",
-            "85%"
+            "85%",
+            "65%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "65% of agribusiness CEOs cite talent acquisition and retention as their top strategic challenge."
         },
         {
           id: 2,
           question: "How much more profitable are companies with diverse leadership?",
           options: [
-            "10-15% more profitable",
             "20-30% more profitable",
-            "35-50% more profitable",
-            "60-80% more profitable"
+            "60-80% more profitable",
+            "10-15% more profitable",
+            "35-50% more profitable"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Companies with diverse leadership teams are 20-30% more likely to outperform on profitability."
         },
         {
           id: 3,
           question: "What percentage of change initiatives fail in agribusiness?",
           options: [
-            "30% fail",
             "50% fail",
-            "70% fail",
-            "90% fail"
+            "90% fail",
+            "30% fail",
+            "70% fail"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 70% of organizational change initiatives fail due to poor planning and resistance management."
         },
         {
           id: 4,
           question: "How much does effective leadership increase employee engagement?",
           options: [
-            "15-25% increase",
             "30-50% increase",
+            "15-25% increase",
             "55-75% increase",
             "80-100% increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective leadership increases employee engagement by 30-50%, directly impacting productivity and retention."
         },
         {
           id: 5,
           question: "What percentage of agribusiness communication is now digital?",
           options: [
-            "25%",
-            "45%",
             "65%",
-            "85%"
+            "45%",
+            "85%",
+            "25%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "85% of agribusiness stakeholder communication now occurs through digital channels, accelerated by COVID-19."
         }
       ]
@@ -685,10 +685,10 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What percentage of farm income comes from government support in OECD countries?",
           options: [
-            "15%",
-            "30%",
             "45%",
-            "60%"
+            "30%",
+            "60%",
+            "15%"
           ],
           correctAnswer: 1,
           explanation: "Government support accounts for approximately 30% of farm income in OECD countries, though this varies widely."
@@ -697,34 +697,34 @@ export const agribusinessLeadershipDiplomaData = {
           id: 2,
           question: "How much do regulatory compliance costs represent for agribusinesses?",
           options: [
-            "5-10% of revenue",
             "15-25% of revenue",
             "30-40% of revenue",
-            "45-60% of revenue"
+            "45-60% of revenue",
+            "5-10% of revenue"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regulatory compliance typically costs agribusinesses 5-10% of revenue, with higher costs for exports to strict markets."
         },
         {
           id: 3,
           question: "What percentage of food safety recalls are preventable?",
           options: [
-            "25%",
+            "85%",
             "45%",
             "65%",
-            "85%"
+            "25%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Approximately 85% of food safety recalls are preventable through better process controls and quality management."
         },
         {
           id: 4,
           question: "How many international food standards exist under Codex?",
           options: [
-            "100 standards",
+            "1000+ standards",
             "250 standards",
-            "500 standards",
-            "1000+ standards"
+            "100 standards",
+            "500 standards"
           ],
           correctAnswer: 1,
           explanation: "Codex Alimentarius has established over 250 food standards, 100+ guidelines, and numerous codes of practice."
@@ -733,12 +733,12 @@ export const agribusinessLeadershipDiplomaData = {
           id: 5,
           question: "What percentage of agribusinesses have dedicated government relations functions?",
           options: [
-            "15%",
-            "35%",
             "55%",
-            "75%"
+            "75%",
+            "35%",
+            "15%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately 35% of large agribusinesses have dedicated government relations teams, up from 15% in 2000."
         }
       ]
@@ -777,10 +777,10 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What percentage of businesses fail within 2 years of a major crisis?",
           options: [
-            "15%",
+            "75%",
             "35%",
-            "55%",
-            "75%"
+            "15%",
+            "55%"
           ],
           correctAnswer: 1,
           explanation: "Approximately 35% of businesses fail within 2 years of a major crisis without adequate preparedness."
@@ -789,12 +789,12 @@ export const agribusinessLeadershipDiplomaData = {
           id: 2,
           question: "How much faster do prepared organizations recover from crises?",
           options: [
-            "25% faster recovery",
             "50% faster recovery",
             "75% faster recovery",
+            "25% faster recovery",
             "90% faster recovery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Organizations with crisis preparedness plans typically recover 50% faster with 30% lower costs."
         },
         {
@@ -802,35 +802,35 @@ export const agribusinessLeadershipDiplomaData = {
           question: "What percentage of crises originate from supply chain disruptions?",
           options: [
             "25%",
-            "45%",
             "65%",
-            "85%"
+            "85%",
+            "45%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "45% of business crises originate from supply chain disruptions, particularly critical in agriculture."
         },
         {
           id: 4,
           question: "How much does business continuity planning reduce crisis impact?",
           options: [
+            "90%+ reduction",
             "20-30% reduction",
-            "40-60% reduction",
             "70-80% reduction",
-            "90%+ reduction"
+            "40-60% reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Business continuity planning reduces crisis impact by 40-60% through faster response and recovery."
         },
         {
           id: 5,
           question: "What percentage of agribusinesses have formal crisis management plans?",
           options: [
-            "15%",
-            "35%",
             "55%",
-            "75%"
+            "75%",
+            "15%",
+            "35%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Only 35% of agribusinesses have formal crisis management plans, though COVID-19 increased awareness."
         }
       ]
@@ -869,60 +869,60 @@ export const agribusinessLeadershipDiplomaData = {
           id: 1,
           question: "What percentage of strategic plans fail due to poor execution?",
           options: [
-            "25%",
-            "45%",
+            "85%",
             "65%",
-            "85%"
+            "45%",
+            "25%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "65% of strategic plans fail due to poor execution rather than flawed strategy."
         },
         {
           id: 2,
           question: "How much value do transformational leaders create versus average leaders?",
           options: [
-            "25% more value",
-            "50% more value",
             "100% more value",
+            "50% more value",
+            "25% more value",
             "200%+ more value"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Transformational leaders create 100% more value through innovation, engagement, and strategic execution."
         },
         {
           id: 3,
           question: "What percentage of transformation initiatives achieve their objectives?",
           options: [
-            "15%",
             "30%",
-            "45%",
-            "60%"
+            "60%",
+            "15%",
+            "45%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Only 30% of organizational transformation initiatives achieve their stated objectives."
         },
         {
           id: 4,
           question: "How much does digital transformation increase agricultural productivity?",
           options: [
-            "10-20% increase",
-            "25-40% increase",
+            "70-100% increase",
             "45-60% increase",
-            "70-100% increase"
+            "25-40% increase",
+            "10-20% increase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital transformation typically increases agricultural productivity by 25-40% through efficiency gains."
         },
         {
           id: 5,
           question: "What ROI do successful agribusiness transformations achieve?",
           options: [
-            "50-100% ROI",
             "150-300% ROI",
+            "50-100% ROI",
             "400-600% ROI",
             "800%+ ROI"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Successful agribusiness transformations typically achieve 150-300% ROI over 3-5 years."
         }
       ]
@@ -933,22 +933,22 @@ export const agribusinessLeadershipDiplomaData = {
       id: 1,
       question: "Agribusinesses with strategic plans?",
       options: [
-        "25%",
         "45%",
+        "25%",
         "65%",
         "85%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "45% have formal plans."
     },
     {
       id: 2,
       question: "Family business survival to 2nd generation?",
       options: [
-        "15%",
+        "60%",
         "30%",
         "45%",
-        "60%"
+        "15%"
       ],
       correctAnswer: 1,
       explanation: "Only 30% survive."
@@ -957,24 +957,24 @@ export const agribusinessLeadershipDiplomaData = {
       id: 3,
       question: "Strategic alliances revenue growth?",
       options: [
-        "5-10%",
         "15-25%",
-        "30-50%",
-        "60-100%"
+        "5-10%",
+        "60-100%",
+        "30-50%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "15-25% typical growth."
     },
     {
       id: 4,
       question: "Agricultural risk hedged?",
       options: [
-        "10%",
         "25%",
         "40%",
+        "10%",
         "60%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "25% hedged globally."
     },
     {
@@ -993,12 +993,12 @@ export const agribusinessLeadershipDiplomaData = {
       id: 6,
       question: "Food lost in supply chain?",
       options: [
-        "15%",
-        "30%",
         "45%",
-        "60%"
+        "15%",
+        "60%",
+        "30%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "30% lost globally."
     },
     {
@@ -1006,33 +1006,33 @@ export const agribusinessLeadershipDiplomaData = {
       question: "Logistics optimization cost reduction?",
       options: [
         "5-10%",
+        "45-60%",
         "15-25%",
-        "30-40%",
-        "45-60%"
+        "30-40%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "15-25% cost reduction."
     },
     {
       id: 8,
       question: "Consumers valuing traceability?",
       options: [
-        "25%",
+        "85%",
         "45%",
         "65%",
-        "85%"
+        "25%"
       ],
-      correctAnswer: 3,
+      correctAnswer: 0,
       explanation: "85% value traceability."
     },
     {
       id: 9,
       question: "Cold chain failure waste increase?",
       options: [
-        "10-20%",
+        "65-80%",
         "25-40%",
-        "45-60%",
-        "65-80%"
+        "10-20%",
+        "45-60%"
       ],
       correctAnswer: 1,
       explanation: "25-40% more waste."
@@ -1041,10 +1041,10 @@ export const agribusinessLeadershipDiplomaData = {
       id: 10,
       question: "Blockchain ROI in agri-food?",
       options: [
-        "10-20%",
+        "200%+",
         "25-40%",
-        "50-100%",
-        "200%+"
+        "10-20%",
+        "50-100%"
       ],
       correctAnswer: 1,
       explanation: "25-40% typical ROI."
@@ -1054,47 +1054,47 @@ export const agribusinessLeadershipDiplomaData = {
       question: "Smallholder financing gap?",
       options: [
         "$100B",
-        "$240B",
         "$500B",
-        "$1T"
+        "$1T",
+        "$240B"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "$240 billion annually."
     },
     {
       id: 12,
       question: "Ag private equity target return?",
       options: [
-        "8-12% IRR",
         "15-20% IRR",
         "25-30% IRR",
+        "8-12% IRR",
         "35-40% IRR"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "15-20% IRR target."
     },
     {
       id: 13,
       question: "Ag loan delinquency in emerging markets?",
       options: [
-        "5-10%",
         "15-25%",
+        "45-60%",
         "30-40%",
-        "45-60%"
+        "5-10%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "15-25% delinquency."
     },
     {
       id: 14,
       question: "Sustainable ag investment growth?",
       options: [
+        "30-50%",
         "5-10%",
         "15-25%",
-        "30-50%",
         "60-80%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "15-25% annual growth."
     },
     {
@@ -1114,35 +1114,35 @@ export const agribusinessLeadershipDiplomaData = {
       question: "Farms using precision ag?",
       options: [
         "15%",
+        "75%",
         "35%",
-        "55%",
-        "75%"
+        "55%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "35% use precision ag."
     },
     {
       id: 17,
       question: "Precision ag yield increase?",
       options: [
+        "60-100%",
         "5-10%",
         "15-25%",
-        "30-50%",
-        "60-100%"
+        "30-50%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "15-25% yield increase."
     },
     {
       id: 18,
       question: "Global AgTech investment?",
       options: [
-        "$5B",
-        "$15B",
         "$30B",
-        "$50B"
+        "$5B",
+        "$50B",
+        "$15B"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "$30+ billion in 2023."
     },
     {
@@ -1150,33 +1150,33 @@ export const agribusinessLeadershipDiplomaData = {
       question: "Farmers using digital tools?",
       options: [
         "15%",
-        "35%",
+        "75%",
         "55%",
-        "75%"
+        "35%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "35% use digital tools."
     },
     {
       id: 20,
       question: "Digital extension time reduction?",
       options: [
+        "75%",
         "25%",
         "50%",
-        "75%",
         "90%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "50% faster adoption."
     },
     {
       id: 21,
       question: "Agricultural production traded?",
       options: [
-        "15%",
+        "60%",
         "25%",
         "40%",
-        "60%"
+        "15%"
       ],
       correctAnswer: 1,
       explanation: "25% traded internationally."
@@ -1185,9 +1185,9 @@ export const agribusinessLeadershipDiplomaData = {
       id: 22,
       question: "Agricultural price fluctuation?",
       options: [
-        "10-20%",
-        "25-40%",
         "45-60%",
+        "25-40%",
+        "10-20%",
         "65-80%"
       ],
       correctAnswer: 1,
@@ -1198,21 +1198,21 @@ export const agribusinessLeadershipDiplomaData = {
       question: "Organic market growth?",
       options: [
         "5-8%",
+        "30-40%",
         "10-15%",
-        "18-25%",
-        "30-40%"
+        "18-25%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "10-15% annual growth."
     },
     {
       id: 24,
       question: "Developing exports facing barriers?",
       options: [
-        "25%",
         "45%",
+        "85%",
         "65%",
-        "85%"
+        "25%"
       ],
       correctAnswer: 2,
       explanation: "65% face barriers."
@@ -1221,72 +1221,72 @@ export const agribusinessLeadershipDiplomaData = {
       id: 25,
       question: "Origin-branded product premium?",
       options: [
+        "150%+",
         "10-20%",
-        "25-50%",
         "60-100%",
-        "150%+"
+        "25-50%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "25-50% premium."
     },
     {
       id: 26,
       question: "Consumers preferring sustainable?",
       options: [
-        "25%",
-        "45%",
         "65%",
-        "85%"
+        "45%",
+        "85%",
+        "25%"
       ],
-      correctAnswer: 3,
+      correctAnswer: 2,
       explanation: "85% prefer sustainable."
     },
     {
       id: 27,
       question: "Circular economy waste reduction?",
       options: [
-        "25-40%",
-        "45-60%",
         "65-80%",
-        "85-95%"
+        "85-95%",
+        "45-60%",
+        "25-40%"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "45-60% reduction."
     },
     {
       id: 28,
       question: "Carbon price for regenerative ag?",
       options: [
-        "$10-20/ton",
         "$30-50/ton",
-        "$60-100/ton",
-        "$150+/ton"
+        "$10-20/ton",
+        "$150+/ton",
+        "$60-100/ton"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "$30-50/ton needed."
     },
     {
       id: 29,
       question: "Sustainable certified growth rate?",
       options: [
-        "2-3x faster",
         "4-5x faster",
-        "6-8x faster",
-        "10x+ faster"
+        "2-3x faster",
+        "10x+ faster",
+        "6-8x faster"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "2-3x faster growth."
     },
     {
       id: 30,
       question: "Food companies with sustainability commitments?",
       options: [
-        "25%",
-        "45%",
+        "85%",
         "65%",
-        "85%"
+        "45%",
+        "25%"
       ],
-      correctAnswer: 3,
+      correctAnswer: 0,
       explanation: "85% have commitments."
     },
     {
@@ -1295,8 +1295,8 @@ export const agribusinessLeadershipDiplomaData = {
       options: [
         "Vision and inspiration",
         "Rules and compliance",
-        "Strict control",
-        "Short-term focus"
+        "Short-term focus",
+        "Strict control"
       ],
       correctAnswer: 0,
       explanation: "Visionary, inspirational leadership."
@@ -1305,72 +1305,72 @@ export const agribusinessLeadershipDiplomaData = {
       id: 32,
       question: "Vertical integration involves?",
       options: [
-        "Control of supply chain stages",
+        "Only farming",
         "Same stage competitors",
         "Unrelated businesses",
-        "Only farming"
+        "Control of supply chain stages"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Control multiple supply chain stages."
     },
     {
       id: 33,
       question: "Blended finance combines?",
       options: [
-        "Public and private capital",
         "Only private capital",
-        "Only public funds",
-        "Personal savings"
+        "Public and private capital",
+        "Personal savings",
+        "Only public funds"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Public + private funding."
     },
     {
       id: 34,
       question: "ESG investing considers?",
       options: [
+        "Only technical",
         "Environmental, social, governance",
         "Only environmental",
-        "Only financial",
-        "Only technical"
+        "Only financial"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Environmental, social, governance factors."
     },
     {
       id: 35,
       question: "Scenario planning prepares for?",
       options: [
-        "Multiple possible futures",
         "Only best case",
+        "Multiple possible futures",
         "Only worst case",
         "Current situation only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Multiple plausible futures."
     },
     {
       id: 36,
       question: "Stakeholder management focuses on?",
       options: [
-        "Balancing diverse interests",
+        "Ignoring external parties",
         "Only shareholder interests",
         "Only customer interests",
-        "Ignoring external parties"
+        "Balancing diverse interests"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Balancing all stakeholder interests."
     },
     {
       id: 37,
       question: "Circular economy aims for?",
       options: [
-        "Waste elimination",
         "More waste production",
         "Linear consumption",
-        "Single-use products"
+        "Single-use products",
+        "Waste elimination"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Eliminate waste, keep resources in use."
     },
     {
@@ -1378,9 +1378,9 @@ export const agribusinessLeadershipDiplomaData = {
       question: "Crisis management includes?",
       options: [
         "Preparedness, response, recovery",
+        "Only blaming others",
         "Only response",
-        "Ignoring problems",
-        "Only blaming others"
+        "Ignoring problems"
       ],
       correctAnswer: 0,
       explanation: "Full cycle: prepare, respond, recover."
@@ -1390,9 +1390,9 @@ export const agribusinessLeadershipDiplomaData = {
       question: "Strategic foresight involves?",
       options: [
         "Anticipating future trends",
-        "Only past analysis",
         "Ignoring change",
-        "Reactive thinking"
+        "Reactive thinking",
+        "Only past analysis"
       ],
       correctAnswer: 0,
       explanation: "Systematic future anticipation."
@@ -1401,12 +1401,12 @@ export const agribusinessLeadershipDiplomaData = {
       id: 40,
       question: "Value chain analysis examines?",
       options: [
-        "All value-adding activities",
         "Only production",
+        "All value-adding activities",
         "Only marketing",
         "Only costs"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "All activities adding value."
     }
   ]

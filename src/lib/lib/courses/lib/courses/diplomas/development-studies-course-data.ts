@@ -50,8 +50,8 @@ export const developmentStudiesDiploma = {
           question: "What does the human development approach emphasize?",
           options: [
             "Expanding people's capabilities and freedoms",
-            "Maximum economic growth rates",
             "Technology transfer from developed nations",
+            "Maximum economic growth rates",
             "Standardized development paths for all"
           ],
           correctAnswer: 0,
@@ -73,48 +73,48 @@ export const developmentStudiesDiploma = {
           id: 3,
           question: "What is the core argument of dependency theory?",
           options: [
-            "Underdevelopment results from dependence on wealthier nations",
-            "All countries develop at the same pace naturally",
+            "Technology alone drives development",
             "Cultural factors determine development success",
-            "Technology alone drives development"
+            "All countries develop at the same pace naturally",
+            "Underdevelopment results from dependence on wealthier nations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Dependency theory argues that underdevelopment in poorer countries results from their economic dependence on wealthier nations."
         },
         {
           id: 4,
           question: "What three dimensions does the Human Development Index measure?",
           options: [
-            "Health, education, and standard of living",
+            "Urbanization, industrialization, and technology",
             "GDP, population, and military strength",
             "Exports, imports, and foreign investment",
-            "Urbanization, industrialization, and technology"
+            "Health, education, and standard of living"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "HDI measures health (life expectancy), education (schooling), and standard of living (income)."
         },
         {
           id: 5,
           question: "What defines sustainable development?",
           options: [
-            "Meeting present needs without compromising future generations",
             "Maximum resource extraction for economic growth",
             "Preserving all natural environments unchanged",
-            "Focusing only on current poverty reduction"
+            "Focusing only on current poverty reduction",
+            "Meeting present needs without compromising future generations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sustainable development meets present needs without compromising future generations' ability to meet theirs."
         },
         {
           id: 6,
           question: "How do SDGs differ from MDGs?",
           options: [
-            "SDGs apply to all countries, not just developing ones",
             "SDGs focus only on economic indicators",
+            "SDGs ignore environmental issues",
             "SDGs have fewer goals but more targets",
-            "SDGs ignore environmental issues"
+            "SDGs apply to all countries, not just developing ones"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SDGs apply universally to all countries, recognizing development challenges exist everywhere."
         },
         {
@@ -122,9 +122,9 @@ export const developmentStudiesDiploma = {
           question: "What does participatory development emphasize?",
           options: [
             "Involving local communities in planning and implementation",
-            "Expert-driven technical solutions only",
             "Government control of all development projects",
-            "International agencies making all decisions"
+            "International agencies making all decisions",
+            "Expert-driven technical solutions only"
           ],
           correctAnswer: 0,
           explanation: "Participatory development emphasizes involving local communities in development planning and implementation."
@@ -133,72 +133,72 @@ export const developmentStudiesDiploma = {
           id: 8,
           question: "What does post-development theory question?",
           options: [
+            "The possibility of measuring development",
             "The entire concept of development as Western imposition",
-            "Only the implementation methods of development",
             "The need for any social change",
-            "The possibility of measuring development"
+            "Only the implementation methods of development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Post-development theory questions development itself as a Western concept imposed on other cultures."
         },
         {
           id: 9,
           question: "What do feminist development approaches analyze?",
           options: [
+            "Biological differences between sexes",
             "Different impacts of development on men and women",
             "Only women's economic participation",
-            "Biological differences between sexes",
             "Traditional gender roles as ideal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Feminist approaches analyze how development processes affect men and women differently."
         },
         {
           id: 10,
           question: "What does the capability approach evaluate?",
           options: [
-            "People's real opportunities to lead valued lives",
-            "Only income levels and material possessions",
             "Government policy effectiveness",
+            "Only income levels and material possessions",
+            "People's real opportunities to lead valued lives",
             "International aid distribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The capability approach evaluates development by people's real opportunities to lead lives they value."
         },
         {
           id: 11,
           question: "What three pillars integrate sustainable development?",
           options: [
-            "Economic, social, and environmental",
             "Political, military, and economic",
             "Technological, cultural, and educational",
-            "Urban, rural, and suburban"
+            "Urban, rural, and suburban",
+            "Economic, social, and environmental"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sustainable development integrates economic, social, and environmental pillars."
         },
         {
           id: 12,
           question: "What does gender mainstreaming involve?",
           options: [
-            "Integrating gender perspectives into all policies",
-            "Creating separate women-only programs",
             "Ignoring gender differences in development",
-            "Focusing only on women's domestic roles"
+            "Focusing only on women's domestic roles",
+            "Creating separate women-only programs",
+            "Integrating gender perspectives into all policies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Gender mainstreaming integrates gender perspectives into all development policies and programs."
         },
         {
           id: 13,
           question: "Why is indigenous knowledge valuable for development?",
           options: [
-            "It provides locally adapted sustainable solutions",
             "It is always scientifically validated",
+            "It requires no adaptation for modern contexts",
             "It matches Western knowledge systems perfectly",
-            "It requires no adaptation for modern contexts"
+            "It provides locally adapted sustainable solutions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Indigenous knowledge offers locally adapted solutions that are often more sustainable and culturally appropriate."
         },
         {
@@ -206,8 +206,8 @@ export const developmentStudiesDiploma = {
           question: "What did the Brundtland Commission popularize?",
           options: [
             "The concept of sustainable development",
-            "Modernization theory stages",
             "Dependency theory frameworks",
+            "Modernization theory stages",
             "Participatory evaluation methods"
           ],
           correctAnswer: 0,
@@ -217,72 +217,72 @@ export const developmentStudiesDiploma = {
           id: 15,
           question: "What distinguishes Sen's capability approach?",
           options: [
-            "Focus on what people can actually do and be",
-            "Exclusive focus on economic indicators",
+            "Standardized development benchmarks",
             "Measurement of only material wealth",
-            "Standardized development benchmarks"
+            "Focus on what people can actually do and be",
+            "Exclusive focus on economic indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sen's capability approach focuses on what people can actually do and be-their real freedoms and opportunities."
         },
         {
           id: 16,
           question: "What was a key limitation of modernization theory?",
           options: [
-            "Assuming Western development path was universal",
-            "Ignoring economic factors completely",
+            "Rejecting any role for technology",
             "Overemphasizing cultural differences",
-            "Rejecting any role for technology"
+            "Assuming Western development path was universal",
+            "Ignoring economic factors completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Modernization theory assumed Western development path was universal for all societies."
         },
         {
           id: 17,
           question: "What do participatory methods include?",
           options: [
+            "International consultant reports",
             "Community meetings and focus groups",
             "Only expert surveys and assessments",
-            "Government decrees and regulations",
-            "International consultant reports"
+            "Government decrees and regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Participatory methods include community meetings, focus groups, and participatory rural appraisal."
         },
         {
           id: 18,
           question: "How do SDGs view development challenges?",
           options: [
-            "As universal issues affecting all countries",
-            "Only as problems of poor nations",
             "As temporary obstacles to growth",
-            "As primarily technological gaps"
+            "As universal issues affecting all countries",
+            "As primarily technological gaps",
+            "Only as problems of poor nations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SDGs recognize development challenges as universal issues affecting all countries."
         },
         {
           id: 19,
           question: "What does development ultimately aim to achieve?",
           options: [
+            "Complete environmental preservation",
             "People realizing their full potential",
-            "Maximum economic output",
             "Standardized global culture",
-            "Complete environmental preservation"
+            "Maximum economic output"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Development ultimately aims to help people realize their full potential and expand their freedoms."
         },
         {
           id: 20,
           question: "What does dependency theory highlight in global relations?",
           options: [
-            "Unequal exchange benefiting core countries",
             "Equal partnership among all nations",
-            "Cultural superiority of developing nations",
-            "Technological determinism in development"
+            "Technological determinism in development",
+            "Unequal exchange benefiting core countries",
+            "Cultural superiority of developing nations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dependency theory highlights unequal exchange in global relations that benefits core developed countries."
         }
       ]
@@ -329,12 +329,12 @@ export const developmentStudiesDiploma = {
           id: 1,
           question: "What does absolute poverty refer to?",
           options: [
-            "Severe deprivation of basic human needs",
             "Income below relative societal standards",
+            "Only lack of luxury goods",
             "Temporary financial difficulty",
-            "Only lack of luxury goods"
+            "Severe deprivation of basic human needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Absolute poverty refers to severe deprivation of basic human needs like food, water, sanitation, and shelter."
         },
         {
@@ -342,9 +342,9 @@ export const developmentStudiesDiploma = {
           question: "What does the Multidimensional Poverty Index measure?",
           options: [
             "Acute poverty across health, education, living standards",
-            "Only income levels",
             "Wealth distribution patterns",
-            "Economic growth rates"
+            "Economic growth rates",
+            "Only income levels"
           ],
           correctAnswer: 0,
           explanation: "MPI measures acute poverty across three dimensions: health, education, and standard of living."
@@ -353,12 +353,12 @@ export const developmentStudiesDiploma = {
           id: 3,
           question: "What does vulnerability in poverty context mean?",
           options: [
-            "Exposure to risks with limited coping ability",
-            "Certainty of remaining poor forever",
             "Lack of any income sources",
+            "Certainty of remaining poor forever",
+            "Exposure to risks with limited coping ability",
             "Only natural disaster exposure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vulnerability means exposure to risks and shocks with limited ability to cope or recover."
         },
         {
@@ -366,9 +366,9 @@ export const developmentStudiesDiploma = {
           question: "What is social exclusion?",
           options: [
             "Systematic blocking from rights and opportunities",
-            "Voluntary social isolation",
             "Temporary economic hardship",
-            "Only geographic remoteness"
+            "Only geographic remoteness",
+            "Voluntary social isolation"
           ],
           correctAnswer: 0,
           explanation: "Social exclusion occurs when individuals/groups are systematically blocked from societal rights and opportunities."
@@ -377,48 +377,48 @@ export const developmentStudiesDiploma = {
           id: 5,
           question: "What does Gini coefficient measure?",
           options: [
-            "Income inequality within a population",
+            "Wealth accumulation patterns",
             "Absolute poverty levels",
             "Economic growth rates",
-            "Wealth accumulation patterns"
+            "Income inequality within a population"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Gini coefficient measures income inequality (0 = perfect equality, 1 = perfect inequality)."
         },
         {
           id: 6,
           question: "Why is wealth inequality typically more extreme?",
           options: [
+            "International aid affects wealth only",
             "Wealth accumulates over generations",
             "Income is harder to measure",
-            "Governments control wealth distribution",
-            "International aid affects wealth only"
+            "Governments control wealth distribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Wealth inequality is typically more extreme because wealth accumulates and compounds over generations."
         },
         {
           id: 7,
           question: "What does spatial inequality refer to?",
           options: [
+            "International border differences",
             "Development disparities between regions or areas",
             "Equal development everywhere",
-            "Only urban poverty issues",
-            "International border differences"
+            "Only urban poverty issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Spatial inequality refers to development disparities between regions, urban-rural areas, or within cities."
         },
         {
           id: 8,
           question: "What does intersectionality analyze?",
           options: [
-            "How multiple social identities combine",
-            "Only economic class differences",
+            "Historical development patterns",
             "Geographic location effects",
-            "Historical development patterns"
+            "Only economic class differences",
+            "How multiple social identities combine"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Intersectionality analyzes how multiple social identities combine to create unique experiences."
         },
         {
@@ -426,8 +426,8 @@ export const developmentStudiesDiploma = {
           question: "What characterizes pro-poor growth?",
           options: [
             "Explicitly aims to benefit poor people",
-            "Benefits only wealthy groups",
             "Ignores employment creation",
+            "Benefits only wealthy groups",
             "Focuses only on urban sectors"
           ],
           correctAnswer: 0,
@@ -437,36 +437,36 @@ export const developmentStudiesDiploma = {
           id: 10,
           question: "What do conditional cash transfers link payments to?",
           options: [
-            "Children's school attendance and health check-ups",
             "Adult employment only",
+            "Religious participation",
             "Political party membership",
-            "Religious participation"
+            "Children's school attendance and health check-ups"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Conditional cash transfers link payments to behaviors like children's school attendance and health visits."
         },
         {
           id: 11,
           question: "What do asset-based approaches recognize?",
           options: [
-            "Poverty stems from limited productive assets",
             "Only income matters for poverty",
             "Assets are irrelevant to poverty",
+            "Poverty stems from limited productive assets",
             "Human capital is unimportant"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Asset-based approaches recognize poverty stems from limited productive assets and human capital."
         },
         {
           id: 12,
           question: "How do rights-based approaches frame poverty reduction?",
           options: [
-            "As fulfilling human rights obligations",
-            "As voluntary charity only",
             "As international aid distribution",
+            "As voluntary charity only",
+            "As fulfilling human rights obligations",
             "As economic growth byproduct"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Rights-based approaches frame poverty reduction as fulfilling human rights obligations."
         },
         {
@@ -474,9 +474,9 @@ export const developmentStudiesDiploma = {
           question: "What do graduation programs combine?",
           options: [
             "Multiple interventions for sustainable livelihoods",
-            "Only cash transfers",
+            "Temporary emergency aid only",
             "Single solutions for all poor",
-            "Temporary emergency aid only"
+            "Only cash transfers"
           ],
           correctAnswer: 0,
           explanation: "Graduation programs combine multiple interventions to help extremely poor achieve sustainable livelihoods."
@@ -485,84 +485,84 @@ export const developmentStudiesDiploma = {
           id: 14,
           question: "What does relative poverty compare?",
           options: [
-            "Individuals against societal standards",
             "Only international poverty lines",
-            "Historical poverty levels",
-            "Different countries' GDP"
+            "Different countries' GDP",
+            "Individuals against societal standards",
+            "Historical poverty levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Relative poverty compares individuals or groups against prevailing societal standards."
         },
         {
           id: 15,
           question: "What does social protection include?",
           options: [
-            "Non-contributory transfers and social insurance",
             "Only private charity",
-            "International loans only",
-            "Business investment schemes"
+            "Business investment schemes",
+            "Non-contributory transfers and social insurance",
+            "International loans only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Social protection includes non-contributory transfers, social insurance, and labor market programs."
         },
         {
           id: 16,
           question: "What often drives pro-poor growth?",
           options: [
+            "Government bureaucracy",
             "Labor-intensive sectors like agriculture",
-            "Only high-tech industries",
             "Financial speculation",
-            "Government bureaucracy"
+            "Only high-tech industries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Labor-intensive sectors like agriculture and small enterprises often drive pro-poor growth."
         },
         {
           id: 17,
           question: "How do inheritance policies affect inequality?",
           options: [
-            "Significantly impact wealth distribution",
-            "Have no effect on inequality",
             "Only affect income temporarily",
-            "Apply only to developed countries"
+            "Significantly impact wealth distribution",
+            "Apply only to developed countries",
+            "Have no effect on inequality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Inheritance policies significantly impact wealth distribution across generations."
         },
         {
           id: 18,
           question: "What often perpetuates intergenerational poverty?",
           options: [
-            "Social exclusion based on identity",
-            "Individual laziness only",
             "Geographic location alone",
-            "Temporary economic shocks"
+            "Temporary economic shocks",
+            "Social exclusion based on identity",
+            "Individual laziness only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Social exclusion based on ethnicity, gender, or caste often perpetuates intergenerational poverty."
         },
         {
           id: 19,
           question: "What do rights-based approaches emphasize?",
           options: [
-            "Participation, accountability, nondiscrimination",
-            "Only government responsibility",
             "Charity from wealthy individuals",
-            "International intervention"
+            "Participation, accountability, nondiscrimination",
+            "International intervention",
+            "Only government responsibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rights-based approaches emphasize participation, accountability, and nondiscrimination."
         },
         {
           id: 20,
           question: "What does MPI identify?",
           options: [
-            "Individuals suffering multiple deprivations",
-            "Only income-poor individuals",
             "Wealthy individuals only",
-            "Temporarily poor populations"
+            "Individuals suffering multiple deprivations",
+            "Temporarily poor populations",
+            "Only income-poor individuals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MPI identifies individuals suffering multiple deprivations simultaneously across dimensions."
         }
       ]
@@ -617,60 +617,60 @@ export const developmentStudiesDiploma = {
           id: 1,
           question: "What does governance refer to in development?",
           options: [
-            "How power exercises management of resources",
-            "Only government structure and elections",
             "International aid distribution systems",
-            "Business management practices"
+            "Only government structure and elections",
+            "Business management practices",
+            "How power exercises management of resources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Governance refers to how power is exercised in managing economic and social resources for development."
         },
         {
           id: 2,
           question: "What characterizes good governance?",
           options: [
-            "Transparency, accountability, participation",
-            "Only efficient service delivery",
             "Strong centralized control",
+            "Only efficient service delivery",
+            "Transparency, accountability, participation",
             "Rapid economic growth only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Good governance includes transparency, accountability, participation, and other principles."
         },
         {
           id: 3,
           question: "What does devolution involve in decentralization?",
           options: [
+            "Temporary delegation of tasks",
             "Transfer to locally elected bodies",
             "Only relocation of central offices",
-            "Temporary delegation of tasks",
             "Complete elimination of local government"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Devolution transfers authority, resources, and responsibilities to locally elected bodies."
         },
         {
           id: 4,
           question: "How does corruption undermine development?",
           options: [
-            "Misallocates resources and erodes trust",
-            "Has no effect on development",
             "Only affects political systems",
-            "Temporarily boosts economic activity"
+            "Temporarily boosts economic activity",
+            "Misallocates resources and erodes trust",
+            "Has no effect on development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Corruption undermines development through misallocated resources, distorted policies, and eroded trust."
         },
         {
           id: 5,
           question: "What do institutions include?",
           options: [
-            "Formal rules and informal norms",
             "Only government buildings",
+            "Business corporations exclusively",
             "International organizations only",
-            "Business corporations exclusively"
+            "Formal rules and informal norms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Institutions include formal rules (laws) and informal norms (customs) that structure social interactions."
         },
         {
@@ -679,8 +679,8 @@ export const developmentStudiesDiploma = {
           options: [
             "Encourage investment and enable credit access",
             "Only benefit wealthy landowners",
-            "Complicate resource management",
-            "Are irrelevant for development"
+            "Are irrelevant for development",
+            "Complicate resource management"
           ],
           correctAnswer: 0,
           explanation: "Secure property rights encourage investment, facilitate credit access, and enable efficient allocation."
@@ -689,36 +689,36 @@ export const developmentStudiesDiploma = {
           id: 7,
           question: "What does rule of law require?",
           options: [
+            "Different laws for different groups",
             "Everyone subject to equally enforced laws",
             "Only citizens obeying laws",
-            "Government above the law",
-            "Different laws for different groups"
+            "Government above the law"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rule of law requires everyone, including government, to be subject to equally enforced laws."
         },
         {
           id: 8,
           question: "What do CSOs include?",
           options: [
-            "NGOs, community groups, advocacy networks",
             "Only government agencies",
+            "International military alliances",
             "Business corporations exclusively",
-            "International military alliances"
+            "NGOs, community groups, advocacy networks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Civil society organizations include NGOs, community groups, unions, and advocacy networks."
         },
         {
           id: 9,
           question: "What are social accountability mechanisms?",
           options: [
-            "Tools enabling citizens to hold officials accountable",
-            "Only traditional election processes",
+            "International legal frameworks",
             "Government self-regulation systems",
-            "International legal frameworks"
+            "Tools enabling citizens to hold officials accountable",
+            "Only traditional election processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Social accountability mechanisms enable citizens to hold officials and service providers accountable."
         },
         {
@@ -737,24 +737,24 @@ export const developmentStudiesDiploma = {
           id: 11,
           question: "What role does free media play?",
           options: [
-            "Watchdog over powerholders and inform debate",
+            "Entertainment without information value",
             "Only government propaganda outlet",
-            "Business advertising platform only",
-            "Entertainment without information value"
+            "Watchdog over powerholders and inform debate",
+            "Business advertising platform only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Free media acts as watchdog, investigates abuses, and informs public debate."
         },
         {
           id: 12,
           question: "What do international institutions shape?",
           options: [
-            "Development policies and resource flows",
             "Only national cultural practices",
-            "Individual business decisions",
-            "Personal lifestyle choices"
+            "Personal lifestyle choices",
+            "Development policies and resource flows",
+            "Individual business decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "International institutions like UN and World Bank shape development policies and resource flows."
         },
         {
@@ -762,9 +762,9 @@ export const developmentStudiesDiploma = {
           question: "What are global public goods?",
           options: [
             "Benefits transcending national borders",
+            "Individual personal possessions",
             "Only national government services",
-            "Private corporate products",
-            "Individual personal possessions"
+            "Private corporate products"
           ],
           correctAnswer: 0,
           explanation: "Global public goods are benefits like climate stability that transcend national borders."
@@ -773,24 +773,24 @@ export const developmentStudiesDiploma = {
           id: 14,
           question: "What do aid effectiveness principles emphasize?",
           options: [
-            "Country ownership and alignment with priorities",
             "Donor control of all projects",
-            "Standardized approaches everywhere",
-            "Maximum donor visibility"
+            "Country ownership and alignment with priorities",
+            "Maximum donor visibility",
+            "Standardized approaches everywhere"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Aid effectiveness principles emphasize country ownership, alignment, harmonization, and results."
         },
         {
           id: 15,
           question: "What do human rights frameworks establish?",
           options: [
-            "Universal standards for development",
-            "Only political rights protections",
             "Cultural relativism principles",
-            "Voluntary guidelines for governments"
+            "Only political rights protections",
+            "Voluntary guidelines for governments",
+            "Universal standards for development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Human rights frameworks establish universal standards and obligations for development."
         },
         {
@@ -798,9 +798,9 @@ export const developmentStudiesDiploma = {
           question: "What does democratic governance emphasize?",
           options: [
             "Citizen participation and human rights protection",
+            "Military control of government",
             "Only economic efficiency",
-            "Centralized decision-making",
-            "Military control of government"
+            "Centralized decision-making"
           ],
           correctAnswer: 0,
           explanation: "Democratic governance emphasizes citizen participation, human rights, and responsive institutions."
@@ -811,8 +811,8 @@ export const developmentStudiesDiploma = {
           options: [
             "Impartial adjudication according to law",
             "Government control of court decisions",
-            "Wealthy influence on judgments",
-            "Political party interference"
+            "Political party interference",
+            "Wealthy influence on judgments"
           ],
           correctAnswer: 0,
           explanation: "Judicial independence ensures impartial adjudication according to law, not political pressure."
@@ -833,12 +833,12 @@ export const developmentStudiesDiploma = {
           id: 19,
           question: "What does South-South cooperation offer?",
           options: [
-            "Alternative development partnerships",
-            "Only traditional donor-recipient models",
             "Identical approaches everywhere",
-            "Replacement of all North-South aid"
+            "Alternative development partnerships",
+            "Replacement of all North-South aid",
+            "Only traditional donor-recipient models"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "South-South cooperation offers alternative development partnerships between developing countries."
         },
         {
@@ -846,8 +846,8 @@ export const developmentStudiesDiploma = {
           question: "What do human rights mechanisms provide?",
           options: [
             "Monitoring compliance and redress avenues",
-            "Only theoretical frameworks",
             "Military enforcement options",
+            "Only theoretical frameworks",
             "Business investment guidelines"
           ],
           correctAnswer: 0,
@@ -907,84 +907,84 @@ export const developmentStudiesDiploma = {
           id: 1,
           question: "How does economic development differ from growth?",
           options: [
-            "Includes qualitative transformation and structural changes",
-            "Only measures GDP increases",
             "Focuses only on urban areas",
-            "Ignores poverty reduction"
+            "Only measures GDP increases",
+            "Ignores poverty reduction",
+            "Includes qualitative transformation and structural changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Economic development involves qualitative transformation and structural changes, not just quantitative growth."
         },
         {
           id: 2,
           question: "What does structural transformation involve?",
           options: [
+            "Equal shares of all sectors forever",
             "Reallocation from agriculture to industry/services",
             "Only agricultural expansion",
-            "Elimination of all traditional sectors",
-            "Equal shares of all sectors forever"
+            "Elimination of all traditional sectors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Structural transformation involves reallocation from traditional agriculture to modern industry and services."
         },
         {
           id: 3,
           question: "What drives long-term economic development?",
           options: [
-            "Productivity growth through innovation and efficiency",
             "Only population increases",
+            "Productivity growth through innovation and efficiency",
             "Natural resource discovery alone",
             "International aid transfers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Productivity growth through technological innovation and efficiency drives long-term development."
         },
         {
           id: 4,
           question: "What characterizes inclusive growth?",
           options: [
-            "Benefits all segments of society, particularly poor",
+            "Ignores inequality completely",
             "Only benefits wealthy elites",
-            "Focuses exclusively on urban areas",
-            "Ignores inequality completely"
+            "Benefits all segments of society, particularly poor",
+            "Focuses exclusively on urban areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Inclusive growth benefits all segments, particularly poor and marginalized groups, reducing inequality."
         },
         {
           id: 5,
           question: "What does industrial policy involve?",
           options: [
-            "Government interventions to promote specific sectors",
-            "Complete government control of all industries",
             "No government role in the economy",
-            "Only international trade regulations"
+            "Only international trade regulations",
+            "Government interventions to promote specific sectors",
+            "Complete government control of all industries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Industrial policy involves government interventions to promote sectors deemed important for development."
         },
         {
           id: 6,
           question: "How can developing countries participate in GVCs?",
           options: [
-            "Through tasks like assembly or component manufacturing",
-            "Only as final product consumers",
             "Exclusively as raw material suppliers",
-            "Not at all in global value chains"
+            "Only as final product consumers",
+            "Not at all in global value chains",
+            "Through tasks like assembly or component manufacturing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Developing countries can participate in GVCs through tasks like assembly, manufacturing, or services."
         },
         {
           id: 7,
           question: "What are special economic zones?",
           options: [
-            "Designated areas with different economic regulations",
-            "Identical to rest of country economically",
             "Military-controlled territories only",
-            "Areas with no economic activity allowed"
+            "Areas with no economic activity allowed",
+            "Identical to rest of country economically",
+            "Designated areas with different economic regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SEZs are designated areas with different regulations to attract investment through incentives."
         },
         {
@@ -1003,36 +1003,36 @@ export const developmentStudiesDiploma = {
           id: 9,
           question: "What does rural non-farm economy include?",
           options: [
-            "Processing, trading, services in rural areas",
+            "International trade exclusively",
             "Only agricultural activities",
-            "Urban industrial manufacturing",
-            "International trade exclusively"
+            "Processing, trading, services in rural areas",
+            "Urban industrial manufacturing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Rural non-farm economy includes processing, trading, services, and small manufacturing in rural areas."
         },
         {
           id: 10,
           question: "What does land reform address?",
           options: [
-            "Historical land ownership inequalities",
             "Only current market transactions",
+            "Historical land ownership inequalities",
             "Urban housing issues only",
             "International border disputes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Land reform addresses historical land ownership inequalities and aims to improve productivity."
         },
         {
           id: 11,
           question: "What is climate-smart agriculture?",
           options: [
-            "Increases productivity, resilience, reduces emissions",
             "Only traditional farming methods",
+            "Increases productivity, resilience, reduces emissions",
             "Eliminates all agricultural emissions",
             "Focuses only on organic production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Climate-smart agriculture increases productivity, enhances resilience, and reduces emissions where possible."
         },
         {
@@ -1040,9 +1040,9 @@ export const developmentStudiesDiploma = {
           question: "What does financial inclusion provide?",
           options: [
             "Access to useful, affordable financial services",
+            "Investment advice for corporations",
             "Only bank accounts for wealthy",
-            "Free money distribution",
-            "Investment advice for corporations"
+            "Free money distribution"
           ],
           correctAnswer: 0,
           explanation: "Financial inclusion provides access to useful, affordable financial services for all segments."
@@ -1051,84 +1051,84 @@ export const developmentStudiesDiploma = {
           id: 13,
           question: "What concerns exist about microfinance?",
           options: [
-            "High interest rates and over-indebtedness",
-            "Too low interest rates",
             "Excessive government control",
-            "Complete lack of regulation"
+            "Too low interest rates",
+            "Complete lack of regulation",
+            "High interest rates and over-indebtedness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Microfinance concerns include high interest rates, over-indebtedness, and limited poverty impact."
         },
         {
           id: 14,
           question: "What does FDI bring to developing countries?",
           options: [
+            "Political instability necessarily",
             "Capital, technology, management skills, market access",
             "Only environmental problems",
-            "Cultural homogenization only",
-            "Political instability necessarily"
+            "Cultural homogenization only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "FDI can bring capital, technology, management skills, and market access to developing countries."
         },
         {
           id: 15,
           question: "What does domestic resource mobilization involve?",
           options: [
-            "Raising government revenue through taxation",
-            "Only international borrowing",
+            "Confiscating private property",
             "Printing more currency",
-            "Confiscating private property"
+            "Raising government revenue through taxation",
+            "Only international borrowing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Domestic resource mobilization involves raising government revenue through taxation and other means."
         },
         {
           id: 16,
           question: "What should effective tax systems be?",
           options: [
+            "Applied only to foreign companies",
             "Progressive, efficient, and equitable",
-            "Regressive and complicated",
             "Voluntary for wealthy only",
-            "Applied only to foreign companies"
+            "Regressive and complicated"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective tax systems should be progressive, efficient in collection, and equitable."
         },
         {
           id: 17,
           question: "Why is public investment in infrastructure important?",
           options: [
+            "Has no development impact",
             "Creates foundation for economic activity",
-            "Only benefits construction companies",
             "Increases government debt necessarily",
-            "Has no development impact"
+            "Only benefits construction companies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Public infrastructure investment creates foundation for economic activity and development."
         },
         {
           id: 18,
           question: "What did successful East Asian industrial policies combine?",
           options: [
+            "Elimination of all manufacturing",
             "Protection with export discipline",
             "Complete free trade immediately",
-            "Only domestic market focus",
-            "Elimination of all manufacturing"
+            "Only domestic market focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Successful East Asian industrial policies combined protection with export discipline and performance requirements."
         },
         {
           id: 19,
           question: "What do linkages between farm and non-farm activities create?",
           options: [
-            "Multiplier effects in rural economies",
-            "Only competition for resources",
             "Complete separation of sectors",
+            "Only competition for resources",
+            "Multiplier effects in rural economies",
             "Urban dominance over rural areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Linkages between farm and non-farm activities create multiplier effects in rural economies."
         },
         {
@@ -1136,9 +1136,9 @@ export const developmentStudiesDiploma = {
           question: "What have digital financial services expanded?",
           options: [
             "Financial access through mobile money",
+            "In-person banking requirements",
             "Only traditional banking hours",
-            "Paper-based transactions",
-            "In-person banking requirements"
+            "Paper-based transactions"
           ],
           correctAnswer: 0,
           explanation: "Digital financial services like mobile money have dramatically expanded financial access in some regions."
@@ -1207,8 +1207,8 @@ export const developmentStudiesDiploma = {
           options: [
             "Develops human capabilities and promotes growth",
             "Only provides basic literacy skills",
-            "Is irrelevant for economic development",
-            "Only benefits individuals, not societies"
+            "Only benefits individuals, not societies",
+            "Is irrelevant for economic development"
           ],
           correctAnswer: 0,
           explanation: "Education develops human capabilities, promotes social mobility, and drives economic growth."
@@ -1217,48 +1217,48 @@ export const developmentStudiesDiploma = {
           id: 2,
           question: "What challenges do education systems in developing countries face?",
           options: [
-            "Inadequate funding and teacher shortages",
+            "Complete gender equality already achieved",
             "Too many qualified teachers",
             "Excessive funding with no constraints",
-            "Complete gender equality already achieved"
+            "Inadequate funding and teacher shortages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Challenges include inadequate funding, teacher shortages, poor infrastructure, and relevance issues."
         },
         {
           id: 3,
           question: "Why do early childhood development programs have high returns?",
           options: [
-            "Build cognitive and socioemotional foundations",
-            "Only provide childcare for working parents",
             "Focus exclusively on academic preparation",
-            "Have no impact on later development"
+            "Have no impact on later development",
+            "Build cognitive and socioemotional foundations",
+            "Only provide childcare for working parents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ECD programs have high returns by building cognitive and socioemotional foundations early."
         },
         {
           id: 4,
           question: "What makes TVET systems effective?",
           options: [
-            "Employer involvement and workplace training",
+            "Focus exclusively on academic subjects",
             "Only theoretical classroom instruction",
             "Complete separation from labor market needs",
-            "Focus exclusively on academic subjects"
+            "Employer involvement and workplace training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective TVET involves employers, combines classroom and workplace learning, and offers pathways."
         },
         {
           id: 5,
           question: "How are health and development related?",
           options: [
+            "Development damages health necessarily",
             "Bidirectional: better health improves development",
             "Only health depends on development",
-            "Development damages health necessarily",
             "No relationship exists between them"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Health and development have bidirectional relationships-each influences and reinforces the other."
         },
         {
@@ -1266,9 +1266,9 @@ export const developmentStudiesDiploma = {
           question: "What does primary health care provide?",
           options: [
             "Essential health services at community level",
+            "Alternative medicine exclusively",
             "Only specialized hospital care",
-            "International medical consultations",
-            "Alternative medicine exclusively"
+            "International medical consultations"
           ],
           correctAnswer: 0,
           explanation: "Primary health care provides essential prevention, treatment, and rehabilitation at community level."
@@ -1277,84 +1277,84 @@ export const developmentStudiesDiploma = {
           id: 7,
           question: "What aims to ensure health access without financial hardship?",
           options: [
+            "International medical tourism",
             "Universal health coverage",
             "Only private health insurance",
-            "Out-of-pocket payments exclusively",
-            "International medical tourism"
+            "Out-of-pocket payments exclusively"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Universal health coverage aims to ensure all people access needed services without financial hardship."
         },
         {
           id: 8,
           question: "What is the double disease burden?",
           options: [
+            "Mental health issues exclusively",
             "Non-communicable and infectious diseases together",
             "Only infectious diseases",
-            "Mental health issues exclusively",
             "Seasonal allergies only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The double burden includes both non-communicable and persistent infectious diseases."
         },
         {
           id: 9,
           question: "What does social protection include?",
           options: [
-            "Social assistance, insurance, labor programs",
             "Only emergency food aid",
-            "Military protection services",
-            "Corporate welfare exclusively"
+            "Social assistance, insurance, labor programs",
+            "Corporate welfare exclusively",
+            "Military protection services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Social protection includes social assistance, social insurance, and labor market programs."
         },
         {
           id: 10,
           question: "What impacts do cash transfer programs show?",
           options: [
-            "Poverty reduction and school enrollment increases",
             "Only increased dependency",
-            "No measurable impacts",
-            "Exclusively negative outcomes"
+            "Exclusively negative outcomes",
+            "Poverty reduction and school enrollment increases",
+            "No measurable impacts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Evidence shows positive impacts on poverty, school enrollment, health utilization, and empowerment."
         },
         {
           id: 11,
           question: "What do public works programs provide?",
           options: [
-            "Temporary employment and community assets",
             "Permanent government jobs only",
-            "International employment opportunities",
-            "Only training without work"
+            "Only training without work",
+            "Temporary employment and community assets",
+            "International employment opportunities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Public works programs offer temporary employment while creating community infrastructure assets."
         },
         {
           id: 12,
           question: "What does gender equality involve?",
           options: [
-            "Equal rights, responsibilities, opportunities",
-            "Only equal numbers in parliament",
             "Identical biological characteristics",
-            "Complete gender role elimination"
+            "Complete gender role elimination",
+            "Only equal numbers in parliament",
+            "Equal rights, responsibilities, opportunities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Gender equality means equal rights, responsibilities, and opportunities for women and men."
         },
         {
           id: 13,
           question: "What does women's economic empowerment include?",
           options: [
-            "Equal employment opportunities and resource access",
-            "Only political participation",
             "Exclusive focus on domestic roles",
-            "Elimination of all paid work"
+            "Equal employment opportunities and resource access",
+            "Elimination of all paid work",
+            "Only political participation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Women's economic empowerment includes equal opportunities, resource access, and income control."
         },
         {
@@ -1362,9 +1362,9 @@ export const developmentStudiesDiploma = {
           question: "What requires multi-sectoral approaches?",
           options: [
             "Gender-based violence prevention and response",
+            "Basic literacy programs",
             "Only agricultural development",
-            "Infrastructure construction",
-            "Basic literacy programs"
+            "Infrastructure construction"
           ],
           correctAnswer: 0,
           explanation: "Gender-based violence requires multi-sectoral approaches involving health, justice, education, etc."
@@ -1373,12 +1373,12 @@ export const developmentStudiesDiploma = {
           id: 15,
           question: "How can women's political participation increase?",
           options: [
-            "Quotas, training programs, support networks",
             "Only natural progression over time",
             "Exclusion from all decision-making",
+            "Quotas, training programs, support networks",
             "Focus exclusively on local levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Quotas, training, and support networks can increase women's political representation."
         },
         {
@@ -1386,9 +1386,9 @@ export const developmentStudiesDiploma = {
           question: "Why consider cultural dimensions in development?",
           options: [
             "Values and practices shape development processes",
+            "Development should eliminate all cultural differences",
             "Culture is irrelevant to development",
-            "Only Western cultural models work",
-            "Development should eliminate all cultural differences"
+            "Only Western cultural models work"
           ],
           correctAnswer: 0,
           explanation: "Cultural values, beliefs, and practices shape how development processes unfold and are received."
@@ -1397,48 +1397,48 @@ export const developmentStudiesDiploma = {
           id: 17,
           question: "What should development approaches respect regarding indigenous peoples?",
           options: [
-            "Rights to lands, territories, self-determination",
-            "Only their labor for development projects",
             "Complete assimilation into mainstream society",
-            "Elimination of traditional practices"
+            "Elimination of traditional practices",
+            "Rights to lands, territories, self-determination",
+            "Only their labor for development projects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Approaches should respect indigenous rights while recognizing their knowledge and contributions."
         },
         {
           id: 18,
           question: "How do faith-based organizations contribute to development?",
           options: [
-            "Deliver health, education, social services",
-            "Only provide religious instruction",
             "Focus exclusively on proselytizing",
+            "Only provide religious instruction",
+            "Deliver health, education, social services",
             "Oppose all development interventions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Faith-based organizations deliver significant health, education, and social services in many countries."
         },
         {
           id: 19,
           question: "How does mother tongue instruction affect learning?",
           options: [
-            "Improves learning outcomes in early grades",
-            "Hinders all educational progress",
             "Only benefits minority language speakers",
-            "Has no effect on learning"
+            "Hinders all educational progress",
+            "Has no effect on learning",
+            "Improves learning outcomes in early grades"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Instruction in mother tongue during early grades improves learning outcomes compared to foreign language."
         },
         {
           id: 20,
           question: "What do community health workers achieve?",
           options: [
-            "Extend health services to remote populations",
+            "Focus exclusively on traditional medicine",
             "Only work in urban hospitals",
-            "Replace all doctors and nurses",
-            "Focus exclusively on traditional medicine"
+            "Extend health services to remote populations",
+            "Replace all doctors and nurses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Community health workers extend essential health services to remote and underserved populations."
         }
       ]
@@ -1500,9 +1500,9 @@ export const developmentStudiesDiploma = {
           question: "What does sustainable development integrate?",
           options: [
             "Economic, social, and environmental objectives",
-            "Only economic growth targets",
             "Environmental protection exclusively",
-            "Social welfare programs only"
+            "Social welfare programs only",
+            "Only economic growth targets"
           ],
           correctAnswer: 0,
           explanation: "Sustainable development integrates economic, social, and environmental objectives."
@@ -1512,9 +1512,9 @@ export const developmentStudiesDiploma = {
           question: "How should renewable resources be managed?",
           options: [
             "Within their regeneration limits",
-            "Extracted as quickly as possible",
             "Completely preserved without use",
-            "Only for export to earn foreign exchange"
+            "Only for export to earn foreign exchange",
+            "Extracted as quickly as possible"
           ],
           correctAnswer: 0,
           explanation: "Renewable resources require management within their natural regeneration limits."
@@ -1523,36 +1523,36 @@ export const developmentStudiesDiploma = {
           id: 3,
           question: "What does climate change adaptation involve?",
           options: [
-            "Adjusting systems to reduce vulnerability",
-            "Only reducing greenhouse gas emissions",
             "Ignoring climate impacts completely",
-            "Relocating all populations from risky areas"
+            "Adjusting systems to reduce vulnerability",
+            "Relocating all populations from risky areas",
+            "Only reducing greenhouse gas emissions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adaptation involves adjusting systems to actual or expected climate impacts to reduce vulnerability."
         },
         {
           id: 4,
           question: "What can developing countries pursue regarding climate?",
           options: [
-            "Low-carbon development pathways",
-            "Only high-emission development models",
             "Complete industrialization first",
+            "Only high-emission development models",
+            "Low-carbon development pathways",
             "Ignore climate considerations entirely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Developing countries can pursue low-carbon pathways that avoid high-emission technologies."
         },
         {
           id: 5,
           question: "What does sustainable urban development require?",
           options: [
-            "Integrated planning and affordable housing",
+            "Elimination of all green spaces",
             "Only high-rise building construction",
             "Exclusive focus on private car infrastructure",
-            "Elimination of all green spaces"
+            "Integrated planning and affordable housing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sustainable urban development requires integrated planning, affordable housing, and efficient transport."
         },
         {
@@ -1560,9 +1560,9 @@ export const developmentStudiesDiploma = {
           question: "What do informal settlement upgrading approaches include?",
           options: [
             "Tenure security and basic service provision",
-            "Only forced evictions to clear land",
             "Complete relocation to remote areas",
-            "Ignoring settlements as temporary"
+            "Ignoring settlements as temporary",
+            "Only forced evictions to clear land"
           ],
           correctAnswer: 0,
           explanation: "Upgrading approaches include tenure security, service provision, and community participation."
@@ -1571,96 +1571,96 @@ export const developmentStudiesDiploma = {
           id: 7,
           question: "What enables urban resilience?",
           options: [
+            "Dependence on single resources",
             "Ability to withstand and recover from shocks",
-            "Only strong military presence",
             "Complete economic specialization",
-            "Dependence on single resources"
+            "Only strong military presence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Urban resilience enables cities to withstand and recover from shocks and stresses."
         },
         {
           id: 8,
           question: "How do conflict and development interact?",
           options: [
+            "Development always prevents conflict",
             "In vicious cycles reinforcing each other",
-            "No relationship exists between them",
             "Conflict always promotes development",
-            "Development always prevents conflict"
+            "No relationship exists between them"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Conflict and development interact in vicious cycles-poverty fuels conflict, conflict reverses development."
         },
         {
           id: 9,
           question: "What characterizes fragile states?",
           options: [
-            "Weak capacity and lack of legitimacy",
-            "Strong institutions and popular support",
             "Complete absence of government",
-            "Only temporary political instability"
+            "Weak capacity and lack of legitimacy",
+            "Only temporary political instability",
+            "Strong institutions and popular support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fragile states have weak capacity to perform basic functions and lack legitimacy."
         },
         {
           id: 10,
           question: "What are durable solutions for displacement?",
           options: [
-            "Voluntary return, local integration, resettlement",
-            "Only temporary camps indefinitely",
+            "Ignoring displacement as temporary",
             "Forced return to areas of origin",
-            "Ignoring displacement as temporary"
+            "Voluntary return, local integration, resettlement",
+            "Only temporary camps indefinitely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Durable solutions include voluntary return, local integration, or resettlement elsewhere."
         },
         {
           id: 11,
           question: "What principles guide post-conflict reconstruction?",
           options: [
+            "Rapid economic liberalization first",
             "National ownership and inclusive processes",
             "Only external control and direction",
-            "Rapid economic liberalization first",
             "Military governance exclusively"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Principles include national ownership, inclusive processes, and appropriate sequencing."
         },
         {
           id: 12,
           question: "What characterizes effective global partnerships?",
           options: [
+            "Lack of accountability mechanisms",
             "Shared goals and transparent governance",
             "Only donor control of all decisions",
-            "Competition rather than cooperation",
-            "Lack of accountability mechanisms"
+            "Competition rather than cooperation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective partnerships have shared goals, transparent governance, and mutual accountability."
         },
         {
           id: 13,
           question: "What does technology transfer enable?",
           options: [
-            "Developing countries to access innovations",
-            "Only developed countries to protect patents",
             "Complete technology independence immediately",
-            "Elimination of all intellectual property rights"
+            "Elimination of all intellectual property rights",
+            "Developing countries to access innovations",
+            "Only developed countries to protect patents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Technology transfer enables developing countries to access innovations for sustainable development."
         },
         {
           id: 14,
           question: "What does the data revolution involve?",
           options: [
-            "Improving data collection, analysis, and use",
-            "Only collecting more data without analysis",
+            "Focusing exclusively on economic data",
             "Eliminating all privacy protections",
-            "Focusing exclusively on economic data"
+            "Improving data collection, analysis, and use",
+            "Only collecting more data without analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The data revolution involves improving data collection, analysis, and use for decision-making."
         },
         {
@@ -1669,8 +1669,8 @@ export const developmentStudiesDiploma = {
           options: [
             "Automation impacts and skills for digital economy",
             "Only maintaining traditional jobs forever",
-            "Elimination of all work through automation",
-            "Ignoring technological changes completely"
+            "Ignoring technological changes completely",
+            "Elimination of all work through automation"
           ],
           correctAnswer: 0,
           explanation: "Considerations include automation impacts, digital skills needs, and social protection for new work forms."
@@ -1680,9 +1680,9 @@ export const developmentStudiesDiploma = {
           question: "What guides development ethics?",
           options: [
             "Principles like respect for human dignity",
+            "Short-term political considerations only",
             "Only economic efficiency calculations",
-            "Complete cultural relativism without values",
-            "Short-term political considerations only"
+            "Complete cultural relativism without values"
           ],
           correctAnswer: 0,
           explanation: "Development ethics is guided by principles like human dignity, justice, and sustainability."
@@ -1691,36 +1691,36 @@ export const developmentStudiesDiploma = {
           id: 17,
           question: "What do alternative development models emphasize?",
           options: [
-            "Holistic well-being over material growth",
             "Only GDP maximization",
             "Complete rejection of all development",
+            "Holistic well-being over material growth",
             "Standardized approaches for all cultures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Alternative models like buen vivir emphasize holistic well-being over material growth."
         },
         {
           id: 18,
           question: "What does development effectiveness measure?",
           options: [
+            "Speed of project implementation",
             "How well interventions achieve sustainable results",
-            "Only spending levels and activity counts",
             "Donor visibility and recognition",
-            "Speed of project implementation"
+            "Only spending levels and activity counts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Development effectiveness measures how well interventions achieve sustainable development results."
         },
         {
           id: 19,
           question: "What should smart city approaches in developing contexts do?",
           options: [
-            "Address basic needs first and benefit all citizens",
+            "Focus exclusively on surveillance systems",
             "Only implement latest technologies for wealthy",
             "Copy developed country models exactly",
-            "Focus exclusively on surveillance systems"
+            "Address basic needs first and benefit all citizens"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Smart approaches should address basic needs first and ensure technologies benefit all citizens."
         },
         {
@@ -1728,9 +1728,9 @@ export const developmentStudiesDiploma = {
           question: "What does ethical development practice require?",
           options: [
             "Reflexivity about power and unintended consequences",
-            "Only technical expertise without reflection",
             "Implementing standardized solutions everywhere",
-            "Ignoring local knowledge and values"
+            "Ignoring local knowledge and values",
+            "Only technical expertise without reflection"
           ],
           correctAnswer: 0,
           explanation: "Ethical practice requires reflexivity about power relations, consequences, and whose values guide interventions."
@@ -1744,60 +1744,60 @@ export const developmentStudiesDiploma = {
       id: 1,
       question: "What does the human development approach emphasize?",
       options: [
-        "Expanding people's capabilities and freedoms",
         "Maximum economic growth rates",
         "Standardized development paths",
+        "Expanding people's capabilities and freedoms",
         "Technology transfer only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Human development focuses on expanding people's capabilities and freedoms rather than just economic growth."
     },
     {
       id: 2,
       question: "What is the core argument of dependency theory?",
       options: [
-        "Underdevelopment results from dependence on wealthier nations",
-        "All countries develop at same pace naturally",
         "Cultural superiority determines development",
-        "Technology alone drives development"
+        "Underdevelopment results from dependence on wealthier nations",
+        "Technology alone drives development",
+        "All countries develop at same pace naturally"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Dependency theory argues underdevelopment results from economic dependence on wealthier nations."
     },
     {
       id: 3,
       question: "What defines sustainable development?",
       options: [
-        "Meeting present needs without compromising future generations",
-        "Maximum resource extraction for growth",
         "Preserving environments completely unchanged",
-        "Focusing only on current poverty"
+        "Meeting present needs without compromising future generations",
+        "Focusing only on current poverty",
+        "Maximum resource extraction for growth"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Sustainable development meets present needs without compromising future generations' ability."
     },
     {
       id: 4,
       question: "What does absolute poverty refer to?",
       options: [
-        "Severe deprivation of basic human needs",
         "Income below relative societal standards",
-        "Temporary financial difficulty",
-        "Lack of luxury goods only"
+        "Lack of luxury goods only",
+        "Severe deprivation of basic human needs",
+        "Temporary financial difficulty"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Absolute poverty refers to severe deprivation of basic needs like food, water, and shelter."
     },
     {
       id: 5,
       question: "What does the Multidimensional Poverty Index measure?",
       options: [
-        "Acute poverty across health, education, living standards",
-        "Only income levels",
         "Wealth distribution patterns",
-        "Economic growth rates"
+        "Economic growth rates",
+        "Acute poverty across health, education, living standards",
+        "Only income levels"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "MPI measures acute poverty across health, education, and standard of living dimensions."
     },
     {
@@ -1805,9 +1805,9 @@ export const developmentStudiesDiploma = {
       question: "What does vulnerability in poverty context mean?",
       options: [
         "Exposure to risks with limited coping ability",
-        "Certainty of remaining poor forever",
         "Lack of any income sources",
-        "Only natural disaster exposure"
+        "Only natural disaster exposure",
+        "Certainty of remaining poor forever"
       ],
       correctAnswer: 0,
       explanation: "Vulnerability means exposure to risks and shocks with limited ability to cope or recover."
@@ -1817,9 +1817,9 @@ export const developmentStudiesDiploma = {
       question: "What characterizes good governance?",
       options: [
         "Transparency, accountability, participation",
+        "Rapid economic growth only",
         "Only efficient service delivery",
-        "Strong centralized control",
-        "Rapid economic growth only"
+        "Strong centralized control"
       ],
       correctAnswer: 0,
       explanation: "Good governance includes transparency, accountability, participation, and other principles."
@@ -1828,24 +1828,24 @@ export const developmentStudiesDiploma = {
       id: 8,
       question: "What does devolution involve in decentralization?",
       options: [
-        "Transfer to locally elected bodies",
-        "Only relocation of central offices",
         "Temporary delegation of tasks",
-        "Complete elimination of local government"
+        "Transfer to locally elected bodies",
+        "Complete elimination of local government",
+        "Only relocation of central offices"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Devolution transfers authority, resources, and responsibilities to locally elected bodies."
     },
     {
       id: 9,
       question: "What do institutions include?",
       options: [
-        "Formal rules and informal norms",
-        "Only government buildings",
         "International organizations only",
+        "Only government buildings",
+        "Formal rules and informal norms",
         "Business corporations exclusively"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Institutions include formal rules (laws) and informal norms (customs) structuring social interactions."
     },
     {
@@ -1854,8 +1854,8 @@ export const developmentStudiesDiploma = {
       options: [
         "Includes qualitative transformation and structural changes",
         "Only measures GDP increases",
-        "Focuses only on urban areas",
-        "Ignores poverty reduction"
+        "Ignores poverty reduction",
+        "Focuses only on urban areas"
       ],
       correctAnswer: 0,
       explanation: "Economic development involves qualitative transformation, not just quantitative growth."
@@ -1865,8 +1865,8 @@ export const developmentStudiesDiploma = {
       question: "What does structural transformation involve?",
       options: [
         "Reallocation from agriculture to industry/services",
-        "Only agricultural expansion",
         "Elimination of all traditional sectors",
+        "Only agricultural expansion",
         "Equal shares of all sectors forever"
       ],
       correctAnswer: 0,
@@ -1876,84 +1876,84 @@ export const developmentStudiesDiploma = {
       id: 12,
       question: "What does industrial policy involve?",
       options: [
-        "Government interventions to promote specific sectors",
         "Complete government control of all industries",
         "No government role in economy",
-        "Only international trade regulations"
+        "Only international trade regulations",
+        "Government interventions to promote specific sectors"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Industrial policy involves government interventions to promote sectors for development."
     },
     {
       id: 13,
       question: "Why is education important for development?",
       options: [
-        "Develops human capabilities and promotes growth",
-        "Only provides basic literacy skills",
         "Is irrelevant for economic development",
-        "Only benefits individuals, not societies"
+        "Only provides basic literacy skills",
+        "Only benefits individuals, not societies",
+        "Develops human capabilities and promotes growth"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Education develops human capabilities, promotes mobility, and drives economic growth."
     },
     {
       id: 14,
       question: "How are health and development related?",
       options: [
-        "Bidirectional: better health improves development",
+        "No relationship exists between them",
         "Only health depends on development",
         "Development damages health necessarily",
-        "No relationship exists between them"
+        "Bidirectional: better health improves development"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Health and development have bidirectional relationships-each influences the other."
     },
     {
       id: 15,
       question: "What does gender equality involve?",
       options: [
-        "Equal rights, responsibilities, opportunities",
-        "Only equal numbers in parliament",
         "Identical biological characteristics",
-        "Complete gender role elimination"
+        "Complete gender role elimination",
+        "Equal rights, responsibilities, opportunities",
+        "Only equal numbers in parliament"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Gender equality means equal rights, responsibilities, and opportunities for women and men."
     },
     {
       id: 16,
       question: "What does sustainable development integrate?",
       options: [
-        "Economic, social, and environmental objectives",
-        "Only economic growth targets",
         "Environmental protection exclusively",
+        "Only economic growth targets",
+        "Economic, social, and environmental objectives",
         "Social welfare programs only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Sustainable development integrates economic, social, and environmental objectives."
     },
     {
       id: 17,
       question: "What does climate change adaptation involve?",
       options: [
+        "Relocating all populations from risky areas",
         "Adjusting systems to reduce vulnerability",
         "Only reducing greenhouse gas emissions",
-        "Ignoring climate impacts completely",
-        "Relocating all populations from risky areas"
+        "Ignoring climate impacts completely"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Adaptation involves adjusting systems to climate impacts to reduce vulnerability."
     },
     {
       id: 18,
       question: "How do conflict and development interact?",
       options: [
+        "Conflict always promotes development",
         "In vicious cycles reinforcing each other",
         "No relationship exists between them",
-        "Conflict always promotes development",
         "Development always prevents conflict"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Conflict and development interact in vicious cycles-poverty fuels conflict, conflict reverses development."
     },
     {
@@ -1972,12 +1972,12 @@ export const developmentStudiesDiploma = {
       id: 20,
       question: "What does development effectiveness measure?",
       options: [
-        "How well interventions achieve sustainable results",
         "Only spending levels and activity counts",
         "Donor visibility and recognition",
-        "Speed of project implementation"
+        "Speed of project implementation",
+        "How well interventions achieve sustainable results"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Development effectiveness measures how well interventions achieve sustainable development results."
     },
     {
@@ -1985,9 +1985,9 @@ export const developmentStudiesDiploma = {
       question: "What three dimensions does HDI measure?",
       options: [
         "Health, education, and standard of living",
-        "GDP, population, and military strength",
+        "Urbanization, industrialization, technology",
         "Exports, imports, and foreign investment",
-        "Urbanization, industrialization, technology"
+        "GDP, population, and military strength"
       ],
       correctAnswer: 0,
       explanation: "HDI measures health (life expectancy), education (schooling), and standard of living (income)."
@@ -1996,156 +1996,156 @@ export const developmentStudiesDiploma = {
       id: 22,
       question: "What does participatory development emphasize?",
       options: [
-        "Involving local communities in planning",
         "Expert-driven technical solutions only",
+        "International agencies making decisions",
         "Government control of all projects",
-        "International agencies making decisions"
+        "Involving local communities in planning"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Participatory development emphasizes involving local communities in planning and implementation."
     },
     {
       id: 23,
       question: "What does Gini coefficient measure?",
       options: [
-        "Income inequality within a population",
-        "Absolute poverty levels",
         "Economic growth rates",
-        "Wealth accumulation patterns"
+        "Wealth accumulation patterns",
+        "Absolute poverty levels",
+        "Income inequality within a population"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Gini coefficient measures income inequality (0 = perfect equality, 1 = perfect inequality)."
     },
     {
       id: 24,
       question: "What is social exclusion?",
       options: [
-        "Systematic blocking from rights and opportunities",
+        "Only geographic remoteness",
         "Voluntary social isolation",
         "Temporary economic hardship",
-        "Only geographic remoteness"
+        "Systematic blocking from rights and opportunities"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Social exclusion occurs when individuals/groups are systematically blocked from societal rights."
     },
     {
       id: 25,
       question: "Why are secure property rights important?",
       options: [
+        "Complicate resource management",
         "Encourage investment and enable credit access",
         "Only benefit wealthy landowners",
-        "Complicate resource management",
         "Are irrelevant for development"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Secure property rights encourage investment, facilitate credit, and enable efficient allocation."
     },
     {
       id: 26,
       question: "What drives long-term economic development?",
       options: [
-        "Productivity growth through innovation",
         "Only population increases",
-        "Natural resource discovery alone",
-        "International aid transfers"
+        "Productivity growth through innovation",
+        "International aid transfers",
+        "Natural resource discovery alone"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Productivity growth through technological innovation and efficiency drives long-term development."
     },
     {
       id: 27,
       question: "Why is agricultural productivity crucial?",
       options: [
-        "Most poor in developing countries depend on farming",
-        "Only for export earnings",
         "Urban populations need no agriculture",
-        "Industrialization eliminates agriculture need"
+        "Only for export earnings",
+        "Industrialization eliminates agriculture need",
+        "Most poor in developing countries depend on farming"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Agricultural productivity is crucial because most poor people depend on farming."
     },
     {
       id: 28,
       question: "What challenges do education systems face?",
       options: [
-        "Inadequate funding and teacher shortages",
-        "Too many qualified teachers",
         "Excessive funding with no constraints",
-        "Complete gender equality achieved"
+        "Inadequate funding and teacher shortages",
+        "Complete gender equality achieved",
+        "Too many qualified teachers"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Challenges include inadequate funding, teacher shortages, and poor infrastructure."
     },
     {
       id: 29,
       question: "What does universal health coverage aim for?",
       options: [
-        "Health access without financial hardship",
         "Only private health insurance",
-        "Out-of-pocket payments exclusively",
-        "International medical tourism"
+        "International medical tourism",
+        "Health access without financial hardship",
+        "Out-of-pocket payments exclusively"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Universal health coverage aims to ensure all access needed services without financial hardship."
     },
     {
       id: 30,
       question: "What does women's economic empowerment include?",
       options: [
-        "Equal employment opportunities and resource access",
         "Only political participation",
+        "Equal employment opportunities and resource access",
         "Exclusive focus on domestic roles",
         "Elimination of all paid work"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Women's economic empowerment includes equal opportunities, resource access, and income control."
     },
     {
       id: 31,
       question: "How should renewable resources be managed?",
       options: [
-        "Within their regeneration limits",
-        "Extracted as quickly as possible",
         "Completely preserved without use",
-        "Only for export earnings"
+        "Extracted as quickly as possible",
+        "Only for export earnings",
+        "Within their regeneration limits"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Renewable resources require management within their natural regeneration limits."
     },
     {
       id: 32,
       question: "What characterizes fragile states?",
       options: [
-        "Weak capacity and lack of legitimacy",
-        "Strong institutions and popular support",
         "Complete absence of government",
-        "Only temporary political instability"
+        "Weak capacity and lack of legitimacy",
+        "Only temporary political instability",
+        "Strong institutions and popular support"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Fragile states have weak capacity to perform basic functions and lack legitimacy."
     },
     {
       id: 33,
       question: "What does technology transfer enable?",
       options: [
-        "Developing countries to access innovations",
         "Only developed countries to protect patents",
         "Complete technology independence immediately",
-        "Elimination of intellectual property rights"
+        "Elimination of intellectual property rights",
+        "Developing countries to access innovations"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Technology transfer enables developing countries to access innovations for development."
     },
     {
       id: 34,
       question: "What guides development ethics?",
       options: [
-        "Principles like respect for human dignity",
+        "Short-term political considerations only",
         "Only economic efficiency calculations",
         "Complete cultural relativism without values",
-        "Short-term political considerations only"
+        "Principles like respect for human dignity"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Development ethics is guided by principles like human dignity, justice, and sustainability."
     },
     {
@@ -2153,8 +2153,8 @@ export const developmentStudiesDiploma = {
       question: "What do alternative development models emphasize?",
       options: [
         "Holistic well-being over material growth",
-        "Only GDP maximization",
         "Complete rejection of all development",
+        "Only GDP maximization",
         "Standardized approaches for all cultures"
       ],
       correctAnswer: 0,
@@ -2164,12 +2164,12 @@ export const developmentStudiesDiploma = {
       id: 36,
       question: "How do SDGs differ from MDGs?",
       options: [
+        "SDGs have fewer goals but more targets",
         "SDGs apply to all countries, not just developing",
         "SDGs focus only on economic indicators",
-        "SDGs have fewer goals but more targets",
         "SDGs ignore environmental issues"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "SDGs apply universally to all countries, recognizing challenges exist everywhere."
     },
     {
@@ -2177,9 +2177,9 @@ export const developmentStudiesDiploma = {
       question: "What does intersectionality analyze?",
       options: [
         "How multiple social identities combine",
-        "Only economic class differences",
         "Geographic location effects",
-        "Historical development patterns"
+        "Historical development patterns",
+        "Only economic class differences"
       ],
       correctAnswer: 0,
       explanation: "Intersectionality analyzes how multiple social identities combine to create unique experiences."
@@ -2188,36 +2188,36 @@ export const developmentStudiesDiploma = {
       id: 38,
       question: "What do cash transfer programs show impacts on?",
       options: [
-        "Poverty reduction and school enrollment",
         "Only increased dependency",
+        "Exclusively negative outcomes",
         "No measurable impacts",
-        "Exclusively negative outcomes"
+        "Poverty reduction and school enrollment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Evidence shows positive impacts on poverty, school enrollment, health utilization, and empowerment."
     },
     {
       id: 39,
       question: "What does ethical development practice require?",
       options: [
+        "Ignoring local knowledge and values",
         "Reflexivity about power and unintended consequences",
         "Only technical expertise without reflection",
-        "Implementing standardized solutions everywhere",
-        "Ignoring local knowledge and values"
+        "Implementing standardized solutions everywhere"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Ethical practice requires reflexivity about power relations, consequences, and whose values guide interventions."
     },
     {
       id: 40,
       question: "What is development ultimately about?",
       options: [
-        "People realizing their full potential",
         "Maximum economic output",
         "Standardized global culture",
-        "Complete environmental preservation"
+        "Complete environmental preservation",
+        "People realizing their full potential"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Development ultimately aims to help people realize their full potential and expand their freedoms."
     }
   ]

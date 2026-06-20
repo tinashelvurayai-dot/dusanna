@@ -111,84 +111,84 @@ Understanding these energy systems helps design effective training programs. Hig
           id: 1,
           question: "What is ATP?",
           options: [
-            "The energy currency of the body",
             "A type of muscle fiber",
+            "The energy currency of the body",
             "A breathing hormone",
             "A joint lubricant"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ATP (adenosine triphosphate) is the primary energy currency used by all cells."
         },
         {
           id: 2,
           question: "Which energy system provides immediate energy for 0-10 seconds?",
           options: [
-            "Phosphagen System",
             "Glycolytic System",
+            "Aerobic System",
             "Oxidative System",
-            "Aerobic System"
+            "Phosphagen System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The phosphagen system provides immediate energy for short, maximal efforts."
         },
         {
           id: 3,
           question: "What is the primary fuel for high-intensity exercise?",
           options: [
-            "Carbohydrates",
             "Fats",
+            "Carbohydrates",
             "Proteins",
             "Vitamins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Carbohydrates are the preferred fuel for high-intensity exercise."
         },
         {
           id: 4,
           question: "What does VO₂max measure?",
           options: [
-            "Maximum oxygen consumption during intense exercise",
-            "Resting heart rate",
             "Blood lactate levels",
-            "Muscle glycogen stores"
+            "Muscle glycogen stores",
+            "Maximum oxygen consumption during intense exercise",
+            "Resting heart rate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "VO₂max measures the maximum volume of oxygen consumed during intense exercise."
         },
         {
           id: 5,
           question: "Which system dominates during 30 seconds of maximal effort?",
           options: [
-            "Glycolytic System",
-            "Phosphagen System",
+            "All equally",
             "Oxidative System",
-            "All equally"
+            "Phosphagen System",
+            "Glycolytic System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The glycolytic system dominates during 10 seconds to 2 minutes of high-intensity activity."
         },
         {
           id: 6,
           question: "What creates lactate as a byproduct?",
           options: [
-            "Glycolytic System",
-            "Phosphagen System",
             "Oxidative System",
+            "Phosphagen System",
+            "Glycolytic System",
             "ATP recycling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The glycolytic system produces lactate when breaking down carbohydrates without oxygen."
         },
         {
           id: 7,
           question: "What is the primary fuel for low-intensity, long-duration exercise?",
           options: [
-            "Fats",
             "Carbohydrates",
             "Proteins",
-            "Creatine phosphate"
+            "Creatine phosphate",
+            "Fats"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fats are the primary fuel source for low to moderate intensity endurance exercise."
         },
         {
@@ -196,9 +196,9 @@ Understanding these energy systems helps design effective training programs. Hig
           question: "What does EPOC stand for?",
           options: [
             "Excess Post-exercise Oxygen Consumption",
+            "Endurance Performance Oxygen Capacity",
             "Exercise Physiology Oxygen Calculation",
-            "Energy Production Oxygen Consumption",
-            "Endurance Performance Oxygen Capacity"
+            "Energy Production Oxygen Consumption"
           ],
           correctAnswer: 0,
           explanation: "EPOC is the elevated oxygen consumption after exercise to restore homeostasis."
@@ -207,12 +207,12 @@ Understanding these energy systems helps design effective training programs. Hig
           id: 9,
           question: "Where is glycogen primarily stored?",
           options: [
-            "Muscles and liver",
+            "Bones",
             "Bloodstream",
-            "Fat cells",
-            "Bones"
+            "Muscles and liver",
+            "Fat cells"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Glycogen is stored in muscles (for local use) and liver (for blood glucose regulation)."
         },
         {
@@ -220,9 +220,9 @@ Understanding these energy systems helps design effective training programs. Hig
           question: "What is lactate threshold?",
           options: [
             "Point where lactate production exceeds clearance",
+            "Resting lactate levels",
             "Maximum lactate concentration",
-            "Minimum lactate during exercise",
-            "Resting lactate levels"
+            "Minimum lactate during exercise"
           ],
           correctAnswer: 0,
           explanation: "Lactate threshold occurs when lactate production exceeds the body's ability to clear it."
@@ -231,48 +231,48 @@ Understanding these energy systems helps design effective training programs. Hig
           id: 11,
           question: "How long do ATP stores last during maximal effort?",
           options: [
-            "2-3 seconds",
-            "30 seconds",
+            "5 minutes",
             "2 minutes",
-            "5 minutes"
+            "30 seconds",
+            "2-3 seconds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stored ATP lasts only 2-3 seconds during maximal effort before needing replenishment."
         },
         {
           id: 12,
           question: "Which system requires oxygen to produce ATP?",
           options: [
-            "Oxidative System",
             "Phosphagen System",
-            "Glycolytic System",
-            "Anaerobic systems"
+            "Oxidative System",
+            "Anaerobic systems",
+            "Glycolytic System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The oxidative (aerobic) system requires oxygen to produce ATP efficiently."
         },
         {
           id: 13,
           question: "What is BMR?",
           options: [
-            "Basal Metabolic Rate",
             "Basic Muscle Recovery",
-            "Blood Metabolic Ratio",
-            "Body Mass Regulation"
+            "Basal Metabolic Rate",
+            "Body Mass Regulation",
+            "Blood Metabolic Ratio"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BMR is the energy required for basic bodily functions at complete rest."
         },
         {
           id: 14,
           question: "Which fuel source has virtually unlimited storage?",
           options: [
-            "Fats",
-            "Carbohydrates",
             "Proteins",
-            "ATP"
+            "Fats",
+            "ATP",
+            "Carbohydrates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Body fat provides virtually unlimited energy storage compared to limited glycogen stores."
         },
         {
@@ -281,8 +281,8 @@ Understanding these energy systems helps design effective training programs. Hig
           options: [
             "Energy is released",
             "It becomes glycogen",
-            "It creates lactate",
-            "Oxygen is consumed"
+            "Oxygen is consumed",
+            "It creates lactate"
           ],
           correctAnswer: 0,
           explanation: "Energy is released when ATP loses a phosphate group, becoming ADP."
@@ -291,60 +291,60 @@ Understanding these energy systems helps design effective training programs. Hig
           id: 16,
           question: "Which energy system is most important for marathon running?",
           options: [
-            "Oxidative System",
             "Phosphagen System",
+            "Oxidative System",
             "Glycolytic System",
             "Immediate system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The oxidative system dominates during endurance activities like marathon running."
         },
         {
           id: 17,
           question: "What is the thermic effect of food?",
           options: [
-            "Energy used to digest and process nutrients",
-            "Heat produced during exercise",
             "Calories burned at rest",
-            "Metabolic rate during sleep"
+            "Metabolic rate during sleep",
+            "Heat produced during exercise",
+            "Energy used to digest and process nutrients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Thermic effect of food is the energy expenditure for digesting and processing nutrients."
         },
         {
           id: 18,
           question: "When do all three energy systems work together?",
           options: [
+            "Never simultaneously",
             "During most exercise activities",
             "Only at rest",
-            "Only during maximal efforts",
-            "Never simultaneously"
+            "Only during maximal efforts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "All three systems work together in different proportions during most exercise."
         },
         {
           id: 19,
           question: "What limits high-intensity exercise duration?",
           options: [
+            "Water content",
             "Glycogen depletion and lactate accumulation",
             "Fat stores",
-            "Protein availability",
-            "Water content"
+            "Protein availability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Glycogen depletion and lactate accumulation limit high-intensity exercise duration."
         },
         {
           id: 20,
           question: "What improves with endurance training?",
           options: [
-            "Oxidative system capacity",
             "Phosphagen stores",
             "Immediate energy release",
+            "Oxidative system capacity",
             "Anaerobic power"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Endurance training enhances oxidative system capacity and efficiency."
         }
       ]
@@ -493,84 +493,84 @@ Understanding these adaptations helps design effective cardiovascular training p
           id: 1,
           question: "What does cardiac output equal?",
           options: [
+            "Stroke volume × blood pressure",
             "Heart rate × stroke volume",
             "Blood pressure × heart rate",
-            "Stroke volume × blood pressure",
             "VO₂ × ventilation rate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cardiac output is calculated by multiplying heart rate by stroke volume."
         },
         {
           id: 2,
           question: "What is a common chronic adaptation to endurance training?",
           options: [
+            "Reduced blood volume",
             "Lower resting heart rate",
-            "Higher resting heart rate",
             "Decreased stroke volume",
-            "Reduced blood volume"
+            "Higher resting heart rate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Regular endurance training typically lowers resting heart rate."
         },
         {
           id: 3,
           question: "What increases rapidly with exercise intensity?",
           options: [
+            "Capillary density",
             "Heart rate",
             "Blood volume",
-            "Capillary density",
             "Ventricular size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Heart rate increases linearly with exercise intensity."
         },
         {
           id: 4,
           question: "What is left ventricular hypertrophy?",
           options: [
-            "Increase in heart wall thickness",
             "Decrease in heart size",
+            "Increase in heart wall thickness",
             "Reduction in chamber volume",
             "Weakening of heart muscle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Left ventricular hypertrophy is an increase in heart wall thickness from training."
         },
         {
           id: 5,
           question: "Where is blood flow reduced during exercise?",
           options: [
-            "Digestive organs",
             "Working muscles",
+            "Digestive organs",
             "Brain",
             "Heart"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Blood flow is reduced to digestive organs during exercise."
         },
         {
           id: 6,
           question: "What is the gold standard measure of cardiovascular fitness?",
           options: [
-            "VO₂max",
-            "Resting heart rate",
+            "Cholesterol levels",
             "Blood pressure",
-            "Cholesterol levels"
+            "Resting heart rate",
+            "VO₂max"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "VO₂max is considered the best measure of cardiovascular fitness."
         },
         {
           id: 7,
           question: "What happens to stroke volume during exercise?",
           options: [
-            "It increases",
-            "It decreases",
             "It stays the same",
-            "It becomes irregular"
+            "It decreases",
+            "It becomes irregular",
+            "It increases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stroke volume increases during exercise due to enhanced filling and contractility."
         },
         {
@@ -578,9 +578,9 @@ Understanding these adaptations helps design effective cardiovascular training p
           question: "What is cardiovascular drift?",
           options: [
             "Gradual heart rate increase during prolonged exercise",
+            "Reduced breathing rate",
             "Sudden heart rate decrease",
-            "Constant cardiac output",
-            "Reduced breathing rate"
+            "Constant cardiac output"
           ],
           correctAnswer: 0,
           explanation: "Cardiovascular drift is the gradual heart rate increase during prolonged steady exercise."
@@ -589,12 +589,12 @@ Understanding these adaptations helps design effective cardiovascular training p
           id: 9,
           question: "What carries oxygen in blood?",
           options: [
-            "Red blood cells",
             "White blood cells",
-            "Platelets",
-            "Plasma"
+            "Red blood cells",
+            "Plasma",
+            "Platelets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Red blood cells contain hemoglobin that carries oxygen."
         },
         {
@@ -613,60 +613,60 @@ Understanding these adaptations helps design effective cardiovascular training p
           id: 11,
           question: "What is minute ventilation?",
           options: [
-            "Air moved in and out of lungs per minute",
             "Oxygen consumed per minute",
-            "Heart beats per minute",
-            "Blood pumped per minute"
+            "Air moved in and out of lungs per minute",
+            "Blood pumped per minute",
+            "Heart beats per minute"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Minute ventilation is the volume of air breathed per minute."
         },
         {
           id: 12,
           question: "What causes initial heart rate increase at exercise onset?",
           options: [
-            "Parasympathetic withdrawal",
-            "Sympathetic stimulation only",
             "Hormone release",
+            "Sympathetic stimulation only",
+            "Parasympathetic withdrawal",
             "Temperature increase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Initial heart rate increase comes from withdrawal of parasympathetic inhibition."
         },
         {
           id: 13,
           question: "What happens to diastolic blood pressure during exercise?",
           options: [
-            "Changes minimally or decreases slightly",
-            "Increases dramatically",
             "Drops to zero",
-            "Doubles consistently"
+            "Doubles consistently",
+            "Changes minimally or decreases slightly",
+            "Increases dramatically"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Diastolic pressure changes minimally or decreases slightly during exercise."
         },
         {
           id: 14,
           question: "What increases blood volume rapidly with training?",
           options: [
-            "Plasma volume",
             "Red blood cells",
+            "Platelets",
             "White blood cells",
-            "Platelets"
+            "Plasma volume"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Plasma volume increases rapidly within days of starting training."
         },
         {
           id: 15,
           question: "What is a central component of VO₂max?",
           options: [
-            "Cardiovascular oxygen delivery",
-            "Muscle oxygen extraction",
             "Lung capacity",
-            "Breathing efficiency"
+            "Cardiovascular oxygen delivery",
+            "Breathing efficiency",
+            "Muscle oxygen extraction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The central component involves cardiovascular system's oxygen delivery ability."
         },
         {
@@ -674,9 +674,9 @@ Understanding these adaptations helps design effective cardiovascular training p
           question: "What helps heat dissipation during exercise?",
           options: [
             "Increased skin blood flow",
-            "Decreased heart rate",
             "Reduced breathing",
-            "Sweat evaporation only"
+            "Sweat evaporation only",
+            "Decreased heart rate"
           ],
           correctAnswer: 0,
           explanation: "Increased skin blood flow helps dissipate heat during exercise."
@@ -685,48 +685,48 @@ Understanding these adaptations helps design effective cardiovascular training p
           id: 17,
           question: "What improves with respiratory muscle training?",
           options: [
-            "Respiratory muscle endurance",
-            "Lung size",
+            "Blood oxygen capacity",
             "Oxygen content of air",
-            "Blood oxygen capacity"
+            "Lung size",
+            "Respiratory muscle endurance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Respiratory muscle training can improve endurance of breathing muscles."
         },
         {
           id: 18,
           question: "What declines about 1% per year after age 25-30?",
           options: [
+            "Stroke volume",
             "VO₂max",
             "Resting heart rate",
-            "Blood volume",
-            "Stroke volume"
+            "Blood volume"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "VO₂max typically declines about 1% per year after young adulthood."
         },
         {
           id: 19,
           question: "What is a peripheral component of VO₂max?",
           options: [
-            "Muscle oxygen extraction and use",
             "Heart pumping capacity",
-            "Lung ventilation",
-            "Blood oxygen carrying capacity"
+            "Blood oxygen carrying capacity",
+            "Muscle oxygen extraction and use",
+            "Lung ventilation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Peripheral component involves muscle's ability to extract and use oxygen."
         },
         {
           id: 20,
           question: "What causes cardiovascular drift during prolonged exercise?",
           options: [
-            "Fluid loss and increased skin blood flow",
+            "Reduced metabolic rate",
             "Decreased body temperature",
             "Increased blood volume",
-            "Reduced metabolic rate"
+            "Fluid loss and increased skin blood flow"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fluid loss through sweating and increased skin blood flow contribute to cardiovascular drift."
         }
       ]
@@ -924,48 +924,48 @@ Understanding these adaptations helps design specific training programs. Strengt
           id: 1,
           question: "Which muscle fibers are most fatigue-resistant?",
           options: [
-            "Type I (slow-twitch)",
-            "Type IIa (fast-twitch oxidative)",
             "Type IIx (fast-twitch glycolytic)",
-            "All are equally fatigue-resistant"
+            "Type IIa (fast-twitch oxidative)",
+            "All are equally fatigue-resistant",
+            "Type I (slow-twitch)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Type I fibers have high fatigue resistance due to oxidative metabolism."
         },
         {
           id: 2,
           question: "What causes most muscle damage during exercise?",
           options: [
-            "Eccentric (lengthening) contractions",
-            "Concentric (shortening) contractions",
+            "All contraction types equally",
             "Isometric (static) contractions",
-            "All contraction types equally"
+            "Eccentric (lengthening) contractions",
+            "Concentric (shortening) contractions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Eccentric contractions cause the most structural damage to muscle fibers."
         },
         {
           id: 3,
           question: "What increases during the first 8-12 weeks of strength training?",
           options: [
+            "Mitochondrial density",
             "Neural adaptations",
             "Muscle fiber size",
-            "Mitochondrial density",
             "Capillary networks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Neural adaptations dominate early strength gains before significant hypertrophy occurs."
         },
         {
           id: 4,
           question: "What is muscle hypertrophy?",
           options: [
+            "Conversion of fast to slow fibers",
             "Increase in muscle fiber size",
-            "Increase in muscle fiber number",
             "Decrease in muscle size",
-            "Conversion of fast to slow fibers"
+            "Increase in muscle fiber number"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hypertrophy refers to increased size of existing muscle fibers."
         },
         {
@@ -973,9 +973,9 @@ Understanding these adaptations helps design specific training programs. Strengt
           question: "Which fibers show greatest hypertrophy potential?",
           options: [
             "Type II (fast-twitch) fibers",
-            "Type I (slow-twitch) fibers",
             "Both equally",
-            "Neither type hypertrophies"
+            "Neither type hypertrophies",
+            "Type I (slow-twitch) fibers"
           ],
           correctAnswer: 0,
           explanation: "Type II fibers generally have greater hypertrophy potential than Type I fibers."
@@ -985,9 +985,9 @@ Understanding these adaptations helps design specific training programs. Strengt
           question: "What increases with endurance training?",
           options: [
             "Mitochondrial density",
-            "Muscle fiber diameter",
             "Fast-twitch fiber percentage",
-            "Neural drive"
+            "Neural drive",
+            "Muscle fiber diameter"
           ],
           correctAnswer: 0,
           explanation: "Endurance training increases mitochondrial density within muscle fibers."
@@ -996,36 +996,36 @@ Understanding these adaptations helps design specific training programs. Strengt
           id: 7,
           question: "What are satellite cells?",
           options: [
-            "Muscle stem cells for repair and growth",
             "Nerve cells controlling muscles",
-            "Energy-producing organelles",
-            "Connective tissue cells"
+            "Muscle stem cells for repair and growth",
+            "Connective tissue cells",
+            "Energy-producing organelles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Satellite cells are muscle-specific stem cells that activate during repair and growth."
         },
         {
           id: 8,
           question: "What is myofibrillar hypertrophy?",
           options: [
-            "Increase in contractile proteins",
             "Increase in fluid content",
             "Increase in mitochondria",
+            "Increase in contractile proteins",
             "Increase in capillaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Myofibrillar hypertrophy involves increased actin and myosin contractile proteins."
         },
         {
           id: 9,
           question: "Which enzyme increases with endurance training?",
           options: [
-            "Citrate synthase",
             "Lactate dehydrogenase",
-            "Creatine kinase",
-            "Myokinase"
+            "Citrate synthase",
+            "Myokinase",
+            "Creatine kinase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Citrate synthase, a key oxidative enzyme, increases with endurance training."
         },
         {
@@ -1033,9 +1033,9 @@ Understanding these adaptations helps design specific training programs. Strengt
           question: "What improves with neural adaptations?",
           options: [
             "Motor unit recruitment and synchronization",
+            "Capillary density",
             "Muscle fiber size",
-            "Mitochondrial function",
-            "Capillary density"
+            "Mitochondrial function"
           ],
           correctAnswer: 0,
           explanation: "Neural adaptations improve how motor units are recruited and coordinated."
@@ -1044,96 +1044,96 @@ Understanding these adaptations helps design specific training programs. Strengt
           id: 11,
           question: "What can double with endurance training?",
           options: [
-            "Muscle glycogen stores",
-            "Muscle fiber number",
             "Fast-twitch fiber percentage",
-            "Resting metabolic rate"
+            "Muscle glycogen stores",
+            "Resting metabolic rate",
+            "Muscle fiber number"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Muscle glycogen storage capacity can approximately double with endurance training."
         },
         {
           id: 12,
           question: "What is a possible fiber type transition?",
           options: [
-            "Type IIx to Type IIa",
             "Type I to Type II",
+            "Type IIx to Type IIa",
             "Type II to Type I",
             "No transitions are possible"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Type IIx fibers can transition to Type IIa with endurance or interval training."
         },
         {
           id: 13,
           question: "What increases with resistance training?",
           options: [
-            "Tendon stiffness and strength",
-            "Muscle mitochondrial density",
             "Capillary density",
-            "Oxidative enzyme activity"
+            "Oxidative enzyme activity",
+            "Muscle mitochondrial density",
+            "Tendon stiffness and strength"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resistance training can increase tendon stiffness and strength."
         },
         {
           id: 14,
           question: "What accounts for individual differences in training response?",
           options: [
-            "Genetic factors",
-            "Only training intensity",
             "Only nutrition",
-            "Only sleep patterns"
+            "Only sleep patterns",
+            "Only training intensity",
+            "Genetic factors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Genetic factors significantly influence individual training responsiveness."
         },
         {
           id: 15,
           question: "Which fibers have the fastest contraction speed?",
           options: [
-            "Type IIx (fast-twitch glycolytic)",
             "Type IIa (fast-twitch oxidative)",
+            "Type IIx (fast-twitch glycolytic)",
             "Type I (slow-twitch)",
             "All have equal speed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Type IIx fibers have the fastest contraction speed but fatigue quickly."
         },
         {
           id: 16,
           question: "What decreases with aging?",
           options: [
-            "Hypertrophy potential",
-            "Neural adaptation capacity",
             "Endurance improvements",
-            "All adaptation types"
+            "Neural adaptation capacity",
+            "All adaptation types",
+            "Hypertrophy potential"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hypertrophy potential decreases with age, though neural adaptations remain possible."
         },
         {
           id: 17,
           question: "What improves with motor learning?",
           options: [
-            "Movement efficiency and coordination",
-            "Muscle fiber size",
+            "Glycogen storage",
             "Mitochondrial density",
-            "Glycogen storage"
+            "Movement efficiency and coordination",
+            "Muscle fiber size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Motor learning improves movement efficiency through enhanced neural coordination."
         },
         {
           id: 18,
           question: "What is sarcoplasmic hypertrophy?",
           options: [
+            "Increase in capillaries",
             "Increase in fluid and non-contractile elements",
             "Increase in contractile proteins",
-            "Increase in mitochondria",
-            "Increase in capillaries"
+            "Increase in mitochondria"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sarcoplasmic hypertrophy involves increased fluid and energy stores within muscle cells."
         },
         {
@@ -1141,9 +1141,9 @@ Understanding these adaptations helps design specific training programs. Strengt
           question: "What activates during muscle repair?",
           options: [
             "Satellite cells",
-            "Red blood cells",
             "Nerve cells only",
-            "Fat cells"
+            "Fat cells",
+            "Red blood cells"
           ],
           correctAnswer: 0,
           explanation: "Satellite cells activate, proliferate, and differentiate during muscle repair."
@@ -1152,12 +1152,12 @@ Understanding these adaptations helps design specific training programs. Strengt
           id: 20,
           question: "What shows similar relative improvements between genders?",
           options: [
-            "Strength gains",
-            "Absolute muscle size",
             "Hormonal responses",
-            "Recovery rates"
+            "Recovery rates",
+            "Absolute muscle size",
+            "Strength gains"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Relative strength improvements are generally similar between men and women."
         }
       ]
@@ -1344,36 +1344,36 @@ Successful athletes and coaches understand environmental impacts and implement a
           id: 1,
           question: "What is the primary heat loss mechanism during exercise?",
           options: [
-            "Evaporation of sweat",
             "Radiation",
+            "Evaporation of sweat",
             "Convection",
             "Conduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Evaporation becomes the primary heat loss mechanism during exercise, especially in heat."
         },
         {
           id: 2,
           question: "What decreases about 1% per 100 meters above 1500m altitude?",
           options: [
+            "Breathing rate",
             "VO₂max",
-            "Heart rate",
             "Blood pressure",
-            "Breathing rate"
+            "Heart rate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "VO₂max decreases approximately 1% per 100 meters elevation above 1500m."
         },
         {
           id: 3,
           question: "What is heat stroke characterized by?",
           options: [
-            "Core temperature >40°C and possible cessation of sweating",
             "Mild muscle cramps only",
-            "Heavy sweating and cool skin",
-            "Normal body temperature"
+            "Normal body temperature",
+            "Core temperature >40°C and possible cessation of sweating",
+            "Heavy sweating and cool skin"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Heat stroke involves dangerously high core temperature and may include loss of sweating."
         },
         {
@@ -1381,8 +1381,8 @@ Successful athletes and coaches understand environmental impacts and implement a
           question: "What helps conserve heat in cold environments?",
           options: [
             "Vasoconstriction in skin blood vessels",
-            "Vasodilation in skin blood vessels",
             "Increased sweating",
+            "Vasodilation in skin blood vessels",
             "Reduced metabolic rate"
           ],
           correctAnswer: 0,
@@ -1392,48 +1392,48 @@ Successful athletes and coaches understand environmental impacts and implement a
           id: 5,
           question: "How long does heat acclimatization typically take?",
           options: [
-            "7-14 days",
-            "1-2 days",
             "3-4 weeks",
+            "1-2 days",
+            "7-14 days",
             "Several months"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Most heat acclimatization occurs within 7-14 days of exposure."
         },
         {
           id: 6,
           question: "What is the 'living high, training low' concept?",
           options: [
-            "Get altitude benefits while maintaining training intensity",
-            "Always train at high altitude",
             "Avoid altitude completely",
-            "Only live at sea level"
+            "Only live at sea level",
+            "Get altitude benefits while maintaining training intensity",
+            "Always train at high altitude"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "This strategy involves living at altitude for physiological adaptations while training at lower elevation to maintain intensity."
         },
         {
           id: 7,
           question: "What increases with heat acclimatization?",
           options: [
-            "Plasma volume and sweating efficiency",
             "Core body temperature",
             "Resting heart rate",
-            "Electrolyte concentration in sweat"
+            "Electrolyte concentration in sweat",
+            "Plasma volume and sweating efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Heat acclimatization increases plasma volume and improves sweating response."
         },
         {
           id: 8,
           question: "What is hyponatremia?",
           options: [
-            "Dangerously low blood sodium levels",
             "High blood sodium",
             "Normal sodium balance",
+            "Dangerously low blood sodium levels",
             "Potassium imbalance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Hyponatremia is low blood sodium, often from excessive water intake without electrolyte replacement."
         },
         {
@@ -1441,9 +1441,9 @@ Successful athletes and coaches understand environmental impacts and implement a
           question: "What happens to oxygen saturation at altitude?",
           options: [
             "It decreases",
-            "It increases",
+            "It becomes irregular",
             "It stays the same",
-            "It becomes irregular"
+            "It increases"
           ],
           correctAnswer: 0,
           explanation: "Oxygen saturation decreases at altitude due to lower oxygen partial pressure."
@@ -1453,9 +1453,9 @@ Successful athletes and coaches understand environmental impacts and implement a
           question: "What enhances venous return during water exercise?",
           options: [
             "Hydrostatic pressure",
+            "Water movement",
             "Water temperature",
-            "Buoyancy",
-            "Water movement"
+            "Buoyancy"
           ],
           correctAnswer: 0,
           explanation: "Hydrostatic pressure from water helps return blood to the heart during aquatic exercise."
@@ -1464,12 +1464,12 @@ Successful athletes and coaches understand environmental impacts and implement a
           id: 11,
           question: "What is the thermal neutral zone for most aquatic exercise?",
           options: [
-            "33-35°C",
+            "20-22°C",
             "25-28°C",
-            "37-39°C",
-            "20-22°C"
+            "33-35°C",
+            "37-39°C"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "33-35°C is generally comfortable for most aquatic exercise activities."
         },
         {
@@ -1477,8 +1477,8 @@ Successful athletes and coaches understand environmental impacts and implement a
           question: "What pollutant binds to hemoglobin?",
           options: [
             "Carbon monoxide",
-            "Ozone",
             "Sulfur dioxide",
+            "Ozone",
             "Particulate matter"
           ],
           correctAnswer: 0,
@@ -1488,48 +1488,48 @@ Successful athletes and coaches understand environmental impacts and implement a
           id: 13,
           question: "What is acute mountain sickness characterized by?",
           options: [
-            "Headache, nausea, fatigue",
-            "Increased energy",
             "Improved sleep",
-            "Enhanced performance"
+            "Headache, nausea, fatigue",
+            "Enhanced performance",
+            "Increased energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Acute mountain sickness typically includes headache, nausea, fatigue, and dizziness."
         },
         {
           id: 14,
           question: "What reduces evaporative cooling in high humidity?",
           options: [
-            "Reduced sweat evaporation",
-            "Increased sweating rate",
             "Decreased body temperature",
-            "Enhanced radiation"
+            "Enhanced radiation",
+            "Increased sweating rate",
+            "Reduced sweat evaporation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "High humidity reduces sweat evaporation, impairing the body's main cooling mechanism."
         },
         {
           id: 15,
           question: "What increases with cold acclimatization?",
           options: [
-            "Shivering efficiency and metabolic heat production",
             "Core body temperature",
-            "Peripheral blood flow",
-            "Sweating response"
+            "Sweating response",
+            "Shivering efficiency and metabolic heat production",
+            "Peripheral blood flow"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cold acclimatization can enhance shivering efficiency and metabolic heat production."
         },
         {
           id: 16,
           question: "What happens to plasma volume early in altitude exposure?",
           options: [
-            "It initially decreases",
-            "It immediately increases",
             "It stays the same",
-            "It becomes more viscous"
+            "It immediately increases",
+            "It becomes more viscous",
+            "It initially decreases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Plasma volume typically decreases initially at altitude before potential later increases."
         },
         {
@@ -1538,8 +1538,8 @@ Successful athletes and coaches understand environmental impacts and implement a
           options: [
             "Freezing of body tissues",
             "Mild cold discomfort",
-            "Normal response to cold",
-            "Heat-related condition"
+            "Heat-related condition",
+            "Normal response to cold"
           ],
           correctAnswer: 0,
           explanation: "Frostbite is actual freezing of tissues, most common in extremities."
@@ -1548,36 +1548,36 @@ Successful athletes and coaches understand environmental impacts and implement a
           id: 18,
           question: "What helps reset circadian rhythms after travel?",
           options: [
-            "Strategic light exposure",
+            "Ignoring time changes",
             "Avoiding all light",
-            "Sleeping constantly",
-            "Ignoring time changes"
+            "Strategic light exposure",
+            "Sleeping constantly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic light exposure helps reset internal circadian rhythms after time zone changes."
         },
         {
           id: 19,
           question: "What competes with working muscles for blood flow in heat?",
           options: [
-            "Skin for heat dissipation",
+            "Kidneys",
             "Digestive organs",
-            "Brain only",
-            "Kidneys"
+            "Skin for heat dissipation",
+            "Brain only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Skin blood flow for heat dissipation competes with working muscles for limited cardiac output."
         },
         {
           id: 20,
           question: "What improves with altitude acclimatization?",
           options: [
-            "Red blood cell production and oxygen utilization",
             "Immediate oxygen availability",
-            "Short-term power output",
-            "Anaerobic capacity"
+            "Red blood cell production and oxygen utilization",
+            "Anaerobic capacity",
+            "Short-term power output"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Altitude acclimatization enhances red blood cell production and tissue oxygen utilization."
         }
       ]
@@ -1756,12 +1756,12 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 1,
           question: "What is the primary fuel for moderate to high intensity exercise?",
           options: [
-            "Carbohydrates",
             "Fats",
             "Proteins",
-            "All equally"
+            "All equally",
+            "Carbohydrates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Carbohydrates are the preferred fuel for moderate to high intensity exercise."
         },
         {
@@ -1770,8 +1770,8 @@ Nutritional strategies should be individualized based on sport, training phase, 
           options: [
             "2%",
             "5%",
-            "10%",
-            "1%"
+            "1%",
+            "10%"
           ],
           correctAnswer: 0,
           explanation: "As little as 2% body weight loss from dehydration can impair performance."
@@ -1780,12 +1780,12 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 3,
           question: "What supplement has strong evidence for improving high-intensity performance?",
           options: [
-            "Creatine monohydrate",
-            "BCAAs",
             "Glutamine",
-            "Antioxidants"
+            "BCAAs",
+            "Antioxidants",
+            "Creatine monohydrate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Creatine monohydrate has strong evidence for enhancing high-intensity performance."
         },
         {
@@ -1804,24 +1804,24 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 5,
           question: "What is energy availability?",
           options: [
-            "Dietary energy remaining after exercise",
-            "Total calories consumed",
             "Exercise energy expenditure",
-            "Resting metabolic rate"
+            "Total calories consumed",
+            "Resting metabolic rate",
+            "Dietary energy remaining after exercise"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Energy availability is dietary energy intake minus exercise energy expenditure."
         },
         {
           id: 6,
           question: "What electrolyte is primarily lost in sweat?",
           options: [
-            "Sodium",
-            "Potassium",
             "Magnesium",
-            "Calcium"
+            "Calcium",
+            "Sodium",
+            "Potassium"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sodium is the primary electrolyte lost in sweat."
         },
         {
@@ -1829,9 +1829,9 @@ Nutritional strategies should be individualized based on sport, training phase, 
           question: "What enhances endurance performance as a central nervous system stimulant?",
           options: [
             "Caffeine",
-            "Creatine",
             "Beta-alanine",
-            "Protein"
+            "Protein",
+            "Creatine"
           ],
           correctAnswer: 0,
           explanation: "Caffeine enhances endurance performance through central nervous system stimulation."
@@ -1840,12 +1840,12 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 8,
           question: "What should pre-exercise meals emphasize?",
           options: [
-            "High carbohydrate, moderate protein, low fat/fiber",
             "High fat, low carbohydrate",
             "High protein only",
-            "High fiber for sustained energy"
+            "High fiber for sustained energy",
+            "High carbohydrate, moderate protein, low fat/fiber"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pre-exercise meals should be high in carbs, moderate in protein, and low in fat/fiber."
         },
         {
@@ -1853,9 +1853,9 @@ Nutritional strategies should be individualized based on sport, training phase, 
           question: "What is the thermic effect of food?",
           options: [
             "Energy used to digest and process nutrients",
-            "Heat produced during exercise",
             "Resting metabolic rate",
-            "Energy stored as fat"
+            "Energy stored as fat",
+            "Heat produced during exercise"
           ],
           correctAnswer: 0,
           explanation: "Thermic effect of food is the energy expenditure for digesting and processing nutrients."
@@ -1864,12 +1864,12 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 10,
           question: "What is a safer approach to weight management for athletes?",
           options: [
-            "Gradual loss during off-season",
-            "Rapid loss before competition",
             "Severe calorie restriction",
-            "Dehydration methods"
+            "Gradual loss during off-season",
+            "Dehydration methods",
+            "Rapid loss before competition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Gradual weight loss during off-season or lighter training is safer than rapid loss."
         },
         {
@@ -1878,8 +1878,8 @@ Nutritional strategies should be individualized based on sport, training phase, 
           options: [
             "Beta-alanine (increases carnosine)",
             "Creatine",
-            "BCAAs",
-            "Carbohydrates"
+            "Carbohydrates",
+            "BCAAs"
           ],
           correctAnswer: 0,
           explanation: "Beta-alanine increases muscle carnosine, which buffers acid during high-intensity exercise."
@@ -1888,24 +1888,24 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 12,
           question: "What should vegetarian athletes pay attention to?",
           options: [
-            "Iron, B12, and complete proteins",
             "Only carbohydrate intake",
             "Avoiding all supplements",
-            "High meat consumption"
+            "High meat consumption",
+            "Iron, B12, and complete proteins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Vegetarian athletes should ensure adequate iron, B12, and complete protein intake."
         },
         {
           id: 13,
           question: "What is periodized nutrition?",
           options: [
-            "Matching nutrition to training cycles",
             "Eating the same year-round",
+            "Matching nutrition to training cycles",
             "Only focusing on competition day",
             "Ignoring training demands"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Periodized nutrition adjusts intake based on training phase demands."
         },
         {
@@ -1924,24 +1924,24 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 15,
           question: "What can reduce blood flow to the digestive system during exercise?",
           options: [
-            "Exercise intensity",
-            "Drinking water",
+            "Resting",
             "Eating carbohydrates",
-            "Resting"
+            "Exercise intensity",
+            "Drinking water"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Exercise redirects blood flow from digestive system to working muscles."
         },
         {
           id: 16,
           question: "What should be replaced at 125-150% of loss post-exercise?",
           options: [
-            "Fluid",
-            "Carbohydrates",
             "Protein",
-            "Fat"
+            "Fat",
+            "Carbohydrates",
+            "Fluid"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fluid should be replaced at 125-150% of losses over 2-6 hours post-exercise."
         },
         {
@@ -1949,9 +1949,9 @@ Nutritional strategies should be individualized based on sport, training phase, 
           question: "What is a risk of rapid weight loss methods?",
           options: [
             "Dehydration and reduced performance",
-            "Improved endurance",
+            "Better recovery",
             "Increased strength",
-            "Better recovery"
+            "Improved endurance"
           ],
           correctAnswer: 0,
           explanation: "Rapid weight loss often involves dehydration, which impairs performance and health."
@@ -1960,36 +1960,36 @@ Nutritional strategies should be individualized based on sport, training phase, 
           id: 18,
           question: "What might interfere with training adaptations at high doses?",
           options: [
-            "Antioxidant supplements",
-            "Protein intake",
             "Carbohydrates",
-            "Water"
+            "Water",
+            "Protein intake",
+            "Antioxidant supplements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "High-dose antioxidant supplements may interfere with normal training adaptations."
         },
         {
           id: 19,
           question: "What helps individualize hydration strategies?",
           options: [
-            "Sweat testing",
-            "Generic recommendations",
+            "Body weight only",
             "Thirst alone",
-            "Body weight only"
+            "Sweat testing",
+            "Generic recommendations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sweat testing can identify individual fluid and electrolyte loss patterns."
         },
         {
           id: 20,
           question: "What is generally the best nutritional approach?",
           options: [
-            "\"Food first\" using whole foods",
             "Supplement-heavy approach",
+            "\"Food first\" using whole foods",
             "Only protein shakes",
             "Avoiding all carbohydrates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A \"food first\" approach using whole foods is generally best, with supplements as needed."
         }
       ]
@@ -2226,48 +2226,48 @@ Effective training integrates physiological principles with practical applicatio
           id: 1,
           question: "What does the SAID principle stand for?",
           options: [
-            "Specific Adaptations to Imposed Demands",
+            "Strength and Intensity Design",
             "Standardized Athletic Intensity Development",
             "Systematic Adaptation and Individual Development",
-            "Strength and Intensity Design"
+            "Specific Adaptations to Imposed Demands"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SAID principle means Specific Adaptations to Imposed Demands."
         },
         {
           id: 2,
           question: "What is the overload principle?",
           options: [
-            "System must be challenged beyond current capacity to adapt",
             "Always train at maximum intensity",
+            "Focus only on volume, not intensity",
             "Never increase training demands",
-            "Focus only on volume, not intensity"
+            "System must be challenged beyond current capacity to adapt"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Overload principle requires challenging systems beyond current capacity for adaptation."
         },
         {
           id: 3,
           question: "What is linear periodization?",
           options: [
+            "Random variation in training",
             "Gradually increase intensity while decreasing volume",
             "Constant intensity and volume",
-            "Random variation in training",
             "Only high intensity all the time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Linear periodization gradually increases intensity while decreasing volume over phases."
         },
         {
           id: 4,
           question: "What intensity range is typical for hypertrophy training?",
           options: [
+            "95-100% 1RM",
             "65-85% 1RM",
             "85-95% 1RM",
-            "40-60% 1RM",
-            "95-100% 1RM"
+            "40-60% 1RM"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hypertrophy training typically uses 65-85% 1RM for 6-12 reps."
         },
         {
@@ -2275,9 +2275,9 @@ Effective training integrates physiological principles with practical applicatio
           question: "What is the reversibility principle?",
           options: [
             "Adaptations are lost when training stimulus is removed",
-            "Training effects are permanent",
             "Only strength is lost, not endurance",
-            "No detraining occurs"
+            "No detraining occurs",
+            "Training effects are permanent"
           ],
           correctAnswer: 0,
           explanation: "Reversibility principle states adaptations decline when training stimulus is removed."
@@ -2286,60 +2286,60 @@ Effective training integrates physiological principles with practical applicatio
           id: 6,
           question: "What monitors internal training load subjectively?",
           options: [
-            "Rate of Perceived Exertion (RPE)",
-            "Weight lifted only",
             "Distance covered",
-            "Time spent training"
+            "Time spent training",
+            "Rate of Perceived Exertion (RPE)",
+            "Weight lifted only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "RPE provides subjective measure of internal training load."
         },
         {
           id: 7,
           question: "What is overtraining syndrome?",
           options: [
-            "Long-term performance decrement with prolonged recovery needs",
             "Normal training fatigue",
             "Temporary soreness",
+            "Long-term performance decrement with prolonged recovery needs",
             "Improved performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Overtraining syndrome involves prolonged performance decline and recovery needs."
         },
         {
           id: 8,
           question: "What is most important for recovery?",
           options: [
-            "Sleep",
+            "Cold water immersion",
             "Supplements",
-            "Massage",
-            "Cold water immersion"
+            "Sleep",
+            "Massage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sleep is the most critical recovery modality for physiological adaptations."
         },
         {
           id: 9,
           question: "What should youth training emphasize?",
           options: [
-            "Skill development and fun",
             "Maximum strength gains",
-            "Early specialization",
-            "High volume training"
+            "Skill development and fun",
+            "High volume training",
+            "Early specialization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Youth training should emphasize skill development, fun, and multilateral development."
         },
         {
           id: 10,
           question: "What does undulating periodization involve?",
           options: [
-            "Frequent variation in intensity and volume",
             "Constant training variables",
-            "Only increasing volume",
-            "Never changing programs"
+            "Never changing programs",
+            "Frequent variation in intensity and volume",
+            "Only increasing volume"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Undulating periodization frequently varies intensity and volume, often daily or weekly."
         },
         {
@@ -2347,9 +2347,9 @@ Effective training integrates physiological principles with practical applicatio
           question: "What is concurrent training?",
           options: [
             "Simultaneous development of multiple qualities",
-            "Focusing on one quality at a time",
+            "Only endurance training",
             "Only strength training",
-            "Only endurance training"
+            "Focusing on one quality at a time"
           ],
           correctAnswer: 0,
           explanation: "Concurrent training develops multiple fitness qualities simultaneously."
@@ -2358,108 +2358,108 @@ Effective training integrates physiological principles with practical applicatio
           id: 12,
           question: "What measures external training load for strength training?",
           options: [
-            "Volume load (sets × reps × weight)",
             "Heart rate only",
+            "Sleep quality",
             "RPE",
-            "Sleep quality"
+            "Volume load (sets × reps × weight)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Volume load quantifies external training load for strength training."
         },
         {
           id: 13,
           question: "What should master athletes emphasize?",
           options: [
-            "Recovery and injury prevention",
-            "Maximum volume",
             "Minimal recovery time",
-            "Same as youth athletes"
+            "Recovery and injury prevention",
+            "Same as youth athletes",
+            "Maximum volume"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Master athletes should emphasize recovery, injury prevention, and maintaining function."
         },
         {
           id: 14,
           question: "What is block periodization?",
           options: [
+            "Only maintenance training",
             "Concentrated loads on specific qualities in blocks",
             "Equal focus on all qualities",
-            "No planning structure",
-            "Only maintenance training"
+            "No planning structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Block periodization concentrates training on specific qualities in sequential blocks."
         },
         {
           id: 15,
           question: "What is the interference effect?",
           options: [
-            "Potential compromise between strength and endurance adaptations",
-            "Enhanced recovery from combined training",
             "Improved performance in all areas",
+            "Enhanced recovery from combined training",
+            "Potential compromise between strength and endurance adaptations",
             "No interaction between training types"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Interference effect refers to potential compromise when training strength and endurance concurrently."
         },
         {
           id: 16,
           question: "What is session RPE?",
           options: [
-            "RPE × duration of session",
-            "Maximum heart rate only",
             "Weight lifted total",
-            "Distance covered"
+            "Distance covered",
+            "Maximum heart rate only",
+            "RPE × duration of session"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Session RPE multiplies RPE by session duration to quantify internal load."
         },
         {
           id: 17,
           question: "What principle says programs should consider individual characteristics?",
           options: [
-            "Individualization principle",
-            "Specificity principle",
             "Overload principle",
-            "Variation principle"
+            "Individualization principle",
+            "Variation principle",
+            "Specificity principle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Individualization principle emphasizes customizing programs for individual characteristics."
         },
         {
           id: 18,
           question: "What should power training emphasize?",
           options: [
-            "Speed of movement",
-            "Maximum weight only",
             "High repetitions",
-            "Long rest periods only"
+            "Long rest periods only",
+            "Speed of movement",
+            "Maximum weight only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Power training should emphasize speed of movement, not just heavy loads."
         },
         {
           id: 19,
           question: "What declines slower during detraining?",
           options: [
-            "Strength adaptations",
-            "Endurance adaptations",
             "Both decline equally",
-            "Neither declines"
+            "Neither declines",
+            "Strength adaptations",
+            "Endurance adaptations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strength adaptations generally decline slower than endurance adaptations during detraining."
         },
         {
           id: 20,
           question: "What balances scientific evidence with practical experience?",
           options: [
+            "Ignoring research",
             "Evidence-based practice",
             "Following trends only",
-            "Ignoring research",
             "Using only personal experience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Evidence-based practice integrates research evidence with clinical expertise and individual preferences."
         }
       ]
@@ -2477,12 +2477,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 1,
         question: "What is ATP?",
         options: [
+          "A joint lubricant",
           "The energy currency of the body",
-          "A type of muscle fiber",
           "A breathing hormone",
-          "A joint lubricant"
+          "A type of muscle fiber"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "ATP (adenosine triphosphate) is the primary energy currency used by all cells."
       },
       {
@@ -2490,12 +2490,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 2,
         question: "What does cardiac output equal?",
         options: [
-          "Heart rate × stroke volume",
+          "VO₂ × ventilation rate",
           "Blood pressure × heart rate",
-          "Stroke volume × blood pressure",
-          "VO₂ × ventilation rate"
+          "Heart rate × stroke volume",
+          "Stroke volume × blood pressure"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Cardiac output is calculated by multiplying heart rate by stroke volume."
       },
       {
@@ -2503,12 +2503,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 3,
         question: "Which muscle fibers are most fatigue-resistant?",
         options: [
-          "Type I (slow-twitch)",
-          "Type IIa (fast-twitch oxidative)",
           "Type IIx (fast-twitch glycolytic)",
-          "All are equally fatigue-resistant"
+          "All are equally fatigue-resistant",
+          "Type I (slow-twitch)",
+          "Type IIa (fast-twitch oxidative)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Type I fibers have high fatigue resistance due to oxidative metabolism."
       },
       {
@@ -2516,12 +2516,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 4,
         question: "What is the primary heat loss mechanism during exercise?",
         options: [
-          "Evaporation of sweat",
-          "Radiation",
           "Convection",
+          "Radiation",
+          "Evaporation of sweat",
           "Conduction"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Evaporation becomes the primary heat loss mechanism during exercise, especially in heat."
       },
       {
@@ -2530,9 +2530,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What is the primary fuel for moderate to high intensity exercise?",
         options: [
           "Carbohydrates",
+          "All equally",
           "Fats",
-          "Proteins",
-          "All equally"
+          "Proteins"
         ],
         correctAnswer: 0,
         explanation: "Carbohydrates are the preferred fuel for moderate to high intensity exercise."
@@ -2543,9 +2543,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What does the SAID principle stand for?",
         options: [
           "Specific Adaptations to Imposed Demands",
-          "Standardized Athletic Intensity Development",
+          "Strength and Intensity Design",
           "Systematic Adaptation and Individual Development",
-          "Strength and Intensity Design"
+          "Standardized Athletic Intensity Development"
         ],
         correctAnswer: 0,
         explanation: "SAID principle means Specific Adaptations to Imposed Demands."
@@ -2557,8 +2557,8 @@ Effective training integrates physiological principles with practical applicatio
         options: [
           "Phosphagen System",
           "Glycolytic System",
-          "Oxidative System",
-          "Aerobic System"
+          "Aerobic System",
+          "Oxidative System"
         ],
         correctAnswer: 0,
         explanation: "The phosphagen system provides immediate energy for short, maximal efforts."
@@ -2582,9 +2582,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What causes most muscle damage during exercise?",
         options: [
           "Eccentric (lengthening) contractions",
-          "Concentric (shortening) contractions",
           "Isometric (static) contractions",
-          "All contraction types equally"
+          "All contraction types equally",
+          "Concentric (shortening) contractions"
         ],
         correctAnswer: 0,
         explanation: "Eccentric contractions cause the most structural damage to muscle fibers."
@@ -2594,12 +2594,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 4,
         question: "What decreases about 1% per 100 meters above 1500m altitude?",
         options: [
-          "VO₂max",
           "Heart rate",
+          "VO₂max",
           "Blood pressure",
           "Breathing rate"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "VO₂max decreases approximately 1% per 100 meters elevation above 1500m."
       },
       {
@@ -2608,9 +2608,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What percentage of body weight loss can impair exercise performance?",
         options: [
           "2%",
-          "5%",
           "10%",
-          "1%"
+          "1%",
+          "5%"
         ],
         correctAnswer: 0,
         explanation: "As little as 2% body weight loss from dehydration can impair performance."
@@ -2620,12 +2620,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 6,
         question: "What is the overload principle?",
         options: [
-          "System must be challenged beyond current capacity to adapt",
           "Always train at maximum intensity",
-          "Never increase training demands",
-          "Focus only on volume, not intensity"
+          "Focus only on volume, not intensity",
+          "System must be challenged beyond current capacity to adapt",
+          "Never increase training demands"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Overload principle requires challenging systems beyond current capacity for adaptation."
       },
       {
@@ -2633,12 +2633,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 1,
         question: "What is the primary fuel for high-intensity exercise?",
         options: [
-          "Carbohydrates",
           "Fats",
           "Proteins",
-          "Vitamins"
+          "Vitamins",
+          "Carbohydrates"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Carbohydrates are the preferred fuel for high-intensity exercise."
       },
       {
@@ -2646,12 +2646,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 2,
         question: "What increases rapidly with exercise intensity?",
         options: [
-          "Heart rate",
+          "Ventricular size",
           "Blood volume",
-          "Capillary density",
-          "Ventricular size"
+          "Heart rate",
+          "Capillary density"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Heart rate increases linearly with exercise intensity."
       },
       {
@@ -2660,9 +2660,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What increases during the first 8-12 weeks of strength training?",
         options: [
           "Neural adaptations",
+          "Capillary networks",
           "Muscle fiber size",
-          "Mitochondrial density",
-          "Capillary networks"
+          "Mitochondrial density"
         ],
         correctAnswer: 0,
         explanation: "Neural adaptations dominate early strength gains before significant hypertrophy occurs."
@@ -2672,12 +2672,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 4,
         question: "What is heat stroke characterized by?",
         options: [
-          "Core temperature >40°C and possible cessation of sweating",
           "Mild muscle cramps only",
-          "Heavy sweating and cool skin",
-          "Normal body temperature"
+          "Core temperature >40°C and possible cessation of sweating",
+          "Normal body temperature",
+          "Heavy sweating and cool skin"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Heat stroke involves dangerously high core temperature and may include loss of sweating."
       },
       {
@@ -2685,12 +2685,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 5,
         question: "What supplement has strong evidence for improving high-intensity performance?",
         options: [
-          "Creatine monohydrate",
           "BCAAs",
+          "Antioxidants",
           "Glutamine",
-          "Antioxidants"
+          "Creatine monohydrate"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Creatine monohydrate has strong evidence for enhancing high-intensity performance."
       },
       {
@@ -2699,9 +2699,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What is linear periodization?",
         options: [
           "Gradually increase intensity while decreasing volume",
-          "Constant intensity and volume",
+          "Only high intensity all the time",
           "Random variation in training",
-          "Only high intensity all the time"
+          "Constant intensity and volume"
         ],
         correctAnswer: 0,
         explanation: "Linear periodization gradually increases intensity while decreasing volume over phases."
@@ -2711,12 +2711,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 1,
         question: "What does VO₂max measure?",
         options: [
-          "Maximum oxygen consumption during intense exercise",
+          "Muscle glycogen stores",
           "Resting heart rate",
           "Blood lactate levels",
-          "Muscle glycogen stores"
+          "Maximum oxygen consumption during intense exercise"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "VO₂max measures the maximum volume of oxygen consumed during intense exercise."
       },
       {
@@ -2724,12 +2724,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 2,
         question: "What is left ventricular hypertrophy?",
         options: [
-          "Increase in heart wall thickness",
           "Decrease in heart size",
           "Reduction in chamber volume",
+          "Increase in heart wall thickness",
           "Weakening of heart muscle"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Left ventricular hypertrophy is an increase in heart wall thickness from training."
       },
       {
@@ -2737,12 +2737,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 3,
         question: "What is muscle hypertrophy?",
         options: [
-          "Increase in muscle fiber size",
           "Increase in muscle fiber number",
+          "Increase in muscle fiber size",
           "Decrease in muscle size",
           "Conversion of fast to slow fibers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Hypertrophy refers to increased size of existing muscle fibers."
       },
       {
@@ -2750,12 +2750,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 4,
         question: "What helps conserve heat in cold environments?",
         options: [
-          "Vasoconstriction in skin blood vessels",
-          "Vasodilation in skin blood vessels",
+          "Reduced metabolic rate",
           "Increased sweating",
-          "Reduced metabolic rate"
+          "Vasodilation in skin blood vessels",
+          "Vasoconstriction in skin blood vessels"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Vasoconstriction reduces blood flow to skin, conserving core body heat."
       },
       {
@@ -2763,12 +2763,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 5,
         question: "When is the carbohydrate window for optimal glycogen resynthesis?",
         options: [
-          "Within 30-60 minutes post-exercise",
-          "2-4 hours post-exercise",
           "The next day",
-          "Before exercise only"
+          "Within 30-60 minutes post-exercise",
+          "Before exercise only",
+          "2-4 hours post-exercise"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Consuming carbohydrates within 30-60 minutes after exercise optimizes glycogen restoration."
       },
       {
@@ -2776,12 +2776,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 6,
         question: "What intensity range is typical for hypertrophy training?",
         options: [
+          "40-60% 1RM",
           "65-85% 1RM",
           "85-95% 1RM",
-          "40-60% 1RM",
           "95-100% 1RM"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Hypertrophy training typically uses 65-85% 1RM for 6-12 reps."
       },
       {
@@ -2789,12 +2789,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 1,
         question: "Which system dominates during 30 seconds of maximal effort?",
         options: [
-          "Glycolytic System",
           "Phosphagen System",
           "Oxidative System",
+          "Glycolytic System",
           "All equally"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The glycolytic system dominates during 10 seconds to 2 minutes of high-intensity activity."
       },
       {
@@ -2802,12 +2802,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 2,
         question: "Where is blood flow reduced during exercise?",
         options: [
-          "Digestive organs",
-          "Working muscles",
           "Brain",
-          "Heart"
+          "Working muscles",
+          "Heart",
+          "Digestive organs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Blood flow is reduced to digestive organs during exercise."
       },
       {
@@ -2815,12 +2815,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 3,
         question: "Which fibers show greatest hypertrophy potential?",
         options: [
+          "Neither type hypertrophies",
           "Type II (fast-twitch) fibers",
           "Type I (slow-twitch) fibers",
-          "Both equally",
-          "Neither type hypertrophies"
+          "Both equally"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Type II fibers generally have greater hypertrophy potential than Type I fibers."
       },
       {
@@ -2828,12 +2828,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 4,
         question: "How long does heat acclimatization typically take?",
         options: [
+          "Several months",
           "7-14 days",
           "1-2 days",
-          "3-4 weeks",
-          "Several months"
+          "3-4 weeks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Most heat acclimatization occurs within 7-14 days of exposure."
       },
       {
@@ -2843,8 +2843,8 @@ Effective training integrates physiological principles with practical applicatio
         options: [
           "Dietary energy remaining after exercise",
           "Total calories consumed",
-          "Exercise energy expenditure",
-          "Resting metabolic rate"
+          "Resting metabolic rate",
+          "Exercise energy expenditure"
         ],
         correctAnswer: 0,
         explanation: "Energy availability is dietary energy intake minus exercise energy expenditure."
@@ -2854,12 +2854,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 6,
         question: "What is the reversibility principle?",
         options: [
-          "Adaptations are lost when training stimulus is removed",
           "Training effects are permanent",
           "Only strength is lost, not endurance",
-          "No detraining occurs"
+          "No detraining occurs",
+          "Adaptations are lost when training stimulus is removed"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Reversibility principle states adaptations decline when training stimulus is removed."
       },
       {
@@ -2867,12 +2867,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 1,
         question: "What creates lactate as a byproduct?",
         options: [
-          "Glycolytic System",
           "Phosphagen System",
           "Oxidative System",
-          "ATP recycling"
+          "ATP recycling",
+          "Glycolytic System"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The glycolytic system produces lactate when breaking down carbohydrates without oxygen."
       },
       {
@@ -2881,9 +2881,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What is the gold standard measure of cardiovascular fitness?",
         options: [
           "VO₂max",
-          "Resting heart rate",
+          "Cholesterol levels",
           "Blood pressure",
-          "Cholesterol levels"
+          "Resting heart rate"
         ],
         correctAnswer: 0,
         explanation: "VO₂max is considered the best measure of cardiovascular fitness."
@@ -2895,8 +2895,8 @@ Effective training integrates physiological principles with practical applicatio
         options: [
           "Mitochondrial density",
           "Muscle fiber diameter",
-          "Fast-twitch fiber percentage",
-          "Neural drive"
+          "Neural drive",
+          "Fast-twitch fiber percentage"
         ],
         correctAnswer: 0,
         explanation: "Endurance training increases mitochondrial density within muscle fibers."
@@ -2906,12 +2906,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 4,
         question: "What is the 'living high, training low' concept?",
         options: [
-          "Get altitude benefits while maintaining training intensity",
-          "Always train at high altitude",
           "Avoid altitude completely",
-          "Only live at sea level"
+          "Always train at high altitude",
+          "Only live at sea level",
+          "Get altitude benefits while maintaining training intensity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "This strategy involves living at altitude for physiological adaptations while training at lower elevation to maintain intensity."
       },
       {
@@ -2919,12 +2919,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 5,
         question: "What electrolyte is primarily lost in sweat?",
         options: [
-          "Sodium",
-          "Potassium",
           "Magnesium",
-          "Calcium"
+          "Calcium",
+          "Potassium",
+          "Sodium"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Sodium is the primary electrolyte lost in sweat."
       },
       {
@@ -2932,12 +2932,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 6,
         question: "What monitors internal training load subjectively?",
         options: [
-          "Rate of Perceived Exertion (RPE)",
-          "Weight lifted only",
           "Distance covered",
-          "Time spent training"
+          "Time spent training",
+          "Weight lifted only",
+          "Rate of Perceived Exertion (RPE)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "RPE provides subjective measure of internal training load."
       },
       {
@@ -2946,9 +2946,9 @@ Effective training integrates physiological principles with practical applicatio
         question: "What is the primary fuel for low-intensity, long-duration exercise?",
         options: [
           "Fats",
-          "Carbohydrates",
+          "Creatine phosphate",
           "Proteins",
-          "Creatine phosphate"
+          "Carbohydrates"
         ],
         correctAnswer: 0,
         explanation: "Fats are the primary fuel source for low to moderate intensity endurance exercise."
@@ -2958,12 +2958,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 2,
         question: "What happens to stroke volume during exercise?",
         options: [
-          "It increases",
           "It decreases",
-          "It stays the same",
-          "It becomes irregular"
+          "It increases",
+          "It becomes irregular",
+          "It stays the same"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Stroke volume increases during exercise due to enhanced filling and contractility."
       },
       {
@@ -2971,12 +2971,12 @@ Effective training integrates physiological principles with practical applicatio
         module: 3,
         question: "What are satellite cells?",
         options: [
-          "Muscle stem cells for repair and growth",
           "Nerve cells controlling muscles",
           "Energy-producing organelles",
+          "Muscle stem cells for repair and growth",
           "Connective tissue cells"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Satellite cells are muscle-specific stem cells that activate during repair and growth."
       },
       {
@@ -2985,8 +2985,8 @@ Effective training integrates physiological principles with practical applicatio
         question: "What increases with heat acclimatization?",
         options: [
           "Plasma volume and sweating efficiency",
-          "Core body temperature",
           "Resting heart rate",
+          "Core body temperature",
           "Electrolyte concentration in sweat"
         ],
         correctAnswer: 0,

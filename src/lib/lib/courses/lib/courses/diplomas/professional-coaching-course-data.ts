@@ -157,12 +157,12 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           id: 1,
           question: "What is the core principle of Solution-Focused Brief Coaching?",
           options: [
-            "Analyze past problems deeply",
-            "Focus on solutions, not problems",
             "Identify childhood origins",
-            "Label personality disorders"
+            "Label personality disorders",
+            "Analyze past problems deeply",
+            "Focus on solutions, not problems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "SFBC emphasizes building solutions rather than analyzing problems."
         },
         {
@@ -170,23 +170,23 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           question: "What does CBC stand for in coaching methodologies?",
           options: [
             "Client Behavior Control",
-            "Cognitive Behavioral Coaching",
             "Certified Business Coaching",
-            "Creative Brain Coaching"
+            "Creative Brain Coaching",
+            "Cognitive Behavioral Coaching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CBC applies cognitive behavioral principles in coaching contexts."
         },
         {
           id: 3,
           question: "What is a key technique in Positive Psychology Coaching?",
           options: [
-            "Focusing on weaknesses",
             "Strengths assessment",
             "Problem analysis",
-            "Critique and correction"
+            "Critique and correction",
+            "Focusing on weaknesses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Positive psychology emphasizes building on existing strengths."
         },
         {
@@ -194,33 +194,33 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           question: "What principle guides Narrative Coaching?",
           options: [
             "We are products of genetics",
+            "Biology is destiny",
             "We construct lives through stories",
-            "Environment determines everything",
-            "Biology is destiny"
+            "Environment determines everything"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Narrative coaching focuses on the stories clients tell about their lives."
         },
         {
           id: 5,
           question: "What should always precede using assessment tools?",
           options: [
-            "Getting client consent",
-            "Consulting with other professionals",
+            "Setting higher fees",
             "Researching competitors",
-            "Setting higher fees"
+            "Getting client consent",
+            "Consulting with other professionals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Informed consent is essential before using any assessment tools."
         },
         {
           id: 6,
           question: "What is a focus in executive coaching?",
           options: [
-            "Only personal life issues",
+            "Family therapy techniques",
             "Leadership impact and organizational results",
             "Medical treatment plans",
-            "Family therapy techniques"
+            "Only personal life issues"
           ],
           correctAnswer: 1,
           explanation: "Executive coaching balances personal development with business impact."
@@ -229,10 +229,10 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           id: 7,
           question: "What should career transition coaching address?",
           options: [
-            "Only resume writing",
-            "Identity shifts and psychological readiness",
             "Stock market investments",
-            "Real estate purchases"
+            "Identity shifts and psychological readiness",
+            "Real estate purchases",
+            "Only resume writing"
           ],
           correctAnswer: 1,
           explanation: "Career transitions involve psychological and identity aspects beyond practical job search."
@@ -241,46 +241,46 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           id: 8,
           question: "What is the first step in developing a coaching framework?",
           options: [
-            "Setting highest possible fees",
             "Identifying philosophical foundation",
             "Copying others' materials",
-            "Buying expensive software"
+            "Buying expensive software",
+            "Setting highest possible fees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A strong framework starts with clear philosophical foundations."
         },
         {
           id: 9,
           question: "What type of question explores assumptions?",
           options: [
-            "Clarification question",
-            "Assumption question",
             "Evidence question",
-            "Perspective question"
+            "Perspective question",
+            "Clarification question",
+            "Assumption question"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Assumption questions help clients examine underlying beliefs."
         },
         {
           id: 10,
           question: "What does circular questioning explore?",
           options: [
-            "Only individual thoughts",
             "Relationships and systems",
             "Medical history",
-            "Financial details"
+            "Financial details",
+            "Only individual thoughts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Circular questions examine how people and situations interconnect."
         },
         {
           id: 11,
           question: "What is the 'miracle question' associated with?",
           options: [
-            "Cognitive Behavioral Coaching",
+            "Positive Psychology Coaching",
             "Solution-Focused Brief Coaching",
             "Narrative Coaching",
-            "Positive Psychology Coaching"
+            "Cognitive Behavioral Coaching"
           ],
           correctAnswer: 1,
           explanation: "The miracle question is a signature SFBC technique."
@@ -289,12 +289,12 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           id: 12,
           question: "What does CBC focus on changing?",
           options: [
+            "Genetic predispositions",
             "Other people's behavior",
             "Automatic thoughts and behaviors",
-            "Genetic predispositions",
             "Past traumatic events"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CBC helps clients identify and change unhelpful thought patterns."
         },
         {
@@ -302,11 +302,11 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           question: "What assessment focuses on character strengths?",
           options: [
             "Medical diagnostic tests",
+            "Legal compliance checks",
             "VIA Character Strengths Survey",
-            "Financial audit tools",
-            "Legal compliance checks"
+            "Financial audit tools"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The VIA survey identifies 24 character strengths."
         },
         {
@@ -314,8 +314,8 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           question: "What should be balanced in executive coaching?",
           options: [
             "Individual development and business needs",
-            "Work and vacation time",
             "Income and expenses",
+            "Work and vacation time",
             "Theory and entertainment"
           ],
           correctAnswer: 0,
@@ -326,35 +326,35 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           question: "What helps clients navigate identity shifts?",
           options: [
             "Ignoring the changes",
-            "Career transition coaching",
             "Medical intervention",
+            "Career transition coaching",
             "Financial planning only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Career transitions often involve redefining professional identity."
         },
         {
           id: 16,
           question: "What is part of a coaching framework?",
           options: [
-            "Progress measurement tools",
             "Social media strategy",
-            "Office decor guidelines",
-            "Personal vacation plans"
+            "Personal vacation plans",
+            "Progress measurement tools",
+            "Office decor guidelines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Frameworks include tools to track client progress."
         },
         {
           id: 17,
           question: "What does Socratic questioning include?",
           options: [
-            "Only giving answers",
             "Clarification and evidence questions",
+            "Telling personal stories",
             "Criticizing client thinking",
-            "Telling personal stories"
+            "Only giving answers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Socratic questioning uses specific types of inquiry to stimulate thinking."
         },
         {
@@ -362,11 +362,11 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           question: "What is future-focused inquiry?",
           options: [
             "Only discussing past mistakes",
-            "Questions about potential future scenarios",
+            "Avoiding the present moment",
             "Predicting exact outcomes",
-            "Avoiding the present moment"
+            "Questions about potential future scenarios"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Future-focused questions help clients envision and move toward desired outcomes."
         },
         {
@@ -374,11 +374,11 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           question: "What should assessments be framed as?",
           options: [
             "Final judgments",
-            "Insight tools",
+            "Competition scores",
             "Personality labels",
-            "Competition scores"
+            "Insight tools"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Assessments provide insights, not definitive labels."
         },
         {
@@ -387,8 +387,8 @@ Move beyond basic powerful questions to sophisticated inquiry methods.
           options: [
             "Pre-written scripts",
             "Deep listening and curiosity",
-            "Theoretical formulas",
-            "Other clients' sessions"
+            "Other clients' sessions",
+            "Theoretical formulas"
           ],
           correctAnswer: 1,
           explanation: "The most effective questions come from truly hearing and wondering about the client."
@@ -579,9 +579,9 @@ Presence enables moments where clients experience significant shifts.
           question: "What is coaching presence?",
           options: [
             "Being fully available and attuned",
-            "Having perfect techniques",
+            "Analyzing client psychology",
             "Following scripts exactly",
-            "Analyzing client psychology"
+            "Having perfect techniques"
           ],
           correctAnswer: 0,
           explanation: "Presence is about availability and attunement more than technique."
@@ -592,8 +592,8 @@ Presence enables moments where clients experience significant shifts.
           options: [
             "Multitasking during sessions",
             "Mindfulness in action",
-            "Perfect prediction of outcomes",
-            "Complete emotional detachment"
+            "Complete emotional detachment",
+            "Perfect prediction of outcomes"
           ],
           correctAnswer: 1,
           explanation: "Mindfulness-being fully present-is central to coaching presence."
@@ -602,22 +602,22 @@ Presence enables moments where clients experience significant shifts.
           id: 3,
           question: "What does coaching presence begin with?",
           options: [
-            "Understanding yourself",
-            "Understanding psychology theory",
+            "Office location",
             "Marketing skills",
-            "Office location"
+            "Understanding psychology theory",
+            "Understanding yourself"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Self-awareness is foundational to developing presence."
         },
         {
           id: 4,
           question: "What is a self-awareness practice?",
           options: [
-            "Ignoring personal reactions",
+            "Avoiding self-examination",
             "Daily reflection practices",
             "Only focusing on clients",
-            "Avoiding self-examination"
+            "Ignoring personal reactions"
           ],
           correctAnswer: 1,
           explanation: "Regular reflection develops self-awareness."
@@ -626,58 +626,58 @@ Presence enables moments where clients experience significant shifts.
           id: 5,
           question: "When feeling urge to fix, what should you ask?",
           options: [
-            "How quickly can I solve this?",
             "Whose need is this-mine or client's?",
+            "How impressive will my solution be?",
             "What's the easiest solution?",
-            "How impressive will my solution be?"
+            "How quickly can I solve this?"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "This question helps maintain client-centered focus."
         },
         {
           id: 6,
           question: "What is Level 3 listening?",
           options: [
-            "Listening for content",
             "Listening for patterns and systems",
+            "Listening to respond",
             "Listening while distracted",
-            "Listening to respond"
+            "Listening for content"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Level 3 involves hearing patterns and systemic connections."
         },
         {
           id: 7,
           question: "What helps when feeling overwhelmed by client emotion?",
           options: [
-            "Ground in body and breath",
             "Match client's emotion intensely",
+            "End session quickly",
             "Change topic immediately",
-            "End session quickly"
+            "Ground in body and breath"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Grounding helps maintain professional stability."
         },
         {
           id: 8,
           question: "What is listening for possibility and potential?",
           options: [
-            "Level 1 listening",
             "Level 4 listening",
             "Surface listening",
-            "Distracted listening"
+            "Distracted listening",
+            "Level 1 listening"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Level 4 involves hearing what wants to emerge."
         },
         {
           id: 9,
           question: "What creates transformative moments?",
           options: [
-            "Rushing through sessions",
-            "Safety and trust",
             "Complex theories",
-            "Many interruptions"
+            "Safety and trust",
+            "Many interruptions",
+            "Rushing through sessions"
           ],
           correctAnswer: 1,
           explanation: "Safety enables vulnerability and transformation."
@@ -686,94 +686,94 @@ Presence enables moments where clients experience significant shifts.
           id: 10,
           question: "What balance enables transformation?",
           options: [
-            "Challenge and support",
-            "Work and vacation",
+            "Income and expenses",
             "Theory and practice",
-            "Income and expenses"
+            "Work and vacation",
+            "Challenge and support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The right balance of stretching and supporting enables growth."
         },
         {
           id: 11,
           question: "What does authentic connection involve?",
           options: [
-            "Showing up as genuine self",
+            "Maintaining emotional distance",
             "Hiding personal reactions",
-            "Following strict scripts",
-            "Maintaining emotional distance"
+            "Showing up as genuine self",
+            "Following strict scripts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Authenticity builds trust and connection."
         },
         {
           id: 12,
           question: "What helps develop body awareness?",
           options: [
+            "Rushing through the day",
             "Ignoring physical signals",
-            "Mindfulness of breath and sensations",
             "Only intellectual analysis",
-            "Rushing through the day"
+            "Mindfulness of breath and sensations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Body awareness comes from noticing physical experience."
         },
         {
           id: 13,
           question: "When feeling bored, what should you do?",
           options: [
-            "Check if truly listening",
-            "End session early",
             "Talk about yourself",
-            "Look at your phone"
+            "End session early",
+            "Look at your phone",
+            "Check if truly listening"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Boredom often signals disengagement from listening."
         },
         {
           id: 14,
           question: "What is Level 5 listening?",
           options: [
+            "Listening for facts only",
             "Listening from silence and stillness",
             "Listening while multitasking",
-            "Listening to respond quickly",
-            "Listening for facts only"
+            "Listening to respond quickly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Level 5 involves deepest presence beyond active techniques."
         },
         {
           id: 15,
           question: "What enables emergence and discovery?",
           options: [
-            "Forcing solutions",
             "Allowing organic insights",
-            "Giving direct advice",
-            "Following strict agendas"
+            "Forcing solutions",
+            "Following strict agendas",
+            "Giving direct advice"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transformation often emerges naturally, not forced."
         },
         {
           id: 16,
           question: "What is courageous engagement?",
           options: [
-            "Avoiding difficult topics",
-            "Willingness to go to difficult places",
             "Always agreeing with client",
-            "Staying in comfort zone"
+            "Staying in comfort zone",
+            "Willingness to go to difficult places",
+            "Avoiding difficult topics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Courage involves appropriate risk-taking for client growth."
         },
         {
           id: 17,
           question: "What does emotional intelligence cultivation involve?",
           options: [
-            "Ignoring emotions",
-            "Naming emotions accurately",
             "Suppressing all feelings",
-            "Sharing emotions excessively"
+            "Naming emotions accurately",
+            "Sharing emotions excessively",
+            "Ignoring emotions"
           ],
           correctAnswer: 1,
           explanation: "Emotional intelligence begins with accurate emotional awareness."
@@ -782,9 +782,9 @@ Presence enables moments where clients experience significant shifts.
           id: 18,
           question: "What to do when feeling judgmental?",
           options: [
-            "Act on the judgment",
-            "Notice judgment without feeding it",
             "Share judgment with client",
+            "Notice judgment without feeding it",
+            "Act on the judgment",
             "Blame client for triggering you"
           ],
           correctAnswer: 1,
@@ -794,10 +794,10 @@ Presence enables moments where clients experience significant shifts.
           id: 19,
           question: "What deepens listening skill?",
           options: [
-            "Planning responses while client talks",
+            "Thinking about other things",
             "Listening without planning response",
-            "Interrupting frequently",
-            "Thinking about other things"
+            "Planning responses while client talks",
+            "Interrupting frequently"
           ],
           correctAnswer: 1,
           explanation: "True listening happens when we're not preparing our response."
@@ -806,12 +806,12 @@ Presence enables moments where clients experience significant shifts.
           id: 20,
           question: "What is presence described as?",
           options: [
-            "Achievement to keep forever",
-            "Practice of continual returning",
             "Natural talent only",
-            "Theoretical concept only"
+            "Achievement to keep forever",
+            "Theoretical concept only",
+            "Practice of continual returning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Presence requires ongoing practice, not one-time achievement."
         }
       ]
@@ -1032,12 +1032,12 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           id: 1,
           question: "What is the first ICF Core Competency?",
           options: [
+            "Financial management",
             "Marketing skills",
             "Demonstrates Ethical Practice",
-            "Financial management",
             "Public speaking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ethical practice is foundational in ICF competencies."
         },
         {
@@ -1045,9 +1045,9 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           question: "What should be avoided when possible?",
           options: [
             "Dual relationships",
-            "Written contracts",
+            "Client notes",
             "Professional insurance",
-            "Client notes"
+            "Written contracts"
           ],
           correctAnswer: 0,
           explanation: "Dual relationships can create conflicts of interest."
@@ -1057,21 +1057,21 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           question: "What helps with boundary testing by clients?",
           options: [
             "Ignoring the testing",
+            "Changing boundaries frequently",
             "Revisiting boundaries clearly",
-            "Getting angry",
-            "Changing boundaries frequently"
+            "Getting angry"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Clear, consistent communication maintains professional boundaries."
         },
         {
           id: 4,
           question: "What is essential for organizational confidentiality?",
           options: [
-            "No agreements needed",
+            "Assuming everyone knows",
             "Clear tripartite agreements",
-            "Only verbal understanding",
-            "Assuming everyone knows"
+            "No agreements needed",
+            "Only verbal understanding"
           ],
           correctAnswer: 1,
           explanation: "Tripartite agreements clarify confidentiality for all parties."
@@ -1080,36 +1080,36 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           id: 5,
           question: "What should coaches consult about business structure?",
           options: [
+            "Social media followers",
             "Attorney and accountant",
             "Only other coaches",
-            "Social media followers",
             "Family members only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Professional legal and financial advice is essential."
         },
         {
           id: 6,
           question: "What does GDPR relate to?",
           options: [
-            "Data protection",
             "Tax regulations",
             "Office design",
-            "Marketing strategies"
+            "Marketing strategies",
+            "Data protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GDPR is European data protection regulation."
         },
         {
           id: 7,
           question: "What is NOT a type of supervision?",
           options: [
+            "Ignoring challenges",
             "Individual supervision",
             "Group supervision",
-            "Ignoring challenges",
             "Peer consultation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Ignoring challenges is the opposite of supervision."
         },
         {
@@ -1117,9 +1117,9 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           question: "What promotes ethical organizational culture?",
           options: [
             "Leadership modeling",
+            "Keeping secrets",
             "Ignoring problems",
-            "Only focusing on profits",
-            "Keeping secrets"
+            "Only focusing on profits"
           ],
           correctAnswer: 0,
           explanation: "Leaders modeling ethics influences organizational culture."
@@ -1128,24 +1128,24 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           id: 9,
           question: "What compromises ethical practice?",
           options: [
-            "Regular supervision",
-            "Burnout",
             "Continuing education",
-            "Clear contracts"
+            "Clear contracts",
+            "Regular supervision",
+            "Burnout"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Burnout impairs judgment and ethical decision-making."
         },
         {
           id: 10,
           question: "What is self-care described as?",
           options: [
+            "Unnecessary expense",
             "Professional responsibility",
             "Luxury only",
-            "Sign of weakness",
-            "Unnecessary expense"
+            "Sign of weakness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Self-care maintains capacity for ethical practice."
         },
         {
@@ -1153,9 +1153,9 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           question: "What should be specified in contracts?",
           options: [
             "Clear scope of services",
-            "Personal life details",
+            "Family information",
             "Other clients' names",
-            "Family information"
+            "Personal life details"
           ],
           correctAnswer: 0,
           explanation: "Clear scope prevents misunderstandings and disputes."
@@ -1164,34 +1164,34 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           id: 12,
           question: "What is professional liability insurance for?",
           options: [
-            "Office furniture",
             "Errors and omissions",
-            "Personal vacations",
-            "Marketing expenses"
+            "Marketing expenses",
+            "Office furniture",
+            "Personal vacations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Professional liability covers coaching practice risks."
         },
         {
           id: 13,
           question: "What should supervision agenda include?",
           options: [
-            "Challenging client cases",
-            "Gossip about clients",
             "Personal entertainment",
-            "Shopping lists"
+            "Shopping lists",
+            "Gossip about clients",
+            "Challenging client cases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Supervision addresses professional challenges appropriately."
         },
         {
           id: 14,
           question: "What helps leaders develop ethically?",
           options: [
-            "Only financial training",
+            "Focusing only on results",
             "Coaching for ethical leadership",
-            "Ignoring values",
-            "Focusing only on results"
+            "Only financial training",
+            "Ignoring values"
           ],
           correctAnswer: 1,
           explanation: "Coaching can develop ethical decision-making skills."
@@ -1201,45 +1201,45 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           question: "What is part of sustainable practice?",
           options: [
             "Working constantly",
-            "Workload management",
+            "No vacations",
             "Ignoring stress",
-            "No vacations"
+            "Workload management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Managing workload prevents burnout."
         },
         {
           id: 16,
           question: "What is ICF competency 3?",
           options: [
-            "Establishes and Maintains Agreements",
-            "Marketing expertise",
+            "Office management",
             "Financial planning",
-            "Office management"
+            "Establishes and Maintains Agreements",
+            "Marketing expertise"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Establishing agreements is a core coaching competency."
         },
         {
           id: 17,
           question: "How to handle client attraction feelings?",
           options: [
+            "Share with client",
             "Act on feelings",
             "Acknowledge internally and seek supervision",
-            "Share with client",
             "Ignore completely"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Professional handling involves self-awareness and supervision."
         },
         {
           id: 18,
           question: "What should gift policy consider?",
           options: [
-            "Only gift value",
-            "Cultural norms and timing",
             "Personal preferences only",
-            "What others are doing"
+            "Cultural norms and timing",
+            "What others are doing",
+            "Only gift value"
           ],
           correctAnswer: 1,
           explanation: "Multiple factors determine appropriate gift policies."
@@ -1248,24 +1248,24 @@ Burnout compromises ethical practice. Self-care is professional responsibility.
           id: 19,
           question: "What does ethical leadership begin with?",
           options: [
-            "Self-leadership",
-            "Controlling others",
             "Following trends",
-            "Avoiding decisions"
+            "Avoiding decisions",
+            "Controlling others",
+            "Self-leadership"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leading oneself ethically enables leading others ethically."
         },
         {
           id: 20,
           question: "What measures ethical culture?",
           options: [
-            "Only profit margins",
-            "Employee surveys on psychological safety",
             "Office size",
-            "Social media likes"
+            "Social media likes",
+            "Only profit margins",
+            "Employee surveys on psychological safety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Psychological safety indicates healthy ethical culture."
         }
       ]
@@ -1493,24 +1493,24 @@ Professional financial practices ensure business sustainability.
           id: 1,
           question: "What should a business plan start with?",
           options: [
-            "Financial projections only",
-            "Vision and mission",
+            "Social media strategy",
             "Office location search",
-            "Social media strategy"
+            "Vision and mission",
+            "Financial projections only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vision and mission guide all other business decisions."
         },
         {
           id: 2,
           question: "What is part of market analysis?",
           options: [
+            "Copying others exactly",
             "Only personal preferences",
             "Target market identification",
-            "Ignoring competition",
-            "Copying others exactly"
+            "Ignoring competition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Understanding your market is essential for business success."
         },
         {
@@ -1519,8 +1519,8 @@ Professional financial practices ensure business sustainability.
           options: [
             "Only paid advertising",
             "Creating educational content",
-            "Cold calling strangers",
-            "Spam email campaigns"
+            "Spam email campaigns",
+            "Cold calling strangers"
           ],
           correctAnswer: 1,
           explanation: "Content marketing educates and attracts ideal clients."
@@ -1529,9 +1529,9 @@ Professional financial practices ensure business sustainability.
           id: 4,
           question: "What is thought leadership?",
           options: [
-            "Following trends only",
-            "Sharing expertise to influence field",
             "Keeping knowledge secret",
+            "Sharing expertise to influence field",
+            "Following trends only",
             "Criticizing others publicly"
           ],
           correctAnswer: 1,
@@ -1541,34 +1541,34 @@ Professional financial practices ensure business sustainability.
           id: 5,
           question: "What is value-based pricing?",
           options: [
-            "Charging lowest prices",
-            "Pricing based on outcomes value",
             "Copying competitors' prices",
-            "Random price setting"
+            "Charging lowest prices",
+            "Random price setting",
+            "Pricing based on outcomes value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Value-based pricing aligns price with client results."
         },
         {
           id: 6,
           question: "What is a package pricing pro?",
           options: [
+            "No commitment needed",
             "Unpredictable income",
             "Predictable income",
-            "No commitment needed",
             "Focus on time only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Packages create predictable revenue and focus on outcomes."
         },
         {
           id: 7,
           question: "How to leverage time?",
           options: [
-            "Only one-on-one coaching",
+            "Reducing prices",
             "Group coaching programs",
             "Working longer hours",
-            "Reducing prices"
+            "Only one-on-one coaching"
           ],
           correctAnswer: 1,
           explanation: "Group formats leverage coach time effectively."
@@ -1577,48 +1577,48 @@ Professional financial practices ensure business sustainability.
           id: 8,
           question: "What creates passive income?",
           options: [
-            "Trading time for money only",
-            "Digital products",
             "More one-on-one clients",
-            "Working weekends"
+            "Working weekends",
+            "Trading time for money only",
+            "Digital products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Digital products generate income without trading time."
         },
         {
           id: 9,
           question: "What should be separate?",
           options: [
-            "Business and personal accounts",
+            "Work and sleep schedules",
             "Client notes and agreements",
             "Professional and personal values",
-            "Work and sleep schedules"
+            "Business and personal accounts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Separate accounts simplify financial management and taxes."
         },
         {
           id: 10,
           question: "What indicates financial health?",
           options: [
-            "No savings",
             "3-6 months expenses in reserve",
+            "Ignoring taxes",
             "Maximizing debt",
-            "Ignoring taxes"
+            "No savings"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Emergency reserves provide business stability."
         },
         {
           id: 11,
           question: "What is service design?",
           options: [
-            "Only one service type",
             "Designing coaching offerings",
-            "Office decoration",
-            "Personal wardrobe"
+            "Only one service type",
+            "Personal wardrobe",
+            "Office decoration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Service design creates structured coaching offerings."
         },
         {
@@ -1626,23 +1626,23 @@ Professional financial practices ensure business sustainability.
           question: "What is relationship-based marketing?",
           options: [
             "Cold calling only",
-            "Strategic partnerships",
             "Spamming emails",
+            "Strategic partnerships",
             "Ignoring referrals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Partnerships leverage others' networks and credibility."
         },
         {
           id: 13,
           question: "What is retainer model best for?",
           options: [
-            "One-time sessions",
-            "Executive coaching",
             "Beginner coaches only",
-            "Free services"
+            "One-time sessions",
+            "Free services",
+            "Executive coaching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Retainers suit ongoing executive support needs."
         },
         {
@@ -1661,9 +1661,9 @@ Professional financial practices ensure business sustainability.
           id: 15,
           question: "What should be tracked?",
           options: [
-            "Only income",
-            "Business expenses",
             "Personal shopping",
+            "Business expenses",
+            "Only income",
             "Family expenses"
           ],
           correctAnswer: 1,
@@ -1673,22 +1673,22 @@ Professional financial practices ensure business sustainability.
           id: 16,
           question: "What is differentiation?",
           options: [
+            "Lowest prices only",
             "Being exactly like others",
             "What makes coaching unique",
-            "Lowest prices only",
             "Fancy office only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Differentiation helps stand out in competitive markets."
         },
         {
           id: 17,
           question: "What is conversion optimization?",
           options: [
-            "Ignoring inquiries",
+            "Vague offers",
             "Effective discovery sessions",
             "No follow-up system",
-            "Vague offers"
+            "Ignoring inquiries"
           ],
           correctAnswer: 1,
           explanation: "Discovery sessions convert interest into clients."
@@ -1697,10 +1697,10 @@ Professional financial practices ensure business sustainability.
           id: 18,
           question: "What is pricing psychology?",
           options: [
-            "Ignoring client perception",
-            "Anchoring and decoy effects",
             "Random price setting",
-            "No strategy needed"
+            "Anchoring and decoy effects",
+            "No strategy needed",
+            "Ignoring client perception"
           ],
           correctAnswer: 1,
           explanation: "Psychological factors influence price perception."
@@ -1709,24 +1709,24 @@ Professional financial practices ensure business sustainability.
           id: 19,
           question: "What is franchise model?",
           options: [
-            "Working alone forever",
             "Training others in methodology",
+            "Working alone forever",
             "Keeping knowledge secret",
             "Avoiding growth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Franchising replicates successful business models."
         },
         {
           id: 20,
           question: "What enables serving without money stress?",
           options: [
-            "Financial health",
-            "Ignoring finances",
+            "No savings",
             "Maximizing debt",
-            "No savings"
+            "Ignoring finances",
+            "Financial health"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Financial stability supports focused client service."
         }
       ]
@@ -1956,48 +1956,48 @@ Measurement drives professional development and practice improvement.
           id: 1,
           question: "What does ROI research show for coaching?",
           options: [
-            "No return on investment",
-            "Average 5-7x return",
             "Always loses money",
-            "Only emotional benefits"
+            "No return on investment",
+            "Only emotional benefits",
+            "Average 5-7x return"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Research demonstrates significant financial returns from coaching."
         },
         {
           id: 2,
           question: "What is goal attainment scaling?",
           options: [
-            "Ignoring goals",
             "5-point scale for goal progress",
             "Only subjective feelings",
-            "No measurement needed"
+            "No measurement needed",
+            "Ignoring goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Structured scaling provides objective progress measurement."
         },
         {
           id: 3,
           question: "What is neuroscience contribution to coaching?",
           options: [
-            "No relevance",
-            "Understanding brain plasticity changes",
+            "Replacing coaching",
             "Only medical treatment",
-            "Replacing coaching"
+            "No relevance",
+            "Understanding brain plasticity changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Neuroscience explains how coaching creates neural changes."
         },
         {
           id: 4,
           question: "What are subjective measures?",
           options: [
-            "Only financial data",
             "Client self-reports",
             "Ignoring client perspective",
-            "Competitor analysis"
+            "Competitor analysis",
+            "Only financial data"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Subjective measures capture client experience and perception."
         },
         {
@@ -2006,8 +2006,8 @@ Measurement drives professional development and practice improvement.
           options: [
             "Self-assessment only",
             "Multi-rater assessments",
-            "Ignoring others' views",
-            "Financial audit"
+            "Financial audit",
+            "Ignoring others' views"
           ],
           correctAnswer: 1,
           explanation: "360 feedback collects perspectives from multiple observers."
@@ -2016,34 +2016,34 @@ Measurement drives professional development and practice improvement.
           id: 6,
           question: "What should precede client research participation?",
           options: [
-            "No permission needed",
-            "Informed consent",
             "Secret data collection",
-            "Mandatory participation"
+            "Mandatory participation",
+            "No permission needed",
+            "Informed consent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Informed consent is essential ethical practice."
         },
         {
           id: 7,
           question: "What helps stay research-informed?",
           options: [
-            "Ignoring new research",
             "Peer-reviewed journals",
+            "Ignoring new research",
             "Only personal experience",
             "Social media only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Professional journals provide credible research findings."
         },
         {
           id: 8,
           question: "What technology enhances measurement?",
           options: [
-            "Paper only",
-            "Assessment platforms",
             "No technology needed",
-            "Ignoring data"
+            "Assessment platforms",
+            "Ignoring data",
+            "Paper only"
           ],
           correctAnswer: 1,
           explanation: "Technology enables sophisticated measurement and tracking."
@@ -2052,22 +2052,22 @@ Measurement drives professional development and practice improvement.
           id: 9,
           question: "What drives professional development?",
           options: [
+            "Competitors' actions",
             "Ignoring results",
-            "Measurement data",
             "Only intuition",
-            "Competitors' actions"
+            "Measurement data"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Data identifies areas for skill improvement."
         },
         {
           id: 10,
           question: "What purposes does measurement serve?",
           options: [
-            "Only billing clients",
+            "Impressing others",
             "Demonstrating value and improving effectiveness",
-            "Filling time",
-            "Impressing others"
+            "Only billing clients",
+            "Filling time"
           ],
           correctAnswer: 1,
           explanation: "Measurement serves multiple professional purposes."
@@ -2076,48 +2076,48 @@ Measurement drives professional development and practice improvement.
           id: 11,
           question: "What shows coaching effectiveness?",
           options: [
-            "Only coach feelings",
             "Goal attainment improvements",
-            "Office size",
-            "Social media followers"
+            "Social media followers",
+            "Only coach feelings",
+            "Office size"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Goal achievement demonstrates coaching effectiveness."
         },
         {
           id: 12,
           question: "What is pre-post assessment?",
           options: [
-            "No baseline needed",
-            "Initial and final measurement",
             "Only mid-point check",
-            "Guessing progress"
+            "Guessing progress",
+            "No baseline needed",
+            "Initial and final measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pre-post comparison shows change over time."
         },
         {
           id: 13,
           question: "What requires critical appraisal?",
           options: [
-            "All research findings",
-            "Only positive results",
             "Ignoring research",
-            "Personal opinions only"
+            "All research findings",
+            "Personal opinions only",
+            "Only positive results"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Critical evaluation ensures appropriate application."
         },
         {
           id: 14,
           question: "What protects client research participation?",
           options: [
-            "Anonymity and confidentiality",
             "Public identification",
+            "No protections needed",
             "Mandatory sharing",
-            "No protections needed"
+            "Anonymity and confidentiality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Privacy protections are ethical requirements."
         },
         {
@@ -2125,11 +2125,11 @@ Measurement drives professional development and practice improvement.
           question: "What enables longitudinal tracking?",
           options: [
             "Memory only",
-            "Technology systems",
+            "Guessing patterns",
             "No tracking needed",
-            "Guessing patterns"
+            "Technology systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Technology facilitates tracking over time."
         },
         {
@@ -2137,23 +2137,23 @@ Measurement drives professional development and practice improvement.
           question: "What is process research?",
           options: [
             "Only outcome measurement",
-            "What works in coaching",
             "Ignoring methods",
-            "Financial analysis only"
+            "Financial analysis only",
+            "What works in coaching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Process research examines coaching techniques and relationships."
         },
         {
           id: 17,
           question: "What are organizational impact metrics?",
           options: [
-            "Only coach satisfaction",
-            "Business performance indicators",
             "Personal feelings only",
-            "Office decor"
+            "Only coach satisfaction",
+            "Office decor",
+            "Business performance indicators"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Business metrics show organizational coaching impact."
         },
         {
@@ -2172,10 +2172,10 @@ Measurement drives professional development and practice improvement.
           id: 19,
           question: "What drives continuous improvement?",
           options: [
-            "Ignoring data",
-            "Systematic measurement",
             "Random changes",
-            "Following trends only"
+            "Systematic measurement",
+            "Following trends only",
+            "Ignoring data"
           ],
           correctAnswer: 1,
           explanation: "Measurement provides data for targeted improvement."
@@ -2185,9 +2185,9 @@ Measurement drives professional development and practice improvement.
           question: "What enhances rather than detracts?",
           options: [
             "Ethical, systematic measurement",
-            "Ignoring outcomes",
+            "No human connection",
             "Only financial focus",
-            "No human connection"
+            "Ignoring outcomes"
           ],
           correctAnswer: 0,
           explanation: "Well-done measurement complements coaching relationship."
@@ -2422,10 +2422,10 @@ Advanced coaches consider their broader impact on the field and society.
           id: 1,
           question: "What enhances market position?",
           options: [
-            "Being generalist only",
-            "Developing specializations",
             "Lowest prices only",
-            "No differentiation"
+            "Developing specializations",
+            "No differentiation",
+            "Being generalist only"
           ],
           correctAnswer: 1,
           explanation: "Specialization creates expertise and market distinction."
@@ -2435,81 +2435,81 @@ Advanced coaches consider their broader impact on the field and society.
           question: "What is leadership coaching focus?",
           options: [
             "Only personal life",
-            "Strategic leadership",
             "Medical treatment",
-            "Financial planning only"
+            "Financial planning only",
+            "Strategic leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Leadership coaching addresses professional leadership capabilities."
         },
         {
           id: 3,
           question: "What is ICF PCC requirement?",
           options: [
-            "No experience needed",
-            "500+ hours experience",
             "Only training needed",
-            "Social media followers"
+            "Social media followers",
+            "500+ hours experience",
+            "No experience needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "PCC requires substantial coaching experience hours."
         },
         {
           id: 4,
           question: "What is certification benefit?",
           options: [
-            "Higher costs only",
             "Enhanced credibility",
+            "Higher costs only",
             "Less work required",
             "No learning needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Certification demonstrates professional standards adherence."
         },
         {
           id: 5,
           question: "What do supervisors provide?",
           options: [
-            "Only criticism",
-            "Skill development support",
             "Complete solutions",
-            "Personal therapy"
+            "Only criticism",
+            "Personal therapy",
+            "Skill development support"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Supervision supports professional skill development."
         },
         {
           id: 6,
           question: "What is resourcing supervision?",
           options: [
-            "Only technical skills",
-            "Emotional impact management",
             "Marketing advice only",
-            "Financial planning"
+            "Only technical skills",
+            "Financial planning",
+            "Emotional impact management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Resourcing supervision addresses emotional aspects of coaching work."
         },
         {
           id: 7,
           question: "What is advanced practice model?",
           options: [
-            "Only individual coaching",
             "Coaching consulting firms",
+            "Only individual coaching",
             "No business planning",
             "Working in isolation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Consulting firms represent advanced business models."
         },
         {
           id: 8,
           question: "What builds advanced practice?",
           options: [
-            "No planning needed",
-            "Clear vision and business plan",
             "Random actions only",
-            "Copying others exactly"
+            "Clear vision and business plan",
+            "Copying others exactly",
+            "No planning needed"
           ],
           correctAnswer: 1,
           explanation: "Strategic planning enables advanced practice development."
@@ -2518,96 +2518,96 @@ Advanced coaches consider their broader impact on the field and society.
           id: 9,
           question: "What is legacy consideration?",
           options: [
+            "Immediate results only",
             "Only personal income",
             "Broader impact on field",
-            "Immediate results only",
             "Competition with others"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Legacy involves contribution beyond individual practice."
         },
         {
           id: 10,
           question: "What contributes to profession?",
           options: [
+            "Criticizing others",
             "Keeping knowledge secret",
-            "Professional association participation",
             "Only personal gain",
-            "Criticizing others"
+            "Professional association participation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Association participation advances the coaching field."
         },
         {
           id: 11,
           question: "What specialization requires health knowledge?",
           options: [
-            "Executive coaching only",
             "Health and wellness coaching",
-            "Career coaching only",
-            "All coaching equally"
+            "All coaching equally",
+            "Executive coaching only",
+            "Career coaching only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Health coaching requires relevant health behavior knowledge."
         },
         {
           id: 12,
           question: "What certification requires examination?",
           options: [
-            "No certifications do",
             "Board Certified Coach",
             "All are automatic",
+            "No certifications do",
             "Only based on fees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "BCC requires passing an examination component."
         },
         {
           id: 13,
           question: "What is professional development supervision?",
           options: [
-            "Only technical feedback",
-            "Overall professional growth support",
             "Personal therapy",
-            "Financial advice"
+            "Only technical feedback",
+            "Financial advice",
+            "Overall professional growth support"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "This supervision supports broader career development."
         },
         {
           id: 14,
           question: "What is coaching training organization?",
           options: [
-            "Only individual coaching",
             "Training other coaches",
-            "No educational role",
-            "Only client services"
+            "Only client services",
+            "Only individual coaching",
+            "No educational role"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Training organizations develop coaching professionals."
         },
         {
           id: 15,
           question: "What is mentoring role?",
           options: [
+            "Therapeutic intervention",
             "Only managing employees",
             "Guiding emerging coaches",
-            "Replacing supervision",
-            "Therapeutic intervention"
+            "Replacing supervision"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Mentoring shares experience with less experienced professionals."
         },
         {
           id: 16,
           question: "What is career coaching focus?",
           options: [
-            "Only resume writing",
             "Professional identity and transition",
+            "Only resume writing",
             "Medical career only",
             "Retirement planning only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Career coaching addresses professional development and transitions."
         },
         {
@@ -2615,47 +2615,47 @@ Advanced coaches consider their broader impact on the field and society.
           question: "What is supervision training need?",
           options: [
             "No training needed",
-            "Specific supervision training",
             "Only coaching experience",
+            "Specific supervision training",
             "Business degree only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Supervision requires specific training beyond coaching."
         },
         {
           id: 18,
           question: "What enables scaling?",
           options: [
-            "Only individual work",
             "Building systems first",
-            "No planning needed",
-            "Improvisation only"
+            "Only individual work",
+            "Improvisation only",
+            "No planning needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systems enable consistent quality during growth."
         },
         {
           id: 19,
           question: "What creates sustainable impact?",
           options: [
-            "Only individual sessions",
             "Programs continuing beyond involvement",
-            "Secret knowledge",
-            "No sharing allowed"
+            "No sharing allowed",
+            "Only individual sessions",
+            "Secret knowledge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Sustainable impact requires structures that persist."
         },
         {
           id: 20,
           question: "What is advanced practice about?",
           options: [
-            "Only personal success",
             "Contribution and impact",
+            "Financial wealth only",
             "Competition only",
-            "Financial wealth only"
+            "Only personal success"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Advanced practice involves broader professional contribution."
         }
       ]
@@ -2673,96 +2673,96 @@ Advanced coaches consider their broader impact on the field and society.
         id: 1,
         question: "What is the core principle of Solution-Focused Brief Coaching?",
         options: [
+          "Label personality",
           "Analyze past deeply",
-          "Focus on solutions",
           "Identify childhood issues",
-          "Label personality"
+          "Focus on solutions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "SFBC emphasizes building solutions over analyzing problems."
       },
       {
         id: 2,
         question: "What does coaching presence involve?",
         options: [
-          "Multitasking",
-          "Full availability",
+          "Emotional detachment",
           "Perfect predictions",
-          "Emotional detachment"
+          "Full availability",
+          "Multitasking"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Presence is being fully available and attuned."
       },
       {
         id: 3,
         question: "What is first ICF Core Competency?",
         options: [
-          "Marketing skills",
-          "Ethical Practice",
           "Financial management",
-          "Public speaking"
+          "Public speaking",
+          "Marketing skills",
+          "Ethical Practice"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Ethical practice is foundational competency."
       },
       {
         id: 4,
         question: "What should business plan start with?",
         options: [
-          "Financial projections",
           "Vision and mission",
           "Office location",
-          "Social media"
+          "Social media",
+          "Financial projections"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Vision guides all business decisions."
       },
       {
         id: 5,
         question: "What ROI does research show?",
         options: [
-          "No return",
-          "5-7x return",
+          "Only emotional",
           "Always loses",
-          "Only emotional"
+          "5-7x return",
+          "No return"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Research demonstrates significant financial returns."
       },
       {
         id: 6,
         question: "What enhances market position?",
         options: [
-          "Being generalist",
-          "Specialization",
           "Lowest prices",
-          "No differentiation"
+          "No differentiation",
+          "Being generalist",
+          "Specialization"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Specialization creates expertise distinction."
       },
       {
         id: 7,
         question: "What does CBC focus on changing?",
         options: [
-          "Other people",
-          "Thoughts and behaviors",
+          "Past trauma",
           "Genetics",
-          "Past trauma"
+          "Thoughts and behaviors",
+          "Other people"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "CBC addresses cognitive and behavioral patterns."
       },
       {
         id: 8,
         question: "What does self-awareness develop?",
         options: [
-          "Only client understanding",
-          "Coaching presence foundation",
+          "Office management",
           "Marketing skills",
-          "Office management"
+          "Coaching presence foundation",
+          "Only client understanding"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Self-awareness enables authentic presence."
       },
       {
@@ -2770,23 +2770,23 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What should be avoided when possible?",
         options: [
           "Written contracts",
-          "Dual relationships",
+          "Client notes",
           "Professional insurance",
-          "Client notes"
+          "Dual relationships"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Dual relationships create ethical conflicts."
       },
       {
         id: 10,
         question: "What is content marketing?",
         options: [
-          "Paid advertising only",
           "Educational content creation",
           "Cold calling",
+          "Paid advertising only",
           "Spam emails"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Content marketing educates to attract clients."
       },
       {
@@ -2795,8 +2795,8 @@ Advanced coaches consider their broader impact on the field and society.
         options: [
           "Ignoring goals",
           "5-point progress scale",
-          "Subjective feelings only",
-          "No measurement"
+          "No measurement",
+          "Subjective feelings only"
         ],
         correctAnswer: 1,
         explanation: "Structured scaling provides objective measurement."
@@ -2805,24 +2805,24 @@ Advanced coaches consider their broader impact on the field and society.
         id: 12,
         question: "What is leadership coaching focus?",
         options: [
-          "Personal life only",
           "Strategic leadership",
+          "Personal life only",
           "Medical treatment",
           "Financial planning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Leadership coaching develops professional leadership."
       },
       {
         id: 13,
         question: "What is positive psychology principle?",
         options: [
+          "Critique constantly",
           "Fix weaknesses only",
-          "Build on strengths",
           "Ignore positives",
-          "Critique constantly"
+          "Build on strengths"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Positive psychology emphasizes strengths development."
       },
       {
@@ -2841,24 +2841,24 @@ Advanced coaches consider their broader impact on the field and society.
         id: 15,
         question: "What helps boundary testing?",
         options: [
-          "Ignoring it",
           "Clear revisiting",
           "Getting angry",
-          "Changing frequently"
+          "Changing frequently",
+          "Ignoring it"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Clear communication maintains boundaries."
       },
       {
         id: 16,
         question: "What is value-based pricing?",
         options: [
-          "Lowest prices",
           "Based on outcomes value",
           "Copying competitors",
+          "Lowest prices",
           "Random setting"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Value pricing aligns with client results."
       },
       {
@@ -2878,35 +2878,35 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What is ICF PCC requirement?",
         options: [
           "No experience",
-          "500+ hours experience",
+          "Social media",
           "Only training",
-          "Social media"
+          "500+ hours experience"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "PCC requires substantial experience hours."
       },
       {
         id: 19,
         question: "What is narrative coaching principle?",
         options: [
-          "Genetics determine",
-          "We construct through stories",
           "Environment determines",
-          "Biology is destiny"
+          "Biology is destiny",
+          "We construct through stories",
+          "Genetics determine"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Narrative coaching focuses on life stories."
       },
       {
         id: 20,
         question: "When feeling urge to fix?",
         options: [
-          "Act immediately",
           "Ask whose need",
-          "Give solution",
-          "Take charge"
+          "Act immediately",
+          "Take charge",
+          "Give solution"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Questioning whose need maintains client focus."
       },
       {
@@ -2915,8 +2915,8 @@ Advanced coaches consider their broader impact on the field and society.
         options: [
           "No agreements",
           "Tripartite agreements",
-          "Verbal only",
-          "Assume understanding"
+          "Assume understanding",
+          "Verbal only"
         ],
         correctAnswer: 1,
         explanation: "Tripartite agreements clarify for all parties."
@@ -2925,12 +2925,12 @@ Advanced coaches consider their broader impact on the field and society.
         id: 22,
         question: "What is package pricing pro?",
         options: [
-          "Unpredictable income",
           "Predictable income",
           "No commitment",
-          "Time focus only"
+          "Time focus only",
+          "Unpredictable income"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Packages create predictable revenue."
       },
       {
@@ -2938,20 +2938,20 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What helps stay research-informed?",
         options: [
           "Ignoring research",
-          "Peer-reviewed journals",
+          "Social media only",
           "Personal experience only",
-          "Social media only"
+          "Peer-reviewed journals"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Professional journals provide credible research."
       },
       {
         id: 24,
         question: "What is certification benefit?",
         options: [
-          "Higher costs only",
-          "Enhanced credibility",
           "Less work",
+          "Enhanced credibility",
+          "Higher costs only",
           "No learning"
         ],
         correctAnswer: 1,
@@ -2961,36 +2961,36 @@ Advanced coaches consider their broader impact on the field and society.
         id: 25,
         question: "What assessment tool focuses strengths?",
         options: [
-          "Medical tests",
-          "VIA Strengths Survey",
           "Financial audit",
-          "Legal checks"
+          "Medical tests",
+          "Legal checks",
+          "VIA Strengths Survey"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "VIA identifies character strengths."
       },
       {
         id: 26,
         question: "What transforms moments?",
         options: [
-          "Rushing sessions",
-          "Safety and trust",
           "Complex theories",
-          "Many interruptions"
+          "Many interruptions",
+          "Rushing sessions",
+          "Safety and trust"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Safety enables vulnerability and change."
       },
       {
         id: 27,
         question: "What compromises ethical practice?",
         options: [
-          "Regular supervision",
           "Burnout",
           "Continuing education",
-          "Clear contracts"
+          "Clear contracts",
+          "Regular supervision"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Burnout impairs ethical decision-making."
       },
       {
@@ -2998,11 +2998,11 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What leverages time?",
         options: [
           "Only one-on-one",
+          "Reducing prices",
           "Group programs",
-          "Longer hours",
-          "Reducing prices"
+          "Longer hours"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Group formats leverage coach time."
       },
       {
@@ -3010,35 +3010,35 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What technology enhances measurement?",
         options: [
           "Paper only",
-          "Assessment platforms",
           "No technology",
+          "Assessment platforms",
           "Ignoring data"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Technology enables sophisticated tracking."
       },
       {
         id: 30,
         question: "What do supervisors provide?",
         options: [
-          "Only criticism",
           "Skill development support",
+          "Personal therapy",
           "Complete solutions",
-          "Personal therapy"
+          "Only criticism"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Supervision supports professional development."
       },
       {
         id: 31,
         question: "What is executive coaching balance?",
         options: [
-          "Only personal issues",
-          "Individual and business needs",
+          "Theory and practice",
           "Work and vacation",
-          "Theory and practice"
+          "Only personal issues",
+          "Individual and business needs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Executive coaching serves person and organization."
       },
       {
@@ -3046,23 +3046,23 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What deepens listening?",
         options: [
           "Planning response",
+          "Thinking elsewhere",
           "Listening without planning response",
-          "Interrupting frequently",
-          "Thinking elsewhere"
+          "Interrupting frequently"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "True listening happens without response planning."
       },
       {
         id: 33,
         question: "What should be separate?",
         options: [
-          "Business and personal accounts",
-          "Client notes",
           "Professional values",
-          "Work schedules"
+          "Work schedules",
+          "Business and personal accounts",
+          "Client notes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Separate accounts simplify financial management."
       },
       {
@@ -3070,23 +3070,23 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What creates passive income?",
         options: [
           "Trading time only",
-          "Digital products",
+          "Working weekends",
           "More one-on-one",
-          "Working weekends"
+          "Digital products"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Digital products generate without time trade."
       },
       {
         id: 35,
         question: "What drives continuous improvement?",
         options: [
-          "Ignoring data",
           "Systematic measurement",
-          "Random changes",
-          "Following trends"
+          "Following trends",
+          "Ignoring data",
+          "Random changes"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Measurement provides improvement data."
       },
       {
@@ -3094,33 +3094,33 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What is resourcing supervision?",
         options: [
           "Technical skills only",
+          "Financial planning",
           "Emotional impact management",
-          "Marketing advice",
-          "Financial planning"
+          "Marketing advice"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Resourcing addresses emotional aspects."
       },
       {
         id: 37,
         question: "What is career transition coaching?",
         options: [
+          "Financial planning",
           "Only resume writing",
           "Identity shifts",
-          "Medical intervention",
-          "Financial planning"
+          "Medical intervention"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Career transitions involve identity aspects."
       },
       {
         id: 38,
         question: "What indicates financial health?",
         options: [
-          "No savings",
-          "3-6 months expenses reserve",
           "Maximizing debt",
-          "Ignoring taxes"
+          "3-6 months expenses reserve",
+          "Ignoring taxes",
+          "No savings"
         ],
         correctAnswer: 1,
         explanation: "Emergency reserves provide stability."
@@ -3130,23 +3130,23 @@ Advanced coaches consider their broader impact on the field and society.
         question: "What builds advanced practice?",
         options: [
           "No planning",
+          "Copying exactly",
           "Clear vision and plan",
-          "Random actions",
-          "Copying exactly"
+          "Random actions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Strategic planning enables development."
       },
       {
         id: 40,
         question: "What is advanced practice about?",
         options: [
-          "Only personal success",
-          "Contribution and impact",
           "Competition only",
-          "Financial wealth"
+          "Only personal success",
+          "Financial wealth",
+          "Contribution and impact"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Advanced practice involves broader contribution."
       }
     ]

@@ -79,8 +79,8 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           options: [
             "Taxonomy Frameworks",
             "Enterprise Information Architecture",
-            "Metadata Schemas",
-            "Integration Patterns"
+            "Integration Patterns",
+            "Metadata Schemas"
           ],
           correctAnswer: 1,
           explanation: "Enterprise Information Architecture provides the structural design for organizational information flow."
@@ -89,21 +89,21 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           id: 2,
           question: "What are conceptual representations of information entities and relationships?",
           options: [
-            "Information Models",
-            "Taxonomy Frameworks",
+            "Integration Patterns",
             "Metadata Schemas",
-            "Integration Patterns"
+            "Taxonomy Frameworks",
+            "Information Models"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Information models visually represent what information exists and how it interrelates."
         },
         {
           id: 3,
           question: "What ensures long-term access to digital information?",
           options: [
-            "Information Governance",
-            "Digital Preservation",
             "Knowledge Organization",
+            "Digital Preservation",
+            "Information Governance",
             "Semantic Technologies"
           ],
           correctAnswer: 1,
@@ -113,10 +113,10 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           id: 4,
           question: "What converts files to current, sustainable formats?",
           options: [
-            "Technology Emulation",
+            "Preservation Metadata",
             "Format Migration",
             "Digital Archaeology",
-            "Preservation Metadata"
+            "Technology Emulation"
           ],
           correctAnswer: 1,
           explanation: "Format migration transfers content to current formats to prevent access loss."
@@ -126,21 +126,21 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           question: "What recreates obsolete software environments?",
           options: [
             "Format Migration",
-            "Technology Emulation",
+            "Preservation Metadata",
             "Digital Archaeology",
-            "Preservation Metadata"
+            "Technology Emulation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Technology emulation recreates old software environments to access legacy content."
         },
         {
           id: 6,
           question: "What structures information for retrieval and use?",
           options: [
-            "Digital Preservation",
+            "Semantic Technologies",
             "Knowledge Organization Systems",
-            "Information Governance",
-            "Semantic Technologies"
+            "Digital Preservation",
+            "Information Governance"
           ],
           correctAnswer: 1,
           explanation: "Knowledge Organization Systems provide structured approaches to organizing information."
@@ -149,10 +149,10 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           id: 7,
           question: "What are standardized terminology for consistent indexing?",
           options: [
-            "Thesauri",
-            "Controlled Vocabularies",
             "Ontologies",
-            "Classification Schemes"
+            "Controlled Vocabularies",
+            "Classification Schemes",
+            "Thesauri"
           ],
           correctAnswer: 1,
           explanation: "Controlled vocabularies ensure consistent terminology across information systems."
@@ -162,35 +162,35 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           question: "What are formal representations of knowledge domains?",
           options: [
             "Controlled Vocabularies",
+            "Classification Schemes",
             "Thesauri",
-            "Ontologies",
-            "Classification Schemes"
+            "Ontologies"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Ontologies provide formal, logical representations of concepts and relationships."
         },
         {
           id: 9,
           question: "What ensures information is managed according to policies and regulations?",
           options: [
-            "Knowledge Organization",
-            "Information Governance",
+            "Semantic Technologies",
             "Digital Preservation",
-            "Semantic Technologies"
+            "Knowledge Organization",
+            "Information Governance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Information governance establishes policies and accountability for information management."
         },
         {
           id: 10,
           question: "What creates rules for information management?",
           options: [
-            "Roles and Responsibilities",
             "Policy Development",
-            "Compliance Management",
-            "Quality Assurance"
+            "Roles and Responsibilities",
+            "Quality Assurance",
+            "Compliance Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Policy development establishes organizational rules for information handling."
         },
         {
@@ -198,11 +198,11 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           question: "What adds meaning to web content through technologies?",
           options: [
             "Information Governance",
-            "Semantic Web Technologies",
             "Digital Preservation",
+            "Semantic Web Technologies",
             "Knowledge Organization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Semantic technologies enable machines to understand the meaning of web content."
         },
         {
@@ -223,24 +223,24 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           id: 14,
           question: "What are hierarchical structures for organizing information categories?",
           options: [
-            "Information Models",
-            "Taxonomy Frameworks",
+            "Integration Patterns",
             "Metadata Schemas",
-            "Integration Patterns"
+            "Taxonomy Frameworks",
+            "Information Models"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Taxonomy frameworks create logical, hierarchical organization of information categories."
         },
         {
           id: 15,
           question: "What are standards for describing information resources?",
           options: [
-            "Information Models",
-            "Taxonomy Frameworks",
             "Metadata Schemas",
+            "Taxonomy Frameworks",
+            "Information Models",
             "Integration Patterns"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Metadata schemas provide standardized frameworks for describing information resources."
         },
         {
@@ -248,9 +248,9 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           question: "What recovers information from damaged or obsolete media?",
           options: [
             "Format Migration",
-            "Technology Emulation",
+            "Preservation Metadata",
             "Digital Archaeology",
-            "Preservation Metadata"
+            "Technology Emulation"
           ],
           correctAnswer: 2,
           explanation: "Digital archaeology techniques recover information from failing or obsolete storage media."
@@ -272,23 +272,23 @@ RDF represents information as subject-predicate-object triples. OWL creates rich
           question: "What defines who manages what information in organizations?",
           options: [
             "Policy Development",
-            "Roles and Responsibilities",
+            "Quality Assurance",
             "Compliance Management",
-            "Quality Assurance"
+            "Roles and Responsibilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clear role definitions establish accountability for information management tasks."
         },
         {
           id: 19,
           question: "What ensures adherence to laws and regulations?",
           options: [
-            "Policy Development",
-            "Roles and Responsibilities",
             "Compliance Management",
-            "Quality Assurance"
+            "Roles and Responsibilities",
+            "Quality Assurance",
+            "Policy Development"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Compliance management ensures information practices meet legal and regulatory requirements."
         },
         {
@@ -390,24 +390,24 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           id: 1,
           question: "What establishes policies and processes for data management?",
           options: [
+            "Records Management",
             "Data Quality Management",
-            "Data Governance",
             "Information Security",
-            "Records Management"
+            "Data Governance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Data governance provides the framework for managing data as a valuable organizational asset."
         },
         {
           id: 2,
           question: "What are organizational roles and committees overseeing data?",
           options: [
+            "Stewardship Programs",
             "Data Policies",
             "Governance Structures",
-            "Data Standards",
-            "Stewardship Programs"
+            "Data Standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Governance structures establish decision-making authority for data management."
         },
         {
@@ -436,11 +436,11 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           question: "What protects data from threats through various measures?",
           options: [
             "Data Governance",
-            "Information Security",
+            "Records Management",
             "Privacy by Design",
-            "Records Management"
+            "Information Security"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Information security implements controls to protect data confidentiality, integrity, and availability."
         },
         {
@@ -449,8 +449,8 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           options: [
             "Encryption",
             "Access Control",
-            "Audit Trails",
-            "Incident Response"
+            "Incident Response",
+            "Audit Trails"
           ],
           correctAnswer: 1,
           explanation: "Access control mechanisms restrict data access based on user identity and permissions."
@@ -459,9 +459,9 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           id: 8,
           question: "What secures data through cryptographic techniques?",
           options: [
-            "Access Control",
-            "Encryption",
             "Audit Trails",
+            "Encryption",
+            "Access Control",
             "Incident Response"
           ],
           correctAnswer: 1,
@@ -471,10 +471,10 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           id: 9,
           question: "What integrates privacy protections into systems from inception?",
           options: [
-            "Information Security",
+            "Records Management",
             "Privacy by Design",
-            "Data Governance",
-            "Records Management"
+            "Information Security",
+            "Data Governance"
           ],
           correctAnswer: 1,
           explanation: "Privacy by Design builds privacy protections into systems during initial design phases."
@@ -483,48 +483,48 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           id: 10,
           question: "What anticipates and prevents privacy issues proactively?",
           options: [
-            "Privacy as Default",
             "Proactive Prevention",
             "Privacy Embedded",
+            "Privacy as Default",
             "Full Functionality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Proactive prevention addresses privacy risks before they materialize into problems."
         },
         {
           id: 11,
           question: "What ensures proper handling of organizational records?",
           options: [
-            "Data Governance",
-            "Records Management",
+            "Privacy by Design",
             "Information Security",
-            "Privacy by Design"
+            "Data Governance",
+            "Records Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Records management systematically controls records throughout their lifecycle."
         },
         {
           id: 12,
           question: "What specifies how long records must be kept?",
           options: [
-            "Disposition Authorities",
             "Retention Schedules",
+            "Disposition Authorities",
             "Metadata Requirements",
             "Audit Readiness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Retention schedules define legal and operational requirements for record keeping periods."
         },
         {
           id: 13,
           question: "What ensures information is fit for purpose?",
           options: [
-            "Data Governance",
             "Data Quality Management",
+            "Records Management",
             "Information Security",
-            "Records Management"
+            "Data Governance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Data quality management ensures information meets accuracy, completeness, and timeliness requirements."
         },
         {
@@ -545,36 +545,36 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           id: 16,
           question: "What are rules governing data creation, use, and disposal?",
           options: [
-            "Governance Structures",
-            "Data Policies",
+            "Stewardship Programs",
             "Data Standards",
-            "Stewardship Programs"
+            "Governance Structures",
+            "Data Policies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Data policies establish behavioral rules for how data should be handled."
         },
         {
           id: 17,
           question: "What are technical specifications for data formats and quality?",
           options: [
-            "Governance Structures",
             "Data Policies",
             "Data Standards",
-            "Stewardship Programs"
+            "Stewardship Programs",
+            "Governance Structures"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Data standards define technical requirements for data formats, structures, and quality."
         },
         {
           id: 18,
           question: "What records data access and modifications for accountability?",
           options: [
-            "Access Control",
-            "Encryption",
+            "Incident Response",
             "Audit Trails",
-            "Incident Response"
+            "Access Control",
+            "Encryption"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Audit trails log data access and changes to provide accountability and traceability."
         },
         {
@@ -582,23 +582,23 @@ Adequacy decisions evaluate foreign data protection levels. Standard clauses pro
           question: "What means maximum privacy without user action required?",
           options: [
             "Proactive Prevention",
-            "Privacy as Default",
+            "Full Functionality",
             "Privacy Embedded",
-            "Full Functionality"
+            "Privacy as Default"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Privacy as default principle means systems protect privacy automatically without user configuration."
         },
         {
           id: 20,
           question: "What determines if countries provide adequate data protection?",
           options: [
-            "Standard Contractual Clauses",
-            "Adequacy Decisions",
             "Binding Corporate Rules",
-            "Privacy Shield Frameworks"
+            "Privacy Shield Frameworks",
+            "Standard Contractual Clauses",
+            "Adequacy Decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Adequacy decisions evaluate whether foreign countries provide data protection equivalent to home country standards."
         }
       ]
@@ -695,48 +695,48 @@ CMS integration supports web content creation. Marketing automation integration 
           id: 1,
           question: "What systems organize, store, and retrieve rich media assets?",
           options: [
-            "Content Management Systems",
             "Digital Asset Management Systems",
+            "Digital Experience Platforms",
             "Product Information Management",
-            "Digital Experience Platforms"
+            "Content Management Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Digital Asset Management (DAM) systems specialize in managing rich media assets like images, videos, and audio."
         },
         {
           id: 2,
           question: "What are processes for adding assets to the DAM system?",
           options: [
-            "Metadata Schemas",
             "Ingestion Workflows",
             "Storage Infrastructure",
+            "Metadata Schemas",
             "Retrieval Interfaces"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ingestion workflows establish consistent processes for adding assets with proper metadata."
         },
         {
           id: 3,
           question: "What is the initial asset generation or procurement stage?",
           options: [
-            "Ingestion",
-            "Creation/Acquisition",
             "Active Use",
-            "Archive"
+            "Ingestion",
+            "Archive",
+            "Creation/Acquisition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Creation/acquisition is the initial stage where digital assets are produced or obtained."
         },
         {
           id: 4,
           question: "What is the period of frequent asset access and utilization?",
           options: [
-            "Creation/Acquisition",
-            "Ingestion",
             "Active Use",
-            "Archive"
+            "Archive",
+            "Creation/Acquisition",
+            "Ingestion"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Active use period sees regular asset access and application in business processes."
         },
         {
@@ -744,11 +744,11 @@ CMS integration supports web content creation. Marketing automation integration 
           question: "What provides long-term preservation with reduced access frequency?",
           options: [
             "Ingestion",
-            "Active Use",
             "Archive",
+            "Active Use",
             "Disposition"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Archive stage preserves assets long-term with infrequent access requirements."
         },
         {
@@ -776,10 +776,10 @@ CMS integration supports web content creation. Marketing automation integration 
           id: 9,
           question: "What protects intellectual property of digital assets?",
           options: [
-            "Preservation Planning",
+            "System Integration",
             "Rights Management",
-            "Metadata Standards",
-            "System Integration"
+            "Preservation Planning",
+            "Metadata Standards"
           ],
           correctAnswer: 1,
           explanation: "Digital rights management protects intellectual property through various technical and legal means."
@@ -788,22 +788,22 @@ CMS integration supports web content creation. Marketing automation integration 
           id: 10,
           question: "What documents usage permissions and restrictions?",
           options: [
-            "License Management",
-            "Rights Metadata",
             "Watermarking",
-            "Access Controls"
+            "Access Controls",
+            "Rights Metadata",
+            "License Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Rights metadata documents what uses are permitted, restricted, or require additional permissions."
         },
         {
           id: 11,
           question: "What embeds ownership information visibly or invisibly in assets?",
           options: [
-            "Rights Metadata",
+            "Access Controls",
             "License Management",
             "Watermarking",
-            "Access Controls"
+            "Rights Metadata"
           ],
           correctAnswer: 2,
           explanation: "Watermarking embeds ownership or identification information directly into asset files."
@@ -813,31 +813,31 @@ CMS integration supports web content creation. Marketing automation integration 
           question: "What ensures long-term asset accessibility?",
           options: [
             "Rights Management",
-            "Digital Preservation",
+            "System Integration",
             "Metadata Standards",
-            "System Integration"
+            "Digital Preservation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Digital preservation strategies protect assets from technological obsolescence and degradation."
         },
         {
           id: 13,
           question: "What evaluates format obsolescence risks?",
           options: [
+            "Technical Metadata Collection",
             "Preservation Action Planning",
             "Format Risk Assessment",
-            "Technical Metadata Collection",
             "Regular Integrity Checking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Format risk assessment identifies file formats vulnerable to obsolescence."
         },
         {
           id: 14,
           question: "What verifies asset authenticity over time?",
           options: [
-            "Format Risk Assessment",
             "Preservation Action Planning",
+            "Format Risk Assessment",
             "Technical Metadata Collection",
             "Regular Integrity Checking"
           ],
@@ -849,11 +849,11 @@ CMS integration supports web content creation. Marketing automation integration 
           question: "What identifies organizational requirements for DAM?",
           options: [
             "System Selection",
-            "Needs Assessment",
             "Metadata Design",
+            "Needs Assessment",
             "Change Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Needs assessment clarifies what the organization requires from a DAM system."
         },
         {
@@ -861,21 +861,21 @@ CMS integration supports web content creation. Marketing automation integration 
           question: "What develops effective metadata schemas for DAM?",
           options: [
             "Needs Assessment",
-            "System Selection",
             "Metadata Design",
+            "System Selection",
             "Change Management"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Metadata design creates structured description frameworks tailored to organizational needs."
         },
         {
           id: 17,
           question: "What are technical systems for asset preservation?",
           options: [
-            "Ingestion Workflows",
+            "Retrieval Interfaces",
             "Metadata Schemas",
             "Storage Infrastructure",
-            "Retrieval Interfaces"
+            "Ingestion Workflows"
           ],
           correctAnswer: 2,
           explanation: "Storage infrastructure provides the technical foundation for reliable asset preservation."
@@ -884,12 +884,12 @@ CMS integration supports web content creation. Marketing automation integration 
           id: 18,
           question: "What is the final deletion or transfer according to policy?",
           options: [
-            "Active Use",
-            "Archive",
             "Disposition",
-            "Ingestion"
+            "Active Use",
+            "Ingestion",
+            "Archive"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Disposition executes final lifecycle actions like deletion or transfer per retention policies."
         },
         {
@@ -1003,84 +1003,84 @@ Knowledge audits identify existing knowledge and missing knowledge. Social netwo
           id: 1,
           question: "What systems capture, organize, and share organizational knowledge?",
           options: [
-            "Document Management Systems",
-            "Knowledge Management Systems",
             "Content Management Systems",
-            "Digital Asset Management"
+            "Digital Asset Management",
+            "Knowledge Management Systems",
+            "Document Management Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Knowledge Management (KM) systems facilitate the systematic management of organizational knowledge."
         },
         {
           id: 2,
           question: "What are groups sharing expertise around common interests?",
           options: [
-            "Knowledge Harvesting",
             "Communities of Practice",
+            "Expert Directories",
             "Lessons Learned Systems",
-            "Expert Directories"
+            "Knowledge Harvesting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Communities of practice bring together people with shared professional interests to exchange knowledge."
         },
         {
           id: 3,
           question: "What extracts tacit knowledge from experts?",
           options: [
-            "Communities of Practice",
-            "Knowledge Harvesting",
+            "Expert Directories",
             "Lessons Learned Systems",
-            "Expert Directories"
+            "Knowledge Harvesting",
+            "Communities of Practice"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Knowledge harvesting techniques extract undocumented expertise from experienced individuals."
         },
         {
           id: 4,
           question: "What provides structured storage for documents?",
           options: [
-            "Content Management Systems",
-            "Document Management Systems",
             "Wikis",
-            "Best Practices Databases"
+            "Best Practices Databases",
+            "Content Management Systems",
+            "Document Management Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Document management systems provide controlled storage, versioning, and retrieval of documents."
         },
         {
           id: 5,
           question: "What enables collaborative knowledge creation?",
           options: [
-            "Document Management Systems",
-            "Content Management Systems",
             "Wikis",
+            "Content Management Systems",
+            "Document Management Systems",
             "Best Practices Databases"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Wikis allow multiple contributors to create and edit knowledge content collaboratively."
         },
         {
           id: 6,
           question: "What creates hierarchical classification schemes for knowledge?",
           options: [
-            "Ontology Engineering",
-            "Taxonomy Development",
+            "Thesaurus Construction",
             "Folksonomy Emergence",
-            "Thesaurus Construction"
+            "Ontology Engineering",
+            "Taxonomy Development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Taxonomy development creates hierarchical structures for organizing knowledge categories."
         },
         {
           id: 7,
           question: "What builds formal knowledge representations?",
           options: [
-            "Taxonomy Development",
-            "Ontology Engineering",
             "Folksonomy Emergence",
-            "Thesaurus Construction"
+            "Thesaurus Construction",
+            "Taxonomy Development",
+            "Ontology Engineering"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ontology engineering creates formal, logical representations of knowledge domains."
         },
         {
@@ -1088,9 +1088,9 @@ Knowledge audits identify existing knowledge and missing knowledge. Social netwo
           question: "What observes user-created tagging patterns?",
           options: [
             "Taxonomy Development",
-            "Ontology Engineering",
+            "Thesaurus Construction",
             "Folksonomy Emergence",
-            "Thesaurus Construction"
+            "Ontology Engineering"
           ],
           correctAnswer: 2,
           explanation: "Folksonomy emergence studies organic tagging behaviors that reveal how users categorize content."
@@ -1099,12 +1099,12 @@ Knowledge audits identify existing knowledge and missing knowledge. Social netwo
           id: 9,
           question: "What are social platforms for organizational communication?",
           options: [
-            "Discussion Forums",
             "Enterprise Social Networks",
             "Blog Platforms",
+            "Discussion Forums",
             "Video Sharing Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Enterprise social networks facilitate informal knowledge sharing and communication within organizations."
         },
         {
@@ -1112,71 +1112,71 @@ Knowledge audits identify existing knowledge and missing knowledge. Social netwo
           question: "What are topic-based conversation spaces?",
           options: [
             "Enterprise Social Networks",
+            "Video Sharing Systems",
             "Discussion Forums",
-            "Blog Platforms",
-            "Video Sharing Systems"
+            "Blog Platforms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Discussion forums enable sustained conversations around specific topics or questions."
         },
         {
           id: 11,
           question: "What helps find expertise within organizations?",
           options: [
-            "Knowledge Repositories",
             "Expert Location Systems",
+            "Knowledge Measurement",
             "Knowledge Transfer Mechanisms",
-            "Knowledge Measurement"
+            "Knowledge Repositories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Expert location systems help identify and connect with knowledgeable individuals in organizations."
         },
         {
           id: 12,
           question: "What are catalogs of employee skills and competencies?",
           options: [
-            "Social Network Analysis",
             "Skills Databases",
             "Expert Profiling",
-            "Question Routing"
+            "Question Routing",
+            "Social Network Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Skills databases document what employees know and can do to facilitate expertise finding."
         },
         {
           id: 13,
           question: "What moves knowledge between people and systems?",
           options: [
-            "Expert Location",
-            "Knowledge Transfer",
+            "Knowledge Storage",
             "Knowledge Capture",
-            "Knowledge Storage"
+            "Expert Location",
+            "Knowledge Transfer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Knowledge transfer mechanisms facilitate the movement of knowledge from sources to those who need it."
         },
         {
           id: 14,
           question: "What provides structured guidance from experienced to less experienced?",
           options: [
-            "Job Shadowing",
-            "Mentoring Programs",
             "Storytelling",
-            "After Action Reviews"
+            "After Action Reviews",
+            "Job Shadowing",
+            "Mentoring Programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mentoring programs pair experienced individuals with less experienced ones for knowledge transfer."
         },
         {
           id: 15,
           question: "What involves observing work practices directly?",
           options: [
+            "After Action Reviews",
             "Mentoring Programs",
-            "Job Shadowing",
             "Storytelling",
-            "After Action Reviews"
+            "Job Shadowing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Job shadowing allows direct observation of work practices for tacit knowledge transfer."
         },
         {
@@ -1184,59 +1184,59 @@ Knowledge audits identify existing knowledge and missing knowledge. Social netwo
           question: "What measures knowledge management effectiveness?",
           options: [
             "Knowledge Capture",
-            "Knowledge Measurement",
             "Knowledge Storage",
-            "Knowledge Sharing"
+            "Knowledge Sharing",
+            "Knowledge Measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Knowledge measurement approaches assess the effectiveness of knowledge management initiatives."
         },
         {
           id: 17,
           question: "What assesses existing knowledge assets and gaps?",
           options: [
-            "Social Network Metrics",
-            "Knowledge Audits",
             "Usage Analytics",
-            "Value Stories"
+            "Social Network Metrics",
+            "Value Stories",
+            "Knowledge Audits"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Knowledge audits systematically assess what knowledge exists and what knowledge is missing."
         },
         {
           id: 18,
           question: "What captures insights from completed projects?",
           options: [
-            "Communities of Practice",
-            "Knowledge Harvesting",
             "Lessons Learned Systems",
+            "Knowledge Harvesting",
+            "Communities of Practice",
             "Expert Directories"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Lessons learned systems capture insights and experiences from completed projects for future reference."
         },
         {
           id: 19,
           question: "What are collections of proven methods?",
           options: [
-            "Document Management Systems",
-            "Content Management Systems",
             "Wikis",
-            "Best Practices Databases"
+            "Best Practices Databases",
+            "Document Management Systems",
+            "Content Management Systems"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Best practices databases collect and organize proven approaches for reuse and adaptation."
         },
         {
           id: 20,
           question: "What creates controlled vocabularies with defined relationships?",
           options: [
-            "Taxonomy Development",
             "Ontology Engineering",
-            "Folksonomy Emergence",
-            "Thesaurus Construction"
+            "Taxonomy Development",
+            "Thesaurus Construction",
+            "Folksonomy Emergence"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Thesaurus construction creates controlled vocabularies with hierarchical and associative relationships between terms."
         }
       ]
@@ -1342,9 +1342,9 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           id: 1,
           question: "What provides insights for decision-making from data?",
           options: [
-            "Data Mining",
-            "Business Intelligence",
             "Predictive Analytics",
+            "Business Intelligence",
+            "Data Mining",
             "Social Network Analysis"
           ],
           correctAnswer: 1,
@@ -1354,46 +1354,46 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           id: 2,
           question: "What are centralized repositories of integrated data?",
           options: [
-            "OLAP",
-            "Data Warehousing",
+            "Dashboard Development",
             "Data Mining",
-            "Dashboard Development"
+            "OLAP",
+            "Data Warehousing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Data warehousing creates integrated, subject-oriented repositories for analytical processing."
         },
         {
           id: 3,
           question: "What discovers patterns in large datasets?",
           options: [
+            "Data Mining",
             "Data Warehousing",
             "OLAP",
-            "Data Mining",
             "Dashboard Development"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Data mining techniques discover hidden patterns, correlations, and insights in large datasets."
         },
         {
           id: 4,
           question: "What extracts meaning from unstructured content?",
           options: [
-            "Predictive Analytics",
-            "Text Analytics",
+            "Competitive Intelligence",
             "Social Network Analysis",
-            "Competitive Intelligence"
+            "Text Analytics",
+            "Predictive Analytics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Text analytics applies computational techniques to extract meaning from unstructured text content."
         },
         {
           id: 5,
           question: "What enables computer understanding of human language?",
           options: [
-            "Sentiment Analysis",
+            "Entity Recognition",
             "Natural Language Processing",
             "Topic Modeling",
-            "Entity Recognition"
+            "Sentiment Analysis"
           ],
           correctAnswer: 1,
           explanation: "Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language."
@@ -1402,36 +1402,36 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           id: 6,
           question: "What determines emotional tone in text?",
           options: [
-            "Natural Language Processing",
-            "Sentiment Analysis",
+            "Entity Recognition",
             "Topic Modeling",
-            "Entity Recognition"
+            "Natural Language Processing",
+            "Sentiment Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sentiment analysis identifies and extracts subjective information like opinions and emotions from text."
         },
         {
           id: 7,
           question: "What forecasts future outcomes from data?",
           options: [
-            "Business Intelligence",
             "Predictive Analytics",
-            "Text Analytics",
-            "Social Network Analysis"
+            "Business Intelligence",
+            "Social Network Analysis",
+            "Text Analytics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Predictive analytics uses historical data and statistical techniques to forecast future events or behaviors."
         },
         {
           id: 8,
           question: "What models relationships between variables?",
           options: [
-            "Time Series Analysis",
-            "Regression Analysis",
+            "Simulation Modeling",
             "Machine Learning",
-            "Simulation Modeling"
+            "Time Series Analysis",
+            "Regression Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regression analysis models the relationship between a dependent variable and one or more independent variables."
         },
         {
@@ -1450,48 +1450,48 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           id: 10,
           question: "What visualizes relationship connections?",
           options: [
-            "Centrality Measures",
             "Network Mapping",
+            "Influence Analysis",
             "Community Detection",
-            "Influence Analysis"
+            "Centrality Measures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Network mapping creates visual representations of nodes and their connections in networks."
         },
         {
           id: 11,
           question: "What communicates insights through visual representations?",
           options: [
-            "Data Mining",
-            "Information Visualization",
             "Text Analytics",
-            "Predictive Analytics"
+            "Predictive Analytics",
+            "Information Visualization",
+            "Data Mining"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Information visualization uses visual representations to help people understand and analyze data."
         },
         {
           id: 12,
           question: "What uses visual properties to represent data?",
           options: [
-            "Interaction Design",
             "Visual Encoding",
             "Dashboard Layout",
+            "Interaction Design",
             "Storytelling with Data"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Visual encoding uses properties like position, size, color, and shape to represent data values."
         },
         {
           id: 13,
           question: "What gathers information about competitors?",
           options: [
-            "Social Network Analysis",
-            "Competitive Intelligence",
+            "Business Intelligence",
             "Decision Support",
-            "Business Intelligence"
+            "Social Network Analysis",
+            "Competitive Intelligence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Competitive intelligence systematically gathers and analyzes information about competitors."
         },
         {
@@ -1500,8 +1500,8 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           options: [
             "Competitor Profiling",
             "Environmental Scanning",
-            "SWOT Analysis",
-            "Benchmarking"
+            "Benchmarking",
+            "SWOT Analysis"
           ],
           correctAnswer: 1,
           explanation: "Environmental scanning systematically monitors external information sources for relevant intelligence."
@@ -1510,10 +1510,10 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           id: 15,
           question: "What aids decision-making through various systems?",
           options: [
-            "Business Intelligence",
-            "Decision Support Systems",
             "Competitive Intelligence",
-            "Predictive Analytics"
+            "Decision Support Systems",
+            "Predictive Analytics",
+            "Business Intelligence"
           ],
           correctAnswer: 1,
           explanation: "Decision support systems provide information and analytical tools to support decision-making processes."
@@ -1522,12 +1522,12 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           id: 16,
           question: "What uses mathematical models for analysis?",
           options: [
-            "Data-Driven DSS",
-            "Model-Driven DSS",
             "Knowledge-Driven DSS",
-            "Document-Driven DSS"
+            "Document-Driven DSS",
+            "Model-Driven DSS",
+            "Data-Driven DSS"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Model-driven decision support systems use mathematical models for analysis and simulation."
         },
         {
@@ -1535,47 +1535,47 @@ Privacy protection ensures personal data isn't misused. Bias detection identifie
           question: "What enables multidimensional data analysis?",
           options: [
             "Data Warehousing",
-            "OLAP",
             "Data Mining",
-            "Dashboard Development"
+            "Dashboard Development",
+            "OLAP"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "OLAP (Online Analytical Processing) enables complex multidimensional analysis of data."
         },
         {
           id: 18,
           question: "What discovers latent topics in document collections?",
           options: [
-            "Natural Language Processing",
-            "Sentiment Analysis",
             "Topic Modeling",
+            "Sentiment Analysis",
+            "Natural Language Processing",
             "Entity Recognition"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Topic modeling discovers abstract topics that occur in collections of documents."
         },
         {
           id: 19,
           question: "What identifies and addresses algorithmic bias?",
           options: [
-            "Privacy Protection",
             "Bias Detection",
-            "Transparency",
-            "Accountability"
+            "Privacy Protection",
+            "Accountability",
+            "Transparency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Bias detection identifies unfair discrimination in algorithms and analytical processes."
         },
         {
           id: 20,
           question: "What creates detailed profiles of competitors?",
           options: [
+            "Benchmarking",
             "Environmental Scanning",
             "Competitor Profiling",
-            "SWOT Analysis",
-            "Benchmarking"
+            "SWOT Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Competitor profiling creates comprehensive descriptions of competitors' strategies, capabilities, and performance."
         }
       ]
@@ -1683,12 +1683,12 @@ AI integration automates and enhances information management tasks. Edge computi
           id: 1,
           question: "What aligns information management with organizational goals?",
           options: [
-            "Information Portfolio Management",
-            "Strategic Information Management",
+            "Information Economics",
             "Change Management",
-            "Information Economics"
+            "Strategic Information Management",
+            "Information Portfolio Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic information management ensures information resources support organizational objectives."
         },
         {
@@ -1696,44 +1696,44 @@ AI integration automates and enhances information management tasks. Edge computi
           question: "What defines the purpose of information management?",
           options: [
             "Strategic Objectives",
-            "Vision and Mission",
+            "Governance Model",
             "Initiative Portfolio",
-            "Governance Model"
+            "Vision and Mission"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Vision and mission statements define why information management matters to the organization."
         },
         {
           id: 3,
           question: "What treats information as strategic assets?",
           options: [
+            "Information Economics",
             "Information Strategy",
             "Information Portfolio Management",
-            "Change Management",
-            "Information Economics"
+            "Change Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Information portfolio management approaches information as valuable organizational assets requiring strategic management."
         },
         {
           id: 4,
           question: "What determines information's business value?",
           options: [
-            "Investment Prioritization",
-            "Asset Valuation",
             "Risk Assessment",
-            "Performance Measurement"
+            "Investment Prioritization",
+            "Performance Measurement",
+            "Asset Valuation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Asset valuation quantifies the business value contributed by information assets."
         },
         {
           id: 5,
           question: "What manages organizational change for information initiatives?",
           options: [
-            "Information Strategy",
-            "Change Management",
             "Information Economics",
+            "Change Management",
+            "Information Strategy",
             "Digital Transformation"
           ],
           correctAnswer: 1,
@@ -1743,9 +1743,9 @@ AI integration automates and enhances information management tasks. Edge computi
           id: 6,
           question: "What identifies those affected by changes?",
           options: [
-            "Communication Planning",
-            "Stakeholder Analysis",
             "Training Programs",
+            "Stakeholder Analysis",
+            "Communication Planning",
             "Resistance Management"
           ],
           correctAnswer: 1,
@@ -1755,22 +1755,22 @@ AI integration automates and enhances information management tasks. Edge computi
           id: 7,
           question: "What examines costs and value of information?",
           options: [
-            "Information Portfolio Management",
             "Information Economics",
-            "Change Management",
-            "Digital Transformation"
+            "Digital Transformation",
+            "Information Portfolio Management",
+            "Change Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Information economics analyzes the financial aspects of information management investments and returns."
         },
         {
           id: 8,
           question: "What includes all costs associated with information management?",
           options: [
-            "Return on Investment",
-            "Total Cost of Ownership",
             "Opportunity Costs",
-            "Intangible Benefits"
+            "Total Cost of Ownership",
+            "Intangible Benefits",
+            "Return on Investment"
           ],
           correctAnswer: 1,
           explanation: "Total cost of ownership includes acquisition, implementation, maintenance, and operational costs."
@@ -1779,45 +1779,45 @@ AI integration automates and enhances information management tasks. Edge computi
           id: 9,
           question: "What assesses information management capabilities?",
           options: [
-            "Information Strategy",
             "Information Architecture Maturity Models",
             "Change Management",
+            "Information Strategy",
             "Information Economics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Maturity models assess the sophistication and effectiveness of information management practices."
         },
         {
           id: 10,
           question: "What level has unstructured, inconsistent practices?",
           options: [
-            "Repeatable",
             "Initial/Ad Hoc",
+            "Managed",
             "Defined",
-            "Managed"
+            "Repeatable"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Initial/Ad Hoc level features reactive, inconsistent information management practices."
         },
         {
           id: 11,
           question: "What integrates digital technology throughout organizations?",
           options: [
+            "Information Strategy",
             "Change Management",
-            "Digital Transformation",
             "Information Economics",
-            "Information Strategy"
+            "Digital Transformation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Digital transformation fundamentally changes how organizations operate and deliver value using digital technologies."
         },
         {
           id: 12,
           question: "What uses digital to improve customer interactions?",
           options: [
-            "Operational Process Transformation",
-            "Customer Experience Transformation",
             "Business Model Transformation",
+            "Customer Experience Transformation",
+            "Operational Process Transformation",
             "Digital Culture Development"
           ],
           correctAnswer: 1,
@@ -1827,21 +1827,21 @@ AI integration automates and enhances information management tasks. Edge computi
           id: 13,
           question: "What measures information management effectiveness?",
           options: [
-            "Information Strategy",
             "Information Management Metrics",
             "Change Management",
+            "Information Strategy",
             "Digital Transformation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Information management metrics provide quantitative measures of effectiveness and performance."
         },
         {
           id: 14,
           question: "What tracks how information resources are utilized?",
           options: [
-            "Quality Metrics",
-            "Usage Metrics",
             "Cost Metrics",
+            "Usage Metrics",
+            "Quality Metrics",
             "Value Metrics"
           ],
           correctAnswer: 1,
@@ -1851,24 +1851,24 @@ AI integration automates and enhances information management tasks. Edge computi
           id: 15,
           question: "What measures information accuracy and reliability?",
           options: [
-            "Usage Metrics",
             "Quality Metrics",
-            "Cost Metrics",
-            "Value Metrics"
+            "Usage Metrics",
+            "Value Metrics",
+            "Cost Metrics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Quality metrics assess information characteristics like accuracy, completeness, and timeliness."
         },
         {
           id: 16,
           question: "What are specific goals for information initiatives?",
           options: [
-            "Vision and Mission",
             "Strategic Objectives",
-            "Initiative Portfolio",
-            "Governance Model"
+            "Governance Model",
+            "Vision and Mission",
+            "Initiative Portfolio"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategic objectives define specific, measurable goals for information management initiatives."
         },
         {
@@ -1876,11 +1876,11 @@ AI integration automates and enhances information management tasks. Edge computi
           question: "What allocates resources to highest-value initiatives?",
           options: [
             "Asset Valuation",
-            "Investment Prioritization",
             "Risk Assessment",
+            "Investment Prioritization",
             "Performance Measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Investment prioritization directs limited resources to information initiatives with highest potential value."
         },
         {
@@ -1889,10 +1889,10 @@ AI integration automates and enhances information management tasks. Edge computi
           options: [
             "Stakeholder Analysis",
             "Communication Planning",
-            "Training Programs",
-            "Resistance Management"
+            "Resistance Management",
+            "Training Programs"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Training programs develop the skills and knowledge needed to use new information systems effectively."
         },
         {
@@ -1901,8 +1901,8 @@ AI integration automates and enhances information management tasks. Edge computi
           options: [
             "Total Cost of Ownership",
             "Return on Investment",
-            "Opportunity Costs",
-            "Intangible Benefits"
+            "Intangible Benefits",
+            "Opportunity Costs"
           ],
           correctAnswer: 1,
           explanation: "Return on investment (ROI) compares the financial benefits of initiatives to their costs."
@@ -1911,12 +1911,12 @@ AI integration automates and enhances information management tasks. Edge computi
           id: 20,
           question: "What creates new digital business models?",
           options: [
+            "Digital Culture Development",
             "Customer Experience Transformation",
             "Operational Process Transformation",
-            "Business Model Transformation",
-            "Digital Culture Development"
+            "Business Model Transformation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Business model transformation creates new ways of generating value through digital technologies."
         }
       ]
@@ -1929,35 +1929,35 @@ AI integration automates and enhances information management tasks. Edge computi
       question: "What provides the blueprint for how information flows through an organization?",
       options: [
         "Taxonomy Frameworks",
-        "Enterprise Information Architecture",
+        "Integration Patterns",
         "Metadata Schemas",
-        "Integration Patterns"
+        "Enterprise Information Architecture"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Enterprise Information Architecture provides the structural design for organizational information flow."
     },
     {
       id: 2,
       question: "What ensures long-term access to digital information?",
       options: [
+        "Knowledge Organization",
         "Information Governance",
         "Digital Preservation",
-        "Knowledge Organization",
         "Semantic Technologies"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Digital preservation strategies protect digital information from technological obsolescence."
     },
     {
       id: 3,
       question: "What establishes policies and processes for data management?",
       options: [
+        "Records Management",
         "Data Quality Management",
-        "Data Governance",
         "Information Security",
-        "Records Management"
+        "Data Governance"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Data governance provides the framework for managing data as a valuable organizational asset."
     },
     {
@@ -1971,10 +1971,10 @@ AI integration automates and enhances information management tasks. Edge computi
       id: 5,
       question: "What systems organize, store, and retrieve rich media assets?",
       options: [
-        "Content Management Systems",
+        "Digital Experience Platforms",
         "Digital Asset Management Systems",
         "Product Information Management",
-        "Digital Experience Platforms"
+        "Content Management Systems"
       ],
       correctAnswer: 1,
       explanation: "Digital Asset Management (DAM) systems specialize in managing rich media assets."
@@ -1983,34 +1983,34 @@ AI integration automates and enhances information management tasks. Edge computi
       id: 6,
       question: "What are processes for adding assets to the DAM system?",
       options: [
-        "Metadata Schemas",
-        "Ingestion Workflows",
         "Storage Infrastructure",
-        "Retrieval Interfaces"
+        "Retrieval Interfaces",
+        "Ingestion Workflows",
+        "Metadata Schemas"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Ingestion workflows establish consistent processes for adding assets with proper metadata."
     },
     {
       id: 7,
       question: "What systems capture, organize, and share organizational knowledge?",
       options: [
-        "Document Management Systems",
-        "Knowledge Management Systems",
         "Content Management Systems",
-        "Digital Asset Management"
+        "Digital Asset Management",
+        "Knowledge Management Systems",
+        "Document Management Systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Knowledge Management (KM) systems facilitate systematic management of organizational knowledge."
     },
     {
       id: 8,
       question: "What are groups sharing expertise around common interests?",
       options: [
-        "Knowledge Harvesting",
-        "Communities of Practice",
         "Lessons Learned Systems",
-        "Expert Directories"
+        "Communities of Practice",
+        "Expert Directories",
+        "Knowledge Harvesting"
       ],
       correctAnswer: 1,
       explanation: "Communities of practice bring together people with shared interests to exchange knowledge."
@@ -2021,8 +2021,8 @@ AI integration automates and enhances information management tasks. Edge computi
       options: [
         "Data Mining",
         "Business Intelligence",
-        "Predictive Analytics",
-        "Social Network Analysis"
+        "Social Network Analysis",
+        "Predictive Analytics"
       ],
       correctAnswer: 1,
       explanation: "Business Intelligence (BI) transforms data into insights that support decision-making."
@@ -2031,24 +2031,24 @@ AI integration automates and enhances information management tasks. Edge computi
       id: 10,
       question: "What are centralized repositories of integrated data?",
       options: [
-        "OLAP",
-        "Data Warehousing",
+        "Dashboard Development",
         "Data Mining",
-        "Dashboard Development"
+        "OLAP",
+        "Data Warehousing"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Data warehousing creates integrated repositories for analytical processing."
     },
     {
       id: 11,
       question: "What aligns information management with organizational goals?",
       options: [
-        "Information Portfolio Management",
         "Strategic Information Management",
-        "Change Management",
-        "Information Economics"
+        "Information Economics",
+        "Information Portfolio Management",
+        "Change Management"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Strategic information management ensures information resources support organizational objectives."
     },
     {
@@ -2056,83 +2056,83 @@ AI integration automates and enhances information management tasks. Edge computi
       question: "What defines the purpose of information management?",
       options: [
         "Strategic Objectives",
-        "Vision and Mission",
         "Initiative Portfolio",
-        "Governance Model"
+        "Governance Model",
+        "Vision and Mission"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Vision and mission statements define why information management matters."
     },
     {
       id: 13,
       question: "What are conceptual representations of information entities and relationships?",
       options: [
-        "Information Models",
         "Taxonomy Frameworks",
+        "Integration Patterns",
         "Metadata Schemas",
-        "Integration Patterns"
+        "Information Models"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Information models visually represent what information exists and how it interrelates."
     },
     {
       id: 14,
       question: "What converts files to current, sustainable formats?",
       options: [
-        "Technology Emulation",
         "Format Migration",
         "Digital Archaeology",
+        "Technology Emulation",
         "Preservation Metadata"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Format migration transfers content to current formats to prevent access loss."
     },
     {
       id: 15,
       question: "What are standardized terminology for consistent indexing?",
       options: [
-        "Thesauri",
-        "Controlled Vocabularies",
+        "Classification Schemes",
         "Ontologies",
-        "Classification Schemes"
+        "Thesauri",
+        "Controlled Vocabularies"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Controlled vocabularies ensure consistent terminology across information systems."
     },
     {
       id: 16,
       question: "What integrates privacy protections into systems from inception?",
       options: [
-        "Information Security",
         "Privacy by Design",
-        "Data Governance",
-        "Records Management"
+        "Information Security",
+        "Records Management",
+        "Data Governance"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Privacy by Design builds privacy protections into systems during initial design."
     },
     {
       id: 17,
       question: "What limits data access to authorized users?",
       options: [
+        "Audit Trails",
         "Encryption",
         "Access Control",
-        "Audit Trails",
         "Incident Response"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Access control mechanisms restrict data access based on user identity and permissions."
     },
     {
       id: 18,
       question: "What is the period of frequent asset access and utilization?",
       options: [
-        "Creation/Acquisition",
+        "Archive",
         "Ingestion",
-        "Active Use",
-        "Archive"
+        "Creation/Acquisition",
+        "Active Use"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "Active use period sees regular asset access and application in business processes."
     },
     {
@@ -2148,8 +2148,8 @@ AI integration automates and enhances information management tasks. Edge computi
       options: [
         "Communities of Practice",
         "Knowledge Harvesting",
-        "Lessons Learned Systems",
-        "Expert Directories"
+        "Expert Directories",
+        "Lessons Learned Systems"
       ],
       correctAnswer: 1,
       explanation: "Knowledge harvesting techniques extract undocumented expertise from experienced individuals."
@@ -2159,95 +2159,95 @@ AI integration automates and enhances information management tasks. Edge computi
       question: "What enables collaborative knowledge creation?",
       options: [
         "Document Management Systems",
-        "Content Management Systems",
         "Wikis",
-        "Best Practices Databases"
+        "Best Practices Databases",
+        "Content Management Systems"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "Wikis allow multiple contributors to create and edit knowledge content collaboratively."
     },
     {
       id: 22,
       question: "What extracts meaning from unstructured content?",
       options: [
+        "Competitive Intelligence",
         "Predictive Analytics",
-        "Text Analytics",
         "Social Network Analysis",
-        "Competitive Intelligence"
+        "Text Analytics"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Text analytics applies computational techniques to extract meaning from unstructured text."
     },
     {
       id: 23,
       question: "What determines emotional tone in text?",
       options: [
-        "Natural Language Processing",
-        "Sentiment Analysis",
+        "Entity Recognition",
         "Topic Modeling",
-        "Entity Recognition"
+        "Sentiment Analysis",
+        "Natural Language Processing"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Sentiment analysis identifies and extracts subjective information from text."
     },
     {
       id: 24,
       question: "What examines relationship structures in networks?",
       options: [
-        "Predictive Analytics",
         "Social Network Analysis",
+        "Predictive Analytics",
         "Competitive Intelligence",
         "Decision Support"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Social network analysis examines the structure of relationships between entities."
     },
     {
       id: 25,
       question: "What treats information as strategic assets?",
       options: [
-        "Information Strategy",
-        "Information Portfolio Management",
+        "Information Economics",
         "Change Management",
-        "Information Economics"
+        "Information Portfolio Management",
+        "Information Strategy"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Information portfolio management approaches information as valuable organizational assets."
     },
     {
       id: 26,
       question: "What determines information's business value?",
       options: [
+        "Performance Measurement",
         "Investment Prioritization",
         "Asset Valuation",
-        "Risk Assessment",
-        "Performance Measurement"
+        "Risk Assessment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Asset valuation quantifies the business value contributed by information assets."
     },
     {
       id: 27,
       question: "What are structured vocabularies showing term relationships?",
       options: [
-        "Controlled Vocabularies",
         "Thesauri",
         "Ontologies",
-        "Classification Schemes"
+        "Classification Schemes",
+        "Controlled Vocabularies"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Thesauri structure vocabulary terms with defined hierarchical and associative relationships."
     },
     {
       id: 28,
       question: "What ensures adherence to laws and regulations?",
       options: [
-        "Policy Development",
+        "Quality Assurance",
         "Roles and Responsibilities",
-        "Compliance Management",
-        "Quality Assurance"
+        "Policy Development",
+        "Compliance Management"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "Compliance management ensures information practices meet legal requirements."
     },
     {
@@ -2276,45 +2276,45 @@ AI integration automates and enhances information management tasks. Edge computi
       question: "What creates hierarchical classification schemes for knowledge?",
       options: [
         "Ontology Engineering",
+        "Thesaurus Construction",
         "Taxonomy Development",
-        "Folksonomy Emergence",
-        "Thesaurus Construction"
+        "Folksonomy Emergence"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Taxonomy development creates hierarchical structures for organizing knowledge categories."
     },
     {
       id: 33,
       question: "What discovers patterns in large datasets?",
       options: [
-        "Data Warehousing",
-        "OLAP",
+        "Dashboard Development",
         "Data Mining",
-        "Dashboard Development"
+        "Data Warehousing",
+        "OLAP"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "Data mining techniques discover hidden patterns and insights in large datasets."
     },
     {
       id: 34,
       question: "What models relationships between variables?",
       options: [
-        "Time Series Analysis",
         "Regression Analysis",
         "Machine Learning",
+        "Time Series Analysis",
         "Simulation Modeling"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Regression analysis models the relationship between variables."
     },
     {
       id: 35,
       question: "What visualizes relationship connections?",
       options: [
-        "Centrality Measures",
-        "Network Mapping",
         "Community Detection",
-        "Influence Analysis"
+        "Network Mapping",
+        "Influence Analysis",
+        "Centrality Measures"
       ],
       correctAnswer: 1,
       explanation: "Network mapping creates visual representations of nodes and connections."
@@ -2323,24 +2323,24 @@ AI integration automates and enhances information management tasks. Edge computi
       id: 36,
       question: "What manages organizational change for information initiatives?",
       options: [
-        "Information Strategy",
-        "Change Management",
+        "Digital Transformation",
         "Information Economics",
-        "Digital Transformation"
+        "Change Management",
+        "Information Strategy"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Change management addresses human and organizational aspects of implementation."
     },
     {
       id: 37,
       question: "What identifies those affected by changes?",
       options: [
-        "Communication Planning",
-        "Stakeholder Analysis",
         "Training Programs",
-        "Resistance Management"
+        "Resistance Management",
+        "Communication Planning",
+        "Stakeholder Analysis"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Stakeholder analysis identifies individuals and groups affected by changes."
     },
     {
@@ -2348,35 +2348,35 @@ AI integration automates and enhances information management tasks. Edge computi
       question: "What includes all costs associated with information management?",
       options: [
         "Return on Investment",
-        "Total Cost of Ownership",
         "Opportunity Costs",
-        "Intangible Benefits"
+        "Intangible Benefits",
+        "Total Cost of Ownership"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Total cost includes acquisition, implementation, maintenance, and operational costs."
     },
     {
       id: 39,
       question: "What assesses information management capabilities?",
       options: [
-        "Information Strategy",
-        "Information Architecture Maturity Models",
+        "Information Economics",
         "Change Management",
-        "Information Economics"
+        "Information Architecture Maturity Models",
+        "Information Strategy"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Maturity models assess sophistication of information management practices."
     },
     {
       id: 40,
       question: "What integrates digital technology throughout organizations?",
       options: [
-        "Change Management",
-        "Digital Transformation",
         "Information Economics",
-        "Information Strategy"
+        "Change Management",
+        "Information Strategy",
+        "Digital Transformation"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Digital transformation fundamentally changes how organizations operate using digital technologies."
     }
   ]

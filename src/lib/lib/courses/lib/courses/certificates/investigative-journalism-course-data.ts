@@ -251,12 +251,12 @@ Understanding these foundations prepares you for the challenging but vital work 
           id: 1,
           question: "What distinguishes investigative journalism from regular reporting?",
           options: [
-            "Uncovers information someone is trying to keep hidden",
             "Is always about crime and corruption",
+            "Is shorter and more immediate",
             "Uses undercover methods exclusively",
-            "Is shorter and more immediate"
+            "Uncovers information someone is trying to keep hidden"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Investigative journalism systematically uncovers information that powerful interests want to keep secret, requiring deeper research than daily reporting."
         },
         {
@@ -264,9 +264,9 @@ Understanding these foundations prepares you for the challenging but vital work 
           question: "What mindset is essential for investigative journalists?",
           options: [
             "Curiosity and skepticism",
-            "Trust in official sources",
+            "Focus on quick results",
             "Acceptance of surface explanations",
-            "Focus on quick results"
+            "Trust in official sources"
           ],
           correctAnswer: 0,
           explanation: "Investigative journalists must question everything, especially official narratives, and maintain curiosity about hidden truths."
@@ -275,12 +275,12 @@ Understanding these foundations prepares you for the challenging but vital work 
           id: 3,
           question: "What is the first phase of the investigative process?",
           options: [
-            "Conception and planning",
-            "Deep investigation",
             "Writing and presentation",
-            "Preliminary research"
+            "Preliminary research",
+            "Conception and planning",
+            "Deep investigation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Proper planning including assessing feasibility, developing research questions, and considering ethical implications comes before fieldwork."
         },
         {
@@ -288,9 +288,9 @@ Understanding these foundations prepares you for the challenging but vital work 
           question: "What characterizes data-driven investigations?",
           options: [
             "Analyzing patterns in large datasets",
+            "Focusing only on numerical information",
             "Only using official statistics",
-            "Avoiding human sources completely",
-            "Focusing only on numerical information"
+            "Avoiding human sources completely"
           ],
           correctAnswer: 0,
           explanation: "Data-driven investigations use statistical analysis, pattern recognition, and data visualization to reveal systemic issues."
@@ -299,24 +299,24 @@ Understanding these foundations prepares you for the challenging but vital work 
           id: 5,
           question: "Why do investigative journalists need higher standards of proof?",
           options: [
-            "Because their findings often challenge powerful interests",
-            "Because they work slower than other journalists",
             "Because their stories are always about crime",
-            "Because editors demand extra verification"
+            "Because editors demand extra verification",
+            "Because their findings often challenge powerful interests",
+            "Because they work slower than other journalists"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Investigative findings that challenge powerful entities require stronger evidence to withstand scrutiny and potential legal challenges."
         },
         {
           id: 6,
           question: "What is document research in investigations?",
           options: [
-            "Analyzing public records, court documents, and corporate filings",
-            "Only reading other news reports",
             "Reviewing academic papers exclusively",
-            "Checking social media posts"
+            "Checking social media posts",
+            "Only reading other news reports",
+            "Analyzing public records, court documents, and corporate filings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Document research involves systematically examining official records, legal documents, and corporate filings for evidence."
         },
         {
@@ -324,8 +324,8 @@ Understanding these foundations prepares you for the challenging but vital work 
           question: "What should fairness to subjects involve in investigations?",
           options: [
             "Providing detailed opportunity for response",
-            "Only including their denial statement",
             "Hiding their identity completely",
+            "Only including their denial statement",
             "Avoiding contact with subjects"
           ],
           correctAnswer: 0,
@@ -335,72 +335,72 @@ Understanding these foundations prepares you for the challenging but vital work 
           id: 8,
           question: "What is source development?",
           options: [
-            "Cultivating relationships with insiders and whistleblowers",
-            "Finding new social media accounts",
             "Only using official spokespeople",
+            "Finding new social media accounts",
+            "Cultivating relationships with insiders and whistleblowers",
             "Collecting random tips"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Source development involves building trusted relationships with insiders who can provide valuable information over time."
         },
         {
           id: 9,
           question: "What is the classic exposé structure?",
           options: [
-            "Presents evidence of specific wrongdoing with names and impact",
-            "Only suggests possible problems",
             "Hides the identities involved",
-            "Focuses only on systemic issues"
+            "Focuses only on systemic issues",
+            "Presents evidence of specific wrongdoing with names and impact",
+            "Only suggests possible problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Classic exposés present documented evidence of wrongdoing by named individuals or institutions, showing harm and calling for accountability."
         },
         {
           id: 10,
           question: "Why is patience important in investigations?",
           options: [
-            "Investigations often take months or years to complete",
             "Sources take time to respond to emails",
+            "Investigations often take months or years to complete",
             "Editors need time to review work",
             "Publications schedule stories far in advance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Serious investigations require time to gather sufficient evidence, develop sources, and verify complex information properly."
         },
         {
           id: 11,
           question: "What is explanatory investigation?",
           options: [
-            "Makes complex systems understandable to the public",
-            "Explains why investigations are important",
             "Only explains government policies",
+            "Explains why investigations are important",
+            "Makes complex systems understandable to the public",
             "Focuses on simple, obvious topics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Explanatory investigations help the public understand how complex systems work and why problems persist."
         },
         {
           id: 12,
           question: "What should transparency about methods include?",
           options: [
-            "Explaining investigation process and limitations",
-            "Revealing all sources immediately",
             "Publishing all research notes",
+            "Revealing all sources immediately",
+            "Explaining investigation process and limitations",
             "Only describing final conclusions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transparency helps build credibility by explaining how the investigation was conducted and acknowledging any limitations."
         },
         {
           id: 13,
           question: "What is accountability reporting?",
           options: [
-            "Following up on promises and monitoring implementation",
             "Reporting on accounting practices only",
             "Covering corporate financial reports",
-            "Checking personal bank accounts"
+            "Checking personal bank accounts",
+            "Following up on promises and monitoring implementation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Accountability reporting checks whether promises are kept, reforms are implemented, and institutions perform as claimed."
         },
         {
@@ -420,9 +420,9 @@ Understanding these foundations prepares you for the challenging but vital work 
           question: "What is field work in investigations?",
           options: [
             "Direct observation and site visits to gather evidence",
-            "Working from home or office only",
             "Only interviewing people by phone",
-            "Collecting online information"
+            "Collecting online information",
+            "Working from home or office only"
           ],
           correctAnswer: 0,
           explanation: "Field work involves visiting locations, observing conditions, and gathering firsthand evidence that can't be obtained remotely."
@@ -431,24 +431,24 @@ Understanding these foundations prepares you for the challenging but vital work 
           id: 16,
           question: "What builds institutional support for investigations?",
           options: [
-            "Developing editorial buy-in and legal support systems",
+            "Buying better equipment",
             "Only securing funding for projects",
-            "Hiring more staff members",
-            "Buying better equipment"
+            "Developing editorial buy-in and legal support systems",
+            "Hiring more staff members"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Institutional support includes editorial commitment, legal backing, security protocols, and ethical guidelines."
         },
         {
           id: 17,
           question: "What is systematic analysis in investigations?",
           options: [
-            "Examining how systems enable problems and identifying patterns",
-            "Analyzing one case in isolation",
             "Only looking at individual wrongdoing",
-            "Focusing on random events"
+            "Focusing on random events",
+            "Analyzing one case in isolation",
+            "Examining how systems enable problems and identifying patterns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Systematic analysis connects individual cases to show patterns and identify how systems enable or conceal problems."
         },
         {
@@ -456,9 +456,9 @@ Understanding these foundations prepares you for the challenging but vital work 
           question: "Why is independence crucial for investigative journalists?",
           options: [
             "To resist pressure and follow evidence wherever it leads",
-            "To work alone without collaboration",
             "To avoid all editorial oversight",
-            "To make all decisions personally"
+            "To make all decisions personally",
+            "To work alone without collaboration"
           ],
           correctAnswer: 0,
           explanation: "Independence allows journalists to pursue truth without being influenced by powerful interests or external pressures."
@@ -467,24 +467,24 @@ Understanding these foundations prepares you for the challenging but vital work 
           id: 19,
           question: "What is follow-up investigation?",
           options: [
-            "Checking on promises and reforms over time",
-            "Repeating the same investigation",
             "Only investigating new topics",
+            "Repeating the same investigation",
+            "Checking on promises and reforms over time",
             "Following people physically"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Follow-up investigations measure whether promised reforms were implemented and whether problems were truly solved."
         },
         {
           id: 20,
           question: "What personal qualities help in long investigations?",
           options: [
-            "Resilience, patience, and ability to manage stress",
-            "Only technical research skills",
             "Ability to work very quickly",
-            "Willingness to take shortcuts"
+            "Willingness to take shortcuts",
+            "Resilience, patience, and ability to manage stress",
+            "Only technical research skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Long investigations require emotional resilience, patience through setbacks, and stress management skills."
         }
       ]
@@ -774,48 +774,48 @@ Mastering document research transforms scattered information into powerful evide
           id: 1,
           question: "What are public records?",
           options: [
-            "Documents created or maintained by government agencies available to public",
-            "Only secret government documents",
+            "Historical archives not currently accessible",
             "Personal private documents",
-            "Historical archives not currently accessible"
+            "Documents created or maintained by government agencies available to public",
+            "Only secret government documents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Public records are government documents that citizens have legal right to access, though specific access varies by jurisdiction."
         },
         {
           id: 2,
           question: "What does FOIA stand for and what does it do?",
           options: [
-            "Freedom of Information Act - provides access to federal agency records",
             "Freedom of Information Access - state records law",
-            "Federal Office of Information Access - classifies documents",
-            "Foreign Operations Information Act - international records"
+            "Freedom of Information Act - provides access to federal agency records",
+            "Foreign Operations Information Act - international records",
+            "Federal Office of Information Access - classifies documents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Freedom of Information Act is the U.S. federal law that gives the public right to access records from federal government agencies."
         },
         {
           id: 3,
           question: "What should you research before making a records request?",
           options: [
-            "If records exist online and correct agency contact",
-            "Only the topic you're investigating",
+            "How to write in legal language",
             "What other journalists have written",
-            "How to write in legal language"
+            "Only the topic you're investigating",
+            "If records exist online and correct agency contact"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Researching existing online availability and correct agency contacts saves time and improves request effectiveness."
         },
         {
           id: 4,
           question: "What is systematic document review?",
           options: [
-            "Creating tracking system and looking for patterns",
+            "Skipping to conclusions quickly",
             "Reading documents randomly",
             "Only looking for specific names",
-            "Skipping to conclusions quickly"
+            "Creating tracking system and looking for patterns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Systematic review involves organized tracking and analysis to identify patterns and connections across documents."
         },
         {
@@ -823,9 +823,9 @@ Mastering document research transforms scattered information into powerful evide
           question: "What are common obstacles to record access?",
           options: [
             "Excessive fees, delays, and overbroad exemption claims",
-            "Too many available records",
+            "Lack of interest in records",
             "Records being completely open",
-            "Lack of interest in records"
+            "Too many available records"
           ],
           correctAnswer: 0,
           explanation: "Common barriers include high fees, slow responses, and agencies claiming broad exemptions to avoid disclosure."
@@ -834,156 +834,156 @@ Mastering document research transforms scattered information into powerful evide
           id: 6,
           question: "What documents might show financial wrongdoing?",
           options: [
-            "Budgets, contracts, expenditure reports, and audits",
+            "News articles about finances",
             "Only personal bank statements",
-            "Social media posts about money",
-            "News articles about finances"
+            "Budgets, contracts, expenditure reports, and audits",
+            "Social media posts about money"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Government financial documents can reveal mismanagement, corruption, and improper spending patterns."
         },
         {
           id: 7,
           question: "What is PACER used for?",
           options: [
-            "Accessing U.S. federal court records electronically",
-            "Tracking congressional legislation",
             "Monitoring political campaigns",
-            "Accessing state court records"
+            "Accessing U.S. federal court records electronically",
+            "Accessing state court records",
+            "Tracking congressional legislation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PACER (Public Access to Court Electronic Records) provides online access to U.S. federal court documents."
         },
         {
           id: 8,
           question: "Why verify document authenticity?",
           options: [
-            "To ensure documents are genuine and not altered",
-            "Because all documents might be fake",
             "Only for very old documents",
-            "To impress editors with thoroughness"
+            "To impress editors with thoroughness",
+            "To ensure documents are genuine and not altered",
+            "Because all documents might be fake"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Verifying authenticity prevents using forged or altered documents that could undermine investigation credibility."
         },
         {
           id: 9,
           question: "What tools help with document analysis?",
           options: [
-            "Spreadsheets, databases, OCR software, and annotation tools",
-            "Only word processors",
             "Social media platforms",
-            "Basic text editors"
+            "Only word processors",
+            "Basic text editors",
+            "Spreadsheets, databases, OCR software, and annotation tools"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Various software tools help organize, extract, analyze, and annotate documents for investigative purposes."
         },
         {
           id: 10,
           question: "What should you do if records don't exist?",
           options: [
+            "Abandon that line of inquiry",
             "Document the absence and seek alternative sources",
             "Assume information doesn't exist",
-            "Abandon that line of inquiry",
             "Accuse agency of hiding records"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Documenting missing records can itself be newsworthy, and alternative sources may provide similar information."
         },
         {
           id: 11,
           question: "What are state public records laws?",
           options: [
-            "State laws governing access to state and local government records",
-            "Exactly the same as federal FOIA",
             "Only for historical records",
+            "Exactly the same as federal FOIA",
+            "State laws governing access to state and local government records",
             "Laws protecting government secrecy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Each U.S. state has its own public records law governing access to state and local government documents."
         },
         {
           id: 12,
           question: "What is OCR software used for?",
           options: [
-            "Converting scanned documents to searchable text",
             "Organizing court records",
-            "Creating online records requests",
-            "Analyzing financial data"
+            "Converting scanned documents to searchable text",
+            "Analyzing financial data",
+            "Creating online records requests"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Optical Character Recognition software converts scanned images of text into machine-readable, searchable text."
         },
         {
           id: 13,
           question: "What privacy considerations apply to documents?",
           options: [
-            "Balancing public interest with individual privacy rights",
-            "Never publishing any personal information",
             "Only considering privacy for famous people",
-            "Ignoring privacy for government officials"
+            "Never publishing any personal information",
+            "Ignoring privacy for government officials",
+            "Balancing public interest with individual privacy rights"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ethical use of documents requires considering whether public interest justifies potential privacy intrusions."
         },
         {
           id: 14,
           question: "What is EDGAR database used for?",
           options: [
-            "Accessing SEC filings for public companies",
+            "Accessing court documents",
             "Finding educational records",
-            "Tracking environmental reports",
-            "Accessing court documents"
+            "Accessing SEC filings for public companies",
+            "Tracking environmental reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EDGAR (Electronic Data Gathering, Analysis, and Retrieval) is the SEC's system for corporate filings."
         },
         {
           id: 15,
           question: "Why create a document tracking system?",
           options: [
+            "Only for very large investigations",
             "To organize and retrieve documents efficiently during investigation",
             "Because editors require it",
-            "Only for very large investigations",
             "To show sources how organized you are"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Good tracking systems help manage large document collections and find connections across different materials."
         },
         {
           id: 16,
           question: "What are campaign finance records useful for?",
           options: [
-            "Tracking political influence and donor relationships",
+            "Checking voter registration",
             "Only reporting donation amounts",
             "Finding personal financial information",
-            "Checking voter registration"
+            "Tracking political influence and donor relationships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Campaign finance records reveal who funds political campaigns and potential influence relationships."
         },
         {
           id: 17,
           question: "What is a fee waiver request?",
           options: [
+            "Asking sources to pay for documents",
             "Request to waive copying fees for public interest requests",
-            "Asking for free legal advice",
             "Request to avoid all investigation costs",
-            "Asking sources to pay for documents"
+            "Asking for free legal advice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fee waivers can reduce costs when documents serve public interest rather than commercial purposes."
         },
         {
           id: 18,
           question: "What should you do with contradictory documents?",
           options: [
-            "Include them and explain contradictions",
             "Only use documents supporting your thesis",
+            "Assume contradictory documents are fake",
             "Ignore contradictory documents",
-            "Assume contradictory documents are fake"
+            "Include them and explain contradictions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Including contradictory documents shows thoroughness and helps audience understand complexity."
         },
         {
@@ -991,9 +991,9 @@ Mastering document research transforms scattered information into powerful evide
           question: "What are property records useful for?",
           options: [
             "Tracking asset ownership and financial relationships",
-            "Only reporting home values",
             "Finding where people live exactly",
-            "Checking building safety"
+            "Checking building safety",
+            "Only reporting home values"
           ],
           correctAnswer: 0,
           explanation: "Property records can reveal asset ownership patterns, financial relationships, and potential conflicts of interest."
@@ -1002,12 +1002,12 @@ Mastering document research transforms scattered information into powerful evide
           id: 20,
           question: "Why collaborate on records requests?",
           options: [
-            "To share costs, expertise, and overcome resistance",
             "Because it's required by law",
+            "To share costs, expertise, and overcome resistance",
             "Only for international requests",
             "To make work easier"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Collaboration pools resources, shares expertise, and can overcome agency resistance through coordinated effort."
         }
       ]
@@ -1334,24 +1334,24 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           id: 1,
           question: "What is data journalism?",
           options: [
-            "Finding stories in numbers and using numbers to tell stories",
             "Only reporting on science and technology",
             "Creating computer programs for news",
+            "Finding stories in numbers and using numbers to tell stories",
             "Using social media data exclusively"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Data journalism combines traditional reporting with data analysis and visualization to uncover and explain stories."
         },
         {
           id: 2,
           question: "What is the first step in data journalism process?",
           options: [
-            "Finding data stories and identifying questions",
             "Acquiring all available data",
             "Cleaning and preparing data",
-            "Creating visualizations"
+            "Creating visualizations",
+            "Finding data stories and identifying questions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Starting with story questions helps focus data acquisition and analysis on meaningful investigations."
         },
         {
@@ -1360,8 +1360,8 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           options: [
             "To fix errors and standardize formats for accurate analysis",
             "Because dirty data looks bad",
-            "Only for very large datasets",
-            "To make data smaller for storage"
+            "To make data smaller for storage",
+            "Only for very large datasets"
           ],
           correctAnswer: 0,
           explanation: "Cleaning ensures data is accurate, consistent, and properly formatted for reliable analysis."
@@ -1370,24 +1370,24 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           id: 4,
           question: "What distinguishes correlation from causation?",
           options: [
-            "Correlation means relationship; causation means one causes the other",
             "They mean exactly the same thing",
-            "Causation is weaker than correlation",
-            "Correlation only applies to scientific data"
+            "Correlation means relationship; causation means one causes the other",
+            "Correlation only applies to scientific data",
+            "Causation is weaker than correlation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correlation shows relationship between variables; causation requires evidence that one variable directly affects another."
         },
         {
           id: 5,
           question: "What are common data acquisition methods?",
           options: [
-            "Public databases, FOIA requests, web scraping, and surveys",
             "Only government websites",
-            "Buying data from companies",
-            "Guessing and estimating"
+            "Guessing and estimating",
+            "Public databases, FOIA requests, web scraping, and surveys",
+            "Buying data from companies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Multiple methods including public sources, legal requests, technical collection, and original research can provide data."
         },
         {
@@ -1396,8 +1396,8 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           options: [
             "Programmatically extracting data from websites",
             "Reading websites manually",
-            "Copying data by hand",
-            "Only collecting social media data"
+            "Only collecting social media data",
+            "Copying data by hand"
           ],
           correctAnswer: 0,
           explanation: "Web scraping uses software to automatically collect data from websites, subject to legal and ethical considerations."
@@ -1407,9 +1407,9 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           question: "When should you use a line chart?",
           options: [
             "To show trends or changes over time",
-            "To compare categories at one time",
             "To show geographic distribution",
-            "To display relationships between variables"
+            "To display relationships between variables",
+            "To compare categories at one time"
           ],
           correctAnswer: 0,
           explanation: "Line charts are ideal for showing how values change over continuous time periods."
@@ -1418,72 +1418,72 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           id: 8,
           question: "What is sampling bias?",
           options: [
+            "Choosing which data to analyze",
             "When data collection methods produce unrepresentative samples",
-            "Preferring certain statistical methods",
             "Only sampling part of a dataset",
-            "Choosing which data to analyze"
+            "Preferring certain statistical methods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sampling bias occurs when the method of collecting data systematically excludes certain groups or perspectives."
         },
         {
           id: 9,
           question: "Why is methodological transparency important?",
           options: [
-            "Allows others to verify findings and builds credibility",
-            "Makes stories longer",
             "Only important for academic journals",
-            "Required by data protection laws"
+            "Required by data protection laws",
+            "Makes stories longer",
+            "Allows others to verify findings and builds credibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transparency about methods enables verification, builds trust, and allows others to build on your work."
         },
         {
           id: 10,
           question: "What does SQL help with?",
           options: [
-            "Querying and analyzing structured databases",
             "Creating data visualizations",
+            "Querying and analyzing structured databases",
             "Web scraping websites",
             "Statistical analysis only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SQL (Structured Query Language) is used to retrieve, filter, and analyze data stored in relational databases."
         },
         {
           id: 11,
           question: "What are ethical considerations for data privacy?",
           options: [
-            "Anonymizing personal information and considering re-identification risks",
             "Never using any personal data",
             "Only considering privacy for famous people",
-            "Ignoring privacy for public data"
+            "Ignoring privacy for public data",
+            "Anonymizing personal information and considering re-identification risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Even with public data, journalists should consider privacy implications and risks of identifying individuals."
         },
         {
           id: 12,
           question: "What is exploratory data analysis?",
           options: [
-            "Initial investigation to discover patterns and generate hypotheses",
-            "Final analysis for publication",
+            "Analysis without any planning",
             "Only looking for expected patterns",
-            "Analysis without any planning"
+            "Initial investigation to discover patterns and generate hypotheses",
+            "Final analysis for publication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Exploratory analysis helps understand data structure and identify interesting patterns before formal hypothesis testing."
         },
         {
           id: 13,
           question: "What are pivot tables useful for?",
           options: [
-            "Summarizing and analyzing large datasets in spreadsheets",
-            "Creating pivot charts automatically",
             "Only for financial data",
-            "Making data look more complicated"
+            "Creating pivot charts automatically",
+            "Making data look more complicated",
+            "Summarizing and analyzing large datasets in spreadsheets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pivot tables allow quick summarization and cross-tabulation of large datasets without complex formulas."
         },
         {
@@ -1491,9 +1491,9 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           question: "What is network analysis?",
           options: [
             "Mapping and analyzing relationships between entities",
-            "Analyzing computer network data",
             "Only for social media connections",
-            "Checking internet connection speeds"
+            "Checking internet connection speeds",
+            "Analyzing computer network data"
           ],
           correctAnswer: 0,
           explanation: "Network analysis examines connections between entities to understand relationship patterns and structures."
@@ -1502,36 +1502,36 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           id: 15,
           question: "Why consider data provenance?",
           options: [
-            "To understand data origins, collection methods, and limitations",
-            "Only for very old data",
             "To prove you own the data",
-            "Because editors require it"
+            "To understand data origins, collection methods, and limitations",
+            "Because editors require it",
+            "Only for very old data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Knowing data provenance helps assess reliability and understand potential biases or limitations."
         },
         {
           id: 16,
           question: "What is GIS used for?",
           options: [
-            "Geographic analysis and mapping spatial data",
-            "General information systems",
             "Only creating simple maps",
+            "General information systems",
+            "Geographic analysis and mapping spatial data",
             "Government information storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Geographic Information Systems analyze and visualize spatial data to reveal geographic patterns."
         },
         {
           id: 17,
           question: "What are common data quality issues?",
           options: [
-            "Missing data, measurement errors, and inconsistent definitions",
-            "Data being too accurate",
             "Having too much data",
-            "Data being completely clean"
+            "Data being completely clean",
+            "Missing data, measurement errors, and inconsistent definitions",
+            "Data being too accurate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Real-world data often has missing values, errors, and inconsistencies that must be addressed during analysis."
         },
         {
@@ -1550,24 +1550,24 @@ Data journalism provides powerful tools for uncovering systemic issues, holding 
           id: 19,
           question: "What tools help with reproducible analysis?",
           options: [
-            "Jupyter notebooks, version control, and documented scripts",
-            "Only manual calculations",
             "Spreadsheets without documentation",
-            "Memory and handwritten notes"
+            "Jupyter notebooks, version control, and documented scripts",
+            "Memory and handwritten notes",
+            "Only manual calculations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Reproducible tools ensure others can verify analysis and findings can be updated with new data."
         },
         {
           id: 20,
           question: "Why build data journalism capacity in newsrooms?",
           options: [
-            "To systematically investigate complex issues and hold power accountable",
-            "Because it's currently popular",
+            "To replace traditional reporting",
             "Only to create pretty graphics",
-            "To replace traditional reporting"
+            "Because it's currently popular",
+            "To systematically investigate complex issues and hold power accountable"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Data skills enable investigations of systemic issues that traditional reporting might miss, enhancing accountability journalism."
         }
       ]
@@ -1865,60 +1865,60 @@ Effective source protection enables the crucial work of investigative journalism
           id: 1,
           question: "Why is source protection ethically important?",
           options: [
+            "Only important in authoritarian countries",
             "Enables whistleblowers to come forward and exposes wrongdoing",
             "Makes stories more exciting",
-            "Protects journalists from legal liability",
-            "Only important in authoritarian countries"
+            "Protects journalists from legal liability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Source protection enables accountability journalism by allowing insiders to safely reveal wrongdoing."
         },
         {
           id: 2,
           question: "What is threat modeling?",
           options: [
+            "Guessing what might go wrong",
             "Assessing who might compromise communications and their capabilities",
             "Creating threats to test security",
-            "Only considering government surveillance",
-            "Guessing what might go wrong"
+            "Only considering government surveillance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Threat modeling systematically evaluates potential adversaries and their capabilities to design appropriate protections."
         },
         {
           id: 3,
           question: "Which app is considered the gold standard for encrypted messaging?",
           options: [
-            "Signal",
-            "WhatsApp",
+            "Facebook Messenger",
             "Telegram",
-            "Facebook Messenger"
+            "WhatsApp",
+            "Signal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Signal provides strong end-to-end encryption with minimal metadata collection, making it preferred for sensitive communications."
         },
         {
           id: 4,
           question: "When should anonymity be granted to sources?",
           options: [
-            "When source faces serious harm and information has public interest",
+            "For all sources to be consistent",
             "Whenever source requests it",
-            "Only for government whistleblowers",
-            "For all sources to be consistent"
+            "When source faces serious harm and information has public interest",
+            "Only for government whistleblowers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Anonymity requires balancing source safety against public interest and ensuring information credibility."
         },
         {
           id: 5,
           question: "What is digital hygiene?",
           options: [
-            "Regular security practices like strong passwords and updates",
-            "Cleaning computer screens regularly",
+            "Avoiding all digital communication",
             "Only using new devices",
-            "Avoiding all digital communication"
+            "Regular security practices like strong passwords and updates",
+            "Cleaning computer screens regularly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital hygiene includes basic security practices that protect against common threats and vulnerabilities."
         },
         {
@@ -1926,8 +1926,8 @@ Effective source protection enables the crucial work of investigative journalism
           question: "What are shield laws?",
           options: [
             "Laws protecting journalists from revealing sources in some cases",
-            "Laws about physical protection",
             "International human rights treaties",
+            "Laws about physical protection",
             "Laws protecting government secrets"
           ],
           correctAnswer: 0,
@@ -1937,12 +1937,12 @@ Effective source protection enables the crucial work of investigative journalism
           id: 7,
           question: "Why use PGP/GPG encryption for email?",
           options: [
-            "Provides end-to-end encryption for email content",
             "Makes emails faster to send",
             "Required by all email providers",
-            "Only for very important people"
+            "Only for very important people",
+            "Provides end-to-end encryption for email content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PGP/GPG encrypts email content so only intended recipient can read it, protecting against interception."
         },
         {
@@ -1951,8 +1951,8 @@ Effective source protection enables the crucial work of investigative journalism
           options: [
             "Privacy, visibility, and avoiding surveillance",
             "Only convenience for the journalist",
-            "Fancy restaurants to impress sources",
-            "Public places with many witnesses"
+            "Public places with many witnesses",
+            "Fancy restaurants to impress sources"
           ],
           correctAnswer: 0,
           explanation: "Meeting locations should balance privacy needs with safety and consider potential surveillance risks."
@@ -1961,12 +1961,12 @@ Effective source protection enables the crucial work of investigative journalism
           id: 9,
           question: "What is full disk encryption?",
           options: [
-            "Encrypting entire storage device to protect data if lost or stolen",
             "Only encrypting important files",
-            "Password protecting computer login",
-            "Using encrypted internet connections"
+            "Encrypting entire storage device to protect data if lost or stolen",
+            "Using encrypted internet connections",
+            "Password protecting computer login"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Full disk encryption protects all data on a device if it's physically lost, stolen, or confiscated."
         },
         {
@@ -1974,9 +1974,9 @@ Effective source protection enables the crucial work of investigative journalism
           question: "Why assess source risks?",
           options: [
             "To determine appropriate protection levels and methods",
-            "To decide if source is worth protecting",
             "Only for sources in dangerous countries",
-            "Because all sources face equal risks"
+            "Because all sources face equal risks",
+            "To decide if source is worth protecting"
           ],
           correctAnswer: 0,
           explanation: "Different sources face different risks requiring tailored protection approaches based on their specific situation."
@@ -1985,12 +1985,12 @@ Effective source protection enables the crucial work of investigative journalism
           id: 11,
           question: "What are anonymization techniques?",
           options: [
-            "Methods to remove identifying information from data",
-            "Making sources completely anonymous always",
             "Changing all facts in stories",
+            "Making sources completely anonymous always",
+            "Methods to remove identifying information from data",
             "Only using code names for sources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Anonymization protects sources by removing or altering details that could reveal their identity."
         },
         {
@@ -1998,9 +1998,9 @@ Effective source protection enables the crucial work of investigative journalism
           question: "What should newsroom protocols include?",
           options: [
             "Source protection policies and secure document handling",
-            "Only guidelines for writing stories",
             "Rules about office behavior",
-            "Publication schedules only"
+            "Publication schedules only",
+            "Only guidelines for writing stories"
           ],
           correctAnswer: 0,
           explanation: "Organizational protocols ensure consistent security practices and support for journalists protecting sources."
@@ -2009,12 +2009,12 @@ Effective source protection enables the crucial work of investigative journalism
           id: 13,
           question: "Why consider psychological aspects of source protection?",
           options: [
-            "Whistleblowers face stress and need support",
             "To manipulate sources emotionally",
+            "Because journalists are psychologists",
             "Only for sources in traumatic situations",
-            "Because journalists are psychologists"
+            "Whistleblowers face stress and need support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Understanding psychological impacts helps journalists support sources and maintain ethical relationships."
         },
         {
@@ -2033,48 +2033,48 @@ Effective source protection enables the crucial work of investigative journalism
           id: 15,
           question: "Why use VPNs on public networks?",
           options: [
-            "Encrypts internet traffic on insecure networks",
             "Makes internet faster always",
+            "Only for accessing blocked websites",
             "Required by law in some places",
-            "Only for accessing blocked websites"
+            "Encrypts internet traffic on insecure networks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "VPNs encrypt internet traffic, protecting against eavesdropping on insecure public WiFi networks."
         },
         {
           id: 16,
           question: "What are legal considerations for international work?",
           options: [
-            "Varying legal protections and surveillance capabilities by country",
             "Only considering U.S. laws",
-            "Assuming all countries have free press",
-            "Ignoring local laws when doing important work"
+            "Varying legal protections and surveillance capabilities by country",
+            "Ignoring local laws when doing important work",
+            "Assuming all countries have free press"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "International work requires understanding different legal environments and potential risks in each country."
         },
         {
           id: 17,
           question: "What is secure file transfer?",
           options: [
-            "Methods to share files while protecting content and metadata",
-            "Only using email attachments",
             "Physical delivery of printed documents",
-            "Posting files on public websites"
+            "Methods to share files while protecting content and metadata",
+            "Posting files on public websites",
+            "Only using email attachments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Secure file transfer protects both file content and metadata about the transfer itself."
         },
         {
           id: 18,
           question: "Why develop crisis response plans?",
           options: [
-            "To respond effectively if security is compromised",
-            "Because crises never happen with planning",
             "Only for large news organizations",
-            "To scare journalists into being careful"
+            "To respond effectively if security is compromised",
+            "To scare journalists into being careful",
+            "Because crises never happen with planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Planning enables effective response if security breaches occur, minimizing harm and protecting sources."
         },
         {
@@ -2082,8 +2082,8 @@ Effective source protection enables the crucial work of investigative journalism
           question: "What is source verification without exposure?",
           options: [
             "Corroborating information without revealing source identity",
-            "Meeting sources in person only",
             "Trusting sources completely",
+            "Meeting sources in person only",
             "Only using documents for verification"
           ],
           correctAnswer: 0,
@@ -2093,12 +2093,12 @@ Effective source protection enables the crucial work of investigative journalism
           id: 20,
           question: "Why regular security training?",
           options: [
-            "Threats evolve and practices need updating",
-            "Because journalists forget everything",
+            "To fill time between investigations",
             "Only when new staff join",
-            "To fill time between investigations"
+            "Threats evolve and practices need updating",
+            "Because journalists forget everything"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regular training ensures journalists stay current with evolving threats and protection methods."
         }
       ]
@@ -2429,9 +2429,9 @@ Long-form investigative writing transforms complex information into compelling n
           question: "What characterizes long-form investigative writing?",
           options: [
             "Depth, narrative power, evidentiary rigor, and public service focus",
+            "Focusing on entertainment over evidence",
             "Short, quick updates on investigations",
-            "Only presenting raw data without narrative",
-            "Focusing on entertainment over evidence"
+            "Only presenting raw data without narrative"
           ],
           correctAnswer: 0,
           explanation: "Long-form combines thorough investigation with compelling storytelling to engage audiences on important issues."
@@ -2440,84 +2440,84 @@ Long-form investigative writing transforms complex information into compelling n
           id: 2,
           question: "What is chronological structure?",
           options: [
+            "Starting with conclusion first",
             "Following events in time order to show development",
             "Organizing by themes or topics",
-            "Starting with conclusion first",
             "Random organization of information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Chronological structure builds narrative through time sequence, showing how events unfolded and connecting causes to effects."
         },
         {
           id: 3,
           question: "What makes a good investigative opening?",
           options: [
-            "Engages reader immediately while signaling story importance",
-            "Provides all background information first",
             "Starts with journalist's personal experience",
-            "Uses technical jargon to show expertise"
+            "Uses technical jargon to show expertise",
+            "Engages reader immediately while signaling story importance",
+            "Provides all background information first"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective openings hook readers while establishing the story's significance and setting appropriate tone."
         },
         {
           id: 4,
           question: "How should evidence be integrated into narrative?",
           options: [
-            "Naturally woven into story with explanation of significance",
-            "Presented in separate appendices only",
             "Included as long block quotations",
-            "Mentioned only in footnotes"
+            "Mentioned only in footnotes",
+            "Presented in separate appendices only",
+            "Naturally woven into story with explanation of significance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Evidence should flow naturally within narrative, with clear explanation of why each piece matters to the story."
         },
         {
           id: 5,
           question: "Why vary pacing in long-form writing?",
           options: [
-            "Maintains reader interest and controls information flow",
             "Makes stories longer automatically",
+            "Maintains reader interest and controls information flow",
             "Shows writer's stylistic range",
             "Required by publication guidelines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Pacing variation keeps readers engaged and helps control when key information is revealed for maximum impact."
         },
         {
           id: 6,
           question: "What is thematic structure?",
           options: [
-            "Organizing by topics or aspects of issue",
             "Following strict time sequence",
             "Grouping by source type",
+            "Organizing by topics or aspects of issue",
             "Alphabetical organization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Thematic structure examines different dimensions of an issue systematically, often revealing systemic patterns."
         },
         {
           id: 7,
           question: "How handle contradictory evidence?",
           options: [
-            "Acknowledge and explain contradictions honestly",
-            "Ignore contradictory evidence",
+            "Assume contradictory evidence is wrong",
             "Only present evidence supporting main thesis",
-            "Assume contradictory evidence is wrong"
+            "Acknowledge and explain contradictions honestly",
+            "Ignore contradictory evidence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Acknowledging contradictions shows thorough investigation and helps readers understand complex issues."
         },
         {
           id: 8,
           question: "What is character-driven structure?",
           options: [
-            "Centering narrative on individuals affected by issue",
             "Making journalist the main character",
             "Only using famous people as characters",
+            "Centering narrative on individuals affected by issue",
             "Creating fictional characters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Character-driven stories use personal experiences to illustrate larger issues and create emotional connection."
         },
         {
@@ -2525,9 +2525,9 @@ Long-form investigative writing transforms complex information into compelling n
           question: "Why use scene setting effectively?",
           options: [
             "Creates vivid context and supports story themes",
-            "Makes stories longer without adding value",
             "Shows writer's descriptive abilities",
-            "Required for all investigative stories"
+            "Required for all investigative stories",
+            "Makes stories longer without adding value"
           ],
           correctAnswer: 0,
           explanation: "Effective scene setting helps readers visualize situations and connects physical details to larger themes."
@@ -2536,36 +2536,36 @@ Long-form investigative writing transforms complex information into compelling n
           id: 10,
           question: "What should fairness in investigative writing include?",
           options: [
-            "Meaningful opportunity for response and balanced perspective",
-            "Equal space for all opinions regardless of evidence",
             "Avoiding any criticism of powerful people",
-            "Only presenting one side completely"
+            "Only presenting one side completely",
+            "Meaningful opportunity for response and balanced perspective",
+            "Equal space for all opinions regardless of evidence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Fairness requires giving subjects real opportunity to respond and presenting balanced perspective based on evidence."
         },
         {
           id: 11,
           question: "What is structural editing?",
           options: [
+            "Changing writer's voice completely",
             "Assessing overall organization, flow, and coherence",
             "Only checking grammar and spelling",
-            "Making stories shorter arbitrarily",
-            "Changing writer's voice completely"
+            "Making stories shorter arbitrarily"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Structural editing evaluates big-picture organization to ensure logical flow and effective storytelling."
         },
         {
           id: 12,
           question: "How present data in investigative writing?",
           options: [
-            "Explain numbers clearly with context and comparisons",
             "Include all raw data in text",
             "Use technical statistical language",
+            "Explain numbers clearly with context and comparisons",
             "Hide data in appendices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Data should be made accessible through clear explanation, relevant comparisons, and appropriate visualization."
         },
         {
@@ -2574,8 +2574,8 @@ Long-form investigative writing transforms complex information into compelling n
           options: [
             "Following journalist's discovery process",
             "Organizing by investigation methods used",
-            "Starting with conclusions first",
-            "Grouping by type of evidence"
+            "Grouping by type of evidence",
+            "Starting with conclusions first"
           ],
           correctAnswer: 0,
           explanation: "Investigation structure takes readers along the discovery journey, showing how information was uncovered."
@@ -2584,36 +2584,36 @@ Long-form investigative writing transforms complex information into compelling n
           id: 14,
           question: "Why transparency about methods?",
           options: [
-            "Builds credibility and allows verification",
             "Makes stories more complicated",
             "Reveals confidential sources",
-            "Required by academic standards only"
+            "Required by academic standards only",
+            "Builds credibility and allows verification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transparency about methods helps readers assess evidence credibility and builds trust in findings."
         },
         {
           id: 15,
           question: "How manage multiple sources in narrative?",
           options: [
-            "Balance perspectives and show where sources agree/disagree",
-            "Only use sources supporting main thesis",
             "Present all sources as equally credible",
+            "Only use sources supporting main thesis",
+            "Balance perspectives and show where sources agree/disagree",
             "Hide source conflicts from readers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Managing multiple sources involves showing different perspectives while explaining credibility and relationships."
         },
         {
           id: 16,
           question: "What is line editing?",
           options: [
-            "Improving sentence-level clarity and readability",
-            "Only checking factual accuracy",
             "Changing story structure completely",
-            "Adding decorative language"
+            "Only checking factual accuracy",
+            "Adding decorative language",
+            "Improving sentence-level clarity and readability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Line editing focuses on sentence construction, word choice, and paragraph flow for better readability."
         },
         {
@@ -2622,8 +2622,8 @@ Long-form investigative writing transforms complex information into compelling n
           options: [
             "Balance public interest with potential individual harm",
             "Avoid upsetting anyone with the story",
-            "Only consider harm to powerful people",
-            "Ignore harm for important stories"
+            "Ignore harm for important stories",
+            "Only consider harm to powerful people"
           ],
           correctAnswer: 0,
           explanation: "Ethical journalism considers potential harm to individuals while serving public interest through important revelations."
@@ -2634,8 +2634,8 @@ Long-form investigative writing transforms complex information into compelling n
           options: [
             "Combining multiple structural approaches as needed",
             "Using no structure at all",
-            "Changing structure randomly",
-            "Only for very short stories"
+            "Only for very short stories",
+            "Changing structure randomly"
           ],
           correctAnswer: 0,
           explanation: "Hybrid structures adapt different organizational approaches to best serve complex investigative stories."
@@ -2644,24 +2644,24 @@ Long-form investigative writing transforms complex information into compelling n
           id: 19,
           question: "How measure investigation impact?",
           options: [
-            "Track responses, changes, and continued developments",
             "Only count page views and shares",
             "Assume impact if story gets awards",
-            "Measure immediately after publication only"
+            "Measure immediately after publication only",
+            "Track responses, changes, and continued developments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Impact measurement should include immediate response, medium-term changes, and long-term follow-up."
         },
         {
           id: 20,
           question: "Why narrative power in investigative writing?",
           options: [
-            "Engages readers and makes complex issues understandable",
             "Makes stories more entertaining than factual",
             "Required by all publications",
-            "Shows writer's creativity over evidence"
+            "Shows writer's creativity over evidence",
+            "Engages readers and makes complex issues understandable"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Narrative techniques help readers engage with complex issues and understand why they matter personally and societally."
         }
       ]
@@ -2987,48 +2987,48 @@ Understanding legal challenges and developing effective defense strategies enabl
           id: 1,
           question: "What are the elements of defamation?",
           options: [
-            "False statement, publication, fault, and harm",
-            "True statement that hurts reputation",
             "Any critical reporting",
-            "Only intentional lies about public figures"
+            "Only intentional lies about public figures",
+            "True statement that hurts reputation",
+            "False statement, publication, fault, and harm"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Defamation requires false statement that was published, made with appropriate level of fault, and caused harm to reputation."
         },
         {
           id: 2,
           question: "When should you involve a lawyer in investigative work?",
           options: [
-            "Before publishing potentially risky stories",
+            "Only for stories about very powerful people",
             "Only after receiving legal threats",
-            "Never - it inhibits journalistic freedom",
-            "Only for stories about very powerful people"
+            "Before publishing potentially risky stories",
+            "Never - it inhibits journalistic freedom"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Early legal consultation can identify risks and help structure investigations to minimize legal vulnerability."
         },
         {
           id: 3,
           question: "What is pre-publication review?",
           options: [
-            "Legal review of potentially risky stories before publication",
+            "Market testing of story concepts",
             "Editorial review by senior journalists",
             "Fact-checking by independent verifiers",
-            "Market testing of story concepts"
+            "Legal review of potentially risky stories before publication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pre-publication legal review identifies potential legal issues and suggests ways to minimize risks while preserving story."
         },
         {
           id: 4,
           question: "What should you do upon receiving a cease and desist letter?",
           options: [
-            "Consult with lawyer before responding",
-            "Ignore it completely",
+            "Retract the story immediately",
             "Immediately publish the letter",
-            "Retract the story immediately"
+            "Consult with lawyer before responding",
+            "Ignore it completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Legal consultation ensures proper evaluation of claims and strategic response rather than emotional reaction."
         },
         {
@@ -3036,9 +3036,9 @@ Understanding legal challenges and developing effective defense strategies enabl
           question: "What are shield laws?",
           options: [
             "Laws protecting journalists from revealing sources",
-            "Laws protecting government secrets",
             "International human rights treaties",
-            "Laws about physical protection"
+            "Laws about physical protection",
+            "Laws protecting government secrets"
           ],
           correctAnswer: 0,
           explanation: "Shield laws provide varying levels of protection against being forced to reveal confidential sources, differing by jurisdiction."
@@ -3047,72 +3047,72 @@ Understanding legal challenges and developing effective defense strategies enabl
           id: 6,
           question: "What is defensive documentation?",
           options: [
-            "Systematic records supporting accuracy and process",
-            "Only saving source contact information",
+            "Documenting only the final story",
             "Keeping all emails forever",
-            "Documenting only the final story"
+            "Systematic records supporting accuracy and process",
+            "Only saving source contact information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Defensive documentation preserves evidence of verification efforts, editorial process, and public interest justification."
         },
         {
           id: 7,
           question: "What is contempt of court for journalists?",
           options: [
-            "Refusing court order to reveal sources or information",
-            "Being rude to judges in court",
+            "Missing court appearance dates",
             "Publishing critical court coverage",
-            "Missing court appearance dates"
+            "Being rude to judges in court",
+            "Refusing court order to reveal sources or information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Contempt charges can result from refusing court orders to reveal confidential sources or other protected information."
         },
         {
           id: 8,
           question: "Why document public interest justification?",
           options: [
-            "Supports legal defenses and demonstrates story importance",
             "Makes stories longer",
-            "Required by all publications",
-            "Only for award submissions"
+            "Supports legal defenses and demonstrates story importance",
+            "Only for award submissions",
+            "Required by all publications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Public interest documentation helps justify potentially invasive reporting and supports legal defenses."
         },
         {
           id: 9,
           question: "What is fair use defense in copyright?",
           options: [
-            "Limited use of copyrighted material for purposes like news",
             "Using anything if you don't profit",
             "Fair treatment of copyright holders",
+            "Limited use of copyrighted material for purposes like news",
             "Equal use rights for all"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Fair use allows limited use of copyrighted material for purposes like news reporting, criticism, or education."
         },
         {
           id: 10,
           question: "What should organizational protection strategies include?",
           options: [
-            "Policies, training, insurance, and collaborative networks",
-            "Only hiring lawyers on retainer",
+            "Keeping all investigations secret",
             "Avoiding all risky stories",
-            "Keeping all investigations secret"
+            "Policies, training, insurance, and collaborative networks",
+            "Only hiring lawyers on retainer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Comprehensive strategies include policies, training, financial planning, and collaborative defense efforts."
         },
         {
           id: 11,
           question: "What are privacy torts?",
           options: [
-            "Legal claims for invasion of privacy through different means",
             "Only about physical trespass",
             "Protections for celebrities only",
+            "Legal claims for invasion of privacy through different means",
             "Laws about data protection only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Privacy torts include intrusion, disclosure of private facts, false light, and appropriation claims."
         },
         {
@@ -3131,72 +3131,72 @@ Understanding legal challenges and developing effective defense strategies enabl
           id: 13,
           question: "What is breach of confidence?",
           options: [
-            "Publishing information obtained in confidence",
-            "Breaking promises to sources",
             "Only about trade secrets",
-            "Sharing information with competitors"
+            "Breaking promises to sources",
+            "Sharing information with competitors",
+            "Publishing information obtained in confidence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Breach of confidence involves publishing information shared with expectation of confidentiality."
         },
         {
           id: 14,
           question: "How handle subpoenas for source materials?",
           options: [
-            "Immediate legal consultation and potential motion to quash",
-            "Immediately comply with all demands",
             "Destroy materials to protect sources",
-            "Only provide partial materials"
+            "Immediate legal consultation and potential motion to quash",
+            "Only provide partial materials",
+            "Immediately comply with all demands"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Subpoenas require careful legal response, potentially including motions to quash to protect sources and materials."
         },
         {
           id: 15,
           question: "What are international legal considerations?",
           options: [
-            "Varying laws and protections in different countries",
             "Assuming all countries have free press",
             "Only considering U.S. laws",
-            "Ignoring foreign laws for important stories"
+            "Ignoring foreign laws for important stories",
+            "Varying laws and protections in different countries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "International work requires understanding different legal systems, protections, and potential risks in each country."
         },
         {
           id: 16,
           question: "Why build legal precedents strategically?",
           options: [
+            "Only to protect specific stories",
             "To strengthen press freedom protections for all journalists",
             "To win every case personally",
-            "To make lawyers more famous",
-            "Only to protect specific stories"
+            "To make lawyers more famous"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic precedent building strengthens legal protections for all journalists and future investigative work."
         },
         {
           id: 17,
           question: "What is public advocacy in legal defense?",
           options: [
+            "Protesting against legal system",
             "Educating public about press freedom importance during cases",
             "Only arguing in court",
-            "Protesting against legal system",
             "Asking public for legal donations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Public advocacy builds support for press freedom and helps counter attacks on journalism during legal battles."
         },
         {
           id: 18,
           question: "Why consider settlement in some cases?",
           options: [
-            "When it protects principles while resolving case practically",
-            "Always to avoid court costs",
+            "Only when definitely losing case",
             "Never - it shows weakness",
-            "Only when definitely losing case"
+            "Always to avoid court costs",
+            "When it protects principles while resolving case practically"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic settlements can resolve cases while protecting journalistic principles and avoiding harmful precedents."
         },
         {
@@ -3205,8 +3205,8 @@ Understanding legal challenges and developing effective defense strategies enabl
           options: [
             "When foreign laws apply beyond their country's borders",
             "Only for international courts",
-            "Jurisdiction over outer space",
-            "Laws that apply everywhere equally"
+            "Laws that apply everywhere equally",
+            "Jurisdiction over outer space"
           ],
           correctAnswer: 0,
           explanation: "Extraterritorial jurisdiction concerns when laws of one country might apply to actions in another country."
@@ -3215,12 +3215,12 @@ Understanding legal challenges and developing effective defense strategies enabl
           id: 20,
           question: "Why manage legal stress personally?",
           options: [
+            "Only if cases go to trial",
             "Legal battles can have significant psychological impact",
             "To appear strong to opponents",
-            "Only if cases go to trial",
             "Because lawyers expect it"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Legal battles are stressful; managing that stress helps maintain effectiveness and personal well-being."
         }
       ]
@@ -3235,60 +3235,60 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 1,
         question: "What distinguishes investigative journalism from regular reporting?",
         options: [
-          "Uncovers information someone is trying to keep hidden",
-          "Is always about crime and corruption",
           "Uses undercover methods exclusively",
-          "Is shorter and more immediate"
+          "Uncovers information someone is trying to keep hidden",
+          "Is shorter and more immediate",
+          "Is always about crime and corruption"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Investigative journalism systematically uncovers information that powerful interests want to keep secret."
       },
       {
         id: 2,
         question: "What mindset is essential for investigative journalists?",
         options: [
+          "Acceptance of surface explanations",
           "Curiosity and skepticism",
           "Trust in official sources",
-          "Acceptance of surface explanations",
           "Focus on quick results"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Investigative journalists must question everything and maintain curiosity about hidden truths."
       },
       {
         id: 3,
         question: "What are public records?",
         options: [
-          "Documents created or maintained by government agencies available to public",
-          "Only secret government documents",
           "Personal private documents",
-          "Historical archives not currently accessible"
+          "Only secret government documents",
+          "Historical archives not currently accessible",
+          "Documents created or maintained by government agencies available to public"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Public records are government documents that citizens have legal right to access."
       },
       {
         id: 4,
         question: "What does FOIA provide?",
         options: [
+          "Automatic publication of all documents",
           "Access to federal agency records in U.S.",
           "Protection for all sources internationally",
-          "Automatic publication of all documents",
           "Only access to historical records"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Freedom of Information Act provides access to U.S. federal agency records with certain exemptions."
       },
       {
         id: 5,
         question: "What is data journalism?",
         options: [
-          "Finding stories in numbers and using numbers to tell stories",
           "Only reporting on science and technology",
+          "Using social media data exclusively",
           "Creating computer programs for news",
-          "Using social media data exclusively"
+          "Finding stories in numbers and using numbers to tell stories"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Data journalism combines traditional reporting with data analysis and visualization."
       },
       {
@@ -3297,8 +3297,8 @@ Understanding legal challenges and developing effective defense strategies enabl
         options: [
           "Correlation means relationship; causation means one causes the other",
           "They mean exactly the same thing",
-          "Causation is weaker than correlation",
-          "Correlation only applies to scientific data"
+          "Correlation only applies to scientific data",
+          "Causation is weaker than correlation"
         ],
         correctAnswer: 0,
         explanation: "Correlation shows relationship; causation requires evidence one variable directly affects another."
@@ -3308,9 +3308,9 @@ Understanding legal challenges and developing effective defense strategies enabl
         question: "Why is source protection ethically important?",
         options: [
           "Enables whistleblowers to come forward and exposes wrongdoing",
+          "Only important in authoritarian countries",
           "Makes stories more exciting",
-          "Protects journalists from legal liability",
-          "Only important in authoritarian countries"
+          "Protects journalists from legal liability"
         ],
         correctAnswer: 0,
         explanation: "Source protection enables accountability journalism by allowing insiders to safely reveal wrongdoing."
@@ -3319,12 +3319,12 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 8,
         question: "What is threat modeling?",
         options: [
-          "Assessing who might compromise communications and their capabilities",
-          "Creating threats to test security",
           "Only considering government surveillance",
-          "Guessing what might go wrong"
+          "Guessing what might go wrong",
+          "Creating threats to test security",
+          "Assessing who might compromise communications and their capabilities"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Threat modeling evaluates potential adversaries to design appropriate protections."
       },
       {
@@ -3332,9 +3332,9 @@ Understanding legal challenges and developing effective defense strategies enabl
         question: "What characterizes long-form investigative writing?",
         options: [
           "Depth, narrative power, evidentiary rigor, and public service focus",
+          "Focusing on entertainment over evidence",
           "Short, quick updates on investigations",
-          "Only presenting raw data without narrative",
-          "Focusing on entertainment over evidence"
+          "Only presenting raw data without narrative"
         ],
         correctAnswer: 0,
         explanation: "Long-form combines thorough investigation with compelling storytelling on important issues."
@@ -3344,9 +3344,9 @@ Understanding legal challenges and developing effective defense strategies enabl
         question: "What is chronological structure?",
         options: [
           "Following events in time order to show development",
+          "Random organization of information",
           "Organizing by themes or topics",
-          "Starting with conclusion first",
-          "Random organization of information"
+          "Starting with conclusion first"
         ],
         correctAnswer: 0,
         explanation: "Chronological structure builds narrative through time sequence showing event development."
@@ -3355,12 +3355,12 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 11,
         question: "What are the elements of defamation?",
         options: [
-          "False statement, publication, fault, and harm",
+          "Only intentional lies about public figures",
           "True statement that hurts reputation",
           "Any critical reporting",
-          "Only intentional lies about public figures"
+          "False statement, publication, fault, and harm"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Defamation requires false statement that was published with fault and caused harm."
       },
       {
@@ -3369,8 +3369,8 @@ Understanding legal challenges and developing effective defense strategies enabl
         options: [
           "Before publishing potentially risky stories",
           "Only after receiving legal threats",
-          "Never - it inhibits journalistic freedom",
-          "Only for stories about very powerful people"
+          "Only for stories about very powerful people",
+          "Never - it inhibits journalistic freedom"
         ],
         correctAnswer: 0,
         explanation: "Early legal consultation identifies risks and helps structure investigations to minimize vulnerability."
@@ -3380,9 +3380,9 @@ Understanding legal challenges and developing effective defense strategies enabl
         question: "What is the first phase of investigative process?",
         options: [
           "Conception and planning",
+          "Preliminary research",
           "Deep investigation",
-          "Writing and presentation",
-          "Preliminary research"
+          "Writing and presentation"
         ],
         correctAnswer: 0,
         explanation: "Proper planning including assessing feasibility and developing research questions comes first."
@@ -3391,48 +3391,48 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 14,
         question: "What should you research before making records requests?",
         options: [
-          "If records exist online and correct agency contact",
-          "Only the topic you're investigating",
           "What other journalists have written",
+          "Only the topic you're investigating",
+          "If records exist online and correct agency contact",
           "How to write in legal language"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Researching existing availability and correct contacts saves time and improves request effectiveness."
       },
       {
         id: 15,
         question: "What is the first step in data journalism process?",
         options: [
+          "Cleaning and preparing data",
           "Finding data stories and identifying questions",
           "Acquiring all available data",
-          "Cleaning and preparing data",
           "Creating visualizations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Starting with story questions helps focus data acquisition and analysis on meaningful investigations."
       },
       {
         id: 16,
         question: "Which app is gold standard for encrypted messaging?",
         options: [
-          "Signal",
-          "WhatsApp",
           "Telegram",
-          "Facebook Messenger"
+          "Facebook Messenger",
+          "WhatsApp",
+          "Signal"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Signal provides strong end-to-end encryption with minimal metadata collection."
       },
       {
         id: 17,
         question: "What makes a good investigative opening?",
         options: [
-          "Engages reader immediately while signaling story importance",
           "Provides all background information first",
+          "Uses technical jargon to show expertise",
           "Starts with journalist's personal experience",
-          "Uses technical jargon to show expertise"
+          "Engages reader immediately while signaling story importance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Effective openings hook readers while establishing story significance and setting appropriate tone."
       },
       {
@@ -3441,8 +3441,8 @@ Understanding legal challenges and developing effective defense strategies enabl
         options: [
           "Legal review of potentially risky stories before publication",
           "Editorial review by senior journalists",
-          "Fact-checking by independent verifiers",
-          "Market testing of story concepts"
+          "Market testing of story concepts",
+          "Fact-checking by independent verifiers"
         ],
         correctAnswer: 0,
         explanation: "Pre-publication legal review identifies potential issues and suggests ways to minimize risks."
@@ -3451,96 +3451,96 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 19,
         question: "What characterizes data-driven investigations?",
         options: [
-          "Analyzing patterns in large datasets",
           "Only using official statistics",
+          "Analyzing patterns in large datasets",
           "Avoiding human sources completely",
           "Focusing only on numerical information"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Data-driven investigations use statistical analysis and pattern recognition to reveal systemic issues."
       },
       {
         id: 20,
         question: "Why do investigative journalists need higher standards of proof?",
         options: [
-          "Because their findings often challenge powerful interests",
           "Because they work slower than other journalists",
           "Because their stories are always about crime",
-          "Because editors demand extra verification"
+          "Because editors demand extra verification",
+          "Because their findings often challenge powerful interests"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Findings challenging powerful entities require stronger evidence to withstand scrutiny and legal challenges."
       },
       {
         id: 21,
         question: "What is systematic document review?",
         options: [
-          "Creating tracking system and looking for patterns",
-          "Reading documents randomly",
           "Only looking for specific names",
-          "Skipping to conclusions quickly"
+          "Reading documents randomly",
+          "Skipping to conclusions quickly",
+          "Creating tracking system and looking for patterns"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Systematic review involves organized tracking and analysis to identify patterns across documents."
       },
       {
         id: 22,
         question: "Why is data cleaning important?",
         options: [
+          "To make data smaller for storage",
           "To fix errors and standardize formats for accurate analysis",
           "Because dirty data looks bad",
-          "Only for very large datasets",
-          "To make data smaller for storage"
+          "Only for very large datasets"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cleaning ensures data is accurate, consistent, and properly formatted for reliable analysis."
       },
       {
         id: 23,
         question: "When should anonymity be granted to sources?",
         options: [
+          "For all sources to be consistent",
           "When source faces serious harm and information has public interest",
-          "Whenever source requests it",
           "Only for government whistleblowers",
-          "For all sources to be consistent"
+          "Whenever source requests it"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Anonymity requires balancing source safety against public interest and ensuring information credibility."
       },
       {
         id: 24,
         question: "How should evidence be integrated into narrative?",
         options: [
-          "Naturally woven into story with explanation of significance",
-          "Presented in separate appendices only",
           "Included as long block quotations",
+          "Presented in separate appendices only",
+          "Naturally woven into story with explanation of significance",
           "Mentioned only in footnotes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Evidence should flow naturally within narrative with clear explanation of why each piece matters."
       },
       {
         id: 25,
         question: "What should you do upon receiving cease and desist letter?",
         options: [
+          "Immediately publish the letter",
           "Consult with lawyer before responding",
           "Ignore it completely",
-          "Immediately publish the letter",
           "Retract the story immediately"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Legal consultation ensures proper evaluation of claims and strategic response."
       },
       {
         id: 26,
         question: "What is document research in investigations?",
         options: [
-          "Analyzing public records, court documents, and corporate filings",
-          "Only reading other news reports",
           "Reviewing academic papers exclusively",
-          "Checking social media posts"
+          "Only reading other news reports",
+          "Checking social media posts",
+          "Analyzing public records, court documents, and corporate filings"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Document research involves systematically examining official records for evidence."
       },
       {
@@ -3549,8 +3549,8 @@ Understanding legal challenges and developing effective defense strategies enabl
         options: [
           "Public databases, FOIA requests, web scraping, and surveys",
           "Only government websites",
-          "Buying data from companies",
-          "Guessing and estimating"
+          "Guessing and estimating",
+          "Buying data from companies"
         ],
         correctAnswer: 0,
         explanation: "Multiple methods can provide data including public sources, legal requests, and original research."
@@ -3560,8 +3560,8 @@ Understanding legal challenges and developing effective defense strategies enabl
         question: "What is digital hygiene?",
         options: [
           "Regular security practices like strong passwords and updates",
-          "Cleaning computer screens regularly",
           "Only using new devices",
+          "Cleaning computer screens regularly",
           "Avoiding all digital communication"
         ],
         correctAnswer: 0,
@@ -3571,84 +3571,84 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 29,
         question: "Why vary pacing in long-form writing?",
         options: [
+          "Shows writer's stylistic range",
           "Maintains reader interest and controls information flow",
           "Makes stories longer automatically",
-          "Shows writer's stylistic range",
           "Required by publication guidelines"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Pacing variation keeps readers engaged and controls when key information is revealed."
       },
       {
         id: 30,
         question: "What are shield laws?",
         options: [
+          "Laws about physical protection",
           "Laws protecting journalists from revealing sources",
-          "Laws protecting government secrets",
           "International human rights treaties",
-          "Laws about physical protection"
+          "Laws protecting government secrets"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Shield laws provide varying protection against being forced to reveal confidential sources."
       },
       {
         id: 31,
         question: "What should fairness to subjects involve?",
         options: [
+          "Avoiding contact with subjects",
           "Providing detailed opportunity for response",
           "Only including their denial statement",
-          "Hiding their identity completely",
-          "Avoiding contact with subjects"
+          "Hiding their identity completely"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Fairness requires giving subjects meaningful opportunity to respond to allegations."
       },
       {
         id: 32,
         question: "What is web scraping?",
         options: [
-          "Programmatically extracting data from websites",
           "Reading websites manually",
           "Copying data by hand",
-          "Only collecting social media data"
+          "Only collecting social media data",
+          "Programmatically extracting data from websites"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Web scraping uses software to automatically collect data from websites."
       },
       {
         id: 33,
         question: "Why use PGP/GPG encryption for email?",
         options: [
-          "Provides end-to-end encryption for email content",
-          "Makes emails faster to send",
           "Required by all email providers",
-          "Only for very important people"
+          "Only for very important people",
+          "Makes emails faster to send",
+          "Provides end-to-end encryption for email content"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "PGP/GPG encrypts email content so only intended recipient can read it."
       },
       {
         id: 34,
         question: "How handle contradictory evidence?",
         options: [
-          "Acknowledge and explain contradictions honestly",
           "Ignore contradictory evidence",
-          "Only present evidence supporting main thesis",
-          "Assume contradictory evidence is wrong"
+          "Assume contradictory evidence is wrong",
+          "Acknowledge and explain contradictions honestly",
+          "Only present evidence supporting main thesis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Acknowledging contradictions shows thorough investigation and helps understand complex issues."
       },
       {
         id: 35,
         question: "What is defensive documentation?",
         options: [
-          "Systematic records supporting accuracy and process",
           "Only saving source contact information",
           "Keeping all emails forever",
+          "Systematic records supporting accuracy and process",
           "Documenting only the final story"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Defensive documentation preserves evidence of verification efforts and editorial process."
       },
       {
@@ -3656,9 +3656,9 @@ Understanding legal challenges and developing effective defense strategies enabl
         question: "What is source development?",
         options: [
           "Cultivating relationships with insiders and whistleblowers",
-          "Finding new social media accounts",
           "Only using official spokespeople",
-          "Collecting random tips"
+          "Collecting random tips",
+          "Finding new social media accounts"
         ],
         correctAnswer: 0,
         explanation: "Source development involves building trusted relationships with insiders over time."
@@ -3667,24 +3667,24 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 37,
         question: "When should you use a line chart?",
         options: [
+          "To display relationships between variables",
           "To show trends or changes over time",
-          "To compare categories at one time",
           "To show geographic distribution",
-          "To display relationships between variables"
+          "To compare categories at one time"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Line charts are ideal for showing how values change over continuous time periods."
       },
       {
         id: 38,
         question: "What should secure meeting locations consider?",
         options: [
-          "Privacy, visibility, and avoiding surveillance",
-          "Only convenience for the journalist",
           "Fancy restaurants to impress sources",
-          "Public places with many witnesses"
+          "Privacy, visibility, and avoiding surveillance",
+          "Public places with many witnesses",
+          "Only convenience for the journalist"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Meeting locations should balance privacy needs with safety and surveillance risks."
       },
       {
@@ -3692,8 +3692,8 @@ Understanding legal challenges and developing effective defense strategies enabl
         question: "What is thematic structure?",
         options: [
           "Organizing by topics or aspects of issue",
-          "Following strict time sequence",
           "Grouping by source type",
+          "Following strict time sequence",
           "Alphabetical organization"
         ],
         correctAnswer: 0,
@@ -3703,12 +3703,12 @@ Understanding legal challenges and developing effective defense strategies enabl
         id: 40,
         question: "What is contempt of court for journalists?",
         options: [
-          "Refusing court order to reveal sources or information",
+          "Missing court appearance dates",
           "Being rude to judges in court",
-          "Publishing critical court coverage",
-          "Missing court appearance dates"
+          "Refusing court order to reveal sources or information",
+          "Publishing critical court coverage"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Contempt charges can result from refusing court orders to reveal confidential information."
       }
     ]

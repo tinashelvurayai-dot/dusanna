@@ -1144,11 +1144,11 @@ Managing radiographic data:
           question: "What does ALARA stand for in radiation safety?",
           options: [
             "Always Leave Area During Radiation",
-            "As Low As Reasonably Achievable",
+            "Always Limit All Radiation Always",
             "Automatic Lock After Radiation Administration",
-            "Always Limit All Radiation Always"
+            "As Low As Reasonably Achievable"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ALARA means As Low As Reasonably Achievable - minimizing radiation exposure while obtaining diagnostic images."
         },
         {
@@ -1216,12 +1216,12 @@ Managing radiographic data:
           id: 10,
           question: "What is the main advantage of MRI over CT?",
           options: [
-            "Lower cost",
             "Faster imaging time",
-            "Superior soft tissue contrast",
-            "Better for bone imaging"
+            "Better for bone imaging",
+            "Lower cost",
+            "Superior soft tissue contrast"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "MRI provides superior soft tissue contrast compared to CT, making it ideal for neurological and soft tissue imaging."
         },
         {
@@ -1229,11 +1229,11 @@ Managing radiographic data:
           question: "What does the inverse square law state about radiation?",
           options: [
             "Intensity increases with distance",
+            "Intensity doubles every 2 feet",
             "Intensity decreases with distance squared",
-            "Intensity is constant regardless of distance",
-            "Intensity doubles every 2 feet"
+            "Intensity is constant regardless of distance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The inverse square law states that radiation intensity decreases with the square of the distance from the source."
         },
         {
@@ -1261,10 +1261,10 @@ Managing radiographic data:
           id: 15,
           question: "What does DICOM stand for?",
           options: [
-            "Digital Imaging Control Management",
+            "Direct Image Communication Mode",
             "Digital Imaging and Communications in Medicine",
             "Diagnostic Image Compression Method",
-            "Direct Image Communication Mode"
+            "Digital Imaging Control Management"
           ],
           correctAnswer: 1,
           explanation: "DICOM stands for Digital Imaging and Communications in Medicine, the international standard for medical imaging."
@@ -1294,24 +1294,24 @@ Managing radiographic data:
           id: 19,
           question: "What does PACS stand for?",
           options: [
-            "Patient Archiving and Communication System",
             "Picture Archiving and Communication System",
             "Professional Archiving of Clinical Studies",
+            "Patient Archiving and Communication System",
             "Portable Archiving Computer System"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PACS stands for Picture Archiving and Communication System for storing and retrieving medical images."
         },
         {
           id: 20,
           question: "What is the primary risk of barium contrast studies?",
           options: [
-            "Allergic reaction",
-            "Aspiration pneumonia",
             "Renal failure",
-            "Cardiac arrhythmia"
+            "Cardiac arrhythmia",
+            "Aspiration pneumonia",
+            "Allergic reaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Aspiration of barium into the lungs can cause severe pneumonia, making proper patient preparation crucial."
         }
       ]
@@ -1542,21 +1542,21 @@ Medication instructions and compliance:
           id: 1,
           question: "What does pharmacokinetics refer to?",
           options: [
-            "What the drug does to the body",
             "What the body does to the drug",
-            "Drug interactions with other medications",
-            "Side effects of medications"
+            "Side effects of medications",
+            "What the drug does to the body",
+            "Drug interactions with other medications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pharmacokinetics describes ADME: Absorption, Distribution, Metabolism, and Excretion of drugs by the body."
         },
         {
           id: 2,
           question: "What is a drug's therapeutic index?",
           options: [
-            "The cost of the medication",
-            "The ratio of toxic dose to therapeutic dose",
             "The number of times per day it's given",
+            "The ratio of toxic dose to therapeutic dose",
+            "The cost of the medication",
             "The expiration date period"
           ],
           correctAnswer: 1,
@@ -1602,11 +1602,11 @@ Medication instructions and compliance:
           question: "What should you do before giving an intramuscular injection?",
           options: [
             "Massage the area first",
-            "Aspirate to check for blood",
+            "Shave a large area",
             "Apply ice to numb",
-            "Shave a large area"
+            "Aspirate to check for blood"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Always aspirate (pull back on plunger) before IM injection to ensure you're not in a blood vessel."
         },
         {
@@ -1627,12 +1627,12 @@ Medication instructions and compliance:
           id: 11,
           question: "What does FIFO mean in pharmacy management?",
           options: [
-            "First In, First Out",
             "Frequent Inventory, Frequent Ordering",
+            "Final Inventory For October",
             "Fast Identification For Orders",
-            "Final Inventory For October"
+            "First In, First Out"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FIFO (First In, First Out) means using older stock before newer stock to prevent medication expiration."
         },
         {
@@ -1646,24 +1646,24 @@ Medication instructions and compliance:
           id: 13,
           question: "When is compounding typically necessary?",
           options: [
+            "To save money",
             "For all medications",
             "When commercial formulation isn't suitable",
-            "To save money",
             "For all controlled substances"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Compounding is needed when commercial formulations aren't suitable due to dose, form, or ingredient issues."
         },
         {
           id: 14,
           question: "What should always be provided with medication instructions?",
           options: [
-            "Only verbal instructions",
-            "Written directions",
             "Just the prescription label",
-            "No instructions needed"
+            "No instructions needed",
+            "Only verbal instructions",
+            "Written directions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Always provide written directions in addition to verbal instructions to ensure client understanding and compliance."
         },
         {
@@ -1684,10 +1684,10 @@ Medication instructions and compliance:
           id: 17,
           question: "What is the half-life of a drug?",
           options: [
-            "Time to take full effect",
+            "Time between doses",
             "Time for concentration to decrease by 50%",
-            "Duration of action",
-            "Time between doses"
+            "Time to take full effect",
+            "Duration of action"
           ],
           correctAnswer: 1,
           explanation: "Half-life is the time required for drug concentration in the body to decrease by 50%."
@@ -1704,11 +1704,11 @@ Medication instructions and compliance:
           question: "What should you check before using any medication?",
           options: [
             "The color",
-            "Expiration date",
             "The price",
+            "Expiration date",
             "The manufacturer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Always check expiration dates before administering任何 medications to ensure potency and safety."
         },
         {
@@ -2022,9 +2022,9 @@ Compassionate care in terminal situations:
           id: 6,
           question: "What defines status epilepticus?",
           options: [
-            "Any single seizure",
-            "Seizures lasting ≥5 minutes or clusters without recovery",
             "Two seizures in one week",
+            "Seizures lasting ≥5 minutes or clusters without recovery",
+            "Any single seizure",
             "Seizures only during sleep"
           ],
           correctAnswer: 1,
@@ -2055,12 +2055,12 @@ Compassionate care in terminal situations:
           id: 10,
           question: "What does AVPU stand for in neurological assessment?",
           options: [
-            "Arteries, Veins, Pressure, Ultrasound",
             "Alert, Verbal, Pain, Unresponsive",
-            "Airway, Ventilation, Perfusion, Unconscious",
-            "Assessment, Vital signs, Pupils, Unresponsive"
+            "Arteries, Veins, Pressure, Ultrasound",
+            "Assessment, Vital signs, Pupils, Unresponsive",
+            "Airway, Ventilation, Perfusion, Unconscious"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "AVPU is a rapid neurological assessment scale: Alert, responds to Verbal stimuli, responds to Pain, or Unresponsive."
         },
         {
@@ -2130,12 +2130,12 @@ Compassionate care in terminal situations:
           id: 20,
           question: "What should be assessed after each fluid bolus during resuscitation?",
           options: [
-            "Only the heart rate",
-            "Response to therapy (vital signs, perfusion)",
+            "The patient's breed",
             "The cost of fluids used",
-            "The patient's breed"
+            "Only the heart rate",
+            "Response to therapy (vital signs, perfusion)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "After each fluid bolus, reassess the patient's response including vital signs, perfusion parameters, and clinical status."
         }
       ]
@@ -2328,10 +2328,10 @@ Compassionate care in terminal situations:
         id: 22,
         question: "What does ALARA stand for in radiation safety?",
         options: [
-          "Always Leave Area During Radiation",
+          "Always Limit All Radiation Always",
           "As Low As Reasonably Achievable",
-          "Automatic Lock After Radiation Administration",
-          "Always Limit All Radiation Always"
+          "Always Leave Area During Radiation",
+          "Automatic Lock After Radiation Administration"
         ],
         correctAnswer: 1,
         explanation: "ALARA means As Low As Reasonably Achievable - minimizing radiation exposure.",
@@ -2375,8 +2375,8 @@ Compassionate care in terminal situations:
         options: [
           "Digital Imaging Control Management",
           "Digital Imaging and Communications in Medicine",
-          "Diagnostic Image Compression Method",
-          "Direct Image Communication Mode"
+          "Direct Image Communication Mode",
+          "Diagnostic Image Compression Method"
         ],
         correctAnswer: 1,
         explanation: "DICOM stands for Digital Imaging and Communications in Medicine, the imaging standard.",
@@ -2388,12 +2388,12 @@ Compassionate care in terminal situations:
         id: 28,
         question: "What does pharmacokinetics refer to?",
         options: [
-          "What the drug does to the body",
           "What the body does to the drug",
+          "Side effects",
           "Drug interactions",
-          "Side effects"
+          "What the drug does to the body"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Pharmacokinetics describes ADME: Absorption, Distribution, Metabolism, Excretion.",
         module: 5
       },
@@ -2468,11 +2468,11 @@ Compassionate care in terminal situations:
         question: "What defines status epilepticus?",
         options: [
           "Any single seizure",
-          "Seizures lasting ≥5 minutes or clusters without recovery",
+          "Seizures only during sleep",
           "Two seizures in one week",
-          "Seizures only during sleep"
+          "Seizures lasting ≥5 minutes or clusters without recovery"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Status epilepticus is continuous seizure activity ≥5 minutes or clusters without recovery.",
         module: 6
       },
@@ -2496,12 +2496,12 @@ Compassionate care in terminal situations:
         id: 40,
         question: "What does AVPU stand for in neurological assessment?",
         options: [
-          "Arteries, Veins, Pressure, Ultrasound",
-          "Alert, Verbal, Pain, Unresponsive",
+          "Assessment, Vital signs, Pupils, Unresponsive",
           "Airway, Ventilation, Perfusion, Unconscious",
-          "Assessment, Vital signs, Pupils, Unresponsive"
+          "Arteries, Veins, Pressure, Ultrasound",
+          "Alert, Verbal, Pain, Unresponsive"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "AVPU scale: Alert, responds to Verbal stimuli, responds to Pain, or Unresponsive.",
         module: 6
       }

@@ -335,36 +335,36 @@ Mastering clinical chemistry requires understanding both the technical aspects o
           id: 1,
           question: "What is the primary extracellular cation measured in clinical chemistry?",
           options: [
-            "Sodium (Na⁺)",
+            "Magnesium (Mg²⁺)",
             "Potassium (K⁺)",
-            "Calcium (Ca²⁺)",
-            "Magnesium (Mg²⁺)"
+            "Sodium (Na⁺)",
+            "Calcium (Ca²⁺)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sodium is the primary extracellular cation with normal range 135-145 mmol/L, essential for osmotic balance and neurological function."
         },
         {
           id: 2,
           question: "Which Westgard rule indicates rejection when one control exceeds ±3SD?",
           options: [
-            "1₃s rule",
-            "1₂s rule",
             "2₂s rule",
-            "R₄s rule"
+            "R₄s rule",
+            "1₂s rule",
+            "1₃s rule"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The 1₃s rule rejects a run when any single control measurement exceeds ±3 standard deviations from the mean."
         },
         {
           id: 3,
           question: "What is the gold standard biomarker for myocardial infarction diagnosis?",
           options: [
-            "Troponin I or T",
-            "CK-MB",
             "Myoglobin",
-            "LDH"
+            "CK-MB",
+            "LDH",
+            "Troponin I or T"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cardiac troponin I and T are the gold standard markers for myocardial infarction due to their cardiac specificity and sensitivity."
         },
         {
@@ -372,8 +372,8 @@ Mastering clinical chemistry requires understanding both the technical aspects o
           question: "Which liver enzyme is most specific for hepatocellular injury?",
           options: [
             "ALT (Alanine Aminotransferase)",
-            "AST (Aspartate Aminotransferase)",
             "ALP (Alkaline Phosphatase)",
+            "AST (Aspartate Aminotransferase)",
             "GGT (Gamma-Glutamyl Transferase)"
           ],
           correctAnswer: 0,
@@ -383,72 +383,72 @@ Mastering clinical chemistry requires understanding both the technical aspects o
           id: 5,
           question: "What does BUN measure in renal function assessment?",
           options: [
+            "Blood Urea Nephrology",
             "Blood Urea Nitrogen from protein metabolism",
-            "Blood Uric Acid Nitrogen",
             "Basic Urinary Nitrogen",
-            "Blood Urea Nephrology"
+            "Blood Uric Acid Nitrogen"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BUN measures urea nitrogen in blood, a waste product of protein metabolism that is excreted by the kidneys."
         },
         {
           id: 6,
           question: "Which test provides a 3-month average of glucose control in diabetics?",
           options: [
+            "Fructosamine",
             "HbA1c (Glycated Hemoglobin)",
             "Fasting glucose",
-            "Fructosamine",
             "Oral glucose tolerance test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "HbA1c reflects average blood glucose levels over the previous 2-3 months by measuring glycated hemoglobin."
         },
         {
           id: 7,
           question: "What is measured for therapeutic drug monitoring of digoxin?",
           options: [
-            "Trough level just before next dose",
-            "Peak level 2 hours after dose",
+            "Level 6 hours after dose",
             "Random level anytime",
-            "Level 6 hours after dose"
+            "Trough level just before next dose",
+            "Peak level 2 hours after dose"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digoxin trough levels are measured just before the next dose to ensure therapeutic levels without toxicity."
         },
         {
           id: 8,
           question: "Which method is considered gold standard for confirmatory toxicology testing?",
           options: [
-            "Gas Chromatography-Mass Spectrometry (GC-MS)",
             "Immunoassay screening",
             "Thin Layer Chromatography",
-            "Atomic Absorption Spectrophotometry"
+            "Atomic Absorption Spectrophotometry",
+            "Gas Chromatography-Mass Spectrometry (GC-MS)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GC-MS provides high specificity and sensitivity for definitive identification and quantification of drugs and toxins."
         },
         {
           id: 9,
           question: "What pattern is seen in serum protein electrophoresis for multiple myeloma?",
           options: [
-            "Monoclonal spike in gamma region",
-            "Polyclonal increase in gamma region",
+            "Increased alpha-2 globulins",
             "Decreased albumin peak",
-            "Increased alpha-2 globulins"
+            "Monoclonal spike in gamma region",
+            "Polyclonal increase in gamma region"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Multiple myeloma typically shows a monoclonal gammopathy appearing as a narrow, dense spike in the gamma region."
         },
         {
           id: 10,
           question: "Which cardiac biomarker rises first after myocardial injury?",
           options: [
-            "Myoglobin",
-            "Troponin",
             "CK-MB",
-            "BNP"
+            "Myoglobin",
+            "BNP",
+            "Troponin"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Myoglobin rises within 1-2 hours of injury but lacks cardiac specificity, making it an early but non-specific marker."
         },
         {
@@ -457,8 +457,8 @@ Mastering clinical chemistry requires understanding both the technical aspects o
           options: [
             "TSH (Thyroid Stimulating Hormone)",
             "Free T4",
-            "Free T3",
-            "Thyroid antibodies"
+            "Thyroid antibodies",
+            "Free T3"
           ],
           correctAnswer: 0,
           explanation: "TSH is the most sensitive and primary screening test for thyroid disorders, with abnormal results prompting further testing."
@@ -467,108 +467,108 @@ Mastering clinical chemistry requires understanding both the technical aspects o
           id: 12,
           question: "Which electrolyte requires careful sample handling to prevent hemolysis?",
           options: [
-            "Potassium (K⁺)",
             "Sodium (Na⁺)",
+            "Potassium (K⁺)",
             "Chloride (Cl⁻)",
             "Bicarbonate (HCO₃⁻)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Potassium is predominantly intracellular, so hemolysis releases large amounts, falsely elevating serum potassium levels."
         },
         {
           id: 13,
           question: "What does the CKD-EPI equation estimate?",
           options: [
-            "Glomerular Filtration Rate (GFR)",
             "Creatinine clearance",
+            "Glomerular Filtration Rate (GFR)",
             "Protein excretion rate",
             "Renal blood flow"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The CKD-EPI equation estimates GFR from serum creatinine, age, sex, and race to assess kidney function."
         },
         {
           id: 14,
           question: "Which liver function test is particularly elevated in cholestasis?",
           options: [
-            "ALP (Alkaline Phosphatase)",
             "ALT",
             "AST",
+            "ALP (Alkaline Phosphatase)",
             "Albumin"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ALP is markedly elevated in cholestatic conditions due to increased synthesis and release from bile duct epithelial cells."
         },
         {
           id: 15,
           question: "What is measured to assess glycemic control over 2-3 weeks?",
           options: [
-            "Fructosamine",
-            "HbA1c",
             "Fasting glucose",
-            "C-peptide"
+            "C-peptide",
+            "Fructosamine",
+            "HbA1c"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Fructosamine measures glycated serum proteins, reflecting average glucose over the previous 2-3 weeks."
         },
         {
           id: 16,
           question: "Which drug requires monitoring for both efficacy and toxicity with narrow therapeutic range?",
           options: [
-            "Phenytoin",
-            "Penicillin",
             "Acetaminophen",
-            "Ibuprofen"
+            "Ibuprofen",
+            "Phenytoin",
+            "Penicillin"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Phenytoin has a narrow therapeutic range requiring careful monitoring to maintain efficacy while avoiding toxicity."
         },
         {
           id: 17,
           question: "What is the confirmatory test for acetaminophen overdose?",
           options: [
-            "Serum acetaminophen level",
             "Liver function tests",
-            "Renal function tests",
-            "Coagulation studies"
+            "Serum acetaminophen level",
+            "Coagulation studies",
+            "Renal function tests"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Serum acetaminophen levels are measured to confirm overdose and guide treatment with N-acetylcysteine."
         },
         {
           id: 18,
           question: "Which lipoprotein is measured directly in most laboratory panels?",
           options: [
-            "HDL-cholesterol",
-            "LDL-cholesterol",
             "VLDL-cholesterol",
-            "Total cholesterol"
+            "LDL-cholesterol",
+            "Total cholesterol",
+            "HDL-cholesterol"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "HDL-cholesterol is typically measured directly after precipitation of other lipoproteins, while LDL is often calculated."
         },
         {
           id: 19,
           question: "What method is commonly used for thyroid hormone measurement?",
           options: [
-            "Chemiluminescence immunoassay",
+            "Turbidimetry",
             "Enzyme kinetic assay",
             "Ion-selective electrode",
-            "Turbidimetry"
+            "Chemiluminescence immunoassay"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Thyroid hormones are typically measured by immunoassays, with chemiluminescence being a common method for automation."
         },
         {
           id: 20,
           question: "Which parameter is calculated from measured pH and pCO₂ in blood gas analysis?",
           options: [
-            "Bicarbonate (HCO₃⁻)",
             "Oxygen saturation",
+            "Base deficit",
             "Hemoglobin",
-            "Base deficit"
+            "Bicarbonate (HCO₃⁻)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bicarbonate is calculated using the Henderson-Hasselbalch equation from measured pH and pCO₂ values."
         }
       ]
@@ -839,24 +839,24 @@ Advanced hematology requires integration of automated technology with skilled mi
           id: 1,
           question: "What does MCV measure in a complete blood count?",
           options: [
+            "Maximum Cell Variation",
             "Mean Corpuscular Volume (average RBC size)",
             "Mean Cellular Viscosity",
-            "Minimum Clotting Value",
-            "Maximum Cell Variation"
+            "Minimum Clotting Value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MCV measures the average size of red blood cells, classified as microcytic (<80 fL), normocytic (80-100 fL), or macrocytic (>100 fL)."
         },
         {
           id: 2,
           question: "Which anticoagulant is used for most hematology testing?",
           options: [
-            "EDTA (Ethylenediaminetetraacetic acid)",
-            "Sodium citrate",
             "Heparin",
-            "Oxalate"
+            "Sodium citrate",
+            "Oxalate",
+            "EDTA (Ethylenediaminetetraacetic acid)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EDTA is the preferred anticoagulant for complete blood counts as it preserves cell morphology and prevents clotting."
         },
         {
@@ -875,24 +875,24 @@ Advanced hematology requires integration of automated technology with skilled mi
           id: 4,
           question: "Which test evaluates the extrinsic and common coagulation pathways?",
           options: [
-            "Prothrombin Time (PT)",
-            "Activated Partial Thromboplastin Time (aPTT)",
             "Thrombin Time (TT)",
+            "Activated Partial Thromboplastin Time (aPTT)",
+            "Prothrombin Time (PT)",
             "Bleeding time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PT measures factors II, V, VII, X and fibrinogen, representing the extrinsic and common coagulation pathways."
         },
         {
           id: 5,
           question: "What does an elevated reticulocyte count indicate?",
           options: [
-            "Increased bone marrow production of RBCs",
             "Decreased RBC destruction",
             "Normal bone marrow function",
+            "Increased bone marrow production of RBCs",
             "Iron deficiency anemia"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Elevated reticulocytes indicate increased bone marrow production, often seen in hemolytic anemia or response to blood loss."
         },
         {
@@ -900,9 +900,9 @@ Advanced hematology requires integration of automated technology with skilled mi
           question: "Which cell is typically increased in bacterial infections?",
           options: [
             "Neutrophils",
-            "Lymphocytes",
             "Eosinophils",
-            "Basophils"
+            "Basophils",
+            "Lymphocytes"
           ],
           correctAnswer: 0,
           explanation: "Neutrophils are the primary responders to bacterial infections and often show increased numbers and toxic changes."
@@ -912,8 +912,8 @@ Advanced hematology requires integration of automated technology with skilled mi
           question: "What is measured by the Westergren method?",
           options: [
             "Erythrocyte Sedimentation Rate (ESR)",
-            "Hemoglobin concentration",
             "Platelet count",
+            "Hemoglobin concentration",
             "Reticulocyte percentage"
           ],
           correctAnswer: 0,
@@ -923,12 +923,12 @@ Advanced hematology requires integration of automated technology with skilled mi
           id: 8,
           question: "Which test is used to monitor heparin therapy?",
           options: [
+            "Bleeding time",
             "Activated Partial Thromboplastin Time (aPTT)",
-            "Prothrombin Time (PT)",
             "Thrombin Time (TT)",
-            "Bleeding time"
+            "Prothrombin Time (PT)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "aPTT is used to monitor unfractionated heparin therapy, with therapeutic ranges typically 1.5-2.5 times baseline."
         },
         {
@@ -936,9 +936,9 @@ Advanced hematology requires integration of automated technology with skilled mi
           question: "What does D-dimer test measure?",
           options: [
             "Fibrin degradation products from cross-linked fibrin",
-            "Platelet activation",
             "Vitamin K-dependent factors",
-            "Red blood cell fragility"
+            "Red blood cell fragility",
+            "Platelet activation"
           ],
           correctAnswer: 0,
           explanation: "D-dimer measures specific degradation products from cross-linked fibrin, indicating active coagulation and fibrinolysis."
@@ -947,60 +947,60 @@ Advanced hematology requires integration of automated technology with skilled mi
           id: 10,
           question: "Which hemoglobin variant causes sickle cell disease?",
           options: [
-            "Hemoglobin S (HbS)",
-            "Hemoglobin C (HbC)",
+            "Hemoglobin F (HbF)",
             "Hemoglobin E (HbE)",
-            "Hemoglobin F (HbF)"
+            "Hemoglobin C (HbC)",
+            "Hemoglobin S (HbS)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "HbS results from a single amino acid substitution (glutamic acid to valine) causing polymerization and sickling under low oxygen conditions."
         },
         {
           id: 11,
           question: "What is the primary site for bone marrow aspiration in adults?",
           options: [
-            "Posterior iliac crest",
             "Sternum",
             "Anterior iliac crest",
-            "Tibia"
+            "Tibia",
+            "Posterior iliac crest"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The posterior iliac crest is the preferred site in adults due to safety, adequate cellularity, and patient comfort."
         },
         {
           id: 12,
           question: "Which stain is used to evaluate iron stores in bone marrow?",
           options: [
-            "Perls' Prussian blue",
-            "Wright-Giemsa",
+            "Sudan black B",
             "Periodic acid-Schiff (PAS)",
-            "Sudan black B"
+            "Perls' Prussian blue",
+            "Wright-Giemsa"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Perls' Prussian blue stain detects hemosiderin (storage iron) in bone marrow macrophages and developing erythroid cells."
         },
         {
           id: 13,
           question: "What does flow cytometry measure in hematology?",
           options: [
-            "Cell surface markers using fluorescent antibodies",
-            "Cell size by electrical impedance",
             "Hemoglobin concentration by light absorption",
-            "Coagulation factors by chromogenic assay"
+            "Cell surface markers using fluorescent antibodies",
+            "Coagulation factors by chromogenic assay",
+            "Cell size by electrical impedance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Flow cytometry uses fluorescent-labeled antibodies to detect specific cell surface antigens for immunophenotyping."
         },
         {
           id: 14,
           question: "Which genetic mutation is characteristic of chronic myeloid leukemia?",
           options: [
-            "BCR-ABL1 fusion gene",
-            "JAK2 V617F",
             "FLT3-ITD",
-            "NPM1 mutation"
+            "NPM1 mutation",
+            "JAK2 V617F",
+            "BCR-ABL1 fusion gene"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The BCR-ABL1 fusion gene resulting from t(9;22) translocation is the hallmark of chronic myeloid leukemia."
         },
         {
@@ -1008,8 +1008,8 @@ Advanced hematology requires integration of automated technology with skilled mi
           question: "What does the INR standardize?",
           options: [
             "Prothrombin Time results across different reagents",
-            "Activated Partial Thromboplastin Time",
             "Thrombin Time measurements",
+            "Activated Partial Thromboplastin Time",
             "Bleeding time assessments"
           ],
           correctAnswer: 0,
@@ -1031,36 +1031,36 @@ Advanced hematology requires integration of automated technology with skilled mi
           id: 17,
           question: "What does the term 'poikilocytosis' refer to?",
           options: [
-            "Variation in red blood cell shapes",
             "Variation in red blood cell sizes",
             "Decreased red blood cell color",
-            "Increased red blood cell number"
+            "Increased red blood cell number",
+            "Variation in red blood cell shapes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Poikilocytosis describes the presence of red blood cells with abnormal shapes on peripheral blood smear."
         },
         {
           id: 18,
           question: "Which cell is typically increased in parasitic infections?",
           options: [
-            "Eosinophils",
-            "Neutrophils",
             "Lymphocytes",
-            "Monocytes"
+            "Neutrophils",
+            "Monocytes",
+            "Eosinophils"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Eosinophils are commonly elevated in parasitic infections and allergic conditions."
         },
         {
           id: 19,
           question: "What does PFA-100/200 measure?",
           options: [
-            "Platelet function under high shear stress",
-            "Red blood cell fragility",
             "White blood cell adhesion",
-            "Coagulation factor activity"
+            "Coagulation factor activity",
+            "Red blood cell fragility",
+            "Platelet function under high shear stress"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PFA-100/200 measures platelet function by assessing closure time in a cartridge simulating primary hemostasis."
         },
         {
@@ -1350,9 +1350,9 @@ Clinical microbiology requires integration of traditional techniques with modern
           question: "What is the first step in processing most microbiology specimens?",
           options: [
             "Direct microscopic examination",
+            "Antibiotic susceptibility testing",
             "Culture on appropriate media",
-            "Molecular testing",
-            "Antibiotic susceptibility testing"
+            "Molecular testing"
           ],
           correctAnswer: 0,
           explanation: "Direct examination (like Gram stain) provides immediate information about quality and potential pathogens before culture results."
@@ -1361,24 +1361,24 @@ Clinical microbiology requires integration of traditional techniques with modern
           id: 2,
           question: "Which medium is selective for Gram-negative rods?",
           options: [
-            "MacConkey agar",
             "Blood agar",
-            "Chocolate agar",
-            "Sabouraud dextrose agar"
+            "MacConkey agar",
+            "Sabouraud dextrose agar",
+            "Chocolate agar"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MacConkey agar inhibits Gram-positive bacteria and differentiates lactose-fermenting from non-fermenting Gram-negative rods."
         },
         {
           id: 3,
           question: "What does the Kirby-Bauer method measure?",
           options: [
-            "Antibiotic susceptibility by disk diffusion",
             "Bacterial growth rate",
             "Viral load quantification",
+            "Antibiotic susceptibility by disk diffusion",
             "Fungal sporulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Kirby-Bauer disk diffusion method tests antibiotic susceptibility by measuring inhibition zone diameters around antibiotic disks."
         },
         {
@@ -1386,9 +1386,9 @@ Clinical microbiology requires integration of traditional techniques with modern
           question: "Which stain is used for acid-fast bacteria like Mycobacterium tuberculosis?",
           options: [
             "Ziehl-Neelsen or auramine-rhodamine",
-            "Gram stain",
             "Giemsa stain",
-            "Wright-Giemsa stain"
+            "Wright-Giemsa stain",
+            "Gram stain"
           ],
           correctAnswer: 0,
           explanation: "Acid-fast stains (Ziehl-Neelsen or fluorochrome) detect mycolic acids in mycobacterial cell walls that resist decolorization."
@@ -1397,36 +1397,36 @@ Clinical microbiology requires integration of traditional techniques with modern
           id: 5,
           question: "What does MALDI-TOF MS provide in microbiology?",
           options: [
-            "Rapid organism identification by protein profiling",
             "Antibiotic resistance detection",
+            "Rapid organism identification by protein profiling",
             "Viral load measurement",
             "Fungal toxin analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MALDI-TOF MS identifies microorganisms by comparing their protein profiles to reference databases, providing rapid identification."
         },
         {
           id: 6,
           question: "Which test is the gold standard for malaria diagnosis?",
           options: [
-            "Microscopic examination of blood smears",
             "Rapid antigen test",
             "PCR testing",
+            "Microscopic examination of blood smears",
             "Serological antibody test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Microscopic examination of Giemsa-stained thick and thin blood smears remains the gold standard for malaria diagnosis and species identification."
         },
         {
           id: 7,
           question: "What does ESBL stand for in antibiotic resistance?",
           options: [
-            "Extended-Spectrum Beta-Lactamase",
             "Extended-Spectrum Bacterial Lipase",
+            "Extended-Spectrum Biocide Liability",
             "Enhanced Sensitivity Beta-Lactam",
-            "Extended-Spectrum Biocide Liability"
+            "Extended-Spectrum Beta-Lactamase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ESBLs are enzymes that hydrolyze extended-spectrum cephalosporins and monobactams but are inhibited by clavulanic acid."
         },
         {
@@ -1434,9 +1434,9 @@ Clinical microbiology requires integration of traditional techniques with modern
           question: "Which specimen requires immediate processing for viable culture?",
           options: [
             "Cerebrospinal fluid (CSF)",
+            "Sputum",
             "Urine",
-            "Stool",
-            "Sputum"
+            "Stool"
           ],
           correctAnswer: 0,
           explanation: "CSF requires immediate processing as many pathogens are fastidious and die quickly outside the body."
@@ -1445,120 +1445,120 @@ Clinical microbiology requires integration of traditional techniques with modern
           id: 9,
           question: "What does a positive catalase test indicate?",
           options: [
-            "Production of catalase enzyme (Staphylococcus vs Streptococcus)",
+            "Coagulase production",
             "Lactose fermentation capability",
             "Oxidase enzyme production",
-            "Coagulase production"
+            "Production of catalase enzyme (Staphylococcus vs Streptococcus)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Catalase test differentiates Staphylococcus (catalase-positive) from Streptococcus (catalase-negative) among Gram-positive cocci."
         },
         {
           id: 10,
           question: "Which method is used for antifungal susceptibility testing of Candida?",
           options: [
-            "Broth microdilution or disk diffusion",
             "Kirby-Bauer method",
+            "Broth microdilution or disk diffusion",
             "Etest only",
             "Agar dilution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CLSI and EUCAST have standardized broth microdilution methods for yeasts, with disk diffusion also available for Candida."
         },
         {
           id: 11,
           question: "What is measured in viral load testing?",
           options: [
-            "Quantity of viral nucleic acid in blood",
+            "Viral antigen concentration",
             "Antibody levels against virus",
             "CD4+ T-cell counts",
-            "Viral antigen concentration"
+            "Quantity of viral nucleic acid in blood"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Viral load tests measure the amount of viral RNA or DNA per milliliter of blood using quantitative PCR methods."
         },
         {
           id: 12,
           question: "Which test is screening for systemic lupus erythematosus?",
           options: [
+            "ANCA testing",
             "Antinuclear antibody (ANA) test",
             "Rheumatoid factor (RF)",
-            "Anti-CCP antibodies",
-            "ANCA testing"
+            "Anti-CCP antibodies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ANA testing is the primary screening test for SLE, though positive results require confirmation with more specific autoantibody tests."
         },
         {
           id: 13,
           question: "What does PCR stand for in molecular diagnostics?",
           options: [
-            "Polymerase Chain Reaction",
             "Protein Chain Reaction",
+            "Polymerase Confirmation Reaction",
             "Pathogen Confirmation Reaction",
-            "Polymerase Confirmation Reaction"
+            "Polymerase Chain Reaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PCR amplifies specific DNA sequences, enabling detection of minute amounts of pathogen nucleic acid."
         },
         {
           id: 14,
           question: "Which parasite is detected using modified acid-fast stain?",
           options: [
-            "Cryptosporidium",
-            "Giardia",
             "Entamoeba",
-            "Plasmodium"
+            "Giardia",
+            "Plasmodium",
+            "Cryptosporidium"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cryptosporidium oocysts stain acid-fast, appearing bright red against a blue or green background in modified acid-fast stains."
         },
         {
           id: 15,
           question: "What is measured in CD4+ T-cell counting?",
           options: [
-            "Helper T-lymphocytes important in HIV monitoring",
-            "Cytotoxic T-cells",
+            "Natural killer cells",
             "B-lymphocytes",
-            "Natural killer cells"
+            "Cytotoxic T-cells",
+            "Helper T-lymphocytes important in HIV monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CD4+ T-cell counts monitor immune function in HIV patients and guide antiretroviral therapy decisions."
         },
         {
           id: 16,
           question: "Which medium is used for Legionella culture?",
           options: [
-            "Buffered charcoal yeast extract (BCYE) agar",
-            "MacConkey agar",
             "Blood agar",
-            "Chocolate agar"
+            "Buffered charcoal yeast extract (BCYE) agar",
+            "Chocolate agar",
+            "MacConkey agar"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BCYE agar with cysteine and iron supports growth of fastidious Legionella species not growing on standard media."
         },
         {
           id: 17,
           question: "What does a positive oxidase test indicate?",
           options: [
-            "Presence of cytochrome c oxidase (Pseudomonas, Neisseria)",
-            "Catalase production",
             "Lactose fermentation",
-            "Urease production"
+            "Presence of cytochrome c oxidase (Pseudomonas, Neisseria)",
+            "Urease production",
+            "Catalase production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Oxidase test identifies bacteria containing cytochrome c oxidase, including Pseudomonas and Neisseria species."
         },
         {
           id: 18,
           question: "Which method detects mecA gene in MRSA?",
           options: [
-            "PCR-based molecular testing",
             "Disk diffusion with oxacillin",
-            "Broth microdilution",
-            "Chromogenic agar"
+            "Chromogenic agar",
+            "PCR-based molecular testing",
+            "Broth microdilution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PCR detects the mecA gene encoding altered penicillin-binding protein PBP2a, confirming methicillin resistance in S. aureus."
         },
         {
@@ -1566,9 +1566,9 @@ Clinical microbiology requires integration of traditional techniques with modern
           question: "What is measured in immunoglobulin quantitation?",
           options: [
             "IgG, IgA, IgM, IgE levels in serum",
-            "Autoantibody titers",
+            "Cytokine concentrations",
             "Complement protein levels",
-            "Cytokine concentrations"
+            "Autoantibody titers"
           ],
           correctAnswer: 0,
           explanation: "Immunoglobulin quantitation measures antibody levels to diagnose immunodeficiencies, monoclonal gammopathies, or allergic conditions."
@@ -1577,12 +1577,12 @@ Clinical microbiology requires integration of traditional techniques with modern
           id: 20,
           question: "Which system uses continuous monitoring for blood cultures?",
           options: [
+            "MicroScan",
             "BD BACTEC or bioMérieux BacT/ALERT",
             "Kirby-Bauer",
-            "VITEK 2",
-            "MicroScan"
+            "VITEK 2"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Automated blood culture systems continuously monitor for bacterial growth by detecting CO2 production or other metabolic changes."
         }
       ]
@@ -1915,9 +1915,9 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           question: "What are the naturally occurring antibodies in the ABO system?",
           options: [
             "Anti-A and Anti-B",
-            "Anti-D and Anti-K",
+            "Anti-M and Anti-N",
             "Anti-Fyᵃ and Anti-Jkᵃ",
-            "Anti-M and Anti-N"
+            "Anti-D and Anti-K"
           ],
           correctAnswer: 0,
           explanation: "Anti-A and anti-B are naturally occurring IgM antibodies present in individuals lacking the corresponding A or B antigens."
@@ -1926,60 +1926,60 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           id: 2,
           question: "What is the purpose of antibody screening in pretransfusion testing?",
           options: [
-            "Detect unexpected RBC antibodies",
-            "Measure hemoglobin concentration",
             "Determine blood group antigens",
+            "Measure hemoglobin concentration",
+            "Detect unexpected RBC antibodies",
             "Assess coagulation function"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Antibody screening detects clinically significant antibodies that could cause hemolytic transfusion reactions."
         },
         {
           id: 3,
           question: "Which blood component must be stored at room temperature with agitation?",
           options: [
-            "Platelets",
             "Red blood cells",
+            "Platelets",
             "Fresh frozen plasma",
             "Cryoprecipitate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Platelets are stored at 20-24°C with continuous agitation to maintain function, with a shelf life of 5 days."
         },
         {
           id: 4,
           question: "What does a positive direct antiglobulin test (DAT) indicate?",
           options: [
-            "Antibodies or complement coated on RBCs in vivo",
             "Antibodies in patient serum",
             "Antigen-antibody reaction in test tube",
+            "Antibodies or complement coated on RBCs in vivo",
             "Presence of cold agglutinins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A positive DAT indicates that antibodies or complement components are attached to the patient's red blood cells in circulation."
         },
         {
           id: 5,
           question: "Which reaction is caused by ABO incompatibility?",
           options: [
-            "Acute hemolytic transfusion reaction",
-            "Febrile non-hemolytic reaction",
             "Transfusion-related acute lung injury",
-            "Allergic reaction"
+            "Febrile non-hemolytic reaction",
+            "Allergic reaction",
+            "Acute hemolytic transfusion reaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ABO incompatibility causes immediate intravascular hemolysis due to preformed anti-A or anti-B antibodies."
         },
         {
           id: 6,
           question: "What is the purpose of Rh immune globulin (RhIg)?",
           options: [
+            "Reduce febrile transfusion reactions",
             "Prevent Rh sensitization in Rh-negative women",
             "Treat Rh hemolytic disease of the newborn",
-            "Prevent platelet refractoriness",
-            "Reduce febrile transfusion reactions"
+            "Prevent platelet refractoriness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RhIg prevents Rh sensitization by clearing fetal Rh-positive RBCs from maternal circulation before immune response develops."
         },
         {
@@ -1998,84 +1998,84 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           id: 8,
           question: "What component is indicated for fibrinogen replacement?",
           options: [
+            "Platelets",
             "Cryoprecipitate",
             "Fresh frozen plasma",
-            "Platelets",
             "Red blood cells"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cryoprecipitate is rich in fibrinogen, factor VIII, von Willebrand factor, and factor XIII."
         },
         {
           id: 9,
           question: "Which reaction presents with dyspnea and hypoxia within 6 hours of transfusion?",
           options: [
-            "Transfusion-related acute lung injury (TRALI)",
             "Febrile non-hemolytic reaction",
-            "Delayed hemolytic reaction",
-            "Allergic reaction"
+            "Transfusion-related acute lung injury (TRALI)",
+            "Allergic reaction",
+            "Delayed hemolytic reaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "TRALI presents as acute respiratory distress with bilateral pulmonary edema due to donor antibodies reacting with recipient leukocytes."
         },
         {
           id: 10,
           question: "What is the rule of three in antibody identification?",
           options: [
-            "3 antigen-positive and 3 antigen-negative cells reacting as expected",
+            "3 different enhancement media used",
             "3 different methods confirming the antibody",
-            "3 different temperatures tested",
-            "3 different enhancement media used"
+            "3 antigen-positive and 3 antigen-negative cells reacting as expected",
+            "3 different temperatures tested"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The rule of three requires at least 3 antigen-positive cells to react and 3 antigen-negative cells not to react for antibody confirmation."
         },
         {
           id: 11,
           question: "Which blood product must be irradiated to prevent graft-versus-host disease?",
           options: [
-            "For immunocompromised patients",
-            "For all platelet transfusions",
             "Only for neonatal transfusions",
-            "Only for autoimmune disease patients"
+            "For all platelet transfusions",
+            "Only for autoimmune disease patients",
+            "For immunocompromised patients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Irradiation prevents transfusion-associated GVHD by inactivating donor lymphocytes, required for immunocompromised patients."
         },
         {
           id: 12,
           question: "What is the most common cause of delayed hemolytic transfusion reactions?",
           options: [
-            "Anamnestic response to previously sensitized antigens",
-            "Bacterial contamination",
             "ABO incompatibility",
+            "Bacterial contamination",
+            "Anamnestic response to previously sensitized antigens",
             "Volume overload"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Delayed reactions occur when previously formed antibodies rebound after transfusion, causing destruction of antigen-positive RBCs."
         },
         {
           id: 13,
           question: "Which test is used for electronic crossmatch?",
           options: [
-            "Computer system with validated algorithms",
-            "Immediate spin crossmatch",
+            "Minor crossmatch",
             "Antiglobulin crossmatch",
-            "Minor crossmatch"
+            "Immediate spin crossmatch",
+            "Computer system with validated algorithms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Electronic crossmatch uses computer systems to ensure compatibility based on ABO/Rh typing and negative antibody screen."
         },
         {
           id: 14,
           question: "What is the storage temperature for fresh frozen plasma?",
           options: [
-            "-18°C or colder",
-            "1-6°C",
+            "Room temperature",
             "20-24°C",
-            "Room temperature"
+            "-18°C or colder",
+            "1-6°C"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FFP must be stored at -18°C or colder to preserve labile coagulation factors, with a shelf life of 1 year."
         },
         {
@@ -2084,8 +2084,8 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           options: [
             "Anti-D",
             "Anti-K",
-            "Anti-Fyᵃ",
-            "Anti-Jkᵃ"
+            "Anti-Jkᵃ",
+            "Anti-Fyᵃ"
           ],
           correctAnswer: 0,
           explanation: "Anti-D causes the most severe form of HDFN, though other antibodies can also cause the disease."
@@ -2094,24 +2094,24 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           id: 16,
           question: "What does PEG stand for in antibody detection?",
           options: [
-            "Polyethylene glycol enhancement medium",
-            "Protein-enhanced gel",
             "Platelet enhancement group",
-            "Polymerase-enhanced grouping"
+            "Protein-enhanced gel",
+            "Polymerase-enhanced grouping",
+            "Polyethylene glycol enhancement medium"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PEG is an enhancement medium that promotes antigen-antibody reactions by excluding water molecules."
         },
         {
           id: 17,
           question: "Which component is indicated for thrombocytopenia with bleeding?",
           options: [
-            "Platelets",
             "Fresh frozen plasma",
-            "Cryoprecipitate",
-            "Red blood cells"
+            "Red blood cells",
+            "Platelets",
+            "Cryoprecipitate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Platelet transfusion is indicated for thrombocytopenia with active bleeding or prophylactically below certain thresholds."
         },
         {
@@ -2119,9 +2119,9 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           question: "What is the purpose of leukoreduction?",
           options: [
             "Reduce febrile reactions and CMV transmission",
-            "Prevent allergic reactions",
+            "Extend shelf life",
             "Increase oxygen-carrying capacity",
-            "Extend shelf life"
+            "Prevent allergic reactions"
           ],
           correctAnswer: 0,
           explanation: "Leukoreduction removes white blood cells that can cause febrile reactions and transmit CMV."
@@ -2130,12 +2130,12 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           id: 19,
           question: "Which test is used to investigate a suspected hemolytic transfusion reaction?",
           options: [
-            "Repeat compatibility testing and DAT",
-            "Only visual inspection of plasma",
             "Complete blood count only",
-            "Liver function tests only"
+            "Only visual inspection of plasma",
+            "Liver function tests only",
+            "Repeat compatibility testing and DAT"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Investigation includes repeat ABO/Rh typing, antibody screen, crossmatch, and DAT on post-transfusion sample."
         },
         {
@@ -2143,9 +2143,9 @@ Immunohematology and transfusion medicine require meticulous attention to detail
           question: "What is the primary indication for washed red blood cells?",
           options: [
             "IgA-deficient patients with anti-IgA antibodies",
-            "All patients with fever",
+            "Neonatal transfusions only",
             "Patients with iron deficiency",
-            "Neonatal transfusions only"
+            "All patients with fever"
           ],
           correctAnswer: 0,
           explanation: "Washed RBCs remove plasma proteins for patients with IgA deficiency and anti-IgA antibodies to prevent anaphylactic reactions."
@@ -2469,108 +2469,108 @@ Molecular diagnostics continues to evolve rapidly, requiring laboratory professi
           id: 2,
           question: "Which component provides sequence specificity in PCR?",
           options: [
-            "Primers",
-            "DNA polymerase",
+            "Magnesium ions",
             "dNTPs",
-            "Magnesium ions"
+            "Primers",
+            "DNA polymerase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Primers are short oligonucleotides that define the target sequence by binding complementary regions on the DNA template."
         },
         {
           id: 3,
           question: "What is measured in real-time PCR (qPCR)?",
           options: [
-            "Fluorescence accumulation during amplification",
             "Final DNA concentration after PCR",
+            "Fluorescence accumulation during amplification",
             "Primer binding efficiency",
             "DNA polymerase activity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "qPCR monitors fluorescence at each cycle, allowing quantification of starting DNA based on when fluorescence crosses threshold."
         },
         {
           id: 4,
           question: "Which method allows absolute quantification without standard curves?",
           options: [
-            "Digital PCR (dPCR)",
-            "Real-time PCR (qPCR)",
+            "Multiplex PCR",
             "Nested PCR",
-            "Multiplex PCR"
+            "Real-time PCR (qPCR)",
+            "Digital PCR (dPCR)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital PCR partitions samples into thousands of reactions for endpoint detection, using Poisson statistics for absolute quantification."
         },
         {
           id: 5,
           question: "What does NGS stand for in molecular diagnostics?",
           options: [
+            "New Genetic Sequencing",
             "Next-Generation Sequencing",
             "Nucleotide Gene Screening",
-            "New Genetic Sequencing",
             "Nucleic Acid Gene Sequencing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "NGS refers to massively parallel sequencing technologies that generate millions of sequences simultaneously."
         },
         {
           id: 6,
           question: "Which specimen type is most common for solid tumor molecular testing?",
           options: [
-            "Formalin-fixed paraffin-embedded (FFPE) tissue",
+            "Saliva",
             "Fresh frozen tissue",
             "Peripheral blood",
-            "Saliva"
+            "Formalin-fixed paraffin-embedded (FFPE) tissue"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FFPE tissue is the most available specimen type for tumor testing but presents challenges for nucleic acid quality."
         },
         {
           id: 7,
           question: "What is measured in viral load testing?",
           options: [
-            "Quantity of viral nucleic acid in blood",
             "Antibody levels against virus",
-            "CD4+ T-cell counts",
-            "Viral antigen concentration"
+            "Viral antigen concentration",
+            "Quantity of viral nucleic acid in blood",
+            "CD4+ T-cell counts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Viral load quantifies viral RNA or DNA copies per mL of blood, used for treatment monitoring and detecting resistance."
         },
         {
           id: 8,
           question: "Which gene is tested for thiopurine drug metabolism?",
           options: [
-            "TPMT",
             "CYP2D6",
-            "CYP2C19",
-            "DPYD"
+            "DPYD",
+            "TPMT",
+            "CYP2C19"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TPMT (thiopurine methyltransferase) metabolizes thiopurine drugs; deficiency causes severe toxicity."
         },
         {
           id: 9,
           question: "What does ctDNA stand for in oncology?",
           options: [
-            "Circulating tumor DNA",
-            "Cancer tissue DNA",
             "Cellular tumor DNA",
-            "Chemotherapy DNA"
+            "Chemotherapy DNA",
+            "Cancer tissue DNA",
+            "Circulating tumor DNA"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ctDNA is tumor-derived DNA fragments in blood, allowing non-invasive liquid biopsy for mutation detection and monitoring."
         },
         {
           id: 10,
           question: "Which technique detects single nucleotide polymorphisms by DNA melting behavior?",
           options: [
-            "High-Resolution Melt (HRM) analysis",
-            "Sanger sequencing",
             "Microarray analysis",
-            "Digital PCR"
+            "Digital PCR",
+            "Sanger sequencing",
+            "High-Resolution Melt (HRM) analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "HRM analyzes DNA melting curves after PCR; sequence variations alter melting temperature and curve shape."
         },
         {
@@ -2579,8 +2579,8 @@ Molecular diagnostics continues to evolve rapidly, requiring laboratory professi
           options: [
             "Prevent carryover contamination by degrading previous PCR products",
             "Enhance DNA polymerase activity",
-            "Improve primer binding specificity",
-            "Increase DNA extraction yield"
+            "Increase DNA extraction yield",
+            "Improve primer binding specificity"
           ],
           correctAnswer: 0,
           explanation: "UNG degrades uracil-containing DNA from previous PCR amplifications, preventing false positives from amplicon carryover."
@@ -2589,36 +2589,36 @@ Molecular diagnostics continues to evolve rapidly, requiring laboratory professi
           id: 12,
           question: "Which method is used for non-invasive prenatal testing (NIPT)?",
           options: [
-            "Cell-free fetal DNA analysis from maternal blood",
             "Amniocentesis with karyotyping",
+            "Ultrasound alone",
             "Chorionic villus sampling",
-            "Ultrasound alone"
+            "Cell-free fetal DNA analysis from maternal blood"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NIPT analyzes cell-free fetal DNA in maternal circulation to screen for common aneuploidies with high sensitivity."
         },
         {
           id: 13,
           question: "What does A260/A280 ratio assess in nucleic acid quality?",
           options: [
+            "RNA degradation",
             "Protein contamination",
             "DNA concentration",
-            "RNA degradation",
             "Inhibitor presence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A260/A280 ratio of ~1.8 indicates pure DNA; lower ratios suggest protein contamination; higher ratios suggest RNA contamination."
         },
         {
           id: 14,
           question: "Which technology uses massively parallel sequencing of clonally amplified DNA fragments?",
           options: [
-            "Illumina sequencing",
             "Sanger sequencing",
-            "Oxford Nanopore",
-            "PacBio SMRT"
+            "Illumina sequencing",
+            "PacBio SMRT",
+            "Oxford Nanopore"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Illumina sequencing uses bridge amplification on flow cells to create clusters of identical DNA fragments for sequencing."
         },
         {
@@ -2626,8 +2626,8 @@ Molecular diagnostics continues to evolve rapidly, requiring laboratory professi
           question: "What is measured in minimal residual disease (MRD) testing?",
           options: [
             "Very low levels of cancer cells after treatment",
-            "Initial tumor burden before treatment",
             "Metastatic spread to other organs",
+            "Initial tumor burden before treatment",
             "Cancer stem cell population"
           ],
           correctAnswer: 0,
@@ -2637,60 +2637,60 @@ Molecular diagnostics continues to evolve rapidly, requiring laboratory professi
           id: 16,
           question: "Which gene variant affects warfarin dosing?",
           options: [
-            "CYP2C9 and VKORC1",
             "CYP2D6 only",
-            "TPMT only",
-            "DPYD only"
+            "DPYD only",
+            "CYP2C9 and VKORC1",
+            "TPMT only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CYP2C9 metabolizes warfarin, while VKORC1 is the drug target; variants in both affect dosage requirements."
         },
         {
           id: 17,
           question: "What is the purpose of adapter ligation in NGS library preparation?",
           options: [
-            "Attach platform-specific sequences for binding to flow cell",
-            "Repair DNA fragment ends",
             "Remove contaminating proteins",
-            "Amplify target regions only"
+            "Repair DNA fragment ends",
+            "Amplify target regions only",
+            "Attach platform-specific sequences for binding to flow cell"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Adapters contain sequences for flow cell binding, priming sites for sequencing, and sample-specific barcodes for multiplexing."
         },
         {
           id: 18,
           question: "Which method detects gene fusions in hematologic malignancies?",
           options: [
-            "Reverse transcription PCR (RT-PCR)",
             "Sanger sequencing alone",
             "Digital PCR only",
+            "Reverse transcription PCR (RT-PCR)",
             "Microarray analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "RT-PCR detects fusion transcripts from chromosomal rearrangements, common in leukemias and lymphomas."
         },
         {
           id: 19,
           question: "What does CMA stand for in genetic testing?",
           options: [
-            "Chromosomal Microarray Analysis",
-            "Comprehensive Mutation Analysis",
             "Cancer Mutation Array",
-            "Copy Number Assessment"
+            "Copy Number Assessment",
+            "Chromosomal Microarray Analysis",
+            "Comprehensive Mutation Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CMA detects copy number variations and regions of homozygosity, used for developmental disorders and congenital anomalies."
         },
         {
           id: 20,
           question: "Which area should be physically separated in molecular laboratory design?",
           options: [
-            "Pre-amplification, amplification, and post-amplification areas",
-            "Only specimen receiving and testing areas",
             "Office space and laboratory areas",
-            "Storage and testing areas only"
+            "Storage and testing areas only",
+            "Only specimen receiving and testing areas",
+            "Pre-amplification, amplification, and post-amplification areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Physical separation with unidirectional workflow prevents amplicon contamination, essential for PCR-based testing."
         }
       ]
@@ -3015,12 +3015,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
           id: 1,
           question: "What does CLIA stand for in laboratory regulation?",
           options: [
-            "Clinical Laboratory Improvement Amendments",
-            "Clinical Laboratory Inspection Agency",
             "Certified Laboratory Inspection Authority",
-            "Clinical Laboratory Instrument Association"
+            "Clinical Laboratory Inspection Agency",
+            "Clinical Laboratory Instrument Association",
+            "Clinical Laboratory Improvement Amendments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CLIA establishes quality standards for laboratory testing to ensure accurate, reliable, and timely patient test results."
         },
         {
@@ -3028,9 +3028,9 @@ Effective laboratory management requires balancing clinical excellence, operatio
           question: "Who has overall responsibility for laboratory testing under CLIA?",
           options: [
             "Laboratory Director",
-            "Technical Supervisor",
+            "Testing Personnel",
             "General Supervisor",
-            "Testing Personnel"
+            "Technical Supervisor"
           ],
           correctAnswer: 0,
           explanation: "The Laboratory Director (MD, PhD, or equivalent) has ultimate responsibility for all testing performed in the laboratory."
@@ -3041,8 +3041,8 @@ Effective laboratory management requires balancing clinical excellence, operatio
           options: [
             "Systematic approach to quality in all laboratory operations",
             "Only monitoring daily quality control results",
-            "Tracking laboratory expenses",
-            "Managing personnel schedules"
+            "Managing personnel schedules",
+            "Tracking laboratory expenses"
           ],
           correctAnswer: 0,
           explanation: "A QMS encompasses all activities that direct and control quality, including quality planning, control, assurance, and improvement."
@@ -3051,12 +3051,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
           id: 4,
           question: "Which accreditation organization is specific to pathology laboratories?",
           options: [
+            "COLA",
             "College of American Pathologists (CAP)",
-            "The Joint Commission (TJC)",
             "AABB",
-            "COLA"
+            "The Joint Commission (TJC)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CAP provides accreditation specifically for laboratories, with comprehensive checklists for each laboratory section."
         },
         {
@@ -3064,9 +3064,9 @@ Effective laboratory management requires balancing clinical excellence, operatio
           question: "What does PDCA stand for in quality improvement?",
           options: [
             "Plan-Do-Check-Act",
+            "Prepare-Do-Correct-Assess",
             "Prepare-Develop-Check-Assess",
-            "Plan-Develop-Correct-Act",
-            "Prepare-Do-Correct-Assess"
+            "Plan-Develop-Correct-Act"
           ],
           correctAnswer: 0,
           explanation: "PDCA is a four-step management method for continuous improvement: Plan the change, Do it on small scale, Check results, Act to implement or adjust."
@@ -3075,12 +3075,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
           id: 6,
           question: "What is measured in test utilization management?",
           options: [
-            "Appropriateness of test ordering patterns",
-            "Only the number of tests performed",
             "Equipment usage time",
+            "Only the number of tests performed",
+            "Appropriateness of test ordering patterns",
             "Reagent consumption rates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Test utilization evaluates whether tests are ordered appropriately based on clinical guidelines, avoiding overuse or underuse."
         },
         {
@@ -3089,8 +3089,8 @@ Effective laboratory management requires balancing clinical excellence, operatio
           options: [
             "Safety Data Sheet (SDS)",
             "Procedure manual",
-            "Quality control log",
-            "Equipment manual"
+            "Equipment manual",
+            "Quality control log"
           ],
           correctAnswer: 0,
           explanation: "SDS provides comprehensive safety information including hazards, handling, storage, and emergency measures for chemicals."
@@ -3099,48 +3099,48 @@ Effective laboratory management requires balancing clinical excellence, operatio
           id: 8,
           question: "What is the purpose of competency assessment?",
           options: [
+            "Count how many tests each person performs",
             "Verify staff can perform testing accurately and reliably",
             "Measure how fast tests are performed",
-            "Determine staff salary increases",
-            "Count how many tests each person performs"
+            "Determine staff salary increases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competency assessment evaluates whether personnel can properly perform assigned duties, including direct observation, testing, and record review."
         },
         {
           id: 9,
           question: "What does LIS stand for in laboratory operations?",
           options: [
-            "Laboratory Information System",
-            "Laboratory Inspection System",
             "Laboratory Inventory System",
-            "Laboratory Instruction System"
+            "Laboratory Instruction System",
+            "Laboratory Inspection System",
+            "Laboratory Information System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "LIS manages laboratory data including orders, results, quality control, and inventory, often interfaced with hospital systems."
         },
         {
           id: 10,
           question: "What is root cause analysis used for?",
           options: [
-            "Identify underlying causes of problems",
             "Count how many errors occur",
             "Assign blame for mistakes",
-            "Calculate financial losses"
+            "Calculate financial losses",
+            "Identify underlying causes of problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RCA systematically investigates problems to find fundamental causes rather than symptoms, enabling effective corrective actions."
         },
         {
           id: 11,
           question: "Which budget includes major equipment purchases?",
           options: [
+            "Supply budget",
             "Capital budget",
-            "Operating budget",
             "Personnel budget",
-            "Supply budget"
+            "Operating budget"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Capital budget covers major expenditures like equipment, renovations, and information systems, typically with multi-year planning."
         },
         {
@@ -3148,8 +3148,8 @@ Effective laboratory management requires balancing clinical excellence, operatio
           question: "What does FIFO mean in inventory management?",
           options: [
             "First In, First Out",
-            "First Inventory, First Order",
             "Fast Inventory Flow Out",
+            "First Inventory, First Order",
             "Frequent Inventory For Orders"
           ],
           correctAnswer: 0,
@@ -3159,96 +3159,96 @@ Effective laboratory management requires balancing clinical excellence, operatio
           id: 13,
           question: "Which biosafety level is required for Mycobacterium tuberculosis?",
           options: [
-            "BSL-3",
             "BSL-1",
+            "BSL-3",
             "BSL-2",
             "BSL-4"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BSL-3 is required for indigenous or exotic agents causing serious disease through inhalation, with specific engineering controls."
         },
         {
           id: 14,
           question: "What is measured in turnaround time monitoring?",
           options: [
-            "Time from specimen collection to result reporting",
-            "Time from test order to specimen collection",
+            "Time from result entry to physician review",
             "Only instrument analysis time",
-            "Time from result entry to physician review"
+            "Time from test order to specimen collection",
+            "Time from specimen collection to result reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Total turnaround time includes pre-analytical, analytical, and post-analytical phases, critical for clinical decision-making."
         },
         {
           id: 15,
           question: "What does FTE stand for in staffing?",
           options: [
-            "Full-Time Equivalent",
+            "Flexible Time Equivalent",
             "Full-Time Employee",
             "Fixed Time Employee",
-            "Flexible Time Equivalent"
+            "Full-Time Equivalent"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FTE represents workload of one full-time employee, used to calculate staffing needs based on test volumes and complexity."
         },
         {
           id: 16,
           question: "Which method is used for method validation of new tests?",
           options: [
-            "Accuracy, precision, reportable range, reference interval studies",
+            "Manufacturer's claims only",
             "Only comparison to old method",
-            "Survey of other laboratories",
-            "Manufacturer's claims only"
+            "Accuracy, precision, reportable range, reference interval studies",
+            "Survey of other laboratories"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Comprehensive validation includes accuracy, precision, reportable range, reference intervals, and interference studies."
         },
         {
           id: 17,
           question: "What is the purpose of proficiency testing?",
           options: [
-            "Compare laboratory performance to peers using unknown samples",
-            "Test proficiency of individual technologists",
             "Practice new techniques",
-            "Check equipment calibration"
+            "Test proficiency of individual technologists",
+            "Check equipment calibration",
+            "Compare laboratory performance to peers using unknown samples"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PT programs send unknown samples for analysis, allowing comparison to other laboratories and identification of systematic errors."
         },
         {
           id: 18,
           question: "What does CAPA stand for in quality systems?",
           options: [
-            "Corrective and Preventive Actions",
             "Clinical and Pathological Analysis",
             "Comprehensive Assessment and Planning",
+            "Corrective and Preventive Actions",
             "Chemical and Physical Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CAPA addresses both existing problems (corrective) and potential future problems (preventive) through systematic investigation and action."
         },
         {
           id: 19,
           question: "Which planning method addresses both existing and potential future problems?",
           options: [
-            "Failure Mode and Effects Analysis (FMEA)",
-            "Root Cause Analysis only",
             "Pareto Analysis only",
-            "Fishbone Diagram only"
+            "Fishbone Diagram only",
+            "Root Cause Analysis only",
+            "Failure Mode and Effects Analysis (FMEA)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FMEA proactively identifies potential failure modes, their causes and effects, and prioritizes preventive actions."
         },
         {
           id: 20,
           question: "What is essential for emergency preparedness?",
           options: [
+            "Informal verbal instructions",
             "Comprehensive plan covering various disaster scenarios",
-            "Only backup power generators",
             "Extra supplies stored randomly",
-            "Informal verbal instructions"
+            "Only backup power generators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Emergency preparedness requires written plans, regular training and drills, resource identification, and continuous improvement based on lessons learned."
         }
       ]
@@ -3267,12 +3267,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 1,
         question: "Which Westgard rule indicates rejection when one control exceeds ±3SD?",
         options: [
-          "1₃s rule",
-          "1₂s rule",
           "2₂s rule",
-          "R₄s rule"
+          "1₃s rule",
+          "R₄s rule",
+          "1₂s rule"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The 1₃s rule rejects a run when any single control measurement exceeds ±3 standard deviations from the mean.",
         module: 1
       },
@@ -3281,8 +3281,8 @@ Effective laboratory management requires balancing clinical excellence, operatio
         question: "What is the gold standard biomarker for myocardial infarction?",
         options: [
           "Troponin I or T",
-          "CK-MB",
           "Myoglobin",
+          "CK-MB",
           "LDH"
         ],
         correctAnswer: 0,
@@ -3294,9 +3294,9 @@ Effective laboratory management requires balancing clinical excellence, operatio
         question: "Which liver enzyme is most specific for hepatocellular injury?",
         options: [
           "ALT (Alanine Aminotransferase)",
+          "GGT (Gamma-Glutamyl Transferase)",
           "AST (Aspartate Aminotransferase)",
-          "ALP (Alkaline Phosphatase)",
-          "GGT (Gamma-Glutamyl Transferase)"
+          "ALP (Alkaline Phosphatase)"
         ],
         correctAnswer: 0,
         explanation: "ALT is primarily hepatic, making it more specific for liver cell damage than AST.",
@@ -3306,12 +3306,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 4,
         question: "What provides a 3-month average of glucose control?",
         options: [
-          "HbA1c (Glycated Hemoglobin)",
-          "Fasting glucose",
           "Fructosamine",
-          "C-peptide"
+          "Fasting glucose",
+          "C-peptide",
+          "HbA1c (Glycated Hemoglobin)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "HbA1c reflects average blood glucose over 2-3 months through non-enzymatic glycation of hemoglobin.",
         module: 1
       },
@@ -3321,12 +3321,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 5,
         question: "What does MCV measure in a complete blood count?",
         options: [
-          "Mean Corpuscular Volume (average RBC size)",
-          "Mean Cellular Viscosity",
+          "Maximum Cell Variation",
           "Minimum Clotting Value",
-          "Maximum Cell Variation"
+          "Mean Cellular Viscosity",
+          "Mean Corpuscular Volume (average RBC size)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "MCV measures average red blood cell volume, classifying anemia as microcytic, normocytic, or macrocytic.",
         module: 2
       },
@@ -3334,12 +3334,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 6,
         question: "Which anticoagulant is used for hematology testing?",
         options: [
-          "EDTA",
           "Sodium citrate",
+          "EDTA",
           "Heparin",
           "Oxalate"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "EDTA preserves cell morphology and prevents clotting for complete blood counts.",
         module: 2
       },
@@ -3347,12 +3347,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 7,
         question: "Which test evaluates extrinsic coagulation pathway?",
         options: [
-          "Prothrombin Time (PT)",
-          "Activated Partial Thromboplastin Time (aPTT)",
+          "Bleeding time",
           "Thrombin Time (TT)",
-          "Bleeding time"
+          "Prothrombin Time (PT)",
+          "Activated Partial Thromboplastin Time (aPTT)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "PT measures factors II, V, VII, X and fibrinogen in the extrinsic and common pathways.",
         module: 2
       },
@@ -3360,12 +3360,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 8,
         question: "What does hemoglobin electrophoresis detect?",
         options: [
-          "Hemoglobin variants like HbS",
           "Red blood cell count",
-          "White blood cell differential",
-          "Platelet function"
+          "Platelet function",
+          "Hemoglobin variants like HbS",
+          "White blood cell differential"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Hemoglobin electrophoresis separates hemoglobin variants based on charge for hemoglobinopathy diagnosis.",
         module: 2
       },
@@ -3375,12 +3375,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 9,
         question: "Which medium is selective for Gram-negative rods?",
         options: [
-          "MacConkey agar",
+          "Sabouraud dextrose agar",
           "Blood agar",
           "Chocolate agar",
-          "Sabouraud dextrose agar"
+          "MacConkey agar"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "MacConkey agar inhibits Gram-positive bacteria and differentiates lactose-fermenting Gram-negative rods.",
         module: 3
       },
@@ -3389,8 +3389,8 @@ Effective laboratory management requires balancing clinical excellence, operatio
         question: "What does the Kirby-Bauer method measure?",
         options: [
           "Antibiotic susceptibility by disk diffusion",
-          "Bacterial growth rate",
           "Viral load quantification",
+          "Bacterial growth rate",
           "Fungal sporulation"
         ],
         correctAnswer: 0,
@@ -3401,12 +3401,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 11,
           question: "Which stain is used for acid-fast bacteria?",
         options: [
-          "Ziehl-Neelsen or auramine-rhodamine",
-          "Gram stain",
           "Giemsa stain",
+          "Gram stain",
+          "Ziehl-Neelsen or auramine-rhodamine",
           "Wright-Giemsa stain"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Acid-fast stains detect mycolic acids in mycobacterial cell walls that resist decolorization.",
         module: 3
       },
@@ -3414,12 +3414,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 12,
         question: "What provides rapid organism identification by protein profiling?",
         options: [
-          "MALDI-TOF MS",
           "Gram stain",
+          "MALDI-TOF MS",
           "Biochemical testing",
           "Antibiotic susceptibility testing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "MALDI-TOF MS identifies microorganisms by comparing protein mass spectra to reference databases.",
         module: 3
       },
@@ -3430,9 +3430,9 @@ Effective laboratory management requires balancing clinical excellence, operatio
         question: "What are naturally occurring antibodies in ABO system?",
         options: [
           "Anti-A and Anti-B",
-          "Anti-D and Anti-K",
           "Anti-Fyᵃ and Anti-Jkᵃ",
-          "Anti-M and Anti-N"
+          "Anti-M and Anti-N",
+          "Anti-D and Anti-K"
         ],
         correctAnswer: 0,
         explanation: "Anti-A and anti-B IgM antibodies develop naturally in individuals lacking corresponding antigens.",
@@ -3442,12 +3442,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 14,
         question: "Which component is stored at room temperature with agitation?",
         options: [
-          "Platelets",
           "Red blood cells",
+          "Platelets",
           "Fresh frozen plasma",
           "Cryoprecipitate"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Platelets require 20-24°C storage with continuous agitation to maintain function for 5 days.",
         module: 4
       },
@@ -3455,12 +3455,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 15,
         question: "What indicates antibodies coating RBCs in vivo?",
         options: [
+          "Positive crossmatch",
           "Positive direct antiglobulin test (DAT)",
           "Positive antibody screen",
-          "Positive crossmatch",
           "Positive forward typing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "A positive DAT indicates antibodies or complement are attached to patient's RBCs in circulation.",
         module: 4
       },
@@ -3468,12 +3468,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 16,
         question: "What prevents Rh sensitization in Rh-negative women?",
         options: [
-          "Rh immune globulin (RhIg)",
-          "Platelet transfusion",
           "Plasmapheresis",
-          "Corticosteroids"
+          "Corticosteroids",
+          "Platelet transfusion",
+          "Rh immune globulin (RhIg)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "RhIg clears fetal Rh-positive RBCs from maternal circulation before immune response develops.",
         module: 4
       },
@@ -3483,12 +3483,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 17,
         question: "What does PCR amplify in molecular diagnostics?",
         options: [
+          "Carbohydrates",
           "Specific DNA sequences",
           "Proteins",
-          "Carbohydrates",
           "Lipids"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "PCR exponentially amplifies target DNA sequences using repeated cycles of denaturation, annealing, and extension.",
         module: 5
       },
@@ -3496,12 +3496,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 18,
         question: "What provides sequence specificity in PCR?",
         options: [
-          "Primers",
-          "DNA polymerase",
           "dNTPs",
-          "Magnesium ions"
+          "Primers",
+          "Magnesium ions",
+          "DNA polymerase"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Primers are oligonucleotides that bind complementary target sequences, defining amplification region.",
         module: 5
       },
@@ -3509,12 +3509,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 19,
         question: "Which method allows absolute quantification without standards?",
         options: [
-          "Digital PCR (dPCR)",
           "Real-time PCR (qPCR)",
-          "Nested PCR",
-          "Multiplex PCR"
+          "Digital PCR (dPCR)",
+          "Multiplex PCR",
+          "Nested PCR"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Digital PCR partitions samples for endpoint detection, using Poisson statistics for absolute quantification.",
         module: 5
       },
@@ -3522,12 +3522,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 20,
         question: "What does NGS enable in molecular testing?",
         options: [
-          "Massively parallel sequencing of millions of fragments",
           "Single gene sequencing only",
           "Protein sequencing",
+          "Massively parallel sequencing of millions of fragments",
           "Carbohydrate analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Next-generation sequencing allows simultaneous sequencing of millions of DNA fragments.",
         module: 5
       },
@@ -3537,12 +3537,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 21,
         question: "What does CLIA regulate?",
         options: [
-          "Laboratory testing quality standards",
           "Hospital building codes",
-          "Medical school curriculum",
-          "Pharmaceutical manufacturing"
+          "Pharmaceutical manufacturing",
+          "Laboratory testing quality standards",
+          "Medical school curriculum"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "CLIA establishes quality standards for laboratory testing to ensure accurate, reliable patient results.",
         module: 6
       },
@@ -3550,12 +3550,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 22,
         question: "Who has overall responsibility for laboratory testing?",
         options: [
-          "Laboratory Director",
-          "Technical Supervisor",
+          "Medical Technologist",
           "General Supervisor",
-          "Medical Technologist"
+          "Technical Supervisor",
+          "Laboratory Director"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The Laboratory Director has ultimate responsibility for all testing performed in the laboratory.",
         module: 6
       },
@@ -3563,12 +3563,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 23,
         question: "What is the purpose of a quality management system?",
         options: [
-          "Systematic approach to quality in all operations",
           "Only monitoring daily QC",
-          "Tracking laboratory expenses",
-          "Managing personnel schedules"
+          "Systematic approach to quality in all operations",
+          "Managing personnel schedules",
+          "Tracking laboratory expenses"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "QMS encompasses quality planning, control, assurance, and improvement throughout the laboratory.",
         module: 6
       },
@@ -3576,12 +3576,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 24,
         question: "Which accreditation is specific to pathology laboratories?",
         options: [
-          "College of American Pathologists (CAP)",
           "The Joint Commission (TJC)",
           "AABB",
+          "College of American Pathologists (CAP)",
           "COLA"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "CAP provides comprehensive laboratory accreditation with detailed checklists for each section.",
         module: 6
       },
@@ -3591,12 +3591,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 25,
         question: "What electrolyte requires careful handling to prevent hemolysis?",
         options: [
-          "Potassium (K⁺)",
+          "Calcium (Ca²⁺)",
           "Sodium (Na⁺)",
           "Chloride (Cl⁻)",
-          "Calcium (Ca²⁺)"
+          "Potassium (K⁺)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Potassium is predominantly intracellular, so hemolysis falsely elevates serum levels.",
         module: 1
       },
@@ -3604,12 +3604,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 26,
         question: "What does D-dimer measure in coagulation?",
         options: [
-          "Fibrin degradation products",
           "Platelet count",
-          "Vitamin K-dependent factors",
-          "Red blood cell fragility"
+          "Red blood cell fragility",
+          "Fibrin degradation products",
+          "Vitamin K-dependent factors"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "D-dimer measures specific degradation products from cross-linked fibrin, indicating active thrombosis.",
         module: 2
       },
@@ -3617,12 +3617,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 27,
         question: "What does ESBL stand for in antibiotic resistance?",
         options: [
-          "Extended-Spectrum Beta-Lactamase",
+          "Extended-Spectrum Biocide Liability",
           "Extended-Spectrum Bacterial Lipase",
-          "Enhanced Sensitivity Beta-Lactam",
-          "Extended-Spectrum Biocide Liability"
+          "Extended-Spectrum Beta-Lactamase",
+          "Enhanced Sensitivity Beta-Lactam"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "ESBLs hydrolyze extended-spectrum cephalosporins and are inhibited by clavulanic acid.",
         module: 3
       },
@@ -3630,12 +3630,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 28,
         question: "What component is indicated for fibrinogen replacement?",
         options: [
-          "Cryoprecipitate",
           "Fresh frozen plasma",
+          "Cryoprecipitate",
           "Platelets",
           "Red blood cells"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cryoprecipitate contains fibrinogen, factor VIII, vWF, and factor XIII.",
         module: 4
       },
@@ -3643,12 +3643,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 29,
         question: "What does ctDNA enable in oncology?",
         options: [
+          "Cytogenetic testing",
           "Non-invasive liquid biopsy for mutation detection",
-          "Tissue biopsy alternative",
           "Protein expression analysis",
-          "Cytogenetic testing"
+          "Tissue biopsy alternative"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Circulating tumor DNA allows non-invasive monitoring of tumor mutations and treatment response.",
         module: 5
       },
@@ -3657,9 +3657,9 @@ Effective laboratory management requires balancing clinical excellence, operatio
         question: "What does PDCA stand for in quality improvement?",
         options: [
           "Plan-Do-Check-Act",
-          "Prepare-Develop-Check-Assess",
+          "Prepare-Do-Correct-Assess",
           "Plan-Develop-Correct-Act",
-          "Prepare-Do-Correct-Assess"
+          "Prepare-Develop-Check-Assess"
         ],
         correctAnswer: 0,
         explanation: "PDCA is a four-step method for continuous improvement through planning, implementation, evaluation, and action.",
@@ -3669,12 +3669,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 31,
         question: "Which test monitors heparin therapy?",
         options: [
-          "Activated Partial Thromboplastin Time (aPTT)",
           "Prothrombin Time (PT)",
-          "Thrombin Time (TT)",
-          "Bleeding time"
+          "Bleeding time",
+          "Activated Partial Thromboplastin Time (aPTT)",
+          "Thrombin Time (TT)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "aPTT monitors unfractionated heparin therapy, with therapeutic range typically 1.5-2.5 times baseline.",
         module: 2
       },
@@ -3682,12 +3682,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 32,
         question: "What is the purpose of antibiotic susceptibility testing?",
         options: [
-          "Guide appropriate antibiotic therapy",
-          "Identify bacterial species",
           "Count bacterial colonies",
+          "Identify bacterial species",
+          "Guide appropriate antibiotic therapy",
           "Measure bacterial growth rate"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "AST determines which antibiotics will inhibit bacterial growth, guiding effective treatment.",
         module: 3
       },
@@ -3695,12 +3695,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 33,
         question: "What does a positive DAT indicate in transfusion reaction?",
         options: [
-          "Antibodies coating transfused RBCs",
           "Bacterial contamination",
-          "Volume overload",
-          "Allergic reaction"
+          "Antibodies coating transfused RBCs",
+          "Allergic reaction",
+          "Volume overload"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "A positive DAT post-transfusion suggests immune-mediated destruction of transfused RBCs.",
         module: 4
       },
@@ -3708,12 +3708,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 34,
         question: "What does real-time PCR (qPCR) measure?",
         options: [
-          "Fluorescence accumulation during amplification",
           "Final DNA concentration only",
+          "Fluorescence accumulation during amplification",
           "Primer binding efficiency",
           "DNA polymerase activity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "qPCR monitors fluorescence at each cycle for quantification based on threshold cycle (Ct).",
         module: 5
       },
@@ -3722,8 +3722,8 @@ Effective laboratory management requires balancing clinical excellence, operatio
         question: "What is root cause analysis used for?",
         options: [
           "Identify underlying causes of problems",
-          "Count error frequency",
           "Assign individual blame",
+          "Count error frequency",
           "Calculate financial impact"
         ],
         correctAnswer: 0,
@@ -3734,12 +3734,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 36,
         question: "Which cardiac biomarker rises first after MI?",
         options: [
-          "Myoglobin",
-          "Troponin",
           "CK-MB",
-          "BNP"
+          "BNP",
+          "Troponin",
+          "Myoglobin"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Myoglobin rises within 1-2 hours but lacks cardiac specificity, requiring confirmation with troponin.",
         module: 1
       },
@@ -3747,12 +3747,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 37,
         question: "What is the rule of three in antibody identification?",
         options: [
-          "3 antigen-positive and 3 antigen-negative cells reacting as expected",
           "3 different methods confirming antibody",
-          "3 different temperatures tested",
-          "3 different enhancement media used"
+          "3 different enhancement media used",
+          "3 antigen-positive and 3 antigen-negative cells reacting as expected",
+          "3 different temperatures tested"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The rule of three requires consistent reactivity patterns with multiple cells for antibody confirmation.",
         module: 4
       },
@@ -3760,12 +3760,12 @@ Effective laboratory management requires balancing clinical excellence, operatio
         id: 38,
         question: "What does MALDI-TOF MS provide in microbiology?",
         options: [
-          "Rapid organism identification by protein profiling",
           "Antibiotic resistance detection",
           "Viral load measurement",
-          "Fungal toxin analysis"
+          "Fungal toxin analysis",
+          "Rapid organism identification by protein profiling"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "MALDI-TOF MS compares microorganism protein profiles to databases for rapid identification.",
         module: 3
       },
@@ -3787,9 +3787,9 @@ Effective laboratory management requires balancing clinical excellence, operatio
         question: "What is essential for emergency preparedness?",
         options: [
           "Comprehensive plan covering various scenarios",
-          "Only backup power generators",
+          "Informal verbal instructions",
           "Extra supplies stored randomly",
-          "Informal verbal instructions"
+          "Only backup power generators"
         ],
         correctAnswer: 0,
         explanation: "Emergency preparedness requires written plans, regular training, resource identification, and continuous improvement.",

@@ -133,108 +133,108 @@ By understanding these foundations, change managers can approach organizational 
           id: 1,
           question: "What is change management?",
           options: [
-            "Structured approach to transitioning from current to desired state",
-            "Only changing office layouts",
             "Just updating computer systems",
-            "Random organizational adjustments"
+            "Structured approach to transitioning from current to desired state",
+            "Random organizational adjustments",
+            "Only changing office layouts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change management is the systematic approach to dealing with transition or transformation of organizational goals, processes, or technologies."
         },
         {
           id: 2,
           question: "What is incremental change?",
           options: [
-            "Small, continuous improvements",
             "Complete organizational overhaul",
-            "Only technological changes",
-            "Changes that happen accidentally"
+            "Changes that happen accidentally",
+            "Small, continuous improvements",
+            "Only technological changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Incremental change involves gradual, continuous improvements that evolve existing processes and systems rather than replacing them entirely."
         },
         {
           id: 3,
           question: "What is transformational change?",
           options: [
-            "Fundamental shifts in how organization operates",
             "Minor policy updates",
             "Only departmental adjustments",
-            "Temporary organizational changes"
+            "Temporary organizational changes",
+            "Fundamental shifts in how organization operates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transformational change involves radical shifts that fundamentally alter how the organization operates, often affecting strategy, structure, and culture."
         },
         {
           id: 4,
           question: "What is the first stage in Lewin's Change Model?",
           options: [
-            "Unfreeze",
             "Change",
+            "Unfreeze",
             "Refreeze",
             "Resistance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Unfreeze involves creating awareness of the need for change and reducing resistance before implementing new approaches."
         },
         {
           id: 5,
           question: "What does ADKAR stand for?",
           options: [
-            "Awareness, Desire, Knowledge, Ability, Reinforcement",
             "Analysis, Design, Knowledge, Action, Review",
             "Assessment, Development, Key results, Achievement, Recognition",
-            "Approach, Direction, Knowledge, Action, Results"
+            "Approach, Direction, Knowledge, Action, Results",
+            "Awareness, Desire, Knowledge, Ability, Reinforcement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ADKAR is a goal-oriented change management model focusing on individual change: Awareness, Desire, Knowledge, Ability, and Reinforcement."
         },
         {
           id: 6,
           question: "Who are change sponsors?",
           options: [
+            "Employees resisting change",
             "Senior leaders who authorize and champion change",
             "Only external consultants",
-            "Employees resisting change",
             "People funding the change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change sponsors are senior leaders with authority to allocate resources and make decisions, providing visible support and championing the change."
         },
         {
           id: 7,
           question: "What is a business driver for change?",
           options: [
-            "Reason or rationale requiring organizational change",
             "Only financial budget",
-            "Employee suggestions",
-            "New office location"
+            "New office location",
+            "Reason or rationale requiring organizational change",
+            "Employee suggestions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Business drivers are internal or external factors that create the need for change, such as competitive pressure, technology shifts, or regulatory requirements."
         },
         {
           id: 8,
           question: "What does change readiness assessment examine?",
           options: [
-            "Whether organization has capacity and willingness to change",
             "Only employee skills",
-            "Just available budget",
-            "Current office space"
+            "Whether organization has capacity and willingness to change",
+            "Current office space",
+            "Just available budget"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change readiness assessment evaluates organizational capacity, leadership commitment, employee preparedness, and environmental factors affecting change success."
         },
         {
           id: 9,
           question: "What is a people-centered approach to change?",
           options: [
-            "Recognizing change happens through people",
             "Only focusing on technical systems",
+            "Changing organizational charts only",
             "Ignoring employee concerns",
-            "Changing organizational charts only"
+            "Recognizing change happens through people"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A people-centered approach addresses both technical and human aspects of change, recognizing that successful implementation depends on people adopting new ways of working."
         },
         {
@@ -242,9 +242,9 @@ By understanding these foundations, change managers can approach organizational 
           question: "What is change fatigue?",
           options: [
             "When too many changes overwhelm people",
+            "Excitement about changes",
             "Only physical tiredness from work",
-            "Boredom with current processes",
-            "Excitement about changes"
+            "Boredom with current processes"
           ],
           correctAnswer: 0,
           explanation: "Change fatigue occurs when employees feel overwhelmed by continuous or poorly managed changes, leading to disengagement and reduced effectiveness."
@@ -253,84 +253,84 @@ By understanding these foundations, change managers can approach organizational 
           id: 11,
           question: "What is cultural change?",
           options: [
-            "Shifting organization's values, beliefs, and behaviors",
-            "Only changing office decor",
+            "Celebrating cultural holidays",
             "Hiring people from different cultures",
-            "Celebrating cultural holidays"
+            "Shifting organization's values, beliefs, and behaviors",
+            "Only changing office decor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cultural change involves transforming the underlying values, beliefs, assumptions, and behaviors that define how people work together in an organization."
         },
         {
           id: 12,
           question: "What is the preparation phase in change management?",
           options: [
-            "Assessing readiness and building case for change",
-            "Only announcing changes",
+            "Celebrating completed changes",
             "Implementing new systems",
-            "Celebrating completed changes"
+            "Assessing readiness and building case for change",
+            "Only announcing changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The preparation phase involves assessing current state, building the business case, identifying stakeholders, and developing initial change plans before implementation."
         },
         {
           id: 13,
           question: "What are change agents?",
           options: [
-            "Individuals who facilitate the change process",
+            "External regulators",
             "Only senior executives",
-            "People resisting change",
-            "External regulators"
+            "Individuals who facilitate the change process",
+            "People resisting change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Change agents are individuals responsible for facilitating and supporting the change process, often serving as liaisons between leadership and employees."
         },
         {
           id: 14,
           question: "What is gap analysis in change management?",
           options: [
-            "Identifying differences between current and desired states",
+            "Finding time gaps in schedules",
             "Only analyzing budget gaps",
-            "Looking for communication gaps",
-            "Finding time gaps in schedules"
+            "Identifying differences between current and desired states",
+            "Looking for communication gaps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Gap analysis identifies what needs to change by comparing current state with desired future state, highlighting what must be addressed to achieve objectives."
         },
         {
           id: 15,
           question: "Why is clear communication important in change?",
           options: [
-            "Ensures everyone understands what's changing and why",
             "Only to announce changes",
+            "Just for legal requirements",
             "To hide problems from employees",
-            "Just for legal requirements"
+            "Ensures everyone understands what's changing and why"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Clear communication builds understanding, reduces uncertainty, addresses concerns, and helps people see how changes affect them and what they need to do differently."
         },
         {
           id: 16,
           question: "What does iterative approach mean in change management?",
           options: [
-            "Allowing for learning and adjustment during change",
             "Only repeating the same steps",
             "Changing directions randomly",
-            "Ignoring feedback"
+            "Ignoring feedback",
+            "Allowing for learning and adjustment during change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "An iterative approach involves cycles of planning, implementation, evaluation, and adjustment, recognizing that change requires flexibility and learning."
         },
         {
           id: 17,
           question: "What is leadership inconsistency in change?",
           options: [
-            "When leaders say one thing but do another",
+            "Leaders taking vacations during change",
             "Only changing leadership styles",
             "Having multiple leaders",
-            "Leaders taking vacations during change"
+            "When leaders say one thing but do another"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leadership inconsistency occurs when leaders' words and actions don't align, undermining change credibility and creating confusion about priorities."
         },
         {
@@ -338,9 +338,9 @@ By understanding these foundations, change managers can approach organizational 
           question: "Why celebrate milestones during change?",
           options: [
             "Recognizes progress and maintains momentum",
+            "Because it's required",
             "Only to have parties",
-            "To distract from problems",
-            "Because it's required"
+            "To distract from problems"
           ],
           correctAnswer: 0,
           explanation: "Celebrating milestones acknowledges achievements, reinforces positive behavior, builds confidence, and maintains energy for continued change efforts."
@@ -361,12 +361,12 @@ By understanding these foundations, change managers can approach organizational 
           id: 20,
           question: "What is operational change?",
           options: [
-            "Improves efficiency of daily operations",
             "Only changes to operations manual",
             "Changing operational hours",
-            "Hiring operational staff"
+            "Hiring operational staff",
+            "Improves efficiency of daily operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Operational change focuses on improving how work gets done through new processes, systems, or structures that enhance efficiency and effectiveness."
         }
       ]
@@ -477,24 +477,24 @@ By investing time in strategic planning and thoughtful design, change leaders in
           id: 1,
           question: "What is strategic alignment in change planning?",
           options: [
-            "Ensuring change supports organizational goals",
-            "Only aligning budget with costs",
             "Matching change timing with calendar",
-            "Aligning with competitors' changes"
+            "Aligning with competitors' changes",
+            "Ensuring change supports organizational goals",
+            "Only aligning budget with costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic alignment ensures change initiatives directly support and advance the organization's mission, vision, and strategic objectives."
         },
         {
           id: 2,
           question: "Why is scope definition important in change planning?",
           options: [
-            "Clarifies what will and won't change",
+            "Limits communication channels",
             "Only determines project budget",
-            "Defines office locations",
-            "Limits communication channels"
+            "Clarifies what will and won't change",
+            "Defines office locations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clear scope definition establishes boundaries, manages expectations, prevents scope creep, and helps focus resources on what matters most."
         },
         {
@@ -502,9 +502,9 @@ By investing time in strategic planning and thoughtful design, change leaders in
           question: "What is a phased approach to change?",
           options: [
             "Breaking large changes into manageable pieces",
-            "Only changing one phase at a time",
             "Ignoring some phases",
-            "Rushing through all phases quickly"
+            "Rushing through all phases quickly",
+            "Only changing one phase at a time"
           ],
           correctAnswer: 0,
           explanation: "A phased approach divides change into sequential stages, allowing for learning, adjustment, early wins, and reduced disruption."
@@ -514,8 +514,8 @@ By investing time in strategic planning and thoughtful design, change leaders in
           question: "What does a business case include?",
           options: [
             "Problem, solution, costs, benefits, risks, measures",
-            "Only financial projections",
             "Employee names and roles",
+            "Only financial projections",
             "Office layout plans"
           ],
           correctAnswer: 0,
@@ -525,24 +525,24 @@ By investing time in strategic planning and thoughtful design, change leaders in
           id: 5,
           question: "What is stakeholder analysis?",
           options: [
-            "Identifying all parties affected by change",
-            "Only analyzing employee skills",
             "Reviewing stakeholder investments",
-            "Counting how many stakeholders exist"
+            "Counting how many stakeholders exist",
+            "Only analyzing employee skills",
+            "Identifying all parties affected by change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stakeholder analysis identifies individuals and groups affected by change, assesses their influence and interest, and plans engagement strategies."
         },
         {
           id: 6,
           question: "What does impact assessment analyze?",
           options: [
+            "Impact on competitors",
             "How changes affect people, processes, and systems",
             "Only financial impacts",
-            "Impact on competitors",
             "Environmental impacts only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Impact assessment examines consequences of change on various organizational elements to anticipate disruptions and plan mitigation strategies."
         },
         {
@@ -550,9 +550,9 @@ By investing time in strategic planning and thoughtful design, change leaders in
           question: "What are structural interventions?",
           options: [
             "Changes to organizational design and reporting",
-            "Only building renovations",
             "Employee structure changes",
-            "Changing organizational charts only"
+            "Changing organizational charts only",
+            "Only building renovations"
           ],
           correctAnswer: 0,
           explanation: "Structural interventions modify organizational architecture including hierarchy, departments, reporting relationships, and coordination mechanisms."
@@ -561,12 +561,12 @@ By investing time in strategic planning and thoughtful design, change leaders in
           id: 8,
           question: "What is integration planning in change design?",
           options: [
+            "Planning office integration",
             "Ensuring different interventions work together",
             "Only integrating new technology",
-            "Planning office integration",
             "Merging departments only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Integration planning coordinates various change elements so structural, process, technological, and cultural changes support rather than contradict each other."
         },
         {
@@ -574,8 +574,8 @@ By investing time in strategic planning and thoughtful design, change leaders in
           question: "What does capacity assessment evaluate?",
           options: [
             "Whether organization can handle change alongside operations",
-            "Only physical space capacity",
             "Employee mental capacity",
+            "Only physical space capacity",
             "Technology capacity only"
           ],
           correctAnswer: 0,
@@ -585,12 +585,12 @@ By investing time in strategic planning and thoughtful design, change leaders in
           id: 10,
           question: "What are feedback mechanisms in communication?",
           options: [
-            "Methods for two-way communication",
-            "Only giving feedback to employees",
             "Automated feedback systems",
+            "Only giving feedback to employees",
+            "Methods for two-way communication",
             "Annual survey only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Feedback mechanisms like surveys, focus groups, and suggestion boxes allow people to express concerns, ask questions, and contribute ideas during change."
         },
         {
@@ -598,9 +598,9 @@ By investing time in strategic planning and thoughtful design, change leaders in
           question: "What is skills gap analysis?",
           options: [
             "Identifying what people need to learn",
-            "Only finding skill deficiencies",
+            "Comparing skills between departments",
             "Analyzing pay gaps",
-            "Comparing skills between departments"
+            "Only finding skill deficiencies"
           ],
           correctAnswer: 0,
           explanation: "Skills gap analysis compares current employee capabilities with future requirements to determine training and development needs for successful change adoption."
@@ -609,12 +609,12 @@ By investing time in strategic planning and thoughtful design, change leaders in
           id: 12,
           question: "What are success metrics in change?",
           options: [
-            "Measures defining what success looks like",
+            "Project completion dates",
             "Only financial metrics",
-            "Employee satisfaction scores",
-            "Project completion dates"
+            "Measures defining what success looks like",
+            "Employee satisfaction scores"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Success metrics are measurable indicators that define and track achievement of change objectives, including both leading and lagging indicators."
         },
         {
@@ -622,9 +622,9 @@ By investing time in strategic planning and thoughtful design, change leaders in
           question: "What is baseline establishment?",
           options: [
             "Measuring current state before change",
-            "Only setting minimum standards",
+            "Creating foundation documents",
             "Establishing basic rules",
-            "Creating foundation documents"
+            "Only setting minimum standards"
           ],
           correctAnswer: 0,
           explanation: "Baseline establishment documents current performance, processes, and conditions before change begins, providing comparison points for evaluating progress."
@@ -633,12 +633,12 @@ By investing time in strategic planning and thoughtful design, change leaders in
           id: 14,
           question: "What is scenario planning?",
           options: [
-            "Anticipating different possible futures",
             "Only planning best-case scenarios",
-            "Writing scripted scenarios",
-            "Planning for one specific outcome"
+            "Planning for one specific outcome",
+            "Anticipating different possible futures",
+            "Writing scripted scenarios"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scenario planning develops multiple plausible future scenarios to prepare for uncertainties and build flexibility into change strategies."
         },
         {
@@ -647,8 +647,8 @@ By investing time in strategic planning and thoughtful design, change leaders in
           options: [
             "Defining how to handle major problems",
             "Only promoting employees",
-            "Increasing budget automatically",
-            "Making problems seem bigger"
+            "Making problems seem bigger",
+            "Increasing budget automatically"
           ],
           correctAnswer: 0,
           explanation: "Escalation procedures establish clear pathways for raising and addressing significant issues that require higher-level attention or decision-making."
@@ -657,48 +657,48 @@ By investing time in strategic planning and thoughtful design, change leaders in
           id: 16,
           question: "What is change capability building?",
           options: [
-            "Developing organizational capacity for change",
             "Only building physical capacity",
             "Increasing change budget",
+            "Developing organizational capacity for change",
             "Hiring change consultants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Change capability building develops skills, systems, and culture that enable the organization to implement change more effectively over time."
         },
         {
           id: 17,
           question: "What are change agent networks?",
           options: [
-            "Distributed support systems throughout organization",
             "Only external consultant networks",
             "Social media networks",
+            "Distributed support systems throughout organization",
             "Technology networks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Change agent networks consist of trained individuals across the organization who facilitate, support, and champion change initiatives at local levels."
         },
         {
           id: 18,
           question: "Why integrate change management with project management?",
           options: [
-            "Ensures people aspects complement technical implementation",
-            "Only to save money",
+            "To eliminate project management",
             "Because they are the same thing",
-            "To eliminate project management"
+            "Only to save money",
+            "Ensures people aspects complement technical implementation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Integration ensures technical implementation (project management) and people adaptation (change management) work together for successful outcomes."
         },
         {
           id: 19,
           question: "What is unified governance in change?",
           options: [
-            "Integrated oversight of both technical and people aspects",
             "Only senior leadership control",
             "Government regulations",
-            "Single decision-maker approach"
+            "Single decision-maker approach",
+            "Integrated oversight of both technical and people aspects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Unified governance provides coordinated oversight through joint steering committees that address both project management and change management considerations."
         },
         {
@@ -706,8 +706,8 @@ By investing time in strategic planning and thoughtful design, change leaders in
           question: "What does sustainability planning ensure?",
           options: [
             "Changes endure beyond initial implementation",
-            "Only environmental sustainability",
             "Project team sustainability",
+            "Only environmental sustainability",
             "Budget sustainability"
           ],
           correctAnswer: 0,
@@ -847,24 +847,24 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           id: 1,
           question: "What is the difference between change leadership and change management?",
           options: [
-            "Leadership focuses on people, management focuses on process",
             "Leadership is only for executives, management for others",
+            "Leadership is optional, management is required",
             "They are exactly the same thing",
-            "Leadership is optional, management is required"
+            "Leadership focuses on people, management focuses on process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Change leadership addresses inspiring and guiding people through transition, while change management focuses on planning and controlling change processes."
         },
         {
           id: 2,
           question: "Who are executive sponsors in change?",
           options: [
-            "Senior leaders who provide direction and resources",
-            "Only external funding sources",
+            "Competitors who challenge change",
             "Employees who support change",
-            "Competitors who challenge change"
+            "Senior leaders who provide direction and resources",
+            "Only external funding sources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Executive sponsors are senior leaders who champion change, allocate resources, remove barriers, and hold the organization accountable for implementation."
         },
         {
@@ -883,24 +883,24 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           id: 4,
           question: "Why is over-communicating necessary during change?",
           options: [
-            "People need to hear messages multiple times to understand",
             "Only to fill communication channels",
-            "Because leaders like to talk",
-            "To overwhelm resistors"
+            "To overwhelm resistors",
+            "People need to hear messages multiple times to understand",
+            "Because leaders like to talk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "During uncertainty, people need repeated exposure to messages through multiple channels before they fully understand and internalize them."
         },
         {
           id: 5,
           question: "What does 'walk the talk' mean for change leaders?",
           options: [
-            "Modeling the behaviors they expect from others",
             "Only talking about change",
-            "Walking around during meetings",
-            "Talking while walking"
+            "Talking while walking",
+            "Modeling the behaviors they expect from others",
+            "Walking around during meetings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "'Walk the talk' means leaders must demonstrate through their own actions the behaviors and attitudes they want others to adopt."
         },
         {
@@ -908,9 +908,9 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           question: "What are the components of trust?",
           options: [
             "Competence, reliability, honesty, and care",
-            "Only financial trust",
             "Trust in systems only",
-            "Blind trust without evidence"
+            "Blind trust without evidence",
+            "Only financial trust"
           ],
           correctAnswer: 0,
           explanation: "Trust includes competence (ability to deliver), reliability (consistency), honesty (truthfulness), and care (concern for others' well-being)."
@@ -919,36 +919,36 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           id: 7,
           question: "How should leaders view resistance to change?",
           options: [
-            "As normal reaction rather than defiance",
-            "Only as stubbornness",
             "As personal attack",
-            "As something to ignore"
+            "As something to ignore",
+            "As normal reaction rather than defiance",
+            "Only as stubbornness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Resistance is often a natural response to uncertainty and loss; understanding its sources helps address concerns constructively."
         },
         {
           id: 8,
           question: "What does empowering action involve?",
           options: [
-            "Removing barriers and providing resources",
             "Only giving orders",
+            "Removing barriers and providing resources",
             "Making all decisions for people",
             "Eliminating all rules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Empowering action involves eliminating obstacles, providing necessary resources, and granting authority so people can implement changes effectively."
         },
         {
           id: 9,
           question: "Why are quick wins important?",
           options: [
-            "Demonstrate progress and build confidence",
-            "Only to show immediate results",
+            "To make leaders look good",
             "To finish change quickly",
-            "To make leaders look good"
+            "Only to show immediate results",
+            "Demonstrate progress and build confidence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Quick wins provide visible evidence that change is working, build momentum, and increase willingness to support further changes."
         },
         {
@@ -956,9 +956,9 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           question: "What is leader resilience?",
           options: [
             "Ability to maintain energy and effectiveness during change",
-            "Only physical strength",
             "Resisting all changes",
-            "Never showing emotion"
+            "Never showing emotion",
+            "Only physical strength"
           ],
           correctAnswer: 0,
           explanation: "Leader resilience involves maintaining physical, emotional, and mental well-being to lead effectively through challenging change periods."
@@ -967,12 +967,12 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           id: 11,
           question: "Who are informal leaders in change?",
           options: [
-            "People who influence through relationships rather than position",
             "Only unofficial leaders",
-            "Leaders without titles",
-            "Temporary leaders"
+            "People who influence through relationships rather than position",
+            "Temporary leaders",
+            "Leaders without titles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Informal leaders have influence due to expertise, relationships, or respect rather than formal authority; their support can sway others."
         },
         {
@@ -981,8 +981,8 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           options: [
             "Ensuring all activities support desired future",
             "Only aligning with market vision",
-            "Getting everyone to agree on vision",
-            "Making vision documents consistent"
+            "Making vision documents consistent",
+            "Getting everyone to agree on vision"
           ],
           correctAnswer: 0,
           explanation: "Vision alignment means testing all decisions and actions against whether they move the organization toward its desired future state."
@@ -991,12 +991,12 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           id: 13,
           question: "What makes an effective guiding coalition?",
           options: [
-            "Diverse perspectives and influencers",
-            "Only senior executives",
             "People who always agree",
-            "External consultants only"
+            "Only senior executives",
+            "External consultants only",
+            "Diverse perspectives and influencers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective coalitions include people with different viewpoints, formal authority, and informal influence to champion change across the organization."
         },
         {
@@ -1015,72 +1015,72 @@ By mastering these leadership dimensions, change leaders can build the commitmen
           id: 15,
           question: "What does trust repair require?",
           options: [
-            "Acknowledgment, apology, explanation, changed behavior",
             "Only saying sorry",
+            "Acknowledgment, apology, explanation, changed behavior",
             "Ignoring the breach",
             "Blaming others"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Repairing broken trust requires acknowledging the breach, apologizing sincerely, explaining what happened, and demonstrating changed behavior."
         },
         {
           id: 16,
           question: "What is empathetic response to resistance?",
           options: [
-            "Acknowledging concerns without necessarily agreeing",
-            "Only agreeing with resistors",
             "Ignoring emotional aspects",
+            "Only agreeing with resistors",
+            "Acknowledging concerns without necessarily agreeing",
             "Telling people how to feel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Empathetic response validates people's feelings and concerns while maintaining focus on moving forward with necessary changes."
         },
         {
           id: 17,
           question: "How should leaders celebrate quick wins?",
           options: [
-            "Publicly acknowledge achievements and contributors",
-            "Only privately celebrate",
             "Celebrate only major wins",
-            "Celebrate without mentioning people"
+            "Only privately celebrate",
+            "Celebrate without mentioning people",
+            "Publicly acknowledge achievements and contributors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Public celebration recognizes contributions, reinforces desired behaviors, and shows that change efforts are producing tangible results."
         },
         {
           id: 18,
           question: "What are support networks for leaders?",
           options: [
-            "People who provide advice and emotional support",
-            "Only technical support systems",
             "Financial support systems",
-            "Network cables and systems"
+            "Network cables and systems",
+            "People who provide advice and emotional support",
+            "Only technical support systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Support networks include colleagues, mentors, coaches, and peers who provide guidance, perspective, and emotional support during challenging change leadership."
         },
         {
           id: 19,
           question: "What is experiential learning for leaders?",
           options: [
-            "Learning through stretch assignments and real challenges",
-            "Only classroom training",
             "Reading books about leadership",
-            "Watching others lead"
+            "Watching others lead",
+            "Learning through stretch assignments and real challenges",
+            "Only classroom training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Experiential learning involves taking on challenging assignments with support and feedback, developing skills through real-world practice."
         },
         {
           id: 20,
           question: "What is ethical leadership in change?",
           options: [
-            "Fair, transparent, respectful, and accountable leadership",
             "Only following rules",
+            "Fair, transparent, respectful, and accountable leadership",
             "Making profitable decisions",
             "Avoiding legal problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ethical change leadership involves fairness in implementation, transparency about reasons, respect for individuals, and accountability for impacts."
         }
       ]
@@ -1224,8 +1224,8 @@ By mastering communication and stakeholder engagement, change leaders can build 
           question: "What is audience segmentation in communication planning?",
           options: [
             "Dividing stakeholders into groups with common needs",
-            "Only separating by department",
             "Creating audience competitions",
+            "Only separating by department",
             "Eliminating some audiences"
           ],
           correctAnswer: 0,
@@ -1235,84 +1235,84 @@ By mastering communication and stakeholder engagement, change leaders can build 
           id: 2,
           question: "Why is storytelling effective in change communication?",
           options: [
+            "Replaces factual information",
             "Makes change relatable and memorable",
             "Only entertains people",
-            "Replaces factual information",
             "Simplifies complex information too much"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stories help people connect emotionally to change, remember key messages, and see how changes affect real people and situations."
         },
         {
           id: 3,
           question: "What are feedback mechanisms?",
           options: [
-            "Systems allowing people to ask questions and express concerns",
-            "Only employee surveys",
+            "Performance feedback tools",
             "Automated feedback systems",
-            "Performance feedback tools"
+            "Only employee surveys",
+            "Systems allowing people to ask questions and express concerns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Feedback mechanisms like surveys, suggestion boxes, and town halls create two-way communication channels for questions, concerns, and ideas."
         },
         {
           id: 4,
           question: "What is influence-interest mapping?",
           options: [
-            "Categorizing stakeholders by power and interest level",
+            "Tracking stakeholder movements",
             "Only mapping organizational influence",
-            "Creating interest group maps",
-            "Tracking stakeholder movements"
+            "Categorizing stakeholders by power and interest level",
+            "Creating interest group maps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Influence-interest mapping analyzes stakeholders based on their power to affect change and their level of interest in it to determine engagement strategies."
         },
         {
           id: 5,
           question: "Why is early stakeholder involvement important?",
           options: [
-            "Increases ownership and support for change",
-            "Only to get early feedback",
             "To finish planning faster",
-            "Because it's required"
+            "Increases ownership and support for change",
+            "Because it's required",
+            "Only to get early feedback"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Involving stakeholders early in planning and design creates ownership, incorporates diverse perspectives, and builds commitment to solutions."
         },
         {
           id: 6,
           question: "How should communication address resistance?",
           options: [
-            "Understand sources and address root causes",
             "Only counter arguments",
             "Ignore resistance",
+            "Understand sources and address root causes",
             "Communicate more forcefully"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective communication addresses resistance by understanding its sources, acknowledging concerns, providing information, and engaging in dialogue."
         },
         {
           id: 7,
           question: "What are digital communication channels?",
           options: [
-            "Electronic methods like email, intranet, and social tools",
             "Only social media",
             "Digital billboards",
+            "Electronic methods like email, intranet, and social tools",
             "Television broadcasts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital channels include email, intranet, collaboration platforms, mobile apps, and social media that enable efficient, widespread communication."
         },
         {
           id: 8,
           question: "Why are face-to-face meetings important during change?",
           options: [
-            "Allow for dialogue, questions, and relationship building",
             "Only for formal announcements",
             "Because they're traditional",
+            "Allow for dialogue, questions, and relationship building",
             "To see people's reactions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Face-to-face communication enables dialogue, builds trust through personal connection, and allows for immediate questions and clarifications."
         },
         {
@@ -1320,9 +1320,9 @@ By mastering communication and stakeholder engagement, change leaders can build 
           question: "What are reach metrics in communication measurement?",
           options: [
             "Track how many people received messages",
-            "Only measure audience size",
+            "Track geographical reach",
             "Measure how far messages travel",
-            "Track geographical reach"
+            "Only measure audience size"
           ],
           correctAnswer: 0,
           explanation: "Reach metrics like open rates, attendance, and distribution statistics measure how widely communication spreads through target audiences."
@@ -1331,12 +1331,12 @@ By mastering communication and stakeholder engagement, change leaders can build 
           id: 10,
           question: "What is proactive crisis communication planning?",
           options: [
-            "Anticipating potential crises and preparing responses",
             "Only reacting to crises",
-            "Creating crisis situations",
-            "Planning communication during calm periods"
+            "Planning communication during calm periods",
+            "Anticipating potential crises and preparing responses",
+            "Creating crisis situations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Proactive crisis planning identifies potential problems, develops response protocols, and prepares materials before crises occur to enable rapid, effective response."
         },
         {
@@ -1344,9 +1344,9 @@ By mastering communication and stakeholder engagement, change leaders can build 
           question: "What is cultural sensitivity in communication?",
           options: [
             "Respecting different communication norms and preferences",
-            "Only translating messages",
+            "Using only one culture's approach",
             "Avoiding cultural topics",
-            "Using only one culture's approach"
+            "Only translating messages"
           ],
           correctAnswer: 0,
           explanation: "Cultural sensitivity involves understanding and adapting to different communication styles, norms, and preferences across diverse groups."
@@ -1367,60 +1367,60 @@ By mastering communication and stakeholder engagement, change leaders can build 
           id: 13,
           question: "What are communication toolkits?",
           options: [
-            "Templates, guidelines, and resources for consistent communication",
             "Only physical tool boxes",
+            "Toolkits for repairing communication systems",
             "Communication technology tools",
-            "Toolkits for repairing communication systems"
+            "Templates, guidelines, and resources for consistent communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Communication toolkits provide standardized materials and guidelines that ensure consistency while allowing for appropriate customization."
         },
         {
           id: 14,
           question: "What does sustainable communication involve?",
           options: [
-            "Embedding change communication into regular operations",
-            "Only environmentally friendly communication",
+            "Low-cost communication methods",
             "Communication that lasts forever",
-            "Low-cost communication methods"
+            "Embedding change communication into regular operations",
+            "Only environmentally friendly communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sustainable communication integrates change updates into regular business processes and continues reinforcement after initial implementation."
         },
         {
           id: 15,
           question: "Why is message repetition important?",
           options: [
-            "People need to hear information multiple times to internalize it",
+            "To overwhelm people with information",
             "Only to fill communication channels",
-            "Because messages get lost",
-            "To overwhelm people with information"
+            "People need to hear information multiple times to internalize it",
+            "Because messages get lost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Repetition through multiple channels helps overcome information overload, reinforces key points, and increases message retention."
         },
         {
           id: 16,
           question: "What are win-win solutions in stakeholder engagement?",
           options: [
-            "Addressing multiple stakeholder interests positively",
+            "Solutions with no losers",
             "Only solutions where everyone wins",
-            "Competitive solutions",
-            "Solutions with no losers"
+            "Addressing multiple stakeholder interests positively",
+            "Competitive solutions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Win-win solutions find approaches that address the interests of multiple stakeholder groups, creating broader support and reducing resistance."
         },
         {
           id: 17,
           question: "What is transparent disclosure in crisis communication?",
           options: [
-            "Sharing what's known, what's being done, and what to expect",
+            "Transparent without being informative",
             "Only revealing positive information",
             "Disclosing everything immediately",
-            "Transparent without being informative"
+            "Sharing what's known, what's being done, and what to expect"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transparent disclosure builds trust by honestly sharing available information about crises while acknowledging uncertainties and outlining response plans."
         },
         {
@@ -1428,8 +1428,8 @@ By mastering communication and stakeholder engagement, change leaders can build 
           question: "Why measure communication understanding?",
           options: [
             "Ensure people comprehend key messages",
-            "Only test memory of messages",
             "Measure intelligence levels",
+            "Only test memory of messages",
             "Find communication errors"
           ],
           correctAnswer: 0,
@@ -1440,9 +1440,9 @@ By mastering communication and stakeholder engagement, change leaders can build 
           question: "What are inclusive communication practices?",
           options: [
             "Ensuring all voices are heard and valued",
-            "Only including everyone in meetings",
             "Communication without exclusion",
-            "Generic communication for all"
+            "Generic communication for all",
+            "Only including everyone in meetings"
           ],
           correctAnswer: 0,
           explanation: "Inclusive communication creates environments where diverse perspectives can be shared and considers different accessibility needs and preferences."
@@ -1451,12 +1451,12 @@ By mastering communication and stakeholder engagement, change leaders can build 
           id: 20,
           question: "Why continue communication after implementation?",
           options: [
-            "Reinforcement requires continued conversation",
             "Only to announce completion",
-            "Because people expect it",
-            "To fill communication schedules"
+            "To fill communication schedules",
+            "Reinforcement requires continued conversation",
+            "Because people expect it"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continued communication reinforces new behaviors, shares success stories, addresses ongoing concerns, and ensures changes become embedded in culture."
         }
       ]
@@ -1595,8 +1595,8 @@ By mastering implementation and transition management, change leaders can ensure
           options: [
             "Breaking high-level plans into specific tasks and timelines",
             "Only creating high-level plans",
-            "Planning work details without timeline",
-            "Micro-managing every task"
+            "Micro-managing every task",
+            "Planning work details without timeline"
           ],
           correctAnswer: 0,
           explanation: "Detailed work planning translates strategic plans into actionable tasks with clear responsibilities, timelines, and resource requirements for execution."
@@ -1605,48 +1605,48 @@ By mastering implementation and transition management, change leaders can ensure
           id: 2,
           question: "What is a pilot implementation?",
           options: [
-            "Testing changes with small group before broader rollout",
             "Only implementing partially",
             "Testing without real users",
+            "Testing changes with small group before broader rollout",
             "Quick implementation without planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Pilot implementation tests changes in a controlled environment with a limited group to identify issues, refine approaches, and build success stories."
         },
         {
           id: 3,
           question: "What is phased rollout?",
           options: [
-            "Implementing changes in stages across different groups",
+            "Rolling back after implementation",
             "Only rolling out phases randomly",
-            "Implementing all phases at once",
-            "Rolling back after implementation"
+            "Implementing changes in stages across different groups",
+            "Implementing all phases at once"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Phased rollout implements changes sequentially across different parts of the organization, allowing learning from earlier phases to improve later ones."
         },
         {
           id: 4,
           question: "What is just-in-time training?",
           options: [
+            "Training without preparation",
             "Providing learning immediately before people need skills",
             "Only training at the last minute",
-            "Training without preparation",
             "Quick training sessions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Just-in-time training delivers learning close to when people will apply new skills, maximizing retention and immediate application."
         },
         {
           id: 5,
           question: "What are performance support tools?",
           options: [
-            "Tools that help people perform new tasks",
+            "Support for high performers only",
             "Only performance management systems",
-            "Tools for measuring performance",
-            "Support for high performers only"
+            "Tools that help people perform new tasks",
+            "Tools for measuring performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Performance support includes job aids, templates, checklists, and system prompts that help people apply new knowledge while performing tasks."
         },
         {
@@ -1654,9 +1654,9 @@ By mastering implementation and transition management, change leaders can ensure
           question: "Why track adoption during implementation?",
           options: [
             "Measures how people are using new systems and processes",
-            "Only to track who is resisting",
             "To force adoption",
-            "Because it's required"
+            "Because it's required",
+            "Only to track who is resisting"
           ],
           correctAnswer: 0,
           explanation: "Adoption tracking provides early warning of implementation problems, identifies where additional support is needed, and measures progress toward full utilization."
@@ -1665,24 +1665,24 @@ By mastering implementation and transition management, change leaders can ensure
           id: 7,
           question: "What is root cause analysis in problem solving?",
           options: [
-            "Identifying underlying reasons for problems",
             "Only finding who caused problems",
             "Analyzing symptoms only",
-            "Blame assignment process"
+            "Blame assignment process",
+            "Identifying underlying reasons for problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Root cause analysis investigates fundamental reasons behind problems rather than addressing surface symptoms, leading to more effective solutions."
         },
         {
           id: 8,
           question: "What is transition planning?",
           options: [
-            "Addressing period when old and new ways coexist",
-            "Only planning for after implementation",
             "Planning transitions between jobs",
+            "Only planning for after implementation",
+            "Addressing period when old and new ways coexist",
             "Career transition planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transition planning manages the challenging period when organizations operate both old and new systems, processes, or structures during change implementation."
         },
         {
@@ -1690,9 +1690,9 @@ By mastering implementation and transition management, change leaders can ensure
           question: "What is handover planning?",
           options: [
             "Transferring responsibility from implementation teams to line management",
-            "Only handing over documents",
+            "Handing over to external partners",
             "Changing team leadership",
-            "Handing over to external partners"
+            "Only handing over documents"
           ],
           correctAnswer: 0,
           explanation: "Handover planning ensures smooth transfer of ownership from project teams to operational managers who will sustain changes long-term."
@@ -1701,36 +1701,36 @@ By mastering implementation and transition management, change leaders can ensure
           id: 10,
           question: "Why integrate changes with business as usual?",
           options: [
-            "Embeds changes into regular operations for sustainability",
             "Only to reduce project costs",
-            "To hide changes from employees",
-            "Because projects must end"
+            "Because projects must end",
+            "Embeds changes into regular operations for sustainability",
+            "To hide changes from employees"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Integration ensures changes become part of normal operations rather than temporary initiatives, increasing likelihood they will endure."
         },
         {
           id: 11,
           question: "What is risk monitoring during implementation?",
           options: [
-            "Tracking identified risks and watching for new ones",
-            "Only monitoring financial risks",
+            "Monitoring employee behavior",
             "Watching for any problems",
-            "Monitoring employee behavior"
+            "Tracking identified risks and watching for new ones",
+            "Only monitoring financial risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk monitoring involves regularly reviewing known risks, assessing their status, and scanning for new threats that could impact implementation success."
         },
         {
           id: 12,
           question: "Why is problem transparency important during implementation?",
           options: [
-            "Honestly addressing challenges builds credibility",
             "Only to share all problems",
             "To show implementation is difficult",
-            "Because problems will become known anyway"
+            "Because problems will become known anyway",
+            "Honestly addressing challenges builds credibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transparently acknowledging problems while explaining how they're being addressed builds trust and demonstrates commitment to successful implementation."
         },
         {
@@ -1738,9 +1738,9 @@ By mastering implementation and transition management, change leaders can ensure
           question: "What is emotional support during transition?",
           options: [
             "Recognizing that change can be stressful and providing outlets",
-            "Only therapy for employees",
+            "Support for emotional employees only",
             "Emotional intelligence training",
-            "Support for emotional employees only"
+            "Only therapy for employees"
           ],
           correctAnswer: 0,
           explanation: "Emotional support acknowledges the stress of change, provides safe spaces to express concerns, and offers coping strategies during difficult transitions."
@@ -1750,9 +1750,9 @@ By mastering implementation and transition management, change leaders can ensure
           question: "What are implementation metrics?",
           options: [
             "Track execution of planned activities",
-            "Only measure project completion",
             "Metrics for implementing metrics",
-            "Measurements of implementation speed"
+            "Measurements of implementation speed",
+            "Only measure project completion"
           ],
           correctAnswer: 0,
           explanation: "Implementation metrics monitor whether change activities are proceeding as planned regarding schedule, budget, scope, and quality."
@@ -1761,24 +1761,24 @@ By mastering implementation and transition management, change leaders can ensure
           id: 15,
           question: "What are adoption metrics?",
           options: [
-            "Measure how well people are using new ways of working",
-            "Only count how many adopt",
             "Measure adoption speed",
-            "Track who refuses to adopt"
+            "Track who refuses to adopt",
+            "Measure how well people are using new ways of working",
+            "Only count how many adopt"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adoption metrics assess utilization rates, proficiency levels, and compliance with new processes, systems, or behaviors."
         },
         {
           id: 16,
           question: "What is feedback collection during implementation?",
           options: [
-            "Gathering insights from implementation experience",
-            "Only collecting positive feedback",
+            "Collecting feedback without acting on it",
             "Asking for feedback at the end",
-            "Collecting feedback without acting on it"
+            "Only collecting positive feedback",
+            "Gathering insights from implementation experience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regular feedback collection from participants at all levels provides real-time insights about what's working and what needs adjustment during implementation."
         },
         {
@@ -1787,8 +1787,8 @@ By mastering implementation and transition management, change leaders can ensure
           options: [
             "Establish how implementation approaches can be modified",
             "Only protocols for adapting to change",
-            "Rules for employee adaptation",
-            "Technical adaptation procedures"
+            "Technical adaptation procedures",
+            "Rules for employee adaptation"
           ],
           correctAnswer: 0,
           explanation: "Adaptation protocols define clear processes for making mid-course corrections to implementation plans based on learning and changing circumstances."
@@ -1797,36 +1797,36 @@ By mastering implementation and transition management, change leaders can ensure
           id: 18,
           question: "What is parallel running during implementation?",
           options: [
-            "Operating old and new systems simultaneously during transition",
+            "Parallel planning and implementation",
             "Only running systems in parallel locations",
-            "Running implementation teams in parallel",
-            "Parallel planning and implementation"
+            "Operating old and new systems simultaneously during transition",
+            "Running implementation teams in parallel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Parallel running maintains both old and new systems during transition, providing safety nets but requiring additional resources and potentially causing confusion."
         },
         {
           id: 19,
           question: "What is big bang implementation?",
           options: [
-            "Launching changes everywhere at once",
             "Only dramatic implementation",
-            "Implementing with fireworks",
-            "Quick implementation method"
+            "Quick implementation method",
+            "Launching changes everywhere at once",
+            "Implementing with fireworks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Big bang implementation deploys changes across the entire organization simultaneously, creating immediate consistency but carrying higher risk if problems occur."
         },
         {
           id: 20,
           question: "Why celebrate learning during implementation?",
           options: [
+            "To make learning fun",
             "Values insights gained even from difficult experiences",
             "Only celebrate successful learning",
-            "To make learning fun",
             "Because learning is important"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Celebrating learning encourages continuous improvement mindset, values experimentation, and recognizes that insights from challenges improve future efforts."
         }
       ]
@@ -1970,24 +1970,24 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           id: 1,
           question: "What is the difference between implementation and institutionalization?",
           options: [
-            "Launching changes vs. making them stick",
             "Only different words for same thing",
             "Implementation is bigger than institutionalization",
+            "Launching changes vs. making them stick",
             "Institutionalization happens first"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Implementation refers to launching changes, while institutionalization involves embedding them into organizational systems and culture so they endure."
         },
         {
           id: 2,
           question: "What is backsliding in change management?",
           options: [
+            "Reducing change efforts",
             "Reverting to old habits after change implementation",
             "Only sliding back in performance",
-            "Going backward in planning",
-            "Reducing change efforts"
+            "Going backward in planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Backsliding occurs when people gradually return to previous ways of working despite implementing new approaches, often due to lack of reinforcement."
         },
         {
@@ -1995,9 +1995,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           question: "How do recognition systems reinforce change?",
           options: [
             "Reward desired behaviors encouraging continuation",
-            "Only recognize top performers",
+            "Create competition among employees",
             "Provide financial rewards only",
-            "Create competition among employees"
+            "Only recognize top performers"
           ],
           correctAnswer: 0,
           explanation: "Recognition systems positively reinforce new behaviors through praise, rewards, and visibility, increasing likelihood they will continue."
@@ -2007,9 +2007,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           question: "Why update policies and procedures after change?",
           options: [
             "Formalize new ways of working into official guidelines",
-            "Only to document what was done",
             "Because old policies expire",
-            "To create more paperwork"
+            "To create more paperwork",
+            "Only to document what was done"
           ],
           correctAnswer: 0,
           explanation: "Updated policies and procedures make changes official, provide reference for decisions, and ensure consistency in applying new approaches."
@@ -2018,12 +2018,12 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           id: 5,
           question: "What is organizational resilience?",
           options: [
-            "Capacity to anticipate, prepare for, respond to, and adapt to change",
-            "Only ability to resist change",
             "Financial strength during crises",
-            "Employee toughness"
+            "Employee toughness",
+            "Capacity to anticipate, prepare for, respond to, and adapt to change",
+            "Only ability to resist change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Organizational resilience is the ability to withstand disruption and adapt successfully to changing conditions while maintaining core functions."
         },
         {
@@ -2042,24 +2042,24 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           id: 7,
           question: "What are ongoing measurements for sustainability?",
           options: [
-            "Regular checks on adoption, performance, and cultural indicators",
             "Only financial measurements",
             "One-time measurements after implementation",
-            "Measurements taken occasionally"
+            "Measurements taken occasionally",
+            "Regular checks on adoption, performance, and cultural indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ongoing measurements track whether changes continue to be used effectively and deliver value over time, identifying when reinforcement is needed."
         },
         {
           id: 8,
           question: "Why document changes and lessons learned?",
           options: [
-            "Preserves institutional memory and builds organizational wisdom",
-            "Only to satisfy documentation requirements",
             "To blame people for mistakes",
-            "Because consultants require it"
+            "Because consultants require it",
+            "Preserves institutional memory and builds organizational wisdom",
+            "Only to satisfy documentation requirements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Documentation captures what was changed, why, and what was learned, preventing repetition of mistakes and preserving valuable insights for future changes."
         },
         {
@@ -2067,9 +2067,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           question: "What is consistent messaging from leaders?",
           options: [
             "Continuing to reinforce why changes matter long after implementation",
+            "Message consistency without adaptation",
             "Only repeating the same message",
-            "Saying the same thing in every communication",
-            "Message consistency without adaptation"
+            "Saying the same thing in every communication"
           ],
           correctAnswer: 0,
           explanation: "Consistent messaging involves leaders repeatedly explaining the rationale and benefits of changes to reinforce their importance and maintain focus."
@@ -2078,12 +2078,12 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           id: 10,
           question: "What is change competency development?",
           options: [
-            "Building change management skills throughout organization",
             "Only developing change leaders",
+            "Developing competency models for change",
             "Competitions between change teams",
-            "Developing competency models for change"
+            "Building change management skills throughout organization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Change competency development builds understanding and skills related to change management across the organization, increasing adaptive capacity."
         },
         {
@@ -2091,9 +2091,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           question: "What is change portfolio management?",
           options: [
             "Coordinating multiple change initiatives as a portfolio",
-            "Only managing change budgets",
+            "Investment portfolio for change",
             "Portfolio of change documents",
-            "Investment portfolio for change"
+            "Only managing change budgets"
           ],
           correctAnswer: 0,
           explanation: "Change portfolio management views all organizational changes as a coordinated portfolio to optimize sequencing, resources, and integration."
@@ -2104,8 +2104,8 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           options: [
             "Demonstrates ongoing value and justifies investment",
             "Only to show initial success",
-            "Because benefits change over time",
-            "To continue measuring something"
+            "To continue measuring something",
+            "Because benefits change over time"
           ],
           correctAnswer: 0,
           explanation: "Long-term benefit tracking provides evidence of sustained value, justifies ongoing investment, and identifies when adjustments are needed."
@@ -2114,60 +2114,60 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           id: 13,
           question: "What are virtuous cycles in change sustainability?",
           options: [
-            "Systems where successes create conditions for more success",
-            "Only positive feedback loops",
             "Cycles that always improve",
+            "Only positive feedback loops",
+            "Systems where successes create conditions for more success",
             "Ideal change processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Virtuous cycles are self-reinforcing systems where early successes generate resources, confidence, and learning that enable further improvements."
         },
         {
           id: 14,
           question: "What is environmental scanning?",
           options: [
-            "Monitoring trends and developments in external environment",
-            "Only scanning physical environment",
+            "Scanning office environments",
             "Environmental impact assessment",
-            "Scanning office environments"
+            "Only scanning physical environment",
+            "Monitoring trends and developments in external environment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental scanning systematically monitors external factors like technology, markets, competition, and regulations to anticipate needed changes."
         },
         {
           id: 15,
           question: "What is strategic foresight?",
           options: [
-            "Identifying emerging opportunities and threats proactively",
-            "Only predicting the future",
+            "Seeing strategic opportunities",
             "Strategic planning for foresight",
-            "Seeing strategic opportunities"
+            "Identifying emerging opportunities and threats proactively",
+            "Only predicting the future"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic foresight involves systematically exploring possible futures to identify emerging trends and prepare for various scenarios."
         },
         {
           id: 16,
           question: "Why integrate changes into new employee onboarding?",
           options: [
-            "Ensures newcomers learn current rather than old approaches",
             "Only to train new employees",
             "Because onboarding is required",
-            "To reduce training costs"
+            "To reduce training costs",
+            "Ensures newcomers learn current rather than old approaches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Updated onboarding introduces new employees to changed systems and processes from the start, preventing them from learning outdated ways."
         },
         {
           id: 17,
           question: "What are change networks?",
           options: [
-            "Communities of practice connecting change practitioners",
-            "Only network diagrams of changes",
             "Technology networks for change",
-            "Networks of changed processes"
+            "Communities of practice connecting change practitioners",
+            "Networks of changed processes",
+            "Only network diagrams of changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change networks create connections among people involved in change efforts across the organization to share learning and provide mutual support."
         },
         {
@@ -2186,24 +2186,24 @@ By mastering sustainability and resilience, change leaders ensure that today's i
           id: 19,
           question: "What are sustainability indicators?",
           options: [
-            "Measure whether changes remain effective over time",
+            "Measures that sustain themselves",
             "Only environmental sustainability measures",
-            "Indicators of sustainable growth",
-            "Measures that sustain themselves"
+            "Measure whether changes remain effective over time",
+            "Indicators of sustainable growth"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sustainability indicators track whether implemented changes continue to be used effectively and deliver value long after initial implementation."
         },
         {
           id: 20,
           question: "What is ethical reinforcement of change?",
           options: [
+            "Reinforcement that is always ethical",
             "Fair, transparent application of new standards and recognition",
-            "Only reinforcing ethical changes",
             "Using ethics to reinforce change",
-            "Reinforcement that is always ethical"
+            "Only reinforcing ethical changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ethical reinforcement involves applying recognition and accountability consistently and transparently, respecting different adaptation paces, and considering long-term impacts."
         }
       ]
@@ -2216,72 +2216,72 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 1,
       question: "What is change management?",
       options: [
-        "Structured approach to transitioning from current to desired state",
+        "Random organizational adjustments",
         "Only changing office layouts",
         "Just updating computer systems",
-        "Random organizational adjustments"
+        "Structured approach to transitioning from current to desired state"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Change management is the systematic approach to dealing with transition or transformation of organizational goals, processes, or technologies."
     },
     {
       id: 2,
       question: "What is incremental change?",
       options: [
-        "Small, continuous improvements",
-        "Complete organizational overhaul",
         "Only technological changes",
-        "Changes that happen accidentally"
+        "Small, continuous improvements",
+        "Changes that happen accidentally",
+        "Complete organizational overhaul"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Incremental change involves gradual, continuous improvements that evolve existing processes and systems rather than replacing them entirely."
     },
     {
       id: 3,
       question: "What is transformational change?",
       options: [
-        "Fundamental shifts in how organization operates",
         "Minor policy updates",
-        "Only departmental adjustments",
-        "Temporary organizational changes"
+        "Fundamental shifts in how organization operates",
+        "Temporary organizational changes",
+        "Only departmental adjustments"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Transformational change involves radical shifts that fundamentally alter how the organization operates, often affecting strategy, structure, and culture."
     },
     {
       id: 4,
       question: "What is the first stage in Lewin's Change Model?",
       options: [
-        "Unfreeze",
+        "Resistance",
         "Change",
-        "Refreeze",
-        "Resistance"
+        "Unfreeze",
+        "Refreeze"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Unfreeze involves creating awareness of the need for change and reducing resistance before implementing new approaches."
     },
     {
       id: 5,
       question: "What does ADKAR stand for?",
       options: [
-        "Awareness, Desire, Knowledge, Ability, Reinforcement",
         "Analysis, Design, Knowledge, Action, Review",
+        "Approach, Direction, Knowledge, Action, Results",
         "Assessment, Development, Key results, Achievement, Recognition",
-        "Approach, Direction, Knowledge, Action, Results"
+        "Awareness, Desire, Knowledge, Ability, Reinforcement"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "ADKAR is a goal-oriented change management model focusing on individual change: Awareness, Desire, Knowledge, Ability, and Reinforcement."
     },
     {
       id: 6,
       question: "What is strategic alignment in change planning?",
       options: [
+        "Aligning with competitors' changes",
         "Ensuring change supports organizational goals",
-        "Only aligning budget with costs",
         "Matching change timing with calendar",
-        "Aligning with competitors' changes"
+        "Only aligning budget with costs"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Strategic alignment ensures change initiatives directly support and advance the organization's mission, vision, and strategic objectives."
     },
     {
@@ -2289,9 +2289,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       question: "Why is scope definition important?",
       options: [
         "Clarifies what will and won't change",
-        "Only determines project budget",
         "Defines office locations",
-        "Limits communication channels"
+        "Limits communication channels",
+        "Only determines project budget"
       ],
       correctAnswer: 0,
       explanation: "Clear scope definition establishes boundaries, manages expectations, prevents scope creep, and helps focus resources on what matters most."
@@ -2300,72 +2300,72 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 8,
       question: "What is a business case?",
       options: [
-        "Justification for change investment including costs and benefits",
-        "Only financial projections",
+        "Legal case for change",
         "Case for business expansion",
-        "Legal case for change"
+        "Justification for change investment including costs and benefits",
+        "Only financial projections"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "A business case explains the rationale for change, including problem analysis, proposed solution, costs, benefits, risks, and success measures."
     },
     {
       id: 9,
       question: "What is stakeholder analysis?",
       options: [
+        "Reviewing stakeholder investments",
         "Identifying all parties affected by change",
         "Only analyzing employee skills",
-        "Reviewing stakeholder investments",
         "Counting how many stakeholders exist"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Stakeholder analysis identifies individuals and groups affected by change, assesses their influence and interest, and plans engagement strategies."
     },
     {
       id: 10,
       question: "What is the difference between change leadership and management?",
       options: [
-        "Leadership focuses on people, management focuses on process",
+        "Leadership is optional, management is required",
         "Leadership is only for executives, management for others",
         "They are exactly the same thing",
-        "Leadership is optional, management is required"
+        "Leadership focuses on people, management focuses on process"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Change leadership addresses inspiring and guiding people through transition, while change management focuses on planning and controlling change processes."
     },
     {
       id: 11,
       question: "Who are executive sponsors?",
       options: [
+        "Competitors who challenge change",
         "Senior leaders who provide direction and resources",
-        "Only external funding sources",
         "Employees who support change",
-        "Competitors who challenge change"
+        "Only external funding sources"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Executive sponsors are senior leaders who champion change, allocate resources, remove barriers, and hold the organization accountable for implementation."
     },
     {
       id: 12,
       question: "What makes a vision compelling?",
       options: [
-        "Clear, compelling, and credible",
         "Only financially attractive",
-        "Complex and detailed",
-        "Easy to achieve quickly"
+        "Easy to achieve quickly",
+        "Clear, compelling, and credible",
+        "Complex and detailed"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "A compelling vision is clear (understandable), compelling (inspires action), and credible (believable and achievable)."
     },
     {
       id: 13,
       question: "Why is over-communicating necessary?",
       options: [
-        "People need to hear messages multiple times to understand",
-        "Only to fill communication channels",
         "Because leaders like to talk",
-        "To overwhelm resistors"
+        "People need to hear messages multiple times to understand",
+        "To overwhelm resistors",
+        "Only to fill communication channels"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "During uncertainty, people need repeated exposure to messages through multiple channels before they fully understand and internalize them."
     },
     {
@@ -2373,9 +2373,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       question: "What does 'walk the talk' mean?",
       options: [
         "Modeling the behaviors leaders expect from others",
+        "Talking while walking",
         "Only talking about change",
-        "Walking around during meetings",
-        "Talking while walking"
+        "Walking around during meetings"
       ],
       correctAnswer: 0,
       explanation: "'Walk the talk' means leaders must demonstrate through their own actions the behaviors and attitudes they want others to adopt."
@@ -2384,12 +2384,12 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 15,
       question: "What is audience segmentation?",
       options: [
-        "Dividing stakeholders into groups with common needs",
-        "Only separating by department",
         "Creating audience competitions",
-        "Eliminating some audiences"
+        "Dividing stakeholders into groups with common needs",
+        "Eliminating some audiences",
+        "Only separating by department"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Audience segmentation groups stakeholders based on characteristics like role, influence, concerns, and information needs to tailor communication effectively."
     },
     {
@@ -2397,9 +2397,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       question: "Why is storytelling effective?",
       options: [
         "Makes change relatable and memorable",
+        "Simplifies complex information too much",
         "Only entertains people",
-        "Replaces factual information",
-        "Simplifies complex information too much"
+        "Replaces factual information"
       ],
       correctAnswer: 0,
       explanation: "Stories help people connect emotionally to change, remember key messages, and see how changes affect real people and situations."
@@ -2408,24 +2408,24 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 17,
       question: "What are feedback mechanisms?",
       options: [
-        "Systems allowing people to ask questions and express concerns",
-        "Only employee surveys",
         "Automated feedback systems",
-        "Performance feedback tools"
+        "Performance feedback tools",
+        "Only employee surveys",
+        "Systems allowing people to ask questions and express concerns"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Feedback mechanisms like surveys, suggestion boxes, and town halls create two-way communication channels for questions, concerns, and ideas."
     },
     {
       id: 18,
       question: "What is influence-interest mapping?",
       options: [
-        "Categorizing stakeholders by power and interest level",
-        "Only mapping organizational influence",
+        "Tracking stakeholder movements",
         "Creating interest group maps",
-        "Tracking stakeholder movements"
+        "Only mapping organizational influence",
+        "Categorizing stakeholders by power and interest level"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Influence-interest mapping analyzes stakeholders based on their power to affect change and their level of interest in it to determine engagement strategies."
     },
     {
@@ -2434,8 +2434,8 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       options: [
         "Breaking high-level plans into specific tasks and timelines",
         "Only creating high-level plans",
-        "Planning work details without timeline",
-        "Micro-managing every task"
+        "Micro-managing every task",
+        "Planning work details without timeline"
       ],
       correctAnswer: 0,
       explanation: "Detailed work planning translates strategic plans into actionable tasks with clear responsibilities, timelines, and resource requirements for execution."
@@ -2444,48 +2444,48 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 20,
       question: "What is a pilot implementation?",
       options: [
-        "Testing changes with small group before broader rollout",
-        "Only implementing partially",
         "Testing without real users",
-        "Quick implementation without planning"
+        "Only implementing partially",
+        "Quick implementation without planning",
+        "Testing changes with small group before broader rollout"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Pilot implementation tests changes in a controlled environment with a limited group to identify issues, refine approaches, and build success stories."
     },
     {
       id: 21,
       question: "What is phased rollout?",
       options: [
-        "Implementing changes in stages across different groups",
-        "Only rolling out phases randomly",
         "Implementing all phases at once",
-        "Rolling back after implementation"
+        "Implementing changes in stages across different groups",
+        "Rolling back after implementation",
+        "Only rolling out phases randomly"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Phased rollout implements changes sequentially across different parts of the organization, allowing learning from earlier phases to improve later ones."
     },
     {
       id: 22,
       question: "What is just-in-time training?",
       options: [
-        "Providing learning immediately before people need skills",
         "Only training at the last minute",
+        "Quick training sessions",
         "Training without preparation",
-        "Quick training sessions"
+        "Providing learning immediately before people need skills"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Just-in-time training delivers learning close to when people will apply new skills, maximizing retention and immediate application."
     },
     {
       id: 23,
       question: "What is root cause analysis?",
       options: [
-        "Identifying underlying reasons for problems",
-        "Only finding who caused problems",
         "Analyzing symptoms only",
-        "Blame assignment process"
+        "Identifying underlying reasons for problems",
+        "Blame assignment process",
+        "Only finding who caused problems"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Root cause analysis investigates fundamental reasons behind problems rather than addressing surface symptoms, leading to more effective solutions."
     },
     {
@@ -2504,12 +2504,12 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 25,
       question: "What is handover planning?",
       options: [
-        "Transferring responsibility from implementation teams to line management",
         "Only handing over documents",
+        "Handing over to external partners",
         "Changing team leadership",
-        "Handing over to external partners"
+        "Transferring responsibility from implementation teams to line management"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Handover planning ensures smooth transfer of ownership from project teams to operational managers who will sustain changes long-term."
     },
     {
@@ -2517,9 +2517,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       question: "What is the difference between implementation and institutionalization?",
       options: [
         "Launching changes vs. making them stick",
-        "Only different words for same thing",
+        "Institutionalization happens first",
         "Implementation is bigger than institutionalization",
-        "Institutionalization happens first"
+        "Only different words for same thing"
       ],
       correctAnswer: 0,
       explanation: "Implementation refers to launching changes, while institutionalization involves embedding them into organizational systems and culture so they endure."
@@ -2528,48 +2528,48 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 27,
       question: "What is backsliding?",
       options: [
-        "Reverting to old habits after change implementation",
-        "Only sliding back in performance",
         "Going backward in planning",
-        "Reducing change efforts"
+        "Reducing change efforts",
+        "Reverting to old habits after change implementation",
+        "Only sliding back in performance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Backsliding occurs when people gradually return to previous ways of working despite implementing new approaches, often due to lack of reinforcement."
     },
     {
       id: 28,
       question: "How do recognition systems reinforce change?",
       options: [
-        "Reward desired behaviors encouraging continuation",
         "Only recognize top performers",
         "Provide financial rewards only",
+        "Reward desired behaviors encouraging continuation",
         "Create competition among employees"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Recognition systems positively reinforce new behaviors through praise, rewards, and visibility, increasing likelihood they will continue."
     },
     {
       id: 29,
       question: "What is organizational resilience?",
       options: [
-        "Capacity to anticipate, prepare for, respond to, and adapt to change",
-        "Only ability to resist change",
+        "Employee toughness",
         "Financial strength during crises",
-        "Employee toughness"
+        "Capacity to anticipate, prepare for, respond to, and adapt to change",
+        "Only ability to resist change"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Organizational resilience is the ability to withstand disruption and adapt successfully to changing conditions while maintaining core functions."
     },
     {
       id: 30,
       question: "What is psychological safety?",
       options: [
+        "Safe from all criticism",
         "Feeling safe to take risks and speak up without fear",
         "Only physical safety at work",
-        "Job security guarantees",
-        "Safe from all criticism"
+        "Job security guarantees"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Psychological safety creates environments where people feel comfortable expressing ideas, asking questions, and admitting mistakes without fear of negative consequences."
     },
     {
@@ -2577,9 +2577,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       question: "What are ongoing measurements for sustainability?",
       options: [
         "Regular checks on adoption, performance, and cultural indicators",
-        "Only financial measurements",
+        "Measurements taken occasionally",
         "One-time measurements after implementation",
-        "Measurements taken occasionally"
+        "Only financial measurements"
       ],
       correctAnswer: 0,
       explanation: "Ongoing measurements track whether changes continue to be used effectively and deliver value over time, identifying when reinforcement is needed."
@@ -2588,24 +2588,24 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 32,
       question: "Why document changes and lessons learned?",
       options: [
-        "Preserves institutional memory and builds organizational wisdom",
+        "Because consultants require it",
         "Only to satisfy documentation requirements",
-        "To blame people for mistakes",
-        "Because consultants require it"
+        "Preserves institutional memory and builds organizational wisdom",
+        "To blame people for mistakes"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Documentation captures what was changed, why, and what was learned, preventing repetition of mistakes and preserving valuable insights for future changes."
     },
     {
       id: 33,
       question: "What is consistent messaging from leaders?",
       options: [
+        "Message consistency without adaptation",
         "Continuing to reinforce why changes matter long after implementation",
-        "Only repeating the same message",
         "Saying the same thing in every communication",
-        "Message consistency without adaptation"
+        "Only repeating the same message"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Consistent messaging involves leaders repeatedly explaining the rationale and benefits of changes to reinforce their importance and maintain focus."
     },
     {
@@ -2613,9 +2613,9 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       question: "What is change competency development?",
       options: [
         "Building change management skills throughout organization",
+        "Developing competency models for change",
         "Only developing change leaders",
-        "Competitions between change teams",
-        "Developing competency models for change"
+        "Competitions between change teams"
       ],
       correctAnswer: 0,
       explanation: "Change competency development builds understanding and skills related to change management across the organization, increasing adaptive capacity."
@@ -2624,60 +2624,60 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       id: 35,
       question: "What is change portfolio management?",
       options: [
-        "Coordinating multiple change initiatives as a portfolio",
-        "Only managing change budgets",
+        "Investment portfolio for change",
         "Portfolio of change documents",
-        "Investment portfolio for change"
+        "Only managing change budgets",
+        "Coordinating multiple change initiatives as a portfolio"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Change portfolio management views all organizational changes as a coordinated portfolio to optimize sequencing, resources, and integration."
     },
     {
       id: 36,
       question: "Why track benefits long-term?",
       options: [
-        "Demonstrates ongoing value and justifies investment",
         "Only to show initial success",
-        "Because benefits change over time",
-        "To continue measuring something"
+        "To continue measuring something",
+        "Demonstrates ongoing value and justifies investment",
+        "Because benefits change over time"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Long-term benefit tracking provides evidence of sustained value, justifies ongoing investment, and identifies when adjustments are needed."
     },
     {
       id: 37,
       question: "What are virtuous cycles?",
       options: [
-        "Systems where successes create conditions for more success",
         "Only positive feedback loops",
+        "Systems where successes create conditions for more success",
         "Cycles that always improve",
         "Ideal change processes"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Virtuous cycles are self-reinforcing systems where early successes generate resources, confidence, and learning that enable further improvements."
     },
     {
       id: 38,
       question: "What is environmental scanning?",
       options: [
-        "Monitoring trends and developments in external environment",
-        "Only scanning physical environment",
         "Environmental impact assessment",
-        "Scanning office environments"
+        "Monitoring trends and developments in external environment",
+        "Scanning office environments",
+        "Only scanning physical environment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Environmental scanning systematically monitors external factors like technology, markets, competition, and regulations to anticipate needed changes."
     },
     {
       id: 39,
       question: "Why integrate changes into new employee onboarding?",
       options: [
+        "To reduce training costs",
         "Ensures newcomers learn current rather than old approaches",
         "Only to train new employees",
-        "Because onboarding is required",
-        "To reduce training costs"
+        "Because onboarding is required"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Updated onboarding introduces new employees to changed systems and processes from the start, preventing them from learning outdated ways."
     },
     {
@@ -2685,8 +2685,8 @@ By mastering sustainability and resilience, change leaders ensure that today's i
       question: "What are sustainability indicators?",
       options: [
         "Measure whether changes remain effective over time",
-        "Only environmental sustainability measures",
         "Indicators of sustainable growth",
+        "Only environmental sustainability measures",
         "Measures that sustain themselves"
       ],
       correctAnswer: 0,
