@@ -104,7 +104,7 @@ export function CertificatePreview({ data }: { data: CertificateData }) {
             ...textBase,
             left: "10%",
             right: "10%",
-            top: isDiploma ? "37.5%" : "36.5%",
+            top: isDiploma ? "37.5%" : "34.5%",
             height: "6%",
             fontSize: "3.1cqw",
             fontWeight: 700,
