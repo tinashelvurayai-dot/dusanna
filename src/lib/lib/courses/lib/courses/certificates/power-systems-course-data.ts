@@ -78,48 +78,48 @@ Environmental regulations and public acceptance increasingly influence power gen
           id: 1,
           question: "What is power generation?",
           options: [
-            "Converting primary energy into electrical energy",
-            "Storing electricity in batteries",
             "Transmitting power over long distances",
-            "Distributing electricity to homes"
+            "Distributing electricity to homes",
+            "Converting primary energy into electrical energy",
+            "Storing electricity in batteries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Power generation transforms various energy sources into usable electrical power."
         },
         {
           id: 2,
           question: "What do thermal power plants burn to produce heat?",
           options: [
-            "Fossil fuels like coal, gas, or oil",
-            "Water only",
             "Sunlight",
+            "Water only",
+            "Fossil fuels like coal, gas, or oil",
             "Wind"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Thermal plants combust fossil fuels to generate steam for turbine operation."
         },
         {
           id: 3,
           question: "What energy source do nuclear plants use?",
           options: [
-            "Nuclear fission reactions",
-            "Solar radiation",
             "Geothermal heat",
-            "Biomass combustion"
+            "Nuclear fission reactions",
+            "Biomass combustion",
+            "Solar radiation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Nuclear plants split uranium atoms to release heat for power generation."
         },
         {
           id: 4,
           question: "What do hydroelectric plants use to generate power?",
           options: [
-            "Flowing water",
             "Steam pressure",
+            "Solar heat",
             "Wind currents",
-            "Solar heat"
+            "Flowing water"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hydro plants convert water's potential energy into electrical energy."
         },
         {
@@ -127,9 +127,9 @@ Environmental regulations and public acceptance increasingly influence power gen
           question: "How do solar power systems generate electricity?",
           options: [
             "Convert sunlight using photovoltaic cells",
-            "Burn solar fuel",
             "Use solar heat to boil water",
-            "Capture solar wind"
+            "Capture solar wind",
+            "Burn solar fuel"
           ],
           correctAnswer: 0,
           explanation: "Photovoltaic cells directly convert sunlight into DC electrical current."
@@ -139,9 +139,9 @@ Environmental regulations and public acceptance increasingly influence power gen
           question: "What do wind turbines convert into electricity?",
           options: [
             "Kinetic energy from wind",
-            "Solar radiation",
             "Atmospheric pressure",
-            "Temperature differences"
+            "Temperature differences",
+            "Solar radiation"
           ],
           correctAnswer: 0,
           explanation: "Wind turns turbine blades, rotating generators to produce electricity."
@@ -150,120 +150,120 @@ Environmental regulations and public acceptance increasingly influence power gen
           id: 7,
           question: "What provides constant base load power independent of weather?",
           options: [
-            "Geothermal power plants",
-            "Solar farms",
             "Wind turbines",
-            "Tidal generators"
+            "Tidal generators",
+            "Solar farms",
+            "Geothermal power plants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Geothermal energy comes from Earth's constant internal heat."
         },
         {
           id: 8,
           question: "What do biomass power plants burn?",
           options: [
+            "Petroleum derivatives",
             "Organic materials like wood waste",
             "Natural gas only",
-            "Coal products",
-            "Petroleum derivatives"
+            "Coal products"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Biomass includes plant-based materials that can be combusted for energy."
         },
         {
           id: 9,
           question: "What costs include plant design and construction?",
           options: [
-            "Capital costs",
-            "Operating costs",
             "Fuel costs",
-            "Maintenance costs"
+            "Maintenance costs",
+            "Operating costs",
+            "Capital costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Capital costs are upfront investments to build generation facilities."
         },
         {
           id: 10,
           question: "What covers fuel, maintenance, and staffing expenses?",
           options: [
-            "Operating costs",
             "Capital costs",
-            "Financing costs",
-            "Development costs"
+            "Development costs",
+            "Operating costs",
+            "Financing costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Operating costs are ongoing expenses to run power plants."
         },
         {
           id: 11,
           question: "What measures actual output versus maximum possible output?",
           options: [
-            "Capacity factor",
-            "Efficiency rating",
             "Load factor",
-            "Utilization rate"
+            "Utilization rate",
+            "Capacity factor",
+            "Efficiency rating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Capacity factor indicates how much a plant actually produces compared to its potential."
         },
         {
           id: 12,
           question: "What requires generation to match changing electricity demand?",
           options: [
-            "Load following",
             "Base loading",
-            "Peak shaving",
-            "Frequency control"
+            "Load following",
+            "Frequency control",
+            "Peak shaving"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Generation must constantly adjust to follow electrical load variations."
         },
         {
           id: 13,
           question: "What is extra generation capacity for reliability?",
           options: [
-            "Reserve margin",
+            "Spinning reserve",
             "Base capacity",
             "Peak capacity",
-            "Spinning reserve"
+            "Reserve margin"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Reserve margin provides backup generation for unexpected events."
         },
         {
           id: 14,
           question: "What technologies reduce pollutants from fossil plants?",
           options: [
-            "Emissions control systems",
             "Cooling towers",
+            "Emissions control systems",
             "Transformers",
             "Circuit breakers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Emissions controls like scrubbers and filters reduce environmental impacts."
         },
         {
           id: 15,
           question: "What addresses greenhouse gas emissions?",
           options: [
-            "Carbon management",
-            "Water treatment",
             "Ash handling",
-            "Noise reduction"
+            "Noise reduction",
+            "Carbon management",
+            "Water treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Carbon management includes capture, storage, and reduction strategies."
         },
         {
           id: 16,
           question: "Which plants require large amounts of water for cooling?",
           options: [
-            "Thermal power plants",
             "Wind farms",
+            "Geothermal plants",
             "Solar PV plants",
-            "Geothermal plants"
+            "Thermal power plants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Thermal plants need cooling water for condensing steam after turbine use."
         },
         {
@@ -271,9 +271,9 @@ Environmental regulations and public acceptance increasingly influence power gen
           question: "Which technology needs substantial land area?",
           options: [
             "Solar farms",
-            "Nuclear plants",
+            "Hydro plants",
             "Natural gas plants",
-            "Hydro plants"
+            "Nuclear plants"
           ],
           correctAnswer: 0,
           explanation: "Solar photovoltaic systems require significant land for panel arrays."
@@ -283,9 +283,9 @@ Environmental regulations and public acceptance increasingly influence power gen
           question: "What consideration includes bird and bat impacts?",
           options: [
             "Wildlife protection",
+            "Land use",
             "Noise pollution",
-            "Visual impact",
-            "Land use"
+            "Visual impact"
           ],
           correctAnswer: 0,
           explanation: "Wildlife protection addresses ecological impacts of power generation."
@@ -294,24 +294,24 @@ Environmental regulations and public acceptance increasingly influence power gen
           id: 19,
           question: "What voltage levels do generators typically produce?",
           options: [
+            "66kV to 138kV",
             "11kV to 25kV",
             "110V to 240V",
-            "400V to 480V",
-            "66kV to 138kV"
+            "400V to 480V"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Generators produce medium voltage that gets stepped up for transmission."
         },
         {
           id: 20,
           question: "What provides clean, renewable power with quick response?",
           options: [
-            "Hydroelectric plants",
-            "Coal plants",
             "Nuclear plants",
-            "Diesel generators"
+            "Coal plants",
+            "Diesel generators",
+            "Hydroelectric plants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hydro plants can quickly adjust output to follow load changes."
         }
       ]
@@ -431,60 +431,60 @@ Transmission system operators use energy management systems with SCADA (Supervis
           id: 1,
           question: "What is the purpose of transmission systems?",
           options: [
-            "Carry bulk electricity over long distances",
             "Distribute power to individual customers",
-            "Generate electrical energy",
-            "Store electricity for later use"
+            "Store electricity for later use",
+            "Carry bulk electricity over long distances",
+            "Generate electrical energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transmission systems move large power quantities from generation to distribution areas."
         },
         {
           id: 2,
           question: "What voltage range do transmission lines typically operate at?",
           options: [
+            "25kV to 35kV",
             "69kV to 765kV",
             "110V to 240V",
-            "480V to 15kV",
-            "25kV to 35kV"
+            "480V to 15kV"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "High voltages reduce current and losses during long-distance power transfer."
         },
         {
           id: 3,
           question: "What is ACSR conductor?",
           options: [
+            "Alternating current steel rated",
             "Aluminum conductor steel reinforced",
             "Advanced copper strand reinforced",
-            "Aluminum core steel wrapped",
-            "Alternating current steel rated"
+            "Aluminum core steel wrapped"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ACSR combines aluminum conductivity with steel strength for transmission lines."
         },
         {
           id: 4,
           question: "What are bundle conductors?",
           options: [
-            "Multiple wires per phase",
-            "Single thick conductors",
             "Insulated cable bundles",
-            "Ground wire assemblies"
+            "Single thick conductors",
+            "Ground wire assemblies",
+            "Multiple wires per phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bundle conductors increase capacity and reduce corona effects at high voltages."
         },
         {
           id: 5,
           question: "What are common support structures for high-voltage lines?",
           options: [
-            "Lattice steel towers",
             "Wooden poles only",
+            "Lattice steel towers",
             "Concrete walls",
             "Underground pipes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lattice towers provide strength and height for high-voltage conductors."
         },
         {
@@ -492,9 +492,9 @@ Transmission system operators use energy management systems with SCADA (Supervis
           question: "What do insulators prevent?",
           options: [
             "Current flowing to grounded structures",
-            "Conductor sagging",
+            "Bird nesting",
             "Lightning strikes",
-            "Bird nesting"
+            "Conductor sagging"
           ],
           correctAnswer: 0,
           explanation: "Insulators maintain electrical isolation between live conductors and support structures."
@@ -503,72 +503,72 @@ Transmission system operators use energy management systems with SCADA (Supervis
           id: 7,
           question: "What is the purpose of shield wires?",
           options: [
+            "Support conductor weight",
             "Protect against lightning strikes",
             "Carry electrical current",
-            "Support conductor weight",
             "Reduce visual impact"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Shield wires intercept lightning to prevent damage to phase conductors."
         },
         {
           id: 8,
           question: "What do substations connect?",
           options: [
+            "Customer premises",
             "Transmission lines and transform voltage",
             "Only generation plants",
-            "Only distribution lines",
-            "Customer premises"
+            "Only distribution lines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Substations interface between different voltage levels and provide control points."
         },
         {
           id: 9,
           question: "What does electrical design focus on?",
           options: [
-            "Conductor sizing and voltage selection",
+            "Maintenance schedules",
             "Tower paint color",
             "Landscaping plans",
-            "Maintenance schedules"
+            "Conductor sizing and voltage selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Electrical design determines technical parameters for power transfer capability."
         },
         {
           id: 10,
           question: "What does mechanical design ensure?",
           options: [
-            "Structural integrity under operating conditions",
             "Lowest material cost",
-            "Fastest construction",
-            "Aesthetic appearance"
+            "Structural integrity under operating conditions",
+            "Aesthetic appearance",
+            "Fastest construction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mechanical design addresses strength, sag, clearance, and foundation requirements."
         },
         {
           id: 11,
           question: "What is right-of-way management?",
           options: [
+            "Scheduling maintenance crews",
             "Establishing corridors for transmission lines",
             "Controlling traffic near towers",
-            "Managing substation access",
-            "Scheduling maintenance crews"
+            "Managing substation access"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right-of-way involves land acquisition, environmental assessments, and vegetation control."
         },
         {
           id: 12,
           question: "What determines maximum current capacity?",
           options: [
-            "Thermal rating based on temperature limits",
             "Conductor color",
-            "Tower height",
-            "Line length only"
+            "Thermal rating based on temperature limits",
+            "Line length only",
+            "Tower height"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Thermal ratings prevent conductor overheating and damage."
         },
         {
@@ -576,9 +576,9 @@ Transmission system operators use energy management systems with SCADA (Supervis
           question: "What is HVDC suitable for?",
           options: [
             "Very long distance power transmission",
-            "Local neighborhood distribution",
+            "Small generator connections",
             "Household wiring",
-            "Small generator connections"
+            "Local neighborhood distribution"
           ],
           correctAnswer: 0,
           explanation: "HVDC has advantages for distances where AC faces technical limitations."
@@ -587,12 +587,12 @@ Transmission system operators use energy management systems with SCADA (Supervis
           id: 14,
           question: "What do HVDC converter stations do?",
           options: [
-            "Change AC to DC and back",
+            "Measure power quality",
             "Step up voltage levels",
-            "Filter harmonics only",
-            "Measure power quality"
+            "Change AC to DC and back",
+            "Filter harmonics only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Converter stations perform the AC-DC and DC-AC conversions for HVDC transmission."
         },
         {
@@ -600,9 +600,9 @@ Transmission system operators use energy management systems with SCADA (Supervis
           question: "What does power flow control manage?",
           options: [
             "How electricity moves through the network",
+            "Maintenance budgets",
             "Generator fuel supply",
-            "Customer billing",
-            "Maintenance budgets"
+            "Customer billing"
           ],
           correctAnswer: 0,
           explanation: "Power flow control optimizes network utilization and prevents overloads."
@@ -612,8 +612,8 @@ Transmission system operators use energy management systems with SCADA (Supervis
           question: "What maintains proper voltage levels?",
           options: [
             "Voltage control methods",
-            "Current limiting devices",
             "Power factor correction only",
+            "Current limiting devices",
             "Frequency regulation"
           ],
           correctAnswer: 0,
@@ -623,24 +623,24 @@ Transmission system operators use energy management systems with SCADA (Supervis
           id: 17,
           question: "What does system protection do?",
           options: [
-            "Detects and isolates faults",
+            "Improves fuel efficiency",
             "Increases power generation",
-            "Reduces electricity prices",
-            "Improves fuel efficiency"
+            "Detects and isolates faults",
+            "Reduces electricity prices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Protection schemes quickly disconnect faulty sections to maintain system integrity."
         },
         {
           id: 18,
           question: "What ensures the system can withstand disturbances?",
           options: [
-            "Grid stability considerations",
             "Regular maintenance only",
-            "Operator training",
-            "Spare parts inventory"
+            "Spare parts inventory",
+            "Grid stability considerations",
+            "Operator training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stability analysis ensures the grid remains synchronized during disturbances."
         },
         {
@@ -648,9 +648,9 @@ Transmission system operators use energy management systems with SCADA (Supervis
           question: "What do transmission system operators use for real-time control?",
           options: [
             "Energy management systems with SCADA",
-            "Paper logbooks only",
             "Telephone communications",
-            "Manual calculations"
+            "Manual calculations",
+            "Paper logbooks only"
           ],
           correctAnswer: 0,
           explanation: "SCADA systems provide monitoring and control capabilities for grid operations."
@@ -659,12 +659,12 @@ Transmission system operators use energy management systems with SCADA (Supervis
           id: 20,
           question: "What reduces losses during long-distance transmission?",
           options: [
-            "High voltage operation",
             "Thicker insulation",
+            "High voltage operation",
             "Shorter conductors",
             "Lower current"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "High voltage reduces current for the same power, minimizing resistive losses."
         }
       ]
@@ -759,60 +759,60 @@ Distribution systems represent the interface between utility operations and cust
           id: 1,
           question: "What do distribution networks deliver?",
           options: [
-            "Power from transmission systems to end consumers",
             "High-voltage bulk power over long distances",
             "Generated electricity only",
+            "Power from transmission systems to end consumers",
             "Stored energy from batteries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Distribution systems are the final delivery stage to residential, commercial, and industrial customers."
         },
         {
           id: 2,
           question: "What voltage range do distribution systems typically operate at?",
           options: [
-            "4kV to 35kV",
-            "69kV to 765kV",
+            "480V to 600V",
             "110V to 240V",
-            "480V to 600V"
+            "4kV to 35kV",
+            "69kV to 765kV"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Distribution voltages are stepped down from transmission levels for local delivery."
         },
         {
           id: 3,
           question: "What do distribution substations contain?",
           options: [
-            "Transformers, circuit breakers, switches",
-            "Only transmission lines",
             "Customer meters only",
-            "Generation equipment"
+            "Generation equipment",
+            "Only transmission lines",
+            "Transformers, circuit breakers, switches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Distribution substations step down voltage and provide switching and protection."
         },
         {
           id: 4,
           question: "What are feeders?",
           options: [
-            "Circuits carrying power from substations to customer areas",
             "Power generation units",
             "Transmission lines only",
-            "Customer wiring systems"
+            "Customer wiring systems",
+            "Circuits carrying power from substations to customer areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Feeders distribute power throughout service territories at primary distribution voltage."
         },
         {
           id: 5,
           question: "What do distribution transformers do?",
           options: [
-            "Reduce voltage to customer utilization levels",
-            "Increase voltage for transmission",
+            "Store electrical energy",
             "Generate electrical power",
-            "Store electrical energy"
+            "Reduce voltage to customer utilization levels",
+            "Increase voltage for transmission"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Distribution transformers provide the final voltage conversion for customer use."
         },
         {
@@ -820,9 +820,9 @@ Distribution systems represent the interface between utility operations and cust
           question: "What do switches and sectionalizers control?",
           options: [
             "Power flow and fault isolation",
-            "Customer billing only",
+            "Fuel supply to plants",
             "Generator output",
-            "Fuel supply to plants"
+            "Customer billing only"
           ],
           correctAnswer: 0,
           explanation: "Switches allow circuit reconfiguration for maintenance and outage management."
@@ -831,12 +831,12 @@ Distribution systems represent the interface between utility operations and cust
           id: 7,
           question: "What do protection devices include?",
           options: [
-            "Fuses, reclosers, and circuit breakers",
             "Only voltage regulators",
+            "Only meters",
             "Only capacitors",
-            "Only meters"
+            "Fuses, reclosers, and circuit breakers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Protection devices quickly isolate faults to minimize outage impact."
         },
         {
@@ -844,9 +844,9 @@ Distribution systems represent the interface between utility operations and cust
           question: "What maintains proper voltage levels?",
           options: [
             "Voltage regulation equipment",
-            "Current limiting devices",
+            "Energy storage systems",
             "Power factor meters",
-            "Energy storage systems"
+            "Current limiting devices"
           ],
           correctAnswer: 0,
           explanation: "Voltage regulators and capacitors compensate for voltage drop along feeders."
@@ -856,9 +856,9 @@ Distribution systems represent the interface between utility operations and cust
           question: "What configuration has a single power source feeding customers?",
           options: [
             "Radial systems",
-            "Loop systems",
             "Networked systems",
-            "Spot networks"
+            "Spot networks",
+            "Loop systems"
           ],
           correctAnswer: 0,
           explanation: "Radial design is simple but has single points of failure."
@@ -867,96 +867,96 @@ Distribution systems represent the interface between utility operations and cust
           id: 10,
           question: "What systems form closed loops fed from both ends?",
           options: [
-            "Loop systems",
-            "Radial systems",
             "Spot networks",
-            "Underground systems"
+            "Underground systems",
+            "Loop systems",
+            "Radial systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Loop systems can be reconfigured during outages for better reliability."
         },
         {
           id: 11,
           question: "What provides highest reliability through multiple power paths?",
           options: [
-            "Secondary networks",
-            "Simple radial systems",
+            "Direct generator connections",
             "Single transformer feeds",
-            "Direct generator connections"
+            "Secondary networks",
+            "Simple radial systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Networked systems offer multiple parallel paths for highest reliability."
         },
         {
           id: 12,
           question: "What serves high-reliability commercial loads?",
           options: [
-            "Spot networks",
-            "Rural radial systems",
             "Temporary generators",
-            "Battery backups only"
+            "Rural radial systems",
+            "Battery backups only",
+            "Spot networks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Spot networks provide redundant supply for critical facilities."
         },
         {
           id: 13,
           question: "What places cables below ground?",
           options: [
-            "Underground distribution",
-            "Overhead lines",
             "Aerial cables",
-            "Pole-mounted systems"
+            "Underground distribution",
+            "Pole-mounted systems",
+            "Overhead lines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Underground systems offer aesthetic and reliability benefits despite higher cost."
         },
         {
           id: 14,
           question: "What can be controlled remotely to reconfigure circuits?",
           options: [
-            "Automated switches",
-            "Manual disconnects only",
             "Transformer cores",
-            "Conductor material"
+            "Manual disconnects only",
+            "Conductor material",
+            "Automated switches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Automated switches enable faster outage response and system reconfiguration."
         },
         {
           id: 15,
           question: "What automatically detects faults and restores service?",
           options: [
+            "Visual inspections",
             "FLISR systems",
             "Manual switching only",
-            "Customer calls",
-            "Visual inspections"
+            "Customer calls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fault Location, Isolation, and Service Restoration automates outage response."
         },
         {
           id: 16,
           question: "What controls voltage regulators and capacitors optimally?",
           options: [
-            "Voltage/VAR optimization systems",
-            "Manual adjustments only",
             "Customer requests",
-            "Weather forecasts"
+            "Voltage/VAR optimization systems",
+            "Weather forecasts",
+            "Manual adjustments only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Optimization systems maintain voltage while minimizing losses."
         },
         {
           id: 17,
           question: "What provides two-way communication with meters?",
           options: [
-            "Advanced Metering Infrastructure",
             "Manual meter reading",
-            "Estimated billing",
-            "Customer phone calls"
+            "Advanced Metering Infrastructure",
+            "Customer phone calls",
+            "Estimated billing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "AMI enables remote monitoring, outage detection, and demand response."
         },
         {
@@ -976,9 +976,9 @@ Distribution systems represent the interface between utility operations and cust
           question: "What predicts future electricity demand?",
           options: [
             "Load forecasting",
-            "Historical billing only",
+            "Customer surveys",
             "Weather patterns alone",
-            "Customer surveys"
+            "Historical billing only"
           ],
           correctAnswer: 0,
           explanation: "Load forecasting guides system planning and expansion decisions."
@@ -987,12 +987,12 @@ Distribution systems represent the interface between utility operations and cust
           id: 20,
           question: "What coordinates restoration during power interruptions?",
           options: [
-            "Outage management systems",
             "Social media posts",
-            "Newspaper ads",
-            "Radio announcements only"
+            "Outage management systems",
+            "Radio announcements only",
+            "Newspaper ads"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Outage management tracks incidents and coordinates repair response."
         }
       ]
@@ -1096,180 +1096,180 @@ Effective protection systems are essential for power system reliability, requiri
           id: 1,
           question: "What do power system protection systems ensure?",
           options: [
-            "Equipment safety and system reliability",
-            "Only lowest electricity prices",
             "Maximum power generation",
-            "Customer billing accuracy"
+            "Customer billing accuracy",
+            "Only lowest electricity prices",
+            "Equipment safety and system reliability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Protection systems detect faults and isolate equipment to prevent damage and maintain reliability."
         },
         {
           id: 2,
           question: "What are the primary objectives of protection systems?",
           options: [
+            "Only aesthetic improvement",
             "Safety, equipment protection, system stability",
             "Only cost reduction",
-            "Only aesthetic improvement",
             "Only faster construction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Protection balances safety, equipment integrity, and system operational needs."
         },
         {
           id: 3,
           question: "What do protective relays do?",
           options: [
-            "Monitor parameters and initiate disconnection",
-            "Generate electrical power",
+            "Measure customer usage only",
             "Store electrical energy",
-            "Measure customer usage only"
+            "Monitor parameters and initiate disconnection",
+            "Generate electrical power"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Relays detect abnormal conditions and signal circuit breakers to isolate faults."
         },
         {
           id: 4,
           question: "What do overcurrent relays respond to?",
           options: [
-            "Excessive current conditions",
             "Low voltage only",
-            "Frequency variations",
-            "Power factor changes"
+            "Excessive current conditions",
+            "Power factor changes",
+            "Frequency variations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Overcurrent relays operate when current exceeds preset values for specified times."
         },
         {
           id: 5,
           question: "What do distance relays measure?",
           options: [
-            "Impedance to determine fault location",
+            "Power flow direction",
             "Only current magnitude",
-            "Only voltage level",
-            "Power flow direction"
+            "Impedance to determine fault location",
+            "Only voltage level"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Distance relays calculate electrical distance to faults for line protection."
         },
         {
           id: 6,
           question: "What do differential relays compare?",
           options: [
-            "Currents entering and leaving equipment",
             "Voltage levels only",
             "Power factors",
-            "Frequency differences"
+            "Frequency differences",
+            "Currents entering and leaving equipment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Differential protection detects internal faults by identifying current imbalances."
         },
         {
           id: 7,
           question: "What do digital relays use?",
           options: [
-            "Microprocessor technology",
-            "Mechanical parts only",
             "Hydraulic systems",
+            "Mechanical parts only",
+            "Microprocessor technology",
             "Pneumatic controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital relays offer programmable protection functions with advanced features."
         },
         {
           id: 8,
           question: "What is typically used for transmission line primary protection?",
           options: [
-            "Distance relays",
             "Only fuses",
             "Only meters",
+            "Distance relays",
             "Only voltage relays"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Distance relays provide zone-based protection for transmission lines."
         },
         {
           id: 9,
           question: "What does transformer differential protection detect?",
           options: [
-            "Internal faults",
+            "Temperature variations",
             "External line faults only",
             "Load changes",
-            "Temperature variations"
+            "Internal faults"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Differential protection compares currents on both sides to detect internal problems."
         },
         {
           id: 10,
           question: "What must generator protection address?",
           options: [
+            "Only cooling water flow",
             "Stator faults, rotor faults, loss of excitation",
             "Only fuel supply issues",
-            "Only cooling water flow",
             "Only bearing lubrication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Generators require comprehensive protection for their unique operating characteristics."
         },
         {
           id: 11,
           question: "What uses differential schemes for fault detection?",
           options: [
-            "Bus protection",
             "Line protection only",
-            "Customer meter protection",
-            "Communication systems"
+            "Communication systems",
+            "Bus protection",
+            "Customer meter protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bus protection compares all currents entering and leaving the bus."
         },
         {
           id: 12,
           question: "What does feeder protection typically use?",
           options: [
-            "Overcurrent relays, fuses, and reclosers",
             "Only distance relays",
-            "Only differential relays",
-            "Only frequency relays"
+            "Overcurrent relays, fuses, and reclosers",
+            "Only frequency relays",
+            "Only differential relays"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Distribution feeders use coordinated overcurrent protection for economic reliability."
         },
         {
           id: 13,
           question: "What do current transformers do?",
           options: [
-            "Reduce high primary currents to standardized levels",
-            "Increase current levels",
             "Generate electrical power",
-            "Store electrical energy"
+            "Store electrical energy",
+            "Reduce high primary currents to standardized levels",
+            "Increase current levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CTs provide scaled-down current replicas for protection and measurement."
         },
         {
           id: 14,
           question: "What do voltage transformers reduce?",
           options: [
+            "Frequency variations",
             "System voltages to standardized secondary levels",
             "Current levels only",
-            "Power factor",
-            "Frequency variations"
+            "Power factor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "VTs provide isolated, scaled voltage signals for protection and metering."
         },
         {
           id: 15,
           question: "What is critical for differential protection schemes?",
           options: [
-            "Proper CT polarity",
-            "Wire color only",
             "Equipment paint",
-            "Ambient temperature"
+            "Proper CT polarity",
+            "Ambient temperature",
+            "Wire color only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct CT polarity ensures proper current summation in differential schemes."
         },
         {
@@ -1288,48 +1288,48 @@ Effective protection systems are essential for power system reliability, requiri
           id: 17,
           question: "What uses sulfur hexafluoride gas?",
           options: [
-            "SF6 circuit breakers",
-            "Oil circuit breakers",
             "Vacuum breakers",
-            "Air blast breakers"
+            "Air blast breakers",
+            "SF6 circuit breakers",
+            "Oil circuit breakers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SF6 breakers use the gas for arc quenching and insulation properties."
         },
         {
           id: 18,
           question: "What interrupts current in a vacuum environment?",
           options: [
-            "Vacuum circuit breakers",
             "Oil circuit breakers",
-            "Air blast breakers",
-            "SF6 breakers"
+            "Vacuum circuit breakers",
+            "SF6 breakers",
+            "Air blast breakers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vacuum breakers extinguish arcs quickly in vacuum chambers."
         },
         {
           id: 19,
           question: "What ensures protection devices operate in correct sequence?",
           options: [
-            "Protection coordination",
             "Random operation",
             "Customer requests",
+            "Protection coordination",
             "Weather conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Coordination ensures selective operation, isolating minimum system sections."
         },
         {
           id: 20,
           question: "What uses pilot channels between line ends?",
           options: [
-            "Communication-aided protection",
+            "Visual inspection",
             "Standalone protection only",
-            "Manual switching",
-            "Visual inspection"
+            "Communication-aided protection",
+            "Manual switching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Pilot protection schemes use communication for faster, more selective operation."
         }
       ]
@@ -1487,24 +1487,24 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           id: 1,
           question: "What does load flow analysis determine?",
           options: [
-            "Steady-state operating conditions",
-            "Fault current levels",
             "Stability limits",
-            "Economic dispatch schedules"
+            "Steady-state operating conditions",
+            "Economic dispatch schedules",
+            "Fault current levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Load flow calculates voltages, angles, and power flows under normal conditions."
         },
         {
           id: 2,
           question: "What are the key variables in power flow?",
           options: [
-            "Bus voltages, power injections, line flows",
-            "Only equipment temperatures",
             "Only fuel costs",
-            "Only maintenance schedules"
+            "Only maintenance schedules",
+            "Bus voltages, power injections, line flows",
+            "Only equipment temperatures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Power flow solves for voltage magnitude/angle and power injection/flow variables."
         },
         {
@@ -1512,9 +1512,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What bus type has known real power and voltage magnitude?",
           options: [
             "PV buses (Generator buses)",
-            "PQ buses (Load buses)",
             "Slack bus (Swing bus)",
-            "Reference bus only"
+            "Reference bus only",
+            "PQ buses (Load buses)"
           ],
           correctAnswer: 0,
           explanation: "PV buses represent generator buses with specified real power and voltage."
@@ -1523,36 +1523,36 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           id: 4,
           question: "What bus type has known real and reactive power?",
           options: [
-            "PQ buses (Load buses)",
+            "Voltage controlled bus",
             "PV buses (Generator buses)",
-            "Slack bus (Swing bus)",
-            "Voltage controlled bus"
+            "PQ buses (Load buses)",
+            "Slack bus (Swing bus)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PQ buses represent load buses with specified real and reactive power."
         },
         {
           id: 5,
           question: "What bus balances power mismatch?",
           options: [
-            "Slack bus (Swing bus)",
             "PV buses only",
             "PQ buses only",
+            "Slack bus (Swing bus)",
             "All buses equally"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The slack bus compensates for system losses and calculation errors."
         },
         {
           id: 6,
           question: "What calculates fault currents during electrical faults?",
           options: [
-            "Short circuit analysis",
-            "Load flow analysis",
             "Stability analysis",
-            "Economic dispatch"
+            "Economic dispatch",
+            "Load flow analysis",
+            "Short circuit analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Short circuit studies determine current levels for protection and equipment rating."
         },
         {
@@ -1560,9 +1560,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What fault type involves all three phases shorted together?",
           options: [
             "Three-phase faults",
-            "Line-to-line faults",
             "Line-to-ground faults",
-            "Double line-to-ground faults"
+            "Double line-to-ground faults",
+            "Line-to-line faults"
           ],
           correctAnswer: 0,
           explanation: "Three-phase faults are balanced faults with highest current magnitude."
@@ -1572,9 +1572,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What method simplifies unbalanced fault analysis?",
           options: [
             "Symmetrical components",
-            "Direct solution",
+            "Trial and error",
             "Approximation only",
-            "Trial and error"
+            "Direct solution"
           ],
           correctAnswer: 0,
           explanation: "Symmetrical components transform unbalanced systems into balanced sequences."
@@ -1583,12 +1583,12 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           id: 9,
           question: "What evaluates system ability to maintain synchronism?",
           options: [
+            "Economic analysis",
             "Stability analysis",
             "Load flow analysis",
-            "Short circuit analysis",
-            "Economic analysis"
+            "Short circuit analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stability studies assess system response to disturbances."
         },
         {
@@ -1596,8 +1596,8 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What concerns generator rotor angles maintaining synchronism?",
           options: [
             "Rotor angle stability",
-            "Voltage stability only",
             "Frequency stability only",
+            "Voltage stability only",
             "Economic stability"
           ],
           correctAnswer: 0,
@@ -1607,24 +1607,24 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           id: 11,
           question: "What concerns maintaining acceptable voltage levels?",
           options: [
-            "Voltage stability",
-            "Rotor angle stability",
             "Frequency stability",
-            "Economic stability"
+            "Economic stability",
+            "Voltage stability",
+            "Rotor angle stability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Voltage stability prevents voltage collapse during disturbances."
         },
         {
           id: 12,
           question: "What determines most economical generation allocation?",
           options: [
-            "Economic dispatch",
-            "Load flow analysis",
             "Short circuit analysis",
-            "Stability analysis"
+            "Load flow analysis",
+            "Stability analysis",
+            "Economic dispatch"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Economic dispatch minimizes generation cost while meeting demand."
         },
         {
@@ -1632,9 +1632,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What typically represents generator fuel costs?",
           options: [
             "Quadratic functions",
+            "Random variables",
             "Linear functions only",
-            "Constant values",
-            "Random variables"
+            "Constant values"
           ],
           correctAnswer: 0,
           explanation: "Fuel costs are often modeled as quadratic functions of power output."
@@ -1644,9 +1644,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What constraint ensures generation equals load plus losses?",
           options: [
             "Power balance constraint",
+            "Reserve requirement only",
             "Generator limit only",
-            "Ramp rate only",
-            "Reserve requirement only"
+            "Ramp rate only"
           ],
           correctAnswer: 0,
           explanation: "Power balance is the fundamental constraint in economic dispatch."
@@ -1656,9 +1656,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What develops strategies for system expansion?",
           options: [
             "Power system planning",
-            "Daily operations only",
+            "Customer billing",
             "Maintenance scheduling",
-            "Customer billing"
+            "Daily operations only"
           ],
           correctAnswer: 0,
           explanation: "Planning addresses long-term system development to meet future needs."
@@ -1667,12 +1667,12 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           id: 16,
           question: "What predicts future electricity demand?",
           options: [
-            "Load forecasting",
             "Weather forecasting only",
+            "Load forecasting",
             "Economic analysis only",
             "Random guessing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Load forecasting considers multiple factors to predict future demand."
         },
         {
@@ -1680,9 +1680,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What determines type, size, and location of new generation?",
           options: [
             "Generation planning",
-            "Transmission planning only",
+            "Maintenance planning",
             "Distribution planning only",
-            "Maintenance planning"
+            "Transmission planning only"
           ],
           correctAnswer: 0,
           explanation: "Generation planning addresses new power plant development."
@@ -1691,24 +1691,24 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           id: 18,
           question: "What addresses new line routes and voltage levels?",
           options: [
-            "Transmission planning",
-            "Generation planning only",
             "Distribution planning only",
-            "Customer service planning"
+            "Generation planning only",
+            "Customer service planning",
+            "Transmission planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transmission planning develops the bulk power delivery network."
         },
         {
           id: 19,
           question: "What focuses on substation expansion and feeder routing?",
           options: [
-            "Distribution planning",
             "Transmission planning only",
             "Generation planning only",
-            "Economic planning"
+            "Economic planning",
+            "Distribution planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Distribution planning develops the local power delivery infrastructure."
         },
         {
@@ -1716,9 +1716,9 @@ Modern power system planning uses sophisticated computer models to evaluate alte
           question: "What considers generation, transmission, and demand-side resources together?",
           options: [
             "Integrated resource planning",
-            "Separate planning only",
+            "Emergency planning",
             "Short-term planning",
-            "Emergency planning"
+            "Separate planning only"
           ],
           correctAnswer: 0,
           explanation: "Integrated planning evaluates all resource options together for optimal solutions."
@@ -1882,9 +1882,9 @@ Effective power system operation requires balancing reliability, economics, and 
           question: "What are system control centers?",
           options: [
             "Nerve centers for power system operations",
+            "Equipment storage facilities",
             "Power generation facilities only",
-            "Customer service offices",
-            "Equipment storage facilities"
+            "Customer service offices"
           ],
           correctAnswer: 0,
           explanation: "Control centers provide real-time monitoring, control, and coordination of grid operations."
@@ -1893,48 +1893,48 @@ Effective power system operation requires balancing reliability, economics, and 
           id: 2,
           question: "What does EMS stand for?",
           options: [
-            "Energy Management System",
             "Electrical Measurement System",
+            "Energy Management System",
             "Equipment Maintenance Schedule",
             "Emergency Management System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EMS provides comprehensive tools for system monitoring, analysis, and control."
         },
         {
           id: 3,
           question: "What provides real-time data collection and device control?",
           options: [
+            "Telephone communications",
             "SCADA (Supervisory Control and Data Acquisition)",
-            "Only manual operations",
             "Paper logbooks",
-            "Telephone communications"
+            "Only manual operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SCADA systems gather real-time data and enable remote control of equipment."
         },
         {
           id: 4,
           question: "What manages bulk power system operations?",
           options: [
-            "Transmission Control Centers",
             "Distribution Control Centers only",
             "Generation Control Centers only",
-            "Customer Service Centers"
+            "Customer Service Centers",
+            "Transmission Control Centers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transmission centers oversee high-voltage grid operations and interconnections."
         },
         {
           id: 5,
           question: "What addresses balance between generation and load?",
           options: [
-            "Frequency control",
-            "Only voltage control",
             "Only power factor correction",
-            "Only load forecasting"
+            "Only voltage control",
+            "Only load forecasting",
+            "Frequency control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Frequency control maintains the generation-load balance at system level."
         },
         {
@@ -1942,9 +1942,9 @@ Effective power system operation requires balancing reliability, economics, and 
           question: "What responds automatically to frequency deviations?",
           options: [
             "Generator governors (primary control)",
-            "Only manual adjustments",
             "Only load shedding",
-            "Only customer actions"
+            "Only customer actions",
+            "Only manual adjustments"
           ],
           correctAnswer: 0,
           explanation: "Governors provide immediate response to frequency changes from the balance point."
@@ -1953,144 +1953,144 @@ Effective power system operation requires balancing reliability, economics, and 
           id: 7,
           question: "What adjusts generation to restore frequency?",
           options: [
-            "Automatic Generation Control (AGC)",
             "Only manual dispatch",
-            "Only load control",
-            "Only transformer taps"
+            "Automatic Generation Control (AGC)",
+            "Only transformer taps",
+            "Only load control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "AGC provides secondary frequency control and tie-line power regulation."
         },
         {
           id: 8,
           question: "What maintains voltage within acceptable limits?",
           options: [
-            "Voltage control methods",
+            "Only generation scheduling",
             "Only frequency control",
-            "Only load control",
-            "Only generation scheduling"
+            "Voltage control methods",
+            "Only load control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Voltage control ensures equipment operates within design limits throughout system."
         },
         {
           id: 9,
           question: "What adjusts transformer ratios to control voltage?",
           options: [
-            "Transformer tap changers",
             "Only generator excitation",
             "Only capacitor banks",
-            "Only load shedding"
+            "Only load shedding",
+            "Transformer tap changers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Tap changers adjust transformer turns ratio to regulate secondary voltage."
         },
         {
           id: 10,
           question: "What evaluates system response to potential equipment outages?",
           options: [
-            "Contingency analysis",
             "Only load flow analysis",
+            "Contingency analysis",
             "Only economic dispatch",
             "Only maintenance scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingency analysis assesses system security under possible outage scenarios."
         },
         {
           id: 11,
           question: "What requires system withstand loss of any single element?",
           options: [
-            "N-1 Criterion",
-            "N-2 Criterion only",
+            "Only normal conditions",
             "No contingency planning",
-            "Only normal conditions"
+            "N-2 Criterion only",
+            "N-1 Criterion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "N-1 criterion ensures system remains within limits after any single contingency."
         },
         {
           id: 12,
           question: "What may be taken if analysis identifies security violations?",
           options: [
-            "Preventive actions",
-            "Only corrective actions after events",
             "No actions",
-            "Only customer notifications"
+            "Preventive actions",
+            "Only customer notifications",
+            "Only corrective actions after events"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Preventive actions address potential problems before they occur."
         },
         {
           id: 13,
           question: "What can start without external power supply?",
           options: [
-            "Blackstart capability generators",
+            "Only wind turbines",
             "All generators",
-            "Only solar plants",
-            "Only wind turbines"
+            "Blackstart capability generators",
+            "Only solar plants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Blackstart units can self-start to initiate system restoration after blackouts."
         },
         {
           id: 14,
           question: "What restores transmission first, then feeds distribution?",
           options: [
+            "No restoration planning",
             "Top-down restoration approach",
             "Bottom-up approach only",
-            "Random restoration",
-            "No restoration planning"
+            "Random restoration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Top-down approach rebuilds the transmission backbone before restoring loads."
         },
         {
           id: 15,
           question: "What adjusts electricity consumption patterns?",
           options: [
-            "Demand-side management",
-            "Only generation control",
+            "Only voltage control",
             "Only transmission control",
-            "Only voltage control"
+            "Only generation control",
+            "Demand-side management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demand-side management influences customer consumption to support grid operations."
         },
         {
           id: 16,
           question: "What incentivizes consumption reduction during peak periods?",
           options: [
-            "Demand response programs",
             "Only mandatory rationing",
             "Only generation increases",
-            "Only equipment upgrades"
+            "Only equipment upgrades",
+            "Demand response programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demand response uses price signals or incentives to modify consumption patterns."
         },
         {
           id: 17,
           question: "What reduces demand during peak periods?",
           options: [
-            "Peak shaving",
-            "Valley filling only",
+            "Strategic conservation",
             "Load shifting only",
-            "Strategic conservation"
+            "Valley filling only",
+            "Peak shaving"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Peak shaving reduces maximum demand to defer capacity investments."
         },
         {
           id: 18,
           question: "What presents challenges from wind and solar generation?",
           options: [
-            "Variability and uncertainty",
-            "Only high cost",
             "Only land requirements",
-            "Only visual impact"
+            "Only visual impact",
+            "Variability and uncertainty",
+            "Only high cost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Renewable variability requires enhanced operational flexibility and forecasting."
         },
         {
@@ -2098,9 +2098,9 @@ Effective power system operation requires balancing reliability, economics, and 
           question: "What requires frequency and voltage ride-through capabilities?",
           options: [
             "Grid code requirements for renewables",
-            "Only for conventional plants",
+            "Only for distribution systems",
             "Only for transmission lines",
-            "Only for distribution systems"
+            "Only for conventional plants"
           ],
           correctAnswer: 0,
           explanation: "Grid codes ensure renewable generators support rather than hinder system stability."
@@ -2109,12 +2109,12 @@ Effective power system operation requires balancing reliability, economics, and 
           id: 20,
           question: "What affects frequency response with high renewable penetration?",
           options: [
-            "Reduced system inertia",
             "Increased system inertia",
-            "No impact on inertia",
-            "Only voltage impact"
+            "Reduced system inertia",
+            "Only voltage impact",
+            "No impact on inertia"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Reduced rotating mass from conventional plants decreases system inertia for frequency response."
         }
       ]
@@ -2130,12 +2130,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 1,
         question: "What is power generation?",
         options: [
-          "Converting primary energy into electrical energy",
-          "Storing electricity in batteries",
+          "Distributing electricity to homes",
           "Transmitting power over long distances",
-          "Distributing electricity to homes"
+          "Converting primary energy into electrical energy",
+          "Storing electricity in batteries"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Power generation transforms various energy sources into usable electrical power.",
         module: 1
       },
@@ -2143,12 +2143,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 2,
         question: "What do thermal power plants burn to produce heat?",
         options: [
-          "Fossil fuels like coal, gas, or oil",
           "Water only",
+          "Wind",
           "Sunlight",
-          "Wind"
+          "Fossil fuels like coal, gas, or oil"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Thermal plants combust fossil fuels to generate steam for turbine operation.",
         module: 1
       },
@@ -2156,12 +2156,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 3,
         question: "What is the purpose of transmission systems?",
         options: [
-          "Carry bulk electricity over long distances",
           "Distribute power to individual customers",
-          "Generate electrical energy",
-          "Store electricity for later use"
+          "Store electricity for later use",
+          "Carry bulk electricity over long distances",
+          "Generate electrical energy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Transmission systems move large power quantities from generation to distribution areas.",
         module: 2
       },
@@ -2169,12 +2169,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 4,
         question: "What voltage range do transmission lines typically operate at?",
         options: [
-          "69kV to 765kV",
-          "110V to 240V",
+          "25kV to 35kV",
           "480V to 15kV",
-          "25kV to 35kV"
+          "110V to 240V",
+          "69kV to 765kV"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "High voltages reduce current and losses during long-distance power transfer.",
         module: 2
       },
@@ -2182,12 +2182,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 5,
         question: "What do distribution networks deliver?",
         options: [
-          "Power from transmission systems to end consumers",
-          "High-voltage bulk power over long distances",
           "Generated electricity only",
-          "Stored energy from batteries"
+          "Stored energy from batteries",
+          "Power from transmission systems to end consumers",
+          "High-voltage bulk power over long distances"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Distribution systems are the final delivery stage to residential, commercial, and industrial customers.",
         module: 3
       },
@@ -2195,12 +2195,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 6,
         question: "What voltage range do distribution systems typically operate at?",
         options: [
-          "4kV to 35kV",
-          "69kV to 765kV",
           "110V to 240V",
-          "480V to 600V"
+          "4kV to 35kV",
+          "480V to 600V",
+          "69kV to 765kV"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Distribution voltages are stepped down from transmission levels for local delivery.",
         module: 3
       },
@@ -2208,12 +2208,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 7,
         question: "What do power system protection systems ensure?",
         options: [
-          "Equipment safety and system reliability",
-          "Only lowest electricity prices",
+          "Customer billing accuracy",
           "Maximum power generation",
-          "Customer billing accuracy"
+          "Only lowest electricity prices",
+          "Equipment safety and system reliability"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Protection systems detect faults and isolate equipment to prevent damage and maintain reliability.",
         module: 4
       },
@@ -2221,12 +2221,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 8,
         question: "What do protective relays do?",
         options: [
-          "Monitor parameters and initiate disconnection",
-          "Generate electrical power",
           "Store electrical energy",
-          "Measure customer usage only"
+          "Monitor parameters and initiate disconnection",
+          "Measure customer usage only",
+          "Generate electrical power"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Relays detect abnormal conditions and signal circuit breakers to isolate faults.",
         module: 4
       },
@@ -2234,12 +2234,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 9,
         question: "What does load flow analysis determine?",
         options: [
+          "Economic dispatch schedules",
           "Steady-state operating conditions",
-          "Fault current levels",
           "Stability limits",
-          "Economic dispatch schedules"
+          "Fault current levels"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Load flow calculates voltages, angles, and power flows under normal conditions.",
         module: 5
       },
@@ -2247,12 +2247,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 10,
         question: "What calculates fault currents during electrical faults?",
         options: [
+          "Stability analysis",
           "Short circuit analysis",
           "Load flow analysis",
-          "Stability analysis",
           "Economic dispatch"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Short circuit studies determine current levels for protection and equipment rating.",
         module: 5
       },
@@ -2260,12 +2260,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 11,
         question: "What are system control centers?",
         options: [
-          "Nerve centers for power system operations",
-          "Power generation facilities only",
           "Customer service offices",
-          "Equipment storage facilities"
+          "Nerve centers for power system operations",
+          "Equipment storage facilities",
+          "Power generation facilities only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Control centers provide real-time monitoring, control, and coordination of grid operations.",
         module: 6
       },
@@ -2273,12 +2273,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 12,
         question: "What addresses balance between generation and load?",
         options: [
+          "Only load forecasting",
           "Frequency control",
-          "Only voltage control",
           "Only power factor correction",
-          "Only load forecasting"
+          "Only voltage control"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Frequency control maintains the generation-load balance at system level.",
         module: 6
       },
@@ -2287,9 +2287,9 @@ Effective power system operation requires balancing reliability, economics, and 
         question: "What energy source do nuclear plants use?",
         options: [
           "Nuclear fission reactions",
-          "Solar radiation",
+          "Biomass combustion",
           "Geothermal heat",
-          "Biomass combustion"
+          "Solar radiation"
         ],
         correctAnswer: 0,
         explanation: "Nuclear plants split uranium atoms to release heat for power generation.",
@@ -2299,12 +2299,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 14,
         question: "What do hydroelectric plants use to generate power?",
         options: [
-          "Flowing water",
           "Steam pressure",
           "Wind currents",
+          "Flowing water",
           "Solar heat"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Hydro plants convert water's potential energy into electrical energy.",
         module: 1
       },
@@ -2312,12 +2312,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 15,
         question: "What is ACSR conductor?",
         options: [
-          "Aluminum conductor steel reinforced",
+          "Alternating current steel rated",
           "Advanced copper strand reinforced",
           "Aluminum core steel wrapped",
-          "Alternating current steel rated"
+          "Aluminum conductor steel reinforced"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "ACSR combines aluminum conductivity with steel strength for transmission lines.",
         module: 2
       },
@@ -2326,9 +2326,9 @@ Effective power system operation requires balancing reliability, economics, and 
         question: "What are bundle conductors?",
         options: [
           "Multiple wires per phase",
+          "Ground wire assemblies",
           "Single thick conductors",
-          "Insulated cable bundles",
-          "Ground wire assemblies"
+          "Insulated cable bundles"
         ],
         correctAnswer: 0,
         explanation: "Bundle conductors increase capacity and reduce corona effects at high voltages.",
@@ -2339,8 +2339,8 @@ Effective power system operation requires balancing reliability, economics, and 
         question: "What do distribution substations contain?",
         options: [
           "Transformers, circuit breakers, switches",
-          "Only transmission lines",
           "Customer meters only",
+          "Only transmission lines",
           "Generation equipment"
         ],
         correctAnswer: 0,
@@ -2351,12 +2351,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 18,
         question: "What are feeders?",
         options: [
-          "Circuits carrying power from substations to customer areas",
           "Power generation units",
+          "Circuits carrying power from substations to customer areas",
           "Transmission lines only",
           "Customer wiring systems"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Feeders distribute power throughout service territories at primary distribution voltage.",
         module: 3
       },
@@ -2366,8 +2366,8 @@ Effective power system operation requires balancing reliability, economics, and 
         options: [
           "Excessive current conditions",
           "Low voltage only",
-          "Frequency variations",
-          "Power factor changes"
+          "Power factor changes",
+          "Frequency variations"
         ],
         correctAnswer: 0,
         explanation: "Overcurrent relays operate when current exceeds preset values for specified times.",
@@ -2378,8 +2378,8 @@ Effective power system operation requires balancing reliability, economics, and 
         question: "What do distance relays measure?",
         options: [
           "Impedance to determine fault location",
-          "Only current magnitude",
           "Only voltage level",
+          "Only current magnitude",
           "Power flow direction"
         ],
         correctAnswer: 0,
@@ -2390,12 +2390,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 21,
         question: "What are the key variables in power flow?",
         options: [
-          "Bus voltages, power injections, line flows",
+          "Only maintenance schedules",
           "Only equipment temperatures",
-          "Only fuel costs",
-          "Only maintenance schedules"
+          "Bus voltages, power injections, line flows",
+          "Only fuel costs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Power flow solves for voltage magnitude/angle and power injection/flow variables.",
         module: 5
       },
@@ -2403,12 +2403,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 22,
         question: "What evaluates system ability to maintain synchronism?",
         options: [
+          "Short circuit analysis",
           "Stability analysis",
           "Load flow analysis",
-          "Short circuit analysis",
           "Economic analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Stability studies assess system response to disturbances.",
         module: 5
       },
@@ -2416,12 +2416,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 23,
         question: "What does EMS stand for?",
         options: [
-          "Energy Management System",
-          "Electrical Measurement System",
+          "Emergency Management System",
           "Equipment Maintenance Schedule",
-          "Emergency Management System"
+          "Energy Management System",
+          "Electrical Measurement System"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "EMS provides comprehensive tools for system monitoring, analysis, and control.",
         module: 6
       },
@@ -2430,9 +2430,9 @@ Effective power system operation requires balancing reliability, economics, and 
         question: "What provides real-time data collection and device control?",
         options: [
           "SCADA (Supervisory Control and Data Acquisition)",
-          "Only manual operations",
+          "Telephone communications",
           "Paper logbooks",
-          "Telephone communications"
+          "Only manual operations"
         ],
         correctAnswer: 0,
         explanation: "SCADA systems gather real-time data and enable remote control of equipment.",
@@ -2442,12 +2442,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 25,
         question: "How do solar power systems generate electricity?",
         options: [
+          "Use solar heat to boil water",
           "Convert sunlight using photovoltaic cells",
           "Burn solar fuel",
-          "Use solar heat to boil water",
           "Capture solar wind"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Photovoltaic cells directly convert sunlight into DC electrical current.",
         module: 1
       },
@@ -2456,9 +2456,9 @@ Effective power system operation requires balancing reliability, economics, and 
         question: "What do wind turbines convert into electricity?",
         options: [
           "Kinetic energy from wind",
-          "Solar radiation",
           "Atmospheric pressure",
-          "Temperature differences"
+          "Temperature differences",
+          "Solar radiation"
         ],
         correctAnswer: 0,
         explanation: "Wind turns turbine blades, rotating generators to produce electricity.",
@@ -2468,12 +2468,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 27,
         question: "What are common support structures for high-voltage lines?",
         options: [
-          "Lattice steel towers",
-          "Wooden poles only",
           "Concrete walls",
-          "Underground pipes"
+          "Underground pipes",
+          "Wooden poles only",
+          "Lattice steel towers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Lattice towers provide strength and height for high-voltage conductors.",
         module: 2
       },
@@ -2481,12 +2481,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 28,
         question: "What do insulators prevent?",
         options: [
+          "Lightning strikes",
           "Current flowing to grounded structures",
           "Conductor sagging",
-          "Lightning strikes",
           "Bird nesting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Insulators maintain electrical isolation between live conductors and support structures.",
         module: 2
       },
@@ -2495,9 +2495,9 @@ Effective power system operation requires balancing reliability, economics, and 
         question: "What do distribution transformers do?",
         options: [
           "Reduce voltage to customer utilization levels",
+          "Store electrical energy",
           "Increase voltage for transmission",
-          "Generate electrical power",
-          "Store electrical energy"
+          "Generate electrical power"
         ],
         correctAnswer: 0,
         explanation: "Distribution transformers provide the final voltage conversion for customer use.",
@@ -2507,12 +2507,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 30,
         question: "What configuration has a single power source feeding customers?",
         options: [
+          "Networked systems",
           "Radial systems",
           "Loop systems",
-          "Networked systems",
           "Spot networks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Radial design is simple but has single points of failure.",
         module: 3
       },
@@ -2520,12 +2520,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 31,
         question: "What do differential relays compare?",
         options: [
-          "Currents entering and leaving equipment",
-          "Voltage levels only",
           "Power factors",
-          "Frequency differences"
+          "Currents entering and leaving equipment",
+          "Frequency differences",
+          "Voltage levels only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Differential protection detects internal faults by identifying current imbalances.",
         module: 4
       },
@@ -2533,12 +2533,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 32,
         question: "What do digital relays use?",
         options: [
-          "Microprocessor technology",
           "Mechanical parts only",
           "Hydraulic systems",
-          "Pneumatic controls"
+          "Pneumatic controls",
+          "Microprocessor technology"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Digital relays offer programmable protection functions with advanced features.",
         module: 4
       },
@@ -2546,12 +2546,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 33,
         question: "What bus type has known real power and voltage magnitude?",
         options: [
-          "PV buses (Generator buses)",
-          "PQ buses (Load buses)",
           "Slack bus (Swing bus)",
-          "Reference bus only"
+          "Reference bus only",
+          "PQ buses (Load buses)",
+          "PV buses (Generator buses)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "PV buses represent generator buses with specified real power and voltage.",
         module: 5
       },
@@ -2559,12 +2559,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 34,
         question: "What bus type has known real and reactive power?",
         options: [
-          "PQ buses (Load buses)",
+          "Voltage controlled bus",
           "PV buses (Generator buses)",
-          "Slack bus (Swing bus)",
-          "Voltage controlled bus"
+          "PQ buses (Load buses)",
+          "Slack bus (Swing bus)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "PQ buses represent load buses with specified real and reactive power.",
         module: 5
       },
@@ -2572,12 +2572,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 35,
         question: "What responds automatically to frequency deviations?",
         options: [
+          "Only customer actions",
           "Generator governors (primary control)",
-          "Only manual adjustments",
           "Only load shedding",
-          "Only customer actions"
+          "Only manual adjustments"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Governors provide immediate response to frequency changes from the balance point.",
         module: 6
       },
@@ -2585,12 +2585,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 36,
         question: "What adjusts generation to restore frequency?",
         options: [
-          "Automatic Generation Control (AGC)",
-          "Only manual dispatch",
           "Only load control",
-          "Only transformer taps"
+          "Only manual dispatch",
+          "Only transformer taps",
+          "Automatic Generation Control (AGC)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "AGC provides secondary frequency control and tie-line power regulation.",
         module: 6
       },
@@ -2598,12 +2598,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 37,
         question: "What provides clean, renewable power with quick response?",
         options: [
-          "Hydroelectric plants",
+          "Diesel generators",
           "Coal plants",
-          "Nuclear plants",
-          "Diesel generators"
+          "Hydroelectric plants",
+          "Nuclear plants"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Hydro plants can quickly adjust output to follow load changes.",
         module: 1
       },
@@ -2611,12 +2611,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 38,
         question: "What is the purpose of shield wires?",
         options: [
-          "Protect against lightning strikes",
           "Carry electrical current",
-          "Support conductor weight",
-          "Reduce visual impact"
+          "Protect against lightning strikes",
+          "Reduce visual impact",
+          "Support conductor weight"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Shield wires intercept lightning to prevent damage to phase conductors.",
         module: 2
       },
@@ -2624,12 +2624,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 39,
         question: "What systems form closed loops fed from both ends?",
         options: [
+          "Underground systems",
           "Loop systems",
-          "Radial systems",
           "Spot networks",
-          "Underground systems"
+          "Radial systems"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Loop systems can be reconfigured during outages for better reliability.",
         module: 3
       },
@@ -2637,12 +2637,12 @@ Effective power system operation requires balancing reliability, economics, and 
         id: 40,
         question: "What physically interrupts current during faults?",
         options: [
-          "Circuit breakers",
-          "Protective relays only",
+          "Voltage transformers",
           "Current transformers",
-          "Voltage transformers"
+          "Protective relays only",
+          "Circuit breakers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Circuit breakers are the final actuating devices that open to clear faults.",
         module: 4
       }

@@ -71,48 +71,48 @@ Mastering taxonomy is fundamental to all botanical science!`,
           id: 1,
           question: "What is the basic biological unit in plant classification?",
           options: [
-            "Species",
-            "Genus",
             "Family",
-            "Order"
+            "Order",
+            "Species",
+            "Genus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The species is the fundamental unit of biological classification."
         },
         {
           id: 2,
           question: "Who developed the binomial nomenclature system?",
           options: [
-            "Carl Linnaeus",
-            "Charles Darwin",
             "Gregor Mendel",
-            "Robert Brown"
+            "Robert Brown",
+            "Charles Darwin",
+            "Carl Linnaeus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Linnaeus established the modern system of scientific naming."
         },
         {
           id: 3,
           question: "How should scientific names be formatted when printed?",
           options: [
-            "Italicized with genus capitalized",
-            "Always in bold capital letters",
             "Underlined with no capitalization",
-            "Regular font with both words capitalized"
+            "Regular font with both words capitalized",
+            "Always in bold capital letters",
+            "Italicized with genus capitalized"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Italicization and proper capitalization are standard conventions."
         },
         {
           id: 4,
           question: "What does molecular systematics primarily use?",
           options: [
-            "DNA sequencing and analysis",
-            "Only leaf shape comparison",
             "Flower color patterns",
+            "Only leaf shape comparison",
+            "DNA sequencing and analysis",
             "Growth rate measurements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Molecular data from DNA provides evidence for relationships."
         },
         {
@@ -121,8 +121,8 @@ Mastering taxonomy is fundamental to all botanical science!`,
           options: [
             "Family",
             "Order",
-            "Class",
-            "Species"
+            "Species",
+            "Class"
           ],
           correctAnswer: 0,
           explanation: "Families contain related genera."
@@ -132,9 +132,9 @@ Mastering taxonomy is fundamental to all botanical science!`,
           question: "What does 'Magnoliophyta' refer to?",
           options: [
             "Flowering plants division",
-            "Fern family only",
+            "Tree growth form",
             "Moss classification",
-            "Tree growth form"
+            "Fern family only"
           ],
           correctAnswer: 0,
           explanation: "Magnoliophyta is the division containing flowering plants."
@@ -144,9 +144,9 @@ Mastering taxonomy is fundamental to all botanical science!`,
           question: "What indicates who first published a plant name?",
           options: [
             "Author citation",
+            "Publication date",
             "Type specimen location",
-            "Herbarium code",
-            "Publication date"
+            "Herbarium code"
           ],
           correctAnswer: 0,
           explanation: "Author citations credit the original publishing botanist."
@@ -156,9 +156,9 @@ Mastering taxonomy is fundamental to all botanical science!`,
           question: "What do type specimens provide?",
           options: [
             "Reference points for names",
+            "Historical artwork",
             "Genetic material only",
-            "Garden display samples",
-            "Historical artwork"
+            "Garden display samples"
           ],
           correctAnswer: 0,
           explanation: "Type specimens serve as the standard reference for a species."
@@ -168,8 +168,8 @@ Mastering taxonomy is fundamental to all botanical science!`,
           question: "What does cladistics help reconstruct?",
           options: [
             "Evolutionary relationships",
-            "Only growth patterns",
             "Flower color changes",
+            "Only growth patterns",
             "Soil preferences"
           ],
           correctAnswer: 0,
@@ -179,36 +179,36 @@ Mastering taxonomy is fundamental to all botanical science!`,
           id: 10,
           question: "What is Rosaceae an example of?",
           options: [
-            "A plant family",
+            "An order classification",
             "A genus name",
             "A species epithet",
-            "An order classification"
+            "A plant family"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Rosaceae is the rose family containing many genera."
         },
         {
           id: 11,
           question: "What does biogeographic patterns study?",
           options: [
-            "Plant distribution patterns",
             "Only leaf shapes",
             "Flower scent chemistry",
+            "Plant distribution patterns",
             "Root depth measurements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Biogeography examines how plants are distributed geographically."
         },
         {
           id: 12,
           question: "What are Liliopsida and Magnoliopsida?",
           options: [
-            "Plant classes",
-            "Genus names",
             "Family groups",
+            "Genus names",
+            "Plant classes",
             "Species varieties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "These are classes within flowering plants: monocots and dicots."
         },
         {
@@ -217,8 +217,8 @@ Mastering taxonomy is fundamental to all botanical science!`,
           options: [
             "Evolutionary trees",
             "Garden designs",
-            "Soil maps",
-            "Climate charts"
+            "Climate charts",
+            "Soil maps"
           ],
           correctAnswer: 0,
           explanation: "Phylogenies show hypothesized evolutionary relationships."
@@ -227,48 +227,48 @@ Mastering taxonomy is fundamental to all botanical science!`,
           id: 14,
           question: "What is the plural of genus?",
           options: [
-            "Genera",
+            "Genus types",
             "Genuses",
             "Genus's",
-            "Genus types"
+            "Genera"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Genera is the correct plural form of genus."
         },
         {
           id: 15,
           question: "What do modern taxonomists use besides morphology?",
           options: [
-            "Genetic data and evolutionary relationships",
             "Only common names",
             "Garden popularity",
-            "Historical records only"
+            "Historical records only",
+            "Genetic data and evolutionary relationships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Multiple evidence types provide more accurate classifications."
         },
         {
           id: 16,
           question: "What does the species epithet represent?",
           options: [
-            "The second part of the scientific name",
-            "The family classification",
             "The common name",
-            "The discoverer's name"
+            "The discoverer's name",
+            "The second part of the scientific name",
+            "The family classification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The species epithet is the specific name within a genus."
         },
         {
           id: 17,
           question: "What does comparative morphology involve?",
           options: [
-            "Studying form and structure across species",
-            "Only measuring plant height",
             "Counting flowers only",
-            "Testing soil chemistry"
+            "Testing soil chemistry",
+            "Only measuring plant height",
+            "Studying form and structure across species"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Comparative analysis reveals similarities and differences."
         },
         {
@@ -287,12 +287,12 @@ Mastering taxonomy is fundamental to all botanical science!`,
           id: 19,
           question: "What provides universal understanding across languages?",
           options: [
-            "Scientific names",
-            "Common names",
             "Local names",
-            "Trade names"
+            "Common names",
+            "Trade names",
+            "Scientific names"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Scientific names are standardized internationally."
         },
         {
@@ -300,9 +300,9 @@ Mastering taxonomy is fundamental to all botanical science!`,
           question: "What is fundamental to all botanical science?",
           options: [
             "Mastering taxonomy",
-            "Only gardening skills",
             "Memorizing colors",
-            "Counting leaves"
+            "Counting leaves",
+            "Only gardening skills"
           ],
           correctAnswer: 0,
           explanation: "Taxonomy provides the framework for understanding plant diversity."
@@ -370,24 +370,24 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           id: 1,
           question: "What is the function of the root cap?",
           options: [
-            "Protecting the growing tip",
             "Absorbing water",
-            "Storing nutrients",
-            "Anchoring the plant"
+            "Anchoring the plant",
+            "Protecting the growing tip",
+            "Storing nutrients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The root cap protects delicate meristematic cells as roots grow through soil."
         },
         {
           id: 2,
           question: "Where do root cells lengthen?",
           options: [
+            "Maturation zone",
             "Zone of elongation",
             "Root cap area",
-            "Maturation zone",
             "Root hair region"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cell elongation occurs just behind the root tip."
         },
         {
@@ -395,9 +395,9 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           question: "What increases surface area for water absorption?",
           options: [
             "Root hairs",
-            "Root cap",
+            "Cortex tissue",
             "Vascular cylinder",
-            "Cortex tissue"
+            "Root cap"
           ],
           correctAnswer: 0,
           explanation: "Root hairs dramatically increase absorptive surface area."
@@ -406,12 +406,12 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           id: 4,
           question: "What contains xylem and phloem in roots?",
           options: [
-            "Vascular cylinder",
             "Root epidermis",
-            "Root cap",
-            "Root hairs"
+            "Vascular cylinder",
+            "Root hairs",
+            "Root cap"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The vascular cylinder contains transport tissues."
         },
         {
@@ -419,9 +419,9 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           question: "What is the protective outer layer of stems?",
           options: [
             "Epidermis",
-            "Cortex",
+            "Vascular tissue",
             "Pith",
-            "Vascular tissue"
+            "Cortex"
           ],
           correctAnswer: 0,
           explanation: "The epidermis provides external protection."
@@ -432,8 +432,8 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           options: [
             "Cortex",
             "Epidermis",
-            "Xylem",
-            "Phloem"
+            "Phloem",
+            "Xylem"
           ],
           correctAnswer: 0,
           explanation: "Cortical tissue frequently serves storage functions."
@@ -442,96 +442,96 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           id: 7,
           question: "How do vascular bundles differ in monocots vs dicots?",
           options: [
+            "Absent in some plants",
             "Arranged differently in stems",
-            "Identical in all plants",
             "Only in roots, not stems",
-            "Absent in some plants"
+            "Identical in all plants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Monocots have scattered bundles; dicots have organized rings."
         },
         {
           id: 8,
           question: "What is the waxy waterproof layer on leaves?",
           options: [
-            "Cuticle",
-            "Epidermis",
             "Mesophyll",
-            "Stomata"
+            "Epidermis",
+            "Stomata",
+            "Cuticle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The cuticle prevents excessive water loss."
         },
         {
           id: 9,
           question: "Where does most photosynthesis occur in leaves?",
           options: [
-            "Mesophyll tissue",
-            "Epidermis",
             "Cuticle",
-            "Veins"
+            "Epidermis",
+            "Veins",
+            "Mesophyll tissue"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mesophyll contains chloroplast-rich cells."
         },
         {
           id: 10,
           question: "What are stomata?",
           options: [
-            "Pores for gas exchange",
             "Storage cells",
-            "Transport vessels",
-            "Protective hairs"
+            "Pores for gas exchange",
+            "Protective hairs",
+            "Transport vessels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stomata allow carbon dioxide in and oxygen out."
         },
         {
           id: 11,
           question: "What is the central storage tissue in some stems?",
           options: [
-            "Pith",
-            "Cortex",
             "Epidermis",
-            "Vascular tissue"
+            "Vascular tissue",
+            "Pith",
+            "Cortex"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Pith occupies the center of many stems."
         },
         {
           id: 12,
           question: "What are the protective outer whorl of flowers?",
           options: [
-            "Sepals",
-            "Petals",
             "Stamens",
-            "Carpels"
+            "Carpels",
+            "Petals",
+            "Sepals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sepals protect developing flower buds."
         },
         {
           id: 13,
           question: "What are the male reproductive parts?",
           options: [
-            "Stamens",
-            "Carpels",
             "Petals",
+            "Carpels",
+            "Stamens",
             "Sepals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stamens produce pollen."
         },
         {
           id: 14,
           question: "What tissue contains palisade and spongy layers?",
           options: [
+            "Cuticle",
             "Mesophyll",
             "Epidermis",
-            "Cuticle",
             "Vascular"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mesophyll has these two photosynthetic layers."
         },
         {
@@ -539,9 +539,9 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           question: "What do veins in leaves contain?",
           options: [
             "Vascular tissue",
-            "Only xylem",
+            "Storage cells",
             "Only phloem",
-            "Storage cells"
+            "Only xylem"
           ],
           correctAnswer: 0,
           explanation: "Veins contain both xylem and phloem."
@@ -550,24 +550,24 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           id: 16,
           question: "What is the function of petals?",
           options: [
-            "Attract pollinators",
             "Protect developing seeds",
+            "Attract pollinators",
             "Produce pollen",
             "Receive pollen"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Petals often attract pollinators with color and scent."
         },
         {
           id: 17,
           question: "What are carpels?",
           options: [
-            "Female reproductive parts",
             "Male reproductive parts",
             "Protective structures",
+            "Female reproductive parts",
             "Attractive structures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Carpels contain ovules and develop into fruits."
         },
         {
@@ -575,9 +575,9 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           question: "What provides insight into plant function?",
           options: [
             "Anatomical knowledge",
-            "Only common names",
             "Garden location",
-            "Flower color alone"
+            "Flower color alone",
+            "Only common names"
           ],
           correctAnswer: 0,
           explanation: "Structure reveals how plants perform essential functions."
@@ -586,24 +586,24 @@ Anatomical knowledge provides insight into plant function and adaptation!`,
           id: 19,
           question: "What varies between woody and herbaceous stems?",
           options: [
-            "Tissue organization",
-            "Basic functions",
             "Presence of leaves",
+            "Basic functions",
+            "Tissue organization",
             "Ability to photosynthesize"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Woody stems have secondary growth; herbaceous stems do not."
         },
         {
           id: 20,
           question: "What reveals evolutionary relationships?",
           options: [
-            "Reproductive anatomy",
-            "Plant height only",
+            "Growth rate",
             "Leaf color",
-            "Growth rate"
+            "Reproductive anatomy",
+            "Plant height only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Floral structures provide important taxonomic characters."
         }
       ]
@@ -681,9 +681,9 @@ Understanding physiology reveals how plants live and grow!`,
           question: "What do light reactions produce?",
           options: [
             "ATP and NADPH",
+            "Carbon dioxide",
             "Glucose directly",
-            "Only oxygen",
-            "Carbon dioxide"
+            "Only oxygen"
           ],
           correctAnswer: 0,
           explanation: "Light reactions convert light energy to chemical carriers."
@@ -692,12 +692,12 @@ Understanding physiology reveals how plants live and grow!`,
           id: 3,
           question: "What uses ATP and NADPH to make sugars?",
           options: [
-            "Calvin cycle",
+            "Krebs cycle",
             "Light reactions",
             "Glycolysis",
-            "Krebs cycle"
+            "Calvin cycle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Calvin cycle fixes carbon using energy from light reactions."
         },
         {
@@ -706,8 +706,8 @@ Understanding physiology reveals how plants live and grow!`,
           options: [
             "Mitochondria",
             "Chloroplasts",
-            "Cell wall",
-            "Vacuole"
+            "Vacuole",
+            "Cell wall"
           ],
           correctAnswer: 0,
           explanation: "Mitochondria are the powerhouses of the cell."
@@ -716,120 +716,120 @@ Understanding physiology reveals how plants live and grow!`,
           id: 5,
           question: "What produces most ATP during respiration?",
           options: [
-            "Electron transport chain",
-            "Glycolysis",
             "Krebs cycle only",
-            "Fermentation"
+            "Fermentation",
+            "Glycolysis",
+            "Electron transport chain"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The electron transport chain generates the majority of ATP."
         },
         {
           id: 6,
           question: "What theory explains water transport in tall trees?",
           options: [
-            "Cohesion-tension theory",
-            "Root pressure only",
+            "Active pumping",
             "Capillary action alone",
-            "Active pumping"
+            "Root pressure only",
+            "Cohesion-tension theory"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cohesion of water molecules and tension from transpiration create pull."
         },
         {
           id: 7,
           question: "What creates suction for water movement?",
           options: [
+            "Stem compression",
             "Transpiration pull",
             "Root pressure only",
-            "Leaf pumping",
-            "Stem compression"
+            "Leaf pumping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Water evaporation from leaves creates negative pressure."
         },
         {
           id: 8,
           question: "What hormone promotes cell elongation?",
           options: [
-            "Auxins",
+            "Abscisic acid",
             "Gibberellins",
-            "Cytokinins",
-            "Abscisic acid"
+            "Auxins",
+            "Cytokinins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Auxins stimulate cell elongation in stems."
         },
         {
           id: 9,
           question: "What stimulates stem elongation and germination?",
           options: [
-            "Gibberellins",
+            "Ethylene",
             "Auxins",
-            "Cytokinins",
-            "Ethylene"
+            "Gibberellins",
+            "Cytokinins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Gibberellins promote stem growth and break seed dormancy."
         },
         {
           id: 10,
           question: "What promotes cell division?",
           options: [
-            "Cytokinins",
             "Auxins",
-            "Gibberellins",
-            "Abscisic acid"
+            "Cytokinins",
+            "Abscisic acid",
+            "Gibberellins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cytokinins stimulate cell division in meristems."
         },
         {
           id: 11,
           question: "What induces dormancy and stress responses?",
           options: [
-            "Abscisic acid",
-            "Auxins",
             "Gibberellins",
+            "Auxins",
+            "Abscisic acid",
             "Ethylene"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ABA helps plants survive adverse conditions."
         },
         {
           id: 12,
           question: "What promotes fruit ripening?",
           options: [
-            "Ethylene",
-            "Auxins",
             "Cytokinins",
-            "Gibberellins"
+            "Gibberellins",
+            "Auxins",
+            "Ethylene"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ethylene accelerates ripening processes."
         },
         {
           id: 13,
           question: "What controls water loss from leaves?",
           options: [
-            "Stomatal regulation",
-            "Cuticle thickness only",
             "Leaf angle",
-            "Hair density"
+            "Cuticle thickness only",
+            "Hair density",
+            "Stomatal regulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stomata open and close to balance gas exchange and water conservation."
         },
         {
           id: 14,
           question: "What process reduces photosynthetic efficiency?",
           options: [
-            "Photorespiration",
             "Photosynthesis",
             "Respiration",
+            "Photorespiration",
             "Transpiration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Photorespiration occurs when rubisco fixes oxygen instead of CO₂."
         },
         {
@@ -837,9 +837,9 @@ Understanding physiology reveals how plants live and grow!`,
           question: "What breaks down glucose in cytoplasm?",
           options: [
             "Glycolysis",
-            "Krebs cycle",
+            "Calvin cycle",
             "Electron transport",
-            "Calvin cycle"
+            "Krebs cycle"
           ],
           correctAnswer: 0,
           explanation: "Glycolysis is the first step in cellular respiration."
@@ -848,60 +848,60 @@ Understanding physiology reveals how plants live and grow!`,
           id: 16,
           question: "What completes oxidation in mitochondria?",
           options: [
-            "Krebs cycle",
             "Glycolysis",
-            "Calvin cycle",
-            "Light reactions"
+            "Light reactions",
+            "Krebs cycle",
+            "Calvin cycle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Krebs cycle processes products from glycolysis."
         },
         {
           id: 17,
           question: "What pushes water upward from roots?",
           options: [
-            "Root pressure",
             "Leaf suction only",
             "Stem pumping",
+            "Root pressure",
             "Gravity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Root pressure contributes to early morning water movement."
         },
         {
           id: 18,
           question: "What coordinates plant growth and responses?",
           options: [
+            "Human intervention",
             "Hormones",
-            "Only environmental cues",
             "Random processes",
-            "Human intervention"
+            "Only environmental cues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hormones are chemical messengers that regulate plant processes."
         },
         {
           id: 19,
           question: "What converts light to chemical energy?",
           options: [
-            "Photosynthesis",
-            "Respiration",
             "Transpiration",
-            "Germination"
+            "Germination",
+            "Photosynthesis",
+            "Respiration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Photosynthesis captures and stores energy from sunlight."
         },
         {
           id: 20,
           question: "What releases energy from stored compounds?",
           options: [
-            "Respiration",
             "Photosynthesis",
-            "Transpiration",
-            "Absorption"
+            "Absorption",
+            "Respiration",
+            "Transpiration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Respiration breaks down organic molecules to release energy."
         }
       ]
@@ -966,12 +966,12 @@ Ecological understanding highlights plant importance in global systems!`,
           id: 1,
           question: "What begins on bare substrates like rock?",
           options: [
-            "Primary succession",
             "Secondary succession",
-            "Climax community",
-            "Disturbance regime"
+            "Disturbance regime",
+            "Primary succession",
+            "Climax community"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Primary succession starts where no soil exists."
         },
         {
@@ -979,8 +979,8 @@ Ecological understanding highlights plant importance in global systems!`,
           question: "What occurs after disturbance in existing ecosystems?",
           options: [
             "Secondary succession",
-            "Primary succession",
             "Climax stability",
+            "Primary succession",
             "Complete destruction"
           ],
           correctAnswer: 0,
@@ -990,48 +990,48 @@ Ecological understanding highlights plant importance in global systems!`,
           id: 3,
           question: "What are first colonizers in succession called?",
           options: [
-            "Pioneer species",
             "Climax species",
             "Intermediate species",
-            "Dominant species"
+            "Dominant species",
+            "Pioneer species"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pioneer species are adapted to colonize harsh conditions."
         },
         {
           id: 4,
           question: "What is a relatively stable endpoint community?",
           options: [
-            "Climax community",
+            "Disturbed community",
             "Pioneer community",
             "Intermediate stage",
-            "Disturbed community"
+            "Climax community"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Climax communities persist until major disturbances."
         },
         {
           id: 5,
           question: "What interaction harms both plants?",
           options: [
+            "Allelopathy",
             "Competition",
             "Mutualism",
-            "Commensalism",
-            "Allelopathy"
+            "Commensalism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competition occurs when resources are limited."
         },
         {
           id: 6,
           question: "What interaction benefits both plants?",
           options: [
-            "Mutualism",
-            "Competition",
+            "Parasitism",
             "Commensalism",
-            "Parasitism"
+            "Competition",
+            "Mutualism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mutualistic relationships provide reciprocal benefits."
         },
         {
@@ -1050,12 +1050,12 @@ Ecological understanding highlights plant importance in global systems!`,
           id: 8,
           question: "What cycle involves photosynthesis and respiration?",
           options: [
-            "Carbon cycle",
+            "Water cycle",
             "Nitrogen cycle",
             "Phosphorus cycle",
-            "Water cycle"
+            "Carbon cycle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Carbon moves between atmosphere and living organisms."
         },
         {
@@ -1064,8 +1064,8 @@ Ecological understanding highlights plant importance in global systems!`,
           options: [
             "Nitrogen cycle",
             "Carbon cycle",
-            "Phosphorus cycle",
-            "Water cycle"
+            "Water cycle",
+            "Phosphorus cycle"
           ],
           correctAnswer: 0,
           explanation: "Nitrogen undergoes various transformations in ecosystems."
@@ -1074,12 +1074,12 @@ Ecological understanding highlights plant importance in global systems!`,
           id: 10,
           question: "What is a provisioning ecosystem service?",
           options: [
-            "Food production",
             "Climate regulation",
             "Soil formation",
+            "Food production",
             "Aesthetic value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Provisioning services provide material benefits."
         },
         {
@@ -1087,9 +1087,9 @@ Ecological understanding highlights plant importance in global systems!`,
           question: "What is a regulating ecosystem service?",
           options: [
             "Climate regulation",
-            "Food production",
+            "Recreational value",
             "Soil formation",
-            "Recreational value"
+            "Food production"
           ],
           correctAnswer: 0,
           explanation: "Regulating services maintain environmental conditions."
@@ -1098,12 +1098,12 @@ Ecological understanding highlights plant importance in global systems!`,
           id: 12,
           question: "What is a supporting ecosystem service?",
           options: [
-            "Soil formation",
             "Food production",
             "Climate regulation",
+            "Soil formation",
             "Aesthetic value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Supporting services enable other services to exist."
         },
         {
@@ -1112,8 +1112,8 @@ Ecological understanding highlights plant importance in global systems!`,
           options: [
             "Aesthetic value",
             "Food production",
-            "Climate regulation",
-            "Soil formation"
+            "Soil formation",
+            "Climate regulation"
           ],
           correctAnswer: 0,
           explanation: "Cultural services provide non-material benefits."
@@ -1122,24 +1122,24 @@ Ecological understanding highlights plant importance in global systems!`,
           id: 14,
           question: "What do plants absorb from soil?",
           options: [
+            "Air",
             "Nutrients",
-            "Only water",
             "Sunlight",
-            "Air"
+            "Only water"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Plants uptake mineral nutrients through roots."
         },
         {
           id: 15,
           question: "What releases nutrients through decomposition?",
           options: [
-            "Plant tissue breakdown",
+            "Transpiration",
             "Photosynthesis",
             "Respiration",
-            "Transpiration"
+            "Plant tissue breakdown"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Decomposers break down dead plant material."
         },
         {
@@ -1147,9 +1147,9 @@ Ecological understanding highlights plant importance in global systems!`,
           question: "What involves weathering and biological uptake?",
           options: [
             "Phosphorus cycle",
-            "Carbon cycle",
+            "Water cycle",
             "Nitrogen cycle",
-            "Water cycle"
+            "Carbon cycle"
           ],
           correctAnswer: 0,
           explanation: "Phosphorus cycles through geological and biological processes."
@@ -1159,8 +1159,8 @@ Ecological understanding highlights plant importance in global systems!`,
           question: "What involves transpiration and interception?",
           options: [
             "Water cycle",
-            "Carbon cycle",
             "Nitrogen cycle",
+            "Carbon cycle",
             "Phosphorus cycle"
           ],
           correctAnswer: 0,
@@ -1170,36 +1170,36 @@ Ecological understanding highlights plant importance in global systems!`,
           id: 18,
           question: "What explains community structure?",
           options: [
-            "Plant-plant interactions",
-            "Only soil type",
+            "Human management only",
             "Random chance",
-            "Human management only"
+            "Plant-plant interactions",
+            "Only soil type"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Interactions between plants shape community composition."
         },
         {
           id: 19,
           question: "What changes through successional processes?",
           options: [
+            "Climate patterns",
             "Plant communities",
             "Only soil chemistry",
-            "Climate patterns",
             "Animal behavior only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Succession involves predictable changes in plant communities."
         },
         {
           id: 20,
           question: "What drives essential nutrient cycles?",
           options: [
-            "Plants",
             "Only animals",
-            "Only microorganisms",
-            "Geological forces only"
+            "Geological forces only",
+            "Plants",
+            "Only microorganisms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Plants play central roles in nutrient cycling."
         }
       ]
@@ -1284,12 +1284,12 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           id: 2,
           question: "What is the law of segregation?",
           options: [
+            "Chromosomes duplicate before division",
             "Alleles separate during gamete formation",
-            "Genes assort independently",
             "Some alleles are dominant",
-            "Chromosomes duplicate before division"
+            "Genes assort independently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Each gamete receives one allele for each gene."
         },
         {
@@ -1297,9 +1297,9 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           question: "What is independent assortment?",
           options: [
             "Genes for different traits assort independently",
-            "Alleles separate during gamete formation",
             "Some traits are dominant",
-            "Chromosomes pair during meiosis"
+            "Chromosomes pair during meiosis",
+            "Alleles separate during gamete formation"
           ],
           correctAnswer: 0,
           explanation: "Inheritance of one trait doesn't affect inheritance of another."
@@ -1308,36 +1308,36 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           id: 4,
           question: "What does diploid (2n) mean?",
           options: [
-            "Two sets of chromosomes",
             "One set of chromosomes",
             "Multiple chromosome sets",
+            "Two sets of chromosomes",
             "Abnormal chromosome number"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Diploid organisms have two copies of each chromosome."
         },
         {
           id: 5,
           question: "What is polyploidy?",
           options: [
+            "Missing chromosomes",
             "Multiple chromosome sets",
-            "Two chromosome sets",
             "One chromosome set",
-            "Missing chromosomes"
+            "Two chromosome sets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Polyploidy is common in plants and can create new species."
         },
         {
           id: 6,
           question: "What is natural selection?",
           options: [
+            "Source of new variation",
             "Differential survival and reproduction",
             "Random allele frequency changes",
-            "Gene movement between populations",
-            "Source of new variation"
+            "Gene movement between populations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Traits enhancing survival/reproduction become more common."
         },
         {
@@ -1345,9 +1345,9 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           question: "What is genetic drift?",
           options: [
             "Random changes in allele frequencies",
-            "Differential survival",
             "Gene movement",
-            "New mutations"
+            "New mutations",
+            "Differential survival"
           ],
           correctAnswer: 0,
           explanation: "Drift causes random evolutionary changes, especially in small populations."
@@ -1356,60 +1356,60 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           id: 8,
           question: "What is gene flow?",
           options: [
+            "New mutations",
             "Movement of genes between populations",
             "Random allele changes",
-            "Differential survival",
-            "New mutations"
+            "Differential survival"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Gene flow connects populations genetically."
         },
         {
           id: 9,
           question: "What is mutation?",
           options: [
-            "Source of new genetic variation",
             "Random allele frequency changes",
             "Gene movement",
-            "Differential survival"
+            "Differential survival",
+            "Source of new genetic variation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mutations create new alleles."
         },
         {
           id: 10,
           question: "What is allopatric speciation?",
           options: [
-            "Geographic isolation leads to divergence",
-            "Reproductive isolation without separation",
+            "Gradual climate adaptation",
             "Instant chromosome doubling",
-            "Gradual climate adaptation"
+            "Geographic isolation leads to divergence",
+            "Reproductive isolation without separation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Physical separation prevents gene flow between populations."
         },
         {
           id: 11,
           question: "What is sympatric speciation?",
           options: [
-            "Reproductive isolation without geographic separation",
             "Geographic isolation leads to divergence",
+            "Migration to new areas",
             "Instant chromosome doubling",
-            "Migration to new areas"
+            "Reproductive isolation without geographic separation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Reproductive barriers evolve within a single population."
         },
         {
           id: 12,
           question: "What is polyploid speciation?",
           options: [
-            "Instant speciation through chromosome doubling",
             "Geographic isolation",
             "Reproductive isolation without separation",
+            "Instant speciation through chromosome doubling",
             "Gradual divergence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Chromosome doubling can create reproductively isolated plants immediately."
         },
         {
@@ -1417,9 +1417,9 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           question: "What enabled plant colonization of land?",
           options: [
             "Cuticle, stomata, vascular tissue",
+            "Seed development only",
             "Only chlorophyll development",
-            "Flower evolution",
-            "Seed development only"
+            "Flower evolution"
           ],
           correctAnswer: 0,
           explanation: "These adaptations solved challenges of terrestrial life."
@@ -1428,12 +1428,12 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           id: 14,
           question: "What provided protection and dispersal advantages?",
           options: [
-            "Seeds",
-            "Flowers",
             "Leaves",
-            "Roots"
+            "Flowers",
+            "Roots",
+            "Seeds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Seeds protect embryos and aid dispersal."
         },
         {
@@ -1441,8 +1441,8 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           question: "What enhanced reproductive efficiency?",
           options: [
             "Flowers",
-            "Seeds",
             "Leaves",
+            "Seeds",
             "Roots"
           ],
           correctAnswer: 0,
@@ -1452,60 +1452,60 @@ Genetic and evolutionary knowledge explains plant diversity and relationships!`,
           id: 16,
           question: "What explains inheritance patterns?",
           options: [
-            "Mendelian principles",
-            "Only environmental factors",
             "Random chance",
-            "Human selection only"
+            "Only environmental factors",
+            "Human selection only",
+            "Mendelian principles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mendel's laws describe basic inheritance mechanisms."
         },
         {
           id: 17,
           question: "What enables plant breeding?",
           options: [
-            "Chromosome behavior understanding",
+            "Climate patterns",
             "Only natural selection",
             "Random mutations",
-            "Climate patterns"
+            "Chromosome behavior understanding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Knowledge of genetics allows controlled breeding."
         },
         {
           id: 18,
           question: "What shapes plant diversity?",
           options: [
-            "Evolutionary mechanisms",
+            "Human gardening only",
             "Only soil chemistry",
-            "Random planting",
-            "Human gardening only"
+            "Evolutionary mechanisms",
+            "Random planting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Evolutionary processes generate and shape diversity."
         },
         {
           id: 19,
           question: "What shows progressive adaptations?",
           options: [
-            "Plant evolutionary history",
             "Only current distributions",
+            "Fossil locations only",
             "Garden designs",
-            "Fossil locations only"
+            "Plant evolutionary history"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The history of plants reveals adaptation milestones."
         },
         {
           id: 20,
           question: "What explains plant relationships?",
           options: [
-            "Evolutionary knowledge",
-            "Only flower colors",
             "Growth rates",
+            "Only flower colors",
+            "Evolutionary knowledge",
             "Leaf sizes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Evolutionary history explains how plants are related."
         }
       ]
@@ -1582,240 +1582,240 @@ Applying botanical knowledge benefits society and the environment!`,
           id: 1,
           question: "What improves crop production through breeding?",
           options: [
-            "Agricultural applications",
+            "Climate change",
             "Only natural selection",
             "Random planting",
-            "Climate change"
+            "Agricultural applications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Botanical knowledge guides crop improvement."
         },
         {
           id: 2,
           question: "What reduces pesticide use in agriculture?",
           options: [
+            "Crop rotation only",
             "Integrated pest management",
             "Only chemical spraying",
-            "Complete pest elimination",
-            "Crop rotation only"
+            "Complete pest elimination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IPM combines multiple approaches for pest control."
         },
         {
           id: 3,
           question: "What minimizes agricultural environmental impact?",
           options: [
-            "Sustainable agriculture",
-            "Only maximum production",
             "Chemical-intensive farming",
-            "Large monocultures only"
+            "Sustainable agriculture",
+            "Large monocultures only",
+            "Only maximum production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sustainable practices protect long-term productivity."
         },
         {
           id: 4,
           question: "What protects endangered plant species?",
           options: [
-            "Conservation applications",
+            "Random collection",
             "Only commercial cultivation",
-            "Habitat destruction",
-            "Random collection"
+            "Conservation applications",
+            "Habitat destruction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Botanical knowledge guides species protection."
         },
         {
           id: 5,
           question: "What re-establishes native plant communities?",
           options: [
-            "Habitat restoration",
-            "Only natural succession",
             "Planting non-natives",
-            "Soil removal"
+            "Habitat restoration",
+            "Soil removal",
+            "Only natural succession"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Restoration actively rebuilds degraded ecosystems."
         },
         {
           id: 6,
           question: "What manages non-native plants?",
           options: [
-            "Invasive species control",
+            "Planting more invasives",
             "Only promoting invasives",
             "Ignoring all plants",
-            "Planting more invasives"
+            "Invasive species control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Controlling invasives protects native biodiversity."
         },
         {
           id: 7,
           question: "What preserves genetic diversity?",
           options: [
-            "Seed banking",
-            "Only field collections",
             "Plant destruction",
+            "Only field collections",
+            "Seed banking",
             "Single variety planting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Seed banks safeguard plant genetic resources."
         },
         {
           id: 8,
           question: "What studies traditional plant uses?",
           options: [
-            "Ethnobotany",
+            "Genetic engineering",
             "Only laboratory analysis",
-            "Chemical synthesis",
-            "Genetic engineering"
+            "Ethnobotany",
+            "Chemical synthesis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ethnobotany documents cultural plant knowledge."
         },
         {
           id: 9,
           question: "What explores medicinal properties?",
           options: [
-            "Pharmacognosy",
+            "Climate studies",
             "Only plant identification",
             "Soil chemistry",
-            "Climate studies"
+            "Pharmacognosy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pharmacognosy studies drugs from natural sources."
         },
         {
           id: 10,
           question: "What documents plant distributions?",
           options: [
-            "Field surveys",
+            "Historical records only",
             "Only laboratory work",
-            "Computer modeling only",
-            "Historical records only"
+            "Field surveys",
+            "Computer modeling only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Field surveys provide distribution data."
         },
         {
           id: 11,
           question: "What uses preserved specimens?",
           options: [
-            "Herbarium studies",
             "Only live plants",
-            "Computer simulations",
-            "Oral histories only"
+            "Herbarium studies",
+            "Oral histories only",
+            "Computer simulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Herbaria provide permanent botanical records."
         },
         {
           id: 12,
           question: "What includes microscopy and chromatography?",
           options: [
-            "Laboratory techniques",
             "Only field observations",
             "Garden design",
+            "Laboratory techniques",
             "Public outreach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Laboratory methods analyze plant structure and chemistry."
         },
         {
           id: 13,
           question: "What studies plant responses experimentally?",
           options: [
+            "Random guessing",
             "Experimental design",
             "Only natural observation",
-            "Random guessing",
             "Historical comparison"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Controlled experiments test specific hypotheses."
         },
         {
           id: 14,
           question: "What career involves academic research?",
           options: [
-            "Research botanist",
-            "Only gardening",
+            "Retail plant sales",
             "Landscaping only",
-            "Retail plant sales"
+            "Research botanist",
+            "Only gardening"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Research botanists conduct scientific studies."
         },
         {
           id: 15,
           question: "What career manages protected areas?",
           options: [
-            "Conservation officer",
             "Only laboratory work",
             "Plant breeding only",
+            "Conservation officer",
             "Pharmaceutical sales"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Conservation officers protect natural areas."
         },
         {
           id: 16,
           question: "What guides crop improvement?",
           options: [
-            "Agricultural consultant",
-            "Only retail sales",
             "Garden design",
-            "Plant photography"
+            "Only retail sales",
+            "Plant photography",
+            "Agricultural consultant"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Agricultural consultants advise on crop management."
         },
         {
           id: 17,
           question: "What benefits society and environment?",
           options: [
-            "Applying botanical knowledge",
-            "Only theoretical study",
             "Ignoring plants",
-            "Destroying habitats"
+            "Applying botanical knowledge",
+            "Destroying habitats",
+            "Only theoretical study"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Practical applications create tangible benefits."
         },
         {
           id: 18,
           question: "What relies on botanical knowledge?",
           options: [
-            "Conservation efforts",
-            "Only construction",
+            "Automotive design",
             "Computer programming",
-            "Automotive design"
+            "Only construction",
+            "Conservation efforts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective conservation requires botanical understanding."
         },
         {
           id: 19,
           question: "What provides valuable medicines?",
           options: [
-            "Plants",
+            "Animal products only",
             "Only synthetic chemicals",
             "Minerals only",
-            "Animal products only"
+            "Plants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Many medicines originate from plants."
         },
         {
           id: 20,
           question: "What enables scientific discovery?",
           options: [
-            "Research methods",
             "Only guessing",
-            "Random observation",
-            "Traditional stories only"
+            "Research methods",
+            "Traditional stories only",
+            "Random observation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Systematic methods advance botanical science."
         }
       ]
@@ -1832,12 +1832,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 1,
         question: "What is the basic biological unit in plant classification?",
         options: [
-          "Species",
           "Genus",
+          "Species",
           "Family",
           "Order"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The species is the fundamental unit of biological classification.",
         module: 1
       },
@@ -1847,8 +1847,8 @@ Applying botanical knowledge benefits society and the environment!`,
         options: [
           "Carl Linnaeus",
           "Charles Darwin",
-          "Gregor Mendel",
-          "Robert Brown"
+          "Robert Brown",
+          "Gregor Mendel"
         ],
         correctAnswer: 0,
         explanation: "Linnaeus established the modern system of scientific naming.",
@@ -1858,12 +1858,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 3,
         question: "What does molecular systematics primarily use?",
         options: [
-          "DNA sequencing and analysis",
-          "Only leaf shape comparison",
           "Flower color patterns",
-          "Growth rate measurements"
+          "DNA sequencing and analysis",
+          "Growth rate measurements",
+          "Only leaf shape comparison"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Molecular data from DNA provides evidence for relationships.",
         module: 1
       },
@@ -1871,12 +1871,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 4,
         question: "What is the function of the root cap?",
         options: [
-          "Protecting the growing tip",
-          "Absorbing water",
           "Storing nutrients",
-          "Anchoring the plant"
+          "Anchoring the plant",
+          "Protecting the growing tip",
+          "Absorbing water"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The root cap protects delicate meristematic cells.",
         module: 2
       },
@@ -1884,12 +1884,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 5,
         question: "Where do root cells lengthen?",
         options: [
-          "Zone of elongation",
-          "Root cap area",
           "Maturation zone",
-          "Root hair region"
+          "Root hair region",
+          "Root cap area",
+          "Zone of elongation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Cell elongation occurs just behind the root tip.",
         module: 2
       },
@@ -1897,12 +1897,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 6,
         question: "What contains xylem and phloem in roots?",
         options: [
-          "Vascular cylinder",
-          "Root epidermis",
           "Root cap",
-          "Root hairs"
+          "Vascular cylinder",
+          "Root hairs",
+          "Root epidermis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The vascular cylinder contains transport tissues.",
         module: 2
       },
@@ -1910,12 +1910,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 7,
         question: "Where does photosynthesis occur in plant cells?",
         options: [
-          "Chloroplasts",
-          "Mitochondria",
           "Nucleus",
-          "Vacuole"
+          "Mitochondria",
+          "Vacuole",
+          "Chloroplasts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Chloroplasts contain chlorophyll and photosynthetic machinery.",
         module: 3
       },
@@ -1923,12 +1923,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 8,
         question: "What do light reactions produce?",
         options: [
-          "ATP and NADPH",
           "Glucose directly",
           "Only oxygen",
+          "ATP and NADPH",
           "Carbon dioxide"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Light reactions convert light energy to chemical carriers.",
         module: 3
       },
@@ -1936,12 +1936,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 9,
         question: "What hormone promotes cell elongation?",
         options: [
+          "Abscisic acid",
           "Auxins",
           "Gibberellins",
-          "Cytokinins",
-          "Abscisic acid"
+          "Cytokinins"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Auxins stimulate cell elongation in stems.",
         module: 3
       },
@@ -1949,12 +1949,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 10,
         question: "What begins on bare substrates like rock?",
         options: [
-          "Primary succession",
           "Secondary succession",
-          "Climax community",
-          "Disturbance regime"
+          "Primary succession",
+          "Disturbance regime",
+          "Climax community"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Primary succession starts where no soil exists.",
         module: 4
       },
@@ -1962,12 +1962,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 11,
         question: "What are first colonizers in succession called?",
         options: [
-          "Pioneer species",
           "Climax species",
-          "Intermediate species",
-          "Dominant species"
+          "Pioneer species",
+          "Dominant species",
+          "Intermediate species"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Pioneer species are adapted to colonize harsh conditions.",
         module: 4
       },
@@ -1976,8 +1976,8 @@ Applying botanical knowledge benefits society and the environment!`,
         question: "What interaction benefits both plants?",
         options: [
           "Mutualism",
-          "Competition",
           "Commensalism",
+          "Competition",
           "Parasitism"
         ],
         correctAnswer: 0,
@@ -1988,12 +1988,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 13,
         question: "Who established fundamental inheritance principles with peas?",
         options: [
-          "Gregor Mendel",
           "Charles Darwin",
+          "Gregor Mendel",
           "Carl Linnaeus",
           "Barbara McClintock"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Mendel's pea plant experiments revealed basic genetic laws.",
         module: 5
       },
@@ -2001,12 +2001,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 14,
         question: "What is the law of segregation?",
         options: [
-          "Alleles separate during gamete formation",
           "Genes assort independently",
           "Some alleles are dominant",
+          "Alleles separate during gamete formation",
           "Chromosomes duplicate before division"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Each gamete receives one allele for each gene.",
         module: 5
       },
@@ -2014,12 +2014,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 15,
         question: "What is natural selection?",
         options: [
-          "Differential survival and reproduction",
-          "Random allele frequency changes",
           "Gene movement between populations",
-          "Source of new variation"
+          "Source of new variation",
+          "Differential survival and reproduction",
+          "Random allele frequency changes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Traits enhancing survival/reproduction become more common.",
         module: 5
       },
@@ -2027,12 +2027,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 16,
         question: "What improves crop production through breeding?",
         options: [
-          "Agricultural applications",
-          "Only natural selection",
+          "Climate change",
           "Random planting",
-          "Climate change"
+          "Only natural selection",
+          "Agricultural applications"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Botanical knowledge guides crop improvement.",
         module: 6
       },
@@ -2041,9 +2041,9 @@ Applying botanical knowledge benefits society and the environment!`,
         question: "What reduces pesticide use in agriculture?",
         options: [
           "Integrated pest management",
-          "Only chemical spraying",
           "Complete pest elimination",
-          "Crop rotation only"
+          "Crop rotation only",
+          "Only chemical spraying"
         ],
         correctAnswer: 0,
         explanation: "IPM combines multiple approaches for pest control.",
@@ -2055,8 +2055,8 @@ Applying botanical knowledge benefits society and the environment!`,
         options: [
           "Conservation applications",
           "Only commercial cultivation",
-          "Habitat destruction",
-          "Random collection"
+          "Random collection",
+          "Habitat destruction"
         ],
         correctAnswer: 0,
         explanation: "Botanical knowledge guides species protection.",
@@ -2066,12 +2066,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 19,
         question: "How should scientific names be formatted when printed?",
         options: [
-          "Italicized with genus capitalized",
-          "Always in bold capital letters",
+          "Regular font with both words capitalized",
           "Underlined with no capitalization",
-          "Regular font with both words capitalized"
+          "Always in bold capital letters",
+          "Italicized with genus capitalized"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Italicization and proper capitalization are standard conventions.",
         module: 1
       },
@@ -2079,12 +2079,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 20,
         question: "What indicates who first published a plant name?",
         options: [
-          "Author citation",
+          "Publication date",
           "Type specimen location",
-          "Herbarium code",
-          "Publication date"
+          "Author citation",
+          "Herbarium code"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Author citations credit the original publishing botanist.",
         module: 1
       },
@@ -2093,9 +2093,9 @@ Applying botanical knowledge benefits society and the environment!`,
         question: "What increases surface area for water absorption?",
         options: [
           "Root hairs",
-          "Root cap",
+          "Cortex tissue",
           "Vascular cylinder",
-          "Cortex tissue"
+          "Root cap"
         ],
         correctAnswer: 0,
         explanation: "Root hairs dramatically increase absorptive surface area.",
@@ -2105,12 +2105,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 22,
         question: "What is the waxy waterproof layer on leaves?",
         options: [
-          "Cuticle",
-          "Epidermis",
           "Mesophyll",
-          "Stomata"
+          "Stomata",
+          "Epidermis",
+          "Cuticle"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The cuticle prevents excessive water loss.",
         module: 2
       },
@@ -2119,9 +2119,9 @@ Applying botanical knowledge benefits society and the environment!`,
         question: "What uses ATP and NADPH to make sugars?",
         options: [
           "Calvin cycle",
-          "Light reactions",
+          "Krebs cycle",
           "Glycolysis",
-          "Krebs cycle"
+          "Light reactions"
         ],
         correctAnswer: 0,
         explanation: "The Calvin cycle fixes carbon using energy from light reactions.",
@@ -2131,12 +2131,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 24,
         question: "What stimulates stem elongation and germination?",
         options: [
-          "Gibberellins",
-          "Auxins",
           "Cytokinins",
-          "Ethylene"
+          "Gibberellins",
+          "Ethylene",
+          "Auxins"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Gibberellins promote stem growth and break seed dormancy.",
         module: 3
       },
@@ -2144,12 +2144,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 25,
         question: "What occurs after disturbance in existing ecosystems?",
         options: [
-          "Secondary succession",
+          "Complete destruction",
           "Primary succession",
           "Climax stability",
-          "Complete destruction"
+          "Secondary succession"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Secondary succession rebuilds communities after disturbances.",
         module: 4
       },
@@ -2157,12 +2157,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 26,
         question: "What is a provisioning ecosystem service?",
         options: [
-          "Food production",
           "Climate regulation",
-          "Soil formation",
-          "Aesthetic value"
+          "Food production",
+          "Aesthetic value",
+          "Soil formation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Provisioning services provide material benefits.",
         module: 4
       },
@@ -2170,12 +2170,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 27,
         question: "What is diploid (2n)?",
         options: [
-          "Two sets of chromosomes",
-          "One set of chromosomes",
           "Multiple chromosome sets",
-          "Abnormal chromosome number"
+          "Abnormal chromosome number",
+          "Two sets of chromosomes",
+          "One set of chromosomes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Diploid organisms have two copies of each chromosome.",
         module: 5
       },
@@ -2183,12 +2183,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 28,
         question: "What is allopatric speciation?",
         options: [
+          "Gradual climate adaptation",
           "Geographic isolation leads to divergence",
-          "Reproductive isolation without separation",
           "Instant chromosome doubling",
-          "Gradual climate adaptation"
+          "Reproductive isolation without separation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Physical separation prevents gene flow between populations.",
         module: 5
       },
@@ -2196,12 +2196,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 29,
         question: "What re-establishes native plant communities?",
         options: [
+          "Soil removal",
           "Habitat restoration",
-          "Only natural succession",
           "Planting non-natives",
-          "Soil removal"
+          "Only natural succession"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Restoration actively rebuilds degraded ecosystems.",
         module: 6
       },
@@ -2209,12 +2209,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 30,
         question: "What studies traditional plant uses?",
         options: [
-          "Ethnobotany",
+          "Genetic engineering",
           "Only laboratory analysis",
-          "Chemical synthesis",
-          "Genetic engineering"
+          "Ethnobotany",
+          "Chemical synthesis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Ethnobotany documents cultural plant knowledge.",
         module: 6
       },
@@ -2222,12 +2222,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 31,
         question: "What do modern taxonomists use besides morphology?",
         options: [
-          "Genetic data and evolutionary relationships",
           "Only common names",
-          "Garden popularity",
-          "Historical records only"
+          "Genetic data and evolutionary relationships",
+          "Historical records only",
+          "Garden popularity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Multiple evidence types provide more accurate classifications.",
         module: 1
       },
@@ -2235,12 +2235,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 32,
         question: "What are the male reproductive parts of flowers?",
         options: [
-          "Stamens",
           "Carpels",
           "Petals",
+          "Stamens",
           "Sepals"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Stamens produce pollen.",
         module: 2
       },
@@ -2261,12 +2261,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 34,
         question: "What is chemical inhibition of neighbors called?",
         options: [
-          "Allelopathy",
+          "Commensalism",
           "Mutualism",
           "Competition",
-          "Commensalism"
+          "Allelopathy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Allelopathic plants release chemicals that suppress competitors.",
         module: 4
       },
@@ -2276,8 +2276,8 @@ Applying botanical knowledge benefits society and the environment!`,
         options: [
           "Multiple chromosome sets",
           "Two chromosome sets",
-          "One chromosome set",
-          "Missing chromosomes"
+          "Missing chromosomes",
+          "One chromosome set"
         ],
         correctAnswer: 0,
         explanation: "Polyploidy is common in plants and can create new species.",
@@ -2287,12 +2287,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 36,
         question: "What preserves genetic diversity?",
         options: [
-          "Seed banking",
           "Only field collections",
+          "Single variety planting",
           "Plant destruction",
-          "Single variety planting"
+          "Seed banking"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Seed banks safeguard plant genetic resources.",
         module: 6
       },
@@ -2301,9 +2301,9 @@ Applying botanical knowledge benefits society and the environment!`,
         question: "What provides universal understanding across languages?",
         options: [
           "Scientific names",
-          "Common names",
+          "Trade names",
           "Local names",
-          "Trade names"
+          "Common names"
         ],
         correctAnswer: 0,
         explanation: "Scientific names are standardized internationally.",
@@ -2326,12 +2326,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 39,
         question: "What coordinates plant growth and responses?",
         options: [
-          "Hormones",
-          "Only environmental cues",
           "Random processes",
-          "Human intervention"
+          "Hormones",
+          "Human intervention",
+          "Only environmental cues"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Hormones are chemical messengers that regulate plant processes.",
         module: 3
       },
@@ -2339,12 +2339,12 @@ Applying botanical knowledge benefits society and the environment!`,
         id: 40,
         question: "What benefits society and environment?",
         options: [
-          "Applying botanical knowledge",
+          "Destroying habitats",
           "Only theoretical study",
-          "Ignoring plants",
-          "Destroying habitats"
+          "Applying botanical knowledge",
+          "Ignoring plants"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Practical applications create tangible benefits.",
         module: 6
       }

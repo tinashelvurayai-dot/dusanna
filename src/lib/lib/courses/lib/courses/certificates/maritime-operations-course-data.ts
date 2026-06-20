@@ -95,12 +95,12 @@ Advanced voyage planning ensures safe, efficient, and compliant maritime operati
           id: 1,
           question: "What are the four pillars of advanced voyage planning?",
           options: [
-            "Route Optimization, Weather Routing, Regulatory Compliance, Contingency Development",
             "Navigation, Communication, Maintenance, Administration",
+            "Route Optimization, Weather Routing, Regulatory Compliance, Contingency Development",
             "Safety, Speed, Cost, Comfort",
             "Planning, Executing, Monitoring, Reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The four pillars are Strategic Route Optimization, Dynamic Weather Routing, Regulatory Compliance Planning, and Contingency Development."
         },
         {
@@ -108,9 +108,9 @@ Advanced voyage planning ensures safe, efficient, and compliant maritime operati
           question: "What does ECDIS stand for?",
           options: [
             "Electronic Chart Display and Information System",
-            "Electronic Course Display and Information System",
             "Emergency Chart Display and Information System",
-            "Electronic Chart Data and Information System"
+            "Electronic Chart Data and Information System",
+            "Electronic Course Display and Information System"
           ],
           correctAnswer: 0,
           explanation: "ECDIS stands for Electronic Chart Display and Information System, mandatory for most commercial vessels."
@@ -119,36 +119,36 @@ Advanced voyage planning ensures safe, efficient, and compliant maritime operati
           id: 3,
           question: "What provides global weather coverage with high accuracy?",
           options: [
-            "Satellite Weather Services",
-            "Local radio forecasts",
             "Newspaper weather reports",
-            "Crew observations only"
+            "Local radio forecasts",
+            "Crew observations only",
+            "Satellite Weather Services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Satellite Weather Services provide global coverage with high accuracy for professional routing."
         },
         {
           id: 4,
           question: "What are organized traffic flow systems in busy waterways?",
           options: [
-            "Traffic Separation Schemes (TSS)",
             "Random navigation patterns",
-            "Free sailing areas",
-            "Military exercise zones"
+            "Military exercise zones",
+            "Traffic Separation Schemes (TSS)",
+            "Free sailing areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Traffic Separation Schemes (TSS) organize traffic flow in busy waterways."
         },
         {
           id: 5,
           question: "What continuously records navigation data?",
           options: [
-            "Voyage Data Recorders",
-            "Engine logbooks",
+            "Passenger diaries",
             "Crew notebooks",
-            "Passenger diaries"
+            "Voyage Data Recorders",
+            "Engine logbooks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Voyage Data Recorders continuously record navigation data for safety analysis."
         },
         {
@@ -156,9 +156,9 @@ Advanced voyage planning ensures safe, efficient, and compliant maritime operati
           question: "What type of systems combine radar, GPS, AIS, and communications?",
           options: [
             "Integrated Bridge Systems",
-            "Separate standalone systems",
+            "Paper chart systems",
             "Manual navigation tools",
-            "Paper chart systems"
+            "Separate standalone systems"
           ],
           correctAnswer: 0,
           explanation: "Integrated Bridge Systems combine multiple navigation and communication systems."
@@ -167,168 +167,168 @@ Advanced voyage planning ensures safe, efficient, and compliant maritime operati
           id: 7,
           question: "What maintains precise vessel position without anchoring?",
           options: [
+            "Mooring lines",
             "Dynamic Positioning Systems",
             "Traditional anchoring",
-            "Mooring lines",
             "Drifting with currents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Dynamic Positioning Systems maintain precise position without anchoring."
         },
         {
           id: 8,
           question: "What provides professional routing advice?",
           options: [
-            "Weather Routing Companies",
             "Port cafés",
+            "Tourist information",
             "Local fishermen",
-            "Tourist information"
+            "Weather Routing Companies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Weather Routing Companies provide professional weather routing advice."
         },
         {
           id: 9,
           question: "What are environmental protection zones?",
           options: [
-            "Particularly Sensitive Sea Areas (PSSAs)",
-            "Free fishing zones",
             "Deep water areas",
+            "Free fishing zones",
+            "Particularly Sensitive Sea Areas (PSSAs)",
             "International waters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Particularly Sensitive Sea Areas (PSSAs) are environmental protection zones."
         },
         {
           id: 10,
           question: "What documentation identifies hazards and mitigation strategies?",
           options: [
-            "Risk Assessment",
-            "Menu planning",
             "Entertainment schedule",
-            "Crew rotation plan"
+            "Crew rotation plan",
+            "Menu planning",
+            "Risk Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk Assessment documentation identifies hazards and mitigation strategies."
         },
         {
           id: 11,
           question: "What must all navigation systems share?",
           options: [
+            "Independent databases",
             "Common reference points",
             "Different time zones",
-            "Separate power sources",
-            "Independent databases"
+            "Separate power sources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "All navigation systems must share common reference points for integration."
         },
         {
           id: 12,
           question: "What considers currents for fuel efficiency?",
           options: [
-            "Routing decision factors",
-            "Entertainment planning",
+            "Menu preparation",
             "Crew scheduling",
-            "Menu preparation"
+            "Routing decision factors",
+            "Entertainment planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Current utilization for fuel efficiency is a routing decision factor."
         },
         {
           id: 13,
           question: "What requires vessel tracking?",
           options: [
-            "Mandatory Reporting Systems",
-            "Social media updates",
+            "Radio entertainment",
             "Newspaper reports",
-            "Radio entertainment"
+            "Mandatory Reporting Systems",
+            "Social media updates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Mandatory Reporting Systems require vessel tracking in specific areas."
         },
         {
           id: 14,
           question: "What needs regular updates and integrity checks?",
           options: [
-            "Navigation systems",
-            "Crew uniforms",
             "Guest amenities",
-            "Menu items"
+            "Crew uniforms",
+            "Menu items",
+            "Navigation systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Navigation systems need regular updates and integrity checks."
         },
         {
           id: 15,
           question: "What is needed for digital navigation security?",
           options: [
-            "Cybersecurity measures",
+            "No security needed",
             "Physical locks",
             "Paper backups only",
-            "No security needed"
+            "Cybersecurity measures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cybersecurity measures protect digital navigation systems."
         },
         {
           id: 16,
           question: "What monitors ice zones?",
           options: [
-            "Routing decision factors",
             "Entertainment systems",
             "Kitchen equipment",
+            "Routing decision factors",
             "Cleaning schedules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ice zone monitoring is a routing decision factor."
         },
         {
           id: 17,
           question: "What are designated passage routes through island groups?",
           options: [
-            "Archipelagic Sea Lanes",
-            "Random sailing routes",
             "Fishing grounds",
-            "Military zones"
+            "Military zones",
+            "Random sailing routes",
+            "Archipelagic Sea Lanes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Archipelagic Sea Lanes are designated passage routes through island groups."
         },
         {
           id: 18,
           question: "What documentation shows planned weather responses?",
           options: [
+            "Inventory sheets",
             "Weather Strategy",
-            "Guest list",
             "Crew certificates",
-            "Inventory sheets"
+            "Guest list"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Weather Strategy documents planned responses to forecast conditions."
         },
         {
           id: 19,
           question: "What requires VTS communications?",
           options: [
-            "Transit requirements",
-            "Social conversations",
             "Entertainment shows",
-            "Crew meetings"
+            "Transit requirements",
+            "Crew meetings",
+            "Social conversations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vessel Traffic Service (VTS) communications are required in specific areas."
         },
         {
           id: 20,
           question: "What planning considers swell and wave height?",
           options: [
-            "Routing decision factors",
-            "Menu planning",
             "Entertainment selection",
-            "Crew training"
+            "Crew training",
+            "Routing decision factors",
+            "Menu planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Swell and wave height considerations for cargo safety are routing decision factors."
         }
       ]
@@ -446,24 +446,24 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           id: 1,
           question: "What are the five key port operation areas?",
           options: [
-            "Port Entry, Cargo Operations, Service Coordination, Documentation, Departure",
+            "Design, Construction, Testing, Certification, Delivery",
             "Cleaning, Cooking, Maintenance, Navigation, Entertainment",
-            "Sales, Marketing, Finance, HR, Operations",
-            "Design, Construction, Testing, Certification, Delivery"
+            "Port Entry, Cargo Operations, Service Coordination, Documentation, Departure",
+            "Sales, Marketing, Finance, HR, Operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The five key areas are Port Entry Procedures, Cargo Operations Management, Port Service Coordination, Documentation and Administration, and Departure Procedures."
         },
         {
           id: 2,
           question: "What does ETA stand for in port operations?",
           options: [
-            "Estimated Time of Arrival",
-            "Exact Time of Arrival",
             "Expected Time of Arrival",
+            "Exact Time of Arrival",
+            "Estimated Time of Arrival",
             "Estimated Time of Approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ETA stands for Estimated Time of Arrival for advance port notification."
         },
         {
@@ -483,9 +483,9 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           question: "What does ISPS Code regulate?",
           options: [
             "Port and ship security",
+            "Crew entertainment",
             "Cargo loading",
-            "Fuel efficiency",
-            "Crew entertainment"
+            "Fuel efficiency"
           ],
           correctAnswer: 0,
           explanation: "ISPS Code regulates International Ship and Port Facility Security."
@@ -494,24 +494,24 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           id: 5,
           question: "What confirms all port operations are complete?",
           options: [
+            "Cargo manifest",
             "All Fast Certificate",
             "Port entry form",
-            "Cargo manifest",
             "Crew list"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "All Fast Certificate confirms completion of all port operations."
         },
         {
           id: 6,
           question: "What must match port security level?",
           options: [
-            "Ship Security Level",
             "Crew uniform colors",
             "Vessel speed",
-            "Cargo type"
+            "Cargo type",
+            "Ship Security Level"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ship Security Level must match the port facility security level."
         },
         {
@@ -519,9 +519,9 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           question: "What coordinates with loading teams?",
           options: [
             "Stevedore Management",
+            "Engine room work",
             "Guest services",
-            "Bridge operations",
-            "Engine room work"
+            "Bridge operations"
           ],
           correctAnswer: 0,
           explanation: "Stevedore Management coordinates with cargo loading teams."
@@ -530,36 +530,36 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           id: 8,
           question: "What provides fuel and lubricant supply?",
           options: [
+            "Technical Services",
             "Bunkering Services",
-            "Provisioning Services",
             "Waste Management",
-            "Technical Services"
+            "Provisioning Services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bunkering Services provide fuel and lubricant supply."
         },
         {
           id: 9,
           question: "What document gives official departure permission?",
           options: [
-            "Port Clearance Document",
             "Cargo manifest",
-            "Crew certificates",
-            "Weather report"
+            "Weather report",
+            "Port Clearance Document",
+            "Crew certificates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Port Clearance Document gives official permission to depart."
         },
         {
           id: 10,
           question: "What requires special handling procedures?",
           options: [
-            "Dangerous Goods",
-            "Regular cargo",
             "Empty containers",
-            "Passenger luggage"
+            "Regular cargo",
+            "Passenger luggage",
+            "Dangerous Goods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Dangerous Goods require special handling and documentation."
         },
         {
@@ -579,9 +579,9 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           question: "What includes CCTV and monitoring?",
           options: [
             "Surveillance Systems",
-            "Entertainment systems",
             "Navigation equipment",
-            "Communication devices"
+            "Communication devices",
+            "Entertainment systems"
           ],
           correctAnswer: 0,
           explanation: "Surveillance Systems include CCTV and monitoring for security."
@@ -590,12 +590,12 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           id: 13,
           question: "What coordinates crane scheduling?",
           options: [
-            "Equipment Planning",
+            "Crew training",
             "Menu planning",
-            "Entertainment schedule",
-            "Crew training"
+            "Equipment Planning",
+            "Entertainment schedule"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Equipment Planning coordinates crane and handling equipment scheduling."
         },
         {
@@ -614,12 +614,12 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           id: 15,
           question: "What records service provider work?",
           options: [
-            "Time Sheets",
-            "Guest comments",
+            "Navigation charts",
             "Weather logs",
-            "Navigation charts"
+            "Time Sheets",
+            "Guest comments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Time Sheets record service provider work hours and activities."
         },
         {
@@ -627,9 +627,9 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           question: "What assists with vessel maneuvering?",
           options: [
             "Tug Assistance",
-            "Pilotage only",
             "Crew effort alone",
-            "Wind power"
+            "Wind power",
+            "Pilotage only"
           ],
           correctAnswer: 0,
           explanation: "Tug Assistance helps with maneuvering in confined port spaces."
@@ -638,48 +638,48 @@ Effective port operations management reduces turnaround time, lowers costs, and 
           id: 17,
           question: "What monitors cargo condition?",
           options: [
-            "Quality Control",
             "Entertainment quality",
+            "Quality Control",
             "Food quality",
             "Crew performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Quality Control monitors cargo condition during operations."
         },
         {
           id: 18,
           question: "What is required for hazardous cargo?",
           options: [
-            "Special requirements",
-            "Normal handling",
             "No documentation",
+            "Normal handling",
+            "Special requirements",
             "Quick loading only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dangerous Goods require special handling requirements."
         },
         {
           id: 19,
           question: "What handles garbage disposal?",
           options: [
-            "Waste Management",
             "Provisioning Services",
-            "Bunkering Services",
-            "Technical Services"
+            "Technical Services",
+            "Waste Management",
+            "Bunkering Services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Waste Management handles garbage and waste disposal."
         },
         {
           id: 20,
           question: "What is notification when clear of port?",
           options: [
-            "Port Limits Reporting",
-            "ETA notification",
             "Service request",
+            "ETA notification",
+            "Port Limits Reporting",
             "Weather report"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Port Limits Reporting notifies when vessel is clear of port limits."
         }
       ]
@@ -816,9 +816,9 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           question: "What are the four regulatory compliance domains?",
           options: [
             "IMO Regulations, Flag State, Port State Control, Classification Society",
-            "Safety, Navigation, Communication, Maintenance",
             "Crew, Cargo, Vessel, Environment",
-            "Planning, Execution, Monitoring, Reporting"
+            "Planning, Execution, Monitoring, Reporting",
+            "Safety, Navigation, Communication, Maintenance"
           ],
           correctAnswer: 0,
           explanation: "The four domains are IMO Regulations, Flag State Requirements, Port State Control, and Classification Society Rules."
@@ -827,12 +827,12 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           id: 2,
           question: "Which SOLAS chapter covers fire protection?",
           options: [
-            "Chapter II-2",
+            "Chapter XI",
             "Chapter III",
-            "Chapter V",
-            "Chapter XI"
+            "Chapter II-2",
+            "Chapter V"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SOLAS Chapter II-2 covers fire protection, detection, and extinction."
         },
         {
@@ -840,9 +840,9 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           question: "Which MARPOL annex covers air pollution?",
           options: [
             "Annex VI",
-            "Annex I",
             "Annex IV",
-            "Annex V"
+            "Annex V",
+            "Annex I"
           ],
           correctAnswer: 0,
           explanation: "MARPOL Annex VI covers prevention of air pollution from ships."
@@ -851,72 +851,72 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           id: 4,
           question: "What proves vessel nationality?",
           options: [
-            "Certificate of Registry",
             "Tonnage Certificate",
+            "Crew list",
             "Safety Certificate",
-            "Crew list"
+            "Certificate of Registry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Certificate of Registry proves vessel nationality and ownership."
         },
         {
           id: 5,
           question: "Which PSC regime covers Asia-Pacific?",
           options: [
-            "Tokyo MoU",
+            "Caribbean MoU",
             "Paris MoU",
-            "US Coast Guard",
-            "Caribbean MoU"
+            "Tokyo MoU",
+            "US Coast Guard"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Tokyo MoU covers Asia-Pacific region port state control."
         },
         {
           id: 6,
           question: "What does STCW stand for?",
           options: [
-            "Standards of Training, Certification and Watchkeeping",
+            "Ship Training and Certification Worldwide",
             "Safety Training for Crew Watch",
             "Standards for Technical Crew Work",
-            "Ship Training and Certification Worldwide"
+            "Standards of Training, Certification and Watchkeeping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "STCW stands for Standards of Training, Certification and Watchkeeping."
         },
         {
           id: 7,
           question: "What covers crew working conditions?",
           options: [
-            "MLC Convention",
-            "SOLAS Convention",
             "MARPOL Convention",
-            "BWM Convention"
+            "BWM Convention",
+            "SOLAS Convention",
+            "MLC Convention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MLC (Maritime Labour Convention) covers crew working and living conditions."
         },
         {
           id: 8,
           question: "Which classification society is LR?",
           options: [
-            "Lloyd's Register",
             "Lloyd's of London",
             "Lloyd's Bank",
+            "Lloyd's Register",
             "Lloyd's Insurance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "LR stands for Lloyd's Register classification society."
         },
         {
           id: 9,
           question: "What happens for serious deficiencies?",
           options: [
-            "Port State Detention",
-            "Small fine only",
             "Warning only",
-            "No action"
+            "Small fine only",
+            "No action",
+            "Port State Detention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Port State Detention occurs for serious safety or pollution deficiencies."
         },
         {
@@ -925,8 +925,8 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           options: [
             "Annex V",
             "Annex I",
-            "Annex III",
-            "Annex VI"
+            "Annex VI",
+            "Annex III"
           ],
           correctAnswer: 0,
           explanation: "MARPOL Annex V covers prevention of pollution by garbage."
@@ -935,60 +935,60 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           id: 11,
           question: "What covers ballast water management?",
           options: [
-            "BWM Convention",
-            "SOLAS Convention",
             "MARPOL Convention",
-            "STCW Convention"
+            "STCW Convention",
+            "BWM Convention",
+            "SOLAS Convention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BWM Convention covers Ballast Water Management."
         },
         {
           id: 12,
           question: "What shows required crew complement?",
           options: [
-            "Minimum Safe Manning Certificate",
-            "Crew list",
             "Passenger manifest",
-            "Training records"
+            "Minimum Safe Manning Certificate",
+            "Training records",
+            "Crew list"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Minimum Safe Manning Certificate shows required crew complement."
         },
         {
           id: 13,
           question: "Which PSC regime covers Europe?",
           options: [
-            "Paris MoU",
-            "Tokyo MoU",
+            "Mediterranean MoU",
             "US Coast Guard",
-            "Mediterranean MoU"
+            "Paris MoU",
+            "Tokyo MoU"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Paris MoU covers European and North Atlantic region."
         },
         {
           id: 14,
           question: "What does ABS stand for?",
           options: [
+            "Atlantic Bureau of Shipping",
             "American Bureau of Shipping",
             "American Boat Standards",
-            "Atlantic Bureau of Shipping",
             "American Building Standards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ABS stands for American Bureau of Shipping classification society."
         },
         {
           id: 15,
           question: "What records oil transfers?",
           options: [
-            "Oil Record Book",
             "Garbage Record Book",
+            "Oil Record Book",
             "Ballast Water Record Book",
             "Engine logbook"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Oil Record Book records oil transfer and disposal operations."
         },
         {
@@ -996,9 +996,9 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           question: "Which SOLAS chapter covers navigation safety?",
           options: [
             "Chapter V",
+            "Chapter XI",
             "Chapter II-1",
-            "Chapter III",
-            "Chapter XI"
+            "Chapter III"
           ],
           correctAnswer: 0,
           explanation: "SOLAS Chapter V covers safety of navigation."
@@ -1007,24 +1007,24 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           id: 17,
           question: "What covers anti-fouling systems?",
           options: [
-            "Anti-fouling Systems Convention",
-            "MARPOL Convention",
+            "BWM Convention",
             "SOLAS Convention",
-            "BWM Convention"
+            "Anti-fouling Systems Convention",
+            "MARPOL Convention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Anti-fouling Systems Convention regulates hull coatings."
         },
         {
           id: 18,
           question: "What is vessel history document?",
           options: [
-            "Continuous Synopsis Record (CSR)",
-            "Certificate of Registry",
             "Tonnage Certificate",
+            "Certificate of Registry",
+            "Continuous Synopsis Record (CSR)",
             "Safety Certificate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuous Synopsis Record (CSR) documents vessel history."
         },
         {
@@ -1033,8 +1033,8 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           options: [
             "Bureau Veritas",
             "British Vessels",
-            "Bureau of Vessels",
-            "Boat Verification"
+            "Boat Verification",
+            "Bureau of Vessels"
           ],
           correctAnswer: 0,
           explanation: "BV stands for Bureau Veritas classification society."
@@ -1043,12 +1043,12 @@ Effective regulatory compliance management prevents detentions, reduces insuranc
           id: 20,
           question: "Which MARPOL annex covers sewage?",
           options: [
-            "Annex IV",
             "Annex I",
-            "Annex III",
-            "Annex V"
+            "Annex IV",
+            "Annex V",
+            "Annex III"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MARPOL Annex IV covers prevention of pollution by sewage."
         }
       ]
@@ -1198,12 +1198,12 @@ Effective safety management systems reduce accidents, improve operational effici
           id: 1,
           question: "What are the four pillars of safety management?",
           options: [
-            "Safety Policy, Risk Management, Emergency Preparedness, Continuous Improvement",
+            "Navigation, Communication, Maintenance, Administration",
             "Planning, Execution, Monitoring, Reporting",
             "Crew, Equipment, Procedures, Documentation",
-            "Navigation, Communication, Maintenance, Administration"
+            "Safety Policy, Risk Management, Emergency Preparedness, Continuous Improvement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The four pillars are Safety Policy Development, Risk Management Implementation, Emergency Preparedness, and Continuous Improvement."
         },
         {
@@ -1211,9 +1211,9 @@ Effective safety management systems reduce accidents, improve operational effici
           question: "What does ISM stand for?",
           options: [
             "International Safety Management",
-            "International Ship Management",
+            "International Security Management",
             "Integrated Safety Management",
-            "International Security Management"
+            "International Ship Management"
           ],
           correctAnswer: 0,
           explanation: "ISM stands for International Safety Management Code."
@@ -1222,72 +1222,72 @@ Effective safety management systems reduce accidents, improve operational effici
           id: 3,
           question: "What proves company compliance with ISM?",
           options: [
-            "Document of Compliance (DOC)",
-            "Safety Management Certificate (SMC)",
             "Safety Management Manual",
-            "Certificate of Registry"
+            "Safety Management Certificate (SMC)",
+            "Certificate of Registry",
+            "Document of Compliance (DOC)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Document of Compliance (DOC) proves company compliance with ISM Code."
         },
         {
           id: 4,
           question: "What is systematic hazard identification?",
           options: [
-            "Risk Assessment",
             "Emergency planning",
-            "Drill execution",
-            "Audit preparation"
+            "Audit preparation",
+            "Risk Assessment",
+            "Drill execution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk Assessment includes systematic hazard identification."
         },
         {
           id: 5,
           question: "What provides shore-based safety oversight?",
           options: [
-            "Designated Person Ashore (DPA)",
-            "Company manager",
             "Insurance surveyor",
-            "Port authority"
+            "Designated Person Ashore (DPA)",
+            "Port authority",
+            "Company manager"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Designated Person Ashore (DPA) provides shore-based safety oversight."
         },
         {
           id: 6,
           question: "How often are monthly drills required?",
           options: [
-            "Monthly",
+            "Annually",
             "Weekly",
             "Quarterly",
-            "Annually"
+            "Monthly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Monthly drills are required by SOLAS regulations."
         },
         {
           id: 7,
           question: "What evaluates likelihood and consequences?",
           options: [
+            "Audit process",
             "Risk Analysis",
-            "Emergency response",
             "Drill evaluation",
-            "Audit process"
+            "Emergency response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk Analysis evaluates likelihood and consequences of hazards."
         },
         {
           id: 8,
           question: "What shows management commitment?",
           options: [
-            "Company Safety Policy",
-            "Crew list",
             "Maintenance records",
-            "Navigation charts"
+            "Navigation charts",
+            "Company Safety Policy",
+            "Crew list"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Company Safety Policy demonstrates management commitment to safety."
         },
         {
@@ -1295,9 +1295,9 @@ Effective safety management systems reduce accidents, improve operational effici
           question: "What identifies underlying causes?",
           options: [
             "Root Cause Analysis",
-            "Immediate reporting",
             "Evidence collection",
-            "Timeline development"
+            "Timeline development",
+            "Immediate reporting"
           ],
           correctAnswer: 0,
           explanation: "Root Cause Analysis identifies underlying causes of incidents."
@@ -1306,36 +1306,36 @@ Effective safety management systems reduce accidents, improve operational effici
           id: 10,
           question: "What are proactive safety measures?",
           options: [
-            "Leading Indicators",
-            "Lagging Indicators",
             "Accident statistics",
-            "Incident reports"
+            "Incident reports",
+            "Lagging Indicators",
+            "Leading Indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leading Indicators are proactive safety performance measures."
         },
         {
           id: 11,
           question: "What proves vessel compliance with ISM?",
           options: [
-            "Safety Management Certificate (SMC)",
-            "Document of Compliance (DOC)",
             "Certificate of Registry",
+            "Document of Compliance (DOC)",
+            "Safety Management Certificate (SMC)",
             "Tonnage Certificate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Safety Management Certificate (SMC) proves vessel compliance with ISM."
         },
         {
           id: 12,
           question: "What compares risk against criteria?",
           options: [
-            "Risk Evaluation",
-            "Risk Analysis",
             "Hazard Identification",
-            "Risk Treatment"
+            "Risk Evaluation",
+            "Risk Treatment",
+            "Risk Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk Evaluation compares analyzed risk against acceptance criteria."
         },
         {
@@ -1343,8 +1343,8 @@ Effective safety management systems reduce accidents, improve operational effici
           question: "What is clear command structure?",
           options: [
             "Master's Responsibility and Authority",
-            "Crew hierarchy",
             "Company organization",
+            "Crew hierarchy",
             "Port authority structure"
           ],
           correctAnswer: 0,
@@ -1354,24 +1354,24 @@ Effective safety management systems reduce accidents, improve operational effici
           id: 14,
           question: "What are accident statistics?",
           options: [
-            "Lagging Indicators",
-            "Leading Indicators",
             "Safety audits",
-            "Drill evaluations"
+            "Lagging Indicators",
+            "Drill evaluations",
+            "Leading Indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lagging Indicators include accident and incident statistics."
         },
         {
           id: 15,
           question: "What implements control measures?",
           options: [
-            "Risk Treatment",
-            "Risk Analysis",
+            "Risk Evaluation",
             "Hazard Identification",
-            "Risk Evaluation"
+            "Risk Analysis",
+            "Risk Treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk Treatment implements control measures for identified risks."
         },
         {
@@ -1380,8 +1380,8 @@ Effective safety management systems reduce accidents, improve operational effici
           options: [
             "Safety Management Manual (SMM)",
             "Certificate of Registry",
-            "Crew training manual",
-            "Navigation guide"
+            "Navigation guide",
+            "Crew training manual"
           ],
           correctAnswer: 0,
           explanation: "Safety Management Manual (SMM) contains comprehensive safety procedures."
@@ -1390,12 +1390,12 @@ Effective safety management systems reduce accidents, improve operational effici
           id: 17,
           question: "What is systematic audit approach?",
           options: [
-            "Audit Methodology",
-            "Random checking",
             "Informal inspection",
-            "Quick review"
+            "Quick review",
+            "Audit Methodology",
+            "Random checking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Audit Methodology provides systematic approach to auditing."
         },
         {
@@ -1403,9 +1403,9 @@ Effective safety management systems reduce accidents, improve operational effici
           question: "What are crew hazard reports?",
           options: [
             "Safety Observations",
-            "Safety Suggestions",
+            "Maintenance requests",
             "Incident reports",
-            "Maintenance requests"
+            "Safety Suggestions"
           ],
           correctAnswer: 0,
           explanation: "Safety Observations are crew reports of hazards or unsafe conditions."
@@ -1414,24 +1414,24 @@ Effective safety management systems reduce accidents, improve operational effici
           id: 19,
           question: "What prevents incident recurrence?",
           options: [
-            "Corrective Actions",
-            "Immediate reporting",
             "Evidence collection",
-            "Timeline development"
+            "Timeline development",
+            "Corrective Actions",
+            "Immediate reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Corrective Actions prevent recurrence of incidents."
         },
         {
           id: 20,
           question: "What assesses system effectiveness?",
           options: [
-            "Safety Audits",
-            "Drill evaluations",
             "Incident investigations",
-            "Risk assessments"
+            "Risk assessments",
+            "Drill evaluations",
+            "Safety Audits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Safety Audits assess effectiveness of safety management systems."
         }
       ]
@@ -1578,36 +1578,36 @@ Effective environmental management protects marine ecosystems, ensures regulator
           id: 1,
           question: "What are the four environmental management principles?",
           options: [
-            "Pollution Prevention, Environmental Compliance, Resource Efficiency, Continuous Improvement",
             "Planning, Execution, Monitoring, Reporting",
-            "Safety, Efficiency, Cost, Comfort",
-            "Navigation, Communication, Maintenance, Administration"
+            "Navigation, Communication, Maintenance, Administration",
+            "Pollution Prevention, Environmental Compliance, Resource Efficiency, Continuous Improvement",
+            "Safety, Efficiency, Cost, Comfort"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The four principles are Pollution Prevention, Environmental Compliance, Resource Efficiency, and Continuous Improvement."
         },
         {
           id: 2,
           question: "Which MARPOL annex covers oil pollution?",
           options: [
+            "Annex V",
             "Annex I",
             "Annex IV",
-            "Annex V",
             "Annex VI"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MARPOL Annex I covers prevention of pollution by oil."
         },
         {
           id: 3,
           question: "What records oil operations?",
           options: [
-            "Oil Record Book",
             "Garbage Record Book",
             "Ballast Water Record Book",
-            "Engine logbook"
+            "Engine logbook",
+            "Oil Record Book"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Oil Record Book records all oil transfer and disposal operations."
         },
         {
@@ -1615,8 +1615,8 @@ Effective environmental management protects marine ecosystems, ensures regulator
           question: "What does BWM stand for?",
           options: [
             "Ballast Water Management",
-            "Ballast Water Monitoring",
             "Bulk Water Management",
+            "Ballast Water Monitoring",
             "Ballast Waste Management"
           ],
           correctAnswer: 0,
@@ -1626,36 +1626,36 @@ Effective environmental management protects marine ecosystems, ensures regulator
           id: 5,
           question: "What tracks fuel consumption efficiency?",
           options: [
-            "Energy Efficiency Operational Index (EEOI)",
-            "Fuel consumption log",
             "Engine hours record",
-            "Speed log"
+            "Speed log",
+            "Fuel consumption log",
+            "Energy Efficiency Operational Index (EEOI)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Energy Efficiency Operational Index (EEOI) tracks fuel consumption efficiency."
         },
         {
           id: 6,
           question: "Which MARPOL annex completely bans plastic discharge?",
           options: [
-            "Annex V",
+            "Annex VI",
             "Annex I",
-            "Annex IV",
-            "Annex VI"
+            "Annex V",
+            "Annex IV"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "MARPOL Annex V completely bans discharge of plastics at sea."
         },
         {
           id: 7,
           question: "What treats sewage before discharge?",
           options: [
+            "Ballast water treatment",
             "Sewage Treatment Systems",
             "Oil water separators",
-            "Ballast water treatment",
             "Garbage compactors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sewage Treatment Systems treat sewage before discharge."
         },
         {
@@ -1663,8 +1663,8 @@ Effective environmental management protects marine ecosystems, ensures regulator
           question: "What controls sulfur in fuel?",
           options: [
             "SOx Emission Controls",
-            "NOx Emission Controls",
             "CO2 controls",
+            "NOx Emission Controls",
             "Particulate controls"
           ],
           correctAnswer: 0,
@@ -1674,36 +1674,36 @@ Effective environmental management protects marine ecosystems, ensures regulator
           id: 9,
           question: "What records ballast operations?",
           options: [
-            "Ballast Water Record Book",
-            "Oil Record Book",
+            "Engine logbook",
             "Garbage Record Book",
-            "Engine logbook"
+            "Ballast Water Record Book",
+            "Oil Record Book"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ballast Water Record Book records all ballast water operations."
         },
         {
           id: 10,
           question: "What is waste separation at source?",
           options: [
+            "Dumping at sea",
             "Segregation at Source",
             "Mixing all waste",
-            "Burning waste",
-            "Dumping at sea"
+            "Burning waste"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Segregation at Source means separating waste by type from point of generation."
         },
         {
           id: 11,
           question: "Which MARPOL annex covers air pollution?",
           options: [
-            "Annex VI",
             "Annex I",
             "Annex IV",
+            "Annex VI",
             "Annex V"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "MARPOL Annex VI covers prevention of air pollution from ships."
         },
         {
@@ -1711,8 +1711,8 @@ Effective environmental management protects marine ecosystems, ensures regulator
           question: "What is required oil spill response plan?",
           options: [
             "Shipboard Oil Pollution Emergency Plan (SOPEP)",
-            "Fire emergency plan",
             "Abandon ship plan",
+            "Fire emergency plan",
             "Security plan"
           ],
           correctAnswer: 0,
@@ -1722,24 +1722,24 @@ Effective environmental management protects marine ecosystems, ensures regulator
           id: 13,
           question: "What controls nitrogen oxides?",
           options: [
-            "NOx Emission Controls",
             "SOx Emission Controls",
+            "Particulate controls",
             "CO2 controls",
-            "Particulate controls"
+            "NOx Emission Controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NOx Emission Controls reduce nitrogen oxide emissions."
         },
         {
           id: 14,
           question: "What records garbage disposal?",
           options: [
-            "Garbage Record Book",
-            "Oil Record Book",
             "Ballast Water Record Book",
-            "Sewage Record Book"
+            "Sewage Record Book",
+            "Garbage Record Book",
+            "Oil Record Book"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Garbage Record Book records waste disposal operations."
         },
         {
@@ -1747,9 +1747,9 @@ Effective environmental management protects marine ecosystems, ensures regulator
           question: "What prevents invasive species transfer?",
           options: [
             "Ballast Water Management",
-            "Hull cleaning",
+            "Waste disposal",
             "Fuel management",
-            "Waste disposal"
+            "Hull cleaning"
           ],
           correctAnswer: 0,
           explanation: "Ballast Water Management prevents transfer of invasive aquatic species."
@@ -1758,36 +1758,36 @@ Effective environmental management protects marine ecosystems, ensures regulator
           id: 16,
           question: "Which MARPOL annex covers sewage?",
           options: [
+            "Annex VI",
             "Annex IV",
             "Annex I",
-            "Annex V",
-            "Annex VI"
+            "Annex V"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MARPOL Annex IV covers prevention of pollution by sewage."
         },
         {
           id: 17,
           question: "What reduces hull resistance?",
           options: [
+            "Route changes",
             "Hull and Propeller Maintenance",
             "Engine tuning",
-            "Speed reduction",
-            "Route changes"
+            "Speed reduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hull and Propeller Maintenance reduces resistance and improves efficiency."
         },
         {
           id: 18,
           question: "What is waste handling at ports?",
           options: [
-            "Port Reception Facilities",
+            "Storage indefinitely",
             "Dumping at sea",
             "Burning onboard",
-            "Storage indefinitely"
+            "Port Reception Facilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Port Reception Facilities handle waste delivery from ships."
         },
         {
@@ -1806,12 +1806,12 @@ Effective environmental management protects marine ecosystems, ensures regulator
           id: 20,
           question: "What optimizes route and speed?",
           options: [
+            "Hull cleaning",
             "Voyage Optimization",
             "Engine maintenance",
-            "Hull cleaning",
             "Waste reduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Voyage Optimization improves efficiency through route and speed optimization."
         }
       ]
@@ -1985,12 +1985,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
           id: 1,
           question: "What are the four commercial operation areas?",
           options: [
-            "Chartering, Freight Markets, Documentation, Financial Management",
-            "Navigation, Communication, Maintenance, Administration",
+            "Planning, Execution, Monitoring, Reporting",
             "Safety, Efficiency, Cost, Quality",
-            "Planning, Execution, Monitoring, Reporting"
+            "Chartering, Freight Markets, Documentation, Financial Management",
+            "Navigation, Communication, Maintenance, Administration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The four areas are Chartering and Contract Management, Freight Market Operations, Commercial Documentation, and Financial Management."
         },
         {
@@ -1998,9 +1998,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
           question: "What is a single voyage contract called?",
           options: [
             "Voyage Charter",
-            "Time Charter",
+            "Contract of Affreightment",
             "Bareboat Charter",
-            "Contract of Affreightment"
+            "Time Charter"
           ],
           correctAnswer: 0,
           explanation: "Voyage Charter is for a single voyage or specific cargo."
@@ -2009,36 +2009,36 @@ Effective commercial operations management maximizes revenue, controls costs, an
           id: 3,
           question: "What is time allowed for loading/discharging?",
           options: [
-            "Laytime",
-            "Demurrage",
             "Despatch",
-            "Freight time"
+            "Demurrage",
+            "Freight time",
+            "Laytime"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Laytime is the time allowed for cargo operations in port."
         },
         {
           id: 4,
           question: "What is compensation for exceeding laytime?",
           options: [
-            "Demurrage",
             "Despatch",
+            "Demurrage",
             "Freight",
             "Bonus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Demurrage is compensation paid when laytime is exceeded."
         },
         {
           id: 5,
           question: "What is the main transport document?",
           options: [
-            "Bill of Lading",
-            "Sea Waybill",
+            "Cargo Manifest",
             "Delivery Order",
-            "Cargo Manifest"
+            "Bill of Lading",
+            "Sea Waybill"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bill of Lading is the primary transport document serving as receipt and contract."
         },
         {
@@ -2046,9 +2046,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
           question: "What measures standardized earnings?",
           options: [
             "Time Charter Equivalent (TCE)",
-            "Freight rate",
             "Demurrage rate",
-            "Exchange rate"
+            "Exchange rate",
+            "Freight rate"
           ],
           correctAnswer: 0,
           explanation: "Time Charter Equivalent (TCE) standardizes earnings comparison across charter types."
@@ -2058,9 +2058,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
           question: "What is freight paid before loading?",
           options: [
             "Freight Prepaid",
-            "Freight Collect",
+            "Lump Sum",
             "Part Prepaid",
-            "Lump Sum"
+            "Freight Collect"
           ],
           correctAnswer: 0,
           explanation: "Freight Prepaid means payment before cargo loading."
@@ -2081,96 +2081,96 @@ Effective commercial operations management maximizes revenue, controls costs, an
           id: 9,
           question: "What is vessel leased without crew?",
           options: [
-            "Bareboat Charter",
-            "Time Charter",
             "Voyage Charter",
-            "Contract of Affreightment"
+            "Bareboat Charter",
+            "Contract of Affreightment",
+            "Time Charter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bareboat Charter leases the vessel without crew or management."
         },
         {
           id: 10,
           question: "What is reward for early completion?",
           options: [
-            "Despatch",
             "Demurrage",
-            "Bonus",
-            "Freight"
+            "Freight",
+            "Despatch",
+            "Bonus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Despatch is reward paid for completing cargo operations before laytime expires."
         },
         {
           id: 11,
           question: "What is GENCON?",
           options: [
-            "General purpose voyage charter",
-            "Time charter form",
+            "Insurance form",
             "Bareboat charter",
-            "Insurance form"
+            "Time charter form",
+            "General purpose voyage charter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GENCON is a general purpose voyage charter party agreement."
         },
         {
           id: 12,
           question: "What lists all cargo?",
           options: [
-            "Cargo Manifest",
             "Bill of Lading",
             "Delivery Order",
+            "Cargo Manifest",
             "Sea Waybill"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cargo Manifest is complete list of all cargo onboard."
         },
         {
           id: 13,
           question: "What is freight paid upon delivery?",
           options: [
-            "Freight Collect",
-            "Freight Prepaid",
             "Part Prepaid",
-            "Lump Sum"
+            "Freight Prepaid",
+            "Lump Sum",
+            "Freight Collect"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Freight Collect means payment upon cargo delivery."
         },
         {
           id: 14,
           question: "What is non-payment risk?",
           options: [
-            "Credit Risk",
             "Operational Risk",
             "Market Risk",
-            "Safety Risk"
+            "Safety Risk",
+            "Credit Risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Credit Risk includes non-payment by charterers or customers."
         },
         {
           id: 15,
           question: "What is NYPE?",
           options: [
-            "New York Produce Exchange time charter",
-            "Voyage charter form",
+            "Insurance form",
             "Bareboat charter",
-            "Insurance form"
+            "New York Produce Exchange time charter",
+            "Voyage charter form"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NYPE is New York Produce Exchange time charter party agreement."
         },
         {
           id: 16,
           question: "What shows loading arrangement?",
           options: [
-            "Cargo Stowage Plan",
             "Cargo Manifest",
-            "Bill of Lading",
-            "Delivery Order"
+            "Delivery Order",
+            "Cargo Stowage Plan",
+            "Bill of Lading"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cargo Stowage Plan shows how cargo is loaded and arranged."
         },
         {
@@ -2189,12 +2189,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
           id: 18,
           question: "What is multiple voyage commitment?",
           options: [
-            "Contract of Affreightment",
+            "Bareboat Charter",
             "Voyage Charter",
-            "Time Charter",
-            "Bareboat Charter"
+            "Contract of Affreightment",
+            "Time Charter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Contract of Affreightment commits to multiple voyages over time."
         },
         {
@@ -2213,12 +2213,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
           id: 20,
           question: "What is fixed freight amount?",
           options: [
-            "Lump Sum Freight",
             "Freight Prepaid",
             "Freight Collect",
+            "Lump Sum Freight",
             "Part Prepaid"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Lump Sum Freight is fixed amount regardless of cargo quantity."
         }
       ]
@@ -2237,12 +2237,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 1,
         question: "What are the four pillars of advanced voyage planning?",
         options: [
-          "Route Optimization, Weather Routing, Regulatory Compliance, Contingency Development",
+          "Planning, Executing, Monitoring, Reporting",
           "Safety, Speed, Cost, Comfort",
           "Navigation, Communication, Maintenance, Administration",
-          "Planning, Executing, Monitoring, Reporting"
+          "Route Optimization, Weather Routing, Regulatory Compliance, Contingency Development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 1: The four pillars are Strategic Route Optimization, Dynamic Weather Routing, Regulatory Compliance Planning, and Contingency Development."
       },
       {
@@ -2250,12 +2250,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 1,
         question: "What does ECDIS stand for?",
         options: [
-          "Electronic Chart Display and Information System",
-          "Electronic Course Display and Information System",
           "Emergency Chart Display and Information System",
-          "Electronic Chart Data and Information System"
+          "Electronic Chart Data and Information System",
+          "Electronic Chart Display and Information System",
+          "Electronic Course Display and Information System"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 1: ECDIS stands for Electronic Chart Display and Information System."
       },
       {
@@ -2264,9 +2264,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What provides global weather coverage with high accuracy?",
         options: [
           "Satellite Weather Services",
-          "Local radio forecasts",
+          "Crew observations only",
           "Newspaper weather reports",
-          "Crew observations only"
+          "Local radio forecasts"
         ],
         correctAnswer: 0,
         explanation: "From Module 1: Satellite Weather Services provide global coverage with high accuracy."
@@ -2289,12 +2289,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 1,
         question: "What continuously records navigation data?",
         options: [
-          "Voyage Data Recorders",
-          "Engine logbooks",
           "Crew notebooks",
-          "Passenger diaries"
+          "Passenger diaries",
+          "Voyage Data Recorders",
+          "Engine logbooks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 1: Voyage Data Recorders continuously record navigation data."
       },
       {
@@ -2302,12 +2302,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 1,
         question: "What maintains precise vessel position?",
         options: [
-          "Dynamic Positioning Systems",
           "Traditional anchoring",
-          "Mooring lines",
-          "Drifting with currents"
+          "Dynamic Positioning Systems",
+          "Drifting with currents",
+          "Mooring lines"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Dynamic Positioning Systems maintain precise position."
       },
       {
@@ -2315,12 +2315,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 1,
         question: "What are environmental protection zones?",
         options: [
-          "Particularly Sensitive Sea Areas (PSSAs)",
-          "Free fishing zones",
+          "International waters",
           "Deep water areas",
-          "International waters"
+          "Free fishing zones",
+          "Particularly Sensitive Sea Areas (PSSAs)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 1: PSSAs are environmental protection zones."
       },
       
@@ -2330,12 +2330,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 2,
         question: "What are the five key port operation areas?",
         options: [
-          "Port Entry, Cargo Operations, Service Coordination, Documentation, Departure",
-          "Cleaning, Cooking, Maintenance, Navigation, Entertainment",
           "Safety, Efficiency, Cost, Quality, Speed",
-          "Planning, Execution, Monitoring, Control, Reporting"
+          "Planning, Execution, Monitoring, Control, Reporting",
+          "Cleaning, Cooking, Maintenance, Navigation, Entertainment",
+          "Port Entry, Cargo Operations, Service Coordination, Documentation, Departure"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 2: The five areas are Port Entry Procedures, Cargo Operations Management, Port Service Coordination, Documentation and Administration, and Departure Procedures."
       },
       {
@@ -2344,9 +2344,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What does ETA stand for?",
         options: [
           "Estimated Time of Arrival",
-          "Exact Time of Arrival",
           "Expected Time of Arrival",
-          "Estimated Time of Approach"
+          "Estimated Time of Approach",
+          "Exact Time of Arrival"
         ],
         correctAnswer: 0,
         explanation: "From Module 2: ETA stands for Estimated Time of Arrival."
@@ -2356,12 +2356,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 2,
         question: "What is optimal cargo distribution?",
         options: [
-          "Stowage Planning",
           "Random loading",
+          "Simple stacking",
           "Quick loading",
-          "Simple stacking"
+          "Stowage Planning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 2: Stowage Planning involves optimal cargo distribution."
       },
       {
@@ -2369,12 +2369,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 2,
         question: "What does ISPS Code regulate?",
         options: [
+          "Crew entertainment",
           "Port and ship security",
-          "Cargo loading",
           "Fuel efficiency",
-          "Crew entertainment"
+          "Cargo loading"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: ISPS Code regulates International Ship and Port Facility Security."
       },
       {
@@ -2383,9 +2383,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What confirms port operations complete?",
         options: [
           "All Fast Certificate",
+          "Crew list",
           "Port entry form",
-          "Cargo manifest",
-          "Crew list"
+          "Cargo manifest"
         ],
         correctAnswer: 0,
         explanation: "From Module 2: All Fast Certificate confirms completion of operations."
@@ -2395,12 +2395,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 2,
         question: "What coordinates with loading teams?",
         options: [
-          "Stevedore Management",
           "Guest services",
-          "Bridge operations",
-          "Engine room work"
+          "Stevedore Management",
+          "Engine room work",
+          "Bridge operations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: Stevedore Management coordinates with loading teams."
       },
       {
@@ -2409,8 +2409,8 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What provides fuel supply?",
         options: [
           "Bunkering Services",
-          "Provisioning Services",
           "Waste Management",
+          "Provisioning Services",
           "Technical Services"
         ],
         correctAnswer: 0,
@@ -2423,12 +2423,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 3,
         question: "What are the four regulatory compliance domains?",
         options: [
-          "IMO Regulations, Flag State, Port State Control, Classification Society",
           "Safety, Navigation, Communication, Maintenance",
           "International, National, Regional, Local",
-          "Planning, Implementation, Monitoring, Reporting"
+          "Planning, Implementation, Monitoring, Reporting",
+          "IMO Regulations, Flag State, Port State Control, Classification Society"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 3: The four domains are IMO Regulations, Flag State Requirements, Port State Control, and Classification Society Rules."
       },
       {
@@ -2436,12 +2436,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 3,
         question: "Which SOLAS chapter covers fire protection?",
         options: [
-          "Chapter II-2",
-          "Chapter III",
+          "Chapter XI",
           "Chapter V",
-          "Chapter XI"
+          "Chapter II-2",
+          "Chapter III"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 3: SOLAS Chapter II-2 covers fire protection."
       },
       {
@@ -2449,12 +2449,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 3,
         question: "Which MARPOL annex covers air pollution?",
         options: [
+          "Annex V",
           "Annex VI",
           "Annex I",
-          "Annex IV",
-          "Annex V"
+          "Annex IV"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: MARPOL Annex VI covers air pollution prevention."
       },
       {
@@ -2463,9 +2463,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What proves vessel nationality?",
         options: [
           "Certificate of Registry",
+          "Crew list",
           "Tonnage Certificate",
-          "Safety Certificate",
-          "Crew list"
+          "Safety Certificate"
         ],
         correctAnswer: 0,
         explanation: "From Module 3: Certificate of Registry proves vessel nationality."
@@ -2476,9 +2476,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "Which PSC regime covers Asia-Pacific?",
         options: [
           "Tokyo MoU",
+          "Caribbean MoU",
           "Paris MoU",
-          "US Coast Guard",
-          "Caribbean MoU"
+          "US Coast Guard"
         ],
         correctAnswer: 0,
         explanation: "From Module 3: Tokyo MoU covers Asia-Pacific region."
@@ -2488,12 +2488,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 3,
         question: "What does STCW stand for?",
         options: [
-          "Standards of Training, Certification and Watchkeeping",
+          "Ship Training and Certification Worldwide",
           "Safety Training for Crew Watch",
           "Standards for Technical Crew Work",
-          "Ship Training and Certification Worldwide"
+          "Standards of Training, Certification and Watchkeeping"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 3: STCW stands for Standards of Training, Certification and Watchkeeping."
       },
       {
@@ -2501,12 +2501,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 3,
         question: "Which classification society is LR?",
         options: [
-          "Lloyd's Register",
           "Lloyd's of London",
-          "Lloyd's Bank",
-          "Lloyd's Insurance"
+          "Lloyd's Insurance",
+          "Lloyd's Register",
+          "Lloyd's Bank"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 3: LR stands for Lloyd's Register."
       },
       
@@ -2517,9 +2517,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What are the four safety management pillars?",
         options: [
           "Safety Policy, Risk Management, Emergency Preparedness, Continuous Improvement",
+          "Prevention, Protection, Response, Recovery",
           "Planning, Implementation, Monitoring, Review",
-          "Crew, Equipment, Procedures, Documentation",
-          "Prevention, Protection, Response, Recovery"
+          "Crew, Equipment, Procedures, Documentation"
         ],
         correctAnswer: 0,
         explanation: "From Module 4: The four pillars are Safety Policy Development, Risk Management Implementation, Emergency Preparedness, and Continuous Improvement."
@@ -2529,12 +2529,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 4,
         question: "What does ISM stand for?",
         options: [
-          "International Safety Management",
           "International Ship Management",
           "Integrated Safety Management",
-          "International Security Management"
+          "International Security Management",
+          "International Safety Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 4: ISM stands for International Safety Management Code."
       },
       {
@@ -2543,9 +2543,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What proves company compliance with ISM?",
         options: [
           "Document of Compliance (DOC)",
-          "Safety Management Certificate (SMC)",
+          "Certificate of Registry",
           "Safety Management Manual",
-          "Certificate of Registry"
+          "Safety Management Certificate (SMC)"
         ],
         correctAnswer: 0,
         explanation: "From Module 4: DOC proves company compliance with ISM Code."
@@ -2555,12 +2555,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 4,
         question: "What is systematic hazard identification?",
         options: [
-          "Risk Assessment",
-          "Emergency planning",
           "Drill execution",
-          "Audit preparation"
+          "Emergency planning",
+          "Audit preparation",
+          "Risk Assessment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 4: Risk Assessment includes systematic hazard identification."
       },
       {
@@ -2569,9 +2569,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What provides shore-based safety oversight?",
         options: [
           "Designated Person Ashore (DPA)",
-          "Company manager",
+          "Port authority",
           "Insurance surveyor",
-          "Port authority"
+          "Company manager"
         ],
         correctAnswer: 0,
         explanation: "From Module 4: DPA provides shore-based safety oversight."
@@ -2581,12 +2581,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 4,
         question: "What identifies underlying causes?",
         options: [
-          "Root Cause Analysis",
+          "Timeline development",
           "Immediate reporting",
           "Evidence collection",
-          "Timeline development"
+          "Root Cause Analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 4: Root Cause Analysis identifies underlying causes."
       },
       
@@ -2596,12 +2596,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 5,
         question: "What are the four environmental management principles?",
         options: [
+          "Planning, Implementation, Monitoring, Reporting",
           "Pollution Prevention, Environmental Compliance, Resource Efficiency, Continuous Improvement",
           "Reduce, Reuse, Recycle, Recover",
-          "Safety, Efficiency, Cost, Quality",
-          "Planning, Implementation, Monitoring, Reporting"
+          "Safety, Efficiency, Cost, Quality"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 5: The four principles are Pollution Prevention, Environmental Compliance, Resource Efficiency, and Continuous Improvement."
       },
       {
@@ -2609,12 +2609,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 5,
         question: "Which MARPOL annex covers oil pollution?",
         options: [
-          "Annex I",
-          "Annex IV",
+          "Annex VI",
           "Annex V",
-          "Annex VI"
+          "Annex IV",
+          "Annex I"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 5: MARPOL Annex I covers oil pollution prevention."
       },
       {
@@ -2623,9 +2623,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What does BWM stand for?",
         options: [
           "Ballast Water Management",
-          "Ballast Water Monitoring",
+          "Ballast Waste Management",
           "Bulk Water Management",
-          "Ballast Waste Management"
+          "Ballast Water Monitoring"
         ],
         correctAnswer: 0,
         explanation: "From Module 5: BWM stands for Ballast Water Management Convention."
@@ -2636,9 +2636,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What tracks fuel consumption efficiency?",
         options: [
           "Energy Efficiency Operational Index (EEOI)",
-          "Fuel consumption log",
+          "Speed log",
           "Engine hours record",
-          "Speed log"
+          "Fuel consumption log"
         ],
         correctAnswer: 0,
         explanation: "From Module 5: EEOI tracks fuel consumption efficiency."
@@ -2649,9 +2649,9 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What records oil operations?",
         options: [
           "Oil Record Book",
-          "Garbage Record Book",
           "Ballast Water Record Book",
-          "Engine logbook"
+          "Engine logbook",
+          "Garbage Record Book"
         ],
         correctAnswer: 0,
         explanation: "From Module 5: Oil Record Book records oil operations."
@@ -2661,12 +2661,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 5,
         question: "Which annex bans plastic discharge?",
         options: [
-          "Annex V",
-          "Annex I",
+          "Annex VI",
           "Annex IV",
-          "Annex VI"
+          "Annex I",
+          "Annex V"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 5: MARPOL Annex V bans plastic discharge."
       },
       
@@ -2676,12 +2676,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 6,
         question: "What are the four commercial operation areas?",
         options: [
-          "Chartering, Freight Markets, Documentation, Financial Management",
-          "Navigation, Communication, Maintenance, Administration",
           "Safety, Efficiency, Cost, Quality",
-          "Planning, Execution, Monitoring, Reporting"
+          "Planning, Execution, Monitoring, Reporting",
+          "Navigation, Communication, Maintenance, Administration",
+          "Chartering, Freight Markets, Documentation, Financial Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: The four areas are Chartering and Contract Management, Freight Market Operations, Commercial Documentation, and Financial Management."
       },
       {
@@ -2689,12 +2689,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 6,
         question: "What is a single voyage contract?",
         options: [
-          "Voyage Charter",
           "Time Charter",
+          "Contract of Affreightment",
           "Bareboat Charter",
-          "Contract of Affreightment"
+          "Voyage Charter"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: Voyage Charter is for a single voyage."
       },
       {
@@ -2702,12 +2702,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 6,
         question: "What is time allowed for cargo operations?",
         options: [
-          "Laytime",
           "Demurrage",
           "Despatch",
+          "Laytime",
           "Freight time"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 6: Laytime is time allowed for loading/discharging."
       },
       {
@@ -2715,12 +2715,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 6,
         question: "What is compensation for exceeding laytime?",
         options: [
-          "Demurrage",
           "Despatch",
-          "Freight",
-          "Bonus"
+          "Bonus",
+          "Demurrage",
+          "Freight"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 6: Demurrage compensates for exceeding laytime."
       },
       {
@@ -2728,12 +2728,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 6,
         question: "What is the main transport document?",
         options: [
-          "Bill of Lading",
-          "Sea Waybill",
+          "Cargo Manifest",
           "Delivery Order",
-          "Cargo Manifest"
+          "Sea Waybill",
+          "Bill of Lading"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: Bill of Lading is primary transport document."
       },
       {
@@ -2742,8 +2742,8 @@ Effective commercial operations management maximizes revenue, controls costs, an
         question: "What measures standardized earnings?",
         options: [
           "Time Charter Equivalent (TCE)",
-          "Freight rate",
           "Demurrage rate",
+          "Freight rate",
           "Exchange rate"
         ],
         correctAnswer: 0,
@@ -2754,12 +2754,12 @@ Effective commercial operations management maximizes revenue, controls costs, an
         module: 6,
         question: "What is freight paid before loading?",
         options: [
-          "Freight Prepaid",
           "Freight Collect",
           "Part Prepaid",
+          "Freight Prepaid",
           "Lump Sum"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 6: Freight Prepaid means payment before loading."
       }
     ]

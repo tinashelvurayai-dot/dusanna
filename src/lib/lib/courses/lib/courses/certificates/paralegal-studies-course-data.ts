@@ -204,12 +204,12 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           id: 1,
           question: "What is the primary role of a paralegal in litigation?",
           options: [
-            "Assist attorneys with case preparation and document management",
+            "Set attorney fees and billing rates",
             "Make final decisions on case strategy",
-            "Represent clients in court alone",
-            "Set attorney fees and billing rates"
+            "Assist attorneys with case preparation and document management",
+            "Represent clients in court alone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Paralegals support attorneys by handling case preparation, document management, and procedural tasks under attorney supervision."
         },
         {
@@ -217,9 +217,9 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           question: "Which court level handles evidence presentation and witness testimony?",
           options: [
             "Trial Courts",
-            "Appellate Courts",
+            "Administrative Courts",
             "Supreme Court",
-            "Administrative Courts"
+            "Appellate Courts"
           ],
           correctAnswer: 0,
           explanation: "Trial courts are where cases begin, evidence is presented, witnesses testify, and facts are determined."
@@ -230,8 +230,8 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           options: [
             "Pre-Filing Stage",
             "Discovery Stage",
-            "Trial Stage",
-            "Appeal Stage"
+            "Appeal Stage",
+            "Trial Stage"
           ],
           correctAnswer: 0,
           explanation: "The pre-filing stage involves client intake, investigation, and preparation before any court documents are filed."
@@ -242,8 +242,8 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           options: [
             "Complaint",
             "Answer",
-            "Motion to Dismiss",
-            "Interrogatories"
+            "Interrogatories",
+            "Motion to Dismiss"
           ],
           correctAnswer: 0,
           explanation: "The complaint is the initial pleading that starts a lawsuit by stating the plaintiff's claims against the defendant."
@@ -252,24 +252,24 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           id: 5,
           question: "What are written questions sent to the opposing party called?",
           options: [
-            "Interrogatories",
-            "Depositions",
+            "Motions in Limine",
             "Requests for Production",
-            "Motions in Limine"
+            "Depositions",
+            "Interrogatories"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Interrogatories are written questions that must be answered under oath as part of the discovery process."
         },
         {
           id: 6,
           question: "What does ESI stand for in modern litigation?",
           options: [
+            "Evidence Storage Inventory",
             "Electronically Stored Information",
             "Electronic Submission Interface",
-            "Evidence Storage Inventory",
             "Exhibit Summary Index"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ESI refers to Electronically Stored Information, which includes emails, documents, databases, and other digital evidence."
         },
         {
@@ -288,12 +288,12 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           id: 8,
           question: "What is a deposition?",
           options: [
+            "Settlement negotiation meeting",
             "Witness interview under oath before trial",
-            "Courtroom testimony during trial",
             "Written statement to police",
-            "Settlement negotiation meeting"
+            "Courtroom testimony during trial"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A deposition is a sworn out-of-court testimony used to discover what a witness knows and preserve their testimony."
         },
         {
@@ -301,8 +301,8 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           question: "What should be included in a trial notebook?",
           options: [
             "Organized trial materials for quick reference",
-            "Personal notes about the judge",
             "Attorney's billing records",
+            "Personal notes about the judge",
             "Office supply inventory"
           ],
           correctAnswer: 0,
@@ -312,60 +312,60 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           id: 10,
           question: "What is the purpose of a motion in limine?",
           options: [
-            "Limit what evidence can be presented at trial",
             "Dismiss the entire case",
+            "Limit what evidence can be presented at trial",
             "Extend discovery deadlines",
             "Appeal a court decision"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A motion in limine asks the court to exclude or include certain evidence before trial begins."
         },
         {
           id: 11,
           question: "What is a privilege log?",
           options: [
-            "List of documents withheld from discovery due to privilege",
-            "Record of attorney billing hours",
             "Court fee payment record",
+            "Record of attorney billing hours",
+            "List of documents withheld from discovery due to privilege",
             "Witness compensation log"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A privilege log identifies documents being withheld from discovery and explains the privilege claimed for each."
         },
         {
           id: 12,
           question: "What is alternative dispute resolution?",
           options: [
-            "Methods like mediation and arbitration instead of trial",
-            "Appealing to a higher court",
             "Skipping discovery process",
+            "Appealing to a higher court",
+            "Methods like mediation and arbitration instead of trial",
             "Ignoring court rules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Alternative dispute resolution includes mediation, arbitration, and settlement conferences as alternatives to traditional litigation."
         },
         {
           id: 13,
           question: "What critical task must paralegals monitor in litigation?",
           options: [
-            "Statute of limitations deadlines",
             "Office cleaning schedules",
-            "Attorney lunch preferences",
-            "Parking validation times"
+            "Statute of limitations deadlines",
+            "Parking validation times",
+            "Attorney lunch preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Paralegals must carefully track statute of limitations deadlines to ensure claims are filed before they expire."
         },
         {
           id: 14,
           question: "What is the caption of a court document?",
           options: [
-            "Heading identifying court, parties, and case number",
-            "Summary of the document's content",
+            "Table of contents",
             "Attorney signature block",
-            "Table of contents"
+            "Summary of the document's content",
+            "Heading identifying court, parties, and case number"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The caption appears at the top of court documents and identifies the court, parties, and case number."
         },
         {
@@ -374,8 +374,8 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           options: [
             "Prepare witnesses and organize exhibits",
             "File the initial complaint",
-            "Conduct jury selection",
-            "Draft appellate briefs"
+            "Draft appellate briefs",
+            "Conduct jury selection"
           ],
           correctAnswer: 0,
           explanation: "Pre-trial preparation includes witness preparation, exhibit organization, and final trial strategy development."
@@ -396,24 +396,24 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           id: 17,
           question: "What ethical duty must paralegals maintain?",
           options: [
-            "Client confidentiality",
             "Setting legal fees",
+            "Client confidentiality",
             "Making court appearances",
             "Deciding case strategy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Paralegals must maintain strict client confidentiality as part of their ethical obligations."
         },
         {
           id: 18,
           question: "What is a request for admissions?",
           options: [
+            "Requests case dismissal",
             "Asks opposing party to admit or deny specific facts",
             "Requests documents from opposing party",
-            "Asks for monetary damages",
-            "Requests case dismissal"
+            "Asks for monetary damages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Requests for admissions ask the opposing party to admit or deny specific facts to streamline trial issues."
         },
         {
@@ -421,8 +421,8 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           question: "What should be included in a settlement demand package?",
           options: [
             "Evidence supporting the claim and damage calculations",
-            "Attorney's personal biography",
             "Office holiday schedule",
+            "Attorney's personal biography",
             "Courtroom seating charts"
           ],
           correctAnswer: 0,
@@ -432,12 +432,12 @@ Mastering litigation procedures makes you an invaluable asset to any legal team.
           id: 20,
           question: "What is the purpose of a trial exhibit list?",
           options: [
-            "Identify all exhibits planned for use at trial",
             "List all witnesses who might testify",
+            "Track court filing fees",
             "Record attorney work hours",
-            "Track court filing fees"
+            "Identify all exhibits planned for use at trial"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "An exhibit list identifies all documents and items that will be offered as evidence during trial."
         }
       ]
@@ -684,24 +684,24 @@ Mastering legal research and writing positions you as a critical thinker and com
           id: 1,
           question: "What is the first step in legal research methodology?",
           options: [
-            "Understand the legal issue and jurisdiction",
-            "Search Westlaw for cases",
             "Read law review articles",
-            "Check statutes online"
+            "Check statutes online",
+            "Search Westlaw for cases",
+            "Understand the legal issue and jurisdiction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The first step is to thoroughly understand the legal issue, jurisdiction, and client objectives before beginning research."
         },
         {
           id: 2,
           question: "What are secondary sources in legal research?",
           options: [
-            "Resources that explain and analyze primary law",
-            "Original court decisions",
             "Statutes passed by legislatures",
-            "Constitutional provisions"
+            "Resources that explain and analyze primary law",
+            "Constitutional provisions",
+            "Original court decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Secondary sources include legal encyclopedias, treatises, law reviews, and practice guides that analyze primary law."
         },
         {
@@ -709,9 +709,9 @@ Mastering legal research and writing positions you as a critical thinker and com
           question: "What does IRAC stand for in legal writing?",
           options: [
             "Issue, Rule, Analysis, Conclusion",
+            "Introduction, Rule, Analysis, Citation",
             "Introduction, Research, Argument, Conclusion",
-            "Issue, Research, Application, Conclusion",
-            "Introduction, Rule, Analysis, Citation"
+            "Issue, Research, Application, Conclusion"
           ],
           correctAnswer: 0,
           explanation: "IRAC is a standard legal writing structure: Identify Issue, State Rule, Apply Analysis, Reach Conclusion."
@@ -720,24 +720,24 @@ Mastering legal research and writing positions you as a critical thinker and com
           id: 4,
           question: "What is the purpose of Shepardizing or KeyCiting?",
           options: [
-            "Validate that cases are still good law",
+            "Organize research notes",
             "Find new cases on similar topics",
             "Check spelling in documents",
-            "Organize research notes"
+            "Validate that cases are still good law"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Shepardizing and KeyCiting check whether cases have been overturned, criticized, or followed by later decisions."
         },
         {
           id: 5,
           question: "What should be included in a legal memorandum?",
           options: [
-            "Objective analysis of legal issues",
+            "Client billing information",
             "Persuasive arguments for court",
             "Personal opinions about the case",
-            "Client billing information"
+            "Objective analysis of legal issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Legal memoranda provide objective analysis of legal issues for internal use, including facts, issues, analysis, and conclusions."
         },
         {
@@ -745,9 +745,9 @@ Mastering legal research and writing positions you as a critical thinker and com
           question: "What is the Bluebook?",
           options: [
             "Guide for legal citation format",
-            "Directory of attorneys",
             "Court scheduling calendar",
-            "Legal ethics manual"
+            "Legal ethics manual",
+            "Directory of attorneys"
           ],
           correctAnswer: 0,
           explanation: "The Bluebook is the standard reference for legal citation format used in most U.S. law schools and courts."
@@ -756,48 +756,48 @@ Mastering legal research and writing positions you as a critical thinker and com
           id: 7,
           question: "What are digests in legal research?",
           options: [
+            "Client interview records",
             "Topic-organized summaries of cases",
-            "Court hearing schedules",
             "Attorney meeting notes",
-            "Client interview records"
+            "Court hearing schedules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digests organize case summaries by topic and subtopic, making it easier to find cases on specific legal issues."
         },
         {
           id: 8,
           question: "What is the difference between holding and dicta?",
           options: [
-            "Holding is binding; dicta is persuasive commentary",
             "Holding is in footnotes; dicta is in main text",
+            "Holding is about facts; dicta is about law",
             "Holding is for trial courts; dicta is for appeals",
-            "Holding is about facts; dicta is about law"
+            "Holding is binding; dicta is persuasive commentary"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The holding is the court's binding decision on the issues presented; dicta are persuasive comments not essential to the decision."
         },
         {
           id: 9,
           question: "What should be checked during technical review of documents?",
           options: [
-            "Grammar, spelling, and citation format",
-            "Case strategy and arguments",
+            "Attorney's schedule availability",
             "Client's personal preferences",
-            "Attorney's schedule availability"
+            "Case strategy and arguments",
+            "Grammar, spelling, and citation format"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Technical review focuses on grammar, spelling, punctuation, citation format, and document formatting errors."
         },
         {
           id: 10,
           question: "What are annotated statutes?",
           options: [
-            "Statutes with case summaries and references",
-            "Statutes with personal notes",
             "Unofficial statute versions",
-            "Historical statute collections"
+            "Statutes with case summaries and references",
+            "Historical statute collections",
+            "Statutes with personal notes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Annotated statutes include the statutory text plus summaries of cases interpreting each section and references to related materials."
         },
         {
@@ -805,9 +805,9 @@ Mastering legal research and writing positions you as a critical thinker and com
           question: "What is the purpose of a practice guide?",
           options: [
             "State-specific procedural guidance",
+            "Courtroom etiquette rules",
             "General legal principles overview",
-            "Attorney marketing materials",
-            "Courtroom etiquette rules"
+            "Attorney marketing materials"
           ],
           correctAnswer: 0,
           explanation: "Practice guides provide detailed, state-specific procedural guidance and forms for particular areas of law."
@@ -818,8 +818,8 @@ Mastering legal research and writing positions you as a critical thinker and com
           options: [
             "Clear subject line and professional tone",
             "Casual language and jokes",
-            "Personal opinions about opposing counsel",
-            "Confidential settlement amounts"
+            "Confidential settlement amounts",
+            "Personal opinions about opposing counsel"
           ],
           correctAnswer: 0,
           explanation: "Legal correspondence should have clear subject lines, professional tone, appropriate content, and proper formatting."
@@ -829,9 +829,9 @@ Mastering legal research and writing positions you as a critical thinker and com
           question: "What is legislative history research?",
           options: [
             "Examining how a statute was created and changed",
+            "Tracking court case backlogs",
             "Studying ancient legal systems",
-            "Researching judge biographies",
-            "Tracking court case backlogs"
+            "Researching judge biographies"
           ],
           correctAnswer: 0,
           explanation: "Legislative history research examines committee reports, floor debates, and amendments to understand statutory intent."
@@ -840,36 +840,36 @@ Mastering legal research and writing positions you as a critical thinker and com
           id: 14,
           question: "What are restatements of law?",
           options: [
-            "Authoritative summaries of common law principles",
-            "Court rule modifications",
             "Attorney speech transcripts",
+            "Court rule modifications",
+            "Authoritative summaries of common law principles",
             "Client statement summaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Restatements are authoritative treatises that summarize and clarify common law principles across different jurisdictions."
         },
         {
           id: 15,
           question: "What is the CREAC method?",
           options: [
-            "Conclusion, Rule, Explanation, Application, Conclusion",
             "Citation, Research, Evaluation, Analysis, Conclusion",
             "Case, Rule, Example, Application, Citation",
+            "Conclusion, Rule, Explanation, Application, Conclusion",
             "Client, Research, Evidence, Argument, Conclusion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CREAC is an alternative to IRAC that begins with the conclusion, then states the rule, explains it, applies it, and restates conclusion."
         },
         {
           id: 16,
           question: "What should be avoided in professional legal writing?",
           options: [
-            "Unnecessary legalese and jargon",
             "Clear topic sentences",
             "Logical organization",
+            "Unnecessary legalese and jargon",
             "Proper citations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Professional legal writing should use plain English when possible and avoid unnecessary legal jargon that obscures meaning."
         },
         {
@@ -889,9 +889,9 @@ Mastering legal research and writing positions you as a critical thinker and com
           question: "What is the Federal Register?",
           options: [
             "Daily publication of federal agency actions",
+            "Record of congressional votes",
             "List of federal court decisions",
-            "Directory of federal judges",
-            "Record of congressional votes"
+            "Directory of federal judges"
           ],
           correctAnswer: 0,
           explanation: "The Federal Register publishes proposed and final federal regulations, notices, and presidential documents daily."
@@ -900,24 +900,24 @@ Mastering legal research and writing positions you as a critical thinker and com
           id: 19,
           question: "What should client-friendly writing accomplish?",
           options: [
-            "Explain complex legal concepts simply",
-            "Use maximum legal terminology",
+            "Mimic court document format",
             "Include all case citations",
-            "Mimic court document format"
+            "Use maximum legal terminology",
+            "Explain complex legal concepts simply"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Client-friendly writing translates complex legal concepts into understandable language with practical implications."
         },
         {
           id: 20,
           question: "What is an ethical consideration in legal research?",
           options: [
-            "Proper attribution of sources",
             "Using the most expensive databases",
+            "Sharing research with non-clients",
             "Researching opposing counsel's personal life",
-            "Sharing research with non-clients"
+            "Proper attribution of sources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ethical research requires proper attribution, accurate representation of authority, and maintaining client confidentiality."
         }
       ]
@@ -1224,120 +1224,120 @@ Corporate paralegals play a vital role in ensuring businesses operate legally an
           id: 1,
           question: "What is the simplest business structure with one owner?",
           options: [
-            "Sole Proprietorship",
-            "Limited Liability Company",
             "Corporation",
-            "Limited Partnership"
+            "Sole Proprietorship",
+            "Limited Partnership",
+            "Limited Liability Company"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A sole proprietorship has one owner, requires no formal formation documents, and is the simplest business structure."
         },
         {
           id: 2,
           question: "What document is filed to create a corporation?",
           options: [
-            "Articles of Incorporation",
             "Operating Agreement",
+            "Articles of Incorporation",
             "Partnership Agreement",
             "Business License"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Articles of Incorporation are filed with the secretary of state to legally create a corporation."
         },
         {
           id: 3,
           question: "What is the role of a registered agent?",
           options: [
+            "Prepare financial statements",
             "Accept legal documents on the entity's behalf",
             "Manage daily business operations",
-            "Handle marketing and sales",
-            "Prepare financial statements"
+            "Handle marketing and sales"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A registered agent maintains a physical address in the state and accepts service of process and other legal documents for the business."
         },
         {
           id: 4,
           question: "What does 'limited liability' mean for business owners?",
           options: [
-            "Personal assets protected from business debts",
-            "Limited business growth potential",
             "Restricted management authority",
+            "Limited business growth potential",
+            "Personal assets protected from business debts",
             "Limited profit distribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Limited liability protects owners' personal assets from business debts and liabilities, with certain exceptions."
         },
         {
           id: 5,
           question: "What is an operating agreement?",
           options: [
+            "Business loan agreement",
             "LLC's internal governing document",
             "Corporate tax filing document",
-            "Business loan agreement",
             "Employee contract template"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "An operating agreement is an LLC's internal document that defines member rights, management structure, and operating procedures."
         },
         {
           id: 6,
           question: "Who elects the board of directors in a corporation?",
           options: [
-            "Shareholders",
-            "Employees",
             "Customers",
-            "Creditors"
+            "Shareholders",
+            "Creditors",
+            "Employees"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Shareholders elect the board of directors, who then oversee corporate management and make major decisions."
         },
         {
           id: 7,
           question: "What is 'double taxation' for C-corporations?",
           options: [
-            "Corporate profits taxed, then dividends taxed",
             "State and federal taxes separately",
+            "Employee and employer taxes",
             "Import and export taxes",
-            "Employee and employer taxes"
+            "Corporate profits taxed, then dividends taxed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "C-corporations face double taxation: corporate profits are taxed, and dividends paid to shareholders are taxed again as personal income."
         },
         {
           id: 8,
           question: "What must corporations hold annually?",
           options: [
+            "Customer feedback session",
             "Shareholder meeting",
             "Employee appreciation day",
-            "Customer feedback session",
             "Vendor conference"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Corporations must hold an annual shareholder meeting to elect directors and conduct other required business."
         },
         {
           id: 9,
           question: "What is due diligence in business transactions?",
           options: [
-            "Thorough investigation before completing deal",
-            "Basic paperwork filing",
+            "Initial price negotiation",
             "Casual business discussion",
-            "Initial price negotiation"
+            "Basic paperwork filing",
+            "Thorough investigation before completing deal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Due diligence involves comprehensive investigation of a business's legal, financial, and operational status before completing a transaction."
         },
         {
           id: 10,
           question: "What does EIN stand for?",
           options: [
+            "Entity Identification Number",
             "Employer Identification Number",
-            "Enterprise Incorporation Number",
             "Economic Identification Number",
-            "Entity Identification Number"
+            "Enterprise Incorporation Number"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EIN is Employer Identification Number, issued by the IRS for tax purposes, similar to a Social Security number for businesses."
         },
         {
@@ -1345,9 +1345,9 @@ Corporate paralegals play a vital role in ensuring businesses operate legally an
           question: "What are corporate bylaws?",
           options: [
             "Internal rules governing corporate operations",
-            "Publicly filed formation documents",
+            "Tax filing requirements",
             "Government regulations for corporations",
-            "Tax filing requirements"
+            "Publicly filed formation documents"
           ],
           correctAnswer: 0,
           explanation: "Bylaws are internal rules that govern a corporation's operations, including director/officer roles and meeting procedures."
@@ -1356,24 +1356,24 @@ Corporate paralegals play a vital role in ensuring businesses operate legally an
           id: 12,
           question: "What is a benefit corporation?",
           options: [
+            "Government-owned corporation",
             "For-profit with social/environmental mission",
             "Non-profit business entity",
-            "Government-owned corporation",
             "Temporary business structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Benefit corporations are for-profit entities that legally commit to creating positive social or environmental impact alongside profit."
         },
         {
           id: 13,
           question: "What should be included in corporate minutes?",
           options: [
-            "Decisions made and actions authorized",
             "Personal employee information",
-            "Client billing details",
-            "Marketing strategies"
+            "Decisions made and actions authorized",
+            "Marketing strategies",
+            "Client billing details"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Corporate minutes should document decisions made, actions authorized, votes taken, and other official business conducted at meetings."
         },
         {
@@ -1381,9 +1381,9 @@ Corporate paralegals play a vital role in ensuring businesses operate legally an
           question: "What is 'foreign qualification' for corporations?",
           options: [
             "Registering to do business in another state",
-            "Getting international business license",
+            "Hiring employees from other countries",
             "Qualifying for foreign investment",
-            "Hiring employees from other countries"
+            "Getting international business license"
           ],
           correctAnswer: 0,
           explanation: "Foreign qualification is the process of registering a corporation to conduct business in states other than its formation state."
@@ -1392,72 +1392,72 @@ Corporate paralegals play a vital role in ensuring businesses operate legally an
           id: 15,
           question: "What are blue sky laws?",
           options: [
-            "State securities regulations",
-            "Environmental protection laws",
+            "Corporate tax laws",
             "Business zoning regulations",
-            "Corporate tax laws"
+            "Environmental protection laws",
+            "State securities regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Blue sky laws are state regulations governing securities offerings and sales to protect investors from fraud."
         },
         {
           id: 16,
           question: "What is a shareholder agreement?",
           options: [
-            "Contract defining shareholder rights and restrictions",
-            "Annual report to shareholders",
             "Notice of shareholder meeting",
-            "Stock purchase receipt"
+            "Stock purchase receipt",
+            "Annual report to shareholders",
+            "Contract defining shareholder rights and restrictions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A shareholder agreement is a contract among shareholders defining rights, restrictions, and procedures for stock transfers and disputes."
         },
         {
           id: 17,
           question: "What is required for S-corporation status?",
           options: [
+            "International business permit",
             "IRS Form 2553 election",
             "State special license",
-            "International business permit",
             "Employee approval vote"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "S-corporation status requires filing IRS Form 2553 and meeting requirements like shareholder limits and single class of stock."
         },
         {
           id: 18,
           question: "What does UCC stand for in financing?",
           options: [
-            "Uniform Commercial Code",
-            "Universal Credit Code",
             "United Corporate Code",
-            "Uniform Compliance Code"
+            "Uniform Compliance Code",
+            "Universal Credit Code",
+            "Uniform Commercial Code"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "UCC is Uniform Commercial Code, governing commercial transactions including secured financing through UCC-1 financing statements."
         },
         {
           id: 19,
           question: "What is a derivative lawsuit?",
           options: [
-            "Shareholder suit on corporation's behalf",
-            "Lawsuit between directors",
             "Employee discrimination case",
-            "Customer injury claim"
+            "Customer injury claim",
+            "Lawsuit between directors",
+            "Shareholder suit on corporation's behalf"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A derivative lawsuit is filed by shareholders on behalf of the corporation against directors or officers for misconduct harming the corporation."
         },
         {
           id: 20,
           question: "What should corporate records retention policies address?",
           options: [
-            "How long to keep various documents",
-            "Employee vacation schedules",
             "Office supply inventories",
-            "Client entertainment expenses"
+            "Client entertainment expenses",
+            "Employee vacation schedules",
+            "How long to keep various documents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Records retention policies specify how long different types of documents must be kept for legal, tax, and business purposes."
         }
       ]
@@ -1764,12 +1764,12 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           id: 1,
           question: "What is the first phase in a real estate transaction?",
           options: [
-            "Pre-Contract Phase",
             "Due Diligence Phase",
+            "Post-Closing Phase",
             "Closing Phase",
-            "Post-Closing Phase"
+            "Pre-Contract Phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The pre-contract phase involves property marketing, buyer qualification, and initial negotiations before a contract is signed."
         },
         {
@@ -1778,8 +1778,8 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           options: [
             "Reviewing property's ownership history",
             "Inspecting physical property condition",
-            "Checking buyer's credit history",
-            "Verifying seller's employment"
+            "Verifying seller's employment",
+            "Checking buyer's credit history"
           ],
           correctAnswer: 0,
           explanation: "Title examination reviews the chain of ownership, identifies liens/encumbrances, and verifies marketable title."
@@ -1788,12 +1788,12 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           id: 3,
           question: "What type of deed provides maximum protection to buyers?",
           options: [
-            "Warranty Deed",
             "Quitclaim Deed",
+            "Warranty Deed",
             "Special Warranty Deed",
             "Sheriff's Deed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A warranty deed contains covenants that the grantor has good title and right to convey, providing maximum buyer protection."
         },
         {
@@ -1801,8 +1801,8 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           question: "What is a promissory note in real estate financing?",
           options: [
             "Promise to repay the loan amount",
-            "Property title document",
             "Insurance policy",
+            "Property title document",
             "Survey document"
           ],
           correctAnswer: 0,
@@ -1812,48 +1812,48 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           id: 5,
           question: "What is the ALTA/TRID settlement statement?",
           options: [
-            "Itemized closing cost statement",
+            "Loan application form",
             "Property tax bill",
-            "Home insurance policy",
-            "Loan application form"
+            "Itemized closing cost statement",
+            "Home insurance policy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The ALTA/TRID settlement statement itemizes all charges and credits for buyer and seller in a standardized format."
         },
         {
           id: 6,
           question: "What is a 1031 exchange?",
           options: [
-            "Tax-deferred property exchange",
-            "Property foreclosure process",
+            "Lease agreement type",
             "Mortgage refinancing",
-            "Lease agreement type"
+            "Tax-deferred property exchange",
+            "Property foreclosure process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A 1031 exchange allows deferring capital gains taxes when exchanging like-kind investment properties."
         },
         {
           id: 7,
           question: "What is judicial foreclosure?",
           options: [
-            "Court-supervised foreclosure process",
             "Quick property sale",
+            "Tax sale proceeding",
             "Voluntary property transfer",
-            "Tax sale proceeding"
+            "Court-supervised foreclosure process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Judicial foreclosure requires court proceedings and judgment before property can be sold to satisfy mortgage debt."
         },
         {
           id: 8,
           question: "What does zoning analysis involve?",
           options: [
-            "Verifying permitted property uses",
-            "Checking property taxes",
+            "Inspecting building materials",
             "Reviewing loan terms",
-            "Inspecting building materials"
+            "Checking property taxes",
+            "Verifying permitted property uses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Zoning analysis verifies permitted uses, setback requirements, height restrictions, and other land use regulations."
         },
         {
@@ -1861,9 +1861,9 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           question: "What is an appurtenant easement?",
           options: [
             "Easement benefiting adjacent property",
+            "Government land use",
             "Temporary access permission",
-            "Public utility right",
-            "Government land use"
+            "Public utility right"
           ],
           correctAnswer: 0,
           explanation: "An appurtenant easement attaches to and benefits a particular parcel of land, passing with property ownership."
@@ -1872,12 +1872,12 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           id: 10,
           question: "What must be disclosed for homes built before 1978?",
           options: [
-            "Lead-based paint hazards",
-            "Asbestos insulation",
             "Copper plumbing",
-            "Aluminum wiring"
+            "Aluminum wiring",
+            "Asbestos insulation",
+            "Lead-based paint hazards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Federal law requires disclosure of known lead-based paint hazards in residential properties built before 1978."
         },
         {
@@ -1885,9 +1885,9 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           question: "What are CC&Rs in real estate?",
           options: [
             "Covenants, Conditions, and Restrictions",
+            "Credit Check Requirements",
             "Closing Costs and Recording fees",
-            "Construction Codes and Regulations",
-            "Credit Check Requirements"
+            "Construction Codes and Regulations"
           ],
           correctAnswer: 0,
           explanation: "CC&Rs are Covenants, Conditions, and Restrictions that govern property use in planned communities and condominiums."
@@ -1896,84 +1896,84 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           id: 12,
           question: "What is a quiet title action?",
           options: [
-            "Lawsuit to clear title defects",
-            "Noisy neighbor complaint",
             "Zoning variance request",
-            "Mortgage modification"
+            "Mortgage modification",
+            "Noisy neighbor complaint",
+            "Lawsuit to clear title defects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A quiet title action is a lawsuit to establish clear title by removing clouds or disputes on ownership."
         },
         {
           id: 13,
           question: "What does RESPA regulate?",
           options: [
-            "Real estate settlement procedures",
             "Property tax assessments",
-            "Rental price controls",
-            "Construction standards"
+            "Construction standards",
+            "Real estate settlement procedures",
+            "Rental price controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "RESPA (Real Estate Settlement Procedures Act) regulates disclosure requirements and practices in residential real estate settlements."
         },
         {
           id: 14,
           question: "What is earnest money?",
           options: [
-            "Deposit showing buyer's serious intent",
             "Final payment at closing",
+            "Real estate agent commission",
             "Loan down payment",
-            "Real estate agent commission"
+            "Deposit showing buyer's serious intent"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Earnest money is a deposit made by the buyer to demonstrate serious intent and may be forfeited if buyer defaults."
         },
         {
           id: 15,
           question: "What is a contingency in a purchase agreement?",
           options: [
+            "Extended closing date",
             "Condition that must be met for sale to proceed",
-            "Additional property feature",
             "Extra commission clause",
-            "Extended closing date"
+            "Additional property feature"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingencies are conditions like financing approval or satisfactory inspection that must be met for the contract to be binding."
         },
         {
           id: 16,
           question: "What is proration in closing statements?",
           options: [
-            "Dividing expenses between buyer and seller",
-            "Increasing loan amounts",
             "Reducing property taxes",
-            "Calculating agent commissions"
+            "Calculating agent commissions",
+            "Increasing loan amounts",
+            "Dividing expenses between buyer and seller"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Proration divides expenses like property taxes and utilities between buyer and seller based on closing date."
         },
         {
           id: 17,
           question: "What is a lien in real estate?",
           options: [
-            "Claim against property as security for debt",
-            "Property boundary marker",
             "Building permit",
-            "Survey measurement"
+            "Survey measurement",
+            "Property boundary marker",
+            "Claim against property as security for debt"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A lien is a legal claim against property that must be paid when property is sold, such as mortgage or tax liens."
         },
         {
           id: 18,
           question: "What is a Phase I environmental assessment?",
           options: [
-            "Initial review for contamination indicators",
             "Final cleanup verification",
-            "Soil testing only",
-            "Water quality check"
+            "Water quality check",
+            "Initial review for contamination indicators",
+            "Soil testing only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Phase I assesses historical and current property uses to identify potential environmental contamination risks."
         },
         {
@@ -1992,12 +1992,12 @@ Real estate paralegals play a crucial role in one of life's most significant tra
           id: 20,
           question: "What are transfer taxes?",
           options: [
-            "Taxes on property ownership transfer",
-            "Income taxes on sale profit",
             "Annual property taxes",
-            "Sales taxes on improvements"
+            "Income taxes on sale profit",
+            "Sales taxes on improvements",
+            "Taxes on property ownership transfer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transfer taxes are imposed by state or local governments when property ownership is transferred, typically based on sale price."
         }
       ]
@@ -2287,9 +2287,9 @@ Estate planning and probate paralegals provide essential services during life's 
           question: "What is the primary purpose of a last will and testament?",
           options: [
             "Specify asset distribution after death",
-            "Avoid all estate taxes",
+            "Replace all other estate documents",
             "Create immediate asset transfers",
-            "Replace all other estate documents"
+            "Avoid all estate taxes"
           ],
           correctAnswer: 0,
           explanation: "A will specifies how assets should be distributed, names an executor, and can appoint guardians for minor children."
@@ -2299,8 +2299,8 @@ Estate planning and probate paralegals provide essential services during life's 
           question: "What does a revocable living trust primarily accomplish?",
           options: [
             "Avoids probate for trust assets",
-            "Eliminates all estate taxes",
             "Provides immediate Medicaid eligibility",
+            "Eliminates all estate taxes",
             "Replaces the need for a will"
           ],
           correctAnswer: 0,
@@ -2310,84 +2310,84 @@ Estate planning and probate paralegals provide essential services during life's 
           id: 3,
           question: "What is testamentary capacity?",
           options: [
-            "Mental ability to make a valid will",
             "Physical ability to sign documents",
+            "Legal training to understand documents",
             "Financial knowledge to manage assets",
-            "Legal training to understand documents"
+            "Mental ability to make a valid will"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Testamentary capacity requires understanding the nature of the document, extent of property, and natural beneficiaries."
         },
         {
           id: 4,
           question: "What is the role of an executor?",
           options: [
-            "Administer the estate according to the will",
             "Make healthcare decisions",
             "Manage assets before death",
-            "Provide legal advice to family"
+            "Provide legal advice to family",
+            "Administer the estate according to the will"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The executor collects assets, pays debts and taxes, and distributes remaining assets according to the will."
         },
         {
           id: 5,
           question: "What is probate?",
           options: [
-            "Court-supervised estate administration",
-            "Automatic asset distribution",
+            "Will drafting procedure",
             "Tax assessment process",
-            "Will drafting procedure"
+            "Court-supervised estate administration",
+            "Automatic asset distribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Probate is the legal process of validating a will and administering an estate under court supervision."
         },
         {
           id: 6,
           question: "What document allows financial decisions during incapacity?",
           options: [
-            "Durable Power of Attorney",
-            "Healthcare Directive",
             "Living Will",
-            "Trust Agreement"
+            "Trust Agreement",
+            "Durable Power of Attorney",
+            "Healthcare Directive"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A durable power of attorney appoints an agent to handle financial matters if the principal becomes incapacitated."
         },
         {
           id: 7,
           question: "What is a residuary clause in a will?",
           options: [
-            "Distributes remaining assets after specific gifts",
             "Names the executor",
+            "Revokes prior wills",
             "Appoints guardians",
-            "Revokes prior wills"
+            "Distributes remaining assets after specific gifts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The residuary clause distributes any assets not specifically given elsewhere in the will."
         },
         {
           id: 8,
           question: "What is Form 706?",
           options: [
-            "Federal Estate Tax Return",
-            "Final Income Tax Return",
             "Gift Tax Return",
-            "Estate Income Tax Return"
+            "Federal Estate Tax Return",
+            "Estate Income Tax Return",
+            "Final Income Tax Return"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Form 706 is the United States Estate (and Generation-Skipping Transfer) Tax Return for large estates."
         },
         {
           id: 9,
           question: "What is the annual gift tax exclusion amount?",
           options: [
-            "$15,000 per recipient (as of 2021)",
-            "$10,000 total per year",
             "$50,000 per recipient",
-            "No limit for family members"
+            "No limit for family members",
+            "$15,000 per recipient (as of 2021)",
+            "$10,000 total per year"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The annual exclusion allows gifts up to $15,000 per recipient per year without gift tax consequences or reporting."
         },
         {
@@ -2395,9 +2395,9 @@ Estate planning and probate paralegals provide essential services during life's 
           question: "What is a QTIP trust?",
           options: [
             "Qualified Terminable Interest Property trust for spouses",
+            "Quarterly Trust Investment Plan",
             "Quick Transfer Inheritance Plan",
-            "Qualified Tax Incentive Program",
-            "Quarterly Trust Investment Plan"
+            "Qualified Tax Incentive Program"
           ],
           correctAnswer: 0,
           explanation: "A QTIP trust provides income to surviving spouse while preserving principal for other beneficiaries, qualifying for marital deduction."
@@ -2406,48 +2406,48 @@ Estate planning and probate paralegals provide essential services during life's 
           id: 11,
           question: "What are non-probate assets?",
           options: [
-            "Assets passing outside the will",
-            "Assets subject to extra taxes",
             "Illegally obtained assets",
-            "Foreign country assets"
+            "Foreign country assets",
+            "Assets subject to extra taxes",
+            "Assets passing outside the will"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Non-probate assets pass directly to beneficiaries via beneficiary designations, joint ownership, or trust ownership."
         },
         {
           id: 12,
           question: "What is a self-proving affidavit?",
           options: [
-            "Notarized witness statement attached to will",
             "Executor's acceptance document",
+            "Court appointment order",
             "Beneficiary receipt form",
-            "Court appointment order"
+            "Notarized witness statement attached to will"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A self-proving affidavit contains witnesses' sworn statements, allowing probate without locating witnesses after death."
         },
         {
           id: 13,
           question: "What is a special needs trust?",
           options: [
-            "Preserves government benefit eligibility",
             "Provides for luxury items only",
+            "Preserves government benefit eligibility",
             "Limits beneficiary spending",
             "Avoids all taxes permanently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A special needs trust provides supplemental care without disqualifying beneficiary from needs-based government benefits."
         },
         {
           id: 14,
           question: "What is portability in estate tax?",
           options: [
-            "Unused exemption transferred to surviving spouse",
             "Moving assets between states",
             "Converting assets to portable form",
+            "Unused exemption transferred to surviving spouse",
             "Transferring tax liability to heirs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Portability allows surviving spouse to use deceased spouse's unused estate tax exemption by filing Form 706."
         },
         {
@@ -2455,9 +2455,9 @@ Estate planning and probate paralegals provide essential services during life's 
           question: "What is the order of payment for estate debts?",
           options: [
             "Administration expenses, taxes, secured debts, unsecured debts",
+            "Largest debts first regardless of type",
             "Family claims first, then others",
-            "Alphabetical by creditor name",
-            "Largest debts first regardless of type"
+            "Alphabetical by creditor name"
           ],
           correctAnswer: 0,
           explanation: "State laws specify payment priority: administration costs, taxes, secured debts, then unsecured debts in probate."
@@ -2466,24 +2466,24 @@ Estate planning and probate paralegals provide essential services during life's 
           id: 16,
           question: "What is a testamentary trust?",
           options: [
-            "Trust created by a will",
             "Trust created during life",
             "Trust for testament writing",
-            "Temporary trust arrangement"
+            "Temporary trust arrangement",
+            "Trust created by a will"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A testamentary trust is created by a will and comes into existence only after the testator's death."
         },
         {
           id: 17,
           question: "What is a pour-over will?",
           options: [
+            "Applies to overseas assets only",
             "Transfers remaining assets to existing trust",
-            "Distributes liquid assets only",
             "Requires asset liquidation",
-            "Applies to overseas assets only"
+            "Distributes liquid assets only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A pour-over will transfers any assets not in the trust at death into the trust for distribution."
         },
         {
@@ -2491,9 +2491,9 @@ Estate planning and probate paralegals provide essential services during life's 
           question: "What is a holographic will?",
           options: [
             "Handwritten and signed by testator",
+            "Will prepared by hologram technology",
             "Typed with handwritten changes",
-            "Will with multiple attachments",
-            "Will prepared by hologram technology"
+            "Will with multiple attachments"
           ],
           correctAnswer: 0,
           explanation: "A holographic will is entirely handwritten and signed by the testator, valid in some states without witnesses."
@@ -2502,12 +2502,12 @@ Estate planning and probate paralegals provide essential services during life's 
           id: 19,
           question: "What is a disclaimer in estate planning?",
           options: [
-            "Refusal to accept inheritance",
-            "Legal claim against estate",
             "Will contest document",
-            "Executor resignation"
+            "Executor resignation",
+            "Refusal to accept inheritance",
+            "Legal claim against estate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A disclaimer allows beneficiary to refuse inheritance, which then passes to alternate beneficiaries."
         },
         {
@@ -2515,9 +2515,9 @@ Estate planning and probate paralegals provide essential services during life's 
           question: "What is a credit shelter trust?",
           options: [
             "Uses deceased spouse's estate tax exemption",
-            "Provides creditor protection only",
+            "Credits assets to multiple trusts",
             "Shelters income from taxes",
-            "Credits assets to multiple trusts"
+            "Provides creditor protection only"
           ],
           correctAnswer: 0,
           explanation: "A credit shelter trust uses the deceased spouse's estate tax exemption to benefit family while providing for surviving spouse."
@@ -2858,24 +2858,24 @@ Mastering ethics and office management ensures you contribute to a successful, e
           id: 1,
           question: "What is unauthorized practice of law (UPL)?",
           options: [
-            "Non-lawyers performing legal services independently",
+            "Attorneys specializing in new areas",
             "Lawyers practicing in multiple states",
             "Paralegals working under supervision",
-            "Attorneys specializing in new areas"
+            "Non-lawyers performing legal services independently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "UPL occurs when non-lawyers perform legal services that require a law license, such as giving legal advice or representing clients in court."
         },
         {
           id: 2,
           question: "What must attorneys provide for paralegals?",
           options: [
-            "Adequate supervision and direction",
             "Equal partnership status",
-            "Independent client relationships",
-            "Fee splitting arrangements"
+            "Adequate supervision and direction",
+            "Fee splitting arrangements",
+            "Independent client relationships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Attorneys must provide adequate supervision, direction, and review of paralegal work as they remain responsible for the legal services provided."
         },
         {
@@ -2883,8 +2883,8 @@ Mastering ethics and office management ensures you contribute to a successful, e
           question: "What is the attorney-client privilege?",
           options: [
             "Confidential communications protection",
-            "Attorney payment priority",
             "Client referral system",
+            "Attorney payment priority",
             "Legal education requirement"
           ],
           correctAnswer: 0,
@@ -2894,12 +2894,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
           id: 4,
           question: "What must be maintained separately from operating accounts?",
           options: [
+            "Office supply accounts",
             "Client trust accounts",
             "Employee payroll accounts",
-            "Vendor payment accounts",
-            "Office supply accounts"
+            "Vendor payment accounts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Client funds must be kept in separate trust accounts to prevent commingling with law firm operating funds."
         },
         {
@@ -2908,8 +2908,8 @@ Mastering ethics and office management ensures you contribute to a successful, e
           options: [
             "Situation compromising loyalty to client",
             "Disagreement between attorneys",
-            "Client payment dispute",
-            "Office scheduling problem"
+            "Office scheduling problem",
+            "Client payment dispute"
           ],
           correctAnswer: 0,
           explanation: "A conflict of interest occurs when an attorney's duty to one client conflicts with duty to another client or personal interest."
@@ -2918,48 +2918,48 @@ Mastering ethics and office management ensures you contribute to a successful, e
           id: 6,
           question: "What does case management software typically include?",
           options: [
-            "Matter tracking and document management",
-            "Personal social media integration",
             "Home automation controls",
-            "Gaming applications"
+            "Personal social media integration",
+            "Gaming applications",
+            "Matter tracking and document management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Case management software helps track matters, manage documents, control calendars, track time, and generate reports."
         },
         {
           id: 7,
           question: "What is a tickler system?",
           options: [
-            "Deadline and follow-up reminder system",
-            "Employee time clock",
+            "Office supply tracker",
             "Client payment reminder",
-            "Office supply tracker"
+            "Employee time clock",
+            "Deadline and follow-up reminder system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A tickler system provides reminders for deadlines, court dates, follow-up tasks, and other time-sensitive matters."
         },
         {
           id: 8,
           question: "What should be included in disaster recovery planning?",
           options: [
-            "Data backup procedures and alternative work arrangements",
             "Employee vacation schedules",
+            "Data backup procedures and alternative work arrangements",
             "Client entertainment budgets",
             "Office decoration plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Disaster recovery plans should address data backup, alternative work locations, client communication, and essential function continuation."
         },
         {
           id: 9,
           question: "What is professional liability insurance?",
           options: [
-            "Coverage for malpractice claims",
+            "Property insurance for office buildings",
             "Health insurance for professionals",
             "Auto insurance for business vehicles",
-            "Property insurance for office buildings"
+            "Coverage for malpractice claims"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Professional liability insurance (malpractice insurance) covers claims arising from professional services errors or omissions."
         },
         {
@@ -2978,12 +2978,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
           id: 11,
           question: "What is the work product doctrine?",
           options: [
-            "Protection for attorney's case preparation materials",
             "Rule about employee productivity",
+            "Office efficiency standard",
             "Client work requirement",
-            "Office efficiency standard"
+            "Protection for attorney's case preparation materials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The work product doctrine protects materials prepared in anticipation of litigation from discovery by opposing parties."
         },
         {
@@ -2992,8 +2992,8 @@ Mastering ethics and office management ensures you contribute to a successful, e
           options: [
             "Scope of representation and fee arrangement",
             "Attorney's personal biography",
-            "Office holiday schedule",
-            "Employee performance reviews"
+            "Employee performance reviews",
+            "Office holiday schedule"
           ],
           correctAnswer: 0,
           explanation: "Engagement letters define the attorney-client relationship, scope of services, fees, and other important terms."
@@ -3002,48 +3002,48 @@ Mastering ethics and office management ensures you contribute to a successful, e
           id: 13,
           question: "What is a Chinese wall in law firms?",
           options: [
-            "Procedures to isolate conflicted attorneys",
             "Office partition system",
-            "Client waiting area",
-            "Document storage area"
+            "Procedures to isolate conflicted attorneys",
+            "Document storage area",
+            "Client waiting area"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A Chinese wall involves procedures to isolate attorneys with conflicts from matter information while others handle it."
         },
         {
           id: 14,
           question: "What does UPL stand for?",
           options: [
-            "Unauthorized Practice of Law",
             "Uniform Paralegal Licensing",
-            "United Practice Legislation",
-            "Universal Professional Liability"
+            "Universal Professional Liability",
+            "Unauthorized Practice of Law",
+            "United Practice Legislation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "UPL stands for Unauthorized Practice of Law, which paralegals must avoid by working under proper attorney supervision."
         },
         {
           id: 15,
           question: "What should be documented in client communications?",
           options: [
-            "Substance of discussions and advice given",
             "Client's personal opinions",
-            "Attorney's personal feelings",
-            "Office gossip"
+            "Substance of discussions and advice given",
+            "Office gossip",
+            "Attorney's personal feelings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Client communications should be documented with date, participants, substance discussed, and any advice given."
         },
         {
           id: 16,
           question: "What is the purpose of a conflicts check?",
           options: [
-            "Identify potential representation conflicts",
             "Verify client credit history",
-            "Check attorney availability",
-            "Review court schedules"
+            "Review court schedules",
+            "Identify potential representation conflicts",
+            "Check attorney availability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Conflicts checks identify whether representing a new client would conflict with duties to existing or former clients."
         },
         {
@@ -3051,8 +3051,8 @@ Mastering ethics and office management ensures you contribute to a successful, e
           question: "What are billable hours?",
           options: [
             "Time charged to client matters",
-            "Office maintenance time",
             "Employee break time",
+            "Office maintenance time",
             "Training program hours"
           ],
           correctAnswer: 0,
@@ -3062,24 +3062,24 @@ Mastering ethics and office management ensures you contribute to a successful, e
           id: 18,
           question: "What should be included in a file closing procedure?",
           options: [
-            "Final billing, document retention, and client notification",
-            "Office party planning",
             "New client recruitment",
-            "Attorney vacation scheduling"
+            "Attorney vacation scheduling",
+            "Office party planning",
+            "Final billing, document retention, and client notification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "File closing includes final billing, determining document retention, notifying clients, and archiving or destroying files appropriately."
         },
         {
           id: 19,
           question: "What is the ABA Model Guidelines for?",
           options: [
-            "Paralegal utilization and supervision",
             "Attorney billing rates",
             "Courtroom design",
+            "Paralegal utilization and supervision",
             "Law school curriculum"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ABA Model Guidelines provide standards for paralegal utilization, supervision, and ethical responsibilities."
         },
         {
@@ -3087,8 +3087,8 @@ Mastering ethics and office management ensures you contribute to a successful, e
           question: "What is an ethical wall?",
           options: [
             "Procedures to prevent confidential information sharing",
-            "Office privacy partition",
             "Client confidentiality agreement",
+            "Office privacy partition",
             "Data encryption system"
           ],
           correctAnswer: 0,
@@ -3123,12 +3123,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 2,
         question: "What document begins a lawsuit?",
         options: [
-          "Complaint",
-          "Answer",
+          "Motion to Dismiss",
           "Interrogatories",
-          "Motion to Dismiss"
+          "Complaint",
+          "Answer"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The complaint is the initial pleading that starts a lawsuit by stating claims against the defendant.",
         module: 1
       },
@@ -3137,8 +3137,8 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What are written questions sent to the opposing party called?",
         options: [
           "Interrogatories",
-          "Depositions",
           "Requests for Production",
+          "Depositions",
           "Motions in Limine"
         ],
         correctAnswer: 0,
@@ -3150,9 +3150,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What does ESI stand for in modern litigation?",
         options: [
           "Electronically Stored Information",
-          "Electronic Submission Interface",
           "Evidence Storage Inventory",
-          "Exhibit Summary Index"
+          "Exhibit Summary Index",
+          "Electronic Submission Interface"
         ],
         correctAnswer: 0,
         explanation: "ESI includes emails, documents, databases, and other digital evidence in litigation.",
@@ -3164,12 +3164,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 5,
         question: "What is the first step in legal research methodology?",
         options: [
-          "Understand the legal issue and jurisdiction",
           "Search Westlaw for cases",
+          "Understand the legal issue and jurisdiction",
           "Read law review articles",
           "Check statutes online"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Proper research begins with thoroughly understanding the issue, jurisdiction, and client objectives.",
         module: 2
       },
@@ -3177,12 +3177,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 6,
         question: "What does IRAC stand for in legal writing?",
         options: [
-          "Issue, Rule, Analysis, Conclusion",
-          "Introduction, Research, Argument, Conclusion",
           "Issue, Research, Application, Conclusion",
-          "Introduction, Rule, Analysis, Citation"
+          "Issue, Rule, Analysis, Conclusion",
+          "Introduction, Rule, Analysis, Citation",
+          "Introduction, Research, Argument, Conclusion"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "IRAC is the standard structure for legal analysis: Issue, Rule, Analysis, Conclusion.",
         module: 2
       },
@@ -3190,12 +3190,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 7,
         question: "What is the purpose of Shepardizing or KeyCiting?",
         options: [
+          "Organize research notes",
           "Validate that cases are still good law",
           "Find new cases on similar topics",
-          "Check spelling in documents",
-          "Organize research notes"
+          "Check spelling in documents"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "These tools check if cases have been overturned, criticized, or followed by later decisions.",
         module: 2
       },
@@ -3204,9 +3204,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What are secondary sources in legal research?",
         options: [
           "Resources that explain and analyze primary law",
+          "Constitutional provisions",
           "Original court decisions",
-          "Statutes passed by legislatures",
-          "Constitutional provisions"
+          "Statutes passed by legislatures"
         ],
         correctAnswer: 0,
         explanation: "Secondary sources include encyclopedias, treatises, and law reviews that analyze primary law.",
@@ -3218,12 +3218,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 9,
         question: "What document is filed to create a corporation?",
         options: [
-          "Articles of Incorporation",
-          "Operating Agreement",
+          "Business License",
           "Partnership Agreement",
-          "Business License"
+          "Articles of Incorporation",
+          "Operating Agreement"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Articles of Incorporation are filed with the secretary of state to create a corporation.",
         module: 3
       },
@@ -3231,12 +3231,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 10,
         question: "What is the role of a registered agent?",
         options: [
-          "Accept legal documents on the entity's behalf",
-          "Manage daily business operations",
+          "Prepare financial statements",
           "Handle marketing and sales",
-          "Prepare financial statements"
+          "Accept legal documents on the entity's behalf",
+          "Manage daily business operations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Registered agents accept service of process and legal documents for the business entity.",
         module: 3
       },
@@ -3245,9 +3245,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What is 'double taxation' for C-corporations?",
         options: [
           "Corporate profits taxed, then dividends taxed",
-          "State and federal taxes separately",
+          "Employee and employer taxes",
           "Import and export taxes",
-          "Employee and employer taxes"
+          "State and federal taxes separately"
         ],
         correctAnswer: 0,
         explanation: "C-corporations face taxation at corporate level and again when dividends are distributed to shareholders.",
@@ -3257,12 +3257,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 12,
         question: "What is an operating agreement?",
         options: [
-          "LLC's internal governing document",
-          "Corporate tax filing document",
           "Business loan agreement",
-          "Employee contract template"
+          "Employee contract template",
+          "Corporate tax filing document",
+          "LLC's internal governing document"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Operating agreements define member rights, management, and operations for LLCs.",
         module: 3
       },
@@ -3272,12 +3272,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 13,
         question: "What does a title examination involve?",
         options: [
-          "Reviewing property's ownership history",
           "Inspecting physical property condition",
+          "Verifying seller's employment",
           "Checking buyer's credit history",
-          "Verifying seller's employment"
+          "Reviewing property's ownership history"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Title examination reviews chain of ownership and identifies liens/encumbrances.",
         module: 4
       },
@@ -3287,8 +3287,8 @@ Mastering ethics and office management ensures you contribute to a successful, e
         options: [
           "Warranty Deed",
           "Quitclaim Deed",
-          "Special Warranty Deed",
-          "Sheriff's Deed"
+          "Sheriff's Deed",
+          "Special Warranty Deed"
         ],
         correctAnswer: 0,
         explanation: "Warranty deeds contain covenants guaranteeing clear title, providing maximum buyer protection.",
@@ -3298,12 +3298,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 15,
         question: "What is the ALTA/TRID settlement statement?",
         options: [
-          "Itemized closing cost statement",
           "Property tax bill",
-          "Home insurance policy",
-          "Loan application form"
+          "Itemized closing cost statement",
+          "Loan application form",
+          "Home insurance policy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "This standardized form itemizes all charges and credits for buyer and seller at closing.",
         module: 4
       },
@@ -3311,12 +3311,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 16,
         question: "What is a 1031 exchange?",
         options: [
-          "Tax-deferred property exchange",
-          "Property foreclosure process",
           "Mortgage refinancing",
-          "Lease agreement type"
+          "Lease agreement type",
+          "Tax-deferred property exchange",
+          "Property foreclosure process"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "1031 exchanges allow deferring capital gains taxes when exchanging like-kind investment properties.",
         module: 4
       },
@@ -3327,9 +3327,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What is the primary purpose of a last will and testament?",
         options: [
           "Specify asset distribution after death",
-          "Avoid all estate taxes",
           "Create immediate asset transfers",
-          "Replace all other estate documents"
+          "Replace all other estate documents",
+          "Avoid all estate taxes"
         ],
         correctAnswer: 0,
         explanation: "Wills specify asset distribution, name executors, and appoint guardians for minors.",
@@ -3339,12 +3339,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 18,
         question: "What does a revocable living trust primarily accomplish?",
         options: [
-          "Avoids probate for trust assets",
           "Eliminates all estate taxes",
           "Provides immediate Medicaid eligibility",
-          "Replaces the need for a will"
+          "Replaces the need for a will",
+          "Avoids probate for trust assets"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Living trusts avoid probate for assets properly transferred during the grantor's lifetime.",
         module: 5
       },
@@ -3352,12 +3352,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 19,
         question: "What is the role of an executor?",
         options: [
+          "Provide legal advice to family",
           "Administer the estate according to the will",
-          "Make healthcare decisions",
           "Manage assets before death",
-          "Provide legal advice to family"
+          "Make healthcare decisions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Executors collect assets, pay debts/taxes, and distribute remaining assets per the will.",
         module: 5
       },
@@ -3366,9 +3366,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What is Form 706?",
         options: [
           "Federal Estate Tax Return",
+          "Estate Income Tax Return",
           "Final Income Tax Return",
-          "Gift Tax Return",
-          "Estate Income Tax Return"
+          "Gift Tax Return"
         ],
         correctAnswer: 0,
         explanation: "Form 706 is the United States Estate (and Generation-Skipping Transfer) Tax Return.",
@@ -3381,9 +3381,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What is unauthorized practice of law (UPL)?",
         options: [
           "Non-lawyers performing legal services independently",
-          "Lawyers practicing in multiple states",
           "Paralegals working under supervision",
-          "Attorneys specializing in new areas"
+          "Attorneys specializing in new areas",
+          "Lawyers practicing in multiple states"
         ],
         correctAnswer: 0,
         explanation: "UPL occurs when non-lawyers perform services requiring a law license without proper supervision.",
@@ -3406,12 +3406,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 23,
         question: "What is the attorney-client privilege?",
         options: [
-          "Confidential communications protection",
-          "Attorney payment priority",
+          "Legal education requirement",
           "Client referral system",
-          "Legal education requirement"
+          "Attorney payment priority",
+          "Confidential communications protection"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Attorney-client privilege protects confidential communications from compelled disclosure.",
         module: 6
       },
@@ -3419,12 +3419,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 24,
         question: "What must be maintained separately from operating accounts?",
         options: [
-          "Client trust accounts",
           "Employee payroll accounts",
+          "Client trust accounts",
           "Vendor payment accounts",
           "Office supply accounts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Client funds must be kept in separate trust accounts to prevent commingling.",
         module: 6
       },
@@ -3434,12 +3434,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 25,
         question: "What motion asks the court to decide a case without trial?",
         options: [
-          "Motion for Summary Judgment",
-          "Motion to Dismiss",
           "Motion to Compel",
-          "Motion in Limine"
+          "Motion in Limine",
+          "Motion for Summary Judgment",
+          "Motion to Dismiss"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Summary judgment motions ask courts to rule based on law when there are no factual disputes.",
         module: 1
       },
@@ -3447,12 +3447,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 26,
         question: "What is the Bluebook?",
         options: [
-          "Guide for legal citation format",
           "Directory of attorneys",
+          "Guide for legal citation format",
           "Court scheduling calendar",
           "Legal ethics manual"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The Bluebook is the standard reference for legal citation format in U.S. legal writing.",
         module: 2
       },
@@ -3460,12 +3460,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 27,
         question: "What are corporate bylaws?",
         options: [
-          "Internal rules governing corporate operations",
           "Publicly filed formation documents",
+          "Tax filing requirements",
           "Government regulations for corporations",
-          "Tax filing requirements"
+          "Internal rules governing corporate operations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Bylaws are internal rules governing director/officer roles and corporate procedures.",
         module: 3
       },
@@ -3473,12 +3473,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 28,
         question: "What is earnest money in real estate?",
         options: [
-          "Deposit showing buyer's serious intent",
-          "Final payment at closing",
           "Loan down payment",
-          "Real estate agent commission"
+          "Final payment at closing",
+          "Real estate agent commission",
+          "Deposit showing buyer's serious intent"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Earnest money demonstrates buyer's serious intent and may be forfeited if buyer defaults.",
         module: 4
       },
@@ -3486,12 +3486,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 29,
         question: "What is a special needs trust?",
         options: [
-          "Preserves government benefit eligibility",
+          "Avoids all taxes permanently",
           "Provides for luxury items only",
-          "Limits beneficiary spending",
-          "Avoids all taxes permanently"
+          "Preserves government benefit eligibility",
+          "Limits beneficiary spending"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Special needs trusts provide supplemental care without disqualifying from needs-based government benefits.",
         module: 5
       },
@@ -3500,9 +3500,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What is a conflict of interest?",
         options: [
           "Situation compromising loyalty to client",
+          "Office scheduling problem",
           "Disagreement between attorneys",
-          "Client payment dispute",
-          "Office scheduling problem"
+          "Client payment dispute"
         ],
         correctAnswer: 0,
         explanation: "Conflict of interest occurs when duty to one client conflicts with another duty or personal interest.",
@@ -3512,12 +3512,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 31,
         question: "What is a deposition?",
         options: [
-          "Witness interview under oath before trial",
           "Courtroom testimony during trial",
           "Written statement to police",
+          "Witness interview under oath before trial",
           "Settlement negotiation meeting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Depositions are sworn out-of-court testimonies used for discovery and testimony preservation.",
         module: 1
       },
@@ -3526,9 +3526,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What are annotated statutes?",
         options: [
           "Statutes with case summaries and references",
-          "Statutes with personal notes",
+          "Historical statute collections",
           "Unofficial statute versions",
-          "Historical statute collections"
+          "Statutes with personal notes"
         ],
         correctAnswer: 0,
         explanation: "Annotated statutes include text plus case summaries and references to related materials.",
@@ -3538,12 +3538,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 33,
         question: "What is due diligence in business transactions?",
         options: [
-          "Thorough investigation before completing deal",
+          "Initial price negotiation",
           "Basic paperwork filing",
-          "Casual business discussion",
-          "Initial price negotiation"
+          "Thorough investigation before completing deal",
+          "Casual business discussion"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Due diligence involves comprehensive investigation of legal, financial, and operational status.",
         module: 3
       },
@@ -3552,9 +3552,9 @@ Mastering ethics and office management ensures you contribute to a successful, e
         question: "What does RESPA regulate?",
         options: [
           "Real estate settlement procedures",
-          "Property tax assessments",
           "Rental price controls",
-          "Construction standards"
+          "Construction standards",
+          "Property tax assessments"
         ],
         correctAnswer: 0,
         explanation: "RESPA regulates disclosure requirements and practices in residential real estate settlements.",
@@ -3564,12 +3564,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 35,
         question: "What is testamentary capacity?",
         options: [
-          "Mental ability to make a valid will",
-          "Physical ability to sign documents",
           "Financial knowledge to manage assets",
-          "Legal training to understand documents"
+          "Physical ability to sign documents",
+          "Legal training to understand documents",
+          "Mental ability to make a valid will"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Testamentary capacity requires understanding the will's nature, property extent, and beneficiaries.",
         module: 5
       },
@@ -3577,12 +3577,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 36,
         question: "What does case management software typically include?",
         options: [
-          "Matter tracking and document management",
-          "Personal social media integration",
           "Home automation controls",
-          "Gaming applications"
+          "Matter tracking and document management",
+          "Gaming applications",
+          "Personal social media integration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Case management software tracks matters, manages documents, controls calendars, and generates reports.",
         module: 6
       },
@@ -3590,12 +3590,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 37,
         question: "What is a privilege log in discovery?",
         options: [
-          "List of documents withheld due to privilege",
-          "Record of attorney billing hours",
           "Court fee payment record",
-          "Witness compensation log"
+          "Witness compensation log",
+          "List of documents withheld due to privilege",
+          "Record of attorney billing hours"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Privilege logs identify withheld documents and explain privileges claimed for each.",
         module: 1
       },
@@ -3603,12 +3603,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 38,
         question: "What is the CREAC writing method?",
         options: [
+          "Client, Research, Evidence, Argument, Conclusion",
           "Conclusion, Rule, Explanation, Application, Conclusion",
           "Citation, Research, Evaluation, Analysis, Conclusion",
-          "Case, Rule, Example, Application, Citation",
-          "Client, Research, Evidence, Argument, Conclusion"
+          "Case, Rule, Example, Application, Citation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "CREAC is an alternative to IRAC that begins with conclusion, then explains rule and application.",
         module: 2
       },
@@ -3616,12 +3616,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 39,
         question: "What is a shareholder agreement?",
         options: [
+          "Stock purchase receipt",
           "Contract defining shareholder rights and restrictions",
           "Annual report to shareholders",
-          "Notice of shareholder meeting",
-          "Stock purchase receipt"
+          "Notice of shareholder meeting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Shareholder agreements define rights, restrictions, and procedures for stock transfers and disputes.",
         module: 3
       },
@@ -3629,12 +3629,12 @@ Mastering ethics and office management ensures you contribute to a successful, e
         id: 40,
         question: "What is a tickler system in law office management?",
         options: [
-          "Deadline and follow-up reminder system",
           "Employee time clock",
-          "Client payment reminder",
-          "Office supply tracker"
+          "Office supply tracker",
+          "Deadline and follow-up reminder system",
+          "Client payment reminder"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Tickler systems provide reminders for deadlines, court dates, and follow-up tasks.",
         module: 6
       }

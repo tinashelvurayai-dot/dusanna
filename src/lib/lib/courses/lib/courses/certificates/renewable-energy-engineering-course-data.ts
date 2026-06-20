@@ -75,10 +75,10 @@ Engineering solutions for integration issues:
           id: 1,
           question: "What law states energy cannot be created or destroyed?",
           options: [
-            "Second Law of Thermodynamics",
-            "First Law of Thermodynamics",
             "Law of Energy Density",
-            "Law of Conversion Efficiency"
+            "First Law of Thermodynamics",
+            "Law of Conversion Efficiency",
+            "Second Law of Thermodynamics"
           ],
           correctAnswer: 1,
           explanation: "First Law of Thermodynamics: Energy can only be converted from one form to another."
@@ -87,84 +87,84 @@ Engineering solutions for integration issues:
           id: 2,
           question: "What is the ratio of useful output to total input energy?",
           options: [
-            "Capacity Factor",
             "Energy Density",
-            "Conversion Efficiency",
-            "Performance Ratio"
+            "Capacity Factor",
+            "Performance Ratio",
+            "Conversion Efficiency"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Conversion Efficiency measures how effectively energy is converted from input to useful output."
         },
         {
           id: 3,
           question: "What semiconductor physics principle enables solar cells?",
           options: [
-            "Thermoelectric Effect",
-            "Photovoltaic Effect",
+            "Electrochemical Reaction",
             "Electromagnetic Induction",
-            "Electrochemical Reaction"
+            "Thermoelectric Effect",
+            "Photovoltaic Effect"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Photovoltaic Effect: Light energy creates electron-hole pairs in semiconductors, generating voltage."
         },
         {
           id: 4,
           question: "What algorithms extract maximum power from solar arrays?",
           options: [
+            "Grid Synchronization",
             "MPPT Algorithms",
-            "Battery Management",
             "Thermal Regulation",
-            "Grid Synchronization"
+            "Battery Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Maximum Power Point Tracking algorithms continuously adjust operating points for optimal power extraction."
         },
         {
           id: 5,
           question: "What engineering principle governs wind turbine blade design?",
           options: [
-            "Structural Dynamics",
-            "Aerodynamics",
+            "Electrodynamics",
             "Thermodynamics",
-            "Electrodynamics"
+            "Structural Dynamics",
+            "Aerodynamics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Aerodynamics: Airflow over airfoil-shaped blades creates lift, causing rotation."
         },
         {
           id: 6,
           question: "What measures actual output compared to maximum possible?",
           options: [
-            "Conversion Efficiency",
             "Energy Density",
-            "Capacity Factor",
-            "Performance Ratio"
+            "Performance Ratio",
+            "Conversion Efficiency",
+            "Capacity Factor"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Capacity Factor: Actual energy output divided by maximum possible output if operating at full capacity continuously."
         },
         {
           id: 7,
           question: "What manages battery monitoring, balancing, and protection?",
           options: [
-            "Charge Controllers",
-            "Battery Management Systems",
             "Power Converters",
-            "System Controllers"
+            "Charge Controllers",
+            "System Controllers",
+            "Battery Management Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Battery Management Systems ensure safe operation and maximize battery life through monitoring and control."
         },
         {
           id: 8,
           question: "What law states energy conversions are never 100% efficient?",
           options: [
+            "Law of Entropy",
             "First Law of Thermodynamics",
-            "Second Law of Thermodynamics",
             "Law of Energy Conservation",
-            "Law of Entropy"
+            "Second Law of Thermodynamics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Second Law of Thermodynamics: Some energy is always lost as waste heat during conversions."
         },
         {
@@ -172,9 +172,9 @@ Engineering solutions for integration issues:
           question: "What technology uses light from both sides of solar panels?",
           options: [
             "Monocrystalline",
-            "Polycrystalline",
+            "Thin-Film",
             "Bifacial",
-            "Thin-Film"
+            "Polycrystalline"
           ],
           correctAnswer: 2,
           explanation: "Bifacial solar panels generate electricity from light hitting both front and rear surfaces."
@@ -183,106 +183,106 @@ Engineering solutions for integration issues:
           id: 10,
           question: "What involves advanced site analysis for wind projects?",
           options: [
-            "Rotor Dynamics",
             "Wind Resource Assessment",
+            "Control Systems",
             "Structural Engineering",
-            "Control Systems"
+            "Rotor Dynamics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Wind Resource Assessment uses meteorological data and modeling to predict energy yield."
         },
         {
           id: 11,
           question: "What stores energy as sensible or latent heat?",
           options: [
-            "Battery Storage",
-            "Thermal Storage",
             "Mechanical Storage",
-            "Hydrogen Storage"
+            "Hydrogen Storage",
+            "Battery Storage",
+            "Thermal Storage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Thermal Storage systems store energy as heat in materials like water, salts, or phase-change materials."
         },
         {
           id: 12,
           question: "What manages pitch, yaw, and power regulation in wind turbines?",
           options: [
-            "Aerodynamics",
-            "Rotor Dynamics",
             "Control Systems",
-            "Grid Integration"
+            "Grid Integration",
+            "Rotor Dynamics",
+            "Aerodynamics"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Control Systems adjust blade pitch, nacelle yaw, and generator operation for optimal performance."
         },
         {
           id: 13,
           question: "What measures power available per unit area?",
           options: [
-            "Conversion Efficiency",
             "Energy Density",
-            "Capacity Factor",
-            "Performance Ratio"
+            "Conversion Efficiency",
+            "Performance Ratio",
+            "Capacity Factor"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Energy Density: Amount of energy available from a resource per unit of area or volume."
         },
         {
           id: 14,
           question: "What predicts solar output based on environmental conditions?",
           options: [
-            "Cell Physics",
-            "Performance Modeling",
             "Degradation Analysis",
-            "MPPT Algorithms"
+            "Cell Physics",
+            "MPPT Algorithms",
+            "Performance Modeling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Performance Modeling uses mathematical models to predict system output under various conditions."
         },
         {
           id: 15,
           question: "What includes pumped hydro and compressed air?",
           options: [
-            "Battery Storage",
-            "Thermal Storage",
             "Mechanical Storage",
+            "Thermal Storage",
+            "Battery Storage",
             "Hydrogen Systems"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Mechanical Storage converts electrical energy to mechanical energy for later reconversion."
         },
         {
           id: 16,
           question: "What deals with variable generation from renewables?",
           options: [
-            "Grid Stability",
-            "Intermittency Management",
+            "Protection Coordination",
             "Power Quality",
-            "Protection Coordination"
+            "Intermittency Management",
+            "Grid Stability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Intermittency Management addresses the variable and unpredictable nature of renewable generation."
         },
         {
           id: 17,
           question: "What analyzes performance loss over time?",
           options: [
-            "Cell Physics",
             "Module Engineering",
             "Degradation Analysis",
+            "Cell Physics",
             "Performance Modeling"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Degradation Analysis studies how system performance declines over years of operation."
         },
         {
           id: 18,
           question: "What designs islandable systems with multiple resources?",
           options: [
-            "Grid Integration",
+            "System Protection",
             "Microgrid Design",
-            "Ancillary Services",
-            "System Protection"
+            "Grid Integration",
+            "Ancillary Services"
           ],
           correctAnswer: 1,
           explanation: "Microgrid Design creates localized grids that can operate independently from the main grid."
@@ -291,24 +291,24 @@ Engineering solutions for integration issues:
           id: 19,
           question: "What involves electrolysis, storage, and fuel cells?",
           options: [
-            "Battery Systems",
-            "Thermal Systems",
+            "Hydrogen Systems",
             "Mechanical Systems",
-            "Hydrogen Systems"
+            "Battery Systems",
+            "Thermal Systems"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Hydrogen Systems use electrolysis to produce hydrogen, store it, and convert back via fuel cells."
         },
         {
           id: 20,
           question: "What maintains frequency and voltage stability?",
           options: [
+            "Protection Coordination",
             "Intermittency Management",
             "Grid Stability",
-            "Power Quality",
-            "Protection Coordination"
+            "Power Quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Grid Stability ensures the electrical grid maintains proper frequency and voltage despite variable generation."
         }
       ]
@@ -386,24 +386,24 @@ Minimizing ecological footprint:
           id: 1,
           question: "What design approach starts with system requirements?",
           options: [
+            "Iterative Design",
             "Bottom-Up Design",
             "Top-Down Design",
-            "Iterative Design",
             "Modular Design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Top-Down Design begins with overall system requirements and decomposes into components."
         },
         {
           id: 2,
           question: "What involves repeated refinement based on analysis?",
           options: [
-            "Top-Down Design",
+            "Integrated Design",
             "Bottom-Up Design",
-            "Iterative Design",
-            "Integrated Design"
+            "Top-Down Design",
+            "Iterative Design"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Iterative Design cycles through design, analysis, and refinement until optimal solution is found."
         },
         {
@@ -411,11 +411,11 @@ Minimizing ecological footprint:
           question: "What uses mathematical representations of physical processes?",
           options: [
             "Computational Fluid Dynamics",
-            "Numerical Modeling",
+            "System Dynamics Modeling",
             "Finite Element Analysis",
-            "System Dynamics Modeling"
+            "Numerical Modeling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Numerical Modeling creates mathematical equations that represent physical system behavior."
         },
         {
@@ -434,10 +434,10 @@ Minimizing ecological footprint:
           id: 5,
           question: "What optimization handles linear objective functions?",
           options: [
-            "Nonlinear Programming",
+            "Particle Swarm",
             "Linear Programming",
-            "Genetic Algorithms",
-            "Particle Swarm"
+            "Nonlinear Programming",
+            "Genetic Algorithms"
           ],
           correctAnswer: 1,
           explanation: "Linear Programming optimizes systems where relationships are linear and constraints are linear inequalities."
@@ -446,10 +446,10 @@ Minimizing ecological footprint:
           id: 6,
           question: "What balances competing design goals?",
           options: [
-            "Linear Programming",
+            "Real-Time Optimization",
             "Nonlinear Programming",
             "Multi-Objective Optimization",
-            "Real-Time Optimization"
+            "Linear Programming"
           ],
           correctAnswer: 2,
           explanation: "Multi-Objective Optimization finds compromise solutions when multiple, conflicting objectives exist."
@@ -459,20 +459,20 @@ Minimizing ecological footprint:
           question: "What calculates total lifetime cost per energy unit?",
           options: [
             "Net Present Value",
-            "Levelized Cost of Energy",
             "Internal Rate of Return",
+            "Levelized Cost of Energy",
             "Sensitivity Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Levelized Cost of Energy (LCOE) allows comparison of different energy technologies on cost basis."
         },
         {
           id: 8,
           question: "What design approach uses standardized components?",
           options: [
-            "Top-Down Design",
             "Bottom-Up Design",
             "Iterative Design",
+            "Top-Down Design",
             "Modular Design"
           ],
           correctAnswer: 3,
@@ -482,24 +482,24 @@ Minimizing ecological footprint:
           id: 9,
           question: "What analyzes structural and thermal behavior?",
           options: [
+            "System Dynamics",
             "Numerical Modeling",
             "Computational Fluid Dynamics",
-            "Finite Element Analysis",
-            "System Dynamics"
+            "Finite Element Analysis"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Finite Element Analysis divides structures into small elements for detailed stress and thermal analysis."
         },
         {
           id: 10,
           question: "What uses evolutionary approaches to optimization?",
           options: [
-            "Linear Programming",
-            "Nonlinear Programming",
             "Genetic Algorithms",
-            "Particle Swarm"
+            "Particle Swarm",
+            "Nonlinear Programming",
+            "Linear Programming"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Genetic Algorithms mimic natural selection to evolve optimal solutions through generations."
         },
         {
@@ -508,8 +508,8 @@ Minimizing ecological footprint:
           options: [
             "Levelized Cost of Energy",
             "Net Present Value Analysis",
-            "Internal Rate of Return",
-            "Risk Analysis"
+            "Risk Analysis",
+            "Internal Rate of Return"
           ],
           correctAnswer: 1,
           explanation: "Net Present Value discounts future cash flows to present value for investment comparison."
@@ -520,8 +520,8 @@ Minimizing ecological footprint:
           options: [
             "Reliability Modeling",
             "Failure Mode Analysis",
-            "Redundancy Design",
-            "Availability Analysis"
+            "Availability Analysis",
+            "Redundancy Design"
           ],
           correctAnswer: 1,
           explanation: "Failure Mode Analysis systematically identifies ways systems can fail and their effects."
@@ -530,46 +530,46 @@ Minimizing ecological footprint:
           id: 13,
           question: "What accounts for uncertainty and variability?",
           options: [
-            "Numerical Modeling",
-            "Computational Fluid Dynamics",
             "System Dynamics",
-            "Stochastic Modeling"
+            "Stochastic Modeling",
+            "Computational Fluid Dynamics",
+            "Numerical Modeling"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Stochastic Modeling incorporates randomness and probability into system simulations."
         },
         {
           id: 14,
           question: "What uses population-based search algorithms?",
           options: [
-            "Linear Programming",
-            "Genetic Algorithms",
             "Particle Swarm Optimization",
+            "Genetic Algorithms",
+            "Linear Programming",
             "Multi-Objective Optimization"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Particle Swarm Optimization searches solution space using simulated particle movements."
         },
         {
           id: 15,
           question: "What measures investment profitability?",
           options: [
+            "Lifecycle Cost",
             "Levelized Cost of Energy",
             "Net Present Value",
-            "Internal Rate of Return",
-            "Lifecycle Cost"
+            "Internal Rate of Return"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Internal Rate of Return calculates the discount rate that makes NPV zero, indicating return percentage."
         },
         {
           id: 16,
           question: "What predicts system reliability metrics?",
           options: [
-            "Failure Mode Analysis",
+            "Maintainability",
             "Reliability Modeling",
-            "Redundancy Design",
-            "Maintainability"
+            "Failure Mode Analysis",
+            "Redundancy Design"
           ],
           correctAnswer: 1,
           explanation: "Reliability Modeling uses statistical methods to predict failure rates and system reliability."
@@ -578,9 +578,9 @@ Minimizing ecological footprint:
           id: 17,
           question: "What analyzes coupled physical phenomena?",
           options: [
-            "Numerical Modeling",
             "Computational Fluid Dynamics",
             "Finite Element Analysis",
+            "Numerical Modeling",
             "Multi-Physics Simulation"
           ],
           correctAnswer: 3,
@@ -590,32 +590,32 @@ Minimizing ecological footprint:
           id: 18,
           question: "What continuously adjusts during operation?",
           options: [
-            "Linear Programming",
             "Nonlinear Programming",
-            "Genetic Algorithms",
-            "Real-Time Optimization"
+            "Real-Time Optimization",
+            "Linear Programming",
+            "Genetic Algorithms"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Real-Time Optimization continuously adjusts system parameters for optimal performance during operation."
         },
         {
           id: 19,
           question: "What quantifies greenhouse gas emissions?",
           options: [
-            "Lifecycle Assessment",
             "Carbon Footprint Analysis",
+            "Water Use Efficiency",
             "Land Use Optimization",
-            "Water Use Efficiency"
+            "Lifecycle Assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Carbon Footprint Analysis quantifies total greenhouse gas emissions from a system or process."
         },
         {
           id: 20,
           question: "What designs systems to continue despite failures?",
           options: [
-            "Reliability Modeling",
             "Redundancy Design",
+            "Reliability Modeling",
             "Fault Tolerance Design",
             "Availability Analysis"
           ],
@@ -698,12 +698,12 @@ Predicting renewable generation for grid operations:
           id: 1,
           question: "What are technical requirements for interconnection called?",
           options: [
+            "Fault Ride-Through",
             "Power Quality Requirements",
             "Grid Codes and Standards",
-            "Fault Ride-Through",
             "Synchronization Rules"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Grid Codes and Standards specify technical requirements for connecting generation to electrical grids."
         },
         {
@@ -711,11 +711,11 @@ Predicting renewable generation for grid operations:
           question: "What ability to remain connected during grid disturbances?",
           options: [
             "Synchronization",
+            "Reactive Power Support",
             "Fault Ride-Through",
-            "Islanding Detection",
-            "Reactive Power Support"
+            "Islanding Detection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Fault Ride-Through capability allows generators to remain connected during temporary grid faults."
         },
         {
@@ -734,34 +734,34 @@ Predicting renewable generation for grid operations:
           id: 4,
           question: "What provides two-way communication with meters?",
           options: [
+            "Demand Response Systems",
             "Phasor Measurement Units",
-            "Advanced Metering Infrastructure",
             "Distribution Automation",
-            "Demand Response Systems"
+            "Advanced Metering Infrastructure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Advanced Metering Infrastructure enables real-time monitoring and control of energy consumption."
         },
         {
           id: 5,
           question: "What maintains grid frequency within tight limits?",
           options: [
+            "Inertia Emulation",
             "Voltage Control",
             "Frequency Regulation",
-            "Inertia Emulation",
             "Oscillation Damping"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Frequency Regulation maintains grid frequency at nominal value (e.g., 50 or 60 Hz)."
         },
         {
           id: 6,
           question: "What is supervisory control and data acquisition?",
           options: [
-            "Distributed Control Systems",
+            "Time-Sensitive Networking",
             "SCADA Systems",
             "Cyber-Physical Systems",
-            "Time-Sensitive Networking"
+            "Distributed Control Systems"
           ],
           correctAnswer: 1,
           explanation: "SCADA Systems provide centralized monitoring and control of geographically dispersed assets."
@@ -782,36 +782,36 @@ Predicting renewable generation for grid operations:
           id: 8,
           question: "What control methods include PWM and space vector?",
           options: [
-            "Converter Topologies",
             "Modulation Techniques",
             "Filter Design",
+            "Converter Topologies",
             "Protection Circuits"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Modulation Techniques control semiconductor switching to create desired output waveforms."
         },
         {
           id: 9,
           question: "What provides high-speed grid monitoring?",
           options: [
-            "Advanced Metering",
             "Phasor Measurement Units",
             "Distribution Automation",
+            "Advanced Metering",
             "Microgrid Controllers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Phasor Measurement Units measure voltage and current phasors with synchronized time stamps for grid monitoring."
         },
         {
           id: 10,
           question: "What manages voltage levels throughout the grid?",
           options: [
+            "Black Start Capability",
             "Frequency Regulation",
-            "Voltage Control",
             "Inertia Emulation",
-            "Black Start Capability"
+            "Voltage Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Voltage Control ensures voltage remains within acceptable limits at all points in the grid."
         },
         {
@@ -820,22 +820,22 @@ Predicting renewable generation for grid operations:
           options: [
             "SCADA Systems",
             "Distributed Control Systems",
-            "Cyber-Physical Systems",
-            "Standard Protocols"
+            "Standard Protocols",
+            "Cyber-Physical Systems"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Cyber-Physical Systems tightly integrate computational algorithms with physical components."
         },
         {
           id: 12,
           question: "What uses meteorological models for energy forecasting?",
           options: [
-            "Statistical Forecasting",
-            "Numerical Weather Prediction",
             "Machine Learning Approaches",
-            "Ensemble Forecasting"
+            "Ensemble Forecasting",
+            "Statistical Forecasting",
+            "Numerical Weather Prediction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Numerical Weather Prediction uses mathematical models of the atmosphere to predict weather conditions."
         },
         {
@@ -843,45 +843,45 @@ Predicting renewable generation for grid operations:
           question: "What recognizes when grid connection is lost?",
           options: [
             "Fault Ride-Through",
+            "Reactive Power",
             "Synchronization",
-            "Islanding Detection",
-            "Reactive Power"
+            "Islanding Detection"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Islanding Detection algorithms identify when a distributed generator has lost connection to the main grid."
         },
         {
           id: 14,
           question: "What reduces harmonic distortion to acceptable levels?",
           options: [
-            "Converter Design",
+            "Protection Circuits",
             "Modulation Techniques",
-            "Filter Design",
-            "Protection Circuits"
+            "Converter Design",
+            "Filter Design"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Filter Design creates passive or active circuits to reduce harmonic currents and voltages."
         },
         {
           id: 15,
           question: "What adjusts consumption to match generation?",
           options: [
-            "Advanced Metering",
-            "Distribution Automation",
+            "Grid-Scale Management",
             "Demand Response Systems",
-            "Grid-Scale Management"
+            "Advanced Metering",
+            "Distribution Automation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Demand Response Systems incentivize or control load adjustments to balance generation and consumption."
         },
         {
           id: 16,
           question: "What provides synthetic inertia from power electronics?",
           options: [
-            "Frequency Regulation",
             "Voltage Control",
+            "Grid Forming",
             "Inertia Emulation",
-            "Grid Forming"
+            "Frequency Regulation"
           ],
           correctAnswer: 2,
           explanation: "Inertia Emulation uses power electronics to mimic the inertial response of conventional generators."
@@ -890,10 +890,10 @@ Predicting renewable generation for grid operations:
           id: 17,
           question: "What protects grid control systems from attacks?",
           options: [
-            "Time-Sensitive Networking",
+            "Communication Systems",
             "Cybersecurity",
-            "Standard Protocols",
-            "Communication Systems"
+            "Time-Sensitive Networking",
+            "Standard Protocols"
           ],
           correctAnswer: 1,
           explanation: "Cybersecurity measures protect grid control systems from malicious attacks and unauthorized access."
@@ -902,24 +902,24 @@ Predicting renewable generation for grid operations:
           id: 18,
           question: "What uses historical data for prediction?",
           options: [
-            "Numerical Weather Prediction",
-            "Statistical Forecasting",
+            "Ensemble Forecasting",
             "Machine Learning",
-            "Ensemble Forecasting"
+            "Numerical Weather Prediction",
+            "Statistical Forecasting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Statistical Forecasting analyzes historical patterns and relationships to predict future values."
         },
         {
           id: 19,
           question: "What creates voltage and frequency reference?",
           options: [
-            "Frequency Regulation",
-            "Voltage Control",
             "Grid Forming Inverters",
-            "Black Start Capability"
+            "Black Start Capability",
+            "Frequency Regulation",
+            "Voltage Control"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Grid Forming Inverters establish voltage and frequency rather than following the grid."
         },
         {
@@ -927,11 +927,11 @@ Predicting renewable generation for grid operations:
           question: "What uses AI techniques for improved accuracy?",
           options: [
             "Numerical Weather Prediction",
-            "Statistical Forecasting",
             "Machine Learning Approaches",
-            "Ensemble Forecasting"
+            "Ensemble Forecasting",
+            "Statistical Forecasting"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Machine Learning Approaches use artificial intelligence algorithms to improve forecasting accuracy."
         }
       ]
@@ -1010,36 +1010,36 @@ Engineering for long-term performance and environmental impact:
           id: 1,
           question: "What includes various cathode materials like NMC and LFP?",
           options: [
+            "Sodium-ion Batteries",
             "Flow Batteries",
             "Lithium-ion Chemistry",
-            "Solid-State Batteries",
-            "Sodium-ion Batteries"
+            "Solid-State Batteries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Lithium-ion batteries come in different chemistries (NMC, LFP, NCA) with varying characteristics."
         },
         {
           id: 2,
           question: "What are redox flow systems for long-duration storage?",
           options: [
-            "Lithium-ion Batteries",
             "Flow Batteries",
-            "Solid-State Batteries",
-            "Metal-Air Batteries"
+            "Metal-Air Batteries",
+            "Lithium-ion Batteries",
+            "Solid-State Batteries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Flow Batteries store energy in liquid electrolytes for scalable, long-duration storage."
         },
         {
           id: 3,
           question: "What includes active and passive balancing methods?",
           options: [
-            "State Estimation",
-            "Cell Balancing Techniques",
+            "Safety Systems",
             "Thermal Management",
-            "Safety Systems"
+            "State Estimation",
+            "Cell Balancing Techniques"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cell Balancing ensures all cells in a battery pack operate at similar states of charge."
         },
         {
@@ -1047,107 +1047,107 @@ Engineering for long-term performance and environmental impact:
           question: "What estimates SOC, SOH, and SOP?",
           options: [
             "Cell Balancing",
-            "State Estimation Algorithms",
+            "Diagnostic Algorithms",
             "Communication Protocols",
-            "Diagnostic Algorithms"
+            "State Estimation Algorithms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "State Estimation Algorithms calculate State of Charge, State of Health, and State of Power."
         },
         {
           id: 5,
           question: "What includes adiabatic, diabatic, and isothermal systems?",
           options: [
+            "Flywheel Storage",
             "Pumped Hydro Storage",
             "Compressed Air Energy Storage",
-            "Flywheel Storage",
             "Thermal Storage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Compressed Air Energy Storage comes in different thermodynamic configurations."
         },
         {
           id: 6,
           question: "What combines high-power and high-energy technologies?",
           options: [
-            "Technology Complementarity",
-            "Power-Energy Hybrids",
             "Control Architecture",
-            "Optimal Sizing"
+            "Technology Complementarity",
+            "Optimal Sizing",
+            "Power-Energy Hybrids"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Power-Energy Hybrids combine technologies like supercapacitors (high power) with batteries (high energy)."
         },
         {
           id: 7,
           question: "What uses solid electrolytes instead of liquid?",
           options: [
-            "Lithium-ion Batteries",
-            "Flow Batteries",
+            "Sodium-ion Batteries",
             "Solid-State Batteries",
-            "Sodium-ion Batteries"
+            "Flow Batteries",
+            "Lithium-ion Batteries"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Solid-State Batteries use solid electrolytes for potentially higher safety and energy density."
         },
         {
           id: 8,
           question: "What includes active and passive cooling/heating?",
           options: [
-            "Cell Balancing",
+            "Safety Systems",
             "State Estimation",
-            "Thermal Management Systems",
-            "Safety Systems"
+            "Cell Balancing",
+            "Thermal Management Systems"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Thermal Management maintains optimal battery temperature for performance and safety."
         },
         {
           id: 9,
           question: "What is large-scale gravitational energy storage?",
           options: [
+            "Gravity Storage",
             "Compressed Air Storage",
-            "Pumped Hydro Storage",
             "Flywheel Storage",
-            "Gravity Storage"
+            "Pumped Hydro Storage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pumped Hydro Storage uses water pumped to higher elevation for energy storage."
         },
         {
           id: 10,
           question: "What leverages strengths of different storage types?",
           options: [
-            "Power-Energy Hybrids",
-            "Technology Complementarity",
             "Control Architecture",
-            "Lifecycle Synergies"
+            "Power-Energy Hybrids",
+            "Lifecycle Synergies",
+            "Technology Complementarity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Technology Complementarity combines technologies to overcome individual limitations."
         },
         {
           id: 11,
           question: "What uses abundant sodium instead of lithium?",
           options: [
-            "Lithium-ion Batteries",
-            "Flow Batteries",
             "Solid-State Batteries",
-            "Sodium-ion Batteries"
+            "Flow Batteries",
+            "Sodium-ion Batteries",
+            "Lithium-ion Batteries"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Sodium-ion Batteries use sodium, which is more abundant than lithium, as charge carrier."
         },
         {
           id: 12,
           question: "What protects against overcharge and thermal runaway?",
           options: [
-            "Cell Balancing",
-            "Thermal Management",
+            "Communication Protocols",
             "Safety Systems",
-            "Communication Protocols"
+            "Thermal Management",
+            "Cell Balancing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Safety Systems include electronic and mechanical protections against hazardous conditions."
         },
         {
@@ -1167,33 +1167,33 @@ Engineering for long-term performance and environmental impact:
           question: "What includes hierarchical and distributed control?",
           options: [
             "Technology Complementarity",
+            "Economic Optimization",
             "Control Architecture",
-            "Optimal Sizing",
-            "Economic Optimization"
+            "Optimal Sizing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Control Architecture determines how multiple storage systems are coordinated and controlled."
         },
         {
           id: 15,
           question: "What includes zinc-air and lithium-air systems?",
           options: [
-            "Lithium-ion Batteries",
+            "Metal-Air Batteries",
             "Flow Batteries",
             "Solid-State Batteries",
-            "Metal-Air Batteries"
+            "Lithium-ion Batteries"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Metal-Air Batteries use oxygen from air as cathode reactant for high energy density."
         },
         {
           id: 16,
           question: "What uses CAN bus, Modbus, and proprietary protocols?",
           options: [
+            "Diagnostic Algorithms",
             "State Estimation",
-            "Thermal Management",
             "Communication Protocols",
-            "Diagnostic Algorithms"
+            "Thermal Management"
           ],
           correctAnswer: 2,
           explanation: "Communication Protocols enable BMS communication with other system components."
@@ -1202,22 +1202,22 @@ Engineering for long-term performance and environmental impact:
           id: 17,
           question: "What includes sensible, latent, and thermochemical systems?",
           options: [
-            "Pumped Hydro",
-            "Compressed Air",
             "Flywheel Storage",
-            "Thermal Energy Storage"
+            "Pumped Hydro",
+            "Thermal Energy Storage",
+            "Compressed Air"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Thermal Energy Storage stores heat in various forms for later use or power generation."
         },
         {
           id: 18,
           question: "What determines optimal mix and capacity?",
           options: [
-            "Control Architecture",
-            "Optimal Sizing",
             "Lifecycle Synergies",
-            "Economic Optimization"
+            "Optimal Sizing",
+            "Economic Optimization",
+            "Control Architecture"
           ],
           correctAnswer: 1,
           explanation: "Optimal Sizing calculates the best combination of storage technologies and capacities for given requirements."
@@ -1226,9 +1226,9 @@ Engineering for long-term performance and environmental impact:
           id: 19,
           question: "What includes fault detection and health monitoring?",
           options: [
-            "State Estimation",
-            "Thermal Management",
             "Communication Protocols",
+            "Thermal Management",
+            "State Estimation",
             "Diagnostic Algorithms"
           ],
           correctAnswer: 3,
@@ -1238,12 +1238,12 @@ Engineering for long-term performance and environmental impact:
           id: 20,
           question: "What matches complementary aging characteristics?",
           options: [
-            "Control Architecture",
-            "Optimal Sizing",
             "Lifecycle Synergies",
-            "Economic Optimization"
+            "Control Architecture",
+            "Economic Optimization",
+            "Optimal Sizing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Lifecycle Synergies combine technologies with different aging patterns for extended system life."
         }
       ]
@@ -1322,12 +1322,12 @@ Engineering support during operation:
           id: 1,
           question: "What phase involves initial assessment and viability determination?",
           options: [
+            "Construction and Commissioning",
             "Design and Engineering",
             "Concept and Feasibility",
-            "Procurement and Logistics",
-            "Construction and Commissioning"
+            "Procurement and Logistics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Concept and Feasibility phase evaluates project viability before significant resources are committed."
         },
         {
@@ -1341,36 +1341,36 @@ Engineering support during operation:
           id: 3,
           question: "What includes detailed analysis of energy resource availability?",
           options: [
-            "Site Characterization",
             "Resource Assessment",
             "Technology Selection",
+            "Site Characterization",
             "Performance Guarantees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Resource Assessment quantifies available wind, solar, hydro, or other renewable resources."
         },
         {
           id: 4,
           question: "What establishes fundamental design criteria?",
           options: [
-            "Interface Management",
             "Design Basis Documentation",
+            "Interface Management",
             "Design Reviews",
             "Value Engineering"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Design Basis Documentation defines all requirements, assumptions, and criteria for the design."
         },
         {
           id: 5,
           question: "What includes detailed requirements for equipment?",
           options: [
-            "Vendor Qualification",
-            "Technical Specifications",
+            "Factory Acceptance Testing",
             "Bid Evaluation",
-            "Factory Acceptance Testing"
+            "Vendor Qualification",
+            "Technical Specifications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Technical Specifications provide detailed requirements for equipment performance, materials, and interfaces."
         },
         {
@@ -1378,71 +1378,71 @@ Engineering support during operation:
           question: "What involves planning construction sequences and methods?",
           options: [
             "Quality Control",
-            "Construction Methodology",
+            "Interface Coordination",
             "Progress Monitoring",
-            "Interface Coordination"
+            "Construction Methodology"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Construction Methodology plans how construction will be executed safely and efficiently."
         },
         {
           id: 7,
           question: "What phase includes detailed technical design?",
           options: [
+            "Operation and Maintenance",
             "Concept and Feasibility",
-            "Design and Engineering",
             "Procurement and Logistics",
-            "Operation and Maintenance"
+            "Design and Engineering"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Design and Engineering phase develops complete technical specifications and drawings."
         },
         {
           id: 8,
           question: "What evaluates geotechnical and environmental conditions?",
           options: [
+            "Risk Assessment",
             "Resource Assessment",
-            "Site Characterization",
             "Technology Selection",
-            "Risk Assessment"
+            "Site Characterization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Site Characterization assesses soil conditions, environmental constraints, and existing infrastructure."
         },
         {
           id: 9,
           question: "What coordinates between different engineering disciplines?",
           options: [
-            "Design Basis",
             "Interface Management",
-            "Design Reviews",
-            "Configuration Management"
+            "Design Basis",
+            "Configuration Management",
+            "Design Reviews"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Interface Management ensures different engineering disciplines work together coherently."
         },
         {
           id: 10,
           question: "What assesses manufacturer capabilities and track record?",
           options: [
-            "Technical Specifications",
             "Vendor Qualification",
             "Bid Evaluation",
+            "Technical Specifications",
             "Transportation Engineering"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Vendor Qualification verifies that manufacturers have capability and experience to deliver required equipment."
         },
         {
           id: 11,
           question: "What verifies construction meets design requirements?",
           options: [
+            "Safety Engineering",
             "Construction Methodology",
-            "Quality Control",
             "Progress Monitoring",
-            "Safety Engineering"
+            "Quality Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality Control inspects construction work to ensure it conforms to design specifications."
         },
         {
@@ -1450,11 +1450,11 @@ Engineering support during operation:
           question: "What phase involves equipment sourcing and supply chain?",
           options: [
             "Design and Engineering",
-            "Procurement and Logistics",
             "Construction and Commissioning",
-            "Operation and Maintenance"
+            "Operation and Maintenance",
+            "Procurement and Logistics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Procurement and Logistics phase sources equipment and manages delivery to site."
         },
         {
@@ -1462,33 +1462,33 @@ Engineering support during operation:
           question: "What chooses appropriate technologies for applications?",
           options: [
             "Resource Assessment",
-            "Site Characterization",
             "Technology Selection",
+            "Site Characterization",
             "Performance Guarantees"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Technology Selection matches renewable energy technologies to specific project requirements and conditions."
         },
         {
           id: 14,
           question: "What involves systematic review of design deliverables?",
           options: [
+            "Quality Assurance",
             "Interface Management",
-            "Design Reviews",
             "Value Engineering",
-            "Quality Assurance"
+            "Design Reviews"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Design Reviews systematically examine design documents at key milestones."
         },
         {
           id: 15,
           question: "What includes technical and commercial assessment of proposals?",
           options: [
-            "Vendor Qualification",
+            "Factory Acceptance",
             "Technical Specifications",
             "Bid Evaluation",
-            "Factory Acceptance"
+            "Vendor Qualification"
           ],
           correctAnswer: 2,
           explanation: "Bid Evaluation compares vendor proposals against technical and commercial criteria."
@@ -1497,24 +1497,24 @@ Engineering support during operation:
           id: 16,
           question: "What tracks physical and financial progress?",
           options: [
-            "Construction Methodology",
-            "Quality Control",
             "Progress Monitoring",
+            "Quality Control",
+            "Construction Methodology",
             "Interface Coordination"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Progress Monitoring tracks completion percentages, schedule adherence, and cost performance."
         },
         {
           id: 17,
           question: "What phase includes system testing and handover?",
           options: [
-            "Procurement and Logistics",
-            "Construction and Commissioning",
             "Operation and Maintenance",
-            "Decommissioning"
+            "Procurement and Logistics",
+            "Decommissioning",
+            "Construction and Commissioning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Construction and Commissioning phase builds the project and verifies it works correctly."
         },
         {
@@ -1533,24 +1533,24 @@ Engineering support during operation:
           id: 19,
           question: "What optimizes design for cost and performance?",
           options: [
+            "Configuration Management",
             "Design Reviews",
             "Value Engineering",
-            "Configuration Management",
             "Quality Assurance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Value Engineering seeks to optimize design to provide required functions at lowest cost."
         },
         {
           id: 20,
           question: "What verifies equipment meets specifications before shipment?",
           options: [
-            "Vendor Qualification",
-            "Bid Evaluation",
             "Factory Acceptance Testing",
-            "Transportation Engineering"
+            "Transportation Engineering",
+            "Bid Evaluation",
+            "Vendor Qualification"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Factory Acceptance Testing verifies equipment operation at manufacturer's facility before shipment."
         }
       ]
@@ -1653,12 +1653,12 @@ Advanced materials driving renewable energy progress:
           id: 2,
           question: "What stacks different materials for higher efficiency?",
           options: [
-            "Perovskite Cells",
-            "Tandem Solar Cells",
+            "Agrivoltaics",
             "Building-Integrated PV",
-            "Agrivoltaics"
+            "Perovskite Cells",
+            "Tandem Solar Cells"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Tandem Solar Cells stack multiple semiconductor materials to capture broader light spectrum."
         },
         {
@@ -1666,35 +1666,35 @@ Advanced materials driving renewable energy progress:
           question: "What are wind turbines on floating platforms?",
           options: [
             "Airborne Wind Energy",
-            "Floating Offshore Wind",
+            "Multi-Rotor Systems",
             "Vertical Axis Turbines",
-            "Multi-Rotor Systems"
+            "Floating Offshore Wind"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Floating Offshore Wind enables wind energy in deep water areas with stronger winds."
         },
         {
           id: 4,
           question: "What captures wave motion energy?",
           options: [
-            "Tidal Stream Turbines",
-            "Wave Energy Converters",
+            "Ocean Thermal Energy",
             "Tidal Range Systems",
-            "Ocean Thermal Energy"
+            "Tidal Stream Turbines",
+            "Wave Energy Converters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Wave Energy Converters capture kinetic and potential energy from ocean surface waves."
         },
         {
           id: 5,
           question: "What are second and third generation biofuels?",
           options: [
-            "Algae Bioenergy",
             "Advanced Biofuels",
+            "Algae Bioenergy",
             "Waste-to-Energy",
             "Biogas Upgrading"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Advanced Biofuels come from non-food biomass like agricultural residues, energy crops, or algae."
         },
         {
@@ -1702,11 +1702,11 @@ Advanced materials driving renewable energy progress:
           question: "What produces hydrogen using renewable electricity?",
           options: [
             "Hydrogen Storage",
-            "Green Hydrogen Production",
+            "Power-to-Liquids",
             "Fuel Cell Technologies",
-            "Power-to-Liquids"
+            "Green Hydrogen Production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Green Hydrogen Production uses electrolysis powered by renewable electricity for zero-carbon hydrogen."
         },
         {
@@ -1714,93 +1714,93 @@ Advanced materials driving renewable energy progress:
           question: "What aggregates distributed resources for grid services?",
           options: [
             "Energy Internet",
-            "Virtual Power Plants",
             "Blockchain for Energy",
-            "Digital Twins"
+            "Digital Twins",
+            "Virtual Power Plants"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Virtual Power Plants coordinate many distributed energy resources to function like a traditional power plant."
         },
         {
           id: 8,
           question: "What incorporates PV into building components?",
           options: [
+            "Floating Solar",
             "Perovskite Cells",
             "Tandem Cells",
-            "Building-Integrated PV",
-            "Floating Solar"
+            "Building-Integrated PV"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Building-Integrated PV replaces conventional building materials with PV-enabled materials."
         },
         {
           id: 9,
           question: "What includes flying wind turbines or kite-based systems?",
           options: [
+            "Vertical Axis Turbines",
             "Floating Offshore",
             "Airborne Wind Energy",
-            "Vertical Axis Turbines",
             "Bladeless Wind"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Airborne Wind Energy systems access higher altitude winds using tethered airborne devices."
         },
         {
           id: 10,
           question: "What uses underwater turbines in tidal currents?",
           options: [
-            "Wave Energy Converters",
             "Tidal Stream Turbines",
             "Tidal Range Systems",
-            "Salinity Gradient"
+            "Salinity Gradient",
+            "Wave Energy Converters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Tidal Stream Turbines operate like underwater wind turbines in tidal currents."
         },
         {
           id: 11,
           question: "What produces energy from algal biomass?",
           options: [
-            "Advanced Biofuels",
             "Algae Bioenergy",
+            "Advanced Biofuels",
             "Waste-to-Energy",
             "Synthetic Biology"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Algae Bioenergy grows algae for biofuels, biogas, or other energy products."
         },
         {
           id: 12,
           question: "What compresses, liquefies, or uses materials for hydrogen storage?",
           options: [
-            "Green Hydrogen Production",
-            "Hydrogen Storage",
+            "Power-to-Gas",
             "Fuel Cell Technologies",
-            "Power-to-Gas"
+            "Green Hydrogen Production",
+            "Hydrogen Storage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hydrogen Storage technologies include compression, liquefaction, and material-based approaches."
         },
         {
           id: 13,
           question: "What proposes internet-like architectures for energy?",
           options: [
-            "Virtual Power Plants",
-            "Energy Internet Concepts",
             "Blockchain for Energy",
-            "Artificial Intelligence"
+            "Artificial Intelligence",
+            "Virtual Power Plants",
+            "Energy Internet Concepts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Energy Internet Concepts apply internet principles to energy system architecture and operation."
         },
         {
           id: 14,
           question: "What combines agriculture with solar energy production?",
           options: [
+            "Floating Solar",
             "Building-Integrated PV",
-            "Solar Thermal Power",
             "Agrivoltaics",
-            "Floating Solar"
+            "Solar Thermal Power"
           ],
           correctAnswer: 2,
           explanation: "Agrivoltaics co-locates solar panels with agricultural activities for dual land use."
@@ -1809,10 +1809,10 @@ Advanced materials driving renewable energy progress:
           id: 15,
           question: "What are alternative designs for urban environments?",
           options: [
+            "High-Altitude Wind",
             "Floating Offshore",
-            "Airborne Wind",
             "Vertical Axis Wind Turbines",
-            "High-Altitude Wind"
+            "Airborne Wind"
           ],
           correctAnswer: 2,
           explanation: "Vertical Axis Wind Turbines have different aerodynamics potentially suited for turbulent urban flows."
@@ -1821,9 +1821,9 @@ Advanced materials driving renewable energy progress:
           id: 16,
           question: "What uses temperature differences in ocean layers?",
           options: [
-            "Wave Energy",
             "Tidal Stream",
             "Tidal Range",
+            "Wave Energy",
             "Ocean Thermal Energy"
           ],
           correctAnswer: 3,
@@ -1834,35 +1834,35 @@ Advanced materials driving renewable energy progress:
           question: "What converts waste to energy through advanced processes?",
           options: [
             "Advanced Biofuels",
-            "Algae Bioenergy",
             "Waste-to-Energy",
-            "Biogas Upgrading"
+            "Biogas Upgrading",
+            "Algae Bioenergy"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Waste-to-Energy technologies convert municipal or industrial waste to electricity, heat, or fuels."
         },
         {
           id: 18,
           question: "What includes PEM, SOFC, and other fuel cell types?",
           options: [
+            "Power-to-Liquids",
             "Hydrogen Production",
             "Hydrogen Storage",
-            "Fuel Cell Technologies",
-            "Power-to-Liquids"
+            "Fuel Cell Technologies"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Fuel Cell Technologies convert chemical energy directly to electricity through electrochemical reactions."
         },
         {
           id: 19,
           question: "What applies distributed ledger to energy transactions?",
           options: [
-            "Virtual Power Plants",
-            "Energy Internet",
             "Blockchain for Energy",
+            "Energy Internet",
+            "Virtual Power Plants",
             "Digital Twins"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Blockchain for Energy enables secure, transparent peer-to-peer energy transactions and tracking."
         },
         {
@@ -1891,21 +1891,21 @@ Advanced materials driving renewable energy progress:
         question: "What law states energy cannot be created or destroyed?",
         options: [
           "Second Law of Thermodynamics",
+          "Law of Energy Conversion",
           "First Law of Thermodynamics",
-          "Law of Conservation of Mass",
-          "Law of Energy Conversion"
+          "Law of Conservation of Mass"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "First Law of Thermodynamics: Energy conservation principle in conversion processes."
       },
       {
         id: 2,
         question: "What design approach starts with system requirements?",
         options: [
-          "Bottom-Up Design",
+          "Modular Design",
           "Top-Down Design",
           "Iterative Design",
-          "Modular Design"
+          "Bottom-Up Design"
         ],
         correctAnswer: 1,
         explanation: "Top-Down Design begins with overall requirements and decomposes into components."
@@ -1914,10 +1914,10 @@ Advanced materials driving renewable energy progress:
         id: 3,
         question: "What are technical requirements for grid interconnection called?",
         options: [
-          "Power Quality Requirements",
+          "Synchronization Rules",
           "Grid Codes and Standards",
           "Fault Ride-Through",
-          "Synchronization Rules"
+          "Power Quality Requirements"
         ],
         correctAnswer: 1,
         explanation: "Grid Codes and Standards specify interconnection requirements for renewable generators."
@@ -1927,21 +1927,21 @@ Advanced materials driving renewable energy progress:
         question: "What includes various cathode materials like NMC and LFP?",
         options: [
           "Flow Batteries",
-          "Lithium-ion Chemistry",
           "Solid-State Batteries",
+          "Lithium-ion Chemistry",
           "Sodium-ion Batteries"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Lithium-ion batteries have different chemistries (NMC, LFP, NCA) with varying characteristics."
       },
       {
         id: 5,
         question: "What phase involves initial assessment and viability determination?",
         options: [
-          "Design and Engineering",
+          "Construction and Commissioning",
           "Concept and Feasibility",
-          "Procurement and Logistics",
-          "Construction and Commissioning"
+          "Design and Engineering",
+          "Procurement and Logistics"
         ],
         correctAnswer: 1,
         explanation: "Concept and Feasibility phase evaluates project viability before major investment."
@@ -1952,8 +1952,8 @@ Advanced materials driving renewable energy progress:
         options: [
           "Tandem Solar Cells",
           "Perovskite Solar Cells",
-          "Building-Integrated PV",
-          "Solar Thermal Power"
+          "Solar Thermal Power",
+          "Building-Integrated PV"
         ],
         correctAnswer: 1,
         explanation: "Perovskite Solar Cells use perovskite materials for potentially cheaper, efficient photovoltaics."
@@ -1962,22 +1962,22 @@ Advanced materials driving renewable energy progress:
         id: 7,
         question: "What measures actual output compared to maximum possible?",
         options: [
-          "Conversion Efficiency",
+          "Performance Ratio",
           "Energy Density",
-          "Capacity Factor",
-          "Performance Ratio"
+          "Conversion Efficiency",
+          "Capacity Factor"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Capacity Factor: Actual energy output divided by maximum possible continuous output."
       },
       {
         id: 8,
         question: "What uses mathematical representations of physical processes?",
         options: [
-          "Computational Fluid Dynamics",
+          "System Dynamics Modeling",
           "Numerical Modeling",
           "Finite Element Analysis",
-          "System Dynamics Modeling"
+          "Computational Fluid Dynamics"
         ],
         correctAnswer: 1,
         explanation: "Numerical Modeling creates mathematical equations representing physical system behavior."
@@ -1986,9 +1986,9 @@ Advanced materials driving renewable energy progress:
         id: 9,
         question: "What ability to remain connected during grid disturbances?",
         options: [
-          "Synchronization",
-          "Fault Ride-Through",
           "Islanding Detection",
+          "Fault Ride-Through",
+          "Synchronization",
           "Reactive Power Support"
         ],
         correctAnswer: 1,
@@ -1999,23 +1999,23 @@ Advanced materials driving renewable energy progress:
         question: "What includes active and passive balancing methods?",
         options: [
           "State Estimation",
-          "Cell Balancing Techniques",
+          "Safety Systems",
           "Thermal Management",
-          "Safety Systems"
+          "Cell Balancing Techniques"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Cell Balancing ensures all battery cells operate at similar states of charge."
       },
       {
         id: 11,
         question: "What establishes fundamental design criteria?",
         options: [
-          "Interface Management",
           "Design Basis Documentation",
           "Design Reviews",
+          "Interface Management",
           "Value Engineering"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Design Basis Documentation defines all requirements, assumptions, and criteria."
       },
       {
@@ -2023,45 +2023,45 @@ Advanced materials driving renewable energy progress:
         question: "What are wind turbines on floating platforms?",
         options: [
           "Airborne Wind Energy",
-          "Floating Offshore Wind",
           "Vertical Axis Turbines",
+          "Floating Offshore Wind",
           "Multi-Rotor Systems"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Floating Offshore Wind enables wind energy in deep water with stronger wind resources."
       },
       {
         id: 13,
         question: "What semiconductor physics enables solar cells?",
         options: [
+          "Electromagnetic Induction",
           "Thermoelectric Effect",
           "Photovoltaic Effect",
-          "Electromagnetic Induction",
           "Electrochemical Reaction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Photovoltaic Effect: Light creates electron-hole pairs in semiconductors, generating voltage."
       },
       {
         id: 14,
         question: "What optimization handles linear objective functions?",
         options: [
-          "Nonlinear Programming",
-          "Linear Programming",
           "Genetic Algorithms",
-          "Particle Swarm"
+          "Particle Swarm",
+          "Nonlinear Programming",
+          "Linear Programming"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Linear Programming optimizes systems with linear relationships and constraints."
       },
       {
         id: 15,
         question: "What provides two-way communication with meters?",
         options: [
-          "Phasor Measurement Units",
+          "Demand Response Systems",
           "Advanced Metering Infrastructure",
-          "Distribution Automation",
-          "Demand Response Systems"
+          "Phasor Measurement Units",
+          "Distribution Automation"
         ],
         correctAnswer: 1,
         explanation: "Advanced Metering Infrastructure enables real-time energy monitoring and control."
@@ -2070,12 +2070,12 @@ Advanced materials driving renewable energy progress:
         id: 16,
         question: "What are redox flow systems for long-duration storage?",
         options: [
-          "Lithium-ion Batteries",
-          "Flow Batteries",
+          "Metal-Air Batteries",
           "Solid-State Batteries",
-          "Metal-Air Batteries"
+          "Flow Batteries",
+          "Lithium-ion Batteries"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Flow Batteries store energy in liquid electrolytes for scalable, long-duration applications."
       },
       {
@@ -2083,11 +2083,11 @@ Advanced materials driving renewable energy progress:
         question: "What includes detailed analysis of energy resources?",
         options: [
           "Site Characterization",
-          "Resource Assessment",
           "Technology Selection",
+          "Resource Assessment",
           "Performance Guarantees"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Resource Assessment quantifies available renewable resources for project planning."
       },
       {
@@ -2095,68 +2095,68 @@ Advanced materials driving renewable energy progress:
         question: "What captures wave motion energy?",
         options: [
           "Tidal Stream Turbines",
-          "Wave Energy Converters",
+          "Ocean Thermal Energy",
           "Tidal Range Systems",
-          "Ocean Thermal Energy"
+          "Wave Energy Converters"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Wave Energy Converters capture kinetic and potential energy from ocean waves."
       },
       {
         id: 19,
         question: "What algorithms extract maximum power from solar?",
         options: [
-          "MPPT Algorithms",
           "Battery Management",
+          "Grid Synchronization",
           "Thermal Regulation",
-          "Grid Synchronization"
+          "MPPT Algorithms"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Maximum Power Point Tracking algorithms optimize solar array operating points."
       },
       {
         id: 20,
         question: "What involves repeated refinement based on analysis?",
         options: [
-          "Top-Down Design",
+          "Integrated Design",
           "Bottom-Up Design",
-          "Iterative Design",
-          "Integrated Design"
+          "Top-Down Design",
+          "Iterative Design"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Iterative Design cycles through design, analysis, and refinement for optimal solutions."
       },
       {
         id: 21,
         question: "What maintains grid frequency within tight limits?",
         options: [
+          "Inertia Emulation",
           "Voltage Control",
           "Frequency Regulation",
-          "Inertia Emulation",
           "Oscillation Damping"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Frequency Regulation maintains grid frequency at nominal value (50/60 Hz)."
       },
       {
         id: 22,
         question: "What estimates SOC, SOH, and SOP in batteries?",
         options: [
-          "Cell Balancing",
           "State Estimation Algorithms",
-          "Communication Protocols",
-          "Diagnostic Algorithms"
+          "Diagnostic Algorithms",
+          "Cell Balancing",
+          "Communication Protocols"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "State Estimation Algorithms calculate State of Charge, Health, and Power for battery management."
       },
       {
         id: 23,
         question: "What includes detailed equipment requirements?",
         options: [
-          "Vendor Qualification",
-          "Technical Specifications",
           "Bid Evaluation",
+          "Technical Specifications",
+          "Vendor Qualification",
           "Factory Acceptance"
         ],
         correctAnswer: 1,
@@ -2166,24 +2166,24 @@ Advanced materials driving renewable energy progress:
         id: 24,
         question: "What are second and third generation biofuels?",
         options: [
+          "Biogas Upgrading",
           "Algae Bioenergy",
           "Advanced Biofuels",
-          "Waste-to-Energy",
-          "Biogas Upgrading"
+          "Waste-to-Energy"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Advanced Biofuels from non-food biomass like agricultural residues or energy crops."
       },
       {
         id: 25,
         question: "What engineering principle governs wind turbine blades?",
         options: [
-          "Structural Dynamics",
           "Aerodynamics",
-          "Thermodynamics",
-          "Electrodynamics"
+          "Electrodynamics",
+          "Structural Dynamics",
+          "Thermodynamics"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Aerodynamics: Airflow over airfoil-shaped blades creates lift for rotation."
       },
       {
@@ -2192,10 +2192,10 @@ Advanced materials driving renewable energy progress:
         options: [
           "Linear Programming",
           "Nonlinear Programming",
-          "Multi-Objective Optimization",
-          "Real-Time Optimization"
+          "Real-Time Optimization",
+          "Multi-Objective Optimization"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Multi-Objective Optimization finds compromise solutions for conflicting objectives."
       },
       {
@@ -2204,8 +2204,8 @@ Advanced materials driving renewable energy progress:
         options: [
           "Advanced Metering",
           "Phasor Measurement Units",
-          "Distribution Automation",
-          "Microgrid Controllers"
+          "Microgrid Controllers",
+          "Distribution Automation"
         ],
         correctAnswer: 1,
         explanation: "Phasor Measurement Units measure voltage/current with synchronized time stamps."
@@ -2215,11 +2215,11 @@ Advanced materials driving renewable energy progress:
         question: "What includes adiabatic, diabatic, and isothermal systems?",
         options: [
           "Pumped Hydro Storage",
-          "Compressed Air Energy Storage",
           "Flywheel Storage",
+          "Compressed Air Energy Storage",
           "Thermal Storage"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Compressed Air Energy Storage comes in different thermodynamic configurations."
       },
       {
@@ -2228,8 +2228,8 @@ Advanced materials driving renewable energy progress:
         options: [
           "Design Basis",
           "Interface Management",
-          "Design Reviews",
-          "Configuration Management"
+          "Configuration Management",
+          "Design Reviews"
         ],
         correctAnswer: 1,
         explanation: "Interface Management ensures different engineering disciplines work together coherently."
@@ -2238,12 +2238,12 @@ Advanced materials driving renewable energy progress:
         id: 30,
         question: "What produces hydrogen using renewable electricity?",
         options: [
+          "Power-to-Liquids",
           "Hydrogen Storage",
           "Green Hydrogen Production",
-          "Fuel Cell Technologies",
-          "Power-to-Liquids"
+          "Fuel Cell Technologies"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Green Hydrogen Production uses renewable-powered electrolysis for zero-carbon hydrogen."
       },
       {
@@ -2251,11 +2251,11 @@ Advanced materials driving renewable energy progress:
         question: "What manages battery monitoring and protection?",
         options: [
           "Charge Controllers",
+          "System Controllers",
           "Battery Management Systems",
-          "Power Converters",
-          "System Controllers"
+          "Power Converters"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Battery Management Systems ensure safe operation and maximize battery life."
       },
       {
@@ -2274,9 +2274,9 @@ Advanced materials driving renewable energy progress:
         id: 33,
         question: "What is supervisory control and data acquisition?",
         options: [
-          "Distributed Control Systems",
-          "SCADA Systems",
           "Cyber-Physical Systems",
+          "SCADA Systems",
+          "Distributed Control Systems",
           "Time-Sensitive Networking"
         ],
         correctAnswer: 1,
@@ -2286,36 +2286,36 @@ Advanced materials driving renewable energy progress:
         id: 34,
         question: "What combines high-power and high-energy technologies?",
         options: [
-          "Technology Complementarity",
           "Power-Energy Hybrids",
-          "Control Architecture",
-          "Optimal Sizing"
+          "Optimal Sizing",
+          "Technology Complementarity",
+          "Control Architecture"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Power-Energy Hybrids combine technologies like supercapacitors with batteries."
       },
       {
         id: 35,
         question: "What involves planning construction sequences?",
         options: [
-          "Quality Control",
           "Construction Methodology",
+          "Quality Control",
           "Progress Monitoring",
           "Interface Coordination"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Construction Methodology plans how construction will be executed safely and efficiently."
       },
       {
         id: 36,
         question: "What aggregates distributed resources for grid services?",
         options: [
-          "Energy Internet",
           "Virtual Power Plants",
+          "Digital Twins",
           "Blockchain for Energy",
-          "Digital Twins"
+          "Energy Internet"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Virtual Power Plants coordinate distributed resources to function like traditional plants."
       },
       {
@@ -2324,8 +2324,8 @@ Advanced materials driving renewable energy progress:
         options: [
           "First Law of Thermodynamics",
           "Second Law of Thermodynamics",
-          "Law of Energy Conservation",
-          "Law of Entropy"
+          "Law of Entropy",
+          "Law of Energy Conservation"
         ],
         correctAnswer: 1,
         explanation: "Second Law of Thermodynamics: Some energy is always lost as waste heat."
@@ -2335,21 +2335,21 @@ Advanced materials driving renewable energy progress:
         question: "What analyzes fluid flow for wind/hydro systems?",
         options: [
           "Numerical Modeling",
-          "Computational Fluid Dynamics",
+          "Stochastic Modeling",
           "Finite Element Analysis",
-          "Stochastic Modeling"
+          "Computational Fluid Dynamics"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Computational Fluid Dynamics simulates fluid flow patterns using numerical methods."
       },
       {
         id: 39,
         question: "What provides voltage support to the grid?",
         options: [
-          "Fault Ride-Through",
-          "Reactive Power Capability",
           "Synchronization",
-          "Islanding Detection"
+          "Reactive Power Capability",
+          "Islanding Detection",
+          "Fault Ride-Through"
         ],
         correctAnswer: 1,
         explanation: "Reactive Power Capability helps maintain proper voltage levels in power grids."
@@ -2358,12 +2358,12 @@ Advanced materials driving renewable energy progress:
         id: 40,
         question: "What uses solid electrolytes instead of liquid?",
         options: [
-          "Lithium-ion Batteries",
-          "Flow Batteries",
           "Solid-State Batteries",
-          "Sodium-ion Batteries"
+          "Sodium-ion Batteries",
+          "Lithium-ion Batteries",
+          "Flow Batteries"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Solid-State Batteries use solid electrolytes for potentially higher safety and energy density."
       }
     ]

@@ -209,12 +209,12 @@ This strategic foundation sets the direction for your E-business. The next modul
           id: 1,
           question: "What is the key difference between E-business and E-commerce?",
           options: [
-            "E-business encompasses complete digital transformation",
+            "They are identical concepts",
             "E-business only involves online sales",
-            "E-commerce includes all business functions",
-            "They are identical concepts"
+            "E-business encompasses complete digital transformation",
+            "E-commerce includes all business functions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "E-business includes the complete digital transformation of all business processes, not just online sales."
         },
         {
@@ -223,8 +223,8 @@ This strategic foundation sets the direction for your E-business. The next modul
           options: [
             "Customer Perspective",
             "Financial Perspective",
-            "Internal Process Perspective",
-            "Learning & Growth Perspective"
+            "Learning & Growth Perspective",
+            "Internal Process Perspective"
           ],
           correctAnswer: 0,
           explanation: "The Customer Perspective focuses on customer satisfaction, retention, and lifetime value."
@@ -233,60 +233,60 @@ This strategic foundation sets the direction for your E-business. The next modul
           id: 3,
           question: "What does digital market segmentation based on technology adoption categorize?",
           options: [
+            "Geographic locations",
             "Innovators, early adopters, early majority, etc.",
             "Age, gender, and income only",
-            "Product preferences only",
-            "Geographic locations"
+            "Product preferences only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technology adoption segmentation categorizes customers based on how quickly they adopt new technologies."
         },
         {
           id: 4,
           question: "What is a platform business model?",
           options: [
+            "Manufacturing physical goods",
             "Creating multi-sided markets connecting different groups",
             "Selling products directly to consumers",
-            "Manufacturing physical goods",
             "Providing consulting services only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Platform models create value by facilitating interactions between different user groups."
         },
         {
           id: 5,
           question: "What is a freemium business model?",
           options: [
-            "Free basic service with premium upgrades",
-            "All features available for free",
             "High prices for all users",
-            "Physical product sales only"
+            "All features available for free",
+            "Physical product sales only",
+            "Free basic service with premium upgrades"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Freemium offers basic services free while charging for advanced features or premium versions."
         },
         {
           id: 6,
           question: "What is technology roadmapping?",
           options: [
-            "Strategic technology planning aligned with business goals",
             "Random technology purchases",
+            "Strategic technology planning aligned with business goals",
             "Following competitors exactly",
             "Ignoring technology decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technology roadmapping strategically plans technology investments to support business objectives."
         },
         {
           id: 7,
           question: "What does current state assessment evaluate?",
           options: [
-            "Existing technology infrastructure and capabilities",
             "Only future technology needs",
-            "Competitor office locations",
-            "Employee personal preferences"
+            "Existing technology infrastructure and capabilities",
+            "Employee personal preferences",
+            "Competitor office locations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Current state assessment evaluates existing systems, capabilities, and infrastructure."
         },
         {
@@ -305,24 +305,24 @@ This strategic foundation sets the direction for your E-business. The next modul
           id: 9,
           question: "What is bootstrapping in financing?",
           options: [
-            "Self-funding business growth",
             "Taking maximum loans",
-            "Selling all equity immediately",
-            "Ignoring funding needs"
+            "Self-funding business growth",
+            "Ignoring funding needs",
+            "Selling all equity immediately"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bootstrapping means funding business growth through internal revenues rather than external investment."
         },
         {
           id: 10,
           question: "What are Key Performance Indicators?",
           options: [
-            "Strategic metrics for measuring business performance",
             "Employee attendance records",
+            "Random numbers without purpose",
             "Office supply inventories",
-            "Random numbers without purpose"
+            "Strategic metrics for measuring business performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "KPIs are carefully selected metrics that measure progress toward strategic objectives."
         },
         {
@@ -330,9 +330,9 @@ This strategic foundation sets the direction for your E-business. The next modul
           question: "What is a strategic dashboard?",
           options: [
             "High-level metrics for leadership decision making",
-            "Detailed technical specifications",
+            "Supplier price lists",
             "Employee personal information",
-            "Supplier price lists"
+            "Detailed technical specifications"
           ],
           correctAnswer: 0,
           explanation: "Strategic dashboards provide executives with high-level metrics for strategic decision making."
@@ -343,8 +343,8 @@ This strategic foundation sets the direction for your E-business. The next modul
           options: [
             "Comprehensive performance assessment every three months",
             "Daily sales reports",
-            "Annual tax filings",
-            "Weekly team meetings"
+            "Weekly team meetings",
+            "Annual tax filings"
           ],
           correctAnswer: 0,
           explanation: "Quarterly business reviews comprehensively assess performance against strategic objectives."
@@ -353,72 +353,72 @@ This strategic foundation sets the direction for your E-business. The next modul
           id: 13,
           question: "What are digital risk categories?",
           options: [
-            "Technology, market, operational, regulatory, and reputational risks",
-            "Only financial risks",
             "Weather-related risks only",
-            "Employee vacation schedules"
+            "Technology, market, operational, regulatory, and reputational risks",
+            "Employee vacation schedules",
+            "Only financial risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digital businesses face specific risks across technology, market, operations, regulations, and reputation."
         },
         {
           id: 14,
           question: "What is risk assessment methodology?",
           options: [
-            "Systematic evaluation of potential risks",
             "Ignoring potential problems",
             "Assuming everything will work perfectly",
+            "Systematic evaluation of potential risks",
             "Copying competitor risk plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk assessment systematically identifies, evaluates, and prioritizes potential business risks."
         },
         {
           id: 15,
           question: "What is risk mitigation?",
           options: [
-            "Proactive management approaches to reduce risks",
             "Ignoring risks completely",
             "Increasing risk exposure",
+            "Proactive management approaches to reduce risks",
             "Only reacting after problems occur"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk mitigation involves proactive strategies to reduce the probability or impact of potential risks."
         },
         {
           id: 16,
           question: "What does Porter's Digital Value Chain adapt?",
           options: [
-            "Traditional value chain for digital context",
-            "Only manufacturing processes",
             "Employee training programs",
-            "Office layout designs"
+            "Only manufacturing processes",
+            "Office layout designs",
+            "Traditional value chain for digital context"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Porter's Digital Value Chain adapts the traditional business value chain concept for digital enterprises."
         },
         {
           id: 17,
           question: "What are indirect competitors?",
           options: [
-            "Different products solving same customer needs",
-            "Identical products in same market",
             "Suppliers of raw materials",
-            "Government regulators"
+            "Identical products in same market",
+            "Government regulators",
+            "Different products solving same customer needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Indirect competitors offer different products or services that solve the same fundamental customer needs."
         },
         {
           id: 18,
           question: "What is hybrid business model?",
           options: [
-            "Combining multiple revenue streams",
             "Single product line only",
-            "Physical stores without online presence",
-            "Ignoring revenue diversification"
+            "Combining multiple revenue streams",
+            "Ignoring revenue diversification",
+            "Physical stores without online presence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hybrid models combine different revenue streams for greater stability and growth potential."
         },
         {
@@ -426,9 +426,9 @@ This strategic foundation sets the direction for your E-business. The next modul
           question: "What is phased implementation?",
           options: [
             "Breaking initiatives into manageable phases",
-            "Implementing everything at once",
             "Never implementing changes",
-            "Random implementation timing"
+            "Random implementation timing",
+            "Implementing everything at once"
           ],
           correctAnswer: 0,
           explanation: "Phased implementation breaks large initiatives into smaller, manageable stages for better control."
@@ -437,12 +437,12 @@ This strategic foundation sets the direction for your E-business. The next modul
           id: 20,
           question: "What is risk transfer strategy?",
           options: [
-            "Sharing risk through insurance or partnerships",
+            "Hiding risks from stakeholders",
             "Ignoring risk completely",
-            "Increasing personal risk exposure",
-            "Hiding risks from stakeholders"
+            "Sharing risk through insurance or partnerships",
+            "Increasing personal risk exposure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk transfer involves shifting risk to third parties through insurance, partnerships, or contracts."
         }
       ]
@@ -645,48 +645,48 @@ With effective leadership and team management foundations, the next module will 
           id: 1,
           question: "What is visionary leadership in digital contexts?",
           options: [
+            "Following competitors exactly",
             "Creating and communicating compelling digital futures",
-            "Focusing only on daily operations",
             "Ignoring technological changes",
-            "Following competitors exactly"
+            "Focusing only on daily operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Visionary leadership involves articulating clear digital direction and inspiring teams toward that future."
         },
         {
           id: 2,
           question: "What is technological literacy for leaders?",
           options: [
-            "Understanding enough technology to lead effectively",
             "Being expert programmer",
             "Ignoring technical details",
+            "Understanding enough technology to lead effectively",
             "Only focusing on finance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Technological literacy means understanding relevant technologies well enough to make informed decisions."
         },
         {
           id: 3,
           question: "What is psychological safety in innovation culture?",
           options: [
-            "Environment where risks can be taken safely",
-            "Guaranteed success for all ideas",
             "No accountability for failures",
-            "Avoiding all risks completely"
+            "Avoiding all risks completely",
+            "Guaranteed success for all ideas",
+            "Environment where risks can be taken safely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Psychological safety allows team members to take risks and propose ideas without fear of negative consequences."
         },
         {
           id: 4,
           question: "What are cross-functional teams?",
           options: [
-            "Multidisciplinary teams focused on products or features",
-            "Teams with only technical members",
+            "Temporary project teams",
             "Teams organized by seniority only",
-            "Temporary project teams"
+            "Multidisciplinary teams focused on products or features",
+            "Teams with only technical members"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cross-functional teams include members from different disciplines working together on shared objectives."
         },
         {
@@ -694,9 +694,9 @@ With effective leadership and team management foundations, the next module will 
           question: "What is the two-pizza rule for team size?",
           options: [
             "Teams small enough to be fed with two pizzas",
-            "Teams must order pizza for all meetings",
+            "Pizza budget determines team size",
             "Teams based on pizza preferences",
-            "Pizza budget determines team size"
+            "Teams must order pizza for all meetings"
           ],
           correctAnswer: 0,
           explanation: "The two-pizza rule suggests optimal team size is small enough that two pizzas could feed the entire team."
@@ -705,168 +705,168 @@ With effective leadership and team management foundations, the next module will 
           id: 6,
           question: "What is skills-based hiring?",
           options: [
-            "Focusing on capabilities rather than credentials",
             "Hiring based on university degrees only",
+            "Only hiring friends and family",
             "Ignoring actual skills",
-            "Only hiring friends and family"
+            "Focusing on capabilities rather than credentials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Skills-based hiring evaluates candidates based on demonstrated capabilities rather than formal credentials."
         },
         {
           id: 7,
           question: "What is the OKR framework?",
           options: [
-            "Objectives and Key Results methodology",
+            "Operational Knowledge Repository",
             "Office Key Resources system",
             "Only Known Requirements",
-            "Operational Knowledge Repository"
+            "Objectives and Key Results methodology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "OKR (Objectives and Key Results) is a goal-setting framework for defining and tracking objectives."
         },
         {
           id: 8,
           question: "What are outcome-based metrics?",
           options: [
+            "Ignoring business results",
             "Measuring business impact and value",
             "Counting hours worked only",
-            "Tracking attendance only",
-            "Ignoring business results"
+            "Tracking attendance only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Outcome-based metrics measure the actual business impact and value created by work."
         },
         {
           id: 9,
           question: "What is asynchronous communication?",
           options: [
-            "Effective non-real-time collaboration",
             "Only face-to-face meetings",
+            "Real-time messaging only",
             "Ignoring team communication",
-            "Real-time messaging only"
+            "Effective non-real-time collaboration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Asynchronous communication allows team members to collaborate without needing to be online simultaneously."
         },
         {
           id: 10,
           question: "What is the ADKAR change model?",
           options: [
+            "Advanced Digital Knowledge Acquisition Roadmap",
             "Awareness, Desire, Knowledge, Ability, Reinforcement",
             "Always Do Knowledge And Reasoning",
-            "Annual Development Key Assessment Review",
-            "Advanced Digital Knowledge Acquisition Roadmap"
+            "Annual Development Key Assessment Review"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ADKAR is a change management model focusing on individual transition through five elements."
         },
         {
           id: 11,
           question: "What is adaptive leadership?",
           options: [
-            "Flexibility in changing digital environments",
-            "Rigid adherence to plans",
             "Ignoring market changes",
-            "Following traditional methods only"
+            "Flexibility in changing digital environments",
+            "Following traditional methods only",
+            "Rigid adherence to plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adaptive leadership involves flexibility and responsiveness to changing circumstances and environments."
         },
         {
           id: 12,
           question: "What does experimentation mindset involve?",
           options: [
-            "Willingness to test and learn",
-            "Avoiding all experiments",
             "Only implementing proven ideas",
-            "Random changes without testing"
+            "Willingness to test and learn",
+            "Random changes without testing",
+            "Avoiding all experiments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Experimentation mindset encourages testing new approaches and learning from results."
         },
         {
           id: 13,
           question: "What are agile squads?",
           options: [
-            "Small, autonomous, cross-functional teams",
-            "Large bureaucratic teams",
+            "External vendor teams",
             "Temporary consultant groups",
-            "External vendor teams"
+            "Large bureaucratic teams",
+            "Small, autonomous, cross-functional teams"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Agile squads are small, self-organizing teams with all skills needed to deliver value independently."
         },
         {
           id: 14,
           question: "What is skill gap analysis?",
           options: [
-            "Comparing current vs. needed capabilities",
             "Ignoring skill needs",
-            "Assuming all skills exist",
-            "Only assessing technical skills"
+            "Only assessing technical skills",
+            "Comparing current vs. needed capabilities",
+            "Assuming all skills exist"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Skill gap analysis identifies differences between current team capabilities and required future skills."
         },
         {
           id: 15,
           question: "What are SMART digital goals?",
           options: [
-            "Specific, Measurable, Achievable, Relevant, Time-bound",
             "Simple, Meaningless, Arbitrary, Random, Timeless",
             "Strategic, Monetary, Artistic, Revolutionary, Technical",
-            "Sales, Marketing, Administrative, Research, Training"
+            "Sales, Marketing, Administrative, Research, Training",
+            "Specific, Measurable, Achievable, Relevant, Time-bound"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SMART goals provide clear, well-defined objectives that are Specific, Measurable, Achievable, Relevant, and Time-bound."
         },
         {
           id: 16,
           question: "What is 360-degree feedback?",
           options: [
-            "Multi-source performance perspectives",
+            "Customer complaints only",
             "Only manager feedback",
-            "Ignoring all feedback",
-            "Customer complaints only"
+            "Multi-source performance perspectives",
+            "Ignoring all feedback"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "360-degree feedback gathers performance input from multiple sources including peers, subordinates, and managers."
         },
         {
           id: 17,
           question: "What is decision-making process design?",
           options: [
-            "Clear methods for team decisions",
             "Random decision making",
             "Only leader decisions",
+            "Clear methods for team decisions",
             "Ignoring decision processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clear decision-making processes define how teams will make decisions efficiently and effectively."
         },
         {
           id: 18,
           question: "What is stakeholder analysis?",
           options: [
-            "Identifying key individuals and groups affected by changes",
-            "Ignoring people impacted",
+            "Counting website visitors",
             "Only analyzing competitors",
-            "Counting website visitors"
+            "Identifying key individuals and groups affected by changes",
+            "Ignoring people impacted"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stakeholder analysis identifies all individuals and groups who will be affected by organizational changes."
         },
         {
           id: 19,
           question: "What is reinforcement in change management?",
           options: [
-            "Rewards and recognition for new behaviors",
+            "Only financial incentives",
             "Punishing old behaviors only",
-            "Ignoring behavior changes",
-            "Only financial incentives"
+            "Rewards and recognition for new behaviors",
+            "Ignoring behavior changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reinforcement involves systems and practices that encourage and reward adoption of new behaviors."
         },
         {
@@ -875,8 +875,8 @@ With effective leadership and team management foundations, the next module will 
           options: [
             "Emphasizing development over fixed ability",
             "Assuming abilities are fixed",
-            "Ignoring skill development",
-            "Only hiring naturally talented people"
+            "Only hiring naturally talented people",
+            "Ignoring skill development"
           ],
           correctAnswer: 0,
           explanation: "Growth mindset reinforcement emphasizes that abilities can be developed through effort and learning."
@@ -1090,60 +1090,60 @@ With advanced marketing and analytics capabilities established, the next module 
           id: 1,
           question: "What is integrated digital marketing strategy?",
           options: [
-            "Holistic approach to marketing planning",
-            "Focusing on one channel only",
             "Ignoring customer journey",
-            "Random marketing activities"
+            "Random marketing activities",
+            "Holistic approach to marketing planning",
+            "Focusing on one channel only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Integrated strategy coordinates all marketing activities for consistent, effective customer experiences."
         },
         {
           id: 2,
           question: "What is customer journey mapping?",
           options: [
-            "Understanding and optimizing customer experiences",
-            "Only tracking sales transactions",
+            "Mapping competitor locations",
             "Ignoring customer interactions",
-            "Mapping competitor locations"
+            "Only tracking sales transactions",
+            "Understanding and optimizing customer experiences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Journey mapping visualizes all customer interactions to identify improvement opportunities."
         },
         {
           id: 3,
           question: "What is Account-Based Marketing (ABM)?",
           options: [
+            "Only focusing on small accounts",
             "Targeted marketing to specific high-value accounts",
-            "Mass marketing to everyone",
             "Ignoring high-value customers",
-            "Only focusing on small accounts"
+            "Mass marketing to everyone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ABM focuses marketing resources on specific high-value accounts with personalized approaches."
         },
         {
           id: 4,
           question: "What are viral loops in growth hacking?",
           options: [
-            "Mechanisms that encourage user sharing",
             "Computer virus distribution",
-            "Email spam techniques",
-            "Telemarketing scripts"
+            "Telemarketing scripts",
+            "Mechanisms that encourage user sharing",
+            "Email spam techniques"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Viral loops create mechanisms where users naturally share products, driving organic growth."
         },
         {
           id: 5,
           question: "What is semantic SEO?",
           options: [
-            "Understanding user intent and context",
             "Only using keywords",
-            "Ignoring search intent",
-            "Technical website coding only"
+            "Technical website coding only",
+            "Understanding user intent and context",
+            "Ignoring search intent"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Semantic SEO focuses on understanding and addressing user intent rather than just keywords."
         },
         {
@@ -1151,9 +1151,9 @@ With advanced marketing and analytics capabilities established, the next module 
           question: "What is behavioral segmentation?",
           options: [
             "Grouping customers based on actions and interactions",
+            "Ignoring customer behavior",
             "Only by demographics",
-            "Random customer grouping",
-            "Ignoring customer behavior"
+            "Random customer grouping"
           ],
           correctAnswer: 0,
           explanation: "Behavioral segmentation groups customers based on their actions, purchases, and engagement patterns."
@@ -1162,12 +1162,12 @@ With advanced marketing and analytics capabilities established, the next module 
           id: 7,
           question: "What is predictive personalization?",
           options: [
-            "Anticipating customer needs before they express them",
+            "Ignoring customer data",
             "Random recommendations",
             "Same content for everyone",
-            "Ignoring customer data"
+            "Anticipating customer needs before they express them"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Predictive personalization uses data and algorithms to anticipate what customers will want next."
         },
         {
@@ -1175,9 +1175,9 @@ With advanced marketing and analytics capabilities established, the next module 
           question: "What is marketing automation strategy?",
           options: [
             "Systematic approach to automated marketing",
+            "Ignoring automation opportunities",
             "Random automation setup",
-            "Manual processes only",
-            "Ignoring automation opportunities"
+            "Manual processes only"
           ],
           correctAnswer: 0,
           explanation: "Strategic automation involves planned, systematic implementation of marketing automation technologies."
@@ -1186,48 +1186,48 @@ With advanced marketing and analytics capabilities established, the next module 
           id: 9,
           question: "What is attribution modeling?",
           options: [
-            "Understanding conversion influences across touchpoints",
-            "Ignoring marketing influences",
             "Only tracking last click",
-            "Random assignment of credit"
+            "Random assignment of credit",
+            "Ignoring marketing influences",
+            "Understanding conversion influences across touchpoints"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Attribution modeling assigns credit to different marketing touchpoints that lead to conversions."
         },
         {
           id: 10,
           question: "What is A/B testing?",
           options: [
-            "Comparing two versions to determine which performs better",
             "Testing everything at once",
             "No testing approach",
+            "Comparing two versions to determine which performs better",
             "Copying competitor designs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A/B testing compares two versions of something to determine which performs better statistically."
         },
         {
           id: 11,
           question: "What is GDPR compliance?",
           options: [
-            "European data protection regulations",
-            "General marketing guidelines",
             "Website design standards",
-            "Product safety regulations"
+            "Product safety regulations",
+            "General marketing guidelines",
+            "European data protection regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GDPR (General Data Protection Regulation) is European Union legislation protecting personal data."
         },
         {
           id: 12,
           question: "What is marketing mix modeling?",
           options: [
-            "Quantifying contributions of different marketing channels",
             "Ignoring channel performance",
             "Only tracking one channel",
+            "Quantifying contributions of different marketing channels",
             "Random channel allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Marketing mix modeling uses statistical analysis to quantify each marketing channel's contribution."
         },
         {
@@ -1235,9 +1235,9 @@ With advanced marketing and analytics capabilities established, the next module 
           question: "What is topic clusters in SEO?",
           options: [
             "Comprehensive content around core topics",
-            "Random blog posts",
             "Only product descriptions",
-            "Ignoring content structure"
+            "Ignoring content structure",
+            "Random blog posts"
           ],
           correctAnswer: 0,
           explanation: "Topic clusters organize content around core topics with supporting subtopics for authority."
@@ -1246,12 +1246,12 @@ With advanced marketing and analytics capabilities established, the next module 
           id: 14,
           question: "What is predictive segmentation?",
           options: [
-            "Using AI to identify customer patterns and groups",
             "Random customer grouping",
-            "Only manual segmentation",
-            "Ignoring customer data"
+            "Ignoring customer data",
+            "Using AI to identify customer patterns and groups",
+            "Only manual segmentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Predictive segmentation uses machine learning to identify patterns and predict customer groupings."
         },
         {
@@ -1259,9 +1259,9 @@ With advanced marketing and analytics capabilities established, the next module 
           question: "What is lead nurturing workflow?",
           options: [
             "Automated communication sequences for prospects",
-            "Ignoring potential customers",
             "Only one email to prospects",
-            "Random communications"
+            "Random communications",
+            "Ignoring potential customers"
           ],
           correctAnswer: 0,
           explanation: "Lead nurturing workflows automate personalized communication sequences to guide prospects toward purchase."
@@ -1270,12 +1270,12 @@ With advanced marketing and analytics capabilities established, the next module 
           id: 16,
           question: "What is customer lifetime value analysis?",
           options: [
-            "Calculating long-term value of customers",
-            "Only first purchase value",
             "Ignoring customer value",
-            "Random value assignment"
+            "Random value assignment",
+            "Calculating long-term value of customers",
+            "Only first purchase value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Customer lifetime value analysis calculates the total value a customer will generate over their relationship."
         },
         {
@@ -1295,8 +1295,8 @@ With advanced marketing and analytics capabilities established, the next module 
           question: "What is consent management?",
           options: [
             "Proper gathering and management of user permissions",
-            "Ignoring user preferences",
             "Assuming all consent",
+            "Ignoring user preferences",
             "No permission gathering"
           ],
           correctAnswer: 0,
@@ -1307,9 +1307,9 @@ With advanced marketing and analytics capabilities established, the next module 
           question: "What is marketing operations excellence?",
           options: [
             "Efficient marketing processes and systems",
-            "Chaotic marketing operations",
+            "Ignoring team performance",
             "No process optimization",
-            "Ignoring team performance"
+            "Chaotic marketing operations"
           ],
           correctAnswer: 0,
           explanation: "Marketing operations excellence involves optimizing processes, systems, and resources for maximum efficiency."
@@ -1318,12 +1318,12 @@ With advanced marketing and analytics capabilities established, the next module 
           id: 20,
           question: "What is innovation pipeline?",
           options: [
-            "Structured idea generation and development process",
-            "Random idea collection",
+            "Only copying competitors",
             "No innovation process",
-            "Only copying competitors"
+            "Structured idea generation and development process",
+            "Random idea collection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Innovation pipeline provides structured process for generating, evaluating, and developing new ideas."
         }
       ]
@@ -1534,24 +1534,24 @@ With advanced product management capabilities established, the next module will 
           id: 1,
           question: "What is product vision development?",
           options: [
-            "Defining long-term product direction and purpose",
-            "Only short-term feature planning",
             "Ignoring product direction",
-            "Copying competitor products"
+            "Defining long-term product direction and purpose",
+            "Copying competitor products",
+            "Only short-term feature planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Product vision articulates the long-term purpose and direction of a product."
         },
         {
           id: 2,
           question: "What is product portfolio management?",
           options: [
+            "Random product development",
             "Managing multiple products and investment allocation",
-            "Only one product focus",
             "Ignoring product mix",
-            "Random product development"
+            "Only one product focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Portfolio management involves strategic decisions about multiple products and resource allocation."
         },
         {
@@ -1560,8 +1560,8 @@ With advanced product management capabilities established, the next module will 
           options: [
             "Smallest version for learning and validation",
             "Fully featured complete product",
-            "Prototype without testing",
-            "Final product version"
+            "Final product version",
+            "Prototype without testing"
           ],
           correctAnswer: 0,
           explanation: "MVP is the simplest version that allows learning about customers with minimum effort."
@@ -1571,9 +1571,9 @@ With advanced product management capabilities established, the next module will 
           question: "What is the Build-Measure-Learn loop?",
           options: [
             "Continuous feedback cycle in lean development",
-            "One-time development process",
             "Ignoring measurement",
-            "Random development approach"
+            "Random development approach",
+            "One-time development process"
           ],
           correctAnswer: 0,
           explanation: "Build-Measure-Learn is the core feedback loop in lean product development methodology."
@@ -1582,24 +1582,24 @@ With advanced product management capabilities established, the next module will 
           id: 5,
           question: "What is DevOps?",
           options: [
-            "Integration of development and operations",
-            "Separate development and operations",
             "Only development focus",
+            "Separate development and operations",
+            "Integration of development and operations",
             "Ignoring operations completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DevOps combines development and operations for faster, more reliable software delivery."
         },
         {
           id: 6,
           question: "What is the empathy phase in design thinking?",
           options: [
-            "Deep understanding of user needs",
-            "Ignoring user perspectives",
             "Only technical specifications",
-            "Business requirements only"
+            "Ignoring user perspectives",
+            "Business requirements only",
+            "Deep understanding of user needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Empathy phase focuses on understanding users' experiences, needs, and motivations."
         },
         {
@@ -1607,9 +1607,9 @@ With advanced product management capabilities established, the next module will 
           question: "What is service blueprinting?",
           options: [
             "Mapping service processes and touchpoints",
-            "Only product design",
+            "Random service design",
             "Ignoring service components",
-            "Random service design"
+            "Only product design"
           ],
           correctAnswer: 0,
           explanation: "Service blueprinting visually maps all components and interactions in a service experience."
@@ -1619,9 +1619,9 @@ With advanced product management capabilities established, the next module will 
           question: "What is product engagement metrics?",
           options: [
             "How users interact with products",
-            "Only sales numbers",
+            "Server uptime only",
             "Ignoring user behavior",
-            "Server uptime only"
+            "Only sales numbers"
           ],
           correctAnswer: 0,
           explanation: "Engagement metrics measure how actively and deeply users interact with a product."
@@ -1630,60 +1630,60 @@ With advanced product management capabilities established, the next module will 
           id: 9,
           question: "What is feature flagging?",
           options: [
-            "Controlled feature rollout and testing",
-            "Releasing all features to everyone",
             "No feature testing",
-            "Hiding all features"
+            "Hiding all features",
+            "Controlled feature rollout and testing",
+            "Releasing all features to everyone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Feature flags allow controlled release of features to specific user groups for testing."
         },
         {
           id: 10,
           question: "What is churn prediction?",
           options: [
-            "Identifying users likely to leave",
-            "Counting current users only",
             "Ignoring user retention",
-            "Random user analysis"
+            "Identifying users likely to leave",
+            "Random user analysis",
+            "Counting current users only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Churn prediction uses data to identify users at risk of stopping product usage."
         },
         {
           id: 11,
           question: "What is stage-gate process in innovation?",
           options: [
+            "No innovation process",
             "Structured innovation decision points",
             "Continuous innovation without gates",
-            "No innovation process",
             "Random idea approval"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stage-gate provides structured decision points where innovation projects are evaluated."
         },
         {
           id: 12,
           question: "What is open innovation?",
           options: [
-            "Leveraging external innovation sources",
             "Only internal innovation",
             "No innovation sourcing",
+            "Leveraging external innovation sources",
             "Buying all innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Open innovation involves collaborating with external partners for innovation."
         },
         {
           id: 13,
           question: "What is technology scouting?",
           options: [
-            "Systematic monitoring of tech developments",
             "Ignoring new technologies",
-            "Only using old technologies",
-            "Random technology selection"
+            "Systematic monitoring of tech developments",
+            "Random technology selection",
+            "Only using old technologies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technology scouting systematically identifies and evaluates emerging technologies."
         },
         {
@@ -1702,12 +1702,12 @@ With advanced product management capabilities established, the next module will 
           id: 15,
           question: "What is go-to-market strategy?",
           options: [
-            "Approach to market introduction and adoption",
             "Only product development",
-            "Ignoring market entry",
-            "Random market approach"
+            "Random market approach",
+            "Approach to market introduction and adoption",
+            "Ignoring market entry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Go-to-market strategy defines how a product will be introduced and adopted in the market."
         },
         {
@@ -1715,8 +1715,8 @@ With advanced product management capabilities established, the next module will 
           question: "What is iterative improvement?",
           options: [
             "Continuous post-launch enhancements",
-            "One-time development only",
             "No improvements after launch",
+            "One-time development only",
             "Random changes without testing"
           ],
           correctAnswer: 0,
@@ -1726,48 +1726,48 @@ With advanced product management capabilities established, the next module will 
           id: 17,
           question: "What are product management platforms?",
           options: [
-            "Tools for product management workflows",
-            "Only spreadsheets",
             "No tools for management",
-            "Random software selection"
+            "Random software selection",
+            "Only spreadsheets",
+            "Tools for product management workflows"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Product management platforms provide specialized tools for product planning and execution."
         },
         {
           id: 18,
           question: "What are design systems?",
           options: [
-            "Consistent design component libraries",
+            "Only one-time designs",
             "Random design elements",
-            "No design consistency",
-            "Only one-time designs"
+            "Consistent design component libraries",
+            "No design consistency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Design systems provide reusable components and standards for consistent product design."
         },
         {
           id: 19,
           question: "What is version control?",
           options: [
-            "Code management and collaboration system",
-            "Manual code copying",
             "No code management",
-            "Random code changes"
+            "Random code changes",
+            "Manual code copying",
+            "Code management and collaboration system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Version control systems manage code changes and enable team collaboration on code."
         },
         {
           id: 20,
           question: "What is accessibility in product design?",
           options: [
-            "Ensuring products usable by people with disabilities",
             "Ignoring diverse user needs",
-            "Only visual design focus",
-            "No user consideration"
+            "No user consideration",
+            "Ensuring products usable by people with disabilities",
+            "Only visual design focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Accessibility ensures products can be used by people with various disabilities and needs."
         }
       ]
@@ -1978,72 +1978,72 @@ With optimized operations and supply chain established, the final module will co
           id: 1,
           question: "What is operations strategy development?",
           options: [
+            "Random operations decisions",
             "Aligning operations with business objectives",
             "Only daily task management",
-            "Ignoring strategic alignment",
-            "Random operations decisions"
+            "Ignoring strategic alignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Operations strategy ensures operational activities support overall business goals and objectives."
         },
         {
           id: 2,
           question: "What is process mapping?",
           options: [
-            "Visual documentation of operational processes",
             "Only verbal descriptions",
-            "Ignoring process documentation",
-            "Random process changes"
+            "Random process changes",
+            "Visual documentation of operational processes",
+            "Ignoring process documentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Process mapping creates visual diagrams that show how work flows through operational processes."
         },
         {
           id: 3,
           question: "What is supply chain network design?",
           options: [
-            "Optimal configuration of supply chain nodes",
+            "Only using local suppliers",
             "Random supplier selection",
-            "Ignoring supply chain structure",
-            "Only using local suppliers"
+            "Optimal configuration of supply chain nodes",
+            "Ignoring supply chain structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Network design determines optimal locations and connections in the supply chain for efficiency."
         },
         {
           id: 4,
           question: "What is demand forecasting?",
           options: [
-            "Predicting future inventory needs",
             "Ignoring future demand",
             "Only current inventory counting",
-            "Random inventory ordering"
+            "Random inventory ordering",
+            "Predicting future inventory needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Demand forecasting uses data and analysis to predict future customer demand for inventory planning."
         },
         {
           id: 5,
           question: "What is Enterprise Resource Planning (ERP)?",
           options: [
-            "Integrated business management systems",
             "Only accounting software",
+            "No technology integration",
             "Separate departmental systems",
-            "No technology integration"
+            "Integrated business management systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ERP systems integrate various business functions into a single comprehensive system."
         },
         {
           id: 6,
           question: "What is predictive maintenance?",
           options: [
-            "Using data to anticipate maintenance needs",
-            "Only reactive repairs",
+            "Random maintenance scheduling",
             "Ignoring maintenance planning",
-            "Random maintenance scheduling"
+            "Using data to anticipate maintenance needs",
+            "Only reactive repairs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Predictive maintenance uses data analysis to predict when equipment will need maintenance."
         },
         {
@@ -2051,9 +2051,9 @@ With optimized operations and supply chain established, the final module will co
           question: "What is Robotic Process Automation (RPA)?",
           options: [
             "Software robots for repetitive tasks",
-            "Only physical robots",
             "Manual process execution",
-            "No automation technology"
+            "No automation technology",
+            "Only physical robots"
           ],
           correctAnswer: 0,
           explanation: "RPA uses software robots to automate repetitive, rules-based digital tasks."
@@ -2075,9 +2075,9 @@ With optimized operations and supply chain established, the final module will co
           question: "What is functional benchmarking?",
           options: [
             "Comparing specific functions across industries",
+            "Random performance assessment",
             "Only internal comparisons",
-            "Ignoring external comparisons",
-            "Random performance assessment"
+            "Ignoring external comparisons"
           ],
           correctAnswer: 0,
           explanation: "Functional benchmarking compares specific operational functions with leaders in any industry."
@@ -2087,8 +2087,8 @@ With optimized operations and supply chain established, the final module will co
           question: "What is business impact analysis?",
           options: [
             "Understanding effects of operational disruptions",
-            "Ignoring disruption impacts",
             "Only financial analysis",
+            "Ignoring disruption impacts",
             "Random impact assessment"
           ],
           correctAnswer: 0,
@@ -2098,120 +2098,120 @@ With optimized operations and supply chain established, the final module will co
           id: 11,
           question: "What is carbon footprint measurement?",
           options: [
-            "Quantifying greenhouse gas emissions",
-            "Ignoring environmental impact",
             "Only financial emissions",
-            "Random environmental reporting"
+            "Quantifying greenhouse gas emissions",
+            "Random environmental reporting",
+            "Ignoring environmental impact"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Carbon footprint measurement quantifies total greenhouse gas emissions from operations."
         },
         {
           id: 12,
           question: "What is ethical labor practices?",
           options: [
-            "Fair treatment of workers throughout supply chain",
-            "Ignoring worker treatment",
             "Only legal minimum compliance",
+            "Ignoring worker treatment",
+            "Fair treatment of workers throughout supply chain",
             "Random labor policies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ethical labor practices ensure fair, safe, and respectful treatment of all workers."
         },
         {
           id: 13,
           question: "What is activity-based costing?",
           options: [
-            "Assigning costs to specific activities",
             "Only total cost tracking",
-            "Ignoring cost allocation",
-            "Random cost assignment"
+            "Assigning costs to specific activities",
+            "Random cost assignment",
+            "Ignoring cost allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Activity-based costing allocates costs based on actual consumption of resources by activities."
         },
         {
           id: 14,
           question: "What is Six Sigma methodology?",
           options: [
-            "Data-driven approach to quality and efficiency",
-            "Random quality improvements",
+            "Only visual inspection",
             "Ignoring data in improvement",
-            "Only visual inspection"
+            "Random quality improvements",
+            "Data-driven approach to quality and efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Six Sigma uses statistical methods to reduce defects and improve process quality."
         },
         {
           id: 15,
           question: "What is business case development for technology?",
           options: [
+            "Ignoring investment analysis",
             "Justifying technology investments with analysis",
             "Buying technology without justification",
-            "Ignoring investment analysis",
             "Random technology purchases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Business cases provide structured justification for technology investments based on expected benefits."
         },
         {
           id: 16,
           question: "What is capacity planning?",
           options: [
-            "Matching operational capacity with demand",
-            "Ignoring capacity considerations",
             "Only maximum capacity building",
-            "Random capacity decisions"
+            "Random capacity decisions",
+            "Ignoring capacity considerations",
+            "Matching operational capacity with demand"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Capacity planning ensures operations have appropriate resources to meet expected demand."
         },
         {
           id: 17,
           question: "What is value stream analysis?",
           options: [
-            "Identifying value-added vs. non-value-added steps",
-            "Only counting process steps",
             "Ignoring value assessment",
-            "Random process evaluation"
+            "Random process evaluation",
+            "Only counting process steps",
+            "Identifying value-added vs. non-value-added steps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Value stream analysis distinguishes between steps that add value for customers and those that don't."
         },
         {
           id: 18,
           question: "What is just-in-time inventory?",
           options: [
-            "Minimizing inventory through precise timing",
-            "Maximum inventory storage",
             "Ignoring inventory timing",
+            "Maximum inventory storage",
+            "Minimizing inventory through precise timing",
             "Random inventory levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "JIT inventory systems receive goods only as needed in the production process to minimize inventory."
         },
         {
           id: 19,
           question: "What is reverse logistics?",
           options: [
-            "Managing returns and product recovery",
             "Only forward product movement",
-            "Ignoring return processes",
-            "Random return handling"
+            "Managing returns and product recovery",
+            "Random return handling",
+            "Ignoring return processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Reverse logistics manages the return of products for repair, recycling, or disposal."
         },
         {
           id: 20,
           question: "What is circular economy practices?",
           options: [
-            "Designing for reuse and recycling",
             "Only linear product disposal",
-            "Ignoring environmental design",
-            "Random product design"
+            "Designing for reuse and recycling",
+            "Random product design",
+            "Ignoring environmental design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Circular economy practices design products and processes to minimize waste through reuse and recycling."
         }
       ]
@@ -2441,9 +2441,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is financial strategy framework?",
           options: [
             "Comprehensive approach to financial management",
-            "Only daily accounting",
             "Ignoring financial planning",
-            "Random financial decisions"
+            "Random financial decisions",
+            "Only daily accounting"
           ],
           correctAnswer: 0,
           explanation: "Financial strategy framework provides structured approach to all aspects of financial management."
@@ -2452,36 +2452,36 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 2,
           question: "What is Discounted Cash Flow valuation?",
           options: [
+            "Ignoring future earnings",
             "Present value of future cash flows",
             "Only current asset value",
-            "Ignoring future earnings",
             "Random business valuation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "DCF valuation estimates business value based on projected future cash flows discounted to present value."
         },
         {
           id: 3,
           question: "What is three-statement modeling?",
           options: [
-            "Integrated income statement, balance sheet, cash flow",
             "Only income statement",
-            "Separate financial statements",
-            "No financial modeling"
+            "No financial modeling",
+            "Integrated income statement, balance sheet, cash flow",
+            "Separate financial statements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Three-statement modeling integrates all primary financial statements for comprehensive forecasting."
         },
         {
           id: 4,
           question: "What is bootstrapping in funding?",
           options: [
-            "Self-funding approaches for early stages",
+            "Only venture capital",
             "Maximum external funding",
             "Ignoring funding needs",
-            "Only venture capital"
+            "Self-funding approaches for early stages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bootstrapping involves funding business growth through internal revenues rather than external investment."
         },
         {
@@ -2489,8 +2489,8 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is investor relations management?",
           options: [
             "Building and maintaining investor relationships",
-            "Ignoring investor communications",
             "Only financial reporting",
+            "Ignoring investor communications",
             "Random investor interactions"
           ],
           correctAnswer: 0,
@@ -2500,12 +2500,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 6,
           question: "What is revenue-based financing?",
           options: [
+            "Equity investment only",
             "Repayment tied to revenue percentages",
             "Fixed loan repayments only",
-            "Equity investment only",
             "No repayment required"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Revenue-based financing provides capital in exchange for percentage of future revenues."
         },
         {
@@ -2513,8 +2513,8 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is business model canvas analysis?",
           options: [
             "Structured approach to business model design",
-            "Only financial analysis",
             "Ignoring business model",
+            "Only financial analysis",
             "Random business design"
           ],
           correctAnswer: 0,
@@ -2524,24 +2524,24 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 8,
           question: "What are network effects in platform models?",
           options: [
-            "Building value through user connections",
-            "Only individual user value",
             "Ignoring user interactions",
-            "Random platform growth"
+            "Only individual user value",
+            "Random platform growth",
+            "Building value through user connections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Network effects occur when platform value increases as more users join and interact."
         },
         {
           id: 9,
           question: "What is churn reduction in subscription models?",
           options: [
-            "Minimizing customer cancellations",
             "Ignoring customer retention",
             "Only acquiring new customers",
-            "Random customer management"
+            "Random customer management",
+            "Minimizing customer cancellations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Churn reduction strategies aim to minimize the rate at which subscribers cancel their subscriptions."
         },
         {
@@ -2549,9 +2549,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is synergy analysis in M&A?",
           options: [
             "Identifying potential value creation opportunities",
-            "Ignoring acquisition benefits",
+            "Random acquisition decisions",
             "Only cost considerations",
-            "Random acquisition decisions"
+            "Ignoring acquisition benefits"
           ],
           correctAnswer: 0,
           explanation: "Synergy analysis identifies potential value creation from combining two businesses."
@@ -2572,12 +2572,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 12,
           question: "What is cultural integration in M&A?",
           options: [
-            "Merging different organizational cultures",
-            "Ignoring cultural differences",
             "Only financial integration",
-            "Random combination approach"
+            "Random combination approach",
+            "Ignoring cultural differences",
+            "Merging different organizational cultures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural integration addresses the challenges of combining different organizational cultures."
         },
         {
@@ -2597,9 +2597,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is board composition strategy?",
           options: [
             "Optimal mix of skills and perspectives on board",
+            "No board governance",
             "Random board member selection",
-            "Only founder board members",
-            "No board governance"
+            "Only founder board members"
           ],
           correctAnswer: 0,
           explanation: "Board composition strategy ensures the board has appropriate skills, experience, and diversity."
@@ -2608,48 +2608,48 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 15,
           question: "What is risk-based compliance?",
           options: [
+            "No compliance program",
             "Focusing compliance efforts on highest risk areas",
-            "Ignoring compliance risks",
             "Equal attention to all areas",
-            "No compliance program"
+            "Ignoring compliance risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk-based compliance prioritizes efforts based on assessment of compliance risks."
         },
         {
           id: 16,
           question: "What is ethical decision framework?",
           options: [
-            "Structured approaches to ethical choices",
             "Ignoring ethical considerations",
-            "Only legal compliance",
-            "Random ethical decisions"
+            "Structured approaches to ethical choices",
+            "Random ethical decisions",
+            "Only legal compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ethical decision frameworks provide structured approaches to analyzing and making ethical choices."
         },
         {
           id: 17,
           question: "What is market entry strategy?",
           options: [
-            "Approaches to international expansion",
-            "Ignoring international markets",
+            "Random market entry",
             "Only domestic focus",
-            "Random market entry"
+            "Approaches to international expansion",
+            "Ignoring international markets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Market entry strategy defines how a business will enter and compete in new international markets."
         },
         {
           id: 18,
           question: "What is localization strategy?",
           options: [
-            "Adapting to local market conditions",
-            "Identical global approach",
             "Ignoring local differences",
-            "Random market adaptation"
+            "Random market adaptation",
+            "Identical global approach",
+            "Adapting to local market conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Localization strategy adapts products, marketing, and operations to local market conditions."
         },
         {
@@ -2657,9 +2657,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is cross-cultural management?",
           options: [
             "Leading diverse international teams",
-            "Only domestic team management",
+            "Random management approach",
             "Ignoring cultural differences",
-            "Random management approach"
+            "Only domestic team management"
           ],
           correctAnswer: 0,
           explanation: "Cross-cultural management involves leading teams with diverse cultural backgrounds effectively."
@@ -2669,9 +2669,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is continuing professional development?",
           options: [
             "Ongoing learning for business leaders",
+            "Random skill development",
             "One-time education only",
-            "Ignoring further learning",
-            "Random skill development"
+            "Ignoring further learning"
           ],
           correctAnswer: 0,
           explanation: "Continuing professional development involves ongoing learning to maintain and enhance professional capabilities."
@@ -2691,12 +2691,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
         id: 1,
         question: "What distinguishes E-business from E-commerce?",
         options: [
-          "Complete digital transformation of all business processes",
-          "Only online sales transactions",
           "Physical store operations only",
-          "Traditional business methods"
+          "Traditional business methods",
+          "Complete digital transformation of all business processes",
+          "Only online sales transactions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "E-business encompasses complete digital transformation, not just online sales.",
         module: 1
       },
@@ -2704,12 +2704,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
         id: 2,
         question: "Which Balanced Scorecard perspective focuses on customer satisfaction?",
         options: [
-          "Customer Perspective",
           "Financial Perspective",
+          "Learning & Growth Perspective",
           "Internal Process Perspective",
-          "Learning & Growth Perspective"
+          "Customer Perspective"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Customer Perspective measures customer satisfaction and retention.",
         module: 1
       },
@@ -2717,12 +2717,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
         id: 3,
         question: "What is visionary leadership in digital contexts?",
         options: [
-          "Creating and communicating compelling digital futures",
           "Only daily task management",
-          "Following competitors exactly",
-          "Ignoring technological changes"
+          "Ignoring technological changes",
+          "Creating and communicating compelling digital futures",
+          "Following competitors exactly"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Visionary leadership involves articulating clear digital direction.",
         module: 2
       },
@@ -2743,12 +2743,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 5,
           question: "What is integrated digital marketing strategy?",
           options: [
-            "Holistic approach to marketing planning",
-            "Focusing on one channel only",
             "Random marketing activities",
-            "Ignoring customer journey"
+            "Ignoring customer journey",
+            "Holistic approach to marketing planning",
+            "Focusing on one channel only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Integrated strategy coordinates all marketing activities.",
           module: 3
         },
@@ -2756,12 +2756,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 6,
           question: "What is Account-Based Marketing (ABM)?",
           options: [
-            "Targeted marketing to specific high-value accounts",
-            "Mass marketing to everyone",
+            "Only small account focus",
             "Ignoring high-value customers",
-            "Only small account focus"
+            "Targeted marketing to specific high-value accounts",
+            "Mass marketing to everyone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ABM focuses resources on specific high-value accounts.",
           module: 3
         },
@@ -2769,12 +2769,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 7,
           question: "What is product vision development?",
           options: [
+            "Ignoring market needs",
             "Defining long-term product direction and purpose",
-            "Only short-term feature planning",
             "Copying competitor products",
-            "Ignoring market needs"
+            "Only short-term feature planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Product vision articulates long-term product purpose.",
           module: 4
         },
@@ -2782,12 +2782,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 8,
           question: "What is Minimum Viable Product (MVP)?",
           options: [
-            "Smallest version for learning and validation",
-            "Fully featured complete product",
+            "Final product version",
             "Prototype without testing",
-            "Final product version"
+            "Fully featured complete product",
+            "Smallest version for learning and validation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MVP allows learning with minimum development effort.",
           module: 4
         },
@@ -2795,12 +2795,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 9,
           question: "What is operations strategy development?",
           options: [
-            "Aligning operations with business objectives",
-            "Only daily task management",
+            "Ignoring strategic alignment",
             "Random operations decisions",
-            "Ignoring strategic alignment"
+            "Only daily task management",
+            "Aligning operations with business objectives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Operations strategy ensures operations support business goals.",
           module: 5
         },
@@ -2808,12 +2808,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 10,
           question: "What is supply chain network design?",
           options: [
-            "Optimal configuration of supply chain nodes",
             "Random supplier selection",
-            "Only using local suppliers",
-            "Ignoring supply chain structure"
+            "Optimal configuration of supply chain nodes",
+            "Ignoring supply chain structure",
+            "Only using local suppliers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Network design determines optimal supply chain configuration.",
           module: 5
         },
@@ -2822,9 +2822,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is financial strategy framework?",
           options: [
             "Comprehensive approach to financial management",
-            "Only daily accounting",
             "Random financial decisions",
-            "Ignoring financial planning"
+            "Ignoring financial planning",
+            "Only daily accounting"
           ],
           correctAnswer: 0,
           explanation: "Financial strategy provides structured financial management.",
@@ -2834,12 +2834,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 12,
           question: "What is business model canvas analysis?",
           options: [
-            "Structured approach to business model design",
-            "Only financial analysis",
             "Random business design",
-            "Ignoring business model"
+            "Ignoring business model",
+            "Only financial analysis",
+            "Structured approach to business model design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Business Model Canvas provides visual business model framework.",
           module: 6
         },
@@ -2847,12 +2847,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 13,
           question: "What is digital market segmentation?",
           options: [
-            "Grouping customers by technology adoption and behavior",
-            "Only demographic grouping",
             "Random customer grouping",
+            "Only demographic grouping",
+            "Grouping customers by technology adoption and behavior",
             "Ignoring customer differences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital segmentation considers technology adoption and behavior.",
           module: 1
         },
@@ -2860,12 +2860,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 14,
           question: "What is platform business model?",
           options: [
+            "Manufacturing physical goods",
             "Creating multi-sided markets connecting different groups",
             "Selling products directly to consumers",
-            "Manufacturing physical goods",
             "Providing consulting services only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Platform models facilitate interactions between user groups.",
           module: 1
         },
@@ -2873,12 +2873,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 15,
           question: "What is adaptive leadership?",
           options: [
-            "Flexibility in changing digital environments",
-            "Rigid adherence to plans",
             "Ignoring market changes",
+            "Rigid adherence to plans",
+            "Flexibility in changing digital environments",
             "Following traditional methods only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adaptive leadership involves flexibility and responsiveness.",
           module: 2
         },
@@ -2886,12 +2886,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 16,
           question: "What are cross-functional teams?",
           options: [
-            "Multidisciplinary teams focused on products or features",
-            "Teams with only technical members",
             "Teams organized by seniority only",
-            "Temporary project teams"
+            "Temporary project teams",
+            "Multidisciplinary teams focused on products or features",
+            "Teams with only technical members"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cross-functional teams include diverse skills for objectives.",
           module: 2
         },
@@ -2912,12 +2912,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 18,
           question: "What is behavioral segmentation?",
           options: [
-            "Grouping customers based on actions and interactions",
-            "Only by demographics",
             "Random customer grouping",
-            "Ignoring customer behavior"
+            "Only by demographics",
+            "Ignoring customer behavior",
+            "Grouping customers based on actions and interactions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Behavioral segmentation groups by actions and engagement.",
           module: 3
         },
@@ -2925,12 +2925,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 19,
           question: "What is DevOps?",
           options: [
-            "Integration of development and operations",
-            "Separate development and operations",
             "Only development focus",
-            "Ignoring operations completely"
+            "Ignoring operations completely",
+            "Separate development and operations",
+            "Integration of development and operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "DevOps combines development and operations.",
           module: 4
         },
@@ -2938,12 +2938,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 20,
           question: "What is design thinking process?",
           options: [
-            "Human-centered design methodology",
             "Only technical specifications",
             "Business requirements only",
+            "Human-centered design methodology",
             "Ignoring user perspectives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Design thinking focuses on human-centered problem solving.",
           module: 4
         },
@@ -2951,12 +2951,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 21,
           question: "What is demand forecasting?",
           options: [
-            "Predicting future inventory needs",
             "Ignoring future demand",
-            "Only current inventory counting",
-            "Random inventory ordering"
+            "Predicting future inventory needs",
+            "Random inventory ordering",
+            "Only current inventory counting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Demand forecasting predicts future customer demand.",
           module: 5
         },
@@ -2964,12 +2964,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 22,
           question: "What is Enterprise Resource Planning (ERP)?",
           options: [
-            "Integrated business management systems",
-            "Only accounting software",
             "Separate departmental systems",
-            "No technology integration"
+            "Only accounting software",
+            "No technology integration",
+            "Integrated business management systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ERP integrates various business functions.",
           module: 5
         },
@@ -2977,12 +2977,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 23,
           question: "What is Discounted Cash Flow valuation?",
           options: [
-            "Present value of future cash flows",
             "Only current asset value",
-            "Ignoring future earnings",
-            "Random business valuation"
+            "Random business valuation",
+            "Present value of future cash flows",
+            "Ignoring future earnings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DCF estimates value based on future cash flows.",
           module: 6
         },
@@ -2991,9 +2991,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is bootstrapping in funding?",
           options: [
             "Self-funding approaches for early stages",
-            "Maximum external funding",
             "Ignoring funding needs",
-            "Only venture capital"
+            "Only venture capital",
+            "Maximum external funding"
           ],
           correctAnswer: 0,
           explanation: "Bootstrapping involves funding through internal revenues.",
@@ -3003,12 +3003,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 25,
           question: "What is technology roadmapping?",
           options: [
+            "Following competitors exactly",
             "Strategic technology planning aligned with business goals",
             "Random technology purchases",
-            "Following competitors exactly",
             "Ignoring technology decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technology roadmapping plans tech investments strategically.",
           module: 1
         },
@@ -3016,12 +3016,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 26,
           question: "What is skills-based hiring?",
           options: [
-            "Focusing on capabilities rather than credentials",
             "Hiring based on university degrees only",
+            "Focusing on capabilities rather than credentials",
             "Ignoring actual skills",
             "Only hiring friends and family"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Skills-based hiring evaluates demonstrated capabilities.",
           module: 2
         },
@@ -3029,12 +3029,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 27,
           question: "What is A/B testing in marketing?",
           options: [
-            "Comparing two versions to determine which performs better",
-            "Testing everything at once",
             "No testing approach",
+            "Testing everything at once",
+            "Comparing two versions to determine which performs better",
             "Copying competitor designs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A/B testing compares two versions statistically.",
           module: 3
         },
@@ -3043,9 +3043,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is Build-Measure-Learn loop?",
           options: [
             "Continuous feedback cycle in lean development",
+            "Random development approach",
             "One-time development process",
-            "Ignoring measurement",
-            "Random development approach"
+            "Ignoring measurement"
           ],
           correctAnswer: 0,
           explanation: "Build-Measure-Learn is core feedback loop in lean methodology.",
@@ -3055,12 +3055,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 29,
           question: "What is Robotic Process Automation (RPA)?",
           options: [
-            "Software robots for repetitive tasks",
-            "Only physical robots",
             "Manual process execution",
+            "Only physical robots",
+            "Software robots for repetitive tasks",
             "No automation technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "RPA automates repetitive digital tasks with software robots.",
           module: 5
         },
@@ -3068,12 +3068,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 30,
           question: "What is network effects in platform models?",
           options: [
+            "Ignoring user interactions",
             "Building value through user connections",
             "Only individual user value",
-            "Ignoring user interactions",
             "Random platform growth"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Network effects increase value with more users.",
           module: 6
         },
@@ -3081,12 +3081,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 31,
           question: "What is freemium business model?",
           options: [
-            "Free basic service with premium upgrades",
+            "Physical product sales only",
             "All features available for free",
-            "High prices for all users",
-            "Physical product sales only"
+            "Free basic service with premium upgrades",
+            "High prices for all users"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Freemium offers basic free service with paid upgrades.",
           module: 1
         },
@@ -3094,12 +3094,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 32,
           question: "What is OKR framework?",
           options: [
+            "Operational Knowledge Repository",
             "Objectives and Key Results methodology",
-            "Office Key Resources system",
             "Only Known Requirements",
-            "Operational Knowledge Repository"
+            "Office Key Resources system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "OKR is goal-setting framework for objectives.",
           module: 2
         },
@@ -3107,12 +3107,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 33,
           question: "What is GDPR compliance?",
           options: [
-            "European data protection regulations",
             "General marketing guidelines",
             "Website design standards",
+            "European data protection regulations",
             "Product safety regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GDPR is EU legislation for personal data protection.",
           module: 3
         },
@@ -3120,12 +3120,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 34,
           question: "What is product engagement metrics?",
           options: [
-            "How users interact with products",
             "Only sales numbers",
             "Ignoring user behavior",
+            "How users interact with products",
             "Server uptime only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Engagement metrics measure user interaction with products.",
           module: 4
         },
@@ -3133,12 +3133,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 35,
           question: "What is predictive maintenance?",
           options: [
-            "Using data to anticipate maintenance needs",
             "Only reactive repairs",
+            "Using data to anticipate maintenance needs",
             "Ignoring maintenance planning",
             "Random maintenance scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Predictive maintenance anticipates needs using data.",
           module: 5
         },
@@ -3147,9 +3147,9 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           question: "What is churn reduction in subscription models?",
           options: [
             "Minimizing customer cancellations",
-            "Ignoring customer retention",
+            "Random customer management",
             "Only acquiring new customers",
-            "Random customer management"
+            "Ignoring customer retention"
           ],
           correctAnswer: 0,
           explanation: "Churn reduction strategies minimize subscription cancellations.",
@@ -3159,12 +3159,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 37,
           question: "What is risk assessment methodology?",
           options: [
-            "Systematic evaluation of potential risks",
             "Ignoring potential problems",
             "Assuming everything will work perfectly",
-            "Copying competitor risk plans"
+            "Copying competitor risk plans",
+            "Systematic evaluation of potential risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk assessment systematically identifies and evaluates risks.",
           module: 1
         },
@@ -3172,12 +3172,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 38,
           question: "What is due diligence in acquisitions?",
           options: [
-            "Comprehensive acquisition evaluation",
             "Ignoring target evaluation",
-            "Only financial review",
-            "Random acquisition process"
+            "Random acquisition process",
+            "Comprehensive acquisition evaluation",
+            "Only financial review"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Due diligence involves thorough investigation of targets.",
           module: 6
         },
@@ -3185,12 +3185,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 39,
           question: "What is continuous improvement methodology?",
           options: [
-            "Structured approach to ongoing optimization",
             "One-time improvement only",
-            "Ignoring process optimization",
-            "Random improvement attempts"
+            "Random improvement attempts",
+            "Structured approach to ongoing optimization",
+            "Ignoring process optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuous improvement provides structured ongoing optimization.",
           module: 5
         },
@@ -3198,12 +3198,12 @@ Thank you for completing this comprehensive E-business Management Diploma progra
           id: 40,
           question: "What is continuing professional development?",
           options: [
+            "Ignoring further learning",
             "Ongoing learning for business leaders",
             "One-time education only",
-            "Ignoring further learning",
             "Random skill development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Continuing professional development involves ongoing learning.",
           module: 6
         }

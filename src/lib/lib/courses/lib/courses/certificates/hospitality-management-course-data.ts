@@ -187,11 +187,11 @@ Remember: Great hospitality leaders create environments where both guests and st
           question: "What are the three pillars of hospitality leadership?",
           options: [
             "Marketing, Finance, Operations",
-            "Guest Experience, Team, Business Leadership",
+            "Planning, Organizing, Controlling",
             "Front Desk, Housekeeping, Food Service",
-            "Planning, Organizing, Controlling"
+            "Guest Experience, Team, Business Leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The three pillars are: Guest Experience Leadership, Team Leadership, and Business Leadership."
         },
         {
@@ -199,11 +199,11 @@ Remember: Great hospitality leaders create environments where both guests and st
           question: "Which leadership style focuses on inspiring staff to exceed expectations?",
           options: [
             "Transactional Leadership",
-            "Transformational Leadership",
             "Servant Leadership",
-            "Autocratic Leadership"
+            "Autocratic Leadership",
+            "Transformational Leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Transformational leadership inspires staff to exceed expectations and creates vision for exceptional service."
         },
         {
@@ -217,60 +217,60 @@ Remember: Great hospitality leaders create environments where both guests and st
           id: 4,
           question: "What does the 'D' stand for in the DECIDE framework?",
           options: [
-            "Develop plan",
             "Define problem",
+            "Determine outcomes",
             "Delegate tasks",
-            "Determine outcomes"
+            "Develop plan"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "In DECIDE framework, 'D' stands for Define the problem or opportunity."
         },
         {
           id: 5,
           question: "Which tasks are both urgent and important?",
           options: [
+            "Social media updates",
             "Training sessions",
             "Guest complaints",
-            "Future planning",
-            "Social media updates"
+            "Future planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Guest complaints are both urgent (need immediate attention) and important (affect guest satisfaction)."
         },
         {
           id: 6,
           question: "When should you delegate tasks?",
           options: [
-            "Only tasks you can do perfectly",
-            "Tasks others can do 70% as well as you",
             "Never delegate important tasks",
-            "Only to senior staff members"
+            "Only tasks you can do perfectly",
+            "Only to senior staff members",
+            "Tasks others can do 70% as well as you"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Delegate tasks that others can do 70% as well as you to develop team skills and free your time."
         },
         {
           id: 7,
           question: "What is servant leadership?",
           options: [
-            "Leading by serving others first",
-            "Giving orders to servants",
             "Managing only service staff",
-            "Working in service positions"
+            "Leading by serving others first",
+            "Working in service positions",
+            "Giving orders to servants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Servant leadership puts team needs first and leads by serving others, building loyalty."
         },
         {
           id: 8,
           question: "What communication involves reporting to superiors?",
           options: [
-            "Downward communication",
-            "Upward communication",
+            "External communication",
             "Lateral communication",
-            "External communication"
+            "Downward communication",
+            "Upward communication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Upward communication involves reporting to managers, owners, or corporate leadership."
         },
         {
@@ -278,11 +278,11 @@ Remember: Great hospitality leaders create environments where both guests and st
           question: "What creates psychological safety in teams?",
           options: [
             "Punishing all mistakes",
-            "Encouraging questions and ideas",
             "Eliminating all conflicts",
-            "Having identical team members"
+            "Having identical team members",
+            "Encouraging questions and ideas"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Psychological safety is created by encouraging questions and viewing mistakes as learning opportunities."
         },
         {
@@ -290,11 +290,11 @@ Remember: Great hospitality leaders create environments where both guests and st
           question: "What is situational leadership?",
           options: [
             "Same style for everyone",
+            "Managing seasonal operations",
             "Adapting style to situation and person",
-            "Leading only in specific locations",
-            "Managing seasonal operations"
+            "Leading only in specific locations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Situational leadership adapts style based on the situation and the team member's competence and commitment."
         },
         {
@@ -308,36 +308,36 @@ Remember: Great hospitality leaders create environments where both guests and st
           id: 12,
           question: "What is the 'storming' stage of team development?",
           options: [
-            "Team works efficiently",
-            "Conflicts emerge and roles tested",
             "Cooperation develops",
-            "Team comes together politely"
+            "Team works efficiently",
+            "Team comes together politely",
+            "Conflicts emerge and roles tested"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Storming stage involves conflicts emerging as team members test roles and boundaries."
         },
         {
           id: 13,
           question: "Which leadership style uses structured systems and rewards?",
           options: [
-            "Transformational",
             "Transactional",
+            "Transformational",
             "Servant",
             "Democratic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transactional leadership focuses on clear roles, structured systems, and performance rewards."
         },
         {
           id: 14,
           question: "What should effective meetings always have?",
           options: [
-            "Free food",
-            "Clear agenda",
+            "Only managers speaking",
             "No time limit",
-            "Only managers speaking"
+            "Clear agenda",
+            "Free food"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective meetings always have a clear agenda to stay focused and productive."
         },
         {
@@ -351,60 +351,60 @@ Remember: Great hospitality leaders create environments where both guests and st
           id: 16,
           question: "What is lateral communication?",
           options: [
+            "Coordinating with peers",
             "Reporting to superiors",
             "Directing team members",
-            "Coordinating with peers",
             "Interacting with guests"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Lateral communication involves coordinating with peers at the same organizational level."
         },
         {
           id: 17,
           question: "What type of decisions involve policy changes?",
           options: [
+            "Routine decisions",
             "Immediate decisions",
             "Consultative decisions",
-            "Routine decisions",
             "Emergency decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Consultative decisions like policy changes benefit from input from affected team members."
         },
         {
           id: 18,
           question: "What builds leadership credibility?",
           options: [
-            "Knowing your property",
-            "Never making mistakes",
+            "Having expensive clothes",
             "Working longest hours",
-            "Having expensive clothes"
+            "Knowing your property",
+            "Never making mistakes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Knowing your property inside and out builds credibility with both staff and guests."
         },
         {
           id: 19,
           question: "What is the performing stage of team development?",
           options: [
+            "Conflicts emerge",
             "Team disbands",
             "Team works efficiently",
-            "Conflicts emerge",
             "Norms established"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Performing stage is when the team works efficiently toward goals with high productivity."
         },
         {
           id: 20,
           question: "What should daily planning include?",
           options: [
-            "Only scheduled meetings",
             "Morning briefing and walk-around time",
+            "Only scheduled meetings",
             "Avoiding guest interaction",
             "Working only in office"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Daily planning should include morning briefing and scheduled walk-around time for guest interaction."
         }
       ]
@@ -628,9 +628,9 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           question: "What does ADR stand for in front office metrics?",
           options: [
             "Average Daily Revenue",
-            "Annual Department Rate",
+            "Accommodation Demand Ratio",
             "Average Daily Rate",
-            "Accommodation Demand Ratio"
+            "Annual Department Rate"
           ],
           correctAnswer: 2,
           explanation: "ADR stands for Average Daily Rate - the average revenue earned per occupied room per day."
@@ -639,24 +639,24 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           id: 2,
           question: "Who handles linens and public areas in housekeeping?",
           options: [
-            "Room attendants",
-            "Housepersons",
             "Inspectors",
-            "Laundry staff"
+            "Laundry staff",
+            "Room attendants",
+            "Housepersons"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Housepersons handle linens, supplies, and public area cleaning in housekeeping operations."
         },
         {
           id: 3,
           question: "What type of cleaning is done for occupied rooms?",
           options: [
+            "Special cleaning",
             "Check-out service",
-            "Stayover service",
             "Deep cleaning",
-            "Special cleaning"
+            "Stayover service"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Stayover service is daily cleaning for rooms with current guests staying additional nights."
         },
         {
@@ -664,35 +664,35 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           question: "What does F&B stand for?",
           options: [
             "Facilities and Building",
-            "Food and Beverage",
+            "Finance and Budget",
             "Front and Back",
-            "Finance and Budget"
+            "Food and Beverage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "F&B stands for Food and Beverage - the department handling all dining and drinking services."
         },
         {
           id: 5,
           question: "What is preventive maintenance?",
           options: [
-            "Fixing broken items",
-            "Emergency repairs",
             "Scheduled equipment servicing",
-            "Guest-reported repairs"
+            "Emergency repairs",
+            "Guest-reported repairs",
+            "Fixing broken items"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Preventive maintenance involves scheduled servicing to prevent equipment failures before they occur."
         },
         {
           id: 6,
           question: "What does RevPAR measure?",
           options: [
-            "Restaurant revenue",
             "Revenue per available room",
-            "Revenue percentage",
-            "Review ratings average"
+            "Review ratings average",
+            "Restaurant revenue",
+            "Revenue percentage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "RevPAR stands for Revenue per Available Room - total room revenue divided by available rooms."
         },
         {
@@ -700,23 +700,23 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           question: "What pricing changes based on demand?",
           options: [
             "Static pricing",
-            "Dynamic pricing",
+            "Corporate pricing",
             "Package pricing",
-            "Corporate pricing"
+            "Dynamic pricing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dynamic pricing adjusts rates based on current and anticipated demand to maximize revenue."
         },
         {
           id: 8,
           question: "What does PMS stand for in hospitality?",
           options: [
-            "Property Management System",
             "Preventive Maintenance Schedule",
-            "Performance Measurement System",
-            "Personnel Management Software"
+            "Personnel Management Software",
+            "Property Management System",
+            "Performance Measurement System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PMS stands for Property Management System - the central software managing hotel operations."
         },
         {
@@ -730,22 +730,22 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           id: 10,
           question: "What technology manages sales channels?",
           options: [
-            "PMS",
-            "POS",
             "Channel Management System",
-            "CRM"
+            "CRM",
+            "PMS",
+            "POS"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Channel Management System distributes inventory and rates across various sales channels."
         },
         {
           id: 11,
           question: "Who performs quality control on cleaned rooms?",
           options: [
+            "Supervisors",
             "Room attendants",
-            "Housepersons",
             "Inspectors",
-            "Supervisors"
+            "Housepersons"
           ],
           correctAnswer: 2,
           explanation: "Inspectors check cleaned rooms to ensure they meet quality standards before being sold."
@@ -754,22 +754,22 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           id: 12,
           question: "What controls food costs?",
           options: [
-            "Portion control systems",
+            "Higher prices only",
             "Longer operating hours",
             "More menu items",
-            "Higher prices only"
+            "Portion control systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Portion control systems ensure consistent serving sizes to control food costs."
         },
         {
           id: 13,
           question: "What maintains daily financial reconciliation?",
           options: [
-            "Front desk",
-            "Night audit",
             "Accounting",
-            "Revenue management"
+            "Night audit",
+            "Revenue management",
+            "Front desk"
           ],
           correctAnswer: 1,
           explanation: "Night audit process reconciles daily transactions and prepares financial reports."
@@ -778,12 +778,12 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           id: 14,
           question: "What measures guest satisfaction secretly?",
           options: [
-            "Social media",
-            "Mystery shopper programs",
             "Online reviews",
-            "Surveys"
+            "Social media",
+            "Surveys",
+            "Mystery shopper programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mystery shopper programs use trained evaluators posing as guests to measure service quality."
         },
         {
@@ -791,9 +791,9 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           question: "What does CRM stand for?",
           options: [
             "Customer Relationship Management",
-            "Corporate Revenue Management",
+            "Cost Reduction Method",
             "Central Reservation Management",
-            "Cost Reduction Method"
+            "Corporate Revenue Management"
           ],
           correctAnswer: 0,
           explanation: "CRM stands for Customer Relationship Management - systems for managing guest interactions and data."
@@ -809,12 +809,12 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           id: 17,
           question: "What handles in-room dining?",
           options: [
+            "Mini-bar",
             "Restaurant",
-            "Room service",
             "Banquet",
-            "Mini-bar"
+            "Room service"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Room service provides food and beverage delivery to guest rooms."
         },
         {
@@ -822,11 +822,11 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           question: "What forecasts future business?",
           options: [
             "Revenue management",
+            "Performance analysis",
             "Demand forecasting",
-            "Inventory control",
-            "Performance analysis"
+            "Inventory control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Demand forecasting predicts future occupancy and revenue patterns for planning purposes."
         },
         {
@@ -834,11 +834,11 @@ Operations excellence requires balancing efficiency with exceptional guest exper
           question: "What is continuous improvement?",
           options: [
             "One-time fix",
+            "Emergency response",
             "Ongoing cycle of measurement and improvement",
-            "Annual review",
-            "Emergency response"
+            "Annual review"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Continuous improvement is an ongoing cycle of measuring, identifying opportunities, implementing changes, and repeating."
         },
         {
@@ -1083,9 +1083,9 @@ Effective HR management creates engaged teams that deliver exceptional guest exp
           id: 1,
           question: "What does FTE stand for in workforce planning?",
           options: [
-            "Full-Time Employee",
-            "Full-Time Equivalent",
             "Future Training Estimate",
+            "Full-Time Equivalent",
+            "Full-Time Employee",
             "Financial Target Expectation"
           ],
           correctAnswer: 1,
@@ -1095,36 +1095,36 @@ Effective HR management creates engaged teams that deliver exceptional guest exp
           id: 2,
           question: "What interview asks 'Tell me about a time when...'?",
           options: [
-            "Situational interview",
-            "Behavioral interview",
             "Role-playing interview",
-            "Practical test"
+            "Situational interview",
+            "Practical test",
+            "Behavioral interview"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Behavioral interviews ask about past experiences to predict future performance."
         },
         {
           id: 3,
           question: "What training introduces company values?",
           options: [
-            "Technical training",
             "Orientation training",
             "Safety training",
-            "Cross-training"
+            "Cross-training",
+            "Technical training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Orientation training introduces new employees to company history, values, and culture."
         },
         {
           id: 4,
           question: "What uses input from multiple sources for evaluation?",
           options: [
-            "Self-assessment",
             "360-degree feedback",
+            "Critical incident method",
             "Management by objectives",
-            "Critical incident method"
+            "Self-assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "360-degree feedback gathers input from supervisors, peers, subordinates, and sometimes guests."
         },
         {
@@ -1132,69 +1132,69 @@ Effective HR management creates engaged teams that deliver exceptional guest exp
           question: "What is the first step in progressive discipline?",
           options: [
             "Written warning",
+            "Termination",
             "Suspension",
-            "Verbal warning",
-            "Termination"
+            "Verbal warning"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Progressive discipline typically begins with an informal verbal warning."
         },
         {
           id: 6,
           question: "What are shift differentials?",
           options: [
-            "Different uniform colors",
             "Extra pay for certain shifts",
+            "Different uniform colors",
             "Varied break times",
             "Alternate supervisors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Shift differentials are additional pay for working evenings, nights, weekends, or holidays."
         },
         {
           id: 7,
           question: "What helps reduce turnover?",
           options: [
-            "Lower wages",
-            "Irregular hours",
             "Career progression paths",
-            "Less training"
+            "Less training",
+            "Irregular hours",
+            "Lower wages"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Clear career progression paths show employees growth opportunities, improving retention."
         },
         {
           id: 8,
           question: "What gathers information from departing employees?",
           options: [
+            "Exit interview",
             "Entry interview",
             "Performance review",
-            "Exit interview",
             "Training evaluation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Exit interviews identify reasons for turnover and opportunities for improvement."
         },
         {
           id: 9,
           question: "What addresses unconscious assumptions?",
           options: [
+            "Language training",
             "Technical training",
-            "Unconscious bias training",
             "Safety training",
-            "Language training"
+            "Unconscious bias training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Unconscious bias training helps staff recognize and mitigate automatic assumptions about others."
         },
         {
           id: 10,
           question: "What metric is labor cost divided by revenue?",
           options: [
-            "Revenue per employee",
+            "Turnover rate",
             "Labor cost percentage",
             "Overtime percentage",
-            "Turnover rate"
+            "Revenue per employee"
           ],
           correctAnswer: 1,
           explanation: "Labor cost percentage = Total labor cost ÷ Total revenue × 100."
@@ -1204,8 +1204,8 @@ Effective HR management creates engaged teams that deliver exceptional guest exp
           question: "What forecasts future staffing needs?",
           options: [
             "Workforce planning",
-            "Performance management",
             "Recruitment",
+            "Performance management",
             "Training"
           ],
           correctAnswer: 0,
@@ -1216,11 +1216,11 @@ Effective HR management creates engaged teams that deliver exceptional guest exp
           question: "What simulates guest interactions in interviews?",
           options: [
             "Behavioral interviews",
-            "Role-playing scenarios",
+            "Situational interviews",
             "Practical tests",
-            "Situational interviews"
+            "Role-playing scenarios"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Role-playing scenarios test how candidates would handle actual guest situations."
         },
         {
@@ -1228,11 +1228,11 @@ Effective HR management creates engaged teams that deliver exceptional guest exp
           question: "What teaches multiple department skills?",
           options: [
             "Orientation",
-            "Cross-training",
+            "Compliance training",
             "Technical training",
-            "Compliance training"
+            "Cross-training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cross-training develops skills in multiple departments for flexibility and career growth."
         },
         {
@@ -1246,60 +1246,60 @@ Effective HR management creates engaged teams that deliver exceptional guest exp
           id: 15,
           question: "What are non-monetary rewards?",
           options: [
-            "Service excellence awards",
-            "Higher salaries",
             "Extra tips",
+            "Higher salaries",
+            "Service excellence awards",
             "Overtime pay"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Non-monetary rewards like recognition programs motivate without additional cost."
         },
         {
           id: 16,
           question: "What helps work-life balance?",
           options: [
-            "Longer shifts",
             "Flexible scheduling options",
-            "Mandatory overtime",
-            "Fewer breaks"
+            "Longer shifts",
+            "Fewer breaks",
+            "Mandatory overtime"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Flexible scheduling helps employees balance work with personal responsibilities."
         },
         {
           id: 17,
           question: "What improves team creativity?",
           options: [
-            "Identical team members",
-            "Diverse teams",
             "Only experienced staff",
-            "Minimal training"
+            "Minimal training",
+            "Diverse teams",
+            "Identical team members"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Diverse teams bring different perspectives, leading to more creative problem-solving."
         },
         {
           id: 18,
           question: "What controls labor costs through scheduling?",
           options: [
-            "Accurate forecasting",
             "Higher wages",
-            "More overtime",
-            "Fewer benefits"
+            "Accurate forecasting",
+            "Fewer benefits",
+            "More overtime"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Accurate forecasting and scheduling match staffing to expected demand, controlling costs."
         },
         {
           id: 19,
           question: "What asks 'What would you do if...'?",
           options: [
-            "Behavioral interview",
             "Situational interview",
             "Practical test",
-            "Role-playing"
+            "Role-playing",
+            "Behavioral interview"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Situational interviews present hypothetical scenarios to assess problem-solving skills."
         },
         {
@@ -1535,10 +1535,10 @@ Marketing and sales success requires understanding guest needs and communicating
           id: 2,
           question: "What is perishable inventory in hospitality?",
           options: [
-            "Food that spoils quickly",
+            "Promotional materials",
             "Unsold rooms that cannot be stored",
-            "Seasonal decorations",
-            "Promotional materials"
+            "Food that spoils quickly",
+            "Seasonal decorations"
           ],
           correctAnswer: 1,
           explanation: "Hotel rooms are perishable - if not sold tonight, that revenue opportunity is lost forever."
@@ -1547,60 +1547,60 @@ Marketing and sales success requires understanding guest needs and communicating
           id: 3,
           question: "What segment includes corporate travelers?",
           options: [
-            "Leisure travelers",
-            "Business travelers",
+            "Local market",
             "Group business",
-            "Local market"
+            "Leisure travelers",
+            "Business travelers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Business travelers include corporate individual travelers, meetings, and convention attendees."
         },
         {
           id: 4,
           question: "What is a guest persona?",
           options: [
-            "Actual guest photo",
             "Fictional representation of target guest",
+            "Actual guest photo",
             "Employee playing guest",
             "Celebrity endorsement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A guest persona is a fictional representation of an ideal guest type for marketing targeting."
         },
         {
           id: 5,
           question: "What manages online reputation?",
           options: [
-            "Ignoring all reviews",
-            "Monitoring and responding to reviews",
+            "Deleting negative comments",
             "Only positive reviews",
-            "Deleting negative comments"
+            "Monitoring and responding to reviews",
+            "Ignoring all reviews"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Active monitoring and professional response to all reviews builds and protects online reputation."
         },
         {
           id: 6,
           question: "What is mobile-responsive design?",
           options: [
-            "Website that works on mobile devices",
             "App for hotel services",
-            "Mobile check-in system",
-            "Text message marketing"
+            "Website that works on mobile devices",
+            "Text message marketing",
+            "Mobile check-in system"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mobile-responsive websites adjust layout and functionality for optimal viewing on smartphones and tablets."
         },
         {
           id: 7,
           question: "What does SEO stand for?",
           options: [
-            "Service Excellence Optimization",
-            "Search Engine Optimization",
             "Sales Efficiency Organization",
-            "Standard Operating Environment"
+            "Standard Operating Environment",
+            "Service Excellence Optimization",
+            "Search Engine Optimization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "SEO stands for Search Engine Optimization - improving website visibility in search engine results."
         },
         {
@@ -1614,24 +1614,24 @@ Marketing and sales success requires understanding guest needs and communicating
           id: 9,
           question: "What selling understands needs first?",
           options: [
-            "Consultative selling",
-            "Feature-benefit selling",
             "Value-based selling",
+            "Feature-benefit selling",
+            "Consultative selling",
             "Hard selling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Consultative selling focuses on understanding guest needs before presenting solutions."
         },
         {
           id: 10,
           question: "What does ROI measure?",
           options: [
-            "Room occupancy index",
-            "Return on investment",
             "Rate of interest",
-            "Review quality index"
+            "Room occupancy index",
+            "Review quality index",
+            "Return on investment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ROI measures marketing effectiveness: Revenue generated ÷ Marketing spend × 100."
         },
         {
@@ -1639,47 +1639,47 @@ Marketing and sales success requires understanding guest needs and communicating
           question: "What loyalty program has status levels?",
           options: [
             "Points-based",
+            "Subscription-based",
             "Tier-based",
-            "Partnership-based",
-            "Subscription-based"
+            "Partnership-based"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Tier-based programs have different status levels (silver, gold, platinum) with increasing benefits."
         },
         {
           id: 12,
           question: "What does OTA stand for?",
           options: [
-            "Official Travel Authorization",
             "Online Travel Agency",
-            "Occupancy Tracking Application",
-            "Operating Time Agreement"
+            "Operating Time Agreement",
+            "Official Travel Authorization",
+            "Occupancy Tracking Application"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "OTA stands for Online Travel Agency - third-party booking platforms like Booking.com or Expedia."
         },
         {
           id: 13,
           question: "What is the hospitality product?",
           options: [
-            "Just the guest room",
-            "Rooms, amenities, services, experiences",
+            "Marketing materials",
             "Only food and beverage",
-            "Marketing materials"
+            "Rooms, amenities, services, experiences",
+            "Just the guest room"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The hospitality product includes everything from the physical room to the entire guest experience."
         },
         {
           id: 14,
           question: "What segmentation uses lifestyle and values?",
           options: [
-            "Demographic",
             "Geographic",
-            "Psychographic",
-            "Behavioral"
+            "Demographic",
+            "Behavioral",
+            "Psychographic"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Psychographic segmentation divides markets based on lifestyle, values, attitudes, and interests."
         },
         {
@@ -1687,11 +1687,11 @@ Marketing and sales success requires understanding guest needs and communicating
           question: "What is brand positioning?",
           options: [
             "Physical location",
-            "Unique value proposition",
+            "Market share",
             "Employee positions",
-            "Market share"
+            "Unique value proposition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Brand positioning defines how a property is uniquely valuable compared to competitors."
         },
         {
@@ -1713,9 +1713,9 @@ Marketing and sales success requires understanding guest needs and communicating
           question: "What involves joint promotions with partners?",
           options: [
             "Co-marketing",
-            "Solo marketing",
             "Internal marketing",
-            "Direct marketing"
+            "Direct marketing",
+            "Solo marketing"
           ],
           correctAnswer: 0,
           explanation: "Co-marketing involves collaborative promotional activities with strategic partners."
@@ -1725,11 +1725,11 @@ Marketing and sales success requires understanding guest needs and communicating
           question: "What is the group sales closing stage?",
           options: [
             "Prospecting",
+            "Qualifying",
             "Contract signing",
-            "Event execution",
-            "Qualifying"
+            "Event execution"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Closing involves signing contracts and securing deposits for group business."
         },
         {
@@ -1737,11 +1737,11 @@ Marketing and sales success requires understanding guest needs and communicating
           question: "What program has annual fees for benefits?",
           options: [
             "Points-based loyalty",
-            "Tier-based loyalty",
             "Subscription-based loyalty",
-            "Partnership loyalty"
+            "Partnership loyalty",
+            "Tier-based loyalty"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Subscription-based loyalty programs charge annual fees for exclusive benefits and privileges."
         }
       ]
@@ -1952,10 +1952,10 @@ Financial management ensures hospitality operations remain profitable while deli
           id: 1,
           question: "What shows assets, liabilities, and equity?",
           options: [
-            "Income statement",
-            "Balance sheet",
             "Cash flow statement",
-            "Departmental statement"
+            "Balance sheet",
+            "Departmental statement",
+            "Income statement"
           ],
           correctAnswer: 1,
           explanation: "Balance sheet shows financial position at a point in time: Assets = Liabilities + Equity."
@@ -1966,8 +1966,8 @@ Financial management ensures hospitality operations remain profitable while deli
           options: [
             "Morning meeting",
             "Night audit",
-            "Accounting department",
-            "Revenue manager"
+            "Revenue manager",
+            "Accounting department"
           ],
           correctAnswer: 1,
           explanation: "Night audit process reconciles daily transactions and produces daily financial reports."
@@ -1976,10 +1976,10 @@ Financial management ensures hospitality operations remain profitable while deli
           id: 3,
           question: "What is the first step in annual budgeting?",
           options: [
-            "Market assessment",
-            "Historical analysis",
             "Departmental input",
-            "Revenue forecasting"
+            "Historical analysis",
+            "Revenue forecasting",
+            "Market assessment"
           ],
           correctAnswer: 1,
           explanation: "Historical analysis reviews past performance as foundation for future budgeting."
@@ -1989,92 +1989,92 @@ Financial management ensures hospitality operations remain profitable while deli
           question: "What budget plans major purchases?",
           options: [
             "Operating budget",
-            "Capital budget",
+            "Marketing budget",
             "Cash flow budget",
-            "Marketing budget"
+            "Capital budget"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Capital budget plans for major asset purchases, renovations, and equipment replacements."
         },
         {
           id: 5,
           question: "What is ADR formula?",
           options: [
-            "Room revenue ÷ Rooms available",
-            "Room revenue ÷ Rooms sold",
             "Total revenue ÷ Rooms available",
-            "Rooms sold ÷ Rooms available"
+            "Rooms sold ÷ Rooms available",
+            "Room revenue ÷ Rooms sold",
+            "Room revenue ÷ Rooms available"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ADR = Room revenue ÷ Number of rooms sold (average rate per occupied room)."
         },
         {
           id: 6,
           question: "What pricing changes with demand?",
           options: [
-            "Competitive pricing",
-            "Dynamic pricing",
             "Cost-plus pricing",
-            "Value-based pricing"
+            "Value-based pricing",
+            "Competitive pricing",
+            "Dynamic pricing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dynamic pricing adjusts rates based on current and forecasted demand conditions."
         },
         {
           id: 7,
           question: "What controls food portioning?",
           options: [
+            "Staff scheduling",
             "Standard recipes",
-            "Purchase specifications",
             "Inventory management",
-            "Staff scheduling"
+            "Purchase specifications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Standard recipes ensure consistent portion sizes, controlling food costs and quality."
         },
         {
           id: 8,
           question: "What analyzes actual vs. budget?",
           options: [
-            "Variance analysis",
             "Trend analysis",
+            "Market analysis",
             "Regression analysis",
-            "Market analysis"
+            "Variance analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Variance analysis compares actual performance to budgeted amounts and investigates differences."
         },
         {
           id: 9,
           question: "Which department typically has highest margins?",
           options: [
+            "Spa services",
             "Food and beverage",
             "Rooms department",
-            "Spa services",
             "Retail operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Rooms department typically has the highest profit margins in hotel operations."
         },
         {
           id: 10,
           question: "What evaluates time to recover investment?",
           options: [
-            "Net present value",
             "Payback period",
             "Internal rate of return",
-            "Return on investment"
+            "Return on investment",
+            "Net present value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Payback period calculates how long it takes to recover the initial investment amount."
         },
         {
           id: 11,
           question: "What shows revenue and expenses over time?",
           options: [
-            "Balance sheet",
-            "Income statement",
             "Cash flow statement",
+            "Income statement",
+            "Balance sheet",
             "Trial balance"
           ],
           correctAnswer: 1,
@@ -2084,10 +2084,10 @@ Financial management ensures hospitality operations remain profitable while deli
           id: 12,
           question: "What is RevPAR formula?",
           options: [
-            "Room revenue ÷ Rooms sold",
+            "Total revenue ÷ Rooms available",
             "Room revenue ÷ Rooms available",
             "Total revenue ÷ Rooms sold",
-            "Total revenue ÷ Rooms available"
+            "Room revenue ÷ Rooms sold"
           ],
           correctAnswer: 1,
           explanation: "RevPAR = Room revenue ÷ Total rooms available (measures revenue generation per available room)."
@@ -2097,9 +2097,9 @@ Financial management ensures hospitality operations remain profitable while deli
           question: "What uses past patterns for forecasting?",
           options: [
             "Historical trend analysis",
-            "Market-based forecasting",
+            "Regression analysis",
             "Seasonal adjustment",
-            "Regression analysis"
+            "Market-based forecasting"
           ],
           correctAnswer: 0,
           explanation: "Historical trend analysis uses patterns from past performance to predict future results."
@@ -2108,12 +2108,12 @@ Financial management ensures hospitality operations remain profitable while deli
           id: 14,
           question: "What manages energy costs?",
           options: [
-            "Energy management",
             "Labor scheduling",
-            "Inventory control",
-            "Preventive maintenance"
+            "Preventive maintenance",
+            "Energy management",
+            "Inventory control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Energy management programs monitor and control utility consumption to reduce costs."
         },
         {
@@ -2121,9 +2121,9 @@ Financial management ensures hospitality operations remain profitable while deli
           question: "What is GOP?",
           options: [
             "Gross operating profit",
-            "General operating plan",
             "Government operating permit",
-            "Guest orientation program"
+            "Guest orientation program",
+            "General operating plan"
           ],
           correctAnswer: 0,
           explanation: "GOP stands for Gross Operating Profit - revenue minus departmental and undistributed expenses."
@@ -2132,36 +2132,36 @@ Financial management ensures hospitality operations remain profitable while deli
           id: 16,
           question: "What calculates current value of future cash?",
           options: [
-            "Payback period",
-            "Net present value",
             "Internal rate of return",
-            "Return on investment"
+            "Return on investment",
+            "Net present value",
+            "Payback period"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "NPV calculates the current value of future cash flows, considering time value of money."
         },
         {
           id: 17,
           question: "What secures cash before service?",
           options: [
-            "Advance deposit policies",
-            "Credit management",
             "Vendor terms",
-            "Inventory control"
+            "Advance deposit policies",
+            "Inventory control",
+            "Credit management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Advance deposit policies require guests to pay deposits before arrival, improving cash flow."
         },
         {
           id: 18,
           question: "What is current ratio?",
           options: [
-            "Current assets ÷ Current liabilities",
             "Current liabilities ÷ Current assets",
+            "Current assets ÷ Current liabilities",
             "Total assets ÷ Total liabilities",
             "Revenue ÷ Current assets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Current ratio = Current assets ÷ Current liabilities (measures short-term liquidity)."
         },
         {
@@ -2169,21 +2169,21 @@ Financial management ensures hospitality operations remain profitable while deli
           question: "What reports key daily metrics?",
           options: [
             "Monthly financial package",
-            "Daily flash report",
             "Weekly performance report",
+            "Daily flash report",
             "Departmental reports"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Daily flash report provides key performance metrics from the previous operating day."
         },
         {
           id: 20,
           question: "What measures room sales percentage?",
           options: [
-            "ADR",
+            "TRevPAR",
             "Occupancy percentage",
-            "RevPAR",
-            "TRevPAR"
+            "ADR",
+            "RevPAR"
           ],
           correctAnswer: 1,
           explanation: "Occupancy percentage = Rooms sold ÷ Rooms available × 100 (percentage of rooms occupied)."
@@ -2394,72 +2394,72 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
           id: 1,
           question: "What is the first step in strategic planning?",
           options: [
-            "SWOT analysis",
-            "Environmental scanning",
             "Goal setting",
-            "Mission development"
+            "Mission development",
+            "Environmental scanning",
+            "SWOT analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Environmental scanning analyzes internal and external factors before strategy development."
         },
         {
           id: 2,
           question: "What does SWOT stand for?",
           options: [
-            "Strengths, Weaknesses, Opportunities, Threats",
             "Service, Workforce, Operations, Technology",
-            "Sales, Welcome, Organization, Training",
-            "Strategy, Workflow, Objectives, Tactics"
+            "Strengths, Weaknesses, Opportunities, Threats",
+            "Strategy, Workflow, Objectives, Tactics",
+            "Sales, Welcome, Organization, Training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SWOT analyzes internal Strengths and Weaknesses, external Opportunities and Threats."
         },
         {
           id: 3,
           question: "What does PESTLE analyze?",
           options: [
-            "Internal operations",
-            "External environment factors",
+            "Employee satisfaction",
             "Financial performance",
-            "Employee satisfaction"
+            "Internal operations",
+            "External environment factors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "PESTLE analyzes Political, Economic, Social, Technological, Legal, and Environmental factors."
         },
         {
           id: 4,
           question: "What does SMART stand for in goals?",
           options: [
-            "Simple, Meaningful, Actionable, Relevant, Timely",
             "Specific, Measurable, Achievable, Relevant, Time-bound",
             "Strategic, Manageable, Attainable, Realistic, Trackable",
-            "Structured, Motivating, Accountable, Responsible, Targeted"
+            "Structured, Motivating, Accountable, Responsible, Targeted",
+            "Simple, Meaningful, Actionable, Relevant, Timely"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound."
         },
         {
           id: 5,
           question: "What innovation area involves new services?",
           options: [
-            "Guest experience innovation",
-            "Operational innovation",
             "Technology innovation",
-            "Business model innovation"
+            "Business model innovation",
+            "Operational innovation",
+            "Guest experience innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Guest experience innovation involves new services, amenities, and personalized experiences."
         },
         {
           id: 6,
           question: "What is first in innovation process?",
           options: [
-            "Idea screening",
-            "Idea generation",
             "Testing and validation",
-            "Implementation"
+            "Implementation",
+            "Idea generation",
+            "Idea screening"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Idea generation through brainstorming, research, and feedback starts the innovation process."
         },
         {
@@ -2487,8 +2487,8 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
           options: [
             "Personalization",
             "Automation",
-            "Standardization",
-            "Globalization"
+            "Globalization",
+            "Standardization"
           ],
           correctAnswer: 0,
           explanation: "Personalization uses data and technology to create tailored guest experiences."
@@ -2499,70 +2499,70 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
           options: [
             "Never after setting",
             "Only during crises",
-            "Quarterly and annually",
-            "Every 5 years only"
+            "Every 5 years only",
+            "Quarterly and annually"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Quarterly performance reviews and annual comprehensive reassessment keep strategy relevant."
         },
         {
           id: 11,
           question: "What defines purpose and direction?",
           options: [
-            "Vision and mission",
-            "Goals and objectives",
             "Strategies and tactics",
+            "Goals and objectives",
+            "Vision and mission",
             "Budgets and forecasts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vision (future aspiration) and mission (present purpose) define organizational direction."
         },
         {
           id: 12,
           question: "What analyzes similar properties nearby?",
           options: [
-            "Direct competitors analysis",
-            "Indirect competitors analysis",
+            "Environmental scanning",
             "Market positioning",
-            "Environmental scanning"
+            "Direct competitors analysis",
+            "Indirect competitors analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Direct competitors analysis examines similar hospitality properties in the same location."
         },
         {
           id: 13,
           question: "What strategy focuses on cost advantage?",
           options: [
+            "Focus strategy",
             "Differentiation strategy",
             "Cost leadership strategy",
-            "Focus strategy",
             "Innovation strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cost leadership strategy competes by having lower costs than competitors."
         },
         {
           id: 14,
           question: "What innovation improves efficiency?",
           options: [
-            "Guest experience innovation",
             "Operational innovation",
             "Technology innovation",
-            "Business model innovation"
+            "Business model innovation",
+            "Guest experience innovation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Operational innovation focuses on efficiency improvements and cost reductions."
         },
         {
           id: 15,
           question: "What is key for change success?",
           options: [
+            "Sudden implementation",
             "Secret planning",
             "Leadership commitment",
-            "Avoiding staff input",
-            "Sudden implementation"
+            "Avoiding staff input"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Visible support and commitment from leadership is crucial for successful change implementation."
         },
         {
@@ -2576,46 +2576,46 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
           id: 17,
           question: "What combines work and leisure travel?",
           options: [
-            "Workation blending",
             "Personalization",
-            "Sustainability focus",
-            "Local experiences"
+            "Local experiences",
+            "Workation blending",
+            "Sustainability focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Workation blending combines remote work with leisure travel experiences."
         },
         {
           id: 18,
           question: "What adjusts strategy based on performance?",
           options: [
+            "Ignoring failures",
             "Strategic learning organization",
             "Rigid planning approach",
-            "Annual review only",
-            "Ignoring failures"
+            "Annual review only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic learning organizations adapt based on experience, data, and changing conditions."
         },
         {
           id: 19,
           question: "What analyzes economic factors?",
           options: [
+            "T in PESTLE",
             "P in PESTLE",
             "E in PESTLE",
-            "S in PESTLE",
-            "T in PESTLE"
+            "S in PESTLE"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "E in PESTLE analyzes Economic factors like growth, inflation, and exchange rates."
         },
         {
           id: 20,
           question: "What is tested through pilot programs?",
           options: [
-            "Established procedures",
+            "Guest complaints",
             "Innovation concepts",
-            "Employee performance",
-            "Guest complaints"
+            "Established procedures",
+            "Employee performance"
           ],
           correctAnswer: 1,
           explanation: "Innovation concepts are tested through pilot programs before full implementation."
@@ -2633,21 +2633,21 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 1,
         question: "What are the three pillars of hospitality leadership?",
         options: [
-          "Marketing, Operations, Finance",
           "Guest Experience, Team, Business Leadership",
           "Front Office, Housekeeping, F&B",
-          "Planning, Organizing, Controlling"
+          "Planning, Organizing, Controlling",
+          "Marketing, Operations, Finance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The three pillars are Guest Experience Leadership, Team Leadership, and Business Leadership."
       },
       {
         id: 2,
         question: "What does ADR measure?",
         options: [
-          "Average daily revenue",
-          "Average daily rate",
           "Annual department revenue",
+          "Average daily rate",
+          "Average daily revenue",
           "Available daily rooms"
         ],
         correctAnswer: 1,
@@ -2658,11 +2658,11 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         question: "What does FTE stand for?",
         options: [
           "Full-Time Employee",
-          "Full-Time Equivalent",
           "Future Training Estimate",
+          "Full-Time Equivalent",
           "Financial Target Expectation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "FTE stands for Full-Time Equivalent - standardized workload measurement."
       },
       {
@@ -2676,36 +2676,36 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 5,
         question: "What shows assets and liabilities?",
         options: [
-          "Income statement",
-          "Balance sheet",
+          "Budget",
           "Cash flow statement",
-          "Budget"
+          "Balance sheet",
+          "Income statement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Balance sheet shows financial position: Assets = Liabilities + Equity."
       },
       {
         id: 6,
         question: "What is first in strategic planning?",
         options: [
-          "SWOT analysis",
-          "Environmental scanning",
           "Goal setting",
-          "Mission development"
+          "SWOT analysis",
+          "Mission development",
+          "Environmental scanning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Environmental scanning analyzes internal/external factors before strategy development."
       },
       {
         id: 7,
         question: "Which leadership style inspires exceeding expectations?",
         options: [
-          "Transactional",
           "Transformational",
           "Servant",
+          "Transactional",
           "Autocratic"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Transformational leadership inspires staff to exceed expectations and creates vision."
       },
       {
@@ -2713,33 +2713,33 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         question: "Who handles public areas in housekeeping?",
         options: [
           "Room attendants",
-          "Housepersons",
           "Inspectors",
+          "Housepersons",
           "Laundry staff"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Housepersons handle linens, supplies, and public area cleaning."
       },
       {
         id: 9,
         question: "What training introduces company values?",
         options: [
-          "Technical training",
           "Orientation training",
+          "Cross-training",
           "Safety training",
-          "Cross-training"
+          "Technical training"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Orientation training introduces company history, values, and culture to new employees."
       },
       {
         id: 10,
         question: "What is perishable inventory?",
         options: [
-          "Food that spoils",
-          "Unsold rooms that cannot be stored",
           "Seasonal items",
-          "Promotional materials"
+          "Unsold rooms that cannot be stored",
+          "Promotional materials",
+          "Food that spoils"
         ],
         correctAnswer: 1,
         explanation: "Hotel rooms are perishable - if not sold, the revenue opportunity is lost forever."
@@ -2748,22 +2748,22 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 11,
         question: "What is RevPAR formula?",
         options: [
-          "Room revenue ÷ Rooms sold",
-          "Room revenue ÷ Rooms available",
           "Total revenue ÷ Rooms sold",
-          "Total revenue ÷ Rooms available"
+          "Total revenue ÷ Rooms available",
+          "Room revenue ÷ Rooms sold",
+          "Room revenue ÷ Rooms available"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "RevPAR = Room revenue ÷ Total rooms available."
       },
       {
         id: 12,
         question: "What does SWOT analyze?",
         options: [
-          "Only internal factors",
           "Only external factors",
+          "Financial performance only",
           "Internal strengths/weaknesses, external opportunities/threats",
-          "Financial performance only"
+          "Only internal factors"
         ],
         correctAnswer: 2,
         explanation: "SWOT analyzes internal Strengths/Weaknesses and external Opportunities/Threats."
@@ -2779,58 +2779,58 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 14,
         question: "What does PMS stand for in hospitality?",
         options: [
-          "Property Management System",
           "Preventive Maintenance Schedule",
+          "Personnel Management Software",
           "Performance Measurement System",
-          "Personnel Management Software"
+          "Property Management System"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "PMS stands for Property Management System - central software for hotel operations."
       },
       {
         id: 15,
         question: "What uses input from multiple sources?",
         options: [
-          "Self-assessment",
-          "360-degree feedback",
+          "Critical incident method",
           "Management by objectives",
-          "Critical incident method"
+          "Self-assessment",
+          "360-degree feedback"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "360-degree feedback gathers input from supervisors, peers, subordinates, and sometimes guests."
       },
       {
         id: 16,
         question: "What is a guest persona?",
         options: [
-          "Actual guest",
-          "Fictional representation of target guest",
           "Employee playing guest",
-          "Mystery shopper"
+          "Mystery shopper",
+          "Actual guest",
+          "Fictional representation of target guest"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Guest persona is fictional representation of ideal guest type for marketing targeting."
       },
       {
         id: 17,
         question: "What is first in annual budgeting?",
         options: [
-          "Market assessment",
           "Historical analysis",
+          "Revenue forecasting",
           "Departmental input",
-          "Revenue forecasting"
+          "Market assessment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Historical analysis reviews past performance as foundation for future budgeting."
       },
       {
         id: 18,
         question: "What does PESTLE analyze?",
         options: [
-          "Internal operations",
+          "Guest satisfaction",
           "External environment factors",
           "Employee performance",
-          "Guest satisfaction"
+          "Internal operations"
         ],
         correctAnswer: 1,
         explanation: "PESTLE analyzes Political, Economic, Social, Technological, Legal, Environmental factors."
@@ -2839,34 +2839,34 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 19,
         question: "What does DECIDE framework start with?",
         options: [
-          "Establish criteria",
           "Define problem",
           "Consider alternatives",
-          "Develop plan"
+          "Develop plan",
+          "Establish criteria"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "In DECIDE framework, 'D' stands for Define the problem or opportunity."
       },
       {
         id: 20,
         question: "What handles preventive maintenance?",
         options: [
-          "Emergency repairs",
-          "Scheduled equipment servicing",
+          "Room cleaning",
           "Guest complaints",
-          "Room cleaning"
+          "Scheduled equipment servicing",
+          "Emergency repairs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Preventive maintenance involves scheduled servicing to prevent equipment failures."
       },
       {
         id: 21,
         question: "What interview asks about past experiences?",
         options: [
-          "Situational interview",
-          "Behavioral interview",
           "Role-playing interview",
-          "Practical test"
+          "Behavioral interview",
+          "Practical test",
+          "Situational interview"
         ],
         correctAnswer: 1,
         explanation: "Behavioral interviews ask 'Tell me about a time when...' to predict future performance."
@@ -2875,9 +2875,9 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 22,
         question: "What does OTA stand for?",
         options: [
-          "Official Travel Authorization",
-          "Online Travel Agency",
           "Occupancy Tracking Application",
+          "Online Travel Agency",
+          "Official Travel Authorization",
           "Operating Time Agreement"
         ],
         correctAnswer: 1,
@@ -2887,48 +2887,48 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 23,
         question: "What pricing changes with demand?",
         options: [
-          "Competitive pricing",
-          "Dynamic pricing",
           "Cost-plus pricing",
-          "Value-based pricing"
+          "Competitive pricing",
+          "Value-based pricing",
+          "Dynamic pricing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Dynamic pricing adjusts rates based on current and forecasted demand conditions."
       },
       {
         id: 24,
         question: "What does SMART stand for in goals?",
         options: [
+          "Strategic, Manageable, Attainable, Realistic, Trackable",
           "Simple, Meaningful, Actionable, Relevant, Timely",
           "Specific, Measurable, Achievable, Relevant, Time-bound",
-          "Strategic, Manageable, Attainable, Realistic, Trackable",
           "Structured, Motivating, Accountable, Responsible, Targeted"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound."
       },
       {
         id: 25,
         question: "What is servant leadership?",
         options: [
-          "Leading by serving others first",
           "Giving orders to servants",
-          "Managing only service staff",
-          "Working service positions"
+          "Leading by serving others first",
+          "Working service positions",
+          "Managing only service staff"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Servant leadership puts team needs first and leads by serving others."
       },
       {
         id: 26,
         question: "What controls food portions?",
         options: [
-          "Standard recipes",
           "Purchase specifications",
-          "Inventory management",
-          "Staff scheduling"
+          "Standard recipes",
+          "Staff scheduling",
+          "Inventory management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Standard recipes ensure consistent portion sizes, controlling food costs and quality."
       },
       {
@@ -2943,23 +2943,23 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         question: "What evaluates time to recover investment?",
         options: [
           "Net present value",
-          "Payback period",
+          "Return on investment",
           "Internal rate of return",
-          "Return on investment"
+          "Payback period"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Payback period calculates how long to recover initial investment amount."
       },
       {
         id: 29,
         question: "What innovation involves new services?",
         options: [
-          "Guest experience innovation",
-          "Operational innovation",
+          "Business model innovation",
           "Technology innovation",
-          "Business model innovation"
+          "Guest experience innovation",
+          "Operational innovation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Guest experience innovation involves new services, amenities, and personalization."
       },
       {
@@ -2980,96 +2980,96 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         id: 32,
         question: "What is stayover service?",
         options: [
+          "Deep cleaning",
           "Check-out cleaning",
           "Daily cleaning for occupied rooms",
-          "Deep cleaning",
           "Public area cleaning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Stayover service is daily cleaning for rooms with guests staying additional nights."
       },
       {
         id: 33,
         question: "What is first in progressive discipline?",
         options: [
-          "Written warning",
-          "Suspension",
           "Verbal warning",
-          "Termination"
+          "Termination",
+          "Written warning",
+          "Suspension"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Progressive discipline typically begins with informal verbal warning."
       },
       {
         id: 34,
         question: "What segment includes corporate travelers?",
         options: [
+          "Group business",
           "Leisure travelers",
           "Business travelers",
-          "Group business",
           "Local market"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Business travelers include corporate individual travelers and meetings."
       },
       {
         id: 35,
         question: "What analyzes actual vs. budget?",
         options: [
+          "Market analysis",
           "Variance analysis",
-          "Trend analysis",
           "Regression analysis",
-          "Market analysis"
+          "Trend analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Variance analysis compares actual performance to budgeted amounts."
       },
       {
         id: 36,
         question: "What is first in innovation process?",
         options: [
+          "Testing and validation",
           "Idea screening",
           "Idea generation",
-          "Testing and validation",
           "Implementation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Idea generation through brainstorming starts innovation process."
       },
       {
         id: 37,
         question: "Which department has highest margins typically?",
         options: [
-          "Food and beverage",
           "Rooms department",
+          "Food and beverage",
           "Spa services",
           "Retail operations"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Rooms department typically has highest profit margins in hotel operations."
       },
       {
         id: 38,
         question: "What helps overcome change resistance?",
         options: [
-          "Ignoring concerns",
-          "Addressing concerns openly",
+          "Threatening job loss",
           "Forcing compliance",
-          "Threatening job loss"
+          "Addressing concerns openly",
+          "Ignoring concerns"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Addressing concerns openly helps overcome resistance to change."
       },
       {
         id: 39,
         question: "What is current ratio formula?",
         options: [
-          "Current assets ÷ Current liabilities",
-          "Current liabilities ÷ Current assets",
+          "Revenue ÷ Current assets",
           "Total assets ÷ Total liabilities",
-          "Revenue ÷ Current assets"
+          "Current liabilities ÷ Current assets",
+          "Current assets ÷ Current liabilities"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Current ratio = Current assets ÷ Current liabilities (measures liquidity)."
       },
       {
@@ -3078,8 +3078,8 @@ Strategic planning and innovation ensure hospitality businesses thrive in presen
         options: [
           "Personalization",
           "Automation",
-          "Standardization",
-          "Globalization"
+          "Globalization",
+          "Standardization"
         ],
         correctAnswer: 0,
         explanation: "Personalization uses data and technology to create tailored guest experiences."

@@ -88,9 +88,9 @@ Master these advanced news gathering skills to uncover important stories!`,
           question: "What involves systematic examination of hidden issues?",
           options: [
             "Investigative journalism",
-            "Basic news reporting",
+            "Sports commentary",
             "Weather forecasting",
-            "Sports commentary"
+            "Basic news reporting"
           ],
           correctAnswer: 0,
           explanation: "Investigative journalism digs deeper than surface reporting."
@@ -100,9 +100,9 @@ Master these advanced news gathering skills to uncover important stories!`,
           question: "What requires reviewing records and databases?",
           options: [
             "Document analysis",
+            "Guessing stories",
             "Source interviews only",
-            "Random investigation",
-            "Guessing stories"
+            "Random investigation"
           ],
           correctAnswer: 0,
           explanation: "Documents provide tangible evidence for stories."
@@ -111,72 +111,72 @@ Master these advanced news gathering skills to uncover important stories!`,
           id: 3,
           question: "What is the foundation of investigative work?",
           options: [
-            "Reliable sources",
+            "Social media trends",
             "Personal opinions",
-            "Government statements",
-            "Social media trends"
+            "Reliable sources",
+            "Government statements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sources provide information and verification."
         },
         {
           id: 4,
           question: "What confirms source credibility?",
           options: [
-            "Source verification",
-            "Source popularity",
             "Source appearance",
-            "Source location"
+            "Source verification",
+            "Source location",
+            "Source popularity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Verification ensures information reliability."
         },
         {
           id: 5,
           question: "What provides access to government information?",
           options: [
-            "Public records laws",
-            "Private databases only",
             "Social media platforms",
+            "Private databases only",
+            "Public records laws",
             "Personal connections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Laws guarantee public access to many government records."
         },
         {
           id: 6,
           question: "What are formal requests for federal records?",
           options: [
+            "Phone calls",
             "FOIA requests",
-            "Personal letters",
             "Social media posts",
-            "Phone calls"
+            "Personal letters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "FOIA is the Freedom of Information Act."
         },
         {
           id: 7,
           question: "What transforms numbers into broadcast stories?",
           options: [
-            "Data journalism",
-            "Entertainment reporting",
             "Celebrity interviews",
-            "Weather reports"
+            "Data journalism",
+            "Weather reports",
+            "Entertainment reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Data journalism makes statistics understandable and compelling."
         },
         {
           id: 8,
           question: "What involves finding relevant datasets?",
           options: [
-            "Data acquisition",
-            "Data guessing",
             "Data creation",
-            "Data ignoring"
+            "Data ignoring",
+            "Data guessing",
+            "Data acquisition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Finding appropriate data is the first step in data journalism."
         },
         {
@@ -184,9 +184,9 @@ Master these advanced news gathering skills to uncover important stories!`,
           question: "What identifies meaningful patterns?",
           options: [
             "Statistical analysis",
-            "Random observation",
             "Personal intuition",
-            "Public opinion"
+            "Public opinion",
+            "Random observation"
           ],
           correctAnswer: 0,
           explanation: "Analysis reveals stories within data."
@@ -195,96 +195,96 @@ Master these advanced news gathering skills to uncover important stories!`,
           id: 10,
           question: "What creates graphics that communicate data?",
           options: [
-            "Visual storytelling",
-            "Text descriptions only",
             "Audio explanations",
-            "Printed reports"
+            "Text descriptions only",
+            "Printed reports",
+            "Visual storytelling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Visuals help television audiences understand data."
         },
         {
           id: 11,
           question: "What develops and tests story theories?",
           options: [
-            "Hypothesis testing",
             "Story guessing",
             "Report copying",
+            "Hypothesis testing",
             "Opinion forming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Investigative work tests ideas with evidence."
         },
         {
           id: 12,
           question: "What builds stories progressively?",
           options: [
-            "Narrative construction",
-            "Information dumping",
+            "Chronological listing",
             "Random sequencing",
-            "Chronological listing"
+            "Narrative construction",
+            "Information dumping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective narratives reveal findings strategically."
         },
         {
           id: 13,
           question: "What requires persistence and ethical rigor?",
           options: [
-            "Investigative journalism",
+            "Sports coverage",
             "All reporting equally",
-            "Entertainment news",
-            "Sports coverage"
+            "Investigative journalism",
+            "Entertainment news"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Investigative work demands special dedication and ethics."
         },
         {
           id: 14,
           question: "What protects source identities?",
           options: [
+            "Station broadcasts",
             "Confidentiality protocols",
-            "Public announcements",
             "Social media posts",
-            "Station broadcasts"
+            "Public announcements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Protecting sources maintains trust and safety."
         },
         {
           id: 15,
           question: "What corroborates information across sources?",
           options: [
-            "Multiple sourcing",
             "Single source reliance",
             "Government statements only",
+            "Multiple sourcing",
             "Personal observations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Multiple sources increase story reliability."
         },
         {
           id: 16,
           question: "What understands local access regulations?",
           options: [
-            "State public records laws",
+            "Personal preferences",
             "Only federal laws",
             "Station policies",
-            "Personal preferences"
+            "State public records laws"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "State laws vary and must be understood locally."
         },
         {
           id: 17,
           question: "What challenges improperly denied requests?",
           options: [
-            "Appeal processes",
             "Giving up",
-            "Accepting denials",
-            "Complaining publicly"
+            "Complaining publicly",
+            "Appeal processes",
+            "Accepting denials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Appeals can overcome improper access denials."
         },
         {
@@ -303,24 +303,24 @@ Master these advanced news gathering skills to uncover important stories!`,
           id: 19,
           question: "What gathers supporting documentation?",
           options: [
+            "Guesswork",
             "Evidence accumulation",
             "Opinion gathering",
-            "Rumor collection",
-            "Guesswork"
+            "Rumor collection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Evidence builds credible investigative stories."
         },
         {
           id: 20,
           question: "What shows why findings matter?",
           options: [
-            "Impact demonstration",
+            "Process description",
             "Data presentation only",
             "Source listing",
-            "Process description"
+            "Impact demonstration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Showing impact connects findings to viewer concerns."
         }
       ]
@@ -406,144 +406,144 @@ Master broadcast writing to create compelling television journalism!`,
           id: 1,
           question: "How should broadcast writing sound?",
           options: [
-            "Conversational like speech",
             "Formal like academic papers",
-            "Complex like legal documents",
-            "Poetic like literature"
+            "Conversational like speech",
+            "Poetic like literature",
+            "Complex like legal documents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Conversational writing connects with television audiences."
         },
         {
           id: 2,
           question: "What sentence structure works best for broadcast?",
           options: [
+            "Sentence fragments only",
             "Short and clear sentences",
             "Long, complex sentences",
-            "Sentence fragments only",
             "Questions without answers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Simple sentences are easier to understand when heard."
         },
         {
           id: 3,
           question: "What voice emphasizes who does what?",
           options: [
-            "Active voice",
+            "Formal voice",
             "Passive voice",
-            "Neutral voice",
-            "Formal voice"
+            "Active voice",
+            "Neutral voice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Active voice creates stronger, clearer sentences."
         },
         {
           id: 4,
           question: "What creates immediacy and relevance?",
           options: [
-            "Present tense focus",
             "Past tense only",
             "Future tense speculation",
-            "Conditional tense"
+            "Conditional tense",
+            "Present tense focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Present tense makes stories feel current and relevant."
         },
         {
           id: 5,
           question: "How should words relate to visuals?",
           options: [
-            "Complement rather than repeat",
-            "Repeat exactly",
             "Ignore completely",
-            "Contradict intentionally"
+            "Contradict intentionally",
+            "Repeat exactly",
+            "Complement rather than repeat"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Complementary writing uses words and images together effectively."
         },
         {
           id: 6,
           question: "What includes ambient and interview audio?",
           options: [
-            "Natural sound incorporation",
             "Script reading only",
+            "Natural sound incorporation",
             "Music addition",
             "Silence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Natural sound adds authenticity to broadcast stories."
         },
         {
           id: 7,
           question: "What combines anchor reads and soundbites?",
           options: [
-            "Reader-VO-SOT patterns",
-            "Only anchor monologues",
             "Silent video only",
-            "Music videos"
+            "Reader-VO-SOT patterns",
+            "Music videos",
+            "Only anchor monologues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "These patterns create varied, engaging storytelling."
         },
         {
           id: 8,
           question: "What format has video left, audio right?",
           options: [
-            "Two-column format",
             "Single column format",
+            "Two-column format",
             "Paragraph format",
             "Bullet point format"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Two-column scripts help production teams coordinate elements."
         },
         {
           id: 9,
           question: "What indicates story duration?",
           options: [
+            "Font sizes",
             "Time notations",
             "Page numbers",
-            "Word counts",
-            "Font sizes"
+            "Word counts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Time notations help producers manage broadcast schedules."
         },
         {
           id: 10,
           question: "What are short anchor-read stories?",
           options: [
+            "Live shots",
             "News readers",
             "Documentaries",
-            "Investigative reports",
-            "Live shots"
+            "Investigative reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Readers are brief stories read entirely by anchors."
         },
         {
           id: 11,
           question: "What are reporter-produced stories?",
           options: [
-            "Packages",
-            "Readers",
             "Voiceovers",
-            "Teases"
+            "Teases",
+            "Readers",
+            "Packages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Packages include reporter narration, interviews, and video."
         },
         {
           id: 12,
           question: "What confirms all facts before writing?",
           options: [
-            "Accuracy verification",
             "Creative writing",
-            "Assumption making",
-            "Source guessing"
+            "Source guessing",
+            "Accuracy verification",
+            "Assumption making"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Verification ensures broadcast accuracy."
         },
         {
@@ -551,8 +551,8 @@ Master broadcast writing to create compelling television journalism!`,
           question: "What presents multiple perspectives?",
           options: [
             "Fair representation",
-            "Single viewpoint",
             "Personal opinion",
+            "Single viewpoint",
             "Popular opinion only"
           ],
           correctAnswer: 0,
@@ -562,12 +562,12 @@ Master broadcast writing to create compelling television journalism!`,
           id: 14,
           question: "What should be chosen over witty phrasing?",
           options: [
-            "Clarity",
-            "Complexity",
+            "Drama",
             "Humor",
-            "Drama"
+            "Clarity",
+            "Complexity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clear communication serves viewers better than cleverness."
         },
         {
@@ -575,9 +575,9 @@ Master broadcast writing to create compelling television journalism!`,
           question: "What attributes information appropriately?",
           options: [
             "Transparent sourcing",
-            "Anonymous reporting",
             "Personal knowledge",
-            "Common knowledge assumption"
+            "Common knowledge assumption",
+            "Anonymous reporting"
           ],
           correctAnswer: 0,
           explanation: "Clear sourcing maintains credibility and transparency."
@@ -586,60 +586,60 @@ Master broadcast writing to create compelling television journalism!`,
           id: 16,
           question: "What includes camera shots and graphics?",
           options: [
-            "Technical directions",
-            "Only dialogue",
             "Personal notes",
-            "Source information"
+            "Source information",
+            "Only dialogue",
+            "Technical directions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Technical directions guide production elements."
         },
         {
           id: 17,
           question: "What begins and ends with engaging elements?",
           options: [
-            "Teases and tags",
-            "Only main content",
             "Credits only",
-            "Advertisements"
+            "Only main content",
+            "Advertisements",
+            "Teases and tags"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Teases grab attention; tags provide closure."
         },
         {
           id: 18,
           question: "What has complex narratives?",
           options: [
-            "Documentaries",
+            "Sports highlights",
             "News readers",
-            "Weather reports",
-            "Sports highlights"
+            "Documentaries",
+            "Weather reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Documentaries explore topics in depth over longer formats."
         },
         {
           id: 19,
           question: "What maintains journalistic integrity?",
           options: [
-            "Ethical writing practices",
             "Entertaining writing only",
-            "Fast writing",
-            "Beautiful writing"
+            "Beautiful writing",
+            "Ethical writing practices",
+            "Fast writing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ethics distinguish journalism from other communication forms."
         },
         {
           id: 20,
           question: "What creates compelling television journalism?",
           options: [
-            "Mastering broadcast writing",
-            "Only good video",
+            "Expensive equipment",
             "Famous reporters",
-            "Expensive equipment"
+            "Mastering broadcast writing",
+            "Only good video"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Writing forms the foundation of broadcast storytelling."
         }
       ]
@@ -736,9 +736,9 @@ Master field production to tell compelling stories from anywhere!`,
           question: "What requires thorough planning before leaving?",
           options: [
             "Field production",
-            "Studio anchoring",
+            "Editing only",
             "Script writing",
-            "Editing only"
+            "Studio anchoring"
           ],
           correctAnswer: 0,
           explanation: "Planning prevents problems during field production."
@@ -748,9 +748,9 @@ Master field production to tell compelling stories from anywhere!`,
           question: "What involves understanding story and context?",
           options: [
             "Story research",
-            "Equipment packing",
             "Travel arrangements",
-            "Camera operation"
+            "Camera operation",
+            "Equipment packing"
           ],
           correctAnswer: 0,
           explanation: "Research informs effective field production decisions."
@@ -760,9 +760,9 @@ Master field production to tell compelling stories from anywhere!`,
           question: "What identifies appropriate shooting locations?",
           options: [
             "Location scouting",
-            "Random selection",
+            "Crowd following",
             "Studio shooting only",
-            "Crowd following"
+            "Random selection"
           ],
           correctAnswer: 0,
           explanation: "Good locations enhance visual storytelling."
@@ -771,24 +771,24 @@ Master field production to tell compelling stories from anywhere!`,
           id: 4,
           question: "What frames shots that communicate clearly?",
           options: [
-            "Composition principles",
-            "Random framing",
             "Maximum zoom",
-            "Constant movement"
+            "Composition principles",
+            "Constant movement",
+            "Random framing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Good composition helps viewers understand visual information."
         },
         {
           id: 5,
           question: "What gathers related shots that edit together?",
           options: [
-            "Sequence shooting",
-            "Single shot only",
             "Random shooting",
-            "Duplicate shooting"
+            "Duplicate shooting",
+            "Sequence shooting",
+            "Single shot only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sequences create visual stories through editing."
         },
         {
@@ -796,8 +796,8 @@ Master field production to tell compelling stories from anywhere!`,
           question: "What records ambient audio that enhances stories?",
           options: [
             "Natural sound capture",
-            "Silence only",
             "Music addition",
+            "Silence only",
             "Voiceover only"
           ],
           correctAnswer: 0,
@@ -807,12 +807,12 @@ Master field production to tell compelling stories from anywhere!`,
           id: 7,
           question: "What is essential for professional journalism?",
           options: [
-            "High-quality audio",
-            "Only good video",
             "Fast reporting",
-            "Beautiful images"
+            "Beautiful images",
+            "High-quality audio",
+            "Only good video"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clear audio carries much of the information in broadcast stories."
         },
         {
@@ -820,8 +820,8 @@ Master field production to tell compelling stories from anywhere!`,
           question: "What chooses appropriate mics for situations?",
           options: [
             "Microphone selection",
-            "Using any mic available",
             "No microphone use",
+            "Using any mic available",
             "Only wireless mics"
           ],
           correctAnswer: 0,
@@ -831,60 +831,60 @@ Master field production to tell compelling stories from anywhere!`,
           id: 9,
           question: "What requires adapting to changing situations?",
           options: [
+            "Studio control only",
             "Improvisation ability",
             "Strict scripting",
-            "Studio control only",
             "Pre-recorded content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Live field situations often require adaptation."
         },
         {
           id: 10,
           question: "What are mobile units for live transmission?",
           options: [
-            "Satellite trucks",
             "Regular cars",
-            "Studio cameras",
-            "Editing suites"
+            "Satellite trucks",
+            "Editing suites",
+            "Studio cameras"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Satellite trucks transmit live video from remote locations."
         },
         {
           id: 11,
           question: "What is line-of-sight transmission?",
           options: [
-            "Microwave links",
             "Satellite transmission",
+            "Microwave links",
             "Cellular transmission",
             "Internet streaming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Microwave requires clear paths between antennas."
         },
         {
           id: 12,
           question: "What creates content for multiple platforms?",
           options: [
-            "Multi-platform reporting",
-            "Only television reporting",
             "Radio reporting only",
-            "Print reporting"
+            "Print reporting",
+            "Only television reporting",
+            "Multi-platform reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Modern journalism often serves multiple platforms simultaneously."
         },
         {
           id: 13,
           question: "What provides real-time updates?",
           options: [
+            "Monthly reports",
             "Social media content",
             "Only broadcast content",
-            "Monthly reports",
             "Annual summaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Social media allows immediate updates from the field."
         },
         {
@@ -892,9 +892,9 @@ Master field production to tell compelling stories from anywhere!`,
           question: "What evaluates potential dangers?",
           options: [
             "Risk assessment",
+            "Following others",
             "Ignoring risks",
-            "Assuming safety",
-            "Following others"
+            "Assuming safety"
           ],
           correctAnswer: 0,
           explanation: "Assessment helps prepare for and avoid dangers."
@@ -903,72 +903,72 @@ Master field production to tell compelling stories from anywhere!`,
           id: 15,
           question: "What handles dangerous situations?",
           options: [
-            "Emergency procedures",
             "Panic responses",
+            "Waiting for help",
             "Ignoring problems",
-            "Waiting for help"
+            "Emergency procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Procedures provide guidance during emergencies."
         },
         {
           id: 16,
           question: "What ensures all necessary gear is ready?",
           options: [
-            "Equipment preparation",
-            "Last-minute packing",
             "Borrowing equipment",
-            "Using whatever's available"
+            "Using whatever's available",
+            "Equipment preparation",
+            "Last-minute packing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Preparation prevents equipment problems in the field."
         },
         {
           id: 17,
           question: "What works with available light effectively?",
           options: [
-            "Lighting considerations",
             "Ignoring light",
             "Only studio lighting",
-            "Always using flash"
+            "Always using flash",
+            "Lighting considerations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Understanding light improves video quality in the field."
         },
         {
           id: 18,
           question: "What checks audio quality during recording?",
           options: [
+            "Assuming good audio",
             "Audio monitoring",
-            "Guessing audio quality",
             "Checking later",
-            "Assuming good audio"
+            "Guessing audio quality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Monitoring catches audio problems immediately."
         },
         {
           id: 19,
           question: "What protects valuable gear?",
           options: [
-            "Equipment security",
-            "Leaving gear unattended",
             "Sharing gear widely",
-            "Using cheap equipment"
+            "Using cheap equipment",
+            "Leaving gear unattended",
+            "Equipment security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Security prevents theft and damage."
         },
         {
           id: 20,
           question: "What tells compelling stories from anywhere?",
           options: [
-            "Mastering field production",
-            "Only studio work",
+            "Second-hand reporting",
             "Office-based reporting",
-            "Second-hand reporting"
+            "Only studio work",
+            "Mastering field production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Field skills enable on-location storytelling."
         }
       ]
@@ -1074,36 +1074,36 @@ Master video editing to craft professional broadcast stories!`,
           id: 1,
           question: "What accurately represents events?",
           options: [
+            "Entertaining manipulation",
             "Truthful representation",
-            "Dramatic enhancement",
             "Creative interpretation",
-            "Entertaining manipulation"
+            "Dramatic enhancement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Journalistic editing must represent reality accurately."
         },
         {
           id: 2,
           question: "What maintains proper context?",
           options: [
-            "Context preservation",
-            "Context removal",
             "Context changing",
-            "Context ignoring"
+            "Context ignoring",
+            "Context removal",
+            "Context preservation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Proper context ensures accurate understanding."
         },
         {
           id: 3,
           question: "What allows flexible, non-destructive editing?",
           options: [
-            "Nonlinear editing systems",
-            "Linear editing systems",
+            "Live switching",
             "Film editing",
-            "Live switching"
+            "Nonlinear editing systems",
+            "Linear editing systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NLEs allow changes without damaging original footage."
         },
         {
@@ -1111,9 +1111,9 @@ Master video editing to craft professional broadcast stories!`,
           question: "What arranges clips along a visual timeline?",
           options: [
             "Timeline editing",
+            "Live broadcasting",
             "Random editing",
-            "Sequential shooting only",
-            "Live broadcasting"
+            "Sequential shooting only"
           ],
           correctAnswer: 0,
           explanation: "Timelines visualize story structure during editing."
@@ -1122,24 +1122,24 @@ Master video editing to craft professional broadcast stories!`,
           id: 5,
           question: "What creates initial story structure?",
           options: [
-            "Rough cutting",
-            "Final editing",
             "Color correction",
+            "Final editing",
+            "Rough cutting",
             "Audio mixing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Rough cuts establish basic story flow."
         },
         {
           id: 6,
           question: "What refines timing and shot selection?",
           options: [
+            "File management",
             "Fine cutting",
             "Rough assembly",
-            "Shot logging",
-            "File management"
+            "Shot logging"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fine cutting polishes the edit for broadcast."
         },
         {
@@ -1147,9 +1147,9 @@ Master video editing to craft professional broadcast stories!`,
           question: "What chooses effective interview segments?",
           options: [
             "Soundbite selection",
+            "Creating dialogue",
             "Using all interviews",
-            "Ignoring interviews",
-            "Creating dialogue"
+            "Ignoring interviews"
           ],
           correctAnswer: 0,
           explanation: "Selecting the best soundbites creates stronger stories."
@@ -1158,72 +1158,72 @@ Master video editing to craft professional broadcast stories!`,
           id: 8,
           question: "What weaves ambient sound into stories?",
           options: [
-            "Natural sound integration",
             "Silence only",
-            "Music replacement",
-            "Voiceover only"
+            "Natural sound integration",
+            "Voiceover only",
+            "Music replacement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Natural sound adds authenticity and atmosphere."
         },
         {
           id: 9,
           question: "What identifies people and places?",
           options: [
-            "Lower thirds",
+            "Voice identification",
             "Full-screen graphics",
-            "Background music",
-            "Voice identification"
+            "Lower thirds",
+            "Background music"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Lower thirds provide essential identification information."
         },
         {
           id: 10,
           question: "What includes maps and charts?",
           options: [
-            "Full-screen graphics",
             "Lower thirds only",
-            "Video footage",
-            "Interview clips"
+            "Interview clips",
+            "Full-screen graphics",
+            "Video footage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Full-screen graphics explain complex information visually."
         },
         {
           id: 11,
           question: "What fixes lighting problems?",
           options: [
-            "Exposure correction",
             "Color addition",
+            "Style application",
             "Contrast reduction",
-            "Style application"
+            "Exposure correction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Exposure correction fixes over- or under-exposed footage."
         },
         {
           id: 12,
           question: "What ensures consistent color?",
           options: [
-            "Color balancing",
             "Random color",
-            "Black and white only",
-            "Color ignoring"
+            "Color ignoring",
+            "Color balancing",
+            "Black and white only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Color balancing makes shots match visually."
         },
         {
           id: 13,
           question: "What has fast-paced, information-dense editing?",
           options: [
-            "News package editing",
-            "Documentary editing",
             "Feature editing",
-            "Experimental editing"
+            "Experimental editing",
+            "News package editing",
+            "Documentary editing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "News packages convey information efficiently."
         },
         {
@@ -1231,8 +1231,8 @@ Master video editing to craft professional broadcast stories!`,
           question: "What has slower pacing for complex narratives?",
           options: [
             "Documentary editing",
-            "News editing",
             "Commercial editing",
+            "News editing",
             "Music video editing"
           ],
           correctAnswer: 0,
@@ -1242,12 +1242,12 @@ Master video editing to craft professional broadcast stories!`,
           id: 15,
           question: "What meets station technical requirements?",
           options: [
-            "Technical specifications",
             "Personal preferences",
             "Creative choices",
-            "Budget limitations"
+            "Budget limitations",
+            "Technical specifications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Technical specs ensure broadcast compatibility."
         },
         {
@@ -1255,9 +1255,9 @@ Master video editing to craft professional broadcast stories!`,
           question: "What complies with broadcast audio standards?",
           options: [
             "Audio level standards",
-            "Random audio levels",
             "Maximum volume",
-            "Minimum volume"
+            "Minimum volume",
+            "Random audio levels"
           ],
           correctAnswer: 0,
           explanation: "Standard audio levels ensure consistent broadcast quality."
@@ -1278,36 +1278,36 @@ Master video editing to craft professional broadcast stories!`,
           id: 18,
           question: "What creates editing rhythms for storytelling?",
           options: [
-            "Pace and rhythm",
             "Random timing",
+            "Pace and rhythm",
             "Constant speed",
             "No rhythm"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rhythmic editing enhances storytelling effectiveness."
         },
         {
           id: 19,
           question: "What ensures smooth visual flow?",
           options: [
-            "Visual continuity",
             "Visual disruption",
-            "Constant cutting",
-            "Still images only"
+            "Still images only",
+            "Visual continuity",
+            "Constant cutting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuity creates comfortable viewing experiences."
         },
         {
           id: 20,
           question: "What crafts professional broadcast stories?",
           options: [
+            "Anchoring only",
             "Mastering video editing",
             "Only shooting footage",
-            "Writing scripts",
-            "Anchoring only"
+            "Writing scripts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Editing transforms raw material into finished stories."
         }
       ]
@@ -1413,36 +1413,36 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           id: 1,
           question: "What provides crucial protections for journalism?",
           options: [
-            "First Amendment",
-            "Copyright law",
             "Privacy law",
-            "Broadcast regulations"
+            "Copyright law",
+            "Broadcast regulations",
+            "First Amendment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The First Amendment protects freedom of the press."
         },
         {
           id: 2,
           question: "What protects from false, damaging statements?",
           options: [
-            "Defamation law",
-            "Copyright law",
             "Privacy law",
-            "Contract law"
+            "Contract law",
+            "Defamation law",
+            "Copyright law"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Defamation includes libel (written) and slander (spoken)."
         },
         {
           id: 3,
           question: "What are elements of defamation?",
           options: [
-            "False statement, publication, identification, harm, fault",
-            "True statement, private conversation, general reference",
             "Opinion, publication, no identification, no harm",
-            "Fact, limited distribution, public figure, no fault"
+            "False statement, publication, identification, harm, fault",
+            "Fact, limited distribution, public figure, no fault",
+            "True statement, private conversation, general reference"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "All elements must be present for defamation claims."
         },
         {
@@ -1451,8 +1451,8 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           options: [
             "Actual malice standard",
             "Negligence standard",
-            "Strict liability",
-            "Reasonable care"
+            "Reasonable care",
+            "Strict liability"
           ],
           correctAnswer: 0,
           explanation: "Actual malice applies to public figures in defamation cases."
@@ -1473,48 +1473,48 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           id: 6,
           question: "What is physical invasion of privacy?",
           options: [
-            "Intrusion",
             "Private facts",
-            "False light",
-            "Appropriation"
+            "Appropriation",
+            "Intrusion",
+            "False light"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Intrusion involves unwanted physical or technological invasion."
         },
         {
           id: 7,
           question: "What protects creative works?",
           options: [
-            "Copyright law",
+            "Contract law",
             "Privacy law",
-            "Defamation law",
-            "Contract law"
+            "Copyright law",
+            "Defamation law"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Copyright protects original works of authorship."
         },
         {
           id: 8,
           question: "What allows limited use for news purposes?",
           options: [
+            "Purchase requirement",
             "Fair use doctrine",
             "Complete freedom",
-            "No use allowed",
-            "Purchase requirement"
+            "No use allowed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fair use allows limited use without permission for purposes like news."
         },
         {
           id: 9,
           question: "What oversees broadcast regulation?",
           options: [
-            "FCC jurisdiction",
             "Local governments",
             "State agencies",
+            "FCC jurisdiction",
             "International bodies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Federal Communications Commission regulates broadcasting."
         },
         {
@@ -1522,8 +1522,8 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           question: "What has requirements for political candidates?",
           options: [
             "Equal time rule",
-            "Fairness doctrine",
             "Public interest standard",
+            "Fairness doctrine",
             "Indecency regulations"
           ],
           correctAnswer: 0,
@@ -1534,9 +1534,9 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           question: "What provides ethical guidelines?",
           options: [
             "SPJ Code of Ethics",
-            "Government regulations",
+            "Personal preferences",
             "Station policies only",
-            "Personal preferences"
+            "Government regulations"
           ],
           correctAnswer: 0,
           explanation: "SPJ provides widely accepted ethical standards for journalists."
@@ -1557,12 +1557,12 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           id: 13,
           question: "What involves protecting source identities?",
           options: [
+            "Government reporting",
             "Confidentiality promises",
             "Public identification",
-            "Government reporting",
             "Social media posting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Protecting sources maintains trust and enables reporting."
         },
         {
@@ -1570,8 +1570,8 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           question: "What provides legal protections in some jurisdictions?",
           options: [
             "Shield laws",
-            "Privacy laws",
             "Copyright laws",
+            "Privacy laws",
             "Defamation laws"
           ],
           correctAnswer: 0,
@@ -1581,72 +1581,72 @@ Understand media law and ethics to practice responsible broadcast journalism!`,
           id: 15,
           question: "What requires open government meetings?",
           options: [
-            "Sunshine laws",
+            "Defamation laws",
             "Privacy laws",
-            "Copyright laws",
-            "Defamation laws"
+            "Sunshine laws",
+            "Copyright laws"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sunshine laws ensure government transparency."
         },
         {
           id: 16,
           question: "What helps navigate complex situations?",
           options: [
-            "Ethical guidelines",
-            "Only legal requirements",
             "Personal feelings",
-            "Audience preferences"
+            "Audience preferences",
+            "Only legal requirements",
+            "Ethical guidelines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ethics provide guidance beyond legal requirements."
         },
         {
           id: 17,
           question: "What involves working with people revealing wrongdoing?",
           options: [
-            "Whistleblower protocols",
-            "Government cooperation",
+            "Legal threats",
             "Public announcements",
-            "Legal threats"
+            "Government cooperation",
+            "Whistleblower protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Whistleblowers provide important information about problems."
         },
         {
           id: 18,
           question: "What challenges improper denials of access?",
           options: [
-            "Appeal processes",
+            "Public complaints",
             "Accepting denials",
             "Giving up",
-            "Public complaints"
+            "Appeal processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Appeals can overcome improper access restrictions."
         },
         {
           id: 19,
           question: "What serves community needs and interests?",
           options: [
-            "Public interest standard",
             "Commercial interests only",
-            "Government interests",
-            "Personal interests"
+            "Public interest standard",
+            "Personal interests",
+            "Government interests"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Broadcasters must serve public interest as part of licensing."
         },
         {
           id: 20,
           question: "What practices responsible broadcast journalism?",
           options: [
-            "Understanding media law and ethics",
-            "Ignoring legal issues",
+            "Avoiding controversial topics",
             "Following only personal ethics",
-            "Avoiding controversial topics"
+            "Understanding media law and ethics",
+            "Ignoring legal issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Legal and ethical understanding enables responsible practice."
         }
       ]
@@ -1752,12 +1752,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           id: 1,
           question: "What balances editorial excellence with efficiency?",
           options: [
-            "Newsroom management",
-            "Only reporting",
             "Only production",
+            "Only reporting",
+            "Newsroom management",
             "Only advertising"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Management coordinates all newsroom functions effectively."
         },
         {
@@ -1765,9 +1765,9 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           question: "What guides journalistic quality and ethics?",
           options: [
             "Editorial leadership",
+            "Marketing only",
             "Technical operations",
-            "Financial management",
-            "Marketing only"
+            "Financial management"
           ],
           correctAnswer: 0,
           explanation: "Editorial leadership maintains journalistic standards."
@@ -1776,12 +1776,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           id: 3,
           question: "What manages personnel and budgets?",
           options: [
-            "Resource allocation",
             "Only story assignment",
             "Only equipment use",
-            "Only social media"
+            "Only social media",
+            "Resource allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resource management ensures effective operations."
         },
         {
@@ -1790,8 +1790,8 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           options: [
             "Multi-platform distribution",
             "Only television broadcast",
-            "Only radio broadcast",
-            "Only print distribution"
+            "Only print distribution",
+            "Only radio broadcast"
           ],
           correctAnswer: 0,
           explanation: "Modern audiences access content through multiple platforms."
@@ -1800,120 +1800,120 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           id: 5,
           question: "What connects with local communities?",
           options: [
+            "Only international reporting",
             "Community engagement",
             "Only national reporting",
-            "Only international reporting",
             "Only online interaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Community connection builds audience trust and relevance."
         },
         {
           id: 6,
           question: "What delivers content beyond traditional broadcast?",
           options: [
-            "Streaming and on-demand",
+            "Only radio broadcasts",
             "Only live television",
-            "Only scheduled programming",
-            "Only radio broadcasts"
+            "Streaming and on-demand",
+            "Only scheduled programming"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital platforms provide additional distribution channels."
         },
         {
           id: 7,
           question: "What creates content for mobile devices?",
           options: [
-            "Mobile journalism",
-            "Only television production",
             "Only radio production",
-            "Only print journalism"
+            "Only television production",
+            "Only print journalism",
+            "Mobile journalism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mobile platforms require specific content approaches."
         },
         {
           id: 8,
           question: "What involves commercial sponsorship?",
           options: [
+            "Only government funding",
             "Traditional advertising",
-            "Only subscription models",
             "Only grant funding",
-            "Only government funding"
+            "Only subscription models"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Advertising has traditionally funded much broadcast journalism."
         },
         {
           id: 9,
           question: "What involves viewer-paid content access?",
           options: [
+            "Only donations",
             "Subscription models",
             "Only advertising",
-            "Only sponsorships",
-            "Only donations"
+            "Only sponsorships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Subscriptions provide direct audience financial support."
         },
         {
           id: 10,
           question: "What includes VR and AR techniques?",
           options: [
-            "Immersive journalism",
-            "Only traditional reporting",
             "Only print journalism",
-            "Only radio journalism"
+            "Only traditional reporting",
+            "Only radio journalism",
+            "Immersive journalism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Immersive technologies create new storytelling possibilities."
         },
         {
           id: 11,
           question: "What involves partnerships across organizations?",
           options: [
-            "Collaborative journalism",
-            "Only competitive journalism",
             "Only independent work",
-            "Only secret investigations"
+            "Only competitive journalism",
+            "Only secret investigations",
+            "Collaborative journalism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Collaboration enables larger-scale journalism projects."
         },
         {
           id: 12,
           question: "What focuses on responses to problems?",
           options: [
-            "Solutions journalism",
             "Only problem reporting",
+            "Solutions journalism",
             "Only controversy reporting",
             "Only entertainment reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Solutions journalism explores how problems are addressed."
         },
         {
           id: 13,
           question: "What articulates clear direction?",
           options: [
-            "Vision development",
             "Only daily management",
-            "Only technical operations",
-            "Only financial management"
+            "Only financial management",
+            "Vision development",
+            "Only technical operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vision provides purpose and direction for journalism."
         },
         {
           id: 14,
           question: "What guides teams through changes?",
           options: [
-            "Change management",
             "Resistance to change",
-            "Ignoring changes",
-            "Following old methods only"
+            "Change management",
+            "Following old methods only",
+            "Ignoring changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change management helps teams adapt successfully."
         },
         {
@@ -1933,9 +1933,9 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           question: "What includes AI tools for journalism?",
           options: [
             "Artificial intelligence",
-            "Only human reporting",
             "Only traditional methods",
-            "Only manual processes"
+            "Only manual processes",
+            "Only human reporting"
           ],
           correctAnswer: 0,
           explanation: "AI offers new tools for journalism production and analysis."
@@ -1944,12 +1944,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           id: 17,
           question: "What tailors news to individual preferences?",
           options: [
-            "Personalized content",
-            "Only mass audience content",
             "Only identical content for all",
-            "Only scheduled programming"
+            "Only scheduled programming",
+            "Only mass audience content",
+            "Personalized content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Personalization adapts content to individual interests."
         },
         {
@@ -1957,9 +1957,9 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           question: "What develops multiple competencies?",
           options: [
             "Skill diversification",
-            "Only single skills",
             "Only traditional skills",
-            "Only management skills"
+            "Only management skills",
+            "Only single skills"
           ],
           correctAnswer: 0,
           explanation: "Multiple skills increase career flexibility and value."
@@ -1968,24 +1968,24 @@ Master these management and innovation skills to lead in broadcast journalism!`,
           id: 19,
           question: "What creates bodies of work demonstrating ability?",
           options: [
+            "Only academic degrees",
             "Portfolio building",
             "Only job applications",
-            "Only academic degrees",
             "Only personal recommendations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Portfolios demonstrate practical journalistic ability."
         },
         {
           id: 20,
           question: "What leads in broadcast journalism?",
           options: [
-            "Mastering management and innovation",
+            "Only production skills",
             "Only technical skills",
             "Only reporting skills",
-            "Only production skills"
+            "Mastering management and innovation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Leadership requires combining multiple skill sets."
         }
       ]
@@ -2002,12 +2002,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 1,
         question: "What involves systematic examination of hidden issues?",
         options: [
+          "Sports commentary",
           "Investigative journalism",
           "Basic news reporting",
-          "Weather forecasting",
-          "Sports commentary"
+          "Weather forecasting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Investigative journalism digs deeper than surface reporting.",
         module: 1
       },
@@ -2015,12 +2015,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 2,
         question: "What is the foundation of investigative work?",
         options: [
-          "Reliable sources",
           "Personal opinions",
           "Government statements",
-          "Social media trends"
+          "Social media trends",
+          "Reliable sources"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Sources provide information and verification.",
         module: 1
       },
@@ -2028,12 +2028,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 3,
         question: "How should broadcast writing sound?",
         options: [
-          "Conversational like speech",
           "Formal like academic papers",
+          "Poetic like literature",
           "Complex like legal documents",
-          "Poetic like literature"
+          "Conversational like speech"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Conversational writing connects with television audiences.",
         module: 2
       },
@@ -2041,12 +2041,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 4,
         question: "What sentence structure works best for broadcast?",
         options: [
-          "Short and clear sentences",
-          "Long, complex sentences",
+          "Questions without answers",
           "Sentence fragments only",
-          "Questions without answers"
+          "Long, complex sentences",
+          "Short and clear sentences"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Simple sentences are easier to understand when heard.",
         module: 2
       },
@@ -2055,8 +2055,8 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         question: "What requires thorough planning before leaving?",
         options: [
           "Field production",
-          "Studio anchoring",
           "Script writing",
+          "Studio anchoring",
           "Editing only"
         ],
         correctAnswer: 0,
@@ -2067,12 +2067,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 6,
         question: "What is essential for professional journalism?",
         options: [
-          "High-quality audio",
-          "Only good video",
           "Fast reporting",
+          "Only good video",
+          "High-quality audio",
           "Beautiful images"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Clear audio carries much of the information in broadcast stories.",
         module: 3
       },
@@ -2080,12 +2080,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 7,
         question: "What accurately represents events?",
         options: [
+          "Entertaining manipulation",
           "Truthful representation",
           "Dramatic enhancement",
-          "Creative interpretation",
-          "Entertaining manipulation"
+          "Creative interpretation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Journalistic editing must represent reality accurately.",
         module: 4
       },
@@ -2093,12 +2093,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 8,
         question: "What allows flexible, non-destructive editing?",
         options: [
-          "Nonlinear editing systems",
-          "Linear editing systems",
+          "Live switching",
           "Film editing",
-          "Live switching"
+          "Linear editing systems",
+          "Nonlinear editing systems"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "NLEs allow changes without damaging original footage.",
         module: 4
       },
@@ -2108,8 +2108,8 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         options: [
           "First Amendment",
           "Copyright law",
-          "Privacy law",
-          "Broadcast regulations"
+          "Broadcast regulations",
+          "Privacy law"
         ],
         correctAnswer: 0,
         explanation: "The First Amendment protects freedom of the press.",
@@ -2119,12 +2119,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 10,
         question: "What protects from false, damaging statements?",
         options: [
-          "Defamation law",
-          "Copyright law",
           "Privacy law",
-          "Contract law"
+          "Copyright law",
+          "Contract law",
+          "Defamation law"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Defamation includes libel (written) and slander (spoken).",
         module: 5
       },
@@ -2132,12 +2132,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 11,
         question: "What balances editorial excellence with efficiency?",
         options: [
-          "Newsroom management",
-          "Only reporting",
           "Only production",
-          "Only advertising"
+          "Only advertising",
+          "Only reporting",
+          "Newsroom management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Management coordinates all newsroom functions effectively.",
         module: 6
       },
@@ -2145,12 +2145,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 12,
         question: "What reaches audiences through various channels?",
         options: [
-          "Multi-platform distribution",
-          "Only television broadcast",
           "Only radio broadcast",
-          "Only print distribution"
+          "Only print distribution",
+          "Only television broadcast",
+          "Multi-platform distribution"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Modern audiences access content through multiple platforms.",
         module: 6
       },
@@ -2159,9 +2159,9 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         question: "What requires reviewing records and databases?",
         options: [
           "Document analysis",
-          "Source interviews only",
+          "Guessing stories",
           "Random investigation",
-          "Guessing stories"
+          "Source interviews only"
         ],
         correctAnswer: 0,
         explanation: "Documents provide tangible evidence for stories.",
@@ -2171,12 +2171,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 14,
         question: "What are formal requests for federal records?",
         options: [
+          "Social media posts",
           "FOIA requests",
           "Personal letters",
-          "Social media posts",
           "Phone calls"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "FOIA is the Freedom of Information Act.",
         module: 1
       },
@@ -2185,9 +2185,9 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         question: "What voice emphasizes who does what?",
         options: [
           "Active voice",
-          "Passive voice",
           "Neutral voice",
-          "Formal voice"
+          "Formal voice",
+          "Passive voice"
         ],
         correctAnswer: 0,
         explanation: "Active voice creates stronger, clearer sentences.",
@@ -2198,9 +2198,9 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         question: "What are reporter-produced stories?",
         options: [
           "Packages",
-          "Readers",
+          "Teases",
           "Voiceovers",
-          "Teases"
+          "Readers"
         ],
         correctAnswer: 0,
         explanation: "Packages include reporter narration, interviews, and video.",
@@ -2210,12 +2210,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 17,
         question: "What chooses appropriate mics for situations?",
         options: [
-          "Microphone selection",
           "Using any mic available",
-          "No microphone use",
-          "Only wireless mics"
+          "Microphone selection",
+          "Only wireless mics",
+          "No microphone use"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Proper mic selection ensures good audio quality.",
         module: 3
       },
@@ -2223,12 +2223,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 18,
         question: "What are mobile units for live transmission?",
         options: [
-          "Satellite trucks",
-          "Regular cars",
+          "Editing suites",
           "Studio cameras",
-          "Editing suites"
+          "Regular cars",
+          "Satellite trucks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Satellite trucks transmit live video from remote locations.",
         module: 3
       },
@@ -2236,12 +2236,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 19,
         question: "What chooses effective interview segments?",
         options: [
-          "Soundbite selection",
           "Using all interviews",
           "Ignoring interviews",
+          "Soundbite selection",
           "Creating dialogue"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Selecting the best soundbites creates stronger stories.",
         module: 4
       },
@@ -2249,12 +2249,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 20,
         question: "What identifies people and places?",
         options: [
-          "Lower thirds",
           "Full-screen graphics",
-          "Background music",
-          "Voice identification"
+          "Voice identification",
+          "Lower thirds",
+          "Background music"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Lower thirds provide essential identification information.",
         module: 4
       },
@@ -2262,12 +2262,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 21,
         question: "What balances news gathering with privacy rights?",
         options: [
-          "Privacy law",
-          "Copyright law",
           "Defamation law",
+          "Copyright law",
+          "Privacy law",
           "Contract law"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Privacy law protects individuals from certain intrusions.",
         module: 5
       },
@@ -2275,12 +2275,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 22,
         question: "What oversees broadcast regulation?",
         options: [
-          "FCC jurisdiction",
-          "Local governments",
           "State agencies",
+          "Local governments",
+          "FCC jurisdiction",
           "International bodies"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The Federal Communications Commission regulates broadcasting.",
         module: 5
       },
@@ -2288,12 +2288,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 23,
         question: "What guides journalistic quality and ethics?",
         options: [
-          "Editorial leadership",
           "Technical operations",
+          "Marketing only",
           "Financial management",
-          "Marketing only"
+          "Editorial leadership"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Editorial leadership maintains journalistic standards.",
         module: 6
       },
@@ -2301,12 +2301,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 24,
         question: "What delivers content beyond traditional broadcast?",
         options: [
-          "Streaming and on-demand",
           "Only live television",
+          "Only radio broadcasts",
           "Only scheduled programming",
-          "Only radio broadcasts"
+          "Streaming and on-demand"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Digital platforms provide additional distribution channels.",
         module: 6
       },
@@ -2314,12 +2314,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 25,
         question: "What confirms source credibility?",
         options: [
-          "Source verification",
-          "Source popularity",
           "Source appearance",
-          "Source location"
+          "Source verification",
+          "Source location",
+          "Source popularity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Verification ensures information reliability.",
         module: 1
       },
@@ -2327,12 +2327,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 26,
         question: "What transforms numbers into broadcast stories?",
         options: [
-          "Data journalism",
-          "Entertainment reporting",
+          "Weather reports",
           "Celebrity interviews",
-          "Weather reports"
+          "Data journalism",
+          "Entertainment reporting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Data journalism makes statistics understandable and compelling.",
         module: 1
       },
@@ -2340,12 +2340,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 27,
         question: "What creates immediacy and relevance?",
         options: [
-          "Present tense focus",
           "Past tense only",
+          "Present tense focus",
           "Future tense speculation",
           "Conditional tense"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Present tense makes stories feel current and relevant.",
         module: 2
       },
@@ -2353,12 +2353,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 28,
         question: "What confirms all facts before writing?",
         options: [
-          "Accuracy verification",
-          "Creative writing",
           "Assumption making",
-          "Source guessing"
+          "Accuracy verification",
+          "Source guessing",
+          "Creative writing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Verification ensures broadcast accuracy.",
         module: 2
       },
@@ -2367,9 +2367,9 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         question: "What frames shots that communicate clearly?",
         options: [
           "Composition principles",
-          "Random framing",
           "Maximum zoom",
-          "Constant movement"
+          "Constant movement",
+          "Random framing"
         ],
         correctAnswer: 0,
         explanation: "Good composition helps viewers understand visual information.",
@@ -2379,12 +2379,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 30,
         question: "What creates content for multiple platforms?",
         options: [
-          "Multi-platform reporting",
-          "Only television reporting",
           "Radio reporting only",
+          "Only television reporting",
+          "Multi-platform reporting",
           "Print reporting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Modern journalism often serves multiple platforms simultaneously.",
         module: 3
       },
@@ -2392,12 +2392,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 31,
         question: "What creates initial story structure?",
         options: [
-          "Rough cutting",
-          "Final editing",
           "Color correction",
-          "Audio mixing"
+          "Rough cutting",
+          "Audio mixing",
+          "Final editing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Rough cuts establish basic story flow.",
         module: 4
       },
@@ -2405,12 +2405,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 32,
         question: "What weaves ambient sound into stories?",
         options: [
-          "Natural sound integration",
-          "Silence only",
           "Music replacement",
-          "Voiceover only"
+          "Voiceover only",
+          "Silence only",
+          "Natural sound integration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Natural sound adds authenticity and atmosphere.",
         module: 4
       },
@@ -2418,12 +2418,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 33,
         question: "What allows limited use for news purposes?",
         options: [
-          "Fair use doctrine",
-          "Complete freedom",
           "No use allowed",
-          "Purchase requirement"
+          "Complete freedom",
+          "Purchase requirement",
+          "Fair use doctrine"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Fair use allows limited use without permission for purposes like news.",
         module: 5
       },
@@ -2431,12 +2431,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 34,
         question: "What provides ethical guidelines?",
         options: [
-          "SPJ Code of Ethics",
-          "Government regulations",
           "Station policies only",
-          "Personal preferences"
+          "Personal preferences",
+          "Government regulations",
+          "SPJ Code of Ethics"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "SPJ provides widely accepted ethical standards for journalists.",
         module: 5
       },
@@ -2444,12 +2444,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 35,
         question: "What manages personnel and budgets?",
         options: [
-          "Resource allocation",
-          "Only story assignment",
+          "Only social media",
           "Only equipment use",
-          "Only social media"
+          "Resource allocation",
+          "Only story assignment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Resource management ensures effective operations.",
         module: 6
       },
@@ -2457,12 +2457,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 36,
         question: "What connects with local communities?",
         options: [
-          "Community engagement",
+          "Only online interaction",
           "Only national reporting",
           "Only international reporting",
-          "Only online interaction"
+          "Community engagement"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Community connection builds audience trust and relevance.",
         module: 6
       },
@@ -2470,12 +2470,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 37,
         question: "What protects source identities?",
         options: [
+          "Station broadcasts",
           "Confidentiality protocols",
           "Public announcements",
-          "Social media posts",
-          "Station broadcasts"
+          "Social media posts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Protecting sources maintains trust and safety.",
         module: 1
       },
@@ -2483,12 +2483,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 38,
         question: "How should words relate to visuals?",
         options: [
+          "Contradict intentionally",
           "Complement rather than repeat",
           "Repeat exactly",
-          "Ignore completely",
-          "Contradict intentionally"
+          "Ignore completely"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Complementary writing uses words and images together effectively.",
         module: 2
       },
@@ -2498,8 +2498,8 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         options: [
           "Risk assessment",
           "Ignoring risks",
-          "Assuming safety",
-          "Following others"
+          "Following others",
+          "Assuming safety"
         ],
         correctAnswer: 0,
         explanation: "Assessment helps prepare for and avoid dangers.",
@@ -2509,12 +2509,12 @@ Master these management and innovation skills to lead in broadcast journalism!`,
         id: 40,
         question: "What articulates clear direction?",
         options: [
+          "Only technical operations",
           "Vision development",
           "Only daily management",
-          "Only technical operations",
           "Only financial management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Vision provides purpose and direction for journalism.",
         module: 6
       }

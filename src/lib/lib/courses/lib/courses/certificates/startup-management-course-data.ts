@@ -99,10 +99,10 @@ Remember: Successful startup management begins with a solid foundation. The idea
           id: 1,
           question: "What is the primary goal of a startup according to modern definitions?",
           options: [
-            "To make immediate profit",
+            "To hire as many employees as possible",
             "To search for a repeatable and scalable business model",
-            "To build a perfect product before launching",
-            "To hire as many employees as possible"
+            "To make immediate profit",
+            "To build a perfect product before launching"
           ],
           correctAnswer: 1,
           explanation: "Startups are temporary organizations designed to search for a repeatable and scalable business model, not to make immediate profit."
@@ -111,10 +111,10 @@ Remember: Successful startup management begins with a solid foundation. The idea
           id: 2,
           question: "Which approach to idea generation starts by identifying real problems people face?",
           options: [
-            "Solution-First Approach",
+            "Market Gap Analysis",
             "Passion and Expertise Approach",
             "Problem-First Approach",
-            "Market Gap Analysis"
+            "Solution-First Approach"
           ],
           correctAnswer: 2,
           explanation: "The Problem-First Approach begins by identifying real problems people face in their daily lives or work."
@@ -124,23 +124,23 @@ Remember: Successful startup management begins with a solid foundation. The idea
           question: "What is the recommended number of potential customers to talk to during idea validation?",
           options: [
             "5-10 people",
-            "At least 50 people",
+            "Only people you know well",
             "100-200 people",
-            "Only people you know well"
+            "At least 50 people"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "You should have conversations with at least 50 people who might use your product to get meaningful validation."
         },
         {
           id: 4,
           question: "What does MVP stand for in startup terminology?",
           options: [
-            "Most Valuable Product",
-            "Maximum Value Proposition",
             "Minimum Viable Product",
+            "Maximum Value Proposition",
+            "Most Valuable Product",
             "Main Verified Product"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "MVP stands for Minimum Viable Product - the simplest version that solves the core problem."
         },
         {
@@ -159,34 +159,34 @@ Remember: Successful startup management begins with a solid foundation. The idea
           id: 6,
           question: "What should you focus on learning during early startup stages according to Lean Startup?",
           options: [
-            "How to write perfect code",
             "What customers really want",
+            "How to write perfect code",
             "How to raise venture capital",
             "Office management skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Focus on learning what customers really want rather than just executing a predetermined plan."
         },
         {
           id: 7,
           question: "What term describes changing direction based on learning from experiments?",
           options: [
-            "Persevere",
-            "Pivot",
+            "Proceed",
             "Pause",
-            "Proceed"
+            "Pivot",
+            "Persevere"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A pivot is a structured course correction designed to test a new fundamental hypothesis about the product."
         },
         {
           id: 8,
           question: "Which of these is a common startup mistake to avoid?",
           options: [
-            "Talking to customers early",
-            "Building in isolation",
             "Creating an MVP",
-            "Testing willingness to pay"
+            "Building in isolation",
+            "Testing willingness to pay",
+            "Talking to customers early"
           ],
           correctAnswer: 1,
           explanation: "Building in isolation without customer feedback is a common mistake that leads to building products nobody wants."
@@ -195,9 +195,9 @@ Remember: Successful startup management begins with a solid foundation. The idea
           id: 9,
           question: "What should you test beyond whether people like your idea?",
           options: [
-            "Their favorite colors",
-            "Their willingness to pay",
             "Their educational background",
+            "Their willingness to pay",
+            "Their favorite colors",
             "Their social media habits"
           ],
           correctAnswer: 1,
@@ -207,10 +207,10 @@ Remember: Successful startup management begins with a solid foundation. The idea
           id: 10,
           question: "What is innovation accounting focused on for startups?",
           options: [
-            "Traditional profit metrics",
+            "Office space efficiency",
             "Employee satisfaction scores",
             "Metrics that matter for early-stage startups",
-            "Office space efficiency"
+            "Traditional profit metrics"
           ],
           correctAnswer: 2,
           explanation: "Innovation accounting focuses on metrics that matter for early-stage startups, like customer engagement."
@@ -219,72 +219,72 @@ Remember: Successful startup management begins with a solid foundation. The idea
           id: 11,
           question: "Which characteristic is NOT typical of startups?",
           options: [
-            "Growth-oriented",
             "Operating with certainty",
+            "Growth-oriented",
             "Resource constraints",
             "Innovation focus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Startups operate in conditions of extreme uncertainty, not certainty."
         },
         {
           id: 12,
           question: "What should you do before building a large team?",
           options: [
-            "Prove the business model",
             "Get a fancy office",
             "Create detailed job descriptions",
-            "Plan the company picnic"
+            "Plan the company picnic",
+            "Prove the business model"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "You should prove the business model before hiring a large team to avoid burning through cash."
         },
         {
           id: 13,
           question: "Which ideation technique looks for underserved markets?",
           options: [
-            "Problem-First Approach",
-            "Market Gap Analysis",
             "Solution-First Approach",
-            "Passion and Expertise"
+            "Passion and Expertise",
+            "Market Gap Analysis",
+            "Problem-First Approach"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Market Gap Analysis looks for underserved markets or segments where current solutions are inadequate."
         },
         {
           id: 14,
           question: "What is the simplest version of your product that solves the core problem called?",
           options: [
+            "Minimum Viable Product",
             "Beta Version",
             "Final Product",
-            "Minimum Viable Product",
             "Prototype"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "This is the definition of a Minimum Viable Product (MVP)."
         },
         {
           id: 15,
           question: "What happens if you chase perfection too early?",
           options: [
+            "You attract more investors",
             "You build features nobody wants",
             "You save money",
-            "You attract more investors",
             "You avoid competition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Chasing perfection often means spending months building features nobody actually wants."
         },
         {
           id: 16,
           question: "What should you analyze to ensure business sustainability?",
           options: [
-            "Your office location",
-            "Market size",
+            "Industry fashion trends",
             "Competitor office decor",
-            "Industry fashion trends"
+            "Your office location",
+            "Market size"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "You must analyze market size to ensure your target market is large enough to support a sustainable business."
         },
         {
@@ -303,36 +303,36 @@ Remember: Successful startup management begins with a solid foundation. The idea
           id: 18,
           question: "Which approach begins with technological innovation?",
           options: [
-            "Problem-First Approach",
             "Solution-First Approach",
-            "Market Gap Analysis",
-            "Customer Interview Approach"
+            "Customer Interview Approach",
+            "Problem-First Approach",
+            "Market Gap Analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Solution-First Approach begins with a technological innovation, then finds problems it can solve."
         },
         {
           id: 19,
           question: "What do many startups misunderstand about their market?",
           options: [
-            "That people will buy because the product is technically impressive",
-            "That customers know what they want",
             "That markets are static",
-            "All of the above"
+            "That people will buy because the product is technically impressive",
+            "All of the above",
+            "That customers know what they want"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Many startups assume people will buy because the product is technically impressive, which is often incorrect."
         },
         {
           id: 20,
           question: "What is critical to understand about each customer?",
           options: [
-            "Their favorite sports team",
             "Whether they are profitable",
+            "Their favorite sports team",
             "Their political views",
             "Their family size"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Understanding unit economics - whether each customer is profitable - is critical for startup success."
         }
       ]
@@ -481,10 +481,10 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 1,
           question: "What does a business model describe?",
           options: [
-            "Only how to make money",
             "Office layout and design",
+            "Employee vacation policies",
             "How an organization creates, delivers, and captures value",
-            "Employee vacation policies"
+            "Only how to make money"
           ],
           correctAnswer: 2,
           explanation: "A business model describes how an organization creates, delivers, and captures value."
@@ -493,10 +493,10 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 2,
           question: "How many building blocks are in the Business Model Canvas?",
           options: [
-            "5 blocks",
+            "12 blocks",
             "7 blocks",
             "9 blocks",
-            "12 blocks"
+            "5 blocks"
           ],
           correctAnswer: 2,
           explanation: "The Business Model Canvas has 9 building blocks that cover all aspects of a business."
@@ -517,22 +517,22 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 4,
           question: "What revenue model involves customers paying a recurring fee?",
           options: [
-            "Transaction Fee Model",
             "Subscription Model",
-            "Advertising Model",
-            "Licensing Model"
+            "Licensing Model",
+            "Transaction Fee Model",
+            "Advertising Model"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Subscription Model involves customers paying a recurring fee for access."
         },
         {
           id: 5,
           question: "Which pricing strategy bases prices on perceived customer value?",
           options: [
-            "Cost-Plus Pricing",
+            "Penetration Pricing",
             "Value-Based Pricing",
             "Competitive Pricing",
-            "Penetration Pricing"
+            "Cost-Plus Pricing"
           ],
           correctAnswer: 1,
           explanation: "Value-Based Pricing sets prices based on perceived value to the customer."
@@ -541,36 +541,36 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 6,
           question: "What is the term for how many months a startup can operate before running out of money?",
           options: [
+            "Profit Margin",
             "Burn Rate",
             "Runway",
-            "Cash Flow",
-            "Profit Margin"
+            "Cash Flow"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Runway refers to how many months a startup can operate before running out of money."
         },
         {
           id: 7,
           question: "What does CAC stand for in unit economics?",
           options: [
-            "Customer Appreciation Cost",
             "Customer Acquisition Cost",
+            "Capital Accumulation Cost",
             "Company Acquisition Cost",
-            "Capital Accumulation Cost"
+            "Customer Appreciation Cost"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CAC stands for Customer Acquisition Cost - how much it costs to acquire a new customer."
         },
         {
           id: 8,
           question: "What is a healthy LTV:CAC ratio for most startups?",
           options: [
-            "1:1",
+            "1:3",
             "2:1",
-            "3:1 or higher",
-            "1:3"
+            "1:1",
+            "3:1 or higher"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "A healthy LTV:CAC ratio is typically 3:1 or higher, meaning customers are worth 3 times what it costs to acquire them."
         },
         {
@@ -578,33 +578,33 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           question: "Which revenue model offers basic services for free while charging for premium features?",
           options: [
             "Subscription Model",
-            "Freemium Model",
+            "Transaction Fee Model",
             "Direct Sales",
-            "Transaction Fee Model"
+            "Freemium Model"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Freemium Model offers basic services for free while charging for premium features."
         },
         {
           id: 10,
           question: "What should you document to help your business scale effectively?",
           options: [
-            "Employee birthdays",
-            "Office gossip",
             "Processes and systems",
-            "Competitor rumors"
+            "Employee birthdays",
+            "Competitor rumors",
+            "Office gossip"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Documenting processes and systems helps new team members learn quickly and supports scaling."
         },
         {
           id: 11,
           question: "Which Business Model Canvas block covers distribution and sales channels?",
           options: [
-            "Customer Relationships",
+            "Revenue Streams",
             "Channels",
-            "Key Resources",
-            "Revenue Streams"
+            "Customer Relationships",
+            "Key Resources"
           ],
           correctAnswer: 1,
           explanation: "The Channels block covers how you reach customers through communication, distribution, and sales channels."
@@ -613,10 +613,10 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 12,
           question: "What pricing strategy sets low initial prices to gain market share?",
           options: [
-            "Skimming Pricing",
+            "Psychological Pricing",
             "Penetration Pricing",
-            "Value-Based Pricing",
-            "Psychological Pricing"
+            "Skimming Pricing",
+            "Value-Based Pricing"
           ],
           correctAnswer: 1,
           explanation: "Penetration Pricing sets low initial prices to gain market share quickly."
@@ -625,24 +625,24 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 13,
           question: "What is calculated as (Starting Cash - Ending Cash) / Months?",
           options: [
-            "Profit Margin",
             "Burn Rate",
-            "Revenue Growth",
-            "Customer Satisfaction"
+            "Profit Margin",
+            "Customer Satisfaction",
+            "Revenue Growth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Monthly Burn Rate = (Starting Cash - Ending Cash) / Months."
         },
         {
           id: 14,
           question: "What does LTV stand for in unit economics?",
           options: [
+            "Loan to Value",
             "Long-Term Vision",
             "Lifetime Value",
-            "Loan to Value",
             "Leadership Training Value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "LTV stands for Lifetime Value - the total revenue expected from a customer."
         },
         {
@@ -651,8 +651,8 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           options: [
             "Variable Cost",
             "Fixed Cost",
-            "Marginal Cost",
-            "Opportunity Cost"
+            "Opportunity Cost",
+            "Marginal Cost"
           ],
           correctAnswer: 1,
           explanation: "Fixed costs (like rent and salaries) remain constant regardless of sales volume."
@@ -661,34 +661,34 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 16,
           question: "What should you remove to enable business scalability?",
           options: [
+            "All technology",
             "All employees",
             "Human bottlenecks",
-            "All technology",
             "Customer support"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Remove human bottlenecks so systems don't rely on specific individuals to scale."
         },
         {
           id: 17,
           question: "Which Business Model Canvas block identifies key suppliers and partners?",
           options: [
-            "Key Activities",
             "Key Partnerships",
             "Key Resources",
-            "Cost Structure"
+            "Cost Structure",
+            "Key Activities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Key Partnerships identifies who your key partners and suppliers are."
         },
         {
           id: 18,
           question: "What is a common business model mistake to avoid?",
           options: [
-            "Simple business models",
             "Understanding unit economics",
+            "Testing pricing strategies",
             "Overly complex models",
-            "Testing pricing strategies"
+            "Simple business models"
           ],
           correctAnswer: 2,
           explanation: "Overly complex business models are harder to execute and understand."
@@ -697,20 +697,20 @@ A well-designed business model is your roadmap to sustainable growth. Take time 
           id: 19,
           question: "What pricing uses $9.99 instead of $10 for psychological effect?",
           options: [
+            "Competitive Pricing",
             "Value-Based Pricing",
             "Psychological Pricing",
-            "Competitive Pricing",
             "Cost-Plus Pricing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Psychological Pricing uses prices like $9.99 to seem more appealing than $10."
         },
         {
           id: 20,
           question: "What should decrease per unit as your business grows?",
           options: [
-            "Customer satisfaction",
             "Product quality",
+            "Customer satisfaction",
             "Some costs (economies of scale)",
             "Employee happiness"
           ],
@@ -900,22 +900,22 @@ Your team is your most valuable asset. Invest time in building it thoughtfully.`
           id: 1,
           question: "What is the recommended approach to hiring in startups?",
           options: [
-            "Hire Fast, Fire Slow",
             "Hire Slow, Fire Fast",
             "Always hire friends first",
+            "Hire Fast, Fire Slow",
             "Only hire from top universities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "'Hire Slow, Fire Fast' means take time finding right people but address poor fits quickly."
         },
         {
           id: 2,
           question: "What should matter more than credentials when hiring for startups?",
           options: [
-            "Family connections",
             "Physical appearance",
+            "Social media followers",
             "Actual skills and abilities",
-            "Social media followers"
+            "Family connections"
           ],
           correctAnswer: 2,
           explanation: "Focus on what people can actually do, not just their degrees or previous titles."
@@ -924,10 +924,10 @@ Your team is your most valuable asset. Invest time in building it thoughtfully.`
           id: 3,
           question: "Which early role is crucial if building technology products?",
           options: [
-            "Office Manager",
+            "Receptionist",
             "Technical Co-founder/CTO",
-            "Social Media Intern",
-            "Receptionist"
+            "Office Manager",
+            "Social Media Intern"
           ],
           correctAnswer: 1,
           explanation: "If building technology products, strong technical leadership is needed from day one."
@@ -936,130 +936,130 @@ Your team is your most valuable asset. Invest time in building it thoughtfully.`
           id: 4,
           question: "What type of structure has minimal hierarchy and is common in early startups?",
           options: [
-            "Functional Structure",
             "Matrix Structure",
             "Flat Structure",
-            "Hierarchical Structure"
+            "Hierarchical Structure",
+            "Functional Structure"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Flat Structure has minimal hierarchy and promotes agility in early startups."
         },
         {
           id: 5,
           question: "Which leadership style focuses on enabling team success rather than commanding?",
           options: [
-            "Autocratic Leadership",
             "Servant Leadership",
+            "Autocratic Leadership",
             "Transactional Leadership",
             "Laissez-faire Leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Servant Leadership focuses on enabling team success rather than commanding from above."
         },
         {
           id: 6,
           question: "What is company culture best described as?",
           options: [
-            "The office decor",
-            "The employee handbook",
             "How things get done around here",
-            "The CEO's personality"
+            "The CEO's personality",
+            "The employee handbook",
+            "The office decor"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Culture is 'how things get done around here' - the unwritten rules and behaviors."
         },
         {
           id: 7,
           question: "What should you do with communication in distributed teams?",
           options: [
-            "Under-communicate to avoid noise",
             "Over-communicate to ensure clarity",
             "Only communicate via email",
-            "Avoid all social communication"
+            "Avoid all social communication",
+            "Under-communicate to avoid noise"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "In distributed settings, err on the side of over-communication to ensure clarity."
         },
         {
           id: 8,
           question: "What does OKR stand for in performance management?",
           options: [
-            "Office Key Results",
             "Objectives and Key Results",
             "Organizational Knowledge Resources",
-            "Operational Key Responsibilities"
+            "Operational Key Responsibilities",
+            "Office Key Results"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "OKR stands for Objectives and Key Results - a goal-setting framework."
         },
         {
           id: 9,
           question: "What should you focus on during conflict resolution?",
           options: [
-            "Winning the argument",
-            "Underlying interests, not just positions",
             "Assigning blame",
-            "Avoiding the issue"
+            "Avoiding the issue",
+            "Underlying interests, not just positions",
+            "Winning the argument"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Focus on underlying interests and needs rather than battling over stated positions."
         },
         {
           id: 10,
           question: "What should you create to integrate new hires effectively?",
           options: [
+            "Secret handshakes",
             "Hazing rituals",
             "Structured onboarding systems",
-            "Secret handshakes",
             "Isolation periods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Create structured onboarding processes to integrate new hires effectively."
         },
         {
           id: 11,
           question: "What type of hiring looks for what someone adds to culture, not just fit?",
           options: [
-            "Cultural Fit hiring",
-            "Cultural Add hiring",
             "Cultural Clone hiring",
-            "Cultural Ignorance hiring"
+            "Cultural Ignorance hiring",
+            "Cultural Add hiring",
+            "Cultural Fit hiring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cultural Add hiring looks for what someone adds to your culture, not just whether they fit existing culture."
         },
         {
           id: 12,
           question: "Which structure organizes by department like engineering and marketing?",
           options: [
-            "Flat Structure",
             "Functional Structure",
             "Matrix Structure",
-            "Holacracy"
+            "Holacracy",
+            "Flat Structure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Functional Structure organizes by department with clear responsibilities."
         },
         {
           id: 13,
           question: "What should leaders share to build trust in startups?",
           options: [
+            "Nothing - keep everything secret",
             "Only positive information",
             "Transparency within reason",
-            "Gossip about competitors",
-            "Nothing - keep everything secret"
+            "Gossip about competitors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Share information transparently (within reason) to build trust and alignment."
         },
         {
           id: 14,
           question: "What helps maintain team cohesion in remote settings?",
           options: [
-            "Ignoring social interactions",
+            "Mandatory camera-off policies",
             "Intentional relationship building",
             "Only work-related communication",
-            "Mandatory camera-off policies"
+            "Ignoring social interactions"
           ],
           correctAnswer: 1,
           explanation: "Intentional social interactions help maintain team cohesion in remote settings."
@@ -1069,35 +1069,35 @@ Your team is your most valuable asset. Invest time in building it thoughtfully.`
           question: "What should replace traditional annual reviews in startups?",
           options: [
             "No feedback at all",
-            "Continuous performance management",
             "Only crisis feedback",
+            "Continuous performance management",
             "Annual bonuses without review"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Continuous performance management systems work better than traditional annual reviews."
         },
         {
           id: 16,
           question: "What creates safety for expressing opinions and concerns?",
           options: [
-            "Psychological Safety",
             "Physical Safety",
+            "Psychological Safety",
             "Financial Safety",
             "Job Safety"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Psychological Safety creates an environment where people feel safe expressing opinions."
         },
         {
           id: 17,
           question: "What should you learn to delegate as you scale?",
           options: [
-            "Only unimportant tasks",
-            "Authority and decision-making, not just tasks",
+            "Nothing - do everything yourself",
             "All responsibility immediately",
-            "Nothing - do everything yourself"
+            "Only unimportant tasks",
+            "Authority and decision-making, not just tasks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Learn to delegate authority and decision-making, not just tasks."
         },
         {
@@ -1105,21 +1105,21 @@ Your team is your most valuable asset. Invest time in building it thoughtfully.`
           question: "What is a common team building mistake?",
           options: [
             "Hiring diverse perspectives",
-            "Hiring clones of yourself",
+            "Building onboarding systems",
             "Creating clear roles",
-            "Building onboarding systems"
+            "Hiring clones of yourself"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hiring clones of yourself limits perspective and problem-solving ability."
         },
         {
           id: 19,
           question: "What type of meetings should happen weekly or biweekly?",
           options: [
-            "Company-wide parties",
+            "Shareholder meetings",
             "1:1 conversations between managers and team members",
             "Competitor espionage meetings",
-            "Shareholder meetings"
+            "Company-wide parties"
           ],
           correctAnswer: 1,
           explanation: "Regular 1:1 conversations between managers and team members should happen weekly or biweekly."
@@ -1128,12 +1128,12 @@ Your team is your most valuable asset. Invest time in building it thoughtfully.`
           id: 20,
           question: "What should you celebrate instead of overwork?",
           options: [
-            "Sustainable performance",
             "All-night coding sessions",
             "Never taking vacations",
-            "Working through illness"
+            "Working through illness",
+            "Sustainable performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Celebrate sustainable performance rather than burnout culture and overwork."
         }
       ]
@@ -1350,22 +1350,22 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           id: 1,
           question: "What should you focus on during the pre-product/market fit stage?",
           options: [
-            "Scalable acquisition channels",
             "Learning and validation",
+            "International expansion",
             "Defending market position",
-            "International expansion"
+            "Scalable acquisition channels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pre-product/market fit focuses on learning and validation through direct conversations."
         },
         {
           id: 2,
           question: "What does product/market fit mean according to Marc Andreessen?",
           options: [
-            "Having the cheapest product",
+            "Having celebrity endorsements",
             "Being in a good market with a product that can satisfy that market",
             "Having the most features",
-            "Having celebrity endorsements"
+            "Having the cheapest product"
           ],
           correctAnswer: 1,
           explanation: "Product/market fit means being in a good market with a product that can satisfy that market."
@@ -1374,12 +1374,12 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           id: 3,
           question: "What is the AARRR framework also known as?",
           options: [
+            "Lean Startup",
             "Business Model Canvas",
-            "Pirate Metrics",
             "Bullseye Framework",
-            "Lean Startup"
+            "Pirate Metrics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The AARRR framework is commonly called Pirate Metrics (Acquisition, Activation, Retention, Revenue, Referral)."
         },
         {
@@ -1387,11 +1387,11 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           question: "Which AARRR stage focuses on users' first positive experience?",
           options: [
             "Acquisition",
-            "Activation",
             "Retention",
-            "Revenue"
+            "Revenue",
+            "Activation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Activation focuses on the user's first positive experience with your product."
         },
         {
@@ -1399,45 +1399,45 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           question: "What framework has Inner, Middle, and Outer rings for testing channels?",
           options: [
             "AARRR Framework",
-            "Bullseye Framework",
             "Business Model Canvas",
-            "Lean Canvas"
+            "Lean Canvas",
+            "Bullseye Framework"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Bullseye Framework categorizes channels into Inner (working), Middle (testing), and Outer (considering) rings."
         },
         {
           id: 6,
           question: "What is positioning in marketing?",
           options: [
-            "Office location",
             "How you're perceived relative to competitors",
             "Employee seating arrangement",
-            "Product packaging"
+            "Product packaging",
+            "Office location"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Positioning is how you're perceived in the market relative to competitors."
         },
         {
           id: 7,
           question: "Which growth channel includes SEO and content marketing?",
           options: [
-            "Paid Channels",
             "Owned Channels",
+            "Paid Channels",
             "Earned Channels",
             "Borrowed Channels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Owned Channels include SEO, content marketing, email, and social media (organic)."
         },
         {
           id: 8,
           question: "What type of loop did Dropbox use for viral growth?",
           options: [
-            "Feedback Loop",
+            "Quality Loop",
             "Viral Loop",
-            "Production Loop",
-            "Quality Loop"
+            "Feedback Loop",
+            "Production Loop"
           ],
           correctAnswer: 1,
           explanation: "Dropbox built a viral loop through their referral program that gave extra storage for referrals."
@@ -1448,8 +1448,8 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           options: [
             "Promotional Content",
             "Educational Content",
-            "Entertainment Content",
-            "Controversial Content"
+            "Controversial Content",
+            "Entertainment Content"
           ],
           correctAnswer: 1,
           explanation: "Educational Content teaches skills or knowledge your audience wants to learn."
@@ -1458,12 +1458,12 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           id: 10,
           question: "What should a welcome email series do?",
           options: [
-            "Ask for money immediately",
-            "Introduce new users to your product's value",
             "Share company financials",
-            "Complain about competitors"
+            "Ask for money immediately",
+            "Complain about competitors",
+            "Introduce new users to your product's value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Welcome series should introduce new users to your product's value and how to succeed with it."
         },
         {
@@ -1471,47 +1471,47 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           question: "What is the most dangerous growth mistake?",
           options: [
             "Testing too many channels",
+            "Hiring growth marketers",
             "Trying to scale before product/market fit",
-            "Spending on marketing",
-            "Hiring growth marketers"
+            "Spending on marketing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Trying to scale before achieving product/market fit wastes resources on acquiring users who won't stay."
         },
         {
           id: 12,
           question: "What does the 'R' in AARRR stand for that comes after Revenue?",
           options: [
-            "Retention",
             "Referral",
             "Research",
+            "Retention",
             "Return"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The final R in AARRR is Referral - users telling others about your product."
         },
         {
           id: 13,
           question: "What should you test with small budgets before scaling?",
           options: [
-            "Office furniture",
-            "Paid acquisition channels",
             "Employee salaries",
-            "Company name changes"
+            "Company name changes",
+            "Paid acquisition channels",
+            "Office furniture"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Test paid acquisition channels with small budgets to find what works before scaling spend."
         },
         {
           id: 14,
           question: "What does CAC stand for in growth metrics?",
           options: [
+            "Content Advertising Cost",
             "Customer Appreciation Cost",
-            "Customer Acquisition Cost",
             "Company Acquisition Cost",
-            "Content Advertising Cost"
+            "Customer Acquisition Cost"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CAC stands for Customer Acquisition Cost - how much it costs to acquire each customer."
         },
         {
@@ -1519,21 +1519,21 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           question: "What type of marketing builds sharing directly into the product?",
           options: [
             "Traditional Marketing",
-            "Growth Hacking",
+            "Print Advertising",
             "Outbound Sales",
-            "Print Advertising"
+            "Growth Hacking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Growth hacking often involves building viral loops and sharing directly into product experience."
         },
         {
           id: 16,
           question: "What should you balance in social media content mix?",
           options: [
-            "Only promotional content",
-            "Promotional, educational, and engaging content",
             "Only competitor criticism",
-            "Only memes"
+            "Promotional, educational, and engaging content",
+            "Only memes",
+            "Only promotional content"
           ],
           correctAnswer: 1,
           explanation: "Balance promotional, educational, and engaging content for effective social media strategy."
@@ -1542,24 +1542,24 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           id: 17,
           question: "What does MRR stand for?",
           options: [
+            "Management Review Report",
             "Monthly Revenue Report",
-            "Monthly Recurring Revenue",
             "Marketing Return Rate",
-            "Management Review Report"
+            "Monthly Recurring Revenue"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "MRR stands for Monthly Recurring Revenue - predictable revenue from subscriptions."
         },
         {
           id: 18,
           question: "What type of testing compares two versions to see which performs better?",
           options: [
-            "A/B Testing",
-            "Multivariate Testing",
+            "Quality Testing",
             "Hypothesis Testing",
-            "Quality Testing"
+            "A/B Testing",
+            "Multivariate Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A/B Testing compares two versions (A and B) to see which performs better on a specific metric."
         },
         {
@@ -1567,23 +1567,23 @@ Sustainable growth requires systematic testing, measurement, and optimization.`,
           question: "What should you ensure test results have before making decisions?",
           options: [
             "Popularity",
-            "Statistical Significance",
             "CEO approval",
+            "Statistical Significance",
             "Colorful charts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ensure test results have statistical significance to know they're meaningful, not random."
         },
         {
           id: 20,
           question: "What should growth meetings review weekly?",
           options: [
-            "Office supplies",
-            "Metrics and experiments",
             "Competitor office layouts",
-            "Industry gossip"
+            "Office supplies",
+            "Industry gossip",
+            "Metrics and experiments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Weekly growth meetings should review key metrics and experiment results to guide decisions."
         }
       ]
@@ -1832,23 +1832,23 @@ Financial literacy is critical for startup success and maintaining control of yo
           question: "What is bootstrapping in startup funding?",
           options: [
             "Taking venture capital",
+            "Borrowing from banks",
             "Funding with personal savings and revenue",
-            "Getting government grants",
-            "Borrowing from banks"
+            "Getting government grants"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bootstrapping means funding your startup with personal savings and revenue, maintaining full control."
         },
         {
           id: 2,
           question: "What is the typical investment range for angel investors?",
           options: [
-            "$1K-$10K",
-            "$25K-$500K",
             "$1M-$5M",
-            "$10M+"
+            "$1K-$10K",
+            "$10M+",
+            "$25K-$500K"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Angel investors typically invest $25K-$500K of their personal money in early-stage startups."
         },
         {
@@ -1856,11 +1856,11 @@ Financial literacy is critical for startup success and maintaining control of yo
           question: "When should startups consider raising venture capital?",
           options: [
             "Before having any idea",
+            "To pay for founder vacations",
             "When they need to scale fast in capital-intensive markets",
-            "Instead of getting customers",
-            "To pay for founder vacations"
+            "Instead of getting customers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Consider venture capital when you need to scale fast in capital-intensive or winner-take-most markets."
         },
         {
@@ -1879,10 +1879,10 @@ Financial literacy is critical for startup success and maintaining control of yo
           id: 5,
           question: "What is pre-money valuation?",
           options: [
-            "Value after investment",
+            "Value excluding assets",
             "Value before investment",
             "Value including debt",
-            "Value excluding assets"
+            "Value after investment"
           ],
           correctAnswer: 1,
           explanation: "Pre-money valuation is the company's value before receiving new investment."
@@ -1891,48 +1891,48 @@ Financial literacy is critical for startup success and maintaining control of yo
           id: 6,
           question: "What does post-money valuation equal?",
           options: [
+            "Only the investment amount",
             "Pre-money valuation minus investment",
             "Pre-money valuation plus investment",
-            "Only the investment amount",
             "Future projected value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Post-money valuation = Pre-money valuation + Investment amount."
         },
         {
           id: 7,
           question: "What is a standard liquidation preference for investors?",
           options: [
-            "0.5x (investors get half back first)",
-            "1x (investors get their money back first)",
+            "3x (investors get triple back first)",
             "2x (investors get double back first)",
-            "3x (investors get triple back first)"
+            "1x (investors get their money back first)",
+            "0.5x (investors get half back first)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "1x liquidation preference is standard - investors get their investment back before others in exit."
         },
         {
           id: 8,
           question: "What is the typical vesting period for founder shares?",
           options: [
-            "1 year with no cliff",
-            "2 years with 6-month cliff",
             "4 years with 1-year cliff",
-            "No vesting required"
+            "No vesting required",
+            "2 years with 6-month cliff",
+            "1 year with no cliff"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Founder shares typically vest over 4 years with a 1-year cliff (no vesting until first year)."
         },
         {
           id: 9,
           question: "What is burn rate?",
           options: [
-            "How fast you acquire customers",
             "Monthly cash spent by the startup",
+            "How fast you acquire customers",
             "Revenue growth rate",
             "Employee turnover rate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Burn rate is the monthly cash spent by the startup."
         },
         {
@@ -1940,9 +1940,9 @@ Financial literacy is critical for startup success and maintaining control of yo
           question: "How do you calculate runway?",
           options: [
             "Current Cash Balance / Monthly Burn Rate",
+            "Valuation / Annual Revenue",
             "Monthly Revenue / Monthly Expenses",
-            "Total Investment / Number of Employees",
-            "Valuation / Annual Revenue"
+            "Total Investment / Number of Employees"
           ],
           correctAnswer: 0,
           explanation: "Runway = Current Cash Balance / Monthly Burn Rate (months until cash runs out)."
@@ -1952,59 +1952,59 @@ Financial literacy is critical for startup success and maintaining control of yo
           question: "What does CAC include?",
           options: [
             "Only advertising costs",
+            "Only software costs",
             "All costs to acquire a customer (marketing + sales)",
-            "Only sales team salaries",
-            "Only software costs"
+            "Only sales team salaries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CAC includes all costs to acquire a customer - marketing expenses plus sales costs."
         },
         {
           id: 12,
           question: "What is a healthy LTV:CAC ratio?",
           options: [
-            "1:1",
-            "3:1 or higher",
+            "10:1 minimum",
             "1:3",
-            "10:1 minimum"
+            "1:1",
+            "3:1 or higher"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A healthy LTV:CAC ratio is typically 3:1 or higher, meaning customers are worth 3x acquisition cost."
         },
         {
           id: 13,
           question: "What should financial projections include?",
           options: [
-            "Only revenue numbers",
             "Revenue, expenses, and assumptions",
             "Only expense numbers",
+            "Only revenue numbers",
             "Only headcount numbers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Financial projections should include revenue, expenses, and clearly documented assumptions."
         },
         {
           id: 14,
           question: "What are SAFE notes?",
           options: [
-            "Traditional loans",
             "Simple Agreement for Future Equity",
+            "Traditional loans",
             "Stock options",
             "Revenue sharing agreements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SAFE stands for Simple Agreement for Future Equity - a Y Combinator standard for early funding."
         },
         {
           id: 15,
           question: "What is venture debt?",
           options: [
+            "Mortgages on office space",
             "Personal loans to founders",
             "Debt financing for venture-backed companies",
-            "Credit card debt",
-            "Mortgages on office space"
+            "Credit card debt"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Venture debt is debt financing specifically for venture-backed startups."
         },
         {
@@ -2013,8 +2013,8 @@ Financial literacy is critical for startup success and maintaining control of yo
           options: [
             "Only positive news",
             "Progress, challenges, and metrics",
-            "Only financial statements",
-            "Only competitor gossip"
+            "Only competitor gossip",
+            "Only financial statements"
           ],
           correctAnswer: 1,
           explanation: "Investor updates should include progress, challenges, metrics, and future plans."
@@ -2024,23 +2024,23 @@ Financial literacy is critical for startup success and maintaining control of yo
           question: "What does IPO stand for?",
           options: [
             "Initial Private Offering",
-            "Initial Public Offering",
             "International Purchase Order",
-            "Investor Partnership Opportunity"
+            "Investor Partnership Opportunity",
+            "Initial Public Offering"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "IPO stands for Initial Public Offering - when a company first sells shares to the public."
         },
         {
           id: 18,
           question: "What is gross margin?",
           options: [
-            "Revenue minus all expenses",
-            "Revenue minus direct costs of delivery",
+            "Cash in bank",
             "Net profit after taxes",
-            "Cash in bank"
+            "Revenue minus all expenses",
+            "Revenue minus direct costs of delivery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Gross margin = Revenue minus direct costs of delivering your product/service."
         },
         {
@@ -2048,9 +2048,9 @@ Financial literacy is critical for startup success and maintaining control of yo
           question: "What is break-even analysis?",
           options: [
             "When revenue equals total costs",
-            "When you run out of cash",
+            "When you get your first customer",
             "When you hire your first employee",
-            "When you get your first customer"
+            "When you run out of cash"
           ],
           correctAnswer: 0,
           explanation: "Break-even analysis determines when total revenue equals total costs (zero profit/loss point)."
@@ -2059,12 +2059,12 @@ Financial literacy is critical for startup success and maintaining control of yo
           id: 20,
           question: "What should you always know about your startup's finances?",
           options: [
-            "Competitor salaries",
             "Runway (months until cash runs out)",
-            "Office square footage",
-            "Number of competitors"
+            "Number of competitors",
+            "Competitor salaries",
+            "Office square footage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Always know your runway - how many months until cash runs out at current burn rate."
         }
       ]
@@ -2328,57 +2328,57 @@ Scaling successfully requires intentional design of systems, processes, and cult
           question: "What is a common scaling challenge with communication?",
           options: [
             "Too much transparency",
-            "Breakdown of what worked with small teams",
+            "Too many social events",
             "Not enough meetings",
-            "Too many social events"
+            "Breakdown of what worked with small teams"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Communication methods that worked with 10 people often break down with 50 or 100 people."
         },
         {
           id: 2,
           question: "At what stage do companies typically need their first managers?",
           options: [
-            "Startup (1-10 people)",
-            "Growth (11-50 people)",
             "Scale (51-200 people)",
-            "Enterprise (200+ people)"
+            "Enterprise (200+ people)",
+            "Growth (11-50 people)",
+            "Startup (1-10 people)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Growth stage (11-50 people) typically requires first managers and basic processes."
         },
         {
           id: 3,
           question: "What does SOP stand for in operations?",
           options: [
+            "Strategic Operations Plan",
             "Standard Office Procedure",
             "Standard Operating Procedure",
-            "Strategic Operations Plan",
             "Systematic Operations Process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SOP stands for Standard Operating Procedure - documented processes for repeatable tasks."
         },
         {
           id: 4,
           question: "Why document processes?",
           options: [
-            "To create bureaucracy",
-            "For consistency, training, and improvement",
+            "To fill employee time",
             "To impress investors",
-            "To fill employee time"
+            "To create bureaucracy",
+            "For consistency, training, and improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Process documentation enables consistency, faster training, and systematic improvement."
         },
         {
           id: 5,
           question: "What becomes more important as technology scales?",
           options: [
-            "Fancy office gadgets",
+            "Color of laptops",
             "Security considerations",
             "CEO's favorite software",
-            "Color of laptops"
+            "Fancy office gadgets"
           ],
           correctAnswer: 1,
           explanation: "Increased scale brings increased security risks requiring stronger security measures."
@@ -2388,11 +2388,11 @@ Scaling successfully requires intentional design of systems, processes, and cult
           question: "What should onboarding systems include?",
           options: [
             "Only HR paperwork",
-            "30-60-90 day plans for new hires",
+            "Only office tour",
             "Only company history",
-            "Only office tour"
+            "30-60-90 day plans for new hires"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective onboarding includes 30-60-90 day plans to integrate new hires systematically."
         },
         {
@@ -2401,8 +2401,8 @@ Scaling successfully requires intentional design of systems, processes, and cult
           options: [
             "All-hands meetings",
             "Standup meetings",
-            "Board meetings",
-            "Strategy offsites"
+            "Strategy offsites",
+            "Board meetings"
           ],
           correctAnswer: 1,
           explanation: "Standup meetings are short daily check-ins for team coordination."
@@ -2411,58 +2411,58 @@ Scaling successfully requires intentional design of systems, processes, and cult
           id: 8,
           question: "What becomes more complex with scaling financial operations?",
           options: [
+            "Paying rent",
             "Counting cash",
             "Multiple revenue streams and reporting requirements",
-            "Buying coffee",
-            "Paying rent"
+            "Buying coffee"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Financial operations become more complex with multiple revenue streams and sophisticated reporting needs."
         },
         {
           id: 9,
           question: "What system helps manage customer support requests?",
           options: [
-            "Ticketing system",
-            "Spreadsheet",
+            "Sticky notes",
             "Whiteboard",
-            "Sticky notes"
+            "Ticketing system",
+            "Spreadsheet"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ticketing systems help organize, track, and resolve customer support requests effectively."
         },
         {
           id: 10,
           question: "What balances new features with system maintenance?",
           options: [
-            "Only building new features",
-            "Technical debt management",
             "Ignoring old code",
-            "Hiring more developers"
+            "Hiring more developers",
+            "Technical debt management",
+            "Only building new features"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Technical debt management balances building new features with maintaining and improving existing systems."
         },
         {
           id: 11,
           question: "What should leadership development include?",
           options: [
-            "Only public speaking",
-            "Management training and strategic thinking",
+            "Only sales techniques",
             "Only coding skills",
-            "Only sales techniques"
+            "Only public speaking",
+            "Management training and strategic thinking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Leadership development should include management training, strategic thinking, and delegation skills."
         },
         {
           id: 12,
           question: "What helps maintain company culture during scaling?",
           options: [
-            "Ignoring culture",
+            "Keeping everyone in one room",
             "Cultural artifacts and values integration",
             "Only hiring friends",
-            "Keeping everyone in one room"
+            "Ignoring culture"
           ],
           correctAnswer: 1,
           explanation: "Cultural artifacts, values integration, and intentional culture carriers help preserve culture during scaling."
@@ -2471,9 +2471,9 @@ Scaling successfully requires intentional design of systems, processes, and cult
           id: 13,
           question: "What is important when expanding internationally?",
           options: [
-            "Assuming everyone speaks English",
-            "Localization for different markets",
             "Using same marketing everywhere",
+            "Localization for different markets",
+            "Assuming everyone speaks English",
             "Ignoring local laws"
           ],
           correctAnswer: 1,
@@ -2483,22 +2483,22 @@ Scaling successfully requires intentional design of systems, processes, and cult
           id: 14,
           question: "What should companies have for crisis management?",
           options: [
-            "No plan - wing it",
             "Prepared crisis response plans",
+            "No plan - wing it",
             "Only CEO decides everything",
             "Ignore problems hoping they go away"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Companies should have prepared crisis response plans for different scenarios before crises happen."
         },
         {
           id: 15,
           question: "What enables delegation as companies scale?",
           options: [
-            "Micromanagement",
+            "Keeping all decisions with founders",
             "Clear processes and decision rights",
-            "Hiring clones",
-            "Keeping all decisions with founders"
+            "Micromanagement",
+            "Hiring clones"
           ],
           correctAnswer: 1,
           explanation: "Clear processes and defined decision rights enable effective delegation as companies scale."
@@ -2507,24 +2507,24 @@ Scaling successfully requires intentional design of systems, processes, and cult
           id: 16,
           question: "What measures operational effectiveness?",
           options: [
-            "Office size",
-            "Performance metrics and KPIs",
+            "CEO's mood",
             "Number of meetings",
-            "CEO's mood"
+            "Performance metrics and KPIs",
+            "Office size"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Performance metrics and KPIs measure operational effectiveness and help guide improvements."
         },
         {
           id: 17,
           question: "What helps with cross-functional collaboration?",
           options: [
-            "Keeping teams isolated",
-            "Clear communication and shared goals",
+            "Different offices for each team",
             "Competition between teams",
-            "Different offices for each team"
+            "Keeping teams isolated",
+            "Clear communication and shared goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clear communication channels and shared goals facilitate effective cross-functional collaboration."
         },
         {
@@ -2532,9 +2532,9 @@ Scaling successfully requires intentional design of systems, processes, and cult
           question: "What is succession planning?",
           options: [
             "Planning company succession (who takes over if needed)",
+            "Planning product launches",
             "Planning employee vacations",
-            "Planning office moves",
-            "Planning product launches"
+            "Planning office moves"
           ],
           correctAnswer: 0,
           explanation: "Succession planning prepares for transitions in key roles to ensure business continuity."
@@ -2555,12 +2555,12 @@ Scaling successfully requires intentional design of systems, processes, and cult
           id: 20,
           question: "How should culture evolve during scaling?",
           options: [
+            "Not at all - stay exactly the same",
             "By accident only",
             "Intentionally rather than by drift",
-            "Not at all - stay exactly the same",
             "Copy whatever big companies do"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Culture should evolve intentionally with planning, not just drift accidentally during scaling."
         }
       ]
@@ -2580,8 +2580,8 @@ Scaling successfully requires intentional design of systems, processes, and cult
         options: [
           "To make immediate profit",
           "To search for a repeatable and scalable business model",
-          "To build a perfect product before launching",
-          "To hire as many employees as possible"
+          "To hire as many employees as possible",
+          "To build a perfect product before launching"
         ],
         correctAnswer: 1,
         explanation: "Startups are temporary organizations designed to search for a repeatable and scalable business model."
@@ -2590,22 +2590,22 @@ Scaling successfully requires intentional design of systems, processes, and cult
         id: 2,
         question: "Which Business Model Canvas block asks 'Who are you creating value for?'",
         options: [
-          "Value Propositions",
           "Customer Segments",
-          "Channels",
-          "Key Activities"
+          "Key Activities",
+          "Value Propositions",
+          "Channels"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Customer Segments identifies who you are creating value for in the Business Model Canvas."
       },
       {
         id: 3,
         question: "What is the recommended hiring approach for startups?",
         options: [
-          "Hire Fast, Fire Slow",
-          "Hire Slow, Fire Fast",
           "Always hire friends first",
-          "Only hire from top universities"
+          "Hire Slow, Fire Fast",
+          "Only hire from top universities",
+          "Hire Fast, Fire Slow"
         ],
         correctAnswer: 1,
         explanation: "'Hire Slow, Fire Fast' means take time finding right people but address poor fits quickly."
@@ -2615,20 +2615,20 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What does product/market fit mean according to Marc Andreessen?",
         options: [
           "Having the cheapest product",
-          "Being in a good market with a product that can satisfy that market",
+          "Having celebrity endorsements",
           "Having the most features",
-          "Having celebrity endorsements"
+          "Being in a good market with a product that can satisfy that market"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Product/market fit means being in a good market with a product that can satisfy that market."
       },
       {
         id: 5,
         question: "What is bootstrapping in startup funding?",
         options: [
-          "Taking venture capital",
-          "Funding with personal savings and revenue",
           "Getting government grants",
+          "Funding with personal savings and revenue",
+          "Taking venture capital",
           "Borrowing from banks"
         ],
         correctAnswer: 1,
@@ -2639,21 +2639,21 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What is a common scaling challenge with communication?",
         options: [
           "Too much transparency",
+          "Too many social events",
           "Breakdown of what worked with small teams",
-          "Not enough meetings",
-          "Too many social events"
+          "Not enough meetings"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Communication methods that worked with small teams often break down during scaling."
       },
       {
         id: 7,
         question: "Which approach to idea generation starts by identifying real problems?",
         options: [
-          "Solution-First Approach",
           "Passion and Expertise Approach",
+          "Market Gap Analysis",
           "Problem-First Approach",
-          "Market Gap Analysis"
+          "Solution-First Approach"
         ],
         correctAnswer: 2,
         explanation: "The Problem-First Approach begins by identifying real problems people face."
@@ -2662,9 +2662,9 @@ Scaling successfully requires intentional design of systems, processes, and cult
         id: 8,
         question: "What revenue model involves customers paying a recurring fee?",
         options: [
-          "Transaction Fee Model",
-          "Subscription Model",
           "Advertising Model",
+          "Subscription Model",
+          "Transaction Fee Model",
           "Licensing Model"
         ],
         correctAnswer: 1,
@@ -2674,12 +2674,12 @@ Scaling successfully requires intentional design of systems, processes, and cult
         id: 9,
         question: "Which leadership style focuses on enabling team success?",
         options: [
-          "Autocratic Leadership",
-          "Servant Leadership",
           "Transactional Leadership",
-          "Laissez-faire Leadership"
+          "Laissez-faire Leadership",
+          "Servant Leadership",
+          "Autocratic Leadership"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Servant Leadership focuses on enabling team success rather than commanding."
       },
       {
@@ -2687,33 +2687,33 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What is the AARRR framework also known as?",
         options: [
           "Business Model Canvas",
-          "Pirate Metrics",
+          "Lean Startup",
           "Bullseye Framework",
-          "Lean Startup"
+          "Pirate Metrics"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "The AARRR framework is commonly called Pirate Metrics."
       },
       {
         id: 11,
         question: "What is pre-money valuation?",
         options: [
+          "Value excluding assets",
           "Value after investment",
-          "Value before investment",
           "Value including debt",
-          "Value excluding assets"
+          "Value before investment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Pre-money valuation is the company's value before receiving new investment."
       },
       {
         id: 12,
         question: "What does SOP stand for in operations?",
         options: [
-          "Standard Office Procedure",
-          "Standard Operating Procedure",
           "Strategic Operations Plan",
-          "Systematic Operations Process"
+          "Standard Operating Procedure",
+          "Systematic Operations Process",
+          "Standard Office Procedure"
         ],
         correctAnswer: 1,
         explanation: "SOP stands for Standard Operating Procedure."
@@ -2723,59 +2723,59 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What does MVP stand for in startup terminology?",
         options: [
           "Most Valuable Product",
-          "Maximum Value Proposition",
           "Minimum Viable Product",
-          "Main Verified Product"
+          "Main Verified Product",
+          "Maximum Value Proposition"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "MVP stands for Minimum Viable Product."
       },
       {
         id: 14,
         question: "What pricing strategy bases prices on perceived customer value?",
         options: [
-          "Cost-Plus Pricing",
           "Value-Based Pricing",
-          "Competitive Pricing",
-          "Penetration Pricing"
+          "Cost-Plus Pricing",
+          "Penetration Pricing",
+          "Competitive Pricing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Value-Based Pricing sets prices based on perceived value to the customer."
       },
       {
         id: 15,
         question: "What is company culture best described as?",
         options: [
-          "The office decor",
-          "The employee handbook",
           "How things get done around here",
-          "The CEO's personality"
+          "The CEO's personality",
+          "The employee handbook",
+          "The office decor"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Culture is 'how things get done around here'."
       },
       {
         id: 16,
         question: "Which growth channel includes SEO and content marketing?",
         options: [
-          "Paid Channels",
           "Owned Channels",
           "Earned Channels",
-          "Borrowed Channels"
+          "Borrowed Channels",
+          "Paid Channels"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Owned Channels include SEO and content marketing."
       },
       {
         id: 17,
         question: "What is burn rate?",
         options: [
+          "Employee turnover rate",
           "How fast you acquire customers",
-          "Monthly cash spent by the startup",
           "Revenue growth rate",
-          "Employee turnover rate"
+          "Monthly cash spent by the startup"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Burn rate is the monthly cash spent by the startup."
       },
       {
@@ -2783,23 +2783,23 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "Why document processes in scaling companies?",
         options: [
           "To create bureaucracy",
-          "For consistency, training, and improvement",
           "To impress investors",
-          "To fill employee time"
+          "To fill employee time",
+          "For consistency, training, and improvement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Process documentation enables consistency, training, and improvement."
       },
       {
         id: 19,
         question: "Which feedback loop is central to Lean Startup methodology?",
         options: [
-          "Plan-Do-Check-Act",
           "Build-Measure-Learn",
-          "Design-Build-Test",
-          "Ideate-Prototype-Test"
+          "Plan-Do-Check-Act",
+          "Ideate-Prototype-Test",
+          "Design-Build-Test"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The Build-Measure-Learn loop is core to Lean Startup."
       },
       {
@@ -2819,71 +2819,71 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What type of structure has minimal hierarchy in early startups?",
         options: [
           "Functional Structure",
-          "Matrix Structure",
           "Flat Structure",
+          "Matrix Structure",
           "Hierarchical Structure"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Flat Structure has minimal hierarchy in early startups."
       },
       {
         id: 22,
         question: "What should you focus on during pre-product/market fit stage?",
         options: [
+          "International expansion",
           "Scalable acquisition channels",
-          "Learning and validation",
           "Defending market position",
-          "International expansion"
+          "Learning and validation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Pre-product/market fit focuses on learning and validation."
       },
       {
         id: 23,
         question: "How do you calculate runway?",
         options: [
-          "Current Cash Balance / Monthly Burn Rate",
-          "Monthly Revenue / Monthly Expenses",
+          "Valuation / Annual Revenue",
           "Total Investment / Number of Employees",
-          "Valuation / Annual Revenue"
+          "Current Cash Balance / Monthly Burn Rate",
+          "Monthly Revenue / Monthly Expenses"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Runway = Current Cash Balance / Monthly Burn Rate."
       },
       {
         id: 24,
         question: "What should onboarding systems include?",
         options: [
-          "Only HR paperwork",
           "30-60-90 day plans for new hires",
-          "Only company history",
-          "Only office tour"
+          "Only HR paperwork",
+          "Only office tour",
+          "Only company history"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Onboarding should include 30-60-90 day plans."
       },
       {
         id: 25,
         question: "What is the term for changing direction based on learning?",
         options: [
-          "Persevere",
-          "Pivot",
           "Pause",
-          "Proceed"
+          "Persevere",
+          "Proceed",
+          "Pivot"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "A pivot is changing direction based on learning from experiments."
       },
       {
         id: 26,
         question: "What is a healthy LTV:CAC ratio?",
         options: [
-          "1:1",
           "3:1 or higher",
+          "1:1",
           "1:3",
           "10:1 minimum"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "A healthy LTV:CAC ratio is typically 3:1 or higher."
       },
       {
@@ -2891,59 +2891,59 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What should you do with communication in distributed teams?",
         options: [
           "Under-communicate to avoid noise",
-          "Over-communicate to ensure clarity",
           "Only communicate via email",
+          "Over-communicate to ensure clarity",
           "Avoid all social communication"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Over-communicate in distributed teams to ensure clarity."
       },
       {
         id: 28,
         question: "What does TAM stand for in pitch decks?",
         options: [
-          "Total Account Management",
           "Total Addressable Market",
-          "Technical Architecture Model",
-          "Team Assessment Matrix"
+          "Total Account Management",
+          "Team Assessment Matrix",
+          "Technical Architecture Model"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "TAM stands for Total Addressable Market."
       },
       {
         id: 29,
         question: "What helps maintain culture during scaling?",
         options: [
-          "Ignoring culture",
-          "Cultural artifacts and values integration",
+          "Keeping everyone in one room",
           "Only hiring friends",
-          "Keeping everyone in one room"
+          "Cultural artifacts and values integration",
+          "Ignoring culture"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Cultural artifacts and values integration help preserve culture."
       },
       {
         id: 30,
         question: "What should you test beyond whether people like your idea?",
         options: [
-          "Their favorite colors",
-          "Their willingness to pay",
           "Their educational background",
-          "Their social media habits"
+          "Their social media habits",
+          "Their willingness to pay",
+          "Their favorite colors"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Always test willingness to pay, not just whether people like your idea."
       },
       {
         id: 31,
         question: "What is post-money valuation?",
         options: [
-          "Pre-money valuation minus investment",
           "Pre-money valuation plus investment",
-          "Only the investment amount",
-          "Future projected value"
+          "Pre-money valuation minus investment",
+          "Future projected value",
+          "Only the investment amount"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Post-money valuation = Pre-money valuation + Investment."
       },
       {
@@ -2951,23 +2951,23 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What does OKR stand for in performance management?",
         options: [
           "Office Key Results",
-          "Objectives and Key Results",
           "Organizational Knowledge Resources",
-          "Operational Key Responsibilities"
+          "Operational Key Responsibilities",
+          "Objectives and Key Results"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "OKR stands for Objectives and Key Results."
       },
       {
         id: 33,
         question: "What framework has Inner, Middle, and Outer rings?",
         options: [
-          "AARRR Framework",
-          "Bullseye Framework",
           "Business Model Canvas",
-          "Lean Canvas"
+          "Lean Canvas",
+          "Bullseye Framework",
+          "AARRR Framework"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Bullseye Framework has Inner, Middle, and Outer rings for channels."
       },
       {
@@ -2986,22 +2986,22 @@ Scaling successfully requires intentional design of systems, processes, and cult
         id: 35,
         question: "What becomes more important as technology scales?",
         options: [
+          "Color of laptops",
           "Fancy office gadgets",
-          "Security considerations",
           "CEO's favorite software",
-          "Color of laptops"
+          "Security considerations"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Security becomes more critical as technology scales."
       },
       {
         id: 36,
         question: "What is the most dangerous growth mistake?",
         options: [
-          "Testing too many channels",
-          "Trying to scale before product/market fit",
           "Spending on marketing",
-          "Hiring growth marketers"
+          "Trying to scale before product/market fit",
+          "Hiring growth marketers",
+          "Testing too many channels"
         ],
         correctAnswer: 1,
         explanation: "Trying to scale before product/market fit wastes resources."
@@ -3023,35 +3023,35 @@ Scaling successfully requires intentional design of systems, processes, and cult
         question: "What type of meetings are short daily check-ins?",
         options: [
           "All-hands meetings",
+          "Strategy offsites",
           "Standup meetings",
-          "Board meetings",
-          "Strategy offsites"
+          "Board meetings"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Standup meetings are short daily check-ins."
       },
       {
         id: 39,
         question: "What should financial projections include?",
         options: [
+          "Only headcount numbers",
           "Only revenue numbers",
-          "Revenue, expenses, and assumptions",
           "Only expense numbers",
-          "Only headcount numbers"
+          "Revenue, expenses, and assumptions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Financial projections should include revenue, expenses, and assumptions."
       },
       {
         id: 40,
         question: "How should culture evolve during scaling?",
         options: [
+          "Copy whatever big companies do",
           "By accident only",
-          "Intentionally rather than by drift",
           "Not at all - stay exactly the same",
-          "Copy whatever big companies do"
+          "Intentionally rather than by drift"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Culture should evolve intentionally, not just drift accidentally."
       }
     ]

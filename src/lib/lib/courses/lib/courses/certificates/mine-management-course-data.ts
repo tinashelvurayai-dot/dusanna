@@ -46,36 +46,36 @@ Effective managers establish daily routines:
           id: 1,
           question: "What does effective mine leadership combine?",
           options: [
-            "Technical knowledge with people skills",
+            "Paperwork with meetings",
             "Strict rules with punishments",
-            "Production only with costs",
-            "Paperwork with meetings"
+            "Technical knowledge with people skills",
+            "Production only with costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective leadership combines technical knowledge with people skills for team success."
         },
         {
           id: 2,
           question: "What does vision setting involve for mine managers?",
           options: [
+            "Buying new equipment",
             "Creating clear team goals",
             "Writing long reports",
-            "Buying new equipment",
             "Hiring many workers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vision setting means creating clear goals that guide the mining team's efforts."
         },
         {
           id: 3,
           question: "What is a manager's top responsibility?",
           options: [
-            "Safety",
             "Production speed",
             "Cost reduction",
+            "Safety",
             "Equipment purchase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Safety is the top responsibility for all mine managers."
         },
         {
@@ -84,8 +84,8 @@ Effective managers establish daily routines:
           options: [
             "By example",
             "By instruction only",
-            "By delegation only",
-            "By policy only"
+            "By policy only",
+            "By delegation only"
           ],
           correctAnswer: 0,
           explanation: "Managers must lead by example in following all safety procedures."
@@ -94,108 +94,108 @@ Effective managers establish daily routines:
           id: 5,
           question: "What should happen during morning briefings?",
           options: [
-            "Meeting with all shift supervisors",
-            "Checking personal emails",
+            "Planning vacations",
             "Reviewing stock markets",
-            "Planning vacations"
+            "Checking personal emails",
+            "Meeting with all shift supervisors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Morning briefings involve meetings with all shift supervisors."
         },
         {
           id: 6,
           question: "What does decision-making involve?",
           options: [
-            "Choosing best course of action",
-            "Following others always",
             "Delaying all decisions",
-            "Guessing randomly"
+            "Choosing best course of action",
+            "Guessing randomly",
+            "Following others always"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Decision-making involves choosing the best action with available information."
         },
         {
           id: 7,
           question: "What do regular safety walks allow?",
           options: [
+            "Meeting friends",
             "Observing work practices",
-            "Getting exercise",
             "Avoiding office work",
-            "Meeting friends"
+            "Getting exercise"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Safety walks let managers observe actual work practices firsthand."
         },
         {
           id: 8,
           question: "What should be reviewed daily?",
           options: [
+            "Social media",
             "Previous shift achievements",
-            "Personal finances",
             "Sports scores",
-            "Social media"
+            "Personal finances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Daily production review examines previous shift achievements."
         },
         {
           id: 9,
           question: "Why are communication skills important?",
           options: [
-            "Everyone understands roles",
             "Managers look smart",
-            "Meetings are shorter",
-            "Paperwork is less"
+            "Everyone understands roles",
+            "Paperwork is less",
+            "Meetings are shorter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Communication ensures everyone understands their roles and responsibilities."
         },
         {
           id: 10,
           question: "What policy helps with safety concerns?",
           options: [
-            "Open door policy",
             "Closed door policy",
+            "Open door policy",
             "Email only policy",
             "Meeting only policy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Open door policy encourages workers to share safety concerns."
         },
         {
           id: 11,
           question: "What does team development focus on?",
           options: [
-            "Training and empowering crews",
-            "Replacing workers quickly",
             "Reducing team size",
-            "Increasing workload"
+            "Replacing workers quickly",
+            "Increasing workload",
+            "Training and empowering crews"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Team development focuses on training and empowering mining crews."
         },
         {
           id: 12,
           question: "What should be done with safe behaviors?",
           options: [
-            "Recognize them publicly",
-            "Ignore them as normal",
             "Document secretly",
+            "Ignore them as normal",
+            "Recognize them publicly",
             "Reward financially only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Recognize safe behaviors publicly to reinforce good practices."
         },
         {
           id: 13,
           question: "What do area inspections provide?",
           options: [
-            "Firsthand condition checks",
-            "Break from work",
+            "Time alone",
             "Chance to socialize",
-            "Time alone"
+            "Firsthand condition checks",
+            "Break from work"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Area inspections let managers check conditions firsthand."
         },
         {
@@ -203,9 +203,9 @@ Effective managers establish daily routines:
           question: "What does problem-solving address?",
           options: [
             "Operational challenges",
+            "Weather patterns",
             "Personal problems",
-            "Market changes",
-            "Weather patterns"
+            "Market changes"
           ],
           correctAnswer: 0,
           explanation: "Problem-solving addresses operational challenges as they arise."
@@ -214,72 +214,72 @@ Effective managers establish daily routines:
           id: 15,
           question: "How should incidents be investigated?",
           options: [
+            "Secretly to avoid blame",
             "Thoroughly for learning",
             "Quickly to close cases",
-            "Secretly to avoid blame",
             "By others only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Investigate all incidents thoroughly to learn and prevent recurrence."
         },
         {
           id: 16,
           question: "What should managers monitor daily?",
           options: [
-            "Equipment status",
             "Employee personal lives",
             "Competitor activities",
-            "Government politics"
+            "Government politics",
+            "Equipment status"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Daily equipment status monitoring is essential for planning."
         },
         {
           id: 17,
           question: "What do effective managers establish?",
           options: [
-            "Daily routines",
-            "Complex systems",
             "Many committees",
-            "Strict hierarchies"
+            "Strict hierarchies",
+            "Daily routines",
+            "Complex systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective managers establish consistent daily routines."
         },
         {
           id: 18,
           question: "What should safety meetings involve?",
           options: [
-            "Manager participation",
             "Only worker attendance",
-            "Quick sign-ins only",
-            "Theory only"
+            "Theory only",
+            "Manager participation",
+            "Quick sign-ins only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Managers should actively participate in safety meetings."
         },
         {
           id: 19,
           question: "What helps with maintenance planning?",
           options: [
-            "Equipment status monitoring",
-            "Weather forecasts",
+            "Supplier catalogs",
             "Worker schedules",
-            "Supplier catalogs"
+            "Weather forecasts",
+            "Equipment status monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Monitoring equipment status helps plan maintenance effectively."
         },
         {
           id: 20,
           question: "What guides mining team efforts?",
           options: [
-            "Clear goals",
-            "Strict punishments",
             "High bonuses",
-            "Long hours"
+            "Clear goals",
+            "Long hours",
+            "Strict punishments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clear goals from vision setting guide the team's efforts."
         }
       ]
@@ -322,8 +322,8 @@ Monthly and quarterly planning includes:
           options: [
             "Resources, timelines, and safety",
             "Only costs and profits",
-            "Equipment purchases only",
-            "Worker preferences"
+            "Worker preferences",
+            "Equipment purchases only"
           ],
           correctAnswer: 0,
           explanation: "Planning balances resources, timelines, and safety to achieve targets."
@@ -334,8 +334,8 @@ Monthly and quarterly planning includes:
           options: [
             "Achievable extraction goals",
             "Impossible challenges",
-            "Vague directions",
-            "Theoretical ideals"
+            "Theoretical ideals",
+            "Vague directions"
           ],
           correctAnswer: 0,
           explanation: "Production targets set achievable goals for ore extraction."
@@ -344,24 +344,24 @@ Monthly and quarterly planning includes:
           id: 3,
           question: "What prevents bottlenecks and waste?",
           options: [
+            "New equipment",
             "Good planning",
             "More workers",
-            "New equipment",
             "Luck"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Good planning prevents bottlenecks and reduces waste."
         },
         {
           id: 4,
           question: "What does short-term planning focus on?",
           options: [
-            "Daily and weekly activities",
-            "Yearly strategies only",
             "Decade-long projections",
-            "Theoretical models"
+            "Yearly strategies only",
+            "Theoretical models",
+            "Daily and weekly activities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Short-term planning focuses on daily and weekly production activities."
         },
         {
@@ -369,9 +369,9 @@ Monthly and quarterly planning includes:
           question: "What is included in shift planning?",
           options: [
             "Immediate production activities",
-            "Vacation schedules",
+            "Company parties",
             "Retirement planning",
-            "Company parties"
+            "Vacation schedules"
           ],
           correctAnswer: 0,
           explanation: "Shift planning covers immediate production activities."
@@ -380,48 +380,48 @@ Monthly and quarterly planning includes:
           id: 6,
           question: "What does resource allocation involve?",
           options: [
-            "Assigning equipment and personnel",
+            "Counting resources only",
             "Selling resources",
             "Storing resources",
-            "Counting resources only"
+            "Assigning equipment and personnel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resource allocation assigns equipment and personnel effectively."
         },
         {
           id: 7,
           question: "What is equipment deployment based on?",
           options: [
-            "Availability and needs",
             "Worker preferences",
+            "Availability and needs",
             "Newest models",
             "Color choices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Equipment deployment considers availability and operational needs."
         },
         {
           id: 8,
           question: "What does schedule development create?",
           options: [
-            "Realistic timelines",
-            "Impossible deadlines",
             "Flexible suggestions",
-            "Theoretical dates"
+            "Realistic timelines",
+            "Theoretical dates",
+            "Impossible deadlines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Schedule development creates realistic timelines for operations."
         },
         {
           id: 9,
           question: "What should personnel assignment match?",
           options: [
-            "Skills to tasks",
-            "Friends together",
             "Seniority only",
-            "Availability only"
+            "Availability only",
+            "Friends together",
+            "Skills to tasks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Personnel assignment should match worker skills to required tasks."
         },
         {
@@ -429,9 +429,9 @@ Monthly and quarterly planning includes:
           question: "What prepares for unexpected disruptions?",
           options: [
             "Contingency plans",
-            "Hope and prayer",
+            "Blame assignment",
             "Quick decisions",
-            "Blame assignment"
+            "Hope and prayer"
           ],
           correctAnswer: 0,
           explanation: "Contingency plans prepare for unexpected operational disruptions."
@@ -441,9 +441,9 @@ Monthly and quarterly planning includes:
           question: "What are material requirements for?",
           options: [
             "Supplies and consumables",
-            "Office decorations",
+            "Entertainment",
             "Personal items",
-            "Entertainment"
+            "Office decorations"
           ],
           correctAnswer: 0,
           explanation: "Material requirements cover necessary supplies and consumables."
@@ -453,9 +453,9 @@ Monthly and quarterly planning includes:
           question: "What does long-term planning include?",
           options: [
             "Monthly and quarterly plans",
-            "Only daily details",
+            "Minute-by-minute plans",
             "Hourly schedules",
-            "Minute-by-minute plans"
+            "Only daily details"
           ],
           correctAnswer: 0,
           explanation: "Long-term planning includes monthly and quarterly planning."
@@ -464,24 +464,24 @@ Monthly and quarterly planning includes:
           id: 13,
           question: "What must be integrated into all plans?",
           options: [
-            "Safety considerations",
-            "Cost reductions only",
             "Speed increases only",
-            "Equipment preferences"
+            "Safety considerations",
+            "Equipment preferences",
+            "Cost reductions only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Safety considerations must be integrated into all production plans."
         },
         {
           id: 14,
           question: "What is production forecasting based on?",
           options: [
-            "Geological data",
             "Worker guesses",
-            "Historical averages only",
-            "Competitor activities"
+            "Competitor activities",
+            "Geological data",
+            "Historical averages only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Production forecasting uses geological data for accuracy."
         },
         {
@@ -501,9 +501,9 @@ Monthly and quarterly planning includes:
           question: "What is maintenance scheduling for?",
           options: [
             "Major equipment overhauls",
-            "Daily cleaning only",
+            "Paperwork filing",
             "Worker breaks",
-            "Paperwork filing"
+            "Daily cleaning only"
           ],
           correctAnswer: 0,
           explanation: "Maintenance scheduling plans major equipment overhauls."
@@ -512,12 +512,12 @@ Monthly and quarterly planning includes:
           id: 17,
           question: "What does workforce planning address?",
           options: [
-            "Hiring and training needs",
-            "Salary increases only",
             "Promotion requests",
-            "Vacation approvals"
+            "Vacation approvals",
+            "Salary increases only",
+            "Hiring and training needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Workforce planning addresses hiring and training needs."
         },
         {
@@ -525,9 +525,9 @@ Monthly and quarterly planning includes:
           question: "What ensures plans match resources?",
           options: [
             "Budget alignment",
-            "Wishful thinking",
+            "Spending freely",
             "Cost ignoring",
-            "Spending freely"
+            "Wishful thinking"
           ],
           correctAnswer: 0,
           explanation: "Budget alignment ensures plans match available financial resources."
@@ -538,8 +538,8 @@ Monthly and quarterly planning includes:
           options: [
             "Inspections and reporting",
             "Parties and events",
-            "Media interviews",
-            "Stockholder meetings"
+            "Stockholder meetings",
+            "Media interviews"
           ],
           correctAnswer: 0,
           explanation: "Regulatory compliance planning prepares for inspections and reporting."
@@ -548,12 +548,12 @@ Monthly and quarterly planning includes:
           id: 20,
           question: "What tracks progress effectively?",
           options: [
-            "Performance monitoring",
-            "Casual observation",
             "Worker reports only",
-            "Equipment noise levels"
+            "Casual observation",
+            "Equipment noise levels",
+            "Performance monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Performance tracking systematically monitors progress against plans."
         }
       ]
@@ -599,72 +599,72 @@ Effective mine management requires careful financial control. Budgets guide spen
           id: 1,
           question: "What does effective mine management require?",
           options: [
-            "Careful financial control",
             "Spending freely",
+            "Careful financial control",
             "Ignoring costs",
             "Only production focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective management requires careful financial control alongside operations."
         },
         {
           id: 2,
           question: "What guides spending in mining operations?",
           options: [
-            "Budgets",
             "Worker requests",
-            "Supplier offers",
-            "Manager feelings"
+            "Budgets",
+            "Manager feelings",
+            "Supplier offers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Budgets guide appropriate spending levels for operations."
         },
         {
           id: 3,
           question: "What does revenue forecasting estimate?",
           options: [
-            "Income from ore sales",
-            "Worker salaries",
             "Equipment costs",
+            "Worker salaries",
+            "Income from ore sales",
             "Office expenses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Revenue forecasting estimates income from ore sales."
         },
         {
           id: 4,
           question: "What tracks spending against budget?",
           options: [
-            "Regular monitoring",
             "Occasional checking",
+            "Regular monitoring",
             "Year-end review only",
             "Supplier invoices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Regular monitoring tracks spending against established budgets."
         },
         {
           id: 5,
           question: "What does cost estimation project?",
           options: [
+            "Future profits only",
             "Expenses for all operations",
             "Only equipment costs",
-            "Future profits only",
             "Competitor spending"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cost estimation projects expenses for all operational areas."
         },
         {
           id: 6,
           question: "What explains differences between planned and actual costs?",
           options: [
-            "Variance analysis",
-            "Budget creation",
             "Cost estimation",
-            "Revenue forecasting"
+            "Variance analysis",
+            "Revenue forecasting",
+            "Budget creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Variance analysis explains differences between planned and actual costs."
         },
         {
@@ -683,48 +683,48 @@ Effective mine management requires careful financial control. Budgets guide spen
           id: 8,
           question: "What identifies savings opportunities?",
           options: [
-            "Cost reduction initiatives",
-            "Budget increases",
             "Spending reviews only",
-            "Price negotiations"
+            "Budget increases",
+            "Price negotiations",
+            "Cost reduction initiatives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cost reduction initiatives identify potential savings opportunities."
         },
         {
           id: 9,
           question: "What covers daily running costs?",
           options: [
-            "Operating budget",
             "Capital budget",
-            "Contingency fund",
-            "Reserve account"
+            "Reserve account",
+            "Operating budget",
+            "Contingency fund"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Operating budget covers daily running costs of the mine."
         },
         {
           id: 10,
           question: "What reduces material and resource waste?",
           options: [
-            "Waste minimization",
-            "Cost ignoring",
+            "More spending",
             "Budget increases",
-            "More spending"
+            "Cost ignoring",
+            "Waste minimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Waste minimization reduces material and resource waste."
         },
         {
           id: 11,
           question: "What sets aside funds for unexpected events?",
           options: [
+            "Capital budget",
             "Contingency reserves",
             "Operating budget",
-            "Capital budget",
             "Profit sharing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingency reserves set aside funds for unexpected events."
         },
         {
@@ -733,8 +733,8 @@ Effective mine management requires careful financial control. Budgets guide spen
           options: [
             "Labor costs",
             "Equipment costs",
-            "Material costs",
-            "Energy costs"
+            "Energy costs",
+            "Material costs"
           ],
           correctAnswer: 0,
           explanation: "Labor costs include wages, benefits, and training expenses."
@@ -743,24 +743,24 @@ Effective mine management requires careful financial control. Budgets guide spen
           id: 13,
           question: "What increases output without increasing costs?",
           options: [
+            "Longer hours",
             "Efficiency improvements",
-            "More workers",
             "Newer equipment",
-            "Longer hours"
+            "More workers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Efficiency improvements increase output without proportional cost increases."
         },
         {
           id: 14,
           question: "What covers maintenance and fuel?",
           options: [
-            "Equipment costs",
             "Labor costs",
-            "Material costs",
-            "Administrative costs"
+            "Equipment costs",
+            "Administrative costs",
+            "Material costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Equipment costs cover maintenance, fuel, and depreciation."
         },
         {
@@ -769,8 +769,8 @@ Effective mine management requires careful financial control. Budgets guide spen
           options: [
             "Monthly reports",
             "Daily logs",
-            "Annual summaries",
-            "Quarterly estimates"
+            "Quarterly estimates",
+            "Annual summaries"
           ],
           correctAnswer: 0,
           explanation: "Monthly reports show current financial performance."
@@ -780,9 +780,9 @@ Effective mine management requires careful financial control. Budgets guide spen
           question: "What is for supplies and explosives?",
           options: [
             "Material costs",
-            "Labor costs",
             "Equipment costs",
-            "Energy costs"
+            "Energy costs",
+            "Labor costs"
           ],
           correctAnswer: 0,
           explanation: "Material costs cover supplies, explosives, and chemicals."
@@ -792,9 +792,9 @@ Effective mine management requires careful financial control. Budgets guide spen
           question: "What comparisons highlight variances?",
           options: [
             "Budget vs actual",
-            "Month vs month",
             "Year vs year",
-            "Mine vs mine"
+            "Mine vs mine",
+            "Month vs month"
           ],
           correctAnswer: 0,
           explanation: "Budget vs actual comparisons highlight spending variances."
@@ -803,36 +803,36 @@ Effective mine management requires careful financial control. Budgets guide spen
           id: 18,
           question: "What measures efficiency in mining?",
           options: [
-            "Cost per ton calculations",
             "Worker count",
             "Equipment age",
+            "Cost per ton calculations",
             "Mine depth"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cost per ton calculations measure operational efficiency."
         },
         {
           id: 19,
           question: "What ensures liquidity for operations?",
           options: [
-            "Cash flow management",
-            "Budget creation",
+            "Price increases",
             "Cost cutting",
-            "Price increases"
+            "Budget creation",
+            "Cash flow management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cash flow management ensures sufficient liquidity for operations."
         },
         {
           id: 20,
           question: "What includes permits and insurance?",
           options: [
-            "Administrative costs",
-            "Labor costs",
             "Equipment costs",
+            "Labor costs",
+            "Administrative costs",
             "Material costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Administrative costs include permits, insurance, and office expenses."
         }
       ]
@@ -878,12 +878,12 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           id: 1,
           question: "What is essential for mine success?",
           options: [
-            "Skilled and motivated workforce",
-            "Only new equipment",
             "Lowest wages",
-            "Strict rules only"
+            "Strict rules only",
+            "Only new equipment",
+            "Skilled and motivated workforce"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A skilled and motivated workforce is essential for successful mining operations."
         },
         {
@@ -891,8 +891,8 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           question: "What does job analysis define?",
           options: [
             "Required skills and qualifications",
-            "Salary amounts only",
             "Work hours only",
+            "Salary amounts only",
             "Uniform requirements"
           ],
           correctAnswer: 0,
@@ -902,24 +902,24 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           id: 3,
           question: "What does workforce management involve?",
           options: [
-            "Recruitment, training, scheduling",
-            "Only payroll processing",
             "Equipment maintenance only",
+            "Only payroll processing",
+            "Recruitment, training, scheduling",
             "Production planning only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Workforce management involves recruitment, training, scheduling, and retention."
         },
         {
           id: 4,
           question: "What ensures compliance and protection?",
           options: [
-            "Safety training",
-            "Skills development",
             "Cross-training",
-            "Leadership development"
+            "Skills development",
+            "Leadership development",
+            "Safety training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Safety training ensures regulatory compliance and worker protection."
         },
         {
@@ -927,9 +927,9 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           question: "What finds potential employees?",
           options: [
             "Candidate sourcing",
-            "Job analysis",
+            "Interview techniques",
             "Screening process",
-            "Interview techniques"
+            "Job analysis"
           ],
           correctAnswer: 0,
           explanation: "Candidate sourcing finds potential employees through various channels."
@@ -938,36 +938,36 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           id: 6,
           question: "What improves technical capabilities?",
           options: [
-            "Skills development",
-            "Safety training",
             "Cross-training",
-            "Continuous learning"
+            "Skills development",
+            "Continuous learning",
+            "Safety training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Skills development improves workers' technical capabilities."
         },
         {
           id: 7,
           question: "What evaluates candidates against requirements?",
           options: [
-            "Screening process",
             "Job analysis",
-            "Candidate sourcing",
-            "Onboarding programs"
+            "Screening process",
+            "Onboarding programs",
+            "Candidate sourcing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Screening process evaluates candidates against job requirements."
         },
         {
           id: 8,
           question: "What creates flexible, multi-skilled workers?",
           options: [
-            "Cross-training",
             "Safety training",
-            "Skills development",
-            "Leadership development"
+            "Cross-training",
+            "Leadership development",
+            "Skills development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cross-training creates flexible, multi-skilled workers."
         },
         {
@@ -975,8 +975,8 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           question: "What assesses skills and cultural fit?",
           options: [
             "Interview techniques",
-            "Job analysis",
             "Candidate sourcing",
+            "Job analysis",
             "Screening process"
           ],
           correctAnswer: 0,
@@ -987,8 +987,8 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           question: "What prepares future supervisors?",
           options: [
             "Leadership development",
-            "Safety training",
             "Skills development",
+            "Safety training",
             "Cross-training"
           ],
           correctAnswer: 0,
@@ -999,8 +999,8 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           question: "What integrates new hires into the team?",
           options: [
             "Onboarding programs",
-            "Interview techniques",
             "Screening process",
+            "Interview techniques",
             "Job analysis"
           ],
           correctAnswer: 0,
@@ -1010,96 +1010,96 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           id: 12,
           question: "What encourages ongoing improvement?",
           options: [
-            "Continuous learning",
             "Safety training only",
             "Initial training only",
+            "Continuous learning",
             "Mandatory courses only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuous learning encourages ongoing improvement and development."
         },
         {
           id: 13,
           question: "What optimizes workforce coverage?",
           options: [
-            "Shift planning",
             "Overtime control",
+            "Shift planning",
             "Leave management",
             "Rotation systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Shift planning optimizes workforce coverage for operations."
         },
         {
           id: 14,
           question: "What prevents exhaustion-related errors?",
           options: [
-            "Fatigue management",
             "Overtime control",
             "Rotation systems",
-            "Leave management"
+            "Leave management",
+            "Fatigue management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fatigue management prevents errors caused by worker exhaustion."
         },
         {
           id: 15,
           question: "What balances difficult and easier tasks?",
           options: [
-            "Rotation systems",
             "Shift planning",
+            "Leave management",
             "Overtime control",
-            "Leave management"
+            "Rotation systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Rotation systems balance difficult and easier tasks among workers."
         },
         {
           id: 16,
           question: "What manages extra hours effectively?",
           options: [
-            "Overtime control",
-            "Shift planning",
+            "Rotation systems",
             "Fatigue management",
-            "Rotation systems"
+            "Overtime control",
+            "Shift planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Overtime control manages extra working hours effectively."
         },
         {
           id: 17,
           question: "What acknowledges good performance?",
           options: [
-            "Recognition programs",
             "Career paths",
             "Fair compensation",
-            "Work environment"
+            "Work environment",
+            "Recognition programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Recognition programs acknowledge and reward good performance."
         },
         {
           id: 18,
           question: "What coordinates vacations and absences?",
           options: [
-            "Leave management",
+            "Rotation systems",
             "Shift planning",
-            "Fatigue management",
-            "Rotation systems"
+            "Leave management",
+            "Fatigue management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leave management coordinates vacations and worker absences."
         },
         {
           id: 19,
           question: "What shows advancement opportunities?",
           options: [
-            "Career paths",
+            "Work environment",
             "Recognition programs",
-            "Fair compensation",
-            "Work environment"
+            "Career paths",
+            "Fair compensation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Career paths show workers their advancement opportunities."
         },
         {
@@ -1108,8 +1108,8 @@ A skilled and motivated workforce is essential for mine success. Workforce manag
           options: [
             "Communication channels",
             "Recognition programs",
-            "Career paths",
-            "Fair compensation"
+            "Fair compensation",
+            "Career paths"
           ],
           correctAnswer: 0,
           explanation: "Communication channels allow worker feedback and suggestions."
@@ -1158,9 +1158,9 @@ Modern mining must balance production with environmental responsibility. Complia
           question: "What must modern mining balance?",
           options: [
             "Production with environmental responsibility",
-            "Only costs with profits",
+            "Equipment with workers",
             "Speed with safety only",
-            "Equipment with workers"
+            "Only costs with profits"
           ],
           correctAnswer: 0,
           explanation: "Modern mining must balance production with environmental responsibility."
@@ -1169,48 +1169,48 @@ Modern mining must balance production with environmental responsibility. Complia
           id: 2,
           question: "What does compliance protect?",
           options: [
-            "The environment",
-            "Only company profits",
             "Worker salaries",
-            "Equipment investment"
+            "Equipment investment",
+            "The environment",
+            "Only company profits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Environmental compliance protects the natural environment."
         },
         {
           id: 3,
           question: "What sets minimum protection standards?",
           options: [
-            "Environmental laws",
+            "Equipment manuals",
             "Company policies",
             "Worker preferences",
-            "Equipment manuals"
+            "Environmental laws"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental laws set minimum standards for protection."
         },
         {
           id: 4,
           question: "What controls runoff and contamination?",
           options: [
-            "Water management",
             "Air quality monitoring",
+            "Waste management",
             "Noise control",
-            "Waste management"
+            "Water management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Water management controls runoff and prevents contamination."
         },
         {
           id: 5,
           question: "What authorizes specific mining activities?",
           options: [
+            "Monitoring obligations",
             "Permitting requirements",
             "Environmental laws",
-            "Monitoring obligations",
             "Reporting standards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Permits authorize specific mining activities under set conditions."
         },
         {
@@ -1229,72 +1229,72 @@ Modern mining must balance production with environmental responsibility. Complia
           id: 7,
           question: "What requires regular environmental checks?",
           options: [
-            "Monitoring obligations",
+            "Reporting standards",
             "Permitting requirements",
             "Environmental laws",
-            "Reporting standards"
+            "Monitoring obligations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Monitoring obligations require regular environmental checks."
         },
         {
           id: 8,
           question: "What limits sound impacts?",
           options: [
-            "Noise control",
             "Water management",
+            "Noise control",
             "Air quality monitoring",
             "Waste management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Noise control limits sound impacts on surrounding areas."
         },
         {
           id: 9,
           question: "What dictates data submission methods?",
           options: [
-            "Reporting standards",
             "Environmental laws",
             "Permitting requirements",
+            "Reporting standards",
             "Monitoring obligations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reporting standards dictate how environmental data must be submitted."
         },
         {
           id: 10,
           question: "What handles tailings and waste rock?",
           options: [
-            "Waste management",
-            "Water management",
             "Air quality monitoring",
-            "Noise control"
+            "Noise control",
+            "Water management",
+            "Waste management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Waste management handles tailings and waste rock properly."
         },
         {
           id: 11,
           question: "What outlines regulator examination procedures?",
           options: [
-            "Inspection protocols",
+            "Reporting standards",
             "Environmental laws",
             "Permitting requirements",
-            "Reporting standards"
+            "Inspection protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Inspection protocols outline how regulators examine compliance."
         },
         {
           id: 12,
           question: "What prepares for mine closure?",
           options: [
-            "Rehabilitation planning",
             "Water management",
             "Air quality monitoring",
-            "Waste management"
+            "Waste management",
+            "Rehabilitation planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Rehabilitation planning prepares for mine closure and restoration."
         },
         {
@@ -1313,84 +1313,84 @@ Modern mining must balance production with environmental responsibility. Complia
           id: 14,
           question: "What stops problems before they occur?",
           options: [
-            "Pollution prevention",
-            "Resource efficiency",
+            "Community relations",
             "Biodiversity protection",
-            "Community relations"
+            "Resource efficiency",
+            "Pollution prevention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pollution prevention stops environmental problems before they occur."
         },
         {
           id: 15,
           question: "What verifies compliance with requirements?",
           options: [
-            "Audit procedures",
-            "Documentation systems",
             "Corrective actions",
-            "Training programs"
+            "Audit procedures",
+            "Training programs",
+            "Documentation systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Audit procedures verify compliance with environmental requirements."
         },
         {
           id: 16,
           question: "What minimizes water and energy use?",
           options: [
-            "Resource efficiency",
             "Pollution prevention",
+            "Community relations",
             "Biodiversity protection",
-            "Community relations"
+            "Resource efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resource efficiency minimizes water and energy consumption."
         },
         {
           id: 17,
           question: "What addresses identified deficiencies?",
           options: [
-            "Corrective actions",
             "Documentation systems",
             "Audit procedures",
-            "Training programs"
+            "Training programs",
+            "Corrective actions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Corrective actions address identified environmental deficiencies."
         },
         {
           id: 18,
           question: "What conserves local ecosystems?",
           options: [
-            "Biodiversity protection",
+            "Community relations",
             "Pollution prevention",
-            "Resource efficiency",
-            "Community relations"
+            "Biodiversity protection",
+            "Resource efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Biodiversity protection conserves local ecosystems and species."
         },
         {
           id: 19,
           question: "What ensures staff understand requirements?",
           options: [
-            "Training programs",
             "Documentation systems",
             "Audit procedures",
+            "Training programs",
             "Corrective actions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Training programs ensure staff understand environmental requirements."
         },
         {
           id: 20,
           question: "What builds positive local relationships?",
           options: [
-            "Community relations",
             "Pollution prevention",
-            "Resource efficiency",
-            "Biodiversity protection"
+            "Community relations",
+            "Biodiversity protection",
+            "Resource efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Community relations build positive relationships with local communities."
         }
       ]
@@ -1437,9 +1437,9 @@ Operational excellence means consistently achieving the best possible results th
           question: "What does operational excellence mean?",
           options: [
             "Consistently achieving best results",
+            "Following old methods always",
             "Occasional good performance",
-            "Only meeting minimum standards",
-            "Following old methods always"
+            "Only meeting minimum standards"
           ],
           correctAnswer: 0,
           explanation: "Operational excellence means consistently achieving best possible results."
@@ -1448,24 +1448,24 @@ Operational excellence means consistently achieving the best possible results th
           id: 2,
           question: "What tracks critical success factors?",
           options: [
-            "Key performance indicators",
-            "Casual observations",
+            "Equipment age records",
             "Worker opinions only",
-            "Equipment age records"
+            "Key performance indicators",
+            "Casual observations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Key performance indicators track critical success factors."
         },
         {
           id: 3,
           question: "What combines efficiency, quality, and innovation?",
           options: [
-            "Operational excellence",
-            "Basic operations",
             "Cost cutting only",
-            "Safety compliance only"
+            "Safety compliance only",
+            "Basic operations",
+            "Operational excellence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Operational excellence combines efficiency, quality, and innovation."
         },
         {
@@ -1484,12 +1484,12 @@ Operational excellence means consistently achieving the best possible results th
           id: 5,
           question: "What examines current processes?",
           options: [
-            "Workflow analysis",
+            "Technology integration",
             "Bottleneck identification",
-            "Standard procedures",
-            "Technology integration"
+            "Workflow analysis",
+            "Standard procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Workflow analysis examines current processes for inefficiencies."
         },
         {
@@ -1497,9 +1497,9 @@ Operational excellence means consistently achieving the best possible results th
           question: "What identifies trends and opportunities?",
           options: [
             "Data analysis",
-            "Benchmarking",
+            "Goal setting",
             "Regular reporting",
-            "Goal setting"
+            "Benchmarking"
           ],
           correctAnswer: 0,
           explanation: "Data analysis identifies trends and improvement opportunities."
@@ -1508,12 +1508,12 @@ Operational excellence means consistently achieving the best possible results th
           id: 7,
           question: "What finds constraints limiting production?",
           options: [
-            "Bottleneck identification",
-            "Workflow analysis",
+            "Technology integration",
             "Standard procedures",
-            "Technology integration"
+            "Bottleneck identification",
+            "Workflow analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bottleneck identification finds constraints limiting production."
         },
         {
@@ -1521,9 +1521,9 @@ Operational excellence means consistently achieving the best possible results th
           question: "What communicates performance to stakeholders?",
           options: [
             "Regular reporting",
+            "Goal setting",
             "Benchmarking",
-            "Data analysis",
-            "Goal setting"
+            "Data analysis"
           ],
           correctAnswer: 0,
           explanation: "Regular reporting communicates performance to stakeholders."
@@ -1532,24 +1532,24 @@ Operational excellence means consistently achieving the best possible results th
           id: 9,
           question: "What creates consistent work methods?",
           options: [
-            "Standard procedures",
             "Workflow analysis",
+            "Technology integration",
             "Bottleneck identification",
-            "Technology integration"
+            "Standard procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Standard procedures create consistent work methods."
         },
         {
           id: 10,
           question: "What establishes improvement targets?",
           options: [
-            "Goal setting",
             "Benchmarking",
-            "Data analysis",
-            "Regular reporting"
+            "Regular reporting",
+            "Goal setting",
+            "Data analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Goal setting establishes targets for continuous improvement."
         },
         {
@@ -1557,8 +1557,8 @@ Operational excellence means consistently achieving the best possible results th
           question: "What applies appropriate tools and systems?",
           options: [
             "Technology integration",
-            "Workflow analysis",
             "Bottleneck identification",
+            "Workflow analysis",
             "Standard procedures"
           ],
           correctAnswer: 0,
@@ -1568,12 +1568,12 @@ Operational excellence means consistently achieving the best possible results th
           id: 12,
           question: "What assesses potential productivity gains?",
           options: [
-            "New equipment evaluation",
             "Automation opportunities",
             "Digital systems",
-            "Safety innovations"
+            "Safety innovations",
+            "New equipment evaluation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "New equipment evaluation assesses potential productivity gains."
         },
         {
@@ -1593,8 +1593,8 @@ Operational excellence means consistently achieving the best possible results th
           question: "What identifies tasks for mechanization?",
           options: [
             "Automation opportunities",
-            "New equipment evaluation",
             "Digital systems",
+            "New equipment evaluation",
             "Safety innovations"
           ],
           correctAnswer: 0,
@@ -1604,12 +1604,12 @@ Operational excellence means consistently achieving the best possible results th
           id: 15,
           question: "What prepares for process changes?",
           options: [
+            "Progress monitoring",
             "Implementation planning",
             "Staff training",
-            "Resistance management",
-            "Progress monitoring"
+            "Resistance management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Implementation planning prepares for process changes."
         },
         {
@@ -1617,9 +1617,9 @@ Operational excellence means consistently achieving the best possible results th
           question: "What improves data collection and analysis?",
           options: [
             "Digital systems",
+            "Safety innovations",
             "New equipment evaluation",
-            "Automation opportunities",
-            "Safety innovations"
+            "Automation opportunities"
           ],
           correctAnswer: 0,
           explanation: "Digital systems improve data collection and analysis capabilities."
@@ -1628,12 +1628,12 @@ Operational excellence means consistently achieving the best possible results th
           id: 17,
           question: "What ensures workers can use new methods?",
           options: [
-            "Staff training",
             "Implementation planning",
             "Resistance management",
-            "Progress monitoring"
+            "Progress monitoring",
+            "Staff training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Staff training ensures workers can use new methods and technologies."
         },
         {
@@ -1642,8 +1642,8 @@ Operational excellence means consistently achieving the best possible results th
           options: [
             "Safety innovations",
             "New equipment evaluation",
-            "Automation opportunities",
-            "Digital systems"
+            "Digital systems",
+            "Automation opportunities"
           ],
           correctAnswer: 0,
           explanation: "Safety innovations introduce new protective technologies."
@@ -1652,24 +1652,24 @@ Operational excellence means consistently achieving the best possible results th
           id: 19,
           question: "What addresses concerns about changes?",
           options: [
-            "Resistance management",
-            "Implementation planning",
             "Staff training",
-            "Progress monitoring"
+            "Progress monitoring",
+            "Implementation planning",
+            "Resistance management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resistance management addresses concerns about operational changes."
         },
         {
           id: 20,
           question: "What tracks adoption of improvements?",
           options: [
+            "Resistance management",
             "Progress monitoring",
-            "Implementation planning",
             "Staff training",
-            "Resistance management"
+            "Implementation planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Progress monitoring tracks adoption of improvement initiatives."
         }
       ]
@@ -1684,12 +1684,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 1,
         question: "What does effective mine leadership combine?",
         options: [
-          "Technical knowledge with people skills",
-          "Strict rules with punishments",
           "Production only with costs",
-          "Paperwork with meetings"
+          "Strict rules with punishments",
+          "Paperwork with meetings",
+          "Technical knowledge with people skills"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Effective leadership combines technical knowledge with people skills.",
         module: 1
       },
@@ -1697,12 +1697,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 2,
         question: "What does production planning balance?",
         options: [
-          "Resources, timelines, and safety",
           "Only costs and profits",
+          "Resources, timelines, and safety",
           "Equipment purchases only",
           "Worker preferences"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Planning balances resources, timelines, and safety to achieve targets.",
         module: 2
       },
@@ -1710,12 +1710,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 3,
         question: "What guides spending in mining operations?",
         options: [
-          "Budgets",
-          "Worker requests",
           "Supplier offers",
-          "Manager feelings"
+          "Manager feelings",
+          "Budgets",
+          "Worker requests"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Budgets guide appropriate spending levels for operations.",
         module: 3
       },
@@ -1723,12 +1723,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 4,
         question: "What is essential for mine success?",
         options: [
+          "Lowest wages",
           "Skilled and motivated workforce",
           "Only new equipment",
-          "Lowest wages",
           "Strict rules only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "A skilled and motivated workforce is essential for success.",
         module: 4
       },
@@ -1736,12 +1736,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 5,
         question: "What must modern mining balance?",
         options: [
-          "Production with environmental responsibility",
           "Only costs with profits",
-          "Speed with safety only",
-          "Equipment with workers"
+          "Equipment with workers",
+          "Production with environmental responsibility",
+          "Speed with safety only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Modern mining must balance production with environmental responsibility.",
         module: 5
       },
@@ -1749,12 +1749,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 6,
         question: "What does operational excellence mean?",
         options: [
-          "Consistently achieving best results",
-          "Occasional good performance",
           "Only meeting minimum standards",
-          "Following old methods always"
+          "Consistently achieving best results",
+          "Following old methods always",
+          "Occasional good performance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Operational excellence means consistently achieving best results.",
         module: 6
       },
@@ -1763,9 +1763,9 @@ Operational excellence means consistently achieving the best possible results th
         question: "What is a manager's top responsibility?",
         options: [
           "Safety",
-          "Production speed",
+          "Equipment purchase",
           "Cost reduction",
-          "Equipment purchase"
+          "Production speed"
         ],
         correctAnswer: 0,
         explanation: "Safety is the top responsibility for all mine managers.",
@@ -1775,12 +1775,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 8,
         question: "What prevents bottlenecks and waste?",
         options: [
-          "Good planning",
-          "More workers",
           "New equipment",
-          "Luck"
+          "Luck",
+          "Good planning",
+          "More workers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Good planning prevents bottlenecks and reduces waste.",
         module: 2
       },
@@ -1788,12 +1788,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 9,
         question: "What tracks spending against budget?",
         options: [
-          "Regular monitoring",
-          "Occasional checking",
+          "Supplier invoices",
           "Year-end review only",
-          "Supplier invoices"
+          "Regular monitoring",
+          "Occasional checking"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Regular monitoring tracks spending against established budgets.",
         module: 3
       },
@@ -1801,12 +1801,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 10,
         question: "What does job analysis define?",
         options: [
-          "Required skills and qualifications",
           "Salary amounts only",
-          "Work hours only",
-          "Uniform requirements"
+          "Uniform requirements",
+          "Required skills and qualifications",
+          "Work hours only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Job analysis defines required skills and qualifications.",
         module: 4
       },
@@ -1814,12 +1814,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 11,
         question: "What does compliance protect?",
         options: [
-          "The environment",
-          "Only company profits",
           "Worker salaries",
-          "Equipment investment"
+          "The environment",
+          "Equipment investment",
+          "Only company profits"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Environmental compliance protects the natural environment.",
         module: 5
       },
@@ -1827,12 +1827,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 12,
         question: "What tracks critical success factors?",
         options: [
-          "Key performance indicators",
-          "Casual observations",
+          "Equipment age records",
           "Worker opinions only",
-          "Equipment age records"
+          "Key performance indicators",
+          "Casual observations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Key performance indicators track critical success factors.",
         module: 6
       },
@@ -1840,12 +1840,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 13,
         question: "How should managers lead on safety?",
         options: [
-          "By example",
           "By instruction only",
-          "By delegation only",
-          "By policy only"
+          "By example",
+          "By policy only",
+          "By delegation only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Managers must lead by example in following safety procedures.",
         module: 1
       },
@@ -1853,12 +1853,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 14,
         question: "What does short-term planning focus on?",
         options: [
-          "Daily and weekly activities",
-          "Yearly strategies only",
+          "Theoretical models",
           "Decade-long projections",
-          "Theoretical models"
+          "Daily and weekly activities",
+          "Yearly strategies only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Short-term planning focuses on daily and weekly activities.",
         module: 2
       },
@@ -1866,12 +1866,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 15,
         question: "What does revenue forecasting estimate?",
         options: [
-          "Income from ore sales",
-          "Worker salaries",
           "Equipment costs",
-          "Office expenses"
+          "Office expenses",
+          "Worker salaries",
+          "Income from ore sales"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Revenue forecasting estimates income from ore sales.",
         module: 3
       },
@@ -1879,12 +1879,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 16,
         question: "What ensures compliance and protection?",
         options: [
-          "Safety training",
-          "Skills development",
+          "Leadership development",
           "Cross-training",
-          "Leadership development"
+          "Safety training",
+          "Skills development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Safety training ensures regulatory compliance and protection.",
         module: 4
       },
@@ -1892,12 +1892,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 17,
         question: "What sets minimum protection standards?",
         options: [
-          "Environmental laws",
+          "Equipment manuals",
           "Company policies",
-          "Worker preferences",
-          "Equipment manuals"
+          "Environmental laws",
+          "Worker preferences"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Environmental laws set minimum standards for protection.",
         module: 5
       },
@@ -1905,12 +1905,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 18,
         question: "What compares against industry standards?",
         options: [
+          "Regular reporting",
           "Benchmarking",
           "Data analysis",
-          "Regular reporting",
           "Goal setting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Benchmarking compares performance against industry standards.",
         module: 6
       },
@@ -1932,8 +1932,8 @@ Operational excellence means consistently achieving the best possible results th
         question: "What is included in shift planning?",
         options: [
           "Immediate production activities",
-          "Vacation schedules",
           "Retirement planning",
+          "Vacation schedules",
           "Company parties"
         ],
         correctAnswer: 0,
@@ -1944,12 +1944,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 21,
         question: "What explains differences between planned and actual costs?",
         options: [
-          "Variance analysis",
-          "Budget creation",
           "Cost estimation",
+          "Budget creation",
+          "Variance analysis",
           "Revenue forecasting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Variance analysis explains differences between planned and actual costs.",
         module: 3
       },
@@ -1957,12 +1957,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 22,
         question: "What improves technical capabilities?",
         options: [
-          "Skills development",
           "Safety training",
           "Cross-training",
+          "Skills development",
           "Continuous learning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Skills development improves workers' technical capabilities.",
         module: 4
       },
@@ -1971,9 +1971,9 @@ Operational excellence means consistently achieving the best possible results th
         question: "What controls runoff and contamination?",
         options: [
           "Water management",
+          "Waste management",
           "Air quality monitoring",
-          "Noise control",
-          "Waste management"
+          "Noise control"
         ],
         correctAnswer: 0,
         explanation: "Water management controls runoff and prevents contamination.",
@@ -1983,12 +1983,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 24,
         question: "What examines current processes?",
         options: [
-          "Workflow analysis",
           "Bottleneck identification",
+          "Technology integration",
           "Standard procedures",
-          "Technology integration"
+          "Workflow analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Workflow analysis examines current processes for inefficiencies.",
         module: 6
       },
@@ -1996,12 +1996,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 25,
         question: "What does decision-making involve?",
         options: [
+          "Guessing randomly",
           "Choosing best course of action",
-          "Following others always",
           "Delaying all decisions",
-          "Guessing randomly"
+          "Following others always"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Decision-making involves choosing the best action.",
         module: 1
       },
@@ -2009,12 +2009,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 26,
         question: "What does resource allocation involve?",
         options: [
+          "Counting resources only",
           "Assigning equipment and personnel",
-          "Selling resources",
           "Storing resources",
-          "Counting resources only"
+          "Selling resources"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Resource allocation assigns equipment and personnel effectively.",
         module: 2
       },
@@ -2022,12 +2022,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 27,
         question: "What plans for major equipment purchases?",
         options: [
-          "Capital budgeting",
-          "Operating budget",
+          "Daily spending",
           "Contingency reserves",
-          "Daily spending"
+          "Operating budget",
+          "Capital budgeting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Capital budgeting plans for major equipment purchases.",
         module: 3
       },
@@ -2035,12 +2035,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 28,
         question: "What creates flexible, multi-skilled workers?",
         options: [
+          "Leadership development",
           "Cross-training",
-          "Safety training",
           "Skills development",
-          "Leadership development"
+          "Safety training"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cross-training creates flexible, multi-skilled workers.",
         module: 4
       },
@@ -2048,12 +2048,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 29,
         question: "What requires regular environmental checks?",
         options: [
-          "Monitoring obligations",
-          "Permitting requirements",
           "Environmental laws",
+          "Permitting requirements",
+          "Monitoring obligations",
           "Reporting standards"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Monitoring obligations require regular environmental checks.",
         module: 5
       },
@@ -2061,12 +2061,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 30,
         question: "What identifies trends and opportunities?",
         options: [
+          "Goal setting",
           "Data analysis",
-          "Benchmarking",
           "Regular reporting",
-          "Goal setting"
+          "Benchmarking"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Data analysis identifies trends and improvement opportunities.",
         module: 6
       },
@@ -2074,12 +2074,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 31,
         question: "What do regular safety walks allow?",
         options: [
+          "Meeting friends",
           "Observing work practices",
-          "Getting exercise",
           "Avoiding office work",
-          "Meeting friends"
+          "Getting exercise"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Safety walks let managers observe work practices firsthand.",
         module: 1
       },
@@ -2088,9 +2088,9 @@ Operational excellence means consistently achieving the best possible results th
         question: "What is equipment deployment based on?",
         options: [
           "Availability and needs",
-          "Worker preferences",
+          "Color choices",
           "Newest models",
-          "Color choices"
+          "Worker preferences"
         ],
         correctAnswer: 0,
         explanation: "Equipment deployment considers availability and needs.",
@@ -2100,12 +2100,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 33,
         question: "What identifies savings opportunities?",
         options: [
-          "Cost reduction initiatives",
           "Budget increases",
           "Spending reviews only",
+          "Cost reduction initiatives",
           "Price negotiations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Cost reduction initiatives identify potential savings opportunities.",
         module: 3
       },
@@ -2113,12 +2113,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 34,
         question: "What prepares future supervisors?",
         options: [
-          "Leadership development",
+          "Cross-training",
           "Safety training",
-          "Skills development",
-          "Cross-training"
+          "Leadership development",
+          "Skills development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Leadership development prepares future supervisory roles.",
         module: 4
       },
@@ -2126,12 +2126,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 35,
         question: "What monitors dust and emissions?",
         options: [
-          "Air quality management",
-          "Water management",
+          "Waste management",
           "Noise control",
-          "Waste management"
+          "Water management",
+          "Air quality management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Air quality monitoring tracks dust and emissions.",
         module: 5
       },
@@ -2139,12 +2139,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 36,
         question: "What finds constraints limiting production?",
         options: [
-          "Bottleneck identification",
           "Workflow analysis",
-          "Standard procedures",
-          "Technology integration"
+          "Bottleneck identification",
+          "Technology integration",
+          "Standard procedures"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Bottleneck identification finds constraints limiting production.",
         module: 6
       },
@@ -2152,12 +2152,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 37,
         question: "What do area inspections provide?",
         options: [
-          "Firsthand condition checks",
-          "Break from work",
           "Chance to socialize",
-          "Time alone"
+          "Break from work",
+          "Time alone",
+          "Firsthand condition checks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Area inspections let managers check conditions firsthand.",
         module: 1
       },
@@ -2166,8 +2166,8 @@ Operational excellence means consistently achieving the best possible results th
         question: "What should be integrated into all plans?",
         options: [
           "Safety considerations",
-          "Cost reductions only",
           "Speed increases only",
+          "Cost reductions only",
           "Equipment preferences"
         ],
         correctAnswer: 0,
@@ -2178,12 +2178,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 39,
         question: "What sets aside funds for unexpected events?",
         options: [
-          "Contingency reserves",
           "Operating budget",
+          "Profit sharing",
           "Capital budget",
-          "Profit sharing"
+          "Contingency reserves"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Contingency reserves set aside funds for unexpected events.",
         module: 3
       },
@@ -2191,12 +2191,12 @@ Operational excellence means consistently achieving the best possible results th
         id: 40,
         question: "What prevents exhaustion-related errors?",
         options: [
+          "Rotation systems",
           "Fatigue management",
           "Overtime control",
-          "Rotation systems",
           "Leave management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Fatigue management prevents errors from worker exhaustion.",
         module: 4
       }

@@ -75,9 +75,9 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           id: 1,
           question: "What is the intentional use of theater techniques for healing called?",
           options: [
-            "Acting class",
-            "Drama therapy",
             "Theater production",
+            "Drama therapy",
+            "Acting class",
             "Performance art"
           ],
           correctAnswer: 1,
@@ -87,94 +87,94 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           id: 2,
           question: "What principle allows clients to explore issues through characters?",
           options: [
-            "Direct confrontation",
             "Therapeutic distance",
+            "Direct confrontation",
             "Immediate feedback",
             "Public performance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Therapeutic distance provides safety by working through characters rather than direct self-disclosure."
         },
         {
           id: 3,
           question: "What are the three elements of the drama therapy triangle?",
           options: [
-            "Actor, Director, Audience",
             "Client, Therapist, Dramatic Process",
-            "Script, Stage, Costumes",
-            "Past, Present, Future"
+            "Actor, Director, Audience",
+            "Past, Present, Future",
+            "Script, Stage, Costumes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "These three elements interact in all drama therapy work."
         },
         {
           id: 4,
           question: "Who developed Psychodrama?",
           options: [
-            "Augusto Boal",
-            "J.L. Moreno",
             "David Read Johnson",
-            "Sigmund Freud"
+            "Sigmund Freud",
+            "J.L. Moreno",
+            "Augusto Boal"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "J.L. Moreno pioneered psychodrama as a therapeutic method using role-playing."
         },
         {
           id: 5,
           question: "What does 'embodiment' mean in drama therapy?",
           options: [
+            "Directing scenes",
             "Memorizing lines",
             "Learning through physical expression",
-            "Creating characters",
-            "Directing scenes"
+            "Creating characters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Embodiment recognizes that healing happens through the body, not just the mind."
         },
         {
           id: 6,
           question: "What is the healing power of being seen and heard called?",
           options: [
-            "Performance",
-            "Witnessing",
             "Critique",
-            "Rehearsal"
+            "Performance",
+            "Rehearsal",
+            "Witnessing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Witnessing validates experiences and promotes healing through acknowledgment."
         },
         {
           id: 7,
           question: "What does 'catharsis' refer to?",
           options: [
-            "Character development",
-            "Emotional release through expression",
             "Scene memorization",
-            "Theater building"
+            "Theater building",
+            "Emotional release through expression",
+            "Character development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Catharsis allows emotional release in a safe, contained way."
         },
         {
           id: 8,
           question: "What is the most important principle in drama therapy?",
           options: [
+            "Entertaining clients",
             "Creating impressive performances",
-            "Creating a safe container",
             "Teaching acting skills",
-            "Entertaining clients"
+            "Creating a safe container"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Safety must be established before any therapeutic work can occur."
         },
         {
           id: 9,
           question: "What does the 'right to pass' mean?",
           options: [
-            "Right to leave therapy",
+            "Right to direct others",
             "Right not to participate in an activity",
-            "Right to perform publicly",
-            "Right to direct others"
+            "Right to leave therapy",
+            "Right to perform publicly"
           ],
           correctAnswer: 1,
           explanation: "This essential boundary allows clients to control their level of participation."
@@ -184,20 +184,20 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           question: "What is the final phase of a typical drama therapy session?",
           options: [
             "Warm-up",
-            "Main Activity",
+            "Closing",
             "Processing",
-            "Closing"
+            "Main Activity"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Closing helps integrate the experience and transition back to daily life."
         },
         {
           id: 11,
           question: "What does 'containment' provide in therapy?",
           options: [
-            "Physical objects",
-            "Safe boundaries for emotional work",
             "Costume storage",
+            "Safe boundaries for emotional work",
+            "Physical objects",
             "Script books"
           ],
           correctAnswer: 1,
@@ -207,12 +207,12 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           id: 12,
           question: "Who developed Theater of the Oppressed?",
           options: [
+            "David Read Johnson",
             "J.L. Moreno",
             "Augusto Boal",
-            "David Read Johnson",
             "Carl Jung"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Augusto Boal created Theater of the Oppressed for social change and empowerment."
         },
         {
@@ -220,44 +220,44 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           question: "What role does 'metaphor' play in drama therapy?",
           options: [
             "Confusing clients",
-            "Exploring real issues through symbolic stories",
             "Teaching literary devices",
+            "Exploring real issues through symbolic stories",
             "Creating abstract art"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Metaphor allows indirect exploration of sensitive issues through symbolic representation."
         },
         {
           id: 14,
           question: "What is 'integration' in therapeutic terms?",
           options: [
-            "Forgetting experiences",
             "Bringing insights into daily life",
+            "Forgetting experiences",
             "Combining techniques",
             "Merging characters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Integration applies therapeutic learning to real-world situations."
         },
         {
           id: 15,
           question: "What does 'transformation' allow clients to do?",
           options: [
-            "Change appearance",
-            "Practice new ways of being",
+            "Become actors",
             "Forget the past",
-            "Become actors"
+            "Change appearance",
+            "Practice new ways of being"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Transformation uses drama to experiment with new behaviors and perspectives."
         },
         {
           id: 16,
           question: "As a therapist, what does 'co-player' mean?",
           options: [
-            "Always performing",
-            "Sometimes entering the drama to support",
             "Directing from outside",
+            "Sometimes entering the drama to support",
+            "Always performing",
             "Critiquing performance"
           ],
           correctAnswer: 1,
@@ -267,10 +267,10 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           id: 17,
           question: "What does 'play' access for healing?",
           options: [
-            "Childhood memories only",
+            "Rule-following",
             "Creativity and spontaneity",
-            "Competitive spirit",
-            "Rule-following"
+            "Childhood memories only",
+            "Competitive spirit"
           ],
           correctAnswer: 1,
           explanation: "Playful exploration opens new possibilities and reduces defensiveness."
@@ -279,22 +279,22 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           id: 18,
           question: "What is the purpose of 'processing' in a session?",
           options: [
-            "Forgetting the experience",
-            "Reflecting on and understanding the experience",
             "Planning next session",
-            "Cleaning materials"
+            "Cleaning materials",
+            "Forgetting the experience",
+            "Reflecting on and understanding the experience"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Processing helps clients make meaning of their dramatic experiences."
         },
         {
           id: 19,
           question: "What does confidentiality protect?",
           options: [
-            "Therapist's notes only",
-            "Clients' personal information and stories",
             "Performance techniques",
-            "Therapy room location"
+            "Clients' personal information and stories",
+            "Therapy room location",
+            "Therapist's notes only"
           ],
           correctAnswer: 1,
           explanation: "Confidentiality creates trust and safety for vulnerable self-expression."
@@ -304,11 +304,11 @@ Consider: How might dramatic expression help someone who has difficulty talking 
           question: "What does 'developmental transformations' emphasize?",
           options: [
             "Structured scripts",
-            "Spontaneous play for change",
             "Memorized scenes",
-            "Audience feedback"
+            "Audience feedback",
+            "Spontaneous play for change"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "This approach values spontaneous, playful interaction for therapeutic growth."
         }
       ]
@@ -411,23 +411,23 @@ Design a simple role play intervention for someone struggling with setting bound
           question: "What technique involves taking on different perspectives?",
           options: [
             "Mask work",
+            "Ritual",
             "Role play",
-            "Guided imagery",
-            "Ritual"
+            "Guided imagery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Role play allows exploration of various viewpoints and behaviors."
         },
         {
           id: 2,
           question: "What does 'doubling' involve in psychodrama?",
           options: [
-            "Two therapists",
             "Speaking unexpressed thoughts",
             "Repeating scenes",
+            "Two therapists",
             "Mirror movements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Doubling gives voice to hidden feelings or thoughts."
         },
         {
@@ -435,57 +435,57 @@ Design a simple role play intervention for someone struggling with setting bound
           question: "What does sociodrama focus on?",
           options: [
             "Individual issues",
-            "Group dynamics and social issues",
             "Family conflicts only",
+            "Group dynamics and social issues",
             "Childhood memories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sociodrama addresses collective experiences and social systems."
         },
         {
           id: 4,
           question: "What is 'surplus reality' in psychodrama?",
           options: [
-            "Extra time",
-            "Enacting what could have happened",
+            "Future predictions",
             "Multiple realities",
-            "Future predictions"
+            "Extra time",
+            "Enacting what could have happened"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Surplus reality explores alternative scenarios for healing."
         },
         {
           id: 5,
           question: "What does Developmental Transformations emphasize?",
           options: [
-            "Scripted scenes",
             "Spontaneous play",
-            "Memorized lines",
-            "Set designs"
+            "Set designs",
+            "Scripted scenes",
+            "Memorized lines"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "DvT values improvisational, playful interaction for change."
         },
         {
           id: 6,
           question: "What can mask work help clients explore?",
           options: [
+            "Historical periods",
             "Fashion choices",
             "Hidden aspects of self",
-            "Historical periods",
             "Cultural traditions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Masks provide distance to explore protected emotions and identities."
         },
         {
           id: 7,
           question: "What is the purpose of therapeutic rituals?",
           options: [
-            "Entertainment",
+            "Costume display",
             "Marking transitions and changes",
-            "Time management",
-            "Costume display"
+            "Entertainment",
+            "Time management"
           ],
           correctAnswer: 1,
           explanation: "Rituals create meaningful markers for therapeutic progress."
@@ -494,34 +494,34 @@ Design a simple role play intervention for someone struggling with setting bound
           id: 8,
           question: "What does 'empty chair' technique facilitate?",
           options: [
-            "Resting",
             "Dialogue with absent person or self-part",
+            "Observation only",
             "Waiting for direction",
-            "Observation only"
+            "Resting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Empty chair allows expression toward unavailable others or internal conflicts."
         },
         {
           id: 9,
           question: "What is playback theater?",
           options: [
+            "Recording sessions",
             "Rewatching performances",
             "Enacting audience members' stories",
-            "Recording sessions",
             "Repeating exercises"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Playback theater validates personal stories through immediate dramatization."
         },
         {
           id: 10,
           question: "What should you always provide with any technique?",
           options: [
-            "Critique",
+            "Complex instructions",
             "Choice and alternatives",
             "Performance pressure",
-            "Complex instructions"
+            "Critique"
           ],
           correctAnswer: 1,
           explanation: "Choice maintains client autonomy and safety."
@@ -530,24 +530,24 @@ Design a simple role play intervention for someone struggling with setting bound
           id: 11,
           question: "What does 'mirroring' involve in psychodrama?",
           options: [
-            "Physical reflection",
-            "Replaying a scene back to protagonist",
+            "Watching oneself",
             "Copying movements",
-            "Watching oneself"
+            "Replaying a scene back to protagonist",
+            "Physical reflection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Mirroring helps clients see themselves from outside perspective."
         },
         {
           id: 12,
           question: "What does guided imagery with movement combine?",
           options: [
-            "Visualization and physical expression",
-            "Memory and speaking",
             "Drawing and writing",
+            "Memory and speaking",
+            "Visualization and physical expression",
             "Listening and watching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "This technique links mental images with bodily experience."
         },
         {
@@ -555,47 +555,47 @@ Design a simple role play intervention for someone struggling with setting bound
           question: "What is 'future projection' used for?",
           options: [
             "Predicting outcomes",
-            "Envisioning and practicing future scenarios",
             "Planning performances",
+            "Envisioning and practicing future scenarios",
             "Scheduling sessions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Future projection builds skills and confidence for upcoming situations."
         },
         {
           id: 14,
           question: "What should you monitor during intense techniques?",
           options: [
+            "Audience reaction",
             "Time only",
             "Emotional overwhelm",
-            "Perfect execution",
-            "Audience reaction"
+            "Perfect execution"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Monitoring prevents retraumatization and maintains safety."
         },
         {
           id: 15,
           question: "What does 'role reversal' help with?",
           options: [
-            "Confusing clients",
-            "Understanding others' perspectives",
             "Changing identities",
-            "Forgetting problems"
+            "Forgetting problems",
+            "Understanding others' perspectives",
+            "Confusing clients"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Role reversal builds empathy and new understandings."
         },
         {
           id: 16,
           question: "What is forum theater designed for?",
           options: [
-            "Formal performances",
-            "Interactive problem-solving",
+            "Competitive acting",
             "Silent observation",
-            "Competitive acting"
+            "Interactive problem-solving",
+            "Formal performances"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Forum theater engages communities in addressing social issues."
         },
         {
@@ -603,47 +603,47 @@ Design a simple role play intervention for someone struggling with setting bound
           question: "What does processing help clients do?",
           options: [
             "Forget the experience",
-            "Make meaning of the experience",
             "Critique the technique",
+            "Make meaning of the experience",
             "Plan the next session"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Processing integrates dramatic experiences into personal understanding."
         },
         {
           id: 18,
           question: "What does 'encounter' mean in DvT?",
           options: [
-            "Accidental meeting",
-            "Genuine meeting between therapist and client",
             "Conflict resolution",
-            "Group gathering"
+            "Group gathering",
+            "Accidental meeting",
+            "Genuine meeting between therapist and client"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Encounter emphasizes authentic relational engagement in the play space."
         },
         {
           id: 19,
           question: "What is the first step in processing?",
           options: [
-            "Planning applications",
             "Naming the experience",
+            "Making connections",
             "Finding meanings",
-            "Making connections"
+            "Planning applications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Naming helps anchor the experience in awareness."
         },
         {
           id: 20,
           question: "What does 'right to pass' protect?",
           options: [
+            "Group harmony",
             "Therapist's time",
             "Client's autonomy and boundaries",
-            "Group harmony",
             "Session structure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "This essential right maintains client control over participation."
         }
       ]
@@ -777,12 +777,12 @@ Create a treatment plan for a client who wants to improve social anxiety. Includ
           id: 1,
           question: "How does assessment happen in drama therapy?",
           options: [
-            "Only through questionnaires",
             "Through observation, participation, and reflection",
+            "Only through questionnaires",
             "Through medical tests",
             "Through family reports only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Drama therapy assessment is dynamic and experiential."
         },
         {
@@ -790,71 +790,71 @@ Create a treatment plan for a client who wants to improve social anxiety. Includ
           question: "What does 'role repertoire' assess?",
           options: [
             "Acting skill level",
-            "Flexibility and range of available roles",
+            "Costume choices",
             "Memory for lines",
-            "Costume choices"
+            "Flexibility and range of available roles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Role repertoire indicates psychological flexibility and coping resources."
         },
         {
           id: 3,
           question: "What does SMART stand for in goal-setting?",
           options: [
-            "Simple, Meaningful, Artistic, Relevant, Timely",
             "Specific, Measurable, Achievable, Relevant, Time-bound",
-            "Structured, Managed, Artistic, Realistic, Therapeutic",
-            "Systematic, Meaningful, Accessible, Relevant, Timed"
+            "Systematic, Meaningful, Accessible, Relevant, Timed",
+            "Simple, Meaningful, Artistic, Relevant, Timely",
+            "Structured, Managed, Artistic, Realistic, Therapeutic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SMART goals create clear, achievable therapeutic objectives."
         },
         {
           id: 4,
           question: "What should every session plan include?",
           options: [
-            "Performance goals",
-            "Contingency plans",
             "Audience feedback",
-            "Costume designs"
+            "Costume designs",
+            "Contingency plans",
+            "Performance goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Contingency plans prepare for unexpected responses or needs."
         },
         {
           id: 5,
           question: "What is important when working with children?",
           options: [
-            "Long sessions",
-            "Parent/caregiver involvement",
+            "Solo work only",
             "Abstract concepts",
-            "Solo work only"
+            "Long sessions",
+            "Parent/caregiver involvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Involving caregivers supports consistency and understanding."
         },
         {
           id: 6,
           question: "What is crucial for trauma survivors?",
           options: [
-            "Surprise interventions",
             "Extra safety measures",
+            "Group pressure",
             "Rapid exposure",
-            "Group pressure"
+            "Surprise interventions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Safety is paramount to prevent retraumatization."
         },
         {
           id: 7,
           question: "What does cultural humility require?",
           options: [
-            "Knowing all cultures",
             "Recognizing your own cultural lens",
+            "Knowing all cultures",
             "Adopting client's culture",
             "Ignoring cultural differences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cultural humility involves self-awareness and openness to learning."
         },
         {
@@ -863,8 +863,8 @@ Create a treatment plan for a client who wants to improve social anxiety. Includ
           options: [
             "Sudden ending",
             "Closing ritual",
-            "Ignoring feelings",
-            "No future contact"
+            "No future contact",
+            "Ignoring feelings"
           ],
           correctAnswer: 1,
           explanation: "Closing rituals provide meaningful closure to therapeutic relationships."
@@ -873,84 +873,84 @@ Create a treatment plan for a client who wants to improve social anxiety. Includ
           id: 9,
           question: "What does 'titrated exposure' mean for trauma?",
           options: [
-            "Full immersion",
             "Gradual, controlled exposure",
-            "Avoiding trauma topics",
-            "Random exposure"
+            "Random exposure",
+            "Full immersion",
+            "Avoiding trauma topics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Titration prevents overwhelm by carefully managing exposure levels."
         },
         {
           id: 10,
           question: "What is a projective technique?",
           options: [
-            "Direct questioning",
             "Using stories or objects to reveal inner world",
+            "Memory tests",
             "Physical examination",
-            "Memory tests"
+            "Direct questioning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Projective techniques access unconscious material indirectly."
         },
         {
           id: 11,
           question: "What does 'embodied assessment' notice?",
           options: [
-            "Verbal skills only",
             "Posture, movement, and physical expression",
+            "Verbal skills only",
             "Cognitive abilities",
             "Written responses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The body reveals information that words may not express."
         },
         {
           id: 12,
           question: "What is important for neurodiverse clients?",
           options: [
-            "Abstract metaphors",
             "Sensory considerations",
+            "Social pressure",
             "Surprise changes",
-            "Social pressure"
+            "Abstract metaphors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Sensory needs significantly impact engagement and comfort."
         },
         {
           id: 13,
           question: "What does 'strength-based focus' mean?",
           options: [
-            "Ignoring problems",
-            "Identifying resources, not just deficits",
+            "Avoiding challenges",
             "Positive thinking only",
-            "Avoiding challenges"
+            "Identifying resources, not just deficits",
+            "Ignoring problems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strength-based approaches build on existing capabilities."
         },
         {
           id: 14,
           question: "What is 'ongoing consent'?",
           options: [
-            "One-time agreement",
-            "Checking in throughout the process",
             "Implied consent",
-            "Family consent"
+            "Family consent",
+            "Checking in throughout the process",
+            "One-time agreement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ongoing consent respects client autonomy continuously."
         },
         {
           id: 15,
           question: "What should progress tracking include?",
           options: [
-            "Only therapist observations",
             "Client reflections and insights",
-            "Comparison to others",
-            "Performance ratings"
+            "Performance ratings",
+            "Only therapist observations",
+            "Comparison to others"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Client perspectives are essential for accurate progress assessment."
         },
         {
@@ -958,23 +958,23 @@ Create a treatment plan for a client who wants to improve social anxiety. Includ
           question: "What is 'family sculpting' used for?",
           options: [
             "Art projects",
+            "Physical training",
             "Exploring family dynamics",
-            "Memory exercises",
-            "Physical training"
+            "Memory exercises"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Family sculpting reveals relational patterns physically."
         },
         {
           id: 17,
           question: "What does 'playfulness' assess?",
           options: [
-            "Childishness",
-            "Capacity for spontaneity and creativity",
             "Game knowledge",
-            "Humor sense"
+            "Humor sense",
+            "Capacity for spontaneity and creativity",
+            "Childishness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Playfulness indicates flexibility and coping capacity."
         },
         {
@@ -995,8 +995,8 @@ Create a treatment plan for a client who wants to improve social anxiety. Includ
           options: [
             "Poetry knowledge",
             "Ability to work symbolically",
-            "Literal thinking",
-            "Memory for metaphors"
+            "Memory for metaphors",
+            "Literal thinking"
           ],
           correctAnswer: 1,
           explanation: "Metaphoric capacity enables therapeutic distance work."
@@ -1005,10 +1005,10 @@ Create a treatment plan for a client who wants to improve social anxiety. Includ
           id: 20,
           question: "What is a follow-up plan?",
           options: [
-            "Forgetting the client",
+            "Family monitoring",
             "Options for future contact if needed",
-            "Continued therapy secretly",
-            "Family monitoring"
+            "Forgetting the client",
+            "Continued therapy secretly"
           ],
           correctAnswer: 1,
           explanation: "Follow-up plans provide safety nets after therapy ends."
@@ -1193,10 +1193,10 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           id: 1,
           question: "What therapeutic factor means 'I'm not alone'?",
           options: [
-            "Altruism",
+            "Social Learning",
             "Universality",
-            "Catharsis",
-            "Social Learning"
+            "Altruism",
+            "Catharsis"
           ],
           correctAnswer: 1,
           explanation: "Universality reduces isolation by recognizing shared experiences."
@@ -1207,8 +1207,8 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           options: [
             "Forming",
             "Storming",
-            "Norming",
-            "Performing"
+            "Performing",
+            "Norming"
           ],
           correctAnswer: 1,
           explanation: "Storming stage naturally involves boundary testing and conflict emergence."
@@ -1217,12 +1217,12 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           id: 3,
           question: "What is a benefit of homogeneous groups?",
           options: [
+            "Cultural diversity",
             "Broad perspectives",
             "Quick rapport and shared understanding",
-            "Reality testing",
-            "Cultural diversity"
+            "Reality testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Similar experiences create immediate connection and understanding."
         },
         {
@@ -1230,23 +1230,23 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           question: "What is the most essential group agreement?",
           options: [
             "Perfect attendance",
-            "Confidentiality",
             "Active participation",
-            "Costume sharing"
+            "Costume sharing",
+            "Confidentiality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Confidentiality creates safety for vulnerable sharing."
         },
         {
           id: 5,
           question: "What characterizes closed groups?",
           options: [
-            "Changing membership",
             "Fixed membership for defined period",
+            "Changing membership",
             "Public attendance",
             "No structure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Closed groups allow deeper bonding through consistent membership."
         },
         {
@@ -1265,60 +1265,60 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           id: 7,
           question: "How to manage dominant members?",
           options: [
-            "Ignore them",
             "Use structured turns",
-            "Criticize them",
-            "Remove them"
+            "Remove them",
+            "Ignore them",
+            "Criticize them"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Structure ensures equitable participation opportunities."
         },
         {
           id: 8,
           question: "What is a benefit of co-facilitation?",
           options: [
-            "Lower cost",
             "Different perspectives and styles",
             "Less work",
-            "Faster sessions"
+            "Faster sessions",
+            "Lower cost"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multiple facilitators bring complementary skills and perspectives."
         },
         {
           id: 9,
           question: "What does family drama therapy address?",
           options: [
-            "Individual issues only",
             "Family patterns directly",
             "Unrelated topics",
-            "Historical research"
+            "Historical research",
+            "Individual issues only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Family therapy works with relational patterns within the family system."
         },
         {
           id: 10,
           question: "What is a crucial ethical consideration?",
           options: [
-            "Random placement",
             "Appropriate group screening",
             "No preparation needed",
+            "Random placement",
             "Ignoring conflicts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Screening ensures members are suitable for specific group focuses."
         },
         {
           id: 11,
           question: "What does 'altruism' mean in groups?",
           options: [
+            "Isolation",
             "Selfishness",
-            "Helping others helps oneself",
             "Competition",
-            "Isolation"
+            "Helping others helps oneself"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Altruism builds self-worth through contributing to others."
         },
         {
@@ -1326,11 +1326,11 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           question: "What stage involves termination?",
           options: [
             "Forming",
-            "Performing",
             "Adjourning",
+            "Performing",
             "Storming"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Adjourning focuses on closure and integration of learning."
         },
         {
@@ -1338,56 +1338,56 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           question: "What is a challenge of heterogeneous groups?",
           options: [
             "Quick bonding",
-            "Slower bonding and potential conflicts",
+            "Too similar",
             "Limited perspectives",
-            "Too similar"
+            "Slower bonding and potential conflicts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Diversity requires more time for understanding and connection."
         },
         {
           id: 14,
           question: "What does 'right to pass' protect?",
           options: [
-            "Therapist's authority",
             "Member's autonomy and boundaries",
+            "Session length",
             "Group speed",
-            "Session length"
+            "Therapist's authority"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "This essential right maintains individual control over participation level."
         },
         {
           id: 15,
           question: "What characterizes time-limited groups?",
           options: [
+            "No goals",
             "Indefinite duration",
             "Specific number of sessions",
-            "Changing focus",
-            "No goals"
+            "Changing focus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Time-limited groups work within defined timeframe for focused goals."
         },
         {
           id: 16,
           question: "What is best for middle stage activities?",
           options: [
-            "Simple name games",
-            "Sociodrama on group issues",
             "Termination rituals",
-            "Initial trust exercises"
+            "Initial trust exercises",
+            "Sociodrama on group issues",
+            "Simple name games"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Middle stage can handle more complex, interpersonal work."
         },
         {
           id: 17,
           question: "How to approach silent members?",
           options: [
-            "Pressure to participate",
-            "Invite but don't pressure",
             "Ignore completely",
+            "Invite but don't pressure",
+            "Pressure to participate",
             "Criticize silence"
           ],
           correctAnswer: 1,
@@ -1397,10 +1397,10 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           id: 18,
           question: "What can one facilitator do during co-facilitation?",
           options: [
-            "Take break",
-            "Observe while other facilitates",
             "Leave early",
-            "Work separately"
+            "Observe while other facilitates",
+            "Work separately",
+            "Take break"
           ],
           correctAnswer: 1,
           explanation: "Observation provides valuable perspective on group dynamics."
@@ -1409,9 +1409,9 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           id: 19,
           question: "What do school-based groups often focus on?",
           options: [
-            "Academic testing",
-            "Social skills development",
             "Teacher training",
+            "Social skills development",
+            "Academic testing",
             "Parent discipline"
           ],
           correctAnswer: 1,
@@ -1421,12 +1421,12 @@ Design a 6-session drama therapy group for social anxiety. Include: Group agreem
           id: 20,
           question: "What is a confidentiality limit in groups?",
           options: [
-            "Complete secrecy",
             "Cannot control other members",
             "Therapist tells everything",
-            "No limits needed"
+            "No limits needed",
+            "Complete secrecy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Therapist cannot guarantee other members will maintain confidentiality."
         }
       ]
@@ -1633,10 +1633,10 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           id: 1,
           question: "What principle means 'do good'?",
           options: [
-            "Non-maleficence",
-            "Beneficence",
             "Autonomy",
-            "Justice"
+            "Beneficence",
+            "Justice",
+            "Non-maleficence"
           ],
           correctAnswer: 1,
           explanation: "Beneficence involves actively promoting client wellbeing."
@@ -1645,12 +1645,12 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           id: 2,
           question: "What is crucial for physical touch in drama therapy?",
           options: [
-            "Never touch clients",
             "Clear boundaries and consent",
-            "Spontaneous touching",
-            "Only with same gender"
+            "Never touch clients",
+            "Only with same gender",
+            "Spontaneous touching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Clear consent and therapeutic purpose are essential for any physical contact."
         },
         {
@@ -1658,9 +1658,9 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           question: "What element is NOT required for valid consent?",
           options: [
             "Capacity",
-            "Information",
+            "Understanding",
             "Friendship",
-            "Understanding"
+            "Information"
           ],
           correctAnswer: 2,
           explanation: "Friendship compromises professional boundaries and is not required for consent."
@@ -1669,12 +1669,12 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           id: 4,
           question: "What do professional boundaries protect?",
           options: [
-            "Therapist's privacy only",
             "Client welfare and therapeutic effectiveness",
-            "Therapy room cleanliness",
-            "Session timing only"
+            "Session timing only",
+            "Therapist's privacy only",
+            "Therapy room cleanliness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Boundaries maintain safety and effectiveness of therapeutic relationship."
         },
         {
@@ -1682,23 +1682,23 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           question: "When must confidentiality be broken?",
           options: [
             "For interesting stories",
-            "Danger to self or others",
             "Client lateness",
+            "Danger to self or others",
             "Payment issues"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Safety concerns override confidentiality in specific, defined circumstances."
         },
         {
           id: 6,
           question: "How to maintain competence?",
           options: [
-            "Ignore new methods",
             "Ongoing education and supervision",
+            "Copy others' work",
             "Work alone always",
-            "Copy others' work"
+            "Ignore new methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Continuous learning ensures up-to-date, effective practice."
         },
         {
@@ -1717,12 +1717,12 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           id: 8,
           question: "Why is therapist self-care ethical?",
           options: [
-            "For therapist happiness only",
             "It affects clinical judgment and availability",
-            "To work more hours",
-            "For better income"
+            "For better income",
+            "For therapist happiness only",
+            "To work more hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Therapist wellbeing directly impacts quality of care provided."
         },
         {
@@ -1742,11 +1742,11 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           question: "What should ethical termination include?",
           options: [
             "Sudden ending",
-            "Adequate notice and processing",
             "Ignoring feelings",
+            "Adequate notice and processing",
             "Immediate cutoff"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Proper termination honors the therapeutic relationship and supports integration."
         },
         {
@@ -1765,10 +1765,10 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           id: 12,
           question: "What should you do with client creations?",
           options: [
-            "Sell them",
+            "Destroy after session",
             "Respect and protect them",
-            "Display publicly",
-            "Destroy after session"
+            "Sell them",
+            "Display publicly"
           ],
           correctAnswer: 1,
           explanation: "Client artistic work deserves respect and confidentiality protection."
@@ -1778,20 +1778,20 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           question: "What does voluntariness mean in consent?",
           options: [
             "Client must volunteer",
+            "Therapist decision",
             "Free choice without coercion",
-            "Family approval",
-            "Therapist decision"
+            "Family approval"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Consent must be freely given without pressure."
         },
         {
           id: 14,
           question: "What is a dual relationship?",
           options: [
-            "Two therapists",
-            "Multiple roles with client",
             "Family therapy",
+            "Multiple roles with client",
+            "Two therapists",
             "Group therapy"
           ],
           correctAnswer: 1,
@@ -1801,22 +1801,22 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           id: 15,
           question: "What should documentation be?",
           options: [
-            "Opinionated",
             "Objective and factual",
-            "Creative writing",
-            "Minimal"
+            "Opinionated",
+            "Minimal",
+            "Creative writing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Documentation should objectively record relevant facts and interventions."
         },
         {
           id: 16,
           question: "When to refer clients?",
           options: [
-            "When challenging",
+            "Never",
             "Beyond your expertise",
             "For any problem",
-            "Never"
+            "When challenging"
           ],
           correctAnswer: 1,
           explanation: "Ethical practice requires recognizing and respecting scope limitations."
@@ -1825,12 +1825,12 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           id: 17,
           question: "What is important for telehealth?",
           options: [
-            "No rules needed",
-            "Secure communication platforms",
             "Any video app",
-            "Public wifi okay"
+            "Public wifi okay",
+            "Secure communication platforms",
+            "No rules needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Security protects client confidentiality in digital spaces."
         },
         {
@@ -1838,23 +1838,23 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           question: "What does mandatory reporting protect?",
           options: [
             "Therapist liability",
+            "Government interests",
             "Vulnerable populations",
-            "Insurance companies",
-            "Government interests"
+            "Insurance companies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reporting laws aim to protect those who cannot protect themselves."
         },
         {
           id: 19,
           question: "What should supervisors provide?",
           options: [
-            "Friendship only",
             "Regular feedback and guidance",
             "Therapy for supervisees",
-            "No oversight"
+            "No oversight",
+            "Friendship only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Supervision ensures clinical competence and client safety."
         },
         {
@@ -1862,11 +1862,11 @@ Develop an informed consent form for drama therapy. Include: Explanation of tech
           question: "What is the first step in ethical decision-making?",
           options: [
             "Ask colleagues",
-            "Identify the problem",
+            "Ignore the issue",
             "Take immediate action",
-            "Ignore the issue"
+            "Identify the problem"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clear problem identification guides appropriate ethical response."
         }
       ]
@@ -2038,21 +2038,21 @@ Design a comprehensive drama therapy program for a specific population (choose o
           id: 1,
           question: "What is paramount in trauma-informed drama therapy?",
           options: [
-            "Rapid exposure",
-            "Safety first",
+            "Performance quality",
             "Therapist control",
-            "Performance quality"
+            "Safety first",
+            "Rapid exposure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Safety establishes necessary foundation for trauma work."
         },
         {
           id: 2,
           question: "How do children primarily communicate in therapy?",
           options: [
-            "Verbal discussion",
-            "Through play",
             "Written journals",
+            "Through play",
+            "Verbal discussion",
             "Silent observation"
           ],
           correctAnswer: 1,
@@ -2062,24 +2062,24 @@ Design a comprehensive drama therapy program for a specific population (choose o
           id: 3,
           question: "What can drama therapy help with in hospitals?",
           options: [
-            "Only entertainment",
-            "Pain management and procedure preparation",
+            "Surgery assistance",
             "Medical diagnosis",
-            "Surgery assistance"
+            "Pain management and procedure preparation",
+            "Only entertainment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Drama therapy addresses psychological aspects of medical experiences."
         },
         {
           id: 4,
           question: "What is life review work with older adults?",
           options: [
-            "Forgetting the past",
             "Dramatizing life stories",
-            "Future planning only",
-            "Medical history"
+            "Forgetting the past",
+            "Medical history",
+            "Future planning only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Life review helps integrate life experiences and find meaning."
         },
         {
@@ -2087,69 +2087,69 @@ Design a comprehensive drama therapy program for a specific population (choose o
           question: "How can drama therapy support addiction recovery?",
           options: [
             "Ignoring addiction",
-            "Exploring triggers and building recovery capital",
             "Encouraging use",
-            "Avoiding emotions"
+            "Avoiding emotions",
+            "Exploring triggers and building recovery capital"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Drama therapy builds skills and explores underlying issues in recovery."
         },
         {
           id: 6,
           question: "What does evidence-based practice involve?",
           options: [
-            "Only intuition",
-            "Measuring therapeutic effectiveness",
             "Ignoring research",
-            "Following trends"
+            "Following trends",
+            "Measuring therapeutic effectiveness",
+            "Only intuition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Evidence-based practice integrates research with clinical expertise."
         },
         {
           id: 7,
           question: "What credential indicates Registered Drama Therapist?",
           options: [
-            "RDT",
-            "BCT",
             "PhD",
-            "LPC"
+            "LPC",
+            "RDT",
+            "BCT"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "RDT is the primary credential for drama therapists in North America."
         },
         {
           id: 8,
           question: "What is important for private practice?",
           options: [
-            "No regulations",
             "Licensing requirements and insurance",
+            "Free services",
             "Working alone only",
-            "Free services"
+            "No regulations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Private practice requires business knowledge alongside clinical skills."
         },
         {
           id: 9,
           question: "What does global drama therapy consider?",
           options: [
-            "One method fits all",
             "Cultural adaptations",
-            "Ignoring culture",
-            "Western methods only"
+            "Western methods only",
+            "One method fits all",
+            "Ignoring culture"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective global practice requires cultural sensitivity and adaptation."
         },
         {
           id: 10,
           question: "What is an emerging trend?",
           options: [
-            "Only in-person therapy",
+            "Traditional methods only",
             "Teletherapy adaptations",
-            "No technology use",
-            "Traditional methods only"
+            "Only in-person therapy",
+            "No technology use"
           ],
           correctAnswer: 1,
           explanation: "Technology integration expands access and requires new adaptations."
@@ -2158,10 +2158,10 @@ Design a comprehensive drama therapy program for a specific population (choose o
           id: 11,
           question: "What principle emphasizes client direction in trauma work?",
           options: [
-            "Therapist control",
+            "Group pressure",
             "Choice and control",
             "Random exposure",
-            "Group pressure"
+            "Therapist control"
           ],
           correctAnswer: 1,
           explanation: "Client control restores autonomy often damaged by trauma."
@@ -2171,35 +2171,35 @@ Design a comprehensive drama therapy program for a specific population (choose o
           question: "Why involve families in child drama therapy?",
           options: [
             "To criticize parents",
+            "To exclude children",
             "For consistency and support",
-            "To blame families",
-            "To exclude children"
+            "To blame families"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Family involvement supports generalization of therapeutic gains."
         },
         {
           id: 13,
           question: "What helps with chronic illness support?",
           options: [
+            "Focus on illness only",
             "Ignoring illness",
             "Identity exploration beyond diagnosis",
-            "Focus on illness only",
             "Medical treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Helping clients maintain identity beyond illness supports adjustment."
         },
         {
           id: 14,
           question: "What is reminiscence theater?",
           options: [
-            "Forgetting memories",
             "Group storytelling for dementia",
-            "Future predictions",
-            "Silent observation"
+            "Forgetting memories",
+            "Silent observation",
+            "Future predictions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Reminiscence engages long-term memory and social connection."
         },
         {
@@ -2218,34 +2218,34 @@ Design a comprehensive drama therapy program for a specific population (choose o
           id: 16,
           question: "What does process research study?",
           options: [
-            "Only outcomes",
             "How change happens",
-            "Client numbers only",
-            "Therapist income"
+            "Only outcomes",
+            "Therapist income",
+            "Client numbers only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Process research understands mechanisms of therapeutic change."
         },
         {
           id: 17,
           question: "What does BCT designate?",
           options: [
-            "Basic Counseling Therapist",
             "Board Certified Trainer",
-            "Beginning Clinical Therapist",
-            "Business Consultant Therapist"
+            "Business Consultant Therapist",
+            "Basic Counseling Therapist",
+            "Beginning Clinical Therapist"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "BCT indicates advanced training and supervision qualifications."
         },
         {
           id: 18,
           question: "What ethical marketing requires?",
           options: [
-            "Exaggerated claims",
+            "Celebrity endorsements",
             "Appropriate representation of services",
-            "Guaranteed results",
-            "Celebrity endorsements"
+            "Exaggerated claims",
+            "Guaranteed results"
           ],
           correctAnswer: 1,
           explanation: "Ethical marketing accurately represents qualifications and services."
@@ -2255,23 +2255,23 @@ Design a comprehensive drama therapy program for a specific population (choose o
           question: "Why is cross-cultural exchange valuable?",
           options: [
             "For competition",
+            "Standardizing methods",
             "Learning from different traditions",
-            "Proving superiority",
-            "Standardizing methods"
+            "Proving superiority"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cross-cultural learning enriches therapeutic approaches."
         },
         {
           id: 20,
           question: "What helps develop therapeutic style?",
           options: [
-            "Copying others exactly",
-            "Theoretical integration and personal authenticity",
             "Following only one theory",
-            "Ignoring personal qualities"
+            "Ignoring personal qualities",
+            "Theoretical integration and personal authenticity",
+            "Copying others exactly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective therapists integrate approaches authentically."
         }
       ]
@@ -2287,12 +2287,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 1,
         question: "What is drama therapy?",
         options: [
-          "Acting classes for therapy",
           "Intentional use of theater techniques for healing",
           "Watching therapeutic plays",
+          "Acting classes for therapy",
           "Psychological testing through drama"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Drama therapy specifically uses theater processes for therapeutic change.",
         module: 1
       },
@@ -2300,12 +2300,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 2,
         question: "What principle provides safety through characters?",
         options: [
-          "Direct confrontation",
           "Therapeutic distance",
+          "Direct confrontation",
           "Immediate feedback",
           "Public sharing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Therapeutic distance allows exploration through symbolic representation.",
         module: 1
       },
@@ -2313,10 +2313,10 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 3,
         question: "What technique involves speaking unexpressed thoughts?",
         options: [
-          "Mirroring",
+          "Future projection",
           "Doubling",
           "Role reversal",
-          "Future projection"
+          "Mirroring"
         ],
         correctAnswer: 1,
         explanation: "Doubling gives voice to hidden feelings or internal conflicts.",
@@ -2328,8 +2328,8 @@ Design a comprehensive drama therapy program for a specific population (choose o
         options: [
           "Individual issues only",
           "Group dynamics and social issues",
-          "Family conflicts",
-          "Childhood memories"
+          "Childhood memories",
+          "Family conflicts"
         ],
         correctAnswer: 1,
         explanation: "Sociodrama addresses collective experiences and social systems.",
@@ -2339,12 +2339,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 5,
         question: "What does 'role repertoire' assess?",
         options: [
-          "Acting skill",
           "Flexibility of available roles",
+          "Costume choices",
           "Memory for roles",
-          "Costume choices"
+          "Acting skill"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Role repertoire indicates psychological flexibility and coping resources.",
         module: 3
       },
@@ -2354,8 +2354,8 @@ Design a comprehensive drama therapy program for a specific population (choose o
         options: [
           "Simple, Meaningful, Artistic, Relevant, Timely",
           "Specific, Measurable, Achievable, Relevant, Time-bound",
-          "Structured, Managed, Artistic, Realistic, Therapeutic",
-          "Systematic, Meaningful, Accessible, Relevant, Timed"
+          "Systematic, Meaningful, Accessible, Relevant, Timed",
+          "Structured, Managed, Artistic, Realistic, Therapeutic"
         ],
         correctAnswer: 1,
         explanation: "SMART goals create clear, achievable therapeutic objectives.",
@@ -2365,12 +2365,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 7,
         question: "What therapeutic factor means 'I'm not alone'?",
         options: [
-          "Altruism",
-          "Universality",
+          "Social Learning",
           "Catharsis",
-          "Social Learning"
+          "Altruism",
+          "Universality"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Universality reduces isolation through shared experience recognition.",
         module: 4
       },
@@ -2392,11 +2392,11 @@ Design a comprehensive drama therapy program for a specific population (choose o
         question: "What principle means 'do good'?",
         options: [
           "Non-maleficence",
-          "Beneficence",
           "Autonomy",
-          "Justice"
+          "Justice",
+          "Beneficence"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Beneficence involves actively promoting client wellbeing.",
         module: 5
       },
@@ -2405,11 +2405,11 @@ Design a comprehensive drama therapy program for a specific population (choose o
         question: "What is crucial for physical touch in drama therapy?",
         options: [
           "Never touch clients",
+          "Only with same gender",
           "Clear boundaries and consent",
-          "Spontaneous touching",
-          "Only with same gender"
+          "Spontaneous touching"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Clear consent and therapeutic purpose are essential for physical contact.",
         module: 5
       },
@@ -2417,12 +2417,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 11,
         question: "What is paramount in trauma-informed drama therapy?",
         options: [
-          "Rapid exposure",
           "Safety first",
+          "Performance quality",
           "Therapist control",
-          "Performance quality"
+          "Rapid exposure"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Safety establishes necessary foundation for trauma work.",
         module: 6
       },
@@ -2430,9 +2430,9 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 12,
         question: "How do children primarily communicate in therapy?",
         options: [
-          "Verbal discussion",
-          "Through play",
           "Written journals",
+          "Through play",
+          "Verbal discussion",
           "Silent observation"
         ],
         correctAnswer: 1,
@@ -2443,12 +2443,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 13,
         question: "Who developed Psychodrama?",
         options: [
-          "Augusto Boal",
-          "J.L. Moreno",
+          "Sigmund Freud",
           "David Read Johnson",
-          "Sigmund Freud"
+          "Augusto Boal",
+          "J.L. Moreno"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "J.L. Moreno pioneered psychodrama as a therapeutic method.",
         module: 1
       },
@@ -2457,11 +2457,11 @@ Design a comprehensive drama therapy program for a specific population (choose o
         question: "What does 'embodiment' recognize?",
         options: [
           "Memorization importance",
-          "Healing happens through body",
           "Costume significance",
+          "Healing happens through body",
           "Stage presence"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Embodiment acknowledges the body's role in psychological healing.",
         module: 1
       },
@@ -2469,12 +2469,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 15,
         question: "What is 'surplus reality'?",
         options: [
+          "Future predictions",
           "Extra time",
-          "Enacting what could have happened",
           "Multiple therapists",
-          "Future predictions"
+          "Enacting what could have happened"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Surplus reality explores alternative scenarios for healing.",
         module: 2
       },
@@ -2482,10 +2482,10 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 16,
         question: "What does Developmental Transformations emphasize?",
         options: [
-          "Scripted scenes",
-          "Spontaneous play",
           "Memorized lines",
-          "Set design"
+          "Spontaneous play",
+          "Set design",
+          "Scripted scenes"
         ],
         correctAnswer: 1,
         explanation: "DvT values improvisational, playful interaction for change.",
@@ -2495,12 +2495,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 17,
         question: "What should every session plan include?",
         options: [
-          "Performance goals",
           "Contingency plans",
           "Audience feedback",
+          "Performance goals",
           "Costume designs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Contingency plans prepare for unexpected responses or needs.",
         module: 3
       },
@@ -2508,10 +2508,10 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 18,
         question: "What is crucial for trauma survivors?",
         options: [
-          "Surprise interventions",
-          "Extra safety measures",
           "Rapid exposure",
-          "Group pressure"
+          "Extra safety measures",
+          "Group pressure",
+          "Surprise interventions"
         ],
         correctAnswer: 1,
         explanation: "Safety is paramount to prevent retraumatization.",
@@ -2521,12 +2521,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 19,
         question: "What is a benefit of homogeneous groups?",
         options: [
-          "Broad perspectives",
           "Quick rapport",
           "Reality testing",
+          "Broad perspectives",
           "Cultural diversity"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Similar experiences create immediate connection and understanding.",
         module: 4
       },
@@ -2534,12 +2534,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 20,
         question: "What is the most essential group agreement?",
         options: [
-          "Perfect attendance",
           "Confidentiality",
+          "Perfect attendance",
           "Active participation",
           "Costume sharing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Confidentiality creates safety for vulnerable sharing.",
         module: 4
       },
@@ -2547,12 +2547,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 21,
         question: "What element is NOT required for valid consent?",
         options: [
-          "Capacity",
           "Information",
-          "Friendship",
-          "Understanding"
+          "Understanding",
+          "Capacity",
+          "Friendship"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Friendship compromises professional boundaries.",
         module: 5
       },
@@ -2560,12 +2560,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 22,
         question: "When must confidentiality be broken?",
         options: [
+          "Client lateness",
           "For interesting stories",
           "Danger to self or others",
-          "Client lateness",
           "Payment issues"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Safety concerns override confidentiality in specific circumstances.",
         module: 5
       },
@@ -2573,12 +2573,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 23,
         question: "What can drama therapy help with in hospitals?",
         options: [
-          "Only entertainment",
           "Pain management",
-          "Medical diagnosis",
-          "Surgery assistance"
+          "Surgery assistance",
+          "Only entertainment",
+          "Medical diagnosis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Drama therapy addresses psychological aspects of medical experiences.",
         module: 6
       },
@@ -2586,12 +2586,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 24,
         question: "What is life review work with older adults?",
         options: [
-          "Forgetting the past",
           "Dramatizing life stories",
+          "Medical history",
           "Future planning only",
-          "Medical history"
+          "Forgetting the past"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Life review helps integrate life experiences and find meaning.",
         module: 6
       },
@@ -2600,11 +2600,11 @@ Design a comprehensive drama therapy program for a specific population (choose o
         question: "What is the drama therapy triangle?",
         options: [
           "Actor, Director, Audience",
-          "Client, Therapist, Dramatic Process",
+          "Past, Present, Future",
           "Script, Stage, Costumes",
-          "Past, Present, Future"
+          "Client, Therapist, Dramatic Process"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "These three elements interact in all drama therapy work.",
         module: 1
       },
@@ -2613,11 +2613,11 @@ Design a comprehensive drama therapy program for a specific population (choose o
         question: "What does 'witnessing' provide?",
         options: [
           "Critique",
-          "Healing through being seen",
           "Entertainment",
-          "Judgment"
+          "Judgment",
+          "Healing through being seen"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Witnessing validates experiences and promotes healing.",
         module: 1
       },
@@ -2625,12 +2625,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 27,
         question: "What can mask work help explore?",
         options: [
-          "Fashion choices",
-          "Hidden aspects of self",
           "Historical periods",
-          "Cultural traditions"
+          "Cultural traditions",
+          "Hidden aspects of self",
+          "Fashion choices"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Masks provide distance to explore protected emotions.",
         module: 2
       },
@@ -2638,12 +2638,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 28,
         question: "What is playback theater?",
         options: [
-          "Rewatching performances",
           "Enacting audience stories",
+          "Rewatching performances",
           "Recording sessions",
           "Repeating exercises"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Playback theater validates personal stories through dramatization.",
         module: 2
       },
@@ -2651,12 +2651,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 29,
         question: "What does cultural humility require?",
         options: [
+          "Ignoring differences",
           "Knowing all cultures",
           "Recognizing own cultural lens",
-          "Adopting client's culture",
-          "Ignoring differences"
+          "Adopting client's culture"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Cultural humility involves self-awareness and openness.",
         module: 3
       },
@@ -2665,11 +2665,11 @@ Design a comprehensive drama therapy program for a specific population (choose o
         question: "What does 'strength-based focus' mean?",
         options: [
           "Ignoring problems",
+          "Avoiding challenges",
           "Identifying resources",
-          "Positive thinking only",
-          "Avoiding challenges"
+          "Positive thinking only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Strength-based approaches build on existing capabilities.",
         module: 3
       },
@@ -2677,12 +2677,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 31,
         question: "What characterizes closed groups?",
         options: [
-          "Changing membership",
           "Fixed membership",
           "Public attendance",
-          "No structure"
+          "No structure",
+          "Changing membership"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Closed groups allow deeper bonding through consistency.",
         module: 4
       },
@@ -2690,12 +2690,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 32,
         question: "How to manage dominant members?",
         options: [
+          "Remove them",
           "Ignore them",
-          "Use structured turns",
           "Criticize them",
-          "Remove them"
+          "Use structured turns"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Structure ensures equitable participation opportunities.",
         module: 4
       },
@@ -2703,12 +2703,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 33,
         question: "How to maintain competence?",
         options: [
+          "Copy others' work",
           "Ignore new methods",
-          "Ongoing education",
           "Work alone always",
-          "Copy others' work"
+          "Ongoing education"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Continuous learning ensures up-to-date practice.",
         module: 5
       },
@@ -2717,11 +2717,11 @@ Design a comprehensive drama therapy program for a specific population (choose o
         question: "Why is therapist self-care ethical?",
         options: [
           "For therapist happiness",
-          "Affects clinical judgment",
+          "For better income",
           "To work more hours",
-          "For better income"
+          "Affects clinical judgment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Therapist wellbeing directly impacts care quality.",
         module: 5
       },
@@ -2729,12 +2729,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 35,
         question: "How can drama therapy support addiction recovery?",
         options: [
-          "Ignoring addiction",
-          "Exploring triggers",
+          "Avoiding emotions",
           "Encouraging use",
-          "Avoiding emotions"
+          "Exploring triggers",
+          "Ignoring addiction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Drama therapy builds skills and explores underlying issues.",
         module: 6
       },
@@ -2742,12 +2742,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 36,
         question: "What does evidence-based practice involve?",
         options: [
-          "Only intuition",
-          "Measuring effectiveness",
+          "Following trends",
           "Ignoring research",
-          "Following trends"
+          "Only intuition",
+          "Measuring effectiveness"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Evidence-based practice integrates research with expertise.",
         module: 6
       },
@@ -2755,12 +2755,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 37,
         question: "What does 'catharsis' allow?",
         options: [
+          "Emotional suppression",
           "Emotional withholding",
           "Emotional release safely",
-          "Emotional avoidance",
-          "Emotional suppression"
+          "Emotional avoidance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Catharsis provides safe emotional expression and release.",
         module: 1
       },
@@ -2768,12 +2768,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 38,
         question: "What does 'titrated exposure' prevent?",
         options: [
+          "Progress",
           "Healing",
           "Overwhelm in trauma work",
-          "Progress",
           "Therapy ending"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Titration carefully manages exposure levels to prevent retraumatization.",
         module: 3
       },
@@ -2794,12 +2794,12 @@ Design a comprehensive drama therapy program for a specific population (choose o
         id: 40,
         question: "What credential indicates Registered Drama Therapist?",
         options: [
-          "RDT",
           "BCT",
           "PhD",
+          "RDT",
           "LPC"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "RDT is the primary credential for drama therapists.",
         module: 6
       }

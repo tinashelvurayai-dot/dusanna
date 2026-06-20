@@ -224,72 +224,72 @@ Advanced medical records management requires both technical knowledge and leader
           id: 1,
           question: "What has transformed medical records management significantly?",
           options: [
-            "Only paper systems",
-            "Evolution from paper to electronic systems",
             "Keeping same methods forever",
-            "Only administrative changes"
+            "Only paper systems",
+            "Only administrative changes",
+            "Evolution from paper to electronic systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Medical records management has evolved significantly from paper-based systems to electronic environments, transforming practices and roles."
         },
         {
           id: 2,
           question: "What establishes policies and accountability for records?",
           options: [
-            "Only individual decisions",
-            "Governance framework",
             "Random choices",
-            "Only technical systems"
+            "Only technical systems",
+            "Only individual decisions",
+            "Governance framework"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A governance framework establishes policies, procedures, and accountability structures for effective records management."
         },
         {
           id: 3,
           question: "What is the first phase of records lifecycle management?",
           options: [
-            "Destruction",
-            "Creation and capture",
+            "Use and distribution",
             "Storage only",
-            "Use and distribution"
+            "Creation and capture",
+            "Destruction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The records lifecycle begins with creation and capture when records are first created or entered into systems."
         },
         {
           id: 4,
           question: "What ensures adherence to policies and regulations?",
           options: [
-            "Ignoring rules",
-            "Compliance monitoring",
+            "Random checking",
             "Only training",
-            "Random checking"
+            "Compliance monitoring",
+            "Ignoring rules"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Compliance monitoring involves systematic checking to ensure records management practices follow established policies and regulations."
         },
         {
           id: 5,
           question: "What ensures accurate patient identification across systems?",
           options: [
-            "Random guessing",
             "Master Patient Index (MPI) management",
-            "Only using names",
-            "No system needed"
+            "No system needed",
+            "Random guessing",
+            "Only using names"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Master Patient Index management ensures accurate patient identification and linking of records across different systems and visits."
         },
         {
           id: 6,
           question: "What checks ensure uniform documentation practices?",
           options: [
-            "Accuracy standards",
-            "Consistency checks",
+            "Patient satisfaction",
             "Only timeliness",
-            "Patient satisfaction"
+            "Accuracy standards",
+            "Consistency checks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Consistency checks ensure that documentation follows uniform standards and practices across different providers and departments."
         },
         {
@@ -308,36 +308,36 @@ Advanced medical records management requires both technical knowledge and leader
           id: 8,
           question: "What determines minimum retention periods?",
           options: [
-            "Staff preferences",
-            "Regulatory requirements",
             "Available storage only",
-            "Random selection"
+            "Random selection",
+            "Staff preferences",
+            "Regulatory requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Minimum retention periods are primarily determined by laws, regulations, and accreditation standards."
         },
         {
           id: 9,
           question: "What tracks record releases completely?",
           options: [
-            "Memory only",
-            "Release tracking systems",
             "No tracking needed",
-            "Only verbal notes"
+            "Memory only",
+            "Only verbal notes",
+            "Release tracking systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Complete release tracking systems document who requested records, what was released, when, and to whom."
         },
         {
           id: 10,
           question: "What involves evaluating records technology?",
           options: [
-            "Buying first system found",
-            "System selection criteria development",
             "Only using cheapest",
-            "No evaluation needed"
+            "No evaluation needed",
+            "System selection criteria development",
+            "Buying first system found"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "System selection involves developing criteria and evaluating options to choose the best technology for records management needs."
         },
         {
@@ -346,8 +346,8 @@ Advanced medical records management requires both technical knowledge and leader
           options: [
             "Ignoring staff",
             "Staff supervision and development",
-            "Only technical work",
-            "Working alone"
+            "Working alone",
+            "Only technical work"
           ],
           correctAnswer: 1,
           explanation: "Staff supervision involves managing personnel, providing guidance, and supporting professional development in records departments."
@@ -356,21 +356,21 @@ Advanced medical records management requires both technical knowledge and leader
           id: 12,
           question: "What measures work output and efficiency?",
           options: [
-            "Guessing",
             "Productivity metrics",
-            "Only cost tracking",
-            "Patient complaints"
+            "Guessing",
+            "Patient complaints",
+            "Only cost tracking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Productivity metrics measure work output, efficiency, and resource utilization in records management operations."
         },
         {
           id: 13,
           question: "What assesses external factors affecting records management?",
           options: [
-            "Only internal focus",
-            "Environmental scanning",
             "Ignoring changes",
+            "Environmental scanning",
+            "Only internal focus",
             "Following trends blindly"
           ],
           correctAnswer: 1,
@@ -380,24 +380,24 @@ Advanced medical records management requires both technical knowledge and leader
           id: 14,
           question: "What evaluates readiness for organizational changes?",
           options: [
-            "Assuming readiness",
             "Change readiness assessment",
             "Forcing changes",
-            "Ignoring staff concerns"
+            "Ignoring staff concerns",
+            "Assuming readiness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Change readiness assessment evaluates organizational and individual readiness for implementing changes in records management."
         },
         {
           id: 15,
           question: "What is a core ethical principle in records management?",
           options: [
+            "Only efficiency matters",
             "Sharing all information",
             "Confidentiality commitment",
-            "Ignoring privacy",
-            "Only efficiency matters"
+            "Ignoring privacy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Confidentiality commitment to protecting patient privacy is a fundamental ethical principle in medical records management."
         },
         {
@@ -416,12 +416,12 @@ Advanced medical records management requires both technical knowledge and leader
           id: 17,
           question: "What manages records involved in legal proceedings?",
           options: [
-            "Destroying immediately",
             "Legal hold processes",
+            "Only keeping paper",
             "Ignoring legal requests",
-            "Only keeping paper"
+            "Destroying immediately"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Legal hold processes preserve and manage records that are involved in or potentially relevant to legal proceedings."
         },
         {
@@ -430,8 +430,8 @@ Advanced medical records management requires both technical knowledge and leader
           options: [
             "Ignoring external requests",
             "Third-party request management",
-            "Only patient requests",
-            "Automatic denial"
+            "Automatic denial",
+            "Only patient requests"
           ],
           correctAnswer: 1,
           explanation: "Third-party request management involves proper handling of records requests from attorneys, insurers, and other external entities."
@@ -441,11 +441,11 @@ Advanced medical records management requires both technical knowledge and leader
           question: "What ensures systems can recover from disasters?",
           options: [
             "Ignoring risks",
-            "Disaster recovery planning",
             "Only daily backups",
+            "Disaster recovery planning",
             "No recovery needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Disaster recovery planning ensures records systems can be restored and operations continued after major disruptions or disasters."
         },
         {
@@ -453,11 +453,11 @@ Advanced medical records management requires both technical knowledge and leader
           question: "What identifies resources needed for strategic initiatives?",
           options: [
             "Guessing resources",
-            "Resource planning",
             "Only using existing resources",
-            "Ignoring costs"
+            "Ignoring costs",
+            "Resource planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Resource planning identifies the budget, staff, technology, and other resources needed to implement strategic initiatives successfully."
         }
       ],
@@ -684,10 +684,10 @@ Effective regulatory compliance requires proactive management, thorough understa
           id: 1,
           question: "What federal law primarily protects health information privacy?",
           options: [
-            "FDA regulations",
+            "State laws only",
             "HIPAA",
-            "OSHA only",
-            "State laws only"
+            "FDA regulations",
+            "OSHA only"
           ],
           correctAnswer: 1,
           explanation: "HIPAA (Health Insurance Portability and Accountability Act) is the primary federal law protecting health information privacy and security."
@@ -697,59 +697,59 @@ Effective regulatory compliance requires proactive management, thorough understa
           question: "What are accreditation standards from organizations like The Joint Commission?",
           options: [
             "Optional guidelines",
-            "Required standards for accredited organizations",
+            "International rules only",
             "Only for teaching hospitals",
-            "International rules only"
+            "Required standards for accredited organizations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Accreditation standards from organizations like The Joint Commission are required for organizations seeking or maintaining accreditation."
         },
         {
           id: 3,
           question: "What HIPAA rule requires administrative, physical, and technical safeguards?",
           options: [
-            "Privacy Rule only",
             "Security Rule",
-            "Breach Notification Rule",
-            "Enforcement Rule"
+            "Enforcement Rule",
+            "Privacy Rule only",
+            "Breach Notification Rule"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The HIPAA Security Rule specifically requires administrative, physical, and technical safeguards to protect electronic PHI."
         },
         {
           id: 4,
           question: "What are requirements for who can document in medical records?",
           options: [
+            "Any staff can document",
             "No requirements",
             "Authentication standards",
-            "Only doctors can document",
-            "Any staff can document"
+            "Only doctors can document"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Authentication standards establish who is authorized to document in medical records and how their entries must be authenticated."
         },
         {
           id: 5,
           question: "What primarily determines minimum retention periods?",
           options: [
+            "Cost considerations only",
             "Storage space available",
-            "Regulatory requirements",
             "Staff preferences",
-            "Cost considerations only"
+            "Regulatory requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Minimum retention periods are primarily determined by laws, regulations, and accreditation standards, not organizational preferences."
         },
         {
           id: 6,
           question: "What requires tracking certain disclosures of health information?",
           options: [
-            "No tracking required",
             "Accounting of disclosures requirement",
             "Only for research",
+            "No tracking required",
             "Only for law enforcement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The accounting of disclosures requirement mandates tracking certain disclosures of protected health information."
         },
         {
@@ -757,45 +757,45 @@ Effective regulatory compliance requires proactive management, thorough understa
           question: "What is required by HIPAA Security Rule regularly?",
           options: [
             "Only initial assessment",
-            "Regular risk assessments",
+            "Only after breaches",
             "No risk assessment needed",
-            "Only after breaches"
+            "Regular risk assessments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "HIPAA Security Rule requires covered entities to conduct regular risk assessments of their security safeguards."
         },
         {
           id: 8,
           question: "What prepares organizations for regulatory surveys?",
           options: [
+            "Guessing what will be checked",
             "Ignoring regulations",
             "External audit readiness preparation",
-            "Only when notified",
-            "Guessing what will be checked"
+            "Only when notified"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "External audit readiness involves proactive preparation for surveys by regulatory and accrediting bodies."
         },
         {
           id: 9,
           question: "What is required assessment after potential privacy breach?",
           options: [
-            "Ignoring potential breaches",
-            "Breach risk assessment",
             "Only notifying patients",
-            "Waiting for complaints"
+            "Waiting for complaints",
+            "Breach risk assessment",
+            "Ignoring potential breaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A breach risk assessment is required to determine if a privacy incident meets the definition of a breach requiring notification."
         },
         {
           id: 10,
           question: "What tracks regulatory changes affecting operations?",
           options: [
-            "Ignoring changes",
+            "Assuming no changes",
             "Regulatory monitoring systems",
             "Only reacting to fines",
-            "Assuming no changes"
+            "Ignoring changes"
           ],
           correctAnswer: 1,
           explanation: "Regulatory monitoring involves systems to track changes in laws, regulations, and standards that affect operations."
@@ -804,34 +804,34 @@ Effective regulatory compliance requires proactive management, thorough understa
           id: 11,
           question: "What have additional confidentiality protections?",
           options: [
-            "Only routine records",
             "Behavioral health records",
+            "Only surgical records",
             "No special protections",
-            "Only surgical records"
+            "Only routine records"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Behavioral health records, including mental health and substance abuse treatment, have additional confidentiality protections under federal law."
         },
         {
           id: 12,
           question: "What is the European Union's data protection regulation?",
           options: [
-            "HIPAA",
-            "GDPR",
             "Only national laws",
-            "No European regulations"
+            "No European regulations",
+            "HIPAA",
+            "GDPR"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "GDPR (General Data Protection Regulation) is the European Union's comprehensive data protection law affecting health information."
         },
         {
           id: 13,
           question: "What maintains current approved policies and procedures?",
           options: [
-            "Memory only",
+            "Only verbal policies",
             "Policy documentation management",
-            "No documentation needed",
-            "Only verbal policies"
+            "Memory only",
+            "No documentation needed"
           ],
           correctAnswer: 1,
           explanation: "Policy documentation management ensures current, approved policies and procedures are maintained and accessible."
@@ -842,8 +842,8 @@ Effective regulatory compliance requires proactive management, thorough understa
           options: [
             "Ignoring compliance",
             "Compliance culture development",
-            "Only punishment for violations",
-            "No culture needed"
+            "No culture needed",
+            "Only punishment for violations"
           ],
           correctAnswer: 1,
           explanation: "Compliance culture development involves fostering an organizational environment where compliance is valued and integrated into operations."
@@ -852,33 +852,33 @@ Effective regulatory compliance requires proactive management, thorough understa
           id: 15,
           question: "What assesses vendor compliance before engagement?",
           options: [
+            "No vendor assessment",
             "Assuming vendor compliance",
             "Due diligence assessment",
-            "Only checking price",
-            "No vendor assessment"
+            "Only checking price"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Due diligence involves assessing vendor compliance capabilities and track record before entering into business relationships."
         },
         {
           id: 16,
           question: "What are key indicators of compliance effectiveness?",
           options: [
-            "Only absence of fines",
             "Compliance metrics",
             "Guessing effectiveness",
-            "Only patient satisfaction"
+            "Only patient satisfaction",
+            "Only absence of fines"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Compliance metrics are specific indicators that measure the effectiveness of compliance programs and activities."
         },
         {
           id: 17,
           question: "What requires regular training for different staff roles?",
           options: [
-            "Optional training only",
-            "Regulatory-required training programs",
             "No training requirements",
+            "Regulatory-required training programs",
+            "Optional training only",
             "Only initial orientation"
           ],
           correctAnswer: 1,
@@ -888,9 +888,9 @@ Effective regulatory compliance requires proactive management, thorough understa
           id: 18,
           question: "What develops plans to address audit findings?",
           options: [
-            "Ignoring findings",
-            "Corrective action planning",
             "Only disputing findings",
+            "Corrective action planning",
+            "Ignoring findings",
             "No action needed"
           ],
           correctAnswer: 1,
@@ -900,24 +900,24 @@ Effective regulatory compliance requires proactive management, thorough understa
           id: 19,
           question: "What protects against genetic discrimination?",
           options: [
-            "No protections",
-            "GINA (Genetic Information Nondiscrimination Act)",
+            "State laws only",
             "Only for employment",
-            "State laws only"
+            "No protections",
+            "GINA (Genetic Information Nondiscrimination Act)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "GINA provides protections against discrimination based on genetic information in health insurance and employment."
         },
         {
           id: 20,
           question: "What involves ongoing monitoring of compliance indicators?",
           options: [
-            "Only annual review",
             "Continuous compliance monitoring",
-            "Only when problems occur",
-            "No monitoring needed"
+            "No monitoring needed",
+            "Only annual review",
+            "Only when problems occur"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Continuous compliance monitoring involves ongoing tracking of compliance indicators rather than only periodic reviews."
         }
       ],
@@ -1146,48 +1146,48 @@ Effective information governance and security require a comprehensive, strategic
           id: 1,
           question: "What is comprehensive management of healthcare information assets?",
           options: [
-            "Only technical security",
-            "Information governance",
             "Only privacy compliance",
-            "Only data entry"
+            "Only data entry",
+            "Only technical security",
+            "Information governance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Information governance is the comprehensive management of all healthcare information assets throughout their lifecycle."
         },
         {
           id: 2,
           question: "What ensures governance supports organizational goals?",
           options: [
+            "Ignoring organizational goals",
             "Working in isolation",
-            "Alignment with organizational strategy",
             "Only following regulations",
-            "Ignoring organizational goals"
+            "Alignment with organizational strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strategic alignment ensures information governance initiatives support and advance organizational strategic goals."
         },
         {
           id: 3,
           question: "What is a complete inventory of information assets and systems?",
           options: [
-            "Guessing assets",
             "Asset inventory",
             "Only counting computers",
+            "Guessing assets",
             "No inventory needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "An asset inventory identifies and documents all information assets and systems that need governance and protection."
         },
         {
           id: 4,
           question: "What is the organizational structure for security decision-making?",
           options: [
-            "No structure needed",
-            "Security governance",
             "Only IT decisions",
-            "Individual decisions only"
+            "No structure needed",
+            "Individual decisions only",
+            "Security governance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Security governance establishes the organizational structure and processes for security decision-making and oversight."
         },
         {
@@ -1206,34 +1206,34 @@ Effective information governance and security require a comprehensive, strategic
           id: 6,
           question: "What prevents unauthorized data exfiltration?",
           options: [
-            "Only firewalls",
-            "Data loss prevention systems",
             "No prevention possible",
-            "Only monitoring"
+            "Only monitoring",
+            "Data loss prevention systems",
+            "Only firewalls"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Data loss prevention systems monitor and control data transfers to prevent unauthorized exfiltration of sensitive information."
         },
         {
           id: 7,
           question: "What is a comprehensive plan for responding to security incidents?",
           options: [
-            "Only calling IT",
             "Incident response plan",
+            "Only after incidents",
             "No plan needed",
-            "Only after incidents"
+            "Only calling IT"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "An incident response plan provides detailed procedures for detecting, responding to, and recovering from security incidents."
         },
         {
           id: 8,
           question: "What assesses security risks from third-party vendors?",
           options: [
-            "Assuming vendor security",
-            "Vendor risk assessment",
             "Only checking price",
-            "No vendor assessment"
+            "Vendor risk assessment",
+            "No vendor assessment",
+            "Assuming vendor security"
           ],
           correctAnswer: 1,
           explanation: "Vendor risk assessment evaluates the security risks posed by third-party vendors before and during business relationships."
@@ -1242,22 +1242,22 @@ Effective information governance and security require a comprehensive, strategic
           id: 9,
           question: "What uses multiple layers of security controls?",
           options: [
+            "No layered approach",
             "Single point protection",
-            "Defense-in-depth strategy",
             "Only perimeter security",
-            "No layered approach"
+            "Defense-in-depth strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Defense-in-depth uses multiple layers of security controls so if one layer fails, others provide protection."
         },
         {
           id: 10,
           question: "What assesses privacy implications of new systems?",
           options: [
-            "Ignoring privacy",
+            "No assessment needed",
             "Privacy impact assessments",
             "Only technical assessment",
-            "No assessment needed"
+            "Ignoring privacy"
           ],
           correctAnswer: 1,
           explanation: "Privacy impact assessments evaluate how new systems, processes, or projects affect privacy and identify mitigation strategies."
@@ -1278,22 +1278,22 @@ Effective information governance and security require a comprehensive, strategic
           id: 12,
           question: "What provides centralized security logging and analysis?",
           options: [
-            "Separate log files",
             "Security Information and Event Management (SIEM)",
+            "Separate log files",
             "No centralized logging",
             "Only manual review"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SIEM systems provide centralized collection, analysis, and reporting of security events from multiple sources."
         },
         {
           id: 13,
           question: "What maps security controls to regulatory requirements?",
           options: [
-            "Assuming compliance",
+            "No mapping needed",
             "Regulatory mapping",
             "Only implementing controls",
-            "No mapping needed"
+            "Assuming compliance"
           ],
           correctAnswer: 1,
           explanation: "Regulatory mapping documents how specific security controls address particular regulatory requirements."
@@ -1302,33 +1302,33 @@ Effective information governance and security require a comprehensive, strategic
           id: 14,
           question: "What addresses security for connected medical devices?",
           options: [
-            "Ignoring device security",
             "Internet of Medical Things (IoMT) security",
             "Only traditional computers",
+            "Ignoring device security",
             "No special security needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "IoMT security addresses the unique security challenges of connected medical devices and healthcare IoT systems."
         },
         {
           id: 15,
           question: "What involves active leadership support for security?",
           options: [
+            "No leadership role",
             "Leadership ignoring security",
-            "Leadership engagement in security",
             "Only IT responsibility",
-            "No leadership role"
+            "Leadership engagement in security"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Active leadership engagement demonstrates organizational commitment to security and sets the tone for security culture."
         },
         {
           id: 16,
           question: "What provides a framework for security metrics?",
           options: [
-            "Random measurements",
-            "Security metrics framework",
             "Only counting incidents",
+            "Security metrics framework",
+            "Random measurements",
             "No metrics needed"
           ],
           correctAnswer: 1,
@@ -1340,8 +1340,8 @@ Effective information governance and security require a comprehensive, strategic
           options: [
             "No relationship",
             "Policy hierarchy",
-            "Only procedures matter",
-            "Only policies matter"
+            "Only policies matter",
+            "Only procedures matter"
           ],
           correctAnswer: 1,
           explanation: "Policy hierarchy defines the relationship between high-level policies, detailed procedures, guidelines, and standards."
@@ -1350,21 +1350,21 @@ Effective information governance and security require a comprehensive, strategic
           id: 18,
           question: "What provides access only when needed for specific tasks?",
           options: [
-            "Permanent access for all",
             "Just-in-time access",
-            "Maximum access always",
-            "No access control"
+            "No access control",
+            "Permanent access for all",
+            "Maximum access always"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Just-in-time access provides privileges only when needed for specific tasks and removes them afterward, reducing standing privileges."
         },
         {
           id: 19,
           question: "What preserves information for legal proceedings?",
           options: [
-            "Deleting potentially relevant information",
-            "Legal hold processes",
             "Only keeping current records",
+            "Legal hold processes",
+            "Deleting potentially relevant information",
             "No preservation needed"
           ],
           correctAnswer: 1,
@@ -1374,12 +1374,12 @@ Effective information governance and security require a comprehensive, strategic
           id: 20,
           question: "What uses external threat information to improve security?",
           options: [
-            "Ignoring external threats",
-            "Threat intelligence",
             "Only internal monitoring",
-            "No external information"
+            "No external information",
+            "Threat intelligence",
+            "Ignoring external threats"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Threat intelligence uses information about external threats to improve security defenses and incident response capabilities."
         }
       ],
@@ -1609,11 +1609,11 @@ Effective use of analytics in medical records management can drive significant i
           question: "What understands what has happened through data summarization?",
           options: [
             "Predictive analytics",
-            "Descriptive analytics",
+            "Real-time analytics",
             "Prescriptive analytics",
-            "Real-time analytics"
+            "Descriptive analytics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Descriptive analytics summarizes historical data to describe what has occurred in the past."
         },
         {
@@ -1621,23 +1621,23 @@ Effective use of analytics in medical records management can drive significant i
           question: "What are dimensions like accuracy and completeness?",
           options: [
             "Only data quantity",
-            "Data quality dimensions",
             "Only data speed",
-            "Data storage dimensions"
+            "Data storage dimensions",
+            "Data quality dimensions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Data quality dimensions include accuracy, completeness, consistency, timeliness, validity, and uniqueness."
         },
         {
           id: 3,
           question: "What programs improve clinical documentation quality?",
           options: [
-            "Only coding programs",
             "Clinical Documentation Improvement (CDI) programs",
+            "No improvement programs",
             "Only billing programs",
-            "No improvement programs"
+            "Only coding programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CDI programs are structured initiatives to improve the quality and completeness of clinical documentation."
         },
         {
@@ -1645,23 +1645,23 @@ Effective use of analytics in medical records management can drive significant i
           question: "What are standardized measures of healthcare quality?",
           options: [
             "Only patient satisfaction",
-            "Quality measures",
+            "Staff preferences",
             "Only cost measures",
-            "Staff preferences"
+            "Quality measures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality measures are standardized metrics used to assess and compare healthcare quality across organizations."
         },
         {
           id: 5,
           question: "What designs effective performance displays?",
           options: [
+            "Only spreadsheets",
             "Only data collection",
             "Performance dashboard development",
-            "Only spreadsheets",
             "No design needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Dashboard development involves designing effective visual displays of performance data for different audiences."
         },
         {
@@ -1670,8 +1670,8 @@ Effective use of analytics in medical records management can drive significant i
           options: [
             "Treating all equally",
             "Risk stratification",
-            "Only acute care",
-            "No risk identification"
+            "No risk identification",
+            "Only acute care"
           ],
           correctAnswer: 1,
           explanation: "Risk stratification uses data to identify patients at higher risk who may need more intensive care management."
@@ -1680,12 +1680,12 @@ Effective use of analytics in medical records management can drive significant i
           id: 7,
           question: "What measures how well CDS systems support decisions?",
           options: [
-            "Assuming effectiveness",
             "CDS effectiveness measurement",
-            "Only counting alerts",
-            "No measurement needed"
+            "Assuming effectiveness",
+            "No measurement needed",
+            "Only counting alerts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CDS effectiveness measurement evaluates how well clinical decision support systems actually support clinical decision-making."
         },
         {
@@ -1693,11 +1693,11 @@ Effective use of analytics in medical records management can drive significant i
           question: "What analyzes completeness of charge capture?",
           options: [
             "Only total charges",
-            "Charge capture analysis",
             "Only payment collection",
+            "Charge capture analysis",
             "No charge analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Charge capture analysis examines whether all billable services are properly captured and billed."
         },
         {
@@ -1716,48 +1716,48 @@ Effective use of analytics in medical records management can drive significant i
           id: 10,
           question: "What analyzes patient satisfaction data?",
           options: [
-            "Ignoring satisfaction",
             "Patient satisfaction analysis",
+            "No analysis needed",
             "Only complaint counting",
-            "No analysis needed"
+            "Ignoring satisfaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Patient satisfaction analysis examines satisfaction data to identify strengths and improvement opportunities."
         },
         {
           id: 11,
           question: "What governs research data activities?",
           options: [
-            "No governance needed",
-            "Research data governance",
+            "Individual decisions",
             "Only researcher control",
-            "Individual decisions"
+            "No governance needed",
+            "Research data governance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Research data governance establishes policies and oversight for research data management and use."
         },
         {
           id: 12,
           question: "What predicts which patients are likely to be readmitted?",
           options: [
-            "Guessing readmissions",
             "Readmission prediction modeling",
             "Only after readmission",
+            "Guessing readmissions",
             "No prediction possible"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Readmission prediction uses data and statistical models to identify patients at high risk for hospital readmission."
         },
         {
           id: 13,
           question: "What governs analytics activities?",
           options: [
-            "No governance needed",
-            "Analytics governance structure",
+            "Individual projects only",
             "Only analyst decisions",
-            "Individual projects only"
+            "No governance needed",
+            "Analytics governance structure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Analytics governance provides oversight and structure for analytics activities to ensure quality and appropriate use."
         },
         {
@@ -1765,11 +1765,11 @@ Effective use of analytics in medical records management can drive significant i
           question: "What are technology platforms for healthcare analytics?",
           options: [
             "Only spreadsheets",
+            "No technology needed",
             "Analytics platforms",
-            "Only paper reports",
-            "No technology needed"
+            "Only paper reports"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Analytics platforms provide integrated technology for data collection, analysis, and reporting in healthcare."
         },
         {
@@ -1777,47 +1777,47 @@ Effective use of analytics in medical records management can drive significant i
           question: "What strategies increase adoption of analytics?",
           options: [
             "Forcing use",
+            "Assuming adoption",
             "Analytics adoption strategies",
-            "Only technical deployment",
-            "Assuming adoption"
+            "Only technical deployment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Adoption strategies help increase user acceptance and utilization of analytics tools and insights."
         },
         {
           id: 16,
           question: "What measures return on analytics investments?",
           options: [
+            "No measurement needed",
             "Only counting costs",
             "Return on investment measurement",
-            "Assuming value",
-            "No measurement needed"
+            "Assuming value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ROI measurement evaluates the financial return and value generated from analytics investments."
         },
         {
           id: 17,
           question: "What understands why things happened through analysis?",
           options: [
-            "Descriptive analytics",
             "Diagnostic analytics",
-            "Predictive analytics",
-            "Prescriptive analytics"
+            "Descriptive analytics",
+            "Prescriptive analytics",
+            "Predictive analytics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Diagnostic analytics investigates data to understand why certain outcomes or patterns occurred."
         },
         {
           id: 18,
           question: "What is the formal process for querying providers about documentation?",
           options: [
-            "Informal questions",
-            "CDI query process",
             "Only after billing",
-            "No query process"
+            "Informal questions",
+            "No query process",
+            "CDI query process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The CDI query process provides a formal method for documentation specialists to clarify clinical documentation with providers."
         },
         {
@@ -1825,23 +1825,23 @@ Effective use of analytics in medical records management can drive significant i
           question: "What compares performance against standards and peers?",
           options: [
             "Only internal review",
-            "Benchmarking",
+            "No comparison",
             "Assuming performance",
-            "No comparison"
+            "Benchmarking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Benchmarking compares organizational performance against established standards or peer organizations."
         },
         {
           id: 20,
           question: "What divides populations into meaningful groups for analysis?",
           options: [
-            "Treating all the same",
-            "Population segmentation",
             "Only individual analysis",
-            "No division needed"
+            "Treating all the same",
+            "No division needed",
+            "Population segmentation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Population segmentation divides patient populations into meaningful subgroups for targeted analysis and intervention."
         }
       ],
@@ -2057,10 +2057,10 @@ Effective technology management requires balancing current operational needs wit
           id: 1,
           question: "What understands existing technology systems and capabilities?",
           options: [
-            "Only future planning",
+            "Only vendor claims",
             "Current state assessment",
             "Ignoring current systems",
-            "Only vendor claims"
+            "Only future planning"
           ],
           correctAnswer: 1,
           explanation: "Current state assessment evaluates existing technology systems, capabilities, and limitations before planning improvements."
@@ -2070,68 +2070,68 @@ Effective technology management requires balancing current operational needs wit
           question: "What defines functional and technical requirements for new systems?",
           options: [
             "Buying first system found",
+            "No requirements needed",
             "Requirements definition",
-            "Only following trends",
-            "No requirements needed"
+            "Only following trends"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Requirements definition clearly specifies what new systems must do functionally and technically to meet organizational needs."
         },
         {
           id: 3,
           question: "What is governance structure for implementation projects?",
           options: [
-            "No governance needed",
             "Project governance",
             "Only project manager",
+            "No governance needed",
             "Individual decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Project governance establishes decision-making structures and processes for technology implementation projects."
         },
         {
           id: 4,
           question: "What monitors system performance and user satisfaction?",
           options: [
-            "Only when problems occur",
-            "Performance monitoring",
             "Assuming performance",
-            "No monitoring needed"
+            "No monitoring needed",
+            "Performance monitoring",
+            "Only when problems occur"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Performance monitoring continuously tracks system performance, reliability, and user satisfaction."
         },
         {
           id: 5,
           question: "What implements healthcare data standards for interoperability?",
           options: [
+            "Only internal standards",
             "Using proprietary formats",
-            "Standards adoption",
             "No standards needed",
-            "Only internal standards"
+            "Standards adoption"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Standards adoption involves implementing industry data standards to enable interoperability between systems."
         },
         {
           id: 6,
           question: "What fosters culture supporting innovation?",
           options: [
+            "No culture focus",
             "Resisting change",
             "Innovation culture development",
-            "Only following others",
-            "No culture focus"
+            "Only following others"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Innovation culture creates an environment where new ideas are welcomed, evaluated, and supported."
         },
         {
           id: 7,
           question: "What are AI applications in healthcare information management?",
           options: [
-            "Only science fiction",
-            "Artificial Intelligence in healthcare",
             "Only manual processes",
+            "Artificial Intelligence in healthcare",
+            "Only science fiction",
             "No AI applications"
           ],
           correctAnswer: 1,
@@ -2141,9 +2141,9 @@ Effective technology management requires balancing current operational needs wit
           id: 8,
           question: "What designs data structures to support healthcare needs?",
           options: [
-            "Random data organization",
-            "Data modeling",
             "No design needed",
+            "Data modeling",
+            "Random data organization",
             "Only using defaults"
           ],
           correctAnswer: 1,
@@ -2165,24 +2165,24 @@ Effective technology management requires balancing current operational needs wit
           id: 10,
           question: "What develops strategy for cloud adoption?",
           options: [
-            "Using cloud randomly",
-            "Cloud adoption strategy",
+            "Only following trends",
             "No cloud strategy",
-            "Only following trends"
+            "Using cloud randomly",
+            "Cloud adoption strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cloud adoption strategy develops a planned approach to using cloud services based on organizational needs and capabilities."
         },
         {
           id: 11,
           question: "What manages mobile devices used in healthcare?",
           options: [
-            "Ignoring mobile devices",
             "Mobile device management",
+            "Ignoring mobile devices",
             "Only personal responsibility",
             "No mobile management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Mobile device management provides centralized control and security for mobile devices used in healthcare."
         },
         {
@@ -2191,8 +2191,8 @@ Effective technology management requires balancing current operational needs wit
           options: [
             "Using any available",
             "Telehealth platform selection",
-            "Only video calls",
-            "No selection process"
+            "No selection process",
+            "Only video calls"
           ],
           correctAnswer: 1,
           explanation: "Telehealth platform selection involves evaluating and choosing appropriate technology for telehealth services."
@@ -2201,21 +2201,21 @@ Effective technology management requires balancing current operational needs wit
           id: 13,
           question: "What is organizational structure for technology decision-making?",
           options: [
-            "No structure needed",
             "Technology governance structure",
-            "Only IT decisions",
-            "Individual choices"
+            "No structure needed",
+            "Individual choices",
+            "Only IT decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Technology governance structure establishes how technology decisions are made and who has decision authority."
         },
         {
           id: 14,
           question: "What develops strategy for digital transformation?",
           options: [
-            "Random technology adoption",
-            "Digital strategy development",
             "Only maintaining current systems",
+            "Digital strategy development",
+            "Random technology adoption",
             "No strategy needed"
           ],
           correctAnswer: 1,
@@ -2225,10 +2225,10 @@ Effective technology management requires balancing current operational needs wit
           id: 15,
           question: "What manages technology lifecycle and obsolescence?",
           options: [
-            "Using systems forever",
+            "No lifecycle management",
             "Technology obsolescence management",
             "Only when systems fail",
-            "No lifecycle management"
+            "Using systems forever"
           ],
           correctAnswer: 1,
           explanation: "Technology obsolescence management proactively addresses aging technology and plans for replacement."
@@ -2237,12 +2237,12 @@ Effective technology management requires balancing current operational needs wit
           id: 16,
           question: "What evaluates potential vendors and solutions?",
           options: [
-            "Choosing first vendor",
             "Vendor evaluation",
+            "Choosing first vendor",
             "Only price comparison",
             "No evaluation needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Vendor evaluation systematically assesses potential vendors against defined criteria before selection."
         },
         {
@@ -2250,23 +2250,23 @@ Effective technology management requires balancing current operational needs wit
           question: "What manages organizational changes with new technology?",
           options: [
             "Ignoring people impacts",
-            "Change management",
             "Only technical deployment",
-            "Forcing adoption"
+            "Forcing adoption",
+            "Change management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Change management addresses the people side of technology implementations to ensure successful adoption."
         },
         {
           id: 18,
           question: "What manages interfaces between different systems?",
           options: [
+            "Only separate systems",
             "Ignoring interfaces",
             "Interface management",
-            "Only separate systems",
             "No interface management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Interface management oversees the connections between different healthcare systems to ensure data flows correctly."
         },
         {
@@ -2274,21 +2274,21 @@ Effective technology management requires balancing current operational needs wit
           question: "What extracts information from unstructured clinical text?",
           options: [
             "Only manual review",
-            "Natural Language Processing",
+            "No text analysis",
             "Ignoring text data",
-            "No text analysis"
+            "Natural Language Processing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Natural Language Processing uses AI to extract meaningful information from unstructured clinical notes and documents."
         },
         {
           id: 20,
           question: "What ensures consistent core data across systems?",
           options: [
-            "Duplicate data entry",
+            "Only system-specific data",
             "Master Data Management",
             "No consistency needed",
-            "Only system-specific data"
+            "Duplicate data entry"
           ],
           correctAnswer: 1,
           explanation: "Master Data Management ensures core data like patient demographics is consistent across all systems."
@@ -2507,11 +2507,11 @@ Effective leadership in medical records management requires combining technical 
           question: "What understands the difference between leadership and management?",
           options: [
             "They are the same",
-            "Leadership vs. management distinction",
+            "Only leadership matters",
             "Only management matters",
-            "Only leadership matters"
+            "Leadership vs. management distinction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Leadership focuses on vision, inspiration, and change, while management focuses on planning, organizing, and controlling."
         },
         {
@@ -2530,12 +2530,12 @@ Effective leadership in medical records management requires combining technical 
           id: 3,
           question: "What develops and manages departmental budgets?",
           options: [
-            "Only spending money",
             "Budget development and management",
-            "Only accounting department",
-            "No budget management"
+            "No budget management",
+            "Only spending money",
+            "Only accounting department"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Budget development involves creating financial plans, while budget management ensures spending aligns with plans."
         },
         {
@@ -2544,8 +2544,8 @@ Effective leadership in medical records management requires combining technical 
           options: [
             "Only hiring staff",
             "Staff development",
-            "Only task assignment",
-            "No development needed"
+            "No development needed",
+            "Only task assignment"
           ],
           correctAnswer: 1,
           explanation: "Staff development involves training, mentoring, and providing opportunities for professional growth."
@@ -2554,22 +2554,22 @@ Effective leadership in medical records management requires combining technical 
           id: 5,
           question: "What communicates effectively with different stakeholder groups?",
           options: [
-            "Only formal communication",
             "Stakeholder communication",
-            "Only internal communication",
-            "No communication planning"
+            "No communication planning",
+            "Only formal communication",
+            "Only internal communication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stakeholder communication tailors messages and methods to different groups with different needs and interests."
         },
         {
           id: 6,
           question: "What fosters culture focused on quality improvement?",
           options: [
-            "Only quality metrics",
+            "No culture focus",
             "Quality culture development",
-            "Only inspection",
-            "No culture focus"
+            "Only quality metrics",
+            "Only inspection"
           ],
           correctAnswer: 1,
           explanation: "Quality culture development creates an environment where everyone focuses on continuous quality improvement."
@@ -2580,8 +2580,8 @@ Effective leadership in medical records management requires combining technical 
           options: [
             "Only technical risks",
             "Enterprise risk management integration",
-            "No risk integration",
-            "Only compliance risks"
+            "Only compliance risks",
+            "No risk integration"
           ],
           correctAnswer: 1,
           explanation: "Enterprise risk management integration ensures information risks are managed as part of overall organizational risk management."
@@ -2591,20 +2591,20 @@ Effective leadership in medical records management requires combining technical 
           question: "What leads innovation in information management?",
           options: [
             "Resisting change",
-            "Innovation leadership",
+            "Only following others",
             "Only maintaining current systems",
-            "Only following others"
+            "Innovation leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Innovation leadership involves encouraging, supporting, and guiding innovative approaches to information management."
         },
         {
           id: 9,
           question: "What collaborates effectively with other departments?",
           options: [
-            "Working in isolation",
-            "Interdepartmental collaboration",
             "Only giving orders",
+            "Interdepartmental collaboration",
+            "Working in isolation",
             "No collaboration needed"
           ],
           correctAnswer: 1,
@@ -2615,21 +2615,21 @@ Effective leadership in medical records management requires combining technical 
           question: "What involves ongoing professional development?",
           options: [
             "Only initial education",
-            "Continuing education",
             "No further learning",
-            "Only on-the-job learning"
+            "Only on-the-job learning",
+            "Continuing education"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Continuing education involves ongoing learning to maintain and enhance professional knowledge and skills."
         },
         {
           id: 11,
           question: "What uses ethical frameworks for decision making?",
           options: [
-            "Only legal compliance",
-            "Ethical decision-making frameworks",
             "Only practical considerations",
-            "No ethical framework"
+            "Ethical decision-making frameworks",
+            "No ethical framework",
+            "Only legal compliance"
           ],
           correctAnswer: 1,
           explanation: "Ethical frameworks provide structured approaches to making decisions that consider ethical principles and values."
@@ -2639,21 +2639,21 @@ Effective leadership in medical records management requires combining technical 
           question: "What develops meaningful performance metrics?",
           options: [
             "Only counting activities",
-            "Performance metrics development",
             "No metrics needed",
+            "Performance metrics development",
             "Only financial metrics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Performance metrics development creates meaningful measures that reflect important aspects of performance and outcomes."
         },
         {
           id: 13,
           question: "What prepares for emergencies affecting information systems?",
           options: [
-            "Only reacting to emergencies",
+            "Only IT responsibility",
             "Emergency preparedness planning",
             "No emergency planning",
-            "Only IT responsibility"
+            "Only reacting to emergencies"
           ],
           correctAnswer: 1,
           explanation: "Emergency preparedness involves planning and preparing for potential emergencies that could affect information systems."
@@ -2662,10 +2662,10 @@ Effective leadership in medical records management requires combining technical 
           id: 14,
           question: "What plans for leadership succession?",
           options: [
-            "Only current leadership",
-            "Succession planning",
             "No succession planning",
-            "Only external hiring"
+            "Succession planning",
+            "Only external hiring",
+            "Only current leadership"
           ],
           correctAnswer: 1,
           explanation: "Succession planning identifies and develops potential future leaders to ensure continuity of leadership."
@@ -2675,20 +2675,20 @@ Effective leadership in medical records management requires combining technical 
           question: "What involves regular self-assessment of leadership?",
           options: [
             "Assuming effectiveness",
-            "Leadership self-assessment",
             "Only external feedback",
+            "Leadership self-assessment",
             "No self-assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Leadership self-assessment involves regular reflection on one's own leadership strengths and development needs."
         },
         {
           id: 16,
           question: "What involves self-awareness and empathy?",
           options: [
-            "Only technical skills",
-            "Emotional intelligence",
             "Only intelligence quotient",
+            "Emotional intelligence",
+            "Only technical skills",
             "No emotional aspects"
           ],
           correctAnswer: 1,
@@ -2698,48 +2698,48 @@ Effective leadership in medical records management requires combining technical 
           id: 17,
           question: "What analyzes ROI for technology investments?",
           options: [
-            "Only purchase cost",
             "Return on investment analysis",
-            "No financial analysis",
-            "Only technical features"
+            "Only technical features",
+            "Only purchase cost",
+            "No financial analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ROI analysis evaluates the financial return and value generated from investments in technology and other improvements."
         },
         {
           id: 18,
           question: "What builds effective and cohesive teams?",
           options: [
-            "Only individual work",
             "Team building",
             "Only task assignment",
-            "No team focus"
+            "No team focus",
+            "Only individual work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Team building develops effective working relationships, communication, and collaboration within teams."
         },
         {
           id: 19,
           question: "What leads digital transformation initiatives?",
           options: [
-            "Only maintaining current systems",
             "Digital transformation leadership",
+            "No transformation leadership",
             "Only technical implementation",
-            "No transformation leadership"
+            "Only maintaining current systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Digital transformation leadership guides organizations through fundamental changes enabled by digital technology."
         },
         {
           id: 20,
           question: "What ensures ethical use of healthcare data?",
           options: [
-            "Using data however wanted",
-            "Ethical data use leadership",
+            "No ethical considerations",
             "Only legal compliance",
-            "No ethical considerations"
+            "Using data however wanted",
+            "Ethical data use leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ethical data use leadership ensures healthcare data is used in ways that respect patient rights and societal values."
         }
       ],
@@ -2754,47 +2754,47 @@ Effective leadership in medical records management requires combining technical 
       question: "What has evolved from paper to electronic systems?",
       options: [
         "Only clinical care",
-        "Medical records management",
+        "Only patient communication",
         "Only hospital buildings",
-        "Only patient communication"
+        "Medical records management"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Medical records management has evolved significantly from paper-based systems to electronic environments requiring new skills and approaches."
     },
     {
       id: 2,
       question: "What is the primary federal law protecting health information?",
       options: [
-        "GDPR",
         "HIPAA",
+        "GDPR",
         "FDA regulations",
         "State laws only"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "HIPAA is the primary federal law establishing standards for protecting sensitive patient health information."
     },
     {
       id: 3,
       question: "What is comprehensive management of healthcare information assets?",
       options: [
-        "Only technical security",
-        "Information governance",
         "Only data entry",
-        "Only privacy compliance"
+        "Only technical security",
+        "Only privacy compliance",
+        "Information governance"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Information governance provides comprehensive management of all healthcare information assets throughout their lifecycle."
     },
     {
       id: 4,
       question: "What understands what has happened through data summarization?",
       options: [
-        "Predictive analytics",
         "Descriptive analytics",
+        "Predictive analytics",
         "Prescriptive analytics",
         "Real-time analytics"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Descriptive analytics summarizes historical data to describe what has occurred in healthcare settings."
     },
     {
@@ -2802,45 +2802,45 @@ Effective leadership in medical records management requires combining technical 
       question: "What understands existing technology systems and capabilities?",
       options: [
         "Only future planning",
-        "Current state assessment",
         "Ignoring current systems",
+        "Current state assessment",
         "Only vendor claims"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Current state assessment evaluates existing technology before planning improvements or new implementations."
     },
     {
       id: 6,
       question: "What focuses on vision and inspiration rather than daily management?",
       options: [
-        "Only management",
         "Leadership",
         "Only administration",
-        "Only technical work"
+        "Only technical work",
+        "Only management"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Leadership focuses on setting vision, inspiring others, and leading change rather than day-to-day management tasks."
     },
     {
       id: 7,
       question: "What establishes policies and accountability for records?",
       options: [
-        "Only individual decisions",
         "Governance framework",
+        "Only individual decisions",
         "Random choices",
         "Only technical systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "A governance framework establishes policies, procedures, and accountability structures for records management."
     },
     {
       id: 8,
       question: "What are accreditation standards from organizations like The Joint Commission?",
       options: [
-        "Optional guidelines",
+        "International rules only",
         "Required standards for accreditation",
-        "Only for teaching hospitals",
-        "International rules only"
+        "Optional guidelines",
+        "Only for teaching hospitals"
       ],
       correctAnswer: 1,
       explanation: "Accreditation standards are requirements that organizations must meet to achieve and maintain accreditation status."
@@ -2849,22 +2849,22 @@ Effective leadership in medical records management requires combining technical 
       id: 9,
       question: "What assesses security risks from third-party vendors?",
       options: [
-        "Assuming vendor security",
         "Vendor risk assessment",
         "Only checking price",
+        "Assuming vendor security",
         "No vendor assessment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Vendor risk assessment evaluates security risks posed by third-party vendors handling healthcare information."
     },
     {
       id: 10,
       question: "What programs improve clinical documentation quality?",
       options: [
-        "Only coding programs",
+        "No improvement programs",
         "Clinical Documentation Improvement programs",
-        "Only billing programs",
-        "No improvement programs"
+        "Only coding programs",
+        "Only billing programs"
       ],
       correctAnswer: 1,
       explanation: "CDI programs are structured initiatives to improve the quality and completeness of clinical documentation."
@@ -2874,33 +2874,33 @@ Effective leadership in medical records management requires combining technical 
       question: "What defines requirements for new technology systems?",
       options: [
         "Buying first system found",
-        "Requirements definition",
+        "No requirements needed",
         "Only following trends",
-        "No requirements needed"
+        "Requirements definition"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Requirements definition clearly specifies what new systems must do to meet organizational needs before selection."
     },
     {
       id: 12,
       question: "What thinks beyond daily operations to long-term direction?",
       options: [
-        "Only daily tasks",
         "Strategic mindset",
         "Only crisis response",
-        "No long-term thinking"
+        "No long-term thinking",
+        "Only daily tasks"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Strategic mindset involves considering long-term goals, direction, and positioning for future success."
     },
     {
       id: 13,
       question: "What is the first phase of records lifecycle management?",
       options: [
-        "Destruction",
-        "Creation and capture",
         "Storage only",
-        "Use and distribution"
+        "Creation and capture",
+        "Use and distribution",
+        "Destruction"
       ],
       correctAnswer: 1,
       explanation: "The records lifecycle begins with creation and capture when records are first created or entered into systems."
@@ -2909,94 +2909,94 @@ Effective leadership in medical records management requires combining technical 
       id: 14,
       question: "What HIPAA rule requires security safeguards?",
       options: [
-        "Privacy Rule only",
         "Security Rule",
+        "Privacy Rule only",
         "Breach Notification Rule",
         "Enforcement Rule"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "The HIPAA Security Rule specifically requires administrative, physical, and technical safeguards for electronic PHI."
     },
     {
       id: 15,
       question: "What manages user identities across systems?",
       options: [
-        "Multiple logins",
-        "Identity management systems",
         "No identity management",
-        "Only local accounts"
+        "Only local accounts",
+        "Multiple logins",
+        "Identity management systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Identity management systems provide centralized management of user identities across multiple healthcare systems."
     },
     {
       id: 16,
       question: "What are standardized measures of healthcare quality?",
       options: [
-        "Only patient satisfaction",
-        "Quality measures",
         "Only cost measures",
-        "Staff preferences"
+        "Only patient satisfaction",
+        "Staff preferences",
+        "Quality measures"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Quality measures are standardized metrics used to assess and compare healthcare quality across organizations."
     },
     {
       id: 17,
       question: "What is governance structure for implementation projects?",
       options: [
+        "Individual decisions",
         "No governance needed",
         "Project governance",
-        "Only project manager",
-        "Individual decisions"
+        "Only project manager"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Project governance establishes decision-making structures for technology implementation projects."
     },
     {
       id: 18,
       question: "What develops and manages departmental budgets?",
       options: [
-        "Only spending money",
         "Budget development and management",
         "Only accounting department",
+        "Only spending money",
         "No budget management"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Budget development creates financial plans, while budget management ensures spending aligns with plans."
     },
     {
       id: 19,
       question: "What ensures accurate patient identification across systems?",
       options: [
-        "Random guessing",
         "Master Patient Index management",
-        "Only using names",
-        "No system needed"
+        "No system needed",
+        "Random guessing",
+        "Only using names"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Master Patient Index management ensures accurate patient identification and linking of records across systems."
     },
     {
       id: 20,
       question: "What are required by HIPAA Security Rule regularly?",
       options: [
-        "Only initial assessment",
         "Regular risk assessments",
+        "Only initial assessment",
         "No risk assessment needed",
         "Only after breaches"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "HIPAA Security Rule requires covered entities to conduct regular risk assessments of their security safeguards."
     },
     {
       id: 21,
       question: "What uses multiple layers of security controls?",
       options: [
-        "Single point protection",
+        "No layered approach",
         "Defense-in-depth strategy",
-        "Only perimeter security",
-        "No layered approach"
+        "Single point protection",
+        "Only perimeter security"
       ],
       correctAnswer: 1,
       explanation: "Defense-in-depth uses multiple security layers so if one fails, others provide continued protection."
@@ -3005,12 +3005,12 @@ Effective leadership in medical records management requires combining technical 
       id: 22,
       question: "What identifies individuals at high risk for poor outcomes?",
       options: [
+        "No risk identification",
         "Treating all equally",
-        "Risk stratification",
         "Only acute care",
-        "No risk identification"
+        "Risk stratification"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Risk stratification uses data to identify patients at higher risk who need more intensive care management."
     },
     {
@@ -3018,47 +3018,47 @@ Effective leadership in medical records management requires combining technical 
       question: "What monitors system performance and user satisfaction?",
       options: [
         "Only when problems occur",
-        "Performance monitoring",
         "Assuming performance",
+        "Performance monitoring",
         "No monitoring needed"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Performance monitoring continuously tracks system performance, reliability, and user satisfaction."
     },
     {
       id: 24,
       question: "What develops staff skills and capabilities?",
       options: [
-        "Only hiring staff",
         "Staff development",
+        "No development needed",
         "Only task assignment",
-        "No development needed"
+        "Only hiring staff"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Staff development involves training, mentoring, and providing opportunities for professional growth."
     },
     {
       id: 25,
       question: "What constitutes the official legal health record?",
       options: [
-        "Any healthcare information",
         "Formally defined record for legal purposes",
-        "Only paper records",
-        "Only electronic records"
+        "Only electronic records",
+        "Any healthcare information",
+        "Only paper records"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "The legal health record is formally defined by each organization as the official record for legal purposes."
     },
     {
       id: 26,
       question: "What prepares organizations for regulatory surveys?",
       options: [
-        "Ignoring regulations",
         "External audit readiness preparation",
-        "Only when notified",
-        "Guessing what will be checked"
+        "Guessing what will be checked",
+        "Ignoring regulations",
+        "Only when notified"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "External audit readiness involves proactive preparation for surveys by regulatory and accrediting bodies."
     },
     {
@@ -3066,11 +3066,11 @@ Effective leadership in medical records management requires combining technical 
       question: "What assesses privacy implications of new systems?",
       options: [
         "Ignoring privacy",
-        "Privacy impact assessments",
+        "No assessment needed",
         "Only technical assessment",
-        "No assessment needed"
+        "Privacy impact assessments"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Privacy impact assessments evaluate how new systems affect privacy and identify mitigation strategies."
     },
     {
@@ -3078,11 +3078,11 @@ Effective leadership in medical records management requires combining technical 
       question: "What designs effective performance displays?",
       options: [
         "Only data collection",
-        "Performance dashboard development",
         "Only spreadsheets",
+        "Performance dashboard development",
         "No design needed"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Dashboard development involves designing effective visual displays of performance data."
     },
     {
@@ -3090,23 +3090,23 @@ Effective leadership in medical records management requires combining technical 
       question: "What fosters culture supporting innovation?",
       options: [
         "Resisting change",
+        "No culture focus",
         "Innovation culture development",
-        "Only following others",
-        "No culture focus"
+        "Only following others"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Innovation culture creates an environment where new ideas are welcomed and supported."
     },
     {
       id: 30,
       question: "What communicates effectively with stakeholders?",
       options: [
-        "Only formal communication",
         "Stakeholder communication",
+        "Only formal communication",
         "Only internal communication",
         "No communication planning"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Stakeholder communication tailors messages to different groups with different needs and interests."
     },
     {
@@ -3114,35 +3114,35 @@ Effective leadership in medical records management requires combining technical 
       question: "What primarily determines minimum retention periods?",
       options: [
         "Storage space available",
-        "Regulatory requirements",
+        "Cost considerations only",
         "Staff preferences",
-        "Cost considerations only"
+        "Regulatory requirements"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Minimum retention periods are primarily determined by laws, regulations, and accreditation standards."
     },
     {
       id: 32,
       question: "What requires breach risk assessment after incidents?",
       options: [
-        "Ignoring potential breaches",
         "Breach risk assessment requirement",
+        "Waiting for complaints",
         "Only notifying patients",
-        "Waiting for complaints"
+        "Ignoring potential breaches"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "HIPAA requires risk assessment to determine if privacy incidents meet breach definition requiring notification."
     },
     {
       id: 33,
       question: "What designs data structures to support healthcare needs?",
       options: [
-        "Random data organization",
         "Data modeling",
-        "No design needed",
-        "Only using defaults"
+        "Random data organization",
+        "Only using defaults",
+        "No design needed"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Data modeling designs the structure and relationships of data to support healthcare information needs."
     },
     {
@@ -3151,8 +3151,8 @@ Effective leadership in medical records management requires combining technical 
       options: [
         "Only science fiction",
         "Artificial Intelligence applications",
-        "Only manual processes",
-        "No AI applications"
+        "No AI applications",
+        "Only manual processes"
       ],
       correctAnswer: 1,
       explanation: "AI applications include clinical decision support, predictive analytics, and process automation in healthcare."
@@ -3161,10 +3161,10 @@ Effective leadership in medical records management requires combining technical 
       id: 35,
       question: "What develops strategy for cloud adoption?",
       options: [
-        "Using cloud randomly",
+        "Only following trends",
         "Cloud adoption strategy",
         "No cloud strategy",
-        "Only following trends"
+        "Using cloud randomly"
       ],
       correctAnswer: 1,
       explanation: "Cloud adoption strategy develops a planned approach to using cloud services based on organizational needs."
@@ -3173,60 +3173,60 @@ Effective leadership in medical records management requires combining technical 
       id: 36,
       question: "What fosters quality-focused culture?",
       options: [
-        "Only quality metrics",
-        "Quality culture development",
+        "No culture focus",
         "Only inspection",
-        "No culture focus"
+        "Only quality metrics",
+        "Quality culture development"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Quality culture development creates environment where everyone focuses on continuous quality improvement."
     },
     {
       id: 37,
       question: "What tracks record releases completely?",
       options: [
-        "Memory only",
-        "Release tracking systems",
+        "Only verbal notes",
         "No tracking needed",
-        "Only verbal notes"
+        "Release tracking systems",
+        "Memory only"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Release tracking systems document who requested records, what was released, when, and to whom."
     },
     {
       id: 38,
       question: "What tracks regulatory changes affecting operations?",
       options: [
-        "Ignoring changes",
         "Regulatory monitoring systems",
         "Only reacting to fines",
+        "Ignoring changes",
         "Assuming no changes"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Regulatory monitoring involves systems to track changes in laws and standards affecting operations."
     },
     {
       id: 39,
       question: "What extracts information from unstructured clinical text?",
       options: [
-        "Only manual review",
         "Natural Language Processing",
         "Ignoring text data",
-        "No text analysis"
+        "No text analysis",
+        "Only manual review"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Natural Language Processing uses AI to extract meaningful information from unstructured clinical notes."
     },
     {
       id: 40,
       question: "What plans for leadership succession?",
       options: [
+        "Only external hiring",
         "Only current leadership",
-        "Succession planning",
         "No succession planning",
-        "Only external hiring"
+        "Succession planning"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Succession planning identifies and develops potential future leaders to ensure leadership continuity."
     }
   ]

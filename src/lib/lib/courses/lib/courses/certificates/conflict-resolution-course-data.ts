@@ -230,21 +230,21 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           id: 1,
           question: "What is a positive function of conflict?",
           options: [
+            "Productivity elimination",
             "Social change catalyst",
             "Relationship destruction",
-            "Communication breakdown",
-            "Productivity elimination"
+            "Communication breakdown"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Conflict can serve as a social change catalyst, driving necessary evolution in relationships and organizations."
         },
         {
           id: 2,
           question: "How does the human relations paradigm view conflict?",
           options: [
-            "As disruption to normal functioning",
-            "As natural in relationships",
             "As systemic phenomenon",
+            "As natural in relationships",
+            "As disruption to normal functioning",
             "As personal failure"
           ],
           correctAnswer: 1,
@@ -267,35 +267,35 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           question: "What is the first stage in the conflict spiral?",
           options: [
             "Perceived conflict",
+            "Manifest conflict",
             "Latent conflict",
-            "Felt conflict",
-            "Manifest conflict"
+            "Felt conflict"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Latent conflict is the first stage where underlying conditions exist but parties are not yet aware of differences."
         },
         {
           id: 5,
           question: "What does the dual concern model examine?",
           options: [
-            "Cultural differences in conflict",
-            "How concern for self and others shapes conflict style",
             "Structural causes of conflict",
-            "Historical conflict patterns"
+            "Historical conflict patterns",
+            "Cultural differences in conflict",
+            "How concern for self and others shapes conflict style"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The dual concern model examines how concern for self and concern for others shape an individual's conflict style."
         },
         {
           id: 6,
           question: "How many dimensions are in Galtung's conflict triangle?",
           options: [
-            "2",
-            "3",
+            "5",
             "4",
-            "5"
+            "2",
+            "3"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Galtung's conflict triangle includes three interconnected dimensions: attitude, behavior, and contradiction."
         },
         {
@@ -303,11 +303,11 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           question: "How many conflict sources does Moore's circle identify?",
           options: [
             "3",
+            "6",
             "4",
-            "5",
-            "6"
+            "5"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Moore's circle of conflict identifies five sources: relationship, data, interest, structural, and value conflicts."
         },
         {
@@ -315,8 +315,8 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           question: "What is a positive organizational function of conflict?",
           options: [
             "Innovation stimulation",
-            "Employee turnover",
             "Quality decline",
+            "Employee turnover",
             "Legal liability"
           ],
           correctAnswer: 0,
@@ -327,35 +327,35 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           question: "What do high-context cultures prioritize in conflict?",
           options: [
             "Direct confrontation",
-            "Relationship preservation",
+            "Clear win-lose outcomes",
             "Efficiency above all",
-            "Clear win-lose outcomes"
+            "Relationship preservation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "High-context cultures prioritize relationship preservation, using indirect communication and face-saving approaches."
         },
         {
           id: 10,
           question: "What do individualist cultures prioritize in conflict?",
           options: [
-            "Group harmony above all",
             "Personal rights and autonomy",
-            "Indirect approaches",
-            "Process over outcome"
+            "Group harmony above all",
+            "Process over outcome",
+            "Indirect approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Individualist cultures prioritize personal rights, autonomy, direct problem-solving, and efficiency in resolution."
         },
         {
           id: 11,
           question: "What is conflict epistemology?",
           options: [
+            "Measuring conflict outcomes",
             "The study of conflict history",
             "How knowledge about conflict is constructed",
-            "Conflict resolution techniques",
-            "Measuring conflict outcomes"
+            "Conflict resolution techniques"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Conflict epistemology examines how knowledge about conflict is constructed, validated, and understood."
         },
         {
@@ -363,11 +363,11 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           question: "What type of conflict involves competing needs and desires?",
           options: [
             "Data conflicts",
-            "Interest conflicts",
             "Value conflicts",
+            "Interest conflicts",
             "Relationship conflicts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Interest conflicts involve competing needs, desires, concerns, or fears that parties want satisfied."
         },
         {
@@ -386,12 +386,12 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           id: 14,
           question: "What conflict style combines high self and high other concern?",
           options: [
-            "Competing",
-            "Collaborating",
+            "Accommodating",
             "Avoiding",
-            "Accommodating"
+            "Collaborating",
+            "Competing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collaborating style combines high concern for self and high concern for others, seeking win-win solutions."
         },
         {
@@ -399,71 +399,71 @@ Understanding these advanced theoretical frameworks provides the **conceptual fo
           question: "What is the cost of too little conflict in organizations?",
           options: [
             "Innovation",
+            "Critical thinking",
             "Stagnation and groupthink",
-            "Healthy debate",
-            "Critical thinking"
+            "Healthy debate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Too little conflict can lead to stagnation, groupthink, and resistance to change in organizations."
         },
         {
           id: 16,
           question: "What do polychronic cultures prioritize over schedules?",
           options: [
+            "Quick resolution",
             "Efficiency",
-            "Relationships",
             "Deadlines",
-            "Quick resolution"
+            "Relationships"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Polychronic cultures prioritize relationships over schedules and allow process to take as long as needed."
         },
         {
           id: 17,
           question: "What is a quantitative conflict assessment tool?",
           options: [
-            "Narrative analysis",
-            "Conflict style inventories",
+            "Interview frameworks",
             "Observation protocols",
-            "Interview frameworks"
+            "Conflict style inventories",
+            "Narrative analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Conflict style inventories like Thomas-Kilmann or ROCI-II are quantitative tools for measuring conflict approaches."
         },
         {
           id: 18,
           question: "What paradigm seeks structural and cultural change?",
           options: [
+            "Systems paradigm",
             "Traditional paradigm",
             "Human relations paradigm",
-            "Systems paradigm",
             "Positivist paradigm"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The systems paradigm views conflict as systemic and seeks structural and cultural change through organizational development."
         },
         {
           id: 19,
           question: "What is an emotional conflict about?",
           options: [
-            "Goals and resources",
             "Feelings and relationships",
-            "Power and roles",
-            "Information and interpretation"
+            "Information and interpretation",
+            "Goals and resources",
+            "Power and roles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Emotional conflicts involve feelings, relationships, values, and interpersonal dynamics rather than substantive issues."
         },
         {
           id: 20,
           question: "What does stakeholder mapping analyze?",
           options: [
-            "Historical patterns",
             "Relationships and interests",
-            "Cultural norms",
-            "Behavior frequency"
+            "Historical patterns",
+            "Behavior frequency",
+            "Cultural norms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stakeholder mapping analyzes relationships, interests, influence, and positions in conflict situations."
         }
       ]
@@ -714,10 +714,10 @@ Understanding these various mediation models provides **conceptual tools and pra
           id: 1,
           question: "What does facilitative mediation emphasize?",
           options: [
-            "Mediator expertise in outcomes",
-            "Party self-determination and process neutrality",
             "Legal standards and predictions",
-            "Emotional healing above all"
+            "Party self-determination and process neutrality",
+            "Emotional healing above all",
+            "Mediator expertise in outcomes"
           ],
           correctAnswer: 1,
           explanation: "Facilitative mediation emphasizes party self-determination, process neutrality, and mediator as process rather than content expert."
@@ -726,60 +726,60 @@ Understanding these various mediation models provides **conceptual tools and pra
           id: 2,
           question: "What is the mediator's role in evaluative mediation?",
           options: [
-            "Process facilitator only",
             "Substantive expert and reality tester",
+            "Story deconstructor",
             "Therapeutic healer",
-            "Story deconstructor"
+            "Process facilitator only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "In evaluative mediation, the mediator acts as substantive expert, providing reality testing and predictions about likely outcomes."
         },
         {
           id: 3,
           question: "What are the two core dimensions of transformative mediation?",
           options: [
-            "Efficiency and fairness",
             "Empowerment and recognition",
             "Legal standards and party preferences",
-            "Process structure and flexibility"
+            "Process structure and flexibility",
+            "Efficiency and fairness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transformative mediation focuses on two core dimensions: empowerment (self-determination) and recognition (understanding others)."
         },
         {
           id: 4,
           question: "What theory underlies narrative mediation?",
           options: [
+            "Legal positivism",
             "Behavioral psychology",
             "Social constructionist theory",
-            "Legal positivism",
             "Economic rational choice"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Narrative mediation applies social constructionist theory, viewing conflict as constructed through stories rather than objective reality."
         },
         {
           id: 5,
           question: "What does therapeutic mediation integrate?",
           options: [
-            "Mediation with legal advocacy",
             "Mediation with counseling techniques",
+            "Mediation with coaching",
             "Mediation with arbitration",
-            "Mediation with coaching"
+            "Mediation with legal advocacy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Therapeutic mediation integrates mediation with counseling techniques, focusing on emotional processing and relationship healing."
         },
         {
           id: 6,
           question: "How many stages are in typical facilitative mediation?",
           options: [
-            "5",
-            "6",
             "7",
+            "6",
+            "5",
             "8"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Typical facilitative mediation includes 7 stages: opening, storytelling, issue identification, option generation, reality testing, agreement development, and closure."
         },
         {
@@ -787,11 +787,11 @@ Understanding these various mediation models provides **conceptual tools and pra
           question: "What is a risk of evaluative mediation?",
           options: [
             "Too much party empowerment",
-            "Undermining party empowerment",
             "Excessive emotional processing",
-            "Lack of legal standards"
+            "Lack of legal standards",
+            "Undermining party empowerment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Evaluative mediation risks undermining party empowerment as decisions may come more from mediator expertise than party self-determination."
         },
         {
@@ -799,11 +799,11 @@ Understanding these various mediation models provides **conceptual tools and pra
           question: "What does externalizing conversations do in narrative mediation?",
           options: [
             "Blame parties for problems",
-            "Separate people from the problem",
             "Focus on legal liabilities",
+            "Separate people from the problem",
             "Assign responsibility clearly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Externalizing conversations separate people from problems, viewing issues as external forces affecting the relationship."
         },
         {
@@ -811,20 +811,20 @@ Understanding these various mediation models provides **conceptual tools and pra
           question: "What is an ethical concern in therapeutic mediation?",
           options: [
             "Lack of emotional focus",
-            "Dual role management",
             "Too much party control",
+            "Dual role management",
             "Insufficient structure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Therapeutic mediation raises dual role concerns as mediator balances mediation and therapeutic functions."
         },
         {
           id: 10,
           question: "What do culturally competent mediators demonstrate?",
           options: [
-            "Rigid adherence to one model",
-            "Self-awareness and adaptive skills",
             "Superior cultural knowledge only",
+            "Self-awareness and adaptive skills",
+            "Rigid adherence to one model",
             "Technical expertise above all"
           ],
           correctAnswer: 1,
@@ -834,9 +834,9 @@ Understanding these various mediation models provides **conceptual tools and pra
           id: 11,
           question: "What is a benefit of virtual mediation?",
           options: [
-            "Eliminates all rapport challenges",
-            "Overcomes geographical barriers",
             "Requires no technical skills",
+            "Overcomes geographical barriers",
+            "Eliminates all rapport challenges",
             "Makes confidentiality easier"
           ],
           correctAnswer: 1,
@@ -846,12 +846,12 @@ Understanding these various mediation models provides **conceptual tools and pra
           id: 12,
           question: "What does reflective practice involve for mediators?",
           options: [
-            "Only getting client feedback",
             "Regular self-assessment and learning",
-            "Following one model rigidly",
-            "Avoiding peer consultation"
+            "Only getting client feedback",
+            "Avoiding peer consultation",
+            "Following one model rigidly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Reflective practice involves regular self-assessment, learning from experience, and continuous professional improvement."
         },
         {
@@ -860,8 +860,8 @@ Understanding these various mediation models provides **conceptual tools and pra
           options: [
             "Group decision-making",
             "Private meetings with individual parties",
-            "Legal analysis sessions",
-            "Emotional processing groups"
+            "Emotional processing groups",
+            "Legal analysis sessions"
           ],
           correctAnswer: 1,
           explanation: "Caucusing involves private meetings between mediator and individual parties to discuss sensitive issues or explore options."
@@ -870,10 +870,10 @@ Understanding these various mediation models provides **conceptual tools and pra
           id: 14,
           question: "What does transformative mediation view conflict as?",
           options: [
-            "Legal problem to solve",
+            "Power struggle to manage",
             "Crisis in human interaction and growth opportunity",
-            "Efficiency challenge",
-            "Power struggle to manage"
+            "Legal problem to solve",
+            "Efficiency challenge"
           ],
           correctAnswer: 1,
           explanation: "Transformative mediation views conflict as crisis in human interaction that presents opportunities for empowerment and recognition."
@@ -882,72 +882,72 @@ Understanding these various mediation models provides **conceptual tools and pra
           id: 15,
           question: "What is re-authoring in narrative mediation?",
           options: [
+            "Documenting past wrongs",
             "Writing legal agreements",
-            "Developing alternative, preferred stories",
             "Assigning blame accurately",
-            "Documenting past wrongs"
+            "Developing alternative, preferred stories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Re-authoring involves developing alternative, preferred stories that replace problem-saturated conflict narratives."
         },
         {
           id: 16,
           question: "What is a challenge of virtual mediation?",
           options: [
-            "Building rapport without physical presence",
-            "Excessive emotional expression",
+            "Lack of structured process",
             "Too much cultural adaptation",
-            "Lack of structured process"
+            "Building rapport without physical presence",
+            "Excessive emotional expression"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Virtual mediation challenges include building rapport without physical presence and compensating for limited nonverbal cues."
         },
         {
           id: 17,
           question: "What does integrative mediation approach involve?",
           options: [
+            "Only therapeutic techniques",
             "Rigid model adherence",
             "Blending elements from different models",
-            "Only therapeutic techniques",
             "Avoiding cultural adaptation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Integrative approaches blend elements from different mediation models based on conflict assessment and party needs."
         },
         {
           id: 18,
           question: "What is normalizing in mediation?",
           options: [
+            "Standardizing all agreements",
             "Making parties feel abnormal",
-            "Reducing blame by showing conflicts are common",
             "Imposing cultural standards",
-            "Standardizing all agreements"
+            "Reducing blame by showing conflicts are common"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Normalizing reduces blame and shame by showing that conflicts are common human experiences."
         },
         {
           id: 19,
           question: "What does quality assurance in mediation include?",
           options: [
-            "Only client satisfaction surveys",
             "Ethical codes, competency frameworks, and supervision",
             "Maximum case numbers only",
-            "Quick settlement rates"
+            "Quick settlement rates",
+            "Only client satisfaction surveys"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Quality assurance includes ethical codes, competency frameworks, training standards, supervision, and accreditation systems."
         },
         {
           id: 20,
           question: "What should mediators do pre-session for virtual mediation?",
           options: [
-            "Avoid technology checks",
-            "Conduct technology checks with all parties",
+            "Use only one communication method",
             "Assume all are tech experts",
-            "Use only one communication method"
+            "Avoid technology checks",
+            "Conduct technology checks with all parties"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pre-session technology checks ensure all parties can participate effectively in virtual mediation sessions."
         }
       ]
@@ -1207,106 +1207,106 @@ Understanding organizational conflict systems provides the **conceptual foundati
           id: 1,
           question: "What is a structural source of organizational conflict?",
           options: [
-            "Individual personality clashes",
-            "Resource allocation systems",
             "Personal values differences",
-            "Communication style preferences"
+            "Communication style preferences",
+            "Resource allocation systems",
+            "Individual personality clashes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Structural sources include resource allocation systems, reporting relationships, departmental boundaries, and decision-making processes."
         },
         {
           id: 2,
           question: "What is a direct financial cost of organizational conflict?",
           options: [
-            "Innovation suppression",
-            "Lost productivity time",
             "Reputation damage",
-            "Cultural deterioration"
+            "Innovation suppression",
+            "Cultural deterioration",
+            "Lost productivity time"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Direct financial costs include lost productivity time, turnover expenses, legal costs, and absenteeism expenses."
         },
         {
           id: 3,
           question: "What characterizes conflict positive organizations?",
           options: [
-            "Complete absence of disagreement",
             "Psychological safety and learning orientation",
-            "Authoritarian leadership only",
-            "Informal resolution only"
+            "Informal resolution only",
+            "Complete absence of disagreement",
+            "Authoritarian leadership only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Conflict positive organizations feature psychological safety, learning orientation, diversity inclusion, transparent processes, and leadership modeling."
         },
         {
           id: 4,
           question: "What does ICMS stand for?",
           options: [
+            "International Conflict Mediation Standards",
             "Individual Conflict Management Style",
             "Integrated Conflict Management Systems",
-            "Internal Complaint Management Service",
-            "International Conflict Mediation Standards"
+            "Internal Complaint Management Service"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ICMS stands for Integrated Conflict Management Systems - comprehensive approaches to organizational conflict."
         },
         {
           id: 5,
           question: "What are ombuds standards?",
           options: [
-            "Advocacy and formal processes",
-            "Independence, neutrality, confidentiality, informality",
+            "Public reporting and transparency",
             "Legal representation and binding decisions",
-            "Public reporting and transparency"
+            "Advocacy and formal processes",
+            "Independence, neutrality, confidentiality, informality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ombuds standards include independence, neutrality and impartiality, confidentiality, and informality."
         },
         {
           id: 6,
           question: "What is a benefit of peer resolution programs?",
           options: [
-            "Complete formality and documentation",
-            "Cultural relevance and relationship preservation",
             "Legal precedent establishment",
-            "Management control maximization"
+            "Management control maximization",
+            "Complete formality and documentation",
+            "Cultural relevance and relationship preservation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Peer resolution benefits include cultural relevance, relationship preservation, skill development, cost effectiveness, and early intervention."
         },
         {
           id: 7,
           question: "What do conflict competent leaders need?",
           options: [
-            "Only technical expertise",
             "Conflict diagnosis and intervention selection skills",
-            "Avoidance of all disagreements",
-            "Complete emotional detachment"
+            "Only technical expertise",
+            "Complete emotional detachment",
+            "Avoidance of all disagreements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Conflict competent leaders need conflict diagnosis, intervention selection, emotional regulation, communication facilitation, and systemic thinking skills."
         },
         {
           id: 8,
           question: "What can organizations measure about conflict?",
           options: [
-            "Only financial costs",
             "Frequency, intensity, duration, resolution metrics",
+            "Only financial costs",
             "Only legal outcomes",
             "Only employee satisfaction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Organizations can measure conflict frequency, intensity, duration, resolution methods, and costs."
         },
         {
           id: 9,
           question: "How does technology impact organizational conflict?",
           options: [
-            "Eliminates all conflict",
-            "Creates virtual work conflicts and social media impacts",
             "Only simplifies communication",
-            "Makes conflict management unnecessary"
+            "Creates virtual work conflicts and social media impacts",
+            "Makes conflict management unnecessary",
+            "Eliminates all conflict"
           ],
           correctAnswer: 1,
           explanation: "Technology impacts include virtual work conflicts, social media effects, data analytics, AI decision-making, and digital communication dynamics."
@@ -1315,69 +1315,69 @@ Understanding organizational conflict systems provides the **conceptual foundati
           id: 10,
           question: "What is a cultural source of organizational conflict?",
           options: [
-            "Budget allocations",
             "Communication norms and conflict tolerance levels",
+            "Budget allocations",
             "Physical workspace design",
             "Reporting structures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cultural sources include communication norms, conflict tolerance, power distance, individualism-collectivism balance, and uncertainty avoidance."
         },
         {
           id: 11,
           question: "What is an indirect organizational cost of conflict?",
           options: [
-            "Legal settlement fees",
             "Innovation suppression and decision quality decline",
             "Recruitment expenses",
+            "Legal settlement fees",
             "Mediation session costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Indirect costs include innovation suppression, decision quality decline, reputation damage, strategic distraction, and cultural deterioration."
         },
         {
           id: 12,
           question: "What structural design supports healthy conflict?",
           options: [
-            "Extremely hierarchical structures",
-            "Flatter hierarchies and cross-functional teams",
+            "Single reporting lines only",
             "Complete departmental isolation",
-            "Single reporting lines only"
+            "Extremely hierarchical structures",
+            "Flatter hierarchies and cross-functional teams"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Structural supports include flatter hierarchies, cross-functional teams, matrix reporting, rotation programs, and collaborative workspace design."
         },
         {
           id: 13,
           question: "What is an implementation challenge for ICMS?",
           options: [
-            "Universal employee acceptance",
             "Leadership resistance and resource constraints",
+            "Universal employee acceptance",
             "Too many conflict reports",
             "Complete cultural alignment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Implementation challenges include leadership resistance, resource constraints, cultural mismatch, measurement difficulties, and sustainability issues."
         },
         {
           id: 14,
           question: "What is the organizational ombuds role?",
           options: [
+            "Management representative",
             "Formal investigator and decision-maker",
-            "Independent, impartial, confidential resource",
             "Legal advocate for employees",
-            "Management representative"
+            "Independent, impartial, confidential resource"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ombuds serve as independent, impartial, confidential, informal resources for exploring options and identifying patterns."
         },
         {
           id: 15,
           question: "What do successful peer programs require?",
           options: [
-            "No training or support",
-            "Careful selection and quality training",
             "Complete informality only",
+            "Careful selection and quality training",
+            "No training or support",
             "Avoiding all evaluation"
           ],
           correctAnswer: 1,
@@ -1387,22 +1387,22 @@ Understanding organizational conflict systems provides the **conceptual foundati
           id: 16,
           question: "How do democratic leaders affect conflict?",
           options: [
+            "Focus only on emotional aspects",
             "Suppress all disagreement",
-            "May encourage constructive debate",
             "Allow all conflicts to escalate",
-            "Focus only on emotional aspects"
+            "May encourage constructive debate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Democratic leadership styles may encourage constructive debate and participation in conflict resolution."
         },
         {
           id: 17,
           question: "What should organizations do regularly with conflict systems?",
           options: [
-            "Ignore them once implemented",
+            "Standardize across all departments",
             "Assess and improve through continuous cycles",
             "Change them completely annually",
-            "Standardize across all departments"
+            "Ignore them once implemented"
           ],
           correctAnswer: 1,
           explanation: "Organizations should regularly assess and improve conflict systems through data collection, analysis, feedback, planning, and evaluation cycles."
@@ -1411,36 +1411,36 @@ Understanding organizational conflict systems provides the **conceptual foundati
           id: 18,
           question: "What demographic change affects organizational conflict?",
           options: [
+            "Reduced global interactions",
             "Decreased workforce diversity",
             "Increased diversity and generational differences",
-            "Reduced global interactions",
             "Simplified communication methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Demographic changes include increased diversity, generational differences, work-life integration, gig economy impacts, and globalization effects."
         },
         {
           id: 19,
           question: "What is a human cost of organizational conflict?",
           options: [
-            "Only financial losses",
             "Stress, burnout, and relationship damage",
             "Improved innovation only",
+            "Only financial losses",
             "Increased productivity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Human costs include stress, burnout, talent loss, relationship damage, career derailment, and psychological safety loss."
         },
         {
           id: 20,
           question: "What is a professionalization trend in conflict management?",
           options: [
-            "Decreased training requirements",
             "Evidence-based practices and specialization",
             "Reduced ethical standards",
-            "Elimination of formal processes"
+            "Elimination of formal processes",
+            "Decreased training requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Professionalization trends include evidence-based practices, specialization/certification, integration with other functions, strategic positioning, and ethical frameworks."
         }
       ]
@@ -1746,70 +1746,70 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           id: 1,
           question: "What does high power distance in cultures mean?",
           options: [
-            "Questioning authority is encouraged",
-            "Accepting hierarchical order and respecting authority",
             "Complete equality in all relationships",
-            "Informal communication with everyone"
+            "Informal communication with everyone",
+            "Questioning authority is encouraged",
+            "Accepting hierarchical order and respecting authority"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "High power distance cultures accept hierarchical order, respect authority, and avoid directly challenging superiors."
         },
         {
           id: 2,
           question: "What do collectivist cultures prioritize in conflict?",
           options: [
-            "Personal goals and autonomy",
             "Group harmony and relationship preservation",
+            "Personal goals and autonomy",
             "Direct confrontation and clear outcomes",
             "Individual rights above all"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Collectivist cultures prioritize group harmony, relationships, indirect communication, and face-saving in conflict situations."
         },
         {
           id: 3,
           question: "What is CQ Strategy in cultural intelligence?",
           options: [
+            "Knowledge of cultural frameworks",
             "Interest in cross-cultural situations",
             "Planning and adjusting mental models",
-            "Knowledge of cultural frameworks",
             "Adapting verbal and nonverbal behavior"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CQ Strategy involves metacognition - planning cross-cultural interactions, checking assumptions, and adjusting mental models."
         },
         {
           id: 4,
           question: "What is Ubuntu philosophy?",
           options: [
+            "Competitive success orientation",
             "Individual achievement focus",
             "I am because we are - community focus",
-            "Competitive success orientation",
             "Formal hierarchical structures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ubuntu philosophy from Southern Africa emphasizes community interconnection: 'I am because we are.'"
         },
         {
           id: 5,
           question: "What do high uncertainty avoidance cultures prefer?",
           options: [
-            "Ambiguity and flexibility",
-            "Rules, structure, and clear outcomes",
             "Informal spontaneous processes",
-            "Open-ended resolutions"
+            "Ambiguity and flexibility",
+            "Open-ended resolutions",
+            "Rules, structure, and clear outcomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "High uncertainty avoidance cultures dislike ambiguity, prefer rules and structure, and seek clear conflict outcomes."
         },
         {
           id: 6,
           question: "What is a challenge with language interpretation?",
           options: [
-            "Perfect concept equivalence",
+            "Complete cultural reference translation",
             "Interpreter role and relationship dynamics",
             "Identical emotional tone preservation",
-            "Complete cultural reference translation"
+            "Perfect concept equivalence"
           ],
           correctAnswer: 1,
           explanation: "Interpretation challenges include interpreter role definition, relationship dynamics, and communication flow control."
@@ -1818,9 +1818,9 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           id: 7,
           question: "What do indirect eye contact cultures view it as?",
           options: [
-            "Disrespect and dishonesty",
-            "Respect and deference",
             "Attention and confidence",
+            "Respect and deference",
+            "Disrespect and dishonesty",
             "Challenge and confrontation"
           ],
           correctAnswer: 1,
@@ -1830,10 +1830,10 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           id: 8,
           question: "What is ascribed status?",
           options: [
-            "Status achieved through accomplishments",
+            "Status from personal relationships",
             "Status based on birth or family position",
             "Status from formal education only",
-            "Status from personal relationships"
+            "Status achieved through accomplishments"
           ],
           correctAnswer: 1,
           explanation: "Ascribed status is based on birth, family position, or inherent characteristics rather than personal accomplishments."
@@ -1842,12 +1842,12 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           id: 9,
           question: "What is an ethical tension in cross-cultural work?",
           options: [
-            "Complete cultural relativism always",
-            "Local practices vs. human rights standards",
             "Ignoring all cultural differences",
-            "Imposing one cultural model universally"
+            "Imposing one cultural model universally",
+            "Complete cultural relativism always",
+            "Local practices vs. human rights standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ethical tensions arise when local cultural practices conflict with universal human rights standards."
         },
         {
@@ -1855,21 +1855,21 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           question: "What does positionality involve?",
           options: [
             "Ignoring your own cultural background",
-            "Understanding your position in cross-cultural contexts",
+            "Imposing your cultural perspective",
             "Claiming complete neutrality",
-            "Imposing your cultural perspective"
+            "Understanding your position in cross-cultural contexts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Positionality involves understanding your own cultural background, power, privilege, and impact in cross-cultural work."
         },
         {
           id: 11,
           question: "What do masculine cultures value in conflict?",
           options: [
-            "Cooperation and consensus-building",
+            "Emotional expression avoidance",
             "Competition, achievement, decisive resolution",
-            "Relationship preservation only",
-            "Emotional expression avoidance"
+            "Cooperation and consensus-building",
+            "Relationship preservation only"
           ],
           correctAnswer: 1,
           explanation: "Masculine cultures value competition, achievement, assertiveness, and decisive conflict resolution."
@@ -1878,9 +1878,9 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           id: 12,
           question: "What is CQ Action?",
           options: [
-            "Cultural knowledge acquisition",
-            "Adapting verbal and nonverbal behavior",
             "Interest in cross-cultural work",
+            "Adapting verbal and nonverbal behavior",
+            "Cultural knowledge acquisition",
             "Planning intercultural interactions"
           ],
           correctAnswer: 1,
@@ -1890,10 +1890,10 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           id: 13,
           question: "What is sulha in Arab cultures?",
           options: [
-            "Formal court proceeding",
-            "Traditional reconciliation ceremony",
             "Individual mediation only",
-            "Legal arbitration process"
+            "Traditional reconciliation ceremony",
+            "Legal arbitration process",
+            "Formal court proceeding"
           ],
           correctAnswer: 1,
           explanation: "Sulha is a traditional Arab reconciliation ceremony involving mediators to restore honor and community relationships."
@@ -1902,24 +1902,24 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           id: 14,
           question: "What do affective cultures display in conflict?",
           options: [
-            "Complete emotional control",
-            "Open emotional expression",
             "Silence and withdrawal",
-            "Only positive emotions"
+            "Complete emotional control",
+            "Only positive emotions",
+            "Open emotional expression"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Affective cultures like Italy and Latin America display open emotional expression and animated discussions in conflict."
         },
         {
           id: 15,
           question: "What is intersectionality in conflict?",
           options: [
-            "Single identity focus only",
             "How multiple identities interact",
-            "Ignoring power differences",
-            "Universal approach application"
+            "Universal approach application",
+            "Single identity focus only",
+            "Ignoring power differences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Intersectionality considers how multiple cultural identities (gender, class, ethnicity) interact in conflict situations."
         },
         {
@@ -1927,20 +1927,20 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           question: "What is a capacity building principle?",
           options: [
             "Imposing external models",
-            "Asset-based approach building on strengths",
+            "Expert-driven design only",
             "Short-term project focus",
-            "Expert-driven design only"
+            "Asset-based approach building on strengths"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Asset-based capacity building builds on existing cultural strengths rather than imposing external models."
         },
         {
           id: 17,
           question: "What do long-term orientation cultures value?",
           options: [
-            "Quick results and tradition",
-            "Perseverance and adapting to circumstances",
             "Immediate gratification",
+            "Perseverance and adapting to circumstances",
+            "Quick results and tradition",
             "Fixed procedures only"
           ],
           correctAnswer: 1,
@@ -1951,11 +1951,11 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           question: "What is nemawashi in Japanese culture?",
           options: [
             "Formal voting procedure",
-            "Informal consultation before decisions",
             "Public confrontation",
+            "Informal consultation before decisions",
             "Individual decision-making"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Nemawashi is informal consultation and consensus-building before formal decisions in Japanese culture."
         },
         {
@@ -1964,8 +1964,8 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           options: [
             "Personal space and distance",
             "Touching and closer proximity",
-            "Formal communication only",
-            "Emotional restraint"
+            "Emotional restraint",
+            "Formal communication only"
           ],
           correctAnswer: 1,
           explanation: "High contact cultures like Latin and Middle Eastern cultures have more touching and closer personal proximity."
@@ -1975,11 +1975,11 @@ Cross-cultural conflict resolution requires **humility, curiosity, and adaptabil
           question: "What should cross-cultural training include?",
           options: [
             "Only cultural knowledge facts",
-            "Cultural self-awareness and communication skills",
             "One correct approach only",
+            "Cultural self-awareness and communication skills",
             "Ignoring ethical considerations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective training includes cultural self-awareness, knowledge, communication skills, conflict style flexibility, and ethical decision-making."
         }
       ]
@@ -2285,24 +2285,24 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           id: 1,
           question: "What is complex trauma?",
           options: [
-            "Single overwhelming event",
-            "Exposure to multiple traumatic events, often interpersonal",
             "Brief stressful situation",
-            "Normal life stress only"
+            "Normal life stress only",
+            "Single overwhelming event",
+            "Exposure to multiple traumatic events, often interpersonal"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Complex trauma involves exposure to multiple traumatic events, often interpersonal, beginning in childhood and lasting years."
         },
         {
           id: 2,
           question: "What is the freeze trauma response?",
           options: [
+            "Avoidance and withdrawal",
             "Aggression and confrontation",
             "Numbing, dissociation, and shutdown",
-            "Avoidance and withdrawal",
             "People-pleasing and compliance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Freeze response involves numbing, dissociation, shutdown, and immobility when faced with overwhelming threat."
         },
         {
@@ -2321,12 +2321,12 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           id: 4,
           question: "What is psychological safety in trauma-informed practice?",
           options: [
-            "Only physical environment security",
-            "Emotional risk feels manageable",
+            "Ignoring all emotional content",
             "Complete absence of stress",
-            "Ignoring all emotional content"
+            "Emotional risk feels manageable",
+            "Only physical environment security"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Psychological safety means participants feel emotional risk is manageable and they won't be shamed or humiliated."
         },
         {
@@ -2334,21 +2334,21 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           question: "What does collaboration and mutuality involve?",
           options: [
             "Practitioner making all decisions",
+            "Hierarchical expert model",
             "Power sharing and partnership approach",
-            "Complete client dependence",
-            "Hierarchical expert model"
+            "Complete client dependence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collaboration involves power sharing, partnership approaches, maximizing choice, and shared decision-making."
         },
         {
           id: 6,
           question: "What is the 5-4-3-2-1 technique for?",
           options: [
-            "Memory enhancement",
+            "Conflict escalation assessment",
             "Sensory grounding in present moment",
-            "Trauma narrative processing",
-            "Conflict escalation assessment"
+            "Memory enhancement",
+            "Trauma narrative processing"
           ],
           correctAnswer: 1,
           explanation: "5-4-3-2-1 is a sensory grounding technique: noticing 5 things you see, 4 things you feel, etc., to stay present."
@@ -2357,12 +2357,12 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           id: 7,
           question: "What is titration in trauma work?",
           options: [
+            "Complete emotional avoidance",
             "Chemical medication process",
             "Managing emotional exposure in small amounts",
-            "Complete emotional avoidance",
             "Rapid trauma processing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Titration involves managing emotional exposure in small, manageable amounts to avoid overwhelming the nervous system."
         },
         {
@@ -2370,23 +2370,23 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           question: "What is historical trauma?",
           options: [
             "Only individual traumatic events",
-            "Collective trauma across generations",
+            "Future anxiety concerns",
             "Current stressful situations",
-            "Future anxiety concerns"
+            "Collective trauma across generations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Historical trauma involves collective, intergenerational trauma affecting entire communities across generations."
         },
         {
           id: 9,
           question: "What is vicarious trauma?",
           options: [
-            "Direct personal trauma experience",
-            "Trauma exposure through helping others",
+            "Only theoretical knowledge of trauma",
             "Complete immunity to others' trauma",
-            "Only theoretical knowledge of trauma"
+            "Trauma exposure through helping others",
+            "Direct personal trauma experience"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vicarious trauma occurs through exposure to others' traumatic material, affecting helpers' psychological well-being."
         },
         {
@@ -2394,11 +2394,11 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           question: "What does trauma-informed informed consent include?",
           options: [
             "Assuming capacity always exists",
-            "Clear explanation of re-traumatization risks",
             "No need for ongoing consent checks",
+            "Clear explanation of re-traumatization risks",
             "Ignoring participant preferences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Trauma-informed consent includes clear risk/benefit explanation, capacity considerations, and ongoing consent checks."
         },
         {
@@ -2419,8 +2419,8 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           options: [
             "Aggressive confrontation",
             "People-pleasing and compliance",
-            "Complete withdrawal",
-            "Emotional numbness"
+            "Emotional numbness",
+            "Complete withdrawal"
           ],
           correctAnswer: 1,
           explanation: "Fawn response involves people-pleasing, compliance, and loss of boundaries to avoid conflict or harm."
@@ -2429,46 +2429,46 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           id: 13,
           question: "What is the window of tolerance?",
           options: [
-            "Complete emotional control",
-            "Optimal arousal zone for functioning",
+            "Permanent shutdown condition",
             "Constant hyperarousal state",
-            "Permanent shutdown condition"
+            "Complete emotional control",
+            "Optimal arousal zone for functioning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Window of tolerance is the optimal arousal zone where individuals can function effectively without becoming overwhelmed."
         },
         {
           id: 14,
           question: "What does trustworthiness involve in trauma practice?",
           options: [
-            "Hidden agendas for protection",
-            "Clear explanations and consistent boundaries",
             "Frequent process surprises",
-            "Unpredictable practitioner behavior"
+            "Unpredictable practitioner behavior",
+            "Hidden agendas for protection",
+            "Clear explanations and consistent boundaries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Trustworthiness involves clear explanations, consistent boundaries, honest communication, and confidentiality respect."
         },
         {
           id: 15,
           question: "What is affect labeling?",
           options: [
-            "Ignoring emotions",
             "Naming emotions to reduce intensity",
-            "Amplifying emotional expression",
-            "Analyzing emotions intellectually only"
+            "Ignoring emotions",
+            "Analyzing emotions intellectually only",
+            "Amplifying emotional expression"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Affect labeling involves naming emotions, which research shows can reduce their intensity and improve regulation."
         },
         {
           id: 16,
           question: "What are attachment-informed approaches?",
           options: [
-            "Ignoring relationship history",
-            "Understanding how early relationships affect current conflicts",
             "Focusing only on present behavior",
-            "Avoiding relationship discussions"
+            "Understanding how early relationships affect current conflicts",
+            "Avoiding relationship discussions",
+            "Ignoring relationship history"
           ],
           correctAnswer: 1,
           explanation: "Attachment-informed approaches understand how early caregiving relationships shape current conflict patterns and relational expectations."
@@ -2477,36 +2477,36 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           id: 17,
           question: "What does complex trauma often begin?",
           options: [
-            "Only in adulthood",
             "In childhood developmental periods",
             "After brief therapy",
-            "With single traumatic event"
+            "With single traumatic event",
+            "Only in adulthood"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Complex trauma typically begins in childhood developmental periods, affecting multiple aspects of development."
         },
         {
           id: 18,
           question: "What is cultural safety?",
           options: [
-            "Ignoring cultural differences",
             "Respect for cultural identities and practices",
-            "Imposing majority cultural norms",
-            "Avoiding cultural discussions"
+            "Avoiding cultural discussions",
+            "Ignoring cultural differences",
+            "Imposing majority cultural norms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cultural safety involves respectful engagement with diverse cultural identities, practices, and healing traditions."
         },
         {
           id: 19,
           question: "What is vicarious trauma prevention?",
           options: [
+            "Ignoring personal reactions",
             "Working without breaks",
             "Regular self-assessment and work-life balance",
-            "Ignoring personal reactions",
             "Avoiding all trauma discussions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Prevention includes regular self-assessment, work-life balance, support systems, and self-care practices."
         },
         {
@@ -2515,8 +2515,8 @@ Trauma-informed conflict resolution requires **humility, patience, and deep resp
           options: [
             "Standard mediation for trauma sensitivity",
             "Eliminating all conflict discussion",
-            "Only using therapeutic approaches",
-            "Avoiding any structure"
+            "Avoiding any structure",
+            "Only using therapeutic approaches"
           ],
           correctAnswer: 0,
           explanation: "Trauma-informed mediation modifies standard mediation approaches to incorporate trauma sensitivity and safety considerations."
@@ -2855,24 +2855,24 @@ Advanced practice and research in conflict resolution represents the **leading e
           id: 1,
           question: "What are the three components of evidence-based practice?",
           options: [
-            "Tradition, intuition, personal preference",
             "Research evidence, clinical expertise, client values",
-            "Theory only, without application",
-            "Popular trends and social media"
+            "Tradition, intuition, personal preference",
+            "Popular trends and social media",
+            "Theory only, without application"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Evidence-based practice integrates best available research evidence with clinical expertise and client values/preferences."
         },
         {
           id: 2,
           question: "What is conflict mapping?",
           options: [
-            "Geographical mapping only",
             "Identifying parties, interests, power dynamics",
-            "Ignoring relationship aspects",
-            "Focusing only on legal issues"
+            "Focusing only on legal issues",
+            "Geographical mapping only",
+            "Ignoring relationship aspects"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Conflict mapping involves comprehensive analysis including stakeholder identification, power dynamics, relationships, and historical patterns."
         },
         {
@@ -2880,80 +2880,80 @@ Advanced practice and research in conflict resolution represents the **leading e
           question: "What is open space technology?",
           options: [
             "Structured agenda with fixed topics",
-            "Self-organizing conversations around shared concerns",
             "Individual therapy sessions",
+            "Self-organizing conversations around shared concerns",
             "Legal arbitration process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Open space technology is a large group process allowing self-organizing conversations around participant-identified topics of shared concern."
         },
         {
           id: 4,
           question: "What does Kirkpatrick's evaluation framework include?",
           options: [
+            "Process speed measurement",
             "Only financial outcomes",
             "Reaction, learning, behavior, results",
-            "Participant numbers only",
-            "Process speed measurement"
+            "Participant numbers only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Kirkpatrick's four levels include reaction (satisfaction), learning (knowledge gain), behavior (application), and results (outcomes)."
         },
         {
           id: 5,
           question: "What is qualitative research?",
           options: [
-            "Only numerical data analysis",
             "Understanding meaning and experience",
+            "Only numerical data analysis",
             "Large sample surveys only",
             "Laboratory experiments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Qualitative research focuses on understanding meaning, experience, and context through methods like interviews, observation, and case studies."
         },
         {
           id: 6,
           question: "What is mixed methods research?",
           options: [
-            "Using only one method",
             "Combining qualitative and quantitative approaches",
             "Ignoring research design",
-            "Personal opinion only"
+            "Personal opinion only",
+            "Using only one method"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Mixed methods research combines qualitative and quantitative approaches to provide more comprehensive understanding."
         },
         {
           id: 7,
           question: "What is the principle of autonomy in ethics?",
           options: [
-            "Practitioner control over process",
             "Respecting self-determination and choice",
             "Maximizing efficiency only",
+            "Practitioner control over process",
             "Following rules without exception"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Autonomy involves respecting individuals' right to self-determination, choice, and informed consent in conflict resolution processes."
         },
         {
           id: 8,
           question: "What is deliberate practice?",
           options: [
-            "Casual occasional practice",
             "Focused effort with specific goals and feedback",
+            "Casual occasional practice",
             "Natural talent development only",
             "Avoiding challenging situations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Deliberate practice involves focused effort on specific skills with clear goals, immediate feedback, and repetition with variation."
         },
         {
           id: 9,
           question: "What is the restorative function of supervision?",
           options: [
-            "Only skill development",
-            "Supporting practitioner well-being",
             "Enforcing rules only",
+            "Supporting practitioner well-being",
+            "Only skill development",
             "Administrative paperwork"
           ],
           correctAnswer: 1,
@@ -2963,10 +2963,10 @@ Advanced practice and research in conflict resolution represents the **leading e
           id: 10,
           question: "What is online dispute resolution?",
           options: [
-            "Avoiding technology completely",
+            "Informal conversations only",
             "Technology-mediated conflict resolution",
-            "Only face-to-face processes",
-            "Informal conversations only"
+            "Avoiding technology completely",
+            "Only face-to-face processes"
           ],
           correctAnswer: 1,
           explanation: "Online dispute resolution uses technology to mediate and resolve conflicts through digital platforms and tools."
@@ -2977,8 +2977,8 @@ Advanced practice and research in conflict resolution represents the **leading e
           options: [
             "Only agreement rates",
             "Process, substantive, and transformative outcomes",
-            "Practitioner satisfaction only",
-            "Speed of resolution only"
+            "Speed of resolution only",
+            "Practitioner satisfaction only"
           ],
           correctAnswer: 1,
           explanation: "Evaluation should include process outcomes (satisfaction), substantive outcomes (agreements), and transformative outcomes (relationship changes)."
@@ -2987,24 +2987,24 @@ Advanced practice and research in conflict resolution represents the **leading e
           id: 12,
           question: "What is case study research?",
           options: [
-            "Large population surveys",
             "In-depth examination of specific cases",
+            "Large population surveys",
             "Laboratory experiments only",
             "Theoretical speculation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Case study research involves in-depth, detailed examination of specific cases to understand complex phenomena in context."
         },
         {
           id: 13,
           question: "What does the principle of justice involve?",
           options: [
+            "Quick resolutions only",
             "Favoring powerful parties",
             "Fairness in process and outcomes",
-            "Quick resolutions only",
             "Ignoring power imbalances"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Justice involves fairness in both the conflict resolution process and the outcomes achieved for all parties."
         },
         {
@@ -3012,83 +3012,83 @@ Advanced practice and research in conflict resolution represents the **leading e
           question: "What is the normative function of supervision?",
           options: [
             "Skill development only",
-            "Ensuring ethical and professional standards",
             "Personal therapy",
-            "Business development"
+            "Business development",
+            "Ensuring ethical and professional standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The normative function ensures practitioners meet ethical standards and follow professional guidelines."
         },
         {
           id: 15,
           question: "What are climate conflicts?",
           options: [
-            "Only interpersonal disagreements",
-            "Conflicts related to environmental changes",
             "Workplace personality clashes",
-            "Family inheritance disputes"
+            "Only interpersonal disagreements",
+            "Family inheritance disputes",
+            "Conflicts related to environmental changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Climate conflicts involve disputes related to environmental changes, resource scarcity, and adaptation to climate impacts."
         },
         {
           id: 16,
           question: "What is appreciative inquiry?",
           options: [
-            "Focusing only on problems",
-            "Strength-based approach to change",
             "Criticism-centered process",
-            "Conflict escalation technique"
+            "Focusing only on problems",
+            "Conflict escalation technique",
+            "Strength-based approach to change"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Appreciative inquiry is a strength-based approach focusing on what works well to create positive organizational change."
         },
         {
           id: 17,
           question: "What is phenomenological research?",
           options: [
-            "Statistical analysis only",
-            "Understanding lived experience",
+            "Historical document analysis",
             "Theoretical speculation",
-            "Historical document analysis"
+            "Understanding lived experience",
+            "Statistical analysis only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Phenomenological research seeks to understand the essence of lived experience from participants' perspectives."
         },
         {
           id: 18,
           question: "What is the principle of non-maleficence?",
           options: [
-            "Causing intentional harm",
-            "Avoiding harm and minimizing risks",
             "Ignoring potential consequences",
-            "Prioritizing efficiency over safety"
+            "Causing intentional harm",
+            "Prioritizing efficiency over safety",
+            "Avoiding harm and minimizing risks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Non-maleficence means avoiding harm and minimizing risks to participants in conflict resolution processes."
         },
         {
           id: 19,
           question: "What does the formative function of supervision address?",
           options: [
+            "Marketing and business development",
             "Only administrative tasks",
             "Developing skills and competence",
-            "Personal life issues only",
-            "Marketing and business development"
+            "Personal life issues only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The formative function focuses on developing practitioner skills, knowledge, and professional competence."
         },
         {
           id: 20,
           question: "What is preventive conflict design?",
           options: [
-            "Reacting to conflicts after they occur",
             "Designing systems to minimize unnecessary conflict",
-            "Ignoring conflict potential",
-            "Allowing all conflicts to escalate"
+            "Allowing all conflicts to escalate",
+            "Reacting to conflicts after they occur",
+            "Ignoring conflict potential"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Preventive conflict design involves creating systems, structures, and cultures that minimize unnecessary conflicts before they occur."
         }
       ]
@@ -3099,12 +3099,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 1,
       question: "What is a positive function of conflict in organizations?",
       options: [
-        "Only causing stress and turnover",
         "Innovation stimulation and social change catalyst",
-        "Complete elimination of communication",
-        "Destruction of all relationships"
+        "Only causing stress and turnover",
+        "Destruction of all relationships",
+        "Complete elimination of communication"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Conflict can serve positive functions including driving innovation, strengthening relationships through resolution, and catalyzing necessary social or organizational change.",
       module: 1
     },
@@ -3113,11 +3113,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What does facilitative mediation emphasize?",
       options: [
         "Mediator expertise in outcomes",
-        "Party self-determination and process neutrality",
         "Legal standards and predictions",
+        "Party self-determination and process neutrality",
         "Emotional healing above all"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Facilitative mediation emphasizes party self-determination, with mediator as process expert rather than content expert, focusing on party control over outcomes.",
       module: 2
     },
@@ -3126,11 +3126,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What is a structural source of organizational conflict?",
       options: [
         "Individual personality only",
-        "Resource allocation systems and departmental boundaries",
         "Personal values differences only",
-        "Communication style preferences only"
+        "Communication style preferences only",
+        "Resource allocation systems and departmental boundaries"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Structural sources include resource allocation systems, reporting relationships, departmental silos, communication channels, and decision-making processes.",
       module: 3
     },
@@ -3138,12 +3138,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 4,
       question: "What do collectivist cultures prioritize in conflict?",
       options: [
+        "Direct confrontation and clear outcomes",
         "Personal goals and autonomy",
         "Group harmony and relationship preservation",
-        "Direct confrontation and clear outcomes",
         "Individual rights above all"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Collectivist cultures prioritize group harmony, relationships, indirect communication, and face-saving approaches to maintain social cohesion.",
       module: 4
     },
@@ -3151,9 +3151,9 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 5,
       question: "What is complex trauma?",
       options: [
-        "Single overwhelming event",
-        "Exposure to multiple traumatic events, often interpersonal",
         "Brief stressful situation",
+        "Exposure to multiple traumatic events, often interpersonal",
+        "Single overwhelming event",
         "Normal life stress response"
       ],
       correctAnswer: 1,
@@ -3164,12 +3164,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 6,
       question: "What are the three components of evidence-based practice?",
       options: [
-        "Tradition, popularity, convenience",
         "Research evidence, clinical expertise, client values",
         "Theory only, without application",
-        "Personal opinion and anecdotal experience"
+        "Personal opinion and anecdotal experience",
+        "Tradition, popularity, convenience"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Evidence-based practice integrates best available research evidence with practitioner expertise and client values/preferences for optimal decision-making.",
       module: 6
     },
@@ -3178,11 +3178,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "How many conflict sources does Moore's circle identify?",
       options: [
         "3",
+        "6",
         "4",
-        "5",
-        "6"
+        "5"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "Moore's circle of conflict identifies five sources: relationship conflicts, data conflicts, interest conflicts, structural conflicts, and value conflicts.",
       module: 1
     },
@@ -3203,9 +3203,9 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 9,
       question: "What does ICMS stand for?",
       options: [
-        "Individual Conflict Management Style",
-        "Integrated Conflict Management Systems",
         "Internal Complaint Management Service",
+        "Integrated Conflict Management Systems",
+        "Individual Conflict Management Style",
         "International Conflict Mediation Standards"
       ],
       correctAnswer: 1,
@@ -3216,12 +3216,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 10,
       question: "What does high power distance in cultures mean?",
       options: [
-        "Questioning authority is encouraged",
         "Accepting hierarchical order and respecting authority",
+        "Questioning authority is encouraged",
         "Complete equality in all relationships",
         "Informal communication with everyone"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "High power distance cultures accept hierarchical order, show deference to authority, and avoid directly challenging superiors in conflict situations.",
       module: 4
     },
@@ -3229,10 +3229,10 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 11,
       question: "What is the freeze trauma response?",
       options: [
-        "Aggression and confrontation",
+        "People-pleasing and compliance",
         "Numbing, dissociation, and shutdown",
         "Avoidance and withdrawal",
-        "People-pleasing and compliance"
+        "Aggression and confrontation"
       ],
       correctAnswer: 1,
       explanation: "Freeze response involves numbing, dissociation, shutdown, and immobility as a survival response when fight or flight seems impossible.",
@@ -3242,12 +3242,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 12,
       question: "What is conflict mapping?",
       options: [
-        "Geographical mapping only",
         "Identifying parties, interests, power dynamics, relationships",
         "Ignoring relationship aspects",
+        "Geographical mapping only",
         "Focusing only on legal issues"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Conflict mapping involves comprehensive analysis including stakeholder identification, power dynamics, relationship networks, timelines, and cultural contexts.",
       module: 6
     },
@@ -3255,12 +3255,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 13,
       question: "What paradigm seeks structural and cultural change?",
       options: [
-        "Traditional paradigm",
-        "Human relations paradigm",
+        "Positivist paradigm",
         "Systems paradigm",
-        "Positivist paradigm"
+        "Traditional paradigm",
+        "Human relations paradigm"
       ],
-      correctAnswer: 2,
+      correctAnswer: 1,
       explanation: "The systems paradigm views conflict as systemic phenomenon and seeks structural and cultural change through organizational development interventions.",
       module: 1
     },
@@ -3268,12 +3268,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 14,
       question: "What is narrative mediation based on?",
       options: [
+        "Economic rational choice",
         "Behavioral psychology",
         "Social constructionist theory",
-        "Legal positivism",
-        "Economic rational choice"
+        "Legal positivism"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Narrative mediation applies social constructionist theory, viewing conflict as constructed through stories rather than objective reality.",
       module: 2
     },
@@ -3281,12 +3281,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 15,
       question: "What are ombuds standards?",
       options: [
-        "Advocacy and formal processes",
-        "Independence, neutrality, confidentiality, informality",
         "Legal representation and binding decisions",
-        "Public reporting and transparency"
+        "Advocacy and formal processes",
+        "Public reporting and transparency",
+        "Independence, neutrality, confidentiality, informality"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Ombuds standards include independence (organizational autonomy), neutrality and impartiality, confidentiality, and informality (not creating formal records).",
       module: 3
     },
@@ -3294,12 +3294,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 16,
       question: "What is CQ Strategy in cultural intelligence?",
       options: [
-        "Interest in cross-cultural situations",
         "Planning and adjusting mental models",
         "Knowledge of cultural frameworks",
-        "Adapting verbal and nonverbal behavior"
+        "Adapting verbal and nonverbal behavior",
+        "Interest in cross-cultural situations"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "CQ Strategy involves metacognition - planning cross-cultural interactions, checking cultural assumptions, and adjusting mental models based on experience.",
       module: 4
     },
@@ -3307,12 +3307,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 17,
       question: "What does the window of tolerance refer to?",
       options: [
-        "Complete emotional control",
         "Optimal arousal zone for functioning",
-        "Constant hyperarousal state",
-        "Permanent shutdown condition"
+        "Complete emotional control",
+        "Permanent shutdown condition",
+        "Constant hyperarousal state"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Window of tolerance is the optimal arousal zone where individuals can process information, regulate emotions, and function effectively without becoming overwhelmed.",
       module: 5
     },
@@ -3321,11 +3321,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What is open space technology?",
       options: [
         "Structured agenda with fixed topics",
-        "Self-organizing conversations around shared concerns",
+        "Legal arbitration process",
         "Individual therapy sessions",
-        "Legal arbitration process"
+        "Self-organizing conversations around shared concerns"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Open space technology is a large group facilitation method where participants create and manage their own agenda of conversations around shared concerns.",
       module: 6
     },
@@ -3333,12 +3333,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 19,
       question: "What type of conflict occurs within an individual?",
       options: [
-        "Interpersonal conflict",
-        "Intrapersonal conflict",
+        "Organizational conflict",
         "Intergroup conflict",
-        "Organizational conflict"
+        "Intrapersonal conflict",
+        "Interpersonal conflict"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Intrapersonal conflict occurs within an individual, involving internal struggles, decisions, or conflicting values, goals, or emotions.",
       module: 1
     },
@@ -3347,11 +3347,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What is a risk of evaluative mediation?",
       options: [
         "Too much party empowerment",
-        "Undermining party empowerment",
         "Excessive emotional processing",
-        "Lack of legal standards"
+        "Lack of legal standards",
+        "Undermining party empowerment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Evaluative mediation risks undermining party empowerment as decisions may come more from mediator expertise than party self-determination.",
       module: 2
     },
@@ -3359,10 +3359,10 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 21,
       question: "What is a direct financial cost of organizational conflict?",
       options: [
-        "Innovation suppression",
+        "Cultural deterioration only",
         "Lost productivity time and turnover expenses",
-        "Reputation damage only",
-        "Cultural deterioration only"
+        "Innovation suppression",
+        "Reputation damage only"
       ],
       correctAnswer: 1,
       explanation: "Direct financial costs include lost productivity time, turnover expenses (recruitment, hiring, training), legal and settlement costs, and absenteeism expenses.",
@@ -3372,12 +3372,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 22,
       question: "What do masculine cultures value in conflict?",
       options: [
-        "Cooperation and consensus-building",
-        "Competition, achievement, decisive resolution",
         "Relationship preservation only",
-        "Emotional expression avoidance"
+        "Cooperation and consensus-building",
+        "Emotional expression avoidance",
+        "Competition, achievement, decisive resolution"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Masculine cultures value competition, achievement, assertiveness, and decisive conflict resolution focused on clear outcomes.",
       module: 4
     },
@@ -3398,12 +3398,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 24,
       question: "What does Kirkpatrick's evaluation framework include?",
       options: [
+        "Participant numbers only",
         "Only financial outcomes",
         "Reaction, learning, behavior, results",
-        "Participant numbers only",
         "Process speed measurement"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Kirkpatrick's four-level framework includes reaction (participant satisfaction), learning (knowledge/skill gain), behavior (application), and results (outcomes/impact).",
       module: 6
     },
@@ -3411,10 +3411,10 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 25,
       question: "What do high-context cultures prioritize in conflict?",
       options: [
-        "Direct confrontation",
+        "Clear win-lose outcomes",
         "Relationship preservation and face-saving",
         "Efficiency above all",
-        "Clear win-lose outcomes"
+        "Direct confrontation"
       ],
       correctAnswer: 1,
       explanation: "High-context cultures prioritize relationship preservation, use indirect communication, focus on nonverbal cues, and emphasize face-saving approaches.",
@@ -3424,12 +3424,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 26,
       question: "What does externalizing conversations do in narrative mediation?",
       options: [
-        "Blame parties for problems",
-        "Separate people from the problem",
         "Focus on legal liabilities",
-        "Assign responsibility clearly"
+        "Blame parties for problems",
+        "Assign responsibility clearly",
+        "Separate people from the problem"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Externalizing conversations separate people from problems, viewing issues as external forces affecting the relationship rather than inherent personal flaws.",
       module: 2
     },
@@ -3437,10 +3437,10 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 27,
       question: "What characterizes conflict positive organizations?",
       options: [
-        "Complete absence of disagreement",
+        "Informal resolution only",
         "Psychological safety and learning orientation",
-        "Authoritarian leadership only",
-        "Informal resolution only"
+        "Complete absence of disagreement",
+        "Authoritarian leadership only"
       ],
       correctAnswer: 1,
       explanation: "Conflict positive organizations feature psychological safety, learning orientation, diversity inclusion, transparent processes, and leadership modeling of constructive conflict.",
@@ -3450,12 +3450,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 28,
       question: "What is Ubuntu philosophy?",
       options: [
-        "Individual achievement focus",
         "I am because we are - community focus",
         "Competitive success orientation",
-        "Formal hierarchical structures"
+        "Formal hierarchical structures",
+        "Individual achievement focus"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Ubuntu philosophy emphasizes human interconnectedness: 'I am because we are,' focusing on community, relationship, and collective well-being.",
       module: 4
     },
@@ -3463,12 +3463,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 29,
       question: "What does collaboration and mutuality involve?",
       options: [
+        "Hierarchical expert model",
         "Practitioner making all decisions",
-        "Power sharing and partnership approach",
         "Complete client dependence",
-        "Hierarchical expert model"
+        "Power sharing and partnership approach"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Collaboration involves power sharing, partnership approaches, maximizing participant choice and control, and shared decision-making processes.",
       module: 5
     },
@@ -3477,11 +3477,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What is qualitative research?",
       options: [
         "Only numerical data analysis",
-        "Understanding meaning and experience",
         "Large sample surveys only",
+        "Understanding meaning and experience",
         "Laboratory experiments"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Qualitative research focuses on understanding meaning, experience, and context through methods like interviews, observation, and narrative analysis.",
       module: 6
     },
@@ -3489,12 +3489,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 31,
       question: "What is the dual concern model about?",
       options: [
+        "Historical conflict patterns",
         "Cultural differences in conflict",
-        "How concern for self and others shapes conflict style",
         "Structural causes of conflict",
-        "Historical conflict patterns"
+        "How concern for self and others shapes conflict style"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "The dual concern model examines how concern for self and concern for others interact to shape an individual's preferred conflict management style.",
       module: 1
     },
@@ -3502,12 +3502,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 32,
       question: "What is an ethical concern in therapeutic mediation?",
       options: [
-        "Lack of emotional focus",
         "Dual role management",
-        "Too much party control",
-        "Insufficient structure"
+        "Lack of emotional focus",
+        "Insufficient structure",
+        "Too much party control"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Therapeutic mediation raises dual role concerns as mediator balances mediation functions with therapeutic functions, requiring careful boundary management.",
       module: 2
     },
@@ -3515,12 +3515,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 33,
       question: "What do conflict competent leaders need?",
       options: [
+        "Complete emotional detachment",
         "Only technical expertise",
         "Conflict diagnosis and intervention selection skills",
-        "Avoidance of all disagreements",
-        "Complete emotional detachment"
+        "Avoidance of all disagreements"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Conflict competent leaders need diagnosis skills, intervention selection ability, emotional regulation, communication facilitation, and systemic thinking.",
       module: 3
     },
@@ -3529,11 +3529,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What do high uncertainty avoidance cultures prefer?",
       options: [
         "Ambiguity and flexibility",
-        "Rules, structure, and clear outcomes",
         "Informal spontaneous processes",
-        "Open-ended resolutions"
+        "Open-ended resolutions",
+        "Rules, structure, and clear outcomes"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "High uncertainty avoidance cultures dislike ambiguity, prefer clear rules and structure, and seek predictable conflict outcomes.",
       module: 4
     },
@@ -3542,11 +3542,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What is the 5-4-3-2-1 technique for?",
       options: [
         "Memory enhancement",
-        "Sensory grounding in present moment",
         "Trauma narrative processing",
-        "Conflict escalation assessment"
+        "Conflict escalation assessment",
+        "Sensory grounding in present moment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "5-4-3-2-1 is a sensory grounding technique: noticing 5 things you see, 4 things you feel, 3 things you hear, 2 things you smell, 1 thing you taste to stay present.",
       module: 5
     },
@@ -3554,12 +3554,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 36,
       question: "What is mixed methods research?",
       options: [
-        "Using only one method",
-        "Combining qualitative and quantitative approaches",
         "Ignoring research design",
-        "Personal opinion only"
+        "Personal opinion only",
+        "Using only one method",
+        "Combining qualitative and quantitative approaches"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Mixed methods research combines qualitative and quantitative approaches to provide more comprehensive understanding through methodological triangulation.",
       module: 6
     },
@@ -3567,10 +3567,10 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 37,
       question: "What is Galtung's conflict triangle?",
       options: [
-        "Two-dimensional model",
-        "Three interconnected dimensions: attitude, behavior, contradiction",
         "Four-stage process",
-        "Five conflict sources"
+        "Three interconnected dimensions: attitude, behavior, contradiction",
+        "Five conflict sources",
+        "Two-dimensional model"
       ],
       correctAnswer: 1,
       explanation: "Galtung's conflict triangle identifies three interconnected dimensions: attitude (feelings), behavior (actions), and contradiction (incompatible goals).",
@@ -3580,12 +3580,12 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 38,
       question: "What do culturally competent mediators demonstrate?",
       options: [
-        "Rigid adherence to one model",
         "Self-awareness and adaptive skills",
-        "Superior cultural knowledge only",
-        "Technical expertise above all"
+        "Rigid adherence to one model",
+        "Technical expertise above all",
+        "Superior cultural knowledge only"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Culturally competent mediators demonstrate self-awareness, cultural knowledge, adaptive skills, and humility in cross-cultural learning.",
       module: 2
     },
@@ -3594,11 +3594,11 @@ Advanced practice and research in conflict resolution represents the **leading e
       question: "What can organizations measure about conflict?",
       options: [
         "Only financial costs",
-        "Frequency, intensity, duration, resolution metrics",
         "Only legal outcomes",
-        "Only employee satisfaction"
+        "Only employee satisfaction",
+        "Frequency, intensity, duration, resolution metrics"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Organizations can measure conflict frequency, intensity, duration, resolution methods, costs, and broader cultural impacts.",
       module: 3
     },
@@ -3606,10 +3606,10 @@ Advanced practice and research in conflict resolution represents the **leading e
       id: 40,
       question: "What is the principle of autonomy in ethics?",
       options: [
-        "Practitioner control over process",
-        "Respecting self-determination and choice",
         "Maximizing efficiency only",
-        "Following rules without exception"
+        "Respecting self-determination and choice",
+        "Following rules without exception",
+        "Practitioner control over process"
       ],
       correctAnswer: 1,
       explanation: "Autonomy involves respecting individuals' right to self-determination, informed choice, and control over decisions affecting them.",

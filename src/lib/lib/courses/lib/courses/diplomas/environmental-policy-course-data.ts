@@ -132,34 +132,34 @@ This foundation module provides the essential knowledge needed to understand env
           id: 1,
           question: "According to the Brundtland Commission definition used in this module, what does sustainability mean?",
           options: [
+            "Preserving all natural resources completely untouched",
             "Using resources only for current economic growth",
             "Meeting present needs without compromising future generations' ability to meet their needs",
-            "Preserving all natural resources completely untouched",
             "Focusing exclusively on environmental protection over economic development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Brundtland Commission (1987) defined sustainable development as 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs.' This balanced approach considers environmental, social, and economic dimensions."
         },
         {
           id: 2,
           question: "Which principle suggests taking preventive action even without full scientific certainty about environmental threats?",
           options: [
-            "Polluter Pays Principle",
-            "Precautionary Principle",
+            "Common but Differentiated Responsibilities",
             "Sustainable Development Principle",
-            "Common but Differentiated Responsibilities"
+            "Precautionary Principle",
+            "Polluter Pays Principle"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Precautionary Principle advocates for taking preventive action in the face of uncertainty when threats of serious or irreversible damage to the environment exist. This principle has been incorporated into many international environmental agreements."
         },
         {
           id: 3,
           question: "During which historical phase was the US Environmental Protection Agency (EPA) established?",
           options: [
-            "Conservation Era (1900-1960)",
+            "Industrial Revolution Era",
             "Pollution Control Era (1960-1980)",
             "Sustainable Development Era (1980-Present)",
-            "Industrial Revolution Era"
+            "Conservation Era (1900-1960)"
           ],
           correctAnswer: 1,
           explanation: "The EPA was established in 1970 during the Pollution Control Era, which responded to visible environmental degradation and public health crises. This era also saw major legislation like the Clean Air Act (1970) and Clean Water Act (1972)."
@@ -168,24 +168,24 @@ This foundation module provides the essential knowledge needed to understand env
           id: 4,
           question: "Which of the following is an example of an economic instrument in environmental policy?",
           options: [
-            "Emission standards and limits",
-            "Environmental taxes and charges",
+            "ISO 14001 certification",
             "Public disclosure of pollution data",
-            "ISO 14001 certification"
+            "Emission standards and limits",
+            "Environmental taxes and charges"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Environmental taxes and charges are economic instruments that use market forces to influence behavior. They create financial incentives for reducing pollution and are considered more flexible than traditional command-and-control regulations."
         },
         {
           id: 5,
           question: "What is the main objective of the Polluter Pays Principle?",
           options: [
-            "To make pollution completely illegal",
             "To ensure polluters bear the costs of environmental damage",
+            "To make pollution completely illegal",
             "To eliminate all industrial pollution immediately",
             "To transfer pollution costs to taxpayers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Polluter Pays Principle holds that those who produce pollution should bear the costs of managing it to prevent damage to human health or the environment. This principle encourages pollution prevention and efficient resource use."
         },
         {
@@ -194,8 +194,8 @@ This foundation module provides the essential knowledge needed to understand env
           options: [
             "Paris Agreement (2015)",
             "Montreal Protocol (1987)",
-            "Kyoto Protocol (1997)",
-            "Convention on Biological Diversity (1992)"
+            "Convention on Biological Diversity (1992)",
+            "Kyoto Protocol (1997)"
           ],
           correctAnswer: 1,
           explanation: "The Montreal Protocol (1987) is an international treaty designed to protect the ozone layer by phasing out the production of numerous substances responsible for ozone depletion. It is considered one of the most successful international environmental agreements."
@@ -204,24 +204,24 @@ This foundation module provides the essential knowledge needed to understand env
           id: 7,
           question: "What does the principle of 'Common but Differentiated Responsibilities' recognize in international environmental agreements?",
           options: [
-            "All countries have equal responsibility regardless of development level",
             "Only developed countries should address environmental problems",
             "All states have responsibility but developed countries should take the lead",
-            "Environmental problems should be solved only by affected countries"
+            "Environmental problems should be solved only by affected countries",
+            "All countries have equal responsibility regardless of development level"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "This principle acknowledges that while all countries share responsibility for addressing global environmental problems, developed countries should take the lead due to their historical contributions to environmental degradation and greater technological and financial capabilities."
         },
         {
           id: 8,
           question: "Which stage of policy analysis involves defining the environmental issue and its scope?",
           options: [
+            "Policy Evaluation",
             "Policy Formulation",
-            "Problem Identification",
             "Policy Adoption",
-            "Policy Evaluation"
+            "Problem Identification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Problem Identification is the first stage of policy analysis, where the environmental issue is clearly defined, its scope is determined, and its significance is established. This stage sets the foundation for all subsequent policy development."
         },
         {
@@ -229,9 +229,9 @@ This foundation module provides the essential knowledge needed to understand env
           question: "What type of policy instrument includes environmental labeling and certification programs?",
           options: [
             "Regulatory Instruments",
-            "Economic Instruments",
+            "Voluntary Approaches",
             "Informational Instruments",
-            "Voluntary Approaches"
+            "Economic Instruments"
           ],
           correctAnswer: 2,
           explanation: "Environmental labeling and certification are informational instruments that provide consumers with information about products' environmental attributes. These programs influence purchasing decisions and encourage producers to improve their environmental performance."
@@ -241,9 +241,9 @@ This foundation module provides the essential knowledge needed to understand env
           question: "Which international organization coordinates global environmental activities according to the module?",
           options: [
             "World Health Organization (WHO)",
-            "Intergovernmental Panel on Climate Change (IPCC)",
+            "World Bank",
             "United Nations Environment Programme (UNEP)",
-            "World Bank"
+            "Intergovernmental Panel on Climate Change (IPCC)"
           ],
           correctAnswer: 2,
           explanation: "The United Nations Environment Programme (UNEP) is the leading global environmental authority that sets the global environmental agenda, promotes sustainable development, and serves as an authoritative advocate for the global environment."
@@ -252,58 +252,58 @@ This foundation module provides the essential knowledge needed to understand env
           id: 11,
           question: "What is a key characteristic of the Sustainable Development Era (1980-Present)?",
           options: [
-            "Focus only on conservation of natural areas",
             "Response to visible pollution incidents",
-            "Integration of environmental, economic, and social considerations",
-            "Complete deregulation of environmental protection"
+            "Focus only on conservation of natural areas",
+            "Complete deregulation of environmental protection",
+            "Integration of environmental, economic, and social considerations"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The Sustainable Development Era is characterized by the integration of environmental, economic, and social considerations. This holistic approach recognizes that long-term environmental protection requires addressing economic development and social equity concerns simultaneously."
         },
         {
           id: 12,
           question: "Which criterion for policy evaluation asks whether benefits are greater than costs?",
           options: [
+            "Political Feasibility",
             "Effectiveness",
             "Efficiency",
-            "Equity",
-            "Political Feasibility"
+            "Equity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Efficiency as a policy evaluation criterion examines whether the benefits of a policy exceed its costs. This involves comparing the environmental improvements achieved with the economic and social costs of implementation."
         },
         {
           id: 13,
           question: "What does the term 'circular economy' refer to in contemporary environmental policy discussions?",
           options: [
-            "An economy that only uses renewable resources",
             "Moving from linear (take-make-dispose) to circular systems",
-            "An economy with no industrial production",
-            "Complete recycling of all materials immediately"
+            "Complete recycling of all materials immediately",
+            "An economy that only uses renewable resources",
+            "An economy with no industrial production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A circular economy aims to move away from the traditional linear economic model (take-make-dispose) toward systems that keep resources in use for as long as possible, extract maximum value, then recover and regenerate products and materials at the end of their service life."
         },
         {
           id: 14,
           question: "Which of the following is an example of a voluntary approach in environmental policy?",
           options: [
-            "Emission standards set by government",
-            "Carbon taxes on fossil fuels",
             "ISO 14001 environmental management systems",
-            "Mandatory pollution reporting"
+            "Mandatory pollution reporting",
+            "Carbon taxes on fossil fuels",
+            "Emission standards set by government"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "ISO 14001 environmental management systems are voluntary approaches where organizations choose to implement environmental management practices beyond legal requirements. These systems help organizations improve environmental performance through systematic management."
         },
         {
           id: 15,
           question: "What is the primary focus of environmental justice considerations in policy development?",
           options: [
-            "Maximizing economic growth through environmental policies",
-            "Ensuring equitable distribution of environmental benefits and burdens",
             "Protecting only pristine natural areas from development",
-            "Focusing exclusively on climate change mitigation"
+            "Ensuring equitable distribution of environmental benefits and burdens",
+            "Focusing exclusively on climate change mitigation",
+            "Maximizing economic growth through environmental policies"
           ],
           correctAnswer: 1,
           explanation: "Environmental justice focuses on the fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income with respect to environmental laws, regulations, and policies. It addresses disproportionate environmental burdens on vulnerable communities."
@@ -313,23 +313,23 @@ This foundation module provides the essential knowledge needed to understand env
           question: "Which policy instrument directly sets specific limits on pollution emissions?",
           options: [
             "Tradable permit systems",
-            "Environmental education programs",
             "Emission standards and limits",
+            "Environmental education programs",
             "Corporate social responsibility initiatives"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Emission standards and limits are regulatory (command-and-control) instruments that set specific quantitative limits on pollution emissions. These are often technology-based standards that specify what levels of pollution are allowable."
         },
         {
           id: 17,
           question: "What does the 'cap-and-trade' system represent in environmental policy?",
           options: [
-            "A regulatory approach with fixed technology requirements",
             "An economic instrument using tradable permits",
-            "A voluntary certification program",
-            "An informational disclosure requirement"
+            "A regulatory approach with fixed technology requirements",
+            "An informational disclosure requirement",
+            "A voluntary certification program"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cap-and-trade is an economic instrument where a central authority sets a limit (cap) on total emissions and issues tradable permits to emitters. This creates a market for emission allowances, providing economic incentives for emission reductions."
         },
         {
@@ -337,21 +337,21 @@ This foundation module provides the essential knowledge needed to understand env
           question: "Which stage of policy analysis involves putting the policy into practice?",
           options: [
             "Policy Formulation",
+            "Policy Evaluation",
             "Policy Adoption",
-            "Policy Implementation",
-            "Policy Evaluation"
+            "Policy Implementation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Policy Implementation is the stage where the chosen policy is put into practice through administrative actions, resource allocation, and operational activities. This stage determines how effectively policy intentions are translated into real-world outcomes."
         },
         {
           id: 19,
           question: "What is the main purpose of the Intergovernmental Panel on Climate Change (IPCC)?",
           options: [
-            "To enforce international climate agreements",
             "To fund climate projects in developing countries",
+            "To coordinate global environmental activities",
             "To assess scientific information related to climate change",
-            "To coordinate global environmental activities"
+            "To enforce international climate agreements"
           ],
           correctAnswer: 2,
           explanation: "The IPCC's main role is to assess the scientific, technical, and socio-economic information relevant to understanding climate change, its potential impacts, and options for adaptation and mitigation. It does not conduct research itself but evaluates published literature."
@@ -361,11 +361,11 @@ This foundation module provides the essential knowledge needed to understand env
           question: "Which concept refers to ensuring meaningful public participation in environmental decision-making?",
           options: [
             "Precautionary Principle",
-            "Environmental Democracy",
+            "Sustainable Development",
             "Polluter Pays Principle",
-            "Sustainable Development"
+            "Environmental Democracy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Environmental democracy encompasses principles of access to information, public participation in decision-making, and access to justice in environmental matters. These principles are essential for accountable and effective environmental governance."
         }
       ],
@@ -542,82 +542,82 @@ This module provides comprehensive understanding of climate change policy framew
           id: 1,
           question: "According to IPCC findings presented in this module, how much has global surface temperature increased since the pre-industrial period?",
           options: [
-            "Approximately 0.5°C",
             "Approximately 1.1°C",
-            "Approximately 2.0°C",
-            "Approximately 3.0°C"
+            "Approximately 0.5°C",
+            "Approximately 3.0°C",
+            "Approximately 2.0°C"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The IPCC Sixth Assessment Report indicates that global surface temperature has increased by approximately 1.1°C since the pre-industrial period (1850-1900). This warming is unequivocally caused by human activities."
         },
         {
           id: 2,
           question: "What is the primary objective of the United Nations Framework Convention on Climate Change (UNFCCC)?",
           options: [
-            "To eliminate all greenhouse gas emissions immediately",
             "To stabilize greenhouse gas concentrations at a level preventing dangerous interference",
+            "To create a global carbon tax system",
             "To establish binding emission reduction targets for all countries",
-            "To create a global carbon tax system"
+            "To eliminate all greenhouse gas emissions immediately"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The ultimate objective of the UNFCCC, as stated in Article 2, is to achieve stabilization of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interference with the climate system."
         },
         {
           id: 3,
           question: "What distinguishes the Paris Agreement from previous climate agreements like the Kyoto Protocol?",
           options: [
+            "It focuses only on mitigation without addressing adaptation",
             "It applies only to developed countries",
             "It has universal participation with all countries submitting climate plans",
-            "It focuses only on mitigation without addressing adaptation",
             "It establishes fixed emission reduction targets for all countries"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Paris Agreement is distinctive for its universal participation, with all Parties expected to contribute through Nationally Determined Contributions (NDCs). This bottom-up approach contrasts with the Kyoto Protocol's top-down, Annex I/non-Annex I differentiation."
         },
         {
           id: 4,
           question: "What temperature limit does the Paris Agreement aim to keep global warming 'well below'?",
           options: [
-            "1.0°C above pre-industrial levels",
             "2.0°C above pre-industrial levels",
             "3.0°C above pre-industrial levels",
+            "1.0°C above pre-industrial levels",
             "4.0°C above pre-industrial levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Paris Agreement's central aim is to strengthen the global response to climate change by holding the increase in global average temperature to well below 2°C above pre-industrial levels and pursuing efforts to limit the temperature increase to 1.5°C."
         },
         {
           id: 5,
           question: "What are Nationally Determined Contributions (NDCs) in the context of the Paris Agreement?",
           options: [
-            "International emission reduction targets set by the UN",
             "Country-specific climate action plans submitted by each Party",
-            "Mandatory five-year emission reduction requirements",
-            "Climate finance commitments from developed countries"
+            "Climate finance commitments from developed countries",
+            "International emission reduction targets set by the UN",
+            "Mandatory five-year emission reduction requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "NDCs are climate action plans that each Party to the Paris Agreement prepares and communicates. They outline the country's efforts to reduce national emissions and adapt to climate impacts. Parties are expected to update and enhance their NDCs every five years."
         },
         {
           id: 6,
           question: "Which of the following is an example of a carbon pricing mechanism?",
           options: [
-            "Renewable portfolio standards",
-            "Energy efficiency building codes",
             "Carbon taxes on fossil fuels",
-            "Electric vehicle purchase incentives"
+            "Energy efficiency building codes",
+            "Electric vehicle purchase incentives",
+            "Renewable portfolio standards"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Carbon taxes are a direct form of carbon pricing where a fee is imposed on the carbon content of fossil fuels. This creates economic incentives to reduce emissions by making carbon-intensive activities more expensive."
         },
         {
           id: 7,
           question: "What does REDD+ stand for in climate policy?",
           options: [
-            "Renewable Energy Development and Deployment",
+            "Resource Efficiency and Decarbonization Drive",
             "Reducing Emissions from Deforestation and Forest Degradation",
             "Regional Emission Distribution and Disclosure",
-            "Resource Efficiency and Decarbonization Drive"
+            "Renewable Energy Development and Deployment"
           ],
           correctAnswer: 1,
           explanation: "REDD+ is a framework created under the UNFCCC to guide activities in the forest sector that reduces emissions from deforestation and forest degradation, as well as sustainable forest management and conservation."
@@ -626,12 +626,12 @@ This module provides comprehensive understanding of climate change policy framew
           id: 8,
           question: "What annual climate finance commitment did developed countries agree to provide by 2020?",
           options: [
-            "$50 billion per year",
-            "$100 billion per year",
             "$200 billion per year",
-            "$500 billion per year"
+            "$500 billion per year",
+            "$100 billion per year",
+            "$50 billion per year"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "At COP15 in Copenhagen (2009), developed countries committed to a goal of mobilizing $100 billion per year by 2020 to address the needs of developing countries. This commitment was formalized in the Paris Agreement."
         },
         {
@@ -640,8 +640,8 @@ This module provides comprehensive understanding of climate change policy framew
           options: [
             "To ensure only rich countries take climate action",
             "To support workers and communities dependent on fossil fuels",
-            "To delay climate action until technology improves",
-            "To transfer all climate costs to future generations"
+            "To transfer all climate costs to future generations",
+            "To delay climate action until technology improves"
           ],
           correctAnswer: 1,
           explanation: "A Just Transition framework aims to ensure that the shift to a low-carbon economy happens in a fair way, supporting workers, communities, and regions that depend on fossil fuel industries, while creating quality jobs in clean energy sectors."
@@ -651,21 +651,21 @@ This module provides comprehensive understanding of climate change policy framew
           question: "What does MRV stand for in climate policy implementation?",
           options: [
             "Mitigation, Reduction, and Verification",
-            "Monitoring, Reporting, and Verification",
             "Measurement, Reporting, and Validation",
-            "Management, Regulation, and Verification"
+            "Management, Regulation, and Verification",
+            "Monitoring, Reporting, and Verification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "MRV stands for Monitoring, Reporting, and Verification. These systems are essential for transparency and accountability in climate policy implementation, enabling tracking of progress, supporting learning, and building trust between countries."
         },
         {
           id: 11,
           question: "What percentage probability does the IPCC assign to human influence being the dominant cause of warming since the mid-20th century?",
           options: [
-            "50-75% probability",
+            "100% certain",
             "75-95% probability",
             "95-100% probability (extremely likely)",
-            "100% certain"
+            "50-75% probability"
           ],
           correctAnswer: 2,
           explanation: "The IPCC states that it is extremely likely (95-100% probability) that human influence has been the dominant cause of observed warming since the mid-20th century. This represents the highest level of confidence in IPCC assessment language."
@@ -674,9 +674,9 @@ This module provides comprehensive understanding of climate change policy framew
           id: 12,
           question: "Which flexibility mechanism under the Kyoto Protocol allowed developed countries to invest in emission reduction projects in developing countries?",
           options: [
-            "Emissions Trading",
-            "Clean Development Mechanism",
             "Joint Implementation",
+            "Clean Development Mechanism",
+            "Emissions Trading",
             "Carbon Offset Program"
           ],
           correctAnswer: 1,
@@ -686,58 +686,58 @@ This module provides comprehensive understanding of climate change policy framew
           id: 13,
           question: "What is the purpose of Carbon Border Adjustment Mechanisms (CBAM)?",
           options: [
-            "To eliminate all international trade in carbon-intensive goods",
             "To address carbon leakage and ensure fair competition",
+            "To eliminate all international trade in carbon-intensive goods",
             "To provide subsidies for domestic carbon-intensive industries",
             "To ban imports from countries without climate policies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CBAMs aim to address carbon leakage (where production moves to countries with weaker climate policies) by imposing carbon costs on imports comparable to those faced by domestic producers, ensuring fair competition while maintaining climate ambition."
         },
         {
           id: 14,
           question: "What type of adaptation strategy involves using natural systems like wetlands or forests for protection?",
           options: [
-            "Structural/Engineering adaptation",
             "Institutional adaptation",
             "Ecosystem-based adaptation",
+            "Structural/Engineering adaptation",
             "Technological adaptation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Ecosystem-based adaptation uses biodiversity and ecosystem services to help people adapt to climate change. Examples include protecting mangroves to reduce coastal flooding or maintaining forests to regulate water flow and prevent landslides."
         },
         {
           id: 15,
           question: "How often does the Paris Agreement require a global stocktake of collective progress?",
           options: [
-            "Every year",
-            "Every 2 years",
             "Every 5 years",
-            "Every 10 years"
+            "Every year",
+            "Every 10 years",
+            "Every 2 years"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The Paris Agreement establishes a five-year cycle for increasing ambition. Each cycle includes submission of updated NDCs and a global stocktake to assess collective progress toward achieving the Agreement's purpose and long-term goals."
         },
         {
           id: 16,
           question: "What is the estimated annual climate finance need for low-carbon transition by 2030 according to this module?",
           options: [
-            "$1-2 trillion",
-            "$2-3 trillion",
             "$4-5 trillion",
-            "$10-12 trillion"
+            "$1-2 trillion",
+            "$10-12 trillion",
+            "$2-3 trillion"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Various estimates suggest that $4-5 trillion annually is needed for the transition to a low-carbon economy by 2030. Current climate finance flows of approximately $632 billion represent a significant gap that must be addressed."
         },
         {
           id: 17,
           question: "What does the Enhanced Transparency Framework (ETF) under the Paris Agreement provide?",
           options: [
-            "Voluntary reporting guidelines for developed countries only",
-            "Common reporting requirements for all Parties with technical review",
             "Secret reporting to UNFCCC without publication",
-            "Reporting only on financial contributions"
+            "Common reporting requirements for all Parties with technical review",
+            "Reporting only on financial contributions",
+            "Voluntary reporting guidelines for developed countries only"
           ],
           correctAnswer: 1,
           explanation: "The ETF establishes common reporting requirements for all Parties, with technical expert review of submitted information and facilitative, multilateral consideration of progress. It builds on existing systems while improving consistency and transparency."
@@ -746,36 +746,36 @@ This module provides comprehensive understanding of climate change policy framew
           id: 18,
           question: "Which of the following is an example of a sector-specific climate policy for transportation?",
           options: [
-            "Carbon capture and storage requirements",
-            "Renewable portfolio standards",
             "Vehicle emission standards",
-            "Building energy codes"
+            "Carbon capture and storage requirements",
+            "Building energy codes",
+            "Renewable portfolio standards"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Vehicle emission standards are sector-specific policies for the transportation sector that set limits on pollutants from vehicles. These standards drive technological improvements and reduce greenhouse gas emissions from transportation."
         },
         {
           id: 19,
           question: "What is the primary focus of climate litigation as discussed in this module?",
           options: [
+            "Eliminating all fossil fuel companies through legal means",
             "Criminal prosecution of polluters",
             "Using courts to advance climate action and establish responsibilities",
-            "Suing governments for all climate damages",
-            "Eliminating all fossil fuel companies through legal means"
+            "Suing governments for all climate damages"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Climate litigation involves using courts to advance climate action, establish legal responsibilities for emissions reductions, seek compensation for climate damages, and define rights related to climate change, including rights of future generations."
         },
         {
           id: 20,
           question: "What does the term 'nature-based solutions' refer to in climate policy?",
           options: [
+            "Using ecosystems to address climate challenges",
             "Using only natural materials in construction",
             "Returning to pre-industrial lifestyles",
-            "Using ecosystems to address climate challenges",
             "Eliminating all human impact on nature"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Nature-based solutions involve working with nature to address societal challenges, providing benefits for both human well-being and biodiversity. In climate policy, this includes carbon sequestration through forests, wetlands, and soils, along with adaptation co-benefits."
         }
       ],
@@ -994,45 +994,45 @@ This module provides comprehensive understanding of biodiversity policy framewor
           question: "According to the IPBES 2019 Global Assessment, approximately how many animal and plant species are threatened with extinction?",
           options: [
             "100,000 species",
-            "500,000 species",
             "1 million species",
-            "5 million species"
+            "5 million species",
+            "500,000 species"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The IPBES 2019 Global Assessment found that around 1 million animal and plant species are now threatened with extinction, many within decades. This represents an unprecedented rate of species loss, tens to hundreds of times higher than the average over the past 10 million years."
         },
         {
           id: 2,
           question: "What are the three main objectives of the Convention on Biological Diversity (CBD)?",
           options: [
-            "Protection, preservation, and restoration of ecosystems",
-            "Conservation of biodiversity, sustainable use of components, fair benefit-sharing",
+            "Economic valuation, policy development, and implementation of conservation measures",
             "Research, education, and public awareness about biodiversity",
-            "Economic valuation, policy development, and implementation of conservation measures"
+            "Conservation of biodiversity, sustainable use of components, fair benefit-sharing",
+            "Protection, preservation, and restoration of ecosystems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The CBD has three main objectives: 1) The conservation of biological diversity, 2) The sustainable use of its components, and 3) The fair and equitable sharing of benefits arising from genetic resources. These objectives are pursued through national strategies and international cooperation."
         },
         {
           id: 3,
           question: "What does the '30x30' target in the Kunming-Montreal Global Biodiversity Framework refer to?",
           options: [
+            "Restore 30% of degraded ecosystems by 2030",
             "30% reduction in extinction rates by 2030",
             "30% increase in protected area funding by 2030",
-            "Conserve 30% of land, coastal areas, and oceans by 2030",
-            "Restore 30% of degraded ecosystems by 2030"
+            "Conserve 30% of land, coastal areas, and oceans by 2030"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The '30x30' target (Target 3 of the GBF) aims to ensure that at least 30 per cent of terrestrial, inland water, and coastal and marine areas are effectively conserved and managed through ecologically representative, well-connected and equitably governed systems of protected areas."
         },
         {
           id: 4,
           question: "Which category of ecosystem services includes benefits like climate regulation and flood control?",
           options: [
-            "Provisioning Services",
-            "Regulating Services",
             "Cultural Services",
-            "Supporting Services"
+            "Regulating Services",
+            "Supporting Services",
+            "Provisioning Services"
           ],
           correctAnswer: 1,
           explanation: "Regulating services are the benefits obtained from the regulation of ecosystem processes, including climate regulation, flood control, disease regulation, water purification, and pollination. These services often have significant economic value but are not typically traded in markets."
@@ -1041,58 +1041,58 @@ This module provides comprehensive understanding of biodiversity policy framewor
           id: 5,
           question: "What percentage of terrestrial and inland water areas did Aichi Target 11 aim to conserve through protected areas?",
           options: [
-            "10% by 2020",
             "17% by 2020",
             "25% by 2020",
+            "10% by 2020",
             "30% by 2020"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Aichi Target 11 aimed for at least 17 per cent of terrestrial and inland water areas and 10 per cent of coastal and marine areas to be conserved through effectively and equitably managed, ecologically representative and well-connected systems of protected areas by 2020."
         },
         {
           id: 6,
           question: "What economic instrument involves payments to land managers for maintaining or enhancing ecosystem services?",
           options: [
-            "Biodiversity offsets",
             "Payments for Ecosystem Services (PES)",
             "Conservation easements",
+            "Biodiversity offsets",
             "Environmental taxes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Payments for Ecosystem Services (PES) are voluntary transactions where a well-defined ecosystem service is bought by at least one buyer from at least one provider if, and only if, the provider secures ecosystem service provision. PES creates economic incentives for conservation."
         },
         {
           id: 7,
           question: "According to studies cited in this module, what percentage of the world's biodiversity is contained on indigenous lands?",
           options: [
-            "Approximately 25%",
-            "Approximately 50%",
             "Approximately 80%",
-            "Approximately 95%"
+            "Approximately 95%",
+            "Approximately 25%",
+            "Approximately 50%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Research indicates that indigenous lands contain approximately 80% of the world's biodiversity. Indigenous peoples and local communities are often effective custodians of biodiversity through traditional knowledge systems and sustainable management practices."
         },
         {
           id: 8,
           question: "What does FPIC stand for in the context of indigenous rights and biodiversity conservation?",
           options: [
+            "Fair Partnership in Conservation",
             "Full Participation in Conservation",
             "Free, Prior and Informed Consent",
-            "Fair Partnership in Conservation",
             "Fundamental Principles of Indigenous Care"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "FPIC stands for Free, Prior and Informed Consent - a principle that indigenous peoples have the right to give or withhold consent to projects that affect their lands, territories, and resources. This principle is increasingly recognized in biodiversity conservation and development projects."
         },
         {
           id: 9,
           question: "Which international agreement specifically regulates international trade in endangered species?",
           options: [
-            "Convention on Biological Diversity (CBD)",
-            "Convention on International Trade in Endangered Species (CITES)",
             "Ramsar Convention on Wetlands",
-            "Convention on Migratory Species (CMS)"
+            "Convention on International Trade in Endangered Species (CITES)",
+            "Convention on Migratory Species (CMS)",
+            "Convention on Biological Diversity (CBD)"
           ],
           correctAnswer: 1,
           explanation: "CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) is an international agreement between governments that aims to ensure that international trade in specimens of wild animals and plants does not threaten their survival."
@@ -1102,35 +1102,35 @@ This module provides comprehensive understanding of biodiversity policy framewor
           question: "What is the main purpose of biodiversity offsets?",
           options: [
             "To eliminate all impacts on biodiversity",
-            "To compensate for residual, unavoidable biodiversity impacts",
             "To provide funding for conservation research",
+            "To compensate for residual, unavoidable biodiversity impacts",
             "To punish companies for biodiversity damage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Biodiversity offsets are measurable conservation outcomes resulting from actions designed to compensate for significant residual adverse biodiversity impacts arising from project development. They follow the mitigation hierarchy: avoid, minimize, restore, offset."
         },
         {
           id: 11,
           question: "What does the Natural Capital Protocol provide guidance for?",
           options: [
-            "Government biodiversity reporting",
             "Corporate accounting for natural capital impacts and dependencies",
-            "Academic research on ecosystem services",
-            "Community-based conservation planning"
+            "Community-based conservation planning",
+            "Government biodiversity reporting",
+            "Academic research on ecosystem services"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Natural Capital Protocol is a standardized framework for business to identify, measure, and value their direct and indirect impacts and dependencies on natural capital. It helps companies integrate natural capital considerations into decision-making."
         },
         {
           id: 12,
           question: "What percentage reduction in natural ecosystems has occurred relative to earliest estimates according to IPBES?",
           options: [
+            "65% reduction",
             "23% reduction",
             "47% reduction",
-            "65% reduction",
             "82% reduction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The IPBES 2019 Global Assessment found that natural ecosystems have declined by 47% on average relative to their earliest estimated states. This widespread loss of ecosystems has serious implications for biodiversity and ecosystem service provision."
         },
         {
@@ -1138,47 +1138,47 @@ This module provides comprehensive understanding of biodiversity policy framewor
           question: "Which subsidiary agreement to the CBD addresses biosafety of living modified organisms?",
           options: [
             "Nagoya Protocol",
-            "Cartagena Protocol",
             "Kyoto Protocol",
-            "Montreal Protocol"
+            "Montreal Protocol",
+            "Cartagena Protocol"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Cartagena Protocol on Biosafety to the CBD addresses the safe transfer, handling, and use of living modified organisms (LMOs) resulting from modern biotechnology that may have adverse effects on biodiversity, taking into account human health."
         },
         {
           id: 14,
           question: "What annual biodiversity finance mobilization does Target 19 of the Global Biodiversity Framework aim for by 2030?",
           options: [
+            "$500 billion annually",
             "$50 billion annually",
             "$100 billion annually",
-            "$200 billion annually",
-            "$500 billion annually"
+            "$200 billion annually"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Target 19 of the Kunming-Montreal Global Biodiversity Framework aims to substantially and progressively increase the level of financial resources from all sources to at least US$ 200 billion per year by 2030, including $30 billion from developed to developing countries."
         },
         {
           id: 15,
           question: "What does the term 'agroecology' refer to in biodiversity-friendly agriculture?",
           options: [
-            "Industrial agriculture with minimal biodiversity consideration",
-            "Application of ecological principles to agricultural systems",
+            "Small-scale organic farming only",
             "Complete elimination of agricultural chemicals",
-            "Small-scale organic farming only"
+            "Application of ecological principles to agricultural systems",
+            "Industrial agriculture with minimal biodiversity consideration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Agroecology applies ecological concepts and principles to the design and management of sustainable agricultural systems. It emphasizes biodiversity, recycling, synergy, and resilience, integrating traditional knowledge with modern science."
         },
         {
           id: 16,
           question: "What is the main instrument for implementing the CBD at national level?",
           options: [
-            "National Red Lists",
             "National Biodiversity Strategies and Action Plans (NBSAPs)",
             "National Protected Area Systems",
-            "National Environmental Impact Assessment Systems"
+            "National Environmental Impact Assessment Systems",
+            "National Red Lists"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "National Biodiversity Strategies and Action Plans (NBSAPs) are the principal instruments for implementing the CBD at national level. They translate the Convention's provisions into national policy and action, and are regularly updated and reported on."
         },
         {
@@ -1186,8 +1186,8 @@ This module provides comprehensive understanding of biodiversity policy framewor
           question: "What does TNFD stand for in corporate biodiversity reporting?",
           options: [
             "Taskforce on Nature-related Financial Disclosures",
-            "Technical Network for Forest Development",
             "Terrestrial Natural Framework Directive",
+            "Technical Network for Forest Development",
             "Traditional Knowledge and Forest Diversity"
           ],
           correctAnswer: 0,
@@ -1199,8 +1199,8 @@ This module provides comprehensive understanding of biodiversity policy framewor
           options: [
             "Island biogeography theory",
             "Ecological corridors and connectivity conservation",
-            "Species-specific conservation breeding",
-            "Ex situ conservation in botanical gardens"
+            "Ex situ conservation in botanical gardens",
+            "Species-specific conservation breeding"
           ],
           correctAnswer: 1,
           explanation: "Ecological corridors and connectivity conservation aim to maintain or restore connections between protected areas and other important habitats. This approach helps species move between areas, maintains genetic diversity, and enables adaptation to climate change."
@@ -1210,20 +1210,20 @@ This module provides comprehensive understanding of biodiversity policy framewor
           question: "Which method for valuing ecosystem services uses survey-based willingness to pay?",
           options: [
             "Market Price Method",
+            "Hedonic Pricing",
             "Travel Cost Method",
-            "Contingent Valuation",
-            "Hedonic Pricing"
+            "Contingent Valuation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Contingent Valuation uses surveys to ask people directly about their willingness to pay for specific ecosystem services or willingness to accept compensation for their loss. This method can capture non-use values that are not reflected in markets."
         },
         {
           id: 20,
           question: "What does Digital Sequence Information (DSI) refer to in biodiversity policy discussions?",
           options: [
-            "Satellite imagery of ecosystems",
-            "Genetic sequence data from biodiversity",
             "Digital databases of species distributions",
+            "Genetic sequence data from biodiversity",
+            "Satellite imagery of ecosystems",
             "Online platforms for biodiversity education"
           ],
           correctAnswer: 1,
@@ -1469,34 +1469,34 @@ This module provides comprehensive understanding of economic principles applied 
           id: 1,
           question: "What type of market failure occurs when costs or benefits affect third parties not involved in a transaction?",
           options: [
-            "Public Goods",
-            "Common Pool Resources",
             "Externalities",
-            "Information Asymmetries"
+            "Information Asymmetries",
+            "Public Goods",
+            "Common Pool Resources"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Externalities occur when the production or consumption of a good affects third parties who are not directly involved in the transaction. Pollution is a classic negative externality where costs are imposed on others without compensation."
         },
         {
           id: 2,
           question: "According to the Pigouvian tax approach, what should the tax rate on pollution equal?",
           options: [
+            "The total economic value of environmental damage",
             "The average cost of pollution control",
             "The marginal external damage caused by pollution",
-            "The total economic value of environmental damage",
             "The administrative cost of implementing the tax"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Pigouvian tax approach proposes that the optimal tax on pollution should equal the marginal external damage - the additional harm caused by one more unit of pollution. This internalizes the externality and leads to socially optimal pollution levels."
         },
         {
           id: 3,
           question: "What is the main advantage of tradable permit systems compared to uniform standards?",
           options: [
-            "They generate more government revenue",
+            "They eliminate all pollution immediately",
             "They achieve environmental goals at lower total cost",
             "They are simpler to administer and enforce",
-            "They eliminate all pollution immediately"
+            "They generate more government revenue"
           ],
           correctAnswer: 1,
           explanation: "Tradable permit systems achieve environmental goals at lower total cost by allowing firms with lower abatement costs to reduce more pollution and sell permits to firms with higher abatement costs. This cost-effectiveness is their main economic advantage."
@@ -1506,131 +1506,131 @@ This module provides comprehensive understanding of economic principles applied 
           question: "What does the Weitzman Rule help determine when choosing between price and quantity instruments?",
           options: [
             "Which instrument generates more political support",
-            "Whether marginal benefit or marginal cost curves are steeper",
             "The administrative costs of different policy options",
+            "Whether marginal benefit or marginal cost curves are steeper",
             "The distributional impacts on different income groups"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Weitzman Rule states that price instruments (taxes) are preferred when the marginal benefit curve is flatter than the marginal cost curve, while quantity instruments (permits) are preferred when the marginal cost curve is flatter. This minimizes efficiency losses from uncertainty."
         },
         {
           id: 5,
           question: "What is the estimated global value of fossil fuel subsidies according to this module?",
           options: [
+            "$10.2 trillion annually (12% of global GDP)",
             "$1.9 trillion annually (2% of global GDP)",
             "$5.9 trillion annually (6.8% of global GDP)",
-            "$10.2 trillion annually (12% of global GDP)",
             "$15.5 trillion annually (18% of global GDP)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The module cites IMF estimates that fossil fuel subsidies amounted to $5.9 trillion in 2020, or 6.8 percent of global GDP. These subsidies include both explicit subsidies and implicit subsidies from unpriced environmental damages."
         },
         {
           id: 6,
           question: "What does 'revenue recycling' refer to in the context of environmental taxes?",
           options: [
-            "Using tax revenues to fund environmental cleanup",
-            "Returning tax revenues to reduce other distortionary taxes",
             "Reinvesting tax revenues in green technologies",
-            "Distributing tax revenues equally to all citizens"
+            "Distributing tax revenues equally to all citizens",
+            "Returning tax revenues to reduce other distortionary taxes",
+            "Using tax revenues to fund environmental cleanup"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Revenue recycling involves using revenues from environmental taxes to reduce other distortionary taxes (like income or payroll taxes). This can create a 'double dividend' - improving environmental quality while reducing the economic costs of the tax system."
         },
         {
           id: 7,
           question: "Which country implemented the world's first revenue-neutral carbon tax according to this module?",
           options: [
+            "Norway",
             "Sweden",
             "British Columbia, Canada",
-            "Norway",
             "Finland"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "British Columbia implemented North America's first revenue-neutral carbon tax in 2008. The tax started at C$10 per ton of CO2 and increased to C$50 by 2021, with all revenues returned through tax cuts and credits."
         },
         {
           id: 8,
           question: "What is the main challenge with technology standards as environmental policy instruments?",
           options: [
-            "They generate no government revenue",
-            "They may lock in specific technologies and discourage innovation",
+            "They require complex administrative systems",
             "They are difficult to enforce and monitor",
-            "They require complex administrative systems"
+            "They may lock in specific technologies and discourage innovation",
+            "They generate no government revenue"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Technology standards prescribe specific methods or equipment for pollution control, which may lock in particular technologies and discourage development of potentially superior alternatives. Performance standards are often more innovation-friendly."
         },
         {
           id: 9,
           question: "What concept refers to the additional benefits from environmental policies beyond their primary objectives?",
           options: [
-            "Externalities",
             "Co-benefits",
+            "Social Surplus",
             "Total Economic Value",
-            "Social Surplus"
+            "Externalities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Co-benefits are positive outcomes from environmental policies beyond their primary environmental objectives. For example, climate policies that reduce fossil fuel combustion also improve air quality and public health, generating significant co-benefits."
         },
         {
           id: 10,
           question: "Which approach uses small, low-cost interventions to influence behavior without restricting choices?",
           options: [
+            "Command-and-control regulation",
             "Pigouvian taxation",
             "Tradable permits",
-            "Nudges",
-            "Command-and-control regulation"
+            "Nudges"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Nudges are behavioral interventions that influence choices while preserving freedom of choice. Examples include default rules (opt-out green energy), social comparison feedback, and simplified information. They complement traditional policy instruments."
         },
         {
           id: 11,
           question: "What does SEEA stand for in natural capital accounting?",
           options: [
-            "System of Environmental-Economic Accounting",
             "Sustainable Ecosystem Evaluation Approach",
-            "Standard Environmental Economic Assessment",
-            "Systematic Environmental Efficiency Analysis"
+            "Systematic Environmental Efficiency Analysis",
+            "System of Environmental-Economic Accounting",
+            "Standard Environmental Economic Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SEEA stands for the System of Environmental-Economic Accounting, which is the international statistical standard for measuring the environment and its relationship with the economy. It provides a framework for integrating environmental data into national accounts."
         },
         {
           id: 12,
           question: "Which characteristic makes clean air a public good?",
           options: [
+            "It is non-rivalrous and non-excludable",
             "It is rivalrous and excludable",
-            "It is non-rivalrous and excludable",
             "It is rivalrous and non-excludable",
-            "It is non-rivalrous and non-excludable"
+            "It is non-rivalrous and excludable"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Clean air is a public good because it is non-rivalrous (one person's enjoyment doesn't reduce availability for others) and non-excludable (difficult to prevent people from enjoying it). This creates free-rider problems in its provision."
         },
         {
           id: 13,
           question: "What is the main purpose of a 'safety valve' in cap-and-trade systems?",
           options: [
-            "To prevent permit prices from rising above a certain level",
             "To ensure all firms receive free permits initially",
+            "To prevent permit prices from rising above a certain level",
             "To allow unlimited banking of permits for future use",
             "To exempt certain industries from the cap"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A safety valve sets a maximum price for permits by allowing additional permits to be sold at a predetermined price. This addresses concerns about cost uncertainty while maintaining environmental integrity through the cap."
         },
         {
           id: 14,
           question: "Which valuation method uses observed behavior to infer environmental values?",
           options: [
+            "Revealed Preference Methods",
             "Contingent Valuation",
             "Choice Experiments",
-            "Revealed Preference Methods",
             "Deliberative Valuation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Revealed preference methods infer environmental values from observed behavior in related markets. Examples include hedonic pricing (property values), travel cost method (recreation decisions), and averting behavior (spending to avoid environmental harms)."
         },
         {
@@ -1639,8 +1639,8 @@ This module provides comprehensive understanding of economic principles applied 
           options: [
             "Bounded rationality",
             "Present bias",
-            "Social norm effects",
-            "Status quo bias"
+            "Status quo bias",
+            "Social norm effects"
           ],
           correctAnswer: 1,
           explanation: "Present bias is the tendency to give stronger weight to payoffs that are closer to the present time when considering trade-offs between two future moments. This can lead to underinvestment in environmental protection with long-term benefits."
@@ -1649,12 +1649,12 @@ This module provides comprehensive understanding of economic principles applied 
           id: 16,
           question: "What is the 'double dividend' hypothesis in environmental tax reform?",
           options: [
-            "Environmental improvement plus economic efficiency gain",
             "Revenue generation plus technological innovation",
             "Pollution reduction plus job creation",
+            "Environmental improvement plus economic efficiency gain",
             "Cost savings plus health benefits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The double dividend hypothesis suggests that environmental taxes can achieve two benefits: 1) improve environmental quality (first dividend) and 2) reduce distortionary taxes and improve economic efficiency when revenues are used to cut other taxes (second dividend)."
         },
         {
@@ -1662,35 +1662,35 @@ This module provides comprehensive understanding of economic principles applied 
           question: "Which international organization developed the System of Environmental-Economic Accounting (SEEA)?",
           options: [
             "World Bank",
+            "International Monetary Fund",
             "United Nations",
-            "Organisation for Economic Co-operation and Development",
-            "International Monetary Fund"
+            "Organisation for Economic Co-operation and Development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The System of Environmental-Economic Accounting (SEEA) was developed by the United Nations Statistics Division. It provides an international statistical standard for integrating environmental and economic data to support policy analysis and decision-making."
         },
         {
           id: 18,
           question: "What is the main economic argument for addressing climate change now rather than later?",
           options: [
-            "Current costs are lower than future costs due to compounding damages",
             "Future generations will be wealthier and better able to pay",
+            "Current costs are lower than future costs due to compounding damages",
             "Technological solutions will be cheaper in the future",
             "Discount rates make future damages less significant"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The economic argument for early action on climate change emphasizes that damages compound over time, making delayed action more costly. Immediate mitigation avoids locking in carbon-intensive infrastructure and takes advantage of current lower-cost opportunities."
         },
         {
           id: 19,
           question: "What does 'extended producer responsibility' require in circular economy policies?",
           options: [
-            "Producers take responsibility for products throughout their life cycle",
-            "Consumers pay all environmental costs of products",
             "Governments subsidize recycling infrastructure",
-            "Importers bear all environmental compliance costs"
+            "Consumers pay all environmental costs of products",
+            "Importers bear all environmental compliance costs",
+            "Producers take responsibility for products throughout their life cycle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Extended producer responsibility (EPR) policies make producers responsible for the environmental impacts of their products throughout the product life cycle, including end-of-life management. This creates incentives for designing more recyclable and durable products."
         },
         {
@@ -1698,9 +1698,9 @@ This module provides comprehensive understanding of economic principles applied 
           question: "Which economic model questions GDP growth as the primary policy objective?",
           options: [
             "Neoclassical economics",
-            "Keynesian economics",
+            "Behavioral economics",
             "Ecological economics",
-            "Behavioral economics"
+            "Keynesian economics"
           ],
           correctAnswer: 2,
           explanation: "Ecological economics questions the pursuit of endless GDP growth within planetary boundaries. It emphasizes sustainable scale, fair distribution, and efficient allocation, and explores alternative welfare measures beyond GDP."
@@ -2047,20 +2047,20 @@ This module provides comprehensive understanding of environmental policy impleme
           question: "What does the subsidiarity principle suggest in multi-level environmental governance?",
           options: [
             "All environmental decisions should be made at the global level",
-            "Environmental decisions should be made at the most appropriate level",
             "National governments should control all environmental policy",
+            "Environmental decisions should be made at the most appropriate level",
             "Local communities should make all environmental decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The subsidiarity principle holds that decisions should be taken at the lowest appropriate level of governance, closest to affected citizens. This balances local participation and knowledge with higher-level coordination for transboundary issues."
         },
         {
           id: 2,
           question: "Which implementation model emphasizes the role of local implementers and contexts in shaping policy outcomes?",
           options: [
-            "Top-down implementation model",
-            "Bottom-up implementation model",
             "Hierarchical implementation model",
+            "Bottom-up implementation model",
+            "Top-down implementation model",
             "Command-and-control implementation model"
           ],
           correctAnswer: 1,
@@ -2071,11 +2071,11 @@ This module provides comprehensive understanding of environmental policy impleme
           question: "According to Elinor Ostrom's design principles, what should effective environmental institutions have?",
           options: [
             "Centralized control and uniform rules",
-            "Clearly defined boundaries and graduated sanctions",
             "Complete deregulation and market solutions",
+            "Clearly defined boundaries and graduated sanctions",
             "Temporary structures that change frequently"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ostrom identified eight design principles for effective institutions governing common-pool resources, including clearly defined boundaries, proportional equivalence between benefits and costs, collective-choice arrangements, monitoring, and graduated sanctions among others."
         },
         {
@@ -2084,8 +2084,8 @@ This module provides comprehensive understanding of environmental policy impleme
           options: [
             "Starting with maximum penalties for all violations",
             "Using persuasion first, escalating to sanctions only when necessary",
-            "Applying criminal penalties for all environmental violations",
-            "Eliminating all enforcement discretion"
+            "Eliminating all enforcement discretion",
+            "Applying criminal penalties for all environmental violations"
           ],
           correctAnswer: 1,
           explanation: "The enforcement pyramid (responsive regulation) starts with persuasion and education at the base, escalating to warnings, administrative penalties, and finally criminal sanctions at the peak. This approach is more effective and efficient than immediate punitive action."
@@ -2094,9 +2094,9 @@ This module provides comprehensive understanding of environmental policy impleme
           id: 5,
           question: "Which level of the IAP2 public participation spectrum involves partnering with the public in decision-making?",
           options: [
-            "Inform",
-            "Consult",
             "Involve",
+            "Consult",
+            "Inform",
             "Collaborate"
           ],
           correctAnswer: 3,
@@ -2106,9 +2106,9 @@ This module provides comprehensive understanding of environmental policy impleme
           id: 6,
           question: "What does FPIC stand for in indigenous community engagement?",
           options: [
-            "Full Participation in Conservation",
-            "Free, Prior and Informed Consent",
             "Fair Partnership in Community",
+            "Free, Prior and Informed Consent",
+            "Full Participation in Conservation",
             "Fundamental Principles of Indigenous Consultation"
           ],
           correctAnswer: 1,
@@ -2118,12 +2118,12 @@ This module provides comprehensive understanding of environmental policy impleme
           id: 7,
           question: "What are the three access rights under the Aarhus Convention?",
           options: [
-            "Access to land, water, and clean air",
             "Access to information, participation, and justice",
-            "Access to funding, technology, and training",
-            "Access to markets, resources, and employment"
+            "Access to markets, resources, and employment",
+            "Access to land, water, and clean air",
+            "Access to funding, technology, and training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Aarhus Convention grants three access rights: 1) Access to environmental information, 2) Public participation in environmental decision-making, and 3) Access to justice in environmental matters. These rights form pillars of environmental democracy."
         },
         {
@@ -2131,9 +2131,9 @@ This module provides comprehensive understanding of environmental policy impleme
           question: "Which characteristic is NOT part of adaptive governance according to this module?",
           options: [
             "Rigid adherence to predetermined plans",
+            "Integration of different knowledge systems",
             "Experimental approach to policy implementation",
-            "Learning from experience and adjusting approaches",
-            "Integration of different knowledge systems"
+            "Learning from experience and adjusting approaches"
           ],
           correctAnswer: 0,
           explanation: "Adaptive governance is characterized by flexibility, learning, and adjustment - the opposite of rigid adherence to predetermined plans. It recognizes complexity, uncertainty, and the need for ongoing adaptation in environmental management."
@@ -2144,8 +2144,8 @@ This module provides comprehensive understanding of environmental policy impleme
           options: [
             "When regulators become too close to regulated industries",
             "When environmental regulations capture all pollution",
-            "When public captures control of regulatory agencies",
-            "When international regulations capture national sovereignty"
+            "When international regulations capture national sovereignty",
+            "When public captures control of regulatory agencies"
           ],
           correctAnswer: 0,
           explanation: "Regulatory capture occurs when regulatory agencies advance the commercial or political interests of the industries they regulate rather than the public interest. This can result from close relationships, information asymmetries, or industry influence."
@@ -2156,10 +2156,10 @@ This module provides comprehensive understanding of environmental policy impleme
           options: [
             "Command-and-control regulation",
             "Economic incentives",
-            "Information disclosure and transparency",
-            "Voluntary agreements"
+            "Voluntary agreements",
+            "Information disclosure and transparency"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Information disclosure strategies (like pollution release inventories or corporate sustainability reporting) use transparency to create reputational incentives for environmental improvement. These approaches leverage market and social pressures rather than direct regulation."
         },
         {
@@ -2167,11 +2167,11 @@ This module provides comprehensive understanding of environmental policy impleme
           question: "What does polycentric governance involve?",
           options: [
             "Single centralized authority making all decisions",
+            "Temporary governance arrangements for crises",
             "Multiple decision centers with overlapping jurisdiction",
-            "Complete decentralization to local levels only",
-            "Temporary governance arrangements for crises"
+            "Complete decentralization to local levels only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Polycentric governance involves multiple, overlapping decision centers at different scales that are formally independent but functionally interdependent. This approach can enhance adaptability, learning, and resilience in complex environmental systems."
         },
         {
@@ -2179,9 +2179,9 @@ This module provides comprehensive understanding of environmental policy impleme
           question: "Which international initiative promotes transparency in extractive industries revenue?",
           options: [
             "Extractive Industries Transparency Initiative (EITI)",
-            "Open Government Partnership",
+            "OECD Anti-Bribery Convention",
             "UN Convention Against Corruption",
-            "OECD Anti-Bribery Convention"
+            "Open Government Partnership"
           ],
           correctAnswer: 0,
           explanation: "The Extractive Industries Transparency Initiative (EITI) is a global standard promoting open and accountable management of oil, gas, and mineral resources. It requires disclosure of payments by companies and revenues received by governments."
@@ -2190,22 +2190,22 @@ This module provides comprehensive understanding of environmental policy impleme
           id: 13,
           question: "What is a key challenge of digital environmental governance mentioned in this module?",
           options: [
-            "Complete absence of digital technologies",
-            "Digital divide and access inequalities",
             "Over-reliance on paper-based systems",
-            "Lack of interest in digital solutions"
+            "Lack of interest in digital solutions",
+            "Digital divide and access inequalities",
+            "Complete absence of digital technologies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The digital divide - unequal access to digital technologies and skills - is a key challenge for digital environmental governance. This can exacerbate existing inequalities and limit participation of marginalized groups in digital governance processes."
         },
         {
           id: 14,
           question: "What does 'street-level bureaucracy' refer to in implementation theory?",
           options: [
-            "High-level political decision-makers",
-            "Frontline implementers with discretion in applying policies",
             "International environmental diplomats",
-            "Corporate environmental managers"
+            "Frontline implementers with discretion in applying policies",
+            "Corporate environmental managers",
+            "High-level political decision-makers"
           ],
           correctAnswer: 1,
           explanation: "Street-level bureaucrats are frontline public service workers (inspectors, case workers, permit officers) who interact directly with citizens and have discretion in implementing policies. Their decisions and practices significantly shape policy outcomes."
@@ -2214,10 +2214,10 @@ This module provides comprehensive understanding of environmental policy impleme
           id: 15,
           question: "Which governance approach is most appropriate for issues with high uncertainty and contested values?",
           options: [
-            "Technocratic decision-making by experts only",
-            "Post-normal science with extended peer communities",
             "Deferred decision-making until certainty is achieved",
-            "Market-based allocation of decision rights"
+            "Post-normal science with extended peer communities",
+            "Market-based allocation of decision rights",
+            "Technocratic decision-making by experts only"
           ],
           correctAnswer: 1,
           explanation: "Post-normal science addresses issues with high stakes, high uncertainty, and contested values by extending quality assurance beyond technical experts to include extended peer communities of stakeholders with different perspectives and knowledge."
@@ -2239,47 +2239,47 @@ This module provides comprehensive understanding of environmental policy impleme
           question: "Which capacity dimension includes strategic planning and financial management systems?",
           options: [
             "Individual capacity",
+            "Technical capacity only",
             "Organizational capacity",
-            "Systemic capacity",
-            "Technical capacity only"
+            "Systemic capacity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Organizational capacity includes an organization's systems, processes, and resources - such as strategic planning, financial management, human resource development, and knowledge management systems that enable effective performance."
         },
         {
           id: 18,
           question: "What does 'experimentalist governance' involve?",
           options: [
-            "Fixed rules applied uniformly in all contexts",
             "Framework goals with local discretion and peer review",
             "Complete deregulation and market solutions",
+            "Fixed rules applied uniformly in all contexts",
             "Temporary governance with no institutional memory"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Experimentalist governance sets framework goals at higher levels while allowing local units discretion in implementation, with requirements for reporting, peer review, and periodic revision of goals based on learning from local experimentation."
         },
         {
           id: 19,
           question: "Which principle suggests that those affected by decisions should have a say in making them?",
           options: [
+            "Precautionary principle",
             "Subsidiarity principle",
             "Polluter pays principle",
-            "Affected interests principle",
-            "Precautionary principle"
+            "Affected interests principle"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The affected interests principle holds that those affected by decisions should have a voice in making them. This is a foundation of democratic environmental governance and public participation in environmental decision-making."
         },
         {
           id: 20,
           question: "What is a key feature of collaborative governance approaches?",
           options: [
-            "Exclusive decision-making by government experts",
             "Shared decision-making among multiple stakeholders",
+            "Avoidance of stakeholder engagement to save time",
             "Delegation of all decisions to private sector",
-            "Avoidance of stakeholder engagement to save time"
+            "Exclusive decision-making by government experts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Collaborative governance involves shared decision-making among government agencies, private sector, civil society, and other stakeholders. It recognizes that complex environmental problems require collective action beyond traditional government regulation."
         }
       ],
@@ -2632,46 +2632,46 @@ This module explores emerging issues and future directions in environmental poli
           id: 1,
           question: "How many planetary boundaries does the framework identify as critical for Earth system stability?",
           options: [
-            "5 boundaries",
-            "7 boundaries",
             "9 boundaries",
+            "7 boundaries",
+            "5 boundaries",
             "12 boundaries"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The planetary boundaries framework identifies nine critical Earth system processes: climate change, biosphere integrity, land system change, freshwater change, biogeochemical flows, ocean acidification, atmospheric aerosol loading, stratospheric ozone depletion, and novel entities."
         },
         {
           id: 2,
           question: "Which planetary boundary has humanity successfully brought back within safe limits according to the module?",
           options: [
+            "Stratospheric ozone depletion",
             "Climate change",
             "Biosphere integrity",
-            "Stratospheric ozone depletion",
             "Novel entities"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Stratospheric ozone depletion is the only planetary boundary that has been successfully brought back toward safe levels, thanks to the Montreal Protocol and its amendments. This demonstrates that international environmental governance can effectively address global environmental threats."
         },
         {
           id: 3,
           question: "What does EPR stand for in circular economy policy?",
           options: [
-            "Environmental Protection Regulation",
             "Extended Producer Responsibility",
-            "Eco-Product Requirements",
-            "Efficient Production Rules"
+            "Environmental Protection Regulation",
+            "Efficient Production Rules",
+            "Eco-Product Requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Extended Producer Responsibility (EPR) shifts responsibility for the environmental impacts of products throughout their life cycle to producers. This creates incentives for designing more durable, repairable, and recyclable products."
         },
         {
           id: 4,
           question: "Which country first constitutionally recognized rights of nature?",
           options: [
-            "New Zealand",
-            "Ecuador",
             "Bolivia",
-            "Colombia"
+            "Ecuador",
+            "Colombia",
+            "New Zealand"
           ],
           correctAnswer: 1,
           explanation: "Ecuador was the first country to constitutionally recognize rights of nature in 2008. Article 71 states: 'Nature or Pachamama, where life is reproduced and exists, has the right to exist, persist, maintain and regenerate its vital cycles.'"
@@ -2682,8 +2682,8 @@ This module explores emerging issues and future directions in environmental poli
           options: [
             "Distributive, procedural, and corrective justice",
             "Economic, social, and environmental justice",
-            "Historical, current, and future justice",
-            "Local, national, and global justice"
+            "Local, national, and global justice",
+            "Historical, current, and future justice"
           ],
           correctAnswer: 0,
           explanation: "The module discusses three key dimensions of climate justice: 1) Distributive justice (fair allocation of burdens and benefits), 2) Procedural justice (inclusive decision-making), and 3) Corrective justice (responsibility for historical emissions and compensation for damages)."
@@ -2693,9 +2693,9 @@ This module explores emerging issues and future directions in environmental poli
           question: "What does SRM stand for in geoengineering discussions?",
           options: [
             "Solar Radiation Management",
-            "Stratospheric Reflective Methods",
             "Surface Radiation Modification",
-            "Systemic Risk Mitigation"
+            "Systemic Risk Mitigation",
+            "Stratospheric Reflective Methods"
           ],
           correctAnswer: 0,
           explanation: "SRM stands for Solar Radiation Management - a category of geoengineering techniques that aim to reflect a small percentage of the sun's light and heat back into space to reduce global warming. Examples include stratospheric aerosol injection and marine cloud brightening."
@@ -2704,58 +2704,58 @@ This module explores emerging issues and future directions in environmental poli
           id: 7,
           question: "Which SDG specifically addresses responsible consumption and production?",
           options: [
-            "SDG 11",
-            "SDG 12",
             "SDG 13",
-            "SDG 14"
+            "SDG 11",
+            "SDG 14",
+            "SDG 12"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "SDG 12 aims to ensure sustainable consumption and production patterns. Its targets include reducing waste generation, promoting sustainable public procurement, encouraging companies to adopt sustainable practices, and providing information for sustainable lifestyles."
         },
         {
           id: 8,
           question: "What is the most preferred option in the waste hierarchy?",
           options: [
+            "Disposal",
             "Recycling",
-            "Prevention",
             "Recovery",
-            "Disposal"
+            "Prevention"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Prevention is the most preferred option in the waste hierarchy, as it avoids generating waste in the first place through product redesign, consumption reduction, and reuse. This is followed by reuse, recycling, recovery, and finally disposal as the least preferred option."
         },
         {
           id: 9,
           question: "Which IPCC scenario represents a sustainable pathway with strong environmental policies?",
           options: [
-            "SSP1: Sustainability",
             "SSP2: Middle of the Road",
             "SSP3: Regional Rivalry",
+            "SSP1: Sustainability",
             "SSP5: Fossil-fueled Development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SSP1 (Sustainability - Taking the Green Road) represents a pathway with rapid development of low-income countries, reduced inequality, resource-efficient technologies, and strong environmental policies leading to low challenges for mitigation and adaptation."
         },
         {
           id: 10,
           question: "What does the term 'Anthropocene' refer to?",
           options: [
-            "A geological epoch defined by human dominance of Earth systems",
             "The study of ancient human-environment interactions",
+            "A geological epoch defined by human dominance of Earth systems",
             "A future era of complete human control over nature",
             "The period before significant human environmental impact"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Anthropocene is a proposed geological epoch dating from the commencement of significant human impact on Earth's geology and ecosystems. It recognizes that human activities have become the dominant influence on climate and the environment."
         },
         {
           id: 11,
           question: "Which legal innovation granted personhood to the Whanganui River in New Zealand?",
           options: [
-            "Environmental Protection Act",
-            "Treaty of Waitangi settlement",
             "Climate Change Response Act",
-            "Resource Management Act"
+            "Treaty of Waitangi settlement",
+            "Resource Management Act",
+            "Environmental Protection Act"
           ],
           correctAnswer: 1,
           explanation: "The Te Awa Tupua Act 2017 granted legal personhood to the Whanganui River as part of a Treaty of Waitangi settlement with Māori iwi. The river is recognized as an indivisible living whole with its own legal personality."
@@ -2764,22 +2764,22 @@ This module explores emerging issues and future directions in environmental poli
           id: 12,
           question: "What is a key governance challenge of solar radiation management geoengineering?",
           options: [
+            "Technical impossibility of implementation",
             "Complete lack of scientific understanding",
             "Transboundary impacts and termination risk",
-            "Prohibition by all international agreements",
-            "Technical impossibility of implementation"
+            "Prohibition by all international agreements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Key governance challenges of SRM include transboundary impacts (effects crossing national borders), termination risk (rapid warming if deployment stops suddenly), and moral hazard (reducing incentives for emissions reductions)."
         },
         {
           id: 13,
           question: "Which digital technology is mentioned for tracking carbon credits and sustainable supply chains?",
           options: [
-            "Artificial Intelligence",
             "Internet of Things",
+            "Digital Twins",
             "Blockchain",
-            "Digital Twins"
+            "Artificial Intelligence"
           ],
           correctAnswer: 2,
           explanation: "Blockchain technology can provide transparent, tamper-proof tracking of carbon credits and sustainable supply chains. Its distributed ledger technology ensures transparency and traceability in environmental markets and certification systems."
@@ -2788,9 +2788,9 @@ This module explores emerging issues and future directions in environmental poli
           id: 14,
           question: "What annual climate finance commitment did developed countries agree to by 2020?",
           options: [
-            "$50 billion",
-            "$100 billion",
             "$200 billion",
+            "$100 billion",
+            "$50 billion",
             "$500 billion"
           ],
           correctAnswer: 1,
@@ -2800,24 +2800,24 @@ This module explores emerging issues and future directions in environmental poli
           id: 15,
           question: "Which planetary boundary involves nitrogen and phosphorus cycles?",
           options: [
-            "Biogeochemical flows",
-            "Freshwater change",
+            "Land system change",
             "Novel entities",
-            "Land system change"
+            "Freshwater change",
+            "Biogeochemical flows"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The biogeochemical flows boundary addresses human disruption of nitrogen and phosphorus cycles. These elements are essential for life but excessive use as fertilizers causes water pollution, biodiversity loss, and dead zones in oceans."
         },
         {
           id: 16,
           question: "What does BECCS stand for in carbon removal technologies?",
           options: [
-            "Bioenergy with Carbon Capture and Storage",
             "Biomass Energy and Carbon Control Systems",
+            "Bio-Engineering for Carbon Control Solutions",
             "Biological Emission Capture and Sequestration",
-            "Bio-Engineering for Carbon Control Solutions"
+            "Bioenergy with Carbon Capture and Storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "BECCS stands for Bioenergy with Carbon Capture and Storage - a carbon dioxide removal technology that combines biomass energy production with carbon capture and storage. It theoretically produces negative emissions but faces sustainability and scalability challenges."
         },
         {
@@ -2825,21 +2825,21 @@ This module explores emerging issues and future directions in environmental poli
           question: "Which principle emphasizes preparing for future environmental changes and uncertainties?",
           options: [
             "Precautionary principle",
-            "Anticipatory governance",
             "Polluter pays principle",
-            "Subsidiarity principle"
+            "Subsidiarity principle",
+            "Anticipatory governance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Anticipatory governance involves preparing for future environmental changes through foresight, early warning systems, scenario planning, and adaptive capacity building. It recognizes the need to proactively address emerging environmental challenges."
         },
         {
           id: 18,
           question: "What is the main goal of a 'just transition' framework?",
           options: [
-            "To eliminate all fossil fuel use immediately",
+            "To prioritize economic growth over environmental protection",
             "To ensure fairness in shifting to a low-carbon economy",
-            "To transfer climate costs to future generations",
-            "To prioritize economic growth over environmental protection"
+            "To eliminate all fossil fuel use immediately",
+            "To transfer climate costs to future generations"
           ],
           correctAnswer: 1,
           explanation: "A just transition framework aims to ensure fairness in the shift to a low-carbon economy by supporting workers, communities, and regions affected by the transition, creating decent work opportunities, and promoting social inclusion throughout the process."
@@ -2849,11 +2849,11 @@ This module explores emerging issues and future directions in environmental poli
           question: "Which circular business model involves leasing rather than selling products?",
           options: [
             "Resource recovery",
+            "Remanufacturing",
             "Product-as-a-service",
-            "Industrial symbiosis",
-            "Remanufacturing"
+            "Industrial symbiosis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Product-as-a-service business models involve companies retaining ownership of products and leasing them to customers. This creates incentives for durability, repairability, and recyclability since manufacturers remain responsible for product performance and end-of-life management."
         },
         {
@@ -2862,8 +2862,8 @@ This module explores emerging issues and future directions in environmental poli
           options: [
             "Climate finance",
             "Loss and damage from climate impacts",
-            "Technology transfer",
-            "Capacity building"
+            "Capacity building",
+            "Technology transfer"
           ],
           correctAnswer: 1,
           explanation: "The Warsaw International Mechanism for Loss and Damage, established in 2013, addresses loss and damage associated with climate change impacts in developing countries that are particularly vulnerable to adverse effects of climate change."
@@ -2885,11 +2885,11 @@ This module explores emerging issues and future directions in environmental poli
         question: "Which principle advocates for preventive action even without full scientific certainty about environmental threats?",
         options: [
           "Polluter Pays Principle",
-          "Precautionary Principle",
           "Sustainable Development Principle",
-          "Common but Differentiated Responsibilities"
+          "Common but Differentiated Responsibilities",
+          "Precautionary Principle"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "The Precautionary Principle, a foundation of environmental policy, advocates taking preventive action in the face of uncertainty when threats of serious or irreversible damage exist. This principle has been incorporated into many international agreements.",
         moduleReference: 1
       },
@@ -2897,12 +2897,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 2,
         question: "What temperature limit does the Paris Agreement aim to keep global warming 'well below'?",
         options: [
-          "1.0°C above pre-industrial levels",
           "2.0°C above pre-industrial levels",
-          "3.0°C above pre-industrial levels",
-          "4.0°C above pre-industrial levels"
+          "1.0°C above pre-industrial levels",
+          "4.0°C above pre-industrial levels",
+          "3.0°C above pre-industrial levels"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The Paris Agreement's central aim is to strengthen the global response to climate change by holding the increase in global average temperature to well below 2°C above pre-industrial levels and pursuing efforts to limit the temperature increase to 1.5°C.",
         moduleReference: 2
       },
@@ -2911,11 +2911,11 @@ This module explores emerging issues and future directions in environmental poli
         question: "What does the '30x30' target in the Kunming-Montreal Global Biodiversity Framework refer to?",
         options: [
           "30% reduction in extinction rates by 2030",
-          "30% increase in protected area funding by 2030",
           "Conserve 30% of land, coastal areas, and oceans by 2030",
+          "30% increase in protected area funding by 2030",
           "Restore 30% of degraded ecosystems by 2030"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Target 3 of the Global Biodiversity Framework aims to ensure that at least 30 per cent of terrestrial, inland water, and coastal and marine areas are effectively conserved and managed through ecologically representative, well-connected and equitably governed systems of protected areas.",
         moduleReference: 3
       },
@@ -2923,10 +2923,10 @@ This module explores emerging issues and future directions in environmental poli
         id: 4,
         question: "According to the Pigouvian tax approach, what should the tax rate on pollution equal?",
         options: [
-          "The average cost of pollution control",
-          "The marginal external damage caused by pollution",
           "The total economic value of environmental damage",
-          "The administrative cost of implementing the tax"
+          "The marginal external damage caused by pollution",
+          "The administrative cost of implementing the tax",
+          "The average cost of pollution control"
         ],
         correctAnswer: 1,
         explanation: "The Pigouvian tax approach proposes that the optimal tax on pollution should equal the marginal external damage - the additional harm caused by one more unit of pollution. This internalizes the externality and leads to socially optimal pollution levels.",
@@ -2936,10 +2936,10 @@ This module explores emerging issues and future directions in environmental poli
         id: 5,
         question: "What does the subsidiarity principle suggest in multi-level environmental governance?",
         options: [
-          "All environmental decisions should be made at the global level",
+          "Local communities should make all environmental decisions",
           "Environmental decisions should be made at the most appropriate level",
-          "National governments should control all environmental policy",
-          "Local communities should make all environmental decisions"
+          "All environmental decisions should be made at the global level",
+          "National governments should control all environmental policy"
         ],
         correctAnswer: 1,
         explanation: "The subsidiarity principle holds that decisions should be taken at the lowest appropriate level of governance, closest to affected citizens. This balances local participation and knowledge with higher-level coordination for transboundary issues.",
@@ -2950,9 +2950,9 @@ This module explores emerging issues and future directions in environmental poli
         question: "How many planetary boundaries does the framework identify as critical for Earth system stability?",
         options: [
           "5 boundaries",
-          "7 boundaries",
+          "12 boundaries",
           "9 boundaries",
-          "12 boundaries"
+          "7 boundaries"
         ],
         correctAnswer: 2,
         explanation: "The planetary boundaries framework identifies nine critical Earth system processes: climate change, biosphere integrity, land system change, freshwater change, biogeochemical flows, ocean acidification, atmospheric aerosol loading, stratospheric ozone depletion, and novel entities.",
@@ -2962,12 +2962,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 7,
         question: "Which international agreement focuses on phasing out ozone-depleting substances?",
         options: [
-          "Paris Agreement (2015)",
-          "Montreal Protocol (1987)",
           "Kyoto Protocol (1997)",
-          "Convention on Biological Diversity (1992)"
+          "Convention on Biological Diversity (1992)",
+          "Paris Agreement (2015)",
+          "Montreal Protocol (1987)"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "The Montreal Protocol (1987) is an international treaty designed to protect the ozone layer by phasing out the production of numerous substances responsible for ozone depletion. It is considered one of the most successful international environmental agreements.",
         moduleReference: 1
       },
@@ -2975,10 +2975,10 @@ This module explores emerging issues and future directions in environmental poli
         id: 8,
         question: "What are Nationally Determined Contributions (NDCs) in the context of the Paris Agreement?",
         options: [
-          "International emission reduction targets set by the UN",
+          "Climate finance commitments from developed countries",
           "Country-specific climate action plans submitted by each Party",
-          "Mandatory five-year emission reduction requirements",
-          "Climate finance commitments from developed countries"
+          "International emission reduction targets set by the UN",
+          "Mandatory five-year emission reduction requirements"
         ],
         correctAnswer: 1,
         explanation: "NDCs are climate action plans that each Party to the Paris Agreement prepares and communicates. They outline the country's efforts to reduce national emissions and adapt to climate impacts. Parties are expected to update and enhance their NDCs every five years.",
@@ -2988,12 +2988,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 9,
         question: "According to studies cited, what percentage of the world's biodiversity is contained on indigenous lands?",
         options: [
+          "Approximately 80%",
           "Approximately 25%",
           "Approximately 50%",
-          "Approximately 80%",
           "Approximately 95%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Research indicates that indigenous lands contain approximately 80% of the world's biodiversity. Indigenous peoples and local communities are often effective custodians of biodiversity through traditional knowledge systems and sustainable management practices.",
         moduleReference: 3
       },
@@ -3001,10 +3001,10 @@ This module explores emerging issues and future directions in environmental poli
         id: 10,
         question: "What is the main advantage of tradable permit systems compared to uniform standards?",
         options: [
-          "They generate more government revenue",
-          "They achieve environmental goals at lower total cost",
           "They are simpler to administer and enforce",
-          "They eliminate all pollution immediately"
+          "They achieve environmental goals at lower total cost",
+          "They eliminate all pollution immediately",
+          "They generate more government revenue"
         ],
         correctAnswer: 1,
         explanation: "Tradable permit systems achieve environmental goals at lower total cost by allowing firms with lower abatement costs to reduce more pollution and sell permits to firms with higher abatement costs. This cost-effectiveness is their main economic advantage.",
@@ -3015,11 +3015,11 @@ This module explores emerging issues and future directions in environmental poli
         question: "Which level of the IAP2 public participation spectrum involves partnering with the public in decision-making?",
         options: [
           "Inform",
+          "Collaborate",
           "Consult",
-          "Involve",
-          "Collaborate"
+          "Involve"
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         explanation: "Collaborate is level 4 on the IAP2 spectrum, where agencies partner with the public in each aspect of decision-making, including developing alternatives and identifying preferred solutions. This goes beyond consultation to genuine shared decision-making.",
         moduleReference: 5
       },
@@ -3027,12 +3027,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 12,
         question: "Which country first constitutionally recognized rights of nature?",
         options: [
-          "New Zealand",
-          "Ecuador",
+          "Colombia",
           "Bolivia",
-          "Colombia"
+          "Ecuador",
+          "New Zealand"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Ecuador was the first country to constitutionally recognize rights of nature in 2008. Article 71 states: 'Nature or Pachamama, where life is reproduced and exists, has the right to exist, persist, maintain and regenerate its vital cycles.'",
         moduleReference: 6
       },
@@ -3040,12 +3040,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 13,
         question: "What type of market failure occurs when costs or benefits affect third parties not involved in a transaction?",
         options: [
-          "Public Goods",
           "Common Pool Resources",
           "Externalities",
-          "Information Asymmetries"
+          "Information Asymmetries",
+          "Public Goods"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Externalities occur when the production or consumption of a good affects third parties who are not directly involved in the transaction. Pollution is a classic negative externality where costs are imposed on others without compensation.",
         moduleReference: 4
       },
@@ -3053,10 +3053,10 @@ This module explores emerging issues and future directions in environmental poli
         id: 14,
         question: "What are the three main objectives of the Convention on Biological Diversity (CBD)?",
         options: [
-          "Protection, preservation, and restoration of ecosystems",
-          "Conservation of biodiversity, sustainable use of components, fair benefit-sharing",
           "Research, education, and public awareness about biodiversity",
-          "Economic valuation, policy development, and implementation of conservation measures"
+          "Conservation of biodiversity, sustainable use of components, fair benefit-sharing",
+          "Economic valuation, policy development, and implementation of conservation measures",
+          "Protection, preservation, and restoration of ecosystems"
         ],
         correctAnswer: 1,
         explanation: "The CBD has three main objectives: 1) The conservation of biological diversity, 2) The sustainable use of its components, and 3) The fair and equitable sharing of benefits arising from genetic resources. These objectives are pursued through national strategies and international cooperation.",
@@ -3066,12 +3066,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 15,
         question: "According to IPCC findings, how much has global surface temperature increased since the pre-industrial period?",
         options: [
-          "Approximately 0.5°C",
-          "Approximately 1.1°C",
           "Approximately 2.0°C",
-          "Approximately 3.0°C"
+          "Approximately 3.0°C",
+          "Approximately 1.1°C",
+          "Approximately 0.5°C"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "The IPCC Sixth Assessment Report indicates that global surface temperature has increased by approximately 1.1°C since the pre-industrial period (1850-1900). This warming is unequivocally caused by human activities.",
         moduleReference: 2
       },
@@ -3079,12 +3079,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 16,
         question: "What does FPIC stand for in indigenous community engagement?",
         options: [
-          "Full Participation in Conservation",
           "Free, Prior and Informed Consent",
+          "Fundamental Principles of Indigenous Consultation",
           "Fair Partnership in Community",
-          "Fundamental Principles of Indigenous Consultation"
+          "Full Participation in Conservation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "FPIC stands for Free, Prior and Informed Consent - a principle that indigenous peoples have the right to give or withhold consent to projects affecting their lands, territories, and resources. It's recognized in the UN Declaration on Rights of Indigenous Peoples.",
         moduleReference: 5
       },
@@ -3092,12 +3092,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 17,
         question: "What does EPR stand for in circular economy policy?",
         options: [
-          "Environmental Protection Regulation",
-          "Extended Producer Responsibility",
           "Eco-Product Requirements",
-          "Efficient Production Rules"
+          "Environmental Protection Regulation",
+          "Efficient Production Rules",
+          "Extended Producer Responsibility"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Extended Producer Responsibility (EPR) shifts responsibility for the environmental impacts of products throughout their life cycle to producers. This creates incentives for designing more durable, repairable, and recyclable products.",
         moduleReference: 6
       },
@@ -3105,12 +3105,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 18,
         question: "Which principle suggests that those affected by decisions should have a say in making them?",
         options: [
-          "Subsidiarity principle",
-          "Polluter pays principle",
           "Affected interests principle",
-          "Precautionary principle"
+          "Precautionary principle",
+          "Subsidiarity principle",
+          "Polluter pays principle"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "The affected interests principle holds that those affected by decisions should have a voice in making them. This is a foundation of democratic environmental governance and public participation in environmental decision-making.",
         moduleReference: 5
       },
@@ -3118,12 +3118,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 19,
         question: "What is the estimated global value of fossil fuel subsidies according to this course?",
         options: [
-          "$1.9 trillion annually (2% of global GDP)",
           "$5.9 trillion annually (6.8% of global GDP)",
+          "$15.5 trillion annually (18% of global GDP)",
           "$10.2 trillion annually (12% of global GDP)",
-          "$15.5 trillion annually (18% of global GDP)"
+          "$1.9 trillion annually (2% of global GDP)"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The course cites IMF estimates that fossil fuel subsidies amounted to $5.9 trillion in 2020, or 6.8 percent of global GDP. These subsidies include both explicit subsidies and implicit subsidies from unpriced environmental damages.",
         moduleReference: 4
       },
@@ -3131,12 +3131,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 20,
         question: "What does the term 'Anthropocene' refer to?",
         options: [
-          "A geological epoch defined by human dominance of Earth systems",
-          "The study of ancient human-environment interactions",
+          "The period before significant human environmental impact",
           "A future era of complete human control over nature",
-          "The period before significant human environmental impact"
+          "A geological epoch defined by human dominance of Earth systems",
+          "The study of ancient human-environment interactions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The Anthropocene is a proposed geological epoch dating from the commencement of significant human impact on Earth's geology and ecosystems. It recognizes that human activities have become the dominant influence on climate and the environment.",
         moduleReference: 6
       },
@@ -3144,12 +3144,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 21,
         question: "Which international agreement specifically regulates international trade in endangered species?",
         options: [
-          "Convention on Biological Diversity (CBD)",
           "Convention on International Trade in Endangered Species (CITES)",
-          "Ramsar Convention on Wetlands",
-          "Convention on Migratory Species (CMS)"
+          "Convention on Biological Diversity (CBD)",
+          "Convention on Migratory Species (CMS)",
+          "Ramsar Convention on Wetlands"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) is an international agreement between governments that aims to ensure that international trade in specimens of wild animals and plants does not threaten their survival.",
         moduleReference: 3
       },
@@ -3159,8 +3159,8 @@ This module explores emerging issues and future directions in environmental poli
         options: [
           "To eliminate all fossil fuel use immediately",
           "To ensure fairness in shifting to a low-carbon economy",
-          "To transfer climate costs to future generations",
-          "To prioritize economic growth over environmental protection"
+          "To prioritize economic growth over environmental protection",
+          "To transfer climate costs to future generations"
         ],
         correctAnswer: 1,
         explanation: "A just transition framework aims to ensure fairness in the shift to a low-carbon economy by supporting workers, communities, and regions affected by the transition, creating decent work opportunities, and promoting social inclusion throughout the process.",
@@ -3171,11 +3171,11 @@ This module explores emerging issues and future directions in environmental poli
         question: "What does MRV stand for in climate policy implementation?",
         options: [
           "Mitigation, Reduction, and Verification",
-          "Monitoring, Reporting, and Verification",
           "Measurement, Reporting, and Validation",
+          "Monitoring, Reporting, and Verification",
           "Management, Regulation, and Verification"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "MRV stands for Monitoring, Reporting, and Verification. These systems are essential for transparency and accountability in climate policy implementation, enabling tracking of progress, supporting learning, and building trust between countries.",
         moduleReference: 2
       },
@@ -3184,11 +3184,11 @@ This module explores emerging issues and future directions in environmental poli
         question: "Which implementation model emphasizes the role of local implementers and contexts in shaping policy outcomes?",
         options: [
           "Top-down implementation model",
-          "Bottom-up implementation model",
+          "Command-and-control implementation model",
           "Hierarchical implementation model",
-          "Command-and-control implementation model"
+          "Bottom-up implementation model"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Bottom-up implementation models emphasize that policy is shaped during implementation by street-level bureaucrats, local contexts, and networks. This perspective recognizes implementation as a complex, adaptive process rather than simple execution of predetermined plans.",
         moduleReference: 5
       },
@@ -3196,12 +3196,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 25,
         question: "What are the three access rights under the Aarhus Convention?",
         options: [
-          "Access to land, water, and clean air",
           "Access to information, participation, and justice",
           "Access to funding, technology, and training",
+          "Access to land, water, and clean air",
           "Access to markets, resources, and employment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The Aarhus Convention grants three access rights: 1) Access to environmental information, 2) Public participation in environmental decision-making, and 3) Access to justice in environmental matters. These rights form pillars of environmental democracy.",
         moduleReference: 5
       },
@@ -3209,12 +3209,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 26,
         question: "Which planetary boundary involves nitrogen and phosphorus cycles?",
         options: [
-          "Biogeochemical flows",
           "Freshwater change",
-          "Novel entities",
-          "Land system change"
+          "Biogeochemical flows",
+          "Land system change",
+          "Novel entities"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The biogeochemical flows boundary addresses human disruption of nitrogen and phosphorus cycles. These elements are essential for life but excessive use as fertilizers causes water pollution, biodiversity loss, and dead zones in oceans.",
         moduleReference: 6
       },
@@ -3222,12 +3222,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 27,
         question: "What is the main economic argument for addressing climate change now rather than later?",
         options: [
-          "Current costs are lower than future costs due to compounding damages",
-          "Future generations will be wealthier and better able to pay",
           "Technological solutions will be cheaper in the future",
-          "Discount rates make future damages less significant"
+          "Current costs are lower than future costs due to compounding damages",
+          "Discount rates make future damages less significant",
+          "Future generations will be wealthier and better able to pay"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The economic argument for early action on climate change emphasizes that damages compound over time, making delayed action more costly. Immediate mitigation avoids locking in carbon-intensive infrastructure and takes advantage of current lower-cost opportunities.",
         moduleReference: 4
       },
@@ -3236,9 +3236,9 @@ This module explores emerging issues and future directions in environmental poli
         question: "According to the IPBES 2019 Global Assessment, approximately how many animal and plant species are threatened with extinction?",
         options: [
           "100,000 species",
-          "500,000 species",
+          "5 million species",
           "1 million species",
-          "5 million species"
+          "500,000 species"
         ],
         correctAnswer: 2,
         explanation: "The IPBES 2019 Global Assessment found that around 1 million animal and plant species are now threatened with extinction, many within decades. This represents an unprecedented rate of species loss, tens to hundreds of times higher than the average over the past 10 million years.",
@@ -3248,12 +3248,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 29,
         question: "What does the Weitzman Rule help determine when choosing between price and quantity instruments?",
         options: [
-          "Which instrument generates more political support",
           "Whether marginal benefit or marginal cost curves are steeper",
           "The administrative costs of different policy options",
+          "Which instrument generates more political support",
           "The distributional impacts on different income groups"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The Weitzman Rule states that price instruments (taxes) are preferred when the marginal benefit curve is flatter than the marginal cost curve, while quantity instruments (permits) are preferred when the marginal cost curve is flatter. This minimizes efficiency losses from uncertainty.",
         moduleReference: 4
       },
@@ -3262,11 +3262,11 @@ This module explores emerging issues and future directions in environmental poli
         question: "Which flexibility mechanism under the Kyoto Protocol allowed developed countries to invest in emission reduction projects in developing countries?",
         options: [
           "Emissions Trading",
-          "Clean Development Mechanism",
           "Joint Implementation",
+          "Clean Development Mechanism",
           "Carbon Offset Program"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "The Clean Development Mechanism (CDM) allowed emission reduction projects in developing countries to earn certified emission reduction credits, which could be used by developed countries to meet part of their emission reduction targets under the Kyoto Protocol.",
         moduleReference: 2
       },
@@ -3274,10 +3274,10 @@ This module explores emerging issues and future directions in environmental poli
         id: 31,
         question: "What does polycentric governance involve?",
         options: [
-          "Single centralized authority making all decisions",
+          "Temporary governance arrangements for crises",
           "Multiple decision centers with overlapping jurisdiction",
           "Complete decentralization to local levels only",
-          "Temporary governance arrangements for crises"
+          "Single centralized authority making all decisions"
         ],
         correctAnswer: 1,
         explanation: "Polycentric governance involves multiple, overlapping decision centers at different scales that are formally independent but functionally interdependent. This approach can enhance adaptability, learning, and resilience in complex environmental systems.",
@@ -3300,12 +3300,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 33,
         question: "What is the main purpose of biodiversity offsets?",
         options: [
-          "To eliminate all impacts on biodiversity",
-          "To compensate for residual, unavoidable biodiversity impacts",
+          "To punish companies for biodiversity damage",
           "To provide funding for conservation research",
-          "To punish companies for biodiversity damage"
+          "To eliminate all impacts on biodiversity",
+          "To compensate for residual, unavoidable biodiversity impacts"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Biodiversity offsets are measurable conservation outcomes resulting from actions designed to compensate for significant residual adverse biodiversity impacts arising from project development. They follow the mitigation hierarchy: avoid, minimize, restore, offset.",
         moduleReference: 3
       },
@@ -3313,12 +3313,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 34,
         question: "What annual climate finance commitment did developed countries agree to by 2020?",
         options: [
+          "$500 billion",
           "$50 billion",
           "$100 billion",
-          "$200 billion",
-          "$500 billion"
+          "$200 billion"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Developed countries committed to mobilizing $100 billion per year by 2020 to address the needs of developing countries in climate change mitigation and adaptation. This commitment was made in Copenhagen (2009) and formalized in the Paris Agreement.",
         moduleReference: 6
       },
@@ -3340,9 +3340,9 @@ This module explores emerging issues and future directions in environmental poli
         question: "What does BECCS stand for in carbon removal technologies?",
         options: [
           "Bioenergy with Carbon Capture and Storage",
+          "Bio-Engineering for Carbon Control Solutions",
           "Biomass Energy and Carbon Control Systems",
-          "Biological Emission Capture and Sequestration",
-          "Bio-Engineering for Carbon Control Solutions"
+          "Biological Emission Capture and Sequestration"
         ],
         correctAnswer: 0,
         explanation: "BECCS stands for Bioenergy with Carbon Capture and Storage - a carbon dioxide removal technology that combines biomass energy production with carbon capture and storage. It theoretically produces negative emissions but faces sustainability and scalability challenges.",
@@ -3352,12 +3352,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 37,
         question: "Which valuation method uses observed behavior to infer environmental values?",
         options: [
-          "Contingent Valuation",
+          "Deliberative Valuation",
           "Choice Experiments",
-          "Revealed Preference Methods",
-          "Deliberative Valuation"
+          "Contingent Valuation",
+          "Revealed Preference Methods"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Revealed preference methods infer environmental values from observed behavior in related markets. Examples include hedonic pricing (property values), travel cost method (recreation decisions), and averting behavior (spending to avoid environmental harms).",
         moduleReference: 4
       },
@@ -3365,12 +3365,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 38,
         question: "What does SRM stand for in geoengineering discussions?",
         options: [
+          "Systemic Risk Mitigation",
           "Solar Radiation Management",
-          "Stratospheric Reflective Methods",
           "Surface Radiation Modification",
-          "Systemic Risk Mitigation"
+          "Stratospheric Reflective Methods"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "SRM stands for Solar Radiation Management - a category of geoengineering techniques that aim to reflect a small percentage of the sun's light and heat back into space to reduce global warming. Examples include stratospheric aerosol injection and marine cloud brightening.",
         moduleReference: 6
       },
@@ -3378,12 +3378,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 39,
         question: "What is the most preferred option in the waste hierarchy?",
         options: [
+          "Disposal",
           "Recycling",
           "Prevention",
-          "Recovery",
-          "Disposal"
+          "Recovery"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Prevention is the most preferred option in the waste hierarchy, as it avoids generating waste in the first place through product redesign, consumption reduction, and reuse. This is followed by reuse, recycling, recovery, and finally disposal as the least preferred option.",
         moduleReference: 6
       },
@@ -3391,12 +3391,12 @@ This module explores emerging issues and future directions in environmental poli
         id: 40,
         question: "What does the term 'co-benefits' refer to in environmental policy evaluation?",
         options: [
-          "Additional benefits beyond primary environmental objectives",
-          "Shared benefits between multiple stakeholders",
           "Benefits that compensate for policy costs",
-          "Benefits that occur only in conjunction with other policies"
+          "Additional benefits beyond primary environmental objectives",
+          "Benefits that occur only in conjunction with other policies",
+          "Shared benefits between multiple stakeholders"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Co-benefits are positive outcomes from environmental policies beyond their primary environmental objectives. For example, climate policies that reduce fossil fuel combustion also improve air quality and public health, generating significant co-benefits.",
         moduleReference: 4
       }

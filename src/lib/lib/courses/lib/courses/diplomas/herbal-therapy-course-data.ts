@@ -102,9 +102,9 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           question: "What does the entourage effect describe?",
           options: [
             "Multiple constituents working together synergistically",
+            "Herb harvesting techniques",
             "Only isolated compound effects",
-            "Plant growth patterns",
-            "Herb harvesting techniques"
+            "Plant growth patterns"
           ],
           correctAnswer: 0,
           explanation: "The entourage effect describes how multiple plant constituents work together to enhance therapeutic effects."
@@ -113,48 +113,48 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           id: 3,
           question: "What are glycosides?",
           options: [
-            "Compounds with sugar attached to aglycone",
-            "Only simple plant sugars",
+            "Mineral complexes",
             "Just protein structures",
-            "Mineral complexes"
+            "Compounds with sugar attached to aglycone",
+            "Only simple plant sugars"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Glycosides consist of sugar molecules attached to non-sugar aglycones, often with specific therapeutic actions."
         },
         {
           id: 4,
           question: "What affects herb absorption?",
           options: [
-            "Herb form and preparation method",
-            "Only plant color",
             "Just harvesting time",
+            "Only plant color",
+            "Herb form and preparation method",
             "Storage container type"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Absorption of herbal constituents varies based on preparation form, solubility, and accompanying substances."
         },
         {
           id: 5,
           question: "What are terpenoids?",
           options: [
-            "Compounds including volatile oils and resins",
+            "Simple carbohydrates",
             "Only water-soluble vitamins",
             "Just plant fibers",
-            "Simple carbohydrates"
+            "Compounds including volatile oils and resins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Terpenoids include a wide range of compounds like volatile oils, resins, and bitter principles with various therapeutic effects."
         },
         {
           id: 6,
           question: "What is organoleptic evaluation?",
           options: [
+            "Genetic testing of plants",
             "Using senses to assess herb quality",
             "Only laboratory chemical analysis",
-            "Microscopic examination only",
-            "Genetic testing of plants"
+            "Microscopic examination only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Organoleptic evaluation uses sight, smell, taste, and touch to assess the quality and authenticity of herbs."
         },
         {
@@ -162,9 +162,9 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           question: "What do polyphenols include?",
           options: [
             "Flavonoids, tannins, and phenolic acids",
-            "Only alkaloids",
+            "Simple sugars only",
             "Just terpenes",
-            "Simple sugars only"
+            "Only alkaloids"
           ],
           correctAnswer: 0,
           explanation: "Polyphenols encompass flavonoids, tannins, and phenolic acids, known for antioxidant and anti-inflammatory properties."
@@ -174,8 +174,8 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           question: "What are buffer compounds?",
           options: [
             "Constituents that moderate stronger effects",
-            "Only active ingredients",
             "Plant toxins",
+            "Only active ingredients",
             "Harvesting aids"
           ],
           correctAnswer: 0,
@@ -185,24 +185,24 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           id: 9,
           question: "What do polysaccharides do?",
           options: [
-            "Have immune-modulating effects",
-            "Only provide energy",
+            "Serve as simple sweeteners",
             "Act as plant toxins",
-            "Serve as simple sweeteners"
+            "Only provide energy",
+            "Have immune-modulating effects"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Polysaccharides in herbs like echinacea and astragalus have immune-modulating and demulcent properties."
         },
         {
           id: 10,
           question: "What are marker compounds used for?",
           options: [
+            "Assessing soil quality",
             "Standardizing extract potency",
-            "Only identifying plant species",
             "Determining harvest time",
-            "Assessing soil quality"
+            "Only identifying plant species"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Marker compounds are specific constituents used to standardize herbal extracts for consistent potency."
         },
         {
@@ -210,9 +210,9 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           question: "Where does herb metabolism primarily occur?",
           options: [
             "Liver via cytochrome P450 enzymes",
-            "Only in the stomach",
+            "Throughout the bloodstream",
             "Just in the kidneys",
-            "Throughout the bloodstream"
+            "Only in the stomach"
           ],
           correctAnswer: 0,
           explanation: "Herbal constituents are primarily metabolized in the liver through cytochrome P450 enzyme systems."
@@ -222,8 +222,8 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           question: "What does microscopic analysis identify?",
           options: [
             "Plant parts and detects adulterants",
-            "Only chemical composition",
             "Just genetic makeup",
+            "Only chemical composition",
             "Soil contaminants"
           ],
           correctAnswer: 0,
@@ -233,48 +233,48 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           id: 13,
           question: "What are cardiac glycosides?",
           options: [
-            "Glycosides affecting heart function",
-            "Only liver-supporting compounds",
+            "Brain-stimulating agents",
             "Kidney-targeting substances",
-            "Brain-stimulating agents"
+            "Glycosides affecting heart function",
+            "Only liver-supporting compounds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cardiac glycosides like those from foxglove have specific effects on heart muscle contraction and rhythm."
         },
         {
           id: 14,
           question: "What enhances bioavailability?",
           options: [
-            "Piperine from black pepper",
-            "Only water extraction",
             "Just powdering herbs",
+            "Only water extraction",
+            "Piperine from black pepper",
             "Freezing plant material"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Piperine from black pepper is known to enhance absorption of various compounds by inhibiting certain enzymes."
         },
         {
           id: 15,
           question: "What are standardized extracts?",
           options: [
+            "Home-made remedies",
             "Extracts with guaranteed constituent levels",
             "Only fresh herb preparations",
-            "Just traditional formulas",
-            "Home-made remedies"
+            "Just traditional formulas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Standardized extracts guarantee minimum levels of specific marker compounds for consistent therapeutic effects."
         },
         {
           id: 16,
           question: "What are anthraquinone glycosides?",
           options: [
+            "Just anti-inflammatory agents",
             "Laxative compounds from senna",
             "Only cardiac stimulants",
-            "Just anti-inflammatory agents",
             "Sedative substances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Anthraquinone glycosides from plants like senna and cascara have stimulant laxative effects."
         },
         {
@@ -282,9 +282,9 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           question: "What do elimination routes include?",
           options: [
             "Urine, feces, sweat, and breath",
-            "Only urinary excretion",
             "Just fecal elimination",
-            "Skin absorption only"
+            "Skin absorption only",
+            "Only urinary excretion"
           ],
           correctAnswer: 0,
           explanation: "Herbal constituents are eliminated through various routes including urine, feces, sweat, and exhaled breath."
@@ -293,36 +293,36 @@ Understanding phytochemistry is essential for professional herbal therapy. Plant
           id: 18,
           question: "What is chromatographic analysis?",
           options: [
-            "Separating and quantifying constituents",
-            "Only visual inspection",
             "Just taste testing",
-            "Aroma evaluation"
+            "Aroma evaluation",
+            "Only visual inspection",
+            "Separating and quantifying constituents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Chromatographic methods like HPLC separate and quantify specific compounds in herbal preparations."
         },
         {
           id: 19,
           question: "What are sesquiterpene lactones?",
           options: [
-            "Anti-inflammatory compounds from feverfew",
             "Only simple sugars",
             "Just protein structures",
-            "Mineral complexes"
+            "Mineral complexes",
+            "Anti-inflammatory compounds from feverfew"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sesquiterpene lactones in feverfew have significant anti-inflammatory and anti-migraine properties."
         },
         {
           id: 20,
           question: "What do GMP standards ensure?",
           options: [
+            "Just fast manufacturing",
             "Consistent quality, purity, and safety",
             "Only low production costs",
-            "Just fast manufacturing",
             "Maximum profit margins"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Good Manufacturing Practices ensure consistent quality, purity, and safety in commercial herbal products."
         }
       ]
@@ -403,24 +403,24 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           id: 1,
           question: "What is synergistic blending?",
           options: [
+            "Separating herb actions",
             "Combining herbs that enhance each other's effects",
             "Using only single herbs",
-            "Mixing random herbs together",
-            "Separating herb actions"
+            "Mixing random herbs together"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Synergistic blending combines herbs with complementary actions that work together to enhance therapeutic effects."
         },
         {
           id: 2,
           question: "What do adaptogen combinations do?",
           options: [
-            "Enhance stress adaptation and energy regulation",
             "Only stimulate the nervous system",
-            "Just sedate patients",
-            "Suppress immune function"
+            "Suppress immune function",
+            "Enhance stress adaptation and energy regulation",
+            "Just sedate patients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adaptogen combinations work together to help the body adapt to stress and regulate energy metabolism."
         },
         {
@@ -429,8 +429,8 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           options: [
             "Herbs that guide other herbs to specific tissues",
             "Only compass directions for harvesting",
-            "Herbs that grow in specific directions",
-            "Plants used for navigation"
+            "Plants used for navigation",
+            "Herbs that grow in specific directions"
           ],
           correctAnswer: 0,
           explanation: "Directional herbs have properties that help direct other herbal constituents to specific body systems or tissues."
@@ -440,9 +440,9 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           question: "What does liposomal encapsulation do?",
           options: [
             "Enhances absorption through lipid layers",
+            "Preserves herbs longer",
             "Only makes herbs taste better",
-            "Just colors herbal products",
-            "Preserves herbs longer"
+            "Just colors herbal products"
           ],
           correctAnswer: 0,
           explanation: "Liposomal encapsulation surrounds water-soluble compounds with lipid layers to improve absorption through cell membranes."
@@ -451,48 +451,48 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           id: 5,
           question: "What is weight-based dosing?",
           options: [
-            "Calculating doses based on body weight",
             "Using the same dose for everyone",
+            "Estimating doses roughly",
             "Only measuring herb weight",
-            "Estimating doses roughly"
+            "Calculating doses based on body weight"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Weight-based dosing calculates appropriate herbal doses based on the patient's body weight for precise therapy."
         },
         {
           id: 6,
           question: "What do nervine formulations combine?",
           options: [
-            "Sedative, tonic, and nutritive nervines",
             "Only stimulant herbs",
+            "Cardiac stimulants",
             "Just digestive bitters",
-            "Cardiac stimulants"
+            "Sedative, tonic, and nutritive nervines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Nervine formulations typically combine calming, nourishing, and restorative herbs for comprehensive nervous system support."
         },
         {
           id: 7,
           question: "What are phytosome complexes?",
           options: [
-            "Herb extracts bonded to phospholipids",
             "Only simple herb powders",
+            "Alcohol tinctures only",
             "Just water extracts",
-            "Alcohol tinctures only"
+            "Herb extracts bonded to phospholipids"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Phytosome complexes bond herbal extracts to phospholipids, dramatically improving absorption and bioavailability."
         },
         {
           id: 8,
           question: "What does titration involve?",
           options: [
-            "Starting low and gradually increasing doses",
+            "Random dose changes",
             "Using maximum doses immediately",
-            "Keeping constant doses always",
-            "Random dose changes"
+            "Starting low and gradually increasing doses",
+            "Keeping constant doses always"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Titration involves starting with low doses and gradually increasing based on patient response and tolerance."
         },
         {
@@ -501,8 +501,8 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           options: [
             "Supporting liver function",
             "Only kidney health",
-            "Just lung function",
-            "Brain stimulation"
+            "Brain stimulation",
+            "Just lung function"
           ],
           correctAnswer: 0,
           explanation: "Hepatic formulas combine herbs that support liver function through various mechanisms like hepatoprotection and cholagogue action."
@@ -512,8 +512,8 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           question: "What do time-release formulations provide?",
           options: [
             "Sustained release over extended periods",
-            "Only immediate effects",
             "Just one-time dosing",
+            "Only immediate effects",
             "Random release patterns"
           ],
           correctAnswer: 0,
@@ -523,36 +523,36 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           id: 11,
           question: "What are corrective herbs?",
           options: [
-            "Herbs that mitigate side effects of primary herbs",
-            "Only the strongest herbs in formulas",
+            "Inactive filler herbs",
             "Just flavoring agents",
-            "Inactive filler herbs"
+            "Herbs that mitigate side effects of primary herbs",
+            "Only the strongest herbs in formulas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Corrective herbs are included in formulas to buffer or counteract potential side effects of primary therapeutic herbs."
         },
         {
           id: 12,
           question: "What are loading doses?",
           options: [
-            "Higher initial doses to achieve therapeutic levels",
+            "Placebo doses",
             "Only maintenance doses",
             "Minimum effective doses",
-            "Placebo doses"
+            "Higher initial doses to achieve therapeutic levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Loading doses use higher initial amounts to quickly achieve therapeutic blood levels before switching to maintenance doses."
         },
         {
           id: 13,
           question: "What do renal support blends combine?",
           options: [
-            "Diuretics, anti-inflammatory, and demulcent herbs",
-            "Only liver stimulants",
             "Just cardiac tonics",
-            "Respiratory expectorants"
+            "Respiratory expectorants",
+            "Diuretics, anti-inflammatory, and demulcent herbs",
+            "Only liver stimulants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Renal support blends typically combine diuretic, anti-inflammatory, and soothing herbs for urinary tract health."
         },
         {
@@ -560,9 +560,9 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           question: "What do nanoemulsions do?",
           options: [
             "Increase bioavailability through fine dispersion",
-            "Only make herbs look cloudy",
             "Just preserve herbal products",
-            "Color herbal preparations"
+            "Color herbal preparations",
+            "Only make herbs look cloudy"
           ],
           correctAnswer: 0,
           explanation: "Nanoemulsions use ultra-fine dispersion to dramatically increase the bioavailability of poorly soluble herbal compounds."
@@ -571,72 +571,72 @@ Professional herbal therapy requires sophisticated formulation strategies that a
           id: 15,
           question: "What age requires dosage adjustments?",
           options: [
-            "Elderly patients with altered metabolism",
-            "Only middle-aged adults",
+            "All ages need same doses",
             "Just teenagers",
-            "All ages need same doses"
+            "Only middle-aged adults",
+            "Elderly patients with altered metabolism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Elderly patients often require dosage adjustments due to altered metabolism, organ function, and increased sensitivity."
         },
         {
           id: 16,
           question: "What are cardiovascular formulas?",
           options: [
-            "Herbs that strengthen heart and circulation",
-            "Only digestive aids",
+            "Liver detoxifiers",
             "Just nervous system tonics",
-            "Liver detoxifiers"
+            "Only digestive aids",
+            "Herbs that strengthen heart and circulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cardiovascular formulas typically include herbs that support heart function, improve circulation, and maintain vascular health."
         },
         {
           id: 17,
           question: "What do topical penetration enhancers do?",
           options: [
-            "Improve skin absorption of herbal compounds",
+            "Preserve ointments",
             "Only make creams smell nice",
-            "Just color topical products",
-            "Preserve ointments"
+            "Improve skin absorption of herbal compounds",
+            "Just color topical products"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Topical penetration enhancers like essential oils help herbal compounds penetrate the skin barrier more effectively."
         },
         {
           id: 18,
           question: "What does layering actions mean?",
           options: [
-            "Addressing different pathological processes simultaneously",
             "Only using one herb at a time",
+            "Addressing different pathological processes simultaneously",
             "Applying herbs in physical layers",
             "Separating herb actions over time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Layering actions involves including herbs that address different aspects of a condition in the same formulation."
         },
         {
           id: 19,
           question: "What is a digestive bitters formula?",
           options: [
+            "Laxative combination",
             "Combination to stimulate digestive secretions",
             "Only sweet-tasting herbs",
-            "Just appetite suppressants",
-            "Laxative combination"
+            "Just appetite suppressants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digestive bitters formulas combine bitter-tasting herbs that stimulate digestive secretions and improve gastrointestinal function."
         },
         {
           id: 20,
           question: "What do metabolic considerations affect?",
           options: [
-            "Dosage adjustments for impaired organ function",
             "Only herb harvesting times",
+            "Dosage adjustments for impaired organ function",
             "Just plant growing conditions",
             "Herb storage methods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Metabolic considerations require dosage adjustments for patients with impaired liver or kidney function affecting herb metabolism."
         }
       ]
@@ -717,12 +717,12 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           id: 1,
           question: "What is constitutional assessment?",
           options: [
-            "Evaluating inherent strengths and weaknesses",
             "Only measuring body temperature",
-            "Just checking blood pressure",
-            "Assessing current symptoms only"
+            "Evaluating inherent strengths and weaknesses",
+            "Assessing current symptoms only",
+            "Just checking blood pressure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Constitutional assessment evaluates a person's inherent physical and energetic characteristics that influence health patterns."
         },
         {
@@ -730,9 +730,9 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           question: "What does tongue diagnosis examine?",
           options: [
             "Color, coating, shape, moisture, markings",
+            "Speech patterns only",
             "Only taste perception",
-            "Just tongue mobility",
-            "Speech patterns only"
+            "Just tongue mobility"
           ],
           correctAnswer: 0,
           explanation: "Tongue diagnosis examines multiple characteristics that may indicate systemic imbalances in traditional medicine systems."
@@ -742,8 +742,8 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           question: "What are open-ended questions?",
           options: [
             "Questions allowing descriptive responses",
-            "Only yes/no questions",
             "Just medical history forms",
+            "Only yes/no questions",
             "Laboratory test orders"
           ],
           correctAnswer: 0,
@@ -753,24 +753,24 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           id: 4,
           question: "What is energetic matching?",
           options: [
-            "Selecting herbs with appropriate thermal qualities",
             "Only matching herb colors",
-            "Just similar tasting herbs",
-            "Matching plant growth patterns"
+            "Selecting herbs with appropriate thermal qualities",
+            "Matching plant growth patterns",
+            "Just similar tasting herbs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Energetic matching selects herbs with heating, cooling, drying, or moistening properties appropriate for the patient's condition."
         },
         {
           id: 5,
           question: "What are short-term goals?",
           options: [
-            "Addressing acute symptoms and immediate concerns",
-            "Only lifelong treatment plans",
             "Just preventive measures",
-            "Constitutional changes only"
+            "Constitutional changes only",
+            "Addressing acute symptoms and immediate concerns",
+            "Only lifelong treatment plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Short-term goals focus on relieving acute symptoms to provide immediate benefit and build patient confidence."
         },
         {
@@ -790,9 +790,9 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           question: "What is symptom analysis?",
           options: [
             "Exploring location, quality, intensity, timing",
-            "Only counting symptoms",
             "Just naming complaints",
-            "Diagnosing diseases"
+            "Diagnosing diseases",
+            "Only counting symptoms"
           ],
           correctAnswer: 0,
           explanation: "Symptom analysis systematically explores characteristics of each complaint to understand patterns and guide treatment."
@@ -802,9 +802,9 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           question: "What are tissue states?",
           options: [
             "Conditions like atrophy, tension, or stagnation",
+            "Tissue sample results",
             "Only healthy tissue conditions",
-            "Just anatomical locations",
-            "Tissue sample results"
+            "Just anatomical locations"
           ],
           correctAnswer: 0,
           explanation: "Tissue state assessment identifies specific conditions in body tissues that guide appropriate herbal selection."
@@ -815,8 +815,8 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           options: [
             "Constitutional strengthening and prevention",
             "Only immediate symptom relief",
-            "Just acute treatment",
-            "Emergency care planning"
+            "Emergency care planning",
+            "Just acute treatment"
           ],
           correctAnswer: 0,
           explanation: "Long-term objectives focus on building constitutional strength, correcting underlying imbalances, and preventing recurrence."
@@ -825,12 +825,12 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           id: 10,
           question: "What are SOAP notes?",
           options: [
-            "Subjective, Objective, Assessment, Plan format",
             "Only herb lists",
+            "Subjective, Objective, Assessment, Plan format",
             "Just patient complaints",
             "Laboratory results only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SOAP notes provide a structured format for documenting clinical encounters and treatment plans."
         },
         {
@@ -838,9 +838,9 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           question: "What is iridology?",
           options: [
             "Study of iris patterns and markings",
-            "Only eye color determination",
+            "Eye disease diagnosis",
             "Just vision testing",
-            "Eye disease diagnosis"
+            "Only eye color determination"
           ],
           correctAnswer: 0,
           explanation: "Iridology examines iris characteristics that may indicate constitutional tendencies and systemic imbalances."
@@ -849,72 +849,72 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           id: 12,
           question: "What is systems review?",
           options: [
-            "Questioning each body system systematically",
             "Only focusing on main complaint",
-            "Just checking vital signs",
-            "Physical examination only"
+            "Physical examination only",
+            "Questioning each body system systematically",
+            "Just checking vital signs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Systems review systematically questions each body system to uncover hidden imbalances beyond the main complaints."
         },
         {
           id: 13,
           question: "What is organ affinity?",
           options: [
-            "Herbs with known effects on specific organs",
-            "Only patient organ preferences",
             "Just organ anatomy",
-            "Surgical organ removal"
+            "Surgical organ removal",
+            "Herbs with known effects on specific organs",
+            "Only patient organ preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Organ affinity refers to herbs that have particular therapeutic effects on specific organs or body systems."
         },
         {
           id: 14,
           question: "What are sequential protocols?",
           options: [
-            "Different herb combinations in specific sequences",
-            "Only one herb at a time",
+            "Constant same formula",
             "Random herb combinations",
-            "Constant same formula"
+            "Only one herb at a time",
+            "Different herb combinations in specific sequences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sequential protocols use different herbal combinations in planned sequences to address complex conditions systematically."
         },
         {
           id: 15,
           question: "What do herbal formulas records document?",
           options: [
-            "Ingredients, proportions, preparation, dosing",
-            "Only herb names",
+            "Cost of herbs only",
             "Just patient names",
-            "Cost of herbs only"
+            "Ingredients, proportions, preparation, dosing",
+            "Only herb names"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Herbal formula records document exact composition and administration details for accurate preparation and monitoring."
         },
         {
           id: 16,
           question: "What does nail analysis examine?",
           options: [
+            "Nail grooming habits",
             "Color, shape, texture, markings",
-            "Only nail length",
             "Just nail polish",
-            "Nail grooming habits"
+            "Only nail length"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Nail analysis examines characteristics that may indicate nutritional status, circulation, and systemic health patterns."
         },
         {
           id: 17,
           question: "What is lifestyle assessment?",
           options: [
-            "Evaluating diet, sleep, exercise, stress",
             "Only medical history",
             "Just current symptoms",
-            "Family history only"
+            "Family history only",
+            "Evaluating diet, sleep, exercise, stress"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Lifestyle assessment evaluates daily habits and environmental factors that significantly impact health and healing."
         },
         {
@@ -922,8 +922,8 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           question: "What is safety profile consideration?",
           options: [
             "Prioritizing herbs with favorable safety records",
-            "Only using strongest herbs",
             "Ignoring potential side effects",
+            "Only using strongest herbs",
             "Using experimental herbs"
           ],
           correctAnswer: 0,
@@ -933,24 +933,24 @@ Clinical herbal therapy requires systematic assessment methods to develop person
           id: 19,
           question: "What are integration strategies?",
           options: [
-            "Combining herbs with diet and lifestyle changes",
-            "Only using herbs alone",
             "Just pharmaceutical combinations",
-            "Surgical interventions"
+            "Combining herbs with diet and lifestyle changes",
+            "Surgical interventions",
+            "Only using herbs alone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Integration strategies combine herbal therapy with dietary changes, lifestyle modifications, and other complementary approaches."
         },
         {
           id: 20,
           question: "What are monitoring parameters?",
           options: [
-            "Specific indicators to track progress",
             "Only patient satisfaction",
             "Just herb availability",
+            "Specific indicators to track progress",
             "Cost of treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Monitoring parameters establish specific, measurable indicators to objectively track treatment progress and guide adjustments."
         }
       ]
@@ -1031,12 +1031,12 @@ Specialized herbal protocols address complex health conditions requiring sophist
           id: 1,
           question: "What are adrenal adaptogens for?",
           options: [
-            "Modulating stress response and HPA axis",
             "Only stimulating energy",
+            "Modulating stress response and HPA axis",
             "Just sedating patients",
             "Suppressing adrenal function"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adrenal adaptogens help the body adapt to stress and restore balance to the hypothalamic-pituitary-adrenal axis."
         },
         {
@@ -1044,8 +1044,8 @@ Specialized herbal protocols address complex health conditions requiring sophist
           question: "What does ginkgo support?",
           options: [
             "Cerebral circulation and cognitive function",
-            "Only digestive function",
             "Just kidney health",
+            "Only digestive function",
             "Liver detoxification"
           ],
           correctAnswer: 0,
@@ -1056,9 +1056,9 @@ Specialized herbal protocols address complex health conditions requiring sophist
           question: "What herbs help blood sugar regulation?",
           options: [
             "Gymnema, bitter melon, cinnamon",
-            "Only sedative herbs",
             "Just diuretic herbs",
-            "Cardiac tonics"
+            "Cardiac tonics",
+            "Only sedative herbs"
           ],
           correctAnswer: 0,
           explanation: "Gymnema, bitter melon, and cinnamon have specific actions that help regulate blood sugar metabolism."
@@ -1067,12 +1067,12 @@ Specialized herbal protocols address complex health conditions requiring sophist
           id: 4,
           question: "What are neuroprotective herbs?",
           options: [
-            "Herbs that protect against neurodegeneration",
-            "Only nerve stimulants",
             "Just sedative herbs",
-            "Digestive aids"
+            "Only nerve stimulants",
+            "Digestive aids",
+            "Herbs that protect against neurodegeneration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Neuroprotective herbs contain compounds that protect nerve cells from damage and support neuronal health."
         },
         {
@@ -1093,8 +1093,8 @@ Specialized herbal protocols address complex health conditions requiring sophist
           options: [
             "Natural antihistamine action",
             "Only as a diuretic",
-            "Just for joint pain",
-            "Skin conditions only"
+            "Skin conditions only",
+            "Just for joint pain"
           ],
           correctAnswer: 0,
           explanation: "Nettle leaf has natural antihistamine properties that can help reduce allergy symptoms."
@@ -1103,144 +1103,144 @@ Specialized herbal protocols address complex health conditions requiring sophist
           id: 7,
           question: "What does bacopa enhance?",
           options: [
-            "Memory and cognitive function",
             "Only physical strength",
             "Just digestive power",
+            "Memory and cognitive function",
             "Liver detoxification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bacopa is traditionally used and researched for enhancing memory and overall cognitive function."
         },
         {
           id: 8,
           question: "What herbs help thyroid function?",
           options: [
-            "Bladderwrack, bugleweed, ashwagandha",
             "Only heart tonics",
+            "Bladderwrack, bugleweed, ashwagandha",
             "Just lung herbs",
             "Kidney supporters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bladderwrack provides iodine, bugleweed can help hyperthyroidism, and ashwagandha supports thyroid modulation."
         },
         {
           id: 9,
           question: "What is peripheral neuropathy?",
           options: [
-            "Nerve damage in extremities",
-            "Only central brain disorders",
             "Just muscle conditions",
-            "Bone diseases"
+            "Bone diseases",
+            "Only central brain disorders",
+            "Nerve damage in extremities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Peripheral neuropathy involves nerve damage in hands and feet, often causing pain, numbness, or weakness."
         },
         {
           id: 10,
           question: "What does gymnema do?",
           options: [
+            "Acts as sedative",
             "Reduces sugar absorption and cravings",
-            "Only increases appetite",
             "Just stimulates digestion",
-            "Acts as sedative"
+            "Only increases appetite"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Gymnema reduces sugar absorption in intestines and can decrease sugar cravings by affecting taste receptors."
         },
         {
           id: 11,
           question: "What are medicinal mushrooms used for?",
           options: [
+            "Poisonous effects",
             "Immune modulation and cancer support",
             "Only culinary purposes",
-            "Just decorative uses",
-            "Poisonous effects"
+            "Just decorative uses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Medicinal mushrooms like reishi and maitake have immune-modulating properties and may support cancer treatment."
         },
         {
           id: 12,
           question: "What does feverfew prevent?",
           options: [
-            "Migraine frequency and severity",
             "Only common colds",
+            "Skin rashes",
             "Just digestive issues",
-            "Skin rashes"
+            "Migraine frequency and severity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Feverfew is well-researched for reducing the frequency and severity of migraine headaches."
         },
         {
           id: 13,
           question: "What is leaky gut syndrome?",
           options: [
-            "Increased intestinal permeability",
             "Only stomach ulcers",
-            "Just constipation",
-            "Liver congestion"
+            "Liver congestion",
+            "Increased intestinal permeability",
+            "Just constipation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leaky gut syndrome involves increased intestinal permeability allowing particles into bloodstream causing immune reactions."
         },
         {
           id: 14,
           question: "What is lion's mane known for?",
           options: [
+            "Toxic effects",
             "Stimulating nerve growth factor",
-            "Only culinary use",
             "Just decorative purposes",
-            "Toxic effects"
+            "Only culinary use"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lion's mane mushroom contains compounds that stimulate nerve growth factor production, supporting neurological health."
         },
         {
           id: 15,
           question: "What herbs help osteoarthritis?",
           options: [
-            "Turmeric, boswellia, willow bark",
             "Only stimulant herbs",
             "Just sedatives",
+            "Turmeric, boswellia, willow bark",
             "Digestive bitters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Turmeric and boswellia reduce inflammation while willow bark provides natural pain relief for osteoarthritis."
         },
         {
           id: 16,
           question: "What is SIBO?",
           options: [
+            "Just large intestine issues",
             "Small intestinal bacterial overgrowth",
             "Only stomach infection",
-            "Just large intestine issues",
             "Liver infection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SIBO stands for Small Intestinal Bacterial Overgrowth, where bacteria colonize the small intestine causing digestive symptoms."
         },
         {
           id: 17,
           question: "What does butterbur help?",
           options: [
-            "Allergies and migraines",
-            "Only liver function",
             "Just kidney health",
-            "Bone density"
+            "Bone density",
+            "Only liver function",
+            "Allergies and migraines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Butterbur has research supporting its use for both allergy relief and migraine prevention."
         },
         {
           id: 18,
           question: "What are male reproductive support herbs?",
           options: [
-            "Tribulus, maca, saw palmetto",
             "Only female tonics",
+            "Tribulus, maca, saw palmetto",
             "Just children's herbs",
             "Elderly formulas only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Tribulus, maca, and saw palmetto have traditional use for supporting male reproductive health and prostate function."
         },
         {
@@ -1248,9 +1248,9 @@ Specialized herbal protocols address complex health conditions requiring sophist
           question: "What is boswellia used for?",
           options: [
             "Anti-inflammatory effects in joints and gut",
-            "Only as incense",
+            "Culinary spice only",
             "Just for fragrance",
-            "Culinary spice only"
+            "Only as incense"
           ],
           correctAnswer: 0,
           explanation: "Boswellia contains potent anti-inflammatory compounds effective for both joint inflammation and inflammatory bowel conditions."
@@ -1259,12 +1259,12 @@ Specialized herbal protocols address complex health conditions requiring sophist
           id: 20,
           question: "What does milk thistle support?",
           options: [
-            "Liver detoxification and protection",
-            "Only kidney function",
             "Just lung health",
-            "Brain function only"
+            "Only kidney function",
+            "Brain function only",
+            "Liver detoxification and protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Milk thistle is specifically hepatoprotective, supporting liver detoxification pathways and protecting liver cells."
         }
       ]
@@ -1349,8 +1349,8 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           options: [
             "Similar or opposing effects on same pathways",
             "Only affecting drug absorption",
-            "Just changing drug color",
-            "Improving drug taste"
+            "Improving drug taste",
+            "Just changing drug color"
           ],
           correctAnswer: 0,
           explanation: "Pharmacodynamic interactions occur when herbs and drugs affect the same physiological pathways, potentially amplifying or opposing effects."
@@ -1359,12 +1359,12 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           id: 2,
           question: "What does St. John's wort do to medications?",
           options: [
+            "Preserves drug potency",
             "Induces liver enzymes reducing drug effectiveness",
             "Only improves drug absorption",
-            "Just colors medications",
-            "Preserves drug potency"
+            "Just colors medications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "St. John's wort induces cytochrome P450 enzymes in the liver, increasing metabolism and reducing effectiveness of many medications."
         },
         {
@@ -1373,8 +1373,8 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           options: [
             "Combining anticoagulant herbs with blood thinners",
             "Only using single herbs",
-            "Just taking vitamins",
-            "Drinking water"
+            "Drinking water",
+            "Just taking vitamins"
           ],
           correctAnswer: 0,
           explanation: "Combining herbs with anticoagulant properties (like garlic, ginkgo) with blood-thinning medications significantly increases bleeding risk."
@@ -1385,8 +1385,8 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           options: [
             "Establishing pretreatment values for monitoring",
             "Only diagnosing diseases",
-            "Just checking insurance coverage",
-            "Measuring herb potency"
+            "Measuring herb potency",
+            "Just checking insurance coverage"
           ],
           correctAnswer: 0,
           explanation: "Baseline laboratory tests establish pretreatment values to monitor for potential adverse effects during herbal therapy."
@@ -1395,36 +1395,36 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           id: 5,
           question: "What is an absolute contraindication?",
           options: [
-            "Prohibiting herb use regardless of circumstances",
-            "Only a mild caution",
             "Just a temporary restriction",
+            "Only a mild caution",
+            "Prohibiting herb use regardless of circumstances",
             "A preference issue"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Absolute contraindications prohibit specific herb use due to unacceptable risks regardless of potential benefits."
         },
         {
           id: 6,
           question: "What are pharmacokinetic interactions?",
           options: [
-            "Affecting drug absorption, metabolism, elimination",
             "Only changing drug names",
+            "Making drugs cheaper",
             "Just improving drug appearance",
-            "Making drugs cheaper"
+            "Affecting drug absorption, metabolism, elimination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pharmacokinetic interactions affect how drugs are absorbed, distributed, metabolized, or eliminated from the body."
         },
         {
           id: 7,
           question: "What herbs interact with cardiac medications?",
           options: [
-            "Herbs with cardiac glycosides or affecting electrolytes",
             "Only digestive bitters",
+            "Topical preparations",
             "Just respiratory herbs",
-            "Topical preparations"
+            "Herbs with cardiac glycosides or affecting electrolytes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Herbs containing cardiac glycosides or affecting electrolyte balance can dangerously interact with cardiac medications like digoxin."
         },
         {
@@ -1433,8 +1433,8 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           options: [
             "Tracking side effects and treatment responses",
             "Only recording daily activities",
-            "Just noting weather changes",
-            "Listing food consumed"
+            "Listing food consumed",
+            "Just noting weather changes"
           ],
           correctAnswer: 0,
           explanation: "Symptom diaries help patients systematically track potential side effects, symptom changes, and overall responses to treatment."
@@ -1444,8 +1444,8 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           question: "What are relative contraindications?",
           options: [
             "Requiring careful risk-benefit assessment",
-            "Only minor preferences",
             "Just temporary restrictions",
+            "Only minor preferences",
             "Complete prohibitions"
           ],
           correctAnswer: 0,
@@ -1455,48 +1455,48 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           id: 10,
           question: "What do interaction databases provide?",
           options: [
-            "Current information on known herb-drug interactions",
             "Only herb identification guides",
+            "Herb pricing data",
             "Just plant growing information",
-            "Herb pricing data"
+            "Current information on known herb-drug interactions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Interaction databases provide up-to-date information on documented herb-drug interactions for clinical reference."
         },
         {
           id: 11,
           question: "What is protein binding displacement?",
           options: [
-            "Herbs competing with drugs for protein binding sites",
             "Only improving drug absorption",
-            "Just changing drug color",
-            "Making drugs more palatable"
+            "Making drugs more palatable",
+            "Herbs competing with drugs for protein binding sites",
+            "Just changing drug color"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Protein binding displacement occurs when herbs compete with drugs for plasma protein binding, increasing free drug levels."
         },
         {
           id: 12,
           question: "What herbs interact with diabetes medications?",
           options: [
-            "Blood sugar-lowering herbs potentially causing hypoglycemia",
             "Only herbs for digestion",
             "Just respiratory herbs",
+            "Blood sugar-lowering herbs potentially causing hypoglycemia",
             "Topical applications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Herbs that lower blood sugar can interact with diabetes medications, potentially causing dangerously low blood sugar levels."
         },
         {
           id: 13,
           question: "What are washout periods for?",
           options: [
-            "Reducing interaction risks when switching treatments",
-            "Only cleaning herbal equipment",
             "Just resting between consultations",
-            "Herb storage times"
+            "Herb storage times",
+            "Reducing interaction risks when switching treatments",
+            "Only cleaning herbal equipment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Washout periods allow previous herbs or medications to clear the system before starting new treatments to reduce interaction risks."
         },
         {
@@ -1504,9 +1504,9 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           question: "What are condition-specific cautions?",
           options: [
             "Avoiding certain herbs in specific health conditions",
-            "Only general health advice",
             "Just dietary suggestions",
-            "Exercise recommendations"
+            "Exercise recommendations",
+            "Only general health advice"
           ],
           correctAnswer: 0,
           explanation: "Condition-specific cautions involve avoiding certain herbs that might exacerbate particular health conditions."
@@ -1515,60 +1515,60 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           id: 15,
           question: "What do patient education materials explain?",
           options: [
-            "Potential risks, warning signs, and precautions",
             "Only herb harvesting techniques",
+            "Potential risks, warning signs, and precautions",
             "Just plant identification",
             "Herb market prices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Patient education materials clearly explain potential risks, warning signs to watch for, and necessary precautions."
         },
         {
           id: 16,
           question: "What is receptor site competition?",
           options: [
+            "Creating new receptors",
             "Herbs and drugs competing for same cellular receptors",
-            "Only improving drug effectiveness",
             "Just changing receptor shape",
-            "Creating new receptors"
+            "Only improving drug effectiveness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Receptor site competition occurs when herbs and drugs compete for the same cellular receptor sites, potentially reducing effectiveness."
         },
         {
           id: 17,
           question: "What herbs interact with chemotherapy?",
           options: [
-            "Antioxidants, immune stimulants, liver-metabolized herbs",
-            "Only digestive aids",
+            "Aromatherapy oils",
             "Just topical preparations",
-            "Aromatherapy oils"
+            "Only digestive aids",
+            "Antioxidants, immune stimulants, liver-metabolized herbs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Herbs with antioxidant, immune-stimulating, or liver-metabolizing properties can interact with chemotherapy agents."
         },
         {
           id: 18,
           question: "Why caution in pregnancy and lactation?",
           options: [
-            "Many herbs have unknown effects on fetus/infant",
             "Only because of legal restrictions",
             "Just for insurance purposes",
+            "Many herbs have unknown effects on fetus/infant",
             "Traditional preferences only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Extreme caution is needed because many herbs have unknown effects on fetal development and breastfed infants."
         },
         {
           id: 19,
           question: "What are age-related considerations?",
           options: [
-            "Different sensitivities in children and elderly",
+            "Age restrictions for fun",
             "Only chronological age",
             "Just birth dates",
-            "Age restrictions for fun"
+            "Different sensitivities in children and elderly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Age-related considerations account for different physiological responses and sensitivities in children and elderly patients."
         },
         {
@@ -1576,9 +1576,9 @@ Managing herb-drug interactions and ensuring patient safety are critical respons
           question: "What does healthcare provider communication establish?",
           options: [
             "Protocols for informing other practitioners",
-            "Only social connections",
+            "Marketing networks",
             "Just business relationships",
-            "Marketing networks"
+            "Only social connections"
           ],
           correctAnswer: 0,
           explanation: "Healthcare provider communication establishes protocols for informing other practitioners about herbal treatments for coordinated care."
@@ -1673,108 +1673,108 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           id: 1,
           question: "What does informed consent require?",
           options: [
-            "Explaining treatment options, benefits, risks",
-            "Only getting patient signature",
             "Just listing herb names",
-            "Assuming patient understanding"
+            "Assuming patient understanding",
+            "Only getting patient signature",
+            "Explaining treatment options, benefits, risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Informed consent requires clear explanation of treatment options, potential benefits, risks, alternatives, and costs."
         },
         {
           id: 2,
           question: "What are scope of practice laws?",
           options: [
+            "Herb sourcing guidelines",
             "Define what herbalists can legally do",
-            "Only business hours regulations",
             "Just office location rules",
-            "Herb sourcing guidelines"
+            "Only business hours regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Scope of practice laws legally define what services herbalists can provide in specific jurisdictions."
         },
         {
           id: 3,
           question: "What does confidentiality protect?",
           options: [
-            "Patient information with specific exceptions",
             "Only business secrets",
             "Just personal opinions",
-            "Marketing strategies"
+            "Marketing strategies",
+            "Patient information with specific exceptions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Confidentiality protects patient information except where legally required or necessary to prevent serious harm."
         },
         {
           id: 4,
           question: "What is clinic setup consideration?",
           options: [
+            "Selecting artwork",
             "Creating healing environment for patient care",
-            "Only choosing office colors",
             "Just buying furniture",
-            "Selecting artwork"
+            "Only choosing office colors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clinic setup involves creating a physical environment that supports healing and professional practice."
         },
         {
           id: 5,
           question: "What is professional development?",
           options: [
+            "Just reading labels",
             "Ongoing learning to maintain and enhance skills",
             "Only initial training",
-            "Just reading labels",
             "Basic herb knowledge"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Professional development involves continuous education to maintain competence and stay current with evolving knowledge."
         },
         {
           id: 6,
           question: "What are competence boundaries?",
           options: [
-            "Practicing within training scope and referring appropriately",
-            "Only treating easy cases",
             "Just avoiding all complex cases",
+            "Only treating easy cases",
+            "Practicing within training scope and referring appropriately",
             "Treating everything regardless of training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Competence boundaries involve recognizing limitations of training and referring patients when conditions exceed expertise."
         },
         {
           id: 7,
           question: "What does business licensing include?",
           options: [
-            "Permits, tax registration, local regulations",
             "Only herb knowledge",
-            "Just personal preferences",
-            "Friendship networks"
+            "Permits, tax registration, local regulations",
+            "Friendship networks",
+            "Just personal preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Business licensing involves obtaining necessary permits, tax registration, and complying with local business regulations."
         },
         {
           id: 8,
           question: "What should fee structures be?",
           options: [
-            "Transparent, reasonable, and clearly explained",
             "Only maximum possible",
-            "Just whatever market allows",
-            "Hidden until billing"
+            "Transparent, reasonable, and clearly explained",
+            "Hidden until billing",
+            "Just whatever market allows"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fee structures should be transparent, reasonable for services provided, and clearly explained before treatment."
         },
         {
           id: 9,
           question: "What is research literacy?",
           options: [
-            "Critical evaluation of herbal research studies",
             "Only reading abstracts",
+            "Ignoring scientific studies",
             "Just accepting all research",
-            "Ignoring scientific studies"
+            "Critical evaluation of herbal research studies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Research literacy enables practitioners to critically evaluate scientific studies to inform evidence-based practice."
         },
         {
@@ -1783,8 +1783,8 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           options: [
             "Systematically evaluating protocol effectiveness",
             "Only counting patient numbers",
-            "Just recording income",
-            "Tracking herb inventory"
+            "Tracking herb inventory",
+            "Just recording income"
           ],
           correctAnswer: 0,
           explanation: "Treatment outcome tracking systematically evaluates the effectiveness of herbal protocols to improve future practice."
@@ -1795,8 +1795,8 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           options: [
             "Prioritizing patient welfare over personal gain",
             "Only maximizing profits",
-            "Just following personal preferences",
-            "Ignoring financial considerations"
+            "Ignoring financial considerations",
+            "Just following personal preferences"
           ],
           correctAnswer: 0,
           explanation: "Conflict of interest avoidance means prioritizing patient welfare over financial gain or personal relationships."
@@ -1805,24 +1805,24 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           id: 12,
           question: "What is product liability?",
           options: [
-            "Responsibility for herbs sold or recommended",
-            "Only product popularity",
+            "Packaging design",
             "Just manufacturing costs",
-            "Packaging design"
+            "Only product popularity",
+            "Responsibility for herbs sold or recommended"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Product liability involves responsibility for the quality, safety, and accurate labeling of herbs sold or recommended."
         },
         {
           id: 13,
           question: "What do appointment systems manage?",
           options: [
-            "Scheduling, reminders, cancellations efficiently",
-            "Only patient names",
             "Just herb supplies",
-            "Office cleaning"
+            "Only patient names",
+            "Office cleaning",
+            "Scheduling, reminders, cancellations efficiently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Appointment systems efficiently manage scheduling, reminders, cancellations, and follow-up for smooth practice operation."
         },
         {
@@ -1830,9 +1830,9 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           question: "What is peer consultation?",
           options: [
             "Case discussion and knowledge sharing with colleagues",
+            "Competitive comparisons",
             "Only social gatherings",
-            "Just business meetings",
-            "Competitive comparisons"
+            "Just business meetings"
           ],
           correctAnswer: 0,
           explanation: "Peer consultation provides opportunities for case discussion, knowledge sharing, and professional support among colleagues."
@@ -1841,48 +1841,48 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           id: 15,
           question: "What are patient satisfaction surveys for?",
           options: [
-            "Gathering feedback to improve care quality",
             "Only marketing purposes",
-            "Just counting responses",
-            "Creating mailing lists"
+            "Creating mailing lists",
+            "Gathering feedback to improve care quality",
+            "Just counting responses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Patient satisfaction surveys gather feedback on all aspects of care to identify areas for improvement."
         },
         {
           id: 16,
           question: "What is cultural competence?",
           options: [
-            "Respecting diverse health beliefs and practices",
-            "Only knowing one cultural approach",
             "Just personal cultural background",
-            "Ignoring cultural differences"
+            "Only knowing one cultural approach",
+            "Ignoring cultural differences",
+            "Respecting diverse health beliefs and practices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural competence requires respecting and understanding diverse health beliefs, practices, and cultural needs."
         },
         {
           id: 17,
           question: "What is malpractice insurance for?",
           options: [
-            "Protection against negligence claims",
-            "Only business property",
+            "Office equipment",
             "Just herb inventory",
-            "Office equipment"
+            "Only business property",
+            "Protection against negligence claims"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Malpractice insurance protects against claims of negligence, errors, or omissions in professional practice."
         },
         {
           id: 18,
           question: "What does inventory management ensure?",
           options: [
-            "Adequate supplies with proper storage and rotation",
             "Only maximum stock levels",
-            "Just cheapest sources",
-            "Fastest delivery"
+            "Adequate supplies with proper storage and rotation",
+            "Fastest delivery",
+            "Just cheapest sources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Inventory management ensures adequate herb supplies, proper storage conditions, rotation, and quality control."
         },
         {
@@ -1890,9 +1890,9 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           question: "What is supervision and mentoring?",
           options: [
             "Supporting skill development for practitioners",
-            "Only boss-employee relationships",
+            "Personal friendships",
             "Just formal education",
-            "Personal friendships"
+            "Only boss-employee relationships"
           ],
           correctAnswer: 0,
           explanation: "Supervision and mentoring arrangements support skill development for new practitioners and ongoing growth for experienced ones."
@@ -1902,9 +1902,9 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
           question: "What is peer review?",
           options: [
             "Colleagues examining practice for quality improvement",
+            "Competitive assessment",
             "Only criticizing others",
-            "Just social evaluation",
-            "Competitive assessment"
+            "Just social evaluation"
           ],
           correctAnswer: 0,
           explanation: "Peer review involves colleagues examining practice patterns, case management, and documentation for quality improvement."
@@ -1919,120 +1919,120 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       id: 1,
       question: "What are alkaloids?",
       options: [
+        "Basic building blocks of proteins",
         "Nitrogen-containing compounds with strong effects",
         "Only simple plant sugars",
-        "Just plant pigments",
-        "Basic building blocks of proteins"
+        "Just plant pigments"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Alkaloids are nitrogen-containing plant compounds that often have potent physiological effects."
     },
     {
       id: 2,
       question: "What is synergistic blending?",
       options: [
+        "Separating herb actions",
         "Combining herbs that enhance each other's effects",
         "Using only single herbs",
-        "Mixing random herbs together",
-        "Separating herb actions"
+        "Mixing random herbs together"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Synergistic blending combines herbs with complementary actions that work together to enhance therapeutic effects."
     },
     {
       id: 3,
       question: "What is constitutional assessment?",
       options: [
-        "Evaluating inherent strengths and weaknesses",
-        "Only measuring body temperature",
+        "Assessing current symptoms only",
         "Just checking blood pressure",
-        "Assessing current symptoms only"
+        "Evaluating inherent strengths and weaknesses",
+        "Only measuring body temperature"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Constitutional assessment evaluates a person's inherent physical and energetic characteristics."
     },
     {
       id: 4,
       question: "What are adrenal adaptogens for?",
       options: [
-        "Modulating stress response and HPA axis",
-        "Only stimulating energy",
         "Just sedating patients",
-        "Suppressing adrenal function"
+        "Suppressing adrenal function",
+        "Only stimulating energy",
+        "Modulating stress response and HPA axis"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Adrenal adaptogens help the body adapt to stress and restore HPA axis balance."
     },
     {
       id: 5,
       question: "What are pharmacodynamic interactions?",
       options: [
+        "Improving drug taste",
         "Similar or opposing effects on same pathways",
-        "Only affecting drug absorption",
         "Just changing drug color",
-        "Improving drug taste"
+        "Only affecting drug absorption"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Pharmacodynamic interactions occur when herbs and drugs affect the same physiological pathways."
     },
     {
       id: 6,
       question: "What does informed consent require?",
       options: [
-        "Explaining treatment options, benefits, risks",
-        "Only getting patient signature",
+        "Assuming patient understanding",
         "Just listing herb names",
-        "Assuming patient understanding"
+        "Explaining treatment options, benefits, risks",
+        "Only getting patient signature"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Informed consent requires clear explanation of treatment options, potential benefits, and risks."
     },
     {
       id: 7,
       question: "What are glycosides?",
       options: [
-        "Compounds with sugar attached to aglycone",
-        "Only simple plant sugars",
         "Just protein structures",
+        "Only simple plant sugars",
+        "Compounds with sugar attached to aglycone",
         "Mineral complexes"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Glycosides consist of sugar molecules attached to non-sugar aglycones with therapeutic actions."
     },
     {
       id: 8,
       question: "What do adaptogen combinations do?",
       options: [
-        "Enhance stress adaptation and energy regulation",
         "Only stimulate the nervous system",
         "Just sedate patients",
-        "Suppress immune function"
+        "Suppress immune function",
+        "Enhance stress adaptation and energy regulation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Adaptogen combinations work together to help the body adapt to stress and regulate energy."
     },
     {
       id: 9,
       question: "What does tongue diagnosis examine?",
       options: [
+        "Speech patterns only",
         "Color, coating, shape, moisture, markings",
         "Only taste perception",
-        "Just tongue mobility",
-        "Speech patterns only"
+        "Just tongue mobility"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Tongue diagnosis examines multiple characteristics that may indicate systemic imbalances."
     },
     {
       id: 10,
       question: "What does ginkgo support?",
       options: [
-        "Cerebral circulation and cognitive function",
         "Only digestive function",
         "Just kidney health",
-        "Liver detoxification"
+        "Liver detoxification",
+        "Cerebral circulation and cognitive function"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Ginkgo is particularly known for improving cerebral circulation and cognitive function."
     },
     {
@@ -2040,9 +2040,9 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       question: "What does St. John's wort do to medications?",
       options: [
         "Induces liver enzymes reducing drug effectiveness",
-        "Only improves drug absorption",
         "Just colors medications",
-        "Preserves drug potency"
+        "Preserves drug potency",
+        "Only improves drug absorption"
       ],
       correctAnswer: 0,
       explanation: "St. John's wort induces liver enzymes, increasing metabolism and reducing drug effectiveness."
@@ -2051,36 +2051,36 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       id: 12,
       question: "What are scope of practice laws?",
       options: [
-        "Define what herbalists can legally do",
-        "Only business hours regulations",
+        "Herb sourcing guidelines",
         "Just office location rules",
-        "Herb sourcing guidelines"
+        "Only business hours regulations",
+        "Define what herbalists can legally do"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Scope of practice laws legally define what services herbalists can provide."
     },
     {
       id: 13,
       question: "What are terpenoids?",
       options: [
-        "Compounds including volatile oils and resins",
         "Only water-soluble vitamins",
-        "Just plant fibers",
-        "Simple carbohydrates"
+        "Compounds including volatile oils and resins",
+        "Simple carbohydrates",
+        "Just plant fibers"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Terpenoids include volatile oils, resins, and bitter principles with various therapeutic effects."
     },
     {
       id: 14,
       question: "What are directional herbs?",
       options: [
+        "Herbs that grow in specific directions",
         "Herbs that guide other herbs to specific tissues",
         "Only compass directions for harvesting",
-        "Herbs that grow in specific directions",
         "Plants used for navigation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Directional herbs help direct other herbal constituents to specific body systems or tissues."
     },
     {
@@ -2089,8 +2089,8 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       options: [
         "Questions allowing descriptive responses",
         "Only yes/no questions",
-        "Just medical history forms",
-        "Laboratory test orders"
+        "Laboratory test orders",
+        "Just medical history forms"
       ],
       correctAnswer: 0,
       explanation: "Open-ended questions allow patients to describe experiences in their own words."
@@ -2113,8 +2113,8 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       options: [
         "Combining anticoagulant herbs with blood thinners",
         "Only using single herbs",
-        "Just taking vitamins",
-        "Drinking water"
+        "Drinking water",
+        "Just taking vitamins"
       ],
       correctAnswer: 0,
       explanation: "Combining anticoagulant herbs with blood-thinning medications increases bleeding risk."
@@ -2123,204 +2123,204 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       id: 18,
       question: "What does confidentiality protect?",
       options: [
-        "Patient information with specific exceptions",
-        "Only business secrets",
+        "Marketing strategies",
         "Just personal opinions",
-        "Marketing strategies"
+        "Patient information with specific exceptions",
+        "Only business secrets"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Confidentiality protects patient information except where legally required."
     },
     {
       id: 19,
       question: "What are polyphenols?",
       options: [
-        "Flavonoids, tannins, and phenolic acids",
         "Only alkaloids",
-        "Just terpenes",
-        "Simple sugars only"
+        "Simple sugars only",
+        "Flavonoids, tannins, and phenolic acids",
+        "Just terpenes"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Polyphenols encompass flavonoids, tannins, and phenolic acids with antioxidant properties."
     },
     {
       id: 20,
       question: "What does liposomal encapsulation do?",
       options: [
-        "Enhances absorption through lipid layers",
         "Only makes herbs taste better",
-        "Just colors herbal products",
-        "Preserves herbs longer"
+        "Enhances absorption through lipid layers",
+        "Preserves herbs longer",
+        "Just colors herbal products"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Liposomal encapsulation surrounds compounds with lipid layers to improve absorption."
     },
     {
       id: 21,
       question: "What is energetic matching?",
       options: [
-        "Selecting herbs with appropriate thermal qualities",
+        "Matching plant growth patterns",
         "Only matching herb colors",
-        "Just similar tasting herbs",
-        "Matching plant growth patterns"
+        "Selecting herbs with appropriate thermal qualities",
+        "Just similar tasting herbs"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Energetic matching selects herbs with appropriate heating, cooling, or other properties."
     },
     {
       id: 22,
       question: "What are neuroprotective herbs?",
       options: [
-        "Herbs that protect against neurodegeneration",
-        "Only nerve stimulants",
         "Just sedative herbs",
-        "Digestive aids"
+        "Digestive aids",
+        "Only nerve stimulants",
+        "Herbs that protect against neurodegeneration"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Neuroprotective herbs contain compounds that protect nerve cells from damage."
     },
     {
       id: 23,
       question: "What are baseline laboratory tests for?",
       options: [
-        "Establishing pretreatment values for monitoring",
-        "Only diagnosing diseases",
         "Just checking insurance coverage",
-        "Measuring herb potency"
+        "Measuring herb potency",
+        "Only diagnosing diseases",
+        "Establishing pretreatment values for monitoring"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Baseline tests establish pretreatment values to monitor for potential adverse effects."
     },
     {
       id: 24,
       question: "What are competence boundaries?",
       options: [
-        "Practicing within training scope and referring appropriately",
         "Only treating easy cases",
         "Just avoiding all complex cases",
+        "Practicing within training scope and referring appropriately",
         "Treating everything regardless of training"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Competence boundaries involve recognizing limitations and referring when appropriate."
     },
     {
       id: 25,
       question: "What is organoleptic evaluation?",
       options: [
+        "Genetic testing of plants",
         "Using senses to assess herb quality",
-        "Only laboratory chemical analysis",
         "Microscopic examination only",
-        "Genetic testing of plants"
+        "Only laboratory chemical analysis"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Organoleptic evaluation uses sight, smell, taste, and touch to assess herb quality."
     },
     {
       id: 26,
       question: "What is weight-based dosing?",
       options: [
-        "Calculating doses based on body weight",
-        "Using the same dose for everyone",
         "Only measuring herb weight",
-        "Estimating doses roughly"
+        "Using the same dose for everyone",
+        "Estimating doses roughly",
+        "Calculating doses based on body weight"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Weight-based dosing calculates appropriate doses based on patient body weight."
     },
     {
       id: 27,
       question: "What are short-term goals?",
       options: [
-        "Addressing acute symptoms and immediate concerns",
-        "Only lifelong treatment plans",
+        "Constitutional changes only",
         "Just preventive measures",
-        "Constitutional changes only"
+        "Addressing acute symptoms and immediate concerns",
+        "Only lifelong treatment plans"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Short-term goals focus on relieving acute symptoms for immediate benefit."
     },
     {
       id: 28,
       question: "What herbs support female hormone balance?",
       options: [
-        "Vitex, black cohosh, dong quai",
         "Only male tonics",
+        "Respiratory herbs",
         "Just digestive bitters",
-        "Respiratory herbs"
+        "Vitex, black cohosh, dong quai"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Vitex, black cohosh, and dong quai have specific effects on female hormonal regulation."
     },
     {
       id: 29,
       question: "What is an absolute contraindication?",
       options: [
+        "Just a temporary restriction",
         "Prohibiting herb use regardless of circumstances",
         "Only a mild caution",
-        "Just a temporary restriction",
         "A preference issue"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Absolute contraindications prohibit specific herb use due to unacceptable risks."
     },
     {
       id: 30,
       question: "What is clinic setup consideration?",
       options: [
+        "Selecting artwork",
         "Creating healing environment for patient care",
-        "Only choosing office colors",
         "Just buying furniture",
-        "Selecting artwork"
+        "Only choosing office colors"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Clinic setup involves creating a physical environment that supports healing."
     },
     {
       id: 31,
       question: "What are buffer compounds?",
       options: [
-        "Constituents that moderate stronger effects",
         "Only active ingredients",
         "Plant toxins",
-        "Harvesting aids"
+        "Harvesting aids",
+        "Constituents that moderate stronger effects"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Buffer compounds in plants moderate the effects of stronger constituents."
     },
     {
       id: 32,
       question: "What are phytosome complexes?",
       options: [
-        "Herb extracts bonded to phospholipids",
         "Only simple herb powders",
+        "Herb extracts bonded to phospholipids",
         "Just water extracts",
         "Alcohol tinctures only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Phytosome complexes bond herbal extracts to phospholipids to improve absorption."
     },
     {
       id: 33,
       question: "What does pulse assessment evaluate?",
       options: [
+        "Circulation speed only",
         "Rate, rhythm, strength, and quality",
-        "Only heart rate number",
         "Just blood pressure",
-        "Circulation speed only"
+        "Only heart rate number"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Pulse assessment evaluates multiple characteristics that may indicate systemic conditions."
     },
     {
       id: 34,
       question: "What is nettle used for in allergies?",
       options: [
-        "Natural antihistamine action",
-        "Only as a diuretic",
         "Just for joint pain",
+        "Only as a diuretic",
+        "Natural antihistamine action",
         "Skin conditions only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Nettle leaf has natural antihistamine properties that reduce allergy symptoms."
     },
     {
@@ -2328,8 +2328,8 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       question: "What are pharmacokinetic interactions?",
       options: [
         "Affecting drug absorption, metabolism, elimination",
-        "Only changing drug names",
         "Just improving drug appearance",
+        "Only changing drug names",
         "Making drugs cheaper"
       ],
       correctAnswer: 0,
@@ -2339,12 +2339,12 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       id: 36,
       question: "What is professional development?",
       options: [
-        "Ongoing learning to maintain and enhance skills",
-        "Only initial training",
+        "Basic herb knowledge",
         "Just reading labels",
-        "Basic herb knowledge"
+        "Ongoing learning to maintain and enhance skills",
+        "Only initial training"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Professional development involves continuous education to maintain competence."
     },
     {
@@ -2352,8 +2352,8 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       question: "What are polysaccharides?",
       options: [
         "Complex carbohydrates with immune effects",
-        "Only simple sugars",
         "Just plant toxins",
+        "Only simple sugars",
         "Energy sources only"
       ],
       correctAnswer: 0,
@@ -2363,12 +2363,12 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       id: 38,
       question: "What does titration involve?",
       options: [
-        "Starting low and gradually increasing doses",
         "Using maximum doses immediately",
         "Keeping constant doses always",
-        "Random dose changes"
+        "Random dose changes",
+        "Starting low and gradually increasing doses"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Titration involves starting with low doses and gradually increasing based on response."
     },
     {
@@ -2376,9 +2376,9 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       question: "What is symptom analysis?",
       options: [
         "Exploring location, quality, intensity, timing",
-        "Only counting symptoms",
         "Just naming complaints",
-        "Diagnosing diseases"
+        "Diagnosing diseases",
+        "Only counting symptoms"
       ],
       correctAnswer: 0,
       explanation: "Symptom analysis systematically explores characteristics of each complaint."
@@ -2388,9 +2388,9 @@ Professional herbal therapy requires adherence to ethical standards, legal requi
       question: "What does bacopa enhance?",
       options: [
         "Memory and cognitive function",
+        "Liver detoxification",
         "Only physical strength",
-        "Just digestive power",
-        "Liver detoxification"
+        "Just digestive power"
       ],
       correctAnswer: 0,
       explanation: "Bacopa is traditionally used for enhancing memory and cognitive function."

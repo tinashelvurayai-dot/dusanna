@@ -338,72 +338,72 @@ export const emergencyResponseDiploma = {
           id: 1,
           question: "What is the optimal span of control in ICS?",
           options: [
-            "1-2 subordinates",
-            "3-7 subordinates",
             "8-12 subordinates",
-            "13-15 subordinates"
+            "13-15 subordinates",
+            "3-7 subordinates",
+            "1-2 subordinates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The optimal span of control in ICS is 3-7 subordinates per supervisor for effective management."
         },
         {
           id: 2,
           question: "How many main sections are in the General Staff?",
           options: [
-            "3 sections",
             "4 sections",
             "5 sections",
+            "3 sections",
             "6 sections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The General Staff has 4 main sections: Operations, Planning, Logistics, and Finance/Administration."
         },
         {
           id: 3,
           question: "What ICS form is the Incident Briefing?",
           options: [
-            "ICS 201",
             "ICS 202",
             "ICS 203",
-            "ICS 204"
+            "ICS 204",
+            "ICS 201"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ICS Form 201 is the Incident Briefing form used for initial situation reporting."
         },
         {
           id: 4,
           question: "Which position develops tactical operations?",
           options: [
-            "Incident Commander",
-            "Operations Section Chief",
+            "Logistics Section Chief",
             "Planning Section Chief",
-            "Logistics Section Chief"
+            "Incident Commander",
+            "Operations Section Chief"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Operations Section Chief develops and directs all tactical operations."
         },
         {
           id: 5,
           question: "What does IAP stand for?",
           options: [
-            "Incident Action Plan",
+            "Incident Assignment Process",
             "Initial Assessment Procedure",
             "Immediate Action Protocol",
-            "Incident Assignment Process"
+            "Incident Action Plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IAP stands for Incident Action Plan, the central planning document in ICS."
         },
         {
           id: 6,
           question: "How many resource types are in the typing system?",
           options: [
-            "3 types",
-            "4 types",
             "5 types",
-            "6 types"
+            "4 types",
+            "6 types",
+            "3 types"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "There are 5 resource types (I-V) in the national resource typing system."
         },
         {
@@ -411,23 +411,23 @@ export const emergencyResponseDiploma = {
           question: "Which resource status means ready for assignment?",
           options: [
             "Assigned",
-            "Available",
             "Out-of-Service",
-            "En Route"
+            "En Route",
+            "Available"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Available status means the resource is ready for assignment to a task."
         },
         {
           id: 8,
           question: "What communication principle requires no codes?",
           options: [
+            "Effective Briefings",
             "Common Communications Plan",
             "Clear Text",
-            "Effective Briefings",
             "Documentation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Clear text principle requires using plain language without codes (except for safety reasons)."
         },
         {
@@ -436,10 +436,10 @@ export const emergencyResponseDiploma = {
           options: [
             "ICS 206",
             "ICS 207",
-            "ICS 208",
-            "ICS 209"
+            "ICS 209",
+            "ICS 208"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "ICS Form 208 is the Safety Message/Plan for documenting safety information."
         },
         {
@@ -470,12 +470,12 @@ export const emergencyResponseDiploma = {
           id: 12,
           question: "Which position tracks incident costs?",
           options: [
-            "Operations Section Chief",
-            "Planning Section Chief",
             "Logistics Section Chief",
-            "Finance/Administration Section Chief"
+            "Finance/Administration Section Chief",
+            "Operations Section Chief",
+            "Planning Section Chief"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "The Finance/Administration Section Chief tracks all incident costs and financial matters."
         },
         {
@@ -484,22 +484,22 @@ export const emergencyResponseDiploma = {
           options: [
             "Every 4 hours",
             "Every 8 hours",
-            "Every 12 hours",
-            "Every 24 hours"
+            "Every 24 hours",
+            "Every 12 hours"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Situation reports (SITREPs) are typically required every 12 hours in ICS."
         },
         {
           id: 14,
           question: "Which resource type has national level capability?",
           options: [
-            "Type I",
             "Type II",
-            "Type III",
-            "Type IV"
+            "Type IV",
+            "Type I",
+            "Type III"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Type I resources have the highest capability at national level."
         },
         {
@@ -508,8 +508,8 @@ export const emergencyResponseDiploma = {
           options: [
             "Emergency Management Assistance Compact",
             "Emergency Mutual Aid Contract",
-            "Emergency Medical Assistance Coordination",
-            "Emergency Management Agency Cooperation"
+            "Emergency Management Agency Cooperation",
+            "Emergency Medical Assistance Coordination"
           ],
           correctAnswer: 0,
           explanation: "EMAC stands for Emergency Management Assistance Compact for state-to-state mutual aid."
@@ -518,33 +518,33 @@ export const emergencyResponseDiploma = {
           id: 16,
           question: "Which ICS form is the Organization Assignment List?",
           options: [
-            "ICS 201",
-            "ICS 202",
+            "ICS 204",
             "ICS 203",
-            "ICS 204"
+            "ICS 201",
+            "ICS 202"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "ICS Form 203 is the Organization Assignment List showing the ICS organization."
         },
         {
           id: 17,
           question: "What is the first step in resource management?",
           options: [
+            "Track and Report",
             "Order Resources",
             "Identify Requirements",
-            "Mobilize Resources",
-            "Track and Report"
+            "Mobilize Resources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Identifying requirements based on incident needs is the first step in resource management."
         },
         {
           id: 18,
           question: "Which communication channel is for operations?",
           options: [
-            "Primary System",
-            "Tactical Channels",
             "Command Channels",
+            "Tactical Channels",
+            "Primary System",
             "Support Channels"
           ],
           correctAnswer: 1,
@@ -554,9 +554,9 @@ export const emergencyResponseDiploma = {
           id: 19,
           question: "What ICS form is the Incident Status Summary?",
           options: [
+            "ICS 208",
             "ICS 206",
             "ICS 207",
-            "ICS 208",
             "ICS 209"
           ],
           correctAnswer: 3,
@@ -566,12 +566,12 @@ export const emergencyResponseDiploma = {
           id: 20,
           question: "How many steps are in the risk management process?",
           options: [
-            "3 steps",
             "4 steps",
             "5 steps",
+            "3 steps",
             "6 steps"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The risk management process has 5 steps: identify, assess, develop, implement, supervise/evaluate."
         }
       ]
@@ -911,12 +911,12 @@ export const emergencyResponseDiploma = {
           id: 1,
           question: "How many rescue complexity levels are typically defined?",
           options: [
-            "3 levels",
-            "4 levels",
             "5 levels",
-            "6 levels"
+            "6 levels",
+            "4 levels",
+            "3 levels"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "There are typically 5 levels of rescue complexity from basic to catastrophic operations."
         },
         {
@@ -924,8 +924,8 @@ export const emergencyResponseDiploma = {
           question: "What does US&R stand for?",
           options: [
             "Urban Search and Rescue",
-            "United States Rescue",
             "Universal Search and Recovery",
+            "United States Rescue",
             "Urban Safety and Response"
           ],
           correctAnswer: 0,
@@ -935,24 +935,24 @@ export const emergencyResponseDiploma = {
           id: 3,
           question: "Which collapse pattern involves floors collapsing vertically?",
           options: [
-            "Pancake Collapse",
             "V-Shape Collapse",
             "Lean-to Collapse",
-            "Cantilever Collapse"
+            "Cantilever Collapse",
+            "Pancake Collapse"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pancake collapse occurs when floors collapse vertically onto each other."
         },
         {
           id: 4,
           question: "What is the first step in swift water rescue?",
           options: [
-            "Throw",
-            "Reach",
+            "Go",
             "Row",
-            "Go"
+            "Reach",
+            "Throw"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reach is the first and safest option in swift water rescue, using extended equipment."
         },
         {
@@ -960,9 +960,9 @@ export const emergencyResponseDiploma = {
           question: "What is the minimum training hours for confined space rescue?",
           options: [
             "8 hours",
-            "16 hours",
+            "40 hours",
             "24 hours",
-            "40 hours"
+            "16 hours"
           ],
           correctAnswer: 2,
           explanation: "Confined space rescue teams require minimum 24 hours of initial training per OSHA."
@@ -971,24 +971,24 @@ export const emergencyResponseDiploma = {
           id: 6,
           question: "What angle defines high angle rope rescue?",
           options: [
-            "Greater than 30 degrees",
-            "Greater than 45 degrees",
             "Greater than 60 degrees",
-            "Vertical only"
+            "Vertical only",
+            "Greater than 30 degrees",
+            "Greater than 45 degrees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "High angle rope rescue involves angles greater than 45 degrees from horizontal."
         },
         {
           id: 7,
           question: "What does IDLH stand for in confined space?",
           options: [
-            "Immediate Danger to Life and Health",
-            "Initial Danger Level High",
+            "Initial Deployment Limited Hazard",
             "Immediate Disaster Life Hazard",
-            "Initial Deployment Limited Hazard"
+            "Immediate Danger to Life and Health",
+            "Initial Danger Level High"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IDLH stands for Immediately Dangerous to Life or Health in confined space operations."
         },
         {
@@ -996,9 +996,9 @@ export const emergencyResponseDiploma = {
           question: "Which search technique uses systematic area coverage?",
           options: [
             "Grid Search",
+            "Tracking",
             "Trail Searching",
-            "Clue Awareness",
-            "Tracking"
+            "Clue Awareness"
           ],
           correctAnswer: 0,
           explanation: "Grid search involves systematic coverage of an area in organized patterns."
@@ -1007,12 +1007,12 @@ export const emergencyResponseDiploma = {
           id: 9,
           question: "What does INSARAG stand for?",
           options: [
-            "International Search and Rescue Advisory Group",
             "International National Search and Rescue Agency",
-            "Integrated National Search and Rescue Guidelines",
-            "International Standards for Rescue and Aid Groups"
+            "International Search and Rescue Advisory Group",
+            "International Standards for Rescue and Aid Groups",
+            "Integrated National Search and Rescue Guidelines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "INSARAG stands for International Search and Rescue Advisory Group, setting international standards."
         },
         {
@@ -1031,12 +1031,12 @@ export const emergencyResponseDiploma = {
           id: 11,
           question: "How many main components does a US&R team have?",
           options: [
-            "3 components",
+            "6 components",
             "4 components",
-            "5 components",
-            "6 components"
+            "3 components",
+            "5 components"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "US&R teams have 5 components: search, rescue, medical, technical, and logistics."
         },
         {
@@ -1044,23 +1044,23 @@ export const emergencyResponseDiploma = {
           question: "What water speed defines swift water?",
           options: [
             ">0.5 knot",
+            ">3 knots",
             ">1 knot",
-            ">2 knots",
-            ">3 knots"
+            ">2 knots"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Swift water is defined as moving faster than 1 knot (approximately 1.15 mph or 1.85 km/h)."
         },
         {
           id: 13,
           question: "What is the safest rescue method in swift water?",
           options: [
-            "Go (Swim)",
             "Throw",
-            "Reach",
-            "Helo"
+            "Helo",
+            "Go (Swim)",
+            "Reach"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Reach is the safest method as it keeps rescuers out of the water while extending equipment."
         },
         {
@@ -1068,35 +1068,35 @@ export const emergencyResponseDiploma = {
           question: "What type of confined space requires a permit?",
           options: [
             "Non-Permit Required",
+            "All confined spaces",
             "Permit Required",
-            "Simple Confined Space",
-            "All confined spaces"
+            "Simple Confined Space"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Permit-required confined spaces have serious hazards requiring specific permits and procedures."
         },
         {
           id: 15,
           question: "What is the most common rope rescue system?",
           options: [
-            "Lowering Systems",
             "Raising Systems",
+            "Lowering Systems",
             "Tensioned Systems",
             "Tracking Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lowering systems are most common in rope rescue for controlled descent operations."
         },
         {
           id: 16,
           question: "What does RWC stand for in water rescue?",
           options: [
+            "River Water Command",
             "Rescue Water Craft",
             "Rapid Water Control",
-            "River Water Command",
             "Rescue Wave Craft"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RWC stands for Rescue Water Craft, including jet skis and other personal watercraft used in rescue."
         },
         {
@@ -1104,35 +1104,35 @@ export const emergencyResponseDiploma = {
           question: "Which technology detects heat signatures?",
           options: [
             "Acoustic Devices",
-            "Thermal Imaging",
             "Fiber Optic Scopes",
+            "Thermal Imaging",
             "Radar Detection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Thermal imaging detects heat signatures for locating victims in various conditions."
         },
         {
           id: 18,
           question: "What organization sets NFPA standards?",
           options: [
-            "National Fire Protection Association",
+            "National Firefighter Professional Association",
             "National Federal Protection Agency",
             "National Fire Prevention Association",
-            "National Firefighter Professional Association"
+            "National Fire Protection Association"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NFPA standards are set by the National Fire Protection Association for fire and rescue operations."
         },
         {
           id: 19,
           question: "What does UAV stand for?",
           options: [
-            "Unmanned Aerial Vehicle",
-            "Universal Aerial Vehicle",
             "Urban Assistance Vehicle",
-            "Unified Air Vehicle"
+            "Unmanned Aerial Vehicle",
+            "Unified Air Vehicle",
+            "Universal Aerial Vehicle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "UAV stands for Unmanned Aerial Vehicle, commonly known as drones in rescue operations."
         },
         {
@@ -1140,9 +1140,9 @@ export const emergencyResponseDiploma = {
           question: "How often should confined space rescue drills be conducted?",
           options: [
             "Monthly",
+            "Annually",
             "Quarterly",
-            "Semi-annually",
-            "Annually"
+            "Semi-annually"
           ],
           correctAnswer: 0,
           explanation: "Confined space rescue teams should conduct practice drills at least monthly to maintain proficiency."
@@ -1491,58 +1491,58 @@ export const emergencyResponseDiploma = {
           id: 1,
           question: "What does MCI stand for?",
           options: [
+            "Major Casualty Incident",
             "Mass Casualty Incident",
             "Medical Crisis Intervention",
-            "Major Casualty Incident",
             "Multiple Casualty Intervention"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MCI stands for Mass Casualty Incident, where medical resources are overwhelmed by casualties."
         },
         {
           id: 2,
           question: "How many casualty levels are in the MCI classification system?",
           options: [
+            "6 levels",
             "3 levels",
             "4 levels",
-            "5 levels",
-            "6 levels"
+            "5 levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "There are 4 levels of MCI classification based on casualty numbers and resource needs."
         },
         {
           id: 3,
           question: "What does SALT stand for in triage?",
           options: [
-            "Simple Assessment and Life Treatment",
-            "Sort, Assess, Lifesaving interventions, Treatment/Transport",
             "Systematic Approach to Life Threatening",
-            "Severity Assessment and Life Triage"
+            "Severity Assessment and Life Triage",
+            "Sort, Assess, Lifesaving interventions, Treatment/Transport",
+            "Simple Assessment and Life Treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SALT stands for Sort, Assess, Lifesaving interventions, Treatment/Transport in modern triage."
         },
         {
           id: 4,
           question: "What triage color indicates life-threatening but salvageable injuries?",
           options: [
-            "Red",
-            "Yellow",
             "Green",
+            "Yellow",
+            "Red",
             "Gray"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Red tag indicates Immediate priority - life-threatening but salvageable with prompt treatment."
         },
         {
           id: 5,
           question: "What respiratory rate indicates Immediate priority in START triage?",
           options: [
-            ">20",
             ">25",
+            ">35",
             ">30",
-            ">35"
+            ">20"
           ],
           correctAnswer: 2,
           explanation: "In START triage, respiratory rate >30 indicates Immediate (Red) priority."
@@ -1563,36 +1563,36 @@ export const emergencyResponseDiploma = {
           id: 7,
           question: "How many surge capacity levels are typically defined?",
           options: [
-            "3 levels",
-            "4 levels",
             "5 levels",
-            "6 levels"
+            "6 levels",
+            "4 levels",
+            "3 levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hospital surge capacity typically has 4 levels: conventional, contingency, crisis, and catastrophic."
         },
         {
           id: 8,
           question: "What does AVPU stand for in pediatric assessment?",
           options: [
-            "Alert, Voice, Pain, Unresponsive",
+            "Alert, Verbal, Physical, Unconscious",
             "Assessment, Vital signs, Pupils, Unconscious",
-            "Airway, Ventilation, Pulse, Unresponsive",
-            "Alert, Verbal, Physical, Unconscious"
+            "Alert, Voice, Pain, Unresponsive",
+            "Airway, Ventilation, Pulse, Unresponsive"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "AVPU stands for Alert, Voice, Pain, Unresponsive in neurological assessment."
         },
         {
           id: 9,
           question: "Which triage category is for unsalvageable patients?",
           options: [
+            "Gray",
             "Red",
             "Yellow",
-            "Green",
-            "Gray"
+            "Green"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Gray tag (Expectant) is for patients unsalvageable with current resources."
         },
         {
@@ -1600,21 +1600,21 @@ export const emergencyResponseDiploma = {
           question: "What is the first step in SALT triage?",
           options: [
             "Assess",
-            "Sort",
+            "Treatment/Transport",
             "Lifesaving interventions",
-            "Treatment/Transport"
+            "Sort"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sort is the first step in SALT triage - global sorting of walking, wave, and still victims."
         },
         {
           id: 11,
           question: "What capillary refill time indicates Immediate in START?",
           options: [
-            ">1 second",
+            ">4 seconds",
             ">2 seconds",
             ">3 seconds",
-            ">4 seconds"
+            ">1 second"
           ],
           correctAnswer: 1,
           explanation: "Capillary refill >2 seconds indicates Immediate (Red) priority in START triage."
@@ -1623,24 +1623,24 @@ export const emergencyResponseDiploma = {
           id: 12,
           question: "What is Level 1 MCI casualty range?",
           options: [
-            "2-10 casualties",
-            "10-100 casualties",
+            ">1000 casualties",
             "100-1000 casualties",
-            ">1000 casualties"
+            "10-100 casualties",
+            "2-10 casualties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Level I MCI involves 2-10 casualties, manageable by local resources."
         },
         {
           id: 13,
           question: "What does SAVE stand for in secondary triage?",
           options: [
-            "Secondary Assessment of Victim Endpoint",
             "Systematic Analysis of Vital Efficiency",
             "Severity Assessment for Victim Evaluation",
+            "Secondary Assessment of Victim Endpoint",
             "Secondary Allocation of Victim Emergency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SAVE stands for Secondary Assessment of Victim Endpoint for disaster settings."
         },
         {
@@ -1648,21 +1648,21 @@ export const emergencyResponseDiploma = {
           question: "What age group does JumpSTART apply to?",
           options: [
             "<5 years",
-            "<8 years or appears child-sized",
             "<12 years",
-            "<15 years"
+            "<15 years",
+            "<8 years or appears child-sized"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "JumpSTART applies to children <8 years or those who appear child-sized."
         },
         {
           id: 15,
           question: "What is crisis surge capacity?",
           options: [
+            "Level 3",
             "Level 0",
-            "Level 1",
             "Level 2",
-            "Level 3"
+            "Level 1"
           ],
           correctAnswer: 2,
           explanation: "Crisis capacity is Level 2 surge, involving significantly altered care standards."
@@ -1671,60 +1671,60 @@ export const emergencyResponseDiploma = {
           id: 16,
           question: "What is the walking wounded triage color?",
           options: [
-            "Red",
-            "Yellow",
             "Green",
-            "Gray"
+            "Yellow",
+            "Gray",
+            "Red"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Green tag is for walking wounded with minor injuries."
         },
         {
           id: 17,
           question: "What does RFID stand for in patient tracking?",
           options: [
+            "Remote Frequency Information",
             "Radio Frequency Identification",
             "Rapid Field Identification",
-            "Remote Frequency Information",
             "Radio Field Identification Device"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RFID stands for Radio Frequency Identification used in electronic patient tracking."
         },
         {
           id: 18,
           question: "Which MCI level requires international resources?",
           options: [
-            "Level I",
-            "Level II",
             "Level III",
-            "Level IV"
+            "Level I",
+            "Level IV",
+            "Level II"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Level IV MCI involves >1000 casualties requiring international resources."
         },
         {
           id: 19,
           question: "What is the black triage tag for?",
           options: [
-            "Immediate",
             "Delayed",
+            "Dead",
             "Expectant",
-            "Dead"
+            "Immediate"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Black tag indicates deceased patients with no signs of life."
         },
         {
           id: 20,
           question: "What respiratory rate in children indicates Immediate in JumpSTART?",
           options: [
-            "<10 or >30",
-            "<15 or >45",
+            "<25 or >35",
             "<20 or >40",
-            "<25 or >35"
+            "<10 or >30",
+            "<15 or >45"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "In JumpSTART, respiratory rate <15 or >45 indicates Immediate priority."
         }
       ]
@@ -2153,168 +2153,168 @@ export const emergencyResponseDiploma = {
           id: 1,
           question: "How many DOT hazard classes are there?",
           options: [
-            "7 classes",
-            "8 classes",
+            "10 classes",
             "9 classes",
-            "10 classes"
+            "8 classes",
+            "7 classes"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "There are 9 DOT hazard classes for classifying hazardous materials."
         },
         {
           id: 2,
           question: "What does UN stand for in hazardous materials identification?",
           options: [
-            "Universal Number",
-            "United Nations",
             "Unique Number",
-            "Universal Notation"
+            "Universal Notation",
+            "United Nations",
+            "Universal Number"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "UN stands for United Nations number, a four-digit code identifying hazardous materials."
         },
         {
           id: 3,
           question: "Which NFPA 704 color represents health hazard?",
           options: [
-            "Blue",
-            "Red",
             "Yellow",
-            "White"
+            "Blue",
+            "White",
+            "Red"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Blue represents health hazard in the NFPA 704 diamond warning system."
         },
         {
           id: 4,
           question: "What is the hot zone also called?",
           options: [
-            "Support Zone",
             "Contamination Reduction Zone",
             "Exclusion Zone",
-            "Safe Zone"
+            "Safe Zone",
+            "Support Zone"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The hot zone is also called the exclusion zone where actual contamination exists."
         },
         {
           id: 5,
           question: "What PPE level uses positive pressure SCBA and fully encapsulating suit?",
           options: [
-            "Level A",
-            "Level B",
             "Level C",
-            "Level D"
+            "Level D",
+            "Level B",
+            "Level A"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Level A PPE includes positive pressure SCBA and fully encapsulating suit for maximum protection."
         },
         {
           id: 6,
           question: "What does SCBA stand for?",
           options: [
-            "Self-Contained Breathing Apparatus",
-            "Self-Contained Breathing Aid",
+            "Standard Chemical Breathing Apparatus",
             "Supplemental Compressed Breathing Air",
-            "Standard Chemical Breathing Apparatus"
+            "Self-Contained Breathing Aid",
+            "Self-Contained Breathing Apparatus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SCBA stands for Self-Contained Breathing Apparatus for respiratory protection."
         },
         {
           id: 7,
           question: "How many stations are in a full decontamination line?",
           options: [
-            "6 stations",
             "8 stations",
+            "12 stations",
             "10 stations",
-            "12 stations"
+            "6 stations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A full decontamination line typically has 8 stations for thorough decontamination."
         },
         {
           id: 8,
           question: "What is the first station in decontamination?",
           options: [
+            "Personal Wash",
             "Gross Decontamination",
-            "Drop and Deposit",
             "Suit Wash",
-            "Personal Wash"
+            "Drop and Deposit"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Drop and Deposit is the first station where tools and equipment are removed."
         },
         {
           id: 9,
           question: "What does APR stand for?",
           options: [
+            "Air-Powered Respirator",
             "Air-Purifying Respirator",
             "Automatic Pressure Regulator",
-            "Air-Powered Respirator",
             "Automatic Purification Respirator"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "APR stands for Air-Purifying Respirator that filters contaminants from air."
         },
         {
           id: 10,
           question: "Which radiation type is stopped by paper or skin?",
           options: [
-            "Alpha",
             "Beta",
-            "Gamma",
-            "Neutron"
+            "Alpha",
+            "Neutron",
+            "Gamma"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Alpha radiation is stopped by paper or the outer layer of skin."
         },
         {
           id: 11,
           question: "What is the warm zone also called?",
           options: [
-            "Exclusion Zone",
-            "Contamination Reduction Zone",
+            "Safe Zone",
             "Support Zone",
-            "Safe Zone"
+            "Contamination Reduction Zone",
+            "Exclusion Zone"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The warm zone is also called the contamination reduction zone where decontamination occurs."
         },
         {
           id: 12,
           question: "Which DOT class includes flammable liquids?",
           options: [
-            "Class 1",
             "Class 2",
             "Class 3",
+            "Class 1",
             "Class 4"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Class 3 includes flammable liquids with flash point below 60.5°C."
         },
         {
           id: 13,
           question: "What PPE level is for cold zone operations only?",
           options: [
-            "Level A",
             "Level B",
-            "Level C",
-            "Level D"
+            "Level A",
+            "Level D",
+            "Level C"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Level D is basic work clothing for cold zone operations with no anticipated hazards."
         },
         {
           id: 14,
           question: "What does IDLH stand for?",
           options: [
-            "Immediate Danger to Life and Health",
             "Initial Danger Level High",
-            "Immediate Disaster Life Hazard",
-            "Initial Deployment Limited Hazard"
+            "Initial Deployment Limited Hazard",
+            "Immediate Danger to Life and Health",
+            "Immediate Disaster Life Hazard"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IDLH stands for Immediately Dangerous to Life or Health atmospheres."
         },
         {
@@ -2322,11 +2322,11 @@ export const emergencyResponseDiploma = {
           question: "Which decontamination method uses high pressure washing?",
           options: [
             "Brushing",
-            "Absorption",
             "Water Rinsing",
-            "Neutralization"
+            "Neutralization",
+            "Absorption"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Water rinsing, especially high pressure washing, is a physical decontamination method."
         },
         {
@@ -2334,11 +2334,11 @@ export const emergencyResponseDiploma = {
           question: "What is the measurement unit for radiation dose?",
           options: [
             "Roentgen",
-            "Rad",
             "Rem",
-            "All of the above"
+            "All of the above",
+            "Rad"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Roentgen measures exposure, rad measures absorbed dose, and rem measures biological effect."
         },
         {
@@ -2346,8 +2346,8 @@ export const emergencyResponseDiploma = {
           question: "What does HEPA stand for?",
           options: [
             "High Efficiency Particulate Air",
-            "High Energy Particle Absorption",
             "Hazardous Environment Protection Apparatus",
+            "High Energy Particle Absorption",
             "High Efficiency Protection Air"
           ],
           correctAnswer: 0,
@@ -2357,36 +2357,36 @@ export const emergencyResponseDiploma = {
           id: 18,
           question: "Which biological agent category is highest priority?",
           options: [
-            "Category A",
+            "Toxins",
             "Category B",
             "Category C",
-            "Toxins"
+            "Category A"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Category A biological agents are highest priority with high mortality and easy dissemination."
         },
         {
           id: 19,
           question: "What OSHA standard covers hazardous waste operations?",
           options: [
-            "1910.120",
             "1910.134",
+            "1910.1000",
             "1910.146",
-            "1910.1000"
+            "1910.120"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "OSHA 1910.120 covers Hazardous Waste Operations and Emergency Response."
         },
         {
           id: 20,
           question: "What is the typical SCBA air duration?",
           options: [
-            "15-30 minutes",
             "30-60 minutes",
-            "60-90 minutes",
-            "90-120 minutes"
+            "15-30 minutes",
+            "90-120 minutes",
+            "60-90 minutes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Typical SCBA units provide 30-60 minutes of breathing air depending on activity level."
         }
       ]
@@ -2801,35 +2801,35 @@ export const emergencyResponseDiploma = {
           question: "How many EOC activation levels are typically defined?",
           options: [
             "2 levels",
-            "3 levels",
             "4 levels",
-            "5 levels"
+            "5 levels",
+            "3 levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "EOCs typically have 3 activation levels: Level 3 (Monitoring), Level 2 (Partial), Level 1 (Full)."
         },
         {
           id: 2,
           question: "What does COP stand for in EOC operations?",
           options: [
+            "Centralized Oversight Program",
             "Common Operating Picture",
             "Central Operations Plan",
-            "Coordinated Operational Procedures",
-            "Centralized Oversight Program"
+            "Coordinated Operational Procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "COP stands for Common Operating Picture - shared situational awareness among all agencies."
         },
         {
           id: 3,
           question: "Which EOC type uses web-based collaboration tools?",
           options: [
-            "Fixed EOC",
+            "Hybrid EOC",
             "Mobile EOC",
-            "Virtual EOC",
-            "Hybrid EOC"
+            "Fixed EOC",
+            "Virtual EOC"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Virtual EOCs operate through online platforms and web-based collaboration tools."
         },
         {
@@ -2838,8 +2838,8 @@ export const emergencyResponseDiploma = {
           options: [
             "Emergency Support Functions",
             "Emergency Service Framework",
-            "Extended Support Facilities",
-            "Emergency System Functions"
+            "Emergency System Functions",
+            "Extended Support Facilities"
           ],
           correctAnswer: 0,
           explanation: "ESF stands for Emergency Support Functions for functional coordination in emergencies."
@@ -2848,10 +2848,10 @@ export const emergencyResponseDiploma = {
           id: 5,
           question: "What is Level 1 EOC activation?",
           options: [
-            "Monitoring",
+            "Deactivation",
             "Partial Activation",
             "Full Activation",
-            "Deactivation"
+            "Monitoring"
           ],
           correctAnswer: 2,
           explanation: "Level 1 is Full Activation with all positions staffed and 24/7 operations."
@@ -2861,9 +2861,9 @@ export const emergencyResponseDiploma = {
           question: "What does JIC stand for?",
           options: [
             "Joint Information Center",
+            "Joint Incident Coordination",
             "Jurisdictional Incident Command",
-            "Journalistic Information Center",
-            "Joint Incident Coordination"
+            "Journalistic Information Center"
           ],
           correctAnswer: 0,
           explanation: "JIC stands for Joint Information Center for coordinated public information management."
@@ -2872,12 +2872,12 @@ export const emergencyResponseDiploma = {
           id: 7,
           question: "Which EOC area handles media relations?",
           options: [
-            "Operations Area",
             "Planning Area",
+            "Public Information Area",
             "Logistics Area",
-            "Public Information Area"
+            "Operations Area"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Public Information Area handles media relations and public communications."
         },
         {
@@ -2885,8 +2885,8 @@ export const emergencyResponseDiploma = {
           question: "What does MAC Group stand for?",
           options: [
             "Multi-Agency Coordination Group",
-            "Major Action Committee",
             "Management Advisory Council",
+            "Major Action Committee",
             "Municipal Assistance Committee"
           ],
           correctAnswer: 0,
@@ -2896,118 +2896,118 @@ export const emergencyResponseDiploma = {
           id: 9,
           question: "Which technology provides large format information displays?",
           options: [
-            "Radio Consoles",
-            "Video Walls",
+            "Server Systems",
             "Telephone Systems",
-            "Server Systems"
+            "Video Walls",
+            "Radio Consoles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Video walls provide large format displays for situational awareness in EOCs."
         },
         {
           id: 10,
           question: "What does UPS stand for in EOC power systems?",
           options: [
-            "Uninterruptible Power Supply",
-            "Universal Power System",
             "Utility Power Source",
-            "Unified Power Service"
+            "Uninterruptible Power Supply",
+            "Unified Power Service",
+            "Universal Power System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "UPS stands for Uninterruptible Power Supply for backup power in EOCs."
         },
         {
           id: 11,
           question: "How many Emergency Support Functions are in the national framework?",
           options: [
-            "10 ESFs",
             "15 ESFs",
-            "20 ESFs",
-            "25 ESFs"
+            "25 ESFs",
+            "10 ESFs",
+            "20 ESFs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The national framework has 15 Emergency Support Functions (ESFs)."
         },
         {
           id: 12,
           question: "Which EOC area handles resource management?",
           options: [
-            "Command Area",
             "Operations Area",
             "Planning Area",
-            "Logistics Area"
+            "Logistics Area",
+            "Command Area"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Logistics Area handles resource management, facilities, and support services."
         },
         {
           id: 13,
           question: "What is Level 3 EOC activation?",
           options: [
-            "Full Activation",
             "Partial Activation",
-            "Monitoring",
-            "Standby"
+            "Standby",
+            "Full Activation",
+            "Monitoring"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Level 3 is Monitoring with minimal staff for situation awareness only."
         },
         {
           id: 14,
           question: "What does GIS stand for?",
           options: [
+            "Geospatial Integration Software",
             "Geographic Information System",
             "Global Information Service",
-            "Government Intelligence System",
-            "Geospatial Integration Software"
+            "Government Intelligence System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "GIS stands for Geographic Information System for spatial data analysis and mapping."
         },
         {
           id: 15,
           question: "Which EOC type combines fixed and mobile capabilities?",
           options: [
-            "Fixed EOC",
+            "Hybrid EOC",
             "Mobile EOC",
             "Virtual EOC",
-            "Hybrid EOC"
+            "Fixed EOC"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Hybrid EOCs combine fixed facility operations with mobile and virtual components."
         },
         {
           id: 16,
           question: "What does CCTV stand for?",
           options: [
-            "Closed Circuit Television",
-            "Central Control Television",
             "Continuous Camera Tracking Video",
-            "Computer Controlled Television"
+            "Closed Circuit Television",
+            "Computer Controlled Television",
+            "Central Control Television"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CCTV stands for Closed Circuit Television for security and surveillance in EOCs."
         },
         {
           id: 17,
           question: "Which EOC area handles cost tracking?",
           options: [
-            "Operations Area",
-            "Planning Area",
             "Logistics Area",
-            "Finance/Administration Area"
+            "Finance/Administration Area",
+            "Operations Area",
+            "Planning Area"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Finance/Administration Area handles cost tracking and financial management."
         },
         {
           id: 18,
           question: "What is the purpose of a shift change briefing?",
           options: [
-            "Social gathering",
+            "Training session",
             "Comprehensive situation update",
             "Equipment inspection",
-            "Training session"
+            "Social gathering"
           ],
           correctAnswer: 1,
           explanation: "Shift change briefings provide comprehensive situation updates for incoming staff."
@@ -3016,12 +3016,12 @@ export const emergencyResponseDiploma = {
           id: 19,
           question: "What does IoT stand for in emerging technologies?",
           options: [
-            "Internet of Things",
-            "Integrated Operations Technology",
             "International Operations Team",
-            "Information Operations Task"
+            "Integrated Operations Technology",
+            "Information Operations Task",
+            "Internet of Things"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IoT stands for Internet of Things - network of connected devices and sensors."
         },
         {
@@ -3029,11 +3029,11 @@ export const emergencyResponseDiploma = {
           question: "Which EOC area handles situation analysis?",
           options: [
             "Command Area",
-            "Operations Area",
             "Planning/Intelligence Area",
-            "Public Information Area"
+            "Public Information Area",
+            "Operations Area"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Planning/Intelligence Area handles situation analysis, forecasting, and research."
         }
       ]
@@ -3470,10 +3470,10 @@ export const emergencyResponseDiploma = {
           id: 1,
           question: "How many clusters are in the UN humanitarian system?",
           options: [
-            "8 clusters",
+            "17 clusters",
             "11 clusters",
             "14 clusters",
-            "17 clusters"
+            "8 clusters"
           ],
           correctAnswer: 1,
           explanation: "The UN cluster system has 11 sector-based coordination groups for humanitarian response."
@@ -3482,33 +3482,33 @@ export const emergencyResponseDiploma = {
           id: 2,
           question: "What does OSOCC stand for?",
           options: [
-            "On-Site Operations Coordination Centre",
             "Operational Support and Coordination Center",
+            "On-Scene Operations Command Center",
             "Overseas Security Operations Command",
-            "On-Scene Operations Command Center"
+            "On-Site Operations Coordination Centre"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "OSOCC stands for On-Site Operations Coordination Centre for field coordination."
         },
         {
           id: 3,
           question: "What does INSARAG stand for?",
           options: [
-            "International Search and Rescue Advisory Group",
-            "International National Search and Rescue Agency",
             "Integrated National Search and Rescue Guidelines",
-            "International Standards for Rescue and Aid Groups"
+            "International Standards for Rescue and Aid Groups",
+            "International Search and Rescue Advisory Group",
+            "International National Search and Rescue Agency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "INSARAG stands for International Search and Rescue Advisory Group."
         },
         {
           id: 4,
           question: "How many INSARAG team classifications are there?",
           options: [
-            "2 classifications",
-            "3 classifications",
             "4 classifications",
+            "3 classifications",
+            "2 classifications",
             "5 classifications"
           ],
           correctAnswer: 1,
@@ -3520,8 +3520,8 @@ export const emergencyResponseDiploma = {
           options: [
             "Complex Humanitarian Emergency",
             "Critical Humanitarian Event",
-            "Coordinated Health Emergency",
-            "Comprehensive Humanitarian Effort"
+            "Comprehensive Humanitarian Effort",
+            "Coordinated Health Emergency"
           ],
           correctAnswer: 0,
           explanation: "CHE stands for Complex Humanitarian Emergency involving conflict and disaster."
@@ -3530,9 +3530,9 @@ export const emergencyResponseDiploma = {
           id: 6,
           question: "Which humanitarian principle means aid based on need alone?",
           options: [
-            "Humanity",
-            "Impartiality",
             "Neutrality",
+            "Impartiality",
+            "Humanity",
             "Independence"
           ],
           correctAnswer: 1,
@@ -3542,84 +3542,84 @@ export const emergencyResponseDiploma = {
           id: 7,
           question: "What does Sphere refer to in humanitarian standards?",
           options: [
-            "Sphere Handbook of humanitarian standards",
             "Special Humanitarian Emergency Response",
+            "Sphere Handbook of humanitarian standards",
             "Strategic Planning for Humanitarian Efforts",
             "Systematic Protocol for Humanitarian Engagement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sphere refers to the Sphere Handbook containing humanitarian standards and guidelines."
         },
         {
           id: 8,
           question: "What does IHR stand for?",
           options: [
-            "International Health Regulations",
+            "International Health Requirements",
             "International Humanitarian Response",
             "Integrated Health Resources",
-            "International Health Requirements"
+            "International Health Regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IHR stands for International Health Regulations governing global health security."
         },
         {
           id: 9,
           question: "What does PHEIC stand for?",
           options: [
-            "Public Health Emergency of International Concern",
+            "Pandemic Health Event of International Concern",
             "Pandemic Health Emergency International Committee",
             "Public Health Emergency International Center",
-            "Pandemic Health Event of International Concern"
+            "Public Health Emergency of International Concern"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PHEIC stands for Public Health Emergency of International Concern under IHR."
         },
         {
           id: 10,
           question: "What does CERF stand for?",
           options: [
-            "Central Emergency Response Fund",
             "Coordinated Emergency Relief Fund",
-            "Crisis Emergency Response Fund",
-            "Central Emergency Relief Foundation"
+            "Central Emergency Relief Foundation",
+            "Central Emergency Response Fund",
+            "Crisis Emergency Response Fund"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CERF stands for Central Emergency Response Fund for rapid humanitarian funding."
         },
         {
           id: 11,
           question: "How many Geneva Conventions are there?",
           options: [
-            "2 conventions",
             "3 conventions",
             "4 conventions",
+            "2 conventions",
             "5 conventions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "There are 4 Geneva Conventions forming the core of international humanitarian law."
         },
         {
           id: 12,
           question: "What does WASH stand for?",
           options: [
-            "Water, Sanitation, Hygiene",
-            "Water and Sanitation Health",
+            "Water Aid and Sanitation Housing",
             "Water Access and Sanitation Help",
-            "Water Aid and Sanitation Housing"
+            "Water, Sanitation, Hygiene",
+            "Water and Sanitation Health"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "WASH stands for Water, Sanitation, and Hygiene in humanitarian response."
         },
         {
           id: 13,
           question: "What does UNDAC stand for?",
           options: [
-            "UN Disaster Assessment and Coordination",
             "UN Development Assistance Committee",
             "UN Disaster Aid Coordination",
-            "UN Development and Coordination"
+            "UN Development and Coordination",
+            "UN Disaster Assessment and Coordination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "UNDAC stands for UN Disaster Assessment and Coordination team system."
         },
         {
@@ -3628,8 +3628,8 @@ export const emergencyResponseDiploma = {
           options: [
             "No forced return to danger",
             "No refusal of aid",
-            "No restriction of movement",
-            "No reduction of assistance"
+            "No reduction of assistance",
+            "No restriction of movement"
           ],
           correctAnswer: 0,
           explanation: "Non-refoulement means no forced return of refugees to places where their life would be threatened."
@@ -3638,10 +3638,10 @@ export const emergencyResponseDiploma = {
           id: 15,
           question: "What does Virtual OSOCC provide?",
           options: [
-            "Physical coordination center",
-            "Online coordination platform",
             "Mobile coordination vehicle",
-            "Temporary coordination tent"
+            "Online coordination platform",
+            "Temporary coordination tent",
+            "Physical coordination center"
           ],
           correctAnswer: 1,
           explanation: "Virtual OSOCC provides an online platform for international coordination and information sharing."
@@ -3650,12 +3650,12 @@ export const emergencyResponseDiploma = {
           id: 16,
           question: "What are the four Geneva Convention categories?",
           options: [
+            "Red, Blue, Green, Yellow",
             "Soldiers, Civilians, Medical, Cultural",
             "Land, Sea, Air, Space",
-            "First, Second, Third, Fourth",
-            "Red, Blue, Green, Yellow"
+            "First, Second, Third, Fourth"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The Geneva Conventions are numbered First through Fourth, each covering specific protections."
         },
         {
@@ -3663,11 +3663,11 @@ export const emergencyResponseDiploma = {
           question: "What does the Logistics Cluster provide?",
           options: [
             "Only funding",
-            "Only medical supplies",
             "Common logistics services",
+            "Only medical supplies",
             "Only transportation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The Logistics Cluster provides common logistics services for humanitarian organizations."
         },
         {
@@ -3675,21 +3675,21 @@ export const emergencyResponseDiploma = {
           question: "What does the term 'customary law' mean in IHL?",
           options: [
             "Written treaties only",
-            "Established practice as law",
             "Military regulations only",
+            "Established practice as law",
             "National laws only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Customary international humanitarian law refers to established practice accepted as law."
         },
         {
           id: 19,
           question: "What does One Health approach consider?",
           options: [
+            "Only environmental health",
             "Only human health",
-            "Only animal health",
             "Human, animal, and environmental health",
-            "Only environmental health"
+            "Only animal health"
           ],
           correctAnswer: 2,
           explanation: "One Health considers the interconnected health of humans, animals, and the environment."
@@ -3699,11 +3699,11 @@ export const emergencyResponseDiploma = {
           question: "What is the Sendai Framework?",
           options: [
             "Health framework",
-            "Disaster risk reduction framework",
+            "Education framework",
             "Economic development framework",
-            "Education framework"
+            "Disaster risk reduction framework"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Sendai Framework is a global framework for disaster risk reduction 2015-2030."
         }
       ]
@@ -3723,10 +3723,10 @@ export const emergencyResponseDiploma = {
         id: 1,
         question: "What is the optimal span of control in ICS?",
         options: [
-          "1-2 subordinates",
+          "13-15 subordinates",
           "3-7 subordinates",
-          "8-12 subordinates",
-          "13-15 subordinates"
+          "1-2 subordinates",
+          "8-12 subordinates"
         ],
         correctAnswer: 1,
         explanation: "The optimal span of control in ICS is 3-7 subordinates per supervisor.",
@@ -3736,12 +3736,12 @@ export const emergencyResponseDiploma = {
         id: 2,
         question: "How many main sections are in the General Staff?",
         options: [
-          "3 sections",
           "4 sections",
           "5 sections",
-          "6 sections"
+          "6 sections",
+          "3 sections"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The General Staff has 4 main sections: Operations, Planning, Logistics, Finance/Administration.",
         module: 1
       },
@@ -3751,8 +3751,8 @@ export const emergencyResponseDiploma = {
         options: [
           "Incident Action Plan",
           "Initial Assessment Procedure",
-          "Immediate Action Protocol",
-          "Incident Assignment Process"
+          "Incident Assignment Process",
+          "Immediate Action Protocol"
         ],
         correctAnswer: 0,
         explanation: "IAP stands for Incident Action Plan, the central planning document in ICS.",
@@ -3763,9 +3763,9 @@ export const emergencyResponseDiploma = {
         question: "How many resource types are in the typing system?",
         options: [
           "3 types",
-          "4 types",
+          "6 types",
           "5 types",
-          "6 types"
+          "4 types"
         ],
         correctAnswer: 2,
         explanation: "There are 5 resource types (I-V) in the national resource typing system.",
@@ -3776,11 +3776,11 @@ export const emergencyResponseDiploma = {
         question: "What does MACS stand for?",
         options: [
           "Multi-Agency Command System",
-          "Multi-Agency Coordination Systems",
           "Major Agency Coordination Strategy",
-          "Multiple Area Command Structure"
+          "Multiple Area Command Structure",
+          "Multi-Agency Coordination Systems"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "MACS stands for Multi-Agency Coordination Systems for higher-level coordination.",
         module: 1
       },
@@ -3788,12 +3788,12 @@ export const emergencyResponseDiploma = {
         id: 6,
         question: "Which ICS form is the Incident Briefing?",
         options: [
-          "ICS 201",
-          "ICS 202",
           "ICS 203",
-          "ICS 204"
+          "ICS 204",
+          "ICS 201",
+          "ICS 202"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "ICS Form 201 is the Incident Briefing form.",
         module: 1
       },
@@ -3801,12 +3801,12 @@ export const emergencyResponseDiploma = {
         id: 7,
         question: "What does EMAC stand for?",
         options: [
-          "Emergency Management Assistance Compact",
           "Emergency Mutual Aid Contract",
           "Emergency Medical Assistance Coordination",
-          "Emergency Management Agency Cooperation"
+          "Emergency Management Agency Cooperation",
+          "Emergency Management Assistance Compact"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "EMAC stands for Emergency Management Assistance Compact for state-to-state mutual aid.",
         module: 1
       },
@@ -3817,11 +3817,11 @@ export const emergencyResponseDiploma = {
         question: "How many rescue complexity levels are typically defined?",
         options: [
           "3 levels",
-          "4 levels",
           "5 levels",
+          "4 levels",
           "6 levels"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "There are typically 5 levels of rescue complexity from basic to catastrophic.",
         module: 2
       },
@@ -3829,12 +3829,12 @@ export const emergencyResponseDiploma = {
         id: 9,
         question: "What does US&R stand for?",
         options: [
-          "Urban Search and Rescue",
-          "United States Rescue",
           "Universal Search and Recovery",
-          "Urban Safety and Response"
+          "Urban Safety and Response",
+          "United States Rescue",
+          "Urban Search and Rescue"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "US&R stands for Urban Search and Rescue.",
         module: 2
       },
@@ -3844,8 +3844,8 @@ export const emergencyResponseDiploma = {
         options: [
           "Throw",
           "Reach",
-          "Row",
-          "Go"
+          "Go",
+          "Row"
         ],
         correctAnswer: 1,
         explanation: "Reach is the first and safest option in swift water rescue.",
@@ -3855,10 +3855,10 @@ export const emergencyResponseDiploma = {
         id: 11,
         question: "What is the minimum training hours for confined space rescue?",
         options: [
+          "40 hours",
           "8 hours",
-          "16 hours",
           "24 hours",
-          "40 hours"
+          "16 hours"
         ],
         correctAnswer: 2,
         explanation: "Confined space rescue teams require minimum 24 hours of initial training.",
@@ -3869,11 +3869,11 @@ export const emergencyResponseDiploma = {
         question: "What angle defines high angle rope rescue?",
         options: [
           "Greater than 30 degrees",
-          "Greater than 45 degrees",
           "Greater than 60 degrees",
-          "Vertical only"
+          "Vertical only",
+          "Greater than 45 degrees"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "High angle rope rescue involves angles greater than 45 degrees.",
         module: 2
       },
@@ -3882,8 +3882,8 @@ export const emergencyResponseDiploma = {
         question: "What does IDLH stand for?",
         options: [
           "Immediate Danger to Life and Health",
-          "Initial Danger Level High",
           "Immediate Disaster Life Hazard",
+          "Initial Danger Level High",
           "Initial Deployment Limited Hazard"
         ],
         correctAnswer: 0,
@@ -3894,12 +3894,12 @@ export const emergencyResponseDiploma = {
         id: 14,
         question: "What does INSARAG stand for?",
         options: [
-          "International Search and Rescue Advisory Group",
-          "International National Search and Rescue Agency",
           "Integrated National Search and Rescue Guidelines",
-          "International Standards for Rescue and Aid Groups"
+          "International National Search and Rescue Agency",
+          "International Standards for Rescue and Aid Groups",
+          "International Search and Rescue Advisory Group"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "INSARAG stands for International Search and Rescue Advisory Group.",
         module: 2
       },
@@ -3909,12 +3909,12 @@ export const emergencyResponseDiploma = {
         id: 15,
         question: "What does MCI stand for?",
         options: [
-          "Mass Casualty Incident",
-          "Medical Crisis Intervention",
+          "Multiple Casualty Intervention",
           "Major Casualty Incident",
-          "Multiple Casualty Intervention"
+          "Medical Crisis Intervention",
+          "Mass Casualty Incident"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "MCI stands for Mass Casualty Incident.",
         module: 3
       },
@@ -3922,12 +3922,12 @@ export const emergencyResponseDiploma = {
         id: 16,
         question: "What does SALT stand for in triage?",
         options: [
-          "Simple Assessment and Life Treatment",
           "Sort, Assess, Lifesaving interventions, Treatment/Transport",
+          "Simple Assessment and Life Treatment",
           "Systematic Approach to Life Threatening",
           "Severity Assessment and Life Triage"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "SALT stands for Sort, Assess, Lifesaving interventions, Treatment/Transport.",
         module: 3
       },
@@ -3935,12 +3935,12 @@ export const emergencyResponseDiploma = {
         id: 17,
         question: "What triage color indicates life-threatening injuries?",
         options: [
-          "Red",
+          "Gray",
           "Yellow",
-          "Green",
-          "Gray"
+          "Red",
+          "Green"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Red tag indicates Immediate priority - life-threatening but salvageable.",
         module: 3
       },
@@ -3949,9 +3949,9 @@ export const emergencyResponseDiploma = {
         question: "What respiratory rate indicates Immediate in START?",
         options: [
           ">20",
-          ">25",
+          ">35",
           ">30",
-          ">35"
+          ">25"
         ],
         correctAnswer: 2,
         explanation: "Respiratory rate >30 indicates Immediate priority in START triage.",
@@ -3961,12 +3961,12 @@ export const emergencyResponseDiploma = {
         id: 19,
         question: "What is JumpSTART designed for?",
         options: [
-          "Elderly patients",
-          "Pediatric patients",
           "Trauma patients",
-          "All patients"
+          "All patients",
+          "Elderly patients",
+          "Pediatric patients"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "JumpSTART is specifically designed for pediatric triage.",
         module: 3
       },
@@ -3974,9 +3974,9 @@ export const emergencyResponseDiploma = {
         id: 20,
         question: "How many surge capacity levels are typically defined?",
         options: [
-          "3 levels",
-          "4 levels",
           "5 levels",
+          "4 levels",
+          "3 levels",
           "6 levels"
         ],
         correctAnswer: 1,
@@ -3987,12 +3987,12 @@ export const emergencyResponseDiploma = {
         id: 21,
         question: "What does AVPU stand for?",
         options: [
+          "Airway, Ventilation, Pulse, Unresponsive",
           "Alert, Voice, Pain, Unresponsive",
           "Assessment, Vital signs, Pupils, Unconscious",
-          "Airway, Ventilation, Pulse, Unresponsive",
           "Alert, Verbal, Physical, Unconscious"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "AVPU stands for Alert, Voice, Pain, Unresponsive in neurological assessment.",
         module: 3
       },
@@ -4003,11 +4003,11 @@ export const emergencyResponseDiploma = {
         question: "How many DOT hazard classes are there?",
         options: [
           "7 classes",
-          "8 classes",
           "9 classes",
+          "8 classes",
           "10 classes"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "There are 9 DOT hazard classes for classifying hazardous materials.",
         module: 4
       },
@@ -4015,12 +4015,12 @@ export const emergencyResponseDiploma = {
         id: 23,
         question: "What does UN stand for in hazmat identification?",
         options: [
-          "Universal Number",
           "United Nations",
           "Unique Number",
+          "Universal Number",
           "Universal Notation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "UN stands for United Nations number identifying hazardous materials.",
         module: 4
       },
@@ -4028,12 +4028,12 @@ export const emergencyResponseDiploma = {
         id: 24,
         question: "What PPE level uses fully encapsulating suit?",
         options: [
-          "Level A",
           "Level B",
+          "Level D",
           "Level C",
-          "Level D"
+          "Level A"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Level A PPE includes fully encapsulating suit for maximum protection.",
         module: 4
       },
@@ -4041,12 +4041,12 @@ export const emergencyResponseDiploma = {
         id: 25,
         question: "What does SCBA stand for?",
         options: [
-          "Self-Contained Breathing Apparatus",
-          "Self-Contained Breathing Aid",
           "Supplemental Compressed Breathing Air",
-          "Standard Chemical Breathing Apparatus"
+          "Self-Contained Breathing Apparatus",
+          "Standard Chemical Breathing Apparatus",
+          "Self-Contained Breathing Aid"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "SCBA stands for Self-Contained Breathing Apparatus.",
         module: 4
       },
@@ -4054,12 +4054,12 @@ export const emergencyResponseDiploma = {
         id: 26,
         question: "How many decontamination stations are typical?",
         options: [
+          "10 stations",
           "6 stations",
           "8 stations",
-          "10 stations",
           "12 stations"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "A full decontamination line typically has 8 stations.",
         module: 4
       },
@@ -4067,12 +4067,12 @@ export const emergencyResponseDiploma = {
         id: 27,
         question: "What does APR stand for?",
         options: [
-          "Air-Purifying Respirator",
-          "Automatic Pressure Regulator",
+          "Automatic Purification Respirator",
           "Air-Powered Respirator",
-          "Automatic Purification Respirator"
+          "Automatic Pressure Regulator",
+          "Air-Purifying Respirator"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "APR stands for Air-Purifying Respirator.",
         module: 4
       },
@@ -4082,12 +4082,12 @@ export const emergencyResponseDiploma = {
         id: 28,
         question: "How many EOC activation levels are typically defined?",
         options: [
-          "2 levels",
-          "3 levels",
+          "5 levels",
           "4 levels",
-          "5 levels"
+          "2 levels",
+          "3 levels"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "EOCs typically have 3 activation levels.",
         module: 5
       },
@@ -4095,12 +4095,12 @@ export const emergencyResponseDiploma = {
         id: 29,
         question: "What does COP stand for?",
         options: [
-          "Common Operating Picture",
           "Central Operations Plan",
           "Coordinated Operational Procedures",
+          "Common Operating Picture",
           "Centralized Oversight Program"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "COP stands for Common Operating Picture.",
         module: 5
       },
@@ -4109,9 +4109,9 @@ export const emergencyResponseDiploma = {
         question: "What does ESF stand for?",
         options: [
           "Emergency Support Functions",
-          "Emergency Service Framework",
           "Extended Support Facilities",
-          "Emergency System Functions"
+          "Emergency System Functions",
+          "Emergency Service Framework"
         ],
         correctAnswer: 0,
         explanation: "ESF stands for Emergency Support Functions.",
@@ -4121,12 +4121,12 @@ export const emergencyResponseDiploma = {
         id: 31,
         question: "What is Level 1 EOC activation?",
         options: [
+          "Full Activation",
           "Monitoring",
           "Partial Activation",
-          "Full Activation",
           "Deactivation"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Level 1 is Full Activation with all positions staffed.",
         module: 5
       },
@@ -4134,12 +4134,12 @@ export const emergencyResponseDiploma = {
         id: 32,
         question: "What does JIC stand for?",
         options: [
+          "Joint Incident Coordination",
           "Joint Information Center",
           "Jurisdictional Incident Command",
-          "Journalistic Information Center",
-          "Joint Incident Coordination"
+          "Journalistic Information Center"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "JIC stands for Joint Information Center.",
         module: 5
       },
@@ -4147,12 +4147,12 @@ export const emergencyResponseDiploma = {
         id: 33,
         question: "What does MAC Group stand for?",
         options: [
-          "Multi-Agency Coordination Group",
           "Major Action Committee",
+          "Multi-Agency Coordination Group",
           "Management Advisory Council",
           "Municipal Assistance Committee"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "MAC Group stands for Multi-Agency Coordination Group.",
         module: 5
       },
@@ -4160,12 +4160,12 @@ export const emergencyResponseDiploma = {
         id: 34,
         question: "What does GIS stand for?",
         options: [
-          "Geographic Information System",
           "Global Information Service",
           "Government Intelligence System",
+          "Geographic Information System",
           "Geospatial Integration Software"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "GIS stands for Geographic Information System.",
         module: 5
       },
@@ -4175,12 +4175,12 @@ export const emergencyResponseDiploma = {
         id: 35,
         question: "How many clusters are in the UN humanitarian system?",
         options: [
-          "8 clusters",
           "11 clusters",
+          "17 clusters",
           "14 clusters",
-          "17 clusters"
+          "8 clusters"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The UN cluster system has 11 sector-based coordination groups.",
         module: 6
       },
@@ -4188,12 +4188,12 @@ export const emergencyResponseDiploma = {
         id: 36,
         question: "What does OSOCC stand for?",
         options: [
-          "On-Site Operations Coordination Centre",
+          "On-Scene Operations Command Center",
           "Operational Support and Coordination Center",
           "Overseas Security Operations Command",
-          "On-Scene Operations Command Center"
+          "On-Site Operations Coordination Centre"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "OSOCC stands for On-Site Operations Coordination Centre.",
         module: 6
       },
@@ -4202,9 +4202,9 @@ export const emergencyResponseDiploma = {
         question: "What does INSARAG stand for?",
         options: [
           "International Search and Rescue Advisory Group",
+          "International Standards for Rescue and Aid Groups",
           "International National Search and Rescue Agency",
-          "Integrated National Search and Rescue Guidelines",
-          "International Standards for Rescue and Aid Groups"
+          "Integrated National Search and Rescue Guidelines"
         ],
         correctAnswer: 0,
         explanation: "INSARAG stands for International Search and Rescue Advisory Group.",
@@ -4216,8 +4216,8 @@ export const emergencyResponseDiploma = {
         options: [
           "Complex Humanitarian Emergency",
           "Critical Humanitarian Event",
-          "Coordinated Health Emergency",
-          "Comprehensive Humanitarian Effort"
+          "Comprehensive Humanitarian Effort",
+          "Coordinated Health Emergency"
         ],
         correctAnswer: 0,
         explanation: "CHE stands for Complex Humanitarian Emergency.",
@@ -4227,12 +4227,12 @@ export const emergencyResponseDiploma = {
         id: 39,
         question: "What does IHR stand for?",
         options: [
-          "International Health Regulations",
-          "International Humanitarian Response",
+          "International Health Requirements",
           "Integrated Health Resources",
-          "International Health Requirements"
+          "International Humanitarian Response",
+          "International Health Regulations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "IHR stands for International Health Regulations.",
         module: 6
       },
@@ -4241,9 +4241,9 @@ export const emergencyResponseDiploma = {
         question: "What does CERF stand for?",
         options: [
           "Central Emergency Response Fund",
+          "Central Emergency Relief Foundation",
           "Coordinated Emergency Relief Fund",
-          "Crisis Emergency Response Fund",
-          "Central Emergency Relief Foundation"
+          "Crisis Emergency Response Fund"
         ],
         correctAnswer: 0,
         explanation: "CERF stands for Central Emergency Response Fund.",

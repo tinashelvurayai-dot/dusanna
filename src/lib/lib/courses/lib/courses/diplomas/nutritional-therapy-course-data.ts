@@ -311,9 +311,9 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           id: 1,
           question: "What is the first step in the nutritional therapy process?",
           options: [
-            "Immediate dietary intervention",
-            "Initial consultation with comprehensive health history",
             "Laboratory testing",
+            "Initial consultation with comprehensive health history",
+            "Immediate dietary intervention",
             "Supplement prescription"
           ],
           correctAnswer: 1,
@@ -323,9 +323,9 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           id: 2,
           question: "What does a food frequency questionnaire assess?",
           options: [
-            "Only current meal",
-            "Usual intake patterns over extended time period",
             "Only supplement use",
+            "Usual intake patterns over extended time period",
+            "Only current meal",
             "Only water intake"
           ],
           correctAnswer: 1,
@@ -335,24 +335,24 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           id: 3,
           question: "What laboratory test assesses inflammatory markers?",
           options: [
+            "Only lipid profile",
             "Only basic metabolic panel",
-            "CRP (C-reactive protein) and ESR (erythrocyte sedimentation rate)",
             "Only thyroid panel",
-            "Only lipid profile"
+            "CRP (C-reactive protein) and ESR (erythrocyte sedimentation rate)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CRP and ESR are common inflammatory markers used to assess systemic inflammation levels."
         },
         {
           id: 4,
           question: "What physical assessment includes BMI and waist circumference?",
           options: [
-            "Only skin assessment",
             "Anthropometric measurements for nutritional status",
-            "Only neurological assessment",
-            "Only eye assessment"
+            "Only eye assessment",
+            "Only skin assessment",
+            "Only neurological assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Anthropometric measurements include BMI, waist circumference, and body composition assessments."
         },
         {
@@ -360,35 +360,35 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           question: "What pattern involves post-meal drowsiness and energy crashes?",
           options: [
             "Only sleep patterns",
+            "Only pain patterns",
             "Energy patterns indicating potential blood sugar regulation issues",
-            "Only mood patterns",
-            "Only pain patterns"
+            "Only mood patterns"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Post-meal drowsiness and energy crashes often indicate blood sugar regulation and metabolic issues."
         },
         {
           id: 6,
           question: "What biochemical pathway involves folate and B12 metabolism?",
           options: [
-            "Only Krebs cycle",
             "Methylation cycle for homocysteine metabolism",
             "Only detoxification pathways",
-            "Only neurotransmitter synthesis"
+            "Only neurotransmitter synthesis",
+            "Only Krebs cycle"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The methylation cycle involves folate, B12, and homocysteine metabolism crucial for many body functions."
         },
         {
           id: 7,
           question: "What imbalance involves free radical damage versus antioxidant capacity?",
           options: [
-            "Only acid-base imbalance",
-            "Oxidative stress indicating antioxidant system issues",
+            "Only hormonal imbalance",
             "Only electrolyte imbalance",
-            "Only hormonal imbalance"
+            "Only acid-base imbalance",
+            "Oxidative stress indicating antioxidant system issues"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Oxidative stress represents imbalance between free radical production and antioxidant defense capacity."
         },
         {
@@ -396,35 +396,35 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           question: "What assessment tool evaluates emotional eating patterns?",
           options: [
             "Only laboratory tests",
-            "Eating behavior assessments for emotional eating",
             "Only food frequency questionnaires",
-            "Only anthropometric measurements"
+            "Only anthropometric measurements",
+            "Eating behavior assessments for emotional eating"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Eating behavior assessments specifically evaluate emotional eating, binge eating, and other behavioral patterns."
         },
         {
           id: 9,
           question: "What involves identifying connections between different assessment areas?",
           options: [
-            "Only single symptom analysis",
             "Pattern recognition in integrated assessment",
-            "Only laboratory interpretation",
-            "Only dietary analysis"
+            "Only dietary analysis",
+            "Only single symptom analysis",
+            "Only laboratory interpretation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pattern recognition involves identifying connections between symptoms, lab results, and dietary patterns."
         },
         {
           id: 10,
           question: "What ethical consideration involves protecting client information?",
           options: [
-            "Only informed consent",
-            "Confidentiality of health information",
+            "Only scope of practice",
             "Only cultural competence",
-            "Only scope of practice"
+            "Confidentiality of health information",
+            "Only informed consent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Confidentiality involves protecting all client health information according to privacy regulations and ethical standards."
         },
         {
@@ -433,8 +433,8 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           options: [
             "Only medical history",
             "Family history for genetic patterns",
-            "Only social history",
-            "Only dietary history"
+            "Only dietary history",
+            "Only social history"
           ],
           correctAnswer: 1,
           explanation: "Family history assesses genetic predispositions and familial patterns of health conditions."
@@ -444,23 +444,23 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           question: "What analyzes gut bacteria composition?",
           options: [
             "Only complete blood count",
+            "Only thyroid panel",
             "Microbiome analysis for gut bacteria diversity",
-            "Only liver function tests",
-            "Only thyroid panel"
+            "Only liver function tests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Microbiome analysis assesses the composition and diversity of gut bacteria through specialized testing."
         },
         {
           id: 13,
           question: "What skin assessment indicates potential nutritional issues?",
           options: [
+            "Only elasticity",
             "Only skin color",
-            "Hair, nails, texture, moisture, and lesions",
             "Only temperature",
-            "Only elasticity"
+            "Hair, nails, texture, moisture, and lesions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Skin, hair, and nail assessment can reveal nutritional deficiencies through texture, strength, and appearance changes."
         },
         {
@@ -479,36 +479,36 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           id: 15,
           question: "What represents Phase I and II liver function issues?",
           options: [
+            "Only inflammatory imbalances",
             "Only oxidative stress",
             "Detoxification capacity imbalances",
-            "Only inflammatory imbalances",
             "Only hormonal imbalances"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Detoxification capacity issues involve imbalances between Phase I and II liver detoxification pathways."
         },
         {
           id: 16,
           question: "What assesses motivation for dietary changes?",
           options: [
-            "Only food diaries",
-            "Readiness for change assessment",
+            "Only physical assessments",
             "Only laboratory tests",
-            "Only physical assessments"
+            "Only food diaries",
+            "Readiness for change assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Readiness for change assessment evaluates client motivation and preparedness for making dietary changes."
         },
         {
           id: 17,
           question: "What looks beyond symptoms to underlying causes?",
           options: [
-            "Only symptom management",
-            "Root cause analysis in nutritional assessment",
             "Only laboratory interpretation",
-            "Only dietary analysis"
+            "Only symptom management",
+            "Only dietary analysis",
+            "Root cause analysis in nutritional assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Root cause analysis seeks to identify underlying nutritional and metabolic causes rather than just managing symptoms."
         },
         {
@@ -516,35 +516,35 @@ Advanced nutritional assessment forms the foundation for effective, personalized
           question: "What involves respecting diverse backgrounds?",
           options: [
             "Only informed consent",
+            "Only scope of practice",
             "Cultural competence in nutritional assessment",
-            "Only confidentiality",
-            "Only scope of practice"
+            "Only confidentiality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cultural competence involves respecting and adapting to diverse cultural backgrounds in assessment and recommendations."
         },
         {
           id: 19,
           question: "What improves through standardized case practice?",
           options: [
-            "Only theoretical knowledge",
             "Clinical assessment skills development",
+            "Only cooking skills",
             "Only laboratory skills",
-            "Only cooking skills"
+            "Only theoretical knowledge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Practicing with standardized cases helps develop clinical assessment skills before working with actual clients."
         },
         {
           id: 20,
           question: "What forms the foundation for personalized interventions?",
           options: [
-            "Only general dietary guidelines",
             "Advanced nutritional assessment identifying individual needs",
+            "Only laboratory testing",
             "Only supplement protocols",
-            "Only laboratory testing"
+            "Only general dietary guidelines"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive nutritional assessment provides the foundation for developing truly personalized nutritional interventions."
         }
       ]
@@ -904,8 +904,8 @@ Advanced clinical nutritional interventions require balancing scientific evidenc
           options: [
             "Ketogenic diet",
             "Low FODMAP diet for IBS and digestive disorders",
-            "Mediterranean diet",
-            "Paleo diet"
+            "Paleo diet",
+            "Mediterranean diet"
           ],
           correctAnswer: 1,
           explanation: "The low FODMAP diet reduces fermentable carbohydrates that can cause digestive symptoms in sensitive individuals."
@@ -914,10 +914,10 @@ Advanced clinical nutritional interventions require balancing scientific evidenc
           id: 2,
           question: "What involves systematic food removal and reintroduction?",
           options: [
-            "Only food diaries",
+            "Only laboratory testing",
             "Elimination diets to identify food sensitivities",
             "Only nutrient supplementation",
-            "Only laboratory testing"
+            "Only food diaries"
           ],
           correctAnswer: 1,
           explanation: "Elimination diets systematically remove then reintroduce foods to identify sensitivities and intolerances."
@@ -926,24 +926,24 @@ Advanced clinical nutritional interventions require balancing scientific evidenc
           id: 3,
           question: "What considers different nutrient forms like methylated versions?",
           options: [
-            "Only food sources",
-            "Form considerations in micronutrient therapeutics",
             "Only dose amounts",
-            "Only timing of intake"
+            "Only food sources",
+            "Only timing of intake",
+            "Form considerations in micronutrient therapeutics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Form considerations involve choosing appropriate nutrient forms (methylated, chelated, etc.) based on individual needs."
         },
         {
           id: 4,
           question: "What supports intestinal lining integrity?",
           options: [
-            "Only probiotics",
-            "Gut barrier repair with nutrients like glutamine and zinc",
+            "Only fermented foods",
             "Only digestive enzymes",
-            "Only fermented foods"
+            "Gut barrier repair with nutrients like glutamine and zinc",
+            "Only probiotics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Gut barrier repair involves nutrients like glutamine and zinc that support intestinal lining integrity and healing."
         },
         {
@@ -951,153 +951,153 @@ Advanced clinical nutritional interventions require balancing scientific evidenc
           question: "What involves Phase I and II liver pathway support?",
           options: [
             "Only kidney support",
-            "Detoxification support for liver function",
             "Only lymphatic drainage",
+            "Detoxification support for liver function",
             "Only sweat induction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Detoxification support involves nutrients that support Phase I and II liver detoxification pathways."
         },
         {
           id: 6,
           question: "What supports stress adaptation and cortisol regulation?",
           options: [
-            "Only thyroid support",
-            "Adrenal support for stress response system",
+            "Only blood sugar regulation",
             "Only sex hormone balance",
-            "Only blood sugar regulation"
+            "Only thyroid support",
+            "Adrenal support for stress response system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Adrenal support involves nutrients that help the body adapt to stress and regulate cortisol production."
         },
         {
           id: 7,
           question: "What involves serotonin and dopamine production from nutrients?",
           options: [
-            "Only brain energy metabolism",
-            "Neurotransmitter support for mental health",
             "Only neuroinflammation reduction",
-            "Only blood-brain barrier support"
+            "Only brain energy metabolism",
+            "Only blood-brain barrier support",
+            "Neurotransmitter support for mental health"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Neurotransmitter support involves providing nutrient precursors for serotonin, dopamine, and other brain chemicals."
         },
         {
           id: 8,
           question: "What manages healthy homocysteine levels?",
           options: [
-            "Only lipid management",
             "Homocysteine management for cardiovascular health",
+            "Only vascular health",
             "Only blood pressure support",
-            "Only vascular health"
+            "Only lipid management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Homocysteine management involves nutrients (B vitamins) that help maintain healthy homocysteine levels."
         },
         {
           id: 9,
           question: "What regulates rather than just boosts immune function?",
           options: [
-            "Only immune boosting",
-            "Immune modulation for balanced immune response",
             "Only anti-viral support",
-            "Only anti-bacterial support"
+            "Only anti-bacterial support",
+            "Immune modulation for balanced immune response",
+            "Only immune boosting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Immune modulation involves nutrients that help regulate immune function rather than simply stimulating it."
         },
         {
           id: 10,
           question: "What supports bone formation and maintenance?",
           options: [
-            "Only joint health",
             "Bone density support with calcium, vitamin D, etc.",
+            "Only joint health",
             "Only muscle health",
             "Only connective tissue"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Bone density support involves nutrients like calcium, vitamin D, magnesium, and vitamin K for bone health."
         },
         {
           id: 11,
           question: "What addresses hormonal influences on weight?",
           options: [
-            "Only calorie counting",
-            "Hormonal factors in weight management",
+            "Only appetite control",
             "Only exercise recommendations",
-            "Only appetite control"
+            "Only calorie counting",
+            "Hormonal factors in weight management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hormonal factors in weight management address insulin, cortisol, thyroid, and sex hormone influences on weight."
         },
         {
           id: 12,
           question: "What tailors interventions for older adults?",
           options: [
-            "Only pediatric nutrition",
             "Geriatric nutrition addressing age-related changes",
+            "Only prenatal nutrition",
             "Only athletic nutrition",
-            "Only prenatal nutrition"
+            "Only pediatric nutrition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Geriatric nutrition addresses specific nutritional needs and challenges of older adults."
         },
         {
           id: 13,
           question: "What involves gradual introduction of dietary changes?",
           options: [
-            "Immediate complete overhaul",
             "Stepwise implementation for better adherence",
+            "Only supplement protocols",
             "Only theoretical planning",
-            "Only supplement protocols"
+            "Immediate complete overhaul"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stepwise implementation introduces dietary changes gradually to improve client adherence and adaptation."
         },
         {
           id: 14,
           question: "What tracks symptom changes and side effects?",
           options: [
-            "Only initial assessment",
-            "Symptom monitoring during intervention",
             "Only laboratory testing",
-            "Only weight tracking"
+            "Only weight tracking",
+            "Only initial assessment",
+            "Symptom monitoring during intervention"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Symptom monitoring tracks changes in symptoms and any side effects during nutritional interventions."
         },
         {
           id: 15,
           question: "What involves critically assessing research quality?",
           options: [
-            "Only following trends",
             "Research evaluation for evidence-based practice",
+            "Only anecdotal evidence",
             "Only personal experience",
-            "Only anecdotal evidence"
+            "Only following trends"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Research evaluation involves critically assessing study design, quality, and relevance to clinical practice."
         },
         {
           id: 16,
           question: "What emphasizes whole foods ancestral to human diet?",
           options: [
+            "Only supplement protocols",
             "Only modern processed foods",
             "Paleo approaches emphasizing ancestral foods",
-            "Only elimination diets",
-            "Only supplement protocols"
+            "Only elimination diets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Paleo approaches emphasize whole, unprocessed foods that were available during human evolution."
         },
         {
           id: 17,
           question: "What addresses genetic variations in nutrient needs?",
           options: [
-            "Only standard recommendations",
-            "Individual biochemistry considerations",
             "Only population guidelines",
-            "Only laboratory ranges"
+            "Individual biochemistry considerations",
+            "Only laboratory ranges",
+            "Only standard recommendations"
           ],
           correctAnswer: 1,
           explanation: "Individual biochemistry considers genetic variations that affect nutrient metabolism, needs, and responses."
@@ -1106,36 +1106,36 @@ Advanced clinical nutritional interventions require balancing scientific evidenc
           id: 18,
           question: "What involves natural antimicrobials for overgrowth?",
           options: [
+            "Only probiotics",
             "Only prescription antibiotics",
             "Anti-pathogen approaches with natural compounds",
-            "Only probiotics",
             "Only digestive enzymes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Anti-pathogen approaches use natural antimicrobial compounds to address bacterial or fungal overgrowth."
         },
         {
           id: 19,
           question: "What tailors nutrition to menstrual cycle phases?",
           options: [
-            "Only standard recommendations",
-            "Cycle-specific nutrition for hormonal balance",
+            "Only general guidelines",
             "Only menopause support",
-            "Only general guidelines"
+            "Only standard recommendations",
+            "Cycle-specific nutrition for hormonal balance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cycle-specific nutrition tailors dietary approaches to different phases of the menstrual cycle for hormonal balance."
         },
         {
           id: 20,
           question: "What requires balancing evidence with individual needs?",
           options: [
-            "Only following strict protocols",
             "Advanced clinical nutritional interventions",
-            "Only theoretical knowledge",
-            "Only laboratory results"
+            "Only laboratory results",
+            "Only following strict protocols",
+            "Only theoretical knowledge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Advanced clinical interventions require balancing scientific evidence with individual client needs and preferences."
         }
       ]
@@ -1559,8 +1559,8 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           options: [
             "Absorption",
             "Metabolism primarily in the liver",
-            "Distribution",
-            "Excretion"
+            "Excretion",
+            "Distribution"
           ],
           correctAnswer: 1,
           explanation: "Metabolism involves the biochemical breakdown of drugs, primarily occurring in the liver through enzyme systems."
@@ -1569,12 +1569,12 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           id: 2,
           question: "What involves competition for protein binding sites?",
           options: [
-            "Absorption interactions",
-            "Distribution interactions between drugs and nutrients",
             "Metabolism interactions",
-            "Excretion interactions"
+            "Excretion interactions",
+            "Distribution interactions between drugs and nutrients",
+            "Absorption interactions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Distribution interactions occur when drugs and nutrients compete for protein binding sites in the bloodstream."
         },
         {
@@ -1582,11 +1582,11 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           question: "What medication depletes Coenzyme Q10?",
           options: [
             "Antibiotics",
+            "Antidepressants",
             "Cholesterol medications (statins)",
-            "Diabetes medications",
-            "Antidepressants"
+            "Diabetes medications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Statins (cholesterol medications) can deplete Coenzyme Q10, which is important for cellular energy production."
         },
         {
@@ -1594,56 +1594,56 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           question: "What substance inhibits multiple CYP450 enzymes?",
           options: [
             "Only prescription drugs",
+            "Only caffeine",
             "Grapefruit juice affecting drug metabolism",
-            "Only alcohol",
-            "Only caffeine"
+            "Only alcohol"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Grapefruit juice contains compounds that inhibit multiple CYP450 enzymes, affecting metabolism of many drugs."
         },
         {
           id: 5,
           question: "What requires consistent vitamin K intake?",
           options: [
-            "Antibiotics",
             "Warfarin (blood thinner) therapy",
-            "Diabetes medications",
-            "Thyroid medications"
+            "Antibiotics",
+            "Thyroid medications",
+            "Diabetes medications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Warfarin (Coumadin) requires consistent vitamin K intake because vitamin K affects its blood-thinning action."
         },
         {
           id: 6,
           question: "What herbal supplement induces CYP450 enzymes?",
           options: [
-            "Only prescription herbs",
-            "St. John's Wort reducing drug effectiveness",
             "Only garlic",
-            "Only ginkgo"
+            "Only ginkgo",
+            "St. John's Wort reducing drug effectiveness",
+            "Only prescription herbs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "St. John's Wort induces CYP450 enzymes, potentially reducing effectiveness of many medications."
         },
         {
           id: 7,
           question: "What can cause falsely high laboratory test results?",
           options: [
-            "Only medications",
             "Certain nutrients and supplements affecting tests",
-            "Only fasting",
-            "Only exercise"
+            "Only medications",
+            "Only exercise",
+            "Only fasting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Certain nutrients and supplements can interfere with laboratory tests, causing falsely high or low results."
         },
         {
           id: 7,
           question: "Who has highest risk of nutrient-drug interactions?",
           options: [
-            "Only children",
-            "Elderly with multiple medications and altered metabolism",
             "Only athletes",
+            "Elderly with multiple medications and altered metabolism",
+            "Only children",
             "Only pregnant women"
           ],
           correctAnswer: 1,
@@ -1653,10 +1653,10 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           id: 8,
           question: "What involves assessing likelihood and severity of interactions?",
           options: [
-            "Only laboratory testing",
+            "Only supplement lists",
             "Risk assessment for interaction management",
-            "Only medication lists",
-            "Only supplement lists"
+            "Only laboratory testing",
+            "Only medication lists"
           ],
           correctAnswer: 1,
           explanation: "Risk assessment evaluates both the probability and potential severity of nutrient-drug interactions."
@@ -1666,21 +1666,21 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           question: "What should clients maintain for all providers?",
           options: [
             "Only medication lists",
-            "Complete current medication and supplement lists",
+            "Only laboratory results",
             "Only supplement lists",
-            "Only laboratory results"
+            "Complete current medication and supplement lists"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clients should maintain complete, current lists of all medications and supplements for all healthcare providers."
         },
         {
           id: 10,
           question: "What resource checks potential interactions?",
           options: [
-            "Only prescription labels",
+            "Only personal experience",
             "Interaction databases and software tools",
             "Only internet searches",
-            "Only personal experience"
+            "Only prescription labels"
           ],
           correctAnswer: 1,
           explanation: "Interaction databases and software tools help professionals check for potential nutrient-drug interactions."
@@ -1689,12 +1689,12 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           id: 11,
           question: "What professional responsibility involves staying within boundaries?",
           options: [
-            "Only documentation",
-            "Scope of practice in nutritional therapy",
             "Only continuing education",
-            "Only referral making"
+            "Only documentation",
+            "Only referral making",
+            "Scope of practice in nutritional therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Scope of practice involves staying within professional boundaries and not practicing outside one's training."
         },
         {
@@ -1702,47 +1702,47 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           question: "What time describes drug concentration reduction by half?",
           options: [
             "Absorption time",
-            "Half-life of medications",
             "Distribution time",
-            "Excretion time"
+            "Excretion time",
+            "Half-life of medications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Half-life is the time required for drug concentration in the body to decrease by half through elimination."
         },
         {
           id: 13,
           question: "What reduces tetracycline antibiotic absorption?",
           options: [
-            "Only water",
             "Calcium from dairy products binding antibiotics",
+            "Only water",
             "Only fiber",
             "Only protein"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Calcium in dairy products can bind to tetracycline antibiotics, reducing their absorption and effectiveness."
         },
         {
           id: 14,
           question: "What herbal supplement has blood thinning effects?",
           options: [
-            "Only prescription blood thinners",
             "Ginkgo biloba with additive blood thinning effects",
+            "Only ginger",
             "Only garlic",
-            "Only ginger"
+            "Only prescription blood thinners"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ginkgo biloba has blood-thinning properties that can add to effects of anticoagulant medications."
         },
         {
           id: 15,
           question: "What should be discontinued before certain laboratory tests?",
           options: [
+            "Only water",
             "Only medications",
-            "Some supplements that can interfere with tests",
             "Only food",
-            "Only water"
+            "Some supplements that can interfere with tests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Some supplements should be temporarily discontinued before certain laboratory tests to avoid interference."
         },
         {
@@ -1750,45 +1750,45 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           question: "What involves working with other healthcare providers?",
           options: [
             "Only independent practice",
+            "Only supplement protocols",
             "Interdisciplinary communication for client safety",
-            "Only nutritional recommendations",
-            "Only supplement protocols"
+            "Only nutritional recommendations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Interdisciplinary communication ensures all providers know about medications and supplements for client safety."
         },
         {
           id: 17,
           question: "What teaching involves timing of medications and supplements?",
           options: [
-            "Only dose amounts",
             "Timing instructions for optimal effectiveness and safety",
             "Only medication names",
+            "Only dose amounts",
             "Only supplement brands"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Timing instructions ensure medications and supplements are taken at optimal times for effectiveness and to minimize interactions."
         },
         {
           id: 18,
           question: "What emerging area considers genetic influences?",
           options: [
+            "Only laboratory ranges",
             "Only standard protocols",
-            "Nutrigenomics for personalized approaches",
             "Only population guidelines",
-            "Only laboratory ranges"
+            "Nutrigenomics for personalized approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Nutrigenomics considers genetic variations that influence individual responses to nutrients and drugs."
         },
         {
           id: 19,
           question: "What involves developing management plans for complex cases?",
           options: [
-            "Only simple recommendations",
+            "Only basic guidelines",
             "Case study analysis for practical application",
             "Only theoretical knowledge",
-            "Only basic guidelines"
+            "Only simple recommendations"
           ],
           correctAnswer: 1,
           explanation: "Case study analysis helps develop practical management plans for complex nutrient-drug interaction situations."
@@ -1797,10 +1797,10 @@ Safe integration of nutritional therapy with pharmaceutical treatments requires 
           id: 20,
           question: "What requires balancing benefits with potential risks?",
           options: [
-            "Only following strict rules",
-            "Safe integration of nutritional and pharmaceutical therapies",
             "Only nutritional therapy",
-            "Only medication management"
+            "Safe integration of nutritional and pharmaceutical therapies",
+            "Only medication management",
+            "Only following strict rules"
           ],
           correctAnswer: 1,
           explanation: "Safe integration requires balancing potential benefits of nutritional therapy with risks of interactions with medications."
@@ -2213,22 +2213,22 @@ Evidence-based nutritional therapy requires both understanding research methods 
           id: 1,
           question: "What study design is gold standard for intervention studies?",
           options: [
-            "Case reports",
             "Randomized controlled trials",
             "Cross-sectional studies",
+            "Case reports",
             "Expert opinion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Randomized controlled trials are considered the gold standard for testing intervention effectiveness."
         },
         {
           id: 2,
           question: "What involves assessing study design rigor and bias?",
           options: [
-            "Only reading abstracts",
-            "Study quality assessment in critical appraisal",
             "Only looking at conclusions",
-            "Only checking author names"
+            "Study quality assessment in critical appraisal",
+            "Only checking author names",
+            "Only reading abstracts"
           ],
           correctAnswer: 1,
           explanation: "Study quality assessment evaluates internal validity, bias, and rigor of research design and execution."
@@ -2237,12 +2237,12 @@ Evidence-based nutritional therapy requires both understanding research methods 
           id: 3,
           question: "What is highest level in evidence hierarchies?",
           options: [
-            "Expert opinion",
-            "Well-conducted systematic reviews and meta-analyses",
+            "Animal studies",
             "Case reports",
-            "Animal studies"
+            "Well-conducted systematic reviews and meta-analyses",
+            "Expert opinion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Well-conducted systematic reviews and meta-analyses synthesize multiple studies and represent highest evidence level."
         },
         {
@@ -2250,23 +2250,23 @@ Evidence-based nutritional therapy requires both understanding research methods 
           question: "What distinguishes association from causation?",
           options: [
             "Only statistical significance",
+            "Only sample size",
             "Correlation versus causation interpretation",
-            "Only p-values",
-            "Only sample size"
+            "Only p-values"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Understanding that correlation (association) doesn't necessarily imply causation is crucial in interpreting research."
         },
         {
           id: 5,
           question: "What method assesses usual dietary intake over time?",
           options: [
-            "Only single meal observation",
-            "Food frequency questionnaires in nutritional epidemiology",
             "Only laboratory tests",
-            "Only physical examination"
+            "Only physical examination",
+            "Food frequency questionnaires in nutritional epidemiology",
+            "Only single meal observation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Food frequency questionnaires assess usual dietary intake patterns over weeks or months in population studies."
         },
         {
@@ -2274,11 +2274,11 @@ Evidence-based nutritional therapy requires both understanding research methods 
           question: "What ensures equal group assignment in trials?",
           options: [
             "Only participant choice",
+            "Only convenience sampling",
             "Randomization methods in clinical trials",
-            "Only researcher selection",
-            "Only convenience sampling"
+            "Only researcher selection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Randomization methods ensure participants have equal chance of being assigned to different study groups."
         },
         {
@@ -2286,57 +2286,57 @@ Evidence-based nutritional therapy requires both understanding research methods 
           question: "What synthesizes multiple study results statistically?",
           options: [
             "Only literature reviews",
-            "Meta-analysis in systematic reviews",
+            "Only study selection",
             "Only abstract reading",
-            "Only study selection"
+            "Meta-analysis in systematic reviews"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Meta-analysis statistically combines results from multiple studies to estimate overall effect sizes."
         },
         {
           id: 8,
           question: "What moves research into clinical practice?",
           options: [
-            "Only laboratory research",
             "Translational research across different phases",
+            "Only laboratory research",
             "Only theoretical work",
             "Only animal studies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Translational research moves findings from basic science through clinical studies to practice implementation."
         },
         {
           id: 9,
           question: "What involves voluntary, informed participation?",
           options: [
-            "Only data collection",
-            "Informed consent in research ethics",
             "Only statistical analysis",
-            "Only publication"
+            "Only publication",
+            "Only data collection",
+            "Informed consent in research ethics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Informed consent ensures participants understand and voluntarily agree to research participation."
         },
         {
           id: 10,
           question: "What uses PICO format for clinical questions?",
           options: [
+            "Only physical assessment",
             "Only random questioning",
             "Clinical question formulation in evidence-based practice",
-            "Only laboratory testing",
-            "Only physical assessment"
+            "Only laboratory testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "PICO format (Population, Intervention, Comparison, Outcome) helps formulate focused clinical questions."
         },
         {
           id: 11,
           question: "What challenges accepted beliefs with skepticism?",
           options: [
-            "Only following trends",
+            "Only personal experience",
             "Critical thinking in nutritional science",
             "Only accepting authority",
-            "Only personal experience"
+            "Only following trends"
           ],
           correctAnswer: 1,
           explanation: "Critical thinking involves questioning assumptions and evaluating evidence with appropriate skepticism."
@@ -2345,34 +2345,34 @@ Evidence-based nutritional therapy requires both understanding research methods 
           id: 12,
           question: "What tailors message to different audiences?",
           options: [
-            "Only technical language",
             "Audience adaptation in science communication",
             "Only complex explanations",
+            "Only technical language",
             "Only jargon use"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective science communication adapts the message to different audience knowledge levels and interests."
         },
         {
           id: 13,
           question: "What documents interesting clinical cases?",
           options: [
-            "Only laboratory research",
             "Case reports contributing to evidence base",
             "Only large trials",
+            "Only laboratory research",
             "Only animal studies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Case reports document interesting or unusual clinical cases that can generate hypotheses for further research."
         },
         {
           id: 14,
           question: "What involves personalized nutritional approaches?",
           options: [
-            "Only population guidelines",
+            "Only basic science",
             "Precision nutrition as future research direction",
             "Only standard protocols",
-            "Only basic science"
+            "Only population guidelines"
           ],
           correctAnswer: 1,
           explanation: "Precision nutrition tailors nutritional approaches to individual characteristics including genetics, microbiome, and lifestyle."
@@ -2381,48 +2381,48 @@ Evidence-based nutritional therapy requires both understanding research methods 
           id: 15,
           question: "What combines research with clinical expertise?",
           options: [
-            "Only research evidence",
-            "Evidence integration in clinical decision making",
             "Only personal opinion",
-            "Only laboratory results"
+            "Only research evidence",
+            "Only laboratory results",
+            "Evidence integration in clinical decision making"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Evidence integration combines research evidence with clinical expertise and individual client values and preferences."
         },
         {
           id: 16,
           question: "What follows populations over time?",
           options: [
-            "Only cross-sectional studies",
             "Longitudinal studies in epidemiology",
             "Only case reports",
+            "Only cross-sectional studies",
             "Only laboratory experiments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Longitudinal studies follow the same population over time to observe development of health outcomes."
         },
         {
           id: 17,
           question: "What involves participants receiving both interventions?",
           options: [
-            "Only parallel designs",
             "Crossover designs in clinical trials",
-            "Only single-arm studies",
-            "Only observational studies"
+            "Only parallel designs",
+            "Only observational studies",
+            "Only single-arm studies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Crossover designs have participants receive both interventions at different times, serving as their own controls."
         },
         {
           id: 18,
           question: "What checks for missing negative studies?",
           options: [
-            "Only positive result searching",
-            "Publication bias assessment in systematic reviews",
             "Only abstract reading",
-            "Only database searching"
+            "Only database searching",
+            "Publication bias assessment in systematic reviews",
+            "Only positive result searching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Publication bias assessment checks whether negative studies are missing from the published literature."
         },
         {
@@ -2430,23 +2430,23 @@ Evidence-based nutritional therapy requires both understanding research methods 
           question: "What manages researcher financial biases?",
           options: [
             "Only data collection",
+            "Only participant recruitment",
             "Conflict of interest management in research ethics",
-            "Only statistical analysis",
-            "Only participant recruitment"
+            "Only statistical analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Conflict of interest management addresses potential biases from researcher financial or other interests."
         },
         {
           id: 20,
           question: "What requires applying evidence to individual situations?",
           options: [
-            "Only following guidelines",
             "Evidence-based nutritional therapy practice",
-            "Only theoretical knowledge",
-            "Only laboratory testing"
+            "Only following guidelines",
+            "Only laboratory testing",
+            "Only theoretical knowledge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Evidence-based practice requires thoughtfully applying research evidence to individual client situations and needs."
         }
       ]
@@ -2900,10 +2900,10 @@ Building a successful nutritional therapy practice requires balancing clinical e
           id: 1,
           question: "What involves staying within professional boundaries?",
           options: [
-            "Only clinical skills",
+            "Only financial management",
             "Scope of practice in professional ethics",
-            "Only marketing",
-            "Only financial management"
+            "Only clinical skills",
+            "Only marketing"
           ],
           correctAnswer: 1,
           explanation: "Scope of practice defines professional boundaries and staying within one's training and legal authorization."
@@ -2924,10 +2924,10 @@ Building a successful nutritional therapy practice requires balancing clinical e
           id: 3,
           question: "What analyzes target market and competition?",
           options: [
-            "Only service delivery",
+            "Only financial accounting",
             "Market analysis in business planning",
             "Only client sessions",
-            "Only financial accounting"
+            "Only service delivery"
           ],
           correctAnswer: 1,
           explanation: "Market analysis examines target client demographics, competition, and market trends for business planning."
@@ -2936,36 +2936,36 @@ Building a successful nutritional therapy practice requires balancing clinical e
           id: 4,
           question: "What defines what makes a practice distinctive?",
           options: [
-            "Only location",
             "Unique value proposition in marketing",
-            "Only prices",
-            "Only hours"
+            "Only hours",
+            "Only location",
+            "Only prices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Unique value proposition defines what distinguishes a practice from competitors in the market."
         },
         {
           id: 5,
           question: "What are initial expenses to establish practice?",
           options: [
+            "Only marketing expenses",
             "Only ongoing costs",
             "Start-up costs in financial management",
-            "Only client fees",
-            "Only marketing expenses"
+            "Only client fees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Start-up costs are initial expenses required to establish a practice before regular income begins."
         },
         {
           id: 6,
           question: "What includes state licensing if applicable?",
           options: [
-            "Only marketing",
             "Licensing requirements in legal compliance",
+            "Only marketing",
             "Only office decoration",
             "Only client scheduling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Licensing requirements include any state or provincial licensing needed to practice legally."
         },
         {
@@ -2973,23 +2973,23 @@ Building a successful nutritional therapy practice requires balancing clinical e
           question: "What evaluates likelihood and impact of risks?",
           options: [
             "Only risk ignoring",
-            "Risk assessment in risk management",
+            "Only client intake",
             "Only insurance purchasing",
-            "Only client intake"
+            "Risk assessment in risk management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Risk assessment evaluates both the probability and potential impact of identified practice risks."
         },
         {
           id: 8,
           question: "What includes systems for scheduling and billing?",
           options: [
-            "Only paper records",
             "Practice management software in technology use",
+            "Only paper records",
             "Only telephone",
             "Only email"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Practice management software systems handle scheduling, billing, records, and other practice management tasks."
         },
         {
@@ -2997,32 +2997,32 @@ Building a successful nutritional therapy practice requires balancing clinical e
           question: "What involves ongoing learning requirements?",
           options: [
             "Only initial training",
+            "Only business management",
             "Continuing education in professional development",
-            "Only client education",
-            "Only business management"
+            "Only client education"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Continuing education involves ongoing learning to maintain and improve professional knowledge and skills."
         },
         {
           id: 10,
           question: "What involves working with other healthcare providers?",
           options: [
-            "Only independent practice",
             "Interprofessional collaboration for comprehensive care",
-            "Only nutritional therapy",
-            "Only individual work"
+            "Only independent practice",
+            "Only individual work",
+            "Only nutritional therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Interprofessional collaboration involves working with other healthcare providers for coordinated client care."
         },
         {
           id: 11,
           question: "What measures client outcomes effectively?",
           options: [
-            "Only client numbers",
-            "Outcome measurement in quality improvement",
             "Only income amounts",
+            "Outcome measurement in quality improvement",
+            "Only client numbers",
             "Only session counts"
           ],
           correctAnswer: 1,
@@ -3032,12 +3032,12 @@ Building a successful nutritional therapy practice requires balancing clinical e
           id: 12,
           question: "What prevents professional burnout?",
           options: [
-            "Only working more",
             "Burnout prevention through work-life balance",
+            "Only working more",
             "Only ignoring stress",
             "Only financial success"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Burnout prevention involves strategies to maintain professional enthusiasm and prevent emotional exhaustion."
         },
         {
@@ -3046,8 +3046,8 @@ Building a successful nutritional therapy practice requires balancing clinical e
           options: [
             "Only sharing freely",
             "Confidentiality in professional ethics",
-            "Only discussing with colleagues",
-            "Only keeping paper records"
+            "Only keeping paper records",
+            "Only discussing with colleagues"
           ],
           correctAnswer: 1,
           explanation: "Confidentiality involves protecting client information according to privacy regulations and ethical standards."
@@ -3056,10 +3056,10 @@ Building a successful nutritional therapy practice requires balancing clinical e
           id: 14,
           question: "What encourages detailed client responses?",
           options: [
-            "Only yes/no questions",
-            "Open-ended questioning in therapeutic communication",
             "Only giving advice",
-            "Only providing information"
+            "Open-ended questioning in therapeutic communication",
+            "Only providing information",
+            "Only yes/no questions"
           ],
           correctAnswer: 1,
           explanation: "Open-ended questions encourage clients to provide detailed responses rather than simple yes/no answers."
@@ -3068,24 +3068,24 @@ Building a successful nutritional therapy practice requires balancing clinical e
           id: 15,
           question: "What examines business regulations?",
           options: [
-            "Only clinical practice",
             "Business regulations in legal compliance",
             "Only client relationships",
-            "Only office location"
+            "Only office location",
+            "Only clinical practice"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Business regulations include legal requirements for operating a business beyond clinical practice regulations."
         },
         {
           id: 16,
           question: "What manages malpractice risks?",
           options: [
+            "Only client selection",
             "Only ignoring risks",
             "Professional liability in risk management",
-            "Only client selection",
             "Only office safety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Professional liability management addresses risks related to professional practice and potential malpractice claims."
         },
         {
@@ -3093,23 +3093,23 @@ Building a successful nutritional therapy practice requires balancing clinical e
           question: "What includes secure digital client records?",
           options: [
             "Only paper files",
+            "Only memory",
             "Electronic health records in technology use",
-            "Only verbal notes",
-            "Only memory"
+            "Only verbal notes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Electronic health records are secure digital systems for maintaining comprehensive client health information."
         },
         {
           id: 18,
           question: "What involves developing expertise in specific areas?",
           options: [
-            "Only general practice",
-            "Specialization development in professional growth",
             "Only basic knowledge",
-            "Only following trends"
+            "Only general practice",
+            "Only following trends",
+            "Specialization development in professional growth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Specialization development involves gaining expertise in specific areas of nutritional therapy practice."
         },
         {
@@ -3117,11 +3117,11 @@ Building a successful nutritional therapy practice requires balancing clinical e
           question: "What gathers client feedback on practice?",
           options: [
             "Only practitioner opinion",
+            "Only financial metrics",
             "Client satisfaction assessment in quality improvement",
-            "Only colleague feedback",
-            "Only financial metrics"
+            "Only colleague feedback"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Client satisfaction assessment systematically gathers feedback on client experiences with the practice."
         },
         {
@@ -3620,23 +3620,23 @@ Advanced specialized nutritional interventions require integrating comprehensive
           question: "What manages chemotherapy side effects like nausea?",
           options: [
             "Only medication",
-            "Oncology nutrition support for treatment side effects",
+            "Only stopping treatment",
             "Only ignoring symptoms",
-            "Only stopping treatment"
+            "Oncology nutrition support for treatment side effects"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Oncology nutrition includes specific strategies to manage chemotherapy side effects like nausea and vomiting."
         },
         {
           id: 2,
           question: "What uses ketogenic diets for seizure management?",
           options: [
+            "Only heart disease",
             "Only diabetes",
             "Epilepsy and seizure nutritional management",
-            "Only weight loss",
-            "Only heart disease"
+            "Only weight loss"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ketogenic and modified Atkins diets are used therapeutically for epilepsy and seizure management."
         },
         {
@@ -3645,8 +3645,8 @@ Advanced specialized nutritional interventions require integrating comprehensive
           options: [
             "Only food diaries",
             "Autoimmune Protocol (AIP) for autoimmune conditions",
-            "Only laboratory testing",
-            "Only supplement use"
+            "Only supplement use",
+            "Only laboratory testing"
           ],
           correctAnswer: 1,
           explanation: "The Autoimmune Protocol is a comprehensive elimination diet specifically designed for autoimmune conditions."
@@ -3655,12 +3655,12 @@ Advanced specialized nutritional interventions require integrating comprehensive
           id: 4,
           question: "What manages small intestinal bacterial overgrowth?",
           options: [
+            "Only ignoring symptoms",
             "Only antibiotics",
             "SIBO protocols with dietary and herbal approaches",
-            "Only probiotics",
-            "Only ignoring symptoms"
+            "Only probiotics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SIBO protocols include specific dietary approaches, antimicrobial herbs, and prokinetic support."
         },
         {
@@ -3679,10 +3679,10 @@ Advanced specialized nutritional interventions require integrating comprehensive
           id: 6,
           question: "What manages insulin resistance in PCOS?",
           options: [
-            "Only fertility treatments",
-            "PCOS comprehensive nutrition including insulin resistance",
             "Only weight loss",
-            "Only hormone medication"
+            "PCOS comprehensive nutrition including insulin resistance",
+            "Only hormone medication",
+            "Only fertility treatments"
           ],
           correctAnswer: 1,
           explanation: "PCOS nutrition comprehensively addresses insulin resistance, hormone balance, and other PCOS aspects."
@@ -3692,47 +3692,47 @@ Advanced specialized nutritional interventions require integrating comprehensive
           question: "What individualizes protein in kidney disease?",
           options: [
             "Only standard recommendations",
-            "Protein recommendations in renal nutrition therapy",
             "Only high protein",
-            "Only low protein"
+            "Only low protein",
+            "Protein recommendations in renal nutrition therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Renal nutrition individualizes protein recommendations based on kidney disease stage and individual factors."
         },
         {
           id: 8,
           question: "What supports respiratory muscle function?",
           options: [
+            "Only exercise",
             "Only oxygen therapy",
             "Breathing muscle support in pulmonary nutrition",
-            "Only medication",
-            "Only exercise"
+            "Only medication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Pulmonary nutrition includes specific nutrients that support respiratory muscle function and strength."
         },
         {
           id: 9,
           question: "What addresses gut-brain axis in mental health?",
           options: [
-            "Only medication",
-            "Gut-brain axis interventions in nutritional psychiatry",
             "Only therapy",
-            "Only exercise"
+            "Only medication",
+            "Only exercise",
+            "Gut-brain axis interventions in nutritional psychiatry"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Nutritional psychiatry includes interventions addressing the gut-brain axis connection in mental health."
         },
         {
           id: 10,
           question: "What prevents muscle loss in aging?",
           options: [
+            "Only medication",
             "Only weight loss",
             "Sarcopenia prevention in geriatric nutrition",
-            "Only medication",
             "Only rest"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Geriatric nutrition includes specific approaches to prevent and manage sarcopenia (age-related muscle loss)."
         },
         {
@@ -3740,21 +3740,21 @@ Advanced specialized nutritional interventions require integrating comprehensive
           question: "What optimizes thyroid hormone conversion?",
           options: [
             "Only thyroid medication",
+            "Only avoiding gluten",
             "Thyroid hormone conversion nutrition in endocrine health",
-            "Only iodine",
-            "Only avoiding gluten"
+            "Only iodine"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Thyroid nutrition includes supporting optimal conversion of T4 to active T3 thyroid hormone."
         },
         {
           id: 12,
           question: "What prevents calcium oxalate kidney stones?",
           options: [
-            "Only drinking water",
+            "Only medication",
             "Comprehensive kidney stone prevention nutrition",
             "Only avoiding calcium",
-            "Only medication"
+            "Only drinking water"
           ],
           correctAnswer: 1,
           explanation: "Kidney stone prevention includes specific dietary approaches for different stone types including calcium oxalate."
@@ -3764,21 +3764,21 @@ Advanced specialized nutritional interventions require integrating comprehensive
           question: "What manages pediatric failure to thrive?",
           options: [
             "Only growth charts",
-            "Comprehensive pediatric failure to thrive nutrition",
             "Only calorie counting",
-            "Only supplements"
+            "Only supplements",
+            "Comprehensive pediatric failure to thrive nutrition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pediatric failure to thrive management includes comprehensive assessment and nutritional intervention."
         },
         {
           id: 14,
           question: "What addresses root causes rather than symptoms?",
           options: [
-            "Only symptom management",
+            "Only medication",
             "Root cause resolution in integrative approaches",
             "Only laboratory testing",
-            "Only medication"
+            "Only symptom management"
           ],
           correctAnswer: 1,
           explanation: "Integrative approaches focus on identifying and addressing underlying root causes of health issues."
@@ -3787,21 +3787,21 @@ Advanced specialized nutritional interventions require integrating comprehensive
           id: 15,
           question: "What requires integrating assessment and evidence?",
           options: [
-            "Only following protocols",
             "Advanced specialized nutritional interventions",
+            "Only following protocols",
             "Only laboratory results",
             "Only personal experience"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Advanced specialized interventions require integrating comprehensive assessment with evidence-based approaches."
         },
         {
           id: 16,
           question: "What supports brain healing after injury?",
           options: [
-            "Only rest",
-            "Traumatic brain injury nutrition for healing",
             "Only medication",
+            "Traumatic brain injury nutrition for healing",
+            "Only rest",
             "Only physical therapy"
           ],
           correctAnswer: 1,
@@ -3811,34 +3811,34 @@ Advanced specialized nutritional interventions require integrating comprehensive
           id: 17,
           question: "What manages diverticular disease nutritionally?",
           options: [
+            "Only avoiding fiber",
             "Only surgery",
-            "Diverticular disease prevention and management nutrition",
             "Only pain medication",
-            "Only avoiding fiber"
+            "Diverticular disease prevention and management nutrition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Diverticular disease nutrition includes prevention strategies and management during active disease."
         },
         {
           id: 18,
           question: "What provides age-appropriate athletic nutrition?",
           options: [
+            "Only protein shakes",
             "Only adult protocols",
             "Sports nutrition for youth in pediatric nutrition",
-            "Only energy drinks",
-            "Only protein shakes"
+            "Only energy drinks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Pediatric sports nutrition provides age-appropriate nutritional support for young athletes."
         },
         {
           id: 19,
           question: "What addresses environmental influences on health?",
           options: [
-            "Only genetics",
-            "Environmental medicine in integrative approaches",
             "Only nutrition",
-            "Only medication"
+            "Environmental medicine in integrative approaches",
+            "Only medication",
+            "Only genetics"
           ],
           correctAnswer: 1,
           explanation: "Environmental medicine addresses how environmental factors influence health in integrative approaches."
@@ -3866,35 +3866,35 @@ Advanced specialized nutritional interventions require integrating comprehensive
       question: "What is the first step in nutritional therapy process?",
       options: [
         "Immediate dietary intervention",
-        "Initial consultation with comprehensive health history",
         "Laboratory testing",
-        "Supplement prescription"
+        "Supplement prescription",
+        "Initial consultation with comprehensive health history"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "The process begins with comprehensive health history taking during initial consultation."
     },
     {
       id: 2,
       question: "What diet reduces fermentable carbohydrates?",
       options: [
-        "Ketogenic diet",
         "Low FODMAP diet for digestive issues",
         "Mediterranean diet",
+        "Ketogenic diet",
         "Paleo diet"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Low FODMAP diet reduces fermentable carbohydrates that cause digestive symptoms."
     },
     {
       id: 3,
       question: "What describes drug breakdown in the body?",
       options: [
-        "Absorption",
-        "Metabolism primarily in the liver",
+        "Excretion",
         "Distribution",
-        "Excretion"
+        "Absorption",
+        "Metabolism primarily in the liver"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Metabolism involves biochemical breakdown of drugs, primarily in the liver."
     },
     {
@@ -3903,8 +3903,8 @@ Advanced specialized nutritional interventions require integrating comprehensive
       options: [
         "Case reports",
         "Randomized controlled trials",
-        "Cross-sectional studies",
-        "Expert opinion"
+        "Expert opinion",
+        "Cross-sectional studies"
       ],
       correctAnswer: 1,
       explanation: "Randomized controlled trials are gold standard for testing intervention effectiveness."
@@ -3913,22 +3913,22 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 5,
       question: "What involves staying within professional boundaries?",
       options: [
-        "Only clinical skills",
         "Scope of practice in professional ethics",
-        "Only marketing",
-        "Only financial management"
+        "Only clinical skills",
+        "Only financial management",
+        "Only marketing"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Scope of practice defines professional boundaries of nutritional therapy."
     },
     {
       id: 6,
       question: "What manages chemotherapy side effects?",
       options: [
-        "Only medication",
-        "Oncology nutrition support",
         "Only ignoring symptoms",
-        "Only stopping treatment"
+        "Oncology nutrition support",
+        "Only stopping treatment",
+        "Only medication"
       ],
       correctAnswer: 1,
       explanation: "Oncology nutrition includes strategies to manage chemotherapy side effects."
@@ -3937,24 +3937,24 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 7,
       question: "What does a food frequency questionnaire assess?",
       options: [
-        "Only current meal",
         "Usual intake patterns over time",
         "Only supplement use",
-        "Only water intake"
+        "Only water intake",
+        "Only current meal"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Food frequency questionnaires assess usual dietary intake patterns over extended periods."
     },
     {
       id: 8,
       question: "What considers different nutrient forms?",
       options: [
-        "Only food sources",
-        "Form considerations in micronutrient therapeutics",
+        "Only timing of intake",
         "Only dose amounts",
-        "Only timing of intake"
+        "Form considerations in micronutrient therapeutics",
+        "Only food sources"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Form considerations involve choosing appropriate nutrient forms for individual needs."
     },
     {
@@ -3973,12 +3973,12 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 10,
       question: "What is highest level in evidence hierarchies?",
       options: [
-        "Expert opinion",
-        "Well-conducted systematic reviews",
+        "Animal studies",
         "Case reports",
-        "Animal studies"
+        "Expert opinion",
+        "Well-conducted systematic reviews"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Well-conducted systematic reviews represent highest evidence level."
     },
     {
@@ -3997,24 +3997,24 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 12,
       question: "What uses ketogenic diets for seizures?",
       options: [
-        "Only diabetes",
         "Epilepsy nutritional management",
-        "Only weight loss",
-        "Only heart disease"
+        "Only diabetes",
+        "Only heart disease",
+        "Only weight loss"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Ketogenic diets are used therapeutically for epilepsy and seizure management."
     },
     {
       id: 13,
       question: "What laboratory test assesses inflammation?",
       options: [
-        "Only basic metabolic panel",
-        "CRP and ESR inflammatory markers",
+        "Only lipid profile",
         "Only thyroid panel",
-        "Only lipid profile"
+        "Only basic metabolic panel",
+        "CRP and ESR inflammatory markers"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "CRP and ESR are common inflammatory markers used in assessment."
     },
     {
@@ -4045,10 +4045,10 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 16,
       question: "What distinguishes association from causation?",
       options: [
-        "Only statistical significance",
+        "Only sample size",
         "Correlation versus causation interpretation",
-        "Only p-values",
-        "Only sample size"
+        "Only statistical significance",
+        "Only p-values"
       ],
       correctAnswer: 1,
       explanation: "Understanding correlation doesn't imply causation is crucial in research interpretation."
@@ -4057,24 +4057,24 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 17,
       question: "What analyzes target market and competition?",
       options: [
-        "Only service delivery",
         "Market analysis in business planning",
+        "Only financial accounting",
         "Only client sessions",
-        "Only financial accounting"
+        "Only service delivery"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Market analysis examines target clients and competition for business planning."
     },
     {
       id: 18,
       question: "What involves comprehensive elimination for autoimmunity?",
       options: [
-        "Only food diaries",
         "Autoimmune Protocol (AIP)",
+        "Only supplement use",
         "Only laboratory testing",
-        "Only supplement use"
+        "Only food diaries"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Autoimmune Protocol is comprehensive elimination diet for autoimmune conditions."
     },
     {
@@ -4082,33 +4082,33 @@ Advanced specialized nutritional interventions require integrating comprehensive
       question: "What physical assessment includes BMI?",
       options: [
         "Only skin assessment",
-        "Anthropometric measurements",
+        "Only eye assessment",
         "Only neurological assessment",
-        "Only eye assessment"
+        "Anthropometric measurements"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Anthropometric measurements include BMI, waist circumference, and body composition."
     },
     {
       id: 20,
       question: "What involves Phase I and II liver support?",
       options: [
+        "Only sweat induction",
         "Only kidney support",
         "Detoxification support for liver function",
-        "Only lymphatic drainage",
-        "Only sweat induction"
+        "Only lymphatic drainage"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Detoxification support involves nutrients for liver detoxification pathways."
     },
     {
       id: 21,
       question: "What herbal supplement induces CYP450 enzymes?",
       options: [
-        "Only prescription herbs",
+        "Only ginkgo",
         "St. John's Wort reducing drug effectiveness",
-        "Only garlic",
-        "Only ginkgo"
+        "Only prescription herbs",
+        "Only garlic"
       ],
       correctAnswer: 1,
       explanation: "St. John's Wort induces CYP450 enzymes, potentially reducing drug effectiveness."
@@ -4117,24 +4117,24 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 22,
       question: "What method assesses usual dietary intake?",
       options: [
-        "Only single meal observation",
-        "Food frequency questionnaires",
         "Only laboratory tests",
-        "Only physical examination"
+        "Only single meal observation",
+        "Only physical examination",
+        "Food frequency questionnaires"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Food frequency questionnaires assess usual dietary intake patterns over time."
     },
     {
       id: 23,
       question: "What defines what makes practice distinctive?",
       options: [
-        "Only location",
         "Unique value proposition in marketing",
-        "Only prices",
-        "Only hours"
+        "Only hours",
+        "Only location",
+        "Only prices"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Unique value proposition defines what distinguishes a practice from competitors."
     },
     {
@@ -4143,8 +4143,8 @@ Advanced specialized nutritional interventions require integrating comprehensive
       options: [
         "Only antibiotics",
         "SIBO protocols with comprehensive approaches",
-        "Only probiotics",
-        "Only ignoring symptoms"
+        "Only ignoring symptoms",
+        "Only probiotics"
       ],
       correctAnswer: 1,
       explanation: "SIBO protocols include dietary approaches and herbal antimicrobials."
@@ -4154,33 +4154,33 @@ Advanced specialized nutritional interventions require integrating comprehensive
       question: "What pattern involves post-meal drowsiness?",
       options: [
         "Only sleep patterns",
-        "Energy patterns indicating blood sugar issues",
         "Only mood patterns",
-        "Only pain patterns"
+        "Only pain patterns",
+        "Energy patterns indicating blood sugar issues"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Post-meal drowsiness often indicates blood sugar regulation issues."
     },
     {
       id: 26,
       question: "What supports adrenal stress adaptation?",
       options: [
-        "Only thyroid support",
-        "Adrenal support for stress response",
         "Only sex hormone balance",
-        "Only blood sugar regulation"
+        "Only thyroid support",
+        "Only blood sugar regulation",
+        "Adrenal support for stress response"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Adrenal support involves nutrients for stress adaptation and cortisol regulation."
     },
     {
       id: 27,
       question: "What can cause falsely high lab results?",
       options: [
-        "Only medications",
-        "Certain nutrients affecting tests",
         "Only fasting",
-        "Only exercise"
+        "Certain nutrients affecting tests",
+        "Only exercise",
+        "Only medications"
       ],
       correctAnswer: 1,
       explanation: "Certain nutrients and supplements can interfere with laboratory tests."
@@ -4189,10 +4189,10 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 28,
       question: "What ensures equal group assignment in trials?",
       options: [
-        "Only participant choice",
+        "Only convenience sampling",
         "Randomization methods",
-        "Only researcher selection",
-        "Only convenience sampling"
+        "Only participant choice",
+        "Only researcher selection"
       ],
       correctAnswer: 1,
       explanation: "Randomization ensures participants have equal chance of group assignment."
@@ -4214,23 +4214,23 @@ Advanced specialized nutritional interventions require integrating comprehensive
       question: "What supports blood vessel lining function?",
       options: [
         "Only cholesterol reduction",
-        "Endothelial function nutrition",
+        "Only exercise",
         "Only blood pressure medication",
-        "Only exercise"
+        "Endothelial function nutrition"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Endothelial function nutrition supports blood vessel lining health."
     },
     {
       id: 31,
       question: "What involves ongoing learning requirements?",
       options: [
+        "Only business management",
         "Only initial training",
-        "Continuing education",
         "Only client education",
-        "Only business management"
+        "Continuing education"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Continuing education involves ongoing learning to maintain professional competence."
     },
     {
@@ -4249,12 +4249,12 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 33,
       question: "What involves critical appraisal of studies?",
       options: [
-        "Only reading abstracts",
         "Study quality assessment",
-        "Only looking at conclusions",
-        "Only checking author names"
+        "Only checking author names",
+        "Only reading abstracts",
+        "Only looking at conclusions"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Study quality assessment evaluates research rigor and bias."
     },
     {
@@ -4262,11 +4262,11 @@ Advanced specialized nutritional interventions require integrating comprehensive
       question: "What includes state licensing requirements?",
       options: [
         "Only marketing",
-        "Licensing requirements in legal compliance",
         "Only office decoration",
+        "Licensing requirements in legal compliance",
         "Only client scheduling"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Licensing requirements include any state licensing needed to practice legally."
     },
     {
@@ -4275,8 +4275,8 @@ Advanced specialized nutritional interventions require integrating comprehensive
       options: [
         "Only standard recommendations",
         "Protein recommendations in renal nutrition",
-        "Only high protein",
-        "Only low protein"
+        "Only low protein",
+        "Only high protein"
       ],
       correctAnswer: 1,
       explanation: "Renal nutrition individualizes protein based on kidney disease stage."
@@ -4285,22 +4285,22 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 36,
       question: "What measures client outcomes effectively?",
       options: [
-        "Only client numbers",
-        "Outcome measurement in quality improvement",
+        "Only session counts",
         "Only income amounts",
-        "Only session counts"
+        "Outcome measurement in quality improvement",
+        "Only client numbers"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Outcome measurement assesses client health improvements from therapy."
     },
     {
       id: 37,
       question: "What supports respiratory muscle function?",
       options: [
-        "Only oxygen therapy",
+        "Only exercise",
         "Breathing muscle support",
         "Only medication",
-        "Only exercise"
+        "Only oxygen therapy"
       ],
       correctAnswer: 1,
       explanation: "Pulmonary nutrition includes nutrients supporting respiratory muscles."
@@ -4309,36 +4309,36 @@ Advanced specialized nutritional interventions require integrating comprehensive
       id: 38,
       question: "What prevents muscle loss in aging?",
       options: [
-        "Only weight loss",
         "Sarcopenia prevention",
         "Only medication",
+        "Only weight loss",
         "Only rest"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Geriatric nutrition includes approaches to prevent age-related muscle loss."
     },
     {
       id: 39,
       question: "What addresses root causes rather than symptoms?",
       options: [
+        "Only medication",
         "Only symptom management",
-        "Root cause resolution",
         "Only laboratory testing",
-        "Only medication"
+        "Root cause resolution"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Integrative approaches focus on identifying underlying root causes."
     },
     {
       id: 40,
       question: "What requires interdisciplinary collaboration?",
       options: [
-        "Only independent practice",
         "Advanced specialized interventions",
+        "Only independent practice",
         "Only nutritional therapy",
         "Only laboratory work"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Advanced interventions often require collaboration with other healthcare professionals."
     }
   ]

@@ -139,23 +139,23 @@ Professional counseling is grounded in scientific research, ethical practice, an
           question: "According to the ACA definition, counseling helps individuals accomplish goals in which areas?",
           options: [
             "Only mental health goals",
-            "Mental health, wellness, education, and career goals",
+            "Social and relationship goals only",
             "Educational and vocational goals only",
-            "Social and relationship goals only"
+            "Mental health, wellness, education, and career goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The American Counseling Association defines counseling as addressing mental health, wellness, education, AND career goals - making it comprehensive in scope."
         },
         {
           id: 2,
           question: "Which historical figure developed person-centered therapy?",
           options: [
-            "Sigmund Freud",
-            "Albert Ellis",
+            "Fritz Perls",
             "Carl Rogers",
-            "Fritz Perls"
+            "Albert Ellis",
+            "Sigmund Freud"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Carl Rogers (1902-1987) developed person-centered therapy, emphasizing unconditional positive regard, empathy, and congruence."
         },
         {
@@ -174,10 +174,10 @@ Professional counseling is grounded in scientific research, ethical practice, an
           id: 4,
           question: "What percentage of counselors typically work in mental health counseling?",
           options: [
-            "25%",
+            "75%",
             "40%",
-            "60%",
-            "75%"
+            "25%",
+            "60%"
           ],
           correctAnswer: 1,
           explanation: "According to the statistics provided, approximately 40% of professional counselors work in mental health counseling settings."
@@ -188,34 +188,34 @@ Professional counseling is grounded in scientific research, ethical practice, an
           options: [
             "Psychodynamic approach",
             "Humanistic-existential approach",
-            "Cognitive-behavioral approach",
-            "Solution-focused approach"
+            "Solution-focused approach",
+            "Cognitive-behavioral approach"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The cognitive-behavioral approach combines Aaron Beck's cognitive therapy with behavior therapy principles."
         },
         {
           id: 6,
           question: "How many common cognitive distortions are listed in the content?",
           options: [
-            "5 types",
-            "8 types",
             "10 types",
-            "12 types"
+            "12 types",
+            "8 types",
+            "5 types"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The content lists 10 common cognitive distortions that cognitive-behavioral therapy addresses."
         },
         {
           id: 7,
           question: "How many necessary conditions for therapeutic change did Carl Rogers identify?",
           options: [
-            "4 conditions",
-            "6 conditions",
             "8 conditions",
-            "10 conditions"
+            "10 conditions",
+            "4 conditions",
+            "6 conditions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Carl Rogers identified six necessary conditions for therapeutic change in person-centered therapy."
         },
         {
@@ -223,11 +223,11 @@ Professional counseling is grounded in scientific research, ethical practice, an
           question: "What is the typical caseload for a counselor in private practice?",
           options: [
             "10-15 clients weekly",
-            "20-30 clients weekly",
+            "60-70 clients weekly",
             "40-50 clients weekly",
-            "60-70 clients weekly"
+            "20-30 clients weekly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Private practice counselors typically see 20-30 clients per week according to the statistics provided."
         },
         {
@@ -246,34 +246,34 @@ Professional counseling is grounded in scientific research, ethical practice, an
           id: 10,
           question: "What are the three components of Evidence-Based Practice in counseling?",
           options: [
+            "Ethics, skills, and supervision",
             "Research, theory, and practice",
-            "Best research, clinical expertise, and client preferences",
             "Assessment, diagnosis, and treatment",
-            "Ethics, skills, and supervision"
+            "Best research, clinical expertise, and client preferences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "EBP includes: 1) Best available research, 2) Clinical expertise, and 3) Client values and preferences."
         },
         {
           id: 11,
           question: "How many sessions does research indicate for 50% of clients to show improvement?",
           options: [
-            "4-8 sessions",
             "12-16 sessions",
             "20-24 sessions",
+            "4-8 sessions",
             "30-40 sessions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Research indicates 12-16 sessions are typically needed for 50% of clients to show measurable improvement."
         },
         {
           id: 12,
           question: "Which movement contributed to the emergence of professional counseling in the 1900s?",
           options: [
-            "Medical movement",
+            "Industrial psychology movement",
             "Vocational guidance movement",
-            "Educational reform movement",
-            "Industrial psychology movement"
+            "Medical movement",
+            "Educational reform movement"
           ],
           correctAnswer: 1,
           explanation: "The vocational guidance movement, particularly Frank Parsons' work, was foundational in the early 1900s."
@@ -282,10 +282,10 @@ Professional counseling is grounded in scientific research, ethical practice, an
           id: 13,
           question: "How many stages are involved in professional identity development for counselors?",
           options: [
-            "3 stages",
+            "6 stages",
             "4 stages",
             "5 stages",
-            "6 stages"
+            "3 stages"
           ],
           correctAnswer: 1,
           explanation: "Professional identity development involves four stages: Exploration, Clarification, Commitment, and Integration."
@@ -294,12 +294,12 @@ Professional counseling is grounded in scientific research, ethical practice, an
           id: 14,
           question: "What percentage of counselors work in school settings?",
           options: [
+            "35%",
             "15%",
             "25%",
-            "35%",
             "45%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately 25% of professional counselors work in school counseling settings."
         },
         {
@@ -307,55 +307,55 @@ Professional counseling is grounded in scientific research, ethical practice, an
           question: "Which ethical principle involves respecting clients' right to self-determination?",
           options: [
             "Beneficence",
+            "Justice",
             "Nonmaleficence",
-            "Autonomy",
-            "Justice"
+            "Autonomy"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Autonomy is the ethical principle that involves respecting clients' right to make their own decisions."
         },
         {
           id: 16,
           question: "What is the typical student caseload for a school counselor?",
           options: [
+            "700-800 students",
             "100-150 students",
             "200-400 students",
-            "500-600 students",
-            "700-800 students"
+            "500-600 students"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "School counselors typically serve 200-400 students, though this can vary by region and school size."
         },
         {
           id: 17,
           question: "Who created Rational Emotive Behavior Therapy (REBT)?",
           options: [
-            "Carl Rogers",
-            "Aaron Beck",
             "Albert Ellis",
-            "Sigmund Freud"
+            "Aaron Beck",
+            "Sigmund Freud",
+            "Carl Rogers"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Albert Ellis (1913-2007) created Rational Emotive Behavior Therapy (REBT)."
         },
         {
           id: 18,
           question: "Which component is NOT part of the three core assumptions of cognitive-behavioral approach?",
           options: [
+            "Unconscious conflicts drive behavior",
             "Thoughts influence feelings",
             "Maladaptive thinking causes distress",
-            "Changing thoughts changes emotions",
-            "Unconscious conflicts drive behavior"
+            "Changing thoughts changes emotions"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "The unconscious conflicts concept comes from psychodynamic theory, not cognitive-behavioral approach."
         },
         {
           id: 19,
           question: "How many fundamental ethical principles are listed in the ACA Code of Ethics?",
           options: [
-            "3 principles",
             "4 principles",
+            "3 principles",
             "5 principles",
             "6 principles"
           ],
@@ -366,12 +366,12 @@ Professional counseling is grounded in scientific research, ethical practice, an
           id: 20,
           question: "What percentage of counselors work in career counseling?",
           options: [
-            "10%",
             "15%",
-            "20%",
-            "25%"
+            "25%",
+            "10%",
+            "20%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Approximately 15% of professional counselors specialize in career counseling."
         }
       ]
@@ -615,8 +615,8 @@ Understanding multiple counseling theories allows for flexible, client-centered 
           id: 1,
           question: "What percentage of client improvement can be attributed to common factors across theories?",
           options: [
-            "30%",
             "45%",
+            "30%",
             "60%",
             "75%"
           ],
@@ -627,12 +627,12 @@ Understanding multiple counseling theories allows for flexible, client-centered 
           id: 2,
           question: "How many major theoretical categories of counseling are identified?",
           options: [
-            "3 categories",
             "4 categories",
+            "6 categories",
             "5 categories",
-            "6 categories"
+            "3 categories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The four major categories are: Psychodynamic, Cognitive-Behavioral, Humanistic-Existential, and Postmodern theories."
         },
         {
@@ -651,84 +651,84 @@ Understanding multiple counseling theories allows for flexible, client-centered 
           id: 4,
           question: "How many skill modules are in Dialectical Behavior Therapy (DBT)?",
           options: [
-            "3 modules",
             "4 modules",
+            "3 modules",
             "5 modules",
             "6 modules"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "DBT includes four skill modules: Mindfulness, Distress Tolerance, Emotion Regulation, and Interpersonal Effectiveness."
         },
         {
           id: 5,
           question: "What percentage reduction in suicide attempts does DBT achieve?",
           options: [
-            "50%",
-            "65%",
             "77%",
-            "85%"
+            "85%",
+            "65%",
+            "50%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Research shows DBT achieves a 77% reduction in suicide attempts for individuals with borderline personality disorder."
         },
         {
           id: 6,
           question: "Which therapist quality correlates 0.32 with positive therapeutic outcomes?",
           options: [
-            "Therapist congruence",
             "Therapist experience",
-            "Theoretical orientation",
-            "Therapist empathy"
+            "Therapist congruence",
+            "Therapist empathy",
+            "Theoretical orientation"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Client ratings of therapist empathy correlate 0.32 with positive therapeutic outcomes according to research."
         },
         {
           id: 7,
           question: "How many ultimate concerns did Irvin Yalom identify in existential therapy?",
           options: [
-            "3 concerns",
-            "4 concerns",
             "5 concerns",
-            "6 concerns"
+            "6 concerns",
+            "4 concerns",
+            "3 concerns"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Yalom identified four ultimate concerns: Death, Freedom, Isolation, and Meaninglessness."
         },
         {
           id: 8,
           question: "What is the average number of sessions in Solution-Focused Brief Therapy?",
           options: [
-            "2.5 sessions",
             "4.5 sessions",
+            "2.5 sessions",
             "6.5 sessions",
             "8.5 sessions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SFBT typically averages 4.5 sessions per client, making it a truly brief therapy approach."
         },
         {
           id: 9,
           question: "What percentage of clients maintain SFBT improvements at 18-month follow-up?",
           options: [
-            "60%",
-            "74%",
+            "90%",
             "82%",
-            "90%"
+            "74%",
+            "60%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Research shows 74% of clients maintain improvements from SFBT at 18-month follow-up assessments."
         },
         {
           id: 10,
           question: "How many empowerment principles guide feminist therapy?",
           options: [
-            "3 principles",
-            "4 principles",
+            "6 principles",
             "5 principles",
-            "6 principles"
+            "3 principles",
+            "4 principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Feminist therapy is guided by four empowerment principles, including 'the personal is political.'"
         },
         {
@@ -736,44 +736,44 @@ Understanding multiple counseling theories allows for flexible, client-centered 
           question: "What does 'I' stand for in Lazarus' BASIC ID multimodal assessment?",
           options: [
             "Intelligence",
+            "Integration",
             "Imagery",
-            "Insight",
-            "Integration"
+            "Insight"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "In BASIC ID, 'I' stands for Imagery - one of the seven assessment domains."
         },
         {
           id: 12,
           question: "What percentage of therapeutic outcome variance do common factors account for?",
           options: [
+            "40%",
             "20%",
             "30%",
-            "40%",
             "50%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Research indicates common factors account for approximately 30% of therapeutic outcome variance."
         },
         {
           id: 13,
           question: "What percentage of children show significant improvement with TF-CBT?",
           options: [
-            "60-70%",
-            "70-80%",
             "80-90%",
+            "70-80%",
+            "60-70%",
             "90-95%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Trauma-Focused CBT helps 80-90% of children show significant improvement from trauma symptoms."
         },
         {
           id: 14,
           question: "How many core processes are in Acceptance and Commitment Therapy (ACT)?",
           options: [
-            "4 processes",
-            "6 processes",
             "8 processes",
+            "6 processes",
+            "4 processes",
             "10 processes"
           ],
           correctAnswer: 1,
@@ -783,21 +783,21 @@ Understanding multiple counseling theories allows for flexible, client-centered 
           id: 15,
           question: "What is the effect size of ACT for anxiety disorders?",
           options: [
-            "0.42",
-            "0.55",
+            "0.75",
             "0.68",
-            "0.75"
+            "0.55",
+            "0.42"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "ACT shows an effect size of 0.68 for treating anxiety disorders, indicating moderate to large effects."
         },
         {
           id: 16,
           question: "By what percentage do cultural adaptations improve outcomes for ethnic minority clients?",
           options: [
-            "25%",
-            "40%",
             "55%",
+            "40%",
+            "25%",
             "70%"
           ],
           correctAnswer: 1,
@@ -809,22 +809,22 @@ Understanding multiple counseling theories allows for flexible, client-centered 
           options: [
             "2 types",
             "3 types",
-            "4 types",
-            "5 types"
+            "5 types",
+            "4 types"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "There are four types of cultural adaptations: Surface structure, Deep structure, Language, and Therapist match."
         },
         {
           id: 18,
           question: "How many theories do counselors typically try during their training?",
           options: [
-            "1-2 theories",
-            "2-3 theories",
             "3-4 theories",
-            "4-5 theories"
+            "4-5 theories",
+            "2-3 theories",
+            "1-2 theories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Counselors typically try 2-3 different theories during their training before developing their orientation."
         },
         {
@@ -843,12 +843,12 @@ Understanding multiple counseling theories allows for flexible, client-centered 
           id: 20,
           question: "What effect size does psychodynamic therapy show for interpersonal functioning?",
           options: [
-            "0.55",
-            "0.63",
             "0.71",
-            "0.79"
+            "0.79",
+            "0.63",
+            "0.55"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Psychodynamic therapy shows an effect size of 0.71 for improving interpersonal functioning."
         }
       ]
@@ -1175,10 +1175,10 @@ Effective assessment requires integrating multiple methods, considering cultural
           id: 1,
           question: "What percentage of professional counselors regularly use formal assessment instruments?",
           options: [
+            "95%",
             "65%",
-            "75%",
             "85%",
-            "95%"
+            "75%"
           ],
           correctAnswer: 2,
           explanation: "85% of professional counselors report regularly using formal assessment instruments in their practice."
@@ -1187,10 +1187,10 @@ Effective assessment requires integrating multiple methods, considering cultural
           id: 2,
           question: "How many primary purposes of clinical assessment are identified?",
           options: [
-            "2 purposes",
+            "5 purposes",
             "3 purposes",
-            "4 purposes",
-            "5 purposes"
+            "2 purposes",
+            "4 purposes"
           ],
           correctAnswer: 1,
           explanation: "The three primary purposes are: Screening, Diagnosis, and Treatment planning."
@@ -1199,22 +1199,22 @@ Effective assessment requires integrating multiple methods, considering cultural
           id: 3,
           question: "How many key areas does the initial clinical interview typically cover?",
           options: [
-            "3 areas",
             "4 areas",
             "5 areas",
-            "6 areas"
+            "6 areas",
+            "3 areas"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The initial interview covers five key areas including presenting problem, psychosocial history, mental status exam, risk assessment, and strengths."
         },
         {
           id: 4,
           question: "What percentage of counselors use behavioral assessment for specific issues?",
           options: [
+            "75%",
             "45%",
-            "55%",
             "65%",
-            "75%"
+            "55%"
           ],
           correctAnswer: 2,
           explanation: "65% of counselors use behavioral assessment methods for issues like anxiety, ADHD, and behavioral disorders."
@@ -1223,36 +1223,36 @@ Effective assessment requires integrating multiple methods, considering cultural
           id: 5,
           question: "How many diagnostic categories are in the DSM-5-TR?",
           options: [
+            "22 categories",
             "18 categories",
             "20 categories",
-            "22 categories",
             "24 categories"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The DSM-5-TR includes 22 diagnostic categories organizing 157 specific disorders."
         },
         {
           id: 6,
           question: "What percentage of diagnostic agreement exists between DSM-5 and ICD-11 for common disorders?",
           options: [
-            "85%",
-            "88%",
+            "95%",
             "92%",
-            "95%"
+            "88%",
+            "85%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Research shows 92% diagnostic agreement between DSM-5 and ICD-11 classification systems for common disorders."
         },
         {
           id: 7,
           question: "How many symptoms are required for Major Depressive Disorder diagnosis?",
           options: [
-            "3 or more symptoms",
-            "4 or more symptoms",
             "5 or more symptoms",
-            "6 or more symptoms"
+            "6 or more symptoms",
+            "4 or more symptoms",
+            "3 or more symptoms"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "MDD requires five or more symptoms during the same 2-week period, including depressed mood or anhedonia."
         },
         {
@@ -1260,47 +1260,47 @@ Effective assessment requires integrating multiple methods, considering cultural
           question: "What PHQ-9 score indicates moderately severe depression?",
           options: [
             "10-14",
-            "15-19",
             "20-24",
-            "25-27"
+            "25-27",
+            "15-19"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "PHQ-9 scores of 15-19 indicate moderately severe depression requiring clinical attention."
         },
         {
           id: 9,
           question: "How long must excessive worry last for GAD diagnosis?",
           options: [
-            "3 months",
             "6 months",
             "9 months",
+            "3 months",
             "12 months"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Generalized Anxiety Disorder requires excessive worry more days than not for at least 6 months."
         },
         {
           id: 10,
           question: "What GAD-7 score indicates severe anxiety?",
           options: [
-            "10-14",
-            "15-21",
             "18-21",
-            "20-21"
+            "10-14",
+            "20-21",
+            "15-21"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "GAD-7 scores of 15-21 indicate severe anxiety levels requiring intervention."
         },
         {
           id: 11,
           question: "How many symptom clusters are in PTSD criteria?",
           options: [
-            "3 clusters",
-            "4 clusters",
+            "6 clusters",
             "5 clusters",
-            "6 clusters"
+            "4 clusters",
+            "3 clusters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "DSM-5 PTSD criteria include four symptom clusters: Intrusion, Avoidance, Negative alterations, and Arousal."
         },
         {
@@ -1308,21 +1308,21 @@ Effective assessment requires integrating multiple methods, considering cultural
           question: "How many personality disorder clusters are in the DSM system?",
           options: [
             "2 clusters",
-            "3 clusters",
             "4 clusters",
-            "5 clusters"
+            "5 clusters",
+            "3 clusters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Personality disorders are organized into three clusters: A (Odd/Eccentric), B (Dramatic/Emotional), and C (Anxious/Fearful)."
         },
         {
           id: 13,
           question: "What is the reliability range for MMPI-2 clinical scales?",
           options: [
-            "0.50-0.70",
+            "0.80-0.95",
             "0.60-0.80",
             "0.70-0.90",
-            "0.80-0.95"
+            "0.50-0.70"
           ],
           correctAnswer: 2,
           explanation: "MMPI-2 clinical scales typically show reliability coefficients in the 0.70-0.90 range."
@@ -1331,21 +1331,21 @@ Effective assessment requires integrating multiple methods, considering cultural
           id: 14,
           question: "How much does a previous suicide attempt increase suicide risk?",
           options: [
-            "10x",
-            "20x",
             "30x",
-            "40x"
+            "10x",
+            "40x",
+            "20x"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "A previous suicide attempt increases subsequent suicide risk by approximately 40 times."
         },
         {
           id: 15,
           question: "How many categories are in the Columbia-Suicide Severity Rating Scale?",
           options: [
-            "6 categories",
             "7 categories",
             "8 categories",
+            "6 categories",
             "9 categories"
           ],
           correctAnswer: 3,
@@ -1355,36 +1355,36 @@ Effective assessment requires integrating multiple methods, considering cultural
           id: 16,
           question: "How many domains are in the Cultural Formulation Interview?",
           options: [
-            "3 domains",
-            "4 domains",
+            "6 domains",
             "5 domains",
-            "6 domains"
+            "3 domains",
+            "4 domains"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The CFI covers four domains: Cultural definition of problem, perceptions of cause, coping factors, and help-seeking factors."
         },
         {
           id: 17,
           question: "By what percentage may standardized tests underpredict functioning for minority clients?",
           options: [
+            "20-25%",
             "5-10%",
-            "10-15%",
             "15-20%",
-            "20-25%"
+            "10-15%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Research indicates standardized tests may underpredict functioning for minority clients by 10-15%."
         },
         {
           id: 18,
           question: "How many essential sections should an assessment report include?",
           options: [
-            "8 sections",
-            "9 sections",
             "10 sections",
-            "11 sections"
+            "11 sections",
+            "9 sections",
+            "8 sections"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "A comprehensive assessment report should include ten essential sections from identifying information to recommendations."
         },
         {
@@ -1392,23 +1392,23 @@ Effective assessment requires integrating multiple methods, considering cultural
           question: "What percentage of verbal feedback do clients remember without written reinforcement?",
           options: [
             "30%",
-            "40%",
             "50%",
-            "60%"
+            "60%",
+            "40%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clients remember only about 40% of verbal feedback without written summaries or reinforcement."
         },
         {
           id: 20,
           question: "What percentage of licensing complaints involve assessment-related issues?",
           options: [
-            "25%",
+            "40%",
             "30%",
-            "35%",
-            "40%"
+            "25%",
+            "35%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Approximately 40% of licensing complaints involve assessment-related ethical or competence issues."
         }
       ]
@@ -1831,45 +1831,45 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           id: 1,
           question: "What percentage of therapeutic effectiveness does active listening account for?",
           options: [
-            "30%",
             "45%",
             "55%",
+            "30%",
             "65%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Research indicates active listening accounts for approximately 45% of therapeutic effectiveness in building rapport."
         },
         {
           id: 2,
           question: "How many types of empathy are identified in counseling?",
           options: [
-            "2 types",
-            "3 types",
             "4 types",
-            "5 types"
+            "2 types",
+            "5 types",
+            "3 types"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Three types of empathy are: Affective empathy, Cognitive empathy, and Compassionate empathy."
         },
         {
           id: 3,
           question: "By what percentage does appropriate attending increase client disclosure?",
           options: [
-            "40%",
-            "50%",
+            "70%",
             "60%",
-            "70%"
+            "40%",
+            "50%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Appropriate attending behaviors increase client disclosure by approximately 60%."
         },
         {
           id: 4,
           question: "What percentage of therapeutic questions should typically be open questions?",
           options: [
-            "75%",
             "80%",
             "85%",
+            "75%",
             "90%"
           ],
           correctAnswer: 3,
@@ -1879,12 +1879,12 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           id: 5,
           question: "What effect size does behavioral activation show for depression?",
           options: [
+            "0.87",
             "0.65",
             "0.74",
-            "0.87",
             "0.92"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Behavioral activation shows an effect size of 0.87 for treating depression, comparable to medication efficacy."
         },
         {
@@ -1903,36 +1903,36 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           id: 7,
           question: "By what percentage does focusing increase emotional awareness compared to traditional reflection?",
           options: [
-            "25%",
-            "30%",
+            "40%",
             "35%",
-            "40%"
+            "30%",
+            "25%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Focusing techniques increase emotional awareness by approximately 40% compared to traditional reflection methods."
         },
         {
           id: 8,
           question: "How many more solutions do exception questions help clients identify?",
           options: [
-            "20-30%",
             "25-35%",
             "30-40%",
-            "35-45%"
+            "35-45%",
+            "20-30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Exception questions help clients identify 30-40% more solutions than problem-focused approaches."
         },
         {
           id: 9,
           question: "By what percentage do scaling questions increase client self-efficacy?",
           options: [
-            "15%",
             "20%",
             "25%",
+            "15%",
             "30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Scaling questions increase client self-efficacy by approximately 25% through highlighting progress."
         },
         {
@@ -1951,24 +1951,24 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           id: 11,
           question: "By what percentage does DBT reduce self-harm in borderline personality disorder?",
           options: [
-            "65%",
+            "77%",
             "70%",
-            "75%",
-            "77%"
+            "65%",
+            "75%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "DBT reduces self-harm behaviors by 77% in individuals with borderline personality disorder."
         },
         {
           id: 12,
           question: "What effect size does ACT show for anxiety disorders?",
           options: [
+            "0.74",
             "0.59",
             "0.68",
-            "0.74",
             "0.81"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Acceptance and Commitment Therapy shows an effect size of 0.68 for treating anxiety disorders."
         },
         {
@@ -1976,9 +1976,9 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           question: "What percentage of children show improvement with Trauma-Focused CBT?",
           options: [
             "70-80%",
-            "75-85%",
+            "85-95%",
             "80-90%",
-            "85-95%"
+            "75-85%"
           ],
           correctAnswer: 2,
           explanation: "Trauma-Focused CBT helps 80-90% of children show significant improvement from trauma symptoms."
@@ -1987,10 +1987,10 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           id: 14,
           question: "What percentage remission from PTSD does EMDR achieve after 6-12 sessions?",
           options: [
-            "65%",
+            "82%",
             "70%",
             "76%",
-            "82%"
+            "65%"
           ],
           correctAnswer: 2,
           explanation: "EMDR shows 76% remission from PTSD symptoms after completing 6-12 sessions."
@@ -1999,60 +1999,60 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           id: 15,
           question: "How many therapeutic factors did Yalom identify for group counseling?",
           options: [
-            "8 factors",
             "10 factors",
             "11 factors",
+            "8 factors",
             "12 factors"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Irvin Yalom identified 11 therapeutic factors that contribute to group counseling effectiveness."
         },
         {
           id: 16,
           question: "What percentage of clients improve in group counseling for interpersonal issues?",
           options: [
-            "70%",
-            "75%",
             "80%",
+            "75%",
+            "70%",
             "85%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Group counseling shows 80% of clients improve compared to 65% in individual therapy for interpersonal issues."
         },
         {
           id: 17,
           question: "What recovery rate does EFT show for marital distress?",
           options: [
-            "65-70%",
             "70-73%",
             "75-78%",
-            "80-83%"
+            "80-83%",
+            "65-70%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Emotionally Focused Therapy shows 70-73% recovery rates from marital distress."
         },
         {
           id: 18,
           question: "What percentage accuracy does the Gottman Method have in predicting divorce?",
           options: [
-            "88%",
-            "91%",
+            "97%",
             "94%",
-            "97%"
+            "91%",
+            "88%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The Gottman Method predicts divorce with 94% accuracy based on specific negative interaction patterns."
         },
         {
           id: 19,
           question: "By what percentage does CISD reduce PTSD symptoms when conducted within 72 hours?",
           options: [
-            "30-50%",
-            "35-55%",
             "40-60%",
-            "45-65%"
+            "35-55%",
+            "45-65%",
+            "30-50%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Critical Incident Stress Debriefing reduces PTSD symptoms by 40-60% when conducted within 72 hours of trauma."
         },
         {
@@ -2060,11 +2060,11 @@ Effective counseling requires a diverse toolkit of evidence-based techniques ada
           question: "By what percentage does safety planning reduce suicide attempts?",
           options: [
             "35%",
-            "40%",
             "45%",
+            "40%",
             "50%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Safety planning interventions reduce suicide attempts by 45% compared to no intervention."
         }
       ]
@@ -2404,36 +2404,36 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           id: 1,
           question: "What percentage of ethical violations occur due to poor decision-making processes?",
           options: [
-            "70%",
-            "75%",
             "80%",
-            "85%"
+            "70%",
+            "85%",
+            "75%"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Research shows 85% of ethical violations occur due to inadequate decision-making processes rather than malicious intent."
         },
         {
           id: 2,
           question: "How many main sections are in the ACA Code of Ethics?",
           options: [
-            "6 sections",
             "7 sections",
-            "8 sections",
-            "9 sections"
+            "6 sections",
+            "9 sections",
+            "8 sections"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The ACA Code of Ethics contains eight main sections covering all aspects of professional practice."
         },
         {
           id: 3,
           question: "How many specific standards does the ACA Code include?",
           options: [
-            "125",
-            "150",
             "168",
+            "150",
+            "125",
             "185"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "The ACA Code of Ethics includes 168 specific standards that guide counselor conduct and decision-making."
         },
         {
@@ -2441,35 +2441,35 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           question: "What percentage of malpractice claims involve inadequate informed consent?",
           options: [
             "60%",
-            "65%",
             "70%",
-            "75%"
+            "75%",
+            "65%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Approximately 70% of malpractice claims involve issues related to inadequate informed consent procedures."
         },
         {
           id: 5,
           question: "How many states have duty to warn laws following Tarasoff?",
           options: [
-            "25 states",
             "29 states",
+            "37 states",
             "33 states",
-            "37 states"
+            "25 states"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Currently, 29 states have enacted duty to warn laws based on the Tarasoff decision."
         },
         {
           id: 6,
           question: "What percentage of counselors have invoked duty to warn at least once?",
           options: [
-            "30%",
-            "35%",
+            "45%",
             "40%",
-            "45%"
+            "35%",
+            "30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Research indicates 40% of counselors have invoked duty to warn at least once in their professional career."
         },
         {
@@ -2477,11 +2477,11 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           question: "For how many years post-termination does ACA prohibit sexual relationships with former clients?",
           options: [
             "3 years",
-            "5 years",
+            "10 years",
             "7 years",
-            "10 years"
+            "5 years"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ACA Standard A.5.c. prohibits sexual or romantic relationships for five years following termination."
         },
         {
@@ -2490,10 +2490,10 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           options: [
             "4-8%",
             "6-10%",
-            "8-12%",
-            "10-14%"
+            "10-14%",
+            "8-12%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Research indicates 8-12% of counselors report some form of boundary violation during their career."
         },
         {
@@ -2512,12 +2512,12 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           id: 10,
           question: "How many hours of supervision are recommended per 20 client hours for trainees?",
           options: [
-            "1 hour",
             "2 hours",
+            "1 hour",
             "3 hours",
             "4 hours"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The recommended ratio is 1 hour of supervision for every 20 client hours for counseling trainees."
         },
         {
@@ -2525,57 +2525,57 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           question: "What percentage of ethical complaints involve supervision issues?",
           options: [
             "10%",
-            "15%",
+            "25%",
             "20%",
-            "25%"
+            "15%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately 15% of ethical complaints filed involve issues related to supervision practices."
         },
         {
           id: 12,
           question: "What percentage of state licensing boards have specific telehealth regulations?",
           options: [
-            "50%",
-            "55%",
             "60%",
-            "65%"
+            "50%",
+            "65%",
+            "55%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Currently, 60% of state licensing boards have established specific regulations for telehealth practice."
         },
         {
           id: 13,
           question: "How many continuing education hours are typically required every 2 years?",
           options: [
-            "30 hours",
-            "35 hours",
             "40 hours",
-            "45 hours"
+            "45 hours",
+            "35 hours",
+            "30 hours"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Most states require 40 hours of continuing education every 2 years to maintain licensure."
         },
         {
           id: 14,
           question: "What is the most common type of malpractice claim against counselors?",
           options: [
-            "Sexual misconduct",
+            "Breach of confidentiality",
             "Incorrect diagnosis",
-            "Inappropriate treatment",
-            "Breach of confidentiality"
+            "Sexual misconduct",
+            "Inappropriate treatment"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Inappropriate treatment accounts for 35% of malpractice claims, making it the most common allegation."
         },
         {
           id: 15,
           question: "How long should adult client records typically be retained?",
           options: [
-            "3-5 years",
+            "10-12 years",
             "5-7 years",
             "7-10 years",
-            "10-12 years"
+            "3-5 years"
           ],
           correctAnswer: 1,
           explanation: "Most states require retention of adult client records for 5-7 years from the last contact."
@@ -2584,12 +2584,12 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           id: 16,
           question: "By what percentage can risk management strategies reduce liability risk?",
           options: [
-            "40-60%",
             "50-70%",
-            "60-80%",
-            "70-90%"
+            "70-90%",
+            "40-60%",
+            "60-80%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Implementing comprehensive risk management strategies can reduce liability risk by 60-80%."
         },
         {
@@ -2598,10 +2598,10 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           options: [
             "45,000+",
             "50,000+",
-            "55,000+",
-            "60,000+"
+            "60,000+",
+            "55,000+"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The American Counseling Association has over 55,000 members, making it the largest counseling organization."
         },
         {
@@ -2610,34 +2610,34 @@ Ethical practice requires ongoing education, consultation, and self-reflection. 
           options: [
             "800-1,100",
             "1,000-1,300",
-            "1,200-1,500",
-            "1,400-1,700"
+            "1,400-1,700",
+            "1,200-1,500"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 1,200-1,500 complaints are filed with state licensing boards each year."
         },
         {
           id: 19,
           question: "What percentage of complaints result in license revocation?",
           options: [
-            "5%",
             "10%",
+            "5%",
             "15%",
             "20%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Approximately 10% of complaints result in license revocation, the most severe disciplinary action."
         },
         {
           id: 20,
           question: "What is the most common ethical violation reported?",
           options: [
+            "Sexual misconduct",
             "Incompetence",
-            "Dual relationships",
             "Fraud",
-            "Sexual misconduct"
+            "Dual relationships"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dual relationships account for 25% of ethical violations, making them the most commonly reported issue."
         }
       ]
@@ -3000,36 +3000,36 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
           id: 1,
           question: "What percentage of counselors work in private practice?",
           options: [
+            "40%",
             "25%",
             "30%",
-            "35%",
-            "40%"
+            "35%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 35% of professional counselors work in private practice settings."
         },
         {
           id: 2,
           question: "What is the average caseload for a private practice counselor?",
           options: [
+            "25-35 clients weekly",
             "15-25 clients weekly",
             "20-30 clients weekly",
-            "25-35 clients weekly",
             "30-40 clients weekly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Private practice counselors typically maintain caseloads of 20-30 clients per week."
         },
         {
           id: 3,
           question: "What percentage of private practices survive 5+ years?",
           options: [
-            "60%",
             "65%",
-            "70%",
-            "75%"
+            "75%",
+            "60%",
+            "70%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 70% of private counseling practices survive for 5 years or more."
         },
         {
@@ -3037,20 +3037,20 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
           question: "What is the typical panel acceptance rate for insurance participation?",
           options: [
             "20-30%",
-            "30-40%",
             "40-50%",
-            "50-60%"
+            "50-60%",
+            "30-40%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Insurance panels typically accept 30-40% of provider applications."
         },
         {
           id: 5,
           question: "What percentage of billed amounts do counselors typically collect?",
           options: [
-            "75-85%",
-            "80-90%",
             "85-95%",
+            "80-90%",
+            "75-85%",
             "90-95%"
           ],
           correctAnswer: 1,
@@ -3060,24 +3060,24 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
           id: 6,
           question: "What percentage of potential clients research online before contacting a counselor?",
           options: [
-            "60%",
+            "75%",
             "65%",
-            "70%",
-            "75%"
+            "60%",
+            "70%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately 70% of potential clients research counselors online before making contact."
         },
         {
           id: 7,
           question: "What percentage of website visitors typically convert to inquiries?",
           options: [
-            "30%",
-            "35%",
             "40%",
+            "35%",
+            "30%",
             "45%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "On average, 40% of website visitors convert to inquiries about counseling services."
         },
         {
@@ -3097,47 +3097,47 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
           question: "How many continuing education hours are typically required every 2 years?",
           options: [
             "30 hours",
+            "45 hours",
             "35 hours",
-            "40 hours",
-            "45 hours"
+            "40 hours"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Most states require 40 hours of continuing education every 2 years for license renewal."
         },
         {
           id: 10,
           question: "What percentage of counselors experience burnout symptoms?",
           options: [
-            "30-50%",
+            "45-65%",
             "35-55%",
-            "40-60%",
-            "45-65%"
+            "30-50%",
+            "40-60%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Research indicates 40-60% of counselors experience burnout symptoms during their career."
         },
         {
           id: 11,
           question: "By what percentage does regular exercise reduce burnout risk?",
           options: [
-            "25%",
-            "30%",
             "35%",
-            "40%"
+            "25%",
+            "40%",
+            "30%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regular exercise (150 minutes weekly) reduces burnout risk by approximately 30%."
         },
         {
           id: 12,
           question: "What percentage of practices use electronic health records?",
           options: [
-            "65%",
-            "70%",
             "75%",
-            "80%"
+            "80%",
+            "70%",
+            "65%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately 75% of counseling practices now use electronic health records."
         },
         {
@@ -3145,69 +3145,69 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
           question: "By what percentage can outcome tracking improve client results?",
           options: [
             "5-15%",
-            "10-20%",
             "15-25%",
+            "10-20%",
             "20-30%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Using outcome measures regularly can improve client results by 10-20%."
         },
         {
           id: 14,
           question: "What percentage of clients improve when therapists use outcome measures?",
           options: [
-            "65%",
-            "70%",
             "75%",
-            "80%"
+            "80%",
+            "65%",
+            "70%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Research shows 70% of clients show improvement when therapists regularly use outcome measures."
         },
         {
           id: 15,
           question: "Which specialty has seen 25% growth in demand?",
           options: [
-            "Addiction counseling",
-            "Child and adolescent",
+            "Couples and family",
             "Trauma and PTSD",
-            "Couples and family"
+            "Addiction counseling",
+            "Child and adolescent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Trauma and PTSD specialty has experienced 25% growth in demand in recent years."
         },
         {
           id: 16,
           question: "What percentage growth has teletherapy experienced?",
           options: [
-            "30%",
-            "35%",
             "40%",
-            "45%"
+            "45%",
+            "30%",
+            "35%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Teletherapy has experienced approximately 40% growth, accelerated by pandemic conditions."
         },
         {
           id: 17,
           question: "What is the average career length for counselors?",
           options: [
-            "10-15 years",
             "12-18 years",
             "15-20 years",
+            "10-15 years",
             "18-25 years"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The average counseling career lasts 15-20 years, though this varies by setting and specialty."
         },
         {
           id: 18,
           question: "What retirement savings goal is recommended for counselors?",
           options: [
-            "8-12 times annual income",
-            "10-15 times annual income",
             "12-18 times annual income",
-            "15-20 times annual income"
+            "10-15 times annual income",
+            "15-20 times annual income",
+            "8-12 times annual income"
           ],
           correctAnswer: 1,
           explanation: "Financial planners recommend saving 10-15 times annual income for retirement."
@@ -3216,24 +3216,24 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
           id: 19,
           question: "What is the average retirement age for counselors?",
           options: [
-            "60-63",
             "62-65",
-            "64-67",
-            "66-69"
+            "66-69",
+            "60-63",
+            "64-67"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Counselors typically retire between ages 62-65, similar to other professions."
         },
         {
           id: 20,
           question: "What percentage of counseling practice is projected to transform through technology in 10 years?",
           options: [
-            "20-30%",
-            "25-35%",
             "30-40%",
-            "35-45%"
+            "35-45%",
+            "25-35%",
+            "20-30%"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Experts project technology will transform 30-40% of counseling practice within the next decade."
         }
       ]
@@ -3253,12 +3253,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 1,
         question: "According to the ACA definition, counseling helps individuals accomplish goals in which areas?",
         options: [
-          "Only mental health goals",
           "Mental health, wellness, education, and career goals",
-          "Educational and vocational goals only",
-          "Social and relationship goals only"
+          "Only mental health goals",
+          "Social and relationship goals only",
+          "Educational and vocational goals only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Counseling addresses comprehensive life goals including mental health, wellness, education, and career development."
       },
       {
@@ -3267,11 +3267,11 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         question: "What percentage of counselors work in mental health counseling settings?",
         options: [
           "25%",
-          "40%",
           "60%",
+          "40%",
           "75%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Approximately 40% of professional counselors work in mental health counseling settings."
       },
       {
@@ -3279,12 +3279,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 1,
         question: "How many core principles guide professional counseling ethics?",
         options: [
+          "6 principles",
           "3 principles",
           "4 principles",
-          "5 principles",
-          "6 principles"
+          "5 principles"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Five fundamental ethical principles guide counseling: Autonomy, Nonmaleficence, Beneficence, Justice, and Fidelity."
       },
       {
@@ -3292,12 +3292,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 1,
         question: "What is the typical caseload for a private practice counselor?",
         options: [
-          "10-15 clients weekly",
           "20-30 clients weekly",
           "40-50 clients weekly",
-          "60-70 clients weekly"
+          "60-70 clients weekly",
+          "10-15 clients weekly"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Private practice counselors typically see 20-30 clients per week according to industry statistics."
       },
       {
@@ -3305,12 +3305,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 1,
         question: "How many sessions does research indicate for 50% of clients to show improvement?",
         options: [
-          "4-8 sessions",
           "12-16 sessions",
+          "4-8 sessions",
           "20-24 sessions",
           "30-40 sessions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Research indicates 12-16 sessions are typically needed for 50% of clients to show measurable improvement."
       },
       {
@@ -3318,10 +3318,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 1,
         question: "Which historical movement contributed to counseling's emergence in the 1900s?",
         options: [
-          "Medical movement",
+          "Industrial psychology movement",
           "Vocational guidance movement",
-          "Educational reform movement",
-          "Industrial psychology movement"
+          "Medical movement",
+          "Educational reform movement"
         ],
         correctAnswer: 1,
         explanation: "The vocational guidance movement, particularly Frank Parsons' work, was foundational in the early 1900s."
@@ -3333,12 +3333,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 2,
         question: "What percentage of client improvement can be attributed to common factors across theories?",
         options: [
-          "30%",
           "45%",
-          "60%",
-          "75%"
+          "30%",
+          "75%",
+          "60%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Research shows 60% of client improvement comes from common factors present across all therapeutic approaches."
       },
       {
@@ -3359,10 +3359,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 2,
         question: "What percentage reduction in suicide attempts does DBT achieve?",
         options: [
-          "50%",
           "65%",
+          "85%",
           "77%",
-          "85%"
+          "50%"
         ],
         correctAnswer: 2,
         explanation: "Research shows DBT achieves a 77% reduction in suicide attempts for individuals with borderline personality disorder."
@@ -3373,11 +3373,11 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         question: "What is the average number of sessions in Solution-Focused Brief Therapy?",
         options: [
           "2.5 sessions",
-          "4.5 sessions",
           "6.5 sessions",
-          "8.5 sessions"
+          "8.5 sessions",
+          "4.5 sessions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "SFBT typically averages 4.5 sessions per client, making it a truly brief therapy approach."
       },
       {
@@ -3385,12 +3385,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 2,
         question: "What effect size does ACT show for anxiety disorders?",
         options: [
-          "0.42",
-          "0.55",
+          "0.75",
           "0.68",
-          "0.75"
+          "0.55",
+          "0.42"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Acceptance and Commitment Therapy shows an effect size of 0.68 for treating anxiety disorders."
       },
       {
@@ -3398,10 +3398,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 2,
         question: "How many core processes are in Acceptance and Commitment Therapy (ACT)?",
         options: [
-          "4 processes",
-          "6 processes",
           "8 processes",
-          "10 processes"
+          "6 processes",
+          "10 processes",
+          "4 processes"
         ],
         correctAnswer: 1,
         explanation: "ACT includes six core processes that form the hexaflex model of psychological flexibility."
@@ -3413,12 +3413,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 3,
         question: "What percentage of professional counselors regularly use formal assessment instruments?",
         options: [
-          "65%",
-          "75%",
           "85%",
-          "95%"
+          "95%",
+          "75%",
+          "65%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "85% of professional counselors report regularly using formal assessment instruments in their practice."
       },
       {
@@ -3426,12 +3426,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 3,
         question: "How many diagnostic categories are in the DSM-5-TR?",
         options: [
-          "18 categories",
-          "20 categories",
           "22 categories",
-          "24 categories"
+          "18 categories",
+          "24 categories",
+          "20 categories"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "The DSM-5-TR includes 22 diagnostic categories organizing 157 specific disorders."
       },
       {
@@ -3439,12 +3439,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 3,
         question: "What PHQ-9 score indicates moderately severe depression?",
         options: [
-          "10-14",
           "15-19",
+          "25-27",
           "20-24",
-          "25-27"
+          "10-14"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "PHQ-9 scores of 15-19 indicate moderately severe depression requiring clinical attention."
       },
       {
@@ -3453,11 +3453,11 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         question: "How much does a previous suicide attempt increase suicide risk?",
         options: [
           "10x",
+          "40x",
           "20x",
-          "30x",
-          "40x"
+          "30x"
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         explanation: "A previous suicide attempt increases subsequent suicide risk by approximately 40 times."
       },
       {
@@ -3465,12 +3465,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 3,
         question: "How many domains are in the Cultural Formulation Interview?",
         options: [
-          "3 domains",
-          "4 domains",
           "5 domains",
-          "6 domains"
+          "6 domains",
+          "3 domains",
+          "4 domains"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "The CFI covers four domains: Cultural definition of problem, perceptions of cause, coping factors, and help-seeking factors."
       },
       {
@@ -3478,12 +3478,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 3,
         question: "What percentage of licensing complaints involve assessment-related issues?",
         options: [
-          "25%",
           "30%",
+          "40%",
           "35%",
-          "40%"
+          "25%"
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         explanation: "Approximately 40% of licensing complaints involve assessment-related ethical or competence issues."
       },
 
@@ -3493,10 +3493,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 4,
         question: "What percentage of therapeutic effectiveness does active listening account for?",
         options: [
-          "30%",
+          "65%",
           "45%",
-          "55%",
-          "65%"
+          "30%",
+          "55%"
         ],
         correctAnswer: 1,
         explanation: "Research indicates active listening accounts for approximately 45% of therapeutic effectiveness in building rapport."
@@ -3506,12 +3506,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 4,
         question: "What effect size does behavioral activation show for depression?",
         options: [
-          "0.65",
+          "0.92",
           "0.74",
-          "0.87",
-          "0.92"
+          "0.65",
+          "0.87"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Behavioral activation shows an effect size of 0.87 for treating depression, comparable to medication efficacy."
       },
       {
@@ -3519,9 +3519,9 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 4,
         question: "What is the effectiveness range for exposure therapy with specific phobias?",
         options: [
-          "60-75%",
           "65-80%",
           "70-85%",
+          "60-75%",
           "75-90%"
         ],
         correctAnswer: 3,
@@ -3532,12 +3532,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 4,
         question: "By what percentage does DBT reduce self-harm in borderline personality disorder?",
         options: [
+          "77%",
           "65%",
-          "70%",
           "75%",
-          "77%"
+          "70%"
         ],
-        correctAnswer: 3,
+        correctAnswer: 0,
         explanation: "DBT reduces self-harm behaviors by 77% in individuals with borderline personality disorder."
       },
       {
@@ -3545,8 +3545,8 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 4,
         question: "What percentage of children show improvement with Trauma-Focused CBT?",
         options: [
-          "70-80%",
           "75-85%",
+          "70-80%",
           "80-90%",
           "85-95%"
         ],
@@ -3559,11 +3559,11 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         question: "What percentage remission from PTSD does EMDR achieve after 6-12 sessions?",
         options: [
           "65%",
-          "70%",
           "76%",
-          "82%"
+          "82%",
+          "70%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "EMDR shows 76% remission from PTSD symptoms after completing 6-12 sessions."
       },
 
@@ -3574,11 +3574,11 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         question: "What percentage of ethical violations occur due to poor decision-making processes?",
         options: [
           "70%",
-          "75%",
           "80%",
-          "85%"
+          "85%",
+          "75%"
         ],
-        correctAnswer: 3,
+        correctAnswer: 2,
         explanation: "Research shows 85% of ethical violations occur due to inadequate decision-making processes rather than malicious intent."
       },
       {
@@ -3586,12 +3586,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 5,
         question: "How many specific standards does the ACA Code include?",
         options: [
-          "125",
-          "150",
           "168",
-          "185"
+          "125",
+          "185",
+          "150"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "The ACA Code of Ethics includes 168 specific standards that guide counselor conduct and decision-making."
       },
       {
@@ -3599,10 +3599,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 5,
         question: "What percentage of malpractice claims involve inadequate informed consent?",
         options: [
-          "60%",
+          "75%",
           "65%",
           "70%",
-          "75%"
+          "60%"
         ],
         correctAnswer: 2,
         explanation: "Approximately 70% of malpractice claims involve issues related to inadequate informed consent procedures."
@@ -3612,12 +3612,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 5,
         question: "For how many years post-termination does ACA prohibit sexual relationships with former clients?",
         options: [
-          "3 years",
-          "5 years",
+          "10 years",
           "7 years",
-          "10 years"
+          "3 years",
+          "5 years"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "ACA Standard A.5.c. prohibits sexual or romantic relationships for five years following termination."
       },
       {
@@ -3625,10 +3625,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 5,
         question: "What percentage of state licensing boards have specific telehealth regulations?",
         options: [
-          "50%",
           "55%",
+          "65%",
           "60%",
-          "65%"
+          "50%"
         ],
         correctAnswer: 2,
         explanation: "Currently, 60% of state licensing boards have established specific regulations for telehealth practice."
@@ -3638,12 +3638,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 5,
         question: "What is the most common type of malpractice claim against counselors?",
         options: [
-          "Sexual misconduct",
+          "Breach of confidentiality",
           "Incorrect diagnosis",
-          "Inappropriate treatment",
-          "Breach of confidentiality"
+          "Sexual misconduct",
+          "Inappropriate treatment"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Inappropriate treatment accounts for 35% of malpractice claims, making it the most common allegation."
       },
 
@@ -3653,10 +3653,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What percentage of counselors work in private practice?",
         options: [
-          "25%",
+          "40%",
           "30%",
           "35%",
-          "40%"
+          "25%"
         ],
         correctAnswer: 2,
         explanation: "Approximately 35% of professional counselors work in private practice settings."
@@ -3666,12 +3666,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What percentage of private practices survive 5+ years?",
         options: [
-          "60%",
           "65%",
-          "70%",
-          "75%"
+          "60%",
+          "75%",
+          "70%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Approximately 70% of private counseling practices survive for 5 years or more."
       },
       {
@@ -3679,12 +3679,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What percentage of potential clients research online before contacting a counselor?",
         options: [
-          "60%",
+          "75%",
           "65%",
-          "70%",
-          "75%"
+          "60%",
+          "70%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Approximately 70% of potential clients research counselors online before making contact."
       },
       {
@@ -3692,12 +3692,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What percentage of counselors experience burnout symptoms?",
         options: [
-          "30-50%",
-          "35-55%",
           "40-60%",
-          "45-65%"
+          "35-55%",
+          "45-65%",
+          "30-50%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Research indicates 40-60% of counselors experience burnout symptoms during their career."
       },
       {
@@ -3705,10 +3705,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What percentage of practices use electronic health records?",
         options: [
-          "65%",
+          "80%",
           "70%",
           "75%",
-          "80%"
+          "65%"
         ],
         correctAnswer: 2,
         explanation: "Approximately 75% of counseling practices now use electronic health records."
@@ -3718,12 +3718,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "By what percentage can outcome tracking improve client results?",
         options: [
-          "5-15%",
-          "10-20%",
           "15-25%",
-          "20-30%"
+          "20-30%",
+          "10-20%",
+          "5-15%"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Using outcome measures regularly can improve client results by 10-20%."
       },
       {
@@ -3731,12 +3731,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "Which specialty has seen 25% growth in demand?",
         options: [
-          "Addiction counseling",
-          "Child and adolescent",
           "Trauma and PTSD",
-          "Couples and family"
+          "Addiction counseling",
+          "Couples and family",
+          "Child and adolescent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Trauma and PTSD specialty has experienced 25% growth in demand in recent years."
       },
       {
@@ -3744,10 +3744,10 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What is the average career length for counselors?",
         options: [
-          "10-15 years",
           "12-18 years",
+          "18-25 years",
           "15-20 years",
-          "18-25 years"
+          "10-15 years"
         ],
         correctAnswer: 2,
         explanation: "The average counseling career lasts 15-20 years, though this varies by setting and specialty."
@@ -3757,12 +3757,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What retirement savings goal is recommended for counselors?",
         options: [
-          "8-12 times annual income",
-          "10-15 times annual income",
           "12-18 times annual income",
-          "15-20 times annual income"
+          "8-12 times annual income",
+          "15-20 times annual income",
+          "10-15 times annual income"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Financial planners recommend saving 10-15 times annual income for retirement."
       },
       {
@@ -3770,12 +3770,12 @@ Professional development is a lifelong journey requiring ongoing learning, adapt
         module: 6,
         question: "What percentage of counseling practice is projected to transform through technology in 10 years?",
         options: [
-          "20-30%",
           "25-35%",
           "30-40%",
-          "35-45%"
+          "35-45%",
+          "20-30%"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Experts project technology will transform 30-40% of counseling practice within the next decade."
       }
     ]

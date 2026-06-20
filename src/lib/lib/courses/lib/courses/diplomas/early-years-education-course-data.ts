@@ -70,24 +70,24 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           id: 1,
           question: "What does constructivism posit about learning?",
           options: [
-            "Children passively receive knowledge",
             "Children actively construct knowledge through interactions",
-            "Learning only occurs through direct instruction",
-            "Development is predetermined genetically"
+            "Children passively receive knowledge",
+            "Development is predetermined genetically",
+            "Learning only occurs through direct instruction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Constructivism views children as active meaning-makers who build understanding through experiences."
         },
         {
           id: 2,
           question: "What are Piaget's cognitive development stages?",
           options: [
+            "Only preoperational stage",
             "Only concrete operational stage",
             "Sensorimotor, preoperational, concrete operational, formal operational",
-            "Only preoperational stage",
             "Only formal operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Piaget's stage theory describes qualitative changes in thinking from infancy through adolescence."
         },
         {
@@ -95,21 +95,21 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           question: "What is the Zone of Proximal Development?",
           options: [
             "What children can do independently",
-            "What children can do with assistance versus independently",
+            "Only impossible tasks",
             "Only mastered skills",
-            "Only impossible tasks"
+            "What children can do with assistance versus independently"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Vygotsky's ZPD identifies the range between current and potential development with support."
         },
         {
           id: 4,
           question: "What involves temporary decreasing support?",
           options: [
-            "Only independent work",
+            "Only lecture",
             "Scaffolding teaching strategy",
-            "Only testing",
-            "Only lecture"
+            "Only independent work",
+            "Only testing"
           ],
           correctAnswer: 1,
           explanation: "Scaffolding provides adjustable support that fades as children gain competence."
@@ -118,12 +118,12 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           id: 5,
           question: "What increases behavior through consequences?",
           options: [
-            "Only punishment",
-            "Reinforcement in operant conditioning",
             "Only ignoring",
-            "Only modeling"
+            "Only modeling",
+            "Reinforcement in operant conditioning",
+            "Only punishment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reinforcement strengthens behaviors by providing desirable consequences."
         },
         {
@@ -156,8 +156,8 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           options: [
             "Only questionnaires",
             "Strange Situation procedure by Ainsworth",
-            "Only observations",
-            "Only interviews"
+            "Only interviews",
+            "Only observations"
           ],
           correctAnswer: 1,
           explanation: "The Strange Situation systematically observes child-caregiver separation and reunion behaviors."
@@ -166,46 +166,46 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           id: 9,
           question: "What are Erikson's psychosocial stages?",
           options: [
-            "Only cognitive stages",
-            "Trust vs. mistrust, autonomy vs. shame, initiative vs. guilt",
             "Only behavioral stages",
-            "Only adult stages"
+            "Only adult stages",
+            "Trust vs. mistrust, autonomy vs. shame, initiative vs. guilt",
+            "Only cognitive stages"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Erikson's theory emphasizes social and emotional conflicts across the lifespan."
         },
         {
           id: 10,
           question: "What views development within nested systems?",
           options: [
-            "Only behavioral theory",
             "Ecological systems theory by Bronfenbrenner",
             "Only cognitive theory",
-            "Only genetic theory"
+            "Only genetic theory",
+            "Only behavioral theory"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ecological theory examines multiple environmental influences on development."
         },
         {
           id: 11,
           question: "What includes family and school interactions?",
           options: [
-            "Only microsystem",
-            "Mesosystem connections in ecological theory",
             "Only exosystem",
-            "Only macrosystem"
+            "Only macrosystem",
+            "Only microsystem",
+            "Mesosystem connections in ecological theory"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The mesosystem involves relationships between different microsystems in a child's life."
         },
         {
           id: 12,
           question: "What proposes eight distinct intelligences?",
           options: [
-            "Only IQ theory",
+            "Only behaviorism",
             "Multiple intelligences theory by Gardner",
-            "Only learning styles",
-            "Only behaviorism"
+            "Only IQ theory",
+            "Only learning styles"
           ],
           correctAnswer: 1,
           explanation: "Gardner's theory expands traditional views of intelligence to include diverse abilities."
@@ -214,12 +214,12 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           id: 13,
           question: "What should curriculum value beyond academics?",
           options: [
-            "Only test scores",
             "Diverse talents and multiple intelligences",
+            "Only mathematical skill",
             "Only linguistic ability",
-            "Only mathematical skill"
+            "Only test scores"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multiple intelligences theory suggests valuing and developing varied capabilities."
         },
         {
@@ -228,8 +228,8 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           options: [
             "Only behavioral observations",
             "Contemporary brain research findings",
-            "Only traditional theories",
-            "Only anecdotal evidence"
+            "Only anecdotal evidence",
+            "Only traditional theories"
           ],
           correctAnswer: 1,
           explanation: "Neuroscience research identifies sensitive periods when experiences particularly influence development."
@@ -239,21 +239,21 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           question: "What are executive function skills?",
           options: [
             "Only academic content",
-            "Working memory, inhibitory control, cognitive flexibility",
+            "Only motor skills",
             "Only social skills",
-            "Only motor skills"
+            "Working memory, inhibitory control, cognitive flexibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Executive functions are cognitive processes that regulate thought and behavior."
         },
         {
           id: 16,
           question: "What shows long-term impacts of trauma?",
           options: [
-            "Only behavior checklists",
+            "Only attendance records",
             "Adverse Childhood Experiences (ACEs) research",
-            "Only achievement tests",
-            "Only attendance records"
+            "Only behavior checklists",
+            "Only achievement tests"
           ],
           correctAnswer: 1,
           explanation: "ACEs research documents how early adversity affects health and development across the lifespan."
@@ -264,8 +264,8 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           options: [
             "Only risk assessments",
             "Resilience research on positive development",
-            "Only deficit models",
-            "Only genetic studies"
+            "Only genetic studies",
+            "Only deficit models"
           ],
           correctAnswer: 1,
           explanation: "Resilience research examines factors that help children thrive despite adversity."
@@ -274,36 +274,36 @@ Cultural neuroscience examines how cultural experiences shape brain development.
           id: 18,
           question: "What examines cultural influences on brain development?",
           options: [
-            "Only universal theories",
-            "Cultural neuroscience research approaches",
+            "Only standardized assessments",
             "Only biological determinism",
-            "Only standardized assessments"
+            "Only universal theories",
+            "Cultural neuroscience research approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cultural neuroscience explores how cultural experiences shape neurological development."
         },
         {
           id: 19,
           question: "What are Piaget's concepts of schemas?",
           options: [
-            "Only behavioral patterns",
             "Mental structures for organizing information",
+            "Only behavioral patterns",
             "Only genetic templates",
             "Only memory techniques"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Schemas are cognitive frameworks that help children interpret and organize experiences."
         },
         {
           id: 20,
           question: "What influences learning and persistence?",
           options: [
-            "Only intelligence",
             "Self-efficacy beliefs in capabilities",
+            "Only punishments",
             "Only rewards",
-            "Only punishments"
+            "Only intelligence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Self-efficacy affects motivation, effort, and resilience in learning situations."
         }
       ]
@@ -392,22 +392,22 @@ Continuous improvement cycles involve planning, implementing, assessing, and rev
           id: 1,
           question: "What uses plan-do-review cycles?",
           options: [
+            "Only traditional models",
             "Only Montessori",
             "HighScope curriculum approach",
-            "Only Reggio Emilia",
-            "Only traditional models"
+            "Only Reggio Emilia"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "HighScope's plan-do-review sequence encourages intentionality and reflection."
         },
         {
           id: 2,
           question: "What emphasizes environment as 'third teacher'?",
           options: [
-            "Only behaviorist approaches",
+            "Only worksheet-based",
             "Reggio Emilia pedagogical philosophy",
             "Only direct instruction",
-            "Only worksheet-based"
+            "Only behaviorist approaches"
           ],
           correctAnswer: 1,
           explanation: "Reggio Emilia views the physical environment as actively shaping learning experiences."
@@ -417,45 +417,45 @@ Continuous improvement cycles involve planning, implementing, assessing, and rev
           question: "What provides developmentally appropriate guidelines?",
           options: [
             "Only standardized tests",
+            "Only traditional methods",
             "Developmentally Appropriate Practice (DAP) from NAEYC",
-            "Only commercial curricula",
-            "Only traditional methods"
+            "Only commercial curricula"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "DAP offers research-based principles for early childhood education decisions."
         },
         {
           id: 4,
           question: "What evolves from children's interests?",
           options: [
-            "Only prescribed curriculum",
-            "Emergent curriculum responsive to children",
             "Only teacher-planned units",
-            "Only textbook-driven"
+            "Only textbook-driven",
+            "Emergent curriculum responsive to children",
+            "Only prescribed curriculum"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Emergent curriculum builds on children's questions and curiosities."
         },
         {
           id: 5,
           question: "What should learning environments be?",
           options: [
-            "Only neat and tidy",
-            "Intentional, flexible, and responsive designs",
+            "Only identical rooms",
             "Only teacher-controlled",
-            "Only identical rooms"
+            "Only neat and tidy",
+            "Intentional, flexible, and responsive designs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective environments are carefully planned to support specific learning goals."
         },
         {
           id: 6,
           question: "What encourages creativity and problem-solving?",
           options: [
-            "Only worksheets",
-            "Open-ended materials like blocks and loose parts",
             "Only coloring books",
-            "Only flashcards"
+            "Open-ended materials like blocks and loose parts",
+            "Only flashcards",
+            "Only worksheets"
           ],
           correctAnswer: 1,
           explanation: "Open-ended materials allow multiple uses and foster divergent thinking."
@@ -464,12 +464,12 @@ Continuous improvement cycles involve planning, implementing, assessing, and rev
           id: 7,
           question: "What is the primary vehicle for early learning?",
           options: [
+            "Only technology",
             "Only direct instruction",
-            "Play in its various forms and types",
             "Only worksheets",
-            "Only technology"
+            "Play in its various forms and types"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Play provides natural contexts for integrated development across domains."
         },
         {
@@ -477,11 +477,11 @@ Continuous improvement cycles involve planning, implementing, assessing, and rev
           question: "What balances child initiation with teacher support?",
           options: [
             "Only free play",
+            "Only independent work",
             "Guided play pedagogical approach",
-            "Only teacher-directed",
-            "Only independent work"
+            "Only teacher-directed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Guided play maintains child agency while intentionally extending learning."
         },
         {
@@ -500,72 +500,72 @@ Continuous improvement cycles involve planning, implementing, assessing, and rev
           id: 10,
           question: "What involves extended real-world investigations?",
           options: [
+            "Only skill drills",
             "Only brief activities",
-            "Project-based learning with depth",
             "Only worksheets",
-            "Only skill drills"
+            "Project-based learning with depth"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Projects allow deep exploration of meaningful topics over time."
         },
         {
           id: 11,
           question: "What makes thinking and learning visible?",
           options: [
-            "Only test scores",
-            "Documentation panels displaying process",
             "Only report cards",
-            "Only attendance records"
+            "Only test scores",
+            "Only attendance records",
+            "Documentation panels displaying process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Documentation captures and communicates the learning journey."
         },
         {
           id: 12,
           question: "What addresses diverse learning needs?",
           options: [
+            "Only advanced work",
             "Only one method",
-            "Differentiated instruction strategies",
             "Only whole group",
-            "Only advanced work"
+            "Differentiated instruction strategies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Differentiation ensures all children can access and engage with learning."
         },
         {
           id: 13,
           question: "What provides multiple means of representation?",
           options: [
-            "Only textbooks",
             "Universal Design for Learning (UDL) principles",
             "Only lectures",
+            "Only textbooks",
             "Only worksheets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "UDL reduces barriers by offering information in varied formats from the start."
         },
         {
           id: 14,
           question: "What occurs during learning to guide instruction?",
           options: [
-            "Only final tests",
             "Formative assessment approaches",
             "Only standardized tests",
+            "Only final tests",
             "Only grades"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Formative assessment provides ongoing feedback for instructional adjustments."
         },
         {
           id: 15,
           question: "What narrates significant learning moments?",
           options: [
-            "Only checklists",
             "Learning stories assessment method",
-            "Only rating scales",
-            "Only tests"
+            "Only tests",
+            "Only checklists",
+            "Only rating scales"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Learning stories describe learning processes in narrative form."
         },
         {
@@ -573,44 +573,44 @@ Continuous improvement cycles involve planning, implementing, assessing, and rev
           question: "What reflects and values home cultures?",
           options: [
             "Only standard curriculum",
-            "Culturally responsive curriculum design",
+            "Only assimilation",
             "Only majority culture",
-            "Only assimilation"
+            "Culturally responsive curriculum design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Culturally responsive curriculum honors and builds on children's cultural backgrounds."
         },
         {
           id: 17,
           question: "What addresses stereotypes and prejudice?",
           options: [
-            "Only ignoring differences",
             "Anti-bias curriculum approaches",
             "Only majority perspectives",
-            "Only color-blind approaches"
+            "Only color-blind approaches",
+            "Only ignoring differences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Anti-bias education actively addresses issues of fairness and justice."
         },
         {
           id: 18,
           question: "What should technology do in early years?",
           options: [
-            "Replace hands-on learning",
             "Enhance, not replace, concrete experiences",
+            "Replace hands-on learning",
             "Be primary instruction",
             "Only entertain"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Technology should complement rather than substitute for direct experiences."
         },
         {
           id: 19,
           question: "What connects curriculum to community?",
           options: [
-            "Only classroom activities",
-            "Field trips, visitors, service learning",
             "Only textbooks",
+            "Field trips, visitors, service learning",
+            "Only classroom activities",
             "Only worksheets"
           ],
           correctAnswer: 1,
@@ -620,12 +620,12 @@ Continuous improvement cycles involve planning, implementing, assessing, and rev
           id: 20,
           question: "What involves examining teaching effectiveness?",
           options: [
-            "Only following plans",
-            "Reflective practice for improvement",
+            "Only following directives",
             "Only implementing curriculum",
-            "Only following directives"
+            "Reflective practice for improvement",
+            "Only following plans"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reflective practice supports continuous professional growth and curriculum enhancement."
         }
       ]
@@ -721,60 +721,60 @@ Ethical technology use requires protecting privacy and security of assessment da
           id: 1,
           question: "What should early childhood assessment be?",
           options: [
+            "Only for grading",
             "Only standardized",
-            "Developmentally appropriate and culturally responsive",
             "Only paper-based",
-            "Only for grading"
+            "Developmentally appropriate and culturally responsive"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Assessment should match children's developmental levels and cultural contexts."
         },
         {
           id: 2,
           question: "What includes informed consent and confidentiality?",
           options: [
-            "Only procedures",
             "Ethical considerations in assessment",
+            "Only scoring",
             "Only administration",
-            "Only scoring"
+            "Only procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ethical assessment respects rights and protects privacy of children and families."
         },
         {
           id: 3,
           question: "What occurs during learning to inform instruction?",
           options: [
-            "Only final exams",
             "Formative assessment approaches",
             "Only standardized tests",
-            "Only grades"
+            "Only grades",
+            "Only final exams"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Formative assessment provides ongoing feedback for instructional adjustments."
         },
         {
           id: 4,
           question: "What evaluates learning at endpoints?",
           options: [
+            "Only questioning",
             "Only observations",
             "Summative assessment purposes",
-            "Only questioning",
             "Only conferences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Summative assessment summarizes achievement at conclusion points."
         },
         {
           id: 5,
           question: "What describes specific incidents objectively?",
           options: [
-            "Only checklists",
             "Anecdotal records observation method",
+            "Only tests",
             "Only rating scales",
-            "Only tests"
+            "Only checklists"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Anecdotal records capture meaningful moments with descriptive detail."
         },
         {
@@ -782,33 +782,33 @@ Ethical technology use requires protecting privacy and security of assessment da
           question: "What narrates everything during a time period?",
           options: [
             "Only event sampling",
-            "Running records observation approach",
+            "Only checklists",
             "Only time sampling",
-            "Only checklists"
+            "Running records observation approach"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Running records provide comprehensive accounts of behavior sequences."
         },
         {
           id: 7,
           question: "What occurs in meaningful contexts?",
           options: [
-            "Only standardized tests",
             "Authentic assessment approaches",
+            "Only worksheets",
             "Only artificial situations",
-            "Only worksheets"
+            "Only standardized tests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Authentic assessment uses real tasks in natural contexts."
         },
         {
           id: 8,
           question: "What collects work over time?",
           options: [
-            "Only tests",
+            "Only rating scales",
             "Portfolio assessment method",
             "Only checklists",
-            "Only rating scales"
+            "Only tests"
           ],
           correctAnswer: 1,
           explanation: "Portfolios show growth and achievement through collected work samples."
@@ -817,48 +817,48 @@ Ethical technology use requires protecting privacy and security of assessment da
           id: 9,
           question: "What identifies children needing further evaluation?",
           options: [
-            "Only comprehensive assessment",
-            "Developmental screening purposes",
+            "Only interviews",
             "Only observation",
-            "Only interviews"
+            "Only comprehensive assessment",
+            "Developmental screening purposes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Screening quickly identifies potential concerns requiring deeper assessment."
         },
         {
           id: 10,
           question: "What involves ongoing milestone tracking?",
           options: [
-            "Only screening",
             "Developmental monitoring processes",
-            "Only testing",
-            "Only diagnosing"
+            "Only diagnosing",
+            "Only screening",
+            "Only testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Monitoring observes development continuously using milestone checklists."
         },
         {
           id: 11,
           question: "What modifies how assessment is administered?",
           options: [
-            "Only modifications",
             "Accommodations for diverse learners",
-            "Only changing content",
-            "Only lowering standards"
+            "Only lowering standards",
+            "Only modifications",
+            "Only changing content"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Accommodations provide access without altering what is being assessed."
         },
         {
           id: 12,
           question: "What considers cultural norms and values?",
           options: [
-            "Only standardized tests",
             "Culturally responsive assessment",
+            "Only English language",
             "Only majority perspectives",
-            "Only English language"
+            "Only standardized tests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Culturally responsive assessment respects diverse ways of knowing and showing knowledge."
         },
         {
@@ -866,83 +866,83 @@ Ethical technology use requires protecting privacy and security of assessment da
           question: "Who are essential assessment partners?",
           options: [
             "Only teachers",
-            "Families providing context and insights",
             "Only administrators",
+            "Families providing context and insights",
             "Only specialists"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Family perspectives provide crucial context for understanding children's development."
         },
         {
           id: 14,
           question: "What should conferences focus on?",
           options: [
+            "Only teacher reports",
             "Only problems",
             "Whole child development and collaborative goal-setting",
-            "Only academics",
-            "Only teacher reports"
+            "Only academics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Comprehensive conferences address all developmental domains and involve shared planning."
         },
         {
           id: 15,
           question: "What identifies patterns and progress?",
           options: [
+            "Only storing information",
             "Only collecting data",
-            "Data analysis and interpretation",
             "Only reporting",
-            "Only storing information"
+            "Data analysis and interpretation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Analysis transforms raw data into meaningful information for decision-making."
         },
         {
           id: 16,
           question: "What tracks growth over time?",
           options: [
-            "Only single assessments",
-            "Progress monitoring approaches",
             "Only initial screening",
-            "Only final evaluation"
+            "Only single assessments",
+            "Only final evaluation",
+            "Progress monitoring approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Progress monitoring shows developmental trajectories and intervention effectiveness."
         },
         {
           id: 17,
           question: "What should assessment reports use?",
           options: [
-            "Only technical jargon",
-            "Plain language focusing on strengths and needs",
             "Only negative feedback",
-            "Only comparative rankings"
+            "Only comparative rankings",
+            "Only technical jargon",
+            "Plain language focusing on strengths and needs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clear, balanced communication helps families understand and use assessment information."
         },
         {
           id: 18,
           question: "What assesses program effectiveness?",
           options: [
+            "Only staff satisfaction",
             "Only child tests",
             "Program evaluation using multiple data sources",
-            "Only parent opinions",
-            "Only staff satisfaction"
+            "Only parent opinions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Comprehensive program evaluation examines multiple dimensions of quality and outcomes."
         },
         {
           id: 19,
           question: "What provides external validation of quality?",
           options: [
-            "Only internal review",
             "Accreditation systems like NAEYC",
+            "Only internal review",
             "Only government inspection",
             "Only parent ratings"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Accreditation offers independent verification that programs meet quality standards."
         },
         {
@@ -951,8 +951,8 @@ Ethical technology use requires protecting privacy and security of assessment da
           options: [
             "Only paper methods",
             "Technology for documentation and analysis",
-            "Only human judgment",
-            "Only traditional approaches"
+            "Only traditional approaches",
+            "Only human judgment"
           ],
           correctAnswer: 1,
           explanation: "Technology tools can streamline assessment processes while maintaining quality."
@@ -1052,10 +1052,10 @@ Family advocacy supports parent empowerment. Educators can help families underst
           id: 1,
           question: "What involves educating all children together?",
           options: [
-            "Only special classes",
-            "Inclusive education philosophy and practice",
             "Only gifted programs",
-            "Only separate settings"
+            "Inclusive education philosophy and practice",
+            "Only separate settings",
+            "Only special classes"
           ],
           correctAnswer: 1,
           explanation: "Inclusion values diversity and provides appropriate supports in general settings."
@@ -1066,8 +1066,8 @@ Family advocacy supports parent empowerment. Educators can help families underst
           options: [
             "Only school policies",
             "IDEA special education law requirements",
-            "Only state guidelines",
-            "Only local decisions"
+            "Only local decisions",
+            "Only state guidelines"
           ],
           correctAnswer: 1,
           explanation: "IDEA ensures appropriate education in inclusive settings to maximum extent appropriate."
@@ -1076,36 +1076,36 @@ Family advocacy supports parent empowerment. Educators can help families underst
           id: 3,
           question: "What determines eligibility for services?",
           options: [
-            "Only teacher judgment",
-            "Evaluation assessing disability categories",
             "Only parent request",
-            "Only medical diagnosis"
+            "Only teacher judgment",
+            "Only medical diagnosis",
+            "Evaluation assessing disability categories"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Comprehensive evaluation determines if children meet criteria for special education services."
         },
         {
           id: 4,
           question: "What is developed for eligible children?",
           options: [
-            "Only medical plan",
-            "Individualized Education Program (IEP)",
+            "Only curriculum guide",
             "Only behavior plan",
-            "Only curriculum guide"
+            "Only medical plan",
+            "Individualized Education Program (IEP)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The IEP outlines specialized services, goals, and accommodations for eligible children."
         },
         {
           id: 5,
           question: "What changes how a child learns?",
           options: [
-            "Only modifications",
             "Accommodations without changing content",
             "Only curriculum changes",
-            "Only placement changes"
+            "Only placement changes",
+            "Only modifications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Accommodations provide access while maintaining same learning expectations."
         },
         {
@@ -1113,11 +1113,11 @@ Family advocacy supports parent empowerment. Educators can help families underst
           question: "What changes what a child learns?",
           options: [
             "Only accommodations",
-            "Modifications altering expectations",
+            "Only materials",
             "Only settings",
-            "Only materials"
+            "Modifications altering expectations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Modifications adjust content or expectations based on individual needs."
         },
         {
@@ -1125,23 +1125,23 @@ Family advocacy supports parent empowerment. Educators can help families underst
           question: "What reduces need for individual accommodations?",
           options: [
             "Only retrofitting",
-            "Universal Design for Learning (UDL) principles",
+            "Only lowering standards",
             "Only separate instruction",
-            "Only lowering standards"
+            "Universal Design for Learning (UDL) principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "UDL designs instruction accessible to diverse learners from the beginning."
         },
         {
           id: 8,
           question: "What are ASD strategies?",
           options: [
-            "Only punishment",
             "Visual supports, structured environments, social stories",
-            "Only ignoring behaviors",
-            "Only separation"
+            "Only separation",
+            "Only punishment",
+            "Only ignoring behaviors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Autism strategies address communication, sensory, and social needs."
         },
         {
@@ -1149,23 +1149,23 @@ Family advocacy supports parent empowerment. Educators can help families underst
           question: "What are ADHD strategies?",
           options: [
             "Only medication",
-            "Clear routines, movement breaks, organizational supports",
+            "Only isolation",
             "Only strict punishment",
-            "Only isolation"
+            "Clear routines, movement breaks, organizational supports"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ADHD strategies address attention, organization, and impulse control needs."
         },
         {
           id: 10,
           question: "What prevents challenging behaviors?",
           options: [
-            "Only punishment",
             "Positive Behavior Interventions and Supports (PBIS)",
-            "Only ignoring",
-            "Only removal"
+            "Only punishment",
+            "Only removal",
+            "Only ignoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PBIS uses proactive approaches to teach and reinforce positive behaviors."
         },
         {
@@ -1173,59 +1173,59 @@ Family advocacy supports parent empowerment. Educators can help families underst
           question: "What identifies behavior purposes?",
           options: [
             "Only guessing",
-            "Functional Behavior Assessment (FBA) process",
+            "Only time-out",
             "Only punishment",
-            "Only time-out"
+            "Functional Behavior Assessment (FBA) process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "FBA analyzes why behaviors occur to develop effective interventions."
         },
         {
           id: 12,
           question: "What includes prevention and replacement strategies?",
           options: [
-            "Only punishment plan",
-            "Behavior Intervention Plan (BIP)",
+            "Only restraint protocols",
             "Only removal procedures",
-            "Only restraint protocols"
+            "Only punishment plan",
+            "Behavior Intervention Plan (BIP)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "BIPs teach appropriate behaviors while reducing challenging ones through multiple strategies."
         },
         {
           id: 13,
           question: "What are co-teaching models?",
           options: [
-            "Only one teacher",
             "One teach/one assist, station teaching, team teaching",
-            "Only separate classrooms",
-            "Only special ed teacher alone"
+            "Only special ed teacher alone",
+            "Only one teacher",
+            "Only separate classrooms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Co-teaching models distribute teaching responsibilities between general and special educators."
         },
         {
           id: 14,
           question: "What occurs within classroom activities?",
           options: [
-            "Only pull-out therapy",
-            "Integrated therapy approaches",
             "Only separate rooms",
-            "Only after school"
+            "Only pull-out therapy",
+            "Only after school",
+            "Integrated therapy approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Integrated therapy embeds interventions into natural classroom routines and activities."
         },
         {
           id: 15,
           question: "What serves children birth to age 3?",
           options: [
-            "Only preschool",
-            "Early Intervention (EI) services",
             "Only kindergarten",
-            "Only school age"
+            "Only school age",
+            "Only preschool",
+            "Early Intervention (EI) services"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "EI provides supports for infants and toddlers with developmental concerns."
         },
         {
@@ -1244,22 +1244,22 @@ Family advocacy supports parent empowerment. Educators can help families underst
           id: 17,
           question: "What must be culturally responsive?",
           options: [
-            "Only assessment",
             "All inclusive practices and approaches",
-            "Only curriculum",
-            "Only materials"
+            "Only assessment",
+            "Only materials",
+            "Only curriculum"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cultural responsiveness ensures practices respect diverse perspectives on disability and help-seeking."
         },
         {
           id: 18,
           question: "What supports movement between programs?",
           options: [
-            "Only sudden changes",
-            "Transition planning with preparation and sharing",
             "Only ignoring transitions",
-            "Only child responsibility"
+            "Transition planning with preparation and sharing",
+            "Only child responsibility",
+            "Only sudden changes"
           ],
           correctAnswer: 1,
           explanation: "Effective transitions involve preparation, information exchange, and support for adjustment."
@@ -1268,24 +1268,24 @@ Family advocacy supports parent empowerment. Educators can help families underst
           id: 19,
           question: "What do educators need for effective inclusion?",
           options: [
+            "Only experience",
             "Only initial training",
-            "Ongoing professional development and support",
             "Only natural talent",
-            "Only experience"
+            "Ongoing professional development and support"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Continuous learning develops knowledge, skills, and attitudes for inclusive practices."
         },
         {
           id: 20,
           question: "What involves modifying policies and practices?",
           options: [
-            "Only individual teaching",
             "Systems change for inclusive education",
+            "Only following existing systems",
             "Only classroom level",
-            "Only following existing systems"
+            "Only individual teaching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systems change addresses structural barriers to inclusion at organizational levels."
         }
       ]
@@ -1381,45 +1381,45 @@ Transparent decision-making builds trust. Involving stakeholders in decisions af
           id: 1,
           question: "What inspires toward shared vision?",
           options: [
-            "Only management",
-            "Transformational leadership approach",
             "Only transactional",
-            "Only directive"
+            "Only directive",
+            "Transformational leadership approach",
+            "Only management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Transformational leadership motivates through inspiration and shared purpose."
         },
         {
           id: 2,
           question: "What describes the ideal future state?",
           options: [
-            "Only mission",
-            "Program vision development",
             "Only policies",
-            "Only procedures"
+            "Only mission",
+            "Only procedures",
+            "Program vision development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The vision articulates aspirations and direction for the program."
         },
         {
           id: 3,
           question: "What defines program purpose?",
           options: [
-            "Only vision",
-            "Mission statement clarification",
             "Only philosophy",
-            "Only goals"
+            "Only vision",
+            "Only goals",
+            "Mission statement clarification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The mission communicates why the program exists and its core values."
         },
         {
           id: 4,
           question: "What translates vision into action?",
           options: [
-            "Only daily operations",
-            "Strategic planning processes",
             "Only budgeting",
+            "Strategic planning processes",
+            "Only daily operations",
             "Only scheduling"
           ],
           correctAnswer: 1,
@@ -1429,24 +1429,24 @@ Transparent decision-making builds trust. Involving stakeholders in decisions af
           id: 5,
           question: "What articulates beliefs about learning?",
           options: [
-            "Only curriculum",
             "Program philosophy statement",
             "Only policies",
+            "Only curriculum",
             "Only procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The philosophy expresses foundational beliefs guiding all program aspects."
         },
         {
           id: 6,
           question: "What defines effective program characteristics?",
           options: [
-            "Only regulations",
-            "Quality standards like NAEYC accreditation",
             "Only personal opinions",
-            "Only budget size"
+            "Only budget size",
+            "Only regulations",
+            "Quality standards like NAEYC accreditation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality standards establish research-based criteria for program excellence."
         },
         {
@@ -1455,8 +1455,8 @@ Transparent decision-making builds trust. Involving stakeholders in decisions af
           options: [
             "Only parent surveys",
             "Quality Rating and Improvement Systems (QRIS)",
-            "Only test scores",
-            "Only facility size"
+            "Only facility size",
+            "Only test scores"
           ],
           correctAnswer: 1,
           explanation: "QRIS provides structured frameworks for assessing and improving program quality."
@@ -1467,8 +1467,8 @@ Transparent decision-making builds trust. Involving stakeholders in decisions af
           options: [
             "Only evaluation",
             "Effective supervision approaches",
-            "Only hiring",
-            "Only firing"
+            "Only firing",
+            "Only hiring"
           ],
           correctAnswer: 1,
           explanation: "Supervision combines support, guidance, and evaluation for professional development."
@@ -1477,144 +1477,144 @@ Transparent decision-making builds trust. Involving stakeholders in decisions af
           id: 9,
           question: "What should performance evaluation be?",
           options: [
-            "Only punitive",
-            "Regular, fair, and growth-oriented",
+            "Only based on test scores",
             "Only annual",
-            "Only based on test scores"
+            "Only punitive",
+            "Regular, fair, and growth-oriented"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective evaluation promotes improvement and aligns with program goals."
         },
         {
           id: 10,
           question: "What addresses individual and program needs?",
           options: [
+            "Only degree requirements",
             "Only initial training",
-            "Professional development planning",
             "Only mandatory training",
-            "Only degree requirements"
+            "Professional development planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Targeted professional development builds capacity for quality improvement."
         },
         {
           id: 11,
           question: "What ensures program sustainability?",
           options: [
+            "Only tuition increases",
             "Only enrollment",
             "Financial management and budgeting",
-            "Only fundraising",
-            "Only tuition increases"
+            "Only fundraising"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sound financial practices maintain program stability and resource availability."
         },
         {
           id: 12,
           question: "What tracks actual versus projected expenses?",
           options: [
-            "Only income",
-            "Budget monitoring processes",
             "Only spending",
-            "Only savings"
+            "Only savings",
+            "Only income",
+            "Budget monitoring processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regular budget monitoring allows timely adjustments and financial control."
         },
         {
           id: 13,
           question: "What must programs comply with?",
           options: [
-            "Only parent requests",
             "Licensing regulations and requirements",
-            "Only staff preferences",
-            "Only tradition"
+            "Only tradition",
+            "Only parent requests",
+            "Only staff preferences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Licensing ensures minimum health, safety, and quality standards are met."
         },
         {
           id: 14,
           question: "What documents program operations?",
           options: [
-            "Only memory",
-            "Policies and procedures manuals",
             "Only verbal instructions",
-            "Only informal practices"
+            "Only informal practices",
+            "Only memory",
+            "Policies and procedures manuals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Written policies ensure consistency, clarity, and accountability."
         },
         {
           id: 15,
           question: "What goes beyond involvement to partnership?",
           options: [
-            "Only volunteering",
             "Family engagement strategies",
-            "Only conferences",
-            "Only reports"
+            "Only volunteering",
+            "Only reports",
+            "Only conferences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Meaningful engagement involves families as partners in children's education."
         },
         {
           id: 16,
           question: "What extends program resources?",
           options: [
-            "Only internal efforts",
             "Community partnerships and collaborations",
+            "Only government funding",
             "Only parent fees",
-            "Only government funding"
+            "Only internal efforts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Partnerships leverage community assets to enhance program quality and reach."
         },
         {
           id: 17,
           question: "What communicates program value?",
           options: [
+            "Only location",
             "Only word-of-mouth",
-            "Marketing strategies and approaches",
             "Only price",
-            "Only location"
+            "Marketing strategies and approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Effective marketing highlights program strengths and meets family needs."
         },
         {
           id: 18,
           question: "What identifies and addresses hazards?",
           options: [
-            "Only reaction",
-            "Risk management and assessment",
+            "Only after accidents",
             "Only insurance",
-            "Only after accidents"
+            "Only reaction",
+            "Risk management and assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Proactive risk management prevents problems and ensures safety."
         },
         {
           id: 19,
           question: "What supports policies for children and families?",
           options: [
-            "Only compliance",
             "Advocacy and public policy engagement",
-            "Only following rules",
-            "Only internal focus"
+            "Only compliance",
+            "Only internal focus",
+            "Only following rules"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Advocacy influences policies that affect early childhood education quality and access."
         },
         {
           id: 20,
           question: "What demonstrates integrity and fairness?",
           options: [
+            "Only efficiency",
             "Only following procedures",
             "Ethical leadership and decision-making",
-            "Only popularity",
-            "Only efficiency"
+            "Only popularity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ethical leadership builds trust and models values for the entire program community."
         }
       ]
@@ -1723,12 +1723,12 @@ The future of early childhood research includes: increased interdisciplinary col
           id: 1,
           question: "What involves understanding research methods?",
           options: [
+            "Only reading abstracts",
             "Only conducting studies",
             "Research literacy and critical consumption",
-            "Only reading abstracts",
             "Only following trends"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Research literacy enables educators to evaluate and apply research evidence effectively."
         },
         {
@@ -1737,8 +1737,8 @@ The future of early childhood research includes: increased interdisciplinary col
           options: [
             "Only research findings",
             "Evidence-based practice approaches",
-            "Only personal experience",
-            "Only tradition"
+            "Only tradition",
+            "Only personal experience"
           ],
           correctAnswer: 1,
           explanation: "Evidence-based practice combines multiple knowledge sources for decision-making."
@@ -1747,9 +1747,9 @@ The future of early childhood research includes: increased interdisciplinary col
           id: 3,
           question: "What examines critical periods and plasticity?",
           options: [
-            "Only behavior research",
-            "Brain development research findings",
             "Only social research",
+            "Brain development research findings",
+            "Only behavior research",
             "Only cognitive tests"
           ],
           correctAnswer: 1,
@@ -1760,11 +1760,11 @@ The future of early childhood research includes: increased interdisciplinary col
           question: "What identifies effective program characteristics?",
           options: [
             "Only parent opinions",
-            "Quality research on early childhood programs",
             "Only cost analysis",
-            "Only facility size"
+            "Only facility size",
+            "Quality research on early childhood programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Quality research identifies practices linked to positive child outcomes."
         },
         {
@@ -1784,23 +1784,23 @@ The future of early childhood research includes: increased interdisciplinary col
           question: "What includes planning, implementing, reflecting?",
           options: [
             "Only teaching",
-            "Action research cycle steps",
             "Only assessment",
+            "Action research cycle steps",
             "Only reporting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The action research cycle structures systematic inquiry into practice improvement."
         },
         {
           id: 7,
           question: "What assesses program effectiveness?",
           options: [
-            "Only child tests",
             "Program evaluation approaches",
             "Only enrollment numbers",
-            "Only parent satisfaction"
+            "Only parent satisfaction",
+            "Only child tests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive evaluation examines multiple aspects of program quality and impact."
         },
         {
@@ -1808,45 +1808,45 @@ The future of early childhood research includes: increased interdisciplinary col
           question: "What uses evidence to guide improvements?",
           options: [
             "Only intuition",
-            "Data-informed decision-making processes",
             "Only tradition",
+            "Data-informed decision-making processes",
             "Only convenience"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Systematic data use supports continuous quality improvement."
         },
         {
           id: 9,
           question: "What requires special ethical considerations?",
           options: [
-            "Only adult research",
-            "Research with children and protections",
             "Only animal research",
-            "Only product testing"
+            "Only product testing",
+            "Only adult research",
+            "Research with children and protections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Child research requires additional safeguards for vulnerability and developmental needs."
         },
         {
           id: 10,
           question: "What involves children as active participants?",
           options: [
-            "Only observation",
             "Participatory research approaches",
             "Only testing",
-            "Only measurement"
+            "Only measurement",
+            "Only observation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Participatory research respects children as competent meaning-makers."
         },
         {
           id: 11,
           question: "What makes findings accessible for practitioners?",
           options: [
-            "Only academic journals",
+            "Only conferences",
             "Research translation and application",
-            "Only technical reports",
-            "Only conferences"
+            "Only academic journals",
+            "Only technical reports"
           ],
           correctAnswer: 1,
           explanation: "Translation bridges gaps between research and practical implementation."
@@ -1855,9 +1855,9 @@ The future of early childhood research includes: increased interdisciplinary col
           id: 12,
           question: "What examines effective practice adoption?",
           options: [
-            "Only initial training",
-            "Implementation science and approaches",
             "Only intuition",
+            "Implementation science and approaches",
+            "Only initial training",
             "Only trial and error"
           ],
           correctAnswer: 1,
@@ -1867,24 +1867,24 @@ The future of early childhood research includes: increased interdisciplinary col
           id: 13,
           question: "What summarizes existing research?",
           options: [
-            "Only single studies",
-            "Literature reviews and synthesis",
             "Only opinions",
-            "Only anecdotes"
+            "Only single studies",
+            "Only anecdotes",
+            "Literature reviews and synthesis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Literature reviews provide comprehensive understanding of research on specific topics."
         },
         {
           id: 14,
           question: "What evaluates research quality?",
           options: [
-            "Only reading abstracts",
             "Critical appraisal of studies",
-            "Only popularity",
-            "Only publication source"
+            "Only reading abstracts",
+            "Only publication source",
+            "Only popularity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Critical appraisal assesses methodological rigor and validity of research findings."
         },
         {
@@ -1905,8 +1905,8 @@ The future of early childhood research includes: increased interdisciplinary col
           options: [
             "Only staff meetings",
             "Professional Learning Communities (PLCs)",
-            "Only training sessions",
-            "Only administrative teams"
+            "Only administrative teams",
+            "Only training sessions"
           ],
           correctAnswer: 1,
           explanation: "PLCs engage educators in collaborative inquiry and practice improvement."
@@ -1915,10 +1915,10 @@ The future of early childhood research includes: increased interdisciplinary col
           id: 17,
           question: "What include trauma-informed practices?",
           options: [
-            "Only traditional methods",
-            "Emerging research areas and trends",
             "Only behaviorism",
-            "Only academic focus"
+            "Emerging research areas and trends",
+            "Only academic focus",
+            "Only traditional methods"
           ],
           correctAnswer: 1,
           explanation: "Emerging research addresses contemporary issues and evolving understandings."
@@ -1927,34 +1927,34 @@ The future of early childhood research includes: increased interdisciplinary col
           id: 18,
           question: "What tests new approaches ethically?",
           options: [
-            "Only following tradition",
             "Innovation in early childhood education",
-            "Only rejecting change",
-            "Only implementing standards"
+            "Only following tradition",
+            "Only implementing standards",
+            "Only rejecting change"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Responsible innovation balances experimentation with evidence and ethics."
         },
         {
           id: 19,
           question: "What examines cross-cultural comparisons?",
           options: [
-            "Only local perspectives",
             "Global perspectives in research",
+            "Only local perspectives",
             "Only Western approaches",
             "Only national studies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Global research expands understanding of diverse approaches to early childhood."
         },
         {
           id: 20,
           question: "What includes interdisciplinary collaboration?",
           options: [
-            "Only single disciplines",
-            "Future trends in early childhood research",
             "Only traditional methods",
-            "Only isolated studies"
+            "Future trends in early childhood research",
+            "Only isolated studies",
+            "Only single disciplines"
           ],
           correctAnswer: 1,
           explanation: "Future research directions reflect increasing complexity and collaboration."
@@ -1969,12 +1969,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 1,
       question: "What does constructivism posit about learning?",
       options: [
+        "Development is predetermined genetically",
         "Children passively receive knowledge",
-        "Children actively construct knowledge through interactions",
         "Learning only occurs through direct instruction",
-        "Development is predetermined genetically"
+        "Children actively construct knowledge through interactions"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 1: Constructivism views children as active meaning-makers building understanding through experiences.",
       module: 1
     },
@@ -1982,12 +1982,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 2,
       question: "What is the Zone of Proximal Development?",
       options: [
-        "What children can do independently",
         "What children can do with assistance versus independently",
+        "What children can do independently",
         "Only mastered skills",
         "Only impossible tasks"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 1: Vygotsky's ZPD identifies range between current and potential development with support.",
       module: 1
     },
@@ -1995,12 +1995,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 3,
       question: "What uses plan-do-review cycles?",
       options: [
-        "Only Montessori",
-        "HighScope curriculum approach",
         "Only Reggio Emilia",
-        "Only traditional models"
+        "Only Montessori",
+        "Only traditional models",
+        "HighScope curriculum approach"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 2: HighScope's plan-do-review sequence encourages intentionality and reflection.",
       module: 2
     },
@@ -2009,11 +2009,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What emphasizes environment as 'third teacher'?",
       options: [
         "Only behaviorist approaches",
+        "Only worksheet-based",
         "Reggio Emilia pedagogical philosophy",
-        "Only direct instruction",
-        "Only worksheet-based"
+        "Only direct instruction"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Reggio Emilia views physical environment as actively shaping learning experiences.",
       module: 2
     },
@@ -2022,11 +2022,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What should early childhood assessment be?",
       options: [
         "Only standardized",
+        "Only for grading",
         "Developmentally appropriate and culturally responsive",
-        "Only paper-based",
-        "Only for grading"
+        "Only paper-based"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 3: Assessment should match children's developmental levels and cultural contexts.",
       module: 3
     },
@@ -2034,12 +2034,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 6,
       question: "What occurs during learning to inform instruction?",
       options: [
-        "Only final exams",
         "Formative assessment approaches",
-        "Only standardized tests",
-        "Only grades"
+        "Only final exams",
+        "Only grades",
+        "Only standardized tests"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 3: Formative assessment provides ongoing feedback for instructional adjustments.",
       module: 3
     },
@@ -2047,12 +2047,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 7,
       question: "What involves educating all children together?",
       options: [
-        "Only special classes",
         "Inclusive education philosophy and practice",
         "Only gifted programs",
+        "Only special classes",
         "Only separate settings"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 4: Inclusion values diversity and provides appropriate supports in general settings.",
       module: 4
     },
@@ -2060,12 +2060,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 8,
       question: "What is developed for eligible children?",
       options: [
+        "Only curriculum guide",
         "Only medical plan",
         "Individualized Education Program (IEP)",
-        "Only behavior plan",
-        "Only curriculum guide"
+        "Only behavior plan"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: The IEP outlines specialized services, goals, and accommodations for eligible children.",
       module: 4
     },
@@ -2073,12 +2073,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 9,
       question: "What inspires toward shared vision?",
       options: [
-        "Only management",
         "Transformational leadership approach",
+        "Only management",
         "Only transactional",
         "Only directive"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Transformational leadership motivates through inspiration and shared purpose.",
       module: 5
     },
@@ -2086,12 +2086,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 10,
       question: "What defines effective program characteristics?",
       options: [
-        "Only regulations",
         "Quality standards like NAEYC accreditation",
         "Only personal opinions",
+        "Only regulations",
         "Only budget size"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Quality standards establish research-based criteria for program excellence.",
       module: 5
     },
@@ -2099,12 +2099,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 11,
       question: "What involves understanding research methods?",
       options: [
+        "Only reading abstracts",
         "Only conducting studies",
         "Research literacy and critical consumption",
-        "Only reading abstracts",
         "Only following trends"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Research literacy enables educators to evaluate and apply research evidence.",
       module: 6
     },
@@ -2112,12 +2112,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 12,
       question: "What investigates one's own practice?",
       options: [
+        "Only following experts",
         "Only academic research",
         "Action research and practitioner inquiry",
-        "Only following experts",
         "Only implementing curriculum"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Action research addresses practical questions through systematic investigation.",
       module: 6
     },
@@ -2125,10 +2125,10 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 13,
       question: "What are Piaget's cognitive development stages?",
       options: [
-        "Only concrete operational",
-        "Sensorimotor, preoperational, concrete operational, formal operational",
         "Only preoperational",
-        "Only formal operations"
+        "Sensorimotor, preoperational, concrete operational, formal operational",
+        "Only formal operations",
+        "Only concrete operational"
       ],
       correctAnswer: 1,
       explanation: "From Module 1: Piaget's stage theory describes qualitative thinking changes from infancy through adolescence.",
@@ -2151,12 +2151,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 15,
       question: "What provides developmentally appropriate guidelines?",
       options: [
-        "Only standardized tests",
-        "Developmentally Appropriate Practice (DAP) from NAEYC",
+        "Only traditional methods",
         "Only commercial curricula",
-        "Only traditional methods"
+        "Developmentally Appropriate Practice (DAP) from NAEYC",
+        "Only standardized tests"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: DAP offers research-based principles for early childhood education decisions.",
       module: 2
     },
@@ -2164,12 +2164,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 16,
       question: "What is the primary vehicle for early learning?",
       options: [
+        "Only worksheets",
         "Only direct instruction",
         "Play in its various forms and types",
-        "Only worksheets",
         "Only technology"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Play provides natural contexts for integrated development across domains.",
       module: 2
     },
@@ -2190,12 +2190,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 18,
       question: "What collects work over time?",
       options: [
-        "Only tests",
-        "Portfolio assessment method",
         "Only checklists",
-        "Only rating scales"
+        "Only tests",
+        "Only rating scales",
+        "Portfolio assessment method"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: Portfolios show growth and achievement through collected work samples.",
       module: 3
     },
@@ -2203,10 +2203,10 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 19,
       question: "What guarantees FAPE in LRE?",
       options: [
-        "Only school policies",
-        "IDEA special education law requirements",
         "Only state guidelines",
-        "Only local decisions"
+        "IDEA special education law requirements",
+        "Only local decisions",
+        "Only school policies"
       ],
       correctAnswer: 1,
       explanation: "From Module 4: IDEA ensures appropriate education in inclusive settings to maximum extent appropriate.",
@@ -2216,12 +2216,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 20,
       question: "What changes how a child learns?",
       options: [
-        "Only modifications",
-        "Accommodations without changing content",
+        "Only placement changes",
         "Only curriculum changes",
-        "Only placement changes"
+        "Only modifications",
+        "Accommodations without changing content"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: Accommodations provide access while maintaining same learning expectations.",
       module: 4
     },
@@ -2231,8 +2231,8 @@ The future of early childhood research includes: increased interdisciplinary col
       options: [
         "Only mission",
         "Program vision development",
-        "Only policies",
-        "Only procedures"
+        "Only procedures",
+        "Only policies"
       ],
       correctAnswer: 1,
       explanation: "From Module 5: The vision articulates aspirations and direction for the program.",
@@ -2243,11 +2243,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What supports staff growth?",
       options: [
         "Only evaluation",
+        "Only firing",
         "Effective supervision approaches",
-        "Only hiring",
-        "Only firing"
+        "Only hiring"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 5: Supervision combines support, guidance, and evaluation for professional development.",
       module: 5
     },
@@ -2256,11 +2256,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What integrates evidence, expertise, and values?",
       options: [
         "Only research findings",
-        "Evidence-based practice approaches",
+        "Only tradition",
         "Only personal experience",
-        "Only tradition"
+        "Evidence-based practice approaches"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 6: Evidence-based practice combines multiple knowledge sources for decision-making.",
       module: 6
     },
@@ -2281,12 +2281,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 25,
       question: "What describes emotional bonds with caregivers?",
       options: [
-        "Only behavior management",
-        "Attachment theory and relationships",
+        "Only language acquisition",
         "Only cognitive development",
-        "Only language acquisition"
+        "Only behavior management",
+        "Attachment theory and relationships"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 1: Attachment theory explains how early relationships shape emotional development.",
       module: 1
     },
@@ -2295,11 +2295,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What views development within nested systems?",
       options: [
         "Only behavioral theory",
-        "Ecological systems theory by Bronfenbrenner",
+        "Only genetic theory",
         "Only cognitive theory",
-        "Only genetic theory"
+        "Ecological systems theory by Bronfenbrenner"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 1: Ecological theory examines multiple environmental influences on development.",
       module: 1
     },
@@ -2307,10 +2307,10 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 27,
       question: "What evolves from children's interests?",
       options: [
-        "Only prescribed curriculum",
+        "Only textbook-driven",
         "Emergent curriculum responsive to children",
-        "Only teacher-planned units",
-        "Only textbook-driven"
+        "Only prescribed curriculum",
+        "Only teacher-planned units"
       ],
       correctAnswer: 1,
       explanation: "From Module 2: Emergent curriculum builds on children's questions and curiosities.",
@@ -2320,12 +2320,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 28,
       question: "What balances child initiation with teacher support?",
       options: [
-        "Only free play",
-        "Guided play pedagogical approach",
         "Only teacher-directed",
-        "Only independent work"
+        "Only independent work",
+        "Guided play pedagogical approach",
+        "Only free play"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Guided play maintains child agency while intentionally extending learning.",
       module: 2
     },
@@ -2333,12 +2333,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 29,
       question: "What evaluates learning at endpoints?",
       options: [
+        "Only conferences",
         "Only observations",
-        "Summative assessment purposes",
         "Only questioning",
-        "Only conferences"
+        "Summative assessment purposes"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: Summative assessment summarizes achievement at conclusion points.",
       module: 3
     },
@@ -2346,12 +2346,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 30,
       question: "What identifies children needing further evaluation?",
       options: [
-        "Only comprehensive assessment",
         "Developmental screening purposes",
+        "Only interviews",
         "Only observation",
-        "Only interviews"
+        "Only comprehensive assessment"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 3: Screening quickly identifies potential concerns requiring deeper assessment.",
       module: 3
     },
@@ -2359,10 +2359,10 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 31,
       question: "What prevents challenging behaviors?",
       options: [
-        "Only punishment",
-        "Positive Behavior Interventions and Supports (PBIS)",
         "Only ignoring",
-        "Only removal"
+        "Positive Behavior Interventions and Supports (PBIS)",
+        "Only removal",
+        "Only punishment"
       ],
       correctAnswer: 1,
       explanation: "From Module 4: PBIS uses proactive approaches to teach and reinforce positive behaviors.",
@@ -2373,11 +2373,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What are co-teaching models?",
       options: [
         "Only one teacher",
-        "One teach/one assist, station teaching, team teaching",
         "Only separate classrooms",
-        "Only special ed teacher alone"
+        "Only special ed teacher alone",
+        "One teach/one assist, station teaching, team teaching"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: Co-teaching models distribute teaching responsibilities between general and special educators.",
       module: 4
     },
@@ -2385,12 +2385,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 33,
       question: "What translates vision into action?",
       options: [
-        "Only daily operations",
-        "Strategic planning processes",
         "Only budgeting",
-        "Only scheduling"
+        "Only scheduling",
+        "Strategic planning processes",
+        "Only daily operations"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 5: Strategic planning sets goals and actions to achieve the vision.",
       module: 5
     },
@@ -2399,11 +2399,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What ensures program sustainability?",
       options: [
         "Only enrollment",
-        "Financial management and budgeting",
         "Only fundraising",
-        "Only tuition increases"
+        "Only tuition increases",
+        "Financial management and budgeting"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 5: Sound financial practices maintain program stability and resource availability.",
       module: 5
     },
@@ -2411,10 +2411,10 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 35,
       question: "What examines critical periods and plasticity?",
       options: [
-        "Only behavior research",
+        "Only cognitive tests",
         "Brain development research findings",
-        "Only social research",
-        "Only cognitive tests"
+        "Only behavior research",
+        "Only social research"
       ],
       correctAnswer: 1,
       explanation: "From Module 6: Neuroscience research reveals how early experiences shape brain architecture.",
@@ -2425,11 +2425,11 @@ The future of early childhood research includes: increased interdisciplinary col
       question: "What includes planning, implementing, reflecting?",
       options: [
         "Only teaching",
-        "Action research cycle steps",
+        "Only reporting",
         "Only assessment",
-        "Only reporting"
+        "Action research cycle steps"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 6: The action research cycle structures systematic inquiry into practice improvement.",
       module: 6
     },
@@ -2437,12 +2437,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 37,
       question: "What are executive function skills?",
       options: [
-        "Only academic content",
         "Working memory, inhibitory control, cognitive flexibility",
-        "Only social skills",
-        "Only motor skills"
+        "Only academic content",
+        "Only motor skills",
+        "Only social skills"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 1: Executive functions are cognitive processes that regulate thought and behavior.",
       module: 1
     },
@@ -2450,9 +2450,9 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 38,
       question: "What begins with children's questions?",
       options: [
-        "Only textbook learning",
-        "Inquiry-based learning approaches",
         "Only memorization",
+        "Inquiry-based learning approaches",
+        "Only textbook learning",
         "Only testing"
       ],
       correctAnswer: 1,
@@ -2463,12 +2463,12 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 39,
       question: "Who are essential assessment partners?",
       options: [
-        "Only teachers",
         "Families providing context and insights",
+        "Only teachers",
         "Only administrators",
         "Only specialists"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 3: Family perspectives provide crucial context for understanding children's development.",
       module: 3
     },
@@ -2476,10 +2476,10 @@ The future of early childhood research includes: increased interdisciplinary col
       id: 40,
       question: "What are collaborative improvement groups?",
       options: [
-        "Only staff meetings",
+        "Only administrative teams",
         "Professional Learning Communities (PLCs)",
         "Only training sessions",
-        "Only administrative teams"
+        "Only staff meetings"
       ],
       correctAnswer: 1,
       explanation: "From Module 6: PLCs engage educators in collaborative inquiry and practice improvement.",

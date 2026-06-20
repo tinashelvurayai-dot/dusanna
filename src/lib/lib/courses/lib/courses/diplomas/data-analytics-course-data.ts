@@ -184,12 +184,12 @@ Solution approach: Systematic cleaning with documented changes
           id: 8,
           question: "What does PCA stand for in data reduction?",
           options: [
-            "Primary Component Analysis",
             "Principal Component Analysis",
-            "Preliminary Collection Approach",
-            "Process Control Algorithm"
+            "Primary Component Analysis",
+            "Process Control Algorithm",
+            "Preliminary Collection Approach"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PCA stands for Principal Component Analysis, a dimensionality reduction technique."
         },
         {
@@ -203,12 +203,12 @@ Solution approach: Systematic cleaning with documented changes
           id: 10,
           question: "What does 'garbage in, garbage out' principle emphasize?",
           options: [
-            "Fast analysis is best",
             "Clean data leads to reliable insights",
+            "More data is always better",
             "Complex models are always better",
-            "More data is always better"
+            "Fast analysis is best"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "This principle emphasizes that poor quality input data leads to unreliable results."
         },
         {
@@ -223,23 +223,23 @@ Solution approach: Systematic cleaning with documented changes
           question: "What is fuzzy matching used for?",
           options: [
             "Data cleaning",
-            "Approximate record matching",
             "Statistical analysis",
+            "Approximate record matching",
             "Data visualization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Fuzzy matching finds approximately similar records when exact matches aren't possible."
         },
         {
           id: 13,
           question: "When should you consider data reduction?",
           options: [
+            "Only for small datasets",
             "Always at the beginning",
             "When processing speed needs improvement",
-            "Only for small datasets",
             "Never reduce data"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Data reduction helps when datasets are too large for efficient processing."
         },
         {
@@ -247,23 +247,23 @@ Solution approach: Systematic cleaning with documented changes
           question: "What is feature engineering?",
           options: [
             "Deleting features",
+            "Visualizing features",
             "Creating new variables from existing ones",
-            "Only using original features",
-            "Visualizing features"
+            "Only using original features"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Feature engineering involves creating new predictive variables from existing data."
         },
         {
           id: 15,
           question: "What quality check involves comparing before/after statistics?",
           options: [
-            "Validation testing",
-            "Summary statistics comparison",
             "Small sample testing",
-            "Documentation review"
+            "Documentation review",
+            "Validation testing",
+            "Summary statistics comparison"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Comparing summary statistics helps ensure transformations didn't distort the data."
         },
         {
@@ -277,12 +277,12 @@ Solution approach: Systematic cleaning with documented changes
           id: 17,
           question: "What does temporal alignment address?",
           options: [
-            "Different time zones",
             "Data from different time periods",
-            "Clock synchronization",
-            "Date formatting only"
+            "Date formatting only",
+            "Different time zones",
+            "Clock synchronization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Temporal alignment deals with integrating data collected at different times."
         },
         {
@@ -290,11 +290,11 @@ Solution approach: Systematic cleaning with documented changes
           question: "What is the key professional insight about data wrangling?",
           options: [
             "It's a one-time process",
-            "It's iterative and requires revisiting",
             "It should be automated completely",
+            "It's iterative and requires revisiting",
             "It's the least important step"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Data wrangling is iterative as new issues often emerge during analysis."
         },
         {
@@ -308,12 +308,12 @@ Solution approach: Systematic cleaning with documented changes
           id: 20,
           question: "Why document all data transformations?",
           options: [
-            "For compliance only",
             "To reproduce and validate analysis",
-            "Because managers require it",
-            "To fill reports"
+            "To fill reports",
+            "For compliance only",
+            "Because managers require it"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Documentation ensures analysis is reproducible and transformations are transparent."
         }
       ]
@@ -472,10 +472,10 @@ Exploratory Data Analysis is your first real look at the data. It's about unders
           id: 1,
           question: "What is the primary purpose of Exploratory Data Analysis?",
           options: [
-            "Building predictive models",
+            "Data cleaning only",
             "Understanding data and generating hypotheses",
             "Creating final reports",
-            "Data cleaning only"
+            "Building predictive models"
           ],
           correctAnswer: 1,
           explanation: "EDA focuses on understanding data patterns and generating hypotheses for further testing."
@@ -491,12 +491,12 @@ Exploratory Data Analysis is your first real look at the data. It's about unders
           id: 3,
           question: "What does univariate analysis examine?",
           options: [
-            "Multiple variables together",
             "Relationships between two variables",
-            "Single variables individually",
-            "Time-based patterns"
+            "Time-based patterns",
+            "Multiple variables together",
+            "Single variables individually"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Univariate analysis focuses on understanding individual variables one at a time."
         },
         {
@@ -525,11 +525,11 @@ Exploratory Data Analysis is your first real look at the data. It's about unders
           question: "What is the difference between EDA and confirmatory analysis?",
           options: [
             "EDA tests hypotheses, confirmatory generates them",
-            "EDA generates hypotheses, confirmatory tests them",
             "They are the same thing",
-            "EDA is for cleaning, confirmatory for analysis"
+            "EDA is for cleaning, confirmatory for analysis",
+            "EDA generates hypotheses, confirmatory tests them"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "EDA explores data to generate hypotheses, which are then tested in confirmatory analysis."
         },
         {
@@ -543,12 +543,12 @@ Exploratory Data Analysis is your first real look at the data. It's about unders
           id: 9,
           question: "What does a correlation matrix heatmap show?",
           options: [
-            "Single variable distributions",
-            "Time series patterns",
             "Relationships between all variable pairs",
-            "Categorical frequencies"
+            "Categorical frequencies",
+            "Time series patterns",
+            "Single variable distributions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Correlation matrix heatmaps visualize relationships between all pairs of variables."
         },
         {
@@ -556,11 +556,11 @@ Exploratory Data Analysis is your first real look at the data. It's about unders
           question: "Which is NOT a common EDA question?",
           options: [
             "What are typical values?",
+            "What will happen exactly tomorrow?",
             "How much variation exists?",
-            "What relationships exist?",
-            "What will happen exactly tomorrow?"
+            "What relationships exist?"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "EDA focuses on understanding patterns, not making exact future predictions."
         },
         {
@@ -581,10 +581,10 @@ Exploratory Data Analysis is your first real look at the data. It's about unders
           id: 13,
           question: "What does seasonal decomposition separate?",
           options: [
-            "Data into training and testing sets",
+            "Clean and dirty data",
             "Trend, seasonal, and residual components",
             "Categorical and continuous variables",
-            "Clean and dirty data"
+            "Data into training and testing sets"
           ],
           correctAnswer: 1,
           explanation: "Seasonal decomposition breaks time series into trend, seasonal, and residual elements."
@@ -607,60 +607,60 @@ Exploratory Data Analysis is your first real look at the data. It's about unders
           id: 16,
           question: "What is autocorrelation analysis used for?",
           options: [
-            "Text data analysis",
-            "Time series pattern detection",
             "Categorical variable analysis",
-            "Data cleaning"
+            "Data cleaning",
+            "Text data analysis",
+            "Time series pattern detection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Autocorrelation examines how current values relate to past values in time series."
         },
         {
           id: 17,
           question: "What does pair plotting create?",
           options: [
-            "Single scatter plot",
             "Matrix of scatter plots for all variables",
             "Time series line charts",
-            "Correlation heatmaps"
+            "Correlation heatmaps",
+            "Single scatter plot"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pair plots create a matrix showing relationships between all variable pairs."
         },
         {
           id: 18,
           question: "Which is an advanced EDA technique?",
           options: [
+            "Data cleaning only",
             "Basic summary statistics",
             "Simple bar charts",
-            "Dimensionality reduction like PCA",
-            "Data cleaning only"
+            "Dimensionality reduction like PCA"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Dimensionality reduction techniques like PCA are advanced EDA methods for pattern discovery."
         },
         {
           id: 19,
           question: "What should EDA reports include?",
           options: [
-            "Only final conclusions",
             "Key findings, methodology, and recommendations",
+            "Only final conclusions",
             "Raw data only",
             "Predictive models only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive EDA reports include findings, methods, visualizations, and next steps."
         },
         {
           id: 20,
           question: "What mindset should guide EDA?",
           options: [
-            "Confirmation of existing beliefs",
             "Curiosity and skepticism",
-            "Rushing to conclusions",
-            "Following procedures blindly"
+            "Following procedures blindly",
+            "Confirmation of existing beliefs",
+            "Rushing to conclusions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "EDA requires curiosity to explore and skepticism to question what you find."
         }
       ]
@@ -836,24 +836,24 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 1,
           question: "What is the difference between parameter and statistic?",
           options: [
-            "Parameter is sample measure, statistic is population measure",
-            "Parameter is population measure, statistic is sample measure",
             "They are the same thing",
-            "Parameter estimates statistic"
+            "Parameter estimates statistic",
+            "Parameter is population measure, statistic is sample measure",
+            "Parameter is sample measure, statistic is population measure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Parameters describe populations, statistics describe samples."
         },
         {
           id: 2,
           question: "What does the Central Limit Theorem state?",
           options: [
-            "All data is normally distributed",
             "Sample means become normal with large sample size",
-            "Population means equal sample means",
-            "Variance decreases with sample size"
+            "All data is normally distributed",
+            "Variance decreases with sample size",
+            "Population means equal sample means"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "CLT states that sample means approach normal distribution as sample size increases."
         },
         {
@@ -867,12 +867,12 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 4,
           question: "What does a 95% confidence interval mean?",
           options: [
-            "95% chance the parameter is in the interval",
             "95% of sample values are in the interval",
-            "95% of intervals contain the parameter",
-            "Parameter is definitely in the interval"
+            "95% chance the parameter is in the interval",
+            "Parameter is definitely in the interval",
+            "95% of intervals contain the parameter"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "95% of such intervals from repeated sampling would contain the true parameter."
         },
         {
@@ -886,9 +886,9 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 6,
           question: "What does R-squared measure in regression?",
           options: [
-            "Statistical significance",
-            "Proportion of variance explained",
             "Prediction accuracy",
+            "Proportion of variance explained",
+            "Statistical significance",
             "Coefficient size"
           ],
           correctAnswer: 1,
@@ -898,10 +898,10 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 7,
           question: "When should you use non-parametric tests?",
           options: [
-            "Always",
-            "When assumptions of parametric tests are violated",
             "Only for large samples",
-            "Only for categorical data"
+            "When assumptions of parametric tests are violated",
+            "Only for categorical data",
+            "Always"
           ],
           correctAnswer: 1,
           explanation: "Non-parametric tests are used when parametric test assumptions aren't met."
@@ -911,9 +911,9 @@ Statistical analysis transforms data into evidence. This module covers the stati
           question: "What is stationarity in time series?",
           options: [
             "Constant mean and variance over time",
+            "Random fluctuations",
             "Increasing trend",
-            "Seasonal patterns",
-            "Random fluctuations"
+            "Seasonal patterns"
           ],
           correctAnswer: 0,
           explanation: "Stationarity means statistical properties don't change over time."
@@ -922,36 +922,36 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 9,
           question: "What does PCA accomplish?",
           options: [
-            "Predicts future values",
             "Reduces dimensionality while preserving variance",
+            "Cleans data",
             "Tests hypotheses",
-            "Cleans data"
+            "Predicts future values"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Principal Component Analysis reduces variables while retaining information."
         },
         {
           id: 10,
           question: "What is p-hacking?",
           options: [
-            "Proper hypothesis testing",
             "Trying multiple tests until finding significance",
             "Using p-values correctly",
+            "Proper hypothesis testing",
             "Reporting all analyses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "p-hacking involves conducting multiple analyses until obtaining a significant p-value."
         },
         {
           id: 11,
           question: "What is the null hypothesis typically?",
           options: [
-            "No effect or no difference",
             "Large effect exists",
+            "No effect or no difference",
             "Sample represents population",
             "Data is normal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The null hypothesis usually states no effect, difference, or relationship."
         },
         {
@@ -965,12 +965,12 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 13,
           question: "What does logistic regression predict?",
           options: [
-            "Continuous outcomes",
-            "Binary outcomes",
             "Time series",
-            "Multiple categories"
+            "Multiple categories",
+            "Binary outcomes",
+            "Continuous outcomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Logistic regression predicts binary (yes/no, success/failure) outcomes."
         },
         {
@@ -979,8 +979,8 @@ Statistical analysis transforms data into evidence. This module covers the stati
           options: [
             "Normality",
             "Homogeneity of variances",
-            "Independence",
-            "Linearity"
+            "Linearity",
+            "Independence"
           ],
           correctAnswer: 1,
           explanation: "Levene's test checks equal variances across groups (homoscedasticity)."
@@ -1001,10 +1001,10 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 16,
           question: "What does Cohen's d measure?",
           options: [
-            "Statistical significance",
+            "Correlation strength",
             "Effect size for mean differences",
             "Variance explained",
-            "Correlation strength"
+            "Statistical significance"
           ],
           correctAnswer: 1,
           explanation: "Cohen's d standardizes mean differences for effect size interpretation."
@@ -1027,8 +1027,8 @@ Statistical analysis transforms data into evidence. This module covers the stati
           options: [
             "Auto-Regressive Integrated Moving Average",
             "Advanced Regression Integrated Model Analysis",
-            "Automated Regression Inference Modeling Approach",
-            "Analytical Regression for Interval Measurement Assessment"
+            "Analytical Regression for Interval Measurement Assessment",
+            "Automated Regression Inference Modeling Approach"
           ],
           correctAnswer: 0,
           explanation: "ARIMA combines auto-regressive, integrated, and moving average components."
@@ -1037,24 +1037,24 @@ Statistical analysis transforms data into evidence. This module covers the stati
           id: 19,
           question: "What distinguishes statistical from practical significance?",
           options: [
-            "Statistical is about p-values, practical is about real-world impact",
             "They are the same thing",
+            "Statistical is about p-values, practical is about real-world impact",
             "Practical is always larger",
             "Statistical is more important"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Statistical significance addresses probability, practical significance addresses importance."
         },
         {
           id: 20,
           question: "What should statistical reports always include?",
           options: [
+            "Complex equations",
             "Only p-values",
-            "Effect sizes with confidence intervals",
             "Raw data tables only",
-            "Complex equations"
+            "Effect sizes with confidence intervals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Good reporting includes effect sizes and confidence intervals, not just p-values."
         }
       ]
@@ -1261,12 +1261,12 @@ Effective visualization transforms complex data into clear insights. This module
           id: 1,
           question: "What is the primary goal of data visualization?",
           options: [
-            "Make data look pretty",
             "Communicate information clearly and efficiently",
             "Show technical expertise",
-            "Use all available colors"
+            "Use all available colors",
+            "Make data look pretty"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Visualization aims to communicate information clearly and support understanding."
         },
         {
@@ -1308,12 +1308,12 @@ Effective visualization transforms complex data into clear insights. This module
           id: 7,
           question: "What is the F-pattern in dashboard layout?",
           options: [
-            "Using only F-shaped charts",
-            "Following natural eye movement patterns",
+            "Fixed column layout",
             "Arranging in alphabetical order",
-            "Fixed column layout"
+            "Following natural eye movement patterns",
+            "Using only F-shaped charts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "F-pattern layout follows typical eye scanning patterns for western readers."
         },
         {
@@ -1346,12 +1346,12 @@ Effective visualization transforms complex data into clear insights. This module
           id: 11,
           question: "What is preattentive processing?",
           options: [
-            "Slow, deliberate analysis",
-            "Immediate detection of visual attributes",
             "Color theory application",
-            "Statistical processing"
+            "Statistical processing",
+            "Slow, deliberate analysis",
+            "Immediate detection of visual attributes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Preattentive processing allows instant detection of visual features like color or size."
         },
         {
@@ -1391,48 +1391,48 @@ Effective visualization transforms complex data into clear insights. This module
           id: 16,
           question: "What is brushing and linking?",
           options: [
+            "Drawing lines between points",
             "Cleaning data visually",
             "Highlighting across multiple linked views",
-            "Connecting data sources",
-            "Drawing lines between points"
+            "Connecting data sources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Brushing highlights data points in one view that are linked across all views."
         },
         {
           id: 17,
           question: "What is the first step in dashboard development?",
           options: [
-            "Choosing colors",
             "Requirements gathering",
-            "Writing code",
-            "Data collection"
+            "Choosing colors",
+            "Data collection",
+            "Writing code"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Requirements gathering from stakeholders is the essential first step."
         },
         {
           id: 18,
           question: "What does progressive disclosure do?",
           options: [
-            "Shows everything at once",
             "Reveals complexity gradually",
-            "Hides important information",
-            "Simplifies data"
+            "Shows everything at once",
+            "Simplifies data",
+            "Hides important information"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Progressive disclosure reveals details as needed to avoid overwhelming users."
         },
         {
           id: 19,
           question: "What is the key insight about great visualizations?",
           options: [
-            "They show technical skill",
             "They become invisible to the insight",
+            "They show technical skill",
             "They use advanced features",
             "They impress managers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The best visualizations are so effective that users see the insight, not the tool."
         },
         {
@@ -1440,11 +1440,11 @@ Effective visualization transforms complex data into clear insights. This module
           question: "How should you measure dashboard success?",
           options: [
             "Only by visual appeal",
-            "Usage analytics and business impact",
             "Number of features",
+            "Usage analytics and business impact",
             "Loading speed only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Success combines usage metrics, user feedback, and actual business impact."
         }
       ]
@@ -1645,11 +1645,11 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           question: "What does predictive modeling primarily do?",
           options: [
             "Describe past data",
-            "Forecast future outcomes",
             "Clean data automatically",
+            "Forecast future outcomes",
             "Create visualizations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Predictive modeling uses historical data to forecast future events or behaviors."
         },
         {
@@ -1664,11 +1664,11 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           question: "What is the first step in CRISP-DM methodology?",
           options: [
             "Data Preparation",
-            "Business Understanding",
+            "Evaluation",
             "Modeling",
-            "Evaluation"
+            "Business Understanding"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Business understanding defines objectives and requirements before any analysis."
         },
         {
@@ -1690,11 +1690,11 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           question: "What does k-fold cross-validation do?",
           options: [
             "Uses all data for training",
-            "Splits data into k subsets for rotation training/testing",
             "Only uses first k samples",
-            "Creates k different models"
+            "Creates k different models",
+            "Splits data into k subsets for rotation training/testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "k-fold CV divides data into k subsets, using each as test set once."
         },
         {
@@ -1708,10 +1708,10 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           id: 8,
           question: "What does SHAP provide?",
           options: [
-            "Model accuracy",
+            "Hyperparameter values",
             "Feature importance and contribution",
-            "Data cleaning",
-            "Hyperparameter values"
+            "Model accuracy",
+            "Data cleaning"
           ],
           correctAnswer: 1,
           explanation: "SHAP (SHapley Additive exPlanations) values show feature contributions."
@@ -1720,24 +1720,24 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           id: 9,
           question: "What is model drift?",
           options: [
+            "Training process",
             "Model moving between servers",
             "Performance degradation over time",
-            "Training process",
             "Feature selection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Model drift refers to decreasing performance as data patterns change."
         },
         {
           id: 10,
           question: "What does MLOps stand for?",
           options: [
-            "Machine Learning Operations",
-            "Multiple Learning Options",
             "Model Logistic Operations",
-            "Maintenance Learning Optimization"
+            "Maintenance Learning Optimization",
+            "Multiple Learning Options",
+            "Machine Learning Operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MLOps applies DevOps practices to machine learning lifecycle management."
         },
         {
@@ -1751,22 +1751,22 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           id: 12,
           question: "What is the bias-variance tradeoff?",
           options: [
-            "Choosing between two models",
             "Balancing underfitting and overfitting",
-            "Selecting features",
-            "Data splitting strategy"
+            "Choosing between two models",
+            "Data splitting strategy",
+            "Selecting features"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Bias-variance tradeoff balances model simplicity (bias) and flexibility (variance)."
         },
         {
           id: 13,
           question: "What does regularization prevent?",
           options: [
-            "Underfitting",
+            "Feature engineering",
             "Overfitting",
-            "Data cleaning",
-            "Feature engineering"
+            "Underfitting",
+            "Data cleaning"
           ],
           correctAnswer: 1,
           explanation: "Regularization techniques like L1/L2 prevent overfitting by penalizing complexity."
@@ -1775,34 +1775,34 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           id: 14,
           question: "What is a confusion matrix?",
           options: [
-            "Data visualization",
-            "Detailed error breakdown for classification",
             "Model deployment tool",
-            "Feature selection method"
+            "Feature selection method",
+            "Detailed error breakdown for classification",
+            "Data visualization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Confusion matrix shows true/false positives/negatives for classification."
         },
         {
           id: 15,
           question: "What does AUC measure?",
           options: [
-            "Model training speed",
-            "Area under ROC curve (discrimination ability)",
             "Data accuracy",
-            "Feature importance"
+            "Feature importance",
+            "Area under ROC curve (discrimination ability)",
+            "Model training speed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "AUC measures how well model distinguishes between classes."
         },
         {
           id: 16,
           question: "What is grid search?",
           options: [
-            "Data collection method",
-            "Exhaustive hyperparameter testing",
             "Feature engineering",
-            "Model deployment"
+            "Exhaustive hyperparameter testing",
+            "Model deployment",
+            "Data collection method"
           ],
           correctAnswer: 1,
           explanation: "Grid search tests all combinations of specified hyperparameters."
@@ -1812,33 +1812,33 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           question: "What does SMOTE stand for?",
           options: [
             "Simple Model Optimization Technique",
+            "Systematic Model Observation Template",
             "Synthetic Minority Oversampling Technique",
-            "Statistical Method for Outcome Testing",
-            "Systematic Model Observation Template"
+            "Statistical Method for Outcome Testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SMOTE creates synthetic samples for minority classes in imbalanced data."
         },
         {
           id: 18,
           question: "What is concept drift?",
           options: [
-            "Changing input distributions",
-            "Changing relationships between features and target",
             "Model deployment",
-            "Feature selection"
+            "Changing input distributions",
+            "Feature selection",
+            "Changing relationships between features and target"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Concept drift occurs when the underlying relationship changes over time."
         },
         {
           id: 19,
           question: "What should drive model selection?",
           options: [
-            "Technical complexity",
+            "Computational speed",
             "Business problem and requirements",
             "Latest algorithms only",
-            "Computational speed"
+            "Technical complexity"
           ],
           correctAnswer: 1,
           explanation: "Business needs, not technical sophistication, should guide model selection."
@@ -1849,8 +1849,8 @@ Predictive modeling uses historical data to forecast future outcomes. This modul
           options: [
             "Complexity equals value",
             "Understandable, trusted models often create more value",
-            "Only accuracy matters",
-            "Black-box models are always best"
+            "Black-box models are always best",
+            "Only accuracy matters"
           ],
           correctAnswer: 1,
           explanation: "Models that stakeholders understand and trust often drive more business value."
@@ -2058,34 +2058,34 @@ The final module addresses how to effectively communicate analytical findings an
           id: 1,
           question: "What should you consider first when communicating analytics?",
           options: [
-            "Technical details",
             "Your audience",
-            "Statistical methods",
-            "Data sources"
+            "Technical details",
+            "Data sources",
+            "Statistical methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective communication starts with understanding your audience's needs and knowledge."
         },
         {
           id: 2,
           question: "What does BLUF stand for in presentations?",
           options: [
+            "Business Language User Friendly",
             "Better Language Usage Framework",
             "Bottom Line Up Front",
-            "Basic Logical Understanding Format",
-            "Business Language User Friendly"
+            "Basic Logical Understanding Format"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "BLUF means starting with the main conclusion or recommendation."
         },
         {
           id: 3,
           question: "What is data minimization?",
           options: [
-            "Collecting all possible data",
+            "Deleting old data",
             "Collecting only what's needed",
-            "Reducing data quality",
-            "Deleting old data"
+            "Collecting all possible data",
+            "Reducing data quality"
           ],
           correctAnswer: 1,
           explanation: "Data minimization principle: collect only necessary data for specified purposes."
@@ -2102,9 +2102,9 @@ The final module addresses how to effectively communicate analytical findings an
           question: "What does GDPR stand for?",
           options: [
             "General Data Protection Regulation",
+            "General Digital Privacy Rights",
             "Global Data Privacy Rules",
-            "Government Data Processing Requirements",
-            "General Digital Privacy Rights"
+            "Government Data Processing Requirements"
           ],
           correctAnswer: 0,
           explanation: "GDPR is the European Union's General Data Protection Regulation."
@@ -2113,12 +2113,12 @@ The final module addresses how to effectively communicate analytical findings an
           id: 6,
           question: "What principle emphasizes building privacy into systems?",
           options: [
-            "Privacy by Design",
-            "Privacy by Default",
             "Privacy by Regulation",
-            "Privacy by Request"
+            "Privacy by Default",
+            "Privacy by Request",
+            "Privacy by Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Privacy by Design means integrating privacy throughout system development."
         },
         {
@@ -2126,23 +2126,23 @@ The final module addresses how to effectively communicate analytical findings an
           question: "What should you communicate about analytical limitations?",
           options: [
             "Hide limitations to maintain credibility",
+            "Blame data sources",
             "Only share if asked",
-            "Clearly state assumptions and uncertainties",
-            "Blame data sources"
+            "Clearly state assumptions and uncertainties"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Transparent communication includes acknowledging limitations and uncertainties."
         },
         {
           id: 8,
           question: "What is the 'right to explanation'?",
           options: [
-            "Right to explain your analysis",
-            "Right to understand automated decisions",
             "Right to explain data collection",
-            "Right to interpret results"
+            "Right to interpret results",
+            "Right to understand automated decisions",
+            "Right to explain your analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Right to explanation means individuals can understand automated decisions affecting them."
         },
         {
@@ -2150,23 +2150,23 @@ The final module addresses how to effectively communicate analytical findings an
           question: "What does responsible AI emphasize?",
           options: [
             "Maximum accuracy at all costs",
-            "Speed of implementation",
             "Fairness, transparency, and accountability",
+            "Speed of implementation",
             "Technical complexity"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Responsible AI focuses on ethical principles like fairness and transparency."
         },
         {
           id: 10,
           question: "What builds trust with stakeholders?",
           options: [
-            "Complex analyses only",
             "Consistency, transparency, and integrity",
-            "Always agreeing with stakeholders",
-            "Using latest techniques"
+            "Complex analyses only",
+            "Using latest techniques",
+            "Always agreeing with stakeholders"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Trust comes from reliable, transparent, and ethical analytical practices."
         },
         {
@@ -2180,12 +2180,12 @@ The final module addresses how to effectively communicate analytical findings an
           id: 12,
           question: "What should executive summaries focus on?",
           options: [
-            "Technical methodology",
             "Key findings and recommendations",
-            "Data collection details",
-            "Statistical formulas"
+            "Technical methodology",
+            "Statistical formulas",
+            "Data collection details"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Executive summaries highlight key insights and actionable recommendations."
         },
         {
@@ -2194,8 +2194,8 @@ The final module addresses how to effectively communicate analytical findings an
           options: [
             "Limiting analysis scope",
             "Using data only for stated purposes",
-            "Restricting data access",
-            "Simplifying objectives"
+            "Simplifying objectives",
+            "Restricting data access"
           ],
           correctAnswer: 1,
           explanation: "Purpose limitation means using data only for originally specified reasons."
@@ -2204,48 +2204,48 @@ The final module addresses how to effectively communicate analytical findings an
           id: 14,
           question: "How detect algorithmic bias?",
           options: [
-            "Ignore it for simplicity",
-            "Bias audits and fairness metrics",
             "Only test on majority groups",
-            "Assume models are unbiased"
+            "Ignore it for simplicity",
+            "Assume models are unbiased",
+            "Bias audits and fairness metrics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Systematic bias audits and fairness metrics help detect discrimination."
         },
         {
           id: 15,
           question: "What is the right to be forgotten?",
           options: [
-            "Right to delete personal data",
-            "Right to forget analysis results",
             "Right to ignore findings",
+            "Right to forget analysis results",
+            "Right to delete personal data",
             "Right to remove data visualizations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Right to erasure allows individuals to request deletion of their personal data."
         },
         {
           id: 16,
           question: "What does transparency in analytics require?",
           options: [
-            "Hiding complex methods",
             "Openness about methods and limitations",
             "Simple explanations only",
-            "No documentation needed"
+            "No documentation needed",
+            "Hiding complex methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Transparency means being open about methods, data, and limitations."
         },
         {
           id: 17,
           question: "How communicate uncertainty properly?",
           options: [
-            "Hide uncertainty to appear confident",
             "Use probabilistic language and confidence intervals",
             "Only mention if results are weak",
-            "Blame data quality"
+            "Blame data quality",
+            "Hide uncertainty to appear confident"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Probabilistic language and confidence intervals communicate uncertainty appropriately."
         },
         {
@@ -2260,11 +2260,11 @@ The final module addresses how to effectively communicate analytical findings an
           question: "What is most valuable professional asset?",
           options: [
             "Technical skills only",
-            "Reputation for reliable, ethical analysis",
             "Knowledge of latest tools",
-            "Speed of analysis"
+            "Speed of analysis",
+            "Reputation for reliable, ethical analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Reputation for trustworthy, ethical, and impactful analysis builds career success."
         },
         {
@@ -2312,12 +2312,12 @@ The final module addresses how to effectively communicate analytical findings an
         id: 3,
         question: "What does the Central Limit Theorem state about sample means?",
         options: [
-          "They are always accurate",
           "They become normally distributed with large samples",
-          "They equal population means",
-          "They are biased"
+          "They are always accurate",
+          "They are biased",
+          "They equal population means"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Sample means approach normal distribution as sample size increases."
       },
       {
@@ -2359,12 +2359,12 @@ The final module addresses how to effectively communicate analytical findings an
         id: 9,
         question: "What does a 95% confidence interval mean?",
         options: [
-          "95% chance parameter is in interval",
           "95% of such intervals contain the parameter",
+          "95% of data in interval",
           "Parameter is definitely in interval",
-          "95% of data in interval"
+          "95% chance parameter is in interval"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "95% of intervals from repeated sampling would contain the true parameter."
       },
       {
@@ -2378,36 +2378,36 @@ The final module addresses how to effectively communicate analytical findings an
         id: 11,
         question: "What is the first CRISP-DM step?",
         options: [
-          "Data Preparation",
           "Business Understanding",
           "Modeling",
-          "Evaluation"
+          "Evaluation",
+          "Data Preparation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Business understanding defines objectives before analysis."
       },
       {
         id: 12,
         question: "What privacy principle limits data collection?",
         options: [
-          "Data Maximization",
-          "Data Minimization",
           "Data Expansion",
-          "Data Completion"
+          "Data Completion",
+          "Data Maximization",
+          "Data Minimization"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Data minimization means collecting only necessary data."
       },
       {
         id: 13,
         question: "What does EDA's pair plot create?",
         options: [
-          "Single chart",
           "Matrix of scatter plots for all variables",
-          "Time series",
-          "Correlation table"
+          "Single chart",
+          "Correlation table",
+          "Time series"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Pair plots create scatter plot matrices for all variable pairs."
       },
       {
@@ -2428,12 +2428,12 @@ The final module addresses how to effectively communicate analytical findings an
         id: 16,
         question: "What does k-fold cross-validation do?",
         options: [
-          "Uses all data for training",
           "Rotates test sets through k subsets",
-          "Trains k different models",
-          "Only uses k samples"
+          "Uses all data for training",
+          "Only uses k samples",
+          "Trains k different models"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "k-fold CV uses each of k subsets as test set once."
       },
       {
@@ -2441,8 +2441,8 @@ The final module addresses how to effectively communicate analytical findings an
         question: "What principle emphasizes building privacy into systems?",
         options: [
           "Privacy by Design",
-          "Privacy by Default",
           "Privacy by Regulation",
+          "Privacy by Default",
           "Privacy by Request"
         ],
         correctAnswer: 0,
@@ -2459,12 +2459,12 @@ The final module addresses how to effectively communicate analytical findings an
         id: 19,
         question: "What is BLUF in presentations?",
         options: [
-          "Beginning with Long User Forms",
           "Bottom Line Up Front",
+          "Beginning with Long User Forms",
           "Basic Logical Understanding Framework",
           "Business Language User Friendly"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "BLUF means starting with main conclusion."
       },
       {
@@ -2492,10 +2492,10 @@ The final module addresses how to effectively communicate analytical findings an
         id: 23,
         question: "What is algorithmic bias?",
         options: [
-          "Intentional discrimination",
-          "Unfair model discrimination",
           "Statistical error",
-          "Data collection error"
+          "Unfair model discrimination",
+          "Data collection error",
+          "Intentional discrimination"
         ],
         correctAnswer: 1,
         explanation: "Algorithmic bias occurs when models discriminate unfairly."
@@ -2505,44 +2505,44 @@ The final module addresses how to effectively communicate analytical findings an
         question: "What does SHAP explain?",
         options: [
           "Model accuracy",
-          "Feature contributions to predictions",
+          "Algorithm speed",
           "Data quality",
-          "Algorithm speed"
+          "Feature contributions to predictions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "SHAP values show how features contribute to predictions."
       },
       {
         id: 25,
         question: "What is the right to explanation?",
         options: [
-          "Right to explain your analysis",
-          "Right to understand automated decisions",
+          "Right to interpret results",
           "Right to explain data",
-          "Right to interpret results"
+          "Right to explain your analysis",
+          "Right to understand automated decisions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Right to understand automated decisions affecting individuals."
       },
       {
         id: 26,
         question: "What does PCA accomplish?",
         options: [
-          "Predicts outcomes",
           "Reduces dimensionality while preserving variance",
           "Cleans data",
-          "Tests hypotheses"
+          "Tests hypotheses",
+          "Predicts outcomes"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "PCA reduces variables while retaining information."
       },
       {
         id: 27,
         question: "What is progressive disclosure in dashboards?",
         options: [
-          "Showing everything at once",
-          "Revealing complexity gradually",
           "Hiding information",
+          "Revealing complexity gradually",
+          "Showing everything at once",
           "Simplifying data"
         ],
         correctAnswer: 1,
@@ -2552,24 +2552,24 @@ The final module addresses how to effectively communicate analytical findings an
         id: 28,
         question: "What is concept drift?",
         options: [
-          "Changing input data",
           "Changing feature-target relationships",
           "Model deployment",
+          "Changing input data",
           "Feature engineering"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Concept drift occurs when underlying relationships change."
       },
       {
         id: 29,
         question: "What does transparency require?",
         options: [
+          "Simple models only",
           "Hiding complexity",
           "Openness about methods and limitations",
-          "Simple models only",
           "No documentation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Transparency means being open about methods and limitations."
       },
       {
@@ -2577,11 +2577,11 @@ The final module addresses how to effectively communicate analytical findings an
         question: "What builds stakeholder trust most?",
         options: [
           "Complex analyses",
-          "Consistency and ethical practice",
+          "Latest techniques",
           "Always agreeing",
-          "Latest techniques"
+          "Consistency and ethical practice"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Trust comes from reliable, transparent, ethical practice."
       },
       {
@@ -2595,24 +2595,24 @@ The final module addresses how to effectively communicate analytical findings an
         id: 32,
         question: "What does R-squared measure in regression?",
         options: [
-          "Statistical significance",
           "Proportion of variance explained",
           "Prediction accuracy",
-          "Coefficient size"
+          "Coefficient size",
+          "Statistical significance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "R-squared indicates variance explained by predictors."
       },
       {
         id: 33,
         question: "What is the F-pattern in dashboard layout?",
         options: [
-          "Using F-shaped charts",
           "Following natural eye movement",
-          "Alphabetical arrangement",
-          "Fixed layout"
+          "Using F-shaped charts",
+          "Fixed layout",
+          "Alphabetical arrangement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "F-pattern follows typical western eye scanning patterns."
       },
       {
@@ -2620,33 +2620,33 @@ The final module addresses how to effectively communicate analytical findings an
         question: "What does hyperparameter optimization tune?",
         options: [
           "Input data",
-          "Model parameters set before training",
           "Output predictions",
-          "Feature selection"
+          "Feature selection",
+          "Model parameters set before training"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Hyperparameters are set before training and affect model learning."
       },
       {
         id: 35,
         question: "What does GDPR regulate?",
         options: [
-          "Data protection and privacy",
-          "Data analysis methods",
           "Model development",
-          "Business operations"
+          "Data protection and privacy",
+          "Business operations",
+          "Data analysis methods"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "GDPR regulates data protection and privacy in EU."
       },
       {
         id: 36,
         question: "What is sampling bias?",
         options: [
-          "Intentional sampling",
+          "Model bias",
           "Non-representative data collection",
-          "Statistical sampling",
-          "Model bias"
+          "Intentional sampling",
+          "Statistical sampling"
         ],
         correctAnswer: 1,
         explanation: "Sampling bias occurs when data doesn't represent population."
@@ -2655,12 +2655,12 @@ The final module addresses how to effectively communicate analytical findings an
         id: 37,
         question: "What visualization principle reduces mental effort?",
         options: [
-          "Maximizing complexity",
-          "Reducing cognitive load",
           "Adding decorations",
-          "Using 3D effects"
+          "Using 3D effects",
+          "Reducing cognitive load",
+          "Maximizing complexity"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Reducing cognitive load makes visualizations easier to understand."
       },
       {
@@ -2669,8 +2669,8 @@ The final module addresses how to effectively communicate analytical findings an
         options: [
           "DevOps practices",
           "Business processes",
-          "Data collection",
-          "Statistical methods"
+          "Statistical methods",
+          "Data collection"
         ],
         correctAnswer: 0,
         explanation: "MLOps applies DevOps practices to ML lifecycle."
@@ -2681,8 +2681,8 @@ The final module addresses how to effectively communicate analytical findings an
         options: [
           "Technical complexity",
           "Business problem and requirements",
-          "Latest algorithms",
-          "Computational speed"
+          "Computational speed",
+          "Latest algorithms"
         ],
         correctAnswer: 1,
         explanation: "Business needs should guide model selection."
@@ -2691,9 +2691,9 @@ The final module addresses how to effectively communicate analytical findings an
         id: 40,
         question: "What is most valuable professional asset in analytics?",
         options: [
-          "Technical skills",
-          "Reputation for reliable, ethical analysis",
           "Tool knowledge",
+          "Reputation for reliable, ethical analysis",
+          "Technical skills",
           "Speed"
         ],
         correctAnswer: 1,

@@ -74,12 +74,12 @@ Regenerative landscapes give back more than they take. They improve with age rat
           id: 1,
           question: "What fundamental ecological concept involves energy moving through systems?",
           options: [
-            "Nutrient Cycling",
-            "Energy Flow",
+            "Biomimicry",
             "Succession",
-            "Biomimicry"
+            "Energy Flow",
+            "Nutrient Cycling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Energy Flow describes how energy moves from sun to plants to animals through ecological systems."
         },
         {
@@ -130,8 +130,8 @@ Regenerative landscapes give back more than they take. They improve with age rat
           options: [
             "Climate-Responsive Design",
             "Microclimate Creation",
-            "Regional Appropriateness",
-            "Seasonal Adaptation"
+            "Seasonal Adaptation",
+            "Regional Appropriateness"
           ],
           correctAnswer: 1,
           explanation: "Microclimate Creation strategically modifies small-scale environmental conditions for human comfort."
@@ -140,24 +140,24 @@ Regenerative landscapes give back more than they take. They improve with age rat
           id: 9,
           question: "What designs for different needs throughout the year?",
           options: [
-            "Microclimate Creation",
             "Seasonal Adaptation",
+            "Microclimate Creation",
             "Regional Appropriateness",
             "Climate-Responsive Design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Seasonal Adaptation considers how design functions differently across changing seasons."
         },
         {
           id: 10,
           question: "What should hot climate designs focus on?",
           options: [
-            "Windbreaks and thermal mass",
-            "Shade and evaporative cooling",
             "Drainage and mold prevention",
-            "Snow retention and insulation"
+            "Snow retention and insulation",
+            "Shade and evaporative cooling",
+            "Windbreaks and thermal mass"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hot climates benefit from shade creation and water-based cooling systems."
         },
         {
@@ -166,8 +166,8 @@ Regenerative landscapes give back more than they take. They improve with age rat
           options: [
             "Hydrological Patterns",
             "Ecological Inventory",
-            "Soil Food Web",
-            "Cultural Layers"
+            "Cultural Layers",
+            "Soil Food Web"
           ],
           correctAnswer: 1,
           explanation: "Ecological Inventory documents living systems already present on a site."
@@ -176,72 +176,72 @@ Regenerative landscapes give back more than they take. They improve with age rat
           id: 12,
           question: "What understands water movement across the site?",
           options: [
+            "Soil Food Web",
             "Ecological Inventory",
             "Hydrological Patterns",
-            "Soil Food Web",
             "Cultural Layers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hydrological Patterns analysis tracks how water flows, pools, and drains across landscapes."
         },
         {
           id: 13,
           question: "What assesses microscopic life in soil?",
           options: [
-            "Ecological Inventory",
-            "Hydrological Patterns",
             "Soil Food Web",
-            "Cultural Layers"
+            "Cultural Layers",
+            "Ecological Inventory",
+            "Hydrological Patterns"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Soil Food Web assessment examines bacteria, fungi, and microorganisms crucial for soil health."
         },
         {
           id: 14,
           question: "What recognizes human history and patterns?",
           options: [
-            "Ecological Inventory",
             "Hydrological Patterns",
+            "Cultural Layers",
             "Soil Food Web",
-            "Cultural Layers"
+            "Ecological Inventory"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Cultural Layers analysis considers human history, use patterns, and cultural significance of sites."
         },
         {
           id: 15,
           question: "What goes beyond sustainability to improve environmental conditions?",
           options: [
+            "Green Design",
             "Sustainable Design",
             "Regenerative Design",
-            "Green Design",
             "Eco-Design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regenerative Design actively improves ecological health rather than just reducing harm."
         },
         {
           id: 16,
           question: "What increases soil health over time?",
           options: [
-            "Biodiversity Enhancement",
             "Soil Building",
+            "Biodiversity Enhancement",
             "Carbon Sequestration",
             "Water Table Recharge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Soil Building designs create conditions where soil organic matter and life increase annually."
         },
         {
           id: 17,
           question: "What creates habitats for diverse species?",
           options: [
-            "Soil Building",
-            "Biodiversity Enhancement",
             "Carbon Sequestration",
-            "Water Table Recharge"
+            "Water Table Recharge",
+            "Soil Building",
+            "Biodiversity Enhancement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Biodiversity Enhancement designs support varied plant and animal communities."
         },
         {
@@ -249,9 +249,9 @@ Regenerative landscapes give back more than they take. They improve with age rat
           question: "What uses plants to capture atmospheric carbon?",
           options: [
             "Soil Building",
-            "Biodiversity Enhancement",
+            "Water Table Recharge",
             "Carbon Sequestration",
-            "Water Table Recharge"
+            "Biodiversity Enhancement"
           ],
           correctAnswer: 2,
           explanation: "Carbon Sequestration designs use vegetation to remove and store carbon dioxide from the air."
@@ -260,24 +260,24 @@ Regenerative landscapes give back more than they take. They improve with age rat
           id: 19,
           question: "What replenishes groundwater supplies?",
           options: [
-            "Soil Building",
-            "Biodiversity Enhancement",
             "Carbon Sequestration",
-            "Water Table Recharge"
+            "Biodiversity Enhancement",
+            "Water Table Recharge",
+            "Soil Building"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Water Table Recharge designs allow precipitation to infiltrate and replenish underground aquifers."
         },
         {
           id: 20,
           question: "What improves with age rather than degrades?",
           options: [
-            "Conventional landscapes",
-            "Regenerative landscapes",
             "All designed spaces",
-            "High-maintenance gardens"
+            "High-maintenance gardens",
+            "Regenerative landscapes",
+            "Conventional landscapes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regenerative landscapes become more ecologically rich and self-sustaining over time."
         }
       ]
@@ -360,9 +360,9 @@ Deep watering encourages deep roots that survive drought. Cisterns and ponds sto
           id: 1,
           question: "What captures precipitation for later use?",
           options: [
-            "Graywater Systems",
-            "Rainwater Harvesting",
             "Efficient Irrigation",
+            "Rainwater Harvesting",
+            "Graywater Systems",
             "Plant Selection"
           ],
           correctAnswer: 1,
@@ -374,8 +374,8 @@ Deep watering encourages deep roots that survive drought. Cisterns and ponds sto
           options: [
             "Rainwater Harvesting",
             "Graywater Systems",
-            "Efficient Irrigation",
-            "Plant Selection"
+            "Plant Selection",
+            "Efficient Irrigation"
           ],
           correctAnswer: 1,
           explanation: "Graywater Systems recycle water from showers, sinks, and laundry for landscape use."
@@ -386,32 +386,32 @@ Deep watering encourages deep roots that survive drought. Cisterns and ponds sto
           options: [
             "Rainwater Harvesting",
             "Graywater Systems",
-            "Efficient Irrigation",
-            "Plant Selection"
+            "Plant Selection",
+            "Efficient Irrigation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Efficient Irrigation like drip systems applies water directly to root zones with minimal waste."
         },
         {
           id: 4,
           question: "What uses plants and soils to manage runoff?",
           options: [
+            "Bioswales",
             "Permeable Surfaces",
             "Green Infrastructure",
-            "Rain Gardens",
-            "Bioswales"
+            "Rain Gardens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Green Infrastructure uses living systems to manage stormwater naturally."
         },
         {
           id: 5,
           question: "What allows water infiltration instead of runoff?",
           options: [
-            "Green Infrastructure",
+            "Bioswales",
             "Permeable Surfaces",
             "Rain Gardens",
-            "Bioswales"
+            "Green Infrastructure"
           ],
           correctAnswer: 1,
           explanation: "Permeable Surfaces like porous pavement allow water to soak into the ground."
@@ -421,59 +421,59 @@ Deep watering encourages deep roots that survive drought. Cisterns and ponds sto
           question: "What are depressed areas that collect and filter runoff?",
           options: [
             "Green Infrastructure",
+            "Bioswales",
             "Permeable Surfaces",
-            "Rain Gardens",
-            "Bioswales"
+            "Rain Gardens"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Rain Gardens are shallow depressions planted with water-tolerant vegetation to manage runoff."
         },
         {
           id: 7,
           question: "What are vegetated channels that slow and clean water?",
           options: [
+            "Bioswales",
             "Green Infrastructure",
             "Permeable Surfaces",
-            "Rain Gardens",
-            "Bioswales"
+            "Rain Gardens"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Bioswales are designed channels with vegetation that filters pollutants from stormwater."
         },
         {
           id: 8,
           question: "What clean polluted water through plant and microbial action?",
           options: [
-            "Habitat Wetlands",
             "Treatment Wetlands",
+            "Habitat Wetlands",
             "Educational Wetlands",
             "Decorative Wetlands"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Treatment Wetlands use natural processes to remove contaminants from wastewater."
         },
         {
           id: 9,
           question: "What create wildlife habitat while managing water?",
           options: [
+            "Decorative Wetlands",
             "Treatment Wetlands",
-            "Habitat Wetlands",
             "Educational Wetlands",
-            "Decorative Wetlands"
+            "Habitat Wetlands"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Habitat Wetlands provide homes for wildlife while performing water management functions."
         },
         {
           id: 10,
           question: "What demonstrate ecological processes publicly?",
           options: [
-            "Treatment Wetlands",
-            "Habitat Wetlands",
             "Educational Wetlands",
-            "Decorative Wetlands"
+            "Decorative Wetlands",
+            "Habitat Wetlands",
+            "Treatment Wetlands"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Educational Wetlands serve as living classrooms about water ecology and treatment."
         },
         {
@@ -508,21 +508,21 @@ Deep watering encourages deep roots that survive drought. Cisterns and ponds sto
           id: 15,
           question: "What are chemical-free pools cleaned by plants?",
           options: [
-            "Aquaponic Systems",
             "Natural Swimming Ponds",
+            "Wildlife Water Sources",
             "Edible Water Gardens",
-            "Wildlife Water Sources"
+            "Aquaponic Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Natural Swimming Ponds use biological filtration instead of chemicals for water purification."
         },
         {
           id: 16,
           question: "What combines fish farming with plant production?",
           options: [
-            "Natural Swimming Ponds",
-            "Aquaponic Systems",
             "Edible Water Gardens",
+            "Aquaponic Systems",
+            "Natural Swimming Ponds",
             "Wildlife Water Sources"
           ],
           correctAnswer: 1,
@@ -533,45 +533,45 @@ Deep watering encourages deep roots that survive drought. Cisterns and ponds sto
           question: "What grows food plants in aquatic environments?",
           options: [
             "Natural Swimming Ponds",
-            "Aquaponic Systems",
             "Edible Water Gardens",
-            "Wildlife Water Sources"
+            "Wildlife Water Sources",
+            "Aquaponic Systems"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Edible Water Gardens cultivate food-producing plants adapted to wet conditions."
         },
         {
           id: 18,
           question: "What encourages plants to seek water deep underground?",
           options: [
-            "Water Banking",
-            "Deep Root Development",
+            "Alternative Water Sources",
             "Microclimate Optimization",
-            "Alternative Water Sources"
+            "Deep Root Development",
+            "Water Banking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Deep Root Development through infrequent, deep watering creates drought-resistant plants."
         },
         {
           id: 19,
           question: "What stores surplus water for dry periods?",
           options: [
+            "Alternative Water Sources",
             "Deep Root Development",
-            "Water Banking",
             "Microclimate Optimization",
-            "Alternative Water Sources"
+            "Water Banking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Water Banking stores water in tanks, ponds, or soil for use during droughts."
         },
         {
           id: 20,
           question: "What reduces water loss through strategic design?",
           options: [
-            "Deep Root Development",
             "Water Banking",
+            "Alternative Water Sources",
             "Microclimate Optimization",
-            "Alternative Water Sources"
+            "Deep Root Development"
           ],
           correctAnswer: 2,
           explanation: "Microclimate Optimization uses shade, windbreaks, and orientation to reduce plant water needs."
@@ -668,82 +668,82 @@ Riparian buffers filter water and provide movement corridors. Hedgerows connect 
           id: 1,
           question: "What mimics natural vegetation structure with multiple layers?",
           options: [
-            "Edge Effect",
-            "Layered Planting",
             "Successional Planning",
-            "Connectivity"
+            "Connectivity",
+            "Layered Planting",
+            "Edge Effect"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Layered Planting recreates the canopy, understory, and ground layers found in natural ecosystems."
         },
         {
           id: 2,
           question: "What creates diverse conditions where habitats meet?",
           options: [
-            "Layered Planting",
             "Edge Effect",
-            "Successional Planning",
-            "Connectivity"
+            "Layered Planting",
+            "Connectivity",
+            "Successional Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Edge Effect zones between different habitat types support exceptionally high biodiversity."
         },
         {
           id: 3,
           question: "What provides habitats for species at different ecological stages?",
           options: [
-            "Layered Planting",
-            "Edge Effect",
             "Successional Planning",
-            "Connectivity"
+            "Connectivity",
+            "Layered Planting",
+            "Edge Effect"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Successional Planning ensures habitat availability through different stages of ecosystem development."
         },
         {
           id: 4,
           question: "What links habitat patches to allow species movement?",
           options: [
-            "Layered Planting",
             "Edge Effect",
-            "Successional Planning",
-            "Connectivity"
+            "Connectivity",
+            "Layered Planting",
+            "Successional Planning"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Connectivity between habitat areas enables genetic exchange and migration for healthier populations."
         },
         {
           id: 5,
           question: "What plants evolved to local conditions requiring fewer resources?",
           options: [
-            "Co-evolved Plants",
-            "Regional Adapted Plants",
             "Genetic Diverse Plants",
-            "Community Associated Plants"
+            "Community Associated Plants",
+            "Co-evolved Plants",
+            "Regional Adapted Plants"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regionally adapted plants are naturally suited to local climate, soils, and conditions."
         },
         {
           id: 6,
           question: "What plants support local insects and wildlife through evolutionary relationships?",
           options: [
-            "Regional Adapted Plants",
             "Co-evolved Plants",
+            "Community Associated Plants",
             "Genetic Diverse Plants",
-            "Community Associated Plants"
+            "Regional Adapted Plants"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Co-evolved plants have established relationships with local insects and animals over millennia."
         },
         {
           id: 7,
           question: "What plants maintain regional genetic variation?",
           options: [
-            "Regional Adapted Plants",
+            "Community Associated Plants",
             "Co-evolved Plants",
             "Genetic Diverse Plants",
-            "Community Associated Plants"
+            "Regional Adapted Plants"
           ],
           correctAnswer: 2,
           explanation: "Genetically diverse native plantings preserve the unique genetic heritage of local populations."
@@ -752,34 +752,34 @@ Riparian buffers filter water and provide movement corridors. Hedgerows connect 
           id: 8,
           question: "What plants replicate natural associations for stability?",
           options: [
-            "Regional Adapted Plants",
             "Co-evolved Plants",
-            "Genetic Diverse Plants",
-            "Community Associated Plants"
+            "Community Associated Plants",
+            "Regional Adapted Plants",
+            "Genetic Diverse Plants"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Community Associated plants are species that naturally grow together, supporting each other's needs."
         },
         {
           id: 9,
           question: "What provides year-round food through diverse plant selection?",
           options: [
-            "Water Access",
             "Food Sources",
+            "Nesting/Breeding Sites",
             "Shelter",
-            "Nesting/Breeding Sites"
+            "Water Access"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Diverse Food Sources ensure wildlife have nutrition available across all seasons."
         },
         {
           id: 10,
           question: "What provides clean drinking and bathing water for species?",
           options: [
-            "Food Sources",
+            "Nesting/Breeding Sites",
             "Water Access",
             "Shelter",
-            "Nesting/Breeding Sites"
+            "Food Sources"
           ],
           correctAnswer: 1,
           explanation: "Water Access is essential for drinking, bathing, and attracting insect prey for many species."
@@ -788,22 +788,22 @@ Riparian buffers filter water and provide movement corridors. Hedgerows connect 
           id: 11,
           question: "What provides flowers with different bloom times for continuous food?",
           options: [
+            "Pesticide-Free Management",
             "Larval Host Plants",
             "Nectar and Pollen Sources",
-            "Pesticide-Free Management",
             "Overwintering Habitat"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Staggered Nectar and Pollen Sources ensure pollinators have food throughout their active seasons."
         },
         {
           id: 12,
           question: "What are specific plants that caterpillar stages require?",
           options: [
-            "Nectar and Pollen Sources",
+            "Overwintering Habitat",
             "Larval Host Plants",
-            "Pesticide-Free Management",
-            "Overwintering Habitat"
+            "Nectar and Pollen Sources",
+            "Pesticide-Free Management"
           ],
           correctAnswer: 1,
           explanation: "Larval Host Plants are essential for butterfly and moth reproduction - like milkweed for monarchs."
@@ -812,45 +812,45 @@ Riparian buffers filter water and provide movement corridors. Hedgerows connect 
           id: 13,
           question: "What different layers do different bird species require?",
           options: [
-            "Food Variety",
             "Vertical Structure",
             "Water Features",
-            "Predator Protection"
+            "Predator Protection",
+            "Food Variety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Vertical Structure provides specialized niches for different bird species within the same space."
         },
         {
           id: 14,
           question: "What includes seeds, berries, insects, and nectar for birds?",
           options: [
-            "Vertical Structure",
-            "Food Variety",
             "Water Features",
-            "Predator Protection"
+            "Predator Protection",
+            "Vertical Structure",
+            "Food Variety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Food Variety attracts different bird species with different dietary preferences."
         },
         {
           id: 15,
           question: "What are tunnels for native bee species?",
           options: [
+            "Decomposition Areas",
             "Butterfly Overwintering",
             "Solitary Bee Housing",
-            "Beneficial Insect Support",
-            "Decomposition Areas"
+            "Beneficial Insect Support"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Solitary Bee Housing provides nesting tunnels for native bees that don't live in hives."
         },
         {
           id: 16,
           question: "What provides protected spaces for chrysalises?",
           options: [
-            "Solitary Bee Housing",
-            "Butterfly Overwintering",
             "Beneficial Insect Support",
+            "Butterfly Overwintering",
+            "Solitary Bee Housing",
             "Decomposition Areas"
           ],
           correctAnswer: 1,
@@ -860,34 +860,34 @@ Riparian buffers filter water and provide movement corridors. Hedgerows connect 
           id: 17,
           question: "What are vegetated zones along waterways?",
           options: [
+            "Stepping Stone Habitats",
             "Hedgerows",
             "Riparian Buffers",
-            "Greenways",
-            "Stepping Stone Habitats"
+            "Greenways"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Riparian Buffers filter runoff and provide movement corridors along streams and rivers."
         },
         {
           id: 18,
           question: "What are linear plantings that connect larger habitats?",
           options: [
-            "Riparian Buffers",
-            "Hedgerows",
+            "Stepping Stone Habitats",
             "Greenways",
-            "Stepping Stone Habitats"
+            "Riparian Buffers",
+            "Hedgerows"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hedgerows create wildlife corridors through agricultural and developed landscapes."
         },
         {
           id: 19,
           question: "What are continuous natural corridors through developed areas?",
           options: [
-            "Riparian Buffers",
             "Hedgerows",
+            "Stepping Stone Habitats",
             "Greenways",
-            "Stepping Stone Habitats"
+            "Riparian Buffers"
           ],
           correctAnswer: 2,
           explanation: "Greenways provide connected habitat through urban and suburban environments."
@@ -896,12 +896,12 @@ Riparian buffers filter water and provide movement corridors. Hedgerows connect 
           id: 20,
           question: "What are small patches that facilitate species movement?",
           options: [
-            "Riparian Buffers",
-            "Hedgerows",
             "Greenways",
-            "Stepping Stone Habitats"
+            "Riparian Buffers",
+            "Stepping Stone Habitats",
+            "Hedgerows"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Stepping Stone Habitats help wildlife cross otherwise inhospitable areas between larger habitats."
         }
       ]
@@ -1004,31 +1004,31 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           question: "What is total energy consumed in extraction, manufacturing, and transport?",
           options: [
             "Renewability",
-            "Embodied Energy",
+            "Recycled Content",
             "Local Availability",
-            "Recycled Content"
+            "Embodied Energy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Embodied Energy accounts for all energy used throughout a material's life cycle."
         },
         {
           id: 2,
           question: "What indicates materials from rapidly regenerating sources?",
           options: [
-            "Embodied Energy",
             "Renewability",
+            "Recycled Content",
             "Local Availability",
-            "Recycled Content"
+            "Embodied Energy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Renewability refers to materials that regrow quickly, like bamboo or cork."
         },
         {
           id: 3,
           question: "What reduces transportation energy and supports local economies?",
           options: [
-            "Embodied Energy",
             "Renewability",
+            "Embodied Energy",
             "Local Availability",
             "Recycled Content"
           ],
@@ -1040,21 +1040,21 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           question: "What uses post-consumer or post-industrial materials?",
           options: [
             "Embodied Energy",
-            "Renewability",
+            "Recycled Content",
             "Local Availability",
-            "Recycled Content"
+            "Renewability"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Recycled Content gives new life to materials that would otherwise become waste."
         },
         {
           id: 5,
           question: "What is certified lumber from responsibly managed forests?",
           options: [
-            "Bamboo",
-            "Wood from Sustainable Forestry",
             "Natural Stone",
-            "Earth Materials"
+            "Wood from Sustainable Forestry",
+            "Earth Materials",
+            "Bamboo"
           ],
           correctAnswer: 1,
           explanation: "Sustainable forestry certification ensures wood comes from well-managed, renewable sources."
@@ -1063,20 +1063,20 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           id: 6,
           question: "What is rapidly renewable grass with strength comparable to hardwoods?",
           options: [
+            "Earth Materials",
             "Wood from Sustainable Forestry",
             "Bamboo",
-            "Natural Stone",
-            "Earth Materials"
+            "Natural Stone"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bamboo is actually a grass that grows exceptionally fast with remarkable strength."
         },
         {
           id: 7,
           question: "What is durable material requiring minimal processing?",
           options: [
-            "Wood from Sustainable Forestry",
             "Bamboo",
+            "Wood from Sustainable Forestry",
             "Natural Stone",
             "Earth Materials"
           ],
@@ -1087,24 +1087,24 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           id: 8,
           question: "What are clay, sand, and gravel with low processing energy?",
           options: [
-            "Wood from Sustainable Forestry",
+            "Earth Materials",
             "Bamboo",
             "Natural Stone",
-            "Earth Materials"
+            "Wood from Sustainable Forestry"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Earth Materials are minimally processed local resources for building."
         },
         {
           id: 9,
           question: "What is lumber salvaged from old buildings and structures?",
           options: [
-            "Recycled Plastic",
-            "Reclaimed Wood",
+            "Recycled Glass",
             "Crushed Concrete",
-            "Recycled Glass"
+            "Recycled Plastic",
+            "Reclaimed Wood"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Reclaimed Wood preserves historical materials and reduces demand for new timber."
         },
         {
@@ -1112,11 +1112,11 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           question: "What is plastic waste transformed into durable lumber alternatives?",
           options: [
             "Reclaimed Wood",
+            "Recycled Glass",
             "Recycled Plastic",
-            "Crushed Concrete",
-            "Recycled Glass"
+            "Crushed Concrete"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Recycled Plastic Lumber gives permanent use to plastic that would otherwise pollute."
         },
         {
@@ -1124,35 +1124,35 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           question: "What protects existing vegetation and topsoil during construction?",
           options: [
             "Dry Stack Construction",
-            "Minimal Site Disturbance",
+            "Hand Tools and Simple Technology",
             "Modular Design",
-            "Hand Tools and Simple Technology"
+            "Minimal Site Disturbance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Minimal Site Disturbance preserves ecological functions and reduces erosion."
         },
         {
           id: 12,
           question: "What builds without mortar to allow disassembly and reuse?",
           options: [
-            "Minimal Site Disturbance",
-            "Dry Stack Construction",
             "Modular Design",
-            "Hand Tools and Simple Technology"
+            "Minimal Site Disturbance",
+            "Hand Tools and Simple Technology",
+            "Dry Stack Construction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dry Stack Construction creates reusable structures without permanent bonding."
         },
         {
           id: 13,
           question: "What creates components that can be rearranged or repurposed?",
           options: [
-            "Minimal Site Disturbance",
-            "Dry Stack Construction",
             "Modular Design",
-            "Hand Tools and Simple Technology"
+            "Hand Tools and Simple Technology",
+            "Minimal Site Disturbance",
+            "Dry Stack Construction"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Modular Design allows adaptation to changing needs over time."
         },
         {
@@ -1160,11 +1160,11 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           question: "What allow water infiltration while providing stable surfaces?",
           options: [
             "Local Stone",
-            "Permeable Pavers",
             "Recycled Concrete Pavers",
-            "Gravel and Decomposed Granite"
+            "Gravel and Decomposed Granite",
+            "Permeable Pavers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Permeable Pavers have gaps that allow rainwater to soak into the ground below."
         },
         {
@@ -1173,8 +1173,8 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           options: [
             "Permeable Pavers",
             "Local Stone",
-            "Recycled Concrete Pavers",
-            "Gravel and Decomposed Granite"
+            "Gravel and Decomposed Granite",
+            "Recycled Concrete Pavers"
           ],
           correctAnswer: 1,
           explanation: "Local Stone connects designs to regional geology with minimal shipping impact."
@@ -1183,9 +1183,9 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           id: 16,
           question: "What are vertical gardens that improve air quality and insulation?",
           options: [
-            "Green Roofs",
-            "Living Walls",
             "Compost Systems",
+            "Living Walls",
+            "Green Roofs",
             "Solar Lighting"
           ],
           correctAnswer: 1,
@@ -1195,24 +1195,24 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           id: 17,
           question: "What are vegetated roof systems that reduce stormwater and cooling loads?",
           options: [
-            "Living Walls",
             "Green Roofs",
+            "Living Walls",
             "Compost Systems",
             "Solar Lighting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Green Roofs replace heat-absorbing surfaces with living, cooling vegetation."
         },
         {
           id: 18,
           question: "What turns yard and kitchen waste into soil amendment?",
           options: [
+            "Compost Systems",
             "Living Walls",
             "Green Roofs",
-            "Compost Systems",
             "Solar Lighting"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Compost Systems recycle organic waste into valuable soil nutrients on-site."
         },
         {
@@ -1221,8 +1221,8 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           options: [
             "Durable Materials",
             "Low-Maintenance Plantings",
-            "Self-Cleaning Systems",
-            "Educational Signage"
+            "Educational Signage",
+            "Self-Cleaning Systems"
           ],
           correctAnswer: 1,
           explanation: "Low-Maintenance Plantings establish self-sustaining ecosystems adapted to local conditions."
@@ -1231,12 +1231,12 @@ Native plant communities establish self-sustaining ecosystems. Durable materials
           id: 20,
           question: "What withstand weather without frequent replacement?",
           options: [
-            "Low-Maintenance Plantings",
             "Durable Materials",
-            "Self-Cleaning Systems",
-            "Educational Signage"
+            "Educational Signage",
+            "Low-Maintenance Plantings",
+            "Self-Cleaning Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Durable Materials last for decades or centuries with minimal maintenance needs."
         }
       ]
@@ -1331,10 +1331,10 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           id: 1,
           question: "What are community spaces beyond home and work where people connect?",
           options: [
-            "Sitting Opportunities",
-            "Third Places",
             "Activity Nodes",
-            "Path Networks"
+            "Third Places",
+            "Path Networks",
+            "Sitting Opportunities"
           ],
           correctAnswer: 1,
           explanation: "Third Places like parks, cafes, and community centers foster informal social connections."
@@ -1343,24 +1343,24 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           id: 2,
           question: "What are comfortable, well-placed seating that invites conversation?",
           options: [
-            "Third Places",
             "Sitting Opportunities",
+            "Path Networks",
             "Activity Nodes",
-            "Path Networks"
+            "Third Places"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategic Sitting Opportunities create natural gathering points for social interaction."
         },
         {
           id: 3,
           question: "What are areas designed for specific communal activities?",
           options: [
-            "Third Places",
-            "Sitting Opportunities",
             "Activity Nodes",
-            "Path Networks"
+            "Path Networks",
+            "Sitting Opportunities",
+            "Third Places"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Activity Nodes intentionally support group activities like games, performances, or markets."
         },
         {
@@ -1369,31 +1369,31 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           options: [
             "Third Places",
             "Sitting Opportunities",
-            "Activity Nodes",
-            "Path Networks"
+            "Path Networks",
+            "Activity Nodes"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Well-designed Path Networks increase chance encounters and neighborhood familiarity."
         },
         {
           id: 5,
           question: "What protects culturally significant landscapes and features?",
           options: [
-            "Cultural Expression",
-            "Historic Preservation",
             "Ethnobotany",
-            "Placemaking"
+            "Placemaking",
+            "Historic Preservation",
+            "Cultural Expression"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Historic Preservation maintains physical connections to community history and identity."
         },
         {
           id: 6,
           question: "What incorporates art, symbols, and patterns meaningful to communities?",
           options: [
-            "Historic Preservation",
-            "Cultural Expression",
             "Ethnobotany",
+            "Cultural Expression",
+            "Historic Preservation",
             "Placemaking"
           ],
           correctAnswer: 1,
@@ -1403,10 +1403,10 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           id: 7,
           question: "What includes plants with cultural significance and traditional uses?",
           options: [
-            "Historic Preservation",
+            "Placemaking",
             "Cultural Expression",
             "Ethnobotany",
-            "Placemaking"
+            "Historic Preservation"
           ],
           correctAnswer: 2,
           explanation: "Ethnobotany integrates plants with historical, medicinal, or ceremonial importance."
@@ -1416,8 +1416,8 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           question: "What creates spaces that feel uniquely rooted in their location?",
           options: [
             "Historic Preservation",
-            "Cultural Expression",
             "Ethnobotany",
+            "Cultural Expression",
             "Placemaking"
           ],
           correctAnswer: 3,
@@ -1427,69 +1427,69 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           id: 9,
           question: "What designs for people with mobility, vision, or hearing differences?",
           options: [
-            "Generational Inclusion",
-            "Physical Accessibility",
             "Cultural Accessibility",
-            "Economic Accessibility"
+            "Generational Inclusion",
+            "Economic Accessibility",
+            "Physical Accessibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Physical Accessibility ensures everyone can use and enjoy designed spaces regardless of ability."
         },
         {
           id: 10,
           question: "What creates spaces enjoyable for children through seniors?",
           options: [
-            "Physical Accessibility",
             "Generational Inclusion",
+            "Physical Accessibility",
             "Cultural Accessibility",
             "Economic Accessibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Generational Inclusion considers the different needs and interests of all age groups."
         },
         {
           id: 11,
           question: "What are shared growing spaces that build skills and relationships?",
           options: [
-            "Edible Landscapes",
-            "Community Gardens",
             "Orchards and Food Forests",
-            "Educational Gardens"
+            "Educational Gardens",
+            "Edible Landscapes",
+            "Community Gardens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Community Gardens provide land, community, and education for urban food production."
         },
         {
           id: 12,
           question: "What integrates food plants throughout designed spaces?",
           options: [
-            "Community Gardens",
             "Edible Landscapes",
             "Orchards and Food Forests",
+            "Community Gardens",
             "Educational Gardens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Edible Landscapes make food production beautiful, accessible, and integrated into daily life."
         },
         {
           id: 13,
           question: "What creates low-maintenance perennial food sources mimicking ecosystems?",
           options: [
-            "Community Gardens",
             "Edible Landscapes",
-            "Orchards and Food Forests",
-            "Educational Gardens"
+            "Community Gardens",
+            "Educational Gardens",
+            "Orchards and Food Forests"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Food Forests create layered, self-maintaining food systems based on ecological principles."
         },
         {
           id: 14,
           question: "What are spaces specifically designed for therapeutic benefits?",
           options: [
-            "Sensory Gardens",
-            "Healing Gardens",
             "Restorative Environments",
+            "Healing Gardens",
+            "Sensory Gardens",
             "Horticultural Therapy"
           ],
           correctAnswer: 1,
@@ -1499,12 +1499,12 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           id: 15,
           question: "What engages all five senses through plant selection and design?",
           options: [
+            "Restorative Environments",
             "Healing Gardens",
             "Sensory Gardens",
-            "Restorative Environments",
             "Horticultural Therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sensory Gardens stimulate touch, smell, sight, sound, and sometimes taste for full engagement."
         },
         {
@@ -1512,21 +1512,21 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           question: "What gathers local knowledge and preferences from community members?",
           options: [
             "Design Charrettes",
-            "Community Workshops",
+            "Co-Design",
             "Participatory Budgeting",
-            "Co-Design"
+            "Community Workshops"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Community Workshops collect community insights, needs, and aspirations for design."
         },
         {
           id: 17,
           question: "What are intensive collaborative design sessions?",
           options: [
-            "Community Workshops",
-            "Design Charrettes",
             "Participatory Budgeting",
-            "Co-Design"
+            "Design Charrettes",
+            "Co-Design",
+            "Community Workshops"
           ],
           correctAnswer: 1,
           explanation: "Design Charrettes bring diverse stakeholders together for focused, creative problem-solving."
@@ -1535,10 +1535,10 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           id: 18,
           question: "What involves community members helping decide resource allocation?",
           options: [
-            "Community Workshops",
             "Design Charrettes",
+            "Co-Design",
             "Participatory Budgeting",
-            "Co-Design"
+            "Community Workshops"
           ],
           correctAnswer: 2,
           explanation: "Participatory Budgeting gives community members direct say in how funds are spent."
@@ -1548,23 +1548,23 @@ Interpretive signage transforms spaces into outdoor classrooms. Demonstration ga
           question: "What explains ecological processes and historical significance?",
           options: [
             "Demonstration Gardens",
+            "Seasonal Displays",
             "Interpretive Signage",
-            "Interactive Elements",
-            "Seasonal Displays"
+            "Interactive Elements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Interpretive Signage educates visitors about environmental features and stories."
         },
         {
           id: 20,
           question: "What shows sustainable practices in action?",
           options: [
-            "Interpretive Signage",
-            "Demonstration Gardens",
+            "Seasonal Displays",
             "Interactive Elements",
-            "Seasonal Displays"
+            "Interpretive Signage",
+            "Demonstration Gardens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Demonstration Gardens model techniques like rainwater harvesting or native planting."
         }
       ]
@@ -1670,10 +1670,10 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           id: 1,
           question: "What requires planning for more extreme heat and altered growing seasons?",
           options: [
-            "Precipitation Changes",
+            "Extreme Weather Events",
             "Temperature Increases",
             "Sea Level Rise",
-            "Extreme Weather Events"
+            "Precipitation Changes"
           ],
           correctAnswer: 1,
           explanation: "Temperature Increases demand heat-tolerant plants and cooling strategies in landscapes."
@@ -1683,11 +1683,11 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           question: "What requires preparing for intense storms and/or prolonged droughts?",
           options: [
             "Temperature Increases",
-            "Precipitation Changes",
+            "Extreme Weather Events",
             "Sea Level Rise",
-            "Extreme Weather Events"
+            "Precipitation Changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Precipitation Changes necessitate flexible water management for both floods and droughts."
         },
         {
@@ -1695,9 +1695,9 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           question: "What requires designing coastal landscapes for changing shorelines?",
           options: [
             "Temperature Increases",
-            "Precipitation Changes",
+            "Extreme Weather Events",
             "Sea Level Rise",
-            "Extreme Weather Events"
+            "Precipitation Changes"
           ],
           correctAnswer: 2,
           explanation: "Sea Level Rise demands resilient designs for gradually inundated coastal areas."
@@ -1706,10 +1706,10 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           id: 4,
           question: "What provides shade and evaporative cooling in urban areas?",
           options: [
-            "Reflective Surfaces",
-            "Increased Vegetation",
             "Green Roofs and Walls",
-            "Water Features"
+            "Increased Vegetation",
+            "Water Features",
+            "Reflective Surfaces"
           ],
           correctAnswer: 1,
           explanation: "Increased Vegetation through trees and plants is the most effective urban cooling strategy."
@@ -1718,24 +1718,24 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           id: 5,
           question: "What are materials with high solar reflectance to reduce heat absorption?",
           options: [
-            "Increased Vegetation",
             "Reflective Surfaces",
+            "Water Features",
             "Green Roofs and Walls",
-            "Water Features"
+            "Increased Vegetation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Reflective Surfaces like light-colored pavements reduce urban heat island effect."
         },
         {
           id: 6,
           question: "What are systems that handle variable water volumes?",
           options: [
-            "Floodable Landscapes",
-            "Adaptive Drainage",
+            "Erosion Control",
             "Elevated Structures",
-            "Erosion Control"
+            "Adaptive Drainage",
+            "Floodable Landscapes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Adaptive Drainage systems accommodate both drought and deluge conditions."
         },
         {
@@ -1743,23 +1743,23 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           question: "What are areas designed to safely accommodate occasional inundation?",
           options: [
             "Adaptive Drainage",
-            "Floodable Landscapes",
             "Elevated Structures",
+            "Floodable Landscapes",
             "Erosion Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Floodable Landscapes like parks temporarily store water during extreme rain events."
         },
         {
           id: 8,
           question: "What are landscape approaches that minimize water use?",
           options: [
-            "Soil Moisture Management",
             "Xeriscaping Principles",
-            "Alternative Water Sources",
-            "Plant Community Adaptation"
+            "Plant Community Adaptation",
+            "Soil Moisture Management",
+            "Alternative Water Sources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Xeriscaping creates beautiful, functional landscapes with minimal water requirements."
         },
         {
@@ -1767,23 +1767,23 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           question: "What are techniques to maximize water retention in soil?",
           options: [
             "Xeriscaping Principles",
-            "Soil Moisture Management",
+            "Plant Community Adaptation",
             "Alternative Water Sources",
-            "Plant Community Adaptation"
+            "Soil Moisture Management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Soil Moisture Management through organic matter and mulch dramatically improves water retention."
         },
         {
           id: 10,
           question: "What are plants that rapidly accumulate organic matter?",
           options: [
+            "Avoided Emissions",
             "Soil Carbon Building",
             "High-Biomass Plantings",
-            "Woody Plant Establishment",
-            "Avoided Emissions"
+            "Woody Plant Establishment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "High-Biomass Plantings like fast-growing trees capture atmospheric carbon quickly."
         },
         {
@@ -1802,36 +1802,36 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           id: 12,
           question: "What are zones with reduced fuel around structures?",
           options: [
-            "Fire-Resistant Plant Selection",
-            "Defensible Space Creation",
             "Fuel Management",
-            "Strategic Hardscape"
+            "Fire-Resistant Plant Selection",
+            "Strategic Hardscape",
+            "Defensible Space Creation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Defensible Space provides a buffer zone that reduces wildfire risk to buildings."
         },
         {
           id: 13,
           question: "What are species with high moisture content and low flammability?",
           options: [
+            "Fuel Management",
             "Defensible Space Creation",
             "Fire-Resistant Plant Selection",
-            "Fuel Management",
             "Strategic Hardscape"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Fire-Resistant Plants like succulents are less likely to ignite and spread flames."
         },
         {
           id: 14,
           question: "What uses plants and natural materials instead of hard structures?",
           options: [
+            "Managed Retreat",
             "Dune Restoration",
-            "Living Shorelines",
             "Salt-Tolerant Plantings",
-            "Managed Retreat"
+            "Living Shorelines"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Living Shorelines use natural systems like marshes and oyster beds for coastal protection."
         },
         {
@@ -1839,35 +1839,35 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           question: "What involves building and stabilizing natural coastal defenses?",
           options: [
             "Living Shorelines",
-            "Dune Restoration",
             "Salt-Tolerant Plantings",
-            "Managed Retreat"
+            "Managed Retreat",
+            "Dune Restoration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dune Restoration creates natural barriers that absorb storm energy and protect inland areas."
         },
         {
           id: 16,
           question: "What tracks how designs respond to actual climate conditions?",
           options: [
-            "Community Feedback",
-            "Performance Monitoring",
+            "Knowledge Sharing",
             "Flexible Design",
-            "Knowledge Sharing"
+            "Performance Monitoring",
+            "Community Feedback"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Performance Monitoring assesses whether climate adaptation strategies are working effectively."
         },
         {
           id: 17,
           question: "What learns from local experiences and observations?",
           options: [
-            "Performance Monitoring",
             "Community Feedback",
+            "Performance Monitoring",
             "Flexible Design",
             "Knowledge Sharing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Community Feedback provides practical, place-based knowledge about climate impacts."
         },
         {
@@ -1876,34 +1876,34 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
           options: [
             "Performance Monitoring",
             "Community Feedback",
-            "Flexible Design",
-            "Knowledge Sharing"
+            "Knowledge Sharing",
+            "Flexible Design"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Flexible Design allows adjustments as climate conditions and understanding evolve."
         },
         {
           id: 19,
           question: "What builds community capacity through shared learning?",
           options: [
-            "Performance Monitoring",
-            "Community Feedback",
             "Flexible Design",
-            "Knowledge Sharing"
+            "Knowledge Sharing",
+            "Performance Monitoring",
+            "Community Feedback"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Knowledge Sharing educates communities about climate adaptation strategies and their implementation."
         },
         {
           id: 20,
           question: "What reduces fossil fuel use through natural cooling and heating?",
           options: [
+            "Avoided Emissions",
             "High-Biomass Plantings",
-            "Soil Carbon Building",
             "Woody Plant Establishment",
-            "Avoided Emissions"
+            "Soil Carbon Building"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "Avoided Emissions result from designs that reduce energy consumption through passive strategies."
         }
       ]
@@ -1915,9 +1915,9 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 1,
       question: "What fundamental ecological concept involves energy moving through systems?",
       options: [
-        "Nutrient Cycling",
-        "Energy Flow",
         "Succession",
+        "Energy Flow",
+        "Nutrient Cycling",
         "Biomimicry"
       ],
       correctAnswer: 1,
@@ -1934,9 +1934,9 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 3,
       question: "What captures precipitation for later use?",
       options: [
-        "Graywater Systems",
-        "Rainwater Harvesting",
         "Efficient Irrigation",
+        "Rainwater Harvesting",
+        "Graywater Systems",
         "Plant Selection"
       ],
       correctAnswer: 1,
@@ -1946,9 +1946,9 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 4,
       question: "What uses plants and soils to manage runoff?",
       options: [
-        "Permeable Surfaces",
-        "Green Infrastructure",
         "Rain Gardens",
+        "Green Infrastructure",
+        "Permeable Surfaces",
         "Bioswales"
       ],
       correctAnswer: 1,
@@ -1959,11 +1959,11 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       question: "What clean polluted water through plant and microbial action?",
       options: [
         "Habitat Wetlands",
+        "Decorative Wetlands",
         "Treatment Wetlands",
-        "Educational Wetlands",
-        "Decorative Wetlands"
+        "Educational Wetlands"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Treatment Wetlands use natural processes to remove contaminants from wastewater."
     },
     {
@@ -1971,33 +1971,33 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       question: "What mimics natural vegetation structure with multiple layers?",
       options: [
         "Edge Effect",
-        "Layered Planting",
         "Successional Planning",
-        "Connectivity"
+        "Connectivity",
+        "Layered Planting"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Layered Planting recreates the canopy, understory, and ground layers found in natural ecosystems."
     },
     {
       id: 7,
       question: "What creates diverse conditions where habitats meet?",
       options: [
-        "Layered Planting",
         "Edge Effect",
-        "Successional Planning",
-        "Connectivity"
+        "Connectivity",
+        "Layered Planting",
+        "Successional Planning"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Edge Effect zones between different habitat types support exceptionally high biodiversity."
     },
     {
       id: 8,
       question: "What plants evolved to local conditions requiring fewer resources?",
       options: [
-        "Co-evolved Plants",
-        "Regional Adapted Plants",
         "Genetic Diverse Plants",
-        "Community Associated Plants"
+        "Regional Adapted Plants",
+        "Community Associated Plants",
+        "Co-evolved Plants"
       ],
       correctAnswer: 1,
       explanation: "Regionally adapted plants are naturally suited to local climate, soils, and conditions."
@@ -2006,72 +2006,72 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 9,
       question: "What are tunnels for native bee species?",
       options: [
-        "Butterfly Overwintering",
-        "Solitary Bee Housing",
         "Beneficial Insect Support",
-        "Decomposition Areas"
+        "Decomposition Areas",
+        "Butterfly Overwintering",
+        "Solitary Bee Housing"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Solitary Bee Housing provides nesting tunnels for native bees that don't live in hives."
     },
     {
       id: 10,
       question: "What are vegetated zones along waterways?",
       options: [
-        "Hedgerows",
         "Riparian Buffers",
-        "Greenways",
-        "Stepping Stone Habitats"
+        "Hedgerows",
+        "Stepping Stone Habitats",
+        "Greenways"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Riparian Buffers filter runoff and provide movement corridors along streams and rivers."
     },
     {
       id: 11,
       question: "What is total energy consumed in extraction, manufacturing, and transport?",
       options: [
+        "Local Availability",
         "Renewability",
         "Embodied Energy",
-        "Local Availability",
         "Recycled Content"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Embodied Energy accounts for all energy used throughout a material's life cycle."
     },
     {
       id: 12,
       question: "What is certified lumber from responsibly managed forests?",
       options: [
-        "Bamboo",
-        "Wood from Sustainable Forestry",
         "Natural Stone",
-        "Earth Materials"
+        "Bamboo",
+        "Earth Materials",
+        "Wood from Sustainable Forestry"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Sustainable forestry certification ensures wood comes from well-managed, renewable sources."
     },
     {
       id: 13,
       question: "What is lumber salvaged from old buildings and structures?",
       options: [
-        "Recycled Plastic",
-        "Reclaimed Wood",
         "Crushed Concrete",
-        "Recycled Glass"
+        "Recycled Glass",
+        "Reclaimed Wood",
+        "Recycled Plastic"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Reclaimed Wood preserves historical materials and reduces demand for new timber."
     },
     {
       id: 14,
       question: "What protects existing vegetation and topsoil during construction?",
       options: [
-        "Dry Stack Construction",
         "Minimal Site Disturbance",
+        "Hand Tools and Simple Technology",
         "Modular Design",
-        "Hand Tools and Simple Technology"
+        "Dry Stack Construction"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Minimal Site Disturbance preserves ecological functions and reduces erosion."
     },
     {
@@ -2079,33 +2079,33 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       question: "What are vertical gardens that improve air quality and insulation?",
       options: [
         "Green Roofs",
-        "Living Walls",
         "Compost Systems",
-        "Solar Lighting"
+        "Solar Lighting",
+        "Living Walls"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Living Walls provide greenery in vertical spaces with multiple environmental benefits."
     },
     {
       id: 16,
       question: "What are community spaces beyond home and work where people connect?",
       options: [
+        "Path Networks",
         "Sitting Opportunities",
         "Third Places",
-        "Activity Nodes",
-        "Path Networks"
+        "Activity Nodes"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Third Places like parks, cafes, and community centers foster informal social connections."
     },
     {
       id: 17,
       question: "What protects culturally significant landscapes and features?",
       options: [
-        "Cultural Expression",
+        "Placemaking",
         "Historic Preservation",
-        "Ethnobotany",
-        "Placemaking"
+        "Cultural Expression",
+        "Ethnobotany"
       ],
       correctAnswer: 1,
       explanation: "Historic Preservation maintains physical connections to community history and identity."
@@ -2114,22 +2114,22 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 18,
       question: "What designs for people with mobility, vision, or hearing differences?",
       options: [
-        "Generational Inclusion",
-        "Physical Accessibility",
         "Cultural Accessibility",
-        "Economic Accessibility"
+        "Economic Accessibility",
+        "Generational Inclusion",
+        "Physical Accessibility"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Physical Accessibility ensures everyone can use and enjoy designed spaces regardless of ability."
     },
     {
       id: 19,
       question: "What are shared growing spaces that build skills and relationships?",
       options: [
-        "Edible Landscapes",
+        "Educational Gardens",
         "Community Gardens",
         "Orchards and Food Forests",
-        "Educational Gardens"
+        "Edible Landscapes"
       ],
       correctAnswer: 1,
       explanation: "Community Gardens provide land, community, and education for urban food production."
@@ -2138,33 +2138,33 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 20,
       question: "What are spaces specifically designed for therapeutic benefits?",
       options: [
-        "Sensory Gardens",
-        "Healing Gardens",
+        "Horticultural Therapy",
         "Restorative Environments",
-        "Horticultural Therapy"
+        "Sensory Gardens",
+        "Healing Gardens"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Healing Gardens in healthcare settings support physical and emotional recovery."
     },
     {
       id: 21,
       question: "What gathers local knowledge and preferences from community members?",
       options: [
-        "Design Charrettes",
         "Community Workshops",
         "Participatory Budgeting",
-        "Co-Design"
+        "Co-Design",
+        "Design Charrettes"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Community Workshops collect community insights, needs, and aspirations for design."
     },
     {
       id: 22,
       question: "What explains ecological processes and historical significance?",
       options: [
-        "Demonstration Gardens",
-        "Interpretive Signage",
         "Interactive Elements",
+        "Interpretive Signage",
+        "Demonstration Gardens",
         "Seasonal Displays"
       ],
       correctAnswer: 1,
@@ -2174,24 +2174,24 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 23,
       question: "What requires planning for more extreme heat and altered growing seasons?",
       options: [
-        "Precipitation Changes",
-        "Temperature Increases",
         "Sea Level Rise",
-        "Extreme Weather Events"
+        "Extreme Weather Events",
+        "Temperature Increases",
+        "Precipitation Changes"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Temperature Increases demand heat-tolerant plants and cooling strategies in landscapes."
     },
     {
       id: 24,
       question: "What provides shade and evaporative cooling in urban areas?",
       options: [
-        "Reflective Surfaces",
         "Increased Vegetation",
-        "Green Roofs and Walls",
-        "Water Features"
+        "Water Features",
+        "Reflective Surfaces",
+        "Green Roofs and Walls"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Increased Vegetation through trees and plants is the most effective urban cooling strategy."
     },
     {
@@ -2199,71 +2199,71 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       question: "What are systems that handle variable water volumes?",
       options: [
         "Floodable Landscapes",
+        "Erosion Control",
         "Adaptive Drainage",
-        "Elevated Structures",
-        "Erosion Control"
+        "Elevated Structures"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Adaptive Drainage systems accommodate both drought and deluge conditions."
     },
     {
       id: 26,
       question: "What are landscape approaches that minimize water use?",
       options: [
-        "Soil Moisture Management",
-        "Xeriscaping Principles",
+        "Plant Community Adaptation",
         "Alternative Water Sources",
-        "Plant Community Adaptation"
+        "Soil Moisture Management",
+        "Xeriscaping Principles"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Xeriscaping creates beautiful, functional landscapes with minimal water requirements."
     },
     {
       id: 27,
       question: "What are plants that rapidly accumulate organic matter?",
       options: [
-        "Soil Carbon Building",
-        "High-Biomass Plantings",
+        "Avoided Emissions",
         "Woody Plant Establishment",
-        "Avoided Emissions"
+        "High-Biomass Plantings",
+        "Soil Carbon Building"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "High-Biomass Plantings like fast-growing trees capture atmospheric carbon quickly."
     },
     {
       id: 28,
       question: "What are zones with reduced fuel around structures?",
       options: [
+        "Fuel Management",
         "Fire-Resistant Plant Selection",
         "Defensible Space Creation",
-        "Fuel Management",
         "Strategic Hardscape"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Defensible Space provides a buffer zone that reduces wildfire risk to buildings."
     },
     {
       id: 29,
       question: "What uses plants and natural materials instead of hard structures?",
       options: [
+        "Managed Retreat",
         "Dune Restoration",
         "Living Shorelines",
-        "Salt-Tolerant Plantings",
-        "Managed Retreat"
+        "Salt-Tolerant Plantings"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Living Shorelines use natural systems like marshes and oyster beds for coastal protection."
     },
     {
       id: 30,
       question: "What tracks how designs respond to actual climate conditions?",
       options: [
-        "Community Feedback",
-        "Performance Monitoring",
+        "Knowledge Sharing",
         "Flexible Design",
-        "Knowledge Sharing"
+        "Community Feedback",
+        "Performance Monitoring"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Performance Monitoring assesses whether climate adaptation strategies are working effectively."
     },
     {
@@ -2285,23 +2285,23 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       question: "What reuses household water for irrigation?",
       options: [
         "Rainwater Harvesting",
-        "Graywater Systems",
+        "Plant Selection",
         "Efficient Irrigation",
-        "Plant Selection"
+        "Graywater Systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Graywater Systems recycle water from showers, sinks, and laundry for landscape use."
     },
     {
       id: 34,
       question: "What are depressed areas that collect and filter runoff?",
       options: [
-        "Green Infrastructure",
+        "Bioswales",
         "Permeable Surfaces",
-        "Rain Gardens",
-        "Bioswales"
+        "Green Infrastructure",
+        "Rain Gardens"
       ],
-      correctAnswer: 2,
+      correctAnswer: 3,
       explanation: "Rain Gardens are shallow depressions planted with water-tolerant vegetation to manage runoff."
     },
     {
@@ -2315,60 +2315,60 @@ Regular monitoring identifies what's working and what needs adjustment. Local kn
       id: 36,
       question: "What provides habitats for species at different ecological stages?",
       options: [
-        "Layered Planting",
-        "Edge Effect",
         "Successional Planning",
+        "Edge Effect",
+        "Layered Planting",
         "Connectivity"
       ],
-      correctAnswer: 2,
+      correctAnswer: 0,
       explanation: "Successional Planning ensures habitat availability through different ecosystem development stages."
     },
     {
       id: 37,
       question: "What plants support local insects and wildlife through evolutionary relationships?",
       options: [
-        "Regional Adapted Plants",
-        "Co-evolved Plants",
+        "Community Associated Plants",
         "Genetic Diverse Plants",
-        "Community Associated Plants"
+        "Regional Adapted Plants",
+        "Co-evolved Plants"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "Co-evolved plants have established relationships with local insects and animals over millennia."
     },
     {
       id: 38,
       question: "What provides year-round food through diverse plant selection?",
       options: [
-        "Water Access",
         "Food Sources",
+        "Water Access",
         "Shelter",
         "Nesting/Breeding Sites"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "Diverse Food Sources ensure wildlife have nutrition available across all seasons."
     },
     {
       id: 39,
       question: "What indicates materials from rapidly regenerating sources?",
       options: [
-        "Embodied Energy",
-        "Renewability",
         "Local Availability",
-        "Recycled Content"
+        "Recycled Content",
+        "Renewability",
+        "Embodied Energy"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Renewability refers to materials that regrow quickly, like bamboo or cork."
     },
     {
       id: 40,
       question: "What builds without mortar to allow disassembly and reuse?",
       options: [
-        "Minimal Site Disturbance",
-        "Dry Stack Construction",
         "Modular Design",
-        "Hand Tools and Simple Technology"
+        "Hand Tools and Simple Technology",
+        "Dry Stack Construction",
+        "Minimal Site Disturbance"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "Dry Stack Construction creates reusable structures without permanent bonding."
     }
   ]

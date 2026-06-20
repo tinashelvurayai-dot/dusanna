@@ -85,12 +85,12 @@ Emerging trends shaping construction:
           id: 1,
           question: "What is the primary purpose of construction management?",
           options: [
+            "To reduce material costs at any cost",
             "To control a project's time, cost, and quality",
             "To maximize architectural design elements",
-            "To reduce material costs at any cost",
             "To complete projects as quickly as possible"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Construction management focuses on controlling the three main constraints: time, cost, and quality, as stated in the introduction."
         },
         {
@@ -121,12 +121,12 @@ Emerging trends shaping construction:
           id: 4,
           question: "Which phase comes after 'Planning' in the project lifecycle?",
           options: [
-            "Execution",
-            "Initiation",
             "Monitoring & Control",
-            "Closeout"
+            "Closeout",
+            "Initiation",
+            "Execution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The sequential order is: Initiation → Planning → Execution → Monitoring & Control → Closeout."
         },
         {
@@ -134,9 +134,9 @@ Emerging trends shaping construction:
           question: "Who has overall project responsibility on a construction site?",
           options: [
             "Project Manager",
-            "Superintendent",
             "Project Engineer",
-            "Safety Manager"
+            "Safety Manager",
+            "Superintendent"
           ],
           correctAnswer: 0,
           explanation: "The Project Manager bears ultimate responsibility for the project's success."
@@ -145,60 +145,60 @@ Emerging trends shaping construction:
           id: 6,
           question: "Which regulatory body sets workplace safety standards in construction?",
           options: [
-            "OSHA",
+            "EPA",
             "IBC",
-            "ADA",
-            "EPA"
+            "OSHA",
+            "ADA"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "OSHA (Occupational Safety and Health Administration) establishes and enforces workplace safety standards."
         },
         {
           id: 7,
           question: "What does BIM stand for in construction technology?",
           options: [
-            "Building Information Modeling",
+            "Business Information Modeling",
             "Building Integration Method",
             "Basic Infrastructure Management",
-            "Business Information Modeling"
+            "Building Information Modeling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "BIM stands for Building Information Modeling, a 3D model-based process for construction planning."
         },
         {
           id: 8,
           question: "Which project delivery method involves a single entity handling both design and construction?",
           options: [
-            "Design-Build",
-            "Design-Bid-Build",
             "Construction Management at Risk",
-            "Traditional Delivery"
+            "Design-Build",
+            "Traditional Delivery",
+            "Design-Bid-Build"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Design-Build consolidates design and construction responsibilities under one contract."
         },
         {
           id: 9,
           question: "What is the current major challenge mentioned regarding construction workforce?",
           options: [
-            "Labor shortages",
             "Overqualification",
-            "Excessive wages",
-            "Union disputes"
+            "Union disputes",
+            "Labor shortages",
+            "Excessive wages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Labor shortages of skilled workers is a significant industry challenge mentioned."
         },
         {
           id: 10,
           question: "Which trend involves creating a virtual replica of physical assets?",
           options: [
-            "Digital Twins",
+            "Automation",
             "BIM",
-            "Prefabrication",
-            "Automation"
+            "Digital Twins",
+            "Prefabrication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital Twins are virtual representations of physical assets that update in real-time."
         },
         {
@@ -207,8 +207,8 @@ Emerging trends shaping construction:
           options: [
             "Four",
             "Three",
-            "Five",
-            "Six"
+            "Six",
+            "Five"
           ],
           correctAnswer: 0,
           explanation: "The four main sectors are: Residential, Commercial, Industrial, and Infrastructure."
@@ -217,12 +217,12 @@ Emerging trends shaping construction:
           id: 12,
           question: "What does ADA stand for in construction compliance?",
           options: [
-            "Americans with Disabilities Act",
-            "Architectural Design Agreement",
             "Advanced Development Assessment",
+            "Architectural Design Agreement",
+            "Americans with Disabilities Act",
             "American Design Association"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ADA refers to the Americans with Disabilities Act, requiring accessible design."
         },
         {
@@ -231,8 +231,8 @@ Emerging trends shaping construction:
           options: [
             "Superintendent",
             "Project Manager",
-            "Quality Control Manager",
-            "Project Engineer"
+            "Project Engineer",
+            "Quality Control Manager"
           ],
           correctAnswer: 0,
           explanation: "The Superintendent manages daily field operations and construction activities."
@@ -241,24 +241,24 @@ Emerging trends shaping construction:
           id: 14,
           question: "What is the purpose of feasibility studies in the initiation phase?",
           options: [
-            "To determine project viability",
-            "To create detailed designs",
             "To hire subcontractors",
-            "To order materials"
+            "To order materials",
+            "To create detailed designs",
+            "To determine project viability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Feasibility studies assess whether a project is technically and financially viable."
         },
         {
           id: 15,
           question: "Which construction type would a shopping mall fall under?",
           options: [
+            "Infrastructure Construction",
             "Commercial Construction",
-            "Residential Construction",
             "Industrial Construction",
-            "Infrastructure Construction"
+            "Residential Construction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Shopping malls are commercial buildings used for retail business operations."
         },
         {
@@ -267,8 +267,8 @@ Emerging trends shaping construction:
           options: [
             "Reduced on-site construction time",
             "Higher material costs",
-            "Less design flexibility",
-            "Increased weather dependency"
+            "Increased weather dependency",
+            "Less design flexibility"
           ],
           correctAnswer: 0,
           explanation: "Prefabrication allows components to be built off-site, reducing on-site assembly time."
@@ -277,48 +277,48 @@ Emerging trends shaping construction:
           id: 17,
           question: "Which code serves as a model building code in the US?",
           options: [
-            "International Building Code (IBC)",
-            "National Electrical Code",
             "Uniform Plumbing Code",
-            "Local Municipal Code"
+            "Local Municipal Code",
+            "International Building Code (IBC)",
+            "National Electrical Code"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The IBC is a model code that provides minimum requirements for building systems."
         },
         {
           id: 18,
           question: "What is the main focus of green construction practices?",
           options: [
-            "Sustainability",
-            "Speed",
+            "Traditional methods",
             "Low cost",
-            "Traditional methods"
+            "Speed",
+            "Sustainability"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Green construction focuses on sustainable, environmentally-friendly building practices."
         },
         {
           id: 19,
           question: "In which phase are detailed designs created?",
           options: [
-            "Planning",
+            "Closeout",
             "Initiation",
-            "Execution",
-            "Closeout"
+            "Planning",
+            "Execution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Detailed design development occurs during the Planning phase."
         },
         {
           id: 20,
           question: "Which emerging technology uses robotics and AI in construction?",
           options: [
-            "Automation",
             "Digital Twins",
             "BIM",
-            "Prefabrication"
+            "Prefabrication",
+            "Automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Automation involves using robotics and artificial intelligence to perform construction tasks."
         }
       ]
@@ -410,24 +410,24 @@ Identifying and managing scheduling risks:
           id: 1,
           question: "What does WBS stand for in project planning?",
           options: [
-            "Work Breakdown Structure",
             "Work Building Schedule",
-            "Weekly Breakdown System",
-            "Work Balance Sheet"
+            "Work Balance Sheet",
+            "Work Breakdown Structure",
+            "Weekly Breakdown System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "WBS stands for Work Breakdown Structure, a hierarchical decomposition of project work."
         },
         {
           id: 2,
           question: "Which rule states that the WBS must include 100% of the project work?",
           options: [
-            "100% Rule",
-            "Complete Scope Rule",
+            "Full Inclusion Rule",
             "Total Work Rule",
-            "Full Inclusion Rule"
+            "100% Rule",
+            "Complete Scope Rule"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The 100% Rule ensures the WBS captures all work required by the project scope."
         },
         {
@@ -435,9 +435,9 @@ Identifying and managing scheduling risks:
           question: "What does CPM help identify in project scheduling?",
           options: [
             "Critical tasks that impact project duration",
-            "Budget overruns",
+            "Safety violations",
             "Quality issues",
-            "Safety violations"
+            "Budget overruns"
           ],
           correctAnswer: 0,
           explanation: "CPM identifies critical tasks that directly affect the project's overall duration."
@@ -446,12 +446,12 @@ Identifying and managing scheduling risks:
           id: 4,
           question: "What visual tool shows task durations as horizontal bars?",
           options: [
+            "PERT Chart",
             "Gantt Chart",
             "Network Diagram",
-            "PERT Chart",
             "Resource Histogram"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Gantt charts use horizontal bars to represent task durations on a timeline."
         },
         {
@@ -470,60 +470,60 @@ Identifying and managing scheduling risks:
           id: 6,
           question: "Which scheduling method is best for repetitive construction projects?",
           options: [
-            "Line of Balance",
-            "Bar Chart Scheduling",
             "Network Scheduling",
-            "Critical Path Method"
+            "Line of Balance",
+            "Critical Path Method",
+            "Bar Chart Scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Line of Balance scheduling is specifically designed for repetitive construction work."
         },
         {
           id: 7,
           question: "What does EVM stand for in progress monitoring?",
           options: [
-            "Earned Value Management",
             "Estimated Value Method",
-            "Efficiency Value Measurement",
-            "Earned Volume Management"
+            "Earned Value Management",
+            "Earned Volume Management",
+            "Efficiency Value Measurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EVM stands for Earned Value Management, integrating scope, schedule, and cost."
         },
         {
           id: 8,
           question: "What is adding contingency time for uncertainties called?",
           options: [
-            "Buffer Management",
             "Risk Allocation",
             "Time Padding",
-            "Contingency Planning"
+            "Contingency Planning",
+            "Buffer Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Buffer management involves adding contingency time to account for uncertainties."
         },
         {
           id: 9,
           question: "Which technique performs activities in parallel that were originally sequential?",
           options: [
-            "Fast-tracking",
-            "Crashing",
+            "Acceleration",
             "Phasing",
-            "Acceleration"
+            "Fast-tracking",
+            "Crashing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Fast-tracking involves overlapping activities that were planned to be sequential."
         },
         {
           id: 10,
           question: "What is adding resources to reduce activity duration called?",
           options: [
-            "Crashing",
-            "Fast-tracking",
+            "Compressing",
             "Expediting",
-            "Compressing"
+            "Fast-tracking",
+            "Crashing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Crashing involves adding resources to critical path activities to reduce duration."
         },
         {
@@ -532,8 +532,8 @@ Identifying and managing scheduling risks:
           options: [
             "Four",
             "Three",
-            "Five",
-            "Six"
+            "Six",
+            "Five"
           ],
           correctAnswer: 0,
           explanation: "The four principles are: 100% Rule, Mutual Exclusion, Outcome Orientation, Appropriate Detail Level."
@@ -542,96 +542,96 @@ Identifying and managing scheduling risks:
           id: 12,
           question: "What does CPM calculate to determine flexibility in non-critical tasks?",
           options: [
+            "Cost",
             "Float or Slack",
             "Duration",
-            "Cost",
             "Quality metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CPM calculates float/slack, which is how long tasks can be delayed without affecting the project."
         },
         {
           id: 13,
           question: "Which scheduling method integrates time-based 3D modeling?",
           options: [
-            "4D Scheduling",
-            "Bar Chart Scheduling",
+            "Line of Balance",
             "Network Scheduling",
-            "Line of Balance"
+            "4D Scheduling",
+            "Bar Chart Scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "4D scheduling adds time as the fourth dimension to 3D BIM models."
         },
         {
           id: 14,
           question: "What type of scheduling focuses on the next 2-4 weeks in detail?",
           options: [
-            "Look-ahead scheduling",
             "Master scheduling",
-            "Long-range scheduling",
-            "Strategic scheduling"
+            "Look-ahead scheduling",
+            "Strategic scheduling",
+            "Long-range scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Look-ahead scheduling provides detailed plans for the immediate future (2-4 weeks)."
         },
         {
           id: 15,
           question: "What is the first step in delay management?",
           options: [
-            "Delay identification",
             "Impact assessment",
+            "Claim management",
             "Recovery planning",
-            "Claim management"
+            "Delay identification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Delay identification involves recognizing schedule deviations as early as possible."
         },
         {
           id: 16,
           question: "Which WBS principle prevents overlap in scope definition?",
           options: [
-            "Mutual Exclusion",
             "100% Rule",
+            "Mutual Exclusion",
             "Outcome Orientation",
             "Appropriate Detail"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mutual Exclusion ensures no overlap in scope between different WBS elements."
         },
         {
           id: 17,
           question: "What do the horizontal bars represent in a Gantt chart?",
           options: [
-            "Task durations",
-            "Resource quantities",
             "Cost amounts",
+            "Resource quantities",
+            "Task durations",
             "Quality levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Horizontal bars in Gantt charts represent the duration of each task."
         },
         {
           id: 18,
           question: "What does resource leveling help avoid?",
           options: [
-            "Peaks and valleys in resource demand",
             "Budget overruns",
-            "Quality issues",
-            "Safety incidents"
+            "Safety incidents",
+            "Peaks and valleys in resource demand",
+            "Quality issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Resource leveling smooths resource usage to avoid excessive demand fluctuations."
         },
         {
           id: 19,
           question: "Which technique is used for accelerating project completion by adding resources?",
           options: [
+            "Sequencing",
             "Crashing",
             "Fast-tracking",
-            "Phasing",
-            "Sequencing"
+            "Phasing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Crashing reduces project duration by adding resources to critical activities."
         },
         {
@@ -639,9 +639,9 @@ Identifying and managing scheduling risks:
           question: "What does schedule variance analysis compare?",
           options: [
             "Planned vs. actual progress",
+            "Planned vs. actual safety",
             "Budget vs. actual costs",
-            "Estimated vs. actual quality",
-            "Planned vs. actual safety"
+            "Estimated vs. actual quality"
           ],
           correctAnswer: 0,
           explanation: "Schedule variance analysis compares planned progress with actual progress achieved."
@@ -744,96 +744,96 @@ Factors affecting global projects:
           id: 1,
           question: "What is the accuracy range for an Order of Magnitude estimate?",
           options: [
-            "±20-30%",
             "±5-10%",
+            "±15-20%",
             "±10-15%",
-            "±15-20%"
+            "±20-30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Order of Magnitude estimates are rough approximations with ±20-30% accuracy."
         },
         {
           id: 2,
           question: "Which estimate type is used during the construction documents stage?",
           options: [
+            "Bid Estimate",
             "Detailed Estimate",
             "Preliminary Estimate",
-            "Order of Magnitude Estimate",
-            "Bid Estimate"
+            "Order of Magnitude Estimate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Detailed estimates are prepared when construction documents are complete."
         },
         {
           id: 3,
           question: "What is cost per unit of measurement estimating called?",
           options: [
-            "Unit Cost Estimating",
             "Assembly Estimating",
-            "Parametric Estimating",
-            "Square Foot Estimating"
+            "Square Foot Estimating",
+            "Unit Cost Estimating",
+            "Parametric Estimating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Unit cost estimating calculates costs based on units like per square foot or cubic yard."
         },
         {
           id: 4,
           question: "Which costs are specifically attributable to project work?",
           options: [
-            "Direct Costs",
             "Indirect Costs",
+            "Sunk Costs",
             "Fixed Costs",
-            "Sunk Costs"
+            "Direct Costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Direct costs are directly attributable to specific project activities."
         },
         {
           id: 5,
           question: "What typical waste factor is applied to material quantities?",
           options: [
-            "5-10%",
             "1-3%",
-            "10-15%",
-            "15-20%"
+            "15-20%",
+            "5-10%",
+            "10-15%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A 5-10% waste factor is typically added to account for material losses."
         },
         {
           id: 6,
           question: "Which contract type involves reimbursement of costs plus a fee?",
           options: [
-            "Cost-Plus Contracts",
-            "Lump Sum Contracts",
             "GMP Contracts",
+            "Lump Sum Contracts",
+            "Cost-Plus Contracts",
             "Fixed Price Contracts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cost-plus contracts reimburse actual costs plus an agreed-upon fee."
         },
         {
           id: 7,
           question: "What does GMP stand for in contract types?",
           options: [
-            "Guaranteed Maximum Price",
+            "General Material Pricing",
             "General Management Plan",
-            "Guaranteed Minimum Price",
-            "General Material Pricing"
+            "Guaranteed Maximum Price",
+            "Guaranteed Minimum Price"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GMP stands for Guaranteed Maximum Price, where the contractor guarantees not to exceed a set price."
         },
         {
           id: 8,
           question: "What is improving value without compromising function called?",
           options: [
-            "Value Engineering",
             "Cost Cutting",
+            "Efficiency Analysis",
             "Budget Optimization",
-            "Efficiency Analysis"
+            "Value Engineering"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Value engineering seeks to improve value (function/cost) without reducing necessary functions."
         },
         {
@@ -841,9 +841,9 @@ Factors affecting global projects:
           question: "Which contingency is for design development changes?",
           options: [
             "Design Contingency",
+            "Escalation Allowance",
             "Construction Contingency",
-            "Management Reserve",
-            "Escalation Allowance"
+            "Management Reserve"
           ],
           correctAnswer: 0,
           explanation: "Design contingency covers costs associated with design changes during development."
@@ -852,84 +852,84 @@ Factors affecting global projects:
           id: 10,
           question: "What integration method combines cost and schedule performance?",
           options: [
-            "Earned Value Analysis",
+            "Cash Flow Projection",
             "Cost Tracking",
-            "Budget Variance Reporting",
-            "Cash Flow Projection"
+            "Earned Value Analysis",
+            "Budget Variance Reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Earned Value Analysis integrates cost performance with schedule performance."
         },
         {
           id: 11,
           question: "How many primary estimate types were discussed?",
           options: [
-            "Five",
-            "Four",
+            "Three",
             "Six",
-            "Three"
+            "Five",
+            "Four"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The five types are: Order of Magnitude, Preliminary, Detailed, Bid, and Control estimates."
         },
         {
           id: 12,
           question: "What is estimating based on historical cost per square foot called?",
           options: [
-            "Square Foot Estimating",
-            "Unit Cost Estimating",
+            "Assembly Estimating",
             "Parametric Estimating",
-            "Assembly Estimating"
+            "Unit Cost Estimating",
+            "Square Foot Estimating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Square foot estimating uses historical cost data per square foot of building area."
         },
         {
           id: 13,
           question: "Which costs are constant regardless of project scale?",
           options: [
-            "Fixed Costs",
             "Variable Costs",
+            "Fixed Costs",
             "Direct Costs",
             "Indirect Costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fixed costs remain constant regardless of the project's size or duration."
         },
         {
           id: 14,
           question: "What is the first step in quantity takeoff?",
           options: [
-            "Review drawings and specifications",
             "Measure quantities accurately",
             "Apply waste factors",
+            "Review drawings and specifications",
             "Document measurements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The first step is reviewing all project documents to understand requirements."
         },
         {
           id: 15,
           question: "Which bidding method involves multiple contractors submitting sealed bids?",
           options: [
+            "Direct Award",
             "Competitive Bidding",
-            "Negotiated Contracts",
             "Selective Bidding",
-            "Direct Award"
+            "Negotiated Contracts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competitive bidding involves multiple contractors submitting sealed competitive bids."
         },
         {
           id: 16,
           question: "What is the typical range for construction contingency?",
           options: [
-            "5-10%",
-            "1-3%",
             "10-15%",
-            "15-20%"
+            "15-20%",
+            "1-3%",
+            "5-10%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Construction contingency typically ranges from 5-10% for unforeseen site conditions."
         },
         {
@@ -948,36 +948,36 @@ Factors affecting global projects:
           id: 18,
           question: "Which costing considers total ownership costs over building life?",
           options: [
-            "Life Cycle Costing",
-            "Initial Costing",
+            "Replacement Costing",
             "Operational Costing",
-            "Replacement Costing"
+            "Initial Costing",
+            "Life Cycle Costing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Life cycle costing considers all costs from construction through disposal."
         },
         {
           id: 19,
           question: "What international factor involves wage differences by region?",
           options: [
-            "Local Labor Rates",
             "Currency Exchange Rates",
             "Material Availability",
+            "Local Labor Rates",
             "Tax Implications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Local labor rates vary significantly between different regions and countries."
         },
         {
           id: 20,
           question: "What do budget variance reports compare?",
           options: [
-            "Planned vs. actual costs",
+            "Direct vs. indirect costs",
             "Current vs. previous costs",
-            "Material vs. labor costs",
-            "Direct vs. indirect costs"
+            "Planned vs. actual costs",
+            "Material vs. labor costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Budget variance reports compare planned budget amounts with actual expenditures."
         }
       ]
@@ -1082,12 +1082,12 @@ Building a positive safety culture:
           id: 1,
           question: "What percentage of workplace fatalities occur in construction?",
           options: [
-            "Approximately 20%",
-            "Approximately 10%",
             "Approximately 30%",
-            "Approximately 40%"
+            "Approximately 40%",
+            "Approximately 10%",
+            "Approximately 20%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Construction accounts for approximately 20% of all workplace fatalities."
         },
         {
@@ -1096,8 +1096,8 @@ Building a positive safety culture:
           options: [
             "29 CFR 1926",
             "29 CFR 1910",
-            "29 CFR 1904",
-            "29 CFR 1928"
+            "29 CFR 1928",
+            "29 CFR 1904"
           ],
           correctAnswer: 0,
           explanation: "29 CFR Part 1926 contains OSHA's construction industry safety standards."
@@ -1106,36 +1106,36 @@ Building a positive safety culture:
           id: 3,
           question: "What is the leading cause of construction fatalities?",
           options: [
-            "Falls",
             "Electrocutions",
             "Struck-by accidents",
-            "Caught-in/between"
+            "Caught-in/between",
+            "Falls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Falls account for approximately 35% of construction fatalities, making them the leading cause."
         },
         {
           id: 4,
           question: "What is the required capacity for fall arrest anchor points?",
           options: [
+            "1,500 pounds",
             "5,000 pounds",
-            "3,000 pounds",
             "2,500 pounds",
-            "1,500 pounds"
+            "3,000 pounds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Anchor points for fall arrest systems must support 5,000 pounds per worker."
         },
         {
           id: 5,
           question: "How much weight must scaffolds be designed to support?",
           options: [
+            "3 times maximum intended load",
             "4 times maximum intended load",
             "2 times maximum intended load",
-            "3 times maximum intended load",
             "5 times maximum intended load"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Scaffolds must be designed to support at least 4 times the maximum intended load."
         },
         {
@@ -1143,9 +1143,9 @@ Building a positive safety culture:
           question: "What is the minimum clearance from overhead power lines up to 50kV?",
           options: [
             "10 feet",
-            "15 feet",
             "20 feet",
-            "25 feet"
+            "25 feet",
+            "15 feet"
           ],
           correctAnswer: 0,
           explanation: "Minimum clearance from overhead power lines up to 50kV is 10 feet."
@@ -1154,36 +1154,36 @@ Building a positive safety culture:
           id: 7,
           question: "At what trench depth are protective systems required?",
           options: [
+            "8 feet or more",
             "5 feet or more",
-            "4 feet or more",
             "6 feet or more",
-            "8 feet or more"
+            "4 feet or more"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Protective systems are required for trenches 5 feet deep or more."
         },
         {
           id: 8,
           question: "What does GFCI stand for in electrical safety?",
           options: [
-            "Ground-Fault Circuit Interrupter",
-            "Ground-Fault Current Indicator",
             "General Fault Circuit Interrupter",
-            "Ground-Failure Circuit Indicator"
+            "Ground-Fault Current Indicator",
+            "Ground-Failure Circuit Indicator",
+            "Ground-Fault Circuit Interrupter"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GFCI stands for Ground-Fault Circuit Interrupter, which protects against electrical shocks."
         },
         {
           id: 9,
           question: "Which soil type requires the steepest slope for trench protection?",
           options: [
-            "Type C",
             "Type A",
+            "Type D",
             "Type B",
-            "Type D"
+            "Type C"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Type C soil requires a 1½:1 slope (1.5 feet horizontal to 1 foot vertical), the steepest allowed."
         },
         {
@@ -1202,36 +1202,36 @@ Building a positive safety culture:
           id: 11,
           question: "How many primary construction hazards were identified?",
           options: [
-            "Five",
-            "Four",
             "Six",
+            "Four",
+            "Five",
             "Seven"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The five primary hazards are: Falls, Struck-by, Electrocutions, Caught-in/between, and Health Hazards."
         },
         {
           id: 12,
           question: "What is the maximum time to report a workplace fatality to OSHA?",
           options: [
-            "8 hours",
             "24 hours",
+            "8 hours",
             "48 hours",
             "72 hours"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Workplace fatalities must be reported to OSHA within 8 hours."
         },
         {
           id: 13,
           question: "What is the minimum platform width for scaffolding?",
           options: [
-            "18 inches",
             "12 inches",
-            "24 inches",
-            "36 inches"
+            "36 inches",
+            "18 inches",
+            "24 inches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scaffold platforms must be at least 18 inches wide."
         },
         {
@@ -1240,8 +1240,8 @@ Building a positive safety culture:
           options: [
             "Personal Fall Arrest System",
             "Guardrail System",
-            "Safety Net System",
-            "Positioning Device System"
+            "Positioning Device System",
+            "Safety Net System"
           ],
           correctAnswer: 0,
           explanation: "Personal Fall Arrest Systems consist of a harness, connecting device, and anchor point."
@@ -1250,24 +1250,24 @@ Building a positive safety culture:
           id: 15,
           question: "What procedure controls hazardous energy sources?",
           options: [
-            "Lockout/Tagout",
-            "De-energization",
             "Isolation",
+            "De-energization",
+            "Lockout/Tagout",
             "Securement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Lockout/Tagout procedures control hazardous energy sources during maintenance."
         },
         {
           id: 16,
           question: "What is the top rail height requirement for guardrails?",
           options: [
-            "38-45 inches",
-            "36-42 inches",
+            "42-50 inches",
             "40-48 inches",
-            "42-50 inches"
+            "36-42 inches",
+            "38-45 inches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Guardrail top rails must be between 38 and 45 inches high."
         },
         {
@@ -1275,8 +1275,8 @@ Building a positive safety culture:
           question: "Which health hazard requires water spraying for control?",
           options: [
             "Silica Dust",
-            "Asbestos",
             "Lead",
+            "Asbestos",
             "Noise"
           ],
           correctAnswer: 0,
@@ -1286,36 +1286,36 @@ Building a positive safety culture:
           id: 18,
           question: "What is the first element in building a safety culture?",
           options: [
-            "Management Commitment",
+            "Continuous Improvement",
             "Employee Involvement",
-            "Accountability Systems",
-            "Continuous Improvement"
+            "Management Commitment",
+            "Accountability Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Management commitment is foundational to developing a positive safety culture."
         },
         {
           id: 19,
           question: "What must be inspected daily on scaffolding?",
           options: [
-            "Entire scaffold by competent person",
-            "Only platforms",
             "Only guardrails",
+            "Only platforms",
+            "Entire scaffold by competent person",
             "Only connections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scaffolds must receive a complete daily inspection by a competent person."
         },
         {
           id: 20,
           question: "What type of analysis investigates accident causes?",
           options: [
-            "Root Cause Analysis",
             "Risk Assessment",
             "Hazard Analysis",
-            "Impact Analysis"
+            "Impact Analysis",
+            "Root Cause Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Root cause analysis identifies underlying reasons for accidents to prevent recurrence."
         }
       ]
@@ -1433,36 +1433,36 @@ Professional conduct standards:
           id: 1,
           question: "Which contract type has a predetermined price for defined scope?",
           options: [
-            "Lump Sum/Fixed Price Contracts",
-            "Cost-Plus Contracts",
             "Unit Price Contracts",
-            "GMP Contracts"
+            "Lump Sum/Fixed Price Contracts",
+            "GMP Contracts",
+            "Cost-Plus Contracts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lump sum contracts establish a fixed price for a clearly defined scope of work."
         },
         {
           id: 2,
           question: "What does GMP stand for in contract types?",
           options: [
-            "Guaranteed Maximum Price",
             "General Management Plan",
-            "Guaranteed Minimum Price",
-            "General Material Pricing"
+            "Guaranteed Maximum Price",
+            "General Material Pricing",
+            "Guaranteed Minimum Price"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "GMP stands for Guaranteed Maximum Price, where the contractor guarantees not to exceed a set price."
         },
         {
           id: 3,
           question: "Which AIA document contains general conditions for construction contracts?",
           options: [
-            "A201",
+            "B101",
             "A101",
-            "A401",
-            "B101"
+            "A201",
+            "A401"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "AIA Document A201 contains the general conditions that govern most construction projects."
         },
         {
@@ -1470,8 +1470,8 @@ Professional conduct standards:
           question: "What percentage of bid amount is typical for bid bonds?",
           options: [
             "5-10%",
-            "1-3%",
             "10-15%",
+            "1-3%",
             "15-20%"
           ],
           correctAnswer: 0,
@@ -1482,9 +1482,9 @@ Professional conduct standards:
           question: "What guarantees a contractor will complete the project?",
           options: [
             "Performance Bond",
+            "Builder's Risk Insurance",
             "Bid Bond",
-            "Payment Bond",
-            "Builder's Risk Insurance"
+            "Payment Bond"
           ],
           correctAnswer: 0,
           explanation: "Performance bonds guarantee the contractor will complete the project according to contract terms."
@@ -1493,36 +1493,36 @@ Professional conduct standards:
           id: 6,
           question: "What is the first step in change order management?",
           options: [
-            "Change Identification",
-            "Pricing",
             "Negotiation",
-            "Documentation"
+            "Pricing",
+            "Documentation",
+            "Change Identification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Change identification involves recognizing that a scope modification is needed."
         },
         {
           id: 7,
           question: "Which delays warrant time extensions but not additional compensation?",
           options: [
-            "Non-compensable Delays",
-            "Compensable Delays",
             "Excusable Delays",
-            "Concurrent Delays"
+            "Concurrent Delays",
+            "Non-compensable Delays",
+            "Compensable Delays"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Non-compensable delays warrant time extensions but no additional money."
         },
         {
           id: 8,
           question: "What dispute resolution method uses a neutral third party to assist negotiation?",
           options: [
-            "Mediation",
-            "Arbitration",
             "Litigation",
-            "Negotiation"
+            "Negotiation",
+            "Mediation",
+            "Arbitration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Mediation involves a neutral third party facilitating negotiations between disputing parties."
         },
         {
@@ -1530,9 +1530,9 @@ Professional conduct standards:
           question: "What provides a security interest in improved property for unpaid work?",
           options: [
             "Mechanic's Lien",
-            "Payment Bond",
             "Stop Notice",
-            "Performance Bond"
+            "Performance Bond",
+            "Payment Bond"
           ],
           correctAnswer: 0,
           explanation: "Mechanic's liens provide security interest in the property for unpaid labor or materials."
@@ -1541,36 +1541,36 @@ Professional conduct standards:
           id: 10,
           question: "Which regulatory area includes the Clean Water Act?",
           options: [
-            "Environmental Regulations",
             "Building Codes",
             "Zoning Regulations",
-            "Labor Laws"
+            "Labor Laws",
+            "Environmental Regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Clean Water Act is part of environmental regulations governing construction activities."
         },
         {
           id: 11,
           question: "How many primary contract types were discussed?",
           options: [
+            "Seven",
             "Six",
-            "Five",
             "Four",
-            "Seven"
+            "Five"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The six types are: Lump Sum, Cost-Plus, Unit Price, GMP, Design-Build, and Construction Management."
         },
         {
           id: 12,
           question: "Which AIA form is used for change orders?",
           options: [
-            "G701",
-            "G702",
             "A101",
-            "A201"
+            "A201",
+            "G702",
+            "G701"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "AIA Document G701 is the standard form for change orders."
         },
         {
@@ -1579,8 +1579,8 @@ Professional conduct standards:
           options: [
             "Builder's Risk Insurance",
             "General Liability Insurance",
-            "Workers' Compensation",
-            "Professional Liability"
+            "Professional Liability",
+            "Workers' Compensation"
           ],
           correctAnswer: 0,
           explanation: "Builder's Risk Insurance covers the building and materials during construction."
@@ -1589,60 +1589,60 @@ Professional conduct standards:
           id: 14,
           question: "What are delays affecting the same time period called?",
           options: [
-            "Concurrent Delays",
             "Compensable Delays",
+            "Concurrent Delays",
             "Excusable Delays",
             "Critical Delays"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Concurrent delays occur when multiple delay events affect the same project timeframe."
         },
         {
           id: 15,
           question: "Which dispute resolution method results in a binding decision by a neutral party?",
           options: [
+            "Negotiation",
             "Arbitration",
             "Mediation",
-            "Negotiation",
             "Litigation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Arbitration results in a binding decision made by a neutral arbitrator or panel."
         },
         {
           id: 16,
           question: "What must be filed to preserve lien rights in many states?",
           options: [
-            "Preliminary Notice",
-            "Stop Notice",
             "Intent to Lien",
-            "Claim of Lien"
+            "Claim of Lien",
+            "Stop Notice",
+            "Preliminary Notice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Preliminary notices must often be filed early in the project to preserve lien rights."
         },
         {
           id: 17,
           question: "Which act requires accessibility in buildings?",
           options: [
-            "Americans with Disabilities Act (ADA)",
-            "Clean Water Act",
+            "Fair Labor Standards Act",
             "Occupational Safety and Health Act",
-            "Fair Labor Standards Act"
+            "Americans with Disabilities Act (ADA)",
+            "Clean Water Act"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The ADA requires buildings to be accessible to people with disabilities."
         },
         {
           id: 18,
           question: "What is transferring risk through insurance called?",
           options: [
-            "Risk Transfer",
             "Risk Mitigation",
+            "Risk Allocation",
             "Risk Retention",
-            "Risk Allocation"
+            "Risk Transfer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk transfer involves shifting risk to another party, typically through insurance."
         },
         {
@@ -1650,8 +1650,8 @@ Professional conduct standards:
           question: "What ethical principle requires disclosure of potential conflicts?",
           options: [
             "Conflict of Interest Avoidance",
-            "Fair Dealing",
             "Confidentiality",
+            "Fair Dealing",
             "Professional Competence"
           ],
           correctAnswer: 0,
@@ -1661,12 +1661,12 @@ Professional conduct standards:
           id: 20,
           question: "Which AIA form is used for payment applications?",
           options: [
-            "G702",
             "G701",
             "A101",
-            "A201"
+            "A201",
+            "G702"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "AIA Document G702 is the standard application and certificate for payment form."
         }
       ]
@@ -1788,12 +1788,12 @@ Environmental quality considerations:
           id: 1,
           question: "What is the typical cost of poor quality in construction projects?",
           options: [
-            "5-15% of project value",
-            "1-3% of project value",
+            "15-25% of project value",
             "10-20% of project value",
-            "15-25% of project value"
+            "5-15% of project value",
+            "1-3% of project value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The cost of poor quality typically ranges from 5-15% of total project value."
         },
         {
@@ -1801,9 +1801,9 @@ Environmental quality considerations:
           question: "What does IBC stand for in quality standards?",
           options: [
             "International Building Code",
+            "International Building Certification",
             "International Building Compliance",
-            "Integrated Building Code",
-            "International Building Certification"
+            "Integrated Building Code"
           ],
           correctAnswer: 0,
           explanation: "IBC stands for International Building Code, a model code used throughout the US."
@@ -1812,84 +1812,84 @@ Environmental quality considerations:
           id: 3,
           question: "Which organization provides concrete standards?",
           options: [
-            "American Concrete Institute (ACI)",
-            "ASTM International",
             "American Institute of Steel Construction",
+            "ASTM International",
+            "American Concrete Institute (ACI)",
             "ANSI"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The American Concrete Institute (ACI) develops standards for concrete construction."
         },
         {
           id: 4,
           question: "What are preventive measures to ensure quality called?",
           options: [
-            "Quality Assurance",
-            "Quality Control",
             "Quality Inspection",
+            "Quality Control",
+            "Quality Assurance",
             "Quality Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Quality assurance focuses on preventive measures to ensure quality is built in."
         },
         {
           id: 5,
           question: "Which testing method measures concrete workability?",
           options: [
-            "Slump Test",
             "Compressive Strength Test",
-            "Air Content Test",
-            "Setting Time Test"
+            "Slump Test",
+            "Setting Time Test",
+            "Air Content Test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The slump test measures the workability or consistency of fresh concrete."
         },
         {
           id: 6,
           question: "What statistical tool monitors process stability over time?",
           options: [
-            "Control Charts",
             "Pareto Analysis",
-            "Root Cause Analysis",
-            "Sampling Plans"
+            "Control Charts",
+            "Sampling Plans",
+            "Root Cause Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Control charts monitor process performance over time to detect variations."
         },
         {
           id: 7,
           question: "What percentage of project cost typically goes to prevention activities?",
           options: [
-            "1-3%",
-            "5-7%",
             "8-10%",
-            "10-12%"
+            "5-7%",
+            "10-12%",
+            "1-3%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Prevention costs typically account for 1-3% of total project costs."
         },
         {
           id: 8,
           question: "Which cost category includes rework and scrap?",
           options: [
-            "Internal Failure Costs",
-            "Prevention Costs",
             "Appraisal Costs",
-            "External Failure Costs"
+            "External Failure Costs",
+            "Prevention Costs",
+            "Internal Failure Costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Internal failure costs include rework, scrap, and delays discovered before project completion."
         },
         {
           id: 9,
           question: "What Japanese term means continuous improvement?",
           options: [
-            "Kaizen",
-            "Kanban",
             "Poka-yoke",
+            "Kanban",
+            "Kaizen",
             "Andon"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Kaizen is the Japanese philosophy of continuous improvement."
         },
         {
@@ -1897,9 +1897,9 @@ Environmental quality considerations:
           question: "Which technology helps detect design conflicts before construction?",
           options: [
             "Building Information Modeling (BIM)",
+            "Digital Checklists",
             "Drone Inspections",
-            "Laser Scanning",
-            "Digital Checklists"
+            "Laser Scanning"
           ],
           correctAnswer: 0,
           explanation: "BIM enables clash detection to identify design conflicts before construction begins."
@@ -1908,60 +1908,60 @@ Environmental quality considerations:
           id: 11,
           question: "How many main quality cost categories were discussed?",
           options: [
+            "Six",
             "Four",
             "Three",
-            "Five",
-            "Six"
+            "Five"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The four categories are: Prevention, Appraisal, Internal Failure, and External Failure costs."
         },
         {
           id: 12,
           question: "Which standards organization focuses on materials testing?",
           options: [
-            "ASTM International",
-            "ACI",
             "AISC",
-            "ANSI"
+            "ASTM International",
+            "ANSI",
+            "ACI"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ASTM International develops technical standards for materials, products, and services."
         },
         {
           id: 13,
           question: "What are physical examples of required quality called?",
           options: [
-            "Mock-ups and Prototypes",
             "Samples",
-            "Models",
-            "Templates"
+            "Mock-ups and Prototypes",
+            "Templates",
+            "Models"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mock-ups and prototypes provide physical examples of expected quality before full production."
         },
         {
           id: 14,
           question: "Which testing verifies soil compaction?",
           options: [
-            "Proctor Test",
-            "Bearing Capacity Test",
+            "Permeability Test",
             "Moisture Content Test",
-            "Permeability Test"
+            "Bearing Capacity Test",
+            "Proctor Test"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Proctor tests determine optimal moisture content and maximum dry density for soil compaction."
         },
         {
           id: 15,
           question: "What analysis focuses on the most significant quality issues?",
           options: [
-            "Pareto Analysis",
-            "Root Cause Analysis",
             "Trend Analysis",
-            "Process Capability Analysis"
+            "Root Cause Analysis",
+            "Process Capability Analysis",
+            "Pareto Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pareto analysis identifies the most significant factors contributing to quality problems."
         },
         {
@@ -1969,8 +1969,8 @@ Environmental quality considerations:
           question: "What is the typical range for appraisal costs?",
           options: [
             "2-4% of project",
-            "1-3% of project",
             "3-5% of project",
+            "1-3% of project",
             "5-7% of project"
           ],
           correctAnswer: 0,
@@ -1980,48 +1980,48 @@ Environmental quality considerations:
           id: 17,
           question: "What international quality management standard was mentioned?",
           options: [
+            "ISO 50001",
             "ISO 9001",
-            "ISO 14001",
             "ISO 45001",
-            "ISO 50001"
+            "ISO 14001"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ISO 9001 is the international standard for quality management systems."
         },
         {
           id: 18,
           question: "Which tool uses aerial photography for quality assessments?",
           options: [
+            "BIM",
             "Drone Inspections",
             "Laser Scanning",
-            "BIM",
             "Thermal Imaging"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Drone inspections provide aerial views for quality assessment of hard-to-reach areas."
         },
         {
           id: 19,
           question: "What green building certification program was mentioned?",
           options: [
+            "WELL",
             "LEED",
             "BREEAM",
-            "Green Globes",
-            "WELL"
+            "Green Globes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "LEED (Leadership in Energy and Environmental Design) is a green building certification program."
         },
         {
           id: 20,
           question: "What documents record actual construction conditions?",
           options: [
-            "As-built Documentation",
             "Inspection Reports",
-            "Test Reports",
-            "Non-conformance Reports"
+            "As-built Documentation",
+            "Non-conformance Reports",
+            "Test Reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "As-built documentation records the actual constructed conditions versus the original design."
         }
       ]
@@ -2144,9 +2144,9 @@ Barriers to technology adoption:
           question: "What productivity increase can technology adoption provide?",
           options: [
             "15-45%",
-            "5-15%",
             "25-35%",
-            "35-55%"
+            "35-55%",
+            "5-15%"
           ],
           correctAnswer: 0,
           explanation: "Technology adoption can increase construction productivity by 15-45% on enabled projects."
@@ -2155,72 +2155,72 @@ Barriers to technology adoption:
           id: 2,
           question: "What does BIM stand for?",
           options: [
-            "Building Information Modeling",
-            "Building Integration Method",
             "Basic Infrastructure Management",
-            "Business Information Modeling"
+            "Building Integration Method",
+            "Business Information Modeling",
+            "Building Information Modeling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "BIM stands for Building Information Modeling, a digital representation of building characteristics."
         },
         {
           id: 3,
           question: "Which BIM dimension adds scheduling information?",
           options: [
-            "4D",
             "3D",
             "5D",
-            "6D"
+            "6D",
+            "4D"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "4D BIM adds time/scheduling information to the 3D model."
         },
         {
           id: 4,
           question: "What is a central repository for project information called?",
           options: [
+            "Information Repository",
             "Common Data Environment (CDE)",
-            "Project Management System",
             "Document Control Center",
-            "Information Repository"
+            "Project Management System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A Common Data Environment is a central repository for project information in BIM processes."
         },
         {
           id: 5,
           question: "Which technology uses additive manufacturing for concrete structures?",
           options: [
-            "3D Concrete Printing",
             "Robotic Bricklaying",
             "Automated Demolition",
+            "3D Concrete Printing",
             "Drone Surveying"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "3D concrete printing uses additive manufacturing to create concrete structures layer by layer."
         },
         {
           id: 6,
           question: "What does IoT stand for in construction technology?",
           options: [
+            "Integrated Operations Tracking",
             "Internet of Things",
             "Integration of Technology",
-            "Internet Operations Technology",
-            "Integrated Operations Tracking"
+            "Internet Operations Technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IoT stands for Internet of Things, referring to interconnected devices sharing data."
         },
         {
           id: 7,
           question: "Which technology creates immersive client walkthroughs?",
           options: [
-            "Virtual Reality",
-            "Augmented Reality",
+            "Digital Twins",
             "Mixed Reality",
-            "Digital Twins"
+            "Augmented Reality",
+            "Virtual Reality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Virtual Reality creates fully immersive digital environments for design visualization."
         },
         {
@@ -2228,9 +2228,9 @@ Barriers to technology adoption:
           question: "What AI application forecasts project outcomes?",
           options: [
             "Predictive Analytics",
-            "Risk Assessment",
             "Schedule Optimization",
-            "Quality Control"
+            "Quality Control",
+            "Risk Assessment"
           ],
           correctAnswer: 0,
           explanation: "Predictive analytics uses AI to forecast project outcomes based on historical data."
@@ -2240,9 +2240,9 @@ Barriers to technology adoption:
           question: "What is a virtual replica of a physical asset called?",
           options: [
             "Digital Twin",
+            "Simulation Model",
             "BIM Model",
-            "Virtual Model",
-            "Simulation Model"
+            "Virtual Model"
           ],
           correctAnswer: 0,
           explanation: "A Digital Twin is a virtual replica that synchronizes with its physical counterpart in real-time."
@@ -2263,12 +2263,12 @@ Barriers to technology adoption:
           id: 11,
           question: "How many BIM dimensions were discussed?",
           options: [
-            "Seven",
             "Five",
             "Six",
-            "Four"
+            "Four",
+            "Seven"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The seven dimensions are: 3D Geometry, 4D Time, 5D Cost, 6D Sustainability, 7D Operations."
         },
         {
@@ -2277,8 +2277,8 @@ Barriers to technology adoption:
           options: [
             "Revit",
             "AutoCAD",
-            "SketchUp",
-            "SolidWorks"
+            "SolidWorks",
+            "SketchUp"
           ],
           correctAnswer: 0,
           explanation: "Revit is a popular BIM authoring tool developed by Autodesk."
@@ -2287,24 +2287,24 @@ Barriers to technology adoption:
           id: 13,
           question: "What monitors equipment location and usage?",
           options: [
+            "Environmental Sensors",
             "Equipment Telematics",
             "Wearable Technology",
-            "Environmental Sensors",
             "Material Tracking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Equipment telematics use GPS and sensors to monitor equipment location, usage, and condition."
         },
         {
           id: 14,
           question: "Which technology overlays digital information on the real world?",
           options: [
-            "Augmented Reality",
+            "Extended Reality",
             "Virtual Reality",
             "Mixed Reality",
-            "Extended Reality"
+            "Augmented Reality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Augmented Reality overlays digital information onto the user's view of the real world."
         },
         {
@@ -2312,9 +2312,9 @@ Barriers to technology adoption:
           question: "What AI technique uses image recognition for defect detection?",
           options: [
             "Computer Vision",
-            "Natural Language Processing",
             "Predictive Analytics",
-            "Machine Learning"
+            "Machine Learning",
+            "Natural Language Processing"
           ],
           correctAnswer: 0,
           explanation: "Computer vision uses AI to analyze images and video for quality control and defect detection."
@@ -2335,48 +2335,48 @@ Barriers to technology adoption:
           id: 17,
           question: "Which software analyzes building energy performance?",
           options: [
-            "Energy Modeling Software",
             "Daylight Simulation",
             "Carbon Tracking",
+            "Energy Modeling Software",
             "BIM Software"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Energy modeling software simulates and analyzes building energy consumption and performance."
         },
         {
           id: 18,
           question: "What is the main barrier to technology adoption mentioned?",
           options: [
+            "Cultural Resistance",
             "Initial Investment Costs",
             "Training Requirements",
-            "Cultural Resistance",
             "Data Security Concerns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "High initial investment costs are a primary barrier to construction technology adoption."
         },
         {
           id: 19,
           question: "What wearable technology augments human strength?",
           options: [
-            "Exoskeletons",
-            "Smart Helmets",
             "Wearable Sensors",
-            "Smart Glasses"
+            "Smart Glasses",
+            "Exoskeletons",
+            "Smart Helmets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Exoskeletons are wearable devices that augment human strength and reduce fatigue."
         },
         {
           id: 20,
           question: "Which term refers to subscription-based software access?",
           options: [
-            "Software as a Service (SaaS)",
             "Platform as a Service",
             "Infrastructure as a Service",
+            "Software as a Service (SaaS)",
             "Cloud Computing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SaaS provides software access via subscription rather than perpetual licensing."
         }
       ]
@@ -2508,24 +2508,24 @@ Forces promoting sustainability:
           id: 1,
           question: "What percentage of global energy consumption comes from buildings?",
           options: [
-            "Approximately 40%",
             "Approximately 30%",
-            "Approximately 50%",
-            "Approximately 60%"
+            "Approximately 60%",
+            "Approximately 40%",
+            "Approximately 50%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The building sector accounts for approximately 40% of global energy consumption."
         },
         {
           id: 2,
           question: "Which is the most widely used green building rating system?",
           options: [
-            "LEED",
             "BREEAM",
-            "Green Globes",
-            "WELL"
+            "WELL",
+            "LEED",
+            "Green Globes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "LEED (Leadership in Energy and Environmental Design) is the most widely used system globally."
         },
         {
@@ -2533,9 +2533,9 @@ Forces promoting sustainability:
           question: "What was the first green building rating system?",
           options: [
             "BREEAM",
-            "LEED",
             "Green Globes",
-            "ENERGY STAR"
+            "ENERGY STAR",
+            "LEED"
           ],
           correctAnswer: 0,
           explanation: "BREEAM (Building Research Establishment Environmental Assessment Method) was first launched in 1990."
@@ -2544,12 +2544,12 @@ Forces promoting sustainability:
           id: 4,
           question: "Which strategy involves building orientation and natural ventilation?",
           options: [
-            "Passive Design",
             "Active Systems",
             "Renewable Energy",
-            "Building Automation"
+            "Building Automation",
+            "Passive Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Passive design uses building orientation, natural ventilation, and daylighting to reduce energy use."
         },
         {
@@ -2557,9 +2557,9 @@ Forces promoting sustainability:
           question: "What is the collection and use of rainwater called?",
           options: [
             "Rainwater Harvesting",
+            "Water Metering",
             "Greywater Recycling",
-            "Blackwater Treatment",
-            "Water Metering"
+            "Blackwater Treatment"
           ],
           correctAnswer: 0,
           explanation: "Rainwater harvesting involves collecting and storing rainwater for non-potable uses."
@@ -2568,72 +2568,72 @@ Forces promoting sustainability:
           id: 6,
           question: "What does FSC certification indicate for wood products?",
           options: [
-            "Sustainable forest management",
-            "Recycled content",
             "Low VOC emissions",
-            "Regional sourcing"
+            "Regional sourcing",
+            "Recycled content",
+            "Sustainable forest management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FSC (Forest Stewardship Council) certification indicates wood comes from sustainably managed forests."
         },
         {
           id: 7,
           question: "What are typical construction waste diversion goals?",
           options: [
-            "50-75% diversion from landfill",
-            "25-50% diversion from landfill",
             "75-90% diversion from landfill",
-            "90-100% diversion from landfill"
+            "90-100% diversion from landfill",
+            "25-50% diversion from landfill",
+            "50-75% diversion from landfill"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Most green projects aim for 50-75% diversion of construction waste from landfills."
         },
         {
           id: 8,
           question: "What does VOC stand for in material selection?",
           options: [
-            "Volatile Organic Compounds",
-            "Variable Organic Content",
             "Volatile Oxidation Components",
-            "Variable Odor Compounds"
+            "Variable Odor Compounds",
+            "Volatile Organic Compounds",
+            "Variable Organic Content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "VOCs are Volatile Organic Compounds that can affect indoor air quality and human health."
         },
         {
           id: 9,
           question: "What is developing previously contaminated sites called?",
           options: [
-            "Brownfield Redevelopment",
             "Greenfield Development",
+            "Brownfield Redevelopment",
             "Site Restoration",
             "Habitat Protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Brownfield redevelopment involves cleaning up and developing previously contaminated sites."
         },
         {
           id: 10,
           question: "What analyzes environmental impacts from raw material to disposal?",
           options: [
-            "Life Cycle Assessment",
-            "Energy Modeling",
             "Environmental Impact Statement",
-            "Sustainability Audit"
+            "Energy Modeling",
+            "Sustainability Audit",
+            "Life Cycle Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Life Cycle Assessment evaluates environmental impacts throughout a product's entire life."
         },
         {
           id: 11,
           question: "How many main green building rating systems were discussed?",
           options: [
-            "Seven",
             "Five",
+            "Eight",
             "Six",
-            "Eight"
+            "Seven"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The seven systems are: LEED, BREEAM, Green Globes, WELL, Living Building Challenge, ENERGY STAR, and Regional Systems."
         },
         {
@@ -2641,8 +2641,8 @@ Forces promoting sustainability:
           question: "What energy savings can high-performance buildings achieve?",
           options: [
             "20-50% reduction",
-            "10-20% reduction",
             "30-60% reduction",
+            "10-20% reduction",
             "40-70% reduction"
           ],
           correctAnswer: 0,
@@ -2652,48 +2652,48 @@ Forces promoting sustainability:
           id: 13,
           question: "Within what distance should regional materials be sourced?",
           options: [
-            "500 miles",
             "100 miles",
             "250 miles",
-            "1000 miles"
+            "1000 miles",
+            "500 miles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regional materials are typically defined as sourced within 500 miles of the project site."
         },
         {
           id: 14,
           question: "Which standard focuses on human health and wellness?",
           options: [
-            "WELL Building Standard",
-            "LEED",
             "BREEAM",
-            "Green Globes"
+            "Green Globes",
+            "WELL Building Standard",
+            "LEED"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The WELL Building Standard focuses specifically on human health and wellness in buildings."
         },
         {
           id: 15,
           question: "What is energy consumed during material production called?",
           options: [
-            "Embodied Energy",
             "Operational Energy",
             "Life Cycle Energy",
+            "Embodied Energy",
             "Production Energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Embodied energy refers to energy consumed during material extraction, manufacturing, and transportation."
         },
         {
           id: 16,
           question: "What does ESG stand for in investment criteria?",
           options: [
-            "Environmental, Social, Governance",
             "Energy, Sustainability, Green",
             "Economic, Social, Green",
+            "Environmental, Social, Governance",
             "Environmental, Sustainable, Growth"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ESG stands for Environmental, Social, and Governance criteria used in sustainable investing."
         },
         {
@@ -2702,8 +2702,8 @@ Forces promoting sustainability:
           options: [
             "5-15%",
             "1-5%",
-            "10-20%",
-            "15-25%"
+            "15-25%",
+            "10-20%"
           ],
           correctAnswer: 0,
           explanation: "Studies show 5-15% productivity gains in green buildings due to better indoor environmental quality."
@@ -2712,24 +2712,24 @@ Forces promoting sustainability:
           id: 18,
           question: "Which practice involves careful dismantling for material recovery?",
           options: [
-            "Deconstruction",
+            "Recycling",
             "Demolition",
             "Salvage",
-            "Recycling"
+            "Deconstruction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Deconstruction involves carefully dismantling buildings to maximize material recovery and reuse."
         },
         {
           id: 19,
           question: "What verifies building systems perform as designed?",
           options: [
-            "Commissioning",
             "Inspection",
-            "Testing",
-            "Certification"
+            "Commissioning",
+            "Certification",
+            "Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Commissioning verifies that building systems are installed and perform according to design intent."
         },
         {
@@ -2737,9 +2737,9 @@ Forces promoting sustainability:
           question: "What premium do green certified buildings typically command?",
           options: [
             "5-10% higher property values",
-            "1-3% higher property values",
             "10-15% higher property values",
-            "15-20% higher property values"
+            "15-20% higher property values",
+            "1-3% higher property values"
           ],
           correctAnswer: 0,
           explanation: "Green certified buildings typically command 5-10% higher property values than comparable conventional buildings."
@@ -2883,84 +2883,84 @@ Fostering creativity and improvement:
           id: 1,
           question: "How much more likely are well-led projects to finish on time and budget?",
           options: [
-            "2.5 times more likely",
-            "1.5 times more likely",
             "3 times more likely",
-            "2 times more likely"
+            "2 times more likely",
+            "2.5 times more likely",
+            "1.5 times more likely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Projects with strong leadership are 2.5 times more likely to finish on time and within budget."
         },
         {
           id: 2,
           question: "Which leadership style focuses on inspiring teams toward a shared vision?",
           options: [
-            "Transformational Leadership",
             "Transactional Leadership",
             "Servant Leadership",
-            "Autocratic Leadership"
+            "Autocratic Leadership",
+            "Transformational Leadership"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transformational leaders inspire and motivate teams toward a shared vision and goals."
         },
         {
           id: 3,
           question: "What is the first step in stakeholder communication?",
           options: [
-            "Stakeholder Analysis",
-            "Communication Planning",
+            "Reporting Systems",
             "Meeting Management",
-            "Reporting Systems"
+            "Stakeholder Analysis",
+            "Communication Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stakeholder analysis identifies all parties with an interest in the project."
         },
         {
           id: 4,
           question: "What are the five stages of team development?",
           options: [
-            "Forming, Storming, Norming, Performing, Adjourning",
             "Planning, Organizing, Implementing, Controlling, Closing",
+            "Orientation, Conflict, Cooperation, Productivity, Termination",
             "Initiation, Planning, Execution, Monitoring, Closure",
-            "Orientation, Conflict, Cooperation, Productivity, Termination"
+            "Forming, Storming, Norming, Performing, Adjourning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Tuckman's stages are: Forming, Storming, Norming, Performing, and Adjourning."
         },
         {
           id: 5,
           question: "What type of decision-making uses systematic analysis of alternatives?",
           options: [
-            "Rational Decision Making",
-            "Bounded Rationality",
+            "Participative Decision Making",
             "Intuitive Decision Making",
-            "Participative Decision Making"
+            "Rational Decision Making",
+            "Bounded Rationality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Rational decision making uses a systematic process to analyze alternatives and consequences."
         },
         {
           id: 6,
           question: "What evaluates an organization's preparedness for change?",
           options: [
-            "Change Readiness Assessment",
-            "Change Vision Development",
             "Stakeholder Engagement",
-            "Communication Strategy"
+            "Change Vision Development",
+            "Communication Strategy",
+            "Change Readiness Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Change readiness assessment evaluates how prepared an organization is for proposed changes."
         },
         {
           id: 7,
           question: "Which conflict resolution approach seeks win-win solutions?",
           options: [
+            "Competition",
             "Negotiation",
-            "Avoidance",
             "Accommodation",
-            "Competition"
+            "Avoidance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Negotiation seeks mutually acceptable solutions that address interests of all parties."
         },
         {
@@ -2968,9 +2968,9 @@ Fostering creativity and improvement:
           question: "How many components of emotional intelligence were discussed?",
           options: [
             "Five",
+            "Seven",
             "Four",
-            "Six",
-            "Seven"
+            "Six"
           ],
           correctAnswer: 0,
           explanation: "The five components are: Self-Awareness, Self-Regulation, Motivation, Empathy, and Social Skills."
@@ -2991,36 +2991,36 @@ Fostering creativity and improvement:
           id: 10,
           question: "What involves learning from experienced leaders?",
           options: [
-            "Mentoring Relationships",
-            "Training Programs",
             "Peer Networks",
-            "Industry Involvement"
+            "Industry Involvement",
+            "Training Programs",
+            "Mentoring Relationships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mentoring involves learning from experienced leaders through guidance and advice."
         },
         {
           id: 11,
           question: "How many leadership styles were discussed?",
           options: [
-            "Seven",
             "Five",
-            "Six",
-            "Eight"
+            "Eight",
+            "Seven",
+            "Six"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The seven styles are: Transformational, Transactional, Servant, Situational, Autocratic, Democratic, and Laissez-faire."
         },
         {
           id: 12,
           question: "What is understanding before being understood called?",
           options: [
-            "Active Listening",
+            "Reflective Practice",
             "Effective Communication",
             "Empathetic Response",
-            "Reflective Practice"
+            "Active Listening"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Active listening involves fully concentrating on, understanding, and responding to the speaker."
         },
         {
@@ -3028,9 +3028,9 @@ Fostering creativity and improvement:
           question: "Which decision-making approach considers moral implications?",
           options: [
             "Ethical Decision Making",
-            "Rational Decision Making",
+            "Data-Driven Decision Making",
             "Risk-Based Decision Making",
-            "Data-Driven Decision Making"
+            "Rational Decision Making"
           ],
           correctAnswer: 0,
           explanation: "Ethical decision making considers moral principles and implications of choices."
@@ -3039,48 +3039,48 @@ Fostering creativity and improvement:
           id: 14,
           question: "What is creating a compelling case for change called?",
           options: [
-            "Change Vision Development",
-            "Change Readiness Assessment",
             "Stakeholder Engagement",
-            "Communication Strategy"
+            "Communication Strategy",
+            "Change Vision Development",
+            "Change Readiness Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Change vision development creates a compelling reason for change that motivates stakeholders."
         },
         {
           id: 15,
           question: "Which emotional intelligence component involves controlling responses?",
           options: [
-            "Self-Regulation",
-            "Self-Awareness",
             "Motivation",
-            "Empathy"
+            "Self-Regulation",
+            "Empathy",
+            "Self-Awareness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Self-regulation involves controlling or redirecting disruptive emotions and impulses."
         },
         {
           id: 16,
           question: "What distinguishes urgent from important tasks?",
           options: [
-            "Priority Setting",
-            "Time Management",
             "Task Organization",
+            "Time Management",
+            "Priority Setting",
             "Schedule Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Priority setting involves distinguishing between tasks that are urgent versus important."
         },
         {
           id: 17,
           question: "What involves learning from experience through reflection?",
           options: [
-            "Reflective Practice",
             "Skill Gap Analysis",
+            "Peer Networks",
             "Training Programs",
-            "Peer Networks"
+            "Reflective Practice"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Reflective practice involves thinking about experiences to gain insights and improve future performance."
         },
         {
@@ -3089,8 +3089,8 @@ Fostering creativity and improvement:
           options: [
             "Integrity",
             "Accountability",
-            "Transparency",
-            "Fairness"
+            "Fairness",
+            "Transparency"
           ],
           correctAnswer: 0,
           explanation: "Integrity involves consistency between words and actions, and adherence to moral principles."
@@ -3099,24 +3099,24 @@ Fostering creativity and improvement:
           id: 19,
           question: "What is quick decision-making under pressure called?",
           options: [
-            "Rapid Response",
             "Crisis Preparedness",
-            "Emergency Management",
-            "Quick Resolution"
+            "Rapid Response",
+            "Quick Resolution",
+            "Emergency Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rapid response involves making quick decisions during emergencies or crises."
         },
         {
           id: 20,
           question: "What creates an environment that encourages new ideas?",
           options: [
-            "Innovation Culture",
             "Creative Environment",
-            "Idea Generation",
-            "Risk-Taking Support"
+            "Innovation Culture",
+            "Risk-Taking Support",
+            "Idea Generation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Innovation culture creates an organizational environment that encourages and supports new ideas."
         }
       ]
@@ -3302,8 +3302,8 @@ Available resources for capstone completion:
           options: [
             "$15 million",
             "$10 million",
-            "$20 million",
-            "$25 million"
+            "$25 million",
+            "$20 million"
           ],
           correctAnswer: 0,
           explanation: "The GreenTech Office Building has a budget of $15 million."
@@ -3313,9 +3313,9 @@ Available resources for capstone completion:
           question: "What is the construction duration for the capstone project?",
           options: [
             "18 months",
+            "30 months",
             "12 months",
-            "24 months",
-            "30 months"
+            "24 months"
           ],
           correctAnswer: 0,
           explanation: "The project schedule calls for an 18-month construction duration."
@@ -3325,8 +3325,8 @@ Available resources for capstone completion:
           question: "What LEED certification level is targeted?",
           options: [
             "LEED Platinum",
-            "LEED Gold",
             "LEED Silver",
+            "LEED Gold",
             "LEED Certified"
           ],
           correctAnswer: 0,
@@ -3336,12 +3336,12 @@ Available resources for capstone completion:
           id: 4,
           question: "How many square feet is the GreenTech Office Building?",
           options: [
-            "50,000 square feet",
             "40,000 square feet",
+            "50,000 square feet",
             "60,000 square feet",
             "75,000 square feet"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The building size is 50,000 square feet."
         },
         {
@@ -3349,9 +3349,9 @@ Available resources for capstone completion:
           question: "Which document outlines project objectives and success criteria?",
           options: [
             "Project Charter",
+            "Project Plan",
             "Scope Statement",
-            "Business Case",
-            "Project Plan"
+            "Business Case"
           ],
           correctAnswer: 0,
           explanation: "The project charter formally authorizes the project and outlines objectives and success criteria."
@@ -3360,48 +3360,48 @@ Available resources for capstone completion:
           id: 6,
           question: "What method should be used for the master project schedule?",
           options: [
+            "Line of Balance",
             "Critical Path Method",
             "Gantt Chart",
-            "Line of Balance",
             "PERT Chart"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The schedule should use Critical Path Method for determining project duration and critical activities."
         },
         {
           id: 7,
           question: "What percentage of the grade is based on comprehensiveness?",
           options: [
-            "30%",
             "25%",
             "35%",
+            "30%",
             "40%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Comprehensiveness accounts for 30% of the capstone project grade."
         },
         {
           id: 8,
           question: "How many stories does the GreenTech Office Building have?",
           options: [
-            "5 stories",
-            "3 stories",
             "7 stories",
+            "3 stories",
+            "5 stories",
             "10 stories"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The building is a 5-story structure with ground-floor retail."
         },
         {
           id: 9,
           question: "What type of estimate requires detailed quantity takeoffs?",
           options: [
-            "Detailed Cost Estimate",
-            "Preliminary Estimate",
             "Order of Magnitude Estimate",
-            "Conceptual Estimate"
+            "Preliminary Estimate",
+            "Conceptual Estimate",
+            "Detailed Cost Estimate"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Detailed cost estimates require comprehensive quantity takeoffs from construction documents."
         },
         {
@@ -3410,8 +3410,8 @@ Available resources for capstone completion:
           options: [
             "Hazard identification and risk assessment",
             "Insurance requirements only",
-            "Basic safety rules only",
-            "Equipment specifications only"
+            "Equipment specifications only",
+            "Basic safety rules only"
           ],
           correctAnswer: 0,
           explanation: "A comprehensive safety plan includes hazard identification, risk assessment, and control measures."
@@ -3420,24 +3420,24 @@ Available resources for capstone completion:
           id: 11,
           question: "How many main sections should the comprehensive plan include?",
           options: [
-            "12 sections",
-            "10 sections",
             "8 sections",
-            "15 sections"
+            "10 sections",
+            "15 sections",
+            "12 sections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The comprehensive plan should include 12 main sections covering all management areas."
         },
         {
           id: 12,
           question: "What does the scope management plan define?",
           options: [
-            "Work breakdown structure and change control",
+            "Only schedule requirements",
             "Only project objectives",
-            "Only budget constraints",
-            "Only schedule requirements"
+            "Work breakdown structure and change control",
+            "Only budget constraints"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scope management defines the WBS and processes for verifying and controlling scope changes."
         },
         {
@@ -3446,8 +3446,8 @@ Available resources for capstone completion:
           options: [
             "30%",
             "25%",
-            "35%",
-            "40%"
+            "40%",
+            "35%"
           ],
           correctAnswer: 0,
           explanation: "Technical accuracy accounts for 30% of the assessment criteria."
@@ -3456,48 +3456,48 @@ Available resources for capstone completion:
           id: 14,
           question: "Which plan addresses LEED certification strategy?",
           options: [
-            "Sustainability Implementation Plan",
             "Quality Management Plan",
             "Technology Implementation Plan",
+            "Sustainability Implementation Plan",
             "Risk Management Plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Sustainability Implementation Plan addresses LEED certification and sustainable practices."
         },
         {
           id: 15,
           question: "What should the final submission format be?",
           options: [
-            "PDF format",
-            "Word document",
             "Excel spreadsheet",
-            "PowerPoint presentation"
+            "PowerPoint presentation",
+            "Word document",
+            "PDF format"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "All documents should be submitted in PDF format for consistency and security."
         },
         {
           id: 16,
           question: "What does the project closeout plan include?",
           options: [
-            "Commissioning and handover procedures",
-            "Only final payment processing",
             "Only equipment removal",
-            "Only site cleanup"
+            "Only site cleanup",
+            "Only final payment processing",
+            "Commissioning and handover procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Closeout includes commissioning, documentation, training, and lessons learned."
         },
         {
           id: 17,
           question: "What percentage is for practical applicability?",
           options: [
-            "20%",
             "15%",
+            "20%",
             "25%",
             "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Practical applicability accounts for 20% of the assessment criteria."
         },
         {
@@ -3506,8 +3506,8 @@ Available resources for capstone completion:
           options: [
             "Technology Implementation Plan",
             "Quality Management Plan",
-            "Schedule Management Plan",
-            "Cost Management Plan"
+            "Cost Management Plan",
+            "Schedule Management Plan"
           ],
           correctAnswer: 0,
           explanation: "The Technology Implementation Plan addresses BIM and other construction technologies."
@@ -3516,12 +3516,12 @@ Available resources for capstone completion:
           id: 19,
           question: "What should the executive summary length be?",
           options: [
-            "2-3 pages",
             "1 page only",
-            "4-5 pages",
-            "5-7 pages"
+            "5-7 pages",
+            "2-3 pages",
+            "4-5 pages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The executive summary should be concise at 2-3 pages."
         },
         {
@@ -3529,9 +3529,9 @@ Available resources for capstone completion:
           question: "What does professional presentation account for?",
           options: [
             "20% of grade",
+            "30% of grade",
             "15% of grade",
-            "25% of grade",
-            "30% of grade"
+            "25% of grade"
           ],
           correctAnswer: 0,
           explanation: "Professional presentation accounts for 20% of the capstone assessment."
@@ -3549,9 +3549,9 @@ Available resources for capstone completion:
       question: "What are the four main sectors of the construction industry?",
       options: [
         "Residential, Commercial, Industrial, Infrastructure",
+        "Building, Civil, Industrial, Environmental",
         "Public, Private, Commercial, Industrial",
-        "Residential, Commercial, Public, Private",
-        "Building, Civil, Industrial, Environmental"
+        "Residential, Commercial, Public, Private"
       ],
       correctAnswer: 0,
       explanation: "The four main sectors are Residential, Commercial, Industrial, and Infrastructure construction."
@@ -3561,12 +3561,12 @@ Available resources for capstone completion:
       moduleId: 1,
       question: "Which project delivery method involves a single entity handling both design and construction?",
       options: [
-        "Design-Build",
         "Design-Bid-Build",
         "Construction Management at Risk",
-        "Integrated Project Delivery"
+        "Integrated Project Delivery",
+        "Design-Build"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Design-Build consolidates design and construction responsibilities under one contract with a single entity."
     },
     {
@@ -3574,12 +3574,12 @@ Available resources for capstone completion:
       moduleId: 1,
       question: "What is the purpose of construction management?",
       options: [
-        "To control project time, cost, and quality",
-        "To minimize architectural changes",
         "To maximize subcontractor profits",
+        "To minimize architectural changes",
+        "To control project time, cost, and quality",
         "To reduce material costs exclusively"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Construction management focuses on controlling the three main constraints: time, cost, and quality."
     },
     {
@@ -3587,12 +3587,12 @@ Available resources for capstone completion:
       moduleId: 1,
       question: "What does OSHA stand for?",
       options: [
-        "Occupational Safety and Health Administration",
         "Occupational Standards and Health Administration",
         "Operational Safety and Health Authority",
+        "Occupational Safety and Health Administration",
         "Occupational Safety and Hazard Administration"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "OSHA stands for Occupational Safety and Health Administration, the US agency that sets and enforces workplace safety standards."
     },
 
@@ -3602,12 +3602,12 @@ Available resources for capstone completion:
       moduleId: 2,
       question: "What does WBS stand for in project planning?",
       options: [
-        "Work Breakdown Structure",
-        "Work Building Schedule",
         "Weekly Breakdown System",
-        "Work Balance Sheet"
+        "Work Balance Sheet",
+        "Work Building Schedule",
+        "Work Breakdown Structure"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "WBS stands for Work Breakdown Structure, a hierarchical decomposition of project work."
     },
     {
@@ -3615,12 +3615,12 @@ Available resources for capstone completion:
       moduleId: 2,
       question: "What scheduling method identifies critical tasks that impact project duration?",
       options: [
+        "Bar Chart Scheduling",
         "Critical Path Method",
-        "Gantt Chart",
         "Line of Balance",
-        "Bar Chart Scheduling"
+        "Gantt Chart"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The Critical Path Method identifies tasks that directly affect project duration if delayed."
     },
     {
@@ -3641,12 +3641,12 @@ Available resources for capstone completion:
       moduleId: 2,
       question: "What does EVM integrate for project performance measurement?",
       options: [
+        "Scope, quality, and risk",
         "Scope, schedule, and cost",
-        "Quality, safety, and cost",
         "Time, resources, and quality",
-        "Scope, quality, and risk"
+        "Quality, safety, and cost"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Earned Value Management integrates scope, schedule, and cost performance measurement."
     },
 
@@ -3656,12 +3656,12 @@ Available resources for capstone completion:
       moduleId: 3,
       question: "What is the accuracy range for an Order of Magnitude estimate?",
       options: [
+        "±15-20%",
         "±20-30%",
-        "±5-10%",
         "±10-15%",
-        "±15-20%"
+        "±5-10%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Order of Magnitude estimates are rough approximations with ±20-30% accuracy."
     },
     {
@@ -3669,12 +3669,12 @@ Available resources for capstone completion:
       moduleId: 3,
       question: "Which contract type involves reimbursement of costs plus a fee?",
       options: [
-        "Cost-Plus Contracts",
-        "Lump Sum Contracts",
+        "Fixed Price Contracts",
         "GMP Contracts",
-        "Fixed Price Contracts"
+        "Cost-Plus Contracts",
+        "Lump Sum Contracts"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Cost-plus contracts reimburse actual costs plus an agreed-upon fee to the contractor."
     },
     {
@@ -3682,12 +3682,12 @@ Available resources for capstone completion:
       moduleId: 3,
       question: "What typical waste factor is applied to material quantities?",
       options: [
-        "5-10%",
-        "1-3%",
         "10-15%",
-        "15-20%"
+        "15-20%",
+        "5-10%",
+        "1-3%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "A 5-10% waste factor is typically added to account for material losses during construction."
     },
     {
@@ -3695,12 +3695,12 @@ Available resources for capstone completion:
       moduleId: 3,
       question: "What is improving value without compromising function called?",
       options: [
+        "Efficiency Analysis",
         "Value Engineering",
-        "Cost Cutting",
         "Budget Optimization",
-        "Efficiency Analysis"
+        "Cost Cutting"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Value engineering seeks to improve value (function/cost) without reducing necessary functions."
     },
 
@@ -3710,12 +3710,12 @@ Available resources for capstone completion:
       moduleId: 4,
       question: "What percentage of construction fatalities are caused by falls?",
       options: [
-        "Approximately 35%",
         "Approximately 25%",
         "Approximately 45%",
-        "Approximately 55%"
+        "Approximately 55%",
+        "Approximately 35%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Falls account for approximately 35% of construction fatalities, making them the leading cause."
     },
     {
@@ -3723,12 +3723,12 @@ Available resources for capstone completion:
       moduleId: 4,
       question: "What is the required capacity for fall arrest anchor points?",
       options: [
-        "5,000 pounds",
         "3,000 pounds",
         "2,500 pounds",
+        "5,000 pounds",
         "1,500 pounds"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Anchor points for fall arrest systems must support 5,000 pounds per worker."
     },
     {
@@ -3736,12 +3736,12 @@ Available resources for capstone completion:
       moduleId: 4,
       question: "At what trench depth are protective systems required?",
       options: [
-        "5 feet or more",
-        "4 feet or more",
+        "8 feet or more",
         "6 feet or more",
-        "8 feet or more"
+        "4 feet or more",
+        "5 feet or more"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Protective systems are required for trenches 5 feet deep or more to prevent cave-ins."
     },
     {
@@ -3749,12 +3749,12 @@ Available resources for capstone completion:
       moduleId: 4,
       question: "What does GFCI stand for in electrical safety?",
       options: [
+        "Ground-Failure Circuit Indicator",
         "Ground-Fault Circuit Interrupter",
-        "Ground-Fault Current Indicator",
         "General Fault Circuit Interrupter",
-        "Ground-Failure Circuit Indicator"
+        "Ground-Fault Current Indicator"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "GFCI stands for Ground-Fault Circuit Interrupter, which protects against electrical shocks."
     },
 
@@ -3764,12 +3764,12 @@ Available resources for capstone completion:
       moduleId: 5,
       question: "Which AIA document contains general conditions for construction contracts?",
       options: [
-        "A201",
         "A101",
-        "A401",
-        "B101"
+        "A201",
+        "B101",
+        "A401"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "AIA Document A201 contains the general conditions that govern most construction projects."
     },
     {
@@ -3777,12 +3777,12 @@ Available resources for capstone completion:
       moduleId: 5,
       question: "What guarantees a contractor will complete the project?",
       options: [
-        "Performance Bond",
         "Bid Bond",
+        "Performance Bond",
         "Payment Bond",
         "Builder's Risk Insurance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Performance bonds guarantee the contractor will complete the project according to contract terms."
     },
     {
@@ -3790,12 +3790,12 @@ Available resources for capstone completion:
       moduleId: 5,
       question: "What dispute resolution method uses a neutral third party to assist negotiation?",
       options: [
-        "Mediation",
-        "Arbitration",
+        "Negotiation",
         "Litigation",
-        "Negotiation"
+        "Mediation",
+        "Arbitration"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Mediation involves a neutral third party facilitating negotiations between disputing parties."
     },
     {
@@ -3803,12 +3803,12 @@ Available resources for capstone completion:
       moduleId: 5,
       question: "What provides a security interest in improved property for unpaid work?",
       options: [
-        "Mechanic's Lien",
+        "Performance Bond",
         "Payment Bond",
-        "Stop Notice",
-        "Performance Bond"
+        "Mechanic's Lien",
+        "Stop Notice"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Mechanic's liens provide security interest in the property for unpaid labor or materials."
     },
 
@@ -3818,12 +3818,12 @@ Available resources for capstone completion:
       moduleId: 6,
       question: "What is the typical cost of poor quality in construction projects?",
       options: [
-        "5-15% of project value",
+        "15-25% of project value",
         "1-3% of project value",
-        "10-20% of project value",
-        "15-25% of project value"
+        "5-15% of project value",
+        "10-20% of project value"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The cost of poor quality typically ranges from 5-15% of total project value."
     },
     {
@@ -3831,12 +3831,12 @@ Available resources for capstone completion:
       moduleId: 6,
       question: "Which organization provides concrete standards?",
       options: [
+        "ANSI",
         "American Concrete Institute (ACI)",
         "ASTM International",
-        "American Institute of Steel Construction",
-        "ANSI"
+        "American Institute of Steel Construction"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The American Concrete Institute (ACI) develops standards for concrete construction."
     },
     {
@@ -3844,12 +3844,12 @@ Available resources for capstone completion:
       moduleId: 6,
       question: "What are preventive measures to ensure quality called?",
       options: [
-        "Quality Assurance",
+        "Quality Testing",
         "Quality Control",
         "Quality Inspection",
-        "Quality Testing"
+        "Quality Assurance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Quality assurance focuses on preventive measures to ensure quality is built into processes."
     },
     {
@@ -3857,12 +3857,12 @@ Available resources for capstone completion:
       moduleId: 6,
       question: "Which testing method measures concrete workability?",
       options: [
-        "Slump Test",
+        "Setting Time Test",
         "Compressive Strength Test",
         "Air Content Test",
-        "Setting Time Test"
+        "Slump Test"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The slump test measures the workability or consistency of fresh concrete."
     },
 
@@ -3872,12 +3872,12 @@ Available resources for capstone completion:
       moduleId: 7,
       question: "What does BIM stand for?",
       options: [
-        "Building Information Modeling",
         "Building Integration Method",
+        "Business Information Modeling",
         "Basic Infrastructure Management",
-        "Business Information Modeling"
+        "Building Information Modeling"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "BIM stands for Building Information Modeling, a digital representation of building characteristics."
     },
     {
@@ -3885,12 +3885,12 @@ Available resources for capstone completion:
       moduleId: 7,
       question: "Which BIM dimension adds scheduling information?",
       options: [
-        "4D",
         "3D",
         "5D",
-        "6D"
+        "6D",
+        "4D"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "4D BIM adds time/scheduling information to the 3D model."
     },
     {
@@ -3899,9 +3899,9 @@ Available resources for capstone completion:
       question: "What is a virtual replica of a physical asset called?",
       options: [
         "Digital Twin",
+        "Simulation Model",
         "BIM Model",
-        "Virtual Model",
-        "Simulation Model"
+        "Virtual Model"
       ],
       correctAnswer: 0,
       explanation: "A Digital Twin is a virtual replica that synchronizes with its physical counterpart in real-time."
@@ -3912,8 +3912,8 @@ Available resources for capstone completion:
       question: "What AI application forecasts project outcomes?",
       options: [
         "Predictive Analytics",
-        "Risk Assessment",
         "Schedule Optimization",
+        "Risk Assessment",
         "Quality Control"
       ],
       correctAnswer: 0,
@@ -3926,12 +3926,12 @@ Available resources for capstone completion:
       moduleId: 8,
       question: "What percentage of global energy consumption comes from buildings?",
       options: [
-        "Approximately 40%",
+        "Approximately 60%",
         "Approximately 30%",
-        "Approximately 50%",
-        "Approximately 60%"
+        "Approximately 40%",
+        "Approximately 50%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The building sector accounts for approximately 40% of global energy consumption."
     },
     {
@@ -3939,12 +3939,12 @@ Available resources for capstone completion:
       moduleId: 8,
       question: "Which is the most widely used green building rating system?",
       options: [
-        "LEED",
-        "BREEAM",
         "Green Globes",
-        "WELL"
+        "BREEAM",
+        "WELL",
+        "LEED"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "LEED (Leadership in Energy and Environmental Design) is the most widely used system globally."
     },
     {
@@ -3952,12 +3952,12 @@ Available resources for capstone completion:
       moduleId: 8,
       question: "What does FSC certification indicate for wood products?",
       options: [
-        "Sustainable forest management",
         "Recycled content",
+        "Regional sourcing",
         "Low VOC emissions",
-        "Regional sourcing"
+        "Sustainable forest management"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "FSC certification indicates wood comes from sustainably managed forests."
     },
     {
@@ -3965,12 +3965,12 @@ Available resources for capstone completion:
       moduleId: 8,
       question: "What analyzes environmental impacts from raw material to disposal?",
       options: [
-        "Life Cycle Assessment",
-        "Energy Modeling",
+        "Sustainability Audit",
         "Environmental Impact Statement",
-        "Sustainability Audit"
+        "Energy Modeling",
+        "Life Cycle Assessment"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Life Cycle Assessment evaluates environmental impacts throughout a product's entire life."
     },
 
@@ -3980,12 +3980,12 @@ Available resources for capstone completion:
       moduleId: 9,
       question: "How much more likely are well-led projects to finish on time and budget?",
       options: [
-        "2.5 times more likely",
-        "1.5 times more likely",
         "3 times more likely",
+        "1.5 times more likely",
+        "2.5 times more likely",
         "2 times more likely"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Projects with strong leadership are 2.5 times more likely to finish on time and within budget."
     },
     {
@@ -3993,12 +3993,12 @@ Available resources for capstone completion:
       moduleId: 9,
       question: "Which leadership style focuses on inspiring teams toward a shared vision?",
       options: [
+        "Autocratic Leadership",
         "Transformational Leadership",
         "Transactional Leadership",
-        "Servant Leadership",
-        "Autocratic Leadership"
+        "Servant Leadership"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Transformational leaders inspire and motivate teams toward a shared vision and goals."
     },
     {
@@ -4007,9 +4007,9 @@ Available resources for capstone completion:
       question: "What are the five stages of team development?",
       options: [
         "Forming, Storming, Norming, Performing, Adjourning",
-        "Planning, Organizing, Implementing, Controlling, Closing",
+        "Orientation, Conflict, Cooperation, Productivity, Termination",
         "Initiation, Planning, Execution, Monitoring, Closure",
-        "Orientation, Conflict, Cooperation, Productivity, Termination"
+        "Planning, Organizing, Implementing, Controlling, Closing"
       ],
       correctAnswer: 0,
       explanation: "Tuckman's stages are: Forming, Storming, Norming, Performing, and Adjourning."
@@ -4021,8 +4021,8 @@ Available resources for capstone completion:
       options: [
         "Active Listening",
         "Effective Communication",
-        "Empathetic Response",
-        "Reflective Practice"
+        "Reflective Practice",
+        "Empathetic Response"
       ],
       correctAnswer: 0,
       explanation: "Active listening involves fully concentrating on, understanding, and responding to the speaker."
@@ -4034,12 +4034,12 @@ Available resources for capstone completion:
       moduleId: 10,
       question: "What is the project budget for the GreenTech Office Building capstone project?",
       options: [
-        "$15 million",
         "$10 million",
         "$20 million",
-        "$25 million"
+        "$25 million",
+        "$15 million"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The GreenTech Office Building has a budget of $15 million."
     },
     {
@@ -4047,12 +4047,12 @@ Available resources for capstone completion:
       moduleId: 10,
       question: "What LEED certification level is targeted in the capstone project?",
       options: [
-        "LEED Platinum",
-        "LEED Gold",
         "LEED Silver",
-        "LEED Certified"
+        "LEED Certified",
+        "LEED Platinum",
+        "LEED Gold"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The project aims for LEED Platinum certification, the highest level."
     },
     {
@@ -4060,12 +4060,12 @@ Available resources for capstone completion:
       moduleId: 10,
       question: "What method should be used for the master project schedule in the capstone?",
       options: [
-        "Critical Path Method",
-        "Gantt Chart",
+        "PERT Chart",
         "Line of Balance",
-        "PERT Chart"
+        "Gantt Chart",
+        "Critical Path Method"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The schedule should use Critical Path Method for determining project duration."
     },
     {
@@ -4073,12 +4073,12 @@ Available resources for capstone completion:
       moduleId: 10,
       question: "What percentage of the capstone grade is based on technical accuracy?",
       options: [
-        "30%",
         "25%",
-        "35%",
-        "40%"
+        "30%",
+        "40%",
+        "35%"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Technical accuracy accounts for 30% of the capstone project assessment."
     }
   ]

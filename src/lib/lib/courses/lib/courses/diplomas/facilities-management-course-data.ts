@@ -61,12 +61,12 @@ Professional development through organizations like IFMA (International Facility
           id: 1,
           question: "What are the three primary domains of facilities management?",
           options: [
-            "Budget, schedule, quality",
-            "People, place, and process",
             "Operations, maintenance, security",
-            "Buildings, equipment, staff"
+            "Buildings, equipment, staff",
+            "Budget, schedule, quality",
+            "People, place, and process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "People (occupant needs), place (physical environment), and process (workflows) form the comprehensive scope of facilities management."
         },
         {
@@ -74,11 +74,11 @@ Professional development through organizations like IFMA (International Facility
           question: "What directly impacts organizational performance through facilities management?",
           options: [
             "Only building appearance",
-            "Cost control, risk management, and productivity enhancement",
             "Only vendor relationships",
+            "Cost control, risk management, and productivity enhancement",
             "Only regulatory compliance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Effective facilities management contributes to organizational success through financial control, risk reduction, and productivity support."
         },
         {
@@ -86,23 +86,23 @@ Professional development through organizations like IFMA (International Facility
           question: "What are the primary maintenance approaches in facilities management?",
           options: [
             "Only repair when broken",
-            "Preventive, corrective, and predictive maintenance",
             "Only emergency repairs",
+            "Preventive, corrective, and predictive maintenance",
             "Only scheduled cleaning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Preventive (scheduled), corrective (repair), and predictive (condition-based) approaches form comprehensive maintenance strategy."
         },
         {
           id: 4,
           question: "What does space management involve?",
           options: [
+            "Only furniture arrangement",
             "Only room cleaning",
             "Optimizing physical layouts for efficiency and functionality",
-            "Only measuring square footage",
-            "Only furniture arrangement"
+            "Only measuring square footage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Space management strategically allocates and organizes physical space to support organizational goals and occupant needs."
         },
         {
@@ -110,23 +110,23 @@ Professional development through organizations like IFMA (International Facility
           question: "What are typical support services managed by facilities?",
           options: [
             "Only building repairs",
+            "Only landscaping",
             "Cleaning, security, mail, reprographics, and catering",
-            "Only HVAC operations",
-            "Only landscaping"
+            "Only HVAC operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Multiple support services contribute to comprehensive facility operations, whether provided in-house or through vendors."
         },
         {
           id: 6,
           question: "What does emergency preparedness ensure?",
           options: [
-            "Only fire extinguisher locations",
             "Response plans for fires, disasters, and security incidents",
-            "Only evacuation routes",
-            "Only first aid kits"
+            "Only first aid kits",
+            "Only fire extinguisher locations",
+            "Only evacuation routes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive emergency planning addresses multiple potential scenarios to protect people and property."
         },
         {
@@ -134,11 +134,11 @@ Professional development through organizations like IFMA (International Facility
           question: "What standards ensure facility accessibility?",
           options: [
             "Only building codes",
+            "Only electrical codes",
             "Accessibility standards for people with disabilities",
-            "Only fire codes",
-            "Only electrical codes"
+            "Only fire codes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Accessibility standards ensure facilities accommodate diverse needs, often going beyond basic building code requirements."
         },
         {
@@ -146,21 +146,21 @@ Professional development through organizations like IFMA (International Facility
           question: "What does ISO 41001 provide?",
           options: [
             "Only cleaning standards",
+            "Only maintenance schedules",
             "Framework for facilities management systems",
-            "Only safety procedures",
-            "Only maintenance schedules"
+            "Only safety procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ISO 41001 establishes international standards for facilities management systems, promoting best practices and consistency."
         },
         {
           id: 9,
           question: "What involves compliance monitoring?",
           options: [
-            "Only paying fines",
-            "Regular inspections, documentation, and corrective actions",
             "Only reading regulations",
-            "Only attending meetings"
+            "Regular inspections, documentation, and corrective actions",
+            "Only attending meetings",
+            "Only paying fines"
           ],
           correctAnswer: 1,
           explanation: "Active compliance management includes systematic checking, record-keeping, and addressing identified issues."
@@ -171,8 +171,8 @@ Professional development through organizations like IFMA (International Facility
           options: [
             "Only facility staff",
             "Occupants, management, owners, vendors, regulators",
-            "Only building inspectors",
-            "Only security personnel"
+            "Only security personnel",
+            "Only building inspectors"
           ],
           correctAnswer: 1,
           explanation: "Multiple stakeholder groups with varying interests require different management approaches and communication strategies."
@@ -181,118 +181,118 @@ Professional development through organizations like IFMA (International Facility
           id: 11,
           question: "What do building occupants typically want?",
           options: [
-            "Only low costs",
             "Responsive service and comfortable environments",
-            "Only new furniture",
-            "Only decorative elements"
+            "Only decorative elements",
+            "Only low costs",
+            "Only new furniture"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Occupant satisfaction depends on service responsiveness and environmental quality affecting their work or activities."
         },
         {
           id: 12,
           question: "What communication builds stakeholder trust?",
           options: [
-            "Only formal reports",
-            "Transparent communication and feedback mechanisms",
+            "Only verbal instructions",
             "Only email communication",
-            "Only verbal instructions"
+            "Only formal reports",
+            "Transparent communication and feedback mechanisms"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Open, honest communication and listening to concerns establish credibility and collaborative relationships."
         },
         {
           id: 13,
           question: "What does ethical facilities management require?",
           options: [
+            "Only cost savings",
             "Only following rules",
             "Honesty, integrity, fairness, and responsibility",
-            "Only cost savings",
             "Only speed of service"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ethical practice involves multiple principles guiding decisions, especially in complex or ambiguous situations."
         },
         {
           id: 14,
           question: "What may involve ethical dilemmas?",
           options: [
+            "Only cleaning schedules",
             "Only routine maintenance",
             "Contractor selection, budget allocations, regulatory interpretations",
-            "Only cleaning schedules",
             "Only temperature settings"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ethical challenges often arise in areas involving money, vendor relationships, and rule interpretation."
         },
         {
           id: 15,
           question: "What does facilities leadership involve?",
           options: [
+            "Only budget control",
             "Only giving orders",
             "Vision setting, team development, and change management",
-            "Only technical knowledge",
-            "Only budget control"
+            "Only technical knowledge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Leadership combines strategic direction, people development, and managing organizational change effectively."
         },
         {
           id: 16,
           question: "What do facilities leaders champion?",
           options: [
-            "Only traditional methods",
             "Sustainability initiatives and technological advancements",
-            "Only cost cutting",
-            "Only maintaining status quo"
+            "Only traditional methods",
+            "Only maintaining status quo",
+            "Only cost cutting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Progressive leaders advocate for environmental responsibility and innovation in facility operations."
         },
         {
           id: 17,
           question: "What enhances professional credibility?",
           options: [
-            "Only work experience",
-            "Professional development and certifications",
             "Only academic degrees",
-            "Only personal connections"
+            "Only personal connections",
+            "Professional development and certifications",
+            "Only work experience"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Continuous learning and recognized credentials demonstrate commitment to professional standards and knowledge."
         },
         {
           id: 18,
           question: "What does environmental stewardship address?",
           options: [
+            "Only landscaping",
             "Only cleaning products",
             "Sustainability and regulatory compliance",
-            "Only landscaping",
             "Only waste removal"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Environmental responsibility involves sustainable practices and meeting legal requirements for environmental protection."
         },
         {
           id: 19,
           question: "What is a facilities manager's role regarding vendors?",
           options: [
-            "Only paying invoices",
             "Overseeing quality regardless of delivery method",
+            "Only paying invoices",
             "Only selecting lowest bid",
             "Only managing contracts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Facilities managers ensure service quality whether provided by internal staff or external contractors."
         },
         {
           id: 20,
           question: "What provides valuable improvement insights?",
           options: [
-            "Only management directives",
+            "Only equipment manuals",
             "Listening to stakeholder concerns",
             "Only financial reports",
-            "Only equipment manuals"
+            "Only management directives"
           ],
           correctAnswer: 1,
           explanation: "Stakeholder feedback identifies service gaps and opportunities for operational improvements."
@@ -362,36 +362,36 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           id: 1,
           question: "What does HVAC management involve?",
           options: [
-            "Only temperature control",
-            "Temperature, humidity, air quality, and energy efficiency",
             "Only equipment repair",
-            "Only filter changes"
+            "Only filter changes",
+            "Only temperature control",
+            "Temperature, humidity, air quality, and energy efficiency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Comprehensive HVAC management addresses multiple environmental factors and operational efficiency."
         },
         {
           id: 2,
           question: "What indicates ventilation adequacy?",
           options: [
-            "Only air temperature",
-            "Carbon dioxide level monitoring",
             "Only humidity readings",
-            "Only air speed"
+            "Only air speed",
+            "Only air temperature",
+            "Carbon dioxide level monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CO2 levels directly correlate with fresh air ventilation rates and occupant comfort."
         },
         {
           id: 3,
           question: "What are key electrical system components?",
           options: [
-            "Only light switches",
             "Transformers, switchgear, distribution panels, circuit breakers",
             "Only outlets",
-            "Only wiring"
+            "Only wiring",
+            "Only light switches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multiple components work together to distribute electrical power safely and reliably."
         },
         {
@@ -399,23 +399,23 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           question: "What protects critical equipment during power outages?",
           options: [
             "Only surge protectors",
-            "Uninterruptible Power Supply (UPS) systems",
             "Only circuit breakers",
+            "Uninterruptible Power Supply (UPS) systems",
             "Only generators"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "UPS systems provide immediate battery backup during brief outages until generators start."
         },
         {
           id: 5,
           question: "What reduces wasted electrical energy?",
           options: [
-            "Only turning off lights",
             "Power factor correction",
+            "Only shorter hours",
             "Only using less equipment",
-            "Only shorter hours"
+            "Only turning off lights"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Power factor correction reduces reactive power that doesn't perform useful work but still consumes capacity."
         },
         {
@@ -423,57 +423,57 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           question: "What do water conservation measures achieve?",
           options: [
             "Only lower bills",
+            "Only system longevity",
             "Reduced consumption, costs, and sustainability support",
-            "Only regulatory compliance",
-            "Only system longevity"
+            "Only regulatory compliance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Water conservation provides financial, operational, and environmental benefits simultaneously."
         },
         {
           id: 7,
           question: "What requires specific temperature management?",
           options: [
-            "Only hot water supply",
             "Legionella prevention in water systems",
             "Only cold water lines",
+            "Only hot water supply",
             "Only irrigation water"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Legionella bacteria growth prevention requires careful temperature control in potable water systems."
         },
         {
           id: 8,
           question: "What do life safety systems protect during?",
           options: [
-            "Only normal operations",
-            "Emergency situations",
             "Only business hours",
-            "Only equipment failures"
+            "Only equipment failures",
+            "Emergency situations",
+            "Only normal operations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Life safety systems specifically address protection during fires, power failures, and other emergencies."
         },
         {
           id: 9,
           question: "What must remain clear at all times?",
           options: [
+            "Only loading docks",
             "Only storage rooms",
-            "Egress pathways for emergency exit",
             "Only equipment rooms",
-            "Only loading docks"
+            "Egress pathways for emergency exit"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Unobstructed exit paths are legally required and critical for safe evacuation during emergencies."
         },
         {
           id: 10,
           question: "What do security systems include?",
           options: [
-            "Only locks",
-            "Access control, surveillance cameras, intrusion detection",
             "Only security guards",
-            "Only alarm systems"
+            "Access control, surveillance cameras, intrusion detection",
+            "Only alarm systems",
+            "Only locks"
           ],
           correctAnswer: 1,
           explanation: "Modern security integrates multiple technologies for comprehensive protection."
@@ -482,10 +482,10 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           id: 11,
           question: "What do Building Automation Systems integrate?",
           options: [
-            "Only HVAC controls",
-            "Multiple systems through centralized computer platforms",
             "Only lighting controls",
-            "Only security systems"
+            "Multiple systems through centralized computer platforms",
+            "Only security systems",
+            "Only HVAC controls"
           ],
           correctAnswer: 1,
           explanation: "BAS provides unified control and monitoring of diverse building systems for operational efficiency."
@@ -494,12 +494,12 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           id: 12,
           question: "What do Energy Management Systems specialize in?",
           options: [
-            "Only billing",
-            "Monitoring and reducing energy consumption",
             "Only equipment repair",
-            "Only staff scheduling"
+            "Only staff scheduling",
+            "Only billing",
+            "Monitoring and reducing energy consumption"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "EMS focuses specifically on energy efficiency through monitoring, analysis, and automated control."
         },
         {
@@ -507,23 +507,23 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           question: "What does elevator maintenance ensure?",
           options: [
             "Only cleanliness",
-            "Reliability and safety compliance",
             "Only speed",
-            "Only appearance"
+            "Only appearance",
+            "Reliability and safety compliance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regular maintenance prevents breakdowns and ensures compliance with safety regulations."
         },
         {
           id: 14,
           question: "What prevents escalator accidents?",
           options: [
+            "Only handrail use",
             "Only warning signs",
-            "Proper maintenance and safety switch operation",
             "Only slow speed",
-            "Only handrail use"
+            "Proper maintenance and safety switch operation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regular maintenance and functioning safety devices prevent most escalator-related injuries."
         },
         {
@@ -531,32 +531,32 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           question: "What does building envelope integrity prevent?",
           options: [
             "Only appearance issues",
+            "Only dust accumulation",
             "Water intrusion, thermal transfer, structural problems",
-            "Only paint fading",
-            "Only dust accumulation"
+            "Only paint fading"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A intact envelope protects against multiple potential building performance issues."
         },
         {
           id: 16,
           question: "What does roof management involve?",
           options: [
-            "Only leak repair",
-            "Inspection, maintenance, and lifecycle planning",
+            "Only coating application",
             "Only cleaning",
-            "Only coating application"
+            "Only leak repair",
+            "Inspection, maintenance, and lifecycle planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Comprehensive roof management includes assessment, upkeep, and long-term replacement planning."
         },
         {
           id: 17,
           question: "What affects energy efficiency in windows?",
           options: [
-            "Only frame color",
-            "Glazing choices and sealing quality",
             "Only window size",
+            "Glazing choices and sealing quality",
+            "Only frame color",
             "Only operating mechanism"
           ],
           correctAnswer: 1,
@@ -566,10 +566,10 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           id: 18,
           question: "What provides operational data for optimization?",
           options: [
-            "Only equipment manuals",
-            "Building Automation System trend logging",
             "Only utility bills",
-            "Only occupant complaints"
+            "Building Automation System trend logging",
+            "Only occupant complaints",
+            "Only equipment manuals"
           ],
           correctAnswer: 1,
           explanation: "BAS data collection supports analysis of system performance and identification of improvement opportunities."
@@ -578,24 +578,24 @@ Window and wall systems affect energy efficiency and occupant comfort. Proper se
           id: 19,
           question: "What determines elevator system adequacy?",
           options: [
-            "Only age",
             "Traffic analysis for capacity needs",
             "Only cab size",
-            "Only speed rating"
+            "Only speed rating",
+            "Only age"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Traffic patterns and peak demands determine whether elevator capacity meets building needs."
         },
         {
           id: 20,
           question: "What often provides good return on investment?",
           options: [
-            "Only cosmetic upgrades",
-            "Building envelope improvements",
+            "Only signage updates",
             "Only decorative lighting",
-            "Only signage updates"
+            "Building envelope improvements",
+            "Only cosmetic upgrades"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Envelope upgrades typically reduce energy costs enough to justify investment through operational savings."
         }
       ]
@@ -679,8 +679,8 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           options: [
             "Fast, cheap, good",
             "Reactive, preventive, and predictive",
-            "Simple, complex, automated",
-            "Internal, external, hybrid"
+            "Internal, external, hybrid",
+            "Simple, complex, automated"
           ],
           correctAnswer: 1,
           explanation: "These philosophies represent different approaches to timing maintenance interventions."
@@ -689,10 +689,10 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           id: 2,
           question: "What characterizes reactive maintenance?",
           options: [
-            "Lowest cost approach",
+            "Best for critical equipment",
             "Highest emergency costs and operational disruptions",
             "Most efficient method",
-            "Best for critical equipment"
+            "Lowest cost approach"
           ],
           correctAnswer: 1,
           explanation: "Reactive maintenance incurs high costs from emergencies and business interruptions."
@@ -713,22 +713,22 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           id: 4,
           question: "What does effective maintenance program include?",
           options: [
-            "Only repair tools",
             "Asset inventory, criticality assessment, task definition, scheduling",
+            "Only technician training",
             "Only spare parts",
-            "Only technician training"
+            "Only repair tools"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systematic programs address multiple elements from inventory through scheduling."
         },
         {
           id: 5,
           question: "What does criticality assessment rank based on?",
           options: [
-            "Only equipment cost",
+            "Only repair difficulty",
             "Failure consequences on operations",
             "Only equipment age",
-            "Only repair difficulty"
+            "Only equipment cost"
           ],
           correctAnswer: 1,
           explanation: "Criticality focuses on operational impact rather than just equipment characteristics."
@@ -737,12 +737,12 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           id: 6,
           question: "What do CMMS functions include?",
           options: [
-            "Only time tracking",
             "Work order management, inventory control, preventive scheduling, reporting",
             "Only payroll processing",
-            "Only email communication"
+            "Only email communication",
+            "Only time tracking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive CMMS manages multiple aspects of maintenance operations digitally."
         },
         {
@@ -750,11 +750,11 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           question: "What does digital work order system improve?",
           options: [
             "Only communication speed",
+            "Only staff morale",
             "Efficiency and record-keeping",
-            "Only equipment performance",
-            "Only staff morale"
+            "Only equipment performance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital systems streamline processes and provide better historical data than paper systems."
         },
         {
@@ -773,22 +773,22 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           id: 9,
           question: "What does FMEA evaluate?",
           options: [
-            "Only equipment cost",
-            "Severity, occurrence probability, and detection of failure modes",
             "Only repair times",
-            "Only spare part availability"
+            "Only spare part availability",
+            "Only equipment cost",
+            "Severity, occurrence probability, and detection of failure modes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "FMEA systematically assesses potential failure points to prioritize preventive efforts."
         },
         {
           id: 10,
           question: "What do maintenance delivery decisions balance?",
           options: [
-            "Only costs",
-            "Control, cost, expertise, and risk",
             "Only convenience",
-            "Only staff preferences"
+            "Control, cost, expertise, and risk",
+            "Only staff preferences",
+            "Only costs"
           ],
           correctAnswer: 1,
           explanation: "Multiple factors influence whether maintenance should be performed in-house or outsourced."
@@ -797,84 +797,84 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           id: 11,
           question: "What defines expectations for outsourced services?",
           options: [
-            "Only purchase orders",
-            "Service Level Agreements (SLAs)",
             "Only verbal agreements",
-            "Only price quotes"
+            "Only purchase orders",
+            "Only price quotes",
+            "Service Level Agreements (SLAs)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "SLAs formally specify service standards, response times, and performance metrics."
         },
         {
           id: 12,
           question: "What does maintenance budgeting include?",
           options: [
-            "Only labor costs",
-            "Labor, materials, contracts, and capital improvements",
             "Only utility costs",
-            "Only equipment purchases"
+            "Only equipment purchases",
+            "Only labor costs",
+            "Labor, materials, contracts, and capital improvements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Comprehensive budgets address all cost categories associated with maintenance operations."
         },
         {
           id: 13,
           question: "What evaluates total ownership costs?",
           options: [
-            "Only purchase price",
-            "Lifecycle costing",
+            "Only energy costs",
             "Only maintenance costs",
-            "Only energy costs"
+            "Lifecycle costing",
+            "Only purchase price"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Lifecycle costing considers acquisition, operation, maintenance, and disposal expenses."
         },
         {
           id: 14,
           question: "What measures preventive maintenance compliance?",
           options: [
-            "Only equipment uptime",
             "Scheduled task completion percentage",
             "Only repair costs",
+            "Only equipment uptime",
             "Only staff hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Compliance KPI tracks how well scheduled preventive tasks are actually completed."
         },
         {
           id: 15,
           question: "What does benchmarking identify?",
           options: [
-            "Only problems",
             "Improvement opportunities through comparison",
+            "Only problems",
             "Only best employees",
             "Only equipment failures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comparing performance to standards or peers reveals areas for potential improvement."
         },
         {
           id: 16,
           question: "What prevents accidental equipment startup?",
           options: [
-            "Only warning signs",
-            "Lockout/tagout procedures",
             "Only supervision",
-            "Only equipment design"
+            "Only equipment design",
+            "Lockout/tagout procedures",
+            "Only warning signs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Lockout/tagout physically prevents energy release during maintenance for technician safety."
         },
         {
           id: 17,
           question: "What do confined space procedures address?",
           options: [
-            "Only entry methods",
             "Entry permits, atmospheric testing, rescue plans",
             "Only lighting requirements",
-            "Only cleaning methods"
+            "Only cleaning methods",
+            "Only entry methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Comprehensive confined space protocols address multiple safety aspects for hazardous environments."
         },
         {
@@ -882,23 +882,23 @@ Resource efficiency minimizes consumption of energy, water, and materials. Waste
           question: "What does sustainable maintenance reduce?",
           options: [
             "Only costs",
-            "Environmental impact while controlling costs",
+            "Only water use",
             "Only energy use",
-            "Only water use"
+            "Environmental impact while controlling costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sustainability initiatives often achieve both environmental and financial benefits."
         },
         {
           id: 19,
           question: "What does green purchasing consider?",
           options: [
+            "Only brand reputation",
             "Only price",
             "Environmental attributes when selecting products",
-            "Only availability",
-            "Only brand reputation"
+            "Only availability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Environmental product characteristics influence purchasing decisions in sustainable operations."
         },
         {
@@ -992,94 +992,94 @@ Universal design principles create spaces usable by people with diverse abilitie
           id: 1,
           question: "What are key space planning principles?",
           options: [
+            "Only aesthetic appeal",
             "Only cost minimization",
             "Functionality, flexibility, efficiency, and comfort",
-            "Only aesthetic appeal",
             "Only traditional layouts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "These principles balance multiple objectives to create effective work environments."
         },
         {
           id: 2,
           question: "What ensures spaces support intended activities?",
           options: [
+            "Only modern furniture",
             "Only beautiful design",
-            "Functionality principle",
             "Only large size",
-            "Only modern furniture"
+            "Functionality principle"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Functionality focuses on how well physical space enables work processes and activities."
         },
         {
           id: 3,
           question: "What does activity-based working provide?",
           options: [
+            "Only open areas",
             "Only assigned desks",
-            "Varied settings for different tasks",
             "Only private offices",
-            "Only open areas"
+            "Varied settings for different tasks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Activity-based design offers different space types suited to specific work activities."
         },
         {
           id: 4,
           question: "What reserves workspaces as needed?",
           options: [
-            "Traditional assignment",
             "Hoteling strategy",
+            "Traditional assignment",
             "Only first-come basis",
             "Only management allocation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Hoteling allows employees to reserve workspace when needed rather than having permanent assignments."
         },
         {
           id: 5,
           question: "What do hybrid work models influence?",
           options: [
-            "Only remote work",
-            "Space needs and utilization patterns",
+            "Only commuting patterns",
             "Only technology requirements",
-            "Only commuting patterns"
+            "Only remote work",
+            "Space needs and utilization patterns"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Hybrid work reduces permanent desk needs while increasing demand for collaboration spaces."
         },
         {
           id: 6,
           question: "What do space utilization studies measure?",
           options: [
-            "Only square footage",
-            "How effectively areas are used",
             "Only furniture counts",
-            "Only energy consumption"
+            "Only square footage",
+            "Only energy consumption",
+            "How effectively areas are used"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Utilization analysis evaluates actual usage compared to capacity to identify efficiency opportunities."
         },
         {
           id: 7,
           question: "What indicates space inefficiency?",
           options: [
-            "High utilization rates",
-            "Utilization rates below 60%",
             "Equal male/female ratio",
-            "Modern furniture"
+            "Modern furniture",
+            "Utilization rates below 60%",
+            "High utilization rates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Low utilization suggests space is frequently unoccupied, representing potential waste."
         },
         {
           id: 8,
           question: "What does peak utilization inform?",
           options: [
-            "Only cleaning schedules",
+            "Only paint colors",
             "Capacity planning decisions",
-            "Only furniture purchases",
-            "Only paint colors"
+            "Only cleaning schedules",
+            "Only furniture purchases"
           ],
           correctAnswer: 1,
           explanation: "Maximum simultaneous usage determines whether space capacity meets demand at busiest times."
@@ -1088,10 +1088,10 @@ Universal design principles create spaces usable by people with diverse abilitie
           id: 9,
           question: "What does ergonomic furniture reduce?",
           options: [
-            "Only costs",
+            "Only aesthetic appeal",
             "Injury risk and improves comfort",
             "Only space requirements",
-            "Only aesthetic appeal"
+            "Only costs"
           ],
           correctAnswer: 1,
           explanation: "Proper ergonomic design minimizes physical strain and supports long-term health."
@@ -1100,21 +1100,21 @@ Universal design principles create spaces usable by people with diverse abilitie
           id: 10,
           question: "What facilitates furniture reconfiguration?",
           options: [
-            "Only heavy furniture",
-            "Modular furniture systems",
+            "Only antique furniture",
             "Only custom pieces",
-            "Only antique furniture"
+            "Only heavy furniture",
+            "Modular furniture systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Modular components can be rearranged easily to accommodate changing space needs."
         },
         {
           id: 11,
           question: "What does move management coordinate?",
           options: [
-            "Only furniture delivery",
-            "Physical relocations of people, furniture, and equipment",
             "Only employee schedules",
+            "Physical relocations of people, furniture, and equipment",
+            "Only furniture delivery",
             "Only building access"
           ],
           correctAnswer: 1,
@@ -1124,9 +1124,9 @@ Universal design principles create spaces usable by people with diverse abilitie
           id: 12,
           question: "What measures workspace change frequency?",
           options: [
-            "Only move costs",
-            "Churn rate",
             "Only employee satisfaction",
+            "Churn rate",
+            "Only move costs",
             "Only square footage"
           ],
           correctAnswer: 1,
@@ -1136,10 +1136,10 @@ Universal design principles create spaces usable by people with diverse abilitie
           id: 13,
           question: "What reduces anxiety during relocations?",
           options: [
-            "Only speed",
+            "Only after-the-fact notices",
             "Effective communication about changes",
-            "Only ignoring concerns",
-            "Only after-the-fact notices"
+            "Only speed",
+            "Only ignoring concerns"
           ],
           correctAnswer: 1,
           explanation: "Clear, timely communication helps employees understand and accept workspace changes."
@@ -1148,12 +1148,12 @@ Universal design principles create spaces usable by people with diverse abilitie
           id: 14,
           question: "What does daylighting provide?",
           options: [
+            "Only glare problems",
             "Only energy savings",
-            "Reduced artificial lighting and psychological benefits",
             "Only heat gain",
-            "Only glare problems"
+            "Reduced artificial lighting and psychological benefits"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Natural light reduces energy use while potentially improving mood and productivity."
         },
         {
@@ -1161,21 +1161,21 @@ Universal design principles create spaces usable by people with diverse abilitie
           question: "What balances space reduction with comfort?",
           options: [
             "Only smaller furniture",
-            "Density optimization",
             "Only eliminating amenities",
+            "Density optimization",
             "Only shorter hours"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Finding the right balance between space efficiency and occupant comfort is density optimization."
         },
         {
           id: 16,
           question: "What do workplace sensors monitor?",
           options: [
-            "Only temperature",
+            "Only employee movements",
             "Occupancy, environmental conditions, utilization",
-            "Only noise levels",
-            "Only employee movements"
+            "Only temperature",
+            "Only noise levels"
           ],
           correctAnswer: 1,
           explanation: "Modern sensors collect diverse data to inform space management decisions."
@@ -1184,48 +1184,48 @@ Universal design principles create spaces usable by people with diverse abilitie
           id: 17,
           question: "What streamlines shared space scheduling?",
           options: [
-            "Only paper sign-up sheets",
             "Room booking systems integrated with calendars",
             "Only verbal reservations",
-            "Only first-come use"
+            "Only first-come use",
+            "Only paper sign-up sheets"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Integrated systems make finding and reserving spaces more efficient and reliable."
         },
         {
           id: 18,
           question: "What balances amenity cost with satisfaction?",
           options: [
-            "Only eliminating amenities",
-            "Strategic provision based on value",
             "Only expensive amenities",
-            "Only basic amenities"
+            "Only eliminating amenities",
+            "Only basic amenities",
+            "Strategic provision based on value"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Thoughtful amenity selection considers both cost impact and employee value perception."
         },
         {
           id: 19,
           question: "What must space planning address?",
           options: [
-            "Only management preferences",
             "Accessibility requirements for people with disabilities",
+            "Only management preferences",
             "Only current staff needs",
             "Only aesthetic trends"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Legal requirements mandate accessible design to accommodate diverse abilities."
         },
         {
           id: 20,
           question: "What benefits all occupants, not just those with disabilities?",
           options: [
+            "Only wheelchair ramps",
             "Only specialized equipment",
             "Universal design principles",
-            "Only accessible parking",
-            "Only wheelchair ramps"
+            "Only accessible parking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Universal design creates spaces more usable and comfortable for everyone."
         }
       ]
@@ -1308,21 +1308,21 @@ Public-private partnerships involve collaboration between public entities and pr
           question: "What do operating budgets cover?",
           options: [
             "Only equipment purchases",
+            "Only employee bonuses",
             "Recurring expenses like utilities and routine maintenance",
-            "Only building construction",
-            "Only employee bonuses"
+            "Only building construction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Operating budgets address day-to-day expenses necessary for facility operations."
         },
         {
           id: 2,
           question: "What justifies every expense anew each period?",
           options: [
-            "Incremental budgeting",
+            "Historical budgeting",
             "Zero-based budgeting approach",
-            "Traditional budgeting",
-            "Historical budgeting"
+            "Incremental budgeting",
+            "Traditional budgeting"
           ],
           correctAnswer: 1,
           explanation: "Zero-based budgeting requires justification of all expenses rather than adjusting previous budgets."
@@ -1332,11 +1332,11 @@ Public-private partnerships involve collaboration between public entities and pr
           question: "What are budget components?",
           options: [
             "Only salary costs",
-            "Personnel, contracts, materials, utilities, capital expenditures",
             "Only utility bills",
-            "Only maintenance supplies"
+            "Only maintenance supplies",
+            "Personnel, contracts, materials, utilities, capital expenditures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Comprehensive budgets include all major cost categories associated with facilities."
         },
         {
@@ -1344,33 +1344,33 @@ Public-private partnerships involve collaboration between public entities and pr
           question: "What costs change with activity levels?",
           options: [
             "Fixed costs",
-            "Variable costs",
             "Sunk costs",
-            "Capital costs"
+            "Capital costs",
+            "Variable costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Variable costs fluctuate based on usage, such as electricity for lighting and equipment."
         },
         {
           id: 5,
           question: "What allocates indirect costs based on usage drivers?",
           options: [
+            "Direct costing",
             "Traditional costing",
             "Activity-based costing",
-            "Direct costing",
             "Standard costing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Activity-based costing provides more accurate cost allocation by linking expenses to activities that drive them."
         },
         {
           id: 6,
           question: "What does capital planning address?",
           options: [
-            "Only daily operations",
-            "Major investments in facilities",
             "Only maintenance schedules",
-            "Only utility payments"
+            "Major investments in facilities",
+            "Only utility payments",
+            "Only daily operations"
           ],
           correctAnswer: 1,
           explanation: "Capital planning focuses on significant, long-term investments rather than routine expenses."
@@ -1379,82 +1379,82 @@ Public-private partnerships involve collaboration between public entities and pr
           id: 7,
           question: "What evaluates total cost of ownership?",
           options: [
-            "Only purchase price",
             "Lifecycle costing analysis",
-            "Only maintenance costs",
-            "Only disposal costs"
+            "Only purchase price",
+            "Only disposal costs",
+            "Only maintenance costs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Lifecycle costing considers all expenses from acquisition through disposal for comprehensive evaluation."
         },
         {
           id: 8,
           question: "What calculates financial benefits relative to costs?",
           options: [
-            "Only cost tracking",
-            "Return on Investment (ROI) analysis",
+            "Only expense recording",
             "Only budget comparison",
-            "Only expense recording"
+            "Only cost tracking",
+            "Return on Investment (ROI) analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ROI quantifies financial return relative to investment amount to evaluate project viability."
         },
         {
           id: 9,
           question: "What identifies high utility use areas?",
           options: [
-            "Only utility bills",
-            "Submetering installation",
             "Only visual inspection",
-            "Only occupant complaints"
+            "Only occupant complaints",
+            "Only utility bills",
+            "Submetering installation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Submetering provides detailed consumption data for specific areas or systems."
         },
         {
           id: 10,
           question: "What defines contractor expectations and penalties?",
           options: [
+            "Only verbal agreements",
             "Only purchase orders",
             "Service Level Agreements (SLAs)",
-            "Only verbal agreements",
             "Only email communications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SLAs formally specify performance standards and consequences for non-compliance."
         },
         {
           id: 11,
           question: "What explains budget vs. actual differences?",
           options: [
-            "Only budget reports",
             "Variance analysis",
-            "Only financial statements",
-            "Only expense receipts"
+            "Only expense receipts",
+            "Only budget reports",
+            "Only financial statements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Variance analysis identifies and explains reasons for deviations from planned budgets."
         },
         {
           id: 12,
           question: "What measures cost per square foot?",
           options: [
-            "Only space measurement",
-            "Key Performance Indicator (KPI)",
             "Only accounting system",
-            "Only budget document"
+            "Only budget document",
+            "Key Performance Indicator (KPI)",
+            "Only space measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cost per square foot is a common facilities KPI for benchmarking and performance measurement."
         },
         {
           id: 13,
           question: "What ensures ethical acquisition of goods/services?",
           options: [
-            "Only price shopping",
+            "Only quick purchases",
             "Formal procurement processes",
-            "Only personal relationships",
-            "Only quick purchases"
+            "Only price shopping",
+            "Only personal relationships"
           ],
           correctAnswer: 1,
           explanation: "Structured procurement ensures fairness, transparency, and value in purchasing decisions."
@@ -1463,21 +1463,21 @@ Public-private partnerships involve collaboration between public entities and pr
           id: 14,
           question: "What ties contractor compensation to results?",
           options: [
-            "Fixed-price contracts",
             "Performance-based contracts",
+            "Fixed-price contracts",
             "Cost-plus contracts",
             "Time-and-materials contracts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Performance-based contracts align contractor incentives with desired outcomes."
         },
         {
           id: 15,
           question: "What tracks contractor achievement against requirements?",
           options: [
-            "Only payment processing",
-            "Performance measurement systems",
             "Only contract signing",
+            "Performance measurement systems",
+            "Only payment processing",
             "Only initial evaluation"
           ],
           correctAnswer: 1,
@@ -1487,60 +1487,60 @@ Public-private partnerships involve collaboration between public entities and pr
           id: 16,
           question: "What may increase property value?",
           options: [
-            "Only cosmetic upgrades",
-            "Green building certification",
             "Only new furniture",
-            "Only paint colors"
+            "Only paint colors",
+            "Green building certification",
+            "Only cosmetic upgrades"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Certifications like LEED can enhance property marketability and perceived value."
         },
         {
           id: 17,
           question: "What considers all cost categories for sustainable options?",
           options: [
-            "Only purchase price",
             "Total Cost of Ownership (TCO) analysis",
+            "Only maintenance cost",
             "Only installation cost",
-            "Only maintenance cost"
+            "Only purchase price"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "TCO provides comprehensive evaluation of sustainable investments over their lifespan."
         },
         {
           id: 18,
           question: "What transfers certain risks to third parties?",
           options: [
-            "Only risk avoidance",
             "Insurance coverage",
+            "Only risk retention",
             "Only self-insurance",
-            "Only risk retention"
+            "Only risk avoidance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Insurance policies transfer financial risk from the facility to insurance companies."
         },
         {
           id: 19,
           question: "What may reduce insurance premiums?",
           options: [
+            "Only fewer assets",
             "Only frequent claims",
             "Effective loss prevention programs",
-            "Only higher deductibles",
-            "Only fewer assets"
+            "Only higher deductibles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Demonstrating risk reduction through safety measures can lead to lower insurance costs."
         },
         {
           id: 20,
           question: "What spreads payments over time for equipment?",
           options: [
-            "Only cash purchase",
             "Leasing arrangements",
-            "Only loans",
-            "Only bonds"
+            "Only cash purchase",
+            "Only bonds",
+            "Only loans"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Leasing provides use of equipment with regular payments rather than large upfront purchase."
         }
       ]
@@ -1624,12 +1624,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           id: 1,
           question: "What aligns physical assets with organizational goals?",
           options: [
+            "Only budget management",
             "Only daily operations",
-            "Strategic facilities planning",
             "Only maintenance schedules",
-            "Only budget management"
+            "Strategic facilities planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strategic planning ensures facilities support and enable organizational mission achievement."
         },
         {
@@ -1660,10 +1660,10 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           id: 4,
           question: "What minimizes disruption during organizational changes?",
           options: [
-            "Only ignoring changes",
+            "Only quick implementation",
             "Effective change management",
-            "Only maintaining status quo",
-            "Only quick implementation"
+            "Only ignoring changes",
+            "Only maintaining status quo"
           ],
           correctAnswer: 1,
           explanation: "Structured change management addresses human and operational aspects to smooth transitions."
@@ -1672,24 +1672,24 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           id: 5,
           question: "What involves preparing, managing transition, and reinforcing?",
           options: [
+            "Only staff scheduling",
             "Only project management",
-            "Change management framework",
             "Only budget planning",
-            "Only staff scheduling"
+            "Change management framework"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "This three-phase approach addresses change from preparation through sustained implementation."
         },
         {
           id: 6,
           question: "What addresses natural resistance to change?",
           options: [
-            "Only ignoring concerns",
-            "Listening, explaining, involving, supporting",
             "Only mandating compliance",
-            "Only threatening consequences"
+            "Only threatening consequences",
+            "Only ignoring concerns",
+            "Listening, explaining, involving, supporting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Addressing resistance requires understanding concerns and involving stakeholders in solutions."
         },
         {
@@ -1697,11 +1697,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           question: "What provides clear performance direction?",
           options: [
             "Only general statements",
+            "Only written policies",
             "SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound)",
-            "Only verbal instructions",
-            "Only written policies"
+            "Only verbal instructions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "SMART criteria ensure goals are well-defined and actionable for team members."
         },
         {
@@ -1709,11 +1709,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           question: "What transforms facilities with connected sensors?",
           options: [
             "Only manual processes",
+            "Only verbal communication",
             "Internet of Things (IoT) technology",
-            "Only paper records",
-            "Only verbal communication"
+            "Only paper records"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "IoT connects physical devices to collect data and enable automated responses."
         },
         {
@@ -1721,11 +1721,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           question: "What validates technology before full deployment?",
           options: [
             "Only vendor promises",
-            "Pilot testing in controlled environments",
+            "Only competitor copying",
             "Only theoretical analysis",
-            "Only competitor copying"
+            "Pilot testing in controlled environments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pilots provide real-world testing to identify issues and validate benefits before major investment."
         },
         {
@@ -1733,11 +1733,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           question: "What creates virtual facility replicas?",
           options: [
             "Only floor plans",
+            "Only written descriptions",
             "Digital twins for simulation",
-            "Only photographs",
-            "Only written descriptions"
+            "Only photographs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital twins enable testing scenarios and optimizing performance without disrupting actual operations."
         },
         {
@@ -1745,21 +1745,21 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           question: "What involves setting and implementing environmental goals?",
           options: [
             "Only regulatory compliance",
-            "Sustainability leadership",
             "Only cost reduction",
-            "Only energy purchasing"
+            "Only energy purchasing",
+            "Sustainability leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sustainability leadership actively pursues environmental improvement beyond minimum requirements."
         },
         {
           id: 12,
           question: "What represents minimum environmental standards?",
           options: [
-            "Sustainability excellence",
+            "Voluntary programs",
             "Regulatory compliance requirements",
-            "Industry best practices",
-            "Voluntary programs"
+            "Sustainability excellence",
+            "Industry best practices"
           ],
           correctAnswer: 1,
           explanation: "Compliance meets legal minimums; leadership strives for higher environmental performance."
@@ -1768,58 +1768,58 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           id: 13,
           question: "What ensures operations continue during disruptions?",
           options: [
-            "Only emergency response",
-            "Business continuity planning",
+            "Only backup generators",
             "Only insurance coverage",
-            "Only backup generators"
+            "Only emergency response",
+            "Business continuity planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Business continuity addresses maintaining critical functions during various disruption scenarios."
         },
         {
           id: 14,
           question: "What identifies lessons from crisis responses?",
           options: [
-            "Only immediate cleanup",
             "Post-crisis evaluation and debriefing",
+            "Only immediate cleanup",
             "Only blame assignment",
             "Only moving forward"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systematic evaluation captures insights to improve future emergency response capabilities."
         },
         {
           id: 15,
           question: "What do executive relationships require demonstrating?",
           options: [
-            "Only technical details",
-            "Facilities value in business terms",
+            "Only problem avoidance",
             "Only cost savings",
-            "Only problem avoidance"
+            "Facilities value in business terms",
+            "Only technical details"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Executives need to understand how facilities contribute to organizational objectives and outcomes."
         },
         {
           id: 16,
           question: "What demonstrates professional commitment?",
           options: [
-            "Only work experience",
             "IFMA credentials (FMP, SFP, CFM)",
-            "Only academic degrees",
-            "Only personal connections"
+            "Only work experience",
+            "Only personal connections",
+            "Only academic degrees"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Professional certifications validate knowledge and commitment to facilities management standards."
         },
         {
           id: 17,
           question: "What develops next-generation professionals?",
           options: [
-            "Only formal training",
-            "Mentoring relationships",
             "Only independent study",
-            "Only job rotation"
+            "Mentoring relationships",
+            "Only job rotation",
+            "Only formal training"
           ],
           correctAnswer: 1,
           explanation: "Mentoring transfers experience and wisdom from seasoned professionals to developing talent."
@@ -1828,36 +1828,36 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
           id: 18,
           question: "What becomes increasingly important in workplace design?",
           options: [
-            "Only traditional layouts",
             "Flexibility for diverse work styles",
-            "Only uniform spaces",
-            "Only permanent assignments"
+            "Only traditional layouts",
+            "Only permanent assignments",
+            "Only uniform spaces"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Changing work patterns require spaces that can adapt to different uses and occupancy levels."
         },
         {
           id: 19,
           question: "What transforms facilities from reactive to predictive?",
           options: [
-            "Only experience",
-            "Data analytics capabilities",
+            "Only traditional methods",
             "Only intuition",
-            "Only traditional methods"
+            "Only experience",
+            "Data analytics capabilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Data analysis enables anticipating needs and problems before they become critical issues."
         },
         {
           id: 20,
           question: "What addresses climate change impacts on facilities?",
           options: [
-            "Only ignoring changes",
-            "Resilience planning and sustainable practices",
+            "Only insurance claims",
             "Only reactive repairs",
-            "Only insurance claims"
+            "Resilience planning and sustainable practices",
+            "Only ignoring changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Proactive planning and sustainable operations prepare facilities for climate-related challenges."
         }
       ]
@@ -1872,8 +1872,8 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       options: [
         "Budget, schedule, quality",
         "People, place, and process",
-        "Operations, maintenance, security",
-        "Buildings, equipment, staff"
+        "Buildings, equipment, staff",
+        "Operations, maintenance, security"
       ],
       correctAnswer: 1,
       explanation: "From Module 1: Comprehensive facilities management integrates people needs, physical environment, and work processes.",
@@ -1883,9 +1883,9 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 2,
       question: "What does facilities management directly impact?",
       options: [
-        "Only building appearance",
-        "Organizational performance through cost control and productivity",
         "Only vendor relationships",
+        "Organizational performance through cost control and productivity",
+        "Only building appearance",
         "Only regulatory compliance"
       ],
       correctAnswer: 1,
@@ -1896,12 +1896,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 3,
       question: "What does HVAC management involve?",
       options: [
-        "Only temperature control",
-        "Temperature, humidity, air quality, and energy efficiency",
         "Only equipment repair",
-        "Only filter changes"
+        "Only filter changes",
+        "Temperature, humidity, air quality, and energy efficiency",
+        "Only temperature control"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Comprehensive HVAC management addresses multiple environmental and efficiency factors.",
       module: 2
     },
@@ -1909,12 +1909,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 4,
       question: "What indicates ventilation adequacy?",
       options: [
-        "Only air temperature",
-        "Carbon dioxide level monitoring",
         "Only humidity readings",
-        "Only air speed"
+        "Only air temperature",
+        "Only air speed",
+        "Carbon dioxide level monitoring"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 2: CO2 levels correlate with fresh air ventilation rates affecting occupant comfort and health.",
       module: 2
     },
@@ -1922,12 +1922,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 5,
       question: "What are the three maintenance philosophies?",
       options: [
+        "Internal, external, hybrid",
         "Fast, cheap, good",
-        "Reactive, preventive, and predictive",
         "Simple, complex, automated",
-        "Internal, external, hybrid"
+        "Reactive, preventive, and predictive"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: Different approaches to timing maintenance interventions based on different strategies.",
       module: 3
     },
@@ -1935,12 +1935,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 6,
       question: "What uses condition monitoring to determine needs?",
       options: [
+        "Corrective maintenance",
         "Reactive maintenance",
-        "Predictive maintenance approach",
         "Preventive maintenance",
-        "Corrective maintenance"
+        "Predictive maintenance approach"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: Predictive maintenance monitors actual equipment condition rather than using time-based schedules.",
       module: 3
     },
@@ -1948,12 +1948,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 7,
       question: "What are key space planning principles?",
       options: [
-        "Only cost minimization",
-        "Functionality, flexibility, efficiency, and comfort",
+        "Only traditional layouts",
         "Only aesthetic appeal",
-        "Only traditional layouts"
+        "Functionality, flexibility, efficiency, and comfort",
+        "Only cost minimization"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: These principles balance multiple objectives to create effective work environments.",
       module: 4
     },
@@ -1961,12 +1961,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 8,
       question: "What provides varied settings for different tasks?",
       options: [
-        "Only assigned desks",
-        "Activity-based working strategy",
         "Only private offices",
-        "Only open areas"
+        "Only open areas",
+        "Activity-based working strategy",
+        "Only assigned desks"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: Activity-based design offers different space types suited to specific work activities.",
       module: 4
     },
@@ -1974,9 +1974,9 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 9,
       question: "What justifies every expense anew each period?",
       options: [
-        "Incremental budgeting",
-        "Zero-based budgeting approach",
         "Traditional budgeting",
+        "Zero-based budgeting approach",
+        "Incremental budgeting",
         "Historical budgeting"
       ],
       correctAnswer: 1,
@@ -1987,12 +1987,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 10,
       question: "What evaluates total cost of ownership?",
       options: [
-        "Only purchase price",
         "Lifecycle costing analysis",
         "Only maintenance costs",
+        "Only purchase price",
         "Only disposal costs"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Lifecycle costing considers all expenses from acquisition through disposal.",
       module: 5
     },
@@ -2000,12 +2000,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 11,
       question: "What aligns physical assets with organizational goals?",
       options: [
+        "Only budget management",
         "Only daily operations",
         "Strategic facilities planning",
-        "Only maintenance schedules",
-        "Only budget management"
+        "Only maintenance schedules"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Strategic planning ensures facilities support organizational mission achievement.",
       module: 6
     },
@@ -2013,12 +2013,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 12,
       question: "What minimizes disruption during changes?",
       options: [
-        "Only ignoring changes",
-        "Effective change management",
         "Only maintaining status quo",
-        "Only quick implementation"
+        "Only ignoring changes",
+        "Only quick implementation",
+        "Effective change management"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 6: Structured change management addresses human and operational transition aspects.",
       module: 6
     },
@@ -2026,12 +2026,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 13,
       question: "What are primary facilities functions?",
       options: [
-        "Only cleaning",
-        "Operations, maintenance, space management, emergency preparedness",
         "Only security",
-        "Only landscaping"
+        "Only landscaping",
+        "Operations, maintenance, space management, emergency preparedness",
+        "Only cleaning"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 1: Comprehensive facilities management includes multiple interrelated functions.",
       module: 1
     },
@@ -2039,12 +2039,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 14,
       question: "What do Building Automation Systems integrate?",
       options: [
+        "Only lighting controls",
         "Only HVAC controls",
         "Multiple systems through centralized platforms",
-        "Only lighting controls",
         "Only security systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: BAS provides unified control and monitoring of diverse building systems.",
       module: 2
     },
@@ -2053,11 +2053,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       question: "What does CMMS automate?",
       options: [
         "Only time tracking",
-        "Work order management, inventory control, scheduling, reporting",
         "Only payroll processing",
-        "Only email communication"
+        "Only email communication",
+        "Work order management, inventory control, scheduling, reporting"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: CMMS manages multiple aspects of maintenance operations digitally.",
       module: 3
     },
@@ -2066,11 +2066,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       question: "What measures space effectiveness?",
       options: [
         "Only square footage",
-        "Utilization studies and analysis",
         "Only furniture counts",
+        "Utilization studies and analysis",
         "Only energy consumption"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: Utilization analysis evaluates actual usage compared to capacity.",
       module: 4
     },
@@ -2080,8 +2080,8 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       options: [
         "Only purchase orders",
         "Service Level Agreements (SLAs)",
-        "Only verbal agreements",
-        "Only email communications"
+        "Only email communications",
+        "Only verbal agreements"
       ],
       correctAnswer: 1,
       explanation: "From Module 5: SLAs formally specify performance standards and consequences.",
@@ -2091,12 +2091,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 18,
       question: "What provides clear performance direction?",
       options: [
-        "Only general statements",
         "SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound)",
+        "Only written policies",
         "Only verbal instructions",
-        "Only written policies"
+        "Only general statements"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: SMART criteria ensure goals are well-defined and actionable.",
       module: 6
     },
@@ -2105,11 +2105,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       question: "What must space planning address legally?",
       options: [
         "Only management preferences",
-        "Accessibility requirements for disabilities",
         "Only current staff needs",
+        "Accessibility requirements for disabilities",
         "Only aesthetic trends"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: Legal requirements mandate accessible design for diverse abilities.",
       module: 4
     },
@@ -2130,12 +2130,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 21,
       question: "What focuses on maintaining system function?",
       options: [
+        "Only corrective actions",
         "Only component repair",
         "Reliability-Centered Maintenance (RCM)",
-        "Only preventive scheduling",
-        "Only corrective actions"
+        "Only preventive scheduling"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 3: RCM emphasizes preserving operational capability rather than just component condition.",
       module: 3
     },
@@ -2143,12 +2143,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 22,
       question: "What reserves workspaces as needed?",
       options: [
+        "Only management allocation",
         "Traditional assignment",
-        "Hoteling strategy",
         "Only first-come basis",
-        "Only management allocation"
+        "Hoteling strategy"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 4: Hoteling allows reservation of workspace rather than permanent assignment.",
       module: 4
     },
@@ -2156,10 +2156,10 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 23,
       question: "What calculates financial benefits relative to costs?",
       options: [
-        "Only cost tracking",
-        "Return on Investment (ROI) analysis",
         "Only budget comparison",
-        "Only expense recording"
+        "Return on Investment (ROI) analysis",
+        "Only expense recording",
+        "Only cost tracking"
       ],
       correctAnswer: 1,
       explanation: "From Module 5: ROI quantifies financial return relative to investment amount.",
@@ -2169,12 +2169,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 24,
       question: "What transforms facilities with connected sensors?",
       options: [
-        "Only manual processes",
-        "Internet of Things (IoT) technology",
         "Only paper records",
-        "Only verbal communication"
+        "Only verbal communication",
+        "Internet of Things (IoT) technology",
+        "Only manual processes"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: IoT connects physical devices to collect data and enable automation.",
       module: 6
     },
@@ -2182,12 +2182,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 25,
       question: "What involves ethical dilemmas?",
       options: [
-        "Only routine decisions",
         "Contractor selection, budget allocations, regulatory interpretations",
+        "Only temperature settings",
         "Only cleaning schedules",
-        "Only temperature settings"
+        "Only routine decisions"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 1: Ethical challenges often arise in areas involving money and vendor relationships.",
       module: 1
     },
@@ -2196,11 +2196,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       question: "What prevents accidental equipment startup?",
       options: [
         "Only warning signs",
-        "Lockout/tagout procedures",
         "Only supervision",
-        "Only equipment design"
+        "Only equipment design",
+        "Lockout/tagout procedures"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 3: Lockout/tagout physically prevents energy release during maintenance.",
       module: 3
     },
@@ -2209,11 +2209,11 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       question: "What coordinates physical relocations?",
       options: [
         "Only furniture delivery",
-        "Move management processes",
         "Only employee schedules",
+        "Move management processes",
         "Only building access"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: Move management addresses all aspects of workspace changes.",
       module: 4
     },
@@ -2221,12 +2221,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 28,
       question: "What explains budget vs. actual differences?",
       options: [
-        "Only budget reports",
         "Variance analysis",
-        "Only financial statements",
-        "Only expense receipts"
+        "Only budget reports",
+        "Only expense receipts",
+        "Only financial statements"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Variance analysis identifies reasons for deviations from planned budgets.",
       module: 5
     },
@@ -2234,12 +2234,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 29,
       question: "What involves setting environmental goals?",
       options: [
-        "Only regulatory compliance",
         "Sustainability leadership",
-        "Only cost reduction",
-        "Only energy purchasing"
+        "Only regulatory compliance",
+        "Only energy purchasing",
+        "Only cost reduction"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: Sustainability leadership actively pursues environmental improvement.",
       module: 6
     },
@@ -2247,12 +2247,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 30,
       question: "What must egress pathways maintain?",
       options: [
-        "Only cleanliness",
-        "Clear and unobstructed access at all times",
         "Only good lighting",
-        "Only proper signage"
+        "Only proper signage",
+        "Clear and unobstructed access at all times",
+        "Only cleanliness"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 2: Unobstructed exit paths are legally required for emergency evacuation.",
       module: 2
     },
@@ -2260,12 +2260,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 31,
       question: "What balances maintenance delivery decisions?",
       options: [
-        "Only costs",
         "Control, cost, expertise, and risk factors",
         "Only convenience",
+        "Only costs",
         "Only staff preferences"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 3: Multiple factors influence in-house versus outsourced maintenance decisions.",
       module: 3
     },
@@ -2273,10 +2273,10 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 32,
       question: "What benefits all occupants in design?",
       options: [
-        "Only specialized equipment",
-        "Universal design principles",
         "Only accessible parking",
-        "Only wheelchair ramps"
+        "Universal design principles",
+        "Only wheelchair ramps",
+        "Only specialized equipment"
       ],
       correctAnswer: 1,
       explanation: "From Module 4: Universal design creates spaces more usable for everyone, not just disabilities.",
@@ -2286,12 +2286,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 33,
       question: "What ties contractor compensation to results?",
       options: [
-        "Fixed-price contracts",
         "Performance-based contracts",
         "Cost-plus contracts",
+        "Fixed-price contracts",
         "Time-and-materials contracts"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 5: Performance-based contracts align incentives with desired outcomes.",
       module: 5
     },
@@ -2299,12 +2299,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 34,
       question: "What ensures operations continue during disruptions?",
       options: [
-        "Only emergency response",
-        "Business continuity planning",
         "Only insurance coverage",
-        "Only backup generators"
+        "Only backup generators",
+        "Business continuity planning",
+        "Only emergency response"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Business continuity addresses maintaining critical functions during disruptions.",
       module: 6
     },
@@ -2312,12 +2312,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 35,
       question: "What do ISO standards provide?",
       options: [
+        "Only maintenance schedules",
         "Only cleaning procedures",
-        "Framework for facilities management systems",
         "Only safety rules",
-        "Only maintenance schedules"
+        "Framework for facilities management systems"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 1: ISO standards establish international frameworks for consistent practices.",
       module: 1
     },
@@ -2325,9 +2325,9 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 36,
       question: "What does predictive maintenance use?",
       options: [
-        "Only time schedules",
-        "Condition monitoring techniques",
         "Only manufacturer recommendations",
+        "Condition monitoring techniques",
+        "Only time schedules",
         "Only failure history"
       ],
       correctAnswer: 1,
@@ -2338,12 +2338,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 37,
       question: "What indicates space inefficiency?",
       options: [
-        "High utilization rates",
-        "Utilization rates below 60%",
+        "Modern furniture",
         "Equal male/female ratio",
-        "Modern furniture"
+        "Utilization rates below 60%",
+        "High utilization rates"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 4: Low utilization suggests space is frequently unoccupied, representing waste.",
       module: 4
     },
@@ -2351,12 +2351,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 38,
       question: "What may increase property value?",
       options: [
-        "Only cosmetic upgrades",
-        "Green building certification",
+        "Only paint colors",
         "Only new furniture",
-        "Only paint colors"
+        "Only cosmetic upgrades",
+        "Green building certification"
       ],
-      correctAnswer: 1,
+      correctAnswer: 3,
       explanation: "From Module 5: Certifications like LEED can enhance property marketability and value.",
       module: 5
     },
@@ -2364,12 +2364,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 39,
       question: "What validates technology before deployment?",
       options: [
+        "Only theoretical analysis",
         "Only vendor promises",
         "Pilot testing in controlled environments",
-        "Only theoretical analysis",
         "Only competitor copying"
       ],
-      correctAnswer: 1,
+      correctAnswer: 2,
       explanation: "From Module 6: Pilots provide real-world testing to validate benefits before major investment.",
       module: 6
     },
@@ -2377,12 +2377,12 @@ Global challenges like climate change, pandemics, and resource scarcity impact f
       id: 40,
       question: "What addresses climate change impacts?",
       options: [
-        "Only ignoring changes",
         "Resilience planning and sustainable practices",
-        "Only reactive repairs",
-        "Only insurance claims"
+        "Only insurance claims",
+        "Only ignoring changes",
+        "Only reactive repairs"
       ],
-      correctAnswer: 1,
+      correctAnswer: 0,
       explanation: "From Module 6: Proactive planning prepares facilities for climate-related challenges.",
       module: 6
     }

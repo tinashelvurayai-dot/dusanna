@@ -246,21 +246,21 @@ Deepening theoretical understanding:
           question: "Which movement emphasized 'maximum feasible participation' of community members?",
           options: [
             "Settlement House Movement",
+            "Asset-Based Community Development",
             "Civil Rights Movement",
-            "War on Poverty",
-            "Asset-Based Community Development"
+            "War on Poverty"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The War on Poverty in the 1960s emphasized 'maximum feasible participation' through initiatives like Community Action Agencies."
         },
         {
           id: 2,
           question: "Who developed the concept of 'conscientization' in community development?",
           options: [
-            "Saul Alinsky",
-            "Paulo Freire",
             "John McKnight",
-            "Robert Putnam"
+            "Paulo Freire",
+            "Robert Putnam",
+            "Saul Alinsky"
           ],
           correctAnswer: 1,
           explanation: "Paulo Freire developed the concept of 'conscientization' (critical consciousness) in his work 'Pedagogy of the Oppressed'."
@@ -269,10 +269,10 @@ Deepening theoretical understanding:
           id: 3,
           question: "What are the five core assets in Asset-Based Community Development?",
           options: [
-            "Land, labor, capital, entrepreneurship, technology",
+            "Housing, education, healthcare, transportation, employment",
             "Individuals, associations, institutions, physical assets, connections",
             "Human, social, natural, physical, financial capital",
-            "Housing, education, healthcare, transportation, employment"
+            "Land, labor, capital, entrepreneurship, technology"
           ],
           correctAnswer: 1,
           explanation: "ABCD's five core assets are: individuals (skills/talents), associations (community groups), institutions (formal organizations), physical assets (environment), and connections (relationships)."
@@ -281,12 +281,12 @@ Deepening theoretical understanding:
           id: 4,
           question: "Which form of social capital refers to strong ties within homogeneous groups?",
           options: [
-            "Bonding social capital",
-            "Bridging social capital",
             "Linking social capital",
-            "Structural social capital"
+            "Structural social capital",
+            "Bonding social capital",
+            "Bridging social capital"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bonding social capital refers to strong ties within homogeneous groups like family or close friends who share similar characteristics."
         },
         {
@@ -294,9 +294,9 @@ Deepening theoretical understanding:
           question: "What does PAR stand for in participatory approaches?",
           options: [
             "Participatory Action Research",
+            "Participatory Asset Review",
             "Public Accountability Review",
-            "Program Assessment Report",
-            "Participatory Asset Review"
+            "Program Assessment Report"
           ],
           correctAnswer: 0,
           explanation: "PAR stands for Participatory Action Research, which involves community members as co-researchers in studying and addressing community issues."
@@ -305,24 +305,24 @@ Deepening theoretical understanding:
           id: 6,
           question: "Which form of power refers to collective action through collaboration?",
           options: [
-            "Power over",
-            "Power with",
             "Power to",
-            "Power within"
+            "Power within",
+            "Power with",
+            "Power over"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "'Power with' refers to collective power achieved through collaboration, shared leadership, and mutual support among community members."
         },
         {
           id: 7,
           question: "What ethical principle emphasizes communities' right to control their own development?",
           options: [
-            "Participation",
             "Self-determination",
             "Transparency",
+            "Participation",
             "Sustainability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Self-determination is the ethical principle that communities have the right to control and direct their own development processes and outcomes."
         },
         {
@@ -330,23 +330,23 @@ Deepening theoretical understanding:
           question: "Which contemporary issue involves balancing global influences with local context?",
           options: [
             "Digital divide",
-            "Glocalization",
             "Climate justice",
+            "Glocalization",
             "Intersectionality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Glocalization refers to the process of balancing global influences and trends with local context, needs, and cultural specificity in community development."
         },
         {
           id: 9,
           question: "What framework focuses on human, social, natural, physical, and financial capital?",
           options: [
+            "Logical Framework Approach",
             "Asset-Based Community Development",
             "Sustainable Livelihoods Framework",
-            "Logical Framework Approach",
             "Community Capitals Framework"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Sustainable Livelihoods Framework focuses on five types of capital assets: human, social, natural, physical, and financial."
         },
         {
@@ -365,21 +365,21 @@ Deepening theoretical understanding:
           id: 11,
           question: "What concept describes the process of developing critical awareness of social and political contradictions?",
           options: [
-            "Empowerment",
-            "Conscientization",
             "Mobilization",
-            "Capacity building"
+            "Empowerment",
+            "Capacity building",
+            "Conscientization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Conscientization, developed by Paulo Freire, describes the process of developing critical awareness of social and political contradictions to take action against oppression."
         },
         {
           id: 12,
           question: "Which dimension of social capital includes trust, norms, and obligations?",
           options: [
-            "Structural dimension",
-            "Relational dimension",
             "Cognitive dimension",
+            "Relational dimension",
+            "Structural dimension",
             "Cultural dimension"
           ],
           correctAnswer: 1,
@@ -389,12 +389,12 @@ Deepening theoretical understanding:
           id: 13,
           question: "What participatory approach focuses on what works and building on success?",
           options: [
-            "Participatory Rural Appraisal",
-            "Asset-Based Community Development",
             "Appreciative Inquiry",
-            "Theatre of the Oppressed"
+            "Participatory Rural Appraisal",
+            "Theatre of the Oppressed",
+            "Asset-Based Community Development"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Appreciative Inquiry is a participatory approach that focuses on identifying what works well in a community and building on those successes."
         },
         {
@@ -402,45 +402,45 @@ Deepening theoretical understanding:
           question: "Which power analysis framework examines spaces, forms, and levels of power?",
           options: [
             "Power mapping",
-            "Four powers framework",
             "Power cube",
-            "Social network analysis"
+            "Social network analysis",
+            "Four powers framework"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "The power cube framework examines three dimensions: spaces (where power is exercised), forms (visible/hidden/invisible), and levels (local/national/global)."
         },
         {
           id: 15,
           question: "What ethical principle involves meeting present needs without compromising future generations?",
           options: [
-            "Self-determination",
             "Participation",
             "Sustainability",
-            "Transparency"
+            "Transparency",
+            "Self-determination"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Sustainability involves meeting the needs of the present generation without compromising the ability of future generations to meet their own needs."
         },
         {
           id: 16,
           question: "Which contemporary debate involves balancing numbers with stories and experiences?",
           options: [
-            "Quantitative vs. qualitative measurement",
-            "Outcomes vs. process evaluation",
             "External vs. internal evaluation",
-            "Short-term vs. long-term impact"
+            "Outcomes vs. process evaluation",
+            "Short-term vs. long-term impact",
+            "Quantitative vs. qualitative measurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The quantitative vs. qualitative measurement debate involves balancing numerical data (quantitative) with stories, experiences, and contextual understanding (qualitative)."
         },
         {
           id: 17,
           question: "What integrative framework views communities as complex adaptive systems?",
           options: [
-            "Ecological systems theory",
+            "Critical race theory",
             "Complex adaptive systems theory",
-            "Resilience theory",
-            "Critical race theory"
+            "Ecological systems theory",
+            "Resilience theory"
           ],
           correctAnswer: 1,
           explanation: "Complex adaptive systems theory views communities as dynamic systems with multiple interacting elements that adapt and evolve in response to changes."
@@ -449,36 +449,36 @@ Deepening theoretical understanding:
           id: 18,
           question: "Which historical movement was led by Jane Addams and emphasized community-based services?",
           options: [
-            "Civil Rights Movement",
-            "Settlement House Movement",
             "War on Poverty",
-            "Sustainable Development Movement"
+            "Sustainable Development Movement",
+            "Civil Rights Movement",
+            "Settlement House Movement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Settlement House Movement, led by Jane Addams with Hull House in Chicago, emphasized community-based services, advocacy, and resident participation."
         },
         {
           id: 19,
           question: "What term describes connections across power differentials (community to institutions)?",
           options: [
-            "Bonding social capital",
-            "Bridging social capital",
             "Linking social capital",
-            "Network closure"
+            "Network closure",
+            "Bridging social capital",
+            "Bonding social capital"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Linking social capital refers to connections across power or authority differentials, such as between community members and institutions or decision-makers."
         },
         {
           id: 20,
           question: "Which ethical dilemma involves balancing expert knowledge with local wisdom?",
           options: [
-            "Professional vs. community interests",
             "Short-term vs. long-term outcomes",
             "Process vs. product",
+            "Professional vs. community interests",
             "Inclusion vs. efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The professional vs. community interests dilemma involves balancing external expert knowledge with local community wisdom, experience, and priorities."
         }
       ]
@@ -759,9 +759,9 @@ Learning from successful participatory initiatives:
           id: 1,
           question: "What is the highest level on Arnstein's Ladder of Participation?",
           options: [
-            "Consultation",
-            "Partnership",
             "Delegated Power",
+            "Partnership",
+            "Consultation",
             "Citizen Control"
           ],
           correctAnswer: 3,
@@ -771,48 +771,48 @@ Learning from successful participatory initiatives:
           id: 2,
           question: "Which level on the IAP2 Spectrum involves partnering in each aspect of decision-making?",
           options: [
-            "Inform",
             "Consult",
-            "Collaborate",
-            "Empower"
+            "Empower",
+            "Inform",
+            "Collaborate"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Collaborate on the IAP2 Spectrum involves partnering with the public in each aspect of the decision-making, including development of alternatives and identification of preferred solutions."
         },
         {
           id: 3,
           question: "What stakeholder analysis tool maps stakeholders by interest level and influence power?",
           options: [
-            "Power-Interest Grid",
             "Stakeholder Salience Model",
             "Position-Influence Diagram",
-            "Relationship Mapping"
+            "Relationship Mapping",
+            "Power-Interest Grid"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Interest-Influence Matrix (or Power-Interest Grid) maps stakeholders based on their level of interest in an issue and their power to influence outcomes."
         },
         {
           id: 4,
           question: "Which participatory method uses structured conversational processes at small tables?",
           options: [
-            "Open Space Technology",
             "World Café",
-            "Future Search",
-            "Deliberative Polling"
+            "Open Space Technology",
+            "Deliberative Polling",
+            "Future Search"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "World Café uses structured conversational processes where participants move between small tables, building on each other's ideas in progressive rounds of dialogue."
         },
         {
           id: 5,
           question: "What participatory method involves community members using photography to document issues?",
           options: [
-            "Participatory Mapping",
-            "Photovoice",
+            "Community Theater",
             "Digital Storytelling",
-            "Community Theater"
+            "Photovoice",
+            "Participatory Mapping"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Photovoice involves community members using photography to document issues and assets from their perspective, followed by group discussion of the images."
         },
         {
@@ -831,22 +831,22 @@ Learning from successful participatory initiatives:
           id: 7,
           question: "What is a key principle of Community-Based Participatory Research (CBPR)?",
           options: [
-            "Researcher control of process",
-            "Equitable partnership",
+            "Statistical generalization",
             "Rapid data collection",
-            "Statistical generalization"
+            "Equitable partnership",
+            "Researcher control of process"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Equitable partnership is a key principle of CBPR, where community and academic partners share power and responsibility throughout the research process."
         },
         {
           id: 8,
           question: "What digital inclusion strategy ensures tools work for people with disabilities?",
           options: [
-            "Digital literacy training",
-            "Accessibility features",
             "Multiple format options",
-            "Language options"
+            "Accessibility features",
+            "Language options",
+            "Digital literacy training"
           ],
           correctAnswer: 1,
           explanation: "Accessibility features ensure that digital tools and platforms can be used by people with various disabilities, following accessibility standards and guidelines."
@@ -855,36 +855,36 @@ Learning from successful participatory initiatives:
           id: 9,
           question: "Which decision-making method seeks general agreement without major opposition?",
           options: [
+            "Super-majority",
             "Majority vote",
             "Consensus",
-            "Super-majority",
             "Preference voting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Consensus decision-making seeks general agreement among participants without major opposition, though it doesn't require unanimous agreement."
         },
         {
           id: 10,
           question: "What process evaluation indicator measures diversity of participants compared to community?",
           options: [
-            "Quality of dialogue",
             "Representativeness",
-            "Decision transparency",
-            "Participant satisfaction"
+            "Quality of dialogue",
+            "Participant satisfaction",
+            "Decision transparency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Representativeness measures how well participants reflect the diversity of the broader community in terms of demographics, perspectives, and interests."
         },
         {
           id: 11,
           question: "Which principle of participatory planning addresses power imbalances in decision-making?",
           options: [
-            "Inclusivity",
-            "Transparency",
             "Equity",
+            "Transparency",
+            "Inclusivity",
             "Adaptability"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Equity in participatory planning specifically addresses power imbalances and ensures that all community members, especially marginalized groups, have meaningful influence."
         },
         {
@@ -892,47 +892,47 @@ Learning from successful participatory initiatives:
           question: "What type of stakeholder has high power but low interest and should be kept satisfied?",
           options: [
             "Key players",
-            "Keep satisfied",
+            "Minimal effort",
             "Keep informed",
-            "Minimal effort"
+            "Keep satisfied"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Stakeholders with high power but low interest should be kept satisfied with minimal effort to prevent them from becoming opponents."
         },
         {
           id: 13,
           question: "Which method involves community decisions on how to spend public funds?",
           options: [
-            "Community Scorecards",
             "Participatory Budgeting",
-            "Scenario Planning",
-            "Multi-criteria Analysis"
+            "Multi-criteria Analysis",
+            "Community Scorecards",
+            "Scenario Planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Participatory Budgeting involves community members directly deciding how to allocate portions of a public budget through deliberative processes."
         },
         {
           id: 14,
           question: "What facilitation approach recognizes and addresses power imbalances in group processes?",
           options: [
-            "Power-aware facilitation",
-            "Inclusive process design",
             "Safe space creation",
-            "Marginalized group support"
+            "Marginalized group support",
+            "Power-aware facilitation",
+            "Inclusive process design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Power-aware facilitation intentionally recognizes and addresses power imbalances among participants to ensure more equitable participation."
         },
         {
           id: 15,
           question: "Which research approach follows a cyclical process of planning, acting, observing, and reflecting?",
           options: [
-            "Community-Based Participatory Research",
             "Participatory Action Research",
+            "Community-Based Participatory Research",
             "Participatory Rural Appraisal",
             "Appreciative Inquiry"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Participatory Action Research follows a cyclical process of planning, acting, observing, and reflecting, with each cycle informing the next."
         },
         {
@@ -940,9 +940,9 @@ Learning from successful participatory initiatives:
           question: "What ethical consideration involves addressing unequal access to technology?",
           options: [
             "Digital divide",
+            "Digital surveillance",
             "Data privacy",
-            "Algorithmic bias",
-            "Digital surveillance"
+            "Algorithmic bias"
           ],
           correctAnswer: 0,
           explanation: "The digital divide refers to unequal access to technology and the internet, which must be addressed in digital participation strategies."
@@ -952,23 +952,23 @@ Learning from successful participatory initiatives:
           question: "Which governance model involves decision-making through flexible networks of actors?",
           options: [
             "Representative democracy",
-            "Direct democracy",
             "Deliberative democracy",
-            "Network governance"
+            "Network governance",
+            "Direct democracy"
           ],
-          correctAnswer: 3,
+          correctAnswer: 2,
           explanation: "Network governance involves decision-making through flexible, decentralized networks of diverse actors rather than hierarchical structures."
         },
         {
           id: 18,
           question: "What evaluation method collects and analyzes stories of significant change?",
           options: [
-            "Outcome Harvesting",
-            "Most Significant Change",
             "Participatory Impact Assessment",
-            "Community Scorecards"
+            "Community Scorecards",
+            "Outcome Harvesting",
+            "Most Significant Change"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Most Significant Change involves collecting stories from participants about significant changes they've experienced, then analyzing these stories collectively."
         },
         {
@@ -976,23 +976,23 @@ Learning from successful participatory initiatives:
           question: "What scaling strategy involves influencing higher-level decisions and policies?",
           options: [
             "Horizontal scaling",
-            "Vertical scaling",
             "Functional scaling",
+            "Vertical scaling",
             "Network scaling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vertical scaling involves moving from local-level participation to influencing higher-level decisions, policies, and systems."
         },
         {
           id: 20,
           question: "Which city is known for large-scale participatory budgeting?",
           options: [
-            "Toronto, Canada",
-            "Porto Alegre, Brazil",
+            "Kerala, India",
             "Bologna, Italy",
-            "Kerala, India"
+            "Toronto, Canada",
+            "Porto Alegre, Brazil"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Porto Alegre, Brazil is internationally known for pioneering large-scale participatory budgeting where citizens directly decide municipal budget allocations."
         }
       ]
@@ -1280,35 +1280,35 @@ Anticipating and shaping the future of sustainable communities:
           question: "What are the three pillars of the triple bottom line framework?",
           options: [
             "Political, Economic, Cultural",
+            "Local, Regional, Global",
             "Environmental, Social, Economic",
-            "Technical, Financial, Operational",
-            "Local, Regional, Global"
+            "Technical, Financial, Operational"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The triple bottom line framework includes three pillars: Environmental (planet), Social (people), and Economic (profit) sustainability."
         },
         {
           id: 2,
           question: "What climate strategy involves preparing for climate impacts like sea level rise?",
           options: [
-            "Mitigation strategies",
-            "Adaptation strategies",
             "Resilience infrastructure",
-            "Community capacity building"
+            "Mitigation strategies",
+            "Community capacity building",
+            "Adaptation strategies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Adaptation strategies involve preparing for and adjusting to actual or expected climate impacts, such as sea level rise or extreme weather events."
         },
         {
           id: 3,
           question: "Which ecosystem service category includes food, water, and raw materials?",
           options: [
-            "Provisioning services",
             "Regulating services",
             "Cultural services",
-            "Supporting services"
+            "Supporting services",
+            "Provisioning services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Provisioning services are the products obtained from ecosystems, including food, fresh water, wood, fiber, and genetic resources."
         },
         {
@@ -1316,35 +1316,35 @@ Anticipating and shaping the future of sustainable communities:
           question: "What social sustainability approach creates accessible environments for all abilities?",
           options: [
             "Equity analysis",
-            "Universal design",
+            "Anti-oppression frameworks",
             "Inclusive planning",
-            "Anti-oppression frameworks"
+            "Universal design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Universal design creates products and environments that are accessible to and usable by all people, to the greatest extent possible, without adaptation."
         },
         {
           id: 5,
           question: "Which economic model involves employee-owned businesses?",
           options: [
-            "Community land trusts",
-            "Worker cooperatives",
             "Credit unions",
-            "Anchor institution strategies"
+            "Community land trusts",
+            "Anchor institution strategies",
+            "Worker cooperatives"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Worker cooperatives are businesses owned and democratically controlled by their employees, who share in profits and decision-making."
         },
         {
           id: 6,
           question: "What smart growth principle combines residential, commercial, and recreational uses?",
           options: [
-            "Compact design",
             "Mixed-use development",
             "Walkable neighborhoods",
-            "Transportation choices"
+            "Transportation choices",
+            "Compact design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Mixed-use development combines residential, commercial, cultural, and recreational uses in close proximity, reducing travel needs and creating vibrant areas."
         },
         {
@@ -1358,24 +1358,24 @@ Anticipating and shaping the future of sustainable communities:
           id: 8,
           question: "What policy tool uses purchasing power to support sustainability goals?",
           options: [
-            "Zoning regulations",
             "Procurement policies",
+            "Taxation policies",
             "Incentive programs",
-            "Taxation policies"
+            "Zoning regulations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Procurement policies use government or organizational purchasing power to support sustainability goals, such as buying local, green, or fair trade products."
         },
         {
           id: 9,
           question: "What financing mechanism involves debt instruments for environmental projects?",
           options: [
-            "Green bonds",
+            "Crowdfunding",
             "Community investment funds",
-            "Pay-for-success contracts",
-            "Crowdfunding"
+            "Green bonds",
+            "Pay-for-success contracts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Green bonds are debt instruments specifically earmarked to raise money for climate and environmental projects, with proceeds dedicated to green initiatives."
         },
         {
@@ -1383,11 +1383,11 @@ Anticipating and shaping the future of sustainable communities:
           question: "Which city is known for its Greenest City Action Plan?",
           options: [
             "Curitiba, Brazil",
+            "Malmö, Sweden",
             "Freiburg, Germany",
-            "Vancouver, Canada",
-            "Malmö, Sweden"
+            "Vancouver, Canada"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Vancouver, Canada launched its Greenest City Action Plan in 2011 with goals to become the world's greenest city by 2020 across multiple sustainability areas."
         },
         {
@@ -1406,58 +1406,58 @@ Anticipating and shaping the future of sustainable communities:
           id: 12,
           question: "What climate strategy focuses on reducing greenhouse gas emissions?",
           options: [
-            "Adaptation strategies",
             "Mitigation strategies",
             "Vulnerability assessment",
-            "Nature-based solutions"
+            "Nature-based solutions",
+            "Adaptation strategies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Mitigation strategies focus on reducing greenhouse gas emissions to limit the magnitude of climate change, such as through renewable energy or energy efficiency."
         },
         {
           id: 13,
           question: "Which social determinant of health includes housing and education?",
           options: [
-            "Individual lifestyle factors",
-            "Social and community networks",
             "Living and working conditions",
-            "General socioeconomic conditions"
+            "Social and community networks",
+            "General socioeconomic conditions",
+            "Individual lifestyle factors"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Living and working conditions include housing, education, work environment, and healthcare access, which significantly influence health outcomes."
         },
         {
           id: 14,
           question: "What circular economy approach involves designing out waste and pollution?",
           options: [
+            "Local production loops",
             "Waste as resource",
-            "Product life extension",
             "Sharing economy",
-            "Local production loops"
+            "Product life extension"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Treating 'waste as resource' involves designing products and systems to eliminate waste and pollution, keeping materials in productive use."
         },
         {
           id: 15,
           question: "Which design approach aims to create more value than consumed?",
           options: [
-            "Smart Growth",
+            "Complete communities",
             "New Urbanism",
-            "Regenerative design",
-            "Complete communities"
+            "Smart Growth",
+            "Regenerative design"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Regenerative design aims to create systems that restore, renew, or revitalize their own sources of energy and materials, creating net-positive outcomes."
         },
         {
           id: 16,
           question: "What indicator framework has 17 global goals adopted by UN Member States?",
           options: [
-            "Community indicators projects",
-            "Sustainable Development Goals",
             "Quality of life indicators",
-            "Community resilience indicators"
+            "Sustainable Development Goals",
+            "Community resilience indicators",
+            "Community indicators projects"
           ],
           correctAnswer: 1,
           explanation: "The Sustainable Development Goals (SDGs) are 17 global goals with 169 targets adopted by all United Nations Member States in 2015."
@@ -1466,12 +1466,12 @@ Anticipating and shaping the future of sustainable communities:
           id: 17,
           question: "Which governance model involves shared decision-making among stakeholders?",
           options: [
-            "Collaborative governance",
-            "Adaptive governance",
             "Polycentric governance",
+            "Adaptive governance",
+            "Collaborative governance",
             "Network governance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Collaborative governance involves shared decision-making among multiple stakeholders from different sectors to address complex public issues."
         },
         {
@@ -1480,8 +1480,8 @@ Anticipating and shaping the future of sustainable communities:
           options: [
             "Green bonds",
             "Pay-for-success contracts",
-            "Energy performance contracting",
-            "Crowdfunding"
+            "Crowdfunding",
+            "Energy performance contracting"
           ],
           correctAnswer: 1,
           explanation: "Pay-for-success contracts (also called social impact bonds) involve payments to service providers based on achievement of agreed-upon outcomes."
@@ -1491,9 +1491,9 @@ Anticipating and shaping the future of sustainable communities:
           question: "Which movement focuses on community resilience in face of climate change and peak oil?",
           options: [
             "Transition Towns movement",
-            "Ecovillages",
+            "Food policy councils",
             "Community land trusts",
-            "Food policy councils"
+            "Ecovillages"
           ],
           correctAnswer: 0,
           explanation: "The Transition Towns movement focuses on building community resilience in response to climate change, peak oil, and economic instability through local action."
@@ -1502,10 +1502,10 @@ Anticipating and shaping the future of sustainable communities:
           id: 20,
           question: "What framework aims for thriving within planetary and social boundaries?",
           options: [
-            "Triple bottom line",
+            "Sustainable Development Goals",
             "Doughnut economics",
             "Circular economy",
-            "Sustainable Development Goals"
+            "Triple bottom line"
           ],
           correctAnswer: 1,
           explanation: "Doughnut economics is a framework that combines planetary boundaries with social foundations, aiming for thriving within the 'doughnut' space between these boundaries."
@@ -1821,24 +1821,24 @@ Learning from international organizing experiences:
           id: 1,
           question: "Which social movement theory focuses on organization, resources, and political opportunities?",
           options: [
+            "New Social Movement Theory",
             "Political Process Theory",
-            "Resource Mobilization Theory",
             "Framing Theory",
-            "New Social Movement Theory"
+            "Resource Mobilization Theory"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Resource Mobilization Theory emphasizes how social movements succeed by mobilizing resources (money, people, skills) and seizing political opportunities."
         },
         {
           id: 2,
           question: "What organizing model is known for conflict-based, power-building approaches?",
           options: [
-            "Faith-based organizing",
-            "Alinsky-style organizing",
             "Community building",
-            "Transformative organizing"
+            "Transformative organizing",
+            "Alinsky-style organizing",
+            "Faith-based organizing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Alinsky-style organizing, developed by Saul Alinsky, uses conflict-based approaches to build power through confrontation with established systems."
         },
         {
@@ -1846,47 +1846,47 @@ Learning from international organizing experiences:
           question: "Which leadership model views leaders as servants to community needs?",
           options: [
             "Transformational leadership",
-            "Servant leadership",
             "Distributed leadership",
+            "Servant leadership",
             "Adaptive leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Servant leadership prioritizes serving the needs of others and the community, with leaders acting as stewards rather than commanding figures."
         },
         {
           id: 4,
           question: "What campaign strategy works within systems through negotiation and advocacy?",
           options: [
-            "Inside strategy",
-            "Outside strategy",
+            "Divestment strategy",
             "Hybrid strategy",
-            "Divestment strategy"
+            "Inside strategy",
+            "Outside strategy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Inside strategy involves working within existing systems and structures through negotiation, advocacy, and relationship-building with decision-makers."
         },
         {
           id: 5,
           question: "What type of coalition involves temporary alliances for specific campaigns?",
           options: [
-            "Ad hoc coalitions",
-            "Federated coalitions",
+            "Movement coalitions",
             "Network coalitions",
-            "Movement coalitions"
+            "Ad hoc coalitions",
+            "Federated coalitions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ad hoc coalitions are temporary alliances formed for specific campaigns or issues, dissolving once the immediate goal is achieved."
         },
         {
           id: 6,
           question: "What narrative work involves challenging existing stories that shape public understanding?",
           options: [
-            "Dominant narratives",
-            "Counter-narratives",
             "Values-based messaging",
-            "Cultural strategy"
+            "Dominant narratives",
+            "Cultural strategy",
+            "Counter-narratives"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Counter-narratives are alternative stories that challenge and provide alternatives to dominant narratives that maintain existing power structures."
         },
         {
@@ -1895,8 +1895,8 @@ Learning from international organizing experiences:
           options: [
             "Philosophical foundations",
             "Strategic nonviolence",
-            "Moral dimensions",
-            "Spiritual dimensions"
+            "Spiritual dimensions",
+            "Moral dimensions"
           ],
           correctAnswer: 1,
           explanation: "Strategic nonviolence approaches nonviolent action as an effective tactic for achieving social and political change, separate from moral or spiritual commitments."
@@ -1905,72 +1905,72 @@ Learning from international organizing experiences:
           id: 8,
           question: "What movement framework identifies different functions needed for effective movements?",
           options: [
+            "Movement culture",
             "Movement infrastructure",
             "Movement ecology framework",
-            "Movement culture",
             "Movement strategy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Movement Ecology Framework identifies different roles (like organizers, helpers, rebels, innovators) needed for effective social movements."
         },
         {
           id: 9,
           question: "Which evaluation framework assesses base-building, leadership, and power?",
           options: [
+            "Social movement outcomes",
             "Movement Strategy Center framework",
             "Grassroots Policy Project framework",
-            "Social movement outcomes",
             "Organizational capacity assessment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Grassroots Policy Project framework evaluates organizing based on three key areas: base-building, leadership development, and building power."
         },
         {
           id: 10,
           question: "What ethical principle involves being answerable to those most affected?",
           options: [
+            "Integrity",
             "Transparency",
             "Accountability to community",
-            "Integrity",
             "Solidarity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Accountability to community means organizers are answerable to and take direction from the communities most affected by the issues being addressed."
         },
         {
           id: 11,
           question: "Which social movement theory emphasizes how issues are defined and communicated?",
           options: [
-            "Resource Mobilization Theory",
             "Political Process Theory",
             "Framing Theory",
+            "Resource Mobilization Theory",
             "Collective Behavior Theory"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Framing Theory examines how social movements define issues (framing) to mobilize support, gain media attention, and influence public understanding."
         },
         {
           id: 12,
           question: "What organizing approach emphasizes relationships, process, and collective leadership?",
           options: [
+            "Digital organizing",
             "Traditional organizing",
-            "Women-centered organizing",
             "Cultural organizing",
-            "Digital organizing"
+            "Women-centered organizing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Women-centered organizing, influenced by feminist principles, emphasizes relationships, inclusive processes, and collective rather than hierarchical leadership."
         },
         {
           id: 13,
           question: "What leadership development approach involves critical consciousness raising?",
           options: [
+            "Leadership schools",
             "Popular education",
             "Mentorship programs",
-            "Leadership schools",
             "Action learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Popular education, developed by Paulo Freire, involves critical consciousness raising through dialogue and reflection on lived experience."
         },
         {
@@ -1989,60 +1989,60 @@ Learning from international organizing experiences:
           id: 15,
           question: "What coalition practice ensures all voices are heard and valued?",
           options: [
-            "Clear purpose and goals",
             "Inclusive processes",
-            "Transparent decision-making",
-            "Resource sharing"
+            "Resource sharing",
+            "Clear purpose and goals",
+            "Transparent decision-making"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Inclusive processes in coalition work ensure that all member organizations, especially those representing marginalized groups, have meaningful voice and influence."
         },
         {
           id: 16,
           question: "What communication work connects issues to shared values?",
           options: [
+            "Storytelling for change",
             "Narrative change work",
             "Values-based messaging",
-            "Storytelling for change",
             "Framing analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Values-based messaging connects specific issues or campaigns to deeper, widely shared values that resonate across different audience segments."
         },
         {
           id: 17,
           question: "What type of direct action involves intentional violation of laws considered unjust?",
           options: [
-            "Protest demonstrations",
             "Civil disobedience",
             "Occupation and blockade",
+            "Protest demonstrations",
             "Digital direct action"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Civil disobedience involves intentionally breaking laws considered unjust or immoral, often as a form of protest and to draw attention to issues."
         },
         {
           id: 18,
           question: "What movement building element includes organizations, networks, and resources?",
           options: [
+            "Movement leadership",
             "Movement roles",
-            "Movement infrastructure",
             "Movement culture",
-            "Movement leadership"
+            "Movement infrastructure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Movement infrastructure includes the tangible elements that support movements: organizations, networks, communication systems, and resource bases."
         },
         {
           id: 19,
           question: "What learning practice involves structured reflection following actions or events?",
           options: [
+            "Documentation practices",
             "After-action reviews",
             "Case study analysis",
-            "Peer learning exchanges",
-            "Documentation practices"
+            "Peer learning exchanges"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "After-action reviews are structured reflection sessions following actions or events to assess what worked, what didn't, and lessons for improvement."
         },
         {
@@ -2050,9 +2050,9 @@ Learning from international organizing experiences:
           question: "Which global movement focuses on peasant rights and food sovereignty?",
           options: [
             "Landless Workers Movement (MST)",
-            "Abahlali baseMjondolo",
+            "Black Lives Matter",
             "La Via Campesina",
-            "Black Lives Matter"
+            "Abahlali baseMjondolo"
           ],
           correctAnswer: 2,
           explanation: "La Via Campesina is an international peasant movement coordinating peasant organizations worldwide to promote food sovereignty and peasant rights."
@@ -2341,12 +2341,12 @@ Assessing economic health and progress:
           id: 1,
           question: "Which economic theory focuses on rules, norms, and institutions shaping economic behavior?",
           options: [
+            "Evolutionary economics",
             "Neoclassical economics",
             "Institutional economics",
-            "Evolutionary economics",
             "Complexity economics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Institutional economics emphasizes how formal and informal institutions (rules, norms, customs) shape economic behavior and outcomes."
         },
         {
@@ -2354,23 +2354,23 @@ Assessing economic health and progress:
           question: "What community economic model builds on existing community assets?",
           options: [
             "Traditional CED",
-            "Asset-Based Community Development",
             "Community Wealth Building",
+            "Asset-Based Community Development",
             "Solidarity Economy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Asset-Based Community Development (ABCD) builds economic development strategies based on identifying and mobilizing existing community assets."
         },
         {
           id: 3,
           question: "What analysis identifies export-oriented vs. locally-serving economic activities?",
           options: [
-            "Location quotients",
             "Economic base analysis",
+            "Location quotients",
             "Input-output analysis",
             "Shift-share analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Economic base analysis distinguishes between basic (export-oriented) and non-basic (locally-serving) sectors to understand economic structure."
         },
         {
@@ -2378,32 +2378,32 @@ Assessing economic health and progress:
           question: "Which community ownership model involves nonprofit organizations owning land for community benefit?",
           options: [
             "Limited equity cooperatives",
-            "Community land trusts",
+            "Community development corporations",
             "Worker cooperatives",
-            "Community development corporations"
+            "Community land trusts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Community land trusts are nonprofit organizations that acquire and hold land for the benefit of the community, typically for affordable housing."
         },
         {
           id: 5,
           question: "What anchor institution strategy involves buying from local businesses?",
           options: [
-            "Local procurement",
             "Workforce development",
+            "Real estate development",
             "Community investment",
-            "Real estate development"
+            "Local procurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Local procurement involves anchor institutions (hospitals, universities, etc.) purchasing goods and services from local businesses to keep money in the local economy."
         },
         {
           id: 6,
           question: "What type of financial institution is mission-driven and lends in underserved areas?",
           options: [
-            "Credit unions",
-            "Community development financial institutions (CDFIs)",
             "Microfinance institutions",
+            "Community development financial institutions (CDFIs)",
+            "Credit unions",
             "Peer-to-peer lending platforms"
           ],
           correctAnswer: 1,
@@ -2413,24 +2413,24 @@ Assessing economic health and progress:
           id: 7,
           question: "What entrepreneurship support provides shared resources and services to startups?",
           options: [
-            "Incubators",
             "Access to capital",
+            "Incubators",
             "Business networks",
             "Market access"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Incubators provide shared workspace, resources, and support services to help startups develop and grow during their early stages."
         },
         {
           id: 8,
           question: "What local food initiative involves subscription-based farm shares?",
           options: [
-            "Farmers markets",
-            "Community-supported agriculture (CSA)",
             "Food hubs",
-            "Food cooperatives"
+            "Food cooperatives",
+            "Farmers markets",
+            "Community-supported agriculture (CSA)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Community-Supported Agriculture (CSA) involves consumers purchasing shares of a farm's harvest in advance, providing farmers with working capital."
         },
         {
@@ -2438,9 +2438,9 @@ Assessing economic health and progress:
           question: "What green economy approach involves by-product exchange between businesses?",
           options: [
             "Industrial symbiosis",
-            "Energy efficiency",
             "Circular economy",
-            "Sustainable transportation"
+            "Sustainable transportation",
+            "Energy efficiency"
           ],
           correctAnswer: 0,
           explanation: "Industrial symbiosis involves different businesses exchanging materials, energy, water, or by-products so one company's waste becomes another's resource."
@@ -2449,48 +2449,48 @@ Assessing economic health and progress:
           id: 10,
           question: "What workforce development approach involves collaboration among employers, educators, and agencies?",
           options: [
-            "Sector strategies",
-            "Career pathways",
             "Work-based learning",
-            "Bridge programs"
+            "Bridge programs",
+            "Career pathways",
+            "Sector strategies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sector strategies involve collaboration among employers, education providers, and workforce agencies to address workforce needs in specific industries."
         },
         {
           id: 11,
           question: "Which economic democracy framework involves employees controlling their workplaces?",
           options: [
-            "Community ownership",
             "Worker self-management",
-            "Participatory budgeting",
-            "Public banking"
+            "Community ownership",
+            "Public banking",
+            "Participatory budgeting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Worker self-management involves employees having control over their workplaces through democratic decision-making structures."
         },
         {
           id: 12,
           question: "What economic analysis measures how much spending leaves the local economy?",
           options: [
-            "Economic base analysis",
             "Economic leakage analysis",
-            "Input-output analysis",
-            "Cluster analysis"
+            "Cluster analysis",
+            "Economic base analysis",
+            "Input-output analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Economic leakage analysis tracks how much money spent in a community leaves to pay for imports or external services rather than recirculating locally."
         },
         {
           id: 13,
           question: "What community ownership model involves businesses owned by customers?",
           options: [
+            "Multi-stakeholder cooperatives",
             "Worker cooperatives",
             "Consumer cooperatives",
-            "Multi-stakeholder cooperatives",
             "Community development corporations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Consumer cooperatives are businesses owned and democratically controlled by their customers, such as food co-ops or credit unions."
         },
         {
@@ -2499,8 +2499,8 @@ Assessing economic health and progress:
           options: [
             "Inclusive entrepreneurship",
             "Social enterprise development",
-            "Minority business support",
-            "Youth entrepreneurship"
+            "Youth entrepreneurship",
+            "Minority business support"
           ],
           correctAnswer: 1,
           explanation: "Social enterprise development focuses on creating businesses with explicit social or environmental missions alongside financial sustainability."
@@ -2509,12 +2509,12 @@ Assessing economic health and progress:
           id: 15,
           question: "What food system component involves value-added food products?",
           options: [
+            "Access",
             "Production",
             "Processing",
-            "Distribution",
-            "Access"
+            "Distribution"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Processing in food systems involves transforming raw agricultural products into value-added food items through cooking, preserving, packaging, etc."
         },
         {
@@ -2522,9 +2522,9 @@ Assessing economic health and progress:
           question: "What community energy initiative involves shared renewable energy systems?",
           options: [
             "Community solar",
-            "Energy cooperatives",
             "Microgrids",
-            "Energy democracy"
+            "Energy democracy",
+            "Energy cooperatives"
           ],
           correctAnswer: 0,
           explanation: "Community solar projects allow multiple community members to share the benefits of a single solar array, often when they can't install their own."
@@ -2533,36 +2533,36 @@ Assessing economic health and progress:
           id: 17,
           question: "What job standard involves compensation sufficient to meet basic needs?",
           options: [
-            "Benefits",
             "Living wages",
             "Workplace democracy",
+            "Benefits",
             "Work-life balance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Living wages are compensation levels sufficient for workers to meet basic needs (housing, food, healthcare, transportation) in their specific location."
         },
         {
           id: 18,
           question: "What public financing tool uses future tax revenue for current development?",
           options: [
+            "New markets tax credits",
             "Tax increment financing (TIF)",
             "Community development block grants",
-            "New markets tax credits",
             "Opportunity zones"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Tax Increment Financing (TIF) uses anticipated future increases in property tax revenue from a development to finance current development costs."
         },
         {
           id: 19,
           question: "What economic planning process involves community deciding how to spend public funds?",
           options: [
-            "Community economic visioning",
             "Participatory budgeting",
             "Economic democracy councils",
+            "Community economic visioning",
             "Local economy working groups"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Participatory budgeting involves community members directly deciding how to allocate portions of a public budget through deliberative processes."
         },
         {
@@ -2570,11 +2570,11 @@ Assessing economic health and progress:
           question: "What alternative economic indicator adjusts GDP for environmental and social factors?",
           options: [
             "Human Development Index",
-            "Genuine Progress Indicator",
             "Better Life Index",
+            "Genuine Progress Indicator",
             "Community wellbeing indexes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Genuine Progress Indicator (GPI) adjusts GDP by subtracting environmental and social costs and adding non-market benefits to provide a more comprehensive measure."
         }
       ]
@@ -2842,34 +2842,34 @@ Innovative approaches and future directions:
           id: 1,
           question: "What evaluation approach supports innovation and adaptation in complex environments?",
           options: [
-            "Developmental evaluation",
             "Principles-focused evaluation",
+            "Contribution analysis",
             "Outcome harvesting",
-            "Contribution analysis"
+            "Developmental evaluation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Developmental evaluation supports social innovation and adaptation in complex environments by providing real-time feedback to guide development."
         },
         {
           id: 2,
           question: "What systems change dimension involves changes in rules, norms, and practices?",
           options: [
+            "Institutional change",
             "Structural change",
-            "Relational change",
             "Transformational change",
-            "Institutional change"
+            "Relational change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Structural change in systems involves changes in policies, practices, resource flows, power relations, and other structural elements of systems."
         },
         {
           id: 3,
           question: "What participatory evaluation method involves community-generated report cards?",
           options: [
-            "Photovoice evaluation",
+            "Digital storytelling",
             "Community scorecards",
-            "Community mapping",
-            "Digital storytelling"
+            "Photovoice evaluation",
+            "Community mapping"
           ],
           correctAnswer: 1,
           explanation: "Community scorecards involve community members generating report cards or ratings on programs, services, or conditions based on their experiences."
@@ -2902,34 +2902,34 @@ Innovative approaches and future directions:
           id: 6,
           question: "What longitudinal approach follows the same group over extended time?",
           options: [
-            "Cohort studies",
             "Panel studies",
             "Trend studies",
+            "Cohort studies",
             "Retrospective studies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cohort studies follow the same group of people (a cohort) over an extended period to track changes and outcomes over time."
         },
         {
           id: 7,
           question: "What sustainability evaluation assesses community capacity to sustain changes?",
           options: [
-            "Sustainability capacity assessment",
-            "Institutionalization indicators",
             "Resource sustainability",
-            "Adaptive capacity"
+            "Adaptive capacity",
+            "Sustainability capacity assessment",
+            "Institutionalization indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sustainability capacity assessment evaluates the community's capacity (skills, resources, structures) to sustain changes over the long term."
         },
         {
           id: 8,
           question: "What evaluation reporting format provides concise summaries for decision-makers?",
           options: [
-            "Community reports",
-            "Policy briefs",
             "Academic publications",
-            "Visual reports"
+            "Policy briefs",
+            "Visual reports",
+            "Community reports"
           ],
           correctAnswer: 1,
           explanation: "Policy briefs provide concise, focused summaries of evaluation findings specifically tailored for decision-makers and policymakers."
@@ -2950,48 +2950,48 @@ Innovative approaches and future directions:
           id: 10,
           question: "What evaluation capacity building strategy involves building skills through actual practice?",
           options: [
-            "Gradual skill development",
             "Learning by doing",
             "Just-in-time training",
+            "Gradual skill development",
             "Technical assistance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Learning by doing builds evaluation capacity through hands-on practice with actual evaluation tasks and projects, with appropriate support."
         },
         {
           id: 11,
           question: "What complexity concept refers to outcomes arising from interactions, not just planned activities?",
           options: [
+            "Adaptive systems",
             "Systems thinking",
             "Emergence",
-            "Nonlinear change",
-            "Adaptive systems"
+            "Nonlinear change"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Emergence refers to outcomes or patterns that arise from the interactions of system components, rather than being directly planned or predicted."
         },
         {
           id: 12,
           question: "What participatory evaluation approach uses photography for assessment and dialogue?",
           options: [
+            "Participatory rural appraisal",
             "Community scorecards",
             "Photovoice evaluation",
-            "Community mapping",
-            "Participatory rural appraisal"
+            "Community mapping"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Photovoice evaluation uses photography by community members to document and assess issues, followed by group discussion of the images."
         },
         {
           id: 13,
           question: "Which mixed methods design uses quantitative data to explain qualitative findings?",
           options: [
-            "Convergent design",
-            "Explanatory sequential design",
             "Exploratory sequential design",
-            "Fully integrated design"
+            "Fully integrated design",
+            "Explanatory sequential design",
+            "Convergent design"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Explanatory sequential mixed methods design collects qualitative data to help explain or elaborate on initial quantitative findings."
         },
         {
@@ -2999,57 +2999,57 @@ Innovative approaches and future directions:
           question: "What equity assessment examines overlapping systems of advantage and disadvantage?",
           options: [
             "Disparity measures",
-            "Intersectional analysis",
             "Power shift indicators",
+            "Intersectional analysis",
             "Representation measures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Intersectional analysis examines how multiple systems of oppression (race, gender, class, etc.) interact to create unique experiences of advantage or disadvantage."
         },
         {
           id: 15,
           question: "What longitudinal approach involves repeated measures with the same respondents?",
           options: [
+            "Life history approaches",
             "Cohort studies",
-            "Panel studies",
             "Trend studies",
-            "Life history approaches"
+            "Panel studies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Panel studies involve repeated data collection from the same individuals or units over time to track changes at the individual level."
         },
         {
           id: 16,
           question: "What sustainability indicator involves integration into ongoing systems and practices?",
           options: [
+            "Leadership sustainability",
             "Sustainability capacity",
-            "Institutionalization",
             "Resource sustainability",
-            "Leadership sustainability"
+            "Institutionalization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Institutionalization indicators measure how well changes have become integrated into ongoing systems, policies, and regular practices."
         },
         {
           id: 17,
           question: "What evaluation reporting combines maps with narratives and multimedia?",
           options: [
+            "Infographics",
             "Data dashboards",
             "Story maps",
-            "Infographics",
             "Interactive data tools"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Story maps combine interactive maps with narratives, photos, videos, and other multimedia to tell spatial stories about evaluation findings."
         },
         {
           id: 18,
           question: "What ethical principle involves fair distribution of benefits and burdens?",
           options: [
-            "Respect for persons",
             "Beneficence",
+            "Cultural respect",
             "Justice",
-            "Cultural respect"
+            "Respect for persons"
           ],
           correctAnswer: 2,
           explanation: "Justice in evaluation ethics involves ensuring fair distribution of the benefits and burdens of evaluation across different community groups."
@@ -3059,9 +3059,9 @@ Innovative approaches and future directions:
           question: "What builds evaluation capacity through ongoing groups for learning and support?",
           options: [
             "Evaluation communities of practice",
-            "Technical assistance",
             "Learning by doing",
-            "Just-in-time training"
+            "Just-in-time training",
+            "Technical assistance"
           ],
           correctAnswer: 0,
           explanation: "Evaluation communities of practice are ongoing groups where people interested in evaluation can learn, share experiences, and support each other."
@@ -3070,10 +3070,10 @@ Innovative approaches and future directions:
           id: 20,
           question: "What innovative evaluation approach uses artistic methods for assessment?",
           options: [
-            "Appreciative evaluation",
+            "Narrative evaluation",
             "Arts-based evaluation",
-            "Sensory evaluation",
-            "Narrative evaluation"
+            "Appreciative evaluation",
+            "Sensory evaluation"
           ],
           correctAnswer: 1,
           explanation: "Arts-based evaluation uses artistic methods (visual arts, performance, music, etc.) for data collection, analysis, or communication of findings."
@@ -3094,12 +3094,12 @@ Innovative approaches and future directions:
         id: 1,
         question: "Which movement emphasized 'maximum feasible participation' of community members?",
         options: [
-          "Settlement House Movement",
-          "Civil Rights Movement",
           "War on Poverty",
-          "Asset-Based Community Development"
+          "Asset-Based Community Development",
+          "Civil Rights Movement",
+          "Settlement House Movement"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "The War on Poverty in the 1960s emphasized 'maximum feasible participation' through Community Action Agencies.",
         module: 1
       },
@@ -3107,12 +3107,12 @@ Innovative approaches and future directions:
         id: 2,
         question: "What are the five core assets in Asset-Based Community Development?",
         options: [
-          "Land, labor, capital, entrepreneurship, technology",
           "Individuals, associations, institutions, physical assets, connections",
           "Human, social, natural, physical, financial capital",
+          "Land, labor, capital, entrepreneurship, technology",
           "Housing, education, healthcare, transportation, employment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "ABCD's five core assets: individuals, associations, institutions, physical assets, and connections.",
         module: 1
       },
@@ -3120,12 +3120,12 @@ Innovative approaches and future directions:
         id: 3,
         question: "Which form of social capital refers to strong ties within homogeneous groups?",
         options: [
-          "Bonding social capital",
           "Bridging social capital",
           "Linking social capital",
+          "Bonding social capital",
           "Structural social capital"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Bonding social capital refers to strong ties within homogeneous groups like family or close friends.",
         module: 1
       },
@@ -3133,12 +3133,12 @@ Innovative approaches and future directions:
         id: 4,
         question: "Which form of power refers to collective action through collaboration?",
         options: [
-          "Power over",
-          "Power with",
           "Power to",
-          "Power within"
+          "Power within",
+          "Power with",
+          "Power over"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "'Power with' refers to collective power achieved through collaboration and mutual support.",
         module: 1
       },
@@ -3146,12 +3146,12 @@ Innovative approaches and future directions:
         id: 5,
         question: "What ethical principle emphasizes communities' right to control their own development?",
         options: [
-          "Participation",
-          "Self-determination",
+          "Sustainability",
           "Transparency",
-          "Sustainability"
+          "Self-determination",
+          "Participation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Self-determination is the principle that communities have the right to control their own development.",
         module: 1
       },
@@ -3159,12 +3159,12 @@ Innovative approaches and future directions:
         id: 6,
         question: "What framework focuses on human, social, natural, physical, and financial capital?",
         options: [
+          "Logical Framework Approach",
           "Asset-Based Community Development",
           "Sustainable Livelihoods Framework",
-          "Logical Framework Approach",
           "Community Capitals Framework"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Sustainable Livelihoods Framework focuses on five capital assets: human, social, natural, physical, financial.",
         module: 1
       },
@@ -3173,11 +3173,11 @@ Innovative approaches and future directions:
         question: "Which organizing model is known for conflict-based, power-building approaches?",
         options: [
           "Faith-based organizing",
-          "Alinsky-style organizing",
           "Community building",
-          "Women-centered organizing"
+          "Women-centered organizing",
+          "Alinsky-style organizing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Alinsky-style organizing uses conflict-based approaches to build power through confrontation.",
         module: 1
       },
@@ -3187,12 +3187,12 @@ Innovative approaches and future directions:
         id: 8,
         question: "What is the highest level on Arnstein's Ladder of Participation?",
         options: [
-          "Consultation",
+          "Citizen Control",
           "Partnership",
           "Delegated Power",
-          "Citizen Control"
+          "Consultation"
         ],
-        correctAnswer: 3,
+        correctAnswer: 0,
         explanation: "Citizen Control (level 8) is the highest level where community members have full authority.",
         module: 2
       },
@@ -3213,12 +3213,12 @@ Innovative approaches and future directions:
         id: 10,
         question: "What participatory method involves community members using photography to document issues?",
         options: [
-          "Participatory Mapping",
           "Photovoice",
+          "Community Theater",
           "Digital Storytelling",
-          "Community Theater"
+          "Participatory Mapping"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Photovoice involves community members using photography to document issues from their perspective.",
         module: 2
       },
@@ -3226,10 +3226,10 @@ Innovative approaches and future directions:
         id: 11,
         question: "What is a key principle of Community-Based Participatory Research (CBPR)?",
         options: [
-          "Researcher control of process",
-          "Equitable partnership",
           "Rapid data collection",
-          "Statistical generalization"
+          "Equitable partnership",
+          "Statistical generalization",
+          "Researcher control of process"
         ],
         correctAnswer: 1,
         explanation: "Equitable partnership is a key principle of CBPR, with community and academic partners sharing power.",
@@ -3239,10 +3239,10 @@ Innovative approaches and future directions:
         id: 12,
         question: "Which decision-making method seeks general agreement without major opposition?",
         options: [
-          "Majority vote",
+          "Preference voting",
           "Consensus",
           "Super-majority",
-          "Preference voting"
+          "Majority vote"
         ],
         correctAnswer: 1,
         explanation: "Consensus decision-making seeks general agreement among participants without major opposition.",
@@ -3252,10 +3252,10 @@ Innovative approaches and future directions:
         id: 13,
         question: "What process evaluation indicator measures diversity of participants compared to community?",
         options: [
-          "Quality of dialogue",
+          "Participant satisfaction",
           "Representativeness",
           "Decision transparency",
-          "Participant satisfaction"
+          "Quality of dialogue"
         ],
         correctAnswer: 1,
         explanation: "Representativeness measures how well participants reflect the diversity of the broader community.",
@@ -3280,12 +3280,12 @@ Innovative approaches and future directions:
         id: 15,
         question: "What are the three pillars of the triple bottom line framework?",
         options: [
+          "Local, Regional, Global",
           "Political, Economic, Cultural",
-          "Environmental, Social, Economic",
           "Technical, Financial, Operational",
-          "Local, Regional, Global"
+          "Environmental, Social, Economic"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Triple bottom line: Environmental (planet), Social (people), and Economic (profit) sustainability.",
         module: 3
       },
@@ -3293,12 +3293,12 @@ Innovative approaches and future directions:
         id: 16,
         question: "Which ecosystem service category includes food, water, and raw materials?",
         options: [
-          "Provisioning services",
           "Regulating services",
-          "Cultural services",
-          "Supporting services"
+          "Supporting services",
+          "Provisioning services",
+          "Cultural services"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Provisioning services are products obtained from ecosystems: food, water, wood, fiber, etc.",
         module: 3
       },
@@ -3307,11 +3307,11 @@ Innovative approaches and future directions:
         question: "Which economic model involves employee-owned businesses?",
         options: [
           "Community land trusts",
+          "Anchor institution strategies",
           "Worker cooperatives",
-          "Credit unions",
-          "Anchor institution strategies"
+          "Credit unions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Worker cooperatives are businesses owned and democratically controlled by their employees.",
         module: 3
       },
@@ -3327,12 +3327,12 @@ Innovative approaches and future directions:
         id: 19,
         question: "What financing mechanism involves debt instruments for environmental projects?",
         options: [
-          "Green bonds",
           "Community investment funds",
           "Pay-for-success contracts",
+          "Green bonds",
           "Crowdfunding"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Green bonds are debt instruments specifically earmarked for climate and environmental projects.",
         module: 3
       },
@@ -3340,12 +3340,12 @@ Innovative approaches and future directions:
         id: 20,
         question: "Which movement focuses on community resilience in face of climate change and peak oil?",
         options: [
-          "Transition Towns movement",
           "Ecovillages",
           "Community land trusts",
+          "Transition Towns movement",
           "Food policy councils"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Transition Towns movement focuses on building community resilience to climate change and peak oil.",
         module: 3
       },
@@ -3353,12 +3353,12 @@ Innovative approaches and future directions:
         id: 21,
         question: "What framework aims for thriving within planetary and social boundaries?",
         options: [
-          "Triple bottom line",
           "Doughnut economics",
+          "Sustainable Development Goals",
           "Circular economy",
-          "Sustainable Development Goals"
+          "Triple bottom line"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Doughnut economics combines planetary boundaries with social foundations for thriving.",
         module: 3
       },
@@ -3369,11 +3369,11 @@ Innovative approaches and future directions:
         question: "Which social movement theory focuses on organization, resources, and political opportunities?",
         options: [
           "Political Process Theory",
-          "Resource Mobilization Theory",
           "Framing Theory",
-          "New Social Movement Theory"
+          "New Social Movement Theory",
+          "Resource Mobilization Theory"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Resource Mobilization Theory emphasizes mobilizing resources and seizing political opportunities.",
         module: 4
       },
@@ -3381,12 +3381,12 @@ Innovative approaches and future directions:
         id: 23,
         question: "Which leadership model views leaders as servants to community needs?",
         options: [
+          "Distributed leadership",
           "Transformational leadership",
           "Servant leadership",
-          "Distributed leadership",
           "Adaptive leadership"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Servant leadership prioritizes serving community needs with leaders as stewards.",
         module: 4
       },
@@ -3394,12 +3394,12 @@ Innovative approaches and future directions:
         id: 24,
         question: "What campaign strategy works within systems through negotiation and advocacy?",
         options: [
-          "Inside strategy",
           "Outside strategy",
           "Hybrid strategy",
-          "Divestment strategy"
+          "Divestment strategy",
+          "Inside strategy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Inside strategy works within existing systems through negotiation and advocacy.",
         module: 4
       },
@@ -3407,12 +3407,12 @@ Innovative approaches and future directions:
         id: 25,
         question: "What narrative work involves challenging existing stories that shape public understanding?",
         options: [
-          "Dominant narratives",
           "Counter-narratives",
+          "Cultural strategy",
           "Values-based messaging",
-          "Cultural strategy"
+          "Dominant narratives"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Counter-narratives challenge dominant narratives that maintain existing power structures.",
         module: 4
       },
@@ -3421,11 +3421,11 @@ Innovative approaches and future directions:
         question: "What movement framework identifies different functions needed for effective movements?",
         options: [
           "Movement infrastructure",
-          "Movement ecology framework",
+          "Movement strategy",
           "Movement culture",
-          "Movement strategy"
+          "Movement ecology framework"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Movement Ecology Framework identifies different roles needed for effective social movements.",
         module: 4
       },
@@ -3433,12 +3433,12 @@ Innovative approaches and future directions:
         id: 27,
         question: "What ethical principle involves being answerable to those most affected?",
         options: [
-          "Transparency",
           "Accountability to community",
+          "Transparency",
           "Integrity",
           "Solidarity"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Accountability to community means being answerable to those most affected by the issues.",
         module: 4
       },
@@ -3448,12 +3448,12 @@ Innovative approaches and future directions:
         id: 28,
         question: "Which economic theory focuses on rules, norms, and institutions shaping economic behavior?",
         options: [
-          "Neoclassical economics",
-          "Institutional economics",
           "Evolutionary economics",
-          "Complexity economics"
+          "Complexity economics",
+          "Institutional economics",
+          "Neoclassical economics"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Institutional economics emphasizes how institutions shape economic behavior and outcomes.",
         module: 5
       },
@@ -3461,10 +3461,10 @@ Innovative approaches and future directions:
         id: 29,
         question: "What community ownership model involves nonprofit organizations owning land for community benefit?",
         options: [
-          "Limited equity cooperatives",
-          "Community land trusts",
           "Worker cooperatives",
-          "Community development corporations"
+          "Community land trusts",
+          "Community development corporations",
+          "Limited equity cooperatives"
         ],
         correctAnswer: 1,
         explanation: "Community land trusts are nonprofits that acquire and hold land for community benefit.",
@@ -3474,12 +3474,12 @@ Innovative approaches and future directions:
         id: 30,
         question: "What local food initiative involves subscription-based farm shares?",
         options: [
+          "Food cooperatives",
           "Farmers markets",
           "Community-supported agriculture (CSA)",
-          "Food hubs",
-          "Food cooperatives"
+          "Food hubs"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Community-Supported Agriculture involves consumers purchasing shares of a farm's harvest in advance.",
         module: 5
       },
@@ -3487,12 +3487,12 @@ Innovative approaches and future directions:
         id: 31,
         question: "What job standard involves compensation sufficient to meet basic needs?",
         options: [
+          "Work-life balance",
           "Benefits",
-          "Living wages",
           "Workplace democracy",
-          "Work-life balance"
+          "Living wages"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Living wages are compensation sufficient for workers to meet basic needs in their location.",
         module: 5
       },
@@ -3501,11 +3501,11 @@ Innovative approaches and future directions:
         question: "What economic planning process involves community deciding how to spend public funds?",
         options: [
           "Community economic visioning",
+          "Local economy working groups",
           "Participatory budgeting",
-          "Economic democracy councils",
-          "Local economy working groups"
+          "Economic democracy councils"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Participatory budgeting involves community members directly deciding budget allocations.",
         module: 5
       },
@@ -3513,10 +3513,10 @@ Innovative approaches and future directions:
         id: 33,
         question: "What alternative economic indicator adjusts GDP for environmental and social factors?",
         options: [
-          "Human Development Index",
+          "Community wellbeing indexes",
           "Genuine Progress Indicator",
-          "Better Life Index",
-          "Community wellbeing indexes"
+          "Human Development Index",
+          "Better Life Index"
         ],
         correctAnswer: 1,
         explanation: "Genuine Progress Indicator adjusts GDP by subtracting environmental/social costs, adding non-market benefits.",
@@ -3529,9 +3529,9 @@ Innovative approaches and future directions:
         question: "What evaluation approach supports innovation and adaptation in complex environments?",
         options: [
           "Developmental evaluation",
-          "Principles-focused evaluation",
+          "Contribution analysis",
           "Outcome harvesting",
-          "Contribution analysis"
+          "Principles-focused evaluation"
         ],
         correctAnswer: 0,
         explanation: "Developmental evaluation supports social innovation and adaptation in complex environments.",
@@ -3541,12 +3541,12 @@ Innovative approaches and future directions:
         id: 35,
         question: "What participatory evaluation method involves community-generated report cards?",
         options: [
-          "Photovoice evaluation",
           "Community scorecards",
+          "Photovoice evaluation",
           "Community mapping",
           "Digital storytelling"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Community scorecards involve community members generating report cards on programs or services.",
         module: 6
       },
@@ -3555,9 +3555,9 @@ Innovative approaches and future directions:
         question: "Which mixed methods design collects and analyzes both types of data separately, then integrates?",
         options: [
           "Convergent design",
-          "Explanatory sequential design",
+          "Transformative design",
           "Exploratory sequential design",
-          "Transformative design"
+          "Explanatory sequential design"
         ],
         correctAnswer: 0,
         explanation: "Convergent design collects/analyzes quantitative and qualitative data separately, then integrates.",
@@ -3567,12 +3567,12 @@ Innovative approaches and future directions:
         id: 37,
         question: "What equity evaluation approach centers equity throughout the evaluation process?",
         options: [
-          "Culturally responsive evaluation",
           "Equity-focused evaluative thinking",
-          "Transformative evaluation",
-          "Racial equity impact assessment"
+          "Culturally responsive evaluation",
+          "Racial equity impact assessment",
+          "Transformative evaluation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Equity-focused evaluative thinking centers equity at every stage of evaluation.",
         module: 6
       },
@@ -3580,12 +3580,12 @@ Innovative approaches and future directions:
         id: 38,
         question: "What longitudinal approach follows the same group over extended time?",
         options: [
-          "Cohort studies",
           "Panel studies",
-          "Trend studies",
-          "Retrospective studies"
+          "Cohort studies",
+          "Retrospective studies",
+          "Trend studies"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cohort studies follow the same group of people over extended time to track changes.",
         module: 6
       },
@@ -3593,9 +3593,9 @@ Innovative approaches and future directions:
         id: 39,
         question: "What ethical principle involves maximizing benefits and minimizing harms?",
         options: [
-          "Respect for persons",
-          "Beneficence",
           "Justice",
+          "Beneficence",
+          "Respect for persons",
           "Community consent"
         ],
         correctAnswer: 1,
@@ -3606,12 +3606,12 @@ Innovative approaches and future directions:
         id: 40,
         question: "What innovative evaluation approach uses artistic methods for assessment?",
         options: [
-          "Appreciative evaluation",
           "Arts-based evaluation",
           "Sensory evaluation",
-          "Narrative evaluation"
+          "Narrative evaluation",
+          "Appreciative evaluation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Arts-based evaluation uses artistic methods for data collection, analysis, or communication.",
         module: 6
       }

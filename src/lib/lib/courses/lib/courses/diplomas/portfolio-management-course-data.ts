@@ -122,12 +122,12 @@ Remember: The essence of MPT is that what matters is not individual investments,
           id: 1,
           question: "What is the key insight of Modern Portfolio Theory?",
           options: [
-            "Portfolios should consider how assets interact, not just individual returns",
-            "Only high-return assets should be selected",
             "Risk should be ignored if returns are high enough",
-            "All assets should have the same expected return"
+            "Portfolios should consider how assets interact, not just individual returns",
+            "All assets should have the same expected return",
+            "Only high-return assets should be selected"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MPT emphasizes portfolio construction considering asset interactions, not just individual asset characteristics."
         },
         {
@@ -135,9 +135,9 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What does diversification achieve?",
           options: [
             "Reduces portfolio risk without necessarily reducing expected return",
-            "Guarantees higher returns",
+            "Always increases portfolio returns",
             "Eliminates all investment risk",
-            "Always increases portfolio returns"
+            "Guarantees higher returns"
           ],
           correctAnswer: 0,
           explanation: "Diversification reduces unsystematic risk through combining imperfectly correlated assets."
@@ -147,9 +147,9 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What is the efficient frontier?",
           options: [
             "Set of portfolios offering highest return for given risk or lowest risk for given return",
+            "Portfolios with zero risk",
             "Line connecting all possible portfolios",
-            "Only the highest returning portfolio",
-            "Portfolios with zero risk"
+            "Only the highest returning portfolio"
           ],
           correctAnswer: 0,
           explanation: "The efficient frontier represents optimal risk-return trade-offs for portfolios."
@@ -159,9 +159,9 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What is systematic risk?",
           options: [
             "Market risk affecting all assets that cannot be diversified away",
-            "Risk specific to individual companies",
             "Risk that can be eliminated through diversification",
-            "Risk from poor management decisions"
+            "Risk from poor management decisions",
+            "Risk specific to individual companies"
           ],
           correctAnswer: 0,
           explanation: "Systematic risk is market-wide risk that affects all investments in the market."
@@ -171,8 +171,8 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What does beta measure in CAPM?",
           options: [
             "An asset's sensitivity to market movements",
-            "Total risk of an asset",
             "Expected return of an asset",
+            "Total risk of an asset",
             "Correlation between two assets"
           ],
           correctAnswer: 0,
@@ -183,9 +183,9 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What is the Capital Market Line?",
           options: [
             "Line showing risk-return combinations of risk-free asset combined with risky portfolio",
-            "Boundary of all possible portfolios",
+            "Historical market return trend",
             "Line connecting individual stocks",
-            "Historical market return trend"
+            "Boundary of all possible portfolios"
           ],
           correctAnswer: 0,
           explanation: "CML shows efficient portfolios when combining risky assets with a risk-free asset."
@@ -195,8 +195,8 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What does correlation measure?",
           options: [
             "How two assets move relative to each other",
-            "Total risk of a portfolio",
             "Expected returns of assets",
+            "Total risk of a portfolio",
             "Difference between two returns"
           ],
           correctAnswer: 0,
@@ -206,12 +206,12 @@ Remember: The essence of MPT is that what matters is not individual investments,
           id: 8,
           question: "What is unsystematic risk?",
           options: [
+            "Risk that cannot be reduced",
             "Specific risk unique to individual assets that can be diversified away",
             "Market risk affecting all assets",
-            "Risk from economic conditions",
-            "Risk that cannot be reduced"
+            "Risk from economic conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Unsystematic risk is company-specific or industry-specific risk."
         },
         {
@@ -219,9 +219,9 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What does the Security Market Line represent?",
           options: [
             "Expected return as a function of beta in CAPM",
+            "Correlation between different markets",
             "Historical price movements",
-            "Efficient frontier without risk-free asset",
-            "Correlation between different markets"
+            "Efficient frontier without risk-free asset"
           ],
           correctAnswer: 0,
           explanation: "SML graphically shows the CAPM relationship between expected return and systematic risk."
@@ -230,60 +230,60 @@ Remember: The essence of MPT is that what matters is not individual investments,
           id: 10,
           question: "What is a risk-averse investor?",
           options: [
-            "Investor who prefers less risk for the same expected return",
-            "Investor who ignores risk completely",
             "Investor who only seeks highest returns",
-            "Investor who enjoys taking risks"
+            "Investor who enjoys taking risks",
+            "Investor who prefers less risk for the same expected return",
+            "Investor who ignores risk completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk-averse investors require compensation in the form of higher returns for taking additional risk."
         },
         {
           id: 11,
           question: "What is the tangency portfolio?",
           options: [
-            "Risky portfolio that creates most efficient combinations with risk-free asset",
-            "Portfolio with highest possible return",
+            "Portfolio of only risk-free assets",
             "Portfolio with zero risk",
-            "Portfolio of only risk-free assets"
+            "Risky portfolio that creates most efficient combinations with risk-free asset",
+            "Portfolio with highest possible return"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The tangency portfolio maximizes the Sharpe ratio when combined with the risk-free asset."
         },
         {
           id: 12,
           question: "What does MPT use to quantify risk?",
           options: [
+            "Probability of default",
             "Standard deviation of returns",
             "Average return only",
-            "Maximum loss possible",
-            "Probability of default"
+            "Maximum loss possible"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MPT measures risk as the volatility or standard deviation of returns."
         },
         {
           id: 13,
           question: "What assumption does CAPM make about borrowing and lending?",
           options: [
-            "Unlimited at the risk-free rate",
-            "Only at market rates",
             "Not allowed at all",
-            "Only for institutional investors"
+            "Unlimited at the risk-free rate",
+            "Only for institutional investors",
+            "Only at market rates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CAPM assumes all investors can borrow and lend unlimited amounts at the risk-free rate."
         },
         {
           id: 14,
           question: "What type of risk can diversification reduce?",
           options: [
-            "Unsystematic risk",
             "Systematic risk",
+            "No risk at all",
             "All types of risk",
-            "No risk at all"
+            "Unsystematic risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Diversification reduces unsystematic (specific) risk but not systematic (market) risk."
         },
         {
@@ -291,9 +291,9 @@ Remember: The essence of MPT is that what matters is not individual investments,
           question: "What is an inefficient portfolio?",
           options: [
             "Portfolio that could achieve higher returns for same risk or lower risk for same returns",
-            "Portfolio with negative returns",
             "Portfolio with only one asset",
-            "Portfolio managed poorly"
+            "Portfolio managed poorly",
+            "Portfolio with negative returns"
           ],
           correctAnswer: 0,
           explanation: "Inefficient portfolios don't offer the best possible risk-return trade-off."
@@ -302,60 +302,60 @@ Remember: The essence of MPT is that what matters is not individual investments,
           id: 16,
           question: "What does the CAPM formula calculate?",
           options: [
-            "Expected return based on systematic risk",
-            "Total portfolio risk",
+            "Diversification benefits",
             "Correlation between assets",
-            "Diversification benefits"
+            "Total portfolio risk",
+            "Expected return based on systematic risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CAPM calculates required return based on risk-free rate, market return, and beta."
         },
         {
           id: 17,
           question: "What is a limitation of MPT regarding return distributions?",
           options: [
-            "Assumes normal distribution but real returns have fat tails",
+            "Only looks at average returns",
             "Assumes returns are always positive",
             "Doesn't consider returns at all",
-            "Only looks at average returns"
+            "Assumes normal distribution but real returns have fat tails"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MPT assumes normal distribution, but market returns often have more extreme events."
         },
         {
           id: 18,
           question: "What practical application comes from MPT?",
           options: [
-            "Constructing diversified portfolios across asset classes",
-            "Predicting exact future returns",
             "Eliminating all investment risk",
-            "Guaranteeing outperformance"
+            "Guaranteeing outperformance",
+            "Constructing diversified portfolios across asset classes",
+            "Predicting exact future returns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "MPT provides the theoretical basis for diversification and portfolio optimization."
         },
         {
           id: 19,
           question: "What does perfect negative correlation mean?",
           options: [
-            "Two assets move perfectly opposite each other",
+            "Both assets have same returns",
             "Two assets move perfectly together",
             "No relationship between assets",
-            "Both assets have same returns"
+            "Two assets move perfectly opposite each other"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Perfect negative correlation (-1) means when one asset goes up, the other goes down proportionally."
         },
         {
           id: 20,
           question: "What is the essence of MPT?",
           options: [
-            "What matters is not individual investments but how they work together",
-            "Only pick the highest returning stocks",
             "Ignore risk and focus only on returns",
-            "Invest only in risk-free assets"
+            "Invest only in risk-free assets",
+            "Only pick the highest returning stocks",
+            "What matters is not individual investments but how they work together"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MPT's core principle is portfolio construction considering asset interactions."
         }
       ]
@@ -492,36 +492,36 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           id: 1,
           question: "What does research show is the primary determinant of portfolio returns?",
           options: [
-            "Asset allocation",
-            "Market timing",
             "Security selection",
-            "Economic forecasts"
+            "Economic forecasts",
+            "Market timing",
+            "Asset allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Studies show asset allocation explains most of portfolio return variability over time."
         },
         {
           id: 2,
           question: "What is strategic asset allocation?",
           options: [
-            "Long-term target weights for asset classes based on investor objectives",
-            "Daily trading based on market news",
             "Buying only the highest returning assets",
-            "Changing allocation with every market move"
+            "Daily trading based on market news",
+            "Changing allocation with every market move",
+            "Long-term target weights for asset classes based on investor objectives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic allocation establishes long-term policy targets based on investment goals and constraints."
         },
         {
           id: 3,
           question: "What is rebalancing?",
           options: [
-            "Adjusting portfolio back to target weights after market movements",
-            "Changing target weights frequently",
             "Selling all assets and starting over",
-            "Only buying more of winning assets"
+            "Only buying more of winning assets",
+            "Adjusting portfolio back to target weights after market movements",
+            "Changing target weights frequently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Rebalancing maintains desired risk profile and enforces discipline by buying low and selling high."
         },
         {
@@ -529,9 +529,9 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           question: "What is tactical asset allocation?",
           options: [
             "Short-term adjustments around strategic targets based on market outlook",
-            "Never changing the allocation",
+            "Military investment strategy",
             "Only investing in tactical industries",
-            "Military investment strategy"
+            "Never changing the allocation"
           ],
           correctAnswer: 0,
           explanation: "Tactical allocation involves temporary deviations from strategic targets based on market views."
@@ -540,60 +540,60 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           id: 5,
           question: "What is the core-satellite approach?",
           options: [
-            "Combining passive core with active satellite strategies",
             "Investing only in space-related stocks",
-            "Centralized investment management",
-            "Satellite tracking of investments"
+            "Satellite tracking of investments",
+            "Combining passive core with active satellite strategies",
+            "Centralized investment management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Core-satellite uses low-cost passive investments for core and active strategies for satellites."
         },
         {
           id: 6,
           question: "What are target date funds?",
           options: [
-            "Funds that automatically adjust allocation as target date approaches",
-            "Funds targeting specific dates for high returns",
             "Funds that expire on certain dates",
+            "Funds targeting specific dates for high returns",
+            "Funds that automatically adjust allocation as target date approaches",
             "Funds that only invest in dated securities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Target date funds gradually become more conservative as investors near retirement or other goals."
         },
         {
           id: 7,
           question: "What is home country bias?",
           options: [
-            "Tendency to overweight domestic investments",
+            "Avoiding foreign investments completely",
             "Bias against home purchases",
             "Preference for domestic products",
-            "Avoiding foreign investments completely"
+            "Tendency to overweight domestic investments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Home country bias reduces international diversification benefits by over-concentrating in domestic markets."
         },
         {
           id: 8,
           question: "What alternative asset provides inflation protection?",
           options: [
-            "Real estate",
             "Government bonds",
-            "Cash equivalents",
-            "Technology stocks"
+            "Real estate",
+            "Technology stocks",
+            "Cash equivalents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Real estate often provides rental income that can increase with inflation."
         },
         {
           id: 9,
           question: "What is risk parity allocation?",
           options: [
-            "Allocating based on risk contribution rather than capital",
             "Equal dollar amounts in all assets",
-            "Taking equal risk in every trade",
-            "Avoiding all risky assets"
+            "Allocating based on risk contribution rather than capital",
+            "Avoiding all risky assets",
+            "Taking equal risk in every trade"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk parity aims to equalize risk contributions across asset classes rather than equal capital allocation."
         },
         {
@@ -602,8 +602,8 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           options: [
             "Mutual funds",
             "Individual stock picking",
-            "Single bond purchases",
-            "Cash holdings"
+            "Cash holdings",
+            "Single bond purchases"
           ],
           correctAnswer: 0,
           explanation: "Mutual funds pool investor money to buy diversified portfolios of securities."
@@ -612,12 +612,12 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           id: 11,
           question: "What is lifecycle investing?",
           options: [
-            "Changing allocation as investors age",
             "Investing only during certain life stages",
-            "Funding life insurance with investments",
-            "Investing in life sciences companies"
+            "Investing in life sciences companies",
+            "Changing allocation as investors age",
+            "Funding life insurance with investments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Lifecycle investing becomes more conservative as investors approach spending needs."
         },
         {
@@ -638,8 +638,8 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           options: [
             "Long-term strategic benchmark allocation",
             "Insurance policy for investments",
-            "Government policy on investing",
-            "Written investment policy"
+            "Written investment policy",
+            "Government policy on investing"
           ],
           correctAnswer: 0,
           explanation: "The policy portfolio represents long-term target asset class weights."
@@ -648,24 +648,24 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           id: 14,
           question: "What is currency risk in global allocation?",
           options: [
-            "Exchange rate movements affecting international returns",
-            "Risk of foreign currency becoming worthless",
             "Risk from currency trading",
-            "Risk of counterfeiting"
+            "Risk of counterfeiting",
+            "Exchange rate movements affecting international returns",
+            "Risk of foreign currency becoming worthless"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Currency risk arises from fluctuations in exchange rates between domestic and foreign currencies."
         },
         {
           id: 15,
           question: "What are ETFs?",
           options: [
-            "Exchange-traded funds that trade like stocks but hold baskets of securities",
-            "Extra tax filings",
             "Electronic transfer funds",
-            "Emergency treasury funds"
+            "Exchange-traded funds that trade like stocks but hold baskets of securities",
+            "Emergency treasury funds",
+            "Extra tax filings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ETFs provide low-cost, tax-efficient exposure to diversified portfolios with intraday trading."
         },
         {
@@ -673,9 +673,9 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           question: "What determines strategic asset allocation?",
           options: [
             "Investment objectives, risk tolerance, and time horizon",
+            "What neighbors are investing in",
             "Current market trends only",
-            "Latest investment fads",
-            "What neighbors are investing in"
+            "Latest investment fads"
           ],
           correctAnswer: 0,
           explanation: "Strategic allocation should reflect investor-specific factors, not market timing."
@@ -684,24 +684,24 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           id: 17,
           question: "What is CPPI?",
           options: [
+            "Central Portfolio Protection Instrument",
             "Constant Proportion Portfolio Insurance - dynamic strategy protecting against losses",
-            "Corporate Profit Protection Insurance",
             "Constant Price Purchasing Indicator",
-            "Central Portfolio Protection Instrument"
+            "Corporate Profit Protection Insurance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CPPI dynamically adjusts allocation based on portfolio value to protect principal."
         },
         {
           id: 18,
           question: "What alternative asset is typically illiquid?",
           options: [
-            "Private equity",
-            "Publicly traded stocks",
             "Government bonds",
-            "Money market funds"
+            "Publicly traded stocks",
+            "Money market funds",
+            "Private equity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Private equity investments in non-public companies typically have long lock-up periods."
         },
         {
@@ -709,8 +709,8 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           question: "What does overweight/underweight mean in tactical allocation?",
           options: [
             "Taking positions relative to strategic benchmark",
-            "Measuring physical weight of assets",
             "Being over or under diversified",
+            "Measuring physical weight of assets",
             "Having too much or too little cash"
           ],
           correctAnswer: 0,
@@ -720,12 +720,12 @@ Remember: Asset allocation is not a one-time decision but an ongoing process tha
           id: 20,
           question: "Why is asset allocation an ongoing process?",
           options: [
-            "Should adapt to changing markets and investor circumstances",
+            "Because initial decisions are always wrong",
             "Because markets never change",
-            "To generate more trading commissions",
-            "Because initial decisions are always wrong"
+            "Should adapt to changing markets and investor circumstances",
+            "To generate more trading commissions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Allocation should evolve with changing goals, markets, and life circumstances while maintaining discipline."
         }
       ]
@@ -911,24 +911,24 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           id: 1,
           question: "What is price risk?",
           options: [
-            "Risk that asset prices will decline",
-            "Risk of paying too much",
             "Risk from pricing errors",
+            "Risk of paying too much",
+            "Risk that asset prices will decline",
             "Risk of price controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Price risk is the possibility of losses from decreases in asset values."
         },
         {
           id: 2,
           question: "What does standard deviation measure?",
           options: [
-            "Total volatility or dispersion of returns",
-            "Average return only",
+            "Probability of gain",
             "Maximum possible loss",
-            "Probability of gain"
+            "Total volatility or dispersion of returns",
+            "Average return only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Standard deviation quantifies how much returns vary from their average."
         },
         {
@@ -947,60 +947,60 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           id: 4,
           question: "What does the Sharpe ratio measure?",
           options: [
+            "Risk without considering returns",
             "Excess return per unit of total risk",
             "Total return only",
-            "Risk without considering returns",
             "Probability of beating the market"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sharpe ratio evaluates risk-adjusted performance by comparing excess returns to volatility."
         },
         {
           id: 5,
           question: "What is the first step in risk management process?",
           options: [
-            "Risk identification",
-            "Risk measurement",
             "Risk control",
+            "Risk measurement",
+            "Risk identification",
             "Risk reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "You must identify what risks exist before you can measure or manage them."
         },
         {
           id: 6,
           question: "What risk does diversification primarily reduce?",
           options: [
+            "All types of risk",
             "Unsystematic risk",
             "Systematic risk",
-            "All types of risk",
             "Market risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Diversification reduces company-specific (unsystematic) risk through spreading investments."
         },
         {
           id: 7,
           question: "What is hedging?",
           options: [
-            "Taking offsetting positions to reduce risk",
-            "Avoiding all risky investments",
             "Guessing market direction",
-            "Planting hedges around investments"
+            "Taking offsetting positions to reduce risk",
+            "Planting hedges around investments",
+            "Avoiding all risky investments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hedging involves positions that offset potential losses in other investments."
         },
         {
           id: 8,
           question: "What is stress testing?",
           options: [
-            "Evaluating portfolio performance under adverse conditions",
+            "Testing during stressful market hours",
             "Testing how much stress investors can handle",
             "Checking portfolio strength physically",
-            "Testing during stressful market hours"
+            "Evaluating portfolio performance under adverse conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stress tests simulate how portfolios would perform during historical or hypothetical crises."
         },
         {
@@ -1019,12 +1019,12 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           id: 10,
           question: "What does tracking error measure?",
           options: [
+            "Difference from target return",
             "Standard deviation of portfolio returns relative to benchmark",
             "Errors in tracking investments",
-            "Mistakes in portfolio management",
-            "Difference from target return"
+            "Mistakes in portfolio management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Tracking error quantifies how consistently a portfolio follows its benchmark."
         },
         {
@@ -1033,8 +1033,8 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           options: [
             "Risk that borrowers will default on obligations",
             "Risk of credit rating changes",
-            "Risk from using credit cards",
-            "Risk of identity theft"
+            "Risk of identity theft",
+            "Risk from using credit cards"
           ],
           correctAnswer: 0,
           explanation: "Credit risk is the possibility that debt issuers fail to make interest or principal payments."
@@ -1044,9 +1044,9 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           question: "What is CVaR?",
           options: [
             "Expected loss given that loss exceeds VaR threshold",
-            "Current value at risk",
+            "Cumulative value added return",
             "Constant variance analysis ratio",
-            "Cumulative value added return"
+            "Current value at risk"
           ],
           correctAnswer: 0,
           explanation: "Conditional VaR (Expected Shortfall) estimates average loss in worst-case scenarios beyond VaR."
@@ -1055,24 +1055,24 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           id: 13,
           question: "What does the Sortino ratio use instead of total standard deviation?",
           options: [
-            "Downside deviation only",
             "Upside deviation only",
-            "Average deviation",
-            "Median deviation"
+            "Downside deviation only",
+            "Median deviation",
+            "Average deviation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sortino ratio only penalizes downside volatility, not upside volatility."
         },
         {
           id: 14,
           question: "What are position limits?",
           options: [
-            "Maximum size for individual positions or sectors",
-            "Limits on physical positions",
             "Restrictions on employee positions",
-            "Limits on market positioning"
+            "Limits on physical positions",
+            "Limits on market positioning",
+            "Maximum size for individual positions or sectors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Position limits control concentration risk by restricting exposure to single investments."
         },
         {
@@ -1081,8 +1081,8 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           options: [
             "Herding",
             "Overconfidence",
-            "Loss aversion",
-            "Anchoring"
+            "Anchoring",
+            "Loss aversion"
           ],
           correctAnswer: 0,
           explanation: "Herding is following what others are doing rather than independent analysis."
@@ -1091,24 +1091,24 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           id: 16,
           question: "What is interest rate risk?",
           options: [
-            "Risk that changing interest rates affect asset values",
-            "Risk of interest payment defaults",
             "Risk from interesting investments",
-            "Risk of interest rate fixing"
+            "Risk that changing interest rates affect asset values",
+            "Risk of interest rate fixing",
+            "Risk of interest payment defaults"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Interest rate risk affects bond prices inversely - rates up, bond prices down, and vice versa."
         },
         {
           id: 17,
           question: "What is drawdown?",
           options: [
-            "Peak-to-trough decline during specific period",
             "Withdrawal of funds",
+            "Peak-to-trough decline during specific period",
             "Drawing down on credit",
             "Reduction in portfolio size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Drawdown measures the maximum historical loss from peak to subsequent trough."
         },
         {
@@ -1116,8 +1116,8 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           question: "What is scenario analysis?",
           options: [
             "Testing portfolio against imagined extreme events",
-            "Analyzing movie scenarios",
             "Planning for best-case only",
+            "Analyzing movie scenarios",
             "Ignoring unlikely events"
           ],
           correctAnswer: 0,
@@ -1127,24 +1127,24 @@ Remember: Risk cannot be eliminated, only managed. The goal is not to avoid all 
           id: 19,
           question: "What is concentration risk?",
           options: [
-            "Risk from overexposure to single asset, sector, or market",
             "Risk of focusing too much",
             "Risk from concentrated solutions",
-            "Risk in chemical concentrations"
+            "Risk in chemical concentrations",
+            "Risk from overexposure to single asset, sector, or market"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Concentration risk arises when portfolio is not sufficiently diversified."
         },
         {
           id: 20,
           question: "What is the goal of risk management?",
           options: [
-            "Take intelligent risks that are appropriately compensated",
             "Eliminate all risk",
-            "Avoid all losses",
-            "Only take no-risk investments"
+            "Take intelligent risks that are appropriately compensated",
+            "Only take no-risk investments",
+            "Avoid all losses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk management aims to understand and control risk, not eliminate it completely."
         }
       ]
@@ -1329,120 +1329,120 @@ Remember: Fixed income provides stability and income but requires careful attent
           id: 1,
           question: "What is the face amount repaid at bond maturity called?",
           options: [
-            "Principal or par value",
             "Coupon value",
+            "Book value",
             "Market value",
-            "Book value"
+            "Principal or par value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Principal or par value is the amount the issuer promises to repay at maturity."
         },
         {
           id: 2,
           question: "What does yield to maturity (YTM) measure?",
           options: [
-            "Total return if bond held to maturity with coupons reinvested at YTM",
             "Current income only",
+            "Total return if bond held to maturity with coupons reinvested at YTM",
             "Guaranteed return",
             "Return if sold today"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "YTM is the most comprehensive yield measure, assuming hold to maturity and reinvestment at YTM."
         },
         {
           id: 3,
           question: "What is a normal yield curve shape?",
           options: [
+            "Flat - little difference across maturities",
             "Upward sloping - longer maturities have higher yields",
             "Downward sloping - shorter maturities have higher yields",
-            "Flat - little difference across maturities",
             "Humped - middle maturities highest"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Normal curve slopes upward, reflecting term premium for longer commitments."
         },
         {
           id: 4,
           question: "What does duration measure?",
           options: [
-            "Interest rate sensitivity of bond prices",
-            "Time until bond is issued",
             "Length of coupon payments",
-            "Bond's age"
+            "Time until bond is issued",
+            "Bond's age",
+            "Interest rate sensitivity of bond prices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Duration estimates how much bond prices change when interest rates change."
         },
         {
           id: 5,
           question: "What is convexity?",
           options: [
-            "Measures curvature of price-yield relationship",
-            "How convex the yield curve is",
+            "Curvature of bond certificate",
             "Complexity of bond structure",
-            "Curvature of bond certificate"
+            "How convex the yield curve is",
+            "Measures curvature of price-yield relationship"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Convexity measures how duration changes as yields change - desirable positive convexity means prices rise more than they fall."
         },
         {
           id: 6,
           question: "What are investment grade bonds?",
           options: [
-            "BBB-/Baa3 and above credit rating",
+            "Bonds with guaranteed returns",
             "Any bond that pays interest",
             "Only government bonds",
-            "Bonds with guaranteed returns"
+            "BBB-/Baa3 and above credit rating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Investment grade bonds have credit ratings of BBB-/Baa3 or higher from major agencies."
         },
         {
           id: 7,
           question: "What is a bond laddering strategy?",
           options: [
-            "Construct portfolio with bonds maturing evenly over time",
-            "Only buying long-term bonds",
             "Buying bonds of increasing risk",
-            "Climbing the bond quality ladder"
+            "Construct portfolio with bonds maturing evenly over time",
+            "Climbing the bond quality ladder",
+            "Only buying long-term bonds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Laddering spreads maturities to provide regular cash flow and reduce reinvestment risk."
         },
         {
           id: 8,
           question: "What is prepayment risk in MBS?",
           options: [
-            "Risk mortgages paid early when rates fall, forcing reinvestment at lower rates",
-            "Risk of paying too early",
             "Risk of never being paid",
-            "Risk from premature payments"
+            "Risk mortgages paid early when rates fall, forcing reinvestment at lower rates",
+            "Risk from premature payments",
+            "Risk of paying too early"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Prepayment risk occurs when homeowners refinance at lower rates, returning principal that must be reinvested at lower yields."
         },
         {
           id: 9,
           question: "What are TIPS?",
           options: [
-            "Treasury Inflation-Protected Securities",
-            "Taxable Interest Protection Securities",
             "Temporary Interest Payment Securities",
+            "Taxable Interest Protection Securities",
+            "Treasury Inflation-Protected Securities",
             "Treasury Interest Parity Securities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TIPS protect against inflation by adjusting principal based on CPI changes."
         },
         {
           id: 10,
           question: "What is a barbell strategy?",
           options: [
+            "Balancing risk perfectly",
             "Combine short and long maturities, avoiding intermediate",
-            "Only buy barbell-shaped bonds",
             "Weightlifting with bonds",
-            "Balancing risk perfectly"
+            "Only buy barbell-shaped bonds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Barbell strategy invests at both short and long ends of yield curve for flexibility."
         },
         {
@@ -1450,9 +1450,9 @@ Remember: Fixed income provides stability and income but requires careful attent
           question: "What moves inversely to bond prices?",
           options: [
             "Yields",
-            "Coupon rates",
             "Credit ratings",
-            "Maturity dates"
+            "Maturity dates",
+            "Coupon rates"
           ],
           correctAnswer: 0,
           explanation: "Bond prices and yields have an inverse relationship - when yields rise, prices fall."
@@ -1461,72 +1461,72 @@ Remember: Fixed income provides stability and income but requires careful attent
           id: 12,
           question: "What does an inverted yield curve often predict?",
           options: [
-            "Economic recession",
             "Strong economic growth",
             "Stable inflation",
+            "Economic recession",
             "Currency appreciation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Historically, inverted yield curves have often preceded economic recessions."
         },
         {
           id: 13,
           question: "What is immunization?",
           options: [
-            "Strategy using duration matching to protect against interest rate changes",
-            "Vaccination against bond losses",
             "Making bonds immune to default",
-            "Protecting against all risks"
+            "Vaccination against bond losses",
+            "Protecting against all risks",
+            "Strategy using duration matching to protect against interest rate changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Immunization matches portfolio duration to investment horizon to lock in yield."
         },
         {
           id: 14,
           question: "What is credit spread?",
           options: [
-            "Extra yield over treasuries compensating for default risk",
             "Spread between different coupon rates",
             "Difference in credit limits",
-            "Spreading credit risk"
+            "Spreading credit risk",
+            "Extra yield over treasuries compensating for default risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Credit spread is the additional yield investors demand for taking credit risk."
         },
         {
           id: 15,
           question: "What is OAS?",
           options: [
-            "Option-Adjusted Spread - spread after removing value of embedded options",
+            "Overall Average Spread",
             "Original Annual Spread",
-            "Optional Additional Security",
-            "Overall Average Spread"
+            "Option-Adjusted Spread - spread after removing value of embedded options",
+            "Optional Additional Security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "OAS allows comparison between bonds with different embedded options by removing option value."
         },
         {
           id: 16,
           question: "What is a bullet strategy?",
           options: [
-            "Concentrate in specific maturity range",
             "Fast bond trading",
             "Shooting for high returns",
-            "Aggressive bond strategy"
+            "Aggressive bond strategy",
+            "Concentrate in specific maturity range"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bullet strategy concentrates bonds around a specific maturity date."
         },
         {
           id: 17,
           question: "What is reinvestment risk?",
           options: [
-            "Risk that coupons must be reinvested at lower rates",
             "Risk of not reinvesting",
             "Risk from too much reinvestment",
+            "Risk that coupons must be reinvested at lower rates",
             "Risk of reinvestment fraud"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reinvestment risk is the uncertainty about the rate at which future cash flows can be reinvested."
         },
         {
@@ -1545,24 +1545,24 @@ Remember: Fixed income provides stability and income but requires careful attent
           id: 19,
           question: "What is yield to worst?",
           options: [
-            "Lowest possible yield given all call or prepayment scenarios",
-            "Yield during worst market conditions",
             "Minimum guaranteed yield",
-            "Yield if everything goes wrong"
+            "Yield if everything goes wrong",
+            "Lowest possible yield given all call or prepayment scenarios",
+            "Yield during worst market conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "YTW considers the worst outcome for investor from possible early redemption."
         },
         {
           id: 20,
           question: "What provides stability and income in portfolios?",
           options: [
-            "Fixed income investments",
-            "Only stocks",
+            "Alternative investments",
             "Cash equivalents",
-            "Alternative investments"
+            "Fixed income investments",
+            "Only stocks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Fixed income typically provides regular income and lower volatility than equities."
         }
       ]
@@ -1740,24 +1740,24 @@ Remember: Successful equity portfolio management requires a disciplined process,
           id: 1,
           question: "What is value investing?",
           options: [
-            "Buying stocks trading below intrinsic value",
-            "Buying only valuable companies",
             "Investing for ethical values",
-            "Buying stocks with highest prices"
+            "Buying stocks with highest prices",
+            "Buying only valuable companies",
+            "Buying stocks trading below intrinsic value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Value investing seeks stocks priced below their estimated intrinsic value."
         },
         {
           id: 2,
           question: "What is top-down analysis?",
           options: [
-            "Starting with macroeconomic, then industry, then company analysis",
             "Analyzing only top companies",
+            "Starting with macroeconomic, then industry, then company analysis",
             "Looking at highest prices first",
             "Starting with company details first"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Top-down analysis begins with big picture economic factors before drilling down to specific companies."
         },
         {
@@ -1766,8 +1766,8 @@ Remember: Successful equity portfolio management requires a disciplined process,
           options: [
             "Identifying characteristics that explain stock returns",
             "Models factoring in all risks",
-            "Multiplication models for returns",
-            "Simple return calculators"
+            "Simple return calculators",
+            "Multiplication models for returns"
           ],
           correctAnswer: 0,
           explanation: "Factor models identify systematic sources of returns like value, size, momentum, and quality."
@@ -1777,9 +1777,9 @@ Remember: Successful equity portfolio management requires a disciplined process,
           question: "What is market capitalization weighting?",
           options: [
             "Weights proportional to company size",
-            "Equal weights for all stocks",
+            "Weights by market share",
             "Weights based on trading volume",
-            "Weights by market share"
+            "Equal weights for all stocks"
           ],
           correctAnswer: 0,
           explanation: "Market cap weighting gives larger companies greater portfolio weight, mimicking market indices."
@@ -1788,12 +1788,12 @@ Remember: Successful equity portfolio management requires a disciplined process,
           id: 5,
           question: "What is the size premium?",
           options: [
-            "Historical excess returns of small companies over large companies",
             "Extra charge for small orders",
             "Premium for size analysis",
-            "Bonus for large portfolios"
+            "Bonus for large portfolios",
+            "Historical excess returns of small companies over large companies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Historically, small-cap stocks have outperformed large-cap stocks over long periods."
         },
         {
@@ -1802,8 +1802,8 @@ Remember: Successful equity portfolio management requires a disciplined process,
           options: [
             "How different portfolio is from benchmark",
             "How actively portfolio trades",
-            "Share of active management",
-            "Active participation in companies"
+            "Active participation in companies",
+            "Share of active management"
           ],
           correctAnswer: 0,
           explanation: "Active share quantifies the percentage of portfolio holdings that differ from the benchmark index."
@@ -1813,9 +1813,9 @@ Remember: Successful equity portfolio management requires a disciplined process,
           question: "What is negative screening in ESG?",
           options: [
             "Excluding companies involved in controversial activities",
-            "Screening out negative returns",
             "Looking for negative factors",
-            "Avoiding all screening"
+            "Avoiding all screening",
+            "Screening out negative returns"
           ],
           correctAnswer: 0,
           explanation: "Negative screening avoids investments in companies with undesirable products or practices."
@@ -1824,72 +1824,72 @@ Remember: Successful equity portfolio management requires a disciplined process,
           id: 8,
           question: "What is implementation shortfall?",
           options: [
-            "Difference between paper portfolio return and actual return after trading costs",
             "Shortfall in implementation",
             "Failure to implement strategy",
-            "Missing implementation deadline"
+            "Missing implementation deadline",
+            "Difference between paper portfolio return and actual return after trading costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Implementation shortfall measures the cost of turning investment decisions into actual portfolios."
         },
         {
           id: 9,
           question: "What is return attribution?",
           options: [
-            "Decomposing returns into allocation, selection, and interaction effects",
+            "Reporting returns to clients",
             "Attributing returns to luck",
-            "Giving credit for returns",
-            "Reporting returns to clients"
+            "Decomposing returns into allocation, selection, and interaction effects",
+            "Giving credit for returns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Return attribution analyzes what decisions contributed to portfolio performance."
         },
         {
           id: 10,
           question: "What is the disposition effect?",
           options: [
-            "Tendency to sell winners too early and hold losers too long",
-            "Effect of disposition on returns",
+            "Disposing of losing positions",
             "How disposition affects investing",
-            "Disposing of losing positions"
+            "Tendency to sell winners too early and hold losers too long",
+            "Effect of disposition on returns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The disposition effect is a behavioral bias where investors realize gains too quickly and avoid realizing losses."
         },
         {
           id: 11,
           question: "What is growth investing?",
           options: [
-            "Buying companies with above-average earnings growth potential",
-            "Only investing in growing economies",
             "Investing for portfolio growth only",
-            "Buying stocks that grow dividends"
+            "Buying companies with above-average earnings growth potential",
+            "Buying stocks that grow dividends",
+            "Only investing in growing economies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Growth investors focus on companies expected to grow earnings faster than average."
         },
         {
           id: 12,
           question: "What is bottom-up analysis?",
           options: [
-            "Starting with individual company analysis, then aggregating to portfolio view",
             "Analyzing worst performers first",
+            "Starting with broad economy last",
             "Looking at base factors first",
-            "Starting with broad economy last"
+            "Starting with individual company analysis, then aggregating to portfolio view"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bottom-up analysis begins with detailed company research before considering macroeconomic factors."
         },
         {
           id: 13,
           question: "What is momentum investing?",
           options: [
-            "Buying stocks that have been rising and selling those that have been falling",
             "Investing with market momentum",
-            "Following momentum indicators",
-            "Trading based on speed"
+            "Buying stocks that have been rising and selling those that have been falling",
+            "Trading based on speed",
+            "Following momentum indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Momentum strategies assume recent price trends will continue in the near term."
         },
         {
@@ -1897,8 +1897,8 @@ Remember: Successful equity portfolio management requires a disciplined process,
           question: "What does passive management provide?",
           options: [
             "Guaranteed market returns less fees",
-            "Guaranteed outperformance",
             "Active management benefits",
+            "Guaranteed outperformance",
             "Customized portfolios"
           ],
           correctAnswer: 0,
@@ -1908,24 +1908,24 @@ Remember: Successful equity portfolio management requires a disciplined process,
           id: 15,
           question: "What is ESG integration?",
           options: [
-            "Incorporating ESG factors into traditional financial analysis",
+            "Full ESG implementation",
             "Integrating all ESG data",
-            "Combining ESG with other factors",
-            "Full ESG implementation"
+            "Incorporating ESG factors into traditional financial analysis",
+            "Combining ESG with other factors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ESG integration considers environmental, social, and governance factors alongside financial analysis."
         },
         {
           id: 16,
           question: "What is market impact?",
           options: [
-            "Effect of trading on security prices",
             "Impact of market news",
+            "How markets impact investors",
             "Market's effect on economy",
-            "How markets impact investors"
+            "Effect of trading on security prices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Market impact refers to how large trades move prices against the trader."
         },
         {
@@ -1944,36 +1944,36 @@ Remember: Successful equity portfolio management requires a disciplined process,
           id: 18,
           question: "What is attention-driven trading?",
           options: [
-            "Buying stocks that have been in news, regardless of fundamentals",
-            "Trading only when paying attention",
             "Focusing attention on trading",
-            "Trading based on attention indicators"
+            "Trading based on attention indicators",
+            "Trading only when paying attention",
+            "Buying stocks that have been in news, regardless of fundamentals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Attention-driven trading occurs when investors buy stocks simply because they've recently been in the news."
         },
         {
           id: 19,
           question: "What is alternative data?",
           options: [
-            "Using non-traditional data sources for investment analysis",
             "Alternative to data analysis",
             "Different data formats",
-            "Backup data sources"
+            "Backup data sources",
+            "Using non-traditional data sources for investment analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Alternative data includes unconventional sources like satellite imagery, social media, or credit card transactions."
         },
         {
           id: 20,
           question: "What does successful equity management require?",
           options: [
-            "Disciplined process and understanding of behavioral biases",
             "Only good stock picking",
+            "Disciplined process and understanding of behavioral biases",
             "Perfect market timing",
             "Ignoring market conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Success requires discipline, risk management, and awareness of psychological traps."
         }
       ]
@@ -2157,60 +2157,60 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           id: 1,
           question: "What distinguishes alternative investments from traditional investments?",
           options: [
-            "Often less liquid, more complex, with different risk-return profiles",
+            "Completely replacing traditional investments",
             "Always higher returning",
-            "Only for alternative investors",
-            "Completely replacing traditional investments"
+            "Often less liquid, more complex, with different risk-return profiles",
+            "Only for alternative investors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Alternatives typically feature illiquidity, complexity, and different characteristics than stocks and bonds."
         },
         {
           id: 2,
           question: "What are REITs?",
           options: [
-            "Publicly traded companies owning income-producing real estate",
             "Real estate investment teams",
+            "Publicly traded companies owning income-producing real estate",
             "Rental income trusts",
             "Real estate insurance trusts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "REITs provide liquid exposure to real estate with dividend distribution requirements."
         },
         {
           id: 3,
           question: "What is the J-curve effect in private equity?",
           options: [
-            "Early negative returns followed by positive returns as investments mature",
             "J-shaped return pattern",
             "Jump in returns curve",
-            "Justification curve for investments"
+            "Justification curve for investments",
+            "Early negative returns followed by positive returns as investments mature"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The J-curve describes initial negative returns from fees followed by positive returns from maturing investments."
         },
         {
           id: 4,
           question: "What is a typical hedge fund fee structure?",
           options: [
-            "2% management fee plus 20% of profits above hurdle",
-            "1% flat fee only",
+            "Fees based on assets only",
             "No management fee, 30% of profits",
-            "Fees based on assets only"
+            "1% flat fee only",
+            "2% management fee plus 20% of profits above hurdle"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "\"2 and 20\" is common but varies, with performance fees incentivizing outperformance."
         },
         {
           id: 5,
           question: "Why invest in commodities?",
           options: [
-            "Inflation hedge and diversification",
-            "Guaranteed high returns",
             "No risk involved",
-            "Only for commodity experts"
+            "Guaranteed high returns",
+            "Only for commodity experts",
+            "Inflation hedge and diversification"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Commodities often rise with inflation and have low correlation with financial assets."
         },
         {
@@ -2218,8 +2218,8 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           question: "What characterizes infrastructure investments?",
           options: [
             "Stable cash flows and inflation linkage",
-            "High volatility and growth",
             "Short-term returns",
+            "High volatility and growth",
             "Technology focus"
           ],
           correctAnswer: 0,
@@ -2229,12 +2229,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           id: 7,
           question: "What is typical alternative allocation in portfolios?",
           options: [
-            "5-25% depending on objectives and risk tolerance",
             "Always 50% or more",
-            "Only for very wealthy investors",
-            "Should replace all traditional investments"
+            "5-25% depending on objectives and risk tolerance",
+            "Should replace all traditional investments",
+            "Only for very wealthy investors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Alternatives typically complement rather than replace traditional investments."
         },
         {
@@ -2242,8 +2242,8 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           question: "What is liquidity risk with alternatives?",
           options: [
             "Difficulty selling quickly without significant price concessions",
-            "Risk of having too much cash",
             "Risk from liquid alternatives",
+            "Risk of having too much cash",
             "No risk if held long-term"
           ],
           correctAnswer: 0,
@@ -2255,8 +2255,8 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           options: [
             "Time-weighted return accounting for cash flow timing",
             "Initial return rate",
-            "Interest rate risk",
-            "Immediate return ratio"
+            "Immediate return ratio",
+            "Interest rate risk"
           ],
           correctAnswer: 0,
           explanation: "IRR accounts for when cash flows occur, important for investments with irregular distributions."
@@ -2266,9 +2266,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           question: "What is due diligence for alternatives?",
           options: [
             "Thorough investigation given complexity and opacity",
-            "Simple background check",
+            "Diligently investing",
             "Only checking past returns",
-            "Diligently investing"
+            "Simple background check"
           ],
           correctAnswer: 0,
           explanation: "Due diligence is critical for alternatives given their complexity and limited transparency."
@@ -2277,24 +2277,24 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           id: 11,
           question: "What is venture capital?",
           options: [
-            "Investing in early-stage companies with high growth potential",
+            "Venturing into new markets",
             "Capital for adventures",
             "Risky capital investments",
-            "Venturing into new markets"
+            "Investing in early-stage companies with high growth potential"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Venture capital funds startups and early-stage companies with high growth potential."
         },
         {
           id: 12,
           question: "What is long/short equity strategy?",
           options: [
-            "Long positions in expected winners, short positions in expected losers",
-            "Long-term and short-term mixes",
+            "Long only with short breaks",
             "Lengthy short selling",
-            "Long only with short breaks"
+            "Long positions in expected winners, short positions in expected losers",
+            "Long-term and short-term mixes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Long/short strategies aim to profit from both rising and falling stock prices."
         },
         {
@@ -2302,9 +2302,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           question: "What does contango mean in commodities?",
           options: [
             "Futures prices higher than spot prices, creating negative roll yield",
-            "Continuation of trends",
             "Content with gains",
-            "Continuing gains"
+            "Continuing gains",
+            "Continuation of trends"
           ],
           correctAnswer: 0,
           explanation: "Contango occurs when futures prices exceed spot prices, creating costs when rolling contracts."
@@ -2313,12 +2313,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           id: 14,
           question: "What is the illiquidity premium?",
           options: [
-            "Extra return expected for lack of liquidity",
             "Premium for liquid assets",
+            "Extra return expected for lack of liquidity",
             "Bonus for illiquid investments",
             "Payment for liquidity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Investors require higher returns to compensate for inability to quickly sell investments."
         },
         {
@@ -2326,9 +2326,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           question: "What is asset-liability matching?",
           options: [
             "Aligning investments with future spending needs",
+            "Liability for assets",
             "Matching assets to liabilities on balance sheet",
-            "Equal assets and liabilities",
-            "Liability for assets"
+            "Equal assets and liabilities"
           ],
           correctAnswer: 0,
           explanation: "Asset-liability matching ensures investments can fund future obligations."
@@ -2338,9 +2338,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           question: "What are managed futures?",
           options: [
             "Systematic trading in futures markets based on quantitative models",
-            "Managing future investments",
             "Futures that are managed",
-            "Management of future returns"
+            "Management of future returns",
+            "Managing future investments"
           ],
           correctAnswer: 0,
           explanation: "Managed futures use systematic approaches to trade futures contracts across asset classes."
@@ -2349,12 +2349,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           id: 17,
           question: "What is growth equity?",
           options: [
-            "Investing in established companies needing capital for expansion",
-            "Equity that grows",
+            "Equity for growth only",
             "Growing equity markets",
-            "Equity for growth only"
+            "Investing in established companies needing capital for expansion",
+            "Equity that grows"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Growth equity sits between venture capital and buyouts in company lifecycle and risk profile."
         },
         {
@@ -2373,24 +2373,24 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
           id: 19,
           question: "What is liquidity tiering?",
           options: [
-            "Structuring portfolio with different liquidity layers",
-            "Tiered liquidity system",
             "Liquidity in tiers",
-            "Tiered investment approach"
+            "Tiered liquidity system",
+            "Tiered investment approach",
+            "Structuring portfolio with different liquidity layers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Liquidity tiering ensures sufficient liquid assets for near-term needs while investing illiquid assets for longer term."
         },
         {
           id: 20,
           question: "How should alternatives be used in portfolios?",
           options: [
-            "To complement, not replace, a solid core of traditional investments",
-            "As the entire portfolio",
             "Only for speculation",
-            "To replace all bonds"
+            "To replace all bonds",
+            "To complement, not replace, a solid core of traditional investments",
+            "As the entire portfolio"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Alternatives should enhance diversification and returns while maintaining portfolio balance."
         }
       ]
@@ -2408,12 +2408,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 1,
         question: "What is the key insight of Modern Portfolio Theory?",
         options: [
-          "Portfolios should consider how assets interact, not just individual returns",
           "Only high-return assets should be selected",
-          "Risk should be ignored if returns are high enough",
-          "All assets should have the same expected return"
+          "Portfolios should consider how assets interact, not just individual returns",
+          "All assets should have the same expected return",
+          "Risk should be ignored if returns are high enough"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "MPT emphasizes portfolio construction considering asset interactions and diversification.",
         module: 1
       },
@@ -2421,12 +2421,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 2,
         question: "What does diversification achieve?",
         options: [
-          "Reduces portfolio risk without necessarily reducing expected return",
           "Guarantees higher returns",
+          "Always increases portfolio returns",
           "Eliminates all investment risk",
-          "Always increases portfolio returns"
+          "Reduces portfolio risk without necessarily reducing expected return"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Diversification reduces unsystematic risk through combining imperfectly correlated assets.",
         module: 1
       },
@@ -2434,12 +2434,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 3,
         question: "What is the efficient frontier?",
         options: [
+          "Portfolios with zero risk",
           "Set of portfolios offering highest return for given risk or lowest risk for given return",
-          "Line connecting all possible portfolios",
           "Only the highest returning portfolio",
-          "Portfolios with zero risk"
+          "Line connecting all possible portfolios"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The efficient frontier represents optimal risk-return trade-offs for portfolios.",
         module: 1
       },
@@ -2447,12 +2447,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 4,
         question: "What is systematic risk?",
         options: [
+          "Risk from poor management decisions",
           "Market risk affecting all assets that cannot be diversified away",
           "Risk specific to individual companies",
-          "Risk that can be eliminated through diversification",
-          "Risk from poor management decisions"
+          "Risk that can be eliminated through diversification"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Systematic risk is market-wide risk that affects all investments.",
         module: 1
       },
@@ -2460,12 +2460,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 5,
         question: "What does beta measure in CAPM?",
         options: [
-          "An asset's sensitivity to market movements",
           "Total risk of an asset",
+          "An asset's sensitivity to market movements",
           "Expected return of an asset",
           "Correlation between two assets"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Beta quantifies how much an asset's returns move relative to overall market returns.",
         module: 1
       },
@@ -2473,12 +2473,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 6,
         question: "What is the Capital Market Line?",
         options: [
-          "Line showing risk-return combinations of risk-free asset combined with risky portfolio",
           "Boundary of all possible portfolios",
+          "Historical market return trend",
           "Line connecting individual stocks",
-          "Historical market return trend"
+          "Line showing risk-return combinations of risk-free asset combined with risky portfolio"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "CML shows efficient portfolios when combining risky assets with a risk-free asset.",
         module: 1
       },
@@ -2486,12 +2486,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 7,
         question: "What does correlation measure?",
         options: [
-          "How two assets move relative to each other",
+          "Difference between two returns",
           "Total risk of a portfolio",
-          "Expected returns of assets",
-          "Difference between two returns"
+          "How two assets move relative to each other",
+          "Expected returns of assets"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Correlation quantifies the relationship between returns of two assets.",
         module: 1
       },
@@ -2502,9 +2502,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         question: "What does research show is the primary determinant of portfolio returns?",
         options: [
           "Asset allocation",
+          "Economic forecasts",
           "Market timing",
-          "Security selection",
-          "Economic forecasts"
+          "Security selection"
         ],
         correctAnswer: 0,
         explanation: "Asset allocation explains most portfolio return variability over time.",
@@ -2515,9 +2515,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         question: "What is strategic asset allocation?",
         options: [
           "Long-term target weights for asset classes based on investor objectives",
-          "Daily trading based on market news",
+          "Changing allocation with every market move",
           "Buying only the highest returning assets",
-          "Changing allocation with every market move"
+          "Daily trading based on market news"
         ],
         correctAnswer: 0,
         explanation: "Strategic allocation establishes long-term policy targets.",
@@ -2527,12 +2527,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 10,
         question: "What is rebalancing?",
         options: [
-          "Adjusting portfolio back to target weights after market movements",
-          "Changing target weights frequently",
+          "Only buying more of winning assets",
           "Selling all assets and starting over",
-          "Only buying more of winning assets"
+          "Changing target weights frequently",
+          "Adjusting portfolio back to target weights after market movements"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Rebalancing maintains desired risk profile and enforces discipline.",
         module: 2
       },
@@ -2541,9 +2541,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         question: "What is tactical asset allocation?",
         options: [
           "Short-term adjustments around strategic targets based on market outlook",
+          "Military investment strategy",
           "Never changing the allocation",
-          "Only investing in tactical industries",
-          "Military investment strategy"
+          "Only investing in tactical industries"
         ],
         correctAnswer: 0,
         explanation: "Tactical allocation involves temporary deviations from strategic targets.",
@@ -2553,12 +2553,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 12,
         question: "What is the core-satellite approach?",
         options: [
-          "Combining passive core with active satellite strategies",
-          "Investing only in space-related stocks",
           "Centralized investment management",
-          "Satellite tracking of investments"
+          "Investing only in space-related stocks",
+          "Satellite tracking of investments",
+          "Combining passive core with active satellite strategies"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Core-satellite uses low-cost passive core with active satellite strategies.",
         module: 2
       },
@@ -2566,12 +2566,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 13,
         question: "What are target date funds?",
         options: [
-          "Funds that automatically adjust allocation as target date approaches",
-          "Funds targeting specific dates for high returns",
           "Funds that expire on certain dates",
-          "Funds that only invest in dated securities"
+          "Funds that automatically adjust allocation as target date approaches",
+          "Funds that only invest in dated securities",
+          "Funds targeting specific dates for high returns"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Target date funds gradually become more conservative as target date nears.",
         module: 2
       },
@@ -2579,12 +2579,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 14,
         question: "What is home country bias?",
         options: [
-          "Tendency to overweight domestic investments",
-          "Bias against home purchases",
+          "Avoiding foreign investments completely",
           "Preference for domestic products",
-          "Avoiding foreign investments completely"
+          "Bias against home purchases",
+          "Tendency to overweight domestic investments"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Home country bias reduces international diversification benefits.",
         module: 2
       },
@@ -2594,12 +2594,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 15,
         question: "What is price risk?",
         options: [
+          "Risk of price controls",
           "Risk that asset prices will decline",
-          "Risk of paying too much",
           "Risk from pricing errors",
-          "Risk of price controls"
+          "Risk of paying too much"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Price risk is the possibility of losses from decreases in asset values.",
         module: 3
       },
@@ -2607,12 +2607,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 16,
         question: "What does standard deviation measure?",
         options: [
-          "Total volatility or dispersion of returns",
           "Average return only",
-          "Maximum possible loss",
-          "Probability of gain"
+          "Total volatility or dispersion of returns",
+          "Probability of gain",
+          "Maximum possible loss"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Standard deviation quantifies how much returns vary from their average.",
         module: 3
       },
@@ -2620,12 +2620,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 17,
         question: "What is Value at Risk (VaR)?",
         options: [
-          "Estimates maximum loss over time at given confidence level",
           "Value added from risk taking",
+          "Valuation adjustment ratio",
           "Variable annual return",
-          "Valuation adjustment ratio"
+          "Estimates maximum loss over time at given confidence level"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "VaR estimates worst expected loss over specified period at given confidence.",
         module: 3
       },
@@ -2634,9 +2634,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         question: "What does the Sharpe ratio measure?",
         options: [
           "Excess return per unit of total risk",
+          "Probability of beating the market",
           "Total return only",
-          "Risk without considering returns",
-          "Probability of beating the market"
+          "Risk without considering returns"
         ],
         correctAnswer: 0,
         explanation: "Sharpe ratio evaluates risk-adjusted performance comparing excess returns to volatility.",
@@ -2646,12 +2646,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 19,
         question: "What is the first step in risk management process?",
         options: [
-          "Risk identification",
-          "Risk measurement",
           "Risk control",
+          "Risk measurement",
+          "Risk identification",
           "Risk reporting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "You must identify what risks exist before measuring or managing them.",
         module: 3
       },
@@ -2674,12 +2674,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 21,
         question: "What is the face amount repaid at bond maturity called?",
         options: [
-          "Principal or par value",
           "Coupon value",
+          "Book value",
           "Market value",
-          "Book value"
+          "Principal or par value"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Principal or par value is the amount issuer promises to repay at maturity.",
         module: 4
       },
@@ -2687,12 +2687,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 22,
         question: "What does yield to maturity (YTM) measure?",
         options: [
-          "Total return if bond held to maturity with coupons reinvested at YTM",
-          "Current income only",
           "Guaranteed return",
-          "Return if sold today"
+          "Return if sold today",
+          "Current income only",
+          "Total return if bond held to maturity with coupons reinvested at YTM"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "YTM assumes hold to maturity and reinvestment at YTM rate.",
         module: 4
       },
@@ -2700,12 +2700,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 23,
         question: "What is a normal yield curve shape?",
         options: [
-          "Upward sloping - longer maturities have higher yields",
+          "Humped - middle maturities highest",
           "Downward sloping - shorter maturities have higher yields",
           "Flat - little difference across maturities",
-          "Humped - middle maturities highest"
+          "Upward sloping - longer maturities have higher yields"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Normal curve slopes upward, reflecting term premium for longer commitments.",
         module: 4
       },
@@ -2714,9 +2714,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         question: "What does duration measure?",
         options: [
           "Interest rate sensitivity of bond prices",
-          "Time until bond is issued",
+          "Bond's age",
           "Length of coupon payments",
-          "Bond's age"
+          "Time until bond is issued"
         ],
         correctAnswer: 0,
         explanation: "Duration estimates how much bond prices change when interest rates change.",
@@ -2726,12 +2726,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 25,
         question: "What are investment grade bonds?",
         options: [
+          "Only government bonds",
           "BBB-/Baa3 and above credit rating",
           "Any bond that pays interest",
-          "Only government bonds",
           "Bonds with guaranteed returns"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Investment grade bonds have credit ratings of BBB-/Baa3 or higher.",
         module: 4
       },
@@ -2739,12 +2739,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 26,
         question: "What is a bond laddering strategy?",
         options: [
+          "Climbing the bond quality ladder",
           "Construct portfolio with bonds maturing evenly over time",
-          "Only buying long-term bonds",
           "Buying bonds of increasing risk",
-          "Climbing the bond quality ladder"
+          "Only buying long-term bonds"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Laddering spreads maturities for regular cash flow and reinvestment risk reduction.",
         module: 4
       },
@@ -2754,12 +2754,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 27,
         question: "What is value investing?",
         options: [
-          "Buying stocks trading below intrinsic value",
           "Buying only valuable companies",
           "Investing for ethical values",
-          "Buying stocks with highest prices"
+          "Buying stocks with highest prices",
+          "Buying stocks trading below intrinsic value"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Value investing seeks stocks priced below estimated intrinsic value.",
         module: 5
       },
@@ -2767,12 +2767,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 28,
         question: "What is top-down analysis?",
         options: [
+          "Starting with company details first",
           "Starting with macroeconomic, then industry, then company analysis",
           "Analyzing only top companies",
-          "Looking at highest prices first",
-          "Starting with company details first"
+          "Looking at highest prices first"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Top-down begins with big picture before drilling to specific companies.",
         module: 5
       },
@@ -2781,9 +2781,9 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         question: "What are factor models?",
         options: [
           "Identifying characteristics that explain stock returns",
-          "Models factoring in all risks",
+          "Simple return calculators",
           "Multiplication models for returns",
-          "Simple return calculators"
+          "Models factoring in all risks"
         ],
         correctAnswer: 0,
         explanation: "Factor models identify systematic return sources like value, size, momentum.",
@@ -2793,12 +2793,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 30,
         question: "What is market capitalization weighting?",
         options: [
-          "Weights proportional to company size",
-          "Equal weights for all stocks",
           "Weights based on trading volume",
-          "Weights by market share"
+          "Weights by market share",
+          "Equal weights for all stocks",
+          "Weights proportional to company size"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Market cap weighting gives larger companies greater portfolio weight.",
         module: 5
       },
@@ -2806,12 +2806,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 31,
         question: "What does active share measure?",
         options: [
+          "Share of active management",
           "How different portfolio is from benchmark",
           "How actively portfolio trades",
-          "Share of active management",
           "Active participation in companies"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Active share quantifies percentage of portfolio differing from benchmark.",
         module: 5
       },
@@ -2819,12 +2819,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 32,
         question: "What is negative screening in ESG?",
         options: [
+          "Looking for negative factors",
           "Excluding companies involved in controversial activities",
           "Screening out negative returns",
-          "Looking for negative factors",
           "Avoiding all screening"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Negative screening avoids investments in companies with undesirable practices.",
         module: 5
       },
@@ -2832,12 +2832,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 33,
         question: "What is implementation shortfall?",
         options: [
-          "Difference between paper portfolio return and actual return after trading costs",
           "Shortfall in implementation",
-          "Failure to implement strategy",
-          "Missing implementation deadline"
+          "Difference between paper portfolio return and actual return after trading costs",
+          "Missing implementation deadline",
+          "Failure to implement strategy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Implementation shortfall measures cost of turning decisions into actual portfolios.",
         module: 5
       },
@@ -2847,12 +2847,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 34,
         question: "What distinguishes alternative investments from traditional investments?",
         options: [
+          "Completely replacing traditional investments",
           "Often less liquid, more complex, with different risk-return profiles",
           "Always higher returning",
-          "Only for alternative investors",
-          "Completely replacing traditional investments"
+          "Only for alternative investors"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Alternatives feature illiquidity, complexity, and different characteristics.",
         module: 6
       },
@@ -2860,12 +2860,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 35,
         question: "What are REITs?",
         options: [
-          "Publicly traded companies owning income-producing real estate",
           "Real estate investment teams",
+          "Real estate insurance trusts",
           "Rental income trusts",
-          "Real estate insurance trusts"
+          "Publicly traded companies owning income-producing real estate"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "REITs provide liquid exposure to real estate with dividend requirements.",
         module: 6
       },
@@ -2875,8 +2875,8 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         options: [
           "Early negative returns followed by positive returns as investments mature",
           "J-shaped return pattern",
-          "Jump in returns curve",
-          "Justification curve for investments"
+          "Justification curve for investments",
+          "Jump in returns curve"
         ],
         correctAnswer: 0,
         explanation: "J-curve describes initial negative returns from fees followed by positive returns.",
@@ -2886,12 +2886,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 37,
         question: "What is a typical hedge fund fee structure?",
         options: [
-          "2% management fee plus 20% of profits above hurdle",
           "1% flat fee only",
-          "No management fee, 30% of profits",
-          "Fees based on assets only"
+          "Fees based on assets only",
+          "2% management fee plus 20% of profits above hurdle",
+          "No management fee, 30% of profits"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "\"2 and 20\" is common hedge fund fee structure.",
         module: 6
       },
@@ -2899,12 +2899,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 38,
         question: "Why invest in commodities?",
         options: [
-          "Inflation hedge and diversification",
-          "Guaranteed high returns",
           "No risk involved",
-          "Only for commodity experts"
+          "Guaranteed high returns",
+          "Only for commodity experts",
+          "Inflation hedge and diversification"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Commodities often rise with inflation and diversify from financial assets.",
         module: 6
       },
@@ -2913,8 +2913,8 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         question: "What characterizes infrastructure investments?",
         options: [
           "Stable cash flows and inflation linkage",
-          "High volatility and growth",
           "Short-term returns",
+          "High volatility and growth",
           "Technology focus"
         ],
         correctAnswer: 0,
@@ -2925,12 +2925,12 @@ Remember: Alternatives can enhance portfolios but require careful selection, app
         id: 40,
         question: "What is typical alternative allocation in portfolios?",
         options: [
-          "5-25% depending on objectives and risk tolerance",
-          "Always 50% or more",
+          "Should replace all traditional investments",
           "Only for very wealthy investors",
-          "Should replace all traditional investments"
+          "5-25% depending on objectives and risk tolerance",
+          "Always 50% or more"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Alternatives typically complement rather than replace traditional investments.",
         module: 6
       }

@@ -60,8 +60,8 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           options: [
             "Leisure, business, and special interest travel",
             "Domestic, international, and local travel",
-            "Air, land, and sea travel",
-            "Luxury, budget, and mid-range travel"
+            "Luxury, budget, and mid-range travel",
+            "Air, land, and sea travel"
           ],
           correctAnswer: 0,
           explanation: "The tourism industry comprises leisure travel (vacations), business travel (work trips), and special interest travel (cultural or educational trips)."
@@ -70,12 +70,12 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           id: 2,
           question: "Which organization typically promotes a specific destination?",
           options: [
-            "Destination management organization",
-            "Tour operator",
+            "Transportation provider",
             "Travel agency",
-            "Transportation provider"
+            "Destination management organization",
+            "Tour operator"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Destination management organizations focus on promoting and developing specific locations as tourist destinations."
         },
         {
@@ -83,8 +83,8 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           question: "What does sustainable tourism aim to balance?",
           options: [
             "Visitor enjoyment, community benefits, and environmental protection",
-            "Cost savings, luxury experiences, and convenience",
             "Domestic and international tourist numbers",
+            "Cost savings, luxury experiences, and convenience",
             "Summer and winter travel seasons"
           ],
           correctAnswer: 0,
@@ -94,12 +94,12 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           id: 4,
           question: "Which skill helps when serving international travelers?",
           options: [
-            "Cultural awareness",
-            "Financial accounting",
             "Graphic design",
-            "Legal documentation"
+            "Financial accounting",
+            "Legal documentation",
+            "Cultural awareness"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural awareness helps travel professionals understand and respect different customs and expectations."
         },
         {
@@ -107,9 +107,9 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           question: "What type of travel combines business and leisure?",
           options: [
             "Bleisure travel",
-            "Special interest travel",
             "Domestic tourism",
-            "Micro-cations"
+            "Micro-cations",
+            "Special interest travel"
           ],
           correctAnswer: 0,
           explanation: "Bleisure travel combines business trips with leisure activities, extending work trips for personal enjoyment."
@@ -118,12 +118,12 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           id: 6,
           question: "Which travel segment typically recovers first after industry disruptions?",
           options: [
-            "Domestic trips",
-            "International luxury travel",
             "Business conferences",
-            "Cruise vacations"
+            "International luxury travel",
+            "Cruise vacations",
+            "Domestic trips"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Domestic travel usually recovers first as travelers feel more comfortable exploring their own country."
         },
         {
@@ -132,8 +132,8 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           options: [
             "Digital transformation",
             "Increased airport security",
-            "Currency fluctuations",
-            "Climate change"
+            "Climate change",
+            "Currency fluctuations"
           ],
           correctAnswer: 0,
           explanation: "Digital transformation through websites, apps, and online booking platforms has revolutionized travel planning."
@@ -142,12 +142,12 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           id: 8,
           question: "What do tour operators primarily create?",
           options: [
-            "Packaged holidays",
-            "Airline tickets only",
+            "Travel insurance policies",
             "Hotel websites",
-            "Travel insurance policies"
+            "Airline tickets only",
+            "Packaged holidays"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Tour operators design and sell packaged holidays that include multiple travel services."
         },
         {
@@ -155,9 +155,9 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           question: "Which skill addresses travel disruptions effectively?",
           options: [
             "Problem-solving",
-            "Public speaking",
+            "Musical ability",
             "Creative writing",
-            "Musical ability"
+            "Public speaking"
           ],
           correctAnswer: 0,
           explanation: "Problem-solving skills help travel managers handle flight cancellations, accommodation issues, and other disruptions."
@@ -166,24 +166,24 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           id: 10,
           question: "What focuses on activities rather than destinations?",
           options: [
-            "Experience-based travel",
-            "Business travel",
             "Group travel",
-            "Last-minute travel"
+            "Last-minute travel",
+            "Business travel",
+            "Experience-based travel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Experience-based travel emphasizes activities and experiences over the destination itself."
         },
         {
           id: 11,
           question: "What do travel managers negotiate with suppliers?",
           options: [
-            "Rates",
             "Office furniture",
+            "Company vehicles",
             "Employee uniforms",
-            "Company vehicles"
+            "Rates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Travel managers negotiate favorable rates with hotels, airlines, and other service providers."
         },
         {
@@ -191,9 +191,9 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           question: "What type of trips are shorter and more frequent?",
           options: [
             "Micro-cations",
-            "World cruises",
+            "Relocation trips",
             "Sabbatical travels",
-            "Relocation trips"
+            "World cruises"
           ],
           correctAnswer: 0,
           explanation: "Micro-cations are brief getaways that people take more frequently throughout the year."
@@ -202,96 +202,96 @@ Travel rebounds typically begin with domestic trips. Business travel follows lei
           id: 13,
           question: "Which industry players sell travel services directly to consumers?",
           options: [
-            "Travel agencies",
             "Airplane manufacturers",
-            "Food suppliers",
-            "Textile companies"
+            "Travel agencies",
+            "Textile companies",
+            "Food suppliers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Travel agencies act as intermediaries between travelers and service providers."
         },
         {
           id: 14,
           question: "What has become increasingly important in travel planning?",
           options: [
-            "Health and safety considerations",
             "Paper documentation",
+            "Fax machine communication",
             "Physical travel brochures",
-            "Fax machine communication"
+            "Health and safety considerations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Health protocols and safety measures have become crucial factors in travel decisions."
         },
         {
           id: 15,
           question: "What uses data to tailor travel experiences?",
           options: [
-            "Personalization",
-            "Standardization",
             "Random selection",
-            "Manual processing"
+            "Standardization",
+            "Manual processing",
+            "Personalization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Personalization uses traveler data and preferences to create customized itineraries."
         },
         {
           id: 16,
           question: "What do travel managers ensure for their clients?",
           options: [
+            "Unlimited spending",
             "Safety and satisfaction",
             "Free upgrades always",
-            "Unlimited spending",
             "Complete isolation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ensuring traveler safety and satisfaction are primary responsibilities of travel managers."
         },
         {
           id: 17,
           question: "Which market has grown in importance recently?",
           options: [
-            "Domestic tourism",
-            "Intergalactic travel",
             "Undersea commuting",
-            "Desert expeditions"
+            "Intergalactic travel",
+            "Desert expeditions",
+            "Domestic tourism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Domestic tourism has gained importance as travelers explore their own countries more."
         },
         {
           id: 18,
           question: "What do mobile applications provide for travelers?",
           options: [
-            "Instant access to services",
-            "Physical luggage",
             "Paper tickets",
-            "Travel companions"
+            "Travel companions",
+            "Physical luggage",
+            "Instant access to services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mobile apps provide immediate access to bookings, information, and assistance."
         },
         {
           id: 19,
           question: "What reduces tourism's environmental impact?",
           options: [
+            "Larger hotels",
             "Sustainable practices",
             "More flights",
-            "Larger hotels",
             "Disposable items"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sustainable practices like reducing waste and conserving resources minimize environmental impact."
         },
         {
           id: 20,
           question: "Which travel segment often recovers faster after disruptions?",
           options: [
-            "Premium travel segments",
-            "Budget backpacking",
+            "Group pilgrimages",
             "Student travel",
-            "Group pilgrimages"
+            "Budget backpacking",
+            "Premium travel segments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Premium and luxury travel segments typically recover more quickly due to their customer base."
         }
       ]
@@ -337,8 +337,8 @@ Personal interests guide activity selection. Budget constraints determine servic
           options: [
             "Connectivity",
             "Uniform colors",
-            "Food menus",
-            "Music playlists"
+            "Music playlists",
+            "Food menus"
           ],
           correctAnswer: 0,
           explanation: "Connectivity ensures smooth transfers between different transportation methods."
@@ -348,9 +348,9 @@ Personal interests guide activity selection. Budget constraints determine servic
           question: "What has mostly replaced paper tickets?",
           options: [
             "Electronic tickets",
-            "Handwritten notes",
+            "Smoke signals",
             "Voice messages",
-            "Smoke signals"
+            "Handwritten notes"
           ],
           correctAnswer: 0,
           explanation: "Electronic tickets (e-tickets) are now standard for air, rail, and many other travel services."
@@ -359,132 +359,132 @@ Personal interests guide activity selection. Budget constraints determine servic
           id: 3,
           question: "What does group accommodation require?",
           options: [
-            "Room blocking and special rates",
             "Individual negotiations",
-            "Random assignments",
-            "Self-service check-in"
+            "Room blocking and special rates",
+            "Self-service check-in",
+            "Random assignments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Group bookings typically involve reserving blocks of rooms and negotiating special rates."
         },
         {
           id: 4,
           question: "What should comprehensive itineraries include?",
           options: [
-            "All travel components",
-            "Only flight details",
             "Just hotel names",
-            "Personal photos"
+            "Personal photos",
+            "All travel components",
+            "Only flight details"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Complete itineraries include transportation, accommodation, activities, and essential information."
         },
         {
           id: 5,
           question: "What balances price with quality in transportation?",
           options: [
-            "Cost management",
             "Color coordination",
-            "Weather matching",
-            "Brand loyalty"
+            "Cost management",
+            "Brand loyalty",
+            "Weather matching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cost management involves finding the right balance between affordability and service quality."
         },
         {
           id: 6,
           question: "What are now often digital for air travel?",
           options: [
-            "Boarding passes",
             "Luggage tags",
+            "Boarding passes",
             "Pillow cases",
             "Snack packages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digital boarding passes on mobile devices have largely replaced paper boarding passes."
         },
         {
           id: 7,
           question: "What do advance reservations secure?",
           options: [
-            "Preferred properties",
             "Guaranteed sunshine",
             "Celebrity sightings",
+            "Preferred properties",
             "Empty flights"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Booking early helps secure preferred hotels, flights, and other services."
         },
         {
           id: 8,
           question: "What minimizes wait times between activities?",
           options: [
-            "Timing optimization",
-            "Random scheduling",
             "Constant rushing",
+            "Random scheduling",
+            "Timing optimization",
             "Complete spontaneity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Careful timing optimization reduces waiting periods and makes efficient use of travel time."
         },
         {
           id: 9,
           question: "What must travel managers understand for international travel?",
           options: [
-            "Visa requirements and passport validity",
             "Local fashion trends",
-            "Regional music charts",
-            "National sports teams"
+            "Visa requirements and passport validity",
+            "National sports teams",
+            "Regional music charts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Understanding entry requirements is essential for international travel planning."
         },
         {
           id: 10,
           question: "What do rate negotiations obtain?",
           options: [
-            "Corporate discounts",
+            "Celebrity status",
             "Free vacations",
-            "Unlimited upgrades",
-            "Celebrity status"
+            "Corporate discounts",
+            "Unlimited upgrades"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Negotiating with suppliers can secure discounted rates for corporate or group travel."
         },
         {
           id: 11,
           question: "What prepares for unexpected changes?",
           options: [
-            "Contingency planning",
-            "Wishful thinking",
+            "Last-minute panic",
             "Ignoring possibilities",
-            "Last-minute panic"
+            "Wishful thinking",
+            "Contingency planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Contingency plans provide alternatives when original arrangements encounter problems."
         },
         {
           id: 12,
           question: "What has become increasingly important for travel?",
           options: [
-            "Health documentation",
-            "Handwritten letters",
             "Film cameras",
+            "Handwritten letters",
+            "Health documentation",
             "Paper maps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Health certificates and vaccination records have become important travel requirements."
         },
         {
           id: 13,
           question: "What are alternative accommodations to hotels?",
           options: [
+            "Construction sites",
             "Vacation rentals and homestays",
             "Office buildings",
-            "Storage units",
-            "Construction sites"
+            "Storage units"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Vacation rentals, homestays, and serviced apartments offer alternatives to traditional hotels."
         },
         {
@@ -504,9 +504,9 @@ Personal interests guide activity selection. Budget constraints determine servic
           question: "What protects travelers during transit?",
           options: [
             "Safety protocols",
-            "Lucky charms",
             "Bright clothing",
-            "Loud talking"
+            "Loud talking",
+            "Lucky charms"
           ],
           correctAnswer: 0,
           explanation: "Safety protocols and procedures ensure traveler protection during transportation."
@@ -516,9 +516,9 @@ Personal interests guide activity selection. Budget constraints determine servic
           question: "What do flexible booking options accommodate?",
           options: [
             "Changes",
+            "No adjustments",
             "Only perfection",
-            "Complete rigidity",
-            "No adjustments"
+            "Complete rigidity"
           ],
           correctAnswer: 0,
           explanation: "Flexible booking policies allow changes or cancellations when travel plans evolve."
@@ -528,9 +528,9 @@ Personal interests guide activity selection. Budget constraints determine servic
           question: "What should itineraries balance?",
           options: [
             "Scheduled activities and free time",
-            "Only expensive items",
             "Day and night evenly",
-            "Silence and noise"
+            "Silence and noise",
+            "Only expensive items"
           ],
           correctAnswer: 0,
           explanation: "Good itineraries balance structured activities with unstructured time for relaxation."
@@ -551,24 +551,24 @@ Personal interests guide activity selection. Budget constraints determine servic
           id: 19,
           question: "What guides activity selection in customization?",
           options: [
-            "Personal interests",
-            "Random selection",
             "Popularity contests",
-            "Price only"
+            "Price only",
+            "Random selection",
+            "Personal interests"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Customized itineraries should reflect the specific interests of the travelers."
         },
         {
           id: 20,
           question: "What do cruise management and port logistics involve?",
           options: [
+            "Food preparation only",
             "Ship operations and port coordination",
-            "Only cabin cleaning",
             "Just entertainment",
-            "Food preparation only"
+            "Only cabin cleaning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cruise management involves ship operations, port logistics, and shore excursion coordination."
         }
       ]
@@ -615,24 +615,24 @@ System selection matches organizational needs. Staff training ensures proper usa
           id: 1,
           question: "What are the major Global Distribution Systems?",
           options: [
-            "Amadeus, Sabre, and Travelport",
-            "Microsoft, Apple, and Google",
             "Delta, United, and American",
+            "Microsoft, Apple, and Google",
+            "Amadeus, Sabre, and Travelport",
             "Hilton, Marriott, and Hyatt"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Amadeus, Sabre, and Travelport are the primary GDS platforms used worldwide."
         },
         {
           id: 2,
           question: "What do corporate travel platforms manage?",
           options: [
-            "Business travel programs",
-            "Personal vacations only",
             "Government diplomacy",
-            "Space tourism"
+            "Business travel programs",
+            "Space tourism",
+            "Personal vacations only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Corporate travel platforms specifically manage business travel arrangements and policies."
         },
         {
@@ -651,12 +651,12 @@ System selection matches organizational needs. Staff training ensures proper usa
           id: 4,
           question: "What allows self-service reservations?",
           options: [
-            "Online booking tools",
             "Fax machines",
             "Telegram services",
+            "Online booking tools",
             "Postal mail"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Online booking tools enable travelers to make their own reservations within policy guidelines."
         },
         {
@@ -664,9 +664,9 @@ System selection matches organizational needs. Staff training ensures proper usa
           question: "What do GDS pricing engines calculate?",
           options: [
             "Fares and rates",
-            "Only distances",
             "Weather conditions",
-            "Time zones"
+            "Time zones",
+            "Only distances"
           ],
           correctAnswer: 0,
           explanation: "GDS pricing engines automatically calculate fares, taxes, and total costs."
@@ -675,48 +675,48 @@ System selection matches organizational needs. Staff training ensures proper usa
           id: 6,
           question: "What handles customer service inquiries automatically?",
           options: [
-            "Chatbots",
-            "Human only",
             "Answering machines",
-            "Bulletin boards"
+            "Bulletin boards",
+            "Chatbots",
+            "Human only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Chatbots use AI to handle common customer service questions automatically."
         },
         {
           id: 7,
           question: "What tracks travel spending?",
           options: [
-            "Expense management systems",
+            "Guesswork",
             "Personal memory",
-            "Paper receipts",
-            "Guesswork"
+            "Expense management systems",
+            "Paper receipts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Expense management systems track and process travel-related expenditures."
         },
         {
           id: 8,
           question: "What offers destination previews?",
           options: [
-            "Virtual reality",
             "Black and white photos",
             "Text descriptions",
-            "Word of mouth"
+            "Word of mouth",
+            "Virtual reality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Virtual reality technology allows immersive previews of destinations and accommodations."
         },
         {
           id: 9,
           question: "What enforces company travel rules?",
           options: [
-            "Policy compliance tools",
+            "Random checks",
             "Manager supervision only",
             "Employee honesty",
-            "Random checks"
+            "Policy compliance tools"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Policy compliance tools automatically enforce company travel policies during booking."
         },
         {
@@ -724,8 +724,8 @@ System selection matches organizational needs. Staff training ensures proper usa
           question: "What enables secure transactions in travel?",
           options: [
             "Blockchain",
-            "Cash payments",
             "Personal checks",
+            "Cash payments",
             "Barter systems"
           ],
           correctAnswer: 0,
@@ -735,24 +735,24 @@ System selection matches organizational needs. Staff training ensures proper usa
           id: 11,
           question: "What provides travel analytics?",
           options: [
-            "Reporting dashboards",
-            "Crystal balls",
+            "Weather forecasts",
             "Fortune cookies",
-            "Weather forecasts"
+            "Crystal balls",
+            "Reporting dashboards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Reporting dashboards analyze travel data to provide insights and metrics."
         },
         {
           id: 12,
           question: "What enhances hotel experiences through connected devices?",
           options: [
-            "Internet of Things",
-            "Manual controls",
             "Paper instructions",
-            "Telephone operators"
+            "Telephone operators",
+            "Manual controls",
+            "Internet of Things"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IoT devices in hotels enable automated room controls and personalized experiences."
         },
         {
@@ -760,8 +760,8 @@ System selection matches organizational needs. Staff training ensures proper usa
           question: "What stores traveler preferences?",
           options: [
             "Traveler profiles",
-            "Random notes",
             "Memory alone",
+            "Random notes",
             "Paper forms"
           ],
           correctAnswer: 0,
@@ -771,48 +771,48 @@ System selection matches organizational needs. Staff training ensures proper usa
           id: 14,
           question: "What predicts travel patterns?",
           options: [
-            "Demand forecasting",
             "Coin flipping",
+            "Demand forecasting",
             "Animal behavior",
             "Astrology charts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Demand forecasting uses historical data to predict future travel patterns."
         },
         {
           id: 15,
           question: "What is the backbone of travel booking?",
           options: [
-            "Global Distribution Systems",
+            "Printed catalogs",
             "Personal networks",
             "Telephone books",
-            "Printed catalogs"
+            "Global Distribution Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "GDS platforms are the primary systems used for professional travel booking."
         },
         {
           id: 16,
           question: "What provides real-time travel updates?",
           options: [
-            "Mobile alerts",
             "Newspaper reports",
             "Monthly magazines",
+            "Mobile alerts",
             "Annual summaries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Mobile applications provide real-time alerts for flight changes, delays, and other updates."
         },
         {
           id: 17,
           question: "What matches technology to organizational needs?",
           options: [
-            "System selection",
-            "Random choice",
             "Most expensive option",
+            "Random choice",
+            "System selection",
             "First available"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Careful system selection ensures technology matches specific business requirements."
         },
         {
@@ -820,9 +820,9 @@ System selection matches organizational needs. Staff training ensures proper usa
           question: "What suggests optimal booking timing?",
           options: [
             "Price optimization",
-            "Fixed schedules",
             "Random timing",
-            "Last-minute only"
+            "Last-minute only",
+            "Fixed schedules"
           ],
           correctAnswer: 0,
           explanation: "Price optimization tools analyze historical data to suggest the best booking times."
@@ -831,24 +831,24 @@ System selection matches organizational needs. Staff training ensures proper usa
           id: 19,
           question: "What do approval workflows manage?",
           options: [
+            "Company vehicles",
             "Travel requests",
-            "Employee vacations",
             "Office supplies",
-            "Company vehicles"
+            "Employee vacations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Approval workflows route travel requests through necessary authorization steps."
         },
         {
           id: 20,
           question: "What monitors traveler safety?",
           options: [
-            "Risk management tools",
-            "Hope for the best",
             "Traveler instincts",
+            "Hope for the best",
+            "Risk management tools",
             "Local rumors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk management tools monitor destinations and provide safety alerts to travelers."
         }
       ]
@@ -895,12 +895,12 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           id: 1,
           question: "What do travel expenses typically include?",
           options: [
-            "Transportation, accommodation, meals, and activities",
-            "Only luxury items",
             "Just transportation",
-            "Office supplies"
+            "Office supplies",
+            "Only luxury items",
+            "Transportation, accommodation, meals, and activities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Travel expenses encompass all costs associated with business or leisure travel."
         },
         {
@@ -909,8 +909,8 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           options: [
             "Advance booking",
             "Last-minute booking",
-            "Random timing",
-            "Emergency booking"
+            "Emergency booking",
+            "Random timing"
           ],
           correctAnswer: 0,
           explanation: "Booking well in advance typically secures better rates than last-minute arrangements."
@@ -920,8 +920,8 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           question: "What documents travel expenditures?",
           options: [
             "Expense reporting",
-            "Personal diaries",
             "Memory alone",
+            "Personal diaries",
             "Verbal accounts"
           ],
           correctAnswer: 0,
@@ -933,8 +933,8 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           options: [
             "Fixed costs",
             "Variable costs",
-            "All costs",
-            "No costs"
+            "No costs",
+            "All costs"
           ],
           correctAnswer: 0,
           explanation: "Fixed costs like software subscriptions remain the same regardless of travel activity."
@@ -943,60 +943,60 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           id: 5,
           question: "What obtains volume discounts?",
           options: [
-            "Bulk purchasing",
             "Individual buying",
+            "Emergency buying",
             "Occasional purchasing",
-            "Emergency buying"
+            "Bulk purchasing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Bulk purchasing of travel services often secures discounted rates."
         },
         {
           id: 6,
           question: "What organizes supporting documentation for expenses?",
           options: [
-            "Receipt management",
             "Random collection",
-            "Memory storage",
-            "Digital deletion"
+            "Receipt management",
+            "Digital deletion",
+            "Memory storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Proper receipt management organizes and stores documentation for expense verification."
         },
         {
           id: 7,
           question: "What changes with the amount of travel?",
           options: [
-            "Variable costs",
-            "Fixed costs",
+            "Office rent",
             "Employee salaries",
-            "Office rent"
+            "Fixed costs",
+            "Variable costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Variable costs like airline tickets increase or decrease with travel volume."
         },
         {
           id: 8,
           question: "What ensures expenses follow guidelines?",
           options: [
-            "Policy compliance",
+            "Random approval",
             "Personal preference",
-            "Manager discretion",
-            "Random approval"
+            "Policy compliance",
+            "Manager discretion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Policy compliance ensures travel expenses adhere to established company guidelines."
         },
         {
           id: 9,
           question: "What establishes favorable terms with suppliers?",
           options: [
+            "Automatic renewals",
             "Supplier negotiations",
-            "Accepting first offers",
             "Ignoring prices",
-            "Automatic renewals"
+            "Accepting first offers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Negotiating with suppliers establishes better terms and rates for travel services."
         },
         {
@@ -1004,9 +1004,9 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           question: "What routes expense claims appropriately?",
           options: [
             "Approval workflows",
+            "Ignoring process",
             "Direct payment",
-            "Personal handling",
-            "Ignoring process"
+            "Personal handling"
           ],
           correctAnswer: 0,
           explanation: "Approval workflows ensure expense claims receive proper authorization before payment."
@@ -1015,12 +1015,12 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           id: 11,
           question: "What controls unnecessary spending?",
           options: [
+            "Complete freedom",
             "Policy enforcement",
             "Unlimited budgets",
-            "No oversight",
-            "Complete freedom"
+            "No oversight"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Enforcing travel policies helps control unnecessary or excessive spending."
         },
         {
@@ -1028,8 +1028,8 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           question: "What provides for food during travel?",
           options: [
             "Meal allowances",
-            "Foraging",
             "Fasting",
+            "Foraging",
             "Free samples"
           ],
           correctAnswer: 0,
@@ -1039,24 +1039,24 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           id: 13,
           question: "What identifies savings opportunities?",
           options: [
-            "Expense monitoring",
-            "Ignoring expenses",
             "Automatic approval",
-            "No review"
+            "No review",
+            "Ignoring expenses",
+            "Expense monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regular expense monitoring helps identify potential savings opportunities."
         },
         {
           id: 14,
           question: "What returns funds to travelers?",
           options: [
-            "Reimbursement processing",
+            "Investing funds",
             "Keeping funds",
-            "Donating funds",
-            "Investing funds"
+            "Reimbursement processing",
+            "Donating funds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reimbursement processing returns spent funds to travelers after expense approval."
         },
         {
@@ -1065,8 +1065,8 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           options: [
             "Direct costs",
             "Overhead costs",
-            "Administrative costs",
-            "Software costs"
+            "Software costs",
+            "Administrative costs"
           ],
           correctAnswer: 0,
           explanation: "Direct costs like airline tickets are specific to individual travel arrangements."
@@ -1075,12 +1075,12 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           id: 16,
           question: "What covers miscellaneous travel items?",
           options: [
-            "Incidental expenses",
             "Major purchases",
             "Home renovations",
+            "Incidental expenses",
             "Car purchases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Incidental expenses cover small miscellaneous items during travel."
         },
         {
@@ -1088,9 +1088,9 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           question: "What reviews past travel patterns?",
           options: [
             "Historical analysis",
-            "Future predictions",
+            "Ignoring history",
             "Current spending only",
-            "Ignoring history"
+            "Future predictions"
           ],
           correctAnswer: 0,
           explanation: "Historical analysis of past travel helps inform future budget planning."
@@ -1099,24 +1099,24 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           id: 18,
           question: "What sets maximum spending amounts?",
           options: [
-            "Spending limits",
             "Minimum requirements",
+            "Spending limits",
             "Exact amounts only",
             "No limits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Spending limits establish maximum allowable amounts for different expense categories."
         },
         {
           id: 19,
           question: "What measures travel benefits?",
           options: [
-            "Return on investment",
             "Cost only",
-            "Distance traveled",
-            "Number of trips"
+            "Number of trips",
+            "Return on investment",
+            "Distance traveled"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ROI analysis measures the benefits gained from travel expenditures."
         },
         {
@@ -1125,8 +1125,8 @@ Cost-benefit analysis evaluates travel necessity. Alternative evaluation conside
           options: [
             "Contingency funds",
             "Regular budgets only",
-            "Personal funds",
-            "No provision"
+            "No provision",
+            "Personal funds"
           ],
           correctAnswer: 0,
           explanation: "Contingency funds provide for unexpected travel expenses or emergencies."
@@ -1178,24 +1178,24 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           id: 1,
           question: "What does sustainable tourism preserve for future generations?",
           options: [
-            "Opportunities and resources",
             "Only profits",
-            "Tourist numbers",
-            "Luxury standards"
+            "Opportunities and resources",
+            "Luxury standards",
+            "Tourist numbers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sustainable tourism preserves resources and opportunities for future generations."
         },
         {
           id: 2,
           question: "What minimizes ecological impact?",
           options: [
-            "Environmental conservation",
-            "Maximum development",
             "Resource depletion",
-            "Waste increase"
+            "Waste increase",
+            "Maximum development",
+            "Environmental conservation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Environmental conservation practices minimize negative impacts on ecosystems."
         },
         {
@@ -1204,8 +1204,8 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           options: [
             "Direct flights",
             "Multiple connections",
-            "Long layovers",
-            "Circular routes"
+            "Circular routes",
+            "Long layovers"
           ],
           correctAnswer: 0,
           explanation: "Direct flights typically have lower carbon emissions than flights with connections."
@@ -1215,8 +1215,8 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           question: "What favors eco-friendly partners?",
           options: [
             "Supplier selection",
-            "Random choice",
             "Lowest price only",
+            "Random choice",
             "Familiarity alone"
           ],
           correctAnswer: 0,
@@ -1226,48 +1226,48 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           id: 5,
           question: "What distributes tourism benefits fairly?",
           options: [
-            "Social equity",
-            "Corporate profits only",
+            "Government control",
             "Foreign investors",
-            "Government control"
+            "Social equity",
+            "Corporate profits only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Social equity ensures tourism benefits are distributed fairly among stakeholders."
         },
         {
           id: 6,
           question: "What offers lower-carbon travel alternatives?",
           options: [
-            "Train travel",
             "Private jets",
             "Large SUVs",
+            "Train travel",
             "Cruise ships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Train travel generally has lower carbon emissions per passenger than air or car travel."
         },
         {
           id: 7,
           question: "What raises awareness of travel impacts?",
           options: [
-            "Traveler education",
+            "Minimizing concerns",
             "Ignoring impacts",
             "Hiding information",
-            "Minimizing concerns"
+            "Traveler education"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Educating travelers about impacts encourages more sustainable choices."
         },
         {
           id: 8,
           question: "What protects scarce resources?",
           options: [
-            "Water conservation",
+            "Ignoring consumption",
             "Maximum usage",
-            "Wasteful practices",
-            "Ignoring consumption"
+            "Water conservation",
+            "Wasteful practices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Water conservation practices protect limited freshwater resources in destinations."
         },
         {
@@ -1275,8 +1275,8 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           question: "What compensates for travel emissions?",
           options: [
             "Carbon offset programs",
-            "Ignoring emissions",
             "Denying impact",
+            "Ignoring emissions",
             "Increasing travel"
           ],
           correctAnswer: 0,
@@ -1286,12 +1286,12 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           id: 10,
           question: "What supports community producers?",
           options: [
-            "Local sourcing",
             "International imports",
-            "Corporate chains",
-            "Franchise operations"
+            "Franchise operations",
+            "Local sourcing",
+            "Corporate chains"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sourcing goods and services locally supports community economies."
         },
         {
@@ -1299,9 +1299,9 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           question: "What indicates sustainability commitment?",
           options: [
             "Environmental certification",
-            "Marketing claims only",
             "Beautiful photos",
-            "Low prices"
+            "Low prices",
+            "Marketing claims only"
           ],
           correctAnswer: 0,
           explanation: "Environmental certifications verify sustainable practices through independent assessment."
@@ -1310,12 +1310,12 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           id: 12,
           question: "What provides direct income to local families?",
           options: [
+            "Cruise ships",
             "Homestays",
             "International hotels",
-            "Corporate resorts",
-            "Cruise ships"
+            "Corporate resorts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Homestays provide direct income to local families rather than corporate owners."
         },
         {
@@ -1323,9 +1323,9 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           question: "What minimizes individual vehicle use?",
           options: [
             "Public transportation",
-            "Private cars for all",
+            "Personal helicopters",
             "Luxury vehicles",
-            "Personal helicopters"
+            "Private cars for all"
           ],
           correctAnswer: 0,
           explanation: "Public transportation reduces the number of individual vehicles on roads."
@@ -1334,48 +1334,48 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           id: 14,
           question: "What includes sustainability criteria?",
           options: [
-            "Policy development",
             "Cost considerations only",
-            "Convenience factors",
-            "Speed of booking"
+            "Policy development",
+            "Speed of booking",
+            "Convenience factors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Incorporating sustainability criteria into travel policies promotes responsible choices."
         },
         {
           id: 15,
           question: "What preserves artistic traditions?",
           options: [
-            "Cultural performances",
-            "Imported entertainment",
             "Television shows",
-            "International music"
+            "International music",
+            "Imported entertainment",
+            "Cultural performances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Traditional cultural performances help preserve artistic heritage."
         },
         {
           id: 16,
           question: "What supports clean transportation?",
           options: [
-            "Electric vehicle rentals",
             "Gasoline vehicles only",
             "Diesel engines",
+            "Electric vehicle rentals",
             "No alternatives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Electric vehicle rentals support cleaner transportation options."
         },
         {
           id: 17,
           question: "What protects privacy and dignity?",
           options: [
-            "Responsible photography guidelines",
+            "Commercial photography only",
             "Unlimited photography",
             "Secret photography",
-            "Commercial photography only"
+            "Responsible photography guidelines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Responsible photography guidelines protect local people's privacy and dignity."
         },
         {
@@ -1384,8 +1384,8 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           options: [
             "Carbon accounting",
             "Guest counting",
-            "Revenue tracking",
-            "Distance measuring"
+            "Distance measuring",
+            "Revenue tracking"
           ],
           correctAnswer: 0,
           explanation: "Carbon accounting measures and tracks greenhouse gas emissions from travel."
@@ -1395,8 +1395,8 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           question: "What prevents destination overcrowding?",
           options: [
             "Carrying capacity limits",
-            "Unlimited access",
             "Maximum promotion",
+            "Unlimited access",
             "Price reductions"
           ],
           correctAnswer: 0,
@@ -1406,12 +1406,12 @@ Carrying capacity limits prevent overcrowding. Seasonality management spreads vi
           id: 20,
           question: "What prepares travelers for cultural interactions?",
           options: [
-            "Cultural sensitivity training",
             "No preparation",
             "Language avoidance",
+            "Cultural sensitivity training",
             "Cultural imposition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cultural sensitivity training prepares travelers to interact respectfully with local cultures."
         }
       ]
@@ -1464,24 +1464,24 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
           id: 1,
           question: "What establishes clear direction for travel programs?",
           options: [
-            "Vision setting",
-            "Random actions",
             "Daily tasks only",
+            "Random actions",
+            "Vision setting",
             "Following others"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Vision setting establishes a clear direction and purpose for travel programs."
         },
         {
           id: 2,
           question: "What anticipates industry trends?",
           options: [
-            "Strategic thinking",
-            "Reactive responses",
             "Ignoring changes",
+            "Reactive responses",
+            "Strategic thinking",
             "Following blindly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategic thinking involves anticipating future trends and preparing for them."
         },
         {
@@ -1489,8 +1489,8 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
           question: "What defines roles and responsibilities?",
           options: [
             "Travel team structure",
-            "Random assignments",
             "No structure",
+            "Random assignments",
             "Constant changing"
           ],
           correctAnswer: 0,
@@ -1501,9 +1501,9 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
           question: "What monitors industry changes?",
           options: [
             "Environmental scanning",
+            "Historical review only",
             "Ignoring environment",
-            "Internal focus only",
-            "Historical review only"
+            "Internal focus only"
           ],
           correctAnswer: 0,
           explanation: "Environmental scanning monitors external factors that could affect travel programs."
@@ -1512,24 +1512,24 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
           id: 5,
           question: "What creates plans to achieve objectives?",
           options: [
-            "Strategy development",
+            "Copying others",
             "Wishful thinking",
-            "Random actions",
-            "Copying others"
+            "Strategy development",
+            "Random actions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strategy development creates specific plans to achieve organizational objectives."
         },
         {
           id: 6,
           question: "What identifies development needs?",
           options: [
-            "Skill assessment",
             "Assuming skills",
             "Ignoring development",
+            "Skill assessment",
             "Random training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Skill assessment identifies areas where team members need development or training."
         },
         {
@@ -1548,72 +1548,72 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
           id: 8,
           question: "What builds working relationships?",
           options: [
-            "Collaborative projects",
-            "Isolated work",
             "Competition only",
-            "Individual tasks"
+            "Collaborative projects",
+            "Individual tasks",
+            "Isolated work"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Collaborative projects help team members build effective working relationships."
         },
         {
           id: 9,
           question: "What chooses optimal courses of action?",
           options: [
-            "Decision making",
             "Indecision",
             "Random choices",
-            "Following crowds"
+            "Following crowds",
+            "Decision making"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective decision making chooses the best course of action among alternatives."
         },
         {
           id: 10,
           question: "What establishes measurable goals?",
           options: [
+            "Changing targets",
             "Objective setting",
-            "Vague wishes",
             "Unmeasurable hopes",
-            "Changing targets"
+            "Vague wishes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Objective setting establishes specific, measurable goals for travel programs."
         },
         {
           id: 11,
           question: "What enhances team capabilities?",
           options: [
-            "Training programs",
-            "No development",
             "Assuming competence",
-            "Natural talent only"
+            "Training programs",
+            "Natural talent only",
+            "No development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Training programs systematically develop team skills and capabilities."
         },
         {
           id: 12,
           question: "What develops approaches to achieve goals?",
           options: [
+            "Random actions",
             "Strategy formulation",
             "No plan",
-            "Random actions",
             "Following trends"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategy formulation develops specific approaches to achieve established goals."
         },
         {
           id: 13,
           question: "What conveys information clearly?",
           options: [
-            "Communication",
-            "Miscommunication",
+            "Complex jargon",
             "Silence",
-            "Complex jargon"
+            "Communication",
+            "Miscommunication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Clear communication ensures information is conveyed accurately and understandably."
         },
         {
@@ -1621,8 +1621,8 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
           question: "What evaluates and improves results?",
           options: [
             "Performance management",
-            "Ignoring results",
             "Assuming success",
+            "Ignoring results",
             "No evaluation"
           ],
           correctAnswer: 0,
@@ -1632,72 +1632,72 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
           id: 15,
           question: "What translates strategy into action?",
           options: [
-            "Implementation planning",
-            "Strategy only",
+            "Hope for execution",
             "No implementation",
-            "Hope for execution"
+            "Strategy only",
+            "Implementation planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Implementation planning translates strategic plans into specific actions."
         },
         {
           id: 16,
           question: "What develops partnerships?",
           options: [
+            "Competition only",
             "Relationship building",
             "Isolation",
-            "Competition only",
             "Transaction focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Relationship building develops strong partnerships with suppliers and stakeholders."
         },
         {
           id: 17,
           question: "What prepares for leadership transitions?",
           options: [
-            "Succession planning",
             "Sudden departure",
             "No preparation",
+            "Succession planning",
             "External hiring only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Succession planning prepares for future leadership changes within the organization."
         },
         {
           id: 18,
           question: "What tracks progress toward goals?",
           options: [
-            "Key performance indicators",
-            "Guessing progress",
             "Ignoring metrics",
-            "Assuming achievement"
+            "Assuming achievement",
+            "Key performance indicators",
+            "Guessing progress"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "KPIs are measurable values that track progress toward strategic objectives."
         },
         {
           id: 19,
           question: "What addresses challenges effectively?",
           options: [
-            "Problem solving",
-            "Ignoring problems",
             "Blaming others",
+            "Ignoring problems",
+            "Problem solving",
             "Avoiding issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective problem solving systematically addresses challenges and finds solutions."
         },
         {
           id: 20,
           question: "What guides organizational adaptation?",
           options: [
-            "Change management",
-            "Resisting change",
+            "Sudden changes",
             "Ignoring change",
-            "Sudden changes"
+            "Change management",
+            "Resisting change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Change management guides organizations through transitions and adaptations."
         }
       ]
@@ -1715,9 +1715,9 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         question: "What are the three main segments of the tourism industry?",
         options: [
           "Leisure, business, and special interest travel",
+          "Luxury, budget, and mid-range travel",
           "Domestic, international, and local travel",
-          "Air, land, and sea travel",
-          "Luxury, budget, and mid-range travel"
+          "Air, land, and sea travel"
         ],
         correctAnswer: 0,
         explanation: "The tourism industry comprises leisure travel (vacations), business travel (work trips), and special interest travel (cultural or educational trips)."
@@ -1726,24 +1726,24 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 2,
         question: "Which skill helps when serving international travelers?",
         options: [
-          "Cultural awareness",
+          "Legal documentation",
           "Financial accounting",
           "Graphic design",
-          "Legal documentation"
+          "Cultural awareness"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Cultural awareness helps travel professionals understand and respect different customs and expectations."
       },
       {
         id: 3,
         question: "What do travel managers coordinate between transport modes?",
         options: [
-          "Connectivity",
-          "Uniform colors",
           "Food menus",
-          "Music playlists"
+          "Music playlists",
+          "Uniform colors",
+          "Connectivity"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Connectivity ensures smooth transfers between different transportation methods."
       },
       {
@@ -1752,8 +1752,8 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         options: [
           "Room blocking and special rates",
           "Individual negotiations",
-          "Random assignments",
-          "Self-service check-in"
+          "Self-service check-in",
+          "Random assignments"
         ],
         correctAnswer: 0,
         explanation: "Group bookings typically involve reserving blocks of rooms and negotiating special rates."
@@ -1762,120 +1762,120 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 5,
         question: "What are the major Global Distribution Systems?",
         options: [
-          "Amadeus, Sabre, and Travelport",
           "Microsoft, Apple, and Google",
           "Delta, United, and American",
-          "Hilton, Marriott, and Hyatt"
+          "Hilton, Marriott, and Hyatt",
+          "Amadeus, Sabre, and Travelport"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Amadeus, Sabre, and Travelport are the primary GDS platforms used worldwide."
       },
       {
         id: 6,
         question: "What provides personalized travel recommendations?",
         options: [
-          "Artificial intelligence",
           "Paper brochures",
           "Telephone operators",
-          "Random selection"
+          "Random selection",
+          "Artificial intelligence"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "AI systems analyze traveler data to provide personalized suggestions."
       },
       {
         id: 7,
         question: "What do travel expenses typically include?",
         options: [
-          "Transportation, accommodation, meals, and activities",
-          "Only luxury items",
           "Just transportation",
-          "Office supplies"
+          "Office supplies",
+          "Only luxury items",
+          "Transportation, accommodation, meals, and activities"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Travel expenses encompass all costs associated with business or leisure travel."
       },
       {
         id: 8,
         question: "What secures lower rates for travel services?",
         options: [
-          "Advance booking",
           "Last-minute booking",
+          "Advance booking",
           "Random timing",
           "Emergency booking"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Booking well in advance typically secures better rates than last-minute arrangements."
       },
       {
         id: 9,
         question: "What does sustainable tourism preserve for future generations?",
         options: [
-          "Opportunities and resources",
-          "Only profits",
+          "Luxury standards",
           "Tourist numbers",
-          "Luxury standards"
+          "Only profits",
+          "Opportunities and resources"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Sustainable tourism preserves resources and opportunities for future generations."
       },
       {
         id: 10,
         question: "What minimizes ecological impact?",
         options: [
-          "Environmental conservation",
           "Maximum development",
+          "Waste increase",
           "Resource depletion",
-          "Waste increase"
+          "Environmental conservation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Environmental conservation practices minimize negative impacts on ecosystems."
       },
       {
         id: 11,
         question: "What establishes clear direction for travel programs?",
         options: [
-          "Vision setting",
           "Random actions",
-          "Daily tasks only",
-          "Following others"
+          "Vision setting",
+          "Following others",
+          "Daily tasks only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Vision setting establishes a clear direction and purpose for travel programs."
       },
       {
         id: 12,
         question: "What anticipates industry trends?",
         options: [
-          "Strategic thinking",
-          "Reactive responses",
           "Ignoring changes",
-          "Following blindly"
+          "Following blindly",
+          "Strategic thinking",
+          "Reactive responses"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Strategic thinking involves anticipating future trends and preparing for them."
       },
       {
         id: 13,
         question: "What type of travel combines business and leisure?",
         options: [
-          "Bleisure travel",
           "Special interest travel",
-          "Domestic tourism",
-          "Micro-cations"
+          "Bleisure travel",
+          "Micro-cations",
+          "Domestic tourism"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Bleisure travel combines business trips with leisure activities."
       },
       {
         id: 14,
         question: "What has mostly replaced paper tickets in travel?",
         options: [
-          "Electronic tickets",
           "Handwritten notes",
           "Voice messages",
+          "Electronic tickets",
           "Smoke signals"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Electronic tickets (e-tickets) are now standard for most travel services."
       },
       {
@@ -1894,24 +1894,24 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 16,
         question: "What tracks travel spending?",
         options: [
-          "Expense management systems",
           "Personal memory",
-          "Paper receipts",
-          "Guesswork"
+          "Guesswork",
+          "Expense management systems",
+          "Paper receipts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Expense management systems track and process travel-related expenditures."
       },
       {
         id: 17,
         question: "What remains constant regardless of travel volume?",
         options: [
-          "Fixed costs",
-          "Variable costs",
           "All costs",
+          "Variable costs",
+          "Fixed costs",
           "No costs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Fixed costs like software subscriptions remain the same regardless of travel activity."
       },
       {
@@ -1920,8 +1920,8 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         options: [
           "Direct flights",
           "Multiple connections",
-          "Long layovers",
-          "Circular routes"
+          "Circular routes",
+          "Long layovers"
         ],
         correctAnswer: 0,
         explanation: "Direct flights typically have lower carbon emissions than flights with connections."
@@ -1930,36 +1930,36 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 19,
         question: "What favors eco-friendly partners?",
         options: [
-          "Supplier selection",
-          "Random choice",
+          "Familiarity alone",
           "Lowest price only",
-          "Familiarity alone"
+          "Supplier selection",
+          "Random choice"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Selecting suppliers based on sustainability criteria supports eco-friendly practices."
       },
       {
         id: 20,
         question: "What defines roles and responsibilities in a team?",
         options: [
-          "Travel team structure",
-          "Random assignments",
+          "Constant changing",
           "No structure",
-          "Constant changing"
+          "Travel team structure",
+          "Random assignments"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Clear team structure defines who is responsible for specific functions and tasks."
       },
       {
         id: 21,
         question: "Which organization typically promotes a specific destination?",
         options: [
-          "Destination management organization",
-          "Tour operator",
           "Travel agency",
-          "Transportation provider"
+          "Destination management organization",
+          "Transportation provider",
+          "Tour operator"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Destination management organizations focus on promoting specific locations as tourist destinations."
       },
       {
@@ -1967,9 +1967,9 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         question: "What should comprehensive itineraries include?",
         options: [
           "All travel components",
-          "Only flight details",
+          "Personal photos",
           "Just hotel names",
-          "Personal photos"
+          "Only flight details"
         ],
         correctAnswer: 0,
         explanation: "Complete itineraries include transportation, accommodation, activities, and essential information."
@@ -1978,24 +1978,24 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 23,
         question: "What handles customer service inquiries automatically?",
         options: [
-          "Chatbots",
           "Human only",
           "Answering machines",
-          "Bulletin boards"
+          "Bulletin boards",
+          "Chatbots"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Chatbots use AI to handle common customer service questions automatically."
       },
       {
         id: 24,
         question: "What documents travel expenditures?",
         options: [
-          "Expense reporting",
           "Personal diaries",
           "Memory alone",
-          "Verbal accounts"
+          "Verbal accounts",
+          "Expense reporting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Expense reports formally document all travel-related expenditures for reimbursement."
       },
       {
@@ -2003,9 +2003,9 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         question: "What offers lower-carbon travel alternatives?",
         options: [
           "Train travel",
+          "Cruise ships",
           "Private jets",
-          "Large SUVs",
-          "Cruise ships"
+          "Large SUVs"
         ],
         correctAnswer: 0,
         explanation: "Train travel generally has lower carbon emissions per passenger than air or car travel."
@@ -2014,60 +2014,60 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 26,
         question: "What monitors industry changes?",
         options: [
-          "Environmental scanning",
           "Ignoring environment",
-          "Internal focus only",
-          "Historical review only"
+          "Environmental scanning",
+          "Historical review only",
+          "Internal focus only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Environmental scanning monitors external factors that could affect travel programs."
       },
       {
         id: 27,
         question: "What does sustainable tourism aim to balance?",
         options: [
-          "Visitor enjoyment, community benefits, and environmental protection",
-          "Cost savings, luxury experiences, and convenience",
           "Domestic and international tourist numbers",
-          "Summer and winter travel seasons"
+          "Summer and winter travel seasons",
+          "Cost savings, luxury experiences, and convenience",
+          "Visitor enjoyment, community benefits, and environmental protection"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Sustainable tourism balances the needs of visitors with benefits for local communities and environmental conservation."
       },
       {
         id: 28,
         question: "What minimizes wait times between activities?",
         options: [
-          "Timing optimization",
-          "Random scheduling",
           "Constant rushing",
-          "Complete spontaneity"
+          "Random scheduling",
+          "Complete spontaneity",
+          "Timing optimization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Careful timing optimization reduces waiting periods and makes efficient use of travel time."
       },
       {
         id: 29,
         question: "What enforces company travel rules?",
         options: [
-          "Policy compliance tools",
-          "Manager supervision only",
+          "Random checks",
           "Employee honesty",
-          "Random checks"
+          "Manager supervision only",
+          "Policy compliance tools"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Policy compliance tools automatically enforce company travel policies during booking."
       },
       {
         id: 30,
         question: "What changes with the amount of travel?",
         options: [
-          "Variable costs",
-          "Fixed costs",
           "Employee salaries",
-          "Office rent"
+          "Office rent",
+          "Variable costs",
+          "Fixed costs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Variable costs like airline tickets increase or decrease with travel volume."
       },
       {
@@ -2086,36 +2086,36 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 32,
         question: "What creates plans to achieve objectives?",
         options: [
-          "Strategy development",
-          "Wishful thinking",
           "Random actions",
-          "Copying others"
+          "Wishful thinking",
+          "Copying others",
+          "Strategy development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Strategy development creates specific plans to achieve organizational objectives."
       },
       {
         id: 33,
         question: "What travel segment typically recovers first after disruptions?",
         options: [
-          "Domestic trips",
-          "International luxury travel",
           "Business conferences",
-          "Cruise vacations"
+          "Cruise vacations",
+          "Domestic trips",
+          "International luxury travel"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Domestic travel usually recovers first as travelers feel more comfortable exploring their own country."
       },
       {
         id: 34,
         question: "What do advance reservations secure?",
         options: [
-          "Preferred properties",
+          "Empty flights",
           "Guaranteed sunshine",
           "Celebrity sightings",
-          "Empty flights"
+          "Preferred properties"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Booking early helps secure preferred hotels, flights, and other services."
       },
       {
@@ -2123,9 +2123,9 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         question: "What enables secure transactions in travel?",
         options: [
           "Blockchain",
+          "Barter systems",
           "Cash payments",
-          "Personal checks",
-          "Barter systems"
+          "Personal checks"
         ],
         correctAnswer: 0,
         explanation: "Blockchain technology provides secure, transparent transaction records."
@@ -2134,12 +2134,12 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 36,
         question: "What ensures expenses follow guidelines?",
         options: [
-          "Policy compliance",
-          "Personal preference",
           "Manager discretion",
-          "Random approval"
+          "Policy compliance",
+          "Random approval",
+          "Personal preference"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Policy compliance ensures travel expenses adhere to established company guidelines."
       },
       {
@@ -2159,9 +2159,9 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         question: "What identifies development needs in a team?",
         options: [
           "Skill assessment",
+          "Random training",
           "Assuming skills",
-          "Ignoring development",
-          "Random training"
+          "Ignoring development"
         ],
         correctAnswer: 0,
         explanation: "Skill assessment identifies areas where team members need development or training."
@@ -2170,12 +2170,12 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         id: 39,
         question: "What focuses on activities rather than destinations?",
         options: [
+          "Last-minute travel",
           "Experience-based travel",
           "Business travel",
-          "Group travel",
-          "Last-minute travel"
+          "Group travel"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Experience-based travel emphasizes activities and experiences over the destination itself."
       },
       {
@@ -2183,9 +2183,9 @@ Integrity modeling demonstrates ethical behavior. Fair treatment ensures equitab
         question: "What prepares for unexpected changes in travel?",
         options: [
           "Contingency planning",
-          "Wishful thinking",
+          "Last-minute panic",
           "Ignoring possibilities",
-          "Last-minute panic"
+          "Wishful thinking"
         ],
         correctAnswer: 0,
         explanation: "Contingency plans provide alternatives when original arrangements encounter problems."

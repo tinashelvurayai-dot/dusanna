@@ -71,12 +71,12 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           id: 1,
           question: "What is the purpose of clinical assessment?",
           options: [
-            "Label people",
             "Systematically gather information to understand and plan treatment",
             "Quickly solve problems",
+            "Label people",
             "Make people feel analyzed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Clinical assessment systematically gathers information to understand psychological functioning and plan treatment."
         },
         {
@@ -84,93 +84,93 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           question: "What is a clinical interview?",
           options: [
             "Casual conversation",
-            "Structured, purposeful conversation",
             "Social chat",
-            "Therapy session"
+            "Therapy session",
+            "Structured, purposeful conversation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A clinical interview is a structured, purposeful conversation different from casual conversation."
         },
         {
           id: 3,
           question: "What is mental status examination?",
           options: [
-            "Medical test",
-            "Systematic observation of current psychological functioning",
+            "Personality test",
             "Intelligence test",
-            "Personality test"
+            "Medical test",
+            "Systematic observation of current psychological functioning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mental status examination systematically observes appearance, behavior, mood, thoughts, and cognition."
         },
         {
           id: 4,
           question: "What are standardized measures?",
           options: [
-            "Personal opinions",
-            "Questionnaires with established norms for comparison",
+            "Guesses",
             "Casual observations",
-            "Guesses"
+            "Personal opinions",
+            "Questionnaires with established norms for comparison"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Standardized measures have established norms allowing comparison to reference groups."
         },
         {
           id: 5,
           question: "What does diagnosis guide?",
           options: [
-            "Judgment of character",
             "Treatment planning",
-            "Social exclusion",
-            "Personal opinions"
+            "Judgment of character",
+            "Personal opinions",
+            "Social exclusion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Diagnosis guides treatment planning and facilitates communication among professionals."
         },
         {
           id: 6,
           question: "What is the biopsychosocial model?",
           options: [
-            "Only biological factors",
-            "Biological, psychological, and social factors",
+            "Only psychological factors",
             "Only social factors",
-            "Only psychological factors"
+            "Biological, psychological, and social factors",
+            "Only biological factors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The biopsychosocial model considers biological, psychological, and social factors."
         },
         {
           id: 7,
           question: "What are symptom checklists?",
           options: [
-            "Complete diagnoses",
             "Quick screens for specific concerns",
             "Treatment plans",
+            "Complete diagnoses",
             "Personality tests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Symptom checklists are quick screening tools for specific concerns like depression or anxiety."
         },
         {
           id: 8,
           question: "What is functional assessment?",
           options: [
-            "Medical testing",
             "How symptoms affect daily life",
             "Blood tests",
-            "Brain scans"
+            "Brain scans",
+            "Medical testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Functional assessment examines how symptoms affect work, relationships, and self-care."
         },
         {
           id: 9,
           question: "How does culture affect assessment?",
           options: [
-            "No effect",
+            "Unimportant factor",
             "Affects symptom expression and help-seeking",
             "Only affects language",
-            "Unimportant factor"
+            "No effect"
           ],
           correctAnswer: 1,
           explanation: "Culture affects how symptoms are expressed and whether people seek help."
@@ -179,12 +179,12 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           id: 10,
           question: "What is informed consent in assessment?",
           options: [
-            "Secret testing",
             "Explaining purpose, procedures, and limits",
             "No explanation needed",
+            "Secret testing",
             "Assumption of agreement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Informed consent means explaining assessment purpose, procedures, and confidentiality limits."
         },
         {
@@ -192,11 +192,11 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           question: "What is collateral information?",
           options: [
             "Only client information",
+            "Theories",
             "Information from other sources",
-            "Guesses",
-            "Theories"
+            "Guesses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collateral information comes from other sources like family or previous records."
         },
         {
@@ -205,8 +205,8 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           options: [
             "Stigma only",
             "Communication among professionals",
-            "Social rejection",
-            "Personal judgments"
+            "Personal judgments",
+            "Social rejection"
           ],
           correctAnswer: 1,
           explanation: "Diagnosis facilitates communication among different professionals involved in care."
@@ -215,12 +215,12 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           id: 13,
           question: "What is PHQ-9?",
           options: [
-            "Personality test",
             "Depression screening tool",
             "Anxiety measure",
+            "Personality test",
             "Cognitive test"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PHQ-9 is a common screening tool for depression symptoms."
         },
         {
@@ -229,8 +229,8 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           options: [
             "Ignore differences",
             "Cultural identity and explanations for symptoms",
-            "Only Western norms",
-            "Assume sameness"
+            "Assume sameness",
+            "Only Western norms"
           ],
           correctAnswer: 1,
           explanation: "Assessment should consider cultural identity and cultural explanations for symptoms."
@@ -239,12 +239,12 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           id: 15,
           question: "What is competence in assessment?",
           options: [
-            "Always assessing",
-            "Only assessing in areas with proper training",
+            "Winging it",
             "Guessing answers",
-            "Winging it"
+            "Always assessing",
+            "Only assessing in areas with proper training"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Competence means only conducting assessments in areas where you have proper training."
         },
         {
@@ -252,33 +252,33 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           question: "What are personality inventories?",
           options: [
             "Quick screens",
-            "Measures of personality traits and patterns",
+            "Casual observations",
             "Diagnostic tools only",
-            "Casual observations"
+            "Measures of personality traits and patterns"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Personality inventories measure personality traits and patterns (interpretation requires training)."
         },
         {
           id: 17,
           question: "What is cognitive screening?",
           options: [
-            "Personality assessment",
             "Brief assessment of memory and attention",
+            "Personality assessment",
             "Emotional evaluation",
             "Social skills test"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cognitive screening briefly assesses memory, attention, and executive functioning."
         },
         {
           id: 18,
           question: "What does prognosis mean?",
           options: [
-            "Diagnosis",
-            "Predicted course and outcome",
             "Treatment",
-            "Assessment"
+            "Predicted course and outcome",
+            "Assessment",
+            "Diagnosis"
           ],
           correctAnswer: 1,
           explanation: "Prognosis refers to the predicted course and likely outcome of a condition."
@@ -287,21 +287,21 @@ Culture affects symptom expression, help-seeking behavior, and what's considered
           id: 19,
           question: "What is cultural competence?",
           options: [
-            "Ignoring culture",
             "Recognizing cultural factors affecting assessment",
             "Only knowing one culture",
+            "Ignoring culture",
             "Assuming universality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cultural competence involves recognizing how cultural factors might affect assessment accuracy."
         },
         {
           id: 20,
           question: "What should happen with assessment results?",
           options: [
-            "Keep secret",
-            "Provide in understandable, helpful way",
             "Never share",
+            "Provide in understandable, helpful way",
+            "Keep secret",
             "Only give to other professionals"
           ],
           correctAnswer: 1,
@@ -376,46 +376,46 @@ Effective treatment planning involves:
           id: 1,
           question: "What are evidence-based interventions?",
           options: [
-            "Whatever feels right",
             "Approaches supported by scientific research",
-            "Traditional methods only",
-            "Newest trends"
+            "Newest trends",
+            "Whatever feels right",
+            "Traditional methods only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Evidence-based interventions have scientific research demonstrating their effectiveness."
         },
         {
           id: 2,
           question: "What does CBT focus on?",
           options: [
+            "Only family systems",
             "Only past experiences",
-            "Connections between thoughts, feelings, behaviors",
             "Only unconscious processes",
-            "Only family systems"
+            "Connections between thoughts, feelings, behaviors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CBT focuses on connections between thoughts, feelings, and behaviors."
         },
         {
           id: 3,
           question: "What does psychodynamic therapy explore?",
           options: [
-            "Only current behaviors",
-            "Past experiences and unconscious processes",
             "Only thinking patterns",
-            "Only skill building"
+            "Only current behaviors",
+            "Only skill building",
+            "Past experiences and unconscious processes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Psychodynamic therapy explores how past experiences and unconscious processes affect current functioning."
         },
         {
           id: 4,
           question: "What is humanistic therapy emphasis?",
           options: [
-            "Diagnosis",
-            "Personal growth and self-actualization",
             "Behavior change only",
-            "Symptom reduction only"
+            "Personal growth and self-actualization",
+            "Symptom reduction only",
+            "Diagnosis"
           ],
           correctAnswer: 1,
           explanation: "Humanistic therapy emphasizes personal growth, self-actualization, and present experience."
@@ -424,12 +424,12 @@ Effective treatment planning involves:
           id: 5,
           question: "What are systems approaches?",
           options: [
+            "Only biological factors",
             "Only individual focus",
             "Viewing individuals within social systems",
-            "Only biological factors",
             "Only cognitive factors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Systems approaches view individuals within their social systems like family or community."
         },
         {
@@ -437,23 +437,23 @@ Effective treatment planning involves:
           question: "What is cognitive restructuring?",
           options: [
             "Ignoring thoughts",
-            "Identifying and changing unhelpful thoughts",
             "Only accepting thoughts",
-            "Suppressing thoughts"
+            "Suppressing thoughts",
+            "Identifying and changing unhelpful thoughts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cognitive restructuring involves identifying and challenging unhelpful thinking patterns."
         },
         {
           id: 7,
           question: "What is behavioral activation?",
           options: [
-            "Reducing activity",
             "Increasing engagement in rewarding activities",
-            "Only talking",
-            "Only resting"
+            "Reducing activity",
+            "Only resting",
+            "Only talking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Behavioral activation increases engagement in rewarding activities to improve mood."
         },
         {
@@ -461,23 +461,23 @@ Effective treatment planning involves:
           question: "What is exposure therapy?",
           options: [
             "Avoiding fears",
-            "Gradually facing feared situations",
             "Only imagining fears",
+            "Gradually facing feared situations",
             "Suppressing anxiety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Exposure therapy involves gradually facing feared situations to reduce anxiety."
         },
         {
           id: 9,
           question: "What is psychoeducation?",
           options: [
-            "Keeping clients uninformed",
             "Teaching about condition and treatment",
+            "Keeping clients uninformed",
             "Only giving advice",
             "Only listening"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Psychoeducation involves teaching clients about their condition and treatment approach."
         },
         {
@@ -485,33 +485,33 @@ Effective treatment planning involves:
           question: "What works well for anxiety disorders?",
           options: [
             "Only medication",
-            "CBT with exposure techniques",
+            "Only family therapy",
             "Only supportive listening",
-            "Only family therapy"
+            "CBT with exposure techniques"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Anxiety disorders often respond well to CBT approaches including exposure techniques."
         },
         {
           id: 11,
           question: "What is collaborative goal setting?",
           options: [
+            "No goals needed",
             "Therapist decides goals",
-            "Client and therapist work together on goals",
             "Family sets goals",
-            "No goals needed"
+            "Client and therapist work together on goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Collaborative goal setting involves client and therapist working together on treatment goals."
         },
         {
           id: 12,
           question: "What is competence in intervention?",
           options: [
-            "Using any intervention",
+            "Copying others",
             "Only using interventions with proper training",
             "Guessing what to do",
-            "Copying others"
+            "Using any intervention"
           ],
           correctAnswer: 1,
           explanation: "Competence means only delivering interventions you're properly trained to provide."
@@ -521,47 +521,47 @@ Effective treatment planning involves:
           question: "What is mindfulness?",
           options: [
             "Multitasking",
-            "Present-moment awareness without judgment",
+            "Past analysis",
             "Future planning",
-            "Past analysis"
+            "Present-moment awareness without judgment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Mindfulness involves practicing present-moment awareness without judgment."
         },
         {
           id: 14,
           question: "What are behavioral experiments?",
           options: [
-            "Only talking",
-            "Testing beliefs through real-world experiments",
+            "Avoiding testing",
             "Guessing outcomes",
-            "Avoiding testing"
+            "Only talking",
+            "Testing beliefs through real-world experiments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Behavioral experiments involve testing beliefs or predictions through real-world activities."
         },
         {
           id: 15,
           question: "What works for depression?",
           options: [
+            "Only medication",
             "Only rest",
             "CBT and behavioral activation",
-            "Only medication",
             "Only insight"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Depression often responds well to CBT approaches including behavioral activation."
         },
         {
           id: 16,
           question: "What is role playing?",
           options: [
-            "Only real situations",
-            "Practicing skills in session",
             "Avoiding practice",
-            "Only observing"
+            "Only observing",
+            "Practicing skills in session",
+            "Only real situations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Role playing involves practicing skills or difficult conversations within therapy sessions."
         },
         {
@@ -569,23 +569,23 @@ Effective treatment planning involves:
           question: "What is progress monitoring?",
           options: [
             "Only at end",
+            "Never checking",
             "Regularly checking if interventions work",
-            "Assuming progress",
-            "Never checking"
+            "Assuming progress"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Progress monitoring involves regularly checking whether interventions are helping."
         },
         {
           id: 18,
           question: "What is cultural adaptation?",
           options: [
-            "Ignoring culture",
-            "Modifying interventions for cultural fit",
             "Only Western methods",
-            "No changes ever"
+            "Ignoring culture",
+            "No changes ever",
+            "Modifying interventions for cultural fit"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cultural adaptation involves modifying interventions respectfully for better cultural fit."
         },
         {
@@ -594,8 +594,8 @@ Effective treatment planning involves:
           options: [
             "No explanation",
             "Approach, alternatives, risks, benefits",
-            "Only benefits",
-            "Secrets"
+            "Secrets",
+            "Only benefits"
           ],
           correctAnswer: 1,
           explanation: "Informed consent for interventions includes explaining approach, alternatives, risks, and benefits."
@@ -605,11 +605,11 @@ Effective treatment planning involves:
           question: "What is adjustment in treatment?",
           options: [
             "Never changing",
+            "Only client changes",
             "Modifying approach based on progress",
-            "Sticking to plan regardless",
-            "Only client changes"
+            "Sticking to plan regardless"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Adjustment involves modifying the treatment approach based on progress or challenges."
         }
       ]
@@ -698,10 +698,10 @@ Planning for therapy conclusion from the beginning:
           id: 1,
           question: "What is treatment planning?",
           options: [
-            "Fixed recipe",
+            "Standard protocol for all",
             "Collaborative roadmap for therapy",
-            "Clinician-only decision",
-            "Standard protocol for all"
+            "Fixed recipe",
+            "Clinician-only decision"
           ],
           correctAnswer: 1,
           explanation: "Treatment planning is a collaborative process creating a roadmap for therapy."
@@ -710,9 +710,9 @@ Planning for therapy conclusion from the beginning:
           id: 2,
           question: "What are presenting problems?",
           options: [
-            "All life issues",
-            "Concerns bringing client to treatment",
             "Only diagnoses",
+            "Concerns bringing client to treatment",
+            "All life issues",
             "Family issues only"
           ],
           correctAnswer: 1,
@@ -722,48 +722,48 @@ Planning for therapy conclusion from the beginning:
           id: 3,
           question: "What does SMART stand for?",
           options: [
-            "Simple, Meaningful, Actionable, Realistic, Timely",
             "Specific, Measurable, Achievable, Relevant, Time-bound",
-            "Strategic, Manageable, Appropriate, Reasonable, Targeted",
-            "Significant, Meaningful, Achievable, Realistic, Timely"
+            "Simple, Meaningful, Actionable, Realistic, Timely",
+            "Significant, Meaningful, Achievable, Realistic, Timely",
+            "Strategic, Manageable, Appropriate, Reasonable, Targeted"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound."
         },
         {
           id: 4,
           question: "What is specific in SMART goals?",
           options: [
-            "Vague intentions",
-            "Clear and precise objectives",
+            "Wishful thinking",
             "General hopes",
-            "Wishful thinking"
+            "Clear and precise objectives",
+            "Vague intentions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Specific means clear and precise rather than vague or general."
         },
         {
           id: 5,
           question: "What is measurable in SMART goals?",
           options: [
+            "Guessed",
             "Cannot track",
-            "Can be tracked and quantified",
             "Subjective only",
-            "Guessed"
+            "Can be tracked and quantified"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Measurable means progress can be tracked and quantified somehow."
         },
         {
           id: 6,
           question: "What does collaborative planning balance?",
           options: [
-            "Only clinician knowledge",
-            "Client expertise and clinical expertise",
+            "Only textbook answers",
             "Only client wishes",
-            "Only textbook answers"
+            "Client expertise and clinical expertise",
+            "Only clinician knowledge"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collaborative planning balances client's life knowledge with clinician's professional knowledge."
         },
         {
@@ -772,8 +772,8 @@ Planning for therapy conclusion from the beginning:
           options: [
             "Only at end",
             "Brief check-ins each session",
-            "Never checking",
-            "Only formal tests"
+            "Only formal tests",
+            "Never checking"
           ],
           correctAnswer: 1,
           explanation: "Session-by-session tracking involves brief progress check-ins at each therapy session."
@@ -782,34 +782,34 @@ Planning for therapy conclusion from the beginning:
           id: 8,
           question: "When consider treatment adjustments?",
           options: [
-            "Never change",
             "Lack of progress after reasonable time",
-            "Always change weekly",
-            "Only client requests"
+            "Never change",
+            "Only client requests",
+            "Always change weekly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Consider adjustments when there's lack of progress after a reasonable period."
         },
         {
           id: 9,
           question: "What is purpose of documentation?",
           options: [
+            "Only for supervisors",
             "Only billing",
             "Communication and continuity of care",
-            "Secret records",
-            "Only for supervisors"
+            "Secret records"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Documentation serves communication, continuity, legal, and quality improvement purposes."
         },
         {
           id: 10,
           question: "What is SOAP format?",
           options: [
-            "Cleaning method",
+            "Summary, Observations, Analysis, Projection",
             "Subjective, Objective, Assessment, Plan",
             "Simple, Organized, Accurate, Professional",
-            "Summary, Observations, Analysis, Projection"
+            "Cleaning method"
           ],
           correctAnswer: 1,
           explanation: "SOAP format organizes notes into Subjective, Objective, Assessment, and Plan sections."
@@ -818,9 +818,9 @@ Planning for therapy conclusion from the beginning:
           id: 11,
           question: "What are objectives in treatment plans?",
           options: [
-            "Same as goals",
-            "Smaller steps leading to goals",
             "Only interventions",
+            "Smaller steps leading to goals",
+            "Same as goals",
             "Only diagnoses"
           ],
           correctAnswer: 1,
@@ -830,9 +830,9 @@ Planning for therapy conclusion from the beginning:
           id: 12,
           question: "What is achievable in SMART goals?",
           options: [
-            "Impossible dreams",
-            "Realistic given resources",
             "Whatever client wants",
+            "Realistic given resources",
+            "Impossible dreams",
             "Easy without effort"
           ],
           correctAnswer: 1,
@@ -842,96 +842,96 @@ Planning for therapy conclusion from the beginning:
           id: 13,
           question: "What is relevant in SMART goals?",
           options: [
+            "Theoretically interesting",
             "Clinician's preferences",
             "Meaningful to client's values",
-            "Standard for everyone",
-            "Theoretically interesting"
+            "Standard for everyone"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Relevant means meaningful and important to the client's life and values."
         },
         {
           id: 14,
           question: "What is behavioral tracking?",
           options: [
-            "Only in session",
-            "Monitoring behaviors between sessions",
             "Guessing progress",
-            "Only at start"
+            "Only at start",
+            "Only in session",
+            "Monitoring behaviors between sessions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Behavioral tracking involves monitoring specific behaviors or symptoms between sessions."
         },
         {
           id: 15,
           question: "What are functional indicators?",
           options: [
-            "Only test scores",
-            "Improvements in daily functioning",
             "Only client reports",
-            "Only clinician observations"
+            "Only clinician observations",
+            "Only test scores",
+            "Improvements in daily functioning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Functional indicators are improvements in daily life activities and roles."
         },
         {
           id: 16,
           question: "What is ethical documentation?",
           options: [
-            "Falsified records",
             "Accurate, timely, professional",
             "Only positive notes",
-            "Shared publicly"
+            "Shared publicly",
+            "Falsified records"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ethical documentation is accurate, timely, professional, confidential, and purposeful."
         },
         {
           id: 17,
           question: "What is termination planning?",
           options: [
-            "Only at end",
             "Planning conclusion from beginning",
+            "Only at end",
             "Surprise ending",
             "Never ending"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Termination planning considers therapy conclusion from the beginning of treatment."
         },
         {
           id: 18,
           question: "What is relapse prevention?",
           options: [
-            "Guaranteeing no problems",
             "Planning to maintain gains after therapy",
-            "Only during therapy",
-            "Ignoring future"
+            "Ignoring future",
+            "Guaranteeing no problems",
+            "Only during therapy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Relapse prevention involves planning how to maintain improvements after therapy ends."
         },
         {
           id: 19,
           question: "What is therapeutic alliance assessment?",
           options: [
-            "Only client liking therapist",
             "Monitoring quality of therapeutic relationship",
             "Only therapist feelings",
-            "Unimportant factor"
+            "Unimportant factor",
+            "Only client liking therapist"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Therapeutic alliance assessment monitors the quality of the working relationship."
         },
         {
           id: 20,
           question: "What is timeframe in treatment plans?",
           options: [
-            "Open-ended always",
-            "Estimated duration and frequency",
             "No time considered",
-            "Fixed for everyone"
+            "Fixed for everyone",
+            "Open-ended always",
+            "Estimated duration and frequency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Timeframe includes estimated duration of treatment and session frequency."
         }
       ]
@@ -1029,9 +1029,9 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           id: 1,
           question: "What is required for working with different populations?",
           options: [
-            "Same approach for all",
-            "Understanding unique needs while avoiding stereotypes",
             "Only textbook knowledge",
+            "Understanding unique needs while avoiding stereotypes",
+            "Same approach for all",
             "Personal experience only"
           ],
           correctAnswer: 1,
@@ -1041,22 +1041,22 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           id: 2,
           question: "What is key with children and adolescents?",
           options: [
-            "Same as adults",
             "Matching developmental level",
-            "Only talking",
-            "Ignoring development"
+            "Ignoring development",
+            "Same as adults",
+            "Only talking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Treatment must match the child's cognitive and emotional developmental level."
         },
         {
           id: 3,
           question: "What often involves with child treatment?",
           options: [
-            "Only child sessions",
+            "No family contact",
             "Family involvement",
             "Only school reports",
-            "No family contact"
+            "Only child sessions"
           ],
           correctAnswer: 1,
           explanation: "Child treatment typically involves parents or caregivers in the process."
@@ -1066,11 +1066,11 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           question: "What techniques often used with children?",
           options: [
             "Only talking",
-            "Play and creative techniques",
+            "Only medication",
             "Only worksheets",
-            "Only medication"
+            "Play and creative techniques"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Children often express themselves through play, art, or games in therapy."
         },
         {
@@ -1089,72 +1089,72 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           id: 6,
           question: "What is common with older adults?",
           options: [
-            "No medical issues",
-            "Medical conditions co-occurring",
+            "Perfect health",
             "Only psychological issues",
-            "Perfect health"
+            "Medical conditions co-occurring",
+            "No medical issues"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Older adults often have co-occurring medical conditions affecting treatment."
         },
         {
           id: 7,
           question: "What is first with trauma survivors?",
           options: [
-            "Trauma processing",
-            "Establishing safety",
+            "Only talking",
             "Immediate exposure",
-            "Only talking"
+            "Trauma processing",
+            "Establishing safety"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Establishing physical and emotional safety comes first with trauma work."
         },
         {
           id: 8,
           question: "What is pacing in trauma work?",
           options: [
-            "Rushing through",
-            "Going at client's pace",
             "Therapist deciding pace",
-            "Fixed timeline"
+            "Rushing through",
+            "Fixed timeline",
+            "Going at client's pace"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pacing means proceeding at the client's comfort level, not pushing too fast."
         },
         {
           id: 9,
           question: "What is cultural humility?",
           options: [
-            "Knowing everything",
-            "Ongoing process of learning",
+            "Assuming sameness",
             "Ignoring culture",
-            "Assuming sameness"
+            "Ongoing process of learning",
+            "Knowing everything"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cultural humility is an ongoing process of learning about different cultures."
         },
         {
           id: 10,
           question: "What is intersectionality?",
           options: [
+            "Ignoring identities",
             "Only one identity",
             "Multiple identity factors interacting",
-            "Simple categorization",
-            "Ignoring identities"
+            "Simple categorization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Intersectionality understands how multiple identity factors interact and affect experience."
         },
         {
           id: 11,
           question: "What is systems perspective with families?",
           options: [
-            "Only individual focus",
             "Viewing problems in relationship context",
             "Ignoring relationships",
-            "Only one person's view"
+            "Only one person's view",
+            "Only individual focus"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systems perspective views problems within the context of relationship patterns."
         },
         {
@@ -1162,23 +1162,23 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           question: "What is circular causality?",
           options: [
             "One cause only",
+            "Random events",
             "Mutual influence in relationships",
-            "Linear cause-effect",
-            "Random events"
+            "Linear cause-effect"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Circular causality understands how family members mutually influence each other."
         },
         {
           id: 13,
           question: "What is multipartiality?",
           options: [
+            "Only one perspective",
             "Taking sides",
-            "Being fair to all members",
             "Ignoring some",
-            "Only one perspective"
+            "Being fair to all members"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Multipartiality means being fair to all family members without taking sides."
         },
         {
@@ -1187,8 +1187,8 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           options: [
             "Only obvious dangers",
             "Trauma reminders causing distress",
-            "Only in therapy",
-            "Easy to avoid"
+            "Easy to avoid",
+            "Only in therapy"
           ],
           correctAnswer: 1,
           explanation: "Triggers are reminders of trauma that can cause emotional or physiological reactions."
@@ -1197,10 +1197,10 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           id: 15,
           question: "What is empowerment with trauma?",
           options: [
-            "Taking control for client",
+            "Therapist directing",
             "Regaining sense of control and choice",
             "Avoiding decisions",
-            "Therapist directing"
+            "Taking control for client"
           ],
           correctAnswer: 1,
           explanation: "Empowerment supports trauma survivors in regaining control and choice in their lives."
@@ -1221,34 +1221,34 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           id: 17,
           question: "What are genograms?",
           options: [
+            "Medical records",
             "Genetic tests",
             "Family history and pattern maps",
-            "Only current family",
-            "Medical records"
+            "Only current family"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Genograms visually map family history, relationships, and patterns across generations."
         },
         {
           id: 18,
           question: "What with LGBTQ+ clients?",
           options: [
-            "Ignoring identity",
             "Understanding unique stressors",
-            "Assuming heterosexuality",
-            "Changing identity"
+            "Changing identity",
+            "Ignoring identity",
+            "Assuming heterosexuality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Working with LGBTQ+ clients requires understanding unique stressors and affirming identity."
         },
         {
           id: 19,
           question: "What is language access?",
           options: [
-            "Only English",
+            "No interpreters",
             "Communication in preferred language",
             "Assuming understanding",
-            "No interpreters"
+            "Only English"
           ],
           correctAnswer: 1,
           explanation: "Language access ensures clients can communicate in their preferred language."
@@ -1257,12 +1257,12 @@ Different populations have unique needs, strengths, and considerations. Effectiv
           id: 20,
           question: "What are socioeconomic factors?",
           options: [
-            "Unimportant",
-            "Impact of poverty and resources",
             "Only psychological",
-            "Equal for all"
+            "Unimportant",
+            "Equal for all",
+            "Impact of poverty and resources"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Socioeconomic factors like poverty and resource availability significantly impact treatment."
         }
       ]
@@ -1368,8 +1368,8 @@ When facing ethical dilemmas:
           options: [
             "Doing harm",
             "Doing good for clients",
-            "Being neutral",
-            "Avoiding action"
+            "Avoiding action",
+            "Being neutral"
           ],
           correctAnswer: 1,
           explanation: "Beneficence means doing good and promoting client welfare."
@@ -1378,9 +1378,9 @@ When facing ethical dilemmas:
           id: 2,
           question: "What is nonmaleficence?",
           options: [
-            "Causing harm",
-            "Doing no harm",
             "Risking harm",
+            "Doing no harm",
+            "Causing harm",
             "Ignoring harm"
           ],
           correctAnswer: 1,
@@ -1391,33 +1391,33 @@ When facing ethical dilemmas:
           question: "What is informed consent?",
           options: [
             "Assumed agreement",
-            "Understanding treatment before consenting",
             "No explanation needed",
-            "Only verbal agreement"
+            "Only verbal agreement",
+            "Understanding treatment before consenting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Informed consent means clients understand treatment before agreeing to it."
         },
         {
           id: 4,
           question: "What does competence mean?",
           options: [
-            "Doing everything",
             "Practicing within training boundaries",
+            "Doing everything",
             "Guessing what to do",
             "Always confident"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Competence means practicing only within your training and qualifications."
         },
         {
           id: 5,
           question: "What is confidentiality?",
           options: [
-            "Sharing everything",
-            "Protecting client information",
             "Telling families everything",
-            "No privacy"
+            "Protecting client information",
+            "No privacy",
+            "Sharing everything"
           ],
           correctAnswer: 1,
           explanation: "Confidentiality means protecting client information with specific exceptions."
@@ -1427,20 +1427,20 @@ When facing ethical dilemmas:
           question: "What are multiple relationships?",
           options: [
             "Only therapeutic",
-            "Relationships impairing professional judgment",
             "All relationships",
-            "Only social"
+            "Only social",
+            "Relationships impairing professional judgment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Multiple relationships are additional relationships that could impair judgment or exploit."
         },
         {
           id: 7,
           question: "What is mandated reporting?",
           options: [
-            "Optional reporting",
-            "Legal requirement to report abuse",
             "Never reporting",
+            "Legal requirement to report abuse",
+            "Optional reporting",
             "Only serious crimes"
           ],
           correctAnswer: 1,
@@ -1450,12 +1450,12 @@ When facing ethical dilemmas:
           id: 8,
           question: "What is duty to warn/protect?",
           options: [
-            "No duty",
-            "Obligation when client threatens others",
             "Only for police",
-            "Optional action"
+            "No duty",
+            "Optional action",
+            "Obligation when client threatens others"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Duty to warn/protect is legal obligation when client poses serious threat to others."
         },
         {
@@ -1463,23 +1463,23 @@ When facing ethical dilemmas:
           question: "What are confidentiality limits?",
           options: [
             "No limits",
-            "Danger to self/others, abuse reporting",
             "Only client permission",
-            "Any concern"
+            "Any concern",
+            "Danger to self/others, abuse reporting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Confidentiality has limits including danger to self/others and abuse reporting requirements."
         },
         {
           id: 10,
           question: "What are physical boundaries?",
           options: [
-            "Only emotional",
             "Appropriate touch and personal space",
             "No boundaries",
+            "Only emotional",
             "Only in office"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Physical boundaries involve appropriate touch, office setup, and personal space."
         },
         {
@@ -1488,8 +1488,8 @@ When facing ethical dilemmas:
           options: [
             "Ignoring culture",
             "Services sensitive to cultural differences",
-            "Only Western approaches",
-            "Assuming sameness"
+            "Assuming sameness",
+            "Only Western approaches"
           ],
           correctAnswer: 1,
           explanation: "Cultural competence means providing services sensitive to cultural differences."
@@ -1498,34 +1498,34 @@ When facing ethical dilemmas:
           id: 12,
           question: "What is cultural humility?",
           options: [
-            "Knowing everything",
             "Recognizing limits of cultural knowledge",
             "No learning needed",
-            "Cultural superiority"
+            "Cultural superiority",
+            "Knowing everything"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cultural humility involves recognizing limits of your cultural knowledge and continuing to learn."
         },
         {
           id: 13,
           question: "What is first step in ethical decision-making?",
           options: [
+            "Ask client decide",
             "Act immediately",
-            "Identify the ethical problem",
             "Ignore dilemma",
-            "Ask client decide"
+            "Identify the ethical problem"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "First step is identifying what ethical principles are in conflict or concern."
         },
         {
           id: 14,
           question: "What is purpose of supervision?",
           options: [
-            "Only administrative",
+            "Unnecessary",
             "Quality assurance and professional development",
-            "Only for beginners",
-            "Unnecessary"
+            "Only administrative",
+            "Only for beginners"
           ],
           correctAnswer: 1,
           explanation: "Supervision serves quality assurance, professional development, and client protection."
@@ -1536,8 +1536,8 @@ When facing ethical dilemmas:
           options: [
             "Making decisions for clients",
             "Respecting client choice and self-determination",
-            "Ignoring preferences",
-            "Therapist control"
+            "Therapist control",
+            "Ignoring preferences"
           ],
           correctAnswer: 1,
           explanation: "Autonomy means respecting clients' right to make their own choices."
@@ -1546,22 +1546,22 @@ When facing ethical dilemmas:
           id: 16,
           question: "What is justice?",
           options: [
-            "Favoritism",
-            "Fairness and equitable treatment",
             "Unequal treatment",
-            "Only legal matters"
+            "Favoritism",
+            "Only legal matters",
+            "Fairness and equitable treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Justice means treating clients fairly and equitably."
         },
         {
           id: 17,
           question: "What is fidelity?",
           options: [
-            "Breaking promises",
+            "No commitments",
             "Keeping promises and being trustworthy",
             "Changing agreements",
-            "No commitments"
+            "Breaking promises"
           ],
           correctAnswer: 1,
           explanation: "Fidelity means keeping promises and being trustworthy in professional relationships."
@@ -1570,36 +1570,36 @@ When facing ethical dilemmas:
           id: 18,
           question: "What is HIPAA?",
           options: [
-            "Medical treatment",
             "Health information privacy regulations",
             "Psychological theory",
+            "Medical treatment",
             "Therapy technique"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "HIPAA are federal regulations protecting health information privacy and security."
         },
         {
           id: 19,
           question: "When seek consultation?",
           options: [
-            "Never",
-            "Complex cases or ethical dilemmas",
             "Only for supervision",
-            "Only legal issues"
+            "Only legal issues",
+            "Never",
+            "Complex cases or ethical dilemmas"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Seek consultation for complex cases, ethical dilemmas, or when uncertain."
         },
         {
           id: 20,
           question: "Who responsible for supervisees' work?",
           options: [
-            "Only supervisee",
-            "Supervisor shares responsibility",
             "No one",
-            "Only client"
+            "Only supervisee",
+            "Only client",
+            "Supervisor shares responsibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Supervisors share professional responsibility for their supervisees' clinical work."
         }
       ]
@@ -1711,46 +1711,46 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
           id: 1,
           question: "What is reflective practitioner?",
           options: [
-            "Never reflecting",
             "Ongoing self-reflection and growth",
-            "Only following protocols",
-            "No learning needed"
+            "Never reflecting",
+            "No learning needed",
+            "Only following protocols"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Reflective practitioners engage in ongoing self-reflection and professional growth."
         },
         {
           id: 2,
           question: "Why lifelong learning important?",
           options: [
-            "Knowledge static",
-            "Clinical knowledge constantly evolves",
+            "Only beginners learn",
             "Once trained, done",
-            "Only beginners learn"
+            "Knowledge static",
+            "Clinical knowledge constantly evolves"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clinical knowledge constantly evolves, making lifelong learning essential."
         },
         {
           id: 3,
           question: "What is staying current?",
           options: [
-            "Using only old methods",
             "Reading journals, attending workshops",
             "No updates needed",
-            "Only personal experience"
+            "Only personal experience",
+            "Using only old methods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Staying current involves reading journals, attending workshops, and learning new approaches."
         },
         {
           id: 4,
           question: "Why supervision valuable throughout career?",
           options: [
-            "Only for students",
+            "Only if required",
             "Changes but remains valuable",
             "Unnecessary later",
-            "Only if required"
+            "Only for students"
           ],
           correctAnswer: 1,
           explanation: "Supervision needs change with experience but remains valuable throughout career."
@@ -1759,10 +1759,10 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
           id: 5,
           question: "What is peer consultation?",
           options: [
-            "Only supervisor",
+            "Only formal supervision",
             "Regular meetings with colleagues",
             "No consultation",
-            "Only formal supervision"
+            "Only supervisor"
           ],
           correctAnswer: 1,
           explanation: "Peer consultation involves regular meetings with colleagues for case discussion and support."
@@ -1771,12 +1771,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
           id: 6,
           question: "Why self-care ethical imperative?",
           options: [
+            "Only for weak people",
             "Only personal choice",
-            "Prevents impairment and protects clients",
             "Unimportant",
-            "Only for weak people"
+            "Prevents impairment and protects clients"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Self-care is ethical because it prevents professional impairment and protects clients."
         },
         {
@@ -1784,11 +1784,11 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
           question: "What is burnout?",
           options: [
             "Normal tiredness",
+            "Motivation",
             "Emotional exhaustion from work stress",
-            "Brief stress",
-            "Motivation"
+            "Brief stress"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Burnout is emotional exhaustion and decreased effectiveness from chronic work stress."
         },
         {
@@ -1807,82 +1807,82 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
           id: 9,
           question: "What is compassion fatigue?",
           options: [
-            "No compassion",
             "Emotional exhaustion from helping",
             "Too much empathy",
-            "Not caring"
+            "Not caring",
+            "No compassion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Compassion fatigue is emotional exhaustion from continual helping of others in distress."
         },
         {
           id: 10,
           question: "Benefits of personal therapy for clinicians?",
           options: [
-            "No benefits",
             "Personal growth and understanding client perspective",
             "Only if mandated",
+            "No benefits",
             "Weakness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Personal therapy offers growth, addresses countertransference, and provides client perspective."
         },
         {
           id: 11,
           question: "What are collegial relationships?",
           options: [
-            "Only competition",
             "Supportive professional networks",
+            "Only social",
             "No relationships",
-            "Only social"
+            "Only competition"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Collegial relationships are supportive professional networks with peers."
         },
         {
           id: 12,
           question: "What is interdisciplinary collaboration?",
           options: [
+            "Only same field",
             "Only psychology",
-            "Working with other professionals",
             "Isolated work",
-            "Only same field"
+            "Working with other professionals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Interdisciplinary collaboration involves working effectively with professionals from other fields."
         },
         {
           id: 13,
           question: "What is career planning?",
           options: [
-            "No planning",
             "Setting professional goals and plans",
             "Only job search",
+            "No planning",
             "Only starting out"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Career planning involves setting professional goals and development plans."
         },
         {
           id: 14,
           question: "What are specialization paths?",
           options: [
-            "Only clinical work",
             "Clinical, research, teaching, administration",
             "No specializations",
-            "Only one path"
+            "Only one path",
+            "Only clinical work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Specialization paths include clinical work, research, teaching, administration, and others."
         },
         {
           id: 15,
           question: "Why physical health important?",
           options: [
-            "Unrelated to work",
+            "Unimportant",
             "Affects professional functioning",
             "Only personal matter",
-            "Unimportant"
+            "Unrelated to work"
           ],
           correctAnswer: 1,
           explanation: "Physical health affects energy, mood, and professional effectiveness."
@@ -1891,36 +1891,36 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
           id: 16,
           question: "What is work-life balance?",
           options: [
+            "Only personal life",
             "Only work",
             "Healthy boundaries between work and personal life",
-            "No balance needed",
-            "Only personal life"
+            "No balance needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Work-life balance maintains healthy boundaries between professional and personal life."
         },
         {
           id: 17,
           question: "Signs of professional impairment?",
           options: [
-            "Perfect functioning",
-            "Decreased effectiveness, ethical lapses",
             "Always effective",
-            "No signs"
+            "No signs",
+            "Perfect functioning",
+            "Decreased effectiveness, ethical lapses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Impairment signs include decreased effectiveness and ethical or professional lapses."
         },
         {
           id: 18,
           question: "What is self-monitoring?",
           options: [
-            "Never checking",
             "Regular check-ins about functioning",
-            "Only others monitor",
-            "Only at reviews"
+            "Only at reviews",
+            "Never checking",
+            "Only others monitor"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Self-monitoring involves regular personal check-ins about professional functioning."
         },
         {
@@ -1928,23 +1928,23 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
           question: "Why seek help early for difficulties?",
           options: [
             "Wait until crisis",
-            "Prevent more serious problems",
             "Never seek help",
+            "Prevent more serious problems",
             "Only if required"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Seeking help early prevents minor difficulties from becoming serious problems."
         },
         {
           id: 20,
           question: "What is legacy planning?",
           options: [
-            "Only retirement",
-            "Considering long-term professional contributions",
             "No planning",
-            "Only financial"
+            "Only financial",
+            "Only retirement",
+            "Considering long-term professional contributions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Legacy planning involves considering your long-term professional contributions and impact."
         }
       ]
@@ -1963,12 +1963,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 1,
         question: "What is the purpose of clinical assessment?",
         options: [
-          "Label people",
-          "Systematically gather information to understand and plan treatment",
           "Quickly solve problems",
-          "Make people feel analyzed"
+          "Make people feel analyzed",
+          "Systematically gather information to understand and plan treatment",
+          "Label people"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Clinical assessment systematically gathers information to understand functioning and plan treatment.",
         module: 1
       },
@@ -1976,10 +1976,10 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 2,
         question: "What is a clinical interview?",
         options: [
-          "Casual conversation",
+          "Therapy session",
           "Structured, purposeful conversation",
-          "Social chat",
-          "Therapy session"
+          "Casual conversation",
+          "Social chat"
         ],
         correctAnswer: 1,
         explanation: "A clinical interview is structured and purposeful, different from casual conversation.",
@@ -1989,10 +1989,10 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 3,
         question: "What does diagnosis guide?",
         options: [
-          "Judgment of character",
+          "Personal opinions",
           "Treatment planning",
-          "Social exclusion",
-          "Personal opinions"
+          "Judgment of character",
+          "Social exclusion"
         ],
         correctAnswer: 1,
         explanation: "Diagnosis guides treatment planning and facilitates professional communication.",
@@ -2002,10 +2002,10 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 4,
         question: "What is the biopsychosocial model?",
         options: [
-          "Only biological factors",
+          "Only psychological factors",
           "Biological, psychological, and social factors",
           "Only social factors",
-          "Only psychological factors"
+          "Only biological factors"
         ],
         correctAnswer: 1,
         explanation: "Biopsychosocial model considers biological, psychological, and social factors.",
@@ -2015,12 +2015,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 5,
         question: "What are symptom checklists?",
         options: [
-          "Complete diagnoses",
           "Quick screens for specific concerns",
+          "Complete diagnoses",
           "Treatment plans",
           "Personality tests"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Symptom checklists are quick screening tools for specific concerns.",
         module: 1
       },
@@ -2028,12 +2028,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 6,
         question: "How does culture affect assessment?",
         options: [
-          "No effect",
-          "Affects symptom expression and help-seeking",
           "Only affects language",
-          "Unimportant factor"
+          "No effect",
+          "Unimportant factor",
+          "Affects symptom expression and help-seeking"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Culture affects how symptoms are expressed and whether people seek help.",
         module: 1
       },
@@ -2056,12 +2056,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 8,
         question: "What are evidence-based interventions?",
         options: [
-          "Whatever feels right",
-          "Approaches supported by scientific research",
           "Traditional methods only",
-          "Newest trends"
+          "Whatever feels right",
+          "Newest trends",
+          "Approaches supported by scientific research"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Evidence-based interventions have scientific research demonstrating effectiveness.",
         module: 2
       },
@@ -2069,12 +2069,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 9,
         question: "What does CBT focus on?",
         options: [
-          "Only past experiences",
           "Connections between thoughts, feelings, behaviors",
           "Only unconscious processes",
-          "Only family systems"
+          "Only family systems",
+          "Only past experiences"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "CBT focuses on connections between thoughts, feelings, and behaviors.",
         module: 2
       },
@@ -2084,8 +2084,8 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         options: [
           "Ignoring thoughts",
           "Identifying and changing unhelpful thoughts",
-          "Only accepting thoughts",
-          "Suppressing thoughts"
+          "Suppressing thoughts",
+          "Only accepting thoughts"
         ],
         correctAnswer: 1,
         explanation: "Cognitive restructuring involves identifying and challenging unhelpful thinking.",
@@ -2096,11 +2096,11 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         question: "What is behavioral activation?",
         options: [
           "Reducing activity",
+          "Only resting",
           "Increasing engagement in rewarding activities",
-          "Only talking",
-          "Only resting"
+          "Only talking"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Behavioral activation increases rewarding activities to improve mood.",
         module: 2
       },
@@ -2110,8 +2110,8 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         options: [
           "Keeping clients uninformed",
           "Teaching about condition and treatment",
-          "Only giving advice",
-          "Only listening"
+          "Only listening",
+          "Only giving advice"
         ],
         correctAnswer: 1,
         explanation: "Psychoeducation involves teaching clients about their condition and treatment.",
@@ -2134,12 +2134,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 14,
         question: "What is competence in intervention?",
         options: [
-          "Using any intervention",
           "Only using interventions with proper training",
+          "Using any intervention",
           "Guessing what to do",
           "Copying others"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Competence means only delivering interventions you're properly trained to provide.",
         module: 2
       },
@@ -2149,12 +2149,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 15,
         question: "What is treatment planning?",
         options: [
-          "Fixed recipe",
           "Collaborative roadmap for therapy",
           "Clinician-only decision",
-          "Standard protocol for all"
+          "Standard protocol for all",
+          "Fixed recipe"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Treatment planning is collaborative process creating therapy roadmap.",
         module: 3
       },
@@ -2162,12 +2162,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 16,
         question: "What does SMART stand for?",
         options: [
-          "Simple, Meaningful, Actionable, Realistic, Timely",
-          "Specific, Measurable, Achievable, Relevant, Time-bound",
           "Strategic, Manageable, Appropriate, Reasonable, Targeted",
-          "Significant, Meaningful, Achievable, Realistic, Timely"
+          "Significant, Meaningful, Achievable, Realistic, Timely",
+          "Specific, Measurable, Achievable, Relevant, Time-bound",
+          "Simple, Meaningful, Actionable, Realistic, Timely"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "SMART goals are Specific, Measurable, Achievable, Relevant, Time-bound.",
         module: 3
       },
@@ -2177,8 +2177,8 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         options: [
           "Only at end",
           "Regularly checking if interventions work",
-          "Assuming progress",
-          "Never checking"
+          "Never checking",
+          "Assuming progress"
         ],
         correctAnswer: 1,
         explanation: "Progress monitoring involves regularly checking whether interventions help.",
@@ -2188,12 +2188,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 18,
         question: "When consider treatment adjustments?",
         options: [
-          "Never change",
           "Lack of progress after reasonable time",
           "Always change weekly",
-          "Only client requests"
+          "Only client requests",
+          "Never change"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Consider adjustments when there's lack of progress after reasonable time.",
         module: 3
       },
@@ -2201,12 +2201,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 19,
         question: "What is purpose of documentation?",
         options: [
-          "Only billing",
           "Communication and continuity of care",
           "Secret records",
-          "Only for supervisors"
+          "Only for supervisors",
+          "Only billing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Documentation serves communication, continuity, legal, and quality purposes.",
         module: 3
       },
@@ -2214,12 +2214,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 20,
         question: "What is termination planning?",
         options: [
-          "Only at end",
           "Planning conclusion from beginning",
-          "Surprise ending",
-          "Never ending"
+          "Only at end",
+          "Never ending",
+          "Surprise ending"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Termination planning considers therapy conclusion from beginning.",
         module: 3
       },
@@ -2229,9 +2229,9 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 21,
         question: "What is key with children and adolescents?",
         options: [
-          "Same as adults",
-          "Matching developmental level",
           "Only talking",
+          "Matching developmental level",
+          "Same as adults",
           "Ignoring development"
         ],
         correctAnswer: 1,
@@ -2242,12 +2242,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 22,
         question: "What is lifespan perspective with older adults?",
         options: [
-          "Only current issues",
           "Considering entire life history",
+          "Only current issues",
           "Only aging problems",
           "Ignoring past"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Lifespan perspective considers person's entire life history and wisdom.",
         module: 4
       },
@@ -2255,9 +2255,9 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 23,
         question: "What is first with trauma survivors?",
         options: [
-          "Trauma processing",
-          "Establishing safety",
           "Immediate exposure",
+          "Establishing safety",
+          "Trauma processing",
           "Only talking"
         ],
         correctAnswer: 1,
@@ -2268,12 +2268,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 24,
         question: "What is cultural humility?",
         options: [
-          "Knowing everything",
           "Ongoing process of learning",
-          "Ignoring culture",
-          "Assuming sameness"
+          "Knowing everything",
+          "Assuming sameness",
+          "Ignoring culture"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Cultural humility is ongoing process of learning about different cultures.",
         module: 4
       },
@@ -2282,11 +2282,11 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         question: "What is systems perspective with families?",
         options: [
           "Only individual focus",
-          "Viewing problems in relationship context",
           "Ignoring relationships",
-          "Only one person's view"
+          "Only one person's view",
+          "Viewing problems in relationship context"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Systems perspective views problems within relationship context.",
         module: 4
       },
@@ -2294,12 +2294,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 26,
         question: "What is multipartiality?",
         options: [
+          "Only one perspective",
           "Taking sides",
-          "Being fair to all members",
           "Ignoring some",
-          "Only one perspective"
+          "Being fair to all members"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Multipartiality means being fair to all family members without taking sides.",
         module: 4
       },
@@ -2309,9 +2309,9 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 27,
         question: "What is beneficence?",
         options: [
-          "Doing harm",
-          "Doing good for clients",
           "Being neutral",
+          "Doing good for clients",
+          "Doing harm",
           "Avoiding action"
         ],
         correctAnswer: 1,
@@ -2322,12 +2322,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 28,
         question: "What is nonmaleficence?",
         options: [
-          "Causing harm",
           "Doing no harm",
-          "Risking harm",
-          "Ignoring harm"
+          "Causing harm",
+          "Ignoring harm",
+          "Risking harm"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Nonmaleficence means avoiding harm to clients.",
         module: 5
       },
@@ -2335,12 +2335,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 29,
         question: "What is informed consent?",
         options: [
-          "Assumed agreement",
-          "Understanding treatment before consenting",
+          "Only verbal agreement",
           "No explanation needed",
-          "Only verbal agreement"
+          "Understanding treatment before consenting",
+          "Assumed agreement"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Informed consent means clients understand treatment before agreeing.",
         module: 5
       },
@@ -2348,12 +2348,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 30,
         question: "What is mandated reporting?",
         options: [
-          "Optional reporting",
           "Legal requirement to report abuse",
           "Never reporting",
-          "Only serious crimes"
+          "Only serious crimes",
+          "Optional reporting"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Mandated reporting is legal requirement to report suspected abuse.",
         module: 5
       },
@@ -2361,12 +2361,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 31,
         question: "What is duty to warn/protect?",
         options: [
-          "No duty",
           "Obligation when client threatens others",
+          "No duty",
           "Only for police",
           "Optional action"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Duty to warn/protect is legal obligation when client threatens others.",
         module: 5
       },
@@ -2374,10 +2374,10 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 32,
         question: "What are confidentiality limits?",
         options: [
-          "No limits",
+          "Any concern",
           "Danger to self/others, abuse reporting",
           "Only client permission",
-          "Any concern"
+          "No limits"
         ],
         correctAnswer: 1,
         explanation: "Confidentiality limits include danger to self/others and abuse reporting.",
@@ -2387,12 +2387,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 33,
         question: "What is cultural competence?",
         options: [
-          "Ignoring culture",
           "Services sensitive to cultural differences",
-          "Only Western approaches",
-          "Assuming sameness"
+          "Assuming sameness",
+          "Ignoring culture",
+          "Only Western approaches"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Cultural competence means services sensitive to cultural differences.",
         module: 5
       },
@@ -2402,12 +2402,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 34,
         question: "Why lifelong learning important?",
         options: [
-          "Knowledge static",
           "Clinical knowledge constantly evolves",
-          "Once trained, done",
-          "Only beginners learn"
+          "Knowledge static",
+          "Only beginners learn",
+          "Once trained, done"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Clinical knowledge constantly evolves, requiring lifelong learning.",
         module: 6
       },
@@ -2415,12 +2415,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 35,
         question: "Why self-care ethical imperative?",
         options: [
+          "Only for weak people",
           "Only personal choice",
           "Prevents impairment and protects clients",
-          "Unimportant",
-          "Only for weak people"
+          "Unimportant"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Self-care prevents professional impairment and protects clients.",
         module: 6
       },
@@ -2428,12 +2428,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 36,
         question: "What is burnout?",
         options: [
-          "Normal tiredness",
           "Emotional exhaustion from work stress",
+          "Normal tiredness",
           "Brief stress",
           "Motivation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Burnout is emotional exhaustion from chronic work stress.",
         module: 6
       },
@@ -2441,12 +2441,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 37,
         question: "Benefits of personal therapy for clinicians?",
         options: [
+          "Weakness",
           "No benefits",
-          "Personal growth and understanding client perspective",
           "Only if mandated",
-          "Weakness"
+          "Personal growth and understanding client perspective"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Personal therapy offers growth and client perspective understanding.",
         module: 6
       },
@@ -2454,12 +2454,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 38,
         question: "What is peer consultation?",
         options: [
-          "Only supervisor",
           "Regular meetings with colleagues",
+          "Only supervisor",
           "No consultation",
           "Only formal supervision"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Peer consultation involves regular meetings with colleagues.",
         module: 6
       },
@@ -2467,10 +2467,10 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 39,
         question: "What is work-life balance?",
         options: [
-          "Only work",
+          "Only personal life",
           "Healthy boundaries between work and personal life",
-          "No balance needed",
-          "Only personal life"
+          "Only work",
+          "No balance needed"
         ],
         correctAnswer: 1,
         explanation: "Work-life balance maintains healthy work-personal life boundaries.",
@@ -2480,12 +2480,12 @@ Being an effective clinical psychologist requires ongoing self-reflection and pr
         id: 40,
         question: "Signs of professional impairment?",
         options: [
-          "Perfect functioning",
           "Decreased effectiveness, ethical lapses",
+          "No signs",
           "Always effective",
-          "No signs"
+          "Perfect functioning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Impairment signs include decreased effectiveness and ethical lapses.",
         module: 6
       }

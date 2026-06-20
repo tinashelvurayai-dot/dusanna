@@ -301,12 +301,12 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           id: 1,
           question: "What is the last brain region to mature during adolescence?",
           options: [
-            "Prefrontal cortex",
             "Amygdala",
             "Cerebellum",
-            "Hippocampus"
+            "Hippocampus",
+            "Prefrontal cortex"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The prefrontal cortex, responsible for executive functions like planning and impulse control, continues developing into the mid-20s."
         },
         {
@@ -314,9 +314,9 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           question: "What explains adolescents' heightened emotional reactivity?",
           options: [
             "Amygdala develops earlier than prefrontal cortex",
+            "Overdeveloped frontal lobes",
             "Complete brain maturation",
-            "Lack of emotional experience",
-            "Overdeveloped frontal lobes"
+            "Lack of emotional experience"
           ],
           correctAnswer: 0,
           explanation: "The amygdala (emotional processing) develops earlier than the prefrontal cortex (regulation), creating emotional intensity before full regulatory capacity."
@@ -325,48 +325,48 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           id: 3,
           question: "What characterizes formal operational thought?",
           options: [
-            "Abstract reasoning and hypothetical thinking",
-            "Concrete, literal thinking only",
             "Emotional decision-making",
-            "Automatic, intuitive processing"
+            "Concrete, literal thinking only",
+            "Automatic, intuitive processing",
+            "Abstract reasoning and hypothetical thinking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Formal operational thought involves abstract reasoning, systematic problem-solving, and hypothetical thinking capabilities."
         },
         {
           id: 4,
           question: "What is Marcia's identity status involving active exploration without commitment?",
           options: [
-            "Moratorium",
             "Diffusion",
-            "Foreclosure",
-            "Achievement"
+            "Moratorium",
+            "Achievement",
+            "Foreclosure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Moratorium status involves active exploration of identities without yet making commitments."
         },
         {
           id: 5,
           question: "What emotional development involves shifting from external to internal regulation?",
           options: [
+            "Mood variability reduction",
             "Emotion regulation development",
             "Emotional intensity increase",
-            "Mood variability reduction",
             "Social emotion sharing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adolescents develop the capacity for internal emotion regulation rather than relying on external sources."
         },
         {
           id: 6,
           question: "When does peer influence typically peak?",
           options: [
-            "Mid-adolescence",
             "Early childhood",
-            "Late adolescence",
-            "Young adulthood"
+            "Mid-adolescence",
+            "Young adulthood",
+            "Late adolescence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Peer influence typically peaks during mid-adolescence when social brain development maximizes sensitivity to peer approval."
         },
         {
@@ -374,8 +374,8 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           question: "What moral reasoning level involves following rules to maintain social order?",
           options: [
             "Conventional level",
-            "Preconventional level",
             "Postconventional level",
+            "Preconventional level",
             "Principled level"
           ],
           correctAnswer: 0,
@@ -385,36 +385,36 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           id: 8,
           question: "What cultural dimension affects expectations about independence?",
           options: [
-            "Individualist vs. collectivist orientation",
             "High vs. low context communication",
+            "Uncertainty avoidance",
             "Power distance acceptance",
-            "Uncertainty avoidance"
+            "Individualist vs. collectivist orientation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Individualist cultures typically emphasize earlier independence, while collectivist cultures maintain stronger family interdependence."
         },
         {
           id: 9,
           question: "What positive youth development element involves positive bonds with people and institutions?",
           options: [
-            "Connection",
             "Competence",
-            "Confidence",
-            "Character"
+            "Connection",
+            "Character",
+            "Confidence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Connection refers to positive bonds with people and institutions that support healthy development."
         },
         {
           id: 10,
           question: "What concept describes different paths leading to similar developmental outcomes?",
           options: [
-            "Equifinality",
-            "Multifinality",
             "Continuity",
-            "Discontinuity"
+            "Equifinality",
+            "Discontinuity",
+            "Multifinality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Equifinality means different developmental pathways can lead to similar outcomes."
         },
         {
@@ -422,9 +422,9 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           question: "What brain process strengthens frequently used neural pathways?",
           options: [
             "Synaptic pruning",
-            "Myelination",
+            "Axonal sprouting",
             "Neurogenesis",
-            "Axonal sprouting"
+            "Myelination"
           ],
           correctAnswer: 0,
           explanation: "Synaptic pruning eliminates unused connections while strengthening frequently used pathways."
@@ -433,24 +433,24 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           id: 12,
           question: "What decision-making context amplifies adolescent risk-taking?",
           options: [
-            "Peer presence",
-            "Alone with parents",
             "Sleep-deprived state",
-            "Academic settings"
+            "Alone with parents",
+            "Academic settings",
+            "Peer presence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Peer presence significantly amplifies risk-taking due to social reward system activation."
         },
         {
           id: 13,
           question: "What identity status involves commitment without personal exploration?",
           options: [
-            "Foreclosure",
+            "Achievement",
             "Diffusion",
-            "Moratorium",
-            "Achievement"
+            "Foreclosure",
+            "Moratorium"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Foreclosure involves committing to identities without personal exploration, often based on parental or social expectations."
         },
         {
@@ -458,9 +458,9 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           question: "What emotion increases during adolescence due to self-awareness?",
           options: [
             "Self-conscious emotions",
+            "Primitive emotions",
             "Basic survival emotions",
-            "Infantile emotions",
-            "Primitive emotions"
+            "Infantile emotions"
           ],
           correctAnswer: 0,
           explanation: "Self-conscious emotions like embarrassment and pride increase with growing self-awareness."
@@ -469,60 +469,60 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           id: 15,
           question: "What parenting adaptation supports adolescent development?",
           options: [
-            "Shifting from control to guidance",
             "Increasing strict rules",
+            "Maintaining childhood patterns",
             "Reducing all boundaries",
-            "Maintaining childhood patterns"
+            "Shifting from control to guidance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective parenting adapts from direct control to guidance as adolescents develop autonomy."
         },
         {
           id: 16,
           question: "What moral development enables more complex ethical reasoning?",
           options: [
-            "Cognitive capacity expansion",
-            "Emotional reduction",
+            "Parental instruction",
             "Social conformity",
-            "Parental instruction"
+            "Cognitive capacity expansion",
+            "Emotional reduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Expanding cognitive capacity enables more complex moral and ethical reasoning."
         },
         {
           id: 17,
           question: "What socioeconomic factor most affects developmental opportunities?",
           options: [
-            "Access to resources",
             "Genetic inheritance",
+            "Birth order",
             "Personality traits",
-            "Birth order"
+            "Access to resources"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Access to educational, extracurricular, and support resources significantly shapes developmental opportunities."
         },
         {
           id: 18,
           question: "What positive development element involves empathy and sympathy?",
           options: [
-            "Caring/Compassion",
-            "Competence",
             "Confidence",
-            "Contribution"
+            "Contribution",
+            "Caring/Compassion",
+            "Competence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Caring/Compassion involves developing empathy, sympathy, and concern for others."
         },
         {
           id: 19,
           question: "What describes similar starts leading to different developmental outcomes?",
           options: [
-            "Multifinality",
-            "Equifinality",
+            "Linearity",
             "Continuity",
-            "Linearity"
+            "Multifinality",
+            "Equifinality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Multifinality means similar starting points can lead to different developmental outcomes."
         },
         {
@@ -530,9 +530,9 @@ Remember: Adolescent development is not a deficit model of becoming adult, but a
           question: "What research method tracks development over time?",
           options: [
             "Longitudinal study",
+            "Case study",
             "Cross-sectional study",
-            "Experimental design",
-            "Case study"
+            "Experimental design"
           ],
           correctAnswer: 0,
           explanation: "Longitudinal studies follow the same individuals over time to understand developmental trajectories."
@@ -878,24 +878,24 @@ Remember: Assessment is not just about identifying problems but understanding th
           id: 1,
           question: "What is essential when distinguishing normative from pathological adolescent behavior?",
           options: [
-            "Understanding developmental appropriateness",
             "Comparing to adult standards",
-            "Using only parent reports",
-            "Ignoring cultural factors"
+            "Understanding developmental appropriateness",
+            "Ignoring cultural factors",
+            "Using only parent reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Assessment must consider what is developmentally appropriate versus indicating mental health concerns."
         },
         {
           id: 2,
           question: "What engagement strategy helps with adolescent assessment?",
           options: [
+            "Rushing through to save time",
             "Building rapport before formal assessment",
-            "Starting with most sensitive topics",
             "Using technical psychological terms",
-            "Rushing through to save time"
+            "Starting with most sensitive topics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Building rapport establishes trust necessary for accurate adolescent self-disclosure."
         },
         {
@@ -903,9 +903,9 @@ Remember: Assessment is not just about identifying problems but understanding th
           question: "What is a broadband assessment measure for adolescents?",
           options: [
             "Youth Self-Report (YSR)",
+            "Rorschach Inkblot",
             "Beck Depression Inventory",
-            "MMPI-A",
-            "Rorschach Inkblot"
+            "MMPI-A"
           ],
           correctAnswer: 0,
           explanation: "YSR is a comprehensive measure assessing multiple emotional and behavioral domains."
@@ -914,48 +914,48 @@ Remember: Assessment is not just about identifying problems but understanding th
           id: 4,
           question: "What standardized tool assesses suicide risk?",
           options: [
-            "Columbia Suicide Severity Rating Scale",
             "Beck Anxiety Inventory",
-            "Conners ADHD scale",
-            "Wechsler Intelligence Scale"
+            "Wechsler Intelligence Scale",
+            "Columbia Suicide Severity Rating Scale",
+            "Conners ADHD scale"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "C-SSRS is a standardized, evidence-based suicide risk assessment tool."
         },
         {
           id: 5,
           question: "What is important in DSM-5-TR application with adolescents?",
           options: [
-            "Developmental modifications of criteria",
             "Ignoring developmental factors",
-            "Using adult criteria unchanged",
-            "Avoiding cultural considerations"
+            "Avoiding cultural considerations",
+            "Developmental modifications of criteria",
+            "Using adult criteria unchanged"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Diagnostic criteria must be applied with understanding of developmental presentations."
         },
         {
           id: 6,
           question: "What cognitive assessment is commonly used with adolescents?",
           options: [
-            "Wechsler Intelligence Scale for Children",
-            "Rorschach Inkblot Method",
             "Thematic Apperception Test",
-            "Beck Youth Inventories"
+            "Rorschach Inkblot Method",
+            "Beck Youth Inventories",
+            "Wechsler Intelligence Scale for Children"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "WISC-V assesses cognitive abilities in children and adolescents."
         },
         {
           id: 7,
           question: "What projective technique uses interpersonal narratives?",
           options: [
-            "Thematic Apperception Test",
+            "Draw-A-Person",
             "Rorschach Inkblot",
-            "Sentence Completion",
-            "Draw-A-Person"
+            "Thematic Apperception Test",
+            "Sentence Completion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TAT elicits stories that reveal interpersonal dynamics and internal narratives."
         },
         {
@@ -963,9 +963,9 @@ Remember: Assessment is not just about identifying problems but understanding th
           question: "What should cultural formulation include?",
           options: [
             "Cultural explanations of symptoms",
-            "Only standardized test scores",
             "Ignoring cultural background",
-            "Assuming universal experiences"
+            "Assuming universal experiences",
+            "Only standardized test scores"
           ],
           correctAnswer: 0,
           explanation: "Cultural formulation explores how culture shapes symptom experience and expression."
@@ -974,12 +974,12 @@ Remember: Assessment is not just about identifying problems but understanding th
           id: 9,
           question: "What school assessment identifies behavioral patterns?",
           options: [
-            "Functional Behavioral Assessment",
-            "Intelligence testing only",
             "Personality assessment",
+            "Intelligence testing only",
+            "Functional Behavioral Assessment",
             "Projective testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FBA analyzes antecedents and consequences of behaviors to understand functions."
         },
         {
@@ -987,9 +987,9 @@ Remember: Assessment is not just about identifying problems but understanding th
           question: "What forensic assessment evaluates legal understanding?",
           options: [
             "Competency evaluation",
-            "Risk assessment only",
             "Trauma assessment",
-            "Parenting capacity"
+            "Parenting capacity",
+            "Risk assessment only"
           ],
           correctAnswer: 0,
           explanation: "Competency evaluation assesses understanding of legal proceedings and ability to assist counsel."
@@ -998,24 +998,24 @@ Remember: Assessment is not just about identifying problems but understanding th
           id: 11,
           question: "Why use multiple informants in assessment?",
           options: [
-            "Gather comprehensive perspectives",
             "Confuse the assessment process",
+            "Create contradictory reports",
             "Increase assessment cost",
-            "Create contradictory reports"
+            "Gather comprehensive perspectives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Multiple informants provide different perspectives on functioning across contexts."
         },
         {
           id: 12,
           question: "What helps with developmentally sensitive questioning?",
           options: [
+            "Assuming understanding of concepts",
             "Concrete examples before abstract questions",
             "Only abstract theoretical questions",
-            "Technical diagnostic terminology",
-            "Assuming understanding of concepts"
+            "Technical diagnostic terminology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Concrete examples help adolescents understand and respond to assessment questions."
         },
         {
@@ -1024,8 +1024,8 @@ Remember: Assessment is not just about identifying problems but understanding th
           options: [
             "CRAFFT Screening Tool",
             "MMPI-A only",
-            "Rorschach Inkblot",
-            "IQ testing"
+            "IQ testing",
+            "Rorschach Inkblot"
           ],
           correctAnswer: 0,
           explanation: "CRAFFT is a brief, validated screening tool for adolescent substance use."
@@ -1034,24 +1034,24 @@ Remember: Assessment is not just about identifying problems but understanding th
           id: 14,
           question: "What integrates biological, psychological, social factors?",
           options: [
-            "Case conceptualization",
-            "Test administration only",
             "Score reporting",
+            "Test administration only",
+            "Case conceptualization",
             "Diagnostic labeling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Case conceptualization integrates multiple factors to understand the whole person."
         },
         {
           id: 15,
           question: "What assesses specific learning disorders?",
           options: [
-            "Ability-achievement discrepancy analysis",
-            "Personality testing only",
             "Projective techniques",
-            "Parent interviews alone"
+            "Parent interviews alone",
+            "Personality testing only",
+            "Ability-achievement discrepancy analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Learning disability assessment evaluates discrepancies between cognitive ability and academic achievement."
         },
         {
@@ -1059,9 +1059,9 @@ Remember: Assessment is not just about identifying problems but understanding th
           question: "What considers cultural validity of measures?",
           options: [
             "Assessment adaptation",
-            "Universal test application",
+            "Standardized only approach",
             "Ignoring cultural factors",
-            "Standardized only approach"
+            "Universal test application"
           ],
           correctAnswer: 0,
           explanation: "Assessment must consider whether measures are valid across cultural groups."
@@ -1070,12 +1070,12 @@ Remember: Assessment is not just about identifying problems but understanding th
           id: 17,
           question: "What evaluates post-secondary planning needs?",
           options: [
-            "Transition assessment",
-            "Only academic testing",
+            "Forensic evaluation",
             "Personality assessment",
-            "Forensic evaluation"
+            "Only academic testing",
+            "Transition assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transition assessment evaluates skills and needs for post-secondary education or employment."
         },
         {
@@ -1083,8 +1083,8 @@ Remember: Assessment is not just about identifying problems but understanding th
           question: "What framework synthesizes assessment data?",
           options: [
             "Identifying patterns across sources",
-            "Using only test scores",
             "Ignoring discrepancies",
+            "Using only test scores",
             "Focusing on weaknesses only"
           ],
           correctAnswer: 0,
@@ -1094,24 +1094,24 @@ Remember: Assessment is not just about identifying problems but understanding th
           id: 19,
           question: "What is developmentally appropriate feedback?",
           options: [
-            "Adolescent-centered language and concepts",
             "Technical diagnostic language",
-            "Parent-only communication",
-            "Written reports only"
+            "Written reports only",
+            "Adolescent-centered language and concepts",
+            "Parent-only communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Feedback should use language and concepts the adolescent can understand and use."
         },
         {
           id: 20,
           question: "What ethical consideration requires special attention with minors?",
           options: [
-            "Informed consent/assent process",
-            "Only billing procedures",
             "Office decoration",
-            "Scheduling convenience"
+            "Only billing procedures",
+            "Scheduling convenience",
+            "Informed consent/assent process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Informed consent with minors involves both parental permission and adolescent assent."
         }
       ]
@@ -1486,108 +1486,108 @@ Remember: Effective intervention requires both fidelity to evidence-based approa
           id: 1,
           question: "What is adapted in CBT for adolescent developmental needs?",
           options: [
-            "Collaborative empiricism with developmental consideration",
             "Eliminating all structure from therapy",
+            "Collaborative empiricism with developmental consideration",
             "Using only adult examples and language",
             "Focusing only on behavioral techniques"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CBT for adolescents maintains core principles while adapting collaboration, examples, and techniques to developmental level."
         },
         {
           id: 2,
           question: "What DBT skill module addresses crisis survival?",
           options: [
-            "Distress Tolerance",
             "Mindfulness",
-            "Emotion Regulation",
-            "Interpersonal Effectiveness"
+            "Distress Tolerance",
+            "Interpersonal Effectiveness",
+            "Emotion Regulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Distress Tolerance skills help adolescents survive crises without making situations worse."
         },
         {
           id: 3,
           question: "What family therapy addresses boundaries and hierarchies?",
           options: [
-            "Structural Family Therapy",
-            "Functional Family Therapy",
+            "Multisystemic Therapy",
             "Attachment-Based Family Therapy",
-            "Multisystemic Therapy"
+            "Functional Family Therapy",
+            "Structural Family Therapy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Structural Family Therapy focuses on restructuring family boundaries, hierarchies, and subsystems."
         },
         {
           id: 4,
           question: "What enhances motivation for change with ambivalent adolescents?",
           options: [
-            "Motivational Interviewing",
-            "Direct confrontation",
+            "Avoiding change discussions",
             "Parental pressure only",
-            "Avoiding change discussions"
+            "Motivational Interviewing",
+            "Direct confrontation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Motivational Interviewing explores ambivalence and enhances intrinsic motivation for change."
         },
         {
           id: 5,
           question: "What trauma intervention includes trauma narrative development?",
           options: [
-            "Trauma-Focused CBT",
             "Prolonged Exposure",
             "ARC Framework",
+            "Trauma-Focused CBT",
             "Mindfulness-Based Trauma Treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TF-CBT includes developing and processing a trauma narrative to reduce PTSD symptoms."
         },
         {
           id: 6,
           question: "What school intervention uses tiered support systems?",
           options: [
-            "Positive Behavioral Interventions and Supports",
             "Only individual counseling",
+            "Positive Behavioral Interventions and Supports",
             "Classroom punishment systems",
             "Ignoring behavioral issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PBIS uses multi-tiered systems of support for all students, with increasing intensity based on need."
         },
         {
           id: 7,
           question: "What therapeutic factor reduces isolation in adolescent groups?",
           options: [
-            "Universality",
             "Cohesion only",
             "Leader expertise",
+            "Universality",
             "Homework assignments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Universality helps adolescents realize others share similar struggles, reducing isolation."
         },
         {
           id: 8,
           question: "What technology use enhances CBT engagement?",
           options: [
-            "Interactive programs and game-based learning",
+            "Social media during sessions",
             "Eliminating all technology",
-            "Only using traditional paper methods",
-            "Social media during sessions"
+            "Interactive programs and game-based learning",
+            "Only using traditional paper methods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Technology can increase engagement through interactive programs and game-based skill learning."
         },
         {
           id: 9,
           question: "What transdiagnostic treatment targets emotion dysregulation?",
           options: [
-            "Unified Protocol for Adolescents",
-            "Only diagnosis-specific treatments",
+            "Supportive counseling alone",
             "Medication management only",
-            "Supportive counseling alone"
+            "Only diagnosis-specific treatments",
+            "Unified Protocol for Adolescents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Unified Protocol addresses underlying emotion dysregulation across anxiety, depression, and related disorders."
         },
         {
@@ -1595,8 +1595,8 @@ Remember: Effective intervention requires both fidelity to evidence-based approa
           question: "What involves surface and deep structure changes in cultural adaptation?",
           options: [
             "Cultural Adaptation Framework",
-            "Using only original manuals",
             "Ignoring cultural factors",
+            "Using only original manuals",
             "Translation only"
           ],
           correctAnswer: 0,
@@ -1606,72 +1606,72 @@ Remember: Effective intervention requires both fidelity to evidence-based approa
           id: 11,
           question: "What prevention targets at-risk groups?",
           options: [
-            "Selective prevention",
-            "Universal prevention",
             "Indicated prevention",
+            "Universal prevention",
+            "Selective prevention",
             "Treatment only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Selective prevention targets groups at increased risk before problems develop."
         },
         {
           id: 12,
           question: "What should individualized treatment planning include?",
           options: [
-            "Assessment-informed goal setting",
             "One-size-fits-all approaches",
             "Ignoring family context",
-            "Standard protocols only"
+            "Standard protocols only",
+            "Assessment-informed goal setting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Treatment planning should be individualized based on comprehensive assessment and specific needs."
         },
         {
           id: 13,
           question: "What DBT component involves parents and adolescents learning together?",
           options: [
-            "Multifamily skills groups",
+            "Diary cards only",
             "Individual therapy only",
             "Phone coaching alone",
-            "Diary cards only"
+            "Multifamily skills groups"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Multifamily skills groups teach DBT skills to adolescents and parents together."
         },
         {
           id: 14,
           question: "What ecological approach addresses multiple systems?",
           options: [
+            "School counseling alone",
             "Multisystemic Therapy",
             "Individual therapy only",
-            "School counseling alone",
             "Medical management only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MST addresses individual, family, peer, school, and community factors in serious conduct problems."
         },
         {
           id: 15,
           question: "What school program addresses trauma symptoms?",
           options: [
-            "Cognitive Behavioral Intervention for Trauma in Schools",
-            "Only academic tutoring",
             "Disciplinary actions only",
-            "Ignoring trauma impacts"
+            "Ignoring trauma impacts",
+            "Only academic tutoring",
+            "Cognitive Behavioral Intervention for Trauma in Schools"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CBITS provides trauma intervention within school settings to reduce PTSD symptoms."
         },
         {
           id: 16,
           question: "What ACT component involves values clarification?",
           options: [
-            "Values and committed action",
-            "Only mindfulness practice",
             "Cognitive restructuring only",
-            "Behavioral activation alone"
+            "Behavioral activation alone",
+            "Only mindfulness practice",
+            "Values and committed action"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ACT helps adolescents clarify values and take committed action toward what matters."
         },
         {
@@ -1679,9 +1679,9 @@ Remember: Effective intervention requires both fidelity to evidence-based approa
           question: "What prevention approach targets entire populations?",
           options: [
             "Universal prevention",
+            "Treatment interventions",
             "Selective prevention",
-            "Indicated prevention",
-            "Treatment interventions"
+            "Indicated prevention"
           ],
           correctAnswer: 0,
           explanation: "Universal prevention targets entire populations to prevent problems before they occur."
@@ -1690,36 +1690,36 @@ Remember: Effective intervention requires both fidelity to evidence-based approa
           id: 18,
           question: "What monitors treatment effectiveness?",
           options: [
-            "Progress monitoring",
-            "Assuming effectiveness",
+            "Therapist intuition",
             "Client satisfaction only",
-            "Therapist intuition"
+            "Assuming effectiveness",
+            "Progress monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regular progress monitoring evaluates treatment response and guides adjustments."
         },
         {
           id: 19,
           question: "What implementation science considers?",
           options: [
-            "Barriers and facilitators to implementation",
+            "Theoretical models only",
             "Only treatment efficacy",
-            "Ignoring real-world context",
-            "Theoretical models only"
+            "Barriers and facilitators to implementation",
+            "Ignoring real-world context"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Implementation science addresses how to effectively implement evidence-based practices in real-world settings."
         },
         {
           id: 20,
           question: "What remains foundational even with manualized treatments?",
           options: [
-            "Therapeutic relationship",
-            "Strict manual adherence only",
+            "Office environment",
             "Theoretical orientation",
-            "Office environment"
+            "Therapeutic relationship",
+            "Strict manual adherence only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The therapeutic relationship is essential for effectiveness, even with structured evidence-based treatments."
         }
       ]
@@ -2145,12 +2145,12 @@ Remember: Developmental psychopathology views mental disorders not as fixed enti
           id: 1,
           question: "What principle describes different pathways leading to similar outcomes?",
           options: [
-            "Equifinality",
-            "Multifinality",
             "Heterotypic continuity",
-            "Homotypic continuity"
+            "Equifinality",
+            "Homotypic continuity",
+            "Multifinality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Equifinality means different developmental pathways can lead to similar psychopathological outcomes."
         },
         {
@@ -2169,132 +2169,132 @@ Remember: Developmental psychopathology views mental disorders not as fixed enti
           id: 3,
           question: "What anxiety disorder typically emerges in early adolescence?",
           options: [
-            "Social Anxiety Disorder",
             "Separation Anxiety Disorder",
             "Specific Phobia",
-            "Panic Disorder"
+            "Panic Disorder",
+            "Social Anxiety Disorder"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social Anxiety Disorder often emerges in early adolescence with increased social evaluation concerns."
         },
         {
           id: 4,
           question: "What differentiates childhood-onset from adolescent-onset conduct disorder?",
           options: [
-            "Developmental pathways and prognosis",
-            "Only symptom severity",
             "Treatment response only",
-            "Family history alone"
+            "Family history alone",
+            "Developmental pathways and prognosis",
+            "Only symptom severity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Childhood-onset conduct disorder typically has worse prognosis than adolescent-onset, with different developmental pathways."
         },
         {
           id: 5,
           question: "What eating disorder typically begins in adolescence?",
           options: [
+            "Equally across ages",
             "Anorexia Nervosa",
             "Binge Eating Disorder only",
-            "Only in adulthood",
-            "Equally across ages"
+            "Only in adulthood"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Anorexia Nervosa typically begins during adolescence, often related to developmental tasks around autonomy and identity."
         },
         {
           id: 6,
           question: "What increases adolescent substance use risk?",
           options: [
+            "Limited social opportunities",
             "Brain development and reward sensitivity",
             "Complete brain maturation",
-            "Reduced peer influence",
-            "Limited social opportunities"
+            "Reduced peer influence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adolescent brain development, particularly reward system sensitivity, increases substance use risk."
         },
         {
           id: 7,
           question: "When do psychotic disorders typically begin?",
           options: [
-            "Late adolescence/early adulthood",
             "Early childhood",
             "Middle adulthood",
+            "Late adolescence/early adulthood",
             "Equally across lifespan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Schizophrenia spectrum disorders typically have onset in late adolescence or early adulthood."
         },
         {
           id: 8,
           question: "What trauma treatment includes trauma narrative development?",
           options: [
-            "Trauma-Focused CBT",
-            "Only medication management",
             "Supportive counseling alone",
-            "Family therapy only"
+            "Family therapy only",
+            "Trauma-Focused CBT",
+            "Only medication management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TF-CBT includes developing and processing a trauma narrative to reduce PTSD symptoms."
         },
         {
           id: 9,
           question: "What increases social demands for adolescents with ASD?",
           options: [
-            "Peer relationships and social complexity",
             "Reduced social expectations",
-            "Simplified social interactions",
-            "Limited social opportunities"
+            "Limited social opportunities",
+            "Peer relationships and social complexity",
+            "Simplified social interactions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adolescent social relationships become more complex and demanding, challenging for those with ASD."
         },
         {
           id: 10,
           question: "What involves physical symptoms without medical explanation?",
           options: [
-            "Somatic Symptom Disorder",
             "Conversion Disorder only",
-            "Factitious Disorder",
-            "Illness Anxiety Disorder"
+            "Somatic Symptom Disorder",
+            "Illness Anxiety Disorder",
+            "Factitious Disorder"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Somatic Symptom Disorder involves distressing physical symptoms without adequate medical explanation."
         },
         {
           id: 11,
           question: "What principle describes similar beginnings leading to different outcomes?",
           options: [
+            "Heterotypic continuity",
             "Multifinality",
             "Equifinality",
-            "Heterotypic continuity",
             "Developmental psychopathology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Multifinality means similar starting points can lead to different developmental outcomes."
         },
         {
           id: 12,
           question: "What mood disorder involves chronic low mood?",
           options: [
+            "Disruptive Mood Dysregulation",
             "Persistent Depressive Disorder",
-            "Major Depressive Disorder only",
             "Bipolar Disorder",
-            "Disruptive Mood Dysregulation"
+            "Major Depressive Disorder only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Persistent Depressive Disorder (Dysthymia) involves chronic low mood lasting years."
         },
         {
           id: 13,
           question: "What anxiety disorder involves panic attacks and agoraphobia?",
           options: [
-            "Panic Disorder",
-            "Generalized Anxiety Disorder",
             "Social Anxiety Disorder",
-            "Specific Phobia"
+            "Specific Phobia",
+            "Panic Disorder",
+            "Generalized Anxiety Disorder"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Panic Disorder involves recurrent panic attacks and often develops with agoraphobia."
         },
         {
@@ -2302,8 +2302,8 @@ Remember: Developmental psychopathology views mental disorders not as fixed enti
           question: "What ADHD change occurs in adolescence?",
           options: [
             "Presentation changes (less hyperactivity)",
-            "Complete symptom resolution",
             "Increased hyperactivity only",
+            "Complete symptom resolution",
             "No developmental changes"
           ],
           correctAnswer: 0,
@@ -2313,60 +2313,60 @@ Remember: Developmental psychopathology views mental disorders not as fixed enti
           id: 15,
           question: "What eating disorder involves binge eating without compensation?",
           options: [
-            "Binge Eating Disorder",
+            "Avoidant/Restrictive Food Intake",
             "Anorexia Nervosa",
             "Bulimia Nervosa",
-            "Avoidant/Restrictive Food Intake"
+            "Binge Eating Disorder"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Binge Eating Disorder involves recurrent binge eating without compensatory behaviors."
         },
         {
           id: 16,
           question: "What assesses substance use with adolescents?",
           options: [
-            "Motivational interviewing approaches",
             "Confrontational approaches only",
-            "Ignoring substance use",
-            "Parent interrogation only"
+            "Motivational interviewing approaches",
+            "Parent interrogation only",
+            "Ignoring substance use"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Motivational interviewing builds trust and enhances motivation for honest reporting and change."
         },
         {
           id: 17,
           question: "What identifies early warning signs of psychosis?",
           options: [
-            "Prodromal phase assessment",
             "Ignoring early signs",
-            "Only diagnosing full psychosis",
-            "Medication trials only"
+            "Medication trials only",
+            "Prodromal phase assessment",
+            "Only diagnosing full psychosis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Identifying prodromal signs allows early intervention before full psychosis develops."
         },
         {
           id: 18,
           question: "What trauma type involves multiple or prolonged exposures?",
           options: [
-            "Complex trauma",
-            "Single incident trauma only",
             "Mild stress only",
-            "Normal life events"
+            "Single incident trauma only",
+            "Normal life events",
+            "Complex trauma"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Complex trauma involves multiple or prolonged traumatic exposures, often in caregiving relationships."
         },
         {
           id: 19,
           question: "What focuses on transition to adulthood for neurodevelopmental disorders?",
           options: [
-            "Transition planning and life skills",
-            "Only childhood interventions",
+            "Medical management only",
             "Ignoring future planning",
-            "Medical management only"
+            "Only childhood interventions",
+            "Transition planning and life skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Adolescent intervention for neurodevelopmental disorders emphasizes transition to adult independence."
         },
         {
@@ -2374,9 +2374,9 @@ Remember: Developmental psychopathology views mental disorders not as fixed enti
           question: "What explores cultural explanations of symptoms?",
           options: [
             "Cultural Formulation",
-            "Ignoring cultural factors",
+            "Biological models only",
             "Standardized assessment only",
-            "Biological models only"
+            "Ignoring cultural factors"
           ],
           correctAnswer: 0,
           explanation: "Cultural Formulation explores how culture shapes symptom experience, expression, and help-seeking."
@@ -2798,24 +2798,24 @@ Remember: Special populations are not defined solely by their challenges but by 
           id: 1,
           question: "What model describes homosexual identity formation?",
           options: [
-            "Cass's model",
             "Erikson's stages only",
-            "Piaget's cognitive stages",
-            "Kohlberg's moral stages"
+            "Kohlberg's moral stages",
+            "Cass's model",
+            "Piaget's cognitive stages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cass's model specifically addresses homosexual identity formation through stages from confusion to synthesis."
         },
         {
           id: 2,
           question: "What chronic illness challenge involves self-management?",
           options: [
-            "Diabetes adherence",
+            "Parent management only",
             "Only medical treatment",
             "Ignoring illness impact",
-            "Parent management only"
+            "Diabetes adherence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Diabetes requires daily self-management that can conflict with adolescent desires for spontaneity and peer normalization."
         },
         {
@@ -2823,9 +2823,9 @@ Remember: Special populations are not defined solely by their challenges but by 
           question: "What impacts foster youth identity development?",
           options: [
             "Biological family connections",
+            "Legal status only",
             "Only current placement",
-            "Ignoring family history",
-            "Legal status only"
+            "Ignoring family history"
           ],
           correctAnswer: 0,
           explanation: "Foster youth often grapple with questions about biological family and integrating multiple family histories."
@@ -2834,36 +2834,36 @@ Remember: Special populations are not defined solely by their challenges but by 
           id: 4,
           question: "What is high among justice-involved youth?",
           options: [
+            "Low substance use only",
             "Trauma and PTSD rates",
             "Only conduct problems",
-            "No mental health issues",
-            "Low substance use only"
+            "No mental health issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Justice-involved youth have disproportionately high rates of trauma exposure and PTSD."
         },
         {
           id: 5,
           question: "What describes gifted adolescents' development?",
           options: [
-            "Asynchronous development",
+            "Accelerated all development",
             "Even development across domains",
             "Delayed development only",
-            "Accelerated all development"
+            "Asynchronous development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Gifted adolescents often show asynchronous development with advanced cognitive abilities alongside age-typical social-emotional development."
         },
         {
           id: 6,
           question: "What challenges rural adolescent mental health access?",
           options: [
-            "Limited providers and transportation",
-            "Too many providers",
             "No stigma concerns",
+            "Too many providers",
+            "Limited providers and transportation",
             "Easy confidentiality maintenance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Rural settings often have few mental health providers and transportation barriers to accessing services."
         },
         {
@@ -2882,12 +2882,12 @@ Remember: Special populations are not defined solely by their challenges but by 
           id: 8,
           question: "What risks diagnostic overshadowing?",
           options: [
-            "Adolescents with disabilities",
-            "Only typical adolescents",
             "Gifted adolescents",
-            "Athlete populations"
+            "Only typical adolescents",
+            "Athlete populations",
+            "Adolescents with disabilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Diagnostic overshadowing occurs when symptoms are attributed to disability rather than co-occurring mental health conditions."
         },
         {
@@ -2907,9 +2907,9 @@ Remember: Special populations are not defined solely by their challenges but by 
           question: "What approach addresses youth homelessness?",
           options: [
             "Housing First with wraparound support",
+            "Shelters only approach",
             "Treatment prerequisites first",
-            "Ignoring housing needs",
-            "Shelters only approach"
+            "Ignoring housing needs"
           ],
           correctAnswer: 0,
           explanation: "Housing First provides immediate housing without preconditions, with wraparound support services."
@@ -2918,96 +2918,96 @@ Remember: Special populations are not defined solely by their challenges but by 
           id: 11,
           question: "What supports transgender adolescent development?",
           options: [
-            "Affirmative practice approaches",
-            "Ignoring gender identity",
             "Conversion therapy practices",
-            "Discouraging exploration"
+            "Discouraging exploration",
+            "Affirmative practice approaches",
+            "Ignoring gender identity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Affirmative practice supports and validates gender identity exploration and expression."
         },
         {
           id: 12,
           question: "What chronic illness involves invisible symptoms?",
           options: [
+            "No chronic illnesses",
             "Autoimmune disorders",
             "Only visible conditions",
-            "All chronic illnesses",
-            "No chronic illnesses"
+            "All chronic illnesses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Autoimmune disorders often involve fatigue and pain that aren't visible, creating validation challenges."
         },
         {
           id: 13,
           question: "What focuses on rehabilitation over punishment?",
           options: [
-            "Restorative justice approaches",
-            "Only punitive approaches",
             "Ignoring offenses",
-            "Adult justice models"
+            "Only punitive approaches",
+            "Adult justice models",
+            "Restorative justice approaches"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Restorative justice emphasizes accountability, healing, and rehabilitation rather than punishment alone."
         },
         {
           id: 14,
           question: "What describes twice-exceptional students?",
           options: [
-            "Gifted with learning disabilities",
-            "Only gifted characteristics",
             "Only learning disabilities",
-            "Average ability only"
+            "Only gifted characteristics",
+            "Average ability only",
+            "Gifted with learning disabilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Twice-exceptional students are both gifted and have disabilities, creating unique identification and service needs."
         },
         {
           id: 15,
           question: "What helps rural service delivery?",
           options: [
-            "Telehealth applications",
             "Only in-person services",
-            "Ignoring distance barriers",
-            "Urban service models only"
+            "Urban service models only",
+            "Telehealth applications",
+            "Ignoring distance barriers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Telehealth can overcome distance barriers in rural areas when implemented with attention to privacy and engagement."
         },
         {
           id: 16,
           question: "What involves premigration trauma?",
           options: [
-            "Refugee adolescent experiences",
-            "Only immigrant experiences",
             "No migration stressors",
-            "Voluntary migration only"
+            "Voluntary migration only",
+            "Only immigrant experiences",
+            "Refugee adolescent experiences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Refugee adolescents often experience trauma from violence or persecution before migration."
         },
         {
           id: 17,
           question: "What emphasizes self-advocacy for disabled adolescents?",
           options: [
-            "Strength-based approaches",
-            "Only protective approaches",
             "Dependency fostering",
+            "Only protective approaches",
+            "Strength-based approaches",
             "Ignoring abilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Strength-based approaches build self-advocacy and self-determination skills."
         },
         {
           id: 18,
           question: "What addresses performance anxiety?",
           options: [
-            "Mental skills training",
             "Ignoring anxiety",
-            "Only medication management",
-            "Performance avoidance"
+            "Performance avoidance",
+            "Mental skills training",
+            "Only medication management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Mental skills training teaches techniques like visualization and attention control to manage performance anxiety."
         },
         {
@@ -3016,8 +3016,8 @@ Remember: Special populations are not defined solely by their challenges but by 
           options: [
             "Housing First philosophy",
             "Treatment compliance first",
-            "Sobriety requirements first",
-            "School attendance first"
+            "School attendance first",
+            "Sobriety requirements first"
           ],
           correctAnswer: 0,
           explanation: "Housing First provides housing immediately without prerequisites like treatment compliance or sobriety."
@@ -3026,12 +3026,12 @@ Remember: Special populations are not defined solely by their challenges but by 
           id: 20,
           question: "What framework addresses multiple marginalized identities?",
           options: [
-            "Intersectionality framework",
-            "Single identity focus only",
+            "Universal approaches only",
             "Ignoring diversity",
-            "Universal approaches only"
+            "Single identity focus only",
+            "Intersectionality framework"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Intersectionality considers how multiple marginalized identities interact and compound discrimination."
         }
       ]
@@ -3427,9 +3427,9 @@ Remember: The future of adolescent psychology depends on professionals who integ
           question: "What research design tracks changes within same individuals over time?",
           options: [
             "Longitudinal study",
-            "Cross-sectional study",
             "Sequential design",
-            "Microgenetic study"
+            "Microgenetic study",
+            "Cross-sectional study"
           ],
           correctAnswer: 0,
           explanation: "Longitudinal studies follow the same individuals over time to understand developmental trajectories."
@@ -3438,96 +3438,96 @@ Remember: The future of adolescent psychology depends on professionals who integ
           id: 2,
           question: "What neuroimaging technique maps functional brain activity?",
           options: [
-            "fMRI",
-            "EEG",
             "DTI",
-            "MRS"
+            "MRS",
+            "EEG",
+            "fMRI"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Functional MRI (fMRI) measures brain activity by detecting blood flow changes."
         },
         {
           id: 3,
           question: "What evaluation links activities to outcomes?",
           options: [
-            "Logic model",
-            "Only outcome measurement",
             "Theoretical model only",
-            "Anecdotal evidence"
+            "Anecdotal evidence",
+            "Only outcome measurement",
+            "Logic model"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Logic models visually represent how program activities lead to desired outcomes."
         },
         {
           id: 4,
           question: "What ethical consideration involves practice scope?",
           options: [
-            "Competence boundaries",
             "Only billing practices",
-            "Office location",
-            "Scheduling preferences"
+            "Competence boundaries",
+            "Scheduling preferences",
+            "Office location"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Competence boundaries involve practicing within one's training and experience scope."
         },
         {
           id: 5,
           question: "What organization focuses on adolescent research?",
           options: [
-            "Society for Research on Adolescence",
             "Only medical associations",
-            "Business organizations",
-            "Political parties"
+            "Society for Research on Adolescence",
+            "Political parties",
+            "Business organizations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SRA is the premier organization for research on adolescent development."
         },
         {
           id: 6,
           question: "What advocacy involves educating policymakers?",
           options: [
-            "Policy education and influence",
             "Only clinical practice",
             "Ignoring policy issues",
-            "Individual therapy only"
+            "Individual therapy only",
+            "Policy education and influence"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Advocacy includes educating policymakers about adolescent mental health needs and evidence-based solutions."
         },
         {
           id: 7,
           question: "What digital tool offers therapeutic intervention?",
           options: [
+            "Entertainment streaming",
             "Mental health apps",
             "Only social media",
-            "Gaming consoles only",
-            "Entertainment streaming"
+            "Gaming consoles only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Therapeutic apps provide evidence-based interventions through digital platforms."
         },
         {
           id: 8,
           question: "What collaboration model integrates healthcare?",
           options: [
-            "Collaborative care",
-            "Solo practice only",
+            "Alternative medicine only",
             "Ignoring medical needs",
-            "Alternative medicine only"
+            "Solo practice only",
+            "Collaborative care"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Collaborative care models integrate mental health into primary care settings."
         },
         {
           id: 9,
           question: "What future direction involves personalized treatment?",
           options: [
-            "Precision mental health",
-            "One-size-fits-all approaches",
+            "Traditional methods only",
             "Ignoring individual differences",
-            "Traditional methods only"
+            "One-size-fits-all approaches",
+            "Precision mental health"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Precision mental health tailors interventions based on individual characteristics and biomarkers."
         },
         {
@@ -3535,9 +3535,9 @@ Remember: The future of adolescent psychology depends on professionals who integ
           question: "What practice aspect requires ongoing attention?",
           options: [
             "Quality improvement",
-            "Only initial training",
+            "Ignoring outcomes",
             "Static practice methods",
-            "Ignoring outcomes"
+            "Only initial training"
           ],
           correctAnswer: 0,
           explanation: "Continuous quality improvement involves regularly assessing and enhancing practice effectiveness."
@@ -3546,12 +3546,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
           id: 11,
           question: "What involves real-time data collection?",
           options: [
-            "Ecological momentary assessment",
             "Only retrospective recall",
             "Theoretical speculation",
-            "Historical analysis only"
+            "Historical analysis only",
+            "Ecological momentary assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EMA collects data in real-time in natural environments, reducing recall bias."
         },
         {
@@ -3559,9 +3559,9 @@ Remember: The future of adolescent psychology depends on professionals who integ
           question: "What explains adolescent risk-taking neuroscientifically?",
           options: [
             "Reward system sensitivity",
-            "Complete brain maturation",
             "Reduced emotional reactivity",
-            "Overdeveloped prefrontal cortex"
+            "Overdeveloped prefrontal cortex",
+            "Complete brain maturation"
           ],
           correctAnswer: 0,
           explanation: "Adolescent reward system sensitivity combined with developing prefrontal control explains risk-taking."
@@ -3570,12 +3570,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
           id: 13,
           question: "What monitors intervention fidelity?",
           options: [
+            "Client satisfaction only",
             "Implementation science",
             "Ignoring implementation",
-            "Theoretical models only",
-            "Client satisfaction only"
+            "Theoretical models only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Implementation science includes monitoring how well interventions are delivered as intended."
         },
         {
@@ -3583,9 +3583,9 @@ Remember: The future of adolescent psychology depends on professionals who integ
           question: "What manages small community practice challenges?",
           options: [
             "Multiple relationship navigation",
+            "Only urban practice models",
             "Ignoring relationship issues",
-            "Avoiding all community contact",
-            "Only urban practice models"
+            "Avoiding all community contact"
           ],
           correctAnswer: 0,
           explanation: "Rural and small community practice requires careful management of multiple relationships."
@@ -3594,72 +3594,72 @@ Remember: The future of adolescent psychology depends on professionals who integ
           id: 15,
           question: "What involves youth in research?",
           options: [
-            "Youth participatory action research",
-            "Only adult researchers",
             "Ignoring youth perspectives",
+            "Only adult researchers",
+            "Youth participatory action research",
             "Theoretical research only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "YPAR engages youth as co-researchers in studies about issues affecting them."
         },
         {
           id: 16,
           question: "What analyzes policy impacts?",
           options: [
-            "Policy analysis",
-            "Only clinical work",
+            "Political campaigning",
             "Ignoring policy",
-            "Political campaigning"
+            "Only clinical work",
+            "Policy analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Policy analysis examines how legislation and policies affect adolescent mental health services."
         },
         {
           id: 17,
           question: "What considers digital access equity?",
           options: [
-            "Technology ethics",
             "Ignoring digital divide",
             "Only high-tech solutions",
+            "Technology ethics",
             "Traditional methods only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Technology ethics includes addressing unequal access to digital mental health resources."
         },
         {
           id: 18,
           question: "What integrates different professional perspectives?",
           options: [
-            "Interdisciplinary collaboration",
             "Siloed practice only",
             "Ignoring other fields",
+            "Interdisciplinary collaboration",
             "Single discipline focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Interdisciplinary collaboration brings together different professional expertise for comprehensive care."
         },
         {
           id: 19,
           question: "What addresses mental health disparities?",
           options: [
-            "Social justice orientation",
             "Ignoring disparities",
             "Colorblind approaches",
-            "Individual focus only"
+            "Individual focus only",
+            "Social justice orientation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social justice orientation actively addresses mental health disparities and advocates for equity."
         },
         {
           id: 20,
           question: "What advances the field through multiple avenues?",
           options: [
-            "Research, teaching, practice, advocacy",
-            "Only clinical practice",
             "Theoretical work only",
-            "Administrative tasks only"
+            "Administrative tasks only",
+            "Only clinical practice",
+            "Research, teaching, practice, advocacy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Field advancement occurs through integrated contributions across research, teaching, practice, and advocacy."
         }
       ]
@@ -3680,8 +3680,8 @@ Remember: The future of adolescent psychology depends on professionals who integ
         options: [
           "Prefrontal cortex",
           "Amygdala",
-          "Cerebellum",
-          "Hippocampus"
+          "Hippocampus",
+          "Cerebellum"
         ],
         correctAnswer: 0,
         explanation: "The prefrontal cortex, responsible for executive functions, continues developing into the mid-20s."
@@ -3691,12 +3691,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 1,
         question: "What explains adolescents' heightened emotional reactivity?",
         options: [
-          "Amygdala develops earlier than prefrontal cortex",
-          "Complete brain maturation",
           "Lack of emotional experience",
-          "Overdeveloped frontal lobes"
+          "Complete brain maturation",
+          "Overdeveloped frontal lobes",
+          "Amygdala develops earlier than prefrontal cortex"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The amygdala develops earlier than the prefrontal cortex, creating emotional intensity before full regulatory capacity."
       },
       {
@@ -3704,12 +3704,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 1,
         question: "What characterizes formal operational thought?",
         options: [
-          "Abstract reasoning and hypothetical thinking",
           "Concrete, literal thinking only",
-          "Emotional decision-making",
-          "Automatic, intuitive processing"
+          "Abstract reasoning and hypothetical thinking",
+          "Automatic, intuitive processing",
+          "Emotional decision-making"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Formal operational thought involves abstract reasoning, systematic problem-solving, and hypothetical thinking."
       },
       {
@@ -3717,12 +3717,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 1,
         question: "What is Marcia's identity status involving active exploration without commitment?",
         options: [
-          "Moratorium",
-          "Diffusion",
+          "Achievement",
           "Foreclosure",
-          "Achievement"
+          "Moratorium",
+          "Diffusion"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Moratorium status involves active exploration of identities without yet making commitments."
       },
       {
@@ -3730,12 +3730,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 1,
         question: "When does peer influence typically peak?",
         options: [
-          "Mid-adolescence",
-          "Early childhood",
           "Late adolescence",
-          "Young adulthood"
+          "Young adulthood",
+          "Mid-adolescence",
+          "Early childhood"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Peer influence typically peaks during mid-adolescence when social brain development maximizes sensitivity to peer approval."
       },
       {
@@ -3743,12 +3743,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 1,
         question: "What moral reasoning level involves following rules to maintain social order?",
         options: [
-          "Conventional level",
-          "Preconventional level",
           "Postconventional level",
-          "Principled level"
+          "Preconventional level",
+          "Principled level",
+          "Conventional level"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Conventional moral reasoning involves following rules and maintaining social order."
       },
       {
@@ -3756,12 +3756,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 1,
         question: "What concept describes different paths leading to similar outcomes?",
         options: [
-          "Equifinality",
+          "Discontinuity",
           "Multifinality",
           "Continuity",
-          "Discontinuity"
+          "Equifinality"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Equifinality means different developmental pathways can lead to similar outcomes."
       },
 
@@ -3771,12 +3771,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 2,
         question: "What is essential when distinguishing normative from pathological adolescent behavior?",
         options: [
-          "Understanding developmental appropriateness",
-          "Comparing to adult standards",
           "Using only parent reports",
-          "Ignoring cultural factors"
+          "Ignoring cultural factors",
+          "Understanding developmental appropriateness",
+          "Comparing to adult standards"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Assessment must consider what is developmentally appropriate versus indicating mental health concerns."
       },
       {
@@ -3784,12 +3784,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 2,
         question: "What is a broadband assessment measure for adolescents?",
         options: [
-          "Youth Self-Report (YSR)",
           "Beck Depression Inventory",
           "MMPI-A",
+          "Youth Self-Report (YSR)",
           "Rorschach Inkblot"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "YSR is a comprehensive measure assessing multiple emotional and behavioral domains."
       },
       {
@@ -3797,12 +3797,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 2,
         question: "What standardized tool assesses suicide risk?",
         options: [
-          "Columbia Suicide Severity Rating Scale",
-          "Beck Anxiety Inventory",
           "Conners ADHD scale",
+          "Beck Anxiety Inventory",
+          "Columbia Suicide Severity Rating Scale",
           "Wechsler Intelligence Scale"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "C-SSRS is a standardized, evidence-based suicide risk assessment tool."
       },
       {
@@ -3823,12 +3823,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 2,
         question: "What projective technique uses interpersonal narratives?",
         options: [
-          "Thematic Apperception Test",
           "Rorschach Inkblot",
           "Sentence Completion",
-          "Draw-A-Person"
+          "Draw-A-Person",
+          "Thematic Apperception Test"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "TAT elicits stories that reveal interpersonal dynamics and internal narratives."
       },
       {
@@ -3836,12 +3836,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 2,
         question: "What should cultural formulation include?",
         options: [
-          "Cultural explanations of symptoms",
           "Only standardized test scores",
-          "Ignoring cultural background",
-          "Assuming universal experiences"
+          "Cultural explanations of symptoms",
+          "Assuming universal experiences",
+          "Ignoring cultural background"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Cultural formulation explores how culture shapes symptom experience and expression."
       },
       {
@@ -3849,12 +3849,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 2,
         question: "What ethical consideration requires special attention with minors?",
         options: [
-          "Informed consent/assent process",
-          "Only billing procedures",
           "Office decoration",
-          "Scheduling convenience"
+          "Scheduling convenience",
+          "Informed consent/assent process",
+          "Only billing procedures"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Informed consent with minors involves both parental permission and adolescent assent."
       },
 
@@ -3864,12 +3864,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 3,
         question: "What is adapted in CBT for adolescent developmental needs?",
         options: [
-          "Collaborative empiricism with developmental consideration",
-          "Eliminating all structure from therapy",
           "Using only adult examples and language",
-          "Focusing only on behavioral techniques"
+          "Collaborative empiricism with developmental consideration",
+          "Focusing only on behavioral techniques",
+          "Eliminating all structure from therapy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "CBT for adolescents maintains core principles while adapting to developmental level."
       },
       {
@@ -3877,12 +3877,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 3,
         question: "What DBT skill module addresses crisis survival?",
         options: [
-          "Distress Tolerance",
+          "Interpersonal Effectiveness",
           "Mindfulness",
-          "Emotion Regulation",
-          "Interpersonal Effectiveness"
+          "Distress Tolerance",
+          "Emotion Regulation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Distress Tolerance skills help adolescents survive crises without making situations worse."
       },
       {
@@ -3890,12 +3890,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 3,
         question: "What family therapy addresses boundaries and hierarchies?",
         options: [
-          "Structural Family Therapy",
-          "Functional Family Therapy",
           "Attachment-Based Family Therapy",
-          "Multisystemic Therapy"
+          "Structural Family Therapy",
+          "Multisystemic Therapy",
+          "Functional Family Therapy"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Structural Family Therapy focuses on restructuring family boundaries and hierarchies."
       },
       {
@@ -3903,12 +3903,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 3,
         question: "What trauma intervention includes trauma narrative development?",
         options: [
-          "Trauma-Focused CBT",
           "Prolonged Exposure",
+          "Trauma-Focused CBT",
           "ARC Framework",
           "Mindfulness-Based Trauma Treatment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "TF-CBT includes developing and processing a trauma narrative to reduce PTSD symptoms."
       },
       {
@@ -3929,12 +3929,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 3,
         question: "What transdiagnostic treatment targets emotion dysregulation?",
         options: [
-          "Unified Protocol for Adolescents",
           "Only diagnosis-specific treatments",
-          "Medication management only",
-          "Supportive counseling alone"
+          "Supportive counseling alone",
+          "Unified Protocol for Adolescents",
+          "Medication management only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Unified Protocol addresses underlying emotion dysregulation across emotional disorders."
       },
       {
@@ -3942,12 +3942,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 3,
         question: "What prevention targets at-risk groups?",
         options: [
-          "Selective prevention",
-          "Universal prevention",
+          "Treatment only",
           "Indicated prevention",
-          "Treatment only"
+          "Selective prevention",
+          "Universal prevention"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Selective prevention targets groups at increased risk before problems develop."
       },
 
@@ -3957,12 +3957,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 4,
         question: "What principle describes different pathways leading to similar outcomes?",
         options: [
-          "Equifinality",
-          "Multifinality",
           "Heterotypic continuity",
-          "Homotypic continuity"
+          "Homotypic continuity",
+          "Equifinality",
+          "Multifinality"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Equifinality means different developmental pathways can lead to similar psychopathological outcomes."
       },
       {
@@ -3970,12 +3970,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 4,
         question: "When does major depression prevalence significantly increase?",
         options: [
-          "During adolescence",
-          "In early childhood",
+          "Equally across all ages",
           "Only in adulthood",
-          "Equally across all ages"
+          "During adolescence",
+          "In early childhood"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Major depression prevalence increases markedly during adolescence."
       },
       {
@@ -3983,12 +3983,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 4,
         question: "What anxiety disorder typically emerges in early adolescence?",
         options: [
-          "Social Anxiety Disorder",
-          "Separation Anxiety Disorder",
           "Specific Phobia",
-          "Panic Disorder"
+          "Panic Disorder",
+          "Separation Anxiety Disorder",
+          "Social Anxiety Disorder"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Social Anxiety Disorder often emerges in early adolescence with increased social evaluation concerns."
       },
       {
@@ -3996,12 +3996,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 4,
         question: "What eating disorder typically begins in adolescence?",
         options: [
-          "Anorexia Nervosa",
-          "Binge Eating Disorder only",
           "Only in adulthood",
-          "Equally across ages"
+          "Equally across ages",
+          "Binge Eating Disorder only",
+          "Anorexia Nervosa"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Anorexia Nervosa typically begins during adolescence."
       },
       {
@@ -4010,8 +4010,8 @@ Remember: The future of adolescent psychology depends on professionals who integ
         question: "When do psychotic disorders typically begin?",
         options: [
           "Late adolescence/early adulthood",
-          "Early childhood",
           "Middle adulthood",
+          "Early childhood",
           "Equally across lifespan"
         ],
         correctAnswer: 0,
@@ -4023,9 +4023,9 @@ Remember: The future of adolescent psychology depends on professionals who integ
         question: "What explores cultural explanations of symptoms?",
         options: [
           "Cultural Formulation",
-          "Ignoring cultural factors",
+          "Biological models only",
           "Standardized assessment only",
-          "Biological models only"
+          "Ignoring cultural factors"
         ],
         correctAnswer: 0,
         explanation: "Cultural Formulation explores how culture shapes symptom experience and expression."
@@ -4038,9 +4038,9 @@ Remember: The future of adolescent psychology depends on professionals who integ
         question: "What model describes homosexual identity formation?",
         options: [
           "Cass's model",
-          "Erikson's stages only",
           "Piaget's cognitive stages",
-          "Kohlberg's moral stages"
+          "Kohlberg's moral stages",
+          "Erikson's stages only"
         ],
         correctAnswer: 0,
         explanation: "Cass's model specifically addresses homosexual identity formation."
@@ -4051,9 +4051,9 @@ Remember: The future of adolescent psychology depends on professionals who integ
         question: "What chronic illness challenge involves self-management?",
         options: [
           "Diabetes adherence",
-          "Only medical treatment",
           "Ignoring illness impact",
-          "Parent management only"
+          "Parent management only",
+          "Only medical treatment"
         ],
         correctAnswer: 0,
         explanation: "Diabetes requires daily self-management that conflicts with adolescent developmental needs."
@@ -4063,12 +4063,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 5,
         question: "What is high among justice-involved youth?",
         options: [
-          "Trauma and PTSD rates",
           "Only conduct problems",
           "No mental health issues",
-          "Low substance use only"
+          "Low substance use only",
+          "Trauma and PTSD rates"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Justice-involved youth have disproportionately high rates of trauma exposure and PTSD."
       },
       {
@@ -4076,12 +4076,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 5,
         question: "What describes gifted adolescents' development?",
         options: [
-          "Asynchronous development",
-          "Even development across domains",
+          "Accelerated all development",
           "Delayed development only",
-          "Accelerated all development"
+          "Asynchronous development",
+          "Even development across domains"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Gifted adolescents often show asynchronous development with advanced cognitive abilities."
       },
       {
@@ -4089,12 +4089,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 5,
         question: "What stressor affects immigrant adolescents?",
         options: [
-          "Acculturative stress",
-          "Only language learning",
           "No unique stressors",
-          "Complete cultural assimilation"
+          "Only language learning",
+          "Complete cultural assimilation",
+          "Acculturative stress"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Acculturative stress from navigating multiple cultural expectations impacts immigrant adolescents."
       },
       {
@@ -4102,12 +4102,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 5,
         question: "What framework addresses multiple marginalized identities?",
         options: [
-          "Intersectionality framework",
-          "Single identity focus only",
+          "Universal approaches only",
           "Ignoring diversity",
-          "Universal approaches only"
+          "Intersectionality framework",
+          "Single identity focus only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Intersectionality considers how multiple marginalized identities interact and compound discrimination."
       },
 
@@ -4117,12 +4117,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 6,
         question: "What research design tracks changes within same individuals over time?",
         options: [
-          "Longitudinal study",
-          "Cross-sectional study",
           "Sequential design",
-          "Microgenetic study"
+          "Microgenetic study",
+          "Cross-sectional study",
+          "Longitudinal study"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Longitudinal studies follow the same individuals over time to understand developmental trajectories."
       },
       {
@@ -4132,8 +4132,8 @@ Remember: The future of adolescent psychology depends on professionals who integ
         options: [
           "fMRI",
           "EEG",
-          "DTI",
-          "MRS"
+          "MRS",
+          "DTI"
         ],
         correctAnswer: 0,
         explanation: "Functional MRI measures brain activity by detecting blood flow changes."
@@ -4143,12 +4143,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 6,
         question: "What evaluation links activities to outcomes?",
         options: [
-          "Logic model",
           "Only outcome measurement",
-          "Theoretical model only",
-          "Anecdotal evidence"
+          "Logic model",
+          "Anecdotal evidence",
+          "Theoretical model only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Logic models visually represent how program activities lead to desired outcomes."
       },
       {
@@ -4156,12 +4156,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 6,
         question: "What ethical consideration involves practice scope?",
         options: [
-          "Competence boundaries",
           "Only billing practices",
-          "Office location",
-          "Scheduling preferences"
+          "Scheduling preferences",
+          "Competence boundaries",
+          "Office location"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Competence boundaries involve practicing within one's training and experience scope."
       },
       {
@@ -4169,12 +4169,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 6,
         question: "What organization focuses on adolescent research?",
         options: [
-          "Society for Research on Adolescence",
           "Only medical associations",
+          "Political parties",
           "Business organizations",
-          "Political parties"
+          "Society for Research on Adolescence"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "SRA is the premier organization for research on adolescent development."
       },
       {
@@ -4182,12 +4182,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 6,
         question: "What future direction involves personalized treatment?",
         options: [
-          "Precision mental health",
           "One-size-fits-all approaches",
-          "Ignoring individual differences",
-          "Traditional methods only"
+          "Traditional methods only",
+          "Precision mental health",
+          "Ignoring individual differences"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Precision mental health tailors interventions based on individual characteristics."
       },
       {
@@ -4195,12 +4195,12 @@ Remember: The future of adolescent psychology depends on professionals who integ
         module: 6,
         question: "What involves real-time data collection?",
         options: [
-          "Ecological momentary assessment",
-          "Only retrospective recall",
           "Theoretical speculation",
-          "Historical analysis only"
+          "Only retrospective recall",
+          "Historical analysis only",
+          "Ecological momentary assessment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "EMA collects data in real-time in natural environments, reducing recall bias."
       }
     ]

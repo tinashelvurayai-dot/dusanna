@@ -98,84 +98,84 @@ Understanding these chemical foundations enables better control of food quality,
           id: 1,
           question: "What are the building blocks of proteins?",
           options: [
-            "Fatty acids",
             "Amino acids",
+            "Nucleotides",
             "Simple sugars",
-            "Nucleotides"
+            "Fatty acids"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Amino acids are the basic building blocks that link together to form proteins."
         },
         {
           id: 2,
           question: "What causes enzymatic browning in fruits?",
           options: [
-            "Heat exposure",
             "Enzyme activity",
+            "Fat oxidation",
             "Sugar caramelization",
-            "Fat oxidation"
+            "Heat exposure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Enzymatic browning occurs when enzymes in fruits react with oxygen, causing discoloration."
         },
         {
           id: 3,
           question: "Which food component is most abundant in many fresh foods?",
           options: [
-            "Protein",
-            "Carbohydrates",
+            "Fats",
             "Water",
-            "Fats"
+            "Carbohydrates",
+            "Protein"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Water is typically the most abundant component in fresh fruits, vegetables, and meats."
         },
         {
           id: 4,
           question: "What reaction creates complex flavors during cooking?",
           options: [
+            "Oxidation",
             "Hydrolysis",
             "Maillard reaction",
-            "Oxidation",
             "Fermentation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Maillard reaction between sugars and amino acids creates flavor and color during cooking."
         },
         {
           id: 5,
           question: "What are the main forms of carbohydrates in foods?",
           options: [
+            "Only fiber",
             "Only sugars",
             "Sugars, starches, and fiber",
-            "Only starches",
-            "Only fiber"
+            "Only starches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Carbohydrates in foods include sugars (simple), starches (complex), and dietary fiber."
         },
         {
           id: 6,
           question: "What measurement indicates water available for microbial growth?",
           options: [
-            "pH level",
             "Water activity",
+            "pH level",
             "Moisture content",
             "Humidity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Water activity (aw) measures the amount of water available for microbial growth in food."
         },
         {
           id: 7,
           question: "What happens during starch gelatinization?",
           options: [
-            "Starch breaks down to sugar",
             "Starch granules swell in water",
+            "Starch crystallizes",
             "Starch becomes insoluble",
-            "Starch crystallizes"
+            "Starch breaks down to sugar"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Starch gelatinization occurs when starch granules absorb water and swell, thickening the mixture."
         },
         {
@@ -194,22 +194,22 @@ Understanding these chemical foundations enables better control of food quality,
           id: 9,
           question: "What causes lipid rancidity?",
           options: [
-            "Enzyme action",
             "Oxidation",
+            "Enzyme action",
             "Fermentation",
             "Gelation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Lipid oxidation causes rancidity, leading to off-flavors and odors in fats and oils."
         },
         {
           id: 10,
           question: "What are the main components of an emulsion?",
           options: [
-            "Sugar and water",
-            "Oil and water",
             "Protein and starch",
-            "Fat and protein"
+            "Oil and water",
+            "Fat and protein",
+            "Sugar and water"
           ],
           correctAnswer: 1,
           explanation: "Emulsions are mixtures of oil and water that don't normally mix, like mayonnaise."
@@ -218,9 +218,9 @@ Understanding these chemical foundations enables better control of food quality,
           id: 11,
           question: "What is denaturation in proteins?",
           options: [
-            "Breaking peptide bonds",
-            "Changing protein structure",
             "Adding amino acids",
+            "Changing protein structure",
+            "Breaking peptide bonds",
             "Removing water"
           ],
           correctAnswer: 1,
@@ -243,45 +243,45 @@ Understanding these chemical foundations enables better control of food quality,
           question: "What are triglycerides?",
           options: [
             "Simple sugars",
-            "Main form of fats in foods",
             "Protein structures",
-            "Water molecules"
+            "Water molecules",
+            "Main form of fats in foods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Triglycerides are the main form of fats and oils in foods, composed of glycerol and fatty acids."
         },
         {
           id: 14,
           question: "What affects food pigment stability?",
           options: [
-            "Only temperature",
-            "pH, heat, and light",
             "Only packaging",
-            "Only storage time"
+            "Only storage time",
+            "Only temperature",
+            "pH, heat, and light"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Food pigments are affected by pH, heat, light, and other processing conditions."
         },
         {
           id: 15,
           question: "What is dietary fiber?",
           options: [
-            "Soluble starch",
-            "Non-digestible carbohydrates",
             "Simple sugars",
-            "Protein strands"
+            "Protein strands",
+            "Soluble starch",
+            "Non-digestible carbohydrates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Dietary fiber consists of non-digestible carbohydrates important for digestive health."
         },
         {
           id: 16,
           question: "What creates gel structures in foods?",
           options: [
-            "Only proteins",
+            "Only water",
             "Proteins and carbohydrates",
-            "Only fats",
-            "Only water"
+            "Only proteins",
+            "Only fats"
           ],
           correctAnswer: 1,
           explanation: "Both proteins (like gelatin) and carbohydrates (like pectin) can form gel structures."
@@ -290,10 +290,10 @@ Understanding these chemical foundations enables better control of food quality,
           id: 17,
           question: "What are fat-soluble vitamins?",
           options: [
-            "Vitamins C and B",
-            "Vitamins A, D, E, K",
             "All vitamins",
-            "No vitamins are fat-soluble"
+            "Vitamins A, D, E, K",
+            "No vitamins are fat-soluble",
+            "Vitamins C and B"
           ],
           correctAnswer: 1,
           explanation: "Vitamins A, D, E, and K are fat-soluble and carried by lipids in foods."
@@ -302,36 +302,36 @@ Understanding these chemical foundations enables better control of food quality,
           id: 18,
           question: "What happens during caramelization?",
           options: [
+            "Starch swelling",
             "Protein breakdown",
             "Sugar breakdown at high heat",
-            "Fat melting",
-            "Starch swelling"
+            "Fat melting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Caramelization is the thermal decomposition of sugar creating characteristic flavors and colors."
         },
         {
           id: 19,
           question: "What are functional properties of proteins?",
           options: [
+            "Flavor only",
             "Nutritional value only",
             "Texture and stability effects",
-            "Color only",
-            "Flavor only"
+            "Color only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Functional properties include how proteins affect texture, stability, and other qualities."
         },
         {
           id: 20,
           question: "Why understand food chemistry?",
           options: [
-            "Only for scientists",
-            "To control quality and innovation",
             "Only for labeling",
-            "Only for safety"
+            "Only for safety",
+            "To control quality and innovation",
+            "Only for scientists"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Understanding food chemistry enables better control of quality, safety, and product innovation."
         }
       ]
@@ -471,60 +471,60 @@ Each technology offers different benefits and limitations. Selection depends on 
           id: 1,
           question: "What is pasteurization?",
           options: [
-            "Complete sterilization",
-            "Mild heat treatment for pathogens",
+            "Drying method",
             "Freezing process",
-            "Drying method"
+            "Complete sterilization",
+            "Mild heat treatment for pathogens"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pasteurization uses mild heat to destroy pathogens while preserving food quality."
         },
         {
           id: 2,
           question: "What does HPP stand for?",
           options: [
-            "High Pressure Processing",
-            "High Protein Preservation",
             "Heat Pasteurization Process",
+            "High Protein Preservation",
+            "High Pressure Processing",
             "Hydrostatic Pressure Packaging"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "HPP stands for High Pressure Processing, a non-thermal preservation method."
         },
         {
           id: 3,
           question: "What is freeze drying?",
           options: [
-            "Freezing then drying",
-            "Water sublimation under vacuum",
             "Spray freezing",
-            "Drum freezing"
+            "Freezing then drying",
+            "Drum freezing",
+            "Water sublimation under vacuum"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Freeze drying involves freezing food then removing water by sublimation under vacuum."
         },
         {
           id: 4,
           question: "What does IQF mean?",
           options: [
-            "Instant Quick Freezing",
             "Individual Quick Freezing",
+            "International Quality Food",
             "Integrated Quality Freezing",
-            "International Quality Food"
+            "Instant Quick Freezing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "IQF means Individual Quick Freezing, where pieces freeze separately."
         },
         {
           id: 5,
           question: "What is lactic acid fermentation used for?",
           options: [
+            "Bread rising",
             "Beer production",
-            "Yogurt and sauerkraut",
             "Vinegar making",
-            "Bread rising"
+            "Yogurt and sauerkraut"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Lactic acid fermentation produces yogurt, sauerkraut, pickles, and other acidified foods."
         },
         {
@@ -543,60 +543,60 @@ Each technology offers different benefits and limitations. Selection depends on 
           id: 7,
           question: "What is spray drying used for?",
           options: [
-            "Vegetable freezing",
             "Milk powder production",
-            "Meat preservation",
-            "Fruit canning"
+            "Fruit canning",
+            "Vegetable freezing",
+            "Meat preservation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Spray drying converts liquids like milk into powders by spraying into hot air."
         },
         {
           id: 8,
           question: "What does blanching do?",
           options: [
+            "Dries foods",
             "Sterilizes completely",
             "Inactivates enzymes before freezing",
-            "Ferments foods",
-            "Dries foods"
+            "Ferments foods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Blanching uses brief heat to inactivate enzymes before freezing or drying."
         },
         {
           id: 9,
           question: "What is cryogenic freezing?",
           options: [
+            "Sun freezing",
             "Slow freezing in air",
-            "Freezing with liquid nitrogen",
             "Plate freezing",
-            "Sun freezing"
+            "Freezing with liquid nitrogen"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cryogenic freezing uses extremely cold liquids like nitrogen for rapid freezing."
         },
         {
           id: 10,
           question: "What does irradiation do?",
           options: [
+            "Adds preservatives",
             "Makes food radioactive",
             "Destroys microorganisms with radiation",
-            "Heats food unevenly",
-            "Adds preservatives"
+            "Heats food unevenly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Irradiation uses ionizing radiation to destroy microorganisms without making food radioactive."
         },
         {
           id: 11,
           question: "What is ohmic heating?",
           options: [
-            "Microwave heating",
-            "Heating by electric current",
             "Sun drying",
-            "Pressure cooking"
+            "Pressure cooking",
+            "Microwave heating",
+            "Heating by electric current"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ohmic heating passes electric current through food for rapid, uniform heating."
         },
         {
@@ -605,8 +605,8 @@ Each technology offers different benefits and limitations. Selection depends on 
           options: [
             "Spray dries foods",
             "Sterilizes packaged foods",
-            "Quick freezes",
-            "Ferments rapidly"
+            "Ferments rapidly",
+            "Quick freezes"
           ],
           correctAnswer: 1,
           explanation: "Retort processing sterilizes packaged foods like cans using heat and pressure."
@@ -615,10 +615,10 @@ Each technology offers different benefits and limitations. Selection depends on 
           id: 13,
           question: "What is drum drying used for?",
           options: [
-            "Liquid milk",
+            "Frozen meat",
             "Breakfast cereal flakes",
-            "Fresh vegetables",
-            "Frozen meat"
+            "Liquid milk",
+            "Fresh vegetables"
           ],
           correctAnswer: 1,
           explanation: "Drum drying produces flakes from liquids, used for cereals and instant potatoes."
@@ -628,8 +628,8 @@ Each technology offers different benefits and limitations. Selection depends on 
           question: "What does PEF stand for?",
           options: [
             "Pulsed Electric Fields",
-            "Pressure Enhanced Freezing",
             "Pasteurization Energy Field",
+            "Pressure Enhanced Freezing",
             "Protein Enzyme Fermentation"
           ],
           correctAnswer: 0,
@@ -640,47 +640,47 @@ Each technology offers different benefits and limitations. Selection depends on 
           question: "What is sun drying?",
           options: [
             "Industrial drying method",
-            "Traditional solar drying",
+            "Spray drying outdoors",
             "Freeze drying alternative",
-            "Spray drying outdoors"
+            "Traditional solar drying"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sun drying is a traditional method using solar energy to remove water from foods."
         },
         {
           id: 16,
           question: "What does HTST mean?",
           options: [
-            "High Temperature Short Time",
             "Heat Treatment Sterilization",
+            "High Temperature Short Time",
             "Hydro Thermal Sanitation",
             "Hygienic Temperature Standard"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "HTST means High Temperature Short Time pasteurization."
         },
         {
           id: 17,
           question: "What is alcoholic fermentation used for?",
           options: [
+            "Vinegar production",
             "Yogurt making",
             "Beer and wine production",
-            "Vinegar production",
             "Cheese aging"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Alcoholic fermentation by yeast produces beer, wine, and causes bread to rise."
         },
         {
           id: 18,
           question: "What does quick freezing achieve?",
           options: [
+            "Partial thawing",
             "Large ice crystals",
             "Small ice crystals for quality",
-            "Partial thawing",
             "Dehydration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Quick freezing forms small ice crystals, minimizing cell damage and quality loss."
         },
         {
@@ -688,23 +688,23 @@ Each technology offers different benefits and limitations. Selection depends on 
           question: "What is cold plasma used for?",
           options: [
             "Heating foods",
-            "Surface decontamination",
             "Deep freezing",
+            "Surface decontamination",
             "Flavor enhancement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cold plasma is an emerging technology for surface decontamination of foods."
         },
         {
           id: 20,
           question: "Why use different processing methods?",
           options: [
-            "Only for cost reduction",
             "Different benefits for different foods",
-            "Only government requires",
-            "Only for export foods"
+            "Only for cost reduction",
+            "Only for export foods",
+            "Only government requires"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Different methods offer various benefits depending on food type, quality goals, and requirements."
         }
       ]
@@ -837,96 +837,96 @@ Quality control ensures products meet specifications consistently, while sensory
           id: 1,
           question: "What does water activity predict?",
           options: [
-            "Nutritional value",
             "Microbial growth potential",
-            "Color stability",
-            "Flavor intensity"
+            "Flavor intensity",
+            "Nutritional value",
+            "Color stability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Water activity predicts potential for microbial growth in food products."
         },
         {
           id: 2,
           question: "What is a triangle test?",
           options: [
-            "Color measurement",
             "Three samples, find the odd one",
+            "Color measurement",
             "Texture analysis",
             "pH testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Triangle test presents three samples where one is different; panelists identify the odd sample."
         },
         {
           id: 3,
           question: "What does GC-MS analyze?",
           options: [
-            "Texture properties",
-            "Volatile flavor compounds",
             "Color pigments",
-            "Water content"
+            "Water content",
+            "Volatile flavor compounds",
+            "Texture properties"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Gas Chromatography-Mass Spectrometry analyzes volatile compounds that contribute to flavor and aroma."
         },
         {
           id: 4,
           question: "What is a hedonic scale used for?",
           options: [
+            "pH measurement",
             "Measuring color",
             "Consumer liking ratings",
-            "Texture analysis",
-            "pH measurement"
+            "Texture analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hedonic scales measure how much consumers like or dislike products, typically on a 9-point scale."
         },
         {
           id: 5,
           question: "What do control charts monitor?",
           options: [
-            "Only product weight",
             "Process stability over time",
+            "Only raw material cost",
             "Only packaging quality",
-            "Only raw material cost"
+            "Only product weight"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Control charts monitor process stability and variation over time using statistical methods."
         },
         {
           id: 6,
           question: "What is accelerated shelf life testing?",
           options: [
-            "Real-time storage",
-            "Stress conditions to predict shelf life",
+            "Consumer testing",
             "Only microbial testing",
-            "Consumer testing"
+            "Stress conditions to predict shelf life",
+            "Real-time storage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Accelerated testing uses stress conditions like elevated temperature to predict normal shelf life faster."
         },
         {
           id: 7,
           question: "What does ISO 22000 cover?",
           options: [
-            "Laboratory equipment",
-            "Food safety management",
+            "Color measurement",
             "Packaging standards",
-            "Color measurement"
+            "Food safety management",
+            "Laboratory equipment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ISO 22000 specifies requirements for food safety management systems."
         },
         {
           id: 8,
           question: "What does texture profile analysis measure?",
           options: [
+            "Only flavor",
             "Only hardness",
-            "Multiple texture attributes",
             "Only color",
-            "Only flavor"
+            "Multiple texture attributes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Texture Profile Analysis measures multiple attributes like hardness, cohesiveness, springiness, and chewiness."
         },
         {
@@ -935,8 +935,8 @@ Quality control ensures products meet specifications consistently, while sensory
           options: [
             "Consumer preference test",
             "Inoculating with pathogens to test safety",
-            "Color comparison",
-            "Texture measurement"
+            "Texture measurement",
+            "Color comparison"
           ],
           correctAnswer: 1,
           explanation: "Challenge testing involves inoculating products with pathogens to determine safety under various conditions."
@@ -945,10 +945,10 @@ Quality control ensures products meet specifications consistently, while sensory
           id: 10,
           question: "What does L*a*b* measure?",
           options: [
-            "Texture parameters",
-            "Color in three dimensions",
             "Flavor compounds",
-            "Microbial counts"
+            "Color in three dimensions",
+            "Microbial counts",
+            "Texture parameters"
           ],
           correctAnswer: 1,
           explanation: "L*a*b* is a three-dimensional color space measuring lightness (L), red-green (a), and yellow-blue (b)."
@@ -957,9 +957,9 @@ Quality control ensures products meet specifications consistently, while sensory
           id: 11,
           question: "What is GMP?",
           options: [
-            "Good Microbial Practice",
-            "Good Manufacturing Practice",
             "General Measurement Procedure",
+            "Good Manufacturing Practice",
+            "Good Microbial Practice",
             "Global Marketing Plan"
           ],
           correctAnswer: 1,
@@ -970,23 +970,23 @@ Quality control ensures products meet specifications consistently, while sensory
           question: "What does descriptive analysis involve?",
           options: [
             "Consumer liking tests",
-            "Trained panels quantifying attributes",
             "Simple difference tests",
+            "Trained panels quantifying attributes",
             "Only instrumental analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Descriptive analysis uses trained panels to identify and quantify specific sensory attributes."
         },
         {
           id: 13,
           question: "What is process capability analysis?",
           options: [
+            "Testing raw materials",
             "Measuring product weight",
             "Ability to meet specifications",
-            "Counting defects",
-            "Testing raw materials"
+            "Counting defects"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Process capability analysis evaluates if a process can consistently meet product specifications."
         },
         {
@@ -1005,22 +1005,22 @@ Quality control ensures products meet specifications consistently, while sensory
           id: 15,
           question: "What is paired comparison testing?",
           options: [
-            "Triangle test variation",
             "Comparing two samples for specific attribute",
+            "Triangle test variation",
             "Consumer acceptance test",
             "Texture measurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Paired comparison presents two samples to compare for a specific attribute like sweetness or hardness."
         },
         {
           id: 16,
           question: "What does AQL mean?",
           options: [
-            "Average Quality Level",
+            "Assessment Quality Line",
             "Acceptable Quality Level",
             "Analytical Quality Limit",
-            "Assessment Quality Line"
+            "Average Quality Level"
           ],
           correctAnswer: 1,
           explanation: "AQL stands for Acceptable Quality Level in statistical sampling plans."
@@ -1041,24 +1041,24 @@ Quality control ensures products meet specifications consistently, while sensory
           id: 18,
           question: "What does HPLC analyze?",
           options: [
-            "Only volatile compounds",
             "Non-volatile compounds like sugars",
             "Only colors",
+            "Only volatile compounds",
             "Only textures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "High Performance Liquid Chromatography analyzes non-volatile compounds like sugars, acids, and vitamins."
         },
         {
           id: 19,
           question: "What are Cp and Cpk indices?",
           options: [
-            "Color parameters",
-            "Process capability indices",
+            "Shelf life predictors",
             "pH measurements",
-            "Shelf life predictors"
+            "Color parameters",
+            "Process capability indices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cp and Cpk are statistical indices that measure process capability relative to specifications."
         },
         {
@@ -1238,9 +1238,9 @@ Packaging is an integral part of food technology that balances protection, conve
           id: 1,
           question: "What is MAP packaging?",
           options: [
-            "Minimum Air Packaging",
-            "Modified Atmosphere Packaging",
             "Maximum Air Protection",
+            "Modified Atmosphere Packaging",
+            "Minimum Air Packaging",
             "Multi-layer Aseptic Packaging"
           ],
           correctAnswer: 1,
@@ -1250,24 +1250,24 @@ Packaging is an integral part of food technology that balances protection, conve
           id: 2,
           question: "What are oxygen scavengers?",
           options: [
-            "Add oxygen to packaging",
-            "Remove oxygen from packaging",
             "Measure oxygen levels",
-            "Release oxygen slowly"
+            "Release oxygen slowly",
+            "Add oxygen to packaging",
+            "Remove oxygen from packaging"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Oxygen scavengers actively remove oxygen from packaged foods to extend shelf life."
         },
         {
           id: 3,
           question: "What is PET plastic used for?",
           options: [
-            "Only grocery bags",
             "Clear beverage bottles",
+            "Microwave trays",
             "Foam cups",
-            "Microwave trays"
+            "Only grocery bags"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PET (polyethylene terephthalate) is commonly used for clear beverage bottles and food containers."
         },
         {
@@ -1276,8 +1276,8 @@ Packaging is an integral part of food technology that balances protection, conve
           options: [
             "Only sterilizes product",
             "Sterilizes product and package separately",
-            "Only vacuum packs",
-            "Only modifies atmosphere"
+            "Only modifies atmosphere",
+            "Only vacuum packs"
           ],
           correctAnswer: 1,
           explanation: "Aseptic packaging sterilizes product and package separately then fills in sterile environment."
@@ -1286,84 +1286,84 @@ Packaging is an integral part of food technology that balances protection, conve
           id: 5,
           question: "What is form-fill-seal?",
           options: [
-            "Manual packaging",
             "Continuous packaging from roll stock",
             "Only filling operation",
+            "Manual packaging",
             "Only sealing operation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Form-fill-seal forms packages from roll stock, fills with product, and seals continuously."
         },
         {
           id: 6,
           question: "What do time-temperature indicators show?",
           options: [
-            "Only current temperature",
-            "Cumulative heat exposure",
+            "Only production time",
             "Only expiration date",
-            "Only production time"
+            "Only current temperature",
+            "Cumulative heat exposure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Time-temperature indicators show cumulative temperature exposure over product's life."
         },
         {
           id: 7,
           question: "What is vacuum packaging?",
           options: [
+            "Only for powders",
             "Adds gas mixture",
             "Removes air before sealing",
-            "Only for liquids",
-            "Only for powders"
+            "Only for liquids"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vacuum packaging removes air from package before sealing to extend shelf life."
         },
         {
           id: 8,
           question: "What are bioplastics made from?",
           options: [
-            "Only petroleum",
-            "Renewable resources like corn",
             "Only recycled plastic",
-            "Only synthetic materials"
+            "Only synthetic materials",
+            "Only petroleum",
+            "Renewable resources like corn"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Bioplastics are made from renewable resources like corn starch, sugarcane, or cellulose."
         },
         {
           id: 9,
           question: "What does HDPE stand for?",
           options: [
-            "High-Density Polyethylene",
-            "Heat-Durable Packaging Element",
             "Hydro-Degradable Plastic Enzyme",
+            "Heat-Durable Packaging Element",
+            "High-Density Polyethylene",
             "Heavy-Duty Packaging Equipment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "HDPE stands for High-Density Polyethylene, used for milk jugs and detergent bottles."
         },
         {
           id: 10,
           question: "What is retort packaging?",
           options: [
-            "Only for dry goods",
             "Flexible pouches thermally processed",
+            "Only glass containers",
             "Only for frozen foods",
-            "Only glass containers"
+            "Only for dry goods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Retort packaging uses flexible pouches that are thermally processed like cans."
         },
         {
           id: 11,
           question: "What are ethylene absorbers for?",
           options: [
-            "Meat packaging",
             "Fruit and vegetable packaging",
-            "Dairy products",
-            "Baked goods"
+            "Meat packaging",
+            "Baked goods",
+            "Dairy products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Ethylene absorbers remove ripening gas from packaged fruits and vegetables."
         },
         {
@@ -1382,10 +1382,10 @@ Packaging is an integral part of food technology that balances protection, conve
           id: 13,
           question: "What does lightweighting mean?",
           options: [
-            "Making packages heavier",
-            "Using less material per package",
             "Using light colors only",
-            "Reducing package size only"
+            "Using less material per package",
+            "Reducing package size only",
+            "Making packages heavier"
           ],
           correctAnswer: 1,
           explanation: "Lightweighting reduces the amount of material used in packaging while maintaining function."
@@ -1394,10 +1394,10 @@ Packaging is an integral part of food technology that balances protection, conve
           id: 14,
           question: "What are stand-up pouches?",
           options: [
-            "Only flat bags",
-            "Self-supporting flexible packages",
             "Only for liquids",
-            "Only glass alternatives"
+            "Self-supporting flexible packages",
+            "Only glass alternatives",
+            "Only flat bags"
           ],
           correctAnswer: 1,
           explanation: "Stand-up pouches are flexible packages that can stand upright for shelf display."
@@ -1418,34 +1418,34 @@ Packaging is an integral part of food technology that balances protection, conve
           id: 16,
           question: "What is compostable packaging?",
           options: [
-            "Breaks down in any environment",
-            "Breaks down in industrial composting",
             "Never breaks down",
-            "Only made from plastic"
+            "Breaks down in any environment",
+            "Only made from plastic",
+            "Breaks down in industrial composting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Compostable packaging breaks down in industrial composting facilities under specific conditions."
         },
         {
           id: 17,
           question: "What does RFID in packaging do?",
           options: [
-            "Measures temperature",
             "Tracks packages through supply chain",
-            "Removes oxygen",
-            "Adds flavor"
+            "Measures temperature",
+            "Adds flavor",
+            "Removes oxygen"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "RFID (Radio Frequency Identification) tags track packages through supply chains for inventory and traceability."
         },
         {
           id: 18,
           question: "What is PP plastic used for?",
           options: [
-            "Only beverage bottles",
-            "Microwaveable containers",
             "Only film wrap",
-            "Only foam products"
+            "Microwaveable containers",
+            "Only foam products",
+            "Only beverage bottles"
           ],
           correctAnswer: 1,
           explanation: "PP (polypropylene) is used for microwaveable containers, yogurt cups, and closures."
@@ -1454,24 +1454,24 @@ Packaging is an integral part of food technology that balances protection, conve
           id: 19,
           question: "What do freshness indicators detect?",
           options: [
-            "Only expiration date",
-            "Spoilage compounds",
             "Only temperature",
-            "Only package integrity"
+            "Only package integrity",
+            "Spoilage compounds",
+            "Only expiration date"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Freshness indicators detect compounds produced during spoilage, showing actual food condition."
         },
         {
           id: 20,
           question: "Why balance packaging functions?",
           options: [
-            "Only for lowest cost",
             "Protection, convenience, communication, sustainability",
-            "Only for marketing",
-            "Only for longest shelf life"
+            "Only for lowest cost",
+            "Only for longest shelf life",
+            "Only for marketing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective packaging balances protection, convenience, communication, and environmental considerations."
         }
       ]
@@ -1621,24 +1621,24 @@ Successful product development balances creativity with discipline, innovation w
           id: 1,
           question: "What is the first stage of product development?",
           options: [
-            "Testing",
-            "Ideation and concept development",
+            "Launch",
             "Manufacturing",
-            "Launch"
+            "Ideation and concept development",
+            "Testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ideation and concept development is the first stage where new product ideas are generated and screened."
         },
         {
           id: 2,
           question: "What is a go/no-go decision?",
           options: [
-            "Marketing plan approval",
-            "Decision to continue or abandon project",
+            "Ingredient sourcing",
             "Packaging selection",
-            "Ingredient sourcing"
+            "Marketing plan approval",
+            "Decision to continue or abandon project"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Go/no-go decisions determine whether to proceed to the next stage or abandon the project."
         },
         {
@@ -1646,44 +1646,44 @@ Successful product development balances creativity with discipline, innovation w
           question: "What are bench-top prototypes?",
           options: [
             "Full-scale production",
-            "Small-scale development prototypes",
             "Consumer test samples",
-            "Marketing samples"
+            "Marketing samples",
+            "Small-scale development prototypes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Bench-top prototypes are small-scale versions developed in the laboratory for initial testing."
         },
         {
           id: 4,
           question: "What is pilot production?",
           options: [
-            "Full commercial production",
             "Intermediate scale production testing",
-            "Only laboratory testing",
-            "Only consumer testing"
+            "Full commercial production",
+            "Only consumer testing",
+            "Only laboratory testing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Pilot production tests processes at intermediate scale before full commercial production."
         },
         {
           id: 5,
           question: "What is a stage-gate process?",
           options: [
-            "Continuous development",
-            "Structured decision points between stages",
             "Only testing phase",
-            "Only launch phase"
+            "Only launch phase",
+            "Continuous development",
+            "Structured decision points between stages"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Stage-gate process has structured decision points (gates) between development stages."
         },
         {
           id: 6,
           question: "What is concept testing?",
           options: [
-            "Testing final product",
-            "Presenting ideas to consumers",
             "Laboratory analysis",
+            "Presenting ideas to consumers",
+            "Testing final product",
             "Packaging testing"
           ],
           correctAnswer: 1,
@@ -1693,84 +1693,84 @@ Successful product development balances creativity with discipline, innovation w
           id: 7,
           question: "What are specifications?",
           options: [
+            "Only marketing plans",
             "Only ingredient lists",
-            "Quality and process standards",
             "Only cost targets",
-            "Only marketing plans"
+            "Quality and process standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Specifications define quality standards, ingredient requirements, and process parameters."
         },
         {
           id: 8,
           question: "What is post-launch monitoring?",
           options: [
-            "Only sales tracking",
             "Ongoing performance and feedback collection",
-            "Only production monitoring",
-            "Only cost tracking"
+            "Only cost tracking",
+            "Only sales tracking",
+            "Only production monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Post-launch monitoring tracks sales, collects consumer feedback, and monitors quality after launch."
         },
         {
           id: 9,
           question: "What is scale-up?",
           options: [
-            "Only increasing batch size",
-            "Moving from development to commercial production",
+            "Only cost reduction",
             "Only ingredient scaling",
-            "Only cost reduction"
+            "Only increasing batch size",
+            "Moving from development to commercial production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Scale-up involves moving from laboratory or pilot scale to full commercial production."
         },
         {
           id: 10,
           question: "What is consumer testing?",
           options: [
-            "Only laboratory analysis",
             "Target market acceptance evaluation",
-            "Only competitor analysis",
-            "Only cost analysis"
+            "Only cost analysis",
+            "Only laboratory analysis",
+            "Only competitor analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Consumer testing evaluates how the target market accepts and responds to the product."
         },
         {
           id: 11,
           question: "What is formulation development?",
           options: [
-            "Only recipe writing",
             "Ingredient selection and recipe development",
             "Only cost calculation",
-            "Only packaging design"
+            "Only packaging design",
+            "Only recipe writing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Formulation development involves selecting ingredients and developing recipes with desired properties."
         },
         {
           id: 12,
           question: "What is stability testing?",
           options: [
-            "Only immediate quality check",
-            "Shelf life and quality over time",
             "Only package strength",
-            "Only color stability"
+            "Only immediate quality check",
+            "Only color stability",
+            "Shelf life and quality over time"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Stability testing evaluates how product quality changes over time under storage conditions."
         },
         {
           id: 13,
           question: "What are cross-functional teams?",
           options: [
-            "Only R&D teams",
             "Multiple department collaboration",
-            "Only marketing teams",
-            "Only production teams"
+            "Only R&D teams",
+            "Only production teams",
+            "Only marketing teams"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cross-functional teams include members from different departments like R&D, marketing, and production."
         },
         {
@@ -1778,11 +1778,11 @@ Successful product development balances creativity with discipline, innovation w
           question: "What is competitive analysis?",
           options: [
             "Only price comparison",
-            "Evaluating competitor products and strategies",
+            "Only packaging comparison",
             "Only ingredient comparison",
-            "Only packaging comparison"
+            "Evaluating competitor products and strategies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Competitive analysis evaluates competitor products, positioning, and market strategies."
         },
         {
@@ -1790,23 +1790,23 @@ Successful product development balances creativity with discipline, innovation w
           question: "What is regulatory compliance?",
           options: [
             "Only following company rules",
+            "Only safety standards",
             "Meeting government regulations and standards",
-            "Only quality standards",
-            "Only safety standards"
+            "Only quality standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regulatory compliance ensures products meet all government regulations and industry standards."
         },
         {
           id: 16,
           question: "What is iterative refinement?",
           options: [
-            "One-time development",
             "Multiple prototype improvements",
             "Only final adjustment",
-            "Only ingredient changes"
+            "Only ingredient changes",
+            "One-time development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Iterative refinement involves making successive improvements through multiple prototype versions."
         },
         {
@@ -1814,35 +1814,35 @@ Successful product development balances creativity with discipline, innovation w
           question: "What is market research?",
           options: [
             "Only sales data analysis",
+            "Only product testing",
             "Studying consumer trends and needs",
-            "Only competitor pricing",
-            "Only product testing"
+            "Only competitor pricing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Market research studies consumer trends, preferences, and unmet needs in the marketplace."
         },
         {
           id: 18,
           question: "What is process validation?",
           options: [
-            "Only equipment check",
-            "Confirming manufacturing feasibility and consistency",
             "Only recipe testing",
-            "Only cost validation"
+            "Only cost validation",
+            "Confirming manufacturing feasibility and consistency",
+            "Only equipment check"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Process validation confirms that manufacturing processes can consistently produce quality products."
         },
         {
           id: 19,
           question: "What is continuous improvement?",
           options: [
-            "Only cost reduction",
-            "Ongoing product and process optimization",
             "Only ingredient changes",
-            "Only packaging updates"
+            "Only packaging updates",
+            "Only cost reduction",
+            "Ongoing product and process optimization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Continuous improvement involves ongoing optimization based on feedback and performance data."
         },
         {
@@ -1851,8 +1851,8 @@ Successful product development balances creativity with discipline, innovation w
           options: [
             "Only speed and cost",
             "Creativity with discipline, innovation with feasibility",
-            "Only quality and quantity",
-            "Only safety and taste"
+            "Only safety and taste",
+            "Only quality and quantity"
           ],
           correctAnswer: 1,
           explanation: "Successful development balances creativity with discipline and innovation with practical feasibility."
@@ -2009,36 +2009,36 @@ The future of food technology lies in creating sustainable, efficient, and equit
           id: 1,
           question: "What is waste valorization?",
           options: [
-            "Throwing away waste",
             "Turning waste into valuable products",
+            "Throwing away waste",
             "Only composting",
             "Only reducing waste"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Waste valorization transforms food by-products and waste into valuable new products or energy."
         },
         {
           id: 2,
           question: "What are plant-based alternatives?",
           options: [
-            "Only vegetables",
-            "Plant protein products replacing animal products",
             "Only organic foods",
-            "Only raw foods"
+            "Only vegetables",
+            "Only raw foods",
+            "Plant protein products replacing animal products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Plant-based alternatives use plant proteins to replace animal products like meat, dairy, and eggs."
         },
         {
           id: 3,
           question: "What is precision fermentation?",
           options: [
+            "Only yogurt production",
             "Traditional fermentation",
-            "Engineered microorganisms producing specific compounds",
             "Only beer making",
-            "Only yogurt production"
+            "Engineered microorganisms producing specific compounds"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Precision fermentation uses engineered microorganisms to produce specific food compounds efficiently."
         },
         {
@@ -2046,11 +2046,11 @@ The future of food technology lies in creating sustainable, efficient, and equit
           question: "What does clean label mean?",
           options: [
             "Only clean packaging",
+            "Only low calorie",
             "Simple, natural, minimally processed ingredients",
-            "Only organic certification",
-            "Only low calorie"
+            "Only organic certification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Clean label emphasizes simple, natural ingredients with minimal processing and few additives."
         },
         {
@@ -2058,21 +2058,21 @@ The future of food technology lies in creating sustainable, efficient, and equit
           question: "What is cultured meat?",
           options: [
             "Only aged meat",
-            "Animal cells grown in bioreactors",
+            "Only fermented meat",
             "Only plant-based meat",
-            "Only fermented meat"
+            "Animal cells grown in bioreactors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cultured meat grows animal cells in bioreactors without raising and slaughtering animals."
         },
         {
           id: 6,
           question: "What is circular economy in food?",
           options: [
-            "Only recycling packaging",
+            "Only local production",
             "Closed-loop systems minimizing waste",
-            "Only round packaging",
-            "Only local production"
+            "Only recycling packaging",
+            "Only round packaging"
           ],
           correctAnswer: 1,
           explanation: "Circular economy creates closed-loop systems where waste becomes inputs for new products."
@@ -2081,10 +2081,10 @@ The future of food technology lies in creating sustainable, efficient, and equit
           id: 7,
           question: "What is 3D food printing?",
           options: [
-            "Only printing labels",
-            "Creating food structures layer by layer",
             "Only cookie cutting",
-            "Only food photography"
+            "Creating food structures layer by layer",
+            "Only food photography",
+            "Only printing labels"
           ],
           correctAnswer: 1,
           explanation: "3D food printing builds food structures layer by layer from edible materials for customization."
@@ -2094,93 +2094,93 @@ The future of food technology lies in creating sustainable, efficient, and equit
           question: "What are insect proteins?",
           options: [
             "Only animal feed",
-            "Protein from insects for human or animal consumption",
             "Only for pets",
-            "Only traditional foods"
+            "Only traditional foods",
+            "Protein from insects for human or animal consumption"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Insect proteins come from farmed insects for human food, animal feed, or ingredient use."
         },
         {
           id: 9,
           question: "What is blockchain traceability?",
           options: [
-            "Only inventory tracking",
             "Transparent supply chain recording",
+            "Only quality testing",
             "Only price tracking",
-            "Only quality testing"
+            "Only inventory tracking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Blockchain creates transparent, immutable records of food movement through supply chains."
         },
         {
           id: 10,
           question: "What are algae proteins?",
           options: [
-            "Only fish food",
-            "Proteins from microalgae like spirulina",
+            "Only animal feed",
             "Only sea vegetables",
-            "Only animal feed"
+            "Only fish food",
+            "Proteins from microalgae like spirulina"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Algae proteins come from microalgae like spirulina, used as sustainable protein sources."
         },
         {
           id: 11,
           question: "What is smart packaging?",
           options: [
-            "Only attractive packaging",
-            "Packaging that monitors or interacts with food",
             "Only recycled packaging",
-            "Only biodegradable packaging"
+            "Only attractive packaging",
+            "Only biodegradable packaging",
+            "Packaging that monitors or interacts with food"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Smart packaging monitors food condition or interacts with it to extend shelf life or provide information."
         },
         {
           id: 12,
           question: "What is personalized nutrition?",
           options: [
-            "Only diet plans",
             "Foods tailored to individual genetic and health needs",
-            "Only vitamin supplements",
-            "Only organic foods"
+            "Only diet plans",
+            "Only organic foods",
+            "Only vitamin supplements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Personalized nutrition tailors foods and diets to individual genetic, health, and lifestyle factors."
         },
         {
           id: 13,
           question: "What are novel food regulations?",
           options: [
+            "Only for packaged foods",
             "Only for imported foods",
             "Safety rules for new food types",
-            "Only for organic foods",
-            "Only for packaged foods"
+            "Only for organic foods"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Novel food regulations govern safety assessment and approval of new food types and ingredients."
         },
         {
           id: 14,
           question: "What is anaerobic digestion?",
           options: [
+            "Only food preservation",
             "Only composting",
             "Producing energy from organic waste",
-            "Only water treatment",
-            "Only food preservation"
+            "Only water treatment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Anaerobic digestion breaks down organic waste without oxygen, producing biogas for energy."
         },
         {
           id: 15,
           question: "What are mycoproteins?",
           options: [
-            "Only mushroom caps",
+            "Only bacterial proteins",
             "Proteins from filamentous fungi",
-            "Only yeast proteins",
-            "Only bacterial proteins"
+            "Only mushroom caps",
+            "Only yeast proteins"
           ],
           correctAnswer: 1,
           explanation: "Mycoproteins come from filamentous fungi and are used as meat alternatives and protein sources."
@@ -2191,8 +2191,8 @@ The future of food technology lies in creating sustainable, efficient, and equit
           options: [
             "Only factory cooperation",
             "One facility's waste becomes another's input",
-            "Only similar industries",
-            "Only manufacturing partnerships"
+            "Only manufacturing partnerships",
+            "Only similar industries"
           ],
           correctAnswer: 1,
           explanation: "Industrial symbiosis creates networks where one company's waste becomes raw material for another."
@@ -2201,48 +2201,48 @@ The future of food technology lies in creating sustainable, efficient, and equit
           id: 17,
           question: "What is sustainable sourcing?",
           options: [
-            "Only cheap ingredients",
-            "Environmentally and socially responsible ingredient procurement",
             "Only local ingredients",
-            "Only organic ingredients"
+            "Only cheap ingredients",
+            "Only organic ingredients",
+            "Environmentally and socially responsible ingredient procurement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sustainable sourcing considers environmental impact, social responsibility, and economic viability."
         },
         {
           id: 18,
           question: "What are digital twins in food systems?",
           options: [
+            "Only inventory software",
             "Only computer models",
             "Virtual replicas of physical systems for optimization",
-            "Only inventory software",
             "Only recipe databases"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital twins are virtual models of food systems used to simulate, predict, and optimize performance."
         },
         {
           id: 19,
           question: "What is extended producer responsibility?",
           options: [
-            "Only product quality",
-            "Manufacturers managing product end-of-life",
+            "Only product development",
             "Only customer service",
-            "Only product development"
+            "Manufacturers managing product end-of-life",
+            "Only product quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Extended producer responsibility makes manufacturers responsible for product disposal or recycling."
         },
         {
           id: 20,
           question: "What shapes future food technology?",
           options: [
+            "Only production speed",
             "Only cost reduction",
             "Sustainability, efficiency, and equity considerations",
-            "Only taste improvement",
-            "Only production speed"
+            "Only taste improvement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Future food technology balances sustainability, efficiency, equity, and meeting global food needs."
         }
       ]
@@ -2260,10 +2260,10 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 1,
         question: "What are amino acids?",
         options: [
-          "Simple sugars",
-          "Protein building blocks",
           "Fat components",
-          "Water molecules"
+          "Protein building blocks",
+          "Water molecules",
+          "Simple sugars"
         ],
         correctAnswer: 1,
         explanation: "Amino acids are the basic building blocks that form proteins through peptide bonds."
@@ -2272,46 +2272,46 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 2,
         question: "What does HPP stand for?",
         options: [
-          "High Pressure Processing",
-          "Heat Pasteurization Process",
           "Hydrostatic Pressure Packaging",
-          "High Protein Preservation"
+          "High Protein Preservation",
+          "High Pressure Processing",
+          "Heat Pasteurization Process"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "HPP stands for High Pressure Processing, a non-thermal preservation method."
       },
       {
         id: 3,
         question: "What does water activity predict?",
         options: [
+          "Color stability",
           "Nutritional value",
           "Microbial growth potential",
-          "Color stability",
           "Flavor intensity"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Water activity (aw) predicts potential for microbial growth in food products."
       },
       {
         id: 4,
         question: "What is MAP packaging?",
         options: [
-          "Minimum Air Packaging",
-          "Modified Atmosphere Packaging",
+          "Multi-layer Aseptic Packaging",
           "Maximum Air Protection",
-          "Multi-layer Aseptic Packaging"
+          "Modified Atmosphere Packaging",
+          "Minimum Air Packaging"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "MAP stands for Modified Atmosphere Packaging, replacing air with specific gas mixtures."
       },
       {
         id: 5,
         question: "What is the first product development stage?",
         options: [
-          "Testing",
-          "Ideation and concept development",
           "Manufacturing",
-          "Launch"
+          "Ideation and concept development",
+          "Launch",
+          "Testing"
         ],
         correctAnswer: 1,
         explanation: "Ideation and concept development is the initial stage where ideas are generated and screened."
@@ -2322,8 +2322,8 @@ The future of food technology lies in creating sustainable, efficient, and equit
         options: [
           "Throwing away waste",
           "Turning waste into valuable products",
-          "Only composting",
-          "Only reducing waste"
+          "Only reducing waste",
+          "Only composting"
         ],
         correctAnswer: 1,
         explanation: "Waste valorization transforms by-products and waste into valuable new products or energy."
@@ -2332,10 +2332,10 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 7,
         question: "What causes Maillard reaction?",
         options: [
-          "Sugar and heat only",
+          "Water and enzymes",
           "Sugars and amino acids with heat",
-          "Fat and oxygen",
-          "Water and enzymes"
+          "Sugar and heat only",
+          "Fat and oxygen"
         ],
         correctAnswer: 1,
         explanation: "Maillard reaction requires reducing sugars and amino acids with heat to create flavor and color."
@@ -2344,12 +2344,12 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 8,
         question: "What is freeze drying?",
         options: [
-          "Freezing then air drying",
           "Water sublimation under vacuum",
           "Spray freezing",
-          "Drum freezing"
+          "Drum freezing",
+          "Freezing then air drying"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Freeze drying involves freezing then removing water by sublimation under vacuum."
       },
       {
@@ -2357,33 +2357,33 @@ The future of food technology lies in creating sustainable, efficient, and equit
         question: "What is a hedonic scale?",
         options: [
           "Color measurement scale",
-          "Consumer liking rating scale",
+          "pH measurement scale",
           "Texture analysis scale",
-          "pH measurement scale"
+          "Consumer liking rating scale"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Hedonic scales measure consumer liking, typically using a 9-point like/dislike scale."
       },
       {
         id: 10,
         question: "What are oxygen scavengers?",
         options: [
-          "Add oxygen to packaging",
-          "Remove oxygen from packaging",
+          "Release oxygen slowly",
           "Measure oxygen levels",
-          "Release oxygen slowly"
+          "Add oxygen to packaging",
+          "Remove oxygen from packaging"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Oxygen scavengers actively remove oxygen from packaged foods to extend shelf life."
       },
       {
         id: 11,
         question: "What is a go/no-go decision?",
         options: [
-          "Marketing plan approval",
-          "Decision to continue or abandon project",
           "Packaging selection",
-          "Ingredient sourcing"
+          "Decision to continue or abandon project",
+          "Ingredient sourcing",
+          "Marketing plan approval"
         ],
         correctAnswer: 1,
         explanation: "Go/no-go decisions determine whether to proceed to next development stage or stop."
@@ -2392,70 +2392,70 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 12,
         question: "What are plant-based alternatives?",
         options: [
-          "Only vegetables",
           "Plant protein products replacing animal products",
+          "Only raw foods",
           "Only organic foods",
-          "Only raw foods"
+          "Only vegetables"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Plant-based alternatives use plant proteins to replace animal products like meat and dairy."
       },
       {
         id: 13,
         question: "What is starch gelatinization?",
         options: [
-          "Starch breaking down",
-          "Starch granules swelling in water",
           "Starch becoming sweet",
-          "Starch fermenting"
+          "Starch breaking down",
+          "Starch fermenting",
+          "Starch granules swelling in water"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Starch gelatinization occurs when starch granules absorb water and swell, thickening mixtures."
       },
       {
         id: 14,
         question: "What does IQF mean?",
         options: [
-          "Instant Quick Freezing",
           "Individual Quick Freezing",
           "Integrated Quality Freezing",
-          "International Quality Food"
+          "International Quality Food",
+          "Instant Quick Freezing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "IQF means Individual Quick Freezing, where pieces freeze separately."
       },
       {
         id: 15,
         question: "What does GC-MS analyze?",
         options: [
-          "Texture properties",
-          "Volatile flavor compounds",
+          "Water content",
           "Color pigments",
-          "Water content"
+          "Texture properties",
+          "Volatile flavor compounds"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Gas Chromatography-Mass Spectrometry analyzes volatile flavor and aroma compounds."
       },
       {
         id: 16,
         question: "What is aseptic packaging?",
         options: [
-          "Only sterilizes product",
           "Sterilizes product and package separately",
+          "Only modifies atmosphere",
           "Only vacuum packs",
-          "Only modifies atmosphere"
+          "Only sterilizes product"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Aseptic packaging sterilizes product and package separately then fills in sterile environment."
       },
       {
         id: 17,
         question: "What are bench-top prototypes?",
         options: [
-          "Full-scale production",
-          "Small-scale development prototypes",
           "Consumer test samples",
-          "Marketing samples"
+          "Small-scale development prototypes",
+          "Marketing samples",
+          "Full-scale production"
         ],
         correctAnswer: 1,
         explanation: "Bench-top prototypes are small-scale versions developed in the laboratory."
@@ -2464,12 +2464,12 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 18,
         question: "What is precision fermentation?",
         options: [
-          "Traditional fermentation",
-          "Engineered microorganisms producing specific compounds",
           "Only beer making",
-          "Only yogurt production"
+          "Only yogurt production",
+          "Engineered microorganisms producing specific compounds",
+          "Traditional fermentation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Precision fermentation uses engineered microorganisms to produce specific food compounds."
       },
       {
@@ -2478,8 +2478,8 @@ The future of food technology lies in creating sustainable, efficient, and equit
         options: [
           "Sugars that don't crystallize",
           "Sugars that participate in Maillard reaction",
-          "Artificial sweeteners",
-          "Sugar alcohols"
+          "Sugar alcohols",
+          "Artificial sweeteners"
         ],
         correctAnswer: 1,
         explanation: "Reducing sugars have free aldehyde or ketone groups and participate in Maillard browning."
@@ -2488,33 +2488,33 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 20,
         question: "What is cryogenic freezing?",
         options: [
-          "Slow freezing in air",
           "Freezing with liquid nitrogen",
-          "Plate freezing",
-          "Sun freezing"
+          "Sun freezing",
+          "Slow freezing in air",
+          "Plate freezing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Cryogenic freezing uses extremely cold liquids like nitrogen for rapid freezing."
       },
       {
         id: 21,
         question: "What is triangle test?",
         options: [
-          "Color measurement",
           "Three samples, find the odd one",
+          "Color measurement",
           "Texture analysis",
           "pH testing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Triangle test presents three samples where one is different; identify the odd sample."
       },
       {
         id: 22,
         question: "What is PET plastic?",
         options: [
-          "Only grocery bags",
-          "Clear beverage bottle plastic",
           "Foam cup material",
+          "Clear beverage bottle plastic",
+          "Only grocery bags",
           "Microwave tray material"
         ],
         correctAnswer: 1,
@@ -2524,12 +2524,12 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 23,
         question: "What is pilot production?",
         options: [
+          "Only consumer testing",
           "Full commercial production",
-          "Intermediate scale production testing",
           "Only laboratory testing",
-          "Only consumer testing"
+          "Intermediate scale production testing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Pilot production tests processes at intermediate scale before full commercial production."
       },
       {
@@ -2548,36 +2548,36 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 25,
         question: "What is water activity?",
         options: [
-          "Water content percentage",
-          "Available water for microbial growth",
+          "Water temperature",
           "Water purity measurement",
-          "Water temperature"
+          "Available water for microbial growth",
+          "Water content percentage"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Water activity measures water available for microbial growth, not total water content."
       },
       {
         id: 26,
         question: "What is lactic acid fermentation?",
         options: [
-          "Beer production",
-          "Yogurt and sauerkraut production",
+          "Bread rising",
           "Vinegar making",
-          "Bread rising"
+          "Yogurt and sauerkraut production",
+          "Beer production"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Lactic acid fermentation produces yogurt, sauerkraut, pickles, and other acidified foods."
       },
       {
         id: 27,
         question: "What are control charts?",
         options: [
-          "Only product weight charts",
-          "Process stability monitoring charts",
           "Only packaging charts",
-          "Only cost charts"
+          "Only product weight charts",
+          "Only cost charts",
+          "Process stability monitoring charts"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Control charts monitor process stability and variation over time statistically."
       },
       {
@@ -2585,45 +2585,45 @@ The future of food technology lies in creating sustainable, efficient, and equit
         question: "What is form-fill-seal?",
         options: [
           "Manual packaging",
-          "Continuous packaging from roll stock",
           "Only filling operation",
-          "Only sealing operation"
+          "Only sealing operation",
+          "Continuous packaging from roll stock"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Form-fill-seal forms packages from roll stock, fills, and seals continuously."
       },
       {
         id: 29,
         question: "What is stage-gate process?",
         options: [
-          "Continuous development",
           "Structured decision points between stages",
+          "Continuous development",
           "Only testing phase",
           "Only launch phase"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Stage-gate process has structured decision points (gates) between development stages."
       },
       {
         id: 30,
         question: "What is circular economy?",
         options: [
-          "Only recycling packaging",
           "Closed-loop systems minimizing waste",
-          "Only round packaging",
-          "Only local production"
+          "Only recycling packaging",
+          "Only local production",
+          "Only round packaging"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Circular economy creates closed-loop systems where waste becomes inputs."
       },
       {
         id: 31,
         question: "What is lipid oxidation?",
         options: [
-          "Fat melting",
-          "Fat breakdown causing rancidity",
           "Fat emulsification",
-          "Fat solidification"
+          "Fat breakdown causing rancidity",
+          "Fat solidification",
+          "Fat melting"
         ],
         correctAnswer: 1,
         explanation: "Lipid oxidation causes rancidity with off-flavors and odors in fats and oils."
@@ -2632,36 +2632,36 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 32,
         question: "What is spray drying?",
         options: [
-          "Vegetable freezing",
           "Liquid to powder conversion",
+          "Fruit canning",
           "Meat preservation",
-          "Fruit canning"
+          "Vegetable freezing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Spray drying converts liquids into powders by spraying into hot air."
       },
       {
         id: 33,
         question: "What is accelerated shelf life testing?",
         options: [
-          "Real-time storage",
-          "Stress conditions to predict shelf life",
+          "Consumer testing",
           "Only microbial testing",
-          "Consumer testing"
+          "Stress conditions to predict shelf life",
+          "Real-time storage"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Accelerated testing uses stress conditions to predict normal shelf life faster."
       },
       {
         id: 34,
         question: "What is retort packaging?",
         options: [
+          "Only for frozen foods",
           "Only for dry goods",
           "Flexible pouches thermally processed",
-          "Only for frozen foods",
           "Only glass containers"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Retort packaging uses flexible pouches thermally processed like cans."
       },
       {
@@ -2669,11 +2669,11 @@ The future of food technology lies in creating sustainable, efficient, and equit
         question: "What is concept testing?",
         options: [
           "Testing final product",
-          "Presenting ideas to consumers",
+          "Packaging testing",
           "Laboratory analysis",
-          "Packaging testing"
+          "Presenting ideas to consumers"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Concept testing presents product ideas to consumers for feedback before development."
       },
       {
@@ -2682,8 +2682,8 @@ The future of food technology lies in creating sustainable, efficient, and equit
         options: [
           "Only animal feed",
           "Protein from insects for consumption",
-          "Only for pets",
-          "Only traditional foods"
+          "Only traditional foods",
+          "Only for pets"
         ],
         correctAnswer: 1,
         explanation: "Insect proteins come from farmed insects for human food or animal feed."
@@ -2692,12 +2692,12 @@ The future of food technology lies in creating sustainable, efficient, and equit
         id: 37,
         question: "What are functional properties?",
         options: [
-          "Nutritional value only",
           "Texture and stability effects",
           "Color only",
-          "Flavor only"
+          "Flavor only",
+          "Nutritional value only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Functional properties include how proteins affect texture, stability, and other qualities."
       },
       {
@@ -2705,23 +2705,23 @@ The future of food technology lies in creating sustainable, efficient, and equit
         question: "What is blanching?",
         options: [
           "Sterilizes completely",
+          "Dries foods",
           "Inactivates enzymes before freezing",
-          "Ferments foods",
-          "Dries foods"
+          "Ferments foods"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Blanching uses brief heat to inactivate enzymes before freezing or drying."
       },
       {
         id: 39,
         question: "What is GMP?",
         options: [
-          "Good Microbial Practice",
           "Good Manufacturing Practice",
           "General Measurement Procedure",
+          "Good Microbial Practice",
           "Global Marketing Plan"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "GMP stands for Good Manufacturing Practice for facility and process standards."
       },
       {
@@ -2730,8 +2730,8 @@ The future of food technology lies in creating sustainable, efficient, and equit
         options: [
           "Only increasing batch size",
           "Moving to commercial production",
-          "Only ingredient scaling",
-          "Only cost reduction"
+          "Only cost reduction",
+          "Only ingredient scaling"
         ],
         correctAnswer: 1,
         explanation: "Scale-up involves moving from development to full commercial production scale."

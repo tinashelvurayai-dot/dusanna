@@ -85,21 +85,21 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           question: "What does FMS stand for in manufacturing?",
           options: [
             "Fast Manufacturing System",
-            "Flexible Manufacturing System",
+            "Fundamental Manufacturing System",
             "Fixed Manufacturing System",
-            "Fundamental Manufacturing System"
+            "Flexible Manufacturing System"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "FMS stands for Flexible Manufacturing System - automated systems that can produce different products with minimal changeover."
         },
         {
           id: 2,
           question: "What is the complete integration of manufacturing processes through computers called?",
           options: [
-            "Lean Manufacturing",
+            "Cellular Manufacturing",
             "Computer Integrated Manufacturing",
             "Just-In-Time Manufacturing",
-            "Cellular Manufacturing"
+            "Lean Manufacturing"
           ],
           correctAnswer: 1,
           explanation: "Computer Integrated Manufacturing (CIM) connects all manufacturing processes through computer systems for seamless operation."
@@ -108,34 +108,34 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           id: 3,
           question: "Which manufacturing approach focuses on waste elimination?",
           options: [
-            "Mass Production",
-            "Lean Manufacturing",
             "Batch Production",
-            "Custom Manufacturing"
+            "Custom Manufacturing",
+            "Lean Manufacturing",
+            "Mass Production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Lean Manufacturing specifically focuses on identifying and eliminating waste in all forms throughout the manufacturing process."
         },
         {
           id: 4,
           question: "What does JIT stand for in manufacturing systems?",
           options: [
-            "Just-In-Time",
-            "Job-Integrated Technology",
             "Joint Industrial Training",
-            "Justified Inventory Transfer"
+            "Job-Integrated Technology",
+            "Justified Inventory Transfer",
+            "Just-In-Time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "JIT stands for Just-In-Time - producing only what's needed, when it's needed, with minimal inventory."
         },
         {
           id: 5,
           question: "What type of layout groups machines by function?",
           options: [
-            "Product Layout",
-            "Process Layout",
             "Fixed-Position Layout",
-            "Cellular Layout"
+            "Process Layout",
+            "Cellular Layout",
+            "Product Layout"
           ],
           correctAnswer: 1,
           explanation: "Process Layout organizes similar machines or processes together in the same area of the factory."
@@ -144,10 +144,10 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           id: 6,
           question: "Which system plans materials needed for production?",
           options: [
-            "Master Production Schedule",
+            "Shop Floor Control",
             "Material Requirements Planning",
             "Capacity Planning",
-            "Shop Floor Control"
+            "Master Production Schedule"
           ],
           correctAnswer: 1,
           explanation: "Material Requirements Planning (MRP) calculates the materials needed to meet production schedules."
@@ -156,12 +156,12 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           id: 7,
           question: "What does ERP integrate across a company?",
           options: [
+            "All business processes",
             "Only manufacturing processes",
             "Only financial processes",
-            "All business processes",
             "Only production planning"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Enterprise Resource Planning (ERP) integrates all business functions including manufacturing, finance, sales, and human resources."
         },
         {
@@ -170,42 +170,42 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           options: [
             "Throughput Time",
             "First Pass Yield",
-            "Overall Equipment Effectiveness",
-            "On-Time Delivery"
+            "On-Time Delivery",
+            "Overall Equipment Effectiveness"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Overall Equipment Effectiveness (OEE) measures how well manufacturing equipment is performing compared to its full potential."
         },
         {
           id: 9,
           question: "What is mass customization?",
           options: [
-            "Making one custom product",
-            "Large-scale production of standard products",
             "Large-scale production of customized products",
-            "Small batch production"
+            "Making one custom product",
+            "Small batch production",
+            "Large-scale production of standard products"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Mass customization combines the efficiency of mass production with the flexibility of customization to meet individual customer needs."
         },
         {
           id: 10,
           question: "What type of manufacturing rapidly responds to market changes?",
           options: [
-            "Traditional Manufacturing",
             "Agile Manufacturing",
-            "Mass Production",
-            "Lean Manufacturing"
+            "Traditional Manufacturing",
+            "Lean Manufacturing",
+            "Mass Production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Agile Manufacturing focuses on quick response to changing customer needs and market conditions."
         },
         {
           id: 11,
           question: "Which layout has products staying stationary while resources move?",
           options: [
-            "Process Layout",
             "Product Layout",
+            "Process Layout",
             "Fixed-Position Layout",
             "Cellular Layout"
           ],
@@ -216,10 +216,10 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           id: 12,
           question: "What does CIM integrate?",
           options: [
-            "Only production machines",
+            "Only material handling",
             "All manufacturing processes",
-            "Only quality control",
-            "Only material handling"
+            "Only production machines",
+            "Only quality control"
           ],
           correctAnswer: 1,
           explanation: "Computer Integrated Manufacturing integrates all manufacturing processes including design, planning, production, and quality control."
@@ -228,36 +228,36 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           id: 13,
           question: "What is cellular manufacturing?",
           options: [
+            "Random machine arrangement",
             "Using biological cells in production",
-            "Grouping machines for product families",
             "Single machine operations",
-            "Random machine arrangement"
+            "Grouping machines for product families"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cellular Manufacturing organizes machines into cells that can complete entire product families, improving flow and reducing movement."
         },
         {
           id: 14,
           question: "What does MRP II add to basic MRP?",
           options: [
+            "Only inventory control",
             "Only material planning",
-            "Integration with business functions",
             "Only production scheduling",
-            "Only inventory control"
+            "Integration with business functions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Manufacturing Resource Planning (MRP II) integrates manufacturing planning with other business functions like finance and sales."
         },
         {
           id: 15,
           question: "What measures time from production start to completion?",
           options: [
-            "Setup Time",
             "Cycle Time",
             "Throughput Time",
-            "Lead Time"
+            "Lead Time",
+            "Setup Time"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Throughput Time measures the total time required for a product to move through the manufacturing system from start to finish."
         },
         {
@@ -265,35 +265,35 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           question: "Which manufacturing approach is environmentally conscious?",
           options: [
             "Traditional Manufacturing",
-            "Sustainable Manufacturing",
             "Mass Production",
+            "Sustainable Manufacturing",
             "Custom Manufacturing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Sustainable Manufacturing focuses on minimizing environmental impact through efficient resource use and waste reduction."
         },
         {
           id: 17,
           question: "What does OEE measure?",
           options: [
-            "Only machine speed",
-            "Equipment productivity effectiveness",
+            "Only availability",
             "Only quality rate",
-            "Only availability"
+            "Only machine speed",
+            "Equipment productivity effectiveness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Overall Equipment Effectiveness (OEE) combines availability, performance, and quality metrics to measure overall equipment productivity."
         },
         {
           id: 18,
           question: "Which system manages production activities on the factory floor?",
           options: [
-            "Master Production Schedule",
-            "Material Requirements Planning",
             "Shop Floor Control",
-            "Capacity Planning"
+            "Master Production Schedule",
+            "Capacity Planning",
+            "Material Requirements Planning"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Shop Floor Control systems manage and monitor production activities happening on the manufacturing floor in real-time."
         },
         {
@@ -301,11 +301,11 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           question: "What type of manufacturing uses virtual design and production?",
           options: [
             "Traditional Manufacturing",
+            "Batch Manufacturing",
             "Digital Manufacturing",
-            "Handcraft Manufacturing",
-            "Batch Manufacturing"
+            "Handcraft Manufacturing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Digital Manufacturing uses computer simulations and virtual models to design and test manufacturing processes before physical implementation."
         },
         {
@@ -313,11 +313,11 @@ Modern manufacturing has evolved from traditional methods to integrated systems 
           question: "What is a key consideration when implementing advanced manufacturing systems?",
           options: [
             "Ignoring workforce needs",
-            "Avoiding technology updates",
             "Workforce training and preparation",
-            "Eliminating all human workers"
+            "Eliminating all human workers",
+            "Avoiding technology updates"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Proper workforce training is essential when implementing advanced manufacturing systems to ensure successful adoption and operation."
         }
       ]
@@ -412,84 +412,84 @@ Precision engineering focuses on designing and manufacturing components with ext
           id: 1,
           question: "What measures how close a measurement is to the true value?",
           options: [
-            "Precision",
-            "Accuracy",
+            "Resolution",
             "Repeatability",
-            "Resolution"
+            "Accuracy",
+            "Precision"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Accuracy refers to how close a measured value is to the actual or true value."
         },
         {
           id: 2,
           question: "What does GD&T stand for in precision engineering?",
           options: [
-            "General Dimensioning and Tolerancing",
-            "Geometric Dimensioning and Tolerancing",
             "Global Dimension Tracking",
-            "Geometric Design Technology"
+            "Geometric Design Technology",
+            "Geometric Dimensioning and Tolerancing",
+            "General Dimensioning and Tolerancing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "GD&T stands for Geometric Dimensioning and Tolerancing, an international standard for defining and communicating tolerances."
         },
         {
           id: 3,
           question: "Which measurement system is the global standard?",
           options: [
-            "Imperial System",
             "International System of Units",
             "Customary System",
-            "Metric System"
+            "Metric System",
+            "Imperial System"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The International System of Units (SI) is the globally accepted standard for measurements."
         },
         {
           id: 4,
           question: "What does CMM stand for?",
           options: [
-            "Computerized Measurement Machine",
-            "Coordinate Measuring Machine",
+            "Contact Measurement Method",
             "Calibrated Measurement Module",
-            "Contact Measurement Method"
+            "Coordinate Measuring Machine",
+            "Computerized Measurement Machine"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "CMM stands for Coordinate Measuring Machine, used for precise dimensional measurements of complex parts."
         },
         {
           id: 5,
           question: "What measures fine irregularities on a surface?",
           options: [
+            "Surface Texture",
             "Surface Waviness",
             "Surface Roughness",
-            "Surface Finish",
-            "Surface Texture"
+            "Surface Finish"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Surface Roughness measures the fine, closely spaced irregularities on a manufactured surface."
         },
         {
           id: 6,
           question: "Which is the highest accuracy reference standard?",
           options: [
-            "Working Standard",
-            "Secondary Standard",
+            "Factory Standard",
             "Primary Standard",
-            "Factory Standard"
+            "Working Standard",
+            "Secondary Standard"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Primary Standards are the highest accuracy measurement references, maintained by national laboratories."
         },
         {
           id: 7,
           question: "What measures consistency of repeated measurements?",
           options: [
-            "Accuracy",
-            "Precision",
+            "Traceability",
             "Resolution",
-            "Traceability"
+            "Accuracy",
+            "Precision"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Precision refers to the consistency or repeatability of measurements under unchanged conditions."
         },
         {
@@ -497,20 +497,20 @@ Precision engineering focuses on designing and manufacturing components with ext
           question: "What type of CMM has a moving bridge structure?",
           options: [
             "Cantilever CMM",
+            "Gantry CMM",
             "Bridge CMM",
-            "Horizontal Arm CMM",
-            "Gantry CMM"
+            "Horizontal Arm CMM"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Bridge CMMs have a bridge-like structure that moves along guideways, offering good accuracy and stability."
         },
         {
           id: 9,
           question: "What does Ra measure in surface metrology?",
           options: [
-            "Maximum peak height",
-            "Average surface roughness",
             "Waviness height",
+            "Average surface roughness",
+            "Maximum peak height",
             "Total profile variation"
           ],
           correctAnswer: 1,
@@ -521,11 +521,11 @@ Precision engineering focuses on designing and manufacturing components with ext
           question: "Which measurement method uses light waves?",
           options: [
             "Stylus Profilometer",
-            "Interferometer",
             "Calipers",
+            "Interferometer",
             "Micrometer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Interferometers use the interference patterns of light waves to make extremely precise measurements."
         },
         {
@@ -544,22 +544,22 @@ Precision engineering focuses on designing and manufacturing components with ext
           id: 12,
           question: "What controls measurement errors from equipment vibration?",
           options: [
-            "Temperature Control",
-            "Vibration Isolation",
+            "Lighting Control",
             "Humidity Control",
-            "Lighting Control"
+            "Temperature Control",
+            "Vibration Isolation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Vibration Isolation systems prevent external vibrations from affecting precision measurements and manufacturing."
         },
         {
           id: 13,
           question: "Which technique provides nanoscale surface measurement?",
           options: [
-            "Coordinate Measuring Machine",
+            "Vision System",
             "Atomic Force Microscopy",
             "Laser Scanner",
-            "Vision System"
+            "Coordinate Measuring Machine"
           ],
           correctAnswer: 1,
           explanation: "Atomic Force Microscopy (AFM) can measure surface features at the nanometer scale using a physical probe."
@@ -569,11 +569,11 @@ Precision engineering focuses on designing and manufacturing components with ext
           question: "What is the theoretical exact dimension called?",
           options: [
             "Allowance",
-            "Tolerance",
             "Basic Size",
+            "Tolerance",
             "Limit Dimension"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Basic Size is the theoretical exact dimension from which limits are derived by applying tolerances."
         },
         {
@@ -581,19 +581,19 @@ Precision engineering focuses on designing and manufacturing components with ext
           question: "Which provides 3D internal structure measurement?",
           options: [
             "Optical Microscope",
-            "Computed Tomography",
             "Surface Profilometer",
+            "Computed Tomography",
             "Vision System"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Computed Tomography (CT) scanning creates 3D images of internal structures without destructive testing."
         },
         {
           id: 16,
           question: "What measures the smallest detectable change?",
           options: [
-            "Accuracy",
             "Precision",
+            "Accuracy",
             "Resolution",
             "Repeatability"
           ],
@@ -605,11 +605,11 @@ Precision engineering focuses on designing and manufacturing components with ext
           question: "What type of standard is used daily in manufacturing?",
           options: [
             "Primary Standard",
+            "Reference Standard",
             "Secondary Standard",
-            "Working Standard",
-            "Reference Standard"
+            "Working Standard"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Working Standards are used routinely in manufacturing for calibration and verification of measuring instruments."
         },
         {
@@ -617,35 +617,35 @@ Precision engineering focuses on designing and manufacturing components with ext
           question: "Which measurement is non-contact?",
           options: [
             "Micrometer",
+            "Dial Indicator",
             "Vernier Caliper",
-            "Laser Scanner",
-            "Dial Indicator"
+            "Laser Scanner"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Laser Scanners use laser beams to measure surfaces without physical contact, preventing part damage."
         },
         {
           id: 19,
           question: "What quantifies measurement reliability?",
           options: [
-            "Calibration",
+            "Documentation",
             "Verification",
-            "Uncertainty Analysis",
-            "Documentation"
+            "Calibration",
+            "Uncertainty Analysis"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Uncertainty Analysis quantifies the doubt or reliability associated with a measurement result."
         },
         {
           id: 20,
           question: "Which industry heavily uses precision engineering for implants?",
           options: [
-            "Automotive",
+            "Electronics",
             "Aerospace",
-            "Medical Devices",
-            "Electronics"
+            "Automotive",
+            "Medical Devices"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The medical device industry requires extremely precise manufacturing for implants and surgical instruments where small variations can affect patient safety."
         }
       ]
@@ -747,72 +747,72 @@ Advanced materials processing involves innovative methods to transform materials
           id: 1,
           question: "What is the heating process that bonds powder particles without melting?",
           options: [
-            "Compaction",
             "Sintering",
-            "Melting",
-            "Casting"
+            "Compaction",
+            "Casting",
+            "Melting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Sintering heats powdered materials below their melting point to bond particles through atomic diffusion."
         },
         {
           id: 2,
           question: "What does MIM stand for in materials processing?",
           options: [
-            "Metal Injection Molding",
             "Material Integration Method",
+            "Metal Injection Molding",
             "Micro Injection Manufacturing",
             "Multiple Injection Molding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MIM stands for Metal Injection Molding, combining plastic injection molding with powder metallurgy."
         },
         {
           id: 3,
           question: "Which additive manufacturing process uses electron beams for metals?",
           options: [
+            "Electron Beam Melting",
             "Selective Laser Melting",
             "Fused Deposition Modeling",
-            "Electron Beam Melting",
             "Binder Jetting"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Electron Beam Melting (EBM) uses electron beams in a vacuum to melt and fuse metal powder layers."
         },
         {
           id: 4,
           question: "What does RTM stand for in composite manufacturing?",
           options: [
-            "Resin Transfer Molding",
-            "Rapid Tooling Method",
+            "Rotational Transfer Molding",
             "Reinforced Thermal Molding",
-            "Rotational Transfer Molding"
+            "Rapid Tooling Method",
+            "Resin Transfer Molding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RTM stands for Resin Transfer Molding, where resin is injected into a closed mold containing fiber reinforcement."
         },
         {
           id: 5,
           question: "Which surface coating uses vacuum processes?",
           options: [
-            "Electroplating",
-            "Anodizing",
+            "Thermal Spraying",
             "Physical Vapor Deposition",
-            "Thermal Spraying"
+            "Electroplating",
+            "Anodizing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Physical Vapor Deposition (PVD) coats surfaces in vacuum chambers using vaporized material."
         },
         {
           id: 6,
           question: "What is diffusion bonding?",
           options: [
-            "Joining with adhesive",
-            "Joining through atomic diffusion",
             "Melting and joining",
-            "Mechanical fastening"
+            "Mechanical fastening",
+            "Joining with adhesive",
+            "Joining through atomic diffusion"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Diffusion bonding joins materials through atomic diffusion at high temperature and pressure without melting."
         },
         {
@@ -820,43 +820,43 @@ Advanced materials processing involves innovative methods to transform materials
           question: "Which heat treatment strengthens through phase transformations?",
           options: [
             "Annealing",
-            "Tempering",
             "Precipitation Hardening",
-            "Case Hardening"
+            "Case Hardening",
+            "Tempering"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Precipitation Hardening strengthens materials by forming fine particles that impede dislocation movement."
         },
         {
           id: 8,
           question: "What manufacturing works at microscopic scales?",
           options: [
-            "Macro Manufacturing",
             "Micro Manufacturing",
+            "Macro Manufacturing",
             "Standard Manufacturing",
             "Bulk Manufacturing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Micro Manufacturing creates products and features at microscopic scales, often for electronics and medical devices."
         },
         {
           id: 9,
           question: "What materials remember their original shape?",
           options: [
-            "Piezoelectric Materials",
             "Shape Memory Alloys",
+            "Piezoelectric Materials",
             "Magnetostrictive Materials",
             "Composite Materials"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Shape Memory Alloys can return to a predetermined shape when heated after being deformed."
         },
         {
           id: 10,
           question: "What is green manufacturing concerned with?",
           options: [
-            "Only production speed",
             "Only product quality",
+            "Only production speed",
             "Environmental impact",
             "Only cost reduction"
           ],
@@ -867,24 +867,24 @@ Advanced materials processing involves innovative methods to transform materials
           id: 11,
           question: "Which composite process uses continuous production?",
           options: [
-            "Hand Layup",
             "Resin Transfer Molding",
-            "Pultrusion",
-            "Autoclave Processing"
+            "Autoclave Processing",
+            "Hand Layup",
+            "Pultrusion"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Pultrusion continuously pulls fibers through resin and heated dies to create constant cross-section profiles."
         },
         {
           id: 12,
           question: "What does SLM stand for in metal additive manufacturing?",
           options: [
+            "Sequential Layer Melting",
             "Selective Laser Melting",
-            "Standard Layer Manufacturing",
             "Systematic Laser Molding",
-            "Sequential Layer Melting"
+            "Standard Layer Manufacturing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SLM stands for Selective Laser Melting, using lasers to fully melt and fuse metal powder layers."
         },
         {
@@ -892,23 +892,23 @@ Advanced materials processing involves innovative methods to transform materials
           question: "Which process uses binder to join metal powder?",
           options: [
             "Selective Laser Melting",
+            "Direct Energy Deposition",
             "Binder Jetting",
-            "Electron Beam Melting",
-            "Direct Energy Deposition"
+            "Electron Beam Melting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Binder Jetting uses liquid binder to join powder particles, followed by sintering or infiltration."
         },
         {
           id: 14,
           question: "What is autoclave processing used for?",
           options: [
-            "Metal casting",
-            "Composite curing",
+            "Surface coating",
             "Powder compaction",
-            "Surface coating"
+            "Metal casting",
+            "Composite curing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Autoclaves use heat and pressure to cure composite materials, ensuring proper consolidation and properties."
         },
         {
@@ -916,45 +916,45 @@ Advanced materials processing involves innovative methods to transform materials
           question: "Which joining method is solid-state?",
           options: [
             "Laser Welding",
-            "Friction Stir Welding",
             "Electron Beam Welding",
+            "Friction Stir Welding",
             "Arc Welding"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Friction Stir Welding joins materials in solid state using frictional heat without melting."
         },
         {
           id: 16,
           question: "What characterizes materials that generate electricity from pressure?",
           options: [
-            "Shape Memory Effect",
             "Piezoelectric Effect",
-            "Magnetostriction",
-            "Superelasticity"
+            "Shape Memory Effect",
+            "Superelasticity",
+            "Magnetostriction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Piezoelectric materials generate electrical charge when mechanically stressed."
         },
         {
           id: 17,
           question: "What does CVD stand for in surface engineering?",
           options: [
-            "Chemical Vapor Deposition",
             "Continuous Vapor Distribution",
+            "Chemical Vapor Decomposition",
             "Controlled Vapor Deposition",
-            "Chemical Vapor Decomposition"
+            "Chemical Vapor Deposition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CVD stands for Chemical Vapor Deposition, where coatings form through chemical reactions of vapor precursors."
         },
         {
           id: 18,
           question: "Which process continuously produces composite profiles?",
           options: [
-            "Filament Winding",
-            "Pultrusion",
             "Resin Transfer Molding",
-            "Hand Layup"
+            "Pultrusion",
+            "Hand Layup",
+            "Filament Winding"
           ],
           correctAnswer: 1,
           explanation: "Pultrusion continuously produces composite profiles with constant cross-sections."
@@ -963,22 +963,22 @@ Advanced materials processing involves innovative methods to transform materials
           id: 19,
           question: "What evaluates environmental impact of processes?",
           options: [
-            "Cost Analysis",
-            "Quality Control",
+            "Production Planning",
             "Life Cycle Assessment",
-            "Production Planning"
+            "Cost Analysis",
+            "Quality Control"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Life Cycle Assessment evaluates environmental impacts of products or processes throughout their entire life cycle."
         },
         {
           id: 20,
           question: "Which inspection method doesn't damage parts?",
           options: [
-            "Destructive Testing",
+            "Partial Testing",
             "Non-Destructive Testing",
-            "Complete Testing",
-            "Partial Testing"
+            "Destructive Testing",
+            "Complete Testing"
           ],
           correctAnswer: 1,
           explanation: "Non-Destructive Testing inspects materials and components without damaging or altering them."
@@ -1097,36 +1097,36 @@ Automation in manufacturing involves using control systems and information techn
           id: 1,
           question: "What is the most common type of industrial robot?",
           options: [
-            "Cartesian Robot",
+            "Delta Robot",
             "SCARA Robot",
-            "Articulated Robot",
-            "Delta Robot"
+            "Cartesian Robot",
+            "Articulated Robot"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Articulated robots with jointed arms are the most common type used in industrial applications."
         },
         {
           id: 2,
           question: "What does SCARA stand for in robotics?",
           options: [
-            "Selective Compliance Assembly Robot Arm",
-            "Systematic Compliance Articulated Robot Assembly",
             "Standard Compliance Automated Robotic Arm",
-            "Selective Control Automated Robotic Assembly"
+            "Selective Compliance Assembly Robot Arm",
+            "Selective Control Automated Robotic Assembly",
+            "Systematic Compliance Articulated Robot Assembly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SCARA stands for Selective Compliance Assembly Robot Arm, designed for fast, precise assembly tasks."
         },
         {
           id: 3,
           question: "What programming method uses a handheld device to teach positions?",
           options: [
-            "Offline Programming",
             "Teach Pendant Programming",
-            "Lead-Through Programming",
-            "Sensor-Based Programming"
+            "Offline Programming",
+            "Sensor-Based Programming",
+            "Lead-Through Programming"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Teach pendant programming uses a handheld device to manually move the robot and record positions."
         },
         {
@@ -1134,9 +1134,9 @@ Automation in manufacturing involves using control systems and information techn
           question: "What does AGV stand for?",
           options: [
             "Automated Guided Vehicle",
+            "Autonomous Guided Vehicle",
             "Advanced Guided Vehicle",
-            "Automated General Vehicle",
-            "Autonomous Guided Vehicle"
+            "Automated General Vehicle"
           ],
           correctAnswer: 0,
           explanation: "AGV stands for Automated Guided Vehicle, used for material transport in manufacturing facilities."
@@ -1146,9 +1146,9 @@ Automation in manufacturing involves using control systems and information techn
           question: "What is the graphical programming language for PLCs?",
           options: [
             "C++",
-            "Python",
+            "Java",
             "Ladder Logic",
-            "Java"
+            "Python"
           ],
           correctAnswer: 2,
           explanation: "Ladder Logic is the traditional graphical programming language used for Programmable Logic Controllers."
@@ -1158,9 +1158,9 @@ Automation in manufacturing involves using control systems and information techn
           question: "What does CNC stand for?",
           options: [
             "Computer Numerical Control",
-            "Computer Network Control",
             "Central Numerical Command",
-            "Computerized Network Command"
+            "Computerized Network Command",
+            "Computer Network Control"
           ],
           correctAnswer: 0,
           explanation: "CNC stands for Computer Numerical Control, used for automated control of machine tools."
@@ -1169,22 +1169,22 @@ Automation in manufacturing involves using control systems and information techn
           id: 7,
           question: "Which robot type uses parallel arms for high speed?",
           options: [
-            "Articulated Robot",
-            "SCARA Robot",
+            "Cartesian Robot",
             "Delta Robot",
-            "Cartesian Robot"
+            "SCARA Robot",
+            "Articulated Robot"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Delta robots use parallel arms for extremely fast and precise pick-and-place operations."
         },
         {
           id: 8,
           question: "What is the space a robot can reach called?",
           options: [
-            "Payload Area",
-            "Work Envelope",
             "Operating Zone",
-            "Movement Field"
+            "Work Envelope",
+            "Movement Field",
+            "Payload Area"
           ],
           correctAnswer: 1,
           explanation: "Work envelope describes the three-dimensional space within which a robot can manipulate its end-effector."
@@ -1193,94 +1193,94 @@ Automation in manufacturing involves using control systems and information techn
           id: 9,
           question: "Which programming is done without interrupting production?",
           options: [
-            "Teach Pendant Programming",
-            "Offline Programming",
             "Lead-Through Programming",
-            "On-the-fly Programming"
+            "On-the-fly Programming",
+            "Teach Pendant Programming",
+            "Offline Programming"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Offline programming creates robot programs on computers without stopping production."
         },
         {
           id: 10,
           question: "What uses cameras for inspection and guidance?",
           options: [
-            "PLC Systems",
             "Machine Vision Systems",
             "CNC Systems",
+            "PLC Systems",
             "HMI Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Machine vision systems use cameras and image processing for inspection, measurement, and guidance."
         },
         {
           id: 11,
           question: "What does HMI stand for?",
           options: [
-            "Human-Machine Interface",
+            "Human-Mechatronic Interaction",
             "Human-Manufacturing Integration",
-            "Hardware-Machine Interface",
-            "Human-Mechatronic Interaction"
+            "Human-Machine Interface",
+            "Hardware-Machine Interface"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "HMI stands for Human-Machine Interface, the means by which humans interact with automated systems."
         },
         {
           id: 12,
           question: "Which robots are designed to work safely with humans?",
           options: [
+            "High-Speed Robots",
             "Traditional Industrial Robots",
             "Collaborative Robots",
-            "Fixed Automation Robots",
-            "High-Speed Robots"
+            "Fixed Automation Robots"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collaborative robots (cobots) have safety features allowing them to work alongside humans without safety cages."
         },
         {
           id: 13,
           question: "What is G-code used for?",
           options: [
-            "PLC Programming",
             "Robot Programming",
             "CNC Machine Programming",
-            "Vision System Programming"
+            "Vision System Programming",
+            "PLC Programming"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "G-code is the standard programming language for CNC machine tools."
         },
         {
           id: 14,
           question: "What provides depth perception for complex tasks?",
           options: [
-            "2D Vision Systems",
-            "3D Vision Systems",
+            "Proximity Sensors",
             "Barcode Readers",
-            "Proximity Sensors"
+            "2D Vision Systems",
+            "3D Vision Systems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "3D vision systems provide depth information for complex inspection and guidance tasks."
         },
         {
           id: 15,
           question: "What uses sensor data for maintenance planning?",
           options: [
-            "Preventive Maintenance",
             "Predictive Maintenance",
-            "Corrective Maintenance",
-            "Reactive Maintenance"
+            "Reactive Maintenance",
+            "Preventive Maintenance",
+            "Corrective Maintenance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Predictive maintenance uses sensor data to predict when maintenance should be performed."
         },
         {
           id: 16,
           question: "What are virtual replicas of physical systems called?",
           options: [
-            "Virtual Reality",
             "Augmented Reality",
+            "Simulation Models",
             "Digital Twins",
-            "Simulation Models"
+            "Virtual Reality"
           ],
           correctAnswer: 2,
           explanation: "Digital twins are virtual models that mirror physical systems for simulation and analysis."
@@ -1289,34 +1289,34 @@ Automation in manufacturing involves using control systems and information techn
           id: 17,
           question: "What does IIoT stand for?",
           options: [
+            "Intelligent Internet Operations",
             "Industrial Internet of Things",
-            "Integrated Internet of Technology",
             "International Internet of Things",
-            "Intelligent Internet Operations"
+            "Integrated Internet of Technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IIoT stands for Industrial Internet of Things, connecting industrial equipment and systems."
         },
         {
           id: 18,
           question: "Which safety device uses light beams for protection?",
           options: [
-            "Safety Mats",
-            "Light Curtains",
             "Emergency Stops",
-            "Safety Relays"
+            "Safety Relays",
+            "Safety Mats",
+            "Light Curtains"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Light curtains use arrays of light beams to detect when someone enters a hazardous area."
         },
         {
           id: 19,
           question: "What is the scan cycle in PLCs?",
           options: [
-            "How fast PLCs communicate",
+            "PLC startup sequence",
             "How PLCs execute programs",
             "PLC memory cleaning process",
-            "PLC startup sequence"
+            "How fast PLCs communicate"
           ],
           correctAnswer: 1,
           explanation: "The scan cycle is how PLCs repeatedly read inputs, execute program, and update outputs."
@@ -1325,10 +1325,10 @@ Automation in manufacturing involves using control systems and information techn
           id: 20,
           question: "Which robot has linear motion in X, Y, Z axes?",
           options: [
-            "Articulated Robot",
             "SCARA Robot",
+            "Delta Robot",
             "Cartesian Robot",
-            "Delta Robot"
+            "Articulated Robot"
           ],
           correctAnswer: 2,
           explanation: "Cartesian robots move in straight lines along three perpendicular axes (X, Y, Z)."
@@ -1455,8 +1455,8 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           options: [
             "ISO 14001",
             "ISO 9001",
-            "ISO 45001",
-            "ISO 27001"
+            "ISO 27001",
+            "ISO 45001"
           ],
           correctAnswer: 1,
           explanation: "ISO 9001 is the international standard for quality management systems."
@@ -1466,9 +1466,9 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           question: "What does SPC stand for?",
           options: [
             "Statistical Process Control",
+            "Statistical Product Control",
             "Systematic Process Checking",
-            "Standard Production Control",
-            "Statistical Product Control"
+            "Standard Production Control"
           ],
           correctAnswer: 0,
           explanation: "SPC stands for Statistical Process Control, using statistical methods to monitor and control processes."
@@ -1477,12 +1477,12 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           id: 3,
           question: "What does DMAIC stand for in Six Sigma?",
           options: [
-            "Design, Measure, Analyze, Improve, Control",
             "Define, Measure, Analyze, Improve, Control",
+            "Design, Measure, Analyze, Improve, Control",
             "Define, Monitor, Analyze, Implement, Control",
             "Design, Monitor, Assess, Improve, Check"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "DMAIC stands for Define, Measure, Analyze, Improve, Control - the core Six Sigma improvement methodology."
         },
         {
@@ -1490,33 +1490,33 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           question: "What is a visual tool for cause-and-effect analysis?",
           options: [
             "Control Chart",
-            "Fishbone Diagram",
+            "Histogram",
             "Pareto Chart",
-            "Histogram"
+            "Fishbone Diagram"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Fishbone diagrams (Ishikawa diagrams) visually organize potential causes of problems."
         },
         {
           id: 5,
           question: "What does FMEA stand for?",
           options: [
-            "Failure Mode and Effects Analysis",
             "Fault Management and Error Assessment",
-            "Functional Monitoring and Efficiency Analysis",
-            "Failure Management and Error Avoidance"
+            "Failure Management and Error Avoidance",
+            "Failure Mode and Effects Analysis",
+            "Functional Monitoring and Efficiency Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FMEA stands for Failure Mode and Effects Analysis, a systematic method for identifying potential failures."
         },
         {
           id: 6,
           question: "What does Gage R&R measure?",
           options: [
-            "Machine speed",
+            "Material strength",
             "Measurement system variation",
-            "Production rate",
-            "Material strength"
+            "Machine speed",
+            "Production rate"
           ],
           correctAnswer: 1,
           explanation: "Gage Repeatability and Reproducibility studies measure variation in measurement systems."
@@ -1526,23 +1526,23 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           question: "Which tool prioritizes problems by frequency?",
           options: [
             "Check Sheet",
-            "Pareto Chart",
+            "Flow Chart",
             "Scatter Diagram",
-            "Flow Chart"
+            "Pareto Chart"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Pareto charts prioritize issues by frequency or impact, following the 80/20 principle."
         },
         {
           id: 8,
           question: "What does AQL stand for?",
           options: [
-            "Acceptable Quality Level",
             "Average Quality Limit",
-            "Approved Quality Limit",
-            "Acceptance Quality Limit"
+            "Acceptance Quality Limit",
+            "Acceptable Quality Level",
+            "Approved Quality Limit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "AQL stands for Acceptable Quality Level, the maximum defect percentage considered acceptable."
         },
         {
@@ -1551,8 +1551,8 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           options: [
             "Measuring process speed",
             "Finding root causes of problems",
-            "Counting defects",
-            "Setting quality goals"
+            "Setting quality goals",
+            "Counting defects"
           ],
           correctAnswer: 1,
           explanation: "The 5 Whys technique repeatedly asks 'why' to drill down to the root cause of a problem."
@@ -1561,24 +1561,24 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           id: 10,
           question: "What does MTBF stand for?",
           options: [
-            "Mean Time Between Failures",
             "Maximum Time Before Failure",
-            "Minimum Time Between Functions",
-            "Mean Time Before Fault"
+            "Mean Time Between Failures",
+            "Mean Time Before Fault",
+            "Minimum Time Between Functions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MTBF stands for Mean Time Between Failures, a reliability metric."
         },
         {
           id: 11,
           question: "Which methodology combines waste elimination and variation reduction?",
           options: [
+            "Statistical Process Control",
             "Traditional Quality Control",
-            "Lean Six Sigma",
             "Total Quality Management",
-            "Statistical Process Control"
+            "Lean Six Sigma"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Lean Six Sigma combines Lean's waste elimination with Six Sigma's variation reduction."
         },
         {
@@ -1597,22 +1597,22 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           id: 13,
           question: "What does DOE stand for?",
           options: [
+            "Design of Equipment",
             "Design of Experiments",
-            "Department of Engineering",
             "Documentation of Errors",
-            "Design of Equipment"
+            "Department of Engineering"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "DOE stands for Design of Experiments, statistical planning of tests to understand process behavior."
         },
         {
           id: 14,
           question: "What is process capability?",
           options: [
-            "How fast a process runs",
+            "Number of operators needed",
             "Ability to meet specifications",
-            "How much a process costs",
-            "Number of operators needed"
+            "How fast a process runs",
+            "How much a process costs"
           ],
           correctAnswer: 1,
           explanation: "Process capability measures how well a process can meet design specifications."
@@ -1621,24 +1621,24 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           id: 15,
           question: "What does RPN stand for in FMEA?",
           options: [
-            "Risk Priority Number",
-            "Reliability Performance Number",
             "Required Process Number",
-            "Random Probability Number"
+            "Risk Priority Number",
+            "Random Probability Number",
+            "Reliability Performance Number"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RPN stands for Risk Priority Number, calculated as Severity × Occurrence × Detection in FMEA."
         },
         {
           id: 16,
           question: "What is value stream mapping?",
           options: [
-            "Mapping equipment locations",
             "Visualizing material and information flow",
+            "Mapping equipment locations",
             "Charting employee movements",
             "Drawing factory layouts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Value stream mapping visualizes the flow of materials and information through processes."
         },
         {
@@ -1647,8 +1647,8 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           options: [
             "Appraisal Costs",
             "Prevention Costs",
-            "Internal Failure Costs",
-            "External Failure Costs"
+            "External Failure Costs",
+            "Internal Failure Costs"
           ],
           correctAnswer: 1,
           explanation: "Prevention costs are incurred to prevent quality problems from occurring."
@@ -1657,22 +1657,22 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           id: 18,
           question: "What does DPMO stand for?",
           options: [
-            "Defects Per Million Opportunities",
-            "Defective Parts Monthly Output",
+            "Defect Prevention Management Objective",
             "Daily Production Maximum Output",
-            "Defect Prevention Management Objective"
+            "Defective Parts Monthly Output",
+            "Defects Per Million Opportunities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "DPMO stands for Defects Per Million Opportunities, a Six Sigma performance metric."
         },
         {
           id: 19,
           question: "What is Kaizen?",
           options: [
-            "A Japanese quality award",
-            "Continuous improvement philosophy",
             "A type of control chart",
-            "A sampling method"
+            "Continuous improvement philosophy",
+            "A sampling method",
+            "A Japanese quality award"
           ],
           correctAnswer: 1,
           explanation: "Kaizen is the Japanese philosophy of continuous, incremental improvement involving everyone."
@@ -1682,9 +1682,9 @@ Quality engineering focuses on designing and implementing systems to ensure prod
           question: "What does OC curve stand for?",
           options: [
             "Operating Characteristic curve",
+            "Operation Cost curve",
             "Optimal Control curve",
-            "Output Comparison curve",
-            "Operation Cost curve"
+            "Output Comparison curve"
           ],
           correctAnswer: 0,
           explanation: "OC stands for Operating Characteristic curve, showing probability of acceptance for given quality levels."
@@ -1809,70 +1809,70 @@ Sustainable manufacturing involves creating products through economically-sound 
           id: 1,
           question: "What are the three pillars of sustainable manufacturing?",
           options: [
+            "Design, Manufacturing, Service",
             "Speed, Quality, Cost",
-            "Environmental, Economic, Social",
             "Production, Distribution, Sales",
-            "Design, Manufacturing, Service"
+            "Environmental, Economic, Social"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The three pillars are Environmental (planet), Economic (profit), and Social (people) sustainability."
         },
         {
           id: 2,
           question: "What is the international environmental management standard?",
           options: [
-            "ISO 9001",
             "ISO 14001",
-            "ISO 45001",
-            "ISO 50001"
+            "ISO 50001",
+            "ISO 9001",
+            "ISO 45001"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ISO 14001 is the international standard for environmental management systems."
         },
         {
           id: 3,
           question: "What does IoT stand for in Industry 4.0?",
           options: [
-            "Internet of Technology",
             "Internet of Things",
+            "Industrial Operating Technology",
             "Integrated Operations Technology",
-            "Industrial Operating Technology"
+            "Internet of Technology"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "IoT stands for Internet of Things - networked physical devices with sensors and connectivity."
         },
         {
           id: 4,
           question: "What are virtual models of physical systems called?",
           options: [
-            "Virtual Reality",
             "Augmented Reality",
             "Digital Twins",
+            "Virtual Reality",
             "Simulation Software"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Digital twins are virtual replicas of physical systems used for simulation and analysis."
         },
         {
           id: 5,
           question: "What is the waste hierarchy order?",
           options: [
-            "Recycle, Reuse, Reduce, Prevent",
             "Prevent, Reduce, Reuse, Recycle",
+            "Recycle, Reuse, Reduce, Prevent",
             "Dispose, Recover, Recycle, Reuse",
             "Reduce, Recycle, Reuse, Prevent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The waste hierarchy prioritizes prevention first, then reduction, reuse, and finally recycling."
         },
         {
           id: 6,
           question: "What does EPR stand for?",
           options: [
-            "Environmental Protection Regulation",
+            "Efficient Production Requirements",
             "Extended Producer Responsibility",
             "Energy Performance Rating",
-            "Efficient Production Requirements"
+            "Environmental Protection Regulation"
           ],
           correctAnswer: 1,
           explanation: "EPR stands for Extended Producer Responsibility - manufacturers responsible for product end-of-life."
@@ -1881,12 +1881,12 @@ Sustainable manufacturing involves creating products through economically-sound 
           id: 7,
           question: "What is the circular economy concept?",
           options: [
+            "Waste-to-energy conversion",
             "Linear production model",
-            "Closing material loops through recycling",
             "Single-use product design",
-            "Waste-to-energy conversion"
+            "Closing material loops through recycling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Circular economy aims to keep materials in use through recycling and reuse, eliminating waste."
         },
         {
@@ -1905,21 +1905,21 @@ Sustainable manufacturing involves creating products through economically-sound 
           id: 9,
           question: "What is predictive maintenance?",
           options: [
-            "Scheduled maintenance at fixed intervals",
-            "Maintenance after equipment fails",
+            "Preventive maintenance based on time",
             "Using data to predict when maintenance is needed",
-            "Preventive maintenance based on time"
+            "Scheduled maintenance at fixed intervals",
+            "Maintenance after equipment fails"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Predictive maintenance uses sensor data and analytics to predict equipment failures before they occur."
         },
         {
           id: 10,
           question: "What is cradle-to-cradle design?",
           options: [
-            "Design for single use and disposal",
-            "Design for continuous reuse and recycling",
             "Design for lowest initial cost",
+            "Design for continuous reuse and recycling",
+            "Design for single use and disposal",
             "Design for maximum production speed"
           ],
           correctAnswer: 1,
@@ -1929,60 +1929,60 @@ Sustainable manufacturing involves creating products through economically-sound 
           id: 11,
           question: "What are cyber-physical systems?",
           options: [
-            "Only physical machines",
             "Only computer systems",
-            "Integration of physical and digital systems",
-            "Manual control systems"
+            "Manual control systems",
+            "Only physical machines",
+            "Integration of physical and digital systems"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Cyber-physical systems integrate computational algorithms with physical processes."
         },
         {
           id: 12,
           question: "What is zero waste manufacturing?",
           options: [
+            "Only recycling some materials",
             "No waste generation at all",
             "Aiming to eliminate waste completely",
-            "Ignoring waste production",
-            "Only recycling some materials"
+            "Ignoring waste production"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Zero waste aims to eliminate all waste through prevention, reuse, and recycling."
         },
         {
           id: 13,
           question: "What does AI stand for in manufacturing?",
           options: [
-            "Automated Inspection",
             "Artificial Intelligence",
-            "Advanced Integration",
-            "Automated Intelligence"
+            "Automated Inspection",
+            "Automated Intelligence",
+            "Advanced Integration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "AI stands for Artificial Intelligence - using machine learning and algorithms for optimization."
         },
         {
           id: 14,
           question: "What is green procurement?",
           options: [
-            "Buying the cheapest materials",
-            "Environmentally responsible purchasing",
+            "Avoiding all purchasing",
             "Only buying local materials",
-            "Avoiding all purchasing"
+            "Environmentally responsible purchasing",
+            "Buying the cheapest materials"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Green procurement considers environmental factors when purchasing materials and services."
         },
         {
           id: 15,
           question: "What is remanufacturing?",
           options: [
-            "Throwing away old products",
             "Restoring used products to like-new condition",
-            "Simple cleaning of used products",
-            "Only repairing broken parts"
+            "Throwing away old products",
+            "Only repairing broken parts",
+            "Simple cleaning of used products"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Remanufacturing completely disassembles, cleans, repairs, and reassembles products to original specifications."
         },
         {
@@ -1991,32 +1991,32 @@ Sustainable manufacturing involves creating products through economically-sound 
           options: [
             "Selling only products",
             "Selling only services",
-            "Combining products and services",
-            "Free product giveaways"
+            "Free product giveaways",
+            "Combining products and services"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Product service systems combine tangible products with intangible services to meet customer needs."
         },
         {
           id: 17,
           question: "What does water footprint measure?",
           options: [
-            "Only direct water use",
             "Total water use and impact",
-            "Only wastewater produced",
-            "Only water recycling rate"
+            "Only direct water use",
+            "Only water recycling rate",
+            "Only wastewater produced"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Water footprint measures total freshwater used directly and indirectly throughout product lifecycle."
         },
         {
           id: 18,
           question: "What is smart factory interoperability?",
           options: [
-            "Isolated systems working independently",
+            "Separate databases for each department",
             "Different systems working together seamlessly",
             "Manual data transfer between systems",
-            "Separate databases for each department"
+            "Isolated systems working independently"
           ],
           correctAnswer: 1,
           explanation: "Interoperability allows different systems and devices to communicate and work together effectively."
@@ -2037,12 +2037,12 @@ Sustainable manufacturing involves creating products through economically-sound 
           id: 20,
           question: "What is design for disassembly?",
           options: [
-            "Making products impossible to take apart",
-            "Designing products to be easily taken apart",
+            "Ignoring end-of-life considerations",
             "Only designing for assembly",
-            "Ignoring end-of-life considerations"
+            "Making products impossible to take apart",
+            "Designing products to be easily taken apart"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Design for disassembly creates products that can be easily taken apart for repair, upgrade, or recycling."
         }
       ]
@@ -2062,12 +2062,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 1,
         question: "What does FMS stand for in manufacturing systems?",
         options: [
-          "Fast Manufacturing System",
-          "Flexible Manufacturing System",
           "Fixed Manufacturing System",
-          "Fundamental Manufacturing System"
+          "Fundamental Manufacturing System",
+          "Flexible Manufacturing System",
+          "Fast Manufacturing System"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "FMS stands for Flexible Manufacturing System - automated systems that can handle product variety."
       },
       {
@@ -2075,12 +2075,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 1,
         question: "What is the complete integration of manufacturing processes through computers?",
         options: [
-          "Lean Manufacturing",
-          "Computer Integrated Manufacturing",
           "Just-In-Time Manufacturing",
-          "Cellular Manufacturing"
+          "Cellular Manufacturing",
+          "Lean Manufacturing",
+          "Computer Integrated Manufacturing"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "CIM connects all manufacturing processes through computer systems."
       },
       // Module 2 Questions
@@ -2091,8 +2091,8 @@ Sustainable manufacturing involves creating products through economically-sound 
         options: [
           "Precision",
           "Accuracy",
-          "Repeatability",
-          "Resolution"
+          "Resolution",
+          "Repeatability"
         ],
         correctAnswer: 1,
         explanation: "Accuracy measures how close measurements are to the true value."
@@ -2102,12 +2102,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 2,
         question: "What does GD&T stand for?",
         options: [
-          "General Dimensioning and Tolerancing",
           "Geometric Dimensioning and Tolerancing",
-          "Global Dimension Tracking",
-          "Geometric Design Technology"
+          "Geometric Design Technology",
+          "General Dimensioning and Tolerancing",
+          "Global Dimension Tracking"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "GD&T is the international standard for defining tolerances."
       },
       // Module 3 Questions
@@ -2116,12 +2116,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 3,
         question: "What bonds powder particles without melting?",
         options: [
-          "Compaction",
           "Sintering",
+          "Compaction",
           "Melting",
           "Casting"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Sintering heats powders below melting point to bond particles."
       },
       {
@@ -2130,8 +2130,8 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What does MIM stand for?",
         options: [
           "Metal Injection Molding",
-          "Material Integration Method",
           "Micro Injection Manufacturing",
+          "Material Integration Method",
           "Multiple Injection Molding"
         ],
         correctAnswer: 0,
@@ -2144,11 +2144,11 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What is the most common industrial robot type?",
         options: [
           "Cartesian Robot",
+          "Delta Robot",
           "SCARA Robot",
-          "Articulated Robot",
-          "Delta Robot"
+          "Articulated Robot"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "Articulated robots with jointed arms are most common."
       },
       {
@@ -2156,12 +2156,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 4,
         question: "What does AGV stand for?",
         options: [
-          "Automated Guided Vehicle",
-          "Advanced Guided Vehicle",
           "Automated General Vehicle",
-          "Autonomous Guided Vehicle"
+          "Autonomous Guided Vehicle",
+          "Automated Guided Vehicle",
+          "Advanced Guided Vehicle"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "AGVs transport materials in manufacturing facilities."
       },
       // Module 5 Questions
@@ -2170,10 +2170,10 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 5,
         question: "What is the international quality management standard?",
         options: [
-          "ISO 14001",
+          "ISO 27001",
           "ISO 9001",
-          "ISO 45001",
-          "ISO 27001"
+          "ISO 14001",
+          "ISO 45001"
         ],
         correctAnswer: 1,
         explanation: "ISO 9001 is the quality management system standard."
@@ -2183,12 +2183,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 5,
         question: "What does DMAIC stand for?",
         options: [
-          "Design, Measure, Analyze, Improve, Control",
-          "Define, Measure, Analyze, Improve, Control",
+          "Design, Monitor, Assess, Improve, Check",
           "Define, Monitor, Analyze, Implement, Control",
-          "Design, Monitor, Assess, Improve, Check"
+          "Define, Measure, Analyze, Improve, Control",
+          "Design, Measure, Analyze, Improve, Control"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "DMAIC is the Six Sigma improvement methodology."
       },
       // Module 6 Questions
@@ -2197,12 +2197,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 6,
         question: "What are the three sustainability pillars?",
         options: [
-          "Speed, Quality, Cost",
-          "Environmental, Economic, Social",
+          "Design, Manufacturing, Service",
           "Production, Distribution, Sales",
-          "Design, Manufacturing, Service"
+          "Environmental, Economic, Social",
+          "Speed, Quality, Cost"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Environmental, Economic, and Social sustainability."
       },
       {
@@ -2210,12 +2210,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 6,
         question: "What does IoT stand for?",
         options: [
-          "Internet of Technology",
           "Internet of Things",
-          "Integrated Operations Technology",
-          "Industrial Operating Technology"
+          "Industrial Operating Technology",
+          "Internet of Technology",
+          "Integrated Operations Technology"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "IoT connects physical devices with sensors and networks."
       },
       // Additional mixed questions from all modules
@@ -2237,12 +2237,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 3,
         question: "Which additive manufacturing uses electron beams?",
         options: [
-          "Selective Laser Melting",
           "Electron Beam Melting",
+          "Fused Deposition Modeling",
           "Binder Jetting",
-          "Fused Deposition Modeling"
+          "Selective Laser Melting"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "EBM uses electron beams in vacuum to melt metal powder."
       },
       {
@@ -2251,9 +2251,9 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What does SCARA stand for?",
         options: [
           "Selective Compliance Assembly Robot Arm",
+          "Selective Control Automated Robotic Assembly",
           "Systematic Compliance Articulated Robot Assembly",
-          "Standard Compliance Automated Robotic Arm",
-          "Selective Control Automated Robotic Assembly"
+          "Standard Compliance Automated Robotic Arm"
         ],
         correctAnswer: 0,
         explanation: "SCARA robots are designed for fast, precise assembly."
@@ -2264,11 +2264,11 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What is a fishbone diagram used for?",
         options: [
           "Process mapping",
+          "Quality measurement",
           "Cause-and-effect analysis",
-          "Statistical control",
-          "Quality measurement"
+          "Statistical control"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Fishbone diagrams organize potential causes of problems."
       },
       {
@@ -2277,11 +2277,11 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What are virtual system replicas called?",
         options: [
           "Virtual Reality",
-          "Augmented Reality",
           "Digital Twins",
+          "Augmented Reality",
           "Simulation Models"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Digital twins are virtual models of physical systems."
       },
       {
@@ -2289,12 +2289,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 1,
         question: "What manufacturing focuses on waste elimination?",
         options: [
-          "Mass Production",
           "Lean Manufacturing",
-          "Batch Production",
-          "Custom Manufacturing"
+          "Mass Production",
+          "Custom Manufacturing",
+          "Batch Production"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Lean Manufacturing focuses on eliminating all forms of waste."
       },
       {
@@ -2302,10 +2302,10 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 2,
         question: "What does CMM stand for?",
         options: [
-          "Computerized Measurement Machine",
-          "Coordinate Measuring Machine",
           "Calibrated Measurement Module",
-          "Contact Measurement Method"
+          "Coordinate Measuring Machine",
+          "Contact Measurement Method",
+          "Computerized Measurement Machine"
         ],
         correctAnswer: 1,
         explanation: "CMMs make precise dimensional measurements."
@@ -2315,12 +2315,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 3,
         question: "What does RTM stand for in composites?",
         options: [
-          "Resin Transfer Molding",
+          "Rotational Transfer Molding",
           "Rapid Tooling Method",
-          "Reinforced Thermal Molding",
-          "Rotational Transfer Molding"
+          "Resin Transfer Molding",
+          "Reinforced Thermal Molding"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "RTM injects resin into fiber preforms in closed molds."
       },
       {
@@ -2330,8 +2330,8 @@ Sustainable manufacturing involves creating products through economically-sound 
         options: [
           "Robot Programming",
           "PLC Programming",
-          "CNC Programming",
-          "Vision System Programming"
+          "Vision System Programming",
+          "CNC Programming"
         ],
         correctAnswer: 1,
         explanation: "Ladder logic is the graphical programming language for PLCs."
@@ -2341,12 +2341,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 5,
         question: "What does FMEA stand for?",
         options: [
+          "Failure Management and Error Avoidance",
           "Failure Mode and Effects Analysis",
           "Fault Management and Error Assessment",
-          "Functional Monitoring and Efficiency Analysis",
-          "Failure Management and Error Avoidance"
+          "Functional Monitoring and Efficiency Analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "FMEA systematically identifies potential failures."
       },
       {
@@ -2355,11 +2355,11 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What is the waste hierarchy priority?",
         options: [
           "Recycle, Reuse, Reduce, Prevent",
-          "Prevent, Reduce, Reuse, Recycle",
           "Dispose, Recover, Recycle, Reuse",
+          "Prevent, Reduce, Reuse, Recycle",
           "Reduce, Recycle, Reuse, Prevent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Prevention is highest priority in waste hierarchy."
       },
       {
@@ -2368,9 +2368,9 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What does JIT stand for?",
         options: [
           "Just-In-Time",
+          "Justified Inventory Transfer",
           "Job-Integrated Technology",
-          "Joint Industrial Training",
-          "Justified Inventory Transfer"
+          "Joint Industrial Training"
         ],
         correctAnswer: 0,
         explanation: "JIT produces only what's needed when it's needed."
@@ -2380,12 +2380,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 2,
         question: "What is surface roughness measurement?",
         options: [
-          "Surface Waviness",
-          "Surface Roughness",
           "Surface Finish",
-          "Surface Texture"
+          "Surface Waviness",
+          "Surface Texture",
+          "Surface Roughness"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Surface roughness measures fine surface irregularities."
       },
       {
@@ -2393,12 +2393,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 3,
         question: "Which process uses binder to join powder?",
         options: [
+          "Electron Beam Melting",
           "Selective Laser Melting",
           "Binder Jetting",
-          "Electron Beam Melting",
           "Direct Energy Deposition"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Binder jetting uses liquid binder to join powder particles."
       },
       {
@@ -2406,12 +2406,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 4,
         question: "Which robots work safely with humans?",
         options: [
-          "Traditional Industrial Robots",
           "Collaborative Robots",
+          "Traditional Industrial Robots",
           "Fixed Automation Robots",
           "High-Speed Robots"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Collaborative robots have safety features for human interaction."
       },
       {
@@ -2419,12 +2419,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 5,
         question: "What does SPC stand for?",
         options: [
-          "Statistical Process Control",
-          "Systematic Process Checking",
           "Standard Production Control",
-          "Statistical Product Control"
+          "Statistical Product Control",
+          "Systematic Process Checking",
+          "Statistical Process Control"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "SPC uses statistics to monitor and control processes."
       },
       {
@@ -2432,12 +2432,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 6,
         question: "What does EPR stand for?",
         options: [
-          "Environmental Protection Regulation",
           "Extended Producer Responsibility",
+          "Environmental Protection Regulation",
           "Energy Performance Rating",
           "Efficient Production Requirements"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "EPR makes manufacturers responsible for product end-of-life."
       },
       {
@@ -2445,10 +2445,10 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 1,
         question: "What measures equipment productivity?",
         options: [
-          "Throughput Time",
+          "On-Time Delivery",
           "First Pass Yield",
           "Overall Equipment Effectiveness",
-          "On-Time Delivery"
+          "Throughput Time"
         ],
         correctAnswer: 2,
         explanation: "OEE measures equipment availability, performance, and quality."
@@ -2458,12 +2458,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 2,
         question: "Which is the highest accuracy standard?",
         options: [
-          "Working Standard",
-          "Secondary Standard",
           "Primary Standard",
+          "Secondary Standard",
+          "Working Standard",
           "Factory Standard"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "Primary standards are highest accuracy references."
       },
       {
@@ -2471,12 +2471,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 3,
         question: "What is diffusion bonding?",
         options: [
-          "Joining with adhesive",
           "Joining through atomic diffusion",
+          "Mechanical fastening",
           "Melting and joining",
-          "Mechanical fastening"
+          "Joining with adhesive"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Diffusion bonding joins through atomic diffusion without melting."
       },
       {
@@ -2484,12 +2484,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 4,
         question: "What does CNC stand for?",
         options: [
+          "Computerized Network Command",
           "Computer Numerical Control",
           "Computer Network Control",
-          "Central Numerical Command",
-          "Computerized Network Command"
+          "Central Numerical Command"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "CNC controls machine tools through computer programs."
       },
       {
@@ -2497,10 +2497,10 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 5,
         question: "What does Gage R&R measure?",
         options: [
-          "Machine speed",
-          "Measurement system variation",
           "Production rate",
-          "Material strength"
+          "Measurement system variation",
+          "Material strength",
+          "Machine speed"
         ],
         correctAnswer: 1,
         explanation: "Gage R&R studies measurement system variation."
@@ -2510,12 +2510,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 6,
         question: "What is circular economy?",
         options: [
-          "Linear production model",
           "Closing material loops through recycling",
+          "Waste-to-energy conversion",
           "Single-use product design",
-          "Waste-to-energy conversion"
+          "Linear production model"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Circular economy keeps materials in use through recycling."
       },
       {
@@ -2523,12 +2523,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 1,
         question: "What is mass customization?",
         options: [
-          "Making one custom product",
           "Large-scale production of customized products",
           "Small batch production",
-          "Standard mass production"
+          "Standard mass production",
+          "Making one custom product"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Mass customization combines mass production efficiency with customization."
       },
       {
@@ -2536,12 +2536,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 2,
         question: "What measures smallest detectable change?",
         options: [
-          "Accuracy",
           "Precision",
           "Resolution",
+          "Accuracy",
           "Repeatability"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Resolution is smallest measurement increment detectable."
       },
       {
@@ -2550,9 +2550,9 @@ Sustainable manufacturing involves creating products through economically-sound 
         question: "What are shape memory alloys?",
         options: [
           "Materials that remember original shape",
-          "Materials that generate electricity",
           "Materials that change color",
-          "Materials that are always flexible"
+          "Materials that are always flexible",
+          "Materials that generate electricity"
         ],
         correctAnswer: 0,
         explanation: "Shape memory alloys return to original shape when heated."
@@ -2562,10 +2562,10 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 4,
         question: "What are digital twins?",
         options: [
-          "Virtual Reality systems",
           "Augmented Reality systems",
+          "Simulation software only",
           "Virtual replicas of physical systems",
-          "Simulation software only"
+          "Virtual Reality systems"
         ],
         correctAnswer: 2,
         explanation: "Digital twins are virtual models mirroring physical systems."
@@ -2575,12 +2575,12 @@ Sustainable manufacturing involves creating products through economically-sound 
         module: 5,
         question: "What is the 5 Whys technique for?",
         options: [
-          "Measuring process speed",
           "Finding root causes of problems",
-          "Counting defects",
-          "Setting quality goals"
+          "Setting quality goals",
+          "Measuring process speed",
+          "Counting defects"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "5 Whys repeatedly asks 'why' to find root causes."
       }
     ]

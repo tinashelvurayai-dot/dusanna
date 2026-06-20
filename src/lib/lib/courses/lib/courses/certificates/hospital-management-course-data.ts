@@ -75,36 +75,36 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           id: 1,
           question: "What is the primary responsibility of a hospital's board of directors?",
           options: [
-            "Setting strategic direction and ensuring regulatory compliance",
             "Managing daily clinical operations",
             "Handling patient billing and insurance claims",
+            "Setting strategic direction and ensuring regulatory compliance",
             "Supervising nursing staff schedules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The board of directors sets the strategic direction for the hospital and ensures compliance with healthcare regulations, while operational management is handled by administrative staff."
         },
         {
           id: 2,
           question: "Which of the following is NOT one of the three key administrative functions in hospital management?",
           options: [
+            "Strategic Management",
             "Operational Management",
-            "Clinical Diagnosis",
             "Financial Management",
-            "Strategic Management"
+            "Clinical Diagnosis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clinical diagnosis is performed by medical professionals, not administrators. The three key administrative functions are operational, financial, and strategic management."
         },
         {
           id: 3,
           question: "What does the Patient-Centered Care Model emphasize?",
           options: [
-            "Coordinating services around patient needs",
             "Centralized decision-making hierarchies",
+            "Coordinating services around patient needs",
             "Departmental convenience and efficiency",
             "Standardized procedures for all patients"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Patient-Centered Care Model focuses on coordinating services around patient needs rather than departmental convenience, improving satisfaction and outcomes."
         },
         {
@@ -112,9 +112,9 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           question: "What do Integrated Health Systems provide?",
           options: [
             "Comprehensive care across the health continuum",
-            "Emergency services only",
+            "Administrative support to other hospitals",
             "Surgical procedures exclusively",
-            "Administrative support to other hospitals"
+            "Emergency services only"
           ],
           correctAnswer: 0,
           explanation: "Integrated Health Systems combine hospital services with outpatient care, rehabilitation, and home health to provide comprehensive care across the entire health continuum."
@@ -123,12 +123,12 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           id: 5,
           question: "Which challenge involves balancing patient needs with financial constraints?",
           options: [
-            "Resource Allocation",
-            "Staff Scheduling",
             "Medical Research",
-            "Community Outreach"
+            "Staff Scheduling",
+            "Community Outreach",
+            "Resource Allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resource Allocation requires balancing patient care needs with financial limitations, a constant challenge in healthcare administration."
         },
         {
@@ -136,9 +136,9 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           question: "What must administrators do to maintain Regulatory Compliance?",
           options: [
             "Stay current with changing regulations from multiple agencies",
-            "Focus only on internal hospital policies",
+            "Delegate compliance entirely to legal department",
             "Ignore regulations that reduce efficiency",
-            "Delegate compliance entirely to legal department"
+            "Focus only on internal hospital policies"
           ],
           correctAnswer: 0,
           explanation: "Administrators must stay current with changing regulations from health departments, accreditation bodies, and government agencies for legal operation."
@@ -147,12 +147,12 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           id: 7,
           question: "What does Quality and Safety Standards maintenance require?",
           options: [
-            "Continuous monitoring and improvement processes",
-            "Annual reviews only",
+            "Staff satisfaction surveys",
             "Patient complaints tracking",
-            "Staff satisfaction surveys"
+            "Continuous monitoring and improvement processes",
+            "Annual reviews only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Quality and safety standards require continuous monitoring and improvement processes, including infection control and medication safety systems."
         },
         {
@@ -160,8 +160,8 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           question: "Which decision-making approach uses evidence and data analysis?",
           options: [
             "Evidence-based decision making",
-            "Intuitive decision making",
             "Traditional decision making",
+            "Intuitive decision making",
             "Emergency decision making"
           ],
           correctAnswer: 0,
@@ -171,12 +171,12 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           id: 9,
           question: "What reduces errors and improves organizational alignment?",
           options: [
-            "Effective communication strategies",
-            "Strict departmental boundaries",
             "Limited staff meetings",
+            "Strict departmental boundaries",
+            "Effective communication strategies",
             "Paper-based documentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective communication strategies addressing multiple stakeholders reduce errors and improve alignment across the hospital organization."
         },
         {
@@ -184,8 +184,8 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           question: "Which technique helps identify underlying causes of problems?",
           options: [
             "Root cause analysis",
-            "Surface-level review",
             "Quick fix approach",
+            "Surface-level review",
             "External consulting"
           ],
           correctAnswer: 0,
@@ -195,60 +195,60 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           id: 11,
           question: "What continues to transform hospital operations through digital systems?",
           options: [
+            "Traditional filing systems",
             "Technology Integration",
-            "Manual record keeping",
             "Paper-based processes",
-            "Traditional filing systems"
+            "Manual record keeping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technology Integration through electronic records, telemedicine, and data analytics continues to transform hospital operations."
         },
         {
           id: 12,
           question: "What shifts focus from individual illnesses to community health?",
           options: [
-            "Population Health Management",
+            "Departmental Specialization",
             "Emergency Response Planning",
-            "Individual Treatment Focus",
-            "Departmental Specialization"
+            "Population Health Management",
+            "Individual Treatment Focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Population Health Management shifts focus from treating individual illnesses to improving the health of entire communities."
         },
         {
           id: 13,
           question: "What does Value-Based Care link to patient outcomes?",
           options: [
-            "Hospital payments",
-            "Staff promotions",
             "Department budgets",
-            "Research funding"
+            "Staff promotions",
+            "Research funding",
+            "Hospital payments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Value-Based Care Models link hospital payments to patient outcomes rather than service volume, requiring care process redesign."
         },
         {
           id: 14,
           question: "Who reports to the hospital board of directors?",
           options: [
-            "Chief Executive Officer",
             "Head Nurse",
             "Lead Surgeon",
-            "Financial Controller"
+            "Financial Controller",
+            "Chief Executive Officer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Chief Executive Officer reports to the board of directors and oversees daily hospital operations through department heads."
         },
         {
           id: 15,
           question: "What must administrators lead while ensuring patient privacy?",
           options: [
-            "Digital transformation",
-            "Manual processes",
             "Paper record systems",
-            "Traditional communication"
+            "Digital transformation",
+            "Traditional communication",
+            "Manual processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Administrators must lead digital transformation while ensuring patient privacy and data security during technology implementation."
         },
         {
@@ -256,9 +256,9 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           question: "What requires new partnerships with public health agencies?",
           options: [
             "Population Health Management",
-            "Emergency Room Operations",
+            "Patient Billing Systems",
             "Surgical Department Management",
-            "Patient Billing Systems"
+            "Emergency Room Operations"
           ],
           correctAnswer: 0,
           explanation: "Population Health Management requires new partnerships with public health agencies and community organizations."
@@ -267,24 +267,24 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           id: 17,
           question: "What do effective administrators balance in resource allocation?",
           options: [
-            "Patient needs with financial constraints",
+            "Technology costs with tradition",
             "Staff preferences with patient demands",
             "Department requests with board mandates",
-            "Technology costs with tradition"
+            "Patient needs with financial constraints"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective administrators balance patient care needs with financial constraints when allocating limited resources."
         },
         {
           id: 18,
           question: "What involves process mapping and collaborative solutions?",
           options: [
+            "Building maintenance schedules",
             "Healthcare problem-solving techniques",
             "Financial auditing processes",
-            "Staff recruitment procedures",
-            "Building maintenance schedules"
+            "Staff recruitment procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Healthcare problem-solving techniques often involve process mapping and collaborative solution development with clinical teams."
         },
         {
@@ -293,8 +293,8 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           options: [
             "Value-Based Care Models",
             "Traditional billing systems",
-            "Paper medical records",
-            "Departmental silos"
+            "Departmental silos",
+            "Paper medical records"
           ],
           correctAnswer: 0,
           explanation: "Value-Based Care Models represent a fundamental change requiring redesign of care processes and measurement systems."
@@ -303,12 +303,12 @@ Imagine you are the new administrator of a mid-sized community hospital. Conside
           id: 20,
           question: "What do Integrated Health Systems improve through comprehensive care?",
           options: [
-            "Patient transitions and efficiency",
             "Departmental independence",
             "Paperwork volume",
-            "Staff specialization"
+            "Staff specialization",
+            "Patient transitions and efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Integrated Health Systems improve patient transitions and efficiency by providing comprehensive care across services."
         }
       ]
@@ -402,24 +402,24 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           id: 1,
           question: "What does effective patient flow management reduce in hospitals?",
           options: [
-            "Wait times and bottlenecks",
             "Staff numbers and costs",
+            "Wait times and bottlenecks",
             "Medical equipment needs",
             "Patient treatment options"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective patient flow management reduces wait times, prevents bottlenecks, and improves overall patient satisfaction throughout their healthcare journey."
         },
         {
           id: 2,
           question: "Which area manages unpredictable patient arrivals and urgent care needs?",
           options: [
+            "Administrative Office Flow",
             "Emergency Department Flow",
-            "Inpatient Unit Flow",
             "Outpatient Service Flow",
-            "Administrative Office Flow"
+            "Inpatient Unit Flow"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Emergency Department Flow specifically manages unpredictable arrivals and urgent care needs, requiring different management approaches than scheduled services."
         },
         {
@@ -427,9 +427,9 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           question: "What do Bed Management Systems optimize through real-time tracking?",
           options: [
             "Hospital bed utilization",
-            "Staff lunch breaks",
+            "Visitor access hours",
             "Parking space allocation",
-            "Visitor access hours"
+            "Staff lunch breaks"
           ],
           correctAnswer: 0,
           explanation: "Bed Management Systems optimize hospital bed utilization through real-time tracking and predictive analytics, reducing patient waiting times."
@@ -439,9 +439,9 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           question: "What ensures information flows smoothly between departments?",
           options: [
             "Interdepartmental Communication",
-            "Departmental Independence",
             "Separate Record Systems",
-            "Individual Decision Making"
+            "Individual Decision Making",
+            "Departmental Independence"
           ],
           correctAnswer: 0,
           explanation: "Interdepartmental Communication through meetings and shared systems ensures smooth information flow between clinical, administrative, and support departments."
@@ -462,48 +462,48 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           id: 6,
           question: "What balances patient care needs with staff availability?",
           options: [
-            "Staff Scheduling Systems",
-            "Patient Demand Controls",
+            "Random Assignment",
             "Fixed Shift Patterns",
-            "Random Assignment"
+            "Staff Scheduling Systems",
+            "Patient Demand Controls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Staff Scheduling Systems balance patient care needs with staff availability while considering skill mix and regulatory requirements."
         },
         {
           id: 7,
           question: "What ensures medical supplies are available when needed?",
           options: [
+            "Manual Tracking",
             "Equipment and Supply Management",
             "Emergency Ordering",
-            "Departmental Hoarding",
-            "Manual Tracking"
+            "Departmental Hoarding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Equipment and Supply Management through inventory systems ensures medical devices and consumables are available when needed, preventing stockouts."
         },
         {
           id: 8,
           question: "What methodology uses Plan-Do-Study-Act cycles?",
           options: [
+            "Financial Auditing",
             "Continuous Quality Improvement",
             "Emergency Response",
-            "Financial Auditing",
             "Staff Training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Continuous Quality Improvement often uses Plan-Do-Study-Act cycles to regularly assess and improve processes and outcomes."
         },
         {
           id: 9,
           question: "What focuses on preventing errors through standardized protocols?",
           options: [
-            "Patient Safety Initiatives",
-            "Cost Reduction Programs",
             "Expansion Projects",
-            "Marketing Campaigns"
+            "Patient Safety Initiatives",
+            "Marketing Campaigns",
+            "Cost Reduction Programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Patient Safety Initiatives focus on preventing errors and reducing harm through standardized protocols, checklists, and reporting systems."
         },
         {
@@ -511,9 +511,9 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           question: "What provides standardized care plans for common conditions?",
           options: [
             "Clinical Pathways",
-            "Individual Physician Preferences",
+            "Insurance Requirements",
             "Patient Requests",
-            "Insurance Requirements"
+            "Individual Physician Preferences"
           ],
           correctAnswer: 0,
           explanation: "Clinical Pathways provide standardized, evidence-based care plans for common conditions, reducing variation and improving outcomes."
@@ -534,48 +534,48 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           id: 12,
           question: "What tracks equipment and supplies in real time?",
           options: [
-            "Real-Time Location Systems",
             "Manual Inventory Sheets",
+            "Guesswork Estimation",
             "Memory Recall",
-            "Guesswork Estimation"
+            "Real-Time Location Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Real-Time Location Systems track equipment, supplies, and sometimes staff movements to optimize resource utilization."
         },
         {
           id: 13,
           question: "What balances fixed resources with variable patient demand?",
           options: [
-            "Capacity Management",
+            "Equipment Purchasing",
             "Budget Allocation",
             "Staff Hiring",
-            "Equipment Purchasing"
+            "Capacity Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Capacity Management balances fixed hospital resources with variable patient demand through forecasting and flexible approaches."
         },
         {
           id: 14,
           question: "What provides visual displays of operational metrics?",
           options: [
-            "Dashboard Reporting",
-            "Written Reports",
+            "Email Summaries",
             "Verbal Updates",
-            "Email Summaries"
+            "Dashboard Reporting",
+            "Written Reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dashboard Reporting provides visual displays of operational metrics for quick assessment and decision-making by managers."
         },
         {
           id: 15,
           question: "What will increasingly forecast patient volumes before they occur?",
           options: [
-            "Predictive Analytics",
-            "Historical Records",
+            "Random Guessing",
             "Staff Estimates",
-            "Random Guessing"
+            "Historical Records",
+            "Predictive Analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Predictive Analytics will increasingly forecast patient volumes, resource needs, and potential bottlenecks before they occur."
         },
         {
@@ -595,8 +595,8 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           question: "What reduces variation in patient treatment?",
           options: [
             "Clinical Pathways",
-            "Physician Autonomy",
             "Patient Preferences",
+            "Physician Autonomy",
             "Trial and Error"
           ],
           correctAnswer: 0,
@@ -607,9 +607,9 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           question: "What encourages staff to report concerns without fear?",
           options: [
             "Safety Culture Development",
+            "External Reporting Only",
             "Punitive Systems",
-            "Ignoring Problems",
-            "External Reporting Only"
+            "Ignoring Problems"
           ],
           correctAnswer: 0,
           explanation: "Safety Culture Development encourages staff to report concerns and errors without fear of blame, improving organizational learning."
@@ -618,24 +618,24 @@ Hospital operations management focuses on delivering efficient, high-quality pat
           id: 19,
           question: "What compares results with targets and investigates variances?",
           options: [
-            "Regular Performance Reviews",
             "Annual Celebrations",
             "Budget Approvals",
+            "Regular Performance Reviews",
             "Staff Parties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regular Performance Reviews compare actual operational results with targets, investigate variances, and implement corrective actions."
         },
         {
           id: 20,
           question: "What will allow patients to schedule appointments digitally?",
           options: [
-            "Patient Self-Service Technologies",
+            "Paper Appointment Books",
             "Phone Call Systems",
-            "Walk-in Only Policies",
-            "Paper Appointment Books"
+            "Patient Self-Service Technologies",
+            "Walk-in Only Policies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Patient Self-Service Technologies will expand to allow digital appointment scheduling, form completion, and information access."
         }
       ]
@@ -737,24 +737,24 @@ Healthcare financial management involves planning, organizing, and controlling f
           id: 1,
           question: "What collects demographic and insurance information at care beginning?",
           options: [
-            "Patient Registration Processes",
-            "Billing Department Procedures",
             "Medical Record Documentation",
-            "Discharge Planning Activities"
+            "Patient Registration Processes",
+            "Discharge Planning Activities",
+            "Billing Department Procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Patient Registration Processes collect accurate demographic and insurance information at the beginning of care, preventing billing delays later."
         },
         {
           id: 2,
           question: "Which revenue cycle stage involves scheduling and registration?",
           options: [
-            "Front-End Processes",
             "Mid-Cycle Processes",
+            "Post-Cycle Processes",
             "Back-End Processes",
-            "Post-Cycle Processes"
+            "Front-End Processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Front-End Processes in the revenue cycle involve scheduling, registration, and insurance verification before services are provided."
         },
         {
@@ -763,8 +763,8 @@ Healthcare financial management involves planning, organizing, and controlling f
           options: [
             "Clean claim submission",
             "Delayed billing",
-            "Incomplete forms",
-            "Manual processing"
+            "Manual processing",
+            "Incomplete forms"
           ],
           correctAnswer: 0,
           explanation: "Clean claim submission with proper documentation maximizes timely reimbursement by reducing denials and processing delays."
@@ -773,24 +773,24 @@ Healthcare financial management involves planning, organizing, and controlling f
           id: 4,
           question: "What tracks expenses by department and service line?",
           options: [
-            "Cost Accounting Systems",
-            "General Ledger Only",
             "Cash Register Records",
-            "Memory Recall"
+            "General Ledger Only",
+            "Memory Recall",
+            "Cost Accounting Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cost Accounting Systems track expenses by department, service line, and patient type to understand true costs for decision-making."
         },
         {
           id: 5,
           question: "What changes with patient volume like medical supplies?",
           options: [
-            "Variable Costs",
-            "Fixed Costs",
             "Capital Costs",
-            "Sunk Costs"
+            "Variable Costs",
+            "Sunk Costs",
+            "Fixed Costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Variable Costs change with patient volume, like medical supplies, while Fixed Costs remain constant regardless of volume."
         },
         {
@@ -798,9 +798,9 @@ Healthcare financial management involves planning, organizing, and controlling f
           question: "What projects revenues and expenses for daily operations?",
           options: [
             "Operational Budgeting",
+            "Market Analysis",
             "Capital Budgeting",
-            "Strategic Planning",
-            "Market Analysis"
+            "Strategic Planning"
           ],
           correctAnswer: 0,
           explanation: "Operational Budgeting projects revenues and expenses for daily hospital operations, typically prepared by department managers."
@@ -809,24 +809,24 @@ Healthcare financial management involves planning, organizing, and controlling f
           id: 7,
           question: "What evaluates long-term investments in equipment and facilities?",
           options: [
-            "Capital Budgeting",
+            "Patient Billing",
             "Daily Cash Management",
-            "Staff Scheduling",
-            "Patient Billing"
+            "Capital Budgeting",
+            "Staff Scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Capital Budgeting evaluates long-term investments in equipment, facilities, and technology, considering strategic alignment."
         },
         {
           id: 8,
           question: "What requires justifying all expenses each period?",
           options: [
-            "Zero-Based Budgeting",
             "Incremental Budgeting",
-            "Historical Budgeting",
-            "Traditional Budgeting"
+            "Traditional Budgeting",
+            "Zero-Based Budgeting",
+            "Historical Budgeting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Zero-Based Budgeting requires justifying all expenses each period rather than basing them on previous years, encouraging efficiency."
         },
         {
@@ -835,8 +835,8 @@ Healthcare financial management involves planning, organizing, and controlling f
           options: [
             "Financial Ratios",
             "Patient Stories",
-            "Staff Opinions",
-            "Community Feedback"
+            "Community Feedback",
+            "Staff Opinions"
           ],
           correctAnswer: 0,
           explanation: "Financial Ratios like current ratio and operating margin provide quick insights into hospital performance and financial health."
@@ -846,9 +846,9 @@ Healthcare financial management involves planning, organizing, and controlling f
           question: "What compares financial data over time to identify patterns?",
           options: [
             "Trend Analysis",
-            "Single Period Review",
             "Guesswork Estimation",
-            "Random Sampling"
+            "Random Sampling",
+            "Single Period Review"
           ],
           correctAnswer: 0,
           explanation: "Trend Analysis compares financial data over multiple periods to identify patterns, seasonal variations, and progress toward goals."
@@ -857,24 +857,24 @@ Healthcare financial management involves planning, organizing, and controlling f
           id: 11,
           question: "What is the comprehensive list of billable services and prices?",
           options: [
-            "Charge Description Master",
-            "Staff Directory",
             "Equipment Inventory",
-            "Policy Manual"
+            "Staff Directory",
+            "Policy Manual",
+            "Charge Description Master"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Charge Description Master is the comprehensive list of all billable services and their prices, requiring regular updates."
         },
         {
           id: 12,
           question: "What establishes payment rates with insurance companies?",
           options: [
-            "Contract Management",
+            "Patient Negotiations",
             "Informal Agreements",
-            "Verbal Understandings",
-            "Patient Negotiations"
+            "Contract Management",
+            "Verbal Understandings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Contract Management with insurance companies establishes formal payment rates, terms, and conditions for reimbursement."
         },
         {
@@ -882,9 +882,9 @@ Healthcare financial management involves planning, organizing, and controlling f
           question: "What shows revenues, expenses, and net income over a period?",
           options: [
             "Income Statements",
-            "Balance Sheets",
             "Cash Flow Statements",
-            "Budget Reports"
+            "Budget Reports",
+            "Balance Sheets"
           ],
           correctAnswer: 0,
           explanation: "Income Statements show revenues, expenses, and net income over a period, separating patient service revenue from other sources."
@@ -893,60 +893,60 @@ Healthcare financial management involves planning, organizing, and controlling f
           id: 14,
           question: "What presents assets, liabilities, and equity at a point in time?",
           options: [
-            "Balance Sheets",
+            "Operational Reports",
             "Income Statements",
-            "Cash Flow Statements",
-            "Operational Reports"
+            "Balance Sheets",
+            "Cash Flow Statements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Balance Sheets present assets, liabilities, and equity at a specific point in time, including unique healthcare items."
         },
         {
           id: 15,
           question: "What tracks cash inflows and outflows from activities?",
           options: [
+            "Balance Sheets",
             "Cash Flow Statements",
             "Income Statements",
-            "Balance Sheets",
             "Budget Comparisons"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cash Flow Statements track cash inflows and outflows from operating, investing, and financing activities."
         },
         {
           id: 16,
           question: "What evaluates when to replace aging medical technology?",
           options: [
+            "Manufacturer Recommendations",
             "Equipment Replacement Analysis",
-            "Daily Maintenance Checks",
             "Staff Preference Surveys",
-            "Manufacturer Recommendations"
+            "Daily Maintenance Checks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Equipment Replacement Analysis evaluates when to replace aging medical technology considering advances, costs, and benefits."
         },
         {
           id: 17,
           question: "What addresses unpaid patient balances proactively?",
           options: [
-            "Bad Debt Management",
-            "Ignoring Balances",
             "Immediate Legal Action",
-            "Writing Off All Debt"
+            "Writing Off All Debt",
+            "Bad Debt Management",
+            "Ignoring Balances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bad Debt Management addresses unpaid patient balances through proactive communication and payment plans that balance recovery with community relations."
         },
         {
           id: 18,
           question: "What involves penalties for billing errors or fraud?",
           options: [
-            "Regulatory Compliance Risks",
             "Market Competition Risks",
             "Technology Failure Risks",
+            "Regulatory Compliance Risks",
             "Staff Turnover Risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regulatory Compliance Risks involve penalties for billing errors, fraud, or Stark Law violations, requiring internal controls."
         },
         {
@@ -954,9 +954,9 @@ Healthcare financial management involves planning, organizing, and controlling f
           question: "What includes days in accounts receivable and collection percentage?",
           options: [
             "Key Financial Indicators",
-            "Clinical Outcome Measures",
             "Patient Satisfaction Scores",
-            "Staff Engagement Metrics"
+            "Staff Engagement Metrics",
+            "Clinical Outcome Measures"
           ],
           correctAnswer: 0,
           explanation: "Key Financial Indicators include days in accounts receivable, collection percentage, and cost per case to monitor financial health."
@@ -965,12 +965,12 @@ Healthcare financial management involves planning, organizing, and controlling f
           id: 20,
           question: "What shifts from fee-for-service to quality-based payments?",
           options: [
-            "Value-Based Payment Models",
+            "Subscription Services",
             "Traditional Billing Systems",
-            "Cash Payment Models",
-            "Subscription Services"
+            "Value-Based Payment Models",
+            "Cash Payment Models"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Value-Based Payment Models shift from fee-for-service to payments based on quality and outcomes, requiring different financial management."
         }
       ]
@@ -1080,12 +1080,12 @@ Human resources management in healthcare involves attracting, developing, and re
           id: 1,
           question: "What analyzes patient volumes to determine staffing levels?",
           options: [
+            "Equipment Inventory",
             "Staffing Needs Assessment",
             "Budget Review",
-            "Patient Satisfaction Survey",
-            "Equipment Inventory"
+            "Patient Satisfaction Survey"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Staffing Needs Assessment analyzes patient volumes, acuity levels, and service mix to determine appropriate staffing levels and skill mix."
         },
         {
@@ -1104,96 +1104,96 @@ Human resources management in healthcare involves attracting, developing, and re
           id: 3,
           question: "What ensures continuity in key positions by developing future leaders?",
           options: [
-            "Succession Planning",
-            "Emergency Hiring",
+            "Contract Labor",
             "Temporary Staffing",
-            "Contract Labor"
+            "Succession Planning",
+            "Emergency Hiring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Succession Planning identifies and develops future leaders within the organization to ensure continuity in key positions."
         },
         {
           id: 4,
           question: "What considers licensure and clinical competencies in hiring?",
           options: [
-            "Healthcare-Specific Recruitment",
-            "General Recruitment",
+            "Volunteer Coordination",
             "Temporary Placement",
-            "Volunteer Coordination"
+            "Healthcare-Specific Recruitment",
+            "General Recruitment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Healthcare-Specific Recruitment considers unique requirements like licensure, certification, and clinical competencies for medical professionals."
         },
         {
           id: 5,
           question: "What uses consistent questions to assess candidates fairly?",
           options: [
-            "Structured Interview Processes",
             "Informal Conversations",
+            "Structured Interview Processes",
             "Gut Feeling Decisions",
             "Quick Impressions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Structured Interview Processes use consistent questions and evaluation criteria to assess candidates fairly and reduce bias."
         },
         {
           id: 6,
           question: "What verifies licenses and clean disciplinary records?",
           options: [
-            "Credential Verification",
             "Reference Checks",
+            "Credential Verification",
             "Personality Tests",
             "Trial Periods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Credential Verification is critical in healthcare to ensure practitioners have valid licenses and clean disciplinary records, protecting patients."
         },
         {
           id: 7,
           question: "What introduces new staff to hospital policies and safety protocols?",
           options: [
-            "Orientation Programs",
-            "Performance Reviews",
             "Team Building Events",
-            "Social Gatherings"
+            "Orientation Programs",
+            "Social Gatherings",
+            "Performance Reviews"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Orientation Programs introduce new staff to hospital policies, safety protocols, organizational culture, and department-specific information."
         },
         {
           id: 8,
           question: "What ensures staff can perform required skills safely?",
           options: [
-            "Clinical Competency Validation",
             "Annual Parties",
+            "Clinical Competency Validation",
             "Salary Reviews",
             "Office Decorating"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clinical Competency Validation ensures staff can perform required skills safely and effectively through regular assessments."
         },
         {
           id: 9,
           question: "What helps staff maintain licensure requirements?",
           options: [
-            "Continuing Education",
-            "Social Media Use",
+            "TV Watching",
             "Casual Reading",
-            "TV Watching"
+            "Social Media Use",
+            "Continuing Education"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Continuing Education helps staff maintain licensure requirements and stay current with medical advances and best practices."
         },
         {
           id: 10,
           question: "What combines clinical outcomes and patient satisfaction in evaluations?",
           options: [
-            "Healthcare Performance Metrics",
-            "Attendance Records",
             "Personality Assessments",
-            "Social Popularity"
+            "Attendance Records",
+            "Social Popularity",
+            "Healthcare Performance Metrics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Healthcare Performance Metrics combine clinical outcomes, patient satisfaction, and operational efficiency in staff evaluations."
         },
         {
@@ -1201,9 +1201,9 @@ Human resources management in healthcare involves attracting, developing, and re
           question: "What allows clinical professionals to evaluate each other's work?",
           options: [
             "Peer Review Processes",
-            "Managerial Dictates",
+            "Family Opinions",
             "Patient Voting",
-            "Family Opinions"
+            "Managerial Dictates"
           ],
           correctAnswer: 0,
           explanation: "Peer Review Processes allow clinical professionals to evaluate each other's work quality collegially while maintaining standards."
@@ -1212,12 +1212,12 @@ Human resources management in healthcare involves attracting, developing, and re
           id: 12,
           question: "What considers regional salary surveys for healthcare professions?",
           options: [
-            "Market-Competitive Compensation",
+            "Lowest Possible Wages",
             "Arbitrary Pay Rates",
-            "What Employees Request",
-            "Lowest Possible Wages"
+            "Market-Competitive Compensation",
+            "What Employees Request"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Market-Competitive Compensation considers regional salary surveys for healthcare professions to attract and retain qualified staff."
         },
         {
@@ -1225,9 +1225,9 @@ Human resources management in healthcare involves attracting, developing, and re
           question: "What recognizes unusual hours or high-acuity assignments?",
           options: [
             "Shift Differentials and Incentives",
-            "Standard Pay Only",
             "Annual Bonuses",
-            "Holiday Gifts"
+            "Holiday Gifts",
+            "Standard Pay Only"
           ],
           correctAnswer: 0,
           explanation: "Shift Differentials and Incentives recognize unusual hours, high-acuity assignments, or special skills with additional compensation."
@@ -1237,9 +1237,9 @@ Human resources management in healthcare involves attracting, developing, and re
           question: "What requires understanding collective bargaining agreements?",
           options: [
             "Unionized Healthcare Environments",
-            "Completely Independent Staff",
+            "Family-Run Operations",
             "Volunteer-Only Facilities",
-            "Family-Run Operations"
+            "Completely Independent Staff"
           ],
           correctAnswer: 0,
           explanation: "Unionized Healthcare Environments require understanding collective bargaining agreements and labor laws for various healthcare professions."
@@ -1248,60 +1248,60 @@ Human resources management in healthcare involves attracting, developing, and re
           id: 15,
           question: "What provides formal channels for resolving workplace disputes?",
           options: [
-            "Grievance Procedures",
             "Ignoring Problems",
+            "Public Shaming",
             "Immediate Termination",
-            "Public Shaming"
+            "Grievance Procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Grievance Procedures provide formal channels for resolving workplace disputes fairly while maintaining work continuity."
         },
         {
           id: 16,
           question: "What varies by profession and state for healthcare workers?",
           options: [
+            "Lunch Breaks",
             "Licensing Requirements",
-            "Uniform Sizes",
             "Parking Spaces",
-            "Lunch Breaks"
+            "Uniform Sizes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Licensing Requirements vary by profession and state, requiring tracking of expiration dates and continuing education credits."
         },
         {
           id: 17,
           question: "What measures staff satisfaction and commitment?",
           options: [
-            "Healthcare Engagement Surveys",
             "Patient Volume Counts",
+            "Supply Inventories",
             "Revenue Reports",
-            "Supply Inventories"
+            "Healthcare Engagement Surveys"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Healthcare Engagement Surveys measure staff satisfaction, commitment, and willingness to recommend the organization as a workplace."
         },
         {
           id: 18,
           question: "What supports career growth through training and mentoring?",
           options: [
-            "Professional Development Opportunities",
-            "Stagnant Positions",
             "Dead-End Jobs",
-            "Limited Learning"
+            "Limited Learning",
+            "Stagnant Positions",
+            "Professional Development Opportunities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Professional Development Opportunities support career growth through training, mentoring, and advancement pathways valued by healthcare professionals."
         },
         {
           id: 19,
           question: "What creates advancement without leaving patient care?",
           options: [
-            "Career Ladder Programs",
-            "Management-Only Promotions",
             "External Hiring Only",
-            "No Advancement Options"
+            "Management-Only Promotions",
+            "No Advancement Options",
+            "Career Ladder Programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Career Ladder Programs create advancement opportunities without requiring staff to leave direct patient care, like clinical ladder programs."
         },
         {
@@ -1310,8 +1310,8 @@ Human resources management in healthcare involves attracting, developing, and re
           options: [
             "Cultural Competency Training",
             "Language Barriers",
-            "Assumptions Only",
-            "One-Size-Fits-All Approach"
+            "One-Size-Fits-All Approach",
+            "Assumptions Only"
           ],
           correctAnswer: 0,
           explanation: "Cultural Competency Training helps staff provide care that respects diverse patient backgrounds, beliefs, and communication styles."
@@ -1434,24 +1434,24 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           id: 1,
           question: "What examines resources like facilities and qualified staff in quality assessment?",
           options: [
+            "Experience",
             "Structure",
             "Process",
-            "Outcome",
-            "Experience"
+            "Outcome"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Structure examines resources like facilities, equipment, and qualified staff in the Structure-Process-Outcome quality model."
         },
         {
           id: 2,
           question: "What emphasizes the causal chain from structure to outcomes?",
           options: [
+            "Traditional Hierarchy",
             "Donabedian's Quality Framework",
             "Patient Preference Model",
-            "Cost-Containment Approach",
-            "Traditional Hierarchy"
+            "Cost-Containment Approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Donabedian's Quality Framework emphasizes that good structure increases likelihood of good processes, which increases likelihood of good outcomes."
         },
         {
@@ -1459,8 +1459,8 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           question: "What encourages error reporting without fear of punishment?",
           options: [
             "Error Reporting Culture",
-            "Blame-Focused Approach",
             "Secret Keeping Norm",
+            "Blame-Focused Approach",
             "Punitive System"
           ],
           correctAnswer: 0,
@@ -1471,9 +1471,9 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           question: "What has potential for harm but was intercepted?",
           options: [
             "Near Misses",
-            "Adverse Events",
+            "Routine Care",
             "No Harm Events",
-            "Routine Care"
+            "Adverse Events"
           ],
           correctAnswer: 0,
           explanation: "Near Misses are safety events with potential for harm that were intercepted before reaching the patient."
@@ -1484,8 +1484,8 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           options: [
             "Root Cause Analysis",
             "Surface Review",
-            "Quick Fix Approach",
-            "Individual Blaming"
+            "Individual Blaming",
+            "Quick Fix Approach"
           ],
           correctAnswer: 0,
           explanation: "Root Cause Analysis systematically investigates serious safety events to identify underlying system failures rather than individual blame."
@@ -1494,24 +1494,24 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           id: 6,
           question: "What applies to all patients regardless of diagnosis?",
           options: [
+            "Optional Measures",
             "Standard Precautions",
             "Transmission-Based Precautions",
-            "Special Protocols",
-            "Optional Measures"
+            "Special Protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Standard Precautions like hand hygiene apply to all patients regardless of diagnosis to prevent transmission of infectious agents."
         },
         {
           id: 7,
           question: "What tracks infections acquired during hospitalization?",
           options: [
-            "Healthcare-Associated Infection Surveillance",
-            "Community Infection Monitoring",
             "Staff Illness Tracking",
-            "Visitor Health Screening"
+            "Healthcare-Associated Infection Surveillance",
+            "Visitor Health Screening",
+            "Community Infection Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Healthcare-Associated Infection Surveillance tracks infections acquired during hospitalization like surgical site and catheter-associated infections."
         },
         {
@@ -1519,8 +1519,8 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           question: "What compares medication lists at care transitions?",
           options: [
             "Medication Reconciliation",
-            "Drug Inventory",
             "Prescription Writing",
+            "Drug Inventory",
             "Pharmacy Stocking"
           ],
           correctAnswer: 0,
@@ -1530,12 +1530,12 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           id: 9,
           question: "What require special safeguards due to serious harm potential?",
           options: [
-            "High-Alert Medications",
-            "Over-the-Counter Drugs",
             "Herbal Supplements",
-            "Vitamin Tablets"
+            "Over-the-Counter Drugs",
+            "Vitamin Tablets",
+            "High-Alert Medications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "High-Alert Medications like anticoagulants and opioids require special safeguards due to their potential for serious harm."
         },
         {
@@ -1544,8 +1544,8 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           options: [
             "Evidence-Based Practice Guidelines",
             "Traditional Practices",
-            "Individual Preferences",
-            "Anecdotal Experiences"
+            "Anecdotal Experiences",
+            "Individual Preferences"
           ],
           correctAnswer: 0,
           explanation: "Evidence-Based Practice Guidelines synthesize research findings into recommendations for clinical care, requiring local adaptation."
@@ -1554,48 +1554,48 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           id: 11,
           question: "What provide reminders at the point of care?",
           options: [
-            "Clinical Decision Support Systems",
             "Paper Checklists",
             "Memory Recall",
-            "Colleague Suggestions"
+            "Colleague Suggestions",
+            "Clinical Decision Support Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Clinical Decision Support Systems embedded in electronic records provide reminders, alerts, and recommendations at the point of care."
         },
         {
           id: 12,
           question: "What assess perceptions of care like communication?",
           options: [
-            "Patient Satisfaction Surveys",
             "Clinical Outcome Measures",
+            "Staff Attendance Records",
             "Financial Reports",
-            "Staff Attendance Records"
+            "Patient Satisfaction Surveys"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Patient Satisfaction Surveys assess perceptions of care including communication, pain management, and discharge information."
         },
         {
           id: 13,
           question: "What addresses complaints to rebuild trust?",
           options: [
-            "Service Recovery Processes",
-            "Ignoring Problems",
             "Defensive Responses",
-            "Blame Assignment"
+            "Blame Assignment",
+            "Ignoring Problems",
+            "Service Recovery Processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Service Recovery Processes address patient complaints effectively to rebuild trust, sometimes creating greater loyalty."
         },
         {
           id: 14,
           question: "What provides structured testing of changes on small scale?",
           options: [
-            "Plan-Do-Study-Act Cycles",
             "Immediate Full Implementation",
+            "Random Changes",
             "Trial and Error",
-            "Random Changes"
+            "Plan-Do-Study-Act Cycles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Plan-Do-Study-Act Cycles provide structured approach to testing changes on small scale before wider implementation."
         },
         {
@@ -1603,9 +1603,9 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           question: "What focuses on eliminating non-value-added activities?",
           options: [
             "Lean Healthcare Principles",
-            "Waste Acceptance",
             "Process Complication",
-            "Redundancy Addition"
+            "Redundancy Addition",
+            "Waste Acceptance"
           ],
           correctAnswer: 0,
           explanation: "Lean Healthcare Principles focus on eliminating waste (non-value-added activities) like waiting and transportation from processes."
@@ -1614,24 +1614,24 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           id: 16,
           question: "What covers infection control and medication management standards?",
           options: [
-            "The Joint Commission Standards",
-            "Informal Guidelines",
             "Staff Suggestions",
-            "Patient Requests"
+            "Patient Requests",
+            "Informal Guidelines",
+            "The Joint Commission Standards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Joint Commission Standards cover various aspects including infection control and medication management, assessed through periodic surveys."
         },
         {
           id: 17,
           question: "What automate data collection from electronic records?",
           options: [
-            "Electronic Clinical Quality Measures",
-            "Manual Abstraction",
+            "Estimation Methods",
             "Memory Recall",
-            "Estimation Methods"
+            "Manual Abstraction",
+            "Electronic Clinical Quality Measures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Electronic Clinical Quality Measures automate data collection from electronic health records for quality reporting, improving accuracy."
         },
         {
@@ -1639,9 +1639,9 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           question: "What identify high-risk patients for targeted interventions?",
           options: [
             "Predictive Analytics",
-            "Random Selection",
             "First-Come Basis",
-            "Insurance Status"
+            "Insurance Status",
+            "Random Selection"
           ],
           correctAnswer: 0,
           explanation: "Predictive Analytics identify patients at high risk for complications or readmissions, enabling targeted interventions before problems occur."
@@ -1663,9 +1663,9 @@ Quality and patient safety form the foundation of effective healthcare delivery.
           question: "What gives frontline workers authority to stop unsafe processes?",
           options: [
             "Staff Empowerment",
-            "Rigid Hierarchy",
             "Manager-Only Decisions",
-            "Policy Restrictions"
+            "Policy Restrictions",
+            "Rigid Hierarchy"
           ],
           correctAnswer: 0,
           explanation: "Staff Empowerment gives frontline workers authority to stop processes when safety is compromised and suggest improvements based on experience."
@@ -1787,8 +1787,8 @@ Strategic leadership in healthcare involves guiding organizations through comple
           options: [
             "Transformational Leadership",
             "Transactional Leadership",
-            "Autocratic Leadership",
-            "Passive Leadership"
+            "Passive Leadership",
+            "Autocratic Leadership"
           ],
           correctAnswer: 0,
           explanation: "Transformational Leadership inspires staff to exceed expectations through vision, motivation, and intellectual stimulation, suiting healthcare's mission-driven nature."
@@ -1798,9 +1798,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
           question: "What prioritizes serving others' needs before self-interest?",
           options: [
             "Servant Leadership",
-            "Self-Serving Leadership",
             "Competitive Leadership",
-            "Isolated Leadership"
+            "Isolated Leadership",
+            "Self-Serving Leadership"
           ],
           correctAnswer: 0,
           explanation: "Servant Leadership prioritizes serving others' needs before self-interest, aligning with patient-centered care values in healthcare."
@@ -1809,24 +1809,24 @@ Strategic leadership in healthcare involves guiding organizations through comple
           id: 3,
           question: "What analyzes external factors affecting healthcare?",
           options: [
-            "Environmental Scanning",
-            "Internal Assessment",
+            "Staff Evaluation",
             "Budget Review",
-            "Staff Evaluation"
+            "Environmental Scanning",
+            "Internal Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Environmental Scanning analyzes external factors like demographic changes, technology advances, and regulatory shifts affecting healthcare."
         },
         {
           id: 4,
           question: "What maps interests and influence of various groups?",
           options: [
-            "Stakeholder Analysis",
             "Financial Analysis",
+            "Policy Examination",
             "Clinical Review",
-            "Policy Examination"
+            "Stakeholder Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stakeholder Analysis maps the interests and influence of groups including patients, staff, physicians, payers, and community organizations."
         },
         {
@@ -1845,24 +1845,24 @@ Strategic leadership in healthcare involves guiding organizations through comple
           id: 6,
           question: "Which change component addresses power dynamics?",
           options: [
-            "Political Changes",
-            "Technical Changes",
             "Cultural Changes",
-            "Structural Changes"
+            "Structural Changes",
+            "Political Changes",
+            "Technical Changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Political Changes in change management address power dynamics and interests, while technical changes address processes and systems."
         },
         {
           id: 7,
           question: "What prepares physicians for administrative roles?",
           options: [
+            "Residency Programs",
             "Clinical Leadership Development",
             "Medical School Training",
-            "Residency Programs",
             "Continuing Medical Education"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clinical Leadership Development prepares physicians for administrative roles while maintaining clinical credibility as bridge leaders."
         },
         {
@@ -1870,8 +1870,8 @@ Strategic leadership in healthcare involves guiding organizations through comple
           question: "What gives physicians meaningful roles in decision-making?",
           options: [
             "Collaborative Governance Structures",
-            "Autocratic Management",
             "Administrative Control",
+            "Autocratic Management",
             "External Consulting"
           ],
           correctAnswer: 0,
@@ -1881,12 +1881,12 @@ Strategic leadership in healthcare involves guiding organizations through comple
           id: 9,
           question: "What systematically generates and evaluates new ideas?",
           options: [
-            "Innovation Pipeline Development",
             "Traditional Thinking",
             "Status Quo Maintenance",
+            "Innovation Pipeline Development",
             "Resistance to Change"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Innovation Pipeline Development systematically generates, evaluates, and implements new ideas including clinical advances and process improvements."
         },
         {
@@ -1894,9 +1894,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
           question: "What allows small-scale experimentation before wide implementation?",
           options: [
             "Pilot Testing Approaches",
-            "Immediate Full Rollout",
+            "External Copying",
             "Theoretical Planning",
-            "External Copying"
+            "Immediate Full Rollout"
           ],
           correctAnswer: 0,
           explanation: "Pilot Testing Approaches allow small-scale experimentation before wide implementation, important in healthcare's complex environment."
@@ -1905,108 +1905,108 @@ Strategic leadership in healthcare involves guiding organizations through comple
           id: 11,
           question: "What identifies potential emergencies and establishes protocols?",
           options: [
-            "Crisis Preparedness Planning",
-            "Reactive Response Only",
             "Improvised Management",
-            "Hope for the Best"
+            "Crisis Preparedness Planning",
+            "Hope for the Best",
+            "Reactive Response Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Crisis Preparedness Planning identifies potential emergencies and establishes response protocols for disasters, outbreaks, or system failures."
         },
         {
           id: 12,
           question: "What provides structured leadership during emergencies?",
           options: [
-            "Incident Command Systems",
-            "Chaotic Response",
             "Individual Heroics",
-            "External Takeover"
+            "Incident Command Systems",
+            "External Takeover",
+            "Chaotic Response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Incident Command Systems provide structured leadership during emergencies with clear roles and communication channels in healthcare."
         },
         {
           id: 13,
           question: "What guides choices when values conflict?",
           options: [
-            "Ethical Decision-Making Frameworks",
             "Financial Considerations Only",
+            "Ethical Decision-Making Frameworks",
             "Popularity Decisions",
             "Easiest Path Choices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ethical Decision-Making Frameworks guide choices when values conflict, balancing autonomy, beneficence, and justice in healthcare."
         },
         {
           id: 14,
           question: "What addresses fair distribution of limited resources?",
           options: [
-            "Resource Allocation Ethics",
+            "Random Assignment",
             "First-Come-First-Served",
             "Wealth-Based Access",
-            "Random Assignment"
+            "Resource Allocation Ethics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resource Allocation Ethics address fair distribution of limited resources like ICU beds or expensive medications with transparent criteria."
         },
         {
           id: 15,
           question: "What identifies local health priorities through data analysis?",
           options: [
-            "Community Health Needs Assessment",
             "Internal Financial Review",
-            "Staff Satisfaction Survey",
-            "Board Meeting Discussions"
+            "Community Health Needs Assessment",
+            "Board Meeting Discussions",
+            "Staff Satisfaction Survey"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Community Health Needs Assessment identifies local health priorities through data analysis and stakeholder input, required for nonprofit hospitals."
         },
         {
           id: 16,
           question: "What extends hospital impact beyond its walls?",
           options: [
-            "Partnership Development",
-            "Isolated Operation",
+            "Self-Sufficiency Focus",
             "Competitive Stance",
-            "Self-Sufficiency Focus"
+            "Partnership Development",
+            "Isolated Operation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Partnership Development with community organizations extends hospital impact beyond its walls to address social determinants of health."
         },
         {
           id: 17,
           question: "What uses clinical and operational information to guide choices?",
           options: [
-            "Data-Driven Decision Making",
             "Guesswork and Intuition",
             "Traditional Approaches",
+            "Data-Driven Decision Making",
             "Following Precedents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Data-Driven Decision Making uses clinical, operational, and financial information to guide choices while balancing professional judgment."
         },
         {
           id: 18,
           question: "What ensures digital investments support clinical goals?",
           options: [
+            "Latest Trend Following",
             "Technology Strategy Alignment",
-            "Random Technology Purchases",
             "Vendor-Driven Decisions",
-            "Latest Trend Following"
+            "Random Technology Purchases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technology Strategy Alignment ensures digital investments support clinical and business goals with consideration of interoperability and usability."
         },
         {
           id: 19,
           question: "What defines policies for data quality and security?",
           options: [
-            "Data Governance Establishment",
-            "Informal Understanding",
+            "Ignoring Data Issues",
             "Ad Hoc Decisions",
-            "Ignoring Data Issues"
+            "Informal Understanding",
+            "Data Governance Establishment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Data Governance Establishment defines policies for data quality, security, and appropriate use of healthcare's sensitive information."
         },
         {
@@ -2014,9 +2014,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
           question: "What defines required skills for leadership levels?",
           options: [
             "Leadership Competency Models",
-            "Personal Preferences",
             "Traditional Expectations",
-            "External Standards"
+            "External Standards",
+            "Personal Preferences"
           ],
           correctAnswer: 0,
           explanation: "Leadership Competency Models define required skills for different leadership levels including clinical knowledge and business acumen."
@@ -2032,24 +2032,24 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 1,
       question: "Who is responsible for setting strategic direction in a hospital?",
       options: [
-        "Board of Directors",
-        "Chief Nursing Officer",
+        "Financial Controller",
         "Head of Surgery",
-        "Financial Controller"
+        "Board of Directors",
+        "Chief Nursing Officer"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The Board of Directors sets strategic direction and ensures regulatory compliance, while operational management is handled by administrative staff."
     },
     {
       id: 2,
       question: "Which model focuses on coordinating services around patient needs?",
       options: [
-        "Patient-Centered Care Model",
+        "Physician-Focused Model",
         "Traditional Hospital Model",
         "Department-Centered Model",
-        "Physician-Focused Model"
+        "Patient-Centered Care Model"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The Patient-Centered Care Model focuses on coordinating services around patient needs rather than departmental convenience."
     },
     {
@@ -2058,8 +2058,8 @@ Strategic leadership in healthcare involves guiding organizations through comple
       options: [
         "Resource Allocation",
         "Staff Recruitment",
-        "Building Maintenance",
-        "Equipment Purchase"
+        "Equipment Purchase",
+        "Building Maintenance"
       ],
       correctAnswer: 0,
       explanation: "Resource Allocation requires balancing patient care needs with financial constraints when distributing limited resources."
@@ -2068,48 +2068,48 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 4,
       question: "What must administrators stay current with for legal operation?",
       options: [
-        "Changing regulations",
+        "Community events",
         "Staff personal lives",
         "Local restaurants",
-        "Community events"
+        "Changing regulations"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Administrators must stay current with changing regulations from health departments and accreditation bodies for legal hospital operation."
     },
     {
       id: 5,
       question: "What involves root cause analysis and collaborative solutions?",
       options: [
-        "Healthcare problem-solving",
         "Financial investing",
+        "Healthcare problem-solving",
         "Building construction",
         "Landscaping design"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Healthcare problem-solving techniques often involve root cause analysis and collaborative solution development with clinical teams."
     },
     {
       id: 6,
       question: "What shifts focus from individual illnesses to community health?",
       options: [
-        "Population Health Management",
-        "Emergency Medicine",
         "Surgical Specialization",
-        "Diagnostic Testing"
+        "Diagnostic Testing",
+        "Emergency Medicine",
+        "Population Health Management"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Population Health Management shifts focus from treating individual illnesses to improving the health of entire communities."
     },
     {
       id: 7,
       question: "What links hospital payments to patient outcomes?",
       options: [
-        "Value-Based Care Models",
         "Fee-for-Service Models",
+        "Value-Based Care Models",
         "Charity Care Systems",
         "Research Funding"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Value-Based Care Models link hospital payments to patient outcomes rather than service volume, requiring care process redesign."
     },
     
@@ -2119,9 +2119,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What reduces wait times and prevents bottlenecks?",
       options: [
         "Effective patient flow management",
+        "Longer hours",
         "More waiting rooms",
-        "Fewer patients",
-        "Longer hours"
+        "Fewer patients"
       ],
       correctAnswer: 0,
       explanation: "Effective patient flow management reduces wait times, prevents bottlenecks, and improves patient satisfaction throughout their journey."
@@ -2142,48 +2142,48 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 10,
       question: "What establishes clear expectations between departments?",
       options: [
-        "Service Level Agreements",
         "Informal Understandings",
+        "Text Messages",
         "Verbal Promises",
-        "Text Messages"
+        "Service Level Agreements"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Service Level Agreements formally establish clear expectations for response times and quality standards between departments."
     },
     {
       id: 11,
       question: "What balances patient care needs with staff availability?",
       options: [
-        "Staff Scheduling Systems",
+        "Volunteer Only",
         "Random Assignment",
         "First-Come Scheduling",
-        "Volunteer Only"
+        "Staff Scheduling Systems"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Staff Scheduling Systems balance patient care needs with staff availability while considering skill mix and regulations."
     },
     {
       id: 12,
       question: "What uses Plan-Do-Study-Act cycles for improvement?",
       options: [
-        "Continuous Quality Improvement",
+        "Staff Parties",
         "Emergency Response",
         "Budget Planning",
-        "Staff Parties"
+        "Continuous Quality Improvement"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Continuous Quality Improvement often uses Plan-Do-Study-Act cycles to regularly assess and improve processes."
     },
     {
       id: 13,
       question: "What provides standardized care plans for common conditions?",
       options: [
-        "Clinical Pathways",
         "Individual Preferences",
         "Trial and Error",
+        "Clinical Pathways",
         "Old Traditions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Clinical Pathways provide standardized, evidence-based care plans for common conditions, reducing variation."
     },
     {
@@ -2191,9 +2191,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What integrates patient information across departments?",
       options: [
         "Electronic Health Records",
+        "Paper Charts",
         "Separate Files",
-        "Memory Recall",
-        "Paper Charts"
+        "Memory Recall"
       ],
       correctAnswer: 0,
       explanation: "Electronic Health Records integrate patient information across departments, improving care coordination."
@@ -2204,36 +2204,36 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 15,
       question: "What collects insurance information at care beginning?",
       options: [
-        "Patient Registration",
-        "Discharge Planning",
         "Medical Treatment",
-        "Follow-up Calls"
+        "Patient Registration",
+        "Follow-up Calls",
+        "Discharge Planning"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Patient Registration Processes collect accurate insurance information at care beginning to prevent billing delays."
     },
     {
       id: 16,
       question: "Which revenue cycle stage involves scheduling?",
       options: [
+        "Post-Cycle Processes",
         "Front-End Processes",
-        "Mid-Cycle Processes",
         "Back-End Processes",
-        "Post-Cycle Processes"
+        "Mid-Cycle Processes"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Front-End Processes involve scheduling, registration, and insurance verification in the revenue cycle."
     },
     {
       id: 17,
       question: "What tracks expenses by department and service?",
       options: [
-        "Cost Accounting Systems",
-        "Cash Registers",
         "Memory",
-        "Guessing"
+        "Cash Registers",
+        "Guessing",
+        "Cost Accounting Systems"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Cost Accounting Systems track expenses by department, service line, and patient type for decision-making."
     },
     {
@@ -2242,8 +2242,8 @@ Strategic leadership in healthcare involves guiding organizations through comple
       options: [
         "Operational Budgeting",
         "Capital Budgeting",
-        "Strategic Planning",
-        "Market Research"
+        "Market Research",
+        "Strategic Planning"
       ],
       correctAnswer: 0,
       explanation: "Operational Budgeting projects revenues and expenses for daily hospital operations."
@@ -2252,24 +2252,24 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 19,
       question: "What requires justifying all expenses each period?",
       options: [
-        "Zero-Based Budgeting",
-        "Historical Budgeting",
         "Incremental Budgeting",
-        "Traditional Budgeting"
+        "Traditional Budgeting",
+        "Zero-Based Budgeting",
+        "Historical Budgeting"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Zero-Based Budgeting requires justifying all expenses each period rather than basing on previous years."
     },
     {
       id: 20,
       question: "What is the list of billable services and prices?",
       options: [
-        "Charge Description Master",
         "Staff Directory",
+        "Charge Description Master",
         "Policy Manual",
         "Phone Book"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Charge Description Master is the comprehensive list of all billable services and their prices."
     },
     {
@@ -2277,9 +2277,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What shifts from fee-for-service to quality payments?",
       options: [
         "Value-Based Payment Models",
-        "Traditional Billing",
         "Cash Payments",
-        "Charity Care"
+        "Charity Care",
+        "Traditional Billing"
       ],
       correctAnswer: 0,
       explanation: "Value-Based Payment Models shift from fee-for-service to payments based on quality and outcomes."
@@ -2291,8 +2291,8 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What analyzes patient volumes for staffing needs?",
       options: [
         "Staffing Needs Assessment",
-        "Budget Review",
         "Patient Survey",
+        "Budget Review",
         "Guesswork"
       ],
       correctAnswer: 0,
@@ -2303,9 +2303,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What ensures future leadership continuity?",
       options: [
         "Succession Planning",
+        "External Search",
         "Emergency Hiring",
-        "Temporary Staff",
-        "External Search"
+        "Temporary Staff"
       ],
       correctAnswer: 0,
       explanation: "Succession Planning identifies and develops future leaders to ensure continuity in key positions."
@@ -2314,24 +2314,24 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 24,
       question: "What verifies licenses and disciplinary records?",
       options: [
-        "Credential Verification",
         "Reference Check",
         "Interview",
+        "Credential Verification",
         "Trial Period"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Credential Verification ensures practitioners have valid licenses and clean disciplinary records."
     },
     {
       id: 25,
       question: "What introduces new staff to hospital policies?",
       options: [
+        "Self-Learning",
         "Orientation Programs",
         "Social Events",
-        "Trial by Fire",
-        "Self-Learning"
+        "Trial by Fire"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Orientation Programs introduce new staff to hospital policies, safety protocols, and organizational culture."
     },
     {
@@ -2339,8 +2339,8 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What measures staff satisfaction and commitment?",
       options: [
         "Healthcare Engagement Surveys",
-        "Patient Counts",
         "Revenue Reports",
+        "Patient Counts",
         "Supply Orders"
       ],
       correctAnswer: 0,
@@ -2350,12 +2350,12 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 27,
       question: "What helps staff provide culturally responsive care?",
       options: [
-        "Cultural Competency Training",
         "Language Barriers",
+        "Cultural Competency Training",
         "Assumptions",
         "Uniform Approach"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Cultural Competency Training helps staff provide care respecting diverse patient backgrounds and beliefs."
     },
     
@@ -2365,9 +2365,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What examines resources in quality assessment?",
       options: [
         "Structure",
-        "Process",
         "Outcome",
-        "Experience"
+        "Experience",
+        "Process"
       ],
       correctAnswer: 0,
       explanation: "Structure examines resources like facilities and staff in the Structure-Process-Outcome quality model."
@@ -2376,72 +2376,72 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 29,
       question: "What encourages error reporting without fear?",
       options: [
-        "Error Reporting Culture",
-        "Blame Culture",
         "Secrecy",
-        "Punishment"
+        "Error Reporting Culture",
+        "Punishment",
+        "Blame Culture"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Error Reporting Culture encourages staff to report mistakes without fear to enable organizational learning."
     },
     {
       id: 30,
       question: "What identifies underlying system failures?",
       options: [
-        "Root Cause Analysis",
-        "Surface Review",
+        "Blaming",
         "Quick Fix",
-        "Blaming"
+        "Root Cause Analysis",
+        "Surface Review"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Root Cause Analysis identifies underlying system failures in safety events rather than individual blame."
     },
     {
       id: 31,
       question: "What applies to all patients regardless of diagnosis?",
       options: [
-        "Standard Precautions",
+        "Selected Use",
         "Special Protocols",
         "Optional Measures",
-        "Selected Use"
+        "Standard Precautions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Standard Precautions like hand hygiene apply to all patients to prevent infection transmission."
     },
     {
       id: 32,
       question: "What compares medication lists at care transitions?",
       options: [
-        "Medication Reconciliation",
-        "Drug Ordering",
+        "Prescription Writing",
         "Pharmacy Stocking",
-        "Prescription Writing"
+        "Drug Ordering",
+        "Medication Reconciliation"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Medication Reconciliation compares medication lists at admission, transfer, and discharge to avoid errors."
     },
     {
       id: 33,
       question: "What synthesizes research into clinical recommendations?",
       options: [
-        "Evidence-Based Guidelines",
         "Traditional Practices",
         "Individual Preferences",
+        "Evidence-Based Guidelines",
         "Anecdotes"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Evidence-Based Practice Guidelines synthesize research into clinical care recommendations."
     },
     {
       id: 34,
       question: "What focuses on eliminating non-value activities?",
       options: [
-        "Lean Healthcare Principles",
-        "Waste Acceptance",
         "Process Complication",
-        "Redundancy"
+        "Lean Healthcare Principles",
+        "Redundancy",
+        "Waste Acceptance"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Lean Healthcare Principles focus on eliminating waste like waiting and transportation from processes."
     },
     
@@ -2451,9 +2451,9 @@ Strategic leadership in healthcare involves guiding organizations through comple
       question: "What inspires staff through vision and motivation?",
       options: [
         "Transformational Leadership",
+        "Passive Leadership",
         "Transactional Leadership",
-        "Autocratic Leadership",
-        "Passive Leadership"
+        "Autocratic Leadership"
       ],
       correctAnswer: 0,
       explanation: "Transformational Leadership inspires staff to exceed expectations through vision and motivation."
@@ -2462,60 +2462,60 @@ Strategic leadership in healthcare involves guiding organizations through comple
       id: 36,
       question: "What analyzes external factors affecting healthcare?",
       options: [
-        "Environmental Scanning",
-        "Internal Review",
         "Budget Check",
-        "Staff Evaluation"
+        "Staff Evaluation",
+        "Environmental Scanning",
+        "Internal Review"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Environmental Scanning analyzes external factors like demographic changes and technology advances."
     },
     {
       id: 37,
       question: "What evaluates organizational change capacity?",
       options: [
-        "Change Readiness Assessment",
         "Financial Audit",
-        "Building Inspection",
-        "Equipment Check"
+        "Equipment Check",
+        "Change Readiness Assessment",
+        "Building Inspection"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Change Readiness Assessment evaluates organizational capacity for transformation including staff attitudes."
     },
     {
       id: 38,
       question: "What prepares physicians for administrative roles?",
       options: [
-        "Clinical Leadership Development",
-        "Medical School",
         "Residency",
-        "Continuing Education"
+        "Continuing Education",
+        "Clinical Leadership Development",
+        "Medical School"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Clinical Leadership Development prepares physicians for administrative roles while maintaining clinical credibility."
     },
     {
       id: 39,
       question: "What systematically generates new ideas?",
       options: [
-        "Innovation Pipeline Development",
-        "Traditional Thinking",
         "Status Quo",
-        "Resistance"
+        "Innovation Pipeline Development",
+        "Resistance",
+        "Traditional Thinking"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Innovation Pipeline Development systematically generates, evaluates, and implements new ideas."
     },
     {
       id: 40,
       question: "What identifies potential emergencies and protocols?",
       options: [
-        "Crisis Preparedness Planning",
-        "Reactive Response",
         "Improvisation",
-        "Hope"
+        "Hope",
+        "Reactive Response",
+        "Crisis Preparedness Planning"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Crisis Preparedness Planning identifies potential emergencies and establishes response protocols."
     }
   ]

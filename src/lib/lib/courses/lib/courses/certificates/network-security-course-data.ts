@@ -129,12 +129,12 @@ Structured approach to identifying security requirements:
           id: 1,
           question: "What are Advanced Persistent Threats (APTs)?",
           options: [
-            "Simple automated attacks",
             "Long-term, targeted attacks by organized groups",
-            "Accidental security breaches",
-            "Minor vulnerabilities in software"
+            "Simple automated attacks",
+            "Minor vulnerabilities in software",
+            "Accidental security breaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "APTs are sophisticated, long-term attacks typically conducted by organized groups with specific objectives."
         },
         {
@@ -142,47 +142,47 @@ Structured approach to identifying security requirements:
           question: "What is a zero-day exploit?",
           options: [
             "Attack using known vulnerabilities",
-            "Attack targeting unknown vulnerabilities",
             "Attack happening at midnight",
-            "Simple phishing attempt"
+            "Simple phishing attempt",
+            "Attack targeting unknown vulnerabilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Zero-day exploits target vulnerabilities that are unknown to the software vendor, with no patches available."
         },
         {
           id: 3,
           question: "What does threat intelligence involve?",
           options: [
+            "Blocking all internet traffic",
             "Only installing antivirus",
             "Systematic collection and analysis of threat information",
-            "Changing passwords regularly",
-            "Blocking all internet traffic"
+            "Changing passwords regularly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Threat intelligence involves collecting, analyzing, and applying information about current and emerging threats."
         },
         {
           id: 4,
           question: "What are Indicators of Compromise (IOCs)?",
           options: [
-            "Security policy documents",
-            "Artifacts observed in cyber attacks",
+            "Network bandwidth measurements",
             "Employee training materials",
-            "Network bandwidth measurements"
+            "Security policy documents",
+            "Artifacts observed in cyber attacks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "IOCs are pieces of forensic data that identify potentially malicious activity on systems or networks."
         },
         {
           id: 5,
           question: "What is lateral movement in attacks?",
           options: [
-            "Initial network entry",
             "Spreading within network after initial compromise",
             "Data exfiltration process",
+            "Initial network entry",
             "Attack planning phase"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Lateral movement refers to techniques attackers use to move through a network after gaining initial access."
         },
         {
@@ -190,23 +190,23 @@ Structured approach to identifying security requirements:
           question: "What does STRIDE stand for in threat modeling?",
           options: [
             "Security Techniques for Risk Identification and Defense Evaluation",
-            "Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",
             "System Threat Response and Incident Defense Evaluation",
-            "Standard Threat Identification and Defense Enumeration"
+            "Standard Threat Identification and Defense Enumeration",
+            "Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "STRIDE is a threat modeling framework covering Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege."
         },
         {
           id: 7,
           question: "What is threat hunting?",
           options: [
-            "Waiting for security alerts",
-            "Proactive search for threats not detected by alerts",
+            "Basic firewall configuration",
             "Automated vulnerability scanning",
-            "Basic firewall configuration"
+            "Waiting for security alerts",
+            "Proactive search for threats not detected by alerts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Threat hunting involves proactively searching through networks to detect and isolate advanced threats."
         },
         {
@@ -215,8 +215,8 @@ Structured approach to identifying security requirements:
           options: [
             "Attacks on shipping companies",
             "Compromising software vendors or service providers",
-            "Attacks using supply cables",
-            "Inventory management system breaches"
+            "Inventory management system breaches",
+            "Attacks using supply cables"
           ],
           correctAnswer: 1,
           explanation: "Supply chain attacks target less-secure elements in the supply chain to compromise the final target."
@@ -225,10 +225,10 @@ Structured approach to identifying security requirements:
           id: 9,
           question: "What is User Entity Behavior Analytics (UEBA)?",
           options: [
-            "Network traffic analysis",
+            "Database optimization",
             "Analysis of user activities and behaviors",
-            "System performance monitoring",
-            "Database optimization"
+            "Network traffic analysis",
+            "System performance monitoring"
           ],
           correctAnswer: 1,
           explanation: "UEBA uses analytics to identify insider threats, targeted attacks, and financial fraud by analyzing user behavior."
@@ -237,22 +237,22 @@ Structured approach to identifying security requirements:
           id: 10,
           question: "What does CVSS stand for?",
           options: [
-            "Common Vulnerability Scoring System",
             "Critical Vulnerability Security Standard",
             "Computer Virus Scanning System",
+            "Common Vulnerability Scoring System",
             "Cybersecurity Vulnerability Severity Scale"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CVSS provides a way to capture the principal characteristics of vulnerabilities and produce a numerical score."
         },
         {
           id: 11,
           question: "What are TTPs in threat intelligence?",
           options: [
-            "Technical Training Programs",
-            "Tactics, Techniques, and Procedures of adversaries",
             "Total Threat Protection Systems",
-            "Time-Based Threat Protocols"
+            "Tactics, Techniques, and Procedures of adversaries",
+            "Time-Based Threat Protocols",
+            "Technical Training Programs"
           ],
           correctAnswer: 1,
           explanation: "TTPs describe how threat actors operate, including their methods, tools, and attack patterns."
@@ -261,10 +261,10 @@ Structured approach to identifying security requirements:
           id: 12,
           question: "What is the first step in threat modeling?",
           options: [
-            "Implementing controls",
+            "Installing security software",
             "Identifying assets to protect",
             "Writing security policies",
-            "Installing security software"
+            "Implementing controls"
           ],
           correctAnswer: 1,
           explanation: "Threat modeling begins with identifying and understanding what assets need protection."
@@ -274,71 +274,71 @@ Structured approach to identifying security requirements:
           question: "What is OSINT?",
           options: [
             "Operating System Intelligence",
+            "Organizational Security Integration Testing",
             "Open Source Intelligence from public sources",
-            "Official Security Incident Notification",
-            "Organizational Security Integration Testing"
+            "Official Security Incident Notification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "OSINT refers to intelligence collected from publicly available sources for security purposes."
         },
         {
           id: 14,
           question: "What do behavioral analytics establish?",
           options: [
-            "Security policy compliance",
             "Normal behavior patterns for anomaly detection",
+            "Security policy compliance",
             "Network bandwidth limits",
             "User access permissions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Behavioral analytics establish baselines of normal activity to detect anomalous behavior."
         },
         {
           id: 15,
           question: "What are insider threats?",
           options: [
-            "Only external hackers",
             "Threats from within organization including employees",
+            "Only external hackers",
             "Natural disasters only",
             "Hardware failures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Insider threats come from people within the organization, including employees, contractors, and partners."
         },
         {
           id: 16,
           question: "What is vulnerability assessment?",
           options: [
+            "Network speed testing",
             "Only penetration testing",
             "Systematic identification of security weaknesses",
-            "Employee background checks",
-            "Network speed testing"
+            "Employee background checks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Vulnerability assessment systematically identifies, quantifies, and prioritizes vulnerabilities."
         },
         {
           id: 17,
           question: "What does DREAD stand for?",
           options: [
-            "Detection, Response, Evaluation, Analysis, Documentation",
             "Damage, Reproducibility, Exploitability, Affected Users, Discoverability",
-            "Defense, Risk, Evaluation, Assessment, Determination",
-            "Data, Risk, Exploit, Attack, Damage"
+            "Data, Risk, Exploit, Attack, Damage",
+            "Detection, Response, Evaluation, Analysis, Documentation",
+            "Defense, Risk, Evaluation, Assessment, Determination"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "DREAD is a risk assessment model for threats based on Damage, Reproducibility, Exploitability, Affected Users, and Discoverability."
         },
         {
           id: 18,
           question: "What is attack tree modeling?",
           options: [
-            "Network topology mapping",
             "Visual representation of attack paths",
-            "Tree-based file system",
-            "Organizational chart for security team"
+            "Organizational chart for security team",
+            "Network topology mapping",
+            "Tree-based file system"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Attack trees provide a hierarchical diagram showing how an asset or target might be attacked."
         },
         {
@@ -357,12 +357,12 @@ Structured approach to identifying security requirements:
           id: 20,
           question: "What is hypothesis-driven threat hunting?",
           options: [
+            "Waiting for user reports",
             "Random network scanning",
             "Starting with 'what if' scenarios",
-            "Waiting for user reports",
             "Automated alert response"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hypothesis-driven hunting starts with specific scenarios or questions about potential threats."
         }
       ]
@@ -492,94 +492,94 @@ Effective security requires multiple layers of protection, ensuring that if one 
           id: 1,
           question: "What is defense-in-depth architecture?",
           options: [
+            "Only endpoint protection",
             "Single strong firewall",
             "Multiple layers of security controls",
-            "Only endpoint protection",
             "Basic password policy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Defense-in-depth uses multiple, layered security controls so if one fails, others provide protection."
         },
         {
           id: 2,
           question: "What does Zero Trust architecture principle state?",
           options: [
-            "Trust all internal traffic",
             "Never trust, always verify",
+            "Only trust encrypted traffic",
             "Trust but verify occasionally",
-            "Only trust encrypted traffic"
+            "Trust all internal traffic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Zero Trust assumes no implicit trust and requires continuous verification of all access requests."
         },
         {
           id: 3,
           question: "What is network segmentation purpose?",
           options: [
-            "Increase network speed",
             "Limit lateral movement during breaches",
             "Reduce cable costs",
+            "Increase network speed",
             "Simplify network diagrams"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Network segmentation divides networks into smaller zones to contain breaches and limit attacker movement."
         },
         {
           id: 4,
           question: "What does MFA stand for?",
           options: [
-            "Multi-Function Authentication",
-            "Multi-Factor Authentication",
+            "Managed Firewall Access",
             "Multiple File Access",
-            "Managed Firewall Access"
+            "Multi-Factor Authentication",
+            "Multi-Function Authentication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "MFA requires multiple verification factors for authentication, significantly improving security."
         },
         {
           id: 5,
           question: "What is RBAC?",
           options: [
-            "Rule-Based Access Control",
-            "Role-Based Access Control",
+            "Resource-Based Access Control",
             "Risk-Based Access Control",
-            "Resource-Based Access Control"
+            "Role-Based Access Control",
+            "Rule-Based Access Control"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "RBAC grants access based on job roles rather than individual user assignments."
         },
         {
           id: 6,
           question: "What does TLS provide?",
           options: [
-            "Network segmentation",
             "Secure communications encryption",
             "User authentication only",
+            "Network segmentation",
             "Malware detection"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "TLS provides encryption, authentication, and integrity for network communications."
         },
         {
           id: 7,
           question: "What is a DMZ?",
           options: [
-            "Demilitarized Zone for public-facing services",
-            "Data Management Zone",
             "Default Monitoring Zone",
-            "Direct Memory Zone"
+            "Demilitarized Zone for public-facing services",
+            "Direct Memory Zone",
+            "Data Management Zone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "A DMZ is a network segment that sits between internal networks and untrusted external networks."
         },
         {
           id: 8,
           question: "What does the shared responsibility model define?",
           options: [
-            "Employee job roles",
+            "Budget allocation",
             "Security responsibilities in cloud computing",
-            "Team meeting schedules",
-            "Budget allocation"
+            "Employee job roles",
+            "Team meeting schedules"
           ],
           correctAnswer: 1,
           explanation: "The shared responsibility model defines which security aspects are managed by cloud provider vs customer."
@@ -588,36 +588,36 @@ Effective security requires multiple layers of protection, ensuring that if one 
           id: 9,
           question: "What is least privilege principle?",
           options: [
-            "Give administrators all access",
-            "Minimum access necessary for tasks",
+            "No access restrictions",
             "Equal access for all users",
-            "No access restrictions"
+            "Minimum access necessary for tasks",
+            "Give administrators all access"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Least privilege grants users only the minimum access necessary to perform their job functions."
         },
         {
           id: 10,
           question: "What does NAC stand for?",
           options: [
-            "Network Access Control",
-            "Network Administration Center",
             "National Access Code",
+            "Network Administration Center",
+            "Network Access Control",
             "Network Assessment Checklist"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NAC controls device access to networks based on security policies and device health."
         },
         {
           id: 11,
           question: "What is micro-segmentation?",
           options: [
-            "Large network zones",
             "Granular network segmentation down to workload level",
-            "Microphone security",
-            "Small firewall rules"
+            "Small firewall rules",
+            "Large network zones",
+            "Microphone security"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Micro-segmentation creates fine-grained security zones around individual workloads or applications."
         },
         {
@@ -637,9 +637,9 @@ Effective security requires multiple layers of protection, ensuring that if one 
           question: "What is SSO?",
           options: [
             "Single Sign-On for centralized authentication",
+            "Secure Socket Organization",
             "Super Secure Operations",
-            "System Security Officer",
-            "Secure Socket Organization"
+            "System Security Officer"
           ],
           correctAnswer: 0,
           explanation: "SSO allows users to authenticate once and access multiple systems without re-entering credentials."
@@ -648,24 +648,24 @@ Effective security requires multiple layers of protection, ensuring that if one 
           id: 14,
           question: "What does ABAC consider for access decisions?",
           options: [
-            "Only user identity",
-            "Multiple attributes like role, time, location",
+            "Only network location",
             "Only file type",
-            "Only network location"
+            "Multiple attributes like role, time, location",
+            "Only user identity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ABAC makes access decisions based on multiple attributes including user, resource, and environment characteristics."
         },
         {
           id: 15,
           question: "What are HSMs used for?",
           options: [
-            "Network routing",
-            "Secure cryptographic key storage",
             "User authentication",
-            "Data backup"
+            "Network routing",
+            "Data backup",
+            "Secure cryptographic key storage"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "HSMs are specialized hardware devices that securely generate, store, and manage cryptographic keys."
         },
         {
@@ -673,57 +673,57 @@ Effective security requires multiple layers of protection, ensuring that if one 
           question: "What does DNSSEC provide?",
           options: [
             "Faster DNS resolution",
-            "Authentication and integrity for DNS responses",
+            "DNS caching",
             "DNS load balancing",
-            "DNS caching"
+            "Authentication and integrity for DNS responses"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "DNSSEC adds cryptographic signatures to DNS records to prevent spoofing and cache poisoning attacks."
         },
         {
           id: 17,
           question: "What is configuration hardening?",
           options: [
-            "Making configurations more complex",
             "Removing unnecessary services and securing defaults",
+            "Increasing configuration flexibility",
             "Hardening server cases",
-            "Increasing configuration flexibility"
+            "Making configurations more complex"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Hardening involves securing systems by reducing attack surface through configuration changes."
         },
         {
           id: 18,
           question: "What is just-in-time access?",
           options: [
-            "Permanent administrative access",
-            "Temporary elevation when specifically needed",
             "Access during business hours only",
-            "Access without approval"
+            "Permanent administrative access",
+            "Access without approval",
+            "Temporary elevation when specifically needed"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Just-in-time access provides temporary, approved elevation of privileges for specific tasks."
         },
         {
           id: 19,
           question: "What does WAF protect?",
           options: [
-            "Email servers",
-            "Web applications from attacks",
+            "User workstations",
             "Network cables",
-            "User workstations"
+            "Email servers",
+            "Web applications from attacks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "WAFs monitor and filter HTTP traffic to protect web applications from various attacks."
         },
         {
           id: 20,
           question: "What is identity federation?",
           options: [
-            "Creating multiple identities",
+            "Identity document creation",
             "Linking identities across different systems",
-            "Federal identity regulations",
-            "Identity document creation"
+            "Creating multiple identities",
+            "Federal identity regulations"
           ],
           correctAnswer: 1,
           explanation: "Identity federation allows users to use the same identity across different systems or organizations."
@@ -866,45 +866,45 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           question: "What does SIEM stand for?",
           options: [
             "Security Incident and Event Management",
-            "System Information and Event Monitoring",
             "Security Information and Event Management",
-            "System Integration and Event Management"
+            "System Integration and Event Management",
+            "System Information and Event Monitoring"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "SIEM provides real-time analysis of security alerts generated by applications and network hardware."
         },
         {
           id: 2,
           question: "What is the first phase of incident response?",
           options: [
-            "Containment",
             "Preparation",
-            "Eradication",
-            "Recovery"
+            "Containment",
+            "Recovery",
+            "Eradication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Preparation is the first phase, involving planning, training, and tool preparation before incidents occur."
         },
         {
           id: 3,
           question: "What does XDR provide?",
           options: [
+            "Network monitoring only",
             "Only endpoint protection",
             "Integrated detection and response across multiple layers",
-            "Network monitoring only",
             "Basic antivirus scanning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "XDR integrates multiple security products for cross-layer detection, investigation, and response."
         },
         {
           id: 4,
           question: "What is chain of custody in forensics?",
           options: [
-            "Evidence storage location",
+            "Police investigation methods",
             "Documentation of evidence handling",
-            "Courtroom procedures",
-            "Police investigation methods"
+            "Evidence storage location",
+            "Courtroom procedures"
           ],
           correctAnswer: 1,
           explanation: "Chain of custody documents who handled evidence, when, and for what purpose to maintain integrity."
@@ -913,22 +913,22 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           id: 5,
           question: "What does SOAR automate?",
           options: [
-            "Only alert generation",
-            "Security workflows and response playbooks",
+            "User training",
             "Network configuration",
-            "User training"
+            "Only alert generation",
+            "Security workflows and response playbooks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "SOAR automates security operations workflows including investigation, response, and reporting."
         },
         {
           id: 6,
           question: "What is hypothesis-based threat hunting?",
           options: [
-            "Random network scanning",
-            "Starting with specific threat scenarios",
             "Waiting for alerts",
-            "Automated vulnerability scanning"
+            "Starting with specific threat scenarios",
+            "Automated vulnerability scanning",
+            "Random network scanning"
           ],
           correctAnswer: 1,
           explanation: "Hypothesis-based hunting starts with specific questions about potential threats in the environment."
@@ -938,23 +938,23 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           question: "What phase involves root cause analysis?",
           options: [
             "Identification",
-            "Eradication",
+            "Preparation",
             "Containment",
-            "Preparation"
+            "Eradication"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Eradication phase involves determining root cause and removing all traces of the incident."
         },
         {
           id: 8,
           question: "What does memory forensics analyze?",
           options: [
+            "Network configurations",
             "Hard drive contents",
             "RAM contents for volatile artifacts",
-            "Network configurations",
             "User documents"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Memory forensics examines RAM contents to find evidence that disappears when power is lost."
         },
         {
@@ -963,8 +963,8 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           options: [
             "Annual audit only",
             "Ongoing automated compliance monitoring",
-            "Manual checklist review",
-            "Regulatory reading"
+            "Regulatory reading",
+            "Manual checklist review"
           ],
           correctAnswer: 1,
           explanation: "Continuous compliance uses automation to constantly monitor and enforce compliance requirements."
@@ -973,24 +973,24 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           id: 10,
           question: "What are security KPIs?",
           options: [
-            "Key Problem Indicators",
             "Key Performance Indicators for security",
             "Keyboard Performance Indicators",
-            "Knowledge Practice Items"
+            "Knowledge Practice Items",
+            "Key Problem Indicators"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Security KPIs measure the performance and effectiveness of security operations and controls."
         },
         {
           id: 11,
           question: "What does EDR provide?",
           options: [
-            "Network traffic blocking",
-            "Detailed endpoint visibility and response",
             "Email filtering",
-            "Web application protection"
+            "Web application protection",
+            "Detailed endpoint visibility and response",
+            "Network traffic blocking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "EDR provides continuous monitoring and response capabilities for endpoint security threats."
         },
         {
@@ -998,11 +998,11 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           question: "What is containment in incident response?",
           options: [
             "Finding root cause",
+            "Reporting to management",
             "Limiting damage and preventing spread",
-            "Removing malware",
-            "Reporting to management"
+            "Removing malware"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Containment involves immediate actions to limit the impact and prevent the incident from spreading."
         },
         {
@@ -1011,8 +1011,8 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           options: [
             "Only firewall logs",
             "Network traffic and packet data",
-            "User behavior only",
-            "System configurations"
+            "System configurations",
+            "User behavior only"
           ],
           correctAnswer: 1,
           explanation: "Network forensics analyzes network traffic, packets, and flow data to investigate security incidents."
@@ -1022,11 +1022,11 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           question: "What are security playbooks?",
           options: [
             "Security training manuals",
-            "Documented response procedures for specific incidents",
             "Game strategy books",
-            "Policy documents"
+            "Policy documents",
+            "Documented response procedures for specific incidents"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Playbooks provide step-by-step procedures for responding to specific types of security incidents."
         },
         {
@@ -1034,69 +1034,69 @@ Modern SOCs provide centralized security monitoring, analysis, and response capa
           question: "What is indicator-based hunting?",
           options: [
             "Random searching",
+            "Manual log review",
             "Searching for known Indicators of Compromise",
-            "Guessing about threats",
-            "Manual log review"
+            "Guessing about threats"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Indicator-based hunting searches for known IOCs that suggest malicious activity."
         },
         {
           id: 16,
           question: "What phase includes lessons learned?",
           options: [
-            "Preparation",
             "Recovery",
             "Containment",
-            "Identification"
+            "Identification",
+            "Preparation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Recovery phase includes documenting lessons learned to improve future incident response."
         },
         {
           id: 17,
           question: "What does automated response provide?",
           options: [
+            "No human oversight needed",
             "Human decision replacement",
-            "Faster, consistent initial response actions",
             "Complete security automation",
-            "No human oversight needed"
+            "Faster, consistent initial response actions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Automated response provides fast, consistent initial actions while maintaining human oversight."
         },
         {
           id: 18,
           question: "What is evidence preservation?",
           options: [
-            "Destroying evidence",
             "Protecting and documenting digital evidence",
             "Ignoring evidence",
+            "Destroying evidence",
             "Sharing evidence publicly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Evidence preservation ensures digital evidence is collected, protected, and documented properly."
         },
         {
           id: 19,
           question: "What are compliance requirements mapping?",
           options: [
+            "Employee location tracking",
             "Geographic mapping",
             "Linking security controls to regulations",
-            "Network topology mapping",
-            "Employee location tracking"
+            "Network topology mapping"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Requirements mapping connects specific security controls to regulatory or standard requirements."
         },
         {
           id: 20,
           question: "What does executive reporting communicate?",
           options: [
-            "Technical details only",
+            "Individual alert information",
             "Business risk and security posture",
             "Daily operational tasks",
-            "Individual alert information"
+            "Technical details only"
           ],
           correctAnswer: 1,
           explanation: "Executive reporting translates technical security information into business risk and strategic insights."
@@ -1258,8 +1258,8 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           options: [
             "Advanced Encryption Standard",
             "Automated Encryption System",
-            "Advanced Electronic Security",
-            "Automated Security Encryption"
+            "Automated Security Encryption",
+            "Advanced Electronic Security"
           ],
           correctAnswer: 0,
           explanation: "AES is the current standard symmetric encryption algorithm adopted worldwide."
@@ -1268,9 +1268,9 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           id: 2,
           question: "What is the main advantage of ECC over RSA?",
           options: [
-            "Easier to implement",
-            "Smaller keys for same security level",
             "Faster for all operations",
+            "Smaller keys for same security level",
+            "Easier to implement",
             "More widely supported"
           ],
           correctAnswer: 1,
@@ -1280,12 +1280,12 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           id: 3,
           question: "What does PKI stand for?",
           options: [
-            "Private Key Infrastructure",
             "Public Key Infrastructure",
-            "Personal Key Identification",
-            "Protected Key Integration"
+            "Private Key Infrastructure",
+            "Protected Key Integration",
+            "Personal Key Identification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "PKI provides a framework for managing digital certificates and public-key encryption."
         },
         {
@@ -1293,11 +1293,11 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What property ensures hash function outputs appear random?",
           options: [
             "Deterministic",
-            "Avalanche effect",
             "Fast computation",
-            "Fixed output size"
+            "Fixed output size",
+            "Avalanche effect"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Avalanche effect means small input changes produce significantly different outputs."
         },
         {
@@ -1305,9 +1305,9 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What provides non-repudiation in digital signatures?",
           options: [
             "Only the signer has private key",
+            "Easy verification",
             "Fast signature generation",
-            "Small signature size",
-            "Easy verification"
+            "Small signature size"
           ],
           correctAnswer: 0,
           explanation: "Non-repudiation comes from the fact that only the signer possesses the private key used to create signatures."
@@ -1317,11 +1317,11 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What does TLS handshake protocol establish?",
           options: [
             "Only encryption method",
+            "Only client identity",
             "Parameters, authentication, and session keys",
-            "Only server identity",
-            "Only client identity"
+            "Only server identity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "TLS handshake negotiates cryptographic parameters, authenticates parties, and establishes session keys."
         },
         {
@@ -1329,21 +1329,21 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What are HSMs used for?",
           options: [
             "Network routing",
-            "Secure cryptographic key management",
+            "Data backup",
             "User authentication",
-            "Data backup"
+            "Secure cryptographic key management"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "HSMs provide secure key generation, storage, and cryptographic operations in tamper-resistant hardware."
         },
         {
           id: 8,
           question: "What does PFS ensure in TLS?",
           options: [
-            "Fast connection establishment",
+            "Forward compatibility",
             "Session keys not derived from long-term keys",
             "Permanent encryption",
-            "Forward compatibility"
+            "Fast connection establishment"
           ],
           correctAnswer: 1,
           explanation: "Perfect Forward Secrecy ensures compromise of long-term keys doesn't compromise past session keys."
@@ -1353,45 +1353,45 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What algorithm threatens current asymmetric cryptography?",
           options: [
             "Grover's algorithm",
+            "RSA algorithm",
             "Shor's algorithm",
-            "AES algorithm",
-            "RSA algorithm"
+            "AES algorithm"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Shor's algorithm, when run on quantum computers, can break RSA and ECC cryptography."
         },
         {
           id: 10,
           question: "What is X.509?",
           options: [
+            "Encryption algorithm",
             "Network protocol",
             "Digital certificate format standard",
-            "Encryption algorithm",
             "Key exchange protocol"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "X.509 is the standard format for public key certificates used in many Internet protocols."
         },
         {
           id: 11,
           question: "What does IPsec ESP provide?",
           options: [
-            "Only authentication",
             "Encryption and authentication",
             "Only key exchange",
+            "Only authentication",
             "Only integrity checking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "ESP provides confidentiality (encryption), authentication, and integrity for IP packets."
         },
         {
           id: 12,
           question: "What is collision resistance in hash functions?",
           options: [
-            "Same input produces same output",
-            "Hard to find two inputs with same output",
             "Fast computation",
-            "Fixed output size"
+            "Hard to find two inputs with same output",
+            "Fixed output size",
+            "Same input produces same output"
           ],
           correctAnswer: 1,
           explanation: "Collision resistance makes it computationally infeasible to find two different inputs with the same hash output."
@@ -1402,8 +1402,8 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           options: [
             "Only spam filtering",
             "Encryption and digital signatures",
-            "Only attachment compression",
-            "Only email formatting"
+            "Only email formatting",
+            "Only attachment compression"
           ],
           correctAnswer: 1,
           explanation: "S/MIME provides encryption for confidentiality and digital signatures for authentication/integrity."
@@ -1413,35 +1413,35 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What are post-quantum cryptography candidates based on?",
           options: [
             "Only larger key sizes",
-            "Different mathematical problems resistant to quantum attacks",
             "Faster computation",
-            "Simpler algorithms"
+            "Simpler algorithms",
+            "Different mathematical problems resistant to quantum attacks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Post-quantum algorithms are based on mathematical problems believed to be hard even for quantum computers."
         },
         {
           id: 15,
           question: "What does FIPS 140-2 validate?",
           options: [
+            "User training programs",
             "Network configurations",
             "Cryptographic modules",
-            "User training programs",
             "Security policies"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "FIPS 140-2 is a U.S. government standard for validating cryptographic modules."
         },
         {
           id: 16,
           question: "What is certificate chain validation?",
           options: [
+            "Verifying certificate owner identity only",
             "Checking certificate format",
             "Verifying trust from root CA through intermediate to end certificate",
-            "Checking certificate expiration only",
-            "Verifying certificate owner identity only"
+            "Checking certificate expiration only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Chain validation verifies the complete trust path from a trusted root CA to the end entity certificate."
         },
         {
@@ -1449,23 +1449,23 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What does transparent data encryption provide?",
           options: [
             "Manual encryption process",
-            "Automatic encryption at rest without application changes",
             "Only network encryption",
-            "Only file header encryption"
+            "Only file header encryption",
+            "Automatic encryption at rest without application changes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "TDE automatically encrypts database files at rest, transparent to applications accessing the data."
         },
         {
           id: 18,
           question: "What is key rotation?",
           options: [
-            "Turning physical keys",
             "Regularly changing cryptographic keys",
-            "Rotating key storage media",
-            "Changing key algorithms"
+            "Changing key algorithms",
+            "Turning physical keys",
+            "Rotating key storage media"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Key rotation involves periodically replacing cryptographic keys to limit damage if keys are compromised."
         },
         {
@@ -1473,23 +1473,23 @@ Cryptography provides confidentiality, integrity, authentication, and non-repudi
           question: "What does KMIP standardize?",
           options: [
             "Network protocols",
-            "Key management operations and messaging",
+            "Encryption algorithms",
             "Certificate formats",
-            "Encryption algorithms"
+            "Key management operations and messaging"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "KMIP provides a standardized protocol for communication between key management systems and cryptographic clients."
         },
         {
           id: 20,
           question: "What does ECDSA provide?",
           options: [
-            "Only encryption",
-            "Digital signatures using elliptic curve cryptography",
             "Key exchange only",
-            "Hash functions"
+            "Hash functions",
+            "Digital signatures using elliptic curve cryptography",
+            "Only encryption"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ECDSA provides digital signature functionality using elliptic curve cryptography for efficiency."
         }
       ]
@@ -1658,23 +1658,23 @@ Cloud computing introduces unique security challenges and opportunities that req
           question: "What is the shared responsibility model in cloud?",
           options: [
             "Equal responsibility for all security",
-            "Division of security responsibilities between provider and customer",
             "Provider responsible for all security",
-            "Customer responsible for all security"
+            "Customer responsible for all security",
+            "Division of security responsibilities between provider and customer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The shared responsibility model clearly divides which security aspects are managed by cloud provider vs customer."
         },
         {
           id: 2,
           question: "In IaaS, what is typically customer responsibility?",
           options: [
-            "Physical security",
             "Operating system and application security",
             "Network infrastructure",
-            "Data center cooling"
+            "Data center cooling",
+            "Physical security"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "In IaaS, customers are responsible for security of OS, applications, data, and access management."
         },
         {
@@ -1682,11 +1682,11 @@ Cloud computing introduces unique security challenges and opportunities that req
           question: "What is a key IoT security challenge?",
           options: [
             "Too much processing power",
-            "Resource constraints on devices",
             "Easy physical access control",
-            "Short device lifecycles"
+            "Short device lifecycles",
+            "Resource constraints on devices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "IoT devices often have limited processing, memory, and power, making security implementations challenging."
         },
         {
@@ -1695,8 +1695,8 @@ Cloud computing introduces unique security challenges and opportunities that req
           options: [
             "Fast startup",
             "Verified firmware integrity at startup",
-            "Automatic updates",
-            "User authentication"
+            "User authentication",
+            "Automatic updates"
           ],
           correctAnswer: 1,
           explanation: "Secure boot ensures only authorized, untampered firmware can run on IoT devices."
@@ -1705,10 +1705,10 @@ Cloud computing introduces unique security challenges and opportunities that req
           id: 5,
           question: "What are cloud security groups?",
           options: [
-            "User permission groups",
-            "Stateful firewall rules for cloud resources",
             "Physical security teams",
-            "Compliance groups"
+            "Stateful firewall rules for cloud resources",
+            "Compliance groups",
+            "User permission groups"
           ],
           correctAnswer: 1,
           explanation: "Security groups act as virtual firewalls controlling traffic to and from cloud resources."
@@ -1717,93 +1717,93 @@ Cloud computing introduces unique security challenges and opportunities that req
           id: 6,
           question: "What is multi-tenancy in cloud?",
           options: [
-            "Multiple cloud providers",
-            "Multiple customers sharing infrastructure",
             "Multiple applications",
-            "Multiple data centers"
+            "Multiple data centers",
+            "Multiple cloud providers",
+            "Multiple customers sharing infrastructure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Multi-tenancy allows multiple customers to share physical infrastructure while maintaining isolation."
         },
         {
           id: 7,
           question: "What does BYOK stand for in cloud encryption?",
           options: [
-            "Build Your Own Key",
             "Bring Your Own Key for encryption control",
+            "Build Your Own Key",
             "Backup Your Own Key",
             "Basic Your Own Key"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "BYOK allows customers to provide and manage their own encryption keys in cloud environments."
         },
         {
           id: 8,
           question: "What is MQTT commonly used for?",
           options: [
+            "File sharing",
             "Web browsing",
             "IoT device communications",
-            "Email transmission",
-            "File sharing"
+            "Email transmission"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "MQTT is a lightweight messaging protocol commonly used in IoT applications."
         },
         {
           id: 9,
           question: "What does Infrastructure as Code (IaC) enable?",
           options: [
-            "Manual infrastructure configuration",
-            "Automated, repeatable infrastructure deployment",
+            "Physical infrastructure programming",
             "Code-free infrastructure",
-            "Physical infrastructure programming"
+            "Manual infrastructure configuration",
+            "Automated, repeatable infrastructure deployment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "IaC allows infrastructure to be defined and managed through code for consistency and automation."
         },
         {
           id: 10,
           question: "What is data sovereignty concern in cloud?",
           options: [
+            "Data size limitations",
             "Data ownership",
             "Data storage location and jurisdiction",
-            "Data size limitations",
             "Data format standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Data sovereignty concerns where data is physically stored and which laws apply to it."
         },
         {
           id: 11,
           question: "In SaaS model, what is customer typically responsible for?",
           options: [
-            "Application security",
             "Data protection and access management",
+            "Platform security",
             "Infrastructure security",
-            "Platform security"
+            "Application security"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "In SaaS, customers are primarily responsible for their data and how they manage access to it."
         },
         {
           id: 12,
           question: "What does a TPM provide for IoT devices?",
           options: [
-            "Temperature monitoring",
-            "Hardware-based security for cryptographic operations",
             "Power management",
-            "Network connectivity"
+            "Network connectivity",
+            "Hardware-based security for cryptographic operations",
+            "Temperature monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "TPMs provide secure cryptographic key storage and operations in hardware."
         },
         {
           id: 13,
           question: "What are virtual networks in cloud?",
           options: [
-            "Physical network cables",
-            "Software-defined network isolation",
             "Internet connections",
+            "Software-defined network isolation",
+            "Physical network cables",
             "Wireless networks"
           ],
           correctAnswer: 1,
@@ -1813,12 +1813,12 @@ Cloud computing introduces unique security challenges and opportunities that req
           id: 14,
           question: "What is device identity important for in IoT?",
           options: [
-            "Device color",
-            "Cryptographically verifiable device identification",
             "Device manufacturing date",
-            "Device size"
+            "Device size",
+            "Cryptographically verifiable device identification",
+            "Device color"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strong device identity allows authentication and authorization of IoT devices in networks."
         },
         {
@@ -1827,8 +1827,8 @@ Cloud computing introduces unique security challenges and opportunities that req
           options: [
             "Data loading protection",
             "Data loss prevention for cloud data",
-            "Data location planning",
-            "Data logging protection"
+            "Data logging protection",
+            "Data location planning"
           ],
           correctAnswer: 1,
           explanation: "Cloud DLP services help discover, classify, and protect sensitive data in cloud environments."
@@ -1837,9 +1837,9 @@ Cloud computing introduces unique security challenges and opportunities that req
           id: 16,
           question: "What is hybrid cloud security challenge?",
           options: [
-            "Only using one cloud",
-            "Maintaining consistent security across different environments",
             "No security needed",
+            "Maintaining consistent security across different environments",
+            "Only using one cloud",
             "Only physical security"
           ],
           correctAnswer: 1,
@@ -1850,21 +1850,21 @@ Cloud computing introduces unique security challenges and opportunities that req
           question: "What does secure firmware update ensure?",
           options: [
             "Fast updates",
-            "Authenticity and integrity of firmware updates",
             "Automatic updates only",
-            "User notification"
+            "User notification",
+            "Authenticity and integrity of firmware updates"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Secure firmware updates verify that updates are authentic and haven't been tampered with."
         },
         {
           id: 18,
           question: "What is policy as code?",
           options: [
-            "Written security policies",
+            "Manual policy enforcement",
             "Security policies defined and enforced through code",
             "Policy documents only",
-            "Manual policy enforcement"
+            "Written security policies"
           ],
           correctAnswer: 1,
           explanation: "Policy as code allows security policies to be defined, versioned, and enforced automatically through code."
@@ -1873,10 +1873,10 @@ Cloud computing introduces unique security challenges and opportunities that req
           id: 19,
           question: "What does ISO 27017 provide?",
           options: [
-            "Manufacturing standards",
-            "Cloud-specific security control guidelines",
             "Network cabling standards",
-            "Software development guidelines"
+            "Cloud-specific security control guidelines",
+            "Software development guidelines",
+            "Manufacturing standards"
           ],
           correctAnswer: 1,
           explanation: "ISO 27017 provides guidelines for information security controls in cloud computing environments."
@@ -1885,12 +1885,12 @@ Cloud computing introduces unique security challenges and opportunities that req
           id: 20,
           question: "What is drift detection in cloud security?",
           options: [
-            "Climate monitoring",
-            "Detecting configuration changes from defined state",
+            "User behavior changes",
             "Network speed changes",
-            "User behavior changes"
+            "Detecting configuration changes from defined state",
+            "Climate monitoring"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Drift detection identifies when actual configurations differ from defined secure configurations."
         }
       ]
@@ -2056,36 +2056,36 @@ Effective security requires proper governance structures that align security act
           id: 1,
           question: "What is security governance?",
           options: [
-            "Only technical controls",
-            "Framework ensuring security aligns with business objectives",
+            "Only incident response",
             "Only firewall configuration",
-            "Only incident response"
+            "Only technical controls",
+            "Framework ensuring security aligns with business objectives"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Security governance provides the structure, policies, and oversight to ensure security supports business goals."
         },
         {
           id: 2,
           question: "What is risk calculation formula?",
           options: [
-            "Risk = Threat + Vulnerability",
             "Risk = Likelihood × Impact",
-            "Risk = Asset × Threat",
-            "Risk = Control × Vulnerability"
+            "Risk = Threat + Vulnerability",
+            "Risk = Control × Vulnerability",
+            "Risk = Asset × Threat"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Risk is typically calculated as the product of likelihood (probability) and impact (consequence)."
         },
         {
           id: 3,
           question: "What does RTO stand for?",
           options: [
-            "Recovery Time Objective - maximum acceptable downtime",
             "Return to Operations",
             "Real Time Operations",
-            "Risk Treatment Option"
+            "Risk Treatment Option",
+            "Recovery Time Objective - maximum acceptable downtime"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RTO is the maximum acceptable time for restoring business functions after a disruption."
         },
         {
@@ -2093,20 +2093,20 @@ Effective security requires proper governance structures that align security act
           question: "What is third-party risk management?",
           options: [
             "Managing internal employee risks",
-            "Assessing and managing risks from vendors and partners",
             "Risk management software",
+            "Assessing and managing risks from vendors and partners",
             "Third-party insurance only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Third-party risk management addresses security risks introduced by vendors, suppliers, and partners."
         },
         {
           id: 5,
           question: "What does GDPR regulate?",
           options: [
-            "Network speeds",
-            "Protection of personal data in EU",
             "Software development",
+            "Protection of personal data in EU",
+            "Network speeds",
             "Hardware manufacturing"
           ],
           correctAnswer: 1,
@@ -2116,9 +2116,9 @@ Effective security requires proper governance structures that align security act
           id: 6,
           question: "What is risk mitigation?",
           options: [
-            "Avoiding all risks",
-            "Implementing controls to reduce risk",
             "Transferring all risk",
+            "Implementing controls to reduce risk",
+            "Avoiding all risks",
             "Ignoring risks"
           ],
           correctAnswer: 1,
@@ -2128,48 +2128,48 @@ Effective security requires proper governance structures that align security act
           id: 7,
           question: "What are security policies?",
           options: [
-            "Technical configuration guides",
             "High-level statements of management intent",
-            "Step-by-step procedures",
-            "Software installation instructions"
+            "Software installation instructions",
+            "Technical configuration guides",
+            "Step-by-step procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Security policies are high-level statements that define management's security expectations and intentions."
         },
         {
           id: 8,
           question: "What does PCI-DSS regulate?",
           options: [
+            "Government data",
             "Payment card data security",
             "Healthcare data",
-            "Government data",
             "Educational data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PCI-DSS sets security standards for organizations that handle payment card information."
         },
         {
           id: 9,
           question: "What is a risk register?",
           options: [
-            "Risk management software",
             "Documented inventory of risks and treatments",
             "Risk assessment team",
+            "Risk management software",
             "Risk insurance policy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A risk register documents identified risks, their assessment, and planned treatment actions."
         },
         {
           id: 10,
           question: "What is business impact analysis?",
           options: [
-            "Financial audit",
             "Identifying critical functions and recovery requirements",
             "Market analysis",
+            "Financial audit",
             "Competitor analysis"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "BIA identifies critical business functions and determines recovery requirements for disruptions."
         },
         {
@@ -2177,95 +2177,95 @@ Effective security requires proper governance structures that align security act
           question: "What does ISO 27001 provide?",
           options: [
             "Software development standards",
-            "Information security management system framework",
             "Network cabling standards",
+            "Information security management system framework",
             "Hardware specifications"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "ISO 27001 provides requirements for establishing, implementing, and improving information security management systems."
         },
         {
           id: 12,
           question: "What is risk acceptance?",
           options: [
-            "Implementing all possible controls",
-            "Accepting risk when control cost exceeds benefit",
+            "Ignoring all risks",
             "Transferring all risk",
-            "Ignoring all risks"
+            "Implementing all possible controls",
+            "Accepting risk when control cost exceeds benefit"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Risk acceptance occurs when an organization decides to accept a risk after determining controls are not cost-effective."
         },
         {
           id: 13,
           question: "What are KRIs?",
           options: [
-            "Key Result Indicators for performance",
-            "Key Risk Indicators showing risk levels",
             "Key Reporting Items",
-            "Key Response Indicators"
+            "Key Response Indicators",
+            "Key Result Indicators for performance",
+            "Key Risk Indicators showing risk levels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "KRIs are metrics that provide early warning of increasing risk exposure."
         },
         {
           id: 14,
           question: "What does RPO stand for?",
           options: [
-            "Recovery Point Objective - maximum data loss acceptable",
-            "Return Process Order",
             "Risk Prevention Objective",
-            "Response Planning Objective"
+            "Response Planning Objective",
+            "Return Process Order",
+            "Recovery Point Objective - maximum data loss acceptable"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RPO determines the maximum acceptable amount of data loss measured in time."
         },
         {
           id: 15,
           question: "What is due diligence in third-party risk?",
           options: [
-            "Payment processing",
-            "Evaluating vendor security capabilities before engagement",
             "Contract signing only",
-            "Price negotiation"
+            "Price negotiation",
+            "Payment processing",
+            "Evaluating vendor security capabilities before engagement"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Due diligence involves assessing a vendor's security posture before entering into a business relationship."
         },
         {
           id: 16,
           question: "What does NIST CSF provide?",
           options: [
-            "Chemical safety standards",
             "Cybersecurity framework for risk management",
             "Network design standards",
+            "Chemical safety standards",
             "Software testing standards"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "NIST Cybersecurity Framework provides a risk-based approach to managing cybersecurity risk."
         },
         {
           id: 17,
           question: "What is security awareness training goal?",
           options: [
-            "Only technical skill development",
             "Changing security behaviors and building culture",
             "Only policy reading",
+            "Only technical skill development",
             "Only compliance checking"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective security awareness training aims to change behaviors and build a security-conscious culture."
         },
         {
           id: 18,
           question: "What is continuous monitoring in risk management?",
           options: [
-            "Annual risk assessment",
             "Ongoing assessment of risk posture",
-            "Network monitoring only",
-            "Employee surveillance"
+            "Employee surveillance",
+            "Annual risk assessment",
+            "Network monitoring only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Continuous monitoring involves regularly assessing risks rather than just periodic assessments."
         },
         {
@@ -2273,23 +2273,23 @@ Effective security requires proper governance structures that align security act
           question: "What are CIS Controls?",
           options: [
             "Computer interface standards",
-            "Prioritized cybersecurity best practices",
             "Network cable standards",
-            "Software licensing controls"
+            "Software licensing controls",
+            "Prioritized cybersecurity best practices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "CIS Controls provide a prioritized set of actions to defend against common cyber attacks."
         },
         {
           id: 20,
           question: "What is maturity model purpose?",
           options: [
-            "Age assessment",
-            "Assessing security program development level",
+            "Software version tracking",
             "Employee maturity evaluation",
-            "Software version tracking"
+            "Age assessment",
+            "Assessing security program development level"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Maturity models help organizations assess current capabilities and plan improvements."
         }
       ]
@@ -2306,12 +2306,12 @@ Effective security requires proper governance structures that align security act
         id: 1,
         question: "What are Advanced Persistent Threats (APTs)?",
         options: [
-          "Simple automated attacks",
-          "Long-term, targeted attacks by organized groups",
           "Accidental security breaches",
-          "Minor vulnerabilities"
+          "Minor vulnerabilities",
+          "Simple automated attacks",
+          "Long-term, targeted attacks by organized groups"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "APTs are sophisticated, long-term attacks typically conducted by organized groups."
       },
       {
@@ -2330,36 +2330,36 @@ Effective security requires proper governance structures that align security act
         id: 3,
         question: "What does SIEM stand for?",
         options: [
-          "System Information and Event Monitoring",
           "Security Information and Event Management",
           "Security Incident and Event Management",
-          "System Integration and Event Management"
+          "System Integration and Event Management",
+          "System Information and Event Monitoring"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "SIEM provides real-time analysis of security alerts from applications and network hardware."
       },
       {
         id: 4,
         question: "What does AES stand for?",
         options: [
-          "Advanced Encryption Standard",
           "Automated Encryption System",
+          "Advanced Encryption Standard",
           "Advanced Electronic Security",
           "Automated Security Encryption"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "AES is the current standard symmetric encryption algorithm."
       },
       {
         id: 5,
         question: "What is shared responsibility model in cloud?",
         options: [
-          "Equal responsibility for all security",
           "Division of security responsibilities between provider and customer",
-          "Provider responsible for all security",
-          "Customer responsible for all security"
+          "Customer responsible for all security",
+          "Equal responsibility for all security",
+          "Provider responsible for all security"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Shared responsibility model divides security duties between cloud provider and customer."
       },
       {
@@ -2367,35 +2367,35 @@ Effective security requires proper governance structures that align security act
         question: "What is security governance?",
         options: [
           "Only technical controls",
-          "Framework ensuring security aligns with business objectives",
+          "Only incident response",
           "Only firewall configuration",
-          "Only incident response"
+          "Framework ensuring security aligns with business objectives"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Security governance provides structure and oversight for security aligned with business goals."
       },
       {
         id: 7,
         question: "What is a zero-day exploit?",
         options: [
-          "Attack using known vulnerabilities",
           "Attack targeting unknown vulnerabilities",
           "Attack happening at midnight",
+          "Attack using known vulnerabilities",
           "Simple phishing attempt"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Zero-day exploits target vulnerabilities unknown to software vendor."
       },
       {
         id: 8,
         question: "What does MFA stand for?",
         options: [
-          "Multi-Function Authentication",
-          "Multi-Factor Authentication",
           "Multiple File Access",
-          "Managed Firewall Access"
+          "Multi-Function Authentication",
+          "Managed Firewall Access",
+          "Multi-Factor Authentication"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "MFA requires multiple verification factors for authentication."
       },
       {
@@ -2404,8 +2404,8 @@ Effective security requires proper governance structures that align security act
         options: [
           "Containment",
           "Preparation",
-          "Eradication",
-          "Recovery"
+          "Recovery",
+          "Eradication"
         ],
         correctAnswer: 1,
         explanation: "Preparation involves planning and training before incidents occur."
@@ -2414,24 +2414,24 @@ Effective security requires proper governance structures that align security act
         id: 10,
         question: "What is main advantage of ECC over RSA?",
         options: [
-          "Easier to implement",
           "Smaller keys for same security level",
-          "Faster for all operations",
-          "More widely supported"
+          "Easier to implement",
+          "More widely supported",
+          "Faster for all operations"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "ECC provides equivalent security with much smaller key sizes."
       },
       {
         id: 11,
         question: "What is key IoT security challenge?",
         options: [
-          "Too much processing power",
-          "Resource constraints on devices",
+          "Short device lifecycles",
           "Easy physical access control",
-          "Short device lifecycles"
+          "Resource constraints on devices",
+          "Too much processing power"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "IoT devices often have limited processing, memory, and power."
       },
       {
@@ -2439,33 +2439,33 @@ Effective security requires proper governance structures that align security act
         question: "What is risk calculation formula?",
         options: [
           "Risk = Threat + Vulnerability",
-          "Risk = Likelihood × Impact",
           "Risk = Asset × Threat",
+          "Risk = Likelihood × Impact",
           "Risk = Control × Vulnerability"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Risk is calculated as likelihood multiplied by impact."
       },
       {
         id: 13,
         question: "What are Indicators of Compromise (IOCs)?",
         options: [
-          "Security policy documents",
           "Artifacts observed in cyber attacks",
+          "Network bandwidth measurements",
           "Employee training materials",
-          "Network bandwidth measurements"
+          "Security policy documents"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "IOCs are forensic data identifying potentially malicious activity."
       },
       {
         id: 14,
         question: "What is network segmentation purpose?",
         options: [
-          "Increase network speed",
-          "Limit lateral movement during breaches",
           "Reduce cable costs",
-          "Simplify network diagrams"
+          "Limit lateral movement during breaches",
+          "Simplify network diagrams",
+          "Increase network speed"
         ],
         correctAnswer: 1,
         explanation: "Network segmentation contains breaches and limits attacker movement."
@@ -2474,48 +2474,48 @@ Effective security requires proper governance structures that align security act
         id: 15,
         question: "What does XDR provide?",
         options: [
-          "Only endpoint protection",
           "Integrated detection and response across multiple layers",
-          "Network monitoring only",
-          "Basic antivirus scanning"
+          "Only endpoint protection",
+          "Basic antivirus scanning",
+          "Network monitoring only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "XDR integrates multiple security products for cross-layer detection."
       },
       {
         id: 16,
         question: "What does PKI stand for?",
         options: [
+          "Personal Key Identification",
           "Private Key Infrastructure",
           "Public Key Infrastructure",
-          "Personal Key Identification",
           "Protected Key Integration"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "PKI manages digital certificates and public-key encryption."
       },
       {
         id: 17,
         question: "What does secure boot provide for IoT?",
         options: [
+          "User authentication",
           "Fast startup",
-          "Verified firmware integrity at startup",
           "Automatic updates",
-          "User authentication"
+          "Verified firmware integrity at startup"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Secure boot ensures only authorized firmware runs on devices."
       },
       {
         id: 18,
         question: "What does RTO stand for?",
         options: [
-          "Recovery Time Objective - maximum acceptable downtime",
-          "Return to Operations",
           "Real Time Operations",
-          "Risk Treatment Option"
+          "Risk Treatment Option",
+          "Return to Operations",
+          "Recovery Time Objective - maximum acceptable downtime"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "RTO is maximum acceptable time for restoring business functions."
       },
       {
@@ -2523,47 +2523,47 @@ Effective security requires proper governance structures that align security act
         question: "What is threat intelligence?",
         options: [
           "Only installing antivirus",
-          "Systematic collection and analysis of threat information",
           "Changing passwords regularly",
-          "Blocking all internet traffic"
+          "Blocking all internet traffic",
+          "Systematic collection and analysis of threat information"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Threat intelligence involves collecting and analyzing threat information."
       },
       {
         id: 20,
         question: "What is RBAC?",
         options: [
-          "Rule-Based Access Control",
           "Role-Based Access Control",
+          "Resource-Based Access Control",
           "Risk-Based Access Control",
-          "Resource-Based Access Control"
+          "Rule-Based Access Control"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "RBAC grants access based on job roles rather than individual assignments."
       },
       {
         id: 21,
         question: "What is chain of custody in forensics?",
         options: [
-          "Evidence storage location",
           "Documentation of evidence handling",
           "Courtroom procedures",
-          "Police investigation methods"
+          "Police investigation methods",
+          "Evidence storage location"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Chain of custody documents evidence handling to maintain integrity."
       },
       {
         id: 22,
         question: "What property ensures hash outputs appear random?",
         options: [
-          "Deterministic",
           "Avalanche effect",
-          "Fast computation",
-          "Fixed output size"
+          "Fixed output size",
+          "Deterministic",
+          "Fast computation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Avalanche effect means small input changes produce different outputs."
       },
       {
@@ -2571,44 +2571,44 @@ Effective security requires proper governance structures that align security act
         question: "What are cloud security groups?",
         options: [
           "User permission groups",
-          "Stateful firewall rules for cloud resources",
           "Physical security teams",
+          "Stateful firewall rules for cloud resources",
           "Compliance groups"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Security groups act as virtual firewalls for cloud resources."
       },
       {
         id: 24,
         question: "What is third-party risk management?",
         options: [
-          "Managing internal employee risks",
           "Assessing and managing risks from vendors",
-          "Risk management software",
-          "Third-party insurance only"
+          "Managing internal employee risks",
+          "Third-party insurance only",
+          "Risk management software"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Third-party risk management addresses risks from vendors and partners."
       },
       {
         id: 25,
         question: "What is lateral movement in attacks?",
         options: [
-          "Initial network entry",
           "Spreading within network after initial compromise",
-          "Data exfiltration process",
-          "Attack planning phase"
+          "Attack planning phase",
+          "Initial network entry",
+          "Data exfiltration process"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Lateral movement refers to attackers moving through network after access."
       },
       {
         id: 26,
         question: "What does TLS provide?",
         options: [
-          "Network segmentation",
-          "Secure communications encryption",
           "User authentication only",
+          "Secure communications encryption",
+          "Network segmentation",
           "Malware detection"
         ],
         correctAnswer: 1,
@@ -2618,46 +2618,46 @@ Effective security requires proper governance structures that align security act
         id: 27,
         question: "What does SOAR automate?",
         options: [
-          "Only alert generation",
-          "Security workflows and response playbooks",
           "Network configuration",
-          "User training"
+          "User training",
+          "Only alert generation",
+          "Security workflows and response playbooks"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "SOAR automates security operations workflows and response."
       },
       {
         id: 28,
         question: "What does non-repudiation provide in signatures?",
         options: [
-          "Only the signer has private key",
           "Fast signature generation",
-          "Small signature size",
-          "Easy verification"
+          "Easy verification",
+          "Only the signer has private key",
+          "Small signature size"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Non-repudiation comes from signer's unique possession of private key."
       },
       {
         id: 29,
         question: "What is multi-tenancy in cloud?",
         options: [
-          "Multiple cloud providers",
           "Multiple customers sharing infrastructure",
-          "Multiple applications",
-          "Multiple data centers"
+          "Multiple data centers",
+          "Multiple cloud providers",
+          "Multiple applications"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Multi-tenancy allows multiple customers to share infrastructure."
       },
       {
         id: 30,
         question: "What does GDPR regulate?",
         options: [
-          "Network speeds",
-          "Protection of personal data in EU",
           "Software development",
-          "Hardware manufacturing"
+          "Protection of personal data in EU",
+          "Hardware manufacturing",
+          "Network speeds"
         ],
         correctAnswer: 1,
         explanation: "GDPR sets requirements for processing EU residents' personal data."
@@ -2667,35 +2667,35 @@ Effective security requires proper governance structures that align security act
         question: "What does STRIDE stand for?",
         options: [
           "Security Techniques for Risk Identification",
+          "Standard Threat Identification",
           "Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",
-          "System Threat Response and Incident Defense",
-          "Standard Threat Identification"
+          "System Threat Response and Incident Defense"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "STRIDE is a threat modeling framework covering six threat categories."
       },
       {
         id: 32,
         question: "What is a DMZ?",
         options: [
-          "Demilitarized Zone for public-facing services",
           "Data Management Zone",
-          "Default Monitoring Zone",
-          "Direct Memory Zone"
+          "Direct Memory Zone",
+          "Demilitarized Zone for public-facing services",
+          "Default Monitoring Zone"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "DMZ sits between internal networks and untrusted external networks."
       },
       {
         id: 33,
         question: "What is hypothesis-based threat hunting?",
         options: [
-          "Random network scanning",
-          "Starting with specific threat scenarios",
+          "Automated vulnerability scanning",
           "Waiting for alerts",
-          "Automated vulnerability scanning"
+          "Starting with specific threat scenarios",
+          "Random network scanning"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Hypothesis-based hunting starts with specific threat scenarios."
       },
       {
@@ -2703,45 +2703,45 @@ Effective security requires proper governance structures that align security act
         question: "What does PFS ensure in TLS?",
         options: [
           "Fast connection establishment",
+          "Forward compatibility",
           "Session keys not derived from long-term keys",
-          "Permanent encryption",
-          "Forward compatibility"
+          "Permanent encryption"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "PFS ensures compromise of long-term keys doesn't compromise past sessions."
       },
       {
         id: 35,
         question: "What is BYOK in cloud encryption?",
         options: [
-          "Build Your Own Key",
           "Bring Your Own Key for encryption control",
+          "Basic Your Own Key",
           "Backup Your Own Key",
-          "Basic Your Own Key"
+          "Build Your Own Key"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "BYOK allows customers to provide their own encryption keys."
       },
       {
         id: 36,
         question: "What is risk mitigation?",
         options: [
-          "Avoiding all risks",
           "Implementing controls to reduce risk",
-          "Transferring all risk",
-          "Ignoring risks"
+          "Avoiding all risks",
+          "Ignoring risks",
+          "Transferring all risk"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Risk mitigation implements controls to reduce likelihood or impact."
       },
       {
         id: 37,
         question: "What is threat hunting?",
         options: [
-          "Waiting for security alerts",
+          "Basic firewall configuration",
           "Proactive search for threats not detected by alerts",
           "Automated vulnerability scanning",
-          "Basic firewall configuration"
+          "Waiting for security alerts"
         ],
         correctAnswer: 1,
         explanation: "Threat hunting proactively searches for advanced threats."
@@ -2752,8 +2752,8 @@ Effective security requires proper governance structures that align security act
         options: [
           "Network protocol",
           "Digital certificate format standard",
-          "Encryption algorithm",
-          "Key exchange protocol"
+          "Key exchange protocol",
+          "Encryption algorithm"
         ],
         correctAnswer: 1,
         explanation: "X.509 is the standard format for public key certificates."
@@ -2763,21 +2763,21 @@ Effective security requires proper governance structures that align security act
         question: "What is MQTT used for?",
         options: [
           "Web browsing",
-          "IoT device communications",
+          "File sharing",
           "Email transmission",
-          "File sharing"
+          "IoT device communications"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "MQTT is a lightweight messaging protocol for IoT applications."
       },
       {
         id: 40,
         question: "What are security policies?",
         options: [
-          "Technical configuration guides",
+          "Software installation instructions",
           "High-level statements of management intent",
           "Step-by-step procedures",
-          "Software installation instructions"
+          "Technical configuration guides"
         ],
         correctAnswer: 1,
         explanation: "Security policies define management's security expectations and intentions."

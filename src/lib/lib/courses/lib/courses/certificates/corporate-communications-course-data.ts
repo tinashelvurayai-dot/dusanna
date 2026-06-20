@@ -64,48 +64,48 @@ Welcome to advanced corporate communications. This module explores how to create
           id: 1,
           question: "What is business alignment in communication planning?",
           options: [
+            "Aligning with competitor strategies",
             "Linking communication to business strategy",
             "Only communicating business results",
-            "Aligning with competitor strategies",
             "Following government business rules"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Business alignment ensures communication supports organizational goals and objectives."
         },
         {
           id: 2,
           question: "What is stakeholder mapping?",
           options: [
-            "Identifying and prioritizing all audiences",
-            "Only listing employee names",
             "Creating physical maps of stakeholders",
-            "Tracking stakeholder movements"
+            "Tracking stakeholder movements",
+            "Identifying and prioritizing all audiences",
+            "Only listing employee names"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stakeholder mapping identifies all relevant audiences and their importance."
         },
         {
           id: 3,
           question: "What are reputation objectives?",
           options: [
-            "Building and protecting corporate reputation",
+            "Increasing social media followers",
             "Only responding to negative news",
-            "Creating advertising campaigns",
-            "Increasing social media followers"
+            "Building and protecting corporate reputation",
+            "Creating advertising campaigns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reputation objectives focus on how the organization is perceived by stakeholders."
         },
         {
           id: 4,
           question: "What is channel integration?",
           options: [
-            "Coordinating all communication channels",
-            "Using only digital channels",
+            "Random channel selection",
             "Eliminating traditional channels",
-            "Random channel selection"
+            "Using only digital channels",
+            "Coordinating all communication channels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Channel integration ensures all communication platforms work together cohesively."
         },
         {
@@ -124,24 +124,24 @@ Welcome to advanced corporate communications. This module explores how to create
           id: 6,
           question: "What are relationship objectives?",
           options: [
-            "Strengthening stakeholder relationships",
-            "Only customer relationship management",
             "Employee personal relationships",
-            "Social media friendships"
+            "Strengthening stakeholder relationships",
+            "Social media friendships",
+            "Only customer relationship management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Relationship objectives focus on building trust and engagement with stakeholders."
         },
         {
           id: 7,
           question: "What is message consistency?",
           options: [
-            "Unified messaging across platforms",
-            "Repeating same message constantly",
             "Never changing any messages",
-            "Only official statements"
+            "Only official statements",
+            "Repeating same message constantly",
+            "Unified messaging across platforms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Consistent messaging builds credibility and prevents confusion."
         },
         {
@@ -160,12 +160,12 @@ Welcome to advanced corporate communications. This module explores how to create
           id: 9,
           question: "What are business objectives in communication?",
           options: [
-            "Supporting sales, recruitment, investment",
             "Only profit maximization",
             "Stock price increases",
+            "Supporting sales, recruitment, investment",
             "Market domination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Business objectives show how communication contributes to organizational success."
         },
         {
@@ -173,9 +173,9 @@ Welcome to advanced corporate communications. This module explores how to create
           question: "What is timeline coordination?",
           options: [
             "Strategic timing of communication activities",
-            "Only meeting deadlines",
             "Employee work schedules",
-            "Project management software"
+            "Project management software",
+            "Only meeting deadlines"
           ],
           correctAnswer: 0,
           explanation: "Timeline coordination ensures communication happens at optimal times."
@@ -184,96 +184,96 @@ Welcome to advanced corporate communications. This module explores how to create
           id: 11,
           question: "What are KPIs in communication?",
           options: [
-            "Key performance indicators for measurement",
+            "Social media vanity metrics",
             "Only financial metrics",
-            "Employee performance reviews",
-            "Social media vanity metrics"
+            "Key performance indicators for measurement",
+            "Employee performance reviews"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "KPIs measure the effectiveness and impact of communication efforts."
         },
         {
           id: 12,
           question: "What are behavioral objectives?",
           options: [
-            "Influencing specific stakeholder actions",
-            "Controlling employee behavior",
             "Customer purchase tracking",
-            "Government regulation compliance"
+            "Controlling employee behavior",
+            "Government regulation compliance",
+            "Influencing specific stakeholder actions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Behavioral objectives aim to change specific stakeholder behaviors."
         },
         {
           id: 13,
           question: "What is resource allocation?",
           options: [
-            "Optimizing budget and personnel",
-            "Only spending minimum amounts",
+            "Department budget requests",
             "Equal distribution of resources",
-            "Department budget requests"
+            "Only spending minimum amounts",
+            "Optimizing budget and personnel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resource allocation ensures efficient use of communication budgets and staff."
         },
         {
           id: 14,
           question: "What is benchmarking?",
           options: [
-            "Comparing against industry standards",
+            "Financial benchmarking only",
             "Only internal comparisons",
-            "Competitor espionage",
-            "Financial benchmarking only"
+            "Comparing against industry standards",
+            "Competitor espionage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Benchmarking compares performance against industry best practices."
         },
         {
           id: 15,
           question: "What is risk assessment in communication?",
           options: [
-            "Identifying potential communication risks",
             "Only financial risk analysis",
             "Employee risk behaviors",
+            "Identifying potential communication risks",
             "Market risk calculations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk assessment identifies what could go wrong in communication efforts."
         },
         {
           id: 16,
           question: "What is ROI calculation for communication?",
           options: [
-            "Demonstrating communication value",
             "Only financial return calculation",
             "Advertising ROI only",
-            "Social media return metrics"
+            "Social media return metrics",
+            "Demonstrating communication value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ROI calculation shows the business value generated by communication activities."
         },
         {
           id: 17,
           question: "What is contingency planning?",
           options: [
-            "Preparing for potential issues",
             "Only crisis planning",
+            "Preparing for potential issues",
             "Backup communication systems",
             "Emergency response plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingency planning prepares alternative approaches for potential problems."
         },
         {
           id: 18,
           question: "What is continuous improvement?",
           options: [
-            "Using data to refine strategies",
+            "Always trying new things",
             "Constant strategy changes",
-            "Never satisfied with results",
-            "Always trying new things"
+            "Using data to refine strategies",
+            "Never satisfied with results"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Continuous improvement uses insights from measurement to enhance strategies."
         },
         {
@@ -282,8 +282,8 @@ Welcome to advanced corporate communications. This module explores how to create
           options: [
             "Detailed strategic documents",
             "Only meeting agendas",
-            "Social media calendars",
-            "Email distribution lists"
+            "Email distribution lists",
+            "Social media calendars"
           ],
           correctAnswer: 0,
           explanation: "Communication plans document strategy, objectives, and implementation details."
@@ -292,12 +292,12 @@ Welcome to advanced corporate communications. This module explores how to create
           id: 20,
           question: "What is crisis prevention?",
           options: [
-            "Proactive reputation protection",
-            "Only crisis response planning",
             "Avoiding all risks",
-            "Hiding potential problems"
+            "Hiding potential problems",
+            "Proactive reputation protection",
+            "Only crisis response planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Crisis prevention involves identifying and addressing issues before they escalate."
         }
       ]
@@ -359,72 +359,72 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           id: 1,
           question: "What is authenticity in leadership communication?",
           options: [
-            "Being genuine and consistent",
-            "Always telling positive stories",
+            "Using complex vocabulary",
             "Never showing vulnerability",
-            "Using complex vocabulary"
+            "Being genuine and consistent",
+            "Always telling positive stories"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Authenticity means being true to oneself and consistent in messages and actions."
         },
         {
           id: 2,
           question: "What is vision casting?",
           options: [
-            "Articulating future direction compellingly",
+            "Imagining unrealistic futures",
             "Predicting market trends",
             "Creating vision statements only",
-            "Imagining unrealistic futures"
+            "Articulating future direction compellingly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Vision casting helps people see and feel inspired by the future direction."
         },
         {
           id: 3,
           question: "What does executive presence include?",
           options: [
-            "Confidence, listening, non-verbal communication",
-            "Only formal attire",
+            "Many years of experience",
             "Large office size",
-            "Many years of experience"
+            "Confidence, listening, non-verbal communication",
+            "Only formal attire"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Executive presence combines confidence, communication skills, and professional demeanor."
         },
         {
           id: 4,
           question: "What is financial storytelling?",
           options: [
-            "Making numbers meaningful and engaging",
-            "Only reporting financial results",
             "Creating fictional financial stories",
-            "Simplifying all numbers completely"
+            "Making numbers meaningful and engaging",
+            "Simplifying all numbers completely",
+            "Only reporting financial results"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Financial storytelling puts numbers in context that connects with audiences emotionally."
         },
         {
           id: 5,
           question: "What is clarity in leadership communication?",
           options: [
-            "Simplifying complex ideas for diverse audiences",
-            "Using technical jargon precisely",
             "Speaking quickly and efficiently",
-            "Being brief at all times"
+            "Simplifying complex ideas for diverse audiences",
+            "Being brief at all times",
+            "Using technical jargon precisely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Clarity means making complex ideas understandable to different audience types."
         },
         {
           id: 6,
           question: "What are town hall meetings for leaders?",
           options: [
+            "Employee complaint sessions",
             "Effective large-group communication forums",
             "Only formal presentations",
-            "Employee complaint sessions",
             "Annual mandatory meetings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Town halls allow leaders to connect directly with large employee groups."
         },
         {
@@ -432,9 +432,9 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           question: "What is storytelling in leadership?",
           options: [
             "Using narratives to connect and persuade",
-            "Entertaining with fictional stories",
+            "Historical story telling only",
             "Sharing personal life details",
-            "Historical story telling only"
+            "Entertaining with fictional stories"
           ],
           correctAnswer: 0,
           explanation: "Storytelling makes messages memorable and emotionally resonant."
@@ -445,8 +445,8 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           options: [
             "Ensuring message consistency through organizational levels",
             "Waterfall communication method",
-            "Only top-down communication",
-            "Rapid communication spreading"
+            "Rapid communication spreading",
+            "Only top-down communication"
           ],
           correctAnswer: 0,
           explanation: "Cascade communication ensures messages are consistently delivered through all management levels."
@@ -455,48 +455,48 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           id: 9,
           question: "What is confidence display?",
           options: [
-            "Projecting assurance without arrogance",
             "Always being certain",
+            "Dominating all conversations",
             "Never admitting mistakes",
-            "Dominating all conversations"
+            "Projecting assurance without arrogance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Confidence display inspires trust while remaining approachable."
         },
         {
           id: 10,
           question: "What is strategy explanation?",
           options: [
-            "Clarifying business direction and rationale",
             "Only sharing completed strategies",
-            "Technical strategy documents",
-            "Competitor strategy analysis"
+            "Clarifying business direction and rationale",
+            "Competitor strategy analysis",
+            "Technical strategy documents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategy explanation helps people understand why decisions were made."
         },
         {
           id: 11,
           question: "What are listening skills for leaders?",
           options: [
-            "Demonstrating genuine attention and understanding",
+            "Multitasking during conversations",
             "Only hearing direct reports",
             "Quick response formulation",
-            "Multitasking during conversations"
+            "Demonstrating genuine attention and understanding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Active listening shows respect and helps leaders understand real concerns."
         },
         {
           id: 12,
           question: "What is recognition communication?",
           options: [
+            "Annual award ceremonies",
             "Celebrating achievements publicly",
-            "Only financial rewards",
             "Private praise only",
-            "Annual award ceremonies"
+            "Only financial rewards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Public recognition motivates employees and reinforces desired behaviors."
         },
         {
@@ -505,8 +505,8 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           options: [
             "Body language, tone, and appearance",
             "Only hand gestures",
-            "Facial expressions only",
-            "Office decoration"
+            "Office decoration",
+            "Facial expressions only"
           ],
           correctAnswer: 0,
           explanation: "Non-verbal cues often communicate more than words for leaders."
@@ -527,36 +527,36 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           id: 15,
           question: "What is adaptability in leadership communication?",
           options: [
-            "Adjusting style for different situations",
-            "Changing messages frequently",
+            "Agreeing with everyone",
             "Following trends blindly",
-            "Agreeing with everyone"
+            "Adjusting style for different situations",
+            "Changing messages frequently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adaptability means tailoring communication approach to different audiences and contexts."
         },
         {
           id: 16,
           question: "What is transparency management?",
           options: [
-            "Balancing openness with confidentiality",
-            "Revealing everything publicly",
+            "Only sharing positive information",
             "Hiding sensitive information",
-            "Only sharing positive information"
+            "Revealing everything publicly",
+            "Balancing openness with confidentiality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transparency management decides what to share while protecting necessary confidentiality."
         },
         {
           id: 17,
           question: "What is visible leadership during crisis?",
           options: [
-            "Being present and accountable",
-            "Only giving statements",
             "Hiding from media",
-            "Delegating all communication"
+            "Delegating all communication",
+            "Only giving statements",
+            "Being present and accountable"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Visible leadership shows accountability and concern during difficult times."
         },
         {
@@ -564,9 +564,9 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           question: "What are Q&A preparation techniques?",
           options: [
             "Anticipating and preparing for tough questions",
-            "Only preparing easy questions",
+            "Having spokespersons answer everything",
             "Avoiding all questions",
-            "Having spokespersons answer everything"
+            "Only preparing easy questions"
           ],
           correctAnswer: 0,
           explanation: "Q&A preparation helps leaders respond effectively to challenging inquiries."
@@ -575,24 +575,24 @@ This module focuses on how senior leaders communicate to inspire, lead change, b
           id: 19,
           question: "What is empathetic messaging?",
           options: [
+            "Avoiding difficult emotions",
             "Showing genuine concern for affected parties",
             "Only saying 'I understand'",
-            "Emotional manipulation",
-            "Avoiding difficult emotions"
+            "Emotional manipulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Empathetic messaging acknowledges people's feelings and experiences."
         },
         {
           id: 20,
           question: "What is recovery narrative?",
           options: [
-            "Leading the story of comeback and improvement",
             "Only reporting recovery statistics",
-            "Forgetting past problems",
-            "Blaming external factors"
+            "Blaming external factors",
+            "Leading the story of comeback and improvement",
+            "Forgetting past problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Recovery narrative focuses on positive steps forward after challenges."
         }
       ]
@@ -661,9 +661,9 @@ This module focuses on strategic communication during organizational transitions
           question: "What is a change narrative?",
           options: [
             "Creating compelling story for the change",
-            "Only announcing the change",
             "Technical change documentation",
-            "Historical background of change"
+            "Historical background of change",
+            "Only announcing the change"
           ],
           correctAnswer: 0,
           explanation: "A change narrative helps people understand and connect with the reason for change."
@@ -672,60 +672,60 @@ This module focuses on strategic communication during organizational transitions
           id: 2,
           question: "Why analyze stakeholders during change?",
           options: [
+            "Creating stakeholder lists",
             "Understanding different reactions to change",
             "Only identifying supporters",
-            "Creating stakeholder lists",
             "Avoiding resistant stakeholders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stakeholder analysis helps tailor communication to different groups' needs and concerns."
         },
         {
           id: 3,
           question: "What is the case for change?",
           options: [
-            "Clear rationale for why change is needed",
             "Only business case documents",
             "Financial justification only",
+            "Clear rationale for why change is needed",
             "Competitor analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The case for change explains why the current state is insufficient and change is necessary."
         },
         {
           id: 4,
           question: "What is pre-change communication?",
           options: [
-            "Building awareness and understanding before implementation",
-            "Only final change announcement",
             "Rumors and speculation management",
+            "Only final change announcement",
+            "Building awareness and understanding before implementation",
             "Employee training programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Pre-change communication prepares people for what's coming and builds understanding."
         },
         {
           id: 5,
           question: "What is timeline communication?",
           options: [
-            "Explaining change phases and milestones",
-            "Only start and end dates",
+            "Employee deadline announcements",
             "Project management schedules",
-            "Employee deadline announcements"
+            "Explaining change phases and milestones",
+            "Only start and end dates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Timeline communication helps people understand the change journey and what to expect when."
         },
         {
           id: 6,
           question: "What are benefits communication?",
           options: [
-            "What improvements change will bring",
             "Only financial benefits",
-            "Personal benefits for leaders",
-            "Future uncertain benefits"
+            "What improvements change will bring",
+            "Future uncertain benefits",
+            "Personal benefits for leaders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Benefits communication helps people see what they'll gain from the change."
         },
         {
@@ -744,12 +744,12 @@ This module focuses on strategic communication during organizational transitions
           id: 8,
           question: "What is leader as champion?",
           options: [
-            "Ensuring leaders consistently support change",
-            "Only CEO support",
             "Leadership title changes",
-            "Executive bonus programs"
+            "Executive bonus programs",
+            "Ensuring leaders consistently support change",
+            "Only CEO support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leaders must actively and visibly champion the change for it to succeed."
         },
         {
@@ -757,9 +757,9 @@ This module focuses on strategic communication during organizational transitions
           question: "What are manager communication kits?",
           options: [
             "Tools for frontline communication",
-            "Only meeting agendas",
+            "HR policy documents",
             "Technical manuals",
-            "HR policy documents"
+            "Only meeting agendas"
           ],
           correctAnswer: 0,
           explanation: "Communication kits help managers discuss change consistently with their teams."
@@ -768,24 +768,24 @@ This module focuses on strategic communication during organizational transitions
           id: 10,
           question: "What is impact explanation?",
           options: [
-            "How change affects different groups",
             "Only negative impacts",
+            "How change affects different groups",
             "Departmental impact only",
             "Personal impact on leaders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Impact explanation helps people understand how change will specifically affect them."
         },
         {
           id: 11,
           question: "What are two-way communication channels?",
           options: [
-            "Listening to employee concerns and feedback",
-            "Only top-down announcements",
             "Social media platforms",
+            "Only top-down announcements",
+            "Listening to employee concerns and feedback",
             "Suggestion boxes only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Two-way channels allow employees to express concerns and ask questions."
         },
         {
@@ -793,9 +793,9 @@ This module focuses on strategic communication during organizational transitions
           question: "What are success stories in change?",
           options: [
             "Sharing early wins and positive examples",
+            "Theoretical success scenarios",
             "Only final success stories",
-            "Competitor success stories",
-            "Theoretical success scenarios"
+            "Competitor success stories"
           ],
           correctAnswer: 0,
           explanation: "Success stories demonstrate that change is working and build momentum."
@@ -804,36 +804,36 @@ This module focuses on strategic communication during organizational transitions
           id: 13,
           question: "What is concern identification?",
           options: [
-            "Understanding why people resist",
+            "Psychological analysis",
             "Only listing complaints",
-            "Ignoring minor concerns",
-            "Psychological analysis"
+            "Understanding why people resist",
+            "Ignoring minor concerns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Identifying concerns helps address the root causes of resistance."
         },
         {
           id: 14,
           question: "What is middle management engagement?",
           options: [
-            "Critical communication layer between leadership and staff",
+            "Department head meetings",
             "Only manager training",
-            "Middle manager promotions",
-            "Department head meetings"
+            "Critical communication layer between leadership and staff",
+            "Middle manager promotions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Middle managers are crucial for translating and reinforcing change messages."
         },
         {
           id: 15,
           question: "What is myth busting?",
           options: [
-            "Addressing rumors and misinformation",
             "Creating new myths",
-            "Ignoring false information",
-            "Only addressing major rumors"
+            "Addressing rumors and misinformation",
+            "Only addressing major rumors",
+            "Ignoring false information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Myth busting prevents misinformation from undermining change efforts."
         },
         {
@@ -852,12 +852,12 @@ This module focuses on strategic communication during organizational transitions
           id: 17,
           question: "What is during-change communication?",
           options: [
-            "Supporting implementation phase",
-            "Only progress reports",
+            "Schedule updates",
             "Problem announcements",
-            "Schedule updates"
+            "Supporting implementation phase",
+            "Only progress reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "During-change communication provides support and guidance as change is implemented."
         },
         {
@@ -866,8 +866,8 @@ This module focuses on strategic communication during organizational transitions
           options: [
             "Acknowledging and responding to anxieties",
             "Telling people not to worry",
-            "Ignoring emotional responses",
-            "Only logical explanations"
+            "Only logical explanations",
+            "Ignoring emotional responses"
           ],
           correctAnswer: 0,
           explanation: "Addressing fears helps people move past emotional barriers to change."
@@ -876,12 +876,12 @@ This module focuses on strategic communication during organizational transitions
           id: 19,
           question: "What is behavior modeling?",
           options: [
-            "Demonstrating desired new behaviors",
             "Only written behavior codes",
+            "Demonstrating desired new behaviors",
             "Employee behavior monitoring",
             "Theoretical behavior examples"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Leaders must demonstrate the behaviors they expect from others."
         },
         {
@@ -889,9 +889,9 @@ This module focuses on strategic communication during organizational transitions
           question: "What is adoption tracking?",
           options: [
             "Measuring how well change is being adopted",
+            "Software adoption rates",
             "Only compliance measurement",
-            "Attendance tracking",
-            "Software adoption rates"
+            "Attendance tracking"
           ],
           correctAnswer: 0,
           explanation: "Adoption tracking measures whether people are actually changing their behaviors."
@@ -974,8 +974,8 @@ This module covers how to design and implement effective internal communication 
           question: "What is audience segmentation for employees?",
           options: [
             "Different employee groups and their needs",
-            "Only department divisions",
             "Salary level groupings",
+            "Only department divisions",
             "Employee performance categories"
           ],
           correctAnswer: 0,
@@ -985,48 +985,48 @@ This module covers how to design and implement effective internal communication 
           id: 3,
           question: "What are digital platforms for internal communication?",
           options: [
-            "Intranets, collaboration tools, apps",
-            "Only social media platforms",
             "Public websites",
-            "Competitor digital tools"
+            "Only social media platforms",
+            "Competitor digital tools",
+            "Intranets, collaboration tools, apps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital platforms provide efficient, scalable internal communication channels."
         },
         {
           id: 4,
           question: "What is channel strategy?",
           options: [
-            "Selecting appropriate communication channels",
-            "Using all available channels",
             "Only newest technology channels",
-            "Traditional channels only"
+            "Using all available channels",
+            "Traditional channels only",
+            "Selecting appropriate communication channels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Channel strategy selects the right mix of channels for different messages and audiences."
         },
         {
           id: 5,
           question: "What are cascade systems?",
           options: [
-            "Ensuring consistent message flow through levels",
             "Only top-down communication",
-            "Waterfall project management",
-            "Information trickle down"
+            "Information trickle down",
+            "Ensuring consistent message flow through levels",
+            "Waterfall project management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cascade systems ensure messages are consistently communicated through all management levels."
         },
         {
           id: 6,
           question: "What is content planning for internal communication?",
           options: [
-            "Creating relevant and engaging content",
-            "Only mandatory announcements",
             "Spontaneous communication",
-            "External content sharing"
+            "External content sharing",
+            "Only mandatory announcements",
+            "Creating relevant and engaging content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Content planning ensures internal communication is valuable and engaging for employees."
         },
         {
@@ -1035,8 +1035,8 @@ This module covers how to design and implement effective internal communication 
           options: [
             "Meetings, town halls, roundtables",
             "Only formal presentations",
-            "Social gatherings only",
-            "Performance reviews"
+            "Performance reviews",
+            "Social gatherings only"
           ],
           correctAnswer: 0,
           explanation: "Face-to-face communication builds personal connections and allows immediate feedback."
@@ -1046,8 +1046,8 @@ This module covers how to design and implement effective internal communication 
           question: "What are feedback loops?",
           options: [
             "Gathering employee input and concerns",
-            "Only manager feedback to employees",
             "Performance feedback systems",
+            "Only manager feedback to employees",
             "Customer feedback collection"
           ],
           correctAnswer: 0,
@@ -1057,12 +1057,12 @@ This module covers how to design and implement effective internal communication 
           id: 9,
           question: "What is transparent updates during difficulties?",
           options: [
-            "Honest communication about challenges",
             "Only positive spin on problems",
+            "Honest communication about challenges",
             "Technical details only",
             "Minimal information sharing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Transparent updates build trust during difficult times by being honest about situations."
         },
         {
@@ -1070,9 +1070,9 @@ This module covers how to design and implement effective internal communication 
           question: "What are skip-level meetings?",
           options: [
             "Direct communication across organizational levels",
+            "Department head meetings",
             "Skipping unimportant meetings",
-            "Executive only meetings",
-            "Department head meetings"
+            "Executive only meetings"
           ],
           correctAnswer: 0,
           explanation: "Skip-level meetings allow direct communication between employees and leaders beyond immediate managers."
@@ -1081,60 +1081,60 @@ This module covers how to design and implement effective internal communication 
           id: 11,
           question: "What is rumor control?",
           options: [
-            "Addressing misinformation quickly",
             "Ignoring all rumors",
+            "Addressing misinformation quickly",
             "Tracking rumor sources",
             "Creating official rumors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Rumor control prevents misinformation from spreading and causing unnecessary concern."
         },
         {
           id: 12,
           question: "What are survey programs?",
           options: [
-            "Regular employee sentiment measurement",
             "Only annual surveys",
+            "Market research surveys",
             "Customer satisfaction surveys",
-            "Market research surveys"
+            "Regular employee sentiment measurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Survey programs systematically measure employee opinions and satisfaction."
         },
         {
           id: 13,
           question: "What are open door policies?",
           options: [
-            "Accessible leadership communication",
             "Physical office doors always open",
-            "Unlimited employee access",
-            "No appointment needed policies"
+            "No appointment needed policies",
+            "Accessible leadership communication",
+            "Unlimited employee access"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Open door policies encourage employees to share concerns directly with leaders."
         },
         {
           id: 14,
           question: "What is support communication during crisis?",
           options: [
-            "Resources available to help employees",
             "Only emotional support",
             "Financial support information",
-            "External support services"
+            "External support services",
+            "Resources available to help employees"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Support communication informs employees about available help during difficult times."
         },
         {
           id: 15,
           question: "What are suggestion systems?",
           options: [
-            "Formal ways to submit ideas",
             "Only complaint systems",
+            "Innovation department only",
             "Anonymous reporting systems",
-            "Innovation department only"
+            "Formal ways to submit ideas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Suggestion systems provide structured ways for employees to contribute ideas."
         },
         {
@@ -1142,8 +1142,8 @@ This module covers how to design and implement effective internal communication 
           question: "What are achievement announcements?",
           options: [
             "Public recognition of success",
-            "Only major accomplishments",
             "Department meeting announcements",
+            "Only major accomplishments",
             "Annual award ceremonies"
           ],
           correctAnswer: 0,
@@ -1153,48 +1153,48 @@ This module covers how to design and implement effective internal communication 
           id: 17,
           question: "What are focus groups for employees?",
           options: [
-            "In-depth discussion with employee groups",
-            "Only management focus groups",
             "Customer focus groups",
-            "Product testing groups"
+            "Product testing groups",
+            "In-depth discussion with employee groups",
+            "Only management focus groups"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Focus groups provide qualitative insights into employee experiences and opinions."
         },
         {
           id: 18,
           question: "What is recovery messaging?",
           options: [
-            "Moving forward after challenges",
-            "Only crisis resolution announcements",
             "Financial recovery reports",
+            "Only crisis resolution announcements",
+            "Moving forward after challenges",
             "Return to normal messaging"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Recovery messaging focuses on positive steps forward after difficulties."
         },
         {
           id: 19,
           question: "What are pulse surveys?",
           options: [
-            "Quick, frequent sentiment checks",
             "Only health-related surveys",
+            "Competitor analysis surveys",
             "Market pulse measurements",
-            "Competitor analysis surveys"
+            "Quick, frequent sentiment checks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pulse surveys provide regular, quick insights into employee sentiment."
         },
         {
           id: 20,
           question: "What is welcome communication for new hires?",
           options: [
+            "Policy document distribution",
             "Making new employees feel included",
             "Only orientation schedules",
-            "Policy document distribution",
             "Job description review"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Welcome communication helps new employees feel valued and connected from day one."
         }
       ]
@@ -1262,24 +1262,24 @@ This module covers how to build, protect, and enhance corporate reputation throu
           id: 1,
           question: "What is a reputation audit?",
           options: [
-            "Current reputation assessment",
             "Financial audit for reputation",
             "Employee reputation review",
-            "Competitor reputation analysis"
+            "Competitor reputation analysis",
+            "Current reputation assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A reputation audit assesses current stakeholder perceptions of the organization."
         },
         {
           id: 2,
           question: "What is desired positioning?",
           options: [
-            "Target reputation definition",
+            "Competitive positioning strategy",
             "Market position goals",
             "Physical location planning",
-            "Competitive positioning strategy"
+            "Target reputation definition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Desired positioning defines how the organization wants to be perceived by stakeholders."
         },
         {
@@ -1287,8 +1287,8 @@ This module covers how to build, protect, and enhance corporate reputation throu
           question: "What is corporate brand?",
           options: [
             "Overall organizational brand",
-            "Only logo and visual identity",
             "Product brand umbrella",
+            "Only logo and visual identity",
             "Company name only"
           ],
           correctAnswer: 0,
@@ -1298,108 +1298,108 @@ This module covers how to build, protect, and enhance corporate reputation throu
           id: 4,
           question: "What is gap analysis for reputation?",
           options: [
+            "Employee perception gaps",
             "Current vs desired reputation comparison",
             "Only negative reputation gaps",
-            "Competitor reputation gaps",
-            "Employee perception gaps"
+            "Competitor reputation gaps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Gap analysis identifies differences between current and desired reputation."
         },
         {
           id: 5,
           question: "What is thought leadership?",
           options: [
-            "Establishing expertise and authority",
             "Only executive visibility",
             "Academic research publication",
+            "Establishing expertise and authority",
             "Industry conference speaking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Thought leadership positions the organization as an expert in its field."
         },
         {
           id: 6,
           question: "What are product/service brands?",
           options: [
-            "Individual offering brands",
-            "Only consumer product brands",
+            "Competitor product brands",
             "Internal project names",
-            "Competitor product brands"
+            "Only consumer product brands",
+            "Individual offering brands"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Product/service brands represent specific offerings within the corporate brand."
         },
         {
           id: 7,
           question: "What is corporate social responsibility?",
           options: [
-            "Social and environmental initiatives",
+            "Environmental compliance",
             "Only charity donations",
-            "Employee volunteer programs",
-            "Environmental compliance"
+            "Social and environmental initiatives",
+            "Employee volunteer programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CSR involves initiatives that benefit society and the environment."
         },
         {
           id: 8,
           question: "What is issue monitoring?",
           options: [
-            "Tracking potential reputation threats",
-            "Only current crisis monitoring",
             "Competitor issue tracking",
-            "Employee issue reporting"
+            "Employee issue reporting",
+            "Tracking potential reputation threats",
+            "Only current crisis monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Issue monitoring identifies emerging concerns that could damage reputation."
         },
         {
           id: 9,
           question: "What is employer brand?",
           options: [
-            "Organization as workplace reputation",
             "Only recruitment advertising",
             "Employee benefits package",
-            "HR department reputation"
+            "HR department reputation",
+            "Organization as workplace reputation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Employer brand represents the organization's reputation as a place to work."
         },
         {
           id: 10,
           question: "What is quality communication?",
           options: [
+            "Customer quality feedback",
             "Excellence in products/services messaging",
-            "Only product quality claims",
             "Manufacturing quality reports",
-            "Customer quality feedback"
+            "Only product quality claims"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Quality communication shares stories about product/service excellence."
         },
         {
           id: 11,
           question: "What is brand hierarchy?",
           options: [
-            "Relationship between different brands",
-            "Only corporate brand ranking",
             "Product line hierarchy",
+            "Only corporate brand ranking",
+            "Relationship between different brands",
             "Department brand structure"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Brand hierarchy defines how different brands relate to each other."
         },
         {
           id: 12,
           question: "What is innovation storytelling?",
           options: [
-            "Sharing innovative achievements",
+            "Future technology predictions",
             "Only patent announcements",
-            "Research and development reports",
-            "Future technology predictions"
+            "Sharing innovative achievements",
+            "Research and development reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Innovation storytelling shares how the organization creates new value."
         },
         {
@@ -1407,9 +1407,9 @@ This module covers how to build, protect, and enhance corporate reputation throu
           question: "What are reputation surveys?",
           options: [
             "Stakeholder perception measurement",
-            "Only customer satisfaction surveys",
+            "Market research surveys",
             "Employee opinion surveys",
-            "Market research surveys"
+            "Only customer satisfaction surveys"
           ],
           correctAnswer: 0,
           explanation: "Reputation surveys systematically measure how stakeholders perceive the organization."
@@ -1418,48 +1418,48 @@ This module covers how to build, protect, and enhance corporate reputation throu
           id: 14,
           question: "What is crisis preparedness for reputation?",
           options: [
-            "Ready for reputation challenges",
             "Only crisis response planning",
             "Reputation insurance",
+            "Ready for reputation challenges",
             "Legal protection plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Crisis preparedness involves planning to protect reputation during challenges."
         },
         {
           id: 15,
           question: "What is media analysis for reputation?",
           options: [
-            "Coverage tone and volume assessment",
-            "Only negative media tracking",
             "Advertising effectiveness",
-            "Journalist relationship tracking"
+            "Only negative media tracking",
+            "Journalist relationship tracking",
+            "Coverage tone and volume assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Media analysis evaluates how media coverage affects reputation."
         },
         {
           id: 16,
           question: "What is employee value proposition?",
           options: [
-            "Why work for the organization",
-            "Only salary and benefits",
             "Career progression paths",
+            "Only salary and benefits",
+            "Why work for the organization",
             "Work environment description"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Employee value proposition explains what makes the organization a great workplace."
         },
         {
           id: 17,
           question: "What are origin stories?",
           options: [
-            "Organizational history and founding",
+            "Historical documentation",
             "Only founder biographies",
-            "Company establishment dates",
-            "Historical documentation"
+            "Organizational history and founding",
+            "Company establishment dates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Origin stories share the organization's beginnings and founding values."
         },
         {
@@ -1468,8 +1468,8 @@ This module covers how to build, protect, and enhance corporate reputation throu
           options: [
             "Building supportive relationships",
             "Only customer engagement",
-            "Investor relations activities",
-            "Community partnership building"
+            "Community partnership building",
+            "Investor relations activities"
           ],
           correctAnswer: 0,
           explanation: "Stakeholder engagement builds relationships that support reputation."
@@ -1478,24 +1478,24 @@ This module covers how to build, protect, and enhance corporate reputation throu
           id: 19,
           question: "What is candidate experience?",
           options: [
-            "Reputation during hiring process",
             "Only interview experience",
-            "Job application process",
-            "Recruitment marketing"
+            "Recruitment marketing",
+            "Reputation during hiring process",
+            "Job application process"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Candidate experience affects employer brand reputation among potential hires."
         },
         {
           id: 20,
           question: "What is positive content creation?",
           options: [
-            "Building reputation capital",
+            "Advertising campaigns",
             "Only positive news releases",
             "Social media positivity",
-            "Advertising campaigns"
+            "Building reputation capital"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Positive content creation builds a reservoir of goodwill that protects reputation."
         }
       ]
@@ -1563,12 +1563,12 @@ This module explores how digital technologies are transforming corporate communi
           id: 1,
           question: "What is digital readiness assessment?",
           options: [
-            "Current technology capabilities evaluation",
-            "Only digital skills assessment",
+            "Competitor digital analysis",
             "Technology budget review",
-            "Competitor digital analysis"
+            "Current technology capabilities evaluation",
+            "Only digital skills assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital readiness assessment evaluates current technology infrastructure and capabilities."
         },
         {
@@ -1576,8 +1576,8 @@ This module explores how digital technologies are transforming corporate communi
           question: "What is AI-assisted content generation?",
           options: [
             "AI writing and content creation support",
-            "Only automated social media posts",
             "Complete AI content replacement",
+            "Only automated social media posts",
             "Competitor content generation"
           ],
           correctAnswer: 0,
@@ -1587,48 +1587,48 @@ This module explores how digital technologies are transforming corporate communi
           id: 3,
           question: "What is a technology roadmap?",
           options: [
-            "Planned digital communication evolution",
-            "Only technology purchase plans",
+            "Software implementation schedule",
             "IT department strategic plan",
-            "Software implementation schedule"
+            "Planned digital communication evolution",
+            "Only technology purchase plans"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A technology roadmap outlines planned digital communication technology adoption."
         },
         {
           id: 4,
           question: "What is personalization at scale?",
           options: [
-            "Tailored communication using AI",
-            "Only mass customization",
+            "Segmented email marketing",
             "Individual manual personalization",
-            "Segmented email marketing"
+            "Only mass customization",
+            "Tailored communication using AI"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "AI enables personalized communication for large audiences efficiently."
         },
         {
           id: 5,
           question: "What is analytics integration?",
           options: [
-            "Using data to inform communication decisions",
-            "Only social media analytics",
             "Website traffic analysis",
-            "Financial data integration"
+            "Only social media analytics",
+            "Financial data integration",
+            "Using data to inform communication decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Analytics integration uses data insights to guide communication strategy."
         },
         {
           id: 6,
           question: "What are chatbots for communication?",
           options: [
-            "Automated customer and employee communication",
-            "Only customer service automation",
+            "AI conversation simulators",
             "Social media bots",
-            "AI conversation simulators"
+            "Automated customer and employee communication",
+            "Only customer service automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Chatbots provide automated responses to common inquiries through messaging platforms."
         },
         {
@@ -1637,8 +1637,8 @@ This module explores how digital technologies are transforming corporate communi
           options: [
             "Internal digital collaboration platforms",
             "Only LinkedIn for business",
-            "Public social media for business",
-            "Professional networking sites"
+            "Professional networking sites",
+            "Public social media for business"
           ],
           correctAnswer: 0,
           explanation: "Enterprise social networks are private digital platforms for internal collaboration."
@@ -1647,48 +1647,48 @@ This module explores how digital technologies are transforming corporate communi
           id: 8,
           question: "What are audience insights from data?",
           options: [
-            "Data-driven understanding of stakeholders",
             "Only demographic information",
             "Customer purchase data",
+            "Data-driven understanding of stakeholders",
             "Market research reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Data provides deep understanding of stakeholder preferences and behaviors."
         },
         {
           id: 9,
           question: "What is social listening?",
           options: [
-            "Monitoring digital conversations about organization",
-            "Only tracking brand mentions",
+            "Employee social media watching",
             "Competitor social media monitoring",
-            "Employee social media watching"
+            "Only tracking brand mentions",
+            "Monitoring digital conversations about organization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social listening tracks online conversations to understand perceptions and trends."
         },
         {
           id: 10,
           question: "What is predictive analytics for communication?",
           options: [
-            "Anticipating communication needs and responses",
             "Only predicting crisis events",
             "Market trend predictions",
-            "Customer behavior forecasting"
+            "Customer behavior forecasting",
+            "Anticipating communication needs and responses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Predictive analytics anticipates what communication will be needed and how it will be received."
         },
         {
           id: 11,
           question: "What is integration planning?",
           options: [
-            "Connecting digital and traditional channels",
-            "Only software integration",
             "Department collaboration planning",
-            "Channel partnership integration"
+            "Connecting digital and traditional channels",
+            "Channel partnership integration",
+            "Only software integration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Integration planning ensures all communication channels work together seamlessly."
         },
         {
@@ -1697,8 +1697,8 @@ This module explores how digital technologies are transforming corporate communi
           options: [
             "AI-powered emotion and opinion detection",
             "Only positive/negative classification",
-            "Employee sentiment surveys",
-            "Market sentiment indicators"
+            "Market sentiment indicators",
+            "Employee sentiment surveys"
           ],
           correctAnswer: 0,
           explanation: "Sentiment analysis uses AI to detect emotions and opinions in text data."
@@ -1707,60 +1707,60 @@ This module explores how digital technologies are transforming corporate communi
           id: 13,
           question: "What are virtual town halls?",
           options: [
-            "Digital large-group meetings",
+            "Webinar presentations",
             "Only video conferences",
-            "Online shareholder meetings",
-            "Webinar presentations"
+            "Digital large-group meetings",
+            "Online shareholder meetings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Virtual town halls allow large-scale employee meetings through digital platforms."
         },
         {
           id: 14,
           question: "What is social media governance?",
           options: [
-            "Policies and guidelines for corporate social use",
-            "Only social media rules",
+            "Legal compliance for social media",
             "Employee social media restrictions",
-            "Legal compliance for social media"
+            "Only social media rules",
+            "Policies and guidelines for corporate social use"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social media governance establishes rules and guidelines for organizational social media use."
         },
         {
           id: 15,
           question: "What is digital signage?",
           options: [
-            "Electronic displays for internal communication",
             "Only digital advertising screens",
-            "Website signage optimization",
-            "Social media visual content"
+            "Social media visual content",
+            "Electronic displays for internal communication",
+            "Website signage optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital signage uses electronic displays for internal communication in offices and facilities."
         },
         {
           id: 16,
           question: "What are employee advocacy programs?",
           options: [
-            "Encouraging employee social media participation",
-            "Only employee social media training",
+            "Employee brand ambassador programs",
             "Social media influencer employees",
-            "Employee brand ambassador programs"
+            "Only employee social media training",
+            "Encouraging employee social media participation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Employee advocacy programs encourage employees to share positive content about the organization."
         },
         {
           id: 17,
           question: "What is hybrid event management?",
           options: [
-            "Combining in-person and virtual attendance",
             "Only virtual event planning",
+            "Combining in-person and virtual attendance",
             "Multi-location event coordination",
             "Mixed media event production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hybrid events include both physical and virtual participation options."
         },
         {
@@ -1769,8 +1769,8 @@ This module explores how digital technologies are transforming corporate communi
           options: [
             "Safeguarding communication data",
             "Only encryption of messages",
-            "IT security measures",
-            "Privacy policy compliance"
+            "Privacy policy compliance",
+            "IT security measures"
           ],
           correctAnswer: 0,
           explanation: "Data protection ensures communication data is secure and confidential."
@@ -1779,24 +1779,24 @@ This module explores how digital technologies are transforming corporate communi
           id: 19,
           question: "What are digital workspace communications?",
           options: [
-            "Communication in remote work environments",
             "Only email and messaging",
-            "Virtual office platforms",
-            "Remote collaboration tools"
+            "Remote collaboration tools",
+            "Communication in remote work environments",
+            "Virtual office platforms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital workspace communications involve tools and practices for remote and hybrid teams."
         },
         {
           id: 20,
           question: "What is continuous adaptation in digital communication?",
           options: [
-            "Staying current with digital evolution",
             "Only regular technology updates",
+            "Staying current with digital evolution",
             "Constant strategy changes",
             "Employee digital training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Continuous adaptation means regularly updating digital communication approaches as technology evolves."
         }
       ]
@@ -1815,12 +1815,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 1,
         question: "What is business alignment in communication planning?",
         options: [
-          "Linking communication to business strategy",
-          "Only communicating business results",
           "Aligning with competitor strategies",
+          "Only communicating business results",
+          "Linking communication to business strategy",
           "Following government business rules"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 1: Business alignment ensures communication supports organizational goals.",
         module: 1
       },
@@ -1830,8 +1830,8 @@ This module explores how digital technologies are transforming corporate communi
         options: [
           "Being genuine and consistent",
           "Always telling positive stories",
-          "Never showing vulnerability",
-          "Using complex vocabulary"
+          "Using complex vocabulary",
+          "Never showing vulnerability"
         ],
         correctAnswer: 0,
         explanation: "From Module 2: Authenticity means being true to oneself and consistent.",
@@ -1843,8 +1843,8 @@ This module explores how digital technologies are transforming corporate communi
         options: [
           "Creating compelling story for the change",
           "Only announcing the change",
-          "Technical change documentation",
-          "Historical background of change"
+          "Historical background of change",
+          "Technical change documentation"
         ],
         correctAnswer: 0,
         explanation: "From Module 3: A change narrative helps people understand the reason for change.",
@@ -1854,12 +1854,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 4,
         question: "What is purpose definition in internal communication?",
         options: [
-          "Why internal communication matters to organization",
+          "Legal compliance requirements",
           "Only communication department purpose",
           "Employee communication requests",
-          "Legal compliance requirements"
+          "Why internal communication matters to organization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 4: Purpose definition clarifies how internal communication supports goals.",
         module: 4
       },
@@ -1868,9 +1868,9 @@ This module explores how digital technologies are transforming corporate communi
         question: "What is a reputation audit?",
         options: [
           "Current reputation assessment",
-          "Financial audit for reputation",
           "Employee reputation review",
-          "Competitor reputation analysis"
+          "Competitor reputation analysis",
+          "Financial audit for reputation"
         ],
         correctAnswer: 0,
         explanation: "From Module 5: A reputation audit assesses current stakeholder perceptions.",
@@ -1880,12 +1880,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 6,
         question: "What is digital readiness assessment?",
         options: [
-          "Current technology capabilities evaluation",
-          "Only digital skills assessment",
           "Technology budget review",
-          "Competitor digital analysis"
+          "Only digital skills assessment",
+          "Competitor digital analysis",
+          "Current technology capabilities evaluation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 6: Digital readiness assesses current technology infrastructure.",
         module: 6
       },
@@ -1893,12 +1893,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 7,
         question: "What is stakeholder mapping?",
         options: [
-          "Identifying and prioritizing all audiences",
-          "Only listing employee names",
           "Creating physical maps of stakeholders",
-          "Tracking stakeholder movements"
+          "Identifying and prioritizing all audiences",
+          "Tracking stakeholder movements",
+          "Only listing employee names"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Stakeholder mapping identifies all relevant audiences.",
         module: 1
       },
@@ -1906,12 +1906,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 8,
         question: "What is vision casting?",
         options: [
-          "Articulating future direction compellingly",
           "Predicting market trends",
+          "Articulating future direction compellingly",
           "Creating vision statements only",
           "Imagining unrealistic futures"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: Vision casting helps people see inspired future direction.",
         module: 2
       },
@@ -1919,12 +1919,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 9,
         question: "Why analyze stakeholders during change?",
         options: [
-          "Understanding different reactions to change",
-          "Only identifying supporters",
           "Creating stakeholder lists",
-          "Avoiding resistant stakeholders"
+          "Avoiding resistant stakeholders",
+          "Understanding different reactions to change",
+          "Only identifying supporters"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 3: Stakeholder analysis tailors communication to different groups.",
         module: 3
       },
@@ -1932,12 +1932,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 10,
         question: "What is audience segmentation for employees?",
         options: [
-          "Different employee groups and their needs",
-          "Only department divisions",
           "Salary level groupings",
-          "Employee performance categories"
+          "Different employee groups and their needs",
+          "Employee performance categories",
+          "Only department divisions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 4: Audience segmentation recognizes different communication needs.",
         module: 4
       },
@@ -1945,12 +1945,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 11,
         question: "What is desired positioning?",
         options: [
-          "Target reputation definition",
-          "Market position goals",
           "Physical location planning",
-          "Competitive positioning strategy"
+          "Competitive positioning strategy",
+          "Market position goals",
+          "Target reputation definition"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 5: Desired positioning defines how organization wants to be perceived.",
         module: 5
       },
@@ -1958,12 +1958,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 12,
         question: "What is AI-assisted content generation?",
         options: [
-          "AI writing and content creation support",
           "Only automated social media posts",
+          "AI writing and content creation support",
           "Complete AI content replacement",
           "Competitor content generation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 6: AI can assist with writing and creating communication content.",
         module: 6
       },
@@ -1971,12 +1971,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 13,
         question: "What are reputation objectives?",
         options: [
-          "Building and protecting corporate reputation",
           "Only responding to negative news",
+          "Increasing social media followers",
           "Creating advertising campaigns",
-          "Increasing social media followers"
+          "Building and protecting corporate reputation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 1: Reputation objectives focus on organizational perception.",
         module: 1
       },
@@ -1984,12 +1984,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 14,
         question: "What does executive presence include?",
         options: [
-          "Confidence, listening, non-verbal communication",
           "Only formal attire",
-          "Large office size",
-          "Many years of experience"
+          "Many years of experience",
+          "Confidence, listening, non-verbal communication",
+          "Large office size"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 2: Executive presence combines confidence and communication skills.",
         module: 2
       },
@@ -1997,12 +1997,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 15,
         question: "What is the case for change?",
         options: [
-          "Clear rationale for why change is needed",
-          "Only business case documents",
           "Financial justification only",
-          "Competitor analysis"
+          "Clear rationale for why change is needed",
+          "Competitor analysis",
+          "Only business case documents"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: The case for change explains why current state is insufficient.",
         module: 3
       },
@@ -2010,12 +2010,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 16,
         question: "What are digital platforms for internal communication?",
         options: [
-          "Intranets, collaboration tools, apps",
-          "Only social media platforms",
           "Public websites",
-          "Competitor digital tools"
+          "Intranets, collaboration tools, apps",
+          "Competitor digital tools",
+          "Only social media platforms"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 4: Digital platforms provide efficient internal communication channels.",
         module: 4
       },
@@ -2023,12 +2023,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 17,
         question: "What is corporate brand?",
         options: [
+          "Company name only",
           "Overall organizational brand",
           "Only logo and visual identity",
-          "Product brand umbrella",
-          "Company name only"
+          "Product brand umbrella"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 5: Corporate brand represents entire organization and reputation.",
         module: 5
       },
@@ -2036,12 +2036,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 18,
         question: "What is a technology roadmap?",
         options: [
-          "Planned digital communication evolution",
           "Only technology purchase plans",
+          "Planned digital communication evolution",
           "IT department strategic plan",
           "Software implementation schedule"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 6: Technology roadmap outlines digital technology adoption plan.",
         module: 6
       },
@@ -2049,12 +2049,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 19,
         question: "What is channel integration?",
         options: [
-          "Coordinating all communication channels",
           "Using only digital channels",
+          "Coordinating all communication channels",
           "Eliminating traditional channels",
           "Random channel selection"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Channel integration ensures all platforms work together.",
         module: 1
       },
@@ -2062,12 +2062,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 20,
         question: "What is financial storytelling?",
         options: [
+          "Creating fictional financial stories",
           "Making numbers meaningful and engaging",
           "Only reporting financial results",
-          "Creating fictional financial stories",
           "Simplifying all numbers completely"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: Financial storytelling puts numbers in emotional context.",
         module: 2
       },
@@ -2075,12 +2075,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 21,
         question: "What is pre-change communication?",
         options: [
-          "Building awareness before implementation",
-          "Only final change announcement",
           "Rumors and speculation management",
-          "Employee training programs"
+          "Only final change announcement",
+          "Employee training programs",
+          "Building awareness before implementation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 3: Pre-change communication prepares people for what's coming.",
         module: 3
       },
@@ -2088,12 +2088,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 22,
         question: "What is channel strategy?",
         options: [
-          "Selecting appropriate communication channels",
+          "Traditional channels only",
           "Using all available channels",
-          "Only newest technology channels",
-          "Traditional channels only"
+          "Selecting appropriate communication channels",
+          "Only newest technology channels"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 4: Channel strategy selects right mix for messages and audiences.",
         module: 4
       },
@@ -2103,8 +2103,8 @@ This module explores how digital technologies are transforming corporate communi
         options: [
           "Current vs desired reputation comparison",
           "Only negative reputation gaps",
-          "Competitor reputation gaps",
-          "Employee perception gaps"
+          "Employee perception gaps",
+          "Competitor reputation gaps"
         ],
         correctAnswer: 0,
         explanation: "From Module 5: Gap analysis identifies reputation differences to address.",
@@ -2114,12 +2114,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 24,
         question: "What is personalization at scale?",
         options: [
+          "Segmented email marketing",
           "Tailored communication using AI",
           "Only mass customization",
-          "Individual manual personalization",
-          "Segmented email marketing"
+          "Individual manual personalization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 6: AI enables personalized communication for large audiences.",
         module: 6
       },
@@ -2128,9 +2128,9 @@ This module explores how digital technologies are transforming corporate communi
         question: "What does environmental scanning involve?",
         options: [
           "Analyzing internal and external factors",
+          "Competitor office visits",
           "Only checking weather conditions",
-          "Office environment inspection",
-          "Competitor office visits"
+          "Office environment inspection"
         ],
         correctAnswer: 0,
         explanation: "From Module 1: Environmental scanning examines impacting factors.",
@@ -2142,8 +2142,8 @@ This module explores how digital technologies are transforming corporate communi
         options: [
           "Simplifying complex ideas for diverse audiences",
           "Using technical jargon precisely",
-          "Speaking quickly and efficiently",
-          "Being brief at all times"
+          "Being brief at all times",
+          "Speaking quickly and efficiently"
         ],
         correctAnswer: 0,
         explanation: "From Module 2: Clarity makes complex ideas understandable.",
@@ -2155,8 +2155,8 @@ This module explores how digital technologies are transforming corporate communi
         options: [
           "Explaining change phases and milestones",
           "Only start and end dates",
-          "Project management schedules",
-          "Employee deadline announcements"
+          "Employee deadline announcements",
+          "Project management schedules"
         ],
         correctAnswer: 0,
         explanation: "From Module 3: Timeline communication explains change journey.",
@@ -2166,12 +2166,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 28,
         question: "What are cascade systems?",
         options: [
-          "Ensuring consistent message flow through levels",
-          "Only top-down communication",
           "Waterfall project management",
-          "Information trickle down"
+          "Information trickle down",
+          "Ensuring consistent message flow through levels",
+          "Only top-down communication"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 4: Cascade systems ensure consistent communication.",
         module: 4
       },
@@ -2192,12 +2192,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 30,
         question: "What is analytics integration?",
         options: [
+          "Financial data integration",
           "Using data to inform communication decisions",
           "Only social media analytics",
-          "Website traffic analysis",
-          "Financial data integration"
+          "Website traffic analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 6: Analytics integration uses data insights for strategy.",
         module: 6
       },
@@ -2206,9 +2206,9 @@ This module explores how digital technologies are transforming corporate communi
         question: "What are relationship objectives?",
         options: [
           "Strengthening stakeholder relationships",
-          "Only customer relationship management",
+          "Social media friendships",
           "Employee personal relationships",
-          "Social media friendships"
+          "Only customer relationship management"
         ],
         correctAnswer: 0,
         explanation: "From Module 1: Relationship objectives build trust with stakeholders.",
@@ -2218,12 +2218,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 32,
         question: "What is storytelling in leadership?",
         options: [
-          "Using narratives to connect and persuade",
           "Entertaining with fictional stories",
           "Sharing personal life details",
-          "Historical story telling only"
+          "Historical story telling only",
+          "Using narratives to connect and persuade"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 2: Storytelling makes messages memorable and resonant.",
         module: 2
       },
@@ -2231,12 +2231,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 33,
         question: "What are benefits communication?",
         options: [
+          "Future uncertain benefits",
           "What improvements change will bring",
-          "Only financial benefits",
           "Personal benefits for leaders",
-          "Future uncertain benefits"
+          "Only financial benefits"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 3: Benefits communication shows what people gain.",
         module: 3
       },
@@ -2244,12 +2244,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 34,
         question: "What is content planning for internal communication?",
         options: [
+          "Spontaneous communication",
           "Creating relevant and engaging content",
           "Only mandatory announcements",
-          "Spontaneous communication",
           "External content sharing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 4: Content planning ensures valuable communication.",
         module: 4
       },
@@ -2257,12 +2257,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 35,
         question: "What are product/service brands?",
         options: [
-          "Individual offering brands",
+          "Competitor product brands",
           "Only consumer product brands",
-          "Internal project names",
-          "Competitor product brands"
+          "Individual offering brands",
+          "Internal project names"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 5: Product/service brands represent specific offerings.",
         module: 5
       },
@@ -2270,12 +2270,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 36,
         question: "What are chatbots for communication?",
         options: [
-          "Automated customer and employee communication",
-          "Only customer service automation",
+          "AI conversation simulators",
           "Social media bots",
-          "AI conversation simulators"
+          "Automated customer and employee communication",
+          "Only customer service automation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 6: Chatbots provide automated responses to inquiries.",
         module: 6
       },
@@ -2283,12 +2283,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 37,
         question: "What is message consistency?",
         options: [
+          "Only official statements",
           "Unified messaging across platforms",
           "Repeating same message constantly",
-          "Never changing any messages",
-          "Only official statements"
+          "Never changing any messages"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 1: Consistent messaging builds credibility.",
         module: 1
       },
@@ -2296,12 +2296,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 38,
         question: "What are town hall meetings for leaders?",
         options: [
-          "Effective large-group communication forums",
-          "Only formal presentations",
           "Employee complaint sessions",
-          "Annual mandatory meetings"
+          "Effective large-group communication forums",
+          "Annual mandatory meetings",
+          "Only formal presentations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "From Module 2: Town halls connect leaders with large employee groups.",
         module: 2
       },
@@ -2309,12 +2309,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 39,
         question: "What is resistance management?",
         options: [
-          "Addressing concerns and objections",
-          "Ignoring resistant people",
           "Forcing compliance",
-          "Only positive messaging"
+          "Only positive messaging",
+          "Ignoring resistant people",
+          "Addressing concerns and objections"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "From Module 3: Resistance management proactively addresses concerns.",
         module: 3
       },
@@ -2322,12 +2322,12 @@ This module explores how digital technologies are transforming corporate communi
         id: 40,
         question: "What are face-to-face communication methods?",
         options: [
-          "Meetings, town halls, roundtables",
-          "Only formal presentations",
           "Social gatherings only",
-          "Performance reviews"
+          "Performance reviews",
+          "Meetings, town halls, roundtables",
+          "Only formal presentations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "From Module 4: Face-to-face communication builds personal connections.",
         module: 4
       }

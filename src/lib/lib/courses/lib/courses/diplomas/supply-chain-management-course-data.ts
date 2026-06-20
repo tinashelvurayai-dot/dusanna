@@ -113,8 +113,8 @@ Understanding these strategic foundations enables effective management of comple
           question: "What does a supply chain encompass?",
           options: [
             "All activities from raw materials to final consumer",
-            "Only manufacturing processes",
             "Only transportation activities",
+            "Only manufacturing processes",
             "Only retail sales"
           ],
           correctAnswer: 0,
@@ -124,24 +124,24 @@ Understanding these strategic foundations enables effective management of comple
           id: 2,
           question: "What are upstream activities?",
           options: [
-            "Suppliers and raw materials",
-            "Customer delivery only",
             "Retail operations only",
+            "Customer delivery only",
+            "Suppliers and raw materials",
             "Marketing activities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Upstream refers to activities closer to raw material sources and suppliers."
         },
         {
           id: 3,
           question: "What are downstream activities?",
           options: [
+            "Supplier management",
             "Distribution and customers",
-            "Raw material extraction",
             "Component manufacturing",
-            "Supplier management"
+            "Raw material extraction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Downstream refers to activities closer to end customers and final delivery."
         },
         {
@@ -160,24 +160,24 @@ Understanding these strategic foundations enables effective management of comple
           id: 5,
           question: "What is information flow?",
           options: [
+            "Product shipments",
             "Data and communication exchanges",
             "Money transfers",
-            "Product shipments",
             "Return shipments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Information flow includes orders, forecasts, inventory data, and other communications."
         },
         {
           id: 6,
           question: "What is financial flow?",
           options: [
-            "Money and payment transactions",
-            "Product deliveries",
             "Information sharing",
-            "Return processing"
+            "Return processing",
+            "Product deliveries",
+            "Money and payment transactions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Financial flow involves payments, credits, and financial transactions between supply chain partners."
         },
         {
@@ -185,9 +185,9 @@ Understanding these strategic foundations enables effective management of comple
           question: "What is planning in supply chain?",
           options: [
             "Demand forecasting and resource allocation",
-            "Only manufacturing scheduling",
+            "Only inventory counting",
             "Only transportation booking",
-            "Only inventory counting"
+            "Only manufacturing scheduling"
           ],
           correctAnswer: 0,
           explanation: "Planning coordinates all supply chain activities through forecasting and resource management."
@@ -197,8 +197,8 @@ Understanding these strategic foundations enables effective management of comple
           question: "What is sourcing?",
           options: [
             "Supplier selection and procurement",
-            "Only manufacturing",
             "Only distribution",
+            "Only manufacturing",
             "Only retailing"
           ],
           correctAnswer: 0,
@@ -208,24 +208,24 @@ Understanding these strategic foundations enables effective management of comple
           id: 9,
           question: "What characterizes efficiency-focused strategy?",
           options: [
-            "Emphasis on cost reduction",
             "Emphasis on maximum speed",
             "Emphasis on flexibility",
+            "Emphasis on cost reduction",
             "Emphasis on customization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Efficiency strategies prioritize minimizing costs through standardization and scale."
         },
         {
           id: 10,
           question: "What characterizes responsiveness-focused strategy?",
           options: [
+            "Emphasis on standardization",
             "Emphasis on speed and flexibility",
             "Emphasis on lowest costs",
-            "Emphasis on standardization",
             "Emphasis on large volumes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Responsiveness strategies prioritize quick adaptation to market changes and customer needs."
         },
         {
@@ -233,9 +233,9 @@ Understanding these strategic foundations enables effective management of comple
           question: "What is lean-agile combination?",
           options: [
             "Efficient base with responsive peaks",
-            "Only efficiency focus",
             "Only responsiveness focus",
-            "Random strategy selection"
+            "Random strategy selection",
+            "Only efficiency focus"
           ],
           correctAnswer: 0,
           explanation: "Lean-agile combines cost efficiency for stable demand with responsiveness for variable demand."
@@ -244,48 +244,48 @@ Understanding these strategic foundations enables effective management of comple
           id: 12,
           question: "What is postponement strategy?",
           options: [
+            "Complete customization upfront",
             "Delayed product differentiation",
             "Early product completion",
-            "No product variation",
-            "Complete customization upfront"
+            "No product variation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Postponement delays final product configuration until customer orders are received."
         },
         {
           id: 13,
           question: "What is network configuration?",
           options: [
-            "Number and location of facilities",
-            "Only transportation methods",
             "Only inventory levels",
-            "Only supplier selection"
+            "Number and location of facilities",
+            "Only supplier selection",
+            "Only transportation methods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Network configuration determines where facilities are located and how they connect."
         },
         {
           id: 14,
           question: "What characterizes centralized networks?",
           options: [
-            "Few large facilities, lower inventory costs",
+            "Random facility placement",
             "Many small facilities everywhere",
-            "No facility planning",
-            "Random facility placement"
+            "Few large facilities, lower inventory costs",
+            "No facility planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Centralized networks consolidate operations into fewer locations for cost efficiency."
         },
         {
           id: 15,
           question: "What characterizes decentralized networks?",
           options: [
-            "Multiple small facilities, faster response",
-            "One central facility only",
             "No facilities needed",
-            "Temporary facilities only"
+            "Temporary facilities only",
+            "One central facility only",
+            "Multiple small facilities, faster response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Decentralized networks place facilities closer to customers for faster service."
         },
         {
@@ -294,8 +294,8 @@ Understanding these strategic foundations enables effective management of comple
           options: [
             "Owning multiple stages of supply chain",
             "Only owning one stage",
-            "No ownership of stages",
-            "Selling all stages"
+            "Selling all stages",
+            "No ownership of stages"
           ],
           correctAnswer: 0,
           explanation: "Vertical integration involves controlling multiple consecutive stages of the supply chain."
@@ -304,12 +304,12 @@ Understanding these strategic foundations enables effective management of comple
           id: 17,
           question: "What is forward integration?",
           options: [
-            "Moving toward customers",
             "Moving toward suppliers",
-            "Staying in same stage",
-            "Leaving supply chain"
+            "Leaving supply chain",
+            "Moving toward customers",
+            "Staying in same stage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Forward integration extends control toward distribution and customer-facing activities."
         },
         {
@@ -317,9 +317,9 @@ Understanding these strategic foundations enables effective management of comple
           question: "What is backward integration?",
           options: [
             "Moving toward suppliers",
-            "Moving toward customers",
             "No movement",
-            "Lateral movement"
+            "Lateral movement",
+            "Moving toward customers"
           ],
           correctAnswer: 0,
           explanation: "Backward integration extends control toward raw materials and supplier activities."
@@ -328,24 +328,24 @@ Understanding these strategic foundations enables effective management of comple
           id: 19,
           question: "What is virtual integration?",
           options: [
-            "Partnering without ownership",
-            "Owning everything",
             "No partnerships",
+            "Owning everything",
+            "Partnering without ownership",
             "Temporary arrangements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Virtual integration achieves coordination through partnerships rather than ownership."
         },
         {
           id: 20,
           question: "What is supply chain collaboration?",
           options: [
+            "Ignoring partners",
             "Information sharing between partners",
-            "Working independently",
             "Competing fiercely",
-            "Ignoring partners"
+            "Working independently"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Collaboration involves coordinated planning and information sharing among supply chain partners."
         }
       ]
@@ -458,9 +458,9 @@ Effective demand planning reduces costs while improving customer service and ope
           question: "What is the first step in demand planning?",
           options: [
             "Data collection",
-            "Statistical forecasting",
             "Collaborative input",
-            "Plan execution"
+            "Plan execution",
+            "Statistical forecasting"
           ],
           correctAnswer: 0,
           explanation: "Data collection gathers historical information needed for accurate forecasting."
@@ -469,36 +469,36 @@ Effective demand planning reduces costs while improving customer service and ope
           id: 2,
           question: "What does demand planning minimize?",
           options: [
-            "Stockouts and overstocks",
+            "Only labor costs",
             "Only production costs",
             "Only transportation costs",
-            "Only labor costs"
+            "Stockouts and overstocks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective planning balances inventory to avoid both shortages and excesses."
         },
         {
           id: 3,
           question: "What is qualitative forecasting?",
           options: [
-            "Based on opinions and judgments",
             "Based only on mathematical models",
+            "Based only on computer algorithms",
             "Based only on historical data",
-            "Based only on computer algorithms"
+            "Based on opinions and judgments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Qualitative methods use human judgment and experience rather than numerical data."
         },
         {
           id: 4,
           question: "What is market research in forecasting?",
           options: [
-            "Customer surveys and focus groups",
-            "Only historical sales data",
             "Only mathematical calculations",
-            "Only computer simulations"
+            "Only historical sales data",
+            "Only computer simulations",
+            "Customer surveys and focus groups"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Market research gathers direct customer input about preferences and intentions."
         },
         {
@@ -506,9 +506,9 @@ Effective demand planning reduces costs while improving customer service and ope
           question: "What is quantitative forecasting?",
           options: [
             "Based on mathematical analysis",
-            "Based only on opinions",
+            "Based only on intuition",
             "Based only on guesses",
-            "Based only on intuition"
+            "Based only on opinions"
           ],
           correctAnswer: 0,
           explanation: "Quantitative methods analyze numerical data using statistical techniques."
@@ -517,36 +517,36 @@ Effective demand planning reduces costs while improving customer service and ope
           id: 6,
           question: "What are moving averages?",
           options: [
-            "Simple average of recent periods",
-            "Complex weighted calculations",
             "Future predictions only",
-            "Customer opinions only"
+            "Complex weighted calculations",
+            "Customer opinions only",
+            "Simple average of recent periods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Moving averages smooth out short-term fluctuations to identify trends."
         },
         {
           id: 7,
           question: "What is exponential smoothing?",
           options: [
-            "Weighted average favoring recent data",
-            "Equal weighting of all data",
             "Ignoring recent data",
-            "Only using oldest data"
+            "Only using oldest data",
+            "Weighted average favoring recent data",
+            "Equal weighting of all data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Exponential smoothing gives more weight to recent observations in forecasting."
         },
         {
           id: 8,
           question: "What is trend analysis?",
           options: [
+            "Only random patterns",
             "Identifying upward or downward patterns",
             "Ignoring patterns",
-            "Only seasonal patterns",
-            "Only random patterns"
+            "Only seasonal patterns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Trend analysis identifies long-term direction in data over time."
         },
         {
@@ -554,9 +554,9 @@ Effective demand planning reduces costs while improving customer service and ope
           question: "What is seasonal analysis?",
           options: [
             "Accounting for regular patterns",
-            "Ignoring seasonal effects",
             "Only trend analysis",
-            "Only random analysis"
+            "Only random analysis",
+            "Ignoring seasonal effects"
           ],
           correctAnswer: 0,
           explanation: "Seasonal analysis identifies and accounts for regular periodic fluctuations."
@@ -565,24 +565,24 @@ Effective demand planning reduces costs while improving customer service and ope
           id: 10,
           question: "What is regression analysis?",
           options: [
-            "Relationship between demand and factors",
+            "Only simple averaging",
             "Only time-based analysis",
             "Only opinion-based analysis",
-            "Only simple averaging"
+            "Relationship between demand and factors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regression examines how demand relates to other variables like price or promotions."
         },
         {
           id: 11,
           question: "How to measure forecast accuracy?",
           options: [
-            "Mean Absolute Deviation (MAD)",
-            "Only guesswork",
+            "Only sales targets",
             "Only opinions",
-            "Only sales targets"
+            "Only guesswork",
+            "Mean Absolute Deviation (MAD)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MAD calculates the average difference between forecast and actual demand."
         },
         {
@@ -591,8 +591,8 @@ Effective demand planning reduces costs while improving customer service and ope
           options: [
             "Mean Absolute Percentage Error",
             "Maximum Average Price Estimate",
-            "Minimum Average Production Error",
-            "Mean Annual Product Estimation"
+            "Mean Annual Product Estimation",
+            "Minimum Average Production Error"
           ],
           correctAnswer: 0,
           explanation: "MAPE expresses forecast error as a percentage of actual demand."
@@ -601,48 +601,48 @@ Effective demand planning reduces costs while improving customer service and ope
           id: 13,
           question: "What is S&OP?",
           options: [
-            "Sales & Operations Planning",
             "Stock & Order Processing",
+            "Sales & Order Processing",
             "Supply & Output Planning",
-            "Sales & Order Processing"
+            "Sales & Operations Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "S&OP aligns demand plans with supply capabilities across the organization."
         },
         {
           id: 14,
           question: "What does S&OP align?",
           options: [
-            "Company around single operating plan",
-            "Only sales targets",
+            "Only inventory levels",
             "Only production schedules",
-            "Only inventory levels"
+            "Company around single operating plan",
+            "Only sales targets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "S&OP creates consensus among departments for coordinated execution."
         },
         {
           id: 15,
           question: "What is demand shaping?",
           options: [
+            "Ignoring demand patterns",
             "Influencing customer demand patterns",
             "Only accepting all demand",
-            "Only rejecting demand",
-            "Ignoring demand patterns"
+            "Only rejecting demand"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Demand shaping uses marketing and pricing to influence when and how much customers buy."
         },
         {
           id: 16,
           question: "What is ATP?",
           options: [
-            "Available-to-Promise",
-            "Allocated-to-Production",
             "Actual-to-Planned",
-            "Average-to-Peak"
+            "Average-to-Peak",
+            "Available-to-Promise",
+            "Allocated-to-Production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ATP shows what inventory is actually available to promise to customers."
         },
         {
@@ -651,8 +651,8 @@ Effective demand planning reduces costs while improving customer service and ope
           options: [
             "Capable-to-Promise",
             "Cost-to-Produce",
-            "Capacity-to-Profit",
-            "Customer-to-Provider"
+            "Customer-to-Provider",
+            "Capacity-to-Profit"
           ],
           correctAnswer: 0,
           explanation: "CTP considers production capacity when promising delivery dates."
@@ -662,8 +662,8 @@ Effective demand planning reduces costs while improving customer service and ope
           question: "What is CPFR?",
           options: [
             "Collaborative Planning, Forecasting & Replenishment",
-            "Centralized Production & Financial Reporting",
             "Coordinated Purchasing & Facility Rotation",
+            "Centralized Production & Financial Reporting",
             "Complete Product & Flow Reconciliation"
           ],
           correctAnswer: 0,
@@ -673,24 +673,24 @@ Effective demand planning reduces costs while improving customer service and ope
           id: 19,
           question: "What improves forecast accuracy?",
           options: [
-            "Regular reviews and adjustments",
-            "Never changing forecasts",
             "Ignoring errors",
-            "Using only one method"
+            "Never changing forecasts",
+            "Using only one method",
+            "Regular reviews and adjustments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Continuous improvement processes enhance forecast accuracy over time."
         },
         {
           id: 20,
           question: "What is demand fulfillment?",
           options: [
-            "Meeting customer demand effectively",
             "Creating demand only",
-            "Ignoring demand",
-            "Reducing demand only"
+            "Reducing demand only",
+            "Meeting customer demand effectively",
+            "Ignoring demand"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Demand fulfillment ensures available supply meets customer requirements."
         }
       ]
@@ -826,144 +826,144 @@ Effective logistics management balances cost efficiency with service level requi
           id: 1,
           question: "What are advantages of road transportation?",
           options: [
-            "Door-to-door service and flexibility",
+            "Fastest international delivery",
             "Lowest cost for long distances",
-            "Highest capacity for bulk goods",
-            "Fastest international delivery"
+            "Door-to-door service and flexibility",
+            "Highest capacity for bulk goods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Road transport offers direct delivery and route flexibility for various shipment sizes."
         },
         {
           id: 2,
           question: "What is best for road transportation?",
           options: [
-            "Short distances and time-sensitive deliveries",
+            "Liquid pipeline transport",
             "International ocean crossings",
             "Bulk commodity long distances",
-            "Liquid pipeline transport"
+            "Short distances and time-sensitive deliveries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Road transport excels at short to medium distances with time-sensitive requirements."
         },
         {
           id: 3,
           question: "What are advantages of rail transportation?",
           options: [
-            "Low cost for bulk and fuel efficiency",
             "Door-to-door delivery",
-            "Fastest delivery speed",
-            "Highest flexibility"
+            "Highest flexibility",
+            "Low cost for bulk and fuel efficiency",
+            "Fastest delivery speed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Rail offers cost efficiency for heavy bulk shipments over long distances."
         },
         {
           id: 4,
           question: "What is best for rail transportation?",
           options: [
-            "Heavy bulk commodities and long distances",
             "Time-critical small packages",
+            "Local deliveries",
             "International air freight",
-            "Local deliveries"
+            "Heavy bulk commodities and long distances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Rail is optimal for heavy, bulk materials moving between fixed points over long distances."
         },
         {
           id: 5,
           question: "What are advantages of air transportation?",
           options: [
-            "Fastest mode and global reach",
             "Lowest cost per kilogram",
             "Highest weight capacity",
+            "Fastest mode and global reach",
             "Most environmentally friendly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Air transport provides the fastest delivery times across global distances."
         },
         {
           id: 6,
           question: "What is best for air transportation?",
           options: [
+            "Local deliveries",
             "High-value and time-critical goods",
             "Bulk construction materials",
-            "Low-value commodities",
-            "Local deliveries"
+            "Low-value commodities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Air freight is cost-effective for high-value items where speed is critical."
         },
         {
           id: 7,
           question: "What are advantages of maritime transportation?",
           options: [
-            "Lowest cost and huge capacity",
-            "Fastest delivery times",
             "Door-to-door service",
-            "Highest flexibility"
+            "Fastest delivery times",
+            "Highest flexibility",
+            "Lowest cost and huge capacity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ocean shipping offers the lowest cost per unit for large volume international shipments."
         },
         {
           id: 8,
           question: "What is best for maritime transportation?",
           options: [
-            "International bulk shipments",
             "Time-sensitive medical supplies",
             "Local distribution",
+            "International bulk shipments",
             "Small parcel delivery"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Maritime transport is ideal for large volume shipments where cost matters more than speed."
         },
         {
           id: 9,
           question: "What is intermodal transportation?",
           options: [
-            "Combination of multiple modes",
             "Only one transport mode",
+            "Only air transportation",
             "No transportation",
-            "Only air transportation"
+            "Combination of multiple modes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Intermodal uses multiple transportation modes in a single shipment journey."
         },
         {
           id: 10,
           question: "What is receiving in warehousing?",
           options: [
+            "Storing items long-term",
             "Unloading and checking incoming goods",
             "Sending out orders",
-            "Storing items long-term",
             "Picking customer orders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Receiving involves verifying and documenting incoming shipments."
         },
         {
           id: 11,
           question: "What is order picking?",
           options: [
-            "Selecting items for customer orders",
             "Receiving new inventory",
-            "Long-term storage",
-            "Loading trucks"
+            "Selecting items for customer orders",
+            "Loading trucks",
+            "Long-term storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Order picking retrieves specific items from storage to fulfill customer orders."
         },
         {
           id: 12,
           question: "What is packing?",
           options: [
-            "Preparing orders for shipment",
-            "Receiving goods",
             "Storing inventory",
-            "Transporting goods"
+            "Preparing orders for shipment",
+            "Transporting goods",
+            "Receiving goods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Packing involves placing picked items into appropriate shipping containers."
         },
         {
@@ -971,8 +971,8 @@ Effective logistics management balances cost efficiency with service level requi
           question: "What is centralized distribution?",
           options: [
             "Single location serving large area",
-            "Multiple local facilities",
             "No distribution centers",
+            "Multiple local facilities",
             "Direct from factory only"
           ],
           correctAnswer: 0,
@@ -982,84 +982,84 @@ Effective logistics management balances cost efficiency with service level requi
           id: 14,
           question: "What is cross-docking?",
           options: [
-            "Rapid transfer without storage",
+            "Retail store",
             "Long-term storage facility",
             "Manufacturing facility",
-            "Retail store"
+            "Rapid transfer without storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cross-docking moves goods directly from inbound to outbound vehicles with minimal handling."
         },
         {
           id: 15,
           question: "What is centralized inventory?",
           options: [
-            "Lower total inventory, slower response",
             "Higher inventory, faster response",
             "No inventory anywhere",
-            "Inventory at all locations"
+            "Inventory at all locations",
+            "Lower total inventory, slower response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Centralized inventory reduces total stock but may increase delivery times."
         },
         {
           id: 16,
           question: "What is safety stock?",
           options: [
-            "Buffer for demand and supply uncertainty",
             "Inventory for normal demand",
+            "Obsolete inventory",
             "Seasonal inventory only",
-            "Obsolete inventory"
+            "Buffer for demand and supply uncertainty"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Safety stock protects against unexpected demand spikes or supply disruptions."
         },
         {
           id: 17,
           question: "What is center of gravity method?",
           options: [
-            "Mathematical location optimization",
+            "Historical location copying",
             "Random location selection",
             "Customer voting on location",
-            "Historical location copying"
+            "Mathematical location optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Center of gravity calculates optimal facility locations based on weighted distances."
         },
         {
           id: 18,
           question: "What is last-mile delivery?",
           options: [
+            "Supplier to manufacturer",
             "Final delivery to end customer",
-            "Factory to warehouse transport",
             "Port to distribution center",
-            "Supplier to manufacturer"
+            "Factory to warehouse transport"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Last-mile delivery is the final and often most expensive leg of the supply chain."
         },
         {
           id: 19,
           question: "What is WMS?",
           options: [
+            "Warehouse Maintenance Schedule",
             "Warehouse Management System",
-            "Weight Measurement System",
             "Workforce Management Software",
-            "Warehouse Maintenance Schedule"
+            "Weight Measurement System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "WMS software manages warehouse operations including inventory and order fulfillment."
         },
         {
           id: 20,
           question: "What is TMS?",
           options: [
-            "Transportation Management System",
             "Time Management Software",
-            "Temperature Monitoring System",
-            "Trade Management Software"
+            "Trade Management Software",
+            "Transportation Management System",
+            "Temperature Monitoring System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TMS software optimizes transportation planning, execution, and cost management."
         }
       ]
@@ -1180,12 +1180,12 @@ Effective risk management protects supply chain performance and creates competit
           id: 1,
           question: "What are supply risks?",
           options: [
-            "Supplier failures and quality issues",
-            "Only transportation delays",
             "Only customer complaints",
-            "Only employee turnover"
+            "Only employee turnover",
+            "Only transportation delays",
+            "Supplier failures and quality issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Supply risks involve problems with suppliers that disrupt material availability."
         },
         {
@@ -1204,12 +1204,12 @@ Effective risk management protects supply chain performance and creates competit
           id: 3,
           question: "What is bullwhip effect?",
           options: [
-            "Demand distortion through supply chain",
-            "Supplier consolidation",
             "Inventory reduction",
-            "Cost reduction only"
+            "Cost reduction only",
+            "Demand distortion through supply chain",
+            "Supplier consolidation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Bullwhip effect amplifies demand fluctuations as they move up the supply chain."
         },
         {
@@ -1217,9 +1217,9 @@ Effective risk management protects supply chain performance and creates competit
           question: "What are process risks?",
           options: [
             "Production failures and quality defects",
-            "Only supplier issues",
             "Only customer issues",
-            "Only weather events"
+            "Only weather events",
+            "Only supplier issues"
           ],
           correctAnswer: 0,
           explanation: "Process risks involve internal operational failures in manufacturing or services."
@@ -1228,24 +1228,24 @@ Effective risk management protects supply chain performance and creates competit
           id: 5,
           question: "What are cost risks?",
           options: [
-            "Price volatility and currency fluctuations",
             "Only demand changes",
             "Only supplier failures",
-            "Only quality issues"
+            "Only quality issues",
+            "Price volatility and currency fluctuations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cost risks involve unexpected changes in input prices or exchange rates."
         },
         {
           id: 6,
           question: "What are competitive risks?",
           options: [
-            "New competitors and substitute products",
             "Only natural disasters",
             "Only equipment failures",
-            "Only employee issues"
+            "Only employee issues",
+            "New competitors and substitute products"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Competitive risks involve market changes that threaten business viability."
         },
         {
@@ -1253,9 +1253,9 @@ Effective risk management protects supply chain performance and creates competit
           question: "What are natural risks?",
           options: [
             "Earthquakes, floods, hurricanes",
+            "Only supplier changes",
             "Only price changes",
-            "Only demand changes",
-            "Only supplier changes"
+            "Only demand changes"
           ],
           correctAnswer: 0,
           explanation: "Natural risks involve environmental events that disrupt operations."
@@ -1264,24 +1264,24 @@ Effective risk management protects supply chain performance and creates competit
           id: 8,
           question: "What are political risks?",
           options: [
+            "Only market changes",
             "Government instability and trade wars",
-            "Only weather events",
             "Only equipment failures",
-            "Only market changes"
+            "Only weather events"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Political risks involve government actions that affect business operations."
         },
         {
           id: 9,
           question: "What is risk identification?",
           options: [
+            "Only mitigating obvious risks",
             "Finding potential risks in supply chain",
             "Ignoring potential risks",
-            "Only assessing known risks",
-            "Only mitigating obvious risks"
+            "Only assessing known risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk identification systematically discovers potential threats to supply chain operations."
         },
         {
@@ -1289,9 +1289,9 @@ Effective risk management protects supply chain performance and creates competit
           question: "What is process mapping?",
           options: [
             "Visualizing supply chain flows and dependencies",
-            "Only financial analysis",
+            "Only cost calculation",
             "Only supplier evaluation",
-            "Only cost calculation"
+            "Only financial analysis"
           ],
           correctAnswer: 0,
           explanation: "Process mapping creates visual representations to identify risk points in flows."
@@ -1300,36 +1300,36 @@ Effective risk management protects supply chain performance and creates competit
           id: 11,
           question: "What is risk assessment?",
           options: [
-            "Evaluating probability and impact of risks",
-            "Ignoring risk impacts",
             "Only identifying risks",
+            "Ignoring risk impacts",
+            "Evaluating probability and impact of risks",
             "Only mitigating all risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk assessment analyzes how likely risks are and how severe their impacts could be."
         },
         {
           id: 12,
           question: "What is risk prioritization?",
           options: [
-            "Focusing on high-probability, high-impact risks",
             "Treating all risks equally",
+            "Focusing on high-probability, high-impact risks",
             "Ignoring all risks",
             "Only focusing on minor risks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Prioritization ensures resources address the most significant risks first."
         },
         {
           id: 13,
           question: "What is risk avoidance?",
           options: [
-            "Eliminating risky activities or suppliers",
             "Accepting all risks",
+            "Only transferring risks",
             "Ignoring risks",
-            "Only transferring risks"
+            "Eliminating risky activities or suppliers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Avoidance removes risk exposure by not engaging in risky activities."
         },
         {
@@ -1337,9 +1337,9 @@ Effective risk management protects supply chain performance and creates competit
           question: "What is diversification?",
           options: [
             "Multiple suppliers and transportation modes",
+            "Complete dependence",
             "Single source for everything",
-            "No backup options",
-            "Complete dependence"
+            "No backup options"
           ],
           correctAnswer: 0,
           explanation: "Diversification spreads risk across multiple options to reduce dependency."
@@ -1348,24 +1348,24 @@ Effective risk management protects supply chain performance and creates competit
           id: 15,
           question: "What is redundancy?",
           options: [
-            "Backup capacity and safety stock",
-            "No backup systems",
             "Minimum capacity only",
-            "Just-in-time everything"
+            "Just-in-time everything",
+            "No backup systems",
+            "Backup capacity and safety stock"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Redundancy creates backup systems to maintain operations during disruptions."
         },
         {
           id: 16,
           question: "What is risk transfer?",
           options: [
-            "Insurance and contractual allocation",
             "Keeping all risk internally",
-            "Ignoring risk transfer",
-            "Creating more risk"
+            "Creating more risk",
+            "Insurance and contractual allocation",
+            "Ignoring risk transfer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk transfer shifts risk to other parties through insurance or contracts."
         },
         {
@@ -1385,9 +1385,9 @@ Effective risk management protects supply chain performance and creates competit
           question: "What is supply chain resilience?",
           options: [
             "Ability to recover from disruptions",
+            "Accepting permanent damage",
             "Complete avoidance of disruptions",
-            "Ignoring disruptions",
-            "Accepting permanent damage"
+            "Ignoring disruptions"
           ],
           correctAnswer: 0,
           explanation: "Resilience enables quick recovery and adaptation following supply chain disruptions."
@@ -1396,24 +1396,24 @@ Effective risk management protects supply chain performance and creates competit
           id: 19,
           question: "What is supply chain visibility?",
           options: [
-            "Real-time monitoring of supply chain status",
-            "Complete blindness to operations",
+            "Only customer visibility",
             "Only financial visibility",
-            "Only customer visibility"
+            "Real-time monitoring of supply chain status",
+            "Complete blindness to operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Visibility provides real-time information about goods and information flows."
         },
         {
           id: 20,
           question: "What is business continuity planning?",
           options: [
-            "Planning for operations during disruptions",
+            "Only financial planning",
             "Only planning for growth",
-            "No planning for problems",
-            "Only financial planning"
+            "Planning for operations during disruptions",
+            "No planning for problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Business continuity ensures critical operations can continue during and after disruptions."
         }
       ]
@@ -1553,84 +1553,84 @@ Global supply chain management requires balancing cost advantages with complexit
           id: 1,
           question: "What characterizes global supply chains?",
           options: [
-            "Longer distances and multiple borders",
-            "Only local operations",
+            "Only single currency",
             "Only domestic regulations",
-            "Only single currency"
+            "Longer distances and multiple borders",
+            "Only local operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Global supply chains involve crossing international borders with extended logistics."
         },
         {
           id: 2,
           question: "What are market drivers in global supply chains?",
           options: [
-            "Global customer base and demand patterns",
             "Only cost considerations",
             "Only government regulations",
+            "Global customer base and demand patterns",
             "Only transportation costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Market drivers involve accessing and serving customers in multiple countries."
         },
         {
           id: 3,
           question: "What are cost drivers?",
           options: [
-            "Labor cost differentials across countries",
             "Only customer preferences",
             "Only government policies",
-            "Only transportation modes"
+            "Only transportation modes",
+            "Labor cost differentials across countries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cost drivers leverage international differences in production and operating costs."
         },
         {
           id: 4,
           question: "What are government drivers?",
           options: [
-            "Trade agreements and preferential tariffs",
-            "Only customer demands",
             "Only competitor actions",
+            "Only customer demands",
+            "Trade agreements and preferential tariffs",
             "Only transportation options"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Government drivers include policies that encourage or restrict international trade."
         },
         {
           id: 5,
           question: "What is customs regulation?",
           options: [
-            "Import/export documentation and procedures",
+            "Only supplier selection",
             "Only transportation scheduling",
             "Only inventory management",
-            "Only supplier selection"
+            "Import/export documentation and procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Customs regulations govern how goods cross international borders legally."
         },
         {
           id: 6,
           question: "What are trade agreements?",
           options: [
+            "Only supplier agreements",
             "Regional agreements reducing trade barriers",
             "Only transportation contracts",
-            "Only supplier agreements",
             "Only customer contracts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Trade agreements establish rules and reduce barriers between participating countries."
         },
         {
           id: 7,
           question: "What is a commercial invoice?",
           options: [
+            "Payment receipt only",
             "Value and description of goods document",
             "Transportation contract only",
-            "Insurance document only",
-            "Payment receipt only"
+            "Insurance document only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Commercial invoices provide transaction details for customs valuation and payment."
         },
         {
@@ -1638,9 +1638,9 @@ Global supply chain management requires balancing cost advantages with complexit
           question: "What is a bill of lading?",
           options: [
             "Transportation contract and receipt",
-            "Only price quotation",
+            "Only payment confirmation",
             "Only product specification",
-            "Only payment confirmation"
+            "Only price quotation"
           ],
           correctAnswer: 0,
           explanation: "Bills of lading serve as contracts, receipts, and sometimes title documents for shipments."
@@ -1650,9 +1650,9 @@ Global supply chain management requires balancing cost advantages with complexit
           question: "What are HS codes?",
           options: [
             "Standardized product classification system",
-            "Transportation route codes",
+            "Customer account codes",
             "Supplier identification codes",
-            "Customer account codes"
+            "Transportation route codes"
           ],
           correctAnswer: 0,
           explanation: "Harmonized System codes classify products for customs and statistical purposes worldwide."
@@ -1661,36 +1661,36 @@ Global supply chain management requires balancing cost advantages with complexit
           id: 10,
           question: "What is EXW Incoterm?",
           options: [
-            "Buyer responsible for all transportation",
             "Seller delivers to destination",
+            "Buyer responsible for all transportation",
             "Seller pays all costs",
             "Buyer has no responsibilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EXW means the seller makes goods available at their premises, with buyer handling all transportation."
         },
         {
           id: 11,
           question: "What is FOB Incoterm?",
           options: [
-            "Seller delivers to port, buyer handles ocean freight",
-            "Seller delivers to final destination",
+            "Seller pays all transportation",
             "Buyer picks up at seller's factory",
-            "Seller pays all transportation"
+            "Seller delivers to port, buyer handles ocean freight",
+            "Seller delivers to final destination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FOB means seller delivers goods onboard ship at origin port, with buyer responsible for ocean transport."
         },
         {
           id: 12,
           question: "What is CIF Incoterm?",
           options: [
+            "Only land transportation included",
             "Seller pays to destination port",
             "Buyer pays all transportation",
-            "Seller delivers to buyer's warehouse",
-            "Only land transportation included"
+            "Seller delivers to buyer's warehouse"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CIF means seller pays cost, insurance, and freight to destination port."
         },
         {
@@ -1709,12 +1709,12 @@ Global supply chain management requires balancing cost advantages with complexit
           id: 14,
           question: "What is FCL shipping?",
           options: [
-            "Full Container Load shipping",
-            "Less than Container Load",
             "Air freight only",
-            "Truckload only"
+            "Less than Container Load",
+            "Truckload only",
+            "Full Container Load shipping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FCL involves shipping a full container dedicated to one shipper's goods."
         },
         {
@@ -1733,12 +1733,12 @@ Global supply chain management requires balancing cost advantages with complexit
           id: 16,
           question: "What is centralized global inventory?",
           options: [
-            "Single location serving worldwide",
             "Inventory in every country",
-            "No inventory strategy",
-            "Customer-held inventory"
+            "Single location serving worldwide",
+            "Customer-held inventory",
+            "No inventory strategy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Centralized inventory consolidates stock in one location for global distribution."
         },
         {
@@ -1747,8 +1747,8 @@ Global supply chain management requires balancing cost advantages with complexit
           options: [
             "Strategic locations serving continental regions",
             "Every local market warehouse",
-            "Only manufacturing facilities",
-            "Only supplier locations"
+            "Only supplier locations",
+            "Only manufacturing facilities"
           ],
           correctAnswer: 0,
           explanation: "Regional hubs serve multiple countries within a geographical region efficiently."
@@ -1757,12 +1757,12 @@ Global supply chain management requires balancing cost advantages with complexit
           id: 18,
           question: "What is offshoring?",
           options: [
-            "Moving production to lower-cost countries",
             "Bringing production back home",
+            "Local production only",
             "Sourcing from nearby countries",
-            "Local production only"
+            "Moving production to lower-cost countries"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Offshoring involves relocating production to countries with cost advantages."
         },
         {
@@ -1781,12 +1781,12 @@ Global supply chain management requires balancing cost advantages with complexit
           id: 20,
           question: "What is total landed cost?",
           options: [
-            "All costs to get product to final destination",
-            "Only purchase price",
             "Only transportation cost",
-            "Only customs duties"
+            "Only customs duties",
+            "All costs to get product to final destination",
+            "Only purchase price"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Total landed cost includes all expenses from supplier to final delivery point."
         }
       ]
@@ -1926,12 +1926,12 @@ Sustainable supply chain management creates value while protecting people and th
           id: 1,
           question: "What are the three pillars of sustainability?",
           options: [
-            "Environmental, social, and economic",
-            "Only environmental",
+            "Only social",
             "Only economic",
-            "Only social"
+            "Only environmental",
+            "Environmental, social, and economic"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The triple bottom line includes environmental protection, social equity, and economic prosperity."
         },
         {
@@ -1940,8 +1940,8 @@ Sustainable supply chain management creates value while protecting people and th
           options: [
             "Resource efficiency and waste reduction",
             "Only profit maximization",
-            "Only social welfare",
-            "Only economic growth"
+            "Only economic growth",
+            "Only social welfare"
           ],
           correctAnswer: 0,
           explanation: "Environmental sustainability focuses on minimizing ecological impact and resource use."
@@ -1950,12 +1950,12 @@ Sustainable supply chain management creates value while protecting people and th
           id: 3,
           question: "What is social sustainability?",
           options: [
-            "Fair labor practices and community development",
             "Only environmental protection",
             "Only cost reduction",
-            "Only profit growth"
+            "Only profit growth",
+            "Fair labor practices and community development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Social sustainability addresses fair treatment of people and community well-being."
         },
         {
@@ -1963,9 +1963,9 @@ Sustainable supply chain management creates value while protecting people and th
           question: "What is economic sustainability?",
           options: [
             "Long-term profitability and resilience",
-            "Only short-term profits",
             "Only environmental costs",
-            "Only social programs"
+            "Only social programs",
+            "Only short-term profits"
           ],
           correctAnswer: 0,
           explanation: "Economic sustainability ensures business viability while supporting broader economic health."
@@ -1974,48 +1974,48 @@ Sustainable supply chain management creates value while protecting people and th
           id: 5,
           question: "What is green procurement?",
           options: [
-            "Supplier environmental assessment",
             "Only lowest cost purchasing",
             "Only fastest delivery",
+            "Supplier environmental assessment",
             "Only local purchasing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Green procurement considers environmental factors when selecting suppliers and materials."
         },
         {
           id: 6,
           question: "What is sustainable material sourcing?",
           options: [
-            "Using recycled, renewable, or certified materials",
-            "Using cheapest materials only",
+            "Using imported materials only",
             "Using local materials only",
-            "Using imported materials only"
+            "Using cheapest materials only",
+            "Using recycled, renewable, or certified materials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sustainable sourcing prioritizes materials with lower environmental and social impacts."
         },
         {
           id: 7,
           question: "What is energy efficiency in manufacturing?",
           options: [
-            "Optimizing processes for lower energy use",
             "Using maximum energy always",
-            "Ignoring energy consumption",
-            "Only using fossil fuels"
+            "Optimizing processes for lower energy use",
+            "Only using fossil fuels",
+            "Ignoring energy consumption"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Energy efficiency reduces energy consumption while maintaining or improving output."
         },
         {
           id: 8,
           question: "What is water conservation?",
           options: [
-            "Reducing and recycling water use",
             "Using unlimited water",
-            "Ignoring water usage",
-            "Only using fresh water"
+            "Reducing and recycling water use",
+            "Only using fresh water",
+            "Ignoring water usage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Water conservation minimizes water consumption and promotes recycling in operations."
         },
         {
@@ -2035,8 +2035,8 @@ Sustainable supply chain management creates value while protecting people and th
           question: "What is modal shift?",
           options: [
             "Using more environmentally friendly transport modes",
-            "Only using trucks",
             "Only using air freight",
+            "Only using trucks",
             "No mode changes"
           ],
           correctAnswer: 0,
@@ -2047,9 +2047,9 @@ Sustainable supply chain management creates value while protecting people and th
           question: "What is reverse logistics?",
           options: [
             "Product take-back and material recovery",
-            "Only forward distribution",
+            "Only retail sales",
             "Only manufacturing",
-            "Only retail sales"
+            "Only forward distribution"
           ],
           correctAnswer: 0,
           explanation: "Reverse logistics manages the flow of products back from consumers for reuse or recycling."
@@ -2058,72 +2058,72 @@ Sustainable supply chain management creates value while protecting people and th
           id: 12,
           question: "What is circular economy?",
           options: [
-            "Waste-to-resource and product life extension",
-            "Only linear production",
             "Only disposal focus",
-            "Only new material use"
+            "Only new material use",
+            "Waste-to-resource and product life extension",
+            "Only linear production"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Circular economy keeps materials in use through reuse, repair, and recycling."
         },
         {
           id: 13,
           question: "What is fair trade certification?",
           options: [
-            "Ensuring fair prices and conditions for producers",
+            "Only largest volumes",
             "Only lowest prices",
             "Only fastest production",
-            "Only largest volumes"
+            "Ensuring fair prices and conditions for producers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Fair trade certification guarantees equitable trading conditions for disadvantaged producers."
         },
         {
           id: 14,
           question: "What are conflict minerals?",
           options: [
-            "Minerals from conflict-affected areas",
             "All minerals equally",
+            "Only domestic minerals",
             "Only recycled minerals",
-            "Only domestic minerals"
+            "Minerals from conflict-affected areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Conflict minerals may finance armed conflict and human rights abuses in mining regions."
         },
         {
           id: 15,
           question: "What is supply chain transparency?",
           options: [
-            "Tracking products from origin to consumer",
-            "Hiding supply chain information",
             "Only financial transparency",
-            "Only internal transparency"
+            "Hiding supply chain information",
+            "Only internal transparency",
+            "Tracking products from origin to consumer"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Transparency provides visibility into supply chain practices and impacts."
         },
         {
           id: 16,
           question: "What is carbon footprint?",
           options: [
-            "Greenhouse gas emissions measurement",
+            "Only waste generation",
             "Only water usage",
             "Only energy consumption",
-            "Only waste generation"
+            "Greenhouse gas emissions measurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Carbon footprint quantifies total greenhouse gas emissions from activities."
         },
         {
           id: 17,
           question: "What are Scope 1 emissions?",
           options: [
+            "Only customer emissions",
             "Direct emissions from owned sources",
             "Indirect energy emissions",
-            "Other indirect emissions",
-            "Only customer emissions"
+            "Other indirect emissions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Scope 1 covers direct emissions from company facilities and vehicles."
         },
         {
@@ -2131,8 +2131,8 @@ Sustainable supply chain management creates value while protecting people and th
           question: "What is GRI?",
           options: [
             "Global Reporting Initiative framework",
-            "Only financial reporting",
             "Only environmental reporting",
+            "Only financial reporting",
             "Only social reporting"
           ],
           correctAnswer: 0,
@@ -2154,12 +2154,12 @@ Sustainable supply chain management creates value while protecting people and th
           id: 20,
           question: "What is life cycle thinking?",
           options: [
-            "Considering impacts from materials to end-of-life",
             "Only manufacturing phase",
             "Only use phase",
-            "Only disposal phase"
+            "Only disposal phase",
+            "Considering impacts from materials to end-of-life"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Life cycle thinking evaluates environmental impacts across a product's entire lifespan."
         }
       ]
@@ -2175,9 +2175,9 @@ Sustainable supply chain management creates value while protecting people and th
         question: "What does a supply chain encompass?",
         options: [
           "All activities from raw materials to final consumer",
-          "Only manufacturing processes",
+          "Only retail sales",
           "Only transportation activities",
-          "Only retail sales"
+          "Only manufacturing processes"
         ],
         correctAnswer: 0,
         explanation: "Supply chains include upstream suppliers, internal operations, and downstream distribution.",
@@ -2187,12 +2187,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 2,
         question: "What are upstream activities?",
         options: [
-          "Suppliers and raw materials",
           "Customer delivery only",
-          "Retail operations only",
-          "Marketing activities"
+          "Suppliers and raw materials",
+          "Marketing activities",
+          "Retail operations only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Upstream refers to activities closer to raw material sources and suppliers.",
         module: 1
       },
@@ -2200,12 +2200,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 3,
         question: "What characterizes efficiency-focused strategy?",
         options: [
+          "Emphasis on flexibility",
           "Emphasis on cost reduction",
           "Emphasis on maximum speed",
-          "Emphasis on flexibility",
           "Emphasis on customization"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Efficiency strategies prioritize minimizing costs through standardization and scale.",
         module: 1
       },
@@ -2213,12 +2213,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 4,
         question: "What is the first step in demand planning?",
         options: [
-          "Data collection",
-          "Statistical forecasting",
+          "Plan execution",
           "Collaborative input",
-          "Plan execution"
+          "Statistical forecasting",
+          "Data collection"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Data collection gathers historical information needed for accurate forecasting.",
         module: 2
       },
@@ -2226,12 +2226,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 5,
         question: "What is qualitative forecasting?",
         options: [
-          "Based on opinions and judgments",
           "Based only on mathematical models",
-          "Based only on historical data",
-          "Based only on computer algorithms"
+          "Based on opinions and judgments",
+          "Based only on computer algorithms",
+          "Based only on historical data"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Qualitative methods use human judgment and experience rather than numerical data.",
         module: 2
       },
@@ -2239,12 +2239,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 6,
         question: "What are moving averages?",
         options: [
-          "Simple average of recent periods",
-          "Complex weighted calculations",
           "Future predictions only",
-          "Customer opinions only"
+          "Simple average of recent periods",
+          "Customer opinions only",
+          "Complex weighted calculations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Moving averages smooth out short-term fluctuations to identify trends.",
         module: 2
       },
@@ -2252,12 +2252,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 7,
         question: "What are advantages of road transportation?",
         options: [
-          "Door-to-door service and flexibility",
-          "Lowest cost for long distances",
+          "Fastest international delivery",
           "Highest capacity for bulk goods",
-          "Fastest international delivery"
+          "Lowest cost for long distances",
+          "Door-to-door service and flexibility"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Road transport offers direct delivery and route flexibility for various shipment sizes.",
         module: 3
       },
@@ -2267,8 +2267,8 @@ Sustainable supply chain management creates value while protecting people and th
         options: [
           "Low cost for bulk and fuel efficiency",
           "Door-to-door delivery",
-          "Fastest delivery speed",
-          "Highest flexibility"
+          "Highest flexibility",
+          "Fastest delivery speed"
         ],
         correctAnswer: 0,
         explanation: "Rail offers cost efficiency for heavy bulk shipments over long distances.",
@@ -2278,12 +2278,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 9,
         question: "What is intermodal transportation?",
         options: [
+          "Only air transportation",
           "Combination of multiple modes",
-          "Only one transport mode",
           "No transportation",
-          "Only air transportation"
+          "Only one transport mode"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Intermodal uses multiple transportation modes in a single shipment journey.",
         module: 3
       },
@@ -2291,12 +2291,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 10,
         question: "What are supply risks?",
         options: [
-          "Supplier failures and quality issues",
-          "Only transportation delays",
           "Only customer complaints",
+          "Only transportation delays",
+          "Supplier failures and quality issues",
           "Only employee turnover"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Supply risks involve problems with suppliers that disrupt material availability.",
         module: 4
       },
@@ -2304,12 +2304,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 11,
         question: "What is risk identification?",
         options: [
-          "Finding potential risks in supply chain",
           "Ignoring potential risks",
+          "Finding potential risks in supply chain",
           "Only assessing known risks",
           "Only mitigating obvious risks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Risk identification systematically discovers potential threats to supply chain operations.",
         module: 4
       },
@@ -2317,12 +2317,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 12,
         question: "What is diversification?",
         options: [
-          "Multiple suppliers and transportation modes",
-          "Single source for everything",
+          "Complete dependence",
           "No backup options",
-          "Complete dependence"
+          "Single source for everything",
+          "Multiple suppliers and transportation modes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Diversification spreads risk across multiple options to reduce dependency.",
         module: 4
       },
@@ -2330,12 +2330,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 13,
         question: "What characterizes global supply chains?",
         options: [
-          "Longer distances and multiple borders",
-          "Only local operations",
           "Only domestic regulations",
-          "Only single currency"
+          "Longer distances and multiple borders",
+          "Only single currency",
+          "Only local operations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Global supply chains involve crossing international borders with extended logistics.",
         module: 5
       },
@@ -2343,12 +2343,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 14,
         question: "What are HS codes?",
         options: [
-          "Standardized product classification system",
-          "Transportation route codes",
           "Supplier identification codes",
-          "Customer account codes"
+          "Customer account codes",
+          "Transportation route codes",
+          "Standardized product classification system"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Harmonized System codes classify products for customs and statistical purposes worldwide.",
         module: 5
       },
@@ -2369,12 +2369,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 16,
         question: "What are the three pillars of sustainability?",
         options: [
-          "Environmental, social, and economic",
-          "Only environmental",
           "Only economic",
-          "Only social"
+          "Only social",
+          "Environmental, social, and economic",
+          "Only environmental"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The triple bottom line includes environmental protection, social equity, and economic prosperity.",
         module: 6
       },
@@ -2382,12 +2382,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 17,
         question: "What is green procurement?",
         options: [
-          "Supplier environmental assessment",
           "Only lowest cost purchasing",
           "Only fastest delivery",
+          "Supplier environmental assessment",
           "Only local purchasing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Green procurement considers environmental factors when selecting suppliers and materials.",
         module: 6
       },
@@ -2395,12 +2395,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 18,
         question: "What is reverse logistics?",
         options: [
+          "Only retail sales",
           "Product take-back and material recovery",
           "Only forward distribution",
-          "Only manufacturing",
-          "Only retail sales"
+          "Only manufacturing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Reverse logistics manages the flow of products back from consumers for reuse or recycling.",
         module: 6
       },
@@ -2409,9 +2409,9 @@ Sustainable supply chain management creates value while protecting people and th
         question: "What is vertical integration?",
         options: [
           "Owning multiple stages of supply chain",
-          "Only owning one stage",
           "No ownership of stages",
-          "Selling all stages"
+          "Selling all stages",
+          "Only owning one stage"
         ],
         correctAnswer: 0,
         explanation: "Vertical integration involves controlling multiple consecutive stages of the supply chain.",
@@ -2421,12 +2421,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 20,
         question: "What is quantitative forecasting?",
         options: [
-          "Based on mathematical analysis",
-          "Based only on opinions",
+          "Based only on intuition",
           "Based only on guesses",
-          "Based only on intuition"
+          "Based only on opinions",
+          "Based on mathematical analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Quantitative methods analyze numerical data using statistical techniques.",
         module: 2
       },
@@ -2434,12 +2434,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 21,
         question: "What is WMS?",
         options: [
-          "Warehouse Management System",
-          "Weight Measurement System",
           "Workforce Management Software",
+          "Weight Measurement System",
+          "Warehouse Management System",
           "Warehouse Maintenance Schedule"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "WMS software manages warehouse operations including inventory and order fulfillment.",
         module: 3
       },
@@ -2447,12 +2447,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 22,
         question: "What is supply chain resilience?",
         options: [
-          "Ability to recover from disruptions",
           "Complete avoidance of disruptions",
+          "Accepting permanent damage",
           "Ignoring disruptions",
-          "Accepting permanent damage"
+          "Ability to recover from disruptions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Resilience enables quick recovery and adaptation following supply chain disruptions.",
         module: 4
       },
@@ -2460,12 +2460,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 23,
         question: "What is total landed cost?",
         options: [
-          "All costs to get product to final destination",
           "Only purchase price",
+          "Only customs duties",
           "Only transportation cost",
-          "Only customs duties"
+          "All costs to get product to final destination"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Total landed cost includes all expenses from supplier to final delivery point.",
         module: 5
       },
@@ -2486,12 +2486,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 25,
         question: "What are product flows?",
         options: [
-          "Physical movement of goods",
+          "Return processes",
           "Financial transactions",
           "Information exchange",
-          "Return processes"
+          "Physical movement of goods"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Product flow involves the actual physical transportation and handling of materials.",
         module: 1
       },
@@ -2499,12 +2499,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 26,
         question: "What is S&OP?",
         options: [
-          "Sales & Operations Planning",
           "Stock & Order Processing",
-          "Supply & Output Planning",
-          "Sales & Order Processing"
+          "Sales & Operations Planning",
+          "Sales & Order Processing",
+          "Supply & Output Planning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "S&OP aligns demand plans with supply capabilities across the organization.",
         module: 2
       },
@@ -2513,9 +2513,9 @@ Sustainable supply chain management creates value while protecting people and th
         question: "What is best for air transportation?",
         options: [
           "High-value and time-critical goods",
-          "Bulk construction materials",
           "Low-value commodities",
-          "Local deliveries"
+          "Local deliveries",
+          "Bulk construction materials"
         ],
         correctAnswer: 0,
         explanation: "Air freight is cost-effective for high-value items where speed is critical.",
@@ -2525,12 +2525,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 28,
         question: "What is risk assessment?",
         options: [
-          "Evaluating probability and impact of risks",
-          "Ignoring risk impacts",
           "Only identifying risks",
-          "Only mitigating all risks"
+          "Ignoring risk impacts",
+          "Only mitigating all risks",
+          "Evaluating probability and impact of risks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Risk assessment analyzes how likely risks are and how severe their impacts could be.",
         module: 4
       },
@@ -2540,8 +2540,8 @@ Sustainable supply chain management creates value while protecting people and th
         options: [
           "Moving production to lower-cost countries",
           "Bringing production back home",
-          "Sourcing from nearby countries",
-          "Local production only"
+          "Local production only",
+          "Sourcing from nearby countries"
         ],
         correctAnswer: 0,
         explanation: "Offshoring involves relocating production to countries with cost advantages.",
@@ -2551,12 +2551,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 30,
         question: "What are SDGs?",
         options: [
-          "United Nations Sustainable Development Goals",
           "Only corporate goals",
-          "Only environmental goals",
-          "Only economic goals"
+          "United Nations Sustainable Development Goals",
+          "Only economic goals",
+          "Only environmental goals"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "SDGs are 17 global goals addressing economic, social, and environmental challenges.",
         module: 6
       },
@@ -2564,12 +2564,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 31,
         question: "What is virtual integration?",
         options: [
-          "Partnering without ownership",
-          "Owning everything",
           "No partnerships",
-          "Temporary arrangements"
+          "Owning everything",
+          "Temporary arrangements",
+          "Partnering without ownership"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Virtual integration achieves coordination through partnerships rather than ownership.",
         module: 1
       },
@@ -2577,12 +2577,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 32,
         question: "What is exponential smoothing?",
         options: [
-          "Weighted average favoring recent data",
-          "Equal weighting of all data",
+          "Only using oldest data",
           "Ignoring recent data",
-          "Only using oldest data"
+          "Weighted average favoring recent data",
+          "Equal weighting of all data"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Exponential smoothing gives more weight to recent observations in forecasting.",
         module: 2
       },
@@ -2590,12 +2590,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 33,
         question: "What is centralized inventory?",
         options: [
-          "Lower total inventory, slower response",
+          "Inventory at all locations",
           "Higher inventory, faster response",
           "No inventory anywhere",
-          "Inventory at all locations"
+          "Lower total inventory, slower response"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Centralized inventory reduces total stock but may increase delivery times.",
         module: 3
       },
@@ -2603,12 +2603,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 34,
         question: "What is risk avoidance?",
         options: [
-          "Eliminating risky activities or suppliers",
-          "Accepting all risks",
           "Ignoring risks",
-          "Only transferring risks"
+          "Eliminating risky activities or suppliers",
+          "Only transferring risks",
+          "Accepting all risks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Avoidance removes risk exposure by not engaging in risky activities.",
         module: 4
       },
@@ -2642,12 +2642,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 37,
         question: "What is forward integration?",
         options: [
-          "Moving toward customers",
-          "Moving toward suppliers",
           "Staying in same stage",
-          "Leaving supply chain"
+          "Moving toward suppliers",
+          "Leaving supply chain",
+          "Moving toward customers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Forward integration extends control toward distribution and customer-facing activities.",
         module: 1
       },
@@ -2655,12 +2655,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 38,
         question: "What is demand shaping?",
         options: [
-          "Influencing customer demand patterns",
           "Only accepting all demand",
+          "Ignoring demand patterns",
           "Only rejecting demand",
-          "Ignoring demand patterns"
+          "Influencing customer demand patterns"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Demand shaping uses marketing and pricing to influence when and how much customers buy.",
         module: 2
       },
@@ -2668,12 +2668,12 @@ Sustainable supply chain management creates value while protecting people and th
         id: 39,
         question: "What is last-mile delivery?",
         options: [
+          "Port to distribution center",
           "Final delivery to end customer",
           "Factory to warehouse transport",
-          "Port to distribution center",
           "Supplier to manufacturer"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Last-mile delivery is the final and often most expensive leg of the supply chain.",
         module: 3
       },
@@ -2682,9 +2682,9 @@ Sustainable supply chain management creates value while protecting people and th
         question: "What is business continuity planning?",
         options: [
           "Planning for operations during disruptions",
+          "Only financial planning",
           "Only planning for growth",
-          "No planning for problems",
-          "Only financial planning"
+          "No planning for problems"
         ],
         correctAnswer: 0,
         explanation: "Business continuity ensures critical operations can continue during and after disruptions.",

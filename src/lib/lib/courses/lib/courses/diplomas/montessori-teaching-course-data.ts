@@ -202,8 +202,8 @@ Understanding the philosophy and history provides the foundation for implementin
           options: [
             "Teacher",
             "Physician",
-            "Psychologist",
-            "Nurse"
+            "Nurse",
+            "Psychologist"
           ],
           correctAnswer: 1,
           explanation: "Maria Montessori was a physician who first worked with children with special needs before developing her educational method."
@@ -213,21 +213,21 @@ Understanding the philosophy and history provides the foundation for implementin
           question: "What does 'absorbent mind' refer to in Montessori philosophy?",
           options: [
             "Children's ability to memorize facts",
-            "How children effortlessly absorb information from their environment (ages 0-6)",
+            "A specific Montessori material",
             "How teachers absorb knowledge about children",
-            "A specific Montessori material"
+            "How children effortlessly absorb information from their environment (ages 0-6)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The absorbent mind refers to how children from birth to age 6 effortlessly absorb information from their environment."
         },
         {
           id: 3,
           question: "What are sensitive periods in Montessori theory?",
           options: [
-            "Times when children are emotional",
-            "Specific times when children are particularly receptive to learning certain skills",
             "Periods when children should not be taught",
-            "Times when children need extra discipline"
+            "Specific times when children are particularly receptive to learning certain skills",
+            "Times when children need extra discipline",
+            "Times when children are emotional"
           ],
           correctAnswer: 1,
           explanation: "Sensitive periods are specific times when children are particularly receptive to learning certain skills like language or order."
@@ -236,36 +236,36 @@ Understanding the philosophy and history provides the foundation for implementin
           id: 4,
           question: "How many planes of development did Montessori identify?",
           options: [
+            "4 planes",
             "2 planes",
             "3 planes",
-            "4 planes",
             "6 planes"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Montessori identified four distinct planes of development from birth to adulthood."
         },
         {
           id: 5,
           question: "What age range is the first plane of development?",
           options: [
-            "0-3 years",
-            "0-6 years",
+            "3-6 years",
             "6-12 years",
-            "3-6 years"
+            "0-6 years",
+            "0-3 years"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The first plane of development is from birth to age 6, characterized by the absorbent mind."
         },
         {
           id: 6,
           question: "What does 'normalization' mean in Montessori terms?",
           options: [
-            "Making all children the same",
-            "A state of concentration and peaceful engagement when children's needs are met",
+            "Behavior modification techniques",
             "Following standard curriculum",
-            "Behavior modification techniques"
+            "Making all children the same",
+            "A state of concentration and peaceful engagement when children's needs are met"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Normalization is a state of concentration, self-discipline, and peaceful engagement that emerges when children's developmental needs are met."
         },
         {
@@ -273,23 +273,23 @@ Understanding the philosophy and history provides the foundation for implementin
           question: "What is the typical age span in a Montessori classroom?",
           options: [
             "Same age only",
+            "3-year age span",
             "6-month age span",
-            "1-year age span",
-            "3-year age span"
+            "1-year age span"
           ],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Montessori classrooms typically have mixed-age groupings with a 3-year age span."
         },
         {
           id: 8,
           question: "What is the Montessori teacher's primary role?",
           options: [
-            "Lecturer and director",
             "Guide and facilitator",
             "Disciplinarian",
+            "Lecturer and director",
             "Entertainer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The Montessori teacher is primarily a guide or facilitator rather than a traditional lecturer."
         },
         {
@@ -297,11 +297,11 @@ Understanding the philosophy and history provides the foundation for implementin
           question: "What year did Montessori open her first Casa dei Bambini?",
           options: [
             "1897",
+            "1927",
             "1907",
-            "1917",
-            "1927"
+            "1917"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Montessori opened her first Casa dei Bambini (Children's House) in 1907 in San Lorenzo, Rome."
         },
         {
@@ -309,57 +309,57 @@ Understanding the philosophy and history provides the foundation for implementin
           question: "What does 'control of error' mean in Montessori materials?",
           options: [
             "Teacher corrects all mistakes",
-            "Materials are designed so children can recognize their own mistakes",
             "Children are not allowed to make mistakes",
-            "Only perfect work is accepted"
+            "Only perfect work is accepted",
+            "Materials are designed so children can recognize their own mistakes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Control of error means materials are designed so children can recognize and correct their own mistakes without adult intervention."
         },
         {
           id: 11,
           question: "What is auto-education in Montessori philosophy?",
           options: [
-            "Children teaching themselves with appropriate materials and environment",
             "Children teaching other children",
             "Computer-based learning",
-            "Parents teaching at home"
+            "Parents teaching at home",
+            "Children teaching themselves with appropriate materials and environment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Auto-education means children can educate themselves when provided with appropriate materials and a prepared environment."
         },
         {
           id: 12,
           question: "What does 'freedom within limits' mean?",
           options: [
-            "Children can do anything they want",
             "Children choose work within boundaries that ensure safety and respect",
             "Only freedom, no limits",
+            "Children can do anything they want",
             "Only limits, no freedom"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Freedom within limits means children choose their activities within boundaries that ensure safety and respect for others and the environment."
         },
         {
           id: 13,
           question: "What are the three periods in the Montessori three-period lesson?",
           options: [
+            "Watch, do, teach",
             "Morning, afternoon, evening",
-            "Naming, recognition, recall",
             "Introduction, practice, test",
-            "Watch, do, teach"
+            "Naming, recognition, recall"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The three-period lesson consists of: 1) Naming period, 2) Recognition period, 3) Recall period."
         },
         {
           id: 14,
           question: "What does 'isolation of difficulty' mean in Montessori materials?",
           options: [
-            "Making materials very difficult",
+            "Making learning isolated from real life",
             "Each material focuses on one specific skill or concept",
             "Separating children by ability",
-            "Making learning isolated from real life"
+            "Making materials very difficult"
           ],
           correctAnswer: 1,
           explanation: "Isolation of difficulty means each Montessori material focuses on teaching one specific skill or concept at a time."
@@ -368,72 +368,72 @@ Understanding the philosophy and history provides the foundation for implementin
           id: 15,
           question: "What characterizes the second plane of development (6-12 years)?",
           options: [
-            "Absorbent mind",
-            "Reasoning, imagination, and moral development",
             "Physical changes of adolescence",
-            "Specialized knowledge acquisition"
+            "Specialized knowledge acquisition",
+            "Reasoning, imagination, and moral development",
+            "Absorbent mind"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The second plane (6-12 years) is characterized by reasoning, imagination, moral development, and social consciousness."
         },
         {
           id: 16,
           question: "What is cosmic education in Montessori?",
           options: [
-            "Learning about outer space",
             "Understanding the interconnectedness of all things",
-            "Religious education",
-            "Advanced science curriculum"
+            "Learning about outer space",
+            "Advanced science curriculum",
+            "Religious education"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cosmic education helps elementary children understand the interconnectedness of all things in the universe."
         },
         {
           id: 17,
           question: "What does Montessori mean by 'work' rather than 'play'?",
           options: [
-            "Children should only do academic tasks",
-            "Purposeful activities that support development",
             "No fun allowed",
-            "Only teacher-assigned tasks"
+            "Only teacher-assigned tasks",
+            "Purposeful activities that support development",
+            "Children should only do academic tasks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Montessori uses 'work' to describe children's purposeful activities that support their development, emphasizing their seriousness and importance."
         },
         {
           id: 18,
           question: "What is a key difference between Montessori and traditional assessment?",
           options: [
-            "Montessori uses more tests",
-            "Montessori uses observation-based assessment rather than grades",
+            "Both use identical assessment methods",
             "Traditional uses no assessment",
-            "Both use identical assessment methods"
+            "Montessori uses more tests",
+            "Montessori uses observation-based assessment rather than grades"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Montessori uses observation-based assessment rather than grades and standardized tests common in traditional education."
         },
         {
           id: 19,
           question: "What should Montessori classrooms include regarding materials?",
           options: [
-            "Only textbooks",
             "Real tools and objects rather than toys",
-            "Only electronic devices",
-            "Only teacher-made materials"
+            "Only teacher-made materials",
+            "Only textbooks",
+            "Only electronic devices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Montessori classrooms include real tools and objects that children can use independently rather than toys or simulations."
         },
         {
           id: 20,
           question: "What modern neuroscience finding supports Montessori principles?",
           options: [
+            "Only lecture-based learning works",
             "Children learn best sitting still",
             "Hands-on learning and movement enhance cognitive development",
-            "Only lecture-based learning works",
             "Children should start academics later"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Modern neuroscience confirms that hands-on learning and physical movement enhance cognitive development, supporting Montessori principles."
         }
       ]
@@ -778,8 +778,8 @@ The prepared environment and materials are essential tools that allow Montessori
           options: [
             "To look pretty for parents",
             "To support independent learning and exploration",
-            "To make cleaning easier",
-            "To store teacher materials"
+            "To store teacher materials",
+            "To make cleaning easier"
           ],
           correctAnswer: 1,
           explanation: "The prepared environment is carefully designed to support children's independent learning and exploration."
@@ -788,34 +788,34 @@ The prepared environment and materials are essential tools that allow Montessori
           id: 2,
           question: "How many main curriculum areas are typically in a Montessori classroom?",
           options: [
-            "3 areas",
             "5 areas",
+            "3 areas",
             "7 areas",
             "10 areas"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Montessori classrooms typically have five main areas: Practical Life, Sensorial, Language, Mathematics, and Cultural."
         },
         {
           id: 3,
           question: "What do practical life activities develop?",
           options: [
-            "Only cleaning skills",
-            "Independence, coordination, concentration, and order",
+            "Only social skills",
             "Only academic preparation",
-            "Only social skills"
+            "Independence, coordination, concentration, and order",
+            "Only cleaning skills"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Practical life activities develop independence, coordination, concentration, order, and many foundational skills."
         },
         {
           id: 4,
           question: "Which sensorial material focuses on visual discrimination of size?",
           options: [
-            "Color Tablets",
+            "Touch Tablets",
             "Pink Tower",
-            "Sound Cylinders",
-            "Touch Tablets"
+            "Color Tablets",
+            "Sound Cylinders"
           ],
           correctAnswer: 1,
           explanation: "The Pink Tower focuses on visual discrimination of size (large to small cubes)."
@@ -824,24 +824,24 @@ The prepared environment and materials are essential tools that allow Montessori
           id: 5,
           question: "What material prepares children for writing by developing pencil control?",
           options: [
-            "Sandpaper Letters",
             "Metal Insets",
             "Moveable Alphabet",
-            "Sound Boxes"
+            "Sound Boxes",
+            "Sandpaper Letters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Metal Insets help children develop pencil control through tracing shapes before writing letters."
         },
         {
           id: 6,
           question: "What is the first material in the mathematics sequence?",
           options: [
-            "Golden Beads",
             "Number Rods",
-            "Addition Strip Board",
-            "Fraction Insets"
+            "Fraction Insets",
+            "Golden Beads",
+            "Addition Strip Board"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Number Rods are typically the first mathematics material, introducing quantity 1-10."
         },
         {
@@ -849,44 +849,44 @@ The prepared environment and materials are essential tools that allow Montessori
           question: "Which material introduces the decimal system concretely?",
           options: [
             "Number Cards",
-            "Golden Bead Material",
             "Stamp Game",
+            "Golden Bead Material",
             "Dot Game"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Golden Bead Material introduces the decimal system (units, tens, hundreds, thousands) concretely."
         },
         {
           id: 8,
           question: "What does 'isolation of quality' mean in material design?",
           options: [
-            "Making materials difficult",
-            "Each material highlights one specific quality",
             "Keeping materials separate by subject",
-            "Children work alone with materials"
+            "Making materials difficult",
+            "Children work alone with materials",
+            "Each material highlights one specific quality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Isolation of quality means each material highlights one specific quality (size, color, shape, etc.) to focus learning."
         },
         {
           id: 9,
           question: "How should materials be arranged on shelves?",
           options: [
-            "Randomly for discovery",
-            "Left to right, simple to complex",
             "Alphabetically",
-            "By color"
+            "By color",
+            "Left to right, simple to complex",
+            "Randomly for discovery"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Materials should be arranged left to right, from simple to complex, following the natural progression of difficulty."
         },
         {
           id: 10,
           question: "What is a key characteristic of Montessori materials?",
           options: [
-            "They are electronic",
-            "They include control of error",
             "They require teacher correction",
+            "They include control of error",
+            "They are electronic",
             "They are disposable"
           ],
           correctAnswer: 1,
@@ -908,12 +908,12 @@ The prepared environment and materials are essential tools that allow Montessori
           id: 12,
           question: "What material helps children learn letter sounds through tactile experience?",
           options: [
-            "Moveable Alphabet",
-            "Sandpaper Letters",
             "Metal Insets",
-            "Phonetic Object Box"
+            "Phonetic Object Box",
+            "Moveable Alphabet",
+            "Sandpaper Letters"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sandpaper Letters allow children to trace letter shapes while learning their sounds through tactile experience."
         },
         {
@@ -921,33 +921,33 @@ The prepared environment and materials are essential tools that allow Montessori
           question: "What is included in the cultural area?",
           options: [
             "Only geography",
-            "Geography, history, science, art, and music",
             "Only science experiments",
+            "Geography, history, science, art, and music",
             "Only cultural celebrations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The cultural area includes geography, history, science, art, and music - all areas of human culture and knowledge."
         },
         {
           id: 14,
           question: "What should be true about practical life materials?",
           options: [
-            "They should be toys",
-            "They should be real objects, not toys",
             "They should be electronic",
-            "They should be disposable"
+            "They should be toys",
+            "They should be disposable",
+            "They should be real objects, not toys"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Practical life materials should be real objects that children can use independently, not toys."
         },
         {
           id: 15,
           question: "What is the purpose of sensorial materials?",
           options: [
-            "Only to keep children busy",
-            "To help children organize their sensory impressions",
             "Only for children with sensory issues",
-            "To prepare for standardized tests"
+            "To help children organize their sensory impressions",
+            "To prepare for standardized tests",
+            "Only to keep children busy"
           ],
           correctAnswer: 1,
           explanation: "Sensorial materials help children organize and classify their sensory impressions of the world."
@@ -956,60 +956,60 @@ The prepared environment and materials are essential tools that allow Montessori
           id: 16,
           question: "How does the mathematics sequence progress?",
           options: [
+            "Only using worksheets",
             "From abstract to concrete",
             "From concrete to abstract",
-            "Only using worksheets",
             "Starting with algebra"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Montessori mathematics sequence progresses from concrete materials to abstract understanding."
         },
         {
           id: 17,
           question: "What should a Montessori classroom include regarding nature?",
           options: [
-            "Only plastic plants",
             "Natural materials, plants, and connections to nature",
             "Only nature posters",
+            "Only plastic plants",
             "No nature elements indoors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Montessori classrooms should include natural materials, live plants, and connections to the natural world."
         },
         {
           id: 18,
           question: "What is the three-period lesson used for?",
           options: [
+            "Only for mathematics",
             "Only for discipline",
-            "Introducing new vocabulary and concepts",
             "Only for group lessons",
-            "Only for mathematics"
+            "Introducing new vocabulary and concepts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The three-period lesson is a teaching technique used to introduce new vocabulary and concepts."
         },
         {
           id: 19,
           question: "What should teacher presentations be like?",
           options: [
-            "Long and detailed",
             "Minimal words with precise movements",
+            "Long and detailed",
             "Entertaining and funny",
             "The same for all children"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Teacher presentations should use minimal words with slow, precise movements to demonstrate materials clearly."
         },
         {
           id: 20,
           question: "Why are materials arranged from simple to complex?",
           options: [
+            "Because Maria Montessori said so",
             "To make shelves look nice",
-            "To follow children's natural development and readiness",
             "To save space",
-            "Because Maria Montessori said so"
+            "To follow children's natural development and readiness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Materials are arranged from simple to complex to follow children's natural developmental progression and readiness."
         }
       ]
@@ -1342,22 +1342,22 @@ Observation is not just watching children-it's a disciplined practice that forms
           id: 1,
           question: "Why is observation so important in Montessori education?",
           options: [
+            "Parents expect it",
             "It's required by law",
             "It's the primary assessment tool and foundation of the method",
-            "It keeps children busy",
-            "Parents expect it"
+            "It keeps children busy"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Observation is the primary assessment tool in Montessori and the scientific basis for the entire method."
         },
         {
           id: 2,
           question: "What is naturalistic observation?",
           options: [
-            "Observing children in nature",
-            "Observing during normal work periods without interference",
             "Only observing natural behaviors",
-            "Observing without taking notes"
+            "Observing during normal work periods without interference",
+            "Observing without taking notes",
+            "Observing children in nature"
           ],
           correctAnswer: 1,
           explanation: "Naturalistic observation means observing children during their normal work periods without interfering or changing their behavior."
@@ -1366,10 +1366,10 @@ Observation is not just watching children-it's a disciplined practice that forms
           id: 3,
           question: "What should observation notes focus on?",
           options: [
-            "Teacher interpretations and judgments",
+            "Comparisons between children",
             "Objective descriptions of what is seen and heard",
-            "Only negative behaviors",
-            "Comparisons between children"
+            "Teacher interpretations and judgments",
+            "Only negative behaviors"
           ],
           correctAnswer: 1,
           explanation: "Observation notes should focus on objective descriptions of what is actually seen and heard, not interpretations or judgments."
@@ -1378,24 +1378,24 @@ Observation is not just watching children-it's a disciplined practice that forms
           id: 4,
           question: "What is a key skill for effective observation?",
           options: [
+            "Quick decision-making",
             "Multitasking",
             "Attention to detail",
-            "Entertaining children",
-            "Quick decision-making"
+            "Entertaining children"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Attention to detail is crucial for effective observation - noticing small but significant behaviors and interactions."
         },
         {
           id: 5,
           question: "What should you observe about children's work?",
           options: [
+            "Only work you assigned",
             "Only if it's correct",
-            "Material choices, concentration levels, and engagement duration",
             "Only academic work",
-            "Only work you assigned"
+            "Material choices, concentration levels, and engagement duration"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Observe what materials children choose, their concentration levels, and how long they engage with materials."
         },
         {
@@ -1404,8 +1404,8 @@ Observation is not just watching children-it's a disciplined practice that forms
           options: [
             "At your desk",
             "In an unobtrusive location where you can see but not distract",
-            "Right next to the child",
-            "Outside the classroom"
+            "Outside the classroom",
+            "Right next to the child"
           ],
           correctAnswer: 1,
           explanation: "Position yourself in an unobtrusive location where you can observe without being distracting to the children."
@@ -1414,12 +1414,12 @@ Observation is not just watching children-it's a disciplined practice that forms
           id: 7,
           question: "What should individual child files include?",
           options: [
-            "Only test scores",
-            "Observation notes, presentation records, work samples, and conference notes",
             "Only personal information",
-            "Only behavior reports"
+            "Only behavior reports",
+            "Only test scores",
+            "Observation notes, presentation records, work samples, and conference notes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Individual child files should include observation notes, presentation records, work samples, conference notes, and developmental information."
         },
         {
@@ -1438,10 +1438,10 @@ Observation is not just watching children-it's a disciplined practice that forms
           id: 9,
           question: "How can observations inform environmental adjustments?",
           options: [
-            "Only by removing all materials",
+            "Based on teacher preferences only",
             "By identifying which materials are used or ignored",
-            "Only at the beginning of the year",
-            "Based on teacher preferences only"
+            "Only by removing all materials",
+            "Only at the beginning of the year"
           ],
           correctAnswer: 1,
           explanation: "Observations show which materials children use or ignore, informing decisions about adding, removing, or rearranging materials."
@@ -1452,8 +1452,8 @@ Observation is not just watching children-it's a disciplined practice that forms
           options: [
             "Problems and concerns",
             "Positive observations and progress",
-            "Teacher's expectations",
-            "Comparison to other children"
+            "Comparison to other children",
+            "Teacher's expectations"
           ],
           correctAnswer: 1,
           explanation: "Conferences should begin with positive observations and progress to build partnership and trust with families."
@@ -1463,11 +1463,11 @@ Observation is not just watching children-it's a disciplined practice that forms
           question: "What is a key ethical consideration in observation?",
           options: [
             "Sharing observations with anyone interested",
+            "Using observations for entertainment",
             "Maintaining confidentiality of children and families",
-            "Only observing favorite children",
-            "Using observations for entertainment"
+            "Only observing favorite children"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Maintaining confidentiality is a crucial ethical consideration - protecting children's and families' privacy."
         },
         {
@@ -1476,8 +1476,8 @@ Observation is not just watching children-it's a disciplined practice that forms
           options: [
             "Only looking in a mirror",
             "Reflecting on your own teaching practice",
-            "Observing yourself as a child",
-            "Only during evaluations"
+            "Only during evaluations",
+            "Observing yourself as a child"
           ],
           correctAnswer: 1,
           explanation: "Self-observation involves reflecting on your own teaching practice to improve and grow professionally."
@@ -1487,21 +1487,21 @@ Observation is not just watching children-it's a disciplined practice that forms
           question: "What is event sampling?",
           options: [
             "Sampling children's events",
-            "Recording specific events or behaviors when they occur",
             "Only observing during special events",
+            "Recording specific events or behaviors when they occur",
             "Taking samples of children's work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Event sampling involves recording specific events or behaviors only when they occur, rather than continuous observation."
         },
         {
           id: 14,
           question: "What should you observe about children's social interactions?",
           options: [
-            "Only who they play with",
+            "Only during free play",
             "How they interact with peers and adults, conflict resolution, cooperation",
-            "Only negative interactions",
-            "Only during free play"
+            "Only who they play with",
+            "Only negative interactions"
           ],
           correctAnswer: 1,
           explanation: "Observe how children interact with peers and adults, including conflict resolution, cooperation, and communication styles."
@@ -1512,8 +1512,8 @@ Observation is not just watching children-it's a disciplined practice that forms
           options: [
             "To categorize children",
             "To understand behaviors in cultural context",
-            "Only for diverse classrooms",
-            "To report to authorities"
+            "To report to authorities",
+            "Only for diverse classrooms"
           ],
           correctAnswer: 1,
           explanation: "Cultural awareness helps understand children's behaviors in the context of their family and cultural background."
@@ -1522,24 +1522,24 @@ Observation is not just watching children-it's a disciplined practice that forms
           id: 16,
           question: "What is a running record?",
           options: [
-            "Children running in class",
-            "Detailed continuous description of behavior over time",
             "Records of who runs fastest",
-            "Only for physical education"
+            "Children running in class",
+            "Only for physical education",
+            "Detailed continuous description of behavior over time"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A running record is a detailed, continuous description of behavior over a specific time period."
         },
         {
           id: 17,
           question: "How can observations guide presentation planning?",
           options: [
-            "By following a fixed schedule",
             "By identifying readiness for new presentations",
-            "Only at the child's request",
-            "Based on the calendar"
+            "By following a fixed schedule",
+            "Based on the calendar",
+            "Only at the child's request"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Observations help identify when children are ready for new presentations based on their current work and development."
         },
         {
@@ -1558,22 +1558,22 @@ Observation is not just watching children-it's a disciplined practice that forms
           id: 19,
           question: "What is a common challenge in observation?",
           options: [
-            "Children love being observed",
             "Finding time in a busy classroom",
-            "Having too many tools",
-            "Children being too quiet"
+            "Children love being observed",
+            "Children being too quiet",
+            "Having too many tools"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Finding time for focused observation in a busy classroom is a common challenge for Montessori teachers."
         },
         {
           id: 20,
           question: "What does 'normalization' look like in observation?",
           options: [
-            "All children doing the same thing",
-            "Concentration, purposeful work, and peacefulness",
             "Perfect behavior",
-            "Complete silence"
+            "Concentration, purposeful work, and peacefulness",
+            "Complete silence",
+            "All children doing the same thing"
           ],
           correctAnswer: 1,
           explanation: "Normalization appears as concentration, purposeful work, peacefulness, and social harmony in the classroom."
@@ -1955,12 +1955,12 @@ Effective Montessori classroom leadership creates environments where children de
           id: 1,
           question: "What is the Montessori teacher's primary leadership role?",
           options: [
-            "Classroom director and commander",
-            "Guide and environmental preparer",
             "Entertainer and activity planner",
-            "Disciplinarian and rule enforcer"
+            "Classroom director and commander",
+            "Disciplinarian and rule enforcer",
+            "Guide and environmental preparer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Montessori teacher is primarily a guide and preparer of the environment rather than a traditional director."
         },
         {
@@ -1968,32 +1968,32 @@ Effective Montessori classroom leadership creates environments where children de
           question: "What is a benefit of mixed-age classrooms?",
           options: [
             "Easier lesson planning",
+            "Simpler classroom management",
             "Older children mentor younger ones",
-            "All children learn at same pace",
-            "Simpler classroom management"
+            "All children learn at same pace"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Mixed-age classrooms allow older children to mentor younger ones, benefiting both age groups."
         },
         {
           id: 3,
           question: "What are grace and courtesy lessons?",
           options: [
-            "Religious instruction",
             "Short demonstrations of social behaviors",
+            "Academic etiquette lessons",
             "Only for misbehaving children",
-            "Academic etiquette lessons"
+            "Religious instruction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Grace and courtesy lessons are brief, practical demonstrations of social behaviors and manners."
         },
         {
           id: 4,
           question: "What does 'freedom within limits' mean?",
           options: [
-            "Children can do anything",
-            "Children choose within safety and respect boundaries",
             "Only freedom, no limits",
+            "Children choose within safety and respect boundaries",
+            "Children can do anything",
             "Strict limits with little freedom"
           ],
           correctAnswer: 1,
@@ -2003,34 +2003,34 @@ Effective Montessori classroom leadership creates environments where children de
           id: 5,
           question: "What is a peace table used for?",
           options: [
-            "Only quiet work",
-            "Conflict resolution with specific procedures",
+            "Art projects only",
             "Teacher's desk",
-            "Art projects only"
+            "Conflict resolution with specific procedures",
+            "Only quiet work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A peace table is a designated space with specific procedures for children to resolve conflicts peacefully."
         },
         {
           id: 6,
           question: "How long is the typical Montessori work period?",
           options: [
-            "30 minutes",
-            "1 hour",
+            "3 hours",
             "2 hours",
-            "3 hours"
+            "1 hour",
+            "30 minutes"
           ],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "The typical Montessori work period is three hours to allow for deep concentration and completion of work cycles."
         },
         {
           id: 7,
           question: "Why are predictable routines important?",
           options: [
-            "They make teaching easier",
-            "They help children feel secure and independent",
             "They please parents",
-            "They're required by law"
+            "They help children feel secure and independent",
+            "They're required by law",
+            "They make teaching easier"
           ],
           correctAnswer: 1,
           explanation: "Predictable routines help children feel secure and develop independence by knowing what to expect."
@@ -2040,93 +2040,93 @@ Effective Montessori classroom leadership creates environments where children de
           question: "What should parent communication include?",
           options: [
             "Only problems",
-            "Regular updates, observations, and partnership",
+            "Only at conference times",
             "Only academic progress",
-            "Only at conference times"
+            "Regular updates, observations, and partnership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Parent communication should include regular updates, observations, and building educational partnerships."
         },
         {
           id: 9,
           question: "What is a Montessori assistant's primary role?",
           options: [
-            "Teaching lessons",
-            "Supporting the prepared environment",
+            "Planning curriculum",
             "Disciplining children",
-            "Planning curriculum"
+            "Supporting the prepared environment",
+            "Teaching lessons"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The Montessori assistant's primary role is supporting the prepared environment and following the teacher's lead."
         },
         {
           id: 10,
           question: "What should daily environment maintenance include?",
           options: [
-            "Only cleaning",
             "Material checking, repair, and organization",
+            "Only teacher's responsibility",
             "Only at end of day",
-            "Only teacher's responsibility"
+            "Only cleaning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Daily maintenance includes checking and repairing materials, organizing shelves, and general classroom care."
         },
         {
           id: 11,
           question: "What records are essential for Montessori teachers?",
           options: [
+            "Only behavior reports",
             "Only attendance",
-            "Observation notes, presentation records, and work samples",
             "Only test scores",
-            "Only behavior reports"
+            "Observation notes, presentation records, and work samples"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Essential records include observation notes, presentation records, work samples, and developmental progress."
         },
         {
           id: 12,
           question: "Why is professional development important?",
           options: [
+            "Only for new teachers",
             "Only for certification",
-            "For continuous improvement and staying current",
             "Only when required",
-            "Only for new teachers"
+            "For continuous improvement and staying current"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Professional development supports continuous improvement, staying current with best practices, and personal growth."
         },
         {
           id: 13,
           question: "What is a key aspect of Montessori conflict resolution?",
           options: [
-            "Teacher decides solution",
             "Children learn to resolve conflicts themselves",
-            "Ignore conflicts",
-            "Punish those involved"
+            "Punish those involved",
+            "Teacher decides solution",
+            "Ignore conflicts"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Montessori conflict resolution focuses on teaching children to resolve conflicts themselves with teacher facilitation."
         },
         {
           id: 14,
           question: "What should transition strategies include?",
           options: [
-            "Sudden changes",
             "Advance warnings and clear expectations",
-            "Only teacher commands",
-            "Surprise elements"
+            "Surprise elements",
+            "Sudden changes",
+            "Only teacher commands"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective transition strategies include advance warnings, clear expectations, and allowing time for completion."
         },
         {
           id: 15,
           question: "How can teachers model behavior for children?",
           options: [
-            "Only through direct instruction",
+            "Through punishment and rewards",
             "By demonstrating grace, courtesy, and concentration",
-            "Only when children are watching",
-            "Through punishment and rewards"
+            "Only through direct instruction",
+            "Only when children are watching"
           ],
           correctAnswer: 1,
           explanation: "Teachers model behavior by consistently demonstrating grace, courtesy, concentration, and respect in all interactions."
@@ -2135,12 +2135,12 @@ Effective Montessori classroom leadership creates environments where children de
           id: 16,
           question: "What is the teacher's role during work cycles?",
           options: [
+            "Taking breaks",
             "Constantly instructing",
             "Observing and giving individual lessons",
-            "Entertaining children",
-            "Taking breaks"
+            "Entertaining children"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "During work cycles, teachers primarily observe and give individual lessons while protecting children's concentration."
         },
         {
@@ -2149,8 +2149,8 @@ Effective Montessori classroom leadership creates environments where children de
           options: [
             "Only for personal life",
             "To maintain effectiveness and avoid burnout",
-            "Not relevant to teaching",
-            "Only for physical health"
+            "Only for physical health",
+            "Not relevant to teaching"
           ],
           correctAnswer: 1,
           explanation: "Self-care helps teachers maintain effectiveness, avoid burnout, and model healthy practices for children."
@@ -2159,36 +2159,36 @@ Effective Montessori classroom leadership creates environments where children de
           id: 18,
           question: "What should community meetings address?",
           options: [
-            "Only academic topics",
             "Classroom issues, planning, and sharing",
+            "Only teacher announcements",
             "Only behavior problems",
-            "Only teacher announcements"
+            "Only academic topics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Community meetings should address classroom issues, event planning, work sharing, and community building."
         },
         {
           id: 19,
           question: "How should teachers handle parent concerns about Montessori methods?",
           options: [
-            "Dismiss them",
             "Listen respectfully and explain the Montessori approach",
+            "Only refer to director",
             "Change methods immediately",
-            "Only refer to director"
+            "Dismiss them"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Listen respectfully to parent concerns, explain the Montessori approach, and build understanding through partnership."
         },
         {
           id: 20,
           question: "What does protecting the work cycle involve?",
           options: [
-            "Allowing constant interruptions",
-            "Limiting interruptions and maintaining consistency",
             "Only having one work period daily",
-            "Letting children decide work times"
+            "Letting children decide work times",
+            "Allowing constant interruptions",
+            "Limiting interruptions and maintaining consistency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Protecting the work cycle involves limiting interruptions and maintaining consistent, uninterrupted work times."
         }
       ]
@@ -2565,12 +2565,12 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           id: 1,
           question: "What is cosmic education in Montessori?",
           options: [
+            "Only science curriculum",
             "Learning about outer space",
             "Integrated approach showing interconnectedness of all things",
-            "Religious education",
-            "Only science curriculum"
+            "Religious education"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Cosmic education is an integrated approach that helps children understand their place in the universe and how all things are connected."
         },
         {
@@ -2578,11 +2578,11 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           question: "How many great lessons are in cosmic education?",
           options: [
             "3 lessons",
-            "5 lessons",
             "7 lessons",
-            "10 lessons"
+            "10 lessons",
+            "5 lessons"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "There are five great lessons that form the foundation of cosmic education in Montessori elementary."
         },
         {
@@ -2590,9 +2590,9 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           question: "What is the Erdkinder concept?",
           options: [
             "Earth children - connecting adolescents to meaningful work",
-            "Only gardening program",
             "Elementary science curriculum",
-            "Infant community program"
+            "Infant community program",
+            "Only gardening program"
           ],
           correctAnswer: 0,
           explanation: "Erdkinder means 'earth children' - Montessori's concept for connecting adolescents to meaningful work in real-world settings."
@@ -2601,10 +2601,10 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           id: 4,
           question: "Why does Montessori naturally support many special needs?",
           options: [
-            "Because it's easier",
+            "Because it avoids academics",
             "Because of its individualized, hands-on approach",
-            "Because it has lower standards",
-            "Because it avoids academics"
+            "Because it's easier",
+            "Because it has lower standards"
           ],
           correctAnswer: 1,
           explanation: "Montessori's individualized, hands-on, self-paced approach naturally supports many children with special needs."
@@ -2613,12 +2613,12 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           id: 5,
           question: "What is a key guideline for technology use in Montessori?",
           options: [
-            "Use as much as possible",
-            "Purposeful, not passive use",
             "Avoid completely",
-            "Only for entertainment"
+            "Only for entertainment",
+            "Use as much as possible",
+            "Purposeful, not passive use"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Technology should be used purposefully for specific educational goals, not passively for entertainment."
         },
         {
@@ -2626,11 +2626,11 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           question: "Why is outdoor education important in Montessori?",
           options: [
             "Only for physical exercise",
-            "Supports development and environmental stewardship",
             "To save on classroom space",
-            "Only in good weather"
+            "Only in good weather",
+            "Supports development and environmental stewardship"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Outdoor education supports all areas of development and fosters environmental stewardship and nature connection."
         },
         {
@@ -2638,33 +2638,33 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           question: "What should arts education in Montessori include?",
           options: [
             "Only coloring",
-            "Appreciation, technique, history, and expression",
             "Only famous artists",
-            "Only during special events"
+            "Only during special events",
+            "Appreciation, technique, history, and expression"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Arts education should include appreciation, technique development, art history, and creative expression."
         },
         {
           id: 8,
           question: "What is the primary assessment method in Montessori?",
           options: [
-            "Standardized tests",
-            "Ongoing observation",
+            "Report cards only",
             "Weekly quizzes",
-            "Report cards only"
+            "Standardized tests",
+            "Ongoing observation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Ongoing observation is the primary assessment method in Montessori education at all levels."
         },
         {
           id: 9,
           question: "What does global citizenship education prepare children for?",
           options: [
-            "Only travel",
+            "Only academic success",
             "Interconnected world and social responsibility",
-            "Only their own culture",
-            "Only academic success"
+            "Only travel",
+            "Only their own culture"
           ],
           correctAnswer: 1,
           explanation: "Global citizenship education prepares children for an interconnected world and develops social responsibility."
@@ -2673,84 +2673,84 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           id: 10,
           question: "What developmental need is crucial for adolescents?",
           options: [
-            "Only academic learning",
             "Meaningful work and social belonging",
+            "Only academic learning",
             "Only test preparation",
             "Only college preparation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Adolescents have a strong need for meaningful work and social belonging as part of their development."
         },
         {
           id: 11,
           question: "What is word study in elementary language?",
           options: [
-            "Only spelling tests",
-            "Etymology, prefixes, suffixes, and word families",
+            "Only vocabulary lists",
             "Only dictionary work",
-            "Only vocabulary lists"
+            "Etymology, prefixes, suffixes, and word families",
+            "Only spelling tests"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Word study includes etymology, prefixes, suffixes, roots, and word families to build vocabulary understanding."
         },
         {
           id: 12,
           question: "What should be considered when adapting for special needs?",
           options: [
-            "Only removing challenging work",
             "Modified presentations and environmental adjustments",
             "Only separating the child",
+            "Only removing challenging work",
             "Only expecting less"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Adaptations can include modified presentations, environmental adjustments, and additional scaffolding."
         },
         {
           id: 13,
           question: "What is an outdoor classroom feature?",
           options: [
-            "Only playground equipment",
-            "Gardening areas and nature observation stations",
             "Only sports fields",
-            "Only picnic tables"
+            "Only picnic tables",
+            "Only playground equipment",
+            "Gardening areas and nature observation stations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Outdoor classrooms can include gardening areas, nature observation stations, and outdoor workspaces."
         },
         {
           id: 14,
           question: "What does service learning involve?",
           options: [
-            "Only classroom chores",
             "Community service projects with learning connections",
+            "Only classroom chores",
             "Only fundraising",
             "Only helping teachers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Service learning involves community service projects that connect to academic learning and social development."
         },
         {
           id: 15,
           question: "How should research projects be assessed?",
           options: [
-            "Only by length",
             "By knowledge application and synthesis demonstrated",
+            "Only by number of sources",
             "Only by neatness",
-            "Only by number of sources"
+            "Only by length"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Research projects should be assessed by the knowledge application and synthesis children demonstrate."
         },
         {
           id: 16,
           question: "What is a portfolio in Montessori assessment?",
           options: [
-            "Only test scores",
-            "Collection of work samples, photos, and teacher notes",
             "Only art projects",
-            "Only report cards"
+            "Only test scores",
+            "Only report cards",
+            "Collection of work samples, photos, and teacher notes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A portfolio is a comprehensive collection including work samples, photos, and teacher notes showing progress."
         },
         {
@@ -2758,11 +2758,11 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           question: "What should technology balance with in Montessori?",
           options: [
             "Only other technology",
-            "Real, hands-on experiences",
             "Only worksheets",
+            "Real, hands-on experiences",
             "Only teacher instruction"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Technology should balance with real, hands-on experiences that are foundational to Montessori learning."
         },
         {
@@ -2781,24 +2781,24 @@ Advanced curriculum areas allow Montessori education to grow with children throu
           id: 19,
           question: "Why are the great lessons important?",
           options: [
-            "They're required curriculum",
             "They inspire wonder and provide learning framework",
+            "They're required curriculum",
             "They're easy to teach",
             "They cover all test content"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The great lessons inspire wonder and curiosity while providing a framework for all subsequent learning."
         },
         {
           id: 20,
           question: "What should collaboration with specialists include?",
           options: [
-            "Only following their directions",
-            "Sharing observations and coordinating approaches",
             "Only sending reports",
-            "Only during emergencies"
+            "Only during emergencies",
+            "Only following their directions",
+            "Sharing observations and coordinating approaches"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Collaboration should include sharing observations and coordinating approaches to support the child holistically."
         }
       ]
@@ -3184,34 +3184,34 @@ Professional practice in Montessori extends beyond the classroom to school leade
           id: 2,
           question: "What organization accredits Montessori teacher training programs?",
           options: [
-            "Only local schools",
             "MACTE (Montessori Accreditation Council for Teacher Education)",
+            "Only parent groups",
             "Only state governments",
-            "Only parent groups"
+            "Only local schools"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "MACTE is the primary accrediting body for Montessori teacher education programs in the United States."
         },
         {
           id: 3,
           question: "What does current research show about Montessori education?",
           options: [
-            "No benefits over traditional education",
-            "Benefits for executive function and social-emotional development",
             "Only academic benefits",
-            "Only benefits for young children"
+            "Only benefits for young children",
+            "No benefits over traditional education",
+            "Benefits for executive function and social-emotional development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Current research shows Montessori benefits for executive function, social-emotional development, and academic achievement."
         },
         {
           id: 4,
           question: "What is a benefit of program accreditation?",
           options: [
-            "Higher tuition only",
-            "Quality assurance and professional recognition",
             "Less work for teachers",
-            "Automatic government funding"
+            "Quality assurance and professional recognition",
+            "Automatic government funding",
+            "Higher tuition only"
           ],
           correctAnswer: 1,
           explanation: "Accreditation provides quality assurance, professional recognition, and a framework for continuous improvement."
@@ -3220,9 +3220,9 @@ Professional practice in Montessori extends beyond the classroom to school leade
           id: 5,
           question: "What is a legal responsibility of Montessori teachers?",
           options: [
-            "Only teaching curriculum",
-            "Duty of care and mandated reporting",
             "Only following school rules",
+            "Duty of care and mandated reporting",
+            "Only teaching curriculum",
             "Only parent satisfaction"
           ],
           correctAnswer: 1,
@@ -3232,34 +3232,34 @@ Professional practice in Montessori extends beyond the classroom to school leade
           id: 6,
           question: "Why is advocacy important for Montessori education?",
           options: [
+            "Only for teacher recruitment",
             "Only for fundraising",
-            "To promote understanding and support for Montessori",
             "Only for marketing",
-            "Only for teacher recruitment"
+            "To promote understanding and support for Montessori"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Advocacy promotes understanding, support, and appropriate policies for Montessori education at various levels."
         },
         {
           id: 7,
           question: "What should guide innovation in Montessori?",
           options: [
-            "Only following trends",
             "Maintaining core principles while research-based improvements",
-            "Only teacher preferences",
-            "Only what's easiest"
+            "Only what's easiest",
+            "Only following trends",
+            "Only teacher preferences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Innovation should maintain core Montessori principles while incorporating research-based improvements."
         },
         {
           id: 8,
           question: "What is important for personal professional development?",
           options: [
-            "Only initial training",
-            "Continuous learning and self-assessment",
             "Only when required",
-            "Only for career advancement"
+            "Continuous learning and self-assessment",
+            "Only for career advancement",
+            "Only initial training"
           ],
           correctAnswer: 1,
           explanation: "Continuous learning, self-assessment, and professional development are essential for maintaining quality practice."
@@ -3268,144 +3268,144 @@ Professional practice in Montessori extends beyond the classroom to school leade
           id: 9,
           question: "Why is work-life balance important for Montessori professionals?",
           options: [
+            "Only for administrative staff",
             "Only for personal happiness",
-            "To prevent burnout and maintain effectiveness",
             "Not relevant to teaching",
-            "Only for administrative staff"
+            "To prevent burnout and maintain effectiveness"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Work-life balance helps prevent burnout and maintains teaching effectiveness and personal wellbeing."
         },
         {
           id: 10,
           question: "What leadership style aligns with Montessori principles?",
           options: [
+            "Laissez-faire leadership",
             "Autocratic leadership",
-            "Servant and collaborative leadership",
             "Only top-down leadership",
-            "Laissez-faire leadership"
+            "Servant and collaborative leadership"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Servant and collaborative leadership styles align with Montessori principles of respect and community."
         },
         {
           id: 11,
           question: "What does AMI stand for?",
           options: [
-            "American Montessori Institute",
             "Association Montessori Internationale",
+            "Association of Montessori Instructors",
             "Advanced Montessori Instruction",
-            "Association of Montessori Instructors"
+            "American Montessori Institute"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "AMI stands for Association Montessori Internationale, founded by Maria Montessori to maintain the integrity of her work."
         },
         {
           id: 12,
           question: "What should teacher training include?",
           options: [
+            "Only material demonstrations",
             "Only classroom management",
             "Academic phase, practicum, and album creation",
-            "Only material demonstrations",
             "Only philosophy study"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Comprehensive training includes academic study, supervised practicum, and creating detailed lesson albums."
         },
         {
           id: 13,
           question: "What is ethical leadership in Montessori?",
           options: [
+            "Only making popular decisions",
             "Only following rules",
             "Modeling Montessori values and transparent decision-making",
-            "Only making popular decisions",
             "Only financial responsibility"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Ethical leadership involves modeling Montessori values and making transparent, fair decisions."
         },
         {
           id: 14,
           question: "Why participate in international Montessori community?",
           options: [
-            "Only for travel",
             "For global perspectives and professional exchange",
-            "Only for certification",
-            "Only for material purchasing"
+            "Only for material purchasing",
+            "Only for travel",
+            "Only for certification"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "International participation provides global perspectives, professional exchange, and strengthens the Montessori movement worldwide."
         },
         {
           id: 15,
           question: "What is a professional portfolio?",
           options: [
+            "Only letters of recommendation",
             "Only resume",
             "Documentation of qualifications, practice, and achievements",
-            "Only certification papers",
-            "Only letters of recommendation"
+            "Only certification papers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A professional portfolio documents qualifications, teaching practice, achievements, and ongoing professional development."
         },
         {
           id: 16,
           question: "What does operations management include?",
           options: [
-            "Only teaching",
-            "Facility, scheduling, health, and safety compliance",
             "Only curriculum planning",
-            "Only parent meetings"
+            "Only parent meetings",
+            "Facility, scheduling, health, and safety compliance",
+            "Only teaching"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Operations management includes facility maintenance, daily scheduling, and health and safety compliance."
         },
         {
           id: 17,
           question: "What should guide cultural adaptations in Montessori?",
           options: [
-            "Only local preferences",
-            "Respecting local culture while maintaining principles",
             "Only traditional Western approach",
-            "Only what's cheapest"
+            "Only local preferences",
+            "Only what's cheapest",
+            "Respecting local culture while maintaining principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cultural adaptations should respect local cultures while maintaining core Montessori principles and educational integrity."
         },
         {
           id: 18,
           question: "What is strategic planning in school leadership?",
           options: [
+            "Only enrollment management",
             "Only daily scheduling",
             "Long-term goal setting and planning for sustainability",
-            "Only budgeting",
-            "Only enrollment management"
+            "Only budgeting"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic planning involves setting long-term goals and developing plans for program sustainability and improvement."
         },
         {
           id: 19,
           question: "Why is self-assessment important?",
           options: [
+            "Only for new teachers",
             "Only for evaluations",
             "For identifying growth areas and setting professional goals",
-            "Only when problems occur",
-            "Only for new teachers"
+            "Only when problems occur"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Regular self-assessment helps identify areas for growth and set meaningful professional development goals."
         },
         {
           id: 20,
           question: "What should innovation in Montessori be based on?",
           options: [
-            "Only teacher creativity",
             "Observation, research, and maintaining core principles",
+            "Only teacher creativity",
             "Only parent requests",
             "Only technological advances"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Innovation should be based on careful observation, research evidence, and maintaining core Montessori principles."
         }
       ]
@@ -3423,21 +3423,21 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 1,
         question: "What was Maria Montessori's profession before developing her educational method?",
         options: [
-          "Teacher",
-          "Physician",
+          "Nurse",
           "Psychologist",
-          "Nurse"
+          "Physician",
+          "Teacher"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Maria Montessori was a physician who first worked with children with special needs."
       },
       {
         id: 2,
         question: "What does 'absorbent mind' refer to in Montessori philosophy?",
         options: [
-          "Children's ability to memorize facts",
-          "How children effortlessly absorb information from environment (ages 0-6)",
           "How teachers absorb knowledge about children",
+          "How children effortlessly absorb information from environment (ages 0-6)",
+          "Children's ability to memorize facts",
           "A specific Montessori material"
         ],
         correctAnswer: 1,
@@ -3447,34 +3447,34 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 3,
         question: "How many main curriculum areas are in a Montessori classroom?",
         options: [
-          "3 areas",
           "5 areas",
           "7 areas",
-          "10 areas"
+          "10 areas",
+          "3 areas"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Montessori classrooms typically have five main areas: Practical Life, Sensorial, Language, Mathematics, and Cultural."
       },
       {
         id: 4,
         question: "Why is observation so important in Montessori education?",
         options: [
+          "Parents expect it",
           "It's required by law",
           "It's the primary assessment tool and foundation of the method",
-          "It keeps children busy",
-          "Parents expect it"
+          "It keeps children busy"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Observation is the primary assessment tool in Montessori and the scientific basis for the entire method."
       },
       {
         id: 5,
         question: "What is the Montessori teacher's primary leadership role?",
         options: [
-          "Classroom director and commander",
+          "Disciplinarian and rule enforcer",
           "Guide and environmental preparer",
           "Entertainer and activity planner",
-          "Disciplinarian and rule enforcer"
+          "Classroom director and commander"
         ],
         correctAnswer: 1,
         explanation: "The Montessori teacher is primarily a guide and preparer of the environment."
@@ -3485,8 +3485,8 @@ Professional practice in Montessori extends beyond the classroom to school leade
         options: [
           "Learning about outer space",
           "Integrated approach showing interconnectedness of all things",
-          "Religious education",
-          "Only science curriculum"
+          "Only science curriculum",
+          "Religious education"
         ],
         correctAnswer: 1,
         explanation: "Cosmic education is an integrated approach showing the interconnectedness of all things."
@@ -3495,12 +3495,12 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 7,
         question: "What is a primary responsibility of a Montessori head of school?",
         options: [
-          "Only teaching",
-          "Administrative leadership of the entire program",
+          "Only parent communication",
           "Only making materials",
-          "Only parent communication"
+          "Administrative leadership of the entire program",
+          "Only teaching"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "The head of school provides administrative leadership for the entire Montessori program."
       },
       {
@@ -3508,23 +3508,23 @@ Professional practice in Montessori extends beyond the classroom to school leade
         question: "How many planes of development did Montessori identify?",
         options: [
           "2 planes",
-          "3 planes",
           "4 planes",
+          "3 planes",
           "6 planes"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "Montessori identified four distinct planes of development from birth to adulthood."
       },
       {
         id: 9,
         question: "What material prepares children for writing by developing pencil control?",
         options: [
-          "Sandpaper Letters",
           "Metal Insets",
-          "Moveable Alphabet",
-          "Sound Boxes"
+          "Sound Boxes",
+          "Sandpaper Letters",
+          "Moveable Alphabet"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Metal Insets help children develop pencil control through tracing shapes."
       },
       {
@@ -3532,35 +3532,35 @@ Professional practice in Montessori extends beyond the classroom to school leade
         question: "What should observation notes focus on?",
         options: [
           "Teacher interpretations and judgments",
-          "Objective descriptions of what is seen and heard",
           "Only negative behaviors",
-          "Comparisons between children"
+          "Comparisons between children",
+          "Objective descriptions of what is seen and heard"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Observation notes should focus on objective descriptions of what is actually seen and heard."
       },
       {
         id: 11,
         question: "What are grace and courtesy lessons?",
         options: [
-          "Religious instruction",
           "Short demonstrations of social behaviors",
+          "Academic etiquette lessons",
           "Only for misbehaving children",
-          "Academic etiquette lessons"
+          "Religious instruction"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Grace and courtesy lessons are brief, practical demonstrations of social behaviors."
       },
       {
         id: 12,
         question: "What is the Erdkinder concept?",
         options: [
-          "Earth children - connecting adolescents to meaningful work",
+          "Infant community program",
           "Only gardening program",
-          "Elementary science curriculum",
-          "Infant community program"
+          "Earth children - connecting adolescents to meaningful work",
+          "Elementary science curriculum"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Erdkinder means 'earth children' - connecting adolescents to meaningful work in real-world settings."
       },
       {
@@ -3569,8 +3569,8 @@ Professional practice in Montessori extends beyond the classroom to school leade
         options: [
           "Only local schools",
           "MACTE (Montessori Accreditation Council for Teacher Education)",
-          "Only state governments",
-          "Only parent groups"
+          "Only parent groups",
+          "Only state governments"
         ],
         correctAnswer: 1,
         explanation: "MACTE is the primary accrediting body for Montessori teacher education programs."
@@ -3579,57 +3579,57 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 14,
         question: "What are sensitive periods in Montessori theory?",
         options: [
+          "Periods when children should not be taught",
           "Times when children are emotional",
           "Specific times when children are particularly receptive to learning certain skills",
-          "Periods when children should not be taught",
           "Times when children need extra discipline"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Sensitive periods are specific times when children are particularly receptive to learning certain skills."
       },
       {
         id: 15,
         question: "What does 'control of error' mean in Montessori materials?",
         options: [
+          "Children are not allowed to make mistakes",
           "Teacher corrects all mistakes",
           "Materials are designed so children can recognize their own mistakes",
-          "Children are not allowed to make mistakes",
           "Only perfect work is accepted"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Control of error means materials allow children to recognize and correct their own mistakes."
       },
       {
         id: 16,
         question: "What is a key skill for effective observation?",
         options: [
-          "Multitasking",
           "Attention to detail",
           "Entertaining children",
+          "Multitasking",
           "Quick decision-making"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Attention to detail is crucial for effective observation in Montessori."
       },
       {
         id: 17,
         question: "What does 'freedom within limits' mean?",
         options: [
-          "Children can do anything",
-          "Children choose within safety and respect boundaries",
+          "Strict limits with little freedom",
           "Only freedom, no limits",
-          "Strict limits with little freedom"
+          "Children choose within safety and respect boundaries",
+          "Children can do anything"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Freedom within limits means children choose activities within safety and respect boundaries."
       },
       {
         id: 18,
         question: "Why does Montessori naturally support many special needs?",
         options: [
-          "Because it's easier",
-          "Because of its individualized, hands-on approach",
           "Because it has lower standards",
+          "Because of its individualized, hands-on approach",
+          "Because it's easier",
           "Because it avoids academics"
         ],
         correctAnswer: 1,
@@ -3639,10 +3639,10 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 19,
         question: "What does current research show about Montessori education?",
         options: [
-          "No benefits over traditional education",
+          "Only benefits for young children",
           "Benefits for executive function and social-emotional development",
           "Only academic benefits",
-          "Only benefits for young children"
+          "No benefits over traditional education"
         ],
         correctAnswer: 1,
         explanation: "Research shows benefits for executive function, social-emotional development, and academic achievement."
@@ -3651,36 +3651,36 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 20,
         question: "What age range is the first plane of development?",
         options: [
-          "0-3 years",
-          "0-6 years",
           "6-12 years",
-          "3-6 years"
+          "3-6 years",
+          "0-6 years",
+          "0-3 years"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "The first plane of development is from birth to age 6, characterized by the absorbent mind."
       },
       {
         id: 21,
         question: "Which sensorial material focuses on visual discrimination of size?",
         options: [
-          "Color Tablets",
           "Pink Tower",
           "Sound Cylinders",
+          "Color Tablets",
           "Touch Tablets"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "The Pink Tower focuses on visual discrimination of size (large to small cubes)."
       },
       {
         id: 22,
         question: "What should individual child files include?",
         options: [
-          "Only test scores",
           "Observation notes, presentation records, work samples, and conference notes",
-          "Only personal information",
-          "Only behavior reports"
+          "Only test scores",
+          "Only behavior reports",
+          "Only personal information"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Individual child files should include comprehensive educational records and observations."
       },
       {
@@ -3688,35 +3688,35 @@ Professional practice in Montessori extends beyond the classroom to school leade
         question: "How long is the typical Montessori work period?",
         options: [
           "30 minutes",
-          "1 hour",
+          "3 hours",
           "2 hours",
-          "3 hours"
+          "1 hour"
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         explanation: "The typical Montessori work period is three hours for deep concentration."
       },
       {
         id: 24,
         question: "What is a key guideline for technology use in Montessori?",
         options: [
+          "Avoid completely",
           "Use as much as possible",
           "Purposeful, not passive use",
-          "Avoid completely",
           "Only for entertainment"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Technology should be used purposefully for specific educational goals."
       },
       {
         id: 25,
         question: "What is a benefit of program accreditation?",
         options: [
-          "Higher tuition only",
           "Quality assurance and professional recognition",
-          "Less work for teachers",
-          "Automatic government funding"
+          "Higher tuition only",
+          "Automatic government funding",
+          "Less work for teachers"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Accreditation provides quality assurance and professional recognition."
       },
       {
@@ -3735,22 +3735,22 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 27,
         question: "What is the first material in the mathematics sequence?",
         options: [
-          "Golden Beads",
           "Number Rods",
           "Addition Strip Board",
-          "Fraction Insets"
+          "Fraction Insets",
+          "Golden Beads"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Number Rods are typically the first mathematics material, introducing quantity 1-10."
       },
       {
         id: 28,
         question: "How can observations inform environmental adjustments?",
         options: [
-          "Only by removing all materials",
+          "Based on teacher preferences only",
           "By identifying which materials are used or ignored",
-          "Only at the beginning of the year",
-          "Based on teacher preferences only"
+          "Only by removing all materials",
+          "Only at the beginning of the year"
         ],
         correctAnswer: 1,
         explanation: "Observations show which materials children use, informing environmental adjustments."
@@ -3759,24 +3759,24 @@ Professional practice in Montessori extends beyond the classroom to school leade
         id: 29,
         question: "Why are predictable routines important?",
         options: [
+          "They please parents",
           "They make teaching easier",
           "They help children feel secure and independent",
-          "They please parents",
           "They're required by law"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Predictable routines help children feel secure and develop independence."
       },
       {
         id: 30,
         question: "Why is outdoor education important in Montessori?",
         options: [
+          "Only in good weather",
           "Only for physical exercise",
-          "Supports development and environmental stewardship",
           "To save on classroom space",
-          "Only in good weather"
+          "Supports development and environmental stewardship"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Outdoor education supports development and fosters environmental stewardship."
       },
       {
@@ -3784,119 +3784,119 @@ Professional practice in Montessori extends beyond the classroom to school leade
         question: "What is a legal responsibility of Montessori teachers?",
         options: [
           "Only teaching curriculum",
-          "Duty of care and mandated reporting",
           "Only following school rules",
-          "Only parent satisfaction"
+          "Only parent satisfaction",
+          "Duty of care and mandated reporting"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Legal responsibilities include duty of care and mandated reporting."
       },
       {
         id: 32,
         question: "What does AMI stand for?",
         options: [
-          "American Montessori Institute",
           "Association Montessori Internationale",
           "Advanced Montessori Instruction",
-          "Association of Montessori Instructors"
+          "Association of Montessori Instructors",
+          "American Montessori Institute"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "AMI stands for Association Montessori Internationale."
       },
       {
         id: 33,
         question: "What is the typical age span in a Montessori classroom?",
         options: [
-          "Same age only",
           "6-month age span",
-          "1-year age span",
-          "3-year age span"
+          "3-year age span",
+          "Same age only",
+          "1-year age span"
         ],
-        correctAnswer: 3,
+        correctAnswer: 1,
         explanation: "Montessori classrooms typically have mixed-age groupings with a 3-year age span."
       },
       {
         id: 34,
         question: "What should parent conferences begin with?",
         options: [
-          "Problems and concerns",
-          "Positive observations and progress",
           "Teacher's expectations",
-          "Comparison to other children"
+          "Comparison to other children",
+          "Problems and concerns",
+          "Positive observations and progress"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Conferences should begin with positive observations and progress."
       },
       {
         id: 35,
         question: "What is a peace table used for?",
         options: [
-          "Only quiet work",
           "Conflict resolution with specific procedures",
+          "Only quiet work",
           "Teacher's desk",
           "Art projects only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "A peace table is for conflict resolution with specific procedures."
       },
       {
         id: 36,
         question: "What should arts education in Montessori include?",
         options: [
-          "Only coloring",
-          "Appreciation, technique, history, and expression",
           "Only famous artists",
-          "Only during special events"
+          "Only during special events",
+          "Only coloring",
+          "Appreciation, technique, history, and expression"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Arts education should include appreciation, technique, history, and expression."
       },
       {
         id: 37,
         question: "Why is advocacy important for Montessori education?",
         options: [
-          "Only for fundraising",
           "To promote understanding and support for Montessori",
           "Only for marketing",
-          "Only for teacher recruitment"
+          "Only for teacher recruitment",
+          "Only for fundraising"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Advocacy promotes understanding and support for Montessori education."
       },
       {
         id: 38,
         question: "What year did Montessori open her first Casa dei Bambini?",
         options: [
-          "1897",
-          "1907",
           "1917",
-          "1927"
+          "1927",
+          "1907",
+          "1897"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Montessori opened her first Casa dei Bambini in 1907 in San Lorenzo, Rome."
       },
       {
         id: 39,
         question: "What is the primary assessment method in Montessori?",
         options: [
-          "Standardized tests",
           "Ongoing observation",
+          "Standardized tests",
           "Weekly quizzes",
           "Report cards only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Ongoing observation is the primary assessment method in Montessori."
       },
       {
         id: 40,
         question: "What should guide innovation in Montessori?",
         options: [
-          "Only teacher creativity",
-          "Observation, research, and maintaining core principles",
+          "Only technological advances",
           "Only parent requests",
-          "Only technological advances"
+          "Observation, research, and maintaining core principles",
+          "Only teacher creativity"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Innovation should be based on observation, research, and maintaining core principles."
       }
     ]

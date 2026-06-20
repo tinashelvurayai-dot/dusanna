@@ -102,8 +102,8 @@ Ensure everyone understands their role:
           options: [
             "Strategic leaders earn more money",
             "Strategic leaders focus on doing the right things, operational leaders on doing things right",
-            "Operational leaders work longer hours",
-            "Strategic leaders don't manage people"
+            "Strategic leaders don't manage people",
+            "Operational leaders work longer hours"
           ],
           correctAnswer: 1,
           explanation: "Strategic leadership focuses on setting the right direction, while operational leadership focuses on efficient execution."
@@ -112,48 +112,48 @@ Ensure everyone understands their role:
           id: 2,
           question: "What does moving from reactive to proactive thinking involve?",
           options: [
-            "Waiting for problems to occur",
-            "Anticipating trends rather than just responding",
+            "Ignoring market changes",
             "Reacting faster to issues",
-            "Ignoring market changes"
+            "Anticipating trends rather than just responding",
+            "Waiting for problems to occur"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic leaders anticipate future developments rather than just responding to current problems."
         },
         {
           id: 3,
           question: "What should strategic leaders embrace?",
           options: [
-            "Complete certainty",
             "Ambiguity and incomplete information",
-            "Detailed daily instructions",
-            "Following all rules exactly"
+            "Complete certainty",
+            "Following all rules exactly",
+            "Detailed daily instructions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategic leaders must be comfortable making decisions with imperfect information."
         },
         {
           id: 4,
           question: "What does environmental scanning include?",
           options: [
-            "Only internal company data",
             "Industry trends, competitive landscape, and technological developments",
             "Just financial reports",
-            "Only employee satisfaction surveys"
+            "Only employee satisfaction surveys",
+            "Only internal company data"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Environmental scanning monitors external factors that could impact the organization."
         },
         {
           id: 5,
           question: "What is scenario planning?",
           options: [
-            "Creating one perfect plan",
-            "Developing multiple plausible futures",
             "Ignoring potential problems",
-            "Copying competitors' strategies"
+            "Copying competitors' strategies",
+            "Developing multiple plausible futures",
+            "Creating one perfect plan"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Scenario planning prepares organizations for different possible futures."
         },
         {
@@ -162,8 +162,8 @@ Ensure everyone understands their role:
           options: [
             "Being complex and detailed",
             "Clear, inspiring, and memorable",
-            "Focused only on profits",
-            "Changing every month"
+            "Changing every month",
+            "Focused only on profits"
           ],
           correctAnswer: 1,
           explanation: "A compelling vision should be easy to understand, inspiring to pursue, and easy to remember."
@@ -172,22 +172,22 @@ Ensure everyone understands their role:
           id: 7,
           question: "What should strategic priority selection consider?",
           options: [
-            "Only what the CEO wants",
             "Impact potential and resource requirements",
+            "Following industry fads",
             "What's easiest to accomplish",
-            "Following industry fads"
+            "Only what the CEO wants"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Strategic priorities should be evaluated based on potential impact and required resources."
         },
         {
           id: 8,
           question: "What does the Decision Quality Framework evaluate?",
           options: [
-            "Only final outcomes",
+            "How quickly decisions are made",
             "Information quality, process quality, execution quality, and outcome quality",
-            "Only who made the decision",
-            "How quickly decisions are made"
+            "Only final outcomes",
+            "Only who made the decision"
           ],
           correctAnswer: 1,
           explanation: "The framework assesses multiple aspects of decision-making quality."
@@ -196,9 +196,9 @@ Ensure everyone understands their role:
           id: 9,
           question: "What is the 70-20-10 rule for resource allocation?",
           options: [
-            "70% on future ideas, 20% on current business, 10% on adjacent opportunities",
-            "70% on core business, 20% on adjacent opportunities, 10% on transformational ideas",
             "70% on administration, 20% on strategy, 10% on operations",
+            "70% on core business, 20% on adjacent opportunities, 10% on transformational ideas",
+            "70% on future ideas, 20% on current business, 10% on adjacent opportunities",
             "70% on marketing, 20% on product, 10% on finance"
           ],
           correctAnswer: 1,
@@ -208,84 +208,84 @@ Ensure everyone understands their role:
           id: 10,
           question: "Why craft strategy as a narrative?",
           options: [
-            "To make it longer",
-            "Because people remember stories better than bullet points",
+            "Because it's required by law",
             "To confuse competitors",
-            "Because it's required by law"
+            "Because people remember stories better than bullet points",
+            "To make it longer"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Stories are more engaging and memorable than traditional business presentations."
         },
         {
           id: 11,
           question: "What does cascading strategic clarity ensure?",
           options: [
-            "Only executives understand the strategy",
             "Everyone understands their role in the strategy",
+            "Only executives understand the strategy",
             "Strategy remains secret",
             "Different departments have conflicting goals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cascading ensures alignment from enterprise level down to individual contributions."
         },
         {
           id: 12,
           question: "What does thinking in systems involve?",
           options: [
-            "Focusing only on individual problems",
             "Understanding interconnected relationships",
-            "Ignoring complex connections",
-            "Simplifying everything to basic parts"
+            "Focusing only on individual problems",
+            "Simplifying everything to basic parts",
+            "Ignoring complex connections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systems thinking recognizes how different parts of an organization interact and affect each other."
         },
         {
           id: 13,
           question: "What should a vision be aligned with?",
           options: [
-            "Only financial goals",
-            "Organizational values and principles",
             "Competitors' visions",
-            "Short-term market trends"
+            "Short-term market trends",
+            "Only financial goals",
+            "Organizational values and principles"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "A vision should reflect the organization's core values to maintain authenticity."
         },
         {
           id: 14,
           question: "What is included in scenario planning's wild-card scenarios?",
           options: [
-            "Only predictable events",
-            "Unexpected events that could occur",
+            "Industry averages",
             "Past successes only",
-            "Industry averages"
+            "Unexpected events that could occur",
+            "Only predictable events"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Wild-card scenarios consider unlikely but impactful events that could disrupt plans."
         },
         {
           id: 15,
           question: "What does balancing present and future require?",
           options: [
-            "Focusing only on today",
-            "Managing current operations while building future capabilities",
             "Ignoring current performance",
-            "Only planning for future growth"
+            "Focusing only on today",
+            "Only planning for future growth",
+            "Managing current operations while building future capabilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Strategic leaders must maintain current success while investing in future opportunities."
         },
         {
           id: 16,
           question: "What should be monitored in environmental scanning?",
           options: [
+            "Office supplies inventory",
             "Only employee performance",
             "Social shifts and changing customer expectations",
-            "Internal gossip only",
-            "Office supplies inventory"
+            "Internal gossip only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Social and customer trends can significantly impact business strategy."
         },
         {
@@ -293,47 +293,47 @@ Ensure everyone understands their role:
           question: "What makes a vision memorable?",
           options: [
             "Being extremely complex",
-            "Easy to recall and share",
             "Using technical jargon",
+            "Easy to recall and share",
             "Being very long"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A memorable vision can be easily repeated and understood by everyone."
         },
         {
           id: 18,
           question: "What criteria should strategic priority selection use?",
           options: [
-            "Timing considerations and dependencies",
             "Only what's popular",
+            "Following competitors exactly",
             "Personal preferences",
-            "Following competitors exactly"
+            "Timing considerations and dependencies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Timing and dependencies are practical considerations for priority setting."
         },
         {
           id: 19,
           question: "What does execution quality refer to?",
           options: [
-            "How well decisions are implemented",
-            "How quickly decisions are made",
             "How many meetings are held",
-            "How detailed the plan is"
+            "How detailed the plan is",
+            "How well decisions are implemented",
+            "How quickly decisions are made"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Execution quality measures how effectively decisions are carried out."
         },
         {
           id: 20,
           question: "What does the strategy narrative include?",
           options: [
-            "Only financial projections",
             "Where we've been, where we are, where we're going, and how we'll get there",
             "Only competitor analysis",
-            "Detailed job descriptions"
+            "Detailed job descriptions",
+            "Only financial projections"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "A complete strategy narrative tells the story of past, present, and future direction."
         }
       ]
@@ -457,8 +457,8 @@ During uncertain change:
           options: [
             "Anger/Resistance",
             "Shock/Denial",
-            "Exploration/Acceptance",
-            "Commitment/Integration"
+            "Commitment/Integration",
+            "Exploration/Acceptance"
           ],
           correctAnswer: 1,
           explanation: "People typically experience shock or denial when first confronted with significant change."
@@ -467,10 +467,10 @@ During uncertain change:
           id: 2,
           question: "What is evolutionary change?",
           options: [
-            "Major disruptive transformation",
+            "Sudden market shifts",
             "Gradual continuous improvement",
             "Complete organizational restructuring",
-            "Sudden market shifts"
+            "Major disruptive transformation"
           ],
           correctAnswer: 1,
           explanation: "Evolutionary change happens incrementally over time through continuous improvement."
@@ -479,10 +479,10 @@ During uncertain change:
           id: 3,
           question: "What do people need to understand to embrace change?",
           options: [
-            "Only the timeline",
+            "Who to blame for the change",
             "Why change is necessary and what's in it for them",
-            "Just the new procedures",
-            "Who to blame for the change"
+            "Only the timeline",
+            "Just the new procedures"
           ],
           correctAnswer: 1,
           explanation: "Understanding both the rationale and personal benefits motivates people to change."
@@ -491,12 +491,12 @@ During uncertain change:
           id: 4,
           question: "How can leaders combat complacency?",
           options: [
-            "Ignore current problems",
-            "Share compelling data showing the need for change",
             "Avoid discussing challenges",
-            "Maintain the status quo"
+            "Maintain the status quo",
+            "Share compelling data showing the need for change",
+            "Ignore current problems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Compelling factual data helps overcome resistance to change."
         },
         {
@@ -504,20 +504,20 @@ During uncertain change:
           question: "How should stakeholders be mapped?",
           options: [
             "Only by job title",
-            "By power/influence, support/resistance, impact, and network position",
             "Only by department",
-            "Alphabetically by name"
+            "Alphabetically by name",
+            "By power/influence, support/resistance, impact, and network position"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Multiple dimensions help understand stakeholder positions and influence."
         },
         {
           id: 6,
           question: "How should leaders engage fence-sitters?",
           options: [
-            "Ignore them",
-            "Provide information and address concerns",
             "Threaten them",
+            "Provide information and address concerns",
+            "Ignore them",
             "Offer promotions"
           ],
           correctAnswer: 1,
@@ -528,57 +528,57 @@ During uncertain change:
           question: "What is Phase 1 of the Change Roadmap?",
           options: [
             "Implementation",
+            "Renewal",
             "Preparation",
-            "Consolidation",
-            "Renewal"
+            "Consolidation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Preparation involves building readiness before implementing changes."
         },
         {
           id: 8,
           question: "How should communication happen during change?",
           options: [
+            "Only when problems occur",
             "Minimally to avoid confusion",
-            "Over-communicating through multiple channels",
             "Only through formal memos",
-            "Only when problems occur"
+            "Over-communicating through multiple channels"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "During change, more communication is better than less to reduce uncertainty."
         },
         {
           id: 9,
           question: "What is a common source of resistance to change?",
           options: [
-            "Excitement about new opportunities",
-            "Fear of loss (status, comfort, competence, or relationships)",
             "Too much communication",
-            "Complete understanding of the change"
+            "Excitement about new opportunities",
+            "Complete understanding of the change",
+            "Fear of loss (status, comfort, competence, or relationships)"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Fear of losing something valued is a primary driver of resistance."
         },
         {
           id: 10,
           question: "What is the first step in managing resistance?",
           options: [
-            "Punish resistors",
-            "Listen actively to understand concerns",
             "Ignore the resistance",
-            "Force compliance"
+            "Force compliance",
+            "Listen actively to understand concerns",
+            "Punish resistors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Active listening helps understand the real concerns behind resistance."
         },
         {
           id: 11,
           question: "What is revolutionary change?",
           options: [
-            "Gradual improvement",
-            "Major disruptive transformation",
             "Small adjustments",
-            "Employee training programs"
+            "Major disruptive transformation",
+            "Employee training programs",
+            "Gradual improvement"
           ],
           correctAnswer: 1,
           explanation: "Revolutionary change involves significant, disruptive transformation."
@@ -599,12 +599,12 @@ During uncertain change:
           id: 13,
           question: "What does building change capacity involve?",
           options: [
-            "Training change agents and creating flexible structures",
             "Making structures more rigid",
-            "Reducing training budgets",
-            "Avoiding documentation"
+            "Avoiding documentation",
+            "Training change agents and creating flexible structures",
+            "Reducing training budgets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Developing internal expertise and adaptable structures prepares organizations for future changes."
         },
         {
@@ -612,57 +612,57 @@ During uncertain change:
           question: "What should leaders provide during uncertainty?",
           options: [
             "False certainty",
-            "Psychological safety and transparency",
             "Complete answers to all questions",
-            "Strict control over all decisions"
+            "Strict control over all decisions",
+            "Psychological safety and transparency"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Psychological safety and honest communication help teams navigate uncertainty."
         },
         {
           id: 15,
           question: "What is the Exploration/Acceptance stage?",
           options: [
-            "Initial shock reaction",
-            "Angry resistance phase",
+            "Full integration of change",
             "Beginning to consider how change might work",
-            "Full integration of change"
+            "Initial shock reaction",
+            "Angry resistance phase"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "This stage involves starting to explore how the change might work."
         },
         {
           id: 16,
           question: "How can outside perspectives help with change?",
           options: [
+            "They complicate simple changes",
             "They create more resistance",
             "Fresh eyes can see what insiders miss",
-            "They always support the status quo",
-            "They complicate simple changes"
+            "They always support the status quo"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "External viewpoints can identify issues that internal stakeholders overlook."
         },
         {
           id: 17,
           question: "How should leaders engage advocates?",
           options: [
-            "Ignore their enthusiasm",
-            "Empower and amplify their voices",
             "Test their loyalty with obstacles",
-            "Keep them isolated"
+            "Keep them isolated",
+            "Ignore their enthusiasm",
+            "Empower and amplify their voices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Advocates can help influence others and drive change forward."
         },
         {
           id: 18,
           question: "What is the Consolidation phase?",
           options: [
-            "Initial planning",
+            "Planning the next change",
             "Making changes stick and solidifying gains",
             "Starting implementation",
-            "Planning the next change"
+            "Initial planning"
           ],
           correctAnswer: 1,
           explanation: "Consolidation ensures changes become the new normal."
@@ -671,24 +671,24 @@ During uncertain change:
           id: 19,
           question: "What does change fatigue result from?",
           options: [
-            "Too little change",
             "Too many changes at once",
+            "Adequate support",
             "Perfect communication",
-            "Adequate support"
+            "Too little change"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multiple simultaneous changes overwhelm people's capacity to adapt."
         },
         {
           id: 20,
           question: "What should leaders focus on during uncertainty?",
           options: [
-            "Everything at once",
-            "Controllable factors they can influence",
+            "Avoiding all decisions",
             "Only long-term planning",
-            "Avoiding all decisions"
+            "Everything at once",
+            "Controllable factors they can influence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Focusing on controllables reduces anxiety and increases effectiveness."
         }
       ]
@@ -846,11 +846,11 @@ Your influence depends on your reputation:
           question: "What is position power?",
           options: [
             "Personal charisma",
-            "Formal authority from your role",
+            "Specialized knowledge",
             "Network connections",
-            "Specialized knowledge"
+            "Formal authority from your role"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Position power comes from your formal position in the organization."
         },
         {
@@ -858,23 +858,23 @@ Your influence depends on your reputation:
           question: "What is expert power?",
           options: [
             "Control of information",
-            "Knowledge and competence",
+            "Job title",
             "Personal relationships",
-            "Job title"
+            "Knowledge and competence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Expert power derives from specialized knowledge and demonstrated competence."
         },
         {
           id: 3,
           question: "What should the Influence Matrix map?",
           options: [
-            "Only job titles",
             "Level of support, influence, strategic importance, and urgency",
             "Just department names",
+            "Only job titles",
             "Only personal friendships"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multiple dimensions help understand stakeholder dynamics."
         },
         {
@@ -893,34 +893,34 @@ Your influence depends on your reputation:
           id: 5,
           question: "What are coalitions?",
           options: [
-            "Permanent organizational structures",
             "Temporary alliances for specific goals",
-            "Social clubs",
-            "Competitive groups"
+            "Competitive groups",
+            "Permanent organizational structures",
+            "Social clubs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Coalitions form around specific issues and may dissolve after achieving goals."
         },
         {
           id: 6,
           question: "What should you understand about organizational politics?",
           options: [
-            "Ignore it completely",
             "Power centers, decision processes, and informal networks",
             "Only the org chart",
+            "Ignore it completely",
             "Just what's in policy manuals"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Understanding both formal and informal dynamics is crucial."
         },
         {
           id: 7,
           question: "How can you navigate politics ethically?",
           options: [
-            "Use hidden agendas",
-            "Be transparent about your goals",
             "Manipulate information",
-            "Build fake relationships"
+            "Be transparent about your goals",
+            "Build fake relationships",
+            "Use hidden agendas"
           ],
           correctAnswer: 1,
           explanation: "Transparency about intentions maintains ethical standards."
@@ -929,12 +929,12 @@ Your influence depends on your reputation:
           id: 8,
           question: "What is the first step in the Persuasion Framework?",
           options: [
+            "Offer bribes",
             "Make demands",
             "Establish credibility",
-            "Threaten consequences",
-            "Offer bribes"
+            "Threaten consequences"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Credibility must be established before persuasion can be effective."
         },
         {
@@ -942,71 +942,71 @@ Your influence depends on your reputation:
           question: "How should you approach analytical executives?",
           options: [
             "With emotional appeals",
-            "Lead with data and logic",
             "Use only stories",
-            "Focus on relationships"
+            "Focus on relationships",
+            "Lead with data and logic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Analytical types respond best to factual evidence and logical arguments."
         },
         {
           id: 10,
           question: "When influencing senior leaders, what should you do?",
           options: [
-            "Complain about problems",
             "Provide solutions, not just problems",
+            "Challenge their authority",
             "Demand immediate action",
-            "Challenge their authority"
+            "Complain about problems"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Senior leaders value those who bring solutions, not just identify problems."
         },
         {
           id: 11,
           question: "What is relationship power?",
           options: [
-            "Job title authority",
             "Network and connections",
+            "Information control",
             "Technical expertise",
-            "Information control"
+            "Job title authority"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Relationship power comes from your network and personal connections."
         },
         {
           id: 12,
           question: "How do you build trust in alliances?",
           options: [
-            "Through reliability and reciprocity",
             "By making big promises",
-            "Through manipulation",
-            "By keeping distance"
+            "Through reliability and reciprocity",
+            "By keeping distance",
+            "Through manipulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Trust builds gradually through consistent, reciprocal behavior."
         },
         {
           id: 13,
           question: "What are partnerships in strategic alliances?",
           options: [
-            "One-time transactions",
             "Longer-term collaborative relationships",
-            "Competitive arrangements",
-            "Secret agreements"
+            "One-time transactions",
+            "Secret agreements",
+            "Competitive arrangements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Partnerships involve ongoing collaboration toward shared goals."
         },
         {
           id: 14,
           question: "What should you focus on in boardroom presentations?",
           options: [
-            "Operational details",
-            "Strategic issues and big picture",
+            "Department gossip",
             "Personal achievements",
-            "Department gossip"
+            "Strategic issues and big picture",
+            "Operational details"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Boards focus on strategic direction, not operational minutiae."
         },
         {
@@ -1014,9 +1014,9 @@ Your influence depends on your reputation:
           question: "How can you lead without direct authority?",
           options: [
             "By creating win-win solutions",
+            "By working alone",
             "Through threats and pressure",
-            "By ignoring other departments",
-            "By working alone"
+            "By ignoring other departments"
           ],
           correctAnswer: 0,
           explanation: "Win-win solutions build cooperation across organizational boundaries."
@@ -1025,12 +1025,12 @@ Your influence depends on your reputation:
           id: 16,
           question: "What should matrix organizations clarify?",
           options: [
-            "Only reporting lines",
-            "Decision rights and accountabilities",
+            "Office locations",
             "Social hierarchies",
-            "Office locations"
+            "Only reporting lines",
+            "Decision rights and accountabilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Clear decision rights prevent confusion in complex matrix structures."
         },
         {
@@ -1038,8 +1038,8 @@ Your influence depends on your reputation:
           question: "How should you communicate with financial stakeholders?",
           options: [
             "Focus on ROI and risk management",
-            "Discuss only personal relationships",
             "Use technical jargon",
+            "Discuss only personal relationships",
             "Avoid numbers"
           ],
           correctAnswer: 0,
@@ -1049,36 +1049,36 @@ Your influence depends on your reputation:
           id: 18,
           question: "What should increase during crises?",
           options: [
-            "Secrecy and isolation",
             "Communication frequency",
             "Blaming others",
-            "Avoiding decisions"
+            "Avoiding decisions",
+            "Secrecy and isolation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "More frequent communication reduces uncertainty during crises."
         },
         {
           id: 19,
           question: "What builds reputation power?",
           options: [
+            "Avoiding risks",
             "Making big promises",
             "Delivering consistent results",
-            "Taking credit for others' work",
-            "Avoiding risks"
+            "Taking credit for others' work"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A track record of delivering results builds strong reputation."
         },
         {
           id: 20,
           question: "How should you manage competing priorities in matrix organizations?",
           options: [
-            "Ignore some priorities",
             "Balance multiple demands carefully",
             "Focus only on your department",
-            "Let conflicts escalate"
+            "Let conflicts escalate",
+            "Ignore some priorities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Matrix leadership requires balancing competing demands effectively."
         }
       ]
@@ -1245,12 +1245,12 @@ Build in regular renewal:
           id: 1,
           question: "What is a unique challenge of executive team leadership?",
           options: [
+            "Too much free time",
             "Simple decision-making",
-            "Managing power dynamics among peers",
             "Lack of resources",
-            "Too much free time"
+            "Managing power dynamics among peers"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Executives must collaborate with peers who are used to leading their own domains."
         },
         {
@@ -1258,21 +1258,21 @@ Build in regular renewal:
           question: "What does strategic alignment in executive teams mean?",
           options: [
             "Having identical opinions",
+            "Following the CEO blindly",
             "Being united on direction and priorities",
-            "Avoiding all conflict",
-            "Following the CEO blindly"
+            "Avoiding all conflict"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Strategic alignment means agreement on where the organization should go and what matters most."
         },
         {
           id: 3,
           question: "What is constructive debate in executive teams?",
           options: [
-            "Personal attacks",
-            "Willingness to challenge each other respectfully",
             "Avoiding difficult topics",
-            "Agreeing with everything said"
+            "Willingness to challenge each other respectfully",
+            "Agreeing with everything said",
+            "Personal attacks"
           ],
           correctAnswer: 1,
           explanation: "Constructive debate involves respectful challenge of ideas to reach better decisions."
@@ -1281,36 +1281,36 @@ Build in regular renewal:
           id: 4,
           question: "How can executive teams build trust faster?",
           options: [
-            "By keeping distance",
             "Through vulnerability modeling and reliability",
+            "By keeping distance",
             "Through formal titles only",
             "By avoiding mistakes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Showing vulnerability and being reliable accelerates trust building."
         },
         {
           id: 5,
           question: "What is the first step in trust repair?",
           options: [
-            "Blame others",
-            "Acknowledge the breach occurred",
             "Pretend nothing happened",
-            "Make excuses"
+            "Make excuses",
+            "Blame others",
+            "Acknowledge the breach occurred"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Acknowledging the trust breach is essential before repair can begin."
         },
         {
           id: 6,
           question: "What is the first step in the Executive Decision Framework?",
           options: [
+            "Follow your intuition",
             "Make the decision quickly",
             "Frame the decision clearly",
-            "Consult only close advisors",
-            "Follow your intuition"
+            "Consult only close advisors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Clearly framing what decision needs to be made sets the foundation for good decision-making."
         },
         {
@@ -1318,23 +1318,23 @@ Build in regular renewal:
           question: "What are Type 1 decisions?",
           options: [
             "Small, reversible choices",
-            "Big, irreversible choices that require time",
             "Decisions made by committee",
+            "Big, irreversible choices that require time",
             "Automated decisions"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Type 1 decisions have significant, irreversible consequences and require careful consideration."
         },
         {
           id: 8,
           question: "What characterizes healthy conflict?",
           options: [
+            "Hidden agendas",
             "Personal attacks",
             "Focus on issues, respectful, seeks truth",
-            "Hidden agendas",
             "Win-lose mentality"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Healthy conflict stays focused on issues and seeks better solutions through respectful debate."
         },
         {
@@ -1342,11 +1342,11 @@ Build in regular renewal:
           question: "What should you focus on when managing personality clashes?",
           options: [
             "Personality traits",
-            "Behaviors, not personalities",
+            "Past conflicts",
             "Who is right",
-            "Past conflicts"
+            "Behaviors, not personalities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Addressing specific behaviors is more productive than criticizing personalities."
         },
         {
@@ -1354,35 +1354,35 @@ Build in regular renewal:
           question: "What is succession planning?",
           options: [
             "Planning your next vacation",
+            "Creating more hierarchy",
             "Identifying and developing future leaders",
-            "Reducing team size",
-            "Creating more hierarchy"
+            "Reducing team size"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Succession planning ensures leadership continuity by developing potential replacements."
         },
         {
           id: 11,
           question: "What does collective accountability mean?",
           options: [
+            "No one takes responsibility",
             "Only the CEO is responsible",
             "Shared responsibility for team outcomes",
-            "Blaming individuals for failures",
-            "No one takes responsibility"
+            "Blaming individuals for failures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Collective accountability means the team shares responsibility for results."
         },
         {
           id: 12,
           question: "What demonstrates reliability in building trust?",
           options: [
+            "Having the right connections",
             "Making big promises",
             "Doing what you say consistently",
-            "Having the right connections",
             "Being charismatic"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Reliability means consistently following through on commitments."
         },
         {
@@ -1391,8 +1391,8 @@ Build in regular renewal:
           options: [
             "Get 80% of information, then decide",
             "Wait for 100% certainty",
-            "Make decisions with no information",
-            "Consult 80 people before deciding"
+            "Consult 80 people before deciding",
+            "Make decisions with no information"
           ],
           correctAnswer: 0,
           explanation: "The 80/20 rule suggests getting most information, then deciding rather than waiting for perfect information."
@@ -1401,9 +1401,9 @@ Build in regular renewal:
           id: 14,
           question: "What is the first step in executive conflict resolution?",
           options: [
-            "Assign blame",
-            "Create a safe space for discussion",
             "Take sides immediately",
+            "Create a safe space for discussion",
+            "Assign blame",
             "Document everything"
           ],
           correctAnswer: 1,
@@ -1413,12 +1413,12 @@ Build in regular renewal:
           id: 15,
           question: "What are stretch assignments?",
           options: [
-            "Easy tasks",
             "Challenging opportunities for growth",
             "Punishment for poor performance",
+            "Easy tasks",
             "Tasks below someone's capability"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Stretch assignments challenge people to grow beyond current capabilities."
         },
         {
@@ -1426,44 +1426,44 @@ Build in regular renewal:
           question: "What should executive performance metrics measure?",
           options: [
             "Only financial results",
-            "Strategic outcomes and team development",
+            "Popularity",
             "Hours worked",
-            "Popularity"
+            "Strategic outcomes and team development"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Executive metrics should include both results and leadership development."
         },
         {
           id: 17,
           question: "How should performance conversations start?",
           options: [
+            "Comparing to others",
             "With criticism",
-            "Recognizing achievements first",
             "Threatening consequences",
-            "Comparing to others"
+            "Recognizing achievements first"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Starting with positives creates openness for constructive feedback."
         },
         {
           id: 18,
           question: "What helps manage stress at executive level?",
           options: [
-            "Working longer hours",
             "Workload balance and support networks",
             "Ignoring stress signals",
+            "Working longer hours",
             "Taking on more responsibilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Balanced workloads and support systems help manage executive stress."
         },
         {
           id: 19,
           question: "What is a sign of executive burnout?",
           options: [
-            "High energy and enthusiasm",
-            "Chronic fatigue and cynicism",
             "Increased productivity",
+            "Chronic fatigue and cynicism",
+            "High energy and enthusiasm",
             "More social engagement"
           ],
           correctAnswer: 1,
@@ -1473,12 +1473,12 @@ Build in regular renewal:
           id: 20,
           question: "What does the renewal cycle include?",
           options: [
-            "Only annual vacations",
-            "Quarterly retreats and continuous learning",
             "Working without breaks",
-            "Avoiding reflection"
+            "Only annual vacations",
+            "Avoiding reflection",
+            "Quarterly retreats and continuous learning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Regular retreats and ongoing learning help sustain executive effectiveness."
         }
       ]
@@ -1654,47 +1654,47 @@ Create capacity to persist through:
           question: "What does innovation leadership focus on compared to traditional leadership?",
           options: [
             "Only efficiency improvements",
-            "Effectiveness and exploration of new possibilities",
             "Maintaining strict control",
-            "Following existing processes exactly"
+            "Following existing processes exactly",
+            "Effectiveness and exploration of new possibilities"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Innovation leadership emphasizes finding new right things, not just doing existing things right."
         },
         {
           id: 2,
           question: "What characterizes innovation leaders?",
           options: [
-            "Avoiding all risks",
-            "Curiosity and comfort with ambiguity",
             "Sticking to proven methods",
-            "Focusing only on short-term results"
+            "Focusing only on short-term results",
+            "Curiosity and comfort with ambiguity",
+            "Avoiding all risks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Innovation leaders are curious about possibilities and tolerate uncertainty during exploration."
         },
         {
           id: 3,
           question: "What is psychological safety for innovation?",
           options: [
-            "Physical workplace safety",
-            "Feeling safe to propose wild ideas without ridicule",
             "Guaranteed job security",
-            "Avoiding all criticism"
+            "Physical workplace safety",
+            "Avoiding all criticism",
+            "Feeling safe to propose wild ideas without ridicule"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Psychological safety allows people to share creative ideas without fear of negative consequences."
         },
         {
           id: 4,
           question: "What fosters innovation culture?",
           options: [
-            "Micromanagement",
-            "Autonomy and resources for experimentation",
+            "Punishing failures",
             "Strict rules and procedures",
-            "Punishing failures"
+            "Micromanagement",
+            "Autonomy and resources for experimentation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Freedom to explore and resources to experiment create environments where innovation flourishes."
         },
         {
@@ -1702,11 +1702,11 @@ Create capacity to persist through:
           question: "What is the first stage of the innovation pipeline?",
           options: [
             "Implementation",
+            "Diffusion",
             "Idea generation",
-            "Testing and validation",
-            "Diffusion"
+            "Testing and validation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Innovation begins with generating many possible ideas before filtering and developing them."
         },
         {
@@ -1725,21 +1725,21 @@ Create capacity to persist through:
           id: 7,
           question: "What is the first principle of adaptive leadership?",
           options: [
-            "Take immediate action",
             "Diagnose the situation accurately",
-            "Follow established procedures",
-            "Delegate all decisions"
+            "Take immediate action",
+            "Delegate all decisions",
+            "Follow established procedures"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Adaptive leadership starts with understanding what's really happening before taking action."
         },
         {
           id: 8,
           question: "What helps build organizational agility?",
           options: [
-            "Rigid hierarchies",
-            "Modular structures and rapid decision cycles",
             "Complex approval processes",
+            "Modular structures and rapid decision cycles",
+            "Rigid hierarchies",
             "Detailed long-term plans"
           ],
           correctAnswer: 1,
@@ -1749,12 +1749,12 @@ Create capacity to persist through:
           id: 9,
           question: "Where do disruptive innovations often start?",
           options: [
-            "At the high end of the market",
             "At the low end, serving less demanding customers",
-            "In government regulations",
-            "In established companies only"
+            "In established companies only",
+            "At the high end of the market",
+            "In government regulations"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Disruptive innovations typically begin by serving overlooked or less demanding market segments."
         },
         {
@@ -1773,24 +1773,24 @@ Create capacity to persist through:
           id: 11,
           question: "What does exploitation refer to in innovation?",
           options: [
+            "Taking advantage of people",
             "Searching for new opportunities",
             "Optimizing existing capabilities",
-            "Taking advantage of people",
             "Exploring completely new domains"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Exploitation means making the most of current capabilities and opportunities."
         },
         {
           id: 12,
           question: "What should innovation recognition reward?",
           options: [
-            "Only successful outcomes",
-            "Creative efforts and attempts, not just successes",
             "Following procedures exactly",
-            "Avoiding all risks"
+            "Only successful outcomes",
+            "Avoiding all risks",
+            "Creative efforts and attempts, not just successes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Recognizing effort encourages continued innovation attempts, even when they don't all succeed."
         },
         {
@@ -1798,56 +1798,56 @@ Create capacity to persist through:
           question: "What is the testing and validation stage?",
           options: [
             "Generating initial ideas",
+            "Company-wide rollout",
             "Prototyping and learning from experiments",
-            "Full-scale implementation",
-            "Company-wide rollout"
+            "Full-scale implementation"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Testing involves creating prototypes and learning what works before full implementation."
         },
         {
           id: 14,
           question: "What does managing disequilibrium mean?",
           options: [
-            "Eliminating all tension",
-            "Maintaining productive tension for change",
+            "Avoiding all conflict",
             "Creating chaos",
-            "Avoiding all conflict"
+            "Maintaining productive tension for change",
+            "Eliminating all tension"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Productive tension motivates change without causing destructive stress."
         },
         {
           id: 15,
           question: "What is a response strategy to disruption?",
           options: [
+            "Make existing processes more rigid",
             "Ignore emerging threats",
-            "Create autonomous units for disruptive initiatives",
             "Focus only on current business",
-            "Make existing processes more rigid"
+            "Create autonomous units for disruptive initiatives"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Autonomous units can explore disruptive opportunities without being constrained by existing business models."
         },
         {
           id: 16,
           question: "What drives successful technology adoption?",
           options: [
-            "Technology features alone",
             "Clear value articulation and change management",
             "Forcing people to use new tools",
-            "Hiding implementation challenges"
+            "Hiding implementation challenges",
+            "Technology features alone"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Successful adoption requires both clear benefits and support for people through change."
         },
         {
           id: 17,
           question: "What are external innovation networks?",
           options: [
-            "Only internal company teams",
-            "Partnerships and startup engagements",
             "Competitors' research departments",
+            "Partnerships and startup engagements",
+            "Only internal company teams",
             "Secret innovation labs"
           ],
           correctAnswer: 1,
@@ -1858,35 +1858,35 @@ Create capacity to persist through:
           question: "What are input metrics for innovation?",
           options: [
             "Business impact results",
+            "Revenue growth only",
             "Resources dedicated to innovation",
-            "Customer satisfaction scores",
-            "Revenue growth only"
+            "Customer satisfaction scores"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Input metrics measure investments in innovation, like R&D spending or people allocated."
         },
         {
           id: 19,
           question: "What is Horizon 3 in innovation portfolio management?",
           options: [
-            "Core business improvements",
-            "Future possibilities (5+ years out)",
             "Emerging business opportunities",
-            "Current product enhancements"
+            "Current product enhancements",
+            "Future possibilities (5+ years out)",
+            "Core business improvements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Horizon 3 focuses on long-term, potentially transformative innovations."
         },
         {
           id: 20,
           question: "How can innovation fatigue be prevented?",
           options: [
+            "By increasing pressure for results",
             "By expecting only breakthroughs",
             "By celebrating small wins and progress",
-            "By increasing pressure for results",
             "By eliminating all breaks"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Recognizing incremental progress maintains momentum during long innovation journeys."
         }
       ]
@@ -2079,23 +2079,23 @@ Leadership development never ends:
           question: "What is sustainable leadership?",
           options: [
             "Leadership focused only on current results",
-            "Creating value that endures beyond your tenure",
             "Leadership that avoids all risks",
-            "Following traditional methods only"
+            "Following traditional methods only",
+            "Creating value that endures beyond your tenure"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Sustainable leadership builds systems and capabilities that continue to thrive after leadership transitions."
         },
         {
           id: 2,
           question: "What is the shift from achievement to stewardship?",
           options: [
-            "From my success to our success",
-            "From team focus to individual focus",
             "From long-term to short-term thinking",
-            "From collective to personal achievement"
+            "From team focus to individual focus",
+            "From collective to personal achievement",
+            "From my success to our success"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stewardship focuses on collective success and long-term organizational health."
         },
         {
@@ -2103,11 +2103,11 @@ Leadership development never ends:
           question: "What are the three dimensions of legacy?",
           options: [
             "Personal, professional, social",
-            "Performance, developmental, cultural",
             "Financial, operational, strategic",
-            "Short-term, medium-term, long-term"
+            "Short-term, medium-term, long-term",
+            "Performance, developmental, cultural"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Legacy includes results achieved, people developed, and culture created."
         },
         {
@@ -2115,59 +2115,59 @@ Leadership development never ends:
           question: "What is the first step in the Succession Excellence Framework?",
           options: [
             "Develop readiness plans",
-            "Identify critical positions",
             "Create transition plans",
+            "Identify critical positions",
             "Test through stretch assignments"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Identifying which roles are crucial to organizational success is the starting point."
         },
         {
           id: 5,
           question: "What should a graceful exit include?",
           options: [
-            "Sudden departure without warning",
             "Systematic knowledge transfer",
             "Keeping all knowledge to yourself",
-            "Criticizing your successor"
+            "Criticizing your successor",
+            "Sudden departure without warning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Systematic knowledge transfer ensures continuity and sets up the successor for success."
         },
         {
           id: 6,
           question: "How can institutional knowledge be captured?",
           options: [
-            "Only through formal documents",
             "Through expert interviews and lessons learned repositories",
-            "By keeping knowledge in people's heads",
-            "Through gossip and rumors"
+            "Through gossip and rumors",
+            "Only through formal documents",
+            "By keeping knowledge in people's heads"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multiple methods including interviews and repositories capture both explicit and tacit knowledge."
         },
         {
           id: 7,
           question: "What is cultural transmission?",
           options: [
-            "Changing culture completely",
             "Ensuring cultural continuity across leadership transitions",
+            "Creating secret cultures",
             "Eliminating all traditions",
-            "Creating secret cultures"
+            "Changing culture completely"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Cultural transmission preserves core values and practices while allowing appropriate evolution."
         },
         {
           id: 8,
           question: "How can ritual and tradition be preserved?",
           options: [
-            "By eliminating all rituals",
             "Through celebration rituals and storytelling occasions",
+            "By eliminating all rituals",
             "By making traditions secret",
             "Through constant change of practices"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Regular practices and storytelling help preserve organizational culture and values."
         },
         {
@@ -2176,8 +2176,8 @@ Leadership development never ends:
           options: [
             "Replacing all current leaders",
             "Building future leaders through progressive challenges",
-            "Hiring only external candidates",
-            "Avoiding leadership development"
+            "Avoiding leadership development",
+            "Hiring only external candidates"
           ],
           correctAnswer: 1,
           explanation: "Pipeline development systematically prepares future leaders through increasing responsibilities."
@@ -2186,48 +2186,48 @@ Leadership development never ends:
           id: 10,
           question: "What is the mentorship multiplier effect?",
           options: [
-            "Reducing mentorship impact",
             "Maximizing developmental impact through effective mentoring",
-            "Eliminating mentorship programs",
-            "Making mentorship optional"
+            "Making mentorship optional",
+            "Reducing mentorship impact",
+            "Eliminating mentorship programs"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Effective mentorship multiplies leadership development impact across the organization."
         },
         {
           id: 11,
           question: "What do self-sustaining systems do?",
           options: [
-            "Depend on single leaders",
-            "Learn and adapt automatically over time",
+            "Resist all change",
             "Require constant intervention",
-            "Resist all change"
+            "Learn and adapt automatically over time",
+            "Depend on single leaders"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Self-sustaining systems improve automatically and don't depend on specific individuals."
         },
         {
           id: 12,
           question: "What does the Sustainability Scorecard measure?",
           options: [
-            "Only financial performance",
-            "Financial, talent, innovation, relationship, and environmental sustainability",
             "Only current quarter results",
-            "Personal popularity"
+            "Personal popularity",
+            "Financial, talent, innovation, relationship, and environmental sustainability",
+            "Only financial performance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A comprehensive scorecard considers multiple dimensions of organizational sustainability."
         },
         {
           id: 13,
           question: "What is energy management for executives?",
           options: [
-            "Working constantly without breaks",
-            "Balancing energy expenditure and renewal",
             "Ignoring fatigue signals",
-            "Taking very long vacations"
+            "Working constantly without breaks",
+            "Taking very long vacations",
+            "Balancing energy expenditure and renewal"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Energy management involves balancing work demands with recovery to maintain effectiveness."
         },
         {
@@ -2236,8 +2236,8 @@ Leadership development never ends:
           options: [
             "Too much humility",
             "Hubris and overconfidence",
-            "Excessive collaboration",
-            "Too much learning"
+            "Too much learning",
+            "Excessive collaboration"
           ],
           correctAnswer: 1,
           explanation: "Overconfidence can blind leaders to problems and feedback."
@@ -2246,36 +2246,36 @@ Leadership development never ends:
           id: 15,
           question: "What is multi-generational thinking?",
           options: [
-            "Considering only current needs",
             "Considering impacts across current and future generations",
-            "Thinking about retirement only",
-            "Focusing on ancient history"
+            "Considering only current needs",
+            "Focusing on ancient history",
+            "Thinking about retirement only"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Multi-generational thinking considers long-term impacts beyond immediate stakeholders."
         },
         {
           id: 16,
           question: "What is the stewardship mindset?",
           options: [
-            "\"My organization to control\"",
-            "\"Organization in my care to enhance\"",
             "\"Resources to consume\"",
-            "\"People to command\""
+            "\"People to command\"",
+            "\"Organization in my care to enhance\"",
+            "\"My organization to control\""
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Stewardship involves caring for and enhancing the organization for future generations."
         },
         {
           id: 17,
           question: "What is part of leaving well?",
           options: [
+            "Undermining the new leader",
             "Creating chaos during departure",
-            "Preparing your successor thoroughly",
             "Keeping critical information secret",
-            "Undermining the new leader"
+            "Preparing your successor thoroughly"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Thorough preparation of your successor demonstrates true leadership responsibility."
         },
         {
@@ -2283,23 +2283,23 @@ Leadership development never ends:
           question: "How can leaders contribute after formal roles?",
           options: [
             "By interfering constantly",
-            "Through advisory roles and mentorship",
             "By criticizing their successors",
+            "Through advisory roles and mentorship",
             "By completely disengaging"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Advisory roles and mentorship allow continued contribution without operational responsibility."
         },
         {
           id: 19,
           question: "What should leadership reflection consider?",
           options: [
-            "Only financial achievements",
             "What difference was made and what would be done differently",
-            "Only personal benefits gained",
-            "How to regain power"
+            "Only financial achievements",
+            "How to regain power",
+            "Only personal benefits gained"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Reflection should consider impact, learning, and wisdom gained."
         },
         {
@@ -2307,11 +2307,11 @@ Leadership development never ends:
           question: "What is the continuing journey after formal leadership?",
           options: [
             "Complete retirement from all activities",
-            "Continued learning, sharing wisdom, and finding new purposes",
+            "Criticizing current leadership",
             "Only leisure activities",
-            "Criticizing current leadership"
+            "Continued learning, sharing wisdom, and finding new purposes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Leadership development continues through new forms of contribution and growth."
         }
       ]
@@ -2327,106 +2327,106 @@ Leadership development never ends:
         id: 1,
         question: "What is the main difference between strategic and operational leadership?",
         options: [
-          "Strategic leaders focus on doing things right, operational on doing right things",
-          "Strategic leaders focus on doing right things, operational on doing things right",
+          "Operational leaders earn more money",
           "Strategic leaders work less hours",
-          "Operational leaders earn more money"
+          "Strategic leaders focus on doing things right, operational on doing right things",
+          "Strategic leaders focus on doing right things, operational on doing things right"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Strategic leadership focuses on setting the right direction, operational on efficient execution."
       },
       {
         id: 2,
         question: "What should strategic leaders embrace?",
         options: [
+          "Avoiding all risks",
           "Complete certainty in all decisions",
           "Ambiguity and making decisions with imperfect information",
-          "Avoiding all risks",
           "Following only proven methods"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Strategic leaders must be comfortable with ambiguity and incomplete information."
       },
       {
         id: 3,
         question: "What is the 70-20-10 rule for resource allocation?",
         options: [
+          "70% on administration, 20% on strategy, 10% on operations",
           "70% on transformational ideas, 20% on core business, 10% on adjacent opportunities",
           "70% on core business, 20% on adjacent opportunities, 10% on transformational ideas",
-          "70% on administration, 20% on strategy, 10% on operations",
           "70% on current problems, 20% on future planning, 10% on past analysis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "This rule balances maintaining current business while investing in future growth."
       },
       {
         id: 4,
         question: "What is the first stage of the Change Curve?",
         options: [
-          "Anger/Resistance",
-          "Shock/Denial",
+          "Commitment/Integration",
           "Exploration/Acceptance",
-          "Commitment/Integration"
+          "Shock/Denial",
+          "Anger/Resistance"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "People typically experience shock or denial when first confronted with significant change."
       },
       {
         id: 5,
         question: "How should leaders combat complacency during change?",
         options: [
-          "Ignore current problems",
-          "Share compelling data showing the need for change",
           "Avoid discussing challenges",
-          "Maintain the status quo"
+          "Ignore current problems",
+          "Maintain the status quo",
+          "Share compelling data showing the need for change"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Compelling factual data helps overcome resistance to change."
       },
       {
         id: 6,
         question: "What is expert power in influence?",
         options: [
-          "Formal authority from position",
           "Knowledge and demonstrated competence",
-          "Personal charisma only",
-          "Control of information"
+          "Control of information",
+          "Formal authority from position",
+          "Personal charisma only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Expert power comes from specialized knowledge and proven capability."
       },
       {
         id: 7,
         question: "How should you approach analytical executives when persuading?",
         options: [
-          "With emotional stories only",
-          "Lead with data and logical arguments",
           "Use personal appeals",
-          "Focus on relationship building first"
+          "Focus on relationship building first",
+          "Lead with data and logical arguments",
+          "With emotional stories only"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Analytical types respond best to factual evidence and logical reasoning."
       },
       {
         id: 8,
         question: "What is a unique challenge of executive team leadership?",
         options: [
-          "Simple decision-making processes",
           "Managing power dynamics among peers used to being in charge",
           "Lack of resources",
+          "Simple decision-making processes",
           "Too much free time"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Executives must collaborate with peers who are accustomed to leading their own domains."
       },
       {
         id: 9,
         question: "What does collective accountability in executive teams mean?",
         options: [
-          "Only the CEO is responsible for outcomes",
+          "No one takes responsibility for failures",
           "The team shares responsibility for results",
-          "Individuals are only responsible for their own areas",
-          "No one takes responsibility for failures"
+          "Only the CEO is responsible for outcomes",
+          "Individuals are only responsible for their own areas"
         ],
         correctAnswer: 1,
         explanation: "High-performing executive teams share responsibility for collective outcomes."
@@ -2435,10 +2435,10 @@ Leadership development never ends:
         id: 10,
         question: "What is the first step in trust repair?",
         options: [
-          "Blame others involved",
+          "Make excuses for the behavior",
           "Acknowledge the breach occurred",
           "Pretend nothing happened",
-          "Make excuses for the behavior"
+          "Blame others involved"
         ],
         correctAnswer: 1,
         explanation: "Acknowledging the trust breach is essential before repair can begin."
@@ -2448,32 +2448,32 @@ Leadership development never ends:
         question: "What characterizes innovation leaders?",
         options: [
           "Avoiding all uncertainty",
-          "Curiosity and comfort with ambiguity",
           "Sticking to proven methods only",
-          "Focusing only on efficiency"
+          "Focusing only on efficiency",
+          "Curiosity and comfort with ambiguity"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Innovation leaders are curious about possibilities and tolerate uncertainty during exploration."
       },
       {
         id: 12,
         question: "What is psychological safety for innovation?",
         options: [
-          "Physical workplace security",
-          "Feeling safe to propose wild ideas without fear of ridicule",
+          "Avoiding all criticism",
           "Guaranteed job security",
-          "Avoiding all criticism"
+          "Feeling safe to propose wild ideas without fear of ridicule",
+          "Physical workplace security"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Psychological safety allows people to share creative ideas without negative consequences."
       },
       {
         id: 13,
         question: "What does the 70-20-10 rule allocate to transformational ideas?",
         options: [
-          "70% of innovation resources",
-          "10% of innovation resources",
           "20% of innovation resources",
+          "10% of innovation resources",
+          "70% of innovation resources",
           "100% of innovation resources"
         ],
         correctAnswer: 1,
@@ -2483,36 +2483,36 @@ Leadership development never ends:
         id: 14,
         question: "What is sustainable leadership?",
         options: [
+          "Following only short-term goals",
           "Leadership focused only on current quarter results",
           "Creating value that endures beyond your tenure",
-          "Leadership that avoids developing successors",
-          "Following only short-term goals"
+          "Leadership that avoids developing successors"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Sustainable leadership builds systems and capabilities that continue to thrive after leadership transitions."
       },
       {
         id: 15,
         question: "What are the three dimensions of legacy?",
         options: [
-          "Personal, professional, social legacy",
-          "Performance, developmental, cultural legacy",
           "Financial, operational, strategic legacy",
-          "Short-term, medium-term, long-term legacy"
+          "Short-term, medium-term, long-term legacy",
+          "Personal, professional, social legacy",
+          "Performance, developmental, cultural legacy"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Legacy includes results achieved, people developed, and culture created."
       },
       {
         id: 16,
         question: "What is the first step in the Succession Excellence Framework?",
         options: [
-          "Develop readiness plans for successors",
           "Identify critical positions in the organization",
           "Create transition plans",
-          "Test candidates through stretch assignments"
+          "Test candidates through stretch assignments",
+          "Develop readiness plans for successors"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Identifying which roles are crucial to organizational success is the starting point."
       },
       {
@@ -2531,10 +2531,10 @@ Leadership development never ends:
         id: 18,
         question: "What makes a vision compelling?",
         options: [
-          "Being extremely complex and detailed",
+          "Changing frequently based on trends",
           "Clear, inspiring, and memorable",
           "Focused only on financial targets",
-          "Changing frequently based on trends"
+          "Being extremely complex and detailed"
         ],
         correctAnswer: 1,
         explanation: "A compelling vision should be easy to understand, inspiring to pursue, and easy to remember."
@@ -2555,10 +2555,10 @@ Leadership development never ends:
         id: 20,
         question: "How should stakeholders be mapped for change initiatives?",
         options: [
-          "Only by job title",
+          "Alphabetically by last name",
           "By power/influence, support/resistance, impact, and network position",
           "Only by department affiliation",
-          "Alphabetically by last name"
+          "Only by job title"
         ],
         correctAnswer: 1,
         explanation: "Multiple dimensions help understand stakeholder positions and influence levels."
@@ -2567,12 +2567,12 @@ Leadership development never ends:
         id: 21,
         question: "What is relationship power in influence?",
         options: [
-          "Formal authority from position",
           "Network and personal connections",
+          "Formal authority from position",
           "Technical expertise",
           "Control of key information"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Relationship power comes from your network and personal connections."
       },
       {
@@ -2581,8 +2581,8 @@ Leadership development never ends:
         options: [
           "Ignore them as unimportant",
           "Provide information and address their concerns",
-          "Threaten them with consequences",
-          "Offer promotions to gain support"
+          "Offer promotions to gain support",
+          "Threaten them with consequences"
         ],
         correctAnswer: 1,
         explanation: "Fence-sitters often need more information to move toward supporting change."
@@ -2591,10 +2591,10 @@ Leadership development never ends:
         id: 23,
         question: "What is constructive debate in executive teams?",
         options: [
-          "Personal attacks on individuals",
+          "Agreeing with everything the leader says",
           "Willingness to challenge each other respectfully on issues",
           "Avoiding difficult topics completely",
-          "Agreeing with everything the leader says"
+          "Personal attacks on individuals"
         ],
         correctAnswer: 1,
         explanation: "Constructive debate involves respectful challenge of ideas to reach better decisions."
@@ -2603,60 +2603,60 @@ Leadership development never ends:
         id: 24,
         question: "What is Type 1 decision?",
         options: [
-          "Small, reversible choice",
-          "Big, irreversible choice requiring careful consideration",
           "Decision made by committee",
-          "Automated routine decision"
+          "Automated routine decision",
+          "Big, irreversible choice requiring careful consideration",
+          "Small, reversible choice"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Type 1 decisions have significant, irreversible consequences and require thorough analysis."
       },
       {
         id: 25,
         question: "What is succession planning?",
         options: [
+          "Creating more management layers",
           "Planning your next career move",
           "Identifying and developing future leaders",
-          "Reducing organizational size",
-          "Creating more management layers"
+          "Reducing organizational size"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Succession planning ensures leadership continuity by developing potential replacements."
       },
       {
         id: 26,
         question: "What does innovation culture require?",
         options: [
-          "Micromanagement of all creative work",
           "Autonomy and resources for experimentation",
+          "Micromanagement of all creative work",
           "Strict rules and approval processes",
           "Punishment for failed experiments"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Freedom to explore and resources to experiment create environments where innovation flourishes."
       },
       {
         id: 27,
         question: "What is the first stage of the innovation pipeline?",
         options: [
-          "Full implementation",
           "Idea generation - creating many possibilities",
+          "Full implementation",
           "Testing and validation",
           "Company-wide diffusion"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Innovation begins with generating many possible ideas before filtering and developing them."
       },
       {
         id: 28,
         question: "What is the stewardship mindset?",
         options: [
-          "\"My organization to control for personal benefit\"",
-          "\"Organization in my care to enhance for future generations\"",
           "\"Resources to consume quickly\"",
-          "\"People to command absolutely\""
+          "\"People to command absolutely\"",
+          "\"Organization in my care to enhance for future generations\"",
+          "\"My organization to control for personal benefit\""
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Stewardship involves caring for and enhancing the organization for those who will follow."
       },
       {
@@ -2664,21 +2664,21 @@ Leadership development never ends:
         question: "What should be part of leaving well?",
         options: [
           "Creating chaos during your departure",
+          "Undermining the new leader's authority",
           "Preparing your successor thoroughly for success",
-          "Keeping critical knowledge to yourself",
-          "Undermining the new leader's authority"
+          "Keeping critical knowledge to yourself"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Thorough preparation of your successor demonstrates true leadership responsibility."
       },
       {
         id: 30,
         question: "What is multi-generational thinking?",
         options: [
-          "Considering only current quarter results",
-          "Considering impacts across current and future generations",
           "Thinking only about retirement planning",
-          "Focusing on ancient organizational history"
+          "Considering impacts across current and future generations",
+          "Focusing on ancient organizational history",
+          "Considering only current quarter results"
         ],
         correctAnswer: 1,
         explanation: "Multi-generational thinking considers long-term impacts beyond immediate stakeholders."
@@ -2687,60 +2687,60 @@ Leadership development never ends:
         id: 31,
         question: "What should strategic priority selection consider?",
         options: [
+          "Only what's easiest to accomplish",
           "Only the CEO's personal preferences",
           "Impact potential, resource requirements, and timing considerations",
-          "Only what's easiest to accomplish",
           "Following industry fads without analysis"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Strategic priorities should be evaluated based on multiple practical criteria."
       },
       {
         id: 32,
         question: "What is revolutionary change?",
         options: [
-          "Gradual continuous improvement",
-          "Major disruptive transformation",
           "Small incremental adjustments",
-          "Employee suggestion programs"
+          "Gradual continuous improvement",
+          "Employee suggestion programs",
+          "Major disruptive transformation"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Revolutionary change involves significant, disruptive transformation of the organization."
       },
       {
         id: 33,
         question: "What builds trust faster in executive teams?",
         options: [
-          "Keeping distance and formality",
-          "Vulnerability modeling and consistent reliability",
+          "Using formal titles only",
           "Hiding weaknesses and mistakes",
-          "Using formal titles only"
+          "Vulnerability modeling and consistent reliability",
+          "Keeping distance and formality"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Showing vulnerability and being reliable accelerates trust building."
       },
       {
         id: 34,
         question: "What characterizes healthy conflict?",
         options: [
-          "Personal attacks and hidden agendas",
           "Focus on issues, respectful, seeks truth",
+          "Win-lose competitive mentality",
           "Avoiding difficult topics",
-          "Win-lose competitive mentality"
+          "Personal attacks and hidden agendas"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Healthy conflict stays focused on issues and seeks better solutions through respectful debate."
       },
       {
         id: 35,
         question: "What does exploitation refer to in innovation?",
         options: [
-          "Searching for completely new opportunities",
-          "Optimizing existing capabilities and opportunities",
           "Taking advantage of employees",
-          "Exploring unfamiliar domains"
+          "Searching for completely new opportunities",
+          "Exploring unfamiliar domains",
+          "Optimizing existing capabilities and opportunities"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Exploitation means making the most of current capabilities and opportunities."
       },
       {
@@ -2748,47 +2748,47 @@ Leadership development never ends:
         question: "Where do disruptive innovations often start?",
         options: [
           "At the high end of established markets",
-          "At the low end, serving overlooked customers",
           "In government research labs only",
+          "At the low end, serving overlooked customers",
           "Only in Silicon Valley startups"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Disruptive innovations typically begin by serving overlooked or less demanding market segments."
       },
       {
         id: 37,
         question: "What is cultural transmission?",
         options: [
-          "Changing organizational culture completely",
           "Ensuring cultural continuity across leadership transitions",
+          "Creating secret subcultures",
           "Eliminating all traditions and rituals",
-          "Creating secret subcultures"
+          "Changing organizational culture completely"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Cultural transmission preserves core values and practices while allowing appropriate evolution."
       },
       {
         id: 38,
         question: "What is leadership pipeline development?",
         options: [
-          "Replacing all current leaders immediately",
-          "Building future leaders through progressive challenges",
+          "Avoiding leadership development investments",
           "Hiring only external candidates for leadership",
-          "Avoiding leadership development investments"
+          "Replacing all current leaders immediately",
+          "Building future leaders through progressive challenges"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "Pipeline development systematically prepares future leaders through increasing responsibilities."
       },
       {
         id: 39,
         question: "What do self-sustaining systems do?",
         options: [
-          "Depend entirely on specific leaders",
           "Learn and adapt automatically over time",
           "Require constant manual intervention",
+          "Depend entirely on specific leaders",
           "Resist all changes and improvements"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "Self-sustaining systems improve automatically and don't depend on specific individuals."
       },
       {
@@ -2796,11 +2796,11 @@ Leadership development never ends:
         question: "What is the continuing journey after formal leadership?",
         options: [
           "Complete retirement from all professional activities",
-          "Continued learning, sharing wisdom, and finding new purposes",
           "Only leisure and recreational activities",
+          "Continued learning, sharing wisdom, and finding new purposes",
           "Criticizing current leadership decisions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "Leadership development continues through new forms of contribution, learning, and growth."
       }
     ]

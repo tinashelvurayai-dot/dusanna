@@ -107,48 +107,48 @@ Supporting executive leadership functions:
           id: 1,
           question: "What involves understanding organizational goals?",
           options: [
-            "Strategic Vision Alignment",
             "Task Completion Only",
-            "Daily Scheduling",
-            "Email Management"
+            "Strategic Vision Alignment",
+            "Email Management",
+            "Daily Scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic vision alignment involves understanding and supporting broader organizational objectives."
         },
         {
           id: 2,
           question: "What predicts executive requirements?",
           options: [
+            "Task Lists Only",
             "Need Anticipation",
             "Reactive Responses",
-            "Waiting for Instructions",
-            "Task Lists Only"
+            "Waiting for Instructions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Need anticipation involves predicting executive requirements before they are explicitly stated."
         },
         {
           id: 3,
           question: "What establishes executive confidence?",
           options: [
-            "Trust Development",
-            "Task Speed Only",
+            "Technical Skills",
             "Availability Alone",
-            "Technical Skills"
+            "Trust Development",
+            "Task Speed Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Trust development creates the foundation for effective executive partnerships through reliability and discretion."
         },
         {
           id: 4,
           question: "What helps shape executive communications?",
           options: [
-            "Message Crafting Assistance",
-            "Typing Only",
             "Formatting Only",
-            "Spell Checking"
+            "Spell Checking",
+            "Typing Only",
+            "Message Crafting Assistance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Message crafting assistance involves helping shape the content and tone of executive communications."
         },
         {
@@ -156,9 +156,9 @@ Supporting executive leadership functions:
           question: "What involves strategic scheduling?",
           options: [
             "Calendar Strategy Development",
+            "Meeting Scheduling",
             "Basic Appointment Setting",
-            "Time Blocking Only",
-            "Meeting Scheduling"
+            "Time Blocking Only"
           ],
           correctAnswer: 0,
           explanation: "Calendar strategy development involves thoughtful scheduling that supports executive priorities and goals."
@@ -168,9 +168,9 @@ Supporting executive leadership functions:
           question: "What facilitates executive-team communication?",
           options: [
             "Team Interface Management",
-            "Message Passing",
+            "Meeting Setup",
             "Email Forwarding",
-            "Meeting Setup"
+            "Message Passing"
           ],
           correctAnswer: 0,
           explanation: "Team interface management facilitates effective communication between executives and their teams."
@@ -179,24 +179,24 @@ Supporting executive leadership functions:
           id: 7,
           question: "What provides decision information?",
           options: [
-            "Decision-Making Support",
-            "Opinion Giving",
+            "Recommendation Only",
             "Choice Making",
-            "Recommendation Only"
+            "Decision-Making Support",
+            "Opinion Giving"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Decision-making support involves providing executives with information needed for informed decisions."
         },
         {
           id: 8,
           question: "What has data ready before meetings?",
           options: [
-            "Information Preparation",
-            "Last-Minute Gathering",
             "Meeting Notes Only",
+            "Last-Minute Gathering",
+            "Information Preparation",
             "Agenda Distribution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Information preparation ensures executives have necessary data and materials before meetings."
         },
         {
@@ -204,9 +204,9 @@ Supporting executive leadership functions:
           question: "What matches executive preferences?",
           options: [
             "Communication Style Adaptation",
+            "Formal Style Always",
             "Standard Communication",
-            "Personal Style Only",
-            "Formal Style Always"
+            "Personal Style Only"
           ],
           correctAnswer: 0,
           explanation: "Communication style adaptation involves matching your approach to executive preferences and needs."
@@ -215,24 +215,24 @@ Supporting executive leadership functions:
           id: 10,
           question: "What understands communication recipients?",
           options: [
-            "Audience Analysis",
             "Generic Communication",
+            "Standard Messages",
             "Template Use",
-            "Standard Messages"
+            "Audience Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Audience analysis involves understanding who will receive communications to ensure appropriate messaging."
         },
         {
           id: 11,
           question: "What creates efficient email systems?",
           options: [
-            "Email System Design",
             "Inbox Management",
             "Email Sorting",
+            "Email System Design",
             "Spam Filtering"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Email system design creates organized approaches to managing executive email effectively."
         },
         {
@@ -240,9 +240,9 @@ Supporting executive leadership functions:
           question: "What helps build executive influence?",
           options: [
             "Influence Support",
+            "Document Preparation",
             "Task Completion",
-            "Schedule Management",
-            "Document Preparation"
+            "Schedule Management"
           ],
           correctAnswer: 0,
           explanation: "Influence support involves helping executives build and maintain professional influence."
@@ -251,96 +251,96 @@ Supporting executive leadership functions:
           id: 13,
           question: "What identifies executive priorities?",
           options: [
-            "Priority Management",
-            "Task Lists",
             "Deadline Tracking",
-            "Meeting Scheduling"
+            "Meeting Scheduling",
+            "Priority Management",
+            "Task Lists"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Priority management involves identifying and focusing on what matters most to executives."
         },
         {
           id: 14,
           question: "What identifies issues early?",
           options: [
+            "Crisis Response",
             "Problem Prevention",
             "Problem Solving",
-            "Issue Reporting",
-            "Crisis Response"
+            "Issue Reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Problem prevention involves identifying potential issues before they become serious problems."
         },
         {
           id: 15,
           question: "What creates secure partnerships?",
           options: [
-            "Confidential Relationship Building",
             "Social Relationships",
-            "Casual Friendships",
-            "Professional Acquaintance"
+            "Confidential Relationship Building",
+            "Professional Acquaintance",
+            "Casual Friendships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Confidential relationship building establishes trust through discretion and reliability."
         },
         {
           id: 16,
           question: "What develops effective presentations?",
           options: [
-            "Presentation Preparation",
-            "Slide Creation",
             "Printing Materials",
+            "Slide Creation",
+            "Presentation Preparation",
             "Room Setup"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Presentation preparation involves developing effective materials for executive presentations."
         },
         {
           id: 17,
           question: "What organizes executive information?",
           options: [
-            "Documentation Systems",
-            "File Folders",
+            "Digital Storage",
             "Paper Filing",
-            "Digital Storage"
+            "Documentation Systems",
+            "File Folders"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Documentation systems organize executive information for easy access and retrieval."
         },
         {
           id: 18,
           question: "What supports organizational change?",
           options: [
-            "Change Management Assistance",
+            "Policy Enforcement",
             "Status Quo Maintenance",
             "Resistance Management",
-            "Policy Enforcement"
+            "Change Management Assistance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Change management assistance involves supporting executives during organizational transitions."
         },
         {
           id: 19,
           question: "What helps identify business risks?",
           options: [
-            "Risk Assessment Support",
             "Problem Solving",
-            "Issue Reporting",
-            "Crisis Management"
+            "Risk Assessment Support",
+            "Crisis Management",
+            "Issue Reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Risk assessment support involves helping executives identify and evaluate potential business risks."
         },
         {
           id: 20,
           question: "What streamlines executive workflows?",
           options: [
-            "Efficiency Creation",
             "Task Completion",
             "Time Management",
-            "Schedule Optimization"
+            "Schedule Optimization",
+            "Efficiency Creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Efficiency creation involves finding ways to streamline executive work processes."
         }
       ]
@@ -450,12 +450,12 @@ Using advanced tools for executive communication:
           id: 1,
           question: "What manages sensitive written materials?",
           options: [
-            "Confidential Document Handling",
+            "Document Creation",
             "Regular Filing",
-            "Email Management",
-            "Document Creation"
+            "Confidential Document Handling",
+            "Email Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Confidential document handling involves special protocols for sensitive written materials."
         },
         {
@@ -474,48 +474,48 @@ Using advanced tools for executive communication:
           id: 3,
           question: "What builds relationships with key figures?",
           options: [
-            "Stakeholder Relationship Management",
             "Social Networking",
             "Casual Relationships",
-            "Professional Acquaintance"
+            "Professional Acquaintance",
+            "Stakeholder Relationship Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stakeholder relationship management builds strategic connections with important individuals."
         },
         {
           id: 4,
           question: "What understands information sensitivity levels?",
           options: [
+            "Privacy Settings",
             "Classification Systems",
             "Basic Confidentiality",
-            "Privacy Settings",
             "Document Labels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Classification systems categorize information based on sensitivity and access requirements."
         },
         {
           id: 5,
           question: "What understands cultural norms?",
           options: [
-            "Cultural Intelligence Development",
+            "Travel Experience",
             "Basic Manners",
             "Language Skills",
-            "Travel Experience"
+            "Cultural Intelligence Development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural intelligence involves understanding different cultural norms and expectations."
         },
         {
           id: 6,
           question: "What prepares emergency communication plans?",
           options: [
+            "Email Templates",
             "Crisis Response Planning",
-            "Regular Communication",
             "Meeting Agendas",
-            "Email Templates"
+            "Regular Communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Crisis response planning prepares communication strategies for emergency situations."
         },
         {
@@ -523,9 +523,9 @@ Using advanced tools for executive communication:
           question: "What communicates with executive authority?",
           options: [
             "Proxy Communication",
-            "Personal Communication",
             "Team Communication",
-            "Client Communication"
+            "Client Communication",
+            "Personal Communication"
           ],
           correctAnswer: 0,
           explanation: "Proxy communication involves representing executives with appropriate authority."
@@ -534,72 +534,72 @@ Using advanced tools for executive communication:
           id: 8,
           question: "What uses encrypted systems?",
           options: [
-            "Secure Communication Platforms",
-            "Regular Email",
+            "Text Messages",
             "Social Media",
-            "Text Messages"
+            "Regular Email",
+            "Secure Communication Platforms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Secure communication platforms use encryption for sensitive information exchange."
         },
         {
           id: 9,
           question: "What writes in executive style?",
           options: [
+            "Formal Templates",
             "Executive Voice Adaptation",
             "Personal Writing Style",
-            "Formal Templates",
             "Casual Language"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Executive voice adaptation involves matching executive communication style and tone."
         },
         {
           id: 10,
           question: "What manages senior leadership meetings?",
           options: [
+            "Project Meetings",
             "Executive Committee Facilitation",
             "Team Meetings",
-            "Department Meetings",
-            "Project Meetings"
+            "Department Meetings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Executive committee facilitation involves supporting high-level leadership meetings."
         },
         {
           id: 11,
           question: "What navigates organizational politics?",
           options: [
-            "Political Navigation Skills",
-            "Avoiding Politics",
             "Taking Sides",
-            "Ignoring Dynamics"
+            "Ignoring Dynamics",
+            "Political Navigation Skills",
+            "Avoiding Politics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Political navigation involves understanding and working within organizational power dynamics."
         },
         {
           id: 12,
           question: "What uses appropriate channels for sensitive info?",
           options: [
-            "Secure Communication Methods",
-            "Any Channel",
             "Email Only",
+            "Any Channel",
+            "Secure Communication Methods",
             "Verbal Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Secure communication methods ensure sensitive information uses appropriate, protected channels."
         },
         {
           id: 13,
           question: "What knows global business etiquette?",
           options: [
+            "Company Policies",
             "International Protocol Knowledge",
             "Basic Manners",
-            "Local Customs",
-            "Company Policies"
+            "Local Customs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "International protocol knowledge involves understanding global business etiquette standards."
         },
         {
@@ -619,8 +619,8 @@ Using advanced tools for executive communication:
           question: "What attends meetings in executive absence?",
           options: [
             "Meeting Representation",
-            "Meeting Cancellation",
             "Note Taking",
+            "Meeting Cancellation",
             "Recording Only"
           ],
           correctAnswer: 0,
@@ -630,36 +630,36 @@ Using advanced tools for executive communication:
           id: 16,
           question: "What supports digital governance meetings?",
           options: [
-            "Virtual Board Room Technology",
-            "Video Conferencing",
+            "Email Updates",
             "Phone Calls",
-            "Email Updates"
+            "Video Conferencing",
+            "Virtual Board Room Technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Virtual board room technology supports secure, effective digital governance meetings."
         },
         {
           id: 17,
           question: "What uses tactful language?",
           options: [
-            "Diplomatic Language Skills",
+            "Casual Speech",
             "Direct Language",
-            "Technical Jargon",
-            "Casual Speech"
+            "Diplomatic Language Skills",
+            "Technical Jargon"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Diplomatic language skills involve using tact and discretion in sensitive situations."
         },
         {
           id: 18,
           question: "What organizes stakeholder sessions?",
           options: [
-            "Stakeholder Meeting Coordination",
             "Regular Meetings",
+            "Stakeholder Meeting Coordination",
             "Team Building",
             "Training Sessions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Stakeholder meeting coordination involves organizing important meetings with key individuals."
         },
         {
@@ -678,12 +678,12 @@ Using advanced tools for executive communication:
           id: 20,
           question: "What follows data protection requirements?",
           options: [
-            "Privacy Protocol Implementation",
-            "Basic Confidentiality",
             "Common Sense",
-            "Company Guidelines"
+            "Company Guidelines",
+            "Privacy Protocol Implementation",
+            "Basic Confidentiality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Privacy protocol implementation involves following specific data protection requirements and regulations."
         }
       ]
@@ -805,12 +805,12 @@ Assessing and enhancing project outcomes:
           id: 2,
           question: "What organizes leadership retreats?",
           options: [
-            "Executive Summit Planning",
             "Team Building",
+            "Executive Summit Planning",
             "Training Sessions",
             "Regular Meetings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Executive summit planning involves organizing high-level leadership retreats and gatherings."
         },
         {
@@ -818,8 +818,8 @@ Assessing and enhancing project outcomes:
           question: "What sets stakeholder expectations?",
           options: [
             "Expectation Management",
-            "Communication Only",
             "Progress Reports",
+            "Communication Only",
             "Meeting Minutes"
           ],
           correctAnswer: 0,
@@ -829,24 +829,24 @@ Assessing and enhancing project outcomes:
           id: 4,
           question: "What creates project budgets?",
           options: [
-            "Budget Development",
             "Cost Tracking",
             "Expense Reporting",
-            "Financial Review"
+            "Financial Review",
+            "Budget Development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Budget development involves creating comprehensive financial plans for projects."
         },
         {
           id: 5,
           question: "What recognizes potential project risks?",
           options: [
-            "Risk Identification",
-            "Problem Solving",
             "Issue Reporting",
+            "Problem Solving",
+            "Risk Identification",
             "Crisis Response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk identification involves recognizing potential challenges before they become problems."
         },
         {
@@ -855,8 +855,8 @@ Assessing and enhancing project outcomes:
           options: [
             "Cross-Cultural Team Management",
             "Local Team Management",
-            "Department Management",
-            "Project Team Leadership"
+            "Project Team Leadership",
+            "Department Management"
           ],
           correctAnswer: 0,
           explanation: "Cross-cultural team management involves working effectively with teams from different cultures."
@@ -865,12 +865,12 @@ Assessing and enhancing project outcomes:
           id: 7,
           question: "What uses advanced project tools?",
           options: [
-            "Project Management Software",
             "Basic Spreadsheets",
-            "Email Only",
-            "Paper Systems"
+            "Paper Systems",
+            "Project Management Software",
+            "Email Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Project management software provides sophisticated tools for complex project coordination."
         },
         {
@@ -878,8 +878,8 @@ Assessing and enhancing project outcomes:
           question: "What evaluates project results?",
           options: [
             "Outcome Measurement",
-            "Task Completion",
             "Budget Adherence",
+            "Task Completion",
             "Timeline Meeting"
           ],
           correctAnswer: 0,
@@ -890,9 +890,9 @@ Assessing and enhancing project outcomes:
           question: "What identifies project stakeholders?",
           options: [
             "Stakeholder Analysis",
+            "Organization Chart",
             "Team Identification",
-            "Department Mapping",
-            "Organization Chart"
+            "Department Mapping"
           ],
           correctAnswer: 0,
           explanation: "Stakeholder analysis identifies all individuals and groups affected by projects."
@@ -901,24 +901,24 @@ Assessing and enhancing project outcomes:
           id: 10,
           question: "What plans governance offsite meetings?",
           options: [
+            "Annual Meetings",
             "Board Retreat Coordination",
-            "Regular Board Meetings",
             "Committee Meetings",
-            "Annual Meetings"
+            "Regular Board Meetings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Board retreat coordination involves planning special governance meetings away from the office."
         },
         {
           id: 11,
           question: "What develops communication strategies?",
           options: [
-            "Communication Planning",
             "Regular Updates",
+            "Email Distribution",
             "Meeting Scheduling",
-            "Email Distribution"
+            "Communication Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Communication planning develops systematic approaches to stakeholder information sharing."
         },
         {
@@ -926,9 +926,9 @@ Assessing and enhancing project outcomes:
           question: "What monitors project expenditures?",
           options: [
             "Cost Tracking",
-            "Budget Creation",
             "Financial Planning",
-            "Expense Approval"
+            "Expense Approval",
+            "Budget Creation"
           ],
           correctAnswer: 0,
           explanation: "Cost tracking involves monitoring actual spending against project budgets."
@@ -937,36 +937,36 @@ Assessing and enhancing project outcomes:
           id: 13,
           question: "What evaluates risk probability and impact?",
           options: [
-            "Risk Assessment",
             "Risk Identification",
             "Problem Analysis",
-            "Issue Tracking"
+            "Issue Tracking",
+            "Risk Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk assessment evaluates how likely risks are and what impact they might have."
         },
         {
           id: 14,
           question: "What schedules across time differences?",
           options: [
-            "Time Zone Coordination",
-            "Local Scheduling",
+            "Meeting Planning",
             "Calendar Management",
-            "Meeting Planning"
+            "Time Zone Coordination",
+            "Local Scheduling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Time zone coordination manages scheduling across different global time zones."
         },
         {
           id: 15,
           question: "What facilitates team collaboration?",
           options: [
-            "Collaboration Platforms",
+            "In-Person Meetings",
             "Email Systems",
-            "Phone Calls",
-            "In-Person Meetings"
+            "Collaboration Platforms",
+            "Phone Calls"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Collaboration platforms provide digital tools for team coordination and communication."
         },
         {
@@ -974,9 +974,9 @@ Assessing and enhancing project outcomes:
           question: "What assesses project team performance?",
           options: [
             "Performance Analysis",
-            "Task Completion",
+            "Time Management",
             "Attendance Tracking",
-            "Time Management"
+            "Task Completion"
           ],
           correctAnswer: 0,
           explanation: "Performance analysis evaluates how effectively project teams work together."
@@ -985,12 +985,12 @@ Assessing and enhancing project outcomes:
           id: 17,
           question: "What secures project resources?",
           options: [
-            "Resource Coordination",
             "Budget Management",
             "Vendor Selection",
+            "Resource Coordination",
             "Team Assignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Resource coordination involves securing necessary materials, people, and tools for projects."
         },
         {
@@ -998,9 +998,9 @@ Assessing and enhancing project outcomes:
           question: "What coordinates conference participation?",
           options: [
             "Industry Conference Management",
+            "Meeting Scheduling",
             "Event Attendance",
-            "Travel Planning",
-            "Meeting Scheduling"
+            "Travel Planning"
           ],
           correctAnswer: 0,
           explanation: "Industry conference management involves coordinating organizational participation in external events."
@@ -1009,24 +1009,24 @@ Assessing and enhancing project outcomes:
           id: 19,
           question: "What addresses stakeholder disagreements?",
           options: [
-            "Conflict Resolution",
-            "Issue Reporting",
+            "Executive Intervention",
             "Problem Ignoring",
-            "Executive Intervention"
+            "Conflict Resolution",
+            "Issue Reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Conflict resolution addresses disagreements among project stakeholders constructively."
         },
         {
           id: 20,
           question: "What works with external service providers?",
           options: [
-            "Vendor Management",
             "Internal Resource Use",
+            "Executive Decision",
             "Do-It-Yourself",
-            "Executive Decision"
+            "Vendor Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Vendor management involves working with external companies and service providers."
         }
       ]
@@ -1136,24 +1136,24 @@ Using tools to support governance functions:
           id: 1,
           question: "What creates meeting agendas?",
           options: [
+            "Calendar Management",
             "Board Agenda Development",
             "Meeting Scheduling",
-            "Calendar Management",
             "Time Blocking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Board agenda development involves creating comprehensive agendas for governance meetings."
         },
         {
           id: 2,
           question: "What drafts formal board decisions?",
           options: [
+            "Email Summaries",
             "Board Resolution Preparation",
             "Meeting Minutes",
-            "Email Summaries",
             "Verbal Decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Board resolution preparation involves drafting formal decisions for board approval."
         },
         {
@@ -1172,36 +1172,36 @@ Using tools to support governance functions:
           id: 4,
           question: "What assists with shareholder meetings?",
           options: [
+            "Client Meetings",
             "Shareholder Meeting Support",
-            "Board Meetings",
             "Team Meetings",
-            "Client Meetings"
+            "Board Meetings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Shareholder meeting support involves assisting with annual and special shareholder gatherings."
         },
         {
           id: 5,
           question: "What helps with executive disclosures?",
           options: [
-            "Disclosure Management",
             "Email Management",
-            "Document Filing",
-            "Report Writing"
+            "Report Writing",
+            "Disclosure Management",
+            "Document Filing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Disclosure management assists executives with required regulatory and compliance disclosures."
         },
         {
           id: 6,
           question: "What supports board risk committee work?",
           options: [
-            "Risk Committee Assistance",
+            "Crisis Management",
             "Risk Assessment",
-            "Problem Solving",
-            "Crisis Management"
+            "Risk Committee Assistance",
+            "Problem Solving"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk committee assistance involves supporting board committees focused on risk governance."
         },
         {
@@ -1209,8 +1209,8 @@ Using tools to support governance functions:
           question: "What assists with shareholder communications?",
           options: [
             "Investor Relations Support",
-            "Client Communication",
             "Internal Memos",
+            "Client Communication",
             "Press Releases"
           ],
           correctAnswer: 0,
@@ -1220,108 +1220,108 @@ Using tools to support governance functions:
           id: 8,
           question: "What uses digital board platforms?",
           options: [
-            "Board Portal Management",
-            "Email Systems",
+            "Paper Systems",
             "Shared Drives",
-            "Paper Systems"
+            "Email Systems",
+            "Board Portal Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Board portal management involves using specialized digital platforms for governance materials."
         },
         {
           id: 9,
           question: "What compiles meeting materials?",
           options: [
-            "Board Packet Preparation",
-            "Agenda Creation",
             "Document Collection",
+            "Agenda Creation",
+            "Board Packet Preparation",
             "File Organization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Board packet preparation involves compiling all necessary materials for board meetings."
         },
         {
           id: 10,
           question: "What keeps official governance records?",
           options: [
-            "Corporate Minute Book Maintenance",
             "File Cabinets",
-            "Digital Storage",
-            "Email Archives"
+            "Corporate Minute Book Maintenance",
+            "Email Archives",
+            "Digital Storage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Corporate minute book maintenance involves keeping official records of governance decisions."
         },
         {
           id: 11,
           question: "What stays current with legal changes?",
           options: [
-            "Regulatory Change Monitoring",
-            "News Reading",
             "Industry Trends",
-            "Market Analysis"
+            "Market Analysis",
+            "News Reading",
+            "Regulatory Change Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Regulatory change monitoring involves tracking changes in laws and regulations affecting the organization."
         },
         {
           id: 12,
           question: "What keeps corporate documents?",
           options: [
-            "Corporate Record Maintenance",
-            "General Filing",
             "Document Storage",
-            "Archive Management"
+            "Archive Management",
+            "Corporate Record Maintenance",
+            "General Filing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Corporate record maintenance involves keeping official documents like articles of incorporation."
         },
         {
           id: 13,
           question: "What manages conflict declaration processes?",
           options: [
-            "Conflict of Interest Administration",
             "Dispute Resolution",
+            "Conflict of Interest Administration",
             "Problem Solving",
             "Mediation Support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Conflict of interest administration manages processes for declaring and addressing potential conflicts."
         },
         {
           id: 14,
           question: "What compiles risk management reports?",
           options: [
-            "Risk Reporting Preparation",
-            "Financial Reporting",
             "Performance Reports",
-            "Compliance Reports"
+            "Financial Reporting",
+            "Compliance Reports",
+            "Risk Reporting Preparation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Risk reporting preparation involves compiling reports on organizational risk management activities."
         },
         {
           id: 15,
           question: "What handles regulator communications?",
           options: [
-            "Regulatory Communication",
             "Client Communication",
             "Vendor Communication",
+            "Regulatory Communication",
             "Internal Communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regulatory communication involves handling interactions with government regulators and agencies."
         },
         {
           id: 16,
           question: "What monitors regulatory requirements?",
           options: [
-            "Compliance Tracking Software",
             "Calendar Systems",
-            "Spreadsheets",
-            "Paper Checklists"
+            "Compliance Tracking Software",
+            "Paper Checklists",
+            "Spreadsheets"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Compliance tracking software helps monitor and manage regulatory requirements systematically."
         },
         {
@@ -1329,8 +1329,8 @@ Using tools to support governance functions:
           question: "What records and distributes minutes?",
           options: [
             "Meeting Minute Management",
-            "Note Taking",
             "Meeting Summaries",
+            "Note Taking",
             "Action Item Tracking"
           ],
           correctAnswer: 0,
@@ -1353,9 +1353,9 @@ Using tools to support governance functions:
           question: "What assists with required filings?",
           options: [
             "Regulatory Filing Support",
-            "Document Preparation",
+            "Submission Processing",
             "Form Completion",
-            "Submission Processing"
+            "Document Preparation"
           ],
           correctAnswer: 0,
           explanation: "Regulatory filing support involves assisting with preparation and submission of required filings."
@@ -1364,12 +1364,12 @@ Using tools to support governance functions:
           id: 20,
           question: "What assists with ethics code implementation?",
           options: [
-            "Code of Conduct Support",
-            "Policy Writing",
+            "Compliance Monitoring",
             "Training Development",
-            "Compliance Monitoring"
+            "Code of Conduct Support",
+            "Policy Writing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Code of conduct support involves helping implement and maintain organizational ethics codes."
         }
       ]
@@ -1480,9 +1480,9 @@ Managing information from creation to destruction:
           question: "What understands sensitivity levels?",
           options: [
             "Classification Categories",
-            "Basic Confidentiality",
             "Privacy Settings",
-            "Access Controls"
+            "Access Controls",
+            "Basic Confidentiality"
           ],
           correctAnswer: 0,
           explanation: "Classification categories define different sensitivity levels for information protection."
@@ -1491,108 +1491,108 @@ Managing information from creation to destruction:
           id: 2,
           question: "What secures paper documents?",
           options: [
-            "Physical Security",
             "Digital Security",
-            "Network Security",
-            "Device Security"
+            "Physical Security",
+            "Device Security",
+            "Network Security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Physical security involves protecting paper documents and physical information storage."
         },
         {
           id: 3,
           question: "What uses encrypted email?",
           options: [
-            "Secure Email Systems",
-            "Regular Email",
             "Instant Messaging",
-            "Social Media"
+            "Regular Email",
+            "Social Media",
+            "Secure Email Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Secure email systems use encryption to protect sensitive electronic communications."
         },
         {
           id: 4,
           question: "What understands privacy regulations?",
           options: [
+            "Common Sense",
             "Data Privacy Laws",
             "Company Policies",
-            "Common Sense",
             "Industry Standards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Data privacy laws include regulations like GDPR that govern personal information handling."
         },
         {
           id: 5,
           question: "What manages information during crises?",
           options: [
-            "Crisis Communication Protocols",
             "Regular Communication",
-            "Emergency Response",
-            "Media Relations"
+            "Crisis Communication Protocols",
+            "Media Relations",
+            "Emergency Response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Crisis communication protocols guide information sharing during emergency situations."
         },
         {
           id: 6,
           question: "What protects personal executive information?",
           options: [
-            "Executive Privacy",
-            "General Confidentiality",
+            "Access Control",
             "Data Security",
-            "Access Control"
+            "Executive Privacy",
+            "General Confidentiality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Executive privacy involves specifically protecting personal information about executives."
         },
         {
           id: 7,
           question: "What recognizes trade secrets?",
           options: [
+            "Business Information",
             "Trade Secret Identification",
             "General Confidentiality",
-            "Business Information",
             "Company Knowledge"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Trade secret identification involves recognizing what constitutes protected business secrets."
         },
         {
           id: 8,
           question: "What starts protection from creation?",
           options: [
-            "Creation Protocols",
             "Storage Management",
             "Access Control",
+            "Creation Protocols",
             "Destruction Methods"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Creation protocols establish protection measures from when information is first created."
         },
         {
           id: 9,
           question: "What determines appropriate handling methods?",
           options: [
+            "Standard Procedures",
             "Handling Procedures",
-            "Basic Care",
             "Common Sense",
-            "Standard Procedures"
+            "Basic Care"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Handling procedures define appropriate methods for managing different information types."
         },
         {
           id: 10,
           question: "What protects electronic information?",
           options: [
-            "Digital Security",
             "Physical Security",
             "Network Security",
+            "Digital Security",
             "Device Security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Digital security involves protecting electronic information and computer systems."
         },
         {
@@ -1600,8 +1600,8 @@ Managing information from creation to destruction:
           question: "What uses secure messaging platforms?",
           options: [
             "Protected Messaging",
-            "Regular Texting",
             "Email Communication",
+            "Regular Texting",
             "Phone Calls"
           ],
           correctAnswer: 0,
@@ -1611,72 +1611,72 @@ Managing information from creation to destruction:
           id: 12,
           question: "What understands industry requirements?",
           options: [
+            "Company Policies",
             "Industry Regulations",
             "General Laws",
-            "Company Policies",
             "Best Practices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Industry regulations include specific requirements for different business sectors."
         },
         {
           id: 13,
           question: "What handles press during sensitive situations?",
           options: [
-            "Media Management",
-            "Public Relations",
+            "Press Releases",
             "Communication Strategy",
-            "Press Releases"
+            "Media Management",
+            "Public Relations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Media management involves handling press interactions during confidential situations."
         },
         {
           id: 14,
           question: "What protects staff personal information?",
           options: [
+            "Payroll Information",
             "Employee Data Protection",
             "HR Records",
-            "Payroll Information",
             "Performance Reviews"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Employee data protection involves securing personal information about staff members."
         },
         {
           id: 15,
           question: "What involves specific protection methods?",
           options: [
-            "Protection Procedures",
-            "General Security",
             "Basic Protocols",
-            "Standard Measures"
+            "General Security",
+            "Standard Measures",
+            "Protection Procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Protection procedures involve specific methods for safeguarding particular information types."
         },
         {
           id: 16,
           question: "What controls who accesses information?",
           options: [
-            "Access Management",
             "Security Systems",
-            "Permission Settings",
-            "User Accounts"
+            "User Accounts",
+            "Access Management",
+            "Permission Settings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Access management controls who can view or use specific information resources."
         },
         {
           id: 17,
           question: "What uses encryption for protection?",
           options: [
-            "Encryption Methods",
             "Password Protection",
-            "Access Control",
-            "Security Software"
+            "Security Software",
+            "Encryption Methods",
+            "Access Control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Encryption methods use mathematical algorithms to protect information from unauthorized access."
         },
         {
@@ -1684,8 +1684,8 @@ Managing information from creation to destruction:
           question: "What involves legal agreements?",
           options: [
             "Contractual Obligations",
-            "Company Policies",
             "Legal Requirements",
+            "Company Policies",
             "Regulatory Compliance"
           ],
           correctAnswer: 0,
@@ -1696,9 +1696,9 @@ Managing information from creation to destruction:
           question: "What informs appropriate parties?",
           options: [
             "Stakeholder Notification",
-            "General Announcements",
             "Internal Communication",
-            "Public Disclosure"
+            "Public Disclosure",
+            "General Announcements"
           ],
           correctAnswer: 0,
           explanation: "Stakeholder notification involves informing appropriate individuals during sensitive situations."
@@ -1707,12 +1707,12 @@ Managing information from creation to destruction:
           id: 20,
           question: "What trains staff on protection?",
           options: [
-            "Employee Education",
             "Policy Distribution",
             "Training Programs",
+            "Employee Education",
             "Awareness Campaigns"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Employee education involves training staff on protecting sensitive information appropriately."
         }
       ]
@@ -1822,72 +1822,72 @@ Maintaining effectiveness under pressure:
           id: 1,
           question: "What guides without positional power?",
           options: [
+            "Supervisory Role",
             "Influence Without Authority",
-            "Formal Leadership",
             "Management Position",
-            "Supervisory Role"
+            "Formal Leadership"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Influence without authority involves guiding others through relationships and expertise rather than formal power."
         },
         {
           id: 2,
           question: "What develops professional bearing?",
           options: [
-            "Executive Demeanor",
-            "Casual Behavior",
             "Formal Dress",
-            "Office Etiquette"
+            "Office Etiquette",
+            "Executive Demeanor",
+            "Casual Behavior"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Executive demeanor involves developing professional conduct and presence appropriate for executive environments."
         },
         {
           id: 3,
           question: "What understands organizational context?",
           options: [
+            "Daily Operations",
             "Big Picture Perspective",
             "Department Focus",
-            "Task Completion",
-            "Daily Operations"
+            "Task Completion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Big picture perspective involves understanding broader organizational context and strategic direction."
         },
         {
           id: 4,
           question: "What understands influence dynamics?",
           options: [
-            "Stakeholder Analysis",
-            "Organization Chart",
+            "Team Composition",
             "Reporting Structure",
-            "Team Composition"
+            "Organization Chart",
+            "Stakeholder Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stakeholder analysis involves understanding who has influence and how it operates in the organization."
         },
         {
           id: 5,
           question: "What identifies development areas?",
           options: [
-            "Skill Gap Analysis",
+            "Training Needs",
             "Performance Review",
             "Self-Assessment",
-            "Training Needs"
+            "Skill Gap Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Skill gap analysis identifies areas where professional development is needed for career growth."
         },
         {
           id: 6,
           question: "What builds effective support teams?",
           options: [
-            "Team Development",
-            "Team Management",
+            "Team Direction",
             "Team Supervision",
-            "Team Direction"
+            "Team Management",
+            "Team Development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Team development involves building and strengthening teams that provide executive support."
         },
         {
@@ -1895,9 +1895,9 @@ Maintaining effectiveness under pressure:
           question: "What shows contribution impact?",
           options: [
             "Value Demonstration",
+            "Achievement Lists",
             "Task Completion",
-            "Performance Metrics",
-            "Achievement Lists"
+            "Performance Metrics"
           ],
           correctAnswer: 0,
           explanation: "Value demonstration involves showing how your contributions positively impact the organization."
@@ -1907,8 +1907,8 @@ Maintaining effectiveness under pressure:
           question: "What manages work pressure?",
           options: [
             "Stress Management",
-            "Time Management",
             "Task Delegation",
+            "Time Management",
             "Work Reduction"
           ],
           correctAnswer: 0,
@@ -1919,9 +1919,9 @@ Maintaining effectiveness under pressure:
           question: "What develops professional trust?",
           options: [
             "Credibility Building",
+            "Reputation Management",
             "Relationship Building",
-            "Network Development",
-            "Reputation Management"
+            "Network Development"
           ],
           correctAnswer: 0,
           explanation: "Credibility building involves developing trust through reliability, competence, and professionalism."
@@ -1930,60 +1930,60 @@ Maintaining effectiveness under pressure:
           id: 10,
           question: "What communicates with impact?",
           options: [
-            "Strategic Communication",
-            "Basic Communication",
             "Email Writing",
-            "Meeting Participation"
+            "Meeting Participation",
+            "Basic Communication",
+            "Strategic Communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic communication involves communicating in ways that support organizational objectives."
         },
         {
           id: 11,
           question: "What sees how parts connect?",
           options: [
-            "Systems Thinking",
-            "Problem Solving",
             "Process Analysis",
-            "Workflow Design"
+            "Workflow Design",
+            "Systems Thinking",
+            "Problem Solving"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Systems thinking involves understanding how different organizational elements interact and affect each other."
         },
         {
           id: 12,
           question: "What plans influence approaches?",
           options: [
-            "Influence Strategy Development",
             "Communication Planning",
             "Meeting Preparation",
+            "Influence Strategy Development",
             "Presentation Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Influence strategy development involves planning systematic approaches to professional influence."
         },
         {
           id: 13,
           question: "What plans long-term growth?",
           options: [
-            "Career Path Planning",
             "Job Searching",
-            "Skill Development",
-            "Training Attendance"
+            "Training Attendance",
+            "Career Path Planning",
+            "Skill Development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Career path planning involves strategic planning for long-term professional development and advancement."
         },
         {
           id: 14,
           question: "What assigns work effectively?",
           options: [
+            "Work Assignment",
             "Delegation Excellence",
             "Task Distribution",
-            "Work Assignment",
             "Job Allocation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Delegation excellence involves assigning work in ways that develop team members and ensure quality."
         },
         {
@@ -1991,9 +1991,9 @@ Maintaining effectiveness under pressure:
           question: "What leads organizational initiatives?",
           options: [
             "Strategic Initiative Leadership",
+            "Team Guidance",
             "Project Management",
-            "Task Leadership",
-            "Team Guidance"
+            "Task Leadership"
           ],
           correctAnswer: 0,
           explanation: "Strategic initiative leadership involves leading important projects that support organizational goals."
@@ -2002,48 +2002,48 @@ Maintaining effectiveness under pressure:
           id: 16,
           question: "What adjusts to changing circumstances?",
           options: [
-            "Adaptability Development",
-            "Flexibility",
             "Change Management",
-            "Transition Support"
+            "Adaptability Development",
+            "Transition Support",
+            "Flexibility"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Adaptability development involves building the ability to adjust effectively to changing situations."
         },
         {
           id: 17,
           question: "What leads through relationships?",
           options: [
-            "Relationship-Based Leadership",
-            "Formal Management",
             "Positional Authority",
-            "Supervisory Control"
+            "Supervisory Control",
+            "Formal Management",
+            "Relationship-Based Leadership"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Relationship-based leadership involves guiding others through strong professional relationships."
         },
         {
           id: 18,
           question: "What demonstrates decision assurance?",
           options: [
-            "Decision Confidence",
             "Certainty",
+            "Decision Confidence",
             "Authority",
             "Control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Decision confidence involves demonstrating assurance in recommendations and professional judgment."
         },
         {
           id: 19,
           question: "What anticipates future trends?",
           options: [
-            "Future Orientation",
             "Planning",
-            "Forecasting",
-            "Prediction"
+            "Future Orientation",
+            "Prediction",
+            "Forecasting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Future orientation involves anticipating trends and preparing for upcoming organizational needs."
         },
         {
@@ -2075,12 +2075,12 @@ Maintaining effectiveness under pressure:
         id: 1,
         question: "What involves understanding organizational goals?",
         options: [
-          "Strategic Vision Alignment",
-          "Task Completion Only",
           "Daily Scheduling",
-          "Email Management"
+          "Email Management",
+          "Task Completion Only",
+          "Strategic Vision Alignment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Strategic vision alignment involves understanding and supporting broader organizational objectives.",
         module: 1
       },
@@ -2088,12 +2088,12 @@ Maintaining effectiveness under pressure:
         id: 2,
         question: "What predicts executive requirements?",
         options: [
-          "Need Anticipation",
-          "Reactive Responses",
           "Waiting for Instructions",
-          "Task Lists Only"
+          "Task Lists Only",
+          "Need Anticipation",
+          "Reactive Responses"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Need anticipation involves predicting executive requirements before they are explicitly stated.",
         module: 1
       },
@@ -2102,8 +2102,8 @@ Maintaining effectiveness under pressure:
         question: "What establishes executive confidence?",
         options: [
           "Trust Development",
-          "Task Speed Only",
           "Availability Alone",
+          "Task Speed Only",
           "Technical Skills"
         ],
         correctAnswer: 0,
@@ -2114,12 +2114,12 @@ Maintaining effectiveness under pressure:
         id: 4,
         question: "What helps shape executive communications?",
         options: [
+          "Spell Checking",
           "Message Crafting Assistance",
-          "Typing Only",
           "Formatting Only",
-          "Spell Checking"
+          "Typing Only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Message crafting assistance involves helping shape the content of executive communications.",
         module: 1
       },
@@ -2127,12 +2127,12 @@ Maintaining effectiveness under pressure:
         id: 5,
         question: "What involves strategic scheduling?",
         options: [
-          "Calendar Strategy Development",
-          "Basic Appointment Setting",
+          "Meeting Scheduling",
           "Time Blocking Only",
-          "Meeting Scheduling"
+          "Basic Appointment Setting",
+          "Calendar Strategy Development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Calendar strategy development involves thoughtful scheduling that supports executive priorities.",
         module: 1
       },
@@ -2140,12 +2140,12 @@ Maintaining effectiveness under pressure:
         id: 6,
         question: "What facilitates executive-team communication?",
         options: [
-          "Team Interface Management",
-          "Message Passing",
           "Email Forwarding",
+          "Message Passing",
+          "Team Interface Management",
           "Meeting Setup"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Team interface management facilitates communication between executives and their teams.",
         module: 1
       },
@@ -2154,8 +2154,8 @@ Maintaining effectiveness under pressure:
         question: "What provides decision information?",
         options: [
           "Decision-Making Support",
-          "Opinion Giving",
           "Choice Making",
+          "Opinion Giving",
           "Recommendation Only"
         ],
         correctAnswer: 0,
@@ -2168,12 +2168,12 @@ Maintaining effectiveness under pressure:
         id: 8,
         question: "What manages sensitive written materials?",
         options: [
-          "Confidential Document Handling",
-          "Regular Filing",
           "Email Management",
+          "Regular Filing",
+          "Confidential Document Handling",
           "Document Creation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Confidential document handling involves special protocols for sensitive written materials.",
         module: 2
       },
@@ -2181,12 +2181,12 @@ Maintaining effectiveness under pressure:
         id: 9,
         question: "What prepares for board meetings?",
         options: [
-          "Board Meeting Support",
           "Regular Meeting Setup",
-          "Team Meetings",
-          "Client Meetings"
+          "Client Meetings",
+          "Board Meeting Support",
+          "Team Meetings"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Board meeting support involves specialized preparation for governance meetings.",
         module: 2
       },
@@ -2194,12 +2194,12 @@ Maintaining effectiveness under pressure:
         id: 10,
         question: "What builds relationships with key figures?",
         options: [
-          "Stakeholder Relationship Management",
+          "Professional Acquaintance",
           "Social Networking",
           "Casual Relationships",
-          "Professional Acquaintance"
+          "Stakeholder Relationship Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Stakeholder relationship management builds strategic connections with important individuals.",
         module: 2
       },
@@ -2207,12 +2207,12 @@ Maintaining effectiveness under pressure:
         id: 11,
         question: "What understands information sensitivity levels?",
         options: [
-          "Classification Systems",
-          "Basic Confidentiality",
           "Privacy Settings",
-          "Document Labels"
+          "Classification Systems",
+          "Document Labels",
+          "Basic Confidentiality"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Classification systems categorize information based on sensitivity and access requirements.",
         module: 2
       },
@@ -2220,12 +2220,12 @@ Maintaining effectiveness under pressure:
         id: 12,
         question: "What prepares emergency communication plans?",
         options: [
+          "Meeting Agendas",
           "Crisis Response Planning",
           "Regular Communication",
-          "Meeting Agendas",
           "Email Templates"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Crisis response planning prepares communication strategies for emergency situations.",
         module: 2
       },
@@ -2233,12 +2233,12 @@ Maintaining effectiveness under pressure:
         id: 13,
         question: "What communicates with executive authority?",
         options: [
-          "Proxy Communication",
+          "Client Communication",
           "Personal Communication",
-          "Team Communication",
-          "Client Communication"
+          "Proxy Communication",
+          "Team Communication"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Proxy communication involves representing executives with appropriate authority.",
         module: 2
       },
@@ -2246,12 +2246,12 @@ Maintaining effectiveness under pressure:
         id: 14,
         question: "What uses encrypted systems?",
         options: [
-          "Secure Communication Platforms",
+          "Text Messages",
           "Regular Email",
           "Social Media",
-          "Text Messages"
+          "Secure Communication Platforms"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Secure communication platforms use encryption for sensitive information exchange.",
         module: 2
       },
@@ -2261,12 +2261,12 @@ Maintaining effectiveness under pressure:
         id: 15,
         question: "What aligns projects with organizational goals?",
         options: [
-          "Strategic Project Planning",
           "Task Completion",
           "Deadline Management",
-          "Budget Control"
+          "Budget Control",
+          "Strategic Project Planning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Strategic project planning ensures initiatives support broader organizational objectives.",
         module: 3
       },
@@ -2275,9 +2275,9 @@ Maintaining effectiveness under pressure:
         question: "What organizes leadership retreats?",
         options: [
           "Executive Summit Planning",
-          "Team Building",
           "Training Sessions",
-          "Regular Meetings"
+          "Regular Meetings",
+          "Team Building"
         ],
         correctAnswer: 0,
         explanation: "Executive summit planning involves organizing high-level leadership retreats.",
@@ -2287,12 +2287,12 @@ Maintaining effectiveness under pressure:
         id: 17,
         question: "What sets stakeholder expectations?",
         options: [
-          "Expectation Management",
           "Communication Only",
+          "Meeting Minutes",
           "Progress Reports",
-          "Meeting Minutes"
+          "Expectation Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Expectation management involves setting what stakeholders expect from projects.",
         module: 3
       },
@@ -2301,8 +2301,8 @@ Maintaining effectiveness under pressure:
         question: "What creates project budgets?",
         options: [
           "Budget Development",
-          "Cost Tracking",
           "Expense Reporting",
+          "Cost Tracking",
           "Financial Review"
         ],
         correctAnswer: 0,
@@ -2313,12 +2313,12 @@ Maintaining effectiveness under pressure:
         id: 19,
         question: "What recognizes potential project risks?",
         options: [
-          "Risk Identification",
-          "Problem Solving",
           "Issue Reporting",
-          "Crisis Response"
+          "Crisis Response",
+          "Problem Solving",
+          "Risk Identification"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Risk identification involves recognizing potential challenges before they become problems.",
         module: 3
       },
@@ -2326,12 +2326,12 @@ Maintaining effectiveness under pressure:
         id: 20,
         question: "What uses advanced project tools?",
         options: [
-          "Project Management Software",
           "Basic Spreadsheets",
+          "Paper Systems",
           "Email Only",
-          "Paper Systems"
+          "Project Management Software"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Project management software provides sophisticated tools for complex project coordination.",
         module: 3
       },
@@ -2339,12 +2339,12 @@ Maintaining effectiveness under pressure:
         id: 21,
         question: "What evaluates project results?",
         options: [
-          "Outcome Measurement",
           "Task Completion",
+          "Outcome Measurement",
           "Budget Adherence",
           "Timeline Meeting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Outcome measurement evaluates the actual results and impact of completed projects.",
         module: 3
       },
@@ -2355,9 +2355,9 @@ Maintaining effectiveness under pressure:
         question: "What creates meeting agendas?",
         options: [
           "Board Agenda Development",
-          "Meeting Scheduling",
+          "Time Blocking",
           "Calendar Management",
-          "Time Blocking"
+          "Meeting Scheduling"
         ],
         correctAnswer: 0,
         explanation: "Board agenda development creates comprehensive agendas for governance meetings.",
@@ -2367,12 +2367,12 @@ Maintaining effectiveness under pressure:
         id: 23,
         question: "What drafts formal board decisions?",
         options: [
-          "Board Resolution Preparation",
-          "Meeting Minutes",
           "Email Summaries",
-          "Verbal Decisions"
+          "Meeting Minutes",
+          "Verbal Decisions",
+          "Board Resolution Preparation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Board resolution preparation involves drafting formal decisions for board approval.",
         module: 4
       },
@@ -2380,12 +2380,12 @@ Maintaining effectiveness under pressure:
         id: 24,
         question: "What tracks regulatory deadlines?",
         options: [
-          "Compliance Calendar Management",
-          "Meeting Scheduling",
           "Project Deadlines",
-          "Personal Calendar"
+          "Personal Calendar",
+          "Meeting Scheduling",
+          "Compliance Calendar Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Compliance calendar management tracks important regulatory filing deadlines.",
         module: 4
       },
@@ -2393,12 +2393,12 @@ Maintaining effectiveness under pressure:
         id: 25,
         question: "What assists with shareholder meetings?",
         options: [
-          "Shareholder Meeting Support",
           "Board Meetings",
+          "Client Meetings",
           "Team Meetings",
-          "Client Meetings"
+          "Shareholder Meeting Support"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Shareholder meeting support involves assisting with shareholder gatherings.",
         module: 4
       },
@@ -2406,12 +2406,12 @@ Maintaining effectiveness under pressure:
         id: 26,
         question: "What helps with executive disclosures?",
         options: [
-          "Disclosure Management",
+          "Report Writing",
           "Email Management",
           "Document Filing",
-          "Report Writing"
+          "Disclosure Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Disclosure management assists executives with required regulatory disclosures.",
         module: 4
       },
@@ -2419,12 +2419,12 @@ Maintaining effectiveness under pressure:
         id: 27,
         question: "What assists with shareholder communications?",
         options: [
-          "Investor Relations Support",
           "Client Communication",
-          "Internal Memos",
-          "Press Releases"
+          "Investor Relations Support",
+          "Press Releases",
+          "Internal Memos"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Investor relations support involves assisting with communications to shareholders.",
         module: 4
       },
@@ -2434,12 +2434,12 @@ Maintaining effectiveness under pressure:
         id: 28,
         question: "What understands sensitivity levels?",
         options: [
-          "Classification Categories",
-          "Basic Confidentiality",
           "Privacy Settings",
-          "Access Controls"
+          "Classification Categories",
+          "Access Controls",
+          "Basic Confidentiality"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Classification categories define different sensitivity levels for information protection.",
         module: 5
       },
@@ -2447,12 +2447,12 @@ Maintaining effectiveness under pressure:
         id: 29,
         question: "What secures paper documents?",
         options: [
-          "Physical Security",
-          "Digital Security",
+          "Device Security",
           "Network Security",
-          "Device Security"
+          "Digital Security",
+          "Physical Security"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Physical security involves protecting paper documents and physical information storage.",
         module: 5
       },
@@ -2460,12 +2460,12 @@ Maintaining effectiveness under pressure:
         id: 30,
         question: "What uses encrypted email?",
         options: [
-          "Secure Email Systems",
           "Regular Email",
-          "Instant Messaging",
-          "Social Media"
+          "Social Media",
+          "Secure Email Systems",
+          "Instant Messaging"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Secure email systems use encryption to protect sensitive electronic communications.",
         module: 5
       },
@@ -2473,12 +2473,12 @@ Maintaining effectiveness under pressure:
         id: 31,
         question: "What understands privacy regulations?",
         options: [
+          "Industry Standards",
           "Data Privacy Laws",
           "Company Policies",
-          "Common Sense",
-          "Industry Standards"
+          "Common Sense"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Data privacy laws include regulations that govern personal information handling.",
         module: 5
       },
@@ -2486,12 +2486,12 @@ Maintaining effectiveness under pressure:
         id: 32,
         question: "What protects personal executive information?",
         options: [
+          "Data Security",
           "Executive Privacy",
           "General Confidentiality",
-          "Data Security",
           "Access Control"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Executive privacy involves specifically protecting personal information about executives.",
         module: 5
       },
@@ -2500,8 +2500,8 @@ Maintaining effectiveness under pressure:
         question: "What recognizes trade secrets?",
         options: [
           "Trade Secret Identification",
-          "General Confidentiality",
           "Business Information",
+          "General Confidentiality",
           "Company Knowledge"
         ],
         correctAnswer: 0,
@@ -2515,9 +2515,9 @@ Maintaining effectiveness under pressure:
         question: "What guides without positional power?",
         options: [
           "Influence Without Authority",
+          "Supervisory Role",
           "Formal Leadership",
-          "Management Position",
-          "Supervisory Role"
+          "Management Position"
         ],
         correctAnswer: 0,
         explanation: "Influence without authority involves guiding others through relationships and expertise.",
@@ -2527,12 +2527,12 @@ Maintaining effectiveness under pressure:
         id: 35,
         question: "What develops professional bearing?",
         options: [
-          "Executive Demeanor",
+          "Office Etiquette",
           "Casual Behavior",
-          "Formal Dress",
-          "Office Etiquette"
+          "Executive Demeanor",
+          "Formal Dress"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Executive demeanor involves developing professional conduct for executive environments.",
         module: 6
       },
@@ -2541,9 +2541,9 @@ Maintaining effectiveness under pressure:
         question: "What understands organizational context?",
         options: [
           "Big Picture Perspective",
-          "Department Focus",
           "Task Completion",
-          "Daily Operations"
+          "Daily Operations",
+          "Department Focus"
         ],
         correctAnswer: 0,
         explanation: "Big picture perspective involves understanding broader organizational context and strategy.",
@@ -2553,12 +2553,12 @@ Maintaining effectiveness under pressure:
         id: 37,
         question: "What understands influence dynamics?",
         options: [
+          "Reporting Structure",
           "Stakeholder Analysis",
           "Organization Chart",
-          "Reporting Structure",
           "Team Composition"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Stakeholder analysis involves understanding who has influence in the organization.",
         module: 6
       },
@@ -2566,12 +2566,12 @@ Maintaining effectiveness under pressure:
         id: 38,
         question: "What identifies development areas?",
         options: [
-          "Skill Gap Analysis",
-          "Performance Review",
+          "Training Needs",
           "Self-Assessment",
-          "Training Needs"
+          "Skill Gap Analysis",
+          "Performance Review"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Skill gap analysis identifies areas where professional development is needed.",
         module: 6
       },
@@ -2579,12 +2579,12 @@ Maintaining effectiveness under pressure:
         id: 39,
         question: "What builds effective support teams?",
         options: [
-          "Team Development",
-          "Team Management",
           "Team Supervision",
-          "Team Direction"
+          "Team Management",
+          "Team Direction",
+          "Team Development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Team development involves building and strengthening executive support teams.",
         module: 6
       },
@@ -2592,12 +2592,12 @@ Maintaining effectiveness under pressure:
         id: 40,
         question: "What shows contribution impact?",
         options: [
-          "Value Demonstration",
           "Task Completion",
-          "Performance Metrics",
-          "Achievement Lists"
+          "Achievement Lists",
+          "Value Demonstration",
+          "Performance Metrics"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Value demonstration involves showing how contributions positively impact the organization.",
         module: 6
       }

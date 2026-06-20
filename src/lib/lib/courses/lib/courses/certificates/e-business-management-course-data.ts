@@ -52,24 +52,24 @@ Building successful digital alliances:
           id: 1,
           question: "What percentage of digital transformation is organizational change?",
           options: [
+            "50%",
             "70%",
             "30%",
-            "50%",
             "90%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Successful digital transformation is primarily about people and processes, not just technology."
         },
         {
           id: 2,
           question: "What is a digital moat?",
           options: [
-            "Sustainable competitive advantage in digital markets",
-            "Digital payment system",
             "Online security barrier",
+            "Digital payment system",
+            "Sustainable competitive advantage in digital markets",
             "Data storage solution"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Right! Digital moats are defensible advantages like network effects or proprietary data."
         },
         {
@@ -77,9 +77,9 @@ Building successful digital alliances:
           question: "What does API economy integration involve?",
           options: [
             "Leveraging third-party services and data",
-            "Building all technology in-house",
+            "Manual data entry processes",
             "Avoiding external dependencies",
-            "Manual data entry processes"
+            "Building all technology in-house"
           ],
           correctAnswer: 0,
           explanation: "Correct! API integration allows businesses to connect with external services efficiently."
@@ -89,9 +89,9 @@ Building successful digital alliances:
           question: "What is co-opetition?",
           options: [
             "Collaborating with competitors strategically",
+            "Merging with competitors",
             "Competing at all costs",
-            "Avoiding all competition",
-            "Merging with competitors"
+            "Avoiding all competition"
           ],
           correctAnswer: 0,
           explanation: "Yes! Co-opetition recognizes that businesses can collaborate in some areas while competing in others."
@@ -100,12 +100,12 @@ Building successful digital alliances:
           id: 5,
           question: "What are data network effects?",
           options: [
-            "More users improve data quality and service",
             "Data storage costs decreasing",
-            "Internet speed improvements",
-            "Data privacy regulations"
+            "Data privacy regulations",
+            "More users improve data quality and service",
+            "Internet speed improvements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! More users generate more data, which improves services and attracts more users."
         },
         {
@@ -114,8 +114,8 @@ Building successful digital alliances:
           options: [
             "Technology sophistication vs customer experience",
             "Price vs quality",
-            "Market size vs growth rate",
-            "Revenue vs profit margins"
+            "Revenue vs profit margins",
+            "Market size vs growth rate"
           ],
           correctAnswer: 0,
           explanation: "Right! This matrix helps position e-businesses against competitors on key digital dimensions."
@@ -124,36 +124,36 @@ Building successful digital alliances:
           id: 7,
           question: "What is business model innovation?",
           options: [
+            "Expanding to new physical locations",
             "Creating new digital revenue streams",
             "Improving existing products only",
-            "Reducing costs through automation",
-            "Expanding to new physical locations"
+            "Reducing costs through automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Digital enables entirely new ways of creating and capturing value."
         },
         {
           id: 8,
           question: "What are ecosystem partnerships?",
           options: [
-            "Platform, marketplace, and service collaborations",
-            "Only supplier relationships",
             "Only customer agreements",
-            "Only government contracts"
+            "Platform, marketplace, and service collaborations",
+            "Only government contracts",
+            "Only supplier relationships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Yes! Digital ecosystems involve multiple interconnected partners creating value together."
         },
         {
           id: 9,
           question: "What predicts market shifts and disruptions?",
           options: [
-            "Technology adoption curves",
-            "Historical sales data only",
             "Competitor pricing",
-            "Employee turnover rates"
+            "Historical sales data only",
+            "Employee turnover rates",
+            "Technology adoption curves"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Adoption curves help predict when new technologies will reach critical mass."
         },
         {
@@ -161,9 +161,9 @@ Building successful digital alliances:
           question: "What is cultural digital readiness?",
           options: [
             "Building agile, tech-savvy organizations",
-            "Implementing specific software",
+            "Purchasing digital equipment",
             "Hiring IT staff only",
-            "Purchasing digital equipment"
+            "Implementing specific software"
           ],
           correctAnswer: 0,
           explanation: "Correct! Organizational culture must support continuous digital adaptation."
@@ -172,48 +172,48 @@ Building successful digital alliances:
           id: 11,
           question: "What is platform ecosystem mapping?",
           options: [
-            "Understanding interconnected digital players",
-            "Drawing network diagrams",
+            "Planning office layouts",
             "Creating website maps",
-            "Planning office layouts"
+            "Understanding interconnected digital players",
+            "Drawing network diagrams"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Ecosystem mapping identifies all players in a digital value network."
         },
         {
           id: 12,
           question: "What percentage is technology implementation in transformation?",
           options: [
-            "10%",
             "40%",
             "60%",
-            "80%"
+            "80%",
+            "10%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Technology is just the enabler; success depends more on people and processes."
         },
         {
           id: 13,
           question: "What is customer experience reimagining?",
           options: [
-            "Digital-first customer journeys",
             "Traditional customer service",
+            "Phone-based support systems",
             "In-person interactions only",
-            "Phone-based support systems"
+            "Digital-first customer journeys"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Digital transformation requires redesigning experiences for online-first interactions."
         },
         {
           id: 14,
           question: "What creates mutual value in partnerships?",
           options: [
-            "Complementary capabilities",
             "Identical services",
-            "Same customer segments",
-            "Identical pricing"
+            "Identical pricing",
+            "Complementary capabilities",
+            "Same customer segments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Partnerships work best when each party brings different strengths."
         },
         {
@@ -221,9 +221,9 @@ Building successful digital alliances:
           question: "What are vendor management frameworks?",
           options: [
             "Strategic sourcing of digital capabilities",
-            "Random vendor selection",
             "Only price negotiations",
-            "Avoiding all vendors"
+            "Avoiding all vendors",
+            "Random vendor selection"
           ],
           correctAnswer: 0,
           explanation: "Correct! Systematic approaches to selecting and managing technology vendors."
@@ -232,12 +232,12 @@ Building successful digital alliances:
           id: 16,
           question: "What is operational process automation?",
           options: [
-            "Streamlining through technology",
+            "Reducing technology use",
             "Adding more manual steps",
-            "Increasing paperwork",
-            "Reducing technology use"
+            "Streamlining through technology",
+            "Increasing paperwork"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Right! Automation eliminates manual tasks for efficiency and accuracy."
         },
         {
@@ -245,9 +245,9 @@ Building successful digital alliances:
           question: "How many transformation components were listed?",
           options: [
             "Four",
+            "Five",
             "Two",
-            "Three",
-            "Five"
+            "Three"
           ],
           correctAnswer: 0,
           explanation: "Correct! Customer experience, operations, business model, and culture."
@@ -256,24 +256,24 @@ Building successful digital alliances:
           id: 18,
           question: "What should partnerships aim to create?",
           options: [
-            "1+1=3 value creation",
-            "1+1=2 simple addition",
+            "Short-term gains only",
             "One party benefiting only",
-            "Short-term gains only"
+            "1+1=3 value creation",
+            "1+1=2 simple addition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! The best partnerships create synergistic value beyond what each could achieve alone."
         },
         {
           id: 19,
           question: "What assesses sustainable advantages?",
           options: [
-            "Digital moat analysis",
             "Profit margin calculation",
+            "Digital moat analysis",
             "Market share measurement",
             "Customer count tracking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Digital moats protect against competition in online markets."
         },
         {
@@ -281,9 +281,9 @@ Building successful digital alliances:
           question: "What is primarily about organizational change?",
           options: [
             "Digital transformation success",
-            "Software installation",
+            "Data migration",
             "Website design",
-            "Data migration"
+            "Software installation"
           ],
           correctAnswer: 0,
           explanation: "Right! Technology changes fail without corresponding organizational adaptation."
@@ -333,24 +333,24 @@ Comprehensive security strategies:
           id: 1,
           question: "What balances simplicity vs scalability?",
           options: [
-            "Monolithic vs Microservices architecture",
-            "Price vs quality decisions",
             "Onsite vs remote teams",
-            "Manual vs automated processes"
+            "Monolithic vs Microservices architecture",
+            "Manual vs automated processes",
+            "Price vs quality decisions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Architecture choices trade off development simplicity against future scalability needs."
         },
         {
           id: 2,
           question: "What can 1-second delay reduce conversions by?",
           options: [
+            "25%",
             "7%",
-            "1%",
             "15%",
-            "25%"
+            "1%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Page speed directly impacts user experience and conversion rates."
         },
         {
@@ -358,9 +358,9 @@ Comprehensive security strategies:
           question: "What is headless commerce?",
           options: [
             "Decoupling frontend from backend systems",
-            "Commerce without customer service",
+            "Automated inventory management",
             "Physical store elimination",
-            "Automated inventory management"
+            "Commerce without customer service"
           ],
           correctAnswer: 0,
           explanation: "Correct! Headless architecture allows separate development of customer-facing interfaces and backend systems."
@@ -370,9 +370,9 @@ Comprehensive security strategies:
           question: "What is defense in depth security?",
           options: [
             "Multiple security layers",
-            "Single strong password",
+            "Occasional security checks",
             "Basic firewall only",
-            "Occasional security checks"
+            "Single strong password"
           ],
           correctAnswer: 0,
           explanation: "Yes! Layered security provides protection even if one layer is compromised."
@@ -382,8 +382,8 @@ Comprehensive security strategies:
           question: "What cloud model provides software as service?",
           options: [
             "SaaS",
-            "PaaS",
             "IaaS",
+            "PaaS",
             "On-premise"
           ],
           correctAnswer: 0,
@@ -393,36 +393,36 @@ Comprehensive security strategies:
           id: 6,
           question: "What is no longer optional for e-commerce?",
           options: [
-            "Mobile-first optimization",
-            "Desktop website version",
+            "Physical store presence",
             "Printed catalogs",
-            "Physical store presence"
+            "Desktop website version",
+            "Mobile-first optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Most e-commerce traffic now comes from mobile devices."
         },
         {
           id: 7,
           question: "What are microservices?",
           options: [
-            "Small, independent service components",
             "Large unified software systems",
             "Manual service processes",
+            "Small, independent service components",
             "External service providers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Microservices architecture uses small, loosely coupled services."
         },
         {
           id: 8,
           question: "What protects payment information?",
           options: [
-            "PCI DSS compliance",
             "Basic encryption only",
-            "Password protection",
-            "Manual verification"
+            "PCI DSS compliance",
+            "Manual verification",
+            "Password protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Yes! Payment Card Industry Data Security Standard ensures secure payment processing."
         },
         {
@@ -430,9 +430,9 @@ Comprehensive security strategies:
           question: "What is middleware in integration?",
           options: [
             "Integration layer connecting systems",
-            "Hardware components",
+            "Marketing automation tools",
             "Customer service department",
-            "Marketing automation tools"
+            "Hardware components"
           ],
           correctAnswer: 0,
           explanation: "Right! Middleware facilitates communication between different software systems."
@@ -441,12 +441,12 @@ Comprehensive security strategies:
           id: 10,
           question: "What affects user experience flow?",
           options: [
-            "Conversion optimization",
             "Server location only",
             "Programming language",
+            "Conversion optimization",
             "Database type"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Optimizing the path from landing to purchase increases conversions."
         },
         {
@@ -454,9 +454,9 @@ Comprehensive security strategies:
           question: "What is GDPR?",
           options: [
             "European data protection regulation",
-            "US tax regulation",
             "International trade agreement",
-            "Technical standard"
+            "Technical standard",
+            "US tax regulation"
           ],
           correctAnswer: 0,
           explanation: "Yes! General Data Protection Regulation governs data privacy in the EU."
@@ -465,24 +465,24 @@ Comprehensive security strategies:
           id: 12,
           question: "What should architecture consider?",
           options: [
-            "Expected growth trajectory",
-            "Only current needs",
             "Competitor choices only",
-            "Latest technology trends"
+            "Expected growth trajectory",
+            "Latest technology trends",
+            "Only current needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Architecture must support both current operations and future growth."
         },
         {
           id: 13,
           question: "What includes page load times?",
           options: [
+            "HR metrics only",
             "Technical performance metrics",
             "Marketing metrics only",
-            "Financial metrics only",
-            "HR metrics only"
+            "Financial metrics only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Technical performance directly impacts user experience and business results."
         },
         {
@@ -490,9 +490,9 @@ Comprehensive security strategies:
           question: "What uses real-time monitoring?",
           options: [
             "Fraud prevention systems",
-            "Inventory management only",
             "Email marketing",
-            "Social media posting"
+            "Social media posting",
+            "Inventory management only"
           ],
           correctAnswer: 0,
           explanation: "Yes! Real-time detection identifies and prevents fraudulent transactions immediately."
@@ -501,24 +501,24 @@ Comprehensive security strategies:
           id: 15,
           question: "What provides infrastructure as service?",
           options: [
-            "IaaS",
             "SaaS",
-            "PaaS",
-            "BaaS"
+            "BaaS",
+            "IaaS",
+            "PaaS"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! IaaS provides virtualized computing resources over the internet."
         },
         {
           id: 16,
           question: "What affects product discovery?",
           options: [
-            "Search functionality quality",
-            "Only product quality",
             "Only pricing",
-            "Only packaging"
+            "Only product quality",
+            "Only packaging",
+            "Search functionality quality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Effective search helps customers find what they want quickly."
         },
         {
@@ -526,9 +526,9 @@ Comprehensive security strategies:
           question: "What is tokenization in payments?",
           options: [
             "Replacing sensitive data with tokens",
-            "Creating cryptocurrency",
+            "Building user profiles",
             "Generating passwords",
-            "Building user profiles"
+            "Creating cryptocurrency"
           ],
           correctAnswer: 0,
           explanation: "Correct! Tokenization replaces card numbers with unique identifiers for security."
@@ -537,12 +537,12 @@ Comprehensive security strategies:
           id: 18,
           question: "What does mobile experience include?",
           options: [
-            "Responsive design and app performance",
-            "Only app downloads",
+            "Only SMS marketing",
             "Only mobile ads",
-            "Only SMS marketing"
+            "Responsive design and app performance",
+            "Only app downloads"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Mobile optimization requires both responsive websites and app performance."
         },
         {
@@ -550,9 +550,9 @@ Comprehensive security strategies:
           question: "What includes DDoS protection?",
           options: [
             "Infrastructure security",
-            "Only payment security",
             "Only data protection",
-            "Only fraud prevention"
+            "Only fraud prevention",
+            "Only payment security"
           ],
           correctAnswer: 0,
           explanation: "Correct! DDoS protection defends against distributed denial of service attacks."
@@ -561,12 +561,12 @@ Comprehensive security strategies:
           id: 20,
           question: "How many performance areas were discussed?",
           options: [
-            "Four",
-            "Two",
             "Three",
-            "Five"
+            "Four",
+            "Five",
+            "Two"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Technical, conversion, mobile, and search performance areas."
         }
       ]
@@ -614,120 +614,120 @@ Strategic approaches to profitable growth:
           id: 1,
           question: "What percentage of companies integrate online/offline data successfully?",
           options: [
-            "30%",
             "60%",
             "80%",
-            "10%"
+            "10%",
+            "30%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! True omnichannel integration remains challenging for most organizations."
         },
         {
           id: 2,
           question: "What is journey mapping?",
           options: [
-            "Understanding touchpoints and pain points",
             "Drawing geographic maps",
+            "Understanding touchpoints and pain points",
             "Planning travel routes",
             "Creating organizational charts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Journey mapping visualizes the complete customer experience across all interactions."
         },
         {
           id: 3,
           question: "What is attribution modeling?",
           options: [
-            "Understanding channel contributions",
             "Creating marketing personas",
-            "Designing logos",
-            "Writing ad copy"
+            "Writing ad copy",
+            "Understanding channel contributions",
+            "Designing logos"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Attribution determines which marketing channels drive conversions."
         },
         {
           id: 4,
           question: "What gets improved according to the principle?",
           options: [
-            "What gets measured",
             "What gets advertised",
             "What gets discounted",
+            "What gets measured",
             "What gets automated"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Measurement enables data-driven optimization of marketing efforts."
         },
         {
           id: 5,
           question: "What is the sustainable LTV:CAC ratio?",
           options: [
-            "3:1 or higher",
             "1:1",
+            "3:1 or higher",
             "5:1 minimum",
             "10:1 required"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Customers should be worth at least three times their acquisition cost."
         },
         {
           id: 6,
           question: "What includes trigger-based campaigns?",
           options: [
-            "Marketing automation",
-            "Manual email sending",
             "Print advertising",
-            "TV commercials"
+            "Marketing automation",
+            "TV commercials",
+            "Manual email sending"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Automation responds to specific customer behaviors with timely communications."
         },
         {
           id: 7,
           question: "What is omnichannel management?",
           options: [
-            "Creating seamless experiences across channels",
-            "Managing only online channels",
             "Focusing on single best channel",
-            "Eliminating offline channels"
+            "Eliminating offline channels",
+            "Creating seamless experiences across channels",
+            "Managing only online channels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Omnichannel provides consistent experience wherever customers interact."
         },
         {
           id: 8,
           question: "What should every marketing initiative have?",
           options: [
-            "Clear KPIs",
-            "Maximum budget",
             "Celebrity endorsements",
-            "Viral potential"
+            "Clear KPIs",
+            "Viral potential",
+            "Maximum budget"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Yes! Key Performance Indicators enable measurement and optimization."
         },
         {
           id: 9,
           question: "What is predictive analytics?",
           options: [
+            "Designing websites",
             "Forecasting customer behavior and value",
-            "Reporting past results only",
             "Creating marketing plans",
-            "Designing websites"
+            "Reporting past results only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Predictive models use historical data to forecast future outcomes."
         },
         {
           id: 10,
           question: "What balances acquisition cost with customer value?",
           options: [
+            "Only revenue tracking",
             "LTV:CAC ratios",
             "Only CAC calculation",
-            "Only revenue tracking",
             "Only traffic counts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! This ratio indicates marketing efficiency and business sustainability."
         },
         {
@@ -735,9 +735,9 @@ Strategic approaches to profitable growth:
           question: "What is systematic experimentation?",
           options: [
             "A/B testing framework",
-            "Random trial and error",
             "Copying competitors",
-            "Following industry trends"
+            "Following industry trends",
+            "Random trial and error"
           ],
           correctAnswer: 0,
           explanation: "Yes! Structured testing methodology for optimizing marketing elements."
@@ -746,12 +746,12 @@ Strategic approaches to profitable growth:
           id: 12,
           question: "What should growth focus on?",
           options: [
-            "Quality, not just quantity",
             "Maximum volume only",
-            "Lowest cost only",
-            "Fastest acquisition"
+            "Quality, not just quantity",
+            "Fastest acquisition",
+            "Lowest cost only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Sustainable growth requires valuable, retained customers, not just signups."
         },
         {
@@ -760,8 +760,8 @@ Strategic approaches to profitable growth:
           options: [
             "Consistent messaging and experience",
             "Separate channel management",
-            "Channel competition",
-            "Channel elimination"
+            "Channel elimination",
+            "Channel competition"
           ],
           correctAnswer: 0,
           explanation: "Correct! Integrated channels provide unified brand experience."
@@ -770,12 +770,12 @@ Strategic approaches to profitable growth:
           id: 14,
           question: "What tracks channel and campaign performance?",
           options: [
-            "ROI measurement",
-            "Only sales totals",
             "Only website traffic",
-            "Only social media likes"
+            "ROI measurement",
+            "Only social media likes",
+            "Only sales totals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Yes! Return on investment analysis guides marketing investment decisions."
         },
         {
@@ -794,60 +794,60 @@ Strategic approaches to profitable growth:
           id: 16,
           question: "What identifies effective acquisition paths?",
           options: [
-            "Channel efficiency analysis",
-            "Only total spending",
+            "Only product quality",
             "Only website design",
-            "Only product quality"
+            "Only total spending",
+            "Channel efficiency analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Analysis identifies which channels deliver customers most efficiently."
         },
         {
           id: 17,
           question: "What is dynamic content and offers?",
           options: [
-            "Personalization engine",
-            "Static website content",
+            "Generic email blasts",
             "Printed brochures",
-            "Generic email blasts"
+            "Personalization engine",
+            "Static website content"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Personalization tailors experiences to individual customer characteristics."
         },
         {
           id: 18,
           question: "What affects acceptable CAC?",
           options: [
-            "Customer retention rates",
             "Only acquisition speed",
             "Only market size",
-            "Only competitor pricing"
+            "Only competitor pricing",
+            "Customer retention rates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Yes! Higher retention justifies higher acquisition costs."
         },
         {
           id: 19,
           question: "What is LTV?",
           options: [
-            "Lifetime Value of customer",
             "Long-Term Vision",
+            "Lifetime Value of customer",
             "Legal Terms Verification",
             "Local Tax Value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! LTV estimates total revenue a customer will generate over their relationship."
         },
         {
           id: 20,
           question: "How many analytics approaches were discussed?",
           options: [
-            "Four",
             "Two",
+            "Four",
             "Three",
             "Five"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! A/B testing, automation, predictive analytics, and ROI measurement."
         }
       ]
@@ -895,36 +895,36 @@ Solving the final delivery challenge:
           id: 1,
           question: "What provides end-to-end supply chain visibility?",
           options: [
+            "Paper documentation",
             "Digital integration",
             "Manual tracking only",
-            "Phone communication",
-            "Paper documentation"
+            "Phone communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Digital systems connect all supply chain participants for complete visibility."
         },
         {
           id: 2,
           question: "What percentage of customers value delivery experience highly?",
           options: [
-            "85%",
-            "50%",
             "30%",
-            "10%"
+            "50%",
+            "10%",
+            "85%"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Delivery experience significantly impacts customer satisfaction and retention."
         },
         {
           id: 3,
           question: "What is ERP system integration?",
           options: [
-            "Unified business process management",
             "Separate department systems",
-            "Manual process coordination",
-            "External consultant management"
+            "External consultant management",
+            "Unified business process management",
+            "Manual process coordination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Enterprise Resource Planning systems integrate core business processes."
         },
         {
@@ -933,8 +933,8 @@ Solving the final delivery challenge:
           options: [
             "Perfect balance of stock levels",
             "Maximum inventory always",
-            "Minimum inventory always",
-            "No inventory management"
+            "No inventory management",
+            "Minimum inventory always"
           ],
           correctAnswer: 0,
           explanation: "Yes! Optimal inventory meets demand without excessive capital investment."
@@ -943,24 +943,24 @@ Solving the final delivery challenge:
           id: 5,
           question: "What uses machine learning for predictions?",
           options: [
+            "Supplier selection",
             "Demand forecasting models",
-            "Inventory counting only",
             "Delivery scheduling",
-            "Supplier selection"
+            "Inventory counting only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Advanced forecasting uses machine learning for more accurate predictions."
         },
         {
           id: 6,
           question: "What are key delivery expectations?",
           options: [
-            "Speed, reliability, flexibility",
-            "Only lowest cost",
+            "Only environmental impact",
             "Only fastest speed",
-            "Only environmental impact"
+            "Speed, reliability, flexibility",
+            "Only lowest cost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Right! Customers expect fast, reliable delivery with scheduling flexibility."
         },
         {
@@ -968,9 +968,9 @@ Solving the final delivery challenge:
           question: "What is IoT implementation in supply chain?",
           options: [
             "Real-time inventory and asset tracking",
+            "Paper record keeping",
             "Internet website only",
-            "Email communication",
-            "Paper record keeping"
+            "Email communication"
           ],
           correctAnswer: 0,
           explanation: "Correct! Internet of Things devices provide real-time tracking of goods and assets."
@@ -979,24 +979,24 @@ Solving the final delivery challenge:
           id: 8,
           question: "What minimizes storage through direct transfer?",
           options: [
-            "Cross-docking strategies",
+            "Manual sorting systems",
             "Long-term warehousing",
-            "Multiple handling points",
-            "Manual sorting systems"
+            "Cross-docking strategies",
+            "Multiple handling points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Cross-docking moves goods directly from receiving to shipping with minimal storage."
         },
         {
           id: 9,
           question: "What is API-first architecture?",
           options: [
-            "Seamless partner system connections",
-            "Isolated system design",
             "Manual data entry points",
-            "Single vendor solutions"
+            "Seamless partner system connections",
+            "Single vendor solutions",
+            "Isolated system design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! API-first design prioritizes system connectivity and integration."
         },
         {
@@ -1015,36 +1015,36 @@ Solving the final delivery challenge:
           id: 11,
           question: "What are route optimization algorithms?",
           options: [
-            "Efficient delivery path planning",
-            "Random delivery routes",
             "Fixed delivery schedules",
-            "Manual route planning"
+            "Manual route planning",
+            "Efficient delivery path planning",
+            "Random delivery routes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Algorithms calculate most efficient delivery routes considering multiple factors."
         },
         {
           id: 12,
           question: "What requires end-to-end visibility?",
           options: [
+            "Only retail stores",
             "Modern supply chains",
             "Only manufacturing",
-            "Only retail stores",
             "Only transportation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Complete visibility from supplier to customer is essential for efficiency."
         },
         {
           id: 13,
           question: "What are blockchain applications?",
           options: [
+            "Marketing tools",
             "Transparent, secure transaction records",
             "Cryptocurrency only",
-            "Marketing tools",
             "Website design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Blockchain provides immutable, transparent records for supply chain transactions."
         },
         {
@@ -1052,9 +1052,9 @@ Solving the final delivery challenge:
           question: "What includes drones and robots?",
           options: [
             "Automated delivery systems",
-            "Manual delivery only",
+            "Postal mail systems",
             "Traditional courier services",
-            "Postal mail systems"
+            "Manual delivery only"
           ],
           correctAnswer: 0,
           explanation: "Yes! Automation technologies are transforming last-mile delivery."
@@ -1076,8 +1076,8 @@ Solving the final delivery challenge:
           question: "What provides scalable flexible capacity?",
           options: [
             "Crowdsourced delivery networks",
-            "Fixed employee fleet only",
             "Single carrier contracts",
+            "Fixed employee fleet only",
             "Manual delivery coordination"
           ],
           correctAnswer: 0,
@@ -1087,12 +1087,12 @@ Solving the final delivery challenge:
           id: 17,
           question: "What connects supply chain components?",
           options: [
-            "Digital technologies",
             "Manual processes only",
-            "Paper documentation",
-            "Phone calls only"
+            "Digital technologies",
+            "Phone calls only",
+            "Paper documentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Technology enables real-time connection and coordination."
         },
         {
@@ -1100,9 +1100,9 @@ Solving the final delivery challenge:
           question: "What is flexible customer scheduling?",
           options: [
             "Delivery window management",
-            "Fixed delivery times only",
+            "Store pickup only",
             "No delivery options",
-            "Store pickup only"
+            "Fixed delivery times only"
           ],
           correctAnswer: 0,
           explanation: "Yes! Customers increasingly expect to choose convenient delivery times."
@@ -1111,24 +1111,24 @@ Solving the final delivery challenge:
           id: 19,
           question: "What ties up capital unnecessarily?",
           options: [
+            "Just-in-time systems",
             "Excessive inventory",
             "Efficient inventory",
-            "Just-in-time systems",
             "Demand forecasting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! Excess inventory represents tied-up capital that could be used elsewhere."
         },
         {
           id: 20,
           question: "How many inventory approaches were discussed?",
           options: [
-            "Four",
-            "Two",
             "Three",
-            "Five"
+            "Five",
+            "Four",
+            "Two"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Right! Demand forecasting, safety stock, cross-docking, and dropshipping."
         }
       ]
@@ -1176,24 +1176,24 @@ Effective data visualization and reporting:
           id: 1,
           question: "How much higher revenue growth do unified data companies achieve?",
           options: [
-            "1.6 times higher",
+            "3 times higher",
             "Equal growth",
             "0.5 times growth",
-            "3 times higher"
+            "1.6 times higher"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Unified customer data significantly impacts business performance."
         },
         {
           id: 2,
           question: "What creates single customer views?",
           options: [
+            "Manual data entry",
             "Identity resolution",
             "Separate data silos",
-            "Manual data entry",
             "Basic reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Identity resolution connects data from different sources to individual customers."
         },
         {
@@ -1201,8 +1201,8 @@ Effective data visualization and reporting:
           question: "What is the 5-second dashboard rule?",
           options: [
             "Understand key message in 5 seconds",
-            "Update every 5 seconds",
             "Display only 5 metrics",
+            "Update every 5 seconds",
             "Take 5 seconds to load"
           ],
           correctAnswer: 0,
@@ -1212,24 +1212,24 @@ Effective data visualization and reporting:
           id: 4,
           question: "What ensures data accuracy and completeness?",
           options: [
-            "Data quality management",
             "Data collection only",
             "Data storage only",
-            "Data deletion"
+            "Data deletion",
+            "Data quality management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Yes! Quality processes maintain reliable data for decision-making."
         },
         {
           id: 5,
           question: "What includes behavioral and predictive clustering?",
           options: [
-            "Customer segmentation models",
-            "Only demographic segmentation",
+            "Random grouping",
             "Only geographic segmentation",
-            "Random grouping"
+            "Customer segmentation models",
+            "Only demographic segmentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Advanced segmentation uses behavior and predicted future actions."
         },
         {
@@ -1237,9 +1237,9 @@ Effective data visualization and reporting:
           question: "What analytical maturity level predicts future events?",
           options: [
             "Predictive analytics",
+            "Prescriptive analytics",
             "Descriptive analytics",
-            "Diagnostic analytics",
-            "Prescriptive analytics"
+            "Diagnostic analytics"
           ],
           correctAnswer: 0,
           explanation: "Right! Predictive analytics forecasts what will happen based on historical patterns."
@@ -1248,84 +1248,84 @@ Effective data visualization and reporting:
           id: 7,
           question: "What is multi-source data integration?",
           options: [
-            "Data collection framework",
             "Single source data only",
+            "Data isolation",
             "Manual data compilation",
-            "Data isolation"
+            "Data collection framework"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Integrating data from multiple sources provides comprehensive insights."
         },
         {
           id: 8,
           question: "What empowers team data access?",
           options: [
-            "Self-service analytics",
-            "IT-only data access",
             "Executive-only reports",
-            "Manual data requests"
+            "IT-only data access",
+            "Manual data requests",
+            "Self-service analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Yes! Self-service tools allow teams to access data without IT dependency."
         },
         {
           id: 9,
           question: "What manages consent and data rights?",
           options: [
-            "Privacy compliance",
-            "Data collection only",
             "Data analysis only",
-            "Data storage only"
+            "Data collection only",
+            "Data storage only",
+            "Privacy compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Compliance ensures legal and ethical data handling."
         },
         {
           id: 10,
           question: "What identifies at-risk customers?",
           options: [
-            "Churn prediction analytics",
+            "Website traffic data",
             "Customer satisfaction surveys",
-            "Sales reports only",
-            "Website traffic data"
+            "Churn prediction analytics",
+            "Sales reports only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Predictive models identify customers likely to stop purchasing."
         },
         {
           id: 11,
           question: "What are strategic performance overviews?",
           options: [
-            "Executive dashboards",
-            "Detailed transaction reports",
+            "Technical system logs",
             "Raw data exports",
-            "Technical system logs"
+            "Executive dashboards",
+            "Detailed transaction reports"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Executive dashboards focus on high-level strategic metrics."
         },
         {
           id: 12,
           question: "What significantly impacts business performance?",
           options: [
+            "Basic spreadsheets",
             "Unified customer data",
-            "Separate data systems",
             "Manual data processes",
-            "Basic spreadsheets"
+            "Separate data systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Integrated data enables better customer understanding and targeting."
         },
         {
           id: 13,
           question: "What are dynamic pricing strategies?",
           options: [
-            "Price optimization algorithms",
-            "Fixed pricing only",
             "Competitor matching only",
-            "Cost-plus pricing"
+            "Cost-plus pricing",
+            "Fixed pricing only",
+            "Price optimization algorithms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Algorithms adjust prices based on demand, competition, and other factors."
         },
         {
@@ -1333,9 +1333,9 @@ Effective data visualization and reporting:
           question: "What provides instant performance tracking?",
           options: [
             "Real-time monitoring",
-            "Monthly reports only",
             "Quarterly reviews",
-            "Annual summaries"
+            "Annual summaries",
+            "Monthly reports only"
           ],
           correctAnswer: 0,
           explanation: "Yes! Real-time systems provide immediate visibility into business performance."
@@ -1344,12 +1344,12 @@ Effective data visualization and reporting:
           id: 15,
           question: "What understands purchase patterns?",
           options: [
-            "Market basket analysis",
             "Individual product analysis",
             "Customer demographics only",
-            "Website design analysis"
+            "Website design analysis",
+            "Market basket analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Market basket analysis identifies products frequently purchased together."
         },
         {
@@ -1357,9 +1357,9 @@ Effective data visualization and reporting:
           question: "What are day-to-day management metrics?",
           options: [
             "Operational reports",
-            "Strategic plans only",
             "Annual forecasts",
-            "Market research"
+            "Market research",
+            "Strategic plans only"
           ],
           correctAnswer: 0,
           explanation: "Right! Operational reports support daily business management decisions."
@@ -1369,8 +1369,8 @@ Effective data visualization and reporting:
           question: "What connects data from different sources?",
           options: [
             "Identity resolution systems",
-            "Separate database systems",
             "Manual spreadsheet compilation",
+            "Separate database systems",
             "Paper record keeping"
           ],
           correctAnswer: 0,
@@ -1380,36 +1380,36 @@ Effective data visualization and reporting:
           id: 18,
           question: "What recommends actions to take?",
           options: [
-            "Prescriptive analytics",
-            "Descriptive analytics",
             "Diagnostic analytics",
+            "Descriptive analytics",
+            "Prescriptive analytics",
             "Predictive analytics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Prescriptive analytics suggests specific actions based on predictions."
         },
         {
           id: 19,
           question: "What adjusts based on demand and competition?",
           options: [
-            "Dynamic pricing algorithms",
-            "Fixed price lists",
             "Manual price setting",
+            "Fixed price lists",
+            "Dynamic pricing algorithms",
             "Cost-based pricing only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Dynamic pricing responds to market conditions in real-time."
         },
         {
           id: 20,
           question: "How many analytical techniques were discussed?",
           options: [
-            "Four",
-            "Two",
             "Three",
-            "Five"
+            "Two",
+            "Five",
+            "Four"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Segmentation, churn prediction, price optimization, and market basket analysis."
         }
       ]
@@ -1469,48 +1469,48 @@ Ensuring e-business resilience:
           id: 2,
           question: "What is privacy by design?",
           options: [
-            "Building compliance into systems from start",
             "Adding compliance after development",
             "Ignoring privacy requirements",
+            "Building compliance into systems from start",
             "Outsourcing compliance completely"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Right! Proactive compliance integration is more effective than retroactive fixes."
         },
         {
           id: 3,
           question: "What is maximum acceptable downtime for critical functions?",
           options: [
-            "4 hours",
             "24 hours",
-            "1 week",
-            "1 month"
+            "4 hours",
+            "1 month",
+            "1 week"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Correct! E-business functions often require near-continuous availability."
         },
         {
           id: 4,
           question: "What is proactive threat monitoring?",
           options: [
-            "Threat intelligence",
-            "Reactive breach response",
             "Ignoring threats",
-            "Basic antivirus only"
+            "Basic antivirus only",
+            "Threat intelligence",
+            "Reactive breach response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Yes! Threat intelligence anticipates and prepares for emerging security risks."
         },
         {
           id: 5,
           question: "What includes GDPR and CCPA compliance?",
           options: [
-            "Data privacy compliance",
-            "Only payment compliance",
+            "Only security compliance",
             "Only trade compliance",
-            "Only security compliance"
+            "Data privacy compliance",
+            "Only payment compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Data privacy regulations govern how businesses handle personal information."
         },
         {
@@ -1529,168 +1529,168 @@ Ensuring e-business resilience:
           id: 7,
           question: "What is vulnerability management?",
           options: [
-            "Systematic identification and remediation",
             "Ignoring vulnerabilities",
+            "Outsourcing all security",
             "Random security checks",
-            "Outsourcing all security"
+            "Systematic identification and remediation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Structured processes for finding and fixing security weaknesses."
         },
         {
           id: 8,
           question: "What is the weakest link in security?",
           options: [
+            "Regulations",
             "People",
             "Technology",
-            "Processes",
-            "Regulations"
+            "Processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Yes! Human error, social engineering, and insider threats are major risks."
         },
         {
           id: 9,
           question: "What is incident response planning?",
           options: [
-            "Preparedness for security breaches",
             "Ignoring incidents",
-            "Only technical response",
-            "Only legal response"
+            "Preparedness for security breaches",
+            "Only legal response",
+            "Only technical response"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Planned responses minimize damage from security incidents."
         },
         {
           id: 10,
           question: "What are consumer protection laws?",
           options: [
-            "E-commerce regulations",
-            "Only business regulations",
             "Only tax laws",
-            "Only employment laws"
+            "Only employment laws",
+            "E-commerce regulations",
+            "Only business regulations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! E-commerce-specific laws protect online consumers' rights."
         },
         {
           id: 11,
           question: "What identifies critical functions and dependencies?",
           options: [
-            "Business impact analysis",
-            "Only revenue analysis",
             "Only cost analysis",
-            "Only customer analysis"
+            "Only customer analysis",
+            "Only revenue analysis",
+            "Business impact analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Yes! BIA determines which business functions are most critical to protect."
         },
         {
           id: 12,
           question: "What should be built into systems from beginning?",
           options: [
+            "Only marketing elements",
             "Compliance requirements",
-            "Only user features",
             "Only technical functions",
-            "Only marketing elements"
+            "Only user features"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Privacy by design reduces compliance costs and risks."
         },
         {
           id: 13,
           question: "What is security awareness training?",
           options: [
-            "Human factor risk reduction",
-            "Only technical training",
             "Only management training",
-            "Only IT department training"
+            "Only technical training",
+            "Only IT department training",
+            "Human factor risk reduction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Educating employees reduces human error security risks."
         },
         {
           id: 14,
           question: "What are system and infrastructure backups?",
           options: [
-            "Redundancy strategies",
             "Single system reliance",
             "Manual processes only",
-            "No backup systems"
+            "No backup systems",
+            "Redundancy strategies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Yes! Redundancy ensures continued operation if primary systems fail."
         },
         {
           id: 15,
           question: "What is PCI DSS compliance?",
           options: [
-            "Payment card security standards",
             "Data privacy regulation",
-            "E-commerce consumer law",
-            "International trade rule"
+            "International trade rule",
+            "Payment card security standards",
+            "E-commerce consumer law"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Payment Card Industry Data Security Standard protects payment information."
         },
         {
           id: 16,
           question: "What minimizes damage from incidents?",
           options: [
-            "Planned responses",
             "Random reactions",
-            "Delayed responses",
-            "Ignored incidents"
+            "Planned responses",
+            "Ignored incidents",
+            "Delayed responses"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Right! Quick, coordinated responses reduce incident impact."
         },
         {
           id: 17,
           question: "What is data backup and system restoration?",
           options: [
-            "Disaster recovery plans",
-            "Only data collection",
             "Only system operation",
+            "Only data collection",
+            "Disaster recovery plans",
             "Only user training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Correct! Recovery plans ensure business can resume after disruptions."
         },
         {
           id: 18,
           question: "What involves cross-border rules?",
           options: [
-            "International trade compliance",
             "Only domestic regulations",
             "Only local laws",
-            "Only industry standards"
+            "Only industry standards",
+            "International trade compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Yes! International e-commerce must comply with multiple countries' regulations."
         },
         {
           id: 19,
           question: "What reduces human error risks?",
           options: [
-            "Security training",
-            "Only technology solutions",
             "Only policy documents",
-            "Only management oversight"
+            "Only technology solutions",
+            "Only management oversight",
+            "Security training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Correct! Educated employees are the first line of defense against many threats."
         },
         {
           id: 20,
           question: "How many compliance areas were discussed?",
           options: [
-            "Four",
-            "Two",
             "Three",
-            "Five"
+            "Two",
+            "Five",
+            "Four"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Right! Data privacy, e-commerce, payment, and international trade compliance."
         }
       ]
@@ -1707,8 +1707,8 @@ Ensuring e-business resilience:
         options: [
           "70%",
           "30%",
-          "50%",
-          "90%"
+          "90%",
+          "50%"
         ],
         correctAnswer: 0,
         explanation: "Correct! Transformation success depends more on people than technology."
@@ -1717,36 +1717,36 @@ Ensuring e-business resilience:
         id: 2,
         question: "What can 1-second delay reduce conversions by?",
         options: [
-          "7%",
           "1%",
           "15%",
+          "7%",
           "25%"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Right! Page speed critically impacts e-commerce performance."
       },
       {
         id: 3,
         question: "What percentage of companies integrate online/offline data successfully?",
         options: [
-          "30%",
           "60%",
           "80%",
-          "10%"
+          "10%",
+          "30%"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Correct! True omnichannel integration remains challenging."
       },
       {
         id: 4,
         question: "What percentage of customers value delivery experience highly?",
         options: [
-          "85%",
           "50%",
-          "30%",
-          "10%"
+          "10%",
+          "85%",
+          "30%"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Yes! Delivery experience significantly impacts satisfaction."
       },
       {
@@ -1754,9 +1754,9 @@ Ensuring e-business resilience:
         question: "How much higher revenue growth do unified data companies achieve?",
         options: [
           "1.6 times higher",
+          "3 times higher",
           "Equal growth",
-          "0.5 times growth",
-          "3 times higher"
+          "0.5 times growth"
         ],
         correctAnswer: 0,
         explanation: "Correct! Integrated customer data drives business performance."
@@ -1766,9 +1766,9 @@ Ensuring e-business resilience:
         question: "What percentage of breaches involve human error?",
         options: [
           "95%",
-          "50%",
           "30%",
-          "10%"
+          "10%",
+          "50%"
         ],
         correctAnswer: 0,
         explanation: "Right! Human factors remain the primary security vulnerability."
@@ -1789,144 +1789,144 @@ Ensuring e-business resilience:
         id: 8,
         question: "What balances simplicity vs scalability?",
         options: [
-          "Monolithic vs Microservices architecture",
           "Price vs quality decisions",
           "Onsite vs remote teams",
+          "Monolithic vs Microservices architecture",
           "Manual vs automated processes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Yes! Architecture choices balance current needs vs future growth."
       },
       {
         id: 9,
         question: "What is journey mapping?",
         options: [
-          "Understanding touchpoints and pain points",
+          "Creating organizational charts",
           "Drawing geographic maps",
           "Planning travel routes",
-          "Creating organizational charts"
+          "Understanding touchpoints and pain points"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Correct! Journey mapping visualizes customer experiences."
       },
       {
         id: 10,
         question: "What provides end-to-end supply chain visibility?",
         options: [
-          "Digital integration",
           "Manual tracking only",
+          "Digital integration",
           "Phone communication",
           "Paper documentation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Right! Digital systems enable complete supply chain transparency."
       },
       {
         id: 11,
         question: "What creates single customer views?",
         options: [
+          "Basic reporting",
           "Identity resolution",
           "Separate data silos",
-          "Manual data entry",
-          "Basic reporting"
+          "Manual data entry"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Correct! Identity resolution unifies customer data."
       },
       {
         id: 12,
         question: "What is privacy by design?",
         options: [
-          "Building compliance into systems from start",
           "Adding compliance after development",
-          "Ignoring privacy requirements",
-          "Outsourcing compliance completely"
+          "Building compliance into systems from start",
+          "Outsourcing compliance completely",
+          "Ignoring privacy requirements"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Yes! Proactive compliance integration is most effective."
       },
       {
         id: 13,
         question: "What does API economy integration involve?",
         options: [
-          "Leveraging third-party services and data",
+          "Manual data entry processes",
           "Building all technology in-house",
           "Avoiding external dependencies",
-          "Manual data entry processes"
+          "Leveraging third-party services and data"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Correct! API integration connects with external services."
       },
       {
         id: 14,
         question: "What is headless commerce?",
         options: [
-          "Decoupling frontend from backend systems",
-          "Commerce without customer service",
           "Physical store elimination",
+          "Commerce without customer service",
+          "Decoupling frontend from backend systems",
           "Automated inventory management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Right! Headless architecture allows independent development."
       },
       {
         id: 15,
         question: "What is attribution modeling?",
         options: [
-          "Understanding channel contributions",
-          "Creating marketing personas",
           "Designing logos",
-          "Writing ad copy"
+          "Understanding channel contributions",
+          "Writing ad copy",
+          "Creating marketing personas"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Correct! Attribution determines marketing effectiveness."
       },
       {
         id: 16,
         question: "What is ERP system integration?",
         options: [
-          "Unified business process management",
+          "External consultant management",
           "Separate department systems",
-          "Manual process coordination",
-          "External consultant management"
+          "Unified business process management",
+          "Manual process coordination"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Yes! ERP systems integrate core business functions."
       },
       {
         id: 17,
         question: "What is the 5-second dashboard rule?",
         options: [
+          "Take 5 seconds to load",
           "Understand key message in 5 seconds",
-          "Update every 5 seconds",
           "Display only 5 metrics",
-          "Take 5 seconds to load"
+          "Update every 5 seconds"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Correct! Effective dashboards communicate instantly."
       },
       {
         id: 18,
         question: "What is maximum acceptable downtime for critical functions?",
         options: [
-          "4 hours",
+          "1 month",
           "24 hours",
-          "1 week",
-          "1 month"
+          "4 hours",
+          "1 week"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Right! E-business requires near-continuous availability."
       },
       {
         id: 19,
         question: "What are data network effects?",
         options: [
-          "More users improve data quality and service",
-          "Data storage costs decreasing",
           "Internet speed improvements",
-          "Data privacy regulations"
+          "Data storage costs decreasing",
+          "Data privacy regulations",
+          "More users improve data quality and service"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Correct! Network effects create competitive advantages."
       },
       {
@@ -1934,9 +1934,9 @@ Ensuring e-business resilience:
         question: "What is defense in depth security?",
         options: [
           "Multiple security layers",
-          "Single strong password",
+          "Occasional security checks",
           "Basic firewall only",
-          "Occasional security checks"
+          "Single strong password"
         ],
         correctAnswer: 0,
         explanation: "Yes! Layered security provides comprehensive protection."
@@ -1945,84 +1945,84 @@ Ensuring e-business resilience:
         id: 21,
         question: "What is the sustainable LTV:CAC ratio?",
         options: [
-          "3:1 or higher",
+          "10:1 required",
           "1:1",
-          "5:1 minimum",
-          "10:1 required"
+          "3:1 or higher",
+          "5:1 minimum"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Correct! Customers should be worth 3x acquisition cost."
       },
       {
         id: 22,
         question: "What uses machine learning for predictions?",
         options: [
-          "Demand forecasting models",
           "Inventory counting only",
-          "Delivery scheduling",
-          "Supplier selection"
+          "Demand forecasting models",
+          "Supplier selection",
+          "Delivery scheduling"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Right! ML improves forecasting accuracy."
       },
       {
         id: 23,
         question: "What ensures data accuracy and completeness?",
         options: [
-          "Data quality management",
           "Data collection only",
           "Data storage only",
-          "Data deletion"
+          "Data deletion",
+          "Data quality management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Correct! Quality processes maintain reliable data."
       },
       {
         id: 24,
         question: "What is proactive threat monitoring?",
         options: [
-          "Threat intelligence",
           "Reactive breach response",
-          "Ignoring threats",
-          "Basic antivirus only"
+          "Threat intelligence",
+          "Basic antivirus only",
+          "Ignoring threats"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Yes! Threat intelligence anticipates emerging risks."
       },
       {
         id: 25,
         question: "What is co-opetition?",
         options: [
-          "Collaborating with competitors strategically",
           "Competing at all costs",
-          "Avoiding all competition",
-          "Merging with competitors"
+          "Merging with competitors",
+          "Collaborating with competitors strategically",
+          "Avoiding all competition"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Correct! Co-opetition recognizes strategic collaboration benefits."
       },
       {
         id: 26,
         question: "What cloud model provides software as service?",
         options: [
-          "SaaS",
-          "PaaS",
           "IaaS",
+          "PaaS",
+          "SaaS",
           "On-premise"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Right! SaaS provides complete software solutions."
       },
       {
         id: 27,
         question: "What gets improved according to the principle?",
         options: [
-          "What gets measured",
           "What gets advertised",
-          "What gets discounted",
-          "What gets automated"
+          "What gets measured",
+          "What gets automated",
+          "What gets discounted"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Correct! Measurement enables optimization."
       },
       {
@@ -2030,9 +2030,9 @@ Ensuring e-business resilience:
         question: "What is IoT implementation in supply chain?",
         options: [
           "Real-time inventory and asset tracking",
-          "Internet website only",
           "Email communication",
-          "Paper record keeping"
+          "Paper record keeping",
+          "Internet website only"
         ],
         correctAnswer: 0,
         explanation: "Yes! IoT provides real-time tracking capabilities."
@@ -2041,24 +2041,24 @@ Ensuring e-business resilience:
         id: 29,
         question: "What includes behavioral and predictive clustering?",
         options: [
+          "Only geographic segmentation",
           "Customer segmentation models",
           "Only demographic segmentation",
-          "Only geographic segmentation",
           "Random grouping"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Correct! Advanced segmentation uses multiple factors."
       },
       {
         id: 30,
         question: "What includes GDPR and CCPA compliance?",
         options: [
-          "Data privacy compliance",
-          "Only payment compliance",
           "Only trade compliance",
-          "Only security compliance"
+          "Only payment compliance",
+          "Only security compliance",
+          "Data privacy compliance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Right! Data privacy regulations govern personal information."
       },
       {
@@ -2077,36 +2077,36 @@ Ensuring e-business resilience:
         id: 32,
         question: "What includes trigger-based campaigns?",
         options: [
-          "Marketing automation",
           "Manual email sending",
-          "Print advertising",
-          "TV commercials"
+          "Marketing automation",
+          "TV commercials",
+          "Print advertising"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Yes! Automation responds to customer behaviors."
       },
       {
         id: 33,
         question: "What is the inventory optimization goal?",
         options: [
-          "Perfect balance of stock levels",
           "Maximum inventory always",
-          "Minimum inventory always",
-          "No inventory management"
+          "Perfect balance of stock levels",
+          "No inventory management",
+          "Minimum inventory always"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Correct! Optimal inventory meets demand efficiently."
       },
       {
         id: 34,
         question: "What analytical maturity level predicts future events?",
         options: [
-          "Predictive analytics",
-          "Descriptive analytics",
           "Diagnostic analytics",
-          "Prescriptive analytics"
+          "Prescriptive analytics",
+          "Descriptive analytics",
+          "Predictive analytics"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Right! Predictive analytics forecasts future outcomes."
       },
       {
@@ -2115,8 +2115,8 @@ Ensuring e-business resilience:
         options: [
           "PCI DSS compliance",
           "Basic encryption only",
-          "Password protection",
-          "Manual verification"
+          "Manual verification",
+          "Password protection"
         ],
         correctAnswer: 0,
         explanation: "Correct! PCI DSS ensures secure payment processing."
@@ -2125,36 +2125,36 @@ Ensuring e-business resilience:
         id: 36,
         question: "What is omnichannel management?",
         options: [
-          "Creating seamless experiences across channels",
           "Managing only online channels",
+          "Creating seamless experiences across channels",
           "Focusing on single best channel",
           "Eliminating offline channels"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Yes! Omnichannel provides consistent customer experiences."
       },
       {
         id: 37,
         question: "What are blockchain applications?",
         options: [
-          "Transparent, secure transaction records",
+          "Website design",
           "Cryptocurrency only",
           "Marketing tools",
-          "Website design"
+          "Transparent, secure transaction records"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Correct! Blockchain provides immutable transaction records."
       },
       {
         id: 38,
         question: "What is multi-source data integration?",
         options: [
-          "Data collection framework",
-          "Single source data only",
           "Manual data compilation",
-          "Data isolation"
+          "Single source data only",
+          "Data isolation",
+          "Data collection framework"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Right! Multiple data sources provide comprehensive insights."
       },
       {
@@ -2162,9 +2162,9 @@ Ensuring e-business resilience:
         question: "What is vulnerability management?",
         options: [
           "Systematic identification and remediation",
-          "Ignoring vulnerabilities",
+          "Outsourcing all security",
           "Random security checks",
-          "Outsourcing all security"
+          "Ignoring vulnerabilities"
         ],
         correctAnswer: 0,
         explanation: "Correct! Structured vulnerability management reduces risks."
@@ -2173,12 +2173,12 @@ Ensuring e-business resilience:
         id: 40,
         question: "What is the weakest link in security?",
         options: [
+          "Processes",
           "People",
           "Technology",
-          "Processes",
           "Regulations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Yes! Human factors remain the primary security risk."
       }
     ]

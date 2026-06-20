@@ -97,8 +97,8 @@ Maintain high-quality practice:
           question: "What defines core consulting offerings?",
           options: [
             "Service Portfolio Design",
-            "Marketing Strategy",
             "Office Location",
+            "Marketing Strategy",
             "Website Design"
           ],
           correctAnswer: 0,
@@ -108,60 +108,60 @@ Maintain high-quality practice:
           id: 2,
           question: "What articulates unique benefits to clients?",
           options: [
-            "Value Proposition Creation",
-            "Pricing Strategy",
+            "Risk Management",
             "Business Structure",
-            "Risk Management"
+            "Pricing Strategy",
+            "Value Proposition Creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Value proposition clearly communicates what makes your consulting services unique and valuable."
         },
         {
           id: 3,
           question: "What builds professional identity?",
           options: [
-            "Brand Development",
-            "Client Scheduling",
             "Office Furniture",
-            "Email Setup"
+            "Client Scheduling",
+            "Email Setup",
+            "Brand Development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Brand development creates a professional identity that clients recognize and trust."
         },
         {
           id: 4,
           question: "What attracts clients through educational content?",
           options: [
+            "Direct Mail",
             "Content Marketing",
             "Cold Calling",
-            "Direct Mail",
             "Telemarketing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Content marketing demonstrates expertise and builds trust by providing valuable educational information."
         },
         {
           id: 5,
           question: "What optimizes consultant productivity?",
           options: [
-            "Scheduling and Time Management",
+            "Fewer Clients",
             "More Office Space",
             "Higher Fees",
-            "Fewer Clients"
+            "Scheduling and Time Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective scheduling and time management maximize productivity while maintaining service quality."
         },
         {
           id: 6,
           question: "What protects client privacy?",
           options: [
-            "Confidentiality Protocols",
             "Marketing Materials",
             "Business Cards",
-            "Office Decor"
+            "Office Decor",
+            "Confidentiality Protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Confidentiality protocols ensure client information remains private and secure."
         },
         {
@@ -180,12 +180,12 @@ Maintain high-quality practice:
           id: 8,
           question: "What implements billing and accounting?",
           options: [
-            "Financial Management Systems",
-            "Client Assessment Tools",
+            "Networking Events",
             "Educational Resources",
-            "Networking Events"
+            "Client Assessment Tools",
+            "Financial Management Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Financial management ensures accurate billing, proper accounting, and sustainable business operations."
         },
         {
@@ -204,36 +204,36 @@ Maintain high-quality practice:
           id: 10,
           question: "What adheres to ethical standards?",
           options: [
-            "Code of Ethics Implementation",
+            "Office Hours",
             "Marketing Campaigns",
-            "Fee Structures",
-            "Office Hours"
+            "Code of Ethics Implementation",
+            "Fee Structures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Implementing a code of ethics ensures professional conduct and client protection."
         },
         {
           id: 11,
           question: "What establishes clear client communication?",
           options: [
+            "Website Color Scheme",
             "Communication Systems Design",
             "Office Location Choice",
-            "Business Name Selection",
-            "Website Color Scheme"
+            "Business Name Selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Communication systems ensure clients receive timely, clear information and support."
         },
         {
           id: 12,
           question: "What measures client satisfaction?",
           options: [
-            "Feedback Collection Systems",
+            "Office Size",
             "Client Numbers Only",
-            "Revenue Amounts",
-            "Office Size"
+            "Feedback Collection Systems",
+            "Revenue Amounts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Feedback collection provides valuable insights for service improvement and client retention."
         },
         {
@@ -242,8 +242,8 @@ Maintain high-quality practice:
           options: [
             "Continuity Planning",
             "Spontaneous Service Changes",
-            "Irregular Scheduling",
-            "Variable Pricing"
+            "Variable Pricing",
+            "Irregular Scheduling"
           ],
           correctAnswer: 0,
           explanation: "Continuity planning maintains consistent, reliable service delivery across all clients."
@@ -252,72 +252,72 @@ Maintain high-quality practice:
           id: 14,
           question: "What obtains professional coverage?",
           options: [
-            "Insurance Requirements Fulfillment",
-            "Marketing Materials Creation",
+            "Networking Attendance",
             "Website Development",
-            "Networking Attendance"
+            "Marketing Materials Creation",
+            "Insurance Requirements Fulfillment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Professional insurance protects against liability and business risks."
         },
         {
           id: 15,
           question: "What creates regular client updates?",
           options: [
-            "Progress Reporting Systems",
             "Occasional Phone Calls",
-            "Yearly Newsletters",
-            "Social Media Updates"
+            "Social Media Updates",
+            "Progress Reporting Systems",
+            "Yearly Newsletters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Progress reporting keeps clients informed and engaged in the consulting process."
         },
         {
           id: 16,
           question: "What identifies and mitigates risks?",
           options: [
-            "Risk Management Planning",
-            "Ignoring Potential Problems",
+            "Client Number Limiting",
             "Reactive Problem Solving",
-            "Client Number Limiting"
+            "Risk Management Planning",
+            "Ignoring Potential Problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Risk management anticipates and addresses potential business challenges proactively."
         },
         {
           id: 17,
           question: "What joins professional communities?",
           options: [
-            "Professional Memberships",
             "Social Media Following",
+            "Professional Memberships",
             "Client Friendships",
             "Family Connections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Professional memberships provide resources, networking, and credibility."
         },
         {
           id: 18,
           question: "What adapts services to individual needs?",
           options: [
+            "One-Size-Fits-All Approach",
             "Service Customization",
             "Standard Package Only",
-            "One-Size-Fits-All Approach",
             "Fixed Procedures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Service customization tailors consulting to each client's unique situation and goals."
         },
         {
           id: 19,
           question: "What implements service quality monitoring?",
           options: [
-            "Quality Assurance Systems",
-            "Client Complaints Only",
             "Revenue Tracking",
-            "Time Management"
+            "Client Complaints Only",
+            "Time Management",
+            "Quality Assurance Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Quality assurance systems continuously monitor and improve service delivery."
         },
         {
@@ -325,8 +325,8 @@ Maintain high-quality practice:
           question: "What commits to skill enhancement?",
           options: [
             "Continuing Education Planning",
-            "Initial Training Only",
             "Client Feedback Ignoring",
+            "Initial Training Only",
             "Industry Trend Neglect"
           ],
           correctAnswer: 0,
@@ -407,9 +407,9 @@ Maintain professional standards:
           question: "What integrates multiple student data types?",
           options: [
             "Holistic Student Profiling",
+            "Grade Review Alone",
             "Single Test Administration",
-            "Parent Interview Only",
-            "Grade Review Alone"
+            "Parent Interview Only"
           ],
           correctAnswer: 0,
           explanation: "Holistic profiling combines academic, social, emotional, and cognitive information for complete understanding."
@@ -418,36 +418,36 @@ Maintain professional standards:
           id: 2,
           question: "What identifies learning preferences?",
           options: [
-            "Learning Style Analysis",
-            "Standardized Testing",
             "Classroom Observation",
-            "Parent Questionnaire"
+            "Standardized Testing",
+            "Parent Questionnaire",
+            "Learning Style Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Learning style analysis reveals how students best receive, process, and retain information."
         },
         {
           id: 3,
           question: "What creates advanced pathways for gifted students?",
           options: [
+            "Social Promotion",
             "Academic Acceleration Planning",
-            "Standard Curriculum Only",
             "Grade Repetition",
-            "Social Promotion"
+            "Standard Curriculum Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Acceleration planning develops appropriate challenges for students who need advanced learning opportunities."
         },
         {
           id: 4,
           question: "What implements organization strategies?",
           options: [
-            "Executive Function Coaching",
             "Memory Drills Only",
             "Speed Reading Training",
+            "Executive Function Coaching",
             "Math Tutoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Executive function coaching helps students develop planning, organization, and self-regulation skills."
         },
         {
@@ -468,8 +468,8 @@ Maintain professional standards:
           options: [
             "Parent Coaching Models",
             "Parent Exclusion",
-            "Teacher Directives Only",
-            "Administrative Orders"
+            "Administrative Orders",
+            "Teacher Directives Only"
           ],
           correctAnswer: 0,
           explanation: "Parent coaching empowers families to effectively support their children's educational journeys."
@@ -478,60 +478,60 @@ Maintain professional standards:
           id: 7,
           question: "What chooses appropriate assessment instruments?",
           options: [
-            "Assessment Tool Selection",
             "Using Any Available Test",
+            "Online Quizzes Exclusively",
             "Standardized Tests Only",
-            "Online Quizzes Exclusively"
+            "Assessment Tool Selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Careful tool selection ensures assessments match specific evaluation needs and questions."
         },
         {
           id: 8,
           question: "What tracks intervention effectiveness?",
           options: [
-            "Progress Monitoring Systems",
-            "Initial Assessment Only",
             "Year-End Reviews",
-            "Parent Satisfaction Surveys"
+            "Progress Monitoring Systems",
+            "Parent Satisfaction Surveys",
+            "Initial Assessment Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Progress monitoring provides ongoing data about whether interventions are working."
         },
         {
           id: 9,
           question: "What ensures assessment understanding?",
           options: [
-            "Informed Consent Procedures",
             "Assessment Administration Only",
             "Result Reporting",
+            "Informed Consent Procedures",
             "Bill Collection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Informed consent ensures clients understand assessment purposes, processes, and implications."
         },
         {
           id: 10,
           question: "What assesses self-awareness skills?",
           options: [
-            "Emotional Intelligence Measurement",
-            "Academic Testing",
+            "Grade Point Average",
             "Attendance Records",
-            "Grade Point Average"
+            "Emotional Intelligence Measurement",
+            "Academic Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Emotional intelligence assessment evaluates self-awareness, self-regulation, and social skills."
         },
         {
           id: 11,
           question: "What designs skill-building interventions?",
           options: [
-            "Remediation Program Design",
-            "Grade Advancement Only",
             "Social Promotion",
-            "Test Exemption"
+            "Grade Advancement Only",
+            "Test Exemption",
+            "Remediation Program Design"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Remediation programs systematically address specific skill gaps or learning challenges."
         },
         {
@@ -539,9 +539,9 @@ Maintain professional standards:
           question: "What develops interpersonal competency?",
           options: [
             "Social Skills Development Programs",
-            "Academic Tutoring Only",
             "Sports Participation",
-            "Club Membership"
+            "Club Membership",
+            "Academic Tutoring Only"
           ],
           correctAnswer: 0,
           explanation: "Social skills programs teach and practice interpersonal communication and relationship building."
@@ -550,36 +550,36 @@ Maintain professional standards:
           id: 13,
           question: "What considers family cultural values?",
           options: [
-            "Cultural Competence in Family Work",
-            "Standard Approaches Only",
             "Ignoring Cultural Differences",
-            "Assimilation Expectations"
+            "Assimilation Expectations",
+            "Standard Approaches Only",
+            "Cultural Competence in Family Work"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural competence respects and integrates family values into educational planning."
         },
         {
           id: 14,
           question: "What translates results into insights?",
           options: [
-            "Data Interpretation Skills",
-            "Test Administration",
             "Score Reporting",
-            "Assessment Scheduling"
+            "Data Interpretation Skills",
+            "Assessment Scheduling",
+            "Test Administration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Data interpretation transforms assessment numbers into meaningful, actionable understanding."
         },
         {
           id: 15,
           question: "What applies evidence-based approaches?",
           options: [
+            "Popular Trends Following",
             "Research-Informed Practice",
-            "Personal Opinions Only",
             "Traditional Methods Exclusively",
-            "Popular Trends Following"
+            "Personal Opinions Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Research-informed practice uses approaches validated by educational research and evidence."
         },
         {
@@ -587,9 +587,9 @@ Maintain professional standards:
           question: "What ensures cultural fairness?",
           options: [
             "Cultural Fairness in Testing",
+            "Majority Culture Assumptions",
             "Standardized Tests Only",
-            "English-Only Assessments",
-            "Majority Culture Assumptions"
+            "English-Only Assessments"
           ],
           correctAnswer: 0,
           explanation: "Cultural fairness considers whether assessments are appropriate for diverse backgrounds."
@@ -598,12 +598,12 @@ Maintain professional standards:
           id: 17,
           question: "What creates coping strategies for pressure?",
           options: [
-            "Anxiety and Stress Management",
-            "Increased Workload",
             "Pressure Ignoring",
-            "Avoidance Techniques"
+            "Increased Workload",
+            "Avoidance Techniques",
+            "Anxiety and Stress Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stress management develops healthy coping strategies for academic and personal pressures."
         },
         {
@@ -622,24 +622,24 @@ Maintain professional standards:
           id: 19,
           question: "What communicates results sensitively?",
           options: [
-            "Feedback Delivery Skills",
             "Score Reporting Only",
+            "Direct Criticism",
             "Technical Jargon Use",
-            "Direct Criticism"
+            "Feedback Delivery Skills"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective feedback delivery communicates assessment results clearly and constructively."
         },
         {
           id: 20,
           question: "What modifies approaches based on data?",
           options: [
-            "Intervention Adjustment",
-            "Fixed Protocol Following",
             "Initial Plan Adherence",
-            "Standard Procedure Use"
+            "Standard Procedure Use",
+            "Intervention Adjustment",
+            "Fixed Protocol Following"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Intervention adjustment modifies support strategies based on ongoing progress data."
         }
       ]
@@ -727,12 +727,12 @@ Successful integration approaches:
           id: 1,
           question: "What assesses learning platforms and applications?",
           options: [
-            "Educational Software Evaluation",
+            "Brand Name Recognition",
             "Price Comparison Only",
-            "Popularity Ranking",
-            "Brand Name Recognition"
+            "Educational Software Evaluation",
+            "Popularity Ranking"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Software evaluation examines functionality, appropriateness, and effectiveness for educational goals."
         },
         {
@@ -740,9 +740,9 @@ Successful integration approaches:
           question: "What ensures data protection compliance?",
           options: [
             "Privacy and Security Compliance",
-            "Software Features Only",
+            "Cost Considerations",
             "User Popularity",
-            "Cost Considerations"
+            "Software Features Only"
           ],
           correctAnswer: 0,
           explanation: "Privacy compliance ensures technology meets legal requirements for protecting client data."
@@ -751,24 +751,24 @@ Successful integration approaches:
           id: 3,
           question: "What implements platforms for course delivery?",
           options: [
+            "Social Media",
             "Learning Management Systems",
             "Email Systems",
-            "Social Media",
             "Text Messaging"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Learning management systems organize and deliver educational content and track progress."
         },
         {
           id: 4,
           question: "What creates engaging online learning spaces?",
           options: [
-            "Virtual Classroom Setup",
-            "Website Creation",
             "Blog Development",
-            "Email Lists"
+            "Website Creation",
+            "Email Lists",
+            "Virtual Classroom Setup"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Virtual classrooms provide interactive online environments for teaching and learning."
         },
         {
@@ -776,9 +776,9 @@ Successful integration approaches:
           question: "What extracts insights from learning analytics?",
           options: [
             "Educational Data Mining",
-            "Test Score Recording",
             "Attendance Tracking",
-            "Grade Calculation"
+            "Grade Calculation",
+            "Test Score Recording"
           ],
           correctAnswer: 0,
           explanation: "Data mining discovers patterns and insights in educational performance data."
@@ -787,24 +787,24 @@ Successful integration approaches:
           id: 6,
           question: "What visualizes student progress data?",
           options: [
-            "Performance Dashboard Creation",
-            "Spreadsheet Maintenance",
             "Paper Records",
-            "Memory Recall"
+            "Memory Recall",
+            "Performance Dashboard Creation",
+            "Spreadsheet Maintenance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dashboards present complex data in visual, easily understood formats."
         },
         {
           id: 7,
           question: "What conducts effective remote consultations?",
           options: [
-            "Video Conferencing Systems",
-            "Telephone Calls Only",
+            "Postal Mail",
             "Email Communication",
-            "Postal Mail"
+            "Telephone Calls Only",
+            "Video Conferencing Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Video conferencing allows face-to-face interaction with remote clients."
         },
         {
@@ -812,9 +812,9 @@ Successful integration approaches:
           question: "What maintains confidential digital communication?",
           options: [
             "Secure Messaging Platforms",
-            "Public Social Media",
             "Open Email Systems",
-            "Text Messages"
+            "Text Messages",
+            "Public Social Media"
           ],
           correctAnswer: 0,
           explanation: "Secure messaging protects confidential client communications from unauthorized access."
@@ -823,48 +823,48 @@ Successful integration approaches:
           id: 9,
           question: "What assists students with reading challenges?",
           options: [
+            "Faster Reading",
             "Text-to-Speech Tools",
-            "Louder Reading",
             "Smaller Text",
-            "Faster Reading"
+            "Louder Reading"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Text-to-speech technology reads digital text aloud, supporting reading comprehension."
         },
         {
           id: 10,
           question: "What implements technology gradually?",
           options: [
-            "Phased Rollout Planning",
-            "Immediate Full Implementation",
             "Random Tool Introduction",
-            "Client-Driven Adoption"
+            "Phased Rollout Planning",
+            "Client-Driven Adoption",
+            "Immediate Full Implementation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Phased rollout allows systematic implementation and adjustment of new technology."
         },
         {
           id: 11,
           question: "What evaluates technology return on investment?",
           options: [
-            "Cost-Benefit Analysis",
             "Price Tag Only",
-            "Popularity Contest",
-            "Brand Loyalty"
+            "Cost-Benefit Analysis",
+            "Brand Loyalty",
+            "Popularity Contest"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cost-benefit analysis compares technology costs to expected benefits and improvements."
         },
         {
           id: 12,
           question: "What develops engaging digital materials?",
           options: [
-            "Interactive Content Creation",
             "Printed Worksheets",
+            "Interactive Content Creation",
             "Textbook Reading",
             "Lecture Notes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Interactive content engages learners through multimedia and participation."
         },
         {
@@ -872,9 +872,9 @@ Successful integration approaches:
           question: "What identifies students needing intervention?",
           options: [
             "Predictive Analytics Application",
-            "Teacher Observation Only",
             "Parent Complaints",
-            "Test Failure"
+            "Test Failure",
+            "Teacher Observation Only"
           ],
           correctAnswer: 0,
           explanation: "Predictive analytics identifies at-risk students before problems become severe."
@@ -884,9 +884,9 @@ Successful integration approaches:
           question: "What creates family information access?",
           options: [
             "Parent Portal Implementation",
-            "Phone Calls Only",
+            "Parent-Teacher Conferences",
             "Report Cards",
-            "Parent-Teacher Conferences"
+            "Phone Calls Only"
           ],
           correctAnswer: 0,
           explanation: "Parent portals provide secure online access to student information and progress."
@@ -895,72 +895,72 @@ Successful integration approaches:
           id: 15,
           question: "What supports students with writing difficulties?",
           options: [
+            "Dictation to Others",
             "Speech Recognition Software",
-            "Typing Classes",
             "Handwriting Practice",
-            "Dictation to Others"
+            "Typing Classes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Speech recognition allows students to dictate text, supporting writing challenges."
         },
         {
           id: 16,
           question: "What educates on tool use?",
           options: [
+            "Manual Reading",
             "Training Program Development",
             "Trial and Error Only",
-            "Online Tutorials Only",
-            "Manual Reading"
+            "Online Tutorials Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Training programs systematically teach effective technology use to consultants and clients."
         },
         {
           id: 17,
           question: "What ensures tool integration with systems?",
           options: [
-            "Compatibility Assessment",
-            "Standalone Tool Use",
             "Manual Data Transfer",
+            "Standalone Tool Use",
+            "Compatibility Assessment",
             "Duplicate Entry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Compatibility assessment ensures new technology works with existing systems and workflows."
         },
         {
           id: 18,
           question: "What facilitates visual explanation?",
           options: [
-            "Digital Whiteboard Integration",
-            "Verbal Description Only",
             "Printed Diagrams",
-            "Hand Gestures"
+            "Digital Whiteboard Integration",
+            "Hand Gestures",
+            "Verbal Description Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Digital whiteboards allow visual demonstration and collaborative drawing online."
         },
         {
           id: 19,
           question: "What helps students manage tasks?",
           options: [
-            "Organization App Implementation",
             "Paper Planners Only",
+            "Parent Reminders",
             "Memory Reliance",
-            "Parent Reminders"
+            "Organization App Implementation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Organization apps help students track assignments, deadlines, and responsibilities digitally."
         },
         {
           id: 20,
           question: "What addresses technology issues efficiently?",
           options: [
-            "Troubleshooting Protocol Creation",
-            "Ignoring Problems",
             "Client Self-Solving",
-            "Tool Abandonment"
+            "Tool Abandonment",
+            "Ignoring Problems",
+            "Troubleshooting Protocol Creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Troubleshooting protocols provide systematic approaches to resolving technology problems."
         }
       ]
@@ -1048,12 +1048,12 @@ Work toward educational improvement:
           id: 1,
           question: "What understands public and private school options?",
           options: [
-            "K-12 System Navigation",
-            "College Selection Only",
             "Preschool Options",
+            "College Selection Only",
+            "K-12 System Navigation",
             "Adult Education"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "K-12 navigation involves understanding different school types and their admission processes."
         },
         {
@@ -1062,8 +1062,8 @@ Work toward educational improvement:
           options: [
             "Special Education Systems Navigation",
             "Regular Education Only",
-            "Gifted Programs",
-            "Sports Teams"
+            "Sports Teams",
+            "Gifted Programs"
           ],
           correctAnswer: 0,
           explanation: "Special education navigation involves understanding and accessing IEP services and rights."
@@ -1072,84 +1072,84 @@ Work toward educational improvement:
           id: 3,
           question: "What understands laws affecting all students?",
           options: [
-            "Federal Education Policy",
-            "School Rules Only",
             "Teacher Preferences",
-            "Parent Expectations"
+            "Parent Expectations",
+            "Federal Education Policy",
+            "School Rules Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Federal policy includes laws like IDEA and ADA that affect educational rights nationwide."
         },
         {
           id: 4,
           question: "What represents specific student needs?",
           options: [
-            "Individual Student Advocacy",
             "System Change Only",
+            "Individual Student Advocacy",
             "Policy Development",
             "School Administration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Individual advocacy focuses on specific student needs within existing systems."
         },
         {
           id: 5,
           question: "What prepares for special education meetings?",
           options: [
+            "School Plays",
             "IEP Meeting Preparation",
             "Regular Parent Conferences",
-            "Sports Events",
-            "School Plays"
+            "Sports Events"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IEP preparation involves gathering data, setting goals, and planning meeting strategies."
         },
         {
           id: 6,
           question: "What identifies local support services?",
           options: [
-            "Community Resource Mapping",
+            "Trial and Error",
             "Online Searches Only",
-            "Word of Mouth",
-            "Trial and Error"
+            "Community Resource Mapping",
+            "Word of Mouth"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Resource mapping systematically identifies and evaluates local educational support services."
         },
         {
           id: 7,
           question: "What works to improve policies?",
           options: [
-            "Systemic Change Advocacy",
             "Individual Cases Only",
-            "Complaint Filing",
-            "Problem Ignoring"
+            "Problem Ignoring",
+            "Systemic Change Advocacy",
+            "Complaint Filing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Systemic advocacy aims to improve policies and practices affecting many students."
         },
         {
           id: 8,
           question: "What supports productive school conversations?",
           options: [
-            "Parent-Teacher Conference Facilitation",
-            "Teacher Directives",
             "Parent Demands",
-            "Student Avoidance"
+            "Student Avoidance",
+            "Teacher Directives",
+            "Parent-Teacher Conference Facilitation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Conference facilitation helps create productive dialogue between families and educators."
         },
         {
           id: 9,
           question: "What accesses quality academic assistance?",
           options: [
-            "Tutoring and Academic Support Access",
+            "Summer School",
             "Independent Study Only",
-            "Class Repetition",
-            "Summer School"
+            "Tutoring and Academic Support Access",
+            "Class Repetition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Academic support access connects students with appropriate tutoring and learning assistance."
         },
         {
@@ -1157,8 +1157,8 @@ Work toward educational improvement:
           question: "What evaluates policy impacts?",
           options: [
             "Policy Analysis Skills",
-            "Policy Ignorance",
             "Assumption Making",
+            "Policy Ignorance",
             "Anecdotal Evidence"
           ],
           correctAnswer: 0,
@@ -1168,12 +1168,12 @@ Work toward educational improvement:
           id: 11,
           question: "What understands college and vocational systems?",
           options: [
-            "Higher Education Pathways",
-            "High School Only",
             "Elementary School",
-            "Preschool"
+            "Preschool",
+            "Higher Education Pathways",
+            "High School Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Higher education navigation involves understanding different post-secondary options and requirements."
         },
         {
@@ -1182,8 +1182,8 @@ Work toward educational improvement:
           options: [
             "504 Plan Meeting Navigation",
             "Medical Treatment",
-            "Counseling Sessions",
-            "Sports Participation"
+            "Sports Participation",
+            "Counseling Sessions"
           ],
           correctAnswer: 0,
           explanation: "504 plans provide accommodations for students with disabilities in general education."
@@ -1192,60 +1192,60 @@ Work toward educational improvement:
           id: 13,
           question: "What teaches families to advocate effectively?",
           options: [
-            "Parent Empowerment Strategies",
+            "System Avoidance",
             "Parent Dependency",
             "Consultant-Only Advocacy",
-            "System Avoidance"
+            "Parent Empowerment Strategies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Parent empowerment teaches families to advocate for their children independently."
         },
         {
           id: 14,
           question: "What prepares for admission interviews?",
           options: [
-            "School Admission Interview Preparation",
+            "Memorized Scripts",
             "Casual Conversation",
-            "Improvisation Only",
-            "Memorized Scripts"
+            "School Admission Interview Preparation",
+            "Improvisation Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Interview preparation helps students present themselves effectively during school admissions."
         },
         {
           id: 15,
           question: "What links to counseling services?",
           options: [
-            "Mental Health Services Connection",
             "Academic Tutoring Only",
-            "Medical Treatment",
-            "Discipline Systems"
+            "Discipline Systems",
+            "Mental Health Services Connection",
+            "Medical Treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Mental health connection ensures students access appropriate emotional and psychological support."
         },
         {
           id: 16,
           question: "What uses evidence to suggest improvements?",
           options: [
-            "Research-Based Recommendations",
-            "Personal Opinions",
             "Popular Trends",
-            "Traditional Practices"
+            "Research-Based Recommendations",
+            "Traditional Practices",
+            "Personal Opinions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Research-based recommendations use evidence from educational research to suggest changes."
         },
         {
           id: 17,
           question: "What understands local requirements?",
           options: [
-            "State Education Regulations",
+            "Teacher Preferences",
             "National Standards Only",
-            "School Traditions",
-            "Teacher Preferences"
+            "State Education Regulations",
+            "School Traditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "State regulations vary and affect educational requirements, testing, and graduation."
         },
         {
@@ -1253,9 +1253,9 @@ Work toward educational improvement:
           question: "What works with educators as partners?",
           options: [
             "Professional Collaboration Advocacy",
-            "Adversarial Approaches",
+            "Administrative Bypassing",
             "Educator Avoidance",
-            "Administrative Bypassing"
+            "Adversarial Approaches"
           ],
           correctAnswer: 0,
           explanation: "Collaborative advocacy builds partnerships with educators to support student success."
@@ -1264,24 +1264,24 @@ Work toward educational improvement:
           id: 19,
           question: "What advocates during disciplinary proceedings?",
           options: [
-            "Disciplinary Hearing Support",
-            "Automatic Punishment",
             "Problem Ignoring",
-            "School Avoidance"
+            "School Avoidance",
+            "Disciplinary Hearing Support",
+            "Automatic Punishment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Disciplinary hearing support ensures fair treatment and appropriate consequences."
         },
         {
           id: 20,
           question: "What finds enrichment activities?",
           options: [
+            "Screen Time",
             "Extracurricular Opportunity Identification",
-            "Academic Focus Only",
             "Home Isolation",
-            "Screen Time"
+            "Academic Focus Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Extracurricular identification connects students with activities that develop interests and skills."
         }
       ]
@@ -1380,12 +1380,12 @@ Support critical transitions:
           id: 1,
           question: "What supports students with reading challenges?",
           options: [
-            "Dyslexia Intervention Strategies",
             "Math Tutoring",
             "Sports Participation",
+            "Dyslexia Intervention Strategies",
             "Art Classes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dyslexia interventions use multisensory approaches to support reading development."
         },
         {
@@ -1404,24 +1404,24 @@ Support critical transitions:
           id: 3,
           question: "What supports English Language Learners?",
           options: [
-            "ELL Academic Support",
+            "Assimilation Pressure",
             "English-Only Instruction",
             "Language Ignoring",
-            "Assimilation Pressure"
+            "ELL Academic Support"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ELL support provides appropriate language development while maintaining academic progress."
         },
         {
           id: 4,
           question: "What understands poverty's impact on learning?",
           options: [
+            "Resource Abundance Assumption",
             "Poverty Impact Understanding",
             "Economic Ignorance",
-            "Equal Treatment Assumption",
-            "Resource Abundance Assumption"
+            "Equal Treatment Assumption"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Understanding poverty's impact helps address barriers to educational success."
         },
         {
@@ -1429,9 +1429,9 @@ Support critical transitions:
           question: "What accommodates anxiety and depression?",
           options: [
             "Mental Health Academic Accommodations",
-            "Academic Pressure Increase",
+            "Discipline for Absences",
             "Ignoring Symptoms",
-            "Discipline for Absences"
+            "Academic Pressure Increase"
           ],
           correctAnswer: 0,
           explanation: "Mental health accommodations support academic success while addressing psychological needs."
@@ -1440,24 +1440,24 @@ Support critical transitions:
           id: 6,
           question: "What creates accessible learning environments?",
           options: [
-            "Universal Design for Learning",
-            "One-Size-Fits-All Approach",
             "Retrofit Accommodations",
-            "Separate Special Programs"
+            "Universal Design for Learning",
+            "Separate Special Programs",
+            "One-Size-Fits-All Approach"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Universal design creates learning environments accessible to all students from the beginning."
         },
         {
           id: 7,
           question: "What supports mathematical learning challenges?",
           options: [
-            "Dyscalculia Support Strategies",
             "More Homework",
+            "Dyscalculia Support Strategies",
             "Tutoring Avoidance",
             "Calculator Prohibition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Dyscalculia support uses concrete, multisensory approaches to mathematical concepts."
         },
         {
@@ -1465,9 +1465,9 @@ Support critical transitions:
           question: "What adapts curriculum for advanced learners?",
           options: [
             "Differentiation Strategies",
-            "Standard Curriculum Only",
             "Extra Homework",
-            "Independent Study"
+            "Independent Study",
+            "Standard Curriculum Only"
           ],
           correctAnswer: 0,
           explanation: "Differentiation adjusts content, process, and product to meet advanced learners' needs."
@@ -1477,9 +1477,9 @@ Support critical transitions:
           question: "What understands diverse cultural perspectives?",
           options: [
             "Cultural Competence Development",
-            "Cultural Assumptions",
+            "Cultural Ignorance",
             "Majority Culture Focus",
-            "Cultural Ignorance"
+            "Cultural Assumptions"
           ],
           correctAnswer: 0,
           explanation: "Cultural competence involves understanding and respecting diverse cultural backgrounds."
@@ -1490,8 +1490,8 @@ Support critical transitions:
           options: [
             "Resource Access Advocacy",
             "Resource Hoarding",
-            "Unequal Distribution",
-            "Privilege Maintenance"
+            "Privilege Maintenance",
+            "Unequal Distribution"
           ],
           correctAnswer: 0,
           explanation: "Resource advocacy ensures all students have access to necessary educational resources."
@@ -1501,9 +1501,9 @@ Support critical transitions:
           question: "What addresses trauma's impact on learning?",
           options: [
             "Trauma-Informed Practice",
+            "Behavior Punishment",
             "Trauma Ignoring",
-            "Academic Pressure",
-            "Behavior Punishment"
+            "Academic Pressure"
           ],
           correctAnswer: 0,
           explanation: "Trauma-informed practice understands how trauma affects learning and behavior."
@@ -1512,12 +1512,12 @@ Support critical transitions:
           id: 12,
           question: "What promotes varied teaching approaches?",
           options: [
-            "Differentiated Instruction Advocacy",
             "Standardized Teaching",
+            "Lecture-Only Instruction",
             "Teacher-Centered Methods",
-            "Lecture-Only Instruction"
+            "Differentiated Instruction Advocacy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Differentiated instruction advocacy promotes teaching that meets diverse learner needs."
         },
         {
@@ -1525,9 +1525,9 @@ Support critical transitions:
           question: "What supports attention and organization?",
           options: [
             "ADHD and Executive Function Strategies",
-            "More Restrictions",
+            "Punishment for Inattention",
             "Less Structure",
-            "Punishment for Inattention"
+            "More Restrictions"
           ],
           correctAnswer: 0,
           explanation: "ADHD support includes structure, organization systems, and attention strategies."
@@ -1536,84 +1536,84 @@ Support critical transitions:
           id: 14,
           question: "What adds depth and complexity?",
           options: [
-            "Enrichment Program Development",
-            "More of the Same Work",
             "Grade Acceleration Only",
-            "Independent Projects"
+            "Enrichment Program Development",
+            "Independent Projects",
+            "More of the Same Work"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Enrichment adds complexity and depth to learning beyond standard curriculum."
         },
         {
           id: 15,
           question: "What accesses appropriate language programs?",
           options: [
-            "Bilingual Education Navigation",
-            "English Immersion Only",
             "Language Segregation",
-            "Native Language Suppression"
+            "Bilingual Education Navigation",
+            "Native Language Suppression",
+            "English Immersion Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Bilingual education navigation helps families access appropriate language support programs."
         },
         {
           id: 16,
           question: "What links families to basic needs?",
           options: [
-            "Basic Needs Connection",
+            "Resource Ignorance",
             "Academic Focus Only",
             "Family Privacy Invasion",
-            "Resource Ignorance"
+            "Basic Needs Connection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Basic needs connection addresses fundamental requirements like food and shelter for learning readiness."
         },
         {
           id: 17,
           question: "What addresses refusal behaviors?",
           options: [
-            "School Avoidance Interventions",
             "Truancy Charges",
             "Parent Blame",
+            "School Avoidance Interventions",
             "Forced Attendance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "School avoidance interventions address underlying causes of refusal to attend school."
         },
         {
           id: 18,
           question: "What builds inclusive peer relationships?",
           options: [
-            "Peer Support Systems",
+            "Exclusion Practices",
             "Social Isolation",
-            "Popularity Focus",
-            "Exclusion Practices"
+            "Peer Support Systems",
+            "Popularity Focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Peer support systems build positive relationships and inclusion among diverse students."
         },
         {
           id: 19,
           question: "What supports gifted students with learning differences?",
           options: [
-            "Twice-Exceptional Student Support",
             "Gifted Program Exclusion",
+            "Twice-Exceptional Student Support",
             "Learning Disability Focus Only",
             "Ignoring Both Needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Twice-exceptional students need support for both giftedness and learning differences."
         },
         {
           id: 20,
           question: "What promotes college readiness?",
           options: [
-            "High School to College Transition Support",
+            "Career Training Exclusion",
             "High School Graduation Only",
-            "College Admission Focus",
-            "Career Training Exclusion"
+            "High School to College Transition Support",
+            "College Admission Focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "College transition support prepares students academically and emotionally for higher education."
         }
       ]
@@ -1712,36 +1712,36 @@ Create lasting educational impact:
           id: 1,
           question: "What develops educational improvement visions?",
           options: [
+            "Problem Solving Only",
             "Visionary Leadership",
             "Day-to-Day Management",
-            "Problem Solving Only",
             "Client Service Only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Visionary leadership creates compelling pictures of educational improvement and success."
         },
         {
           id: 2,
           question: "What creates long-term development plans?",
           options: [
+            "Trend Following",
             "Strategic Planning",
-            "Short-Term Reactions",
             "Improvisation Only",
-            "Trend Following"
+            "Short-Term Reactions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic planning develops deliberate, long-term approaches to consulting practice growth."
         },
         {
           id: 3,
           question: "What recognizes promising innovations?",
           options: [
+            "Popular Trend Following",
             "Innovation Identification",
             "Traditional Practice Only",
-            "Popular Trend Following",
             "Random Experimentation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Innovation identification systematically recognizes promising new educational approaches."
         },
         {
@@ -1749,9 +1749,9 @@ Create lasting educational impact:
           question: "What develops school-consultant collaborations?",
           options: [
             "School Partnership Models",
-            "Independent Practice Only",
+            "Administrative Conflict",
             "School Avoidance",
-            "Administrative Conflict"
+            "Independent Practice Only"
           ],
           correctAnswer: 0,
           explanation: "School partnerships create collaborative relationships that benefit students and schools."
@@ -1761,9 +1761,9 @@ Create lasting educational impact:
           question: "What builds consultant support networks?",
           options: [
             "Professional Network Development",
+            "Secret Keeping",
             "Isolated Practice",
-            "Competition Focus",
-            "Secret Keeping"
+            "Competition Focus"
           ],
           correctAnswer: 0,
           explanation: "Professional networks provide support, resources, and collaboration opportunities."
@@ -1772,84 +1772,84 @@ Create lasting educational impact:
           id: 6,
           question: "What conducts practice-based research?",
           options: [
-            "Action Research Implementation",
             "Theoretical Research Only",
+            "Action Research Implementation",
             "Data Ignoring",
             "Anecdote Collection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Action research studies and improves consulting practice through systematic inquiry."
         },
         {
           id: 7,
           question: "What identifies emerging developments?",
           options: [
-            "Educational Trend Analysis",
             "Current Practice Only",
-            "Past Tradition Focus",
-            "Change Resistance"
+            "Educational Trend Analysis",
+            "Change Resistance",
+            "Past Tradition Focus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Trend analysis identifies emerging patterns and developments in education."
         },
         {
           id: 8,
           question: "What ensures practice continuity?",
           options: [
-            "Succession Planning",
             "Practice Closure",
             "Client Abandonment",
-            "Knowledge Loss"
+            "Knowledge Loss",
+            "Succession Planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Succession planning ensures consulting practice continues effectively beyond current leadership."
         },
         {
           id: 9,
           question: "What leads educational change processes?",
           options: [
+            "Reactive Responses",
             "Change Management Leadership",
-            "Change Resistance",
             "Status Quo Maintenance",
-            "Reactive Responses"
+            "Change Resistance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change management systematically leads and supports educational improvement efforts."
         },
         {
           id: 10,
           question: "What applies research to practice?",
           options: [
-            "Research Translation",
             "Research Ignoring",
             "Theory Focus Only",
+            "Research Translation",
             "Practice Tradition"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Research translation makes educational research accessible and applicable to consulting practice."
         },
         {
           id: 11,
           question: "What works with community agencies?",
           options: [
+            "Resource Competition",
             "Community Organization Collaboration",
-            "Solo Operation",
             "Community Ignoring",
-            "Resource Competition"
+            "Solo Operation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Community collaboration builds partnerships that provide comprehensive student support."
         },
         {
           id: 12,
           question: "What establishes shared learning groups?",
           options: [
-            "Learning Community Creation",
+            "Competitive Advantage",
             "Individual Learning Only",
             "Knowledge Hoarding",
-            "Competitive Advantage"
+            "Learning Community Creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Learning communities create collaborative environments for professional growth and sharing."
         },
         {
@@ -1857,8 +1857,8 @@ Create lasting educational impact:
           question: "What assesses program effectiveness?",
           options: [
             "Program Evaluation Skills",
-            "Assumption-Based Practice",
             "Client Numbers Only",
+            "Assumption-Based Practice",
             "Revenue Measurement"
           ],
           correctAnswer: 0,
@@ -1868,48 +1868,48 @@ Create lasting educational impact:
           id: 14,
           question: "What tracks technology advances?",
           options: [
-            "Technology Trend Monitoring",
             "Current Tools Only",
             "Technology Avoidance",
-            "Digital Resistance"
+            "Digital Resistance",
+            "Technology Trend Monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Technology monitoring stays current with emerging educational tools and platforms."
         },
         {
           id: 15,
           question: "What captures consulting wisdom?",
           options: [
-            "Knowledge Management",
-            "Experience Loss",
             "Memory Reliance",
-            "Informal Sharing"
+            "Informal Sharing",
+            "Knowledge Management",
+            "Experience Loss"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Knowledge management systematically captures, organizes, and transfers consulting expertise."
         },
         {
           id: 16,
           question: "What guides new consultants?",
           options: [
-            "Mentorship Skills Development",
             "Sink-or-Swim Approach",
-            "Competition Encouragement",
-            "Knowledge Withholding"
+            "Mentorship Skills Development",
+            "Knowledge Withholding",
+            "Competition Encouragement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mentorship skills support the development and success of new educational consultants."
         },
         {
           id: 17,
           question: "What tests new approaches on small scale?",
           options: [
-            "Pilot Program Development",
-            "Full Implementation Immediately",
+            "Theoretical Planning Only",
             "No Testing",
-            "Theoretical Planning Only"
+            "Pilot Program Development",
+            "Full Implementation Immediately"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Pilot programs test innovations on small scale before wider implementation."
         },
         {
@@ -1918,8 +1918,8 @@ Create lasting educational impact:
           options: [
             "Higher Education Partnerships",
             "K-12 Focus Only",
-            "College Avoidance",
-            "Academic Elitism"
+            "Academic Elitism",
+            "College Avoidance"
           ],
           correctAnswer: 0,
           explanation: "Higher education partnerships connect K-12 consulting with college preparation and transition."
@@ -1928,24 +1928,24 @@ Create lasting educational impact:
           id: 19,
           question: "What creates systems for sharing approaches?",
           options: [
-            "Best Practice Sharing Systems",
-            "Private Knowledge",
             "Competitive Advantage",
-            "Trade Secrets"
+            "Best Practice Sharing Systems",
+            "Trade Secrets",
+            "Private Knowledge"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Best practice sharing improves the entire consulting profession through knowledge exchange."
         },
         {
           id: 20,
           question: "What prepares for upcoming changes?",
           options: [
-            "Policy Change Anticipation",
-            "Reactive Responses",
             "Policy Ignorance",
-            "Change Resistance"
+            "Reactive Responses",
+            "Change Resistance",
+            "Policy Change Anticipation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Policy anticipation prepares consultants for upcoming educational policy developments."
         }
       ]
@@ -1965,12 +1965,12 @@ Create lasting educational impact:
         id: 1,
         question: "What defines core consulting offerings?",
         options: [
+          "Website Design",
           "Service Portfolio Design",
           "Marketing Strategy",
-          "Office Location",
-          "Website Design"
+          "Office Location"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Service portfolio design outlines specific services and specialties offered to clients.",
         module: 1
       },
@@ -1978,12 +1978,12 @@ Create lasting educational impact:
         id: 2,
         question: "What builds professional identity?",
         options: [
-          "Brand Development",
           "Client Scheduling",
+          "Email Setup",
           "Office Furniture",
-          "Email Setup"
+          "Brand Development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Brand development creates professional identity that clients recognize and trust.",
         module: 1
       },
@@ -1991,12 +1991,12 @@ Create lasting educational impact:
         id: 3,
         question: "What protects client privacy?",
         options: [
-          "Confidentiality Protocols",
-          "Marketing Materials",
           "Business Cards",
-          "Office Decor"
+          "Office Decor",
+          "Confidentiality Protocols",
+          "Marketing Materials"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Confidentiality protocols ensure client information remains private and secure.",
         module: 1
       },
@@ -2004,12 +2004,12 @@ Create lasting educational impact:
         id: 4,
         question: "What implements billing and accounting?",
         options: [
-          "Financial Management Systems",
           "Client Assessment Tools",
           "Educational Resources",
+          "Financial Management Systems",
           "Networking Events"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Financial management ensures accurate billing and sustainable business operations.",
         module: 1
       },
@@ -2017,12 +2017,12 @@ Create lasting educational impact:
         id: 5,
         question: "What builds professional referral networks?",
         options: [
-          "Networking Systems Development",
           "Solo Practice Isolation",
           "Online Advertising Only",
-          "Price Reduction Strategies"
+          "Price Reduction Strategies",
+          "Networking Systems Development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Networking systems create valuable referral sources and professional collaborations.",
         module: 1
       },
@@ -2030,12 +2030,12 @@ Create lasting educational impact:
         id: 6,
         question: "What measures client satisfaction?",
         options: [
+          "Revenue Amounts",
           "Feedback Collection Systems",
           "Client Numbers Only",
-          "Revenue Amounts",
           "Office Size"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Feedback collection provides insights for service improvement and client retention.",
         module: 1
       },
@@ -2043,12 +2043,12 @@ Create lasting educational impact:
         id: 7,
         question: "What commits to ongoing skill enhancement?",
         options: [
-          "Continuing Education Planning",
           "Initial Training Only",
+          "Industry Trend Neglect",
           "Client Feedback Ignoring",
-          "Industry Trend Neglect"
+          "Continuing Education Planning"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Continuing education ensures consultants stay current with best practices.",
         module: 1
       },
@@ -2058,12 +2058,12 @@ Create lasting educational impact:
         id: 8,
         question: "What integrates multiple student data types?",
         options: [
-          "Holistic Student Profiling",
-          "Single Test Administration",
           "Parent Interview Only",
-          "Grade Review Alone"
+          "Holistic Student Profiling",
+          "Grade Review Alone",
+          "Single Test Administration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Holistic profiling combines academic, social, emotional, and cognitive information.",
         module: 2
       },
@@ -2071,12 +2071,12 @@ Create lasting educational impact:
         id: 9,
         question: "What creates advanced pathways for gifted students?",
         options: [
-          "Academic Acceleration Planning",
-          "Standard Curriculum Only",
+          "Social Promotion",
           "Grade Repetition",
-          "Social Promotion"
+          "Academic Acceleration Planning",
+          "Standard Curriculum Only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Acceleration planning develops appropriate challenges for advanced learners.",
         module: 2
       },
@@ -2084,12 +2084,12 @@ Create lasting educational impact:
         id: 10,
         question: "What educates parents as partners?",
         options: [
-          "Parent Coaching Models",
-          "Parent Exclusion",
           "Teacher Directives Only",
-          "Administrative Orders"
+          "Administrative Orders",
+          "Parent Exclusion",
+          "Parent Coaching Models"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Parent coaching empowers families to support their children's educational journeys.",
         module: 2
       },
@@ -2097,12 +2097,12 @@ Create lasting educational impact:
         id: 11,
         question: "What tracks intervention effectiveness?",
         options: [
-          "Progress Monitoring Systems",
           "Initial Assessment Only",
-          "Year-End Reviews",
-          "Parent Satisfaction Surveys"
+          "Parent Satisfaction Surveys",
+          "Progress Monitoring Systems",
+          "Year-End Reviews"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Progress monitoring provides ongoing data about intervention effectiveness.",
         module: 2
       },
@@ -2111,9 +2111,9 @@ Create lasting educational impact:
         question: "What ensures assessment understanding?",
         options: [
           "Informed Consent Procedures",
-          "Assessment Administration Only",
           "Result Reporting",
-          "Bill Collection"
+          "Bill Collection",
+          "Assessment Administration Only"
         ],
         correctAnswer: 0,
         explanation: "Informed consent ensures clients understand assessment purposes and processes.",
@@ -2123,12 +2123,12 @@ Create lasting educational impact:
         id: 13,
         question: "What designs skill-building interventions?",
         options: [
-          "Remediation Program Design",
+          "Test Exemption",
           "Grade Advancement Only",
-          "Social Promotion",
-          "Test Exemption"
+          "Remediation Program Design",
+          "Social Promotion"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Remediation programs systematically address specific skill gaps or challenges.",
         module: 2
       },
@@ -2137,9 +2137,9 @@ Create lasting educational impact:
         question: "What applies evidence-based approaches?",
         options: [
           "Research-Informed Practice",
-          "Personal Opinions Only",
+          "Popular Trends Following",
           "Traditional Methods Exclusively",
-          "Popular Trends Following"
+          "Personal Opinions Only"
         ],
         correctAnswer: 0,
         explanation: "Research-informed practice uses approaches validated by educational research.",
@@ -2151,12 +2151,12 @@ Create lasting educational impact:
         id: 15,
         question: "What ensures data protection compliance?",
         options: [
-          "Privacy and Security Compliance",
-          "Software Features Only",
           "User Popularity",
-          "Cost Considerations"
+          "Cost Considerations",
+          "Software Features Only",
+          "Privacy and Security Compliance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Privacy compliance ensures technology meets legal data protection requirements.",
         module: 3
       },
@@ -2164,12 +2164,12 @@ Create lasting educational impact:
         id: 16,
         question: "What creates engaging online learning spaces?",
         options: [
+          "Email Lists",
           "Virtual Classroom Setup",
-          "Website Creation",
           "Blog Development",
-          "Email Lists"
+          "Website Creation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Virtual classrooms provide interactive online environments for teaching and learning.",
         module: 3
       },
@@ -2177,12 +2177,12 @@ Create lasting educational impact:
         id: 17,
         question: "What visualizes student progress data?",
         options: [
-          "Performance Dashboard Creation",
+          "Memory Recall",
           "Spreadsheet Maintenance",
           "Paper Records",
-          "Memory Recall"
+          "Performance Dashboard Creation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Dashboards present complex data in visual, easily understood formats.",
         module: 3
       },
@@ -2190,12 +2190,12 @@ Create lasting educational impact:
         id: 18,
         question: "What conducts effective remote consultations?",
         options: [
-          "Video Conferencing Systems",
-          "Telephone Calls Only",
           "Email Communication",
-          "Postal Mail"
+          "Video Conferencing Systems",
+          "Postal Mail",
+          "Telephone Calls Only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Video conferencing allows face-to-face interaction with remote clients.",
         module: 3
       },
@@ -2217,8 +2217,8 @@ Create lasting educational impact:
         question: "What implements technology gradually?",
         options: [
           "Phased Rollout Planning",
-          "Immediate Full Implementation",
           "Random Tool Introduction",
+          "Immediate Full Implementation",
           "Client-Driven Adoption"
         ],
         correctAnswer: 0,
@@ -2230,8 +2230,8 @@ Create lasting educational impact:
         question: "What educates on tool use?",
         options: [
           "Training Program Development",
-          "Trial and Error Only",
           "Online Tutorials Only",
+          "Trial and Error Only",
           "Manual Reading"
         ],
         correctAnswer: 0,
@@ -2244,12 +2244,12 @@ Create lasting educational impact:
         id: 22,
         question: "What navigates IEP processes?",
         options: [
-          "Special Education Systems Navigation",
-          "Regular Education Only",
           "Gifted Programs",
-          "Sports Teams"
+          "Sports Teams",
+          "Regular Education Only",
+          "Special Education Systems Navigation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Special education navigation involves understanding and accessing IEP services.",
         module: 4
       },
@@ -2257,12 +2257,12 @@ Create lasting educational impact:
         id: 23,
         question: "What represents specific student needs?",
         options: [
-          "Individual Student Advocacy",
-          "System Change Only",
           "Policy Development",
+          "System Change Only",
+          "Individual Student Advocacy",
           "School Administration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Individual advocacy focuses on specific student needs within existing systems.",
         module: 4
       },
@@ -2270,12 +2270,12 @@ Create lasting educational impact:
         id: 24,
         question: "What prepares for special education meetings?",
         options: [
+          "Sports Events",
           "IEP Meeting Preparation",
           "Regular Parent Conferences",
-          "Sports Events",
           "School Plays"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "IEP preparation involves gathering data and planning meeting strategies.",
         module: 4
       },
@@ -2283,12 +2283,12 @@ Create lasting educational impact:
         id: 25,
         question: "What works to improve policies?",
         options: [
-          "Systemic Change Advocacy",
-          "Individual Cases Only",
           "Complaint Filing",
+          "Individual Cases Only",
+          "Systemic Change Advocacy",
           "Problem Ignoring"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Systemic advocacy aims to improve policies affecting many students.",
         module: 4
       },
@@ -2296,12 +2296,12 @@ Create lasting educational impact:
         id: 26,
         question: "What accesses quality academic assistance?",
         options: [
-          "Tutoring and Academic Support Access",
           "Independent Study Only",
           "Class Repetition",
+          "Tutoring and Academic Support Access",
           "Summer School"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Academic support connects students with appropriate tutoring and assistance.",
         module: 4
       },
@@ -2309,12 +2309,12 @@ Create lasting educational impact:
         id: 27,
         question: "What evaluates policy impacts?",
         options: [
-          "Policy Analysis Skills",
-          "Policy Ignorance",
           "Assumption Making",
-          "Anecdotal Evidence"
+          "Anecdotal Evidence",
+          "Policy Analysis Skills",
+          "Policy Ignorance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Policy analysis examines how policies affect different student populations.",
         module: 4
       },
@@ -2337,12 +2337,12 @@ Create lasting educational impact:
         id: 29,
         question: "What recognizes advanced abilities?",
         options: [
-          "Gifted Identification Methods",
           "Standardized Test Scores Only",
-          "Teacher Recommendations",
-          "Parent Claims"
+          "Gifted Identification Methods",
+          "Parent Claims",
+          "Teacher Recommendations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Gifted identification uses multiple measures to recognize advanced abilities.",
         module: 5
       },
@@ -2350,12 +2350,12 @@ Create lasting educational impact:
         id: 30,
         question: "What creates accessible learning environments?",
         options: [
+          "Separate Special Programs",
           "Universal Design for Learning",
-          "One-Size-Fits-All Approach",
           "Retrofit Accommodations",
-          "Separate Special Programs"
+          "One-Size-Fits-All Approach"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Universal design creates learning environments accessible to all students.",
         module: 5
       },
@@ -2376,12 +2376,12 @@ Create lasting educational impact:
         id: 32,
         question: "What understands diverse cultural perspectives?",
         options: [
-          "Cultural Competence Development",
-          "Cultural Assumptions",
+          "Cultural Ignorance",
           "Majority Culture Focus",
-          "Cultural Ignorance"
+          "Cultural Competence Development",
+          "Cultural Assumptions"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Cultural competence involves understanding diverse cultural backgrounds.",
         module: 5
       },
@@ -2389,12 +2389,12 @@ Create lasting educational impact:
         id: 33,
         question: "What addresses trauma's impact on learning?",
         options: [
-          "Trauma-Informed Practice",
-          "Trauma Ignoring",
           "Academic Pressure",
+          "Trauma Ignoring",
+          "Trauma-Informed Practice",
           "Behavior Punishment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Trauma-informed practice understands how trauma affects learning.",
         module: 5
       },
@@ -2404,12 +2404,12 @@ Create lasting educational impact:
         id: 34,
         question: "What develops educational improvement visions?",
         options: [
-          "Visionary Leadership",
-          "Day-to-Day Management",
           "Problem Solving Only",
+          "Day-to-Day Management",
+          "Visionary Leadership",
           "Client Service Only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Visionary leadership creates compelling pictures of educational improvement.",
         module: 6
       },
@@ -2418,9 +2418,9 @@ Create lasting educational impact:
         question: "What creates long-term development plans?",
         options: [
           "Strategic Planning",
-          "Short-Term Reactions",
           "Improvisation Only",
-          "Trend Following"
+          "Trend Following",
+          "Short-Term Reactions"
         ],
         correctAnswer: 0,
         explanation: "Strategic planning develops long-term approaches to practice growth.",
@@ -2430,12 +2430,12 @@ Create lasting educational impact:
         id: 36,
         question: "What recognizes promising innovations?",
         options: [
-          "Innovation Identification",
           "Traditional Practice Only",
+          "Random Experimentation",
           "Popular Trend Following",
-          "Random Experimentation"
+          "Innovation Identification"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Innovation identification recognizes promising new educational approaches.",
         module: 6
       },
@@ -2445,8 +2445,8 @@ Create lasting educational impact:
         options: [
           "School Partnership Models",
           "Independent Practice Only",
-          "School Avoidance",
-          "Administrative Conflict"
+          "Administrative Conflict",
+          "School Avoidance"
         ],
         correctAnswer: 0,
         explanation: "School partnerships create collaborative relationships benefiting students.",
@@ -2456,12 +2456,12 @@ Create lasting educational impact:
         id: 38,
         question: "What builds consultant support networks?",
         options: [
-          "Professional Network Development",
-          "Isolated Practice",
           "Competition Focus",
-          "Secret Keeping"
+          "Secret Keeping",
+          "Isolated Practice",
+          "Professional Network Development"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Professional networks provide support and collaboration opportunities.",
         module: 6
       },
@@ -2469,12 +2469,12 @@ Create lasting educational impact:
         id: 39,
         question: "What conducts practice-based research?",
         options: [
-          "Action Research Implementation",
-          "Theoretical Research Only",
           "Data Ignoring",
-          "Anecdote Collection"
+          "Anecdote Collection",
+          "Theoretical Research Only",
+          "Action Research Implementation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Action research studies and improves consulting practice through inquiry.",
         module: 6
       },
@@ -2482,12 +2482,12 @@ Create lasting educational impact:
         id: 40,
         question: "What ensures practice continuity?",
         options: [
-          "Succession Planning",
-          "Practice Closure",
+          "Knowledge Loss",
           "Client Abandonment",
-          "Knowledge Loss"
+          "Succession Planning",
+          "Practice Closure"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Succession planning ensures consulting practice continues effectively.",
         module: 6
       }

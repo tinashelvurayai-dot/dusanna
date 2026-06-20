@@ -57,12 +57,12 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           id: 1,
           question: "How many chromosomes do humans typically inherit from each parent?",
           options: [
-            "Twenty-two chromosomes",
             "Twenty-three chromosomes",
-            "Twenty-four chromosomes",
-            "Forty-six chromosomes"
+            "Forty-six chromosomes",
+            "Twenty-two chromosomes",
+            "Twenty-four chromosomes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Humans inherit twenty-three chromosomes from each parent, giving a total of forty-six chromosomes in most cells."
         },
         {
@@ -70,9 +70,9 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           question: "Which pattern of inheritance requires only one changed gene copy to cause a condition?",
           options: [
             "Autosomal recessive",
-            "X-linked dominant",
+            "Mitochondrial inheritance",
             "Autosomal dominant",
-            "Mitochondrial inheritance"
+            "X-linked dominant"
           ],
           correctAnswer: 2,
           explanation: "Autosomal dominant conditions require only one copy of a changed gene to cause the condition, unlike autosomal recessive conditions that require two copies."
@@ -81,12 +81,12 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           id: 3,
           question: "What percentage chance does each child have of inheriting an autosomal dominant condition when one parent is affected?",
           options: [
-            "Twenty-five percent",
             "Fifty percent",
             "Seventy-five percent",
-            "One hundred percent"
+            "One hundred percent",
+            "Twenty-five percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "With autosomal dominant inheritance, each child has a fifty percent chance of inheriting the changed gene from an affected parent."
         },
         {
@@ -94,23 +94,23 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           question: "Which type of mutation creates a premature stop signal in the genetic code?",
           options: [
             "Missense mutation",
-            "Frameshift mutation",
             "Nonsense mutation",
+            "Frameshift mutation",
             "Splice site mutation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Nonsense mutations create a stop signal too early in the genetic code, often resulting in a shortened, nonfunctional protein."
         },
         {
           id: 5,
           question: "What type of testing determines if someone carries a gene change that could be passed to children?",
           options: [
-            "Diagnostic testing",
-            "Predictive testing",
             "Carrier testing",
+            "Predictive testing",
+            "Diagnostic testing",
             "Prenatal testing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Carrier testing specifically identifies individuals who carry one copy of a gene change for a recessive condition that could be passed to children."
         },
         {
@@ -119,8 +119,8 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           options: [
             "Ten thousand genes",
             "Twenty thousand genes",
-            "Thirty thousand genes",
-            "Forty thousand genes"
+            "Forty thousand genes",
+            "Thirty thousand genes"
           ],
           correctAnswer: 1,
           explanation: "Humans have approximately twenty thousand genes that provide instructions for making proteins and performing bodily functions."
@@ -141,24 +141,24 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           id: 8,
           question: "What is the term for observable characteristics resulting from genetic makeup?",
           options: [
-            "Genotype",
             "Allele",
             "Phenotype",
-            "Penetrance"
+            "Penetrance",
+            "Genotype"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Phenotype refers to the observable characteristics or traits of an individual, which result from both genetic makeup and environmental influences."
         },
         {
           id: 9,
           question: "What percentage chance does each child have of having an autosomal recessive condition when both parents are carriers?",
           options: [
-            "Ten percent",
-            "Twenty-five percent",
+            "Seventy-five percent",
             "Fifty percent",
-            "Seventy-five percent"
+            "Twenty-five percent",
+            "Ten percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "When both parents are carriers of an autosomal recessive condition, each child has a twenty-five percent chance of inheriting two changed copies and having the condition."
         },
         {
@@ -166,21 +166,21 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           question: "Which testing approach confirms or rules out a suspected genetic condition?",
           options: [
             "Predictive testing",
+            "Newborn screening",
             "Carrier testing",
-            "Diagnostic testing",
-            "Newborn screening"
+            "Diagnostic testing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Diagnostic testing is used to confirm or rule out a specific genetic condition when symptoms are present or strongly suspected."
         },
         {
           id: 11,
           question: "What is the term for different versions of the same gene?",
           options: [
-            "Chromosomes",
+            "Variants",
             "Alleles",
-            "Mutations",
-            "Variants"
+            "Chromosomes",
+            "Mutations"
           ],
           correctAnswer: 1,
           explanation: "Alleles are different versions of the same gene that occupy the same position on paired chromosomes."
@@ -190,11 +190,11 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           question: "Which DNA bases pair together in the double helix structure?",
           options: [
             "Adenine with cytosine",
-            "Thymine with guanine",
             "Adenine with thymine",
+            "Thymine with guanine",
             "All bases pair randomly"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "In DNA, adenine always pairs with thymine, and cytosine always pairs with guanine, forming the rungs of the DNA ladder."
         },
         {
@@ -202,23 +202,23 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           question: "What is the term for the proportion of individuals with a gene change who show symptoms?",
           options: [
             "Expressivity",
-            "Penetrance",
             "Heritability",
-            "Concordance"
+            "Concordance",
+            "Penetrance"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Penetrance refers to the proportion of individuals with a specific gene change who actually show symptoms of the associated condition."
         },
         {
           id: 14,
           question: "Which type of mutation shifts the reading frame of the genetic code?",
           options: [
-            "Missense mutation",
             "Nonsense mutation",
-            "Frameshift mutation",
-            "Silent mutation"
+            "Missense mutation",
+            "Silent mutation",
+            "Frameshift mutation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Frameshift mutations insert or delete DNA bases, shifting the reading frame and typically resulting in a completely altered protein sequence."
         },
         {
@@ -226,9 +226,9 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           question: "What do we call conditions that involve multiple genes plus environmental factors?",
           options: [
             "Single gene disorders",
-            "Chromosomal disorders",
+            "Mitochondrial disorders",
             "Multifactorial conditions",
-            "Mitochondrial disorders"
+            "Chromosomal disorders"
           ],
           correctAnswer: 2,
           explanation: "Multifactorial conditions result from the combined effects of multiple genes and environmental factors, like heart disease or diabetes."
@@ -237,10 +237,10 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           id: 16,
           question: "Which testing evaluates fetal genetic information during pregnancy?",
           options: [
-            "Carrier testing",
             "Predictive testing",
+            "Diagnostic testing",
             "Prenatal testing",
-            "Diagnostic testing"
+            "Carrier testing"
           ],
           correctAnswer: 2,
           explanation: "Prenatal testing specifically evaluates the genetic information of a developing fetus during pregnancy."
@@ -249,10 +249,10 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           id: 17,
           question: "What is the shape of the DNA molecule called?",
           options: [
-            "Single helix",
+            "Circular loop",
             "Double helix",
             "Triple helix",
-            "Circular loop"
+            "Single helix"
           ],
           correctAnswer: 1,
           explanation: "DNA has a double helix structure, resembling a twisted ladder, with base pairs forming the rungs."
@@ -261,24 +261,24 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           id: 18,
           question: "Which term describes the range of symptoms in individuals with the same gene change?",
           options: [
-            "Penetrance",
-            "Expressivity",
             "Heritability",
-            "Variability"
+            "Penetrance",
+            "Variability",
+            "Expressivity"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Expressivity refers to the range of symptoms and their severity in different individuals with the same genetic condition."
         },
         {
           id: 19,
           question: "How many total chromosomes are typically found in most human cells?",
           options: [
+            "Forty-six chromosomes",
             "Twenty-three chromosomes",
             "Forty-four chromosomes",
-            "Forty-six chromosomes",
             "Forty-eight chromosomes"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Most human cells contain forty-six chromosomes arranged in twenty-three pairs, one set from each parent."
         },
         {
@@ -286,11 +286,11 @@ Remember that genetics provides probabilities, not certainties. A genetic counse
           question: "Which genetic concept helps explain why some people with a gene change show no symptoms?",
           options: [
             "Complete penetrance",
+            "Genetic anticipation",
             "Variable expressivity",
-            "Incomplete penetrance",
-            "Genetic anticipation"
+            "Incomplete penetrance"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Incomplete penetrance explains why some individuals with a disease-causing gene change show no symptoms, while others with the same change do."
         }
       ]
@@ -357,22 +357,22 @@ This module explores how genetic counselors assess risk, communicate complex inf
           id: 1,
           question: "What standard symbol represents females in pedigree diagrams?",
           options: [
-            "Squares",
-            "Circles",
+            "Diamonds",
             "Triangles",
-            "Diamonds"
+            "Circles",
+            "Squares"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "In standard pedigree notation, circles represent females, squares represent males, and diamonds can represent individuals of unspecified sex."
         },
         {
           id: 2,
           question: "Approximately what percentage of cancers have a strong hereditary component identifiable through pedigree analysis?",
           options: [
-            "One to two percent",
+            "Twenty-five to thirty percent",
             "Five to ten percent",
             "Fifteen to twenty percent",
-            "Twenty-five to thirty percent"
+            "One to two percent"
           ],
           correctAnswer: 1,
           explanation: "Approximately five to ten percent of cancers have a strong hereditary component that can be identified through careful pedigree analysis and genetic testing."
@@ -382,35 +382,35 @@ This module explores how genetic counselors assess risk, communicate complex inf
           question: "What inheritance pattern is suggested when a condition appears in multiple generations with affected individuals in each generation?",
           options: [
             "Autosomal recessive",
-            "Autosomal dominant",
             "X-linked recessive",
+            "Autosomal dominant",
             "Mitochondrial"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A vertical pattern appearing across multiple generations suggests autosomal dominant inheritance, as each affected individual has a fifty percent chance of passing the condition to children."
         },
         {
           id: 4,
           question: "For autosomal recessive conditions with two carrier parents, what is the chance each pregnancy has of producing an affected child?",
           options: [
-            "Ten percent",
-            "Twenty-five percent",
+            "Seventy-five percent",
             "Fifty percent",
-            "Seventy-five percent"
+            "Twenty-five percent",
+            "Ten percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "When both parents are carriers of an autosomal recessive condition, each pregnancy has a twenty-five percent chance of the child inheriting two changed copies and having the condition."
         },
         {
           id: 5,
           question: "Which risk communication format do people typically understand best according to research?",
           options: [
-            "Percentages alone",
-            "Fractions alone",
             "Natural frequencies",
-            "Decimal numbers"
+            "Decimal numbers",
+            "Percentages alone",
+            "Fractions alone"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Research shows people understand risks best when presented as natural frequencies (e.g., '1 in 4') rather than percentages or fractions alone."
         },
         {
@@ -419,8 +419,8 @@ This module explores how genetic counselors assess risk, communicate complex inf
           options: [
             "Five percent",
             "Twelve percent",
-            "Twenty percent",
-            "Thirty percent"
+            "Thirty percent",
+            "Twenty percent"
           ],
           correctAnswer: 1,
           explanation: "The lifetime risk of developing breast cancer for all women is approximately twelve percent, though this varies based on many factors including genetics."
@@ -429,12 +429,12 @@ This module explores how genetic counselors assess risk, communicate complex inf
           id: 7,
           question: "What counseling approach involves providing information without telling clients what decision to make?",
           options: [
-            "Directive counseling",
-            "Non-directive counseling",
             "Persuasive counseling",
-            "Educational counseling"
+            "Educational counseling",
+            "Directive counseling",
+            "Non-directive counseling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Non-directive counseling involves providing balanced information and supporting client decision-making without directing clients toward specific choices."
         },
         {
@@ -443,8 +443,8 @@ This module explores how genetic counselors assess risk, communicate complex inf
           options: [
             "Ten percent",
             "Thirty percent",
-            "Fifty percent",
-            "Seventy percent"
+            "Seventy percent",
+            "Fifty percent"
           ],
           correctAnswer: 1,
           explanation: "Approximately thirty percent of clients receiving unexpected or concerning genetic test results experience significant psychological distress requiring additional support."
@@ -453,12 +453,12 @@ This module explores how genetic counselors assess risk, communicate complex inf
           id: 9,
           question: "Which inheritance pattern is suggested when only males are affected and the condition is passed through unaffected females?",
           options: [
+            "Mitochondrial",
             "Autosomal dominant",
             "Autosomal recessive",
-            "X-linked recessive",
-            "Mitochondrial"
+            "X-linked recessive"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "X-linked recessive inheritance is suggested when only males are affected, and the condition is passed through unaffected female carriers to their sons."
         },
         {
@@ -466,21 +466,21 @@ This module explores how genetic counselors assess risk, communicate complex inf
           question: "What method combines prior probability with new information to calculate updated genetic risks?",
           options: [
             "Mendelian analysis",
-            "Empirical risk calculation",
             "Bayesian analysis",
-            "Statistical modeling"
+            "Statistical modeling",
+            "Empirical risk calculation"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Bayesian analysis combines prior probabilities (based on family history) with new information (test results) to calculate updated, personalized genetic risks."
         },
         {
           id: 11,
           question: "How many generations of family health history should typically be collected during pedigree analysis?",
           options: [
-            "Two generations",
-            "Three generations",
             "Four generations",
-            "Five generations"
+            "Three generations",
+            "Five generations",
+            "Two generations"
           ],
           correctAnswer: 1,
           explanation: "Genetic counselors typically collect at least three generations of family health history to identify inheritance patterns and assess risks accurately."
@@ -489,22 +489,22 @@ This module explores how genetic counselors assess risk, communicate complex inf
           id: 12,
           question: "What is the general population risk for having a child with a neural tube defect?",
           options: [
+            "1 in 5,000",
             "1 in 100",
             "1 in 500",
-            "1 in 1,000",
-            "1 in 5,000"
+            "1 in 1,000"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The general population risk for having a child with a neural tube defect is approximately 1 in 1,000, though this varies by geographic region and other factors."
         },
         {
           id: 13,
           question: "Which counseling technique involves asking clients to explain back what they've understood?",
           options: [
-            "Values clarification",
+            "Risk normalization",
             "Teach-back method",
-            "Psychosocial assessment",
-            "Risk normalization"
+            "Values clarification",
+            "Psychosocial assessment"
           ],
           correctAnswer: 1,
           explanation: "The teach-back method involves asking clients to explain in their own words what they've understood, helping ensure comprehension and clarify misunderstandings."
@@ -514,11 +514,11 @@ This module explores how genetic counselors assess risk, communicate complex inf
           question: "What percentage range describes recurrence risks for multifactorial conditions after one affected child?",
           options: [
             "1-2%",
-            "2-5%",
+            "10-15%",
             "5-10%",
-            "10-15%"
+            "2-5%"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Recurrence risks for multifactorial conditions typically range from 2-5% after one affected child, though this varies by specific condition and family history."
         },
         {
@@ -526,35 +526,35 @@ This module explores how genetic counselors assess risk, communicate complex inf
           question: "Which ethical principle must be balanced with the duty to inform relatives about genetic risks?",
           options: [
             "Justice",
-            "Autonomy",
             "Beneficence",
+            "Autonomy",
             "Non-maleficence"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Patient autonomy (the right to make one's own decisions) must be balanced with the duty to inform relatives about significant genetic risks that could affect their health."
         },
         {
           id: 16,
           question: "Approximately what percentage of adults has limited health literacy?",
           options: [
+            "One in three",
             "One in ten",
             "One in five",
-            "One in three",
             "One in two"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately one in three adults has limited health literacy, meaning they may struggle to understand complex health information without appropriate support."
         },
         {
           id: 17,
           question: "What does a diagonal line through a pedigree symbol indicate?",
           options: [
-            "Affected individual",
-            "Carrier status",
             "Deceased individual",
-            "Proband or consultant"
+            "Proband or consultant",
+            "Carrier status",
+            "Affected individual"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "A diagonal line through a pedigree symbol indicates that the individual is deceased, with additional notations often showing age and cause of death."
         },
         {
@@ -562,11 +562,11 @@ This module explores how genetic counselors assess risk, communicate complex inf
           question: "For autosomal dominant conditions with one affected parent, what is each child's chance of inheriting the condition?",
           options: [
             "Twenty-five percent",
-            "Fifty percent",
             "Seventy-five percent",
-            "One hundred percent"
+            "One hundred percent",
+            "Fifty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "For autosomal dominant conditions, each child of an affected parent has a fifty percent chance of inheriting the changed gene and the condition."
         },
         {
@@ -574,11 +574,11 @@ This module explores how genetic counselors assess risk, communicate complex inf
           question: "Which organization recommends that there may be an ethical duty to warn relatives about significant genetic risks in certain situations?",
           options: [
             "World Health Organization",
-            "American Society of Human Genetics",
+            "Centers for Disease Control",
             "National Institutes of Health",
-            "Centers for Disease Control"
+            "American Society of Human Genetics"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The American Society of Human Genetics has published guidelines suggesting that in certain situations, there may be an ethical duty to warn relatives about significant genetic risks."
         },
         {
@@ -665,12 +665,12 @@ This module covers the practical application of genetic testing technologies acr
           id: 1,
           question: "Which testing method provides a picture of all chromosomes to detect large changes?",
           options: [
-            "FISH testing",
-            "Karyotyping",
+            "Sanger sequencing",
             "Chromosomal microarray",
-            "Sanger sequencing"
+            "FISH testing",
+            "Karyotyping"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Karyotyping provides a visual representation of all chromosomes arranged in pairs, allowing detection of large changes like extra or missing chromosomes."
         },
         {
@@ -678,35 +678,35 @@ This module covers the practical application of genetic testing technologies acr
           question: "Approximately what percentage of genetic tests identify variants of uncertain significance?",
           options: [
             "Five to ten percent",
-            "Ten to twenty percent",
             "Twenty to thirty percent",
-            "Thirty to forty percent"
+            "Thirty to forty percent",
+            "Ten to twenty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately ten to twenty percent of genetic tests identify variants of uncertain significance, which require careful counseling about their uncertain nature."
         },
         {
           id: 3,
           question: "What is the approximate procedure-related miscarriage risk for amniocentesis when performed by experienced providers?",
           options: [
-            "1 in 100",
-            "1 in 250",
+            "1 in 1,000",
             "1 in 500",
-            "1 in 1,000"
+            "1 in 250",
+            "1 in 100"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Both chorionic villus sampling and amniocentesis carry a procedure-related miscarriage risk of approximately 1 in 500 when performed by experienced providers."
         },
         {
           id: 4,
           question: "What percentage of all cancers are estimated to have a hereditary component?",
           options: [
+            "Fifteen to twenty percent",
             "One to two percent",
             "Five to ten percent",
-            "Fifteen to twenty percent",
             "Twenty-five to thirty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hereditary cancer syndromes account for approximately five to ten percent of all cancers, with the remainder being sporadic or related to environmental factors."
         },
         {
@@ -725,24 +725,24 @@ This module covers the practical application of genetic testing technologies acr
           id: 6,
           question: "Which enzyme system metabolizes approximately seventy-five percent of commonly prescribed drugs?",
           options: [
-            "Alcohol dehydrogenase",
-            "Cytochrome P450",
             "Monoamine oxidase",
-            "Glucuronosyltransferase"
+            "Alcohol dehydrogenase",
+            "Glucuronosyltransferase",
+            "Cytochrome P450"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Cytochrome P450 enzymes metabolize approximately seventy-five percent of commonly prescribed drugs, with genetic variations affecting drug metabolism significantly."
         },
         {
           id: 7,
           question: "How many core conditions do most US newborn screening programs test for?",
           options: [
-            "Fifteen conditions",
-            "Twenty-five conditions",
             "Thirty-five conditions",
+            "Twenty-five conditions",
+            "Fifteen conditions",
             "Fifty conditions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Most US newborn screening programs test for approximately thirty-five core conditions and twenty-five secondary conditions using dried blood spots."
         },
         {
@@ -750,71 +750,71 @@ This module covers the practical application of genetic testing technologies acr
           question: "What percentage of people have significantly altered metabolism for at least one commonly prescribed medication?",
           options: [
             "Ten percent",
+            "Seventy percent",
             "Thirty percent",
-            "Fifty percent",
-            "Seventy percent"
+            "Fifty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately thirty percent of people have significantly altered metabolism for at least one commonly prescribed medication due to genetic variations."
         },
         {
           id: 9,
           question: "Which prenatal screening test has detection rates above ninety-nine percent for certain conditions?",
           options: [
-            "First trimester screening",
-            "Second trimester screening",
             "Cell-free DNA screening",
-            "Ultrasound alone"
+            "Second trimester screening",
+            "Ultrasound alone",
+            "First trimester screening"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Cell-free DNA screening analyzes fetal DNA in maternal blood and has detection rates above ninety-nine percent for conditions like Down syndrome."
         },
         {
           id: 10,
           question: "What is the approximate prevalence of hypertrophic cardiomyopathy in the general population?",
           options: [
-            "1 in 1,000",
-            "1 in 500",
             "1 in 250",
-            "1 in 100"
+            "1 in 100",
+            "1 in 500",
+            "1 in 1,000"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Hypertrophic cardiomyopathy affects approximately 1 in 500 people in the general population and is the most common inherited cardiac condition."
         },
         {
           id: 11,
           question: "What does FISH testing stand for in cytogenetic analysis?",
           options: [
-            "Fluorescent Immunoassay Screening Hybridization",
             "Fluorescence In Situ Hybridization",
+            "Fetal Interphase Screening Hybridization",
             "Functional Integration Sequence Homology",
-            "Fetal Interphase Screening Hybridization"
+            "Fluorescent Immunoassay Screening Hybridization"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "FISH stands for Fluorescence In Situ Hybridization, a cytogenetic technique that uses fluorescent probes to detect specific DNA sequences on chromosomes."
         },
         {
           id: 12,
           question: "What percentage of at-risk relatives are typically identified as gene carriers through family cascade testing for autosomal dominant conditions?",
           options: [
-            "Twenty-five percent",
             "Fifty percent",
+            "Twenty-five percent",
             "Seventy-five percent",
             "One hundred percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Family cascade testing typically identifies approximately fifty percent of at-risk relatives as gene carriers for autosomal dominant conditions, consistent with Mendelian inheritance."
         },
         {
           id: 13,
           question: "Which organization provides updated testing guidelines for hereditary cancer syndromes?",
           options: [
-            "American Cancer Society",
-            "National Comprehensive Cancer Network",
             "World Health Organization",
-            "Centers for Disease Control"
+            "Centers for Disease Control",
+            "American Cancer Society",
+            "National Comprehensive Cancer Network"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The National Comprehensive Cancer Network provides regularly updated testing guidelines and management recommendations for hereditary cancer syndromes."
         },
         {
@@ -822,9 +822,9 @@ This module covers the practical application of genetic testing technologies acr
           question: "What is the approximate detection rate of first trimester screening for Down syndrome?",
           options: [
             "Sixty-five percent",
-            "Seventy-five percent",
+            "Ninety-five percent",
             "Eighty-five percent",
-            "Ninety-five percent"
+            "Seventy-five percent"
           ],
           correctAnswer: 2,
           explanation: "First trimester screening, combining nuchal translucency ultrasound and maternal blood tests, detects approximately eighty-five percent of Down syndrome cases."
@@ -833,12 +833,12 @@ This module covers the practical application of genetic testing technologies acr
           id: 15,
           question: "Which type of preimplantation genetic testing screens for chromosome number abnormalities?",
           options: [
-            "PGT-M",
-            "PGT-SR",
             "PGT-A",
-            "PGT-P"
+            "PGT-P",
+            "PGT-SR",
+            "PGT-M"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "PGT-A (Preimplantation Genetic Testing for Aneuploidy) screens embryos for chromosome number abnormalities before transfer during IVF."
         },
         {
@@ -847,10 +847,10 @@ This module covers the practical application of genetic testing technologies acr
           options: [
             "Twenty to thirty percent",
             "Thirty to fifty percent",
-            "Fifty to eighty percent",
-            "Eighty to ninety percent"
+            "Eighty to ninety percent",
+            "Fifty to eighty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Individuals with Lynch syndrome have a fifty to eighty percent lifetime risk of developing colorectal cancer, necessitating enhanced screening beginning at younger ages."
         },
         {
@@ -859,20 +859,20 @@ This module covers the practical application of genetic testing technologies acr
           options: [
             "Sanger sequencing",
             "Next-generation sequencing",
-            "Polymerase chain reaction",
-            "Microarray analysis"
+            "Microarray analysis",
+            "Polymerase chain reaction"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Polymerase chain reaction (PCR) amplifies specific DNA regions through repeated temperature cycles, creating millions of copies for analysis."
         },
         {
           id: 18,
           question: "How quickly should critical newborn screening results be communicated to healthcare providers?",
           options: [
-            "Within 48 hours",
+            "Within one week",
             "Within 24 hours",
             "Within 72 hours",
-            "Within one week"
+            "Within 48 hours"
           ],
           correctAnswer: 1,
           explanation: "Critical newborn screening results require provider notification within twenty-four hours to ensure prompt diagnosis and treatment for time-sensitive conditions."
@@ -883,22 +883,22 @@ This module covers the practical application of genetic testing technologies acr
           options: [
             "Ten to twenty percent",
             "Twenty to forty percent",
-            "Thirty to fifty percent",
-            "Fifty to seventy percent"
+            "Fifty to seventy percent",
+            "Thirty to fifty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Success rates for couples using preimplantation genetic testing typically range from thirty to fifty percent per embryo transfer, though this varies based on multiple factors."
         },
         {
           id: 20,
           question: "Which pharmacogenetic test helps prevent severe hypersensitivity reactions to HIV medication?",
           options: [
-            "CYP2D6 testing",
-            "CYP2C9 testing",
             "HLA-B*5701 testing",
+            "CYP2C9 testing",
+            "CYP2D6 testing",
             "VKORC1 testing"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "HLA-B*5701 testing identifies individuals at risk for severe hypersensitivity reactions to abacavir, an HIV medication, allowing alternative treatment selection."
         }
       ]
@@ -974,59 +974,59 @@ This module explores the psychological, emotional, and social dimensions of gene
           question: "What percentage of individuals receiving positive genetic test results experience clinically significant distress in the first month?",
           options: [
             "Ten to fifteen percent",
-            "Twenty to thirty percent",
+            "Forty to fifty percent",
             "Thirty to forty percent",
-            "Forty to fifty percent"
+            "Twenty to thirty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately twenty to thirty percent of individuals receiving positive genetic test results experience clinically significant distress in the first month after results disclosure."
         },
         {
           id: 2,
           question: "What does the 'L' in the SOLER active listening technique represent?",
           options: [
+            "Limit interruptions",
             "Listen intently",
-            "Lean slightly forward",
             "Look directly",
-            "Limit interruptions"
+            "Lean slightly forward"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "In the SOLER technique for active listening, 'L' stands for 'Lean slightly forward,' which demonstrates engagement and attention to the speaker."
         },
         {
           id: 3,
           question: "What is the term for recurrent feelings of grief that resurface at developmental milestones for parents of children with genetic conditions?",
           options: [
-            "Complicated grief",
-            "Chronic sorrow",
             "Persistent mourning",
-            "Developmental grief"
+            "Developmental grief",
+            "Chronic sorrow",
+            "Complicated grief"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Chronic sorrow describes recurrent feelings of grief that resurface at developmental milestones or when parents compare their child with typically developing children."
         },
         {
           id: 4,
           question: "Approximately what percentage of genetic counseling clients prefer services in languages other than English?",
           options: [
+            "Twenty-five percent",
             "Five percent",
             "Fifteen percent",
-            "Twenty-five percent",
             "Thirty-five percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately fifteen percent of genetic counseling clients prefer services in languages other than English, necessitating interpreter services or bilingual counselors."
         },
         {
           id: 5,
           question: "At what age range do children typically develop understanding of basic genetic concepts?",
           options: [
-            "Three to six years",
             "Seven to twelve years",
             "Thirteen to sixteen years",
-            "Seventeen to twenty years"
+            "Seventeen to twenty years",
+            "Three to six years"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Children's understanding of basic genetic concepts typically develops gradually between ages seven and twelve, with increasing complexity through adolescence."
         },
         {
@@ -1046,11 +1046,11 @@ This module explores the psychological, emotional, and social dimensions of gene
           question: "Which standardized tool helps assess depression severity in clinical settings?",
           options: [
             "GAD-7",
+            "HAM-D",
             "PHQ-9",
-            "BDI-II",
-            "HAM-D"
+            "BDI-II"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "The PHQ-9 (Patient Health Questionnaire-9) is a commonly used standardized tool to assess depression severity in clinical settings."
         },
         {
@@ -1058,32 +1058,32 @@ This module explores the psychological, emotional, and social dimensions of gene
           question: "What percentage of genetic counselors report high emotional exhaustion indicative of burnout?",
           options: [
             "Ten to twenty percent",
-            "Twenty to thirty percent",
             "Thirty to forty percent",
-            "Forty to fifty percent"
+            "Forty to fifty percent",
+            "Twenty to thirty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "Approximately thirty to forty percent of genetic counselors report high emotional exhaustion, a key component of professional burnout."
         },
         {
           id: 9,
           question: "Which professional organization includes self-care as an ethical duty in its Code of Ethics?",
           options: [
-            "American Psychological Association",
-            "National Society of Genetic Counselors",
+            "American Medical Association",
             "American Counseling Association",
-            "American Medical Association"
+            "American Psychological Association",
+            "National Society of Genetic Counselors"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The National Society of Genetic Counselors Code of Ethics includes self-care as an ethical duty to maintain professional competence and prevent harm to clients."
         },
         {
           id: 10,
           question: "What is the key difference between empathy and sympathy in counseling?",
           options: [
-            "Empathy involves feeling pity, sympathy involves understanding",
-            "Empathy involves understanding, sympathy involves feeling pity",
             "Both terms mean exactly the same thing",
+            "Empathy involves understanding, sympathy involves feeling pity",
+            "Empathy involves feeling pity, sympathy involves understanding",
             "Empathy is verbal, sympathy is nonverbal"
           ],
           correctAnswer: 1,
@@ -1093,24 +1093,24 @@ This module explores the psychological, emotional, and social dimensions of gene
           id: 11,
           question: "What does the 'E' in the SOLER active listening technique represent?",
           options: [
+            "Eliminate distractions",
             "Engage actively",
             "Eye contact maintained",
-            "Express interest",
-            "Eliminate distractions"
+            "Express interest"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "In the SOLER technique, 'E' stands for 'Eye contact maintained,' which demonstrates attention and connection with the speaker."
         },
         {
           id: 12,
           question: "Which type of question explores relationship dynamics in family systems?",
           options: [
+            "Leading questions",
             "Open-ended questions",
             "Closed questions",
-            "Circular questions",
-            "Leading questions"
+            "Circular questions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Circular questions explore relationship dynamics and differences in perspectives within family systems, such as 'How do you think your mother would react to this information?'"
         },
         {
@@ -1118,56 +1118,56 @@ This module explores the psychological, emotional, and social dimensions of gene
           question: "Approximately how many couples experience infertility?",
           options: [
             "1 in 10",
-            "1 in 8",
+            "1 in 4",
             "1 in 6",
-            "1 in 4"
+            "1 in 8"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately one in eight couples experiences infertility, defined as inability to conceive after one year of unprotected intercourse."
         },
         {
           id: 14,
           question: "What is the term for trauma exposure response from helping suffering clients?",
           options: [
-            "Burnout",
             "Compassion fatigue",
-            "Secondary trauma",
-            "Vicarious traumatization"
+            "Vicarious traumatization",
+            "Burnout",
+            "Secondary trauma"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Compassion fatigue is a trauma exposure response specific to helping professionals who regularly work with suffering clients, distinct from general burnout."
         },
         {
           id: 15,
           question: "Which component of burnout involves seeing clients as impersonal objects?",
           options: [
-            "Emotional exhaustion",
             "Depersonalization",
             "Reduced personal accomplishment",
+            "Emotional exhaustion",
             "Professional disillusionment"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Depersonalization involves seeing clients as impersonal objects or cases rather than individuals, often manifested through cynicism or detachment."
         },
         {
           id: 16,
           question: "What should be the first priority when a client expresses suicidal thoughts?",
           options: [
+            "Schedule follow-up appointment",
             "Document the conversation thoroughly",
-            "Immediate safety planning",
             "Notify family members",
-            "Schedule follow-up appointment"
+            "Immediate safety planning"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "When a client expresses suicidal thoughts, immediate safety planning is the first priority, followed by appropriate referrals to mental health emergency services."
         },
         {
           id: 17,
           question: "Which approach involves ongoing self-reflection about one's own cultural background and biases?",
           options: [
-            "Cultural competence",
-            "Cultural humility",
             "Cultural sensitivity",
+            "Cultural humility",
+            "Cultural competence",
             "Cultural awareness"
           ],
           correctAnswer: 1,
@@ -1177,12 +1177,12 @@ This module explores the psychological, emotional, and social dimensions of gene
           id: 18,
           question: "What does the 'S' in the SOLER active listening technique represent?",
           options: [
-            "Sit straight",
             "Squarely face the client",
-            "Show interest",
-            "Silence phones"
+            "Sit straight",
+            "Silence phones",
+            "Show interest"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "In the SOLER technique, 'S' stands for 'Squarely face the client,' which demonstrates full attention and engagement in the conversation."
         },
         {
@@ -1203,10 +1203,10 @@ This module explores the psychological, emotional, and social dimensions of gene
           options: [
             "Only objective facts, not emotions",
             "Only severe emotional reactions",
-            "Emotional responses and coping strategies",
-            "Counselor's personal impressions"
+            "Counselor's personal impressions",
+            "Emotional responses and coping strategies"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Psychosocial documentation should include clients' emotional responses and observed coping strategies, providing a comprehensive record for continuity of care."
         }
       ]
@@ -1294,9 +1294,9 @@ This module examines the complex ethical, legal, and social issues surrounding g
           question: "Which ethical principle is fundamentally supported by genetic counseling's non-directive approach?",
           options: [
             "Beneficence",
-            "Non-maleficence",
+            "Justice",
             "Autonomy",
-            "Justice"
+            "Non-maleficence"
           ],
           correctAnswer: 2,
           explanation: "Autonomy-respecting individuals' rights to make informed decisions-is fundamentally supported by genetic counseling's non-directive approach of providing information without directing choices."
@@ -1305,24 +1305,24 @@ This module examines the complex ethical, legal, and social issues surrounding g
           id: 2,
           question: "Approximately what percentage of people worry about genetic discrimination when considering genetic testing?",
           options: [
-            "Fifteen percent",
             "Twenty-five percent",
             "Thirty-five percent",
-            "Forty-five percent"
+            "Forty-five percent",
+            "Fifteen percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Approximately twenty-five percent of people express concerns about genetic discrimination when considering genetic testing, despite legal protections like GINA."
         },
         {
           id: 3,
           question: "Which type of insurance is NOT covered by the Genetic Information Nondiscrimination Act (GINA)?",
           options: [
-            "Individual health insurance",
-            "Group health insurance",
+            "Employer-sponsored health insurance",
             "Life insurance",
-            "Employer-sponsored health insurance"
+            "Individual health insurance",
+            "Group health insurance"
           ],
-          correctAnswer: 2,
+          correctAnswer: 1,
           explanation: "GINA does NOT cover life insurance, disability insurance, long-term care insurance, or the US military, though it does protect against discrimination in health insurance and employment."
         },
         {
@@ -1331,8 +1331,8 @@ This module examines the complex ethical, legal, and social issues surrounding g
           options: [
             "Twice as likely",
             "Three times as likely",
-            "Four times as likely",
-            "Five times as likely"
+            "Five times as likely",
+            "Four times as likely"
           ],
           correctAnswer: 1,
           explanation: "Individuals with higher education and income are approximately three times more likely to receive genetic counseling than those with lower socioeconomic status, highlighting access disparities."
@@ -1341,34 +1341,34 @@ This module examines the complex ethical, legal, and social issues surrounding g
           id: 5,
           question: "Approximately what percentage of research participants want to receive individual research results with clinical significance?",
           options: [
-            "Forty percent",
-            "Fifty percent",
             "Sixty percent",
-            "Seventy percent"
+            "Seventy percent",
+            "Fifty percent",
+            "Forty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately sixty percent of research participants want to receive individual research results that have clinical significance, creating ethical obligations for researchers."
         },
         {
           id: 6,
           question: "At approximately what rate do African Americans and Hispanics receive genetic counseling compared to White individuals?",
           options: [
+            "Three-quarters the rate",
             "One-third the rate",
-            "Half the rate",
             "Two-thirds the rate",
-            "Three-quarters the rate"
+            "Half the rate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "African Americans and Hispanics receive genetic counseling at approximately half the rate of White individuals, reflecting significant health disparities in genetic service access."
         },
         {
           id: 7,
           question: "What percentage of direct-to-consumer test results requiring clinical confirmation are found to be false positives?",
           options: [
-            "Twenty percent",
             "Thirty percent",
+            "Fifty percent",
             "Forty percent",
-            "Fifty percent"
+            "Twenty percent"
           ],
           correctAnswer: 2,
           explanation: "Approximately forty percent of direct-to-consumer test results that require clinical confirmation are found to be false positives, highlighting the importance of confirmatory clinical testing."
@@ -1379,8 +1379,8 @@ This module examines the complex ethical, legal, and social issues surrounding g
           options: [
             "The Human Genome Project",
             "The Tuskegee Syphilis Study",
-            "The Nuremberg Trials",
-            "The Belmont Report"
+            "The Belmont Report",
+            "The Nuremberg Trials"
           ],
           correctAnswer: 1,
           explanation: "The Tuskegee Syphilis Study, where African American men were denied treatment for syphilis without informed consent, continues to affect trust in medical research and genetic services in African American communities."
@@ -1389,32 +1389,32 @@ This module examines the complex ethical, legal, and social issues surrounding g
           id: 9,
           question: "What does the Affordable Care Act require regarding genetic counseling for hereditary cancer syndromes?",
           options: [
+            "It is only covered with pre-authorization",
             "It is not covered",
-            "It is covered as a preventive service without cost-sharing",
             "It requires fifty percent co-payment",
-            "It is only covered with pre-authorization"
+            "It is covered as a preventive service without cost-sharing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "The Affordable Care Act requires coverage of genetic counseling and testing for hereditary cancer syndromes as preventive services without cost-sharing (deductibles, co-pays, or co-insurance)."
         },
         {
           id: 10,
           question: "What is the current international consensus on clinical germline gene editing?",
           options: [
+            "Opposed for clinical use",
             "Fully supported for all conditions",
             "Allowed for serious conditions only",
-            "Opposed for clinical use",
             "Unregulated and left to individual countries"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "International consensus currently opposes clinical germline gene editing but allows research under strict oversight, due to ethical concerns about heritable changes and safety uncertainties."
         },
         {
           id: 11,
           question: "Which ethical principle requires providing comprehensive information to support voluntary decision-making?",
           options: [
-            "Beneficence",
             "Justice",
+            "Beneficence",
             "Autonomy",
             "Non-maleficence"
           ],
@@ -1425,36 +1425,36 @@ This module examines the complex ethical, legal, and social issues surrounding g
           id: 12,
           question: "What professional approach generally supports encouraging but not forcing information sharing with at-risk relatives?",
           options: [
-            "Mandatory disclosure",
-            "Complete confidentiality",
             "Encouraged sharing",
-            "Family veto power"
+            "Family veto power",
+            "Mandatory disclosure",
+            "Complete confidentiality"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Professional guidelines generally support encouraging but not forcing information sharing with at-risk relatives, balancing individual confidentiality with relatives' health interests."
         },
         {
           id: 13,
           question: "Which reproductive practice do professional guidelines generally oppose when done for non-medical reasons?",
           options: [
-            "Prenatal diagnosis for serious conditions",
-            "Preimplantation testing for single gene disorders",
             "Sex selection for non-medical reasons",
+            "Preimplantation testing for single gene disorders",
+            "Prenatal diagnosis for serious conditions",
             "Carrier screening for recessive conditions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Professional guidelines generally oppose sex selection and other non-medical trait selection while supporting genetic testing for medical indications."
         },
         {
           id: 14,
           question: "What is a primary concern regarding polygenic risk scores in clinical genetics?",
           options: [
-            "They are one hundred percent accurate",
-            "They have limited predictive value for individuals",
             "They are too expensive to calculate",
-            "They require invasive testing"
+            "They require invasive testing",
+            "They have limited predictive value for individuals",
+            "They are one hundred percent accurate"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "A primary concern regarding polygenic risk scores is their limited predictive value for individuals, population-specific differences, and potential for misinterpretation despite population-level associations."
         },
         {
@@ -1463,8 +1463,8 @@ This module examines the complex ethical, legal, and social issues surrounding g
           options: [
             "HIPAA",
             "GINA",
-            "ACA",
-            "CLIA"
+            "CLIA",
+            "ACA"
           ],
           correctAnswer: 1,
           explanation: "The Genetic Information Nondiscrimination Act (GINA) prohibits health insurers from using genetic information to deny coverage, set premiums, or impose pre-existing condition exclusions."
@@ -1473,8 +1473,8 @@ This module examines the complex ethical, legal, and social issues surrounding g
           id: 16,
           question: "What percentage of negligence claims in genetics involve failure to diagnose hereditary conditions?",
           options: [
-            "Less than ten percent",
             "Approximately twenty-five percent",
+            "Less than ten percent",
             "Approximately fifty percent",
             "More than seventy-five percent"
           ],
@@ -1485,20 +1485,20 @@ This module examines the complex ethical, legal, and social issues surrounding g
           id: 17,
           question: "Which approach helps address health disparities through community partnership in research?",
           options: [
-            "Expert-driven research",
             "Community-based participatory research",
             "Laboratory-based research",
+            "Expert-driven research",
             "Population screening research"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Community-based participatory research involves communities as partners in research design and implementation, helping address health disparities and build trust in marginalized communities."
         },
         {
           id: 18,
           question: "What is a key ethical concern regarding artificial intelligence in genetic counseling?",
           options: [
-            "It is too expensive",
             "It is not accurate enough",
+            "It is too expensive",
             "Bias risks in algorithms",
             "It requires too much training"
           ],
@@ -1509,22 +1509,22 @@ This module examines the complex ethical, legal, and social issues surrounding g
           id: 19,
           question: "What does true informed consent require beyond obtaining a signature?",
           options: [
-            "Witness presence",
             "Notarization",
-            "Comprehension",
-            "Video recording"
+            "Witness presence",
+            "Video recording",
+            "Comprehension"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "True informed consent requires actual comprehension of the information, not just obtaining a signature on a form, ensuring individuals understand what they're consenting to."
         },
         {
           id: 20,
           question: "Which disability perspective emphasizes social barriers rather than medical conditions as primary limitations?",
           options: [
-            "Medical model",
+            "Biopsychosocial model",
             "Social model",
             "Charity model",
-            "Biopsychosocial model"
+            "Medical model"
           ],
           correctAnswer: 1,
           explanation: "The social model of disability, emphasized by the disability rights movement, focuses on social barriers and attitudes as primary limitations rather than medical conditions themselves."
@@ -1623,132 +1623,132 @@ This final module prepares you for professional genetic counseling practice, inc
           id: 1,
           question: "What is the approximate first-time pass rate for the American Board of Genetic Counseling certification examination?",
           options: [
-            "Sixty percent",
             "Seventy percent",
-            "Eighty percent",
-            "Ninety percent"
+            "Ninety percent",
+            "Sixty percent",
+            "Eighty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "First-time pass rates for the ABGC certification examination average approximately eighty percent, with variation between different training programs."
         },
         {
           id: 2,
           question: "Approximately how many states currently have genetic counselor licensure laws?",
           options: [
-            "Fifteen states",
-            "Twenty states",
             "Thirty states",
+            "Twenty states",
+            "Fifteen states",
             "Forty states"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately thirty states currently have genetic counselor licensure laws, with ongoing efforts to establish licensure in additional states."
         },
         {
           id: 3,
           question: "What percentage of their time do genetic counselors typically spend in direct patient care?",
           options: [
+            "Seventy-five percent",
             "Twenty-five percent",
             "Forty percent",
-            "Sixty percent",
-            "Seventy-five percent"
+            "Sixty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Genetic counselors typically spend approximately forty percent of their time in direct patient care, with the remainder dedicated to documentation, coordination, and other professional activities."
         },
         {
           id: 4,
           question: "Approximately what percentage of genetic counselors work in non-traditional roles outside direct patient care?",
           options: [
-            "Five percent",
-            "Fifteen percent",
             "Twenty-five percent",
-            "Thirty-five percent"
+            "Thirty-five percent",
+            "Five percent",
+            "Fifteen percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Approximately fifteen percent of genetic counselors work in non-traditional roles such as laboratory consultancy, research, industry, education, or administration outside direct patient care."
         },
         {
           id: 5,
           question: "How many continuing education credits does ABGC require for recertification every five years?",
           options: [
-            "Thirty credits",
-            "Fifty credits",
             "Seventy-five credits",
-            "One hundred credits"
+            "Thirty credits",
+            "One hundred credits",
+            "Fifty credits"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "ABGC requires fifty continuing education credits every five years for recertification, including specific categories like ethics, practice improvement, and clinical genetics."
         },
         {
           id: 6,
           question: "Approximately what percentage of genetic counseling now occurs via telehealth according to recent trends?",
           options: [
-            "Twenty percent",
             "Thirty percent",
-            "Forty percent",
-            "Fifty percent"
+            "Fifty percent",
+            "Twenty percent",
+            "Forty percent"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "Approximately forty percent of genetic counseling now occurs via telehealth, a significant increase following pandemic adaptations and technology improvements."
         },
         {
           id: 7,
           question: "What is the approximate annual growth rate projected for genetic counselor positions?",
           options: [
-            "Two percent",
-            "Five percent",
+            "Ten percent",
             "Eight percent",
-            "Ten percent"
+            "Five percent",
+            "Two percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Genetic counselor positions are projected to grow at approximately five percent annually, with demand exceeding supply in many regions and specialties."
         },
         {
           id: 8,
           question: "How many patients do clinical genetic counselors typically see per week depending on complexity?",
           options: [
-            "Four to six patients",
-            "Eight to twelve patients",
             "Fifteen to twenty patients",
-            "Twenty-five to thirty patients"
+            "Twenty-five to thirty patients",
+            "Eight to twelve patients",
+            "Four to six patients"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Clinical genetic counselors typically see eight to twelve patients per week depending on case complexity, with more time required for new diagnoses or complex counseling situations."
         },
         {
           id: 9,
           question: "What percentage of genetic counselors hold formal leadership positions according to estimates?",
           options: [
+            "Forty percent",
             "Ten percent",
             "Twenty percent",
-            "Thirty percent",
-            "Forty percent"
+            "Thirty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Approximately twenty percent of genetic counselors hold formal leadership positions such as program directors, department chairs, or organizational leadership roles."
         },
         {
           id: 10,
           question: "How many cases do laboratory genetic counselors typically review weekly?",
           options: [
+            "Over one hundred cases",
             "Ten to twenty cases",
-            "Twenty to fifty cases",
             "Fifty to one hundred cases",
-            "Over one hundred cases"
+            "Twenty to fifty cases"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Laboratory genetic counselors typically review twenty to fifty cases weekly, providing variant interpretation and clinician support for genetic test results."
         },
         {
           id: 11,
           question: "Which professional organization provides the Code of Ethics for genetic counselors?",
           options: [
-            "American Board of Genetic Counseling",
             "National Society of Genetic Counselors",
             "American College of Medical Genetics",
-            "American Society of Human Genetics"
+            "American Society of Human Genetics",
+            "American Board of Genetic Counseling"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "The National Society of Genetic Counselors (NSGC) developed and maintains the Code of Ethics for genetic counselors, along with practice guidelines and competencies."
         },
         {
@@ -1756,69 +1756,69 @@ This final module prepares you for professional genetic counseling practice, inc
           question: "What is the typical duration of regular supervision for new genetic counseling graduates?",
           options: [
             "Three to six months",
+            "Two to three years",
             "Six to twelve months",
-            "One to two years",
-            "Two to three years"
+            "One to two years"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "New genetic counseling graduates typically receive regular supervision for one to two years as they transition to independent practice and develop clinical expertise."
         },
         {
           id: 13,
           question: "What percentage of their time do genetic counselors typically spend on continuing education activities?",
           options: [
+            "Ten to fifteen percent",
             "One to three percent",
             "Five to ten percent",
-            "Ten to fifteen percent",
             "Fifteen to twenty percent"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Genetic counselors typically spend five to ten percent of their time on continuing education activities to maintain certification and stay current with rapid advances."
         },
         {
           id: 14,
           question: "Which billing method involves genetic counselors working under physician supervision?",
           options: [
-            "Professional fee billing",
-            "Incident-to billing",
             "Global fee billing",
-            "Capitated billing"
+            "Capitated billing",
+            "Incident-to billing",
+            "Professional fee billing"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Incident-to billing allows genetic counselors to bill for services provided under physician supervision in certain practice settings and insurance arrangements."
         },
         {
           id: 15,
           question: "How many members does the National Society of Genetic Counselors approximately include?",
           options: [
-            "Two thousand members",
+            "Seven thousand members",
             "Three thousand members",
-            "Five thousand members",
-            "Seven thousand members"
+            "Two thousand members",
+            "Five thousand members"
           ],
-          correctAnswer: 2,
+          correctAnswer: 3,
           explanation: "The National Society of Genetic Counselors includes approximately five thousand members, comprising practicing genetic counselors, students, and international affiliates."
         },
         {
           id: 16,
           question: "What is the typical documentation time required per patient encounter for genetic counselors?",
           options: [
+            "Sixty to ninety minutes",
             "Fifteen to thirty minutes",
             "Thirty to sixty minutes",
-            "Sixty to ninety minutes",
             "Ninety to one hundred twenty minutes"
           ],
-          correctAnswer: 1,
+          correctAnswer: 2,
           explanation: "Genetic counselors typically require thirty to sixty minutes for documentation per patient encounter, including counseling notes, letters, and test coordination."
         },
         {
           id: 17,
           question: "Which certification is required for most clinical genetic counseling positions and state licensure?",
           options: [
-            "NSGC membership",
+            "Graduate degree only",
             "ABGC certification",
             "State license only",
-            "Graduate degree only"
+            "NSGC membership"
           ],
           correctAnswer: 1,
           explanation: "American Board of Genetic Counseling (ABGC) certification is required for most clinical genetic counseling positions and for state licensure where available."
@@ -1827,12 +1827,12 @@ This final module prepares you for professional genetic counseling practice, inc
           id: 18,
           question: "What type of positions do approximately fifteen percent of genetic counselors hold according to the module?",
           options: [
-            "Hospital-based clinical positions",
-            "Academic medical center positions",
             "Non-traditional roles outside direct patient care",
+            "Academic medical center positions",
+            "Hospital-based clinical positions",
             "Private practice positions"
           ],
-          correctAnswer: 2,
+          correctAnswer: 0,
           explanation: "Approximately fifteen percent of genetic counselors work in non-traditional roles outside direct patient care, including laboratory, research, industry, education, or administration positions."
         },
         {
@@ -1840,23 +1840,23 @@ This final module prepares you for professional genetic counseling practice, inc
           question: "How often must genetic counselors complete recertification through ABGC?",
           options: [
             "Every three years",
-            "Every five years",
+            "Every ten years",
             "Every seven years",
-            "Every ten years"
+            "Every five years"
           ],
-          correctAnswer: 1,
+          correctAnswer: 3,
           explanation: "Genetic counselors must complete recertification through ABGC every five years, requiring continuing education credits and practice assessment components."
         },
         {
           id: 20,
           question: "What development is helping address geographic maldistribution of genetic counselors?",
           options: [
-            "Increased in-person requirements",
             "Telehealth expansion",
+            "Licensure restrictions",
             "Reduced training programs",
-            "Licensure restrictions"
+            "Increased in-person requirements"
           ],
-          correctAnswer: 1,
+          correctAnswer: 0,
           explanation: "Telehealth expansion is helping address geographic maldistribution of genetic counselors by increasing access to genetic services in rural and underserved areas."
         }
       ]
@@ -1875,12 +1875,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 1,
         question: "How many chromosomes do humans typically inherit from each parent?",
         options: [
-          "Twenty-two chromosomes",
           "Twenty-three chromosomes",
           "Twenty-four chromosomes",
-          "Forty-six chromosomes"
+          "Forty-six chromosomes",
+          "Twenty-two chromosomes"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 1: Humans inherit twenty-three chromosomes from each parent, giving a total of forty-six chromosomes in most cells.",
         module: 1
       },
@@ -1889,11 +1889,11 @@ This final module prepares you for professional genetic counseling practice, inc
         question: "What inheritance pattern requires only one changed gene copy to cause a condition?",
         options: [
           "Autosomal recessive",
-          "X-linked dominant",
           "Autosomal dominant",
+          "X-linked dominant",
           "Mitochondrial inheritance"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "From Module 1: Autosomal dominant conditions require only one copy of a changed gene to cause the condition.",
         module: 1
       },
@@ -1901,12 +1901,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 3,
         question: "What standard symbol represents females in pedigree diagrams?",
         options: [
-          "Squares",
           "Circles",
-          "Triangles",
-          "Diamonds"
+          "Diamonds",
+          "Squares",
+          "Triangles"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 2: In standard pedigree notation, circles represent females, squares represent males.",
         module: 2
       },
@@ -1915,11 +1915,11 @@ This final module prepares you for professional genetic counseling practice, inc
         question: "Approximately what percentage of cancers have a strong hereditary component?",
         options: [
           "One to two percent",
-          "Five to ten percent",
           "Fifteen to twenty percent",
+          "Five to ten percent",
           "Twenty-five to thirty percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 2: Approximately five to ten percent of cancers have a strong hereditary component identifiable through pedigree analysis.",
         module: 2
       },
@@ -1927,12 +1927,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 5,
         question: "Which testing method provides a picture of all chromosomes to detect large changes?",
         options: [
+          "Sanger sequencing",
           "FISH testing",
-          "Karyotyping",
           "Chromosomal microarray",
-          "Sanger sequencing"
+          "Karyotyping"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 3: Karyotyping provides a visual representation of all chromosomes arranged in pairs.",
         module: 3
       },
@@ -1940,12 +1940,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 6,
         question: "Approximately what percentage of genetic tests identify variants of uncertain significance?",
         options: [
-          "Five to ten percent",
           "Ten to twenty percent",
-          "Twenty to thirty percent",
-          "Thirty to forty percent"
+          "Thirty to forty percent",
+          "Five to ten percent",
+          "Twenty to thirty percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 3: Approximately ten to twenty percent of genetic tests identify variants of uncertain significance.",
         module: 3
       },
@@ -1953,12 +1953,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 7,
         question: "What percentage of individuals receiving positive genetic test results experience clinically significant distress in the first month?",
         options: [
+          "Forty to fifty percent",
           "Ten to fifteen percent",
-          "Twenty to thirty percent",
           "Thirty to forty percent",
-          "Forty to fifty percent"
+          "Twenty to thirty percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 4: Approximately twenty to thirty percent of individuals experience clinically significant distress after positive results.",
         module: 4
       },
@@ -1966,12 +1966,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 8,
         question: "What does the 'L' in the SOLER active listening technique represent?",
         options: [
-          "Listen intently",
           "Lean slightly forward",
           "Look directly",
+          "Listen intently",
           "Limit interruptions"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 4: In the SOLER technique, 'L' stands for 'Lean slightly forward' to demonstrate engagement.",
         module: 4
       },
@@ -1979,12 +1979,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 9,
         question: "Which ethical principle is fundamentally supported by genetic counseling's non-directive approach?",
         options: [
-          "Beneficence",
-          "Non-maleficence",
           "Autonomy",
-          "Justice"
+          "Beneficence",
+          "Justice",
+          "Non-maleficence"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "From Module 5: Autonomy-respecting individuals' rights to make informed decisions-is supported by non-directive counseling.",
         module: 5
       },
@@ -1992,12 +1992,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 10,
         question: "Approximately what percentage of people worry about genetic discrimination when considering testing?",
         options: [
-          "Fifteen percent",
           "Twenty-five percent",
+          "Forty-five percent",
           "Thirty-five percent",
-          "Forty-five percent"
+          "Fifteen percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 5: Approximately twenty-five percent of people worry about genetic discrimination despite legal protections.",
         module: 5
       },
@@ -2006,11 +2006,11 @@ This final module prepares you for professional genetic counseling practice, inc
         question: "What is the approximate first-time pass rate for the ABGC certification examination?",
         options: [
           "Sixty percent",
-          "Seventy percent",
           "Eighty percent",
-          "Ninety percent"
+          "Ninety percent",
+          "Seventy percent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "From Module 6: First-time pass rates for the ABGC certification exam average approximately eighty percent.",
         module: 6
       },
@@ -2018,10 +2018,10 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 12,
         question: "Approximately how many states currently have genetic counselor licensure laws?",
         options: [
-          "Fifteen states",
+          "Forty states",
           "Twenty states",
           "Thirty states",
-          "Forty states"
+          "Fifteen states"
         ],
         correctAnswer: 2,
         explanation: "From Module 6: Approximately thirty states currently have genetic counselor licensure laws.",
@@ -2031,12 +2031,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 13,
         question: "For autosomal recessive conditions with two carrier parents, what is each child's chance of having the condition?",
         options: [
+          "Seventy-five percent",
           "Ten percent",
           "Twenty-five percent",
-          "Fifty percent",
-          "Seventy-five percent"
+          "Fifty percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 1: Each child has a twenty-five percent chance of inheriting two changed copies from carrier parents.",
         module: 1
       },
@@ -2045,11 +2045,11 @@ This final module prepares you for professional genetic counseling practice, inc
         question: "Which risk communication format do people typically understand best according to research?",
         options: [
           "Percentages alone",
+          "Decimal numbers",
           "Fractions alone",
-          "Natural frequencies",
-          "Decimal numbers"
+          "Natural frequencies"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "From Module 2: People understand risks best as natural frequencies (e.g., '1 in 4') rather than percentages.",
         module: 2
       },
@@ -2057,12 +2057,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 15,
         question: "What is the approximate procedure-related miscarriage risk for amniocentesis by experienced providers?",
         options: [
-          "1 in 100",
           "1 in 250",
-          "1 in 500",
-          "1 in 1,000"
+          "1 in 100",
+          "1 in 1,000",
+          "1 in 500"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "From Module 3: Amniocentesis carries approximately 1 in 500 procedure-related miscarriage risk with experienced providers.",
         module: 3
       },
@@ -2070,12 +2070,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 16,
         question: "Approximately what percentage of genetic counseling clients prefer services in languages other than English?",
         options: [
-          "Five percent",
-          "Fifteen percent",
           "Twenty-five percent",
-          "Thirty-five percent"
+          "Thirty-five percent",
+          "Fifteen percent",
+          "Five percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 4: Approximately fifteen percent of clients prefer services in other languages.",
         module: 4
       },
@@ -2083,10 +2083,10 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 17,
         question: "Which type of insurance is NOT covered by the Genetic Information Nondiscrimination Act (GINA)?",
         options: [
-          "Individual health insurance",
           "Group health insurance",
+          "Employer-sponsored health insurance",
           "Life insurance",
-          "Employer-sponsored health insurance"
+          "Individual health insurance"
         ],
         correctAnswer: 2,
         explanation: "From Module 5: GINA does NOT cover life insurance, disability insurance, or long-term care insurance.",
@@ -2096,12 +2096,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 18,
         question: "What percentage of their time do genetic counselors typically spend in direct patient care?",
         options: [
-          "Twenty-five percent",
           "Forty percent",
           "Sixty percent",
-          "Seventy-five percent"
+          "Seventy-five percent",
+          "Twenty-five percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 6: Genetic counselors spend approximately forty percent of time in direct patient care.",
         module: 6
       },
@@ -2122,8 +2122,8 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 20,
         question: "What method combines prior probability with new information to calculate updated risks?",
         options: [
-          "Mendelian analysis",
           "Empirical risk calculation",
+          "Mendelian analysis",
           "Bayesian analysis",
           "Statistical modeling"
         ],
@@ -2135,10 +2135,10 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 21,
         question: "What is the approximate lifetime breast cancer risk for women with BRCA mutations?",
         options: [
+          "Eighty to ninety-five percent",
           "Twenty to thirty percent",
-          "Thirty to fifty percent",
           "Fifty to eighty-five percent",
-          "Eighty to ninety-five percent"
+          "Thirty to fifty percent"
         ],
         correctAnswer: 2,
         explanation: "From Module 3: Women with BRCA mutations have fifty to eighty-five percent lifetime breast cancer risk.",
@@ -2148,10 +2148,10 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 22,
         question: "What is the term for recurrent grief at developmental milestones for parents of children with genetic conditions?",
         options: [
-          "Complicated grief",
+          "Developmental grief",
           "Chronic sorrow",
           "Persistent mourning",
-          "Developmental grief"
+          "Complicated grief"
         ],
         correctAnswer: 1,
         explanation: "From Module 4: Chronic sorrow describes recurrent grief at developmental milestones.",
@@ -2161,12 +2161,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 23,
         question: "How much more likely are higher socioeconomic individuals to receive genetic counseling?",
         options: [
-          "Twice as likely",
           "Three times as likely",
+          "Five times as likely",
           "Four times as likely",
-          "Five times as likely"
+          "Twice as likely"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 5: Higher socioeconomic individuals are three times more likely to receive genetic counseling.",
         module: 5
       },
@@ -2175,11 +2175,11 @@ This final module prepares you for professional genetic counseling practice, inc
         question: "Approximately what percentage of genetic counselors work in non-traditional roles?",
         options: [
           "Five percent",
+          "Thirty-five percent",
           "Fifteen percent",
-          "Twenty-five percent",
-          "Thirty-five percent"
+          "Twenty-five percent"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 6: Approximately fifteen percent work in non-traditional roles outside direct patient care.",
         module: 6
       },
@@ -2187,12 +2187,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 25,
         question: "What is the shape of the DNA molecule called?",
         options: [
+          "Triple helix",
           "Single helix",
           "Double helix",
-          "Triple helix",
           "Circular loop"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 1: DNA has a double helix structure resembling a twisted ladder.",
         module: 1
       },
@@ -2200,10 +2200,10 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 26,
         question: "What inheritance pattern is suggested when a condition appears across multiple generations?",
         options: [
-          "Autosomal recessive",
-          "Autosomal dominant",
           "X-linked recessive",
-          "Mitochondrial"
+          "Autosomal dominant",
+          "Mitochondrial",
+          "Autosomal recessive"
         ],
         correctAnswer: 1,
         explanation: "From Module 2: Vertical patterns across generations suggest autosomal dominant inheritance.",
@@ -2213,12 +2213,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 27,
         question: "Which enzyme system metabolizes approximately seventy-five percent of commonly prescribed drugs?",
         options: [
-          "Alcohol dehydrogenase",
           "Cytochrome P450",
+          "Alcohol dehydrogenase",
           "Monoamine oxidase",
           "Glucuronosyltransferase"
         ],
-        correctAnswer: 1,
+        correctAnswer: 0,
         explanation: "From Module 3: Cytochrome P450 enzymes metabolize seventy-five percent of common drugs.",
         module: 3
       },
@@ -2226,12 +2226,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 28,
         question: "At what age range do children develop understanding of basic genetic concepts?",
         options: [
-          "Three to six years",
-          "Seven to twelve years",
+          "Seventeen to twenty years",
           "Thirteen to sixteen years",
-          "Seventeen to twenty years"
+          "Seven to twelve years",
+          "Three to six years"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 4: Children understand genetics gradually between ages seven and twelve.",
         module: 4
       },
@@ -2239,12 +2239,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 29,
         question: "Approximately what percentage of research participants want individual research results?",
         options: [
-          "Forty percent",
-          "Fifty percent",
           "Sixty percent",
-          "Seventy percent"
+          "Seventy percent",
+          "Forty percent",
+          "Fifty percent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "From Module 5: Approximately sixty percent want individual research results with clinical significance.",
         module: 5
       },
@@ -2253,11 +2253,11 @@ This final module prepares you for professional genetic counseling practice, inc
         question: "How many continuing education credits does ABGC require every five years?",
         options: [
           "Thirty credits",
+          "One hundred credits",
           "Fifty credits",
-          "Seventy-five credits",
-          "One hundred credits"
+          "Seventy-five credits"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "From Module 6: ABGC requires fifty continuing education credits every five years.",
         module: 6
       },
@@ -2265,12 +2265,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 31,
         question: "What type of mutation creates a premature stop signal?",
         options: [
-          "Missense mutation",
-          "Frameshift mutation",
           "Nonsense mutation",
-          "Splice site mutation"
+          "Splice site mutation",
+          "Frameshift mutation",
+          "Missense mutation"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "From Module 1: Nonsense mutations create premature stop signals in the genetic code.",
         module: 1
       },
@@ -2278,12 +2278,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 32,
         question: "What is the general population risk for neural tube defects?",
         options: [
-          "1 in 100",
-          "1 in 500",
           "1 in 1,000",
-          "1 in 5,000"
+          "1 in 500",
+          "1 in 5,000",
+          "1 in 100"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "From Module 2: General population risk for neural tube defects is approximately 1 in 1,000.",
         module: 2
       },
@@ -2292,11 +2292,11 @@ This final module prepares you for professional genetic counseling practice, inc
         question: "How many core conditions do most newborn screening programs test for?",
         options: [
           "Fifteen conditions",
-          "Twenty-five conditions",
           "Thirty-five conditions",
+          "Twenty-five conditions",
           "Fifty conditions"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "From Module 3: Most programs test for approximately thirty-five core conditions.",
         module: 3
       },
@@ -2304,12 +2304,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 34,
         question: "What percentage of genetic counselors report high emotional exhaustion?",
         options: [
-          "Ten to twenty percent",
+          "Forty to fifty percent",
           "Twenty to thirty percent",
-          "Thirty to forty percent",
-          "Forty to fifty percent"
+          "Ten to twenty percent",
+          "Thirty to forty percent"
         ],
-        correctAnswer: 2,
+        correctAnswer: 3,
         explanation: "From Module 4: Thirty to forty percent report high emotional exhaustion.",
         module: 4
       },
@@ -2317,10 +2317,10 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 35,
         question: "What percentage of direct-to-consumer test results are false positives?",
         options: [
+          "Fifty percent",
           "Twenty percent",
-          "Thirty percent",
           "Forty percent",
-          "Fifty percent"
+          "Thirty percent"
         ],
         correctAnswer: 2,
         explanation: "From Module 5: Approximately forty percent of direct-to-consumer results are false positives.",
@@ -2343,12 +2343,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 37,
         question: "What is the term for observable characteristics from genetic makeup?",
         options: [
-          "Genotype",
-          "Allele",
           "Phenotype",
-          "Penetrance"
+          "Penetrance",
+          "Allele",
+          "Genotype"
         ],
-        correctAnswer: 2,
+        correctAnswer: 0,
         explanation: "From Module 1: Phenotype refers to observable characteristics from genetics and environment.",
         module: 1
       },
@@ -2356,10 +2356,10 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 38,
         question: "Which counseling approach provides information without directing decisions?",
         options: [
-          "Directive counseling",
+          "Educational counseling",
           "Non-directive counseling",
           "Persuasive counseling",
-          "Educational counseling"
+          "Directive counseling"
         ],
         correctAnswer: 1,
         explanation: "From Module 2: Non-directive counseling provides information without directing decisions.",
@@ -2382,12 +2382,12 @@ This final module prepares you for professional genetic counseling practice, inc
         id: 40,
         question: "Which professional organization's Code of Ethics includes self-care as an ethical duty?",
         options: [
+          "American Medical Association",
           "American Psychological Association",
-          "National Society of Genetic Counselors",
           "American Counseling Association",
-          "American Medical Association"
+          "National Society of Genetic Counselors"
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
         explanation: "From Module 6: NSGC Code of Ethics includes self-care as an ethical duty.",
         module: 6
       }

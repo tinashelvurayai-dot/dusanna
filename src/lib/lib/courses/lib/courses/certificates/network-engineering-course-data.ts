@@ -91,36 +91,36 @@ Professional network design balances performance, reliability, security, and cos
           id: 1,
           question: "What is the purpose of requirements analysis in network design?",
           options: [
-            "Identify business and technical needs",
             "Only select equipment vendors",
             "Set arbitrary network size",
-            "Ignore user requirements"
+            "Ignore user requirements",
+            "Identify business and technical needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Requirements analysis ensures the network meets organizational objectives and user needs."
         },
         {
           id: 2,
           question: "What does the core layer provide in hierarchical design?",
           options: [
-            "High-speed backbone and traffic aggregation",
             "User connectivity only",
+            "High-speed backbone and traffic aggregation",
             "Policy enforcement",
             "Basic switching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The core layer provides fast transport between distribution layers."
         },
         {
           id: 3,
           question: "What is modular design?",
           options: [
-            "Separating network into functional modules",
             "Using identical equipment everywhere",
             "Ignoring functional separation",
+            "Separating network into functional modules",
             "Random network expansion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Modular design creates reusable, testable network components."
         },
         {
@@ -128,9 +128,9 @@ Professional network design balances performance, reliability, security, and cos
           question: "What does the distribution layer handle?",
           options: [
             "Policy enforcement and routing decisions",
-            "Only user connections",
+            "Wireless access",
             "Backbone transport",
-            "Wireless access"
+            "Only user connections"
           ],
           correctAnswer: 0,
           explanation: "Distribution layer implements policies and routes between access and core."
@@ -139,60 +139,60 @@ Professional network design balances performance, reliability, security, and cos
           id: 5,
           question: "What is physical topology?",
           options: [
-            "Actual device connections and cabling",
             "Data flow paths only",
-            "IP addressing schemes",
-            "Routing protocol design"
+            "Actual device connections and cabling",
+            "Routing protocol design",
+            "IP addressing schemes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Physical topology shows real-world device connections and cable runs."
         },
         {
           id: 6,
           question: "Why create redundant links?",
           options: [
-            "Provide backup paths during failures",
-            "Increase network complexity",
+            "Simplify troubleshooting",
             "Reduce available bandwidth",
-            "Simplify troubleshooting"
+            "Increase network complexity",
+            "Provide backup paths during failures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Redundancy ensures network availability when primary paths fail."
         },
         {
           id: 7,
           question: "What does the access layer provide?",
           options: [
-            "User connectivity and network access control",
             "Core backbone transport",
+            "Centralized management",
             "Inter-network routing",
-            "Centralized management"
+            "User connectivity and network access control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Access layer connects end devices and implements access policies."
         },
         {
           id: 8,
           question: "What is logical topology?",
           options: [
-            "Data flow paths and addressing schemes",
             "Physical cable connections",
+            "Power distribution plans",
             "Equipment rack layouts",
-            "Power distribution plans"
+            "Data flow paths and addressing schemes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Logical topology shows how data moves through the network."
         },
         {
           id: 9,
           question: "What does scalability planning involve?",
           options: [
-            "Growth projections and capacity planning",
+            "Fixed network size",
             "Only current requirements",
             "Ignoring future needs",
-            "Fixed network size"
+            "Growth projections and capacity planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Scalability ensures networks can grow to meet future demands."
         },
         {
@@ -200,8 +200,8 @@ Professional network design balances performance, reliability, security, and cos
           question: "What prevents network loops?",
           options: [
             "Spanning Tree Protocol",
-            "Random link activation",
             "Manual cable disconnection",
+            "Random link activation",
             "Ignoring redundancy"
           ],
           correctAnswer: 0,
@@ -211,60 +211,60 @@ Professional network design balances performance, reliability, security, and cos
           id: 11,
           question: "What are network diagrams used for?",
           options: [
-            "Visualizing physical and logical layouts",
-            "Only equipment purchasing",
             "Employee training only",
-            "Financial budgeting"
+            "Financial budgeting",
+            "Only equipment purchasing",
+            "Visualizing physical and logical layouts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Diagrams provide essential visualization for design and troubleshooting."
         },
         {
           id: 12,
           question: "What does load balancing achieve?",
           options: [
-            "Distributing traffic across multiple paths",
-            "Concentrating all traffic on one link",
             "Reducing overall bandwidth",
-            "Simplifying routing tables"
+            "Distributing traffic across multiple paths",
+            "Simplifying routing tables",
+            "Concentrating all traffic on one link"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Load balancing optimizes bandwidth utilization and performance."
         },
         {
           id: 13,
           question: "What is fast convergence?",
           options: [
+            "Ignoring failures",
             "Quick recovery from network failures",
-            "Slow network changes",
             "Manual reconfiguration",
-            "Ignoring failures"
+            "Slow network changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fast convergence minimizes disruption during network changes."
         },
         {
           id: 14,
           question: "Why create implementation plans?",
           options: [
+            "Unplanned expansions",
             "Organized phased deployment",
             "Random network changes",
-            "Unplanned expansions",
             "Immediate full deployment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Implementation plans ensure controlled, successful network changes."
         },
         {
           id: 15,
           question: "What are backward compatibility requirements?",
           options: [
-            "Support for older devices and protocols",
-            "Only newest technology support",
             "Complete technology replacement",
-            "Ignoring existing equipment"
+            "Ignoring existing equipment",
+            "Only newest technology support",
+            "Support for older devices and protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Backward compatibility protects existing investments and services."
         },
         {
@@ -285,8 +285,8 @@ Professional network design balances performance, reliability, security, and cos
           options: [
             "Different perspectives for planning and troubleshooting",
             "Duplicate documentation",
-            "Confuse network administrators",
-            "Increase design complexity"
+            "Increase design complexity",
+            "Confuse network administrators"
           ],
           correctAnswer: 0,
           explanation: "Separation helps plan physical infrastructure and logical operations independently."
@@ -295,36 +295,36 @@ Professional network design balances performance, reliability, security, and cos
           id: 18,
           question: "What is phased deployment?",
           options: [
-            "Gradual implementation in stages",
-            "Immediate complete rollout",
+            "Testing in production",
             "Random component installation",
-            "Testing in production"
+            "Gradual implementation in stages",
+            "Immediate complete rollout"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Phased deployment reduces risk and allows testing at each stage."
         },
         {
           id: 19,
           question: "What does disaster recovery planning ensure?",
           options: [
-            "Network restoration after major failures",
-            "Only daily operations",
+            "Permanent outage acceptance",
             "Ignoring failures",
-            "Permanent outage acceptance"
+            "Only daily operations",
+            "Network restoration after major failures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Disaster recovery planning prepares for worst-case scenarios."
         },
         {
           id: 20,
           question: "What balances in professional network design?",
           options: [
-            "Performance, reliability, security, and cost",
-            "Only lowest cost",
+            "Only simplest design",
             "Only maximum performance",
-            "Only simplest design"
+            "Only lowest cost",
+            "Performance, reliability, security, and cost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Professional design considers multiple competing requirements."
         }
       ]
@@ -418,84 +418,84 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           id: 1,
           question: "What type of protocol is OSPF?",
           options: [
-            "Link-state routing protocol",
             "Distance-vector protocol",
             "Path-vector protocol",
-            "Static routing only"
+            "Static routing only",
+            "Link-state routing protocol"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "OSPF builds complete network topology using link-state advertisements."
         },
         {
           id: 2,
           question: "What does BGP primarily handle?",
           options: [
+            "Static route configuration",
             "Internet routing between autonomous systems",
             "Internal network routing only",
-            "Static route configuration",
             "Local network switching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "BGP exchanges routing information between different organizations."
         },
         {
           id: 3,
           question: "What algorithm does OSPF use?",
           options: [
-            "Dijkstra's shortest path first",
-            "Bellman-Ford algorithm",
+            "Static routing tables",
             "Distance vector algorithm",
-            "Static routing tables"
+            "Dijkstra's shortest path first",
+            "Bellman-Ford algorithm"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dijkstra's algorithm calculates optimal paths in OSPF networks."
         },
         {
           id: 4,
           question: "What is EIGRP?",
           options: [
-            "Advanced distance-vector routing protocol",
             "Link-state protocol",
             "Exterior gateway protocol",
+            "Advanced distance-vector routing protocol",
             "Basic static routing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EIGRP combines features of distance-vector and link-state protocols."
         },
         {
           id: 5,
           question: "What does route summarization achieve?",
           options: [
-            "Reduces routing table size",
+            "Complicates troubleshooting",
             "Increases routing updates",
             "Slows convergence",
-            "Complicates troubleshooting"
+            "Reduces routing table size"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Summarization aggregates multiple routes into single advertisements."
         },
         {
           id: 6,
           question: "What protocol uses DUAL algorithm?",
           options: [
-            "EIGRP",
+            "RIP",
             "OSPF",
-            "BGP",
-            "RIP"
+            "EIGRP",
+            "BGP"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DUAL provides loop-free paths and fast convergence in EIGRP."
         },
         {
           id: 7,
           question: "What are BGP attributes used for?",
           options: [
+            "Protocol versioning",
             "Path selection and policy implementation",
-            "Only metric calculation",
             "Device identification",
-            "Protocol versioning"
+            "Only metric calculation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Attributes determine best paths and implement routing policies."
         },
         {
@@ -503,9 +503,9 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           question: "What does OSPF area design provide?",
           options: [
             "Hierarchical scaling and summarization",
-            "Flat network topology",
+            "Limited route calculation",
             "Simple configuration",
-            "Limited route calculation"
+            "Flat network topology"
           ],
           correctAnswer: 0,
           explanation: "Areas localize topology changes and reduce routing overhead."
@@ -514,24 +514,24 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           id: 9,
           question: "What is unequal cost load balancing?",
           options: [
-            "Using paths with different metrics proportionally",
-            "Only equal metric paths",
             "Single path selection",
-            "Random path selection"
+            "Random path selection",
+            "Only equal metric paths",
+            "Using paths with different metrics proportionally"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EIGRP can distribute traffic across paths with different costs."
         },
         {
           id: 10,
           question: "What does IS-IS stand for?",
           options: [
+            "Internal System Integration Standard",
             "Intermediate System to Intermediate System",
             "Internet System Information Service",
-            "Internal System Integration Standard",
             "International Switching Interface System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IS-IS is a link-state protocol used in large networks."
         },
         {
@@ -539,9 +539,9 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           question: "What is route filtering?",
           options: [
             "Controlling which routes are advertised",
-            "Increasing all route advertisements",
+            "Automatic route generation",
             "Removing all routes",
-            "Automatic route generation"
+            "Increasing all route advertisements"
           ],
           correctAnswer: 0,
           explanation: "Filtering implements security and traffic engineering policies."
@@ -550,12 +550,12 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           id: 12,
           question: "What supports VLSM?",
           options: [
-            "Modern routing protocols like OSPF and EIGRP",
             "Only classful routing",
+            "Manual route entry",
             "Basic static routing",
-            "Manual route entry"
+            "Modern routing protocols like OSPF and EIGRP"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "VLSM support allows efficient IP address allocation."
         },
         {
@@ -563,9 +563,9 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           question: "What is fast convergence important for?",
           options: [
             "Minimizing network disruption",
-            "Increasing configuration time",
+            "Reducing equipment costs",
             "Simplifying network design",
-            "Reducing equipment costs"
+            "Increasing configuration time"
           ],
           correctAnswer: 0,
           explanation: "Fast convergence maintains network availability during changes."
@@ -574,48 +574,48 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           id: 14,
           question: "What does multi-homed mean?",
           options: [
-            "Connecting to multiple ISPs",
             "Single ISP connection",
+            "Internal routing only",
             "No Internet connectivity",
-            "Internal routing only"
+            "Connecting to multiple ISPs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Multi-homed networks use BGP for redundant Internet connections."
         },
         {
           id: 15,
           question: "What is per-packet load balancing?",
           options: [
+            "Manual path selection",
             "Distributing packets across multiple paths",
-            "Sending all packets same path",
             "Random path assignment",
-            "Manual path selection"
+            "Sending all packets same path"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Per-packet balancing can cause packet reordering issues."
         },
         {
           id: 16,
           question: "What does protocol migration involve?",
           options: [
-            "Gradual transition between routing protocols",
-            "Immediate protocol replacement",
             "Running single protocol always",
-            "Ignoring protocol changes"
+            "Immediate protocol replacement",
+            "Ignoring protocol changes",
+            "Gradual transition between routing protocols"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Migration requires careful planning and testing."
         },
         {
           id: 17,
           question: "What are BGP communities?",
           options: [
+            "Administrative domains",
             "Tags for route grouping and policy",
             "Routing table entries",
-            "Network device groups",
-            "Administrative domains"
+            "Network device groups"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Communities simplify BGP policy implementation across networks."
         },
         {
@@ -623,9 +623,9 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           question: "What does route redistribution do?",
           options: [
             "Shares routes between different routing protocols",
-            "Creates duplicate routes",
             "Deletes existing routes",
-            "Blocks route sharing"
+            "Blocks route sharing",
+            "Creates duplicate routes"
           ],
           correctAnswer: 0,
           explanation: "Redistribution requires careful metric translation and filtering."
@@ -634,24 +634,24 @@ Advanced routing ensures efficient, reliable data transport across complex netwo
           id: 19,
           question: "What is path-vector protocol?",
           options: [
-            "BGP's method tracking complete AS paths",
             "Simple hop count metric",
+            "BGP's method tracking complete AS paths",
             "Link-state database",
             "Static routing tables"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Path-vector prevents loops by tracking complete paths."
         },
         {
           id: 20,
           question: "What determines routing protocol selection?",
           options: [
-            "Network requirements and characteristics",
-            "Only equipment vendor",
             "Administrator preference only",
-            "Random selection"
+            "Network requirements and characteristics",
+            "Random selection",
+            "Only equipment vendor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Protocol selection considers multiple technical and operational factors."
         }
       ]
@@ -754,36 +754,36 @@ Advanced switching creates efficient, secure, and manageable local network infra
           id: 1,
           question: "What do VLANs provide?",
           options: [
-            "Logical segmentation of broadcast domains",
             "Physical cable separation",
             "Only security features",
+            "Logical segmentation of broadcast domains",
             "Increased bandwidth"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "VLANs create logical networks independent of physical connections."
         },
         {
           id: 2,
           question: "What is 802.1Q?",
           options: [
+            "Network management protocol",
             "Standard VLAN trunking protocol",
             "Wireless security protocol",
-            "Routing protocol standard",
-            "Network management protocol"
+            "Routing protocol standard"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "802.1Q adds VLAN tags to Ethernet frames for trunking."
         },
         {
           id: 3,
           question: "What does STP prevent?",
           options: [
-            "Network loops in redundant topologies",
-            "All network redundancy",
             "VLAN configuration",
-            "Switch stacking"
+            "Network loops in redundant topologies",
+            "Switch stacking",
+            "All network redundancy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "STP blocks redundant paths to prevent broadcast storms."
         },
         {
@@ -791,9 +791,9 @@ Advanced switching creates efficient, secure, and manageable local network infra
           question: "What is RSTP?",
           options: [
             "Rapid Spanning Tree Protocol",
-            "Routing Spanning Tree Protocol",
+            "Rapid Switching Technology Protocol",
             "Redundant Switch Technology Protocol",
-            "Rapid Switching Technology Protocol"
+            "Routing Spanning Tree Protocol"
           ],
           correctAnswer: 0,
           explanation: "RSTP provides faster convergence than original STP."
@@ -803,9 +803,9 @@ Advanced switching creates efficient, secure, and manageable local network infra
           question: "What does EtherChannel provide?",
           options: [
             "Link aggregation for increased bandwidth",
+            "Wireless connectivity",
             "Single link operation",
-            "VLAN trunking only",
-            "Wireless connectivity"
+            "VLAN trunking only"
           ],
           correctAnswer: 0,
           explanation: "EtherChannel combines multiple physical links into logical bundle."
@@ -814,12 +814,12 @@ Advanced switching creates efficient, secure, and manageable local network infra
           id: 6,
           question: "What is LACP?",
           options: [
-            "Link Aggregation Control Protocol standard",
             "Local Area Control Protocol",
             "Link Access Control Protocol",
+            "Link Aggregation Control Protocol standard",
             "Local Aggregation Configuration Protocol"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "LACP is the IEEE standard for dynamic link aggregation."
         },
         {
@@ -828,8 +828,8 @@ Advanced switching creates efficient, secure, and manageable local network infra
           options: [
             "Network traffic prioritization",
             "Only bandwidth allocation",
-            "Switch hardware resources",
-            "VLAN configurations"
+            "VLAN configurations",
+            "Switch hardware resources"
           ],
           correctAnswer: 0,
           explanation: "QoS ensures critical traffic receives appropriate network resources."
@@ -838,12 +838,12 @@ Advanced switching creates efficient, secure, and manageable local network infra
           id: 8,
           question: "What is multilayer switching?",
           options: [
+            "Multiple switch layers",
             "Combining Layer 2 switching with Layer 3 routing",
             "Only Layer 2 forwarding",
-            "Multiple switch layers",
             "Stacked switch configuration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Multilayer switches route between VLANs at hardware speeds."
         },
         {
@@ -851,9 +851,9 @@ Advanced switching creates efficient, secure, and manageable local network infra
           question: "What does port security control?",
           options: [
             "MAC addresses allowed on switch ports",
-            "Only IP addresses",
             "VLAN access",
-            "Bandwidth usage"
+            "Bandwidth usage",
+            "Only IP addresses"
           ],
           correctAnswer: 0,
           explanation: "Port security prevents unauthorized device connections."
@@ -863,9 +863,9 @@ Advanced switching creates efficient, secure, and manageable local network infra
           question: "What is MSTP?",
           options: [
             "Multiple Spanning Tree Protocol",
+            "Multi-Switch Topology Protocol",
             "Main Spanning Tree Protocol",
-            "Maximum Speed Transmission Protocol",
-            "Multi-Switch Topology Protocol"
+            "Maximum Speed Transmission Protocol"
           ],
           correctAnswer: 0,
           explanation: "MSTP runs separate spanning tree instances for VLAN groups."
@@ -875,8 +875,8 @@ Advanced switching creates efficient, secure, and manageable local network infra
           question: "What are native VLANs?",
           options: [
             "Untagged VLAN on trunk ports",
-            "Default management VLAN",
             "Only voice VLAN",
+            "Default management VLAN",
             "Disabled VLAN"
           ],
           correctAnswer: 0,
@@ -887,9 +887,9 @@ Advanced switching creates efficient, secure, and manageable local network infra
           question: "What does DHCP snooping prevent?",
           options: [
             "Rogue DHCP server attacks",
+            "VLAN creation",
             "Legitimate DHCP servers",
-            "IP address assignment",
-            "VLAN creation"
+            "IP address assignment"
           ],
           correctAnswer: 0,
           explanation: "DHCP snooping validates DHCP messages and tracks assignments."
@@ -898,24 +898,24 @@ Advanced switching creates efficient, secure, and manageable local network infra
           id: 13,
           question: "What is switch stacking?",
           options: [
-            "Connecting multiple switches as single unit",
+            "Protocol stacking layers",
             "Physical equipment stacking",
             "VLAN stacking configuration",
-            "Protocol stacking layers"
+            "Connecting multiple switches as single unit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Stacking simplifies management of multiple physical switches."
         },
         {
           id: 14,
           question: "What is port mirroring used for?",
           options: [
-            "Network monitoring and analysis",
-            "Increasing port bandwidth",
             "Creating VLAN trunks",
+            "Increasing port bandwidth",
+            "Network monitoring and analysis",
             "Configuring QoS"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Port mirroring copies traffic to monitoring devices."
         },
         {
@@ -924,8 +924,8 @@ Advanced switching creates efficient, secure, and manageable local network infra
           options: [
             "Validates ARP packets to prevent spoofing",
             "Increases ARP response time",
-            "Blocks all ARP traffic",
-            "Creates static ARP entries"
+            "Creates static ARP entries",
+            "Blocks all ARP traffic"
           ],
           correctAnswer: 0,
           explanation: "DAI prevents man-in-the-middle attacks via ARP spoofing."
@@ -934,60 +934,60 @@ Advanced switching creates efficient, secure, and manageable local network infra
           id: 16,
           question: "What is per-VLAN spanning tree?",
           options: [
-            "Separate spanning tree instance per VLAN",
-            "Single spanning tree for all VLANs",
+            "Manual loop prevention",
             "No spanning tree operation",
-            "Manual loop prevention"
+            "Separate spanning tree instance per VLAN",
+            "Single spanning tree for all VLANs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PVST+ allows different topologies for different VLANs."
         },
         {
           id: 17,
           question: "What does IP Source Guard protect against?",
           options: [
-            "IP address spoofing attacks",
             "Legitimate IP assignments",
+            "VLAN configuration",
             "DHCP server operation",
-            "VLAN configuration"
+            "IP address spoofing attacks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IP Source Guard validates source IP addresses on switch ports."
         },
         {
           id: 18,
           question: "What is traffic shaping?",
           options: [
-            "Controlling traffic rate to prevent congestion",
+            "Prioritizing all traffic equally",
             "Increasing all traffic rates",
             "Blocking specific traffic types",
-            "Prioritizing all traffic equally"
+            "Controlling traffic rate to prevent congestion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Shaping buffers excess traffic to smooth transmission rates."
         },
         {
           id: 19,
           question: "What does NetFlow provide?",
           options: [
-            "Traffic flow analysis and accounting",
             "Only error reporting",
-            "Configuration management",
-            "VLAN creation"
+            "Traffic flow analysis and accounting",
+            "VLAN creation",
+            "Configuration management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "NetFlow collects detailed traffic statistics for analysis."
         },
         {
           id: 20,
           question: "Why separate voice and data VLANs?",
           options: [
-            "Quality of service and security isolation",
             "Only for configuration simplicity",
-            "To increase broadcast domains",
-            "To reduce VLAN count"
+            "Quality of service and security isolation",
+            "To reduce VLAN count",
+            "To increase broadcast domains"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Separate VLANs allow different QoS policies and security measures."
         }
       ]
@@ -1110,36 +1110,36 @@ Comprehensive security protects network infrastructure while enabling business o
           id: 1,
           question: "What does AAA framework include?",
           options: [
-            "Authentication, Authorization, Accounting",
-            "Access, Analysis, Assessment",
             "Administration, Automation, Auditing",
-            "Authentication, Access, Administration"
+            "Authentication, Access, Administration",
+            "Authentication, Authorization, Accounting",
+            "Access, Analysis, Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "AAA provides comprehensive access control and tracking."
         },
         {
           id: 2,
           question: "What is stateful firewall inspection?",
           options: [
-            "Tracking connection states for decisions",
             "Only examining packet headers",
-            "Ignoring connection information",
-            "Blocking all traffic"
+            "Blocking all traffic",
+            "Tracking connection states for decisions",
+            "Ignoring connection information"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Stateful inspection understands and tracks communication sessions."
         },
         {
           id: 3,
           question: "What does NAC provide?",
           options: [
-            "Endpoint security assessment before access",
-            "Only basic password authentication",
             "Unrestricted network access",
-            "Manual device configuration"
+            "Manual device configuration",
+            "Only basic password authentication",
+            "Endpoint security assessment before access"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NAC ensures devices meet security standards before connecting."
         },
         {
@@ -1147,9 +1147,9 @@ Comprehensive security protects network infrastructure while enabling business o
           question: "What is a DMZ?",
           options: [
             "Demilitarized Zone for public services",
-            "Default management zone",
+            "Dynamic migration zone",
             "Direct monitoring zone",
-            "Dynamic migration zone"
+            "Default management zone"
           ],
           correctAnswer: 0,
           explanation: "DMZ provides secure hosting for Internet-facing services."
@@ -1158,108 +1158,108 @@ Comprehensive security protects network infrastructure while enabling business o
           id: 5,
           question: "What does IPS stand for?",
           options: [
-            "Intrusion Prevention System",
             "Internet Protocol Security",
-            "Internal Protection System",
-            "Intelligent Packet Switching"
+            "Intrusion Prevention System",
+            "Intelligent Packet Switching",
+            "Internal Protection System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IPS actively blocks detected threats in network traffic."
         },
         {
           id: 6,
           question: "What is signature-based detection?",
           options: [
-            "Matching against known threat patterns",
-            "Detecting behavioral anomalies",
             "Random threat identification",
-            "Manual threat analysis"
+            "Matching against known threat patterns",
+            "Manual threat analysis",
+            "Detecting behavioral anomalies"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Signature detection identifies known threats by their patterns."
         },
         {
           id: 7,
           question: "What does IPsec provide?",
           options: [
+            "Email security only",
             "Secure encrypted communication over IP",
             "Only authentication without encryption",
-            "Web application security",
-            "Email security only"
+            "Web application security"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "IPsec encrypts and authenticates IP packet flows."
         },
         {
           id: 8,
           question: "What is defense in depth?",
           options: [
-            "Multiple layered security controls",
             "Single perimeter firewall only",
-            "Basic password protection",
-            "No security measures"
+            "No security measures",
+            "Multiple layered security controls",
+            "Basic password protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Layered defenses provide protection if one control fails."
         },
         {
           id: 9,
           question: "What does SIEM do?",
           options: [
-            "Centralized security event management",
             "Only firewall configuration",
-            "Basic logging without analysis",
-            "Network performance monitoring"
+            "Centralized security event management",
+            "Network performance monitoring",
+            "Basic logging without analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SIEM correlates events from multiple security systems."
         },
         {
           id: 10,
           question: "What is the principle of least privilege?",
           options: [
-            "Minimum access necessary for function",
-            "Maximum access for all users",
             "Equal access for everyone",
-            "No access restrictions"
+            "Minimum access necessary for function",
+            "No access restrictions",
+            "Maximum access for all users"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Least privilege minimizes potential damage from compromised accounts."
         },
         {
           id: 11,
           question: "What are security zones?",
           options: [
-            "Network segments with different trust levels",
-            "Physical security areas",
+            "Geographic locations",
             "Administrative domains",
-            "Geographic locations"
+            "Network segments with different trust levels",
+            "Physical security areas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Zones allow different security policies for different network areas."
         },
         {
           id: 12,
           question: "What does anomaly-based detection identify?",
           options: [
-            "Deviations from normal behavior patterns",
-            "Only known attack signatures",
             "All network traffic",
-            "Specific protocol violations"
+            "Deviations from normal behavior patterns",
+            "Specific protocol violations",
+            "Only known attack signatures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Anomaly detection finds unusual patterns indicating potential threats."
         },
         {
           id: 13,
           question: "What is SSL VPN used for?",
           options: [
-            "Web-based secure remote access",
-            "Site-to-site network connections",
+            "Wireless security only",
             "Internal network segmentation",
-            "Wireless security only"
+            "Web-based secure remote access",
+            "Site-to-site network connections"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SSL VPN provides clientless secure access through web browsers."
         },
         {
@@ -1267,9 +1267,9 @@ Comprehensive security protects network infrastructure while enabling business o
           question: "What is default deny policy?",
           options: [
             "Block all traffic unless explicitly permitted",
-            "Allow all traffic unless blocked",
             "Random traffic filtering",
-            "No traffic filtering"
+            "No traffic filtering",
+            "Allow all traffic unless blocked"
           ],
           correctAnswer: 0,
           explanation: "Default deny is a fundamental security best practice."
@@ -1278,48 +1278,48 @@ Comprehensive security protects network infrastructure while enabling business o
           id: 15,
           question: "What does BYOD management involve?",
           options: [
-            "Personal device security and access control",
             "Only company-owned devices",
-            "Blocking all personal devices",
-            "Unrestricted personal device access"
+            "Unrestricted personal device access",
+            "Personal device security and access control",
+            "Blocking all personal devices"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BYOD policies balance user convenience with security requirements."
         },
         {
           id: 16,
           question: "What is next-generation firewall?",
           options: [
-            "Integrated threat prevention with application awareness",
             "Basic packet filtering only",
+            "Integrated threat prevention with application awareness",
             "Only intrusion prevention",
             "Simple stateful inspection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "NGFW combines multiple security functions with application control."
         },
         {
           id: 17,
           question: "What are compensating controls?",
           options: [
-            "Alternative security measures when primary controls aren't possible",
             "Duplicate security measures",
-            "No security measures",
-            "Basic security only"
+            "Alternative security measures when primary controls aren't possible",
+            "Basic security only",
+            "No security measures"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Compensating controls provide equivalent protection through different means."
         },
         {
           id: 18,
           question: "What does TACACS+ provide?",
           options: [
-            "Enhanced AAA services with command authorization",
-            "Only basic authentication",
+            "Web-based access only",
             "No accounting features",
-            "Web-based access only"
+            "Enhanced AAA services with command authorization",
+            "Only basic authentication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TACACS+ separates authentication, authorization, and accounting."
         },
         {
@@ -1338,12 +1338,12 @@ Comprehensive security protects network infrastructure while enabling business o
           id: 20,
           question: "Why implement security policies?",
           options: [
-            "Document and enforce security requirements",
-            "Only for compliance paperwork",
             "Ignore security practices",
+            "Only for compliance paperwork",
+            "Document and enforce security requirements",
             "Create security complexity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Policies provide framework for consistent security implementation."
         }
       ]
@@ -1460,72 +1460,72 @@ Enterprise wireless requires careful planning, implementation, and management fo
           id: 1,
           question: "What does 802.11ax provide?",
           options: [
-            "Wi-Fi 6 with OFDMA and efficiency improvements",
             "Basic wireless connectivity only",
+            "Outdated wireless standard",
             "Only faster speeds without efficiency",
-            "Outdated wireless standard"
+            "Wi-Fi 6 with OFDMA and efficiency improvements"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Wi-Fi 6 improves performance in high-density environments."
         },
         {
           id: 2,
           question: "What is site survey planning?",
           options: [
-            "Wireless coverage and capacity planning",
             "Only equipment purchasing",
             "Network cable installation",
-            "Security policy creation"
+            "Security policy creation",
+            "Wireless coverage and capacity planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Site surveys determine optimal access point placement."
         },
         {
           id: 3,
           question: "What does WPA3 improve?",
           options: [
-            "Wireless security with stronger encryption",
+            "Network management features",
             "Only connection speeds",
-            "Basic authentication only",
-            "Network management features"
+            "Wireless security with stronger encryption",
+            "Basic authentication only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "WPA3 addresses vulnerabilities in previous wireless security standards."
         },
         {
           id: 4,
           question: "What is channel planning?",
           options: [
-            "Assigning non-overlapping frequencies",
             "Random frequency selection",
             "Using same channels everywhere",
+            "Assigning non-overlapping frequencies",
             "Ignoring interference issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Proper channel planning minimizes interference between access points."
         },
         {
           id: 5,
           question: "What does 802.1X provide for wireless?",
           options: [
-            "Enterprise-grade authentication",
             "Basic open authentication",
             "No authentication required",
+            "Enterprise-grade authentication",
             "Simple password only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "802.1X integrates wireless with enterprise authentication systems."
         },
         {
           id: 6,
           question: "What is MIMO technology?",
           options: [
+            "Maximum output power",
             "Multiple Input Multiple Output antennas",
-            "Single antenna systems",
             "Manual input optimization",
-            "Maximum output power"
+            "Single antenna systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MIMO uses multiple antennas to improve performance and reliability."
         },
         {
@@ -1533,9 +1533,9 @@ Enterprise wireless requires careful planning, implementation, and management fo
           question: "What does RRM manage?",
           options: [
             "Radio resources and optimization",
-            "Only user connections",
+            "Security policies",
             "Network cabling",
-            "Security policies"
+            "Only user connections"
           ],
           correctAnswer: 0,
           explanation: "Radio Resource Management automatically optimizes wireless performance."
@@ -1545,9 +1545,9 @@ Enterprise wireless requires careful planning, implementation, and management fo
           question: "What is band steering?",
           options: [
             "Guiding clients to less congested bands",
+            "Disabling dual-band operation",
             "Blocking certain frequency bands",
-            "Manual band selection only",
-            "Disabling dual-band operation"
+            "Manual band selection only"
           ],
           correctAnswer: 0,
           explanation: "Band steering improves network performance by balancing client distribution."
@@ -1558,8 +1558,8 @@ Enterprise wireless requires careful planning, implementation, and management fo
           options: [
             "Wireless multimedia quality of service",
             "Only basic connectivity",
-            "Maximum security",
-            "Network management"
+            "Network management",
+            "Maximum security"
           ],
           correctAnswer: 0,
           explanation: "WMM prioritizes time-sensitive traffic like voice and video."
@@ -1568,12 +1568,12 @@ Enterprise wireless requires careful planning, implementation, and management fo
           id: 10,
           question: "What is mesh networking?",
           options: [
-            "Wireless backhaul between access points",
-            "Only wired connections",
             "Single access point deployment",
-            "Manual configuration required"
+            "Manual configuration required",
+            "Only wired connections",
+            "Wireless backhaul between access points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Mesh networks create self-forming wireless connections between devices."
         },
         {
@@ -1581,9 +1581,9 @@ Enterprise wireless requires careful planning, implementation, and management fo
           question: "What is rogue access point detection?",
           options: [
             "Identifying unauthorized wireless devices",
+            "Blocking all access points",
             "Only monitoring legitimate APs",
-            "Ignoring all wireless devices",
-            "Blocking all access points"
+            "Ignoring all wireless devices"
           ],
           correctAnswer: 0,
           explanation: "Rogue AP detection prevents security breaches from unauthorized devices."
@@ -1592,12 +1592,12 @@ Enterprise wireless requires careful planning, implementation, and management fo
           id: 12,
           question: "What does DFS enable?",
           options: [
-            "Dynamic frequency selection to avoid radar",
-            "Static channel assignment",
             "Manual frequency selection",
-            "Ignoring radar interference"
+            "Ignoring radar interference",
+            "Dynamic frequency selection to avoid radar",
+            "Static channel assignment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "DFS allows use of channels shared with radar systems."
         },
         {
@@ -1605,8 +1605,8 @@ Enterprise wireless requires careful planning, implementation, and management fo
           question: "What is capacity vs coverage design?",
           options: [
             "Balancing user density with signal strength",
-            "Only maximum coverage area",
             "Only maximum user capacity",
+            "Only maximum coverage area",
             "Random access point placement"
           ],
           correctAnswer: 0,
@@ -1616,60 +1616,60 @@ Enterprise wireless requires careful planning, implementation, and management fo
           id: 14,
           question: "What are location services used for?",
           options: [
-            "Asset tracking and user location",
+            "Bandwidth management",
             "Only basic connectivity",
             "Network security only",
-            "Bandwidth management"
+            "Asset tracking and user location"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Wireless networks can provide location-based services and analytics."
         },
         {
           id: 15,
           question: "What does cloud-managed wireless provide?",
           options: [
+            "Manual configuration only",
             "Centralized management through cloud",
             "Only local management",
-            "No management capabilities",
-            "Manual configuration only"
+            "No management capabilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cloud management simplifies wireless network administration."
         },
         {
           id: 16,
           question: "What is high-density wireless design?",
           options: [
-            "Networks for many users in small areas",
-            "Only sparse user deployments",
+            "Outdoor only networks",
             "Basic home networks",
-            "Outdoor only networks"
+            "Networks for many users in small areas",
+            "Only sparse user deployments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "High-density designs support many simultaneous connections."
         },
         {
           id: 17,
           question: "What does AES provide for wireless?",
           options: [
-            "Strong encryption for data protection",
-            "Only authentication",
+            "Network management",
             "Basic connectivity",
-            "Network management"
+            "Strong encryption for data protection",
+            "Only authentication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "AES is the encryption standard used in modern wireless security."
         },
         {
           id: 18,
           question: "What is client load balancing?",
           options: [
-            "Distributing clients across access points",
-            "Concentrating all clients on one AP",
             "Blocking client connections",
-            "Manual client assignment"
+            "Manual client assignment",
+            "Concentrating all clients on one AP",
+            "Distributing clients across access points"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Load balancing prevents individual access point overload."
         },
         {
@@ -1678,8 +1678,8 @@ Enterprise wireless requires careful planning, implementation, and management fo
           options: [
             "Efficient multi-user communication",
             "Only single-user transmission",
-            "Basic channel access",
-            "Manual resource allocation"
+            "Manual resource allocation",
+            "Basic channel access"
           ],
           correctAnswer: 0,
           explanation: "OFDMA allows serving multiple clients simultaneously."
@@ -1688,12 +1688,12 @@ Enterprise wireless requires careful planning, implementation, and management fo
           id: 20,
           question: "Why implement wireless intrusion prevention?",
           options: [
-            "Detect and prevent wireless attacks",
-            "Only monitor legitimate traffic",
             "Ignore all security threats",
-            "Block all wireless access"
+            "Block all wireless access",
+            "Only monitor legitimate traffic",
+            "Detect and prevent wireless attacks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Wireless IPS protects against specific wireless network threats."
         }
       ]
@@ -1830,180 +1830,180 @@ Professional network management combines technology, processes, and people for r
           id: 1,
           question: "What does SNMP provide?",
           options: [
-            "Network device monitoring and management",
-            "Only configuration management",
             "Automated troubleshooting",
-            "Security enforcement"
+            "Security enforcement",
+            "Network device monitoring and management",
+            "Only configuration management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SNMP collects information and controls network devices."
         },
         {
           id: 2,
           question: "What is NetFlow used for?",
           options: [
-            "Traffic flow analysis and accounting",
-            "Only device configuration",
+            "Automated scripting",
             "Security policy enforcement",
-            "Automated scripting"
+            "Traffic flow analysis and accounting",
+            "Only device configuration"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NetFlow provides detailed traffic statistics and analysis."
         },
         {
           id: 3,
           question: "Why implement configuration standards?",
           options: [
+            "No configuration control",
             "Consistency and easier management",
-            "Random configurations",
             "Manual configuration only",
-            "No configuration control"
+            "Random configurations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Standards ensure predictable, maintainable network configurations."
         },
         {
           id: 4,
           question: "What is systematic troubleshooting?",
           options: [
+            "Immediate solution guessing",
             "Structured approach to problem resolution",
             "Random trial and error",
-            "Immediate solution guessing",
             "Ignoring problems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Systematic methods ensure thorough, efficient problem resolution."
         },
         {
           id: 5,
           question: "What does automation reduce?",
           options: [
-            "Human error and manual effort",
             "Network performance",
-            "Security levels",
-            "Configuration complexity"
+            "Human error and manual effort",
+            "Configuration complexity",
+            "Security levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Automation improves consistency and efficiency."
         },
         {
           id: 6,
           question: "What is Infrastructure as Code?",
           options: [
-            "Managing infrastructure through code",
             "Manual configuration only",
             "Hardware programming",
-            "Network coding languages"
+            "Network coding languages",
+            "Managing infrastructure through code"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "IaC treats infrastructure configuration as software code."
         },
         {
           id: 7,
           question: "What does configuration drift detection identify?",
           options: [
-            "Unauthorized configuration changes",
             "Only authorized changes",
-            "Network performance issues",
-            "Security vulnerabilities"
+            "Unauthorized configuration changes",
+            "Security vulnerabilities",
+            "Network performance issues"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Drift detection ensures configurations remain as intended."
         },
         {
           id: 8,
           question: "What are KPIs in network management?",
           options: [
-            "Key Performance Indicators for measurement",
-            "Only financial metrics",
             "Employee performance",
-            "Equipment costs"
+            "Equipment costs",
+            "Only financial metrics",
+            "Key Performance Indicators for measurement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "KPIs quantify network performance and reliability."
         },
         {
           id: 9,
           question: "What is root cause analysis?",
           options: [
+            "Basic problem documentation",
             "Identifying underlying problem causes",
-            "Only treating symptoms",
             "Ignoring problem sources",
-            "Basic problem documentation"
+            "Only treating symptoms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Root cause analysis prevents problem recurrence."
         },
         {
           id: 10,
           question: "What does REST API enable?",
           options: [
-            "Programmatic device control and automation",
             "Only manual configuration",
             "Basic monitoring only",
+            "Programmatic device control and automation",
             "No device interaction"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "REST APIs allow software to control network devices."
         },
         {
           id: 11,
           question: "Why document network topologies?",
           options: [
-            "Visual understanding and troubleshooting",
-            "Only for compliance",
+            "Random documentation",
             "Ignoring network structure",
-            "Random documentation"
+            "Visual understanding and troubleshooting",
+            "Only for compliance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Topology diagrams are essential for design and troubleshooting."
         },
         {
           id: 12,
           question: "What is change control?",
           options: [
-            "Managed process for network changes",
             "Random network modifications",
+            "Managed process for network changes",
             "No change procedures",
             "Immediate changes without review"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Change control prevents disruptions from unauthorized changes."
         },
         {
           id: 13,
           question: "What does packet capture analysis provide?",
           options: [
-            "Detailed protocol and traffic examination",
             "Only basic statistics",
             "Configuration management",
-            "Automated scripting"
+            "Automated scripting",
+            "Detailed protocol and traffic examination"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Packet analysis reveals detailed network communication issues."
         },
         {
           id: 14,
           question: "What is capacity planning?",
           options: [
-            "Planning for future network growth",
             "Only current utilization",
+            "Planning for future network growth",
             "Ignoring future needs",
             "Random equipment purchases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Capacity planning ensures networks can handle future demands."
         },
         {
           id: 15,
           question: "What does SLA define?",
           options: [
-            "Service expectations and measurements",
-            "Only equipment specifications",
+            "Financial budgets",
             "Employee responsibilities",
-            "Financial budgets"
+            "Service expectations and measurements",
+            "Only equipment specifications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SLAs establish agreed service levels between providers and users."
         },
         {
@@ -2012,8 +2012,8 @@ Professional network management combines technology, processes, and people for r
           options: [
             "Rapid recovery from failures",
             "Only compliance requirements",
-            "Ignoring recovery needs",
-            "Storage space utilization"
+            "Storage space utilization",
+            "Ignoring recovery needs"
           ],
           correctAnswer: 0,
           explanation: "Backups enable quick restoration of device configurations."
@@ -2022,48 +2022,48 @@ Professional network management combines technology, processes, and people for r
           id: 17,
           question: "What does telemetry provide?",
           options: [
-            "Real-time streaming performance data",
-            "Only historical data",
+            "Manual measurements",
             "Basic error reporting",
-            "Manual measurements"
+            "Real-time streaming performance data",
+            "Only historical data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Telemetry enables real-time monitoring and analysis."
         },
         {
           id: 18,
           question: "What is disaster recovery planning?",
           options: [
-            "Preparing for major network failures",
             "Ignoring failure possibilities",
-            "Only daily operations",
-            "Basic backup procedures"
+            "Preparing for major network failures",
+            "Basic backup procedures",
+            "Only daily operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Disaster recovery ensures business continuity during major outages."
         },
         {
           id: 19,
           question: "What does orchestration provide?",
           options: [
-            "Workflow automation across systems",
-            "Only individual device automation",
+            "Basic scripting capabilities",
             "Manual process management",
-            "Basic scripting capabilities"
+            "Workflow automation across systems",
+            "Only individual device automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Orchestration coordinates automated tasks across multiple systems."
         },
         {
           id: 20,
           question: "Why implement regular network reviews?",
           options: [
-            "Continuous improvement and optimization",
             "Only when problems occur",
-            "Ignoring network performance",
-            "Random assessment"
+            "Random assessment",
+            "Continuous improvement and optimization",
+            "Ignoring network performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regular reviews identify improvement opportunities and issues."
         }
       ]
@@ -2084,9 +2084,9 @@ Professional network management combines technology, processes, and people for r
         question: "What does the core layer provide in hierarchical design?",
         options: [
           "High-speed backbone and traffic aggregation",
-          "User connectivity only",
+          "Basic switching",
           "Policy enforcement",
-          "Basic switching"
+          "User connectivity only"
         ],
         correctAnswer: 0,
         explanation: "The core layer provides fast transport between distribution layers."
@@ -2096,12 +2096,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 1,
         question: "What is modular design?",
         options: [
-          "Separating network into functional modules",
           "Using identical equipment everywhere",
+          "Separating network into functional modules",
           "Ignoring functional separation",
           "Random network expansion"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Modular design creates reusable, testable network components."
       },
       {
@@ -2109,12 +2109,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 1,
         question: "What does the distribution layer handle?",
         options: [
-          "Policy enforcement and routing decisions",
-          "Only user connections",
           "Backbone transport",
-          "Wireless access"
+          "Wireless access",
+          "Policy enforcement and routing decisions",
+          "Only user connections"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Distribution layer implements policies and routes between access and core."
       },
       {
@@ -2122,12 +2122,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 1,
         question: "What is physical topology?",
         options: [
-          "Actual device connections and cabling",
           "Data flow paths only",
-          "IP addressing schemes",
-          "Routing protocol design"
+          "Actual device connections and cabling",
+          "Routing protocol design",
+          "IP addressing schemes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Physical topology shows real-world device connections and cable runs."
       },
       {
@@ -2137,8 +2137,8 @@ Professional network management combines technology, processes, and people for r
         options: [
           "Provide backup paths during failures",
           "Increase network complexity",
-          "Reduce available bandwidth",
-          "Simplify troubleshooting"
+          "Simplify troubleshooting",
+          "Reduce available bandwidth"
         ],
         correctAnswer: 0,
         explanation: "Redundancy ensures network availability when primary paths fail."
@@ -2148,12 +2148,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 1,
         question: "What does the access layer provide?",
         options: [
-          "User connectivity and network access control",
           "Core backbone transport",
-          "Inter-network routing",
-          "Centralized management"
+          "User connectivity and network access control",
+          "Centralized management",
+          "Inter-network routing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Access layer connects end devices and implements access policies."
       },
 
@@ -2163,12 +2163,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 2,
         question: "What type of protocol is OSPF?",
         options: [
-          "Link-state routing protocol",
           "Distance-vector protocol",
+          "Link-state routing protocol",
           "Path-vector protocol",
           "Static routing only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "OSPF builds complete network topology using link-state advertisements."
       },
       {
@@ -2178,8 +2178,8 @@ Professional network management combines technology, processes, and people for r
         options: [
           "Internet routing between autonomous systems",
           "Internal network routing only",
-          "Static route configuration",
-          "Local network switching"
+          "Local network switching",
+          "Static route configuration"
         ],
         correctAnswer: 0,
         explanation: "BGP exchanges routing information between different organizations."
@@ -2190,8 +2190,8 @@ Professional network management combines technology, processes, and people for r
         question: "What algorithm does OSPF use?",
         options: [
           "Dijkstra's shortest path first",
-          "Bellman-Ford algorithm",
           "Distance vector algorithm",
+          "Bellman-Ford algorithm",
           "Static routing tables"
         ],
         correctAnswer: 0,
@@ -2202,12 +2202,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 2,
         question: "What is EIGRP?",
         options: [
+          "Basic static routing",
           "Advanced distance-vector routing protocol",
-          "Link-state protocol",
           "Exterior gateway protocol",
-          "Basic static routing"
+          "Link-state protocol"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "EIGRP combines features of distance-vector and link-state protocols."
       },
       {
@@ -2215,12 +2215,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 2,
         question: "What does route summarization achieve?",
         options: [
-          "Reduces routing table size",
-          "Increases routing updates",
           "Slows convergence",
+          "Increases routing updates",
+          "Reduces routing table size",
           "Complicates troubleshooting"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Summarization aggregates multiple routes into single advertisements."
       },
       {
@@ -2228,12 +2228,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 2,
         question: "What protocol uses DUAL algorithm?",
         options: [
-          "EIGRP",
+          "RIP",
           "OSPF",
-          "BGP",
-          "RIP"
+          "EIGRP",
+          "BGP"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "DUAL provides loop-free paths and fast convergence in EIGRP."
       },
 
@@ -2243,12 +2243,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 3,
         question: "What do VLANs provide?",
         options: [
+          "Increased bandwidth",
           "Logical segmentation of broadcast domains",
-          "Physical cable separation",
           "Only security features",
-          "Increased bandwidth"
+          "Physical cable separation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "VLANs create logical networks independent of physical connections."
       },
       {
@@ -2269,12 +2269,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 3,
         question: "What does STP prevent?",
         options: [
-          "Network loops in redundant topologies",
           "All network redundancy",
-          "VLAN configuration",
-          "Switch stacking"
+          "Network loops in redundant topologies",
+          "Switch stacking",
+          "VLAN configuration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "STP blocks redundant paths to prevent broadcast storms."
       },
       {
@@ -2282,12 +2282,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 3,
         question: "What is RSTP?",
         options: [
-          "Rapid Spanning Tree Protocol",
           "Routing Spanning Tree Protocol",
           "Redundant Switch Technology Protocol",
-          "Rapid Switching Technology Protocol"
+          "Rapid Switching Technology Protocol",
+          "Rapid Spanning Tree Protocol"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "RSTP provides faster convergence than original STP."
       },
       {
@@ -2296,9 +2296,9 @@ Professional network management combines technology, processes, and people for r
         question: "What does EtherChannel provide?",
         options: [
           "Link aggregation for increased bandwidth",
-          "Single link operation",
           "VLAN trunking only",
-          "Wireless connectivity"
+          "Wireless connectivity",
+          "Single link operation"
         ],
         correctAnswer: 0,
         explanation: "EtherChannel combines multiple physical links into logical bundle."
@@ -2308,12 +2308,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 3,
         question: "What is LACP?",
         options: [
-          "Link Aggregation Control Protocol standard",
           "Local Area Control Protocol",
-          "Link Access Control Protocol",
-          "Local Aggregation Configuration Protocol"
+          "Local Aggregation Configuration Protocol",
+          "Link Aggregation Control Protocol standard",
+          "Link Access Control Protocol"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "LACP is the IEEE standard for dynamic link aggregation."
       },
 
@@ -2323,12 +2323,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 4,
         question: "What does AAA framework include?",
         options: [
-          "Authentication, Authorization, Accounting",
-          "Access, Analysis, Assessment",
           "Administration, Automation, Auditing",
-          "Authentication, Access, Administration"
+          "Authentication, Authorization, Accounting",
+          "Authentication, Access, Administration",
+          "Access, Analysis, Assessment"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "AAA provides comprehensive access control and tracking."
       },
       {
@@ -2336,12 +2336,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 4,
         question: "What is stateful firewall inspection?",
         options: [
-          "Tracking connection states for decisions",
           "Only examining packet headers",
+          "Tracking connection states for decisions",
           "Ignoring connection information",
           "Blocking all traffic"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Stateful inspection understands and tracks communication sessions."
       },
       {
@@ -2349,12 +2349,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 4,
         question: "What does NAC provide?",
         options: [
-          "Endpoint security assessment before access",
           "Only basic password authentication",
           "Unrestricted network access",
+          "Endpoint security assessment before access",
           "Manual device configuration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "NAC ensures devices meet security standards before connecting."
       },
       {
@@ -2363,8 +2363,8 @@ Professional network management combines technology, processes, and people for r
         question: "What is a DMZ?",
         options: [
           "Demilitarized Zone for public services",
-          "Default management zone",
           "Direct monitoring zone",
+          "Default management zone",
           "Dynamic migration zone"
         ],
         correctAnswer: 0,
@@ -2375,12 +2375,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 4,
         question: "What does IPS stand for?",
         options: [
-          "Intrusion Prevention System",
           "Internet Protocol Security",
           "Internal Protection System",
-          "Intelligent Packet Switching"
+          "Intelligent Packet Switching",
+          "Intrusion Prevention System"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "IPS actively blocks detected threats in network traffic."
       },
       {
@@ -2389,9 +2389,9 @@ Professional network management combines technology, processes, and people for r
         question: "What is signature-based detection?",
         options: [
           "Matching against known threat patterns",
-          "Detecting behavioral anomalies",
           "Random threat identification",
-          "Manual threat analysis"
+          "Manual threat analysis",
+          "Detecting behavioral anomalies"
         ],
         correctAnswer: 0,
         explanation: "Signature detection identifies known threats by their patterns."
@@ -2403,12 +2403,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 5,
         question: "What does 802.11ax provide?",
         options: [
-          "Wi-Fi 6 with OFDMA and efficiency improvements",
+          "Outdated wireless standard",
           "Basic wireless connectivity only",
           "Only faster speeds without efficiency",
-          "Outdated wireless standard"
+          "Wi-Fi 6 with OFDMA and efficiency improvements"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Wi-Fi 6 improves performance in high-density environments."
       },
       {
@@ -2416,12 +2416,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 5,
         question: "What is site survey planning?",
         options: [
-          "Wireless coverage and capacity planning",
-          "Only equipment purchasing",
           "Network cable installation",
-          "Security policy creation"
+          "Security policy creation",
+          "Wireless coverage and capacity planning",
+          "Only equipment purchasing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Site surveys determine optimal access point placement."
       },
       {
@@ -2429,12 +2429,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 5,
         question: "What does WPA3 improve?",
         options: [
-          "Wireless security with stronger encryption",
-          "Only connection speeds",
           "Basic authentication only",
+          "Only connection speeds",
+          "Wireless security with stronger encryption",
           "Network management features"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "WPA3 addresses vulnerabilities in previous wireless security standards."
       },
       {
@@ -2442,12 +2442,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 5,
         question: "What is channel planning?",
         options: [
-          "Assigning non-overlapping frequencies",
           "Random frequency selection",
+          "Ignoring interference issues",
           "Using same channels everywhere",
-          "Ignoring interference issues"
+          "Assigning non-overlapping frequencies"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Proper channel planning minimizes interference between access points."
       },
       {
@@ -2455,12 +2455,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 5,
         question: "What does 802.1X provide for wireless?",
         options: [
-          "Enterprise-grade authentication",
           "Basic open authentication",
-          "No authentication required",
-          "Simple password only"
+          "Simple password only",
+          "Enterprise-grade authentication",
+          "No authentication required"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "802.1X integrates wireless with enterprise authentication systems."
       },
       {
@@ -2470,8 +2470,8 @@ Professional network management combines technology, processes, and people for r
         options: [
           "Multiple Input Multiple Output antennas",
           "Single antenna systems",
-          "Manual input optimization",
-          "Maximum output power"
+          "Maximum output power",
+          "Manual input optimization"
         ],
         correctAnswer: 0,
         explanation: "MIMO uses multiple antennas to improve performance and reliability."
@@ -2484,9 +2484,9 @@ Professional network management combines technology, processes, and people for r
         question: "What does SNMP provide?",
         options: [
           "Network device monitoring and management",
-          "Only configuration management",
           "Automated troubleshooting",
-          "Security enforcement"
+          "Security enforcement",
+          "Only configuration management"
         ],
         correctAnswer: 0,
         explanation: "SNMP collects information and controls network devices."
@@ -2496,12 +2496,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 6,
         question: "What is NetFlow used for?",
         options: [
-          "Traffic flow analysis and accounting",
-          "Only device configuration",
           "Security policy enforcement",
-          "Automated scripting"
+          "Automated scripting",
+          "Traffic flow analysis and accounting",
+          "Only device configuration"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "NetFlow provides detailed traffic statistics and analysis."
       },
       {
@@ -2509,12 +2509,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 6,
         question: "Why implement configuration standards?",
         options: [
-          "Consistency and easier management",
           "Random configurations",
-          "Manual configuration only",
-          "No configuration control"
+          "Consistency and easier management",
+          "No configuration control",
+          "Manual configuration only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Standards ensure predictable, maintainable network configurations."
       },
       {
@@ -2536,9 +2536,9 @@ Professional network management combines technology, processes, and people for r
         question: "What does automation reduce?",
         options: [
           "Human error and manual effort",
+          "Configuration complexity",
           "Network performance",
-          "Security levels",
-          "Configuration complexity"
+          "Security levels"
         ],
         correctAnswer: 0,
         explanation: "Automation improves consistency and efficiency."
@@ -2548,12 +2548,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 6,
         question: "What is Infrastructure as Code?",
         options: [
-          "Managing infrastructure through code",
           "Manual configuration only",
+          "Managing infrastructure through code",
           "Hardware programming",
           "Network coding languages"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "IaC treats infrastructure configuration as software code."
       },
       {
@@ -2561,12 +2561,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 6,
         question: "What does configuration drift detection identify?",
         options: [
-          "Unauthorized configuration changes",
+          "Security vulnerabilities",
           "Only authorized changes",
           "Network performance issues",
-          "Security vulnerabilities"
+          "Unauthorized configuration changes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Drift detection ensures configurations remain as intended."
       },
       {
@@ -2574,12 +2574,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 6,
         question: "What are KPIs in network management?",
         options: [
-          "Key Performance Indicators for measurement",
           "Only financial metrics",
+          "Equipment costs",
           "Employee performance",
-          "Equipment costs"
+          "Key Performance Indicators for measurement"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "KPIs quantify network performance and reliability."
       },
       {
@@ -2588,9 +2588,9 @@ Professional network management combines technology, processes, and people for r
         question: "What is root cause analysis?",
         options: [
           "Identifying underlying problem causes",
+          "Basic problem documentation",
           "Only treating symptoms",
-          "Ignoring problem sources",
-          "Basic problem documentation"
+          "Ignoring problem sources"
         ],
         correctAnswer: 0,
         explanation: "Root cause analysis prevents problem recurrence."
@@ -2600,12 +2600,12 @@ Professional network management combines technology, processes, and people for r
         moduleId: 6,
         question: "What does REST API enable?",
         options: [
-          "Programmatic device control and automation",
           "Only manual configuration",
           "Basic monitoring only",
-          "No device interaction"
+          "No device interaction",
+          "Programmatic device control and automation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "REST APIs allow software to control network devices."
       }
     ]

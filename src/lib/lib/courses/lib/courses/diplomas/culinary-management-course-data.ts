@@ -83,48 +83,48 @@ Successful menu engineering requires ongoing attention. Implement a quarterly re
           id: 1,
           question: "What pattern do customers' eyes typically follow when reading menus?",
           options: [
+            "Straight line pattern",
             "Z pattern",
             "Circular pattern",
-            "Random pattern",
-            "Straight line pattern"
+            "Random pattern"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Research shows customers' eyes typically move in a Z pattern across menus, pausing at specific points."
         },
         {
           id: 2,
           question: "What is more important than food cost percentage alone?",
           options: [
-            "Actual dollar contribution per item",
             "How cheap the ingredients are",
-            "Competitor pricing only",
-            "Customer preferences alone"
+            "Actual dollar contribution per item",
+            "Customer preferences alone",
+            "Competitor pricing only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The actual dollar contribution each item makes to profit is more important than food cost percentage alone."
         },
         {
           id: 3,
           question: "Where should high-profit items typically be placed on menus?",
           options: [
-            "Top right and bottom left corners",
             "Center of the menu",
+            "Top right and bottom left corners",
             "First item always",
             "Last page only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "High-profit items should be placed where eyes naturally pause - typically top right and bottom left corners."
         },
         {
           id: 4,
           question: "What should be tracked to create strategic menu pairings?",
           options: [
+            "Customer ages",
             "Which items sell together",
-            "Only individual item sales",
             "Time of day only",
-            "Customer ages"
+            "Only individual item sales"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Tracking which items sell together helps create strategic pairings that increase overall sales."
         },
         {
@@ -133,8 +133,8 @@ Successful menu engineering requires ongoing attention. Implement a quarterly re
           options: [
             "Sales by making items more appealing",
             "Only food costs",
-            "Preparation time",
-            "Customer complaints"
+            "Customer complaints",
+            "Preparation time"
           ],
           correctAnswer: 0,
           explanation: "Descriptive terms like 'handcrafted' or 'artisanal' can significantly increase sales by enhancing appeal."
@@ -143,48 +143,48 @@ Successful menu engineering requires ongoing attention. Implement a quarterly re
           id: 6,
           question: "What should menus maximize without creating bottlenecks?",
           options: [
-            "Equipment usage during peak hours",
             "Only chef creativity",
             "Number of ingredients",
+            "Equipment usage during peak hours",
             "Complexity of dishes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Menus should maximize equipment usage efficiently without creating production bottlenecks during busy times."
         },
         {
           id: 7,
           question: "What is menu mix analysis used for?",
           options: [
-            "Creating strategic item pairings",
             "Counting total items only",
-            "Measuring portion sizes",
-            "Tracking waste alone"
+            "Creating strategic item pairings",
+            "Tracking waste alone",
+            "Measuring portion sizes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Menu mix analysis tracks which items sell together to create strategic pairings and suggestions."
         },
         {
           id: 8,
           question: "How often should comprehensive menu reviews occur?",
           options: [
-            "Quarterly",
             "Yearly only",
             "Daily",
+            "Quarterly",
             "Only when sales drop"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "A quarterly review cycle allows regular adjustments based on sales data and customer feedback."
         },
         {
           id: 9,
           question: "What should be done with 'Puzzle' menu items?",
           options: [
-            "Improve descriptions or server training",
-            "Remove immediately",
             "Increase prices drastically",
-            "Hide from menu"
+            "Remove immediately",
+            "Hide from menu",
+            "Improve descriptions or server training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Puzzle items (low popularity, high profit) often need better marketing or positioning rather than removal."
         },
         {
@@ -192,9 +192,9 @@ Successful menu engineering requires ongoing attention. Implement a quarterly re
           question: "What helps reduce waste in menu planning?",
           options: [
             "Ingredient cross-utilization across dishes",
-            "Buying in bulk only",
+            "Simplifying menus completely",
             "Using frozen ingredients",
-            "Simplifying menus completely"
+            "Buying in bulk only"
           ],
           correctAnswer: 0,
           explanation: "Designing menus where ingredients work across multiple dishes reduces waste and inventory costs."
@@ -203,84 +203,84 @@ Successful menu engineering requires ongoing attention. Implement a quarterly re
           id: 11,
           question: "What should tasting menus consider carefully?",
           options: [
-            "Proper progression and pacing",
-            "Only chef's preferences",
             "Lowest possible cost",
-            "Speed of service only"
+            "Speed of service only",
+            "Proper progression and pacing",
+            "Only chef's preferences"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Tasting menus require careful consideration of progression, pacing, and flavor balance."
         },
         {
           id: 12,
           question: "What is competitive pricing analysis?",
           options: [
-            "Regularly comparing prices with similar restaurants",
+            "Setting random prices",
             "Always being cheapest",
             "Ignoring competitors",
-            "Setting random prices"
+            "Regularly comparing prices with similar restaurants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Competitive pricing analysis ensures your pricing remains appropriate within your market segment."
         },
         {
           id: 13,
           question: "What can revive interest in underperforming menu items?",
           options: [
+            "Serving smaller portions",
             "Repositioning or renaming",
-            "Only price reductions",
             "Hiding them completely",
-            "Serving smaller portions"
+            "Only price reductions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sometimes simple changes like repositioning or renaming can revive interest in underperforming items."
         },
         {
           id: 14,
           question: "What should beverage menus do?",
           options: [
-            "Complement food offerings and drive profitability",
+            "Offer cheapest options only",
             "Only list prices",
-            "Match competitor drinks exactly",
-            "Offer cheapest options only"
+            "Complement food offerings and drive profitability",
+            "Match competitor drinks exactly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Beverage menus should complement food offerings while contributing significantly to profitability."
         },
         {
           id: 15,
           question: "What helps staff guide customers effectively?",
           options: [
-            "Understanding menu priorities and item details",
             "Pushing most expensive items",
-            "Ignoring customer questions",
-            "Memorizing scripted responses"
+            "Understanding menu priorities and item details",
+            "Memorizing scripted responses",
+            "Ignoring customer questions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Staff who understand menu priorities can guide customers effectively toward suitable choices."
         },
         {
           id: 16,
           question: "What is seasonal profit tracking?",
           options: [
+            "Measuring daily sales only",
             "Comparing profitability across different seasons",
             "Only tracking summer sales",
-            "Ignoring seasonal changes",
-            "Measuring daily sales only"
+            "Ignoring seasonal changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Seasonal profit tracking helps adjust menus and strategies based on seasonal variations."
         },
         {
           id: 17,
           question: "What should event menus consider?",
           options: [
-            "Batch cooking and holding capabilities",
             "Only fancy presentation",
             "Maximum complexity",
-            "Chef's ego"
+            "Chef's ego",
+            "Batch cooking and holding capabilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Event menus must consider practical aspects like batch cooking and holding capabilities."
         },
         {
@@ -288,9 +288,9 @@ Successful menu engineering requires ongoing attention. Implement a quarterly re
           question: "What is visual hierarchy in menu design?",
           options: [
             "Using design elements to guide attention",
-            "Making everything bold",
+            "Adding many pictures",
             "Using one font only",
-            "Adding many pictures"
+            "Making everything bold"
           ],
           correctAnswer: 0,
           explanation: "Visual hierarchy uses typography and design to guide customer attention strategically."
@@ -299,24 +299,24 @@ Successful menu engineering requires ongoing attention. Implement a quarterly re
           id: 19,
           question: "What should menus evolve with?",
           options: [
-            "Customer preferences while maintaining core identity",
             "Every new food trend",
             "Only cost fluctuations",
-            "Staff preferences"
+            "Staff preferences",
+            "Customer preferences while maintaining core identity"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Successful menus evolve with customer preferences while maintaining the restaurant's core identity."
         },
         {
           id: 20,
           question: "What is ingredient cross-utilization?",
           options: [
+            "Sharing with other restaurants",
             "Using ingredients across multiple menu items",
             "Using cross-shaped cuts",
-            "Mixing cuisines randomly",
-            "Sharing with other restaurants"
+            "Mixing cuisines randomly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Cross-utilization means designing menus where ingredients work efficiently across multiple dishes."
         }
       ]
@@ -403,12 +403,12 @@ Effective financial management in culinary operations requires both detailed ana
           id: 1,
           question: "What does prime cost combine?",
           options: [
-            "Food costs and labor costs",
             "Only food costs",
-            "Rent and utilities",
-            "Marketing expenses"
+            "Marketing expenses",
+            "Food costs and labor costs",
+            "Rent and utilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Prime cost combines food costs and labor costs, typically representing 60-65% of total costs."
         },
         {
@@ -416,9 +416,9 @@ Effective financial management in culinary operations requires both detailed ana
           question: "What are controllable costs?",
           options: [
             "Costs you can influence directly",
-            "Rent and insurance",
             "Government taxes",
-            "Market fluctuations"
+            "Market fluctuations",
+            "Rent and insurance"
           ],
           correctAnswer: 0,
           explanation: "Controllable costs are those you can influence directly, like food, labor, and supplies."
@@ -427,36 +427,36 @@ Effective financial management in culinary operations requires both detailed ana
           id: 3,
           question: "What should recipe costing include that's often overlooked?",
           options: [
-            "Garnishes, oils, and seasonings",
             "Only main ingredients",
-            "Labor costs only",
-            "Overhead allocation"
+            "Overhead allocation",
+            "Garnishes, oils, and seasonings",
+            "Labor costs only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Detailed recipe costing should include all components, even small ones like garnishes and seasonings."
         },
         {
           id: 4,
           question: "What do productivity metrics track?",
           options: [
-            "Covers per labor hour and sales per labor hour",
             "Only total sales",
+            "Covers per labor hour and sales per labor hour",
             "Number of employees",
             "Hours worked alone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Productivity metrics like covers per labor hour help optimize scheduling and labor efficiency."
         },
         {
           id: 5,
           question: "What does perpetual inventory provide?",
           options: [
-            "Real-time inventory tracking",
-            "Only monthly counts",
             "Annual summaries",
-            "Supplier information"
+            "Supplier information",
+            "Real-time inventory tracking",
+            "Only monthly counts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Perpetual inventory systems track inventory in real-time rather than relying on periodic counts."
         },
         {
@@ -464,9 +464,9 @@ Effective financial management in culinary operations requires both detailed ana
           question: "What compares expected vs actual usage?",
           options: [
             "Theoretical vs actual usage analysis",
+            "Customer counts",
             "Only purchase records",
-            "Sales reports",
-            "Customer counts"
+            "Sales reports"
           ],
           correctAnswer: 0,
           explanation: "Comparing theoretical (expected) usage with actual usage helps identify waste or other issues."
@@ -475,36 +475,36 @@ Effective financial management in culinary operations requires both detailed ana
           id: 7,
           question: "What is value-based pricing?",
           options: [
-            "Pricing based on perceived customer value",
             "Always being cheapest",
+            "Matching competitors exactly",
             "Doubling food costs",
-            "Matching competitors exactly"
+            "Pricing based on perceived customer value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Value-based pricing considers perceived value including ambiance, service, and experience."
         },
         {
           id: 8,
           question: "What does ABC analysis categorize inventory by?",
           options: [
-            "Value and importance",
+            "Storage location",
             "Alphabetical order",
             "Supplier names",
-            "Storage location"
+            "Value and importance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ABC analysis categorizes items by value (A=high value, B=medium, C=low) to focus management attention."
         },
         {
           id: 9,
           question: "What should daily sales reports analyze beyond totals?",
           options: [
-            "Patterns by hour, server, and menu category",
-            "Only total revenue",
             "Weather conditions",
-            "Employee birthdays"
+            "Only total revenue",
+            "Employee birthdays",
+            "Patterns by hour, server, and menu category"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Detailed analysis of sales patterns provides insights for operational improvements."
         },
         {
@@ -512,9 +512,9 @@ Effective financial management in culinary operations requires both detailed ana
           question: "What is break-even analysis?",
           options: [
             "Determining sales needed to cover costs",
-            "Measuring food waste",
             "Counting customers",
-            "Tracking hours worked"
+            "Tracking hours worked",
+            "Measuring food waste"
           ],
           correctAnswer: 0,
           explanation: "Break-even analysis determines the exact sales needed to cover costs during specific periods."
@@ -523,96 +523,96 @@ Effective financial management in culinary operations requires both detailed ana
           id: 11,
           question: "What does variance analysis investigate?",
           options: [
-            "Differences between expected and actual costs",
             "Only price changes",
+            "Customer demographics",
             "Menu popularity",
-            "Customer demographics"
+            "Differences between expected and actual costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Variance analysis investigates significant differences to identify theft, waste, or errors."
         },
         {
           id: 12,
           question: "What helps optimize payment terms with suppliers?",
           options: [
+            "Ignoring invoices",
             "Accounts payable strategies",
             "Paying immediately always",
-            "Delaying all payments",
-            "Ignoring invoices"
+            "Delaying all payments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Strategic accounts payable management optimizes cash flow without damaging supplier relationships."
         },
         {
           id: 13,
           question: "What does cash flow forecasting prevent?",
           options: [
-            "Cash shortages that disrupt operations",
-            "Too much profit",
             "Employee overtime",
-            "Menu changes"
+            "Too much profit",
+            "Menu changes",
+            "Cash shortages that disrupt operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cash flow forecasting helps anticipate and prevent cash shortages that could disrupt operations."
         },
         {
           id: 14,
           question: "What should budget vs actual comparisons include?",
           options: [
-            "Variance explanations",
+            "Competitor data",
             "Only numbers",
-            "Future predictions",
-            "Competitor data"
+            "Variance explanations",
+            "Future predictions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective comparisons include explanations for variances between planned and actual performance."
         },
         {
           id: 15,
           question: "What does COGS tracking include beyond food purchases?",
           options: [
-            "Waste, spoilage, and complimentary items",
-            "Only invoice amounts",
             "Labor costs",
-            "Marketing expenses"
+            "Only invoice amounts",
+            "Marketing expenses",
+            "Waste, spoilage, and complimentary items"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Accurate COGS tracking includes all food usage including waste and complimentary items."
         },
         {
           id: 16,
           question: "What is dynamic pricing?",
           options: [
-            "Adjusting prices based on demand or time",
-            "Random price changes",
             "Always increasing prices",
-            "Ignoring costs"
+            "Ignoring costs",
+            "Adjusting prices based on demand or time",
+            "Random price changes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dynamic pricing adjusts prices based on factors like demand, time, or special events."
         },
         {
           id: 17,
           question: "What do bundle pricing strategies aim to increase?",
           options: [
-            "Check averages while providing perceived value",
-            "Only food costs",
             "Complexity of orders",
-            "Waste amounts"
+            "Check averages while providing perceived value",
+            "Waste amounts",
+            "Only food costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective bundles increase check averages while customers perceive added value."
         },
         {
           id: 18,
           question: "What is working capital management?",
           options: [
-            "Maintaining appropriate inventory and receivables levels",
-            "Only counting cash",
             "Hiring staff",
-            "Buying equipment"
+            "Only counting cash",
+            "Buying equipment",
+            "Maintaining appropriate inventory and receivables levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Working capital management ensures appropriate levels of current assets and liabilities."
         },
         {
@@ -621,8 +621,8 @@ Effective financial management in culinary operations requires both detailed ana
           options: [
             "Take appropriate action based on reports",
             "Only read reports",
-            "Ignore financial data",
-            "Change prices randomly"
+            "Change prices randomly",
+            "Ignore financial data"
           ],
           correctAnswer: 0,
           explanation: "Managers should understand reports well enough to take appropriate corrective actions."
@@ -631,12 +631,12 @@ Effective financial management in culinary operations requires both detailed ana
           id: 20,
           question: "What represents the largest controllable expense?",
           options: [
-            "Labor costs",
             "Rent payments",
-            "Insurance premiums",
-            "Equipment purchases"
+            "Labor costs",
+            "Equipment purchases",
+            "Insurance premiums"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Labor costs are typically the largest controllable expense in culinary operations."
         }
       ]
@@ -735,8 +735,8 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           question: "What does situational leadership require?",
           options: [
             "Adapting style based on team members' competence",
-            "Always using the same approach",
             "Following corporate guidelines only",
+            "Always using the same approach",
             "Ignoring individual differences"
           ],
           correctAnswer: 0,
@@ -746,12 +746,12 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 2,
           question: "What does transformational leadership focus on?",
           options: [
+            "Minimizing costs only",
             "Inspiring staff to exceed expectations",
             "Micromanaging every task",
-            "Following procedures exactly",
-            "Minimizing costs only"
+            "Following procedures exactly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Transformational leadership inspires staff by connecting work to larger purposes and values."
         },
         {
@@ -759,9 +759,9 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           question: "What do competency frameworks define?",
           options: [
             "Specific skills and behaviors for each position",
-            "Only job titles",
             "Pay rates",
-            "Uniform requirements"
+            "Uniform requirements",
+            "Only job titles"
           ],
           correctAnswer: 0,
           explanation: "Competency frameworks define required skills and behaviors with clear progression paths."
@@ -770,12 +770,12 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 4,
           question: "What should individual development plans align?",
           options: [
-            "Staff growth with operational needs",
-            "Only personal interests",
+            "Industry trends alone",
             "Competitor practices",
-            "Industry trends alone"
+            "Staff growth with operational needs",
+            "Only personal interests"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Development plans should align individual growth with the operation's current and future needs."
         },
         {
@@ -784,8 +784,8 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           options: [
             "Combining hands-on training with structured learning",
             "Only online courses",
-            "Reading manuals alone",
-            "Trial and error only"
+            "Trial and error only",
+            "Reading manuals alone"
           ],
           correctAnswer: 0,
           explanation: "Blended learning combines different approaches for comprehensive staff development."
@@ -794,12 +794,12 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 6,
           question: "What helps develop intrinsic motivation?",
           options: [
-            "Autonomy, mastery, and purpose",
             "Only higher pay",
             "Strict supervision",
-            "Longer hours"
+            "Longer hours",
+            "Autonomy, mastery, and purpose"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Intrinsic motivation develops through autonomy, mastery of skills, and sense of purpose."
         },
         {
@@ -807,9 +807,9 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           question: "What does mediation involve?",
           options: [
             "Helping conflicting parties find solutions",
-            "Taking sides in disputes",
             "Ignoring conflicts",
-            "Punishing all involved"
+            "Punishing all involved",
+            "Taking sides in disputes"
           ],
           correctAnswer: 0,
           explanation: "Mediation helps conflicting parties find mutually acceptable solutions with neutral guidance."
@@ -818,60 +818,60 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 8,
           question: "What is systemic conflict analysis?",
           options: [
-            "Looking beyond individual disputes to underlying issues",
-            "Blaming individuals only",
             "Ignoring patterns",
-            "Documenting only surface problems"
+            "Looking beyond individual disputes to underlying issues",
+            "Documenting only surface problems",
+            "Blaming individuals only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Systemic analysis identifies underlying issues that may be causing repeated conflicts."
         },
         {
           id: 9,
           question: "What do clear communication protocols prevent?",
           options: [
-            "Misunderstandings and errors",
-            "All conversations",
             "Team bonding",
-            "Creative thinking"
+            "All conversations",
+            "Creative thinking",
+            "Misunderstandings and errors"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Clear communication protocols establish expectations that prevent misunderstandings."
         },
         {
           id: 10,
           question: "What is succession planning?",
           options: [
-            "Developing future leaders for continuity",
             "Only hiring externally",
-            "Ignoring staff development",
-            "Keeping all positions open"
+            "Developing future leaders for continuity",
+            "Keeping all positions open",
+            "Ignoring staff development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Succession planning identifies and develops internal candidates for future leadership roles."
         },
         {
           id: 11,
           question: "What should change communication include?",
           options: [
-            "Reasons, benefits, and acknowledgment of challenges",
-            "Only new procedures",
             "Threats and ultimatums",
-            "Vague announcements"
+            "Only new procedures",
+            "Vague announcements",
+            "Reasons, benefits, and acknowledgment of challenges"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Effective change communication explains reasons, benefits, and acknowledges challenges honestly."
         },
         {
           id: 12,
           question: "What fosters a continuous learning culture?",
           options: [
-            "Valuing and supporting ongoing learning",
             "Only initial training",
+            "Keeping information secret",
             "Punishing mistakes",
-            "Keeping information secret"
+            "Valuing and supporting ongoing learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "A learning culture values ongoing development and supports staff growth."
         },
         {
@@ -879,8 +879,8 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           question: "What do restorative practices focus on?",
           options: [
             "Repairing relationships and restoring trust",
-            "Punishing wrongdoers",
             "Ignoring past issues",
+            "Punishing wrongdoers",
             "Starting fresh completely"
           ],
           correctAnswer: 0,
@@ -890,12 +890,12 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 14,
           question: "What should meetings respect while achieving outcomes?",
           options: [
-            "Participants' time",
             "Only managers' schedules",
+            "Participants' time",
             "Traditional formats",
             "Corporate policies only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective meetings respect participants' time while achieving meaningful outcomes."
         },
         {
@@ -903,9 +903,9 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           question: "What is servant leadership?",
           options: [
             "Focusing on supporting and developing team members",
+            "Only giving orders",
             "Being served by staff",
-            "Avoiding leadership responsibilities",
-            "Only giving orders"
+            "Avoiding leadership responsibilities"
           ],
           correctAnswer: 0,
           explanation: "Servant leadership prioritizes supporting and developing team members to help them excel."
@@ -914,12 +914,12 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 16,
           question: "What does needs assessment identify?",
           options: [
-            "Specific training needs through observation and data",
+            "Industry standards alone",
             "Only staff requests",
             "Competitor training programs",
-            "Industry standards alone"
+            "Specific training needs through observation and data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Needs assessment identifies specific training requirements based on observation and performance data."
         },
         {
@@ -927,9 +927,9 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           question: "What does coaching leadership use?",
           options: [
             "Questions and guidance rather than commands",
+            "Ignoring problems",
             "Only direct orders",
-            "Threats of punishment",
-            "Ignoring problems"
+            "Threats of punishment"
           ],
           correctAnswer: 0,
           explanation: "Coaching leadership develops problem-solving skills through questions and guidance."
@@ -938,12 +938,12 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 18,
           question: "What should recognition systems acknowledge?",
           options: [
+            "Seniority only",
             "Different types of contributions",
             "Only major achievements",
-            "Seniority only",
             "Favoritism"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Effective recognition acknowledges various contributions, not just major achievements."
         },
         {
@@ -951,8 +951,8 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           question: "What does stakeholder engagement involve during changes?",
           options: [
             "Involving affected staff in planning when possible",
-            "Making decisions secretly",
             "Ignoring staff input",
+            "Making decisions secretly",
             "Announcing changes suddenly"
           ],
           correctAnswer: 0,
@@ -962,12 +962,12 @@ Exceptional culinary leadership requires self-awareness, continuous learning, an
           id: 20,
           question: "What is measured in leadership legacy?",
           options: [
-            "Both financial results and staff development",
-            "Only profit numbers",
+            "Hours worked",
             "Personal popularity",
-            "Hours worked"
+            "Both financial results and staff development",
+            "Only profit numbers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leadership legacy includes both operational results and the development of people led."
         }
       ]
@@ -1065,24 +1065,24 @@ Operational excellence requires systematic thinking and consistent execution. De
           id: 1,
           question: "What do Standard Operating Procedures provide?",
           options: [
+            "Marketing ideas",
             "Detailed procedures for all critical processes",
-            "Only general guidelines",
             "Menu suggestions",
-            "Marketing ideas"
+            "Only general guidelines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "SOPs provide detailed, consistent procedures for all important operational processes."
         },
         {
           id: 2,
           question: "What are quality control points?",
           options: [
-            "Checkpoints throughout food flow to catch issues",
             "Only final inspection",
-            "Customer complaints",
-            "Supplier deliveries"
+            "Checkpoints throughout food flow to catch issues",
+            "Supplier deliveries",
+            "Customer complaints"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Quality control points are strategic checkpoints to identify issues before reaching customers."
         },
         {
@@ -1090,8 +1090,8 @@ Operational excellence requires systematic thinking and consistent execution. De
           question: "What does recipe standardization ensure?",
           options: [
             "Consistent results through specific measurements and methods",
-            "Chef creativity only",
             "Cost reduction",
+            "Chef creativity only",
             "Speed over quality"
           ],
           correctAnswer: 0,
@@ -1101,24 +1101,24 @@ Operational excellence requires systematic thinking and consistent execution. De
           id: 4,
           question: "What does workflow analysis study?",
           options: [
-            "How work flows to identify bottlenecks",
-            "Only employee speed",
             "Equipment costs",
-            "Menu popularity"
+            "How work flows to identify bottlenecks",
+            "Menu popularity",
+            "Only employee speed"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Workflow analysis studies work movement to identify inefficiencies and bottlenecks."
         },
         {
           id: 5,
           question: "What is the Plan-Do-Check-Act cycle?",
           options: [
-            "Systematic approach for testing improvements",
-            "Only planning phase",
+            "Marketing campaign",
             "Emergency procedure",
-            "Marketing campaign"
+            "Systematic approach for testing improvements",
+            "Only planning phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "PDCA is a systematic cycle for testing, implementing, and evaluating improvements."
         },
         {
@@ -1161,72 +1161,72 @@ Operational excellence requires systematic thinking and consistent execution. De
           id: 9,
           question: "What is service recovery?",
           options: [
-            "Turning negative experiences into positive ones",
             "Ignoring complaints",
+            "Turning negative experiences into positive ones",
             "Offering discounts always",
             "Blaming staff"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Service recovery systematically addresses problems to create positive outcomes from negatives."
         },
         {
           id: 10,
           question: "What are Key Performance Indicators?",
           options: [
-            "Most important metrics to track",
             "All possible measurements",
-            "Only financial numbers",
-            "Customer counts only"
+            "Customer counts only",
+            "Most important metrics to track",
+            "Only financial numbers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "KPIs are carefully selected metrics that indicate overall operational performance."
         },
         {
           id: 11,
           question: "What do corrective action processes address?",
           options: [
+            "Supplier problems",
             "Quality issues systematically when they occur",
-            "Only major disasters",
             "Staff discipline",
-            "Supplier problems"
+            "Only major disasters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Corrective action processes systematically address quality issues to prevent recurrence."
         },
         {
           id: 12,
           question: "What do mystery shopping programs assess?",
           options: [
-            "Consistency from customer perspective",
             "Only food quality",
+            "Consistency from customer perspective",
             "Staff friendships",
             "Equipment age"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mystery shopping provides anonymous customer perspective on consistency and quality."
         },
         {
           id: 13,
           question: "What does benchmarking involve?",
           options: [
-            "Comparing against industry standards and best practices",
-            "Only internal comparisons",
             "Guessing standards",
-            "Ignoring competitors"
+            "Comparing against industry standards and best practices",
+            "Ignoring competitors",
+            "Only internal comparisons"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Benchmarking compares your performance against industry standards and best practices."
         },
         {
           id: 14,
           question: "What should sanitation SOPs include?",
           options: [
-            "Detailed cleaning procedures with verification",
-            "Only general cleaning",
+            "Staff preferences",
             "Occasional deep cleaning",
-            "Staff preferences"
+            "Detailed cleaning procedures with verification",
+            "Only general cleaning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sanitation SOPs should include detailed procedures with verification systems."
         },
         {
@@ -1235,8 +1235,8 @@ Operational excellence requires systematic thinking and consistent execution. De
           options: [
             "Visual displays of critical performance data",
             "Only raw numbers",
-            "Historical data only",
-            "Future predictions"
+            "Future predictions",
+            "Historical data only"
           ],
           correctAnswer: 0,
           explanation: "Dashboards provide visual, easily understandable displays of key performance data."
@@ -1245,24 +1245,24 @@ Operational excellence requires systematic thinking and consistent execution. De
           id: 16,
           question: "What does staff movement efficiency optimize?",
           options: [
-            "Workspace design to minimize unnecessary movement",
+            "Break times",
             "Only speed of work",
-            "Number of staff",
-            "Break times"
+            "Workspace design to minimize unnecessary movement",
+            "Number of staff"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Movement efficiency optimizes workspace design to minimize wasted motion."
         },
         {
           id: 17,
           question: "What should feedback collection systems provide?",
           options: [
-            "Multiple channels for gathering customer feedback",
-            "Only comment cards",
+            "Ignoring feedback",
             "Annual surveys only",
-            "Ignoring feedback"
+            "Multiple channels for gathering customer feedback",
+            "Only comment cards"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Effective systems use multiple channels to gather comprehensive customer feedback."
         },
         {
@@ -1281,24 +1281,24 @@ Operational excellence requires systematic thinking and consistent execution. De
           id: 19,
           question: "What should training verification ensure?",
           options: [
-            "Staff consistently follow established procedures",
             "Only attendance records",
-            "Test scores alone",
-            "Completion certificates"
+            "Staff consistently follow established procedures",
+            "Completion certificates",
+            "Test scores alone"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Training verification ensures staff apply learned procedures consistently in practice."
         },
         {
           id: 20,
           question: "What is operational excellence described as?",
           options: [
-            "Continuous journey of improvement and refinement",
-            "One-time achievement",
             "Following procedures exactly",
-            "Maximizing profit only"
+            "Continuous journey of improvement and refinement",
+            "Maximizing profit only",
+            "One-time achievement"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Operational excellence is an ongoing journey of continuous improvement, not a final destination."
         }
       ]
@@ -1407,24 +1407,24 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           id: 1,
           question: "What should supplier selection assess beyond initial samples?",
           options: [
-            "Ability to deliver consistent quality over time",
+            "Salesperson personality",
             "Only lowest price",
             "Delivery speed alone",
-            "Salesperson personality"
+            "Ability to deliver consistent quality over time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Supplier selection should evaluate consistent quality delivery over time, not just initial samples."
         },
         {
           id: 2,
           question: "What do strategic relationships move beyond?",
           options: [
-            "Transactional relationships to partnerships",
             "Only price negotiations",
+            "Delivery schedules",
             "Written contracts",
-            "Delivery schedules"
+            "Transactional relationships to partnerships"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strategic management builds partnerships rather than maintaining purely transactional relationships."
         },
         {
@@ -1433,8 +1433,8 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           options: [
             "Total value including quality and service",
             "Only getting lowest price",
-            "Winning at all costs",
-            "Quick agreements"
+            "Quick agreements",
+            "Winning at all costs"
           ],
           correctAnswer: 0,
           explanation: "Value-based negotiation considers total value including quality, service, and support."
@@ -1443,12 +1443,12 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           id: 4,
           question: "What does preparation for negotiations involve?",
           options: [
-            "Researching market conditions and alternatives",
+            "Following standard templates",
             "Only knowing your needs",
             "Trusting supplier information",
-            "Following standard templates"
+            "Researching market conditions and alternatives"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Thorough preparation includes market research and understanding alternatives."
         },
         {
@@ -1456,8 +1456,8 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           question: "What should specifications include?",
           options: [
             "Clear, measurable standards for products",
-            "Only product names",
             "Vague descriptions",
+            "Only product names",
             "Supplier preferences"
           ],
           correctAnswer: 0,
@@ -1467,12 +1467,12 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           id: 6,
           question: "What helps optimize order quantities?",
           options: [
-            "Analysis of purchasing patterns",
-            "Guessing needs",
             "Always ordering same amounts",
-            "Supplier recommendations only"
+            "Supplier recommendations only",
+            "Analysis of purchasing patterns",
+            "Guessing needs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Analyzing purchasing patterns helps optimize order quantities and timing."
         },
         {
@@ -1480,9 +1480,9 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           question: "Why is supplier diversification important?",
           options: [
             "Avoids over-reliance on single suppliers",
-            "Increases paperwork",
+            "Reduces relationship depth",
             "Complicates ordering",
-            "Reduces relationship depth"
+            "Increases paperwork"
           ],
           correctAnswer: 0,
           explanation: "Diversification prevents disruptions if one supplier has problems."
@@ -1491,60 +1491,60 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           id: 8,
           question: "What should contingency planning address?",
           options: [
-            "Backup plans for supply disruptions",
             "Only normal operations",
-            "Growth planning",
-            "Marketing strategies"
+            "Backup plans for supply disruptions",
+            "Marketing strategies",
+            "Growth planning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Contingency planning prepares for potential supply disruptions before they occur."
         },
         {
           id: 9,
           question: "What do joint planning activities involve?",
           options: [
-            "Collaborating on seasonal planning with suppliers",
-            "Only telling suppliers what you need",
             "Ignoring supplier input",
-            "Making independent decisions"
+            "Only telling suppliers what you need",
+            "Making independent decisions",
+            "Collaborating on seasonal planning with suppliers"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Joint planning collaborates with suppliers on seasonal needs and product development."
         },
         {
           id: 10,
           question: "What should performance monitoring track?",
           options: [
-            "Supplier performance against contract terms",
             "Only delivery times",
-            "Price changes only",
-            "Salesperson visits"
+            "Supplier performance against contract terms",
+            "Salesperson visits",
+            "Price changes only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Performance monitoring tracks all aspects of supplier performance against agreements."
         },
         {
           id: 11,
           question: "What evaluates supplier financial health?",
           options: [
-            "Financial stability assessment",
-            "Only payment terms",
+            "Delivery vehicle quality",
             "Price competitiveness",
-            "Delivery vehicle quality"
+            "Only payment terms",
+            "Financial stability assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Assessing financial stability ensures suppliers can maintain long-term viability."
         },
         {
           id: 12,
           question: "What should win-win negotiation solutions achieve?",
           options: [
-            "Benefits for both parties",
-            "Only your benefits",
+            "Quick compromises",
             "Supplier domination",
-            "Quick compromises"
+            "Benefits for both parties",
+            "Only your benefits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Win-win solutions create value for both parties, strengthening relationships."
         },
         {
@@ -1552,8 +1552,8 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           question: "What do inspection protocols establish?",
           options: [
             "Systematic approaches to checking deliveries",
-            "Random checks only",
             "Trusting suppliers completely",
+            "Random checks only",
             "Only weighing deliveries"
           ],
           correctAnswer: 0,
@@ -1563,12 +1563,12 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           id: 14,
           question: "What does seasonal purchasing take advantage of?",
           options: [
+            "Storage capacity",
             "Seasonal availability and pricing",
-            "Only consistent supply",
             "Supplier preferences",
-            "Storage capacity"
+            "Only consistent supply"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Seasonal purchasing leverages natural availability cycles for better value."
         },
         {
@@ -1576,9 +1576,9 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           question: "What should performance reviews with suppliers include?",
           options: [
             "Regular reviews of performance and issues",
-            "Only when problems occur",
             "Annual meetings only",
-            "Ignoring small issues"
+            "Ignoring small issues",
+            "Only when problems occur"
           ],
           correctAnswer: 0,
           explanation: "Regular performance reviews address issues proactively and strengthen relationships."
@@ -1587,36 +1587,36 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           id: 16,
           question: "What do clear dispute resolution mechanisms provide?",
           options: [
-            "Processes for resolving disagreements fairly",
+            "Legal action immediately",
             "Threats of termination",
             "Ignoring problems",
-            "Legal action immediately"
+            "Processes for resolving disagreements fairly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Clear dispute resolution processes address disagreements fairly and efficiently."
         },
         {
           id: 17,
           question: "What does waste reduction collaboration involve?",
           options: [
-            "Working with suppliers to reduce packaging waste",
             "Only recycling internally",
             "Ignoring packaging",
-            "Accepting all packaging"
+            "Accepting all packaging",
+            "Working with suppliers to reduce packaging waste"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Collaborating with suppliers can reduce packaging and other waste throughout the supply chain."
         },
         {
           id: 18,
           question: "What should market monitoring track?",
           options: [
-            "Conditions affecting supply or pricing",
             "Only your purchases",
-            "Competitor menus",
-            "Employee satisfaction"
+            "Conditions affecting supply or pricing",
+            "Employee satisfaction",
+            "Competitor menus"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Market monitoring tracks external factors that could affect supply availability or pricing."
         },
         {
@@ -1635,12 +1635,12 @@ View suppliers as strategic partners rather than just vendors. Invest time in un
           id: 20,
           question: "What are the strongest supplier relationships built on?",
           options: [
-            "Transparency, fairness, and mutual respect",
-            "Only low prices",
             "Fear and intimidation",
-            "Complex contracts"
+            "Complex contracts",
+            "Only low prices",
+            "Transparency, fairness, and mutual respect"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Strongest relationships are built on principles of transparency, fairness, and mutual respect."
         }
       ]
@@ -1749,24 +1749,24 @@ Leading innovation requires balancing creativity with practical implementation. 
           id: 1,
           question: "What should trend identification systems monitor?",
           options: [
+            "Staff preferences",
             "Culinary, technology, and consumer behavior trends",
             "Only food trends",
-            "Competitor prices only",
-            "Staff preferences"
+            "Competitor prices only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Comprehensive trend monitoring includes culinary, technology, and consumer behavior aspects."
         },
         {
           id: 2,
           question: "What should trend evaluation assess?",
           options: [
-            "Alignment with your concept and customer base",
             "Only popularity",
-            "Media coverage",
-            "Chef interest"
+            "Chef interest",
+            "Alignment with your concept and customer base",
+            "Media coverage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Trend evaluation should assess fit with your specific operation and customers."
         },
         {
@@ -1774,9 +1774,9 @@ Leading innovation requires balancing creativity with practical implementation. 
           question: "What should POS systems evolve beyond?",
           options: [
             "Simple transactions to integrated CRM",
-            "Only taking orders",
             "Printing receipts",
-            "Tracking sales only"
+            "Tracking sales only",
+            "Only taking orders"
           ],
           correctAnswer: 0,
           explanation: "Modern POS systems should integrate customer relationship management capabilities."
@@ -1786,9 +1786,9 @@ Leading innovation requires balancing creativity with practical implementation. 
           question: "What does sustainable sourcing support?",
           options: [
             "Environmental and social sustainability",
-            "Only lowest cost",
             "Local suppliers only",
-            "Organic certification"
+            "Organic certification",
+            "Only lowest cost"
           ],
           correctAnswer: 0,
           explanation: "Sustainable sourcing considers environmental and social impacts of purchasing decisions."
@@ -1798,8 +1798,8 @@ Leading innovation requires balancing creativity with practical implementation. 
           question: "What does nutritional transparency provide?",
           options: [
             "Clear nutritional information while maintaining excellence",
-            "Only calorie counts",
             "Diet restrictions",
+            "Only calorie counts",
             "Ingredient lists only"
           ],
           correctAnswer: 0,
@@ -1810,9 +1810,9 @@ Leading innovation requires balancing creativity with practical implementation. 
           question: "What do multi-sensory experiences engage?",
           options: [
             "All senses beyond just taste",
-            "Only sight and taste",
             "Hearing only",
-            "Smell alone"
+            "Smell alone",
+            "Only sight and taste"
           ],
           correctAnswer: 0,
           explanation: "Multi-sensory experiences engage sight, sound, smell, touch, and taste together."
@@ -1822,9 +1822,9 @@ Leading innovation requires balancing creativity with practical implementation. 
           question: "What should innovation balance with creativity?",
           options: [
             "Practical implementation",
-            "Only creative ideas",
             "Cost reduction",
-            "Speed of change"
+            "Speed of change",
+            "Only creative ideas"
           ],
           correctAnswer: 0,
           explanation: "Successful innovation balances creative ideas with practical implementation."
@@ -1833,24 +1833,24 @@ Leading innovation requires balancing creativity with practical implementation. 
           id: 8,
           question: "What does trend lifecycle understanding recognize?",
           options: [
-            "Where trends are in their development",
-            "Only current popularity",
             "Past trends only",
-            "Future predictions"
+            "Future predictions",
+            "Only current popularity",
+            "Where trends are in their development"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Understanding trend lifecycles helps plan appropriate timing for adoption."
         },
         {
           id: 9,
           question: "What should data analytics drive decisions about?",
           options: [
-            "Menus, operations, and marketing",
+            "Supplier selection",
             "Only pricing",
             "Staff scheduling",
-            "Supplier selection"
+            "Menus, operations, and marketing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Data analytics should inform decisions across multiple operational areas."
         },
         {
@@ -1858,8 +1858,8 @@ Leading innovation requires balancing creativity with practical implementation. 
           question: "What should waste reduction systems minimize?",
           options: [
             "Food, packaging, and energy waste",
-            "Only food waste",
             "Labor costs",
+            "Only food waste",
             "Customer complaints"
           ],
           correctAnswer: 0,
@@ -1869,48 +1869,48 @@ Leading innovation requires balancing creativity with practical implementation. 
           id: 11,
           question: "What do interactive elements incorporate?",
           options: [
+            "Choosing tables",
             "Customer participation in dining experience",
-            "Only watching preparation",
             "Reading menus",
-            "Choosing tables"
+            "Only watching preparation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Interactive elements allow customers to participate actively in their experience."
         },
         {
           id: 12,
           question: "What should adaptation strategies develop?",
           options: [
-            "Approaches for adapting trends to your operation",
             "Only copying trends exactly",
             "Ignoring trends",
-            "Following all trends"
+            "Following all trends",
+            "Approaches for adapting trends to your operation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Adaptation strategies tailor trends to fit your specific operation and concept."
         },
         {
           id: 13,
           question: "What does energy efficiency implement?",
           options: [
-            "Equipment and practices reducing consumption",
-            "Only turning lights off",
+            "Ignoring energy costs",
             "Using any equipment",
-            "Ignoring energy costs"
+            "Only turning lights off",
+            "Equipment and practices reducing consumption"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Energy efficiency implements specific equipment and practices to reduce consumption."
         },
         {
           id: 14,
           question: "What does storytelling integration connect food to?",
           options: [
-            "Stories about ingredients, preparation, or culture",
             "Only prices",
-            "Nutrition facts",
-            "Supplier names"
+            "Stories about ingredients, preparation, or culture",
+            "Supplier names",
+            "Nutrition facts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Storytelling adds depth by connecting food to meaningful narratives."
         },
         {
@@ -1929,36 +1929,36 @@ Leading innovation requires balancing creativity with practical implementation. 
           id: 16,
           question: "What does cultural authenticity require?",
           options: [
-            "Respectful incorporation of culinary traditions",
             "Only using authentic ingredients",
+            "Copying exactly",
             "Hiring native chefs",
-            "Copying exactly"
+            "Respectful incorporation of culinary traditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural authenticity requires respectful, knowledgeable incorporation of traditions."
         },
         {
           id: 17,
           question: "What should idea generation systems provide?",
           options: [
-            "Structured ways to generate and capture ideas",
-            "Only management ideas",
+            "Competitor copying",
             "Random suggestions",
-            "Competitor copying"
+            "Structured ways to generate and capture ideas",
+            "Only management ideas"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Structured systems systematically generate and capture innovative ideas from various sources."
         },
         {
           id: 18,
           question: "What does wellness programming support?",
           options: [
-            "Overall customer wellness",
+            "Diet restrictions",
             "Only weight loss",
-            "Exercise programs",
-            "Diet restrictions"
+            "Overall customer wellness",
+            "Exercise programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Wellness programming supports various aspects of customer health and wellbeing."
         },
         {
@@ -1978,9 +1978,9 @@ Leading innovation requires balancing creativity with practical implementation. 
           question: "What do successful innovations enhance while moving forward?",
           options: [
             "Core strengths while resonating with customers",
-            "Only profits",
             "Staff satisfaction",
-            "Menu size"
+            "Menu size",
+            "Only profits"
           ],
           correctAnswer: 0,
           explanation: "Successful innovations build on existing strengths while appealing to customers."
@@ -2000,12 +2000,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 1,
         question: "What pattern do customers' eyes typically follow when reading menus?",
         options: [
-          "Z pattern",
           "Circular pattern",
+          "Straight line pattern",
           "Random pattern",
-          "Straight line pattern"
+          "Z pattern"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Research shows customers' eyes typically move in a Z pattern across menus."
       },
       {
@@ -2026,12 +2026,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 3,
         question: "What does situational leadership require?",
         options: [
-          "Adapting style based on team members' competence",
           "Always using the same approach",
-          "Following corporate guidelines only",
-          "Ignoring individual differences"
+          "Ignoring individual differences",
+          "Adapting style based on team members' competence",
+          "Following corporate guidelines only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Situational leadership adapts based on team members' competence and commitment levels."
       },
       {
@@ -2039,12 +2039,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 4,
         question: "What do Standard Operating Procedures provide?",
         options: [
-          "Detailed procedures for all critical processes",
-          "Only general guidelines",
+          "Marketing ideas",
           "Menu suggestions",
-          "Marketing ideas"
+          "Only general guidelines",
+          "Detailed procedures for all critical processes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "SOPs provide detailed, consistent procedures for important operational processes."
       },
       {
@@ -2052,12 +2052,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 5,
         question: "What should supplier selection assess beyond initial samples?",
         options: [
-          "Ability to deliver consistent quality over time",
-          "Only lowest price",
           "Delivery speed alone",
-          "Salesperson personality"
+          "Salesperson personality",
+          "Ability to deliver consistent quality over time",
+          "Only lowest price"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Supplier selection should evaluate consistent quality delivery over time."
       },
       {
@@ -2066,9 +2066,9 @@ Leading innovation requires balancing creativity with practical implementation. 
         question: "What should trend identification systems monitor?",
         options: [
           "Culinary, technology, and consumer behavior trends",
-          "Only food trends",
+          "Staff preferences",
           "Competitor prices only",
-          "Staff preferences"
+          "Only food trends"
         ],
         correctAnswer: 0,
         explanation: "Comprehensive trend monitoring includes multiple aspects of industry change."
@@ -2079,9 +2079,9 @@ Leading innovation requires balancing creativity with practical implementation. 
         question: "What is more important than food cost percentage alone?",
         options: [
           "Actual dollar contribution per item",
+          "Customer preferences alone",
           "How cheap the ingredients are",
-          "Competitor pricing only",
-          "Customer preferences alone"
+          "Competitor pricing only"
         ],
         correctAnswer: 0,
         explanation: "Actual dollar contribution is more important than food cost percentage alone."
@@ -2091,12 +2091,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 2,
         question: "What are controllable costs?",
         options: [
-          "Costs you can influence directly",
-          "Rent and insurance",
           "Government taxes",
-          "Market fluctuations"
+          "Costs you can influence directly",
+          "Market fluctuations",
+          "Rent and insurance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Controllable costs are those you can influence directly like food and labor."
       },
       {
@@ -2104,12 +2104,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 3,
         question: "What does transformational leadership focus on?",
         options: [
-          "Inspiring staff to exceed expectations",
           "Micromanaging every task",
+          "Minimizing costs only",
           "Following procedures exactly",
-          "Minimizing costs only"
+          "Inspiring staff to exceed expectations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Transformational leadership inspires staff by connecting work to larger purposes."
       },
       {
@@ -2117,12 +2117,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 4,
         question: "What are quality control points?",
         options: [
-          "Checkpoints throughout food flow to catch issues",
-          "Only final inspection",
           "Customer complaints",
+          "Only final inspection",
+          "Checkpoints throughout food flow to catch issues",
           "Supplier deliveries"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Quality control points are strategic checkpoints to identify issues early."
       },
       {
@@ -2130,12 +2130,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 5,
         question: "What do strategic relationships move beyond?",
         options: [
-          "Transactional relationships to partnerships",
-          "Only price negotiations",
           "Written contracts",
-          "Delivery schedules"
+          "Transactional relationships to partnerships",
+          "Delivery schedules",
+          "Only price negotiations"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Strategic management builds partnerships rather than transactional relationships."
       },
       {
@@ -2143,12 +2143,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 6,
         question: "What should trend evaluation assess?",
         options: [
-          "Alignment with your concept and customer base",
+          "Chef interest",
           "Only popularity",
           "Media coverage",
-          "Chef interest"
+          "Alignment with your concept and customer base"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Trend evaluation should assess fit with your specific operation and customers."
       },
       {
@@ -2169,12 +2169,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 2,
         question: "What should recipe costing include that's often overlooked?",
         options: [
-          "Garnishes, oils, and seasonings",
           "Only main ingredients",
           "Labor costs only",
-          "Overhead allocation"
+          "Overhead allocation",
+          "Garnishes, oils, and seasonings"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Detailed recipe costing should include all components, even small ones."
       },
       {
@@ -2182,12 +2182,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 3,
         question: "What do competency frameworks define?",
         options: [
-          "Specific skills and behaviors for each position",
-          "Only job titles",
+          "Uniform requirements",
           "Pay rates",
-          "Uniform requirements"
+          "Specific skills and behaviors for each position",
+          "Only job titles"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Competency frameworks define required skills and behaviors with clear progression paths."
       },
       {
@@ -2195,12 +2195,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 4,
         question: "What does recipe standardization ensure?",
         options: [
+          "Cost reduction",
           "Consistent results through specific measurements",
           "Chef creativity only",
-          "Cost reduction",
           "Speed over quality"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Standardized recipes ensure consistent quality through precise specifications."
       },
       {
@@ -2208,12 +2208,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 5,
         question: "What should negotiations focus on beyond price?",
         options: [
-          "Total value including quality and service",
           "Only getting lowest price",
           "Winning at all costs",
-          "Quick agreements"
+          "Quick agreements",
+          "Total value including quality and service"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Value-based negotiation considers total value including quality and service."
       },
       {
@@ -2221,12 +2221,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 6,
         question: "What should POS systems evolve beyond?",
         options: [
-          "Simple transactions to integrated CRM",
           "Only taking orders",
           "Printing receipts",
-          "Tracking sales only"
+          "Tracking sales only",
+          "Simple transactions to integrated CRM"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Modern POS systems should integrate customer relationship management capabilities."
       },
       {
@@ -2234,12 +2234,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 1,
         question: "What should be tracked to create strategic menu pairings?",
         options: [
-          "Which items sell together",
+          "Customer ages",
           "Only individual item sales",
           "Time of day only",
-          "Customer ages"
+          "Which items sell together"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Tracking which items sell together helps create strategic pairings."
       },
       {
@@ -2260,12 +2260,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 3,
         question: "What should individual development plans align?",
         options: [
-          "Staff growth with operational needs",
           "Only personal interests",
           "Competitor practices",
-          "Industry trends alone"
+          "Industry trends alone",
+          "Staff growth with operational needs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Development plans should align individual growth with operational needs."
       },
       {
@@ -2274,8 +2274,8 @@ Leading innovation requires balancing creativity with practical implementation. 
         question: "What does workflow analysis study?",
         options: [
           "How work flows to identify bottlenecks",
-          "Only employee speed",
           "Equipment costs",
+          "Only employee speed",
           "Menu popularity"
         ],
         correctAnswer: 0,
@@ -2286,12 +2286,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 5,
         question: "What does preparation for negotiations involve?",
         options: [
-          "Researching market conditions and alternatives",
+          "Following standard templates",
           "Only knowing your needs",
-          "Trusting supplier information",
-          "Following standard templates"
+          "Researching market conditions and alternatives",
+          "Trusting supplier information"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Thorough preparation includes market research and understanding alternatives."
       },
       {
@@ -2300,9 +2300,9 @@ Leading innovation requires balancing creativity with practical implementation. 
         question: "What does sustainable sourcing support?",
         options: [
           "Environmental and social sustainability",
+          "Organic certification",
           "Only lowest cost",
-          "Local suppliers only",
-          "Organic certification"
+          "Local suppliers only"
         ],
         correctAnswer: 0,
         explanation: "Sustainable sourcing considers environmental and social impacts."
@@ -2312,12 +2312,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 1,
         question: "What can descriptive menu language increase?",
         options: [
+          "Customer complaints",
           "Sales by making items more appealing",
           "Only food costs",
-          "Preparation time",
-          "Customer complaints"
+          "Preparation time"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Descriptive terms can significantly increase sales by enhancing appeal."
       },
       {
@@ -2325,12 +2325,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 2,
         question: "What does perpetual inventory provide?",
         options: [
-          "Real-time inventory tracking",
-          "Only monthly counts",
+          "Supplier information",
           "Annual summaries",
-          "Supplier information"
+          "Only monthly counts",
+          "Real-time inventory tracking"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Perpetual inventory systems track inventory in real-time."
       },
       {
@@ -2338,12 +2338,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 3,
         question: "What is blended learning?",
         options: [
-          "Combining hands-on training with structured learning",
           "Only online courses",
-          "Reading manuals alone",
-          "Trial and error only"
+          "Trial and error only",
+          "Combining hands-on training with structured learning",
+          "Reading manuals alone"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Blended learning combines different approaches for comprehensive development."
       },
       {
@@ -2351,12 +2351,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 4,
         question: "What is the Plan-Do-Check-Act cycle?",
         options: [
-          "Systematic approach for testing improvements",
           "Only planning phase",
+          "Marketing campaign",
           "Emergency procedure",
-          "Marketing campaign"
+          "Systematic approach for testing improvements"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "PDCA is a systematic cycle for testing and evaluating improvements."
       },
       {
@@ -2364,12 +2364,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 5,
         question: "What should specifications include?",
         options: [
-          "Clear, measurable standards for products",
-          "Only product names",
           "Vague descriptions",
-          "Supplier preferences"
+          "Clear, measurable standards for products",
+          "Supplier preferences",
+          "Only product names"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Clear, measurable specifications ensure suppliers understand requirements."
       },
       {
@@ -2377,12 +2377,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 6,
         question: "What does nutritional transparency provide?",
         options: [
-          "Clear nutritional information while maintaining excellence",
           "Only calorie counts",
+          "Clear nutritional information while maintaining excellence",
           "Diet restrictions",
           "Ingredient lists only"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Nutritional transparency provides information while maintaining quality."
       },
       {
@@ -2391,9 +2391,9 @@ Leading innovation requires balancing creativity with practical implementation. 
         question: "What should menus maximize without creating bottlenecks?",
         options: [
           "Equipment usage during peak hours",
-          "Only chef creativity",
           "Number of ingredients",
-          "Complexity of dishes"
+          "Complexity of dishes",
+          "Only chef creativity"
         ],
         correctAnswer: 0,
         explanation: "Menus should maximize equipment usage efficiently during busy times."
@@ -2403,12 +2403,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 2,
         question: "What compares expected vs actual usage?",
         options: [
-          "Theoretical vs actual usage analysis",
           "Only purchase records",
           "Sales reports",
-          "Customer counts"
+          "Customer counts",
+          "Theoretical vs actual usage analysis"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Comparing theoretical with actual usage helps identify waste or issues."
       },
       {
@@ -2418,8 +2418,8 @@ Leading innovation requires balancing creativity with practical implementation. 
         options: [
           "Autonomy, mastery, and purpose",
           "Only higher pay",
-          "Strict supervision",
-          "Longer hours"
+          "Longer hours",
+          "Strict supervision"
         ],
         correctAnswer: 0,
         explanation: "Intrinsic motivation develops through autonomy, mastery, and purpose."
@@ -2429,12 +2429,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 4,
         question: "What does HACCP stand for?",
         options: [
-          "Hazard Analysis Critical Control Point",
+          "Hygiene and Cleanliness Compliance Protocol",
           "Health and Cooking Control Program",
-          "High Accuracy Cooking Control Process",
-          "Hygiene and Cleanliness Compliance Protocol"
+          "Hazard Analysis Critical Control Point",
+          "High Accuracy Cooking Control Process"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "HACCP is a systematic approach to food safety hazard control."
       },
       {
@@ -2442,12 +2442,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 5,
         question: "What helps optimize order quantities?",
         options: [
-          "Analysis of purchasing patterns",
           "Guessing needs",
-          "Always ordering same amounts",
-          "Supplier recommendations only"
+          "Supplier recommendations only",
+          "Analysis of purchasing patterns",
+          "Always ordering same amounts"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Analyzing purchasing patterns helps optimize order quantities and timing."
       },
       {
@@ -2455,12 +2455,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 6,
         question: "What do multi-sensory experiences engage?",
         options: [
+          "Hearing only",
           "All senses beyond just taste",
           "Only sight and taste",
-          "Hearing only",
           "Smell alone"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Multi-sensory experiences engage multiple senses together."
       },
       {
@@ -2469,9 +2469,9 @@ Leading innovation requires balancing creativity with practical implementation. 
         question: "What is menu mix analysis used for?",
         options: [
           "Creating strategic item pairings",
+          "Tracking waste alone",
           "Counting total items only",
-          "Measuring portion sizes",
-          "Tracking waste alone"
+          "Measuring portion sizes"
         ],
         correctAnswer: 0,
         explanation: "Menu mix analysis tracks which items sell together for strategic pairings."
@@ -2481,12 +2481,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 2,
         question: "What is value-based pricing?",
         options: [
-          "Pricing based on perceived customer value",
-          "Always being cheapest",
           "Doubling food costs",
+          "Always being cheapest",
+          "Pricing based on perceived customer value",
           "Matching competitors exactly"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Value-based pricing considers perceived value including ambiance and service."
       },
       {
@@ -2494,12 +2494,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 3,
         question: "What does mediation involve?",
         options: [
+          "Punishing all involved",
           "Helping conflicting parties find solutions",
-          "Taking sides in disputes",
           "Ignoring conflicts",
-          "Punishing all involved"
+          "Taking sides in disputes"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Mediation helps conflicting parties find mutually acceptable solutions."
       },
       {
@@ -2507,12 +2507,12 @@ Leading innovation requires balancing creativity with practical implementation. 
         module: 4,
         question: "What should allergen management programs prevent?",
         options: [
+          "Customer questions",
           "Cross-contact and properly inform customers",
           "Only list ingredients",
-          "Using allergens completely",
-          "Customer questions"
+          "Using allergens completely"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Allergen management prevents cross-contact and ensures proper information."
       }
     ]

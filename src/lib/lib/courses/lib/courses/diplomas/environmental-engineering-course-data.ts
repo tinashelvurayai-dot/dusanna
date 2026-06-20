@@ -216,12 +216,12 @@ This foundation module establishes the core principles, methodologies, and profe
           id: 1,
           question: "What is the fundamental principle that forms the foundation of environmental engineering?",
           options: [
-            "Sustainability - meeting needs without compromising future generations",
-            "Maximum economic efficiency at all costs",
             "Rapid technological implementation regardless of impact",
-            "Complete elimination of all human environmental impacts"
+            "Complete elimination of all human environmental impacts",
+            "Sustainability - meeting needs without compromising future generations",
+            "Maximum economic efficiency at all costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sustainability is the core principle, balancing economic, social, and environmental considerations for long-term viability."
         },
         {
@@ -229,9 +229,9 @@ This foundation module establishes the core principles, methodologies, and profe
           question: "What does systems thinking approach in environmental engineering involve?",
           options: [
             "Understanding interconnected natural and engineered systems holistically",
-            "Focusing only on individual components in isolation",
             "Ignoring upstream and downstream impacts",
-            "Considering only short-term immediate effects"
+            "Considering only short-term immediate effects",
+            "Focusing only on individual components in isolation"
           ],
           correctAnswer: 0,
           explanation: "Systems thinking involves holistic understanding of interconnected systems, feedback loops, and comprehensive impact analysis."
@@ -241,9 +241,9 @@ This foundation module establishes the core principles, methodologies, and profe
           question: "What are the four main steps in risk assessment methodology?",
           options: [
             "Hazard identification, exposure assessment, risk characterization, uncertainty analysis",
-            "Problem definition, solution development, implementation, evaluation",
+            "Sampling, testing, comparison, conclusion",
             "Data collection, analysis, reporting, archiving",
-            "Sampling, testing, comparison, conclusion"
+            "Problem definition, solution development, implementation, evaluation"
           ],
           correctAnswer: 0,
           explanation: "Risk assessment systematically follows hazard identification, exposure assessment, risk characterization, and uncertainty analysis."
@@ -252,48 +252,48 @@ This foundation module establishes the core principles, methodologies, and profe
           id: 4,
           question: "Which environmental engineering discipline focuses on watershed protection and hydrological modeling?",
           options: [
-            "Water Resources Engineering",
-            "Air Quality Engineering",
             "Solid Waste Management",
-            "Environmental Impact Assessment"
+            "Air Quality Engineering",
+            "Environmental Impact Assessment",
+            "Water Resources Engineering"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Water Resources Engineering addresses watershed protection, water supply, stormwater management, and hydrological analysis."
         },
         {
           id: 5,
           question: "What is the first phase in the environmental engineering design process?",
           options: [
-            "Problem Definition - identifying stakeholders and requirements",
             "Detailed Design - creating process flow diagrams",
-            "Implementation - construction management",
-            "Evaluation - performance monitoring"
+            "Problem Definition - identifying stakeholders and requirements",
+            "Evaluation - performance monitoring",
+            "Implementation - construction management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Problem Definition establishes project objectives, stakeholder needs, regulatory requirements, and technical constraints."
         },
         {
           id: 6,
           question: "What fundamental principle do mass balance equations apply?",
           options: [
-            "Conservation of Mass - mass cannot be created or destroyed",
-            "Maximum Efficiency - minimizing energy use",
             "Least Cost - economic optimization",
-            "Fastest Processing - time minimization"
+            "Conservation of Mass - mass cannot be created or destroyed",
+            "Fastest Processing - time minimization",
+            "Maximum Efficiency - minimizing energy use"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mass balance equations apply the conservation of mass principle to analyze inputs, outputs, and transformations in systems."
         },
         {
           id: 7,
           question: "What does reaction kinetics study in environmental engineering?",
           options: [
-            "Rates of chemical and biological reactions in environmental systems",
-            "Structural stability of engineering materials",
             "Economic costs of environmental projects",
+            "Structural stability of engineering materials",
+            "Rates of chemical and biological reactions in environmental systems",
             "Social acceptance of engineering solutions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reaction kinetics studies reaction rates, order, temperature effects, and rate constants for environmental processes."
         },
         {
@@ -301,9 +301,9 @@ This foundation module establishes the core principles, methodologies, and profe
           question: "Which US legislation establishes air quality standards and emission controls?",
           options: [
             "Clean Air Act and its amendments",
-            "Safe Drinking Water Act",
             "Resource Conservation and Recovery Act",
-            "Endangered Species Act"
+            "Endangered Species Act",
+            "Safe Drinking Water Act"
           ],
           correctAnswer: 0,
           explanation: "The Clean Air Act establishes National Ambient Air Quality Standards and regulates air emissions from various sources."
@@ -313,9 +313,9 @@ This foundation module establishes the core principles, methodologies, and profe
           question: "What is included in the permitting process for environmental projects?",
           options: [
             "Discharge permits, air emission permits, construction permits",
-            "Only construction completion certificates",
+            "Employee training certifications",
             "Equipment warranty registrations",
-            "Employee training certifications"
+            "Only construction completion certificates"
           ],
           correctAnswer: 0,
           explanation: "Permitting involves discharge permits for water, air emission permits, and construction/operating permits as required."
@@ -326,8 +326,8 @@ This foundation module establishes the core principles, methodologies, and profe
           options: [
             "Honest representation of data and findings without manipulation",
             "Selective presentation of favorable results only",
-            "Data modification to meet expected outcomes",
-            "Withholding data that contradicts project goals"
+            "Withholding data that contradicts project goals",
+            "Data modification to meet expected outcomes"
           ],
           correctAnswer: 0,
           explanation: "Environmental engineers must honestly represent all data and findings, maintaining scientific integrity and transparency."
@@ -349,9 +349,9 @@ This foundation module establishes the core principles, methodologies, and profe
           question: "What does green infrastructure typically involve?",
           options: [
             "Low-impact development and natural treatment systems",
+            "Single-purpose engineered solutions",
             "Concrete and steel intensive construction",
-            "Maximum land development approaches",
-            "Single-purpose engineered solutions"
+            "Maximum land development approaches"
           ],
           correctAnswer: 0,
           explanation: "Green infrastructure uses low-impact development, natural systems, and multi-functional approaches to environmental management."
@@ -360,84 +360,84 @@ This foundation module establishes the core principles, methodologies, and profe
           id: 13,
           question: "What principle does the circular economy emphasize?",
           options: [
-            "Design for disassembly, recycling, and waste-to-resource conversion",
             "Linear take-make-dispose production models",
+            "Design for disassembly, recycling, and waste-to-resource conversion",
             "Maximum resource extraction and consumption",
             "Single-use product design and manufacturing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Circular economy emphasizes closing material loops through design for recycling, reuse, and resource recovery."
         },
         {
           id: 14,
           question: "What do smart environmental monitoring systems utilize?",
           options: [
+            "Periodic visual inspections only",
             "Sensor networks, IoT, real-time data collection",
             "Only manual sampling and laboratory analysis",
-            "Periodic visual inspections only",
             "Theoretical modeling without field data"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Smart monitoring uses sensor networks, Internet of Things technology, and real-time data for continuous environmental assessment."
         },
         {
           id: 15,
           question: "What is climate adaptation in environmental engineering?",
           options: [
-            "Designing resilient infrastructure for changing climate conditions",
             "Ignoring climate change impacts in design",
+            "Maximum resource use regardless of climate",
             "Focusing only on historical climate data",
-            "Maximum resource use regardless of climate"
+            "Designing resilient infrastructure for changing climate conditions"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Climate adaptation involves designing infrastructure resilient to sea-level rise, extreme weather, and changing environmental conditions."
         },
         {
           id: 16,
           question: "What does transport phenomena in environmental engineering study?",
           options: [
-            "Movement of contaminants through advection, diffusion, dispersion",
+            "Human transportation network design",
             "Only structural load transfer mechanisms",
-            "Electrical power transmission systems",
-            "Human transportation network design"
+            "Movement of contaminants through advection, diffusion, dispersion",
+            "Electrical power transmission systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Transport phenomena studies contaminant movement through advective, diffusive, and dispersive processes in environmental media."
         },
         {
           id: 17,
           question: "What statistical method is commonly used in environmental data analysis?",
           options: [
-            "Regression analysis for relationship identification",
             "Only simple arithmetic averaging",
+            "Regression analysis for relationship identification",
             "Qualitative assessment without quantification",
             "Random selection without statistical basis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Regression analysis identifies relationships between variables and helps predict environmental system behavior."
         },
         {
           id: 18,
           question: "What international agreement addresses ozone-depleting substances?",
           options: [
-            "Montreal Protocol on Substances that Deplete the Ozone Layer",
             "Paris Climate Agreement",
             "Basel Convention on waste transfers",
+            "Montreal Protocol on Substances that Deplete the Ozone Layer",
             "Stockholm Convention on persistent pollutants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Montreal Protocol regulates production and consumption of ozone-depleting substances to protect the stratospheric ozone layer."
         },
         {
           id: 19,
           question: "What interdisciplinary collaboration is essential for environmental engineers?",
           options: [
+            "Ignoring non-technical stakeholder input",
             "Working with environmental scientists, biologists, and public health professionals",
             "Working only within engineering disciplines",
-            "Isolating engineering decisions from other fields",
-            "Ignoring non-technical stakeholder input"
+            "Isolating engineering decisions from other fields"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Environmental engineers must collaborate with scientists, health professionals, planners, and communities for effective solutions."
         },
         {
@@ -695,9 +695,9 @@ Water treatment engineering requires balancing technical effectiveness, economic
           question: "What does turbidity measure in water quality assessment?",
           options: [
             "Cloudiness caused by suspended particles",
-            "Acidity or alkalinity level",
+            "Dissolved oxygen concentration",
             "Calcium and magnesium content",
-            "Dissolved oxygen concentration"
+            "Acidity or alkalinity level"
           ],
           correctAnswer: 0,
           explanation: "Turbidity measures water cloudiness from suspended particles, affecting treatment efficiency and disinfection effectiveness."
@@ -706,12 +706,12 @@ Water treatment engineering requires balancing technical effectiveness, economic
           id: 2,
           question: "What is the purpose of coagulation in water treatment?",
           options: [
-            "Destabilizing suspended particles to form larger aggregates",
-            "Adding oxygen for biological treatment",
+            "Heating water to kill microorganisms",
             "Removing dissolved gases from water",
-            "Heating water to kill microorganisms"
+            "Destabilizing suspended particles to form larger aggregates",
+            "Adding oxygen for biological treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Coagulation uses chemicals like aluminum or iron salts to destabilize particles, enabling their removal through subsequent processes."
         },
         {
@@ -719,9 +719,9 @@ Water treatment engineering requires balancing technical effectiveness, economic
           question: "What treatment process follows coagulation to form settleable particles?",
           options: [
             "Flocculation - gentle mixing to form larger flocs",
-            "Rapid mixing for chemical dispersion",
+            "Immediate disinfection",
             "Direct filtration without settling",
-            "Immediate disinfection"
+            "Rapid mixing for chemical dispersion"
           ],
           correctAnswer: 0,
           explanation: "Flocculation provides gentle mixing after coagulation, allowing destabilized particles to collide and form larger, settleable flocs."
@@ -731,9 +731,9 @@ Water treatment engineering requires balancing technical effectiveness, economic
           question: "What is removed during primary sedimentation in wastewater treatment?",
           options: [
             "Settleable organic and inorganic solids",
+            "Dissolved nutrients like nitrogen and phosphorus",
             "All dissolved contaminants completely",
-            "Only pathogenic microorganisms",
-            "Dissolved nutrients like nitrogen and phosphorus"
+            "Only pathogenic microorganisms"
           ],
           correctAnswer: 0,
           explanation: "Primary sedimentation removes settleable solids through gravity settling, typically achieving 50-70% solids removal."
@@ -742,12 +742,12 @@ Water treatment engineering requires balancing technical effectiveness, economic
           id: 5,
           question: "What does the activated sludge process primarily accomplish?",
           options: [
-            "Biological degradation of organic matter using microorganisms",
-            "Physical screening of large debris",
             "Chemical precipitation of metals",
-            "Thermal disinfection of pathogens"
+            "Biological degradation of organic matter using microorganisms",
+            "Thermal disinfection of pathogens",
+            "Physical screening of large debris"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Activated sludge uses aerobic microorganisms to biologically degrade organic matter in wastewater."
         },
         {
@@ -755,9 +755,9 @@ Water treatment engineering requires balancing technical effectiveness, economic
           question: "What are the two main biological processes in nitrogen removal?",
           options: [
             "Nitrification (to nitrate) and denitrification (to nitrogen gas)",
+            "Chlorination and dechlorination",
             "Coagulation and flocculation only",
-            "Sedimentation and filtration",
-            "Chlorination and dechlorination"
+            "Sedimentation and filtration"
           ],
           correctAnswer: 0,
           explanation: "Biological nitrogen removal involves nitrification (ammonia to nitrate) followed by denitrification (nitrate to nitrogen gas)."
@@ -766,108 +766,108 @@ Water treatment engineering requires balancing technical effectiveness, economic
           id: 7,
           question: "What does hydraulic retention time represent in treatment design?",
           options: [
-            "Average time water remains in a treatment unit",
             "Maximum flow rate through the system",
             "Chemical dosing frequency",
-            "Equipment maintenance intervals"
+            "Equipment maintenance intervals",
+            "Average time water remains in a treatment unit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hydraulic retention time is the average time fluid elements remain in a reactor, crucial for treatment efficiency."
         },
         {
           id: 8,
           question: "What is the purpose of maintaining residual disinfectant in distribution systems?",
           options: [
-            "Preventing microbial regrowth during distribution",
-            "Increasing water hardness intentionally",
             "Reducing pipe corrosion rates",
-            "Adding nutrients for beneficial bacteria"
+            "Preventing microbial regrowth during distribution",
+            "Adding nutrients for beneficial bacteria",
+            "Increasing water hardness intentionally"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Residual disinfectant prevents pathogen regrowth and maintains water quality throughout the distribution system."
         },
         {
           id: 9,
           question: "What advanced treatment effectively removes emerging contaminants like pharmaceuticals?",
           options: [
-            "Advanced oxidation processes generating hydroxyl radicals",
+            "Basic screening processes",
             "Conventional sedimentation alone",
             "Simple chlorination only",
-            "Basic screening processes"
+            "Advanced oxidation processes generating hydroxyl radicals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Advanced oxidation processes generate powerful hydroxyl radicals that can degrade persistent emerging contaminants."
         },
         {
           id: 10,
           question: "What does the term 'water-energy nexus' refer to in sustainable water management?",
           options: [
-            "Interconnected relationship between water and energy systems",
-            "Complete separation of water and energy considerations",
             "Using only renewable energy for all water treatment",
-            "Ignoring energy costs in water management"
+            "Interconnected relationship between water and energy systems",
+            "Ignoring energy costs in water management",
+            "Complete separation of water and energy considerations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The water-energy nexus recognizes the interdependence where water systems require energy and energy production requires water."
         },
         {
           id: 11,
           question: "What is the main advantage of membrane bioreactors in wastewater treatment?",
           options: [
-            "Combining biological treatment with solid-liquid separation",
+            "Requiring no operator attention",
             "Eliminating all chemical requirements",
-            "Operating without any energy input",
-            "Requiring no operator attention"
+            "Combining biological treatment with solid-liquid separation",
+            "Operating without any energy input"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Membrane bioreactors integrate biological treatment with membrane filtration, producing high-quality effluent in compact systems."
         },
         {
           id: 12,
           question: "What parameter controls the activated sludge process through microorganism management?",
           options: [
-            "Mean cell residence time (sludge age)",
-            "Only hydraulic retention time",
             "Water temperature exclusively",
-            "Pipe diameter in the system"
+            "Mean cell residence time (sludge age)",
+            "Pipe diameter in the system",
+            "Only hydraulic retention time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Mean cell residence time controls microorganism population dynamics, affecting treatment efficiency and sludge characteristics."
         },
         {
           id: 13,
           question: "What treatment approach uses constructed wetlands?",
           options: [
-            "Green treatment technology using natural processes",
             "High-energy mechanical treatment only",
-            "Chemical-intensive treatment systems",
-            "Thermal treatment requiring combustion"
+            "Thermal treatment requiring combustion",
+            "Green treatment technology using natural processes",
+            "Chemical-intensive treatment systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Constructed wetlands use natural vegetation and microbial processes for wastewater treatment with low energy requirements."
         },
         {
           id: 14,
           question: "What does reverse osmosis effectively remove from water?",
           options: [
-            "Dissolved ions, molecules, and particles",
+            "Only color compounds",
             "Only large floating debris",
             "Just biological pathogens",
-            "Only color compounds"
+            "Dissolved ions, molecules, and particles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Reverse osmosis uses semi-permeable membranes to remove dissolved solids, ions, and contaminants under pressure."
         },
         {
           id: 15,
           question: "What is indirect potable reuse of water?",
           options: [
-            "Treated wastewater blended with environmental buffer before drinking",
             "Direct use of untreated wastewater",
-            "Using wastewater only for toilet flushing",
-            "Complete avoidance of water recycling"
+            "Complete avoidance of water recycling",
+            "Treated wastewater blended with environmental buffer before drinking",
+            "Using wastewater only for toilet flushing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Indirect potable reuse involves environmental buffers like groundwater aquifers or reservoirs before treated water enters drinking supplies."
         },
         {
@@ -875,8 +875,8 @@ Water treatment engineering requires balancing technical effectiveness, economic
           question: "What does BOD (Biochemical Oxygen Demand) measure?",
           options: [
             "Oxygen required for microbial decomposition of organic matter",
-            "Total mineral content in water",
             "Water clarity and transparency",
+            "Total mineral content in water",
             "Electrical conductivity of water"
           ],
           correctAnswer: 0,
@@ -886,12 +886,12 @@ Water treatment engineering requires balancing technical effectiveness, economic
           id: 17,
           question: "What is the main purpose of grit removal in preliminary treatment?",
           options: [
-            "Protecting equipment from abrasive particles",
             "Complete pathogen removal",
-            "Nutrient recovery from wastewater",
-            "Chemical addition and mixing"
+            "Protecting equipment from abrasive particles",
+            "Chemical addition and mixing",
+            "Nutrient recovery from wastewater"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Grit removal protects downstream equipment from abrasion by settling out sand, gravel, and other heavy inorganic particles."
         },
         {
@@ -900,8 +900,8 @@ Water treatment engineering requires balancing technical effectiveness, economic
           options: [
             "Ozonation for disinfection and oxidation",
             "Only conventional chlorination",
-            "Simple sedimentation processes",
-            "Basic filtration without chemicals"
+            "Basic filtration without chemicals",
+            "Simple sedimentation processes"
           ],
           correctAnswer: 0,
           explanation: "Ozonation uses ozone gas as a powerful oxidant for disinfection, taste/odor control, and contaminant destruction."
@@ -910,12 +910,12 @@ Water treatment engineering requires balancing technical effectiveness, economic
           id: 19,
           question: "What does the term 'sludge dewatering' accomplish?",
           options: [
-            "Reducing water content to minimize sludge volume",
-            "Adding water to dilute sludge",
             "Complete sludge elimination",
+            "Adding water to dilute sludge",
+            "Reducing water content to minimize sludge volume",
             "Converting sludge to drinking water"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Sludge dewatering reduces water content, decreasing volume for more economical transport and disposal."
         },
         {
@@ -923,9 +923,9 @@ Water treatment engineering requires balancing technical effectiveness, economic
           question: "What is a key consideration in climate change adaptation for water treatment?",
           options: [
             "Designing resilient systems for variable water quality",
+            "Maximum water use regardless of availability",
             "Ignoring climate impacts in design",
-            "Using only historical climate data",
-            "Maximum water use regardless of availability"
+            "Using only historical climate data"
           ],
           correctAnswer: 0,
           explanation: "Climate adaptation requires designing treatment systems resilient to changing water quality, quantity, and extreme weather events."
@@ -1210,24 +1210,24 @@ Air pollution control engineering requires integrated approaches combining techn
           id: 1,
           question: "What distinguishes PM2.5 from PM10 in particulate matter classification?",
           options: [
-            "PM2.5 particles are ≤2.5μm while PM10 are ≤10μm",
             "PM2.5 refers to particles from industrial sources only",
+            "PM2.5 particles are ≤2.5μm while PM10 are ≤10μm",
             "PM10 particles are more toxic than PM2.5",
             "PM2.5 includes only natural dust particles"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PM2.5 are fine particles ≤2.5 micrometers that penetrate deeper into lungs, while PM10 includes all particles ≤10 micrometers."
         },
         {
           id: 2,
           question: "What are the primary nitrogen oxides formed during high-temperature combustion?",
           options: [
-            "NO (nitric oxide) and NO₂ (nitrogen dioxide)",
-            "Only N₂O (nitrous oxide)",
             "Ammonia and ammonium compounds",
-            "Nitrate particles exclusively"
+            "Nitrate particles exclusively",
+            "NO (nitric oxide) and NO₂ (nitrogen dioxide)",
+            "Only N₂O (nitrous oxide)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "High-temperature combustion primarily produces NO, which oxidizes to NO₂ in the atmosphere, collectively called NOx."
         },
         {
@@ -1235,9 +1235,9 @@ Air pollution control engineering requires integrated approaches combining techn
           question: "What air pollution control device uses centrifugal force for particle separation?",
           options: [
             "Cyclone collectors",
-            "Electrostatic precipitators",
             "Fabric filter baghouses",
-            "Wet scrubber systems"
+            "Wet scrubber systems",
+            "Electrostatic precipitators"
           ],
           correctAnswer: 0,
           explanation: "Cyclone collectors use centrifugal force created by spinning gas streams to separate particles from the air stream."
@@ -1246,48 +1246,48 @@ Air pollution control engineering requires integrated approaches combining techn
           id: 4,
           question: "What is the main advantage of electrostatic precipitators for particulate control?",
           options: [
-            "High efficiency for fine particles with low pressure drop",
             "Lowest capital cost of all control technologies",
-            "No electrical power requirement for operation",
-            "Complete elimination of all gaseous pollutants"
+            "Complete elimination of all gaseous pollutants",
+            "High efficiency for fine particles with low pressure drop",
+            "No electrical power requirement for operation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Electrostatic precipitators efficiently capture fine particles with minimal pressure drop, though they have high capital costs."
         },
         {
           id: 5,
           question: "What does a fabric filter system (baghouse) use to capture particles?",
           options: [
-            "Porous fabric material that filters particles from gas stream",
-            "Electrical charging and collection plates",
+            "Centrifugal spinning action",
             "Liquid sprays to wash out particles",
-            "Centrifugal spinning action"
+            "Porous fabric material that filters particles from gas stream",
+            "Electrical charging and collection plates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Baghouses use fabric filter bags that physically capture particles while allowing clean gas to pass through."
         },
         {
           id: 6,
           question: "What is absorption in gaseous pollutant control?",
           options: [
+            "Biological breakdown of compounds",
             "Transfer of gas molecules into liquid phase",
             "Attachment of gases to solid surface",
-            "Thermal destruction of pollutants",
-            "Biological breakdown of compounds"
+            "Thermal destruction of pollutants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Absorption involves dissolving gaseous pollutants into a liquid solvent through gas-liquid contact in towers or scrubbers."
         },
         {
           id: 7,
           question: "What is the purpose of a catalytic converter in vehicles?",
           options: [
-            "Reducing CO, HC, and NOx emissions through catalysis",
+            "Reducing vehicle noise emissions",
             "Increasing engine power and performance",
-            "Improving fuel economy only",
-            "Reducing vehicle noise emissions"
+            "Reducing CO, HC, and NOx emissions through catalysis",
+            "Improving fuel economy only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Catalytic converters use catalysts to promote chemical reactions that convert harmful exhaust gases to less harmful substances."
         },
         {
@@ -1296,8 +1296,8 @@ Air pollution control engineering requires integrated approaches combining techn
           options: [
             "Ammonia or urea as reducing agent with catalyst",
             "Only high temperatures without chemicals",
-            "Water injection into exhaust stream",
-            "Fuel additives alone"
+            "Fuel additives alone",
+            "Water injection into exhaust stream"
           ],
           correctAnswer: 0,
           explanation: "SCR uses ammonia or urea injected into exhaust with a catalyst to chemically reduce NOx to nitrogen and water."
@@ -1306,144 +1306,144 @@ Air pollution control engineering requires integrated approaches combining techn
           id: 9,
           question: "What is pollution prevention in air quality management?",
           options: [
-            "Reducing or eliminating emissions at source",
-            "Only controlling emissions after they are formed",
             "Diluting emissions with clean air",
-            "Relocating pollution sources away from people"
+            "Relocating pollution sources away from people",
+            "Only controlling emissions after they are formed",
+            "Reducing or eliminating emissions at source"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Pollution prevention focuses on source reduction through process changes, material substitution, and improved operations."
         },
         {
           id: 10,
           question: "What does continuous emission monitoring provide?",
           options: [
-            "Real-time measurement of pollutant concentrations",
             "Only annual emission estimates",
             "Visual inspection of stack plumes",
-            "Theoretical modeling without measurement"
+            "Theoretical modeling without measurement",
+            "Real-time measurement of pollutant concentrations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Continuous emission monitoring systems provide real-time data on pollutant concentrations for compliance and process control."
         },
         {
           id: 11,
           question: "What is the co-benefits approach in climate and air quality management?",
           options: [
+            "Separate programs for air and climate without coordination",
             "Actions that improve air quality while addressing climate change",
-            "Focusing only on climate without considering air quality",
             "Improving air quality at the expense of climate goals",
-            "Separate programs for air and climate without coordination"
+            "Focusing only on climate without considering air quality"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The co-benefits approach identifies strategies that simultaneously address climate change mitigation and air quality improvement."
         },
         {
           id: 12,
           question: "What are National Ambient Air Quality Standards?",
           options: [
-            "Health-based limits for major air pollutants",
-            "Voluntary guidelines for industry",
             "International treaty requirements only",
-            "State-specific recommendations"
+            "State-specific recommendations",
+            "Voluntary guidelines for industry",
+            "Health-based limits for major air pollutants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NAAQS are health-based standards established by EPA for major pollutants to protect public health and welfare."
         },
         {
           id: 13,
           question: "What does a wet scrubber system achieve?",
           options: [
-            "Particle capture in liquid droplets, often with gas absorption",
             "Only dry filtration of particles",
             "Electrostatic particle charging only",
+            "Particle capture in liquid droplets, often with gas absorption",
             "Thermal oxidation of pollutants"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Wet scrubbers capture particles in liquid droplets and can simultaneously absorb gaseous pollutants through gas-liquid contact."
         },
         {
           id: 14,
           question: "What is the purpose of diesel particulate filters?",
           options: [
-            "Capturing soot particles from diesel exhaust",
             "Only reducing NOx emissions from diesel engines",
+            "Capturing soot particles from diesel exhaust",
             "Improving diesel fuel efficiency alone",
             "Reducing noise from diesel engines"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Diesel particulate filters trap soot particles from diesel exhaust and periodically regenerate by burning off accumulated soot."
         },
         {
           id: 15,
           question: "What does adsorption use for gaseous pollutant control?",
           options: [
-            "Solid materials like activated carbon to capture gases",
             "Liquid solvents to dissolve gases",
-            "High temperatures to destroy gases",
-            "Biological organisms to degrade gases"
+            "Biological organisms to degrade gases",
+            "Solid materials like activated carbon to capture gases",
+            "High temperatures to destroy gases"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Adsorption uses porous solid materials with high surface area to physically or chemically capture gas molecules."
         },
         {
           id: 16,
           question: "What is thermal oxidation for air pollution control?",
           options: [
+            "Diluting pollutants with clean air",
             "High-temperature combustion of pollutants",
             "Cooling exhaust gases to condense pollutants",
-            "Diluting pollutants with clean air",
             "Filtering pollutants through membranes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Thermal oxidizers combust pollutants at high temperatures (typically 1400-1800°F) to convert them to CO₂ and water."
         },
         {
           id: 17,
           question: "What does emission trading allow industries to do?",
           options: [
-            "Buy and sell emission allowances within a capped total",
-            "Emit pollutants without any limits",
             "Avoid all emission control requirements",
-            "Only reduce emissions during inspections"
+            "Buy and sell emission allowances within a capped total",
+            "Only reduce emissions during inspections",
+            "Emit pollutants without any limits"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Emission trading creates market incentives by allowing facilities to trade allowances while maintaining overall emission caps."
         },
         {
           id: 18,
           question: "What are biofilters used for in air pollution control?",
           options: [
-            "Biological treatment of gases using microorganisms",
             "Physical filtration of large particles",
             "Chemical absorption of acid gases",
-            "Thermal destruction of pollutants"
+            "Thermal destruction of pollutants",
+            "Biological treatment of gases using microorganisms"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Biofilters pass contaminated air through biologically active media where microorganisms degrade pollutants."
         },
         {
           id: 19,
           question: "What is carbon capture and storage?",
           options: [
-            "Capturing CO₂ emissions and storing underground",
             "Planting trees to absorb CO₂ only",
-            "Reducing energy use to lower CO₂",
-            "Diluting CO₂ in the atmosphere"
+            "Capturing CO₂ emissions and storing underground",
+            "Diluting CO₂ in the atmosphere",
+            "Reducing energy use to lower CO₂"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CCS involves capturing CO₂ from emission sources, compressing it, and injecting it into deep geological formations for storage."
         },
         {
           id: 20,
           question: "What does ambient air monitoring measure?",
           options: [
-            "Pollutant concentrations in outdoor air people breathe",
+            "Vehicle emissions at tailpipe",
             "Only emissions from industrial stacks",
             "Indoor air quality in buildings",
-            "Vehicle emissions at tailpipe"
+            "Pollutant concentrations in outdoor air people breathe"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Ambient monitoring measures pollutant levels in outdoor air to assess population exposure and compliance with air quality standards."
         }
       ]
@@ -1772,36 +1772,36 @@ Solid and hazardous waste management requires integrated approaches combining te
           id: 1,
           question: "What is the highest priority in the waste minimization hierarchy?",
           options: [
-            "Source reduction - preventing waste generation",
             "Recycling and material recovery",
+            "Source reduction - preventing waste generation",
             "Energy recovery from waste",
             "Treatment and disposal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Source reduction is most preferred as it prevents waste creation, followed by reuse, recycling, recovery, and finally disposal."
         },
         {
           id: 2,
           question: "What does a Material Recovery Facility primarily accomplish?",
           options: [
-            "Sorting and processing recyclable materials for markets",
-            "Incineration of all waste for energy",
             "Landfilling of untreated waste",
-            "Hazardous waste treatment only"
+            "Sorting and processing recyclable materials for markets",
+            "Hazardous waste treatment only",
+            "Incineration of all waste for energy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "MRFs receive, sort, and process recyclable materials into marketable commodities for manufacturing."
         },
         {
           id: 3,
           question: "What mechanical separation method uses air to separate materials?",
           options: [
-            "Air classifiers separating by density",
-            "Magnetic separation for ferrous metals",
+            "Optical sorting by color recognition",
             "Eddy current separation for non-ferrous metals",
-            "Optical sorting by color recognition"
+            "Air classifiers separating by density",
+            "Magnetic separation for ferrous metals"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Air classifiers use airflow to separate lighter materials (like plastic film) from heavier materials (like glass and metal)."
         },
         {
@@ -1809,9 +1809,9 @@ Solid and hazardous waste management requires integrated approaches combining te
           question: "What are the main products of anaerobic digestion?",
           options: [
             "Biogas (methane and CO₂) and digestate",
-            "Only solid compost material",
+            "Liquid chemical solvents",
             "Heat energy without byproducts",
-            "Liquid chemical solvents"
+            "Only solid compost material"
           ],
           correctAnswer: 0,
           explanation: "Anaerobic digestion produces biogas (methane-rich gas for energy) and digestate (nutrient-rich material for soil amendment)."
@@ -1820,96 +1820,96 @@ Solid and hazardous waste management requires integrated approaches combining te
           id: 5,
           question: "What is the purpose of landfill liner systems?",
           options: [
-            "Preventing leachate migration into groundwater",
-            "Increasing waste decomposition rates",
+            "Making waste more compactable",
             "Reducing landfill gas production",
-            "Making waste more compactable"
+            "Increasing waste decomposition rates",
+            "Preventing leachate migration into groundwater"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Landfill liners create a barrier to prevent leachate from contaminating groundwater, typically using geomembrane and clay layers."
         },
         {
           id: 6,
           question: "What does leachate collection system remove from landfills?",
           options: [
-            "Liquid that percolates through waste containing contaminants",
             "Only rainwater that falls on the landfill",
-            "Landfill gas for energy recovery",
-            "Solid waste for recycling"
+            "Solid waste for recycling",
+            "Liquid that percolates through waste containing contaminants",
+            "Landfill gas for energy recovery"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leachate collection systems capture contaminated liquid that forms as water moves through waste, preventing groundwater contamination."
         },
         {
           id: 7,
           question: "What are the four characteristics that can make waste hazardous?",
           options: [
-            "Ignitability, corrosivity, reactivity, toxicity",
             "Weight, volume, color, odor",
+            "Ignitability, corrosivity, reactivity, toxicity",
             "Age, source, composition, location",
             "Moisture, temperature, pH, density"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hazardous waste exhibits ignitability, corrosivity, reactivity, or toxicity characteristics as defined by regulations."
         },
         {
           id: 8,
           question: "What does the manifest system track for hazardous waste?",
           options: [
-            "Movement from generator to final disposal facility",
+            "Employee exposure to waste",
             "Only the weight of hazardous waste",
-            "The cost of waste disposal",
-            "Employee exposure to waste"
+            "Movement from generator to final disposal facility",
+            "The cost of waste disposal"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The manifest system documents hazardous waste shipment from generation through transportation to treatment, storage, or disposal."
         },
         {
           id: 9,
           question: "What is gasification in waste treatment?",
           options: [
-            "Thermal conversion of waste to syngas without combustion",
-            "Direct combustion of waste with excess air",
             "Biological breakdown of organic waste",
-            "Chemical dissolution of waste materials"
+            "Chemical dissolution of waste materials",
+            "Direct combustion of waste with excess air",
+            "Thermal conversion of waste to syngas without combustion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Gasification converts waste to syngas (CO and H₂) using controlled amounts of oxygen at high temperatures without complete combustion."
         },
         {
           id: 10,
           question: "What does extended producer responsibility require?",
           options: [
+            "Retailers handle product returns only",
             "Manufacturers take responsibility for product end-of-life management",
             "Consumers pay all disposal costs",
-            "Government manages all waste collection",
-            "Retailers handle product returns only"
+            "Government manages all waste collection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EPR shifts responsibility for product end-of-life management upstream to producers, encouraging sustainable design."
         },
         {
           id: 11,
           question: "What is industrial symbiosis in waste management?",
           options: [
-            "Using one industry's waste as another's raw material",
-            "All industries using identical waste processes",
             "Separate waste management for each industry",
-            "Competition between industries for waste disposal"
+            "Competition between industries for waste disposal",
+            "Using one industry's waste as another's raw material",
+            "All industries using identical waste processes"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Industrial symbiosis creates networks where waste or byproducts from one process become inputs for another process."
         },
         {
           id: 12,
           question: "What does optical sorting technology use in MRFs?",
           options: [
-            "Sensors to identify materials by optical properties",
-            "Manual visual inspection only",
+            "Weight differences for sorting",
             "Magnetic properties for separation",
-            "Weight differences for sorting"
+            "Manual visual inspection only",
+            "Sensors to identify materials by optical properties"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Optical sorters use cameras and sensors to identify materials by color, shape, or spectral signature for automated separation."
         },
         {
@@ -1917,8 +1917,8 @@ Solid and hazardous waste management requires integrated approaches combining te
           question: "What is the main advantage of waste-to-energy incineration?",
           options: [
             "Volume reduction and energy recovery",
-            "Complete elimination of all pollutants",
             "No residual ash generation",
+            "Complete elimination of all pollutants",
             "Lower cost than landfilling always"
           ],
           correctAnswer: 0,
@@ -1952,12 +1952,12 @@ Solid and hazardous waste management requires integrated approaches combining te
           id: 16,
           question: "What does chemical recycling of plastics involve?",
           options: [
-            "Breaking polymers into monomers for new plastic production",
-            "Melting and reforming plastics directly",
             "Burning plastics for energy recovery",
-            "Landfilling plastics with chemical treatment"
+            "Landfilling plastics with chemical treatment",
+            "Breaking polymers into monomers for new plastic production",
+            "Melting and reforming plastics directly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Chemical recycling depolymerizes plastics to basic chemical building blocks for manufacturing new virgin-quality plastics."
         },
         {
@@ -1965,9 +1965,9 @@ Solid and hazardous waste management requires integrated approaches combining te
           question: "What is the main purpose of transfer stations?",
           options: [
             "Consolidating waste for efficient long-distance transport",
-            "Treating hazardous waste on-site",
+            "Generating energy from waste",
             "Recycling all materials locally",
-            "Generating energy from waste"
+            "Treating hazardous waste on-site"
           ],
           correctAnswer: 0,
           explanation: "Transfer stations consolidate waste from collection vehicles into larger transport units for economical long-distance hauling."
@@ -1976,12 +1976,12 @@ Solid and hazardous waste management requires integrated approaches combining te
           id: 18,
           question: "What does life-cycle assessment evaluate for waste management?",
           options: [
-            "Environmental impacts from collection to final disposal",
             "Only economic costs of waste disposal",
-            "Social acceptability of waste facilities",
-            "Political feasibility of waste policies"
+            "Environmental impacts from collection to final disposal",
+            "Political feasibility of waste policies",
+            "Social acceptability of waste facilities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "LCA evaluates environmental impacts across the entire waste management chain for informed decision-making."
         },
         {
@@ -1989,9 +1989,9 @@ Solid and hazardous waste management requires integrated approaches combining te
           question: "What is the circular economy approach to waste?",
           options: [
             "Designing systems to keep materials in productive use",
-            "Linear take-make-dispose model",
+            "Focus only on waste treatment technologies",
             "Maximum waste generation with disposal",
-            "Focus only on waste treatment technologies"
+            "Linear take-make-dispose model"
           ],
           correctAnswer: 0,
           explanation: "Circular economy designs systems to maintain materials at their highest value through reuse, repair, remanufacturing, and recycling."
@@ -2000,12 +2000,12 @@ Solid and hazardous waste management requires integrated approaches combining te
           id: 20,
           question: "What do smart waste bins with IoT sensors enable?",
           options: [
-            "Optimized collection based on fill levels",
             "Automatic waste sorting at source",
+            "Optimized collection based on fill levels",
             "Complete waste elimination",
             "Direct waste-to-energy conversion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Smart bins with sensors provide real-time fill level data for optimized collection routes and schedules."
         }
       ]
@@ -2345,84 +2345,84 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           id: 1,
           question: "What is the primary purpose of Environmental Impact Assessment?",
           options: [
+            "Reducing project costs through simplification",
             "Systematic evaluation of development effects before decisions",
             "Only documenting project benefits after approval",
-            "Marketing development projects to communities",
-            "Reducing project costs through simplification"
+            "Marketing development projects to communities"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EIA systematically identifies, predicts, evaluates, and mitigates environmental effects before project approval decisions."
         },
         {
           id: 2,
           question: "What are the three main stages of EIA after project proposal?",
           options: [
-            "Screening, scoping, and impact assessment",
-            "Construction, operation, decommissioning",
             "Funding, implementation, evaluation",
-            "Design, build, maintain"
+            "Screening, scoping, and impact assessment",
+            "Design, build, maintain",
+            "Construction, operation, decommissioning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EIA typically involves screening (determining if needed), scoping (defining assessment boundaries), and impact assessment."
         },
         {
           id: 3,
           question: "What does baseline data collection establish in EIA?",
           options: [
+            "Project design specifications",
             "Existing environmental conditions before project implementation",
             "Only future predicted conditions",
-            "Project design specifications",
             "Economic feasibility parameters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Baseline studies document existing environmental conditions to compare against predicted impacts and monitor actual changes."
         },
         {
           id: 4,
           question: "What method uses matrices to identify project component impacts?",
           options: [
-            "Checklists and interaction matrices",
+            "Financial cost-benefit analysis",
             "Only mathematical modeling",
-            "Public opinion surveys",
-            "Financial cost-benefit analysis"
+            "Checklists and interaction matrices",
+            "Public opinion surveys"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Matrices systematically cross-reference project activities with environmental components to identify potential impacts."
         },
         {
           id: 5,
           question: "What is the preferred mitigation hierarchy in EIA?",
           options: [
-            "Avoid, minimize, compensate, enhance",
+            "Enhance without addressing impacts",
             "Compensate first, then avoid impacts",
-            "Only minimize without avoiding",
-            "Enhance without addressing impacts"
+            "Avoid, minimize, compensate, enhance",
+            "Only minimize without avoiding"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The mitigation hierarchy prioritizes avoiding impacts first, then minimizing, compensating, and finally enhancing environments."
         },
         {
           id: 6,
           question: "What does Social Impact Assessment specifically evaluate?",
           options: [
-            "Effects on communities, livelihoods, and cultural heritage",
+            "Corporate financial performance",
             "Only physical environmental changes",
-            "Technical engineering aspects only",
-            "Corporate financial performance"
+            "Effects on communities, livelihoods, and cultural heritage",
+            "Technical engineering aspects only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SIA focuses on social dimensions including livelihoods, health, culture, equity, and community well-being."
         },
         {
           id: 7,
           question: "What are cumulative effects in environmental assessment?",
           options: [
-            "Combined impacts from multiple projects over time and space",
+            "Employee training requirements",
             "Only direct immediate project impacts",
-            "Financial costs accumulated over years",
-            "Employee training requirements"
+            "Combined impacts from multiple projects over time and space",
+            "Financial costs accumulated over years"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cumulative effects consider additive, synergistic impacts from multiple past, present, and future projects."
         },
         {
@@ -2431,8 +2431,8 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           options: [
             "Incorporates local knowledge and addresses community concerns",
             "Only satisfies legal requirements",
-            "Delays project implementation",
-            "Increases project costs unnecessarily"
+            "Increases project costs unnecessarily",
+            "Delays project implementation"
           ],
           correctAnswer: 0,
           explanation: "Public participation improves decision quality by incorporating local knowledge, values, and addressing community concerns."
@@ -2441,24 +2441,24 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           id: 9,
           question: "What is the main content of an Environmental Impact Statement?",
           options: [
-            "Comprehensive assessment of impacts and mitigation measures",
-            "Only project design specifications",
+            "Financial investment prospectus",
             "Marketing materials for the project",
-            "Financial investment prospectus"
+            "Comprehensive assessment of impacts and mitigation measures",
+            "Only project design specifications"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EIS documents project description, baseline conditions, impact assessment, alternatives, and mitigation measures."
         },
         {
           id: 10,
           question: "What does monitoring in EIA verify after project approval?",
           options: [
+            "Equipment performance specifications",
             "Predicted impacts accuracy and mitigation effectiveness",
             "Only construction schedule compliance",
-            "Equipment performance specifications",
             "Employee productivity levels"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Monitoring verifies impact predictions, assesses mitigation effectiveness, and enables adaptive management."
         },
         {
@@ -2466,9 +2466,9 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           question: "What is Strategic Environmental Assessment?",
           options: [
             "Assessment of policies, plans, and programs",
-            "Only individual project assessment",
+            "Market competition analysis",
             "Corporate strategic planning",
-            "Market competition analysis"
+            "Only individual project assessment"
           ],
           correctAnswer: 0,
           explanation: "SEA evaluates policies, plans, and programs at higher decision levels before individual project assessments."
@@ -2477,12 +2477,12 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           id: 12,
           question: "What does ecosystem services valuation quantify in EIA?",
           options: [
+            "Equipment replacement values",
             "Economic value of nature's benefits to people",
             "Only commercial resource extraction value",
-            "Project construction costs",
-            "Equipment replacement values"
+            "Project construction costs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Ecosystem services valuation quantifies economic value of benefits like clean water, flood protection, and pollination."
         },
         {
@@ -2491,8 +2491,8 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           options: [
             "Evaluating system capacity to adapt to change and disturbance",
             "Only structural engineering strength",
-            "Financial risk management",
-            "Employee stress tolerance"
+            "Employee stress tolerance",
+            "Financial risk management"
           ],
           correctAnswer: 0,
           explanation: "Resilience assessment evaluates how ecological and social systems can withstand and adapt to changes and disturbances."
@@ -2503,8 +2503,8 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           options: [
             "Community acceptance and approval of project presence",
             "Only government regulatory permits",
-            "Corporate business licenses",
-            "Professional certification requirements"
+            "Professional certification requirements",
+            "Corporate business licenses"
           ],
           correctAnswer: 0,
           explanation: "Social license represents ongoing community acceptance beyond legal permits, crucial for project sustainability."
@@ -2513,48 +2513,48 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           id: 15,
           question: "What ethical responsibility do EIA practitioners have regarding uncertainty?",
           options: [
-            "Acknowledge and communicate uncertainties transparently",
+            "Exaggerate uncertainties to delay projects",
             "Hide uncertainties to avoid complicating decisions",
-            "Ignore uncertainties as unimportant",
-            "Exaggerate uncertainties to delay projects"
+            "Acknowledge and communicate uncertainties transparently",
+            "Ignore uncertainties as unimportant"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Practitioners must transparently acknowledge and communicate uncertainties in predictions and assessments."
         },
         {
           id: 16,
           question: "What are biodiversity offsets?",
           options: [
-            "Compensatory measures for residual biodiversity impacts",
-            "Financial payments instead of mitigation",
             "Relocating affected species only",
-            "Ignoring biodiversity impacts"
+            "Ignoring biodiversity impacts",
+            "Financial payments instead of mitigation",
+            "Compensatory measures for residual biodiversity impacts"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Biodiversity offsets compensate for residual impacts through habitat restoration, protection, or creation elsewhere."
         },
         {
           id: 17,
           question: "What does Health Impact Assessment evaluate?",
           options: [
-            "Potential effects on human health and well-being",
             "Only worker safety during construction",
+            "Medical equipment needs",
             "Healthcare facility requirements",
-            "Medical equipment needs"
+            "Potential effects on human health and well-being"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "HIA systematically evaluates potential effects on population health, considering physical, mental, and social well-being."
         },
         {
           id: 18,
           question: "What is adaptive management in environmental monitoring?",
           options: [
-            "Adjusting management based on monitoring results and learning",
             "Strict adherence to original plans regardless of results",
+            "Only initial plan implementation",
             "Random changes without basis",
-            "Only initial plan implementation"
+            "Adjusting management based on monitoring results and learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Adaptive management uses monitoring results to adjust management practices, incorporating learning and uncertainty."
         },
         {
@@ -2573,12 +2573,12 @@ Environmental Impact Assessment serves as a critical decision-support tool that 
           id: 20,
           question: "What is the role of GIS in modern EIA?",
           options: [
-            "Spatial analysis and visualization of impacts",
-            "Only document preparation",
             "Financial calculation spreadsheets",
-            "Project scheduling software"
+            "Project scheduling software",
+            "Spatial analysis and visualization of impacts",
+            "Only document preparation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GIS enables spatial analysis, impact mapping, visualization, and integration of diverse geographic data in EIA."
         }
       ]
@@ -2913,9 +2913,9 @@ Sustainable engineering design requires a paradigm shift from conventional appro
           question: "What does the triple bottom line approach in sustainable engineering consider?",
           options: [
             "Environmental, social, and economic dimensions",
-            "Only technical performance criteria",
+            "Regulatory compliance requirements",
             "Financial profit maximization only",
-            "Regulatory compliance requirements"
+            "Only technical performance criteria"
           ],
           correctAnswer: 0,
           explanation: "The triple bottom line balances environmental protection, social equity, and economic prosperity in engineering decisions."
@@ -2924,48 +2924,48 @@ Sustainable engineering design requires a paradigm shift from conventional appro
           id: 2,
           question: "What is life cycle thinking in sustainable design?",
           options: [
-            "Considering impacts from raw material extraction to disposal",
+            "Ignoring end-of-life considerations",
             "Only manufacturing phase optimization",
-            "Focus on initial construction costs only",
-            "Ignoring end-of-life considerations"
+            "Considering impacts from raw material extraction to disposal",
+            "Focus on initial construction costs only"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Life cycle thinking evaluates environmental impacts across all stages from material extraction to disposal or recycling."
         },
         {
           id: 3,
           question: "What does Design for Environment (DfE) prioritize?",
           options: [
-            "Reducing environmental impacts throughout product life",
             "Only aesthetic appearance improvement",
-            "Maximum production speed regardless of impact",
-            "Lowest material cost without consideration"
+            "Reducing environmental impacts throughout product life",
+            "Lowest material cost without consideration",
+            "Maximum production speed regardless of impact"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "DfE systematically considers environmental impacts in design decisions to minimize negative effects."
         },
         {
           id: 4,
           question: "What is biomimicry in sustainable design?",
           options: [
+            "Avoiding all natural systems in design",
             "Learning from and emulating nature's designs and processes",
             "Using only biological materials in construction",
-            "Copying other engineering designs exactly",
-            "Avoiding all natural systems in design"
+            "Copying other engineering designs exactly"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Biomimicry studies nature's models and applies these designs and processes to solve human problems sustainably."
         },
         {
           id: 5,
           question: "What does regenerative design aim to achieve?",
           options: [
-            "Net-positive environmental and social impacts",
             "Only minimizing negative impacts",
             "Maintaining status quo conditions",
+            "Net-positive environmental and social impacts",
             "Returning to pre-industrial states"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Regenerative design goes beyond sustainability to restore, renew, and revitalize systems, creating net-positive benefits."
         },
         {
@@ -2984,24 +2984,24 @@ Sustainable engineering design requires a paradigm shift from conventional appro
           id: 7,
           question: "What does passive design utilize for energy efficiency?",
           options: [
-            "Natural energy flows like sunlight and ventilation",
-            "Only mechanical equipment efficiency",
             "Electrical heating and cooling systems",
-            "Fossil fuel combustion systems"
+            "Natural energy flows like sunlight and ventilation",
+            "Fossil fuel combustion systems",
+            "Only mechanical equipment efficiency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Passive design uses building orientation, insulation, natural ventilation, and daylighting to reduce energy needs."
         },
         {
           id: 8,
           question: "What is low-impact development in stormwater management?",
           options: [
-            "Using natural processes to manage runoff close to source",
             "Large centralized treatment facilities only",
             "Rapid removal of all stormwater from sites",
+            "Using natural processes to manage runoff close to source",
             "Concrete channel construction for drainage"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "LID uses distributed green infrastructure to mimic natural hydrology, treating stormwater where it falls."
         },
         {
@@ -3009,9 +3009,9 @@ Sustainable engineering design requires a paradigm shift from conventional appro
           question: "What does industrial symbiosis involve?",
           options: [
             "By-product exchange between industries for mutual benefit",
+            "Standardization of all industrial processes",
             "Competition between similar industries",
-            "Isolated operation of each industry",
-            "Standardization of all industrial processes"
+            "Isolated operation of each industry"
           ],
           correctAnswer: 0,
           explanation: "Industrial symbiosis creates networks where one industry's waste becomes another's resource, reducing overall environmental impact."
@@ -3020,12 +3020,12 @@ Sustainable engineering design requires a paradigm shift from conventional appro
           id: 10,
           question: "What is universal design principle?",
           options: [
-            "Design accessible to people of all abilities and ages",
-            "One standard design for all applications",
             "Minimum cost design approach",
-            "Maximum luxury design regardless of need"
+            "Maximum luxury design regardless of need",
+            "One standard design for all applications",
+            "Design accessible to people of all abilities and ages"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Universal design creates products and environments usable by all people, to the greatest extent possible, without adaptation."
         },
         {
@@ -3034,8 +3034,8 @@ Sustainable engineering design requires a paradigm shift from conventional appro
           options: [
             "All costs from acquisition through operation to disposal",
             "Only initial purchase or construction costs",
-            "Operating costs without capital costs",
-            "Future costs without present value consideration"
+            "Future costs without present value consideration",
+            "Operating costs without capital costs"
           ],
           correctAnswer: 0,
           explanation: "Life cycle costing evaluates total cost of ownership including acquisition, operation, maintenance, and disposal costs."
@@ -3044,108 +3044,108 @@ Sustainable engineering design requires a paradigm shift from conventional appro
           id: 12,
           question: "What is a product-service system business model?",
           options: [
+            "Providing free products with paid services",
             "Selling services rather than products to reduce material use",
             "Only manufacturing physical products",
-            "Providing free products with paid services",
             "Selling products without any services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PSS shifts focus from selling products to providing services that meet customer needs with less material consumption."
         },
         {
           id: 13,
           question: "What does LEED certification assess?",
           options: [
+            "Architectural design aesthetics",
             "Building sustainability across multiple performance categories",
             "Only energy efficiency of buildings",
-            "Architectural design aesthetics",
             "Construction speed and cost"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "LEED evaluates buildings across sustainable sites, water efficiency, energy, materials, indoor quality, and innovation."
         },
         {
           id: 14,
           question: "What is digital twin technology in sustainable design?",
           options: [
-            "Virtual replica of physical system for simulation and optimization",
             "Two identical physical systems",
             "Paper documentation of designs",
-            "Basic computer-aided design software"
+            "Basic computer-aided design software",
+            "Virtual replica of physical system for simulation and optimization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Digital twins create virtual models that simulate real-world performance, enabling optimization before physical implementation."
         },
         {
           id: 15,
           question: "What does building information modeling (BIM) enable?",
           options: [
-            "Integrated digital representation of building characteristics",
-            "Only 2D drawing creation",
             "Separate documentation for each building system",
-            "Manual calculation of material quantities"
+            "Manual calculation of material quantities",
+            "Integrated digital representation of building characteristics",
+            "Only 2D drawing creation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BIM creates intelligent 3D models containing comprehensive data for design, analysis, documentation, and facility management."
         },
         {
           id: 16,
           question: "What is the precautionary principle in sustainable engineering?",
           options: [
-            "Taking preventive action when potential risks exist, despite uncertainty",
+            "Assuming all new technologies are safe until proven otherwise",
             "Waiting for complete scientific certainty before acting",
             "Ignoring potential risks until harm occurs",
-            "Assuming all new technologies are safe until proven otherwise"
+            "Taking preventive action when potential risks exist, despite uncertainty"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The precautionary principle advocates preventive action when activities threaten harm, even without full scientific certainty."
         },
         {
           id: 17,
           question: "What does resilience design incorporate?",
           options: [
-            "Capacity to adapt to changing conditions and recover from disturbances",
-            "Only strength to withstand maximum design loads",
+            "Minimum cost for standard conditions",
             "Rigid resistance to all changes",
-            "Minimum cost for standard conditions"
+            "Only strength to withstand maximum design loads",
+            "Capacity to adapt to changing conditions and recover from disturbances"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Resilience design creates systems that can adapt, absorb disturbances, and maintain functionality during changing conditions."
         },
         {
           id: 18,
           question: "What are nature-based solutions in engineering?",
           options: [
-            "Using natural processes and ecosystems to address challenges",
-            "Only technological solutions to environmental problems",
             "Avoiding all interaction with natural systems",
-            "Replacing natural systems with engineered ones"
+            "Replacing natural systems with engineered ones",
+            "Only technological solutions to environmental problems",
+            "Using natural processes and ecosystems to address challenges"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Nature-based solutions use or mimic natural processes to address challenges like flood control, water purification, and climate adaptation."
         },
         {
           id: 19,
           question: "What does circular economy design emphasize?",
           options: [
-            "Keeping materials in continuous loops of use",
             "Linear take-make-dispose models",
-            "Maximum consumption of new materials",
-            "Single-use product design"
+            "Single-use product design",
+            "Keeping materials in continuous loops of use",
+            "Maximum consumption of new materials"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Circular economy design focuses on eliminating waste, circulating materials, and regenerating natural systems."
         },
         {
           id: 20,
           question: "What is the role of continuing education in sustainable engineering?",
           options: [
-            "Staying current with evolving technologies and practices",
             "Only initial degree certification",
+            "Staying current with evolving technologies and practices",
             "Learning unrelated topics for general knowledge",
             "Avoiding new information after graduation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Continuing education ensures engineers remain knowledgeable about emerging sustainable technologies, regulations, and best practices."
         }
       ]
@@ -3158,48 +3158,48 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       id: 1,
       question: "What is the fundamental principle that balances economic, social, and environmental considerations in environmental engineering?",
       options: [
+        "Technological advancement",
         "Sustainability",
         "Maximum efficiency",
-        "Cost minimization",
-        "Technological advancement"
+        "Cost minimization"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Sustainability balances environmental protection, social equity, and economic prosperity for long-term viability."
     },
     {
       id: 2,
       question: "What does systems thinking approach in environmental engineering?",
       options: [
-        "Holistic understanding of interconnected natural and engineered systems",
         "Focus on individual components in isolation",
-        "Only mathematical modeling of systems",
-        "Ignoring upstream and downstream impacts"
+        "Ignoring upstream and downstream impacts",
+        "Holistic understanding of interconnected natural and engineered systems",
+        "Only mathematical modeling of systems"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Systems thinking considers whole systems, interactions, feedback loops, and comprehensive impacts."
     },
     {
       id: 3,
       question: "What water treatment process destabilizes particles for removal?",
       options: [
-        "Coagulation",
-        "Filtration",
         "Disinfection",
-        "Sedimentation"
+        "Sedimentation",
+        "Coagulation",
+        "Filtration"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Coagulation uses chemicals to destabilize suspended particles, enabling their removal in subsequent processes."
     },
     {
       id: 4,
       question: "What biological process converts ammonia to nitrate in wastewater treatment?",
       options: [
-        "Nitrification",
         "Denitrification",
+        "Flocculation",
         "Coagulation",
-        "Flocculation"
+        "Nitrification"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Nitrification is the aerobic biological oxidation of ammonia to nitrate by nitrifying bacteria."
     },
     {
@@ -3207,9 +3207,9 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       question: "What air pollution control device uses centrifugal force for particle separation?",
       options: [
         "Cyclone collector",
-        "Electrostatic precipitator",
+        "Wet scrubber",
         "Fabric filter baghouse",
-        "Wet scrubber"
+        "Electrostatic precipitator"
       ],
       correctAnswer: 0,
       explanation: "Cyclone collectors use centrifugal force created by spinning gas streams to separate particles."
@@ -3218,84 +3218,84 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       id: 6,
       question: "What does selective catalytic reduction use to reduce NOx emissions?",
       options: [
-        "Ammonia or urea with catalyst",
-        "Only high temperatures",
+        "Fuel additives alone",
         "Water injection",
-        "Fuel additives alone"
+        "Only high temperatures",
+        "Ammonia or urea with catalyst"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "SCR uses ammonia or urea injected into exhaust with a catalyst to chemically reduce NOx to nitrogen and water."
     },
     {
       id: 7,
       question: "What is the highest priority in the waste minimization hierarchy?",
       options: [
-        "Source reduction",
         "Recycling",
-        "Energy recovery",
-        "Treatment and disposal"
+        "Source reduction",
+        "Treatment and disposal",
+        "Energy recovery"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Source reduction prevents waste creation and is most preferred in the waste hierarchy."
     },
     {
       id: 8,
       question: "What does a landfill liner system primarily prevent?",
       options: [
-        "Leachate migration into groundwater",
         "Waste decomposition",
-        "Landfill gas production",
-        "Waste compaction"
+        "Leachate migration into groundwater",
+        "Waste compaction",
+        "Landfill gas production"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Landfill liners create barriers to prevent leachate from contaminating groundwater."
     },
     {
       id: 9,
       question: "What is the primary purpose of Environmental Impact Assessment?",
       options: [
-        "Systematic evaluation of development effects before decisions",
-        "Documenting project benefits after approval",
         "Marketing projects to communities",
-        "Reducing project costs"
+        "Reducing project costs",
+        "Documenting project benefits after approval",
+        "Systematic evaluation of development effects before decisions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "EIA systematically identifies, predicts, evaluates, and mitigates environmental effects before project decisions."
     },
     {
       id: 10,
       question: "What is the preferred mitigation hierarchy in EIA?",
       options: [
-        "Avoid, minimize, compensate, enhance",
         "Compensate first, then avoid",
+        "Avoid, minimize, compensate, enhance",
         "Only minimize without avoiding",
         "Enhance without addressing impacts"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The mitigation hierarchy prioritizes avoiding impacts first, then minimizing, compensating, and enhancing."
     },
     {
       id: 11,
       question: "What does the triple bottom line consider in sustainable engineering?",
       options: [
-        "Environmental, social, and economic dimensions",
-        "Only technical performance",
         "Financial profit only",
-        "Regulatory compliance"
+        "Regulatory compliance",
+        "Only technical performance",
+        "Environmental, social, and economic dimensions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "The triple bottom line balances environmental protection, social equity, and economic prosperity."
     },
     {
       id: 12,
       question: "What is life cycle thinking in sustainable design?",
       options: [
+        "Initial construction costs only",
         "Considering impacts from raw material to disposal",
         "Only manufacturing phase",
-        "Initial construction costs only",
         "Ignoring end-of-life"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Life cycle thinking evaluates environmental impacts across all stages from material extraction to disposal."
     },
     {
@@ -3314,48 +3314,48 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       id: 14,
       question: "What does BOD measure in wastewater?",
       options: [
-        "Oxygen required for microbial decomposition of organic matter",
         "Total mineral content",
         "Water clarity",
-        "Electrical conductivity"
+        "Electrical conductivity",
+        "Oxygen required for microbial decomposition of organic matter"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "BOD measures oxygen needed by microorganisms to biologically decompose organic matter in water."
     },
     {
       id: 15,
       question: "What are PM2.5 particles?",
       options: [
+        "All airborne particles regardless of size",
         "Fine particles ≤2.5 micrometers that penetrate deep into lungs",
-        "Particles only from industrial sources",
         "Natural dust particles only",
-        "All airborne particles regardless of size"
+        "Particles only from industrial sources"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "PM2.5 are fine particles ≤2.5μm that penetrate deeply into respiratory systems and cause health effects."
     },
     {
       id: 16,
       question: "What does adsorption use for gaseous pollutant control?",
       options: [
-        "Solid materials like activated carbon",
-        "Liquid solvents only",
+        "Biological organisms",
         "High temperatures",
-        "Biological organisms"
+        "Solid materials like activated carbon",
+        "Liquid solvents only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Adsorption uses porous solid materials to physically or chemically capture gas molecules from air streams."
     },
     {
       id: 17,
       question: "What are the main products of anaerobic digestion?",
       options: [
+        "Heat energy only",
         "Biogas and digestate",
         "Only solid compost",
-        "Heat energy only",
         "Liquid chemicals"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Anaerobic digestion produces biogas (methane-rich gas) and digestate (nutrient-rich material)."
     },
     {
@@ -3363,9 +3363,9 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       question: "What are the four characteristics of hazardous waste?",
       options: [
         "Ignitability, corrosivity, reactivity, toxicity",
-        "Weight, volume, color, odor",
+        "Moisture, temperature, pH, density",
         "Age, source, composition, location",
-        "Moisture, temperature, pH, density"
+        "Weight, volume, color, odor"
       ],
       correctAnswer: 0,
       explanation: "Hazardous waste exhibits ignitability, corrosivity, reactivity, or toxicity characteristics."
@@ -3374,84 +3374,84 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       id: 19,
       question: "What does baseline data collection establish in EIA?",
       options: [
-        "Existing environmental conditions before project",
-        "Only future predicted conditions",
         "Project design specifications",
-        "Economic feasibility parameters"
+        "Economic feasibility parameters",
+        "Existing environmental conditions before project",
+        "Only future predicted conditions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Baseline studies document existing environmental conditions for comparison with predicted impacts."
     },
     {
       id: 20,
       question: "What are cumulative effects in environmental assessment?",
       options: [
-        "Combined impacts from multiple projects over time and space",
         "Only direct immediate project impacts",
         "Financial costs accumulated",
+        "Combined impacts from multiple projects over time and space",
         "Employee training requirements"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Cumulative effects consider additive, synergistic impacts from multiple past, present, and future actions."
     },
     {
       id: 21,
       question: "What is Design for Environment (DfE)?",
       options: [
+        "Maximum production speed",
         "Systematic consideration of environmental impacts in design",
         "Only aesthetic appearance improvement",
-        "Maximum production speed",
         "Lowest material cost"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "DfE systematically considers environmental impacts in design decisions to minimize negative effects."
     },
     {
       id: 22,
       question: "What is biomimicry in sustainable design?",
       options: [
+        "Avoiding natural systems",
         "Learning from and emulating nature's designs",
         "Using only biological materials",
-        "Copying other engineering designs",
-        "Avoiding natural systems"
+        "Copying other engineering designs"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Biomimicry studies nature's models and applies these designs to solve human problems sustainably."
     },
     {
       id: 23,
       question: "What does the Clean Air Act establish?",
       options: [
+        "Waste disposal regulations",
         "National Ambient Air Quality Standards",
         "Water quality standards only",
-        "Waste disposal regulations",
         "Land use planning requirements"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "The Clean Air Act establishes NAAQS and regulates air emissions to protect public health and welfare."
     },
     {
       id: 24,
       question: "What is hydraulic retention time in treatment design?",
       options: [
-        "Average time water remains in treatment unit",
-        "Maximum flow rate",
         "Chemical dosing frequency",
-        "Equipment maintenance interval"
+        "Equipment maintenance interval",
+        "Maximum flow rate",
+        "Average time water remains in treatment unit"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Hydraulic retention time is average time fluid elements remain in a reactor, crucial for treatment efficiency."
     },
     {
       id: 25,
       question: "What does fabric filtration use in air pollution control?",
       options: [
-        "Porous fabric material to capture particles",
-        "Electrical charging and plates",
         "Liquid sprays",
-        "Centrifugal force"
+        "Porous fabric material to capture particles",
+        "Centrifugal force",
+        "Electrical charging and plates"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Fabric filters (baghouses) use porous fabric that captures particles while allowing clean gas to pass through."
     },
     {
@@ -3459,9 +3459,9 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       question: "What is waste-to-energy incineration?",
       options: [
         "Volume reduction with energy recovery",
-        "Complete pollutant elimination",
+        "Always lower cost than landfilling",
         "No residual ash generation",
-        "Always lower cost than landfilling"
+        "Complete pollutant elimination"
       ],
       correctAnswer: 0,
       explanation: "Waste-to-energy reduces waste volume by ~90% and recovers energy, though it requires emission controls."
@@ -3470,48 +3470,48 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       id: 27,
       question: "What is the manifest system for hazardous waste?",
       options: [
-        "Tracks waste from generator to final disposal",
         "Only tracks waste weight",
-        "Tracks disposal costs",
-        "Tracks employee exposure"
+        "Tracks employee exposure",
+        "Tracks waste from generator to final disposal",
+        "Tracks disposal costs"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "The manifest system documents hazardous waste shipment from generation through transportation to final disposal."
     },
     {
       id: 28,
       question: "What is Strategic Environmental Assessment?",
       options: [
-        "Assessment of policies, plans, and programs",
-        "Only individual project assessment",
+        "Market competition analysis",
         "Corporate strategic planning",
-        "Market competition analysis"
+        "Only individual project assessment",
+        "Assessment of policies, plans, and programs"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "SEA evaluates policies, plans, and programs at higher decision levels before individual project assessments."
     },
     {
       id: 29,
       question: "What is regenerative design?",
       options: [
-        "Designs that restore and create net-positive impacts",
         "Only minimizes negative impacts",
         "Maintains status quo",
-        "Returns to pre-industrial states"
+        "Returns to pre-industrial states",
+        "Designs that restore and create net-positive impacts"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Regenerative design goes beyond sustainability to restore systems and create net-positive benefits."
     },
     {
       id: 30,
       question: "What does embodied energy account for?",
       options: [
+        "Electrical conductivity",
         "Total energy in material extraction, processing, transport",
         "Only energy during installation",
-        "Energy when material burns",
-        "Electrical conductivity"
+        "Energy when material burns"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Embodied energy accounts for all energy inputs to produce, transport, and install materials."
     },
     {
@@ -3519,9 +3519,9 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       question: "What is the precautionary principle?",
       options: [
         "Take preventive action despite uncertainty",
-        "Wait for complete scientific certainty",
+        "Assume new technologies are safe",
         "Ignore risks until harm occurs",
-        "Assume new technologies are safe"
+        "Wait for complete scientific certainty"
       ],
       correctAnswer: 0,
       explanation: "The precautionary principle advocates preventive action when activities threaten harm, even without full certainty."
@@ -3530,108 +3530,108 @@ Sustainable engineering design requires a paradigm shift from conventional appro
       id: 32,
       question: "What does reverse osmosis remove from water?",
       options: [
-        "Dissolved ions, molecules, and particles",
+        "Only color compounds",
         "Only large floating debris",
         "Just biological pathogens",
-        "Only color compounds"
+        "Dissolved ions, molecules, and particles"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Reverse osmosis uses semi-permeable membranes to remove dissolved solids, ions, and contaminants under pressure."
     },
     {
       id: 33,
       question: "What are biofilters used for?",
       options: [
-        "Biological treatment of gases using microorganisms",
+        "Thermal destruction of pollutants",
         "Physical filtration of large particles",
-        "Chemical absorption of acid gases",
-        "Thermal destruction of pollutants"
+        "Biological treatment of gases using microorganisms",
+        "Chemical absorption of acid gases"
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
       explanation: "Biofilters pass contaminated air through biologically active media where microorganisms degrade pollutants."
     },
     {
       id: 34,
       question: "What is extended producer responsibility?",
       options: [
-        "Manufacturers responsible for product end-of-life",
         "Consumers pay all disposal costs",
+        "Manufacturers responsible for product end-of-life",
         "Government manages all collection",
         "Retailers handle returns only"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "EPR shifts responsibility for product end-of-life management upstream to producers."
     },
     {
       id: 35,
       question: "What does monitoring in EIA verify?",
       options: [
+        "Equipment performance",
         "Predicted impacts accuracy and mitigation effectiveness",
         "Only construction schedule compliance",
-        "Equipment performance",
         "Employee productivity"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Monitoring verifies impact predictions, assesses mitigation effectiveness, and enables adaptive management."
     },
     {
       id: 36,
       question: "What is resilience design?",
       options: [
+        "Minimum cost for standard conditions",
         "Capacity to adapt to change and recover from disturbances",
-        "Only strength to withstand loads",
         "Rigid resistance to changes",
-        "Minimum cost for standard conditions"
+        "Only strength to withstand loads"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Resilience design creates systems that can adapt, absorb disturbances, and maintain functionality."
     },
     {
       id: 37,
       question: "What are nature-based solutions?",
       options: [
-        "Using natural processes to address challenges",
-        "Only technological solutions",
         "Avoiding natural systems",
-        "Replacing natural with engineered"
+        "Using natural processes to address challenges",
+        "Replacing natural with engineered",
+        "Only technological solutions"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Nature-based solutions use or mimic natural processes to address environmental challenges."
     },
     {
       id: 38,
       question: "What does circular economy design emphasize?",
       options: [
-        "Keeping materials in continuous loops of use",
         "Linear take-make-dispose models",
+        "Keeping materials in continuous loops of use",
         "Maximum consumption of new materials",
         "Single-use product design"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Circular economy design focuses on eliminating waste and circulating materials in continuous loops."
     },
     {
       id: 39,
       question: "What is universal design principle?",
       options: [
-        "Design accessible to people of all abilities and ages",
-        "One standard design for all",
         "Minimum cost design",
-        "Maximum luxury design"
+        "Maximum luxury design",
+        "One standard design for all",
+        "Design accessible to people of all abilities and ages"
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
       explanation: "Universal design creates products and environments usable by all people without adaptation."
     },
     {
       id: 40,
       question: "What role does continuing education play in sustainable engineering?",
       options: [
+        "Learning unrelated topics",
         "Staying current with evolving technologies and practices",
         "Only initial degree certification",
-        "Learning unrelated topics",
         "Avoiding new information"
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
       explanation: "Continuing education ensures engineers remain knowledgeable about emerging sustainable technologies and practices."
     }
   ]

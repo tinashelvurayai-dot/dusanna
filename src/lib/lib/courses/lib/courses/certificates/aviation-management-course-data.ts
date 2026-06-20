@@ -311,12 +311,12 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           id: 1,
           question: "What characterizes transformational leadership in aviation?",
           options: [
+            "Financial focus, cost control, and profit maximization",
             "Inspirational motivation, intellectual stimulation, and idealized influence",
             "Direct supervision, task orientation, and strict compliance",
-            "Financial focus, cost control, and profit maximization",
             "Technical expertise, hands-on management, and direct control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Transformational leadership in aviation involves inspirational motivation, intellectual stimulation, individualized consideration, and idealized influence to inspire teams toward achieving strategic goals while maintaining safety standards."
         },
         {
@@ -325,8 +325,8 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           options: [
             "High direction, low support for new teams or crisis situations",
             "High direction, high support for developing teams",
-            "Low direction, high support for competent but insecure teams",
-            "Low direction, low support for mature, self-directed teams"
+            "Low direction, low support for mature, self-directed teams",
+            "Low direction, high support for competent but insecure teams"
           ],
           correctAnswer: 0,
           explanation: "The Directing style in situational leadership provides high direction with low support, appropriate for new teams, inexperienced staff, or crisis situations where clear instructions are needed."
@@ -336,8 +336,8 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           question: "Which Balanced Scorecard perspective includes customer satisfaction scores and on-time performance metrics?",
           options: [
             "Customer Perspective",
-            "Financial Perspective",
             "Internal Process Perspective",
+            "Financial Perspective",
             "Learning and Growth Perspective"
           ],
           correctAnswer: 0,
@@ -347,12 +347,12 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           id: 4,
           question: "What is the first step in Kotter's 8-Step Change Management Model?",
           options: [
-            "Create Urgency",
             "Form Powerful Coalition",
+            "Communicate the Vision",
             "Create Vision for Change",
-            "Communicate the Vision"
+            "Create Urgency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The first step in Kotter's model is 'Create Urgency' - building a compelling case for why change is necessary and creating motivation to move forward."
         },
         {
@@ -360,8 +360,8 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           question: "Which ethical approach focuses on 'the greatest good for the greatest number'?",
           options: [
             "Utilitarian Approach",
-            "Rights-Based Approach",
             "Justice-Based Approach",
+            "Rights-Based Approach",
             "Common Good Approach"
           ],
           correctAnswer: 0,
@@ -371,36 +371,36 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           id: 6,
           question: "What does CASM stand for in aviation financial performance?",
           options: [
-            "Cost per Available Seat Mile",
-            "Cost per Aircraft Seat Mile",
+            "Customer Acquisition and Service Management",
             "Crew Allocation System Management",
-            "Customer Acquisition and Service Management"
+            "Cost per Aircraft Seat Mile",
+            "Cost per Available Seat Mile"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CASM stands for Cost per Available Seat Mile, which is a key metric in airline financial performance analysis, measuring the cost to fly one seat one mile."
         },
         {
           id: 7,
           question: "Which influence technique involves 'offering mutual benefits'?",
           options: [
-            "Exchange",
             "Rational Persuasion",
             "Inspirational Appeals",
-            "Coalition Building"
+            "Coalition Building",
+            "Exchange"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Exchange influence technique involves offering mutual benefits or trading favors to gain cooperation and support for initiatives."
         },
         {
           id: 8,
           question: "What is the primary focus during the 'Pre-Crisis Phase' of crisis management?",
           options: [
+            "Evaluation and learning from the crisis",
             "Risk assessment, planning, and training",
             "Immediate response and communication",
-            "Recovery and return to normal operations",
-            "Evaluation and learning from the crisis"
+            "Recovery and return to normal operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "During the Pre-Crisis Phase, the focus is on risk assessment, planning, training, and relationship building to prepare for potential crises."
         },
         {
@@ -408,9 +408,9 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           question: "Which component of performance management involves 'regular performance discussions'?",
           options: [
             "Ongoing Feedback",
-            "Goal Setting",
             "Performance Appraisal",
-            "Development Planning"
+            "Development Planning",
+            "Goal Setting"
           ],
           correctAnswer: 0,
           explanation: "Ongoing Feedback involves regular performance discussions and coaching sessions between leaders and team members throughout the performance period."
@@ -420,8 +420,8 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           question: "What does IoT stand for in aviation technology adoption?",
           options: [
             "Internet of Things",
-            "Integrated Operations Technology",
             "International Operations Tracking",
+            "Integrated Operations Technology",
             "Interactive Operations Training"
           ],
           correctAnswer: 0,
@@ -431,24 +431,24 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           id: 11,
           question: "Which leadership style is characterized by 'high direction, high support'?",
           options: [
-            "Coaching",
-            "Directing",
+            "Delegating",
             "Supporting",
-            "Delegating"
+            "Directing",
+            "Coaching"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Coaching style in situational leadership provides both high direction and high support, appropriate for developing teams that need guidance and encouragement."
         },
         {
           id: 12,
           question: "What is the focus of the 'Internal Process Perspective' in Balanced Scorecard?",
           options: [
-            "Operational efficiency measures and safety performance indicators",
-            "Revenue growth targets and cost control measures",
+            "Employee satisfaction and technology adoption metrics",
             "Customer satisfaction scores and market share analysis",
-            "Employee satisfaction and technology adoption metrics"
+            "Revenue growth targets and cost control measures",
+            "Operational efficiency measures and safety performance indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Internal Process Perspective focuses on operational efficiency measures, safety performance indicators, process improvement metrics, and innovation implementation rates."
         },
         {
@@ -456,9 +456,9 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           question: "Which step in the innovation process involves 'creating and testing prototypes'?",
           options: [
             "Prototype Development",
-            "Idea Generation",
             "Business Analysis",
-            "Market Testing"
+            "Market Testing",
+            "Idea Generation"
           ],
           correctAnswer: 0,
           explanation: "Prototype Development involves creating and testing physical or conceptual models of the innovation to evaluate feasibility and identify improvements."
@@ -467,48 +467,48 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           id: 14,
           question: "What is the primary challenge of 'Cultural Diversity' in global aviation leadership?",
           options: [
-            "Managing multicultural teams and operations",
-            "Navigating different national regulations",
             "Managing operations in volatile regions",
-            "Managing financial risks in multiple currencies"
+            "Navigating different national regulations",
+            "Managing financial risks in multiple currencies",
+            "Managing multicultural teams and operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Cultural Diversity challenges involve managing multicultural teams and operations, understanding different cultural norms, and adapting leadership approaches to diverse contexts."
         },
         {
           id: 15,
           question: "Which ethical approach focuses on 'fair and equitable treatment'?",
           options: [
-            "Justice-Based Approach",
-            "Utilitarian Approach",
             "Rights-Based Approach",
+            "Utilitarian Approach",
+            "Justice-Based Approach",
             "Virtue Ethics"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Justice-Based Approach focuses on fair and equitable treatment, ensuring decisions are made impartially and benefits/burdens are distributed fairly."
         },
         {
           id: 16,
           question: "What does ADKAR stand for in change management?",
           options: [
-            "Awareness, Desire, Knowledge, Ability, Reinforcement",
-            "Assessment, Development, Knowledge, Action, Review",
+            "Awareness, Decision, Knowledge, Action, Reinforcement",
             "Analysis, Decision, Knowledge, Application, Results",
-            "Awareness, Decision, Knowledge, Action, Reinforcement"
+            "Awareness, Desire, Knowledge, Ability, Reinforcement",
+            "Assessment, Development, Knowledge, Action, Review"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ADKAR stands for Awareness, Desire, Knowledge, Ability, Reinforcement - a change management model focusing on individual transitions through change."
         },
         {
           id: 17,
           question: "Which crisis scenario involves 'managing aftermath and investigation'?",
           options: [
+            "Technical Failures",
             "Accidents and Incidents",
             "Security Threats",
-            "Natural Disasters",
-            "Technical Failures"
+            "Natural Disasters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Accidents and Incidents crisis scenarios involve managing the immediate aftermath, supporting affected parties, and cooperating with investigations."
         },
         {
@@ -540,9 +540,9 @@ Strategic aviation leadership requires balancing multiple priorities: safety, op
           question: "What is the focus of 'Servant Leadership' in aviation?",
           options: [
             "Serving the organization's mission and developing team capabilities",
-            "Direct control and task supervision",
             "Financial performance and shareholder value",
-            "Regulatory compliance and risk avoidance"
+            "Regulatory compliance and risk avoidance",
+            "Direct control and task supervision"
           ],
           correctAnswer: 0,
           explanation: "Servant Leadership focuses on serving the organization's mission, developing team capabilities, and prioritizing the needs of team members and stakeholders."
@@ -946,8 +946,8 @@ Airline operations management is a complex, dynamic field requiring integration 
           options: [
             "Central coordination of all airline operations",
             "Managing passenger reservations and ticketing",
-            "Overseeing aircraft maintenance scheduling",
-            "Handling crew training and certification"
+            "Handling crew training and certification",
+            "Overseeing aircraft maintenance scheduling"
           ],
           correctAnswer: 0,
           explanation: "The Operations Control Center (OCC) serves as the central coordination point for all airline operations, including flight following, disruption management, resource allocation, and decision support."
@@ -957,8 +957,8 @@ Airline operations management is a complex, dynamic field requiring integration 
           question: "What does RCM stand for in maintenance operations?",
           options: [
             "Reliability-Centered Maintenance",
-            "Routine Check Maintenance",
             "Repair Cycle Management",
+            "Routine Check Maintenance",
             "Regulatory Compliance Maintenance"
           ],
           correctAnswer: 0,
@@ -968,12 +968,12 @@ Airline operations management is a complex, dynamic field requiring integration 
           id: 3,
           question: "Which maintenance task involves 'replacement at fixed intervals'?",
           options: [
-            "Hard-Time Tasks",
-            "On-Condition Tasks",
             "Failure-Finding Tasks",
-            "Condition-Based Tasks"
+            "Condition-Based Tasks",
+            "Hard-Time Tasks",
+            "On-Condition Tasks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Hard-Time Tasks involve replacement or overhaul at fixed intervals regardless of condition, based on time, cycles, or usage limits."
         },
         {
@@ -982,8 +982,8 @@ Airline operations management is a complex, dynamic field requiring integration 
           options: [
             "On-Time Performance",
             "Operational Turnaround Performance",
-            "Optimal Time Planning",
-            "Overall Technical Performance"
+            "Overall Technical Performance",
+            "Optimal Time Planning"
           ],
           correctAnswer: 0,
           explanation: "OTP stands for On-Time Performance, which measures the percentage of flights arriving within 15 minutes of their scheduled arrival time."
@@ -994,8 +994,8 @@ Airline operations management is a complex, dynamic field requiring integration 
           options: [
             "Hub-and-Spoke",
             "Point-to-Point",
-            "Linear Network",
-            "Grid Network"
+            "Grid Network",
+            "Linear Network"
           ],
           correctAnswer: 0,
           explanation: "Hub-and-Spoke strategy concentrates traffic through major hubs where passengers transfer between flights, optimizing aircraft utilization and facilitating connections."
@@ -1005,9 +1005,9 @@ Airline operations management is a complex, dynamic field requiring integration 
           question: "What does AOG stand for in maintenance operations?",
           options: [
             "Aircraft on Ground",
+            "Aircraft Overhaul Grounding",
             "Aircraft Operational Grounding",
-            "Airline Operations Group",
-            "Aircraft Overhaul Grounding"
+            "Airline Operations Group"
           ],
           correctAnswer: 0,
           explanation: "AOG stands for Aircraft on Ground, referring to an aircraft that is grounded and unavailable for service due to maintenance issues, requiring immediate attention."
@@ -1016,60 +1016,60 @@ Airline operations management is a complex, dynamic field requiring integration 
           id: 7,
           question: "Which crew management system allows crew to bid for preferred schedules?",
           options: [
-            "Seniority-based Bidding",
             "Preferential Bidding Systems (PBS)",
-            "Fixed Rosters",
-            "Automated Assignment"
+            "Seniority-based Bidding",
+            "Automated Assignment",
+            "Fixed Rosters"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Seniority-based Bidding systems allow crew members to bid for their preferred schedules based on seniority, with more senior crew getting priority for their choices."
         },
         {
           id: 8,
           question: "What does TEM stand for in advanced CRM applications?",
           options: [
-            "Threat and Error Management",
-            "Training and Evaluation Management",
+            "Technical Error Mitigation",
             "Team Effectiveness Monitoring",
-            "Technical Error Mitigation"
+            "Training and Evaluation Management",
+            "Threat and Error Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "TEM stands for Threat and Error Management, an advanced CRM approach focusing on proactive identification and management of operational threats and human errors."
         },
         {
           id: 9,
           question: "Which metric measures 'time from arrival to departure'?",
           options: [
-            "Turnaround Time",
+            "Ground Time",
             "Block Time",
-            "Taxi Time",
-            "Ground Time"
+            "Turnaround Time",
+            "Taxi Time"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Turnaround Time measures the time from aircraft arrival at the gate until departure for the next flight, including all ground handling activities."
         },
         {
           id: 10,
           question: "What does ACARS stand for in operations technology?",
           options: [
-            "Aircraft Communications Addressing and Reporting System",
+            "Aviation Communications and Recording System",
             "Airline Communications and Reporting System",
             "Aircraft Control and Reporting System",
-            "Aviation Communications and Recording System"
+            "Aircraft Communications Addressing and Reporting System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ACARS stands for Aircraft Communications Addressing and Reporting System, a digital datalink system for transmission of short messages between aircraft and ground stations."
         },
         {
           id: 11,
           question: "Which maintenance approach is 'function-oriented and failure-consequence focused'?",
           options: [
-            "Reliability-Centered Maintenance (RCM)",
             "Preventive Maintenance",
-            "Corrective Maintenance",
-            "Predictive Maintenance"
+            "Predictive Maintenance",
+            "Reliability-Centered Maintenance (RCM)",
+            "Corrective Maintenance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Reliability-Centered Maintenance (RCM) is function-oriented and failure-consequence focused, prioritizing maintenance based on system functions and failure impacts."
         },
         {
@@ -1077,9 +1077,9 @@ Airline operations management is a complex, dynamic field requiring integration 
           question: "What does LOFT stand for in crew training?",
           options: [
             "Line-Oriented Flight Training",
-            "Licensed Operational Flight Training",
+            "Line Operations Flight Testing",
             "Longitudinal Operational Flight Training",
-            "Line Operations Flight Testing"
+            "Licensed Operational Flight Training"
           ],
           correctAnswer: 0,
           explanation: "LOFT stands for Line-Oriented Flight Training, which uses realistic scenarios to practice CRM skills and decision-making in simulated line operations."
@@ -1088,12 +1088,12 @@ Airline operations management is a complex, dynamic field requiring integration 
           id: 13,
           question: "Which performance metric measures 'percentage of scheduled flights completed'?",
           options: [
-            "Completion Factor",
+            "Technical Reliability",
             "On-Time Performance",
             "Cancellation Rate",
-            "Technical Reliability"
+            "Completion Factor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Completion Factor measures the percentage of scheduled flights that are actually completed, indicating operational reliability."
         },
         {
@@ -1102,8 +1102,8 @@ Airline operations management is a complex, dynamic field requiring integration 
           options: [
             "Preferential Bidding Systems",
             "Performance-Based Scheduling",
-            "Pilot Bid System",
-            "Pairing and Bid System"
+            "Pairing and Bid System",
+            "Pilot Bid System"
           ],
           correctAnswer: 0,
           explanation: "PBS stands for Preferential Bidding Systems, automated systems that optimize crew schedules based on individual preferences and operational requirements."
@@ -1112,36 +1112,36 @@ Airline operations management is a complex, dynamic field requiring integration 
           id: 15,
           question: "Which technology involves 'smart sensors on aircraft and ground equipment'?",
           options: [
-            "Internet of Things (IoT)",
+            "Robotic Process Automation",
             "Blockchain",
             "Artificial Intelligence",
-            "Robotic Process Automation"
+            "Internet of Things (IoT)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Internet of Things (IoT) involves smart sensors on aircraft and ground equipment that collect and transmit data for real-time monitoring and optimization."
         },
         {
           id: 16,
           question: "What does SAF stand for in sustainability initiatives?",
           options: [
-            "Sustainable Aviation Fuel",
-            "Systematic Aircraft Fueling",
             "Standard Aviation Fuel",
-            "Sustainable Airline Fueling"
+            "Sustainable Airline Fueling",
+            "Sustainable Aviation Fuel",
+            "Systematic Aircraft Fueling"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SAF stands for Sustainable Aviation Fuel, alternative fuels produced from sustainable feedstocks that can reduce aviation's carbon footprint."
         },
         {
           id: 17,
           question: "Which maintenance task involves 'monitoring for degradation'?",
           options: [
-            "On-Condition Tasks",
-            "Hard-Time Tasks",
             "Failure-Finding Tasks",
-            "Scheduled Tasks"
+            "Scheduled Tasks",
+            "Hard-Time Tasks",
+            "On-Condition Tasks"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "On-Condition Tasks involve monitoring equipment for signs of degradation and performing maintenance only when needed, based on condition indicators."
         },
         {
@@ -1149,9 +1149,9 @@ Airline operations management is a complex, dynamic field requiring integration 
           question: "What does MTBF stand for in reliability metrics?",
           options: [
             "Mean Time Between Failures",
-            "Maintenance Time Between Flights",
+            "Mean Time Before Fault",
             "Maximum Time Before Failure",
-            "Mean Time Before Fault"
+            "Maintenance Time Between Flights"
           ],
           correctAnswer: 0,
           explanation: "MTBF stands for Mean Time Between Failures, a reliability metric measuring the average time between failures of a system or component."
@@ -1160,12 +1160,12 @@ Airline operations management is a complex, dynamic field requiring integration 
           id: 19,
           question: "Which operational approach focuses on 'optimized flight profiles and reduced APU usage'?",
           options: [
-            "Fuel Efficiency Improvements",
-            "Carbon Offsetting Programs",
             "Waste Management Initiatives",
-            "Noise Abatement Procedures"
+            "Noise Abatement Procedures",
+            "Fuel Efficiency Improvements",
+            "Carbon Offsetting Programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Fuel Efficiency Improvements include operational approaches like optimized flight profiles and reduced APU usage to minimize fuel consumption and emissions."
         },
         {
@@ -1174,8 +1174,8 @@ Airline operations management is a complex, dynamic field requiring integration 
           options: [
             "Robotic Process Automation",
             "Routine Process Automation",
-            "Real-time Performance Analysis",
-            "Resource Planning Automation"
+            "Resource Planning Automation",
+            "Real-time Performance Analysis"
           ],
           correctAnswer: 0,
           explanation: "RPA stands for Robotic Process Automation, using software robots to automate repetitive, rule-based tasks in operations management."
@@ -1664,108 +1664,108 @@ Aviation financial management requires balancing multiple objectives: profitabil
           id: 1,
           question: "What is typically the largest component of airline operating costs?",
           options: [
+            "Airport and navigation charges",
             "Fuel costs (20-30% of total costs)",
-            "Maintenance costs (8-12% of total costs)",
             "Crew salaries and benefits",
-            "Airport and navigation charges"
+            "Maintenance costs (8-12% of total costs)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fuel costs are typically the largest component, representing 20-30% of total operating costs for most airlines, making fuel price management critical for profitability."
         },
         {
           id: 2,
           question: "What does RASM stand for in airline financial metrics?",
           options: [
-            "Revenue per Available Seat Mile",
-            "Return on Assets and Shareholder Money",
             "Revenue and Asset Strategy Management",
-            "Return on Available Seat Miles"
+            "Return on Assets and Shareholder Money",
+            "Return on Available Seat Miles",
+            "Revenue per Available Seat Mile"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RASM stands for Revenue per Available Seat Mile, a key metric measuring revenue generation efficiency by dividing total revenue by available seat miles."
         },
         {
           id: 3,
           question: "Which financing method involves 'selling aircraft and leasing them back'?",
           options: [
-            "Sale and Leaseback",
-            "Operating Lease",
             "Finance Lease",
-            "Debt Financing"
+            "Operating Lease",
+            "Debt Financing",
+            "Sale and Leaseback"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Sale and Leaseback involves selling aircraft to a lessor and immediately leasing them back, providing immediate cash while retaining aircraft use."
         },
         {
           id: 4,
           question: "What does CASM stand for in cost analysis?",
           options: [
-            "Cost per Available Seat Mile",
             "Cost Analysis and Strategy Management",
-            "Cumulative Aircraft Service Maintenance",
-            "Cost of Available Seat Management"
+            "Cost per Available Seat Mile",
+            "Cost of Available Seat Management",
+            "Cumulative Aircraft Service Maintenance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CASM stands for Cost per Available Seat Mile, measuring operating cost efficiency by dividing total operating costs by available seat miles."
         },
         {
           id: 5,
           question: "Which risk management strategy uses 'forward contracts to lock in future fuel prices'?",
           options: [
-            "Fuel Hedging",
             "Currency Swapping",
-            "Interest Rate Caps",
-            "Credit Derivatives"
+            "Fuel Hedging",
+            "Credit Derivatives",
+            "Interest Rate Caps"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Fuel Hedging uses forward contracts and other derivatives to lock in future fuel prices, protecting against price volatility."
         },
         {
           id: 6,
           question: "What does NPV stand for in investment analysis?",
           options: [
-            "Net Present Value",
-            "Net Portfolio Valuation",
             "New Project Valuation",
-            "Net Profit Value"
+            "Net Profit Value",
+            "Net Portfolio Valuation",
+            "Net Present Value"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "NPV stands for Net Present Value, a capital budgeting method that calculates the present value of future cash flows minus initial investment."
         },
         {
           id: 7,
           question: "Which accounting standard governs lease accounting?",
           options: [
+            "IFRS 13 / ASC 820",
             "IFRS 16 / ASC 842",
-            "IFRS 9 / ASC 815",
             "IFRS 15 / ASC 606",
-            "IFRS 13 / ASC 820"
+            "IFRS 9 / ASC 815"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Lease accounting is governed by IFRS 16 (international) and ASC 842 (US), which require lessees to recognize most leases on balance sheets."
         },
         {
           id: 8,
           question: "What does ESG stand for in sustainable finance?",
           options: [
-            "Environmental, Social, and Governance",
+            "Environmental, Safety, and Governance",
             "Economic, Strategic, and Growth",
-            "Efficiency, Sustainability, and Governance",
-            "Environmental, Safety, and Governance"
+            "Environmental, Social, and Governance",
+            "Efficiency, Sustainability, and Governance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ESG stands for Environmental, Social, and Governance, representing the three central factors in measuring the sustainability and ethical impact of investments."
         },
         {
           id: 9,
           question: "Which metric measures 'load factor needed to cover all costs'?",
           options: [
-            "Breakeven Load Factor",
-            "Operating Load Factor",
             "Revenue Load Factor",
+            "Operating Load Factor",
+            "Breakeven Load Factor",
             "Economic Load Factor"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Breakeven Load Factor is the load factor (percentage of seats filled) needed for revenue to equal total costs, indicating minimum performance required."
         },
         {
@@ -1784,48 +1784,48 @@ Aviation financial management requires balancing multiple objectives: profitabil
           id: 11,
           question: "Which revenue management technique involves 'real-time price adjustments based on demand'?",
           options: [
-            "Dynamic Pricing",
             "Yield Management",
-            "Ancillary Revenue",
-            "Price Discrimination"
+            "Price Discrimination",
+            "Dynamic Pricing",
+            "Ancillary Revenue"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Dynamic Pricing involves real-time price adjustments based on demand, competition, and other factors to maximize revenue."
         },
         {
           id: 12,
           question: "What does PDP stand for in aircraft acquisition financing?",
           options: [
-            "Pre-delivery Payments",
-            "Post-delivery Payments",
             "Purchase Deposit Payments",
-            "Progressive Delivery Payments"
+            "Post-delivery Payments",
+            "Progressive Delivery Payments",
+            "Pre-delivery Payments"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "PDP stands for Pre-delivery Payments, the deposits paid to aircraft manufacturers during the production period before aircraft delivery."
         },
         {
           id: 13,
           question: "Which ratio measures 'current assets divided by current liabilities'?",
           options: [
-            "Current Ratio",
-            "Quick Ratio",
             "Debt-to-Equity Ratio",
-            "Interest Coverage Ratio"
+            "Quick Ratio",
+            "Interest Coverage Ratio",
+            "Current Ratio"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Current Ratio measures liquidity by dividing current assets by current liabilities, indicating ability to meet short-term obligations."
         },
         {
           id: 14,
           question: "What does ROIC stand for in profitability metrics?",
           options: [
-            "Return on Invested Capital",
             "Return on Investment Capital",
             "Return on International Capital",
-            "Return on Internal Capital"
+            "Return on Internal Capital",
+            "Return on Invested Capital"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ROIC stands for Return on Invested Capital, measuring how effectively a company uses its capital to generate profits."
         },
         {
@@ -1833,8 +1833,8 @@ Aviation financial management requires balancing multiple objectives: profitabil
           question: "Which hedging instrument provides 'right to buy fuel at set price'?",
           options: [
             "Options",
-            "Forward Contracts",
             "Swaps",
+            "Forward Contracts",
             "Collars"
           ],
           correctAnswer: 0,
@@ -1845,9 +1845,9 @@ Aviation financial management requires balancing multiple objectives: profitabil
           question: "What does GDS stand for in distribution channels?",
           options: [
             "Global Distribution System",
+            "General Data System",
             "General Distribution System",
-            "Global Data System",
-            "General Data System"
+            "Global Data System"
           ],
           correctAnswer: 0,
           explanation: "GDS stands for Global Distribution System, computerized networks that enable travel transactions between travel service providers and travel agencies."
@@ -1858,8 +1858,8 @@ Aviation financial management requires balancing multiple objectives: profitabil
           options: [
             "Aircraft Ownership Costs",
             "Fuel Costs",
-            "Maintenance Costs",
-            "Crew Costs"
+            "Crew Costs",
+            "Maintenance Costs"
           ],
           correctAnswer: 0,
           explanation: "Aircraft Ownership Costs include depreciation, leasing costs, insurance, and other costs associated with aircraft ownership or leasing."
@@ -1868,12 +1868,12 @@ Aviation financial management requires balancing multiple objectives: profitabil
           id: 18,
           question: "What does OTA stand for in indirect distribution channels?",
           options: [
-            "Online Travel Agency",
             "Operational Travel Agency",
             "Official Travel Agent",
+            "Online Travel Agency",
             "Online Ticket Agency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "OTA stands for Online Travel Agency, websites that allow consumers to research and book travel services directly over the internet."
         },
         {
@@ -1882,8 +1882,8 @@ Aviation financial management requires balancing multiple objectives: profitabil
           options: [
             "Interest Coverage Ratio",
             "Debt Service Coverage Ratio",
-            "Current Ratio",
-            "Quick Ratio"
+            "Quick Ratio",
+            "Current Ratio"
           ],
           correctAnswer: 0,
           explanation: "Interest Coverage Ratio measures ability to pay interest expenses, calculated as EBIT (Earnings Before Interest and Taxes) divided by interest expense."
@@ -1892,12 +1892,12 @@ Aviation financial management requires balancing multiple objectives: profitabil
           id: 20,
           question: "What does VaR stand for in risk management?",
           options: [
-            "Value at Risk",
             "Variable at Risk",
             "Value and Return",
-            "Variable and Return"
+            "Variable and Return",
+            "Value at Risk"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "VaR stands for Value at Risk, a statistical technique used to measure and quantify the level of financial risk within a firm or portfolio."
         }
       ]
@@ -2419,12 +2419,12 @@ Modern airport management requires balancing multiple, often competing objective
           id: 1,
           question: "What is the typical modern revenue mix for leading airports?",
           options: [
-            "30% aeronautical, 70% non-aeronautical",
+            "40% aeronautical, 60% non-aeronautical",
             "70% aeronautical, 30% non-aeronautical",
-            "50% aeronautical, 50% non-aeronautical",
-            "40% aeronautical, 60% non-aeronautical"
+            "30% aeronautical, 70% non-aeronautical",
+            "50% aeronautical, 50% non-aeronautical"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Leading airports typically generate about 30% of revenue from aeronautical activities and 70% from non-aeronautical sources like retail, parking, and property development."
         },
         {
@@ -2445,8 +2445,8 @@ Modern airport management requires balancing multiple, often competing objective
           options: [
             "Minimum Annual Guarantee",
             "Maximum Annual Guarantee",
-            "Minimum Airport Guarantee",
-            "Maximum Airport Guarantee"
+            "Maximum Airport Guarantee",
+            "Minimum Airport Guarantee"
           ],
           correctAnswer: 0,
           explanation: "MAG stands for Minimum Annual Guarantee, a minimum rent payment that airport concessionaires must pay regardless of sales performance."
@@ -2455,60 +2455,60 @@ Modern airport management requires balancing multiple, often competing objective
           id: 4,
           question: "Which airport carbon management program provides accreditation levels?",
           options: [
-            "Airport Carbon Accreditation program",
-            "Carbon Reduction Certification program",
             "Sustainable Airport Accreditation",
-            "Green Airport Certification"
+            "Carbon Reduction Certification program",
+            "Green Airport Certification",
+            "Airport Carbon Accreditation program"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Airport Carbon Accreditation program is the global standard for carbon management at airports, with multiple levels of accreditation from mapping to carbon neutrality."
         },
         {
           id: 5,
           question: "What does RTO stand for in business continuity management?",
           options: [
-            "Recovery Time Objective",
+            "Return Time Objective",
             "Return to Operations",
             "Recovery Target Objective",
-            "Return Time Objective"
+            "Recovery Time Objective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RTO stands for Recovery Time Objective, the maximum acceptable time that a business process can be disrupted after a failure or disaster occurs."
         },
         {
           id: 6,
           question: "Which pricing approach uses 'full cost recovery' methodology?",
           options: [
-            "Cost-Based Pricing",
-            "Value-Based Pricing",
+            "Competitive Pricing",
             "Market-Based Pricing",
-            "Competitive Pricing"
+            "Cost-Based Pricing",
+            "Value-Based Pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cost-Based Pricing uses a full cost recovery approach, where airport charges are set to recover all costs of providing aeronautical services."
         },
         {
           id: 7,
           question: "What does FAROS stand for in runway safety systems?",
           options: [
+            "Flight Arrival Runway Occupancy System",
             "Final Approach Runway Occupancy Signal",
-            "Flight Approach Runway Occupancy System",
             "Final Airport Runway Occupancy Signal",
-            "Flight Arrival Runway Occupancy System"
+            "Flight Approach Runway Occupancy System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "FAROS stands for Final Approach Runway Occupancy Signal, a system that warns pilots on final approach if the runway is occupied."
         },
         {
           id: 8,
           question: "What does ROCE stand for in airport financial metrics?",
           options: [
-            "Return on Capital Employed",
-            "Return on Corporate Equity",
             "Revenue on Capital Expenditure",
+            "Return on Corporate Equity",
+            "Return on Capital Employed",
             "Return on Commercial Earnings"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ROCE stands for Return on Capital Employed, a financial ratio that measures a company's profitability and efficiency in using its capital."
         },
         {
@@ -2517,8 +2517,8 @@ Modern airport management requires balancing multiple, often competing objective
           options: [
             "Layered Security Approach",
             "Integrated Security Approach",
-            "Comprehensive Security Approach",
-            "Multi-dimensional Security Approach"
+            "Multi-dimensional Security Approach",
+            "Comprehensive Security Approach"
           ],
           correctAnswer: 0,
           explanation: "Layered Security Approach uses multiple, overlapping security measures so that if one layer fails, others provide protection."
@@ -2529,8 +2529,8 @@ Modern airport management requires balancing multiple, often competing objective
           options: [
             "Public-Private Partnership",
             "Private-Public Partnership",
-            "Project Partnership Program",
-            "Public Project Partnership"
+            "Public Project Partnership",
+            "Project Partnership Program"
           ],
           correctAnswer: 0,
           explanation: "PPP stands for Public-Private Partnership, a cooperative arrangement between public and private sectors for infrastructure development and operation."
@@ -2539,120 +2539,120 @@ Modern airport management requires balancing multiple, often competing objective
           id: 11,
           question: "Which technology enables 'end-to-end biometric processing' for passengers?",
           options: [
-            "Contactless Travel systems",
-            "Automated Border Control",
             "Mobile-first passenger journey",
-            "Digital identity management"
+            "Digital identity management",
+            "Contactless Travel systems",
+            "Automated Border Control"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Contactless Travel systems enable end-to-end biometric processing, allowing passengers to move through the airport using facial recognition or other biometrics."
         },
         {
           id: 12,
           question: "What does EBITDA stand for in airport profitability metrics?",
           options: [
-            "Earnings Before Interest, Taxes, Depreciation, and Amortization",
-            "Earnings Before Income Tax and Depreciation Allowances",
             "Economic Benefits Including Taxes and Depreciation Analysis",
-            "Earnings Balance Including Tax and Depreciation Accounting"
+            "Earnings Before Income Tax and Depreciation Allowances",
+            "Earnings Balance Including Tax and Depreciation Accounting",
+            "Earnings Before Interest, Taxes, Depreciation, and Amortization"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization, a measure of operating profitability before non-operating expenses."
         },
         {
           id: 13,
           question: "Which regulation approach involves 'price controls and monitoring'?",
           options: [
-            "Economic Regulation",
-            "Safety Regulation",
             "Security Regulation",
+            "Safety Regulation",
+            "Economic Regulation",
             "Environmental Regulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Economic Regulation involves price controls, monitoring, and oversight of airport charges to prevent monopoly pricing and ensure fair competition."
         },
         {
           id: 14,
           question: "What does RPO stand for in business continuity planning?",
           options: [
-            "Recovery Point Objective",
-            "Return Point Objective",
             "Recovery Process Objective",
-            "Return Process Objective"
+            "Recovery Point Objective",
+            "Return Process Objective",
+            "Return Point Objective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RPO stands for Recovery Point Objective, the maximum tolerable period in which data might be lost due to a major incident."
         },
         {
           id: 15,
           question: "Which airport development concept involves 'airport city development'?",
           options: [
-            "Aerotropolis",
-            "Smart Airport",
             "Sustainable Airport",
+            "Smart Airport",
+            "Aerotropolis",
             "Multi-modal Hub"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Aerotropolis is an airport city development concept where the airport functions as the center of a large-scale commercial, logistics, and business district."
         },
         {
           id: 16,
           question: "What does TBS stand for in runway capacity management?",
           options: [
-            "Time-Based Separation",
             "Traffic-Based Separation",
+            "Traffic Buffer System",
             "Time-Buffer System",
-            "Traffic Buffer System"
+            "Time-Based Separation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "TBS stands for Time-Based Separation, an air traffic management technique that uses time instead of distance to separate arriving aircraft, increasing capacity in certain conditions."
         },
         {
           id: 17,
           question: "Which green building certification is mentioned for sustainable airports?",
           options: [
-            "LEED (Leadership in Energy and Environmental Design)",
-            "ISO 14001",
+            "WELL Building Standard",
             "B Corp Certification",
-            "WELL Building Standard"
+            "ISO 14001",
+            "LEED (Leadership in Energy and Environmental Design)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "LEED (Leadership in Energy and Environmental Design) is a green building certification program mentioned for sustainable airport development."
         },
         {
           id: 18,
           question: "What does RWSL stand for in runway safety systems?",
           options: [
-            "Runway Status Lights",
-            "Runway Warning Signal Lights",
+            "Runway Working Status Lights",
             "Runway Weather Status Lights",
-            "Runway Working Status Lights"
+            "Runway Warning Signal Lights",
+            "Runway Status Lights"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RWSL stands for Runway Status Lights, an in-pavement lighting system that shows red when it's unsafe to enter, cross, or begin takeoff on a runway."
         },
         {
           id: 19,
           question: "Which financial instrument is used for sustainable airport projects?",
           options: [
-            "Green Bonds",
-            "Infrastructure Funds",
             "Real Estate Investment Trusts",
-            "Public-Private Partnerships"
+            "Infrastructure Funds",
+            "Public-Private Partnerships",
+            "Green Bonds"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Green Bonds are debt instruments specifically earmarked to raise money for climate and environmental projects, including sustainable airport development."
         },
         {
           id: 20,
           question: "What does IoT stand for in smart airport technologies?",
           options: [
-            "Internet of Things",
-            "Integrated Operations Technology",
+            "Integrated Organizational Technology",
             "Internet Operations Technology",
-            "Integrated Organizational Technology"
+            "Internet of Things",
+            "Integrated Operations Technology"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "IoT stands for Internet of Things, referring to interconnected devices and sensors that collect and exchange data, used in airports for various smart applications."
         }
       ]
@@ -3179,24 +3179,24 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           id: 1,
           question: "Which ICAO Annex is dedicated to Safety Management Systems?",
           options: [
-            "Annex 19",
             "Annex 6",
-            "Annex 13",
-            "Annex 14"
+            "Annex 14",
+            "Annex 19",
+            "Annex 13"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ICAO Annex 19 is dedicated to Safety Management Systems, establishing the international standards for SMS implementation."
         },
         {
           id: 2,
           question: "What are the four pillars of SMS?",
           options: [
-            "Safety Policy, Safety Risk Management, Safety Assurance, Safety Promotion",
             "Safety Planning, Risk Assessment, Safety Monitoring, Safety Training",
-            "Safety Leadership, Hazard Control, Performance Measurement, Safety Culture",
-            "Safety Objectives, Risk Analysis, Quality Assurance, Safety Communication"
+            "Safety Policy, Safety Risk Management, Safety Assurance, Safety Promotion",
+            "Safety Objectives, Risk Analysis, Quality Assurance, Safety Communication",
+            "Safety Leadership, Hazard Control, Performance Measurement, Safety Culture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The four pillars of SMS are: Safety Policy and Objectives, Safety Risk Management, Safety Assurance, and Safety Promotion."
         },
         {
@@ -3204,9 +3204,9 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           question: "What does SSP stand for in the SMS regulatory framework?",
           options: [
             "State Safety Programme",
-            "System Safety Plan",
             "Service Safety Program",
-            "Safety Standards Protocol"
+            "Safety Standards Protocol",
+            "System Safety Plan"
           ],
           correctAnswer: 0,
           explanation: "SSP stands for State Safety Programme, which is the national framework for safety management required by ICAO for member states."
@@ -3215,24 +3215,24 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           id: 4,
           question: "Which hazard identification method is considered proactive?",
           options: [
+            "Incident analysis",
             "Safety audits and inspections",
             "Accident investigation",
-            "Incident analysis",
             "Near-miss reporting"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Safety audits and inspections are proactive methods that identify hazards before incidents occur, unlike reactive methods that analyze past events."
         },
         {
           id: 5,
           question: "What does FDM stand for in safety data analysis?",
           options: [
-            "Flight Data Monitoring",
             "Flight Deck Management",
             "Flight Direction Monitoring",
+            "Flight Data Monitoring",
             "Flight Data Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "FDM stands for Flight Data Monitoring, which involves analyzing flight data to identify safety trends and potential risks."
         },
         {
@@ -3240,8 +3240,8 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           question: "Which safety culture dimension involves 'willingness to report errors and concerns'?",
           options: [
             "Reporting Culture",
-            "Just Culture",
             "Learning Culture",
+            "Just Culture",
             "Informed Culture"
           ],
           correctAnswer: 0,
@@ -3251,36 +3251,36 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           id: 7,
           question: "What is the first step in the risk assessment process?",
           options: [
-            "Hazard Identification",
-            "Risk Analysis",
             "Risk Evaluation",
+            "Risk Analysis",
+            "Hazard Identification",
             "Risk Treatment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Hazard Identification is the first step in risk assessment, involving systematic identification of potential sources of harm."
         },
         {
           id: 8,
           question: "Which type of indicator predicts future safety performance?",
           options: [
+            "Historical Indicators",
             "Leading Indicators",
-            "Lagging Indicators",
             "Real-time Indicators",
-            "Historical Indicators"
+            "Lagging Indicators"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Leading Indicators are predictive measures that help anticipate future safety performance before incidents occur."
         },
         {
           id: 9,
           question: "What does QMS stand for in SMS integration?",
           options: [
-            "Quality Management System",
             "Quantitative Measurement System",
-            "Questionnaire Management System",
-            "Quality Monitoring System"
+            "Quality Management System",
+            "Quality Monitoring System",
+            "Questionnaire Management System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "QMS stands for Quality Management System, which should be integrated with SMS for comprehensive organizational management."
         },
         {
@@ -3299,24 +3299,24 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           id: 11,
           question: "What does GASP stand for in global safety initiatives?",
           options: [
-            "Global Aviation Safety Plan",
             "General Aviation Safety Program",
-            "Global Air Safety Protocol",
-            "General Air Safety Plan"
+            "General Air Safety Plan",
+            "Global Aviation Safety Plan",
+            "Global Air Safety Protocol"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GASP stands for Global Aviation Safety Plan, ICAO's strategic framework for improving aviation safety worldwide."
         },
         {
           id: 12,
           question: "Which safety culture dimension focuses on 'fair balance between accountability and learning'?",
           options: [
-            "Just Culture",
-            "Reporting Culture",
             "Learning Culture",
+            "Reporting Culture",
+            "Just Culture",
             "Flexible Culture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Just Culture focuses on a fair balance between accountability for willful violations and learning from honest mistakes."
         },
         {
@@ -3324,9 +3324,9 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           question: "What is the purpose of predictive safety analytics?",
           options: [
             "To forecast potential safety risks before they occur",
-            "To analyze past safety incidents and accidents",
+            "To document safety compliance with regulations",
             "To measure current safety performance levels",
-            "To document safety compliance with regulations"
+            "To analyze past safety incidents and accidents"
           ],
           correctAnswer: 0,
           explanation: "Predictive safety analytics aims to forecast potential safety risks before they occur, enabling proactive risk mitigation."
@@ -3335,36 +3335,36 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           id: 14,
           question: "Which phase of SMS implementation involves 'pilot implementation in selected areas'?",
           options: [
+            "Full Implementation Phase",
             "Initial Implementation Phase",
             "Planning Phase",
-            "Development Phase",
-            "Full Implementation Phase"
+            "Development Phase"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Initial Implementation Phase involves pilot implementation in selected areas to test and refine SMS processes before full rollout."
         },
         {
           id: 15,
           question: "What does NLP stand for in advanced SMS applications?",
           options: [
+            "Natural Learning Process",
             "Natural Language Processing",
             "National Learning Program",
-            "Network Learning Protocol",
-            "Natural Learning Process"
+            "Network Learning Protocol"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "NLP stands for Natural Language Processing, used in SMS for analyzing safety report texts and incident narratives."
         },
         {
           id: 16,
           question: "Which safety assurance activity involves 'internal safety investigations'?",
           options: [
-            "Safety occurrence investigation",
-            "Safety performance monitoring",
             "Safety audit program",
-            "Safety training evaluation"
+            "Safety training evaluation",
+            "Safety occurrence investigation",
+            "Safety performance monitoring"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Internal safety investigations of safety occurrences are part of the Safety Assurance pillar of SMS."
         },
         {
@@ -3373,8 +3373,8 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           options: [
             "To develop and maintain a positive safety culture",
             "To identify and assess safety risks",
-            "To monitor and measure safety performance",
-            "To investigate safety incidents and accidents"
+            "To investigate safety incidents and accidents",
+            "To monitor and measure safety performance"
           ],
           correctAnswer: 0,
           explanation: "Safety Promotion activities aim to develop and maintain a positive safety culture through training, communication, and awareness programs."
@@ -3383,24 +3383,24 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           id: 18,
           question: "Which FAA regulation covers SMS requirements?",
           options: [
-            "Part 5",
-            "Part 121",
             "Part 135",
-            "Part 145"
+            "Part 121",
+            "Part 145",
+            "Part 5"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "FAA Part 5 contains the Safety Management System requirements for certain certificate holders."
         },
         {
           id: 19,
           question: "What does TEM stand for in human factors integration?",
           options: [
-            "Threat and Error Management",
+            "Team Effectiveness Monitoring",
             "Training and Evaluation Method",
-            "Technical Error Mitigation",
-            "Team Effectiveness Monitoring"
+            "Threat and Error Management",
+            "Technical Error Mitigation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TEM stands for Threat and Error Management, a human factors approach focusing on proactive management of operational threats and human errors."
         },
         {
@@ -3408,8 +3408,8 @@ Safety Management Systems represent the foundation of modern aviation safety. Ef
           question: "Which SMS component includes 'emergency response planning'?",
           options: [
             "Safety Policy and Objectives",
-            "Safety Risk Management",
             "Safety Assurance",
+            "Safety Risk Management",
             "Safety Promotion"
           ],
           correctAnswer: 0,
@@ -3949,48 +3949,48 @@ Human Resource Management in aviation requires specialized knowledge and approac
           id: 1,
           question: "What is a primary challenge in aviation HRM related to workforce availability?",
           options: [
-            "Global pilot shortages",
             "Excess of maintenance engineers",
+            "Global pilot shortages",
             "Over-supply of cabin crew",
             "Limited management candidates"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Global pilot shortages represent a major challenge, with demand exceeding supply due to retirements, industry growth, and high training costs."
         },
         {
           id: 2,
           question: "What does CRM stand for in aviation training?",
           options: [
+            "Crew Recruitment Management",
             "Crew Resource Management",
-            "Crisis Response Management",
             "Customer Relationship Management",
-            "Crew Recruitment Management"
+            "Crisis Response Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CRM stands for Crew Resource Management, focusing on communication, teamwork, and decision-making skills for flight crews."
         },
         {
           id: 3,
           question: "Which recruitment approach involves 'training from zero experience'?",
           options: [
-            "Ab Initio Programs",
             "Cadet Programs",
-            "Direct Entry",
-            "Military Transition"
+            "Military Transition",
+            "Ab Initio Programs",
+            "Direct Entry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Ab Initio Programs involve training individuals with no previous aviation experience, typically from the beginning of their aviation careers."
         },
         {
           id: 4,
           question: "What type of training is required annually for aviation personnel?",
           options: [
+            "Leadership Training",
             "Recurrent Training",
             "Initial Training",
-            "Specialized Training",
-            "Leadership Training"
+            "Specialized Training"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Recurrent Training is required annually and includes safety and emergency procedures, CRM updates, and regulatory compliance refreshers."
         },
         {
@@ -3999,8 +3999,8 @@ Human Resource Management in aviation requires specialized knowledge and approac
           options: [
             "Learning Management System",
             "Labor Management System",
-            "License Management System",
-            "Leadership Management System"
+            "Leadership Management System",
+            "License Management System"
           ],
           correctAnswer: 0,
           explanation: "LMS stands for Learning Management System, software for delivering, tracking, and managing training and educational programs."
@@ -4009,108 +4009,108 @@ Human Resource Management in aviation requires specialized knowledge and approac
           id: 6,
           question: "Which HR activity involves 'multi-rater feedback'?",
           options: [
-            "360-degree performance evaluation",
-            "Initial candidate screening",
             "Competency assessment",
-            "Succession planning"
+            "Succession planning",
+            "360-degree performance evaluation",
+            "Initial candidate screening"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "360-degree performance evaluation involves collecting feedback from multiple sources including peers, subordinates, supervisors, and sometimes customers."
         },
         {
           id: 7,
           question: "What is a common industry-specific benefit in aviation?",
           options: [
+            "Housing allowances",
             "Space-available travel benefits",
-            "Company car provision",
             "Stock option programs",
-            "Housing allowances"
+            "Company car provision"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Space-available travel benefits allow airline employees and sometimes their families to travel on standby basis at reduced or no cost."
         },
         {
           id: 8,
           question: "Which workforce planning activity involves 'retirement projections'?",
           options: [
-            "Supply Analysis",
+            "Strategy Development",
             "Demand Forecasting",
             "Gap Analysis",
-            "Strategy Development"
+            "Supply Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Supply Analysis in workforce planning includes projecting retirements to understand future workforce availability."
         },
         {
           id: 9,
           question: "What does D&I stand for in modern HR practices?",
           options: [
-            "Diversity and Inclusion",
             "Development and Integration",
             "Discipline and Improvement",
-            "Deployment and Innovation"
+            "Deployment and Innovation",
+            "Diversity and Inclusion"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "D&I stands for Diversity and Inclusion, focusing on creating diverse workforces and inclusive workplace environments."
         },
         {
           id: 10,
           question: "Which regulatory requirement involves 'aviation medical examinations'?",
           options: [
+            "Background checks for all employees",
             "Medical certification for flight crew",
             "Security clearance processes",
-            "Background checks for all employees",
             "Drug testing programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Aviation medical examinations are required for flight crew to obtain and maintain medical certificates ensuring fitness for duty."
         },
         {
           id: 11,
           question: "What type of program helps technical experts transition to leadership roles?",
           options: [
+            "Succession Planning programs",
             "Technical to Leadership Transition programs",
             "Executive Development programs",
-            "Succession Planning programs",
             "Management Training programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Technical to Leadership Transition programs help technical experts develop management skills and business acumen for leadership roles."
         },
         {
           id: 12,
           question: "Which technology uses 'chatbots for HR inquiries'?",
           options: [
-            "Artificial Intelligence in HR",
             "Blockchain for credential verification",
+            "Learning management systems",
             "Wearable technology for monitoring",
-            "Learning management systems"
+            "Artificial Intelligence in HR"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Artificial Intelligence in HR includes using chatbots to handle routine HR inquiries and provide instant responses to common questions."
         },
         {
           id: 13,
           question: "What does 'Just Culture' emphasize in performance management?",
           options: [
-            "Fair balance between accountability and learning",
             "Strict discipline for all errors",
+            "Performance-based punishment",
             "Complete forgiveness for mistakes",
-            "Performance-based punishment"
+            "Fair balance between accountability and learning"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Just Culture emphasizes a fair balance between holding people accountable for willful violations and allowing learning from honest mistakes."
         },
         {
           id: 14,
           question: "Which recruitment channel involves 'specialized aviation job boards'?",
           options: [
-            "Online Aviation Portals",
             "Industry Job Fairs",
-            "Employee Referral Programs",
-            "Social Media Recruitment"
+            "Online Aviation Portals",
+            "Social Media Recruitment",
+            "Employee Referral Programs"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Online Aviation Portals are specialized job boards focused specifically on aviation industry positions."
         },
         {
@@ -4118,9 +4118,9 @@ Human Resource Management in aviation requires specialized knowledge and approac
           question: "What does VR stand for in training technology?",
           options: [
             "Virtual Reality",
-            "Video Recording",
+            "Visual Recognition",
             "Variable Response",
-            "Visual Recognition"
+            "Video Recording"
           ],
           correctAnswer: 0,
           explanation: "VR stands for Virtual Reality, used in training for immersive simulations of flight scenarios, maintenance procedures, or emergency situations."
@@ -4129,24 +4129,24 @@ Human Resource Management in aviation requires specialized knowledge and approac
           id: 16,
           question: "Which HR activity involves 'collective bargaining negotiations'?",
           options: [
-            "Labor Relations management",
-            "Performance Management",
             "Compensation planning",
+            "Performance Management",
+            "Labor Relations management",
             "Recruitment and selection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Labor Relations management involves collective bargaining negotiations with unions to establish terms and conditions of employment."
         },
         {
           id: 17,
           question: "What type of assessment uses 'flight scenario simulations'?",
           options: [
-            "Simulator Assessments",
-            "Psychometric Testing",
+            "Medical Screening",
             "Technical Competency Assessment",
-            "Medical Screening"
+            "Simulator Assessments",
+            "Psychometric Testing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Simulator Assessments use flight scenario simulations to evaluate pilot skills, decision-making, and emergency procedure handling."
         },
         {
@@ -4154,9 +4154,9 @@ Human Resource Management in aviation requires specialized knowledge and approac
           question: "Which diversity challenge involves 'underrepresentation of women in technical roles'?",
           options: [
             "Gender Diversity",
-            "Cultural Diversity",
             "Age Diversity",
-            "Educational Diversity"
+            "Educational Diversity",
+            "Cultural Diversity"
           ],
           correctAnswer: 0,
           explanation: "Gender Diversity challenges include underrepresentation of women in technical roles like pilots and maintenance engineers."
@@ -4165,24 +4165,24 @@ Human Resource Management in aviation requires specialized knowledge and approac
           id: 19,
           question: "What does ATS stand for in recruitment technology?",
           options: [
-            "Applicant Tracking System",
             "Automated Testing System",
+            "Assessment Tracking System",
             "Aviation Training System",
-            "Assessment Tracking System"
+            "Applicant Tracking System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ATS stands for Applicant Tracking System, software that manages the recruitment process from job posting to hiring."
         },
         {
           id: 20,
           question: "Which workforce planning step identifies 'skills inventory'?",
           options: [
-            "Supply Analysis",
             "Demand Forecasting",
             "Gap Analysis",
-            "Strategy Development"
+            "Strategy Development",
+            "Supply Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Supply Analysis in workforce planning includes assessing the current skills inventory of the existing workforce."
         }
       ]
@@ -4797,12 +4797,12 @@ Aviation law and regulations provide the comprehensive framework that enables sa
           id: 1,
           question: "Which convention is considered the foundation of modern international aviation law?",
           options: [
+            "Tokyo Convention 1963",
             "Chicago Convention 1944",
-            "Warsaw Convention 1929",
             "Montreal Convention 1999",
-            "Tokyo Convention 1963"
+            "Warsaw Convention 1929"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Chicago Convention 1944 established the fundamental principles of international aviation law and created ICAO as the global regulatory body."
         },
         {
@@ -4810,8 +4810,8 @@ Aviation law and regulations provide the comprehensive framework that enables sa
           question: "What does SARP stand for in ICAO terminology?",
           options: [
             "Standards and Recommended Practices",
-            "Safety and Regulatory Procedures",
             "Standards and Regulatory Protocols",
+            "Safety and Regulatory Procedures",
             "Safety and Recommended Procedures"
           ],
           correctAnswer: 0,
@@ -4821,60 +4821,60 @@ Aviation law and regulations provide the comprehensive framework that enables sa
           id: 3,
           question: "Which freedom allows an airline to carry traffic between two foreign countries?",
           options: [
-            "Fifth Freedom",
             "First Freedom",
             "Third Freedom",
+            "Fifth Freedom",
             "Seventh Freedom"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The Fifth Freedom allows an airline to carry traffic between two foreign countries as part of services connecting the airline's home country."
         },
         {
           id: 4,
           question: "What is the first tier liability limit under the Montreal Convention 1999?",
           options: [
-            "128,821 Special Drawing Rights (SDRs)",
-            "100,000 Special Drawing Rights (SDRs)",
             "250,000 US dollars",
-            "113,100 Special Drawing Rights (SDRs)"
+            "100,000 Special Drawing Rights (SDRs)",
+            "113,100 Special Drawing Rights (SDRs)",
+            "128,821 Special Drawing Rights (SDRs)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Montreal Convention 1999 establishes a first tier strict liability limit of 128,821 SDRs for passenger injury or death."
         },
         {
           id: 5,
           question: "Which ICAO Annex covers Safety Management Systems?",
           options: [
-            "Annex 19",
-            "Annex 6",
+            "Annex 17",
             "Annex 8",
-            "Annex 17"
+            "Annex 19",
+            "Annex 6"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ICAO Annex 19 is dedicated to Safety Management Systems, establishing requirements for SMS implementation."
         },
         {
           id: 6,
           question: "What does CORSIA stand for in environmental regulation?",
           options: [
-            "Carbon Offsetting and Reduction Scheme for International Aviation",
-            "Carbon Offset and Reduction System for International Air travel",
             "Climate Offset Requirement for Sustainable International Aviation",
-            "Carbon Reduction Scheme for International Air transport"
+            "Carbon Reduction Scheme for International Air transport",
+            "Carbon Offsetting and Reduction Scheme for International Aviation",
+            "Carbon Offset and Reduction System for International Air travel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CORSIA stands for Carbon Offsetting and Reduction Scheme for International Aviation, ICAO's market-based measure to address CO2 emissions."
         },
         {
           id: 7,
           question: "Which US legislation established airline deregulation?",
           options: [
-            "Airline Deregulation Act 1978",
-            "Federal Aviation Act 1958",
             "Aviation Safety and Capacity Expansion Act 1990",
-            "Airport and Airway Improvement Act 1982"
+            "Airline Deregulation Act 1978",
+            "Airport and Airway Improvement Act 1982",
+            "Federal Aviation Act 1958"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Airline Deregulation Act of 1978 removed economic regulation of airlines in the United States, introducing market-based competition."
         },
         {
@@ -4882,8 +4882,8 @@ Aviation law and regulations provide the comprehensive framework that enables sa
           question: "What does PNR stand for in aviation security?",
           options: [
             "Passenger Name Record",
-            "Passenger Notification Record",
             "Passenger National Registry",
+            "Passenger Notification Record",
             "Passenger Number Record"
           ],
           correctAnswer: 0,
@@ -4893,144 +4893,144 @@ Aviation law and regulations provide the comprehensive framework that enables sa
           id: 9,
           question: "Which convention addresses unlawful seizure of aircraft (hijacking)?",
           options: [
-            "Hague Convention 1970",
-            "Tokyo Convention 1963",
+            "Chicago Convention 1944",
             "Montreal Convention 1971",
-            "Chicago Convention 1944"
+            "Tokyo Convention 1963",
+            "Hague Convention 1970"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Hague Convention 1970 addresses the unlawful seizure of aircraft (hijacking) and establishes international cooperation for prevention and prosecution."
         },
         {
           id: 10,
           question: "What does API stand for in passenger data requirements?",
           options: [
-            "Advance Passenger Information",
             "Airline Passenger Identification",
+            "Advance Passenger Information",
             "Automated Passenger Information",
             "Advanced Passenger Inquiry"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "API stands for Advance Passenger Information, data collected from travel documents and transmitted to authorities before flight arrival or departure."
         },
         {
           id: 11,
           question: "Which regulatory approach involves 'maximum price increases'?",
           options: [
-            "Price Cap Regulation",
-            "Revenue Cap Regulation",
             "Rate of Return Regulation",
-            "Light-Handed Regulation"
+            "Light-Handed Regulation",
+            "Revenue Cap Regulation",
+            "Price Cap Regulation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Price Cap Regulation involves setting maximum allowable price increases, typically linked to inflation minus efficiency improvements."
         },
         {
           id: 12,
           question: "What does EASA stand for in European aviation regulation?",
           options: [
-            "European Union Aviation Safety Agency",
-            "European Aviation Standards Association",
+            "European Aircraft Safety Authority",
             "European Air Safety Administration",
-            "European Aircraft Safety Authority"
+            "European Union Aviation Safety Agency",
+            "European Aviation Standards Association"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "EASA stands for European Union Aviation Safety Agency, responsible for civil aviation safety regulation in the European Union."
         },
         {
           id: 13,
           question: "Which freedom allows 'right to fly over foreign territory'?",
           options: [
-            "First Freedom",
+            "Fourth Freedom",
             "Second Freedom",
-            "Third Freedom",
-            "Fourth Freedom"
+            "First Freedom",
+            "Third Freedom"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The First Freedom allows the right to fly over foreign territory without landing, subject to overflight regulations and charges."
         },
         {
           id: 14,
           question: "What does MEL stand for in operational regulation?",
           options: [
-            "Minimum Equipment List",
+            "Maintenance Equipment List",
             "Maximum Equipment List",
             "Mandatory Equipment List",
-            "Maintenance Equipment List"
+            "Minimum Equipment List"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "MEL stands for Minimum Equipment List, specifying which equipment may be inoperative for flight under specific conditions and procedures."
         },
         {
           id: 15,
           question: "Which EU regulation covers passenger rights for delays and cancellations?",
           options: [
-            "EU Regulation 261/2004",
             "EU Regulation 1139/2018",
+            "EU Regulation 261/2004",
             "EU Regulation 376/2014",
             "EU Regulation 2018/1139"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EU Regulation 261/2004 establishes common rules on compensation and assistance to passengers in the event of denied boarding, cancellation, or long delay."
         },
         {
           id: 16,
           question: "What does TSA stand for in US aviation security?",
           options: [
-            "Transportation Security Administration",
             "Transport Safety Administration",
+            "Transportation Security Administration",
             "Travel Security Agency",
             "Transportation Safety Agency"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "TSA stands for Transportation Security Administration, the US agency responsible for security in transportation systems, including aviation."
         },
         {
           id: 17,
           question: "Which slot allocation principle gives priority to historical usage?",
           options: [
-            "Grandfather rights",
             "Use-it-or-lose-it rule",
-            "New entrant protection",
-            "Slot trading rules"
+            "Slot trading rules",
+            "Grandfather rights",
+            "New entrant protection"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Grandfather rights give priority in slot allocation to airlines that have historically used the slots, subject to the use-it-or-lose-it rule."
         },
         {
           id: 18,
           question: "What does UAS stand for in emerging technology regulation?",
           options: [
-            "Unmanned Aircraft Systems",
-            "Unified Airspace System",
+            "Unmanned Aviation Systems",
             "Urban Air Systems",
-            "Unmanned Aviation Systems"
+            "Unified Airspace System",
+            "Unmanned Aircraft Systems"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "UAS stands for Unmanned Aircraft Systems, commonly known as drones, which present new regulatory challenges for integration into airspace."
         },
         {
           id: 19,
           question: "Which convention modernized international liability rules?",
           options: [
-            "Montreal Convention 1999",
-            "Warsaw Convention 1929",
             "Guadalajara Convention 1961",
-            "Rome Convention 1952"
+            "Warsaw Convention 1929",
+            "Rome Convention 1952",
+            "Montreal Convention 1999"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The Montreal Convention 1999 modernized and replaced the Warsaw Convention system, updating liability rules for international carriage."
         },
         {
           id: 20,
           question: "What does SAF stand for in sustainable aviation?",
           options: [
-            "Sustainable Aviation Fuel",
-            "Sustainable Aircraft Fuel",
             "Synthetic Aviation Fuel",
-            "Sustainable Air Fuel"
+            "Sustainable Air Fuel",
+            "Sustainable Aircraft Fuel",
+            "Sustainable Aviation Fuel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "SAF stands for Sustainable Aviation Fuel, alternative fuels produced from sustainable feedstocks to reduce aviation's environmental impact."
         }
       ]
@@ -5669,84 +5669,84 @@ Aviation marketing and customer experience management require balancing commerci
           id: 1,
           question: "What is a primary characteristic of aviation inventory that makes revenue management critical?",
           options: [
+            "Seasonal variations in seat quality",
             "Perishable inventory (seats cannot be stored)",
-            "High storage costs for unsold seats",
             "Limited production capacity for additional seats",
-            "Seasonal variations in seat quality"
+            "High storage costs for unsold seats"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Aviation inventory is perishable - once a flight departs, unsold seats cannot be stored or sold later, making revenue management essential for maximizing revenue."
         },
         {
           id: 2,
           question: "What does NDC stand for in aviation distribution?",
           options: [
-            "New Distribution Capability",
-            "Network Distribution Channel",
             "New Digital Channel",
-            "Network Data Capability"
+            "New Distribution Capability",
+            "Network Data Capability",
+            "Network Distribution Channel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "NDC stands for New Distribution Capability, an XML-based data transmission standard enabling airlines to distribute rich content and personalized offers through third parties."
         },
         {
           id: 3,
           question: "Which customer segment typically has the lowest price sensitivity?",
           options: [
-            "Business Travelers",
             "Leisure Travelers",
-            "Visiting Friends and Relatives (VFR)",
-            "Premium Leisure Travelers"
+            "Premium Leisure Travelers",
+            "Business Travelers",
+            "Visiting Friends and Relatives (VFR)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Business travelers typically have the lowest price sensitivity as travel is often necessary for work, with costs covered by employers or expense accounts."
         },
         {
           id: 4,
           question: "What does CRM stand for in marketing technology?",
           options: [
+            "Corporate Relationship Management",
             "Customer Relationship Management",
             "Customer Revenue Management",
-            "Crew Resource Management",
-            "Corporate Relationship Management"
+            "Crew Resource Management"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CRM stands for Customer Relationship Management, systems and strategies for managing interactions with current and potential customers."
         },
         {
           id: 5,
           question: "Which pricing approach is based on 'perceived customer value'?",
           options: [
-            "Value-Based Pricing",
-            "Cost-Based Pricing",
             "Competition-Based Pricing",
+            "Cost-Based Pricing",
+            "Value-Based Pricing",
             "Dynamic Pricing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Value-Based Pricing sets prices based on the perceived value to the customer rather than costs or competitive prices."
         },
         {
           id: 6,
           question: "What does NPS stand for in customer experience measurement?",
           options: [
-            "Net Promoter Score",
-            "Net Performance Score",
             "New Passenger Score",
+            "Net Performance Score",
+            "Net Promoter Score",
             "Network Promotion Score"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "NPS stands for Net Promoter Score, a metric that measures customer loyalty and likelihood to recommend a company's products or services."
         },
         {
           id: 7,
           question: "Which distribution channel typically has the lowest cost per booking?",
           options: [
-            "Direct channels (airline website)",
-            "Global Distribution Systems (GDS)",
             "Online Travel Agencies (OTAs)",
+            "Global Distribution Systems (GDS)",
+            "Direct channels (airline website)",
             "Travel agents"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Direct channels typically have the lowest cost per booking as they avoid commission payments to intermediaries."
         },
         {
@@ -5765,84 +5765,84 @@ Aviation marketing and customer experience management require balancing commerci
           id: 9,
           question: "Which brand positioning focuses on 'price leadership and simplicity'?",
           options: [
-            "Low-Cost Carrier",
             "Premium Full-Service Carrier",
+            "Regional Carrier",
             "Hybrid Carrier",
-            "Regional Carrier"
+            "Low-Cost Carrier"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Low-Cost Carrier positioning focuses on price leadership, simplicity, and efficiency to attract price-sensitive customers."
         },
         {
           id: 10,
           question: "What does ROMI stand for in marketing performance?",
           options: [
+            "Revenue on Marketing Investment",
             "Return on Marketing Investment",
             "Return on Market Intelligence",
-            "Revenue on Marketing Investment",
             "Return on Media Investment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "ROMI stands for Return on Marketing Investment, a metric measuring the revenue generated relative to the cost of marketing activities."
         },
         {
           id: 11,
           question: "Which customer journey stage involves 'destination inspiration and travel research'?",
           options: [
+            "Post-Travel",
             "Dreaming and Planning",
             "Booking and Preparation",
-            "Travel Experience",
-            "Post-Travel"
+            "Travel Experience"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Dreaming and Planning stage involves destination inspiration, travel research, price comparison, and booking consideration."
         },
         {
           id: 12,
           question: "What does GDS stand for in distribution channels?",
           options: [
-            "Global Distribution System",
-            "General Distribution System",
             "Global Data System",
+            "General Distribution System",
+            "Global Distribution System",
             "General Data System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "GDS stands for Global Distribution System, computerized networks that enable transactions between travel service providers and travel agencies."
         },
         {
           id: 13,
           question: "Which ancillary revenue category includes 'preferred seat fees'?",
           options: [
-            "Seat Selection",
             "Baggage Services",
-            "On-board Services",
-            "Travel Services"
+            "Travel Services",
+            "Seat Selection",
+            "On-board Services"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Seat Selection ancillary revenue includes fees for preferred seats, extra legroom seats, and seat assignments."
         },
         {
           id: 14,
           question: "What does CPA stand for in acquisition metrics?",
           options: [
+            "Corporate Partnership Agreement",
             "Cost per Acquisition",
             "Cost per Advertising",
-            "Customer Purchase Analysis",
-            "Corporate Partnership Agreement"
+            "Customer Purchase Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CPA stands for Cost per Acquisition, measuring the cost to acquire a new customer through specific marketing channels."
         },
         {
           id: 15,
           question: "Which network strategy offers 'connectivity and high aircraft utilization'?",
           options: [
-            "Hub-and-Spoke Network",
             "Point-to-Point Network",
-            "Hybrid Network",
-            "Linear Network"
+            "Hub-and-Spoke Network",
+            "Linear Network",
+            "Hybrid Network"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Hub-and-Spoke networks offer connectivity through central hubs and high aircraft utilization through efficient routing."
         },
         {
@@ -5850,8 +5850,8 @@ Aviation marketing and customer experience management require balancing commerci
           question: "What does OTA stand for in indirect distribution?",
           options: [
             "Online Travel Agency",
-            "Operational Travel Agency",
             "Official Travel Agent",
+            "Operational Travel Agency",
             "Online Ticket Agency"
           ],
           correctAnswer: 0,
@@ -5861,12 +5861,12 @@ Aviation marketing and customer experience management require balancing commerci
           id: 17,
           question: "Which cabin class typically targets 'value-conscious business travelers'?",
           options: [
-            "Premium Economy",
             "First Class",
+            "Economy Class",
             "Business Class",
-            "Economy Class"
+            "Premium Economy"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Premium Economy typically targets value-conscious business travelers and premium leisure travelers seeking enhanced comfort at a lower price than Business Class."
         },
         {
@@ -5874,9 +5874,9 @@ Aviation marketing and customer experience management require balancing commerci
           question: "What does XML stand for in NDC technology?",
           options: [
             "eXtensible Markup Language",
+            "Extended Markup Language",
             "Extended Marketing Language",
-            "Exchange Management Language",
-            "Extended Markup Language"
+            "Exchange Management Language"
           ],
           correctAnswer: 0,
           explanation: "XML stands for eXtensible Markup Language, the data format used in New Distribution Capability for transmitting airline product information."
@@ -5885,24 +5885,24 @@ Aviation marketing and customer experience management require balancing commerci
           id: 19,
           question: "Which marketing technology enables 'automated email campaigns'?",
           options: [
-            "Marketing Automation",
             "Customer Relationship Management",
+            "Personalization Engines",
             "Analytics Platforms",
-            "Personalization Engines"
+            "Marketing Automation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Marketing Automation systems enable automated email campaigns, lead nurturing, and behavioral trigger-based communications."
         },
         {
           id: 20,
           question: "What does VFR stand for in customer segmentation?",
           options: [
-            "Visiting Friends and Relatives",
-            "Vacation and Family Recreation",
+            "Visiting Family Regularly",
             "Value-Focused Recreation",
-            "Visiting Family Regularly"
+            "Visiting Friends and Relatives",
+            "Vacation and Family Recreation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "VFR stands for Visiting Friends and Relatives, a customer segment characterized by regular travel to visit family and friends."
         }
       ]
@@ -6568,108 +6568,108 @@ Sustainable aviation management represents a comprehensive approach to addressin
           id: 1,
           question: "What are the three pillars of the triple bottom line in sustainability?",
           options: [
-            "Environmental, Social, and Economic",
             "Environmental, Safety, and Financial",
+            "Environmental, Regulatory, and Social",
             "Social, Economic, and Operational",
-            "Environmental, Regulatory, and Social"
+            "Environmental, Social, and Economic"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "The triple bottom line comprises three pillars: Environmental (planet), Social (people), and Economic (profit) sustainability."
         },
         {
           id: 2,
           question: "What does SAF stand for in sustainable aviation?",
           options: [
-            "Sustainable Aviation Fuel",
-            "Sustainable Aircraft Fuel",
             "Synthetic Aviation Fuel",
+            "Sustainable Aircraft Fuel",
+            "Sustainable Aviation Fuel",
             "Sustainable Air Fuel"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "SAF stands for Sustainable Aviation Fuel, alternative fuels produced from sustainable feedstocks that can reduce aviation's carbon footprint."
         },
         {
           id: 3,
           question: "Which scope of emissions includes 'aircraft fuel combustion'?",
           options: [
-            "Scope 1 (Direct emissions)",
+            "Scope 4 (Avoided emissions)",
             "Scope 2 (Indirect from purchased energy)",
-            "Scope 3 (Other indirect emissions)",
-            "Scope 4 (Avoided emissions)"
+            "Scope 1 (Direct emissions)",
+            "Scope 3 (Other indirect emissions)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Scope 1 emissions are direct emissions from owned or controlled sources, including aircraft fuel combustion."
         },
         {
           id: 4,
           question: "What does CORSIA stand for in carbon management?",
           options: [
-            "Carbon Offsetting and Reduction Scheme for International Aviation",
             "Carbon Offset and Reduction System for International Air travel",
+            "Carbon Reduction Scheme for International Air transport",
             "Climate Offset Requirement for Sustainable International Aviation",
-            "Carbon Reduction Scheme for International Air transport"
+            "Carbon Offsetting and Reduction Scheme for International Aviation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "CORSIA stands for Carbon Offsetting and Reduction Scheme for International Aviation, ICAO's market-based measure to address CO2 emissions."
         },
         {
           id: 5,
           question: "What does ACA stand for in airport sustainability?",
           options: [
-            "Airport Carbon Accreditation",
-            "Aviation Carbon Assessment",
             "Airport Climate Action",
-            "Aviation Carbon Accreditation"
+            "Aviation Carbon Accreditation",
+            "Airport Carbon Accreditation",
+            "Aviation Carbon Assessment"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ACA stands for Airport Carbon Accreditation, a global carbon management certification program for airports."
         },
         {
           id: 6,
           question: "Which fuel production pathway uses 'hydroprocessed esters and fatty acids'?",
           options: [
-            "HEFA",
+            "PTL (Power-to-Liquid)",
             "FT (Fischer-Tropsch)",
-            "ATJ (Alcohol-to-Jet)",
-            "PTL (Power-to-Liquid)"
+            "HEFA",
+            "ATJ (Alcohol-to-Jet)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "HEFA stands for Hydroprocessed Esters and Fatty Acids, a common pathway for producing sustainable aviation fuel from vegetable oils and fats."
         },
         {
           id: 7,
           question: "What does CDO stand for in operational efficiency?",
           options: [
+            "Controlled Departure Operations",
             "Continuous Descent Operations",
             "Controlled Descent Operations",
-            "Continuous Departure Operations",
-            "Controlled Departure Operations"
+            "Continuous Departure Operations"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "CDO stands for Continuous Descent Operations, an optimized descent procedure that reduces fuel burn, emissions, and noise."
         },
         {
           id: 8,
           question: "Which reporting framework focuses on 'climate-related financial disclosures'?",
           options: [
-            "TCFD (Task Force on Climate-related Financial Disclosures)",
+            "CDP (Carbon Disclosure Project)",
             "GRI (Global Reporting Initiative)",
-            "SASB (Sustainability Accounting Standards Board)",
-            "CDP (Carbon Disclosure Project)"
+            "TCFD (Task Force on Climate-related Financial Disclosures)",
+            "SASB (Sustainability Accounting Standards Board)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "TCFD stands for Task Force on Climate-related Financial Disclosures, providing recommendations for climate-related financial risk reporting."
         },
         {
           id: 9,
           question: "What does EMS stand for in environmental management?",
           options: [
+            "Emission Monitoring System",
             "Environmental Management System",
             "Emission Management System",
-            "Environmental Monitoring System",
-            "Emission Monitoring System"
+            "Environmental Monitoring System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "EMS stands for Environmental Management System, a framework for managing environmental impacts and compliance."
         },
         {
@@ -6688,60 +6688,60 @@ Sustainable aviation management represents a comprehensive approach to addressin
           id: 11,
           question: "What does RNP stand for in air navigation efficiency?",
           options: [
-            "Required Navigation Performance",
             "Regional Navigation Procedures",
             "Required Navigation Procedures",
-            "Regional Navigation Performance"
+            "Regional Navigation Performance",
+            "Required Navigation Performance"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RNP stands for Required Navigation Performance, a navigation specification that requires aircraft to meet specific performance criteria."
         },
         {
           id: 12,
           question: "Which EU policy instrument includes 'emissions trading for aviation'?",
           options: [
-            "EU Emissions Trading System (EU ETS)",
-            "Single European Sky (SES)",
+            "Renewable Energy Directive",
             "Fit for 55 package",
-            "Renewable Energy Directive"
+            "EU Emissions Trading System (EU ETS)",
+            "Single European Sky (SES)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The EU Emissions Trading System (EU ETS) is a cap-and-trade system for greenhouse gas emissions, including aviation emissions within Europe."
         },
         {
           id: 13,
           question: "What does APU stand for in fuel efficiency measures?",
           options: [
-            "Auxiliary Power Unit",
-            "Aircraft Power Unit",
             "Auxiliary Propulsion Unit",
-            "Aircraft Propulsion Unit"
+            "Aircraft Power Unit",
+            "Aircraft Propulsion Unit",
+            "Auxiliary Power Unit"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "APU stands for Auxiliary Power Unit, a small engine on aircraft that provides power when the main engines are not running, often replaced by ground power to save fuel."
         },
         {
           id: 14,
           question: "Which sustainable finance instrument has 'interest rates tied to sustainability performance'?",
           options: [
-            "Sustainability-Linked Loans",
             "Green Bonds",
-            "Green Leasing",
-            "ESG Investment Funds"
+            "Sustainability-Linked Loans",
+            "ESG Investment Funds",
+            "Green Leasing"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Sustainability-Linked Loans have interest rates that adjust based on the borrower's achievement of predetermined sustainability performance targets."
         },
         {
           id: 15,
           question: "What does ATAG stand for in industry collaboration?",
           options: [
-            "Air Transport Action Group",
+            "Aviation Transport Advisory Group",
             "Aviation Technology Advisory Group",
             "Air Traffic Advisory Group",
-            "Aviation Transport Advisory Group"
+            "Air Transport Action Group"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "ATAG stands for Air Transport Action Group, a coalition of aviation industry organizations focused on sustainable development."
         },
         {
@@ -6749,9 +6749,9 @@ Sustainable aviation management represents a comprehensive approach to addressin
           question: "Which operational practice involves 'taxiing with only one engine running'?",
           options: [
             "Single-engine taxiing",
-            "Reduced-engine taxiing",
             "Minimal-engine taxiing",
-            "Efficient-engine taxiing"
+            "Efficient-engine taxiing",
+            "Reduced-engine taxiing"
           ],
           correctAnswer: 0,
           explanation: "Single-engine taxiing involves taxiing with only one engine running to reduce fuel consumption and emissions."
@@ -6761,9 +6761,9 @@ Sustainable aviation management represents a comprehensive approach to addressin
           question: "What does ESG stand for in sustainable finance?",
           options: [
             "Environmental, Social, and Governance",
+            "Economic, Social, and Governance",
             "Economic, Sustainable, and Governance",
-            "Environmental, Sustainable, and Governance",
-            "Economic, Social, and Governance"
+            "Environmental, Sustainable, and Governance"
           ],
           correctAnswer: 0,
           explanation: "ESG stands for Environmental, Social, and Governance factors used to evaluate corporate sustainability and ethical impact."
@@ -6772,36 +6772,36 @@ Sustainable aviation management represents a comprehensive approach to addressin
           id: 18,
           question: "Which airport sustainability level involves 'carbon neutrality'?",
           options: [
-            "Level 4: Transformation",
-            "Level 1: Mapping",
+            "Level 3: Optimization",
             "Level 2: Reduction",
-            "Level 3: Optimization"
+            "Level 4: Transformation",
+            "Level 1: Mapping"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Level 4: Transformation in Airport Carbon Accreditation involves carbon neutrality through reduction and offsetting of remaining emissions."
         },
         {
           id: 19,
           question: "What does PCA stand for in ground operations efficiency?",
           options: [
-            "Pre-conditioned Air",
             "Powered Cooling Air",
-            "Pre-cooled Air",
-            "Powered Conditioned Air"
+            "Pre-conditioned Air",
+            "Powered Conditioned Air",
+            "Pre-cooled Air"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "PCA stands for Pre-conditioned Air, ground-based systems that provide heating and cooling to aircraft, reducing APU usage."
         },
         {
           id: 20,
           question: "Which emerging technology uses 'hydrogen fuel cells' for propulsion?",
           options: [
-            "Hydrogen Aviation",
-            "Electric Aircraft",
             "Hybrid-electric Aircraft",
-            "Advanced Air Mobility"
+            "Electric Aircraft",
+            "Advanced Air Mobility",
+            "Hydrogen Aviation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Hydrogen Aviation includes aircraft using hydrogen fuel cells to generate electricity for electric propulsion systems."
         }
       ]
@@ -7525,36 +7525,36 @@ Crisis management and business continuity in aviation require comprehensive plan
           id: 1,
           question: "What are the four phases of the crisis management cycle?",
           options: [
-            "Mitigation, Preparedness, Response, Recovery",
-            "Planning, Activation, Response, Restoration",
             "Prevention, Preparation, Action, Recovery",
+            "Planning, Activation, Response, Restoration",
+            "Mitigation, Preparedness, Response, Recovery",
             "Assessment, Planning, Implementation, Evaluation"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "The crisis management cycle comprises four phases: Mitigation and Prevention, Preparedness, Response, and Recovery."
         },
         {
           id: 2,
           question: "What does CMT stand for in crisis management structure?",
           options: [
-            "Crisis Management Team",
             "Crisis Mitigation Team",
             "Crisis Response Team",
+            "Crisis Management Team",
             "Crisis Coordination Team"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "CMT stands for Crisis Management Team, the group responsible for overall crisis management and decision-making during emergencies."
         },
         {
           id: 3,
           question: "Which crisis type includes 'accidents and incidents'?",
           options: [
-            "Safety Crises",
-            "Security Crises",
             "Operational Crises",
-            "Reputational Crises"
+            "Safety Crises",
+            "Reputational Crises",
+            "Security Crises"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Safety Crises include accidents, incidents, safety system failures, maintenance issues, and operational safety concerns."
         },
         {
@@ -7563,8 +7563,8 @@ Crisis management and business continuity in aviation require comprehensive plan
           options: [
             "Emergency Operations Center",
             "Emergency Operations Command",
-            "Emergency Operations Control",
-            "Emergency Operations Coordination"
+            "Emergency Operations Coordination",
+            "Emergency Operations Control"
           ],
           correctAnswer: 0,
           explanation: "EOC stands for Emergency Operations Center, the central facility for crisis coordination and management."
@@ -7573,48 +7573,48 @@ Crisis management and business continuity in aviation require comprehensive plan
           id: 5,
           question: "What does ICS stand for in incident management?",
           options: [
-            "Incident Command System",
-            "Incident Control System",
+            "Incident Command Structure",
             "Incident Coordination System",
-            "Incident Command Structure"
+            "Incident Command System",
+            "Incident Control System"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "ICS stands for Incident Command System, a standardized approach to incident management used by emergency services and organizations."
         },
         {
           id: 6,
           question: "What does RTO stand for in business continuity?",
           options: [
-            "Recovery Time Objective",
             "Return to Operations",
-            "Recovery Target Objective",
-            "Return Time Objective"
+            "Recovery Time Objective",
+            "Return Time Objective",
+            "Recovery Target Objective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "RTO stands for Recovery Time Objective, the maximum acceptable time that a business process can be disrupted after a failure or disaster."
         },
         {
           id: 7,
           question: "Which exercise type involves 'discussion-based scenario exercises'?",
           options: [
-            "Tabletop Exercises",
-            "Functional Exercises",
             "Full-scale Exercises",
-            "Drills"
+            "Tabletop Exercises",
+            "Drills",
+            "Functional Exercises"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Tabletop Exercises are discussion-based exercises where participants discuss their roles and responses to a simulated emergency scenario."
         },
         {
           id: 8,
           question: "What does BCP stand for in continuity planning?",
           options: [
-            "Business Continuity Plan",
-            "Business Crisis Plan",
             "Business Contingency Plan",
-            "Business Continuity Program"
+            "Business Continuity Program",
+            "Business Continuity Plan",
+            "Business Crisis Plan"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "BCP stands for Business Continuity Plan, a document containing procedures for maintaining or resuming business operations during disruptions."
         },
         {
@@ -7622,9 +7622,9 @@ Crisis management and business continuity in aviation require comprehensive plan
           question: "Which crisis scenario involves 'health screening implementation'?",
           options: [
             "Pandemic Response",
+            "Financial Crisis",
             "Cybersecurity Crisis",
-            "Accident Response",
-            "Financial Crisis"
+            "Accident Response"
           ],
           correctAnswer: 0,
           explanation: "Pandemic Response involves implementing health screening, enhanced cleaning, crew protection measures, and other health-related protocols."
@@ -7633,12 +7633,12 @@ Crisis management and business continuity in aviation require comprehensive plan
           id: 10,
           question: "What does RPO stand for in business continuity?",
           options: [
-            "Recovery Point Objective",
             "Return Point Objective",
             "Recovery Process Objective",
-            "Return Process Objective"
+            "Return Process Objective",
+            "Recovery Point Objective"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "RPO stands for Recovery Point Objective, the maximum tolerable period in which data might be lost due to a major incident."
         },
         {
@@ -7657,108 +7657,108 @@ Crisis management and business continuity in aviation require comprehensive plan
           id: 12,
           question: "What type of crisis involves 'terrorism and hijacking'?",
           options: [
-            "Security Crises",
-            "Safety Crises",
             "Operational Crises",
-            "Reputational Crises"
+            "Reputational Crises",
+            "Safety Crises",
+            "Security Crises"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "Security Crises include terrorism, hijacking, cybersecurity attacks, sabotage, and other security-related threats."
         },
         {
           id: 13,
           question: "Which recovery time category includes 'safety-critical systems'?",
           options: [
-            "Immediate Recovery (0-4 hours)",
             "Short-term Recovery (4-24 hours)",
-            "Medium-term Recovery (24-72 hours)",
-            "Long-term Recovery (3+ days)"
+            "Long-term Recovery (3+ days)",
+            "Immediate Recovery (0-4 hours)",
+            "Medium-term Recovery (24-72 hours)"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Immediate Recovery (0-4 hours) includes safety-critical systems that must be restored immediately to prevent further harm or danger."
         },
         {
           id: 14,
           question: "What does BIA stand for in business continuity planning?",
           options: [
-            "Business Impact Analysis",
-            "Business Interruption Analysis",
             "Business Incident Assessment",
-            "Business Integration Analysis"
+            "Business Interruption Analysis",
+            "Business Integration Analysis",
+            "Business Impact Analysis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "BIA stands for Business Impact Analysis, the process of identifying critical business functions and determining the impact of disruptions."
         },
         {
           id: 15,
           question: "Which crisis leadership competency involves 'rapid assessment and judgment'?",
           options: [
-            "Decision Making",
-            "Communication",
+            "Team Leadership",
             "Resilience",
-            "Team Leadership"
+            "Decision Making",
+            "Communication"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Decision Making competency in crisis leadership involves rapid assessment, judgment under uncertainty, and risk-balanced decisions."
         },
         {
           id: 16,
           question: "What type of exercise involves 'real-time, resource-intensive simulations'?",
           options: [
-            "Full-scale Exercises",
-            "Tabletop Exercises",
             "Functional Exercises",
-            "Drills"
+            "Full-scale Exercises",
+            "Drills",
+            "Tabletop Exercises"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Full-scale Exercises involve real-time, resource-intensive simulations that test multiple aspects of emergency response simultaneously."
         },
         {
           id: 17,
           question: "Which crisis involves 'threat containment and system recovery'?",
           options: [
-            "Cybersecurity Crisis",
-            "Pandemic Response",
             "Accident Response",
+            "Pandemic Response",
+            "Cybersecurity Crisis",
             "Financial Crisis"
           ],
-          correctAnswer: 0,
+          correctAnswer: 2,
           explanation: "Cybersecurity Crisis response involves threat containment, system recovery, forensic investigation, and vulnerability remediation."
         },
         {
           id: 18,
           question: "What does EAP stand for in employee support during crises?",
           options: [
-            "Employee Assistance Program",
+            "Emergency Action Plan",
             "Emergency Assistance Program",
             "Employee Advisory Program",
-            "Emergency Action Plan"
+            "Employee Assistance Program"
           ],
-          correctAnswer: 0,
+          correctAnswer: 3,
           explanation: "EAP stands for Employee Assistance Program, providing support services for employees during personal or work-related crises."
         },
         {
           id: 19,
           question: "Which ICS section handles 'supply, facilities, and ground support'?",
           options: [
+            "Finance Section",
             "Logistics Section",
             "Operations Section",
-            "Planning Section",
-            "Finance Section"
+            "Planning Section"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "The Logistics Section in ICS handles supply, facilities, ground support, and communications resources."
         },
         {
           id: 20,
           question: "What type of crisis culture emphasizes 'openness to feedback and learning'?",
           options: [
-            "Learning Culture",
             "Preparedness Culture",
-            "Response Culture",
-            "Resilience Culture"
+            "Learning Culture",
+            "Resilience Culture",
+            "Response Culture"
           ],
-          correctAnswer: 0,
+          correctAnswer: 1,
           explanation: "Learning Culture in crisis management emphasizes openness to feedback, willingness to learn, continuous improvement, and knowledge sharing."
         }
       ]
@@ -7778,12 +7778,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 1,
         question: "What characterizes transformational leadership in aviation?",
         options: [
+          "Technical expertise, hands-on management, and direct control",
           "Inspirational motivation, intellectual stimulation, and idealized influence",
-          "Direct supervision, task orientation, and strict compliance",
           "Financial focus, cost control, and profit maximization",
-          "Technical expertise, hands-on management, and direct control"
+          "Direct supervision, task orientation, and strict compliance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Transformational leadership in aviation involves inspirational motivation, intellectual stimulation, individualized consideration, and idealized influence to inspire teams toward achieving strategic goals while maintaining safety standards."
       },
       {
@@ -7805,12 +7805,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 2,
         question: "What is the primary function of an Operations Control Center (OCC)?",
         options: [
-          "Central coordination of all airline operations",
-          "Managing passenger reservations and ticketing",
+          "Handling crew training and certification",
           "Overseeing aircraft maintenance scheduling",
-          "Handling crew training and certification"
+          "Central coordination of all airline operations",
+          "Managing passenger reservations and ticketing"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "The Operations Control Center (OCC) serves as the central coordination point for all airline operations, including flight following, disruption management, resource allocation, and decision support."
       },
       {
@@ -7834,8 +7834,8 @@ Crisis management and business continuity in aviation require comprehensive plan
         options: [
           "Fuel costs (20-30% of total costs)",
           "Maintenance costs (8-12% of total costs)",
-          "Crew salaries and benefits",
-          "Airport and navigation charges"
+          "Airport and navigation charges",
+          "Crew salaries and benefits"
         ],
         correctAnswer: 0,
         explanation: "Fuel costs are typically the largest component, representing 20-30% of total operating costs for most airlines, making fuel price management critical for profitability."
@@ -7845,12 +7845,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 3,
         question: "What does RASM stand for in airline financial metrics?",
         options: [
-          "Revenue per Available Seat Mile",
+          "Return on Available Seat Miles",
           "Return on Assets and Shareholder Money",
-          "Revenue and Asset Strategy Management",
-          "Return on Available Seat Miles"
+          "Revenue per Available Seat Mile",
+          "Revenue and Asset Strategy Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "RASM stands for Revenue per Available Seat Mile, a key metric measuring revenue generation efficiency by dividing total revenue by available seat miles."
       },
       // Questions from Module 4: Airport Management and Development
@@ -7859,12 +7859,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 4,
         question: "What is the typical modern revenue mix for leading airports?",
         options: [
-          "30% aeronautical, 70% non-aeronautical",
-          "70% aeronautical, 30% non-aeronautical",
           "50% aeronautical, 50% non-aeronautical",
-          "40% aeronautical, 60% non-aeronautical"
+          "40% aeronautical, 60% non-aeronautical",
+          "70% aeronautical, 30% non-aeronautical",
+          "30% aeronautical, 70% non-aeronautical"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Leading airports typically generate about 30% of revenue from aeronautical activities and 70% from non-aeronautical sources like retail, parking, and property development."
       },
       {
@@ -7872,12 +7872,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 4,
         question: "What does A-SMGCS stand for in runway management?",
         options: [
-          "Advanced Surface Movement Guidance and Control System",
-          "Airport Surface Management and Guidance Control System",
           "Automated Surface Movement Guidance and Control System",
+          "Airport Surface Management and Guidance Control System",
+          "Advanced Surface Movement Guidance and Control System",
           "Advanced Safety Management and Guidance Control System"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "A-SMGCS stands for Advanced Surface Movement Guidance and Control System, a technology that enhances safety and efficiency of aircraft and vehicle movements on airport surfaces."
       },
       // Questions from Module 5: Aviation Safety Management Systems
@@ -7887,8 +7887,8 @@ Crisis management and business continuity in aviation require comprehensive plan
         question: "Which ICAO Annex is dedicated to Safety Management Systems?",
         options: [
           "Annex 19",
-          "Annex 6",
           "Annex 13",
+          "Annex 6",
           "Annex 14"
         ],
         correctAnswer: 0,
@@ -7901,8 +7901,8 @@ Crisis management and business continuity in aviation require comprehensive plan
         options: [
           "Safety Policy, Safety Risk Management, Safety Assurance, Safety Promotion",
           "Safety Planning, Risk Assessment, Safety Monitoring, Safety Training",
-          "Safety Leadership, Hazard Control, Performance Measurement, Safety Culture",
-          "Safety Objectives, Risk Analysis, Quality Assurance, Safety Communication"
+          "Safety Objectives, Risk Analysis, Quality Assurance, Safety Communication",
+          "Safety Leadership, Hazard Control, Performance Measurement, Safety Culture"
         ],
         correctAnswer: 0,
         explanation: "The four pillars of SMS are: Safety Policy and Objectives, Safety Risk Management, Safety Assurance, and Safety Promotion."
@@ -7913,12 +7913,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 6,
         question: "What is a primary challenge in aviation HRM related to workforce availability?",
         options: [
+          "Over-supply of cabin crew",
           "Global pilot shortages",
           "Excess of maintenance engineers",
-          "Over-supply of cabin crew",
           "Limited management candidates"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Global pilot shortages represent a major challenge, with demand exceeding supply due to retirements, industry growth, and high training costs."
       },
       {
@@ -7926,12 +7926,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 6,
         question: "What does CRM stand for in aviation training?",
         options: [
-          "Crew Resource Management",
           "Crisis Response Management",
-          "Customer Relationship Management",
-          "Crew Recruitment Management"
+          "Crew Recruitment Management",
+          "Crew Resource Management",
+          "Customer Relationship Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "CRM stands for Crew Resource Management, focusing on communication, teamwork, and decision-making skills for flight crews."
       },
       // Questions from Module 7: Aviation Law and Regulations
@@ -7940,12 +7940,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 7,
         question: "Which convention is considered the foundation of modern international aviation law?",
         options: [
-          "Chicago Convention 1944",
-          "Warsaw Convention 1929",
           "Montreal Convention 1999",
-          "Tokyo Convention 1963"
+          "Tokyo Convention 1963",
+          "Warsaw Convention 1929",
+          "Chicago Convention 1944"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The Chicago Convention 1944 established the fundamental principles of international aviation law and created ICAO as the global regulatory body."
       },
       {
@@ -7955,8 +7955,8 @@ Crisis management and business continuity in aviation require comprehensive plan
         options: [
           "Standards and Recommended Practices",
           "Safety and Regulatory Procedures",
-          "Standards and Regulatory Protocols",
-          "Safety and Recommended Procedures"
+          "Safety and Recommended Procedures",
+          "Standards and Regulatory Protocols"
         ],
         correctAnswer: 0,
         explanation: "SARP stands for Standards and Recommended Practices, which are the technical specifications adopted by ICAO for international aviation."
@@ -7967,12 +7967,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 8,
         question: "What is a primary characteristic of aviation inventory that makes revenue management critical?",
         options: [
-          "Perishable inventory (seats cannot be stored)",
           "High storage costs for unsold seats",
-          "Limited production capacity for additional seats",
-          "Seasonal variations in seat quality"
+          "Seasonal variations in seat quality",
+          "Perishable inventory (seats cannot be stored)",
+          "Limited production capacity for additional seats"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Aviation inventory is perishable - once a flight departs, unsold seats cannot be stored or sold later, making revenue management essential for maximizing revenue."
       },
       {
@@ -7980,12 +7980,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 8,
         question: "What does NDC stand for in aviation distribution?",
         options: [
-          "New Distribution Capability",
-          "Network Distribution Channel",
+          "Network Data Capability",
           "New Digital Channel",
-          "Network Data Capability"
+          "New Distribution Capability",
+          "Network Distribution Channel"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "NDC stands for New Distribution Capability, an XML-based data transmission standard enabling airlines to distribute rich content and personalized offers through third parties."
       },
       // Questions from Module 9: Sustainable Aviation Management
@@ -7994,12 +7994,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 9,
         question: "What are the three pillars of the triple bottom line in sustainability?",
         options: [
-          "Environmental, Social, and Economic",
           "Environmental, Safety, and Financial",
+          "Environmental, Social, and Economic",
           "Social, Economic, and Operational",
           "Environmental, Regulatory, and Social"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The triple bottom line comprises three pillars: Environmental (planet), Social (people), and Economic (profit) sustainability."
       },
       {
@@ -8007,12 +8007,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 9,
         question: "What does SAF stand for in sustainable aviation?",
         options: [
-          "Sustainable Aviation Fuel",
-          "Sustainable Aircraft Fuel",
           "Synthetic Aviation Fuel",
-          "Sustainable Air Fuel"
+          "Sustainable Aircraft Fuel",
+          "Sustainable Air Fuel",
+          "Sustainable Aviation Fuel"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "SAF stands for Sustainable Aviation Fuel, alternative fuels produced from sustainable feedstocks that can reduce aviation's carbon footprint."
       },
       // Questions from Module 10: Crisis Management and Business Continuity
@@ -8021,12 +8021,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 10,
         question: "What are the four phases of the crisis management cycle?",
         options: [
-          "Mitigation, Preparedness, Response, Recovery",
           "Planning, Activation, Response, Restoration",
+          "Mitigation, Preparedness, Response, Recovery",
           "Prevention, Preparation, Action, Recovery",
           "Assessment, Planning, Implementation, Evaluation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The crisis management cycle comprises four phases: Mitigation and Prevention, Preparedness, Response, and Recovery."
       },
       {
@@ -8035,9 +8035,9 @@ Crisis management and business continuity in aviation require comprehensive plan
         question: "What does CMT stand for in crisis management structure?",
         options: [
           "Crisis Management Team",
-          "Crisis Mitigation Team",
+          "Crisis Coordination Team",
           "Crisis Response Team",
-          "Crisis Coordination Team"
+          "Crisis Mitigation Team"
         ],
         correctAnswer: 0,
         explanation: "CMT stands for Crisis Management Team, the group responsible for overall crisis management and decision-making during emergencies."
@@ -8048,12 +8048,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 1,
         question: "Which leadership style is characterized by 'high direction, high support'?",
         options: [
-          "Coaching",
+          "Delegating",
           "Directing",
           "Supporting",
-          "Delegating"
+          "Coaching"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The Coaching style in situational leadership provides both high direction and high support, appropriate for developing teams that need guidance and encouragement."
       },
       {
@@ -8061,12 +8061,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 2,
         question: "What does OTP stand for in airline performance metrics?",
         options: [
-          "On-Time Performance",
           "Operational Turnaround Performance",
           "Optimal Time Planning",
-          "Overall Technical Performance"
+          "Overall Technical Performance",
+          "On-Time Performance"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "OTP stands for On-Time Performance, which measures the percentage of flights arriving within 15 minutes of their scheduled arrival time."
       },
       {
@@ -8074,12 +8074,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 3,
         question: "Which financing method involves 'selling aircraft and leasing them back'?",
         options: [
-          "Sale and Leaseback",
-          "Operating Lease",
           "Finance Lease",
-          "Debt Financing"
+          "Sale and Leaseback",
+          "Debt Financing",
+          "Operating Lease"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Sale and Leaseback involves selling aircraft to a lessor and immediately leasing them back, providing immediate cash while retaining aircraft use."
       },
       {
@@ -8087,12 +8087,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 4,
         question: "What does MAG stand for in airport commercial management?",
         options: [
+          "Maximum Airport Guarantee",
           "Minimum Annual Guarantee",
-          "Maximum Annual Guarantee",
           "Minimum Airport Guarantee",
-          "Maximum Airport Guarantee"
+          "Maximum Annual Guarantee"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "MAG stands for Minimum Annual Guarantee, a minimum rent payment that airport concessionaires must pay regardless of sales performance."
       },
       {
@@ -8100,12 +8100,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 5,
         question: "What does SSP stand for in the SMS regulatory framework?",
         options: [
-          "State Safety Programme",
+          "Safety Standards Protocol",
           "System Safety Plan",
-          "Service Safety Program",
-          "Safety Standards Protocol"
+          "State Safety Programme",
+          "Service Safety Program"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "SSP stands for State Safety Programme, which is the national framework for safety management required by ICAO for member states."
       },
       {
@@ -8113,12 +8113,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 6,
         question: "Which recruitment approach involves 'training from zero experience'?",
         options: [
-          "Ab Initio Programs",
+          "Military Transition",
           "Cadet Programs",
           "Direct Entry",
-          "Military Transition"
+          "Ab Initio Programs"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Ab Initio Programs involve training individuals with no previous aviation experience, typically from the beginning of their aviation careers."
       },
       {
@@ -8128,8 +8128,8 @@ Crisis management and business continuity in aviation require comprehensive plan
         options: [
           "Fifth Freedom",
           "First Freedom",
-          "Third Freedom",
-          "Seventh Freedom"
+          "Seventh Freedom",
+          "Third Freedom"
         ],
         correctAnswer: 0,
         explanation: "The Fifth Freedom allows an airline to carry traffic between two foreign countries as part of services connecting the airline's home country."
@@ -8139,12 +8139,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 8,
         question: "Which customer segment typically has the lowest price sensitivity?",
         options: [
-          "Business Travelers",
           "Leisure Travelers",
+          "Business Travelers",
           "Visiting Friends and Relatives (VFR)",
           "Premium Leisure Travelers"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Business travelers typically have the lowest price sensitivity as travel is often necessary for work, with costs covered by employers or expense accounts."
       },
       {
@@ -8152,12 +8152,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 9,
         question: "Which scope of emissions includes 'aircraft fuel combustion'?",
         options: [
-          "Scope 1 (Direct emissions)",
           "Scope 2 (Indirect from purchased energy)",
+          "Scope 4 (Avoided emissions)",
           "Scope 3 (Other indirect emissions)",
-          "Scope 4 (Avoided emissions)"
+          "Scope 1 (Direct emissions)"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Scope 1 emissions are direct emissions from owned or controlled sources, including aircraft fuel combustion."
       },
       {
@@ -8165,12 +8165,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 10,
         question: "Which crisis type includes 'accidents and incidents'?",
         options: [
-          "Safety Crises",
-          "Security Crises",
           "Operational Crises",
-          "Reputational Crises"
+          "Security Crises",
+          "Reputational Crises",
+          "Safety Crises"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "Safety Crises include accidents, incidents, safety system failures, maintenance issues, and operational safety concerns."
       },
       {
@@ -8178,12 +8178,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 1,
         question: "What is the first step in Kotter's 8-Step Change Management Model?",
         options: [
+          "Communicate the Vision",
           "Create Urgency",
           "Form Powerful Coalition",
-          "Create Vision for Change",
-          "Communicate the Vision"
+          "Create Vision for Change"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "The first step in Kotter's model is 'Create Urgency' - building a compelling case for why change is necessary and creating motivation to move forward."
       },
       {
@@ -8191,12 +8191,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 2,
         question: "Which maintenance task involves 'replacement at fixed intervals'?",
         options: [
-          "Hard-Time Tasks",
           "On-Condition Tasks",
+          "Hard-Time Tasks",
           "Failure-Finding Tasks",
           "Condition-Based Tasks"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Hard-Time Tasks involve replacement or overhaul at fixed intervals regardless of condition, based on time, cycles, or usage limits."
       },
       {
@@ -8204,12 +8204,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 3,
         question: "What does CASM stand for in cost analysis?",
         options: [
-          "Cost per Available Seat Mile",
-          "Cost Analysis and Strategy Management",
           "Cumulative Aircraft Service Maintenance",
-          "Cost of Available Seat Management"
+          "Cost per Available Seat Mile",
+          "Cost of Available Seat Management",
+          "Cost Analysis and Strategy Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "CASM stands for Cost per Available Seat Mile, measuring operating cost efficiency by dividing total operating costs by available seat miles."
       },
       {
@@ -8217,12 +8217,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 4,
         question: "Which airport carbon management program provides accreditation levels?",
         options: [
-          "Airport Carbon Accreditation program",
           "Carbon Reduction Certification program",
+          "Green Airport Certification",
           "Sustainable Airport Accreditation",
-          "Green Airport Certification"
+          "Airport Carbon Accreditation program"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "The Airport Carbon Accreditation program is the global standard for carbon management at airports, with multiple levels of accreditation from mapping to carbon neutrality."
       },
       {
@@ -8230,12 +8230,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 5,
         question: "Which hazard identification method is considered proactive?",
         options: [
-          "Safety audits and inspections",
-          "Accident investigation",
           "Incident analysis",
-          "Near-miss reporting"
+          "Near-miss reporting",
+          "Safety audits and inspections",
+          "Accident investigation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         explanation: "Safety audits and inspections are proactive methods that identify hazards before incidents occur, unlike reactive methods that analyze past events."
       },
       {
@@ -8243,12 +8243,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 6,
         question: "What type of training is required annually for aviation personnel?",
         options: [
-          "Recurrent Training",
           "Initial Training",
+          "Recurrent Training",
           "Specialized Training",
           "Leadership Training"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "Recurrent Training is required annually and includes safety and emergency procedures, CRM updates, and regulatory compliance refreshers."
       },
       {
@@ -8269,12 +8269,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 8,
         question: "What does CRM stand for in marketing technology?",
         options: [
+          "Crew Resource Management",
           "Customer Relationship Management",
           "Customer Revenue Management",
-          "Crew Resource Management",
           "Corporate Relationship Management"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "CRM stands for Customer Relationship Management, systems and strategies for managing interactions with current and potential customers."
       },
       {
@@ -8282,12 +8282,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 9,
         question: "What does CORSIA stand for in carbon management?",
         options: [
+          "Carbon Reduction Scheme for International Air transport",
           "Carbon Offsetting and Reduction Scheme for International Aviation",
           "Carbon Offset and Reduction System for International Air travel",
-          "Climate Offset Requirement for Sustainable International Aviation",
-          "Carbon Reduction Scheme for International Air transport"
+          "Climate Offset Requirement for Sustainable International Aviation"
         ],
-        correctAnswer: 0,
+        correctAnswer: 1,
         explanation: "CORSIA stands for Carbon Offsetting and Reduction Scheme for International Aviation, ICAO's market-based measure to address CO2 emissions."
       },
       {
@@ -8295,12 +8295,12 @@ Crisis management and business continuity in aviation require comprehensive plan
         module: 10,
         question: "What does ICS stand for in incident management?",
         options: [
-          "Incident Command System",
           "Incident Control System",
+          "Incident Command Structure",
           "Incident Coordination System",
-          "Incident Command Structure"
+          "Incident Command System"
         ],
-        correctAnswer: 0,
+        correctAnswer: 3,
         explanation: "ICS stands for Incident Command System, a standardized approach to incident management used by emergency services and organizations."
       }
     ]
