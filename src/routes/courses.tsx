@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { courseCatalog, courseCategories, searchCourses } from "@/lib/courses";
 import { getCourseIcon } from "@/lib/course-icons";
 import { getCourseImage } from "@/lib/course-images";
+import { PriceTag } from "@/components/price-tag";
 
 export const Route = createFileRoute("/courses")({
   head: () => ({
