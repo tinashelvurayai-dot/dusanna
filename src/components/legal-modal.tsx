@@ -113,8 +113,8 @@ function TermsBody() {
         <p>Certificates and diplomas are issued by Edusanna and represent completion of our courses. They should not be represented as accredited degrees unless explicitly stated.</p>
       </section>
       <section>
-        <H>5. Payments and Refunds</H>
-        <p>Learning is free. Payment is only required for credentials. Refund requests must be submitted within 14 days of purchase and are granted at our discretion.</p>
+        <H>5. Payments and No Refunds</H>
+        <p>Learning is free. Payment is only required if you want an official Certificate ($12) or Diploma ($18). <strong>All credential payments are final and non-refundable</strong> once the credential is issued. Please make sure you have completed the course and reviewed the details before paying.</p>
       </section>
       <section>
         <H>6. Prohibited Activities</H>
