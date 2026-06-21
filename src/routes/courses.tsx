@@ -44,9 +44,16 @@ function CoursesPage() {
           <h1 className="text-4xl md:text-5xl font-black mb-4">
             <span className="gradient-text">Explore All Courses</span>
           </h1>
-          <p className="text-lg text-blue-700 max-w-2xl mx-auto mb-8">
-            {courseCatalog.length}+ courses A-Z. Learn free, then earn a Certificate ($12) or Diploma ($18).
+          <p className="text-lg text-blue-700 max-w-2xl mx-auto mb-3">
+            {courseCatalog.length}+ courses A-Z. Learn free, then earn a credential.
           </p>
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
+            <PriceTag level="certificate" size="md" showLabel />
+            <PriceTag level="diploma" size="md" showLabel />
+            <span className="text-xs font-semibold text-green-700 bg-green-50 px-3 py-1 rounded-full border border-green-200">
+              Launch pricing - limited time
+            </span>
+          </div>
 
           <div className="relative max-w-xl mx-auto mb-6">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-blue-400" />
