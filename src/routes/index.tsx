@@ -32,10 +32,10 @@ const features = [
 ];
 
 const stats = [
-  { number: "70+", label: "Courses (A-Z)", emoji: "📚" },
-  { number: "2 Levels", label: "Certificate & Diploma", emoji: "🎓" },
-  { number: "FREE", label: "Learning", emoji: "💰" },
-  { number: "24/7", label: "Support", emoji: "🎧" },
+  { number: "70+", label: "Courses (A-Z)", icon: <BookOpen className="w-7 h-7" /> },
+  { number: "2 Levels", label: "Certificate & Diploma", icon: <GraduationCap className="w-7 h-7" /> },
+  { number: "FREE", label: "Learning", icon: <Sparkles className="w-7 h-7" /> },
+  { number: "24/7", label: "Support", icon: <Headphones className="w-7 h-7" /> },
 ];
 
 const testimonials = [
