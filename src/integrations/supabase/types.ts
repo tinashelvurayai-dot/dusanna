@@ -242,7 +242,7 @@ export type Database = {
       is_school_contracted: { Args: { _name: string }; Returns: boolean }
     }
     Enums: {
-      app_role: "admin" | "moderator" | "user"
+      app_role: "admin" | "moderator" | "user" | "school_admin"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -370,7 +370,7 @@ export type CompositeTypes<
 export const Constants = {
   public: {
     Enums: {
-      app_role: ["admin", "moderator", "user"],
+      app_role: ["admin", "moderator", "user", "school_admin"],
     },
   },
 } as const
