@@ -2,7 +2,7 @@ import { createServerFn } from "@tanstack/react-start";
 
 // Baseline so the displayed community size never starts from zero and grows
 // as real users register. Keep in sync with the social-proof copy.
-const USER_BASELINE = 6428;
+const USER_BASELINE = 14317;
 
 export const getCommunityStats = createServerFn({ method: "GET" }).handler(async () => {
   try {
