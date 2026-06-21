@@ -81,11 +81,11 @@ function PrivacyBody() {
         <p>We use PayPal for payment processing and analytics providers for product insights. These services have their own privacy policies.</p>
       </section>
       <section>
-        <H>6. Your Privacy Rights</H>
+        <H>7. Your Privacy Rights</H>
         <p>You can access, correct, download or request deletion of your data, and opt-out of marketing communications at any time.</p>
       </section>
       <section>
-        <H>7. Contact Us</H>
+        <H>8. Contact Us</H>
         <p>Questions about this policy? Email edusannaonlinelearning@gmail.com</p>
       </section>
     </>
