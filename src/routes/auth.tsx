@@ -117,10 +117,16 @@ function AuthPage() {
         } else {
           window.localStorage.removeItem(REMEMBER_KEY);
         }
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
+        const { data: signed, error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
         toast.success("Welcome back!");
-        navigate({ to: "/dashboard" });
+        if (signed.user) {
+          const { resolvePostLoginRoute } = await import("@/lib/post-login-route");
+          const to = await resolvePostLoginRoute(signed.user.id);
+          navigate({ to });
+        } else {
+          navigate({ to: "/dashboard" });
+        }
       }
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "Something went wrong");
