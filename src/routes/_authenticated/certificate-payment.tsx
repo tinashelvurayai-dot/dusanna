@@ -191,9 +191,15 @@ function CertificatePaymentPage() {
             ) : (
               <>
                 <div className="rounded-xl bg-blue-50 border border-blue-100 p-5 mb-6 text-left">
-                  <div className="flex justify-between text-blue-800 mb-2">
+                  <div className="flex justify-between items-center text-blue-800 mb-2">
                     <span>{level === "diploma" ? "Diploma" : "Certificate"} credential</span>
-                    <span className="font-semibold">${price.toFixed(2)}</span>
+                    <span className="inline-flex items-baseline gap-2">
+                      <span className="text-blue-400 line-through text-sm">${level === "diploma" ? 24 : 16}</span>
+                      <span className="font-semibold text-green-700">${price.toFixed(2)}</span>
+                    </span>
+                  </div>
+                  <div className="text-xs font-semibold text-green-700 mb-3">
+                    You save ${(level === "diploma" ? 24 : 16) - price}.00 - launch pricing
                   </div>
                   <div className="flex justify-between text-blue-900 font-bold text-lg border-t border-blue-200 pt-2">
                     <span>Total</span>
