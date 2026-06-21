@@ -58,7 +58,7 @@ export function QuizModule({
                   {ok ? <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" /> : <XCircle className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />}
                   <span>{qi + 1}. {qq.question}</span>
                 </p>
-                <p className="text-sm text-blue-700 ml-7">Your answer: <span className={ok ? "text-green-700 font-medium" : "text-red-700 font-medium"}>{qq.options[userAns] ?? "—"}</span></p>
+                <p className="text-sm text-blue-700 ml-7">Your answer: <span className={ok ? "text-green-700 font-medium" : "text-red-700 font-medium"}>{qq.options[userAns] ?? "-"}</span></p>
                 {!ok && <p className="text-sm text-blue-700 ml-7">Correct: <span className="text-green-700 font-medium">{qq.options[qq.correctAnswer]}</span></p>}
                 {qq.explanation && <p className="text-sm text-blue-600 mt-2 ml-7 italic">{qq.explanation}</p>}
               </div>
