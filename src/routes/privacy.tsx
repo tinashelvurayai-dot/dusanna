@@ -138,7 +138,7 @@ function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-purple-200 mb-4">8. Contact Us</h2>
+            <h2 className="text-2xl font-bold text-purple-200 mb-4">9. Contact Us</h2>
             <p className="text-white/90 leading-relaxed">
               If you have questions about this Privacy Policy or our privacy practices, please contact us at:
               edusannaonlinelearning@gmail.com
