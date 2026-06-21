@@ -19,6 +19,7 @@ export type Database = {
           amount: number
           certificate_id: string | null
           certificate_type: string
+          class_name: string | null
           course_id: string
           course_name: string | null
           created_at: string
@@ -26,6 +27,8 @@ export type Database = {
           id: string
           payment_status: string
           paypal_order_id: string | null
+          school_name: string | null
+          source: string
           student_name: string | null
           updated_at: string
           user_id: string
@@ -34,6 +37,7 @@ export type Database = {
           amount?: number
           certificate_id?: string | null
           certificate_type: string
+          class_name?: string | null
           course_id: string
           course_name?: string | null
           created_at?: string
@@ -41,6 +45,8 @@ export type Database = {
           id?: string
           payment_status?: string
           paypal_order_id?: string | null
+          school_name?: string | null
+          source?: string
           student_name?: string | null
           updated_at?: string
           user_id: string
@@ -49,6 +55,7 @@ export type Database = {
           amount?: number
           certificate_id?: string | null
           certificate_type?: string
+          class_name?: string | null
           course_id?: string
           course_name?: string | null
           created_at?: string
@@ -56,6 +63,8 @@ export type Database = {
           id?: string
           payment_status?: string
           paypal_order_id?: string | null
+          school_name?: string | null
+          source?: string
           student_name?: string | null
           updated_at?: string
           user_id?: string
@@ -185,6 +194,77 @@ export type Database = {
         }
         Relationships: []
       }
+      school_admins: {
+        Row: {
+          contact_name: string | null
+          contact_phone: string | null
+          created_at: string
+          created_by: string | null
+          normalized_school: string | null
+          school_name: string
+          user_id: string
+        }
+        Insert: {
+          contact_name?: string | null
+          contact_phone?: string | null
+          created_at?: string
+          created_by?: string | null
+          normalized_school?: string | null
+          school_name: string
+          user_id: string
+        }
+        Update: {
+          contact_name?: string | null
+          contact_phone?: string | null
+          created_at?: string
+          created_by?: string | null
+          normalized_school?: string | null
+          school_name?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      school_rosters: {
+        Row: {
+          class_name: string | null
+          created_at: string
+          full_name: string
+          id: string
+          normalized_name: string | null
+          normalized_school: string | null
+          school_admin_id: string
+          school_name: string
+        }
+        Insert: {
+          class_name?: string | null
+          created_at?: string
+          full_name: string
+          id?: string
+          normalized_name?: string | null
+          normalized_school?: string | null
+          school_admin_id: string
+          school_name: string
+        }
+        Update: {
+          class_name?: string | null
+          created_at?: string
+          full_name?: string
+          id?: string
+          normalized_name?: string | null
+          normalized_school?: string | null
+          school_admin_id?: string
+          school_name?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "school_rosters_school_admin_id_fkey"
+            columns: ["school_admin_id"]
+            isOneToOne: false
+            referencedRelation: "school_admins"
+            referencedColumns: ["user_id"]
+          },
+        ]
+      }
       site_settings: {
         Row: {
           key: string
@@ -240,6 +320,7 @@ export type Database = {
         Returns: boolean
       }
       is_school_contracted: { Args: { _name: string }; Returns: boolean }
+      school_for_admin: { Args: { _user_id: string }; Returns: string }
     }
     Enums: {
       app_role: "admin" | "moderator" | "user" | "school_admin"
