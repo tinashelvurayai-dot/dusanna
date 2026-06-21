@@ -73,7 +73,11 @@ function PrivacyBody() {
         <p>We implement comprehensive security measures including encryption in transit and at rest, Row Level Security and regular security audits.</p>
       </section>
       <section>
-        <H>5. Third-Party Services</H>
+        <H>5. Payments &amp; No Refunds</H>
+        <p>Learning is free. You pay only when you choose to receive an official Certificate or Diploma. All credential payments are final and <strong>non-refundable</strong> once the credential is issued.</p>
+      </section>
+      <section>
+        <H>6. Third-Party Services</H>
         <p>We use PayPal for payment processing and analytics providers for product insights. These services have their own privacy policies.</p>
       </section>
       <section>
