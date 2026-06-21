@@ -156,6 +156,8 @@ function Dashboard() {
               })}
             </div>
           )}
+
+          <SampleCredentialsMotivation firstName={firstName} />
         </div>
       </section>
       <SiteFooter />
