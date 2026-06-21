@@ -107,10 +107,24 @@ function Index() {
 
           </motion.h1>
 
-          <p className="text-lg md:text-2xl text-blue-800 mb-10 max-w-3xl mx-auto leading-relaxed font-light">
+          <p className="text-lg md:text-2xl text-blue-800 mb-6 max-w-3xl mx-auto leading-relaxed font-light">
             Create a free account and access all courses instantly. Learn at your own pace, track your progress and
-            only pay when you're ready for an official Certificate ($12) or Diploma ($18).
+            only pay when you're ready for an official Certificate or Diploma.
           </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-10">
+            <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-green-200 shadow-sm">
+              <span className="text-xs font-bold text-blue-900">Certificate</span>
+              <PriceTag level="certificate" size="sm" />
+            </span>
+            <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-green-200 shadow-sm">
+              <span className="text-xs font-bold text-blue-900">Diploma</span>
+              <PriceTag level="diploma" size="sm" />
+            </span>
+            <span className="text-xs font-semibold text-green-700 bg-green-50 px-3 py-1 rounded-full border border-green-200">
+              Limited-time launch pricing
+            </span>
+          </div>
 
           {/* Social proof bar */}
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 sm:gap-5 mb-10">
