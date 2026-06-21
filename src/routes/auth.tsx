@@ -50,7 +50,15 @@ function AuthPage() {
   const [legalOpen, setLegalOpen] = useState<"privacy" | "terms" | null>(null);
 
   useEffect(() => {
-    if (!loading && user) navigate({ to: "/dashboard" });
+    if (loading || !user) return;
+    let cancelled = false;
+    import("@/lib/post-login-route").then(async ({ resolvePostLoginRoute }) => {
+      const to = await resolvePostLoginRoute(user.id);
+      if (!cancelled) navigate({ to });
+    });
+    return () => {
+      cancelled = true;
+    };
   }, [loading, user, navigate]);
 
   // Prefill remembered email on the login screen.
