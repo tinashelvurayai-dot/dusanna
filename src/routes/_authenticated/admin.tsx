@@ -25,6 +25,7 @@ import {
   getSampleCertificate, saveSampleCertificate,
   type SampleCertificateValue,
 } from "@/lib/admin.functions";
+import { createSchoolAdmin, listSchoolAdmins, deleteSchoolAdmin } from "@/lib/school.functions";
 import { CertificatePreview, type CertificateData } from "@/components/certificate-preview";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
