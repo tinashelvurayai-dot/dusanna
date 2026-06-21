@@ -157,8 +157,8 @@ function Index() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center group">
-                <div className="icon-badge-lg mx-auto mb-4 group-hover:scale-110 transition-transform">
-                  <span className="text-3xl">{stat.emoji}</span>
+                <div className="icon-badge-lg mx-auto mb-4 group-hover:scale-110 transition-transform text-blue-600">
+                  {stat.icon}
                 </div>
                 <div className="text-3xl md:text-4xl font-black gradient-text mb-2">{stat.number}</div>
                 <div className="text-blue-700 font-semibold">{stat.label}</div>
