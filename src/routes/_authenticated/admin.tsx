@@ -688,3 +688,96 @@ function SampleCertificateTab() {
     </div>
   );
 }
+
+function SchoolAdminsTab() {
+  const qc = useQueryClient();
+  const fetchList = useServerFn(listSchoolAdmins);
+  const create = useServerFn(createSchoolAdmin);
+  const remove = useServerFn(deleteSchoolAdmin);
+  const { data, isLoading } = useQuery({ queryKey: ["admin-school-admins"], queryFn: () => fetchList() });
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [schoolName, setSchoolName] = useState("");
+  const [contactName, setContactName] = useState("");
+  const [contactPhone, setContactPhone] = useState("");
+
+  const add = useMutation({
+    mutationFn: () => create({ data: { email, password, schoolName, contactName, contactPhone } }),
+    onSuccess: () => {
+      toast.success("School admin created. They can sign in at /auth");
+      setEmail(""); setPassword(""); setSchoolName(""); setContactName(""); setContactPhone("");
+      qc.invalidateQueries({ queryKey: ["admin-school-admins"] });
+    },
+    onError: (e) => toast.error(e instanceof Error ? e.message : "Failed"),
+  });
+
+  const rm = useMutation({
+    mutationFn: (userId: string) => remove({ data: { userId } }),
+    onSuccess: () => {
+      toast.success("Removed");
+      qc.invalidateQueries({ queryKey: ["admin-school-admins"] });
+    },
+    onError: (e) => toast.error(e instanceof Error ? e.message : "Failed"),
+  });
+
+  const list = data?.schoolAdmins ?? [];
+
+  return (
+    <div className="space-y-6">
+      <div className="glass-card-light p-5">
+        <h3 className="font-bold text-blue-900 mb-1 flex items-center gap-2">
+          <School className="w-5 h-5" /> Create a school admin account
+        </h3>
+        <p className="text-sm text-blue-600 mb-3">
+          The school's administrator will sign in at /auth using these credentials and land on their school dashboard.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div><Label htmlFor="sa-email">Email</Label><Input id="sa-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} /></div>
+          <div><Label htmlFor="sa-pwd">Password (min 8)</Label><Input id="sa-pwd" type="text" value={password} onChange={(e) => setPassword(e.target.value)} /></div>
+          <div className="sm:col-span-2"><Label htmlFor="sa-school">School name (must match academia signup school_name)</Label><Input id="sa-school" value={schoolName} onChange={(e) => setSchoolName(e.target.value)} placeholder="St. John's High School" /></div>
+          <div><Label htmlFor="sa-cname">Contact name</Label><Input id="sa-cname" value={contactName} onChange={(e) => setContactName(e.target.value)} /></div>
+          <div><Label htmlFor="sa-cphone">Contact phone</Label><Input id="sa-cphone" value={contactPhone} onChange={(e) => setContactPhone(e.target.value)} /></div>
+        </div>
+        <Button onClick={() => add.mutate()} disabled={add.isPending || !email || !password || !schoolName} className="premium-button mt-3">
+          {add.isPending && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}Create school admin
+        </Button>
+      </div>
+
+      {isLoading ? (
+        <p className="text-blue-500 py-8">Loading…</p>
+      ) : list.length === 0 ? (
+        <div className="glass-card-light p-10 text-center text-blue-700">No school admins yet.</div>
+      ) : (
+        <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>School</TableHead>
+                <TableHead>Contact</TableHead>
+                <TableHead>Phone</TableHead>
+                <TableHead>Added</TableHead>
+                <TableHead></TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {list.map((s: any) => (
+                <TableRow key={s.user_id}>
+                  <TableCell className="font-medium text-blue-900">{s.school_name}</TableCell>
+                  <TableCell>{s.contact_name ?? "-"}</TableCell>
+                  <TableCell>{s.contact_phone ?? "-"}</TableCell>
+                  <TableCell className="text-xs text-blue-500">{new Date(s.created_at).toLocaleDateString()}</TableCell>
+                  <TableCell className="text-right">
+                    <Button variant="outline" size="sm" onClick={() => rm.mutate(s.user_id)}>
+                      <Trash2 className="w-4 h-4" />
+                    </Button>
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+      )}
+    </div>
+  );
+}
