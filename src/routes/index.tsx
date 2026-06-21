@@ -11,6 +11,7 @@ import { platformBenefits, platformFeatures } from "@/lib/seo-content";
 import { getCommunityStats } from "@/lib/stats.functions";
 import { getSampleCertificate } from "@/lib/admin.functions";
 import { CertificatePreview } from "@/components/certificate-preview";
+import { PriceTag } from "@/components/price-tag";
 
 export const Route = createFileRoute("/")({
   head: () => ({
