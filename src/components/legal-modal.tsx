@@ -73,15 +73,19 @@ function PrivacyBody() {
         <p>We implement comprehensive security measures including encryption in transit and at rest, Row Level Security and regular security audits.</p>
       </section>
       <section>
-        <H>5. Third-Party Services</H>
+        <H>5. Payments &amp; No Refunds</H>
+        <p>Learning is free. You pay only when you choose to receive an official Certificate or Diploma. All credential payments are final and <strong>non-refundable</strong> once the credential is issued.</p>
+      </section>
+      <section>
+        <H>6. Third-Party Services</H>
         <p>We use PayPal for payment processing and analytics providers for product insights. These services have their own privacy policies.</p>
       </section>
       <section>
-        <H>6. Your Privacy Rights</H>
+        <H>7. Your Privacy Rights</H>
         <p>You can access, correct, download or request deletion of your data, and opt-out of marketing communications at any time.</p>
       </section>
       <section>
-        <H>7. Contact Us</H>
+        <H>8. Contact Us</H>
         <p>Questions about this policy? Email edusannaonlinelearning@gmail.com</p>
       </section>
     </>
@@ -109,8 +113,8 @@ function TermsBody() {
         <p>Certificates and diplomas are issued by Edusanna and represent completion of our courses. They should not be represented as accredited degrees unless explicitly stated.</p>
       </section>
       <section>
-        <H>5. Payments and Refunds</H>
-        <p>Learning is free. Payment is only required for credentials. Refund requests must be submitted within 14 days of purchase and are granted at our discretion.</p>
+        <H>5. Payments and No Refunds</H>
+        <p>Learning is free. Payment is only required if you want an official Certificate ($12) or Diploma ($18). <strong>All credential payments are final and non-refundable</strong> once the credential is issued. Please make sure you have completed the course and reviewed the details before paying.</p>
       </section>
       <section>
         <H>6. Prohibited Activities</H>

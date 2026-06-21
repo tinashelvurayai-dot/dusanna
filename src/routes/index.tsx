@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight, Search } from "lucide-react";
+import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight, Search, BookOpen, Sparkles, Headphones } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
@@ -11,6 +11,7 @@ import { platformBenefits, platformFeatures } from "@/lib/seo-content";
 import { getCommunityStats } from "@/lib/stats.functions";
 import { getSampleCertificate } from "@/lib/admin.functions";
 import { CertificatePreview } from "@/components/certificate-preview";
+import { PriceTag } from "@/components/price-tag";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -32,10 +33,10 @@ const features = [
 ];
 
 const stats = [
-  { number: "70+", label: "Courses (A-Z)", emoji: "📚" },
-  { number: "2 Levels", label: "Certificate & Diploma", emoji: "🎓" },
-  { number: "FREE", label: "Learning", emoji: "💰" },
-  { number: "24/7", label: "Support", emoji: "🎧" },
+  { number: "70+", label: "Courses (A-Z)", icon: <BookOpen className="w-7 h-7" /> },
+  { number: "2 Levels", label: "Certificate & Diploma", icon: <GraduationCap className="w-7 h-7" /> },
+  { number: "FREE", label: "Learning", icon: <Sparkles className="w-7 h-7" /> },
+  { number: "24/7", label: "Support", icon: <Headphones className="w-7 h-7" /> },
 ];
 
 const testimonials = [
@@ -107,10 +108,24 @@ function Index() {
 
           </motion.h1>
 
-          <p className="text-lg md:text-2xl text-blue-800 mb-10 max-w-3xl mx-auto leading-relaxed font-light">
+          <p className="text-lg md:text-2xl text-blue-800 mb-6 max-w-3xl mx-auto leading-relaxed font-light">
             Create a free account and access all courses instantly. Learn at your own pace, track your progress and
-            only pay when you're ready for an official Certificate ($12) or Diploma ($18).
+            only pay when you're ready for an official Certificate or Diploma.
           </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-10">
+            <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-green-200 shadow-sm">
+              <span className="text-xs font-bold text-blue-900">Certificate</span>
+              <PriceTag level="certificate" size="sm" />
+            </span>
+            <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-green-200 shadow-sm">
+              <span className="text-xs font-bold text-blue-900">Diploma</span>
+              <PriceTag level="diploma" size="sm" />
+            </span>
+            <span className="text-xs font-semibold text-green-700 bg-green-50 px-3 py-1 rounded-full border border-green-200">
+              Limited-time launch pricing
+            </span>
+          </div>
 
           {/* Social proof bar */}
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 sm:gap-5 mb-10">
@@ -157,8 +172,8 @@ function Index() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center group">
-                <div className="icon-badge-lg mx-auto mb-4 group-hover:scale-110 transition-transform">
-                  <span className="text-3xl">{stat.emoji}</span>
+                <div className="icon-badge-lg mx-auto mb-4 group-hover:scale-110 transition-transform text-blue-600">
+                  {stat.icon}
                 </div>
                 <div className="text-3xl md:text-4xl font-black gradient-text mb-2">{stat.number}</div>
                 <div className="text-blue-700 font-semibold">{stat.label}</div>

@@ -10,6 +10,8 @@ import { useAuth } from "@/lib/auth";
 import { getCatalogItem, getCourseModules, type CourseLevel } from "@/lib/courses";
 import { getCourseIcon } from "@/lib/course-icons";
 import { getCourseImage } from "@/lib/course-images";
+import { CertificatePreview } from "@/components/certificate-preview";
+import { PriceTag } from "@/components/price-tag";
 
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({ meta: [{ title: "My Dashboard | Edusanna" }] }),
@@ -154,6 +156,8 @@ function Dashboard() {
               })}
             </div>
           )}
+
+          <SampleCredentialsMotivation firstName={firstName} />
         </div>
       </section>
       <SiteFooter />
@@ -170,5 +174,41 @@ function StatCard({ icon, label, value }: { icon: React.ReactNode; label: string
         <div className="text-sm text-blue-600">{label}</div>
       </div>
     </div>
+  );
+}
+
+function SampleCredentialsMotivation({ firstName }: { firstName: string }) {
+  const today = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  const sampleCert = {
+    studentName: firstName,
+    courseName: "Your Completed Course",
+    level: "certificate" as const,
+    date: today,
+    certificateId: "EDU-SAMPLE-001",
+  };
+  const sampleDip = { ...sampleCert, level: "diploma" as const, certificateId: "EDU-SAMPLE-002" };
+  return (
+    <section className="mt-16">
+      <div className="text-center mb-6">
+        <h2 className="text-2xl md:text-3xl font-black text-blue-900 mb-2">This could be yours</h2>
+        <p className="text-blue-600 max-w-2xl mx-auto">
+          Complete any course and earn a credential with your name on it. Choose Certificate or Diploma when you're ready.
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-3 mt-4">
+          <PriceTag level="certificate" size="md" showLabel />
+          <PriceTag level="diploma" size="md" showLabel />
+        </div>
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div>
+          <p className="text-sm font-bold text-blue-700 mb-2">Sample Certificate</p>
+          <CertificatePreview data={sampleCert} />
+        </div>
+        <div>
+          <p className="text-sm font-bold text-purple-700 mb-2">Sample Diploma</p>
+          <CertificatePreview data={sampleDip} />
+        </div>
+      </div>
+    </section>
   );
 }
