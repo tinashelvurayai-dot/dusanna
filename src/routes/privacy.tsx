@@ -146,7 +146,7 @@ function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-purple-200 mb-4">9. Updates to This Policy</h2>
+            <h2 className="text-2xl font-bold text-purple-200 mb-4">10. Updates to This Policy</h2>
             <p className="text-white/90 leading-relaxed">
               We may update this Privacy Policy periodically to reflect changes in our practices. We will notify you of
               any material changes by updating the "Last updated" date at the top of this page. Your continued use of the
