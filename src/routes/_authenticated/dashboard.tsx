@@ -10,6 +10,8 @@ import { useAuth } from "@/lib/auth";
 import { getCatalogItem, getCourseModules, type CourseLevel } from "@/lib/courses";
 import { getCourseIcon } from "@/lib/course-icons";
 import { getCourseImage } from "@/lib/course-images";
+import { CertificatePreview } from "@/components/certificate-preview";
+import { PriceTag } from "@/components/price-tag";
 
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({ meta: [{ title: "My Dashboard | Edusanna" }] }),
