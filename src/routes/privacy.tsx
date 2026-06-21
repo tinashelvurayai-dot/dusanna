@@ -96,7 +96,24 @@ function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-purple-200 mb-4">6. Third-Party Services</h2>
+            <h2 className="text-2xl font-bold text-purple-200 mb-4">6. Payments &amp; No Refunds</h2>
+            <p className="text-white/90 leading-relaxed mb-3">
+              Learning on Edusanna is free. You only pay once you choose to receive an official Certificate ($12) or Diploma ($18).
+            </p>
+            <p className="text-white/90 leading-relaxed mb-3">
+              <strong>No refunds.</strong> All certificate and diploma payments are final and non-refundable. Once a payment has been
+              completed, the credential is issued and tied to your verified completion record, so the amount paid cannot be
+              reversed, transferred, or exchanged. Please make sure you have completed the course and reviewed the credential
+              details before paying.
+            </p>
+            <p className="text-white/90 leading-relaxed">
+              If your payment fails or you are charged in error by the payment processor, contact us at edusannaonlinelearning@gmail.com
+              and we will investigate. Successful credential payments are not refundable under any circumstances.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-purple-200 mb-4">7. Third-Party Services</h2>
             <p className="text-white/90 mb-4">Our platform uses the following third-party services:</p>
             <ul className="list-disc list-inside text-white/90 space-y-2">
               <li><strong>PayPal:</strong> Payment processing for certificates</li>
