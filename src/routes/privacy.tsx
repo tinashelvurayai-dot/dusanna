@@ -125,7 +125,7 @@ function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-purple-200 mb-4">7. Your Privacy Rights</h2>
+            <h2 className="text-2xl font-bold text-purple-200 mb-4">8. Your Privacy Rights</h2>
             <p className="text-white/90 mb-4">You have the right to:</p>
             <ul className="list-disc list-inside text-white/90 space-y-2">
               <li>Access your personal information</li>
