@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight, Search } from "lucide-react";
+import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight, Search, BookOpen, Sparkles, Headphones } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
