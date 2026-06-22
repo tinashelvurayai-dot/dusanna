@@ -256,9 +256,64 @@ function CertificatePaymentPage() {
                 <p className="flex items-center justify-center gap-1.5 text-xs text-blue-500 mt-3">
                   <ShieldCheck className="w-4 h-4" /> Secure checkout via PayPal
                 </p>
+
+                {/* Alt payment methods for users in countries where PayPal is unsuitable */}
+                <div className="mt-8 pt-6 border-t border-blue-100 text-left">
+                  <p className="text-sm font-bold text-blue-900 mb-1">
+                    PayPal Payment Method unsuitable in your Country?
+                  </p>
+                  <p className="text-xs text-blue-600 mb-3">
+                    Select Payment Methods You are suitable with:
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-4">
+                    <AltMethodButton
+                      active={altMethods.includes("ecocash")}
+                      onClick={() => toggleAltMethod("ecocash")}
+                      icon={<Smartphone className="w-4 h-4" />}
+                      label="Ecocash"
+                    />
+                    <AltMethodButton
+                      active={altMethods.includes("mukuru")}
+                      onClick={() => toggleAltMethod("mukuru")}
+                      icon={<Wallet className="w-4 h-4" />}
+                      label="Mukuru"
+                    />
+                    <AltMethodButton
+                      active={altMethods.includes("wechat_pay")}
+                      onClick={() => toggleAltMethod("wechat_pay")}
+                      icon={<MessageCircle className="w-4 h-4" />}
+                      label="WeChat Pay"
+                    />
+                  </div>
+                  <Button
+                    onClick={handleAltSubmit}
+                    disabled={altSubmitting || !verified || altMethods.length === 0}
+                    variant="outline"
+                    className="w-full border-blue-300 hover:bg-blue-50 text-blue-700"
+                  >
+                    {altSubmitting ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Send className="w-4 h-4 mr-2" />}
+                    Send To Edusanna
+                  </Button>
+                </div>
               </>
             )}
           </div>
+
+          <Dialog open={showAltConfirm} onOpenChange={setShowAltConfirm}>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>Request received</DialogTitle>
+                <DialogDescription>
+                  Edusanna Team will assist you via email instructions with payment guidance details.
+                </DialogDescription>
+              </DialogHeader>
+              <DialogFooter>
+                <Button onClick={() => { setShowAltConfirm(false); navigate({ to: "/dashboard" }); }} className="premium-button">
+                  Got it
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
 
           {!item && (
             <p className="text-center text-sm text-red-600 mt-4">
