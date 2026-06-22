@@ -146,11 +146,24 @@ function Dashboard() {
                     </div>
                     <Progress value={pct} className="h-2 mb-2" />
                     <p className="text-xs text-blue-500 mb-4">{done}/{total} modules · {pct}%</p>
-                    <Link to="/learn/$courseId/$level" params={{ courseId: enr.course_id, level: enr.level }}>
-                      <Button className="premium-button w-full">
-                        {prog?.is_completed ? "Review" : "Continue"} <ArrowRight className="w-4 h-4 ml-1.5" />
-                      </Button>
-                    </Link>
+                    <div className="flex gap-2">
+                      <Link to="/learn/$courseId/$level" params={{ courseId: enr.course_id, level: enr.level }} className="flex-1">
+                        <Button className="premium-button w-full">
+                          {prog?.is_completed ? "Review" : "Continue"} <ArrowRight className="w-4 h-4 ml-1.5" />
+                        </Button>
+                      </Link>
+                      {prog?.is_completed && profile?.signup_type !== "academia" && (
+                        <Link
+                          to="/certificate-payment"
+                          search={{ courseId: enr.course_id, level: enr.level }}
+                          className="flex-shrink-0"
+                        >
+                          <Button variant="outline" className="border-green-500 text-green-700 hover:bg-green-50">
+                            Pay for credential
+                          </Button>
+                        </Link>
+                      )}
+                    </div>
                   </div>
                 );
               })}

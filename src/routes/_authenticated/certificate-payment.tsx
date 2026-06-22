@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck, GraduationCap } from "lucide-react";
+import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck, GraduationCap, Smartphone, Wallet, MessageCircle, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -11,6 +11,15 @@ import { toast } from "sonner";
 import { getCatalogItem, getCourseTitle, PRICES, type CourseLevel } from "@/lib/courses";
 import { createPayPalOrder } from "@/lib/paypal.functions";
 import { getMyFullName, verifyFullName, submitAcademiaCertificate } from "@/lib/profile.functions";
+import { submitAltPaymentRequest } from "@/lib/alt-payment.functions";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 type Search = { courseId: string; level: CourseLevel; error?: string };
 
@@ -30,6 +39,7 @@ function CertificatePaymentPage() {
   const fetchName = useServerFn(getMyFullName);
   const saveName = useServerFn(verifyFullName);
   const submitAcademia = useServerFn(submitAcademiaCertificate);
+  const submitAlt = useServerFn(submitAltPaymentRequest);
   const [loading, setLoading] = useState(false);
   const [nameLoaded, setNameLoaded] = useState(false);
   const [fullName, setFullName] = useState("");
@@ -37,6 +47,9 @@ function CertificatePaymentPage() {
   const [schoolName, setSchoolName] = useState<string | null>(null);
   const [verified, setVerified] = useState(false);
   const [savingName, setSavingName] = useState(false);
+  const [altMethods, setAltMethods] = useState<string[]>([]);
+  const [altSubmitting, setAltSubmitting] = useState(false);
+  const [showAltConfirm, setShowAltConfirm] = useState(false);
 
   const item = getCatalogItem(courseId);
   const title = item ? getCourseTitle(item, level) : courseId;
@@ -115,6 +128,35 @@ function CertificatePaymentPage() {
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "Could not submit request.");
       setLoading(false);
+    }
+  };
+
+  const toggleAltMethod = (m: string) => {
+    setAltMethods((prev) => (prev.includes(m) ? prev.filter((x) => x !== m) : [...prev, m]));
+  };
+
+  const handleAltSubmit = async () => {
+    if (!verified) {
+      toast.error("Please verify your full name first.");
+      return;
+    }
+    if (altMethods.length === 0) {
+      toast.error("Pick at least one payment method.");
+      return;
+    }
+    setAltSubmitting(true);
+    try {
+      const r = await submitAlt({
+        data: { courseId, courseName: title, level, methods: altMethods },
+      });
+      if (r.alreadySubmitted) {
+        toast.info("You already submitted a request for this course. Our team will be in touch.");
+      }
+      setShowAltConfirm(true);
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Could not submit request.");
+    } finally {
+      setAltSubmitting(false);
     }
   };
 
@@ -214,9 +256,64 @@ function CertificatePaymentPage() {
                 <p className="flex items-center justify-center gap-1.5 text-xs text-blue-500 mt-3">
                   <ShieldCheck className="w-4 h-4" /> Secure checkout via PayPal
                 </p>
+
+                {/* Alt payment methods for users in countries where PayPal is unsuitable */}
+                <div className="mt-8 pt-6 border-t border-blue-100 text-left">
+                  <p className="text-sm font-bold text-blue-900 mb-1">
+                    PayPal Payment Method unsuitable in your Country?
+                  </p>
+                  <p className="text-xs text-blue-600 mb-3">
+                    Select Payment Methods You are suitable with:
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-4">
+                    <AltMethodButton
+                      active={altMethods.includes("ecocash")}
+                      onClick={() => toggleAltMethod("ecocash")}
+                      icon={<Smartphone className="w-4 h-4" />}
+                      label="Ecocash"
+                    />
+                    <AltMethodButton
+                      active={altMethods.includes("mukuru")}
+                      onClick={() => toggleAltMethod("mukuru")}
+                      icon={<Wallet className="w-4 h-4" />}
+                      label="Mukuru"
+                    />
+                    <AltMethodButton
+                      active={altMethods.includes("wechat_pay")}
+                      onClick={() => toggleAltMethod("wechat_pay")}
+                      icon={<MessageCircle className="w-4 h-4" />}
+                      label="WeChat Pay"
+                    />
+                  </div>
+                  <Button
+                    onClick={handleAltSubmit}
+                    disabled={altSubmitting || !verified || altMethods.length === 0}
+                    variant="outline"
+                    className="w-full border-blue-300 hover:bg-blue-50 text-blue-700"
+                  >
+                    {altSubmitting ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Send className="w-4 h-4 mr-2" />}
+                    Send To Edusanna
+                  </Button>
+                </div>
               </>
             )}
           </div>
+
+          <Dialog open={showAltConfirm} onOpenChange={setShowAltConfirm}>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>Request received</DialogTitle>
+                <DialogDescription>
+                  Edusanna Team will assist you via email instructions with payment guidance details.
+                </DialogDescription>
+              </DialogHeader>
+              <DialogFooter>
+                <Button onClick={() => { setShowAltConfirm(false); navigate({ to: "/dashboard" }); }} className="premium-button">
+                  Got it
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
 
           {!item && (
             <p className="text-center text-sm text-red-600 mt-4">
@@ -227,5 +324,22 @@ function CertificatePaymentPage() {
       </section>
       <SiteFooter />
     </div>
+  );
+}
+
+function AltMethodButton({ active, onClick, icon, label }: { active: boolean; onClick: () => void; icon: React.ReactNode; label: string }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`flex items-center justify-center gap-2 rounded-xl border-2 px-3 py-3 text-sm font-semibold transition-all ${
+        active
+          ? "border-blue-600 bg-blue-600 text-white shadow-md scale-[1.02]"
+          : "border-blue-200 bg-white text-blue-700 hover:border-blue-400 hover:bg-blue-50"
+      }`}
+    >
+      {icon}
+      <span>{label}</span>
+    </button>
   );
 }

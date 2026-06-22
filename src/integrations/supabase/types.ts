@@ -14,6 +14,60 @@ export type Database = {
   }
   public: {
     Tables: {
+      alt_payment_requests: {
+        Row: {
+          amount: number
+          course_id: string
+          course_name: string
+          created_at: string
+          email: string | null
+          id: string
+          level: string
+          methods: string[]
+          notes: string | null
+          received_at: string | null
+          received_by: string | null
+          status: string
+          student_name: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          amount: number
+          course_id: string
+          course_name: string
+          created_at?: string
+          email?: string | null
+          id?: string
+          level: string
+          methods?: string[]
+          notes?: string | null
+          received_at?: string | null
+          received_by?: string | null
+          status?: string
+          student_name?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          amount?: number
+          course_id?: string
+          course_name?: string
+          created_at?: string
+          email?: string | null
+          id?: string
+          level?: string
+          methods?: string[]
+          notes?: string | null
+          received_at?: string | null
+          received_by?: string | null
+          status?: string
+          student_name?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       certificate_payments: {
         Row: {
           amount: number
