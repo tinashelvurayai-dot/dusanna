@@ -108,6 +108,7 @@ function AdminContent() {
           <Tabs defaultValue="payments">
             <TabsList className="mb-6 flex-wrap h-auto">
               <TabsTrigger value="payments">Payments</TabsTrigger>
+              <TabsTrigger value="altPayments">Alt Payments</TabsTrigger>
               <TabsTrigger value="users">Users</TabsTrigger>
               <TabsTrigger value="certificates">Certificates</TabsTrigger>
               <TabsTrigger value="schools">Schools</TabsTrigger>
@@ -115,6 +116,7 @@ function AdminContent() {
               <TabsTrigger value="sample">Home Sample</TabsTrigger>
             </TabsList>
             <TabsContent value="payments"><PaymentsTab /></TabsContent>
+            <TabsContent value="altPayments"><AltPaymentsTab /></TabsContent>
             <TabsContent value="users"><UsersTab /></TabsContent>
             <TabsContent value="certificates"><CertificatesTab /></TabsContent>
             <TabsContent value="schools"><SchoolsTab /></TabsContent>
