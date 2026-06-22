@@ -143,7 +143,7 @@ function Index() {
                 <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
               </span>
               <span className="text-sm font-bold text-blue-900">{userCount}</span>
-              <span className="text-sm text-blue-600">users preparing now</span>
+              <span className="text-sm text-blue-600">Users</span>
             </div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-sm">
               <TrendingUp className="w-4 h-4" />
