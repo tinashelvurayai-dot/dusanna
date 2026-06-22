@@ -33,10 +33,10 @@ const features = [
 ];
 
 const stats = [
-  { number: "70+", label: "Courses (A-Z)", icon: <BookOpen className="w-7 h-7" /> },
-  { number: "2 Levels", label: "Certificate & Diploma", icon: <GraduationCap className="w-7 h-7" /> },
-  { number: "FREE", label: "Learning", icon: <Sparkles className="w-7 h-7" /> },
-  { number: "24/7", label: "Support", icon: <Headphones className="w-7 h-7" /> },
+  { number: "70+", label: "Courses (A-Z)" },
+  { number: "2 Levels", label: "Certificate & Diploma" },
+  { number: "FREE", label: "Learning" },
+  { number: "24/7", label: "Support" },
 ];
 
 const testimonials = [
