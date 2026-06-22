@@ -784,3 +784,86 @@ function SchoolAdminsTab() {
     </div>
   );
 }
+
+function AltPaymentsTab() {
+  const fetchRequests = useServerFn(listAltPaymentRequests);
+  const markReceived = useServerFn(markAltPaymentReceived);
+  const qc = useQueryClient();
+  const { data, isLoading } = useQuery({
+    queryKey: ["admin-alt-payments"],
+    queryFn: () => fetchRequests({}),
+  });
+  const mutation = useMutation({
+    mutationFn: (id: string) => markReceived({ data: { id } }),
+    onSuccess: () => {
+      toast.success("Marked as received. A certificate_payments row was created.");
+      qc.invalidateQueries({ queryKey: ["admin-alt-payments"] });
+      qc.invalidateQueries({ queryKey: ["admin-payments"] });
+    },
+    onError: (e: Error) => toast.error(e.message),
+  });
+
+  if (isLoading) return <p className="text-blue-500 py-6">Loading…</p>;
+  const rows = data?.requests ?? [];
+  if (rows.length === 0)
+    return <p className="text-blue-500 py-6">No alt-payment requests yet.</p>;
+
+  const fmtMethod = (m: string) =>
+    m === "wechat_pay" ? "WeChat Pay" : m === "mukuru" ? "Mukuru" : m === "ecocash" ? "Ecocash" : m;
+
+  return (
+    <div className="glass-card-light p-4 overflow-x-auto">
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead>Date</TableHead>
+            <TableHead>Student</TableHead>
+            <TableHead>Course</TableHead>
+            <TableHead>Level</TableHead>
+            <TableHead>Methods</TableHead>
+            <TableHead>Amount</TableHead>
+            <TableHead>Status</TableHead>
+            <TableHead className="text-right">Action</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {rows.map((r: any) => (
+            <TableRow key={r.id}>
+              <TableCell className="text-xs">{new Date(r.created_at).toLocaleDateString()}</TableCell>
+              <TableCell>
+                <div className="font-semibold text-blue-900">{r.student_name ?? "-"}</div>
+                <div className="text-xs text-blue-500">{r.email ?? ""}</div>
+              </TableCell>
+              <TableCell className="text-sm">{r.course_name}</TableCell>
+              <TableCell className="capitalize text-sm">{r.level}</TableCell>
+              <TableCell className="text-xs">{(r.methods ?? []).map(fmtMethod).join(", ")}</TableCell>
+              <TableCell>${Number(r.amount).toFixed(2)}</TableCell>
+              <TableCell>
+                <Badge variant={r.status === "received" ? "default" : "secondary"} className="capitalize">
+                  {r.status}
+                </Badge>
+              </TableCell>
+              <TableCell className="text-right">
+                {r.status === "pending" ? (
+                  <Button
+                    size="sm"
+                    onClick={() => mutation.mutate(r.id)}
+                    disabled={mutation.isPending}
+                    className="bg-green-600 hover:bg-green-700 text-white"
+                  >
+                    {mutation.isPending ? <Loader2 className="w-3 h-3 mr-1 animate-spin" /> : null}
+                    Received
+                  </Button>
+                ) : (
+                  <span className="text-xs text-green-700 font-semibold">
+                    {r.received_at ? new Date(r.received_at).toLocaleDateString() : "Received"}
+                  </span>
+                )}
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </div>
+  );
+}
