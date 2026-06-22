@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight, Search, BookOpen, Sparkles, Headphones } from "lucide-react";
+import { Award, Users, Globe, GraduationCap, Play, CheckCircle, ShieldCheck, Star, TrendingUp, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
@@ -33,10 +33,10 @@ const features = [
 ];
 
 const stats = [
-  { number: "70+", label: "Courses (A-Z)", icon: <BookOpen className="w-7 h-7" /> },
-  { number: "2 Levels", label: "Certificate & Diploma", icon: <GraduationCap className="w-7 h-7" /> },
-  { number: "FREE", label: "Learning", icon: <Sparkles className="w-7 h-7" /> },
-  { number: "24/7", label: "Support", icon: <Headphones className="w-7 h-7" /> },
+  { number: "70+", label: "Courses (A-Z)" },
+  { number: "2 Levels", label: "Certificate & Diploma" },
+  { number: "FREE", label: "Learning" },
+  { number: "24/7", label: "Support" },
 ];
 
 const testimonials = [
@@ -61,7 +61,7 @@ function Index() {
   const { data: community } = useQuery({
     queryKey: ["community-stats"],
     queryFn: () => getCommunityStats(),
-    initialData: { totalUsers: 6428 },
+    initialData: { totalUsers: 14317 },
     staleTime: 30_000,
   });
   const userCount = community.totalUsers.toLocaleString("en-US");
@@ -143,7 +143,7 @@ function Index() {
                 <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
               </span>
               <span className="text-sm font-bold text-blue-900">{userCount}</span>
-              <span className="text-sm text-blue-600">users preparing now</span>
+              <span className="text-sm text-blue-600">Users</span>
             </div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-sm">
               <TrendingUp className="w-4 h-4" />
@@ -172,9 +172,6 @@ function Index() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center group">
-                <div className="icon-badge-lg mx-auto mb-4 group-hover:scale-110 transition-transform text-blue-600">
-                  {stat.icon}
-                </div>
                 <div className="text-3xl md:text-4xl font-black gradient-text mb-2">{stat.number}</div>
                 <div className="text-blue-700 font-semibold">{stat.label}</div>
               </div>
