@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck, GraduationCap } from "lucide-react";
+import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck, GraduationCap, Smartphone, Wallet, MessageCircle, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -11,6 +11,15 @@ import { toast } from "sonner";
 import { getCatalogItem, getCourseTitle, PRICES, type CourseLevel } from "@/lib/courses";
 import { createPayPalOrder } from "@/lib/paypal.functions";
 import { getMyFullName, verifyFullName, submitAcademiaCertificate } from "@/lib/profile.functions";
+import { submitAltPaymentRequest } from "@/lib/alt-payment.functions";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 type Search = { courseId: string; level: CourseLevel; error?: string };
 
