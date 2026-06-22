@@ -131,6 +131,35 @@ function CertificatePaymentPage() {
     }
   };
 
+  const toggleAltMethod = (m: string) => {
+    setAltMethods((prev) => (prev.includes(m) ? prev.filter((x) => x !== m) : [...prev, m]));
+  };
+
+  const handleAltSubmit = async () => {
+    if (!verified) {
+      toast.error("Please verify your full name first.");
+      return;
+    }
+    if (altMethods.length === 0) {
+      toast.error("Pick at least one payment method.");
+      return;
+    }
+    setAltSubmitting(true);
+    try {
+      const r = await submitAlt({
+        data: { courseId, courseName: title, level, methods: altMethods },
+      });
+      if (r.alreadySubmitted) {
+        toast.info("You already submitted a request for this course. Our team will be in touch.");
+      }
+      setShowAltConfirm(true);
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Could not submit request.");
+    } finally {
+      setAltSubmitting(false);
+    }
+  };
+
   return (
     <div className="min-h-screen">
       <SiteNavbar />
