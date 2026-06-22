@@ -39,6 +39,7 @@ function CertificatePaymentPage() {
   const fetchName = useServerFn(getMyFullName);
   const saveName = useServerFn(verifyFullName);
   const submitAcademia = useServerFn(submitAcademiaCertificate);
+  const submitAlt = useServerFn(submitAltPaymentRequest);
   const [loading, setLoading] = useState(false);
   const [nameLoaded, setNameLoaded] = useState(false);
   const [fullName, setFullName] = useState("");
@@ -46,6 +47,9 @@ function CertificatePaymentPage() {
   const [schoolName, setSchoolName] = useState<string | null>(null);
   const [verified, setVerified] = useState(false);
   const [savingName, setSavingName] = useState(false);
+  const [altMethods, setAltMethods] = useState<string[]>([]);
+  const [altSubmitting, setAltSubmitting] = useState(false);
+  const [showAltConfirm, setShowAltConfirm] = useState(false);
 
   const item = getCatalogItem(courseId);
   const title = item ? getCourseTitle(item, level) : courseId;
