@@ -61,7 +61,7 @@ function Index() {
   const { data: community } = useQuery({
     queryKey: ["community-stats"],
     queryFn: () => getCommunityStats(),
-    initialData: { totalUsers: 6428 },
+    initialData: { totalUsers: 14317 },
     staleTime: 30_000,
   });
   const userCount = community.totalUsers.toLocaleString("en-US");
