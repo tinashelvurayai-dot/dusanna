@@ -326,3 +326,20 @@ function CertificatePaymentPage() {
     </div>
   );
 }
+
+function AltMethodButton({ active, onClick, icon, label }: { active: boolean; onClick: () => void; icon: React.ReactNode; label: string }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`flex items-center justify-center gap-2 rounded-xl border-2 px-3 py-3 text-sm font-semibold transition-all ${
+        active
+          ? "border-blue-600 bg-blue-600 text-white shadow-md scale-[1.02]"
+          : "border-blue-200 bg-white text-blue-700 hover:border-blue-400 hover:bg-blue-50"
+      }`}
+    >
+      {icon}
+      <span>{label}</span>
+    </button>
+  );
+}
