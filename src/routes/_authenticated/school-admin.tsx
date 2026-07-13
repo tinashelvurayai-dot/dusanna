@@ -1,8 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
-import { School, Users, GraduationCap, DollarSign, Upload, Trash2, Loader2, ShieldAlert, ChartBar, CheckCircle2 } from "lucide-react";
+import {
+  School, Users, GraduationCap, DollarSign, Upload, Trash2, Loader2, ShieldAlert,
+  ChartBar, CheckCircle2, AlertTriangle, Sparkles, MessageSquare, FileDown, Eye,
+} from "lucide-react";
+import {
+  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Legend,
+} from "recharts";
+import jsPDF from "jspdf";
 import { SiteNavbar } from "@/components/site-navbar";
 import { SiteFooter } from "@/components/site-footer";
 import { Button } from "@/components/ui/button";
@@ -13,6 +20,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { toast } from "sonner";
 import {
   getMySchoolAdmin,
@@ -22,12 +30,29 @@ import {
   removeRosterEntry,
   verifySchoolPayment,
   getSchoolClassAnalytics,
+  getSchoolStudentDetail,
+  sendClassBroadcast,
 } from "@/lib/school.functions";
 
 export const Route = createFileRoute("/_authenticated/school-admin")({
   head: () => ({ meta: [{ title: "School Admin | Edusanna" }] }),
   component: SchoolAdminPage,
 });
+
+type StudentRow = {
+  id: string;
+  fullName: string | null;
+  email: string | null;
+  mobileNumber: string | null;
+  className: string | null;
+  enrolledAt: string;
+  lastActive: string | null;
+  avgQuizScore: number | null;
+  coursesStarted: number;
+  coursesCompleted: number;
+  payments: any[];
+  totalPaid: number;
+};
 
 function SchoolAdminPage() {
   const fetchMe = useServerFn(getMySchoolAdmin);
@@ -63,6 +88,7 @@ function Content({ schoolName, contactName }: { schoolName: string; contactName:
   return (
     <div className="min-h-screen">
       <SiteNavbar />
+      <WeeklyPrincipalPopup schoolName={schoolName} />
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-3 mb-2">
@@ -82,7 +108,7 @@ function Content({ schoolName, contactName }: { schoolName: string; contactName:
               <TabsTrigger value="payments"><DollarSign className="w-4 h-4 mr-1.5" />Verify payment</TabsTrigger>
               <TabsTrigger value="roster"><Upload className="w-4 h-4 mr-1.5" />Roster</TabsTrigger>
             </TabsList>
-            <TabsContent value="analytics"><AnalyticsTab /></TabsContent>
+            <TabsContent value="analytics"><AnalyticsTab schoolName={schoolName} /></TabsContent>
             <TabsContent value="students"><StudentsTab /></TabsContent>
             <TabsContent value="payments"><VerifyPaymentTab /></TabsContent>
             <TabsContent value="roster"><RosterTab /></TabsContent>
@@ -94,15 +120,79 @@ function Content({ schoolName, contactName }: { schoolName: string; contactName:
   );
 }
 
+/* --------------------------------- Helpers ---------------------------------- */
+
+function daysAgo(iso: string | null): number | null {
+  if (!iso) return null;
+  return Math.floor((Date.now() - new Date(iso).getTime()) / 86400000);
+}
+
+function computeRisks(s: StudentRow): { label: string; tone: "red" | "amber" }[] {
+  const flags: { label: string; tone: "red" | "amber" }[] = [];
+  const inactive = daysAgo(s.lastActive);
+  if (s.coursesStarted === 0) {
+    flags.push({ label: "Never started a course", tone: "red" });
+  } else if (inactive !== null && inactive >= 14) {
+    flags.push({ label: `No login ${inactive}d`, tone: "red" });
+  } else if (inactive !== null && inactive >= 7) {
+    flags.push({ label: `No login ${inactive}d`, tone: "amber" });
+  }
+  if (s.avgQuizScore !== null && s.avgQuizScore < 50) {
+    flags.push({ label: `Low quiz avg ${s.avgQuizScore}%`, tone: "red" });
+  }
+  if (s.coursesStarted > 0 && s.coursesCompleted === 0 && (inactive ?? 0) >= 21) {
+    flags.push({ label: "Stalled - no completions", tone: "amber" });
+  }
+  return flags;
+}
+
 /* --------------------------------- Analytics -------------------------------- */
 
-function AnalyticsTab() {
+function AnalyticsTab({ schoolName }: { schoolName: string }) {
   const fetchAnalytics = useServerFn(getSchoolClassAnalytics);
   const { data, isLoading } = useQuery({ queryKey: ["school-analytics"], queryFn: () => fetchAnalytics() });
+
+  const [broadcastOpen, setBroadcastOpen] = useState(false);
 
   if (isLoading) return <p className="text-blue-500 py-8">Loading analytics…</p>;
   const classes = data?.classes ?? [];
   const totals = data?.totals;
+
+  const chartData = classes.map((c) => ({
+    name: c.className,
+    Students: c.students,
+    Started: c.coursesStarted,
+    Completed: c.coursesCompleted,
+    Paid: c.certificatesPaid + c.diplomasPaid,
+  }));
+
+  const downloadPdf = () => {
+    const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+    pdf.setFontSize(18);
+    pdf.text(`${schoolName} - Class Report`, 14, 20);
+    pdf.setFontSize(10);
+    pdf.text(new Date().toLocaleString(), 14, 27);
+    let y = 40;
+    pdf.setFontSize(11);
+    pdf.text(`Total students: ${totals?.students ?? 0}`, 14, y); y += 6;
+    pdf.text(`Courses started: ${totals?.coursesStarted ?? 0}   Completed: ${totals?.coursesCompleted ?? 0}`, 14, y); y += 6;
+    pdf.text(`Credentials paid: ${(totals?.certificatesPaid ?? 0) + (totals?.diplomasPaid ?? 0)}   Revenue: $${(totals?.revenue ?? 0).toFixed(2)}`, 14, y); y += 10;
+
+    pdf.setFontSize(12);
+    pdf.text("Per-class breakdown", 14, y); y += 6;
+    pdf.setFontSize(9);
+    const header = ["Class", "Students", "Started", "Completed", "%", "Cert/Dip", "Revenue"];
+    header.forEach((h, i) => pdf.text(h, 14 + i * 27, y));
+    y += 5;
+    classes.forEach((c) => {
+      if (y > 280) { pdf.addPage(); y = 20; }
+      const pct = c.coursesStarted ? Math.round((c.coursesCompleted / c.coursesStarted) * 100) : 0;
+      const row = [c.className, String(c.students), String(c.coursesStarted), String(c.coursesCompleted), `${pct}%`, `${c.certificatesPaid}/${c.diplomasPaid}`, `$${c.revenue.toFixed(2)}`];
+      row.forEach((r, i) => pdf.text(r.slice(0, 20), 14 + i * 27, y));
+      y += 5;
+    });
+    pdf.save(`${schoolName.replace(/[^a-z0-9]+/gi, "-")}-report.pdf`);
+  };
 
   return (
     <div className="space-y-6">
@@ -112,6 +202,34 @@ function AnalyticsTab() {
         <StatCard icon={<CheckCircle2 className="w-5 h-5" />} label="Credentials paid" value={(totals?.certificatesPaid ?? 0) + (totals?.diplomasPaid ?? 0)} />
         <StatCard icon={<DollarSign className="w-5 h-5" />} label="Revenue" value={`$${(totals?.revenue ?? 0).toFixed(2)}`} />
       </div>
+
+      <div className="flex flex-wrap gap-2">
+        <Button variant="outline" onClick={downloadPdf}><FileDown className="w-4 h-4 mr-1.5" />Download class PDF</Button>
+        <Button variant="outline" onClick={() => setBroadcastOpen(true)} disabled={classes.length === 0}>
+          <MessageSquare className="w-4 h-4 mr-1.5" />Message a class
+        </Button>
+      </div>
+
+      {classes.length > 0 && (
+        <div className="glass-card-light p-4">
+          <h3 className="font-bold text-blue-900 mb-2">Class comparison</h3>
+          <div className="w-full h-72">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={chartData}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#dbeafe" />
+                <XAxis dataKey="name" tick={{ fill: "#1e40af", fontSize: 12 }} />
+                <YAxis tick={{ fill: "#1e40af", fontSize: 12 }} allowDecimals={false} />
+                <Tooltip />
+                <Legend />
+                <Bar dataKey="Students" fill="#3b82f6" />
+                <Bar dataKey="Started" fill="#8b5cf6" />
+                <Bar dataKey="Completed" fill="#22c55e" />
+                <Bar dataKey="Paid" fill="#f59e0b" />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      )}
 
       <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
         <h3 className="font-bold text-blue-900 px-2 pt-2">Performance by class</h3>
@@ -151,6 +269,12 @@ function AnalyticsTab() {
           </Table>
         )}
       </div>
+
+      <BroadcastDialog
+        open={broadcastOpen}
+        onOpenChange={setBroadcastOpen}
+        classes={classes.map((c) => c.className)}
+      />
     </div>
   );
 }
@@ -160,13 +284,37 @@ function AnalyticsTab() {
 function StudentsTab() {
   const fetchStudents = useServerFn(listSchoolStudents);
   const { data, isLoading } = useQuery({ queryKey: ["school-students"], queryFn: () => fetchStudents() });
+  const [drilldownId, setDrilldownId] = useState<string | null>(null);
+  const [motivationOpen, setMotivationOpen] = useState(false);
+  const [motivationText, setMotivationText] = useState("");
 
   if (isLoading) return <p className="text-blue-500 py-8">Loading students…</p>;
-  const students = data?.students ?? [];
+  const students = (data?.students ?? []) as StudentRow[];
   const unmatched = data?.unmatched ?? [];
+
+  const flaggedCount = students.reduce((n, s) => n + (computeRisks(s).length > 0 ? 1 : 0), 0);
+
+  const openMotivation = (s: StudentRow) => {
+    const risks = computeRisks(s);
+    const first = risks[0]?.label ?? "Doing well";
+    const nudge = risks.length === 0
+      ? `${s.fullName} is on track. Send them a quick note of encouragement to keep the streak going.`
+      : `${s.fullName} needs a nudge (${first.toLowerCase()}). A short personal message from the school often re-engages students within 24 hours.`;
+    setMotivationText(nudge);
+    setMotivationOpen(true);
+  };
 
   return (
     <div className="space-y-6">
+      {flaggedCount > 0 && (
+        <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 flex items-center gap-3">
+          <AlertTriangle className="w-5 h-5 text-amber-600" />
+          <div className="text-sm text-amber-900">
+            <strong>{flaggedCount}</strong> student{flaggedCount === 1 ? "" : "s"} need attention. Look for the risk badges below and open a drilldown to see details.
+          </div>
+        </div>
+      )}
+
       <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
         <h3 className="font-bold text-blue-900 px-2 pt-2">Registered students ({students.length})</h3>
         {students.length === 0 ? (
@@ -177,23 +325,58 @@ function StudentsTab() {
               <TableRow>
                 <TableHead>Name</TableHead>
                 <TableHead>Class</TableHead>
-                <TableHead>Email</TableHead>
+                <TableHead>Last active</TableHead>
                 <TableHead>Started</TableHead>
                 <TableHead>Completed</TableHead>
-                <TableHead>Paid</TableHead>
+                <TableHead>Quiz avg</TableHead>
+                <TableHead>Risk</TableHead>
+                <TableHead></TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
-              {students.map((s) => (
-                <TableRow key={s.id}>
-                  <TableCell className="font-medium text-blue-900">{s.fullName}</TableCell>
-                  <TableCell>{s.className ?? <span className="text-amber-600 text-xs">Unassigned</span>}</TableCell>
-                  <TableCell className="text-xs text-blue-500">{s.email}</TableCell>
-                  <TableCell>{s.coursesStarted}</TableCell>
-                  <TableCell>{s.coursesCompleted}</TableCell>
-                  <TableCell className="font-semibold">${s.totalPaid.toFixed(2)}</TableCell>
-                </TableRow>
-              ))}
+              {students.map((s) => {
+                const risks = computeRisks(s);
+                const inactive = daysAgo(s.lastActive);
+                return (
+                  <TableRow key={s.id}>
+                    <TableCell className="font-medium text-blue-900">{s.fullName}</TableCell>
+                    <TableCell>{s.className ?? <span className="text-amber-600 text-xs">Unassigned</span>}</TableCell>
+                    <TableCell className="text-xs">
+                      {s.lastActive
+                        ? inactive === 0 ? "Today" : `${inactive}d ago`
+                        : <span className="text-red-500">Never</span>}
+                    </TableCell>
+                    <TableCell>{s.coursesStarted}</TableCell>
+                    <TableCell>{s.coursesCompleted}</TableCell>
+                    <TableCell>{s.avgQuizScore !== null ? `${s.avgQuizScore}%` : <span className="text-blue-400 text-xs">-</span>}</TableCell>
+                    <TableCell>
+                      {risks.length === 0
+                        ? <Badge className="bg-green-100 text-green-700 border-0">On track</Badge>
+                        : (
+                          <div className="flex flex-wrap gap-1">
+                            {risks.slice(0, 2).map((r, i) => (
+                              <Badge key={i} className={
+                                r.tone === "red"
+                                  ? "bg-red-100 text-red-700 border-0"
+                                  : "bg-amber-100 text-amber-700 border-0"
+                              }>{r.label}</Badge>
+                            ))}
+                          </div>
+                        )}
+                    </TableCell>
+                    <TableCell className="text-right">
+                      <div className="flex gap-1 justify-end">
+                        <Button size="sm" variant="outline" onClick={() => setDrilldownId(s.id)}>
+                          <Eye className="w-4 h-4" />
+                        </Button>
+                        <Button size="sm" variant="outline" onClick={() => openMotivation(s)}>
+                          <Sparkles className="w-4 h-4" />
+                        </Button>
+                      </div>
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
             </TableBody>
           </Table>
         )}
@@ -213,7 +396,219 @@ function StudentsTab() {
           </div>
         </div>
       )}
+
+      <StudentDrilldownDialog studentId={drilldownId} onClose={() => setDrilldownId(null)} />
+
+      <Dialog open={motivationOpen} onOpenChange={setMotivationOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle className="flex items-center gap-2"><Sparkles className="w-5 h-5 text-purple-600" /> Motivation nudge</DialogTitle>
+            <DialogDescription>Suggested action for this student.</DialogDescription>
+          </DialogHeader>
+          <p className="text-sm text-blue-900">{motivationText}</p>
+          <DialogFooter>
+            <Button className="premium-button" onClick={() => setMotivationOpen(false)}>Got it</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
+  );
+}
+
+/* ------------------------------ Student drilldown --------------------------- */
+
+function StudentDrilldownDialog({ studentId, onClose }: { studentId: string | null; onClose: () => void }) {
+  const fetchDetail = useServerFn(getSchoolStudentDetail);
+  const { data, isLoading } = useQuery({
+    queryKey: ["school-student-detail", studentId],
+    queryFn: () => fetchDetail({ data: { studentId: studentId! } }),
+    enabled: !!studentId,
+  });
+
+  return (
+    <Dialog open={!!studentId} onOpenChange={(o) => !o && onClose()}>
+      <DialogContent className="max-w-2xl max-h-[85vh] overflow-y-auto">
+        <DialogHeader>
+          <DialogTitle>{data?.profile?.fullName ?? "Student detail"}</DialogTitle>
+          <DialogDescription>{data?.profile?.email}</DialogDescription>
+        </DialogHeader>
+        {isLoading || !data ? (
+          <div className="py-8 flex justify-center"><Loader2 className="w-6 h-6 animate-spin text-blue-600" /></div>
+        ) : (
+          <div className="space-y-5 text-sm">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <MiniStat label="Joined" value={new Date(data.profile.joinedAt).toLocaleDateString()} />
+              <MiniStat label="Last active" value={data.lastActive ? `${daysAgo(data.lastActive)}d ago` : "Never"} />
+              <MiniStat label="Time on platform" value={`${data.timeOnPlatformDays}d`} />
+              <MiniStat label="Courses" value={String(data.courses.length)} />
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-blue-900 mb-2">Course progress</h4>
+              {data.courses.length === 0 ? (
+                <p className="text-blue-500 text-xs">No course activity yet.</p>
+              ) : (
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Course</TableHead>
+                      <TableHead>Level</TableHead>
+                      <TableHead>Modules</TableHead>
+                      <TableHead>Quizzes</TableHead>
+                      <TableHead>Avg</TableHead>
+                      <TableHead>Status</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {data.courses.map((c: any) => (
+                      <TableRow key={`${c.courseId}-${c.level}`}>
+                        <TableCell className="font-medium text-blue-900">{c.courseId}</TableCell>
+                        <TableCell className="capitalize">{c.level}</TableCell>
+                        <TableCell>{c.modulesCompleted}</TableCell>
+                        <TableCell>{c.quizzesTaken}</TableCell>
+                        <TableCell>{c.avgQuizScore !== null ? `${c.avgQuizScore}%` : "-"}</TableCell>
+                        <TableCell>
+                          {c.isCompleted
+                            ? <Badge className="bg-green-100 text-green-700 border-0">Completed</Badge>
+                            : <Badge className="bg-blue-100 text-blue-700 border-0">In progress</Badge>}
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              )}
+            </div>
+
+            {data.payments.length > 0 && (
+              <div>
+                <h4 className="font-semibold text-blue-900 mb-2">Payments</h4>
+                <ul className="text-xs space-y-1">
+                  {data.payments.map((p: any, i: number) => (
+                    <li key={i} className="flex justify-between border-b border-blue-50 pb-1">
+                      <span>{p.course_name ?? p.course_id} - {p.certificate_type}</span>
+                      <span className="font-semibold">${Number(p.amount).toFixed(2)} <span className="text-blue-500 font-normal">({p.payment_status})</span></span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+function MiniStat({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-lg bg-blue-50 px-3 py-2">
+      <div className="text-[10px] uppercase tracking-wide text-blue-500">{label}</div>
+      <div className="font-bold text-blue-900 text-sm">{value}</div>
+    </div>
+  );
+}
+
+/* ------------------------------ Broadcast dialog ---------------------------- */
+
+function BroadcastDialog({
+  open, onOpenChange, classes,
+}: { open: boolean; onOpenChange: (v: boolean) => void; classes: string[] }) {
+  const send = useServerFn(sendClassBroadcast);
+  const [className, setClassName] = useState("");
+  const [message, setMessage] = useState("");
+  const mutation = useMutation({
+    mutationFn: () => send({ data: { className, message } }),
+    onSuccess: (res: any) => {
+      toast.success(`Message queued for ${res?.recipients ?? 0} student${res?.recipients === 1 ? "" : "s"}. Edusanna admin will relay it.`);
+      setMessage("");
+      onOpenChange(false);
+    },
+    onError: (e) => toast.error(e instanceof Error ? e.message : "Could not send"),
+  });
+
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle className="flex items-center gap-2"><MessageSquare className="w-5 h-5 text-blue-600" /> Message a class</DialogTitle>
+          <DialogDescription>Your message is relayed to the Edusanna admin, who forwards it to the class.</DialogDescription>
+        </DialogHeader>
+        <div className="space-y-3">
+          <div>
+            <Label>Class</Label>
+            <Select value={className} onValueChange={setClassName}>
+              <SelectTrigger className="h-10"><SelectValue placeholder="Pick a class" /></SelectTrigger>
+              <SelectContent>
+                {classes.map((c) => (<SelectItem key={c} value={c}>{c}</SelectItem>))}
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <Label>Message</Label>
+            <Textarea rows={6} value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Great work this week - keep up the streak on your certificate courses!" />
+          </div>
+        </div>
+        <DialogFooter>
+          <Button variant="outline" onClick={() => onOpenChange(false)}>Cancel</Button>
+          <Button className="premium-button" onClick={() => mutation.mutate()} disabled={mutation.isPending || !className || message.trim().length < 3}>
+            {mutation.isPending && <Loader2 className="w-4 h-4 mr-2 animate-spin" />} Send
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+/* ---------------------------- Weekly principal popup ------------------------ */
+
+function WeeklyPrincipalPopup({ schoolName }: { schoolName: string }) {
+  const fetchStudents = useServerFn(listSchoolStudents);
+  const { data } = useQuery({ queryKey: ["school-students"], queryFn: () => fetchStudents() });
+  const [open, setOpen] = useState(false);
+  const shownRef = useRef(false);
+
+  useEffect(() => {
+    if (!data || shownRef.current) return;
+    const key = `edusanna:weeklyPrincipal:${schoolName}`;
+    const last = typeof window !== "undefined" ? window.localStorage.getItem(key) : null;
+    const weekMs = 7 * 86400000;
+    if (last && Date.now() - Number(last) < weekMs) return;
+    shownRef.current = true;
+    setOpen(true);
+    if (typeof window !== "undefined") window.localStorage.setItem(key, String(Date.now()));
+  }, [data, schoolName]);
+
+  const students = (data?.students ?? []) as StudentRow[];
+  const activeThisWeek = students.filter((s) => {
+    const d = daysAgo(s.lastActive);
+    return d !== null && d <= 7;
+  }).length;
+  const newSignups = students.filter((s) => {
+    const d = daysAgo(s.enrolledAt);
+    return d !== null && d <= 7;
+  }).length;
+  const completions = students.reduce((n, s) => n + s.coursesCompleted, 0);
+  const atRisk = students.filter((s) => computeRisks(s).length > 0).length;
+
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle className="flex items-center gap-2"><Sparkles className="w-5 h-5 text-purple-600" /> Weekly principal summary</DialogTitle>
+          <DialogDescription>A quick snapshot of {schoolName} this past week.</DialogDescription>
+        </DialogHeader>
+        <div className="grid grid-cols-2 gap-3">
+          <MiniStat label="Active this week" value={String(activeThisWeek)} />
+          <MiniStat label="New signups" value={String(newSignups)} />
+          <MiniStat label="Total completions" value={String(completions)} />
+          <MiniStat label="Students at risk" value={String(atRisk)} />
+        </div>
+        <p className="text-xs text-blue-600">Tip: open the Students tab to nudge at-risk students, or Analytics to broadcast an encouraging message to a class.</p>
+        <DialogFooter>
+          <Button className="premium-button" onClick={() => setOpen(false)}>Close</Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
   );
 }
 
@@ -224,7 +619,7 @@ function VerifyPaymentTab() {
   const fetchStudents = useServerFn(listSchoolStudents);
   const verify = useServerFn(verifySchoolPayment);
   const { data } = useQuery({ queryKey: ["school-students"], queryFn: () => fetchStudents() });
-  const students = data?.students ?? [];
+  const students = (data?.students ?? []) as StudentRow[];
 
   const [studentId, setStudentId] = useState("");
   const [courseSelection, setCourseSelection] = useState<string>("");
@@ -234,14 +629,6 @@ function VerifyPaymentTab() {
   const [manual, setManual] = useState(false);
 
   const student = students.find((s) => s.id === studentId);
-  const studentCourses = useMemo(() => {
-    const ids = new Set<string>();
-    const list: { courseId: string; courseName: string; level: "certificate" | "diploma" }[] = [];
-    // Inferred from payments + manual entries: use any payments student has started
-    // Falls back to manual entry.
-    return list;
-  }, []);
-
   const amount = level === "diploma" ? 18 : 12;
 
   const mutation = useMutation({
@@ -305,7 +692,7 @@ function VerifyPaymentTab() {
                 value={courseSelection}
                 onValueChange={(v) => {
                   setCourseSelection(v);
-                  const p = student.payments.find((x) => `${x.course_id}::${x.certificate_type}` === v);
+                  const p = student.payments.find((x: any) => `${x.course_id}::${x.certificate_type}` === v);
                   if (p) {
                     setCourseId(p.course_id);
                     setCourseName(p.course_name ?? p.course_id);
@@ -315,7 +702,7 @@ function VerifyPaymentTab() {
               >
                 <SelectTrigger className="h-10"><SelectValue placeholder="Pick a course they previously paid" /></SelectTrigger>
                 <SelectContent>
-                  {student.payments.map((p) => {
+                  {student.payments.map((p: any) => {
                     const key = `${p.course_id}::${p.certificate_type}`;
                     return (
                       <SelectItem key={p.id} value={key}>
@@ -387,7 +774,6 @@ function RosterTab() {
         .map((line) => line.trim())
         .filter(Boolean)
         .map((line) => {
-          // "Full Name, Class" or "Full Name"
           const [name, klass] = line.split(/[,;\t]/).map((s) => s.trim());
           return { fullName: name, className: klass || undefined };
         });
@@ -441,7 +827,7 @@ function RosterTab() {
               <TableRow><TableHead>Name</TableHead><TableHead>Class</TableHead><TableHead></TableHead></TableRow>
             </TableHeader>
             <TableBody>
-              {roster.map((r) => (
+              {roster.map((r: any) => (
                 <TableRow key={r.id}>
                   <TableCell className="font-medium text-blue-900">{r.full_name}</TableCell>
                   <TableCell>{r.class_name ?? "-"}</TableCell>
