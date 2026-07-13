@@ -164,7 +164,7 @@ export const listSchoolStudents = createServerFn({ method: "GET" })
       ids.length
         ? supabaseAdmin
             .from("course_progress")
-            .select("user_id, course_id, level, completed_modules, is_completed, updated_at")
+            .select("user_id, course_id, level, completed_modules, is_completed, quiz_scores, updated_at")
             .in("user_id", ids)
         : Promise.resolve({ data: [] as any[], error: null }),
       ids.length
@@ -178,11 +178,29 @@ export const listSchoolStudents = createServerFn({ method: "GET" })
     const progress = (progRes.data as any[]) ?? [];
     const payments = (payRes.data as any[]) ?? [];
 
+    const avgQuiz = (scores: any): number | null => {
+      if (!scores || typeof scores !== "object") return null;
+      const vals = Object.values(scores).map((v) => Number(v)).filter((n) => Number.isFinite(n));
+      if (!vals.length) return null;
+      return Math.round(vals.reduce((s, n) => s + n, 0) / vals.length);
+    };
+
     const students = myProfiles.map((p) => {
       const key = (p.full_name ?? "").trim().toLowerCase();
       const fromRoster = rosterByName.get(key);
       const myProg = progress.filter((q) => q.user_id === p.id);
       const myPay = payments.filter((q) => q.user_id === p.id);
+      const lastActive = myProg.reduce<string | null>((acc, q) => {
+        if (!q.updated_at) return acc;
+        if (!acc || q.updated_at > acc) return q.updated_at;
+        return acc;
+      }, null);
+      const quizAverages = myProg
+        .map((q) => avgQuiz(q.quiz_scores))
+        .filter((n): n is number => n !== null);
+      const avgQuizScore = quizAverages.length
+        ? Math.round(quizAverages.reduce((s, n) => s + n, 0) / quizAverages.length)
+        : null;
       return {
         id: p.id,
         fullName: p.full_name,
@@ -190,6 +208,8 @@ export const listSchoolStudents = createServerFn({ method: "GET" })
         mobileNumber: p.mobile_number,
         className: fromRoster?.class_name ?? null,
         enrolledAt: p.created_at,
+        lastActive,
+        avgQuizScore,
         coursesStarted: myProg.length,
         coursesCompleted: myProg.filter((q) => q.is_completed).length,
         payments: myPay,
@@ -206,7 +226,144 @@ export const listSchoolStudents = createServerFn({ method: "GET" })
     return { schoolName, students, unmatched };
   });
 
-/** Roster CRUD */
+/** Detailed drilldown for one student at this admin's school. */
+export const getSchoolStudentDetail = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((input: { studentId: string }) => {
+    if (!input?.studentId || typeof input.studentId !== "string") throw new Error("Missing studentId");
+    return input;
+  })
+  .handler(async ({ data, context }) => {
+    const schoolName = await getMySchool(context);
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const target = schoolName.trim().toLowerCase();
+
+    const { data: profile } = await supabaseAdmin
+      .from("profiles")
+      .select("id, full_name, email, mobile_number, school_name, created_at")
+      .eq("id", data.studentId)
+      .maybeSingle();
+    if (!profile) throw new Error("Student not found");
+    if ((profile.school_name ?? "").trim().toLowerCase() !== target) {
+      throw new Error("This student is not assigned to your school");
+    }
+
+    const [progRes, enrRes, payRes] = await Promise.all([
+      supabaseAdmin
+        .from("course_progress")
+        .select("course_id, level, completed_modules, is_completed, quiz_scores, updated_at")
+        .eq("user_id", data.studentId),
+      supabaseAdmin
+        .from("enrollments")
+        .select("course_id, course_title, level, created_at")
+        .eq("user_id", data.studentId),
+      supabaseAdmin
+        .from("certificate_payments")
+        .select("course_id, course_name, certificate_type, amount, payment_status, created_at")
+        .eq("user_id", data.studentId)
+        .order("created_at", { ascending: false }),
+    ]);
+
+    const progress = (progRes.data as any[]) ?? [];
+    const enrollments = (enrRes.data as any[]) ?? [];
+    const payments = (payRes.data as any[]) ?? [];
+
+    const lastActive = progress.reduce<string | null>((acc, q) => {
+      if (!q.updated_at) return acc;
+      if (!acc || q.updated_at > acc) return q.updated_at;
+      return acc;
+    }, null);
+    const firstEnrolled = enrollments.reduce<string | null>((acc, e) => {
+      if (!e.created_at) return acc;
+      if (!acc || e.created_at < acc) return e.created_at;
+      return acc;
+    }, null);
+    // Estimate time on platform in days from first enrollment to last activity.
+    const timeOnPlatformDays =
+      firstEnrolled && lastActive
+        ? Math.max(1, Math.round((new Date(lastActive).getTime() - new Date(firstEnrolled).getTime()) / 86400000))
+        : firstEnrolled
+          ? Math.max(1, Math.round((Date.now() - new Date(firstEnrolled).getTime()) / 86400000))
+          : 0;
+
+    const courses = progress.map((p) => {
+      const scores = (p.quiz_scores && typeof p.quiz_scores === "object" ? p.quiz_scores : {}) as Record<string, number>;
+      const vals = Object.values(scores).map((v) => Number(v)).filter((n) => Number.isFinite(n));
+      return {
+        courseId: p.course_id,
+        level: p.level,
+        isCompleted: !!p.is_completed,
+        modulesCompleted: Array.isArray(p.completed_modules) ? p.completed_modules.length : 0,
+        avgQuizScore: vals.length ? Math.round(vals.reduce((s, n) => s + n, 0) / vals.length) : null,
+        quizzesTaken: vals.length,
+        updatedAt: p.updated_at,
+      };
+    });
+
+    return {
+      profile: {
+        id: profile.id,
+        fullName: profile.full_name,
+        email: profile.email,
+        mobileNumber: profile.mobile_number,
+        joinedAt: profile.created_at,
+      },
+      lastActive,
+      firstEnrolled,
+      timeOnPlatformDays,
+      courses,
+      enrollments,
+      payments,
+    };
+  });
+
+/** Send a broadcast to a class. Relayed via Telegram to Edusanna admin. */
+export const sendClassBroadcast = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((input: { className: string; message: string }) => {
+    const className = (input?.className ?? "").trim().slice(0, 80);
+    const message = (input?.message ?? "").trim().slice(0, 2000);
+    if (!className) throw new Error("Pick a class");
+    if (message.length < 3) throw new Error("Message is too short");
+    return { className, message };
+  })
+  .handler(async ({ data, context }) => {
+    const schoolName = await getMySchool(context);
+    const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+    const target = schoolName.trim().toLowerCase();
+
+    const [profilesRes, rosterRes] = await Promise.all([
+      supabaseAdmin.from("profiles").select("full_name, email, school_name"),
+      supabaseAdmin
+        .from("school_rosters")
+        .select("normalized_name, class_name")
+        .eq("school_admin_id", context.userId)
+        .eq("class_name", data.className),
+    ]);
+    const rosterKeys = new Set(((rosterRes.data ?? []) as any[]).map((r) => r.normalized_name as string));
+    const recipients = ((profilesRes.data ?? []) as any[])
+      .filter((p) => (p.school_name ?? "").trim().toLowerCase() === target)
+      .filter((p) => rosterKeys.has((p.full_name ?? "").trim().toLowerCase()))
+      .map((p) => ({ fullName: p.full_name as string | null, email: p.email as string | null }));
+
+    try {
+      const { notifyAdminTelegram } = await import("@/lib/notify.server");
+      const preview = data.message.length > 400 ? `${data.message.slice(0, 400)}…` : data.message;
+      await notifyAdminTelegram(
+        `📣 <b>Class broadcast requested</b>\n` +
+          `<b>School:</b> ${escapeHtml(schoolName)}\n` +
+          `<b>Class:</b> ${escapeHtml(data.className)}\n` +
+          `<b>Recipients:</b> ${recipients.length}\n\n` +
+          `<b>Message:</b>\n${escapeHtml(preview)}`,
+      );
+    } catch {
+      /* non-blocking */
+    }
+
+    return { success: true, recipients: recipients.length };
+  });
+
+
 export const listRoster = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }) => {
