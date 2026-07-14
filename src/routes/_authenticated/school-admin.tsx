@@ -94,14 +94,15 @@ function Content({ schoolName, contactName }: { schoolName: string; contactName:
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white">
-              <School className="w-6 h-6" />
+            <div className="w-14 h-14 rounded-2xl bg-white border border-blue-100 shadow-sm flex items-center justify-center overflow-hidden flex-shrink-0">
+              <img src={edusannaLogo.url} alt="Edusanna" className="w-10 h-10 object-contain" />
             </div>
             <div>
               <h1 className="text-3xl md:text-4xl font-black text-blue-900 leading-tight">{schoolName}</h1>
               <p className="text-blue-600 text-sm">School admin dashboard{contactName ? ` - ${contactName}` : ""}</p>
             </div>
           </div>
+
 
           <Tabs defaultValue="analytics" className="mt-8">
             <TabsList className="mb-6 flex-wrap h-auto">
