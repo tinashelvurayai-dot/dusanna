@@ -3,13 +3,14 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 import {
-  School, Users, GraduationCap, DollarSign, Upload, Trash2, Loader2, ShieldAlert,
-  ChartBar, CheckCircle2, AlertTriangle, Sparkles, MessageSquare, FileDown, Eye,
+  Users, GraduationCap, DollarSign, Upload, Trash2, Loader2, ShieldAlert,
+  ChartBar, CheckCircle2, AlertTriangle, Sparkles, MessageSquare, FileDown, Eye, Search,
 } from "lucide-react";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Legend,
 } from "recharts";
 import jsPDF from "jspdf";
+import edusannaLogo from "@/assets/edusanna-logo.png.asset.json";
 import { SiteNavbar } from "@/components/site-navbar";
 import { SiteFooter } from "@/components/site-footer";
 import { Button } from "@/components/ui/button";
@@ -33,6 +34,7 @@ import {
   getSchoolStudentDetail,
   sendClassBroadcast,
 } from "@/lib/school.functions";
+
 
 export const Route = createFileRoute("/_authenticated/school-admin")({
   head: () => ({ meta: [{ title: "School Admin | Edusanna" }] }),
@@ -92,14 +94,15 @@ function Content({ schoolName, contactName }: { schoolName: string; contactName:
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white">
-              <School className="w-6 h-6" />
+            <div className="w-14 h-14 rounded-2xl bg-white border border-blue-100 shadow-sm flex items-center justify-center overflow-hidden flex-shrink-0">
+              <img src={edusannaLogo.url} alt="Edusanna" className="w-10 h-10 object-contain" />
             </div>
             <div>
               <h1 className="text-3xl md:text-4xl font-black text-blue-900 leading-tight">{schoolName}</h1>
               <p className="text-blue-600 text-sm">School admin dashboard{contactName ? ` - ${contactName}` : ""}</p>
             </div>
           </div>
+
 
           <Tabs defaultValue="analytics" className="mt-8">
             <TabsList className="mb-6 flex-wrap h-auto">
@@ -287,12 +290,28 @@ function StudentsTab() {
   const [drilldownId, setDrilldownId] = useState<string | null>(null);
   const [motivationOpen, setMotivationOpen] = useState(false);
   const [motivationText, setMotivationText] = useState("");
+  const [search, setSearch] = useState("");
+  const [classFilter, setClassFilter] = useState<string>("all");
 
   if (isLoading) return <p className="text-blue-500 py-8">Loading students…</p>;
-  const students = (data?.students ?? []) as StudentRow[];
+  const allStudents = (data?.students ?? []) as StudentRow[];
   const unmatched = data?.unmatched ?? [];
 
+  const classOptions = Array.from(new Set(allStudents.map((s) => s.className).filter(Boolean))) as string[];
+  const q = search.trim().toLowerCase();
+  const students = allStudents.filter((s) => {
+    if (classFilter !== "all" && (s.className ?? "") !== classFilter) return false;
+    if (!q) return true;
+    return (
+      (s.fullName ?? "").toLowerCase().includes(q) ||
+      (s.email ?? "").toLowerCase().includes(q) ||
+      (s.className ?? "").toLowerCase().includes(q) ||
+      (s.mobileNumber ?? "").toLowerCase().includes(q)
+    );
+  });
+
   const flaggedCount = students.reduce((n, s) => n + (computeRisks(s).length > 0 ? 1 : 0), 0);
+
 
   const openMotivation = (s: StudentRow) => {
     const risks = computeRisks(s);
@@ -316,9 +335,30 @@ function StudentsTab() {
       )}
 
       <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
-        <h3 className="font-bold text-blue-900 px-2 pt-2">Registered students ({students.length})</h3>
+        <div className="flex flex-wrap items-center gap-2 px-2 pt-2">
+          <h3 className="font-bold text-blue-900 mr-auto">Registered students ({students.length}{q || classFilter !== "all" ? ` / ${allStudents.length}` : ""})</h3>
+          <div className="relative">
+            <Search className="w-4 h-4 text-blue-400 absolute left-2.5 top-1/2 -translate-y-1/2" />
+            <Input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search name, email, class…"
+              className="h-9 pl-8 w-56"
+            />
+          </div>
+          {classOptions.length > 0 && (
+            <Select value={classFilter} onValueChange={setClassFilter}>
+              <SelectTrigger className="h-9 w-40"><SelectValue /></SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All classes</SelectItem>
+                {classOptions.map((c) => <SelectItem key={c} value={c}>{c}</SelectItem>)}
+              </SelectContent>
+            </Select>
+          )}
+        </div>
         {students.length === 0 ? (
-          <p className="text-blue-600 px-2 py-6">No students from your school have registered yet.</p>
+          <p className="text-blue-600 px-2 py-6">{q || classFilter !== "all" ? "No students match your search." : "No students from your school have registered yet."}</p>
+
         ) : (
           <Table>
             <TableHeader>
@@ -766,21 +806,38 @@ function RosterTab() {
   const { data, isLoading } = useQuery({ queryKey: ["school-roster"], queryFn: () => fetchRoster() });
   const roster = data?.roster ?? [];
 
+  const [className, setClassName] = useState("");
   const [paste, setPaste] = useState("");
+  const [search, setSearch] = useState("");
+
+  // Title-case any lowercase or underscored names as they type — so the roster
+  // stays clean even if a principal pastes messy data. (Preserves already-cased names.)
+  const cleanName = (s: string) =>
+    s
+      .replace(/[._\-]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .split(" ")
+      .map((w) => (/[A-Z]/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()))
+      .join(" ");
+
+  const parsedEntries = paste
+    .split(/\r?\n/)
+    .map((line) => cleanName(line))
+    .filter((n) => n.length >= 2);
+  const parsedCount = parsedEntries.length;
+
   const upload = useMutation({
     mutationFn: () => {
-      const entries = paste
-        .split(/\r?\n/)
-        .map((line) => line.trim())
-        .filter(Boolean)
-        .map((line) => {
-          const [name, klass] = line.split(/[,;\t]/).map((s) => s.trim());
-          return { fullName: name, className: klass || undefined };
-        });
+      const cls = className.trim();
+      const entries = parsedEntries.map((name) => ({
+        fullName: name,
+        className: cls || undefined,
+      }));
       return bulk({ data: { entries } });
     },
     onSuccess: (res) => {
-      toast.success(`${(res as any).added ?? 0} students added`);
+      toast.success(`${(res as any).added ?? 0} students added to ${className || "no class"}`);
       setPaste("");
       qc.invalidateQueries({ queryKey: ["school-roster"] });
       qc.invalidateQueries({ queryKey: ["school-students"] });
@@ -797,37 +854,89 @@ function RosterTab() {
     },
   });
 
+  const q = search.trim().toLowerCase();
+  const filteredRoster = q
+    ? roster.filter((r: any) =>
+        (r.full_name ?? "").toLowerCase().includes(q) ||
+        (r.class_name ?? "").toLowerCase().includes(q),
+      )
+    : roster;
+
   return (
     <div className="space-y-6">
-      <div className="glass-card-light p-5 space-y-3">
-        <h3 className="font-bold text-blue-900">Bulk upload your class roster</h3>
-        <p className="text-sm text-blue-600">
-          Paste one student per line. Format: <code className="bg-blue-50 px-1 rounded">Full Name, Class</code>. Class is optional. Up to 1000 per upload.
-        </p>
-        <Textarea
-          value={paste}
-          onChange={(e) => setPaste(e.target.value)}
-          rows={8}
-          placeholder={"Tariro Moyo, Form 5A\nBongani Khumalo, Form 5A\nChipo Ndlovu, Form 6B"}
-        />
-        <Button onClick={() => upload.mutate()} disabled={upload.isPending || !paste.trim()} className="premium-button">
+      <div className="glass-card-light p-5 space-y-4">
+        <div>
+          <h3 className="font-bold text-blue-900">Bulk upload your class roster</h3>
+          <p className="text-sm text-blue-600">
+            Step 1: name the class. Step 2: paste one student name per line. We auto-clean the casing so names look proper on certificates.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="sm:col-span-1">
+            <Label htmlFor="cls">Class name</Label>
+            <Input
+              id="cls"
+              value={className}
+              onChange={(e) => setClassName(e.target.value)}
+              placeholder="e.g. Form 4A"
+            />
+          </div>
+          <div className="sm:col-span-2">
+            <Label>Preview</Label>
+            <div className="h-10 rounded-md border border-blue-100 bg-blue-50 px-3 flex items-center text-sm text-blue-800">
+              {className.trim() ? (
+                <>Uploading <strong className="mx-1">{parsedCount}</strong> student{parsedCount === 1 ? "" : "s"} to <strong className="mx-1">{className.trim()}</strong></>
+              ) : (
+                <span className="text-blue-500">Enter a class name first…</span>
+              )}
+            </div>
+          </div>
+        </div>
+        <div>
+          <Label htmlFor="paste">Student names (one per line)</Label>
+          <Textarea
+            id="paste"
+            value={paste}
+            onChange={(e) => setPaste(e.target.value)}
+            rows={8}
+            placeholder={"Tinashe Lee Vurayai\nTariro Moyo\nBongani Khumalo\nChipo Ndlovu"}
+          />
+        </div>
+        <Button
+          onClick={() => upload.mutate()}
+          disabled={upload.isPending || !className.trim() || parsedCount === 0}
+          className="premium-button"
+        >
           {upload.isPending && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
-          Upload roster
+          Upload {parsedCount > 0 ? `${parsedCount} student${parsedCount === 1 ? "" : "s"}` : "roster"}
         </Button>
       </div>
 
+
       <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
+        <div className="flex flex-wrap items-center gap-2 px-2 pt-2 pb-1">
+          <h3 className="font-bold text-blue-900 mr-auto">Roster ({filteredRoster.length}{q ? ` / ${roster.length}` : ""})</h3>
+          <div className="relative">
+            <Search className="w-4 h-4 text-blue-400 absolute left-2.5 top-1/2 -translate-y-1/2" />
+            <Input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search name or class…"
+              className="h-9 pl-8 w-56"
+            />
+          </div>
+        </div>
         {isLoading ? (
           <p className="text-blue-500 p-4">Loading roster…</p>
-        ) : roster.length === 0 ? (
-          <p className="text-blue-600 p-6 text-center">No roster entries yet.</p>
+        ) : filteredRoster.length === 0 ? (
+          <p className="text-blue-600 p-6 text-center">{q ? "No matches." : "No roster entries yet."}</p>
         ) : (
           <Table>
             <TableHeader>
               <TableRow><TableHead>Name</TableHead><TableHead>Class</TableHead><TableHead></TableHead></TableRow>
             </TableHeader>
             <TableBody>
-              {roster.map((r: any) => (
+              {filteredRoster.map((r: any) => (
                 <TableRow key={r.id}>
                   <TableCell className="font-medium text-blue-900">{r.full_name}</TableCell>
                   <TableCell>{r.class_name ?? "-"}</TableCell>
@@ -842,6 +951,7 @@ function RosterTab() {
           </Table>
         )}
       </div>
+
     </div>
   );
 }
