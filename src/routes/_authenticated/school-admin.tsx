@@ -335,9 +335,30 @@ function StudentsTab() {
       )}
 
       <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
-        <h3 className="font-bold text-blue-900 px-2 pt-2">Registered students ({students.length})</h3>
+        <div className="flex flex-wrap items-center gap-2 px-2 pt-2">
+          <h3 className="font-bold text-blue-900 mr-auto">Registered students ({students.length}{q || classFilter !== "all" ? ` / ${allStudents.length}` : ""})</h3>
+          <div className="relative">
+            <Search className="w-4 h-4 text-blue-400 absolute left-2.5 top-1/2 -translate-y-1/2" />
+            <Input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search name, email, class…"
+              className="h-9 pl-8 w-56"
+            />
+          </div>
+          {classOptions.length > 0 && (
+            <Select value={classFilter} onValueChange={setClassFilter}>
+              <SelectTrigger className="h-9 w-40"><SelectValue /></SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All classes</SelectItem>
+                {classOptions.map((c) => <SelectItem key={c} value={c}>{c}</SelectItem>)}
+              </SelectContent>
+            </Select>
+          )}
+        </div>
         {students.length === 0 ? (
-          <p className="text-blue-600 px-2 py-6">No students from your school have registered yet.</p>
+          <p className="text-blue-600 px-2 py-6">{q || classFilter !== "all" ? "No students match your search." : "No students from your school have registered yet."}</p>
+
         ) : (
           <Table>
             <TableHeader>
