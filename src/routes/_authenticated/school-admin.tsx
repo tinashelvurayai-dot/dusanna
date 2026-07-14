@@ -806,21 +806,38 @@ function RosterTab() {
   const { data, isLoading } = useQuery({ queryKey: ["school-roster"], queryFn: () => fetchRoster() });
   const roster = data?.roster ?? [];
 
+  const [className, setClassName] = useState("");
   const [paste, setPaste] = useState("");
+  const [search, setSearch] = useState("");
+
+  // Title-case any lowercase or underscored names as they type — so the roster
+  // stays clean even if a principal pastes messy data. (Preserves already-cased names.)
+  const cleanName = (s: string) =>
+    s
+      .replace(/[._\-]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .split(" ")
+      .map((w) => (/[A-Z]/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()))
+      .join(" ");
+
+  const parsedEntries = paste
+    .split(/\r?\n/)
+    .map((line) => cleanName(line))
+    .filter((n) => n.length >= 2);
+  const parsedCount = parsedEntries.length;
+
   const upload = useMutation({
     mutationFn: () => {
-      const entries = paste
-        .split(/\r?\n/)
-        .map((line) => line.trim())
-        .filter(Boolean)
-        .map((line) => {
-          const [name, klass] = line.split(/[,;\t]/).map((s) => s.trim());
-          return { fullName: name, className: klass || undefined };
-        });
+      const cls = className.trim();
+      const entries = parsedEntries.map((name) => ({
+        fullName: name,
+        className: cls || undefined,
+      }));
       return bulk({ data: { entries } });
     },
     onSuccess: (res) => {
-      toast.success(`${(res as any).added ?? 0} students added`);
+      toast.success(`${(res as any).added ?? 0} students added to ${className || "no class"}`);
       setPaste("");
       qc.invalidateQueries({ queryKey: ["school-roster"] });
       qc.invalidateQueries({ queryKey: ["school-students"] });
@@ -837,24 +854,64 @@ function RosterTab() {
     },
   });
 
+  const q = search.trim().toLowerCase();
+  const filteredRoster = q
+    ? roster.filter((r: any) =>
+        (r.full_name ?? "").toLowerCase().includes(q) ||
+        (r.class_name ?? "").toLowerCase().includes(q),
+      )
+    : roster;
+
   return (
     <div className="space-y-6">
-      <div className="glass-card-light p-5 space-y-3">
-        <h3 className="font-bold text-blue-900">Bulk upload your class roster</h3>
-        <p className="text-sm text-blue-600">
-          Paste one student per line. Format: <code className="bg-blue-50 px-1 rounded">Full Name, Class</code>. Class is optional. Up to 1000 per upload.
-        </p>
-        <Textarea
-          value={paste}
-          onChange={(e) => setPaste(e.target.value)}
-          rows={8}
-          placeholder={"Tariro Moyo, Form 5A\nBongani Khumalo, Form 5A\nChipo Ndlovu, Form 6B"}
-        />
-        <Button onClick={() => upload.mutate()} disabled={upload.isPending || !paste.trim()} className="premium-button">
+      <div className="glass-card-light p-5 space-y-4">
+        <div>
+          <h3 className="font-bold text-blue-900">Bulk upload your class roster</h3>
+          <p className="text-sm text-blue-600">
+            Step 1: name the class. Step 2: paste one student name per line. We auto-clean the casing so names look proper on certificates.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="sm:col-span-1">
+            <Label htmlFor="cls">Class name</Label>
+            <Input
+              id="cls"
+              value={className}
+              onChange={(e) => setClassName(e.target.value)}
+              placeholder="e.g. Form 4A"
+            />
+          </div>
+          <div className="sm:col-span-2">
+            <Label>Preview</Label>
+            <div className="h-10 rounded-md border border-blue-100 bg-blue-50 px-3 flex items-center text-sm text-blue-800">
+              {className.trim() ? (
+                <>Uploading <strong className="mx-1">{parsedCount}</strong> student{parsedCount === 1 ? "" : "s"} to <strong className="mx-1">{className.trim()}</strong></>
+              ) : (
+                <span className="text-blue-500">Enter a class name first…</span>
+              )}
+            </div>
+          </div>
+        </div>
+        <div>
+          <Label htmlFor="paste">Student names (one per line)</Label>
+          <Textarea
+            id="paste"
+            value={paste}
+            onChange={(e) => setPaste(e.target.value)}
+            rows={8}
+            placeholder={"Tinashe Lee Vurayai\nTariro Moyo\nBongani Khumalo\nChipo Ndlovu"}
+          />
+        </div>
+        <Button
+          onClick={() => upload.mutate()}
+          disabled={upload.isPending || !className.trim() || parsedCount === 0}
+          className="premium-button"
+        >
           {upload.isPending && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
-          Upload roster
+          Upload {parsedCount > 0 ? `${parsedCount} student${parsedCount === 1 ? "" : "s"}` : "roster"}
         </Button>
       </div>
+
 
       <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
         {isLoading ? (
