@@ -290,12 +290,28 @@ function StudentsTab() {
   const [drilldownId, setDrilldownId] = useState<string | null>(null);
   const [motivationOpen, setMotivationOpen] = useState(false);
   const [motivationText, setMotivationText] = useState("");
+  const [search, setSearch] = useState("");
+  const [classFilter, setClassFilter] = useState<string>("all");
 
   if (isLoading) return <p className="text-blue-500 py-8">Loading students…</p>;
-  const students = (data?.students ?? []) as StudentRow[];
+  const allStudents = (data?.students ?? []) as StudentRow[];
   const unmatched = data?.unmatched ?? [];
 
+  const classOptions = Array.from(new Set(allStudents.map((s) => s.className).filter(Boolean))) as string[];
+  const q = search.trim().toLowerCase();
+  const students = allStudents.filter((s) => {
+    if (classFilter !== "all" && (s.className ?? "") !== classFilter) return false;
+    if (!q) return true;
+    return (
+      (s.fullName ?? "").toLowerCase().includes(q) ||
+      (s.email ?? "").toLowerCase().includes(q) ||
+      (s.className ?? "").toLowerCase().includes(q) ||
+      (s.mobileNumber ?? "").toLowerCase().includes(q)
+    );
+  });
+
   const flaggedCount = students.reduce((n, s) => n + (computeRisks(s).length > 0 ? 1 : 0), 0);
+
 
   const openMotivation = (s: StudentRow) => {
     const risks = computeRisks(s);
