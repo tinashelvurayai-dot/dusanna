@@ -3,13 +3,14 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 import {
-  School, Users, GraduationCap, DollarSign, Upload, Trash2, Loader2, ShieldAlert,
-  ChartBar, CheckCircle2, AlertTriangle, Sparkles, MessageSquare, FileDown, Eye,
+  Users, GraduationCap, DollarSign, Upload, Trash2, Loader2, ShieldAlert,
+  ChartBar, CheckCircle2, AlertTriangle, Sparkles, MessageSquare, FileDown, Eye, Search,
 } from "lucide-react";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Legend,
 } from "recharts";
 import jsPDF from "jspdf";
+import edusannaLogo from "@/assets/edusanna-logo.png.asset.json";
 import { SiteNavbar } from "@/components/site-navbar";
 import { SiteFooter } from "@/components/site-footer";
 import { Button } from "@/components/ui/button";
@@ -33,6 +34,7 @@ import {
   getSchoolStudentDetail,
   sendClassBroadcast,
 } from "@/lib/school.functions";
+
 
 export const Route = createFileRoute("/_authenticated/school-admin")({
   head: () => ({ meta: [{ title: "School Admin | Edusanna" }] }),
