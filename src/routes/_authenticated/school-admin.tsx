@@ -914,17 +914,29 @@ function RosterTab() {
 
 
       <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
+        <div className="flex flex-wrap items-center gap-2 px-2 pt-2 pb-1">
+          <h3 className="font-bold text-blue-900 mr-auto">Roster ({filteredRoster.length}{q ? ` / ${roster.length}` : ""})</h3>
+          <div className="relative">
+            <Search className="w-4 h-4 text-blue-400 absolute left-2.5 top-1/2 -translate-y-1/2" />
+            <Input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search name or class…"
+              className="h-9 pl-8 w-56"
+            />
+          </div>
+        </div>
         {isLoading ? (
           <p className="text-blue-500 p-4">Loading roster…</p>
-        ) : roster.length === 0 ? (
-          <p className="text-blue-600 p-6 text-center">No roster entries yet.</p>
+        ) : filteredRoster.length === 0 ? (
+          <p className="text-blue-600 p-6 text-center">{q ? "No matches." : "No roster entries yet."}</p>
         ) : (
           <Table>
             <TableHeader>
               <TableRow><TableHead>Name</TableHead><TableHead>Class</TableHead><TableHead></TableHead></TableRow>
             </TableHeader>
             <TableBody>
-              {roster.map((r: any) => (
+              {filteredRoster.map((r: any) => (
                 <TableRow key={r.id}>
                   <TableCell className="font-medium text-blue-900">{r.full_name}</TableCell>
                   <TableCell>{r.class_name ?? "-"}</TableCell>
@@ -939,6 +951,7 @@ function RosterTab() {
           </Table>
         )}
       </div>
+
     </div>
   );
 }
