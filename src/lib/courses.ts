@@ -7,6 +7,7 @@ import { getCertificateModules } from "./certificate-course-modules";
 import { getDiplomaModules } from "./diploma-course-modules";
 import { getCourseSkills } from "./course-skills";
 import { courseContentMeta } from "./generated/course-content-meta";
+import { specialCourseContentMeta } from "./generated/special-course-meta";
 import { courseContentLoaders } from "./generated/course-content-registry";
 
 export type CourseLevel = "certificate" | "diploma";
@@ -38,7 +39,7 @@ export function getCategory(id: string) {
  * certificate and diploma levels share it.
  */
 export function getCourseContent(id: string, _level: CourseLevel): CourseContent | undefined {
-  const meta = courseContentMeta[id];
+  const meta = specialCourseContentMeta[id] ?? courseContentMeta[id];
   if (meta) {
     return {
       id,
