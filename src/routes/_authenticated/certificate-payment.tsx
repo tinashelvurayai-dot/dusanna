@@ -211,7 +211,50 @@ function CertificatePaymentPage() {
               </Button>
             </div>
 
-            {isAcademia ? (
+            {isSpecial ? (
+              <div className="text-left">
+                <div className="rounded-xl bg-teal-50 border border-teal-100 p-5 mb-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Leaf className="w-4 h-4 text-teal-700" />
+                    <span className="text-sm font-bold text-teal-900">AHEP special programme</span>
+                  </div>
+                  <p className="text-sm text-teal-800">
+                    Submit your details and choose the payment options that suit you. The Edusanna team reviews every request in the admin dashboard and sends you payment guidance.
+                  </p>
+                </div>
+                <p className="text-sm font-bold text-blue-900 mb-1">Flexible payment options</p>
+                <p className="text-xs text-blue-600 mb-3">Select all the methods you are comfortable with:</p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-4">
+                  {[
+                    { id: "ecocash", label: "Ecocash", icon: <Smartphone className="w-4 h-4" /> },
+                    { id: "mukuru", label: "Mukuru", icon: <Wallet className="w-4 h-4" /> },
+                    { id: "wechat_pay", label: "WeChat Pay", icon: <MessageCircle className="w-4 h-4" /> },
+                    { id: "bank_transfer", label: "Bank transfer", icon: <Wallet className="w-4 h-4" /> },
+                    { id: "cash", label: "Cash", icon: <Wallet className="w-4 h-4" /> },
+                    { id: "paypal", label: "PayPal", icon: <ShieldCheck className="w-4 h-4" /> },
+                  ].map((m) => (
+                    <AltMethodButton
+                      key={m.id}
+                      active={altMethods.includes(m.id)}
+                      onClick={() => toggleAltMethod(m.id)}
+                      icon={m.icon}
+                      label={m.label}
+                    />
+                  ))}
+                </div>
+                <Button
+                  onClick={handleAltSubmit}
+                  disabled={altSubmitting || !verified || altMethods.length === 0}
+                  className="premium-button w-full py-3"
+                >
+                  {altSubmitting ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Send className="w-4 h-4 mr-2" />}
+                  Submit details to Edusanna
+                </Button>
+                <p className="flex items-center justify-center gap-1.5 text-xs text-blue-500 mt-3">
+                  <ShieldCheck className="w-4 h-4" /> Your submission appears in the admin dashboard
+                </p>
+              </div>
+            ) : isAcademia ? (
               <>
                 <div className="rounded-xl bg-purple-50 border border-purple-100 p-5 mb-6 text-left">
                   <div className="flex items-center gap-2 mb-2">
