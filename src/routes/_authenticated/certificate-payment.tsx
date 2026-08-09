@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck, GraduationCap, Smartphone, Wallet, MessageCircle, Send } from "lucide-react";
+import { Award, ArrowLeft, Loader2, ShieldCheck, UserCheck, GraduationCap, Smartphone, Wallet, MessageCircle, Send, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -12,6 +12,7 @@ import { getCatalogItem, getCourseTitle, PRICES, type CourseLevel } from "@/lib/
 import { createPayPalOrder } from "@/lib/paypal.functions";
 import { getMyFullName, verifyFullName, submitAcademiaCertificate } from "@/lib/profile.functions";
 import { submitAltPaymentRequest } from "@/lib/alt-payment.functions";
+import { isSpecialCourse } from "@/lib/special-courses";
 import {
   Dialog,
   DialogContent,
@@ -54,7 +55,8 @@ function CertificatePaymentPage() {
   const item = getCatalogItem(courseId);
   const title = item ? getCourseTitle(item, level) : courseId;
   const price = PRICES[level as CourseLevel];
-  const isAcademia = signupType === "academia";
+  const isSpecial = isSpecialCourse(courseId);
+  const isAcademia = signupType === "academia" && !isSpecial;
 
   useEffect(() => {
     if (error === "cancelled") toast.info("Payment cancelled. You can try again any time.");
