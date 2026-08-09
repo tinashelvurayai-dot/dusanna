@@ -2,6 +2,8 @@
 import type { CourseContent } from "@/lib/course-content-types";
 
 export const courseContentLoaders: Record<string, () => Promise<CourseContent>> = {
+  "ahep-plastic-pollution": () => import("../lib/courses/lib/courses/diplomas/ahep-plastic-pollution-course-data").then((m) => (m as any).AHEPPlasticPollutionDiploma as CourseContent),
+  "ahep-pollution-plastique": () => import("../lib/courses/lib/courses/diplomas/ahep-pollution-plastique-course-data").then((m) => (m as any).AHEPPlasticPollutionDiplomaFR as CourseContent),
   "accounting": () => import("../lib/courses/lib/courses/diplomas/accounting-course-data").then((m) => (m as any).accountingProfessionalDiplomaData as CourseContent),
   "accounting-professional": () => import("../lib/courses/lib/courses/diplomas/accounting-professional-course-data").then((m) => (m as any).AccountingDiplomaCourse as CourseContent),
   "addiction-counseling": () => import("../lib/courses/lib/courses/diplomas/addiction-counseling-course-data").then((m) => (m as any).addictionCounselingDiploma as CourseContent),

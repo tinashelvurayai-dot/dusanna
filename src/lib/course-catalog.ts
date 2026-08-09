@@ -1,5 +1,6 @@
 import type { CourseCatalogItem } from "./course-types"
 import { courseCatalogExtra } from "./generated/course-catalog-extra"
+import { specialCourseCatalog } from "./special-courses"
 
 export const courseCategories = [
   { id: "health", name: "Healthcare & Wellness", color: "from-pink-500 to-rose-500" },
@@ -709,7 +710,7 @@ const baseCourseCatalog: CourseCatalogItem[] = [
 ]
 
 // Merge the curated A-Z catalog with the courses imported from the content library.
-export const courseCatalog: CourseCatalogItem[] = [...baseCourseCatalog, ...courseCatalogExtra]
+export const courseCatalog: CourseCatalogItem[] = [...specialCourseCatalog, ...baseCourseCatalog, ...courseCatalogExtra]
 
 export function getCoursesByLetter(letter: string) {
   return courseCatalog.filter((course) => course.letter === letter)
