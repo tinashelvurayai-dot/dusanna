@@ -1,14 +1,15 @@
+import { pageHead } from "@/lib/site";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { SmartBack } from "@/components/smart-back";
 
 export const Route = createFileRoute("/privacy")({
-  head: () => ({
-    meta: [
-      { title: "Privacy Policy | Edusanna" },
-      { name: "description", content: "Edusanna Privacy Policy and data protection information." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Privacy Policy | Edusanna",
+      description: "Edusanna Privacy Policy, data protection and no-refunds payment information.",
+      path: "/privacy",
+    }),
   component: PrivacyPage,
 });
 

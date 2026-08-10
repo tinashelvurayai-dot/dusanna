@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
-import logo from "@/assets/edusanna-logo.png.asset.json";
+const logo = { url: "/logo.webp" };
 import { SmartBack } from "@/components/smart-back";
 
 export const Route = createFileRoute("/admin-gate")({

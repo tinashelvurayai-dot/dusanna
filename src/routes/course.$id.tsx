@@ -7,9 +7,12 @@ import { SiteFooter } from "@/components/site-footer";
 import { toast } from "sonner";
 import {
   getCatalogItem, getCourseTitle, getCourseModules, getCourseContent, getSkills, getCategory,
-  PRICES, type CourseLevel,
+  type CourseLevel,
 } from "@/lib/courses";
 import { getCourseIcon } from "@/lib/course-icons";
+import { isSpecialCourse, GLOBAL_AHEP, specialCourseLanguage } from "@/lib/special-courses";
+import { getCoursePrice } from "@/lib/pricing";
+import { pageHead } from "@/lib/site";
 import { getCourseImage } from "@/lib/course-images";
 import { useAuth } from "@/lib/auth";
 import { supabase } from "@/integrations/supabase/client";
@@ -20,16 +23,19 @@ export const Route = createFileRoute("/course/$id")({
     if (!item) throw notFound();
     return { item };
   },
-  head: ({ loaderData }) => {
+  head: ({ loaderData, params }) => {
     const item = loaderData?.item;
-    const title = item ? `${item.certificateTitle} - Certificate & Diploma | Edusanna` : "Course | Edusanna";
-    const desc = item
-      ? `Study ${item.certificateTitle} free on Edusanna. Earn a Certificate ($12) or advance to the ${item.diplomaTitle} Diploma ($18).`
-      : "Edusanna course";
-    return { meta: [
-      { title }, { name: "description", content: desc },
-      { property: "og:title", content: title }, { property: "og:description", content: desc },
-    ] };
+    if (!item) {
+      return pageHead({ title: "Course | Edusanna", description: "Edusanna course", path: `/course/${params.id}` });
+    }
+    const special = isSpecialCourse(item.id);
+    const title = special
+      ? `${item.diplomaTitle} | ${GLOBAL_AHEP.name}`
+      : `${item.certificateTitle} - Certificate & Diploma | Edusanna`;
+    const desc = special
+      ? `Study the ${GLOBAL_AHEP.name} diploma (${specialCourseLanguage[item.id]}) free on Edusanna and claim your official diploma for $${getCoursePrice(item.id, "diploma")}.`
+      : `Study ${item.certificateTitle} free on Edusanna. Earn a Certificate ($12) or advance to the ${item.diplomaTitle} Diploma ($18).`;
+    return pageHead({ title, description: desc, path: `/course/${item.id}`, type: "article" });
   },
   component: CoursePage,
   notFoundComponent: () => (
@@ -44,7 +50,9 @@ function CoursePage() {
   const { item } = Route.useLoaderData();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [level, setLevel] = useState<CourseLevel>("certificate");
+  const special = isSpecialCourse(item.id);
+  const [level, setLevel] = useState<CourseLevel>(special ? "diploma" : "certificate");
+  const price = getCoursePrice(item.id, level);
   const [enrolling, setEnrolling] = useState(false);
 
   const Icon = getCourseIcon(item.icon);
@@ -89,7 +97,7 @@ function CoursePage() {
             <div className="flex items-start gap-5">
               {image ? (
                 <div className="w-24 h-24 rounded-2xl overflow-hidden flex-shrink-0 bg-blue-50">
-                  <img src={image} alt={item.certificateTitle} loading="eager" fetchPriority="high" decoding="async" width={200} height={200} className="w-full h-full object-cover" />
+                  <img src={image} alt={`${title} course cover`} loading="eager" fetchPriority="high" decoding="async" width={200} height={200} className="w-full h-full object-cover" />
                 </div>
               ) : (
                 <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${item.color} flex items-center justify-center flex-shrink-0`}>
@@ -108,7 +116,21 @@ function CoursePage() {
               </div>
             </div>
 
-            {/* Level toggle */}
+            {/* Level toggle - Global AHEP programmes are diploma only */}
+            {special ? (
+              <div className="mt-8 rounded-xl border-2 border-teal-200 bg-teal-50/60 p-4">
+                <div className="flex items-center justify-between">
+                  <span className="font-bold text-blue-900">{GLOBAL_AHEP.name} Diploma</span>
+                  <span className="font-black text-blue-700">${price}</span>
+                </div>
+                <p className="text-xs text-blue-600 mt-1">
+                  {specialCourseLanguage[item.id]} - diploma only, no certificate version. Flexible payment options available.
+                </p>
+                <Link to="/global-ahep" className="text-xs font-semibold text-teal-700 underline mt-2 inline-block">
+                  About {GLOBAL_AHEP.name}
+                </Link>
+              </div>
+            ) : (
             <div className="flex gap-3 mt-8">
               {(["certificate", "diploma"] as CourseLevel[]).map((lv) => (
                 <button
@@ -118,12 +140,13 @@ function CoursePage() {
                 >
                   <div className="flex items-center justify-between">
                     <span className="font-bold text-blue-900 capitalize">{lv}</span>
-                    <span className="font-black text-blue-700">${PRICES[lv]}</span>
+                    <span className="font-black text-blue-700">${getCoursePrice(item.id, lv)}</span>
                   </div>
                   <p className="text-xs text-blue-500 mt-1">{lv === "certificate" ? item.certificateTitle : item.diplomaTitle}</p>
                 </button>
               ))}
             </div>
+            )}
 
             <Button onClick={handleStart} disabled={enrolling} className="premium-button w-full mt-6 py-3 text-lg">
               {enrolling && <Loader2 className="w-5 h-5 mr-2 animate-spin" />}
@@ -135,11 +158,11 @@ function CoursePage() {
                 onClick={() => navigate({ to: "/certificate-payment", search: { courseId: item.id, level } })}
                 className="w-full mt-3 py-3 border-blue-200 text-blue-700 hover:bg-blue-50"
               >
-                <Award className="w-5 h-5 mr-2" /> Get official {level} - ${PRICES[level]}
+                <Award className="w-5 h-5 mr-2" /> Get official {level} - ${price}
               </Button>
             )}
             <p className="text-center text-xs text-blue-500 mt-2">
-              Learning is free. Pay ${PRICES[level]} only when you're ready for your official {level}.
+              Learning is free. Pay ${price} only when you're ready for your official {level}.
             </p>
           </div>
         </div>

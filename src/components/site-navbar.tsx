@@ -6,7 +6,7 @@ import { useServerFn } from "@tanstack/react-start";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
 import { checkIsAdmin } from "@/lib/admin.functions";
-import logo from "@/assets/edusanna-logo.png.asset.json";
+const logo = { url: "/logo.webp" };
 
 
 

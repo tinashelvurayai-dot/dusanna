@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { useRef } from "react";
 import { Mail } from "lucide-react";
-import logo from "@/assets/edusanna-logo.png.asset.json";
+const logo = { url: "/logo.webp" };
 
 export function SiteFooter() {
   const navigate = useNavigate();
