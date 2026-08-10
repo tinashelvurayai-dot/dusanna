@@ -1,5 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import { pageHead } from "@/lib/site";
 import { Loader2, Building2, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -9,7 +10,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { lovable } from "@/integrations/lovable/index";
 import { useAuth } from "@/lib/auth";
 import { PhoneInput, COUNTRIES, type Country } from "@/components/phone-input";
-import logo from "@/assets/edusanna-logo.png.asset.json";
+const logo = { url: "/logo.webp" };
 import { SmartBack } from "@/components/smart-back";
 import { LegalModal } from "@/components/legal-modal";
 
@@ -22,12 +23,12 @@ export const Route = createFileRoute("/auth")({
   validateSearch: (search: Record<string, unknown>): { mode: AuthMode } => ({
     mode: search.mode === "signup" ? "signup" : "login",
   }),
-  head: () => ({
-    meta: [
-      { title: "Sign In or Sign Up | Edusanna" },
-      { name: "description", content: "Create your free Edusanna account or log in to continue learning." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Sign In or Sign Up | Edusanna",
+      description: "Create your free Edusanna account or log in to continue learning.",
+      path: "/auth",
+    }),
   component: AuthPage,
 });
 

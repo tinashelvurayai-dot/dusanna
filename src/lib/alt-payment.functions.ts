@@ -1,7 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 
-const PRICES: Record<string, number> = { certificate: 12, diploma: 18 };
+import { getCoursePrice, type PriceLevel } from "@/lib/pricing";
 const ALLOWED_METHODS = ["ecocash", "mukuru", "wechat_pay"] as const;
 type Method = (typeof ALLOWED_METHODS)[number];
 
@@ -56,7 +56,7 @@ export const submitAltPaymentRequest = createServerFn({ method: "POST" })
       course_id: data.courseId,
       course_name: data.courseName,
       level: data.level,
-      amount: PRICES[data.level],
+      amount: getCoursePrice(data.courseId, data.level as PriceLevel),
       methods: data.methods,
       status: "pending",
     });
@@ -70,7 +70,7 @@ export const submitAltPaymentRequest = createServerFn({ method: "POST" })
         .map((m) => (m === "wechat_pay" ? "WeChat Pay" : m === "mukuru" ? "Mukuru" : "Ecocash"))
         .join(", ");
       await notifyAdminTelegram(
-        `Alt-payment request: ${label} for "${data.courseName}" by ${profile.full_name ?? profile.email ?? "learner"} (${profile.email ?? "no email"}). Preferred: ${methodLabel}. Amount: $${PRICES[data.level]}.`,
+        `Alt-payment request: ${label} for "${data.courseName}" by ${profile.full_name ?? profile.email ?? "learner"} (${profile.email ?? "no email"}). Preferred: ${methodLabel}. Amount: $${getCoursePrice(data.courseId, data.level as PriceLevel)}.`,
       );
     } catch {
       /* never block */

@@ -2,7 +2,7 @@ import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { getRequestHeader } from "@tanstack/react-start/server";
 
-const PRICES: Record<string, number> = { certificate: 12, diploma: 18 };
+import { getCoursePrice, type PriceLevel } from "@/lib/pricing";
 
 function apiBase() {
   return process.env.PAYPAL_API_BASE || "https://api-m.paypal.com";
@@ -51,7 +51,7 @@ export const createPayPalOrder = createServerFn({ method: "POST" })
     return input;
   })
   .handler(async ({ data }) => {
-    const amount = PRICES[data.level];
+    const amount = getCoursePrice(data.courseId, data.level as PriceLevel);
     const token = await getAccessToken();
     const label = data.level === "diploma" ? "Diploma" : "Certificate";
     const origin = appOrigin();

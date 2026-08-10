@@ -39,7 +39,7 @@ export const verifyFullName = createServerFn({ method: "POST" })
     return { fullName: data.fullName };
   });
 
-const PRICES: Record<string, number> = { certificate: 12, diploma: 18 };
+import { getCoursePrice, type PriceLevel } from "@/lib/pricing";
 
 /**
  * Academia (contracted-school) submission. Academia learners do NOT pay via
@@ -101,7 +101,7 @@ export const submitAcademiaCertificate = createServerFn({ method: "POST" })
       course_id: data.courseId,
       course_name: data.courseName,
       certificate_type: data.level,
-      amount: PRICES[data.level],
+      amount: getCoursePrice(data.courseId, data.level as PriceLevel),
       payment_status: "noted",
       certificate_id: certificateId,
     });

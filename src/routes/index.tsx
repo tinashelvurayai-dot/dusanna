@@ -12,16 +12,16 @@ import { getCommunityStats } from "@/lib/stats.functions";
 import { getSampleCertificate } from "@/lib/admin.functions";
 import { CertificatePreview } from "@/components/certificate-preview";
 import { PriceTag } from "@/components/price-tag";
+import { pageHead } from "@/lib/site";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Edusanna - Free Online Learning Platform | African Education" },
-      { name: "description", content: "Create a free Edusanna account and study 70+ certificate and diploma courses A-Z. Learn free, track your progress, and only pay when you're ready for an official credential." },
-      { property: "og:title", content: "Edusanna - Learn Anything. Completely Free." },
-      { property: "og:description", content: "Africa's leading free online learning platform with certificate and diploma programs." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Edusanna - Free Online Learning Platform | African Education",
+      description:
+        "Create a free Edusanna account and study 200+ certificate and diploma courses A-Z. Learn free, track your progress, and only pay when you're ready for an official credential.",
+      path: "/",
+    }),
   component: Index,
 });
 
@@ -33,7 +33,7 @@ const features = [
 ];
 
 const stats = [
-  { number: "70+", label: "Courses (A-Z)" },
+  { number: "200+", label: "Courses (A-Z)" },
   { number: "2 Levels", label: "Certificate & Diploma" },
   { number: "FREE", label: "Learning" },
   { number: "24/7", label: "Support" },
@@ -277,7 +277,7 @@ function Index() {
           <ShieldCheck className="w-14 h-14 text-white mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-black text-white mb-4">Start learning today - it's free</h2>
           <p className="text-blue-50 text-lg mb-8 max-w-2xl mx-auto">
-            Join Edusanna and unlock 70+ courses. Pay only when you're ready for your official credential.
+            Join Edusanna and unlock 200+ courses. Pay only when you're ready for your official credential.
           </p>
           <Link to="/auth" search={{ mode: "signup" }}>
             <Button className="bg-white text-blue-700 hover:bg-blue-50 text-lg font-bold px-8 py-4 rounded-xl shadow-lg">

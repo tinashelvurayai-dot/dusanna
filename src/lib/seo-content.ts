@@ -43,7 +43,7 @@ export const platformBenefits = [
       "Learn at your own pace with unlimited access",
       "Earn recognized certificates upon completion",
       "Progress tracking and personalized learning paths",
-      "Expert-curated content across 70+ courses",
+      "Expert-curated content across 200+ courses",
     ],
   },
   {

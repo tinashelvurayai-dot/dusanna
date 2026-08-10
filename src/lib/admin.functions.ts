@@ -112,7 +112,7 @@ export const listUsers = createServerFn({ method: "GET" })
     return { users: data ?? [] };
   });
 
-const PRICES: Record<string, number> = { certificate: 12, diploma: 18 };
+import { getCoursePrice, type PriceLevel } from "@/lib/pricing";
 
 /**
  * Record a manual / cash payment for a learner who paid offline.
@@ -160,7 +160,7 @@ export const createManualPayment = createServerFn({ method: "POST" })
       course_id: data.courseId || data.courseName.toLowerCase().replace(/\s+/g, "-"),
       course_name: data.courseName,
       certificate_type: data.level,
-      amount: data.comp ? 0 : PRICES[data.level],
+      amount: data.comp ? 0 : getCoursePrice(data.courseId, data.level as PriceLevel),
       payment_status: data.comp ? "certificate_sent" : "noted",
       certificate_id: certificateId,
     });

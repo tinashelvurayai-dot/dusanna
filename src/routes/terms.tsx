@@ -1,14 +1,15 @@
+import { pageHead } from "@/lib/site";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { SmartBack } from "@/components/smart-back";
 
 export const Route = createFileRoute("/terms")({
-  head: () => ({
-    meta: [
-      { title: "Terms of Service | Edusanna" },
-      { name: "description", content: "Edusanna Terms of Service and user agreement." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Terms of Service | Edusanna",
+      description: "Edusanna Terms of Service and user agreement.",
+      path: "/terms",
+    }),
   component: TermsPage,
 });
 

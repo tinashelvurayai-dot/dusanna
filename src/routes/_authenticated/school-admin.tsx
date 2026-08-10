@@ -10,7 +10,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Legend,
 } from "recharts";
 import jsPDF from "jspdf";
-import edusannaLogo from "@/assets/edusanna-logo.png.asset.json";
+const edusannaLogo = { url: "/logo.webp" };
 import { SiteNavbar } from "@/components/site-navbar";
 import { SiteFooter } from "@/components/site-footer";
 import { Button } from "@/components/ui/button";

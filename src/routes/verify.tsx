@@ -1,3 +1,4 @@
+import { pageHead } from "@/lib/site";
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
@@ -10,21 +11,13 @@ import { SiteFooter } from "@/components/site-footer";
 import { verifyCertificate } from "@/lib/verify.functions";
 
 export const Route = createFileRoute("/verify")({
-  head: () => ({
-    meta: [
-      { title: "Verify a Certificate or Diploma | Edusanna" },
-      {
-        name: "description",
-        content:
-          "Verify the authenticity of any Edusanna certificate or diploma. Enter the verification ID printed on the credential to confirm the holder, course and credential level.",
-      },
-      { property: "og:title", content: "Verify a Credential - Edusanna" },
-      {
-        property: "og:description",
-        content: "Confirm an Edusanna certificate or diploma in seconds using its verification ID.",
-      },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Verify a Certificate or Diploma | Edusanna",
+      description:
+        "Verify the authenticity of any Edusanna certificate or diploma. Enter the verification ID printed on the credential to confirm the holder, course and credential level.",
+      path: "/verify",
+    }),
   component: VerifyPage,
 });
 

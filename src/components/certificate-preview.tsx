@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import certificateSkeleton from "@/assets/certificate-skeleton.png.asset.json";
-import diplomaSkeleton from "@/assets/diploma-skeleton.png.asset.json";
+import certificateSkeleton from "@/assets/certificate-skeleton.webp.asset.json";
+import diplomaSkeleton from "@/assets/diploma-skeleton.webp.asset.json";
 
 // Preload both skeleton artworks so switching between certificate and diploma
 // previews doesn't flash the previously-cached background.

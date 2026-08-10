@@ -13,12 +13,14 @@ import { Route as VerifyRouteImport } from './routes/verify'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as GlobalAhepRouteImport } from './routes/global-ahep'
 import { Route as CoursesRouteImport } from './routes/courses'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as AdminGateRouteImport } from './routes/admin-gate'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as CourseIdRouteImport } from './routes/course.$id'
+import { Route as ApiHealthRouteImport } from './routes/api/health'
 import { Route as AuthenticatedSchoolAdminRouteImport } from './routes/_authenticated/school-admin'
 import { Route as AuthenticatedDashboardRouteImport } from './routes/_authenticated/dashboard'
 import { Route as AuthenticatedCertificateSuccessRouteImport } from './routes/_authenticated/certificate-success'
@@ -44,6 +46,11 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GlobalAhepRoute = GlobalAhepRouteImport.update({
+  id: '/global-ahep',
+  path: '/global-ahep',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CoursesRoute = CoursesRouteImport.update({
@@ -73,6 +80,11 @@ const IndexRoute = IndexRouteImport.update({
 const CourseIdRoute = CourseIdRouteImport.update({
   id: '/course/$id',
   path: '/course/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiHealthRoute = ApiHealthRouteImport.update({
+  id: '/api/health',
+  path: '/api/health',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthenticatedSchoolAdminRoute =
@@ -115,6 +127,7 @@ export interface FileRoutesByFullPath {
   '/admin-gate': typeof AdminGateRoute
   '/auth': typeof AuthRoute
   '/courses': typeof CoursesRoute
+  '/global-ahep': typeof GlobalAhepRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
@@ -124,6 +137,7 @@ export interface FileRoutesByFullPath {
   '/certificate-success': typeof AuthenticatedCertificateSuccessRoute
   '/dashboard': typeof AuthenticatedDashboardRoute
   '/school-admin': typeof AuthenticatedSchoolAdminRoute
+  '/api/health': typeof ApiHealthRoute
   '/course/$id': typeof CourseIdRoute
   '/learn/$courseId/$level': typeof AuthenticatedLearnCourseIdLevelRoute
 }
@@ -132,6 +146,7 @@ export interface FileRoutesByTo {
   '/admin-gate': typeof AdminGateRoute
   '/auth': typeof AuthRoute
   '/courses': typeof CoursesRoute
+  '/global-ahep': typeof GlobalAhepRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
@@ -141,6 +156,7 @@ export interface FileRoutesByTo {
   '/certificate-success': typeof AuthenticatedCertificateSuccessRoute
   '/dashboard': typeof AuthenticatedDashboardRoute
   '/school-admin': typeof AuthenticatedSchoolAdminRoute
+  '/api/health': typeof ApiHealthRoute
   '/course/$id': typeof CourseIdRoute
   '/learn/$courseId/$level': typeof AuthenticatedLearnCourseIdLevelRoute
 }
@@ -151,6 +167,7 @@ export interface FileRoutesById {
   '/admin-gate': typeof AdminGateRoute
   '/auth': typeof AuthRoute
   '/courses': typeof CoursesRoute
+  '/global-ahep': typeof GlobalAhepRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
@@ -160,6 +177,7 @@ export interface FileRoutesById {
   '/_authenticated/certificate-success': typeof AuthenticatedCertificateSuccessRoute
   '/_authenticated/dashboard': typeof AuthenticatedDashboardRoute
   '/_authenticated/school-admin': typeof AuthenticatedSchoolAdminRoute
+  '/api/health': typeof ApiHealthRoute
   '/course/$id': typeof CourseIdRoute
   '/_authenticated/learn/$courseId/$level': typeof AuthenticatedLearnCourseIdLevelRoute
 }
@@ -170,6 +188,7 @@ export interface FileRouteTypes {
     | '/admin-gate'
     | '/auth'
     | '/courses'
+    | '/global-ahep'
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
@@ -179,6 +198,7 @@ export interface FileRouteTypes {
     | '/certificate-success'
     | '/dashboard'
     | '/school-admin'
+    | '/api/health'
     | '/course/$id'
     | '/learn/$courseId/$level'
   fileRoutesByTo: FileRoutesByTo
@@ -187,6 +207,7 @@ export interface FileRouteTypes {
     | '/admin-gate'
     | '/auth'
     | '/courses'
+    | '/global-ahep'
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
@@ -196,6 +217,7 @@ export interface FileRouteTypes {
     | '/certificate-success'
     | '/dashboard'
     | '/school-admin'
+    | '/api/health'
     | '/course/$id'
     | '/learn/$courseId/$level'
   id:
@@ -205,6 +227,7 @@ export interface FileRouteTypes {
     | '/admin-gate'
     | '/auth'
     | '/courses'
+    | '/global-ahep'
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
@@ -214,6 +237,7 @@ export interface FileRouteTypes {
     | '/_authenticated/certificate-success'
     | '/_authenticated/dashboard'
     | '/_authenticated/school-admin'
+    | '/api/health'
     | '/course/$id'
     | '/_authenticated/learn/$courseId/$level'
   fileRoutesById: FileRoutesById
@@ -224,10 +248,12 @@ export interface RootRouteChildren {
   AdminGateRoute: typeof AdminGateRoute
   AuthRoute: typeof AuthRoute
   CoursesRoute: typeof CoursesRoute
+  GlobalAhepRoute: typeof GlobalAhepRoute
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
   VerifyRoute: typeof VerifyRoute
+  ApiHealthRoute: typeof ApiHealthRoute
   CourseIdRoute: typeof CourseIdRoute
 }
 
@@ -259,6 +285,13 @@ declare module '@tanstack/react-router' {
       path: '/privacy'
       fullPath: '/privacy'
       preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/global-ahep': {
+      id: '/global-ahep'
+      path: '/global-ahep'
+      fullPath: '/global-ahep'
+      preLoaderRoute: typeof GlobalAhepRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/courses': {
@@ -301,6 +334,13 @@ declare module '@tanstack/react-router' {
       path: '/course/$id'
       fullPath: '/course/$id'
       preLoaderRoute: typeof CourseIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/health': {
+      id: '/api/health'
+      path: '/api/health'
+      fullPath: '/api/health'
+      preLoaderRoute: typeof ApiHealthRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_authenticated/school-admin': {
@@ -375,10 +415,12 @@ const rootRouteChildren: RootRouteChildren = {
   AdminGateRoute: AdminGateRoute,
   AuthRoute: AuthRoute,
   CoursesRoute: CoursesRoute,
+  GlobalAhepRoute: GlobalAhepRoute,
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
   VerifyRoute: VerifyRoute,
+  ApiHealthRoute: ApiHealthRoute,
   CourseIdRoute: CourseIdRoute,
 }
 export const routeTree = rootRouteImport
