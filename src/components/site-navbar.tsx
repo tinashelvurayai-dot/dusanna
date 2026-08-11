@@ -47,7 +47,7 @@ export function SiteNavbar() {
   };
 
   const mobileLink =
-    "block w-full rounded-xl px-4 py-3 text-base font-semibold text-blue-800 bg-white/80 border border-blue-100 hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600";
+    "block w-full rounded-xl px-4 py-3 text-base font-semibold !text-blue-900 bg-white border border-blue-200 hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600";
 
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-[rgba(7,9,26,0.7)] border-b border-[rgba(139,124,255,0.15)]">
