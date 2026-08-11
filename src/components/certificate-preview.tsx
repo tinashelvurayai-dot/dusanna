@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
-import certificateSkeleton from "@/assets/certificate-skeleton.webp.asset.json";
-import diplomaSkeleton from "@/assets/diploma-skeleton.webp.asset.json";
+
+// Served from /public so the artwork loads on every host (Lovable preview,
+// Vercel, offline PWA cache) without depending on the editor asset proxy.
+const certificateSkeleton = { url: "/certificate-skeleton.webp" };
+const diplomaSkeleton = { url: "/diploma-skeleton.webp" };
 
 // Preload both skeleton artworks so switching between certificate and diploma
 // previews doesn't flash the previously-cached background.
