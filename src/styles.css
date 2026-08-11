@@ -209,6 +209,31 @@
   pointer-events: none;
 }
 
+/* Compact auth layouts keep the full academia registration flow above the fold on desktop. */
+@media (min-width: 768px) {
+  .auth-page { padding-block: clamp(0.75rem, 2.5vh, 2rem); }
+  .auth-card { padding: clamp(1.25rem, 2.2vh, 2rem); }
+  .auth-brand { margin-bottom: clamp(1rem, 2.2vh, 1.75rem); }
+  .auth-brand img { width: clamp(4.25rem, 8vh, 5.25rem); height: clamp(4.25rem, 8vh, 5.25rem); margin-bottom: 0.125rem; }
+  .auth-brand .text-2xl { font-size: clamp(1.25rem, 2.4vh, 1.5rem); }
+  .auth-heading { font-size: clamp(1.25rem, 2.8vh, 1.5rem); }
+  .auth-google { height: clamp(2.5rem, 4.8vh, 3rem); margin-bottom: clamp(0.5rem, 1.4vh, 1rem); }
+  .auth-card .relative.my-5 { margin-block: clamp(0.5rem, 1.4vh, 1rem); }
+  .auth-form { gap: clamp(0.45rem, 1.2vh, 0.75rem); }
+  .auth-form > div > label { font-size: 0.8125rem; line-height: 1.25rem; }
+  .auth-form input:not([type="checkbox"]) { height: clamp(2.5rem, 4.8vh, 3rem); }
+  .academia-signup-form > div > p { margin-top: 0.125rem; }
+  .auth-submit { min-height: clamp(2.5rem, 4.8vh, 3rem); padding-block: 0.5rem; }
+  .auth-card > p:last-child { margin-top: clamp(0.75rem, 1.8vh, 1.25rem); }
+}
+
+@media (max-height: 850px) and (min-width: 768px) {
+  .auth-card { padding-block: 1rem; }
+  .auth-brand { margin-bottom: 0.75rem; }
+  .auth-card > .auth-brand img { width: 4rem; height: 4rem; }
+  .auth-card .text-sm.mb-6 { margin-bottom: 0.75rem; }
+}
+
 /* Map legacy blue utilities into the dark palette without touching every file */
 @layer utilities {
   .text-blue-50, .text-blue-100, .text-blue-200 { color: rgb(199 210 254) !important; }
