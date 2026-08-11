@@ -147,10 +147,10 @@ function AuthPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-12">
-      <div className="w-full max-w-md glass-card-light p-8">
+    <div className="auth-page min-h-screen flex items-center justify-center px-4 py-[clamp(1rem,3vh,3rem)]">
+      <div className="auth-card w-full max-w-md glass-card-light p-8">
         <SmartBack fallback="/" label="Back" />
-        <Link to="/" className="flex flex-col items-center mb-8">
+        <Link to="/" className="auth-brand flex flex-col items-center mb-8">
           <img src={logo.url} alt="Edusanna logo" className="w-24 h-24 object-contain mb-2" />
           <span className="text-2xl font-bold gradient-text">EDUSANNA</span>
           <span className="text-xs text-blue-600">Elevate Your Mind</span>
@@ -158,7 +158,7 @@ function AuthPage() {
 
         {mode === "signup" && !signupType ? (
           <>
-            <h1 className="text-2xl font-bold text-blue-900 text-center mb-1">Choose your learning path</h1>
+            <h1 className="auth-heading text-2xl font-bold text-blue-900 text-center mb-1">Choose your learning path</h1>
             <p className="text-sm text-blue-600 text-center mb-6">Select the option that best fits your goals</p>
             <div className="space-y-4">
               <button
@@ -189,7 +189,7 @@ function AuthPage() {
           </>
         ) : (
         <>
-        <h1 className="text-2xl font-bold text-blue-900 text-center mb-1">
+        <h1 className="auth-heading text-2xl font-bold text-blue-900 text-center mb-1">
           {mode === "signup"
             ? `${signupType === "academia" ? "Academia" : "Standard"} sign up`
             : "Welcome back"}
@@ -198,7 +198,7 @@ function AuthPage() {
           {mode === "signup" ? "Start learning in minutes" : "Log in to continue learning"}
         </p>
 
-        <Button onClick={handleGoogle} type="button" variant="outline" className="w-full mb-5 border-blue-200 text-blue-800 hover:bg-blue-50">
+        <Button onClick={handleGoogle} type="button" variant="outline" className="auth-google w-full mb-5 border-blue-200 text-blue-800 hover:bg-blue-50">
           <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.99.66-2.26 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23z"/><path fill="#FBBC05" d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84z"/><path fill="#EA4335" d="M12 4.75c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 1.46 14.97.5 12 .5A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.3 9.14 5.37 12 4.75z"/></svg>
           Continue with Google
         </Button>
@@ -208,7 +208,7 @@ function AuthPage() {
           <div className="absolute inset-x-0 top-1/2 h-px bg-blue-100" />
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className={`auth-form space-y-4 ${mode === "signup" && signupType === "academia" ? "academia-signup-form" : ""}`}>
           {mode === "signup" && (
             <div>
               <Label htmlFor="fullName">Full name</Label>
@@ -282,7 +282,7 @@ function AuthPage() {
               </span>
             </label>
           )}
-          <Button type="submit" disabled={submitting} className="premium-button w-full py-3">
+          <Button type="submit" disabled={submitting} className="auth-submit premium-button w-full py-3">
             {submitting && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
             {mode === "signup" ? "Create account" : "Log in"}
           </Button>
