@@ -1,5 +1,6 @@
-import { Link, useNavigate } from "@tanstack/react-router";
-import { LayoutDashboard, LogOut, ShieldCheck } from "lucide-react";
+import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
+import { LayoutDashboard, LogOut, ShieldCheck, Menu, X } from "lucide-react";
+import { useEffect, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 
@@ -13,6 +14,8 @@ const logo = { url: "/logo.webp" };
 export function SiteNavbar() {
   const { user, signOut } = useAuth();
   const navigate = useNavigate();
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const checkAdmin = useServerFn(checkIsAdmin);
   const { data: adminData } = useQuery({
@@ -25,11 +28,26 @@ export function SiteNavbar() {
   // Admin gate access lives only on the footer logo. The header logo is a
   // plain link home with no hidden shortcut.
 
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (mobileMenuOpen) document.body.style.overflow = "hidden";
+    else document.body.style.overflow = "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileMenuOpen]);
 
   const handleSignOut = async () => {
+    setMobileMenuOpen(false);
     await signOut();
     navigate({ to: "/" });
   };
+
+  const mobileLink =
+    "block w-full rounded-xl px-4 py-3 text-base font-semibold text-blue-800 bg-white/80 border border-blue-100 hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600";
 
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-[rgba(7,9,26,0.7)] border-b border-[rgba(139,124,255,0.15)]">
@@ -70,6 +88,16 @@ export function SiteNavbar() {
               </>
             ) : (
               <>
+                <button
+                  type="button"
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                  aria-expanded={mobileMenuOpen}
+                  aria-controls="mobile-nav"
+                  aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+                  className="sm:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg text-blue-700 hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
+                >
+                  {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                </button>
                 <Link to="/auth" search={{ mode: "login" }} className="hidden sm:inline">
                   <Button variant="ghost" className="text-blue-700 hover:text-blue-800 hover:bg-blue-50 text-sm">Login</Button>
                 </Link>
@@ -84,6 +112,40 @@ export function SiteNavbar() {
           </div>
         </div>
       </div>
+
+      {mobileMenuOpen && (
+        <div className="sm:hidden">
+          <button
+            type="button"
+            aria-hidden="true"
+            tabIndex={-1}
+            onClick={() => setMobileMenuOpen(false)}
+            className="fixed inset-0 top-20 z-40 bg-black/40 cursor-default"
+          />
+          <div
+            id="mobile-nav"
+            className="relative z-50 border-t border-blue-100 bg-white/95 backdrop-blur-xl px-4 py-4 space-y-2 shadow-xl"
+          >
+            <Link to="/courses" className={mobileLink} onClick={() => setMobileMenuOpen(false)}>
+              Courses
+            </Link>
+            <Link to="/verify" className={mobileLink} onClick={() => setMobileMenuOpen(false)}>
+              Verify Certificate
+            </Link>
+            <Link
+              to="/auth"
+              search={{ mode: "login" }}
+              className={mobileLink}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Sign In
+            </Link>
+            <Link to="/auth" search={{ mode: "signup" }} onClick={() => setMobileMenuOpen(false)} className="block">
+              <Button className="premium-button w-full py-3 text-base">Get Started Free</Button>
+            </Link>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
