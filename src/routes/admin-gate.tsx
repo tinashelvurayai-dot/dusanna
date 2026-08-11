@@ -6,6 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
+import { useServerFn } from "@tanstack/react-start";
+import { checkIsAdmin } from "@/lib/admin.functions";
 const logo = { url: "/logo.webp" };
 import { SmartBack } from "@/components/smart-back";
 
@@ -14,50 +16,30 @@ export const Route = createFileRoute("/admin-gate")({
   component: AdminGatePage,
 });
 
-// Allowlisted admin accounts. The first sign-in attempt silently provisions
-// the account if it does not yet exist, so the credentials below "just work".
-const ADMIN_ALLOWLIST = ["edusannaonlinelearning@gmail.com", "tinashelvurayai@gmail.com"];
-
 function AdminGatePage() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [submitting, setSubmitting] = useState(false);
+  const checkAdmin = useServerFn(checkIsAdmin);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
     try {
       const signIn = await supabase.auth.signInWithPassword({ email, password });
-      if (!signIn.error) {
-        toast.success("Welcome back, admin.");
-        navigate({ to: "/admin" });
-        return;
+      if (signIn.error) throw signIn.error;
+
+      // Authorization is decided server-side by the admin role in the database.
+      // No email, password or role identifier is ever hardcoded in the client.
+      const result = await checkAdmin();
+      if (!result?.isAdmin) {
+        await supabase.auth.signOut();
+        throw new Error("This account does not have admin access.");
       }
 
-      const msg = signIn.error.message.toLowerCase();
-      const looksMissing = msg.includes("invalid login") || msg.includes("invalid credentials") || msg.includes("not confirmed");
-      const allowlisted = ADMIN_ALLOWLIST.includes(email.trim().toLowerCase());
-
-      if (looksMissing && allowlisted) {
-        // Silent first-time provisioning for the allowlisted admin.
-        const signUp = await supabase.auth.signUp({
-          email,
-          password,
-          options: {
-            emailRedirectTo: `${window.location.origin}/admin`,
-            data: { full_name: email.split("@")[0], signup_type: "standard", is_admin_signup: "true" },
-          },
-        });
-        if (signUp.error && !signUp.error.message.toLowerCase().includes("already")) throw signUp.error;
-        const retry = await supabase.auth.signInWithPassword({ email, password });
-        if (retry.error) throw retry.error;
-        toast.success("Welcome, admin.");
-        navigate({ to: "/admin" });
-        return;
-      }
-
-      throw signIn.error;
+      toast.success("Welcome back, admin.");
+      navigate({ to: "/admin" });
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "Sign-in failed");
     } finally {
