@@ -15,8 +15,13 @@ import { AuthProvider } from "../lib/auth";
 import { Toaster } from "../components/ui/sonner";
 import { supabase } from "../integrations/supabase/client";
 import { AuroraBg } from "../components/aurora-bg";
+import { AppErrorBoundary } from "../components/app-error-boundary";
 
 function NotFoundComponent() {
+  useEffect(() => {
+    document.title = "Page Not Found | Edusanna";
+  }, []);
+
   return (
     <div className="flex min-h-dvh items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
@@ -155,6 +160,7 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <AppErrorBoundary>
       <AuthProvider>
         <div className="min-h-screen premium-bg">
           <AuroraBg />
@@ -164,6 +170,7 @@ function RootComponent() {
         </div>
         <Toaster richColors position="top-center" theme="dark" />
       </AuthProvider>
+      </AppErrorBoundary>
     </QueryClientProvider>
   );
 }

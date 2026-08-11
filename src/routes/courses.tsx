@@ -67,9 +67,6 @@ function CoursesPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
             <PriceTag level="certificate" size="md" showLabel />
             <PriceTag level="diploma" size="md" showLabel />
-            <span className="text-xs font-semibold text-green-700 bg-green-50 px-3 py-1 rounded-full border border-green-200">
-              Launch pricing - limited time
-            </span>
           </div>
 
           <div className="relative max-w-xl mx-auto mb-6">

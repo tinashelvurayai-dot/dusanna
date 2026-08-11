@@ -16,8 +16,8 @@ export const specialCourseCatalog: CourseCatalogItem[] = [
   {
     id: "ahep-plastic-pollution",
     letter: "A",
-    certificateTitle: "Global AHEP - Plastic Pollution Leadership (English)",
-    diplomaTitle: "Global AHEP Certified Plastic Pollution Leadership Program",
+    certificateTitle: "AHEP Plastic Pollution Leadership (English)",
+    diplomaTitle: "AHEP Certified Plastic Pollution Leadership Program",
     category: "agriculture",
     icon: "Leaf",
     color: "from-teal-500 to-green-500",
@@ -25,8 +25,8 @@ export const specialCourseCatalog: CourseCatalogItem[] = [
   {
     id: "ahep-pollution-plastique",
     letter: "A",
-    certificateTitle: "Global AHEP - Pollution Plastique, Leadership (Francais)",
-    diplomaTitle: "Programme de Leadership Certifie Global AHEP sur la Pollution Plastique",
+    certificateTitle: "AHEP Pollution Plastique, Leadership (Français)",
+    diplomaTitle: "Programme de Leadership Certifié AHEP sur la Pollution Plastique",
     category: "agriculture",
     icon: "Leaf",
     color: "from-teal-500 to-green-500",

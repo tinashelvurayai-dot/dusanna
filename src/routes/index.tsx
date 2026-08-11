@@ -85,14 +85,18 @@ function Index() {
     <div className="min-h-screen relative overflow-hidden">
       <SiteNavbar />
 
-      {/* Hero */}
-      <section className="pt-36 pb-20 px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-7xl mx-auto text-center">
+      {/* Hero - fits within one viewport on desktop */}
+      <section
+        className="relative z-10 px-4 sm:px-6 lg:px-8 flex items-center"
+        style={{ minHeight: "90vh", paddingTop: "clamp(6rem, 11vh, 8rem)", paddingBottom: "clamp(1.5rem, 4vh, 3rem)" }}
+      >
+        <div className="max-w-7xl mx-auto text-center w-full">
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center px-6 py-3 rounded-full backdrop-blur-md bg-[rgba(3,169,244,0.12)] text-[#03A9F4] text-sm font-semibold shadow-sm mb-8 border border-[rgba(3,169,244,0.4)]"
+            className="inline-flex items-center rounded-full backdrop-blur-md bg-[rgba(3,169,244,0.12)] text-[#03A9F4] font-semibold shadow-sm border border-[rgba(3,169,244,0.4)]"
+            style={{ padding: "clamp(0.4rem,0.9vh,0.7rem) clamp(1rem,2vw,1.5rem)", fontSize: "clamp(0.75rem,1.4vh,0.875rem)", marginBottom: "clamp(0.75rem,2vh,1.5rem)" }}
           >
             Free Learning · Certificate &amp; Diploma Programs A-Z
           </motion.div>
@@ -100,7 +104,8 @@ function Index() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-5xl md:text-7xl font-black mb-8 leading-tight tracking-tight"
+            className="font-black leading-tight tracking-tight"
+            style={{ fontSize: "clamp(2.25rem, 5.2vh + 1vw, 4rem)", marginBottom: "clamp(0.75rem,2vh,1.5rem)" }}
           >
             <span className="text-white">Learn Anything.</span>
             <br />
@@ -108,12 +113,18 @@ function Index() {
 
           </motion.h1>
 
-          <p className="text-lg md:text-2xl text-blue-800 mb-6 max-w-3xl mx-auto leading-relaxed font-light">
+          <p
+            className="text-blue-800 max-w-3xl mx-auto leading-relaxed font-light"
+            style={{ fontSize: "clamp(0.95rem, 1.9vh, 1.25rem)", marginBottom: "clamp(0.75rem,2vh,1.25rem)" }}
+          >
             Create a free account and access all courses instantly. Learn at your own pace, track your progress and
             only pay when you're ready for an official Certificate or Diploma.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-3 mb-10">
+          <div
+            className="flex flex-wrap items-center justify-center gap-2 sm:gap-3"
+            style={{ marginBottom: "clamp(0.6rem,1.8vh,1.25rem)" }}
+          >
             <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-green-200 shadow-sm">
               <span className="text-xs font-bold text-blue-900">Certificate</span>
               <PriceTag level="certificate" size="sm" />
@@ -122,14 +133,14 @@ function Index() {
               <span className="text-xs font-bold text-blue-900">Diploma</span>
               <PriceTag level="diploma" size="sm" />
             </span>
-            <span className="text-xs font-semibold text-green-700 bg-green-50 px-3 py-1 rounded-full border border-green-200">
-              Limited-time launch pricing
-            </span>
           </div>
 
           {/* Social proof bar */}
-          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 sm:gap-5 mb-10">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-amber-200 shadow-sm">
+          <div
+            className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-2 sm:gap-4"
+            style={{ marginBottom: "clamp(0.75rem,2vh,1.5rem)" }}
+          >
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-amber-200 shadow-sm">
               <span className="flex text-amber-400">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star key={i} className="w-4 h-4 fill-amber-400" />
@@ -137,7 +148,7 @@ function Index() {
               </span>
               <span className="text-sm font-bold text-blue-900">4.9 / 5</span>
             </div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-blue-200 shadow-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-blue-200 shadow-sm">
               <span className="relative flex h-2.5 w-2.5">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
                 <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
@@ -145,40 +156,49 @@ function Index() {
               <span className="text-sm font-bold text-blue-900">{userCount}</span>
               <span className="text-sm text-blue-600">Users</span>
             </div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-sm">
               <TrendingUp className="w-4 h-4" />
               <span className="text-sm font-bold">Join the race</span>
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+          <div
+            className="flex flex-col sm:flex-row gap-3 justify-center items-center"
+            style={{ marginBottom: "clamp(1rem,3vh,2.5rem)" }}
+          >
             <Link to="/courses">
-              <Button className="premium-button text-lg px-8 py-4">
+              <Button className="premium-button text-base px-7 py-3">
                 <Play className="w-5 h-5 mr-2" />
                 Browse All Courses
               </Button>
             </Link>
             <Link to="/auth" search={{ mode: "signup" }}>
-              <Button className="premium-button-outline text-lg px-8 py-3.5">Get Started Free</Button>
+              <Button className="premium-button-outline text-base px-7 py-3">Get Started Free</Button>
             </Link>
             <Link to="/verify">
-              <Button variant="outline" className="text-lg px-8 py-3.5 bg-white/80 border-blue-300 text-purple-700 hover:bg-white hover:text-purple-800">
+              <Button variant="outline" className="text-base px-7 py-3 bg-white/80 border-blue-300 text-purple-700 hover:bg-white hover:text-purple-800">
                 <ShieldCheck className="w-5 h-5 mr-2" />
                 Verify a Certificate
               </Button>
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center group">
-                <div className="text-3xl md:text-4xl font-black gradient-text mb-2">{stat.number}</div>
-                <div className="text-blue-700 font-semibold">{stat.label}</div>
+                <div
+                  className="font-black gradient-text mb-1"
+                  style={{ fontSize: "clamp(1.5rem, 3.2vh, 2.25rem)" }}
+                >
+                  {stat.number}
+                </div>
+                <div className="text-blue-700 font-semibold text-sm sm:text-base">{stat.label}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* What students say */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
