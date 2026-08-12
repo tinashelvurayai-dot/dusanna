@@ -128,7 +128,11 @@ function AuthPage() {
         } else {
           window.localStorage.removeItem(REMEMBER_KEY);
         }
-        const { data: signed, error } = await supabase.auth.signInWithPassword({ email, password });
+        const { data: signed, error } = await supabase.auth.signInWithPassword({
+          email,
+          password,
+          options: { captchaToken: captchaToken || undefined },
+        });
         if (error) throw error;
         toast.success("Welcome back!");
         if (signed.user) {
