@@ -10,6 +10,8 @@ import { supabase } from "@/integrations/supabase/client";
 import { lovable } from "@/integrations/lovable/index";
 import { useAuth } from "@/lib/auth";
 import { PhoneInput, COUNTRIES, type Country } from "@/components/phone-input";
+import { TurnstileCaptcha, captchaEnabled } from "@/components/turnstile-captcha";
+import { useRateLimit } from "@/hooks/use-rate-limit";
 const logo = { url: "/logo.webp" };
 import { SmartBack } from "@/components/smart-back";
 import { LegalModal } from "@/components/legal-modal";
