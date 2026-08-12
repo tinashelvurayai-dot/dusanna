@@ -21,7 +21,7 @@ export function SiteFooter() {
   };
 
   return (
-    <footer className="bg-blue-950 text-blue-100 py-12 px-4 sm:px-6 lg:px-8">
+    <footer className="bg-blue-950 text-blue-100 py-12 pb-[calc(3rem+env(safe-area-inset-bottom))] px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-2 mb-3">

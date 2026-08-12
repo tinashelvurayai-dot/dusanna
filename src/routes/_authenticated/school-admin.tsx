@@ -542,7 +542,7 @@ function StudentDrilldownDialog({ studentId, onClose }: { studentId: string | nu
 function MiniStat({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-lg bg-blue-50 px-3 py-2">
-      <div className="text-[10px] uppercase tracking-wide text-blue-500">{label}</div>
+      <div className="text-xs uppercase tracking-wide text-blue-500">{label}</div>
       <div className="font-bold text-blue-900 text-sm">{value}</div>
     </div>
   );

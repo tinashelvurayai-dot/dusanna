@@ -10,6 +10,8 @@ import { supabase } from "@/integrations/supabase/client";
 import { lovable } from "@/integrations/lovable/index";
 import { useAuth } from "@/lib/auth";
 import { PhoneInput, COUNTRIES, type Country } from "@/components/phone-input";
+import { TurnstileCaptcha, captchaEnabled } from "@/components/turnstile-captcha";
+import { useRateLimit } from "@/hooks/use-rate-limit";
 const logo = { url: "/logo.webp" };
 import { SmartBack } from "@/components/smart-back";
 import { LegalModal } from "@/components/legal-modal";
@@ -49,6 +51,8 @@ function AuthPage() {
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [legalOpen, setLegalOpen] = useState<"privacy" | "terms" | null>(null);
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const { checkLimit, remainingTime } = useRateLimit(5, 60_000);
 
   useEffect(() => {
     if (loading || !user) return;
@@ -89,6 +93,11 @@ function AuthPage() {
         return;
       }
     }
+    if (!checkLimit()) {
+      const seconds = Math.ceil(remainingTime() / 1000);
+      toast.error(`Too many attempts. Please wait ${seconds} seconds.`);
+      return;
+    }
     setSubmitting(true);
     try {
       if (mode === "signup") {
@@ -98,6 +107,7 @@ function AuthPage() {
           email,
           password,
           options: {
+            captchaToken: captchaToken || undefined,
             emailRedirectTo: `${window.location.origin}/dashboard`,
             data: {
               full_name: fullName,
@@ -118,7 +128,11 @@ function AuthPage() {
         } else {
           window.localStorage.removeItem(REMEMBER_KEY);
         }
-        const { data: signed, error } = await supabase.auth.signInWithPassword({ email, password });
+        const { data: signed, error } = await supabase.auth.signInWithPassword({
+          email,
+          password,
+          options: { captchaToken: captchaToken || undefined },
+        });
         if (error) throw error;
         toast.success("Welcome back!");
         if (signed.user) {
@@ -282,7 +296,12 @@ function AuthPage() {
               </span>
             </label>
           )}
-          <Button type="submit" disabled={submitting} className="auth-submit premium-button w-full py-3">
+          <TurnstileCaptcha onVerify={setCaptchaToken} />
+          <Button
+            type="submit"
+            disabled={submitting || (captchaEnabled && !captchaToken)}
+            className="auth-submit premium-button w-full py-3 min-h-[44px] disabled:opacity-50 disabled:cursor-not-allowed"
+          >
             {submitting && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
             {mode === "signup" ? "Create account" : "Log in"}
           </Button>

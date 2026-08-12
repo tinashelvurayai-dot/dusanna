@@ -24,7 +24,7 @@ export function PriceTag({ level, size = "md", className, showLabel = false }: P
   const pct = Math.round(((old - now) / old) * 100);
 
   const sizes = {
-    sm: { now: "text-sm font-bold", old: "text-xs", badge: "text-[10px] px-1.5 py-0.5" },
+    sm: { now: "text-sm font-bold", old: "text-xs", badge: "text-xs px-1.5 py-0.5" },
     md: { now: "text-base font-bold", old: "text-sm", badge: "text-xs px-2 py-0.5" },
     lg: { now: "text-2xl font-black", old: "text-base", badge: "text-xs px-2 py-1" },
   }[size];
