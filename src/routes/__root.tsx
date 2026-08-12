@@ -16,6 +16,7 @@ import { Toaster } from "../components/ui/sonner";
 import { supabase } from "../integrations/supabase/client";
 import { AuroraBg } from "../components/aurora-bg";
 import { AppErrorBoundary } from "../components/app-error-boundary";
+import { initSentry } from "../lib/sentry";
 
 function NotFoundComponent() {
   useEffect(() => {
