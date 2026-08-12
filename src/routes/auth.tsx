@@ -51,6 +51,8 @@ function AuthPage() {
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [legalOpen, setLegalOpen] = useState<"privacy" | "terms" | null>(null);
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const { checkLimit, remainingTime } = useRateLimit(5, 60_000);
 
   useEffect(() => {
     if (loading || !user) return;
