@@ -93,6 +93,11 @@ function AuthPage() {
         return;
       }
     }
+    if (!checkLimit()) {
+      const seconds = Math.ceil(remainingTime() / 1000);
+      toast.error(`Too many attempts. Please wait ${seconds} seconds.`);
+      return;
+    }
     setSubmitting(true);
     try {
       if (mode === "signup") {
