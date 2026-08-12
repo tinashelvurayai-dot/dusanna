@@ -107,6 +107,7 @@ function AuthPage() {
           email,
           password,
           options: {
+            captchaToken: captchaToken || undefined,
             emailRedirectTo: `${window.location.origin}/dashboard`,
             data: {
               full_name: fullName,
