@@ -296,7 +296,12 @@ function AuthPage() {
               </span>
             </label>
           )}
-          <Button type="submit" disabled={submitting} className="auth-submit premium-button w-full py-3">
+          <TurnstileCaptcha onVerify={setCaptchaToken} />
+          <Button
+            type="submit"
+            disabled={submitting || (captchaEnabled && !captchaToken)}
+            className="auth-submit premium-button w-full py-3 min-h-[44px] disabled:opacity-50 disabled:cursor-not-allowed"
+          >
             {submitting && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
             {mode === "signup" ? "Create account" : "Log in"}
           </Button>
