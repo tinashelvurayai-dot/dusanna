@@ -52,7 +52,7 @@ export function SiteNavbar() {
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-[rgba(7,9,26,0.7)] border-b border-[rgba(139,124,255,0.15)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20 gap-2">
+        <div className="flex justify-between items-center h-16 sm:h-20 gap-2">
           <Link to="/" className="flex items-center space-x-2 sm:space-x-3 hover:opacity-90 transition min-w-0">
             <img src={logo.url} alt="Edusanna logo" className="w-12 h-12 sm:w-14 sm:h-14 object-contain flex-shrink-0" />
             <div className="flex flex-col justify-center min-w-0">
@@ -102,7 +102,7 @@ export function SiteNavbar() {
                   <Button variant="ghost" className="text-blue-700 hover:text-blue-800 hover:bg-blue-50 text-sm">Login</Button>
                 </Link>
                 <Link to="/auth" search={{ mode: "signup" }}>
-                  <Button className="premium-button text-xs sm:text-base px-3 sm:px-6 py-2 h-auto sm:h-10">
+                  <Button className="premium-button text-xs sm:text-base px-4 sm:px-6 py-2.5 min-h-[44px] h-auto">
                     <span className="hidden sm:inline">Get Started</span>
                     <span className="sm:hidden">Start</span>
                   </Button>
@@ -120,7 +120,7 @@ export function SiteNavbar() {
             aria-hidden="true"
             tabIndex={-1}
             onClick={() => setMobileMenuOpen(false)}
-            className="fixed inset-0 top-20 z-40 bg-black/40 cursor-default"
+            className="fixed inset-0 top-16 sm:top-20 z-40 bg-black/40 cursor-default"
           />
           <div
             id="mobile-nav"
