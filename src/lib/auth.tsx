@@ -1,6 +1,20 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import type { Session, User } from "@supabase/supabase-js";
 import { supabase } from "@/integrations/supabase/client";
+import { notifySignupEvent } from "@/lib/tracking.functions";
+
+/** Fire the "new sign up" Telegram alert once per browser session.
+ *  The server de-duplicates permanently, this just avoids extra calls. */
+function pingSignupOnce(userId: string) {
+  try {
+    const key = `edusanna-signup-ping:${userId}`;
+    if (sessionStorage.getItem(key)) return;
+    sessionStorage.setItem(key, "1");
+  } catch {
+    /* private mode - still fine, server de-duplicates */
+  }
+  void notifySignupEvent({ data: undefined }).catch(() => {});
+}
 
 interface AuthContextValue {
   user: User | null;
