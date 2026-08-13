@@ -13,7 +13,7 @@ function pingSignupOnce(userId: string) {
   } catch {
     /* private mode - still fine, server de-duplicates */
   }
-  void notifySignupEvent({ data: undefined }).catch(() => {});
+  void notifySignupEvent({}).catch(() => {});
 }
 
 interface AuthContextValue {
@@ -40,12 +40,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setSession(newSession);
       setUser(newSession?.user ?? null);
       setLoading(false);
+      if (newSession?.user) pingSignupOnce(newSession.user.id);
     });
 
     supabase.auth.getSession().then(({ data }) => {
       setSession(data.session);
       setUser(data.session?.user ?? null);
       setLoading(false);
+      if (data.session?.user) pingSignupOnce(data.session.user.id);
     });
 
     return () => subscription.unsubscribe();
