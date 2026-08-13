@@ -10,6 +10,8 @@ import { QuizModule } from "@/components/quiz-module";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/lib/auth";
 import { getCatalogItem, loadCourseModules, getCourseTitle, type CourseLevel } from "@/lib/courses";
+import { isSpecialCourse } from "@/lib/special-courses";
+import { notifyCourseCompleted } from "@/lib/tracking.functions";
 
 export const Route = createFileRoute("/_authenticated/learn/$courseId/$level")({
   loader: ({ params }) => {
@@ -35,6 +37,7 @@ function LearnPage() {
   const queryClient = useQueryClient();
 
   const title = getCourseTitle(item, lvl);
+  const special = isSpecialCourse(courseId);
   const [active, setActive] = useState(0);
 
   const { data: modules = [], isLoading: modulesLoading } = useQuery({
@@ -86,6 +89,7 @@ function LearnPage() {
     queryClient.invalidateQueries({ queryKey: ["progress", user.id, courseId, lvl] });
     queryClient.invalidateQueries({ queryKey: ["dashboard", user.id] });
     if (allDone) {
+      void notifyCourseCompleted({ data: { courseId, courseName: title, level: lvl } }).catch(() => {});
       toast.success("🎉 Course complete! You can now request your credential.");
     } else {
       toast.success("Module complete!");
@@ -186,9 +190,26 @@ function LearnPage() {
                 {progress?.is_completed && (
                   <div className="mt-10 rounded-2xl hero-gradient-premium p-8 text-center">
                     <Trophy className="w-12 h-12 text-white mx-auto mb-3" />
-                    <h3 className="text-2xl font-black text-white mb-2">Course complete!</h3>
-                    <p className="text-blue-50 mb-4">Great work. Credential payments &amp; downloads are coming soon.</p>
-                    <Link to="/dashboard"><Button className="bg-white text-blue-700 hover:bg-blue-50 font-bold">Back to dashboard</Button></Link>
+                    <h3 className="text-2xl font-black text-white mb-2">
+                      {special ? "Congratulations!" : "Course complete!"}
+                    </h3>
+                    <p className="text-blue-50 mb-4">
+                      {special
+                        ? "You have completed this Professional Leadership Program. Confirm your details and submit to receive your diploma."
+                        : "Great work. You can now request your official credential."}
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                      <Link to="/certificate-payment" search={{ courseId, level: lvl }}>
+                        <Button className="bg-white text-blue-700 hover:bg-blue-50 font-bold">
+                          {special ? "Confirm details & submit" : `Get official ${lvl}`}
+                        </Button>
+                      </Link>
+                      <Link to="/dashboard">
+                        <Button variant="outline" className="border-white/60 bg-transparent text-white hover:bg-white/10 font-bold">
+                          Back to dashboard
+                        </Button>
+                      </Link>
+                    </div>
                   </div>
                 )}
               </>

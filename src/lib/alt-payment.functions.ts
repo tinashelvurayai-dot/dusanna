@@ -2,7 +2,8 @@ import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 
 import { getCoursePrice, type PriceLevel } from "@/lib/pricing";
-const ALLOWED_METHODS = ["ecocash", "mukuru", "wechat_pay"] as const;
+import { isSpecialCourse } from "@/lib/special-courses";
+const ALLOWED_METHODS = ["ecocash", "mukuru", "wechat_pay", "bank_transfer", "cash", "paypal"] as const;
 type Method = (typeof ALLOWED_METHODS)[number];
 
 /** Standard user submits an alt-payment request after picking 1-3 methods. */
@@ -33,7 +34,8 @@ export const submitAltPaymentRequest = createServerFn({ method: "POST" })
       .eq("id", context.userId)
       .maybeSingle();
     if (!profile) throw new Error("Profile not found.");
-    if ((profile.signup_type ?? "standard") !== "standard") {
+    const special = isSpecialCourse(data.courseId);
+    if (!special && (profile.signup_type ?? "standard") !== "standard") {
       throw new Error("Alt payment is only available for standard learners.");
     }
 
@@ -66,11 +68,17 @@ export const submitAltPaymentRequest = createServerFn({ method: "POST" })
     try {
       const { notifyAdminTelegram } = await import("@/lib/notify.server");
       const label = data.level === "diploma" ? "Diploma" : "Certificate";
-      const methodLabel = data.methods
-        .map((m) => (m === "wechat_pay" ? "WeChat Pay" : m === "mukuru" ? "Mukuru" : "Ecocash"))
-        .join(", ");
+      const labels: Record<string, string> = {
+        wechat_pay: "WeChat Pay",
+        mukuru: "Mukuru",
+        ecocash: "Ecocash",
+        bank_transfer: "Bank transfer",
+        cash: "Cash",
+        paypal: "PayPal",
+      };
+      const methodLabel = data.methods.map((m) => labels[m] ?? m).join(", ");
       await notifyAdminTelegram(
-        `Alt-payment request: ${label} for "${data.courseName}" by ${profile.full_name ?? profile.email ?? "learner"} (${profile.email ?? "no email"}). Preferred: ${methodLabel}. Amount: $${getCoursePrice(data.courseId, data.level as PriceLevel)}.`,
+        `${special ? "AHEP special programme submission" : "Alt-payment request"}: ${label} for "${data.courseName}" by ${profile.full_name ?? profile.email ?? "learner"} (${profile.email ?? "no email"}). Preferred: ${methodLabel}. Amount: $${getCoursePrice(data.courseId, data.level as PriceLevel)}.`,
       );
     } catch {
       /* never block */

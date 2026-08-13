@@ -182,6 +182,39 @@ export type Database = {
         }
         Relationships: []
       }
+      enrollment_certificate_ids: {
+        Row: {
+          certificate_id: string
+          course_id: string
+          course_title: string | null
+          created_at: string
+          id: string
+          level: string
+          student_name: string | null
+          user_id: string
+        }
+        Insert: {
+          certificate_id: string
+          course_id: string
+          course_title?: string | null
+          created_at?: string
+          id?: string
+          level: string
+          student_name?: string | null
+          user_id: string
+        }
+        Update: {
+          certificate_id?: string
+          course_id?: string
+          course_title?: string | null
+          created_at?: string
+          id?: string
+          level?: string
+          student_name?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
       enrollments: {
         Row: {
           course_id: string
@@ -206,6 +239,27 @@ export type Database = {
           id?: string
           level?: string
           user_id?: string
+        }
+        Relationships: []
+      }
+      notification_log: {
+        Row: {
+          created_at: string
+          event_key: string
+          id: string
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          event_key: string
+          id?: string
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          event_key?: string
+          id?: string
+          user_id?: string | null
         }
         Relationships: []
       }

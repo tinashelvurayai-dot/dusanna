@@ -347,11 +347,27 @@ function CertificatePaymentPage() {
           <Dialog open={showAltConfirm} onOpenChange={setShowAltConfirm}>
             <DialogContent>
               <DialogHeader>
-                <DialogTitle>Request received</DialogTitle>
+                <DialogTitle>{isSpecial ? "Submission successful" : "Request received"}</DialogTitle>
                 <DialogDescription>
-                  Edusanna Team will assist you via email instructions with payment guidance details.
+                  {isSpecial
+                    ? "Your details have been received by the Edusanna team."
+                    : "Edusanna Team will assist you via email instructions with payment guidance details."}
                 </DialogDescription>
               </DialogHeader>
+              {isSpecial && (
+                <div className="rounded-2xl border border-teal-200 bg-gradient-to-br from-teal-50 to-blue-50 p-5 text-center">
+                  <p className="text-base font-bold text-blue-900 mb-2">
+                    Congratulations on completing this Professional Leadership Program <span aria-hidden="true">⭐⭐⭐</span>
+                  </p>
+                  <p className="text-sm text-blue-800 leading-relaxed">
+                    An email from <strong>edusannaonlinelearning@gmail.com</strong> will be sent to you with payment
+                    option details. After payment completion you will finally receive your Diploma via email.
+                  </p>
+                  <p className="text-xs text-teal-700 mt-3">
+                    The AHEP diploma is a unique credential issued with the programme's partner logos.
+                  </p>
+                </div>
+              )}
               <DialogFooter>
                 <Button onClick={() => { setShowAltConfirm(false); navigate({ to: "/dashboard" }); }} className="premium-button">
                   Got it
