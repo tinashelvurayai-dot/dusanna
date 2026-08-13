@@ -16,6 +16,7 @@ import { pageHead } from "@/lib/site";
 import { getCourseImage } from "@/lib/course-images";
 import { useAuth } from "@/lib/auth";
 import { supabase } from "@/integrations/supabase/client";
+import { notifyCourseStarted } from "@/lib/tracking.functions";
 
 export const Route = createFileRoute("/course/$id")({
   loader: ({ params }) => {
@@ -75,6 +76,9 @@ function CoursePage() {
         { onConflict: "user_id,course_id,level" },
       );
       if (error) throw error;
+      if (special) {
+        void notifyCourseStarted({ data: { courseId: item.id, courseName: title, level } }).catch(() => {});
+      }
       navigate({ to: "/learn/$courseId/$level", params: { courseId: item.id, level } });
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "Could not enroll");
