@@ -88,7 +88,7 @@ function Index() {
       {/* Hero - fits within one viewport on desktop */}
       <section
         className="relative z-10 px-4 sm:px-6 lg:px-8 flex items-center"
-        style={{ minHeight: "90vh", paddingTop: "clamp(6rem, 11vh, 8rem)", paddingBottom: "clamp(1.5rem, 4vh, 3rem)" }}
+        style={{ minHeight: "100svh", paddingTop: "clamp(5.5rem, 10vh, 7.5rem)", paddingBottom: "clamp(1rem, 3vh, 2.5rem)" }}
       >
         <div className="max-w-7xl mx-auto text-center w-full">
           <motion.div

@@ -27,6 +27,7 @@ import {
 } from "@/lib/admin.functions";
 import { createSchoolAdmin, listSchoolAdmins, deleteSchoolAdmin } from "@/lib/school.functions";
 import { listAltPaymentRequests, markAltPaymentReceived } from "@/lib/alt-payment.functions";
+import { listEnrollmentCertificateIds } from "@/lib/tracking.functions";
 import { CertificatePreview, type CertificateData } from "@/components/certificate-preview";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -111,6 +112,7 @@ function AdminContent() {
               <TabsTrigger value="altPayments">Alt Payments</TabsTrigger>
               <TabsTrigger value="users">Users</TabsTrigger>
               <TabsTrigger value="certificates">Certificates</TabsTrigger>
+              <TabsTrigger value="certIds">Credential IDs</TabsTrigger>
               <TabsTrigger value="schools">Schools</TabsTrigger>
               <TabsTrigger value="schoolAdmins">School admins</TabsTrigger>
               <TabsTrigger value="sample">Home Sample</TabsTrigger>
@@ -119,6 +121,7 @@ function AdminContent() {
             <TabsContent value="altPayments"><AltPaymentsTab /></TabsContent>
             <TabsContent value="users"><UsersTab /></TabsContent>
             <TabsContent value="certificates"><CertificatesTab /></TabsContent>
+            <TabsContent value="certIds"><CredentialIdsTab /></TabsContent>
             <TabsContent value="schools"><SchoolsTab /></TabsContent>
             <TabsContent value="schoolAdmins"><SchoolAdminsTab /></TabsContent>
             <TabsContent value="sample"><SampleCertificateTab /></TabsContent>
@@ -619,6 +622,67 @@ function SchoolsTab() {
                       <Trash2 className="w-4 h-4" />
                     </Button>
                   </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CredentialIdsTab() {
+  const fetchIds = useServerFn(listEnrollmentCertificateIds);
+  const { data, isLoading } = useQuery({ queryKey: ["admin-cert-ids"], queryFn: () => fetchIds() });
+  const [q, setQ] = useState("");
+
+  if (isLoading) return <p className="text-blue-500 py-8">Loading credential IDs…</p>;
+  const rows = (data?.rows ?? []).filter((r: any) => {
+    const needle = q.trim().toLowerCase();
+    if (!needle) return true;
+    return [r.student_name, r.course_title, r.course_id, r.certificate_id]
+      .filter(Boolean)
+      .some((v: string) => v.toLowerCase().includes(needle));
+  });
+
+  return (
+    <div className="space-y-4">
+      <div className="glass-card-light p-5">
+        <h3 className="font-bold text-blue-900 mb-1">Private credential IDs</h3>
+        <p className="text-sm text-blue-600 mb-3">
+          Every enrolment is allocated a unique credential ID. Learners never see these - only this dashboard does,
+          so a certificate cannot be fabricated without payment.
+        </p>
+        <Input
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder="Search by student, course or ID"
+          className="max-w-sm"
+        />
+      </div>
+      {rows.length === 0 ? (
+        <div className="glass-card-light p-10 text-center text-blue-700">No enrolments yet.</div>
+      ) : (
+        <div className="glass-card-light p-2 sm:p-4 overflow-x-auto">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>Student</TableHead>
+                <TableHead>Course</TableHead>
+                <TableHead>Level</TableHead>
+                <TableHead>Credential ID</TableHead>
+                <TableHead>Enrolled</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {rows.map((r: any) => (
+                <TableRow key={r.id}>
+                  <TableCell className="font-medium text-blue-900">{r.student_name ?? "-"}</TableCell>
+                  <TableCell className="max-w-[220px] truncate">{r.course_title ?? r.course_id}</TableCell>
+                  <TableCell className="capitalize">{r.level}</TableCell>
+                  <TableCell className="font-mono text-xs font-semibold text-purple-700">{r.certificate_id}</TableCell>
+                  <TableCell className="text-xs text-blue-500">{new Date(r.created_at).toLocaleDateString()}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
