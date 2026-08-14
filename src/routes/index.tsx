@@ -176,7 +176,7 @@ function Index() {
               <Button className="premium-button-outline text-base px-7 py-3">Get Started Free</Button>
             </Link>
             <Link to="/verify">
-              <Button variant="outline" className="text-base px-7 py-3 bg-white/80 border-blue-300 text-purple-700 hover:bg-white hover:text-purple-800">
+              <Button variant="outline" className="text-base px-7 py-3 bg-white border-blue-300 text-purple-700 hover:bg-white hover:text-purple-800">
                 <ShieldCheck className="w-5 h-5 mr-2" />
                 Verify a Certificate
               </Button>
