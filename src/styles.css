@@ -261,3 +261,16 @@
 
 /* Certificate print — handled by jsPDF/html2canvas in src/lib/cert-pdf.ts; no @media print rules. */
 
+
+
+/* Respect the OS "reduce motion" setting - animations become instant. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
