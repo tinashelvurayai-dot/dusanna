@@ -8,8 +8,9 @@
  *   preserving aspect ratio with zero margins.
  * - Guards against duplicate concurrent invocations.
  */
-import { jsPDF } from "jspdf";
-import html2canvas from "html2canvas-pro";
+// jsPDF + html2canvas-pro are heavy (~400KB); they are imported on demand
+// inside the export function so they never ship in the initial bundle.
+
 
 const A4_MM = { w: 210, h: 297 };
 let inflight: Promise<void> | null = null;
@@ -20,7 +21,11 @@ export async function downloadCertificatePdf(
 ): Promise<void> {
   if (inflight) return inflight;
   inflight = (async () => {
-    // Wait for fonts and images to fully load to avoid blank renders.
+    const [{ jsPDF }, { default: html2canvas }] = await Promise.all([
+      import("jspdf"),
+      import("html2canvas-pro"),
+    ]);
+
     if (document.fonts?.ready) {
       try { await document.fonts.ready; } catch { /* ignore */ }
     }
