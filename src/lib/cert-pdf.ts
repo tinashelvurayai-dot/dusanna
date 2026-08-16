@@ -21,7 +21,11 @@ export async function downloadCertificatePdf(
 ): Promise<void> {
   if (inflight) return inflight;
   inflight = (async () => {
-    // Wait for fonts and images to fully load to avoid blank renders.
+    const [{ jsPDF }, { default: html2canvas }] = await Promise.all([
+      import("jspdf"),
+      import("html2canvas-pro"),
+    ]);
+
     if (document.fonts?.ready) {
       try { await document.fonts.ready; } catch { /* ignore */ }
     }
