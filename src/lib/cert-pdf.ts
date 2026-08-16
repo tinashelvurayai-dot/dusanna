@@ -8,8 +8,9 @@
  *   preserving aspect ratio with zero margins.
  * - Guards against duplicate concurrent invocations.
  */
-import { jsPDF } from "jspdf";
-import html2canvas from "html2canvas-pro";
+// jsPDF + html2canvas-pro are heavy (~400KB); they are imported on demand
+// inside the export function so they never ship in the initial bundle.
+
 
 const A4_MM = { w: 210, h: 297 };
 let inflight: Promise<void> | null = null;
